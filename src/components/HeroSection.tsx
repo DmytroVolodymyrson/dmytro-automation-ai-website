@@ -20,8 +20,9 @@ const HeroSection = () => {
         }} />
       </div>
       
-      {/* Accent glow */}
-      <div className="absolute top-1/4 right-1/4 w-[500px] h-[500px] bg-accent/5 rounded-full blur-3xl" />
+      {/* Accent glows */}
+      <div className="absolute top-1/4 right-1/4 w-[500px] h-[500px] bg-blue-600/5 rounded-full blur-3xl" />
+      <div className="absolute bottom-1/3 left-1/3 w-[400px] h-[400px] bg-cyan-500/5 rounded-full blur-3xl" />
       
       <div className="container-tight relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -36,7 +37,7 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1, duration: 0.5 }}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 text-accent text-sm font-medium mb-6"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 text-cyan-600 text-sm font-medium mb-6"
             >
               <Zap className="w-4 h-4" />
               AI Automation Expert
@@ -48,8 +49,8 @@ const HeroSection = () => {
               transition={{ delay: 0.2, duration: 0.5 }}
               className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6"
             >
-              Dmytro Automation AI:
-              <span className="block text-gradient">Work Less, Earn More</span>
+              Automate boring work.
+              <span className="block text-gradient pb-2">Focus on growth.</span>
             </motion.h1>
             
             <motion.p
@@ -86,11 +87,11 @@ const HeroSection = () => {
               className="flex flex-wrap gap-6 mt-12 justify-center lg:justify-start"
             >
               <div className="flex items-center gap-2 text-muted-foreground">
-                <Clock className="w-5 h-5 text-accent" />
+                <Clock className="w-5 h-5 text-cyan-600" />
                 <span className="text-sm font-medium">Save 10+ hrs/week</span>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
-                <TrendingUp className="w-5 h-5 text-accent" />
+                <TrendingUp className="w-5 h-5 text-cyan-600" />
                 <span className="text-sm font-medium">Scale without hiring</span>
               </div>
             </motion.div>
@@ -104,24 +105,20 @@ const HeroSection = () => {
             className="relative flex justify-center lg:justify-end"
           >
             <div className="relative">
-              {/* Photo frame with gradient border */}
-              <div className="relative w-80 h-96 lg:w-96 lg:h-[480px] rounded-2xl overflow-hidden shadow-card-hover">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center p-8">
-                    <div className="w-32 h-32 mx-auto rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                      <span className="text-5xl font-display font-bold text-primary">D</span>
-                    </div>
-                    <p className="text-muted-foreground text-sm">
-                      Upload your professional photo to personalize this section
-                    </p>
-                  </div>
-                </div>
-              </div>
-              
+              {/* Gradient glow effect */}
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-600/30 to-cyan-500/30 rounded-full blur-3xl opacity-30 scale-110"></div>
+
+              {/* Photo with circular frame */}
+              <img
+                src="/images/headshot.png"
+                alt="Dmytro - AI Automation Expert"
+                className="relative w-80 h-80 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem] rounded-full object-cover shadow-2xl border-4 border-background"
+                style={{ objectPosition: 'center 10%' }}
+              />
+
               {/* Decorative elements */}
-              <div className="absolute -top-4 -right-4 w-24 h-24 bg-accent/20 rounded-2xl -z-10" />
-              <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-primary/10 rounded-2xl -z-10" />
+              <div className="absolute -top-4 -right-4 w-24 h-24 bg-cyan-500/20 rounded-2xl -z-10" />
+              <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-blue-600/10 rounded-2xl -z-10" />
             </div>
           </motion.div>
         </div>
