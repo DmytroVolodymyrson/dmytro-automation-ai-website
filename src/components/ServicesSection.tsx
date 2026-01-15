@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import { 
-  Users, 
-  Calendar, 
-  Share2, 
-  BarChart3, 
-  MessageSquare, 
+import {
+  Users,
+  Phone,
+  Share2,
+  BarChart3,
+  Briefcase,
   Settings,
   CheckCircle2
 } from "lucide-react";
@@ -16,24 +16,24 @@ const services = [
     description: "Automate lead capture and follow-ups to never miss an opportunity",
   },
   {
-    icon: Calendar,
-    title: "Automated Appointment Booking",
-    description: "Set up smart scheduling with reminders that run on autopilot",
+    icon: Phone,
+    title: "AI Chatbots & Voice Agents",
+    description: "Answer calls and messages instantly so you're always available to customers",
   },
   {
     icon: Share2,
-    title: "Social Media Automation",
-    description: "One-click content posting across all your platforms",
+    title: "Social Media Content Automation",
+    description: "Stay consistent online and grow your audience without daily effort",
+  },
+  {
+    icon: Briefcase,
+    title: "Hiring & Recruitment Automation",
+    description: "Screen candidates and schedule interviews to find the right hire faster",
   },
   {
     icon: BarChart3,
     title: "Automated Reporting",
-    description: "Get real-time analytics and reports without lifting a finger",
-  },
-  {
-    icon: MessageSquare,
-    title: "Custom AI Chatbots",
-    description: "Handle customer inquiries 24/7 with intelligent automation",
+    description: "Track performance in real-time to make better decisions faster",
   },
   {
     icon: Settings,
@@ -44,7 +44,6 @@ const services = [
 
 const benefits = [
   "Automating repetitive tasks",
-  "Streamlining lead generation and follow-ups",
   "Optimizing operations and workflows",
   "Eliminating bottlenecks that slow business growth",
 ];
@@ -59,7 +58,7 @@ const ServicesSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-center mb-16"
+          className="text-center mb-12"
         >
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6">
             What I Do
@@ -95,9 +94,6 @@ const ServicesSection = () => {
           <h3 className="font-display text-2xl sm:text-3xl font-bold text-foreground mb-4">
             What This Looks Like
           </h3>
-          <p className="text-muted-foreground">
-            Examples of AI automations I have built for service-based businesses:
-          </p>
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -123,15 +119,6 @@ const ServicesSection = () => {
           ))}
         </div>
 
-        <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.4, duration: 0.5 }}
-          className="text-center mt-12 text-lg font-medium text-foreground"
-        >
-          No cookie-cutter solutions. Every automation is built specifically for your business needs.
-        </motion.p>
       </div>
     </section>
   );

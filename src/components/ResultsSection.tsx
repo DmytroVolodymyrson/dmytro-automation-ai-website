@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { TrendingUp, Clock, DollarSign, Users } from "lucide-react";
+import { Zap, Clock, Users, TrendingUp } from "lucide-react";
 
 const results = [
   {
@@ -9,43 +9,43 @@ const results = [
     description: "Time saved on average per client",
   },
   {
-    icon: TrendingUp,
-    metric: "3x",
-    unit: "faster",
-    description: "Lead response time improvement",
-  },
-  {
-    icon: DollarSign,
-    metric: "40%",
-    unit: "increase",
-    description: "Revenue growth through automation",
+    icon: Zap,
+    metric: "80%",
+    unit: "reduction",
+    description: "in manual work",
   },
   {
     icon: Users,
-    metric: "24/7",
-    unit: "support",
-    description: "Customer inquiries handled automatically",
+    metric: "3x",
+    unit: "capacity",
+    description: "without hiring more staff",
+  },
+  {
+    icon: TrendingUp,
+    metric: "300%+",
+    unit: "ROI",
+    description: "typical ROI in year one",
   },
 ];
 
 const caseStudies = [
   {
-    industry: "Service Business",
-    challenge: "Spending 15+ hours weekly on manual lead follow-ups",
-    solution: "Implemented AI-powered lead nurturing system with automated email sequences",
-    result: "Reduced follow-up time by 90% and increased conversion rate by 35%",
+    industry: "Restaurant",
+    challenge: "Missing reservations from after-hours calls and staff overwhelmed with phone bookings",
+    solution: "Built 24/7 AI voice receptionist handling calls, managing reservations, and routing complex inquiries",
+    result: "Captured 100% of after-hours bookings and freed up 15+ staff hours weekly",
   },
   {
-    industry: "E-commerce",
-    challenge: "Customer support tickets overwhelming small team",
-    solution: "Deployed custom AI chatbot handling 80% of common inquiries",
-    result: "Cut support response time from 4 hours to under 2 minutes",
+    industry: "B2B Marketing Agency",
+    challenge: "Wasting hours manually qualifying leads from large contact databases",
+    solution: "Created automated lead scoring system that enriches data, segments by criteria, and generates personalized outreach",
+    result: "Increased qualified lead conversion by 45% and saved 20 hours weekly on research",
   },
   {
-    industry: "Consulting Firm",
-    challenge: "Manual appointment scheduling causing missed opportunities",
-    solution: "Created automated booking system with smart reminders",
-    result: "Eliminated no-shows by 70% and saved 8 hours weekly on scheduling",
+    industry: "E-commerce Brand",
+    challenge: "Struggling to maintain consistent social media presence across multiple platforms",
+    solution: "Deployed AI system that analyzes trends, generates posts, images, and captions automatically",
+    result: "Cut content production time by 80% and grew Instagram following by 150% in 3 months",
   },
 ];
 

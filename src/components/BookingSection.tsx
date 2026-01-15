@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Calendar, CheckCircle2 } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 import { useEffect } from "react";
 
 const benefits = [
@@ -39,11 +39,6 @@ const BookingSection = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 text-accent text-sm font-medium mb-6">
-            <Calendar className="w-4 h-4" />
-            Limited Spots Available
-          </div>
-          
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
             Ready to Automate Your Business?
           </h2>

@@ -59,8 +59,7 @@ const HeroSection = () => {
               transition={{ delay: 0.3, duration: 0.5 }}
               className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Turn AI & Automation into Your Competitive Advantage. 
-              Helping businesses automate workflows, save time, and scale faster—without the tech headaches.
+              I help businesses save 10+ hours weekly and scale faster by building AI systems that automate repetitive work and free up your team.
             </motion.p>
             
             <motion.div
