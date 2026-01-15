@@ -3,10 +3,10 @@ import { Calendar, CheckCircle2 } from "lucide-react";
 import { useEffect } from "react";
 
 const benefits = [
-  "Free 30-minute strategy session",
-  "Custom automation roadmap for your business",
-  "No obligation—just valuable insights",
-  "Learn exactly how AI can help your specific situation",
+  "Identify 10+ hours/week you can save with automation",
+  "Get a custom AI roadmap tailored to your business",
+  "Learn how to scale revenue without hiring more staff",
+  "Discover automation opportunities you're missing",
 ];
 
 const BookingSection = () => {
@@ -52,60 +52,47 @@ const BookingSection = () => {
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
-          {/* Benefits */}
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="bg-card p-8 rounded-2xl shadow-card border border-border/50"
-          >
-            <h3 className="font-display text-2xl font-bold text-foreground mb-6">
-              What You'll Get From This Call
-            </h3>
-            
-            <div className="space-y-4">
-              {benefits.map((benefit, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, x: -10 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: index * 0.1, duration: 0.4 }}
-                  className="flex items-start gap-3"
-                >
-                  <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-0.5" />
-                  <span className="text-foreground">{benefit}</span>
-                </motion.div>
-              ))}
-            </div>
+        {/* Benefits */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="mb-8"
+        >
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto">
+            {benefits.map((benefit, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1, duration: 0.4 }}
+                className="flex items-start gap-3"
+              >
+                <CheckCircle2 className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                <span className="text-foreground font-medium">{benefit}</span>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
 
-            <div className="mt-8 pt-6 border-t border-border">
-              <p className="text-muted-foreground text-sm">
-                Whether you want to save 10+ hours a week or scale revenue without hiring more staff, 
-                AI automation is the answer. Let's discuss your specific challenges and opportunities.
-              </p>
-            </div>
-          </motion.div>
-
-          {/* Booking Widget */}
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="bg-card p-6 rounded-2xl shadow-card border border-border/50 min-h-[600px]"
-          >
-            <iframe
-              src="https://api.leadconnectorhq.com/widget/booking/SOMYXRWGy378BJHYRxdU"
-              style={{ width: "100%", border: "none", overflow: "hidden", minHeight: "550px" }}
-              scrolling="no"
-              id="SOMYXRWGy378BJHYRxdU_1768362260925"
-              title="Book a Strategy Call"
-            />
-          </motion.div>
-        </div>
+        {/* Booking Widget */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="max-w-4xl mx-auto bg-card p-6 rounded-2xl shadow-card border border-border/50 min-h-[600px]"
+        >
+          <iframe
+            src="https://api.leadconnectorhq.com/widget/booking/SOMYXRWGy378BJHYRxdU"
+            style={{ width: "100%", border: "none", overflow: "hidden", minHeight: "550px" }}
+            scrolling="no"
+            id="SOMYXRWGy378BJHYRxdU_1768362260925"
+            title="Book a Strategy Call"
+          />
+        </motion.div>
       </div>
     </section>
   );

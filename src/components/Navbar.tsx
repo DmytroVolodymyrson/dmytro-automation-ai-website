@@ -24,17 +24,23 @@ const Navbar = () => {
   const scrollToBooking = () => {
     const bookingSection = document.getElementById("booking");
     if (bookingSection) {
-      bookingSection.scrollIntoView({ behavior: "smooth" });
+      const wasOpen = isMobileMenuOpen;
+      setIsMobileMenuOpen(false);
+      setTimeout(() => {
+        bookingSection.scrollIntoView({ behavior: "smooth" });
+      }, wasOpen ? 300 : 0);
     }
-    setIsMobileMenuOpen(false);
   };
 
   const scrollToSection = (href: string) => {
     const section = document.querySelector(href);
     if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
+      const wasOpen = isMobileMenuOpen;
+      setIsMobileMenuOpen(false);
+      setTimeout(() => {
+        section.scrollIntoView({ behavior: "smooth" });
+      }, wasOpen ? 300 : 0);
     }
-    setIsMobileMenuOpen(false);
   };
 
   return (
@@ -45,7 +51,7 @@ const Navbar = () => {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
           ? "bg-background/95 backdrop-blur-md shadow-sm border-b border-border/50"
-          : "bg-transparent"
+          : "bg-background/80 md:bg-transparent backdrop-blur-sm md:backdrop-blur-none"
       }`}
     >
       <div className="container-tight">
