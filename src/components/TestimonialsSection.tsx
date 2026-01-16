@@ -52,7 +52,7 @@ const TestimonialsSection = () => {
             What Clients Are Saying
           </h2>
           <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
-            Don't just take my word for it—hear from businesses that have transformed their operations
+            Don't just take my word for it, hear from businesses that have transformed their operations
           </p>
         </motion.div>
 
