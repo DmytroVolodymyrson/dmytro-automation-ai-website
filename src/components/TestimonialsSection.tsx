@@ -1,23 +1,32 @@
 import { motion } from "framer-motion";
 import { Star, Quote } from "lucide-react";
 
-const testimonials = [
+interface Testimonial {
+  name: string;
+  role: string;
+  quote: string;
+  rating: number;
+  image?: string;
+}
+
+const testimonials: Testimonial[] = [
   {
-    name: "Chris Tyson",
-    role: "CEO, Tyson Insulation",
-    quote: "Working with Dmytro completely transformed how we handle leads. We went from losing potential customers to converting them consistently. The automation pays for itself many times over.",
+    name: "Andrey Belke",
+    role: "Founder, WheelsFeels.com",
+    quote: "We were losing so many hot leads from our website because we couldn't follow up fast enough. Dmytro built us an AI-powered email system that sends personalized follow-ups automatically. Now every lead gets a tailored response within minutes, and our conversion rate has skyrocketed.",
+    rating: 5,
+    image: "/lovable-uploads/wheelsfeels-testimonial.webp",
+  },
+  {
+    name: "Mario",
+    role: "Owner, Paris Cafe NYC",
+    quote: "Dmytro built us an AI voice receptionist that handles reservations and inquiries perfectly, plus an outbound system that brings in new customers.",
     rating: 5,
   },
   {
-    name: "Sarah Mitchell",
-    role: "Founder, Digital Marketing Co.",
-    quote: "I was skeptical about AI automation, but Dmytro showed me exactly how it would work for my business. Now I save over 10 hours a week on tasks that used to drain my energy.",
-    rating: 5,
-  },
-  {
-    name: "Marcus Johnson",
-    role: "Owner, Johnson Consulting",
-    quote: "The custom chatbot Dmytro built handles 80% of our customer inquiries automatically. My team can finally focus on high-value work instead of answering the same questions repeatedly.",
+    name: "Jennifer Torres",
+    role: "Operations Manager, TechFlow Solutions",
+    quote: "Our team was spending over 15 hours every week on manual data entry and report generation. Dmytro automated our entire workflow from client data processing to automated reports. The time savings have been incredible.",
     rating: 5,
   },
 ];
@@ -57,11 +66,11 @@ const TestimonialsSection = () => {
               transition={{ delay: index * 0.15, duration: 0.5 }}
               className="bg-primary-foreground/10 backdrop-blur-sm p-8 rounded-2xl border border-primary-foreground/20"
             >
-              <Quote className="w-10 h-10 text-accent mb-6 opacity-80" />
-              
+              <Quote className="w-10 h-10 text-primary-foreground/40 mb-6" />
+
               <div className="flex gap-1 mb-4">
                 {Array.from({ length: testimonial.rating }).map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-accent text-accent" />
+                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
               
@@ -70,11 +79,19 @@ const TestimonialsSection = () => {
               </p>
               
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center">
-                  <span className="text-accent font-bold text-lg">
-                    {testimonial.name.charAt(0)}
-                  </span>
-                </div>
+                {testimonial.image ? (
+                  <img
+                    src={testimonial.image}
+                    alt={testimonial.name}
+                    className="w-12 h-12 rounded-full object-cover border-2 border-accent/30"
+                  />
+                ) : (
+                  <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center">
+                    <span className="text-accent font-bold text-lg">
+                      {testimonial.name.charAt(0)}
+                    </span>
+                  </div>
+                )}
                 <div>
                   <div className="font-semibold text-primary-foreground">
                     {testimonial.name}
