@@ -47,10 +47,10 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.5 }}
-              className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6 tracking-tight"
+              className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-5 tracking-tight"
             >
-              Automate boring work.
-              <span className="block text-gradient pb-2">Focus on growth.</span>
+              Automate <br /> boring work.
+              <span className="block text-gradient pb-1 font-sans text-[0.9em]">Focus on growth.</span>
             </motion.h1>
             
             <motion.p
@@ -59,7 +59,8 @@ const HeroSection = () => {
               transition={{ delay: 0.3, duration: 0.5 }}
               className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              I help businesses save 10+ hours weekly and scale faster by building AI systems that automate repetitive work and free up your team.
+              I help businesses save 10+ hours weekly and scale faster by building AI systems that automate repetitive work and let teams focus
+   on what matters.
             </motion.p>
             
             <motion.div

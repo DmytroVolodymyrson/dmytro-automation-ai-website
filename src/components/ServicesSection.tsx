@@ -3,7 +3,7 @@ import {
   Phone,
   Share2,
   BarChart3,
-  Briefcase,
+  Layers,
   Settings,
   CheckCircle2
 } from "lucide-react";
@@ -26,9 +26,9 @@ const services = [
     description: "Stay consistent online and grow your audience without daily effort",
   },
   {
-    icon: Briefcase,
-    title: "Hiring & Recruitment Automation",
-    description: "Screen candidates and schedule interviews to find the right hire faster",
+    icon: Layers,
+    title: "Workflow Automation",
+    description: "Connect your tools and automate multi-step processes across your business",
   },
   {
     icon: BarChart3,

@@ -3,7 +3,7 @@ import { CheckCircle2 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 const benefits = [
-  "Identify 10+ hours/week you can save with automation",
+  "Identify 10+ hours/week you can save",
   "Get a custom AI roadmap tailored to your business",
   "Learn how to scale revenue without hiring more staff",
   "Discover automation opportunities you're missing",
