@@ -15,7 +15,8 @@
       "Bash(npm uninstall:*)",
       "Bash(npx tsc:*)",
       "Bash(ls:*)",
-      "Bash(sips:*)"
+      "Bash(sips:*)",
+      "Bash(rsvg-convert:*)"
     ]
   }
 }
