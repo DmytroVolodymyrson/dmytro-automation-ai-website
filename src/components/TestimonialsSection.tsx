@@ -46,7 +46,7 @@ const TestimonialsSection = () => {
       <div className="container-tight relative z-10">
         <div
           ref={headerRef}
-          className={`text-center mb-16 animate-on-scroll ${headerVisible ? "is-visible" : ""}`}
+          className={`text-center mb-10 lg:mb-16 animate-on-scroll ${headerVisible ? "is-visible" : ""}`}
         >
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
             What Clients Are Saying
@@ -56,11 +56,11 @@ const TestimonialsSection = () => {
           </p>
         </div>
 
-        <div ref={gridRef} className="grid lg:grid-cols-3 gap-8">
+        <div ref={gridRef} className="grid lg:grid-cols-3 gap-6 lg:gap-8">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className={`bg-primary-foreground/10 backdrop-blur-sm p-8 rounded-2xl border border-primary-foreground/20 animate-on-scroll stagger-${index + 1} ${gridVisible ? "is-visible" : ""}`}
+              className={`bg-primary-foreground/10 backdrop-blur-sm p-6 lg:p-8 rounded-2xl border border-primary-foreground/20 animate-on-scroll stagger-${index + 1} ${gridVisible ? "is-visible" : ""}`}
             >
               <Quote className="w-10 h-10 text-primary-foreground/40 mb-6" />
 

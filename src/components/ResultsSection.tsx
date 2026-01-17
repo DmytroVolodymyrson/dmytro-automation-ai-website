@@ -61,7 +61,7 @@ const ResultsSection = () => {
         {/* Stats Grid */}
         <div
           ref={headerRef}
-          className={`text-center mb-16 animate-on-scroll ${headerVisible ? "is-visible" : ""}`}
+          className={`text-center mb-10 lg:mb-12 animate-on-scroll ${headerVisible ? "is-visible" : ""}`}
         >
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
             Real Results for Real Businesses
@@ -71,11 +71,11 @@ const ResultsSection = () => {
           </p>
         </div>
 
-        <div ref={statsRef} className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
+        <div ref={statsRef} className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 mb-12 lg:mb-20">
           {results.map((result, index) => (
             <div
               key={index}
-              className={`bg-card p-8 rounded-2xl shadow-card text-center border border-border/50 animate-on-scroll stagger-${index + 1} ${statsVisible ? "is-visible" : ""}`}
+              className={`bg-card p-6 lg:p-8 rounded-2xl shadow-card text-center border border-border/50 animate-on-scroll stagger-${index + 1} ${statsVisible ? "is-visible" : ""}`}
             >
               <div className="w-12 h-12 mx-auto rounded-xl bg-primary/10 flex items-center justify-center mb-4">
                 <result.icon className="w-6 h-6 text-primary" />
@@ -92,7 +92,7 @@ const ResultsSection = () => {
         {/* Case Studies */}
         <div
           ref={caseHeaderRef}
-          className={`text-center mb-12 animate-on-scroll ${caseHeaderVisible ? "is-visible" : ""}`}
+          className={`text-center mb-8 lg:mb-12 animate-on-scroll ${caseHeaderVisible ? "is-visible" : ""}`}
         >
           <h3 className="font-display text-2xl sm:text-3xl font-bold text-foreground mb-4">
             Client Success Stories
@@ -102,11 +102,11 @@ const ResultsSection = () => {
           </p>
         </div>
 
-        <div ref={caseGridRef} className="grid lg:grid-cols-3 gap-8">
+        <div ref={caseGridRef} className="grid lg:grid-cols-3 gap-6 lg:gap-8">
           {caseStudies.map((study, index) => (
             <div
               key={index}
-              className={`bg-card p-8 rounded-2xl shadow-card border border-border/50 hover:border-primary/30 transition-colors animate-on-scroll stagger-${index + 1} ${caseGridVisible ? "is-visible" : ""}`}
+              className={`bg-card p-6 lg:p-8 rounded-2xl shadow-card border border-border/50 hover:border-primary/30 transition-colors animate-on-scroll stagger-${index + 1} ${caseGridVisible ? "is-visible" : ""}`}
             >
               <div className="inline-block px-3 py-1 bg-primary/10 rounded-full text-sm font-medium text-primary mb-4">
                 {study.industry}

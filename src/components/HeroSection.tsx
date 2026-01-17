@@ -25,7 +25,7 @@ const HeroSection = () => {
       <div className="absolute bottom-1/3 left-1/3 w-[400px] h-[400px] bg-cyan-500/5 rounded-full blur-3xl" />
       
       <div className="container-tight relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Left content */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -57,7 +57,7 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.5 }}
-              className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-lg mx-auto lg:mx-0"
+              className="text-lg sm:text-xl text-muted-foreground mb-6 lg:mb-8 max-w-lg mx-auto lg:mx-0"
             >
               I help businesses save 10+ hours weekly and scale faster by building AI systems that automate repetitive work and let teams focus
    on what matters.
@@ -84,7 +84,7 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.5 }}
-              className="flex flex-wrap gap-6 mt-12 justify-center lg:justify-start"
+              className="flex flex-wrap gap-6 mt-8 lg:mt-12 justify-center lg:justify-start"
             >
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Clock className="w-5 h-5 text-cyan-600" />

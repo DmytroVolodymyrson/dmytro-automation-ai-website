@@ -60,7 +60,7 @@ const ServicesSection = () => {
         {/* What I Do */}
         <div
           ref={headerRef}
-          className={`text-center mb-12 animate-on-scroll ${headerVisible ? "is-visible" : ""}`}
+          className={`text-center mb-6 lg:mb-8 animate-on-scroll ${headerVisible ? "is-visible" : ""}`}
         >
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6">
             What I Do
@@ -72,7 +72,7 @@ const ServicesSection = () => {
 
         <div
           ref={benefitsRef}
-          className={`flex flex-wrap justify-center gap-4 mb-12 animate-on-scroll ${benefitsVisible ? "is-visible" : ""}`}
+          className={`flex flex-wrap justify-center gap-4 mb-8 lg:mb-12 animate-on-scroll ${benefitsVisible ? "is-visible" : ""}`}
         >
           {benefits.map((benefit, index) => (
             <div
@@ -88,7 +88,7 @@ const ServicesSection = () => {
         {/* Service Cards */}
         <div
           ref={subheaderRef}
-          className={`text-center mb-12 animate-on-scroll ${subheaderVisible ? "is-visible" : ""}`}
+          className={`text-center mb-8 lg:mb-12 animate-on-scroll ${subheaderVisible ? "is-visible" : ""}`}
         >
           <h3 className="font-display text-2xl sm:text-3xl font-bold text-foreground mb-4">
             What This Looks Like
@@ -99,7 +99,7 @@ const ServicesSection = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className={`group bg-card p-8 rounded-2xl shadow-card hover:shadow-card-hover transition-all duration-300 border border-border/50 hover:border-accent/30 animate-on-scroll stagger-${index + 1} ${gridVisible ? "is-visible" : ""}`}
+              className={`group bg-card p-6 lg:p-8 rounded-2xl shadow-card hover:shadow-card-hover transition-all duration-300 border border-border/50 hover:border-accent/30 animate-on-scroll stagger-${index + 1} ${gridVisible ? "is-visible" : ""}`}
             >
               <div className="w-14 h-14 rounded-xl bg-accent/10 flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
                 <service.icon className="w-7 h-7 text-accent" />
