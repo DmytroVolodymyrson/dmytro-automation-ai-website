@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   const scrollToBooking = () => {
-    const bookingSection = document.getElementById("booking");
-    if (bookingSection) {
-      bookingSection.scrollIntoView({ behavior: "smooth" });
+    const bookingWidget = document.getElementById("booking-widget");
+    if (bookingWidget) {
+      bookingWidget.scrollIntoView({ behavior: "smooth" });
     }
   };
 

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Zap } from "lucide-react";
+import { motion } from "framer-motion";
+import { Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
@@ -11,7 +11,6 @@ const navLinks = [
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,24 +21,16 @@ const Navbar = () => {
   }, []);
 
   const scrollToBooking = () => {
-    const bookingSection = document.getElementById("booking");
-    if (bookingSection) {
-      const wasOpen = isMobileMenuOpen;
-      setIsMobileMenuOpen(false);
-      setTimeout(() => {
-        bookingSection.scrollIntoView({ behavior: "smooth" });
-      }, wasOpen ? 300 : 0);
+    const bookingWidget = document.getElementById("booking-widget");
+    if (bookingWidget) {
+      bookingWidget.scrollIntoView({ behavior: "smooth" });
     }
   };
 
   const scrollToSection = (href: string) => {
     const section = document.querySelector(href);
     if (section) {
-      const wasOpen = isMobileMenuOpen;
-      setIsMobileMenuOpen(false);
-      setTimeout(() => {
-        section.scrollIntoView({ behavior: "smooth" });
-      }, wasOpen ? 300 : 0);
+      section.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -61,7 +52,7 @@ const Navbar = () => {
             <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
               <Zap className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="font-display text-lg font-bold text-foreground hidden sm:block">
+            <span className="font-display text-base sm:text-lg font-bold text-foreground">
               Dmytro Automation AI
             </span>
           </a>
@@ -85,46 +76,17 @@ const Navbar = () => {
             </Button>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden p-2 text-foreground"
+          {/* Mobile CTA Button */}
+          <Button
+            onClick={scrollToBooking}
+            size="sm"
+            className="md:hidden bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
           >
-            {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+            Book a Call
+          </Button>
         </nav>
       </div>
 
-      {/* Mobile Menu */}
-      <AnimatePresence>
-        {isMobileMenuOpen && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: "auto" }}
-            exit={{ opacity: 0, height: 0 }}
-            transition={{ duration: 0.3 }}
-            className="md:hidden bg-background border-b border-border"
-          >
-            <div className="container-tight py-4 space-y-4">
-              {navLinks.map((link) => (
-                <button
-                  key={link.label}
-                  onClick={() => scrollToSection(link.href)}
-                  className="block w-full text-left text-foreground hover:text-accent transition-colors font-medium py-2"
-                >
-                  {link.label}
-                </button>
-              ))}
-              <Button
-                onClick={scrollToBooking}
-                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
-              >
-                Book a Call
-              </Button>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
     </motion.header>
   );
 };
