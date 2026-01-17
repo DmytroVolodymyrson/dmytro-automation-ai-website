@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import {
   Users,
   Phone,
@@ -8,6 +7,7 @@ import {
   Settings,
   CheckCircle2
 } from "lucide-react";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const services = [
   {
@@ -49,16 +49,18 @@ const benefits = [
 ];
 
 const ServicesSection = () => {
+  const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation<HTMLDivElement>();
+  const { ref: benefitsRef, isVisible: benefitsVisible } = useScrollAnimation<HTMLDivElement>();
+  const { ref: subheaderRef, isVisible: subheaderVisible } = useScrollAnimation<HTMLDivElement>();
+  const { ref: gridRef, isVisible: gridVisible } = useScrollAnimation<HTMLDivElement>();
+
   return (
     <section className="section-padding bg-secondary/30">
       <div className="container-tight">
         {/* What I Do */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="text-center mb-12"
+        <div
+          ref={headerRef}
+          className={`text-center mb-12 animate-on-scroll ${headerVisible ? "is-visible" : ""}`}
         >
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6">
             What I Do
@@ -66,45 +68,38 @@ const ServicesSection = () => {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
             I build AI-powered systems that free up hours every week by:
           </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            {benefits.map((benefit, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1, duration: 0.4 }}
-                className="flex items-center gap-2 px-4 py-2 bg-card rounded-full shadow-sm"
-              >
-                <CheckCircle2 className="w-4 h-4 text-accent" />
-                <span className="text-sm font-medium text-foreground">{benefit}</span>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
+        </div>
+
+        <div
+          ref={benefitsRef}
+          className={`flex flex-wrap justify-center gap-4 mb-12 animate-on-scroll ${benefitsVisible ? "is-visible" : ""}`}
+        >
+          {benefits.map((benefit, index) => (
+            <div
+              key={index}
+              className={`flex items-center gap-2 px-4 py-2 bg-card rounded-full shadow-sm animate-on-scroll-scale stagger-${index + 1} ${benefitsVisible ? "is-visible" : ""}`}
+            >
+              <CheckCircle2 className="w-4 h-4 text-accent" />
+              <span className="text-sm font-medium text-foreground">{benefit}</span>
+            </div>
+          ))}
+        </div>
 
         {/* Service Cards */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="text-center mb-12"
+        <div
+          ref={subheaderRef}
+          className={`text-center mb-12 animate-on-scroll ${subheaderVisible ? "is-visible" : ""}`}
         >
           <h3 className="font-display text-2xl sm:text-3xl font-bold text-foreground mb-4">
             What This Looks Like
           </h3>
-        </motion.div>
+        </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div ref={gridRef} className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
-            <motion.div
+            <div
               key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.1, duration: 0.4 }}
-              className="group bg-card p-8 rounded-2xl shadow-card hover:shadow-card-hover transition-all duration-300 border border-border/50 hover:border-accent/30"
+              className={`group bg-card p-8 rounded-2xl shadow-card hover:shadow-card-hover transition-all duration-300 border border-border/50 hover:border-accent/30 animate-on-scroll stagger-${index + 1} ${gridVisible ? "is-visible" : ""}`}
             >
               <div className="w-14 h-14 rounded-xl bg-accent/10 flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
                 <service.icon className="w-7 h-7 text-accent" />
@@ -115,7 +110,7 @@ const ServicesSection = () => {
               <p className="text-muted-foreground leading-relaxed">
                 {service.description}
               </p>
-            </motion.div>
+            </div>
           ))}
         </div>
 

@@ -1,5 +1,5 @@
-import { motion } from "framer-motion";
 import { Zap, Clock, Users, TrendingUp } from "lucide-react";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const results = [
   {
@@ -50,16 +50,18 @@ const caseStudies = [
 ];
 
 const ResultsSection = () => {
+  const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation<HTMLDivElement>();
+  const { ref: statsRef, isVisible: statsVisible } = useScrollAnimation<HTMLDivElement>();
+  const { ref: caseHeaderRef, isVisible: caseHeaderVisible } = useScrollAnimation<HTMLDivElement>();
+  const { ref: caseGridRef, isVisible: caseGridVisible } = useScrollAnimation<HTMLDivElement>();
+
   return (
     <section className="section-padding bg-background">
       <div className="container-tight">
         {/* Stats Grid */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="text-center mb-16"
+        <div
+          ref={headerRef}
+          className={`text-center mb-16 animate-on-scroll ${headerVisible ? "is-visible" : ""}`}
         >
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
             Real Results for Real Businesses
@@ -67,17 +69,13 @@ const ResultsSection = () => {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Here's what happens when you automate the right processes
           </p>
-        </motion.div>
+        </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
+        <div ref={statsRef} className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
           {results.map((result, index) => (
-            <motion.div
+            <div
               key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.1, duration: 0.4 }}
-              className="bg-card p-8 rounded-2xl shadow-card text-center border border-border/50"
+              className={`bg-card p-8 rounded-2xl shadow-card text-center border border-border/50 animate-on-scroll stagger-${index + 1} ${statsVisible ? "is-visible" : ""}`}
             >
               <div className="w-12 h-12 mx-auto rounded-xl bg-primary/10 flex items-center justify-center mb-4">
                 <result.icon className="w-6 h-6 text-primary" />
@@ -87,17 +85,14 @@ const ResultsSection = () => {
               </div>
               <div className="text-accent font-semibold mb-2">{result.unit}</div>
               <p className="text-sm text-muted-foreground">{result.description}</p>
-            </motion.div>
+            </div>
           ))}
         </div>
 
         {/* Case Studies */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="text-center mb-12"
+        <div
+          ref={caseHeaderRef}
+          className={`text-center mb-12 animate-on-scroll ${caseHeaderVisible ? "is-visible" : ""}`}
         >
           <h3 className="font-display text-2xl sm:text-3xl font-bold text-foreground mb-4">
             Client Success Stories
@@ -105,22 +100,18 @@ const ResultsSection = () => {
           <p className="text-muted-foreground">
             See how automation transformed these businesses
           </p>
-        </motion.div>
+        </div>
 
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div ref={caseGridRef} className="grid lg:grid-cols-3 gap-8">
           {caseStudies.map((study, index) => (
-            <motion.div
+            <div
               key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.15, duration: 0.5 }}
-              className="bg-card p-8 rounded-2xl shadow-card border border-border/50 hover:border-primary/30 transition-colors"
+              className={`bg-card p-8 rounded-2xl shadow-card border border-border/50 hover:border-primary/30 transition-colors animate-on-scroll stagger-${index + 1} ${caseGridVisible ? "is-visible" : ""}`}
             >
               <div className="inline-block px-3 py-1 bg-primary/10 rounded-full text-sm font-medium text-primary mb-4">
                 {study.industry}
               </div>
-              
+
               <div className="space-y-4">
                 <div>
                   <h5 className="text-sm font-semibold text-accent uppercase tracking-wide mb-2">
@@ -128,14 +119,14 @@ const ResultsSection = () => {
                   </h5>
                   <p className="text-muted-foreground text-sm">{study.challenge}</p>
                 </div>
-                
+
                 <div>
                   <h5 className="text-sm font-semibold text-accent uppercase tracking-wide mb-2">
                     Solution
                   </h5>
                   <p className="text-muted-foreground text-sm">{study.solution}</p>
                 </div>
-                
+
                 <div className="pt-4 border-t border-border">
                   <h5 className="text-sm font-semibold text-accent uppercase tracking-wide mb-2">
                     Result
@@ -143,7 +134,7 @@ const ResultsSection = () => {
                   <p className="text-foreground font-medium">{study.result}</p>
                 </div>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

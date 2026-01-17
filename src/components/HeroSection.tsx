@@ -47,7 +47,7 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.5 }}
-              className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6"
+              className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6 tracking-tight"
             >
               Automate boring work.
               <span className="block text-gradient pb-2">Focus on growth.</span>
@@ -108,12 +108,23 @@ const HeroSection = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600/30 to-cyan-500/30 rounded-full blur-3xl opacity-30 scale-110"></div>
 
               {/* Photo with circular frame */}
-              <img
-                src="/images/headshot.png"
-                alt="Dmytro - AI Automation Expert"
-                className="relative w-80 h-80 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem] rounded-full object-cover shadow-2xl border-4 border-background"
-                style={{ objectPosition: 'center 10%' }}
-              />
+              <picture>
+                <source
+                  type="image/webp"
+                  srcSet="/images/headshot-280.webp 280w, /images/headshot-384.webp 384w, /images/headshot-448.webp 448w, /images/headshot-896.webp 896w"
+                  sizes="(max-width: 768px) 320px, (max-width: 1024px) 384px, 448px"
+                />
+                <img
+                  src="/images/headshot-448.png"
+                  alt="Dmytro - AI Automation Expert"
+                  width={448}
+                  height={448}
+                  fetchPriority="high"
+                  decoding="async"
+                  className="relative w-80 h-80 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem] rounded-full object-cover shadow-2xl border-4 border-background"
+                  style={{ objectPosition: 'center 10%' }}
+                />
+              </picture>
 
               {/* Decorative elements */}
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-cyan-500/20 rounded-2xl -z-10" />

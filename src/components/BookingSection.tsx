@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const benefits = [
   "Identify 10+ hours/week you can save with automation",
@@ -10,12 +10,40 @@ const benefits = [
 ];
 
 const BookingSection = () => {
+  const sectionRef = useRef<HTMLElement>(null);
+  const [isWidgetLoaded, setIsWidgetLoaded] = useState(false);
+  const [shouldLoad, setShouldLoad] = useState(false);
+
   useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setShouldLoad(true);
+          observer.disconnect();
+        }
+      },
+      {
+        rootMargin: "200px",
+        threshold: 0,
+      }
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (!shouldLoad) return;
+
     // Load the external script for the booking widget
     const script = document.createElement("script");
     script.src = "https://link.msgsndr.com/js/form_embed.js";
     script.type = "text/javascript";
     script.async = true;
+    script.onload = () => setIsWidgetLoaded(true);
     document.body.appendChild(script);
 
     return () => {
@@ -27,10 +55,10 @@ const BookingSection = () => {
         document.body.removeChild(existingScript);
       }
     };
-  }, []);
+  }, [shouldLoad]);
 
   return (
-    <section id="booking" className="section-padding bg-secondary/30">
+    <section id="booking" ref={sectionRef} className="section-padding bg-secondary/30">
       <div className="container-tight">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -80,13 +108,21 @@ const BookingSection = () => {
           transition={{ duration: 0.5 }}
           className="max-w-4xl mx-auto bg-card p-6 rounded-2xl shadow-card border border-border/50 min-h-[600px]"
         >
-          <iframe
-            src="https://api.leadconnectorhq.com/widget/booking/SOMYXRWGy378BJHYRxdU"
-            style={{ width: "100%", border: "none", overflow: "hidden", minHeight: "550px" }}
-            scrolling="no"
-            id="SOMYXRWGy378BJHYRxdU_1768362260925"
-            title="Book a Strategy Call"
-          />
+          {!shouldLoad && (
+            <div className="flex items-center justify-center h-[550px]">
+              <div className="text-muted-foreground">Loading booking widget...</div>
+            </div>
+          )}
+          {shouldLoad && (
+            <iframe
+              src="https://api.leadconnectorhq.com/widget/booking/SOMYXRWGy378BJHYRxdU"
+              style={{ width: "100%", border: "none", overflow: "hidden", minHeight: "550px" }}
+              scrolling="no"
+              id="SOMYXRWGy378BJHYRxdU_1768362260925"
+              title="Book a Strategy Call"
+              loading="lazy"
+            />
+          )}
         </motion.div>
       </div>
     </section>

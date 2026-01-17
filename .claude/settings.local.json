@@ -2,7 +2,20 @@
   "permissions": {
     "allow": [
       "Bash(npm run dev:*)",
-      "Bash(tree:*)"
+      "Bash(tree:*)",
+      "WebFetch(domain:pagespeed.web.dev)",
+      "Bash(cd:*)",
+      "Bash(npm run build)",
+      "Bash(npm ls:*)",
+      "Bash(grep -r \"useEffect\" src/components/*.tsx)",
+      "Bash(grep -r \"initial\\\\|animate\\\\|transition\\\\|whileInView\" src/components/*.tsx)",
+      "Bash(sips --help:*)",
+      "Bash(brew list:*)",
+      "Bash(brew install:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npx tsc:*)",
+      "Bash(ls:*)",
+      "Bash(sips:*)"
     ]
   }
 }
