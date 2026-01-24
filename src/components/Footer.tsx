@@ -1,4 +1,5 @@
 import { Zap } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -18,9 +19,23 @@ const Footer = () => {
             <p className="text-primary-foreground/80 text-sm">
               © {currentYear} Dmytro Automation AI. All rights reserved.
             </p>
-            <p className="text-primary-foreground/60 text-xs mt-1">
-              Helping businesses automate, scale, and thrive.
-            </p>
+            <div className="flex items-center justify-center md:justify-end gap-4 mt-2">
+              <p className="text-primary-foreground/60 text-xs">
+                Helping businesses automate, scale, and thrive.
+              </p>
+              <Link
+                to="/privacy"
+                className="text-primary-foreground/60 text-xs hover:text-primary-foreground transition-colors"
+              >
+                Privacy Policy
+              </Link>
+              <Link
+                to="/terms"
+                className="text-primary-foreground/60 text-xs hover:text-primary-foreground transition-colors"
+              >
+                Terms of Service
+              </Link>
+            </div>
           </div>
         </div>
       </div>
