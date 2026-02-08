@@ -3,7 +3,7 @@ import {
   Phone,
   Share2,
   BarChart3,
-  Layers,
+  RefreshCw,
   Settings,
   CheckCircle2
 } from "lucide-react";
@@ -26,9 +26,9 @@ const services = [
     description: "Stay consistent online and grow your audience without daily effort",
   },
   {
-    icon: Layers,
-    title: "Workflow Automation",
-    description: "Connect your tools and automate multi-step processes across your business",
+    icon: RefreshCw,
+    title: "Database Reactivation",
+    description: "Turn your old leads and past customers into booked appointments — no new ad spend",
   },
   {
     icon: BarChart3,
