@@ -139,8 +139,9 @@ const InstagramReelsScraperCaseStudy = () => {
             </p>
             <div className="overflow-hidden rounded-xl border border-border/60">
               <img
-                src="/images/toufic-leads-spreadsheet.png"
+                src="/images/toufic-leads-spreadsheet.webp"
                 alt="Qualified leads spreadsheet with creator data"
+                loading="lazy"
                 className="w-full"
               />
             </div>
@@ -229,6 +230,7 @@ const InstagramReelsScraperCaseStudy = () => {
                 src="https://api.leadconnectorhq.com/widget/bookings/dmytro-automation"
                 className="lg:-mt-5"
                 style={{ width: "100%", border: "none", overflow: "hidden", minHeight: "700px" }}
+                loading="lazy"
                 scrolling="no"
                 id="dmytro-automation-booking-cs"
                 title="Book a Strategy Call"
