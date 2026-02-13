@@ -83,7 +83,8 @@ const BookingSection = () => {
         >
           <iframe
             src="https://api.leadconnectorhq.com/widget/bookings/dmytro-automation"
-            style={{ width: "100%", border: "none", overflow: "hidden", minHeight: "550px", marginTop: "-20px" }}
+            className="lg:-mt-5"
+            style={{ width: "100%", border: "none", overflow: "hidden", minHeight: "550px" }}
             scrolling="no"
             id="dmytro-automation-booking"
             title="Book a Strategy Call"

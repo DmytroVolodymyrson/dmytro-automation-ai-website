@@ -226,7 +226,8 @@ const InstagramReelsScraperCaseStudy = () => {
             <div className="bg-card px-6 pb-6 rounded-2xl shadow-card border border-border/50 overflow-hidden">
               <iframe
                 src="https://api.leadconnectorhq.com/widget/bookings/dmytro-automation"
-                style={{ width: "100%", border: "none", overflow: "hidden", minHeight: "700px", marginTop: "-20px" }}
+                className="lg:-mt-5"
+                style={{ width: "100%", border: "none", overflow: "hidden", minHeight: "700px" }}
                 scrolling="no"
                 id="dmytro-automation-booking-cs"
                 title="Book a Strategy Call"
