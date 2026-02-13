@@ -8,7 +8,7 @@ export type CaseStudySummary = {
 
 export const caseStudies: CaseStudySummary[] = [
   {
-    slug: "instagram-reels-scraper",
+    slug: "instagram-lead-generation",
     title: "Automated Instagram Lead Generation System",
     industry: "Info Business",
     description:

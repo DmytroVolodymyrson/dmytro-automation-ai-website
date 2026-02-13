@@ -7,7 +7,7 @@ import Index from "./pages/Index";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
 import CaseStudies from "./pages/CaseStudies";
-import InstagramReelsScraperCaseStudy from "./pages/case-studies/InstagramReelsScraperCaseStudy";
+import InstagramLeadGenerationCaseStudy from "./pages/case-studies/InstagramLeadGenerationCaseStudy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,8 +22,8 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route
-            path="/case-studies/instagram-reels-scraper"
-            element={<InstagramReelsScraperCaseStudy />}
+            path="/case-studies/instagram-lead-generation"
+            element={<InstagramLeadGenerationCaseStudy />}
           />
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/terms" element={<TermsOfService />} />

@@ -41,7 +41,7 @@ const caseStudies = [
     challenge: "Manually searching Instagram Reels for fitness creators, copy-pasting to Notion. Hours of work for a handful of leads",
     solution: "Built a fully automated n8n + AI pipeline that discovers, qualifies, and delivers creator leads daily with zero manual work",
     result: "",
-    slug: "/case-studies/instagram-reels-scraper",
+    slug: "/case-studies/instagram-lead-generation",
     keyResult: "50+ leads/day at $0.29/lead",
   },
   {
