@@ -79,7 +79,7 @@ const BookingSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="bg-card px-6 pb-6 rounded-2xl shadow-card border border-border/50 overflow-hidden"
+          className="bg-card px-6 pt-6 lg:pt-0 pb-6 rounded-2xl shadow-card border border-border/50 overflow-hidden"
         >
           <iframe
             src="https://api.leadconnectorhq.com/widget/bookings/dmytro-automation"

@@ -223,7 +223,7 @@ const InstagramReelsScraperCaseStudy = () => {
             <p className="text-muted-foreground text-center max-w-2xl mx-auto">
               Book a free strategy call to see how automation can transform your business
             </p>
-            <div className="bg-card px-6 pb-6 rounded-2xl shadow-card border border-border/50 overflow-hidden">
+            <div className="bg-card px-6 pt-6 lg:pt-0 pb-6 rounded-2xl shadow-card border border-border/50 overflow-hidden">
               <iframe
                 src="https://api.leadconnectorhq.com/widget/bookings/dmytro-automation"
                 className="lg:-mt-5"
