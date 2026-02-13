@@ -79,11 +79,11 @@ const BookingSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="max-w-4xl mx-auto bg-card p-6 rounded-2xl shadow-card border border-border/50 min-h-[600px]"
+          className="bg-card px-6 pb-6 rounded-2xl shadow-card border border-border/50 overflow-hidden"
         >
           <iframe
             src="https://api.leadconnectorhq.com/widget/bookings/dmytro-automation"
-            style={{ width: "100%", border: "none", overflow: "hidden", minHeight: "550px" }}
+            style={{ width: "100%", border: "none", overflow: "hidden", minHeight: "550px", marginTop: "-20px" }}
             scrolling="no"
             id="dmytro-automation-booking"
             title="Book a Strategy Call"

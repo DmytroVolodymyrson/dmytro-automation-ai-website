@@ -1,4 +1,5 @@
-import { Zap, Clock, Users, TrendingUp } from "lucide-react";
+import { ArrowRight, Zap, Clock, Users, TrendingUp } from "lucide-react";
+import { Link } from "react-router-dom";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const results = [
@@ -36,10 +37,12 @@ const caseStudies = [
     result: "Captured 100% of after-hours bookings and freed up 15+ staff hours weekly",
   },
   {
-    industry: "B2B Marketing Agency",
-    challenge: "Wasting hours manually qualifying leads from large contact databases",
-    solution: "Created automated lead scoring system that enriches data, segments by criteria, and generates personalized outreach",
-    result: "Increased qualified lead conversion by 45% and saved 20 hours weekly on research",
+    industry: "Info Business",
+    challenge: "Manually searching Instagram Reels for fitness creators, copy-pasting to Notion. Hours of work for a handful of leads",
+    solution: "Built a fully automated n8n + AI pipeline that discovers, qualifies, and delivers creator leads daily with zero manual work",
+    result: "",
+    slug: "/case-studies/instagram-reels-scraper",
+    keyResult: "50+ leads/day at $0.29/lead",
   },
   {
     industry: "E-commerce Brand",
@@ -94,6 +97,7 @@ const ResultsSection = () => {
           ref={caseHeaderRef}
           className={`text-center mb-8 lg:mb-12 animate-on-scroll ${caseHeaderVisible ? "is-visible" : ""}`}
         >
+          <div id="case-studies" />
           <h3 className="font-display text-2xl sm:text-3xl font-bold text-foreground mb-4">
             Client Success Stories
           </h3>
@@ -103,39 +107,73 @@ const ResultsSection = () => {
         </div>
 
         <div ref={caseGridRef} className="grid lg:grid-cols-3 gap-6 lg:gap-8">
-          {caseStudies.map((study, index) => (
-            <div
-              key={index}
-              className={`bg-card p-6 lg:p-8 rounded-2xl shadow-card border border-border/50 hover:border-primary/30 transition-colors animate-on-scroll stagger-${index + 1} ${caseGridVisible ? "is-visible" : ""}`}
-            >
-              <div className="inline-block px-3 py-1 bg-primary/10 rounded-full text-sm font-medium text-primary mb-4">
-                {study.industry}
+          {caseStudies.map((study, index) => {
+            const isTouficCaseStudy = index === 1;
+            const cardClasses = `bg-card p-6 lg:p-8 rounded-2xl shadow-card border border-border/50 hover:border-primary/30 transition-colors animate-on-scroll stagger-${index + 1} ${caseGridVisible ? "is-visible" : ""}`;
+
+            const cardContent = (
+              <>
+                <div className="inline-block px-3 py-1 bg-primary/10 rounded-full text-sm font-medium text-primary mb-4">
+                  {study.industry}
+                </div>
+
+                <div className="space-y-4">
+                  <div>
+                    <h5 className="text-sm font-semibold text-accent uppercase tracking-wide mb-2">
+                      Challenge
+                    </h5>
+                    <p className="text-muted-foreground text-sm">{study.challenge}</p>
+                  </div>
+
+                  <div>
+                    <h5 className="text-sm font-semibold text-accent uppercase tracking-wide mb-2">
+                      Solution
+                    </h5>
+                    <p className="text-muted-foreground text-sm">{study.solution}</p>
+                  </div>
+
+                  <div className="pt-4 border-t border-border">
+                    {isTouficCaseStudy ? (
+                      <div className="rounded-xl border border-primary/20 bg-primary/5 px-4 py-3">
+                        <p className="text-xs uppercase tracking-wide text-accent font-semibold mb-1">KEY RESULT</p>
+                        <p className="font-display text-md font-bold text-foreground">{study.keyResult}</p>
+                      </div>
+                    ) : (
+                      <>
+                        <h5 className="text-sm font-semibold text-accent uppercase tracking-wide mb-2">
+                          Result
+                        </h5>
+                        <p className="text-foreground font-medium">{study.result}</p>
+                      </>
+                    )}
+                  </div>
+
+                  {isTouficCaseStudy ? (
+                    <div className="pt-2">
+                      <span className="inline-flex items-center gap-2 text-primary hover:text-accent font-semibold transition-colors">
+                        Read More
+                        <ArrowRight className="w-4 h-4" />
+                      </span>
+                    </div>
+                  ) : null}
+                </div>
+              </>
+            );
+
+            if (isTouficCaseStudy && study.slug) {
+              return (
+                <Link key={index} to={study.slug} className={cardClasses}>
+                  {cardContent}
+                </Link>
+              );
+            }
+
+            return (
+              <div key={index} className={cardClasses}>
+                {cardContent}
               </div>
-
-              <div className="space-y-4">
-                <div>
-                  <h5 className="text-sm font-semibold text-accent uppercase tracking-wide mb-2">
-                    Challenge
-                  </h5>
-                  <p className="text-muted-foreground text-sm">{study.challenge}</p>
-                </div>
-
-                <div>
-                  <h5 className="text-sm font-semibold text-accent uppercase tracking-wide mb-2">
-                    Solution
-                  </h5>
-                  <p className="text-muted-foreground text-sm">{study.solution}</p>
-                </div>
-
-                <div className="pt-4 border-t border-border">
-                  <h5 className="text-sm font-semibold text-accent uppercase tracking-wide mb-2">
-                    Result
-                  </h5>
-                  <p className="text-foreground font-medium">{study.result}</p>
-                </div>
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

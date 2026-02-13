@@ -1,16 +1,24 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Zap } from "lucide-react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
-const navLinks = [
-  { label: "Services", href: "#services" },
-  { label: "Results", href: "#results" },
-  { label: "Testimonials", href: "#testimonials" },
+type NavLink =
+  | { label: string; href: string; type: "scroll" }
+  | { label: string; to: string; type: "route" };
+
+const navLinks: NavLink[] = [
+  { label: "Services", href: "#services", type: "scroll" as const },
+  { label: "Results", href: "#results", type: "scroll" as const },
+  { label: "Case Studies", href: "#case-studies", type: "scroll" as const },
+  { label: "Testimonials", href: "#testimonials", type: "scroll" as const },
 ];
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,6 +29,11 @@ const Navbar = () => {
   }, []);
 
   const scrollToBooking = () => {
+    if (location.pathname !== "/") {
+      navigate("/#booking-widget");
+      return;
+    }
+
     const bookingWidget = document.getElementById("booking-widget");
     if (bookingWidget) {
       bookingWidget.scrollIntoView({ behavior: "smooth" });
@@ -28,6 +41,11 @@ const Navbar = () => {
   };
 
   const scrollToSection = (href: string) => {
+    if (location.pathname !== "/") {
+      navigate(`/${href}`);
+      return;
+    }
+
     const section = document.querySelector(href);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
@@ -60,13 +78,23 @@ const Navbar = () => {
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
-              <button
-                key={link.label}
-                onClick={() => scrollToSection(link.href)}
-                className="text-muted-foreground hover:text-foreground transition-colors font-medium"
-              >
-                {link.label}
-              </button>
+              link.type === "route" ? (
+                <Link
+                  key={link.label}
+                  to={link.to}
+                  className="text-muted-foreground hover:text-foreground transition-colors font-medium"
+                >
+                  {link.label}
+                </Link>
+              ) : (
+                <button
+                  key={link.label}
+                  onClick={() => scrollToSection(link.href)}
+                  className="text-muted-foreground hover:text-foreground transition-colors font-medium"
+                >
+                  {link.label}
+                </button>
+              )
             ))}
             <Button
               onClick={scrollToBooking}
