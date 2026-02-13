@@ -29,15 +29,12 @@ const Navbar = () => {
   }, []);
 
   const scrollToBooking = () => {
-    if (location.pathname !== "/") {
-      navigate("/#booking-widget");
-      return;
-    }
-
     const bookingWidget = document.getElementById("booking-widget");
     if (bookingWidget) {
       bookingWidget.scrollIntoView({ behavior: "smooth" });
+      return;
     }
+    navigate("/#booking-widget");
   };
 
   const scrollToSection = (href: string) => {
