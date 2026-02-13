@@ -85,7 +85,7 @@ const BookingSection = () => {
             src="https://api.leadconnectorhq.com/widget/bookings/dmytro-automation"
             className="lg:-mt-5"
             style={{ width: "100%", border: "none", overflow: "hidden", minHeight: "550px" }}
-            loading="lazy"
+            loading="eager"
             scrolling="no"
             id="dmytro-automation-booking"
             title="Book a Strategy Call"
