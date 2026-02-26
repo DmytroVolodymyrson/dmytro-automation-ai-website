@@ -59,7 +59,7 @@ const ResultsSection = () => {
   const { ref: caseGridRef, isVisible: caseGridVisible } = useScrollAnimation<HTMLDivElement>();
 
   return (
-    <section className="section-padding bg-background">
+    <section className="py-8 md:py-12 lg:py-16 bg-background">
       <div className="container-tight">
         {/* Stats Grid */}
         <div

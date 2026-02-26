@@ -55,7 +55,7 @@ const ServicesSection = () => {
   const { ref: gridRef, isVisible: gridVisible } = useScrollAnimation<HTMLDivElement>();
 
   return (
-    <section className="section-padding bg-secondary/30">
+    <section className="py-8 md:py-12 lg:py-16 bg-secondary/30">
       <div className="container-tight">
         {/* What I Do */}
         <div
