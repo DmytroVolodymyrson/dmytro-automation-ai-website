@@ -2,10 +2,10 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { Zap } from "lucide-react";
 
 const stats = [
-  { value: "7", label: "Years of development experience" },
-  { value: "23", label: "Years old" },
-  { value: "10+", label: "Hours saved per client weekly" },
-  { value: "\u{1F1FA}\u{1F1E6} \u2192 \u{1F1E8}\u{1F1E6}", label: "Ukraine to Canada" },
+  { value: "7+", label: "Years building software" },
+  { value: "50+", label: "Automations built" },
+  { value: "$100K+", label: "Saved for clients annually" },
+  { value: "1000+", label: "Hours Saved" },
 ];
 
 const AboutSection = () => {
@@ -16,7 +16,7 @@ const AboutSection = () => {
   const { ref: statsRef, isVisible: statsVisible } = useScrollAnimation<HTMLDivElement>();
 
   return (
-    <section className="relative section-padding bg-background overflow-hidden">
+    <section className="relative py-8 md:py-12 lg:py-16 bg-background overflow-hidden">
       {/* Subtle dot grid overlay */}
       <div className="absolute inset-0 opacity-[0.015]">
         <div
@@ -52,8 +52,8 @@ const AboutSection = () => {
               ref={headingRef}
               className={`animate-on-scroll ${headingVisible ? "is-visible" : ""}`}
             >
-              <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-8 tracking-tight">
-                I started building software at 16. Seven years later, I build AI systems that run businesses.
+              <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-6 tracking-tight">
+                I started coding at 16. Now I build AI systems that run businesses.
               </h2>
             </div>
 
@@ -68,23 +68,20 @@ const AboutSection = () => {
             {/* Paragraphs */}
             <div
               ref={textRef}
-              className={`space-y-5 animate-on-scroll ${textVisible ? "is-visible" : ""}`}
+              className={`space-y-4 animate-on-scroll ${textVisible ? "is-visible" : ""}`}
             >
               <p className="text-muted-foreground text-base sm:text-lg leading-relaxed">
-                I'm Dmytro. I grew up in Ukraine, started coding when I was 16, and moved to Canada three years ago. I've spent the last 7 years obsessed with one question: how do you make technology actually useful for people who don't have time to think about technology?
+                I'm Dmytro. I grew up in Ukraine and wrote my first line of code at 16. After 7 years building software, I found my thing: using AI to automate the repetitive work that slows businesses down.
               </p>
               <p className="text-muted-foreground text-base sm:text-lg leading-relaxed">
-                That question led me to AI automation. I saw business owners drowning in repetitive work. Copying data between spreadsheets. Chasing leads manually. Spending hours on tasks a well-built system could handle in seconds. So I started building those systems.
-              </p>
-              <p className="text-muted-foreground text-base sm:text-lg leading-relaxed">
-                Today I use tools like n8n, Claude, and custom integrations to build automation that saves my clients 10+ hours every week. When you work with me, you work with me directly. No account managers, no handoffs, no layers. I'm a one-person operation because I believe the person who understands your problem should be the same person who builds the solution.
+                Every automation I build starts with one question: what's eating up your time? From there, I design systems that handle it, so you can spend your hours on the work that actually grows your business.
               </p>
             </div>
           </div>
 
           {/* Right - Photo (desktop only) */}
           <div className="hidden lg:flex justify-center lg:justify-end">
-            <div className={`animate-on-scroll ${photoVisible ? "is-visible" : ""}`}>
+            <div className="animate-on-scroll is-visible">
               <PhotoBlock />
             </div>
           </div>
@@ -117,24 +114,18 @@ const PhotoBlock = () => (
     {/* Gradient glow effect */}
     <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-cyan-500/20 rounded-2xl blur-3xl opacity-40 scale-110" />
 
-    {/* Photo with rectangular frame */}
-    <picture>
-      <source
-        type="image/webp"
-        srcSet="/images/headshot-280.webp 280w, /images/headshot-384.webp 384w, /images/headshot-448.webp 448w, /images/headshot-896.webp 896w"
-        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 384px, 448px"
-      />
-      <img
-        src="/images/headshot-448.png"
-        alt="Dmytro - AI Automation Expert"
-        width={448}
-        height={448}
-        loading="lazy"
-        decoding="async"
-        className="relative w-full max-w-md mx-auto lg:w-[28rem] lg:h-[28rem] rounded-2xl object-cover shadow-2xl border-4 border-background"
-        style={{ objectPosition: "center 10%" }}
-      />
-    </picture>
+    {/* Photo with rectangular frame - 2:3 portrait */}
+    <img
+      src="/images/about-800.jpg"
+      srcSet="/images/about-400.jpg 400w, /images/about-600.jpg 600w, /images/about-800.jpg 800w"
+      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 450px, 520px"
+      alt="Dmytro sitting by a window, smiling"
+      width={800}
+      height={1200}
+      loading="lazy"
+      decoding="async"
+      className="relative w-full max-w-lg lg:max-w-xl mx-auto rounded-2xl object-cover shadow-2xl border-4 border-background"
+    />
 
     {/* Decorative corner elements */}
     <div className="absolute -top-4 -right-4 w-24 h-24 bg-cyan-500/20 rounded-2xl -z-10" />
