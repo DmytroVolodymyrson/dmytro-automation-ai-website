@@ -34,7 +34,14 @@ const AboutSection = () => {
       <div className="container-tight relative z-10">
         {/* Two-column layout */}
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-          {/* Left - Text content */}
+          {/* Left - Photo (desktop only) */}
+          <div className="hidden lg:flex justify-center lg:justify-start">
+            <div className="animate-on-scroll is-visible">
+              <PhotoBlock />
+            </div>
+          </div>
+
+          {/* Right - Text content */}
           <div>
             {/* Badge */}
             <div
@@ -76,13 +83,6 @@ const AboutSection = () => {
               <p className="text-muted-foreground text-base sm:text-lg leading-relaxed">
                 Every automation I build starts with one question: what's eating up your time? From there, I design systems that handle it, so you can spend your hours on the work that actually grows your business.
               </p>
-            </div>
-          </div>
-
-          {/* Right - Photo (desktop only) */}
-          <div className="hidden lg:flex justify-center lg:justify-end">
-            <div className="animate-on-scroll is-visible">
-              <PhotoBlock />
             </div>
           </div>
         </div>
