@@ -6,32 +6,32 @@ const faqItems = [
   {
     question: "What kind of businesses do you work with?",
     answer:
-      "I work with small service businesses — HVAC companies, restaurants, real estate agents, mortgage brokers, and e-commerce brands with 1-20 employees. The common thread: they have consistent inbound leads but are losing them to slow follow-up or manual processes. I don't work with enterprises or businesses that don't have an existing product or service.",
+      "I work with small service businesses: HVAC companies, restaurants, real estate agents, mortgage brokers, and e-commerce brands with 1-20 employees. They all have the same problem: consistent inbound leads that slip through because follow-up is too slow or too manual. I don't work with enterprises or businesses without an existing product or service.",
   },
   {
     question: "How long does it take to build an AI automation system?",
     answer:
-      "Most builds take 1-3 weeks from first call to going live. A basic lead follow-up workflow (n8n + CRM) is typically 5-7 days. A full AI voice agent with booking integration is 2-3 weeks. Complex CRM builds with multiple integrations can take 4-6 weeks. I scope everything on the discovery call before we start.",
+      "Most builds go from first call to live in 1-3 weeks. A basic lead follow-up workflow is typically 5-7 days. A full AI voice agent with booking integration takes 2-3 weeks. Complex CRM builds with multiple integrations run 4-6 weeks. I scope everything on the discovery call so there are no surprises.",
   },
   {
     question: "What does AI automation cost for a small business?",
     answer:
-      "One-time builds range from $1,500 to $8,000 depending on complexity. Monthly retainers for ongoing automation management start at $500/month. Most clients see ROI within the first 30 days — a single recovered deal typically covers the cost of the entire build.",
+      "One-time builds range from $1,500 to $8,000 depending on complexity. Monthly retainers start at $500/month. Most clients see ROI within 30 days. One recovered deal usually covers the cost of the entire build.",
   },
   {
     question: "What kind of ROI can I expect?",
     answer:
-      "It depends on your average deal size and how many leads you currently lose. A restaurant client went from missing all after-hours calls to capturing 100% — a single recovered reservation night covers a month of automation costs. An info business went from spending hours manually finding leads to 50+ qualified leads per day at $0.29 each. I will give you a straight estimate on the discovery call based on your numbers.",
+      "Most clients break even within the first month. A restaurant I worked with went from missing every after-hours call to capturing 100% of them. One recovered reservation night paid for the whole build. An info business I built for went from manual lead searching to 50+ qualified leads per day at $0.29 each. On the discovery call I'll run the numbers with you based on your deal size and lead volume.",
   },
   {
     question: "Do I need a developer or technical team to use this?",
     answer:
-      "No. I build the entire system, document how it works, and hand you a dashboard you can manage without touching code. If something needs updating — a new offer, a changed workflow — I handle it. You run your business; the automation runs in the background.",
+      "No. I build the system, document how it works, and hand you a dashboard you can manage without touching code. When something needs updating, I handle it. You run your business. The automation runs in the background.",
   },
   {
     question: "What happens if something breaks after you build it?",
     answer:
-      "Every build comes with a 30-day support window. For ongoing peace of mind, I offer monthly retainer plans that include monitoring, maintenance, and unlimited tweaks. I am the person who built it — when something breaks, I know exactly where to look.",
+      "Every build includes a 30-day support window. For ongoing maintenance, I offer monthly retainer plans that cover monitoring, fixes, and unlimited tweaks. I'm the one who built it, so when something breaks, I know exactly where to look.",
   },
 ];
 

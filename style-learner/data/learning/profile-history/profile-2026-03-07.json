@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-03-07T15:41:20.300Z",
-  "postCount": 6,
+  "updatedAt": "2026-03-07T15:43:59.637Z",
+  "postCount": 7,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -9,43 +9,43 @@
   },
   "structure": {
     "paragraphCount": {
-      "mean": 6.5,
-      "median": 6.5,
+      "mean": 6.6,
+      "median": 7,
       "min": 5,
       "max": 9,
       "p25": 5,
       "p75": 7,
-      "samples": 6
+      "samples": 7
     },
     "sentenceLength": {
-      "mean": 13.8,
-      "median": 11.75,
+      "mean": 13.4,
+      "median": 11.4,
       "min": 7.1,
       "max": 29.3,
       "p25": 9.5,
       "p75": 13.1,
-      "samples": 6
+      "samples": 7
     },
     "totalWords": {
-      "mean": 183.8,
-      "median": 158.5,
+      "mean": 209.7,
+      "median": 205,
       "min": 57,
       "max": 381,
       "p25": 92,
-      "p75": 256,
-      "samples": 6
+      "p75": 365,
+      "samples": 7
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
       "single | short | single | single | single": 1,
-      "single | long | long | long | long | long | long": 1,
+      "single | long | long | long | long | long | long": 2,
       "single | single | long | long | single | single | short | single | short": 1,
       "single | single | single | single | short | single": 1,
       "single | short | short | short | short | short | short": 1
     },
     "structuralTemplates": {
       "opener | context | result | context | closer": 2,
-      "opener | product-pitch | product-pitch | result | result | context | closer": 1,
+      "opener | product-pitch | product-pitch | result | result | context | closer": 2,
       "opener | result | result | context | context | context | result | context | closer": 1,
       "opener | result | context | result | result | closer": 1,
       "opener | product-pitch | context | context | context | context | closer": 1
@@ -54,11 +54,11 @@
   "openers": {
     "patterns": {
       "situation": {
-        "count": 3,
+        "count": 4,
         "examples": [
           "Badge: The Person Behind the Automation",
           "Section heading: Common Questions\nSubheading: Straight answers about working wit",
-          "Section heading: What I Build"
+          "Section heading: Common Questions\nSubheading: Straight answers about working wit"
         ]
       },
       "short-punch": {
@@ -87,8 +87,9 @@
         ]
       },
       "question": {
-        "count": 2,
+        "count": 3,
         "examples": [
+          "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
           "CTA: \"Want Results Like These? Book a free strategy call to see how automation c"
         ]
@@ -99,44 +100,60 @@
     "emDashRate": 0.1,
     "ellipsisRate": 0,
     "exclamationRate": 0,
-    "avgCommasPerSentence": 0.9
+    "avgCommasPerSentence": 0.8
   },
   "vocabulary": {
     "topWords": [
+      [
+        "ai",
+        19
+      ],
       [
         "-",
         18
       ],
       [
-        "ai",
-        15
+        "with",
+        17
       ],
       [
         "automation",
-        12
+        16
+      ],
+      [
+        "build",
+        14
+      ],
+      [
+        "work",
+        11
+      ],
+      [
+        "it",
+        11
+      ],
+      [
+        "lead",
+        11
+      ],
+      [
+        "businesses",
+        10
       ],
       [
         "leads",
         10
       ],
       [
-        "build",
+        "what",
+        9
+      ],
+      [
+        "from",
         8
       ],
       [
-        "work",
-        8
-      ],
-      [
-        "with",
-        8
-      ],
-      [
-        "lead",
-        8
-      ],
-      [
-        "businesses",
+        "call",
         7
       ],
       [
@@ -152,16 +169,16 @@
         6
       ],
       [
-        "it",
+        "builds",
+        6
+      ],
+      [
+        "weeks",
         6
       ],
       [
         "how",
         6
-      ],
-      [
-        "what",
-        5
       ],
       [
         "case",
@@ -184,10 +201,6 @@
         4
       ],
       [
-        "from",
-        4
-      ],
-      [
         "instagram",
         4
       ],
@@ -200,27 +213,15 @@
         4
       ],
       [
+        "most",
+        3
+      ],
+      [
+        "run",
+        3
+      ],
+      [
         "take",
-        3
-      ],
-      [
-        "builds",
-        3
-      ],
-      [
-        "weeks",
-        3
-      ],
-      [
-        "call",
-        3
-      ],
-      [
-        "automated",
-        3
-      ],
-      [
-        "system",
         3
       ]
     ],
@@ -228,7 +229,12 @@
     "buzzwordsUsed": [],
     "formalWordsUsed": []
   },
-  "editPatterns": {},
+  "editPatterns": {
+    "removes-unnecessary-detail": {
+      "count": 1,
+      "confidence": "low"
+    }
+  },
   "wordSwaps": [],
   "engagementCorrelation": {
     "byOpener": {},
