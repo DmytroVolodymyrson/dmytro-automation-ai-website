@@ -6,7 +6,7 @@ const faqItems = [
   {
     question: "What kind of businesses do you work with?",
     answer:
-      "I work with small service businesses: HVAC companies, restaurants, real estate agents, mortgage brokers, and e-commerce brands with 1-20 employees. They all have the same problem: consistent inbound leads that slip through because follow-up is too slow or too manual. I don't work with enterprises or businesses without an existing product or service.",
+      "Any small business that generates leads and loses some of them to slow follow-up or manual processes. I've built systems for HVAC companies, restaurants, real estate agents, mortgage brokers, e-commerce brands, law firms, and more. If you have a sales process and it's leaking leads somewhere, that's the problem I fix.",
   },
   {
     question: "How long does it take to build an AI automation system?",
@@ -82,7 +82,7 @@ const FAQSection = () => {
                     exit={{ height: 0, opacity: 0 }}
                     transition={{ duration: 0.25 }}
                   >
-                    <div className="px-6 pb-5 text-muted-foreground leading-relaxed">
+                    <div className="px-6 pt-4 pb-5 text-muted-foreground leading-relaxed">
                       {item.answer}
                     </div>
                   </motion.div>
