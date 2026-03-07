@@ -1,0 +1,67 @@
+[
+  {
+    "id": "good-1",
+    "shouldPass": true,
+    "description": "Clean post about a client project",
+    "text": "Had a call with a client today. He runs a cybersecurity company. Showed him what we could automate. He said it looked solid, wants to keep going. Normal result for a first meeting."
+  },
+  {
+    "id": "good-2",
+    "shouldPass": true,
+    "description": "Clean post about automation results",
+    "text": "Automated lead collection for a client. Used to take 40 hours a month, now takes 15 minutes. All data goes straight into the CRM and gets assigned to the right people. Client is happy, already thinking about what else to connect."
+  },
+  {
+    "id": "good-3",
+    "shouldPass": true,
+    "description": "Clean reflective post",
+    "text": "Last time I felt this way was 5 years ago when I started coding. Same thing now with AI automation. Every day I find new ways to make things faster. Can't stop."
+  },
+  {
+    "id": "good-4",
+    "shouldPass": true,
+    "description": "Clean post with bullet points",
+    "text": "What I did this week:\n- set up automated email sequences\n- connected the chatbot to the CRM\n- built a dashboard for the client\n\nEverything works, client is testing. We'll see results next week."
+  },
+  {
+    "id": "good-5",
+    "shouldPass": true,
+    "description": "Clean casual observation",
+    "text": "Noticed something interesting. Most businesses spend tons of time on tasks that don't make money. Reports, manual data entry, copying from one spreadsheet to another. All of this can be automated in a couple of days."
+  },
+  {
+    "id": "bad-1",
+    "shouldPass": false,
+    "description": "Contains em-dashes",
+    "expectedViolations": ["no-em-dash"],
+    "text": "Automation \u2014 it's not just a buzzword. It's a real tool \u2014 one that saves time and money. Try it \u2014 and see the difference."
+  },
+  {
+    "id": "bad-2",
+    "shouldPass": false,
+    "description": "Contains AI buzzwords",
+    "expectedViolations": ["no-ai-buzzwords"],
+    "text": "Our revolutionary solution will save you 20 hours a week. This groundbreaking approach to business automation is a real game-changing paradigm shift."
+  },
+  {
+    "id": "bad-3",
+    "shouldPass": false,
+    "description": "Contains em-dash and buzzwords",
+    "expectedViolations": ["no-em-dash", "no-ai-buzzwords"],
+    "text": "This is revolutionary \u2014 a cutting-edge approach to automation that will transform your business."
+  },
+  {
+    "id": "bad-4",
+    "shouldPass": false,
+    "description": "Contains en-dash as punctuation",
+    "expectedViolations": ["no-en-dash"],
+    "text": "We built something cool \u2013 it saves a lot of time. The team \u2013 all three of us \u2013 worked on it for two weeks."
+  },
+  {
+    "id": "bad-5",
+    "shouldPass": false,
+    "description": "Multiple violation types combined",
+    "expectedViolations": ["no-em-dash", "no-ai-buzzwords"],
+    "text": "We launched a revolutionary automation tool \u2014 and the results were groundbreaking. This is truly disruptive."
+  }
+]

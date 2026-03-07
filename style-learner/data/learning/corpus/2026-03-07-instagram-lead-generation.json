@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-03-07-instagram-lead-generation",
+  "platform": "case-study",
+  "language": "en",
+  "date": "2026-03-07",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an automated pipeline that delivers 50+ qualified leads daily for an info business\n\nMetrics:\n- Key Result #1: 50+ qualified leads a day\n- Key Result #2: $0.29 per lead\n- Key Result #3: Zero effort after setup\n\nChallenge:\n1. The client was manually searching Instagram Reels for fitness creators, opening each profile, and copy-pasting lead details into a spreadsheet.\n2. This process took hours of work every day and produced only a handful of usable leads.\n3. Discovery quality kept shrinking after repeated outreach to the same creators, and reply rates sat around 10-15%.\n\nSolution:\n1. Designed a fully automated lead generation system using n8n that runs daily with zero manual input.\n2. The system discovers new creators across Instagram, enriches their profiles with follower counts and engagement data, then scores each lead using AI.\n3. Built-in deduplication ensures no creator is contacted twice, while smart rotation keeps the discovery pool fresh.\n4. All qualified leads are automatically delivered to a clean, organized spreadsheet ready for outreach.\n\nHow It Works (flow):\nDiscover Creators → Enrich Profiles → AI Qualification → Deliver to CRM\n\nTech Stack:\n- n8n (self-hosted)\n- Apify (Instagram scrapers)\n- Google Sheets\n- AI Lead Qualification\n\nEnd Result:\nA constantly growing database of qualified creator leads, enriched with AI scoring and ready for outreach. [Screenshot of leads spreadsheet included]\n\nTestimonial: Video testimonial from Toufic Fares (Info Business)\n\nCTA: \"Want Results Like These? Book a free strategy call to see how automation can transform your business\"",
+    "formatting": [
+      "bold:Title:"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Title is feature-focused not outcome-focused (could test outcome version: \"50+ Qualified Leads/Day for an Info Business\")"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Subtitle uses \"I built\" — personal, accountable"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Metrics shown as 3 cards: quantity, cost, effort — the trifecta buyers care about"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Challenge written as numbered story beats, not bullet list — narrative progression"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Solution mirrors challenge structure (4 points answering the 3 problems)"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Flow diagram shows simplicity: 4 steps"
+    },
+    {
+      "type": "tone_shift",
+      "description": "No em-dashes in copy"
+    },
+    {
+      "type": "tone_shift",
+      "description": "\"Zero effort after setup\" — outcome framing, not feature framing"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-03-07T15:41:20.254Z",
+    "structure": {
+      "paragraphCount": 9,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        6,
+        8,
+        1,
+        1,
+        2,
+        1,
+        2
+      ],
+      "avgSentenceLength": 11.1,
+      "sentenceLengthRange": [
+        1,
+        25
+      ],
+      "totalWords": 256
+    },
+    "opener": {
+      "type": "general",
+      "text": "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an automated pipeline that delivers 50+ qualified leads daily for an info business",
+      "wordCount": 23,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "CTA: \"Want Results Like These? Book a free strategy call to see how automation can transform your business\"",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "result",
+        "context",
+        "context",
+        "context",
+        "result",
+        "context",
+        "closer"
+      ],
+      "template": "opener | result | result | context | context | context | result | context | closer"
+    },
+    "punctuation": {
+      "periods": 16,
+      "commas": 8,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 13,
+      "commasPerSentence": 0.47
+    },
+    "vocabulary": {
+      "distinctWords": 163,
+      "totalWords": 256,
+      "topWords": [
+        [
+          "-",
+          7
+        ],
+        [
+          "lead",
+          6
+        ],
+        [
+          "leads",
+          6
+        ],
+        [
+          "instagram",
+          4
+        ],
+        [
+          "qualified",
+          4
+        ],
+        [
+          "result",
+          4
+        ],
+        [
+          "creators",
+          4
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "1",
+          3
+        ],
+        [
+          "2",
+          3
+        ],
+        [
+          "3",
+          3
+        ],
+        [
+          "automated",
+          3
+        ],
+        [
+          "system",
+          3
+        ],
+        [
+          "how",
+          3
+        ],
+        [
+          "business",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 8,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 8,
+      "patterns": []
+    }
+  }
+}

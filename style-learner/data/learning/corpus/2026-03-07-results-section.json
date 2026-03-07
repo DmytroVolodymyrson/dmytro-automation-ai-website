@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-03-07-results-section",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-03-07",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "Section heading: Real Results for Real Businesses\nSubheading: Here's what happens when you automate the right processes\n\nStats:\n- 10+ hrs/week — Time saved on average per client\n- 80% reduction — in manual work\n- 3x capacity — without hiring more staff\n- 300%+ ROI — typical ROI in year one\n\nCase study cards heading: Client Success Stories\nSubheading: See how automation transformed these businesses\n\nCase study 1 — Restaurant:\nChallenge: Missing reservations from after-hours calls and staff overwhelmed with phone bookings\nSolution: Built 24/7 AI voice receptionist handling calls, managing reservations, and routing complex inquiries\nResult: Captured 100% of after-hours bookings and freed up 15+ staff hours weekly\n\nCase study 2 — Info Business (linked to full case study):\nChallenge: Manually searching Instagram Reels for fitness creators, copy-pasting to Notion. Hours of work for a handful of leads\nSolution: Built a fully automated n8n + AI pipeline that discovers, qualifies, and delivers creator leads daily with zero manual work\nKey Result: 50+ leads/day at $0.29/lead\n\nCase study 3 — E-commerce Brand:\nChallenge: Struggling to maintain consistent social media presence across multiple platforms\nSolution: Deployed AI system that analyzes trends, generates posts, images, and captions automatically\nResult: Cut content production time by 80% and grew Instagram following by 150% in 3 months",
+    "formatting": [
+      "bold:Section"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Stats are bold numbers first, unit second, brief description third"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Section heading uses \"Real\" twice for emphasis — not lazy repetition, intentional"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Case study format: Challenge / Solution / Result (no fluff, parallel structure)"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Outcomes are specific: \"15+ staff hours weekly\", \"50+ leads/day at $0.29/lead\""
+    },
+    {
+      "type": "tone_shift",
+      "description": "No passive voice in results"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-03-07T15:41:20.255Z",
+    "structure": {
+      "paragraphCount": 6,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        1
+      ],
+      "avgSentenceLength": 29.3,
+      "sentenceLengthRange": [
+        14,
+        45
+      ],
+      "totalWords": 205
+    },
+    "opener": {
+      "type": "general",
+      "text": "Section heading: Real Results for Real Businesses\nSubheading: Here's what happens when you automate the right processes",
+      "wordCount": 17,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "Case study 3 — E-commerce Brand:\nChallenge: Struggling to maintain consistent social media presence across multiple platforms\nSolution: Deployed AI system that analyzes trends, generates posts, images, and captions automatically\nResult: Cut content production time by 80% and grew Instagram following by 150% in 3 months",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "context",
+        "result",
+        "result",
+        "closer"
+      ],
+      "template": "opener | result | context | result | result | closer"
+    },
+    "punctuation": {
+      "periods": 2,
+      "commas": 8,
+      "emDashes": 7,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 17,
+      "commasPerSentence": 4
+    },
+    "vocabulary": {
+      "distinctWords": 147,
+      "totalWords": 205,
+      "topWords": [
+        [
+          "case",
+          5
+        ],
+        [
+          "study",
+          5
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "work",
+          3
+        ],
+        [
+          "staff",
+          3
+        ],
+        [
+          "challenge",
+          3
+        ],
+        [
+          "solution",
+          3
+        ],
+        [
+          "ai",
+          3
+        ],
+        [
+          "result",
+          3
+        ],
+        [
+          "3",
+          2
+        ],
+        [
+          "80",
+          2
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "real",
+          2
+        ],
+        [
+          "businesses",
+          2
+        ],
+        [
+          "subheading",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.005
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

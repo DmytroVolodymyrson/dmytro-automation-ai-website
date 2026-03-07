@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-03-07-services-section",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-03-07",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "Section heading: What I Build\n\nService cards:\n1. AI-Powered Lead Generation\n   \"Automate lead capture and follow-ups to never miss an opportunity\"\n\n2. AI Chatbots & Voice Agents\n   \"Answer calls and messages instantly so you're always available to customers\"\n\n3. Social Media Content Automation\n   \"Stay consistent online and grow your audience without daily effort\"\n\n4. Database Reactivation\n   \"Turn your old leads and past customers into booked appointments — no new ad spend\"\n\n5. Automated Reporting\n   \"Track performance in real-time to make better decisions faster\"\n\n6. Custom Solutions\n   \"Tailored automation built specifically for your business needs\"",
+    "formatting": [
+      "bold:Section"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Service names are outcome-first (not \"CRM Integration\" but \"AI-Powered Lead Generation\")"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Descriptions complete the implied sentence: \"this service will...\""
+    },
+    {
+      "type": "tone_shift",
+      "description": "Each one names a specific pain or outcome"
+    },
+    {
+      "type": "tone_shift",
+      "description": "\"No new ad spend\" is a compelling differentiator phrase for Database Reactivation"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Short: each description is one sentence"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-03-07T15:41:20.255Z",
+    "structure": {
+      "paragraphCount": 7,
+      "sentencesPerParagraph": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "avgSentenceLength": 7.1,
+      "sentenceLengthRange": [
+        1,
+        16
+      ],
+      "totalWords": 92
+    },
+    "opener": {
+      "type": "situation",
+      "text": "Section heading: What I Build",
+      "wordCount": 5,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "6. Custom Solutions\n   \"Tailored automation built specifically for your business needs\"",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 6,
+      "commas": 0,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 2,
+      "commasPerSentence": 0
+    },
+    "vocabulary": {
+      "distinctWords": 82,
+      "totalWords": 92,
+      "topWords": [
+        [
+          "your",
+          3
+        ],
+        [
+          "lead",
+          2
+        ],
+        [
+          "customers",
+          2
+        ],
+        [
+          "automation",
+          2
+        ],
+        [
+          "1",
+          1
+        ],
+        [
+          "2",
+          1
+        ],
+        [
+          "3",
+          1
+        ],
+        [
+          "4",
+          1
+        ],
+        [
+          "5",
+          1
+        ],
+        [
+          "6",
+          1
+        ],
+        [
+          "section",
+          1
+        ],
+        [
+          "heading",
+          1
+        ],
+        [
+          "what",
+          1
+        ],
+        [
+          "build",
+          1
+        ],
+        [
+          "service",
+          1
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

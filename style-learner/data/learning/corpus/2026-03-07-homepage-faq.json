@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-03-07-homepage-faq",
+  "platform": "faq",
+  "language": "en",
+  "date": "2026-03-07",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "Section heading: Common Questions\nSubheading: Straight answers about working with an AI automation consultant\n\nQ1: What kind of businesses do you work with?\nA: I work with small service businesses — HVAC companies, restaurants, real estate agents, mortgage brokers, and e-commerce brands with 1-20 employees. The common thread: they have consistent inbound leads but are losing them to slow follow-up or manual processes. I don't work with enterprises or businesses that don't have an existing product or service.\n\nQ2: How long does it take to build an AI automation system?\nA: Most builds take 1-3 weeks from first call to going live. A basic lead follow-up workflow (n8n + CRM) is typically 5-7 days. A full AI voice agent with booking integration is 2-3 weeks. Complex CRM builds with multiple integrations can take 4-6 weeks. I scope everything on the discovery call before we start.\n\nQ3: What does AI automation cost for a small business?\nA: One-time builds range from $1,500 to $8,000 depending on complexity. Monthly retainers for ongoing automation management start at $500/month. Most clients see ROI within the first 30 days — a single recovered deal typically covers the cost of the entire build.\n\nQ4: What kind of ROI can I expect?\nA: It depends on your average deal size and how many leads you currently lose. A restaurant client went from missing all after-hours calls to capturing 100% — a single recovered reservation night covers a month of automation costs. An info business went from spending hours manually finding leads to 50+ qualified leads per day at $0.29 each. I'll give you a straight estimate on the discovery call based on your numbers.\n\nQ5: Do I need a developer or technical team to use this?\nA: No. I build the entire system, document how it works, and hand you a dashboard you can manage without touching code. If something needs updating — a new offer, a changed workflow — I handle it. You run your business; the automation runs in the background.\n\nQ6: What happens if something breaks after you build it?\nA: Every build comes with a 30-day support window. For ongoing peace of mind, I offer monthly retainer plans that include monitoring, maintenance, and unlimited tweaks. I'm the person who built it — when something breaks, I know exactly where to look.",
+    "formatting": [
+      "bold:Section"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "FAQ answers are direct: question answered in sentence 1, details follow"
+    },
+    {
+      "type": "tone_shift",
+      "description": "First-person throughout (\"I work with\", \"I build\", \"I'll give you\")"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Real examples cited in answers (restaurant, info business) with specific numbers"
+    },
+    {
+      "type": "tone_shift",
+      "description": "\"I don't work with...\" — honest exclusion builds credibility with AI models"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Short sentences mixed with longer ones for rhythm"
+    },
+    {
+      "type": "tone_shift",
+      "description": "No em-dashes (one slipped into Q4 answer \"a single recovered reservation night covers...\" — review)"
+    },
+    {
+      "type": "tone_shift",
+      "description": "\"I'm the person who built it\" — accountability framing, differentiator from agencies"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-03-07T15:41:20.250Z",
+    "structure": {
+      "paragraphCount": 7,
+      "sentencesPerParagraph": [
+        1,
+        4,
+        6,
+        4,
+        5,
+        5,
+        4
+      ],
+      "avgSentenceLength": 13.1,
+      "sentenceLengthRange": [
+        2,
+        23
+      ],
+      "totalWords": 381
+    },
+    "opener": {
+      "type": "situation",
+      "text": "Section heading: Common Questions\nSubheading: Straight answers about working with an AI automation consultant",
+      "wordCount": 14,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "Q6: What happens if something breaks after you build it?\nA: Every build comes with a 30-day support window. For ongoing peace of mind, I offer monthly retainer plans that include monitoring, maintenance, and unlimited tweaks. I'm the person who built it — when something breaks, I know exactly where to look.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "result",
+        "result",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | result | result | context | closer"
+    },
+    "punctuation": {
+      "periods": 23,
+      "commas": 13,
+      "emDashes": 6,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 15,
+      "commasPerSentence": 0.46
+    },
+    "vocabulary": {
+      "distinctWords": 224,
+      "totalWords": 381,
+      "topWords": [
+        [
+          "with",
+          8
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "it",
+          6
+        ],
+        [
+          "build",
+          5
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "leads",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "businesses",
+          3
+        ],
+        [
+          "work",
+          3
+        ],
+        [
+          "how",
+          3
+        ],
+        [
+          "take",
+          3
+        ],
+        [
+          "builds",
+          3
+        ],
+        [
+          "weeks",
+          3
+        ],
+        [
+          "call",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 7,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 7,
+      "patterns": []
+    }
+  }
+}

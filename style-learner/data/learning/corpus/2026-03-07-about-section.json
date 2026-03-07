@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-03-07-about-section",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-03-07",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "Badge: The Person Behind the Automation\n\nHeading:\nI started coding at 16. Now I build AI systems that run businesses.\n\nBody:\nI'm Dmytro. I grew up in Ukraine and wrote my first line of code at 16. After 7 years building software, I found my thing: using AI to automate the repetitive work that slows businesses down.\n\nEvery automation I build starts with one question: what's eating up your time? From there, I design systems that handle it, so you can spend your hours on the work that actually grows your business.\n\nStats:\n- 7+ Years building software\n- 50+ Automations built\n- $100K+ Saved for clients annually\n- 1000+ Hours Saved",
+    "formatting": [
+      "bold:Badge:"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Personal, first-person, no corporate tone"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Origin story in one sentence (\"grew up in Ukraine, first code at 16\")"
+    },
+    {
+      "type": "tone_shift",
+      "description": "The pivot framed as discovery not pivot: \"found my thing\""
+    },
+    {
+      "type": "tone_shift",
+      "description": "Ends with a question that names the reader's problem"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Stats are specific with + to signal \"at least\""
+    },
+    {
+      "type": "tone_shift",
+      "description": "No em-dashes"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-03-07T15:41:20.241Z",
+    "structure": {
+      "paragraphCount": 5,
+      "sentencesPerParagraph": [
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      "avgSentenceLength": 12.4,
+      "sentenceLengthRange": [
+        3,
+        22
+      ],
+      "totalWords": 112
+    },
+    "opener": {
+      "type": "situation",
+      "text": "Badge: The Person Behind the Automation",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "Stats:\n- 7+ Years building software\n- 50+ Automations built\n- $100K+ Saved for clients annually\n- 1000+ Hours Saved",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | result | context | closer"
+    },
+    "punctuation": {
+      "periods": 6,
+      "commas": 3,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 6,
+      "commasPerSentence": 0.38
+    },
+    "vocabulary": {
+      "distinctWords": 80,
+      "totalWords": 112,
+      "topWords": [
+        [
+          "that",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "your",
+          3
+        ],
+        [
+          "7",
+          2
+        ],
+        [
+          "16",
+          2
+        ],
+        [
+          "automation",
+          2
+        ],
+        [
+          "build",
+          2
+        ],
+        [
+          "ai",
+          2
+        ],
+        [
+          "systems",
+          2
+        ],
+        [
+          "businesses",
+          2
+        ],
+        [
+          "up",
+          2
+        ],
+        [
+          "my",
+          2
+        ],
+        [
+          "years",
+          2
+        ],
+        [
+          "building",
+          2
+        ],
+        [
+          "software",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 6,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 6,
+      "patterns": []
+    }
+  }
+}

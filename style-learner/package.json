@@ -1,0 +1,15 @@
+{
+  "name": "ai-style-learner",
+  "version": "1.0.0",
+  "description": "A style learning system that accumulates writing patterns from published posts and author edits",
+  "main": "src/learning/schema.js",
+  "scripts": {
+    "add-post": "node src/learning/schema.js add",
+    "analyze": "node src/learning/analyze.js --all",
+    "build-profile": "node src/learning/profile.js",
+    "test": "node tests/phase1.test.js && node tests/style-checker.test.js",
+    "check": "node tests/style-checker.js"
+  },
+  "keywords": ["style", "learning", "content", "writing", "ai"],
+  "license": "MIT"
+}

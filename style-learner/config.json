@@ -1,0 +1,34 @@
+{
+  "project": {
+    "name": "dmytroai-website",
+    "description": "Style learning system for dmytroai.com — Dmytro's AI automation consulting website"
+  },
+  "persona": "Dmytro — AI automation consultant, dmytroai.com",
+  "language": "en",
+  "platforms": ["landing-page", "case-study", "blog", "faq"],
+  "platformLanguages": {
+    "landing-page": "en",
+    "case-study": "en",
+    "blog": "en",
+    "faq": "en"
+  },
+  "languages": ["en"],
+  "styleGoal": "Clear, direct, credible. Speaks to business owners. No fluff, no jargon.",
+  "hardRules": [
+    "No em-dashes (—) — never use them",
+    "No corporate buzzwords (leverage, synergy, streamline, utilize)",
+    "No vague outcomes — always use specific numbers when available",
+    "No passive voice on value claims",
+    "Short sentences over long ones",
+    "Lead with the outcome, not the process",
+    "Address the reader as 'you', not 'businesses' or 'clients'",
+    "No AI tells: no 'delve', no 'it's worth noting', no 'in conclusion'"
+  ],
+  "styleRules": {
+    "violations": {
+      "emDash": true,
+      "yo": false
+    }
+  },
+  "templateRepo": "DmytroVolodymyrson/ai-style-learner"
+}

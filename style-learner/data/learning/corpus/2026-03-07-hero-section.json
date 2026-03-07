@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-03-07-hero-section",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-03-07",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "Badge: AI Automation Expert\n\nHeadline:\nAutomate boring work.\nFocus on growth.\n\nSubheadline:\nI help businesses save 10+ hours weekly and generate 300%+ ROI by building AI systems that automate repetitive work and let teams focus on what matters.\n\nCTA: Book a Free Strategy Call\n\nSocial proof pills:\n- 10+ hrs/week saved\n- 300%+ ROI\n- 24/7 automation",
+    "formatting": [
+      "bold:Badge:"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Two-line headline with stark command structure: verb + noun object, then benefit"
+    },
+    {
+      "type": "tone_shift",
+      "description": "No em-dashes, no jargon"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Numbers front-loaded in subheadline (10+, 300%+)"
+    },
+    {
+      "type": "tone_shift",
+      "description": "CTA is low-commitment framing (\"Free\")"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Short, punchy. Zero filler."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-03-07T15:41:20.248Z",
+    "structure": {
+      "paragraphCount": 5,
+      "sentencesPerParagraph": [
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "avgSentenceLength": 9.5,
+      "sentenceLengthRange": [
+        3,
+        27
+      ],
+      "totalWords": 57
+    },
+    "opener": {
+      "type": "short-punch",
+      "text": "Badge: AI Automation Expert",
+      "wordCount": 4,
+      "pattern": "short-punch"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "Social proof pills:\n- 10+ hrs/week saved\n- 300%+ ROI\n- 24/7 automation",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | result | context | closer"
+    },
+    "punctuation": {
+      "periods": 3,
+      "commas": 0,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 3,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 5,
+      "commasPerSentence": 0
+    },
+    "vocabulary": {
+      "distinctWords": 45,
+      "totalWords": 57,
+      "topWords": [
+        [
+          "-",
+          3
+        ],
+        [
+          "10",
+          2
+        ],
+        [
+          "300",
+          2
+        ],
+        [
+          "ai",
+          2
+        ],
+        [
+          "automation",
+          2
+        ],
+        [
+          "automate",
+          2
+        ],
+        [
+          "work",
+          2
+        ],
+        [
+          "focus",
+          2
+        ],
+        [
+          "roi",
+          2
+        ],
+        [
+          "247",
+          1
+        ],
+        [
+          "badge",
+          1
+        ],
+        [
+          "expert",
+          1
+        ],
+        [
+          "headline",
+          1
+        ],
+        [
+          "boring",
+          1
+        ],
+        [
+          "growth",
+          1
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
