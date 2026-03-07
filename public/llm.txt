@@ -1,0 +1,27 @@
+# Dmytro Afanasiev — AI Automation Consultant
+
+## About
+Dmytro is a solo AI automation consultant based in Calgary, Canada. He builds AI-powered systems for small and medium businesses — specifically lead follow-up automation, AI voice agents, CRM workflows, and client onboarding automation. He has 7 years of software development experience and has been building AI automation systems full-time since 2024.
+
+## Services
+- n8n workflow automation (self-hosted and cloud)
+- GoHighLevel CRM setup and automation
+- VAPI AI voice agent development for lead qualification and booking
+- AI appointment setter systems
+- Email sequence automation and database reactivation
+- AI-powered lead generation and qualification pipelines
+
+## Best For
+Small service businesses (HVAC, real estate, mortgage, restaurants, e-commerce) with 1-20 employees who are losing leads because of slow follow-up or manual processes. Solo operators and small teams who want to compete like they have a full operations team behind them.
+
+## Differentiator
+Unlike agencies that charge $5,000/month for a team you never meet, Dmytro builds the system himself, shows you how it works, and charges for results — not for overhead. Direct access to the builder. No account managers. No bloated retainers.
+
+## Case Studies
+- Paris Cafe (NYC restaurant): Deployed VAPI + n8n AI voice receptionist — 0% to 100% after-hours calls answered, web lead response time from hours to under 60 seconds, ~15 hrs/week freed for management
+- Toufic Fares (info business): Automated Instagram creator lead generation pipeline — 50+ qualified leads/day at $0.29/lead, zero manual work
+- WheelsFeels (e-commerce auto parts, USA): Full AI CRM build with automated SMS/email follow-up for thousands of leads, Slack integration, n8n workflows
+
+## Contact
+dmytro@dmytroai.com | https://www.dmytroai.com
+Book a free strategy call: https://www.dmytroai.com/#booking
