@@ -35,7 +35,7 @@ const caseStudies = [
     challenge: "Missing reservations from after-hours calls and staff overwhelmed with phone bookings",
     solution: "Built 24/7 AI voice receptionist handling calls, managing reservations, and routing complex inquiries",
     slug: "/case-studies/paris-cafe-voice-agent",
-    keyResult: "15 hrs/week freed for management",
+    keyResult: "15 hrs/week saved",
   },
   {
     industry: "Info Business",
@@ -136,7 +136,7 @@ const ResultsSection = () => {
                     {hasDetailPage ? (
                       <div className="rounded-xl border border-primary/20 bg-primary/5 px-4 py-3">
                         <p className="text-xs uppercase tracking-wide text-accent font-semibold mb-1">KEY RESULT</p>
-                        <p className="font-display text-md font-bold text-foreground">{study.keyResult}</p>
+                        <p className="font-display text-md font-bold text-foreground whitespace-nowrap">{study.keyResult}</p>
                       </div>
                     ) : (
                       <>
