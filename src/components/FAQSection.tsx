@@ -6,7 +6,7 @@ const faqItems = [
   {
     question: "What kind of businesses do you work with?",
     answer:
-      "Any small business that generates leads and loses some of them to slow follow-up or manual processes. I've built systems for HVAC companies, restaurants, real estate agents, mortgage brokers, e-commerce brands, law firms, and more. If you have a sales process and it's leaking leads somewhere, that's the problem I fix.",
+      "Small businesses with 1-20 employees that have repetitive work eating up their time or money. That could be lead follow-up, client onboarding, reporting, scheduling, content, or anything else that runs on the same steps every time. I've worked with HVAC companies, restaurants, real estate agents, mortgage brokers, e-commerce brands, law firms, and more. If it's manual and repeatable, it can be automated.",
   },
   {
     question: "How long does it take to build an AI automation system?",
