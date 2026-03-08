@@ -4,7 +4,7 @@ import {
   AlertTriangle,
   ArrowRight,
   CheckCircle2,
-  CircleDollarSign,
+  Wrench,
   Zap,
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -72,6 +72,32 @@ const InstagramReelsScraperCaseStudy = () => {
                 </div>
               </div>
             ))}
+          </motion.section>
+
+          <motion.section
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 0.45 }}
+            className="max-w-lg mx-auto"
+          >
+            <div className="rounded-2xl border border-border/60 bg-card p-6 text-center">
+              <h2 className="font-display text-2xl md:text-3xl font-bold mb-6">What The Client Says</h2>
+              <div className="overflow-hidden rounded-2xl">
+                <video
+                  controls
+                  preload="metadata"
+                  className="w-full aspect-[9/16] object-cover bg-black/80"
+                >
+                  <source src="/videos/testimonial-toufic-fares.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div className="mt-5">
+                <p className="font-display text-xl font-bold text-foreground">Toufic Fares</p>
+                <p className="text-sm md:text-base text-muted-foreground">Info Business</p>
+              </div>
+            </div>
           </motion.section>
 
           <section className="grid lg:grid-cols-2 gap-0 rounded-2xl overflow-hidden border border-border/60">
@@ -177,36 +203,10 @@ const InstagramReelsScraperCaseStudy = () => {
                     key={tech}
                     className="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-4 py-2 text-sm font-medium text-foreground"
                   >
-                    <CircleDollarSign className="w-4 h-4 text-accent" />
+                    <Wrench className="w-4 h-4 text-accent" />
                     {tech}
                   </div>
                 ))}
-              </div>
-            </div>
-          </motion.section>
-
-          <motion.section
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.25 }}
-            transition={{ duration: 0.45 }}
-            className="max-w-lg mx-auto"
-          >
-            <div className="rounded-2xl border border-border/60 bg-card p-6 text-center">
-              <h2 className="font-display text-2xl md:text-3xl font-bold mb-6">What The Client Says</h2>
-              <div className="overflow-hidden rounded-2xl">
-                <video
-                  controls
-                  preload="metadata"
-                  className="w-full aspect-[9/16] object-cover bg-black/80"
-                >
-                  <source src="/videos/testimonial-toufic-fares.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-              <div className="mt-5">
-                <p className="font-display text-xl font-bold text-foreground">Toufic Fares</p>
-                <p className="text-sm md:text-base text-muted-foreground">Info Business</p>
               </div>
             </div>
           </motion.section>

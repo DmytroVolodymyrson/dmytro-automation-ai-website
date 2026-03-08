@@ -35,7 +35,7 @@ const caseStudies = [
     challenge: "Missing reservations from after-hours calls and staff overwhelmed with phone bookings",
     solution: "Built 24/7 AI voice receptionist handling calls, managing reservations, and routing complex inquiries",
     slug: "/case-studies/paris-cafe-voice-agent",
-    keyResult: "87% fewer missed calls",
+    keyResult: "15 hrs/week freed for management",
   },
   {
     industry: "Info Business",
@@ -46,7 +46,7 @@ const caseStudies = [
   },
   {
     industry: "Home Services",
-    challenge: "HVAC company losing repeat business — past customers weren't rebooking seasonal maintenance",
+    challenge: "HVAC company losing repeat business. Past customers weren't rebooking seasonal maintenance",
     solution: "Deployed automated email sequences triggered by service history, sending personalized maintenance reminders and seasonal offers",
     result: "42% increase in repeat bookings within 90 days",
   },

@@ -21,7 +21,7 @@ export const caseStudies: CaseStudySummary[] = [
     industry: "Restaurant",
     description:
       "Deployed a VAPI-powered AI voice agent that answers every after-hours call, routes inquiries, and triggers instant follow-up. Freed up 15+ hours a week for management.",
-    keyResult: "87% fewer missed calls",
+    keyResult: "15 hrs/week freed for management",
   },
 ];
 
@@ -63,10 +63,10 @@ export const instagramReelsScraperCaseStudy = {
 export const parisCafeVoiceAgentCaseStudy = {
   title: "24/7 AI Voice Receptionist for a NYC Restaurant",
   subtitle:
-    "How a VAPI voice agent eliminated missed calls and cut lead response time from hours to under 60 seconds",
+    "How The Paris Café stopped losing reservations after hours and freed up 15 hours of management time every week",
   industry: "Restaurant",
   challenge: [
-    "Paris Cafe in New York was missing every call that came in after hours. Zero after-hours calls were answered, costing the restaurant dozens of potential reservations each week.",
+    "The Paris Café in New York was missing every call that came in after hours. Zero after-hours calls were answered, costing the restaurant dozens of potential reservations each week.",
     "Website inquiry follow-up took hours. The manager had to manually check form submissions and call people back between running the floor.",
     "Routine phone calls (reservation confirmations, hours of operation, menu questions) were consuming roughly 15 hours of management time every week.",
   ],
@@ -74,7 +74,7 @@ export const parisCafeVoiceAgentCaseStudy = {
     "Built a 24/7 AI voice receptionist using VAPI that answers every inbound call with a natural, on-brand voice. It handles reservations, FAQs, and routes complex requests to the right person.",
     "Connected the voice agent to n8n workflows that trigger instant follow-up for web leads. Every online inquiry now gets a response in under 60 seconds, day or night.",
     "Integrated with GoHighLevel CRM so every call and web inquiry is logged, tagged, and tracked automatically. The owner gets full visibility with zero manual data entry.",
-    "The system escalates edge cases to the manager via SMS when a human touch is needed. Everything else runs on its own.",
+
   ],
   metrics: [
     { label: "After-Hours Calls Answered", value: "0% → 100%" },
@@ -84,9 +84,8 @@ export const parisCafeVoiceAgentCaseStudy = {
   techStack: ["VAPI", "n8n", "GoHighLevel CRM"],
   flow: ["Inbound Call", "AI Voice Agent", "Route & Respond", "Log to CRM"],
   results: [
-    { label: "Missed Calls Reduced", value: "87%", sub: "industry average with AI voice" },
-    { label: "After-Hours Coverage", value: "100%", sub: "was 0% before" },
-    { label: "Lead Response Time", value: "<60s", sub: "was hours" },
-    { label: "Manager Hours Freed", value: "~15/wk", sub: "spent on routine calls" },
+    { label: "After-Hours Calls Answered", value: "0% → 100%", sub: "" },
+    { label: "Web Lead Response Time", value: "Hours → 60s", sub: "" },
+    { label: "Management Time Freed", value: "~15 hrs/week", sub: "" },
   ],
 } as const;
