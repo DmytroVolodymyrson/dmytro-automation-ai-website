@@ -10,6 +10,7 @@ const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy"));
 const TermsOfService = lazy(() => import("./pages/TermsOfService"));
 const CaseStudies = lazy(() => import("./pages/CaseStudies"));
 const InstagramLeadGenerationCaseStudy = lazy(() => import("./pages/case-studies/InstagramLeadGenerationCaseStudy"));
+const ParisCafeVoiceAgentCaseStudy = lazy(() => import("./pages/case-studies/ParisCafeVoiceAgentCaseStudy"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const queryClient = new QueryClient();
@@ -27,6 +28,10 @@ const App = () => (
             <Route
               path="/case-studies/instagram-lead-generation"
               element={<InstagramLeadGenerationCaseStudy />}
+            />
+            <Route
+              path="/case-studies/paris-cafe-voice-agent"
+              element={<ParisCafeVoiceAgentCaseStudy />}
             />
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/terms" element={<TermsOfService />} />

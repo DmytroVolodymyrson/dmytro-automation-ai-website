@@ -34,21 +34,21 @@ const caseStudies = [
     industry: "Restaurant",
     challenge: "Missing reservations from after-hours calls and staff overwhelmed with phone bookings",
     solution: "Built 24/7 AI voice receptionist handling calls, managing reservations, and routing complex inquiries",
-    result: "Captured 100% of after-hours bookings and freed up 15+ staff hours weekly",
+    slug: "/case-studies/paris-cafe-voice-agent",
+    keyResult: "87% fewer missed calls",
   },
   {
     industry: "Info Business",
     challenge: "Manually searching Instagram Reels for fitness creators, copy-pasting to Notion. Hours of work for a handful of leads",
     solution: "Built a fully automated n8n + AI pipeline that discovers, qualifies, and delivers creator leads daily with zero manual work",
-    result: "",
     slug: "/case-studies/instagram-lead-generation",
     keyResult: "50+ leads/day at $0.29/lead",
   },
   {
-    industry: "E-commerce Brand",
-    challenge: "Struggling to maintain consistent social media presence across multiple platforms",
-    solution: "Deployed AI system that analyzes trends, generates posts, images, and captions automatically",
-    result: "Cut content production time by 80% and grew Instagram following by 150% in 3 months",
+    industry: "Home Services",
+    challenge: "HVAC company losing repeat business — past customers weren't rebooking seasonal maintenance",
+    solution: "Deployed automated email sequences triggered by service history, sending personalized maintenance reminders and seasonal offers",
+    result: "42% increase in repeat bookings within 90 days",
   },
 ];
 
@@ -108,7 +108,7 @@ const ResultsSection = () => {
 
         <div ref={caseGridRef} className="grid lg:grid-cols-3 gap-6 lg:gap-8">
           {caseStudies.map((study, index) => {
-            const isTouficCaseStudy = index === 1;
+            const hasDetailPage = !!study.slug;
             const cardClasses = `bg-card p-6 lg:p-8 rounded-2xl shadow-card border border-border/50 hover:border-primary/30 transition-colors animate-on-scroll stagger-${index + 1} ${caseGridVisible ? "is-visible" : ""}`;
 
             const cardContent = (
@@ -133,7 +133,7 @@ const ResultsSection = () => {
                   </div>
 
                   <div className="pt-4 border-t border-border">
-                    {isTouficCaseStudy ? (
+                    {hasDetailPage ? (
                       <div className="rounded-xl border border-primary/20 bg-primary/5 px-4 py-3">
                         <p className="text-xs uppercase tracking-wide text-accent font-semibold mb-1">KEY RESULT</p>
                         <p className="font-display text-md font-bold text-foreground">{study.keyResult}</p>
@@ -148,7 +148,7 @@ const ResultsSection = () => {
                     )}
                   </div>
 
-                  {isTouficCaseStudy ? (
+                  {hasDetailPage ? (
                     <div className="pt-2">
                       <span className="inline-flex items-center gap-2 text-primary hover:text-accent font-semibold transition-colors">
                         Read More
@@ -160,7 +160,7 @@ const ResultsSection = () => {
               </>
             );
 
-            if (isTouficCaseStudy && study.slug) {
+            if (hasDetailPage && study.slug) {
               return (
                 <Link key={index} to={study.slug} className={cardClasses}>
                   {cardContent}
