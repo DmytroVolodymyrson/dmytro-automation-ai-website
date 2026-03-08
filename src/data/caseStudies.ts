@@ -20,7 +20,7 @@ export const caseStudies: CaseStudySummary[] = [
     title: "24/7 AI Voice Receptionist for a NYC Restaurant",
     industry: "Restaurant",
     description:
-      "Deployed a VAPI-powered AI voice agent that answers every after-hours call, routes inquiries, and triggers instant follow-up — freeing up 15+ hours a week for management.",
+      "Deployed a VAPI-powered AI voice agent that answers every after-hours call, routes inquiries, and triggers instant follow-up. Freed up 15+ hours a week for management.",
     keyResult: "87% fewer missed calls",
   },
 ];
@@ -68,12 +68,12 @@ export const parisCafeVoiceAgentCaseStudy = {
   challenge: [
     "Paris Cafe in New York was missing every call that came in after hours. Zero after-hours calls were answered, costing the restaurant dozens of potential reservations each week.",
     "Website inquiry follow-up took hours. The manager had to manually check form submissions and call people back between running the floor.",
-    "Routine phone calls — reservation confirmations, hours of operation, menu questions — were consuming roughly 15 hours of management time every week.",
+    "Routine phone calls (reservation confirmations, hours of operation, menu questions) were consuming roughly 15 hours of management time every week.",
   ],
   solution: [
     "Built a 24/7 AI voice receptionist using VAPI that answers every inbound call with a natural, on-brand voice. It handles reservations, FAQs, and routes complex requests to the right person.",
     "Connected the voice agent to n8n workflows that trigger instant follow-up for web leads. Every online inquiry now gets a response in under 60 seconds, day or night.",
-    "Integrated with GoHighLevel CRM so every call and web inquiry is logged, tagged, and tracked automatically — giving the owner full visibility with zero manual data entry.",
+    "Integrated with GoHighLevel CRM so every call and web inquiry is logged, tagged, and tracked automatically. The owner gets full visibility with zero manual data entry.",
     "The system escalates edge cases to the manager via SMS when a human touch is needed. Everything else runs on its own.",
   ],
   metrics: [

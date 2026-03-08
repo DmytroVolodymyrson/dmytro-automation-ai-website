@@ -5,6 +5,7 @@ import {
   ArrowRight,
   CheckCircle2,
   CircleDollarSign,
+  Phone,
   Zap,
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -120,7 +121,7 @@ const ParisCafeVoiceAgentCaseStudy = () => {
           >
             <h2 className="font-display text-2xl md:text-3xl font-bold mb-6">The End Result</h2>
             <p className="text-muted-foreground mb-6">
-              The restaurant now captures every call and web inquiry around the clock — without adding staff or changing their workflow.
+              The restaurant now captures every call and web inquiry around the clock. No new staff. No workflow changes.
             </p>
             <div className="grid grid-cols-2 gap-4">
               {caseStudy.results.map((result) => (
@@ -130,10 +131,36 @@ const ParisCafeVoiceAgentCaseStudy = () => {
                 >
                   <p className="text-xs font-semibold text-accent uppercase tracking-wide mb-2">{result.label}</p>
                   <p className="font-display text-3xl md:text-4xl font-bold text-foreground mb-1">{result.value}</p>
-                  <p className="text-sm text-muted-foreground">{result.sub}</p>
+
                 </div>
               ))}
             </div>
+          </motion.section>
+
+          <motion.section
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 0.45 }}
+            className="rounded-2xl border border-border/60 bg-card p-6 md:p-8"
+          >
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
+                <Phone className="w-5 h-5 text-primary" />
+              </div>
+              <h2 className="font-display text-2xl md:text-3xl font-bold">Real Conversation Sample</h2>
+            </div>
+            <p className="text-muted-foreground mb-6 text-sm">
+              An actual call handled by the AI receptionist. The caller asked about hours, reservations, and a pet policy. The agent handled all three without any human involvement.
+            </p>
+            <audio
+              controls
+              className="w-full rounded-xl"
+              preload="metadata"
+            >
+              <source src="/audio/paris-cafe-demo-call.wav" type="audio/wav" />
+              Your browser does not support the audio element.
+            </audio>
           </motion.section>
 
           <motion.section
