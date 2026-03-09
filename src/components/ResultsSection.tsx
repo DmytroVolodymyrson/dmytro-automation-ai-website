@@ -49,7 +49,7 @@ const caseStudies = [
     challenge: "5,600+ leads sitting in spreadsheets with no systematic follow-up",
     solution: "Built full Supabase CRM + n8n automated email sequences for all lead pools",
     slug: "/case-studies/ecommerce-crm-automation",
-    keyResult: "3x more leads handled, same team",
+    keyResult: "3x team capacity increase",
   },
 ];
 

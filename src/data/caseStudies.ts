@@ -28,7 +28,7 @@ export const caseStudies: CaseStudySummary[] = [
     title: "Full CRM & Lead Follow-Up Automation for an Auto Parts Brand",
     industry: "E-commerce",
     description:
-      "Built a complete CRM and automated follow-up system from scratch. 5,600+ leads organized, segmented, and enrolled in personalized email sequences — with zero manual work after setup.",
+      "Built a complete CRM and automated follow-up system from scratch. 5,600+ leads organized, segmented, and enrolled in personalized email sequences. Zero manual work after setup.",
     keyResult: "3x more leads handled, same team",
   },
 ];
@@ -105,18 +105,17 @@ export const ecommerceCRMCaseStudy = {
   industry: "E-commerce",
   challenge: [
     "The business had accumulated over 5,600 leads across three years of operation. None of them had received systematic follow-up. Every inquiry that didn't convert immediately just sat in a spreadsheet.",
-    "Their team was spending hours each week manually emailing leads one by one — and still only reaching a fraction of them. High-intent leads from recent inquiries were getting the same treatment as contacts from two years ago.",
+    "Their team was spending hours each week manually emailing leads one by one, and still only reaching a fraction of them. High-intent leads from recent inquiries were getting the same treatment as contacts from two years ago.",
     "There was no visibility into what was working. No tracking, no segmentation, no reporting. Just a growing pile of missed opportunities.",
   ],
   solution: [
-    "Built a Supabase CRM that centralized all 5,600+ leads and segmented them into three pools based on source, recency, and engagement history. Each pool gets different follow-up logic.",
-    "Designed and deployed n8n workflows that automatically enroll new leads into personalized email sequences the moment they hit the CRM. Multi-account sending keeps deliverability high and volume manageable.",
-    "Connected the system to Slack so the sales team gets real-time alerts on high-intent leads, replies, and daily performance reports — without logging into any dashboard.",
-    "Built Google Sheets reporting that tracks every lead's status, email opens, and stage in the funnel. The owner sees exactly where each lead is without touching the system.",
+    "Built a Supabase CRM that centralized all 5,600+ leads and segmented them into three pools based on source, recency, and engagement history. Each pool gets a different follow-up sequence.",
+    "Deployed n8n workflows that automatically enroll new leads into personalized email sequences the moment they hit the CRM. Multi-account sending keeps deliverability high and daily volume manageable.",
+    "Connected the system to Slack so the sales team gets real-time alerts on high-intent leads, new replies, and daily send reports. No dashboard required.",
   ],
   metrics: [
     { label: "Leads Organized & Enrolled", value: "5,600+" },
-    { label: "Follow-Up Response Time", value: "Manual → Instant" },
+    { label: "Follow-Up Response Time", value: "Hours → Instant" },
     { label: "Team Capacity Increase", value: "3x" },
   ],
   techStack: ["n8n", "Supabase", "GoHighLevel", "Slack", "Google Sheets"],
