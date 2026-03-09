@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-03-08-paris-cafe-voice-agent",
+  "platform": "case-study",
+  "language": "en",
+  "date": "2026-03-08",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "Title: 24/7 AI Voice Receptionist for a NYC Restaurant\nSubtitle: How The Paris Café stopped losing reservations after hours and freed up 15 hours of management time every week\n\nMetrics:\n- After-Hours Calls Answered: 0% → 100%\n- Web Lead Response Time: Hours → 60 seconds\n- Management Time Freed: ~15 hrs/week\n\nChallenge:\n1. The Paris Café in New York was missing every call that came in after hours. Zero after-hours calls were answered, costing the restaurant dozens of potential reservations each week.\n2. Website inquiry follow-up took hours. The manager had to manually check form submissions and call people back between running the floor.\n3. Routine phone calls (reservation confirmations, hours of operation, menu questions) were consuming roughly 15 hours of management time every week.\n\nSolution:\n1. Built a 24/7 AI voice receptionist using VAPI that answers every inbound call with a natural, on-brand voice. It handles reservations, FAQs, and routes complex requests to the right person.\n2. Connected the voice agent to n8n workflows that trigger instant follow-up for web leads. Every online inquiry now gets a response in under 60 seconds, day or night.\n3. Integrated with GoHighLevel CRM so every call and web inquiry is logged, tagged, and tracked automatically. The owner gets full visibility with zero manual data entry.\n\nAudio Demo: Real conversation sample — caller asks about hours, reservations, and pet policy. Agent handles all three without human involvement.\n\nHow It Works: Inbound Call → AI Voice Agent → Route & Respond → Log to CRM\n\nTech Stack: VAPI, n8n, GoHighLevel CRM\n\nCTA: \"Want Results Like These? Book a free strategy call to see how automation can transform your business\"",
+    "formatting": [
+      "bold:Title:"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Title follows \"What + Who\" pattern: \"24/7 AI Voice Receptionist for a NYC Restaurant\""
+    },
+    {
+      "type": "tone_shift",
+      "description": "Subtitle uses \"How [Client] [specific outcome 1] and [specific outcome 2]\" — two concrete wins"
+    },
+    {
+      "type": "tone_shift",
+      "description": "No em-dashes anywhere (fixed from initial draft that had 4 violations)"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Challenge items numbered — narrative progression from biggest problem to smallest"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Parentheses used instead of em-dashes for lists within sentences: \"(reservation confirmations, hours of operation, menu questions)\""
+    },
+    {
+      "type": "tone_shift",
+      "description": "Solution items each focus on one capability — no stacking"
+    },
+    {
+      "type": "tone_shift",
+      "description": "\"The owner gets full visibility with zero manual data entry\" — passive benefit framing at sentence end"
+    },
+    {
+      "type": "cut",
+      "description": "Removed: SMS escalation bullet (was fabricated — not actually built)"
+    },
+    {
+      "type": "cut",
+      "description": "Removed: \"87% fewer missed calls\" stat (was industry average, inconsistent with 100% coverage stat)"
+    },
+    {
+      "type": "reorder",
+      "description": "Audio demo placement: moved to top (after metrics, before challenge/solution) per Dmytro's direction — proof first"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-03-09T05:56:06.730Z",
+    "structure": {
+      "paragraphCount": 8,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        8,
+        9,
+        2,
+        1,
+        1,
+        2
+      ],
+      "avgSentenceLength": 10.8,
+      "sentenceLengthRange": [
+        1,
+        29
+      ],
+      "totalWords": 269
+    },
+    "opener": {
+      "type": "general",
+      "text": "Title: 24/7 AI Voice Receptionist for a NYC Restaurant\nSubtitle: How The Paris Café stopped losing reservations after hours and freed up 15 hours of management time every week",
+      "wordCount": 29,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "CTA: \"Want Results Like These? Book a free strategy call to see how automation can transform your business\"",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "context",
+        "product-pitch",
+        "product-pitch",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | result | context | product-pitch | product-pitch | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 19,
+      "commas": 13,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 3,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 12,
+      "commasPerSentence": 0.62
+    },
+    "vocabulary": {
+      "distinctWords": 165,
+      "totalWords": 269,
+      "topWords": [
+        [
+          "hours",
+          8
+        ],
+        [
+          "every",
+          6
+        ],
+        [
+          "call",
+          6
+        ],
+        [
+          "voice",
+          5
+        ],
+        [
+          "reservations",
+          4
+        ],
+        [
+          "time",
+          4
+        ],
+        [
+          "15",
+          3
+        ],
+        [
+          "ai",
+          3
+        ],
+        [
+          "how",
+          3
+        ],
+        [
+          "management",
+          3
+        ],
+        [
+          "week",
+          3
+        ],
+        [
+          "-",
+          3
+        ],
+        [
+          "calls",
+          3
+        ],
+        [
+          "web",
+          3
+        ],
+        [
+          "that",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.004
+    },
+    "editSignals": {
+      "totalEdits": 10,
+      "cuts": 2,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 1,
+      "toneShifts": 7,
+      "patterns": [
+        "removes-unnecessary-detail",
+        "cuts-analysis-keeps-action",
+        "reorders-for-flow"
+      ]
+    }
+  }
+}

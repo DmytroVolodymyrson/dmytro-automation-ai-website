@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-03-08-faq-q1-final",
+  "platform": "faq",
+  "language": "en",
+  "date": "2026-03-08",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "Q: What kind of businesses do you work with?\nA: Small businesses with 1-20 employees that have repetitive work eating up their time or money. That could be lead follow-up, client onboarding, reporting, scheduling, content, or anything else that runs on the same steps every time. I've worked with HVAC companies, restaurants, real estate agents, mortgage brokers, e-commerce brands, law firms, and more. If it's manual and repeatable, it can be automated.",
+    "formatting": [
+      "bold:Q:"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Opens with size qualifier (1-20 employees) — filters without excluding"
+    },
+    {
+      "type": "tone_shift",
+      "description": "\"That could be...\" — gives examples of automation types, not just industries"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Lists industries mid-answer as proof of range, not definition of who qualifies"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Closer is the actual test: \"If it's manual and repeatable, it can be automated\" — anyone can self-identify"
+    },
+    {
+      "type": "tone_shift",
+      "description": "No em-dashes"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Short sentences throughout (Q1 answer averages ~15 words/sentence)"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-03-09T05:56:06.729Z",
+    "structure": {
+      "paragraphCount": 1,
+      "sentencesPerParagraph": [
+        5
+      ],
+      "avgSentenceLength": 14.4,
+      "sentenceLengthRange": [
+        9,
+        21
+      ],
+      "totalWords": 72
+    },
+    "opener": {
+      "type": "question",
+      "text": "Q: What kind of businesses do you work with?",
+      "wordCount": 9,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "Q: What kind of businesses do you work with?\nA: Small businesses with 1-20 employees that have repetitive work eating up their time or money. That could be lead follow-up, client onboarding, reporting, scheduling, content, or anything else that runs on the same steps every time. I've worked with HVAC companies, restaurants, real estate agents, mortgage brokers, e-commerce brands, law firms, and more. If it's manual and repeatable, it can be automated.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener"
+      ],
+      "template": "opener"
+    },
+    "punctuation": {
+      "periods": 4,
+      "commas": 12,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 2,
+      "commasPerSentence": 2.4
+    },
+    "vocabulary": {
+      "distinctWords": 62,
+      "totalWords": 72,
+      "topWords": [
+        [
+          "with",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "businesses",
+          2
+        ],
+        [
+          "work",
+          2
+        ],
+        [
+          "time",
+          2
+        ],
+        [
+          "be",
+          2
+        ],
+        [
+          "q",
+          1
+        ],
+        [
+          "what",
+          1
+        ],
+        [
+          "kind",
+          1
+        ],
+        [
+          "do",
+          1
+        ],
+        [
+          "small",
+          1
+        ],
+        [
+          "1-20",
+          1
+        ],
+        [
+          "employees",
+          1
+        ],
+        [
+          "have",
+          1
+        ],
+        [
+          "repetitive",
+          1
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 6,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 6,
+      "patterns": []
+    }
+  }
+}
