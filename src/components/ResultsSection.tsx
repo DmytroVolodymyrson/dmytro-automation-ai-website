@@ -45,10 +45,11 @@ const caseStudies = [
     keyResult: "50+ leads/day at $0.29/lead",
   },
   {
-    industry: "Home Services",
-    challenge: "HVAC company losing repeat business. Past customers weren't rebooking seasonal maintenance",
-    solution: "Deployed automated email sequences triggered by service history, sending personalized maintenance reminders and seasonal offers",
-    result: "42% increase in repeat bookings within 90 days",
+    industry: "E-commerce",
+    challenge: "5,600+ leads sitting in spreadsheets with no systematic follow-up",
+    solution: "Built full Supabase CRM + n8n automated email sequences for all lead pools",
+    slug: "/case-studies/ecommerce-crm-automation",
+    keyResult: "3x more leads handled, same team",
   },
 ];
 
