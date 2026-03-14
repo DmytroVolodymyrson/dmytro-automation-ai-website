@@ -1,10 +1,11 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-03-07
+**Last updated:** 2026-03-14
 
 ## Current State
 - Website is live (Vite + React + Tailwind, deployed on Vercel)
-- Basic structure in place — needs GEO/AI SEO overhaul
+- GEO quick wins and multiple case study pages are now in place
+- Lovable branding/artifacts have been removed from the public site, build config, repo docs, and asset paths
 
 ## What Was Just Planned (March 7, 2026)
 A full GEO (Generative Engine Optimization) plan was created to make Dmytro show up when buyers ask ChatGPT/Perplexity/Claude "who should I hire for AI automation?"
@@ -28,6 +29,14 @@ A full GEO (Generative Engine Optimization) plan was created to make Dmytro show
 ### Homepage Rewrite
 - Above-fold positioning: needs to be more specific (see GEO-PLAN.md for draft copy)
 - Add FAQ section with 6+ Q&As using exact buyer language
+
+### Brand Cleanup Completed (March 14, 2026)
+- Removed `lovable-tagger` from dependencies and Vite config
+- Rewrote project README to reflect the actual dmytroai.com stack and workflow
+- Cleaned internal docs to remove Lovable-specific references
+- Moved testimonial asset out of `/lovable-uploads/` into `/images/testimonials/`
+- Verified zero remaining `lovable` / `componentTagger` references in tracked project files
+- `npm run build` passes after cleanup
 
 ## Key Context
 - Dmytro's differentiator: solo consultant, accountable, no agency overhead

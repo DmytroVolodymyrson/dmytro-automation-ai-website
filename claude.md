@@ -38,7 +38,7 @@ This is a modern landing page for Dmytro Automation AI, a business focused on AI
 /
 ├── public/               # Static assets
 │   ├── favicon.svg      # Purple gradient lightning bolt icon
-│   └── lovable-uploads/ # Images and assets
+│   └── images/         # Images and assets
 ├── src/
 │   ├── components/      # React components
 │   │   ├── ui/         # shadcn/ui components (Radix primitives)
@@ -299,7 +299,7 @@ npm run test:watch   # Run tests in watch mode
 1. Lazy load images in production
 2. Use Framer Motion sparingly (only where needed)
 3. Minimize bundle size - tree-shake unused components
-4. Optimize images before adding to public/lovable-uploads
+4. Optimize images before adding to public/images
 
 ### Accessibility
 1. All interactive elements must be keyboard accessible

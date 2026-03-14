@@ -15,7 +15,7 @@ const testimonials: Testimonial[] = [
     role: "Founder, WheelsFeels.com",
     quote: "We were losing so many hot leads from our website because we couldn't follow up fast enough. Dmytro built us an AI-powered email system that sends personalized follow-ups automatically. Now every lead gets a tailored response within minutes, and our conversion rate has skyrocketed.",
     rating: 5,
-    image: "/lovable-uploads/wheelsfeels-testimonial.webp",
+    image: "/images/testimonials/wheelsfeels-testimonial.webp",
   },
   {
     name: "Mario",
