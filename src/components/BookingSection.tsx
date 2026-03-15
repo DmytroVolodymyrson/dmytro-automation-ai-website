@@ -1,15 +1,14 @@
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 import { useEffect } from "react";
-
-const benefits = [
-  "Identify 10+ hours/week you can save",
-  "Get a custom AI roadmap tailored to your business",
-  "Learn how to scale revenue without hiring more staff",
-  "Discover automation opportunities you're missing",
-];
+import { siteConfig } from "@/config/siteConfig";
+import { useTrackSection } from "@/hooks/useTrackSection";
+import { capture } from "@/lib/posthog";
 
 const BookingSection = () => {
+  const sectionRef = useTrackSection("booking");
+  const { booking } = siteConfig;
+
   useEffect(() => {
     // Load the external script for the booking widget immediately
     const script = document.createElement("script");
@@ -30,7 +29,7 @@ const BookingSection = () => {
   }, []);
 
   return (
-    <section id="booking" className="section-padding bg-secondary/30">
+    <section id="booking" ref={sectionRef} className="section-padding bg-secondary/30">
       <div className="container-tight">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -40,10 +39,10 @@ const BookingSection = () => {
           className="text-center mb-12"
         >
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            Ready to Automate Your Business?
+            {booking.heading}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Book your free strategy call and discover how AI automation can transform your operations
+            {booking.subtitle}
           </p>
         </motion.div>
 
@@ -56,7 +55,7 @@ const BookingSection = () => {
           className="mb-8"
         >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto">
-            {benefits.map((benefit, index) => (
+            {booking.benefits.map((benefit, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 10 }}
@@ -77,6 +76,9 @@ const BookingSection = () => {
           id="booking-widget"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
+          onViewportEnter={() => {
+            capture("booking_widget_viewed", { source: "scroll" });
+          }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
           className="bg-card px-6 pt-6 lg:pt-0 pb-6 rounded-2xl shadow-card border border-border/50 overflow-hidden"

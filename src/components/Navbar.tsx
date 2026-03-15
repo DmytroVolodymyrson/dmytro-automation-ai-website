@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import { Zap } from "lucide-react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { siteConfig } from "@/config/siteConfig";
+import { capture } from "@/lib/posthog";
 
 type NavLink =
   | { label: string; href: string; type: "scroll" }
@@ -30,6 +32,7 @@ const Navbar = () => {
   }, []);
 
   const scrollToBooking = () => {
+    capture("cta_clicked", { location: "navbar", label: siteConfig.navbar.ctaText });
     const bookingWidget = document.getElementById("booking-widget");
     if (bookingWidget) {
       bookingWidget.scrollIntoView({ behavior: "smooth" });
@@ -98,7 +101,7 @@ const Navbar = () => {
               onClick={scrollToBooking}
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
             >
-              Book a Call
+              {siteConfig.navbar.ctaText}
             </Button>
           </div>
 
@@ -108,7 +111,7 @@ const Navbar = () => {
             size="sm"
             className="md:hidden bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
           >
-            Book a Call
+            {siteConfig.navbar.ctaText}
           </Button>
         </nav>
       </div>

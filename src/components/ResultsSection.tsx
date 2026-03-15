@@ -1,66 +1,23 @@
 import { ArrowRight, Zap, Clock, Users, TrendingUp } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import { useTrackSection } from "@/hooks/useTrackSection";
+import { siteConfig } from "@/config/siteConfig";
+import { capture } from "@/lib/posthog";
 
-const results = [
-  {
-    icon: Clock,
-    metric: "10+",
-    unit: "hrs/week",
-    description: "Time saved on average per client",
-  },
-  {
-    icon: Zap,
-    metric: "80%",
-    unit: "reduction",
-    description: "in manual work",
-  },
-  {
-    icon: Users,
-    metric: "3x",
-    unit: "capacity",
-    description: "without hiring more staff",
-  },
-  {
-    icon: TrendingUp,
-    metric: "300%+",
-    unit: "ROI",
-    description: "typical ROI in year one",
-  },
-];
-
-const caseStudies = [
-  {
-    industry: "Restaurant",
-    challenge: "Missing reservations from after-hours calls and staff overwhelmed with phone bookings",
-    solution: "Built 24/7 AI voice receptionist handling calls, managing reservations, and routing complex inquiries",
-    slug: "/case-studies/paris-cafe-voice-agent",
-    keyResult: "15 hrs/week saved",
-  },
-  {
-    industry: "Info Business",
-    challenge: "Manually searching Instagram Reels for fitness creators, copy-pasting to Notion. Hours of work for a handful of leads",
-    solution: "Built a fully automated n8n + AI pipeline that discovers, qualifies, and delivers creator leads daily with zero manual work",
-    slug: "/case-studies/instagram-lead-generation",
-    keyResult: "50+ leads/day at $0.29/lead",
-  },
-  {
-    industry: "E-commerce",
-    challenge: "5,600+ leads sitting in spreadsheets with no systematic follow-up",
-    solution: "Built full Supabase CRM + n8n automated email sequences for all lead pools",
-    slug: "/case-studies/ecommerce-crm-automation",
-    keyResult: "3x team capacity increase",
-  },
-];
+const statIcons = [Clock, Zap, Users, TrendingUp];
 
 const ResultsSection = () => {
+  const sectionRef = useTrackSection("results");
   const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation<HTMLDivElement>();
   const { ref: statsRef, isVisible: statsVisible } = useScrollAnimation<HTMLDivElement>();
   const { ref: caseHeaderRef, isVisible: caseHeaderVisible } = useScrollAnimation<HTMLDivElement>();
   const { ref: caseGridRef, isVisible: caseGridVisible } = useScrollAnimation<HTMLDivElement>();
 
+  const { results } = siteConfig;
+
   return (
-    <section className="py-8 md:py-12 lg:py-16 bg-background">
+    <section ref={sectionRef} className="py-8 md:py-12 lg:py-16 bg-background">
       <div className="container-tight">
         {/* Stats Grid */}
         <div
@@ -68,29 +25,32 @@ const ResultsSection = () => {
           className={`text-center mb-10 lg:mb-12 animate-on-scroll ${headerVisible ? "is-visible" : ""}`}
         >
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            Real Results for Real Businesses
+            {results.heading}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Here's what happens when you automate the right processes
+            {results.subtitle}
           </p>
         </div>
 
         <div ref={statsRef} className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 mb-12 lg:mb-20">
-          {results.map((result, index) => (
-            <div
-              key={index}
-              className={`bg-card p-6 lg:p-8 rounded-2xl shadow-card text-center border border-border/50 animate-on-scroll stagger-${index + 1} ${statsVisible ? "is-visible" : ""}`}
-            >
-              <div className="w-12 h-12 mx-auto rounded-xl bg-primary/10 flex items-center justify-center mb-4">
-                <result.icon className="w-6 h-6 text-primary" />
+          {results.stats.map((result, index) => {
+            const Icon = statIcons[index];
+            return (
+              <div
+                key={index}
+                className={`bg-card p-6 lg:p-8 rounded-2xl shadow-card text-center border border-border/50 animate-on-scroll stagger-${index + 1} ${statsVisible ? "is-visible" : ""}`}
+              >
+                <div className="w-12 h-12 mx-auto rounded-xl bg-primary/10 flex items-center justify-center mb-4">
+                  <Icon className="w-6 h-6 text-primary" />
+                </div>
+                <div className="font-display text-4xl font-bold text-foreground mb-1">
+                  {result.metric}
+                </div>
+                <div className="text-accent font-semibold mb-2">{result.unit}</div>
+                <p className="text-sm text-muted-foreground">{result.description}</p>
               </div>
-              <div className="font-display text-4xl font-bold text-foreground mb-1">
-                {result.metric}
-              </div>
-              <div className="text-accent font-semibold mb-2">{result.unit}</div>
-              <p className="text-sm text-muted-foreground">{result.description}</p>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Case Studies */}
@@ -100,17 +60,25 @@ const ResultsSection = () => {
         >
           <div id="case-studies" />
           <h3 className="font-display text-2xl sm:text-3xl font-bold text-foreground mb-4">
-            Client Success Stories
+            {results.caseStudiesHeading}
           </h3>
           <p className="text-muted-foreground">
-            See how automation transformed these businesses
+            {results.caseStudiesSubtitle}
           </p>
         </div>
 
         <div ref={caseGridRef} className="grid lg:grid-cols-3 gap-6 lg:gap-8">
-          {caseStudies.map((study, index) => {
+          {results.caseStudies.map((study, index) => {
             const hasDetailPage = !!study.slug;
             const cardClasses = `bg-card p-6 lg:p-8 rounded-2xl shadow-card border border-border/50 hover:border-primary/30 transition-colors animate-on-scroll stagger-${index + 1} ${caseGridVisible ? "is-visible" : ""}`;
+
+            const handleClick = () => {
+              capture("case_study_clicked", {
+                slug: study.slug,
+                industry: study.industry,
+                position: index,
+              });
+            };
 
             const cardContent = (
               <>
@@ -134,36 +102,27 @@ const ResultsSection = () => {
                   </div>
 
                   <div className="pt-4 border-t border-border">
-                    {hasDetailPage ? (
-                      <div className="rounded-xl border border-primary/20 bg-primary/5 px-4 py-3">
-                        <p className="text-xs uppercase tracking-wide text-accent font-semibold mb-1">KEY RESULT</p>
-                        <p className="font-display text-md font-bold text-foreground whitespace-nowrap">{study.keyResult}</p>
-                      </div>
-                    ) : (
-                      <>
-                        <h5 className="text-sm font-semibold text-accent uppercase tracking-wide mb-2">
-                          Result
-                        </h5>
-                        <p className="text-foreground font-medium">{study.result}</p>
-                      </>
-                    )}
+                    <div className="rounded-xl border border-primary/20 bg-primary/5 px-4 py-3">
+                      <p className="text-xs uppercase tracking-wide text-accent font-semibold mb-1">KEY RESULT</p>
+                      <p className="font-display text-md font-bold text-foreground whitespace-nowrap">{study.keyResult}</p>
+                    </div>
                   </div>
 
-                  {hasDetailPage ? (
+                  {hasDetailPage && (
                     <div className="pt-2">
                       <span className="inline-flex items-center gap-2 text-primary hover:text-accent font-semibold transition-colors">
                         Read More
                         <ArrowRight className="w-4 h-4" />
                       </span>
                     </div>
-                  ) : null}
+                  )}
                 </div>
               </>
             );
 
             if (hasDetailPage && study.slug) {
               return (
-                <Link key={index} to={study.slug} className={cardClasses}>
+                <Link key={index} to={study.slug} className={cardClasses} onClick={handleClick}>
                   {cardContent}
                 </Link>
               );

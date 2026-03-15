@@ -1,42 +1,17 @@
 import { Star, Quote } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-
-interface Testimonial {
-  name: string;
-  role: string;
-  quote: string;
-  rating: number;
-  image?: string;
-}
-
-const testimonials: Testimonial[] = [
-  {
-    name: "Andrey Belke",
-    role: "Founder, WheelsFeels.com",
-    quote: "We were losing so many hot leads from our website because we couldn't follow up fast enough. Dmytro built us an AI-powered email system that sends personalized follow-ups automatically. Now every lead gets a tailored response within minutes, and our conversion rate has skyrocketed.",
-    rating: 5,
-    image: "/images/testimonials/wheelsfeels-testimonial.webp",
-  },
-  {
-    name: "Mario",
-    role: "Owner, Paris Cafe NYC",
-    quote: "Dmytro built us an AI voice receptionist that handles reservations and inquiries perfectly, plus an outbound system that brings in new customers.",
-    rating: 5,
-  },
-  {
-    name: "Jennifer Torres",
-    role: "Operations Manager, TechFlow Solutions",
-    quote: "Our team was spending over 15 hours every week on manual data entry and report generation. Dmytro automated our entire workflow from client data processing to automated reports. The time savings have been incredible.",
-    rating: 5,
-  },
-];
+import { useTrackSection } from "@/hooks/useTrackSection";
+import { siteConfig } from "@/config/siteConfig";
 
 const TestimonialsSection = () => {
+  const sectionRef = useTrackSection("testimonials");
   const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation<HTMLDivElement>();
   const { ref: gridRef, isVisible: gridVisible } = useScrollAnimation<HTMLDivElement>();
 
+  const { testimonials } = siteConfig;
+
   return (
-    <section className="section-padding bg-primary text-primary-foreground relative overflow-hidden">
+    <section ref={sectionRef} className="section-padding bg-primary text-primary-foreground relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 right-0 w-96 h-96 bg-accent rounded-full blur-3xl" />
@@ -49,15 +24,15 @@ const TestimonialsSection = () => {
           className={`text-center mb-10 lg:mb-16 animate-on-scroll ${headerVisible ? "is-visible" : ""}`}
         >
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-            What Clients Are Saying
+            {testimonials.heading}
           </h2>
           <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
-            Don't just take my word for it, hear from businesses that have transformed their operations
+            {testimonials.subtitle}
           </p>
         </div>
 
         <div ref={gridRef} className="grid lg:grid-cols-3 gap-6 lg:gap-8">
-          {testimonials.map((testimonial, index) => (
+          {testimonials.items.map((testimonial, index) => (
             <div
               key={index}
               className={`bg-primary-foreground/10 backdrop-blur-sm p-6 lg:p-8 rounded-2xl border border-primary-foreground/20 animate-on-scroll stagger-${index + 1} ${gridVisible ? "is-visible" : ""}`}

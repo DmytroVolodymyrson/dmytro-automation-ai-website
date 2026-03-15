@@ -1,9 +1,16 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Zap, Clock, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { siteConfig } from "@/config/siteConfig";
+import { capture } from "@/lib/posthog";
+import { useTrackSection } from "@/hooks/useTrackSection";
 
 const HeroSection = () => {
+  const sectionRef = useTrackSection("hero");
+  const { hero } = siteConfig;
+
   const scrollToBooking = () => {
+    capture("cta_clicked", { location: "hero", label: hero.ctaText });
     const bookingWidget = document.getElementById("booking-widget");
     if (bookingWidget) {
       bookingWidget.scrollIntoView({ behavior: "smooth" });
@@ -11,7 +18,10 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-[auto] lg:min-h-screen flex items-center overflow-hidden bg-background pt-24 pb-16 lg:pt-0 lg:pb-0">
+    <section
+      ref={sectionRef}
+      className="relative min-h-[auto] lg:min-h-screen flex items-center overflow-hidden bg-background pt-24 pb-16 lg:pt-0 lg:pb-0"
+    >
       {/* Subtle background pattern */}
       <div className="absolute inset-0 opacity-[0.02]">
         <div className="absolute inset-0" style={{
@@ -19,11 +29,11 @@ const HeroSection = () => {
           backgroundSize: '40px 40px'
         }} />
       </div>
-      
+
       {/* Accent glows */}
       <div className="absolute top-1/4 right-1/4 w-[500px] h-[500px] bg-blue-600/5 rounded-full blur-3xl" />
       <div className="absolute bottom-1/3 left-1/3 w-[400px] h-[400px] bg-cyan-500/5 rounded-full blur-3xl" />
-      
+
       <div className="container-tight relative z-10">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Left content */}
@@ -40,9 +50,9 @@ const HeroSection = () => {
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 text-cyan-600 text-sm font-medium mb-6"
             >
               <Zap className="w-4 h-4" />
-              AI Automation Expert
+              {hero.badge}
             </motion.div>
-            
+
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -50,34 +60,34 @@ const HeroSection = () => {
               className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-5 tracking-tight"
             >
               Automate <br /> boring work.
-              <span className="block text-gradient pb-1 font-sans text-[0.9em]">Focus on growth.</span>
+              <span className="block text-gradient pb-1 font-sans text-[0.9em]">{hero.headlineSub}</span>
             </motion.h1>
-            
+
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.5 }}
               className="text-lg sm:text-xl text-muted-foreground mb-6 lg:mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              I help businesses save 10+ hours weekly and generate 300%+ ROI by building AI systems that automate repetitive work and let teams focus on what matters.
+              {hero.subtitle}
             </motion.p>
-            
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.5 }}
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
             >
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 onClick={scrollToBooking}
                 className="group bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
               >
-                Book a Free Strategy Call
+                {hero.ctaText}
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </motion.div>
-            
+
             {/* Quick stats */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -87,15 +97,15 @@ const HeroSection = () => {
             >
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Clock className="w-5 h-5 text-cyan-600" />
-                <span className="text-sm font-medium">Save 10+ hrs/week</span>
+                <span className="text-sm font-medium">{hero.stats[0].label}</span>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <TrendingUp className="w-5 h-5 text-cyan-600" />
-                <span className="text-sm font-medium">Scale without hiring</span>
+                <span className="text-sm font-medium">{hero.stats[1].label}</span>
               </div>
             </motion.div>
           </motion.div>
-          
+
           {/* Right - Photo placeholder */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}

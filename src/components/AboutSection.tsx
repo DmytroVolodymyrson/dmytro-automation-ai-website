@@ -1,22 +1,20 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import { useTrackSection } from "@/hooks/useTrackSection";
+import { siteConfig } from "@/config/siteConfig";
 import { Zap } from "lucide-react";
 
-const stats = [
-  { value: "7+", label: "Years building software" },
-  { value: "50+", label: "Automations built" },
-  { value: "$100K+", label: "Saved for clients annually" },
-  { value: "1000+", label: "Hours Saved" },
-];
-
 const AboutSection = () => {
+  const sectionRef = useTrackSection("about");
   const { ref: badgeRef, isVisible: badgeVisible } = useScrollAnimation<HTMLDivElement>();
   const { ref: headingRef, isVisible: headingVisible } = useScrollAnimation<HTMLDivElement>();
   const { ref: photoRef, isVisible: photoVisible } = useScrollAnimation<HTMLDivElement>();
   const { ref: textRef, isVisible: textVisible } = useScrollAnimation<HTMLDivElement>();
   const { ref: statsRef, isVisible: statsVisible } = useScrollAnimation<HTMLDivElement>();
 
+  const { about } = siteConfig;
+
   return (
-    <section className="relative py-8 md:py-12 lg:py-16 bg-background overflow-hidden">
+    <section ref={sectionRef} className="relative py-8 md:py-12 lg:py-16 bg-background overflow-hidden">
       {/* Subtle dot grid overlay */}
       <div className="absolute inset-0 opacity-[0.015]">
         <div
@@ -50,7 +48,7 @@ const AboutSection = () => {
             >
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 text-cyan-600 text-sm font-medium mb-6">
                 <Zap className="w-4 h-4" />
-                The Person Behind the Automation
+                {about.badge}
               </div>
             </div>
 
@@ -60,7 +58,7 @@ const AboutSection = () => {
               className={`animate-on-scroll ${headingVisible ? "is-visible" : ""}`}
             >
               <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-6 tracking-tight">
-                I started coding at 16. Now I build AI systems that run businesses.
+                {about.heading}
               </h2>
             </div>
 
@@ -77,12 +75,11 @@ const AboutSection = () => {
               ref={textRef}
               className={`space-y-4 animate-on-scroll ${textVisible ? "is-visible" : ""}`}
             >
-              <p className="text-muted-foreground text-base sm:text-lg leading-relaxed">
-                I'm Dmytro. I grew up in Ukraine and wrote my first line of code at 16. After 7 years building software, I found my thing: using AI to automate the repetitive work that slows businesses down.
-              </p>
-              <p className="text-muted-foreground text-base sm:text-lg leading-relaxed">
-                Every automation I build starts with one question: what's eating up your time? From there, I design systems that handle it, so you can spend your hours on the work that actually grows your business.
-              </p>
+              {about.paragraphs.map((paragraph, index) => (
+                <p key={index} className="text-muted-foreground text-base sm:text-lg leading-relaxed">
+                  {paragraph}
+                </p>
+              ))}
             </div>
           </div>
         </div>
@@ -92,7 +89,7 @@ const AboutSection = () => {
           ref={statsRef}
           className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 mt-12 lg:mt-16"
         >
-          {stats.map((stat, index) => (
+          {about.stats.map((stat, index) => (
             <div
               key={index}
               className={`bg-card p-4 lg:p-6 rounded-xl shadow-card border border-border/50 text-center animate-on-scroll-scale stagger-${index + 1} ${statsVisible ? "is-visible" : ""}`}
