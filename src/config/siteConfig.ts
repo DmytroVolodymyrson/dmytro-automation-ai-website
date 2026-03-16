@@ -220,9 +220,9 @@ export const siteConfig = {
 
   booking: {
     badge: "Low-pressure first call",
-    heading: "Book a 20-minute strategy call",
+    heading: "Book a 30-minute strategy call",
     subtitle:
-      "A focused first conversation to look at where automation could save time, tighten follow-up, or remove repetitive work in your business.",
+      "A focused 30-minute conversation to look at where automation could save time, tighten follow-up, or remove repetitive work in your business.",
     details: [
       {
         title: "What this call is",

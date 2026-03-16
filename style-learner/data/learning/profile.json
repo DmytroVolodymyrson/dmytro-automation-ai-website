@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-03-16T04:47:02.971Z",
-  "postCount": 15,
+  "updatedAt": "2026-03-16T05:02:44.404Z",
+  "postCount": 16,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -9,31 +9,31 @@
   },
   "structure": {
     "paragraphCount": {
-      "mean": 5.3,
-      "median": 6,
+      "mean": 5.4,
+      "median": 6.5,
       "min": 1,
       "max": 9,
       "p25": 3,
       "p75": 7,
-      "samples": 15
+      "samples": 16
     },
     "sentenceLength": {
-      "mean": 14.2,
-      "median": 12.4,
+      "mean": 14.1,
+      "median": 12.45,
       "min": 7.1,
       "max": 29.3,
       "p25": 11,
-      "p75": 14.5,
-      "samples": 15
+      "p75": 14.4,
+      "samples": 16
     },
     "totalWords": {
-      "mean": 161.5,
-      "median": 112,
+      "mean": 160.1,
+      "median": 125,
       "min": 17,
       "max": 381,
       "p25": 57,
-      "p75": 269,
-      "samples": 15
+      "p75": 256,
+      "samples": 16
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -45,8 +45,8 @@
       "single | single | long | long | single | single | single": 1,
       "long": 1,
       "single | single | long | long | short | single | single | short": 1,
+      "single | single | single | single | single | short | long | single": 2,
       "single": 2,
-      "single | single | single | single | single | short | long | single": 1,
       "long | single | single | single": 1,
       "single | single | single": 1
     },
@@ -59,7 +59,7 @@
       "opener | result | context | context | context | context | closer": 1,
       "opener": 3,
       "opener | result | context | product-pitch | product-pitch | product-pitch | context | closer": 1,
-      "opener | context | context | context | context | context | context | closer": 1,
+      "opener | context | context | context | context | context | context | closer": 2,
       "opener | product-pitch | result | closer": 1,
       "opener | context | closer": 1
     }
@@ -75,11 +75,11 @@
         ]
       },
       "short-punch": {
-        "count": 3,
+        "count": 4,
         "examples": [
           "Badge: AI Automation Expert",
           "Badge: Low-pressure first call",
-          "Heading: Recent work."
+          "Badge: Low-pressure first call"
         ]
       },
       "standard-opener": {
@@ -117,11 +117,11 @@
         ]
       },
       "movement": {
-        "count": 3,
+        "count": 4,
         "examples": [
+          "Benefits:\n- Find the bottleneck\n- See the best next move\n- Leave with a plan",
           "Supporting bullets:\n- Find the bottleneck\n- See the best next move\n- Leave with ",
-          "Supporting bullets:\n- Find the highest-leverage place to automate\n- See whether ",
-          "Supporting bullets:\n- Clarify the highest-leverage place to start\n- See whether "
+          "Supporting bullets:\n- Find the highest-leverage place to automate\n- See whether "
         ]
       }
     }
@@ -136,11 +136,11 @@
     "topWords": [
       [
         "-",
-        38
+        41
       ],
       [
         "with",
-        24
+        27
       ],
       [
         "ai",
@@ -151,15 +151,19 @@
         20
       ],
       [
+        "call",
+        19
+      ],
+      [
         "automation",
         18
       ],
       [
         "work",
-        16
+        18
       ],
       [
-        "call",
+        "what",
         16
       ],
       [
@@ -175,10 +179,6 @@
         14
       ],
       [
-        "what",
-        13
-      ],
-      [
         "businesses",
         12
       ],
@@ -189,6 +189,10 @@
       [
         "from",
         11
+      ],
+      [
+        "your",
+        10
       ],
       [
         "result",
@@ -203,7 +207,11 @@
         9
       ],
       [
-        "your",
+        "first",
+        9
+      ],
+      [
+        "follow-up",
         8
       ],
       [
@@ -212,6 +220,14 @@
       ],
       [
         "3",
+        7
+      ],
+      [
+        "business",
+        7
+      ],
+      [
+        "next",
         7
       ],
       [
@@ -227,32 +243,16 @@
         6
       ],
       [
-        "follow-up",
-        6
-      ],
-      [
         "time",
         6
       ],
       [
-        "card",
+        "look",
         6
       ],
       [
-        "1",
-        5
-      ],
-      [
-        "2",
-        5
-      ],
-      [
-        "5600",
-        5
-      ],
-      [
-        "business",
-        5
+        "best",
+        6
       ]
     ],
     "casualMarkerRate": 0,

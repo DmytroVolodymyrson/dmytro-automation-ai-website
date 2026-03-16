@@ -11,7 +11,7 @@ const TestimonialsSection = () => {
   const { testimonials } = siteConfig;
 
   return (
-    <section ref={sectionRef} className="section-padding bg-primary text-primary-foreground relative overflow-hidden">
+    <section ref={sectionRef} className="bg-primary text-primary-foreground relative overflow-hidden pt-8 pb-12 md:pt-14 md:pb-20 lg:pt-20 lg:pb-28">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 right-0 w-96 h-96 bg-accent rounded-full blur-3xl" />

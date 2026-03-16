@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "2026-03-15-homepage-booking-section-friction-pass",
+  "id": "2026-03-15-booking-section-duration-and-spacing",
   "platform": "landing-page",
   "language": "en",
   "date": "2026-03-15",
   "dayOfWeek": "sunday",
   "published": {
-    "text": "Badge: Low-pressure first call\n\nHeading:\nBook a 20-minute strategy call\n\nSubtitle:\nA focused first conversation to look at where automation could save time, tighten follow-up, or remove repetitive work in your business.\n\nCard 1 — What this call is:\nA short working session where we look at your current workflow and identify the best place to automate first.\n\nCard 2 — Who it's for:\nBusiness owners with repeat admin work, missed follow-up, slow response times, or too many manual handoffs.\n\nCard 3 — What happens next:\nIf there's a clear fit, I'll outline the best first move, rough scope, and next steps. If not, you'll still leave with a practical direction.\n\nReassurance line:\nNo hard sell. No vague AI buzzwords. Just a clear look at what is actually worth automating first.\n\nSupporting bullets:\n- Clarify the highest-leverage place to start\n- See whether a quick win or a larger build makes more sense\n- Leave with a practical next step either way",
+    "text": "Badge: Low-pressure first call\n\nHeading: Book a 30-minute strategy call\n\nSubtitle: A focused 30-minute conversation to look at where automation could save time, tighten follow-up, or remove repetitive work in your business.\n\nWhat this call is:\nA focused 30-minute working session where we look at your current workflow and identify the best place to automate first.\n\nWho it's for:\nBusiness owners with repeat admin work, missed follow-up, slow response times, or too many manual handoffs.\n\nWhat happens next:\nIf there's a clear fit, I'll outline the best first move, rough scope, and next steps. If not, you'll still leave with a practical direction.\n\nReassurance:\nNo hard sell. No vague AI buzzwords. Just a clear look at what is actually worth automating first.\n\nBenefits:\n- Find the bottleneck\n- See the best next move\n- Leave with a plan",
     "formatting": [
       "bold:Badge:"
     ]
@@ -16,27 +16,19 @@
   "edits": [
     {
       "type": "tone_shift",
-      "description": "Removes generic \"book a free strategy call\" language and explains the actual shape of the call"
+      "description": "Corrects the session length so the page matches the real scheduler"
     },
     {
       "type": "tone_shift",
-      "description": "Uses a three-part structure to answer the main hesitation questions before the widget"
+      "description": "Keeps the tone direct, low-pressure, and practical"
     },
     {
       "type": "tone_shift",
-      "description": "Reassurance line lowers pressure without sounding soft or salesy"
-    },
-    {
-      "type": "tone_shift",
-      "description": "Copy stays concrete, concise, and businesslike"
-    },
-    {
-      "type": "tone_shift",
-      "description": "Benefits focus on decision clarity, not inflated promises"
+      "description": "Preserves the existing conversion-focused wording instead of rewriting the section"
     }
   ],
   "analysis": {
-    "analyzedAt": "2026-03-16T05:02:44.150Z",
+    "analyzedAt": "2026-03-16T05:02:44.145Z",
     "structure": {
       "paragraphCount": 8,
       "sentencesPerParagraph": [
@@ -49,12 +41,12 @@
         3,
         1
       ],
-      "avgSentenceLength": 14.5,
+      "avgSentenceLength": 12.5,
       "sentenceLengthRange": [
         4,
-        31
+        24
       ],
-      "totalWords": 159
+      "totalWords": 138
     },
     "opener": {
       "type": "short-punch",
@@ -64,7 +56,7 @@
     },
     "closer": {
       "type": "movement",
-      "text": "Supporting bullets:\n- Clarify the highest-leverage place to start\n- See whether a quick win or a larger build makes more sense\n- Leave with a practical next step either way",
+      "text": "Benefits:\n- Find the bottleneck\n- See the best next move\n- Leave with a plan",
       "pattern": "movement"
     },
     "template": {
@@ -83,7 +75,7 @@
     "punctuation": {
       "periods": 8,
       "commas": 9,
-      "emDashes": 3,
+      "emDashes": 0,
       "enDashes": 0,
       "hyphens": 3,
       "ellipsis": 0,
@@ -93,15 +85,19 @@
       "commasPerSentence": 1
     },
     "vocabulary": {
-      "distinctWords": 111,
-      "totalWords": 159,
+      "distinctWords": 93,
+      "totalWords": 138,
       "topWords": [
         [
           "first",
-          5
+          4
         ],
         [
           "call",
+          3
+        ],
+        [
+          "30-minute",
           3
         ],
         [
@@ -109,11 +105,11 @@
           3
         ],
         [
-          "card",
+          "what",
           3
         ],
         [
-          "what",
+          "best",
           3
         ],
         [
@@ -127,6 +123,10 @@
         [
           "-",
           3
+        ],
+        [
+          "focused",
+          2
         ],
         [
           "where",
@@ -147,14 +147,6 @@
         [
           "business",
           2
-        ],
-        [
-          "best",
-          2
-        ],
-        [
-          "place",
-          2
         ]
       ],
       "casualMarkers": [],
@@ -163,13 +155,13 @@
       "casualMarkerRate": 0
     },
     "editSignals": {
-      "totalEdits": 5,
+      "totalEdits": 3,
       "cuts": 0,
       "additions": 0,
       "wordSwaps": 0,
       "rephrases": 0,
       "reorders": 0,
-      "toneShifts": 5,
+      "toneShifts": 3,
       "patterns": []
     }
   }

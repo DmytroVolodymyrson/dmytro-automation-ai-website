@@ -22,7 +22,7 @@ const FAQSection = () => {
   };
 
   return (
-    <section ref={sectionRef} className="section-padding bg-background">
+    <section ref={sectionRef} className="bg-background pt-8 pb-12 md:pt-12 md:pb-20 lg:pt-16 lg:pb-28">
       <div className="container-tight">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">

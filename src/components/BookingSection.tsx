@@ -29,7 +29,7 @@ const BookingSection = () => {
   }, []);
 
   return (
-    <section id="booking" ref={sectionRef} className="section-padding relative bg-secondary/30 overflow-hidden">
+    <section id="booking" ref={sectionRef} className="relative bg-secondary/30 overflow-hidden pt-8 pb-12 md:pt-14 md:pb-20 lg:pt-20 lg:pb-28">
       <div className="absolute inset-0 opacity-[0.015]">
         <div
           className="absolute inset-0"

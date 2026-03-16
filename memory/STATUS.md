@@ -15,6 +15,8 @@
 - Booking section layout was widened within the existing design so the embedded scheduler can use more horizontal space, reducing the cramped one-column feel without changing the section concept
 - Booking section supporting bullets were tightened into three approved one-liners to make the outcomes faster to scan without changing layout or structure
 - Booking section supporting bullets were further simplified into blunter true one-liners: “Find the bottleneck”, “See the best next move”, and “Leave with a plan”
+- Booking section duration copy now correctly says 30 minutes in the heading/subtitle and supporting detail text so the homepage matches the actual scheduler
+- FAQ, testimonials, and booking sections had their top padding reduced to tighten the lower-homepage rhythm after the results section removal, while leaving bottom spacing and overall structure intact
 - Homepage lower "Results / Client Success Stories" section was removed; proof now lives in the upper proof strip only, with homepage flow preserved as Hero → Proof Strip → About → Services → FAQ → Testimonials → Booking
 - Navbar dead anchors were cleaned up by removing `#results` and `#case-studies` links; booking CTA behavior and case study routes remain intact
 
