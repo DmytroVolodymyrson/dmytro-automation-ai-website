@@ -13,6 +13,7 @@
 - The proof strip was refined into a more minimal, premium scan pattern: short intro, then cards with industry label, one big result, one support line, and a lightweight case-study affordance
 - Booking section copy + layout now reduce friction before the widget by clarifying what the first call is, who it is for, what happens next, and adding a direct low-pressure reassurance line above the scheduler
 - Booking section layout was widened within the existing design so the embedded scheduler can use more horizontal space, reducing the cramped one-column feel without changing the section concept
+- Booking section supporting bullets were tightened into three approved one-liners to make the outcomes faster to scan without changing layout or structure
 
 ## What Was Just Planned (March 7, 2026)
 A full GEO (Generative Engine Optimization) plan was created to make Dmytro show up when buyers ask ChatGPT/Perplexity/Claude "who should I hire for AI automation?"

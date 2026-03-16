@@ -243,9 +243,9 @@ export const siteConfig = {
     reassurance:
       "No hard sell. No vague AI buzzwords. Just a clear look at what is actually worth automating first.",
     benefits: [
-      "Clarify the highest-leverage place to start",
-      "See whether a quick win or a larger build makes more sense",
-      "Leave with a practical next step either way",
+      "Find the highest-leverage place to automate",
+      "See whether a quick win or larger build makes sense",
+      "Leave with a clear next step",
     ],
   },
 } as const;

@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-03-15-homepage-booking-section-bullets-one-liners",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-03-15",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "Supporting bullets:\n- Find the highest-leverage place to automate\n- See whether a quick win or larger build makes sense\n- Leave with a clear next step",
+    "formatting": [
+      "bold:Supporting"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Tightens the three supporting bullets into one-line scan-friendly outcomes"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the promise practical and low-pressure"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses direct business language with no fluff or extra explanation"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-03-16T04:10:54.759Z",
+    "structure": {
+      "paragraphCount": 1,
+      "sentencesPerParagraph": [
+        1
+      ],
+      "avgSentenceLength": 27,
+      "sentenceLengthRange": [
+        27,
+        27
+      ],
+      "totalWords": 27
+    },
+    "opener": {
+      "type": "general",
+      "text": "Supporting bullets:\n- Find the highest-leverage place to automate\n- See whether a quick win or larger build makes sense\n- Leave with a clear next step",
+      "wordCount": 27,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "movement",
+      "text": "Supporting bullets:\n- Find the highest-leverage place to automate\n- See whether a quick win or larger build makes sense\n- Leave with a clear next step",
+      "pattern": "movement"
+    },
+    "template": {
+      "roles": [
+        "opener"
+      ],
+      "template": "opener"
+    },
+    "punctuation": {
+      "periods": 0,
+      "commas": 0,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 3,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 1,
+      "commasPerSentence": 0
+    },
+    "vocabulary": {
+      "distinctWords": 24,
+      "totalWords": 27,
+      "topWords": [
+        [
+          "-",
+          3
+        ],
+        [
+          "supporting",
+          1
+        ],
+        [
+          "bullets",
+          1
+        ],
+        [
+          "find",
+          1
+        ],
+        [
+          "highest-leverage",
+          1
+        ],
+        [
+          "place",
+          1
+        ],
+        [
+          "automate",
+          1
+        ],
+        [
+          "see",
+          1
+        ],
+        [
+          "whether",
+          1
+        ],
+        [
+          "quick",
+          1
+        ],
+        [
+          "win",
+          1
+        ],
+        [
+          "larger",
+          1
+        ],
+        [
+          "build",
+          1
+        ],
+        [
+          "makes",
+          1
+        ],
+        [
+          "sense",
+          1
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}
