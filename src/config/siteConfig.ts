@@ -235,14 +235,33 @@ export const siteConfig = {
   },
 
   booking: {
-    heading: "Ready to Automate Your Business?",
+    badge: "Low-pressure first call",
+    heading: "Book a 20-minute strategy call",
     subtitle:
-      "Book your free strategy call and discover how AI automation can transform your operations",
+      "A focused first conversation to look at where automation could save time, tighten follow-up, or remove repetitive work in your business.",
+    details: [
+      {
+        title: "What this call is",
+        description:
+          "A short working session where we look at your current workflow and identify the best place to automate first.",
+      },
+      {
+        title: "Who it's for",
+        description:
+          "Business owners with repeat admin work, missed follow-up, slow response times, or too many manual handoffs.",
+      },
+      {
+        title: "What happens next",
+        description:
+          "If there's a clear fit, I'll outline the best first move, rough scope, and next steps. If not, you'll still leave with a practical direction.",
+      },
+    ],
+    reassurance:
+      "No hard sell. No vague AI buzzwords. Just a clear look at what is actually worth automating first.",
     benefits: [
-      "Identify 10+ hours/week you can save",
-      "Get a custom AI roadmap tailored to your business",
-      "Learn how to scale revenue without hiring more staff",
-      "Discover automation opportunities you're missing",
+      "Clarify the highest-leverage place to start",
+      "See whether a quick win or a larger build makes more sense",
+      "Leave with a practical next step either way",
     ],
   },
 } as const;

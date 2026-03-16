@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-03-15-homepage-booking-section-friction-pass",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-03-15",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "Badge: Low-pressure first call\n\nHeading:\nBook a 20-minute strategy call\n\nSubtitle:\nA focused first conversation to look at where automation could save time, tighten follow-up, or remove repetitive work in your business.\n\nCard 1 — What this call is:\nA short working session where we look at your current workflow and identify the best place to automate first.\n\nCard 2 — Who it's for:\nBusiness owners with repeat admin work, missed follow-up, slow response times, or too many manual handoffs.\n\nCard 3 — What happens next:\nIf there's a clear fit, I'll outline the best first move, rough scope, and next steps. If not, you'll still leave with a practical direction.\n\nReassurance line:\nNo hard sell. No vague AI buzzwords. Just a clear look at what is actually worth automating first.\n\nSupporting bullets:\n- Clarify the highest-leverage place to start\n- See whether a quick win or a larger build makes more sense\n- Leave with a practical next step either way",
+    "formatting": [
+      "bold:Badge:"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Removes generic \"book a free strategy call\" language and explains the actual shape of the call"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses a three-part structure to answer the main hesitation questions before the widget"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Reassurance line lowers pressure without sounding soft or salesy"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Copy stays concrete, concise, and businesslike"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Benefits focus on decision clarity, not inflated promises"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-03-16T03:44:03.718Z",
+    "structure": {
+      "paragraphCount": 8,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        3,
+        1
+      ],
+      "avgSentenceLength": 14.5,
+      "sentenceLengthRange": [
+        4,
+        31
+      ],
+      "totalWords": 159
+    },
+    "opener": {
+      "type": "short-punch",
+      "text": "Badge: Low-pressure first call",
+      "wordCount": 4,
+      "pattern": "short-punch"
+    },
+    "closer": {
+      "type": "movement",
+      "text": "Supporting bullets:\n- Clarify the highest-leverage place to start\n- See whether a quick win or a larger build makes more sense\n- Leave with a practical next step either way",
+      "pattern": "movement"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | context | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 9,
+      "emDashes": 3,
+      "enDashes": 0,
+      "hyphens": 3,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 8,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 111,
+      "totalWords": 159,
+      "topWords": [
+        [
+          "first",
+          5
+        ],
+        [
+          "call",
+          3
+        ],
+        [
+          "look",
+          3
+        ],
+        [
+          "card",
+          3
+        ],
+        [
+          "what",
+          3
+        ],
+        [
+          "with",
+          3
+        ],
+        [
+          "next",
+          3
+        ],
+        [
+          "-",
+          3
+        ],
+        [
+          "where",
+          2
+        ],
+        [
+          "follow-up",
+          2
+        ],
+        [
+          "work",
+          2
+        ],
+        [
+          "your",
+          2
+        ],
+        [
+          "business",
+          2
+        ],
+        [
+          "best",
+          2
+        ],
+        [
+          "place",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

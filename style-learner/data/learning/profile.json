@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-03-16T03:13:54.835Z",
-  "postCount": 11,
+  "updatedAt": "2026-03-16T03:44:03.895Z",
+  "postCount": 12,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -9,31 +9,31 @@
   },
   "structure": {
     "paragraphCount": {
-      "mean": 6,
+      "mean": 6.2,
       "median": 7,
       "min": 1,
       "max": 9,
       "p25": 5,
       "p75": 7,
-      "samples": 11
+      "samples": 12
     },
     "sentenceLength": {
-      "mean": 13.5,
-      "median": 11.4,
+      "mean": 13.6,
+      "median": 11.9,
       "min": 7.1,
       "max": 29.3,
       "p25": 10.8,
       "p75": 14.4,
-      "samples": 11
+      "samples": 12
     },
     "totalWords": {
-      "mean": 208.5,
-      "median": 205,
+      "mean": 204.3,
+      "median": 195.5,
       "min": 57,
       "max": 381,
       "p25": 92,
-      "p75": 298,
-      "samples": 11
+      "p75": 269,
+      "samples": 12
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -45,6 +45,7 @@
       "single | single | long | long | single | single | single": 1,
       "long": 1,
       "single | single | long | long | short | single | single | short": 1,
+      "single | single | single | single | single | short | long | single": 1,
       "long | short | short | short": 1
     },
     "structuralTemplates": {
@@ -56,6 +57,7 @@
       "opener | result | context | context | context | context | closer": 1,
       "opener": 1,
       "opener | result | context | product-pitch | product-pitch | product-pitch | context | closer": 1,
+      "opener | context | context | context | context | context | context | closer": 1,
       "opener | product-pitch | result | closer": 1
     }
   },
@@ -70,9 +72,10 @@
         ]
       },
       "short-punch": {
-        "count": 1,
+        "count": 2,
         "examples": [
-          "Badge: AI Automation Expert"
+          "Badge: AI Automation Expert",
+          "Badge: Low-pressure first call"
         ]
       },
       "standard-opener": {
@@ -108,11 +111,17 @@
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
           "CTA: \"Want Results Like These? Book a free strategy call to see how automation c"
         ]
+      },
+      "movement": {
+        "count": 1,
+        "examples": [
+          "Supporting bullets:\n- Clarify the highest-leverage place to start\n- See whether "
+        ]
       }
     }
   },
   "punctuation": {
-    "emDashRate": 0,
+    "emDashRate": 0.1,
     "ellipsisRate": 0,
     "exclamationRate": 0,
     "avgCommasPerSentence": 1
@@ -120,16 +129,16 @@
   "vocabulary": {
     "topWords": [
       [
-        "ai",
-        25
-      ],
-      [
         "-",
-        24
+        27
       ],
       [
         "with",
-        24
+        27
+      ],
+      [
+        "ai",
+        25
       ],
       [
         "leads",
@@ -144,7 +153,15 @@
         16
       ],
       [
+        "call",
+        16
+      ],
+      [
         "that",
+        15
+      ],
+      [
+        "work",
         15
       ],
       [
@@ -152,11 +169,7 @@
         14
       ],
       [
-        "work",
-        13
-      ],
-      [
-        "call",
+        "what",
         13
       ],
       [
@@ -172,7 +185,7 @@
         11
       ],
       [
-        "what",
+        "follow-up",
         10
       ],
       [
@@ -184,7 +197,7 @@
         9
       ],
       [
-        "follow-up",
+        "your",
         8
       ],
       [
@@ -204,10 +217,6 @@
         6
       ],
       [
-        "your",
-        6
-      ],
-      [
         "builds",
         6
       ],
@@ -224,20 +233,20 @@
         6
       ],
       [
+        "card",
+        6
+      ],
+      [
+        "business",
+        5
+      ],
+      [
         "case",
         5
       ],
       [
         "study",
         5
-      ],
-      [
-        "voice",
-        5
-      ],
-      [
-        "1",
-        4
       ]
     ],
     "casualMarkerRate": 0,

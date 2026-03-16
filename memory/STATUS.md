@@ -10,6 +10,7 @@
 - Canonical env names remain `VITE_POSTHOG_KEY` and `VITE_POSTHOG_HOST`
 - New planning doc added from video review: `docs/plans/2026-03-15-video-inspired-website-improvement-plan.md`
 - Homepage now includes a compact proof strip directly under the hero with 3 case-study-driven cards (restaurant voice AI, Instagram lead gen, e-commerce CRM automation) to surface credibility earlier without moving the full Results section
+- Booking section copy + layout now reduce friction before the widget by clarifying what the first call is, who it is for, what happens next, and adding a direct low-pressure reassurance line above the scheduler
 
 ## What Was Just Planned (March 7, 2026)
 A full GEO (Generative Engine Optimization) plan was created to make Dmytro show up when buyers ask ChatGPT/Perplexity/Claude "who should I hire for AI automation?"
@@ -34,6 +35,7 @@ A full GEO (Generative Engine Optimization) plan was created to make Dmytro show
 - Above-fold positioning: needs to be more specific (see GEO-PLAN.md for draft copy)
 - Add FAQ section with 6+ Q&As using exact buyer language
 - New proof strip under hero now handles early trust/relevance; next homepage gains should focus on sharper hero specificity and conversion polish
+- Booking area is now more conversion-oriented; next polish pass could tighten widget spacing on mobile or add a tiny scheduling FAQ if drop-off remains high
 
 ### Brand Cleanup Completed (March 14, 2026)
 - Removed `lovable-tagger` from dependencies and Vite config
