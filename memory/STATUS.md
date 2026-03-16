@@ -10,6 +10,7 @@
 - Canonical env names remain `VITE_POSTHOG_KEY` and `VITE_POSTHOG_HOST`
 - New planning doc added from video review: `docs/plans/2026-03-15-video-inspired-website-improvement-plan.md`
 - Homepage now includes a compact proof strip directly under the hero with 3 case-study-driven cards (restaurant voice AI, Instagram lead gen, e-commerce CRM automation) to surface credibility earlier without moving the full Results section
+- The proof strip was refined into a more minimal, premium scan pattern: short intro, then cards with industry label, one big result, one support line, and a lightweight case-study affordance
 - Booking section copy + layout now reduce friction before the widget by clarifying what the first call is, who it is for, what happens next, and adding a direct low-pressure reassurance line above the scheduler
 
 ## What Was Just Planned (March 7, 2026)

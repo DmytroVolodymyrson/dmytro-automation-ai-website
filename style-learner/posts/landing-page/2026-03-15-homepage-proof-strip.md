@@ -6,34 +6,24 @@
 
 ## Final Published Text
 
-Badge: Proof, not promises
-Heading: The work is real. The outcomes are specific.
-Subtitle: Three recent examples of the kind of automation I build for small businesses: more captured demand, faster follow-up, and more capacity without adding headcount.
-Relevance note: Best fit: small businesses with repeatable workflows, missed follow-up, or manual admin slowing the team down.
+Heading: Recent work. Clear results.
+Subtitle: Three examples of what good automation changes.
 
 Card 1 — Restaurant:
-Title: AI receptionist for after-hours demand
-Proof point: 0% → 100%
-Metric note: after-hours calls answered
-Description: Built a 24/7 voice agent for The Paris Café so missed reservation calls stopped turning into missed revenue.
-Tags: restaurants, voice AI, booking flow
+Result: 100% of after-hours calls answered
+Support line: A 24/7 voice agent now captures reservation demand that used to be missed.
 
 Card 2 — Info Business:
-Title: Automated creator lead generation
-Proof point: 50+ leads/day
-Metric note: at $0.29 per lead
-Description: Replaced manual Instagram prospecting with an n8n + AI pipeline that discovers and qualifies leads automatically.
-Tags: lead gen, n8n, outbound systems
+Result: 50+ qualified leads/day
+Support line: Manual Instagram prospecting was replaced by an automated pipeline at $0.29 per lead.
 
 Card 3 — E-commerce:
-Title: CRM follow-up that scales with the same team
-Proof point: 3x capacity
-Metric note: with 5,600+ leads organized
-Description: Built a CRM and automated follow-up system so every lead gets tracked, segmented, and contacted without manual chasing.
-Tags: crm, email automation, ops
+Result: 3x follow-up capacity
+Support line: CRM automation organized 5,600+ leads without adding headcount.
 
 ## Style Notes
-- Short trust-building strip placed directly under the hero
-- Copy stays concrete and metric-first instead of making broad claims
-- Each card pairs one result with one business type to answer “is this relevant to me?” fast
-- Tone is direct, credible, and premium; no hype words or vague transformation language
+- Reduced the strip to one short intro line and three compact proof cards
+- Each card follows a simple scan pattern: industry, result, one supporting line
+- Results stay concrete and business-facing while the support line adds just enough context
+- Link affordance is intentionally lightweight so the metrics remain the focal point
+- Tone stays direct, credible, and premium without extra UI noise or copy clutter

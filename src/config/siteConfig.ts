@@ -81,45 +81,29 @@ export const siteConfig = {
   },
 
   proofStrip: {
-    badge: "Proof, not promises",
-    heading: "The work is real. The outcomes are specific.",
-    subtitle:
-      "Three recent examples of the kind of automation I build for small businesses: more captured demand, faster follow-up, and more capacity without adding headcount.",
-    relevanceNote:
-      "Best fit: small businesses with repeatable workflows, missed follow-up, or manual admin slowing the team down.",
+    heading: "Recent work. Clear results.",
+    subtitle: "Three examples of what good automation changes.",
     cards: [
       {
         label: "Restaurant",
-        title: "AI receptionist for after-hours demand",
-        metric: "0% → 100%",
-        metricNote: "after-hours calls answered",
-        description:
-          "Built a 24/7 voice agent for The Paris Café so missed reservation calls stopped turning into missed revenue.",
-        tags: ["restaurants", "voice AI", "booking flow"],
+        metric: "100% of after-hours calls answered",
+        supportLine:
+          "A 24/7 voice agent now captures reservation demand that used to be missed.",
         slug: "/case-studies/paris-cafe-voice-agent",
-        icon: "Clock3",
       },
       {
         label: "Info Business",
-        title: "Automated creator lead generation",
-        metric: "50+ leads/day",
-        metricNote: "at $0.29 per lead",
-        description:
-          "Replaced manual Instagram prospecting with an n8n + AI pipeline that discovers and qualifies leads automatically.",
-        tags: ["lead gen", "n8n", "outbound systems"],
+        metric: "50+ qualified leads/day",
+        supportLine:
+          "Manual Instagram prospecting was replaced by an automated pipeline at $0.29 per lead.",
         slug: "/case-studies/instagram-lead-generation",
-        icon: "TrendingUp",
       },
       {
         label: "E-commerce",
-        title: "CRM follow-up that scales with the same team",
-        metric: "3x capacity",
-        metricNote: "with 5,600+ leads organized",
-        description:
-          "Built a CRM and automated follow-up system so every lead gets tracked, segmented, and contacted without manual chasing.",
-        tags: ["crm", "email automation", "ops"],
+        metric: "3x follow-up capacity",
+        supportLine:
+          "CRM automation organized 5,600+ leads without adding headcount.",
         slug: "/case-studies/ecommerce-crm-automation",
-        icon: "Bot",
       },
     ],
   },

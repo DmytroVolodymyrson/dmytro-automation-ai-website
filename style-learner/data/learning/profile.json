@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-03-16T03:44:03.895Z",
+  "updatedAt": "2026-03-16T03:50:08.999Z",
   "postCount": 12,
   "platforms": {
     "telegram": 0,
@@ -18,20 +18,20 @@
       "samples": 12
     },
     "sentenceLength": {
-      "mean": 13.6,
+      "mean": 13.1,
       "median": 11.9,
       "min": 7.1,
       "max": 29.3,
       "p25": 10.8,
-      "p75": 14.4,
+      "p75": 13.1,
       "samples": 12
     },
     "totalWords": {
-      "mean": 204.3,
-      "median": 195.5,
+      "mean": 195.3,
+      "median": 182,
       "min": 57,
       "max": 381,
-      "p25": 92,
+      "p25": 77,
       "p75": 269,
       "samples": 12
     },
@@ -46,7 +46,7 @@
       "long": 1,
       "single | single | long | long | short | single | single | short": 1,
       "single | single | single | single | single | short | long | single": 1,
-      "long | short | short | short": 1
+      "long | single | single | single": 1
     },
     "structuralTemplates": {
       "opener | context | result | context | closer": 2,
@@ -64,7 +64,7 @@
   "openers": {
     "patterns": {
       "situation": {
-        "count": 5,
+        "count": 4,
         "examples": [
           "Badge: The Person Behind the Automation",
           "Section heading: Common Questions\nSubheading: Straight answers about working wit",
@@ -72,10 +72,11 @@
         ]
       },
       "short-punch": {
-        "count": 2,
+        "count": 3,
         "examples": [
           "Badge: AI Automation Expert",
-          "Badge: Low-pressure first call"
+          "Badge: Low-pressure first call",
+          "Heading: Recent work."
         ]
       },
       "standard-opener": {
@@ -124,7 +125,7 @@
     "emDashRate": 0.1,
     "ellipsisRate": 0,
     "exclamationRate": 0,
-    "avgCommasPerSentence": 1
+    "avgCommasPerSentence": 0.9
   },
   "vocabulary": {
     "topWords": [
@@ -134,22 +135,22 @@
       ],
       [
         "with",
-        27
+        23
       ],
       [
         "ai",
-        25
+        22
       ],
       [
         "leads",
         20
       ],
       [
-        "lead",
+        "automation",
         18
       ],
       [
-        "automation",
+        "work",
         16
       ],
       [
@@ -161,11 +162,11 @@
         15
       ],
       [
-        "work",
-        15
+        "build",
+        14
       ],
       [
-        "build",
+        "lead",
         14
       ],
       [
@@ -185,7 +186,7 @@
         11
       ],
       [
-        "follow-up",
+        "result",
         10
       ],
       [
@@ -205,16 +206,8 @@
         8
       ],
       [
-        "result",
-        7
-      ],
-      [
-        "crm",
-        7
-      ],
-      [
         "3",
-        6
+        7
       ],
       [
         "builds",
@@ -229,6 +222,10 @@
         6
       ],
       [
+        "follow-up",
+        6
+      ],
+      [
         "time",
         6
       ],
@@ -237,15 +234,19 @@
         6
       ],
       [
+        "1",
+        5
+      ],
+      [
+        "2",
+        5
+      ],
+      [
+        "5600",
+        5
+      ],
+      [
         "business",
-        5
-      ],
-      [
-        "case",
-        5
-      ],
-      [
-        "study",
         5
       ]
     ],

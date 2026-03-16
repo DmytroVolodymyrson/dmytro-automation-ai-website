@@ -6,9 +6,9 @@
   "date": "2026-03-15",
   "dayOfWeek": "sunday",
   "published": {
-    "text": "Badge: Proof, not promises\nHeading: The work is real. The outcomes are specific.\nSubtitle: Three recent examples of the kind of automation I build for small businesses: more captured demand, faster follow-up, and more capacity without adding headcount.\nRelevance note: Best fit: small businesses with repeatable workflows, missed follow-up, or manual admin slowing the team down.\n\nCard 1 — Restaurant:\nTitle: AI receptionist for after-hours demand\nProof point: 0% → 100%\nMetric note: after-hours calls answered\nDescription: Built a 24/7 voice agent for The Paris Café so missed reservation calls stopped turning into missed revenue.\nTags: restaurants, voice AI, booking flow\n\nCard 2 — Info Business:\nTitle: Automated creator lead generation\nProof point: 50+ leads/day\nMetric note: at $0.29 per lead\nDescription: Replaced manual Instagram prospecting with an n8n + AI pipeline that discovers and qualifies leads automatically.\nTags: lead gen, n8n, outbound systems\n\nCard 3 — E-commerce:\nTitle: CRM follow-up that scales with the same team\nProof point: 3x capacity\nMetric note: with 5,600+ leads organized\nDescription: Built a CRM and automated follow-up system so every lead gets tracked, segmented, and contacted without manual chasing.\nTags: crm, email automation, ops",
+    "text": "Heading: Recent work. Clear results.\nSubtitle: Three examples of what good automation changes.\n\nCard 1 — Restaurant:\nResult: 100% of after-hours calls answered\nSupport line: A 24/7 voice agent now captures reservation demand that used to be missed.\n\nCard 2 — Info Business:\nResult: 50+ qualified leads/day\nSupport line: Manual Instagram prospecting was replaced by an automated pipeline at $0.29 per lead.\n\nCard 3 — E-commerce:\nResult: 3x follow-up capacity\nSupport line: CRM automation organized 5,600+ leads without adding headcount.",
     "formatting": [
-      "bold:Badge:"
+      "bold:Heading:"
     ]
   },
   "draft": null,
@@ -16,47 +16,51 @@
   "edits": [
     {
       "type": "tone_shift",
-      "description": "Short trust-building strip placed directly under the hero"
+      "description": "Reduced the strip to one short intro line and three compact proof cards"
     },
     {
       "type": "tone_shift",
-      "description": "Copy stays concrete and metric-first instead of making broad claims"
+      "description": "Each card follows a simple scan pattern: industry, result, one supporting line"
     },
     {
       "type": "tone_shift",
-      "description": "Each card pairs one result with one business type to answer “is this relevant to me?” fast"
+      "description": "Results stay concrete and business-facing while the support line adds just enough context"
     },
     {
       "type": "tone_shift",
-      "description": "Tone is direct, credible, and premium; no hype words or vague transformation language"
+      "description": "Link affordance is intentionally lightweight so the metrics remain the focal point"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays direct, credible, and premium without extra UI noise or copy clutter"
     }
   ],
   "analysis": {
-    "analyzedAt": "2026-03-16T03:44:03.721Z",
+    "analyzedAt": "2026-03-16T03:50:08.490Z",
     "structure": {
       "paragraphCount": 4,
       "sentencesPerParagraph": [
-        4,
-        2,
-        2,
-        2
+        3,
+        1,
+        1,
+        1
       ],
-      "avgSentenceLength": 18.6,
+      "avgSentenceLength": 12.8,
       "sentenceLengthRange": [
-        4,
-        41
+        2,
+        24
       ],
-      "totalWords": 186
+      "totalWords": 77
     },
     "opener": {
-      "type": "situation",
-      "text": "Badge: Proof, not promises\nHeading: The work is real.",
-      "wordCount": 9,
-      "pattern": "situation"
+      "type": "short-punch",
+      "text": "Heading: Recent work.",
+      "wordCount": 3,
+      "pattern": "short-punch"
     },
     "closer": {
       "type": "reflection",
-      "text": "Card 3 — E-commerce:\nTitle: CRM follow-up that scales with the same team\nProof point: 3x capacity\nMetric note: with 5,600+ leads organized\nDescription: Built a CRM and automated follow-up system so every lead gets tracked, segmented, and contacted without manual chasing.\nTags: crm, email automation, ops",
+      "text": "Card 3 — E-commerce:\nResult: 3x follow-up capacity\nSupport line: CRM automation organized 5,600+ leads without adding headcount.",
       "pattern": "reflection"
     },
     "template": {
@@ -69,80 +73,80 @@
       "template": "opener | product-pitch | result | closer"
     },
     "punctuation": {
-      "periods": 8,
-      "commas": 14,
+      "periods": 7,
+      "commas": 1,
       "emDashes": 3,
       "enDashes": 0,
       "hyphens": 0,
       "ellipsis": 0,
       "exclamation": 0,
       "question": 0,
-      "colon": 24,
-      "commasPerSentence": 1.75
+      "colon": 11,
+      "commasPerSentence": 0.17
     },
     "vocabulary": {
-      "distinctWords": 122,
-      "totalWords": 186,
+      "distinctWords": 67,
+      "totalWords": 77,
       "topWords": [
-        [
-          "proof",
-          4
-        ],
-        [
-          "follow-up",
-          4
-        ],
-        [
-          "note",
-          4
-        ],
-        [
-          "with",
-          4
-        ],
-        [
-          "lead",
-          4
-        ],
-        [
-          "missed",
-          3
-        ],
-        [
-          "manual",
-          3
-        ],
         [
           "card",
           3
         ],
         [
-          "title",
+          "result",
           3
         ],
         [
-          "ai",
+          "support",
           3
         ],
         [
-          "point",
+          "line",
           3
         ],
         [
-          "metric",
-          3
+          "automation",
+          2
         ],
         [
-          "description",
-          3
+          "1",
+          1
         ],
         [
-          "tags",
-          3
+          "2",
+          1
         ],
         [
-          "crm",
-          3
+          "3",
+          1
+        ],
+        [
+          "50",
+          1
+        ],
+        [
+          "100",
+          1
+        ],
+        [
+          "247",
+          1
+        ],
+        [
+          "5600",
+          1
+        ],
+        [
+          "heading",
+          1
+        ],
+        [
+          "recent",
+          1
+        ],
+        [
+          "work",
+          1
         ]
       ],
       "casualMarkers": [],
@@ -151,13 +155,13 @@
       "casualMarkerRate": 0
     },
     "editSignals": {
-      "totalEdits": 4,
+      "totalEdits": 5,
       "cuts": 0,
       "additions": 0,
       "wordSwaps": 0,
       "rephrases": 0,
       "reorders": 0,
-      "toneShifts": 4,
+      "toneShifts": 5,
       "patterns": []
     }
   }
