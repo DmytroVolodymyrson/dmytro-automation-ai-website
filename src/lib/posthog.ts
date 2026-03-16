@@ -12,7 +12,7 @@ export function initPostHog() {
   if (!key || key === "phc_xxx") return;
 
   posthog.init(key, {
-    api_host: host || "https://us.i.posthog.com",
+    api_host: host || "https://b.dmytroai.com",
     capture_pageview: true,
     capture_pageleave: true,
   });

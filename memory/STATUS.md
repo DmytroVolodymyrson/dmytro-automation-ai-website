@@ -6,6 +6,8 @@
 - Website is live (Vite + React + Tailwind, deployed on Vercel)
 - GEO quick wins and multiple case study pages are now in place
 - Lovable branding/artifacts have been removed from the public site, build config, repo docs, and asset paths
+- PostHog Stage 1 instrumentation is live; default SDK host now targets the custom reverse-proxy domain `https://b.dmytroai.com`
+- Canonical env names remain `VITE_POSTHOG_KEY` and `VITE_POSTHOG_HOST`
 
 ## What Was Just Planned (March 7, 2026)
 A full GEO (Generative Engine Optimization) plan was created to make Dmytro show up when buyers ask ChatGPT/Perplexity/Claude "who should I hire for AI automation?"
