@@ -80,6 +80,50 @@ export const siteConfig = {
     ],
   },
 
+  proofStrip: {
+    badge: "Proof, not promises",
+    heading: "The work is real. The outcomes are specific.",
+    subtitle:
+      "Three recent examples of the kind of automation I build for small businesses: more captured demand, faster follow-up, and more capacity without adding headcount.",
+    relevanceNote:
+      "Best fit: small businesses with repeatable workflows, missed follow-up, or manual admin slowing the team down.",
+    cards: [
+      {
+        label: "Restaurant",
+        title: "AI receptionist for after-hours demand",
+        metric: "0% → 100%",
+        metricNote: "after-hours calls answered",
+        description:
+          "Built a 24/7 voice agent for The Paris Café so missed reservation calls stopped turning into missed revenue.",
+        tags: ["restaurants", "voice AI", "booking flow"],
+        slug: "/case-studies/paris-cafe-voice-agent",
+        icon: "Clock3",
+      },
+      {
+        label: "Info Business",
+        title: "Automated creator lead generation",
+        metric: "50+ leads/day",
+        metricNote: "at $0.29 per lead",
+        description:
+          "Replaced manual Instagram prospecting with an n8n + AI pipeline that discovers and qualifies leads automatically.",
+        tags: ["lead gen", "n8n", "outbound systems"],
+        slug: "/case-studies/instagram-lead-generation",
+        icon: "TrendingUp",
+      },
+      {
+        label: "E-commerce",
+        title: "CRM follow-up that scales with the same team",
+        metric: "3x capacity",
+        metricNote: "with 5,600+ leads organized",
+        description:
+          "Built a CRM and automated follow-up system so every lead gets tracked, segmented, and contacted without manual chasing.",
+        tags: ["crm", "email automation", "ops"],
+        slug: "/case-studies/ecommerce-crm-automation",
+        icon: "Bot",
+      },
+    ],
+  },
+
   results: {
     heading: "Real Results for Real Businesses",
     subtitle: "Here's what happens when you automate the right processes",

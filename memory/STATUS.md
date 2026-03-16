@@ -1,6 +1,6 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-03-14
+**Last updated:** 2026-03-15
 
 ## Current State
 - Website is live (Vite + React + Tailwind, deployed on Vercel)
@@ -9,6 +9,7 @@
 - PostHog Stage 1 instrumentation is live; default SDK host now targets the custom reverse-proxy domain `https://b.dmytroai.com`
 - Canonical env names remain `VITE_POSTHOG_KEY` and `VITE_POSTHOG_HOST`
 - New planning doc added from video review: `docs/plans/2026-03-15-video-inspired-website-improvement-plan.md`
+- Homepage now includes a compact proof strip directly under the hero with 3 case-study-driven cards (restaurant voice AI, Instagram lead gen, e-commerce CRM automation) to surface credibility earlier without moving the full Results section
 
 ## What Was Just Planned (March 7, 2026)
 A full GEO (Generative Engine Optimization) plan was created to make Dmytro show up when buyers ask ChatGPT/Perplexity/Claude "who should I hire for AI automation?"
@@ -32,6 +33,7 @@ A full GEO (Generative Engine Optimization) plan was created to make Dmytro show
 ### Homepage Rewrite
 - Above-fold positioning: needs to be more specific (see GEO-PLAN.md for draft copy)
 - Add FAQ section with 6+ Q&As using exact buyer language
+- New proof strip under hero now handles early trust/relevance; next homepage gains should focus on sharper hero specificity and conversion polish
 
 ### Brand Cleanup Completed (March 14, 2026)
 - Removed `lovable-tagger` from dependencies and Vite config
