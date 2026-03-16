@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-03-15-homepage-proof-strip",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-03-15",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "Badge: Proof, not promises\nHeading: The work is real. The outcomes are specific.\nSubtitle: Three recent examples of the kind of automation I build for small businesses: more captured demand, faster follow-up, and more capacity without adding headcount.\nRelevance note: Best fit: small businesses with repeatable workflows, missed follow-up, or manual admin slowing the team down.\n\nCard 1 — Restaurant:\nTitle: AI receptionist for after-hours demand\nProof point: 0% → 100%\nMetric note: after-hours calls answered\nDescription: Built a 24/7 voice agent for The Paris Café so missed reservation calls stopped turning into missed revenue.\nTags: restaurants, voice AI, booking flow\n\nCard 2 — Info Business:\nTitle: Automated creator lead generation\nProof point: 50+ leads/day\nMetric note: at $0.29 per lead\nDescription: Replaced manual Instagram prospecting with an n8n + AI pipeline that discovers and qualifies leads automatically.\nTags: lead gen, n8n, outbound systems\n\nCard 3 — E-commerce:\nTitle: CRM follow-up that scales with the same team\nProof point: 3x capacity\nMetric note: with 5,600+ leads organized\nDescription: Built a CRM and automated follow-up system so every lead gets tracked, segmented, and contacted without manual chasing.\nTags: crm, email automation, ops",
+    "formatting": [
+      "bold:Badge:"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Short trust-building strip placed directly under the hero"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Copy stays concrete and metric-first instead of making broad claims"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Each card pairs one result with one business type to answer “is this relevant to me?” fast"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone is direct, credible, and premium; no hype words or vague transformation language"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-03-16T03:13:54.664Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "avgSentenceLength": 18.6,
+      "sentenceLengthRange": [
+        4,
+        41
+      ],
+      "totalWords": 186
+    },
+    "opener": {
+      "type": "situation",
+      "text": "Badge: Proof, not promises\nHeading: The work is real.",
+      "wordCount": 9,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "Card 3 — E-commerce:\nTitle: CRM follow-up that scales with the same team\nProof point: 3x capacity\nMetric note: with 5,600+ leads organized\nDescription: Built a CRM and automated follow-up system so every lead gets tracked, segmented, and contacted without manual chasing.\nTags: crm, email automation, ops",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "result",
+        "closer"
+      ],
+      "template": "opener | product-pitch | result | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 14,
+      "emDashes": 3,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 24,
+      "commasPerSentence": 1.75
+    },
+    "vocabulary": {
+      "distinctWords": 122,
+      "totalWords": 186,
+      "topWords": [
+        [
+          "proof",
+          4
+        ],
+        [
+          "follow-up",
+          4
+        ],
+        [
+          "note",
+          4
+        ],
+        [
+          "with",
+          4
+        ],
+        [
+          "lead",
+          4
+        ],
+        [
+          "missed",
+          3
+        ],
+        [
+          "manual",
+          3
+        ],
+        [
+          "card",
+          3
+        ],
+        [
+          "title",
+          3
+        ],
+        [
+          "ai",
+          3
+        ],
+        [
+          "point",
+          3
+        ],
+        [
+          "metric",
+          3
+        ],
+        [
+          "description",
+          3
+        ],
+        [
+          "tags",
+          3
+        ],
+        [
+          "crm",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
