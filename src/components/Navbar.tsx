@@ -13,8 +13,6 @@ type NavLink =
 const navLinks: NavLink[] = [
   { label: "About", href: "#about", type: "scroll" as const },
   { label: "Services", href: "#services", type: "scroll" as const },
-  { label: "Results", href: "#results", type: "scroll" as const },
-  { label: "Case Studies", href: "#case-studies", type: "scroll" as const },
   { label: "Testimonials", href: "#testimonials", type: "scroll" as const },
 ];
 

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-03-16T04:40:03.798Z",
-  "postCount": 14,
+  "updatedAt": "2026-03-16T04:47:02.971Z",
+  "postCount": 15,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -9,31 +9,31 @@
   },
   "structure": {
     "paragraphCount": {
-      "mean": 5.4,
-      "median": 6.5,
+      "mean": 5.3,
+      "median": 6,
       "min": 1,
       "max": 9,
-      "p25": 4,
+      "p25": 3,
       "p75": 7,
-      "samples": 14
+      "samples": 15
     },
     "sentenceLength": {
-      "mean": 14.4,
-      "median": 12.600000000000001,
+      "mean": 14.2,
+      "median": 12.4,
       "min": 7.1,
       "max": 29.3,
       "p25": 11,
       "p75": 14.5,
-      "samples": 14
+      "samples": 15
     },
     "totalWords": {
-      "mean": 170.5,
-      "median": 135.5,
+      "mean": 161.5,
+      "median": 112,
       "min": 17,
       "max": 381,
-      "p25": 72,
+      "p25": 57,
       "p75": 269,
-      "samples": 14
+      "samples": 15
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -47,7 +47,8 @@
       "single | single | long | long | short | single | single | short": 1,
       "single": 2,
       "single | single | single | single | single | short | long | single": 1,
-      "long | single | single | single": 1
+      "long | single | single | single": 1,
+      "single | single | single": 1
     },
     "structuralTemplates": {
       "opener | context | result | context | closer": 2,
@@ -59,13 +60,14 @@
       "opener": 3,
       "opener | result | context | product-pitch | product-pitch | product-pitch | context | closer": 1,
       "opener | context | context | context | context | context | context | closer": 1,
-      "opener | product-pitch | result | closer": 1
+      "opener | product-pitch | result | closer": 1,
+      "opener | context | closer": 1
     }
   },
   "openers": {
     "patterns": {
       "situation": {
-        "count": 4,
+        "count": 5,
         "examples": [
           "Badge: The Person Behind the Automation",
           "Section heading: Common Questions\nSubheading: Straight answers about working wit",
@@ -99,7 +101,7 @@
   "closers": {
     "patterns": {
       "reflection": {
-        "count": 6,
+        "count": 7,
         "examples": [
           "Stats:\n- 7+ Years building software\n- 50+ Automations built\n- $100K+ Saved for c",
           "Social proof pills:\n- 10+ hrs/week saved\n- 300%+ ROI\n- 24/7 automation",
@@ -125,16 +127,16 @@
     }
   },
   "punctuation": {
-    "emDashRate": 0.1,
+    "emDashRate": 0,
     "ellipsisRate": 0,
     "exclamationRate": 0,
-    "avgCommasPerSentence": 0.8
+    "avgCommasPerSentence": 0.7
   },
   "vocabulary": {
     "topWords": [
       [
         "-",
-        33
+        38
       ],
       [
         "with",
@@ -259,8 +261,8 @@
   },
   "editPatterns": {
     "removes-unnecessary-detail": {
-      "count": 2,
-      "confidence": "low"
+      "count": 3,
+      "confidence": "medium"
     },
     "cuts-analysis-keeps-action": {
       "count": 1,

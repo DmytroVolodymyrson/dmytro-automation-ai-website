@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-03-16-homepage-results-section-removal",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-03-16",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "Homepage section order now:\nHero → Proof Strip → About → Services → FAQ → Testimonials → Booking\n\nRemoved from homepage:\n- Lower Results section (`#results`)\n- Lower Case Studies anchor target (`#case-studies`)\n\nNavbar links now:\n- About\n- Services\n- Testimonials",
+    "formatting": [
+      "bold:Homepage"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Trust proof is intentionally consolidated near the top in the compact proof strip"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Homepage scan path is shorter and cleaner before FAQ/testimonials/booking"
+    },
+    {
+      "type": "cut",
+      "description": "Removed duplicate proof surfaces to reduce repetition and keep attention on the booking path"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Copy strategy remains direct and business-outcome-focused without adding new claims"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-03-16T04:47:02.862Z",
+    "structure": {
+      "paragraphCount": 3,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        1
+      ],
+      "avgSentenceLength": 12,
+      "sentenceLengthRange": [
+        9,
+        15
+      ],
+      "totalWords": 36
+    },
+    "opener": {
+      "type": "situation",
+      "text": "Homepage section order now:\nHero → Proof Strip → About → Services → FAQ → Testimonials → Booking",
+      "wordCount": 12,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "Navbar links now:\n- About\n- Services\n- Testimonials",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | closer"
+    },
+    "punctuation": {
+      "periods": 0,
+      "commas": 0,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 3,
+      "commasPerSentence": 0
+    },
+    "vocabulary": {
+      "distinctWords": 24,
+      "totalWords": 36,
+      "topWords": [
+        [
+          "-",
+          5
+        ],
+        [
+          "homepage",
+          2
+        ],
+        [
+          "section",
+          2
+        ],
+        [
+          "now",
+          2
+        ],
+        [
+          "about",
+          2
+        ],
+        [
+          "services",
+          2
+        ],
+        [
+          "testimonials",
+          2
+        ],
+        [
+          "lower",
+          2
+        ],
+        [
+          "results",
+          2
+        ],
+        [
+          "order",
+          1
+        ],
+        [
+          "hero",
+          1
+        ],
+        [
+          "proof",
+          1
+        ],
+        [
+          "strip",
+          1
+        ],
+        [
+          "faq",
+          1
+        ],
+        [
+          "booking",
+          1
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 1,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": [
+        "removes-unnecessary-detail"
+      ]
+    }
+  }
+}

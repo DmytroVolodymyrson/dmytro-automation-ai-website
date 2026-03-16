@@ -1,6 +1,6 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-03-15
+**Last updated:** 2026-03-16
 
 ## Current State
 - Website is live (Vite + React + Tailwind, deployed on Vercel)
@@ -15,6 +15,8 @@
 - Booking section layout was widened within the existing design so the embedded scheduler can use more horizontal space, reducing the cramped one-column feel without changing the section concept
 - Booking section supporting bullets were tightened into three approved one-liners to make the outcomes faster to scan without changing layout or structure
 - Booking section supporting bullets were further simplified into blunter true one-liners: “Find the bottleneck”, “See the best next move”, and “Leave with a plan”
+- Homepage lower "Results / Client Success Stories" section was removed; proof now lives in the upper proof strip only, with homepage flow preserved as Hero → Proof Strip → About → Services → FAQ → Testimonials → Booking
+- Navbar dead anchors were cleaned up by removing `#results` and `#case-studies` links; booking CTA behavior and case study routes remain intact
 
 ## What Was Just Planned (March 7, 2026)
 A full GEO (Generative Engine Optimization) plan was created to make Dmytro show up when buyers ask ChatGPT/Perplexity/Claude "who should I hire for AI automation?"
