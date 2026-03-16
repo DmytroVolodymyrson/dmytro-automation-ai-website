@@ -6,8 +6,8 @@ export function initPostHog() {
   if (typeof window === "undefined") return;
   if (initialized) return;
 
-  const key = import.meta.env.VITE_POSTHOG_KEY || import.meta.env.VITE_PUBLIC_POSTHOG_KEY;
-  const host = import.meta.env.VITE_POSTHOG_HOST || import.meta.env.VITE_PUBLIC_POSTHOG_HOST;
+  const key = import.meta.env.VITE_POSTHOG_KEY;
+  const host = import.meta.env.VITE_POSTHOG_HOST;
 
   if (!key || key === "phc_xxx") return;
 
