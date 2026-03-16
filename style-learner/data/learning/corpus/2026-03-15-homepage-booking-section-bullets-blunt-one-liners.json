@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "2026-03-15-homepage-booking-section-bullets-one-liners",
+  "id": "2026-03-15-homepage-booking-section-bullets-blunt-one-liners",
   "platform": "landing-page",
   "language": "en",
   "date": "2026-03-15",
   "dayOfWeek": "sunday",
   "published": {
-    "text": "Supporting bullets:\n- Find the highest-leverage place to automate\n- See whether a quick win or larger build makes sense\n- Leave with a clear next step",
+    "text": "Supporting bullets:\n- Find the bottleneck\n- See the best next move\n- Leave with a plan",
     "formatting": [
       "bold:Supporting"
     ]
@@ -16,40 +16,40 @@
   "edits": [
     {
       "type": "tone_shift",
-      "description": "Tightens the three supporting bullets into one-line scan-friendly outcomes"
+      "description": "Pushes the three supporting bullets into truly short one-line outcomes"
     },
     {
       "type": "tone_shift",
-      "description": "Keeps the promise practical and low-pressure"
+      "description": "Uses blunt, direct language that scans immediately"
     },
     {
       "type": "tone_shift",
-      "description": "Uses direct business language with no fluff or extra explanation"
+      "description": "Keeps the booking promise practical and low-pressure without extra qualifiers"
     }
   ],
   "analysis": {
-    "analyzedAt": "2026-03-16T04:40:03.629Z",
+    "analyzedAt": "2026-03-16T04:40:03.626Z",
     "structure": {
       "paragraphCount": 1,
       "sentencesPerParagraph": [
         1
       ],
-      "avgSentenceLength": 27,
+      "avgSentenceLength": 17,
       "sentenceLengthRange": [
-        27,
-        27
+        17,
+        17
       ],
-      "totalWords": 27
+      "totalWords": 17
     },
     "opener": {
       "type": "general",
-      "text": "Supporting bullets:\n- Find the highest-leverage place to automate\n- See whether a quick win or larger build makes sense\n- Leave with a clear next step",
-      "wordCount": 27,
+      "text": "Supporting bullets:\n- Find the bottleneck\n- See the best next move\n- Leave with a plan",
+      "wordCount": 17,
       "pattern": "standard-opener"
     },
     "closer": {
       "type": "movement",
-      "text": "Supporting bullets:\n- Find the highest-leverage place to automate\n- See whether a quick win or larger build makes sense\n- Leave with a clear next step",
+      "text": "Supporting bullets:\n- Find the bottleneck\n- See the best next move\n- Leave with a plan",
       "pattern": "movement"
     },
     "template": {
@@ -71,8 +71,8 @@
       "commasPerSentence": 0
     },
     "vocabulary": {
-      "distinctWords": 24,
-      "totalWords": 27,
+      "distinctWords": 14,
+      "totalWords": 17,
       "topWords": [
         [
           "-",
@@ -91,15 +91,7 @@
           1
         ],
         [
-          "highest-leverage",
-          1
-        ],
-        [
-          "place",
-          1
-        ],
-        [
-          "automate",
+          "bottleneck",
           1
         ],
         [
@@ -107,31 +99,27 @@
           1
         ],
         [
-          "whether",
+          "best",
           1
         ],
         [
-          "quick",
+          "next",
           1
         ],
         [
-          "win",
+          "move",
           1
         ],
         [
-          "larger",
+          "leave",
           1
         ],
         [
-          "build",
+          "with",
           1
         ],
         [
-          "makes",
-          1
-        ],
-        [
-          "sense",
+          "plan",
           1
         ]
       ],
