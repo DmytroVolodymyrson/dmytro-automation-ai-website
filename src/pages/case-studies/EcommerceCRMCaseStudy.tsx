@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import {
   AlertTriangle,
   ArrowRight,
@@ -18,6 +19,25 @@ const EcommerceCRMCaseStudy = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>E-Commerce CRM & Lead Follow-Up Automation — Case Study | Dmytro AI</title>
+        <meta name="description" content="How a US auto parts brand went from 5,600 untouched leads to automated follow-up for every single one. 3x team capacity, instant response time, +185% conversion lift." />
+        <link rel="canonical" href="https://dmytroai.com/case-studies/ecommerce-crm-automation" />
+        <meta property="og:title" content="E-Commerce CRM & Lead Follow-Up Automation — Case Study" />
+        <meta property="og:description" content="5,600+ leads organized and enrolled in automated email sequences. 3x team capacity without hiring." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://dmytroai.com/case-studies/ecommerce-crm-automation" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Full CRM & Lead Follow-Up Automation for an Auto Parts Brand",
+          "description": "How a US e-commerce brand went from manually chasing 5,600 leads to an automated system that follows up with every single one.",
+          "author": { "@id": "https://dmytroai.com/#person" },
+          "publisher": { "@id": "https://dmytroai.com/#business" },
+          "mainEntityOfPage": "https://dmytroai.com/case-studies/ecommerce-crm-automation",
+          "keywords": ["CRM automation", "e-commerce", "n8n", "Supabase", "email sequences", "lead follow-up"]
+        })}</script>
+      </Helmet>
       <Navbar />
 
       <main className="pt-24 md:pt-28 pb-16 md:pb-24">

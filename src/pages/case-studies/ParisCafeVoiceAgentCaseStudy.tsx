@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import {
   AlertTriangle,
   ArrowRight,
@@ -19,6 +20,25 @@ const ParisCafeVoiceAgentCaseStudy = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>AI Voice Receptionist for NYC Restaurant — Case Study | Dmytro AI</title>
+        <meta name="description" content="How The Paris Cafe stopped losing after-hours reservations with a 24/7 AI voice agent. Results: 100% calls answered, 15 hrs/week freed, sub-60s web lead response." />
+        <link rel="canonical" href="https://dmytroai.com/case-studies/paris-cafe-voice-agent" />
+        <meta property="og:title" content="AI Voice Receptionist for NYC Restaurant — Case Study" />
+        <meta property="og:description" content="How The Paris Cafe stopped losing after-hours reservations with a 24/7 AI voice agent built by Dmytro Afanasiev." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://dmytroai.com/case-studies/paris-cafe-voice-agent" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "24/7 AI Voice Receptionist for a NYC Restaurant",
+          "description": "How The Paris Cafe stopped losing after-hours reservations and freed up 15 hours of management time every week with an AI voice agent.",
+          "author": { "@id": "https://dmytroai.com/#person" },
+          "publisher": { "@id": "https://dmytroai.com/#business" },
+          "mainEntityOfPage": "https://dmytroai.com/case-studies/paris-cafe-voice-agent",
+          "keywords": ["AI voice agent", "restaurant automation", "VAPI", "after-hours calls", "n8n", "GoHighLevel"]
+        })}</script>
+      </Helmet>
       <Navbar />
 
       <main className="pt-24 md:pt-28 pb-16 md:pb-24">

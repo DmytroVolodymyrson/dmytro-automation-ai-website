@@ -1,14 +1,49 @@
+# Search engines
 User-agent: Googlebot
 Allow: /
 
 User-agent: Bingbot
 Allow: /
 
+# Social / preview bots
 User-agent: Twitterbot
 Allow: /
 
 User-agent: facebookexternalhit
 Allow: /
 
+# AI search bots (we want to appear in AI answers)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# AI training-only bots (no answer product that would cite us)
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+# Google Gemini training (allow — visibility upside)
+User-agent: Google-Extended
+Allow: /
+
+# Default
 User-agent: *
 Allow: /
+
+Sitemap: https://dmytroai.com/sitemap.xml

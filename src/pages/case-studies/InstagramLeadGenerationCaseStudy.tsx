@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import {
   AlertTriangle,
   ArrowRight,
@@ -33,6 +34,25 @@ const InstagramReelsScraperCaseStudy = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Automated Instagram Lead Generation — Case Study | Dmytro AI</title>
+        <meta name="description" content="How an info business went from manual Instagram prospecting to 50+ qualified leads per day at $0.29/lead using an automated n8n + AI pipeline. Zero manual work." />
+        <link rel="canonical" href="https://dmytroai.com/case-studies/instagram-lead-generation" />
+        <meta property="og:title" content="Automated Instagram Lead Generation — Case Study" />
+        <meta property="og:description" content="50+ qualified leads per day at $0.29/lead with zero manual work. Built with n8n, Apify, and AI qualification." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://dmytroai.com/case-studies/instagram-lead-generation" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Automated Instagram Lead Generation System",
+          "description": "How an info business went from manual Instagram prospecting to 50+ qualified leads per day at $0.29/lead using an automated n8n + AI pipeline.",
+          "author": { "@id": "https://dmytroai.com/#person" },
+          "publisher": { "@id": "https://dmytroai.com/#business" },
+          "mainEntityOfPage": "https://dmytroai.com/case-studies/instagram-lead-generation",
+          "keywords": ["Instagram lead generation", "n8n automation", "Apify", "AI lead qualification", "info business"]
+        })}</script>
+      </Helmet>
       <Navbar />
 
       <main className="pt-24 md:pt-28 pb-16 md:pb-24">

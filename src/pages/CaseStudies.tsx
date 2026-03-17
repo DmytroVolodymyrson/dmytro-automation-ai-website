@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CaseStudyCard from "@/components/case-studies/CaseStudyCard";
@@ -7,6 +8,15 @@ import { caseStudies } from "@/data/caseStudies";
 const CaseStudies = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Case Studies — AI Automation Results for Real Businesses | Dmytro AI</title>
+        <meta name="description" content="Real AI automation case studies: restaurant voice agent, Instagram lead generation pipeline, e-commerce CRM automation. Specific problems, specific results." />
+        <link rel="canonical" href="https://dmytroai.com/case-studies" />
+        <meta property="og:title" content="Case Studies — AI Automation Results for Real Businesses" />
+        <meta property="og:description" content="See how AI automation drives measurable growth for small businesses. Real systems, real numbers." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://dmytroai.com/case-studies" />
+      </Helmet>
       <Navbar />
       <main className="pt-24 md:pt-28 section-padding">
         <div className="container-tight">
