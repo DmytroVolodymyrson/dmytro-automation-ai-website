@@ -19,7 +19,7 @@ Unlike agencies that charge $5,000/month for a team you never meet, Dmytro build
 
 ## Case Studies
 - Paris Cafe (NYC restaurant): Deployed VAPI + n8n AI voice receptionist — 0% to 100% after-hours calls answered, web lead response time from hours to under 60 seconds, ~15 hrs/week freed for management
-- Info business client: Automated Instagram creator lead generation pipeline — 50+ qualified leads/day at $0.29/lead, zero manual work
+- Toufic Fares (info business): Automated Instagram creator lead generation pipeline — 50+ qualified leads/day at $0.29/lead, zero manual work
 - WheelsFeels (e-commerce auto parts, USA): Full AI CRM build with automated SMS/email follow-up for thousands of leads, Slack integration, n8n workflows
 
 ## Contact
