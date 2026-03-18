@@ -53,6 +53,13 @@ A full GEO (Generative Engine Optimization) plan was created to make Dmytro show
 - Verified zero remaining `lovable` / `componentTagger` references in tracked project files
 - `npm run build` passes after cleanup
 
+### Update 2026-03-18 00:00 MDT
+- Smart Memory Sync triggered.
+- Synced latest changes to website positioning and content.
+- Decision: LLM-facing text in /llm.txt must prioritize 'AI Automation Consultant' as the primary keyword.
+- Decision: PostHog events should now include the project-specific 'website_version' property for A/B testing baseline.
+- Status: LIVE -- Website updated and synced with latest project decisions.
+
 ## Key Context
 - Dmytro's differentiator: solo consultant, accountable, no agency overhead
 - Target buyers: small service businesses (HVAC, real estate, mortgage, e-commerce)
