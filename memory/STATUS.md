@@ -53,6 +53,12 @@ A full GEO (Generative Engine Optimization) plan was created to make Dmytro show
 - Verified zero remaining `lovable` / `componentTagger` references in tracked project files
 - `npm run build` passes after cleanup
 
+### Update 2026-03-19
+- First GEO decision page live at `/ai-automation-consultant-small-business`
+- Fixed missing `Phone` icon import in the page component (was a runtime error)
+- Style-learner post created and pipeline run for the new page content
+- Route was already wired in App.tsx; Helmet meta/canonical/OG/JSON-LD already in place
+
 ### Update 2026-03-18 20:00 MDT
 - Updated /llm.txt with "AI Automation Consultant" keyword focus.
 - Restored named client attribution (Toufic Fares) in case studies.

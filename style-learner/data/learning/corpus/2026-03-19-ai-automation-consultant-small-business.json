@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-03-19-ai-automation-consultant-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-03-19",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nBadge: AI Automation Consulting\nHeading: Do you actually need an AI automation consultant?\nBody: Most small businesses don't need more software. They need someone to look at their operations and identify the two or three processes that, once automated, change everything. That's what an AI automation consultant does.\nSub: This page will help you figure out whether that's the right move for your business — and whether we'd be a good fit to work together.\nCTA: Book a Free Strategy Call\n\n### What an AI automation consultant actually does\nIntro: The title sounds broad, so let's make it concrete. A good AI automation consultant for small business does three things:\nCard 1 — Diagnoses: Maps your current workflows and finds the specific bottlenecks where time, money, or leads are leaking. This is the part most businesses can't do on their own — not because they're not smart, but because they're too close to the work.\nCard 2 — Builds: Designs and implements automations that plug those gaps — using tools like n8n, GoHighLevel, AI voice agents, or custom integrations. Not generic templates. Systems built around how your business actually runs.\nCard 3 — Hands off cleanly: Delivers a working system with documentation and a dashboard your team can operate. No vendor lock-in, no dependency. You own the system.\nClosing: The difference between a consultant and a tool vendor: a tool vendor sells you software. A consultant figures out whether you need software at all — and if so, which piece to build first.\n\n### Signs your business is ready for automation\nIntro: You don't need to be \"tech-forward\" or have a big budget. But these patterns usually mean automation will have a meaningful impact:\n- You or your team spend hours each week on the same steps: data entry, follow-ups, scheduling, reporting.\n- Leads come in but don't get contacted fast enough — or at all.\n- You've hired (or want to hire) someone mainly to handle repetitive admin.\n- You're turning away work because your current capacity can't keep up.\n- You've tried tools like Zapier or ChatGPT but couldn't get them to stick.\n- Your CRM has thousands of contacts but no systematic follow-up.\nClosing: If three or more of these apply, you're probably leaving significant time or revenue on the table.\n\n### Businesses that get the most from this\nIntro: AI automation works across industries, but it tends to hit hardest for businesses with high lead volume, appointment-based revenue, or repeat customer workflows:\n- Restaurants & hospitality — Reservations, after-hours calls, review management\n- Home services (HVAC, plumbing, electrical) — Lead routing, scheduling, follow-up\n- Real estate & mortgage — Lead qualification, drip campaigns, CRM cleanup\n- Medical & dental practices — Appointment reminders, intake forms, patient follow-up\n- E-commerce brands — Customer support, order tracking, abandoned cart recovery\n- Professional services & agencies — Client onboarding, reporting, proposal automation\n\n### What automation typically replaces\nIntro: These are the workflows I build most often for small businesses. Each one starts manual — and ends with a system that runs without daily attention:\n- Lead follow-up & nurture — Automated email/SMS sequences triggered the moment a lead comes in. No more 48-hour response gaps.\n- Phone handling & voice agents — AI voice agents that answer calls 24/7 — take messages, book appointments, route complex inquiries to your team.\n- Scheduling & reminders — Automated booking flows, confirmation texts, and reminder sequences that cut no-shows.\n- CRM organization & reactivation — Clean up messy lead databases, tag and segment contacts, and run automated campaigns to re-engage cold leads.\n- Reporting & dashboards — Automated reports pulled from your tools and delivered on schedule — no manual spreadsheet work.\n- Custom workflow automation — Any multi-step process your team runs the same way every time: intake forms, onboarding, data sync between tools.\n\n### What this looks like in practice (Proof/Case Studies)\nIntro: Three recent projects that show the range of what automation changes for small businesses:\nCard 1 — Restaurant: 100% of after-hours calls answered. A NYC restaurant was missing reservations every night after close. A 24/7 AI voice agent now handles all calls, books tables, and routes complex requests — freeing up 15 hours of management time per week.\nCard 2 — Info Business: 50+ qualified leads per day. Manual Instagram prospecting took hours and produced a handful of leads. An automated n8n + AI pipeline now discovers, qualifies, and delivers leads daily at $0.29 each — with zero manual work.\nCard 3 — E-commerce: 3x follow-up capacity. 5,600+ leads were sitting in spreadsheets with no systematic outreach. A full CRM build with automated email sequences organized every contact and tripled the team's effective capacity without adding headcount.\n\n### Consultant vs. agency vs. DIY\nIntro: There's more than one way to get automation into your business. Here's an honest comparison so you can pick the right path:\nTable comparing Solo consultant, Agency, DIY across: Diagnosis, Build speed, Cost, Customization, Ongoing support, Best for.\nClosing: If your automation is a single Zap or a ChatGPT prompt, DIY is fine. If you need a system that connects multiple tools, handles edge cases, and runs reliably without babysitting — that's consultant territory.\n\n### What working together looks like\nIntro: No long proposals. No months of discovery. Here's the actual process:\nStep 1 — 30-minute strategy call: We walk through your current operations and identify the highest-impact automation opportunity. Free, no commitment.\nStep 2 — Scope & quote: Within 48 hours you get a clear scope document: what gets built, what it connects to, timeline, and fixed price. No hourly billing surprises.\nStep 3 — Build (1–3 weeks): I build the system, test it, and share progress along the way. You'll see working pieces before the final handoff — not a big reveal at the end.\nStep 4 — Handoff & training: You get documentation, a walkthrough, and a dashboard you can manage. 30-day support included. Optional monthly retainer for ongoing optimization.\n\n### Good fit / not a fit\nGood fit:\n- You have a real business with paying customers\n- You can point to specific tasks that eat up your time\n- You want a system that runs without you babysitting it\n- You're ready to invest in infrastructure, not just another tool trial\n- You value speed and direct communication\nNot a fit:\n- You're pre-revenue and still validating your idea\n- You want a chatbot just because everyone has one\n- You need enterprise-scale infrastructure for 500+ employees\n- You're looking for the cheapest possible option regardless of quality\n- You need a full-time in-house developer, not a project-based consultant\n\n### FAQ — Common questions\n7 Q&As covering: consultant vs freelancer, cost, timeline, technical requirements, what to automate first, post-build support, tool compatibility.\n\n### Final CTA\nHeading: Ready to see what's worth automating?\nBody: Book a 30-minute strategy call. We'll look at your current workflows, identify the best first move, and you'll leave with a concrete direction — whether we work together or not.\nSub: No hard sell. No vague AI buzzwords. Just a clear look at what's actually worth automating first.\nBenefits: 30-minute focused call / Identify your highest-impact automation / Leave with a plan, not a pitch\nEmbedded booking widget (GoHighLevel scheduler).",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Decision page, not a blog post — structured to help the reader evaluate, not just read"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Hero opens with a question to match search intent (\"do I need this?\")"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Every section earns the next scroll: diagnosis → signs → fit → proof → comparison → process → qualification → FAQ → CTA"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone is practical, direct, low-hype — speaks to business owners who are tired of AI buzzwords"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Case study references link to real published pages, not invented claims"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Comparison table is honest about DIY being fine for simple use cases"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Fit/non-fit section builds trust by disqualifying bad matches upfront"
+    },
+    {
+      "type": "tone_shift",
+      "description": "FAQ answers are specific with concrete numbers (costs, timelines) rather than vague ranges"
+    },
+    {
+      "type": "tone_shift",
+      "description": "CTA reinforces \"leave with a plan, not a pitch\" positioning"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the site's standard Section wrapper, card patterns, and Framer Motion animations"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Booking widget is self-contained on this page (doesn't import BookingSection component)"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-03-19T23:31:48.792Z",
+    "structure": {
+      "paragraphCount": 11,
+      "sentencesPerParagraph": [
+        6,
+        11,
+        8,
+        1,
+        8,
+        9,
+        6,
+        11,
+        1,
+        1,
+        7
+      ],
+      "avgSentenceLength": 16.7,
+      "sentenceLengthRange": [
+        2,
+        109
+      ],
+      "totalWords": 1155
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nBadge: AI Automation Consulting\nHeading: Do you actually need an AI automation consultant?",
+      "wordCount": 14,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Ready to see what's worth automating?\nBody: Book a 30-minute strategy call. We'll look at your current workflows, identify the best first move, and you'll leave with a concrete direction — whether we work together or not.\nSub: No hard sell. No vague AI buzzwords. Just a clear look at what's actually worth automating first.\nBenefits: 30-minute focused call / Identify your highest-impact automation / Leave with a plan, not a pitch\nEmbedded booking widget (GoHighLevel scheduler).",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "result",
+        "result",
+        "context",
+        "product-pitch",
+        "context",
+        "context",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | result | result | context | product-pitch | context | context | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 65,
+      "commas": 74,
+      "emDashes": 36,
+      "enDashes": 1,
+      "hyphens": 28,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 44,
+      "commasPerSentence": 1.12
+    },
+    "vocabulary": {
+      "distinctWords": 529,
+      "totalWords": 1155,
+      "topWords": [
+        [
+          "-",
+          28
+        ],
+        [
+          "your",
+          18
+        ],
+        [
+          "automation",
+          16
+        ],
+        [
+          "no",
+          12
+        ],
+        [
+          "ai",
+          11
+        ],
+        [
+          "consultant",
+          11
+        ],
+        [
+          "that",
+          10
+        ],
+        [
+          "not",
+          10
+        ],
+        [
+          "what",
+          9
+        ],
+        [
+          "with",
+          9
+        ],
+        [
+          "need",
+          8
+        ],
+        [
+          "automated",
+          7
+        ],
+        [
+          "business",
+          7
+        ],
+        [
+          "intro",
+          7
+        ],
+        [
+          "leads",
+          7
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.002
+    },
+    "editSignals": {
+      "totalEdits": 11,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 11,
+      "patterns": []
+    }
+  }
+}
