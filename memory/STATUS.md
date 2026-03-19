@@ -1,6 +1,6 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-03-16
+**Last updated:** 2026-03-18
 
 ## Current State
 - Website is live (Vite + React + Tailwind, deployed on Vercel)
@@ -52,6 +52,11 @@ A full GEO (Generative Engine Optimization) plan was created to make Dmytro show
 - Moved testimonial asset out of `/lovable-uploads/` into `/images/testimonials/`
 - Verified zero remaining `lovable` / `componentTagger` references in tracked project files
 - `npm run build` passes after cleanup
+
+### Update 2026-03-18 20:00 MDT
+- Updated /llm.txt with "AI Automation Consultant" keyword focus.
+- Restored named client attribution (Toufic Fares) in case studies.
+- Added PostHog version tracking for website A/B testing.
 
 ### Update 2026-03-18 00:00 MDT
 - Smart Memory Sync triggered.
