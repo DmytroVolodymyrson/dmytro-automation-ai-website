@@ -14,6 +14,9 @@ const InstagramLeadGenerationCaseStudy = lazy(() => import("./pages/case-studies
 const ParisCafeVoiceAgentCaseStudy = lazy(() => import("./pages/case-studies/ParisCafeVoiceAgentCaseStudy"));
 const EcommerceCRMCaseStudy = lazy(() => import("./pages/case-studies/EcommerceCRMCaseStudy"));
 const AiAutomationConsultantSmallBusiness = lazy(() => import("./pages/AiAutomationConsultantSmallBusiness"));
+const Guides = lazy(() => import("./pages/Guides"));
+const N8nVsZapierSmallBusiness = lazy(() => import("./pages/N8nVsZapierSmallBusiness"));
+const AiAppointmentSetter = lazy(() => import("./pages/AiAppointmentSetter"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const queryClient = new QueryClient();
@@ -44,6 +47,15 @@ const App = () => (
             <Route
               path="/ai-automation-consultant-small-business"
               element={<AiAutomationConsultantSmallBusiness />}
+            />
+            <Route path="/guides" element={<Guides />} />
+            <Route
+              path="/n8n-vs-zapier-small-business"
+              element={<N8nVsZapierSmallBusiness />}
+            />
+            <Route
+              path="/ai-appointment-setter"
+              element={<AiAppointmentSetter />}
             />
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/terms" element={<TermsOfService />} />

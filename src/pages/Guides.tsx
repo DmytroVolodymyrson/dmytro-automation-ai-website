@@ -1,0 +1,129 @@
+import { useEffect } from "react";
+import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
+import { ArrowRight, BookOpen } from "lucide-react";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+
+const guides = [
+  {
+    title: "AI Automation Consultant for Small Business",
+    description:
+      "What an AI automation consultant actually does, how to tell if your business is a fit, and how to evaluate your options.",
+    href: "/ai-automation-consultant-small-business",
+  },
+  {
+    title: "n8n vs Zapier for Small Business",
+    description:
+      "A practical comparison for business owners. When Zapier is enough, when n8n is the better fit, and what actually matters for cost and complexity.",
+    href: "/n8n-vs-zapier-small-business",
+  },
+  {
+    title: "AI Appointment Setter for Service Businesses",
+    description:
+      "What an AI appointment setter does, where it helps most, and how to decide if it is the right move for your business.",
+    href: "/ai-appointment-setter",
+  },
+];
+
+const Guides = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Guides | Dmytro AI</title>
+        <meta
+          name="description"
+          content="Practical guides for small businesses exploring AI automation. Comparisons, use cases, and decision frameworks to help you make informed choices."
+        />
+        <link rel="canonical" href="https://dmytroai.com/guides" />
+        <meta property="og:title" content="Guides | Dmytro AI" />
+        <meta
+          property="og:description"
+          content="Practical guides for small businesses exploring AI automation."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://dmytroai.com/guides" />
+      </Helmet>
+
+      <Navbar />
+
+      <main className="pt-24 md:pt-28">
+        <section className="relative overflow-hidden bg-background pb-16 md:pb-24">
+          <div className="absolute inset-0 opacity-[0.02]">
+            <div
+              className="absolute inset-0"
+              style={{
+                backgroundImage: `radial-gradient(circle at 1px 1px, hsl(var(--primary)) 1px, transparent 0)`,
+                backgroundSize: "40px 40px",
+              }}
+            />
+          </div>
+          <div className="absolute top-1/4 right-1/4 w-[500px] h-[500px] bg-blue-600/5 rounded-full blur-3xl" />
+          <div className="absolute bottom-1/3 left-1/3 w-[400px] h-[400px] bg-cyan-500/5 rounded-full blur-3xl" />
+
+          <div className="container-tight relative z-10">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="max-w-3xl"
+            >
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 text-cyan-600 text-sm font-medium mb-6">
+                <BookOpen className="w-4 h-4" />
+                Guides
+              </div>
+              <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-5 tracking-tight">
+                Practical Guides for Small Business Automation
+              </h1>
+              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+                Comparisons, use cases, and decision frameworks. No fluff, no
+                affiliate links. Just the information you need to make a good
+                call.
+              </p>
+            </motion.div>
+          </div>
+        </section>
+
+        <section className="section-padding">
+          <div className="container-tight">
+            <div className="grid gap-6 max-w-4xl">
+              {guides.map((guide, i) => (
+                <motion.div
+                  key={guide.href}
+                  initial={{ opacity: 0, y: 12 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: i * 0.08, duration: 0.4 }}
+                >
+                  <Link
+                    to={guide.href}
+                    className="group flex flex-col sm:flex-row sm:items-center gap-4 rounded-2xl border border-border/60 bg-card/80 backdrop-blur-sm p-6 shadow-card hover:shadow-card-hover transition-shadow"
+                  >
+                    <div className="flex-1">
+                      <h2 className="text-lg font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
+                        {guide.title}
+                      </h2>
+                      <p className="text-sm text-muted-foreground leading-relaxed">
+                        {guide.description}
+                      </p>
+                    </div>
+                    <ArrowRight className="w-5 h-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all flex-shrink-0" />
+                  </Link>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <Footer />
+    </div>
+  );
+};
+
+export default Guides;
