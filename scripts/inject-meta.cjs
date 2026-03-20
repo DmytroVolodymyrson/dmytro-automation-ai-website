@@ -79,6 +79,30 @@ const ROUTES = [
     ogUrl: `${SITE}/ai-appointment-setter`,
   },
   {
+    path: "/ai-lead-follow-up-for-service-businesses",
+    title: "AI Lead Follow-Up for Service Businesses | Dmytro AI",
+    description:
+      "How AI lead follow-up works for service businesses. Respond to every inquiry in seconds, not hours. Practical guide covering setup, channels, cost, and when it makes sense.",
+    canonical: `${SITE}/ai-lead-follow-up-for-service-businesses`,
+    ogTitle: "AI Lead Follow-Up for Service Businesses | Dmytro AI",
+    ogDescription:
+      "How AI lead follow-up works for service businesses. Respond in seconds, not hours.",
+    ogType: "article",
+    ogUrl: `${SITE}/ai-lead-follow-up-for-service-businesses`,
+  },
+  {
+    path: "/ai-automation-consultant-calgary",
+    title: "AI Automation Consultant Calgary | Dmytro AI",
+    description:
+      "AI automation consultant serving Calgary businesses. Custom automations for lead follow-up, scheduling, CRM, and operations. Practical solutions, fixed pricing, real results.",
+    canonical: `${SITE}/ai-automation-consultant-calgary`,
+    ogTitle: "AI Automation Consultant Calgary | Dmytro AI",
+    ogDescription:
+      "AI automation consultant serving Calgary businesses. Practical solutions, fixed pricing, real results.",
+    ogType: "article",
+    ogUrl: `${SITE}/ai-automation-consultant-calgary`,
+  },
+  {
     path: "/case-studies",
     title:
       "Case Studies — AI Automation Results for Real Businesses | Dmytro AI",

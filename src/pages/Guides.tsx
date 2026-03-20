@@ -25,6 +25,18 @@ const guides = [
       "What an AI appointment setter does, where it helps most, and how to decide if it is the right move for your business.",
     href: "/ai-appointment-setter",
   },
+  {
+    title: "AI Lead Follow-Up for Service Businesses",
+    description:
+      "How AI lead follow-up works. Respond to every inquiry in seconds, run multi-touch sequences automatically, and stop losing leads to slow response times.",
+    href: "/ai-lead-follow-up-for-service-businesses",
+  },
+  {
+    title: "AI Automation Consultant Calgary",
+    description:
+      "AI automation consulting for Calgary businesses. Custom automations for lead follow-up, scheduling, CRM workflows, and operations. Fixed pricing, clear scope.",
+    href: "/ai-automation-consultant-calgary",
+  },
 ];
 
 const Guides = () => {

@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-03-20-ai-lead-follow-up-service-businesses",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-03-20",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "Badge: Use Case Guide\nHeading: AI Lead Follow-Up for Service Businesses\nBody: Most service businesses lose leads because they respond too slowly. AI follow-up fixes that by contacting every lead within seconds and staying on them until they book or opt out.\nSub: Below: how it works, what it costs, which businesses benefit most, and how to tell if it is worth the investment for yours.\nCTA: Book a 30-Minute Call | All Guides\n\n### The follow-up problem\nIntro: Lead follow-up for service businesses is broken in predictable ways.\n- Leads go cold before anyone responds: A potential customer fills out your form at 9 PM. Your team sees it at 9 AM. By then, they have already called your competitor.\n- Manual follow-up is inconsistent: When things get busy, follow-up slips. Some leads get three touches, some get none.\n- No follow-up sequence after the first contact: Most leads do not convert on the first touch. They need two, three, sometimes five follow-ups before they book.\n- Leads fall through the cracks between tools: A lead comes in through the website form, another through Instagram DM, another by phone. Without a unified system, some get lost entirely.\n\n### What AI lead follow-up actually does\nIntro: It is not a chatbot sitting on your website. It is a system that handles the full follow-up sequence from first contact through booking.\n- Instant first response: Every lead gets contacted within seconds. SMS, email, or both.\n- Multi-touch follow-up sequences: Structured sequence over the next days. Different messages, different angles, different channels.\n- Lead qualification: Qualifying questions before booking. Service type, budget range, timeline, location.\n- Multi-channel outreach: SMS, email, and web chat all handled from one system.\n- CRM logging and tracking: Every interaction logged automatically. Lead status, conversation history, qualification data.\n- Handoff to your team: Qualified leads get booked or routed to the right person with full context.\n\n### What the numbers typically look like\n- Response time: 2 to 48 hours → Under 60 seconds\n- Lead contact rate: 30 to 50% → 85 to 95%\n- Follow-up consistency: 1 to 2 touches → 5 to 7 touches over 14 days\n- Booking rate from inquiries: 10 to 20% → 25 to 40%\n\n### FAQ\n- How fast should lead follow-up actually be? Under five minutes is the benchmark. Research from Lead Response Management shows contacting a lead within five minutes is 21 times more effective than waiting 30 minutes.\n- Will AI follow-up feel impersonal to my leads? Done right, no. Modern AI follow-up pulls in the lead's name, the service they asked about, and specific details from their inquiry.\n- What channels does AI lead follow-up cover? SMS, email, web chat, and in some cases voice.\n- How does this work with my existing CRM? AI follow-up systems connect to most CRMs through APIs or integration platforms like n8n or Zapier.\n- What does it cost to set this up? A one-time build typically runs $2,500 to $7,000 depending on complexity. Ongoing platform costs are usually $50 to $300/month.\n- Can I still have my team follow up manually for big opportunities? Absolutely. The system handles the initial response and routine follow-up sequences. High-value leads get flagged and routed to your team with full context.",
+    "formatting": [
+      "bold:Badge:"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Direct, practical tone throughout"
+    },
+    {
+      "type": "tone_shift",
+      "description": "No em dashes used anywhere"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Specific numbers and ranges (not vague claims)"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Good fit / not a fit section with clear criteria"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Related case studies linked inline"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Problem framing leads with concrete scenarios (9 PM form submission example)"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-03-20T06:43:19.493Z",
+    "structure": {
+      "paragraphCount": 5,
+      "sentencesPerParagraph": [
+        4,
+        10,
+        12,
+        1,
+        17
+      ],
+      "avgSentenceLength": 12.3,
+      "sentenceLengthRange": [
+        1,
+        51
+      ],
+      "totalWords": 540
+    },
+    "opener": {
+      "type": "general",
+      "text": "Badge: Use Case Guide\nHeading: AI Lead Follow-Up for Service Businesses\nBody: Most service businesses lose leads because they respond too slowly.",
+      "wordCount": 22,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### FAQ\n- How fast should lead follow-up actually be? Under five minutes is the benchmark. Research from Lead Response Management shows contacting a lead within five minutes is 21 times more effective than waiting 30 minutes.\n- Will AI follow-up feel impersonal to my leads? Done right, no. Modern AI follow-up pulls in the lead's name, the service they asked about, and specific details from their inquiry.\n- What channels does AI lead follow-up cover? SMS, email, web chat, and in some cases voice.\n- How does this work with my existing CRM? AI follow-up systems connect to most CRMs through APIs or integration platforms like n8n or Zapier.\n- What does it cost to set this up? A one-time build typically runs $2,500 to $7,000 depending on complexity. Ongoing platform costs are usually $50 to $300/month.\n- Can I still have my team follow up manually for big opportunities? Absolutely. The system handles the initial response and routine follow-up sequences. High-value leads get flagged and routed to your team with full context.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "result",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | result | closer"
+    },
+    "punctuation": {
+      "periods": 36,
+      "commas": 30,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 20,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 22,
+      "commasPerSentence": 0.71
+    },
+    "vocabulary": {
+      "distinctWords": 280,
+      "totalWords": 540,
+      "topWords": [
+        [
+          "-",
+          20
+        ],
+        [
+          "follow-up",
+          17
+        ],
+        [
+          "lead",
+          13
+        ],
+        [
+          "leads",
+          9
+        ],
+        [
+          "ai",
+          7
+        ],
+        [
+          "it",
+          7
+        ],
+        [
+          "they",
+          6
+        ],
+        [
+          "your",
+          6
+        ],
+        [
+          "get",
+          6
+        ],
+        [
+          "service",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "through",
+          5
+        ],
+        [
+          "from",
+          5
+        ],
+        [
+          "businesses",
+          4
+        ],
+        [
+          "most",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.004
+    },
+    "editSignals": {
+      "totalEdits": 6,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 6,
+      "patterns": []
+    }
+  }
+}

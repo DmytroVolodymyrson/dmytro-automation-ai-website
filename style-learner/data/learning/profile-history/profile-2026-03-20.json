@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-03-20T05:49:27.241Z",
-  "postCount": 19,
+  "updatedAt": "2026-03-20T06:43:25.118Z",
+  "postCount": 21,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -9,31 +9,31 @@
   },
   "structure": {
     "paragraphCount": {
-      "mean": 6.2,
+      "mean": 6,
       "median": 7,
       "min": 1,
       "max": 11,
-      "p25": 4,
+      "p25": 5,
       "p75": 8,
-      "samples": 19
+      "samples": 21
     },
     "sentenceLength": {
-      "mean": 14.4,
-      "median": 12.8,
+      "mean": 14.1,
+      "median": 12.5,
       "min": 7.1,
       "max": 29.3,
       "p25": 11.1,
-      "p75": 16.7,
-      "samples": 19
+      "p75": 14.5,
+      "samples": 21
     },
     "totalWords": {
-      "mean": 251.7,
-      "median": 159,
+      "mean": 278.3,
+      "median": 205,
       "min": 17,
       "max": 1155,
-      "p25": 72,
-      "p75": 365,
-      "samples": 19
+      "p25": 77,
+      "p75": 381,
+      "samples": 21
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -51,7 +51,9 @@
       "single | single | single": 1,
       "long | long | single | short | short | short | short | single | long": 1,
       "long | long | long | single | long | long | long | long | single | single | long": 1,
-      "long | single | long | single | long | long | short | short | single | long": 1
+      "long | single | long | single | long | long | short | short | single | long": 1,
+      "long | long | short | long | long": 1,
+      "long | long | long | single | long": 1
     },
     "structuralTemplates": {
       "opener | context | result | context | closer": 2,
@@ -67,7 +69,9 @@
       "opener | context | closer": 1,
       "opener | product-pitch | context | product-pitch | result | result | product-pitch | product-pitch | closer": 1,
       "opener | product-pitch | result | result | context | product-pitch | context | context | product-pitch | product-pitch | closer": 1,
-      "opener | context | product-pitch | product-pitch | context | context | context | context | context | closer": 1
+      "opener | context | product-pitch | product-pitch | context | context | context | context | context | closer": 1,
+      "opener | context | product-pitch | context | closer": 1,
+      "opener | product-pitch | product-pitch | result | closer": 1
     }
   },
   "openers": {
@@ -89,7 +93,7 @@
         ]
       },
       "standard-opener": {
-        "count": 8,
+        "count": 10,
         "examples": [
           "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an autom",
           "Section heading: Real Results for Real Businesses\nSubheading: Here's what happen",
@@ -116,7 +120,7 @@
         ]
       },
       "question": {
-        "count": 8,
+        "count": 10,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -143,35 +147,59 @@
     "topWords": [
       [
         "-",
-        94
+        132
       ],
       [
         "your",
-        45
+        55
       ],
       [
         "with",
-        43
+        51
       ],
       [
         "ai",
-        42
-      ],
-      [
-        "leads",
-        37
-      ],
-      [
-        "automation",
-        34
+        49
       ],
       [
         "what",
-        31
+        47
+      ],
+      [
+        "leads",
+        46
+      ],
+      [
+        "automation",
+        42
+      ],
+      [
+        "follow-up",
+        35
       ],
       [
         "that",
-        25
+        32
+      ],
+      [
+        "lead",
+        32
+      ],
+      [
+        "businesses",
+        26
+      ],
+      [
+        "work",
+        26
+      ],
+      [
+        "it",
+        26
+      ],
+      [
+        "call",
+        23
       ],
       [
         "not",
@@ -182,15 +210,11 @@
         20
       ],
       [
-        "call",
-        19
+        "from",
+        16
       ],
       [
-        "work",
-        18
-      ],
-      [
-        "businesses",
+        "booking",
         16
       ],
       [
@@ -198,20 +222,8 @@
         15
       ],
       [
-        "it",
-        15
-      ],
-      [
-        "lead",
-        14
-      ],
-      [
         "business",
         14
-      ],
-      [
-        "follow-up",
-        13
       ],
       [
         "need",
@@ -222,11 +234,7 @@
         13
       ],
       [
-        "from",
-        11
-      ],
-      [
-        "booking",
+        "3",
         11
       ],
       [
@@ -246,20 +254,16 @@
         10
       ],
       [
+        "service",
+        10
+      ],
+      [
         "how",
         9
       ],
       [
         "every",
         9
-      ],
-      [
-        "first",
-        9
-      ],
-      [
-        "hours",
-        8
       ]
     ],
     "casualMarkerRate": 0,
