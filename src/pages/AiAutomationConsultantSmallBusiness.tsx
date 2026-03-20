@@ -174,12 +174,11 @@ const AiAutomationConsultantSmallBusiness = () => {
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
                 Reduce manual work. Respond to leads faster. Build systems that
-                help your business run better without adding headcount. That's
-                what a good AI automation consultant delivers.
+                help your business run better without adding headcount.
               </p>
               <p className="text-base text-muted-foreground leading-relaxed mb-8">
-                This page breaks down what that looks like in practice, whether
-                your business is a fit, and how to evaluate your options.
+                Below: what that looks like in practice, how to tell if your
+                business is a fit, and how to evaluate your options.
               </p>
               <Button
                 size="lg"
@@ -292,9 +291,9 @@ const AiAutomationConsultantSmallBusiness = () => {
             Businesses that get the most from this
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
-            AI automation works across industries, but it tends to hit hardest for
-            businesses with high lead volume, appointment-based revenue, or repeat
-            customer workflows:
+            AI automation works across industries, but the biggest wins tend to
+            come from businesses with high lead volume, appointment-based
+            revenue, or repeat customer workflows:
           </p>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl">
             {[
