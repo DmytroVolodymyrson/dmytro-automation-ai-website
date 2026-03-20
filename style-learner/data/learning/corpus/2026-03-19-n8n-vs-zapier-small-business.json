@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-03-19-n8n-vs-zapier-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-03-19",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nBadge: Comparison Guide\nHeading: n8n vs Zapier for Small Business\nBody: Both tools automate workflows. But they solve different problems at different price points. This page helps you figure out which one fits your business.\nSub: No affiliate links. No vendor sponsorship. Just a practical breakdown based on building with both tools for real businesses.\nCTA: Get Help Choosing | All Guides\n\n### The short version\nIntro: If you need a quick decision framework, here it is:\nZapier is probably enough if:\n- You need simple triggers: when X happens, do Y\n- You use mainstream SaaS tools (Gmail, Slack, HubSpot, Sheets)\n- You want zero setup and zero maintenance\n- Your automations are under 5 steps each\n- You are not technical and do not have a developer on call\nn8n is the better fit if:\n- Your workflows have branching logic, loops, or error handling\n- You need to connect to APIs that Zapier does not support natively\n- You want to own your data and not depend on a third-party cloud\n- Your Zapier bill is climbing past $100/month\n- You have a developer or consultant who can build and maintain it\n\n### What each tool actually is\nZapier: Cloud-only. No-code. Connects 6,000+ apps with a trigger-action model. Optimized for speed-to-value.\nn8n: Open-source. Visual workflow builder with a code option. Can be self-hosted or used via n8n Cloud. Optimized for flexibility.\n\n### Side-by-side comparison\nTable comparing Zapier vs n8n across: Pricing, Ease of use, Complexity ceiling, App integrations, Data ownership, Maintenance, Best for.\n\n### The cost question\nThree cards:\n- Zapier costs scale with volume: Per-task pricing. A 5-step workflow processing 1,000 records/month uses 5,000 tasks. Monthly bills can reach $200 to $800+ at higher volumes.\n- n8n costs scale with complexity: Cloud charges by workflow count, not task volume. Self-hosted costs $5 to $50/month for server. Setup and maintenance take more effort.\n- The hidden cost is time: Zapier saves time upfront but costs more at scale. n8n saves money at scale but costs more time upfront. Break-even is around $100 to $150/month in Zapier spend.\n\n### When this decision actually matters\nFour scenarios: High-volume lead processing, Complex conditional logic, Custom API connections, Data privacy requirements.\nClosing: If none of these apply and your automations are straightforward, Zapier is a fine choice. Do not over-engineer the decision.\n\n### Who should use which\nStick with Zapier: Non-technical, simple workflows, popular SaaS tools, manageable task volume, no data residency needs.\nMove to n8n: Zapier bill over $100/month, need conditions/loops/error handling, custom APIs, want to own infrastructure, have dev/consultant available.\n\n### See how n8n works in practice\nTwo case study cards linking to published pages (Instagram lead gen, E-commerce CRM).\nLinks to: /case-studies, /ai-automation-consultant-small-business\n\n### FAQ — Common questions\n4 Q&As covering: migration from Zapier to n8n, n8n reliability, whether you need a developer, Make as an alternative.\n\n### Final CTA\nHeading: Not sure which tool fits your business?\nBody: Book a 30-minute call. We will look at your workflows, your current tools, and figure out the right automation platform and approach together.\nSub: No sales pitch. Just a clear recommendation based on your specific situation.\nBenefits: 30-minute focused call / Platform recommendation for your use case / Leave with a clear next step\nEmbedded booking widget.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Comparison/decision page, not a review or blog post. Structured to help the reader choose, not just learn."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Hero uses a plain statement headline, not a question or clever copy."
+    },
+    {
+      "type": "tone_shift",
+      "description": "\"The short version\" section gives the answer upfront for scanners, then the rest of the page supports the reasoning."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone is practical and neutral. Does not favor either tool. Acknowledges Zapier is fine for simple use cases."
+    },
+    {
+      "type": "tone_shift",
+      "description": "No em dashes in published copy. Uses periods, commas, or colons instead."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Cost section uses concrete numbers and ranges, not vague claims."
+    },
+    {
+      "type": "tone_shift",
+      "description": "\"When this decision actually matters\" section prevents over-engineering by noting when the choice does not matter much."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Case study references link to real published pages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "FAQ answers are specific and honest. Acknowledges Make as a middle option."
+    },
+    {
+      "type": "tone_shift",
+      "description": "CTA is framed as \"get help choosing\" rather than selling a specific tool."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the site's standard Section wrapper, card patterns, table layout, and Framer Motion animations."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Booking widget is self-contained on this page."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-03-20T05:49:27.203Z",
+    "structure": {
+      "paragraphCount": 10,
+      "sentencesPerParagraph": [
+        7,
+        1,
+        8,
+        1,
+        9,
+        3,
+        2,
+        2,
+        1,
+        6
+      ],
+      "avgSentenceLength": 13.4,
+      "sentenceLengthRange": [
+        1,
+        132
+      ],
+      "totalWords": 536
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nBadge: Comparison Guide\nHeading: n8n vs Zapier for Small Business\nBody: Both tools automate workflows.",
+      "wordCount": 16,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Not sure which tool fits your business?\nBody: Book a 30-minute call. We will look at your workflows, your current tools, and figure out the right automation platform and approach together.\nSub: No sales pitch. Just a clear recommendation based on your specific situation.\nBenefits: 30-minute focused call / Platform recommendation for your use case / Leave with a clear next step\nEmbedded booking widget.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "product-pitch",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | product-pitch | context | context | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 36,
+      "commas": 36,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 13,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 27,
+      "commasPerSentence": 0.97
+    },
+    "vocabulary": {
+      "distinctWords": 298,
+      "totalWords": 536,
+      "topWords": [
+        [
+          "zapier",
+          13
+        ],
+        [
+          "-",
+          13
+        ],
+        [
+          "n8n",
+          11
+        ],
+        [
+          "your",
+          11
+        ],
+        [
+          "with",
+          7
+        ],
+        [
+          "not",
+          7
+        ],
+        [
+          "tools",
+          5
+        ],
+        [
+          "need",
+          5
+        ],
+        [
+          "costs",
+          5
+        ],
+        [
+          "workflows",
+          4
+        ],
+        [
+          "no",
+          4
+        ],
+        [
+          "if",
+          4
+        ],
+        [
+          "use",
+          4
+        ],
+        [
+          "have",
+          4
+        ],
+        [
+          "data",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.002
+    },
+    "editSignals": {
+      "totalEdits": 12,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 12,
+      "patterns": []
+    }
+  }
+}

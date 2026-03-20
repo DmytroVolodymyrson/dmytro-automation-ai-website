@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-03-19-ai-appointment-setter",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-03-19",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nBadge: Use Case Guide\nHeading: AI Appointment Setter for Service Businesses\nBody: Stop losing leads to slow follow-up and after-hours silence. An AI appointment setter handles the repetitive parts of booking so your team focuses on the work that matters.\nSub: Below: what it actually does, which businesses benefit most, and how to decide if it is the right investment for yours.\nCTA: Book a 30-Minute Call | All Guides\n\n### What an AI appointment setter actually does\nIntro: The term gets used loosely, so here is what it means in practice for a service business:\n- Answers calls and messages: 24/7. Handles initial conversation, qualifying questions, basic service information.\n- Books appointments directly: Checks calendar, offers slots, confirms bookings. Sends confirmations to both sides.\n- Qualifies leads before booking: Asks screening questions. Routes qualified leads to booking, flags the rest.\n- Sends reminders and reduces no-shows: Automated confirmation and reminder sequences. 20 to 40% no-show reduction typical.\n- Follows up with leads who do not book: Automatic follow-up over next few days for leads who engage but do not complete booking.\n- Hands off to your team when needed: Complex requests, complaints, or anything outside scope gets routed to a human with full context.\n\n### Where it helps most\nSix problem scenarios: Missed after-hours leads, Slow follow-up on inquiries, Staff time wasted on scheduling, High no-show rates, Inconsistent lead qualification, Seasonal volume spikes.\n\n### Businesses that benefit most\nIntro: AI appointment setters work best for businesses where revenue depends on booked appointments.\n- Medical and dental practices: Patient scheduling, intake, reminders\n- Home services (HVAC, plumbing, electrical): Service calls, estimates, dispatch\n- Salons and spas: Booking, confirmations, waitlist management\n- Legal and financial services: Consultation booking, qualification, follow-up\n- Real estate: Showing scheduling, buyer/seller qualification\n- Fitness and wellness: Class booking, personal training, trial sessions\n\n### What an AI setter should not replace\nFour boundaries: Complex consultations requiring empathy/negotiation, Complaint resolution, High-stakes decisions (medical/legal/financial advice), Relationship-building with key accounts.\nClosing: The best results come from using AI for the repetitive 70 to 80% and freeing your team to focus on the interactions that actually require a person.\n\n### Good fit / not a fit\nGood fit: Revenue depends on appointments, losing after-hours leads, staff time on scheduling, clear booking flow, no-shows are costly.\nNot a fit: Business does not rely on appointments, fewer than 10 inquiries/week, every interaction needs deep customization, no defined scheduling process, looking for a full sales closer.\n\n### What this looks like in practice\nTwo case study cards (Restaurant voice agent, Instagram lead gen) linking to published pages.\nLinks to: /case-studies, /ai-automation-consultant-small-business\n\n### FAQ — Common questions\n5 Q&As covering: whether AI sounds robotic, what happens when AI cannot handle a question, setup timeline, cost, scheduling tool compatibility.\n\n### Final CTA\nHeading: Ready to stop losing leads to slow follow-up?\nBody: Book a 30-minute call. We will look at your current booking process, identify where leads are falling through, and figure out the right setup for your business.\nSub: No hard sell. Just a clear look at whether an AI appointment setter makes sense for your situation.\nBenefits: 30-minute focused call / Identify where leads are dropping off / Leave with a clear recommendation\nEmbedded booking widget.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Use-case/decision page, not a blog post. Structured to help the reader evaluate fit, not just learn about the concept."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Hero leads with a problem-outcome statement, not a question."
+    },
+    {
+      "type": "tone_shift",
+      "description": "\"What it actually does\" section demystifies the term with concrete, specific actions."
+    },
+    {
+      "type": "tone_shift",
+      "description": "\"What it should not replace\" section builds credibility by being honest about limitations."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone is grounded and practical. Avoids \"AI will transform your business\" hype."
+    },
+    {
+      "type": "tone_shift",
+      "description": "No em dashes in published copy. Uses periods, commas, or colons instead."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Cost and timeline numbers in FAQ are specific ranges, not vague. ROI claims are conservative (\"most businesses recoup within the first month\" not \"guaranteed ROI\")."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Case study references link to real published pages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Fit/non-fit section includes concrete disqualifiers (fewer than 10 inquiries/week is fine to handle manually)."
+    },
+    {
+      "type": "tone_shift",
+      "description": "CTA is problem-framed (\"stop losing leads\") not benefit-inflated."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the site's standard Section wrapper, card patterns, and Framer Motion animations."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Booking widget is self-contained on this page."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-03-20T05:49:27.197Z",
+    "structure": {
+      "paragraphCount": 9,
+      "sentencesPerParagraph": [
+        4,
+        10,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1,
+        6
+      ],
+      "avgSentenceLength": 17.7,
+      "sentenceLengthRange": [
+        4,
+        53
+      ],
+      "totalWords": 530
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nBadge: Use Case Guide\nHeading: AI Appointment Setter for Service Businesses\nBody: Stop losing leads to slow follow-up and after-hours silence.",
+      "wordCount": 22,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Ready to stop losing leads to slow follow-up?\nBody: Book a 30-minute call. We will look at your current booking process, identify where leads are falling through, and figure out the right setup for your business.\nSub: No hard sell. Just a clear look at whether an AI appointment setter makes sense for your situation.\nBenefits: 30-minute focused call / Identify where leads are dropping off / Leave with a clear recommendation\nEmbedded booking widget.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "product-pitch",
+        "result",
+        "result",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | product-pitch | result | result | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 26,
+      "commas": 47,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 12,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 32,
+      "commasPerSentence": 1.74
+    },
+    "vocabulary": {
+      "distinctWords": 306,
+      "totalWords": 530,
+      "topWords": [
+        [
+          "-",
+          12
+        ],
+        [
+          "leads",
+          10
+        ],
+        [
+          "booking",
+          10
+        ],
+        [
+          "ai",
+          9
+        ],
+        [
+          "your",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "not",
+          6
+        ],
+        [
+          "scheduling",
+          6
+        ],
+        [
+          "appointment",
+          5
+        ],
+        [
+          "setter",
+          5
+        ],
+        [
+          "follow-up",
+          5
+        ],
+        [
+          "service",
+          4
+        ],
+        [
+          "businesses",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "appointments",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.004
+    },
+    "editSignals": {
+      "totalEdits": 12,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 12,
+      "patterns": []
+    }
+  }
+}
