@@ -35,17 +35,17 @@ const faqItems = [
   {
     question: "How is working with a consultant different from hiring a freelancer on Upwork?",
     answer:
-      "A freelancer builds what you spec. A consultant figures out what to build first. The value is in the diagnosis — identifying which process to automate, in what order, and how it connects to your existing tools. That upstream thinking is what determines whether an automation actually sticks or gets abandoned in two months.",
+      "A freelancer builds what you spec. A consultant figures out what to build first. The value is in the diagnosis: identifying which process to automate, in what order, and how it connects to your existing tools. That upstream thinking is what determines whether an automation actually sticks or gets abandoned in two months.",
   },
   {
     question: "What does AI automation cost for a small business?",
     answer:
-      "One-time builds typically range from $1,500 to $8,000 depending on complexity. Monthly retainers start at $500/month for ongoing optimization and support. Most clients see ROI within 30 days — one recovered deal or saved hire usually covers the cost of the entire build.",
+      "One-time builds typically range from $1,500 to $8,000 depending on complexity. Monthly retainers start at $500/month for ongoing optimization and support. Most clients start seeing returns within the first month. One recovered deal or saved hire often covers the cost of the entire build.",
   },
   {
     question: "How long until I see results?",
     answer:
-      "Most builds go from first call to live in 1–3 weeks. A basic lead follow-up workflow is typically 5–7 days. A full AI voice agent with booking integration takes 2–3 weeks. You'll see the first results as soon as the system is live — there's no long ramp-up period.",
+      "Most builds go from first call to live in 1 to 3 weeks. A basic lead follow-up workflow is typically 5 to 7 days. A full AI voice agent with booking integration takes 2 to 3 weeks. You'll see the first results as soon as the system is live. There's no long ramp-up period.",
   },
   {
     question: "Do I need to be technical to use what you build?",
@@ -55,7 +55,7 @@ const faqItems = [
   {
     question: "What if I'm not sure what to automate first?",
     answer:
-      "That's exactly what the strategy call is for. We'll walk through your current workflows, identify where time and money are leaking, and figure out the highest-impact first move. You don't need to arrive with a plan — that's my job.",
+      "That's exactly what the initial call is for. We'll walk through your current workflows, identify where time and money are leaking, and figure out the highest-impact first move. You don't need to arrive with a plan. That's my job.",
   },
   {
     question: "What happens after the build is done?",
@@ -65,7 +65,7 @@ const faqItems = [
   {
     question: "Can you work with the tools I already use?",
     answer:
-      "Almost always. I build on platforms like n8n, GoHighLevel, Supabase, and standard APIs. If you're already using a CRM, scheduling tool, or email platform, the automation plugs into what you have — no rip-and-replace required.",
+      "Almost always. I build on platforms like n8n, GoHighLevel, Supabase, and standard APIs. If you're already using a CRM, scheduling tool, or email platform, the automation plugs into what you have. No rip-and-replace required.",
   },
 ];
 
@@ -109,7 +109,7 @@ const AiAutomationConsultantSmallBusiness = () => {
         <title>AI Automation Consultant for Small Business | Dmytro AI</title>
         <meta
           name="description"
-          content="Considering an AI automation consultant for your small business? Learn what they actually do, whether your business is a fit, and how to evaluate your options before booking a call."
+          content="AI automation consultant for small businesses. Reduce manual work, respond to leads faster, and build systems that run without adding headcount. See what it looks like and whether your business is a fit."
         />
         <link
           rel="canonical"
@@ -121,7 +121,7 @@ const AiAutomationConsultantSmallBusiness = () => {
         />
         <meta
           property="og:description"
-          content="What an AI automation consultant actually does for small businesses — and how to tell if you need one."
+          content="What an AI automation consultant actually does for small businesses, and how to tell if you need one."
         />
         <meta property="og:type" content="article" />
         <meta
@@ -136,7 +136,6 @@ const AiAutomationConsultantSmallBusiness = () => {
             description:
               "Hands-on AI automation consulting for small businesses. Custom systems for lead follow-up, scheduling, CRM, voice agents, and workflow automation.",
             provider: { "@id": "https://dmytroai.com/#person" },
-            areaServed: "US",
             url: "https://dmytroai.com/ai-automation-consultant-small-business",
           })}
         </script>
@@ -171,25 +170,23 @@ const AiAutomationConsultantSmallBusiness = () => {
                 AI Automation Consulting
               </div>
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-5 tracking-tight">
-                Do you actually need an AI automation consultant?
+                AI Automation Consultant for Small Businesses
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-                Most small businesses don't need more software. They need someone
-                to look at their operations and identify the two or three
-                processes that, once automated, change everything. That's what an
-                AI automation consultant does.
+                Reduce manual work. Respond to leads faster. Build systems that
+                help your business run better without adding headcount. That's
+                what a good AI automation consultant delivers.
               </p>
               <p className="text-base text-muted-foreground leading-relaxed mb-8">
-                This page will help you figure out whether that's the right move
-                for your business — and whether we'd be a good fit to work
-                together.
+                This page breaks down what that looks like in practice, whether
+                your business is a fit, and how to evaluate your options.
               </p>
               <Button
                 size="lg"
                 onClick={scrollToBooking}
                 className="group bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
               >
-                Book a Free Strategy Call
+                Book a 30-Minute Call
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </motion.div>
@@ -210,12 +207,12 @@ const AiAutomationConsultantSmallBusiness = () => {
               {
                 icon: BarChart3,
                 title: "Diagnoses",
-                body: "Maps your current workflows and finds the specific bottlenecks where time, money, or leads are leaking. This is the part most businesses can't do on their own — not because they're not smart, but because they're too close to the work.",
+                body: "Maps your current workflows and finds the specific bottlenecks where time, money, or leads are leaking. This is the part most businesses can't do on their own. Not because they're not smart, but because they're too close to the work.",
               },
               {
                 icon: Zap,
                 title: "Builds",
-                body: "Designs and implements automations that plug those gaps — using tools like n8n, GoHighLevel, AI voice agents, or custom integrations. Not generic templates. Systems built around how your business actually runs.",
+                body: "Designs and implements automations that plug those gaps using tools like n8n, GoHighLevel, AI voice agents, or custom integrations. Not generic templates. Systems built around how your business actually runs.",
               },
               {
                 icon: Users,
@@ -246,7 +243,7 @@ const AiAutomationConsultantSmallBusiness = () => {
           <p className="text-base text-muted-foreground mt-8 leading-relaxed max-w-3xl">
             The difference between a consultant and a tool vendor: a tool vendor
             sells you software. A consultant figures out whether you need software
-            at all — and if so, which piece to build first.
+            at all, and if so, which piece to build first.
           </p>
         </Section>
 
@@ -262,7 +259,7 @@ const AiAutomationConsultantSmallBusiness = () => {
           <div className="grid gap-4 sm:grid-cols-2 max-w-4xl">
             {[
               "You or your team spend hours each week on the same steps: data entry, follow-ups, scheduling, reporting.",
-              "Leads come in but don't get contacted fast enough — or at all.",
+              "Leads come in but don't get contacted fast enough, or at all.",
               "You've hired (or want to hire) someone mainly to handle repetitive admin.",
               "You're turning away work because your current capacity can't keep up.",
               "You've tried tools like Zapier or ChatGPT but couldn't get them to stick.",
@@ -332,7 +329,7 @@ const AiAutomationConsultantSmallBusiness = () => {
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
             These are the workflows I build most often for small businesses. Each
-            one starts manual — and ends with a system that runs without daily
+            one starts manual and ends with a system that runs without daily
             attention:
           </p>
           <div className="grid gap-5 sm:grid-cols-2 max-w-4xl">
@@ -345,7 +342,7 @@ const AiAutomationConsultantSmallBusiness = () => {
               {
                 icon: Phone,
                 title: "Phone handling & voice agents",
-                body: "AI voice agents that answer calls 24/7 — take messages, book appointments, route complex inquiries to your team.",
+                body: "AI voice agents that answer calls 24/7. Take messages, book appointments, route complex inquiries to your team.",
               },
               {
                 icon: CalendarCheck,
@@ -360,7 +357,7 @@ const AiAutomationConsultantSmallBusiness = () => {
               {
                 icon: BarChart3,
                 title: "Reporting & dashboards",
-                body: "Automated reports pulled from your tools and delivered on schedule — no manual spreadsheet work.",
+                body: "Automated reports pulled from your tools and delivered on schedule. No manual spreadsheet work.",
               },
               {
                 icon: Zap,
@@ -406,13 +403,13 @@ const AiAutomationConsultantSmallBusiness = () => {
               {
                 industry: "Restaurant",
                 headline: "100% of after-hours calls answered",
-                body: "A NYC restaurant was missing reservations every night after close. A 24/7 AI voice agent now handles all calls, books tables, and routes complex requests — freeing up 15 hours of management time per week.",
+                body: "A NYC restaurant was missing reservations every night after close. A 24/7 AI voice agent now handles all calls, books tables, and routes complex requests. That freed up roughly 15 hours of management time per week.",
                 link: "/case-studies/paris-cafe-voice-agent",
               },
               {
                 industry: "Info Business",
                 headline: "50+ qualified leads per day",
-                body: "Manual Instagram prospecting took hours and produced a handful of leads. An automated n8n + AI pipeline now discovers, qualifies, and delivers leads daily at $0.29 each — with zero manual work.",
+                body: "Manual Instagram prospecting took hours and produced a handful of leads. An automated n8n + AI pipeline now discovers, qualifies, and delivers leads daily at $0.29 each, with zero manual work.",
                 link: "/case-studies/instagram-lead-generation",
               },
               {
@@ -487,7 +484,7 @@ const AiAutomationConsultantSmallBusiness = () => {
               </thead>
               <tbody className="text-muted-foreground">
                 {[
-                  ["Diagnosis", "Deep — maps your actual workflow", "Template-driven", "You figure it out yourself"],
+                  ["Diagnosis", "Deep: maps your actual workflow", "Template-driven", "You figure it out yourself"],
                   ["Build speed", "1–3 weeks typical", "4–8 weeks", "Weeks to months of tinkering"],
                   ["Cost", "$1.5K–$8K one-time", "$5K–$25K+", "Low upfront, high time cost"],
                   ["Customization", "Built for your process", "Adapted from templates", "Limited by platform"],
@@ -509,7 +506,7 @@ const AiAutomationConsultantSmallBusiness = () => {
           <p className="text-sm text-muted-foreground mt-6 max-w-3xl leading-relaxed">
             If your automation is a single Zap or a ChatGPT prompt, DIY is fine.
             If you need a system that connects multiple tools, handles edge cases,
-            and runs reliably without babysitting — that's consultant territory.
+            and runs reliably without babysitting, that's consultant territory.
           </p>
         </Section>
 
@@ -536,7 +533,7 @@ const AiAutomationConsultantSmallBusiness = () => {
               {
                 step: "3",
                 title: "Build (1–3 weeks)",
-                body: "I build the system, test it, and share progress along the way. You'll see working pieces before the final handoff — not a big reveal at the end.",
+                body: "I build the system, test it, and share progress along the way. You'll see working pieces before the final handoff, not a big reveal at the end.",
               },
               {
                 step: "4",
@@ -577,7 +574,7 @@ const AiAutomationConsultantSmallBusiness = () => {
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
             I'd rather be upfront now than waste your time on the call. Here's who
-            this works well for — and who it doesn't:
+            this works well for, and who it doesn't:
           </p>
           <div className="grid gap-6 md:grid-cols-2 max-w-4xl">
             <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6">
@@ -705,9 +702,9 @@ const AiAutomationConsultantSmallBusiness = () => {
                 Ready to see what's worth automating?
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-2">
-                Book a 30-minute strategy call. We'll look at your current
-                workflows, identify the best first move, and you'll leave with a
-                concrete direction — whether we work together or not.
+                Book a 30-minute call. We'll look at your current workflows,
+                identify the best first move, and you'll leave with a concrete
+                direction, whether we work together or not.
               </p>
               <p className="text-sm text-muted-foreground">
                 No hard sell. No vague AI buzzwords. Just a clear look at what's
@@ -763,7 +760,7 @@ const AiAutomationConsultantSmallBusiness = () => {
                 loading="eager"
                 scrolling="no"
                 id="dmytro-automation-booking"
-                title="Book a Strategy Call"
+                title="Book a 30-Minute Call"
               />
             </motion.div>
           </div>
