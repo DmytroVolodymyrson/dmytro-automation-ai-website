@@ -92,7 +92,7 @@ const AiAppointmentSetter = () => {
         />
         <link
           rel="canonical"
-          href="https://dmytroai.com/ai-appointment-setter"
+          href="https://www.dmytroai.com/ai-appointment-setter"
         />
         <meta
           property="og:title"
@@ -105,7 +105,7 @@ const AiAppointmentSetter = () => {
         <meta property="og:type" content="article" />
         <meta
           property="og:url"
-          content="https://dmytroai.com/ai-appointment-setter"
+          content="https://www.dmytroai.com/ai-appointment-setter"
         />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -114,8 +114,8 @@ const AiAppointmentSetter = () => {
             headline: "AI Appointment Setter for Service Businesses",
             description:
               "Practical guide to AI appointment setters for service businesses. What they do, where they help, and when they are a fit.",
-            publisher: { "@id": "https://dmytroai.com/#person" },
-            url: "https://dmytroai.com/ai-appointment-setter",
+            publisher: { "@id": "https://www.dmytroai.com/#person" },
+            url: "https://www.dmytroai.com/ai-appointment-setter",
           })}
         </script>
       </Helmet>

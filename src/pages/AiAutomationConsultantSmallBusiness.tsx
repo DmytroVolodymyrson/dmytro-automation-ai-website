@@ -113,7 +113,7 @@ const AiAutomationConsultantSmallBusiness = () => {
         />
         <link
           rel="canonical"
-          href="https://dmytroai.com/ai-automation-consultant-small-business"
+          href="https://www.dmytroai.com/ai-automation-consultant-small-business"
         />
         <meta
           property="og:title"
@@ -126,7 +126,7 @@ const AiAutomationConsultantSmallBusiness = () => {
         <meta property="og:type" content="article" />
         <meta
           property="og:url"
-          content="https://dmytroai.com/ai-automation-consultant-small-business"
+          content="https://www.dmytroai.com/ai-automation-consultant-small-business"
         />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -135,8 +135,8 @@ const AiAutomationConsultantSmallBusiness = () => {
             name: "AI Automation Consulting for Small Business",
             description:
               "Hands-on AI automation consulting for small businesses. Custom systems for lead follow-up, scheduling, CRM, voice agents, and workflow automation.",
-            provider: { "@id": "https://dmytroai.com/#person" },
-            url: "https://dmytroai.com/ai-automation-consultant-small-business",
+            provider: { "@id": "https://www.dmytroai.com/#person" },
+            url: "https://www.dmytroai.com/ai-automation-consultant-small-business",
           })}
         </script>
       </Helmet>

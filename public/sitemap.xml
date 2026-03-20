@@ -1,37 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dmytroai.com/</loc>
+    <loc>https://www.dmytroai.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://dmytroai.com/case-studies</loc>
+    <loc>https://www.dmytroai.com/guides</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dmytroai.com/case-studies/paris-cafe-voice-agent</loc>
+    <loc>https://www.dmytroai.com/ai-automation-consultant-small-business</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dmytroai.com/case-studies/instagram-lead-generation</loc>
+    <loc>https://www.dmytroai.com/n8n-vs-zapier-small-business</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dmytroai.com/case-studies/ecommerce-crm-automation</loc>
+    <loc>https://www.dmytroai.com/ai-appointment-setter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dmytroai.com/privacy</loc>
+    <loc>https://www.dmytroai.com/case-studies</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.dmytroai.com/case-studies/paris-cafe-voice-agent</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.dmytroai.com/case-studies/instagram-lead-generation</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.dmytroai.com/case-studies/ecommerce-crm-automation</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.dmytroai.com/privacy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://dmytroai.com/terms</loc>
+    <loc>https://www.dmytroai.com/terms</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>

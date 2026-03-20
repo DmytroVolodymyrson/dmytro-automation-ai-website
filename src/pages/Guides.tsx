@@ -40,14 +40,14 @@ const Guides = () => {
           name="description"
           content="Practical guides for small businesses exploring AI automation. Comparisons, use cases, and decision frameworks to help you make informed choices."
         />
-        <link rel="canonical" href="https://dmytroai.com/guides" />
+        <link rel="canonical" href="https://www.dmytroai.com/guides" />
         <meta property="og:title" content="Guides | Dmytro AI" />
         <meta
           property="og:description"
           content="Practical guides for small businesses exploring AI automation."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://dmytroai.com/guides" />
+        <meta property="og:url" content="https://www.dmytroai.com/guides" />
       </Helmet>
 
       <Navbar />

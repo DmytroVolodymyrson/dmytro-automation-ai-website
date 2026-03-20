@@ -14,7 +14,7 @@ const path = require("path");
 const DIST = path.resolve(__dirname, "../dist");
 const TEMPLATE = fs.readFileSync(path.join(DIST, "index.html"), "utf-8");
 
-const SITE = "https://dmytroai.com";
+const SITE = "https://www.dmytroai.com";
 
 // ── Route metadata ──────────────────────────────────────────────────────────
 const ROUTES = [

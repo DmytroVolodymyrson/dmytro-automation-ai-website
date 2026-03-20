@@ -46,4 +46,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://dmytroai.com/sitemap.xml
+Sitemap: https://www.dmytroai.com/sitemap.xml

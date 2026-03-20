@@ -23,5 +23,5 @@ Unlike agencies that charge $5,000/month for a team you never meet, Dmytro build
 - WheelsFeels (e-commerce auto parts, USA): Full AI CRM build with automated SMS/email follow-up for thousands of leads, Slack integration, n8n workflows
 
 ## Contact
-dmytro@dmytroai.com | https://dmytroai.com
-Book a free strategy call: https://dmytroai.com/#booking
+dmytro@dmytroai.com | https://www.dmytroai.com
+Book a free strategy call: https://www.dmytroai.com/#booking

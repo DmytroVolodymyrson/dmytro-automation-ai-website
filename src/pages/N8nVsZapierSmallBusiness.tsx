@@ -86,7 +86,7 @@ const N8nVsZapierSmallBusiness = () => {
         />
         <link
           rel="canonical"
-          href="https://dmytroai.com/n8n-vs-zapier-small-business"
+          href="https://www.dmytroai.com/n8n-vs-zapier-small-business"
         />
         <meta
           property="og:title"
@@ -99,7 +99,7 @@ const N8nVsZapierSmallBusiness = () => {
         <meta property="og:type" content="article" />
         <meta
           property="og:url"
-          content="https://dmytroai.com/n8n-vs-zapier-small-business"
+          content="https://www.dmytroai.com/n8n-vs-zapier-small-business"
         />
       </Helmet>
 
