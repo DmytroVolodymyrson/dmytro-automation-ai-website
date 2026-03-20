@@ -1,6 +1,15 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-03-18
+**Last updated:** 2026-03-20 03:09 MDT
+
+## Update 2026-03-20 03:09 MDT
+- Smart Memory Sync triggered.
+- Implemented and deployed GEO page `/ai-automation-consultant-small-business`.
+- Created a "Guides" hub page and landing pages for "N8n vs Zapier" and "AI Appointment Setter".
+- Updated `App.tsx` and `Footer.tsx` for new routing.
+- Harmonized CTA language to "30-minute call" across the site.
+- Synced latest activity and decisions to `memory/2026-03-19.md`.
+
 
 ## Current State
 - Website is live (Vite + React + Tailwind, deployed on Vercel)
