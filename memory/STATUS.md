@@ -1,33 +1,18 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-03-20 03:09 MDT
+**Last updated:** 2026-03-21 03:09 MDT
 
-## Update 2026-03-20 03:09 MDT
-- Smart Memory Sync triggered.
-- Implemented and deployed GEO page `/ai-automation-consultant-small-business`.
-- Created a "Guides" hub page and landing pages for "N8n vs Zapier" and "AI Appointment Setter".
-- Updated `App.tsx` and `Footer.tsx` for new routing.
-- Harmonized CTA language to "30-minute call" across the site.
-- Synced latest activity and decisions to `memory/2026-03-19.md`.
-
+## Update 2026-03-21 03:09 MDT
+- Flagship case study selection (2026-03-20).
+- "Ted OpenClaw Team Manager" selected as the next flagship case study.
+- Defined proof-packaging strategy (anonymized names, real numbers, Telegram screenshots).
+- Synced latest activity to `memory/2026-03-20.md`.
 
 ## Current State
 - Website is live (Vite + React + Tailwind, deployed on Vercel)
 - GEO quick wins and multiple case study pages are now in place
-- Lovable branding/artifacts have been removed from the public site, build config, repo docs, and asset paths
-- PostHog Stage 1 instrumentation is live; default SDK host now targets the custom reverse-proxy domain `https://b.dmytroai.com`
-- Canonical env names remain `VITE_POSTHOG_KEY` and `VITE_POSTHOG_HOST`
-- New planning doc added from video review: `docs/plans/2026-03-15-video-inspired-website-improvement-plan.md`
-- Homepage now includes a compact proof strip directly under the hero with 3 case-study-driven cards (restaurant voice AI, Instagram lead gen, e-commerce CRM automation) to surface credibility earlier without moving the full Results section
-- The proof strip was refined into a more minimal, premium scan pattern: short intro, then cards with industry label, one big result, one support line, and a lightweight case-study affordance
-- Booking section copy + layout now reduce friction before the widget by clarifying what the first call is, who it is for, what happens next, and adding a direct low-pressure reassurance line above the scheduler
-- Booking section layout was widened within the existing design so the embedded scheduler can use more horizontal space, reducing the cramped one-column feel without changing the section concept
-- Booking section supporting bullets were tightened into three approved one-liners to make the outcomes faster to scan without changing layout or structure
-- Booking section supporting bullets were further simplified into blunter true one-liners: “Find the bottleneck”, “See the best next move”, and “Leave with a plan”
-- Booking section duration copy now correctly says 30 minutes in the heading/subtitle and supporting detail text so the homepage matches the actual scheduler
-- FAQ, testimonials, and booking sections had their top padding reduced to tighten the lower-homepage rhythm after the results section removal, while leaving bottom spacing and overall structure intact
-- Homepage lower "Results / Client Success Stories" section was removed; proof now lives in the upper proof strip only, with homepage flow preserved as Hero → Proof Strip → About → Services → FAQ → Testimonials → Booking
-- Navbar dead anchors were cleaned up by removing `#results` and `#case-studies` links; booking CTA behavior and case study routes remain intact
+- "Ted" narrative drafting in motion with specific metrics.
+- Proof assets (screenshots) required before final publishing.
 
 ## What Was Just Planned (March 7, 2026)
 A full GEO (Generative Engine Optimization) plan was created to make Dmytro show up when buyers ask ChatGPT/Perplexity/Claude "who should I hire for AI automation?"
