@@ -8,7 +8,7 @@ export const siteConfig = {
     // [LOCKED] Subheadline. Do not modify.
     headlineSub: "Focus on growth.",
     subtitle:
-      "I help businesses save 10+ hours weekly and generate 300%+ ROI by building AI systems that automate repetitive work so you can focus on growing your business.",
+      "I help businesses save 10+ hours weekly and generate 300%+ ROI by building AI systems that automate repetitive work so you can focus on scaling.",
     ctaText: "Book a Free Strategy Call",
     badge: "AI Automation Expert",
     stats: [
