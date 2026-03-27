@@ -2,6 +2,16 @@
 
 **Last updated:** 2026-03-21 03:09 MDT
 
+## Update 2026-03-27 12:41 MDT
+- Researched how to automate GEO testing for ChatGPT, Claude, Gemini, and Perplexity.
+- Main conclusion: use official APIs for automated recurring checks, and reserve browser/UI automation for occasional spot-checks of the real consumer products.
+- Important caveat: API outputs are useful for trend tracking, but they are not always identical to the consumer UIs (especially for ChatGPT Search).
+- Recommended system design:
+  1. weekly API-based prompt sweep across OpenAI Responses API web search, Claude web search, Gemini Google Search grounding, and Perplexity/Sonar
+  2. structured capture of answer text, citations, latency, and scoring
+  3. periodic browser/manual spot-checks in actual product UIs to validate what users really see
+- This became the preferred direction for future GEO automation research/implementation.
+
 ## Update 2026-03-27 12:36 MDT
 - Ran the first Perplexity GEO baseline across all 10 tracked prompts from `docs/geo-tracking.md`.
 - Result: 0/10 positive signals on Perplexity for the two tracked pages (`/ai-lead-follow-up-for-service-businesses` and `/ai-automation-consultant-calgary`).
