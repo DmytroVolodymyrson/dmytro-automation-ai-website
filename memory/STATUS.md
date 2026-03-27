@@ -2,6 +2,12 @@
 
 **Last updated:** 2026-03-21 03:09 MDT
 
+## Update 2026-03-27 09:46 MDT
+- Ran a first GEO smoke test on the live decision pages.
+- Verified live fetchability/title visibility for `/ai-automation-consultant-calgary`, `/ai-lead-follow-up-for-service-businesses`, and `/guides`.
+- Ran two buyer-intent web-grounded checks; no clear early citation traction yet, which is still consistent with the expected baseline window from the GEO tracking docs.
+- Recommended next step: run the full first weekly GEO prompt sweep and log the baseline.
+
 ## Update 2026-03-21 03:09 MDT
 - Flagship case study selection (2026-03-20).
 - "Ted OpenClaw Team Manager" selected as the next flagship case study.
