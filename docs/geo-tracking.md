@@ -101,3 +101,34 @@ AI Automation Consultant Calgary Page:
 Total score this week: ___
 Notes:
 ```
+
+## Baseline Run — 2026-03-27 (Perplexity only)
+
+Week of: 2026-03-27
+
+AI Lead Follow-Up Page:
+| Prompt | ChatGPT | Perplexity | Gemini | Claude |
+|--------|---------|------------|--------|--------|
+| 1      |         | -          |        |        |
+| 2      |         | -          |        |        |
+| 3      |         | -          |        |        |
+| 4      |         | -          |        |        |
+| 5      |         | -          |        |        |
+
+AI Automation Consultant Calgary Page:
+| Prompt | ChatGPT | Perplexity | Gemini | Claude |
+|--------|---------|------------|--------|--------|
+| 6      |         | -          |        |        |
+| 7      |         | -          |        |        |
+| 8      |         | -          |        |        |
+| 9      |         | -          |        |        |
+| 10     |         | -          |        |        |
+
+Total score this week: 0 (Perplexity-only baseline)
+
+Notes:
+- Ran via Perplexity-backed web-grounded search from OpenClaw.
+- No direct links, mentions, recommendations, or recognizable paraphrases of dmytroai.com surfaced yet.
+- This is still consistent with the expected early baseline window described above.
+- Next best step: run the same prompt set in ChatGPT, Claude, and Gemini UIs for a fuller weekly baseline.
+```

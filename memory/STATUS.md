@@ -2,6 +2,14 @@
 
 **Last updated:** 2026-03-21 03:09 MDT
 
+## Update 2026-03-27 12:36 MDT
+- Ran the first Perplexity GEO baseline across all 10 tracked prompts from `docs/geo-tracking.md`.
+- Result: 0/10 positive signals on Perplexity for the two tracked pages (`/ai-lead-follow-up-for-service-businesses` and `/ai-automation-consultant-calgary`).
+- No links, mentions, recommendations, or clear paraphrases surfaced yet.
+- Logged the baseline directly into `docs/geo-tracking.md`.
+- Interpretation: still early; this does not yet indicate failure, only that model-surface pickup has not appeared on Perplexity so far.
+- Next best step: run the same prompt set in ChatGPT, Claude, and Gemini for a fuller baseline.
+
 ## Update 2026-03-27 09:46 MDT
 - Ran a first GEO smoke test on the live decision pages.
 - Verified live fetchability/title visibility for `/ai-automation-consultant-calgary`, `/ai-lead-follow-up-for-service-businesses`, and `/guides`.
