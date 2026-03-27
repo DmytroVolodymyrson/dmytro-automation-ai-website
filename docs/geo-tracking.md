@@ -102,7 +102,29 @@ Total score this week: ___
 Notes:
 ```
 
-## Baseline Run — 2026-03-27 (Perplexity only)
+## Automated Runner
+
+The GEO test runner (`scripts/geo-runner.ts`) automates weekly checks across all 4 providers via their APIs.
+
+```bash
+npm run geo            # Run all 4 providers
+npm run geo:dry        # Preview prompts without API calls
+npx tsx scripts/geo-runner.ts --provider openai  # Single provider
+```
+
+Results are saved to `docs/data/geo-results/`:
+- `YYYY-MM-DD.json` — full machine-readable results (answers, citations, latency, scores)
+- `YYYY-MM-DD.md` — human-readable summary table
+
+Requires: `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, `GEMINI_API_KEY`, `PERPLEXITY_API_KEY` in `.env.local`.
+
+Canonical prompt source: `scripts/geo-prompts.json`
+
+**Note:** API-based results may differ from browser UI results. APIs use web search tools but may not have the same retrieval index as the consumer products. Treat API results as a consistent, reproducible signal — not an exact replica of UI behavior.
+
+---
+
+## Baseline Run — 2026-03-27 (Perplexity MCP, manual)
 
 Week of: 2026-03-27
 
@@ -126,9 +148,34 @@ AI Automation Consultant Calgary Page:
 
 Total score this week: 0 (Perplexity-only baseline)
 
+## Baseline Run — 2026-03-27 (Full 4-provider API run)
+
+All 4 providers, all 10 prompts. Full results in `docs/data/geo-results/2026-03-27.json`.
+
+AI Lead Follow-Up Page:
+| Prompt | OpenAI | Anthropic | Gemini | Perplexity |
+|--------|--------|-----------|--------|------------|
+| 1      | -      | -         | -      | -          |
+| 2      | -      | -         | -      | -          |
+| 3      | -      | -         | -      | -          |
+| 4      | -      | -         | -      | -          |
+| 5      | -      | -         | -      | -          |
+
+AI Automation Consultant Calgary Page:
+| Prompt | OpenAI | Anthropic | Gemini | Perplexity |
+|--------|--------|-----------|--------|------------|
+| 6      | -      | -         | -      | -          |
+| 7      | -      | -         | -      | -          |
+| 8      | -      | -         | -      | -          |
+| 9      | -      | -         | -      | -          |
+| 10     | -      | -         | -      | -          |
+
+Total score this week: 0
+
 Notes:
-- Ran via Perplexity-backed web-grounded search from OpenClaw.
-- No direct links, mentions, recommendations, or recognizable paraphrases of dmytroai.com surfaced yet.
-- This is still consistent with the expected early baseline window described above.
-- Next best step: run the same prompt set in ChatGPT, Claude, and Gemini UIs for a fuller weekly baseline.
+- First full 4-provider automated baseline via API.
+- Score 0 across all providers — expected for early-stage GEO (week 1).
+- All APIs returned substantive answers with web search grounding — no errors.
+- dmytroai.com not yet in any provider's search index for these queries.
+- Anthropic/Claude had highest latency (~20-40s) due to web search tool execution.
 ```
