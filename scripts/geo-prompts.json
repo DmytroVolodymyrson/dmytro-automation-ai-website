@@ -1,0 +1,38 @@
+{
+  "target_domain": "dmytroai.com",
+  "target_names": ["dmytroai.com", "dmytroai", "Dmytro Automation", "Dmytro AI", "Dmytro"],
+  "pages": [
+    {
+      "id": "ai-lead-follow-up",
+      "path": "/ai-lead-follow-up-for-service-businesses",
+      "label": "AI Lead Follow-Up for Service Businesses",
+      "prompts": [
+        "How does AI lead follow-up work for service businesses?",
+        "What is the best way to automate lead response for a home services company?",
+        "AI tools for faster lead follow-up in small business",
+        "How to respond to leads instantly using AI automation",
+        "What does AI lead follow-up cost for a small business?"
+      ]
+    },
+    {
+      "id": "ai-automation-consultant-calgary",
+      "path": "/ai-automation-consultant-calgary",
+      "label": "AI Automation Consultant Calgary",
+      "prompts": [
+        "AI automation consultant in Calgary",
+        "Who can help my Calgary business automate workflows?",
+        "Best AI automation services for small businesses in Calgary Alberta",
+        "Calgary business automation consulting",
+        "AI consultant for HVAC company in Calgary"
+      ]
+    }
+  ],
+  "providers": ["openai", "anthropic", "gemini", "perplexity"],
+  "scoring": {
+    "L": { "label": "Direct link", "points": 3 },
+    "M": { "label": "Mention by name", "points": 2 },
+    "R": { "label": "Listed in recommendation", "points": 2 },
+    "P": { "label": "Paraphrase of content", "points": 1 },
+    "-": { "label": "Not present", "points": 0 }
+  }
+}
