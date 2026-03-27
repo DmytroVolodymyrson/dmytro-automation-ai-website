@@ -38,4 +38,8 @@ else
   echo "[$(date '+%Y-%m-%d %H:%M:%S %Z')] No GEO result changes to commit"
 fi
 
+# Send Discord summary (best-effort; don't fail the cron on notification error)
+"$SCRIPT_DIR/geo-discord-summary.sh" "$(date +%Y-%m-%d)" || \
+  echo "[$(date '+%Y-%m-%d %H:%M:%S %Z')] Discord summary failed (non-fatal)"
+
 echo "[$(date '+%Y-%m-%d %H:%M:%S %Z')] Weekly GEO run finished"
