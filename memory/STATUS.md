@@ -6,6 +6,7 @@
 - Shortened the About section image frame in the component (no asset changes).
 - Added an overflow-hidden wrapper with fixed responsive heights and bottom-aligned the image so only the top is clipped.
 - Build passes.
+- **Fix (same session):** the `absolute bottom-0 h-auto` approach broke rendering — image didn't fill the frame. Replaced with `w-full h-full object-cover object-bottom` so the image fills the container and only clips from the top. Build passes.
 
 ## Update 2026-03-27 21:54 MDT
 - Tightened the new About section presentation photo crop after Dmytro feedback.

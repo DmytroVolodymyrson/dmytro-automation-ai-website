@@ -122,7 +122,7 @@ const PhotoBlock = () => (
         height={1200}
         loading="lazy"
         decoding="async"
-        className="absolute bottom-0 left-0 w-full h-auto object-cover"
+        className="w-full h-full object-cover object-bottom"
       />
     </div>
 
