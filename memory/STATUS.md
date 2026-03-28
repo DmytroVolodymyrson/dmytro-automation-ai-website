@@ -2,6 +2,12 @@
 
 **Last updated:** 2026-03-21 03:09 MDT
 
+## Update 2026-03-27 21:50 MDT
+- Replaced the About section photo with a new presentation image provided by Dmytro.
+- Rotated the source photo upright, created a tighter portrait crop focused on Dmytro speaking, and exported new responsive assets: `about-speaking-400/600/800.jpg`.
+- Updated `src/components/AboutSection.tsx` to use the new assets and a matching alt text.
+- `npm run build` passes after the image swap.
+
 ## Update 2026-03-27 12:41 MDT
 - Researched how to automate GEO testing for ChatGPT, Claude, Gemini, and Perplexity.
 - Main conclusion: use official APIs for automated recurring checks, and reserve browser/UI automation for occasional spot-checks of the real consumer products.

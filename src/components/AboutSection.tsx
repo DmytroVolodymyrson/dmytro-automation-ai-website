@@ -113,10 +113,10 @@ const PhotoBlock = () => (
 
     {/* Photo with rectangular frame - 2:3 portrait */}
     <img
-      src="/images/about-800.jpg"
-      srcSet="/images/about-400.jpg 400w, /images/about-600.jpg 600w, /images/about-800.jpg 800w"
+      src="/images/about-speaking-800.jpg"
+      srcSet="/images/about-speaking-400.jpg 400w, /images/about-speaking-600.jpg 600w, /images/about-speaking-800.jpg 800w"
       sizes="(max-width: 768px) 100vw, (max-width: 1024px) 450px, 520px"
-      alt="Dmytro sitting by a window, smiling"
+      alt="Dmytro speaking at the front of a room during a presentation"
       width={800}
       height={1200}
       loading="lazy"
