@@ -120,3 +120,5 @@ A full GEO (Generative Engine Optimization) plan was created to make Dmytro show
 
 ## Positioning Statement (for all pages)
 "Unlike agencies that charge $5K/month for a team you never meet, Dmytro builds the system, shows you how it works, and charges for results — not for overhead."
+
+- 2026-03-27: Increased About photo frame height slightly for more head room while keeping bottom-aligned crop.
