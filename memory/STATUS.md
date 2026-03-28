@@ -1,6 +1,15 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-03-21 03:09 MDT
+**Last updated:** 2026-03-28 03:12 AM MDT
+
+## Update 2026-03-27
+- **Work:** Replaced "About" section photo and optimized frame rendering.
+- **Key Decisions:**
+    - Swapped old photo for a new presentation-style speaking photo.
+    - Implemented tighter portrait crop; exported responsive `400/600/800.jpg` assets.
+    - Fixed image rendering bug by switching from `absolute bottom-0` to `object-cover object-bottom`.
+- **Outcomes:** Photo updated and pushed to Vercel (commit `4a0dc9d`).
+- **Session:** `8e1c6455-bda8-46e2-9e8a-e884c83e7a99` (snuggly-roaming-raven)
 
 ## Update 2026-03-27 ~23:00 MDT
 - Fixed About image crop to be visibly effective: replaced `object-cover object-bottom` with `flex items-end` wrapper + `w-full h-auto` img. Image renders at full natural width, bottom-aligns in the fixed-height frame, and the top genuinely clips via overflow-hidden. No asset changes.
