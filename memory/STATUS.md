@@ -2,6 +2,11 @@
 
 **Last updated:** 2026-03-21 03:09 MDT
 
+## Update 2026-03-27 21:54 MDT
+- Tightened the new About section presentation photo crop after Dmytro feedback.
+- Reduced empty space above the head while preserving the presenter framing and visible projector text.
+- Re-exported the responsive `about-speaking-400/600/800.jpg` assets and re-verified the build.
+
 ## Update 2026-03-27 21:50 MDT
 - Replaced the About section photo with a new presentation image provided by Dmytro.
 - Rotated the source photo upright, created a tighter portrait crop focused on Dmytro speaking, and exported new responsive assets: `about-speaking-400/600/800.jpg`.
