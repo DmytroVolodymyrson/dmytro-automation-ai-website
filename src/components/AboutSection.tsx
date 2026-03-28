@@ -111,18 +111,20 @@ const PhotoBlock = () => (
     {/* Gradient glow effect */}
     <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-cyan-500/20 rounded-2xl blur-3xl opacity-40 scale-110" />
 
-    {/* Photo with rectangular frame - 2:3 portrait */}
-    <img
-      src="/images/about-speaking-800.jpg"
-      srcSet="/images/about-speaking-400.jpg 400w, /images/about-speaking-600.jpg 600w, /images/about-speaking-800.jpg 800w"
-      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 450px, 520px"
-      alt="Dmytro speaking at the front of a room during a presentation"
-      width={800}
-      height={1200}
-      loading="lazy"
-      decoding="async"
-      className="relative w-full max-w-lg lg:max-w-xl mx-auto rounded-2xl object-cover shadow-2xl border-4 border-background"
-    />
+    {/* Photo with rectangular frame - top-cropped via overflow wrapper */}
+    <div className="relative w-full max-w-lg lg:max-w-xl mx-auto rounded-2xl overflow-hidden shadow-2xl border-4 border-background h-[28rem] sm:h-[32rem] lg:h-[36rem]">
+      <img
+        src="/images/about-speaking-800.jpg"
+        srcSet="/images/about-speaking-400.jpg 400w, /images/about-speaking-600.jpg 600w, /images/about-speaking-800.jpg 800w"
+        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 450px, 520px"
+        alt="Dmytro speaking at the front of a room during a presentation"
+        width={800}
+        height={1200}
+        loading="lazy"
+        decoding="async"
+        className="absolute bottom-0 left-0 w-full h-auto object-cover"
+      />
+    </div>
 
     {/* Decorative corner elements */}
     <div className="absolute -top-4 -right-4 w-24 h-24 bg-cyan-500/20 rounded-2xl -z-10" />

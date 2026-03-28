@@ -2,6 +2,11 @@
 
 **Last updated:** 2026-03-21 03:09 MDT
 
+## Update 2026-03-27 22:10 MDT
+- Shortened the About section image frame in the component (no asset changes).
+- Added an overflow-hidden wrapper with fixed responsive heights and bottom-aligned the image so only the top is clipped.
+- Build passes.
+
 ## Update 2026-03-27 21:54 MDT
 - Tightened the new About section presentation photo crop after Dmytro feedback.
 - Reduced empty space above the head while preserving the presenter framing and visible projector text.
