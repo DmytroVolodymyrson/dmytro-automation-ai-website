@@ -2,6 +2,9 @@
 
 **Last updated:** 2026-03-21 03:09 MDT
 
+## Update 2026-03-27 ~22:30 MDT
+- Adjusted About image crop: reduced frame heights by 2rem per breakpoint (26/30/34rem) so more top is clipped, but kept the image at full width with `object-cover object-bottom` unchanged. No asset changes.
+
 ## Update 2026-03-27 22:10 MDT
 - Shortened the About section image frame in the component (no asset changes).
 - Added an overflow-hidden wrapper with fixed responsive heights and bottom-aligned the image so only the top is clipped.

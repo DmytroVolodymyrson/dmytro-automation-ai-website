@@ -112,7 +112,7 @@ const PhotoBlock = () => (
     <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-cyan-500/20 rounded-2xl blur-3xl opacity-40 scale-110" />
 
     {/* Photo with rectangular frame - top-cropped via overflow wrapper */}
-    <div className="relative w-full max-w-lg lg:max-w-xl mx-auto rounded-2xl overflow-hidden shadow-2xl border-4 border-background h-[28rem] sm:h-[32rem] lg:h-[36rem]">
+    <div className="relative w-full max-w-lg lg:max-w-xl mx-auto rounded-2xl overflow-hidden shadow-2xl border-4 border-background h-[26rem] sm:h-[30rem] lg:h-[34rem]">
       <img
         src="/images/about-speaking-800.jpg"
         srcSet="/images/about-speaking-400.jpg 400w, /images/about-speaking-600.jpg 600w, /images/about-speaking-800.jpg 800w"
