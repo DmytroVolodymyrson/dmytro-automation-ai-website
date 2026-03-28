@@ -111,8 +111,8 @@ const PhotoBlock = () => (
     {/* Gradient glow effect */}
     <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-cyan-500/20 rounded-2xl blur-3xl opacity-40 scale-110" />
 
-    {/* Photo with rectangular frame - top-cropped via overflow + flex bottom-align */}
-    <div className="relative w-full max-w-lg lg:max-w-xl mx-auto rounded-2xl overflow-hidden shadow-2xl border-4 border-background h-[27rem] sm:h-[31rem] lg:h-[35rem] flex items-end">
+    {/* Photo with rectangular frame - object-fit cover preserves head across breakpoints */}
+    <div className="relative w-full max-w-lg lg:max-w-xl mx-auto rounded-2xl overflow-hidden shadow-2xl border-4 border-background h-[27rem] sm:h-[31rem] lg:h-[35rem]">
       <img
         src="/images/about-speaking-800.jpg"
         srcSet="/images/about-speaking-400.jpg 400w, /images/about-speaking-600.jpg 600w, /images/about-speaking-800.jpg 800w"
@@ -122,7 +122,7 @@ const PhotoBlock = () => (
         height={1200}
         loading="lazy"
         decoding="async"
-        className="w-full h-auto block"
+        className="w-full h-full object-cover object-[center_15%]"
       />
     </div>
 
