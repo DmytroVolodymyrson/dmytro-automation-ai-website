@@ -38,11 +38,6 @@ const faqItems = [
       "A freelancer builds what you spec. A consultant figures out what to build first. The value is in the diagnosis: identifying which process to automate, in what order, and how it connects to your existing tools. That upstream thinking is what determines whether an automation actually sticks or gets abandoned in two months.",
   },
   {
-    question: "What does AI automation cost for a small business?",
-    answer:
-      "One-time builds typically range from $1,500 to $8,000 depending on complexity. Monthly retainers start at $500/month for ongoing optimization and support. Most clients start seeing returns within the first month. One recovered deal or saved hire often covers the cost of the entire build.",
-  },
-  {
     question: "How long until I see results?",
     answer:
       "Most builds go from first call to live in 1 to 3 weeks. A basic lead follow-up workflow is typically 5 to 7 days. A full AI voice agent with booking integration takes 2 to 3 weeks. You'll see the first results as soon as the system is live. There's no long ramp-up period.",

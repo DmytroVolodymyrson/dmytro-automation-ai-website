@@ -62,12 +62,7 @@ const faqItems = [
   {
     question: "How long does a typical automation project take?",
     answer:
-      "A focused automation (lead follow-up, appointment booking, CRM cleanup) takes 1 to 3 weeks. A larger system with multiple integrations and custom logic takes 3 to 6 weeks. We scope everything before starting so there are no surprises on timeline or cost.",
-  },
-  {
-    question: "What does it cost?",
-    answer:
-      "One-time builds typically range from $2,000 to $8,000 depending on scope. Ongoing maintenance retainers start at $500/month. We provide a fixed quote after the initial call so you know exactly what you are paying before any work starts.",
+      "A focused automation (lead follow-up, appointment booking, CRM cleanup) takes 1 to 3 weeks. A larger system with multiple integrations and custom logic takes 3 to 6 weeks. We scope everything before starting so there are no surprises.",
   },
   {
     question: "What tools and platforms do you work with?",

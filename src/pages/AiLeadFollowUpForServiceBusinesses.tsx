@@ -70,11 +70,6 @@ const faqItems = [
       "AI follow-up systems connect to most CRMs through APIs or integration platforms like n8n or Zapier. Leads get logged, tagged, and tracked automatically. If you use GoHighLevel, HubSpot, Salesforce, or a similar tool, integration is straightforward.",
   },
   {
-    question: "What does it cost to set this up?",
-    answer:
-      "A one-time build typically runs $2,500 to $7,000 depending on complexity. Ongoing platform costs are usually $50 to $300/month depending on volume. Most businesses recoup the investment within the first month through leads that would have otherwise gone cold.",
-  },
-  {
     question: "Can I still have my team follow up manually for big opportunities?",
     answer:
       "Absolutely. The system handles the initial response and routine follow-up sequences. High-value leads or complex requests get flagged and routed to your team with full context. The goal is not to remove humans from the process. It is to make sure no lead waits.",

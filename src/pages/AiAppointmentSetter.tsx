@@ -64,11 +64,6 @@ const faqItems = [
       "A basic AI appointment setter (chat or SMS-based) can be live in 5 to 7 days. A full voice agent with booking integration, qualification logic, and CRM sync typically takes 2 to 3 weeks. The timeline depends on how many tools need to be connected and how complex your scheduling rules are.",
   },
   {
-    question: "What does it cost?",
-    answer:
-      "A one-time build typically ranges from $2,000 to $6,000 depending on complexity. Ongoing costs include the AI platform usage (usually $50 to $200/month depending on call volume) and optional maintenance retainers. Most businesses recoup the cost within the first month through reduced missed leads and lower no-show rates.",
-  },
-  {
     question: "Can it work with my existing scheduling tool?",
     answer:
       "In most cases, yes. AI appointment setters integrate with common scheduling platforms like Calendly, Acuity, GoHighLevel, and Google Calendar. If you use a less common tool, a custom API connection is usually possible.",
