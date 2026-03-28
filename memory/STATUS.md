@@ -122,3 +122,5 @@ A full GEO (Generative Engine Optimization) plan was created to make Dmytro show
 "Unlike agencies that charge $5K/month for a team you never meet, Dmytro builds the system, shows you how it works, and charges for results — not for overhead."
 
 - 2026-03-27: Made About photo responsive across breakpoints — switched from flex bottom-align trick to `object-cover object-[center_15%]` so the head is preserved at all sizes.
+
+- Reverted About photo to prior desktop width behavior after object-cover changed the framing.
