@@ -133,3 +133,4 @@ A full GEO (Generative Engine Optimization) plan was created to make Dmytro show
 - 2026-03-27: Made About photo responsive across breakpoints — switched from flex bottom-align trick to `object-cover object-[center_15%]` so the head is preserved at all sizes.
 
 - Reverted About photo to prior desktop width behavior after object-cover changed the framing.
+- 2026-03-28: PostHog API review found a real Google Ads traffic spike but weak paid-session engagement so far. On 2026-03-27 to 2026-03-28, 47 sessions had ad params in the landing URL and produced 0 CTA sessions / 0 booking-widget-view sessions. Attribution is partially blind because `utm_source` / `utm_medium` are null in queryable events; current paid detection relies on URL params.
