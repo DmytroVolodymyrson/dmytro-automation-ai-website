@@ -2,6 +2,9 @@
 
 **Last updated:** 2026-03-21 03:09 MDT
 
+## Update 2026-03-27 ~23:00 MDT
+- Fixed About image crop to be visibly effective: replaced `object-cover object-bottom` with `flex items-end` wrapper + `w-full h-auto` img. Image renders at full natural width, bottom-aligns in the fixed-height frame, and the top genuinely clips via overflow-hidden. No asset changes.
+
 ## Update 2026-03-27 ~22:30 MDT
 - Adjusted About image crop: reduced frame heights by 2rem per breakpoint (26/30/34rem) so more top is clipped, but kept the image at full width with `object-cover object-bottom` unchanged. No asset changes.
 
