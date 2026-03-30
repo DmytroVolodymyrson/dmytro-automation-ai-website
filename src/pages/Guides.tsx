@@ -37,6 +37,18 @@ const guides = [
       "AI automation consulting for Calgary businesses. Custom automations for lead follow-up, scheduling, CRM workflows, and operations. Fixed pricing, clear scope.",
     href: "/ai-automation-consultant-calgary",
   },
+  {
+    title: "AI Automation for HVAC Companies",
+    description:
+      "How AI automation helps HVAC businesses stop losing jobs to missed calls and slow follow-up. Covers call handling, scheduling, lead response, and seasonal campaigns.",
+    href: "/ai-automation-hvac",
+  },
+  {
+    title: "Hire an AI Automation Consultant vs. Agency vs. DIY",
+    description:
+      "Comparing your options for AI automation: solo consultant, agency, or doing it yourself. Honest breakdown of cost, speed, quality, and what makes sense for your business.",
+    href: "/hire-ai-automation-consultant-vs-agency",
+  },
 ];
 
 const Guides = () => {

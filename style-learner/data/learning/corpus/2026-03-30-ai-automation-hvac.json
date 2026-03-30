@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-03-30-ai-automation-hvac",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-03-30",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nBadge: HVAC Automation\nHeading: AI Automation for HVAC Companies\nBody: Stop losing jobs to missed calls and slow follow-up. Automate lead response, after-hours call handling, scheduling, and dispatch — so your team focuses on the work, not the phones.\nSub: Below: what HVAC automation looks like in practice, where the biggest wins are, and how to tell if your shop is ready.\nCTA: Book a 30-Minute Call\n\n### Where HVAC companies lose the most revenue\nIntro: Most HVAC businesses don't have a service problem — they have a response time problem. The work is there. The leads come in. But the gap between inquiry and first contact is where jobs disappear:\n- Missed after-hours calls: A homeowner's AC dies at 9 PM. They call three companies. The one that answers — or calls back first — gets the job. If that's not you, it's your competitor.\n- Slow lead follow-up: Web form submitted at 2 PM. Your team gets to it the next morning. By then the homeowner already booked someone else. Speed to lead is the single biggest factor in HVAC conversion.\n- No systematic nurture: Seasonal maintenance reminders, quote follow-ups, and reactivation of past customers — most shops know they should do it, but nobody has time. Those are jobs sitting in your CRM, waiting.\n\n### What HVAC automation actually replaces\nIntro: These are the workflows I build most often for HVAC companies. Each one starts manual and ends with a system that runs without daily attention:\n- 24/7 AI call handling: An AI voice agent answers every call — day, night, weekends, holidays. Books appointments, captures service details, and routes emergencies to on-call techs. No more voicemail black holes.\n- Instant lead response: Web form or call comes in, and the prospect gets a text and email within 60 seconds. Automated qualification asks the right questions: system type, issue, urgency, address. Your dispatcher gets a ready-to-schedule lead.\n- Scheduling and reminders: Automated booking flows that sync with your dispatch calendar. Confirmation texts, day-before reminders, and on-the-way alerts that cut no-shows and same-day cancellations.\n- Quote and estimate follow-up: Sent a quote three days ago? Automated follow-up sequences nudge the homeowner at the right intervals — no manual tracking, no forgotten quotes sitting in a spreadsheet.\n- Seasonal maintenance campaigns: Automatic reminders to your existing customer base when tune-up season hits. Segment by system type, last service date, and location. Fill your shoulder-season schedule without cold calling.\n- Review and referral automation: After every completed job, trigger a review request sequence. Happy customers get a direct link to leave a Google review. The ones who aren't happy get routed to your team first.\n\n### Signs your HVAC business is ready for automation\nIntro: You don't need to be a large operation. These patterns mean automation will have a meaningful impact on your revenue:\n- You're missing calls after hours, on weekends, or when your team is on jobs.\n- Leads sit in your inbox or CRM for hours before someone follows up.\n- You send quotes but don't have a system for follow-up beyond \"I'll call them back.\"\n- Seasonal maintenance reminders go out late, or not at all.\n- You've thought about hiring a CSR or dispatcher mainly to answer phones and chase leads.\n- Your Google reviews are good but you know you could have more if you asked consistently.\nClosing: If three or more of these sound familiar, you're probably losing jobs every month to problems automation solves overnight.\n\n### What this looks like in practice\nCase studies referenced with HVAC-relevant framing connecting voice agents, lead automation, and CRM reactivation to HVAC operations.\n\n### Hiring a consultant vs. an agency vs. doing it yourself\nComparison table adapted for HVAC context: Solo consultant ($2K–$6K, 1–3 weeks, maps actual dispatch flow) vs. Marketing agency ($5K–$25K+, 4–8 weeks, generic templates) vs. DIY (low upfront, limited by platform).\n\n### What working together looks like\nProcess: 30-minute strategy call → Scope and quote (48 hours) → Build (1–3 weeks) → Handoff and training (30-day support included).\n\n### Good fit / not a fit\nGood fit: Running 2+ trucks, getting regular inbound leads, missing calls or following up too slowly, have a CRM or dispatch tool.\nNot a fit: Just starting out, need enterprise fleet management for 50+ trucks, looking for cheapest option, need full-time in-house developer.\n\n### FAQ\n6 HVAC-specific questions covering setup timeline, tool compatibility, call routing, technical requirements, cost comparison to hiring, and small shop fit.\n\n### Final CTA\nHeading: Ready to stop losing jobs to slow follow-up?\nBody: Book a 30-minute call. We'll look at your current lead flow, identify the highest-impact first move, and you'll leave with a concrete direction — whether we work together or not.\nBooking widget embedded.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "HVAC-specific language throughout: \"trucks,\" \"dispatcher,\" \"CSR,\" \"shoulder-season,\" \"tune-up season,\" \"on-call techs\""
+    },
+    {
+      "type": "tone_shift",
+      "description": "Direct, specific claims grounded in service-business operations"
+    },
+    {
+      "type": "tone_shift",
+      "description": "FAQ answers match existing site tone: practical, no-fluff, specific timelines and costs"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Case studies reframed for HVAC relevance rather than inventing new claims"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Good fit/not a fit section is honest about boundaries — consistent with other guide pages"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-03-30T18:21:11.599Z",
+    "structure": {
+      "paragraphCount": 10,
+      "sentencesPerParagraph": [
+        4,
+        13,
+        17,
+        7,
+        1,
+        5,
+        1,
+        2,
+        1,
+        4
+      ],
+      "avgSentenceLength": 14.1,
+      "sentenceLengthRange": [
+        3,
+        30
+      ],
+      "totalWords": 774
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nBadge: HVAC Automation\nHeading: AI Automation for HVAC Companies\nBody: Stop losing jobs to missed calls and slow follow-up.",
+      "wordCount": 20,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Ready to stop losing jobs to slow follow-up?\nBody: Book a 30-minute call. We'll look at your current lead flow, identify the highest-impact first move, and you'll leave with a concrete direction — whether we work together or not.\nBooking widget embedded.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "result",
+        "context",
+        "product-pitch",
+        "context",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | result | context | product-pitch | context | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 53,
+      "commas": 50,
+      "emDashes": 8,
+      "enDashes": 5,
+      "hyphens": 15,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 29,
+      "commasPerSentence": 0.93
+    },
+    "vocabulary": {
+      "distinctWords": 393,
+      "totalWords": 774,
+      "topWords": [
+        [
+          "your",
+          16
+        ],
+        [
+          "-",
+          15
+        ],
+        [
+          "hvac",
+          11
+        ],
+        [
+          "call",
+          10
+        ],
+        [
+          "automation",
+          9
+        ],
+        [
+          "lead",
+          7
+        ],
+        [
+          "jobs",
+          6
+        ],
+        [
+          "follow-up",
+          6
+        ],
+        [
+          "not",
+          6
+        ],
+        [
+          "have",
+          6
+        ],
+        [
+          "calls",
+          5
+        ],
+        [
+          "reminders",
+          5
+        ],
+        [
+          "fit",
+          5
+        ],
+        [
+          "companies",
+          4
+        ],
+        [
+          "dispatch",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-03-30-hire-ai-automation-consultant-vs-agency",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-03-30",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nBadge: Buyer's Guide\nHeading: Hire an AI Automation Consultant vs. Agency vs. DIY\nBody: You know your business needs automation. The question is who builds it. Here's an honest comparison of your three options — with real tradeoffs, not a sales pitch.\nSub: Below: what each path actually looks like, what it costs, who it's best for, and how to decide.\nCTA: Book a 30-Minute Call\n\n### Three ways to get AI automation into your business\nIntro: Each option has genuine strengths. The right choice depends on your budget, timeline, and how much hands-on attention your automation needs:\n- Solo consultant: One person who diagnoses your workflow, builds the system, and hands it off. Direct access to the builder. Fast turnaround. Best for businesses that want a working system without the overhead of a large team.\n- Agency: A team with account managers, project managers, and specialists. Good for large, multi-discipline projects that need design, marketing, and automation all at once. Higher cost, longer timelines, more process.\n- DIY (Zapier, Make, ChatGPT): You build it yourself using no-code tools. Low upfront cost, full control. Works well for simple, single-step automations. Gets difficult fast when you need multi-step logic, error handling, or custom integrations.\n\n### Side-by-side comparison\n9-row comparison table covering: Cost, Timeline, Who builds it, Diagnosis depth, Customization, Communication, Ongoing support, Ownership, Best for.\n\n### When each option is the right call\nThree-column breakdown with specific criteria for each path. Consultant: specific workflow, direct access, $2K–$8K budget, speed. Agency: multi-discipline, $10K+ budget, formal procurement. DIY: single-step automations, experimenting, tight budget.\n\n### The costs nobody talks about\n- Agency overhead: Paying for account managers, project managers, office space. The builder might represent 30% of the bill.\n- DIY time cost: At $100/hour of your time, a 40-hour DIY project costs $4,000 in opportunity cost alone.\n- Reliability cost: Broken automations that drop leads cost real revenue. DIY breaks more, agencies use generic templates.\n- Iteration speed: Consultant turns changes in days. Agency: ticket queue. DIY: back to debugging.\n\n### What consultant-built automation looks like\nCase studies: Paris Cafe voice agent (100% after-hours calls), Instagram lead generation (50+ leads/day at $0.29), E-commerce CRM (3x follow-up capacity). Framed as \"one person, one project\" results.\n\n### How to evaluate an AI automation consultant\nGreen flags: Shows built systems, asks about workflow first, fixed pricing, direct builder access, upfront about non-fit, you own everything.\nRed flags: Promises before understanding, vague pricing, can't talk to builder, proprietary lock-in, no demos, no exit plan.\n\n### FAQ\n6 questions covering: when agency makes sense, consultant handling complex integrations, DIY limitations, evaluation criteria, post-project continuity, cost expectations.\n\n### Final CTA\nHeading: Want to talk through your options?\nBody: Book a 30-minute call. We'll look at your current workflows, figure out which automation path makes sense for your situation, and you'll leave with a clear next step — whether that involves working together or not.\nBooking widget embedded.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Deliberately fair to all three options — not a hit piece on agencies or DIY"
+    },
+    {
+      "type": "tone_shift",
+      "description": "\"Green flags / red flags\" framing instead of \"good fit / not a fit\" for variety"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Hidden costs section adds genuine value beyond the comparison table"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Evaluation criteria section positions Dmytro without explicitly selling"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Consistent with existing site tone: direct, specific, no fluff, honest about tradeoffs"
+    },
+    {
+      "type": "tone_shift",
+      "description": "FAQ answers practical concerns real buyers have during decision phase"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-03-30T18:21:11.601Z",
+    "structure": {
+      "paragraphCount": 9,
+      "sentencesPerParagraph": [
+        7,
+        12,
+        1,
+        4,
+        8,
+        2,
+        2,
+        1,
+        4
+      ],
+      "avgSentenceLength": 11.7,
+      "sentenceLengthRange": [
+        2,
+        32
+      ],
+      "totalWords": 479
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nBadge: Buyer's Guide\nHeading: Hire an AI Automation Consultant vs.",
+      "wordCount": 11,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to talk through your options?\nBody: Book a 30-minute call. We'll look at your current workflows, figure out which automation path makes sense for your situation, and you'll leave with a clear next step — whether that involves working together or not.\nBooking widget embedded.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "context",
+        "result",
+        "product-pitch",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | context | result | product-pitch | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 40,
+      "commas": 61,
+      "emDashes": 2,
+      "enDashes": 1,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 27,
+      "commasPerSentence": 1.53
+    },
+    "vocabulary": {
+      "distinctWords": 281,
+      "totalWords": 479,
+      "topWords": [
+        [
+          "your",
+          10
+        ],
+        [
+          "automation",
+          8
+        ],
+        [
+          "diy",
+          8
+        ],
+        [
+          "cost",
+          8
+        ],
+        [
+          "-",
+          7
+        ],
+        [
+          "consultant",
+          6
+        ],
+        [
+          "agency",
+          6
+        ],
+        [
+          "it",
+          5
+        ],
+        [
+          "who",
+          4
+        ],
+        [
+          "with",
+          4
+        ],
+        [
+          "each",
+          4
+        ],
+        [
+          "budget",
+          4
+        ],
+        [
+          "builder",
+          4
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "managers",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.004
+    },
+    "editSignals": {
+      "totalEdits": 6,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 6,
+      "patterns": []
+    }
+  }
+}

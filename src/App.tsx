@@ -19,6 +19,8 @@ const N8nVsZapierSmallBusiness = lazy(() => import("./pages/N8nVsZapierSmallBusi
 const AiAppointmentSetter = lazy(() => import("./pages/AiAppointmentSetter"));
 const AiLeadFollowUpForServiceBusinesses = lazy(() => import("./pages/AiLeadFollowUpForServiceBusinesses"));
 const AiAutomationConsultantCalgary = lazy(() => import("./pages/AiAutomationConsultantCalgary"));
+const AiAutomationHvac = lazy(() => import("./pages/AiAutomationHvac"));
+const HireAiAutomationConsultantVsAgency = lazy(() => import("./pages/HireAiAutomationConsultantVsAgency"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const queryClient = new QueryClient();
@@ -66,6 +68,14 @@ const App = () => (
             <Route
               path="/ai-automation-consultant-calgary"
               element={<AiAutomationConsultantCalgary />}
+            />
+            <Route
+              path="/ai-automation-hvac"
+              element={<AiAutomationHvac />}
+            />
+            <Route
+              path="/hire-ai-automation-consultant-vs-agency"
+              element={<HireAiAutomationConsultantVsAgency />}
             />
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/terms" element={<TermsOfService />} />
