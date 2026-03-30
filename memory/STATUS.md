@@ -2,6 +2,14 @@
 
 **Last updated:** 2026-03-30 12:08 PM MDT
 
+## Update 2026-03-30 16:xx MDT
+- Analyzed a new marketing direction: whether to extend the website from GEO into bounded programmatic SEO.
+- Saved a planning doc at `docs/plans/2026-03-30-programmatic-seo-growth-plan.md`.
+- Main decision: do **not** create a separate standalone project/repo yet. Keep this inside `dmytroai-website` and manage execution as a website-growth initiative in Paperclip.
+- Recommended approach: GEO stays the trust/citation layer; programmatic SEO becomes a bounded high-intent capture layer.
+- Guardrail: start with a 20-30 page pilot max, use only proof-backed patterns, and require human review to avoid thin-page spam.
+- Next step when resuming: create the Paperclip issue epic + first issue set from the plan, then choose the first 3 pilot pages to draft manually.
+
 ## Update 2026-03-30 12:08 MDT
 - Repository synchronization check completed.
 - Local `main` and `origin/main` matched exactly before this status sync (`fed6e3f`), with ahead/behind = `0/0`.
