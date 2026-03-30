@@ -37,7 +37,7 @@ const faqItems = [
   {
     question: "Our database is old — most of these contacts are probably dead leads.",
     answer:
-      "That's actually the norm. In a typical HVAC reactivation campaign, 60-70% of contacts won't respond, and that's fine. The economics work because the 15-25% who do respond are already pre-qualified — they've used your services before or asked for a quote. Even a small percentage of a large list produces meaningful revenue because you're not paying to acquire these leads again.",
+      "That's actually the norm. In any reactivation campaign, the majority of contacts won't respond — and that's fine. The economics work because the ones who do respond are already pre-qualified — they've used your services before or asked for a quote. Even a small percentage of a large list produces meaningful revenue because you're not paying to acquire these leads again.",
   },
   {
     question: "We don't want to annoy people who haven't heard from us in years.",
@@ -57,12 +57,12 @@ const faqItems = [
   {
     question: "How quickly do we see results?",
     answer:
-      "Most campaigns start generating responses within 48 hours of the first outreach wave. Booked jobs typically follow within the first week. A full reactivation cycle across your database takes 3-6 weeks depending on list size, but revenue starts flowing almost immediately.",
+      "Most campaigns start generating responses within the first few days of outreach. Booked jobs typically follow shortly after. A full reactivation cycle across your database can take several weeks depending on list size, but revenue starts flowing early in the process.",
   },
   {
     question: "What does this cost compared to running ads?",
     answer:
-      "A reactivation campaign is a one-time build with no ongoing ad spend. Compare that to $50-$150 per lead from Google Ads in competitive HVAC markets. Since these contacts already know your company, conversion rates are significantly higher than cold traffic. Most operators see 5-10x return on the build cost within the first campaign cycle.",
+      "A reactivation campaign is a one-time build with no ongoing ad spend. Compare that to the cost per lead from Google Ads in competitive HVAC markets, which can be substantial. Since these contacts already know your company, conversion rates tend to be higher than cold traffic. Most operators see a strong return relative to the build cost.",
   },
 ];
 
@@ -418,7 +418,7 @@ const HvacDatabaseReactivation = () => {
               {
                 icon: Clock,
                 title: "Revenue in days, not months",
-                body: "Unlike SEO or brand campaigns, reactivation produces responses within 48 hours. Booked jobs follow within the first week. This isn't a long game.",
+                body: "Unlike SEO or brand campaigns, reactivation produces responses quickly — often within the first few days. This isn't a long game.",
               },
               {
                 icon: Send,
@@ -474,8 +474,8 @@ const HvacDatabaseReactivation = () => {
                 label: "CRM Reactivation Build",
               },
               {
-                headline: "Automated outreach at $0.29 per qualified response",
-                body: "An automated lead pipeline replaced manual prospecting, delivering 50+ qualified contacts per day with personalized outreach sequences. The same sequencing infrastructure — timed messages, qualification filters, automated follow-up — powers HVAC database reactivation.",
+                headline: "Automated outreach replacing manual prospecting",
+                body: "An automated lead pipeline replaced manual prospecting, delivering a steady stream of qualified contacts daily with personalized outreach sequences. The same sequencing infrastructure — timed messages, qualification filters, automated follow-up — powers HVAC database reactivation.",
                 link: "/case-studies/instagram-lead-generation",
                 label: "Automated Outreach Pipeline",
               },

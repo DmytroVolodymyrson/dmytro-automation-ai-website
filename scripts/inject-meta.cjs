@@ -153,6 +153,45 @@ const ROUTES = [
     ogUrl: `${SITE}/case-studies/ecommerce-crm-automation`,
   },
   {
+    path: "/ai-automation-hvac",
+    title: "AI Automation for HVAC Companies | Dmytro AI",
+    description:
+      "AI automation for HVAC companies. Automate lead follow-up, after-hours calls, scheduling, and dispatch so you stop losing jobs to slow response times.",
+    canonical: `${SITE}/ai-automation-hvac`,
+    ogTitle: "AI Automation for HVAC Companies | Dmytro AI",
+    ogDescription:
+      "Stop losing HVAC jobs to slow follow-up. AI automation for calls, scheduling, and lead management.",
+    ogType: "article",
+    ogUrl: `${SITE}/ai-automation-hvac`,
+  },
+  {
+    path: "/hire-ai-automation-consultant-vs-agency",
+    title: "Hire an AI Automation Consultant vs. Agency vs. DIY | Dmytro AI",
+    description:
+      "Comparing your options for AI automation: solo consultant, agency, or DIY. Honest breakdown of cost, speed, quality, and what makes sense for your business.",
+    canonical: `${SITE}/hire-ai-automation-consultant-vs-agency`,
+    ogTitle:
+      "Hire an AI Automation Consultant vs. Agency vs. DIY | Dmytro AI",
+    ogDescription:
+      "Should you hire a consultant, an agency, or do it yourself? Honest comparison for business owners exploring AI automation.",
+    ogType: "article",
+    ogUrl: `${SITE}/hire-ai-automation-consultant-vs-agency`,
+  },
+  {
+    path: "/hvac-database-reactivation",
+    title:
+      "HVAC Database Reactivation | Turn Old Leads Into Booked Jobs | Dmytro AI",
+    description:
+      "Reactivate your HVAC database — old estimates, past customers, and dormant leads. No new ad spend. Done-for-you system that turns contacts you already paid for into booked jobs.",
+    canonical: `${SITE}/hvac-database-reactivation`,
+    ogTitle:
+      "HVAC Database Reactivation | Turn Old Leads Into Booked Jobs",
+    ogDescription:
+      "You already paid for these leads. A done-for-you reactivation system turns dormant HVAC contacts into booked jobs — no new ad spend required.",
+    ogType: "website",
+    ogUrl: `${SITE}/hvac-database-reactivation`,
+  },
+  {
     path: "/privacy",
     title: "Privacy Policy | Dmytro AI",
     description:
