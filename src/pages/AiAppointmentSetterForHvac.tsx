@@ -473,13 +473,13 @@ const AiAppointmentSetterForHvac = () => {
               {
                 industry: "Info Business",
                 headline: "Automated lead-to-appointment pipeline",
-                body: "50+ leads per day flowing through an automated qualification and routing system. For HVAC, the same pipeline takes an inbound call or form submission and turns it into a booked, confirmed appointment in minutes.",
+                body: "High-volume leads flowing through an automated qualification and routing system. For HVAC, the same pipeline takes an inbound call or form submission and turns it into a booked, confirmed appointment in minutes.",
                 link: "/case-studies/instagram-lead-generation",
               },
               {
                 industry: "E-commerce",
                 headline: "Systematic follow-up at scale",
-                body: "5,600+ contacts organized with automated sequences. The same CRM automation that powers follow-up drives appointment confirmations, reminders, and rescheduling for HVAC companies at scale.",
+                body: "Thousands of contacts organized with automated sequences. The same CRM automation that powers follow-up drives appointment confirmations, reminders, and rescheduling for HVAC companies at scale.",
                 link: "/case-studies/ecommerce-crm-automation",
               },
             ].map((cs, i) => (

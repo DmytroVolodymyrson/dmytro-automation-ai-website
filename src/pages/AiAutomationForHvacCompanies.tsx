@@ -474,14 +474,14 @@ const AiAutomationForHvacCompanies = () => {
               },
               {
                 industry: "Info Business",
-                headline: "50+ qualified leads per day",
-                body: "Manual prospecting took hours and produced a handful of leads. An automated pipeline now discovers, qualifies, and delivers leads daily. The same lead qualification logic helps HVAC companies route the right jobs to the right techs instantly.",
+                headline: "Automated qualification at scale",
+                body: "Manual prospecting couldn't keep pace with demand. An automated pipeline now discovers, qualifies, and delivers leads daily without manual work. The same qualification logic helps HVAC companies route the right jobs to the right techs instantly.",
                 link: "/case-studies/instagram-lead-generation",
               },
               {
                 industry: "E-commerce",
-                headline: "3x follow-up capacity",
-                body: "5,600+ leads sitting in spreadsheets with no outreach. A full CRM build with automated sequences organized every contact and tripled capacity. HVAC companies with years of past customers see similar results from reactivation campaigns.",
+                headline: "Thousands of leads organized and activated",
+                body: "Thousands of leads sitting in spreadsheets with no outreach. A full CRM build with automated sequences organized every contact and dramatically increased follow-up capacity. HVAC companies with years of past customers see similar results from reactivation campaigns.",
                 link: "/case-studies/ecommerce-crm-automation",
               },
             ].map((cs, i) => (
