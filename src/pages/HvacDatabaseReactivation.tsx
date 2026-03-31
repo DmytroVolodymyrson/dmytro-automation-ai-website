@@ -35,14 +35,14 @@ const scrollToBooking = () => {
 /* ------------------------------------------------------------------ */
 const faqItems = [
   {
-    question: "Our database is old — most of these contacts are probably dead leads.",
+    question: "Our database is old. Most of these contacts are probably dead leads.",
     answer:
-      "That's actually the norm. In any reactivation campaign, the majority of contacts won't respond — and that's fine. The economics work because the ones who do respond are already pre-qualified — they've used your services before or asked for a quote. Even a small percentage of a large list produces meaningful revenue because you're not paying to acquire these leads again.",
+      "That's actually the norm. In any reactivation campaign, the majority of contacts won't respond, and that's fine. The economics work because the ones who do respond are already pre-qualified: they've used your services before or asked for a quote. Even a small percentage of a large list produces meaningful revenue because you're not paying to acquire these leads again.",
   },
   {
     question: "We don't want to annoy people who haven't heard from us in years.",
     answer:
-      "The messaging isn't pushy or sales-heavy. It's framed as a check-in: seasonal maintenance reminder, warranty follow-up, or a simple 'still need that quote?' The tone is helpful, not aggressive. People who aren't interested simply don't reply — they don't get blasted with 10 follow-ups. And the ones who do reply are often relieved someone reached out because they've been meaning to schedule service.",
+      "The messaging isn't pushy or sales-heavy. It's framed as a check-in: seasonal maintenance reminder, warranty follow-up, or a simple 'still need that quote?' The tone is helpful, not aggressive. People who aren't interested simply don't reply. No one gets blasted with 10 follow-ups. And the ones who do reply are often relieved someone reached out because they've been meaning to schedule service.",
   },
   {
     question: "How much of our team's time does this take to run?",
@@ -50,19 +50,19 @@ const faqItems = [
       "After setup, close to zero. The system handles sequencing, timing, and follow-up automatically. Your team only gets involved when a lead responds and is ready to book. No manual texting, no spreadsheet tracking, no 'who was supposed to call this person back?' conversations.",
   },
   {
-    question: "What if our CRM data is messy — duplicates, missing info, bad numbers?",
+    question: "What if our CRM data is messy? Duplicates, missing info, bad numbers?",
     answer:
-      "I clean and deduplicate your list before anything goes out. Bad phone numbers get flagged, duplicates get merged, and contacts are segmented by type (past customer vs. old estimate) so messaging is relevant. You don't need a perfect CRM to start — most HVAC companies don't have one.",
+      "I clean and deduplicate your list before anything goes out. Bad phone numbers get flagged, duplicates get merged, and contacts are segmented by type (past customer vs. old estimate) so messaging is relevant. You don't need a perfect CRM to start. Most HVAC companies don't have one.",
   },
   {
     question: "How quickly do we see results?",
     answer:
-      "Most campaigns start generating responses within the first few days of outreach. Booked jobs typically follow shortly after. A full reactivation cycle across your database can take several weeks depending on list size, but revenue starts flowing early in the process.",
+      "Timelines vary by list size and segment, but responses typically start coming in once the first wave of outreach lands. A full reactivation cycle can take several weeks depending on how large your database is.",
   },
   {
     question: "What does this cost compared to running ads?",
     answer:
-      "A reactivation campaign is a one-time build with no ongoing ad spend. Compare that to the cost per lead from Google Ads in competitive HVAC markets, which can be substantial. Since these contacts already know your company, conversion rates tend to be higher than cold traffic. Most operators see a strong return relative to the build cost.",
+      "A reactivation campaign is a one-time build with no ongoing ad spend. Compare that to the recurring cost per lead from Google Ads in competitive HVAC markets. Since these contacts already know your company, you're not paying to earn their attention a second time.",
   },
 ];
 
@@ -106,7 +106,7 @@ const HvacDatabaseReactivation = () => {
         <title>HVAC Database Reactivation | Turn Old Leads Into Booked Jobs | Dmytro AI</title>
         <meta
           name="description"
-          content="Reactivate your HVAC database — old estimates, past customers, and dormant leads. No new ad spend. Done-for-you system that turns contacts you already paid for into booked jobs."
+          content="Reactivate your HVAC database: old estimates, past customers, and dormant leads. No new ad spend. Done-for-you system that turns contacts you already paid for into booked jobs."
         />
         <link
           rel="canonical"
@@ -118,7 +118,7 @@ const HvacDatabaseReactivation = () => {
         />
         <meta
           property="og:description"
-          content="You already paid for these leads. A done-for-you reactivation system turns dormant HVAC contacts into booked jobs — no new ad spend required."
+          content="You already paid for these leads. A done-for-you reactivation system turns dormant HVAC contacts into booked jobs. No new ad spend required."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -186,9 +186,9 @@ const HvacDatabaseReactivation = () => {
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-4">
                 Your CRM is full of old estimates, past customers, and leads that
-                went cold. Every one of them already knows your company. A
-                done-for-you reactivation system reaches out, re-engages, and
-                books jobs — no new ad spend required.
+                went cold. They already know your company. A done-for-you
+                reactivation system reaches out, re-engages, and books the ones
+                who are ready. No new ad spend.
               </p>
               <p className="text-base text-muted-foreground leading-relaxed mb-8">
                 Built for residential HVAC companies with 500+ contacts
@@ -200,7 +200,7 @@ const HvacDatabaseReactivation = () => {
                 onClick={scrollToBooking}
                 className="group bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
               >
-                Book a Call — See What's in Your Database
+                Book a Free Database Review Call
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </motion.div>
@@ -210,11 +210,11 @@ const HvacDatabaseReactivation = () => {
         {/* ── Problem: money sitting in the CRM ────────────────── */}
         <Section className="bg-secondary/30">
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
-            The revenue you're ignoring is already in your system
+            There's revenue sitting untouched in your CRM
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
             Every HVAC company has the same problem: a database full of contacts
-            that nobody is working. Not because the leads are bad — because
+            that nobody is working. Not because the leads are bad, but because
             nobody has time.
           </p>
           <div className="grid gap-6 md:grid-cols-3">
@@ -222,17 +222,17 @@ const HvacDatabaseReactivation = () => {
               {
                 icon: FileText,
                 title: "Estimates that never closed",
-                body: "You sent a quote six months ago. The homeowner said 'let me think about it' and you never heard back. That estimate is still sitting in your CRM. Many of them still need the work done — they just need a reason to re-engage.",
+                body: "You sent a quote six months ago. The homeowner said 'let me think about it' and you never heard back. That estimate is still sitting in your CRM. Many of them still need the work done. They just need a reason to re-engage.",
               },
               {
                 icon: Users,
                 title: "Past customers who haven't called",
-                body: "You installed their system two years ago. They haven't scheduled maintenance since. They're not unhappy — they just forgot. A well-timed reminder turns a dormant customer into a recurring revenue source.",
+                body: "You installed their system two years ago. They haven't scheduled maintenance since. They're not unhappy. They just forgot. A well-timed reminder turns a dormant customer into a recurring revenue source.",
               },
               {
                 icon: Phone,
                 title: "Leads that went cold",
-                body: "Someone called, asked about pricing, and never booked. Your team moved on. But circumstances change — budgets free up, systems break down, seasons turn. The lead that said no in March might say yes in September.",
+                body: "Someone called, asked about pricing, and never booked. Your team moved on. But circumstances change: budgets free up, systems break down, seasons turn. The lead that said no in March might say yes in September.",
               },
             ].map((item, i) => (
               <motion.div
@@ -324,7 +324,7 @@ const HvacDatabaseReactivation = () => {
                 {[
                   "Seasonal maintenance reminders based on last service date",
                   "System age check-ins for equipment approaching end of life",
-                  "\"It's been [X months] since your last tune-up\" — personalized, not mass-blast",
+                  "\"It's been [X months] since your last tune-up\" (personalized, not mass-blast)",
                   "Exclusive past-customer offers to incentivize booking",
                 ].map((item, i) => (
                   <li
@@ -354,12 +354,12 @@ const HvacDatabaseReactivation = () => {
               {
                 step: "1",
                 title: "Export and clean your database",
-                body: "I pull your contact list from whatever system you use — ServiceTitan, Housecall Pro, Jobber, GoHighLevel, even spreadsheets. Duplicates get merged, bad numbers get flagged, and contacts are segmented into the two buckets: old estimates and past customers.",
+                body: "I pull your contact list from whatever system you use: ServiceTitan, Housecall Pro, Jobber, GoHighLevel, even spreadsheets. Duplicates get merged, bad numbers get flagged, and contacts are segmented into the two buckets: old estimates and past customers.",
               },
               {
                 step: "2",
                 title: "Build targeted outreach sequences",
-                body: "Each bucket gets its own messaging. Old estimates get a direct check-in about their specific quote. Past customers get a seasonal or maintenance-based angle. Messages go out via text and email in a natural cadence — not all at once.",
+                body: "Each bucket gets its own messaging. Old estimates get a direct check-in about their specific quote. Past customers get a seasonal or maintenance-based angle. Messages go out via text and email in a natural cadence, not all at once.",
               },
               {
                 step: "3",
@@ -413,22 +413,22 @@ const HvacDatabaseReactivation = () => {
               {
                 icon: DollarSign,
                 title: "Zero ad spend",
-                body: "You already paid to acquire these contacts. Reactivation works them — no new cost per lead.",
+                body: "You already paid to acquire these contacts. Reactivation works them without any new cost per lead.",
               },
               {
                 icon: Clock,
-                title: "Revenue in days, not months",
-                body: "Responses typically start within the first few days of outreach. Not a long game like SEO or brand campaigns.",
+                title: "Faster than new lead generation",
+                body: "You're reaching people who already know you. No audience building, no brand awareness phase, no waiting for SEO to compound.",
               },
               {
                 icon: Send,
                 title: "One-time build, no retainer",
-                body: "This is a project, not a subscription. Run it once, or set it to run continuously — your call.",
+                body: "This is a project, not a subscription. Run it once, or set it to run continuously. Your call.",
               },
               {
                 icon: Database,
                 title: "Warm contacts, not cold calls",
-                body: "These people already chose your company. Trust exists. That's why reactivation converts better than cold traffic.",
+                body: "These people already chose your company once. Existing trust means they're more likely to respond than a stranger seeing your Google ad.",
               },
             ].map((item, i) => (
               <motion.div
@@ -515,7 +515,7 @@ const HvacDatabaseReactivation = () => {
                 {[
                   "You're a brand-new company with fewer than 100 contacts total",
                   "You do exclusively commercial/industrial HVAC with long procurement cycles",
-                  "Your database is truly empty — no CRM, no records, no spreadsheets",
+                  "Your database is truly empty: no CRM, no records, no spreadsheets",
                   "You're looking for new lead generation, not reactivation of existing contacts",
                   "You need a full marketing overhaul, not a targeted campaign",
                 ].map((item, i) => (
@@ -608,9 +608,9 @@ const HvacDatabaseReactivation = () => {
                 Find out what's sitting in your database
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-2">
-                Book a 30-minute call. I'll review your contact list, estimate
-                the reactivation opportunity, and walk you through exactly what
-                a campaign would look like — whether we work together or not.
+                Book a 30-minute call. I'll look at your contact list, tell you
+                what's worth reactivating, and walk you through what a campaign
+                would look like. No obligation.
               </p>
             </motion.div>
 
@@ -623,7 +623,7 @@ const HvacDatabaseReactivation = () => {
             >
               {[
                 { icon: Clock, text: "30-minute database review call" },
-                { icon: MessageSquare, text: "See your reactivation opportunity" },
+                { icon: MessageSquare, text: "Honest assessment of your list" },
                 { icon: ArrowRight, text: "Leave with a plan, not a pitch" },
               ].map((item, i) => (
                 <div

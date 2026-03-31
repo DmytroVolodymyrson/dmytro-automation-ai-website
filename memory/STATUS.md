@@ -1,6 +1,21 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-03-30 12:08 PM MDT
+**Last updated:** 2026-03-30 11:05 PM MDT
+
+## Update 2026-03-30 23:05 MDT
+- Completed autoresearch pass 01 on `src/pages/HvacDatabaseReactivation.tsx`.
+- Goal of the pass: make the page sharper for paid HVAC database-reactivation traffic without adding hype or unsupported proof.
+- Main copy changes:
+  - CTA tightened from a generic database prompt to `Book a Free Database Review Call`
+  - hero/body copy made more ad-specific and less broad-service sounding
+  - accusatory phrasing like "the revenue you're ignoring" was softened
+  - timing/performance claims in the page and FAQ were reduced to more supportable language
+  - user-facing em dashes were removed from the page copy for cleaner commercial tone
+- Verification:
+  - `npm run build` passes after the edit
+  - final page remains clearly separate from the broader `/ai-automation-hvac` page
+- Current judgment: this is a keepable pass because trust improved and the page now feels more like a paid offer page than a general HVAC automation explainer.
+- Likely next pass: improve trust/proof framing and sharpen the distinction between old estimates vs past customers even further.
 
 ## Update 2026-03-30 16:20 MDT
 - The website is now the intended Discord continuation point for this work via `#dmytroai-website`, not the generic `#paperclip-ing` channel.
