@@ -526,7 +526,7 @@ const HvacDatabaseReactivation = () => {
           <p className="text-sm text-muted-foreground mt-8">
             Need more than reactivation?{" "}
             <Link
-              to="/ai-automation-hvac"
+              to="/ai-automation-for-hvac-companies"
               className="font-medium text-primary hover:text-primary/80 transition-colors"
             >
               See all HVAC automation services

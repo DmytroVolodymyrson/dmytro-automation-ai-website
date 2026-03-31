@@ -512,13 +512,6 @@ const AiAppointmentSetterForHvac = () => {
           </div>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
-              to="/ai-automation-hvac"
-              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
-            >
-              Full HVAC automation services
-              <ArrowRight className="w-4 h-4" />
-            </Link>
-            <Link
               to="/ai-automation-for-hvac-companies"
               className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
             >

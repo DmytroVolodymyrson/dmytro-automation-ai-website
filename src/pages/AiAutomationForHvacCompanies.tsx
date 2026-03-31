@@ -514,13 +514,6 @@ const AiAutomationForHvacCompanies = () => {
           </div>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
-              to="/ai-automation-hvac"
-              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
-            >
-              HVAC automation services
-              <ArrowRight className="w-4 h-4" />
-            </Link>
-            <Link
               to="/hvac-lead-follow-up-automation"
               className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
             >

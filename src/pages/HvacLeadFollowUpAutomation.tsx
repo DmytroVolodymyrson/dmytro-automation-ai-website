@@ -221,7 +221,7 @@ const HvacLeadFollowUpAutomation = () => {
               {
                 icon: Timer,
                 title: "The 5-minute window",
-                body: "Research consistently shows that contacting a lead within 5 minutes makes you 5 to 10 times more likely to convert them. After 30 minutes, your odds drop dramatically. Most HVAC companies take hours — or the next business day.",
+                body: "Research consistently shows that contacting a lead within 5 minutes significantly increases your chances of converting them compared to waiting an hour or more. After 30 minutes, your odds drop considerably. Most HVAC companies take hours — or the next business day.",
               },
               {
                 icon: Phone,
@@ -405,14 +405,14 @@ const HvacLeadFollowUpAutomation = () => {
               },
               {
                 industry: "Info Business",
-                headline: "50+ qualified leads per day at $0.29 each",
-                body: "Manual follow-up couldn't keep pace with volume. Automated qualification and routing now handles the intake. HVAC companies with 5 to 20 leads per day see the same capacity boost from automated qualification.",
+                headline: "Automated qualification at scale",
+                body: "Manual follow-up couldn't keep pace with volume. Automated qualification and routing now handles the intake. The same approach helps HVAC companies process inbound leads faster without adding headcount.",
                 link: "/case-studies/instagram-lead-generation",
               },
               {
                 industry: "E-commerce",
-                headline: "5,600+ leads organized and activated",
-                body: "Thousands of leads sitting in spreadsheets with no follow-up. Automated sequences tripled outreach capacity. HVAC shops with years of unsold estimates and past customers see similar recoveries.",
+                headline: "Thousands of leads organized and activated",
+                body: "Thousands of leads sitting in spreadsheets with no follow-up. Automated sequences dramatically increased outreach capacity. HVAC shops with years of unsold estimates and past customers can apply the same reactivation approach.",
                 link: "/case-studies/ecommerce-crm-automation",
               },
             ].map((cs, i) => (
@@ -444,13 +444,6 @@ const HvacLeadFollowUpAutomation = () => {
             ))}
           </div>
           <div className="mt-8 flex flex-wrap gap-4">
-            <Link
-              to="/ai-automation-hvac"
-              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
-            >
-              Full HVAC automation services
-              <ArrowRight className="w-4 h-4" />
-            </Link>
             <Link
               to="/ai-automation-for-hvac-companies"
               className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"

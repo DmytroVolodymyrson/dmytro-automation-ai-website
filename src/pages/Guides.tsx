@@ -38,10 +38,10 @@ const guides = [
     href: "/ai-automation-consultant-calgary",
   },
   {
-    title: "HVAC Automation Services",
+    title: "AI Automation for HVAC Companies",
     description:
-      "AI automation services for HVAC businesses — call handling, scheduling, lead response, and seasonal campaigns. See what a custom build looks like.",
-    href: "/ai-automation-hvac",
+      "Honest overview of AI automation for HVAC — what works today, what's overhyped, common starting points, and realistic ROI expectations.",
+    href: "/ai-automation-for-hvac-companies",
   },
   {
     title: "Hire an AI Automation Consultant vs. Agency vs. DIY",
@@ -54,12 +54,6 @@ const guides = [
     description:
       "How HVAC companies use AI-powered database reactivation to re-engage past customers and cold leads. Turn dormant contacts into booked jobs with automated outreach.",
     href: "/hvac-database-reactivation",
-  },
-  {
-    title: "AI Automation for HVAC Companies — What's Real",
-    description:
-      "What AI automation actually means for HVAC businesses. Real use cases vs hype, common starting points, and honest ROI expectations.",
-    href: "/ai-automation-for-hvac-companies",
   },
   {
     title: "HVAC Lead Follow-Up Automation",

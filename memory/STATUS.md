@@ -1,6 +1,21 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-03-31 08:24 AM MDT
+**Last updated:** 2026-03-31 14:58 MDT
+
+## Update 2026-03-31 14:58 MDT
+- Heartbeat auto-commit caught a dirty website repo after the AI-first routing upgrade pass.
+- Uncommitted changes were present in:
+  - `public/llms.txt`
+  - `public/sitemap.xml`
+  - `src/App.tsx`
+  - `src/pages/AiAppointmentSetterForHvac.tsx`
+  - `src/pages/AiAutomationForHvacCompanies.tsx`
+  - `src/pages/Guides.tsx`
+  - `src/pages/HvacDatabaseReactivation.tsx`
+  - `src/pages/HvacLeadFollowUpAutomation.tsx`
+  - `src/pages/HvacMissedCallTextBack.tsx`
+  - deletion of `src/pages/AiAutomationHvac.tsx`
+- This heartbeat sync is only preserving repo state so the project does not stay dirty. It does not by itself verify or describe all product-level effects of those page/routing changes.
 
 ## Update 2026-03-31 08:24 MDT
 - Completed autoresearch pass 03 on `src/pages/HvacDatabaseReactivation.tsx`.
