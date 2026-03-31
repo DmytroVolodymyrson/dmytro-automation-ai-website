@@ -62,7 +62,7 @@ const faqItems = [
   {
     question: "What does this cost compared to running ads?",
     answer:
-      "A reactivation campaign is a one-time build with no ongoing ad spend. Compare that to the recurring cost per lead from Google Ads in competitive HVAC markets. Since these contacts already know your company, you're not paying to earn their attention a second time.",
+      "A reactivation campaign is a one-time build with no ongoing ad spend. You're working contacts you already paid to acquire, so there's no new cost per lead. Whether it outperforms your current ad spend depends on your list size and quality, which is something we can assess on the call.",
   },
 ];
 
@@ -210,12 +210,12 @@ const HvacDatabaseReactivation = () => {
         {/* ── Problem: money sitting in the CRM ────────────────── */}
         <Section className="bg-secondary/30">
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
-            There's revenue sitting untouched in your CRM
+            There are probably bookable jobs sitting in your CRM
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
-            Every HVAC company has the same problem: a database full of contacts
-            that nobody is working. Not because the leads are bad, but because
-            nobody has time.
+            Most HVAC companies have the same pattern: a database full of
+            contacts that nobody is working. Not because the leads are bad, but
+            because nobody has time. Some of those contacts still need work done.
           </p>
           <div className="grid gap-6 md:grid-cols-3">
             {[
@@ -290,7 +290,7 @@ const HvacDatabaseReactivation = () => {
                   "\"Hi [Name], we quoted your [system type] replacement back in [month]. Still on your radar?\"",
                   "Timed follow-up sequence if no response",
                   "Books directly to your calendar when they say yes",
-                  "Flags high-value estimates for priority outreach",
+                  "Segments by estimate size so your team knows where to focus",
                 ].map((item, i) => (
                   <li
                     key={i}
@@ -325,7 +325,7 @@ const HvacDatabaseReactivation = () => {
                   "Seasonal maintenance reminders based on last service date",
                   "System age check-ins for equipment approaching end of life",
                   "\"It's been [X months] since your last tune-up\" (personalized, not mass-blast)",
-                  "Exclusive past-customer offers to incentivize booking",
+                  "Re-engagement messaging that gives them a reason to book now",
                 ].map((item, i) => (
                   <li
                     key={i}
@@ -428,7 +428,7 @@ const HvacDatabaseReactivation = () => {
               {
                 icon: Database,
                 title: "Warm contacts, not cold calls",
-                body: "These people already chose your company once. Existing trust means they're more likely to respond than a stranger seeing your Google ad.",
+                body: "Past customers already trust your work. Old estimates already know your name. Either way, you're reaching people with context, not strangers seeing your Google ad for the first time.",
               },
             ].map((item, i) => (
               <motion.div
@@ -608,9 +608,10 @@ const HvacDatabaseReactivation = () => {
                 Find out what's sitting in your database
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-2">
-                Book a 30-minute call. I'll look at your contact list, tell you
-                what's worth reactivating, and walk you through what a campaign
-                would look like. No obligation.
+                Book a 30-minute call. I'll ask about your database, help you
+                estimate what's worth reactivating, and explain how a campaign
+                would work for your specific list. No pitch, no pressure. If
+                reactivation isn't a good fit, I'll tell you.
               </p>
             </motion.div>
 

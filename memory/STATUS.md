@@ -1,6 +1,20 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-03-30 11:05 PM MDT
+**Last updated:** 2026-03-30 11:12 PM MDT
+
+## Update 2026-03-30 23:12 MDT
+- Completed autoresearch pass 02 on `src/pages/HvacDatabaseReactivation.tsx`.
+- Goal of the pass: improve trust/proof framing without inventing proof.
+- Main copy changes:
+  - softened absolute claims like "every HVAC company" and "revenue sitting in your CRM"
+  - clarified the difference between old estimates and past customers in the trust/risk framing
+  - removed implied capabilities like discount creation / smart high-value flagging where the mechanism was not explicit
+  - improved the final CTA risk reversal with more honest language: if reactivation is not a fit, say so
+  - cost-vs-ads FAQ now frames the comparison as something to assess based on list size and quality, not an implied universal win
+- Verification:
+  - `npm run build` passes after the edit
+- Current judgment: keep. This pass improves credibility and objection handling without making the page weaker or broader.
+- Likely next pass: decide whether to stop here or do one final structural pass that makes the two buckets even more visually and strategically distinct.
 
 ## Update 2026-03-30 23:05 MDT
 - Completed autoresearch pass 01 on `src/pages/HvacDatabaseReactivation.tsx`.
