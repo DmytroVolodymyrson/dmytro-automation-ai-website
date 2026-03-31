@@ -1,6 +1,20 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-03-30 11:12 PM MDT
+**Last updated:** 2026-03-31 08:24 AM MDT
+
+## Update 2026-03-31 08:24 MDT
+- Completed autoresearch pass 03 on `src/pages/HvacDatabaseReactivation.tsx`.
+- Goal of the pass: improve structural scannability for paid traffic while preserving the calmer trust framing from pass 02.
+- Main structural changes:
+  - made the two revenue buckets more visually distinct with separate labels, color treatment, and one-line strategic summaries
+  - renamed the bucket headings to be more descriptive for skimmers
+  - demoted the broader `/ai-automation-hvac` cross-link from its own section into a small inline note under the fit section
+  - reduced section competition so the page stays more focused on the paid-offer CTA
+- Verification:
+  - `npm run build` passes after the edit
+- Current judgment: keep. This pass improves offer clarity, intent separation, and scannability without adding bloat.
+- Current state of the page after 3 passes: sharper paid message match, more honest trust framing, and better scan structure.
+- Recommended next move: pause page iteration and switch to either ad-message alignment or proof-asset collection, unless a live test shows a specific weak section.
 
 ## Update 2026-03-30 23:12 MDT
 - Completed autoresearch pass 02 on `src/pages/HvacDatabaseReactivation.tsx`.

@@ -274,15 +274,21 @@ const HvacDatabaseReactivation = () => {
               transition={{ duration: 0.4 }}
               className="rounded-2xl border border-primary/20 bg-primary/5 p-6"
             >
-              <div className="w-11 h-11 rounded-xl bg-primary/10 border border-primary/15 flex items-center justify-center mb-4">
+              <span className="text-xs font-semibold text-primary uppercase tracking-wide">
+                Revenue recovery
+              </span>
+              <div className="w-11 h-11 rounded-xl bg-primary/10 border border-primary/15 flex items-center justify-center mt-3 mb-4">
                 <DollarSign className="w-5 h-5 text-primary" />
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-3">
-                Bucket 1: Old estimates
+              <h3 className="text-xl font-bold text-foreground mb-1">
+                Old estimates that never closed
               </h3>
+              <p className="text-sm font-medium text-primary/80 mb-3">
+                They already asked for a quote. Reopen the conversation.
+              </p>
               <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                These contacts already expressed intent. They asked for a quote,
-                got one, and didn't close. The system reaches out with a simple
+                These contacts expressed intent. They asked for a price,
+                got one, and went quiet. The system reaches out with a simple
                 check-in:
               </p>
               <ul className="space-y-2">
@@ -307,18 +313,23 @@ const HvacDatabaseReactivation = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.08, duration: 0.4 }}
-              className="rounded-2xl border border-primary/20 bg-primary/5 p-6"
+              className="rounded-2xl border border-cyan-500/20 bg-cyan-500/5 p-6"
             >
-              <div className="w-11 h-11 rounded-xl bg-primary/10 border border-primary/15 flex items-center justify-center mb-4">
-                <RefreshCw className="w-5 h-5 text-primary" />
+              <span className="text-xs font-semibold text-cyan-600 uppercase tracking-wide">
+                Recurring revenue
+              </span>
+              <div className="w-11 h-11 rounded-xl bg-cyan-500/10 border border-cyan-500/15 flex items-center justify-center mt-3 mb-4">
+                <RefreshCw className="w-5 h-5 text-cyan-600" />
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-3">
-                Bucket 2: Past customers
+              <h3 className="text-xl font-bold text-foreground mb-1">
+                Past customers who haven't called back
               </h3>
+              <p className="text-sm font-medium text-cyan-600/80 mb-3">
+                They already trust your work. Remind them you exist.
+              </p>
               <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                People who already trust your work. They just haven't thought
-                about their HVAC system since the last visit. The system brings
-                them back:
+                They're not unhappy. They just forgot about their HVAC system
+                since the last visit. The system brings them back:
               </p>
               <ul className="space-y-2">
                 {[
@@ -331,7 +342,7 @@ const HvacDatabaseReactivation = () => {
                     key={i}
                     className="flex items-start gap-2 text-sm text-muted-foreground leading-relaxed"
                   >
-                    <CheckCircle2 className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-4 h-4 text-cyan-500 flex-shrink-0 mt-0.5" />
                     {item}
                   </li>
                 ))}
@@ -455,26 +466,8 @@ const HvacDatabaseReactivation = () => {
           </div>
         </Section>
 
-        {/* ── Broader HVAC link ────────────────────────────────── */}
-        <Section className="bg-secondary/30">
-          <div className="max-w-3xl">
-            <p className="text-base text-muted-foreground leading-relaxed mb-4">
-              Database reactivation is one piece of the puzzle. If you also need
-              help with missed-call handling, lead follow-up, or scheduling
-              automation, those are separate builds I offer for HVAC companies.
-            </p>
-            <Link
-              to="/ai-automation-hvac"
-              className="text-sm font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
-            >
-              See all HVAC automation services
-              <ArrowRight className="w-4 h-4" />
-            </Link>
-          </div>
-        </Section>
-
         {/* ── Good fit / not a fit ─────────────────────────────── */}
-        <Section>
+        <Section className="bg-secondary/30">
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
             Good fit / not a fit
           </h2>
@@ -530,10 +523,19 @@ const HvacDatabaseReactivation = () => {
               </ul>
             </div>
           </div>
+          <p className="text-sm text-muted-foreground mt-8">
+            Need more than reactivation?{" "}
+            <Link
+              to="/ai-automation-hvac"
+              className="font-medium text-primary hover:text-primary/80 transition-colors"
+            >
+              See all HVAC automation services
+            </Link>
+          </p>
         </Section>
 
         {/* ── FAQ ──────────────────────────────────────────────── */}
-        <Section className="bg-secondary/30">
+        <Section>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight text-center">
             Common questions about database reactivation
           </h2>
