@@ -2,6 +2,18 @@
 
 **Last updated:** 2026-03-30 12:08 PM MDT
 
+## Update 2026-03-30 16:20 MDT
+- The website is now the intended Discord continuation point for this work via `#dmytroai-website`, not the generic `#paperclip-ing` channel.
+- Confirmed website Paperclip project exists and should be reused:
+  - project: `Website` (`b004c08e-c4d2-4bf8-ae73-6bbc7e56b7ed`)
+  - workspace: `website-repo` (`f6516846-b0d9-4526-a2b6-90e6de3053cf`)
+- Added local/private Paperclip setup note at `private/docs/paperclip-local-setup-2026-03-30.md`.
+- Added root OpenClaw routing guidance at `/Users/whatever/clawd/docs/paperclip-discord-project-routing.md` and reinforced the rule in workspace `AGENTS.md`.
+- New routing rule: website work from Discord must create Paperclip issues with explicit `projectId` + `projectWorkspaceId`; do not create generic company-only website issues.
+- New assignment rule: default to agent ownership; "board" means CEO-agent review unless Dmytro explicitly wants personal ownership.
+- Autoresearch loop was already initialized in this repo with `program.md`; future website iteration work should continue inside the Website Paperclip project.
+- Next step when resuming from `#dmytroai-website`: use the Website Paperclip project directly for HVAC / AEO / programmatic SEO / autoresearch tasks.
+
 ## Update 2026-03-30 16:xx MDT
 - Analyzed a new marketing direction: whether to extend the website from GEO into bounded programmatic SEO.
 - Saved a planning doc at `docs/plans/2026-03-30-programmatic-seo-growth-plan.md`.

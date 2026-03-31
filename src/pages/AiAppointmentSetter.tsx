@@ -113,6 +113,20 @@ const AiAppointmentSetter = () => {
             url: "https://www.dmytroai.com/ai-appointment-setter",
           })}
         </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqItems.map((item) => ({
+              "@type": "Question",
+              name: item.question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: item.answer,
+              },
+            })),
+          })}
+        </script>
       </Helmet>
 
       <Navbar />

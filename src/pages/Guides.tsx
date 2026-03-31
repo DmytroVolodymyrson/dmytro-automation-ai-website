@@ -38,9 +38,9 @@ const guides = [
     href: "/ai-automation-consultant-calgary",
   },
   {
-    title: "AI Automation for HVAC Companies",
+    title: "HVAC Automation Services",
     description:
-      "How AI automation helps HVAC businesses stop losing jobs to missed calls and slow follow-up. Covers call handling, scheduling, lead response, and seasonal campaigns.",
+      "AI automation services for HVAC businesses — call handling, scheduling, lead response, and seasonal campaigns. See what a custom build looks like.",
     href: "/ai-automation-hvac",
   },
   {
@@ -48,6 +48,66 @@ const guides = [
     description:
       "Comparing your options for AI automation: solo consultant, agency, or doing it yourself. Honest breakdown of cost, speed, quality, and what makes sense for your business.",
     href: "/hire-ai-automation-consultant-vs-agency",
+  },
+  {
+    title: "HVAC Database Reactivation",
+    description:
+      "How HVAC companies use AI-powered database reactivation to re-engage past customers and cold leads. Turn dormant contacts into booked jobs with automated outreach.",
+    href: "/hvac-database-reactivation",
+  },
+  {
+    title: "AI Automation for HVAC Companies — What's Real",
+    description:
+      "What AI automation actually means for HVAC businesses. Real use cases vs hype, common starting points, and honest ROI expectations.",
+    href: "/ai-automation-for-hvac-companies",
+  },
+  {
+    title: "HVAC Lead Follow-Up Automation",
+    description:
+      "How HVAC companies stop losing jobs to slow response. Automated follow-up for web forms, missed calls, and quote nurture.",
+    href: "/hvac-lead-follow-up-automation",
+  },
+  {
+    title: "HVAC Missed Call Text Back",
+    description:
+      "Never lose an HVAC lead to voicemail again. Instant text-back when a call goes unanswered — how it works and what it costs.",
+    href: "/hvac-missed-call-text-back",
+  },
+  {
+    title: "AI Appointment Setter for HVAC",
+    description:
+      "AI-powered scheduling for HVAC service calls. Book appointments, send confirmations, and reduce no-shows without phone tag.",
+    href: "/ai-appointment-setter-for-hvac",
+  },
+  {
+    title: "AI Automation Consultant vs. Freelancer",
+    description:
+      "Deciding between an AI automation consultant and a freelancer? Compare pricing, accountability, expertise, and project outcomes for small businesses.",
+    href: "/ai-automation-consultant-vs-freelancer",
+  },
+  {
+    title: "AI Chatbot vs. AI Voice Agent for Lead Qualification",
+    description:
+      "Should you use an AI chatbot or a voice agent to qualify leads? Compare response rates, conversion, cost, and implementation for service businesses.",
+    href: "/ai-chatbot-vs-ai-voice-agent-for-lead-qualification",
+  },
+  {
+    title: "GoHighLevel vs. Custom CRM for Small Business",
+    description:
+      "Comparing GoHighLevel and custom-built CRM solutions for small businesses. Cost, flexibility, time-to-value, and what makes sense at different stages.",
+    href: "/gohighlevel-vs-custom-crm-small-business",
+  },
+  {
+    title: "AI Automation Consultant Pricing for Small Business",
+    description:
+      "What does an AI automation consultant cost? Honest pricing breakdown — project fees, retainers, hourly rates, and what drives the price up or down.",
+    href: "/ai-automation-consultant-pricing-small-business",
+  },
+  {
+    title: "Best AI Automations for Service Businesses",
+    description:
+      "Which AI automations actually move the needle? A decision framework for HVAC, dental, legal, real estate, and other service companies.",
+    href: "/best-ai-automation-for-service-businesses",
   },
 ];
 

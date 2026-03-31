@@ -7,17 +7,16 @@ import {
   CheckCircle2,
   ChevronDown,
   Clock,
-  Database,
-  DollarSign,
-  FileText,
-  MessageSquare,
-  Phone,
-  RefreshCw,
-  Send,
-  Users,
-
-  XCircle,
   AlertTriangle,
+  Zap,
+  XCircle,
+  Phone,
+  CalendarCheck,
+  MessageSquare,
+  Thermometer,
+  Smartphone,
+  PhoneOff,
+  Bell,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
@@ -31,38 +30,38 @@ const scrollToBooking = () => {
 };
 
 /* ------------------------------------------------------------------ */
-/*  FAQ items — objections specific to list quality, timing, workload  */
+/*  FAQ accordion                                                      */
 /* ------------------------------------------------------------------ */
 const faqItems = [
   {
-    question: "Our database is old — most of these contacts are probably dead leads.",
+    question: "How fast does the text go out after a missed call?",
     answer:
-      "That's actually the norm. In any reactivation campaign, the majority of contacts won't respond — and that's fine. The economics work because the ones who do respond are already pre-qualified — they've used your services before or asked for a quote. Even a small percentage of a large list produces meaningful revenue because you're not paying to acquire these leads again.",
+      "Within 10 to 30 seconds of the call ending. The homeowner's phone buzzes before they've even had time to search for the next company on their list. That speed is what makes this work — it keeps the conversation alive while your company is still top of mind.",
   },
   {
-    question: "We don't want to annoy people who haven't heard from us in years.",
+    question: "What does the text message say?",
     answer:
-      "The messaging isn't pushy or sales-heavy. It's framed as a check-in: seasonal maintenance reminder, warranty follow-up, or a simple 'still need that quote?' The tone is helpful, not aggressive. People who aren't interested simply don't reply — they don't get blasted with 10 follow-ups. And the ones who do reply are often relieved someone reached out because they've been meaning to schedule service.",
+      "You choose the message. A typical one reads something like: \"Hey, sorry we missed your call! This is [Your Company]. How can we help you today?\" Simple, friendly, and it opens a two-way conversation. We help you write the message during setup and you can change it anytime.",
   },
   {
-    question: "How much of our team's time does this take to run?",
+    question: "Does this work if someone calls and hangs up quickly?",
     answer:
-      "After setup, close to zero. The system handles sequencing, timing, and follow-up automatically. Your team only gets involved when a lead responds and is ready to book. No manual texting, no spreadsheet tracking, no 'who was supposed to call this person back?' conversations.",
+      "Yes, as long as the call registers as a missed call. If someone calls and hangs up after 2 rings, they still get the text. The only exception is blocked or unknown numbers, which you can configure to exclude if you prefer.",
   },
   {
-    question: "What if our CRM data is messy — duplicates, missing info, bad numbers?",
+    question: "What if the person texts back? Who handles the conversation?",
     answer:
-      "I clean and deduplicate your list before anything goes out. Bad phone numbers get flagged, duplicates get merged, and contacts are segmented by type (past customer vs. old estimate) so messaging is relevant. You don't need a perfect CRM to start — most HVAC companies don't have one.",
+      "You have options. The simplest setup routes their reply directly to your team's phone or a shared inbox so someone can respond manually. A more advanced setup uses an AI agent to continue the conversation — qualifying the issue, collecting their address, and booking an appointment. Most shops start with manual responses and add AI later once they see the volume.",
   },
   {
-    question: "How quickly do we see results?",
+    question: "Will this send texts to spam callers and robocalls?",
     answer:
-      "Most campaigns start generating responses within the first few days of outreach. Booked jobs typically follow shortly after. A full reactivation cycle across your database can take several weeks depending on list size, but revenue starts flowing early in the process.",
+      "You can filter out known spam numbers and set rules to exclude certain area codes or number types. In practice, most shops find that the occasional text to a wrong number is worth it for the leads they recover. You can also set it to only trigger during business hours if you prefer.",
   },
   {
-    question: "What does this cost compared to running ads?",
+    question: "How much does missed call text-back cost to set up?",
     answer:
-      "A reactivation campaign is a one-time build with no ongoing ad spend. Compare that to the cost per lead from Google Ads in competitive HVAC markets, which can be substantial. Since these contacts already know your company, conversion rates tend to be higher than cold traffic. Most operators see a strong return relative to the build cost.",
+      "A standalone missed call text-back system typically runs $1,000 to $2,000 to build, depending on what it connects to and how much intelligence you want in the response. Monthly costs for SMS are minimal — usually a few cents per message. If you're combining it with other automations (lead follow-up, scheduling), it's often included in the broader build.",
   },
 ];
 
@@ -93,7 +92,7 @@ const Section = ({
 /* ================================================================== */
 /*  PAGE COMPONENT                                                     */
 /* ================================================================== */
-const HvacDatabaseReactivation = () => {
+const HvacMissedCallTextBack = () => {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   useEffect(() => {
@@ -103,37 +102,37 @@ const HvacDatabaseReactivation = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>HVAC Database Reactivation | Turn Old Leads Into Booked Jobs | Dmytro AI</title>
+        <title>HVAC Missed Call Text Back — Never Lose a Lead to Voicemail | Dmytro AI</title>
         <meta
           name="description"
-          content="Reactivate your HVAC database — old estimates, past customers, and dormant leads. No new ad spend. Done-for-you system that turns contacts you already paid for into booked jobs."
+          content="HVAC missed call text-back: when you can't answer the phone, an instant text keeps the lead warm. Simple automation that recovers jobs you'd otherwise lose to voicemail."
         />
         <link
           rel="canonical"
-          href="https://www.dmytroai.com/hvac-database-reactivation"
+          href="https://www.dmytroai.com/hvac-missed-call-text-back"
         />
         <meta
           property="og:title"
-          content="HVAC Database Reactivation | Turn Old Leads Into Booked Jobs"
+          content="HVAC Missed Call Text Back — Never Lose a Lead to Voicemail | Dmytro AI"
         />
         <meta
           property="og:description"
-          content="You already paid for these leads. A done-for-you reactivation system turns dormant HVAC contacts into booked jobs — no new ad spend required."
+          content="Instant text-back when you miss a call. Simple HVAC automation that saves leads from going to your competitors."
         />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
         <meta
           property="og:url"
-          content="https://www.dmytroai.com/hvac-database-reactivation"
+          content="https://www.dmytroai.com/hvac-missed-call-text-back"
         />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            name: "HVAC Database Reactivation",
+            "@type": "Article",
+            name: "HVAC Missed Call Text Back",
             description:
-              "Done-for-you database reactivation for residential HVAC companies. Turns old estimates and past customers into booked jobs without new ad spend.",
-            provider: { "@id": "https://www.dmytroai.com/#person" },
-            url: "https://www.dmytroai.com/hvac-database-reactivation",
+              "How HVAC companies use missed call text-back to instantly engage leads they can't answer, keeping them from calling competitors.",
+            author: { "@id": "https://www.dmytroai.com/#person" },
+            url: "https://www.dmytroai.com/hvac-missed-call-text-back",
           })}
         </script>
         <script type="application/ld+json">
@@ -155,7 +154,7 @@ const HvacDatabaseReactivation = () => {
       <Navbar />
 
       <main className="pt-24 md:pt-28">
-        {/* ── Hero ───────────────────────────────────────────────── */}
+        {/* -- Hero -------------------------------------------------- */}
         <section className="relative overflow-hidden bg-background pb-16 md:pb-24">
           <div className="absolute inset-0 opacity-[0.02]">
             <div
@@ -177,62 +176,61 @@ const HvacDatabaseReactivation = () => {
               className="max-w-3xl"
             >
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 text-cyan-600 text-sm font-medium mb-6">
-                <Database className="w-4 h-4" />
-                HVAC Database Reactivation
+                <PhoneOff className="w-4 h-4" />
+                Missed Call Text-Back
               </div>
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-5 tracking-tight">
-                You already paid for these leads.{" "}
-                <span className="text-gradient">Let's turn them into jobs.</span>
+                HVAC Missed Call Text Back
               </h1>
-              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-4">
-                Your CRM is full of old estimates, past customers, and leads that
-                went cold. Every one of them already knows your company. A
-                done-for-you reactivation system reaches out, re-engages, and
-                books jobs — no new ad spend required.
+              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
+                Every missed call is a potential job walking to your competitor.
+                Missed call text-back is the simplest, fastest automation an
+                HVAC company can set up — and often the one with the highest
+                immediate ROI.
               </p>
               <p className="text-base text-muted-foreground leading-relaxed mb-8">
-                Built for residential HVAC companies with 500+ contacts
-                sitting untouched in ServiceTitan, Housecall Pro, Jobber, or
-                spreadsheets.
+                When your phone rings and nobody answers, an instant text goes
+                to the caller within seconds. Below: how it works, what the
+                customer experience looks like, and when it makes sense.
               </p>
               <Button
                 size="lg"
                 onClick={scrollToBooking}
                 className="group bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
               >
-                Book a Call — See What's in Your Database
+                Book a 30-Minute Call
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </motion.div>
           </div>
         </section>
 
-        {/* ── Problem: money sitting in the CRM ────────────────── */}
+        {/* -- The cost of missed calls ------------------------------ */}
         <Section className="bg-secondary/30">
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
-            The revenue you're ignoring is already in your system
+            The real cost of missed calls in HVAC
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
-            Every HVAC company has the same problem: a database full of contacts
-            that nobody is working. Not because the leads are bad — because
-            nobody has time.
+            Nobody answers every call. Your team is on jobs, on the other line,
+            at lunch, or it's after hours. The question isn't whether you miss
+            calls — it's what happens when you do:
           </p>
           <div className="grid gap-6 md:grid-cols-3">
             {[
               {
-                icon: FileText,
-                title: "Estimates that never closed",
-                body: "You sent a quote six months ago. The homeowner said 'let me think about it' and you never heard back. That estimate is still sitting in your CRM. Many of them still need the work done — they just need a reason to re-engage.",
-              },
-              {
-                icon: Users,
-                title: "Past customers who haven't called",
-                body: "You installed their system two years ago. They haven't scheduled maintenance since. They're not unhappy — they just forgot. A well-timed reminder turns a dormant customer into a recurring revenue source.",
-              },
-              {
                 icon: Phone,
-                title: "Leads that went cold",
-                body: "Someone called, asked about pricing, and never booked. Your team moved on. But circumstances change — budgets free up, systems break down, seasons turn. The lead that said no in March might say yes in September.",
+                title: "They call the next company",
+                body: "A homeowner with a broken AC doesn't leave a voicemail and wait. They hang up and call the next result on Google. By the time you call back, they've already booked someone. This is the most common outcome of a missed call in HVAC.",
+              },
+              {
+                icon: Clock,
+                title: "Voicemail is a dead end",
+                body: "Voicemail completion rates for service businesses are low. Most callers hang up before leaving a message. Even when they do leave one, the callback often comes hours later — long after the urgency (and your chance) has passed.",
+              },
+              {
+                icon: Thermometer,
+                title: "Seasonal spikes make it worse",
+                body: "The first hot week of summer or first cold snap of winter, your phone lights up. That's exactly when you're least likely to answer every call — and exactly when each call is worth the most. Missed calls during peak season hit your revenue hardest.",
               },
             ].map((item, i) => (
               <motion.div
@@ -255,121 +253,43 @@ const HvacDatabaseReactivation = () => {
               </motion.div>
             ))}
           </div>
+          <p className="text-sm text-muted-foreground mt-6 max-w-3xl leading-relaxed">
+            A realistic estimate: if you miss 5 to 10 calls per week and your
+            average job is worth $500 to $1,500, even converting one extra job
+            per week from missed call text-back means $2K to $6K per month in
+            recovered revenue. The automation costs a fraction of that to build.
+          </p>
         </Section>
 
-        {/* ── Two revenue buckets ──────────────────────────────── */}
+        {/* -- How it works ------------------------------------------ */}
         <Section>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
-            Two revenue buckets hiding in your database
+            How missed call text-back works
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
-            Reactivation isn't one-size-fits-all. Old estimates and past
-            customers need different messaging and different timing:
-          </p>
-          <div className="grid gap-6 md:grid-cols-2 max-w-4xl">
-            <motion.div
-              initial={{ opacity: 0, y: 12 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4 }}
-              className="rounded-2xl border border-primary/20 bg-primary/5 p-6"
-            >
-              <div className="w-11 h-11 rounded-xl bg-primary/10 border border-primary/15 flex items-center justify-center mb-4">
-                <DollarSign className="w-5 h-5 text-primary" />
-              </div>
-              <h3 className="text-xl font-bold text-foreground mb-3">
-                Bucket 1: Old estimates
-              </h3>
-              <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                These contacts already expressed intent. They asked for a quote,
-                got one, and didn't close. The system reaches out with a simple
-                check-in:
-              </p>
-              <ul className="space-y-2">
-                {[
-                  "\"Hi [Name], we quoted your [system type] replacement back in [month]. Still on your radar?\"",
-                  "Timed follow-up sequence if no response",
-                  "Books directly to your calendar when they say yes",
-                  "Flags high-value estimates for priority outreach",
-                ].map((item, i) => (
-                  <li
-                    key={i}
-                    className="flex items-start gap-2 text-sm text-muted-foreground leading-relaxed"
-                  >
-                    <CheckCircle2 className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 12 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.08, duration: 0.4 }}
-              className="rounded-2xl border border-primary/20 bg-primary/5 p-6"
-            >
-              <div className="w-11 h-11 rounded-xl bg-primary/10 border border-primary/15 flex items-center justify-center mb-4">
-                <RefreshCw className="w-5 h-5 text-primary" />
-              </div>
-              <h3 className="text-xl font-bold text-foreground mb-3">
-                Bucket 2: Past customers
-              </h3>
-              <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                People who already trust your work. They just haven't thought
-                about their HVAC system since the last visit. The system brings
-                them back:
-              </p>
-              <ul className="space-y-2">
-                {[
-                  "Seasonal maintenance reminders based on last service date",
-                  "System age check-ins for equipment approaching end of life",
-                  "\"It's been [X months] since your last tune-up\" — personalized, not mass-blast",
-                  "Exclusive past-customer offers to incentivize booking",
-                ].map((item, i) => (
-                  <li
-                    key={i}
-                    className="flex items-start gap-2 text-sm text-muted-foreground leading-relaxed"
-                  >
-                    <CheckCircle2 className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </motion.div>
-          </div>
-        </Section>
-
-        {/* ── How the reactivation system works ────────────────── */}
-        <Section className="bg-secondary/30">
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
-            How the reactivation system works
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
-            This is a done-for-you build. You don't need to learn software, write
-            messages, or manage sequences. Here's the process:
+            The concept is simple. The execution takes some care to get right:
           </p>
           <div className="max-w-3xl space-y-6">
             {[
               {
                 step: "1",
-                title: "Export and clean your database",
-                body: "I pull your contact list from whatever system you use — ServiceTitan, Housecall Pro, Jobber, GoHighLevel, even spreadsheets. Duplicates get merged, bad numbers get flagged, and contacts are segmented into the two buckets: old estimates and past customers.",
+                title: "A call comes in and goes unanswered",
+                body: "Doesn't matter why — your team is on another call, on a job, or it's 9 PM on a Saturday. The call rings, nobody picks up, and the caller hangs up or hits voicemail.",
               },
               {
                 step: "2",
-                title: "Build targeted outreach sequences",
-                body: "Each bucket gets its own messaging. Old estimates get a direct check-in about their specific quote. Past customers get a seasonal or maintenance-based angle. Messages go out via text and email in a natural cadence — not all at once.",
+                title: "Within seconds, an automatic text goes out",
+                body: "The caller gets a text from your business number: \"Hey, sorry we missed your call! This is [Your Company]. How can we help you today?\" It arrives while your company is still fresh in their mind — before they've dialed the next number.",
               },
               {
                 step: "3",
-                title: "Launch and monitor responses",
-                body: "The first wave goes out. Responses route directly to your team with full context: who the contact is, what they originally needed, and what they said. Your team just books the job. No guesswork.",
+                title: "The lead responds via text",
+                body: "Most people prefer texting anyway. They reply with what they need: \"My AC isn't cooling,\" \"Need a furnace quote,\" \"Emergency — no heat.\" Now you have a two-way conversation going instead of a dead voicemail.",
               },
               {
                 step: "4",
-                title: "Optimize and expand",
-                body: "After the first cycle, we review what converted: which segments, which messages, which timing. Then we expand to the rest of your list and set up ongoing reactivation so new dormant contacts get worked automatically.",
+                title: "Your team (or AI) continues the conversation",
+                body: "In the simplest setup, the reply goes to your team's phone and they take over. In a more advanced setup, an AI agent qualifies the issue, collects their address, and offers available appointment times — all via text.",
               },
             ].map((item, i) => (
               <motion.div
@@ -398,37 +318,107 @@ const HvacDatabaseReactivation = () => {
           </div>
         </Section>
 
-        {/* ── Risk reversal ────────────────────────────────────── */}
-        <Section>
+        {/* -- Customer experience ----------------------------------- */}
+        <Section className="bg-secondary/30">
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
-            Why reactivation before buying more leads
+            What the customer experience looks like
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
-            Most HVAC companies default to more ad spend when revenue slows
-            down. But you're sitting on contacts that already know your name.
-            Here's why working them first makes more sense:
+            From the homeowner's perspective, here's what happens:
+          </p>
+          <div className="max-w-3xl rounded-2xl border border-border/60 bg-card/80 p-6 space-y-4">
+            {[
+              {
+                time: "6:47 PM",
+                who: "Homeowner",
+                action: "Calls your company. Rings 4 times. No answer.",
+              },
+              {
+                time: "6:47 PM",
+                who: "Homeowner",
+                action: "Starts to Google \"HVAC repair near me\" to find another company.",
+              },
+              {
+                time: "6:48 PM",
+                who: "Your system",
+                action: "Text arrives: \"Hey, sorry we missed your call! This is ABC Heating & Air. How can we help?\"",
+              },
+              {
+                time: "6:49 PM",
+                who: "Homeowner",
+                action: "Replies: \"AC not blowing cold air. Need someone ASAP.\"",
+              },
+              {
+                time: "6:50 PM",
+                who: "Your team / AI",
+                action: "\"Got it — can you share your address? We can get someone out tomorrow morning between 8-10 AM.\"",
+              },
+              {
+                time: "6:52 PM",
+                who: "Homeowner",
+                action: "Shares address. Books the appointment. Stops searching for competitors.",
+              },
+            ].map((item, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 8 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.05, duration: 0.3 }}
+                className="flex gap-4 items-start"
+              >
+                <span className="text-xs font-mono text-muted-foreground/60 flex-shrink-0 w-16 mt-0.5">
+                  {item.time}
+                </span>
+                <div>
+                  <span className="text-xs font-semibold text-accent uppercase tracking-wide">
+                    {item.who}
+                  </span>
+                  <p className="text-sm text-foreground leading-relaxed">
+                    {item.action}
+                  </p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+          <p className="text-sm text-muted-foreground mt-6 max-w-3xl leading-relaxed">
+            Total time from missed call to booked appointment: about 5 minutes.
+            Without the text-back, that homeowner would be on the phone with
+            your competitor by 6:50 PM.
+          </p>
+        </Section>
+
+        {/* -- Beyond text-back -------------------------------------- */}
+        <Section>
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
+            Beyond text-back: what else can trigger from a missed call
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
+            Missed call text-back is the starting point. Once the infrastructure
+            is in place, you can layer on additional automations triggered by
+            that same missed call:
           </p>
           <div className="grid gap-5 sm:grid-cols-2 max-w-4xl">
             {[
               {
-                icon: DollarSign,
-                title: "Zero ad spend",
-                body: "You already paid to acquire these contacts. Reactivation works them — no new cost per lead.",
+                icon: Bell,
+                title: "Team notifications",
+                body: "Your dispatcher or office manager gets an instant Slack message, email, or push notification with the caller's number and any CRM data you have on them. Even if automation handles the text, your team knows what's happening.",
               },
               {
-                icon: Clock,
-                title: "Revenue in days, not months",
-                body: "Responses typically start within the first few days of outreach. Not a long game like SEO or brand campaigns.",
+                icon: MessageSquare,
+                title: "AI-powered qualification via text",
+                body: "Instead of a simple \"how can we help?\" message, an AI agent continues the conversation — asking about the issue, system type, urgency, and address. By the time your team follows up, the lead is pre-qualified and ready to schedule.",
               },
               {
-                icon: Send,
-                title: "One-time build, no retainer",
-                body: "This is a project, not a subscription. Run it once, or set it to run continuously — your call.",
+                icon: CalendarCheck,
+                title: "Direct booking from the text thread",
+                body: "Include a scheduling link in the initial text or have the AI offer available time slots. The homeowner books directly from the text conversation without ever calling back.",
               },
               {
-                icon: Database,
-                title: "Warm contacts, not cold calls",
-                body: "These people already chose your company. Trust exists. That's why reactivation converts better than cold traffic.",
+                icon: Zap,
+                title: "CRM logging and follow-up sequences",
+                body: "Every missed call creates a contact in your CRM (if they're not already there) with the call timestamp, any text conversation, and tags for follow-up. If they don't respond to the initial text, a follow-up sequence can fire at 1 hour, 24 hours, and 3 days.",
               },
             ].map((item, i) => (
               <motion.div
@@ -455,32 +445,14 @@ const HvacDatabaseReactivation = () => {
           </div>
         </Section>
 
-        {/* ── Broader HVAC link ────────────────────────────────── */}
+        {/* -- Good fit / not a fit ---------------------------------- */}
         <Section className="bg-secondary/30">
-          <div className="max-w-3xl">
-            <p className="text-base text-muted-foreground leading-relaxed mb-4">
-              Database reactivation is one piece of the puzzle. If you also need
-              help with missed-call handling, lead follow-up, or scheduling
-              automation, those are separate builds I offer for HVAC companies.
-            </p>
-            <Link
-              to="/ai-automation-hvac"
-              className="text-sm font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
-            >
-              See all HVAC automation services
-              <ArrowRight className="w-4 h-4" />
-            </Link>
-          </div>
-        </Section>
-
-        {/* ── Good fit / not a fit ─────────────────────────────── */}
-        <Section>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
-            Good fit / not a fit
+            Good fit / not a fit for missed call text-back
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
-            Database reactivation works well for a specific type of HVAC
-            business. Here's how to tell if it's right for you:
+            This is a simple automation, but it's not for everyone. Here's an
+            honest assessment:
           </p>
           <div className="grid gap-6 md:grid-cols-2 max-w-4xl">
             <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6">
@@ -490,11 +462,11 @@ const HvacDatabaseReactivation = () => {
               </h3>
               <ul className="space-y-3">
                 {[
-                  "You have 500+ contacts in your CRM, dispatch tool, or spreadsheets",
-                  "You've been in business 2+ years with a history of estimates and service calls",
-                  "You know there are old quotes and past customers you're not following up with",
-                  "You're a residential HVAC company (or residential-heavy mix)",
-                  "You want revenue without adding ad spend or hiring",
+                  "You're getting regular inbound calls and know you're missing some",
+                  "You have after-hours calls going to voicemail",
+                  "Your team is on jobs during the day and can't always answer",
+                  "You want the quickest possible automation win with minimal setup",
+                  "You're already running Google Ads or LSAs and want better conversion from existing spend",
                 ].map((item, i) => (
                   <li
                     key={i}
@@ -513,11 +485,10 @@ const HvacDatabaseReactivation = () => {
               </h3>
               <ul className="space-y-3">
                 {[
-                  "You're a brand-new company with fewer than 100 contacts total",
-                  "You do exclusively commercial/industrial HVAC with long procurement cycles",
-                  "Your database is truly empty — no CRM, no records, no spreadsheets",
-                  "You're looking for new lead generation, not reactivation of existing contacts",
-                  "You need a full marketing overhaul, not a targeted campaign",
+                  "You answer every call already and have full-time phone coverage",
+                  "Your call volume is very low (1 to 2 calls per day) — the impact won't be significant",
+                  "You only do commercial work with long sales cycles (text-back is best for residential urgency)",
+                  "You don't have a way to respond to texts when they come in (no smartphone, no team coverage)",
                 ].map((item, i) => (
                   <li
                     key={i}
@@ -530,15 +501,52 @@ const HvacDatabaseReactivation = () => {
               </ul>
             </div>
           </div>
+          <div className="mt-8 flex flex-wrap gap-4">
+            <Link
+              to="/ai-automation-hvac"
+              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+            >
+              Full HVAC automation services
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+            <Link
+              to="/ai-automation-for-hvac-companies"
+              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+            >
+              AI automation overview for HVAC
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+            <Link
+              to="/hvac-lead-follow-up-automation"
+              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+            >
+              HVAC lead follow-up automation
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+            <Link
+              to="/ai-appointment-setter-for-hvac"
+              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+            >
+              AI appointment setter for HVAC
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+            <Link
+              to="/ai-chatbot-vs-ai-voice-agent-for-lead-qualification"
+              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+            >
+              Chatbot vs voice agent comparison
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
         </Section>
 
-        {/* ── FAQ ──────────────────────────────────────────────── */}
-        <Section className="bg-secondary/30">
+        {/* -- FAQ --------------------------------------------------- */}
+        <Section>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight text-center">
-            Common questions about database reactivation
+            Missed call text-back questions
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10 text-center leading-relaxed">
-            Straight answers about list quality, timing, and what to expect
+            How it works, what it costs, and what to expect
           </p>
           <div className="max-w-3xl mx-auto flex flex-col gap-3">
             {faqItems.map((item, index) => (
@@ -582,7 +590,7 @@ const HvacDatabaseReactivation = () => {
           </div>
         </Section>
 
-        {/* ── Final CTA / Booking ──────────────────────────────── */}
+        {/* -- Final CTA / Booking ----------------------------------- */}
         <section className="relative bg-background overflow-hidden pt-8 pb-12 md:pt-14 md:pb-20 lg:pt-20 lg:pb-28">
           <div className="absolute inset-0 opacity-[0.015]">
             <div
@@ -605,12 +613,16 @@ const HvacDatabaseReactivation = () => {
               className="text-center mb-8"
             >
               <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
-                Find out what's sitting in your database
+                Ready to stop losing leads to voicemail?
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-2">
-                Book a 30-minute call. I'll review your contact list, estimate
-                the reactivation opportunity, and walk you through exactly what
-                a campaign would look like — whether we work together or not.
+                Book a 30-minute call. We'll look at your current call volume,
+                estimate how many calls you're missing, and map out a text-back
+                system for your shop.
+              </p>
+              <p className="text-sm text-muted-foreground">
+                This is one of the fastest automations to set up and one of the
+                first to pay for itself.
               </p>
             </motion.div>
 
@@ -622,9 +634,9 @@ const HvacDatabaseReactivation = () => {
               className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl mx-auto mb-8"
             >
               {[
-                { icon: Clock, text: "30-minute database review call" },
-                { icon: MessageSquare, text: "See your reactivation opportunity" },
-                { icon: ArrowRight, text: "Leave with a plan, not a pitch" },
+                { icon: Clock, text: "30-minute focused call" },
+                { icon: Smartphone, text: "See exactly how text-back works" },
+                { icon: ArrowRight, text: "Get a plan specific to your shop" },
               ].map((item, i) => (
                 <div
                   key={i}
@@ -662,7 +674,7 @@ const HvacDatabaseReactivation = () => {
                 loading="eager"
                 scrolling="no"
                 id="dmytro-automation-booking"
-                title="Book a Database Reactivation Call"
+                title="Book a 30-Minute Call"
               />
             </motion.div>
           </div>
@@ -674,4 +686,4 @@ const HvacDatabaseReactivation = () => {
   );
 };
 
-export default HvacDatabaseReactivation;
+export default HvacMissedCallTextBack;

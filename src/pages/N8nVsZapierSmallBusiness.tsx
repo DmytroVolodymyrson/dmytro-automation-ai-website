@@ -101,6 +101,31 @@ const N8nVsZapierSmallBusiness = () => {
           property="og:url"
           content="https://www.dmytroai.com/n8n-vs-zapier-small-business"
         />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: "n8n vs Zapier for Small Business",
+            description:
+              "Practical comparison of n8n and Zapier for small businesses. When Zapier is enough, when n8n is the better fit, and what to consider for cost, complexity, and control.",
+            author: { "@id": "https://www.dmytroai.com/#person" },
+            url: "https://www.dmytroai.com/n8n-vs-zapier-small-business",
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqItems.map((item) => ({
+              "@type": "Question",
+              name: item.question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: item.answer,
+              },
+            })),
+          })}
+        </script>
       </Helmet>
 
       <Navbar />

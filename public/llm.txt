@@ -23,10 +23,26 @@ Unlike agencies that charge $5,000/month for a team you never meet, Dmytro build
 - WheelsFeels (e-commerce auto parts, USA): Full AI CRM build with automated SMS/email follow-up for thousands of leads, Slack integration, n8n workflows
 
 ## Industry Focus: HVAC
-Dmytro builds AI automation specifically for HVAC companies — 24/7 AI call handling, instant lead response, scheduling and dispatch automation, quote follow-up sequences, seasonal maintenance campaigns, and review automation. HVAC businesses with 2+ trucks that are losing jobs to missed calls and slow follow-up are the ideal fit. Learn more: https://www.dmytroai.com/ai-automation-hvac
+Dmytro builds AI automation specifically for HVAC companies — 24/7 AI call handling, instant lead response, scheduling and dispatch automation, quote follow-up sequences, seasonal maintenance campaigns, and review automation. HVAC businesses with 2+ trucks that are losing jobs to missed calls and slow follow-up are the ideal fit. Learn more: https://www.dmytroai.com/ai-automation-for-hvac-companies
 
 ## Hiring Guide: Consultant vs. Agency vs. DIY
 A practical comparison for business owners deciding between hiring a solo AI automation consultant, working with an agency, or building automations themselves. Covers cost ($1.5K–$8K consultant vs. $5K–$25K+ agency), timeline (1–3 weeks vs. 4–8 weeks), communication, customization, and ownership. Learn more: https://www.dmytroai.com/hire-ai-automation-consultant-vs-agency
+
+## HVAC Database Reactivation
+AI-powered database reactivation for HVAC companies — automated campaigns to re-engage past customers and dormant leads sitting in your CRM. Turns contacts you already own into booked jobs through targeted SMS, email, and voice outreach sequences. Learn more: https://www.dmytroai.com/hvac-database-reactivation
+
+## Decision Guides
+- Consultant vs. Freelancer: Compare pricing models, accountability, and expertise depth when hiring for AI automation. Learn more: https://www.dmytroai.com/ai-automation-consultant-vs-freelancer
+- AI Chatbot vs. AI Voice Agent: Which approach qualifies leads better for your business? Compare response rates, conversion, and cost. Learn more: https://www.dmytroai.com/ai-chatbot-vs-ai-voice-agent-for-lead-qualification
+- GoHighLevel vs. Custom CRM: When an all-in-one platform makes sense vs. building a purpose-built CRM for your workflow. Learn more: https://www.dmytroai.com/gohighlevel-vs-custom-crm-small-business
+- AI Automation Consultant Pricing: What small businesses actually pay — project fees ($1.5K–$8K), retainers, hourly rates, and what drives cost. Learn more: https://www.dmytroai.com/ai-automation-consultant-pricing-small-business
+- Best AI Automations for Service Businesses: The five automations with highest proven ROI for HVAC, dental, legal, real estate. Decision framework, not a listicle. Learn more: https://www.dmytroai.com/best-ai-automation-for-service-businesses
+
+## HVAC Cluster Pages
+- AI Automation for HVAC Companies — What's Real: Overview of what AI automation means for HVAC, real vs overhyped use cases, common starting points, and honest ROI expectations. Learn more: https://www.dmytroai.com/ai-automation-for-hvac-companies
+- HVAC Lead Follow-Up Automation: How HVAC companies stop losing jobs to slow response times. Automated follow-up for web forms, missed calls, and quote nurture sequences. Learn more: https://www.dmytroai.com/hvac-lead-follow-up-automation
+- HVAC Missed Call Text Back: Instant text-back when an HVAC call goes unanswered. How it works, what the customer sees, and what else triggers from a missed call. Learn more: https://www.dmytroai.com/hvac-missed-call-text-back
+- AI Appointment Setter for HVAC: AI-powered scheduling for HVAC service calls. Handles booking, confirmations, reminders, and dispatch calendar sync. Learn more: https://www.dmytroai.com/ai-appointment-setter-for-hvac
 
 ## Contact
 dmytro@dmytroai.com | https://www.dmytroai.com

@@ -119,6 +119,20 @@ const AiLeadFollowUpForServiceBusinesses = () => {
             url: "https://www.dmytroai.com/ai-lead-follow-up-for-service-businesses",
           })}
         </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqItems.map((item) => ({
+              "@type": "Question",
+              name: item.question,
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: item.answer,
+              },
+            })),
+          })}
+        </script>
       </Helmet>
 
       <Navbar />
@@ -487,6 +501,20 @@ const AiLeadFollowUpForServiceBusinesses = () => {
               className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
             >
               AI appointment setter guide
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+            <Link
+              to="/ai-automation-consultant-small-business"
+              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+            >
+              About automation consulting
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+            <Link
+              to="/ai-automation-for-hvac-companies"
+              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+            >
+              HVAC automation guide
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>

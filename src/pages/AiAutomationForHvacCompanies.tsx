@@ -10,11 +10,13 @@ import {
   AlertTriangle,
   Zap,
   XCircle,
-  Users,
-  Building2,
-  Wrench,
+  Phone,
+  CalendarCheck,
+  MessageSquare,
+  Thermometer,
+  TrendingUp,
+  Bot,
   DollarSign,
-  Scale,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
@@ -32,34 +34,34 @@ const scrollToBooking = () => {
 /* ------------------------------------------------------------------ */
 const faqItems = [
   {
-    question: "When does hiring an agency make more sense than a consultant?",
+    question: "Is AI automation mature enough for HVAC companies to use today?",
     answer:
-      "If you need a large team across multiple disciplines — paid ads, brand design, content, and automation all at once — an agency can staff that. If your primary need is getting automation systems built and running, a solo consultant is faster, cheaper, and more accountable. Most small businesses don't need the full agency apparatus.",
+      "Yes, but not all of it. Lead follow-up automation, missed call text-back, appointment scheduling, and CRM workflows are production-ready and used by thousands of service businesses. Fully autonomous dispatch or AI that diagnoses equipment remotely — that's still experimental. The key is starting with what works now and has clear ROI.",
   },
   {
-    question: "Can a solo consultant handle complex integrations?",
+    question: "How is this different from just using a CRM like ServiceTitan or Housecall Pro?",
     answer:
-      "Yes. Complex doesn't mean you need a big team — it means you need someone who understands the tools deeply. A good consultant builds on platforms like n8n, GoHighLevel, and standard APIs. I've built multi-step workflows connecting CRMs, voice agents, payment systems, and scheduling tools. One person who knows the stack well moves faster than a team learning it.",
+      "CRMs store data and manage workflows, but they don't act on their own. Automation connects your CRM to actions: a missed call triggers a text, a new lead gets an instant follow-up sequence, a completed job fires off a review request. Think of automation as the layer that makes your CRM actually do things without someone clicking buttons.",
   },
   {
-    question: "What about DIY with Zapier or Make — can I just do it myself?",
+    question: "What size HVAC company benefits most from automation?",
     answer:
-      "For simple, single-step automations — yes. If you need to send a Slack message when a form is submitted, Zapier works fine. But the moment you need branching logic, error handling, multi-step sequences, or integrations with tools that don't have native connectors, DIY hits a wall fast. The time you spend debugging is time you're not running your business.",
+      "Companies running 2 to 15 trucks tend to see the biggest impact. You're big enough to have real lead volume but small enough that one missed call or slow follow-up actually hurts. Enterprise operations (50+ trucks) have different needs — usually dedicated software teams and custom integrations.",
   },
   {
-    question: "How do I evaluate if a consultant is actually good?",
+    question: "Will AI replace our office staff or dispatchers?",
     answer:
-      "Ask three things: (1) Can they show you systems they've built, not just talk about them? (2) Do they understand your business operations, or just the tools? (3) Will you have direct access to the person building the system? If the answer to any of these is no, keep looking.",
+      "Not likely, and that's not the goal. Automation handles the repetitive, time-sensitive tasks your team doesn't have capacity for — answering calls at 10 PM, sending follow-up texts within 60 seconds, reminding customers about maintenance. Your people still handle complex scheduling, customer relationships, and judgment calls. They just stop drowning in busywork.",
   },
   {
-    question: "What if the consultant disappears after the project?",
+    question: "How much should an HVAC company expect to spend on automation?",
     answer:
-      "This is a legitimate concern with any freelancer. The safeguard is ownership: you should own everything that gets built. Documentation, access credentials, system architecture — all of it. I include full documentation and training with every build. If we stop working together, you keep everything and can hand it to anyone.",
+      "A single workflow like missed call text-back might run $1K to $2K to build. A more complete system — lead follow-up, scheduling, review requests, seasonal campaigns — typically runs $3K to $6K one-time with optional monthly maintenance. Compare that to the cost of one missed job per week for a year.",
   },
   {
-    question: "How much should I expect to spend?",
+    question: "What's the typical ROI timeline for HVAC automation?",
     answer:
-      "A solo consultant typically charges $1,500 to $8,000 for a project, depending on complexity. Agencies run $5,000 to $25,000+ for comparable scope. DIY costs less upfront but the time investment is significant — and if the automation doesn't work reliably, the hidden cost is the revenue you keep losing.",
+      "Most shops see the automation pay for itself within the first month or two. The math is straightforward: if your average job is worth $500 to $2,000 and automation captures even 2 to 3 extra jobs per month that would have been lost to slow response, the investment is recovered quickly. But results vary — it depends on your lead volume, current response time, and what you automate first.",
   },
 ];
 
@@ -90,7 +92,7 @@ const Section = ({
 /* ================================================================== */
 /*  PAGE COMPONENT                                                     */
 /* ================================================================== */
-const HireAiAutomationConsultantVsAgency = () => {
+const AiAutomationForHvacCompanies = () => {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   useEffect(() => {
@@ -100,37 +102,37 @@ const HireAiAutomationConsultantVsAgency = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Hire an AI Automation Consultant vs. Agency vs. DIY | Dmytro AI</title>
+        <title>AI Automation for HVAC Companies — What's Real and What's Hype | Dmytro AI</title>
         <meta
           name="description"
-          content="Comparing your options for AI automation: solo consultant, agency, or DIY. Honest breakdown of cost, speed, quality, and what makes sense for your business."
+          content="Honest overview of AI automation for HVAC companies. What actually works, what's overhyped, where to start, and realistic ROI expectations for shops of all sizes."
         />
         <link
           rel="canonical"
-          href="https://www.dmytroai.com/hire-ai-automation-consultant-vs-agency"
+          href="https://www.dmytroai.com/ai-automation-for-hvac-companies"
         />
         <meta
           property="og:title"
-          content="Hire an AI Automation Consultant vs. Agency vs. DIY | Dmytro AI"
+          content="AI Automation for HVAC Companies — What's Real and What's Hype | Dmytro AI"
         />
         <meta
           property="og:description"
-          content="Should you hire a consultant, an agency, or do it yourself? Honest comparison for business owners exploring AI automation."
+          content="Honest overview of AI automation for HVAC companies. What works, what doesn't, and where to start."
         />
         <meta property="og:type" content="article" />
         <meta
           property="og:url"
-          content="https://www.dmytroai.com/hire-ai-automation-consultant-vs-agency"
+          content="https://www.dmytroai.com/ai-automation-for-hvac-companies"
         />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: "Hire an AI Automation Consultant vs. Agency vs. DIY",
+            name: "AI Automation for HVAC Companies — What's Real and What's Hype",
             description:
-              "A practical comparison of hiring a solo AI automation consultant, working with an agency, or building automations yourself. Cost, speed, and quality breakdown for small businesses.",
+              "An honest overview of AI automation for HVAC companies: what works today, what's overhyped, common starting points, and realistic ROI expectations.",
             author: { "@id": "https://www.dmytroai.com/#person" },
-            url: "https://www.dmytroai.com/hire-ai-automation-consultant-vs-agency",
+            url: "https://www.dmytroai.com/ai-automation-for-hvac-companies",
           })}
         </script>
         <script type="application/ld+json">
@@ -152,7 +154,7 @@ const HireAiAutomationConsultantVsAgency = () => {
       <Navbar />
 
       <main className="pt-24 md:pt-28">
-        {/* ── Hero ───────────────────────────────────────────────── */}
+        {/* -- Hero -------------------------------------------------- */}
         <section className="relative overflow-hidden bg-background pb-16 md:pb-24">
           <div className="absolute inset-0 opacity-[0.02]">
             <div
@@ -174,20 +176,21 @@ const HireAiAutomationConsultantVsAgency = () => {
               className="max-w-3xl"
             >
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 text-cyan-600 text-sm font-medium mb-6">
-                <Scale className="w-4 h-4" />
-                Buyer's Guide
+                <Thermometer className="w-4 h-4" />
+                HVAC + AI Overview
               </div>
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-5 tracking-tight">
-                Hire an AI Automation Consultant vs. Agency vs. DIY
+                AI Automation for HVAC Companies — What's Real and What's Hype
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-                You know your business needs automation. The question is who
-                builds it. Here's an honest comparison of your three options —
-                with real tradeoffs, not a sales pitch.
+                Every HVAC vendor is talking about AI now. Most of it is
+                marketing. This page breaks down what actually works for HVAC
+                companies today, where the real wins are, and what you can
+                safely ignore.
               </p>
               <p className="text-base text-muted-foreground leading-relaxed mb-8">
-                Below: what each path actually looks like, what it costs, who
-                it's best for, and how to decide.
+                No inflated stats. No "10x your revenue" claims. Just an honest
+                look at where automation fits in the HVAC business model.
               </p>
               <Button
                 size="lg"
@@ -201,32 +204,40 @@ const HireAiAutomationConsultantVsAgency = () => {
           </div>
         </section>
 
-        {/* ── The three paths ────────────────────────────────────── */}
+        {/* -- What AI automation means for HVAC --------------------- */}
         <Section className="bg-secondary/30">
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
-            Three ways to get AI automation into your business
+            What "AI automation" actually means for an HVAC company
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
-            Each option has genuine strengths. The right choice depends on your
-            budget, timeline, and how much hands-on attention your automation
-            needs:
+          <p className="text-lg text-muted-foreground max-w-3xl mb-6 leading-relaxed">
+            Strip away the buzzwords and AI automation for HVAC boils down to
+            this: software that handles repetitive, time-sensitive tasks your
+            team doesn't have the bandwidth for.
+          </p>
+          <p className="text-base text-muted-foreground max-w-3xl mb-10 leading-relaxed">
+            It's not a robot replacing your technicians. It's not a chatbot
+            pretending to be human. In practice, it's a set of workflows that
+            run in the background — answering calls after hours, texting leads
+            back instantly, sending reminders before appointments, following up
+            on quotes that went cold. The stuff that should happen every time
+            but doesn't because your team is busy running service calls.
           </p>
           <div className="grid gap-6 md:grid-cols-3">
             {[
               {
-                icon: Users,
-                title: "Solo consultant",
-                body: "One person who diagnoses your workflow, builds the system, and hands it off. Direct access to the builder. Fast turnaround. Best for businesses that want a working system without the overhead of a large team.",
+                icon: Phone,
+                title: "Communication automation",
+                body: "Instant text-backs on missed calls, automated follow-up sequences on new leads, appointment confirmations and reminders. The communication that makes or breaks whether a lead becomes a job.",
               },
               {
-                icon: Building2,
-                title: "Agency",
-                body: "A team with account managers, project managers, and specialists. Good for large, multi-discipline projects that need design, marketing, and automation all at once. Higher cost, longer timelines, more process.",
+                icon: CalendarCheck,
+                title: "Scheduling and dispatch workflows",
+                body: "AI that books appointments from inbound calls or web forms, syncs with your calendar, and sends the right confirmations. Not replacing your dispatcher — handling the intake so they can focus on routing.",
               },
               {
-                icon: Wrench,
-                title: "DIY (Zapier, Make, ChatGPT)",
-                body: "You build it yourself using no-code tools. Low upfront cost, full control. Works well for simple, single-step automations. Gets difficult fast when you need multi-step logic, error handling, or custom integrations.",
+                icon: TrendingUp,
+                title: "Revenue recovery",
+                body: "Reactivating past customers for seasonal maintenance, following up on unsold estimates, and requesting reviews after completed jobs. Revenue that's already in your database, just not being captured.",
               },
             ].map((item, i) => (
               <motion.div
@@ -251,79 +262,30 @@ const HireAiAutomationConsultantVsAgency = () => {
           </div>
         </Section>
 
-        {/* ── Side-by-side comparison ────────────────────────────── */}
+        {/* -- Real vs overhyped ------------------------------------- */}
         <Section>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
-            Side-by-side comparison
+            Real vs. overhyped: an honest breakdown
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
-            Here's how the three options stack up across the factors that
-            actually matter when you're choosing who builds your automation:
+            Not everything labeled "AI" is worth your money. Here's what
+            delivers real results for HVAC companies today versus what's still
+            more marketing than substance.
           </p>
-          <div className="overflow-x-auto">
-            <table className="w-full text-left text-sm border-collapse max-w-4xl">
-              <thead>
-                <tr className="border-b border-border/60">
-                  <th className="py-3 pr-4 font-semibold text-foreground" />
-                  <th className="py-3 px-4 font-semibold text-foreground">
-                    Solo consultant
-                  </th>
-                  <th className="py-3 px-4 font-semibold text-foreground">
-                    Agency
-                  </th>
-                  <th className="py-3 px-4 font-semibold text-foreground">
-                    DIY
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="text-muted-foreground">
-                {[
-                  ["Cost", "$1.5K–$8K one-time", "$5K–$25K+", "Low upfront, high time cost"],
-                  ["Timeline", "1–3 weeks", "4–8 weeks", "Weeks to months"],
-                  ["Who builds it", "The person you talk to", "A team you may never meet", "You"],
-                  ["Diagnosis depth", "Maps your actual workflow", "Template-driven assessment", "You figure it out"],
-                  ["Customization", "Built for your process", "Adapted from existing templates", "Limited by platform"],
-                  ["Communication", "Direct, one person", "Account manager relay", "Community forums / docs"],
-                  ["Ongoing support", "Direct access to builder", "Support ticket queue", "Self-serve"],
-                  ["Ownership", "You own everything", "Depends on contract", "You own everything"],
-                  ["Best for", "SMBs that want results fast", "Large orgs, multi-discipline projects", "Simple single-step automations"],
-                ].map((row, i) => (
-                  <tr key={i} className="border-b border-border/30">
-                    <td className="py-3 pr-4 font-medium text-foreground">
-                      {row[0]}
-                    </td>
-                    <td className="py-3 px-4">{row[1]}</td>
-                    <td className="py-3 px-4">{row[2]}</td>
-                    <td className="py-3 px-4">{row[3]}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </Section>
-
-        {/* ── When each option is best ───────────────────────────── */}
-        <Section className="bg-secondary/30">
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
-            When each option is the right call
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
-            There's no universally right answer. Here's when each path makes
-            the most sense:
-          </p>
-          <div className="grid gap-6 md:grid-cols-3 max-w-5xl">
+          <div className="grid gap-6 md:grid-cols-2 max-w-4xl">
             <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6">
               <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
-                <Users className="w-5 h-5 text-primary" />
-                Hire a consultant when…
+                <CheckCircle2 className="w-5 h-5 text-primary" />
+                Proven and delivering ROI
               </h3>
               <ul className="space-y-3">
                 {[
-                  "You have a specific workflow to automate and want it done fast",
-                  "You want direct access to the person building your system",
-                  "Your budget is $2K–$8K and you need maximum ROI from it",
-                  "You value speed and accountability over process and meetings",
-                  "You need someone who understands your operations, not just the tools",
+                  "Missed call text-back — instant response when nobody can answer the phone",
+                  "Lead follow-up sequences — automated texts and emails within 60 seconds of inquiry",
+                  "Appointment booking from inbound calls or web forms",
+                  "Review request automation after completed jobs",
+                  "Seasonal maintenance reminders to your existing customer base",
+                  "Quote follow-up sequences for estimates that haven't closed",
                 ].map((item, i) => (
                   <li
                     key={i}
@@ -337,45 +299,22 @@ const HireAiAutomationConsultantVsAgency = () => {
             </div>
             <div className="rounded-2xl border border-border/60 bg-card/80 p-6">
               <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
-                <Building2 className="w-5 h-5 text-muted-foreground" />
-                Hire an agency when…
+                <AlertTriangle className="w-5 h-5 text-muted-foreground" />
+                Overhyped or not ready yet
               </h3>
               <ul className="space-y-3">
                 {[
-                  "You need multiple disciplines at once (design, ads, automation)",
-                  "You have a budget above $10K and can absorb longer timelines",
-                  "You need a large team to run ongoing campaigns alongside automation",
-                  "You're a mid-to-large company with formal procurement processes",
-                  "You want one vendor for everything, even if it's more expensive",
+                  "AI that diagnoses HVAC equipment remotely from sensor data — interesting but not reliable enough for most shops",
+                  "Fully autonomous dispatch that replaces your dispatcher entirely — too many edge cases",
+                  "\"AI marketing\" that writes all your content and runs your ads — generic output that doesn't convert",
+                  "Predictive maintenance for residential — works in commercial/industrial, not enough data for residential",
+                  "Chatbots that \"handle everything\" — most customers still prefer a text or call, not a chat widget",
                 ].map((item, i) => (
                   <li
                     key={i}
                     className="flex items-start gap-2 text-sm text-muted-foreground leading-relaxed"
                   >
-                    <CheckCircle2 className="w-4 h-4 text-muted-foreground/60 flex-shrink-0 mt-0.5" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="rounded-2xl border border-border/60 bg-card/80 p-6">
-              <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
-                <Wrench className="w-5 h-5 text-muted-foreground" />
-                Go DIY when…
-              </h3>
-              <ul className="space-y-3">
-                {[
-                  "Your automation is a single step: trigger → action",
-                  "You enjoy tinkering with tools and have time to invest",
-                  "Budget is very tight and you're willing to trade time for money",
-                  "You're just experimenting and don't need reliability yet",
-                  "The automation is for personal productivity, not business-critical",
-                ].map((item, i) => (
-                  <li
-                    key={i}
-                    className="flex items-start gap-2 text-sm text-muted-foreground leading-relaxed"
-                  >
-                    <CheckCircle2 className="w-4 h-4 text-muted-foreground/60 flex-shrink-0 mt-0.5" />
+                    <XCircle className="w-4 h-4 text-muted-foreground/60 flex-shrink-0 mt-0.5" />
                     {item}
                   </li>
                 ))}
@@ -384,36 +323,104 @@ const HireAiAutomationConsultantVsAgency = () => {
           </div>
         </Section>
 
-        {/* ── Hidden costs ───────────────────────────────────────── */}
-        <Section>
+        {/* -- Where HVAC companies start ---------------------------- */}
+        <Section className="bg-secondary/30">
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
-            The costs nobody talks about
+            Where most HVAC companies start
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
-            The sticker price is only part of the story. Here are the hidden
-            costs that change the math for each option:
+            You don't need to automate everything at once. In our experience,
+            HVAC companies get the most impact by starting with one of these
+            three entry points — then expanding once the first system is
+            running:
+          </p>
+          <div className="max-w-3xl space-y-6">
+            {[
+              {
+                step: "1",
+                title: "Missed call text-back",
+                body: "The fastest win. When a call goes unanswered, an automatic text goes out within seconds: \"Hey, we missed your call. How can we help?\" This alone recovers leads that would have called your competitor next. Most shops set this up in under a week.",
+                link: "/hvac-missed-call-text-back",
+                linkText: "How missed call text-back works for HVAC",
+              },
+              {
+                step: "2",
+                title: "Lead follow-up automation",
+                body: "Every new lead — whether from a web form, phone call, or Google LSA — gets an instant response and a multi-step follow-up sequence. No more leads sitting in your inbox until someone has time to call back. This is where most of the revenue recovery happens.",
+                link: "/hvac-lead-follow-up-automation",
+                linkText: "HVAC lead follow-up automation details",
+              },
+              {
+                step: "3",
+                title: "AI appointment scheduling",
+                body: "An AI agent that handles the back-and-forth of booking service calls. It checks availability, confirms time windows, sends reminders, and handles rescheduling. Takes the scheduling load off your front desk without losing the personal touch.",
+                link: "/ai-appointment-setter-for-hvac",
+                linkText: "AI appointment setter for HVAC",
+              },
+            ].map((item, i) => (
+              <motion.div
+                key={item.step}
+                initial={{ opacity: 0, x: -12 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.08, duration: 0.4 }}
+                className="flex gap-5"
+              >
+                <div className="w-10 h-10 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-sm font-bold text-primary">
+                    {item.step}
+                  </span>
+                </div>
+                <div>
+                  <h3 className="text-base font-semibold text-foreground mb-1">
+                    {item.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed mb-2">
+                    {item.body}
+                  </p>
+                  <Link
+                    to={item.link}
+                    className="text-sm font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+                  >
+                    {item.linkText}
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </Link>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </Section>
+
+        {/* -- ROI expectations -------------------------------------- */}
+        <Section>
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
+            ROI expectations — honest numbers
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
+            Anyone promising "10x ROI guaranteed" is selling you something. Here
+            is how the economics actually work for most HVAC companies:
           </p>
           <div className="grid gap-5 sm:grid-cols-2 max-w-4xl">
             {[
               {
                 icon: DollarSign,
-                title: "Agency overhead",
-                body: "You're paying for account managers, project managers, office space, and sales teams. The person actually building your automation might represent 30% of what you're billed. The rest is overhead you don't benefit from.",
+                title: "The math on missed calls",
+                body: "If your average service call is worth $400 to $1,500 and you're missing even a few calls per week that go to competitors, the lost revenue adds up fast. A missed call text-back system costs $1K to $2K to build. For most shops, the payback period is short.",
               },
               {
                 icon: Clock,
-                title: "DIY time cost",
-                body: "Every hour you spend learning Zapier, debugging workflows, and searching forums is an hour you're not running your business. At $100/hour of your time, a 40-hour DIY project costs $4,000 in opportunity cost alone.",
+                title: "Speed-to-lead economics",
+                body: "Lead response studies consistently show that faster follow-up improves conversion — responding in minutes rather than hours can make a significant difference. Automation closes that gap to under 60 seconds. Even a modest improvement in conversion rate compounds quickly across your lead volume.",
               },
               {
-                icon: AlertTriangle,
-                title: "Reliability cost",
-                body: "A broken automation that drops leads or double-books customers costs you real revenue. DIY automations break more often because they're built without error handling. Agencies use templates that may not fit your edge cases. A consultant builds for your specific workflow.",
+                icon: Bot,
+                title: "Staff cost comparison",
+                body: "A full-time CSR costs $35K to $50K per year plus benefits. Automation doesn't replace them, but it handles the after-hours, weekend, and overflow work they can't. A typical automation build runs $2K to $6K one-time. The question isn't \"automation or hiring\" — it's \"how do I get more from the team I already have?\"",
               },
               {
-                icon: Zap,
-                title: "Iteration speed",
-                body: "Your business changes. When you need to update an automation, a consultant can turn it around in days. With an agency, you're in a ticket queue. With DIY, you're back to debugging. The cost of slow iteration compounds over time.",
+                icon: TrendingUp,
+                title: "Database reactivation",
+                body: "Most HVAC companies have hundreds or thousands of past customers in their CRM who haven't been contacted in months. A seasonal maintenance reactivation campaign can convert a meaningful percentage of the list. Even a modest response rate on a large list translates to real revenue from contacts you already own.",
               },
             ].map((item, i) => (
               <motion.div
@@ -438,35 +445,43 @@ const HireAiAutomationConsultantVsAgency = () => {
               </motion.div>
             ))}
           </div>
+          <p className="text-sm text-muted-foreground mt-6 max-w-3xl leading-relaxed">
+            The caveat: these numbers depend on your lead volume, average job
+            value, and current response time. A shop running 10 trucks with
+            strong inbound will see different results than a 2-truck operation
+            just starting to get leads from Google. The strategy call below
+            helps you figure out which numbers apply to your situation.
+          </p>
         </Section>
 
-        {/* ── Real results ───────────────────────────────────────── */}
+        {/* -- What results look like -------------------------------- */}
         <Section className="bg-secondary/30">
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
-            What consultant-built automation looks like
+            Results from similar service businesses
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
-            Here's what the consultant path produces in practice — real systems
-            built for real businesses:
+            These case studies are from non-HVAC service businesses, but the
+            automation patterns are identical — lead follow-up, call handling,
+            and CRM workflows translate directly:
           </p>
           <div className="grid gap-6 md:grid-cols-3">
             {[
               {
                 industry: "Restaurant",
                 headline: "100% of after-hours calls answered",
-                body: "A NYC restaurant was missing reservations every night after close. A 24/7 AI voice agent now handles all calls, books tables, and routes complex requests. Built in under two weeks by one consultant.",
+                body: "A NYC restaurant was losing reservations every night after close. A 24/7 AI voice agent now handles all calls and books tables. For HVAC, the same system answers service requests and captures emergency calls around the clock.",
                 link: "/case-studies/paris-cafe-voice-agent",
               },
               {
                 industry: "Info Business",
                 headline: "50+ qualified leads per day",
-                body: "Manual Instagram prospecting took hours and produced a handful of leads. An automated pipeline now discovers, qualifies, and delivers leads daily at $0.29 each. No agency team required.",
+                body: "Manual prospecting took hours and produced a handful of leads. An automated pipeline now discovers, qualifies, and delivers leads daily. The same lead qualification logic helps HVAC companies route the right jobs to the right techs instantly.",
                 link: "/case-studies/instagram-lead-generation",
               },
               {
                 industry: "E-commerce",
                 headline: "3x follow-up capacity",
-                body: "5,600+ leads sitting in spreadsheets with no systematic outreach. A full CRM build with automated sequences organized every contact and tripled the team's effective capacity. One person, one project.",
+                body: "5,600+ leads sitting in spreadsheets with no outreach. A full CRM build with automated sequences organized every contact and tripled capacity. HVAC companies with years of past customers see similar results from reactivation campaigns.",
                 link: "/case-studies/ecommerce-crm-automation",
               },
             ].map((cs, i) => (
@@ -499,104 +514,50 @@ const HireAiAutomationConsultantVsAgency = () => {
           </div>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
-              to="/case-studies"
+              to="/ai-automation-hvac"
               className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
             >
-              View all case studies
+              HVAC automation services
               <ArrowRight className="w-4 h-4" />
             </Link>
             <Link
-              to="/ai-automation-consultant-small-business"
+              to="/hvac-lead-follow-up-automation"
               className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
             >
-              About automation consulting
+              HVAC lead follow-up automation
               <ArrowRight className="w-4 h-4" />
             </Link>
             <Link
-              to="/n8n-vs-zapier-small-business"
+              to="/hvac-missed-call-text-back"
               className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
             >
-              n8n vs Zapier comparison
+              HVAC missed call text back
               <ArrowRight className="w-4 h-4" />
             </Link>
             <Link
-              to="/ai-automation-for-hvac-companies"
+              to="/ai-appointment-setter-for-hvac"
               className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
             >
-              HVAC automation guide
+              AI appointment setter for HVAC
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+            <Link
+              to="/hvac-database-reactivation"
+              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+            >
+              HVAC database reactivation
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
         </Section>
 
-        {/* ── How to evaluate a consultant ───────────────────────── */}
+        {/* -- FAQ --------------------------------------------------- */}
         <Section>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
-            How to evaluate an AI automation consultant
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
-            If you decide the consultant route is right, here's what to look
-            for — and what to avoid:
-          </p>
-          <div className="grid gap-6 md:grid-cols-2 max-w-4xl">
-            <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6">
-              <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
-                <CheckCircle2 className="w-5 h-5 text-primary" />
-                Green flags
-              </h3>
-              <ul className="space-y-3">
-                {[
-                  "They can show you systems they've built, not just testimonials",
-                  "They ask about your workflow before pitching a solution",
-                  "Fixed pricing with clear scope — no open-ended hourly billing",
-                  "You talk directly to the person who builds the system",
-                  "They're upfront about what's not a fit for them",
-                  "You own everything: documentation, credentials, architecture",
-                ].map((item, i) => (
-                  <li
-                    key={i}
-                    className="flex items-start gap-2 text-sm text-muted-foreground leading-relaxed"
-                  >
-                    <CheckCircle2 className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="rounded-2xl border border-border/60 bg-card/80 p-6">
-              <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
-                <XCircle className="w-5 h-5 text-muted-foreground" />
-                Red flags
-              </h3>
-              <ul className="space-y-3">
-                {[
-                  "They promise results before understanding your business",
-                  "Vague scope, hourly billing, or 'it depends' pricing",
-                  "You can't talk to the person who'll actually build the system",
-                  "They push proprietary tools that lock you into their platform",
-                  "No case studies, no demos, just buzzwords",
-                  "They can't explain what happens if you stop working together",
-                ].map((item, i) => (
-                  <li
-                    key={i}
-                    className="flex items-start gap-2 text-sm text-muted-foreground leading-relaxed"
-                  >
-                    <AlertTriangle className="w-4 h-4 text-muted-foreground/60 flex-shrink-0 mt-0.5" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </Section>
-
-        {/* ── FAQ ────────────────────────────────────────────────── */}
-        <Section className="bg-secondary/30">
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight text-center">
-            Common questions
+            Common questions about AI automation for HVAC
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10 text-center leading-relaxed">
-            Straight answers about choosing between a consultant, agency, and DIY
+            Straight answers — no jargon, no hype
           </p>
           <div className="max-w-3xl mx-auto flex flex-col gap-3">
             {faqItems.map((item, index) => (
@@ -640,7 +601,7 @@ const HireAiAutomationConsultantVsAgency = () => {
           </div>
         </Section>
 
-        {/* ── Final CTA / Booking ────────────────────────────────── */}
+        {/* -- Final CTA / Booking ----------------------------------- */}
         <section className="relative bg-background overflow-hidden pt-8 pb-12 md:pt-14 md:pb-20 lg:pt-20 lg:pb-28">
           <div className="absolute inset-0 opacity-[0.015]">
             <div
@@ -663,17 +624,16 @@ const HireAiAutomationConsultantVsAgency = () => {
               className="text-center mb-8"
             >
               <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
-                Want to talk through your options?
+                Want to know what automation makes sense for your shop?
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-2">
-                Book a 30-minute call. We'll look at your current workflows,
-                figure out which automation path makes sense for your situation,
-                and you'll leave with a clear next step — whether that involves
-                working together or not.
+                Book a 30-minute call. We'll look at your current setup, identify
+                the highest-impact starting point, and you'll leave with a clear
+                plan — whether we work together or not.
               </p>
               <p className="text-sm text-muted-foreground">
-                No hard sell. No vague AI buzzwords. Just an honest conversation
-                about what's worth automating and who should build it.
+                No pitch deck. No generic proposal. Just a focused conversation
+                about your specific situation.
               </p>
             </motion.div>
 
@@ -686,7 +646,7 @@ const HireAiAutomationConsultantVsAgency = () => {
             >
               {[
                 { icon: Clock, text: "30-minute focused call" },
-                { icon: CheckCircle2, text: "Honest assessment of your options" },
+                { icon: Thermometer, text: "HVAC-specific recommendations" },
                 { icon: ArrowRight, text: "Leave with a plan, not a pitch" },
               ].map((item, i) => (
                 <div
@@ -737,4 +697,4 @@ const HireAiAutomationConsultantVsAgency = () => {
   );
 };
 
-export default HireAiAutomationConsultantVsAgency;
+export default AiAutomationForHvacCompanies;

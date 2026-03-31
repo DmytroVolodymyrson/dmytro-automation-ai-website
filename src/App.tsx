@@ -22,6 +22,15 @@ const AiAutomationConsultantCalgary = lazy(() => import("./pages/AiAutomationCon
 const AiAutomationHvac = lazy(() => import("./pages/AiAutomationHvac"));
 const HireAiAutomationConsultantVsAgency = lazy(() => import("./pages/HireAiAutomationConsultantVsAgency"));
 const HvacDatabaseReactivation = lazy(() => import("./pages/HvacDatabaseReactivation"));
+const AiAutomationConsultantVsFreelancer = lazy(() => import("./pages/AiAutomationConsultantVsFreelancer"));
+const AiChatbotVsAiVoiceAgentForLeadQualification = lazy(() => import("./pages/AiChatbotVsAiVoiceAgentForLeadQualification"));
+const GoHighLevelVsCustomCrmSmallBusiness = lazy(() => import("./pages/GoHighLevelVsCustomCrmSmallBusiness"));
+const AiAutomationConsultantPricingSmallBusiness = lazy(() => import("./pages/AiAutomationConsultantPricingSmallBusiness"));
+const BestAiAutomationForServiceBusinesses = lazy(() => import("./pages/BestAiAutomationForServiceBusinesses"));
+const AiAutomationForHvacCompanies = lazy(() => import("./pages/AiAutomationForHvacCompanies"));
+const HvacLeadFollowUpAutomation = lazy(() => import("./pages/HvacLeadFollowUpAutomation"));
+const HvacMissedCallTextBack = lazy(() => import("./pages/HvacMissedCallTextBack"));
+const AiAppointmentSetterForHvac = lazy(() => import("./pages/AiAppointmentSetterForHvac"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const queryClient = new QueryClient();
@@ -81,6 +90,42 @@ const App = () => (
             <Route
               path="/hvac-database-reactivation"
               element={<HvacDatabaseReactivation />}
+            />
+            <Route
+              path="/ai-automation-consultant-vs-freelancer"
+              element={<AiAutomationConsultantVsFreelancer />}
+            />
+            <Route
+              path="/ai-chatbot-vs-ai-voice-agent-for-lead-qualification"
+              element={<AiChatbotVsAiVoiceAgentForLeadQualification />}
+            />
+            <Route
+              path="/gohighlevel-vs-custom-crm-small-business"
+              element={<GoHighLevelVsCustomCrmSmallBusiness />}
+            />
+            <Route
+              path="/ai-automation-consultant-pricing-small-business"
+              element={<AiAutomationConsultantPricingSmallBusiness />}
+            />
+            <Route
+              path="/best-ai-automation-for-service-businesses"
+              element={<BestAiAutomationForServiceBusinesses />}
+            />
+            <Route
+              path="/ai-automation-for-hvac-companies"
+              element={<AiAutomationForHvacCompanies />}
+            />
+            <Route
+              path="/hvac-lead-follow-up-automation"
+              element={<HvacLeadFollowUpAutomation />}
+            />
+            <Route
+              path="/hvac-missed-call-text-back"
+              element={<HvacMissedCallTextBack />}
+            />
+            <Route
+              path="/ai-appointment-setter-for-hvac"
+              element={<AiAppointmentSetterForHvac />}
             />
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/terms" element={<TermsOfService />} />
