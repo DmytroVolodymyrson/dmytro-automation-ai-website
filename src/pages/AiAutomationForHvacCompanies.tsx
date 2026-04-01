@@ -481,7 +481,7 @@ const AiAutomationForHvacCompanies = () => {
               {
                 industry: "E-commerce",
                 headline: "Thousands of leads organized and activated",
-                body: "Thousands of leads sitting in spreadsheets with no outreach. A full CRM build with automated sequences organized every contact and dramatically increased follow-up capacity. HVAC companies with years of past customers see similar results from reactivation campaigns.",
+                body: "Thousands of leads sitting in spreadsheets with no outreach. A full CRM build with automated sequences organized every contact and made follow-up more consistent. HVAC companies with years of past customers see similar results from reactivation campaigns.",
                 link: "/case-studies/ecommerce-crm-automation",
               },
             ].map((cs, i) => (

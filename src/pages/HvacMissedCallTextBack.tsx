@@ -382,7 +382,7 @@ const HvacMissedCallTextBack = () => {
             ))}
           </div>
           <p className="text-sm text-muted-foreground mt-6 max-w-3xl leading-relaxed">
-            Total time from missed call to booked appointment: about 5 minutes.
+            Total time from missed call to booked appointment: just a few minutes.
             Without the text-back, that homeowner would be on the phone with
             your competitor by 6:50 PM.
           </p>

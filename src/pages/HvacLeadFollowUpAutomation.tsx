@@ -220,8 +220,8 @@ const HvacLeadFollowUpAutomation = () => {
             {[
               {
                 icon: Timer,
-                title: "The 5-minute window",
-                body: "Research consistently shows that contacting a lead within 5 minutes significantly increases your chances of converting them compared to waiting an hour or more. After 30 minutes, your odds drop considerably. Most HVAC companies take hours — or the next business day.",
+                title: "The speed window",
+                body: "Industry research consistently shows that faster response times improve conversion rates. The sooner you reach a lead, the better your chances. Most HVAC companies take hours or the next business day, leaving a wide gap for competitors to step in.",
               },
               {
                 icon: Phone,
@@ -275,7 +275,7 @@ const HvacLeadFollowUpAutomation = () => {
                 {[
                   "Lead submits a form at 7 PM on Tuesday",
                   "Nobody sees it until Wednesday morning",
-                  "Office manager calls back at 10 AM — 15 hours later",
+                  "Office manager calls back the next morning",
                   "Homeowner already booked with a competitor who responded at 7:30 PM",
                   "Lead is marked \"no answer\" and forgotten",
                 ].map((item, i) => (
@@ -412,7 +412,7 @@ const HvacLeadFollowUpAutomation = () => {
               {
                 industry: "E-commerce",
                 headline: "Thousands of leads organized and activated",
-                body: "Thousands of leads sitting in spreadsheets with no follow-up. Automated sequences dramatically increased outreach capacity. HVAC shops with years of unsold estimates and past customers can apply the same reactivation approach.",
+                body: "Thousands of leads sitting in spreadsheets with no follow-up. Automated sequences brought consistent outreach to every contact on the list. HVAC shops with years of unsold estimates and past customers can apply the same reactivation approach.",
                 link: "/case-studies/ecommerce-crm-automation",
               },
             ].map((cs, i) => (
