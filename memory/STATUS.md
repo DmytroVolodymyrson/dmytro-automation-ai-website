@@ -1,6 +1,19 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-04-01 13:20 MDT
+**Last updated:** 2026-04-01 13:43 MDT
+
+## Update 2026-04-01 13:43 MDT
+- Followed through on board status cleanup after verifying the live Paperclip records.
+- `DMY-26` had stale status drift: comments said the HVAC cleanup was ready for re-review, but the issue itself still said `blocked`.
+- Patched `DMY-26` status from `blocked` -> `in_progress` successfully.
+- Patched `DMY-21` status from `blocked` -> `in_progress` successfully for the same stale-board reason.
+- `DMY-23` remained correctly `in_progress`, so no parent status change was needed.
+- Current board picture is now coherent:
+  - `DMY-23` = `in_progress`
+  - `DMY-26` = `in_progress`
+  - `DMY-21` = `in_progress`
+  - `DMY-33` = `done`
+- Practical next step is QA decision / review closeout, not more website implementation.
 
 ## Update 2026-04-01 13:20 MDT
 - Synced the final HVAC cleanup state back into Paperclip after Dmytro confirmed to proceed.
