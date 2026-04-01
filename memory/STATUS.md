@@ -1,6 +1,24 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-04-01 13:43 MDT
+**Last updated:** 2026-04-01 15:11 MDT
+
+## Update 2026-04-01 15:11 MDT
+- Ran a final direct QA pass against the live repo before closing anything in Paperclip.
+- Verification on current `main` still held:
+  - `/ai-automation-hvac` only redirects to `/ai-automation-for-hvac-companies`
+  - Guides, sitemap, `llm.txt`, and `llms.txt` stay aligned with the canonical HVAC cluster
+  - no previous HVAC blocker strings reappeared in the targeted spot check
+  - `npm run build` passed cleanly and route-specific meta injected successfully
+- Closed the active HVAC QA lane in Paperclip:
+  - `DMY-26` comment posted and status moved to `done`
+  - `DMY-23` parent closeout comment posted and status moved to `done`
+- Left `DMY-21` alone at `in_progress` because it belongs to the broader older AEO/programmatic lane and was intentionally not bundled into the HVAC closeout.
+- Current board picture:
+  - `DMY-23` = `done`
+  - `DMY-26` = `done`
+  - `DMY-21` = `in_progress`
+  - `DMY-33` = `done`
+- Highest-value next website move is no longer HVAC cleanup. It is likely proof-asset collection, ad-message alignment, or homepage conversion polish.
 
 ## Update 2026-04-01 13:43 MDT
 - Followed through on board status cleanup after verifying the live Paperclip records.
