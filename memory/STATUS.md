@@ -1,6 +1,18 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-04-01 12:46 MDT
+**Last updated:** 2026-04-01 13:20 MDT
+
+## Update 2026-04-01 13:20 MDT
+- Synced the final HVAC cleanup state back into Paperclip after Dmytro confirmed to proceed.
+- Important nuance: Paperclip already had an intermediate QA comment that still reflected the pre-`d9d4574` blocked state, so the board needed a follow-up update rather than more repo edits.
+- Posted fresh board-sync comments to:
+  - `DMY-26` — final narrow copy cleanup landed; issue looks ready for QA re-review on current `main`
+  - `DMY-23` — parent now reflects that implementation cleanup is done enough and the remaining gate is QA re-review
+  - `af5d7a70-152f-4fe3-a0dc-e476e078c3dd` — route / manifest / cannibalization thread updated to current clean state
+- Repo state remained unchanged during board sync:
+  - latest code commits still `d9d4574` and `04faee1`
+  - no new website code edits were needed
+- Practical next step is still the same: QA re-review / board closeout, not more blind HVAC rewriting.
 
 ## Update 2026-04-01 12:46 MDT
 - Ran a direct QA rerun against the HVAC cluster after the earlier cleanup commits.
