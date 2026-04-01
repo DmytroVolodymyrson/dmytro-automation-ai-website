@@ -1,6 +1,27 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-03-31 14:58 MDT
+**Last updated:** 2026-04-01 12:46 MDT
+
+## Update 2026-04-01 12:46 MDT
+- Ran a direct QA rerun against the HVAC cluster after the earlier cleanup commits.
+- Verified the structural blocker set is resolved on `main`:
+  - `/ai-automation-hvac` now redirects to `/ai-automation-for-hvac-companies`
+  - `src/pages/Guides.tsx` now promotes the canonical broad HVAC page plus the narrower cluster pages, instead of two overlapping broad HVAC pages
+  - `public/sitemap.xml`, `public/llm.txt`, and `public/llms.txt` all include the active HVAC cluster and no longer rely on the deprecated broad route
+- The QA rerun still found a few copy-risk leftovers, so a final narrow cleanup was applied and pushed:
+  - commit `d9d4574` — `fix: soften remaining hvac qa-risk claims`
+  - `src/pages/HvacLeadFollowUpAutomation.tsx`
+    - softened exact timing/stat-style language (`5-minute window`, `15 hours later`)
+    - softened outreach-capacity phrasing to more supportable language
+  - `src/pages/HvacMissedCallTextBack.tsx`
+    - `about 5 minutes` → `just a few minutes`
+  - `src/pages/AiAutomationForHvacCompanies.tsx`
+    - softened `dramatically increased follow-up capacity`
+- Verification:
+  - `npm run build` passed after the final cleanup
+  - repo is clean and synced on `main`
+- Paperclip was updated earlier with the main structural cleanup; current practical state is that `DMY-21` / `DMY-26` look ready for QA re-review on current `main`.
+- Recommended next step: QA re-review, not more blind HVAC rewriting.
 
 ## Update 2026-03-31 14:58 MDT
 - Heartbeat auto-commit caught a dirty website repo after the AI-first routing upgrade pass.
