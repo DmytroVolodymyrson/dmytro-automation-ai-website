@@ -1,6 +1,25 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-04-01 15:11 MDT
+**Last updated:** 2026-04-03 10:56 MDT
+
+## Update 2026-04-03 10:56 MDT
+- Ran the full GEO prompt sweep via the repo runner: `npm run geo`.
+- Prompt source used: `scripts/geo-prompts.json` (10 prompts across 2 tracked pages).
+- Providers checked in this run:
+  - OpenAI
+  - Anthropic
+  - Gemini
+  - Perplexity
+- Result for this run: **0 across the board**.
+  - `AI Lead Follow-Up for Service Businesses` page score = 0
+  - `AI Automation Consultant Calgary` page score = 0
+  - total score = 0
+- Generated result artifacts:
+  - `docs/data/geo-results/2026-04-03.json`
+  - `docs/data/geo-results/2026-04-03.md`
+- Practical interpretation: on the API-based GEO sweep, dmytroai.com is **not showing up yet** for the tracked prompts. No direct links, brand mentions, or auto-detected citations surfaced in this run.
+- Important nuance: this runner measures reproducible API search/grounding behavior, not the exact consumer UI experience of ChatGPT/Claude/Gemini/Perplexity. It is still the best current repeatable signal in-repo.
+- Recommended next move after this baseline remains content/distribution work that can create stronger pickup signals: proof assets, sharper unique data points, and additional high-intent GEO pages.
 
 ## Update 2026-04-01 15:11 MDT
 - Ran a final direct QA pass against the live repo before closing anything in Paperclip.
