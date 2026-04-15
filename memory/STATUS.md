@@ -22,13 +22,13 @@
 - Recommended next move after this baseline remains content/distribution work that can create stronger pickup signals: proof assets, sharper unique data points, and additional high-intent GEO pages.
 
 ## Update 2026-04-01 15:11 MDT
-- Ran a final direct QA pass against the live repo before closing anything in Paperclip.
+- Ran a final direct QA pass against the live repo before closing the outstanding website QA lane.
 - Verification on current `main` still held:
   - `/ai-automation-hvac` only redirects to `/ai-automation-for-hvac-companies`
   - Guides, sitemap, `llm.txt`, and `llms.txt` stay aligned with the canonical HVAC cluster
   - no previous HVAC blocker strings reappeared in the targeted spot check
   - `npm run build` passed cleanly and route-specific meta injected successfully
-- Closed the active HVAC QA lane in Paperclip:
+- Closed the active HVAC QA lane in the prior tracking system:
   - `DMY-26` comment posted and status moved to `done`
   - `DMY-23` parent closeout comment posted and status moved to `done`
 - Left `DMY-21` alone at `in_progress` because it belongs to the broader older AEO/programmatic lane and was intentionally not bundled into the HVAC closeout.
@@ -40,7 +40,7 @@
 - Highest-value next website move is no longer HVAC cleanup. It is likely proof-asset collection, ad-message alignment, or homepage conversion polish.
 
 ## Update 2026-04-01 13:43 MDT
-- Followed through on board status cleanup after verifying the live Paperclip records.
+- Followed through on status cleanup after verifying the live tracking records.
 - `DMY-26` had stale status drift: comments said the HVAC cleanup was ready for re-review, but the issue itself still said `blocked`.
 - Patched `DMY-26` status from `blocked` -> `in_progress` successfully.
 - Patched `DMY-21` status from `blocked` -> `in_progress` successfully for the same stale-board reason.
@@ -53,8 +53,8 @@
 - Practical next step is QA decision / review closeout, not more website implementation.
 
 ## Update 2026-04-01 13:20 MDT
-- Synced the final HVAC cleanup state back into Paperclip after Dmytro confirmed to proceed.
-- Important nuance: Paperclip already had an intermediate QA comment that still reflected the pre-`d9d4574` blocked state, so the board needed a follow-up update rather than more repo edits.
+- Synced the final HVAC cleanup state back into the tracking notes after Dmytro confirmed to proceed.
+- Important nuance: the earlier tracking system already had an intermediate QA comment that still reflected the pre-`d9d4574` blocked state, so the board needed a follow-up update rather than more repo edits.
 - Posted fresh board-sync comments to:
   - `DMY-26` — final narrow copy cleanup landed; issue looks ready for QA re-review on current `main`
   - `DMY-23` — parent now reflects that implementation cleanup is done enough and the remaining gate is QA re-review
@@ -82,7 +82,7 @@
 - Verification:
   - `npm run build` passed after the final cleanup
   - repo is clean and synced on `main`
-- Paperclip was updated earlier with the main structural cleanup; current practical state is that `DMY-21` / `DMY-26` look ready for QA re-review on current `main`.
+- The earlier tracking notes were updated with the main structural cleanup; current practical state is that `DMY-21` / `DMY-26` look ready for QA re-review on current `main`.
 - Recommended next step: QA re-review, not more blind HVAC rewriting.
 
 ## Update 2026-03-31 14:58 MDT
@@ -145,23 +145,20 @@
 
 ## Update 2026-03-30 16:20 MDT
 - The website is now the intended Discord continuation point for this work via `#dmytroai-website`, not the generic `#paperclip-ing` channel.
-- Confirmed website Paperclip project exists and should be reused:
-  - project: `Website` (`b004c08e-c4d2-4bf8-ae73-6bbc7e56b7ed`)
-  - workspace: `website-repo` (`f6516846-b0d9-4526-a2b6-90e6de3053cf`)
-- Added local/private Paperclip setup note at `private/docs/paperclip-local-setup-2026-03-30.md`.
-- Added root OpenClaw routing guidance at `/Users/whatever/clawd/docs/paperclip-discord-project-routing.md` and reinforced the rule in workspace `AGENTS.md`.
-- New routing rule: website work from Discord must create Paperclip issues with explicit `projectId` + `projectWorkspaceId`; do not create generic company-only website issues.
-- New assignment rule: default to agent ownership; "board" means CEO-agent review unless Dmytro explicitly wants personal ownership.
-- Autoresearch loop was already initialized in this repo with `program.md`; future website iteration work should continue inside the Website Paperclip project.
-- Next step when resuming from `#dmytroai-website`: use the Website Paperclip project directly for HVAC / AEO / programmatic SEO / autoresearch tasks.
+- At that time, website work was being tracked in a separate local system, but that system is no longer active.
+- The durable part to keep is simpler:
+  - `#dmytroai-website` is the correct continuation channel
+  - the repo remains the source of truth
+  - `program.md` remains the autoresearch loop starting point for future website iteration
+- Next step when resuming from `#dmytroai-website`: continue directly from repo state and project memory for HVAC / AEO / programmatic SEO / autoresearch tasks.
 
 ## Update 2026-03-30 16:xx MDT
 - Analyzed a new marketing direction: whether to extend the website from GEO into bounded programmatic SEO.
 - Saved a planning doc at `docs/plans/2026-03-30-programmatic-seo-growth-plan.md`.
-- Main decision: do **not** create a separate standalone project/repo yet. Keep this inside `dmytroai-website` and manage execution as a website-growth initiative in Paperclip.
+- Main decision: do **not** create a separate standalone project/repo yet. Keep this inside `dmytroai-website` and manage execution as a website-growth initiative in the website repo and project memory.
 - Recommended approach: GEO stays the trust/citation layer; programmatic SEO becomes a bounded high-intent capture layer.
 - Guardrail: start with a 20-30 page pilot max, use only proof-backed patterns, and require human review to avoid thin-page spam.
-- Next step when resuming: create the Paperclip issue epic + first issue set from the plan, then choose the first 3 pilot pages to draft manually.
+- Next step when resuming: turn the plan into the next small website task set, then choose the first 3 pilot pages to draft manually.
 
 ## Update 2026-03-30 12:08 MDT
 - Repository synchronization check completed.
