@@ -7,10 +7,12 @@ import FAQSection from "@/components/FAQSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import BookingSection from "@/components/BookingSection";
 import Footer from "@/components/Footer";
+import HomepageHelmet from "@/components/seo/HomepageHelmet";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <HomepageHelmet />
       <Navbar />
       <main>
         <HeroSection />

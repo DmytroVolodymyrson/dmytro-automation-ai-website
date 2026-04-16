@@ -129,7 +129,6 @@ const HeroSection = () => {
                   alt="Dmytro - AI Automation Expert"
                   width={448}
                   height={448}
-                  fetchPriority="high"
                   decoding="async"
                   className="relative w-80 h-80 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem] rounded-full object-cover shadow-2xl border-4 border-background"
                   style={{ objectPosition: 'center 10%' }}

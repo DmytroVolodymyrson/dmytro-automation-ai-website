@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "@/lib/helmet";
 import {
   AlertTriangle,
   ArrowRight,

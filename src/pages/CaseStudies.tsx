@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "@/lib/helmet";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CaseStudyCard from "@/components/case-studies/CaseStudyCard";
