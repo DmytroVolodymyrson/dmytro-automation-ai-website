@@ -9,21 +9,41 @@ That file is the source of truth for both the automated runner and manual spot c
 
 ## Current Tracked Pages
 
+This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
+
+### Strategy + comparison pages
 - `/ai-automation-consultant-small-business`
 - `/n8n-vs-zapier-small-business`
+- `/hire-ai-automation-consultant-vs-agency`
+- `/ai-automation-consultant-pricing-small-business`
+- `/ai-automation-consultant-vs-freelancer`
+
+### Workflow + solution pages
 - `/ai-appointment-setter`
-- `/ai-voice-agent-for-restaurants`
 - `/ai-lead-follow-up-for-service-businesses`
+- `/client-onboarding-automation`
+- `/ai-automation-roi-guide`
+- `/n8n-automation-examples-small-business`
+- `/ai-email-sequence-automation`
+
+### Geo + industry pages
 - `/ai-automation-consultant-calgary`
 - `/ai-automation-consultant-edmonton`
 - `/ai-automation-for-hvac-companies`
+- `/ai-voice-agent-for-restaurants`
+- `/ai-automation-for-real-estate`
+- `/ai-automation-for-insurance-agencies`
+- `/ai-automation-for-property-management`
 
 ## Weekly Check Process
 
 1. Run the automated baseline first:
    - `npm run geo`
 2. Review the generated markdown report in `docs/data/geo-results/YYYY-MM-DD.md`
-3. For any page you actively published or improved this week, manually spot-check the most important prompts in ChatGPT, Perplexity, Gemini, and Claude web UIs
+3. Manually spot-check only:
+   - the page you published or improved this week
+   - any page that got its first non-zero score
+   - 2-3 highest-value commercial pages if the automated run looks flat
 4. Upgrade automated `-` scores to `P` or `R` if the answer clearly paraphrases the page or recommends Dmytro without a direct link
 5. Note what changed versus last week: first citation, first name mention, dropped visibility, or new competitor pattern
 
@@ -64,7 +84,7 @@ Weekly score per page = sum of all prompt results across all platforms.
 
 Use this when you want a compact manual notes block for a specific page:
 
-```
+```text
 Week of: YYYY-MM-DD
 Page: /example-path
 
@@ -100,6 +120,18 @@ Results are saved to `docs/data/geo-results/`:
 Requires: `OPENAI_API_KEY`, `ANTHROPIC_API_KEY`, `GEMINI_API_KEY`, `PERPLEXITY_API_KEY` in `.env.local`.
 
 **Note:** API-based results may differ from browser UI results. APIs use web search tools but may not have the same retrieval index as the consumer products. Treat API results as a consistent, reproducible signal, not an exact replica of UI behavior.
+
+## Tracking Expansion Rule
+
+When a new page is published, add it to `scripts/geo-prompts.json` only if it is one of:
+- a new primary commercial page
+- a new workflow / comparison page with distinct intent
+- an industry page that maps to a real service cluster
+
+If a page is useful but not yet priority enough to track weekly, leave it out until:
+- the page gets real clicks or leads
+- a related case study ships
+- a nearby tracked page starts showing GEO movement
 
 ---
 
@@ -157,4 +189,3 @@ Notes:
 - All APIs returned substantive answers with web search grounding — no errors.
 - dmytroai.com not yet in any provider's search index for these queries.
 - Anthropic/Claude had highest latency (~20-40s) due to web search tool execution.
-```

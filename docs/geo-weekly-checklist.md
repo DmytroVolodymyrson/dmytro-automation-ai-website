@@ -10,7 +10,7 @@ Time budget: 30-45 minutes.
 Pick one:
 
 - [ ] **Publish** a new decision page from the roadmap queue (`docs/geo-roadmap.md`)
-- [ ] **Improve** an existing page (content, schema, FAQ, freshness update)
+- [ ] **Improve** an existing page (content, schema, FAQ, freshness update, internal links)
 - [ ] **Track only** (no publish/improve this week, just run checks)
 
 Write it down:
@@ -29,39 +29,58 @@ If publishing a new page:
 - [ ] Route added in `src/routes.tsx` and entry added to `sitemap.xml`
 - [ ] `llms.txt` updated if the page covers a new service or topic area
 - [ ] Update the "Live GEO Assets" table in `docs/geo-roadmap.md`
+- [ ] Add the page to `scripts/geo-prompts.json` only if it belongs in the bounded weekly watchlist
 
 If improving an existing page:
 
-- [ ] Identify what to improve (thin content, missing schema, stale metrics, weak opening)
+- [ ] Identify what to improve (thin content, missing schema, stale metrics, weak opening, weak internal-link support)
 - [ ] Make the change
 - [ ] Update `dateModified` in Article schema
 - [ ] Add the improvement to this week's tracking notes
 
 ---
 
-## 3. Manual GEO Prompt Checks
+## 3. Automated Baseline
 
-Run the test prompts from `docs/geo-tracking.md` across ChatGPT, Perplexity, Gemini, and Claude.
+Run the scripted baseline first:
 
-For each page being tracked:
+- [ ] `npm run geo`
+- [ ] Review `docs/data/geo-results/YYYY-MM-DD.md`
+- [ ] Note any first non-zero page, first provider mention, or obvious citation drop
 
-- [ ] Run all 5 prompts on ChatGPT
-- [ ] Run all 5 prompts on Perplexity
-- [ ] Run all 5 prompts on Gemini
-- [ ] Run all 5 prompts on Claude
+Remember: `scripts/geo-prompts.json` is the source of truth for the watchlist.
+
+---
+
+## 4. Manual GEO Spot Checks
+
+Do **not** manually run every prompt for every tracked page every week. That is too much overhead once the watchlist grows.
+
+Manually check only:
+
+- [ ] the page you published or improved this week
+- [ ] any page that got its first non-zero automated result
+- [ ] 2-3 high-value commercial pages if the automated run is flat
+
+For each manual check:
+
+- [ ] Run the most important prompts in ChatGPT
+- [ ] Run the most important prompts in Perplexity
+- [ ] Run the most important prompts in Gemini
+- [ ] Run the most important prompts in Claude
 
 Record results using the codes from `docs/geo-tracking.md`:
 - **L** = direct link, **M** = mention by name, **R** = listed in recommendation, **P** = paraphrase, **-** = absent
 
-If you published a new page this week, add 3-5 test prompts for it to `docs/geo-tracking.md` so it gets tracked going forward.
+If you published a new page this week, decide whether it should join the bounded watchlist. If yes, add 3-5 prompts for it to `scripts/geo-prompts.json` and update `docs/geo-tracking.md`.
 
 ---
 
-## 4. Results Logging
+## 5. Results Logging
 
-Copy the tracking table template from `docs/geo-tracking.md` and fill it in:
+Copy the tracking table template from `docs/geo-tracking.md` and fill it in for any manual checks:
 
-```
+```text
 Week of: YYYY-MM-DD
 
 Page: _______________
@@ -83,11 +102,12 @@ Keep the filled-in tables in `docs/geo-tracking.md` or a separate log file.
 
 ---
 
-## 5. Next Decision
+## 6. Next Decision
 
 Before closing out, answer these:
 
 - [ ] Is the current week's page performing well enough, or does it need revision next week?
+- [ ] Which page should be improved next if visibility is still flat?
 - [ ] What is next week's focus? (publish / improve / track only)
 - [ ] Are there any roadmap priority changes to make? If yes, update `docs/geo-roadmap.md`.
 
@@ -101,5 +121,5 @@ Write it down:
 | Doc | What it contains |
 |-----|-----------------|
 | `docs/geo-roadmap.md` | Live assets, prioritized build queue, new-vs-improve rules, monthly review |
-| `docs/geo-tracking.md` | Test prompts, scoring rubric, tracking table templates |
-| `docs/geo-plan-2026-03.md` | Full GEO strategy, technical details, research notes |
+| `docs/geo-tracking.md` | Watchlist, prompt source, scoring rubric, tracking table templates |
+| `docs/geo-runner.md` | Automated runner usage and output |

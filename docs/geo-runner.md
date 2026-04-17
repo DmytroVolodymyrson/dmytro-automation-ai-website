@@ -37,7 +37,7 @@ You only need the providers you want to track. The runner gracefully skips any p
 
 ## How It Works
 
-1. Reads prompts from `scripts/geo-prompts.json` (derived from `docs/geo-tracking.md`)
+1. Reads prompts from `scripts/geo-prompts.json`
 2. Sends each prompt to each available provider with web search / grounding enabled
 3. Checks responses and citations for dmytroai.com or brand name mentions
 4. Auto-scores each result: **L** (link), **M** (mention), **-** (absent)
@@ -83,9 +83,17 @@ API results may differ from the web UI experience for each provider. The web UIs
 1. Every Friday, run `npm run geo`
 2. Review the generated `.md` summary
 3. Manually upgrade any `-` scores to P or R where appropriate
-4. Commit the results to the repo: `git add docs/data/geo-results/ && git commit -m "data: geo run YYYY-MM-DD"`
-5. Compare week-over-week using the JSON files or markdown tables
+4. Spot-check only the pages that were improved, newly published, or showed movement
+5. Commit the results to the repo: `git add docs/data/geo-results/ && git commit -m "data: geo run YYYY-MM-DD"`
+6. Compare week-over-week using the JSON files or markdown tables
 
 ## Adding Prompts or Pages
 
-Edit `scripts/geo-prompts.json` to add new tracked pages or prompts. The format is self-documenting. Keep `docs/geo-tracking.md` in sync for the human-readable reference.
+Edit `scripts/geo-prompts.json` to add new tracked pages or prompts. Keep `docs/geo-tracking.md` in sync for the human-readable reference.
+
+Use a bounded watchlist. Add a page only if it is:
+- a primary commercial page
+- a workflow / comparison page with distinct intent
+- an industry page tied to a real service cluster or adjacent proof
+
+Do not automatically track every new page the site publishes. Keep the watchlist useful and reviewable.

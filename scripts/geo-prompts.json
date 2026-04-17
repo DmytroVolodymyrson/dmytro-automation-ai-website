@@ -99,6 +99,42 @@
       ]
     },
     {
+      "id": "hire-ai-automation-consultant-vs-agency",
+      "path": "/hire-ai-automation-consultant-vs-agency",
+      "label": "Hire an AI Automation Consultant vs Agency",
+      "prompts": [
+        "Should I hire an AI automation consultant or an agency?",
+        "AI automation consultant vs agency for small business",
+        "Is a freelance AI automation consultant better than an agency?",
+        "Who should build AI automation for a service business consultant or agency?",
+        "How do I choose between AI automation agency and solo consultant?"
+      ]
+    },
+    {
+      "id": "ai-automation-consultant-pricing-small-business",
+      "path": "/ai-automation-consultant-pricing-small-business",
+      "label": "AI Automation Consultant Pricing for Small Business",
+      "prompts": [
+        "AI automation consultant pricing for small business",
+        "How much does an AI automation consultant cost?",
+        "Typical AI automation project cost for a small business",
+        "AI automation retainer pricing for service businesses",
+        "What affects the price of AI automation consulting?"
+      ]
+    },
+    {
+      "id": "ai-automation-consultant-vs-freelancer",
+      "path": "/ai-automation-consultant-vs-freelancer",
+      "label": "AI Automation Consultant vs Freelancer",
+      "prompts": [
+        "AI automation consultant vs freelancer",
+        "Should I hire an AI consultant or a freelancer for automation?",
+        "Difference between AI automation consultant and freelancer",
+        "Best option for small business AI automation consultant or freelancer",
+        "Who is more accountable freelancer or consultant for automation projects?"
+      ]
+    },
+    {
       "id": "client-onboarding-automation",
       "path": "/client-onboarding-automation",
       "label": "Client Onboarding Automation",
@@ -135,6 +171,30 @@
       ]
     },
     {
+      "id": "ai-email-sequence-automation",
+      "path": "/ai-email-sequence-automation",
+      "label": "AI Email Sequence Automation",
+      "prompts": [
+        "AI email sequence automation",
+        "How do I automate follow-up emails with AI?",
+        "AI email nurture sequence for small business",
+        "Best way to automate lead nurture emails",
+        "Can AI personalize email follow-up at scale for a service business?"
+      ]
+    },
+    {
+      "id": "ai-automation-for-real-estate",
+      "path": "/ai-automation-for-real-estate",
+      "label": "AI Automation for Real Estate",
+      "prompts": [
+        "AI automation for real estate",
+        "How can real estate agents automate lead follow-up with AI?",
+        "Best AI tools for real estate follow-up",
+        "Automate showing coordination and CRM follow-up for real estate",
+        "Should a real estate team use AI for inbound lead response?"
+      ]
+    },
+    {
       "id": "ai-automation-for-insurance-agencies",
       "path": "/ai-automation-for-insurance-agencies",
       "label": "AI Automation for Insurance Agencies",
@@ -144,6 +204,18 @@
         "Automate renewal reminders for insurance agency",
         "AI follow-up for insurance agents",
         "Best AI tools for independent insurance agencies"
+      ]
+    },
+    {
+      "id": "ai-automation-for-property-management",
+      "path": "/ai-automation-for-property-management",
+      "label": "AI Automation for Property Management",
+      "prompts": [
+        "AI automation for property management",
+        "How can property managers automate tenant communication with AI?",
+        "Best AI workflows for property management companies",
+        "Automate maintenance requests and lease renewals",
+        "Should a property management company use AI for showing coordination?"
       ]
     }
   ],
