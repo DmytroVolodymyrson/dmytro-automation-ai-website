@@ -491,36 +491,69 @@ const scrollToBooking = () => {
 const DecisionPageTemplate = ({ data }: { data: DecisionPageData }) => {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
+  const BadgeIcon = data.badgeIcon;
+  const pageUrl = `https://www.dmytroai.com/${data.slug}`;
+  const pageName = data.h1;
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-  const BadgeIcon = data.badgeIcon;
 
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>{data.metaTitle}</title>
         <meta name="description" content={data.metaDescription} />
-        <link
-          rel="canonical"
-          href={`https://www.dmytroai.com/${data.slug}`}
-        />
+        <link rel="canonical" href={pageUrl} />
         <meta property="og:title" content={data.metaTitle} />
         <meta property="og:description" content={data.metaDescription} />
         <meta property="og:type" content="article" />
-        <meta
-          property="og:url"
-          content={`https://www.dmytroai.com/${data.slug}`}
-        />
+        <meta property="og:url" content={pageUrl} />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: data.h1,
+            headline: pageName,
             description: data.metaDescription,
             author: { "@id": "https://www.dmytroai.com/#person" },
-            url: `https://www.dmytroai.com/${data.slug}`,
+            publisher: { "@id": "https://www.dmytroai.com/#person" },
+            mainEntityOfPage: pageUrl,
+            isPartOf: {
+              "@type": "WebSite",
+              name: "Dmytro AI",
+              url: "https://www.dmytroai.com",
+            },
+            about: {
+              "@type": "Thing",
+              name: pageName,
+            },
+            url: pageUrl,
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.dmytroai.com/",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Guides",
+                item: "https://www.dmytroai.com/guides",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: pageName,
+                item: pageUrl,
+              },
+            ],
           })}
         </script>
         <script type="application/ld+json">
