@@ -168,6 +168,62 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "After-Hours Lead Capture",
+    description:
+      "How service businesses capture leads after hours with AI automation. Instant responses to calls, forms, and messages when your office is closed.",
+    href: "/after-hours-lead-capture-for-service-businesses",
+    category: "workflows",
+  },
+  {
+    title: "Missed Call Follow-Up Automation",
+    description:
+      "Instant text-back, voicemail transcription, CRM logging, and automated sequences. Stop losing leads to unanswered calls.",
+    href: "/missed-call-follow-up-automation",
+    category: "workflows",
+  },
+  {
+    title: "Booking Confirmation & Reminder Automation",
+    description:
+      "Automated confirmations, multi-step reminders, and rescheduling flows that reduce no-shows for appointment-based businesses.",
+    href: "/booking-confirmation-and-reminder-automation",
+    category: "workflows",
+  },
+  {
+    title: "AI Phone Answering for Service Businesses",
+    description:
+      "24/7 AI phone answering — call handling, appointment booking, caller qualification, and CRM integration without adding staff.",
+    href: "/ai-phone-answering-for-service-businesses",
+    category: "workflows",
+  },
+  {
+    title: "Instant Lead Response Automation",
+    description:
+      "Respond to every form fill, call, and message in under 60 seconds with AI-powered workflows. Be the first to respond, every time.",
+    href: "/instant-lead-response-automation",
+    category: "workflows",
+  },
+  {
+    title: "Quote Follow-Up Automation",
+    description:
+      "Automated reminders, objection handling, and timed sequences that close more estimates without manual chasing.",
+    href: "/quote-follow-up-automation",
+    category: "workflows",
+  },
+  {
+    title: "Client Reactivation Automation",
+    description:
+      "Automated campaigns to re-engage past customers, dormant leads, and lapsed clients. Turn your CRM into a revenue source.",
+    href: "/client-reactivation-automation",
+    category: "workflows",
+  },
+  {
+    title: "No-Show Reduction Automation",
+    description:
+      "Confirmation requests, timed reminders, easy rescheduling, and deposit workflows that cut no-shows by 50% or more.",
+    href: "/no-show-reduction-automation",
+    category: "workflows",
+  },
+  {
     title: "AI Automation for HVAC Companies",
     description:
       "Honest overview of AI automation for HVAC — what works today, what's overhyped, common starting points, and realistic ROI expectations.",

@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-instant-lead-response",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: Instant Lead Response Automation\nBody: The first business to respond gets the job. Not the cheapest. Not the most experienced. The fastest. Research consistently shows that responding to a lead within 60 seconds is dramatically more effective than responding in 5 minutes — and most service businesses take hours or days. Instant lead response automation eliminates that gap entirely. Every form fill, missed call, and message gets an immediate, intelligent response without your team doing anything manually.\nSub: Below: what instant response looks like across different channels, why speed matters this much, and how to set it up for your business.\n\n### Core sections\n- How instant response works across channels (6 channels)\n- Why response speed matters this much (prose with data)\n- ROI of instant lead response\n\n### FAQ\nSubhead: Common questions about instant lead response automation\n\n### Final CTA\nHeading: Be the first to respond, every time\nBody: Book a 30-minute call. We will look at your current lead sources, response times, and map out what instant response would look like for your business.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "addition",
+      "text": "",
+      "description": "Published as part of batch 3. High-value page added to GEO watchlist."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Lead with the core insight: first responder wins, speed beats price and reputation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Covers all lead channels: forms, calls, chat, social, ads."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks to AI lead follow-up, missed call follow-up, and AI email sequence automation."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T20:56:24.139Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        1,
+        1,
+        2
+      ],
+      "avgSentenceLength": 14.6,
+      "sentenceLengthRange": [
+        2,
+        28
+      ],
+      "totalWords": 175
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Instant Lead Response Automation\nBody: The first business to respond gets the job.",
+      "wordCount": 15,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Be the first to respond, every time\nBody: Book a 30-minute call. We will look at your current lead sources, response times, and map out what instant response would look like for your business.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "context",
+        "closer"
+      ],
+      "template": "opener | result | context | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 8,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 3,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 7,
+      "commasPerSentence": 0.8
+    },
+    "vocabulary": {
+      "distinctWords": 110,
+      "totalWords": 175,
+      "topWords": [
+        [
+          "response",
+          10
+        ],
+        [
+          "instant",
+          7
+        ],
+        [
+          "lead",
+          6
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "business",
+          3
+        ],
+        [
+          "channels",
+          3
+        ],
+        [
+          "-",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "first",
+          2
+        ],
+        [
+          "respond",
+          2
+        ],
+        [
+          "gets",
+          2
+        ],
+        [
+          "not",
+          2
+        ],
+        [
+          "most",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

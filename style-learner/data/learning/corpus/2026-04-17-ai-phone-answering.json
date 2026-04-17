@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-phone-answering",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Phone Answering for Service Businesses\nBody: Your phone rings and nobody picks up. The caller hangs up and calls your competitor. This happens dozens of times per week for busy service businesses — during jobs, after hours, on weekends. AI phone answering means every call gets answered, every time. Not a voicemail. Not an answering service. An AI agent that can answer questions, qualify the caller, and book appointments directly into your calendar.\nSub: Below: what AI phone answering actually does, what callers experience, where it works well, and where it does not.\n\n### Core sections\n- What AI phone answering handles (6 capabilities)\n- AI phone answering vs alternatives (comparison table)\n- What callers actually experience (considerations section)\n\n### FAQ\nSubhead: Practical answers about AI phone answering for service businesses\n\n### Final CTA\nHeading: Stop losing callers to voicemail\nBody: Book a 30-minute call. We will look at your call volume, where calls are being missed, and whether AI phone answering would pay off for your business.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 3. Broadens the voice-agent cluster beyond restaurants."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Includes comparison table (AI vs answering service vs voicemail) for decision-making."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks to AI voice agent for restaurants, missed call follow-up, and AI appointment setter."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Addresses caller experience directly — voice quality, interruptions, handoffs."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T20:56:24.135Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        1,
+        1,
+        2
+      ],
+      "avgSentenceLength": 13.9,
+      "sentenceLengthRange": [
+        3,
+        25
+      ],
+      "totalWords": 167
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Phone Answering for Service Businesses\nBody: Your phone rings and nobody picks up.",
+      "wordCount": 16,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing callers to voicemail\nBody: Book a 30-minute call. We will look at your call volume, where calls are being missed, and whether AI phone answering would pay off for your business.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 10,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 3,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 7,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 102,
+      "totalWords": 167,
+      "topWords": [
+        [
+          "ai",
+          8
+        ],
+        [
+          "phone",
+          8
+        ],
+        [
+          "answering",
+          8
+        ],
+        [
+          "your",
+          5
+        ],
+        [
+          "service",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "businesses",
+          3
+        ],
+        [
+          "call",
+          3
+        ],
+        [
+          "not",
+          3
+        ],
+        [
+          "callers",
+          3
+        ],
+        [
+          "where",
+          3
+        ],
+        [
+          "-",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "up",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

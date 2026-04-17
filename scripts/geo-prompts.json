@@ -217,6 +217,30 @@
         "Automate maintenance requests and lease renewals",
         "Should a property management company use AI for showing coordination?"
       ]
+    },
+    {
+      "id": "instant-lead-response-automation",
+      "path": "/instant-lead-response-automation",
+      "label": "Instant Lead Response Automation",
+      "prompts": [
+        "How to respond to leads instantly with automation",
+        "Instant lead response automation for service businesses",
+        "Best way to automate lead response time",
+        "Speed to lead automation for small business",
+        "How do I respond to every lead in under 60 seconds?"
+      ]
+    },
+    {
+      "id": "missed-call-follow-up-automation",
+      "path": "/missed-call-follow-up-automation",
+      "label": "Missed Call Follow-Up Automation",
+      "prompts": [
+        "Missed call follow-up automation",
+        "How to automatically text back missed calls for my business",
+        "Missed call text-back automation for service businesses",
+        "Best way to follow up on missed business calls",
+        "How do I stop losing leads to missed calls?"
+      ]
     }
   ],
   "providers": ["openai", "anthropic", "gemini", "perplexity"],

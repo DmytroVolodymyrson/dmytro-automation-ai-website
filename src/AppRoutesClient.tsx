@@ -43,6 +43,14 @@ const N8nAutomationExamplesSmallBusiness = lazy(() => import("./pages/N8nAutomat
 const AiEmailSequenceAutomation = lazy(() => import("./pages/AiEmailSequenceAutomation"));
 const AiAutomationForInsuranceAgencies = lazy(() => import("./pages/AiAutomationForInsuranceAgencies"));
 const AiAutomationForPropertyManagement = lazy(() => import("./pages/AiAutomationForPropertyManagement"));
+const AfterHoursLeadCapture = lazy(() => import("./pages/AfterHoursLeadCapture"));
+const MissedCallFollowUp = lazy(() => import("./pages/MissedCallFollowUp"));
+const BookingConfirmationAndReminder = lazy(() => import("./pages/BookingConfirmationAndReminder"));
+const AiPhoneAnswering = lazy(() => import("./pages/AiPhoneAnswering"));
+const InstantLeadResponse = lazy(() => import("./pages/InstantLeadResponse"));
+const QuoteFollowUp = lazy(() => import("./pages/QuoteFollowUp"));
+const ClientReactivation = lazy(() => import("./pages/ClientReactivation"));
+const NoShowReduction = lazy(() => import("./pages/NoShowReduction"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const AppRoutesClient = () => (
@@ -89,6 +97,14 @@ const AppRoutesClient = () => (
       <Route path="/ai-email-sequence-automation" element={<AiEmailSequenceAutomation />} />
       <Route path="/ai-automation-for-insurance-agencies" element={<AiAutomationForInsuranceAgencies />} />
       <Route path="/ai-automation-for-property-management" element={<AiAutomationForPropertyManagement />} />
+      <Route path="/after-hours-lead-capture-for-service-businesses" element={<AfterHoursLeadCapture />} />
+      <Route path="/missed-call-follow-up-automation" element={<MissedCallFollowUp />} />
+      <Route path="/booking-confirmation-and-reminder-automation" element={<BookingConfirmationAndReminder />} />
+      <Route path="/ai-phone-answering-for-service-businesses" element={<AiPhoneAnswering />} />
+      <Route path="/instant-lead-response-automation" element={<InstantLeadResponse />} />
+      <Route path="/quote-follow-up-automation" element={<QuoteFollowUp />} />
+      <Route path="/client-reactivation-automation" element={<ClientReactivation />} />
+      <Route path="/no-show-reduction-automation" element={<NoShowReduction />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="*" element={<NotFound />} />

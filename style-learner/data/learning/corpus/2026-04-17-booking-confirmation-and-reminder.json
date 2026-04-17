@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-booking-confirmation-and-reminder",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: Booking Confirmation and Reminder Automation\nBody: You book the appointment. The customer confirms. Then they forget, double-book, or just do not show up. No-shows cost service businesses thousands per month in lost revenue and wasted time slots. Booking confirmation and reminder automation sends the right messages at the right times — confirmation immediately, reminder the day before, final reminder the morning of — and gives customers an easy way to reschedule instead of ghosting.\nSub: Below: what a proper confirmation and reminder system looks like, how it reduces no-shows, and what kind of businesses benefit most.\n\n### Core sections\n- What a confirmation and reminder system includes\n- How reminder timing affects no-show rates (prose with data)\n- ROI of booking reminders\n\n### FAQ\nSubhead: Practical answers about booking confirmation and reminder automation\n\n### Final CTA\nHeading: Stop losing revenue to no-shows\nBody: Book a 30-minute call. We will look at your current no-show rate, estimate what it is costing you, and map out a reminder system that fits your workflow.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 3. Paired with no-show-reduction page for scheduling cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Walks through timing science: 24-hour, same-day, and active confirmation vs passive reminder."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks to AI appointment setter, no-show reduction, and client onboarding."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Practical pricing at the end ($1K-$4K range). Transparent, no upsell language."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T20:56:24.137Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        1,
+        1,
+        2
+      ],
+      "avgSentenceLength": 16.8,
+      "sentenceLengthRange": [
+        3,
+        35
+      ],
+      "totalWords": 168
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Booking Confirmation and Reminder Automation\nBody: You book the appointment.",
+      "wordCount": 12,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing revenue to no-shows\nBody: Book a 30-minute call. We will look at your current no-show rate, estimate what it is costing you, and map out a reminder system that fits your workflow.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "context",
+        "closer"
+      ],
+      "template": "opener | result | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 8,
+      "emDashes": 2,
+      "enDashes": 0,
+      "hyphens": 3,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 7,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 108,
+      "totalWords": 168,
+      "topWords": [
+        [
+          "reminder",
+          9
+        ],
+        [
+          "confirmation",
+          6
+        ],
+        [
+          "booking",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "no-shows",
+          3
+        ],
+        [
+          "system",
+          3
+        ],
+        [
+          "-",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "book",
+          2
+        ],
+        [
+          "businesses",
+          2
+        ],
+        [
+          "revenue",
+          2
+        ],
+        [
+          "right",
+          2
+        ],
+        [
+          "final",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.012
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

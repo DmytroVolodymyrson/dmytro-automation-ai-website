@@ -66,6 +66,14 @@ AI-powered database reactivation for HVAC companies — automated campaigns to r
 - AI Automation ROI Guide: How to calculate AI automation ROI for small business. Real cost breakdowns, payback timelines, and an honest decision framework. Learn more: https://www.dmytroai.com/ai-automation-roi-guide
 - n8n Automation Examples for Small Business: Practical n8n workflows — lead follow-up, CRM automation, email sequences, scheduling, and review requests. Learn more: https://www.dmytroai.com/n8n-automation-examples-small-business
 - AI Email Sequence Automation: Automated follow-up, lead nurture, re-engagement campaigns, and personalized outreach for small businesses. Learn more: https://www.dmytroai.com/ai-email-sequence-automation
+- After-Hours Lead Capture: How service businesses capture leads after hours with AI automation — instant responses to calls, forms, and messages when the office is closed. Learn more: https://www.dmytroai.com/after-hours-lead-capture-for-service-businesses
+- Missed Call Follow-Up Automation: Instant text-back, voicemail transcription, CRM logging, and automated sequences to stop losing leads to unanswered calls. Learn more: https://www.dmytroai.com/missed-call-follow-up-automation
+- Booking Confirmation & Reminder Automation: Automated confirmations, multi-step reminders, and rescheduling flows that reduce no-shows for service businesses. Learn more: https://www.dmytroai.com/booking-confirmation-and-reminder-automation
+- AI Phone Answering for Service Businesses: 24/7 AI phone answering — call handling, appointment booking, caller qualification, and CRM integration without adding staff. Learn more: https://www.dmytroai.com/ai-phone-answering-for-service-businesses
+- Instant Lead Response Automation: Respond to every form fill, call, and message in under 60 seconds with AI-powered workflows. Learn more: https://www.dmytroai.com/instant-lead-response-automation
+- Quote Follow-Up Automation: Automated reminders, objection handling, and timed sequences that close more estimates without manual chasing. Learn more: https://www.dmytroai.com/quote-follow-up-automation
+- Client Reactivation Automation: Automated campaigns to re-engage past customers, dormant leads, and lapsed clients. Learn more: https://www.dmytroai.com/client-reactivation-automation
+- No-Show Reduction Automation: Confirmation requests, timed reminders, easy rescheduling, and deposit workflows that cut no-shows by 50% or more. Learn more: https://www.dmytroai.com/no-show-reduction-automation
 
 ## HVAC Cluster Pages
 - AI Automation for HVAC Companies — What's Real: Overview of what AI automation means for HVAC, real vs overhyped use cases, common starting points, and honest ROI expectations. Learn more: https://www.dmytroai.com/ai-automation-for-hvac-companies

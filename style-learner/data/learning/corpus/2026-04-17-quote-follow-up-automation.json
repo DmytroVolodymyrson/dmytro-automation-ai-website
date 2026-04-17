@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-quote-follow-up-automation",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: Quote Follow-Up Automation\nBody: You send a quote. The prospect says they will think about it. And then silence. No response to your email. No callback. You are too busy to follow up because you are on the next job. Two weeks later, they went with someone else — not because your price was wrong, but because the other business followed up and you did not. Quote follow-up automation sends timed, relevant follow-ups that keep you top of mind without you thinking about it.\nSub: Below: what quote follow-up automation looks like in practice, which sequences close the most deals, and what makes the difference between helpful follow-up and annoying follow-up.\n\n### Core sections\n- What a quote follow-up system does (6 building blocks)\n- What makes follow-up work vs feel spammy (prose section)\n- ROI of quote follow-up automation\n\n### FAQ\nSubhead: Practical answers about quote follow-up automation\n\n### Final CTA\nHeading: Stop losing jobs to silence\nBody: Book a 30-minute call. We will look at your current quote process, estimate how many deals you are losing to no follow-up, and map out a sequence that fits your business.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 3. Supports the email/CRM follow-up cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Narrative opening that mirrors the exact experience of losing a deal to silence."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Prose section differentiates helpful vs spammy follow-up — value-add, timing, and friction."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks to AI email sequence automation, instant lead response, and client reactivation."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T20:56:24.143Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        9,
+        1,
+        1,
+        2
+      ],
+      "avgSentenceLength": 14.5,
+      "sentenceLengthRange": [
+        2,
+        28
+      ],
+      "totalWords": 188
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Quote Follow-Up Automation\nBody: You send a quote.",
+      "wordCount": 10,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing jobs to silence\nBody: Book a 30-minute call. We will look at your current quote process, estimate how many deals you are losing to no follow-up, and map out a sequence that fits your business.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "context",
+        "closer"
+      ],
+      "template": "opener | result | context | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 7,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 3,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 7,
+      "commasPerSentence": 0.64
+    },
+    "vocabulary": {
+      "distinctWords": 118,
+      "totalWords": 188,
+      "topWords": [
+        [
+          "follow-up",
+          10
+        ],
+        [
+          "quote",
+          8
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "about",
+          3
+        ],
+        [
+          "no",
+          3
+        ],
+        [
+          "because",
+          3
+        ],
+        [
+          "-",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "they",
+          2
+        ],
+        [
+          "will",
+          2
+        ],
+        [
+          "it",
+          2
+        ],
+        [
+          "silence",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

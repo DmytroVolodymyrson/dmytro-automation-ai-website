@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-no-show-reduction-automation",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: No-Show Reduction Automation\nBody: No-shows are not just annoying — they are expensive. Every missed appointment is wasted time, lost revenue, and a slot that could have gone to someone else. For most service businesses, no-shows run 10-25% of booked appointments. That adds up to thousands per month in lost income. No-show reduction automation uses a combination of confirmation requests, timed reminders, easy rescheduling, and deposit workflows to cut no-shows by 50% or more.\nSub: Below: the specific tactics that reduce no-shows, how they work together, and what kind of results to expect.\n\n### Core sections\n- The no-show reduction toolkit (6 tactics)\n- Why no-shows happen and what actually prevents them (prose with 4 reasons)\n- Expected results (considerations section)\n\n### FAQ\nSubhead: Practical answers about no-show reduction for service businesses\n\n### Final CTA\nHeading: Stop losing money to empty appointment slots\nBody: Book a 30-minute call. We will look at your current no-show rate, calculate what it is costing you, and map out the fastest path to cutting it in half.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 3. Paired with booking-confirmation page for scheduling cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Addresses root causes (forgot, awkward to cancel, no commitment, too far out)."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Quantified results: 50-70% reduction claim is realistic and defensible."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks to booking confirmation, AI appointment setter, and dental practices page."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T20:56:24.142Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        1,
+        1,
+        2
+      ],
+      "avgSentenceLength": 17.1,
+      "sentenceLengthRange": [
+        10,
+        27
+      ],
+      "totalWords": 171
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: No-Show Reduction Automation\nBody: No-shows are not just annoying — they are expensive.",
+      "wordCount": 14,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing money to empty appointment slots\nBody: Book a 30-minute call. We will look at your current no-show rate, calculate what it is costing you, and map out the fastest path to cutting it in half.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 10,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 3,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 7,
+      "commasPerSentence": 1.25
+    },
+    "vocabulary": {
+      "distinctWords": 124,
+      "totalWords": 171,
+      "topWords": [
+        [
+          "no-show",
+          5
+        ],
+        [
+          "no-shows",
+          5
+        ],
+        [
+          "reduction",
+          4
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "what",
+          3
+        ],
+        [
+          "-",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "automation",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "they",
+          2
+        ],
+        [
+          "appointment",
+          2
+        ],
+        [
+          "lost",
+          2
+        ],
+        [
+          "service",
+          2
+        ],
+        [
+          "businesses",
+          2
+        ],
+        [
+          "tactics",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

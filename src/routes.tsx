@@ -42,6 +42,14 @@ import N8nAutomationExamplesSmallBusiness from "./pages/N8nAutomationExamplesSma
 import AiEmailSequenceAutomation from "./pages/AiEmailSequenceAutomation";
 import AiAutomationForInsuranceAgencies from "./pages/AiAutomationForInsuranceAgencies";
 import AiAutomationForPropertyManagement from "./pages/AiAutomationForPropertyManagement";
+import AfterHoursLeadCapture from "./pages/AfterHoursLeadCapture";
+import MissedCallFollowUp from "./pages/MissedCallFollowUp";
+import BookingConfirmationAndReminder from "./pages/BookingConfirmationAndReminder";
+import AiPhoneAnswering from "./pages/AiPhoneAnswering";
+import InstantLeadResponse from "./pages/InstantLeadResponse";
+import QuoteFollowUp from "./pages/QuoteFollowUp";
+import ClientReactivation from "./pages/ClientReactivation";
+import NoShowReduction from "./pages/NoShowReduction";
 import NotFound from "./pages/NotFound";
 
 export type AppRouteDefinition = {
@@ -102,6 +110,14 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-email-sequence-automation", element: <AiEmailSequenceAutomation /> },
   { path: "/ai-automation-for-insurance-agencies", element: <AiAutomationForInsuranceAgencies /> },
   { path: "/ai-automation-for-property-management", element: <AiAutomationForPropertyManagement /> },
+  { path: "/after-hours-lead-capture-for-service-businesses", element: <AfterHoursLeadCapture /> },
+  { path: "/missed-call-follow-up-automation", element: <MissedCallFollowUp /> },
+  { path: "/booking-confirmation-and-reminder-automation", element: <BookingConfirmationAndReminder /> },
+  { path: "/ai-phone-answering-for-service-businesses", element: <AiPhoneAnswering /> },
+  { path: "/instant-lead-response-automation", element: <InstantLeadResponse /> },
+  { path: "/quote-follow-up-automation", element: <QuoteFollowUp /> },
+  { path: "/client-reactivation-automation", element: <ClientReactivation /> },
+  { path: "/no-show-reduction-automation", element: <NoShowReduction /> },
   { path: "/privacy", element: <PrivacyPolicy /> },
   { path: "/terms", element: <TermsOfService /> },
   { path: "*", element: <NotFound />, prerender: false },

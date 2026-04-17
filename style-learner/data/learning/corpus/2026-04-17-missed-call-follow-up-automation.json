@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-missed-call-follow-up-automation",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Follow-Up Automation\nBody: Every missed call is a potential customer choosing someone else. Most service businesses miss 20-40% of inbound calls — during jobs, after hours, on weekends. The callers rarely leave voicemails. They just call the next provider. Missed call follow-up automation sends an instant text within seconds of a missed call, starts a conversation, and captures the lead before they move on.\nSub: Below: how missed call automation works, what the caller actually experiences, and which businesses get the most value from it.\n\n### Core sections\n- What happens when a call goes unanswered (6-step flow)\n- Why text-back beats voicemail (prose section with data)\n- ROI of missed call follow-up\n\n### FAQ\nSubhead: Common questions about missed call follow-up automation\n\n### Final CTA\nHeading: Stop losing leads to voicemail\nBody: Book a 30-minute call. We will look at how many calls you are missing, what those leads are worth, and how to start recovering them this month.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "addition",
+      "text": "",
+      "description": "Published as part of batch 3. High-value page added to GEO watchlist."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Direct, data-backed opening. Quantifies the problem immediately (20-40% missed calls)."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Strong interlinks to HVAC missed call text back, AI lead follow-up, and after-hours capture."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Conversational tone, no jargon. Written for business owners, not marketers."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T20:56:24.140Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        1,
+        1,
+        2
+      ],
+      "avgSentenceLength": 16,
+      "sentenceLengthRange": [
+        5,
+        27
+      ],
+      "totalWords": 160
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Missed Call Follow-Up Automation\nBody: Every missed call is a potential customer choosing someone else.",
+      "wordCount": 17,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing leads to voicemail\nBody: Book a 30-minute call. We will look at how many calls you are missing, what those leads are worth, and how to start recovering them this month.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "context",
+        "closer"
+      ],
+      "template": "opener | result | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 8,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 3,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 7,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 110,
+      "totalWords": 160,
+      "topWords": [
+        [
+          "call",
+          10
+        ],
+        [
+          "missed",
+          7
+        ],
+        [
+          "follow-up",
+          4
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "how",
+          3
+        ],
+        [
+          "what",
+          3
+        ],
+        [
+          "-",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "most",
+          2
+        ],
+        [
+          "businesses",
+          2
+        ],
+        [
+          "calls",
+          2
+        ],
+        [
+          "they",
+          2
+        ],
+        [
+          "voicemail",
+          2
+        ],
+        [
+          "leads",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-17T19:37:16.913Z",
-  "postCount": 42,
+  "updatedAt": "2026-04-17T20:57:45.479Z",
+  "postCount": 50,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -9,31 +9,31 @@
   },
   "structure": {
     "paragraphCount": {
-      "mean": 5.6,
-      "median": 5,
+      "mean": 5.4,
+      "median": 4,
       "min": 1,
       "max": 11,
       "p25": 4,
-      "p75": 8,
-      "samples": 42
+      "p75": 7,
+      "samples": 50
     },
     "sentenceLength": {
-      "mean": 15.3,
-      "median": 14.55,
+      "mean": 15.4,
+      "median": 15,
       "min": 7.1,
       "max": 29.3,
-      "p25": 12.3,
-      "p75": 17.7,
-      "samples": 42
+      "p25": 12.5,
+      "p75": 17.6,
+      "samples": 50
     },
     "totalWords": {
-      "mean": 268.7,
-      "median": 179.5,
+      "mean": 252.7,
+      "median": 176,
       "min": 17,
       "max": 1155,
-      "p25": 156,
-      "p75": 365,
-      "samples": 42
+      "p25": 159,
+      "p75": 284,
+      "samples": 50
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -56,10 +56,10 @@
       "long | long | long | single | long": 1,
       "long | long | long | long | single | long | single | short | single | long": 1,
       "long | long | single | long | long | short | short | single | long": 1,
+      "long | single | single | short": 16,
       "long | single | single | long": 2,
       "long | short | single | long": 3,
       "long | single | single | long | short | single | single | single": 1,
-      "long | single | single | short": 8,
       "long | short | single | short": 2,
       "long | long | long | long | long | long | single | single | long": 1,
       "long | long | long | short | single | short | single | single | long": 1
@@ -83,18 +83,20 @@
       "opener | product-pitch | product-pitch | result | closer": 1,
       "opener | product-pitch | product-pitch | result | context | product-pitch | context | product-pitch | product-pitch | closer": 1,
       "opener | context | context | context | result | product-pitch | context | context | closer": 1,
+      "opener | context | product-pitch | closer": 3,
       "opener | product-pitch | context | closer": 1,
       "opener | context | context | closer": 13,
       "opener | context | product-pitch | context | product-pitch | result | context | closer": 1,
       "opener | context | product-pitch | context | product-pitch | product-pitch | product-pitch | product-pitch | closer": 1,
       "opener | result | result | closer": 1,
-      "opener | product-pitch | product-pitch | context | context | context | product-pitch | context | closer": 1
+      "opener | product-pitch | product-pitch | context | context | context | product-pitch | context | closer": 1,
+      "opener | result | context | closer": 5
     }
   },
   "openers": {
     "patterns": {
       "situation": {
-        "count": 12,
+        "count": 16,
         "examples": [
           "Badge: The Person Behind the Automation",
           "Section heading: Common Questions\nSubheading: Straight answers about working wit",
@@ -110,7 +112,7 @@
         ]
       },
       "standard-opener": {
-        "count": 23,
+        "count": 27,
         "examples": [
           "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an autom",
           "Section heading: Real Results for Real Businesses\nSubheading: Here's what happen",
@@ -129,7 +131,7 @@
   "closers": {
     "patterns": {
       "reflection": {
-        "count": 19,
+        "count": 27,
         "examples": [
           "Stats:\n- 7+ Years building software\n- 50+ Automations built\n- $100K+ Saved for c",
           "Social proof pills:\n- 10+ hrs/week saved\n- 300%+ ROI\n- 24/7 automation",
@@ -164,27 +166,31 @@
     "topWords": [
       [
         "-",
-        279
+        303
       ],
       [
         "your",
-        151
+        176
       ],
       [
         "automation",
-        148
+        168
       ],
       [
         "ai",
-        99
+        107
       ],
       [
         "what",
-        71
+        89
       ],
       [
         "follow-up",
-        66
+        80
+      ],
+      [
+        "lead",
+        68
       ],
       [
         "with",
@@ -192,51 +198,55 @@
       ],
       [
         "that",
-        58
-      ],
-      [
-        "lead",
-        57
+        61
       ],
       [
         "not",
-        51
+        56
       ],
       [
         "leads",
-        48
-      ],
-      [
-        "it",
-        44
-      ],
-      [
-        "businesses",
-        38
+        55
       ],
       [
         "call",
-        38
+        51
+      ],
+      [
+        "businesses",
+        50
+      ],
+      [
+        "heading",
+        50
+      ],
+      [
+        "it",
+        46
+      ],
+      [
+        "body",
+        46
       ],
       [
         "work",
         37
       ],
       [
-        "heading",
-        34
-      ],
-      [
-        "body",
-        30
-      ],
-      [
         "no",
-        28
+        31
+      ],
+      [
+        "business",
+        24
       ],
       [
         "calls",
-        22
+        24
+      ],
+      [
+        "booking",
+        24
       ],
       [
         "need",
@@ -251,12 +261,8 @@
         20
       ],
       [
-        "booking",
-        20
-      ],
-      [
-        "business",
-        19
+        "service",
+        18
       ],
       [
         "n8n",
@@ -267,20 +273,16 @@
         16
       ],
       [
-        "voice",
+        "most",
+        16
+      ],
+      [
+        "how",
         15
       ],
       [
-        "crm",
-        13
-      ],
-      [
-        "team",
-        13
-      ],
-      [
-        "zapier",
-        13
+        "voice",
+        15
       ]
     ],
     "casualMarkerRate": 0,

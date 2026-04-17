@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-17 (batch 2 shipped)
+Last updated: 2026-04-17 (batch 3 shipped)
 
 ## Live GEO Assets
 
@@ -45,11 +45,19 @@ Last updated: 2026-04-17 (batch 2 shipped)
 | AI Email Sequence Automation | `/ai-email-sequence-automation` | Workflow page | Live |
 | AI Automation for Insurance Agencies | `/ai-automation-for-insurance-agencies` | Industry page | Live |
 | AI Automation for Property Management | `/ai-automation-for-property-management` | Industry page | Live |
+| After-Hours Lead Capture | `/after-hours-lead-capture-for-service-businesses` | Workflow page | Live |
+| Missed Call Follow-Up Automation | `/missed-call-follow-up-automation` | Workflow page | Live |
+| Booking Confirmation & Reminder | `/booking-confirmation-and-reminder-automation` | Workflow page | Live |
+| AI Phone Answering for Service Businesses | `/ai-phone-answering-for-service-businesses` | Workflow page | Live |
+| Instant Lead Response Automation | `/instant-lead-response-automation` | Workflow page | Live |
+| Quote Follow-Up Automation | `/quote-follow-up-automation` | Workflow page | Live |
+| Client Reactivation Automation | `/client-reactivation-automation` | Workflow page | Live |
+| No-Show Reduction Automation | `/no-show-reduction-automation` | Workflow page | Live |
 | `llms.txt` | `/llms.txt` | AI crawler file | Live |
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 30**
+**Total decision/comparison/industry pages live: 38**
 **Total case studies live: 3**
 
 ---
