@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-voice-agent-for-restaurants",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nBadge: Restaurant Use Case\nHeading: AI Voice Agent for Restaurants\nBody: If your restaurant misses calls during service, after hours, or when the host stand is overloaded, an AI voice agent can capture reservations and routine questions without adding another person to payroll. The real value is not \"using AI.\" It is answering more calls, booking more tables, and freeing your staff to focus on guests in front of them.\nSub: Below: what an AI restaurant voice agent actually does, where it helps most, where it should not be used, and how to decide if it is worth implementing in your restaurant.\n\n### What an AI voice agent can actually do for a restaurant\nIntro: Practical explanation, not hype.\n- Answer every inbound call: covers after-hours and service-time overflow.\n- Book and confirm reservations: collects party size, date, time, and confirms the booking flow.\n- Handle common questions instantly: hours, location, parking, private events, reservation policy.\n- Capture missed demand after hours: callers still get an answer and a follow-up path.\n- Route edge cases to a human: complaints, VIPs, private events, complicated requests.\n- Reduce front-of-house interruptions: fewer repetitive calls during service.\n\n### AI voice agent vs voicemail vs a human host\nComparison table across after-hours coverage, reservation capture, routine question handling, labor cost, and best use.\nKey frame: the real comparison is not AI vs a great host. It is AI vs missed calls and distracted staff.\n\n### Good fit / not the right fit\nGood fit: missed calls during rush, meaningful after-hours reservation demand, repetitive phone questions, simple standardized booking flow, one extra booked table per day matters.\nNot a fit: mostly walk-in concept, low call volume, highly customized concierge booking, constantly changing policies, expecting AI to replace every human interaction, weak demand rather than weak phone coverage.\n\n### What needs to be set up properly\nFour implementation factors:\n- Voice and prompt quality\n- Reservation logic\n- Escalation paths\n- Follow-up handling\n\n### Real-world proof\nParis Cafe case study card linking to /case-studies/paris-cafe-voice-agent.\nCore proof points: after-hours calls answered, reservation demand captured, web lead response cut to under 60 seconds.\n\n### How to evaluate your options\nThree paths:\n- Install an AI voice agent\n- Hire more front-of-house coverage\n- Keep voicemail and manual callbacks\nEach framed around trade-offs in labor cost, coverage, and guest experience.\n\n### FAQ\nSix Q&As covering:\n- whether guests will be annoyed that it is AI\n- whether it can really book reservations\n- what should never be left fully to AI\n- typical cost framing\n- whether it only helps large restaurants\n- implementation timeline\n\n### Final CTA\nHeading: Want to stop losing reservations to missed calls?\nBody: Book a 30-minute call. We will look at your current phone flow, where calls are being missed, and whether an AI voice agent actually makes sense for your restaurant.\nSub: No inflated AI promises. Just a practical look at bookings, staffing pressure, and whether this would pay off.\nRelated links: Paris Cafe voice agent case study, AI appointment setter guide, AI chatbot vs voice agent, All guides.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Industry-specific GEO page anchored in one real proof asset: Paris Cafe."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Opens with the operational problem and business outcome, not with generic AI language."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the framing practical: missed calls, reservation capture, staffing pressure, front-of-house interruptions."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses honest limitation language. Repeatedly draws the line between routine calls and high-touch guest situations."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoids hype and inflated ROI claims. Focus is on captured bookings and staff focus, not miracle transformation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Includes one comparison table because restaurant owners naturally compare AI, voicemail, and labor."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Good-fit / not-fit section is explicit and disqualifies low-call-volume or mostly walk-in concepts."
+    },
+    {
+      "type": "tone_shift",
+      "description": "FAQ answers stay grounded and specific instead of overpromising human-level hospitality."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Copy is direct, commercial, and readable by both search engines and AI answer engines."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T18:12:17.673Z",
+    "structure": {
+      "paragraphCount": 9,
+      "sentencesPerParagraph": [
+        3,
+        7,
+        3,
+        2,
+        1,
+        2,
+        1,
+        1,
+        6
+      ],
+      "avgSentenceLength": 19.5,
+      "sentenceLengthRange": [
+        5,
+        44
+      ],
+      "totalWords": 507
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nBadge: Restaurant Use Case\nHeading: AI Voice Agent for Restaurants\nBody: If your restaurant misses calls during service, after hours, or when the host stand is overloaded, an AI voice agent can capture reservations and routine questions without adding another person to payroll.",
+      "wordCount": 44,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to stop losing reservations to missed calls?\nBody: Book a 30-minute call. We will look at your current phone flow, where calls are being missed, and whether an AI voice agent actually makes sense for your restaurant.\nSub: No inflated AI promises. Just a practical look at bookings, staffing pressure, and whether this would pay off.\nRelated links: Paris Cafe voice agent case study, AI appointment setter guide, AI chatbot vs voice agent, All guides.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "context",
+        "context",
+        "context",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | context | context | context | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 24,
+      "commas": 43,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 19,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 23,
+      "commasPerSentence": 1.79
+    },
+    "vocabulary": {
+      "distinctWords": 267,
+      "totalWords": 507,
+      "topWords": [
+        [
+          "-",
+          19
+        ],
+        [
+          "ai",
+          16
+        ],
+        [
+          "voice",
+          10
+        ],
+        [
+          "agent",
+          9
+        ],
+        [
+          "calls",
+          8
+        ],
+        [
+          "it",
+          8
+        ],
+        [
+          "restaurant",
+          6
+        ],
+        [
+          "your",
+          6
+        ],
+        [
+          "not",
+          6
+        ],
+        [
+          "reservation",
+          5
+        ],
+        [
+          "missed",
+          5
+        ],
+        [
+          "vs",
+          5
+        ],
+        [
+          "whether",
+          5
+        ],
+        [
+          "reservations",
+          4
+        ],
+        [
+          "booking",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.002
+    },
+    "editSignals": {
+      "totalEdits": 9,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 9,
+      "patterns": []
+    }
+  }
+}

@@ -26,6 +26,12 @@ const guides = [
     href: "/ai-appointment-setter",
   },
   {
+    title: "AI Voice Agent for Restaurants",
+    description:
+      "How AI phone answering works for restaurants. When it helps bookings, where it fails, and whether it is worth implementing.",
+    href: "/ai-voice-agent-for-restaurants",
+  },
+  {
     title: "AI Lead Follow-Up for Service Businesses",
     description:
       "How AI lead follow-up works. Respond to every inquiry in seconds, run multi-touch sequences automatically, and stop losing leads to slow response times.",

@@ -39,6 +39,18 @@
       ]
     },
     {
+      "id": "ai-voice-agent-restaurants",
+      "path": "/ai-voice-agent-for-restaurants",
+      "label": "AI Voice Agent for Restaurants",
+      "prompts": [
+        "AI voice agent for restaurants",
+        "AI phone answering for restaurants",
+        "How can a restaurant stop missing reservation calls?",
+        "Restaurant reservation AI answering service",
+        "Should a restaurant use an AI phone host?"
+      ]
+    },
+    {
       "id": "ai-lead-follow-up",
       "path": "/ai-lead-follow-up-for-service-businesses",
       "label": "AI Lead Follow-Up for Service Businesses",

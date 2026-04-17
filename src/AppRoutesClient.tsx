@@ -26,6 +26,7 @@ const HvacLeadFollowUpAutomation = lazy(() => import("./pages/HvacLeadFollowUpAu
 const HvacMissedCallTextBack = lazy(() => import("./pages/HvacMissedCallTextBack"));
 const AiAppointmentSetterForHvac = lazy(() => import("./pages/AiAppointmentSetterForHvac"));
 const AiAutomationNoTechTeam = lazy(() => import("./pages/AiAutomationNoTechTeam"));
+const AiVoiceAgentForRestaurants = lazy(() => import("./pages/AiVoiceAgentForRestaurants"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const AppRoutesClient = () => (
@@ -55,6 +56,7 @@ const AppRoutesClient = () => (
       <Route path="/hvac-missed-call-text-back" element={<HvacMissedCallTextBack />} />
       <Route path="/ai-appointment-setter-for-hvac" element={<AiAppointmentSetterForHvac />} />
       <Route path="/ai-automation-for-businesses-without-a-tech-team" element={<AiAutomationNoTechTeam />} />
+      <Route path="/ai-voice-agent-for-restaurants" element={<AiVoiceAgentForRestaurants />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="*" element={<NotFound />} />

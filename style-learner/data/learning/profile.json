@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-17T17:43:14.293Z",
-  "postCount": 25,
+  "updatedAt": "2026-04-17T18:12:19.150Z",
+  "postCount": 26,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -9,31 +9,31 @@
   },
   "structure": {
     "paragraphCount": {
-      "mean": 6.4,
+      "mean": 6.5,
       "median": 7,
       "min": 1,
       "max": 11,
       "p25": 5,
       "p75": 9,
-      "samples": 25
+      "samples": 26
     },
     "sentenceLength": {
-      "mean": 13.9,
-      "median": 12.5,
+      "mean": 14.1,
+      "median": 12.65,
       "min": 7.1,
       "max": 29.3,
       "p25": 11.1,
-      "p75": 14.5,
-      "samples": 25
+      "p75": 14.6,
+      "samples": 26
     },
     "totalWords": {
-      "mean": 314.9,
-      "median": 256,
+      "mean": 322.3,
+      "median": 262.5,
       "min": 17,
       "max": 1155,
       "p25": 77,
       "p75": 523,
-      "samples": 25
+      "samples": 26
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -56,7 +56,8 @@
       "long | long | long | single | long": 1,
       "long | long | long | long | single | long | single | short | single | long": 1,
       "long | long | single | long | long | short | short | single | long": 1,
-      "long | long | long | long | long | long | single | single | long": 1
+      "long | long | long | long | long | long | single | single | long": 1,
+      "long | long | long | short | single | short | single | single | long": 1
     },
     "structuralTemplates": {
       "opener | context | result | context | closer": 3,
@@ -77,7 +78,8 @@
       "opener | product-pitch | product-pitch | result | closer": 1,
       "opener | product-pitch | product-pitch | result | context | product-pitch | context | product-pitch | product-pitch | closer": 1,
       "opener | context | context | context | result | product-pitch | context | context | closer": 1,
-      "opener | context | product-pitch | context | product-pitch | product-pitch | product-pitch | product-pitch | closer": 1
+      "opener | context | product-pitch | context | product-pitch | product-pitch | product-pitch | product-pitch | closer": 1,
+      "opener | product-pitch | product-pitch | context | context | context | product-pitch | context | closer": 1
     }
   },
   "openers": {
@@ -99,7 +101,7 @@
         ]
       },
       "standard-opener": {
-        "count": 12,
+        "count": 13,
         "examples": [
           "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an autom",
           "Section heading: Real Results for Real Businesses\nSubheading: Here's what happen",
@@ -126,7 +128,7 @@
         ]
       },
       "question": {
-        "count": 13,
+        "count": 14,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -147,21 +149,25 @@
     "emDashRate": 0,
     "ellipsisRate": 0,
     "exclamationRate": 0,
-    "avgCommasPerSentence": 0.8
+    "avgCommasPerSentence": 0.9
   },
   "vocabulary": {
     "topWords": [
       [
         "-",
-        166
+        185
       ],
       [
         "your",
-        95
+        101
       ],
       [
         "automation",
         70
+      ],
+      [
+        "ai",
+        67
       ],
       [
         "with",
@@ -172,8 +178,8 @@
         55
       ],
       [
-        "ai",
-        51
+        "not",
+        48
       ],
       [
         "leads",
@@ -184,12 +190,12 @@
         44
       ],
       [
-        "not",
-        42
-      ],
-      [
         "follow-up",
         41
+      ],
+      [
+        "it",
+        39
       ],
       [
         "that",
@@ -198,10 +204,6 @@
       [
         "call",
         33
-      ],
-      [
-        "it",
-        31
       ],
       [
         "work",
@@ -220,6 +222,10 @@
         22
       ],
       [
+        "booking",
+        20
+      ],
+      [
         "consultant",
         17
       ],
@@ -228,11 +234,15 @@
         16
       ],
       [
-        "booking",
+        "calls",
         16
       ],
       [
         "build",
+        15
+      ],
+      [
+        "voice",
         15
       ],
       [
@@ -262,14 +272,6 @@
       [
         "hvac",
         11
-      ],
-      [
-        "automate",
-        10
-      ],
-      [
-        "result",
-        10
       ]
     ],
     "casualMarkerRate": 0,

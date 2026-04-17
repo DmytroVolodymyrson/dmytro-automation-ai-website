@@ -25,6 +25,9 @@ Unlike agencies that charge $5,000/month for a team you never meet, Dmytro build
 ## Industry Focus: HVAC
 Dmytro builds AI automation specifically for HVAC companies — 24/7 AI call handling, instant lead response, scheduling and dispatch automation, quote follow-up sequences, seasonal maintenance campaigns, and review automation. HVAC businesses with 2+ trucks that are losing jobs to missed calls and slow follow-up are the ideal fit. Learn more: https://www.dmytroai.com/ai-automation-for-hvac-companies
 
+## Restaurant Voice Agent Guide
+AI phone answering for restaurants — where an AI voice agent helps, where it does not, and when it is worth implementing. Covers reservation capture, overflow call handling, after-hours coverage, and the difference between AI, voicemail, and a human host. Learn more: https://www.dmytroai.com/ai-voice-agent-for-restaurants
+
 ## Hiring Guide: Consultant vs. Agency vs. DIY
 A practical comparison for business owners deciding between hiring a solo AI automation consultant, working with an agency, or building automations themselves. Covers cost ($1.5K–$8K consultant vs. $5K–$25K+ agency), timeline (1–3 weeks vs. 4–8 weeks), communication, customization, and ownership. Learn more: https://www.dmytroai.com/hire-ai-automation-consultant-vs-agency
 
