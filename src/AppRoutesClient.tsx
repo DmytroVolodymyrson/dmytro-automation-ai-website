@@ -28,6 +28,15 @@ const AiAppointmentSetterForHvac = lazy(() => import("./pages/AiAppointmentSette
 const AiAutomationNoTechTeam = lazy(() => import("./pages/AiAutomationNoTechTeam"));
 const AiVoiceAgentForRestaurants = lazy(() => import("./pages/AiVoiceAgentForRestaurants"));
 const AiAutomationConsultantEdmonton = lazy(() => import("./pages/AiAutomationConsultantEdmonton"));
+const AiAutomationConsultantAlberta = lazy(() => import("./pages/AiAutomationConsultantAlberta"));
+const AiAutomationConsultantCanada = lazy(() => import("./pages/AiAutomationConsultantCanada"));
+const AiAutomationForRealEstate = lazy(() => import("./pages/AiAutomationForRealEstate"));
+const AiAutomationForMortgageBrokers = lazy(() => import("./pages/AiAutomationForMortgageBrokers"));
+const AiAutomationForDentalPractices = lazy(() => import("./pages/AiAutomationForDentalPractices"));
+const AiAutomationForLawFirms = lazy(() => import("./pages/AiAutomationForLawFirms"));
+const AiAutomationForAccountingFirms = lazy(() => import("./pages/AiAutomationForAccountingFirms"));
+const AiAutomationForPlumbingCompanies = lazy(() => import("./pages/AiAutomationForPlumbingCompanies"));
+const AiAutomationForElectricalContractors = lazy(() => import("./pages/AiAutomationForElectricalContractors"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const AppRoutesClient = () => (
@@ -59,6 +68,15 @@ const AppRoutesClient = () => (
       <Route path="/ai-appointment-setter-for-hvac" element={<AiAppointmentSetterForHvac />} />
       <Route path="/ai-automation-for-businesses-without-a-tech-team" element={<AiAutomationNoTechTeam />} />
       <Route path="/ai-voice-agent-for-restaurants" element={<AiVoiceAgentForRestaurants />} />
+      <Route path="/ai-automation-consultant-alberta" element={<AiAutomationConsultantAlberta />} />
+      <Route path="/ai-automation-consultant-canada" element={<AiAutomationConsultantCanada />} />
+      <Route path="/ai-automation-for-real-estate" element={<AiAutomationForRealEstate />} />
+      <Route path="/ai-automation-for-mortgage-brokers" element={<AiAutomationForMortgageBrokers />} />
+      <Route path="/ai-automation-for-dental-practices" element={<AiAutomationForDentalPractices />} />
+      <Route path="/ai-automation-for-law-firms" element={<AiAutomationForLawFirms />} />
+      <Route path="/ai-automation-for-accounting-firms" element={<AiAutomationForAccountingFirms />} />
+      <Route path="/ai-automation-for-plumbing-companies" element={<AiAutomationForPlumbingCompanies />} />
+      <Route path="/ai-automation-for-electrical-contractors" element={<AiAutomationForElectricalContractors />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="*" element={<NotFound />} />

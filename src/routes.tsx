@@ -27,6 +27,15 @@ import AiAppointmentSetterForHvac from "./pages/AiAppointmentSetterForHvac";
 import AiAutomationNoTechTeam from "./pages/AiAutomationNoTechTeam";
 import AiVoiceAgentForRestaurants from "./pages/AiVoiceAgentForRestaurants";
 import AiAutomationConsultantEdmonton from "./pages/AiAutomationConsultantEdmonton";
+import AiAutomationConsultantAlberta from "./pages/AiAutomationConsultantAlberta";
+import AiAutomationConsultantCanada from "./pages/AiAutomationConsultantCanada";
+import AiAutomationForRealEstate from "./pages/AiAutomationForRealEstate";
+import AiAutomationForMortgageBrokers from "./pages/AiAutomationForMortgageBrokers";
+import AiAutomationForDentalPractices from "./pages/AiAutomationForDentalPractices";
+import AiAutomationForLawFirms from "./pages/AiAutomationForLawFirms";
+import AiAutomationForAccountingFirms from "./pages/AiAutomationForAccountingFirms";
+import AiAutomationForPlumbingCompanies from "./pages/AiAutomationForPlumbingCompanies";
+import AiAutomationForElectricalContractors from "./pages/AiAutomationForElectricalContractors";
 import NotFound from "./pages/NotFound";
 
 export type AppRouteDefinition = {
@@ -72,6 +81,15 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-appointment-setter-for-hvac", element: <AiAppointmentSetterForHvac /> },
   { path: "/ai-automation-for-businesses-without-a-tech-team", element: <AiAutomationNoTechTeam /> },
   { path: "/ai-voice-agent-for-restaurants", element: <AiVoiceAgentForRestaurants /> },
+  { path: "/ai-automation-consultant-alberta", element: <AiAutomationConsultantAlberta /> },
+  { path: "/ai-automation-consultant-canada", element: <AiAutomationConsultantCanada /> },
+  { path: "/ai-automation-for-real-estate", element: <AiAutomationForRealEstate /> },
+  { path: "/ai-automation-for-mortgage-brokers", element: <AiAutomationForMortgageBrokers /> },
+  { path: "/ai-automation-for-dental-practices", element: <AiAutomationForDentalPractices /> },
+  { path: "/ai-automation-for-law-firms", element: <AiAutomationForLawFirms /> },
+  { path: "/ai-automation-for-accounting-firms", element: <AiAutomationForAccountingFirms /> },
+  { path: "/ai-automation-for-plumbing-companies", element: <AiAutomationForPlumbingCompanies /> },
+  { path: "/ai-automation-for-electrical-contractors", element: <AiAutomationForElectricalContractors /> },
   { path: "/privacy", element: <PrivacyPolicy /> },
   { path: "/terms", element: <TermsOfService /> },
   { path: "*", element: <NotFound />, prerender: false },

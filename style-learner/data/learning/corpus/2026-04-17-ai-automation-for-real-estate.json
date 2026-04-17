@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-automation-for-real-estate",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for Real Estate Agents and Teams\nBody: Real estate runs on speed. The agent who responds first usually wins the lead. But when you are at a showing, in a listing appointment, or driving between properties, every unanswered inquiry is a potential client going to whoever picks up next. AI automation handles the follow-up, qualification, and scheduling so you never lose a lead to slow response time.\nSub: Below: what real estate automation actually looks like in practice, where it makes the biggest difference, and how to evaluate whether it is the right move for your business.\n\n### Core sections\n- These are the automations we build most often for agents and teams. Each one runs without daily attention once it is set up:\n- Instant lead response\n- Multi-touch follow-up sequences\n- Showing and appointment scheduling\n- CRM pipeline automation\n\n### FAQ\nSubhead: Practical answers for real estate professionals considering automation\n\n### Final CTA\nHeading: Stop losing leads to slow follow-up\nBody: Book a 30-minute call. We will look at your current lead flow, identify where deals are falling through the cracks, and give you a clear plan for automation.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of the bounded first programmatic SEO batch for dmytroai.com."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Structured for both SEO and GEO: direct answer opening, sectioned decision content, FAQ, and proof-adjacent linking."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoids fake case studies or invented industry results."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Written for commercial intent, not generic educational traffic."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T18:52:46.171Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        2,
+        1,
+        2
+      ],
+      "avgSentenceLength": 19.2,
+      "sentenceLengthRange": [
+        9,
+        30
+      ],
+      "totalWords": 192
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation for Real Estate Agents and Teams\nBody: Real estate runs on speed.",
+      "wordCount": 16,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing leads to slow follow-up\nBody: Book a 30-minute call. We will look at your current lead flow, identify where deals are falling through the cracks, and give you a clear plan for automation.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 9,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 8,
+      "commasPerSentence": 1.13
+    },
+    "vocabulary": {
+      "distinctWords": 124,
+      "totalWords": 192,
+      "topWords": [
+        [
+          "automation",
+          6
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "real",
+          4
+        ],
+        [
+          "estate",
+          4
+        ],
+        [
+          "lead",
+          4
+        ],
+        [
+          "follow-up",
+          3
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "ai",
+          2
+        ],
+        [
+          "agents",
+          2
+        ],
+        [
+          "teams",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "runs",
+          2
+        ],
+        [
+          "showing",
+          2
+        ],
+        [
+          "appointment",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.005
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

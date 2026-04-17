@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-automation-for-mortgage-brokers",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for Mortgage Brokers\nBody: Mortgage leads are expensive and time-sensitive. A pre-approval inquiry that sits for two hours is already shopping with another broker. Meanwhile, your team is buried in document chasing, application follow-ups, and manual CRM updates. AI automation handles the time-sensitive, repetitive work so you focus on closings.\nSub: Below: what mortgage automation looks like in practice, where it delivers the most value, and how to decide if it is worth the investment.\n\n### Core sections\n- These are the automations that make the biggest difference for brokers and loan officers:\n- Instant lead response\n- Application nurture sequences\n- Document collection automation\n- Consultation scheduling\n\n### FAQ\nSubhead: Practical answers for mortgage professionals considering automation\n\n### Final CTA\nHeading: Stop losing mortgage leads to slow follow-up\nBody: Book a 30-minute call. We will look at your lead flow, document process, and follow-up gaps, then give you a clear plan for what to automate first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of the bounded first programmatic SEO batch for dmytroai.com."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Structured for both SEO and GEO: direct answer opening, sectioned decision content, FAQ, and proof-adjacent linking."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoids fake case studies or invented industry results."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Written for commercial intent, not generic educational traffic."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T18:52:46.170Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        1,
+        2
+      ],
+      "avgSentenceLength": 17.6,
+      "sentenceLengthRange": [
+        9,
+        32
+      ],
+      "totalWords": 158
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: AI Automation for Mortgage Brokers\nBody: Mortgage leads are expensive and time-sensitive.",
+      "wordCount": 14,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing mortgage leads to slow follow-up\nBody: Book a 30-minute call. We will look at your lead flow, document process, and follow-up gaps, then give you a clear plan for what to automate first.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 9,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 8,
+      "commasPerSentence": 1.29
+    },
+    "vocabulary": {
+      "distinctWords": 110,
+      "totalWords": 158,
+      "topWords": [
+        [
+          "automation",
+          5
+        ],
+        [
+          "mortgage",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "document",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "ai",
+          2
+        ],
+        [
+          "brokers",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "leads",
+          2
+        ],
+        [
+          "time-sensitive",
+          2
+        ],
+        [
+          "that",
+          2
+        ],
+        [
+          "your",
+          2
+        ],
+        [
+          "application",
+          2
+        ],
+        [
+          "what",
+          2
+        ],
+        [
+          "it",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

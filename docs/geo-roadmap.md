@@ -30,27 +30,34 @@ Last updated: 2026-04-17
 | HVAC Lead Follow-Up Automation | `/hvac-lead-follow-up-automation` | Industry page | Live |
 | HVAC Missed Call Text Back | `/hvac-missed-call-text-back` | Industry page | Live |
 | AI Appointment Setter for HVAC | `/ai-appointment-setter-for-hvac` | Industry page | Live |
+| AI Consultant Alberta | `/ai-automation-consultant-alberta` | Geo landing page | Live |
+| AI Consultant Canada | `/ai-automation-consultant-canada` | Geo landing page | Live |
+| AI Automation for Real Estate | `/ai-automation-for-real-estate` | Industry page | Live |
+| AI Automation for Mortgage Brokers | `/ai-automation-for-mortgage-brokers` | Industry page | Live |
+| AI Automation for Dental Practices | `/ai-automation-for-dental-practices` | Industry page | Live |
+| AI Automation for Law Firms | `/ai-automation-for-law-firms` | Industry page | Live |
+| AI Automation for Accounting Firms | `/ai-automation-for-accounting-firms` | Industry page | Live |
+| AI Automation for Plumbing Companies | `/ai-automation-for-plumbing-companies` | Industry page | Live |
+| AI Automation for Electrical Contractors | `/ai-automation-for-electrical-contractors` | Industry page | Live |
 | `llms.txt` | `/llms.txt` | AI crawler file | Live |
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 15**
+**Total decision/comparison/industry pages live: 24**
 **Total case studies live: 3**
 
 ---
 
-## Next 8 Pages (Prioritized Queue)
+## Next Pages (Prioritized Queue)
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P0** | AI Automation for Real Estate | "AI lead follow-up for real estate agents" | Strong service-business fit and natural extension of lead follow-up positioning | Not started |
-| 2 | **P1** | AI Automation for Mortgage Brokers | "AI tools for mortgage brokers" | Another high-value service-business vertical with follow-up pain | Not started |
-| 3 | **P1** | Client Onboarding Automation | "automate client onboarding service business" | Strong decision-intent workflow page, broad service-business relevance | Not started |
-| 4 | **P1** | AI Automation ROI Calculator / Guide | "is AI automation worth it small business" | Useful decision-stage content and supports pricing + consultant pages | Not started |
-| 5 | **P2** | n8n Automation Examples for Small Business | "n8n automation ideas small business" | Top-of-funnel authority page around a core tool | Not started |
-| 6 | **P2** | AI Email Sequence Automation | "automate email follow-up with AI" | Supports CRM / follow-up cluster and ties to real implementation work | Not started |
-| 7 | **P2** | AI Automation for Dental Practices | "AI phone answering for dental office" | Similar appointment-heavy fit, but weaker proof than restaurants today | Not started |
-| 8 | **P2** | AI Automation for Law Firms | "AI intake automation for law firms" | Good local-service fit, but needs more proof before promotion | Not started |
+| 1 | **P0** | Client Onboarding Automation | "automate client onboarding service business" | Strong decision-intent workflow page, broad service-business relevance | Not started |
+| 2 | **P1** | AI Automation ROI Calculator / Guide | "is AI automation worth it small business" | Useful decision-stage content and supports pricing + consultant pages | Not started |
+| 3 | **P1** | n8n Automation Examples for Small Business | "n8n automation ideas small business" | Top-of-funnel authority page around a core tool | Not started |
+| 4 | **P2** | AI Email Sequence Automation | "automate email follow-up with AI" | Supports CRM / follow-up cluster and ties to real implementation work | Not started |
+| 5 | **P2** | AI Automation for Insurance Agencies | "AI follow-up for insurance agents" | High-volume inquiry vertical with strong lead follow-up fit | Not started |
+| 6 | **P2** | AI Automation for Property Management | "AI tenant communication property management" | Recurring communication patterns, good automation fit | Not started |
 
 ### Priority Definitions
 

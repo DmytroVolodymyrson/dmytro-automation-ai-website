@@ -121,6 +121,60 @@ const guides = [
       "Can you automate without developers or IT staff? Yes. What works, what does not, and how to decide if you are ready.",
     href: "/ai-automation-for-businesses-without-a-tech-team",
   },
+  {
+    title: "AI Automation Consultant Alberta",
+    description:
+      "AI automation consulting for Alberta businesses. Lead follow-up, scheduling, CRM workflows, and operations. Based in Calgary, serving the entire province.",
+    href: "/ai-automation-consultant-alberta",
+  },
+  {
+    title: "AI Automation Consultant Canada",
+    description:
+      "AI automation consulting for Canadian businesses coast to coast. Remote delivery, fixed pricing, and clear scope for lead follow-up, scheduling, and CRM automation.",
+    href: "/ai-automation-consultant-canada",
+  },
+  {
+    title: "AI Automation for Real Estate",
+    description:
+      "AI automation for real estate agents and teams. Lead follow-up, showing coordination, CRM workflows, and drip campaigns. What works and where to start.",
+    href: "/ai-automation-for-real-estate",
+  },
+  {
+    title: "AI Automation for Mortgage Brokers",
+    description:
+      "AI automation for mortgage brokers. Lead follow-up, document collection, application nurture, and CRM workflows. Practical guide for brokerages.",
+    href: "/ai-automation-for-mortgage-brokers",
+  },
+  {
+    title: "AI Automation for Dental Practices",
+    description:
+      "AI automation for dental practices. Patient booking, recall campaigns, appointment reminders, intake forms, and no-show follow-up.",
+    href: "/ai-automation-for-dental-practices",
+  },
+  {
+    title: "AI Automation for Law Firms",
+    description:
+      "AI automation for law firms. Client intake, consultation booking, lead follow-up, and case status updates. What works for small to mid-size practices.",
+    href: "/ai-automation-for-law-firms",
+  },
+  {
+    title: "AI Automation for Accounting Firms",
+    description:
+      "AI automation for accounting firms. Client onboarding, document collection, appointment scheduling, and seasonal workflows for CPA and bookkeeping practices.",
+    href: "/ai-automation-for-accounting-firms",
+  },
+  {
+    title: "AI Automation for Plumbing Companies",
+    description:
+      "AI automation for plumbing companies. Missed call text-back, lead follow-up, appointment scheduling, estimate follow-up, and review automation.",
+    href: "/ai-automation-for-plumbing-companies",
+  },
+  {
+    title: "AI Automation for Electrical Contractors",
+    description:
+      "AI automation for electrical contractors. Lead follow-up, missed call text-back, scheduling, estimate follow-up, and review automation.",
+    href: "/ai-automation-for-electrical-contractors",
+  },
 ];
 
 const Guides = () => {

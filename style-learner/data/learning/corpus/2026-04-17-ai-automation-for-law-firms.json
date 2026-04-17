@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-automation-for-law-firms",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for Law Firms\nBody: Potential clients contact your firm and hear nothing for hours — or days. They call during court, after hours, or on weekends when nobody picks up. By the time someone follows up, they have already retained another attorney. AI automation handles the intake, follow-up, and scheduling so every inquiry gets a fast, professional response.\nSub: Below: what law firm automation looks like in practice, where it helps most, and how to evaluate whether it is a fit for your practice.\n\n### Core sections\n- These automations are built for the business operations side of your practice, not legal work itself:\n- Instant inquiry response\n- Client intake automation\n- Consultation scheduling\n- Lead nurture for unconverted consultations\n\n### FAQ\nSubhead: Practical answers for law firms considering automation\n\n### Final CTA\nHeading: Stop losing clients to slow intake\nBody: Book a 30-minute call. We will look at your current intake process, identify where prospects are falling through the cracks, and give you a clear plan.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of the bounded first programmatic SEO batch for dmytroai.com."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Structured for both SEO and GEO: direct answer opening, sectioned decision content, FAQ, and proof-adjacent linking."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoids fake case studies or invented industry results."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Written for commercial intent, not generic educational traffic."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T18:52:46.170Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        1,
+        2
+      ],
+      "avgSentenceLength": 18.7,
+      "sentenceLengthRange": [
+        9,
+        36
+      ],
+      "totalWords": 168
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation for Law Firms\nBody: Potential clients contact your firm and hear nothing for hours — or days.",
+      "wordCount": 20,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing clients to slow intake\nBody: Book a 30-minute call. We will look at your current intake process, identify where prospects are falling through the cracks, and give you a clear plan.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 11,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 8,
+      "commasPerSentence": 1.57
+    },
+    "vocabulary": {
+      "distinctWords": 118,
+      "totalWords": 168,
+      "topWords": [
+        [
+          "automation",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "intake",
+          4
+        ],
+        [
+          "law",
+          3
+        ],
+        [
+          "practice",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "ai",
+          2
+        ],
+        [
+          "firms",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "clients",
+          2
+        ],
+        [
+          "firm",
+          2
+        ],
+        [
+          "hours",
+          2
+        ],
+        [
+          "they",
+          2
+        ],
+        [
+          "call",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

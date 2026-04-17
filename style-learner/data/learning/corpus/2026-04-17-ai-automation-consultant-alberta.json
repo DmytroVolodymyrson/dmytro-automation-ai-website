@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-automation-consultant-alberta",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation Consultant for Alberta Businesses\nBody: Whether you are in Calgary, Edmonton, Red Deer, Lethbridge, or anywhere else in Alberta, the operational bottlenecks are the same. Leads go cold because follow-up is slow. Appointments fall through the cracks. Your team spends hours on admin work that should run itself. We build AI-powered automations that handle it.\nSub: Below: what we automate, which Alberta industries we work with most, how the process works, and how to tell if this is the right fit for your business.\n\n### Core sections\n- The bottlenecks we see most often across Alberta service businesses — and the automations that fix them:\n- Lead follow-up and response\n- Appointment scheduling\n- CRM cleanup and automation\n- Operations and internal workflows\n\n### FAQ\nSubhead: Practical answers about working with an AI automation consultant in Alberta\n\n### Final CTA\nHeading: Ready to automate the busywork?\nBody: Book a 30-minute call. We will look at your current operations, identify the highest-impact automation opportunities, and give you a clear picture of what it would take to build them.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of the bounded first programmatic SEO batch for dmytroai.com."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Structured for both SEO and GEO: direct answer opening, sectioned decision content, FAQ, and proof-adjacent linking."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoids fake case studies or invented industry results."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Written for commercial intent, not generic educational traffic."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T18:52:46.166Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 16.1,
+      "sentenceLengthRange": [
+        5,
+        37
+      ],
+      "totalWords": 177
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation Consultant for Alberta Businesses\nBody: Whether you are in Calgary, Edmonton, Red Deer, Lethbridge, or anywhere else in Alberta, the operational bottlenecks are the same.",
+      "wordCount": 29,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Ready to automate the busywork?\nBody: Book a 30-minute call. We will look at your current operations, identify the highest-impact automation opportunities, and give you a clear picture of what it would take to build them.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 10,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.11
+    },
+    "vocabulary": {
+      "distinctWords": 118,
+      "totalWords": 177,
+      "topWords": [
+        [
+          "alberta",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "your",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "ai",
+          2
+        ],
+        [
+          "consultant",
+          2
+        ],
+        [
+          "businesses",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "bottlenecks",
+          2
+        ],
+        [
+          "follow-up",
+          2
+        ],
+        [
+          "work",
+          2
+        ],
+        [
+          "build",
+          2
+        ],
+        [
+          "automations",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.006
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

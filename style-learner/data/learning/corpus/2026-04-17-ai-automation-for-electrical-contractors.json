@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-automation-for-electrical-contractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for Electrical Contractors\nBody: Your electricians are on job sites. Your office is managing dispatch, permits, and callbacks. When a homeowner calls for a panel upgrade or a property manager needs emergency service, speed matters. If you do not respond quickly, they call the next contractor on the list. AI automation handles the lead response, follow-up, and scheduling so your team focuses on the work.\nSub: Below: what electrical contractor automation looks like in practice, where it delivers the most value, and how to decide if it is the right investment.\n\n### Core sections\n- These automations address the operational challenges specific to electrical contractors — project variety, permit timelines, and a mobile workforce:\n- Missed call text-back\n- Lead follow-up sequences\n- Appointment and estimate scheduling\n- Estimate follow-up\n\n### FAQ\nSubhead: Practical answers for electrical contractors considering automation\n\n### Final CTA\nHeading: Stop losing jobs to missed calls and slow follow-up\nBody: Book a 30-minute call. We will look at your current lead flow, identify where jobs are being lost, and give you a clear plan for what to automate first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of the bounded first programmatic SEO batch for dmytroai.com."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Structured for both SEO and GEO: direct answer opening, sectioned decision content, FAQ, and proof-adjacent linking."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoids fake case studies or invented industry results."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Written for commercial intent, not generic educational traffic."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T18:52:46.169Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        1,
+        1,
+        2
+      ],
+      "avgSentenceLength": 18.3,
+      "sentenceLengthRange": [
+        8,
+        37
+      ],
+      "totalWords": 183
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: AI Automation for Electrical Contractors\nBody: Your electricians are on job sites.",
+      "wordCount": 14,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing jobs to missed calls and slow follow-up\nBody: Book a 30-minute call. We will look at your current lead flow, identify where jobs are being lost, and give you a clear plan for what to automate first.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 12,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 8,
+      "commasPerSentence": 1.5
+    },
+    "vocabulary": {
+      "distinctWords": 120,
+      "totalWords": 183,
+      "topWords": [
+        [
+          "-",
+          5
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "electrical",
+          4
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "follow-up",
+          4
+        ],
+        [
+          "contractors",
+          3
+        ],
+        [
+          "call",
+          3
+        ],
+        [
+          "lead",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "ai",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "calls",
+          2
+        ],
+        [
+          "if",
+          2
+        ],
+        [
+          "contractor",
+          2
+        ],
+        [
+          "scheduling",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.005
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-automation-for-plumbing-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for Plumbing Companies\nBody: When a pipe bursts at 11 PM, the homeowner calls whoever picks up. If your phone goes to voicemail, that job goes to the plumber who answers next. During the day, your techs are on jobs and your office is juggling dispatch, estimates, and callbacks. AI automation handles the calls, follow-ups, and scheduling that slip through the cracks so you stop losing jobs to slow response.\nSub: Below: what plumbing automation looks like in practice, where it delivers the clearest ROI, and how to decide if it is worth the investment.\n\n### Core sections\n- These automations are built for the reality of running a plumbing business — emergency calls, seasonal demand, and a team that is always on the road:\n- Missed call text-back\n- Lead follow-up sequences\n- Appointment scheduling\n- Estimate follow-up\n\n### FAQ\nSubhead: Practical answers for plumbing companies considering automation\n\n### Final CTA\nHeading: Stop losing jobs to missed calls and slow follow-up\nBody: Book a 30-minute call. We will look at your current lead flow, identify where jobs are being lost, and give you a clear plan for what to automate first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of the bounded first programmatic SEO batch for dmytroai.com."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Structured for both SEO and GEO: direct answer opening, sectioned decision content, FAQ, and proof-adjacent linking."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoids fake case studies or invented industry results."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Written for commercial intent, not generic educational traffic."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T18:52:46.171Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        1,
+        2
+      ],
+      "avgSentenceLength": 21.3,
+      "sentenceLengthRange": [
+        9,
+        42
+      ],
+      "totalWords": 192
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation for Plumbing Companies\nBody: When a pipe bursts at 11 PM, the homeowner calls whoever picks up.",
+      "wordCount": 21,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing jobs to missed calls and slow follow-up\nBody: Book a 30-minute call. We will look at your current lead flow, identify where jobs are being lost, and give you a clear plan for what to automate first.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 13,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 8,
+      "commasPerSentence": 1.86
+    },
+    "vocabulary": {
+      "distinctWords": 119,
+      "totalWords": 192,
+      "topWords": [
+        [
+          "-",
+          5
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "plumbing",
+          4
+        ],
+        [
+          "calls",
+          4
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "jobs",
+          4
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "follow-up",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "ai",
+          2
+        ],
+        [
+          "companies",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "if",
+          2
+        ],
+        [
+          "goes",
+          2
+        ],
+        [
+          "answers",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

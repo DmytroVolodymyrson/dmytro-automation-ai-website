@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-automation-for-dental-practices",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for Dental Practices\nBody: Your front desk is the bottleneck. They are answering phones, confirming appointments, chasing recall patients, and processing intake forms — all while trying to give the person standing in front of them a good experience. AI automation handles the repetitive communication so your team can focus on patients in the chair.\nSub: Below: what dental automation looks like in practice, where it delivers the clearest ROI, and how to decide if it is the right move for your practice.\n\n### Core sections\n- These are the automations we build most often for dental offices. Each one reduces front desk load without changing your clinical workflow:\n- New patient inquiry response\n- Online booking and confirmations\n- Recall and reactivation campaigns\n- No-show follow-up\n\n### FAQ\nSubhead: Practical answers for dental practices considering automation\n\n### Final CTA\nHeading: Ready to free up your front desk?\nBody: Book a 30-minute call. We will look at your current patient communication workflow, identify where time and appointments are being lost, and give you a clear plan for automation.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of the bounded first programmatic SEO batch for dmytroai.com."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Structured for both SEO and GEO: direct answer opening, sectioned decision content, FAQ, and proof-adjacent linking."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoids fake case studies or invented industry results."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Written for commercial intent, not generic educational traffic."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T18:52:46.168Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 17.8,
+      "sentenceLengthRange": [
+        5,
+        29
+      ],
+      "totalWords": 178
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: AI Automation for Dental Practices\nBody: Your front desk is the bottleneck.",
+      "wordCount": 14,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Ready to free up your front desk?\nBody: Book a 30-minute call. We will look at your current patient communication workflow, identify where time and appointments are being lost, and give you a clear plan for automation.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 7,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 0.88
+    },
+    "vocabulary": {
+      "distinctWords": 118,
+      "totalWords": 178,
+      "topWords": [
+        [
+          "your",
+          6
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "dental",
+          4
+        ],
+        [
+          "front",
+          4
+        ],
+        [
+          "desk",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "ai",
+          2
+        ],
+        [
+          "practices",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "appointments",
+          2
+        ],
+        [
+          "recall",
+          2
+        ],
+        [
+          "patients",
+          2
+        ],
+        [
+          "give",
+          2
+        ],
+        [
+          "communication",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.006
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

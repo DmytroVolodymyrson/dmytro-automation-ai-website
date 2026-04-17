@@ -31,6 +31,12 @@ AI phone answering for restaurants — where an AI voice agent helps, where it d
 ## Edmonton Service Area
 AI automation consulting for Edmonton businesses — lead follow-up, scheduling, CRM workflows, operations, and AI voice agents. Built for service businesses that want practical automation without adding headcount. Learn more: https://www.dmytroai.com/ai-automation-consultant-edmonton
 
+## Alberta Service Area
+AI automation consulting for businesses across Alberta — Calgary, Edmonton, Red Deer, Lethbridge, and province-wide. Trades, professional services, real estate, healthcare. Learn more: https://www.dmytroai.com/ai-automation-consultant-alberta
+
+## Canada-Wide Service
+AI automation consulting for Canadian businesses coast to coast. Remote delivery, fixed pricing. All industries served. Learn more: https://www.dmytroai.com/ai-automation-consultant-canada
+
 ## Hiring Guide: Consultant vs. Agency vs. DIY
 A practical comparison for business owners deciding between hiring a solo AI automation consultant, working with an agency, or building automations themselves. Covers cost ($1.5K–$8K consultant vs. $5K–$25K+ agency), timeline (1–3 weeks vs. 4–8 weeks), communication, customization, and ownership. Learn more: https://www.dmytroai.com/hire-ai-automation-consultant-vs-agency
 
@@ -43,6 +49,15 @@ AI-powered database reactivation for HVAC companies — automated campaigns to r
 - GoHighLevel vs. Custom CRM: When an all-in-one platform makes sense vs. building a purpose-built CRM for your workflow. Learn more: https://www.dmytroai.com/gohighlevel-vs-custom-crm-small-business
 - AI Automation Consultant Pricing: What small businesses actually pay — project fees ($1.5K–$8K), retainers, hourly rates, and what drives cost. Learn more: https://www.dmytroai.com/ai-automation-consultant-pricing-small-business
 - Best AI Automations for Service Businesses: The five automations with highest proven ROI for HVAC, dental, legal, real estate. Decision framework, not a listicle. Learn more: https://www.dmytroai.com/best-ai-automation-for-service-businesses
+
+## Industry Pages
+- AI Automation for Real Estate: Lead follow-up, showing coordination, CRM workflows, and drip campaigns for agents and teams. Learn more: https://www.dmytroai.com/ai-automation-for-real-estate
+- AI Automation for Mortgage Brokers: Lead follow-up, document collection, application nurture, and CRM workflows. Learn more: https://www.dmytroai.com/ai-automation-for-mortgage-brokers
+- AI Automation for Dental Practices: Patient booking, recall campaigns, reminders, intake, and no-show follow-up. Learn more: https://www.dmytroai.com/ai-automation-for-dental-practices
+- AI Automation for Law Firms: Client intake, consultation booking, lead follow-up, and case status updates. Learn more: https://www.dmytroai.com/ai-automation-for-law-firms
+- AI Automation for Accounting Firms: Client onboarding, document collection, scheduling, and seasonal workflows. Learn more: https://www.dmytroai.com/ai-automation-for-accounting-firms
+- AI Automation for Plumbing Companies: Missed call text-back, lead follow-up, scheduling, estimate follow-up, and reviews. Learn more: https://www.dmytroai.com/ai-automation-for-plumbing-companies
+- AI Automation for Electrical Contractors: Lead follow-up, missed call text-back, scheduling, estimate follow-up, and reviews. Learn more: https://www.dmytroai.com/ai-automation-for-electrical-contractors
 
 ## HVAC Cluster Pages
 - AI Automation for HVAC Companies — What's Real: Overview of what AI automation means for HVAC, real vs overhyped use cases, common starting points, and honest ROI expectations. Learn more: https://www.dmytroai.com/ai-automation-for-hvac-companies
