@@ -175,6 +175,42 @@ const guides = [
       "AI automation for electrical contractors. Lead follow-up, missed call text-back, scheduling, estimate follow-up, and review automation.",
     href: "/ai-automation-for-electrical-contractors",
   },
+  {
+    title: "Client Onboarding Automation",
+    description:
+      "How to automate client onboarding for service businesses. Intake forms, document collection, welcome sequences, scheduling, and CRM pipeline automation.",
+    href: "/client-onboarding-automation",
+  },
+  {
+    title: "AI Automation ROI Guide",
+    description:
+      "How to calculate AI automation ROI for your small business. Real cost breakdowns, payback timelines, and an honest framework for deciding if automation is worth it.",
+    href: "/ai-automation-roi-guide",
+  },
+  {
+    title: "n8n Automation Examples for Small Business",
+    description:
+      "Practical n8n automation examples for small businesses. Lead follow-up, CRM workflows, email sequences, scheduling, and review requests. Real workflows, not toy demos.",
+    href: "/n8n-automation-examples-small-business",
+  },
+  {
+    title: "AI Email Sequence Automation",
+    description:
+      "How AI email sequence automation works for small businesses. Automated follow-up, lead nurture, re-engagement campaigns, and personalized outreach.",
+    href: "/ai-email-sequence-automation",
+  },
+  {
+    title: "AI Automation for Insurance Agencies",
+    description:
+      "AI automation for insurance agencies. Lead follow-up, renewal reminders, quote follow-up, cross-sell campaigns, and client communication.",
+    href: "/ai-automation-for-insurance-agencies",
+  },
+  {
+    title: "AI Automation for Property Management",
+    description:
+      "AI automation for property management companies. Tenant communication, maintenance requests, lease renewals, showing scheduling, and owner reporting.",
+    href: "/ai-automation-for-property-management",
+  },
 ];
 
 const Guides = () => {

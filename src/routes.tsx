@@ -36,6 +36,12 @@ import AiAutomationForLawFirms from "./pages/AiAutomationForLawFirms";
 import AiAutomationForAccountingFirms from "./pages/AiAutomationForAccountingFirms";
 import AiAutomationForPlumbingCompanies from "./pages/AiAutomationForPlumbingCompanies";
 import AiAutomationForElectricalContractors from "./pages/AiAutomationForElectricalContractors";
+import ClientOnboardingAutomation from "./pages/ClientOnboardingAutomation";
+import AiAutomationRoiGuide from "./pages/AiAutomationRoiGuide";
+import N8nAutomationExamplesSmallBusiness from "./pages/N8nAutomationExamplesSmallBusiness";
+import AiEmailSequenceAutomation from "./pages/AiEmailSequenceAutomation";
+import AiAutomationForInsuranceAgencies from "./pages/AiAutomationForInsuranceAgencies";
+import AiAutomationForPropertyManagement from "./pages/AiAutomationForPropertyManagement";
 import NotFound from "./pages/NotFound";
 
 export type AppRouteDefinition = {
@@ -90,6 +96,12 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-for-accounting-firms", element: <AiAutomationForAccountingFirms /> },
   { path: "/ai-automation-for-plumbing-companies", element: <AiAutomationForPlumbingCompanies /> },
   { path: "/ai-automation-for-electrical-contractors", element: <AiAutomationForElectricalContractors /> },
+  { path: "/client-onboarding-automation", element: <ClientOnboardingAutomation /> },
+  { path: "/ai-automation-roi-guide", element: <AiAutomationRoiGuide /> },
+  { path: "/n8n-automation-examples-small-business", element: <N8nAutomationExamplesSmallBusiness /> },
+  { path: "/ai-email-sequence-automation", element: <AiEmailSequenceAutomation /> },
+  { path: "/ai-automation-for-insurance-agencies", element: <AiAutomationForInsuranceAgencies /> },
+  { path: "/ai-automation-for-property-management", element: <AiAutomationForPropertyManagement /> },
   { path: "/privacy", element: <PrivacyPolicy /> },
   { path: "/terms", element: <TermsOfService /> },
   { path: "*", element: <NotFound />, prerender: false },

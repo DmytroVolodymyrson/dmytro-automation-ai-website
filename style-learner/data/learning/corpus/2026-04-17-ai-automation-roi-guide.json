@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-automation-roi-guide",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation ROI Guide for Small Business\nBody: Every AI automation pitch promises 10x returns. The reality is more nuanced. Some automations pay for themselves in the first month. Others take six months. A few are not worth building at all. This guide gives you a practical framework for calculating ROI on AI automation — with real numbers, not vendor marketing.\nSub: Below: how to think about automation ROI, which automations have the clearest payback, and how to avoid spending money on the wrong things.\n\n### Core sections\n- How to think about automation ROI\n- ROI by automation type\n- Is automation worth it for your business right now?\n- Common ROI mistakes to avoid\n- Automating the wrong thing first\n\n### FAQ\nSubhead: Honest answers about automation ROI for small businesses\n\n### Final CTA\nHeading: Find out what automation is actually worth for your business\nBody: Book a 30-minute call. We will walk through your numbers, identify the highest-ROI automation for your situation, and give you a realistic payback estimate.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 2 of the bounded programmatic SEO rollout."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Structured for both search and AI-answer extraction with a direct answer opening, decision-oriented sections, FAQ, and proof-adjacent linking."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Commercial, practical, and grounded. No invented case-study claims."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Built to reinforce the existing consultant / industry / workflow clusters on dmytroai.com."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T19:37:15.400Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        2,
+        1,
+        2
+      ],
+      "avgSentenceLength": 14.2,
+      "sentenceLengthRange": [
+        4,
+        24
+      ],
+      "totalWords": 170
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation ROI Guide for Small Business\nBody: Every AI automation pitch promises 10x returns.",
+      "wordCount": 17,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Find out what automation is actually worth for your business\nBody: Book a 30-minute call. We will walk through your numbers, identify the highest-ROI automation for your situation, and give you a realistic payback estimate.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "result",
+        "closer"
+      ],
+      "template": "opener | result | result | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 5,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 7,
+      "commasPerSentence": 0.5
+    },
+    "vocabulary": {
+      "distinctWords": 104,
+      "totalWords": 170,
+      "topWords": [
+        [
+          "automation",
+          10
+        ],
+        [
+          "roi",
+          7
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "ai",
+          3
+        ],
+        [
+          "business",
+          3
+        ],
+        [
+          "worth",
+          3
+        ],
+        [
+          "how",
+          3
+        ],
+        [
+          "about",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "guide",
+          2
+        ],
+        [
+          "small",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "automations",
+          2
+        ],
+        [
+          "first",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.006
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

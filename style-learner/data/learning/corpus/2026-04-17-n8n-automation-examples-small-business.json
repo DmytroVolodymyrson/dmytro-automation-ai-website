@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-n8n-automation-examples-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: n8n Automation Examples for Small Business\nBody: n8n is one of the most powerful automation platforms available to small businesses — but most tutorials show you toy examples that do not solve real problems. This page shows you actual n8n workflows that run in production for service businesses. Lead follow-up, CRM automation, email sequences, appointment scheduling, and more.\nSub: Below: practical n8n automation examples organized by use case, with honest guidance on complexity and what you need to get started.\n\n### Core sections\n- Lead response and follow-up workflows\n- Missed call text-back\n- Web form instant response\n- Multi-step lead nurture sequence\n- Database reactivation campaign\n\n### FAQ\nSubhead: Practical answers about n8n automation for small businesses\n\n### Final CTA\nHeading: Ready to automate the repetitive work?\nBody: Book a 30-minute call. We will look at your current workflows, identify the best starting point, and show you what an n8n automation would look like for your business.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 2 of the bounded programmatic SEO rollout."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Structured for both search and AI-answer extraction with a direct answer opening, decision-oriented sections, FAQ, and proof-adjacent linking."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Commercial, practical, and grounded. No invented case-study claims."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Built to reinforce the existing consultant / industry / workflow clusters on dmytroai.com."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T19:37:15.402Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 17.3,
+      "sentenceLengthRange": [
+        5,
+        35
+      ],
+      "totalWords": 156
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: n8n Automation Examples for Small Business\nBody: n8n is one of the most powerful automation platforms available to small businesses — but most tutorials show you toy examples that do not solve real problems.",
+      "wordCount": 35,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Ready to automate the repetitive work?\nBody: Book a 30-minute call. We will look at your current workflows, identify the best starting point, and show you what an n8n automation would look like for your business.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 6,
+      "commas": 7,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 7,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 106,
+      "totalWords": 156,
+      "topWords": [
+        [
+          "n8n",
+          6
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "examples",
+          3
+        ],
+        [
+          "small",
+          3
+        ],
+        [
+          "businesses",
+          3
+        ],
+        [
+          "workflows",
+          3
+        ],
+        [
+          "lead",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "business",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "most",
+          2
+        ],
+        [
+          "show",
+          2
+        ],
+        [
+          "that",
+          2
+        ],
+        [
+          "follow-up",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

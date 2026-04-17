@@ -37,6 +37,12 @@ const AiAutomationForLawFirms = lazy(() => import("./pages/AiAutomationForLawFir
 const AiAutomationForAccountingFirms = lazy(() => import("./pages/AiAutomationForAccountingFirms"));
 const AiAutomationForPlumbingCompanies = lazy(() => import("./pages/AiAutomationForPlumbingCompanies"));
 const AiAutomationForElectricalContractors = lazy(() => import("./pages/AiAutomationForElectricalContractors"));
+const ClientOnboardingAutomation = lazy(() => import("./pages/ClientOnboardingAutomation"));
+const AiAutomationRoiGuide = lazy(() => import("./pages/AiAutomationRoiGuide"));
+const N8nAutomationExamplesSmallBusiness = lazy(() => import("./pages/N8nAutomationExamplesSmallBusiness"));
+const AiEmailSequenceAutomation = lazy(() => import("./pages/AiEmailSequenceAutomation"));
+const AiAutomationForInsuranceAgencies = lazy(() => import("./pages/AiAutomationForInsuranceAgencies"));
+const AiAutomationForPropertyManagement = lazy(() => import("./pages/AiAutomationForPropertyManagement"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const AppRoutesClient = () => (
@@ -77,6 +83,12 @@ const AppRoutesClient = () => (
       <Route path="/ai-automation-for-accounting-firms" element={<AiAutomationForAccountingFirms />} />
       <Route path="/ai-automation-for-plumbing-companies" element={<AiAutomationForPlumbingCompanies />} />
       <Route path="/ai-automation-for-electrical-contractors" element={<AiAutomationForElectricalContractors />} />
+      <Route path="/client-onboarding-automation" element={<ClientOnboardingAutomation />} />
+      <Route path="/ai-automation-roi-guide" element={<AiAutomationRoiGuide />} />
+      <Route path="/n8n-automation-examples-small-business" element={<N8nAutomationExamplesSmallBusiness />} />
+      <Route path="/ai-email-sequence-automation" element={<AiEmailSequenceAutomation />} />
+      <Route path="/ai-automation-for-insurance-agencies" element={<AiAutomationForInsuranceAgencies />} />
+      <Route path="/ai-automation-for-property-management" element={<AiAutomationForPropertyManagement />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="*" element={<NotFound />} />

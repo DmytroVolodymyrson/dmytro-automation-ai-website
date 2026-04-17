@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-email-sequence-automation",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Email Sequence Automation for Small Business\nBody: Most small businesses have email follow-up that is either nonexistent or painfully manual. Someone closes a deal and forgets to send the welcome sequence. A lead fills out a form and nobody responds for two days. A quote goes out and nobody follows up. AI email sequence automation fixes this — not by blasting generic templates, but by running intelligent, timed, and personalized email sequences that actually get responses.\nSub: Below: what AI email sequences look like in practice, where they deliver the most value, and what makes AI-powered sequences different from basic drip campaigns.\n\n### Core sections\n- Email sequences that move the needle\n- Instant lead response\n- Multi-step lead nurture\n- Quote and estimate follow-up\n- Client onboarding drip\n\n### FAQ\nSubhead: Practical answers about AI email automation for small businesses\n\n### Final CTA\nHeading: Stop losing leads to inconsistent follow-up\nBody: Book a 30-minute call. We will look at your current email workflow, identify the biggest gaps, and map out the sequences that will have the most impact.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 2 of the bounded programmatic SEO rollout."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Structured for both search and AI-answer extraction with a direct answer opening, decision-oriented sections, FAQ, and proof-adjacent linking."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Commercial, practical, and grounded. No invented case-study claims."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Built to reinforce the existing consultant / industry / workflow clusters on dmytroai.com."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T19:37:15.400Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        1,
+        1,
+        2
+      ],
+      "avgSentenceLength": 17.8,
+      "sentenceLengthRange": [
+        8,
+        26
+      ],
+      "totalWords": 178
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Email Sequence Automation for Small Business\nBody: Most small businesses have email follow-up that is either nonexistent or painfully manual.",
+      "wordCount": 23,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing leads to inconsistent follow-up\nBody: Book a 30-minute call. We will look at your current email workflow, identify the biggest gaps, and map out the sequences that will have the most impact.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 7,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 7,
+      "commasPerSentence": 0.88
+    },
+    "vocabulary": {
+      "distinctWords": 114,
+      "totalWords": 178,
+      "topWords": [
+        [
+          "email",
+          8
+        ],
+        [
+          "sequences",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "sequence",
+          3
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "small",
+          3
+        ],
+        [
+          "most",
+          3
+        ],
+        [
+          "follow-up",
+          3
+        ],
+        [
+          "lead",
+          3
+        ],
+        [
+          "out",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "businesses",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

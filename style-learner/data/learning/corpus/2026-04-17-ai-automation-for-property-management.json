@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-automation-for-property-management",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for Property Management\nBody: Property management is a communication grind. Tenant maintenance requests at 11 PM. Lease renewal follow-ups that slip through the cracks. Prospective tenants calling about showings and getting voicemail. Owner reports that take hours to compile. AI automation handles the repetitive communication layer — tenant inquiries, maintenance routing, lease reminders, and showing coordination — so your team focuses on the work that actually requires judgment.\nSub: Below: what automation looks like for property management companies, which workflows deliver the fastest ROI, and how to decide if your operation is ready.\n\n### Core sections\n- What you can automate in property management\n- Maintenance request intake and routing\n- After-hours tenant communication\n- Showing scheduling for vacancies\n- Lease renewal campaigns\n\n### FAQ\nSubhead: Practical answers for property management companies considering automation\n\n### Final CTA\nHeading: Scale your portfolio without scaling your headcount\nBody: Book a 30-minute call. We will look at your current communication workflow, identify the biggest time drains, and map out what to automate first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 2 of the bounded programmatic SEO rollout."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Structured for both search and AI-answer extraction with a direct answer opening, decision-oriented sections, FAQ, and proof-adjacent linking."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Commercial, practical, and grounded. No invented case-study claims."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Built to reinforce the existing consultant / industry / workflow clusters on dmytroai.com."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T19:37:15.398Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        1,
+        1,
+        2
+      ],
+      "avgSentenceLength": 15.4,
+      "sentenceLengthRange": [
+        6,
+        29
+      ],
+      "totalWords": 169
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: AI Automation for Property Management\nBody: Property management is a communication grind.",
+      "wordCount": 14,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Scale your portfolio without scaling your headcount\nBody: Book a 30-minute call. We will look at your current communication workflow, identify the biggest time drains, and map out what to automate first.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 7,
+      "emDashes": 2,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 7,
+      "commasPerSentence": 0.78
+    },
+    "vocabulary": {
+      "distinctWords": 113,
+      "totalWords": 169,
+      "topWords": [
+        [
+          "property",
+          5
+        ],
+        [
+          "management",
+          5
+        ],
+        [
+          "your",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "communication",
+          4
+        ],
+        [
+          "tenant",
+          3
+        ],
+        [
+          "maintenance",
+          3
+        ],
+        [
+          "lease",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "what",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "ai",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "renewal",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

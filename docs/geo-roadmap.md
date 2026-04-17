@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-17
+Last updated: 2026-04-17 (batch 2 shipped)
 
 ## Live GEO Assets
 
@@ -39,11 +39,17 @@ Last updated: 2026-04-17
 | AI Automation for Accounting Firms | `/ai-automation-for-accounting-firms` | Industry page | Live |
 | AI Automation for Plumbing Companies | `/ai-automation-for-plumbing-companies` | Industry page | Live |
 | AI Automation for Electrical Contractors | `/ai-automation-for-electrical-contractors` | Industry page | Live |
+| Client Onboarding Automation | `/client-onboarding-automation` | Workflow page | Live |
+| AI Automation ROI Guide | `/ai-automation-roi-guide` | Decision page | Live |
+| n8n Automation Examples (SMB) | `/n8n-automation-examples-small-business` | Authority page | Live |
+| AI Email Sequence Automation | `/ai-email-sequence-automation` | Workflow page | Live |
+| AI Automation for Insurance Agencies | `/ai-automation-for-insurance-agencies` | Industry page | Live |
+| AI Automation for Property Management | `/ai-automation-for-property-management` | Industry page | Live |
 | `llms.txt` | `/llms.txt` | AI crawler file | Live |
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 24**
+**Total decision/comparison/industry pages live: 30**
 **Total case studies live: 3**
 
 ---
@@ -52,12 +58,12 @@ Last updated: 2026-04-17
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P0** | Client Onboarding Automation | "automate client onboarding service business" | Strong decision-intent workflow page, broad service-business relevance | Not started |
-| 2 | **P1** | AI Automation ROI Calculator / Guide | "is AI automation worth it small business" | Useful decision-stage content and supports pricing + consultant pages | Not started |
-| 3 | **P1** | n8n Automation Examples for Small Business | "n8n automation ideas small business" | Top-of-funnel authority page around a core tool | Not started |
-| 4 | **P2** | AI Email Sequence Automation | "automate email follow-up with AI" | Supports CRM / follow-up cluster and ties to real implementation work | Not started |
-| 5 | **P2** | AI Automation for Insurance Agencies | "AI follow-up for insurance agents" | High-volume inquiry vertical with strong lead follow-up fit | Not started |
-| 6 | **P2** | AI Automation for Property Management | "AI tenant communication property management" | Recurring communication patterns, good automation fit | Not started |
+| 1 | **P0** | Client Onboarding Automation | "automate client onboarding service business" | Strong decision-intent workflow page, broad service-business relevance | **Live** |
+| 2 | **P1** | AI Automation ROI Calculator / Guide | "is AI automation worth it small business" | Useful decision-stage content and supports pricing + consultant pages | **Live** |
+| 3 | **P1** | n8n Automation Examples for Small Business | "n8n automation ideas small business" | Top-of-funnel authority page around a core tool | **Live** |
+| 4 | **P2** | AI Email Sequence Automation | "automate email follow-up with AI" | Supports CRM / follow-up cluster and ties to real implementation work | **Live** |
+| 5 | **P2** | AI Automation for Insurance Agencies | "AI follow-up for insurance agents" | High-volume inquiry vertical with strong lead follow-up fit | **Live** |
+| 6 | **P2** | AI Automation for Property Management | "AI tenant communication property management" | Recurring communication patterns, good automation fit | **Live** |
 
 ### Priority Definitions
 

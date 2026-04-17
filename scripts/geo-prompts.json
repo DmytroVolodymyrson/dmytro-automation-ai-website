@@ -97,6 +97,54 @@
         "HVAC missed call text back automation",
         "AI tools for HVAC scheduling and follow-up"
       ]
+    },
+    {
+      "id": "client-onboarding-automation",
+      "path": "/client-onboarding-automation",
+      "label": "Client Onboarding Automation",
+      "prompts": [
+        "How to automate client onboarding for a service business",
+        "Best tools for automating client onboarding",
+        "Client onboarding automation for small business",
+        "Automate intake forms and document collection for new clients",
+        "How do I streamline onboarding for my consulting business?"
+      ]
+    },
+    {
+      "id": "ai-automation-roi-guide",
+      "path": "/ai-automation-roi-guide",
+      "label": "AI Automation ROI Guide",
+      "prompts": [
+        "Is AI automation worth it for a small business?",
+        "How to calculate ROI on AI automation",
+        "AI automation cost vs benefit for small business",
+        "What is the payback period for AI automation?",
+        "How much does AI automation save a small business?"
+      ]
+    },
+    {
+      "id": "n8n-automation-examples-small-business",
+      "path": "/n8n-automation-examples-small-business",
+      "label": "n8n Automation Examples for Small Business",
+      "prompts": [
+        "n8n automation examples for small business",
+        "What can I automate with n8n?",
+        "Best n8n workflows for lead follow-up",
+        "n8n automation ideas for service businesses",
+        "How to use n8n for CRM automation"
+      ]
+    },
+    {
+      "id": "ai-automation-for-insurance-agencies",
+      "path": "/ai-automation-for-insurance-agencies",
+      "label": "AI Automation for Insurance Agencies",
+      "prompts": [
+        "AI automation for insurance agencies",
+        "How can AI help my insurance agency with lead follow-up?",
+        "Automate renewal reminders for insurance agency",
+        "AI follow-up for insurance agents",
+        "Best AI tools for independent insurance agencies"
+      ]
     }
   ],
   "providers": ["openai", "anthropic", "gemini", "perplexity"],

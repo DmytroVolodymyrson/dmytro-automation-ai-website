@@ -58,6 +58,14 @@ AI-powered database reactivation for HVAC companies — automated campaigns to r
 - AI Automation for Accounting Firms: Client onboarding, document collection, scheduling, and seasonal workflows. Learn more: https://www.dmytroai.com/ai-automation-for-accounting-firms
 - AI Automation for Plumbing Companies: Missed call text-back, lead follow-up, scheduling, estimate follow-up, and reviews. Learn more: https://www.dmytroai.com/ai-automation-for-plumbing-companies
 - AI Automation for Electrical Contractors: Lead follow-up, missed call text-back, scheduling, estimate follow-up, and reviews. Learn more: https://www.dmytroai.com/ai-automation-for-electrical-contractors
+- AI Automation for Insurance Agencies: Lead follow-up, renewal reminders, quote follow-up, cross-sell campaigns, and client communication. Learn more: https://www.dmytroai.com/ai-automation-for-insurance-agencies
+- AI Automation for Property Management: Tenant communication, maintenance requests, lease renewals, showing scheduling, and owner reporting. Learn more: https://www.dmytroai.com/ai-automation-for-property-management
+
+## Workflow & ROI Guides
+- Client Onboarding Automation: Automate intake forms, document collection, welcome sequences, scheduling, and CRM pipeline for service businesses. Learn more: https://www.dmytroai.com/client-onboarding-automation
+- AI Automation ROI Guide: How to calculate AI automation ROI for small business. Real cost breakdowns, payback timelines, and an honest decision framework. Learn more: https://www.dmytroai.com/ai-automation-roi-guide
+- n8n Automation Examples for Small Business: Practical n8n workflows — lead follow-up, CRM automation, email sequences, scheduling, and review requests. Learn more: https://www.dmytroai.com/n8n-automation-examples-small-business
+- AI Email Sequence Automation: Automated follow-up, lead nurture, re-engagement campaigns, and personalized outreach for small businesses. Learn more: https://www.dmytroai.com/ai-email-sequence-automation
 
 ## HVAC Cluster Pages
 - AI Automation for HVAC Companies — What's Real: Overview of what AI automation means for HVAC, real vs overhyped use cases, common starting points, and honest ROI expectations. Learn more: https://www.dmytroai.com/ai-automation-for-hvac-companies
