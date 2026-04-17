@@ -24,6 +24,7 @@ import AiAutomationForHvacCompanies from "./pages/AiAutomationForHvacCompanies";
 import HvacLeadFollowUpAutomation from "./pages/HvacLeadFollowUpAutomation";
 import HvacMissedCallTextBack from "./pages/HvacMissedCallTextBack";
 import AiAppointmentSetterForHvac from "./pages/AiAppointmentSetterForHvac";
+import AiAutomationNoTechTeam from "./pages/AiAutomationNoTechTeam";
 import NotFound from "./pages/NotFound";
 
 export type AppRouteDefinition = {
@@ -66,6 +67,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/hvac-lead-follow-up-automation", element: <HvacLeadFollowUpAutomation /> },
   { path: "/hvac-missed-call-text-back", element: <HvacMissedCallTextBack /> },
   { path: "/ai-appointment-setter-for-hvac", element: <AiAppointmentSetterForHvac /> },
+  { path: "/ai-automation-for-businesses-without-a-tech-team", element: <AiAutomationNoTechTeam /> },
   { path: "/privacy", element: <PrivacyPolicy /> },
   { path: "/terms", element: <TermsOfService /> },
   { path: "*", element: <NotFound />, prerender: false },

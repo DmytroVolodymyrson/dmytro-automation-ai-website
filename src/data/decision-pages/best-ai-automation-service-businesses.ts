@@ -232,6 +232,10 @@ const data: DecisionPageData = {
       label: "HVAC database reactivation",
       href: "/hvac-database-reactivation",
     },
+    {
+      label: "Automation without a tech team",
+      href: "/ai-automation-for-businesses-without-a-tech-team",
+    },
   ],
 };
 

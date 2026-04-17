@@ -103,6 +103,12 @@ const guides = [
       "Which AI automations actually move the needle? A decision framework for HVAC, dental, legal, real estate, and other service companies.",
     href: "/best-ai-automation-for-service-businesses",
   },
+  {
+    title: "AI Automation for Businesses Without a Tech Team",
+    description:
+      "Can you automate without developers or IT staff? Yes. What works, what does not, and how to decide if you are ready.",
+    href: "/ai-automation-for-businesses-without-a-tech-team",
+  },
 ];
 
 const Guides = () => {
