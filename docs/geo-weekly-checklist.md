@@ -26,7 +26,7 @@ If publishing a new page:
 - [ ] Article + FAQPage JSON-LD schema added
 - [ ] Page-specific `<title>` and `<meta description>` set
 - [ ] Internal links added: link to at least one case study and one related decision page
-- [ ] Route added in `App.tsx` and entry added to `sitemap.xml`
+- [ ] Route added in `src/routes.tsx` and entry added to `sitemap.xml`
 - [ ] `llms.txt` updated if the page covers a new service or topic area
 - [ ] Update the "Live GEO Assets" table in `docs/geo-roadmap.md`
 

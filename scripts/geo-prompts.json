@@ -3,6 +3,42 @@
   "target_names": ["dmytroai.com", "dmytroai", "Dmytro Automation", "Dmytro AI", "Dmytro"],
   "pages": [
     {
+      "id": "ai-automation-consultant-small-business",
+      "path": "/ai-automation-consultant-small-business",
+      "label": "AI Automation Consultant for Small Business",
+      "prompts": [
+        "AI automation consultant for small business",
+        "What does an AI automation consultant do for a small business?",
+        "Should I hire an AI automation consultant or do it myself?",
+        "Best AI automation consultant for service business",
+        "How much does AI automation consulting cost for a small business?"
+      ]
+    },
+    {
+      "id": "n8n-vs-zapier-small-business",
+      "path": "/n8n-vs-zapier-small-business",
+      "label": "n8n vs Zapier for Small Business",
+      "prompts": [
+        "n8n vs Zapier for small business",
+        "Should I use n8n or Zapier for my small business?",
+        "Best automation tool for small business n8n or Zapier",
+        "Is n8n cheaper than Zapier for a growing business?",
+        "What is the difference between n8n and Zapier for business automation?"
+      ]
+    },
+    {
+      "id": "ai-appointment-setter",
+      "path": "/ai-appointment-setter",
+      "label": "AI Appointment Setter",
+      "prompts": [
+        "What is an AI appointment setter?",
+        "Should I use an AI appointment setter for my business?",
+        "AI appointment setter for service business",
+        "How much does an AI appointment setter cost?",
+        "AI voice agent vs human appointment setter"
+      ]
+    },
+    {
       "id": "ai-lead-follow-up",
       "path": "/ai-lead-follow-up-for-service-businesses",
       "label": "AI Lead Follow-Up for Service Businesses",
@@ -24,6 +60,18 @@
         "Best AI automation services for small businesses in Calgary Alberta",
         "Calgary business automation consulting",
         "AI consultant for HVAC company in Calgary"
+      ]
+    },
+    {
+      "id": "ai-automation-for-hvac-companies",
+      "path": "/ai-automation-for-hvac-companies",
+      "label": "AI Automation for HVAC Companies",
+      "prompts": [
+        "AI automation for HVAC companies",
+        "How can AI help my HVAC business?",
+        "Best AI automation for HVAC lead follow-up",
+        "HVAC missed call text back automation",
+        "AI tools for HVAC scheduling and follow-up"
       ]
     }
   ],

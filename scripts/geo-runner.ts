@@ -6,9 +6,11 @@
  * dmytroai.com appears in responses/citations.
  *
  * Usage:
- *   npx tsx scripts/geo-runner.ts                  # all providers
- *   npx tsx scripts/geo-runner.ts --provider openai # single provider
- *   npx tsx scripts/geo-runner.ts --dry-run         # show prompts, no API calls
+ *   npx tsx scripts/geo-runner.ts                                       # all providers, all tracked pages
+ *   npx tsx scripts/geo-runner.ts --provider openai                      # single provider
+ *   npx tsx scripts/geo-runner.ts --page ai-automation-consultant-small-business
+ *   npx tsx scripts/geo-runner.ts --provider perplexity --page ai-appointment-setter
+ *   npx tsx scripts/geo-runner.ts --dry-run                              # show prompts, no API calls
  *
  * Env vars needed (set in .env or export):
  *   OPENAI_API_KEY, ANTHROPIC_API_KEY, GEMINI_API_KEY, PERPLEXITY_API_KEY
@@ -490,19 +492,34 @@ async function main() {
   const args = process.argv.slice(2);
   const dryRun = args.includes("--dry-run");
   const providerArg = args.find((_, i) => args[i - 1] === "--provider");
+  const pageArg = args.find((_, i) => args[i - 1] === "--page");
 
   const config = loadPrompts();
   const providers = providerArg
     ? [providerArg]
     : config.providers;
+  const pages = pageArg
+    ? config.pages.filter((page) => page.id === pageArg)
+    : config.pages;
+
+  if (pageArg && pages.length === 0) {
+    console.error(`\n❌ Unknown page id: ${pageArg}`);
+    console.error(`   Available page ids: ${config.pages.map((page) => page.id).join(", ")}`);
+    process.exit(1);
+  }
+
+  const activeConfig: PromptConfig = {
+    ...config,
+    pages,
+  };
 
   console.log(`\n🔍 GEO Test Runner — ${runId()}`);
   console.log(`   Providers: ${providers.join(", ")}`);
-  console.log(`   Prompts: ${config.pages.reduce((s, p) => s + p.prompts.length, 0)} across ${config.pages.length} pages`);
+  console.log(`   Prompts: ${activeConfig.pages.reduce((s, p) => s + p.prompts.length, 0)} across ${activeConfig.pages.length} pages`);
 
   if (dryRun) {
     console.log("\n📋 DRY RUN — prompts that would be sent:\n");
-    for (const page of config.pages) {
+    for (const page of activeConfig.pages) {
       console.log(`  ${page.label}:`);
       for (const prompt of page.prompts) {
         console.log(`    → ${prompt}`);
@@ -538,7 +555,7 @@ async function main() {
 
   const results: ProviderResult[] = [];
 
-  for (const page of config.pages) {
+  for (const page of activeConfig.pages) {
     for (const prompt of page.prompts) {
       for (const prov of available) {
         const label = `  [${prov}] ${prompt.slice(0, 50)}...`;
@@ -556,7 +573,7 @@ async function main() {
   }
 
   // Build and save results
-  const summary = buildSummary(results, config, available);
+  const summary = buildSummary(results, activeConfig, available);
 
   ensureDir(RESULTS_DIR);
 
@@ -565,11 +582,11 @@ async function main() {
   console.log(`\n📁 JSON results: ${jsonPath}`);
 
   const mdPath = join(RESULTS_DIR, `${summary.runId}.md`);
-  writeFileSync(mdPath, formatMarkdownSummary(summary, config));
+  writeFileSync(mdPath, formatMarkdownSummary(summary, activeConfig));
   console.log(`📄 Summary:      ${mdPath}`);
 
   console.log(`\n📊 Total score: ${summary.totalScore}`);
-  for (const page of config.pages) {
+  for (const page of activeConfig.pages) {
     const pageTotal = Object.values(summary.scores[page.id] || {}).reduce(
       (a, b) => a + b,
       0

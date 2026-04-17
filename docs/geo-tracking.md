@@ -107,9 +107,11 @@ Notes:
 The GEO test runner (`scripts/geo-runner.ts`) automates weekly checks across all 4 providers via their APIs.
 
 ```bash
-npm run geo            # Run all 4 providers
+npm run geo            # Run all tracked pages across all providers
 npm run geo:dry        # Preview prompts without API calls
 npx tsx scripts/geo-runner.ts --provider openai  # Single provider
+npx tsx scripts/geo-runner.ts --page ai-appointment-setter
+npx tsx scripts/geo-runner.ts --provider perplexity --page ai-automation-for-hvac-companies
 ```
 
 Results are saved to `docs/data/geo-results/`:

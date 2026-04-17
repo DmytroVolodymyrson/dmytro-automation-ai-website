@@ -1,12 +1,13 @@
 # GEO Roadmap
 
-Last updated: 2026-03-20
+Last updated: 2026-04-17
 
 ## Live GEO Assets
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
 | Homepage | `/` | Core page, JSON-LD (Person, LocalBusiness, FAQPage) | Live |
+| Guides Hub | `/guides` | Index page | Live |
 | Case Studies Index | `/case-studies` | Hub page | Live |
 | Paris Cafe Voice Agent | `/case-studies/paris-cafe-voice-agent` | Case study | Live |
 | Instagram Lead Gen | `/case-studies/instagram-lead-generation` | Case study | Live |
@@ -16,12 +17,22 @@ Last updated: 2026-03-20
 | AI Appointment Setter | `/ai-appointment-setter` | Decision page | Live |
 | AI Lead Follow-Up | `/ai-lead-follow-up-for-service-businesses` | Decision page | Live |
 | AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo landing page | Live |
-| Guides Hub | `/guides` | Index page | Live |
+| AI Consultant vs Agency | `/hire-ai-automation-consultant-vs-agency` | Comparison page | Live |
+| HVAC Database Reactivation | `/hvac-database-reactivation` | Decision page | Live |
+| AI Consultant vs Freelancer | `/ai-automation-consultant-vs-freelancer` | Comparison page | Live |
+| AI Chatbot vs Voice Agent | `/ai-chatbot-vs-ai-voice-agent-for-lead-qualification` | Comparison page | Live |
+| GoHighLevel vs Custom CRM | `/gohighlevel-vs-custom-crm-small-business` | Comparison page | Live |
+| AI Consultant Pricing | `/ai-automation-consultant-pricing-small-business` | Decision page | Live |
+| Best AI Automations for Service Businesses | `/best-ai-automation-for-service-businesses` | Decision page | Live |
+| AI Automation for HVAC Companies | `/ai-automation-for-hvac-companies` | Industry page | Live |
+| HVAC Lead Follow-Up Automation | `/hvac-lead-follow-up-automation` | Industry page | Live |
+| HVAC Missed Call Text Back | `/hvac-missed-call-text-back` | Industry page | Live |
+| AI Appointment Setter for HVAC | `/ai-appointment-setter-for-hvac` | Industry page | Live |
 | `llms.txt` | `/llms.txt` | AI crawler file | Live |
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison pages live: 4**
+**Total decision/comparison/industry pages live: 13**
 **Total case studies live: 3**
 
 ---
@@ -30,14 +41,14 @@ Last updated: 2026-03-20
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P0** | AI Automation for HVAC Companies | "AI automation for HVAC business" | High buyer intent, low competition, pairs with Calgary geo page | Not started |
-| 2 | **P0** | AI Automation Consultant vs Agency | "hire AI consultant vs automation agency" | Direct comparison query, 32-50% AI citation rate for comparisons | Not started |
-| 3 | **P0** | AI Voice Agent for Restaurants | "AI phone answering for restaurants" | We have a live case study (Paris Cafe) to reference, strong proof | Not started |
-| 4 | **P1** | AI Automation for Real Estate | "AI lead follow-up for real estate agents" | High search volume vertical, natural extension of lead follow-up page | Not started |
-| 5 | **P1** | How Much Does AI Automation Cost | "AI automation pricing small business" | Pricing queries get heavy AI citations, we already quote $1.5-8K in FAQ | Not started |
-| 6 | **P1** | AI Automation Consultant Edmonton | "AI automation consultant Edmonton" | Second Alberta city, replicates Calgary geo page pattern | Not started |
-| 7 | **P2** | n8n Automation Examples for Small Business | "n8n automation ideas small business" | Top-of-funnel, builds topical authority around n8n | Not started |
-| 8 | **P2** | AI Email Sequence Automation | "automate email follow-up with AI" | Ties to e-commerce CRM case study, service catalog item | Not started |
+| 1 | **P0** | AI Voice Agent for Restaurants | "AI phone answering for restaurants" | Paris Cafe gives direct proof and a natural commercial follow-on page | Not started |
+| 2 | **P0** | AI Automation Consultant Edmonton | "AI automation consultant Edmonton" | Reuses the Calgary geo pattern and expands Alberta local coverage | Not started |
+| 3 | **P0** | AI Automation for Real Estate | "AI lead follow-up for real estate agents" | Strong service-business fit and natural extension of lead follow-up positioning | Not started |
+| 4 | **P1** | AI Automation for Mortgage Brokers | "AI tools for mortgage brokers" | Another high-value service-business vertical with follow-up pain | Not started |
+| 5 | **P1** | Client Onboarding Automation | "automate client onboarding service business" | Strong decision-intent workflow page, broad service-business relevance | Not started |
+| 6 | **P1** | AI Automation ROI Calculator / Guide | "is AI automation worth it small business" | Useful decision-stage content and supports pricing + consultant pages | Not started |
+| 7 | **P2** | n8n Automation Examples for Small Business | "n8n automation ideas small business" | Top-of-funnel authority page around a core tool | Not started |
+| 8 | **P2** | AI Email Sequence Automation | "automate email follow-up with AI" | Supports CRM / follow-up cluster and ties to real implementation work | Not started |
 
 ### Priority Definitions
 

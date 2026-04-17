@@ -13,6 +13,12 @@ npm run geo
 
 # Run a single provider
 npx tsx scripts/geo-runner.ts --provider perplexity
+
+# Run one tracked page only
+npx tsx scripts/geo-runner.ts --page ai-appointment-setter
+
+# Fast spot-check: one provider + one page
+npx tsx scripts/geo-runner.ts --provider perplexity --page ai-automation-consultant-small-business
 ```
 
 ## Setup
