@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-build-vs-buy-ai-automation",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: Build vs. Buy AI Automation\nBody: Every business owner considering automation faces the same question: do I buy an off-the-shelf tool or hire someone to build a custom system? The answer depends on your workflow complexity, budget, and how unique your processes are. This page gives you an honest framework to decide — without pushing you toward either option.\nSub: Below: cost comparison, customization tradeoffs, time-to-value, and when each path makes sense.\n\n### Core sections\n- Three paths to AI automation (cards: Build custom, Buy off-the-shelf, Hybrid)\n- Side-by-side comparison (table: upfront cost, ongoing cost, customization, time to value, ownership, integration depth)\n- When to build vs when to buy (when-to-use)\n- What most businesses get wrong (considerations: over-building, under-buying, vendor lock-in, maintenance)\n- Case studies referencing all 3 existing projects\n\n### FAQ\nSubhead: Practical answers about building vs. buying AI automation\n\n### Final CTA\nHeading: Not sure whether to build or buy?\nBody: Book a 30-minute call. We will look at your specific workflows and give you an honest recommendation on the right path.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 4. Core decision-stage page for buyers evaluating automation approach."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks to consultant page, consultant vs agency, ROI guide, pricing, no-tech-team page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Frames hybrid (SaaS + custom glue) as the most common winning pattern."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Honest about when off-the-shelf SaaS is the right answer."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T21:26:58.516Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "avgSentenceLength": 15.7,
+      "sentenceLengthRange": [
+        3,
+        58
+      ],
+      "totalWords": 173
+    },
+    "opener": {
+      "type": "short-punch",
+      "text": "### Hero\nHeading: Build vs.",
+      "wordCount": 4,
+      "pattern": "short-punch"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Not sure whether to build or buy?\nBody: Book a 30-minute call. We will look at your specific workflows and give you an honest recommendation on the right path.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 15,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 11,
+      "commasPerSentence": 1.67
+    },
+    "vocabulary": {
+      "distinctWords": 123,
+      "totalWords": 173,
+      "topWords": [
+        [
+          "build",
+          5
+        ],
+        [
+          "buy",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "vs",
+          3
+        ],
+        [
+          "ai",
+          3
+        ],
+        [
+          "your",
+          3
+        ],
+        [
+          "cost",
+          3
+        ],
+        [
+          "when",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "off-the-shelf",
+          2
+        ],
+        [
+          "custom",
+          2
+        ],
+        [
+          "honest",
+          2
+        ],
+        [
+          "comparison",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.006
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

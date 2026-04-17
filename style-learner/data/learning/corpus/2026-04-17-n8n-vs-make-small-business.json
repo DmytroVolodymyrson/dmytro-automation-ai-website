@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-n8n-vs-make-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: n8n vs. Make for Small Business\nBody: Make (formerly Integromat) and n8n are both powerful automation platforms that go well beyond what Zapier offers. But they differ on pricing, self-hosting, AI integration, and how they handle complex logic. This guide compares them specifically for small business automation — not enterprise, not developer hobby projects.\nSub: Below: pricing models, feature comparison, complexity handling, and guidance on which fits your situation.\n\n### Core sections\n- Two powerful automation platforms (cards: n8n, Make, When either works)\n- Side-by-side comparison (table: pricing, self-hosting, AI integration, complexity, learning curve, integrations)\n- When Make wins vs when n8n wins (when-to-use)\n- What actually matters beyond features (considerations: cost at scale, vendor lock-in, community, AI-native)\n- Case studies referencing existing projects\n\n### FAQ\nSubhead: Practical answers about n8n vs. Make for small businesses\n\n### Final CTA\nHeading: Need help choosing the right platform?\nBody: Book a 30-minute call. We will look at your automation needs and figure out which platform makes the most sense.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 4. Extends the automation-tool comparison cluster alongside n8n-vs-zapier."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks to n8n vs Zapier, n8n automation examples, GoHighLevel vs custom CRM."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Positions Make as strong for visual users; n8n as the power choice for scale and AI."
+    },
+    {
+      "type": "tone_shift",
+      "description": "References self-hosting cost advantages with real numbers."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T21:26:58.520Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "avgSentenceLength": 15,
+      "sentenceLengthRange": [
+        4,
+        54
+      ],
+      "totalWords": 165
+    },
+    "opener": {
+      "type": "stat",
+      "text": "### Hero\nHeading: n8n vs.",
+      "wordCount": 4,
+      "pattern": "stat"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help choosing the right platform?\nBody: Book a 30-minute call. We will look at your automation needs and figure out which platform makes the most sense.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 17,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 10,
+      "commasPerSentence": 1.89
+    },
+    "vocabulary": {
+      "distinctWords": 115,
+      "totalWords": 165,
+      "topWords": [
+        [
+          "n8n",
+          5
+        ],
+        [
+          "make",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "vs",
+          3
+        ],
+        [
+          "small",
+          3
+        ],
+        [
+          "pricing",
+          3
+        ],
+        [
+          "when",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "business",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "powerful",
+          2
+        ],
+        [
+          "platforms",
+          2
+        ],
+        [
+          "beyond",
+          2
+        ],
+        [
+          "what",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.006
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

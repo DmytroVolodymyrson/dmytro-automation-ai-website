@@ -125,6 +125,48 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "AI Appointment Setter vs. Human Receptionist",
+    description:
+      "Should you replace your receptionist with an AI appointment setter? Compare cost, availability, caller experience, and booking accuracy for service businesses.",
+    href: "/ai-appointment-setter-vs-receptionist",
+    category: "comparisons",
+  },
+  {
+    title: "AI Voice Agent vs. Voicemail",
+    description:
+      "What happens when you miss a call? Compare AI voice agents and voicemail on lead capture, caller experience, and cost for service businesses.",
+    href: "/ai-voice-agent-vs-voicemail",
+    category: "comparisons",
+  },
+  {
+    title: "AI Voice Agent vs. Call Center",
+    description:
+      "AI voice agent or outsourced call center? Compare monthly cost, call quality, CRM integration, and scalability for small service businesses.",
+    href: "/ai-voice-agent-vs-call-center",
+    category: "comparisons",
+  },
+  {
+    title: "n8n vs. Make for Small Business",
+    description:
+      "Comparing n8n and Make (formerly Integromat) for small business automation. Pricing, self-hosting, AI integration, and complexity handling.",
+    href: "/n8n-vs-make-small-business",
+    category: "comparisons",
+  },
+  {
+    title: "Build vs. Buy AI Automation",
+    description:
+      "Should you build custom AI automation or buy off-the-shelf SaaS? Compare cost, customization, time-to-value, and long-term ownership.",
+    href: "/build-vs-buy-ai-automation",
+    category: "comparisons",
+  },
+  {
+    title: "VAPI vs. Retell for Small Business Voice AI",
+    description:
+      "Comparing VAPI and Retell for small business voice AI. Pricing, latency, customization, CRM integration, and developer experience.",
+    href: "/vapi-vs-retell-small-business",
+    category: "comparisons",
+  },
+  {
     title: "AI Appointment Setter for Service Businesses",
     description:
       "What an AI appointment setter does, where it helps most, and how to decide if it is the right move for your business.",

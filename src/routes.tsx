@@ -50,6 +50,12 @@ import InstantLeadResponse from "./pages/InstantLeadResponse";
 import QuoteFollowUp from "./pages/QuoteFollowUp";
 import ClientReactivation from "./pages/ClientReactivation";
 import NoShowReduction from "./pages/NoShowReduction";
+import AiAppointmentSetterVsReceptionist from "./pages/AiAppointmentSetterVsReceptionist";
+import AiVoiceAgentVsVoicemail from "./pages/AiVoiceAgentVsVoicemail";
+import AiVoiceAgentVsCallCenter from "./pages/AiVoiceAgentVsCallCenter";
+import N8nVsMakeSmallBusiness from "./pages/N8nVsMakeSmallBusiness";
+import BuildVsBuyAiAutomation from "./pages/BuildVsBuyAiAutomation";
+import VapiVsRetellSmallBusiness from "./pages/VapiVsRetellSmallBusiness";
 import NotFound from "./pages/NotFound";
 
 export type AppRouteDefinition = {
@@ -118,6 +124,12 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/quote-follow-up-automation", element: <QuoteFollowUp /> },
   { path: "/client-reactivation-automation", element: <ClientReactivation /> },
   { path: "/no-show-reduction-automation", element: <NoShowReduction /> },
+  { path: "/ai-appointment-setter-vs-receptionist", element: <AiAppointmentSetterVsReceptionist /> },
+  { path: "/ai-voice-agent-vs-voicemail", element: <AiVoiceAgentVsVoicemail /> },
+  { path: "/ai-voice-agent-vs-call-center", element: <AiVoiceAgentVsCallCenter /> },
+  { path: "/n8n-vs-make-small-business", element: <N8nVsMakeSmallBusiness /> },
+  { path: "/build-vs-buy-ai-automation", element: <BuildVsBuyAiAutomation /> },
+  { path: "/vapi-vs-retell-small-business", element: <VapiVsRetellSmallBusiness /> },
   { path: "/privacy", element: <PrivacyPolicy /> },
   { path: "/terms", element: <TermsOfService /> },
   { path: "*", element: <NotFound />, prerender: false },

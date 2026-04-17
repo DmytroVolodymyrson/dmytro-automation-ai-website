@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-voice-agent-vs-voicemail",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Voice Agent vs. Voicemail\nBody: Most callers hang up when they hit voicemail. They call your competitor instead. An AI voice agent answers on the first ring, qualifies the caller, and books appointments — even at 2 AM. This page breaks down when voicemail is still fine, when it costs you money, and what switching to an AI agent actually involves.\nSub: Below: lead capture rates, caller experience, cost comparison, and a decision framework.\n\n### Core sections\n- What happens when you miss a call (cards: Voicemail, AI voice agent, Missed call text-back)\n- Side-by-side comparison (table: response rate, lead capture, caller experience, cost, setup, after-hours)\n- When voicemail is fine vs when AI wins (when-to-use)\n- The real cost of voicemail (considerations: lost leads, callback lag, competitor capture)\n- Case studies referencing existing projects\n\n### FAQ\nSubhead: Practical answers about AI voice agents vs. voicemail\n\n### Final CTA\nHeading: Ready to stop losing callers to voicemail?\nBody: Book a 30-minute call. We will look at your missed call volume and figure out whether an AI voice agent would pay for itself.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 4. Broadens voice-agent comparisons beyond chatbot-vs-voice."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks to AI phone answering, missed call follow-up, after-hours lead capture."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Frames voicemail as a real cost center with lost-lead numbers."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Honest about when voicemail is still fine (low volume, non-urgent services)."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T21:26:58.515Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        1,
+        2,
+        3
+      ],
+      "avgSentenceLength": 15.1,
+      "sentenceLengthRange": [
+        1,
+        60
+      ],
+      "totalWords": 181
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: AI Voice Agent vs.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Ready to stop losing callers to voicemail?\nBody: Book a 30-minute call. We will look at your missed call volume and figure out whether an AI voice agent would pay for itself.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 16,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 10,
+      "commasPerSentence": 1.6
+    },
+    "vocabulary": {
+      "distinctWords": 112,
+      "totalWords": 181,
+      "topWords": [
+        [
+          "voicemail",
+          8
+        ],
+        [
+          "ai",
+          7
+        ],
+        [
+          "when",
+          6
+        ],
+        [
+          "voice",
+          5
+        ],
+        [
+          "agent",
+          5
+        ],
+        [
+          "call",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "vs",
+          3
+        ],
+        [
+          "caller",
+          3
+        ],
+        [
+          "capture",
+          3
+        ],
+        [
+          "cost",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "callers",
+          2
+        ],
+        [
+          "they",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

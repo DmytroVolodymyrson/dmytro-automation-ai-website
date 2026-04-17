@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-voice-agent-vs-call-center",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Voice Agent vs. Call Center\nBody: Outsourced call centers have been the go-to solution for small businesses that need phones covered. But AI voice agents now handle the same job at a fraction of the cost — with better CRM integration, consistent scripts, and zero hold times. This page compares both options honestly for small service businesses.\nSub: Below: monthly costs, per-call pricing, call quality, CRM integration, and a decision framework.\n\n### Core sections\n- Two approaches to never missing a call (cards: Call center, AI voice agent, Hybrid)\n- Side-by-side comparison (table: monthly cost, per-call cost, availability, script accuracy, CRM integration, scalability)\n- When each approach makes sense (when-to-use)\n- Hidden costs of call centers (considerations: hold times, script drift, turnover, integration gaps)\n- Case studies referencing existing projects\n\n### FAQ\nSubhead: Practical answers about AI voice agents vs. call centers\n\n### Final CTA\nHeading: Thinking about switching from your call center?\nBody: Book a 30-minute call. We will compare your current call center costs and call quality to what an AI voice agent could deliver.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 4. Targets businesses currently paying for call center services."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks to AI phone answering, AI voice agent for restaurants, AI appointment setter."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Provides real cost ranges ($300-$2K/mo for call center vs $200-$500/mo for AI)."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Honest about call center advantages for complex multi-topic calls."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T21:26:58.514Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "avgSentenceLength": 16,
+      "sentenceLengthRange": [
+        2,
+        58
+      ],
+      "totalWords": 176
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: AI Voice Agent vs.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Thinking about switching from your call center?\nBody: Book a 30-minute call. We will compare your current call center costs and call quality to what an AI voice agent could deliver.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 16,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 10,
+      "commasPerSentence": 1.78
+    },
+    "vocabulary": {
+      "distinctWords": 114,
+      "totalWords": 176,
+      "topWords": [
+        [
+          "call",
+          11
+        ],
+        [
+          "ai",
+          5
+        ],
+        [
+          "voice",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "center",
+          4
+        ],
+        [
+          "integration",
+          4
+        ],
+        [
+          "agent",
+          3
+        ],
+        [
+          "centers",
+          3
+        ],
+        [
+          "cost",
+          3
+        ],
+        [
+          "crm",
+          3
+        ],
+        [
+          "costs",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "vs",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "small",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

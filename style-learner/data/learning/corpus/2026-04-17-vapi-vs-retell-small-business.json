@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-vapi-vs-retell-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: VAPI vs. Retell for Small Business Voice AI\nBody: VAPI and Retell are the two leading platforms for building AI voice agents. Both can power a phone-answering AI for your business, but they differ on pricing, latency, customization depth, and how well they integrate with your CRM and backend workflows. This guide compares them for small business use cases — not enterprise contact centers.\nSub: Below: pricing models, latency comparison, CRM integration, customization, and guidance on which fits your situation.\n\n### Core sections\n- Two leading voice AI platforms (cards: VAPI, Retell, Key differences)\n- Side-by-side comparison (table: pricing, latency, customization, CRM integration, language support, developer experience)\n- When VAPI wins vs when Retell wins (when-to-use)\n- What matters beyond the platform (considerations: n8n integration, backend flexibility, voice quality, scaling costs)\n- Case studies referencing VAPI-based paris-cafe project\n\n### FAQ\nSubhead: Practical answers about VAPI vs. Retell for small businesses\n\n### Final CTA\nHeading: Need help building a voice agent?\nBody: Book a 30-minute call. We have built production voice agents on VAPI and can help you evaluate whether it or Retell is the right fit.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 4. Targets businesses actively evaluating voice AI platforms."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks to AI phone answering, AI voice agent for restaurants, AI appointment setter, chatbot vs voice agent."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Paris Cafe case study provides real-world VAPI proof point."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Honest about Retell strengths (lower latency in some configs, simpler API)."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T21:26:58.522Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "avgSentenceLength": 16.7,
+      "sentenceLengthRange": [
+        4,
+        57
+      ],
+      "totalWords": 184
+    },
+    "opener": {
+      "type": "short-punch",
+      "text": "### Hero\nHeading: VAPI vs.",
+      "wordCount": 4,
+      "pattern": "short-punch"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help building a voice agent?\nBody: Book a 30-minute call. We have built production voice agents on VAPI and can help you evaluate whether it or Retell is the right fit.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 18,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 10,
+      "commasPerSentence": 2
+    },
+    "vocabulary": {
+      "distinctWords": 116,
+      "totalWords": 184,
+      "topWords": [
+        [
+          "vapi",
+          6
+        ],
+        [
+          "retell",
+          6
+        ],
+        [
+          "voice",
+          6
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "vs",
+          3
+        ],
+        [
+          "small",
+          3
+        ],
+        [
+          "business",
+          3
+        ],
+        [
+          "your",
+          3
+        ],
+        [
+          "pricing",
+          3
+        ],
+        [
+          "latency",
+          3
+        ],
+        [
+          "customization",
+          3
+        ],
+        [
+          "crm",
+          3
+        ],
+        [
+          "integration",
+          3
+        ],
+        [
+          "heading",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.005
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

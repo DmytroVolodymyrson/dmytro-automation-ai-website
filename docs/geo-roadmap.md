@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-17 (batch 3 shipped)
+Last updated: 2026-04-17 (batch 4 shipped)
 
 ## Live GEO Assets
 
@@ -53,11 +53,17 @@ Last updated: 2026-04-17 (batch 3 shipped)
 | Quote Follow-Up Automation | `/quote-follow-up-automation` | Workflow page | Live |
 | Client Reactivation Automation | `/client-reactivation-automation` | Workflow page | Live |
 | No-Show Reduction Automation | `/no-show-reduction-automation` | Workflow page | Live |
+| AI Appointment Setter vs. Receptionist | `/ai-appointment-setter-vs-receptionist` | Comparison page | Live |
+| AI Voice Agent vs. Voicemail | `/ai-voice-agent-vs-voicemail` | Comparison page | Live |
+| AI Voice Agent vs. Call Center | `/ai-voice-agent-vs-call-center` | Comparison page | Live |
+| n8n vs. Make (SMB) | `/n8n-vs-make-small-business` | Comparison page | Live |
+| Build vs. Buy AI Automation | `/build-vs-buy-ai-automation` | Comparison page | Live |
+| VAPI vs. Retell (SMB) | `/vapi-vs-retell-small-business` | Comparison page | Live |
 | `llms.txt` | `/llms.txt` | AI crawler file | Live |
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 38**
+**Total decision/comparison/industry pages live: 44**
 **Total case studies live: 3**
 
 ---

@@ -241,6 +241,30 @@
         "Best way to follow up on missed business calls",
         "How do I stop losing leads to missed calls?"
       ]
+    },
+    {
+      "id": "build-vs-buy-ai-automation",
+      "path": "/build-vs-buy-ai-automation",
+      "label": "Build vs Buy AI Automation",
+      "prompts": [
+        "Should I build or buy AI automation for my business?",
+        "Build custom AI automation vs off the shelf SaaS",
+        "Is it cheaper to build AI automation or buy software?",
+        "Custom AI automation vs SaaS tools for small business",
+        "When should a small business build custom automation instead of buying?"
+      ]
+    },
+    {
+      "id": "vapi-vs-retell-small-business",
+      "path": "/vapi-vs-retell-small-business",
+      "label": "VAPI vs Retell for Small Business",
+      "prompts": [
+        "VAPI vs Retell for small business voice AI",
+        "Which voice AI platform is better VAPI or Retell?",
+        "Comparing VAPI and Retell for business phone answering",
+        "Best voice AI platform for small business",
+        "VAPI or Retell for AI phone agent?"
+      ]
     }
   ],
   "providers": ["openai", "anthropic", "gemini", "perplexity"],

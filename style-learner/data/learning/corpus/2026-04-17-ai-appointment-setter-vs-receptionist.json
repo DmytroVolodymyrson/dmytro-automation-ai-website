@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-appointment-setter-vs-receptionist",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Appointment Setter vs. Human Receptionist\nBody: Both can book appointments. But they cost different amounts, work different hours, and handle calls in fundamentally different ways. This guide compares AI appointment setters and human receptionists for service businesses — with honest numbers and clear tradeoffs.\nSub: Below: how each works, where each wins, real cost comparisons, and a decision framework for service businesses.\n\n### Core sections\n- Two ways to handle appointment scheduling (cards: AI setter, Human receptionist, Hybrid)\n- Side-by-side comparison (table: cost, availability, scalability, caller experience, booking accuracy, setup)\n- When each approach wins (when-to-use)\n- What most comparisons miss (considerations: caller trust, integration, transition, cost at scale)\n- Case studies referencing existing projects\n\n### FAQ\nSubhead: Practical answers about AI appointment setters vs. human receptionists\n\n### Final CTA\nHeading: Not sure which approach fits your business?\nBody: Book a 30-minute call. We will look at your scheduling volume, caller expectations, and whether an AI setter or hybrid model makes sense.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 4. Extends the voice/phone cluster with a direct comparison."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks to AI appointment setter, AI phone answering, AI voice agent for restaurants, chatbot vs voice agent."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Table section provides concrete cost/capability comparison."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Considerations address caller trust and transition period honestly."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T21:26:58.501Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        2,
+        3
+      ],
+      "avgSentenceLength": 14.6,
+      "sentenceLengthRange": [
+        2,
+        52
+      ],
+      "totalWords": 161
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: AI Appointment Setter vs.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Not sure which approach fits your business?\nBody: Book a 30-minute call. We will look at your scheduling volume, caller expectations, and whether an AI setter or hybrid model makes sense.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 17,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 10,
+      "commasPerSentence": 1.89
+    },
+    "vocabulary": {
+      "distinctWords": 112,
+      "totalWords": 161,
+      "topWords": [
+        [
+          "ai",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "appointment",
+          4
+        ],
+        [
+          "human",
+          4
+        ],
+        [
+          "cost",
+          4
+        ],
+        [
+          "setter",
+          3
+        ],
+        [
+          "different",
+          3
+        ],
+        [
+          "each",
+          3
+        ],
+        [
+          "caller",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "vs",
+          2
+        ],
+        [
+          "receptionist",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "book",
+          2
+        ],
+        [
+          "handle",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
