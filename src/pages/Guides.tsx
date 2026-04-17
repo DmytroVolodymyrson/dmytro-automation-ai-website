@@ -44,6 +44,12 @@ const guides = [
     href: "/ai-automation-consultant-calgary",
   },
   {
+    title: "AI Automation Consultant Edmonton",
+    description:
+      "AI automation consulting for Edmonton businesses. Custom automations for lead follow-up, scheduling, CRM workflows, and operations. Fixed pricing, clear scope.",
+    href: "/ai-automation-consultant-edmonton",
+  },
+  {
     title: "AI Automation for HVAC Companies",
     description:
       "Honest overview of AI automation for HVAC — what works today, what's overhyped, common starting points, and realistic ROI expectations.",

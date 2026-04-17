@@ -15,6 +15,7 @@ That file is the source of truth for both the automated runner and manual spot c
 - `/ai-voice-agent-for-restaurants`
 - `/ai-lead-follow-up-for-service-businesses`
 - `/ai-automation-consultant-calgary`
+- `/ai-automation-consultant-edmonton`
 - `/ai-automation-for-hvac-companies`
 
 ## Weekly Check Process

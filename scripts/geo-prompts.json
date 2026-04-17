@@ -75,6 +75,18 @@
       ]
     },
     {
+      "id": "ai-automation-consultant-edmonton",
+      "path": "/ai-automation-consultant-edmonton",
+      "label": "AI Automation Consultant Edmonton",
+      "prompts": [
+        "AI automation consultant in Edmonton",
+        "Who can help my Edmonton business automate workflows?",
+        "Best AI automation services for small businesses in Edmonton Alberta",
+        "Edmonton business automation consulting",
+        "AI consultant for HVAC company in Edmonton"
+      ]
+    },
+    {
       "id": "ai-automation-for-hvac-companies",
       "path": "/ai-automation-for-hvac-companies",
       "label": "AI Automation for HVAC Companies",

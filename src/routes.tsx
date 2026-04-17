@@ -26,6 +26,7 @@ import HvacMissedCallTextBack from "./pages/HvacMissedCallTextBack";
 import AiAppointmentSetterForHvac from "./pages/AiAppointmentSetterForHvac";
 import AiAutomationNoTechTeam from "./pages/AiAutomationNoTechTeam";
 import AiVoiceAgentForRestaurants from "./pages/AiVoiceAgentForRestaurants";
+import AiAutomationConsultantEdmonton from "./pages/AiAutomationConsultantEdmonton";
 import NotFound from "./pages/NotFound";
 
 export type AppRouteDefinition = {
@@ -46,6 +47,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-appointment-setter", element: <AiAppointmentSetter /> },
   { path: "/ai-lead-follow-up-for-service-businesses", element: <AiLeadFollowUpForServiceBusinesses /> },
   { path: "/ai-automation-consultant-calgary", element: <AiAutomationConsultantCalgary /> },
+  { path: "/ai-automation-consultant-edmonton", element: <AiAutomationConsultantEdmonton /> },
   {
     path: "/ai-automation-hvac",
     element: <Navigate to="/ai-automation-for-hvac-companies" replace />,

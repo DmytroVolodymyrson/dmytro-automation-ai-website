@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-automation-consultant-edmonton",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nBadge: Edmonton, Alberta\nHeading: AI Automation Consultant for Edmonton Businesses\nBody: Your team is spending hours on work that should run itself. Lead follow-up, scheduling, data entry, CRM updates. We build AI-powered automations that handle it so your people focus on revenue.\nSub: Below: what we do, who we work with, and how to tell if automation consulting is the right move for your business.\nCTA: Book a 30-Minute Call | All Guides\n\n### What we automate for Edmonton businesses\nSix core automation categories:\n- Lead follow-up and response\n- Appointment scheduling\n- CRM cleanup and automation\n- Operations and internal workflows\n- AI voice agents\n- Multi-location coordination\n\n### Edmonton industries we work with\nFramed around Edmonton-relevant service categories:\n- HVAC, plumbing, and electrical\n- Dental and medical clinics\n- Real estate teams and brokerages\n- Law firms, accounting practices, and clinics\n- Construction, trades, and field service\n- Fitness, wellness, and coaching\n\n### How we work\nFour-step process:\n1. 30-minute discovery call\n2. Scope and fixed quote\n3. Build and test\n4. Launch and support\n\n### Good fit / not a fit\nGood fit: repetitive manual work, slow follow-up, growing volume, underused CRM, wants fixed pricing and clear scope.\nNot a fit: wants full product development, undefined processes, wants a full-time developer, lowest-cost-only buyer, not ready for a meaningful one-time build.\n\n### Case study references\nTwo linked proof blocks:\n- Paris Cafe: 100% of after-hours calls answered\n- WheelsFeels / e-commerce CRM: 5,600 leads organized and automated\n\n### FAQ\nFive Q&As covering:\n- whether the business must be in Edmonton\n- company size fit\n- typical timeline\n- tool/platform compatibility\n- what to automate first\n\n### Final CTA\nProblem-framed booking section for Edmonton businesses with booking widget and no-pressure discovery framing.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Geographic variant of the Calgary consultant page used as a bounded programmatic SEO pattern, not mass page spam."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the structure consistent with an already-working city page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Local language is specific enough to match search intent but avoids fake Edmonton-specific claims."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the same proof assets as the Calgary page rather than inventing city-local case studies."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps copy direct, service-business focused, and commercially clear."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Supports both SEO and GEO/AEO by combining city intent, structured page sections, FAQ, and schema."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-17T18:22:33.284Z",
+    "structure": {
+      "paragraphCount": 8,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        1,
+        5,
+        2,
+        1,
+        1,
+        1
+      ],
+      "avgSentenceLength": 16.7,
+      "sentenceLengthRange": [
+        3,
+        44
+      ],
+      "totalWords": 284
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nBadge: Edmonton, Alberta\nHeading: AI Automation Consultant for Edmonton Businesses\nBody: Your team is spending hours on work that should run itself.",
+      "wordCount": 23,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nProblem-framed booking section for Edmonton businesses with booking widget and no-pressure discovery framing.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "context",
+        "product-pitch",
+        "result",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | context | product-pitch | result | context | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 23,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 19,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 15,
+      "commasPerSentence": 2.09
+    },
+    "vocabulary": {
+      "distinctWords": 181,
+      "totalWords": 284,
+      "topWords": [
+        [
+          "-",
+          19
+        ],
+        [
+          "edmonton",
+          6
+        ],
+        [
+          "work",
+          5
+        ],
+        [
+          "fit",
+          5
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "crm",
+          4
+        ],
+        [
+          "businesses",
+          3
+        ],
+        [
+          "your",
+          3
+        ],
+        [
+          "follow-up",
+          3
+        ],
+        [
+          "build",
+          3
+        ],
+        [
+          "what",
+          3
+        ],
+        [
+          "with",
+          3
+        ],
+        [
+          "not",
+          3
+        ],
+        [
+          "wants",
+          3
+        ],
+        [
+          "ai",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.004
+    },
+    "editSignals": {
+      "totalEdits": 6,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 6,
+      "patterns": []
+    }
+  }
+}

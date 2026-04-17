@@ -18,6 +18,7 @@ Last updated: 2026-04-17
 | AI Voice Agent for Restaurants | `/ai-voice-agent-for-restaurants` | Industry page | Live |
 | AI Lead Follow-Up | `/ai-lead-follow-up-for-service-businesses` | Decision page | Live |
 | AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo landing page | Live |
+| AI Consultant Edmonton | `/ai-automation-consultant-edmonton` | Geo landing page | Live |
 | AI Consultant vs Agency | `/hire-ai-automation-consultant-vs-agency` | Comparison page | Live |
 | HVAC Database Reactivation | `/hvac-database-reactivation` | Decision page | Live |
 | AI Consultant vs Freelancer | `/ai-automation-consultant-vs-freelancer` | Comparison page | Live |
@@ -33,7 +34,7 @@ Last updated: 2026-04-17
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 14**
+**Total decision/comparison/industry pages live: 15**
 **Total case studies live: 3**
 
 ---
@@ -42,14 +43,14 @@ Last updated: 2026-04-17
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P0** | AI Automation Consultant Edmonton | "AI automation consultant Edmonton" | Reuses the Calgary geo pattern and expands Alberta local coverage | Not started |
-| 2 | **P0** | AI Automation for Real Estate | "AI lead follow-up for real estate agents" | Strong service-business fit and natural extension of lead follow-up positioning | Not started |
-| 3 | **P1** | AI Automation for Mortgage Brokers | "AI tools for mortgage brokers" | Another high-value service-business vertical with follow-up pain | Not started |
-| 4 | **P1** | Client Onboarding Automation | "automate client onboarding service business" | Strong decision-intent workflow page, broad service-business relevance | Not started |
-| 5 | **P1** | AI Automation ROI Calculator / Guide | "is AI automation worth it small business" | Useful decision-stage content and supports pricing + consultant pages | Not started |
-| 6 | **P2** | n8n Automation Examples for Small Business | "n8n automation ideas small business" | Top-of-funnel authority page around a core tool | Not started |
-| 7 | **P2** | AI Email Sequence Automation | "automate email follow-up with AI" | Supports CRM / follow-up cluster and ties to real implementation work | Not started |
-| 8 | **P2** | AI Automation for Dental Practices | "AI phone answering for dental office" | Similar appointment-heavy fit, but weaker proof than restaurants today | Not started |
+| 1 | **P0** | AI Automation for Real Estate | "AI lead follow-up for real estate agents" | Strong service-business fit and natural extension of lead follow-up positioning | Not started |
+| 2 | **P1** | AI Automation for Mortgage Brokers | "AI tools for mortgage brokers" | Another high-value service-business vertical with follow-up pain | Not started |
+| 3 | **P1** | Client Onboarding Automation | "automate client onboarding service business" | Strong decision-intent workflow page, broad service-business relevance | Not started |
+| 4 | **P1** | AI Automation ROI Calculator / Guide | "is AI automation worth it small business" | Useful decision-stage content and supports pricing + consultant pages | Not started |
+| 5 | **P2** | n8n Automation Examples for Small Business | "n8n automation ideas small business" | Top-of-funnel authority page around a core tool | Not started |
+| 6 | **P2** | AI Email Sequence Automation | "automate email follow-up with AI" | Supports CRM / follow-up cluster and ties to real implementation work | Not started |
+| 7 | **P2** | AI Automation for Dental Practices | "AI phone answering for dental office" | Similar appointment-heavy fit, but weaker proof than restaurants today | Not started |
+| 8 | **P2** | AI Automation for Law Firms | "AI intake automation for law firms" | Good local-service fit, but needs more proof before promotion | Not started |
 
 ### Priority Definitions
 
