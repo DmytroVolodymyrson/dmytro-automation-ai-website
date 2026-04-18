@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-automation-for-chiropractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for Chiropractors\nBody: A new patient calls during lunch. Your front desk is helping someone check out. The call goes to voicemail, and that patient books with the chiropractor down the street who picked up. Meanwhile, dozens of past patients who should be on a care plan have not been in for months because nobody called them. AI automation handles the intake, scheduling, reminders, and reactivation that your front desk cannot do while they are face-to-face with patients.\nSub: Below: what chiropractic automation looks like in practice, where it delivers the clearest ROI, and how to decide if it is worth the investment.\n\n### Core sections\n- Built around high appointment volume, care-plan adherence, and a front desk juggling calls plus in-person patients.\n- Covers missed call text-back, new patient intake and scheduling, care plan recall, no-show reduction, review requests, and after-hours call handling.\n- Frames fit around missed calls, lapsed care plans, no-shows, and inconsistent review collection.\n\n### FAQ\nSubhead: Practical answers for chiropractors considering automation\n\n### Final CTA\nHeading: Stop losing patients to missed calls and lapsed care plans\nBody: Book a 30-minute call. We will look at your current patient flow, identify where revenue is being lost, and give you a clear plan for what to automate first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of the bounded first programmatic SEO batch for dmytroai.com."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Direct, commercial decision-page copy aimed at chiropractic practice owners."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps ROI concrete with missed-call, no-show, and care-plan recall framing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoids inflated claims or invented practice-specific case studies."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-18T06:02:02.677Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        3,
+        1,
+        2
+      ],
+      "avgSentenceLength": 17.7,
+      "sentenceLengthRange": [
+        8,
+        25
+      ],
+      "totalWords": 212
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: AI Automation for Chiropractors\nBody: A new patient calls during lunch.",
+      "wordCount": 13,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing patients to missed calls and lapsed care plans\nBody: Book a 30-minute call. We will look at your current patient flow, identify where revenue is being lost, and give you a clear plan for what to automate first.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 19,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 3,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 7,
+      "commasPerSentence": 1.73
+    },
+    "vocabulary": {
+      "distinctWords": 139,
+      "totalWords": 212,
+      "topWords": [
+        [
+          "automation",
+          4
+        ],
+        [
+          "patient",
+          4
+        ],
+        [
+          "calls",
+          4
+        ],
+        [
+          "call",
+          4
+        ],
+        [
+          "patients",
+          4
+        ],
+        [
+          "care",
+          4
+        ],
+        [
+          "your",
+          3
+        ],
+        [
+          "front",
+          3
+        ],
+        [
+          "desk",
+          3
+        ],
+        [
+          "plan",
+          3
+        ],
+        [
+          "-",
+          3
+        ],
+        [
+          "missed",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "ai",
+          2
+        ],
+        [
+          "chiropractors",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
