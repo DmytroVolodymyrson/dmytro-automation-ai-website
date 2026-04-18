@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-automation-for-auto-repair-shops",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for Auto Repair Shops\nBody: Opens with shop floor scenario — phone rings while every tech is under a car, call goes to voicemail, customer calls the shop down the street. Frames automation around maintenance reminders, estimate approvals, and the lifetime value of a maintenance customer ($1,500-$3,000/year).\nSub: Below: what auto repair shop automation looks like in practice, where it delivers the clearest ROI, and how to decide if it is worth the investment.\n\n### Core sections\n- What you can automate (cards: missed call text-back, appointment scheduling, estimate follow-up, maintenance reminders, client reactivation, review requests)\n- Is this a good fit? (evaluation: miss calls on shop floor, unapproved estimates, thousands of past customers with no outreach, 3+ bays vs solo mechanic)\n- ROI expectations (considerations: $300-$800 average repair order, maintenance customer LTV, missed call opportunity cost, estimate approval improvement)\n- Results from similar service businesses (case studies with auto repair framing)\n\n### FAQ\nSubhead: Practical answers for auto repair shops considering automation\n5 questions covering most impactful automation, maintenance scheduling, estimate approval workflow, cost, shop software compatibility\n\n### Final CTA\nHeading: Stop losing repair jobs to missed calls and unapproved estimates",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 5. Targets auto repair shops losing revenue to unanswered calls and dormant customer databases."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks to HVAC companies, roofing companies, AI phone answering, quote follow-up."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Maintenance reminder angle is the strongest long-term revenue play."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-18T16:00:03.454Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        2,
+        1,
+        1
+      ],
+      "avgSentenceLength": 27.4,
+      "sentenceLengthRange": [
+        13,
+        50
+      ],
+      "totalWords": 192
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation for Auto Repair Shops\nBody: Opens with shop floor scenario — phone rings while every tech is under a car, call goes to voicemail, customer calls the shop down the street.",
+      "wordCount": 34,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing repair jobs to missed calls and unapproved estimates",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 3,
+      "commas": 23,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 4.6
+    },
+    "vocabulary": {
+      "distinctWords": 130,
+      "totalWords": 192,
+      "topWords": [
+        [
+          "repair",
+          6
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "shop",
+          5
+        ],
+        [
+          "maintenance",
+          5
+        ],
+        [
+          "auto",
+          4
+        ],
+        [
+          "estimate",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "with",
+          3
+        ],
+        [
+          "call",
+          3
+        ],
+        [
+          "customer",
+          3
+        ],
+        [
+          "calls",
+          3
+        ],
+        [
+          "missed",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "shops",
+          2
+        ],
+        [
+          "floor",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

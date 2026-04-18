@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-automation-for-painting-contractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for Painting Contractors\nBody: Opens with painter-on-ladder scenario — phone buzzes, can't answer, homeowner who requested three quotes goes with whoever called back first. Frames automation around estimate follow-up (painting estimates sit for days/weeks), referral generation, and seasonal work cycles.\nSub: Below: what painting contractor automation looks like in practice, where it delivers the clearest ROI, and how to decide if it is worth the investment.\n\n### Core sections\n- What you can automate (cards: missed call text-back, lead follow-up, estimate follow-up, seasonal campaigns, referral/review nurture, job completion follow-up)\n- Is this a good fit? (evaluation: on job sites all day, estimates go unfollowed, 2+ crews, referral-dependent but no system vs solo painter with full schedule)\n- ROI expectations (considerations: $3K-$10K interior / $5K-$15K exterior job value, estimate conversion, referral compounding, seasonal revenue)\n- Results from similar service businesses (case studies with painting framing)\n\n### FAQ\nSubhead: Practical answers for painting contractors considering automation\n5 questions covering most impactful automation, estimate timing, referral system, cost, software compatibility\n\n### Final CTA\nHeading: Stop losing painting jobs to slow estimates and forgotten follow-ups",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 5. Targets painting contractors who lose jobs to slow estimate follow-up and lack systematic referral generation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks to roofing companies, landscaping companies, quote follow-up, instant lead response."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Referral nurture angle is unique to painting — heavily referral-driven industry with no systematic approach to asking."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-18T16:00:03.460Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        2,
+        1,
+        1
+      ],
+      "avgSentenceLength": 25.7,
+      "sentenceLengthRange": [
+        13,
+        48
+      ],
+      "totalWords": 180
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation for Painting Contractors\nBody: Opens with painter-on-ladder scenario — phone buzzes, can't answer, homeowner who requested three quotes goes with whoever called back first.",
+      "wordCount": 27,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing painting jobs to slow estimates and forgotten follow-ups",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 3,
+      "commas": 21,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 4.2
+    },
+    "vocabulary": {
+      "distinctWords": 138,
+      "totalWords": 180,
+      "topWords": [
+        [
+          "painting",
+          6
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "with",
+          4
+        ],
+        [
+          "estimate",
+          4
+        ],
+        [
+          "follow-up",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "estimates",
+          3
+        ],
+        [
+          "referral",
+          3
+        ],
+        [
+          "seasonal",
+          3
+        ],
+        [
+          "job",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "contractors",
+          2
+        ],
+        [
+          "what",
+          2
+        ],
+        [
+          "it",
+          2
+        ],
+        [
+          "roi",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

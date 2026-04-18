@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-17 (batch 4 shipped)
+Last updated: 2026-04-18 (batch 5 shipped — 9 industry pages: chiropractors, cleaning, med spas, roofing, pest control, auto repair, landscaping, painting, home inspectors)
 
 ## Live GEO Assets
 
@@ -59,11 +59,20 @@ Last updated: 2026-04-17 (batch 4 shipped)
 | n8n vs. Make (SMB) | `/n8n-vs-make-small-business` | Comparison page | Live |
 | Build vs. Buy AI Automation | `/build-vs-buy-ai-automation` | Comparison page | Live |
 | VAPI vs. Retell (SMB) | `/vapi-vs-retell-small-business` | Comparison page | Live |
+| AI Automation for Chiropractors | `/ai-automation-for-chiropractors` | Industry page | Live |
+| AI Automation for Cleaning Companies | `/ai-automation-for-cleaning-companies` | Industry page | Live |
+| AI Automation for Med Spas | `/ai-automation-for-med-spas` | Industry page | Live |
+| AI Automation for Roofing Companies | `/ai-automation-for-roofing-companies` | Industry page | Live |
+| AI Automation for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Industry page | Live |
+| AI Automation for Auto Repair Shops | `/ai-automation-for-auto-repair-shops` | Industry page | Live |
+| AI Automation for Landscaping Companies | `/ai-automation-for-landscaping-companies` | Industry page | Live |
+| AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
+| AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
 | `llms.txt` | `/llms.txt` | AI crawler file | Live |
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 44**
+**Total decision/comparison/industry pages live: 53**
 **Total case studies live: 3**
 
 ---

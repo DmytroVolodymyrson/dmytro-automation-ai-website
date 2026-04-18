@@ -372,6 +372,69 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Automation for Chiropractors",
+    description:
+      "AI automation for chiropractors. New patient intake, appointment scheduling, recall campaigns, no-show reduction, and review automation.",
+    href: "/ai-automation-for-chiropractors",
+    category: "industries",
+  },
+  {
+    title: "AI Automation for Cleaning Companies",
+    description:
+      "AI automation for cleaning companies. Lead follow-up, quote follow-up, missed call text-back, scheduling, client reactivation, and review automation.",
+    href: "/ai-automation-for-cleaning-companies",
+    category: "industries",
+  },
+  {
+    title: "AI Automation for Med Spas",
+    description:
+      "AI automation for med spas. Lead follow-up, appointment booking, no-show reduction, membership renewal campaigns, and review automation.",
+    href: "/ai-automation-for-med-spas",
+    category: "industries",
+  },
+  {
+    title: "AI Automation for Roofing Companies",
+    description:
+      "AI automation for roofing companies. Lead follow-up, estimate follow-up, missed call text-back, storm season handling, and review automation.",
+    href: "/ai-automation-for-roofing-companies",
+    category: "industries",
+  },
+  {
+    title: "AI Automation for Pest Control Companies",
+    description:
+      "AI automation for pest control companies. Lead follow-up, recurring service reminders, seasonal campaigns, missed call text-back, and review automation.",
+    href: "/ai-automation-for-pest-control-companies",
+    category: "industries",
+  },
+  {
+    title: "AI Automation for Auto Repair Shops",
+    description:
+      "AI automation for auto repair shops. Appointment scheduling, estimate follow-up, maintenance reminders, missed call text-back, and review automation.",
+    href: "/ai-automation-for-auto-repair-shops",
+    category: "industries",
+  },
+  {
+    title: "AI Automation for Landscaping Companies",
+    description:
+      "AI automation for landscaping companies. Lead follow-up, estimate follow-up, seasonal upsell campaigns, recurring service management, and review automation.",
+    href: "/ai-automation-for-landscaping-companies",
+    category: "industries",
+  },
+  {
+    title: "AI Automation for Painting Contractors",
+    description:
+      "AI automation for painting contractors. Lead follow-up, estimate follow-up, referral nurture, seasonal campaigns, and review automation.",
+    href: "/ai-automation-for-painting-contractors",
+    category: "industries",
+  },
+  {
+    title: "AI Automation for Home Inspectors",
+    description:
+      "AI automation for home inspectors. Agent nurture campaigns, booking automation, missed call text-back, report delivery follow-up, and review automation.",
+    href: "/ai-automation-for-home-inspectors",
+    category: "industries",
+  },
+  {
     title: "AI Automation Consultant Calgary",
     description:
       "AI automation consulting for Calgary businesses. Custom automations for lead follow-up, scheduling, CRM workflows, and operations. Fixed pricing, clear scope.",

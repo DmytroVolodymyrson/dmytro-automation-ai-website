@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-automation-for-home-inspectors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for Home Inspectors\nBody: Opens with on-site scenario — inspector is 2 hours into an inspection, a real estate agent calls to book an urgent inspection, call goes to voicemail, agent calls the next inspector on their list. Frames automation around agent relationship nurture, booking automation, and the outsized revenue value of active agent referral relationships ($5K-$20K/year per agent).\nSub: Below: what home inspector automation looks like in practice, where it delivers the clearest ROI, and how to decide if it is worth the investment.\n\n### Core sections\n- What you can automate (cards: missed call text-back, lead follow-up, booking automation, agent nurture campaigns, report delivery follow-up, review requests)\n- Is this a good fit? (evaluation: miss calls during inspections, agents stop referring when unresponsive, 10+ inspections/month, manual booking vs solo inspector with locked-in agent relationships)\n- ROI expectations (considerations: agent relationship value, inspection volume, booking efficiency, review/referral pipeline)\n- Results from similar service businesses (case studies with home inspector framing)\n\n### FAQ\nSubhead: Practical answers for home inspectors considering automation\n5 questions covering most impactful automation, agent nurture campaigns, booking with calendar/availability, cost, software compatibility\n\n### Final CTA\nHeading: Stop losing agent referrals to missed calls and forgotten follow-ups",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 5. Targets home inspectors losing agent referral relationships due to missed calls during inspections."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks to real estate, mortgage brokers, AI appointment setter, missed call follow-up."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Agent nurture is the highest-leverage automation for this vertical — one active agent relationship is worth more than dozens of individual bookings."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Unique in the batch: B2B referral-dependent model rather than direct consumer lead gen."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-18T16:00:03.457Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        2,
+        1,
+        1
+      ],
+      "avgSentenceLength": 28.6,
+      "sentenceLengthRange": [
+        13,
+        46
+      ],
+      "totalWords": 200
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation for Home Inspectors\nBody: Opens with on-site scenario — inspector is 2 hours into an inspection, a real estate agent calls to book an urgent inspection, call goes to voicemail, agent calls the next inspector on their list.",
+      "wordCount": 41,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing agent referrals to missed calls and forgotten follow-ups",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 3,
+      "commas": 22,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 4.4
+    },
+    "vocabulary": {
+      "distinctWords": 135,
+      "totalWords": 200,
+      "topWords": [
+        [
+          "agent",
+          10
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "inspector",
+          5
+        ],
+        [
+          "booking",
+          5
+        ],
+        [
+          "home",
+          4
+        ],
+        [
+          "with",
+          4
+        ],
+        [
+          "calls",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "inspection",
+          3
+        ],
+        [
+          "nurture",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "inspectors",
+          2
+        ],
+        [
+          "call",
+          2
+        ],
+        [
+          "relationship",
+          2
+        ],
+        [
+          "value",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

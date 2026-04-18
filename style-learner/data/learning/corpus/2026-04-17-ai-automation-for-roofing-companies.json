@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-automation-for-roofing-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for Roofing Companies\nBody: Opens with a storm-season scenario — phones ringing nonstop, crews on rooftops, calls going to voicemail while competitors pick up. Frames AI automation around the reality of high-ticket roofing jobs ($8K-$15K) and the cost of missed calls and forgotten estimate follow-ups.\nSub: Below: what roofing automation looks like in practice, where it delivers the clearest ROI, and how to decide if it is worth the investment.\n\n### Core sections\n- What you can automate in a roofing company (cards: missed call text-back, lead follow-up, estimate follow-up, insurance claim coordination, maintenance program campaigns, review requests)\n- Is this a good fit for your roofing company? (evaluation: storm season call spikes, crews in field, 2+ crews, estimate follow-up gaps vs solo roofer with referral book)\n- ROI expectations (considerations: cost of lost storm lead, estimate conversion improvement, seasonal revenue protection, review volume)\n- Results from similar service businesses (case studies: paris-cafe + ecommerce with roofing framing)\n\n### FAQ\nSubhead: Practical answers for roofing companies considering automation\n5 questions covering most impactful automation, storm season handling, insurance claim workflows, cost, CRM compatibility\n\n### Final CTA\nHeading: Stop losing roofing jobs to missed calls and forgotten estimates\nBody: Book a 30-minute call to review current lead flow and identify where revenue is being lost.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 5. Targets roofing companies losing revenue to missed calls during storm season and untracked estimate follow-ups."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks to painting contractors, plumbing companies, quote follow-up automation, missed call follow-up automation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "High-ticket focus: $8K-$15K average job means one saved lead pays for the system."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Honest about not-fit scenarios (solo roofer with full referral book, under 10 jobs/month)."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-18T16:00:03.463Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        2,
+        1,
+        1
+      ],
+      "avgSentenceLength": 30.4,
+      "sentenceLengthRange": [
+        21,
+        49
+      ],
+      "totalWords": 213
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation for Roofing Companies\nBody: Opens with a storm-season scenario — phones ringing nonstop, crews on rooftops, calls going to voicemail while competitors pick up.",
+      "wordCount": 27,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing roofing jobs to missed calls and forgotten estimates\nBody: Book a 30-minute call to review current lead flow and identify where revenue is being lost.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 4,
+      "commas": 19,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 11,
+      "commasPerSentence": 3.8
+    },
+    "vocabulary": {
+      "distinctWords": 138,
+      "totalWords": 213,
+      "topWords": [
+        [
+          "roofing",
+          8
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "estimate",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "with",
+          3
+        ],
+        [
+          "crews",
+          3
+        ],
+        [
+          "calls",
+          3
+        ],
+        [
+          "cost",
+          3
+        ],
+        [
+          "missed",
+          3
+        ],
+        [
+          "call",
+          3
+        ],
+        [
+          "lead",
+          3
+        ],
+        [
+          "follow-up",
+          3
+        ],
+        [
+          "review",
+          3
+        ],
+        [
+          "storm",
+          3
+        ],
+        [
+          "heading",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-automation-for-landscaping-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for Landscaping Companies\nBody: Opens with spring rush scenario — dozens of quote requests coming in, crews in the field, office swamped, estimates sitting unsent for days. Frames automation around seasonal revenue cycles, estimate follow-up, and recurring mowing client retention.\nSub: Below: what landscaping automation looks like in practice, where it delivers the clearest ROI, and how to decide if it is worth the investment.\n\n### Core sections\n- What you can automate (cards: missed call text-back, lead follow-up, estimate follow-up, seasonal upsell campaigns, recurring service management, review requests)\n- Is this a good fit? (evaluation: spring rush overwhelms capacity, estimates go unfollowed, crews in field, 2+ crews, seasonal dips vs solo landscaper with locked-in referrals)\n- ROI expectations (considerations: $2K-$10K project value, $2K-$5K recurring client value, spring lead rush timing, seasonal upsell revenue)\n- Results from similar service businesses (case studies with landscaping framing)\n\n### FAQ\nSubhead: Practical answers for landscaping companies considering automation\n5 questions covering most impactful automation, seasonal campaigns, recurring schedules, cost, software compatibility\n\n### Final CTA\nHeading: Stop losing landscaping jobs to slow quotes and seasonal gaps",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 5. Targets landscaping companies with seasonal revenue swings and high-volume spring lead rushes."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks to painting contractors, pest control, quote follow-up, client reactivation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Seasonal upsell campaigns (spring cleanup, fall leaf removal, snow removal) are a unique automation angle for this vertical."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-18T16:00:03.458Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        2,
+        1,
+        1
+      ],
+      "avgSentenceLength": 26,
+      "sentenceLengthRange": [
+        13,
+        50
+      ],
+      "totalWords": 182
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation for Landscaping Companies\nBody: Opens with spring rush scenario — dozens of quote requests coming in, crews in the field, office swamped, estimates sitting unsent for days.",
+      "wordCount": 30,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing landscaping jobs to slow quotes and seasonal gaps",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 3,
+      "commas": 23,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 4.6
+    },
+    "vocabulary": {
+      "distinctWords": 126,
+      "totalWords": 182,
+      "topWords": [
+        [
+          "seasonal",
+          6
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "landscaping",
+          5
+        ],
+        [
+          "recurring",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "with",
+          3
+        ],
+        [
+          "spring",
+          3
+        ],
+        [
+          "rush",
+          3
+        ],
+        [
+          "crews",
+          3
+        ],
+        [
+          "follow-up",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "companies",
+          2
+        ],
+        [
+          "requests",
+          2
+        ],
+        [
+          "field",
+          2
+        ],
+        [
+          "estimates",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

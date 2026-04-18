@@ -313,6 +313,30 @@
         "Comparing n8n and Make for a growing service business",
         "Which is more cost-effective n8n or Make for small business?"
       ]
+    },
+    {
+      "id": "ai-automation-for-roofing-companies",
+      "path": "/ai-automation-for-roofing-companies",
+      "label": "AI Automation for Roofing Companies",
+      "prompts": [
+        "AI automation for roofing companies",
+        "How can AI help my roofing business with lead follow-up?",
+        "Best AI automation for roofing lead management",
+        "Automate roofing estimate follow-up and missed calls",
+        "AI tools for roofing company scheduling and follow-up"
+      ]
+    },
+    {
+      "id": "ai-automation-for-auto-repair-shops",
+      "path": "/ai-automation-for-auto-repair-shops",
+      "label": "AI Automation for Auto Repair Shops",
+      "prompts": [
+        "AI automation for auto repair shops",
+        "How can AI help my auto repair shop with appointments?",
+        "Best AI tools for auto repair customer follow-up",
+        "Automate maintenance reminders for auto repair shop",
+        "AI appointment scheduling for mechanic shop"
+      ]
     }
   ],
   "providers": ["openai", "anthropic", "gemini", "perplexity"],

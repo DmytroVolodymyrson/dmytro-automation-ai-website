@@ -56,6 +56,15 @@ import AiVoiceAgentVsCallCenter from "./pages/AiVoiceAgentVsCallCenter";
 import N8nVsMakeSmallBusiness from "./pages/N8nVsMakeSmallBusiness";
 import BuildVsBuyAiAutomation from "./pages/BuildVsBuyAiAutomation";
 import VapiVsRetellSmallBusiness from "./pages/VapiVsRetellSmallBusiness";
+import AiAutomationForChiropractors from "./pages/AiAutomationForChiropractors";
+import AiAutomationForCleaningCompanies from "./pages/AiAutomationForCleaningCompanies";
+import AiAutomationForMedSpas from "./pages/AiAutomationForMedSpas";
+import AiAutomationForRoofingCompanies from "./pages/AiAutomationForRoofingCompanies";
+import AiAutomationForPestControlCompanies from "./pages/AiAutomationForPestControlCompanies";
+import AiAutomationForAutoRepairShops from "./pages/AiAutomationForAutoRepairShops";
+import AiAutomationForLandscapingCompanies from "./pages/AiAutomationForLandscapingCompanies";
+import AiAutomationForPaintingContractors from "./pages/AiAutomationForPaintingContractors";
+import AiAutomationForHomeInspectors from "./pages/AiAutomationForHomeInspectors";
 import NotFound from "./pages/NotFound";
 
 export type AppRouteDefinition = {
@@ -130,6 +139,15 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/n8n-vs-make-small-business", element: <N8nVsMakeSmallBusiness /> },
   { path: "/build-vs-buy-ai-automation", element: <BuildVsBuyAiAutomation /> },
   { path: "/vapi-vs-retell-small-business", element: <VapiVsRetellSmallBusiness /> },
+  { path: "/ai-automation-for-chiropractors", element: <AiAutomationForChiropractors /> },
+  { path: "/ai-automation-for-cleaning-companies", element: <AiAutomationForCleaningCompanies /> },
+  { path: "/ai-automation-for-med-spas", element: <AiAutomationForMedSpas /> },
+  { path: "/ai-automation-for-roofing-companies", element: <AiAutomationForRoofingCompanies /> },
+  { path: "/ai-automation-for-pest-control-companies", element: <AiAutomationForPestControlCompanies /> },
+  { path: "/ai-automation-for-auto-repair-shops", element: <AiAutomationForAutoRepairShops /> },
+  { path: "/ai-automation-for-landscaping-companies", element: <AiAutomationForLandscapingCompanies /> },
+  { path: "/ai-automation-for-painting-contractors", element: <AiAutomationForPaintingContractors /> },
+  { path: "/ai-automation-for-home-inspectors", element: <AiAutomationForHomeInspectors /> },
   { path: "/privacy", element: <PrivacyPolicy /> },
   { path: "/terms", element: <TermsOfService /> },
   { path: "*", element: <NotFound />, prerender: false },

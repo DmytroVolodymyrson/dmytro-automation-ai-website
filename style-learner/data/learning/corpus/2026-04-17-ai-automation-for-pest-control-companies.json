@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-17-ai-automation-for-pest-control-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-17",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for Pest Control Companies\nBody: Opens with urgency scenario — homeowner finds termites, calls three companies, first to respond gets the job. Frames automation around recurring service renewals, seasonal pest campaigns, and techs-on-route missed calls.\nSub: Below: what pest control automation looks like in practice, where it delivers the clearest ROI, and how to decide if it is worth the investment.\n\n### Core sections\n- What you can automate in a pest control company (cards: missed call text-back, lead follow-up, recurring service reminders, seasonal campaigns, quote follow-up, review requests)\n- Is this a good fit? (evaluation: techs on route, seasonal business, 2+ technicians vs solo operator fully booked from referrals)\n- ROI expectations (considerations: recurring client value $500-$2K/yr, urgency-driven leads, seasonal spikes, recurring revenue protection)\n- Results from similar service businesses (case studies with pest control framing)\n\n### FAQ\nSubhead: Practical answers for pest control companies considering automation\n5 questions covering most impactful automation, recurring service management, seasonal campaigns, cost, software compatibility\n\n### Final CTA\nHeading: Stop losing pest control jobs to missed calls and lapsed renewals",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as part of batch 5. Targets pest control companies with recurring revenue models and seasonal lead spikes."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks to landscaping companies, cleaning companies, instant lead response, client reactivation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Recurring revenue angle is the strongest ROI argument for this vertical."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-18T16:00:03.460Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        2,
+        1,
+        1
+      ],
+      "avgSentenceLength": 25.3,
+      "sentenceLengthRange": [
+        13,
+        42
+      ],
+      "totalWords": 177
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation for Pest Control Companies\nBody: Opens with urgency scenario — homeowner finds termites, calls three companies, first to respond gets the job.",
+      "wordCount": 25,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing pest control jobs to missed calls and lapsed renewals",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 3,
+      "commas": 20,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 4
+    },
+    "vocabulary": {
+      "distinctWords": 122,
+      "totalWords": 177,
+      "topWords": [
+        [
+          "pest",
+          7
+        ],
+        [
+          "control",
+          6
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "recurring",
+          5
+        ],
+        [
+          "seasonal",
+          5
+        ],
+        [
+          "service",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "companies",
+          3
+        ],
+        [
+          "calls",
+          3
+        ],
+        [
+          "campaigns",
+          3
+        ],
+        [
+          "missed",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "with",
+          2
+        ],
+        [
+          "renewals",
+          2
+        ],
+        [
+          "what",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

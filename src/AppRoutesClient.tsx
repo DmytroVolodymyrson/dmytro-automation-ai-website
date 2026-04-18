@@ -57,6 +57,15 @@ const AiVoiceAgentVsCallCenter = lazy(() => import("./pages/AiVoiceAgentVsCallCe
 const N8nVsMakeSmallBusiness = lazy(() => import("./pages/N8nVsMakeSmallBusiness"));
 const BuildVsBuyAiAutomation = lazy(() => import("./pages/BuildVsBuyAiAutomation"));
 const VapiVsRetellSmallBusiness = lazy(() => import("./pages/VapiVsRetellSmallBusiness"));
+const AiAutomationForChiropractors = lazy(() => import("./pages/AiAutomationForChiropractors"));
+const AiAutomationForCleaningCompanies = lazy(() => import("./pages/AiAutomationForCleaningCompanies"));
+const AiAutomationForMedSpas = lazy(() => import("./pages/AiAutomationForMedSpas"));
+const AiAutomationForRoofingCompanies = lazy(() => import("./pages/AiAutomationForRoofingCompanies"));
+const AiAutomationForPestControlCompanies = lazy(() => import("./pages/AiAutomationForPestControlCompanies"));
+const AiAutomationForAutoRepairShops = lazy(() => import("./pages/AiAutomationForAutoRepairShops"));
+const AiAutomationForLandscapingCompanies = lazy(() => import("./pages/AiAutomationForLandscapingCompanies"));
+const AiAutomationForPaintingContractors = lazy(() => import("./pages/AiAutomationForPaintingContractors"));
+const AiAutomationForHomeInspectors = lazy(() => import("./pages/AiAutomationForHomeInspectors"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const AppRoutesClient = () => (
@@ -117,6 +126,15 @@ const AppRoutesClient = () => (
       <Route path="/n8n-vs-make-small-business" element={<N8nVsMakeSmallBusiness />} />
       <Route path="/build-vs-buy-ai-automation" element={<BuildVsBuyAiAutomation />} />
       <Route path="/vapi-vs-retell-small-business" element={<VapiVsRetellSmallBusiness />} />
+      <Route path="/ai-automation-for-chiropractors" element={<AiAutomationForChiropractors />} />
+      <Route path="/ai-automation-for-cleaning-companies" element={<AiAutomationForCleaningCompanies />} />
+      <Route path="/ai-automation-for-med-spas" element={<AiAutomationForMedSpas />} />
+      <Route path="/ai-automation-for-roofing-companies" element={<AiAutomationForRoofingCompanies />} />
+      <Route path="/ai-automation-for-pest-control-companies" element={<AiAutomationForPestControlCompanies />} />
+      <Route path="/ai-automation-for-auto-repair-shops" element={<AiAutomationForAutoRepairShops />} />
+      <Route path="/ai-automation-for-landscaping-companies" element={<AiAutomationForLandscapingCompanies />} />
+      <Route path="/ai-automation-for-painting-contractors" element={<AiAutomationForPaintingContractors />} />
+      <Route path="/ai-automation-for-home-inspectors" element={<AiAutomationForHomeInspectors />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="*" element={<NotFound />} />
