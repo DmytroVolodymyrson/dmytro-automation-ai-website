@@ -265,6 +265,54 @@
         "Best voice AI platform for small business",
         "VAPI or Retell for AI phone agent?"
       ]
+    },
+    {
+      "id": "ai-appointment-setter-vs-receptionist",
+      "path": "/ai-appointment-setter-vs-receptionist",
+      "label": "AI Appointment Setter vs Receptionist",
+      "prompts": [
+        "AI appointment setter vs receptionist for small business",
+        "Should I replace my receptionist with an AI appointment setter?",
+        "Is an AI appointment setter cheaper than hiring a receptionist?",
+        "AI booking system vs front desk receptionist for service business",
+        "When should a business switch from receptionist to AI appointment setter?"
+      ]
+    },
+    {
+      "id": "ai-voice-agent-vs-voicemail",
+      "path": "/ai-voice-agent-vs-voicemail",
+      "label": "AI Voice Agent vs Voicemail",
+      "prompts": [
+        "AI voice agent vs voicemail for small business",
+        "Should I use an AI voice agent instead of voicemail?",
+        "Do customers prefer AI voice agents or voicemail?",
+        "AI phone answering vs voicemail for service businesses",
+        "How much business do I lose sending callers to voicemail instead of AI?"
+      ]
+    },
+    {
+      "id": "ai-voice-agent-vs-call-center",
+      "path": "/ai-voice-agent-vs-call-center",
+      "label": "AI Voice Agent vs Call Center",
+      "prompts": [
+        "AI voice agent vs call center for small business",
+        "Should I replace my answering service with an AI voice agent?",
+        "Is an AI voice agent cheaper than a call center for a small business?",
+        "AI phone agent vs outsourced call center for lead handling",
+        "When should a service business switch from call center to AI voice agent?"
+      ]
+    },
+    {
+      "id": "n8n-vs-make-small-business",
+      "path": "/n8n-vs-make-small-business",
+      "label": "n8n vs Make for Small Business",
+      "prompts": [
+        "n8n vs Make for small business automation",
+        "Should I use n8n or Make for my small business?",
+        "Is n8n better than Make for business workflow automation?",
+        "Comparing n8n and Make for a growing service business",
+        "Which is more cost-effective n8n or Make for small business?"
+      ]
     }
   ],
   "providers": ["openai", "anthropic", "gemini", "perplexity"],

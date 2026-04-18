@@ -17,6 +17,12 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - `/hire-ai-automation-consultant-vs-agency`
 - `/ai-automation-consultant-pricing-small-business`
 - `/ai-automation-consultant-vs-freelancer`
+- `/build-vs-buy-ai-automation`
+- `/vapi-vs-retell-small-business`
+- `/ai-appointment-setter-vs-receptionist`
+- `/ai-voice-agent-vs-voicemail`
+- `/ai-voice-agent-vs-call-center`
+- `/n8n-vs-make-small-business`
 
 ### Workflow + solution pages
 - `/ai-appointment-setter`
@@ -25,6 +31,8 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - `/ai-automation-roi-guide`
 - `/n8n-automation-examples-small-business`
 - `/ai-email-sequence-automation`
+- `/instant-lead-response-automation`
+- `/missed-call-follow-up-automation`
 
 ### Geo + industry pages
 - `/ai-automation-consultant-calgary`
