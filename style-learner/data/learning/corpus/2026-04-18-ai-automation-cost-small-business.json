@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-18-ai-automation-cost-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-18",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "Badge: Cost Guide\n\nHeadline:\nAI Automation Cost for Small Business\n\nHero intro:\nMost small business owners search for automation pricing and find vague ranges or enterprise quotes that start at $50K. That is not useful. This page gives you real numbers for the automations small service businesses actually buy — lead follow-up, CRM workflows, voice agents, onboarding systems — with honest breakdowns of what drives cost up and what keeps it manageable.\n\nHero subtext:\nBelow: what you will actually pay, what affects the price, common budget mistakes, and how to get the most value from your first automation investment.\n\nSection titles:\n- What AI automation costs by project type\n- What drives the cost up — and what keeps it down\n- Is your budget realistic?\n- Hidden costs most businesses miss\n- How to get the most value from your budget\n\nCTA heading: Get a clear cost estimate for your automation project\nCTA text: Book a 30-minute call. We will walk through your specific workflow, identify the right automation, and give you a fixed-price quote with no surprises.",
+    "formatting": [
+      "bold:Badge:"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Table-first structure: leads with pricing data before prose"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Concrete dollar ranges throughout ($1K–$2K, $50–$200/month)"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Evaluation section uses green/neutral columns for budget realism check"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Considerations section covers hidden costs (platform fees, your time, training, iteration)"
+    },
+    {
+      "type": "tone_shift",
+      "description": "No hyperbole, no \"save thousands\" — just real numbers"
+    },
+    {
+      "type": "tone_shift",
+      "description": "CTA promises fixed pricing and no surprises"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks: pricing, ROI guide, build-vs-buy, implementation roadmap"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-18T16:23:01.811Z",
+    "structure": {
+      "paragraphCount": 6,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        3,
+        1,
+        2,
+        2
+      ],
+      "avgSentenceLength": 17.6,
+      "sentenceLengthRange": [
+        3,
+        35
+      ],
+      "totalWords": 176
+    },
+    "opener": {
+      "type": "short-punch",
+      "text": "Badge: Cost Guide",
+      "wordCount": 3,
+      "pattern": "short-punch"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "CTA heading: Get a clear cost estimate for your automation project\nCTA text: Book a 30-minute call. We will walk through your specific workflow, identify the right automation, and give you a fixed-price quote with no surprises.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 6,
+      "commas": 8,
+      "emDashes": 3,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.14
+    },
+    "vocabulary": {
+      "distinctWords": 108,
+      "totalWords": 176,
+      "topWords": [
+        [
+          "what",
+          7
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "cost",
+          5
+        ],
+        [
+          "your",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "most",
+          4
+        ],
+        [
+          "small",
+          3
+        ],
+        [
+          "budget",
+          3
+        ],
+        [
+          "get",
+          3
+        ],
+        [
+          "ai",
+          2
+        ],
+        [
+          "business",
+          2
+        ],
+        [
+          "hero",
+          2
+        ],
+        [
+          "that",
+          2
+        ],
+        [
+          "businesses",
+          2
+        ],
+        [
+          "actually",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.006
+    },
+    "editSignals": {
+      "totalEdits": 7,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 7,
+      "patterns": []
+    }
+  }
+}

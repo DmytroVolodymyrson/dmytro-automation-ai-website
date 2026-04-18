@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-18 (batch 5 shipped — 9 industry pages: chiropractors, cleaning, med spas, roofing, pest control, auto repair, landscaping, painting, home inspectors)
+Last updated: 2026-04-18 (batch 8 shipped — 6 authority/tool pages: cost guide, audit checklist, CRM automation examples, lead follow-up examples, implementation roadmap, integrations guide)
 
 ## Live GEO Assets
 
@@ -68,11 +68,17 @@ Last updated: 2026-04-18 (batch 5 shipped — 9 industry pages: chiropractors, c
 | AI Automation for Landscaping Companies | `/ai-automation-for-landscaping-companies` | Industry page | Live |
 | AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
 | AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
+| AI Automation Cost (SMB) | `/ai-automation-cost-small-business` | Authority page | Live |
+| AI Automation Audit Checklist | `/ai-automation-audit-checklist` | Authority page | Live |
+| CRM Automation Examples (SMB) | `/crm-automation-examples-small-business` | Authority page | Live |
+| Lead Follow-Up Automation Examples | `/lead-follow-up-automation-examples` | Authority page | Live |
+| AI Automation Implementation Roadmap | `/ai-automation-implementation-roadmap` | Authority page | Live |
+| AI Automation Integrations (SMB) | `/ai-automation-integrations-small-business` | Authority page | Live |
 | `llms.txt` | `/llms.txt` | AI crawler file | Live |
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 53**
+**Total decision/comparison/industry pages live: 59**
 **Total case studies live: 3**
 
 ---

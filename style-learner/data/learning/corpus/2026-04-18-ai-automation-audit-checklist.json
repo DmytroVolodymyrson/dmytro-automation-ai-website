@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-18-ai-automation-audit-checklist",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-18",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "Badge: Audit Checklist\n\nHeadline:\nAI Automation Audit Checklist for Small Business\n\nHero intro:\nBefore spending money on automation, you need to know where it will actually help. Most businesses jump straight to buying tools without understanding their own workflows first. This checklist walks you through a structured audit of your current operations — so you can identify what to automate, what to fix manually, and what to leave alone.\n\nHero subtext:\nBelow: a 20-point checklist organized by business area, a scoring guide to prioritize your automation opportunities, and common mistakes to avoid during the audit process.\n\nSection titles:\n- Lead response and follow-up audit (items 1-4)\n- Operations and internal workflow audit (items 5-8)\n- Technology and tool stack audit (items 9-12)\n- Score your automation readiness\n- Common audit mistakes\n\nCTA heading: Want help running your automation audit?",
+    "formatting": [
+      "bold:Badge:"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Numbered checklist format within card sections (1-12 items shown)"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Each item is actionable: \"Measure your average response time\", \"Track missed calls\""
+    },
+    {
+      "type": "tone_shift",
+      "description": "Practical framing: \"If you do not know the exact number, it is probably slower than you think\""
+    },
+    {
+      "type": "tone_shift",
+      "description": "Evaluation section scores readiness (8+ = ready, under 5 = fix first)"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Mistakes section is strategic, not technical (skip measurement, audit in isolation)"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone: consultative, direct, zero jargon"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks: ROI guide, cost guide, implementation roadmap, no-tech-team"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-18T16:23:01.811Z",
+    "structure": {
+      "paragraphCount": 6,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        3,
+        1,
+        1,
+        1
+      ],
+      "avgSentenceLength": 17.3,
+      "sentenceLengthRange": [
+        3,
+        35
+      ],
+      "totalWords": 138
+    },
+    "opener": {
+      "type": "short-punch",
+      "text": "Badge: Audit Checklist",
+      "wordCount": 3,
+      "pattern": "short-punch"
+    },
+    "closer": {
+      "type": "question",
+      "text": "CTA heading: Want help running your automation audit?",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | context | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 4,
+      "commas": 5,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 7,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 92,
+      "totalWords": 138,
+      "topWords": [
+        [
+          "audit",
+          9
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "checklist",
+          4
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "what",
+          3
+        ],
+        [
+          "items",
+          3
+        ],
+        [
+          "business",
+          2
+        ],
+        [
+          "hero",
+          2
+        ],
+        [
+          "help",
+          2
+        ],
+        [
+          "operations",
+          2
+        ],
+        [
+          "common",
+          2
+        ],
+        [
+          "mistakes",
+          2
+        ],
+        [
+          "badge",
+          1
+        ],
+        [
+          "headline",
+          1
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 7,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 7,
+      "patterns": []
+    }
+  }
+}

@@ -66,6 +66,12 @@ const AiAutomationForAutoRepairShops = lazy(() => import("./pages/AiAutomationFo
 const AiAutomationForLandscapingCompanies = lazy(() => import("./pages/AiAutomationForLandscapingCompanies"));
 const AiAutomationForPaintingContractors = lazy(() => import("./pages/AiAutomationForPaintingContractors"));
 const AiAutomationForHomeInspectors = lazy(() => import("./pages/AiAutomationForHomeInspectors"));
+const AiAutomationCostSmallBusiness = lazy(() => import("./pages/AiAutomationCostSmallBusiness"));
+const AiAutomationAuditChecklist = lazy(() => import("./pages/AiAutomationAuditChecklist"));
+const CrmAutomationExamplesSmallBusiness = lazy(() => import("./pages/CrmAutomationExamplesSmallBusiness"));
+const LeadFollowUpAutomationExamples = lazy(() => import("./pages/LeadFollowUpAutomationExamples"));
+const AiAutomationImplementationRoadmap = lazy(() => import("./pages/AiAutomationImplementationRoadmap"));
+const AiAutomationIntegrationsSmallBusiness = lazy(() => import("./pages/AiAutomationIntegrationsSmallBusiness"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const AppRoutesClient = () => (
@@ -135,6 +141,12 @@ const AppRoutesClient = () => (
       <Route path="/ai-automation-for-landscaping-companies" element={<AiAutomationForLandscapingCompanies />} />
       <Route path="/ai-automation-for-painting-contractors" element={<AiAutomationForPaintingContractors />} />
       <Route path="/ai-automation-for-home-inspectors" element={<AiAutomationForHomeInspectors />} />
+      <Route path="/ai-automation-cost-small-business" element={<AiAutomationCostSmallBusiness />} />
+      <Route path="/ai-automation-audit-checklist" element={<AiAutomationAuditChecklist />} />
+      <Route path="/crm-automation-examples-small-business" element={<CrmAutomationExamplesSmallBusiness />} />
+      <Route path="/lead-follow-up-automation-examples" element={<LeadFollowUpAutomationExamples />} />
+      <Route path="/ai-automation-implementation-roadmap" element={<AiAutomationImplementationRoadmap />} />
+      <Route path="/ai-automation-integrations-small-business" element={<AiAutomationIntegrationsSmallBusiness />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="*" element={<NotFound />} />

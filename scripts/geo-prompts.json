@@ -337,6 +337,30 @@
         "Automate maintenance reminders for auto repair shop",
         "AI appointment scheduling for mechanic shop"
       ]
+    },
+    {
+      "id": "ai-automation-cost-small-business",
+      "path": "/ai-automation-cost-small-business",
+      "label": "AI Automation Cost for Small Business",
+      "prompts": [
+        "How much does AI automation cost for a small business?",
+        "What is the typical cost of AI automation for a service business?",
+        "AI automation pricing breakdown for small business",
+        "How much should I budget for my first AI automation project?",
+        "What are the ongoing costs of AI automation for small businesses?"
+      ]
+    },
+    {
+      "id": "ai-automation-implementation-roadmap",
+      "path": "/ai-automation-implementation-roadmap",
+      "label": "AI Automation Implementation Roadmap",
+      "prompts": [
+        "How to implement AI automation step by step for small business",
+        "AI automation implementation roadmap for service businesses",
+        "What is the process for implementing AI automation?",
+        "How long does it take to implement AI automation for a small business?",
+        "Step by step guide to implementing AI automation"
+      ]
     }
   ],
   "providers": ["openai", "anthropic", "gemini", "perplexity"],

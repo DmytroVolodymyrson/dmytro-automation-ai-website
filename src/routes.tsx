@@ -65,6 +65,12 @@ import AiAutomationForAutoRepairShops from "./pages/AiAutomationForAutoRepairSho
 import AiAutomationForLandscapingCompanies from "./pages/AiAutomationForLandscapingCompanies";
 import AiAutomationForPaintingContractors from "./pages/AiAutomationForPaintingContractors";
 import AiAutomationForHomeInspectors from "./pages/AiAutomationForHomeInspectors";
+import AiAutomationCostSmallBusiness from "./pages/AiAutomationCostSmallBusiness";
+import AiAutomationAuditChecklist from "./pages/AiAutomationAuditChecklist";
+import CrmAutomationExamplesSmallBusiness from "./pages/CrmAutomationExamplesSmallBusiness";
+import LeadFollowUpAutomationExamples from "./pages/LeadFollowUpAutomationExamples";
+import AiAutomationImplementationRoadmap from "./pages/AiAutomationImplementationRoadmap";
+import AiAutomationIntegrationsSmallBusiness from "./pages/AiAutomationIntegrationsSmallBusiness";
 import NotFound from "./pages/NotFound";
 
 export type AppRouteDefinition = {
@@ -148,6 +154,12 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-for-landscaping-companies", element: <AiAutomationForLandscapingCompanies /> },
   { path: "/ai-automation-for-painting-contractors", element: <AiAutomationForPaintingContractors /> },
   { path: "/ai-automation-for-home-inspectors", element: <AiAutomationForHomeInspectors /> },
+  { path: "/ai-automation-cost-small-business", element: <AiAutomationCostSmallBusiness /> },
+  { path: "/ai-automation-audit-checklist", element: <AiAutomationAuditChecklist /> },
+  { path: "/crm-automation-examples-small-business", element: <CrmAutomationExamplesSmallBusiness /> },
+  { path: "/lead-follow-up-automation-examples", element: <LeadFollowUpAutomationExamples /> },
+  { path: "/ai-automation-implementation-roadmap", element: <AiAutomationImplementationRoadmap /> },
+  { path: "/ai-automation-integrations-small-business", element: <AiAutomationIntegrationsSmallBusiness /> },
   { path: "/privacy", element: <PrivacyPolicy /> },
   { path: "/terms", element: <TermsOfService /> },
   { path: "*", element: <NotFound />, prerender: false },

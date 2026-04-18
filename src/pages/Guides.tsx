@@ -89,6 +89,27 @@ const guides: GuideItem[] = [
     category: "strategy",
   },
   {
+    title: "AI Automation Cost for Small Business",
+    description:
+      "What does AI automation actually cost? Honest breakdown of build costs, monthly fees, hidden expenses, and how to budget your first project.",
+    href: "/ai-automation-cost-small-business",
+    category: "strategy",
+  },
+  {
+    title: "AI Automation Audit Checklist",
+    description:
+      "Free 20-point audit checklist to assess your workflows, tools, and readiness before investing in automation. Run it yourself in 2-3 hours.",
+    href: "/ai-automation-audit-checklist",
+    category: "strategy",
+  },
+  {
+    title: "AI Automation Implementation Roadmap",
+    description:
+      "Step-by-step implementation roadmap from audit to launch to optimization. Clear phases, realistic timelines, and common pitfalls to avoid.",
+    href: "/ai-automation-implementation-roadmap",
+    category: "strategy",
+  },
+  {
     title: "n8n vs Zapier for Small Business",
     description:
       "A practical comparison for business owners. When Zapier is enough, when n8n is the better fit, and what actually matters for cost and complexity.",
@@ -263,6 +284,27 @@ const guides: GuideItem[] = [
     description:
       "Confirmation requests, timed reminders, easy rescheduling, and deposit workflows that cut no-shows by 50% or more.",
     href: "/no-show-reduction-automation",
+    category: "workflows",
+  },
+  {
+    title: "CRM Automation Examples for Small Business",
+    description:
+      "Practical CRM automation examples — lead tagging, pipeline triggers, follow-up sequences, task creation, and reporting workflows that actually work.",
+    href: "/crm-automation-examples-small-business",
+    category: "workflows",
+  },
+  {
+    title: "Lead Follow-Up Automation Examples",
+    description:
+      "Specific follow-up workflows with trigger, timing, and message examples. Missed call text-back, multi-step sequences, AI-powered responses, and channel-specific patterns.",
+    href: "/lead-follow-up-automation-examples",
+    category: "workflows",
+  },
+  {
+    title: "AI Automation Integrations for Small Business",
+    description:
+      "Which tools connect to what, common integration patterns, middleware options, and how to build a connected automation stack without fragmentation.",
+    href: "/ai-automation-integrations-small-business",
     category: "workflows",
   },
   {

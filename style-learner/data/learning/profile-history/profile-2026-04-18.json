@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-18T16:00:15.229Z",
-  "postCount": 65,
+  "updatedAt": "2026-04-18T16:23:11.117Z",
+  "postCount": 71,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,25 +15,25 @@
       "max": 11,
       "p25": 4,
       "p75": 6,
-      "samples": 65
+      "samples": 71
     },
     "sentenceLength": {
-      "mean": 16.6,
+      "mean": 16.5,
       "median": 16,
       "min": 7.1,
       "max": 30.4,
-      "p25": 13.9,
-      "p75": 17.8,
-      "samples": 65
+      "p25": 13.6,
+      "p75": 17.7,
+      "samples": 71
     },
     "totalWords": {
-      "mean": 237.7,
-      "median": 178,
+      "mean": 230.1,
+      "median": 177,
       "min": 17,
       "max": 1155,
-      "p25": 162,
+      "p25": 159,
       "p75": 212,
-      "samples": 65
+      "samples": 71
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -65,7 +65,10 @@
       "long | long | single | short": 3,
       "long | short | single | short": 2,
       "long | long | long | long | long | long | single | single | long": 1,
-      "long | long | long | short | single | short | single | single | long": 1
+      "long | long | long | short | single | short | single | single | long": 1,
+      "single | single | long | single | single | single": 3,
+      "single | single | long | single | short | short": 2,
+      "single | single | long | short | long | single": 1
     },
     "structuralTemplates": {
       "opener | context | result | context | closer": 3,
@@ -94,7 +97,11 @@
       "opener | context | product-pitch | context | product-pitch | product-pitch | product-pitch | product-pitch | closer": 1,
       "opener | result | result | closer": 1,
       "opener | product-pitch | product-pitch | context | context | context | product-pitch | context | closer": 1,
-      "opener | result | context | closer": 5
+      "opener | result | context | closer": 5,
+      "opener | context | context | context | product-pitch | closer": 1,
+      "opener | context | product-pitch | context | context | closer": 3,
+      "opener | context | context | context | context | closer": 1,
+      "opener | context | product-pitch | product-pitch | context | closer": 1
     }
   },
   "openers": {
@@ -108,7 +115,7 @@
         ]
       },
       "short-punch": {
-        "count": 7,
+        "count": 13,
         "examples": [
           "Badge: AI Automation Expert",
           "Badge: Low-pressure first call",
@@ -141,7 +148,7 @@
   "closers": {
     "patterns": {
       "reflection": {
-        "count": 36,
+        "count": 37,
         "examples": [
           "Stats:\n- 7+ Years building software\n- 50+ Automations built\n- $100K+ Saved for c",
           "Social proof pills:\n- 10+ hrs/week saved\n- 300%+ ROI\n- 24/7 automation",
@@ -149,7 +156,7 @@
         ]
       },
       "question": {
-        "count": 25,
+        "count": 29,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -162,6 +169,12 @@
           "Benefits:\n- Find the bottleneck\n- See the best next move\n- Leave with a plan",
           "Supporting bullets:\n- Find the bottleneck\n- See the best next move\n- Leave with ",
           "Supporting bullets:\n- Find the highest-leverage place to automate\n- See whether "
+        ]
+      },
+      "standard-close": {
+        "count": 1,
+        "examples": [
+          "CTA heading: Stop losing leads to slow follow-up"
         ]
       }
     }
@@ -176,31 +189,31 @@
     "topWords": [
       [
         "-",
-        366
+        397
       ],
       [
         "automation",
-        220
+        246
       ],
       [
         "your",
-        193
+        209
       ],
       [
         "ai",
-        137
-      ],
-      [
-        "follow-up",
-        96
+        139
       ],
       [
         "what",
-        95
+        112
+      ],
+      [
+        "follow-up",
+        105
       ],
       [
         "with",
-        83
+        88
       ],
       [
         "heading",
@@ -212,11 +225,11 @@
       ],
       [
         "lead",
-        74
+        79
       ],
       [
         "that",
-        61
+        72
       ],
       [
         "body",
@@ -224,6 +237,10 @@
       ],
       [
         "not",
+        58
+      ],
+      [
+        "businesses",
         56
       ],
       [
@@ -235,16 +252,16 @@
         51
       ],
       [
-        "businesses",
-        50
-      ],
-      [
         "calls",
         41
       ],
       [
         "work",
         37
+      ],
+      [
+        "business",
+        33
       ],
       [
         "no",
@@ -255,44 +272,40 @@
         31
       ],
       [
-        "business",
+        "booking",
         29
       ],
       [
-        "booking",
+        "cost",
         29
+      ],
+      [
+        "crm",
+        28
       ],
       [
         "agent",
         27
       ],
       [
+        "small",
+        26
+      ],
+      [
         "build",
         25
       ],
       [
-        "cost",
+        "most",
+        25
+      ],
+      [
+        "vs",
         24
       ],
       [
         "missed",
         24
-      ],
-      [
-        "service",
-        22
-      ],
-      [
-        "need",
-        22
-      ],
-      [
-        "n8n",
-        22
-      ],
-      [
-        "consultant",
-        21
       ]
     ],
     "casualMarkerRate": 0,

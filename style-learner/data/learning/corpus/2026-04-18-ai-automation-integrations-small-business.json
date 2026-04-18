@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-18-ai-automation-integrations-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-18",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "Badge: Integrations Guide\n\nHeadline:\nAI Automation Integrations for Small Business\n\nHero intro:\nThe power of automation is not in any single tool — it is in how your tools work together. A CRM that talks to your phone system, an email platform that syncs with your calendar, a lead form that triggers a text, a call, and a task simultaneously. This page maps the most common and most valuable integrations for small service businesses, with honest guidance on what connects easily and what requires custom work.\n\nHero subtext:\nBelow: the integration categories that matter most, common tool combinations, what connects natively vs. what needs middleware, and how to avoid integration headaches.\n\nSection titles:\n- Core integration categories\n- Common integration patterns (table)\n- Integration middleware: Zapier vs. n8n vs. native\n- High-value integration combinations\n- Integration pitfalls to avoid\n\nCTA heading: Need help connecting your tools?",
+    "formatting": [
+      "bold:Badge:"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "CRM-as-hub framing: \"Your CRM should be the single source of truth\""
+    },
+    {
+      "type": "tone_shift",
+      "description": "Table maps native vs. Zapier vs. n8n across 8 integration patterns"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Named stacks: \"Lead capture stack\", \"Scheduling and reminders stack\""
+    },
+    {
+      "type": "tone_shift",
+      "description": "Middleware comparison is balanced — native, Zapier, n8n, custom API each get a card"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Pitfalls focus on fragmentation, one-way syncs, no error handling, duplicate data"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tool-agnostic: mentions GoHighLevel, HubSpot, Twilio, etc. without endorsing one"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks: n8n examples, n8n vs Zapier, build-vs-buy, CRM automation examples"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-18T16:23:01.812Z",
+    "structure": {
+      "paragraphCount": 6,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        3,
+        2,
+        3,
+        1
+      ],
+      "avgSentenceLength": 13.2,
+      "sentenceLengthRange": [
+        2,
+        29
+      ],
+      "totalWords": 145
+    },
+    "opener": {
+      "type": "short-punch",
+      "text": "Badge: Integrations Guide",
+      "wordCount": 3,
+      "pattern": "short-punch"
+    },
+    "closer": {
+      "type": "question",
+      "text": "CTA heading: Need help connecting your tools?",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 8,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 91,
+      "totalWords": 145,
+      "topWords": [
+        [
+          "integration",
+          7
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "integrations",
+          3
+        ],
+        [
+          "most",
+          3
+        ],
+        [
+          "common",
+          3
+        ],
+        [
+          "vs",
+          3
+        ],
+        [
+          "automation",
+          2
+        ],
+        [
+          "small",
+          2
+        ],
+        [
+          "hero",
+          2
+        ],
+        [
+          "tool",
+          2
+        ],
+        [
+          "how",
+          2
+        ],
+        [
+          "tools",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 7,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 7,
+      "patterns": []
+    }
+  }
+}

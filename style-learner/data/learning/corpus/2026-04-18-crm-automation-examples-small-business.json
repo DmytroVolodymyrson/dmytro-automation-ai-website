@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-18-crm-automation-examples-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-18",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "Badge: CRM Workflows\n\nHeadline:\nCRM Automation Examples for Small Business\n\nHero intro:\nYour CRM should not be a glorified contact list. With the right automation, it becomes the engine that runs your lead follow-up, client communication, and operations. This page shows you real CRM automation workflows that small service businesses use every day — not theoretical possibilities, but systems that are running in production right now.\n\nHero subtext:\nBelow: practical CRM automation examples organized by use case, with honest guidance on complexity and what you need to get started.\n\nSection titles:\n- Lead management automations\n- Client communication automations\n- CRM automation complexity and tools (table)\n- CRM automation mistakes to avoid\n- Real CRM automation results (case studies)\n\nCTA heading: Ready to make your CRM work for you?",
+    "formatting": [
+      "bold:Badge:"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Two card sections split by function: lead management vs. client communication"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Table compares built-in CRM vs. CRM+Zapier vs. CRM+n8n across capabilities"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Mistakes section is practical: clean data first, do not over-automate communication"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Case studies tie to existing pages (ecommerce CRM, Instagram lead gen)"
+    },
+    {
+      "type": "tone_shift",
+      "description": "\"Not theoretical possibilities, but systems that are running in production right now\""
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks: n8n examples, GoHighLevel vs custom CRM, email sequence, lead follow-up examples"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-18T16:23:01.813Z",
+    "structure": {
+      "paragraphCount": 6,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        3,
+        1,
+        1,
+        1
+      ],
+      "avgSentenceLength": 16,
+      "sentenceLengthRange": [
+        3,
+        30
+      ],
+      "totalWords": 128
+    },
+    "opener": {
+      "type": "short-punch",
+      "text": "Badge: CRM Workflows",
+      "wordCount": 3,
+      "pattern": "short-punch"
+    },
+    "closer": {
+      "type": "question",
+      "text": "CTA heading: Ready to make your CRM work for you?",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 4,
+      "commas": 5,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 7,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 83,
+      "totalWords": 128,
+      "topWords": [
+        [
+          "crm",
+          9
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "your",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "workflows",
+          2
+        ],
+        [
+          "examples",
+          2
+        ],
+        [
+          "small",
+          2
+        ],
+        [
+          "hero",
+          2
+        ],
+        [
+          "not",
+          2
+        ],
+        [
+          "with",
+          2
+        ],
+        [
+          "right",
+          2
+        ],
+        [
+          "lead",
+          2
+        ],
+        [
+          "client",
+          2
+        ],
+        [
+          "communication",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.016
+    },
+    "editSignals": {
+      "totalEdits": 6,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 6,
+      "patterns": []
+    }
+  }
+}

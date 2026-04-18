@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-18-ai-automation-implementation-roadmap",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-18",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "Badge: Implementation Roadmap\n\nHeadline:\nAI Automation Implementation Roadmap for Small Business\n\nHero intro:\nYou have decided to automate. Now what? Most small businesses fail at automation not because the technology is wrong, but because they skip steps, try to do everything at once, or launch without a plan for what comes after. This roadmap gives you a clear, phase-by-phase approach — from initial audit to launch to ongoing optimization — based on what actually works for businesses with 2-20 employees.\n\nHero subtext:\nBelow: five phases of implementation, realistic timelines for each, decision points along the way, and the mistakes that derail most projects.\n\nSection titles:\n- Phase 1 — Audit and prioritize (Week 1)\n- Phase 2 — Choose tools and partner (Weeks 2-3)\n- Phase 3 — Build and test (Weeks 3-5)\n- Phase 4 — Launch and monitor (Weeks 5-6)\n- Phase 5 — Optimize and expand (Month 2+)\n- Are you ready to start implementing?\n- Implementation pitfalls\n\nCTA heading: Ready to start your automation roadmap?\nCTA subtext: You will leave with a clear plan whether or not you work with us.",
+    "formatting": [
+      "bold:Badge:"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Five-phase structure with week-level timelines in section titles"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Each phase has 3 cards — focused, not overwhelming"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Phase labels use em-dash: \"Phase 1 — Audit and prioritize\""
+    },
+    {
+      "type": "tone_shift",
+      "description": "Practical framing: \"you cannot automate what you have not mapped\""
+    },
+    {
+      "type": "tone_shift",
+      "description": "Evaluation section at end: readiness check before committing"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Pitfalls section names behavioral failures, not technical ones"
+    },
+    {
+      "type": "tone_shift",
+      "description": "CTA subtext promises value even without engagement"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks: audit checklist, cost guide, ROI guide, consultant guide"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-18T16:23:01.812Z",
+    "structure": {
+      "paragraphCount": 6,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        4,
+        1,
+        2,
+        2
+      ],
+      "avgSentenceLength": 16.2,
+      "sentenceLengthRange": [
+        2,
+        50
+      ],
+      "totalWords": 178
+    },
+    "opener": {
+      "type": "short-punch",
+      "text": "Badge: Implementation Roadmap",
+      "wordCount": 3,
+      "pattern": "short-punch"
+    },
+    "closer": {
+      "type": "question",
+      "text": "CTA heading: Ready to start your automation roadmap?\nCTA subtext: You will leave with a clear plan whether or not you work with us.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 5,
+      "commas": 7,
+      "emDashes": 7,
+      "enDashes": 0,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 3,
+      "colon": 8,
+      "commasPerSentence": 0.88
+    },
+    "vocabulary": {
+      "distinctWords": 114,
+      "totalWords": 178,
+      "topWords": [
+        [
+          "-",
+          7
+        ],
+        [
+          "phase",
+          5
+        ],
+        [
+          "implementation",
+          4
+        ],
+        [
+          "roadmap",
+          4
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "what",
+          3
+        ],
+        [
+          "launch",
+          3
+        ],
+        [
+          "with",
+          3
+        ],
+        [
+          "weeks",
+          3
+        ],
+        [
+          "1",
+          2
+        ],
+        [
+          "2",
+          2
+        ],
+        [
+          "small",
+          2
+        ],
+        [
+          "hero",
+          2
+        ],
+        [
+          "most",
+          2
+        ],
+        [
+          "businesses",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 8,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 8,
+      "patterns": []
+    }
+  }
+}

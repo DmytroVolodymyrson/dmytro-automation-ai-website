@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-18-lead-follow-up-automation-examples",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-18",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "Badge: Follow-Up Examples\n\nHeadline:\nLead Follow-Up Automation Examples for Small Business\n\nHero intro:\nSpeed to lead is the single biggest predictor of whether you close a deal. Research consistently shows that businesses responding within 5 minutes are 8x more likely to qualify a lead than those responding within 30 minutes. But consistent, fast follow-up is nearly impossible manually. These are the exact follow-up automation workflows that service businesses use to respond instantly and follow up consistently.\n\nHero subtext:\nBelow: specific follow-up workflows with trigger, timing, and message examples — organized by channel and use case.\n\nSection titles:\n- Instant response workflows\n- Multi-step follow-up sequences\n- Follow-up timing benchmarks (table)\n- Follow-up automation best practices\n\nCTA heading: Stop losing leads to slow follow-up",
+    "formatting": [
+      "bold:Badge:"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Opens with data: \"8x more likely to qualify\" — establishes urgency with research"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Each workflow includes trigger, timing, and example message"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Named patterns: \"5-touch lead nurture (14 days)\", \"Quote follow-up sequence (7 days)\""
+    },
+    {
+      "type": "tone_shift",
+      "description": "Table uses conversion impact data with specific targets"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Best practices section: non-negotiable first (stop on reply), then value-add guidance"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Concrete response rates cited: \"40-60% response rate\", \"20-35% conversion\""
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks: AI lead follow-up, missed call follow-up, instant lead response, email sequence"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-18T16:23:01.813Z",
+    "structure": {
+      "paragraphCount": 6,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        4,
+        1,
+        1,
+        1
+      ],
+      "avgSentenceLength": 13.6,
+      "sentenceLengthRange": [
+        3,
+        23
+      ],
+      "totalWords": 122
+    },
+    "opener": {
+      "type": "short-punch",
+      "text": "Badge: Follow-Up Examples",
+      "wordCount": 3,
+      "pattern": "short-punch"
+    },
+    "closer": {
+      "type": "general",
+      "text": "CTA heading: Stop losing leads to slow follow-up",
+      "pattern": "standard-close"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 5,
+      "commas": 3,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 7,
+      "commasPerSentence": 0.5
+    },
+    "vocabulary": {
+      "distinctWords": 85,
+      "totalWords": 122,
+      "topWords": [
+        [
+          "follow-up",
+          9
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "examples",
+          3
+        ],
+        [
+          "lead",
+          3
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "workflows",
+          3
+        ],
+        [
+          "hero",
+          2
+        ],
+        [
+          "consistently",
+          2
+        ],
+        [
+          "that",
+          2
+        ],
+        [
+          "businesses",
+          2
+        ],
+        [
+          "responding",
+          2
+        ],
+        [
+          "within",
+          2
+        ],
+        [
+          "minutes",
+          2
+        ],
+        [
+          "use",
+          2
+        ],
+        [
+          "timing",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 7,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 7,
+      "patterns": []
+    }
+  }
+}
