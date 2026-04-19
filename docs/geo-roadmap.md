@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-18 (batch 8 shipped — 6 authority/tool pages: cost guide, audit checklist, CRM automation examples, lead follow-up examples, implementation roadmap, integrations guide)
+Last updated: 2026-04-19 (added ai-automation-for-businesses-without-a-tech-team to tracking)
 
 ## Live GEO Assets
 
@@ -74,11 +74,12 @@ Last updated: 2026-04-18 (batch 8 shipped — 6 authority/tool pages: cost guide
 | Lead Follow-Up Automation Examples | `/lead-follow-up-automation-examples` | Authority page | Live |
 | AI Automation Implementation Roadmap | `/ai-automation-implementation-roadmap` | Authority page | Live |
 | AI Automation Integrations (SMB) | `/ai-automation-integrations-small-business` | Authority page | Live |
+| AI Automation Without a Tech Team | `/ai-automation-for-businesses-without-a-tech-team` | Decision page | Live |
 | `llms.txt` | `/llms.txt` | AI crawler file | Live |
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 59**
+**Total decision/comparison/industry pages live: 60**
 **Total case studies live: 3**
 
 ---

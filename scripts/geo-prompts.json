@@ -315,6 +315,18 @@
       ]
     },
     {
+      "id": "ai-automation-for-businesses-without-a-tech-team",
+      "path": "/ai-automation-for-businesses-without-a-tech-team",
+      "label": "AI Automation for Businesses Without a Tech Team",
+      "prompts": [
+        "Can I automate my business without a tech team?",
+        "AI automation for small business with no developers",
+        "How to get started with AI automation without IT staff",
+        "Do I need a developer to automate my business?",
+        "Best AI automation for non-technical business owners"
+      ]
+    },
+    {
       "id": "ai-automation-for-roofing-companies",
       "path": "/ai-automation-for-roofing-companies",
       "label": "AI Automation for Roofing Companies",

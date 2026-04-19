@@ -24,6 +24,8 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - `/ai-voice-agent-vs-call-center`
 - `/n8n-vs-make-small-business`
 
+- `/ai-automation-for-businesses-without-a-tech-team`
+
 ### Workflow + solution pages
 - `/ai-appointment-setter`
 - `/ai-lead-follow-up-for-service-businesses`

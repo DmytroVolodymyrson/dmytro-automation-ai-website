@@ -76,6 +76,9 @@ AI-powered database reactivation for HVAC companies — automated campaigns to r
 - AI Automation for Painting Contractors: Lead follow-up, estimate follow-up, referral nurture, seasonal campaigns, and review automation. Learn more: https://www.dmytroai.com/ai-automation-for-painting-contractors
 - AI Automation for Home Inspectors: Agent nurture campaigns, booking automation, missed call text-back, report delivery follow-up, and review automation. Learn more: https://www.dmytroai.com/ai-automation-for-home-inspectors
 
+## AI Automation Without a Tech Team
+AI automation for businesses with no developers or IT staff — which automations work without technical skills, what you actually need to get started, and when to bring in outside help. Learn more: https://www.dmytroai.com/ai-automation-for-businesses-without-a-tech-team
+
 ## Workflow & ROI Guides
 - Client Onboarding Automation: Automate intake forms, document collection, welcome sequences, scheduling, and CRM pipeline for service businesses. Learn more: https://www.dmytroai.com/client-onboarding-automation
 - AI Automation ROI Guide: How to calculate AI automation ROI for small business. Real cost breakdowns, payback timelines, and an honest decision framework. Learn more: https://www.dmytroai.com/ai-automation-roi-guide
