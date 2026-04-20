@@ -414,6 +414,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Automation for E-Commerce Brands",
+    description:
+      "AI automation for e-commerce brands. CRM organization, lead follow-up, customer service routing, reactivation campaigns, and repeat-purchase workflows.",
+    href: "/ai-automation-ecommerce",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Chiropractors",
     description:
       "AI automation for chiropractors. New patient intake, appointment scheduling, recall campaigns, no-show reduction, and review automation.",

@@ -42,6 +42,7 @@ import N8nAutomationExamplesSmallBusiness from "./pages/N8nAutomationExamplesSma
 import AiEmailSequenceAutomation from "./pages/AiEmailSequenceAutomation";
 import AiAutomationForInsuranceAgencies from "./pages/AiAutomationForInsuranceAgencies";
 import AiAutomationForPropertyManagement from "./pages/AiAutomationForPropertyManagement";
+import AiAutomationEcommerce from "./pages/AiAutomationEcommerce";
 import AfterHoursLeadCapture from "./pages/AfterHoursLeadCapture";
 import MissedCallFollowUp from "./pages/MissedCallFollowUp";
 import BookingConfirmationAndReminder from "./pages/BookingConfirmationAndReminder";
@@ -131,6 +132,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-email-sequence-automation", element: <AiEmailSequenceAutomation /> },
   { path: "/ai-automation-for-insurance-agencies", element: <AiAutomationForInsuranceAgencies /> },
   { path: "/ai-automation-for-property-management", element: <AiAutomationForPropertyManagement /> },
+  { path: "/ai-automation-ecommerce", element: <AiAutomationEcommerce /> },
   { path: "/after-hours-lead-capture-for-service-businesses", element: <AfterHoursLeadCapture /> },
   { path: "/missed-call-follow-up-automation", element: <MissedCallFollowUp /> },
   { path: "/booking-confirmation-and-reminder-automation", element: <BookingConfirmationAndReminder /> },

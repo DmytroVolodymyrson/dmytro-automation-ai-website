@@ -219,6 +219,18 @@
       ]
     },
     {
+      "id": "ai-automation-ecommerce",
+      "path": "/ai-automation-ecommerce",
+      "label": "AI Automation for E-Commerce Brands",
+      "prompts": [
+        "AI automation for e-commerce brands",
+        "How can an e-commerce business automate lead follow-up and CRM workflows?",
+        "Best AI automation for e-commerce customer service and retention",
+        "How do I automate repeat-purchase and reactivation campaigns for an online store?",
+        "Should an online store build custom automation or keep doing CRM follow-up manually?"
+      ]
+    },
+    {
       "id": "instant-lead-response-automation",
       "path": "/instant-lead-response-automation",
       "label": "Instant Lead Response Automation",

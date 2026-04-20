@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-19 (added ai-automation-for-businesses-without-a-tech-team to tracking)
+Last updated: 2026-04-20 (shipped ai-automation-ecommerce and added it to tracking)
 
 ## Live GEO Assets
 
@@ -45,6 +45,7 @@ Last updated: 2026-04-19 (added ai-automation-for-businesses-without-a-tech-team
 | AI Email Sequence Automation | `/ai-email-sequence-automation` | Workflow page | Live |
 | AI Automation for Insurance Agencies | `/ai-automation-for-insurance-agencies` | Industry page | Live |
 | AI Automation for Property Management | `/ai-automation-for-property-management` | Industry page | Live |
+| AI Automation for E-Commerce Brands | `/ai-automation-ecommerce` | Industry page | Live |
 | After-Hours Lead Capture | `/after-hours-lead-capture-for-service-businesses` | Workflow page | Live |
 | Missed Call Follow-Up Automation | `/missed-call-follow-up-automation` | Workflow page | Live |
 | Booking Confirmation & Reminder | `/booking-confirmation-and-reminder-automation` | Workflow page | Live |
@@ -79,7 +80,7 @@ Last updated: 2026-04-19 (added ai-automation-for-businesses-without-a-tech-team
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 60**
+**Total decision/comparison/industry pages live: 61**
 **Total case studies live: 3**
 
 ---
@@ -88,12 +89,9 @@ Last updated: 2026-04-19 (added ai-automation-for-businesses-without-a-tech-team
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P0** | Client Onboarding Automation | "automate client onboarding service business" | Strong decision-intent workflow page, broad service-business relevance | **Live** |
-| 2 | **P1** | AI Automation ROI Calculator / Guide | "is AI automation worth it small business" | Useful decision-stage content and supports pricing + consultant pages | **Live** |
-| 3 | **P1** | n8n Automation Examples for Small Business | "n8n automation ideas small business" | Top-of-funnel authority page around a core tool | **Live** |
-| 4 | **P2** | AI Email Sequence Automation | "automate email follow-up with AI" | Supports CRM / follow-up cluster and ties to real implementation work | **Live** |
-| 5 | **P2** | AI Automation for Insurance Agencies | "AI follow-up for insurance agents" | High-volume inquiry vertical with strong lead follow-up fit | **Live** |
-| 6 | **P2** | AI Automation for Property Management | "AI tenant communication property management" | Recurring communication patterns, good automation fit | **Live** |
+| 1 | **P1** | AI Voice Agent for Lead Qualification | "voice agent vs human SDR" | Distinct comparison / workflow intent still missing from the live site and endorsed by the original GEO plan | **Planned** |
+| 2 | **P1** | GoHighLevel Automation Setup & Expert Help | "GoHighLevel automation consultant" | Commercial service-intent page that complements the existing GoHighLevel comparison page without duplicating it | **Planned** |
+| 3 | **P2** | AI Automation for E-Commerce Brands | "AI automation for e-commerce customer service" | Strong fit because the WheelsFeels auto-parts case study gives direct proof for CRM and follow-up automation in e-commerce | **Live** |
 
 ### Priority Definitions
 

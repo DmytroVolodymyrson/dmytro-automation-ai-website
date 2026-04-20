@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-20-ai-automation-ecommerce",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-20",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for E-Commerce Brands\nBody: AI automation makes the most sense for e-commerce brands when revenue is leaking through slow follow-up, scattered customer data, manual support handoffs, and inconsistent repeat-purchase campaigns. If your team is still moving leads between spreadsheets, chasing quote requests by hand, or manually triggering win-back emails, automation is usually worth building. The goal is not to replace your store platform. It is to make sure every lead, inquiry, and customer action triggers the right next step automatically.\nSub: Below: the e-commerce workflows that are actually worth automating, where the ROI usually comes from, and when a brand is too early for a custom build.\n\n### Core sections\n- What you can automate in an e-commerce business\n- Lead capture and CRM organization\n- Email and SMS follow-up sequences\n- Customer service routing\n- Win-back and reactivation campaigns\n- Post-purchase communication\n- Is automation a good fit for your e-commerce brand?\n- Where the ROI usually comes from\n- Relevant proof\n\n### FAQ\nSubhead: Practical questions from e-commerce operators considering automation\n\n### Final CTA\nHeading: Want to stop leaking revenue through manual ops?\nBody: Book a 30-minute call. We will look at your current store, CRM, and follow-up flow, then map out the one automation system that would create the clearest ROI first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as a bounded single-page GEO shipment, not a broad rollout."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses direct e-commerce proof from the WheelsFeels auto-parts CRM case study instead of generic platform claims."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the tone commercial and practical: direct answer first, fit / not-fit framing, concrete workflow categories, and realistic cost guidance."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Built to strengthen the e-commerce cluster already hinted at in llm files and the existing e-commerce case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-20T15:50:37.087Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 19.6,
+      "sentenceLengthRange": [
+        5,
+        45
+      ],
+      "totalWords": 216
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation for E-Commerce Brands\nBody: AI automation makes the most sense for e-commerce brands when revenue is leaking through slow follow-up, scattered customer data, manual support handoffs, and inconsistent repeat-purchase campaigns.",
+      "wordCount": 34,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to stop leaking revenue through manual ops?\nBody: Book a 30-minute call. We will look at your current store, CRM, and follow-up flow, then map out the one automation system that would create the clearest ROI first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 13,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 9,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 7,
+      "commasPerSentence": 1.44
+    },
+    "vocabulary": {
+      "distinctWords": 139,
+      "totalWords": 216,
+      "topWords": [
+        [
+          "-",
+          9
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "e-commerce",
+          6
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "follow-up",
+          3
+        ],
+        [
+          "customer",
+          3
+        ],
+        [
+          "usually",
+          3
+        ],
+        [
+          "roi",
+          3
+        ],
+        [
+          "from",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "ai",
+          2
+        ],
+        [
+          "brands",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "when",
+          2
+        ],
+        [
+          "revenue",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.005
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
