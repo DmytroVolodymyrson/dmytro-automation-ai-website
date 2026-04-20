@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-20-ai-voice-agent-lead-qualification",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-20",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: AI Voice Agent for Lead Qualification\nBody: If your best leads call first, an AI voice agent can qualify them before your team ever picks up the phone. It answers immediately, asks the right screening questions, books good-fit appointments, and routes edge cases to a human. This is not right for every business, but it is one of the highest-leverage automations for service companies that lose leads to missed calls, slow callback times, and inconsistent intake.\nSub: Below: what voice qualification actually handles, how it compares to manual callback workflows, what it typically costs, and the situations where you should not use it.\n\n### Core sections\n- What a voice agent can qualify on the first call\n- AI voice qualification vs. manual callback workflow\n- Good fit vs. bad fit\n- What makes voice qualification work in the real world\n- Proof and adjacent proof\n\n### FAQ\nSubhead: Practical questions about using AI voice agents to qualify inbound leads\n- Is this different from an AI appointment setter?\n- What kinds of businesses benefit most from voice qualification?\n- How long does it take to set up?\n- What does an AI voice qualification system usually cost?\n- When should I avoid this and keep qualification human?\n\n### Final CTA\nHeading: Want to know if voice qualification fits your lead flow?\nBody: Book a 30-minute call. We will look at how your leads come in, what makes someone qualified in your business, and whether an AI voice workflow would create real ROI or just add noise.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected because it was the last clearly planned-but-unshipped page with strong commercial intent and credible adjacent proof in the current docs."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Framed as a workflow / decision page, not another generic comparison, to avoid cannibalizing the existing chatbot-vs-voice-agent and phone-answering pages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses Paris Cafe for direct voice proof, plus WheelsFeels and the Instagram pipeline as adjacent proof for qualification logic and downstream routing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the tone practical and bounded: speed-to-lead, qualification consistency, routing, cost logic, and honest bad-fit criteria."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-20T20:22:46.085Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        3,
+        5,
+        3
+      ],
+      "avgSentenceLength": 17.1,
+      "sentenceLengthRange": [
+        5,
+        30
+      ],
+      "totalWords": 256
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Voice Agent for Lead Qualification\nBody: If your best leads call first, an AI voice agent can qualify them before your team ever picks up the phone.",
+      "wordCount": 30,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to know if voice qualification fits your lead flow?\nBody: Book a 30-minute call. We will look at how your leads come in, what makes someone qualified in your business, and whether an AI voice workflow would create real ROI or just add noise.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 12,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 10,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 0.86
+    },
+    "vocabulary": {
+      "distinctWords": 145,
+      "totalWords": 256,
+      "topWords": [
+        [
+          "voice",
+          11
+        ],
+        [
+          "-",
+          10
+        ],
+        [
+          "qualification",
+          8
+        ],
+        [
+          "ai",
+          7
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "it",
+          6
+        ],
+        [
+          "your",
+          5
+        ],
+        [
+          "leads",
+          4
+        ],
+        [
+          "agent",
+          3
+        ],
+        [
+          "call",
+          3
+        ],
+        [
+          "qualify",
+          3
+        ],
+        [
+          "this",
+          3
+        ],
+        [
+          "callback",
+          3
+        ],
+        [
+          "how",
+          3
+        ],
+        [
+          "heading",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.008
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

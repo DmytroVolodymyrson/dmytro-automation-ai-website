@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-20 (shipped gohighlevel-automation-setup and added it to tracking)
+Last updated: 2026-04-20 (shipped ai-voice-agent-lead-qualification and added it to tracking)
 
 ## Live GEO Assets
 
@@ -51,6 +51,7 @@ Last updated: 2026-04-20 (shipped gohighlevel-automation-setup and added it to t
 | Missed Call Follow-Up Automation | `/missed-call-follow-up-automation` | Workflow page | Live |
 | Booking Confirmation & Reminder | `/booking-confirmation-and-reminder-automation` | Workflow page | Live |
 | AI Phone Answering for Service Businesses | `/ai-phone-answering-for-service-businesses` | Workflow page | Live |
+| AI Voice Agent for Lead Qualification | `/ai-voice-agent-lead-qualification` | Workflow / voice AI page | Live |
 | Instant Lead Response Automation | `/instant-lead-response-automation` | Workflow page | Live |
 | Quote Follow-Up Automation | `/quote-follow-up-automation` | Workflow page | Live |
 | Client Reactivation Automation | `/client-reactivation-automation` | Workflow page | Live |
@@ -81,18 +82,19 @@ Last updated: 2026-04-20 (shipped gohighlevel-automation-setup and added it to t
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 62**
+**Total decision/comparison/industry pages live: 63**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
+The original planned backlog is now effectively exhausted for high-confidence pages that are both distinct and supported by proof.
+
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | AI Voice Agent for Lead Qualification | "voice agent vs human SDR" | Distinct comparison / workflow intent still missing from the live site and endorsed by the original GEO plan | **Planned** |
-| 2 | **P1** | GoHighLevel Automation Setup & Expert Help | "GoHighLevel automation consultant" | Commercial service-intent page that complements the existing GoHighLevel comparison page without duplicating it | **Live** |
-| 3 | **P2** | AI Automation for E-Commerce Brands | "AI automation for e-commerce customer service" | Strong fit because the WheelsFeels auto-parts case study gives direct proof for CRM and follow-up automation in e-commerce | **Live** |
+| 1 | **Deferred** | AI Automation ROI Calculator | "is AI automation worth it small business" | Present in the oldest GEO plan, but the current pattern matrix explicitly warns against scaling calculator/tool pages without stronger surrounding static content and validation first. | **Deferred** |
+| 2 | **Refresh needed** | Backlog reconciliation from broader planning docs | n/a | Before the next ship, refresh the roadmap against live routes, case-study proof, and GEO movement. There is no remaining high-confidence planned page in the current docs that is clearly distinct and non-cannibalizing. | **Needs refresh** |
 
 ### Priority Definitions
 

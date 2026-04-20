@@ -243,6 +243,18 @@
       ]
     },
     {
+      "id": "ai-voice-agent-lead-qualification",
+      "path": "/ai-voice-agent-lead-qualification",
+      "label": "AI Voice Agent for Lead Qualification",
+      "prompts": [
+        "AI voice agent for lead qualification",
+        "Can an AI voice agent qualify leads for a service business?",
+        "Should I use AI to qualify inbound phone leads?",
+        "AI voice lead qualification vs manual callback",
+        "How much does an AI voice agent for lead qualification cost?"
+      ]
+    },
+    {
       "id": "missed-call-follow-up-automation",
       "path": "/missed-call-follow-up-automation",
       "label": "Missed Call Follow-Up Automation",

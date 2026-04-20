@@ -266,6 +266,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Voice Agent for Lead Qualification",
+    description:
+      "How AI voice agents qualify inbound leads on the first call — what they ask, what they route, what they cost, and when manual callback is still the better option.",
+    href: "/ai-voice-agent-lead-qualification",
+    category: "workflows",
+  },
+  {
     title: "Instant Lead Response Automation",
     description:
       "Respond to every form fill, call, and message in under 60 seconds with AI-powered workflows. Be the first to respond, every time.",

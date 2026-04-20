@@ -48,6 +48,7 @@ import AfterHoursLeadCapture from "./pages/AfterHoursLeadCapture";
 import MissedCallFollowUp from "./pages/MissedCallFollowUp";
 import BookingConfirmationAndReminder from "./pages/BookingConfirmationAndReminder";
 import AiPhoneAnswering from "./pages/AiPhoneAnswering";
+import AiVoiceAgentForLeadQualification from "./pages/AiVoiceAgentForLeadQualification";
 import InstantLeadResponse from "./pages/InstantLeadResponse";
 import QuoteFollowUp from "./pages/QuoteFollowUp";
 import ClientReactivation from "./pages/ClientReactivation";
@@ -139,6 +140,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/missed-call-follow-up-automation", element: <MissedCallFollowUp /> },
   { path: "/booking-confirmation-and-reminder-automation", element: <BookingConfirmationAndReminder /> },
   { path: "/ai-phone-answering-for-service-businesses", element: <AiPhoneAnswering /> },
+  { path: "/ai-voice-agent-lead-qualification", element: <AiVoiceAgentForLeadQualification /> },
   { path: "/instant-lead-response-automation", element: <InstantLeadResponse /> },
   { path: "/quote-follow-up-automation", element: <QuoteFollowUp /> },
   { path: "/client-reactivation-automation", element: <ClientReactivation /> },

@@ -49,6 +49,7 @@ const AfterHoursLeadCapture = lazy(() => import("./pages/AfterHoursLeadCapture")
 const MissedCallFollowUp = lazy(() => import("./pages/MissedCallFollowUp"));
 const BookingConfirmationAndReminder = lazy(() => import("./pages/BookingConfirmationAndReminder"));
 const AiPhoneAnswering = lazy(() => import("./pages/AiPhoneAnswering"));
+const AiVoiceAgentForLeadQualification = lazy(() => import("./pages/AiVoiceAgentForLeadQualification"));
 const InstantLeadResponse = lazy(() => import("./pages/InstantLeadResponse"));
 const QuoteFollowUp = lazy(() => import("./pages/QuoteFollowUp"));
 const ClientReactivation = lazy(() => import("./pages/ClientReactivation"));
@@ -126,6 +127,7 @@ const AppRoutesClient = () => (
       <Route path="/missed-call-follow-up-automation" element={<MissedCallFollowUp />} />
       <Route path="/booking-confirmation-and-reminder-automation" element={<BookingConfirmationAndReminder />} />
       <Route path="/ai-phone-answering-for-service-businesses" element={<AiPhoneAnswering />} />
+      <Route path="/ai-voice-agent-lead-qualification" element={<AiVoiceAgentForLeadQualification />} />
       <Route path="/instant-lead-response-automation" element={<InstantLeadResponse />} />
       <Route path="/quote-follow-up-automation" element={<QuoteFollowUp />} />
       <Route path="/client-reactivation-automation" element={<ClientReactivation />} />
