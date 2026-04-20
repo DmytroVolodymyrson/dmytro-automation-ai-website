@@ -28,6 +28,18 @@ Dmytro builds AI automation specifically for HVAC companies — 24/7 AI call han
 ## Restaurant Voice Agent Guide
 AI phone answering for restaurants — where an AI voice agent helps, where it does not, and when it is worth implementing. Covers reservation capture, overflow call handling, after-hours coverage, and the difference between AI, voicemail, and a human host. Learn more: https://www.dmytroai.com/ai-voice-agent-for-restaurants
 
+## AI Automation Consultant for Small Business
+Dedicated AI automation consulting for small businesses — lead follow-up, CRM workflows, voice agents, and operational automation built for teams of 1-20. Fixed pricing, direct access to the builder, and systems that pay for themselves. Learn more: https://www.dmytroai.com/ai-automation-consultant-small-business
+
+## AI Appointment Setter
+AI-powered appointment setting for service businesses — automatic lead qualification, calendar booking, confirmations, and reminders without a human receptionist. Works 24/7, integrates with your CRM, and books while you sleep. Learn more: https://www.dmytroai.com/ai-appointment-setter
+
+## AI Lead Follow-Up for Service Businesses
+Automated lead follow-up systems for service businesses — instant response to new inquiries, multi-channel nurture sequences, and CRM pipeline automation that converts more leads without manual effort. Learn more: https://www.dmytroai.com/ai-lead-follow-up-for-service-businesses
+
+## Calgary Service Area
+AI automation consulting for Calgary businesses — lead follow-up, CRM workflows, AI voice agents, and scheduling automation. Local consultant, remote-friendly delivery, built for service businesses in Calgary and surrounding area. Learn more: https://www.dmytroai.com/ai-automation-consultant-calgary
+
 ## Edmonton Service Area
 AI automation consulting for Edmonton businesses — lead follow-up, scheduling, CRM workflows, operations, and AI voice agents. Built for service businesses that want practical automation without adding headcount. Learn more: https://www.dmytroai.com/ai-automation-consultant-edmonton
 
@@ -54,6 +66,7 @@ AI-powered database reactivation for HVAC companies — automated campaigns to r
 - AI Voice Agent vs. Call Center: AI voice agent or outsourced call center? Monthly cost, call quality, CRM integration, and scalability compared for small businesses. Learn more: https://www.dmytroai.com/ai-voice-agent-vs-call-center
 - n8n vs. Make for Small Business: Comparing n8n and Make (Integromat) on pricing, self-hosting, AI integration, and complexity handling. Learn more: https://www.dmytroai.com/n8n-vs-make-small-business
 - Build vs. Buy AI Automation: Should you build custom AI automation or buy off-the-shelf? Cost, customization, time-to-value, and long-term ownership compared. Learn more: https://www.dmytroai.com/build-vs-buy-ai-automation
+- n8n vs. Zapier for Small Business: Comparing n8n and Zapier on pricing, flexibility, AI capabilities, self-hosting, and automation complexity for small businesses. Learn more: https://www.dmytroai.com/n8n-vs-zapier-small-business
 - VAPI vs. Retell for Small Business: Comparing VAPI and Retell voice AI platforms on pricing, latency, customization, and CRM integration. Learn more: https://www.dmytroai.com/vapi-vs-retell-small-business
 
 ## Industry Pages
@@ -104,6 +117,9 @@ AI automation for businesses with no developers or IT staff — which automation
 - HVAC Lead Follow-Up Automation: How HVAC companies stop losing jobs to slow response times. Automated follow-up for web forms, missed calls, and quote nurture sequences. Learn more: https://www.dmytroai.com/hvac-lead-follow-up-automation
 - HVAC Missed Call Text Back: Instant text-back when an HVAC call goes unanswered. How it works, what the customer sees, and what else triggers from a missed call. Learn more: https://www.dmytroai.com/hvac-missed-call-text-back
 - AI Appointment Setter for HVAC: AI-powered scheduling for HVAC service calls. Handles booking, confirmations, reminders, and dispatch calendar sync. Learn more: https://www.dmytroai.com/ai-appointment-setter-for-hvac
+
+## Guides Hub
+Browse all AI automation guides, comparisons, and resources in one place — organized by topic for small service businesses. Learn more: https://www.dmytroai.com/guides
 
 ## Contact
 dmytro@dmytroai.com | https://www.dmytroai.com

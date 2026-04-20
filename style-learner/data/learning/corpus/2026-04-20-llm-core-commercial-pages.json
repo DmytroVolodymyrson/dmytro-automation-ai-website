@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-20-llm-core-commercial-pages",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-20",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "Updated the public LLM summary files to add concise crawler-facing entries for core commercial pages that were missing from the site summaries.\n\n### New entries added\n- AI Automation Consultant for Small Business: Dedicated AI automation consulting for small businesses — lead follow-up, CRM workflows, voice agents, and operational automation built for teams of 1-20. Fixed pricing, direct access to the builder, and systems that pay for themselves.\n- AI Appointment Setter: AI-powered appointment setting for service businesses — automatic lead qualification, calendar booking, confirmations, and reminders without a human receptionist. Works 24/7, integrates with your CRM, and books while you sleep.\n- AI Lead Follow-Up for Service Businesses: Automated lead follow-up systems for service businesses — instant response to new inquiries, multi-channel nurture sequences, and CRM pipeline automation that converts more leads without manual effort.\n- Calgary Service Area: AI automation consulting for Calgary businesses — lead follow-up, CRM workflows, AI voice agents, and scheduling automation. Local consultant, remote-friendly delivery, built for service businesses in Calgary and surrounding area.\n- n8n vs. Zapier for Small Business: Comparing n8n and Zapier on pricing, flexibility, AI capabilities, self-hosting, and automation complexity for small businesses.\n- Guides Hub: Browse all AI automation guides, comparisons, and resources in one place — organized by topic for small service businesses.\n\n### Notes\n- The same additions were applied to both `public/llm.txt` and `public/llms.txt`.\n- Existing entries were preserved. This was a bounded visibility-system update, not a homepage or page-template change.",
+    "formatting": [
+      "bold:Updated"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Kept the existing LLM-summary format: short heading plus one compact descriptive paragraph or bullet."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Front-loaded commercial intent terms like consultant, appointment setter, lead follow-up, Calgary, and n8n vs. Zapier."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Stayed direct and concrete: no hype, no abstract AI language, no enterprise jargon."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Matched the site's usual promise framing: fixed pricing, direct access to the builder, practical systems for small service businesses."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Wrote for retrieval and citation clarity rather than human page-scanning aesthetics."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-20T15:35:42.432Z",
+    "structure": {
+      "paragraphCount": 3,
+      "sentencesPerParagraph": [
+        1,
+        10,
+        3
+      ],
+      "avgSentenceLength": 17,
+      "sentenceLengthRange": [
+        3,
+        33
+      ],
+      "totalWords": 238
+    },
+    "opener": {
+      "type": "general",
+      "text": "Updated the public LLM summary files to add concise crawler-facing entries for core commercial pages that were missing from the site summaries.",
+      "wordCount": 22,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Notes\n- The same additions were applied to both `public/llm.txt` and `public/llms.txt`.\n- Existing entries were preserved. This was a bounded visibility-system update, not a homepage or page-template change.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 16,
+      "commas": 24,
+      "emDashes": 5,
+      "enDashes": 0,
+      "hyphens": 8,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 6,
+      "commasPerSentence": 1.71
+    },
+    "vocabulary": {
+      "distinctWords": 136,
+      "totalWords": 238,
+      "topWords": [
+        [
+          "-",
+          8
+        ],
+        [
+          "ai",
+          8
+        ],
+        [
+          "automation",
+          8
+        ],
+        [
+          "businesses",
+          8
+        ],
+        [
+          "service",
+          6
+        ],
+        [
+          "small",
+          5
+        ],
+        [
+          "lead",
+          5
+        ],
+        [
+          "follow-up",
+          4
+        ],
+        [
+          "crm",
+          4
+        ],
+        [
+          "entries",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "calgary",
+          3
+        ],
+        [
+          "new",
+          2
+        ],
+        [
+          "consultant",
+          2
+        ],
+        [
+          "business",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
