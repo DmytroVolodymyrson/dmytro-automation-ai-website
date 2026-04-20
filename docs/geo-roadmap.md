@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-20 (shipped ai-automation-ecommerce and added it to tracking)
+Last updated: 2026-04-20 (shipped gohighlevel-automation-setup and added it to tracking)
 
 ## Live GEO Assets
 
@@ -24,6 +24,7 @@ Last updated: 2026-04-20 (shipped ai-automation-ecommerce and added it to tracki
 | AI Consultant vs Freelancer | `/ai-automation-consultant-vs-freelancer` | Comparison page | Live |
 | AI Chatbot vs Voice Agent | `/ai-chatbot-vs-ai-voice-agent-for-lead-qualification` | Comparison page | Live |
 | GoHighLevel vs Custom CRM | `/gohighlevel-vs-custom-crm-small-business` | Comparison page | Live |
+| GoHighLevel Automation Setup | `/gohighlevel-automation-setup` | Workflow / service page | Live |
 | AI Consultant Pricing | `/ai-automation-consultant-pricing-small-business` | Decision page | Live |
 | Best AI Automations for Service Businesses | `/best-ai-automation-for-service-businesses` | Decision page | Live |
 | AI Automation for HVAC Companies | `/ai-automation-for-hvac-companies` | Industry page | Live |
@@ -80,7 +81,7 @@ Last updated: 2026-04-20 (shipped ai-automation-ecommerce and added it to tracki
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 61**
+**Total decision/comparison/industry pages live: 62**
 **Total case studies live: 3**
 
 ---
@@ -90,7 +91,7 @@ Last updated: 2026-04-20 (shipped ai-automation-ecommerce and added it to tracki
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
 | 1 | **P1** | AI Voice Agent for Lead Qualification | "voice agent vs human SDR" | Distinct comparison / workflow intent still missing from the live site and endorsed by the original GEO plan | **Planned** |
-| 2 | **P1** | GoHighLevel Automation Setup & Expert Help | "GoHighLevel automation consultant" | Commercial service-intent page that complements the existing GoHighLevel comparison page without duplicating it | **Planned** |
+| 2 | **P1** | GoHighLevel Automation Setup & Expert Help | "GoHighLevel automation consultant" | Commercial service-intent page that complements the existing GoHighLevel comparison page without duplicating it | **Live** |
 | 3 | **P2** | AI Automation for E-Commerce Brands | "AI automation for e-commerce customer service" | Strong fit because the WheelsFeels auto-parts case study gives direct proof for CRM and follow-up automation in e-commerce | **Live** |
 
 ### Priority Definitions

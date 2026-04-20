@@ -18,6 +18,7 @@ import HvacDatabaseReactivation from "./pages/HvacDatabaseReactivation";
 import AiAutomationConsultantVsFreelancer from "./pages/AiAutomationConsultantVsFreelancer";
 import AiChatbotVsAiVoiceAgentForLeadQualification from "./pages/AiChatbotVsAiVoiceAgentForLeadQualification";
 import GoHighLevelVsCustomCrmSmallBusiness from "./pages/GoHighLevelVsCustomCrmSmallBusiness";
+import GoHighLevelAutomationSetup from "./pages/GoHighLevelAutomationSetup";
 import AiAutomationConsultantPricingSmallBusiness from "./pages/AiAutomationConsultantPricingSmallBusiness";
 import BestAiAutomationForServiceBusinesses from "./pages/BestAiAutomationForServiceBusinesses";
 import AiAutomationForHvacCompanies from "./pages/AiAutomationForHvacCompanies";
@@ -106,6 +107,7 @@ export const appRoutes: AppRouteDefinition[] = [
     element: <AiChatbotVsAiVoiceAgentForLeadQualification />,
   },
   { path: "/gohighlevel-vs-custom-crm-small-business", element: <GoHighLevelVsCustomCrmSmallBusiness /> },
+  { path: "/gohighlevel-automation-setup", element: <GoHighLevelAutomationSetup /> },
   {
     path: "/ai-automation-consultant-pricing-small-business",
     element: <AiAutomationConsultantPricingSmallBusiness />,

@@ -267,6 +267,18 @@
       ]
     },
     {
+      "id": "gohighlevel-automation-setup",
+      "path": "/gohighlevel-automation-setup",
+      "label": "GoHighLevel Automation Setup & Expert Help",
+      "prompts": [
+        "GoHighLevel automation consultant",
+        "Who can set up GoHighLevel for a small business?",
+        "GoHighLevel automation setup help",
+        "How much does GoHighLevel setup cost for a service business?",
+        "Should I hire someone to configure GoHighLevel or do it myself?"
+      ]
+    },
+    {
       "id": "vapi-vs-retell-small-business",
       "path": "/vapi-vs-retell-small-business",
       "label": "VAPI vs Retell for Small Business",

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-20-gohighlevel-automation-setup",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-20",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: GoHighLevel Automation Setup & Expert Help for Small Business\nBody: If you are already on GoHighLevel, expert setup usually pays off faster than switching tools. The goal is not just to \"have GHL.\" The goal is to make sure your pipelines, calendars, forms, follow-up automations, and reporting are configured so leads do not leak and your team is not babysitting the CRM every day. If your account is messy, half-built, or full of duplicate automations, this is the kind of setup work worth hiring for.\nSub: Below: what a solid GoHighLevel setup actually includes, what it typically costs, when DIY is fine, and when GHL is the wrong tool for your business.\n\n### Core sections\n- What a solid GoHighLevel setup should include\n- Is GoHighLevel setup help a good fit?\n- DIY GoHighLevel setup vs. expert help\n- When to hire for GoHighLevel setup and when to skip GHL entirely\n- What usually breaks in a messy GoHighLevel account\n- What to watch before you pay for GoHighLevel setup help\n- Relevant proof and adjacent proof\n\n### FAQ\nSubhead: Practical questions from small businesses considering GoHighLevel setup help\n\n### Final CTA\nHeading: Need GoHighLevel set up properly?\nBody: Book a 30-minute call. We will look at your current account or planned workflow, figure out whether GoHighLevel is the right fit, and map out the smallest setup that would create real value first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because backlog review showed it was still planned, still unshipped, and cleaner commercial intent than another lead-qualification page that would overlap heavily with existing voice-agent comparison and phone-answering pages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the existing GoHighLevel vs. custom CRM page plus Paris Cafe and WheelsFeels proof as the closest credible support instead of inventing a fake GHL case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the positioning practical: cleanup, lead routing, booking, follow-up, and ownership — not vague \"CRM transformation\" language."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Built as a single bounded ship with routing, guides, sitemap, llm files, GEO prompts, roadmap reconciliation, and style-learner updates in the same run."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-20T18:22:14.520Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        3,
+        1,
+        3
+      ],
+      "avgSentenceLength": 21,
+      "sentenceLengthRange": [
+        5,
+        41
+      ],
+      "totalWords": 231
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: GoHighLevel Automation Setup & Expert Help for Small Business\nBody: If you are already on GoHighLevel, expert setup usually pays off faster than switching tools.",
+      "wordCount": 26,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need GoHighLevel set up properly?\nBody: Book a 30-minute call. We will look at your current account or planned workflow, figure out whether GoHighLevel is the right fit, and map out the smallest setup that would create real value first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 13,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 7,
+      "commasPerSentence": 1.44
+    },
+    "vocabulary": {
+      "distinctWords": 132,
+      "totalWords": 231,
+      "topWords": [
+        [
+          "gohighlevel",
+          12
+        ],
+        [
+          "setup",
+          11
+        ],
+        [
+          "-",
+          7
+        ],
+        [
+          "help",
+          5
+        ],
+        [
+          "your",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "expert",
+          3
+        ],
+        [
+          "not",
+          3
+        ],
+        [
+          "ghl",
+          3
+        ],
+        [
+          "account",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "small",
+          2
+        ],
+        [
+          "business",
+          2
+        ],
+        [
+          "body",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.004
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

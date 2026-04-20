@@ -146,6 +146,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "GoHighLevel Automation Setup & Expert Help",
+    description:
+      "Practical GoHighLevel setup help for small businesses — pipeline cleanup, calendars, follow-up automations, reporting, pricing, and when GHL is the wrong tool.",
+    href: "/gohighlevel-automation-setup",
+    category: "workflows",
+  },
+  {
     title: "AI Appointment Setter vs. Human Receptionist",
     description:
       "Should you replace your receptionist with an AI appointment setter? Compare cost, availability, caller experience, and booking accuracy for service businesses.",
