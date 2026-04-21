@@ -339,6 +339,18 @@
       ]
     },
     {
+      "id": "ai-appointment-setter-vs-virtual-assistant",
+      "path": "/ai-appointment-setter-vs-virtual-assistant",
+      "label": "AI Appointment Setter vs Virtual Assistant",
+      "prompts": [
+        "AI appointment setter vs virtual assistant",
+        "Should I hire a virtual assistant or use AI for appointment setting?",
+        "AI appointment setter vs human VA for service business",
+        "What is better for lead response AI booking system or virtual assistant?",
+        "When should a business use AI instead of a VA for appointment booking?"
+      ]
+    },
+    {
       "id": "ai-voice-agent-vs-voicemail",
       "path": "/ai-voice-agent-vs-voicemail",
       "label": "AI Voice Agent vs Voicemail",

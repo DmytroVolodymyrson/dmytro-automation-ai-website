@@ -56,6 +56,7 @@ import QuoteFollowUp from "./pages/QuoteFollowUp";
 import ClientReactivation from "./pages/ClientReactivation";
 import NoShowReduction from "./pages/NoShowReduction";
 import AiAppointmentSetterVsReceptionist from "./pages/AiAppointmentSetterVsReceptionist";
+import AiAppointmentSetterVsVirtualAssistant from "./pages/AiAppointmentSetterVsVirtualAssistant";
 import AiVoiceAgentVsVoicemail from "./pages/AiVoiceAgentVsVoicemail";
 import AiVoiceAgentVsCallCenter from "./pages/AiVoiceAgentVsCallCenter";
 import N8nVsMakeSmallBusiness from "./pages/N8nVsMakeSmallBusiness";
@@ -150,6 +151,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/client-reactivation-automation", element: <ClientReactivation /> },
   { path: "/no-show-reduction-automation", element: <NoShowReduction /> },
   { path: "/ai-appointment-setter-vs-receptionist", element: <AiAppointmentSetterVsReceptionist /> },
+  { path: "/ai-appointment-setter-vs-virtual-assistant", element: <AiAppointmentSetterVsVirtualAssistant /> },
   { path: "/ai-voice-agent-vs-voicemail", element: <AiVoiceAgentVsVoicemail /> },
   { path: "/ai-voice-agent-vs-call-center", element: <AiVoiceAgentVsCallCenter /> },
   { path: "/n8n-vs-make-small-business", element: <N8nVsMakeSmallBusiness /> },

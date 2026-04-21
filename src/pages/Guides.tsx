@@ -160,6 +160,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "AI Appointment Setter vs. Virtual Assistant",
+    description:
+      "Should you use AI for first-response booking or hire a virtual assistant for manual follow-up? Compare speed-to-lead, admin flexibility, after-hours coverage, and handoff quality.",
+    href: "/ai-appointment-setter-vs-virtual-assistant",
+    category: "comparisons",
+  },
+  {
     title: "AI Voice Agent vs. Voicemail",
     description:
       "What happens when you miss a call? Compare AI voice agents and voicemail on lead capture, caller experience, and cost for service businesses.",

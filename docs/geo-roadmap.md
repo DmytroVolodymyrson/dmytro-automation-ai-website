@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-21 (shipped ai-lead-follow-up-for-mortgage-brokers and added it to tracking)
+Last updated: 2026-04-21 (shipped ai-appointment-setter-vs-virtual-assistant and added it to tracking)
 
 ## Live GEO Assets
 
@@ -59,6 +59,7 @@ Last updated: 2026-04-21 (shipped ai-lead-follow-up-for-mortgage-brokers and add
 | Client Reactivation Automation | `/client-reactivation-automation` | Workflow page | Live |
 | No-Show Reduction Automation | `/no-show-reduction-automation` | Workflow page | Live |
 | AI Appointment Setter vs. Receptionist | `/ai-appointment-setter-vs-receptionist` | Comparison page | Live |
+| AI Appointment Setter vs. Virtual Assistant | `/ai-appointment-setter-vs-virtual-assistant` | Comparison page | Live |
 | AI Voice Agent vs. Voicemail | `/ai-voice-agent-vs-voicemail` | Comparison page | Live |
 | AI Voice Agent vs. Call Center | `/ai-voice-agent-vs-call-center` | Comparison page | Live |
 | n8n vs. Make (SMB) | `/n8n-vs-make-small-business` | Comparison page | Live |
@@ -84,20 +85,20 @@ Last updated: 2026-04-21 (shipped ai-lead-follow-up-for-mortgage-brokers and add
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 65**
+**Total decision/comparison/industry pages live: 66**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Broader planning docs still contain a very small number of candidates, but the clean backlog is now narrow and should stay proof-backed.
+Broader planning docs are effectively exhausted for clean net-new pages. The safe next move is maintenance and proof-deepening unless a clearly distinct, proof-backed topic appears.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Watch carefully** | AI Appointment Setter vs Human VA | "AI appointment setter vs human VA" | Still present in the broader 2026-03 programmatic plan, but current live comparison coverage already overlaps receptionist / call handling intent. Only ship if the page is framed specifically around offshore/admin VA handoff economics instead of generic front-desk comparison. | **Needs tighter differentiation** |
+| 1 | **Recommended next** | Refresh existing mortgage / lead follow-up cluster before inventing new pages | Improve citation readiness on pages in this cluster | The remaining backlog is thinner than the live set now. Updating internal links, FAQs, proof blocks, and tracking coverage is likely higher leverage than forcing another weak new URL. | **Best next move** |
 | 2 | **Deferred** | AI Automation ROI Calculator | "is AI automation worth it small business" | Present in the oldest GEO plan, but the current pattern matrix explicitly warns against scaling calculator/tool pages without stronger surrounding static content and validation first. | **Deferred** |
-| 3 | **Maintenance bias** | Refresh existing mortgage / lead follow-up cluster before inventing new pages | Improve citation readiness on pages in this cluster | The remaining backlog is thinner than the live set now. Updating internal links, FAQs, proof blocks, and tracking coverage is likely higher leverage than forcing a weak new URL. | **Recommended if no cleaner page emerges** |
+| 3 | **Backlog exhausted** | No additional clean net-new page currently stands out | Reconcile again only after new proof, case studies, or market signal emerges | The appointment-setter-vs-VA page was the last narrow distinct topic still worth shipping from the current plan set. Until new proof appears, maintenance beats multiplying overlapping pages. | **Hold** |
 
 ### Priority Definitions
 
