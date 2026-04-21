@@ -195,6 +195,18 @@
       ]
     },
     {
+      "id": "ai-lead-follow-up-for-mortgage-brokers",
+      "path": "/ai-lead-follow-up-for-mortgage-brokers",
+      "label": "AI Lead Follow-Up for Mortgage Brokers",
+      "prompts": [
+        "AI lead follow-up for mortgage brokers",
+        "How can mortgage brokers automate lead follow-up?",
+        "How do mortgage brokers respond to leads faster?",
+        "Best mortgage lead follow-up automation for brokerages",
+        "Should a mortgage broker automate incomplete application follow-up?"
+      ]
+    },
+    {
       "id": "ai-automation-for-insurance-agencies",
       "path": "/ai-automation-for-insurance-agencies",
       "label": "AI Automation for Insurance Agencies",

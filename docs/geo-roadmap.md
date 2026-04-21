@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-21 (shipped ai-automation-for-auto-parts-ecommerce and added it to tracking)
+Last updated: 2026-04-21 (shipped ai-lead-follow-up-for-mortgage-brokers and added it to tracking)
 
 ## Live GEO Assets
 
@@ -35,6 +35,7 @@ Last updated: 2026-04-21 (shipped ai-automation-for-auto-parts-ecommerce and add
 | AI Consultant Canada | `/ai-automation-consultant-canada` | Geo landing page | Live |
 | AI Automation for Real Estate | `/ai-automation-for-real-estate` | Industry page | Live |
 | AI Automation for Mortgage Brokers | `/ai-automation-for-mortgage-brokers` | Industry page | Live |
+| AI Lead Follow-Up for Mortgage Brokers | `/ai-lead-follow-up-for-mortgage-brokers` | Industry workflow page | Live |
 | AI Automation for Dental Practices | `/ai-automation-for-dental-practices` | Industry page | Live |
 | AI Automation for Law Firms | `/ai-automation-for-law-firms` | Industry page | Live |
 | AI Automation for Accounting Firms | `/ai-automation-for-accounting-firms` | Industry page | Live |
@@ -83,20 +84,20 @@ Last updated: 2026-04-21 (shipped ai-automation-for-auto-parts-ecommerce and add
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 64**
+**Total decision/comparison/industry pages live: 65**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Broader planning docs still contain a small number of candidate pages, but the clean backlog is now narrow and should stay proof-backed.
+Broader planning docs still contain a very small number of candidates, but the clean backlog is now narrow and should stay proof-backed.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | AI Lead Follow-Up for Mortgage Brokers | "how can mortgage brokers automate lead follow-up" | Still distinct from the broader mortgage page if framed tightly around speed-to-lead, nurture, and handoff. Has adjacent proof from existing lead-follow-up systems, but needs careful anti-duplication drafting. | **Candidate** |
+| 1 | **Watch carefully** | AI Appointment Setter vs Human VA | "AI appointment setter vs human VA" | Still present in the broader 2026-03 programmatic plan, but current live comparison coverage already overlaps receptionist / call handling intent. Only ship if the page is framed specifically around offshore/admin VA handoff economics instead of generic front-desk comparison. | **Needs tighter differentiation** |
 | 2 | **Deferred** | AI Automation ROI Calculator | "is AI automation worth it small business" | Present in the oldest GEO plan, but the current pattern matrix explicitly warns against scaling calculator/tool pages without stronger surrounding static content and validation first. | **Deferred** |
-| 3 | **Watch carefully** | AI Appointment Setter vs Human VA | "AI appointment setter vs human VA" | Still planned in the broader 2026-03 programmatic plan, but current live comparison coverage already overlaps receptionist / call handling intent. Only ship if a clearly distinct VA-specific decision framework emerges. | **Needs tighter differentiation** |
+| 3 | **Maintenance bias** | Refresh existing mortgage / lead follow-up cluster before inventing new pages | Improve citation readiness on pages in this cluster | The remaining backlog is thinner than the live set now. Updating internal links, FAQs, proof blocks, and tracking coverage is likely higher leverage than forcing a weak new URL. | **Recommended if no cleaner page emerges** |
 
 ### Priority Definitions
 

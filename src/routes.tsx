@@ -32,6 +32,7 @@ import AiAutomationConsultantAlberta from "./pages/AiAutomationConsultantAlberta
 import AiAutomationConsultantCanada from "./pages/AiAutomationConsultantCanada";
 import AiAutomationForRealEstate from "./pages/AiAutomationForRealEstate";
 import AiAutomationForMortgageBrokers from "./pages/AiAutomationForMortgageBrokers";
+import AiLeadFollowUpForMortgageBrokers from "./pages/AiLeadFollowUpForMortgageBrokers";
 import AiAutomationForDentalPractices from "./pages/AiAutomationForDentalPractices";
 import AiAutomationForLawFirms from "./pages/AiAutomationForLawFirms";
 import AiAutomationForAccountingFirms from "./pages/AiAutomationForAccountingFirms";
@@ -125,6 +126,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-consultant-canada", element: <AiAutomationConsultantCanada /> },
   { path: "/ai-automation-for-real-estate", element: <AiAutomationForRealEstate /> },
   { path: "/ai-automation-for-mortgage-brokers", element: <AiAutomationForMortgageBrokers /> },
+  { path: "/ai-lead-follow-up-for-mortgage-brokers", element: <AiLeadFollowUpForMortgageBrokers /> },
   { path: "/ai-automation-for-dental-practices", element: <AiAutomationForDentalPractices /> },
   { path: "/ai-automation-for-law-firms", element: <AiAutomationForLawFirms /> },
   { path: "/ai-automation-for-accounting-firms", element: <AiAutomationForAccountingFirms /> },

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-21-ai-lead-follow-up-for-mortgage-brokers",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-21",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Lead Follow-Up for Mortgage Brokers\nBody: Mortgage lead follow-up is mostly a speed problem. A prospect asking about rates or pre-approval rarely waits around for one broker to call back. If your first response happens two hours later, the lead has probably already spoken to someone else. AI lead follow-up fixes that by responding immediately, nurturing incomplete applications automatically, and handing qualified conversations to your team with context.\nSub: Below: what mortgage lead follow-up automation actually handles, where it improves conversion first, and when a brokerage should keep parts of the process manual.\n\n### Core sections\n- What AI lead follow-up can handle for a mortgage brokerage\n- Manual mortgage follow-up vs. automated mortgage follow-up\n- Good fit vs. not the right fit\n- What matters specifically in mortgage lead follow-up\n- Relevant proof from similar automation builds\n\n### FAQ\nSubhead: Practical questions from mortgage brokers considering automated follow-up\n- Will this work with my mortgage CRM or LOS?\n- Can AI follow up without sounding robotic or spammy?\n- Does this replace my team?\n- How long does a mortgage lead follow-up system take to launch?\n- What does this usually cost?\n\n### Final CTA\nHeading: Want faster response without more admin overhead?\nBody: Book a 30-minute call. We will look at your lead flow, current follow-up process, and where applications are stalling, then map out the best workflow to automate first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because it was the clearest remaining planned-but-unshipped page in the roadmap: distinct buyer intent, direct overlap with existing mortgage + lead-follow-up proof, and less cannibalizing than the remaining VA comparison idea."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Framed narrowly around speed-to-lead, nurture, document reminders, and broker handoff so it complements the broader /ai-automation-for-mortgage-brokers page instead of rewriting it."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept claims bounded to adjacent proof: CRM cleanup, immediate inquiry capture, automated qualification, and structured follow-up."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype, with explicit limits around compliance-sensitive advice and where humans still need to stay in the loop."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-21T12:21:19.237Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        3,
+        5,
+        3
+      ],
+      "avgSentenceLength": 14.6,
+      "sentenceLengthRange": [
+        5,
+        25
+      ],
+      "totalWords": 233
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Lead Follow-Up for Mortgage Brokers\nBody: Mortgage lead follow-up is mostly a speed problem.",
+      "wordCount": 17,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want faster response without more admin overhead?\nBody: Book a 30-minute call. We will look at your lead flow, current follow-up process, and where applications are stalling, then map out the best workflow to automate first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 8,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 10,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 0.53
+    },
+    "vocabulary": {
+      "distinctWords": 144,
+      "totalWords": 233,
+      "topWords": [
+        [
+          "follow-up",
+          11
+        ],
+        [
+          "mortgage",
+          10
+        ],
+        [
+          "-",
+          10
+        ],
+        [
+          "lead",
+          9
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "your",
+          3
+        ],
+        [
+          "first",
+          3
+        ],
+        [
+          "this",
+          3
+        ],
+        [
+          "does",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "brokers",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "call",
+          2
+        ],
+        [
+          "response",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.004
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

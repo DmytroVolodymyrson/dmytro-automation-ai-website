@@ -33,6 +33,7 @@ const AiAutomationConsultantAlberta = lazy(() => import("./pages/AiAutomationCon
 const AiAutomationConsultantCanada = lazy(() => import("./pages/AiAutomationConsultantCanada"));
 const AiAutomationForRealEstate = lazy(() => import("./pages/AiAutomationForRealEstate"));
 const AiAutomationForMortgageBrokers = lazy(() => import("./pages/AiAutomationForMortgageBrokers"));
+const AiLeadFollowUpForMortgageBrokers = lazy(() => import("./pages/AiLeadFollowUpForMortgageBrokers"));
 const AiAutomationForDentalPractices = lazy(() => import("./pages/AiAutomationForDentalPractices"));
 const AiAutomationForLawFirms = lazy(() => import("./pages/AiAutomationForLawFirms"));
 const AiAutomationForAccountingFirms = lazy(() => import("./pages/AiAutomationForAccountingFirms"));
@@ -112,6 +113,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-automation-consultant-canada" element={<AiAutomationConsultantCanada />} />
       <Route path="/ai-automation-for-real-estate" element={<AiAutomationForRealEstate />} />
       <Route path="/ai-automation-for-mortgage-brokers" element={<AiAutomationForMortgageBrokers />} />
+      <Route path="/ai-lead-follow-up-for-mortgage-brokers" element={<AiLeadFollowUpForMortgageBrokers />} />
       <Route path="/ai-automation-for-dental-practices" element={<AiAutomationForDentalPractices />} />
       <Route path="/ai-automation-for-law-firms" element={<AiAutomationForLawFirms />} />
       <Route path="/ai-automation-for-accounting-firms" element={<AiAutomationForAccountingFirms />} />

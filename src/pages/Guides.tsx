@@ -379,6 +379,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Lead Follow-Up for Mortgage Brokers",
+    description:
+      "Mortgage speed-to-lead automation for brokers. Instant response, incomplete application nurture, document reminders, and broker handoff without manual chasing.",
+    href: "/ai-lead-follow-up-for-mortgage-brokers",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Dental Practices",
     description:
       "AI automation for dental practices. Patient booking, recall campaigns, appointment reminders, intake forms, and no-show follow-up.",
