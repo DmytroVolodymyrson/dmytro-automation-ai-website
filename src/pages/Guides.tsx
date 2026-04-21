@@ -484,6 +484,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Fitment Inquiry Automation for Auto Parts E-Commerce",
+    description:
+      "A narrower auto-parts workflow page focused on fitment inquiry intake, vehicle-detail capture, routing, high-intent alerts, and the human handoff points that should not be automated away.",
+    href: "/fitment-inquiry-automation-for-auto-parts-ecommerce",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Chiropractors",
     description:
       "AI automation for chiropractors. New patient intake, appointment scheduling, recall campaigns, no-show reduction, and review automation.",

@@ -48,6 +48,7 @@ import AiAutomationForInsuranceAgencies from "./pages/AiAutomationForInsuranceAg
 import AiAutomationForPropertyManagement from "./pages/AiAutomationForPropertyManagement";
 import AiAutomationEcommerce from "./pages/AiAutomationEcommerce";
 import AiAutomationForAutoPartsEcommerce from "./pages/AiAutomationForAutoPartsEcommerce";
+import FitmentInquiryAutomationForAutoPartsEcommerce from "./pages/FitmentInquiryAutomationForAutoPartsEcommerce";
 import AfterHoursLeadCapture from "./pages/AfterHoursLeadCapture";
 import MissedCallFollowUp from "./pages/MissedCallFollowUp";
 import BookingConfirmationAndReminder from "./pages/BookingConfirmationAndReminder";
@@ -147,6 +148,10 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-for-property-management", element: <AiAutomationForPropertyManagement /> },
   { path: "/ai-automation-ecommerce", element: <AiAutomationEcommerce /> },
   { path: "/ai-automation-for-auto-parts-ecommerce", element: <AiAutomationForAutoPartsEcommerce /> },
+  {
+    path: "/fitment-inquiry-automation-for-auto-parts-ecommerce",
+    element: <FitmentInquiryAutomationForAutoPartsEcommerce />,
+  },
   { path: "/after-hours-lead-capture-for-service-businesses", element: <AfterHoursLeadCapture /> },
   { path: "/missed-call-follow-up-automation", element: <MissedCallFollowUp /> },
   { path: "/booking-confirmation-and-reminder-automation", element: <BookingConfirmationAndReminder /> },

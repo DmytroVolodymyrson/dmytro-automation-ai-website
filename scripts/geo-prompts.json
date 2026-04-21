@@ -273,6 +273,18 @@
       ]
     },
     {
+      "id": "fitment-inquiry-automation-for-auto-parts-ecommerce",
+      "path": "/fitment-inquiry-automation-for-auto-parts-ecommerce",
+      "label": "Fitment Inquiry Automation for Auto Parts E-Commerce",
+      "prompts": [
+        "How do I automate fitment inquiries for an auto parts store?",
+        "Fitment inquiry automation for auto parts e-commerce",
+        "Best workflow for auto parts compatibility questions",
+        "How should an auto parts brand handle vehicle fitment inquiries faster?",
+        "Can I automate routing and follow-up for auto parts fitment questions?"
+      ]
+    },
+    {
       "id": "instant-lead-response-automation",
       "path": "/instant-lead-response-automation",
       "label": "Instant Lead Response Automation",

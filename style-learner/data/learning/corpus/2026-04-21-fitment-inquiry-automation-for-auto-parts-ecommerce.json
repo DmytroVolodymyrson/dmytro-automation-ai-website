@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-21-fitment-inquiry-automation-for-auto-parts-ecommerce",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-21",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: Fitment Inquiry Automation for Auto Parts E-Commerce\nBody: If your auto parts store gets compatibility questions by email, form, chat, or phone, fitment handling is usually one of the first places automation pays for itself. The problem is not just reply speed. It is intake quality, routing, visibility, and follow-up. Vehicle details arrive incomplete, the same customer asks in multiple places, urgent buyers sit beside low-priority support tickets, and the team loses time figuring out what needs a human answer now versus what should trigger the next step automatically. A focused fitment inquiry workflow fixes that operational gap without pretending technical judgment should be automated away.\nSub: Below: what a fitment automation system should actually do, where the ROI shows up first, what must stay human, and how to use adjacent proof honestly when your published case study is an auto-parts CRM build rather than a dedicated fitment-only project.\n\n### Core sections\n- What fitment inquiry automation should handle\n- Manual fitment handling vs. automated fitment handling\n- Good fit vs. not the right fit\n- Important guardrails for fitment workflows\n- How a fitment inquiry workflow usually works\n- Proof framing from the WheelsFeels auto-parts CRM case study plus the broader auto-parts page\n\n### FAQ\nSubhead: Practical questions from auto parts operators considering fitment workflow automation\n- Can automation answer fitment questions by itself?\n- What is the best first step to automate?\n- Does this need a custom CRM?\n- What does a focused fitment workflow usually cost?\n- How is this different from the broader auto parts automation page?\n\n### Final CTA\nHeading: Want fitment questions to stop getting buried in inbox noise?\nBody: Book a 30-minute call. We will look at how compatibility questions arrive today, where context gets lost, and whether a focused routing + follow-up workflow would recover enough speed and revenue to justify building first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because docs and current repo state showed it was the cleanest remaining planned-but-unshipped child page with direct proof fit."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the angle narrower than the existing /ai-automation-for-auto-parts-ecommerce page to avoid turning this into a generic rewrite."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses honest operational framing: automate intake, routing, alerts, and follow-up — not final technical judgment."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Grounds the page in the published auto-parts CRM case study without falsely claiming a dedicated fitment-only case study already exists."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and commercially direct, with explicit bad-fit criteria and no hype."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-21T22:22:36.771Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        3,
+        5,
+        3
+      ],
+      "avgSentenceLength": 18.2,
+      "sentenceLengthRange": [
+        5,
+        43
+      ],
+      "totalWords": 310
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Fitment Inquiry Automation for Auto Parts E-Commerce\nBody: If your auto parts store gets compatibility questions by email, form, chat, or phone, fitment handling is usually one of the first places automation pays for itself.",
+      "wordCount": 37,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want fitment questions to stop getting buried in inbox noise?\nBody: Book a 30-minute call. We will look at how compatibility questions arrive today, where context gets lost, and whether a focused routing + follow-up workflow would recover enough speed and revenue to justify building first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 15,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 0.94
+    },
+    "vocabulary": {
+      "distinctWords": 178,
+      "totalWords": 310,
+      "topWords": [
+        [
+          "fitment",
+          13
+        ],
+        [
+          "-",
+          11
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "questions",
+          5
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "inquiry",
+          4
+        ],
+        [
+          "auto",
+          4
+        ],
+        [
+          "parts",
+          4
+        ],
+        [
+          "first",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "handling",
+          3
+        ],
+        [
+          "usually",
+          3
+        ],
+        [
+          "focused",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
