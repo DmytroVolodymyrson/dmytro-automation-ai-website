@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-21 (shipped ai-appointment-setter-for-home-service-businesses and added it to tracking)
+Last updated: 2026-04-21 (shipped retell-vs-bland-small-business and added it to tracking)
 
 ## Live GEO Assets
 
@@ -67,6 +67,7 @@ Last updated: 2026-04-21 (shipped ai-appointment-setter-for-home-service-busines
 | n8n vs. Make (SMB) | `/n8n-vs-make-small-business` | Comparison page | Live |
 | Build vs. Buy AI Automation | `/build-vs-buy-ai-automation` | Comparison page | Live |
 | VAPI vs. Retell (SMB) | `/vapi-vs-retell-small-business` | Comparison page | Live |
+| Retell vs. Bland AI (SMB) | `/retell-vs-bland-small-business` | Comparison page | Live |
 | AI Automation for Chiropractors | `/ai-automation-for-chiropractors` | Industry page | Live |
 | AI Automation for Cleaning Companies | `/ai-automation-for-cleaning-companies` | Industry page | Live |
 | AI Automation for Med Spas | `/ai-automation-for-med-spas` | Industry page | Live |
@@ -87,20 +88,20 @@ Last updated: 2026-04-21 (shipped ai-appointment-setter-for-home-service-busines
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 68**
+**Total decision/comparison/industry pages live: 69**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-After shipping the last distinct home-services appointment-setter page from the broader GEO backlog, the clean new-URL queue is effectively exhausted again. The next move should be selective: improve pages closest to revenue unless a new case study creates a defensible fresh page.
+After shipping the remaining distinct tool-comparison query from the older GEO backlog (Retell vs Bland), the clean new-URL queue is effectively exhausted again. The next move should be selective: improve pages closest to revenue unless a new case study creates a defensible fresh page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
 | 1 | **Recommended next** | Refresh existing mortgage / lead follow-up cluster before inventing weaker pages | Improve citation readiness on pages already closest to revenue | The remaining planned backlog is now thinner than the live set. Tightening internal links, proof framing, FAQs, and tracking coverage on the mortgage / lead-follow-up cluster is higher confidence than forcing another borderline new page. | **Best next move** |
-| 2 | **Watch list** | AI Automation ROI Calculator | "is AI automation worth it small business" | Still exists in the oldest GEO plan, but the pattern matrix continues to warn against thin calculator/tool pages without stronger surrounding static content and validation first. | **Deferred unless supported by stronger static content** |
-| 3 | **Backlog note** | No other strong planned page currently survives the distinct-intent + proof check | — | GEO-PLAN.md and geo-plan-2026-03.md were rechecked. GoHighLevel help, e-commerce CRM automation, and the home-services appointment-setter angle are already represented live. Do not invent filler pages unless new proof opens a clearer gap. | **Reassess after new proof** |
+| 2 | **Watch list** | AI Automation ROI Calculator | "is AI automation worth it small business" | Still exists in the oldest GEO plan, but the pattern matrix continues to warn against thin calculator/tool pages without stronger surrounding static content and validation first. Existing ROI and cost guides already cover most of the intent. | **Deferred unless supported by stronger static content** |
+| 3 | **Backlog note** | No other strong planned page currently survives the distinct-intent + proof check | — | GEO-PLAN.md, geo-plan-2026-03.md, the pattern matrix, tracking prompts, and current live routes were rechecked. Retell vs Bland was the last clean planned comparison still missing. Do not invent filler pages unless new proof opens a clearer gap. | **Reassess after new proof** |
 
 ### Priority Definitions
 

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-21-retell-vs-bland-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-21",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: Retell vs Bland AI for Small Business Voice Agents\nBody: If you want a polished inbound AI receptionist or booking agent fast, Retell is usually the safer choice. If you want high-volume outbound calling, heavier API control, and campaign-style automation, Bland is often the stronger fit. Both can power serious voice systems, but they are optimized for different operating models.\nSub: Below: where each platform fits best, how the tradeoffs show up in setup and operations, and what matters more than the software choice once the calls go live.\n\n### Core sections\n- Two voice AI platforms with different strengths\n- Side-by-side comparison\n- When each platform wins\n- What matters more than the platform choice\n- Proof and adjacent proof for this decision\n\n### FAQ\nSubhead: Practical questions from small businesses comparing voice agent platforms\n- Is Retell better for inbound calls and Bland better for outbound calls?\n- Which one is easier for a small business to launch?\n- Can either platform connect to n8n, a CRM, and calendar booking?\n- Should I choose based mostly on price per minute?\n- What if I am still not sure which platform fits my business?\n\n### Final CTA\nHeading: Need help choosing the right voice AI stack?\nBody: Book a 30-minute call. We will map your inbound and outbound call workflows, CRM handoffs, and booking logic, then recommend the architecture that actually fits your business instead of forcing the wrong platform into the wrong job.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen from the broader GEO backlog after rechecking GEO-PLAN.md, geo-plan-2026-03.md, the pattern matrix, tracking prompts, and live routes. \"Retell AI vs Bland AI for business\" was the last explicit tool-comparison query still planned but unshipped."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the angle distinct from the existing VAPI vs Retell page by focusing on Retell vs Bland as an inbound-vs-outbound and launch-model decision, not a generic voice-platform roundup."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used practical framing instead of hype: receptionist-style inbound handling, outbound campaign workflows, CRM orchestration, and system-fit tradeoffs."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoided fake client proof or invented vendor claims. Grounded the page in adjacent production proof from the Paris Cafe voice agent and the auto-parts CRM automation case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-21T20:21:33.147Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 18.8,
+      "sentenceLengthRange": [
+        5,
+        34
+      ],
+      "totalWords": 244
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Retell vs Bland AI for Small Business Voice Agents\nBody: If you want a polished inbound AI receptionist or booking agent fast, Retell is usually the safer choice.",
+      "wordCount": 30,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help choosing the right voice AI stack?\nBody: Book a 30-minute call. We will map your inbound and outbound call workflows, CRM handoffs, and booking logic, then recommend the architecture that actually fits your business instead of forcing the wrong platform into the wrong job.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 6,
+      "commas": 12,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 10,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 150,
+      "totalWords": 244,
+      "topWords": [
+        [
+          "-",
+          10
+        ],
+        [
+          "platform",
+          6
+        ],
+        [
+          "voice",
+          5
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "business",
+          4
+        ],
+        [
+          "retell",
+          3
+        ],
+        [
+          "bland",
+          3
+        ],
+        [
+          "small",
+          3
+        ],
+        [
+          "if",
+          3
+        ],
+        [
+          "inbound",
+          3
+        ],
+        [
+          "booking",
+          3
+        ],
+        [
+          "choice",
+          3
+        ],
+        [
+          "outbound",
+          3
+        ],
+        [
+          "fits",
+          3
+        ],
+        [
+          "what",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.004
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

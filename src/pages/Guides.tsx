@@ -209,6 +209,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "Retell vs. Bland AI for Small Business Voice Agents",
+    description:
+      "Comparing Retell and Bland AI for small business voice agents. Which is the better fit for inbound phone answering, outbound campaigns, CRM-driven call workflows, and a faster launch.",
+    href: "/retell-vs-bland-small-business",
+    category: "comparisons",
+  },
+  {
     title: "AI Appointment Setter for Service Businesses",
     description:
       "What an AI appointment setter does, where it helps most, and how to decide if it is the right move for your business.",

@@ -65,6 +65,7 @@ const AiVoiceAgentVsHumanAppointmentSetter = lazy(() => import("./pages/AiVoiceA
 const N8nVsMakeSmallBusiness = lazy(() => import("./pages/N8nVsMakeSmallBusiness"));
 const BuildVsBuyAiAutomation = lazy(() => import("./pages/BuildVsBuyAiAutomation"));
 const VapiVsRetellSmallBusiness = lazy(() => import("./pages/VapiVsRetellSmallBusiness"));
+const RetellVsBlandSmallBusiness = lazy(() => import("./pages/RetellVsBlandSmallBusiness"));
 const AiAutomationForChiropractors = lazy(() => import("./pages/AiAutomationForChiropractors"));
 const AiAutomationForCleaningCompanies = lazy(() => import("./pages/AiAutomationForCleaningCompanies"));
 const AiAutomationForMedSpas = lazy(() => import("./pages/AiAutomationForMedSpas"));
@@ -148,6 +149,7 @@ const AppRoutesClient = () => (
       <Route path="/n8n-vs-make-small-business" element={<N8nVsMakeSmallBusiness />} />
       <Route path="/build-vs-buy-ai-automation" element={<BuildVsBuyAiAutomation />} />
       <Route path="/vapi-vs-retell-small-business" element={<VapiVsRetellSmallBusiness />} />
+      <Route path="/retell-vs-bland-small-business" element={<RetellVsBlandSmallBusiness />} />
       <Route path="/ai-automation-for-chiropractors" element={<AiAutomationForChiropractors />} />
       <Route path="/ai-automation-for-cleaning-companies" element={<AiAutomationForCleaningCompanies />} />
       <Route path="/ai-automation-for-med-spas" element={<AiAutomationForMedSpas />} />

@@ -64,6 +64,7 @@ import AiVoiceAgentVsHumanAppointmentSetter from "./pages/AiVoiceAgentVsHumanApp
 import N8nVsMakeSmallBusiness from "./pages/N8nVsMakeSmallBusiness";
 import BuildVsBuyAiAutomation from "./pages/BuildVsBuyAiAutomation";
 import VapiVsRetellSmallBusiness from "./pages/VapiVsRetellSmallBusiness";
+import RetellVsBlandSmallBusiness from "./pages/RetellVsBlandSmallBusiness";
 import AiAutomationForChiropractors from "./pages/AiAutomationForChiropractors";
 import AiAutomationForCleaningCompanies from "./pages/AiAutomationForCleaningCompanies";
 import AiAutomationForMedSpas from "./pages/AiAutomationForMedSpas";
@@ -161,6 +162,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/n8n-vs-make-small-business", element: <N8nVsMakeSmallBusiness /> },
   { path: "/build-vs-buy-ai-automation", element: <BuildVsBuyAiAutomation /> },
   { path: "/vapi-vs-retell-small-business", element: <VapiVsRetellSmallBusiness /> },
+  { path: "/retell-vs-bland-small-business", element: <RetellVsBlandSmallBusiness /> },
   { path: "/ai-automation-for-chiropractors", element: <AiAutomationForChiropractors /> },
   { path: "/ai-automation-for-cleaning-companies", element: <AiAutomationForCleaningCompanies /> },
   { path: "/ai-automation-for-med-spas", element: <AiAutomationForMedSpas /> },

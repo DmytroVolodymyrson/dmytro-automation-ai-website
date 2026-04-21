@@ -333,6 +333,18 @@
       ]
     },
     {
+      "id": "retell-vs-bland-small-business",
+      "path": "/retell-vs-bland-small-business",
+      "label": "Retell vs Bland AI for Small Business",
+      "prompts": [
+        "Retell vs Bland AI for small business",
+        "Which voice AI platform is better Retell or Bland for a small business?",
+        "Retell vs Bland for inbound phone answering",
+        "Retell vs Bland for outbound AI calling campaigns",
+        "Should I use Retell or Bland for an AI voice agent?"
+      ]
+    },
+    {
       "id": "ai-appointment-setter-vs-receptionist",
       "path": "/ai-appointment-setter-vs-receptionist",
       "label": "AI Appointment Setter vs Receptionist",
