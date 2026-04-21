@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-21-mortgage-lead-follow-up-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-21",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Lead Follow-Up for Mortgage Brokers\nBody: A mortgage lead from Zillow, LendingTree, or a paid ad costs $30 to $100+. If the first response takes two hours, that money is already working for a faster broker. Most brokerages lose deals not because their rates are worse, but because someone else picked up the phone first. AI lead follow-up responds in under 60 seconds, nurtures incomplete applications automatically, and hands qualified conversations to your team with context — so more of the leads you already pay for turn into funded files.\nSub: Below: what mortgage lead follow-up automation actually handles, where it improves conversion first, what the workflow looks like in practice, and when a brokerage should keep parts of the process manual.\n\n### Added section\nHeading: How mortgage lead follow-up automation works in practice\nBody summary:\n- Lead comes in from any source\n- First response goes out in under 60 seconds\n- Non-responders enter a structured nurture sequence\n- Warm reply triggers broker handoff\n\n### Proof framing\nBody: We have not published a mortgage-specific case study yet, but these builds use the exact same speed-to-lead, automated nurture, CRM structuring, and qualification patterns that mortgage follow-up depends on.\n\n### FAQ additions\n- What happens to leads that come in after hours or on weekends?\n- Can the follow-up differ based on lead source?\n- What kind of improvement should I expect?\n\n### Related-link update\n- /ai-lead-follow-up-for-mortgage-brokers now links to /instant-lead-response-automation and /lead-follow-up-automation-examples\n- /ai-automation-for-mortgage-brokers now links directly to /ai-lead-follow-up-for-mortgage-brokers",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Commercial opening leads with paid-lead economics and speed-to-lead stakes."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps tone direct and practical; avoids hype and generic AI claims."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Adds explicit proof framing to acknowledge no mortgage-specific case study yet without weakening trust."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Improves internal-link coherence inside the mortgage / lead-response cluster."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-21T15:38:12.756Z",
+    "structure": {
+      "paragraphCount": 5,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        1,
+        3,
+        1
+      ],
+      "avgSentenceLength": 22.5,
+      "sentenceLengthRange": [
+        8,
+        42
+      ],
+      "totalWords": 247
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Lead Follow-Up for Mortgage Brokers\nBody: A mortgage lead from Zillow, LendingTree, or a paid ad costs $30 to $100+.",
+      "wordCount": 23,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Related-link update\n- /ai-lead-follow-up-for-mortgage-brokers now links to /instant-lead-response-automation and /lead-follow-up-automation-examples\n- /ai-automation-for-mortgage-brokers now links directly to /ai-lead-follow-up-for-mortgage-brokers",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 6,
+      "commas": 13,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 9,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 3,
+      "colon": 7,
+      "commasPerSentence": 1.3
+    },
+    "vocabulary": {
+      "distinctWords": 162,
+      "totalWords": 247,
+      "topWords": [
+        [
+          "-",
+          9
+        ],
+        [
+          "lead",
+          7
+        ],
+        [
+          "follow-up",
+          6
+        ],
+        [
+          "mortgage",
+          5
+        ],
+        [
+          "first",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "body",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "60",
+          2
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "ai",
+          2
+        ],
+        [
+          "from",
+          2
+        ],
+        [
+          "response",
+          2
+        ],
+        [
+          "hours",
+          2
+        ],
+        [
+          "already",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

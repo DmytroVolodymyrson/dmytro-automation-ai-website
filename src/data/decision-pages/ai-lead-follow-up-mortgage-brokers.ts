@@ -24,9 +24,9 @@ const data: DecisionPageData = {
   badgeIcon: Landmark,
   h1: "AI Lead Follow-Up for Mortgage Brokers",
   heroIntro:
-    "Mortgage lead follow-up is mostly a speed problem. A prospect asking about rates or pre-approval rarely waits around for one broker to call back. If your first response happens two hours later, the lead has probably already spoken to someone else. AI lead follow-up fixes that by responding immediately, nurturing incomplete applications automatically, and handing qualified conversations to your team with context.",
+    "A mortgage lead from Zillow, LendingTree, or a paid ad costs $30 to $100+. If the first response takes two hours, that money is already working for a faster broker. Most brokerages lose deals not because their rates are worse, but because someone else picked up the phone first. AI lead follow-up responds in under 60 seconds, nurtures incomplete applications automatically, and hands qualified conversations to your team with context — so more of the leads you already pay for turn into funded files.",
   heroSubtext:
-    "Below: what mortgage lead follow-up automation actually handles, where it improves conversion first, and when a brokerage should keep parts of the process manual.",
+    "Below: what mortgage lead follow-up automation actually handles, where it improves conversion first, what the workflow looks like in practice, and when a brokerage should keep parts of the process manual.",
   sections: [
     {
       type: "cards",
@@ -172,10 +172,34 @@ const data: DecisionPageData = {
       ],
     },
     {
+      type: "prose",
+      title: "How mortgage lead follow-up automation works in practice",
+      subtitle:
+        "The workflow is not complicated, but the details matter. Here is what a typical automated follow-up path looks like from inquiry to booked consultation:",
+      blocks: [
+        {
+          heading: "Lead comes in from any source",
+          body: "A prospect submits a form on your site, clicks a rate ad, arrives through LendingTree or Zillow, or gets referred by a realtor. The system picks up the lead immediately regardless of source, time of day, or whether your team is available.",
+        },
+        {
+          heading: "First response goes out in under 60 seconds",
+          body: "The lead gets a personalized text and email acknowledging their inquiry and offering a clear next step — usually a link to book a pre-approval call or a simple qualifying question. This is the single highest-leverage moment in the funnel. Industry data consistently shows that responding within the first minute dramatically increases contact rates compared to even a 10-minute delay.",
+        },
+        {
+          heading: "Non-responders enter a structured nurture sequence",
+          body: "If the lead does not reply or book, they get a multi-touch follow-up over the next 24 to 72 hours. Each touchpoint adds value — rate context, a quick pre-qualification question, or a reminder that the consultation is free. The sequence stops automatically when the lead responds or books.",
+        },
+        {
+          heading: "Warm reply triggers broker handoff",
+          body: "When a lead replies with genuine interest, the system notifies the assigned broker with the full conversation history, lead source, and any qualifying details collected. The broker picks up a warm conversation, not a cold dial.",
+        },
+      ],
+    },
+    {
       type: "case-studies",
       title: "Relevant proof from similar automation builds",
       subtitle:
-        "These projects show the same response-time, follow-up, CRM, and qualification patterns that matter in mortgage lead handling:",
+        "We have not published a mortgage-specific case study yet, but these builds use the exact same speed-to-lead, automated nurture, CRM structuring, and qualification patterns that mortgage follow-up depends on:",
       studies: [
         {
           industry: "E-Commerce CRM",
@@ -225,6 +249,21 @@ const data: DecisionPageData = {
       answer:
         "A focused lead follow-up build usually lands around $2K to $4K. A broader mortgage ops system with document reminders, CRM automation, and multiple sequences usually lands around $4K to $6K, scoped upfront.",
     },
+    {
+      question: "What happens to leads that come in after hours or on weekends?",
+      answer:
+        "They get the same instant response as any other lead. The system runs 24/7, so a Friday-night rate inquiry gets acknowledged in under 60 seconds and enters the nurture sequence immediately instead of sitting until Monday morning.",
+    },
+    {
+      question: "Can the follow-up differ based on lead source?",
+      answer:
+        "Yes. A Zillow lead, a referral from a realtor partner, and someone who clicked a pre-approval ad are at different stages and need different messaging. The automation routes each source into the right sequence with the right tone and next step.",
+    },
+    {
+      question: "What kind of improvement should I expect?",
+      answer:
+        "The biggest shift is contact rate. Most brokerages that move from inconsistent manual follow-up to sub-60-second automated response see a meaningful lift in the percentage of leads that actually become conversations. The exact number depends on your current response time, lead volume, and how many leads currently go untouched.",
+    },
   ],
   faqSubtitle:
     "Practical questions from mortgage brokers considering automated follow-up",
@@ -235,7 +274,8 @@ const data: DecisionPageData = {
     "No generic audit. No obligation. Just a focused conversation about your brokerage's conversion bottlenecks.",
   relatedLinks: [
     { label: "AI automation for mortgage brokers", href: "/ai-automation-for-mortgage-brokers" },
-    { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
+    { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
+    { label: "Lead follow-up automation examples", href: "/lead-follow-up-automation-examples" },
     { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
     { label: "All guides", href: "/guides" },
   ],
