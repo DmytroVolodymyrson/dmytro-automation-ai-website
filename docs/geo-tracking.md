@@ -23,6 +23,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - `/ai-appointment-setter-vs-virtual-assistant`
 - `/ai-voice-agent-vs-voicemail`
 - `/ai-voice-agent-vs-call-center`
+- `/ai-voice-agent-vs-human-appointment-setter`
 - `/n8n-vs-make-small-business`
 
 - `/ai-automation-for-businesses-without-a-tech-team`

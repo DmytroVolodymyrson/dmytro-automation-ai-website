@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-21 (shipped ai-appointment-setter-vs-virtual-assistant and added it to tracking)
+Last updated: 2026-04-21 (shipped ai-voice-agent-vs-human-appointment-setter and added it to tracking)
 
 ## Live GEO Assets
 
@@ -62,6 +62,7 @@ Last updated: 2026-04-21 (shipped ai-appointment-setter-vs-virtual-assistant and
 | AI Appointment Setter vs. Virtual Assistant | `/ai-appointment-setter-vs-virtual-assistant` | Comparison page | Live |
 | AI Voice Agent vs. Voicemail | `/ai-voice-agent-vs-voicemail` | Comparison page | Live |
 | AI Voice Agent vs. Call Center | `/ai-voice-agent-vs-call-center` | Comparison page | Live |
+| AI Voice Agent vs. Human Appointment Setter | `/ai-voice-agent-vs-human-appointment-setter` | Comparison page | Live |
 | n8n vs. Make (SMB) | `/n8n-vs-make-small-business` | Comparison page | Live |
 | Build vs. Buy AI Automation | `/build-vs-buy-ai-automation` | Comparison page | Live |
 | VAPI vs. Retell (SMB) | `/vapi-vs-retell-small-business` | Comparison page | Live |
@@ -85,20 +86,20 @@ Last updated: 2026-04-21 (shipped ai-appointment-setter-vs-virtual-assistant and
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 66**
+**Total decision/comparison/industry pages live: 67**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Broader planning docs are effectively exhausted for clean net-new pages. The safe next move is maintenance and proof-deepening unless a clearly distinct, proof-backed topic appears.
+Broader planning docs are thin but not fully exhausted. The older GEO plan still contained one distinct comparison page worth recovering, and it is now live. The next move should stay selective: ship only pages with a clearly different decision frame or direct proof support.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Recommended next** | Refresh existing mortgage / lead follow-up cluster before inventing new pages | Improve citation readiness on pages in this cluster | The remaining backlog is thinner than the live set now. Updating internal links, FAQs, proof blocks, and tracking coverage is likely higher leverage than forcing another weak new URL. | **Best next move** |
-| 2 | **Deferred** | AI Automation ROI Calculator | "is AI automation worth it small business" | Present in the oldest GEO plan, but the current pattern matrix explicitly warns against scaling calculator/tool pages without stronger surrounding static content and validation first. | **Deferred** |
-| 3 | **Backlog exhausted** | No additional clean net-new page currently stands out | Reconcile again only after new proof, case studies, or market signal emerges | The appointment-setter-vs-VA page was the last narrow distinct topic still worth shipping from the current plan set. Until new proof appears, maintenance beats multiplying overlapping pages. | **Hold** |
+| 1 | **Recommended next** | Refresh existing mortgage / lead follow-up cluster before inventing weaker pages | Improve citation readiness on pages already closest to revenue | The remaining backlog is thinner than the live set now. Updating internal links, FAQs, proof blocks, and tracking coverage is likely higher leverage than forcing a weak new URL. | **Best next move** |
+| 2 | **Secondary candidate** | AI appointment setter for home service businesses | "AI appointment setter for home service businesses" | Still present in the older GEO plan as a commercially relevant use-case page. Distinct enough from the generic appointment-setter page if framed around trades/home services, dispatch calendars, after-hours calls, and first-response booking — but it needs careful differentiation and honest proof framing. | **Research before ship** |
+| 3 | **Deferred** | AI Automation ROI Calculator | "is AI automation worth it small business" | Present in the oldest GEO plan, but the current pattern matrix explicitly warns against scaling calculator/tool pages without stronger surrounding static content and validation first. | **Deferred** |
 
 ### Priority Definitions
 

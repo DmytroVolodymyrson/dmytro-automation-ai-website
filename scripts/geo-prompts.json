@@ -375,6 +375,18 @@
       ]
     },
     {
+      "id": "ai-voice-agent-vs-human-appointment-setter",
+      "path": "/ai-voice-agent-vs-human-appointment-setter",
+      "label": "AI Voice Agent vs Human Appointment Setter",
+      "prompts": [
+        "AI voice agent vs human appointment setter",
+        "Should I use an AI voice agent or hire a human appointment setter?",
+        "Is an AI voice agent cheaper than a human appointment setter?",
+        "AI callback agent vs human setter for service business leads",
+        "When should a business use AI for first-response booking instead of a human setter?"
+      ]
+    },
+    {
       "id": "n8n-vs-make-small-business",
       "path": "/n8n-vs-make-small-business",
       "label": "n8n vs Make for Small Business",

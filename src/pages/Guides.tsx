@@ -181,6 +181,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "AI Voice Agent vs. Human Appointment Setter",
+    description:
+      "Should AI handle first-contact booking or should a human setter call leads manually? Compare speed-to-lead, objection handling, cost, and when a hybrid handoff model wins.",
+    href: "/ai-voice-agent-vs-human-appointment-setter",
+    category: "comparisons",
+  },
+  {
     title: "n8n vs. Make for Small Business",
     description:
       "Comparing n8n and Make (formerly Integromat) for small business automation. Pricing, self-hosting, AI integration, and complexity handling.",

@@ -59,6 +59,7 @@ import AiAppointmentSetterVsReceptionist from "./pages/AiAppointmentSetterVsRece
 import AiAppointmentSetterVsVirtualAssistant from "./pages/AiAppointmentSetterVsVirtualAssistant";
 import AiVoiceAgentVsVoicemail from "./pages/AiVoiceAgentVsVoicemail";
 import AiVoiceAgentVsCallCenter from "./pages/AiVoiceAgentVsCallCenter";
+import AiVoiceAgentVsHumanAppointmentSetter from "./pages/AiVoiceAgentVsHumanAppointmentSetter";
 import N8nVsMakeSmallBusiness from "./pages/N8nVsMakeSmallBusiness";
 import BuildVsBuyAiAutomation from "./pages/BuildVsBuyAiAutomation";
 import VapiVsRetellSmallBusiness from "./pages/VapiVsRetellSmallBusiness";
@@ -154,6 +155,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-appointment-setter-vs-virtual-assistant", element: <AiAppointmentSetterVsVirtualAssistant /> },
   { path: "/ai-voice-agent-vs-voicemail", element: <AiVoiceAgentVsVoicemail /> },
   { path: "/ai-voice-agent-vs-call-center", element: <AiVoiceAgentVsCallCenter /> },
+  { path: "/ai-voice-agent-vs-human-appointment-setter", element: <AiVoiceAgentVsHumanAppointmentSetter /> },
   { path: "/n8n-vs-make-small-business", element: <N8nVsMakeSmallBusiness /> },
   { path: "/build-vs-buy-ai-automation", element: <BuildVsBuyAiAutomation /> },
   { path: "/vapi-vs-retell-small-business", element: <VapiVsRetellSmallBusiness /> },

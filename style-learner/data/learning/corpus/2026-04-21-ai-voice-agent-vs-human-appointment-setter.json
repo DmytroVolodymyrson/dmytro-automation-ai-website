@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-21-ai-voice-agent-vs-human-appointment-setter",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-21",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Voice Agent vs. Human Appointment Setter\nBody: If your business loses leads because callbacks happen too late, an AI voice agent is usually the faster and cheaper fix. If your first call requires real consultative selling, negotiation, or relationship building, a human appointment setter still wins. This page compares both options directly so a business owner can choose based on their sales process instead of hype.\nSub: Below: where AI wins on speed and coverage, where humans still close better, what each option costs, and when the smartest move is to combine both.\n\n### Core sections\n- Two ways to book the next conversation\n- Side-by-side comparison\n- When each option wins\n- What most businesses miss in this comparison\n- Proof that supports this decision\n\n### FAQ\nSubhead: Practical answers for service businesses choosing between AI response speed and human sales nuance\n- Is an AI voice agent the same thing as an AI appointment setter?\n- When does a human appointment setter clearly beat AI?\n- Can AI handle objection handling well enough to book appointments?\n- What does the hybrid model usually look like?\n- How should I decide between AI, human, or hybrid for my business?\n\n### Final CTA\nHeading: Not sure whether AI or a human setter fits your funnel?\nBody: Book a 30-minute call. We will map your lead flow, call patterns, and booking process, then recommend whether you should use AI, a human setter, or a hybrid handoff model.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Recovered from the older GEO-PLAN backlog after reconciling planning docs against the live route set; still distinct from receptionist, VA, voicemail, and call-center pages because this comparison is specifically about first-response booking speed versus human sales nuance."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept proof bounded to existing evidence: Paris Cafe voice-agent coverage and the auto-parts CRM automation case study as supporting proof for speed, routing, and systemized follow-up."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoided inventing claims about human SDR performance or closed-won lift; framed the page as a decision guide, not a promise that AI always outperforms people."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and fit-based, with hybrid handoff positioned as the likely best answer for many service businesses."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-21T18:20:02.280Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 17.6,
+      "sentenceLengthRange": [
+        5,
+        32
+      ],
+      "totalWords": 246
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: AI Voice Agent vs.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Not sure whether AI or a human setter fits your funnel?\nBody: Book a 30-minute call. We will map your lead flow, call patterns, and booking process, then recommend whether you should use AI, a human setter, or a hybrid handoff model.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 14,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 10,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 1.08
+    },
+    "vocabulary": {
+      "distinctWords": 145,
+      "totalWords": 246,
+      "topWords": [
+        [
+          "ai",
+          11
+        ],
+        [
+          "-",
+          10
+        ],
+        [
+          "human",
+          7
+        ],
+        [
+          "setter",
+          6
+        ],
+        [
+          "appointment",
+          4
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "voice",
+          3
+        ],
+        [
+          "agent",
+          3
+        ],
+        [
+          "business",
+          3
+        ],
+        [
+          "call",
+          3
+        ],
+        [
+          "wins",
+          3
+        ],
+        [
+          "this",
+          3
+        ],
+        [
+          "what",
+          3
+        ],
+        [
+          "when",
+          3
+        ],
+        [
+          "book",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
