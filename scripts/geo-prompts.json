@@ -213,6 +213,18 @@
       ]
     },
     {
+      "id": "document-collection-automation-for-mortgage-brokers",
+      "path": "/document-collection-automation-for-mortgage-brokers",
+      "label": "Document Collection Automation for Mortgage Brokers",
+      "prompts": [
+        "How can mortgage brokers automate document collection?",
+        "Document collection automation for mortgage brokers",
+        "Best way to remind mortgage borrowers about missing documents",
+        "How do mortgage brokerages automate pay stub and bank statement reminders?",
+        "Should a mortgage broker automate incomplete file reminders?"
+      ]
+    },
+    {
       "id": "ai-automation-for-insurance-agencies",
       "path": "/ai-automation-for-insurance-agencies",
       "label": "AI Automation for Insurance Agencies",

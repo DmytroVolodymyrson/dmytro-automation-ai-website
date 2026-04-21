@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-21-document-collection-automation-for-mortgage-brokers",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-21",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: Document Collection Automation for Mortgage Brokers\nBody: Mortgage files do not stall because borrowers hate you. They stall because document chasing is repetitive, easy to delay, and usually handled between other urgent tasks. Pay stubs are missing, bank statements are outdated, IDs are unreadable, and nobody on the team wants to spend prime selling hours sending the third reminder for the same checklist item. Document collection automation fixes that specific operational bottleneck. The right system tracks what is still missing, sends the next reminder automatically, and keeps the broker focused on live conversations instead of administrative follow-up.\nSub: Below: where document automation helps a brokerage most, what should stay human, how to handle compliance carefully, and what kind of proof is fair to claim when your published case studies are adjacent rather than mortgage-specific.\n\n### Core sections\n- What document collection automation actually handles\n- Manual document chasing vs. automated document chasing\n- Good-fit / not-fit framing for mortgage brokerages\n- Compliance, secure upload, and escalation guardrails\n- How the workflow works in practice\n- Honest adjacent proof for the workflow pattern\n\n### FAQ\nSubhead: Practical questions from brokerages considering document reminder automation\n- Can this work with my current LOS or CRM?\n- Will this send secure borrower documents automatically?\n- Is this compliant for mortgage communication?\n- What does a focused build usually cost?\n- How is this different from the mortgage lead follow-up page?\n\n### Final CTA\nHeading: Want incomplete mortgage files to stop sitting in limbo?\nBody: Book a 30-minute call. We will look at where your files usually stall, how document status gets tracked today, and whether a focused reminder workflow would recover enough broker time and application speed to justify building first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen after rechecking GEO-PLAN.md, geo-roadmap.md, the pattern matrix, geo-plan-2026-03.md, current routes, and tracked prompts. The explicit backlog was thin, so this was shipped as a defensible child page under the already-planned mortgage automation cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the angle distinct from the existing mortgage automation and mortgage lead-follow-up pages by focusing on incomplete-file handling and document reminders after the borrower is already in process."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used direct, operational framing instead of generic AI promises: missing pay stubs, bank statements, secure upload paths, pipeline visibility, and broker handoff."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoided fake mortgage-specific proof. Grounded the page in adjacent workflow proof from the auto-parts CRM case study and the published client onboarding automation guide."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-21T21:26:12.661Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        5,
+        3
+      ],
+      "avgSentenceLength": 17.9,
+      "sentenceLengthRange": [
+        5,
+        37
+      ],
+      "totalWords": 286
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Document Collection Automation for Mortgage Brokers\nBody: Mortgage files do not stall because borrowers hate you.",
+      "wordCount": 18,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want incomplete mortgage files to stop sitting in limbo?\nBody: Book a 30-minute call. We will look at where your files usually stall, how document status gets tracked today, and whether a focused reminder workflow would recover enough broker time and application speed to justify building first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 14,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 0.93
+    },
+    "vocabulary": {
+      "distinctWords": 180,
+      "totalWords": 286,
+      "topWords": [
+        [
+          "-",
+          11
+        ],
+        [
+          "document",
+          9
+        ],
+        [
+          "mortgage",
+          6
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "reminder",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "collection",
+          3
+        ],
+        [
+          "files",
+          3
+        ],
+        [
+          "stall",
+          3
+        ],
+        [
+          "chasing",
+          3
+        ],
+        [
+          "usually",
+          3
+        ],
+        [
+          "focused",
+          3
+        ],
+        [
+          "workflow",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

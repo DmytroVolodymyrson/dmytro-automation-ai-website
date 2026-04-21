@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-21 (shipped retell-vs-bland-small-business and added it to tracking)
+Last updated: 2026-04-21 (shipped document-collection-automation-for-mortgage-brokers and added it to tracking)
 
 ## Live GEO Assets
 
@@ -37,6 +37,7 @@ Last updated: 2026-04-21 (shipped retell-vs-bland-small-business and added it to
 | AI Automation for Real Estate | `/ai-automation-for-real-estate` | Industry page | Live |
 | AI Automation for Mortgage Brokers | `/ai-automation-for-mortgage-brokers` | Industry page | Live |
 | AI Lead Follow-Up for Mortgage Brokers | `/ai-lead-follow-up-for-mortgage-brokers` | Industry workflow page | Live |
+| Document Collection Automation for Mortgage Brokers | `/document-collection-automation-for-mortgage-brokers` | Industry workflow page | Live |
 | AI Automation for Dental Practices | `/ai-automation-for-dental-practices` | Industry page | Live |
 | AI Automation for Law Firms | `/ai-automation-for-law-firms` | Industry page | Live |
 | AI Automation for Accounting Firms | `/ai-automation-for-accounting-firms` | Industry page | Live |
@@ -88,20 +89,20 @@ Last updated: 2026-04-21 (shipped retell-vs-bland-small-business and added it to
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 69**
+**Total decision/comparison/industry pages live: 70**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-After shipping the remaining distinct tool-comparison query from the older GEO backlog (Retell vs Bland), the clean new-URL queue is effectively exhausted again. The next move should be selective: improve pages closest to revenue unless a new case study creates a defensible fresh page.
+The broad GEO backlog is still thin, but the mortgage cluster proved there is room for selective child pages when the workflow stage is clearly different and the proof framing stays honest. Keep biasing toward commercially distinct child pages supported by an existing parent page plus adjacent case-study proof. If that standard stops being true, switch back to strengthening the best live pages instead of forcing another URL.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Recommended next** | Refresh existing mortgage / lead follow-up cluster before inventing weaker pages | Improve citation readiness on pages already closest to revenue | The remaining planned backlog is now thinner than the live set. Tightening internal links, proof framing, FAQs, and tracking coverage on the mortgage / lead-follow-up cluster is higher confidence than forcing another borderline new page. | **Best next move** |
-| 2 | **Watch list** | AI Automation ROI Calculator | "is AI automation worth it small business" | Still exists in the oldest GEO plan, but the pattern matrix continues to warn against thin calculator/tool pages without stronger surrounding static content and validation first. Existing ROI and cost guides already cover most of the intent. | **Deferred unless supported by stronger static content** |
-| 3 | **Backlog note** | No other strong planned page currently survives the distinct-intent + proof check | — | GEO-PLAN.md, geo-plan-2026-03.md, the pattern matrix, tracking prompts, and current live routes were rechecked. Retell vs Bland was the last clean planned comparison still missing. Do not invent filler pages unless new proof opens a clearer gap. | **Reassess after new proof** |
+| 1 | **Recommended next** | AI fitment inquiry automation for auto parts e-commerce | "how to automate fitment inquiries for an auto parts store" | This is the cleanest remaining child-page candidate with direct case-study support. The live auto-parts page already frames fitment routing as a core pain, and the WheelsFeels CRM case study gives exact operational proof without inventing a new vertical. | **Best next new-page candidate** |
+| 2 | **Watch list** | Refresh the mortgage cluster if the child-page queue gets weaker | Improve citation readiness on the strongest revenue-adjacent pages | After the new mortgage document page, the mortgage lead-follow-up cluster is one of the site's clearest commercial wedges. If the next candidate feels soft, improve internal links, proof framing, FAQs, and tracking coverage there instead of stretching for another weak URL. | **Fallback if no equally clean child page survives review** |
+| 3 | **Deferred** | AI Automation ROI Calculator | "is AI automation worth it small business" | Still exists in the oldest GEO plan, but the pattern matrix continues to warn against thin calculator/tool pages without stronger surrounding static content and validation first. Existing ROI and cost guides already cover most of the intent. | **Deferred unless supported by stronger static content** |
 
 ### Priority Definitions
 

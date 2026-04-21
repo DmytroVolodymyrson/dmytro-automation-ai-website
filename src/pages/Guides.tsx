@@ -414,6 +414,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Document Collection Automation for Mortgage Brokers",
+    description:
+      "Automated reminders for missing mortgage documents, incomplete-file tracking, secure next-step prompts, and cleaner broker handoff without manual chasing.",
+    href: "/document-collection-automation-for-mortgage-brokers",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Dental Practices",
     description:
       "AI automation for dental practices. Patient booking, recall campaigns, appointment reminders, intake forms, and no-show follow-up.",
