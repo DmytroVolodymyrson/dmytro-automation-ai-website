@@ -231,6 +231,18 @@
       ]
     },
     {
+      "id": "ai-automation-for-auto-parts-ecommerce",
+      "path": "/ai-automation-for-auto-parts-ecommerce",
+      "label": "AI Automation for Auto Parts E-Commerce",
+      "prompts": [
+        "AI automation for auto parts e-commerce",
+        "How can an auto parts brand automate lead follow-up and CRM workflows?",
+        "Best AI automation for auto parts ecommerce customer inquiries",
+        "How do I automate fitment inquiry follow-up for an auto parts store?",
+        "Should an auto parts e-commerce brand build custom CRM automation?"
+      ]
+    },
+    {
       "id": "instant-lead-response-automation",
       "path": "/instant-lead-response-automation",
       "label": "Instant Lead Response Automation",

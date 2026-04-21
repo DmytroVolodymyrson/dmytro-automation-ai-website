@@ -45,6 +45,7 @@ const AiEmailSequenceAutomation = lazy(() => import("./pages/AiEmailSequenceAuto
 const AiAutomationForInsuranceAgencies = lazy(() => import("./pages/AiAutomationForInsuranceAgencies"));
 const AiAutomationForPropertyManagement = lazy(() => import("./pages/AiAutomationForPropertyManagement"));
 const AiAutomationEcommerce = lazy(() => import("./pages/AiAutomationEcommerce"));
+const AiAutomationForAutoPartsEcommerce = lazy(() => import("./pages/AiAutomationForAutoPartsEcommerce"));
 const AfterHoursLeadCapture = lazy(() => import("./pages/AfterHoursLeadCapture"));
 const MissedCallFollowUp = lazy(() => import("./pages/MissedCallFollowUp"));
 const BookingConfirmationAndReminder = lazy(() => import("./pages/BookingConfirmationAndReminder"));
@@ -123,6 +124,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-automation-for-insurance-agencies" element={<AiAutomationForInsuranceAgencies />} />
       <Route path="/ai-automation-for-property-management" element={<AiAutomationForPropertyManagement />} />
       <Route path="/ai-automation-ecommerce" element={<AiAutomationEcommerce />} />
+      <Route path="/ai-automation-for-auto-parts-ecommerce" element={<AiAutomationForAutoPartsEcommerce />} />
       <Route path="/after-hours-lead-capture-for-service-businesses" element={<AfterHoursLeadCapture />} />
       <Route path="/missed-call-follow-up-automation" element={<MissedCallFollowUp />} />
       <Route path="/booking-confirmation-and-reminder-automation" element={<BookingConfirmationAndReminder />} />

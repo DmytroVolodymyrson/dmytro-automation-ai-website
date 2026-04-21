@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-21-ai-automation-for-auto-parts-ecommerce",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-21",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for Auto Parts E-Commerce\nBody: Auto parts e-commerce gets messy fast. Fitment questions pile up, quote requests sit in inboxes, old leads never get touched again, and the team spends hours trying to remember who needs a reply next. If your store sells products that need explanation, compatibility checks, or repeat follow-up, automation usually creates value much earlier than most operators think. The goal is not to replace your storefront. The goal is to make sure every inquiry, customer, and internal handoff gets the right next action automatically.\nSub: Below: the workflows that are actually worth automating for auto parts brands, where the ROI usually shows up first, and when you should keep things manual a little longer.\n\n### Core sections\n- What you can automate in an auto parts brand\n- Manual vs. automated auto parts operations\n- Good fit vs. not the right fit\n- Where the ROI usually comes from first\n- Relevant proof from the WheelsFeels auto parts CRM case study\n\n### FAQ\nSubhead: Practical questions from auto parts operators considering automation\n- Is this page only for large auto parts brands?\n- Can automation help with fitment questions?\n- What is the best first workflow to automate?\n- What does this kind of build usually cost?\n- Do I need to replace Shopify or my current tools?\n\n### Final CTA\nHeading: Want your auto parts ops to stop depending on memory and inbox chaos?\nBody: Book a 30-minute call. We will look at your inquiry flow, CRM, and follow-up process, then map out the one automation system that would create the clearest payoff first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected from the broader planning docs because it was still planned-but-unshipped, directly backed by the existing WheelsFeels auto parts case study, and more distinct than several remaining overlapping comparison ideas."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Positioned as a vertical-specific operational page rather than a generic e-commerce rewrite, to reduce cannibalization with the existing /ai-automation-ecommerce page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps claims bounded to real proof: CRM cleanup, lead follow-up, reactivation, routing, and team alerts."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical: no inflated locality, no invented niche expertise, and clear bad-fit criteria for early-stage stores."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-21T10:23:14.771Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        3,
+        5,
+        3
+      ],
+      "avgSentenceLength": 15.9,
+      "sentenceLengthRange": [
+        5,
+        30
+      ],
+      "totalWords": 270
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: AI Automation for Auto Parts E-Commerce\nBody: Auto parts e-commerce gets messy fast.",
+      "wordCount": 15,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want your auto parts ops to stop depending on memory and inbox chaos?\nBody: Book a 30-minute call. We will look at your inquiry flow, CRM, and follow-up process, then map out the one automation system that would create the clearest payoff first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "context",
+        "closer"
+      ],
+      "template": "opener | result | context | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 13,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 10,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 0.81
+    },
+    "vocabulary": {
+      "distinctWords": 169,
+      "totalWords": 270,
+      "topWords": [
+        [
+          "-",
+          10
+        ],
+        [
+          "auto",
+          9
+        ],
+        [
+          "parts",
+          9
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "first",
+          4
+        ],
+        [
+          "questions",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "what",
+          3
+        ],
+        [
+          "from",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "e-commerce",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "gets",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.007
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

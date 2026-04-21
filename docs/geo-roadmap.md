@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-20 (shipped ai-voice-agent-lead-qualification and added it to tracking)
+Last updated: 2026-04-21 (shipped ai-automation-for-auto-parts-ecommerce and added it to tracking)
 
 ## Live GEO Assets
 
@@ -47,6 +47,7 @@ Last updated: 2026-04-20 (shipped ai-voice-agent-lead-qualification and added it
 | AI Automation for Insurance Agencies | `/ai-automation-for-insurance-agencies` | Industry page | Live |
 | AI Automation for Property Management | `/ai-automation-for-property-management` | Industry page | Live |
 | AI Automation for E-Commerce Brands | `/ai-automation-ecommerce` | Industry page | Live |
+| AI Automation for Auto Parts E-Commerce | `/ai-automation-for-auto-parts-ecommerce` | Industry page | Live |
 | After-Hours Lead Capture | `/after-hours-lead-capture-for-service-businesses` | Workflow page | Live |
 | Missed Call Follow-Up Automation | `/missed-call-follow-up-automation` | Workflow page | Live |
 | Booking Confirmation & Reminder | `/booking-confirmation-and-reminder-automation` | Workflow page | Live |
@@ -82,19 +83,20 @@ Last updated: 2026-04-20 (shipped ai-voice-agent-lead-qualification and added it
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 63**
+**Total decision/comparison/industry pages live: 64**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-The original planned backlog is now effectively exhausted for high-confidence pages that are both distinct and supported by proof.
+Broader planning docs still contain a small number of candidate pages, but the clean backlog is now narrow and should stay proof-backed.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Deferred** | AI Automation ROI Calculator | "is AI automation worth it small business" | Present in the oldest GEO plan, but the current pattern matrix explicitly warns against scaling calculator/tool pages without stronger surrounding static content and validation first. | **Deferred** |
-| 2 | **Refresh needed** | Backlog reconciliation from broader planning docs | n/a | Before the next ship, refresh the roadmap against live routes, case-study proof, and GEO movement. There is no remaining high-confidence planned page in the current docs that is clearly distinct and non-cannibalizing. | **Needs refresh** |
+| 1 | **P1** | AI Lead Follow-Up for Mortgage Brokers | "how can mortgage brokers automate lead follow-up" | Still distinct from the broader mortgage page if framed tightly around speed-to-lead, nurture, and handoff. Has adjacent proof from existing lead-follow-up systems, but needs careful anti-duplication drafting. | **Candidate** |
+| 2 | **Deferred** | AI Automation ROI Calculator | "is AI automation worth it small business" | Present in the oldest GEO plan, but the current pattern matrix explicitly warns against scaling calculator/tool pages without stronger surrounding static content and validation first. | **Deferred** |
+| 3 | **Watch carefully** | AI Appointment Setter vs Human VA | "AI appointment setter vs human VA" | Still planned in the broader 2026-03 programmatic plan, but current live comparison coverage already overlaps receptionist / call handling intent. Only ship if a clearly distinct VA-specific decision framework emerges. | **Needs tighter differentiation** |
 
 ### Priority Definitions
 
