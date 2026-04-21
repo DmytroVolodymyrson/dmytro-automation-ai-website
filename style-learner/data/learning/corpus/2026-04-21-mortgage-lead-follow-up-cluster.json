@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-21-mortgage-lead-follow-up-cluster",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-21",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Primary page\nHeading: AI Lead Follow-Up for Mortgage Brokers\n\nHero body: A mortgage lead from Zillow, LendingTree, Google Ads, or a realtor partner can cost serious money before a broker ever speaks to them. If that lead waits two hours for a reply, you are not really buying inquiries — you are funding faster competitors. For most brokerages, the first win from AI lead follow-up is simple and commercial: more expensive leads turn into real conversations, more half-finished applications get pulled forward, and brokers spend less time chasing documents and no-response leads manually. The system responds in under 60 seconds, keeps following up automatically, and hands warm borrowers to your team with source, timeline, and context attached.\n\nHero sub: Below: what mortgage lead follow-up automation actually handles, where brokerages usually recover ROI first, how proof should be framed when you have not published a mortgage case study yet, what the workflow looks like in practice, and when to keep parts of the process manual.\n\nAdded sections:\n- Where mortgage brokerages usually see the first measurable lift\n- How to frame proof honestly before you have a mortgage-specific case study\n- Expanded workflow prose with incomplete-file follow-up detail\n\nExpanded FAQ themes:\n- What to measure first after launch\n- After-hours and weekend mortgage leads\n- Source-specific follow-up logic for paid leads, realtor referrals, and renewal opportunities\n\nRelated-link focus:\n- AI automation for mortgage brokers\n- AI automation for real estate\n- Instant lead response automation\n- Lead follow-up automation examples\n- After-hours lead capture\n\n### Supporting page\nHeading: AI Automation for Mortgage Brokers\n\nHero body: Mortgage leads are expensive and time-sensitive. A pre-approval inquiry that sits for two hours is already talking to another broker, and every half-finished application still needs somebody to chase the next step. The most practical mortgage automation work is not abstract 'AI transformation' — it is faster response, cleaner pipeline visibility, more consistent document follow-up, and less broker time wasted on admin. Done properly, the first gains show up in contact rate, booking consistency, and operational speed long before anyone needs to claim miracle close-rate jumps.\n\nHero sub: Below: what mortgage automation looks like in practice, where the ROI usually appears first, and how to decide whether to start with lead follow-up, document collection, or broader CRM workflow automation.\n\nRelated-link focus:\n- AI lead follow-up for mortgage brokers\n- Instant lead response automation\n- Lead follow-up automation examples\n- AI automation for real estate",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Strengthened commercial clarity instead of adding breadth for its own sake."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Framed proof around operational metrics and adjacent-case patterns rather than unsupported mortgage-specific claims."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tightened the mortgage internal-link cluster around lead follow-up, instant response, after-hours capture, and adjacent real-estate intent."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept tone direct, credible, and practical for brokerage owners evaluating ROI."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-21T15:42:11.179Z",
+    "structure": {
+      "paragraphCount": 10,
+      "sentencesPerParagraph": [
+        1,
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        4,
+        1,
+        1
+      ],
+      "avgSentenceLength": 25.3,
+      "sentenceLengthRange": [
+        8,
+        47
+      ],
+      "totalWords": 405
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Primary page\nHeading: AI Lead Follow-Up for Mortgage Brokers",
+      "wordCount": 9,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "Related-link focus:\n- AI lead follow-up for mortgage brokers\n- Instant lead response automation\n- Lead follow-up automation examples\n- AI automation for real estate",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | context | context | context | context | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 28,
+      "emDashes": 2,
+      "enDashes": 0,
+      "hyphens": 15,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 13,
+      "commasPerSentence": 2.55
+    },
+    "vocabulary": {
+      "distinctWords": 208,
+      "totalWords": 405,
+      "topWords": [
+        [
+          "-",
+          15
+        ],
+        [
+          "lead",
+          12
+        ],
+        [
+          "mortgage",
+          12
+        ],
+        [
+          "automation",
+          12
+        ],
+        [
+          "follow-up",
+          10
+        ],
+        [
+          "ai",
+          8
+        ],
+        [
+          "first",
+          6
+        ],
+        [
+          "brokers",
+          5
+        ],
+        [
+          "leads",
+          5
+        ],
+        [
+          "hero",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "before",
+          3
+        ],
+        [
+          "broker",
+          3
+        ],
+        [
+          "not",
+          3
+        ],
+        [
+          "brokerages",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

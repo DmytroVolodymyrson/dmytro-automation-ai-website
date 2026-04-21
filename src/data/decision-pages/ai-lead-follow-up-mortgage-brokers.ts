@@ -24,9 +24,9 @@ const data: DecisionPageData = {
   badgeIcon: Landmark,
   h1: "AI Lead Follow-Up for Mortgage Brokers",
   heroIntro:
-    "A mortgage lead from Zillow, LendingTree, or a paid ad costs $30 to $100+. If the first response takes two hours, that money is already working for a faster broker. Most brokerages lose deals not because their rates are worse, but because someone else picked up the phone first. AI lead follow-up responds in under 60 seconds, nurtures incomplete applications automatically, and hands qualified conversations to your team with context — so more of the leads you already pay for turn into funded files.",
+    "A mortgage lead from Zillow, LendingTree, Google Ads, or a realtor partner can cost serious money before a broker ever speaks to them. If that lead waits two hours for a reply, you are not really buying inquiries — you are funding faster competitors. For most brokerages, the first win from AI lead follow-up is simple and commercial: more expensive leads turn into real conversations, more half-finished applications get pulled forward, and brokers spend less time chasing documents and no-response leads manually. The system responds in under 60 seconds, keeps following up automatically, and hands warm borrowers to your team with source, timeline, and context attached.",
   heroSubtext:
-    "Below: what mortgage lead follow-up automation actually handles, where it improves conversion first, what the workflow looks like in practice, and when a brokerage should keep parts of the process manual.",
+    "Below: what mortgage lead follow-up automation actually handles, where brokerages usually recover ROI first, how proof should be framed when you have not published a mortgage case study yet, what the workflow looks like in practice, and when to keep parts of the process manual.",
   sections: [
     {
       type: "cards",
@@ -63,6 +63,44 @@ const data: DecisionPageData = {
           icon: Users,
           title: "Broker handoff for high-intent conversations",
           body: "The system handles the repetitive outreach, then routes warm responses to the right broker with notes and conversation history attached.",
+        },
+      ],
+    },
+    {
+      type: "cards",
+      title: "Where mortgage brokerages usually see the first measurable lift",
+      subtitle:
+        "The early proof is usually operational before it becomes revenue reporting. These are the metrics that move first when the workflow is set up correctly:",
+      items: [
+        {
+          icon: Timer,
+          title: "Speed-to-lead drops from hours to seconds",
+          body: "The clearest before-and-after is response time. A brokerage that used to answer paid or portal leads in 45 minutes, 2 hours, or the next morning can start responding in under 60 seconds around the clock.",
+        },
+        {
+          icon: MessageSquare,
+          title: "More expensive leads turn into actual conversations",
+          body: "The first commercial gain is usually better contact rate, not some vague 'AI efficiency' claim. More of the leads you already buy reply, book, or re-engage before they choose another broker.",
+        },
+        {
+          icon: FileText,
+          title: "Fewer applications stall on missing next steps",
+          body: "Incomplete files stop relying on memory and manual chasing. Borrowers get nudged toward the next required action — booking, document upload, or a reply to a qualifying question — without coordinators babysitting every record.",
+        },
+        {
+          icon: Users,
+          title: "Broker time shifts toward funded-file work",
+          body: "Instead of spending prime selling time on first-response admin and repetitive reminders, brokers and coordinators pick up warmer conversations with context already collected.",
+        },
+        {
+          icon: BarChart3,
+          title: "CRM reporting becomes believable again",
+          body: "Lead source, stage, and reply activity start getting logged consistently. That makes it easier to see whether Zillow, realtor referrals, paid search, or renewal campaigns are actually producing funded opportunities.",
+        },
+        {
+          icon: CalendarCheck,
+          title: "Booking consistency improves before close-rate reporting does",
+          body: "Most teams can verify booked consultations and borrower replies within days. Funded-loan lift takes longer to measure, but the earlier pipeline indicators show whether the workflow is working.",
         },
       ],
     },
@@ -173,6 +211,26 @@ const data: DecisionPageData = {
     },
     {
       type: "prose",
+      title: "How to frame proof honestly before you have a mortgage-specific case study",
+      subtitle:
+        "You do not need to invent funded-loan numbers to make the page credible. The stronger approach is to show the operational proof you can stand behind and connect it to mortgage economics:",
+      blocks: [
+        {
+          heading: "Lead response speed is a valid first proof point",
+          body: "If a workflow takes first response from hours to under 60 seconds, that is already commercially meaningful for mortgage brokers. It means paid leads, referral leads, and after-hours inquiries stop sitting idle during the exact window when comparison shopping is happening.",
+        },
+        {
+          heading: "Use adjacent-case proof for the system pattern, not fake industry parity",
+          body: "The right proof framing is: these published projects show the same automation pattern — instant response, structured nurture, CRM updates, qualification, and human handoff. Then explain that mortgage brokerages use the same pattern with mortgage-specific messaging, compliance review, and document workflows layered on top.",
+        },
+        {
+          heading: "Measure the early pipeline numbers first",
+          body: "For a new mortgage build, the first scoreboard is usually response time, reply rate, booked consultations, incomplete-application recovery, and document completion speed. Those move faster than funded-loan reporting and give a brokerage an honest read on whether the automation is improving the funnel.",
+        },
+      ],
+    },
+    {
+      type: "prose",
       title: "How mortgage lead follow-up automation works in practice",
       subtitle:
         "The workflow is not complicated, but the details matter. Here is what a typical automated follow-up path looks like from inquiry to booked consultation:",
@@ -183,7 +241,7 @@ const data: DecisionPageData = {
         },
         {
           heading: "First response goes out in under 60 seconds",
-          body: "The lead gets a personalized text and email acknowledging their inquiry and offering a clear next step — usually a link to book a pre-approval call or a simple qualifying question. This is the single highest-leverage moment in the funnel. Industry data consistently shows that responding within the first minute dramatically increases contact rates compared to even a 10-minute delay.",
+          body: "The lead gets a personalized text and email acknowledging their inquiry and offering a clear next step — usually a link to book a pre-approval call or a simple qualifying question. This is the single highest-leverage moment in the funnel. The practical goal is simple: become the first serious conversation while the borrower is still actively shopping, not the brokerage that replies after two other brokers already made contact.",
         },
         {
           heading: "Non-responders enter a structured nurture sequence",
@@ -192,6 +250,10 @@ const data: DecisionPageData = {
         {
           heading: "Warm reply triggers broker handoff",
           body: "When a lead replies with genuine interest, the system notifies the assigned broker with the full conversation history, lead source, and any qualifying details collected. The broker picks up a warm conversation, not a cold dial.",
+        },
+        {
+          heading: "Incomplete files keep moving without manual babysitting",
+          body: "If the borrower starts the process but stalls on booking or document submission, the system continues with the right reminder sequence. Instead of your team guessing who still owes bank statements, pay stubs, or a callback, the workflow keeps nudging the file until the borrower responds or the handoff rules say a human should step in.",
         },
       ],
     },
@@ -230,14 +292,29 @@ const data: DecisionPageData = {
         "Usually, yes. If your system has an API, webhook support, or a reliable integration path, we can connect it. We check compatibility during scoping before any build starts.",
     },
     {
+      question: "What should I measure first after launch?",
+      answer:
+        "Start with response time, reply rate, booked consultations, incomplete-application recovery, and document completion speed. Those are the earliest signals that the workflow is improving conversion before you have enough time to measure funded-loan impact cleanly.",
+    },
+    {
       question: "Can AI follow up without sounding robotic or spammy?",
       answer:
         "Yes, if the sequence is written with restraint. The goal is fast, clear, useful contact — not aggressive blasting. We keep the flow practical and tuned to your brokerage tone.",
     },
     {
+      question: "Can this handle after-hours and weekend mortgage leads?",
+      answer:
+        "Yes. That is one of the highest-value use cases. A Friday-night website lead or Sunday rate shopper can get an immediate acknowledgment, a booking option, and the right next-step prompt instead of waiting until the office opens again.",
+    },
+    {
       question: "Does this replace my team?",
       answer:
         "No. It removes repetitive chasing and delayed first response. Brokers still handle advice, nuanced borrower conversations, and sensitive application decisions.",
+    },
+    {
+      question: "Can the system follow up differently for Zillow leads, realtor referrals, and renewal opportunities?",
+      answer:
+        "Yes. Different source types should not get the same sequence. A cold paid lead usually needs fast qualification and booking. A realtor referral may need a warmer introduction. A past client approaching renewal can receive a different reactivation flow entirely.",
     },
     {
       question: "How long does a mortgage lead follow-up system take to launch?",
@@ -274,9 +351,10 @@ const data: DecisionPageData = {
     "No generic audit. No obligation. Just a focused conversation about your brokerage's conversion bottlenecks.",
   relatedLinks: [
     { label: "AI automation for mortgage brokers", href: "/ai-automation-for-mortgage-brokers" },
+    { label: "AI automation for real estate", href: "/ai-automation-for-real-estate" },
     { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
     { label: "Lead follow-up automation examples", href: "/lead-follow-up-automation-examples" },
-    { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
+    { label: "After-hours lead capture", href: "/after-hours-lead-capture-for-service-businesses" },
     { label: "All guides", href: "/guides" },
   ],
 };

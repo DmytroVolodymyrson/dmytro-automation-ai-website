@@ -24,9 +24,9 @@ const data: DecisionPageData = {
   badgeIcon: Landmark,
   h1: "AI Automation for Mortgage Brokers",
   heroIntro:
-    "Mortgage leads are expensive and time-sensitive. A pre-approval inquiry that sits for two hours is already shopping with another broker. Meanwhile, your team is buried in document chasing, application follow-ups, and manual CRM updates. AI automation handles the time-sensitive, repetitive work so you focus on closings.",
+    "Mortgage leads are expensive and time-sensitive. A pre-approval inquiry that sits for two hours is already talking to another broker, and every half-finished application still needs somebody to chase the next step. The most practical mortgage automation work is not abstract 'AI transformation' — it is faster response, cleaner pipeline visibility, more consistent document follow-up, and less broker time wasted on admin. Done properly, the first gains show up in contact rate, booking consistency, and operational speed long before anyone needs to claim miracle close-rate jumps.",
   heroSubtext:
-    "Below: what mortgage automation looks like in practice, where it delivers the most value, and how to decide if it is worth the investment.",
+    "Below: what mortgage automation looks like in practice, where the ROI usually appears first, and how to decide whether to start with lead follow-up, document collection, or broader CRM workflow automation.",
   sections: [
     {
       type: "cards",
@@ -231,8 +231,9 @@ const data: DecisionPageData = {
     "No obligation. No generic pitch. Just a practical conversation about your brokerage operations.",
   relatedLinks: [
     { label: "AI lead follow-up for mortgage brokers", href: "/ai-lead-follow-up-for-mortgage-brokers" },
+    { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
+    { label: "Lead follow-up automation examples", href: "/lead-follow-up-automation-examples" },
     { label: "AI automation for real estate", href: "/ai-automation-for-real-estate" },
-    { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
     { label: "All guides", href: "/guides" },
   ],
 };
