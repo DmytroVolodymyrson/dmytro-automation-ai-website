@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-21 (shipped ai-voice-agent-vs-human-appointment-setter and added it to tracking)
+Last updated: 2026-04-21 (shipped ai-appointment-setter-for-home-service-businesses and added it to tracking)
 
 ## Live GEO Assets
 
@@ -31,6 +31,7 @@ Last updated: 2026-04-21 (shipped ai-voice-agent-vs-human-appointment-setter and
 | HVAC Lead Follow-Up Automation | `/hvac-lead-follow-up-automation` | Industry page | Live |
 | HVAC Missed Call Text Back | `/hvac-missed-call-text-back` | Industry page | Live |
 | AI Appointment Setter for HVAC | `/ai-appointment-setter-for-hvac` | Industry page | Live |
+| AI Appointment Setter for Home Service Businesses | `/ai-appointment-setter-for-home-service-businesses` | Workflow / home services page | Live |
 | AI Consultant Alberta | `/ai-automation-consultant-alberta` | Geo landing page | Live |
 | AI Consultant Canada | `/ai-automation-consultant-canada` | Geo landing page | Live |
 | AI Automation for Real Estate | `/ai-automation-for-real-estate` | Industry page | Live |
@@ -86,20 +87,20 @@ Last updated: 2026-04-21 (shipped ai-voice-agent-vs-human-appointment-setter and
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 67**
+**Total decision/comparison/industry pages live: 68**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Broader planning docs are thin but not fully exhausted. The older GEO plan still contained one distinct comparison page worth recovering, and it is now live. The next move should stay selective: ship only pages with a clearly different decision frame or direct proof support.
+After shipping the last distinct home-services appointment-setter page from the broader GEO backlog, the clean new-URL queue is effectively exhausted again. The next move should be selective: improve pages closest to revenue unless a new case study creates a defensible fresh page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Recommended next** | Refresh existing mortgage / lead follow-up cluster before inventing weaker pages | Improve citation readiness on pages already closest to revenue | The remaining backlog is thinner than the live set now. Updating internal links, FAQs, proof blocks, and tracking coverage is likely higher leverage than forcing a weak new URL. | **Best next move** |
-| 2 | **Secondary candidate** | AI appointment setter for home service businesses | "AI appointment setter for home service businesses" | Still present in the older GEO plan as a commercially relevant use-case page. Distinct enough from the generic appointment-setter page if framed around trades/home services, dispatch calendars, after-hours calls, and first-response booking — but it needs careful differentiation and honest proof framing. | **Research before ship** |
-| 3 | **Deferred** | AI Automation ROI Calculator | "is AI automation worth it small business" | Present in the oldest GEO plan, but the current pattern matrix explicitly warns against scaling calculator/tool pages without stronger surrounding static content and validation first. | **Deferred** |
+| 1 | **Recommended next** | Refresh existing mortgage / lead follow-up cluster before inventing weaker pages | Improve citation readiness on pages already closest to revenue | The remaining planned backlog is now thinner than the live set. Tightening internal links, proof framing, FAQs, and tracking coverage on the mortgage / lead-follow-up cluster is higher confidence than forcing another borderline new page. | **Best next move** |
+| 2 | **Watch list** | AI Automation ROI Calculator | "is AI automation worth it small business" | Still exists in the oldest GEO plan, but the pattern matrix continues to warn against thin calculator/tool pages without stronger surrounding static content and validation first. | **Deferred unless supported by stronger static content** |
+| 3 | **Backlog note** | No other strong planned page currently survives the distinct-intent + proof check | — | GEO-PLAN.md and geo-plan-2026-03.md were rechecked. GoHighLevel help, e-commerce CRM automation, and the home-services appointment-setter angle are already represented live. Do not invent filler pages unless new proof opens a clearer gap. | **Reassess after new proof** |
 
 ### Priority Definitions
 

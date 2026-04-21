@@ -372,6 +372,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Appointment Setter for Home Service Businesses",
+    description:
+      "How AI appointment setters help HVAC, plumbing, electrical, roofing, cleaning, and other home service businesses respond faster, qualify leads, and book straightforward jobs without phone tag.",
+    href: "/ai-appointment-setter-for-home-service-businesses",
+    category: "industries",
+  },
+  {
     title: "AI Voice Agent for Restaurants",
     description:
       "How AI phone answering works for restaurants. When it helps bookings, where it fails, and whether it is worth implementing.",

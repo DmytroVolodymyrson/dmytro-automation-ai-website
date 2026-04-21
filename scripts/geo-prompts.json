@@ -1,6 +1,12 @@
 {
   "target_domain": "dmytroai.com",
-  "target_names": ["dmytroai.com", "dmytroai", "Dmytro Automation", "Dmytro AI", "Dmytro"],
+  "target_names": [
+    "dmytroai.com",
+    "dmytroai",
+    "Dmytro Automation",
+    "Dmytro AI",
+    "Dmytro"
+  ],
   "pages": [
     {
       "id": "ai-automation-consultant-small-business",
@@ -351,6 +357,18 @@
       ]
     },
     {
+      "id": "ai-appointment-setter-for-home-service-businesses",
+      "path": "/ai-appointment-setter-for-home-service-businesses",
+      "label": "AI Appointment Setter for Home Service Businesses",
+      "prompts": [
+        "AI appointment setter for home service businesses",
+        "Should a home service business use an AI appointment setter?",
+        "How can HVAC, plumbing, or electrical companies automate appointment booking?",
+        "Best AI appointment setter for trades businesses",
+        "How do home service companies stop losing leads after hours and book faster?"
+      ]
+    },
+    {
       "id": "ai-voice-agent-vs-voicemail",
       "path": "/ai-voice-agent-vs-voicemail",
       "label": "AI Voice Agent vs Voicemail",
@@ -459,12 +477,32 @@
       ]
     }
   ],
-  "providers": ["openai", "anthropic", "gemini", "perplexity"],
+  "providers": [
+    "openai",
+    "anthropic",
+    "gemini",
+    "perplexity"
+  ],
   "scoring": {
-    "L": { "label": "Direct link", "points": 3 },
-    "M": { "label": "Mention by name", "points": 2 },
-    "R": { "label": "Listed in recommendation", "points": 2 },
-    "P": { "label": "Paraphrase of content", "points": 1 },
-    "-": { "label": "Not present", "points": 0 }
+    "L": {
+      "label": "Direct link",
+      "points": 3
+    },
+    "M": {
+      "label": "Mention by name",
+      "points": 2
+    },
+    "R": {
+      "label": "Listed in recommendation",
+      "points": 2
+    },
+    "P": {
+      "label": "Paraphrase of content",
+      "points": 1
+    },
+    "-": {
+      "label": "Not present",
+      "points": 0
+    }
   }
 }

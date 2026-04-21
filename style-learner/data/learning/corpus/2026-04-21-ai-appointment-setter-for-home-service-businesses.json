@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-21-ai-appointment-setter-for-home-service-businesses",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-21",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Appointment Setter for Home Service Businesses\nBody: If your home service business loses jobs because calls come in after hours, form leads sit too long, or the office spends half the day playing phone tag, an AI appointment setter can be a very good fit. It answers fast, qualifies the lead, offers the right next step, books into the calendar when the workflow is clear, and hands edge cases to a human instead of letting them disappear. It is not a magic replacement for dispatch or sales judgment, but it is often the simplest way to stop losing easy bookings to slow response.\nSub: Below: where appointment-setting AI works well for home services, where it breaks down, what setup usually involves, and how to tell whether your real bottleneck is booking speed, dispatch complexity, or both.\n\n### Core sections\n- What an AI appointment setter actually handles in home services\n- Where appointment-setting AI helps most in home services\n- Good fit vs. bad fit\n- What usually makes or breaks the rollout\n- Proof and adjacent proof for this use case\n\n### FAQ\nSubhead: Practical questions from trades and field-service businesses considering AI for booking and first response\n- What counts as a home service business for this kind of setup?\n- Can an AI appointment setter handle emergency service calls?\n- Is this different from AI phone answering?\n- How long does setup usually take for a home service business?\n- What is the simplest way to decide if this is worth building?\n\n### Final CTA\nHeading: Want to know if this would work for your home service business?\nBody: Book a 30-minute call. We will look at your call flow, booking rules, after-hours gaps, and dispatch complexity, then decide whether an AI appointment setter would create real ROI or just add another tool.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped from the broader GEO backlog after reconciling the stale roadmap queue with the older GEO plan's explicit \"AI appointment setter builder for home service businesses\" angle."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page distinct from the generic appointment-setter guide by grounding it in trades-specific concerns: after-hours calls, dispatch windows, emergency escalation, and field-team logistics."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used bounded proof only: the existing HVAC appointment-setter page for direct operational pattern match, Paris Cafe for after-hours voice coverage, and WheelsFeels for CRM/follow-up automation adjacency."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoided fake locality, fake trade-specific metrics, or claims that AI can replace dispatch judgment entirely. The page frames AI as first-response and repeatable-booking infrastructure, not as a full operations replacement."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-21T19:20:35.415Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        2,
+        5,
+        3
+      ],
+      "avgSentenceLength": 21.9,
+      "sentenceLengthRange": [
+        5,
+        48
+      ],
+      "totalWords": 306
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Appointment Setter for Home Service Businesses\nBody: If your home service business loses jobs because calls come in after hours, form leads sit too long, or the office spends half the day playing phone tag, an AI appointment setter can be a very good fit.",
+      "wordCount": 48,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to know if this would work for your home service business?\nBody: Book a 30-minute call. We will look at your call flow, booking rules, after-hours gaps, and dispatch complexity, then decide whether an AI appointment setter would create real ROI or just add another tool.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 17,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 10,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 1.31
+    },
+    "vocabulary": {
+      "distinctWords": 168,
+      "totalWords": 306,
+      "topWords": [
+        [
+          "-",
+          10
+        ],
+        [
+          "ai",
+          9
+        ],
+        [
+          "home",
+          8
+        ],
+        [
+          "service",
+          6
+        ],
+        [
+          "appointment",
+          5
+        ],
+        [
+          "setter",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "business",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "if",
+          3
+        ],
+        [
+          "fit",
+          3
+        ],
+        [
+          "dispatch",
+          3
+        ],
+        [
+          "where",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
