@@ -56,6 +56,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - `/maintenance-request-automation-for-property-management-companies`
 - `/ai-automation-ecommerce`
 - `/ai-automation-for-auto-parts-ecommerce`
+- `/ecommerce-crm-automation-with-ai-follow-up`
 - `/fitment-inquiry-automation-for-auto-parts-ecommerce`
 
 ## Weekly Check Process

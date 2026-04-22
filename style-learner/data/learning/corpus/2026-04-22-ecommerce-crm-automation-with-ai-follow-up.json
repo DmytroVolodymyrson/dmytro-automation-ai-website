@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-ecommerce-crm-automation-with-ai-follow-up",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: E-Commerce CRM Automation with AI Follow-Up\nBody: If your e-commerce brand has leads, quote requests, support conversations, or wholesale inquiries living across Shopify, inboxes, spreadsheets, and Slack, a CRM alone will not fix the problem. The real win is building a system that captures every contact, tags them correctly, starts the right follow-up automatically, and alerts the team when a real buying signal appears. This is especially valuable for brands with higher-ticket products, long consideration cycles, repeat purchases, or customer questions that need more than a one-click checkout flow.\nSub: Below: what an e-commerce CRM + AI follow-up system should actually handle, where ROI usually shows up first, and when this is a real fit versus overkill.\n\n### Core sections\n- Frames the page around operational CRM ownership and follow-up discipline, not generic \"AI for e-commerce\" copy.\n- Covers contact centralization, instant follow-up, segmentation by buying signal, internal alerts, support-vs-sales routing, and stale-list reactivation.\n- Includes a maturity table comparing inbox + spreadsheet, basic CRM, and automated CRM + AI follow-up.\n- Adds an honest good-fit / not-fit section so the page stays decision-oriented.\n- Uses direct proof from the published WheelsFeels e-commerce CRM case study plus adjacent follow-up pages already live on the site.\n\n### FAQ\nSubhead: Practical questions from operators considering an e-commerce CRM + follow-up build\nTopics: difference from the case study page, whether a custom CRM is required, what workflow to automate first, cost ranges, and whether this is only for very large brands.\n\n### Final CTA\nHeading: Want your e-commerce follow-up to stop depending on memory and inbox cleanup?\nBody: Book a 30-minute call. We will look at where your leads, customers, and inquiries are getting stuck today, then map the one CRM + follow-up workflow that would create the clearest payoff first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen from the broader planning backlog because GEO-PLAN.md still explicitly lists “E-commerce CRM automation with AI follow-up” as a secondary target and the site has direct proof from the WheelsFeels case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps a materially different intent from both the broad /ai-automation-ecommerce page and the case-study URL: this one is the buyer guide for deciding whether to build this exact workflow."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses real published numbers and adjacent proof without inventing a dedicated new vertical case study beyond what is already live."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical, commercial, and non-hype with explicit bad-fit framing."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T12:25:35.874Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        5,
+        1,
+        3
+      ],
+      "avgSentenceLength": 22.4,
+      "sentenceLengthRange": [
+        5,
+        41
+      ],
+      "totalWords": 291
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: E-Commerce CRM Automation with AI Follow-Up\nBody: If your e-commerce brand has leads, quote requests, support conversations, or wholesale inquiries living across Shopify, inboxes, spreadsheets, and Slack, a CRM alone will not fix the problem.",
+      "wordCount": 37,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want your e-commerce follow-up to stop depending on memory and inbox cleanup?\nBody: Book a 30-minute call. We will look at where your leads, customers, and inquiries are getting stuck today, then map the one CRM + follow-up workflow that would create the clearest payoff first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 12,
+      "commas": 30,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 2.31
+    },
+    "vocabulary": {
+      "distinctWords": 188,
+      "totalWords": 291,
+      "topWords": [
+        [
+          "crm",
+          10
+        ],
+        [
+          "follow-up",
+          10
+        ],
+        [
+          "e-commerce",
+          7
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "your",
+          3
+        ],
+        [
+          "real",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "this",
+          3
+        ],
+        [
+          "first",
+          3
+        ],
+        [
+          "page",
+          3
+        ],
+        [
+          "from",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "with",
+          2
+        ],
+        [
+          "body",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

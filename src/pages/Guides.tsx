@@ -533,6 +533,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "E-Commerce CRM Automation with AI Follow-Up",
+    description:
+      "A narrower e-commerce buyer guide focused on CRM centralization, automated nurture, reply alerts, and the follow-up systems that stop inquiries and stale leads from getting lost.",
+    href: "/ecommerce-crm-automation-with-ai-follow-up",
+    category: "industries",
+  },
+  {
     title: "Fitment Inquiry Automation for Auto Parts E-Commerce",
     description:
       "A narrower auto-parts workflow page focused on fitment inquiry intake, vehicle-detail capture, routing, high-intent alerts, and the human handoff points that should not be automated away.",

@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped job-intake-routing-automation-for-contractors and added it to tracking)
+Last updated: 2026-04-22 (shipped ecommerce-crm-automation-with-ai-follow-up and added it to tracking)
 
 ## Live GEO Assets
 
@@ -62,6 +62,7 @@ Last updated: 2026-04-22 (shipped job-intake-routing-automation-for-contractors 
 | Maintenance Request Automation for Property Management Companies | `/maintenance-request-automation-for-property-management-companies` | Industry workflow page | Live |
 | AI Automation for E-Commerce Brands | `/ai-automation-ecommerce` | Industry page | Live |
 | AI Automation for Auto Parts E-Commerce | `/ai-automation-for-auto-parts-ecommerce` | Industry page | Live |
+| E-Commerce CRM Automation with AI Follow-Up | `/ecommerce-crm-automation-with-ai-follow-up` | Industry workflow page | Live |
 | Fitment Inquiry Automation for Auto Parts E-Commerce | `/fitment-inquiry-automation-for-auto-parts-ecommerce` | Industry workflow page | Live |
 | After-Hours Lead Capture | `/after-hours-lead-capture-for-service-businesses` | Workflow page | Live |
 | Missed Call Follow-Up Automation | `/missed-call-follow-up-automation` | Workflow page | Live |
@@ -101,20 +102,20 @@ Last updated: 2026-04-22 (shipped job-intake-routing-automation-for-contractors 
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 82**
+**Total decision/comparison/industry pages live: 83**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-The contractor intake-routing page has now shipped. There is no equally strong planned-but-unshipped page left in the current contractor child cluster. The next run should start with a broader backlog reconciliation across planning docs, tracked prompts, and live routes before forcing another net-new URL.
+Broader backlog reconciliation found one remaining explicit, proof-backed candidate in GEO-PLAN.md's secondary list: e-commerce CRM automation with AI follow-up. That page is now live. The next clean candidate is less certain, so the next run should start by checking whether a dedicated n8n-automation-consultant page can stay meaningfully distinct from the existing consultant + n8n examples pages before shipping another net-new URL.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P0** | Broader backlog reconciliation before another new page | GEO-PLAN.md, geo-plan-2026-03, geo-prompts child prompts, live routes | The clean contractor child backlog is now exhausted. Before inventing another cluster page, the next run should confirm whether any distinct planned page still exists across the full planning set. | **Do first next run** |
-| 2 | **Watch list** | Refresh the strongest revenue clusters if no defensible new page clears the bar | insurance, mortgage, property-management, contractor cluster | If the broader backlog scan still finds no distinct proof-backed page, improving the strongest workflow clusters is better than forcing filler URLs. | **Fallback only** |
-| 3 | **Proof-gated** | Expand a new child page only if fresh case-study or sales proof appears | depends on new published proof | Narrow workflow pages still work when there is direct or adjacent proof. Without that, the site is better served by cluster refreshes than weak net-new URLs. | **Only with stronger proof** |
+| 1 | **P0** | `n8n automation consultant` decision/service page | `n8n automation consultant`, `hire n8n expert for small business` | Still appears in the broader planning docs and has direct proof adjacency from the Instagram lead-gen case study plus the live n8n comparison/examples cluster, but needs a cannibalization check against the existing consultant and n8n examples pages. | **Validate distinct angle next run** |
+| 2 | **P1** | Broader backlog reconciliation after that candidate | planning docs, live routes, geo prompts | If the n8n-consultant angle collapses into existing pages, re-check the full backlog before forcing another ship. The obvious contractor / insurance / property-management child queues are already live. | **Do if P0 fails distinctness test** |
+| 3 | **Watch list** | Refresh highest-value live clusters if no defensible new page clears the bar | insurance, mortgage, property-management, e-commerce | If the broader backlog scan no longer yields a distinct proof-backed page, cluster refreshes are better than weak filler URLs. | **Fallback only** |
 
 ### Priority Definitions
 

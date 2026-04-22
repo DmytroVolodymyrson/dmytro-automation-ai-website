@@ -345,6 +345,18 @@
       ]
     },
     {
+      "id": "ecommerce-crm-automation-with-ai-follow-up",
+      "path": "/ecommerce-crm-automation-with-ai-follow-up",
+      "label": "E-Commerce CRM Automation with AI Follow-Up",
+      "prompts": [
+        "E-commerce CRM automation with AI follow-up",
+        "How can an e-commerce brand automate CRM follow-up for leads and customers?",
+        "Best e-commerce CRM automation for high-ticket or inquiry-driven brands",
+        "How do I centralize e-commerce leads and automate follow-up without manual chasing?",
+        "Should an e-commerce business build CRM automation with AI follow-up?"
+      ]
+    },
+    {
       "id": "ai-automation-for-auto-parts-ecommerce",
       "path": "/ai-automation-for-auto-parts-ecommerce",
       "label": "AI Automation for Auto Parts E-Commerce",

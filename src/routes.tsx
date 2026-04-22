@@ -56,6 +56,7 @@ import MaintenanceRequestAutomationForPropertyManagementCompanies from "./pages/
 import AiAutomationEcommerce from "./pages/AiAutomationEcommerce";
 import AiAutomationForAutoPartsEcommerce from "./pages/AiAutomationForAutoPartsEcommerce";
 import FitmentInquiryAutomationForAutoPartsEcommerce from "./pages/FitmentInquiryAutomationForAutoPartsEcommerce";
+import EcommerceCrmAutomationWithAiFollowUp from "./pages/EcommerceCrmAutomationWithAiFollowUp";
 import AfterHoursLeadCapture from "./pages/AfterHoursLeadCapture";
 import MissedCallFollowUp from "./pages/MissedCallFollowUp";
 import BookingConfirmationAndReminder from "./pages/BookingConfirmationAndReminder";
@@ -166,6 +167,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/maintenance-request-automation-for-property-management-companies", element: <MaintenanceRequestAutomationForPropertyManagementCompanies /> },
   { path: "/ai-automation-ecommerce", element: <AiAutomationEcommerce /> },
   { path: "/ai-automation-for-auto-parts-ecommerce", element: <AiAutomationForAutoPartsEcommerce /> },
+  { path: "/ecommerce-crm-automation-with-ai-follow-up", element: <EcommerceCrmAutomationWithAiFollowUp /> },
   {
     path: "/fitment-inquiry-automation-for-auto-parts-ecommerce",
     element: <FitmentInquiryAutomationForAutoPartsEcommerce />,
