@@ -589,6 +589,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Customer Service Automation for E-Commerce Brands",
+    description:
+      "A narrower e-commerce support page focused on order-status triage, return and refund intake, support-vs-sales routing, and the escalation rules that keep service quality high without burying high-intent buyers.",
+    href: "/customer-service-automation-for-ecommerce-brands",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Chiropractors",
     description:
       "AI automation for chiropractors. New patient intake, appointment scheduling, recall campaigns, no-show reduction, and review automation.",

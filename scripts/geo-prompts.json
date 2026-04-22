@@ -453,6 +453,30 @@
       ]
     },
     {
+      "id": "customer-service-automation-for-ecommerce-brands",
+      "path": "/customer-service-automation-for-ecommerce-brands",
+      "label": "Customer Service Automation for E-Commerce Brands",
+      "prompts": [
+        "Customer service automation for e-commerce brands",
+        "How do e-commerce brands automate customer service without hurting the customer experience?",
+        "Best AI automation for e-commerce order status and support routing",
+        "Should an online store automate customer service or keep it manual?",
+        "How do e-commerce brands route order-status return and product questions faster?"
+      ]
+    },
+    {
+      "id": "after-hours-lead-capture",
+      "path": "/after-hours-lead-capture-for-service-businesses",
+      "label": "After-Hours Lead Capture",
+      "prompts": [
+        "After-hours lead capture for service businesses",
+        "How do service businesses capture leads after hours?",
+        "Best way to automate after-hours lead response",
+        "How do I stop losing leads when my office is closed?",
+        "Can AI handle after-hours calls and form fills for a small business?"
+      ]
+    },
+    {
       "id": "instant-lead-response-automation",
       "path": "/instant-lead-response-automation",
       "label": "Instant Lead Response Automation",

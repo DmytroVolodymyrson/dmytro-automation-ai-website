@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped missed-call-text-back-for-restaurants and added it to tracking)
+Last updated: 2026-04-22 (shipped customer-service-automation-for-ecommerce-brands and added it to tracking)
 
 ## Live GEO Assets
 
@@ -70,6 +70,7 @@ Last updated: 2026-04-22 (shipped missed-call-text-back-for-restaurants and adde
 | n8n Automation Consultant for Small Business | `/n8n-automation-consultant` | Decision / service page | Live |
 | Fitment Inquiry Automation for Auto Parts E-Commerce | `/fitment-inquiry-automation-for-auto-parts-ecommerce` | Industry workflow page | Live |
 | Repeat-Purchase & Reactivation Automation for E-Commerce Brands | `/repeat-purchase-reactivation-automation-for-ecommerce-brands` | Industry lifecycle page | Live |
+| Customer Service Automation for E-Commerce Brands | `/customer-service-automation-for-ecommerce-brands` | Industry support workflow page | Live |
 | After-Hours Lead Capture | `/after-hours-lead-capture-for-service-businesses` | Workflow page | Live |
 | Missed Call Follow-Up Automation | `/missed-call-follow-up-automation` | Workflow page | Live |
 | Booking Confirmation & Reminder | `/booking-confirmation-and-reminder-automation` | Workflow page | Live |
@@ -108,20 +109,21 @@ Last updated: 2026-04-22 (shipped missed-call-text-back-for-restaurants and adde
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 89**
+**Total decision/comparison/industry pages live: 90**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/missed-call-text-back-for-restaurants` used the strongest remaining commercially distinct restaurant child angle left in the prompt set: an SMS-first recovery layer that starts only after a call is missed, instead of rephrasing the broader restaurant automation page, the restaurant voice-agent page, or the reservation-reminder page. After that ship, the clean remaining backlog looks even thinner. Nothing else in the current planning set stands out as a similarly defensible net-new page without drifting into obvious overlap or lower-confidence filler.
+Shipping `/customer-service-automation-for-ecommerce-brands` proved there is still at least one defensible net-new child page left inside the broader planning set when the angle is tightly bounded to a specific workflow layer. The new page was chosen because the original GEO planning explicitly targeted e-commerce customer-service intent, the current e-commerce parent page already referenced customer-service routing, and the published WheelsFeels + auto-parts proof gives honest adjacent support for a support-routing / post-purchase-service page without inventing a dedicated customer-service case study.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P0** | Broad backlog reconciliation pass before approving any more net-new pages | planning docs, live routes, geo prompts | The strongest remaining restaurant SMS-first child has now shipped. Re-check the full planning set before forcing another page; the backlog may now be effectively exhausted for high-confidence net-new ships. | **Required next run** |
-| 2 | **Fallback** | Strengthen restaurant and e-commerce cluster discovery if no clean new page survives review | restaurants, e-commerce lifecycle, internal linking, guide discovery | If the next reconciliation still finds only overlapping ideas, deepen the strongest clusters instead of publishing a filler page. | **Likely fallback** |
-| 3 | **Watch list** | AI automation ROI calculator or other low-confidence legacy ideas | calculator / tool concepts from older plans | These still appear in older planning docs but remain weaker than the proof-backed static pages already shipped. | **Defer** |
+| 1 | **P0** | HVAC scheduling and follow-up automation | HVAC scheduling and follow-up, dispatch/booking continuity, office-to-field handoff | This sub-intent is still present in the HVAC parent prompt set and GEO research, has stronger proof fit than most remaining ideas, and can be kept distinct from the broad HVAC page, HVAC lead follow-up, HVAC missed-call recovery, and the generic contractor dispatch page if it stays tightly focused on booked-job scheduling continuity and follow-through. | **Next best net-new candidate** |
+| 2 | **P1** | Real-estate lead response / follow-up child page | automate lead follow-up real estate, inbound response, showing-intent routing | Real-estate still only has the broad parent page live. There may still be room for a narrower child page, but the proof fit is weaker than HVAC and needs a more careful overlap check before shipping. | **Needs tighter proof review** |
+| 3 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | HVAC + e-commerce internal links, guide discovery, llm/llms surfacing | If the next reconciliation does not find another distinct proof-backed page, improve the strongest clusters instead of forcing filler. | **Fallback** |
+| 4 | **Watch list** | AI automation ROI calculator or other low-confidence legacy ideas | calculator / tool concepts from older plans | These still appear in older planning docs but remain weaker than the proof-backed static pages already shipped. | **Defer** |
 
 ### Priority Definitions
 

@@ -63,6 +63,7 @@ import AiAutomationForAutoPartsEcommerce from "./pages/AiAutomationForAutoPartsE
 import FitmentInquiryAutomationForAutoPartsEcommerce from "./pages/FitmentInquiryAutomationForAutoPartsEcommerce";
 import EcommerceCrmAutomationWithAiFollowUp from "./pages/EcommerceCrmAutomationWithAiFollowUp";
 import RepeatPurchaseReactivationAutomationForEcommerceBrands from "./pages/RepeatPurchaseReactivationAutomationForEcommerceBrands";
+import CustomerServiceAutomationForEcommerceBrands from "./pages/CustomerServiceAutomationForEcommerceBrands";
 import AfterHoursLeadCapture from "./pages/AfterHoursLeadCapture";
 import MissedCallFollowUp from "./pages/MissedCallFollowUp";
 import BookingConfirmationAndReminder from "./pages/BookingConfirmationAndReminder";
@@ -186,6 +187,10 @@ export const appRoutes: AppRouteDefinition[] = [
   {
     path: "/repeat-purchase-reactivation-automation-for-ecommerce-brands",
     element: <RepeatPurchaseReactivationAutomationForEcommerceBrands />,
+  },
+  {
+    path: "/customer-service-automation-for-ecommerce-brands",
+    element: <CustomerServiceAutomationForEcommerceBrands />,
   },
   { path: "/after-hours-lead-capture-for-service-businesses", element: <AfterHoursLeadCapture /> },
   { path: "/missed-call-follow-up-automation", element: <MissedCallFollowUp /> },
