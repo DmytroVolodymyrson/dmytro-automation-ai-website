@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped real-estate-lead-response-and-follow-up-automation and added it to tracking)
+Last updated: 2026-04-22 (shipped showing-coordination-automation-for-real-estate-teams and added it to tracking)
 
 ## Live GEO Assets
 
@@ -41,6 +41,7 @@ Last updated: 2026-04-22 (shipped real-estate-lead-response-and-follow-up-automa
 | AI Consultant Canada | `/ai-automation-consultant-canada` | Geo landing page | Live |
 | AI Automation for Real Estate | `/ai-automation-for-real-estate` | Industry page | Live |
 | Real Estate Lead Response and Follow-Up Automation | `/real-estate-lead-response-and-follow-up-automation` | Industry workflow page | Live |
+| Showing Coordination Automation for Real Estate Teams | `/showing-coordination-automation-for-real-estate-teams` | Industry workflow page | Live |
 | AI Automation for Mortgage Brokers | `/ai-automation-for-mortgage-brokers` | Industry page | Live |
 | AI Lead Follow-Up for Mortgage Brokers | `/ai-lead-follow-up-for-mortgage-brokers` | Industry workflow page | Live |
 | Document Collection Automation for Mortgage Brokers | `/document-collection-automation-for-mortgage-brokers` | Industry workflow page | Live |
@@ -111,19 +112,19 @@ Last updated: 2026-04-22 (shipped real-estate-lead-response-and-follow-up-automa
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 92**
+**Total decision/comparison/industry pages live: 93**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/real-estate-lead-response-and-follow-up-automation` confirmed there was still one defensible real-estate child page left when the angle stayed tightly bounded to first-response speed, showing-intent routing, nurture discipline, and agent handoff. The page was chosen because the roadmap queue, the parent real-estate tracking prompts, and the broader GEO research all still referenced automate-lead-follow-up real-estate intent, and the live real-estate parent plus adjacent inquiry-response / CRM proof supported the workflow without inventing a real-estate-specific case study.
+Shipping `/showing-coordination-automation-for-real-estate-teams` confirmed there was still another defensible real-estate child page left when the angle stayed tightly bounded to the inquiry-to-showing workflow instead of rehashing generic follow-up copy. The page was chosen because the live real-estate parent already tracked showing-coordination intent, the earlier lead-response child page covered a different stage, and the cluster still had honest adjacent proof without implying a published real-estate-specific showing case study.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Real-estate cluster strengthening only if no stronger page survives review | real-estate guides surfacing, llm/llms coverage, internal-link reinforcement | The strongest real-estate child page is now live. The next pass should only add maintenance or discovery improvements unless broader planning docs reveal another clearly distinct real-estate workflow stage with honest proof support. | **Maintenance-only fallback** |
-| 2 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | Real estate + HVAC + e-commerce discovery and internal links | If the next reconciliation does not find another distinct proof-backed page, improve the strongest clusters instead of forcing filler. | **Fallback** |
+| 1 | **P1** | Tenant communication automation for property management companies | property managers automate tenant communication with AI | The property-management parent still explicitly tracks tenant-communication intent, while the live child pages cover renewals, showings, and maintenance. A tightly bounded tenant-communication child page remains distinct if it stays focused on message triage, after-hours handling, routine updates, and human escalation. | **Planned** |
+| 2 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | real estate + property management + e-commerce discovery and internal links | If the next reconciliation still cannot support another distinct proof-backed page cleanly, improve the strongest clusters instead of forcing filler. | **Fallback** |
 | 3 | **Watch list** | AI automation ROI calculator or other low-confidence legacy ideas | calculator / tool concepts from older plans | These still appear in older planning docs but remain weaker than the proof-backed static pages already shipped. | **Defer** |
 
 ### Priority Definitions

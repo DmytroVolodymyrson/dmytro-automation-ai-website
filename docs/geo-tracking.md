@@ -47,6 +47,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - `/ai-voice-agent-for-restaurants`
 - `/missed-call-text-back-for-restaurants`
 - `/ai-automation-for-real-estate`
+- `/showing-coordination-automation-for-real-estate-teams`
 - `/ai-lead-follow-up-for-mortgage-brokers`
 - `/document-collection-automation-for-mortgage-brokers`
 - `/incomplete-application-follow-up-for-mortgage-brokers`

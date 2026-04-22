@@ -449,6 +449,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Showing Coordination Automation for Real Estate Teams",
+    description:
+      "A narrower real-estate scheduling page focused on inquiry-to-showing coordination, calendar rules, confirmations, reminders, no-show follow-up, and clean agent handoff before serious prospects cool off.",
+    href: "/showing-coordination-automation-for-real-estate-teams",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Mortgage Brokers",
     description:
       "AI automation for mortgage brokers. Lead follow-up, document collection, application nurture, and CRM workflows. Practical guide for brokerages.",

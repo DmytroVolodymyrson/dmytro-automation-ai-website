@@ -285,6 +285,18 @@
       ]
     },
     {
+      "id": "showing-coordination-automation-for-real-estate-teams",
+      "path": "/showing-coordination-automation-for-real-estate-teams",
+      "label": "Showing Coordination Automation for Real Estate Teams",
+      "prompts": [
+        "Showing coordination automation for real estate teams",
+        "How do real estate teams automate showing coordination?",
+        "Best way to schedule buyer showings without phone tag",
+        "Can AI automate showing reminders and follow-up for real estate leads?",
+        "How should a real estate team route showing-intent leads before a live agent handoff?"
+      ]
+    },
+    {
       "id": "ai-lead-follow-up-for-mortgage-brokers",
       "path": "/ai-lead-follow-up-for-mortgage-brokers",
       "label": "AI Lead Follow-Up for Mortgage Brokers",

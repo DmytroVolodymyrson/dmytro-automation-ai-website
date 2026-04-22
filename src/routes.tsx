@@ -38,6 +38,7 @@ import AiAutomationConsultantAlberta from "./pages/AiAutomationConsultantAlberta
 import AiAutomationConsultantCanada from "./pages/AiAutomationConsultantCanada";
 import AiAutomationForRealEstate from "./pages/AiAutomationForRealEstate";
 import RealEstateLeadResponseAndFollowUpAutomation from "./pages/RealEstateLeadResponseAndFollowUpAutomation";
+import ShowingCoordinationAutomationForRealEstateTeams from "./pages/ShowingCoordinationAutomationForRealEstateTeams";
 import AiAutomationForMortgageBrokers from "./pages/AiAutomationForMortgageBrokers";
 import AiLeadFollowUpForMortgageBrokers from "./pages/AiLeadFollowUpForMortgageBrokers";
 import DocumentCollectionAutomationForMortgageBrokers from "./pages/DocumentCollectionAutomationForMortgageBrokers";
@@ -161,6 +162,10 @@ export const appRoutes: AppRouteDefinition[] = [
   {
     path: "/real-estate-lead-response-and-follow-up-automation",
     element: <RealEstateLeadResponseAndFollowUpAutomation />,
+  },
+  {
+    path: "/showing-coordination-automation-for-real-estate-teams",
+    element: <ShowingCoordinationAutomationForRealEstateTeams />,
   },
   { path: "/ai-automation-for-mortgage-brokers", element: <AiAutomationForMortgageBrokers /> },
   { path: "/ai-lead-follow-up-for-mortgage-brokers", element: <AiLeadFollowUpForMortgageBrokers /> },

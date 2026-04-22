@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-showing-coordination-automation-for-real-estate-teams",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Showing Coordination Automation for Real Estate Teams\nBody: A real estate team does not lose momentum only because leads arrive slowly. It also loses momentum because a prospect wants to see a property, nobody answers fast enough, scheduling turns into phone tag, reminders are inconsistent, and the assigned agent gets pulled in too early or too late. Showing coordination automation fixes that narrow workflow. It responds fast, offers the right next scheduling path, keeps confirmations and reminders moving, and hands serious prospects to the right agent with context before the opportunity cools off.\nSub: Below: what showing coordination automation actually handles, how it differs from broader real-estate automation and the lead-response child page, what guardrails matter, and what adjacent proof supports this page honestly.\n\n### Core sections\n- What showing coordination automation actually handles\n- Showing coordination vs. broader real-estate workflows\n- Important guardrails for real-estate showing workflows\n- How a practical showing coordination system usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about automating real-estate showing coordination\n\n### Final CTA\nHeading: Want more showing-intent leads to turn into actual appointments?\nBody: Book a 30-minute call. We will look at how your team handles inquiry-to-showing coordination today, where prospects are getting stuck, and whether a focused showing workflow is the highest-leverage automation to build before anything broader.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Narrow child page under the real-estate cluster; intentionally focused on the inquiry-to-showing workflow instead of broad real-estate automation or generic lead-response copy."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses adjacent proof from the real-estate parent page, the real-estate lead-response workflow page, and published scheduling / inquiry-handling proof instead of implying a real-estate-specific showing case study exists."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the tone operational and non-hype: calendar rules, reminders, no-show recovery, assignment logic, and human handoff when the conversation stops being routine."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks back to the parent real-estate page, the lead-response child page, booking/reminder guidance, and the guides hub so the cluster stays coherent for both users and crawlers."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T18:21:05.100Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 20.1,
+      "sentenceLengthRange": [
+        5,
+        36
+      ],
+      "totalWords": 221
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Showing Coordination Automation for Real Estate Teams\nBody: A real estate team does not lose momentum only because leads arrive slowly.",
+      "wordCount": 23,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want more showing-intent leads to turn into actual appointments?\nBody: Book a 30-minute call. We will look at how your team handles inquiry-to-showing coordination today, where prospects are getting stuck, and whether a focused showing workflow is the highest-leverage automation to build before anything broader.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 12,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 7,
+      "commasPerSentence": 1.33
+    },
+    "vocabulary": {
+      "distinctWords": 135,
+      "totalWords": 221,
+      "topWords": [
+        [
+          "showing",
+          9
+        ],
+        [
+          "coordination",
+          8
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "real-estate",
+          4
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "handles",
+          3
+        ],
+        [
+          "how",
+          3
+        ],
+        [
+          "broader",
+          3
+        ],
+        [
+          "page",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "real",
+          2
+        ],
+        [
+          "estate",
+          2
+        ],
+        [
+          "body",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.009
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
