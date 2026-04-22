@@ -249,6 +249,18 @@
       ]
     },
     {
+      "id": "renewal-reminder-automation-for-insurance-agencies",
+      "path": "/renewal-reminder-automation-for-insurance-agencies",
+      "label": "Renewal Reminder Automation for Insurance Agencies",
+      "prompts": [
+        "Renewal reminder automation for insurance agencies",
+        "How do insurance agencies automate renewal reminders?",
+        "Best way to keep more insurance renewals from slipping through the cracks",
+        "How should an insurance agency automate renewal follow-up without losing the human touch?",
+        "Insurance renewal reminder workflow for independent agencies"
+      ]
+    },
+    {
       "id": "ai-automation-for-property-management",
       "path": "/ai-automation-for-property-management",
       "label": "AI Automation for Property Management",

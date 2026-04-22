@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-21 (shipped incomplete-application-follow-up-for-mortgage-brokers and added it to tracking)
+Last updated: 2026-04-21 (shipped renewal-reminder-automation-for-insurance-agencies and added it to tracking)
 
 ## Live GEO Assets
 
@@ -49,6 +49,7 @@ Last updated: 2026-04-21 (shipped incomplete-application-follow-up-for-mortgage-
 | n8n Automation Examples (SMB) | `/n8n-automation-examples-small-business` | Authority page | Live |
 | AI Email Sequence Automation | `/ai-email-sequence-automation` | Workflow page | Live |
 | AI Automation for Insurance Agencies | `/ai-automation-for-insurance-agencies` | Industry page | Live |
+| Renewal Reminder Automation for Insurance Agencies | `/renewal-reminder-automation-for-insurance-agencies` | Industry workflow page | Live |
 | AI Automation for Property Management | `/ai-automation-for-property-management` | Industry page | Live |
 | AI Automation for E-Commerce Brands | `/ai-automation-ecommerce` | Industry page | Live |
 | AI Automation for Auto Parts E-Commerce | `/ai-automation-for-auto-parts-ecommerce` | Industry page | Live |
@@ -91,19 +92,19 @@ Last updated: 2026-04-21 (shipped incomplete-application-follow-up-for-mortgage-
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 72**
+**Total decision/comparison/industry pages live: 73**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-The broad GEO backlog is now even thinner. The mortgage cluster produced one more defensible child page with distinct intent: incomplete application follow-up sits cleanly between first-response automation and document collection. After this ship, keep biasing toward commercially distinct child pages only when the workflow stage is clearly different and the proof framing stays honest.
+The broad GEO backlog is still thin, but the insurance cluster had one more defensible child page: renewal reminders are commercially distinct from the broader insurance-industry page because they sit at the retention stage, not the new-business stage. After this ship, keep biasing toward child pages only when the workflow stage is clearly different and the proof framing stays honest.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Recommended next** | Refresh the mortgage cluster if no stronger child page surfaces | Improve citation readiness on the strongest revenue-adjacent pages | After shipping the mortgage incomplete-application child page, the next highest-confidence move is likely tightening internal links, proof framing, FAQ coverage, and tracking across the mortgage cluster rather than forcing a weaker new URL. | **Best next action unless a stronger net-new page surfaces** |
-| 2 | **Watch list** | Renewal reminder automation for insurance agencies | "how do insurance agencies automate renewal reminders" | This is the clearest remaining workflow child page with direct commercial value and real adjacency inside an already-live parent page. It stays distinct from the broader insurance page if it focuses tightly on recurring-policy retention, reminder timing, and producer handoff. | **Possible next net-new page** |
+| 1 | **Recommended next** | Lease renewal automation for property management companies | "how do property managers automate lease renewal follow-up" | This is the cleanest remaining child-page candidate with distinct intent inside an already-live parent vertical. It focuses on recurring-renewal retention, reminder timing, and manager handoff rather than rehashing general property-management automation. | **Possible next net-new page** |
+| 2 | **Watch list** | Refresh insurance + mortgage cluster if no stronger child page surfaces | Improve citation readiness on the strongest revenue-adjacent pages | After shipping the insurance renewal page, the safest fallback is tightening internal links, proof framing, FAQ coverage, and tracking across the insurance and mortgage clusters rather than forcing a weaker new URL. | **Best maintenance fallback** |
 | 3 | **Deferred** | AI Automation ROI Calculator | "is AI automation worth it small business" | Still exists in the oldest GEO plan, but the pattern matrix continues to warn against thin calculator/tool pages without stronger surrounding static content and validation first. Existing ROI and cost guides already cover most of the intent. | **Deferred unless supported by stronger static content** |
 
 ### Priority Definitions

@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-21-renewal-reminder-automation-for-insurance-agencies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-21",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: Renewal Reminder Automation for Insurance Agencies\nBody: Insurance agencies do not lose clients at renewal only because a competitor had a better rate. They also lose them because outreach happened too late, nobody followed up after the first notice, or the producer only found the account after the client had already gone quiet. Renewal reminder automation fixes that specific retention workflow. It starts the outreach on time, changes the sequence based on account value and response, and makes sure producers step in where a real conversation matters instead of relying on memory and calendar chaos.\nSub: Below: what renewal reminder automation actually handles, when it is worth building, how to keep it compliant, and what adjacent proof supports this page without pretending there is a published insurance-specific renewal case study.\n\n### Core sections\n- What renewal reminder automation actually handles\n- Renewal reminder automation vs. broader insurance automation\n- Important guardrails for renewal workflows\n- How a practical renewal reminder system usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about automating insurance renewal reminders\n\n### Final CTA\nHeading: Want a cleaner renewal process without more manual chasing?\nBody: Book a 30-minute call. We will look at how your agency handles renewals today, where reminder timing breaks down, and whether a focused renewal workflow is the highest-leverage automation to build next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Narrow child page under the insurance cluster; intentionally retention-stage specific rather than a generic insurance automation rewrite."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses adjacent proof from the insurance parent page plus the CRM automation case study instead of implying a published insurance-specific renewal case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the tone practical and operator-oriented: timing, escalation, segmentation, and producer handoff."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks back to the parent insurance page, email sequence automation, and client reactivation."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T01:20:06.572Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 20.4,
+      "sentenceLengthRange": [
+        5,
+        35
+      ],
+      "totalWords": 224
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Renewal Reminder Automation for Insurance Agencies\nBody: Insurance agencies do not lose clients at renewal only because a competitor had a better rate.",
+      "wordCount": 25,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a cleaner renewal process without more manual chasing?\nBody: Book a 30-minute call. We will look at how your agency handles renewals today, where reminder timing breaks down, and whether a focused renewal workflow is the highest-leverage automation to build next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 9,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 7,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 142,
+      "totalWords": 224,
+      "topWords": [
+        [
+          "renewal",
+          12
+        ],
+        [
+          "reminder",
+          7
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "insurance",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "handles",
+          3
+        ],
+        [
+          "how",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "agencies",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "lose",
+          2
+        ],
+        [
+          "only",
+          2
+        ],
+        [
+          "because",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

@@ -470,6 +470,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Renewal Reminder Automation for Insurance Agencies",
+    description:
+      "A narrower insurance-retention page focused on recurring-policy reminders, escalation timing, producer handoff, and the operational discipline needed to keep more renewals from quietly slipping.",
+    href: "/renewal-reminder-automation-for-insurance-agencies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Property Management",
     description:
       "AI automation for property management companies. Tenant communication, maintenance requests, lease renewals, showing scheduling, and owner reporting.",
