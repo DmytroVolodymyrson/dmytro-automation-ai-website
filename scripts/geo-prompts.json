@@ -213,6 +213,18 @@
       ]
     },
     {
+      "id": "what-does-an-ai-automation-consultant-do",
+      "path": "/what-does-an-ai-automation-consultant-do",
+      "label": "What Does an AI Automation Consultant Actually Do?",
+      "prompts": [
+        "What does an AI automation consultant actually do?",
+        "What does an AI automation consultant do for a small business?",
+        "What should an AI automation consultant help with before building anything?",
+        "What deliverables should I expect from an AI automation consultant?",
+        "Do I need an AI automation consultant or just someone to set up tools?"
+      ]
+    },
+    {
       "id": "ai-automation-consultant-pricing-small-business",
       "path": "/ai-automation-consultant-pricing-small-business",
       "label": "AI Automation Consultant Pricing for Small Business",

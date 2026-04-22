@@ -18,6 +18,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - `/ai-automation-consultant-pricing-small-business`
 - `/ai-automation-consultant-vs-freelancer`
 - `/how-to-hire-ai-automation-consultant`
+- `/what-does-an-ai-automation-consultant-do`
 - `/build-vs-buy-ai-automation`
 - `/vapi-vs-retell-small-business`
 - `/ai-appointment-setter-vs-receptionist`

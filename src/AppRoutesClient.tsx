@@ -9,6 +9,7 @@ const InstagramLeadGenerationCaseStudy = lazy(() => import("./pages/case-studies
 const ParisCafeVoiceAgentCaseStudy = lazy(() => import("./pages/case-studies/ParisCafeVoiceAgentCaseStudy"));
 const EcommerceCRMCaseStudy = lazy(() => import("./pages/case-studies/EcommerceCRMCaseStudy"));
 const AiAutomationConsultantSmallBusiness = lazy(() => import("./pages/AiAutomationConsultantSmallBusiness"));
+const WhatDoesAnAiAutomationConsultantDo = lazy(() => import("./pages/WhatDoesAnAiAutomationConsultantDo"));
 const Guides = lazy(() => import("./pages/Guides"));
 const N8nVsZapierSmallBusiness = lazy(() => import("./pages/N8nVsZapierSmallBusiness"));
 const AiAppointmentSetter = lazy(() => import("./pages/AiAppointmentSetter"));
@@ -123,6 +124,7 @@ const AppRoutesClient = () => (
       <Route path="/case-studies/paris-cafe-voice-agent" element={<ParisCafeVoiceAgentCaseStudy />} />
       <Route path="/case-studies/ecommerce-crm-automation" element={<EcommerceCRMCaseStudy />} />
       <Route path="/ai-automation-consultant-small-business" element={<AiAutomationConsultantSmallBusiness />} />
+      <Route path="/what-does-an-ai-automation-consultant-do" element={<WhatDoesAnAiAutomationConsultantDo />} />
       <Route path="/guides" element={<Guides />} />
       <Route path="/n8n-vs-zapier-small-business" element={<N8nVsZapierSmallBusiness />} />
       <Route path="/ai-appointment-setter" element={<AiAppointmentSetter />} />

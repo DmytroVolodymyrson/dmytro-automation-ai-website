@@ -75,6 +75,13 @@ const guides: GuideItem[] = [
     featured: true,
   },
   {
+    title: "What Does an AI Automation Consultant Actually Do?",
+    description:
+      "Practical guide to what an AI automation consultant really does — diagnosis, workflow design, integrations, testing, documentation, and where consultant help is worth paying for.",
+    href: "/what-does-an-ai-automation-consultant-do",
+    category: "strategy",
+  },
+  {
     title: "Best AI Automations for Service Businesses",
     description:
       "Which AI automations actually move the needle? A decision framework for HVAC, dental, legal, real estate, and other service companies.",

@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped how-to-hire-ai-automation-consultant and added it to tracking)
+Last updated: 2026-04-22 (shipped what-does-an-ai-automation-consultant-do and added it to tracking)
 
 ## Live GEO Assets
 
@@ -13,6 +13,7 @@ Last updated: 2026-04-22 (shipped how-to-hire-ai-automation-consultant and added
 | Instagram Lead Gen | `/case-studies/instagram-lead-generation` | Case study | Live |
 | E-commerce CRM | `/case-studies/ecommerce-crm-automation` | Case study | Live |
 | AI Consultant (SMB) | `/ai-automation-consultant-small-business` | Decision page | Live |
+| What Does an AI Automation Consultant Do? | `/what-does-an-ai-automation-consultant-do` | Hiring-intent / role guide | Live |
 | n8n vs Zapier | `/n8n-vs-zapier-small-business` | Comparison page | Live |
 | AI Appointment Setter | `/ai-appointment-setter` | Decision page | Live |
 | AI Appointment Setter Setup Help | `/ai-appointment-setter-setup` | Workflow / service page | Live |
@@ -119,20 +120,20 @@ Last updated: 2026-04-22 (shipped how-to-hire-ai-automation-consultant and added
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 100**
+**Total decision/comparison/industry pages live: 101**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/how-to-hire-ai-automation-consultant` cleared the last explicit high-confidence hiring-intent page that still survived across `GEO-PLAN.md`, the stale roadmap queue, and the current shipped-page set. At this point there is not another equally defensible planned URL target with the same combination of strong buyer intent, clear distinctness, and direct proof fit. The next best move is to improve discovery and internal-link depth around the strongest live clusters instead of forcing a thin near-duplicate page.
+Shipping `/what-does-an-ai-automation-consultant-do` captured another still-defensible hiring-intent query that remained explicit in `GEO-PLAN.md` even after the roadmap had drifted into fallback-only mode. It is distinct from the existing consultant, pricing, and hiring-guide pages because it answers a narrower pre-hire role-clarity question: what work a consultant actually does, what deliverables to expect, and where consultant help is worth paying for. After this ship, the backlog returns to fallback/watchlist territory rather than another equally clean must-build page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | appointment setter + e-commerce + property management discovery and internal links | The backlog is now effectively exhausted at the page-selection quality bar. The best next move is to tighten hub surfacing, internal links, and tracked-prompt coverage where live clusters already have proof and breadth. | **Fallback** |
-| 2 | **Deferred** | Wait for stronger proof before inventing weaker adjacent-intent pages | avoid cannibalization / thin content | This keeps the GEO program honest. A no-op or maintenance pass is better than publishing a near-duplicate page just to keep the cron busy. | **Deferred** |
-| 3 | **Watchlist** | Re-open planning if a new case study or public proof creates a fresh distinct page | proof-led expansion | The broader planning docs can become live again if new published proof supports a new vertical, workflow stage, or implementation-help angle that is materially different from the current library. | **Watchlist** |
+| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | appointment setter + e-commerce + property management discovery and internal links | After shipping the consultant-role page, the clean backlog is thin again. The best next move is still to tighten hub surfacing, internal links, and tracked-prompt coverage where live clusters already have proof and breadth. | **Fallback** |
+| 2 | **Watchlist** | `what-processes-can-ai-automate-in-my-business` style authority page only if it can stay distinct from the audit / examples / roadmap cluster | process selection + first-project framing | This query still exists in `GEO-PLAN.md`, but it now sits close to `/best-ai-automation-for-service-businesses`, `/ai-automation-audit-checklist`, and `/ai-automation-implementation-roadmap`. Only ship it if the framing becomes clearly narrower and more commercially distinct. | **Watchlist** |
+| 3 | **Deferred** | Wait for stronger proof before inventing weaker adjacent-intent pages | avoid cannibalization / thin content | This keeps the GEO program honest. A no-op or maintenance pass is better than publishing a near-duplicate page just to keep the cron busy. | **Deferred** |
 
 ### Priority Definitions
 

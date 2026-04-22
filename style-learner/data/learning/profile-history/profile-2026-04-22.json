@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-22T21:49:45.684Z",
-  "postCount": 115,
+  "updatedAt": "2026-04-22T22:21:57.008Z",
+  "postCount": 116,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,25 +15,25 @@
       "max": 11,
       "p25": 4,
       "p75": 5,
-      "samples": 115
+      "samples": 116
     },
     "sentenceLength": {
       "mean": 18.7,
-      "median": 17.6,
+      "median": 17.65,
       "min": 7.1,
       "max": 105,
       "p25": 14.6,
       "p75": 20.7,
-      "samples": 115
+      "samples": 116
     },
     "totalWords": {
-      "mean": 246.1,
-      "median": 216,
+      "mean": 246.8,
+      "median": 218,
       "min": 17,
       "max": 1155,
       "p25": 170,
       "p75": 284,
-      "samples": 115
+      "samples": 116
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -70,7 +70,7 @@
       "single | single | long | single | short | short": 2,
       "single | single | long | short | long | single": 1,
       "long | long | long | long": 4,
-      "long | long | single | long": 15,
+      "long | long | single | long": 16,
       "single | long | long": 1,
       "long | short | long | long": 4,
       "long | single | long | long": 7,
@@ -97,7 +97,7 @@
       "opener | product-pitch | product-pitch | result | context | product-pitch | context | product-pitch | product-pitch | closer": 1,
       "opener | context | context | context | result | product-pitch | context | context | closer": 1,
       "opener | context | product-pitch | closer": 8,
-      "opener | context | context | closer": 43,
+      "opener | context | context | closer": 44,
       "opener | product-pitch | context | closer": 11,
       "opener | context | product-pitch | context | product-pitch | result | context | closer": 1,
       "opener | product-pitch | product-pitch | closer": 4,
@@ -142,7 +142,7 @@
         ]
       },
       "question": {
-        "count": 3,
+        "count": 4,
         "examples": [
           "Q: What kind of businesses do you work with?",
           "### Hero\nBadge: AI Automation Consulting\nHeading: Do you actually need an AI aut",
@@ -168,7 +168,7 @@
         ]
       },
       "question": {
-        "count": 69,
+        "count": 70,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -201,15 +201,15 @@
     "topWords": [
       [
         "-",
-        743
+        747
       ],
       [
         "automation",
-        450
+        453
       ],
       [
         "what",
-        285
+        292
       ],
       [
         "your",
@@ -217,7 +217,7 @@
       ],
       [
         "ai",
-        246
+        250
       ],
       [
         "follow-up",
@@ -245,7 +245,7 @@
       ],
       [
         "that",
-        97
+        100
       ],
       [
         "body",
@@ -272,6 +272,14 @@
         58
       ],
       [
+        "business",
+        54
+      ],
+      [
+        "consultant",
+        54
+      ],
+      [
         "crm",
         53
       ],
@@ -280,8 +288,8 @@
         53
       ],
       [
-        "business",
-        51
+        "workflow",
+        50
       ],
       [
         "when",
@@ -292,16 +300,12 @@
         47
       ],
       [
-        "workflow",
-        47
+        "page",
+        46
       ],
       [
         "calls",
         45
-      ],
-      [
-        "consultant",
-        44
       ],
       [
         "agent",
@@ -312,12 +316,8 @@
         44
       ],
       [
-        "page",
-        43
-      ],
-      [
         "from",
-        40
+        43
       ]
     ],
     "casualMarkerRate": 0,

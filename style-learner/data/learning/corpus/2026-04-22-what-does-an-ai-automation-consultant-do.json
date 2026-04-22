@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-what-does-an-ai-automation-consultant-do",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: What Does an AI Automation Consultant Actually Do?\nBody: An AI automation consultant is not just someone who connects a few apps or prompts ChatGPT for you. The real job is to identify the business process that is leaking time or revenue, decide what should be automated and what should stay human, build the workflow across your real tools, and leave you with something your team can actually trust in production. For a small business, that usually means lead response, CRM routing, missed-call recovery, booking flow, onboarding, follow-up, or customer-facing AI that cannot afford to fail silently.\nSub: Below: what the job really includes, what deliverables you should expect, where consultants add value beyond a generic freelancer or VA, and when paying for consultant help is smarter than stitching together tools yourself.\n\n### Core sections\n- Defines the consultant role in concrete operational terms: diagnose the bottleneck, design the workflow, connect the stack, test edge cases, and hand off something reliable.\n- Keeps the page distinct from the broader consultant page and the hiring guide by centering role clarity and deliverables rather than pricing, vetting, or consultant-vs-agency tradeoffs.\n- Includes expected outputs, good-fit / not-fit framing, real-world consultant value, hiring-screen questions, and realistic timeline expectations.\n- Uses published proof from Paris Cafe, WheelsFeels, and the n8n consultant page as direct or adjacent evidence without inventing a new vertical claim.\n\n### FAQ\nSubhead: Straight answers for owners trying to understand the role before they hire anyone\nTopics: what an AI automation consultant does for a small business, how the role differs from a freelancer or operator, whether code is always required, what to prepare before a call, and whether an ongoing retainer is actually necessary.\n\n### Final CTA\nHeading: Need help deciding whether consultant work is even the right move?\nBody: Book a 30-minute call. We will look at the workflow you want to improve, decide whether consultant help actually makes sense, and map the narrowest high-ROI system worth building first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because `GEO-PLAN.md` still explicitly targeted the query “what does an AI automation consultant actually do,” and that intent remained commercially valid even after the roadmap had drifted to fallback-only mode."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page distinct from /ai-automation-consultant-small-business, /how-to-hire-ai-automation-consultant, and /ai-automation-consultant-pricing-small-business by focusing on role clarity, deliverables, and workflow ownership."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype, with explicit boundaries around when consultant help is not the right move yet."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T22:21:56.978Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 25.2,
+      "sentenceLengthRange": [
+        5,
+        54
+      ],
+      "totalWords": 328
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nHeading: What Does an AI Automation Consultant Actually Do?",
+      "wordCount": 10,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help deciding whether consultant work is even the right move?\nBody: Book a 30-minute call. We will look at the workflow you want to improve, decide whether consultant help actually makes sense, and map the narrowest high-ROI system worth building first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 31,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 9,
+      "commasPerSentence": 2.38
+    },
+    "vocabulary": {
+      "distinctWords": 206,
+      "totalWords": 328,
+      "topWords": [
+        [
+          "consultant",
+          10
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "actually",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "role",
+          4
+        ],
+        [
+          "whether",
+          4
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "business",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "should",
+          3
+        ],
+        [
+          "workflow",
+          3
+        ],
+        [
+          "help",
+          3
+        ],
+        [
+          "page",
+          3
+        ],
+        [
+          "from",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}
