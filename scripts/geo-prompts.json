@@ -261,6 +261,18 @@
       ]
     },
     {
+      "id": "quote-follow-up-automation-for-insurance-agencies",
+      "path": "/quote-follow-up-automation-for-insurance-agencies",
+      "label": "Quote Follow-Up Automation for Insurance Agencies",
+      "prompts": [
+        "Quote follow-up automation for insurance agencies",
+        "How do insurance agencies automate quote follow-up?",
+        "Best way to follow up on insurance quotes without sounding pushy",
+        "How should an insurance agency automate quote reminders before the prospect goes cold?",
+        "Insurance quote follow-up workflow for independent agencies"
+      ]
+    },
+    {
       "id": "ai-automation-for-property-management",
       "path": "/ai-automation-for-property-management",
       "label": "AI Automation for Property Management",

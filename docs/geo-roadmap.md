@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-21 (shipped lease-renewal-automation-for-property-management-companies and added it to tracking)
+Last updated: 2026-04-21 (shipped quote-follow-up-automation-for-insurance-agencies and added it to tracking)
 
 ## Live GEO Assets
 
@@ -50,6 +50,7 @@ Last updated: 2026-04-21 (shipped lease-renewal-automation-for-property-manageme
 | AI Email Sequence Automation | `/ai-email-sequence-automation` | Workflow page | Live |
 | AI Automation for Insurance Agencies | `/ai-automation-for-insurance-agencies` | Industry page | Live |
 | Renewal Reminder Automation for Insurance Agencies | `/renewal-reminder-automation-for-insurance-agencies` | Industry workflow page | Live |
+| Quote Follow-Up Automation for Insurance Agencies | `/quote-follow-up-automation-for-insurance-agencies` | Industry workflow page | Live |
 | AI Automation for Property Management | `/ai-automation-for-property-management` | Industry page | Live |
 | Lease Renewal Automation for Property Management Companies | `/lease-renewal-automation-for-property-management-companies` | Industry workflow page | Live |
 | AI Automation for E-Commerce Brands | `/ai-automation-ecommerce` | Industry page | Live |
@@ -93,20 +94,20 @@ Last updated: 2026-04-21 (shipped lease-renewal-automation-for-property-manageme
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 74**
+**Total decision/comparison/industry pages live: 75**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-The cleanest remaining child-page candidate has now shipped in the property-management cluster. At this point there is no equally strong net-new page still validated by both the current proof set and the broader planning docs. The default next run should still re-check the broader backlog first, but the safest current move is maintenance until a distinct new page is revalidated.
+The strongest newly validated insurance child-page candidate has now shipped. The queue is not empty, but the remaining candidates need a little more proof discipline than the insurance quote-follow-up page did.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Recommended next** | Refresh insurance + mortgage cluster if no stronger child page surfaces | Improve citation readiness on the strongest revenue-adjacent pages | The highest-confidence next action is tightening internal links, proof framing, FAQ coverage, and tracking on the insurance and mortgage workflow cluster rather than forcing a weaker new URL. | **Best maintenance fallback** |
-| 2 | **Revalidation candidate** | AI Automation ROI Calculator | "is AI automation worth it small business" | Still exists in the oldest GEO plan, but the pattern matrix continues to warn against thin calculator/tool pages without stronger surrounding static content and validation first. Existing ROI and cost guides already cover most of the intent, so only revisit if a stronger static companion approach is defined. | **Deferred / requires stronger framing** |
-| 3 | **Revalidation candidate** | Broader backlog sweep across GEO-PLAN.md + geo-plan-2026-03.md | Find any still-distinct unshipped page with real proof fit | If a future run finds a commercially distinct page that does not merely rephrase an existing live asset, it can replace the maintenance fallback. Right now the high-confidence net-new queue is effectively exhausted. | **Needs fresh reconciliation before shipping** |
+| 1 | **Recommended next** | Showing Coordination Automation for Property Management Companies | "Should a property management company use AI for showing coordination?" | The property-management parent prompts already surface showing coordination as a distinct operational job, and the page would be meaningfully different from both the broad parent page and the lease-renewal child page if it stays tightly focused on inquiry routing, scheduling friction, and manager handoff. | **Revalidation candidate** |
+| 2 | **Recommended next** | Cross-Sell Automation for Insurance Agencies | "How can insurance agencies automate cross-sell campaigns?" | The insurance parent page already frames cross-sell as a core revenue workflow. This could become a valid sibling page if it stays narrowly focused on book segmentation, timing, and producer escalation rather than rehashing the whole parent page. | **Revalidation candidate** |
+| 3 | **Fallback** | Refresh insurance + mortgage cluster if neither child page clears proof review | Improve citation readiness on the strongest revenue-adjacent pages | If the next run cannot validate a distinct new child page cleanly, the safest move is still tightening proof framing, internal links, FAQ coverage, and tracking on the insurance and mortgage workflow cluster instead of forcing a weak new URL. | **Best maintenance fallback** |
 
 ### Priority Definitions
 

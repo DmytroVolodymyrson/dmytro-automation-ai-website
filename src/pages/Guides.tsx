@@ -477,6 +477,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Quote Follow-Up Automation for Insurance Agencies",
+    description:
+      "A narrower insurance new-business page focused on quote-stage follow-up, objection-aware messaging, expiration reminders, and producer handoff before quoted prospects go cold.",
+    href: "/quote-follow-up-automation-for-insurance-agencies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Property Management",
     description:
       "AI automation for property management companies. Tenant communication, maintenance requests, lease renewals, showing scheduling, and owner reporting.",

@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-21-quote-follow-up-automation-for-insurance-agencies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-21",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: Quote Follow-Up Automation for Insurance Agencies\nBody: Insurance quote pipelines do not leak only because the premium was too high. They also leak because the prospect requested a quote, got the proposal, then heard almost nothing after that. A producer gets busy. The follow-up email is delayed. Nobody answers the common objection until the client has already moved on to the faster agency. Quote follow-up automation fixes that narrow new-business workflow. It keeps prospects warm after the quote goes out, answers the next obvious question, and routes serious buying signals to a producer before the opportunity dies in the CRM.\nSub: Below: what insurance quote follow-up automation actually handles, how it differs from broader insurance automation and renewal campaigns, what guardrails matter, and what adjacent proof supports this page without pretending there is a published insurance-specific quote-follow-up case study.\n\n### Core sections\n- What insurance quote follow-up automation actually handles\n- Quote follow-up automation vs. broader insurance automation vs. renewal workflows\n- Important guardrails for insurance quote-follow-up workflows\n- How a practical insurance quote follow-up system usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about automating insurance quote follow-up\n\n### Final CTA\nHeading: Want more quoted opportunities to actually turn into policies?\nBody: Book a 30-minute call. We will look at how your agency handles quote follow-up today, where opportunities go cold, and whether a focused quote-follow-up workflow is the highest-leverage automation to build before anything broader.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Narrow child page under the insurance cluster; intentionally new-business quote-stage specific rather than a generic insurance rewrite."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses adjacent proof from the insurance parent page plus the CRM automation case study instead of implying a published insurance-specific quote-follow-up case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the tone operational and non-hype: timing, objection handling, producer handoff, and stage visibility."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks back to the parent insurance page, the renewal child page, and the broader quote-follow-up guide."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T03:20:44.294Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        3,
+        1,
+        3
+      ],
+      "avgSentenceLength": 16.1,
+      "sentenceLengthRange": [
+        4,
+        39
+      ],
+      "totalWords": 241
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Quote Follow-Up Automation for Insurance Agencies\nBody: Insurance quote pipelines do not leak only because the premium was too high.",
+      "wordCount": 22,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want more quoted opportunities to actually turn into policies?\nBody: Book a 30-minute call. We will look at how your agency handles quote follow-up today, where opportunities go cold, and whether a focused quote-follow-up workflow is the highest-leverage automation to build before anything broader.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 12,
+      "commas": 9,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 7,
+      "commasPerSentence": 0.69
+    },
+    "vocabulary": {
+      "distinctWords": 142,
+      "totalWords": 241,
+      "topWords": [
+        [
+          "quote",
+          11
+        ],
+        [
+          "follow-up",
+          9
+        ],
+        [
+          "insurance",
+          9
+        ],
+        [
+          "automation",
+          8
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "actually",
+          3
+        ],
+        [
+          "handles",
+          3
+        ],
+        [
+          "how",
+          3
+        ],
+        [
+          "broader",
+          3
+        ],
+        [
+          "quote-follow-up",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "leak",
+          2
+        ],
+        [
+          "because",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
