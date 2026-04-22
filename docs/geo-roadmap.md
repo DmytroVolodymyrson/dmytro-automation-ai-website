@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped hvac-scheduling-and-follow-up-automation and added it to tracking)
+Last updated: 2026-04-22 (shipped real-estate-lead-response-and-follow-up-automation and added it to tracking)
 
 ## Live GEO Assets
 
@@ -40,6 +40,7 @@ Last updated: 2026-04-22 (shipped hvac-scheduling-and-follow-up-automation and a
 | AI Consultant Alberta | `/ai-automation-consultant-alberta` | Geo landing page | Live |
 | AI Consultant Canada | `/ai-automation-consultant-canada` | Geo landing page | Live |
 | AI Automation for Real Estate | `/ai-automation-for-real-estate` | Industry page | Live |
+| Real Estate Lead Response and Follow-Up Automation | `/real-estate-lead-response-and-follow-up-automation` | Industry workflow page | Live |
 | AI Automation for Mortgage Brokers | `/ai-automation-for-mortgage-brokers` | Industry page | Live |
 | AI Lead Follow-Up for Mortgage Brokers | `/ai-lead-follow-up-for-mortgage-brokers` | Industry workflow page | Live |
 | Document Collection Automation for Mortgage Brokers | `/document-collection-automation-for-mortgage-brokers` | Industry workflow page | Live |
@@ -110,21 +111,20 @@ Last updated: 2026-04-22 (shipped hvac-scheduling-and-follow-up-automation and a
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 91**
+**Total decision/comparison/industry pages live: 92**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/hvac-scheduling-and-follow-up-automation` confirmed there was still one defensible HVAC child page left when the angle stayed tightly bounded to the post-booking layer: confirmations, reminders, reschedules, dispatch continuity, and office-to-field handoff. The page was chosen because the roadmap queue, the HVAC tracking prompt set, and the broader GEO research all still referenced HVAC scheduling/follow-up intent, and the existing HVAC cluster plus dispatch-handoff adjacency gave honest proof without inventing an HVAC-only scheduling case study.
+Shipping `/real-estate-lead-response-and-follow-up-automation` confirmed there was still one defensible real-estate child page left when the angle stayed tightly bounded to first-response speed, showing-intent routing, nurture discipline, and agent handoff. The page was chosen because the roadmap queue, the parent real-estate tracking prompts, and the broader GEO research all still referenced automate-lead-follow-up real-estate intent, and the live real-estate parent plus adjacent inquiry-response / CRM proof supported the workflow without inventing a real-estate-specific case study.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P0** | Real-estate lead response / follow-up child page | automate lead follow-up real estate, inbound response, showing-intent routing | Real estate still only has the broad parent page live. There is still room for a narrower child page if it stays focused on first-response speed, showing-intent routing, and agent/team handoff instead of rephrasing the broader real-estate automation page. | **Next best net-new candidate** |
-| 2 | **P1** | HVAC cluster refresh only if no stronger page survives review | HVAC internal links, llm/llms surfacing, proof framing refreshes | HVAC now has a fuller child-page cluster. Further work should be strengthening only, unless a clearly distinct workflow stage appears in broader planning docs. | **Maintenance-only fallback** |
-| 3 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | Real estate + HVAC + e-commerce discovery and internal links | If the next reconciliation does not find another distinct proof-backed page, improve the strongest clusters instead of forcing filler. | **Fallback** |
-| 4 | **Watch list** | AI automation ROI calculator or other low-confidence legacy ideas | calculator / tool concepts from older plans | These still appear in older planning docs but remain weaker than the proof-backed static pages already shipped. | **Defer** |
+| 1 | **P1** | Real-estate cluster strengthening only if no stronger page survives review | real-estate guides surfacing, llm/llms coverage, internal-link reinforcement | The strongest real-estate child page is now live. The next pass should only add maintenance or discovery improvements unless broader planning docs reveal another clearly distinct real-estate workflow stage with honest proof support. | **Maintenance-only fallback** |
+| 2 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | Real estate + HVAC + e-commerce discovery and internal links | If the next reconciliation does not find another distinct proof-backed page, improve the strongest clusters instead of forcing filler. | **Fallback** |
+| 3 | **Watch list** | AI automation ROI calculator or other low-confidence legacy ideas | calculator / tool concepts from older plans | These still appear in older planning docs but remain weaker than the proof-backed static pages already shipped. | **Defer** |
 
 ### Priority Definitions
 

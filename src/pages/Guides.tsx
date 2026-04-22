@@ -442,6 +442,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Real Estate Lead Response and Follow-Up Automation",
+    description:
+      "A narrower real-estate workflow page focused on first response speed, showing-intent routing, lead nurture, and agent handoff before inbound leads go to faster teams.",
+    href: "/real-estate-lead-response-and-follow-up-automation",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Mortgage Brokers",
     description:
       "AI automation for mortgage brokers. Lead follow-up, document collection, application nurture, and CRM workflows. Practical guide for brokerages.",

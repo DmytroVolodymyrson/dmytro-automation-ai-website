@@ -273,6 +273,18 @@
       ]
     },
     {
+      "id": "real-estate-lead-response-and-follow-up-automation",
+      "path": "/real-estate-lead-response-and-follow-up-automation",
+      "label": "Real Estate Lead Response and Follow-Up Automation",
+      "prompts": [
+        "Real estate lead response and follow-up automation",
+        "How can real estate agents respond to inbound leads faster?",
+        "Best real estate lead follow-up automation for agents and teams",
+        "How do real estate teams automate showing-intent lead routing?",
+        "Should a real estate team automate first response and nurture?"
+      ]
+    },
+    {
       "id": "ai-lead-follow-up-for-mortgage-brokers",
       "path": "/ai-lead-follow-up-for-mortgage-brokers",
       "label": "AI Lead Follow-Up for Mortgage Brokers",

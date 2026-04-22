@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-real-estate-lead-response-and-follow-up-automation",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Real Estate Lead Response and Follow-Up Automation\nBody: A real estate lead does not go cold because the prospect changed their mind in 30 seconds. It usually goes cold because the inquiry sat too long, the next step was unclear, or nobody owned the follow-up once the first text went out. Real estate lead response and follow-up automation fixes that narrow part of the funnel. It responds immediately, routes showing-intent leads toward the right next action, keeps nurture moving when the prospect is not ready yet, and hands warm conversations to the right agent before a faster team wins the deal.\nSub: Below: what this workflow actually handles, how it differs from the broader real-estate automation page, what proof supports it honestly, and when an agent or team should keep parts of the process manual.\n\n### Core sections\n- What real estate lead response and follow-up automation actually handles\n- Immediate first response\n- Multi-touch nurture for non-responders\n- Showing-intent routing\n- Source-aware routing\n- Agent or ISA handoff with context\n- Pipeline visibility\n\n### FAQ\nSubhead: Practical questions about automating real-estate response and follow-up\n\n### Final CTA\nHeading: Want faster lead response without more follow-up chaos?\nBody: Book a 30-minute call. We will look at how your leads come in today, where response time and follow-up are breaking down, and whether a focused real-estate response workflow is the highest-leverage automation to build before anything broader.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published as a narrower child page under the existing real-estate cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the angle tightly bounded to first response, early nurture, showing-intent routing, and human handoff."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses adjacent proof from the live real-estate parent page plus published voice-agent and CRM case studies without inventing a real-estate-specific case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Written for commercial intent and direct GEO extraction, not generic educational traffic."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T17:51:45.361Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 23.5,
+      "sentenceLengthRange": [
+        5,
+        38
+      ],
+      "totalWords": 235
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Real Estate Lead Response and Follow-Up Automation\nBody: A real estate lead does not go cold because the prospect changed their mind in 30 seconds.",
+      "wordCount": 27,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want faster lead response without more follow-up chaos?\nBody: Book a 30-minute call. We will look at how your leads come in today, where response time and follow-up are breaking down, and whether a focused real-estate response workflow is the highest-leverage automation to build before anything broader.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 10,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 7,
+      "commasPerSentence": 1.25
+    },
+    "vocabulary": {
+      "distinctWords": 143,
+      "totalWords": 235,
+      "topWords": [
+        [
+          "response",
+          8
+        ],
+        [
+          "follow-up",
+          7
+        ],
+        [
+          "-",
+          7
+        ],
+        [
+          "lead",
+          5
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "real",
+          4
+        ],
+        [
+          "estate",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "agent",
+          3
+        ],
+        [
+          "what",
+          3
+        ],
+        [
+          "real-estate",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "not",
+          2
+        ],
+        [
+          "cold",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.009
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

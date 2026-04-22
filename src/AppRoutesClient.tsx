@@ -38,6 +38,7 @@ const AiAutomationConsultantEdmonton = lazy(() => import("./pages/AiAutomationCo
 const AiAutomationConsultantAlberta = lazy(() => import("./pages/AiAutomationConsultantAlberta"));
 const AiAutomationConsultantCanada = lazy(() => import("./pages/AiAutomationConsultantCanada"));
 const AiAutomationForRealEstate = lazy(() => import("./pages/AiAutomationForRealEstate"));
+const RealEstateLeadResponseAndFollowUpAutomation = lazy(() => import("./pages/RealEstateLeadResponseAndFollowUpAutomation"));
 const AiAutomationForMortgageBrokers = lazy(() => import("./pages/AiAutomationForMortgageBrokers"));
 const AiLeadFollowUpForMortgageBrokers = lazy(() => import("./pages/AiLeadFollowUpForMortgageBrokers"));
 const DocumentCollectionAutomationForMortgageBrokers = lazy(() => import("./pages/DocumentCollectionAutomationForMortgageBrokers"));
@@ -144,6 +145,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-automation-consultant-alberta" element={<AiAutomationConsultantAlberta />} />
       <Route path="/ai-automation-consultant-canada" element={<AiAutomationConsultantCanada />} />
       <Route path="/ai-automation-for-real-estate" element={<AiAutomationForRealEstate />} />
+      <Route path="/real-estate-lead-response-and-follow-up-automation" element={<RealEstateLeadResponseAndFollowUpAutomation />} />
       <Route path="/ai-automation-for-mortgage-brokers" element={<AiAutomationForMortgageBrokers />} />
       <Route path="/ai-lead-follow-up-for-mortgage-brokers" element={<AiLeadFollowUpForMortgageBrokers />} />
       <Route path="/document-collection-automation-for-mortgage-brokers" element={<DocumentCollectionAutomationForMortgageBrokers />} />
