@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-21-lease-renewal-automation-for-property-management-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-21",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: Lease Renewal Automation for Property Management Companies\nBody: Property management teams do not lose tenants only because the market changed. They also lose renewals because outreach started too late, the resident never got a clear next step, or nobody noticed the non-response until the lease was almost over. Lease renewal automation fixes that narrow retention workflow. It starts the reminders on time, keeps follow-up moving automatically, and routes residents to a human when the conversation shifts from a simple reminder to an actual negotiation or move-out decision.\nSub: Below: what lease renewal automation actually handles, how it differs from broader property-management automation, what guardrails matter, and what adjacent proof supports this page without pretending there is a published lease-renewal case study.\n\n### Core sections\n- What lease renewal automation actually handles\n- Lease renewal automation vs. broader property-management automation\n- Important guardrails for lease renewal workflows\n- How a practical lease renewal system usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about automating lease renewal follow-up\n\n### Final CTA\nHeading: Want a cleaner renewal process before vacancy risk piles up?\nBody: Book a 30-minute call. We will look at how your team handles renewals today, where reminder timing breaks down, and whether a focused lease renewal workflow is the highest-leverage build for your portfolio right now.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Narrow child page under the property-management cluster; intentionally renewal-stage specific rather than a generic property-management rewrite."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses adjacent proof from the property-management parent page plus the CRM automation case study instead of implying a published lease-renewal case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the tone operational and non-hype: reminder timing, manager handoff, visibility, and vacancy-risk reduction."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks back to the parent property-management page plus adjacent lifecycle workflows."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T02:19:59.549Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 20,
+      "sentenceLengthRange": [
+        5,
+        34
+      ],
+      "totalWords": 220
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Lease Renewal Automation for Property Management Companies\nBody: Property management teams do not lose tenants only because the market changed.",
+      "wordCount": 22,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a cleaner renewal process before vacancy risk piles up?\nBody: Book a 30-minute call. We will look at how your team handles renewals today, where reminder timing breaks down, and whether a focused lease renewal workflow is the highest-leverage build for your portfolio right now.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 9,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 7,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 142,
+      "totalWords": 220,
+      "topWords": [
+        [
+          "lease",
+          10
+        ],
+        [
+          "renewal",
+          10
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "handles",
+          3
+        ],
+        [
+          "how",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "property",
+          2
+        ],
+        [
+          "management",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "lose",
+          2
+        ],
+        [
+          "because",
+          2
+        ],
+        [
+          "renewals",
+          2
+        ],
+        [
+          "workflow",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.005
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

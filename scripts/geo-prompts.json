@@ -273,6 +273,18 @@
       ]
     },
     {
+      "id": "lease-renewal-automation-for-property-management-companies",
+      "path": "/lease-renewal-automation-for-property-management-companies",
+      "label": "Lease Renewal Automation for Property Management Companies",
+      "prompts": [
+        "Lease renewal automation for property management companies",
+        "How do property managers automate lease renewal follow-up?",
+        "Best way to automate tenant renewal reminders without losing the human touch",
+        "How should a property management company handle non-responsive tenants before lease expiration?",
+        "Property management lease renewal reminder workflow to reduce vacancy risk"
+      ]
+    },
+    {
       "id": "ai-automation-ecommerce",
       "path": "/ai-automation-ecommerce",
       "label": "AI Automation for E-Commerce Brands",

@@ -48,6 +48,7 @@ import AiEmailSequenceAutomation from "./pages/AiEmailSequenceAutomation";
 import AiAutomationForInsuranceAgencies from "./pages/AiAutomationForInsuranceAgencies";
 import RenewalReminderAutomationForInsuranceAgencies from "./pages/RenewalReminderAutomationForInsuranceAgencies";
 import AiAutomationForPropertyManagement from "./pages/AiAutomationForPropertyManagement";
+import LeaseRenewalAutomationForPropertyManagementCompanies from "./pages/LeaseRenewalAutomationForPropertyManagementCompanies";
 import AiAutomationEcommerce from "./pages/AiAutomationEcommerce";
 import AiAutomationForAutoPartsEcommerce from "./pages/AiAutomationForAutoPartsEcommerce";
 import FitmentInquiryAutomationForAutoPartsEcommerce from "./pages/FitmentInquiryAutomationForAutoPartsEcommerce";
@@ -150,6 +151,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-for-insurance-agencies", element: <AiAutomationForInsuranceAgencies /> },
   { path: "/renewal-reminder-automation-for-insurance-agencies", element: <RenewalReminderAutomationForInsuranceAgencies /> },
   { path: "/ai-automation-for-property-management", element: <AiAutomationForPropertyManagement /> },
+  { path: "/lease-renewal-automation-for-property-management-companies", element: <LeaseRenewalAutomationForPropertyManagementCompanies /> },
   { path: "/ai-automation-ecommerce", element: <AiAutomationEcommerce /> },
   { path: "/ai-automation-for-auto-parts-ecommerce", element: <AiAutomationForAutoPartsEcommerce /> },
   {
