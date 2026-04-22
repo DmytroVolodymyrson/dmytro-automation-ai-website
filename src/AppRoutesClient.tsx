@@ -82,6 +82,7 @@ const AiVoiceAgentForLeadQualification = lazy(() => import("./pages/AiVoiceAgent
 const AiVoiceAgentSetupForLeadQualification = lazy(() => import("./pages/AiVoiceAgentSetupForLeadQualification"));
 const AiVoiceAgentRoiForLeadFollowUp = lazy(() => import("./pages/AiVoiceAgentRoiForLeadFollowUp"));
 const InstantLeadResponse = lazy(() => import("./pages/InstantLeadResponse"));
+const ContactFormLeadFollowUpAutomation = lazy(() => import("./pages/ContactFormLeadFollowUpAutomation"));
 const QuoteFollowUp = lazy(() => import("./pages/QuoteFollowUp"));
 const ClientReactivation = lazy(() => import("./pages/ClientReactivation"));
 const NoShowReduction = lazy(() => import("./pages/NoShowReduction"));
@@ -199,6 +200,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-voice-agent-setup-for-lead-qualification" element={<AiVoiceAgentSetupForLeadQualification />} />
       <Route path="/ai-voice-agent-roi-for-lead-follow-up" element={<AiVoiceAgentRoiForLeadFollowUp />} />
       <Route path="/instant-lead-response-automation" element={<InstantLeadResponse />} />
+      <Route path="/contact-form-lead-follow-up-automation" element={<ContactFormLeadFollowUpAutomation />} />
       <Route path="/quote-follow-up-automation" element={<QuoteFollowUp />} />
       <Route path="/client-reactivation-automation" element={<ClientReactivation />} />
       <Route path="/no-show-reduction-automation" element={<NoShowReduction />} />

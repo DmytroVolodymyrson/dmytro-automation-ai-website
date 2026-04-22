@@ -364,6 +364,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Contact Form Lead Follow-Up Automation",
+    description:
+      "Why website contact-form leads go cold — and how to fix it with instant response, better qualification, owner routing, and structured follow-up instead of a generic autoresponder.",
+    href: "/contact-form-lead-follow-up-automation",
+    category: "workflows",
+  },
+  {
     title: "Quote Follow-Up Automation",
     description:
       "Automated reminders, objection handling, and timed sequences that close more estimates without manual chasing.",

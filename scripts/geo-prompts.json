@@ -597,6 +597,18 @@
       ]
     },
     {
+      "id": "contact-form-lead-follow-up-automation",
+      "path": "/contact-form-lead-follow-up-automation",
+      "label": "Contact Form Lead Follow-Up Automation",
+      "prompts": [
+        "Why am I losing leads who fill out my contact form?",
+        "How do I automate contact form lead follow-up?",
+        "Best way to respond to website contact form leads faster",
+        "How do I stop contact form leads from going cold?",
+        "Contact form autoresponder vs full lead follow-up workflow"
+      ]
+    },
+    {
       "id": "ai-voice-agent-lead-qualification",
       "path": "/ai-voice-agent-lead-qualification",
       "label": "AI Voice Agent for Lead Qualification",

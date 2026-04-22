@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-contact-form-lead-follow-up-automation",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Contact Form Lead Follow-Up Automation\nBody: If leads fill out your contact form but never book, the problem usually is not the form itself. It is what happens after the form fires. Slow first response, generic auto-replies, no clear owner, weak qualification, and no follow-up sequence are the reasons form leads go cold. A working contact-form follow-up system fixes that by answering immediately, capturing enough context to route the lead properly, and keeping the conversation moving until a human takes over or the lead clearly drops out.\nSub: Below: why contact-form leads stall, what a reliable follow-up workflow should do, when this page is the right fit versus a broader lead-response project, and what mistakes usually waste form traffic.\n\n### Core sections\n- Why contact-form leads go cold\n- What a working contact-form follow-up system should do\n- How to fix contact-form drop-off without robotic spam\n- When this page is the right fit vs. when a broader lead-response project is better\n- Proof and adjacent proof\n- Mistakes that keep website-form leads from converting\n\n### FAQ\nSubhead: Practical questions from businesses that know website leads are leaking somewhere after the form submission\n- Why do contact-form leads go cold so often?\n- Is a generic autoresponder enough for website leads?\n- Should contact-form follow-up use email, SMS, or both?\n- How is this different from the instant lead response page?\n- What is the first version of this workflow most businesses should build?\n\n### Final CTA\nHeading: Want to stop losing website leads after they hit submit?\nBody: Book a 30-minute call. We will look at your current contact form, response timing, owner handoff, and follow-up process, then map the smallest workflow that would fix the leak without overbuilding it.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped from an explicit GEO-PLAN problem-aware query: why leads who fill out a contact form still go cold."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page distinct from the broader instant-response guide by narrowing the frame to the post-submit web-form leak: autoresponder weakness, ownership, qualification, and short follow-up."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used only bounded proof and adjacent proof: Paris Café for sub-60-second web lead response, Instagram lead generation for immediate structured outreach discipline, and the existing instant-response / lead-follow-up cluster for workflow adjacency."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoided fake conversion-rate claims or unsupported form-specific percentages. The copy stays practical, operational, and honest about when a broader system is the better fit."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T23:09:13.594Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        2,
+        5,
+        3
+      ],
+      "avgSentenceLength": 19.3,
+      "sentenceLengthRange": [
+        5,
+        35
+      ],
+      "totalWords": 290
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Contact Form Lead Follow-Up Automation\nBody: If leads fill out your contact form but never book, the problem usually is not the form itself.",
+      "wordCount": 26,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to stop losing website leads after they hit submit?\nBody: Book a 30-minute call. We will look at your current contact form, response timing, owner handoff, and follow-up process, then map the smallest workflow that would fix the leak without overbuilding it.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 16,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 1.14
+    },
+    "vocabulary": {
+      "distinctWords": 153,
+      "totalWords": 290,
+      "topWords": [
+        [
+          "-",
+          11
+        ],
+        [
+          "leads",
+          9
+        ],
+        [
+          "form",
+          8
+        ],
+        [
+          "follow-up",
+          7
+        ],
+        [
+          "contact-form",
+          7
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "lead",
+          4
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "contact",
+          3
+        ],
+        [
+          "after",
+          3
+        ],
+        [
+          "response",
+          3
+        ],
+        [
+          "go",
+          3
+        ],
+        [
+          "cold",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.007
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

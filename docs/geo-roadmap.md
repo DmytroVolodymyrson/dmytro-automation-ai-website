@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped ai-voice-agent-roi-for-lead-follow-up and added it to tracking)
+Last updated: 2026-04-22 (shipped contact-form-lead-follow-up-automation and added it to tracking)
 
 ## Live GEO Assets
 
@@ -88,6 +88,7 @@ Last updated: 2026-04-22 (shipped ai-voice-agent-roi-for-lead-follow-up and adde
 | AI Voice Agent Setup for Lead Qualification | `/ai-voice-agent-setup-for-lead-qualification` | Workflow / implementation-help page | Live |
 | AI Voice Agent ROI for Lead Follow-Up | `/ai-voice-agent-roi-for-lead-follow-up` | Workflow / ROI decision page | Live |
 | Instant Lead Response Automation | `/instant-lead-response-automation` | Workflow page | Live |
+| Contact Form Lead Follow-Up Automation | `/contact-form-lead-follow-up-automation` | Workflow / web-form recovery page | Live |
 | Quote Follow-Up Automation | `/quote-follow-up-automation` | Workflow page | Live |
 | Client Reactivation Automation | `/client-reactivation-automation` | Workflow page | Live |
 | No-Show Reduction Automation | `/no-show-reduction-automation` | Workflow page | Live |
@@ -121,14 +122,14 @@ Last updated: 2026-04-22 (shipped ai-voice-agent-roi-for-lead-follow-up and adde
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 102**
+**Total decision/comparison/industry pages live: 103**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-voice-agent-roi-for-lead-follow-up` captured another explicit query that still survived outside the stale fallback queue in `GEO-PLAN.md`: "ROI of AI voice agent for lead follow-up." The new page stays distinct from the broader ROI guide and the existing voice-agent workflow pages by focusing specifically on payback logic, conservative recovered-lead math, callback labor tradeoffs, and when a voice workflow does or does not justify its own setup cost. The backlog is still thin after this ship, but there is at least one remaining watchlist candidate before the program should default fully to maintenance.
+Shipping `/contact-form-lead-follow-up-automation` captured another explicit problem-aware query from `GEO-PLAN.md`: "why am I losing leads who fill out my contact form". The new page stays distinct from `/instant-lead-response-automation` by focusing narrowly on the website-form leak after submit — weak autoresponders, no owner, thin qualification, and no short follow-up sequence — instead of covering every inbound channel together. The backlog is still thin after this ship. The main remaining candidate is still the process-selection page, and if that does not survive another distinctness review the program should fall back to maintenance and discovery work instead of forcing weaker overlap.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|

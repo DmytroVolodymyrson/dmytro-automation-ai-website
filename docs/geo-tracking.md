@@ -41,6 +41,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - `/ai-voice-agent-lead-qualification`
 - `/ai-voice-agent-roi-for-lead-follow-up`
 - `/instant-lead-response-automation`
+- `/contact-form-lead-follow-up-automation`
 - `/missed-call-follow-up-automation`
 
 ### Geo + industry pages

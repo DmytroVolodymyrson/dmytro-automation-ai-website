@@ -81,6 +81,7 @@ import AiVoiceAgentForLeadQualification from "./pages/AiVoiceAgentForLeadQualifi
 import AiVoiceAgentSetupForLeadQualification from "./pages/AiVoiceAgentSetupForLeadQualification";
 import AiVoiceAgentRoiForLeadFollowUp from "./pages/AiVoiceAgentRoiForLeadFollowUp";
 import InstantLeadResponse from "./pages/InstantLeadResponse";
+import ContactFormLeadFollowUpAutomation from "./pages/ContactFormLeadFollowUpAutomation";
 import QuoteFollowUp from "./pages/QuoteFollowUp";
 import ClientReactivation from "./pages/ClientReactivation";
 import NoShowReduction from "./pages/NoShowReduction";
@@ -227,6 +228,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-voice-agent-setup-for-lead-qualification", element: <AiVoiceAgentSetupForLeadQualification /> },
   { path: "/ai-voice-agent-roi-for-lead-follow-up", element: <AiVoiceAgentRoiForLeadFollowUp /> },
   { path: "/instant-lead-response-automation", element: <InstantLeadResponse /> },
+  { path: "/contact-form-lead-follow-up-automation", element: <ContactFormLeadFollowUpAutomation /> },
   { path: "/quote-follow-up-automation", element: <QuoteFollowUp /> },
   { path: "/client-reactivation-automation", element: <ClientReactivation /> },
   { path: "/no-show-reduction-automation", element: <NoShowReduction /> },
