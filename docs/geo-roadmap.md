@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-21 (shipped quote-follow-up-automation-for-insurance-agencies and added it to tracking)
+Last updated: 2026-04-21 (shipped showing-coordination-automation-for-property-management-companies and added it to tracking)
 
 ## Live GEO Assets
 
@@ -53,6 +53,7 @@ Last updated: 2026-04-21 (shipped quote-follow-up-automation-for-insurance-agenc
 | Quote Follow-Up Automation for Insurance Agencies | `/quote-follow-up-automation-for-insurance-agencies` | Industry workflow page | Live |
 | AI Automation for Property Management | `/ai-automation-for-property-management` | Industry page | Live |
 | Lease Renewal Automation for Property Management Companies | `/lease-renewal-automation-for-property-management-companies` | Industry workflow page | Live |
+| Showing Coordination Automation for Property Management Companies | `/showing-coordination-automation-for-property-management-companies` | Industry workflow page | Live |
 | AI Automation for E-Commerce Brands | `/ai-automation-ecommerce` | Industry page | Live |
 | AI Automation for Auto Parts E-Commerce | `/ai-automation-for-auto-parts-ecommerce` | Industry page | Live |
 | Fitment Inquiry Automation for Auto Parts E-Commerce | `/fitment-inquiry-automation-for-auto-parts-ecommerce` | Industry workflow page | Live |
@@ -94,20 +95,20 @@ Last updated: 2026-04-21 (shipped quote-follow-up-automation-for-insurance-agenc
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 75**
+**Total decision/comparison/industry pages live: 76**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-The strongest newly validated insurance child-page candidate has now shipped. The queue is not empty, but the remaining candidates need a little more proof discipline than the insurance quote-follow-up page did.
+The top property-management child page has now shipped. The clearest remaining near-term candidate is still the insurance cross-sell child page because the parent insurance guide already frames cross-sell as a core workflow and the new page can stay tightly scoped around book segmentation, timing, and producer escalation.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Recommended next** | Showing Coordination Automation for Property Management Companies | "Should a property management company use AI for showing coordination?" | The property-management parent prompts already surface showing coordination as a distinct operational job, and the page would be meaningfully different from both the broad parent page and the lease-renewal child page if it stays tightly focused on inquiry routing, scheduling friction, and manager handoff. | **Revalidation candidate** |
-| 2 | **Recommended next** | Cross-Sell Automation for Insurance Agencies | "How can insurance agencies automate cross-sell campaigns?" | The insurance parent page already frames cross-sell as a core revenue workflow. This could become a valid sibling page if it stays narrowly focused on book segmentation, timing, and producer escalation rather than rehashing the whole parent page. | **Revalidation candidate** |
-| 3 | **Fallback** | Refresh insurance + mortgage cluster if neither child page clears proof review | Improve citation readiness on the strongest revenue-adjacent pages | If the next run cannot validate a distinct new child page cleanly, the safest move is still tightening proof framing, internal links, FAQ coverage, and tracking on the insurance and mortgage workflow cluster instead of forcing a weak new URL. | **Best maintenance fallback** |
+| 1 | **Recommended next** | Cross-Sell Automation for Insurance Agencies | "How can insurance agencies automate cross-sell campaigns?" | The insurance parent page already frames cross-sell as a core revenue workflow. This can still be a valid sibling page if it stays narrowly focused on book segmentation, timing, and producer escalation rather than rehashing the whole parent page. | **Recommended next ship** |
+| 2 | **Fallback** | Refresh insurance + mortgage cluster if the cross-sell child page does not clear proof review | Improve citation readiness on the strongest revenue-adjacent pages | If the next run cannot validate a distinct new child page cleanly, the safest move is still tightening proof framing, internal links, FAQ coverage, and tracking on the insurance and mortgage workflow cluster instead of forcing a weak new URL. | **Best maintenance fallback** |
+| 3 | **Watch list** | Revisit broader backlog only when new proof improves another cluster | Preserve page quality instead of forcing weak URLs | The backlog should stay biased toward distinct child workflows with direct or adjacent proof. If no other candidate is strong enough, refresh the roadmap instead of padding the site with thin pages. | **Quality gate reminder** |
 
 ### Priority Definitions
 

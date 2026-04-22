@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-21-showing-coordination-automation-for-property-management-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-21",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: Showing Coordination Automation for Property Management Companies\nBody: Property management teams do not lose leasing speed only because demand is weak. They also lose it because a prospect asks about a unit, waits too long for a reply, misses the showing instructions, or falls into a back-and-forth scheduling loop that nobody owns. Showing coordination automation fixes that narrow leasing workflow. It responds fast, offers the next available showing path, keeps reminders moving, and routes the real exceptions to a human before a vacancy sits longer than it should.\nSub: Below: what showing coordination automation actually handles, how it differs from broader property-management automation and lease-renewal workflows, what guardrails matter, and what adjacent proof supports this page without pretending there is a published property-management showing case study.\n\n### Core sections\n- What showing coordination automation actually handles\n- Showing coordination automation vs. broader property-management workflows\n- Important guardrails for showing coordination workflows\n- How a practical showing coordination system usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about automating property-management showings\n\n### Final CTA\nHeading: Want faster leasing without more scheduling chaos?\nBody: Book a 30-minute call. We will look at how your team handles listing inquiries and showings today, where prospects are getting stuck, and whether a focused showing-coordination workflow is the highest-leverage automation to build before anything broader.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "cut",
+      "description": "Narrow child page under the property-management cluster; intentionally focused on vacancy leasing execution instead of broad industry copy."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses adjacent proof from the parent property-management page plus the Paris Cafe voice-agent case study instead of implying a published property-management showing case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the tone operational and non-hype: inquiry routing, scheduling rules, reminders, no-show follow-up, and manager handoff."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks back to the parent property-management page, the lease-renewal child page, and adjacent booking / instant-response workflows."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T04:21:07.803Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 20.3,
+      "sentenceLengthRange": [
+        5,
+        38
+      ],
+      "totalWords": 223
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Showing Coordination Automation for Property Management Companies\nBody: Property management teams do not lose leasing speed only because demand is weak.",
+      "wordCount": 23,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want faster leasing without more scheduling chaos?\nBody: Book a 30-minute call. We will look at how your team handles listing inquiries and showings today, where prospects are getting stuck, and whether a focused showing-coordination workflow is the highest-leverage automation to build before anything broader.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 11,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 7,
+      "commasPerSentence": 1.22
+    },
+    "vocabulary": {
+      "distinctWords": 137,
+      "totalWords": 223,
+      "topWords": [
+        [
+          "showing",
+          10
+        ],
+        [
+          "coordination",
+          7
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "property-management",
+          4
+        ],
+        [
+          "leasing",
+          3
+        ],
+        [
+          "handles",
+          3
+        ],
+        [
+          "how",
+          3
+        ],
+        [
+          "broader",
+          3
+        ],
+        [
+          "workflows",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "property",
+          2
+        ],
+        [
+          "management",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 1,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

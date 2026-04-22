@@ -297,6 +297,18 @@
       ]
     },
     {
+      "id": "showing-coordination-automation-for-property-management-companies",
+      "path": "/showing-coordination-automation-for-property-management-companies",
+      "label": "Showing Coordination Automation for Property Management Companies",
+      "prompts": [
+        "Showing coordination automation for property management companies",
+        "Should a property management company use AI for showing coordination?",
+        "How do property managers automate vacancy showing scheduling?",
+        "Best way to automate showing reminders and no-show follow-up for rental listings",
+        "Property management showing coordination workflow with manager handoff"
+      ]
+    },
+    {
       "id": "ai-automation-ecommerce",
       "path": "/ai-automation-ecommerce",
       "label": "AI Automation for E-Commerce Brands",

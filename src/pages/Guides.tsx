@@ -498,6 +498,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Showing Coordination Automation for Property Management Companies",
+    description:
+      "A narrower property-management leasing page focused on inquiry routing, scheduling rules, reminders, no-show follow-up, and manager handoff before vacancies sit longer than they should.",
+    href: "/showing-coordination-automation-for-property-management-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for E-Commerce Brands",
     description:
       "AI automation for e-commerce brands. CRM organization, lead follow-up, customer service routing, reactivation campaigns, and repeat-purchase workflows.",
