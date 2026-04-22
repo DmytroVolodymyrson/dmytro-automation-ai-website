@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-tenant-communication-automation-for-property-management-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Tenant Communication Automation for Property Management Companies\nBody: Property management teams do not get overwhelmed only by emergencies. They also get buried by the constant stream of resident messages that are important but repetitive: move-in questions, access issues, policy reminders, amenity questions, status checks, after-hours triage, and update requests that pull managers into the same conversations again and again. Tenant communication automation fixes that narrow operating layer. It gives residents a fast first response, routes routine questions cleanly, sends updates consistently, and escalates the exceptions to a human before communication turns into frustration for both the tenant and the team.\nSub: Below: what tenant communication automation actually handles, how it differs from broader property-management automation and the maintenance, leasing, or renewal child pages, what guardrails matter, and what adjacent proof honestly supports this page.\n\n### Core sections\n- What tenant communication automation actually handles\n- Tenant communication automation vs. other property-management pages\n- Important guardrails for tenant communication workflows\n- How a practical tenant communication system usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about automating resident communication in property management\n\n### Final CTA\nHeading: Want tenant communication to feel more consistent without adding headcount?\nBody: Book a 30-minute call. We will look at how resident messages move through your team today, where communication is breaking down, and whether a focused tenant-communication workflow is the highest-leverage automation to build before anything broader.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Narrow child page under the property-management cluster; intentionally focused on the ongoing resident communication layer instead of maintenance dispatch, renewals, or leasing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses adjacent proof from the parent property-management page plus the Paris Cafe voice-agent case study instead of implying a published tenant-communication case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the tone operational and non-hype: first response, after-hours triage, building updates, escalation rules, and manager handoff."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks back to the property-management parent page, maintenance and renewal child pages, and adjacent phone-answering workflow guidance."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T18:50:14.917Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 21.5,
+      "sentenceLengthRange": [
+        5,
+        41
+      ],
+      "totalWords": 236
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Tenant Communication Automation for Property Management Companies\nBody: Property management teams do not get overwhelmed only by emergencies.",
+      "wordCount": 20,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want tenant communication to feel more consistent without adding headcount?\nBody: Book a 30-minute call. We will look at how resident messages move through your team today, where communication is breaking down, and whether a focused tenant-communication workflow is the highest-leverage automation to build before anything broader.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 16,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.78
+    },
+    "vocabulary": {
+      "distinctWords": 148,
+      "totalWords": 236,
+      "topWords": [
+        [
+          "communication",
+          11
+        ],
+        [
+          "tenant",
+          9
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "questions",
+          4
+        ],
+        [
+          "property",
+          3
+        ],
+        [
+          "management",
+          3
+        ],
+        [
+          "resident",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "how",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "get",
+          2
+        ],
+        [
+          "by",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

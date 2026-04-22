@@ -429,6 +429,18 @@
       ]
     },
     {
+      "id": "tenant-communication-automation-for-property-management-companies",
+      "path": "/tenant-communication-automation-for-property-management-companies",
+      "label": "Tenant Communication Automation for Property Management Companies",
+      "prompts": [
+        "Tenant communication automation for property management companies",
+        "How do property management companies automate tenant communication?",
+        "Best way to handle routine tenant messages without burying the property manager",
+        "How should a property management company automate after-hours tenant communication and escalation?",
+        "Can AI help property managers send updates and route resident questions faster?"
+      ]
+    },
+    {
       "id": "ai-automation-ecommerce",
       "path": "/ai-automation-ecommerce",
       "label": "AI Automation for E-Commerce Brands",

@@ -575,6 +575,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Tenant Communication Automation for Property Management Companies",
+    description:
+      "A narrower property-management communication page focused on routine resident questions, after-hours triage, building updates, escalation rules, and cleaner manager handoff when messages stop being routine.",
+    href: "/tenant-communication-automation-for-property-management-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for E-Commerce Brands",
     description:
       "AI automation for e-commerce brands. CRM organization, lead follow-up, customer service routing, reactivation campaigns, and repeat-purchase workflows.",

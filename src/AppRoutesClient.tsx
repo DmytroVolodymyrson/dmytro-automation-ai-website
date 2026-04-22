@@ -62,6 +62,7 @@ const AiAutomationForPropertyManagement = lazy(() => import("./pages/AiAutomatio
 const LeaseRenewalAutomationForPropertyManagementCompanies = lazy(() => import("./pages/LeaseRenewalAutomationForPropertyManagementCompanies"));
 const ShowingCoordinationAutomationForPropertyManagementCompanies = lazy(() => import("./pages/ShowingCoordinationAutomationForPropertyManagementCompanies"));
 const MaintenanceRequestAutomationForPropertyManagementCompanies = lazy(() => import("./pages/MaintenanceRequestAutomationForPropertyManagementCompanies"));
+const TenantCommunicationAutomationForPropertyManagementCompanies = lazy(() => import("./pages/TenantCommunicationAutomationForPropertyManagementCompanies"));
 const AiAutomationEcommerce = lazy(() => import("./pages/AiAutomationEcommerce"));
 const AiAutomationForAutoPartsEcommerce = lazy(() => import("./pages/AiAutomationForAutoPartsEcommerce"));
 const FitmentInquiryAutomationForAutoPartsEcommerce = lazy(() => import("./pages/FitmentInquiryAutomationForAutoPartsEcommerce"));
@@ -170,6 +171,7 @@ const AppRoutesClient = () => (
       <Route path="/lease-renewal-automation-for-property-management-companies" element={<LeaseRenewalAutomationForPropertyManagementCompanies />} />
       <Route path="/showing-coordination-automation-for-property-management-companies" element={<ShowingCoordinationAutomationForPropertyManagementCompanies />} />
       <Route path="/maintenance-request-automation-for-property-management-companies" element={<MaintenanceRequestAutomationForPropertyManagementCompanies />} />
+      <Route path="/tenant-communication-automation-for-property-management-companies" element={<TenantCommunicationAutomationForPropertyManagementCompanies />} />
       <Route path="/ai-automation-ecommerce" element={<AiAutomationEcommerce />} />
       <Route path="/ai-automation-for-auto-parts-ecommerce" element={<AiAutomationForAutoPartsEcommerce />} />
       <Route path="/ecommerce-crm-automation-with-ai-follow-up" element={<EcommerceCrmAutomationWithAiFollowUp />} />

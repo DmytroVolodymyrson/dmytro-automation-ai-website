@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped showing-coordination-automation-for-real-estate-teams and added it to tracking)
+Last updated: 2026-04-22 (shipped tenant-communication-automation-for-property-management-companies and added it to tracking)
 
 ## Live GEO Assets
 
@@ -67,6 +67,7 @@ Last updated: 2026-04-22 (shipped showing-coordination-automation-for-real-estat
 | Lease Renewal Automation for Property Management Companies | `/lease-renewal-automation-for-property-management-companies` | Industry workflow page | Live |
 | Showing Coordination Automation for Property Management Companies | `/showing-coordination-automation-for-property-management-companies` | Industry workflow page | Live |
 | Maintenance Request Automation for Property Management Companies | `/maintenance-request-automation-for-property-management-companies` | Industry workflow page | Live |
+| Tenant Communication Automation for Property Management Companies | `/tenant-communication-automation-for-property-management-companies` | Industry communication workflow page | Live |
 | AI Automation for E-Commerce Brands | `/ai-automation-ecommerce` | Industry page | Live |
 | AI Automation for Auto Parts E-Commerce | `/ai-automation-for-auto-parts-ecommerce` | Industry page | Live |
 | E-Commerce CRM Automation with AI Follow-Up | `/ecommerce-crm-automation-with-ai-follow-up` | Industry workflow page | Live |
@@ -112,20 +113,20 @@ Last updated: 2026-04-22 (shipped showing-coordination-automation-for-real-estat
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 93**
+**Total decision/comparison/industry pages live: 94**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/showing-coordination-automation-for-real-estate-teams` confirmed there was still another defensible real-estate child page left when the angle stayed tightly bounded to the inquiry-to-showing workflow instead of rehashing generic follow-up copy. The page was chosen because the live real-estate parent already tracked showing-coordination intent, the earlier lead-response child page covered a different stage, and the cluster still had honest adjacent proof without implying a published real-estate-specific showing case study.
+Shipping `/tenant-communication-automation-for-property-management-companies` closes the last high-confidence planned child page in the property-management cluster. That page was still defensible because the live parent explicitly tracked tenant-communication intent while the shipped child set only covered renewals, showings, and maintenance. After this ship, the broad planning docs still contain ideas, but none currently look as strong as this one on the combination of distinct intent, adjacent proof, and low cannibalization risk.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Tenant communication automation for property management companies | property managers automate tenant communication with AI | The property-management parent still explicitly tracks tenant-communication intent, while the live child pages cover renewals, showings, and maintenance. A tightly bounded tenant-communication child page remains distinct if it stays focused on message triage, after-hours handling, routine updates, and human escalation. | **Planned** |
-| 2 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | real estate + property management + e-commerce discovery and internal links | If the next reconciliation still cannot support another distinct proof-backed page cleanly, improve the strongest clusters instead of forcing filler. | **Fallback** |
-| 3 | **Watch list** | AI automation ROI calculator or other low-confidence legacy ideas | calculator / tool concepts from older plans | These still appear in older planning docs but remain weaker than the proof-backed static pages already shipped. | **Defer** |
+| 1 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | property management + real estate + e-commerce discovery and internal links | The next clean move may be improving discovery and internal-link depth inside the strongest clusters instead of forcing another thin adjacent page. | **Fallback** |
+| 2 | **Watch list** | AI automation ROI calculator or other low-confidence legacy ideas | calculator / tool concepts from older plans | These still appear in older planning docs but remain weaker than the proof-backed static pages already shipped. Reconsider only if a stronger content angle or supporting proof emerges. | **Defer** |
+| 3 | **Status note** | Backlog of high-confidence planned static pages | n/a | At this point the proof-backed queue looks close to exhausted. Do not force filler pages unless another clearly distinct planned topic survives a fresh reconciliation. | **Monitor** |
 
 ### Priority Definitions
 

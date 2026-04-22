@@ -61,6 +61,7 @@ import AiAutomationForPropertyManagement from "./pages/AiAutomationForPropertyMa
 import LeaseRenewalAutomationForPropertyManagementCompanies from "./pages/LeaseRenewalAutomationForPropertyManagementCompanies";
 import ShowingCoordinationAutomationForPropertyManagementCompanies from "./pages/ShowingCoordinationAutomationForPropertyManagementCompanies";
 import MaintenanceRequestAutomationForPropertyManagementCompanies from "./pages/MaintenanceRequestAutomationForPropertyManagementCompanies";
+import TenantCommunicationAutomationForPropertyManagementCompanies from "./pages/TenantCommunicationAutomationForPropertyManagementCompanies";
 import AiAutomationEcommerce from "./pages/AiAutomationEcommerce";
 import AiAutomationForAutoPartsEcommerce from "./pages/AiAutomationForAutoPartsEcommerce";
 import FitmentInquiryAutomationForAutoPartsEcommerce from "./pages/FitmentInquiryAutomationForAutoPartsEcommerce";
@@ -189,6 +190,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/lease-renewal-automation-for-property-management-companies", element: <LeaseRenewalAutomationForPropertyManagementCompanies /> },
   { path: "/showing-coordination-automation-for-property-management-companies", element: <ShowingCoordinationAutomationForPropertyManagementCompanies /> },
   { path: "/maintenance-request-automation-for-property-management-companies", element: <MaintenanceRequestAutomationForPropertyManagementCompanies /> },
+  { path: "/tenant-communication-automation-for-property-management-companies", element: <TenantCommunicationAutomationForPropertyManagementCompanies /> },
   { path: "/ai-automation-ecommerce", element: <AiAutomationEcommerce /> },
   { path: "/ai-automation-for-auto-parts-ecommerce", element: <AiAutomationForAutoPartsEcommerce /> },
   { path: "/ecommerce-crm-automation-with-ai-follow-up", element: <EcommerceCrmAutomationWithAiFollowUp /> },
