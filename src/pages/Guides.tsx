@@ -484,6 +484,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Cross-Sell Automation for Insurance Agencies",
+    description:
+      "A narrower insurance revenue page focused on book segmentation, timing, relevant coverage-gap outreach, suppression rules, and producer handoff when cross-sell intent appears.",
+    href: "/cross-sell-automation-for-insurance-agencies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Property Management",
     description:
       "AI automation for property management companies. Tenant communication, maintenance requests, lease renewals, showing scheduling, and owner reporting.",

@@ -273,6 +273,18 @@
       ]
     },
     {
+      "id": "cross-sell-automation-for-insurance-agencies",
+      "path": "/cross-sell-automation-for-insurance-agencies",
+      "label": "Cross-Sell Automation for Insurance Agencies",
+      "prompts": [
+        "Cross-sell automation for insurance agencies",
+        "How do insurance agencies automate cross-sell campaigns?",
+        "Best way to cross-sell home umbrella or bundled coverage in an insurance agency",
+        "How should an insurance agency automate cross-sell outreach without spamming the book?",
+        "Insurance cross-sell workflow for independent agencies"
+      ]
+    },
+    {
       "id": "ai-automation-for-property-management",
       "path": "/ai-automation-for-property-management",
       "label": "AI Automation for Property Management",
