@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-restaurant-cluster-related-links",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Updated related links\n- `/ai-automation-for-restaurants`\n  - Paris Cafe case study\n  - AI voice agent for restaurants\n  - Private event inquiry follow-up for restaurants\n  - Reservation confirmation and reminder automation\n- `/ai-voice-agent-for-restaurants`\n  - AI automation for restaurants\n  - Paris Cafe voice agent case study\n  - Private event inquiry follow-up for restaurants\n  - Reservation confirmation and reminder automation\n- `/private-event-inquiry-follow-up-for-restaurants`\n  - AI automation for restaurants\n  - AI voice agent for restaurants\n  - Reservation confirmation and reminder automation\n  - Paris Cafe case study\n- `/reservation-confirmation-and-reminder-automation-for-restaurants`\n  - AI automation for restaurants\n  - AI voice agent for restaurants\n  - Private event inquiry follow-up for restaurants\n  - Paris Cafe case study",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Maintenance update, not a net-new page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tightens the restaurant cluster so parent and child workflow pages surface each other without generic off-topic links."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the voice practical and commercial: concrete workflow labels, no hype, no directory-style stuffing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Improves discovery of the newer restaurant child pages from the stronger parent and voice-agent pages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Bounded change focused on internal linking rather than expanding page count."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T15:34:49.921Z",
+    "structure": {
+      "paragraphCount": 1,
+      "sentencesPerParagraph": [
+        1
+      ],
+      "avgSentenceLength": 105,
+      "sentenceLengthRange": [
+        105,
+        105
+      ],
+      "totalWords": 105
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Updated related links\n- `/ai-automation-for-restaurants`\n  - Paris Cafe case study\n  - AI voice agent for restaurants\n  - Private event inquiry follow-up for restaurants\n  - Reservation confirmation and reminder automation\n- `/ai-voice-agent-for-restaurants`\n  - AI automation for restaurants\n  - Paris Cafe voice agent case study\n  - Private event inquiry follow-up for restaurants\n  - Reservation confirmation and reminder automation\n- `/private-event-inquiry-follow-up-for-restaurants`\n  - AI automation for restaurants\n  - AI voice agent for restaurants\n  - Reservation confirmation and reminder automation\n  - Paris Cafe case study\n- `/reservation-confirmation-and-reminder-automation-for-restaurants`\n  - AI automation for restaurants\n  - AI voice agent for restaurants\n  - Private event inquiry follow-up for restaurants\n  - Paris Cafe case study",
+      "wordCount": 105,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Updated related links\n- `/ai-automation-for-restaurants`\n  - Paris Cafe case study\n  - AI voice agent for restaurants\n  - Private event inquiry follow-up for restaurants\n  - Reservation confirmation and reminder automation\n- `/ai-voice-agent-for-restaurants`\n  - AI automation for restaurants\n  - Paris Cafe voice agent case study\n  - Private event inquiry follow-up for restaurants\n  - Reservation confirmation and reminder automation\n- `/private-event-inquiry-follow-up-for-restaurants`\n  - AI automation for restaurants\n  - AI voice agent for restaurants\n  - Reservation confirmation and reminder automation\n  - Paris Cafe case study\n- `/reservation-confirmation-and-reminder-automation-for-restaurants`\n  - AI automation for restaurants\n  - AI voice agent for restaurants\n  - Private event inquiry follow-up for restaurants\n  - Paris Cafe case study",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener"
+      ],
+      "template": "opener"
+    },
+    "punctuation": {
+      "periods": 0,
+      "commas": 0,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 20,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 0,
+      "commasPerSentence": 0
+    },
+    "vocabulary": {
+      "distinctWords": 26,
+      "totalWords": 105,
+      "topWords": [
+        [
+          "-",
+          20
+        ],
+        [
+          "restaurants",
+          9
+        ],
+        [
+          "ai",
+          6
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "paris",
+          4
+        ],
+        [
+          "cafe",
+          4
+        ],
+        [
+          "case",
+          4
+        ],
+        [
+          "study",
+          4
+        ],
+        [
+          "voice",
+          4
+        ],
+        [
+          "agent",
+          4
+        ],
+        [
+          "private",
+          3
+        ],
+        [
+          "event",
+          3
+        ],
+        [
+          "inquiry",
+          3
+        ],
+        [
+          "follow-up",
+          3
+        ],
+        [
+          "reservation",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
