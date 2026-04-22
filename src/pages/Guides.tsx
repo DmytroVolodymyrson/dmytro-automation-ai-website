@@ -195,6 +195,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Appointment Setter Cost for Small Business",
+    description:
+      "What should a small business actually budget for an AI appointment setter? Practical pricing ranges for web booking, voice intake, qualification logic, calendar rules, and where overbuilding starts.",
+    href: "/ai-appointment-setter-cost-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Appointment Setter vs. Human Receptionist",
     description:
       "Should you replace your receptionist with an AI appointment setter? Compare cost, availability, caller experience, and booking accuracy for service businesses.",

@@ -46,6 +46,9 @@ Dedicated AI automation consulting for small businesses — lead follow-up, CRM 
 ## AI Appointment Setter
 AI-powered appointment setting for service businesses — automatic lead qualification, calendar booking, confirmations, and reminders without a human receptionist. Works 24/7, integrates with your CRM, and books while you sleep. Learn more: https://www.dmytroai.com/ai-appointment-setter
 
+## AI Appointment Setter Cost for Small Business
+Practical pricing guide for web booking, voice intake, qualification logic, calendar rules, and the narrowest appointment-setter build worth paying for first. Learn more: https://www.dmytroai.com/ai-appointment-setter-cost-small-business
+
 ## AI Lead Follow-Up for Service Businesses
 Automated lead follow-up systems for service businesses — instant response to new inquiries, multi-channel nurture sequences, and CRM pipeline automation that converts more leads without manual effort. Learn more: https://www.dmytroai.com/ai-lead-follow-up-for-service-businesses
 
@@ -79,6 +82,7 @@ AI-powered database reactivation for HVAC companies — automated campaigns to r
 - GoHighLevel vs. Custom CRM: When an all-in-one platform makes sense vs. building a purpose-built CRM for your workflow. Learn more: https://www.dmytroai.com/gohighlevel-vs-custom-crm-small-business
 - GoHighLevel Automation Setup & Expert Help: Need someone to configure GoHighLevel properly? Covers pipeline cleanup, calendars, follow-up automations, reporting, pricing, and when GHL is the wrong tool. Learn more: https://www.dmytroai.com/gohighlevel-automation-setup
 - AI Appointment Setter Setup Help: Hiring guide for businesses that need an AI appointment setter set up properly — qualification logic, calendar rules, CRM handoff, pricing, and when DIY setup is not worth the delay. Learn more: https://www.dmytroai.com/ai-appointment-setter-setup
+- AI Appointment Setter Cost for Small Business: Practical pricing guide for web booking, voice intake, qualification logic, calendar rules, CRM handoff, and the smallest appointment-setter build worth paying for first. Learn more: https://www.dmytroai.com/ai-appointment-setter-cost-small-business
 - AI Automation Consultant Pricing: What small businesses actually pay — project fees ($1.5K–$8K), retainers, hourly rates, and what drives cost. Learn more: https://www.dmytroai.com/ai-automation-consultant-pricing-small-business
 - Best AI Automations for Service Businesses: The five automations with highest proven ROI for HVAC, dental, legal, real estate. Decision framework, not a listicle. Learn more: https://www.dmytroai.com/best-ai-automation-for-service-businesses
 - AI Appointment Setter vs. Receptionist: Should you replace your receptionist with an AI appointment setter? Cost, availability, caller experience, and booking accuracy compared. Learn more: https://www.dmytroai.com/ai-appointment-setter-vs-receptionist
@@ -152,6 +156,7 @@ What can a small business realistically automate on a starter budget? Honest gui
 - Booking Confirmation & Reminder Automation: Automated confirmations, multi-step reminders, and rescheduling flows that reduce no-shows for service businesses. Learn more: https://www.dmytroai.com/booking-confirmation-and-reminder-automation
 - AI Phone Answering for Service Businesses: 24/7 AI phone answering — call handling, appointment booking, caller qualification, and CRM integration without adding staff. Learn more: https://www.dmytroai.com/ai-phone-answering-for-service-businesses
 - AI Appointment Setter Setup Help: Need help turning appointment-setting AI into a real working workflow? Covers setup scope, integrations, handoff logic, pricing, and when expert implementation help is worth paying for. Learn more: https://www.dmytroai.com/ai-appointment-setter-setup
+- AI Appointment Setter Cost for Small Business: What a small business should actually budget for appointment-setting automation — from simple calendar-linked workflows to voice-based qualification and routing. Learn more: https://www.dmytroai.com/ai-appointment-setter-cost-small-business
 - AI Appointment Setter for Home Service Businesses: How AI appointment setters help HVAC, plumbing, electrical, roofing, cleaning, and other home service businesses respond faster, qualify leads, book straightforward jobs, and route edge cases without endless phone tag. Learn more: https://www.dmytroai.com/ai-appointment-setter-for-home-service-businesses
 - AI Voice Agent for Lead Qualification: How AI voice agents qualify inbound leads on the first call — screening, routing, booking, CRM logging, and where a manual callback process still makes more sense. Learn more: https://www.dmytroai.com/ai-voice-agent-lead-qualification
 - AI Voice Agent Setup for Lead Qualification: Need help turning a voice-agent demo into a real live workflow? Covers call-flow design, qualification logic, transfer rules, CRM handoff, pricing, testing, and when expert setup help is worth paying for. Learn more: https://www.dmytroai.com/ai-voice-agent-setup-for-lead-qualification

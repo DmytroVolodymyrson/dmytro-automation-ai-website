@@ -57,6 +57,18 @@
       ]
     },
     {
+      "id": "ai-appointment-setter-cost-small-business",
+      "path": "/ai-appointment-setter-cost-small-business",
+      "label": "AI Appointment Setter Cost for Small Business",
+      "prompts": [
+        "What does an AI appointment setter cost for a small business?",
+        "How much should a small business budget for an AI appointment setter?",
+        "What affects the price of appointment-setting automation?",
+        "Is an AI appointment setter worth it for a small business?",
+        "How much does voice-based appointment setting cost compared with a simpler booking workflow?"
+      ]
+    },
+    {
       "id": "ai-automation-for-restaurants",
       "path": "/ai-automation-for-restaurants",
       "label": "AI Automation for Restaurants",

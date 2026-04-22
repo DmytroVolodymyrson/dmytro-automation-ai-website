@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-ai-appointment-setter-cost-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Appointment Setter Cost for Small Business\nBody: If you are pricing AI appointment setters, the useful question is not 'what is the cheapest monthly tool?' It is 'what kind of booking workflow am I actually trying to automate?' A small business that only needs fast web-lead scheduling should not buy the same stack as a business that needs voice intake, qualification, calendar rules, reminders, CRM routing, and human fallback for edge cases. This page breaks down realistic appointment-setter pricing specifically — not broad AI automation budgets, and not generic software listicles — so you can budget the narrowest build that actually protects revenue.\nSub: Below: what different appointment-setter builds usually cost, what pushes the price up, when a simpler setup is enough, and how to sanity-check the ROI before you overbuy.\n\n### Core sections\n- What appointment-setter automation usually costs\n- What makes the price go up\n- When this is worth paying for — and when it is not\n- How to budget this without wasting money\n- Proof and adjacent proof\n- What small businesses usually get wrong about appointment-setter pricing\n\n### FAQ\nSubhead: Practical answers for small businesses budgeting appointment-setting automation\n- What does an AI appointment setter cost for a small business?\n- Why is this different from the general AI appointment setter page?\n- What usually makes appointment-setter automation expensive?\n- Can I start with a smaller appointment-setter workflow and expand later?\n- How do I know if the price is worth it?\n\n### Final CTA\nHeading: Want a realistic quote for an appointment-setter workflow?\nBody: Book a 30-minute call. We will look at your lead flow, booking rules, calendar constraints, and where the real bottleneck is, then give you a fixed-price range for the narrowest appointment-setting build worth doing first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected because the backlog is effectively exhausted but this remained the strongest proof-led child page explicitly called out in the roadmap watchlist and already implied by tracked appointment-setter prompts."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page distinct from the generic appointment-setter guide and the setup-help page by focusing tightly on budgeting, scope control, and pricing tradeoffs rather than re-explaining the category or the implementation process."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used bounded proof only: Paris Cafe for inbound-call coverage economics, the lead-qualification guide for the logic layer that drives cost, and the setup-help page for scope discipline and where small businesses overspend."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoided fake metrics or made-up vertical proof. The page frames pricing around workflow complexity, calendar rules, CRM handoff, and operational fit instead of hype."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T23:52:00.948Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 24.4,
+      "sentenceLengthRange": [
+        5,
+        75
+      ],
+      "totalWords": 293
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nHeading: AI Appointment Setter Cost for Small Business\nBody: If you are pricing AI appointment setters, the useful question is not 'what is the cheapest monthly tool?' It is 'what kind of booking workflow am I actually trying to automate?' A small business that only needs fast web-lead scheduling should not buy the same stack as a business that needs voice intake, qualification, calendar rules, reminders, CRM routing, and human fallback for edge cases.",
+      "wordCount": 75,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a realistic quote for an appointment-setter workflow?\nBody: Book a 30-minute call. We will look at your lead flow, booking rules, calendar constraints, and where the real bottleneck is, then give you a fixed-price range for the narrowest appointment-setting build worth doing first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 5,
+      "commas": 14,
+      "emDashes": 3,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 8,
+      "colon": 7,
+      "commasPerSentence": 1.27
+    },
+    "vocabulary": {
+      "distinctWords": 157,
+      "totalWords": 293,
+      "topWords": [
+        [
+          "-",
+          11
+        ],
+        [
+          "what",
+          9
+        ],
+        [
+          "appointment-setter",
+          7
+        ],
+        [
+          "ai",
+          5
+        ],
+        [
+          "small",
+          5
+        ],
+        [
+          "not",
+          5
+        ],
+        [
+          "appointment",
+          4
+        ],
+        [
+          "business",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "setter",
+          3
+        ],
+        [
+          "cost",
+          3
+        ],
+        [
+          "pricing",
+          3
+        ],
+        [
+          "it",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
