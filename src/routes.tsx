@@ -28,6 +28,7 @@ import AiAppointmentSetterForHvac from "./pages/AiAppointmentSetterForHvac";
 import AiAppointmentSetterForHomeServiceBusinesses from "./pages/AiAppointmentSetterForHomeServiceBusinesses";
 import AiAutomationNoTechTeam from "./pages/AiAutomationNoTechTeam";
 import AiVoiceAgentForRestaurants from "./pages/AiVoiceAgentForRestaurants";
+import AiAutomationForRestaurants from "./pages/AiAutomationForRestaurants";
 import AiAutomationConsultantEdmonton from "./pages/AiAutomationConsultantEdmonton";
 import AiAutomationConsultantAlberta from "./pages/AiAutomationConsultantAlberta";
 import AiAutomationConsultantCanada from "./pages/AiAutomationConsultantCanada";
@@ -142,6 +143,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-appointment-setter-for-home-service-businesses", element: <AiAppointmentSetterForHomeServiceBusinesses /> },
   { path: "/ai-automation-for-businesses-without-a-tech-team", element: <AiAutomationNoTechTeam /> },
   { path: "/ai-voice-agent-for-restaurants", element: <AiVoiceAgentForRestaurants /> },
+  { path: "/ai-automation-for-restaurants", element: <AiAutomationForRestaurants /> },
   { path: "/ai-automation-consultant-alberta", element: <AiAutomationConsultantAlberta /> },
   { path: "/ai-automation-consultant-canada", element: <AiAutomationConsultantCanada /> },
   { path: "/ai-automation-for-real-estate", element: <AiAutomationForRealEstate /> },

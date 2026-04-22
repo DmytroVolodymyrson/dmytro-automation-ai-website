@@ -28,6 +28,9 @@ Dmytro builds AI automation specifically for HVAC companies — 24/7 AI call han
 ## Restaurant Voice Agent Guide
 AI phone answering for restaurants — where an AI voice agent helps, where it does not, and when it is worth implementing. Covers reservation capture, overflow call handling, after-hours coverage, and the difference between AI, voicemail, and a human host. Learn more: https://www.dmytroai.com/ai-voice-agent-for-restaurants
 
+## Restaurant Automation Guide
+AI automation for restaurants — reservation capture, missed-call coverage, private-event inquiry follow-up, review requests, and guest communication systems that reduce front-of-house interruption without pretending AI should replace hospitality. Grounded in the live Paris Cafe restaurant case study. Learn more: https://www.dmytroai.com/ai-automation-for-restaurants
+
 ## AI Automation Consultant for Small Business
 Dedicated AI automation consulting for small businesses — lead follow-up, CRM workflows, voice agents, and operational automation built for teams of 1-20. Fixed pricing, direct access to the builder, and systems that pay for themselves. Learn more: https://www.dmytroai.com/ai-automation-consultant-small-business
 

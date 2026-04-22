@@ -45,6 +45,18 @@
       ]
     },
     {
+      "id": "ai-automation-for-restaurants",
+      "path": "/ai-automation-for-restaurants",
+      "label": "AI Automation for Restaurants",
+      "prompts": [
+        "AI automation for restaurants",
+        "How can a restaurant automate reservations and guest follow-up?",
+        "Best AI automation for restaurants with missed calls",
+        "Should a restaurant use AI for after-hours phone coverage?",
+        "How do restaurants automate private event inquiry follow-up?"
+      ]
+    },
+    {
       "id": "ai-voice-agent-restaurants",
       "path": "/ai-voice-agent-for-restaurants",
       "label": "AI Voice Agent for Restaurants",

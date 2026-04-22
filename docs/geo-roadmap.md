@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped n8n-automation-consultant and added it to tracking)
+Last updated: 2026-04-22 (shipped ai-automation-for-restaurants and added it to tracking)
 
 ## Live GEO Assets
 
@@ -16,6 +16,7 @@ Last updated: 2026-04-22 (shipped n8n-automation-consultant and added it to trac
 | n8n vs Zapier | `/n8n-vs-zapier-small-business` | Comparison page | Live |
 | AI Appointment Setter | `/ai-appointment-setter` | Decision page | Live |
 | AI Voice Agent for Restaurants | `/ai-voice-agent-for-restaurants` | Industry page | Live |
+| AI Automation for Restaurants | `/ai-automation-for-restaurants` | Industry page | Live |
 | AI Lead Follow-Up | `/ai-lead-follow-up-for-service-businesses` | Decision page | Live |
 | AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo landing page | Live |
 | AI Consultant Edmonton | `/ai-automation-consultant-edmonton` | Geo landing page | Live |
@@ -103,20 +104,20 @@ Last updated: 2026-04-22 (shipped n8n-automation-consultant and added it to trac
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 84**
+**Total decision/comparison/industry pages live: 85**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-The last explicit proof-backed backlog candidate from the planning docs was the n8n automation consultant page, and it is now live. After reconciling GEO-PLAN.md, docs/geo-plan-2026-03.md, docs/programmatic-seo-pattern-matrix.md, scripts/geo-prompts.json, and the current route set, there is no equally clean explicit next page left. The next run should start with a broader backlog re-check for any still-distinct proof-backed child page; if nothing clears that bar, prefer strengthening a high-value live cluster over inventing filler.
+Shipping `/ai-automation-for-restaurants` closed the last clean pilot-level vertical gap that still had direct proof fit across the current planning set. After re-checking GEO-PLAN.md, docs/geo-plan-2026-03.md, docs/programmatic-seo-pattern-matrix.md, scripts/geo-prompts.json, and the live route set, there is still no equally strong explicit net-new page left that is both clearly planned and clearly distinct from the existing clusters.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P0** | Broad backlog reconciliation for one more distinct proof-backed page | planning docs, live routes, geo prompts | The obvious explicit backlog is now exhausted. Re-check broader planning language and tracked prompts for a remaining child page that is materially distinct from the live set before defaulting to maintenance. | **Required next run** |
-| 2 | **P1** | Refresh highest-value live cluster if no defensible new page survives review | n8n, insurance, mortgage, property-management, e-commerce | If no clean new URL remains, a meaningful refresh to an already-performing cluster is better than weak filler or cannibalizing copy. | **Fallback only** |
-| 3 | **Watch list** | AI automation ROI calculator or other low-confidence legacy ideas | calculator / tool concepts from older plans | These still appear in older planning docs but are lower-confidence and weaker than the pages already shipped. Only revisit if a distinct commercial angle becomes clearer. | **Defer** |
+| 1 | **P0** | One more broad backlog reconciliation pass for a defensible proof-backed page | planning docs, live routes, geo prompts | The strongest remaining work is still to verify whether any buried workflow or vertical target remains before defaulting to maintenance. | **Required next run** |
+| 2 | **P1** | Strengthen the restaurant cluster if no clean new page survives review | restaurants, phone answering, reservations, guest follow-up | The new broad restaurant page plus the existing voice-agent page now form a real cluster; if backlog remains exhausted, tightening internal links, proof framing, and FAQs here is higher value than filler. | **Fallback only** |
+| 3 | **Watch list** | AI automation ROI calculator or other low-confidence legacy ideas | calculator / tool concepts from older plans | These still appear in older planning docs but remain weaker than the proof-backed static pages already shipped. | **Defer** |
 
 ### Priority Definitions
 

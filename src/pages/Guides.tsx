@@ -400,6 +400,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Automation for Restaurants",
+    description:
+      "Reservation capture, missed-call handling, private-event inquiry follow-up, guest communication, and where automation helps restaurants without turning hospitality into a script.",
+    href: "/ai-automation-for-restaurants",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Real Estate",
     description:
       "AI automation for real estate agents and teams. Lead follow-up, showing coordination, CRM workflows, and drip campaigns. What works and where to start.",

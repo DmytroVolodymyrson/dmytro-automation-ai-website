@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-ai-automation-for-restaurants",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for Restaurants\nBody: Most restaurants do not need “AI everywhere.” They need fewer missed calls, faster reservation handling, better after-hours coverage, and less front-of-house time wasted on repetitive phone traffic. AI automation is useful in restaurants when it fixes those operational leaks directly: answering calls during service, capturing reservation demand after hours, following up on private-event inquiries, and triggering guest communication without someone remembering every step manually.\nSub: Below: what is actually worth automating in a restaurant, where the ROI usually appears first, when to keep things manual, and how the Paris Cafe build translates into a broader restaurant operations playbook without pretending every concept needs the same setup.\n\n### Core sections\n- Frames restaurant automation as a narrow operations decision, not a generic “restaurant AI” trend page.\n- Covers the highest-value workflows first: missed-call handling, reservation capture, private-event inquiry follow-up, repetitive guest questions, and review / return-visit follow-up.\n- Includes good-fit / not-fit filtering plus a manual-vs-automated comparison table grounded in operational tradeoffs.\n- Uses the Paris Cafe restaurant case study as direct proof and keeps the broader page distinct from the narrower /ai-voice-agent-for-restaurants page.\n- Emphasizes human handoff for complaints, VIP requests, and nuanced hospitality instead of pretending AI should replace the guest experience.\n\n### FAQ\nSubhead: Straight answers for restaurant owners deciding whether automation is actually worth implementing\nTopics: whether restaurants need broad automation or just phone coverage, the best first workflow to automate, whether AI replaces hosts or managers, realistic pricing, and what should remain manual.\n\n### Final CTA\nHeading: Want to see where restaurant automation would pay off first?\nBody: Book a 30-minute call. We will look at your phone flow, reservation demand, and guest communication bottlenecks, then map the narrowest automation system that would create a real operational win first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected because the broader GEO backlog was largely exhausted, but the planning matrix still explicitly supported restaurants as a real vertical and the live site only had the narrower voice-agent page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the new page materially distinct by making it the broad restaurant operations page, while the existing restaurant page stays focused on AI phone answering / voice-agent fit."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses direct proof from the published Paris Cafe case study without inventing extra restaurant claims."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype with explicit bad-fit framing and clear human-handoff boundaries."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T14:23:09.742Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "avgSentenceLength": 24.6,
+      "sentenceLengthRange": [
+        5,
+        43
+      ],
+      "totalWords": 295
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation for Restaurants\nBody: Most restaurants do not need “AI everywhere.” They need fewer missed calls, faster reservation handling, better after-hours coverage, and less front-of-house time wasted on repetitive phone traffic.",
+      "wordCount": 34,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to see where restaurant automation would pay off first?\nBody: Book a 30-minute call. We will look at your phone flow, reservation demand, and guest communication bottlenecks, then map the narrowest automation system that would create a real operational win first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 12,
+      "commas": 23,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 10,
+      "commasPerSentence": 1.92
+    },
+    "vocabulary": {
+      "distinctWords": 192,
+      "totalWords": 295,
+      "topWords": [
+        [
+          "automation",
+          7
+        ],
+        [
+          "restaurant",
+          7
+        ],
+        [
+          "ai",
+          6
+        ],
+        [
+          "first",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "restaurants",
+          4
+        ],
+        [
+          "reservation",
+          4
+        ],
+        [
+          "guest",
+          4
+        ],
+        [
+          "need",
+          3
+        ],
+        [
+          "phone",
+          3
+        ],
+        [
+          "operational",
+          3
+        ],
+        [
+          "page",
+          3
+        ],
+        [
+          "whether",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "body",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
