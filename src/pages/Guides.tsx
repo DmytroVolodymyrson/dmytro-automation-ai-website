@@ -386,6 +386,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "HVAC Scheduling and Follow-Up Automation",
+    description:
+      "Booked-job confirmations, reminders, reschedules, and cleaner office-to-field handoff for HVAC companies that want fewer schedule gaps and fewer callback-worthy misses.",
+    href: "/hvac-scheduling-and-follow-up-automation",
+    category: "industries",
+  },
+  {
     title: "AI Appointment Setter for Home Service Businesses",
     description:
       "How AI appointment setters help HVAC, plumbing, electrical, roofing, cleaning, and other home service businesses respond faster, qualify leads, and book straightforward jobs without phone tag.",

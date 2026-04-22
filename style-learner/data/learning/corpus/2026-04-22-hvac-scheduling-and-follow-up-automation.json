@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-hvac-scheduling-and-follow-up-automation",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: HVAC Scheduling and Follow-Up Automation\nBody: A lot of HVAC companies do not lose money only at the lead stage. They also lose it after the job is basically won: the call was booked, the customer got a vague window, the office still needs to confirm details, the tech is missing context, and nobody follows through cleanly if the customer needs to reschedule or ask a question before the visit. HVAC scheduling and follow-up automation fixes that narrow layer. It keeps booked jobs moving with confirmations, reminders, dispatch-aware updates, and cleaner office-to-field handoff so the schedule does not turn into phone tag and preventable callbacks.\nSub: Below: what HVAC scheduling and follow-up automation actually covers, how it stays distinct from lead follow-up and appointment-setting pages, what guardrails matter, and what adjacent proof supports the page without pretending there is already a published HVAC scheduling-specific case study.\n\n### Core sections\n- What HVAC scheduling and follow-up automation actually handles\n- HVAC scheduling and follow-up vs. lead follow-up vs. appointment setting\n- Important guardrails for HVAC scheduling and follow-through workflows\n- How a practical HVAC scheduling and follow-up system usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about automating HVAC scheduling and follow-through\n\n### Final CTA\nHeading: Want booked HVAC jobs to stay cleaner all the way to dispatch?\nBody: Book a 30-minute call. We will look at how your office handles confirmations, reminders, reschedules, and dispatch context today, then tell you whether a focused scheduling-and-follow-up workflow is the cleanest automation to build next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Narrow HVAC child page chosen because the roadmap and geo prompt set still explicitly referenced scheduling and follow-up after other HVAC child pages were already live."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the workflow stage bounded to post-booking confirmations, reminders, reschedules, and office-to-field handoff instead of rehashing broad HVAC automation or generic lead response."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses adjacent proof from the HVAC parent page, the HVAC appointment-setter page, and the contractor dispatch-handoff page rather than implying a published HVAC scheduling case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and operational: schedule continuity, dispatch context, technician readiness, and exception routing."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T17:21:24.140Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "avgSentenceLength": 21.3,
+      "sentenceLengthRange": [
+        3,
+        50
+      ],
+      "totalWords": 256
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: HVAC Scheduling and Follow-Up Automation\nBody: A lot of HVAC companies do not lose money only at the lead stage.",
+      "wordCount": 22,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want booked HVAC jobs to stay cleaner all the way to dispatch?\nBody: Book a 30-minute call. We will look at how your office handles confirmations, reminders, reschedules, and dispatch context today, then tell you whether a focused scheduling-and-follow-up workflow is the cleanest automation to build next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 14,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.4
+    },
+    "vocabulary": {
+      "distinctWords": 151,
+      "totalWords": 256,
+      "topWords": [
+        [
+          "hvac",
+          11
+        ],
+        [
+          "scheduling",
+          8
+        ],
+        [
+          "follow-up",
+          8
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "lead",
+          3
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "booked",
+          3
+        ],
+        [
+          "how",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "not",
+          2
+        ],
+        [
+          "lose",
+          2
+        ],
+        [
+          "call",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "basically"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.004
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

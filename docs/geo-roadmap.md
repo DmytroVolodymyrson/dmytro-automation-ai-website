@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped customer-service-automation-for-ecommerce-brands and added it to tracking)
+Last updated: 2026-04-22 (shipped hvac-scheduling-and-follow-up-automation and added it to tracking)
 
 ## Live GEO Assets
 
@@ -35,6 +35,7 @@ Last updated: 2026-04-22 (shipped customer-service-automation-for-ecommerce-bran
 | HVAC Lead Follow-Up Automation | `/hvac-lead-follow-up-automation` | Industry page | Live |
 | HVAC Missed Call Text Back | `/hvac-missed-call-text-back` | Industry page | Live |
 | AI Appointment Setter for HVAC | `/ai-appointment-setter-for-hvac` | Industry page | Live |
+| HVAC Scheduling and Follow-Up Automation | `/hvac-scheduling-and-follow-up-automation` | Industry operations page | Live |
 | AI Appointment Setter for Home Service Businesses | `/ai-appointment-setter-for-home-service-businesses` | Workflow / home services page | Live |
 | AI Consultant Alberta | `/ai-automation-consultant-alberta` | Geo landing page | Live |
 | AI Consultant Canada | `/ai-automation-consultant-canada` | Geo landing page | Live |
@@ -109,20 +110,20 @@ Last updated: 2026-04-22 (shipped customer-service-automation-for-ecommerce-bran
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 90**
+**Total decision/comparison/industry pages live: 91**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/customer-service-automation-for-ecommerce-brands` proved there is still at least one defensible net-new child page left inside the broader planning set when the angle is tightly bounded to a specific workflow layer. The new page was chosen because the original GEO planning explicitly targeted e-commerce customer-service intent, the current e-commerce parent page already referenced customer-service routing, and the published WheelsFeels + auto-parts proof gives honest adjacent support for a support-routing / post-purchase-service page without inventing a dedicated customer-service case study.
+Shipping `/hvac-scheduling-and-follow-up-automation` confirmed there was still one defensible HVAC child page left when the angle stayed tightly bounded to the post-booking layer: confirmations, reminders, reschedules, dispatch continuity, and office-to-field handoff. The page was chosen because the roadmap queue, the HVAC tracking prompt set, and the broader GEO research all still referenced HVAC scheduling/follow-up intent, and the existing HVAC cluster plus dispatch-handoff adjacency gave honest proof without inventing an HVAC-only scheduling case study.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P0** | HVAC scheduling and follow-up automation | HVAC scheduling and follow-up, dispatch/booking continuity, office-to-field handoff | This sub-intent is still present in the HVAC parent prompt set and GEO research, has stronger proof fit than most remaining ideas, and can be kept distinct from the broad HVAC page, HVAC lead follow-up, HVAC missed-call recovery, and the generic contractor dispatch page if it stays tightly focused on booked-job scheduling continuity and follow-through. | **Next best net-new candidate** |
-| 2 | **P1** | Real-estate lead response / follow-up child page | automate lead follow-up real estate, inbound response, showing-intent routing | Real-estate still only has the broad parent page live. There may still be room for a narrower child page, but the proof fit is weaker than HVAC and needs a more careful overlap check before shipping. | **Needs tighter proof review** |
-| 3 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | HVAC + e-commerce internal links, guide discovery, llm/llms surfacing | If the next reconciliation does not find another distinct proof-backed page, improve the strongest clusters instead of forcing filler. | **Fallback** |
+| 1 | **P0** | Real-estate lead response / follow-up child page | automate lead follow-up real estate, inbound response, showing-intent routing | Real estate still only has the broad parent page live. There is still room for a narrower child page if it stays focused on first-response speed, showing-intent routing, and agent/team handoff instead of rephrasing the broader real-estate automation page. | **Next best net-new candidate** |
+| 2 | **P1** | HVAC cluster refresh only if no stronger page survives review | HVAC internal links, llm/llms surfacing, proof framing refreshes | HVAC now has a fuller child-page cluster. Further work should be strengthening only, unless a clearly distinct workflow stage appears in broader planning docs. | **Maintenance-only fallback** |
+| 3 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | Real estate + HVAC + e-commerce discovery and internal links | If the next reconciliation does not find another distinct proof-backed page, improve the strongest clusters instead of forcing filler. | **Fallback** |
 | 4 | **Watch list** | AI automation ROI calculator or other low-confidence legacy ideas | calculator / tool concepts from older plans | These still appear in older planning docs but remain weaker than the proof-backed static pages already shipped. | **Defer** |
 
 ### Priority Definitions

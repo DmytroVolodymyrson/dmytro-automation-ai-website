@@ -153,6 +153,18 @@
       ]
     },
     {
+      "id": "hvac-scheduling-and-follow-up-automation",
+      "path": "/hvac-scheduling-and-follow-up-automation",
+      "label": "HVAC Scheduling and Follow-Up Automation",
+      "prompts": [
+        "HVAC scheduling and follow-up automation",
+        "How can HVAC companies automate scheduling and post-booking follow-up?",
+        "Best AI automation for HVAC dispatch continuity and customer reminders",
+        "HVAC office-to-field handoff automation",
+        "Should an HVAC company automate scheduling and follow-through after the job is booked?"
+      ]
+    },
+    {
       "id": "hire-ai-automation-consultant-vs-agency",
       "path": "/hire-ai-automation-consultant-vs-agency",
       "label": "Hire an AI Automation Consultant vs Agency",
