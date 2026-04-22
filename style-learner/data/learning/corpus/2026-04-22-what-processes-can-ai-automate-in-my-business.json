@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-what-processes-can-ai-automate-in-my-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: What Processes Can AI Automate in My Business?\nBody: AI can automate more business processes than most owners should actually touch in the first project. The useful question is not 'what is possible?' but 'which workflow is repetitive enough, painful enough, and close enough to revenue that automation will pay for itself quickly?' For most small businesses, the best first targets are not abstract AI projects. They are operational leaks: slow lead response, inconsistent follow-up, missed calls, booking friction, onboarding delays, and old contacts nobody ever works. This page helps you separate high-ROI candidates from workflows that are still better handled manually.\nSub: Below: the processes AI can automate well, how to choose the right first workflow, where adjacent proof already exists on this site, and when a process should stay human-led for now.\n\n### Core sections\n- The business processes AI can automate best\n- How to pick the right first process\n- Which process should you automate first?\n- Proof and adjacent proof for the process-selection question\n- When this page is useful — and when another page is the better fit\n- Common mistakes when choosing a process to automate\n\n### FAQ\nSubhead: Practical questions from owners trying to pick the right first AI workflow instead of chasing hype\n- What business processes can AI automate well in a small business?\n- What process should most businesses automate first?\n- How do I know if a process is ready for automation?\n- Is this the same as an automation audit?\n- Should I automate internal admin work before customer-facing workflows?\n\n### Final CTA\nHeading: Need help choosing the first process to automate?\nBody: Book a 30-minute call. We will look at where leads, time, or handoffs are leaking in your business and map the smallest workflow that would create a clear win first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped from the last strong explicit backlog query still surviving reconciliation across GEO-PLAN, geo-roadmap, geo-plan-2026-03, pattern matrix, current routes, and tracked prompts."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept it distinct from the existing audit / examples / roadmap cluster by framing the decision one layer earlier: choosing the first bounded workflow instead of scoring readiness, listing category examples, or laying out implementation phases."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used only direct or adjacent proof already on-site: Paris Café for speed-to-lead, WheelsFeels CRM for follow-up and routing, and HVAC reactivation for dormant-database economics."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoided fake 'AI can automate everything' framing. The copy keeps a practical boundary around repeatable, measurable workflows and explicitly preserves human-led judgment where it matters."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T23:20:48.407Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        5,
+        3
+      ],
+      "avgSentenceLength": 19,
+      "sentenceLengthRange": [
+        5,
+        41
+      ],
+      "totalWords": 304
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nHeading: What Processes Can AI Automate in My Business?",
+      "wordCount": 10,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help choosing the first process to automate?\nBody: Book a 30-minute call. We will look at where leads, time, or handoffs are leaking in your business and map the smallest workflow that would create a clear win first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 13,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 10,
+      "colon": 8,
+      "commasPerSentence": 0.87
+    },
+    "vocabulary": {
+      "distinctWords": 156,
+      "totalWords": 304,
+      "topWords": [
+        [
+          "-",
+          11
+        ],
+        [
+          "automate",
+          10
+        ],
+        [
+          "first",
+          9
+        ],
+        [
+          "ai",
+          7
+        ],
+        [
+          "process",
+          7
+        ],
+        [
+          "business",
+          6
+        ],
+        [
+          "processes",
+          5
+        ],
+        [
+          "can",
+          5
+        ],
+        [
+          "should",
+          5
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "most",
+          3
+        ],
+        [
+          "enough",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.01
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

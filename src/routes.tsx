@@ -114,6 +114,7 @@ import JobIntakeRoutingAutomationForContractors from "./pages/JobIntakeRoutingAu
 import LeadFollowUpAutomationExamples from "./pages/LeadFollowUpAutomationExamples";
 import AiAutomationImplementationRoadmap from "./pages/AiAutomationImplementationRoadmap";
 import AiAutomationIntegrationsSmallBusiness from "./pages/AiAutomationIntegrationsSmallBusiness";
+import WhatProcessesCanAiAutomateInMyBusiness from "./pages/WhatProcessesCanAiAutomateInMyBusiness";
 import NotFound from "./pages/NotFound";
 
 export type AppRouteDefinition = {
@@ -261,6 +262,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/lead-follow-up-automation-examples", element: <LeadFollowUpAutomationExamples /> },
   { path: "/ai-automation-implementation-roadmap", element: <AiAutomationImplementationRoadmap /> },
   { path: "/ai-automation-integrations-small-business", element: <AiAutomationIntegrationsSmallBusiness /> },
+  { path: "/what-processes-can-ai-automate-in-my-business", element: <WhatProcessesCanAiAutomateInMyBusiness /> },
   { path: "/privacy", element: <PrivacyPolicy /> },
   { path: "/terms", element: <TermsOfService /> },
   { path: "*", element: <NotFound />, prerender: false },

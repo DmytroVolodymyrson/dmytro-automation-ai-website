@@ -124,6 +124,13 @@ const guides: GuideItem[] = [
     category: "strategy",
   },
   {
+    title: "What Processes Can AI Automate in My Business?",
+    description:
+      "A practical process-selection guide for owners deciding what to automate first. Covers lead response, follow-up, scheduling, onboarding, reactivation, and how to choose the highest-ROI workflow instead of chasing hype.",
+    href: "/what-processes-can-ai-automate-in-my-business",
+    category: "strategy",
+  },
+  {
     title: "n8n vs Zapier for Small Business",
     description:
       "A practical comparison for business owners. When Zapier is enough, when n8n is the better fit, and what actually matters for cost and complexity.",

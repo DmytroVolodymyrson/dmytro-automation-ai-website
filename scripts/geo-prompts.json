@@ -849,6 +849,18 @@
       ]
     },
     {
+      "id": "what-processes-can-ai-automate-in-my-business",
+      "path": "/what-processes-can-ai-automate-in-my-business",
+      "label": "What Processes Can AI Automate in My Business?",
+      "prompts": [
+        "What processes can AI automate in my business?",
+        "What should I automate first in my small business?",
+        "Best business process to automate first with AI",
+        "Which workflow should a small business automate first?",
+        "How do I choose the first AI automation project for my business?"
+      ]
+    },
+    {
       "id": "ai-automation-implementation-roadmap",
       "path": "/ai-automation-implementation-roadmap",
       "label": "AI Automation Implementation Roadmap",

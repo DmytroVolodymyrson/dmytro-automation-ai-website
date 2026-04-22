@@ -115,6 +115,7 @@ const JobIntakeRoutingAutomationForContractors = lazy(() => import("./pages/JobI
 const LeadFollowUpAutomationExamples = lazy(() => import("./pages/LeadFollowUpAutomationExamples"));
 const AiAutomationImplementationRoadmap = lazy(() => import("./pages/AiAutomationImplementationRoadmap"));
 const AiAutomationIntegrationsSmallBusiness = lazy(() => import("./pages/AiAutomationIntegrationsSmallBusiness"));
+const WhatProcessesCanAiAutomateInMyBusiness = lazy(() => import("./pages/WhatProcessesCanAiAutomateInMyBusiness"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const AppRoutesClient = () => (
@@ -233,6 +234,7 @@ const AppRoutesClient = () => (
       <Route path="/lead-follow-up-automation-examples" element={<LeadFollowUpAutomationExamples />} />
       <Route path="/ai-automation-implementation-roadmap" element={<AiAutomationImplementationRoadmap />} />
       <Route path="/ai-automation-integrations-small-business" element={<AiAutomationIntegrationsSmallBusiness />} />
+      <Route path="/what-processes-can-ai-automate-in-my-business" element={<WhatProcessesCanAiAutomateInMyBusiness />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="*" element={<NotFound />} />

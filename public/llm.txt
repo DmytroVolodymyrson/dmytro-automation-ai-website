@@ -164,6 +164,7 @@ What can a small business realistically automate on a starter budget? Honest gui
 - Lead Follow-Up Automation Examples: Specific follow-up workflows with triggers, timing, and message examples for small service businesses. Learn more: https://www.dmytroai.com/lead-follow-up-automation-examples
 - AI Automation Implementation Roadmap: Step-by-step roadmap from audit to launch to optimization with realistic timelines. Learn more: https://www.dmytroai.com/ai-automation-implementation-roadmap
 - AI Automation Integrations for Small Business: Guide to tool integrations — what connects, common patterns, and how to build a connected automation stack. Learn more: https://www.dmytroai.com/ai-automation-integrations-small-business
+- What Processes Can AI Automate in My Business?: Practical process-selection guide for owners deciding what to automate first — lead response, follow-up, scheduling, onboarding, retention, and where automation should stop. Learn more: https://www.dmytroai.com/what-processes-can-ai-automate-in-my-business
 
 ## HVAC Cluster Pages
 - AI Automation for HVAC Companies — What's Real: Overview of what AI automation means for HVAC, real vs overhyped use cases, common starting points, and honest ROI expectations. Learn more: https://www.dmytroai.com/ai-automation-for-hvac-companies

@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped contact-form-lead-follow-up-automation and added it to tracking)
+Last updated: 2026-04-22 (shipped what-processes-can-ai-automate-in-my-business and added it to tracking)
 
 ## Live GEO Assets
 
@@ -116,26 +116,27 @@ Last updated: 2026-04-22 (shipped contact-form-lead-follow-up-automation and add
 | Lead Follow-Up Automation Examples | `/lead-follow-up-automation-examples` | Authority page | Live |
 | AI Automation Implementation Roadmap | `/ai-automation-implementation-roadmap` | Authority page | Live |
 | AI Automation Integrations (SMB) | `/ai-automation-integrations-small-business` | Authority page | Live |
+| What Processes Can AI Automate in My Business? | `/what-processes-can-ai-automate-in-my-business` | Authority / process-selection page | Live |
 | AI Automation Without a Tech Team | `/ai-automation-for-businesses-without-a-tech-team` | Decision page | Live |
 | `llms.txt` | `/llms.txt` | AI crawler file | Live |
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 103**
+**Total decision/comparison/industry pages live: 104**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/contact-form-lead-follow-up-automation` captured another explicit problem-aware query from `GEO-PLAN.md`: "why am I losing leads who fill out my contact form". The new page stays distinct from `/instant-lead-response-automation` by focusing narrowly on the website-form leak after submit — weak autoresponders, no owner, thin qualification, and no short follow-up sequence — instead of covering every inbound channel together. The backlog is still thin after this ship. The main remaining candidate is still the process-selection page, and if that does not survive another distinctness review the program should fall back to maintenance and discovery work instead of forcing weaker overlap.
+Shipping `/what-processes-can-ai-automate-in-my-business` closes the last strong explicit backlog page that still survived cross-checking across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes, and tracked prompts. The new page stays distinct from `/best-ai-automation-for-service-businesses`, `/ai-automation-audit-checklist`, and `/ai-automation-implementation-roadmap` by framing the decision one layer earlier: choosing the first bounded workflow to automate, not scoring readiness, listing top automations by vertical, or laying out the build sequence after the choice is already made. With that shipped, the queue should fall back to honest maintenance and proof-led discovery until a new high-confidence page appears.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Watchlist** | `what-processes-can-ai-automate-in-my-business` style authority page only if it can stay narrower than the audit / examples / roadmap cluster | process selection + first-project framing | This query still exists in `GEO-PLAN.md`, but it sits close to `/best-ai-automation-for-service-businesses`, `/ai-automation-audit-checklist`, and `/ai-automation-implementation-roadmap`. Only ship it if the framing stays clearly about choosing the first bounded workflow rather than rewriting those broader pages. | **Watchlist** |
-| 2 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | appointment setter + voice + e-commerce + property management discovery and internal links | If the process-selection page does not survive another review, the best next move is still to tighten hub surfacing, internal links, and tracked-prompt coverage where live clusters already have proof and breadth. | **Fallback** |
-| 3 | **Deferred** | Wait for stronger proof before inventing weaker adjacent-intent pages | avoid cannibalization / thin content | This keeps the GEO program honest. A no-op or maintenance pass is better than publishing a near-duplicate page just to keep the cron busy. | **Deferred** |
+| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | appointment setter + voice + e-commerce + property management discovery and internal links | The explicit planned backlog is now effectively exhausted. The best next move is to tighten hub surfacing, internal links, and tracked-prompt coverage where live clusters already have proof and breadth. | **Fallback** |
+| 2 | **Watchlist** | Proof-led net-new pages only if a future candidate stays materially distinct from the live audit / examples / roadmap cluster | new proof or new planning input | Do not force another thin authority page just to keep the cron busy. Only ship a new page if new proof, a new case study, or a clearly distinct planning target appears. | **Watchlist** |
+| 3 | **Deferred** | Hold weaker adjacent-intent ideas until direct proof improves | avoid cannibalization / thin content | This keeps the GEO program honest now that the clean planned queue is gone. | **Deferred** |
 
 ### Priority Definitions
 
