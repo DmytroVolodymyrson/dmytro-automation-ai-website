@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-hire-ai-automation-consultant-vs-diy",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Hire an AI Automation Consultant or Do It Yourself?\nBody: If your automation need is simple, low-risk, and you genuinely want to learn the tools, doing it yourself can make sense. If the workflow touches real revenue, multiple systems, or customer experience, hiring an AI automation consultant is usually the cheaper decision once you count debugging time, missed leads, and cleanup. The important question is not whether DIY is possible. It is whether this is the kind of workflow you want to trust to nights, weekends, trial-and-error, and whatever breaks after launch.\nSub: Below: when DIY is fine, when consultant help pays for itself, what each path really costs, and how to tell whether you need a tutorial, a narrow implementation partner, or a consultant who can scope the whole workflow honestly.\n\n### Core sections\n- What this decision is really about\n- DIY vs. hiring a consultant\n- When DIY is a strong fit — and when it is not\n- What usually makes owners abandon the DIY route\n- How to make the right call before spending money or time\n- Relevant proof and adjacent proof\n\n### FAQ\nSubhead: Straight answers for owners deciding whether to keep building themselves or bring in expert help\n- When is doing AI automation yourself actually worth it?\n- How much does it usually cost to hire an AI automation consultant?\n- What is the hidden cost of DIY automation?\n- Can I prototype it myself and then hire a consultant later?\n- How do I know if I need a consultant or just a tutorial?\n\n### Final CTA\nHeading: Want a clear answer on whether this workflow is worth DIYing?\nBody: Book a 30-minute call. We will look at the workflow you want to automate, the real cost of delay and debugging, and whether the smartest next step is a DIY prototype, a narrow consultant-led build, or no automation at all yet.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected after reconciling the stale roadmap with broader GEO-PLAN queries: the original plan still contained an explicit hire-vs-DIY buyer question even though the queue had declared the backlog exhausted."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept it distinct from the consultant guide, consultant-vs-agency, and build-vs-buy pages by centering one narrower decision: whether owner-led DIY is truly cheaper once time, reliability, and failure cost are counted."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used bounded proof only: Paris Cafe for production-grade call handling, WheelsFeels for downstream CRM integrity, and the published n8n consultant page as adjacent proof for the narrower platform-specific version of the same decision."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoided pretending DIY is always a mistake. The page explicitly leaves room for prototypes, learning-driven builds, and low-risk internal workflows where doing it yourself is genuinely reasonable."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T21:21:20.883Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        5,
+        3
+      ],
+      "avgSentenceLength": 19.9,
+      "sentenceLengthRange": [
+        5,
+        42
+      ],
+      "totalWords": 319
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nHeading: Hire an AI Automation Consultant or Do It Yourself?",
+      "wordCount": 11,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a clear answer on whether this workflow is worth DIYing?\nBody: Book a 30-minute call. We will look at the workflow you want to automate, the real cost of delay and debugging, and whether the smartest next step is a DIY prototype, a narrow consultant-led build, or no automation at all yet.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 20,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 7,
+      "colon": 7,
+      "commasPerSentence": 1.33
+    },
+    "vocabulary": {
+      "distinctWords": 155,
+      "totalWords": 319,
+      "topWords": [
+        [
+          "-",
+          11
+        ],
+        [
+          "consultant",
+          8
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "it",
+          7
+        ],
+        [
+          "diy",
+          7
+        ],
+        [
+          "whether",
+          6
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "want",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "hire",
+          3
+        ],
+        [
+          "yourself",
+          3
+        ],
+        [
+          "if",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

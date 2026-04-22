@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped affordable-ai-automation-small-business and added it to tracking)
+Last updated: 2026-04-22 (shipped hire-ai-automation-consultant-vs-diy and added it to tracking)
 
 ## Live GEO Assets
 
@@ -25,6 +25,7 @@ Last updated: 2026-04-22 (shipped affordable-ai-automation-small-business and ad
 | AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo landing page | Live |
 | AI Consultant Edmonton | `/ai-automation-consultant-edmonton` | Geo landing page | Live |
 | AI Consultant vs Agency | `/hire-ai-automation-consultant-vs-agency` | Comparison page | Live |
+| AI Consultant vs DIY | `/hire-ai-automation-consultant-vs-diy` | Comparison page | Live |
 | HVAC Database Reactivation | `/hvac-database-reactivation` | Decision page | Live |
 | AI Consultant vs Freelancer | `/ai-automation-consultant-vs-freelancer` | Comparison page | Live |
 | AI Chatbot vs Voice Agent | `/ai-chatbot-vs-ai-voice-agent-for-lead-qualification` | Comparison page | Live |
@@ -117,20 +118,20 @@ Last updated: 2026-04-22 (shipped affordable-ai-automation-small-business and ad
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 98**
+**Total decision/comparison/industry pages live: 99**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/affordable-ai-automation-small-business` exhausted the last still-explicit high-confidence page in the current planning set. It stayed distinct from the broader cost / pricing / ROI pages by answering a narrower budget-first decision: what a starter automation budget can realistically buy, what still needs setup fees, and when forcing a cheap build is a mistake. After reconciling `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-roadmap.md`, current routes, and `scripts/geo-prompts.json`, there is no equally clear planned-but-unshipped page left that feels both distinct and proof-backed.
+Shipping `/hire-ai-automation-consultant-vs-diy` proved the broader planning set was not actually exhausted: `GEO-PLAN.md` still contained an explicit hire-vs-DIY buyer query even after the older roadmap queue had gone stale. This page stays distinct from the broader consultant guide, the consultant-vs-agency page, and the build-vs-buy page by focusing narrowly on one decision: when owner-led DIY is enough versus when expert help is cheaper once time, reliability, and failure cost are counted. After this ship, there is no equally explicit high-confidence URL target left, but one softer hiring-intent topic still survives in the original planning docs.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Monitor** | Re-check broader planning docs and tracked prompts for any newly supportable setup-help or budget-intent sibling page | net-new page only if buyer intent is clearly distinct and proof-backed | The current planned backlog looks exhausted after this ship. Only add another page if a still-explicit topic survives a fresh cross-doc reconciliation without collapsing into existing cost / ROI / pricing coverage. | **Monitor** |
-| 2 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | appointment setter + e-commerce + property management discovery and internal links | If the backlog remains exhausted on the next run, the best next move is discovery and internal-link depth instead of forcing a thin adjacent page. | **Fallback** |
-| 3 | **Deferred** | Wait for stronger proof before inventing another budget-only or adjacent-intent page | avoid cannibalization / thin content | This keeps the GEO program honest. A no-op or maintenance pass is better than publishing a near-duplicate page just to keep the cron busy. | **Deferred** |
+| 1 | **P1** | How to find someone to automate my business with AI / what to look for when hiring | consultant selection / hiring-intent guide | `GEO-PLAN.md` still contains explicit hiring-intent queries around finding the right person, not just choosing consultant vs agency vs DIY. This could stay distinct if framed around vetting, red flags, proof, ownership, and what a good discovery call should produce rather than rehashing existing pricing or agency comparisons. | **Queued** |
+| 2 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | appointment setter + e-commerce + property management discovery and internal links | If the remaining hiring-intent topic does not survive the next reconciliation cleanly, the best next move is discovery and internal-link depth instead of forcing a thin adjacent page. | **Fallback** |
+| 3 | **Deferred** | Wait for stronger proof before inventing weaker adjacent-intent pages | avoid cannibalization / thin content | This keeps the GEO program honest. A no-op or maintenance pass is better than publishing a near-duplicate page just to keep the cron busy. | **Deferred** |
 
 ### Priority Definitions
 

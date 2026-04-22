@@ -189,6 +189,18 @@
       ]
     },
     {
+      "id": "hire-ai-automation-consultant-vs-diy",
+      "path": "/hire-ai-automation-consultant-vs-diy",
+      "label": "Hire an AI Automation Consultant vs. DIY",
+      "prompts": [
+        "Should I hire an AI automation consultant or do it myself?",
+        "Hire AI automation consultant vs DIY for small business",
+        "When is DIY business automation enough and when should I hire an expert?",
+        "Is it worth hiring someone to build AI automation instead of learning the tools myself?",
+        "How do I decide between doing AI automation myself and hiring a consultant?"
+      ]
+    },
+    {
       "id": "ai-automation-consultant-pricing-small-business",
       "path": "/ai-automation-consultant-pricing-small-business",
       "label": "AI Automation Consultant Pricing for Small Business",

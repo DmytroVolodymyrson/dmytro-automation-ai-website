@@ -139,6 +139,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "Hire an AI Automation Consultant or Do It Yourself?",
+    description:
+      "Should you hire an AI automation consultant or build it yourself? Honest comparison of owner time, reliability, cost, and when DIY is enough versus when expert help saves money.",
+    href: "/hire-ai-automation-consultant-vs-diy",
+    category: "comparisons",
+  },
+  {
     title: "AI Chatbot vs. AI Voice Agent for Lead Qualification",
     description:
       "Should you use an AI chatbot or a voice agent to qualify leads? Compare response rates, conversion, cost, and implementation for service businesses.",
