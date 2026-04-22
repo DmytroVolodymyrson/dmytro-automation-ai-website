@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-dispatch-handoff-automation-for-contractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Dispatch Handoff Automation for Contractors\nBody: A lot of contractor jobs do not go sideways because the tech lacks skill. They go sideways because the handoff from the office to the field is incomplete. The estimate was accepted, the job got booked, but the crew arrives missing scope notes, access details, materials context, or the real reason the customer called. Dispatch handoff automation fixes that narrow stage. It packages the job context, routes it to the right people, and makes sure the field team is not starting every day by calling the office to reconstruct what should have been attached to the work order in the first place.\nSub: Below: what contractor dispatch handoff automation actually handles, how it stays distinct from broader contractor CRM work and estimate follow-up, what guardrails matter, and what adjacent proof supports the page without pretending there is already a published contractor dispatch case study.\n\n### Core sections\n- What contractor dispatch handoff automation actually handles\n- Dispatch handoff automation vs. contractor CRM vs. estimate follow-up\n- Important guardrails for contractor dispatch handoff workflows\n- How a practical contractor dispatch handoff system usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about automating contractor dispatch handoff\nTopics: difference from the broader contractor CRM page, whether dispatch software needs to be replaced, focused build cost, compatibility with Jobber/Housecall Pro/ServiceTitan, and the main ROI.\n\n### Final CTA\nHeading: Want booked jobs to reach the field with the right context attached?\nBody: Book a 30-minute call. We will look at how jobs move from estimate or booking into dispatch today, where details get dropped, and whether a focused dispatch-handoff workflow is the cleanest automation to build next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because it was the strongest remaining planned-but-unshipped candidate in the roadmap and stays meaningfully narrower than both the broader contractor CRM page and the new estimate-follow-up page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the proof framing disciplined: relies on the contractor CRM page, dispatch-aware HVAC/home-service pages, and the published CRM case study instead of inventing a contractor dispatch case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays operational and non-hype: job packets, technician readiness, exception routing, office-to-field visibility, and callback-worthy handoff failures."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks back to the contractor CRM page, the contractor estimate-recovery page, and home-service scheduling pages where dispatch constraints are already discussed."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T10:22:11.418Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        3,
+        1,
+        3
+      ],
+      "avgSentenceLength": 21.7,
+      "sentenceLengthRange": [
+        3,
+        42
+      ],
+      "totalWords": 282
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Dispatch Handoff Automation for Contractors\nBody: A lot of contractor jobs do not go sideways because the tech lacks skill.",
+      "wordCount": 22,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want booked jobs to reach the field with the right context attached?\nBody: Book a 30-minute call. We will look at how jobs move from estimate or booking into dispatch today, where details get dropped, and whether a focused dispatch-handoff workflow is the cleanest automation to build next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 16,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.33
+    },
+    "vocabulary": {
+      "distinctWords": 156,
+      "totalWords": 282,
+      "topWords": [
+        [
+          "dispatch",
+          11
+        ],
+        [
+          "contractor",
+          10
+        ],
+        [
+          "handoff",
+          9
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "estimate",
+          4
+        ],
+        [
+          "jobs",
+          3
+        ],
+        [
+          "field",
+          3
+        ],
+        [
+          "context",
+          3
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "how",
+          3
+        ],
+        [
+          "crm",
+          3
+        ],
+        [
+          "page",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.007
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

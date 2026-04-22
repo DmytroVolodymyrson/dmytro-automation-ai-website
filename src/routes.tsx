@@ -88,6 +88,7 @@ import AiAutomationAuditChecklist from "./pages/AiAutomationAuditChecklist";
 import CrmAutomationExamplesSmallBusiness from "./pages/CrmAutomationExamplesSmallBusiness";
 import CrmAutomationForContractors from "./pages/CrmAutomationForContractors";
 import EstimateFollowUpAutomationForContractors from "./pages/EstimateFollowUpAutomationForContractors";
+import DispatchHandoffAutomationForContractors from "./pages/DispatchHandoffAutomationForContractors";
 import LeadFollowUpAutomationExamples from "./pages/LeadFollowUpAutomationExamples";
 import AiAutomationImplementationRoadmap from "./pages/AiAutomationImplementationRoadmap";
 import AiAutomationIntegrationsSmallBusiness from "./pages/AiAutomationIntegrationsSmallBusiness";
@@ -200,6 +201,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/crm-automation-examples-small-business", element: <CrmAutomationExamplesSmallBusiness /> },
   { path: "/crm-automation-for-contractors", element: <CrmAutomationForContractors /> },
   { path: "/estimate-follow-up-automation-for-contractors", element: <EstimateFollowUpAutomationForContractors /> },
+  { path: "/dispatch-handoff-automation-for-contractors", element: <DispatchHandoffAutomationForContractors /> },
   { path: "/lead-follow-up-automation-examples", element: <LeadFollowUpAutomationExamples /> },
   { path: "/ai-automation-implementation-roadmap", element: <AiAutomationImplementationRoadmap /> },
   { path: "/ai-automation-integrations-small-business", element: <AiAutomationIntegrationsSmallBusiness /> },

@@ -617,6 +617,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Dispatch Handoff Automation for Contractors",
+    description:
+      "A narrower contractor operations page focused on moving booked jobs cleanly from office to field with better notes, technician context, exception routing, and dispatch visibility.",
+    href: "/dispatch-handoff-automation-for-contractors",
+    category: "industries",
+  },
+  {
     title: "AI Automation Consultant Calgary",
     description:
       "AI automation consulting for Calgary businesses. Custom automations for lead follow-up, scheduling, CRM workflows, and operations. Fixed pricing, clear scope.",

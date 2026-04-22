@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped estimate-follow-up-automation-for-contractors and added it to tracking)
+Last updated: 2026-04-22 (shipped dispatch-handoff-automation-for-contractors and added it to tracking)
 
 ## Live GEO Assets
 
@@ -46,6 +46,7 @@ Last updated: 2026-04-22 (shipped estimate-follow-up-automation-for-contractors 
 | AI Automation for Electrical Contractors | `/ai-automation-for-electrical-contractors` | Industry page | Live |
 | CRM Automation for Contractors | `/crm-automation-for-contractors` | Industry / CRM systems page | Live |
 | Estimate Follow-Up Automation for Contractors | `/estimate-follow-up-automation-for-contractors` | Industry workflow page | Live |
+| Dispatch Handoff Automation for Contractors | `/dispatch-handoff-automation-for-contractors` | Industry operations page | Live |
 | Client Onboarding Automation | `/client-onboarding-automation` | Workflow page | Live |
 | AI Automation ROI Guide | `/ai-automation-roi-guide` | Decision page | Live |
 | n8n Automation Examples (SMB) | `/n8n-automation-examples-small-business` | Authority page | Live |
@@ -99,20 +100,20 @@ Last updated: 2026-04-22 (shipped estimate-follow-up-automation-for-contractors 
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 80**
+**Total decision/comparison/industry pages live: 81**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-The contractor estimate follow-up page has now shipped. The remaining backlog is still overlap-prone, but there is probably room for one more tightly bounded contractor operations child page if it stays focused on a clearly different stage than both the CRM systems page and the new estimate-recovery page.
+The contractor dispatch-handoff page has now shipped. The backlog is thinner, but there is still one plausible contractor child page left if it stays tightly bounded around intake routing rather than rehashing CRM setup or generic speed-to-lead automation.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Needs validation** | Contractor dispatch handoff automation | contractor dispatch handoff, office to field workflow, job context handoff | This is the cleanest remaining contractor child candidate because it focuses on what happens after the job is booked, not on lead capture or estimate recovery. It only works if the copy stays tightly centered on notes, scheduling context, technician readiness, and office-to-field visibility. | **Validate before shipping** |
-| 2 | **Watch list** | Contractor job intake routing | contractor job intake routing, lead-to-estimator assignment, service request triage | There may still be room for a narrower intake-routing page if it stays distinct from the CRM systems page and from the generic instant-response cluster. It needs careful framing around routing logic rather than broad lead follow-up. | **Needs careful differentiation** |
-| 3 | **Fallback** | Refresh the strongest revenue clusters if no new page clears the quality bar | insurance, mortgage, property-management, contractor cluster | If the next contractor child page cannot stay distinct and proof-backed, improving the strongest workflow clusters is still better than forcing filler URLs. | **Fallback only** |
+| 1 | **Needs validation** | Contractor job intake routing | contractor job intake routing, lead-to-estimator assignment, service request triage | This is the clearest remaining contractor child candidate because it focuses on what happens before the estimate exists: request capture, service-type routing, urgency tagging, and ownership assignment. It only works if the copy stays tightly centered on intake logic instead of drifting back into broad CRM or instant-response claims. | **Validate before shipping** |
+| 2 | **Watch list** | Refresh the strongest revenue clusters if no new page clears the quality bar | insurance, mortgage, property-management, contractor cluster | If the intake-routing page cannot stay distinct and proof-backed, improving the strongest workflow clusters is still better than forcing filler URLs. | **Fallback only** |
+| 3 | **Backlog scan** | Reconcile broader planning docs against live routes again before forcing a new cluster | GEO-PLAN.md, geo-plan-2026-03, geo-prompts child prompts | If the contractor queue dries up completely, the next run should prefer a fresh backlog reconciliation pass rather than inventing a weak filler URL. | **Do before forcing another ship** |
 
 ### Priority Definitions
 

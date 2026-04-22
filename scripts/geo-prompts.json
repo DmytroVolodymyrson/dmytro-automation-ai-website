@@ -619,6 +619,18 @@
         "Contractor estimate reminder workflow",
         "How can a home service contractor stop losing jobs after sending the quote?"
       ]
+    },
+    {
+      "id": "dispatch-handoff-automation-for-contractors",
+      "path": "/dispatch-handoff-automation-for-contractors",
+      "label": "Dispatch Handoff Automation for Contractors",
+      "prompts": [
+        "Dispatch handoff automation for contractors",
+        "How do contractors automate dispatch handoff?",
+        "Best way to move job details from office to field for a contractor",
+        "Contractor office to field workflow automation",
+        "How can a contractor stop losing job context between the office and the field?"
+      ]
     }
   ],
   "providers": [

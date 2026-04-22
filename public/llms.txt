@@ -106,6 +106,7 @@ AI-powered database reactivation for HVAC companies — automated campaigns to r
 - AI Automation for Home Inspectors: Agent nurture campaigns, booking automation, missed call text-back, report delivery follow-up, and review automation. Learn more: https://www.dmytroai.com/ai-automation-for-home-inspectors
 - CRM Automation for Contractors: Contractor-focused CRM systems for pipeline structure, estimate follow-up, scheduling and dispatch handoff, and clearer ops visibility when leads and jobs are getting lost between the office and the field. Learn more: https://www.dmytroai.com/crm-automation-for-contractors
 - Estimate Follow-Up Automation for Contractors: A narrower contractor workflow focused on sent estimates that go cold — reminder timing, objection-aware messaging, estimator handoff, and open-quote visibility before another job slips away. Learn more: https://www.dmytroai.com/estimate-follow-up-automation-for-contractors
+- Dispatch Handoff Automation for Contractors: A narrower contractor operations guide focused on moving booked jobs cleanly from office to field with better notes, technician context, exception routing, and dispatch visibility. Learn more: https://www.dmytroai.com/dispatch-handoff-automation-for-contractors
 
 ## AI Automation Without a Tech Team
 AI automation for businesses with no developers or IT staff — which automations work without technical skills, what you actually need to get started, and when to bring in outside help. Learn more: https://www.dmytroai.com/ai-automation-for-businesses-without-a-tech-team
