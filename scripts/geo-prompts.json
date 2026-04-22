@@ -125,7 +125,19 @@
         "What is the best way to automate lead response for a home services company?",
         "AI tools for faster lead follow-up in small business",
         "How to respond to leads instantly using AI automation",
-        "What does AI lead follow-up cost for a small business?"
+        "How do I automate lead follow-up without sounding robotic?"
+      ]
+    },
+    {
+      "id": "ai-lead-follow-up-cost-small-business",
+      "path": "/ai-lead-follow-up-cost-small-business",
+      "label": "AI Lead Follow-Up Cost for Small Business",
+      "prompts": [
+        "What does AI lead follow-up cost for a small business?",
+        "How much should a small business budget for lead follow-up automation?",
+        "What is the typical cost of automating lead response and follow-up?",
+        "Is AI lead follow-up worth it for a small business?",
+        "What affects the price of lead follow-up automation?"
       ]
     },
     {

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-ai-lead-follow-up-cost-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Lead Follow-Up Cost for Small Business\nBody: If you are looking up lead follow-up pricing, the useful question is not “how cheap can I get automation?” It is “what level of follow-up problem am I actually solving?” A small business that only needs instant response to web leads should not buy the same system as a business that needs multi-channel nurture, missed-call recovery, CRM routing, and owner alerts. This page breaks down realistic cost ranges for lead follow-up automation specifically — not broad AI transformation pricing, and not voice-agent ROI alone — so you can budget the right first build instead of overbuying or underbuilding.\nSub: Below: what different lead follow-up builds usually cost, what drives the price up, where small businesses overspend, and when the math makes sense versus when a simpler workflow is enough.\n\n### Core sections\n- Breaks pricing into narrow workflow tiers: instant response only, form follow-up, multi-step follow-up, CRM-routed follow-up, missed-call recovery, and AI-assisted qualification.\n- Explains cost drivers in practical terms: channel count, routing complexity, AI layer, and process messiness.\n- Keeps the intent separate from the broader lead-follow-up page and the general automation cost page by framing this as a budgeting and scoping decision.\n- Uses good-fit / overkill framing plus budgeting guidance around smallest high-ROI first build, monthly tool costs, and post-launch tuning.\n- Grounds the page in direct and adjacent proof from Paris Café, WheelsFeels CRM, and the existing lead-response workflow cluster.\n\n### FAQ\nSubhead: Practical answers about budgeting lead follow-up automation for a small business\nTopics: realistic pricing range, how this differs from the general cost guide, whether to start small and expand later, what drives price up, and how to decide if the spend is worth it.\n\n### Final CTA\nHeading: Want a realistic quote for your lead follow-up workflow?\nBody: Book a 30-minute call. We will look at where leads are dropping, decide how much workflow you actually need, and give you a fixed-price range for the narrowest build worth doing first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as a proof-led economic child page after the explicit cross-doc GEO backlog was effectively exhausted."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Qualified because the cost query already existed inside the tracked prompt set for the live lead-follow-up page, so the page answers a real monitored commercial question rather than inventing a new topic."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept distinct from /ai-lead-follow-up-for-service-businesses, /ai-automation-cost-small-business, and /ai-voice-agent-roi-for-lead-follow-up by staying tightly focused on pricing and scope for small-business lead follow-up builds."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical, bounded, and anti-hype with explicit overkill framing."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T23:33:22.659Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        5,
+        1,
+        3
+      ],
+      "avgSentenceLength": 27.6,
+      "sentenceLengthRange": [
+        5,
+        71
+      ],
+      "totalWords": 331
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nHeading: AI Lead Follow-Up Cost for Small Business\nBody: If you are looking up lead follow-up pricing, the useful question is not “how cheap can I get automation?” It is “what level of follow-up problem am I actually solving?” A small business that only needs instant response to web leads should not buy the same system as a business that needs multi-channel nurture, missed-call recovery, CRM routing, and owner alerts.",
+      "wordCount": 71,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a realistic quote for your lead follow-up workflow?\nBody: Book a 30-minute call. We will look at where leads are dropping, decide how much workflow you actually need, and give you a fixed-price range for the narrowest build worth doing first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 26,
+      "emDashes": 2,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 3,
+      "colon": 10,
+      "commasPerSentence": 2.17
+    },
+    "vocabulary": {
+      "distinctWords": 188,
+      "totalWords": 331,
+      "topWords": [
+        [
+          "follow-up",
+          10
+        ],
+        [
+          "lead",
+          6
+        ],
+        [
+          "cost",
+          6
+        ],
+        [
+          "small",
+          5
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "business",
+          4
+        ],
+        [
+          "pricing",
+          4
+        ],
+        [
+          "not",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "ai",
+          3
+        ],
+        [
+          "up",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

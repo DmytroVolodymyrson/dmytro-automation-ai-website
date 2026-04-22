@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped what-processes-can-ai-automate-in-my-business and added it to tracking)
+Last updated: 2026-04-22 (shipped ai-lead-follow-up-cost-small-business and added it to tracking)
 
 ## Live GEO Assets
 
@@ -23,6 +23,7 @@ Last updated: 2026-04-22 (shipped what-processes-can-ai-automate-in-my-business 
 | Reservation Confirmation and Reminder Automation for Restaurants | `/reservation-confirmation-and-reminder-automation-for-restaurants` | Restaurant workflow page | Live |
 | Missed Call Text-Back for Restaurants | `/missed-call-text-back-for-restaurants` | Restaurant workflow page | Live |
 | AI Lead Follow-Up | `/ai-lead-follow-up-for-service-businesses` | Decision page | Live |
+| AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Workflow / pricing decision page | Live |
 | AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo landing page | Live |
 | AI Consultant Edmonton | `/ai-automation-consultant-edmonton` | Geo landing page | Live |
 | AI Consultant vs Agency | `/hire-ai-automation-consultant-vs-agency` | Comparison page | Live |
@@ -123,19 +124,19 @@ Last updated: 2026-04-22 (shipped what-processes-can-ai-automate-in-my-business 
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 104**
+**Total decision/comparison/industry pages live: 105**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/what-processes-can-ai-automate-in-my-business` closes the last strong explicit backlog page that still survived cross-checking across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes, and tracked prompts. The new page stays distinct from `/best-ai-automation-for-service-businesses`, `/ai-automation-audit-checklist`, and `/ai-automation-implementation-roadmap` by framing the decision one layer earlier: choosing the first bounded workflow to automate, not scoring readiness, listing top automations by vertical, or laying out the build sequence after the choice is already made. With that shipped, the queue should fall back to honest maintenance and proof-led discovery until a new high-confidence page appears.
+The explicit cross-doc backlog is still effectively exhausted, but Tier B can still ship tightly bounded proof-led child pages when they come from an already tracked commercial prompt and stay materially distinct from the live cluster. `/ai-lead-follow-up-cost-small-business` qualifies on that basis: the cost query already existed inside the tracked lead-follow-up prompt set, the site already had direct and adjacent proof for speed-to-lead economics, and the page stays separate from the broader lead-follow-up guide, the general automation cost guide, and the voice-agent ROI page by focusing specifically on pricing and scope for small-business lead follow-up builds. The queue should still stay honest: no fake clean backlog, just bounded proof-led watchlist candidates when they genuinely survive overlap review.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | appointment setter + voice + e-commerce + property management discovery and internal links | The explicit planned backlog is now effectively exhausted. The best next move is to tighten hub surfacing, internal links, and tracked-prompt coverage where live clusters already have proof and breadth. | **Fallback** |
-| 2 | **Watchlist** | Proof-led net-new pages only if a future candidate stays materially distinct from the live audit / examples / roadmap cluster | new proof or new planning input | Do not force another thin authority page just to keep the cron busy. Only ship a new page if new proof, a new case study, or a clearly distinct planning target appears. | **Watchlist** |
+| 1 | **Watchlist** | `/ai-appointment-setter-cost-small-business` | appointment-setter pricing / implementation budget | Strongest next proof-led child candidate if Tier B needs another net-new page. It is already implied by tracked prompts, stays distinct from the generic appointment-setter page by focusing on budgeting and scope, and can lean on the live voice / appointment-setter cluster without inventing new proof. | **Watchlist** |
+| 2 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | appointment setter + voice + e-commerce + property management discovery and internal links | The clean planned backlog is still exhausted. If the next proof-led child does not survive review, default back to discovery-surface and internal-link improvement on the strongest live clusters. | **Fallback** |
 | 3 | **Deferred** | Hold weaker adjacent-intent ideas until direct proof improves | avoid cannibalization / thin content | This keeps the GEO program honest now that the clean planned queue is gone. | **Deferred** |
 
 ### Priority Definitions

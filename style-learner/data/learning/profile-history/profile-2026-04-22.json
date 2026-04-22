@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-22T23:20:53.721Z",
-  "postCount": 119,
+  "updatedAt": "2026-04-22T23:33:23.902Z",
+  "postCount": 120,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -14,26 +14,26 @@
       "min": 1,
       "max": 11,
       "p25": 4,
-      "p75": 5,
-      "samples": 119
+      "p75": 4,
+      "samples": 120
     },
     "sentenceLength": {
-      "mean": 18.7,
+      "mean": 18.8,
       "median": 17.7,
       "min": 7.1,
       "max": 105,
       "p25": 14.9,
       "p75": 20.7,
-      "samples": 119
+      "samples": 120
     },
     "totalWords": {
-      "mean": 248,
-      "median": 221,
+      "mean": 248.7,
+      "median": 222,
       "min": 17,
       "max": 1155,
       "p25": 171,
       "p75": 290,
-      "samples": 119
+      "samples": 120
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -70,7 +70,7 @@
       "single | single | long | single | short | short": 2,
       "single | single | long | short | long | single": 1,
       "long | long | long | long": 4,
-      "long | long | single | long": 16,
+      "long | long | single | long": 17,
       "single | long | long": 1,
       "long | short | long | long": 7,
       "long | single | long | long": 7,
@@ -98,7 +98,7 @@
       "opener | context | context | context | result | product-pitch | context | context | closer": 1,
       "opener | context | product-pitch | closer": 8,
       "opener | context | context | closer": 46,
-      "opener | product-pitch | context | closer": 11,
+      "opener | product-pitch | context | closer": 12,
       "opener | context | product-pitch | context | product-pitch | result | context | closer": 1,
       "opener | product-pitch | product-pitch | closer": 4,
       "opener | context | product-pitch | context | product-pitch | product-pitch | product-pitch | product-pitch | closer": 1,
@@ -143,11 +143,11 @@
         ]
       },
       "question": {
-        "count": 5,
+        "count": 6,
         "examples": [
           "Q: What kind of businesses do you work with?",
           "### Hero\nBadge: AI Automation Consulting\nHeading: Do you actually need an AI aut",
-          "### Hero\nHeading: Hire an AI Automation Consultant or Do It Yourself?"
+          "### Hero\nHeading: AI Lead Follow-Up Cost for Small Business\nBody: If you are loo"
         ]
       },
       "stat": {
@@ -169,7 +169,7 @@
         ]
       },
       "question": {
-        "count": 73,
+        "count": 74,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -202,31 +202,31 @@
     "topWords": [
       [
         "-",
-        779
+        784
       ],
       [
         "automation",
-        453
+        457
       ],
       [
         "what",
-        304
+        308
+      ],
+      [
+        "ai",
+        265
       ],
       [
         "your",
         263
       ],
       [
-        "ai",
-        262
-      ],
-      [
         "follow-up",
-        201
+        211
       ],
       [
         "lead",
-        132
+        138
       ],
       [
         "heading",
@@ -237,16 +237,16 @@
         115
       ],
       [
+        "not",
+        105
+      ],
+      [
         "that",
         104
       ],
       [
         "with",
         102
-      ],
-      [
-        "not",
-        101
       ],
       [
         "body",
@@ -258,7 +258,7 @@
       ],
       [
         "how",
-        80
+        84
       ],
       [
         "leads",
@@ -266,6 +266,10 @@
       ],
       [
         "businesses",
+        64
+      ],
+      [
+        "business",
         64
       ],
       [
@@ -277,15 +281,11 @@
         62
       ],
       [
-        "business",
-        60
+        "workflow",
+        59
       ],
       [
         "consultant",
-        54
-      ],
-      [
-        "workflow",
         54
       ],
       [
@@ -295,6 +295,10 @@
       [
         "when",
         53
+      ],
+      [
+        "page",
+        50
       ],
       [
         "agent",
@@ -309,15 +313,11 @@
         46
       ],
       [
-        "page",
-        46
-      ],
-      [
         "calls",
         45
       ],
       [
-        "mortgage",
+        "small",
         44
       ]
     ],

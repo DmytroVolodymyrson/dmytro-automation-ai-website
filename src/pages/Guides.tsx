@@ -273,6 +273,13 @@ const guides: GuideItem[] = [
     featured: true,
   },
   {
+    title: "AI Lead Follow-Up Cost for Small Business",
+    description:
+      "What should a small business actually budget for lead follow-up automation? Practical pricing ranges for instant response, multi-step follow-up, CRM routing, and where overbuilding starts.",
+    href: "/ai-lead-follow-up-cost-small-business",
+    category: "workflows",
+  },
+  {
     title: "Client Onboarding Automation",
     description:
       "How to automate client onboarding for service businesses. Intake forms, document collection, welcome sequences, scheduling, and CRM pipeline automation.",
