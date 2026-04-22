@@ -624,6 +624,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Job Intake Routing Automation for Contractors",
+    description:
+      "A narrower contractor intake page focused on request capture, service-type routing, urgency tagging, lead-to-estimator assignment, and cleaner triage before the estimate exists.",
+    href: "/job-intake-routing-automation-for-contractors",
+    category: "industries",
+  },
+  {
     title: "AI Automation Consultant Calgary",
     description:
       "AI automation consulting for Calgary businesses. Custom automations for lead follow-up, scheduling, CRM workflows, and operations. Fixed pricing, clear scope.",

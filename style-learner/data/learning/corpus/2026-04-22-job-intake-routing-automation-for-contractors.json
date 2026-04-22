@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-job-intake-routing-automation-for-contractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Job Intake Routing Automation for Contractors\nBody: A lot of contractor chaos starts before the estimate exists. New requests come in through calls, forms, texts, LSAs, referrals, and website chats. Nobody tags service type the same way. Urgent jobs sit beside routine work. The wrong estimator gets the lead, or nobody owns it at all until the customer calls back annoyed. Job intake routing automation fixes that narrow stage. It captures the request, adds the minimum useful context, applies routing rules, and gets the lead to the right person before office confusion turns into slow response, bad triage, or wasted field time.\nSub: Below: what contractor job intake routing automation actually handles, how it stays distinct from broader contractor CRM work, instant lead response, and dispatch handoff, what guardrails matter, and what adjacent proof honestly supports the page without pretending there is already a published contractor intake case study.\n\n### Core sections\n- What contractor job intake routing automation actually handles\n- Job intake routing vs. contractor CRM vs. instant lead response vs. dispatch handoff\n- Important guardrails for contractor intake-routing workflows\n- How a practical contractor intake-routing system usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about automating contractor job intake and routing\nTopics: difference from the broader contractor CRM page, difference from instant lead response automation, focused build cost, compatibility with Jobber/Housecall Pro/ServiceTitan/GoHighLevel/custom stacks, and the main ROI.\n\n### Final CTA\nHeading: Want new requests routed cleanly before the estimate stage gets messy?\nBody: Book a 30-minute call. We will look at how new contractor requests enter your business today, where ownership gets fuzzy, and whether a focused intake-routing workflow is the cleanest automation to build next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because it was the strongest remaining planned-but-unshipped candidate in the roadmap and stays meaningfully narrower than the broader contractor CRM page, instant lead response, and the already-live dispatch-handoff page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the proof framing disciplined: relies on the contractor CRM page, home-service scheduling/triage pages, and the published CRM case study instead of inventing a contractor intake case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays operational and non-hype: request capture, service-type routing, urgency tagging, lead ownership, and clean pre-estimate handoff instead of generic speed-to-lead promises."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks back to the contractor CRM page, the instant lead response guide, home-service scheduling pages, and the contractor dispatch-handoff page so the cluster stays navigable by workflow stage."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T11:20:56.268Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 17.7,
+      "sentenceLengthRange": [
+        3,
+        47
+      ],
+      "totalWords": 283
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Job Intake Routing Automation for Contractors\nBody: A lot of contractor chaos starts before the estimate exists.",
+      "wordCount": 19,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want new requests routed cleanly before the estimate stage gets messy?\nBody: Book a 30-minute call. We will look at how new contractor requests enter your business today, where ownership gets fuzzy, and whether a focused intake-routing workflow is the cleanest automation to build next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 14,
+      "commas": 22,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.47
+    },
+    "vocabulary": {
+      "distinctWords": 164,
+      "totalWords": 283,
+      "topWords": [
+        [
+          "contractor",
+          11
+        ],
+        [
+          "intake",
+          7
+        ],
+        [
+          "routing",
+          7
+        ],
+        [
+          "job",
+          6
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "lead",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "gets",
+          4
+        ],
+        [
+          "response",
+          4
+        ],
+        [
+          "before",
+          3
+        ],
+        [
+          "new",
+          3
+        ],
+        [
+          "requests",
+          3
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "how",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.004
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

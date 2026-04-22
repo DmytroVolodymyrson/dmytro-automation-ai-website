@@ -631,6 +631,18 @@
         "Contractor office to field workflow automation",
         "How can a contractor stop losing job context between the office and the field?"
       ]
+    },
+    {
+      "id": "job-intake-routing-automation-for-contractors",
+      "path": "/job-intake-routing-automation-for-contractors",
+      "label": "Job Intake Routing Automation for Contractors",
+      "prompts": [
+        "Job intake routing automation for contractors",
+        "How do contractors automate job intake routing?",
+        "Best way to route new contractor leads to the right estimator or dispatcher",
+        "Contractor lead to estimator assignment workflow",
+        "How can a home service contractor triage new service requests before the estimate?"
+      ]
     }
   ],
   "providers": [

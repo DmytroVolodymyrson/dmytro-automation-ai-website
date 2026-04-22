@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped dispatch-handoff-automation-for-contractors and added it to tracking)
+Last updated: 2026-04-22 (shipped job-intake-routing-automation-for-contractors and added it to tracking)
 
 ## Live GEO Assets
 
@@ -47,6 +47,7 @@ Last updated: 2026-04-22 (shipped dispatch-handoff-automation-for-contractors an
 | CRM Automation for Contractors | `/crm-automation-for-contractors` | Industry / CRM systems page | Live |
 | Estimate Follow-Up Automation for Contractors | `/estimate-follow-up-automation-for-contractors` | Industry workflow page | Live |
 | Dispatch Handoff Automation for Contractors | `/dispatch-handoff-automation-for-contractors` | Industry operations page | Live |
+| Job Intake Routing Automation for Contractors | `/job-intake-routing-automation-for-contractors` | Industry workflow page | Live |
 | Client Onboarding Automation | `/client-onboarding-automation` | Workflow page | Live |
 | AI Automation ROI Guide | `/ai-automation-roi-guide` | Decision page | Live |
 | n8n Automation Examples (SMB) | `/n8n-automation-examples-small-business` | Authority page | Live |
@@ -100,20 +101,20 @@ Last updated: 2026-04-22 (shipped dispatch-handoff-automation-for-contractors an
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 81**
+**Total decision/comparison/industry pages live: 82**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-The contractor dispatch-handoff page has now shipped. The backlog is thinner, but there is still one plausible contractor child page left if it stays tightly bounded around intake routing rather than rehashing CRM setup or generic speed-to-lead automation.
+The contractor intake-routing page has now shipped. There is no equally strong planned-but-unshipped page left in the current contractor child cluster. The next run should start with a broader backlog reconciliation across planning docs, tracked prompts, and live routes before forcing another net-new URL.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Needs validation** | Contractor job intake routing | contractor job intake routing, lead-to-estimator assignment, service request triage | This is the clearest remaining contractor child candidate because it focuses on what happens before the estimate exists: request capture, service-type routing, urgency tagging, and ownership assignment. It only works if the copy stays tightly centered on intake logic instead of drifting back into broad CRM or instant-response claims. | **Validate before shipping** |
-| 2 | **Watch list** | Refresh the strongest revenue clusters if no new page clears the quality bar | insurance, mortgage, property-management, contractor cluster | If the intake-routing page cannot stay distinct and proof-backed, improving the strongest workflow clusters is still better than forcing filler URLs. | **Fallback only** |
-| 3 | **Backlog scan** | Reconcile broader planning docs against live routes again before forcing a new cluster | GEO-PLAN.md, geo-plan-2026-03, geo-prompts child prompts | If the contractor queue dries up completely, the next run should prefer a fresh backlog reconciliation pass rather than inventing a weak filler URL. | **Do before forcing another ship** |
+| 1 | **P0** | Broader backlog reconciliation before another new page | GEO-PLAN.md, geo-plan-2026-03, geo-prompts child prompts, live routes | The clean contractor child backlog is now exhausted. Before inventing another cluster page, the next run should confirm whether any distinct planned page still exists across the full planning set. | **Do first next run** |
+| 2 | **Watch list** | Refresh the strongest revenue clusters if no defensible new page clears the bar | insurance, mortgage, property-management, contractor cluster | If the broader backlog scan still finds no distinct proof-backed page, improving the strongest workflow clusters is better than forcing filler URLs. | **Fallback only** |
+| 3 | **Proof-gated** | Expand a new child page only if fresh case-study or sales proof appears | depends on new published proof | Narrow workflow pages still work when there is direct or adjacent proof. Without that, the site is better served by cluster refreshes than weak net-new URLs. | **Only with stronger proof** |
 
 ### Priority Definitions
 
