@@ -575,6 +575,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Repeat-Purchase & Reactivation Automation for E-Commerce Brands",
+    description:
+      "A narrower e-commerce lifecycle page focused on reorder timing, dormant-customer reactivation, stale-lead recovery, and the alerts that turn renewed intent into real follow-up.",
+    href: "/repeat-purchase-reactivation-automation-for-ecommerce-brands",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Chiropractors",
     description:
       "AI automation for chiropractors. New patient intake, appointment scheduling, recall campaigns, no-show reduction, and review automation.",

@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-repeat-purchase-reactivation-automation-for-ecommerce-brands",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Repeat-Purchase & Reactivation Automation for E-Commerce Brands\nBody: If your e-commerce brand keeps spending to acquire new customers while past buyers and old leads sit untouched, repeat-purchase and reactivation automation is usually one of the clearest places to build. This is not about blasting your whole list with generic win-back emails. It is about segmenting customers by recency, product cycle, inquiry history, and buying signals, then triggering the right reminder, offer, or human handoff at the right time. For brands with repeatable reorder patterns, higher-consideration products, or a backlog of stale contacts, that can recover meaningful revenue without adding more manual campaign work.\nSub: Below: what this workflow should actually handle, where the payoff usually appears first, and how to tell whether you need a focused lifecycle system or just better campaign discipline.\n\n### Core sections\n- Frames the page around repeat-purchase timing and dormant-list recovery, not generic retention jargon.\n- Covers segmentation by lifecycle state, reorder triggers, stalled-conversation reactivation, context-aware messaging, and high-intent team alerts.\n- Includes a table comparing manual campaigns with an automated lifecycle system so the page answers the buyer decision directly.\n- Adds explicit good-fit / not-fit framing to keep the page commercial and honest.\n- Grounds the page in the published WheelsFeels case study plus adjacent lifecycle pages already live on the site.\n\n### FAQ\nSubhead: Practical questions from operators considering repeat-purchase and reactivation automation\nTopics: how this differs from the broad e-commerce page, why it is not just a generic win-back blast, what segment to automate first, typical build cost, and whether a custom CRM is required.\n\n### Final CTA\nHeading: Want more revenue from the list you already built?\nBody: Book a 30-minute call. We will look at where your repeat-purchase and reactivation opportunities are leaking today, then map the one lifecycle workflow that would create the clearest payoff first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the broad e-commerce planning set still implied a commercially distinct repeat-purchase / reactivation child page through parent tracking prompts, and the WheelsFeels case study provides direct adjacent proof."
+    },
+    {
+      "type": "reorder",
+      "description": "Keeps a materially different intent from `/ai-automation-ecommerce`, `/ecommerce-crm-automation-with-ai-follow-up`, and `/client-reactivation-automation`: this one is specifically for e-commerce lifecycle recovery and reorder timing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoids fake brand-specific proof beyond the published 5,600+ lead CRM case study and keeps the framing operational rather than hypey."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical, direct, and buyer-oriented with clear bad-fit language."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T15:52:11.748Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        5,
+        1,
+        3
+      ],
+      "avgSentenceLength": 21.8,
+      "sentenceLengthRange": [
+        5,
+        44
+      ],
+      "totalWords": 305
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Repeat-Purchase & Reactivation Automation for E-Commerce Brands\nBody: If your e-commerce brand keeps spending to acquire new customers while past buyers and old leads sit untouched, repeat-purchase and reactivation automation is usually one of the clearest places to build.",
+      "wordCount": 40,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want more revenue from the list you already built?\nBody: Book a 30-minute call. We will look at where your repeat-purchase and reactivation opportunities are leaking today, then map the one lifecycle workflow that would create the clearest payoff first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 13,
+      "commas": 22,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.57
+    },
+    "vocabulary": {
+      "distinctWords": 195,
+      "totalWords": 305,
+      "topWords": [
+        [
+          "repeat-purchase",
+          5
+        ],
+        [
+          "reactivation",
+          5
+        ],
+        [
+          "lifecycle",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "e-commerce",
+          3
+        ],
+        [
+          "your",
+          3
+        ],
+        [
+          "this",
+          3
+        ],
+        [
+          "not",
+          3
+        ],
+        [
+          "with",
+          3
+        ],
+        [
+          "generic",
+          3
+        ],
+        [
+          "first",
+          3
+        ],
+        [
+          "from",
+          3
+        ],
+        [
+          "heading",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.007
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 1,
+      "toneShifts": 3,
+      "patterns": [
+        "reorders-for-flow"
+      ]
+    }
+  }
+}

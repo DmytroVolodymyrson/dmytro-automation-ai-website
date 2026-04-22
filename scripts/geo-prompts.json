@@ -429,6 +429,18 @@
       ]
     },
     {
+      "id": "repeat-purchase-reactivation-automation-for-ecommerce-brands",
+      "path": "/repeat-purchase-reactivation-automation-for-ecommerce-brands",
+      "label": "Repeat-Purchase & Reactivation Automation for E-Commerce Brands",
+      "prompts": [
+        "Repeat-purchase reactivation automation for e-commerce brands",
+        "How do e-commerce brands automate repeat-purchase reminders without spamming customers?",
+        "Best way to reactivate dormant customers for an online store",
+        "How should an e-commerce brand automate reorder timing and win-back follow-up?",
+        "Can AI help an e-commerce brand recover stale leads and past buyers?"
+      ]
+    },
+    {
       "id": "instant-lead-response-automation",
       "path": "/instant-lead-response-automation",
       "label": "Instant Lead Response Automation",

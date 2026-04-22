@@ -59,6 +59,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - `/ai-automation-for-auto-parts-ecommerce`
 - `/ecommerce-crm-automation-with-ai-follow-up`
 - `/fitment-inquiry-automation-for-auto-parts-ecommerce`
+- `/repeat-purchase-reactivation-automation-for-ecommerce-brands`
 
 ## Weekly Check Process
 
