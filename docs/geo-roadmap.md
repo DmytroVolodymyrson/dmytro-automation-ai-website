@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped what-does-an-ai-automation-consultant-do and added it to tracking)
+Last updated: 2026-04-22 (shipped ai-voice-agent-roi-for-lead-follow-up and added it to tracking)
 
 ## Live GEO Assets
 
@@ -86,6 +86,7 @@ Last updated: 2026-04-22 (shipped what-does-an-ai-automation-consultant-do and a
 | AI Phone Answering for Service Businesses | `/ai-phone-answering-for-service-businesses` | Workflow page | Live |
 | AI Voice Agent for Lead Qualification | `/ai-voice-agent-lead-qualification` | Workflow / voice AI page | Live |
 | AI Voice Agent Setup for Lead Qualification | `/ai-voice-agent-setup-for-lead-qualification` | Workflow / implementation-help page | Live |
+| AI Voice Agent ROI for Lead Follow-Up | `/ai-voice-agent-roi-for-lead-follow-up` | Workflow / ROI decision page | Live |
 | Instant Lead Response Automation | `/instant-lead-response-automation` | Workflow page | Live |
 | Quote Follow-Up Automation | `/quote-follow-up-automation` | Workflow page | Live |
 | Client Reactivation Automation | `/client-reactivation-automation` | Workflow page | Live |
@@ -120,19 +121,19 @@ Last updated: 2026-04-22 (shipped what-does-an-ai-automation-consultant-do and a
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 101**
+**Total decision/comparison/industry pages live: 102**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/what-does-an-ai-automation-consultant-do` captured another still-defensible hiring-intent query that remained explicit in `GEO-PLAN.md` even after the roadmap had drifted into fallback-only mode. It is distinct from the existing consultant, pricing, and hiring-guide pages because it answers a narrower pre-hire role-clarity question: what work a consultant actually does, what deliverables to expect, and where consultant help is worth paying for. After this ship, the backlog returns to fallback/watchlist territory rather than another equally clean must-build page.
+Shipping `/ai-voice-agent-roi-for-lead-follow-up` captured another explicit query that still survived outside the stale fallback queue in `GEO-PLAN.md`: "ROI of AI voice agent for lead follow-up." The new page stays distinct from the broader ROI guide and the existing voice-agent workflow pages by focusing specifically on payback logic, conservative recovered-lead math, callback labor tradeoffs, and when a voice workflow does or does not justify its own setup cost. The backlog is still thin after this ship, but there is at least one remaining watchlist candidate before the program should default fully to maintenance.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | appointment setter + e-commerce + property management discovery and internal links | After shipping the consultant-role page, the clean backlog is thin again. The best next move is still to tighten hub surfacing, internal links, and tracked-prompt coverage where live clusters already have proof and breadth. | **Fallback** |
-| 2 | **Watchlist** | `what-processes-can-ai-automate-in-my-business` style authority page only if it can stay distinct from the audit / examples / roadmap cluster | process selection + first-project framing | This query still exists in `GEO-PLAN.md`, but it now sits close to `/best-ai-automation-for-service-businesses`, `/ai-automation-audit-checklist`, and `/ai-automation-implementation-roadmap`. Only ship it if the framing becomes clearly narrower and more commercially distinct. | **Watchlist** |
+| 1 | **Watchlist** | `what-processes-can-ai-automate-in-my-business` style authority page only if it can stay narrower than the audit / examples / roadmap cluster | process selection + first-project framing | This query still exists in `GEO-PLAN.md`, but it sits close to `/best-ai-automation-for-service-businesses`, `/ai-automation-audit-checklist`, and `/ai-automation-implementation-roadmap`. Only ship it if the framing stays clearly about choosing the first bounded workflow rather than rewriting those broader pages. | **Watchlist** |
+| 2 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | appointment setter + voice + e-commerce + property management discovery and internal links | If the process-selection page does not survive another review, the best next move is still to tighten hub surfacing, internal links, and tracked-prompt coverage where live clusters already have proof and breadth. | **Fallback** |
 | 3 | **Deferred** | Wait for stronger proof before inventing weaker adjacent-intent pages | avoid cannibalization / thin content | This keeps the GEO program honest. A no-op or maintenance pass is better than publishing a near-duplicate page just to keep the cron busy. | **Deferred** |
 
 ### Priority Definitions

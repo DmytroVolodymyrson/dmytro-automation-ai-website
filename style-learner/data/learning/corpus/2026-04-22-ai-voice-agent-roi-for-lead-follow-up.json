@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-ai-voice-agent-roi-for-lead-follow-up",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Voice Agent ROI for Lead Follow-Up\nBody: If your business loses leads because calls go unanswered, callbacks happen too late, or inbound phone inquiries sit until someone has time to chase them, an AI voice agent can have very short payback. The ROI is usually not about replacing a whole team. It comes from recovering leads that would have gone cold, booking more first calls while buyer intent is still high, and cutting the manual callback burden that drags on your staff every week. The wrong use case will not pencil out. The right one often does with only a small lift in recovered jobs or consultations.\nSub: Below: the actual cost structure, how to model payback conservatively, what usually drives ROI fastest, and where a voice agent is the wrong investment.\n\n### Core sections\n- Where the ROI usually comes from\n- A conservative ROI model\n- Typical payback patterns\n- When the ROI case is strong vs. weak\n- Proof and adjacent proof\n\n### FAQ\nSubhead: Practical questions from business owners trying to decide whether voice AI is financially worth implementing\n- What is the simplest way to estimate voice-agent ROI?\n- How quickly can an AI voice agent pay for itself?\n- Is this page the same as the general AI automation ROI guide?\n- When is a missed-call text-back system a better ROI move than a full voice agent?\n- What usually kills ROI on a voice-agent project?\n\n### Final CTA\nHeading: Want to see whether the math works for your call flow?\nBody: Book a 30-minute call. We will look at your missed-call volume, average job value, callback lag, and existing intake process, then estimate whether a voice-agent build would have real payback or whether a simpler workflow should come first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped from the older GEO plan's explicit ROI/problem-aware query list, not from the stale roadmap queue."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page distinct from the broader ROI guide by making it channel-specific: phone lead capture, callback labor, booking on the first conversation, and conservative recovered-call math."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used bounded proof only: Paris Café for direct after-hours voice handling and time-saved proof, plus the existing phone-answering and lead-qualification guides for adjacent workflow framing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoided fake ROI percentages, fake close-rate claims, or unsupported vertical-specific numbers. The copy stays practical and intentionally conservative."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T22:52:14.101Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        5,
+        3
+      ],
+      "avgSentenceLength": 18.5,
+      "sentenceLengthRange": [
+        5,
+        44
+      ],
+      "totalWords": 296
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Voice Agent ROI for Lead Follow-Up\nBody: If your business loses leads because calls go unanswered, callbacks happen too late, or inbound phone inquiries sit until someone has time to chase them, an AI voice agent can have very short payback.",
+      "wordCount": 44,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to see whether the math works for your call flow?\nBody: Book a 30-minute call. We will look at your missed-call volume, average job value, callback lag, and existing intake process, then estimate whether a voice-agent build would have real payback or whether a simpler workflow should come first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | result | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 12,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 10,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 0.8
+    },
+    "vocabulary": {
+      "distinctWords": 181,
+      "totalWords": 296,
+      "topWords": [
+        [
+          "roi",
+          10
+        ],
+        [
+          "-",
+          10
+        ],
+        [
+          "voice",
+          6
+        ],
+        [
+          "ai",
+          5
+        ],
+        [
+          "agent",
+          5
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "payback",
+          4
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "whether",
+          4
+        ],
+        [
+          "have",
+          3
+        ],
+        [
+          "from",
+          3
+        ],
+        [
+          "what",
+          3
+        ],
+        [
+          "voice-agent",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "body",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

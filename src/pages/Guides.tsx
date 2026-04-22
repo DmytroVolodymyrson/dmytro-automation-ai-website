@@ -350,6 +350,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Voice Agent ROI for Lead Follow-Up",
+    description:
+      "Practical ROI guide for voice-agent lead handling — setup cost, monthly cost, conservative payback math, and when a voice workflow is actually worth building versus overkill.",
+    href: "/ai-voice-agent-roi-for-lead-follow-up",
+    category: "workflows",
+  },
+  {
     title: "Instant Lead Response Automation",
     description:
       "Respond to every form fill, call, and message in under 60 seconds with AI-powered workflows. Be the first to respond, every time.",

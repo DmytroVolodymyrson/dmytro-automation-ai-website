@@ -621,6 +621,18 @@
       ]
     },
     {
+      "id": "ai-voice-agent-roi-for-lead-follow-up",
+      "path": "/ai-voice-agent-roi-for-lead-follow-up",
+      "label": "AI Voice Agent ROI for Lead Follow-Up",
+      "prompts": [
+        "AI voice agent ROI for lead follow-up",
+        "Is an AI voice agent worth it for lead follow-up?",
+        "How do I calculate ROI on an AI voice agent for inbound leads?",
+        "What does an AI voice agent cost compared with missed leads and callback labor?",
+        "When does a voice agent pay for itself in a service business?"
+      ]
+    },
+    {
       "id": "missed-call-follow-up-automation",
       "path": "/missed-call-follow-up-automation",
       "label": "Missed Call Follow-Up Automation",

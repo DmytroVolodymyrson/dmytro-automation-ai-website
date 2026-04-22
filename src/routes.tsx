@@ -79,6 +79,7 @@ import BookingConfirmationAndReminder from "./pages/BookingConfirmationAndRemind
 import AiPhoneAnswering from "./pages/AiPhoneAnswering";
 import AiVoiceAgentForLeadQualification from "./pages/AiVoiceAgentForLeadQualification";
 import AiVoiceAgentSetupForLeadQualification from "./pages/AiVoiceAgentSetupForLeadQualification";
+import AiVoiceAgentRoiForLeadFollowUp from "./pages/AiVoiceAgentRoiForLeadFollowUp";
 import InstantLeadResponse from "./pages/InstantLeadResponse";
 import QuoteFollowUp from "./pages/QuoteFollowUp";
 import ClientReactivation from "./pages/ClientReactivation";
@@ -224,6 +225,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-phone-answering-for-service-businesses", element: <AiPhoneAnswering /> },
   { path: "/ai-voice-agent-lead-qualification", element: <AiVoiceAgentForLeadQualification /> },
   { path: "/ai-voice-agent-setup-for-lead-qualification", element: <AiVoiceAgentSetupForLeadQualification /> },
+  { path: "/ai-voice-agent-roi-for-lead-follow-up", element: <AiVoiceAgentRoiForLeadFollowUp /> },
   { path: "/instant-lead-response-automation", element: <InstantLeadResponse /> },
   { path: "/quote-follow-up-automation", element: <QuoteFollowUp /> },
   { path: "/client-reactivation-automation", element: <ClientReactivation /> },
