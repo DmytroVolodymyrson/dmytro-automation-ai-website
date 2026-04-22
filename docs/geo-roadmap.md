@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped hire-ai-automation-consultant-vs-diy and added it to tracking)
+Last updated: 2026-04-22 (shipped how-to-hire-ai-automation-consultant and added it to tracking)
 
 ## Live GEO Assets
 
@@ -26,6 +26,7 @@ Last updated: 2026-04-22 (shipped hire-ai-automation-consultant-vs-diy and added
 | AI Consultant Edmonton | `/ai-automation-consultant-edmonton` | Geo landing page | Live |
 | AI Consultant vs Agency | `/hire-ai-automation-consultant-vs-agency` | Comparison page | Live |
 | AI Consultant vs DIY | `/hire-ai-automation-consultant-vs-diy` | Comparison page | Live |
+| How to Hire an AI Automation Consultant | `/how-to-hire-ai-automation-consultant` | Hiring-intent guide | Live |
 | HVAC Database Reactivation | `/hvac-database-reactivation` | Decision page | Live |
 | AI Consultant vs Freelancer | `/ai-automation-consultant-vs-freelancer` | Comparison page | Live |
 | AI Chatbot vs Voice Agent | `/ai-chatbot-vs-ai-voice-agent-for-lead-qualification` | Comparison page | Live |
@@ -118,20 +119,20 @@ Last updated: 2026-04-22 (shipped hire-ai-automation-consultant-vs-diy and added
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 99**
+**Total decision/comparison/industry pages live: 100**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/hire-ai-automation-consultant-vs-diy` proved the broader planning set was not actually exhausted: `GEO-PLAN.md` still contained an explicit hire-vs-DIY buyer query even after the older roadmap queue had gone stale. This page stays distinct from the broader consultant guide, the consultant-vs-agency page, and the build-vs-buy page by focusing narrowly on one decision: when owner-led DIY is enough versus when expert help is cheaper once time, reliability, and failure cost are counted. After this ship, there is no equally explicit high-confidence URL target left, but one softer hiring-intent topic still survives in the original planning docs.
+Shipping `/how-to-hire-ai-automation-consultant` cleared the last explicit high-confidence hiring-intent page that still survived across `GEO-PLAN.md`, the stale roadmap queue, and the current shipped-page set. At this point there is not another equally defensible planned URL target with the same combination of strong buyer intent, clear distinctness, and direct proof fit. The next best move is to improve discovery and internal-link depth around the strongest live clusters instead of forcing a thin near-duplicate page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | How to find someone to automate my business with AI / what to look for when hiring | consultant selection / hiring-intent guide | `GEO-PLAN.md` still contains explicit hiring-intent queries around finding the right person, not just choosing consultant vs agency vs DIY. This could stay distinct if framed around vetting, red flags, proof, ownership, and what a good discovery call should produce rather than rehashing existing pricing or agency comparisons. | **Queued** |
-| 2 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | appointment setter + e-commerce + property management discovery and internal links | If the remaining hiring-intent topic does not survive the next reconciliation cleanly, the best next move is discovery and internal-link depth instead of forcing a thin adjacent page. | **Fallback** |
-| 3 | **Deferred** | Wait for stronger proof before inventing weaker adjacent-intent pages | avoid cannibalization / thin content | This keeps the GEO program honest. A no-op or maintenance pass is better than publishing a near-duplicate page just to keep the cron busy. | **Deferred** |
+| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | appointment setter + e-commerce + property management discovery and internal links | The backlog is now effectively exhausted at the page-selection quality bar. The best next move is to tighten hub surfacing, internal links, and tracked-prompt coverage where live clusters already have proof and breadth. | **Fallback** |
+| 2 | **Deferred** | Wait for stronger proof before inventing weaker adjacent-intent pages | avoid cannibalization / thin content | This keeps the GEO program honest. A no-op or maintenance pass is better than publishing a near-duplicate page just to keep the cron busy. | **Deferred** |
+| 3 | **Watchlist** | Re-open planning if a new case study or public proof creates a fresh distinct page | proof-led expansion | The broader planning docs can become live again if new published proof supports a new vertical, workflow stage, or implementation-help angle that is materially different from the current library. | **Watchlist** |
 
 ### Priority Definitions
 

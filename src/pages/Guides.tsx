@@ -146,6 +146,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "How to Hire an AI Automation Consultant",
+    description:
+      "Need to find someone to automate your business with AI? Practical hiring guide to vetting, proof, ownership, red flags, and the questions to ask before you sign anything.",
+    href: "/how-to-hire-ai-automation-consultant",
+    category: "strategy",
+  },
+  {
     title: "AI Chatbot vs. AI Voice Agent for Lead Qualification",
     description:
       "Should you use an AI chatbot or a voice agent to qualify leads? Compare response rates, conversion, cost, and implementation for service businesses.",

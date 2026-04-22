@@ -16,6 +16,7 @@ import AiLeadFollowUpForServiceBusinesses from "./pages/AiLeadFollowUpForService
 import AiAutomationConsultantCalgary from "./pages/AiAutomationConsultantCalgary";
 import HireAiAutomationConsultantVsAgency from "./pages/HireAiAutomationConsultantVsAgency";
 import HireAiAutomationConsultantVsDiy from "./pages/HireAiAutomationConsultantVsDiy";
+import HowToHireAiAutomationConsultant from "./pages/HowToHireAiAutomationConsultant";
 import HvacDatabaseReactivation from "./pages/HvacDatabaseReactivation";
 import AiAutomationConsultantVsFreelancer from "./pages/AiAutomationConsultantVsFreelancer";
 import AiChatbotVsAiVoiceAgentForLeadQualification from "./pages/AiChatbotVsAiVoiceAgentForLeadQualification";
@@ -139,6 +140,7 @@ export const appRoutes: AppRouteDefinition[] = [
   },
   { path: "/hire-ai-automation-consultant-vs-agency", element: <HireAiAutomationConsultantVsAgency /> },
   { path: "/hire-ai-automation-consultant-vs-diy", element: <HireAiAutomationConsultantVsDiy /> },
+  { path: "/how-to-hire-ai-automation-consultant", element: <HowToHireAiAutomationConsultant /> },
   { path: "/hvac-database-reactivation", element: <HvacDatabaseReactivation /> },
   { path: "/ai-automation-consultant-vs-freelancer", element: <AiAutomationConsultantVsFreelancer /> },
   {

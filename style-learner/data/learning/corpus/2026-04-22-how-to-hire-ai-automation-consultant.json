@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-how-to-hire-ai-automation-consultant",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: How to Hire an AI Automation Consultant\nBody: If your workflow is simple and low-risk, you may not need to hire anyone yet. But if the automation touches live leads, booking, CRM handoff, or customer-facing AI, the right consultant can save you weeks of false starts and a lot of expensive cleanup. The key is not finding the person who sounds the most technical. It is finding the person who can diagnose the workflow clearly, show relevant proof, explain tradeoffs honestly, and leave you owning a system that works in production.\nSub: Below: how to tell if you even need consultant help, what a good discovery call should produce, the questions to ask before you sign anything, and the red flags that usually signal a flashy seller rather than a reliable implementation partner.\n\n### Core sections\n- What you are really hiring for\n- What to look for — and what to avoid\n- When hiring a consultant makes sense — and when it does not\n- What a good discovery call should produce\n- Five questions to ask before you hire anyone\n- Relevant proof and adjacent proof\n\n### FAQ\nSubhead: Straight answers for owners trying to choose the right implementation partner\n- How do I know if an AI automation consultant is actually qualified?\n- What should an AI automation consultant help me decide before building anything?\n- Should I hire a consultant, an agency, or a freelancer?\n- What ownership terms should I insist on?\n- What is the biggest red flag when hiring someone to automate my business with AI?\n\n### Final CTA\nHeading: Need a second opinion before you hire anyone?\nBody: Book a 30-minute call. We will look at the workflow you want to automate, whether it is consultant-worthy yet, what kind of partner actually fits the job, and what questions you should ask before signing anything.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected after reconciling the remaining backlog across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes, and tracked prompts: this was the last explicit high-confidence hiring-intent page still planned but not shipped."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept it distinct from pricing, consultant-vs-agency, consultant-vs-DIY, and consultant-vs-freelancer by focusing on vetting, discovery quality, ownership, red flags, and what a good consultant should clarify before any build starts."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Grounded the page in adjacent published proof only: Paris Cafe for customer-facing call handling, WheelsFeels for CRM and follow-up reliability, and narrower implementation-help pages as proof that real hiring decisions often get easier once the workflow is more bounded."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoided presenting consultant hiring as mandatory. The page explicitly leaves room for low-risk DIY prototypes, fuzzy workflows that should be clarified first, and situations where the owner is still learning rather than buying production reliability yet."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T21:49:45.631Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 22.1,
+      "sentenceLengthRange": [
+        5,
+        53
+      ],
+      "totalWords": 310
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: How to Hire an AI Automation Consultant\nBody: If your workflow is simple and low-risk, you may not need to hire anyone yet.",
+      "wordCount": 25,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a second opinion before you hire anyone?\nBody: Book a 30-minute call. We will look at the workflow you want to automate, whether it is consultant-worthy yet, what kind of partner actually fits the job, and what questions you should ask before signing anything.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 16,
+      "emDashes": 2,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 1.23
+    },
+    "vocabulary": {
+      "distinctWords": 153,
+      "totalWords": 310,
+      "topWords": [
+        [
+          "-",
+          11
+        ],
+        [
+          "what",
+          10
+        ],
+        [
+          "consultant",
+          7
+        ],
+        [
+          "should",
+          6
+        ],
+        [
+          "hire",
+          5
+        ],
+        [
+          "ai",
+          5
+        ],
+        [
+          "before",
+          5
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "if",
+          4
+        ],
+        [
+          "how",
+          3
+        ],
+        [
+          "workflow",
+          3
+        ],
+        [
+          "not",
+          3
+        ],
+        [
+          "need",
+          3
+        ],
+        [
+          "anyone",
+          3
+        ],
+        [
+          "it",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.006
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
