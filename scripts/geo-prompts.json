@@ -237,6 +237,18 @@
       ]
     },
     {
+      "id": "ai-automation-roi-calculator",
+      "path": "/ai-automation-roi-calculator",
+      "label": "AI Automation ROI Calculator",
+      "prompts": [
+        "AI automation ROI calculator",
+        "How do I calculate ROI for AI automation?",
+        "AI automation payback calculator for small business",
+        "Is AI automation worth it if I only save a few hours per week?",
+        "How much revenue does an automation need to recover to pay for itself?"
+      ]
+    },
+    {
       "id": "n8n-automation-examples-small-business",
       "path": "/n8n-automation-examples-small-business",
       "label": "n8n Automation Examples for Small Business",

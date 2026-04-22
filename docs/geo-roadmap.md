@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped ai-appointment-setter-setup and added it to tracking)
+Last updated: 2026-04-22 (shipped ai-automation-roi-calculator and added it to tracking)
 
 ## Live GEO Assets
 
@@ -58,6 +58,7 @@ Last updated: 2026-04-22 (shipped ai-appointment-setter-setup and added it to tr
 | Job Intake Routing Automation for Contractors | `/job-intake-routing-automation-for-contractors` | Industry workflow page | Live |
 | Client Onboarding Automation | `/client-onboarding-automation` | Workflow page | Live |
 | AI Automation ROI Guide | `/ai-automation-roi-guide` | Decision page | Live |
+| AI Automation ROI Calculator | `/ai-automation-roi-calculator` | ROI worksheet / decision page | Live |
 | n8n Automation Examples (SMB) | `/n8n-automation-examples-small-business` | Authority page | Live |
 | AI Email Sequence Automation | `/ai-email-sequence-automation` | Workflow page | Live |
 | AI Automation for Insurance Agencies | `/ai-automation-for-insurance-agencies` | Industry page | Live |
@@ -114,20 +115,20 @@ Last updated: 2026-04-22 (shipped ai-appointment-setter-setup and added it to tr
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 95**
+**Total decision/comparison/industry pages live: 96**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-appointment-setter-setup` pulled a still-defensible buyer-intent page out of the older GEO plan even though the roadmap had drifted toward fallback-only guidance. The page stays distinct from the generic appointment-setter guide because it targets implementation / hiring intent: setup scope, calendar and CRM integration, pricing, and when expert help is worth it. After this ship, the remaining planned backlog still looks thin, and the next run should only force another page if a comparably distinct intent survives fresh review.
+Shipping `/ai-automation-roi-calculator` cleared the last still-explicit static page from the older GEO plan that could be made distinct without forcing a weak overlap. The new page stays separate from `/ai-automation-roi-guide` by acting as a hands-on worksheet: recovered revenue, labor savings, running costs, and payback math. After this ship, the remaining backlog of defensible planned static pages looks effectively exhausted again, so the next run should only publish a new page if a clearly distinct, proof-backed candidate appears during fresh reconciliation.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Watch list** | AI automation ROI calculator or another stronger static ROI angle | calculator / ROI decision concepts from older plans | Still planned in the older GEO docs, but weaker than the proof-backed static pages already shipped. Only build if the angle can stay commercially concrete and distinct from `/ai-automation-roi-guide`. | **Defer** |
-| 2 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | appointment setter + e-commerce + property management discovery and internal links | If no other clean static page survives reconciliation, the best next move may be discovery/internal-link depth inside the strongest live clusters instead of forcing a thin adjacent page. | **Fallback** |
-| 3 | **Status note** | Backlog of high-confidence planned static pages | n/a | The proof-backed queue is close to exhausted again. Keep biasing toward net-new pages, but only if the next candidate is clearly distinct and supportable by real proof. | **Monitor** |
+| 1 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | appointment setter + e-commerce + property management discovery and internal links | With the ROI calculator shipped, the best next move may be discovery and internal-link depth inside the strongest live clusters rather than forcing a thin adjacent page. | **Fallback** |
+| 2 | **Monitor** | Re-check broader planning docs and tracked prompts for any newly defensible static page | net-new page only if buyer intent is clearly distinct and proof-backed | Keep biasing toward shipping, but reject overlap if the next candidate mostly rephrases an already-live page. | **Monitor** |
+| 3 | **Status note** | High-confidence planned static backlog | n/a | At the moment, the clean proof-backed static queue appears effectively exhausted again. Use maintenance/no-page only after a full fresh scan confirms that remains true on the next run. | **Monitor** |
 
 ### Priority Definitions
 

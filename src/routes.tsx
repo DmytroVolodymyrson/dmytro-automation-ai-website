@@ -51,6 +51,7 @@ import AiAutomationForPlumbingCompanies from "./pages/AiAutomationForPlumbingCom
 import AiAutomationForElectricalContractors from "./pages/AiAutomationForElectricalContractors";
 import ClientOnboardingAutomation from "./pages/ClientOnboardingAutomation";
 import AiAutomationRoiGuide from "./pages/AiAutomationRoiGuide";
+import AiAutomationRoiCalculator from "./pages/AiAutomationRoiCalculator";
 import N8nAutomationExamplesSmallBusiness from "./pages/N8nAutomationExamplesSmallBusiness";
 import N8nAutomationConsultant from "./pages/N8nAutomationConsultant";
 import AiEmailSequenceAutomation from "./pages/AiEmailSequenceAutomation";
@@ -181,6 +182,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-for-electrical-contractors", element: <AiAutomationForElectricalContractors /> },
   { path: "/client-onboarding-automation", element: <ClientOnboardingAutomation /> },
   { path: "/ai-automation-roi-guide", element: <AiAutomationRoiGuide /> },
+  { path: "/ai-automation-roi-calculator", element: <AiAutomationRoiCalculator /> },
   { path: "/n8n-automation-examples-small-business", element: <N8nAutomationExamplesSmallBusiness /> },
   { path: "/n8n-automation-consultant", element: <N8nAutomationConsultant /> },
   { path: "/ai-email-sequence-automation", element: <AiEmailSequenceAutomation /> },

@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-ai-automation-roi-calculator",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation ROI Calculator for Small Business\nBody: If you are trying to decide whether AI automation is worth it, you do not need a vague promise. You need a simple way to run the math. This page gives you a practical calculator for small-business automation: how much revenue you are leaking today, how much labor time you could reclaim, what the build will cost, and how long payback should take before the project makes sense.\nSub: Below: the inputs that matter, a manual ROI worksheet, where the math is usually strong or weak, and what real adjacent proof supports the numbers without pretending every business gets the same outcome.\n\n### Core sections\n- The four numbers that drive automation ROI\n- Simple ROI calculator worksheet\n- When the calculator usually says yes — and when it does not\n- ROI mistakes that make the calculator lie\n- What adjacent proof supports the calculator\n\n### FAQ\nSubhead: Practical questions about using ROI math before you build automation\n- How accurate is an AI automation ROI calculator before anything is built?\n- What payback period is reasonable for a small business automation project?\n- Should I count only revenue recovered, or also time saved?\n- What if I do not know my close rate or lead leakage exactly?\n- What types of workflows usually score best in this calculator?\n\n### Final CTA\nHeading: Want help running the numbers on your workflow?\nBody: Book a 30-minute call. We will look at your lead flow, manual workload, likely running costs, and whether the first automation project clears a realistic ROI bar before you spend money building it.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because `GEO-PLAN.md` still explicitly contained `/ai-automation-roi-calculator`, while the roadmap had it on a defer/watch list rather than fully rejecting it."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page distinct from `/ai-automation-roi-guide` by making it a hands-on worksheet page: recovered revenue, labor savings, monthly running cost, payback, and conservative scenario math."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used bounded proof only: Paris Cafe for missed-demand recovery, the e-commerce CRM case study for lead-database workflow value, and the Instagram case study for throughput economics."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoided interactive-tool hype and fake calculator precision. The page is practical, conservative, and explicit about weak assumptions and bad ROI math."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T19:53:29.053Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 20.9,
+      "sentenceLengthRange": [
+        5,
+        42
+      ],
+      "totalWords": 272
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation ROI Calculator for Small Business\nBody: If you are trying to decide whether AI automation is worth it, you do not need a vague promise.",
+      "wordCount": 29,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want help running the numbers on your workflow?\nBody: Book a 30-minute call. We will look at your lead flow, manual workload, likely running costs, and whether the first automation project clears a realistic ROI bar before you spend money building it.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "result",
+        "closer"
+      ],
+      "template": "opener | result | result | closer"
+    },
+    "punctuation": {
+      "periods": 6,
+      "commas": 11,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 10,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 8,
+      "commasPerSentence": 0.92
+    },
+    "vocabulary": {
+      "distinctWords": 148,
+      "totalWords": 272,
+      "topWords": [
+        [
+          "-",
+          10
+        ],
+        [
+          "automation",
+          8
+        ],
+        [
+          "roi",
+          8
+        ],
+        [
+          "calculator",
+          8
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "before",
+          4
+        ],
+        [
+          "ai",
+          3
+        ],
+        [
+          "business",
+          3
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "not",
+          3
+        ],
+        [
+          "math",
+          3
+        ],
+        [
+          "project",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "usually",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

@@ -252,6 +252,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Automation ROI Calculator",
+    description:
+      "A practical small-business ROI calculator for automation projects. Estimate recovered revenue, labor savings, monthly running cost, and payback before you build.",
+    href: "/ai-automation-roi-calculator",
+    category: "workflows",
+  },
+  {
     title: "n8n Automation Examples for Small Business",
     description:
       "Practical n8n automation examples for small businesses. Lead follow-up, CRM workflows, email sequences, scheduling, and review requests. Real workflows, not toy demos.",
