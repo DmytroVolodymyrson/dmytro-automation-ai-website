@@ -34,6 +34,9 @@ AI automation for restaurants — reservation capture, missed-call coverage, pri
 ## Restaurant Private-Event Inquiry Follow-Up Guide
 How restaurants automate private-dining, buyout, large-party, and catering inquiry follow-up without making the sales process feel robotic. Covers fast acknowledgement, structured intake, reminder logic, and clean human handoff for event leads. Learn more: https://www.dmytroai.com/private-event-inquiry-follow-up-for-restaurants
 
+## Restaurant Reservation Confirmation & Reminder Guide
+How restaurants automate reservation confirmations, reminders, waitlist backfill, and guest communication without turning hospitality into robotic SMS spam. Covers no-show reduction, cleaner pre-service visibility, and where human judgment should still take over. Learn more: https://www.dmytroai.com/reservation-confirmation-and-reminder-automation-for-restaurants
+
 ## AI Automation Consultant for Small Business
 Dedicated AI automation consulting for small businesses — lead follow-up, CRM workflows, voice agents, and operational automation built for teams of 1-20. Fixed pricing, direct access to the builder, and systems that pay for themselves. Learn more: https://www.dmytroai.com/ai-automation-consultant-small-business
 

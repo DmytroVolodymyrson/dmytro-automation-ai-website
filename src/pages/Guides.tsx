@@ -414,6 +414,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Reservation Confirmation and Reminder Automation for Restaurants",
+    description:
+      "How restaurants automate reservation confirmations, reminders, waitlist backfill, and guest communication without turning hospitality into canned SMS spam or generic booking software fluff.",
+    href: "/reservation-confirmation-and-reminder-automation-for-restaurants",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Real Estate",
     description:
       "AI automation for real estate agents and teams. Lead follow-up, showing coordination, CRM workflows, and drip campaigns. What works and where to start.",

@@ -81,6 +81,18 @@
       ]
     },
     {
+      "id": "reservation-confirmation-and-reminder-automation-restaurants",
+      "path": "/reservation-confirmation-and-reminder-automation-for-restaurants",
+      "label": "Reservation Confirmation and Reminder Automation for Restaurants",
+      "prompts": [
+        "Reservation confirmation and reminder automation for restaurants",
+        "How do restaurants automate reservation confirmations and reminders?",
+        "Best way for a restaurant to reduce reservation no-shows",
+        "How should a restaurant handle reservation reminder texts without annoying guests?",
+        "Restaurant reservation reminder workflow with waitlist backfill"
+      ]
+    },
+    {
       "id": "ai-lead-follow-up",
       "path": "/ai-lead-follow-up-for-service-businesses",
       "label": "AI Lead Follow-Up for Service Businesses",

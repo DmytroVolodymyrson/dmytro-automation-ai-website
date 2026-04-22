@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-reservation-confirmation-and-reminder-automation-for-restaurants",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nBadge: Restaurant Workflow\nHeading: Reservation Confirmation and Reminder Automation for Restaurants\nBody: If your restaurant already gets reservation demand, the next leak is usually not booking intent. It is what happens after the reservation is taken. Guests forget, double-book, show up with the wrong expectations, or disappear without cancelling. Reservation confirmation and reminder automation fixes that narrow layer. It sends the right confirmation fast, reminds people at the right time, makes changes easier to handle, and gives the team cleaner visibility before a table turns into a no-show or a last-minute scramble.\nSub: Below: what this workflow should automate, how it is different from a restaurant voice-agent page or a broad restaurant automation guide, what proof honestly supports it today, and where reminder logic should stay disciplined instead of becoming annoying guest spam.\n\n### Core sections\n- Frames the page as a narrow restaurant post-booking workflow page rather than a broad AI-for-restaurants pitch.\n- Covers immediate confirmations, useful reminder timing, easy change/cancel flows, structured reservation context, earlier risk visibility, and waitlist/backfill support.\n- Includes a distinction table separating the broader restaurant page, the restaurant voice-agent page, and this reservation-reminder child page.\n- Uses explicit good-fit / not-fit criteria so the page stays commercial and does not read like generic restaurant software advice.\n- Adds implementation guardrails around over-messaging, syncing with the real reservation system, keeping hospitality nuance human, and using reminder signals to improve table planning.\n- Keeps the proof frame honest: no published restaurant reminder case study yet, but the Paris Cafe reservation/guest-communication proof and the broader booking-confirmation page support the workflow pattern.\n\n### FAQ\nSubhead: Straight answers for restaurant owners deciding whether reservation reminder automation is worth implementing\nTopics: how this differs from a restaurant voice agent, where the ROI comes from, what should still stay human, cost framing, and when an existing partial confirmation setup still needs improvement.\n\n### Final CTA\nHeading: Want fewer reservation no-shows and less table chaos?\nBody: Book a 30-minute call. We will look at how reservations are confirmed today, where reminders break down, and whether a focused automation layer would create a real operational win before you touch anything broader.\nSub: No hospitality-tech fluff. Just a practical look at reservation discipline, guest communication, and what should stay human.\nRelated links: AI automation for restaurants, AI voice agent for restaurants, Booking confirmation guide, Paris Cafe case study.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "New net-new GEO page selected from the remaining restaurant prompt language after the broader roadmap was already close to exhausted."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the differentiation explicit: this page starts after a reservation already exists, so it does not just rephrase the restaurant voice-agent page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses practical operator language around confirmations, reminders, late changes, no-shows, table planning, and waitlist backfill instead of generic AI language."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Maintains disciplined proof framing with adjacent restaurant proof and an existing generic workflow page, without pretending there is already a published restaurant reminder case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Stays direct, operational, and non-hype in the site's established voice."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T15:24:19.950Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        6,
+        1,
+        6
+      ],
+      "avgSentenceLength": 20.6,
+      "sentenceLengthRange": [
+        4,
+        46
+      ],
+      "totalWords": 391
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nBadge: Restaurant Workflow\nHeading: Reservation Confirmation and Reminder Automation for Restaurants\nBody: If your restaurant already gets reservation demand, the next leak is usually not booking intent.",
+      "wordCount": 28,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want fewer reservation no-shows and less table chaos?\nBody: Book a 30-minute call. We will look at how reservations are confirmed today, where reminders break down, and whether a focused automation layer would create a real operational win before you touch anything broader.\nSub: No hospitality-tech fluff. Just a practical look at reservation discipline, guest communication, and what should stay human.\nRelated links: AI automation for restaurants, AI voice agent for restaurants, Booking confirmation guide, Paris Cafe case study.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 18,
+      "commas": 32,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 12,
+      "commasPerSentence": 1.68
+    },
+    "vocabulary": {
+      "distinctWords": 232,
+      "totalWords": 391,
+      "topWords": [
+        [
+          "restaurant",
+          11
+        ],
+        [
+          "reservation",
+          9
+        ],
+        [
+          "page",
+          8
+        ],
+        [
+          "reminder",
+          7
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "confirmation",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "table",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "restaurants",
+          3
+        ],
+        [
+          "this",
+          3
+        ],
+        [
+          "how",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.005
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
