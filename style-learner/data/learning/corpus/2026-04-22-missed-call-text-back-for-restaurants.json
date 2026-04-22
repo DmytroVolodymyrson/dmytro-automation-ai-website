@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-missed-call-text-back-for-restaurants",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nBadge: Restaurant Workflow\nHeading: Missed Call Text-Back for Restaurants\nBody: If your restaurant misses calls during service, after close, or when the host stand is overloaded, not every caller needs a full AI phone conversation. Sometimes the fastest fix is simpler: the call is missed, an immediate text goes out, the guest gets a clear next step, and reservation demand stays alive long enough for the team or booking flow to recover it. Restaurant missed call text-back sits between voicemail and a full voice agent. It is narrow, practical, and often easier to launch when the real problem is unanswered calls rather than full phone automation.\nSub: Below: what restaurant missed call text-back should actually do, how it differs from a restaurant voice-agent setup and a generic missed-call page, what proof honestly supports it, and where SMS-first recovery works better than forcing every missed call into a live AI conversation.\n\n### Core sections\n- Frames the page as a restaurant-specific SMS-first recovery layer, not a generic missed-call page and not a full live voice-agent replacement.\n- Covers instant missed-call detection, human-sounding text-back, reservation-intent recovery, human escalation for sensitive cases, after-hours demand protection, and reduced host-stand interruption.\n- Includes a differentiation table separating the restaurant voice-agent page, this restaurant text-back page, the generic missed-call page, and the restaurant reservation-reminder page.\n- Uses explicit good-fit / not-fit criteria so the page stays commercially distinct and does not collapse into a reworded restaurant voice-agent guide.\n- Adds implementation guardrails around keeping the first text short, knowing when text-back is not enough, using automation for structure instead of fake hospitality, and measuring recovered booking demand.\n- Keeps proof framing honest: no published restaurant-only text-back case study yet, but the Paris Cafe phone-demand proof and the existing generic missed-call guide support the workflow pattern.\n\n### FAQ\nSubhead: Straight answers for restaurant owners deciding whether SMS-first missed-call recovery is enough\nTopics: when text-back beats voicemail, when a restaurant should use a voice agent instead, what the first text should say, whether guests will actually text back, and cost framing for a focused restaurant workflow.\n\n### Final CTA\nHeading: Want to stop losing reservation demand to missed calls?\nBody: Book a 30-minute call. We will look at where calls are being missed, whether text-back or a voice agent is the better fit, and what the narrowest useful restaurant phone-recovery workflow would look like for your setup.\nSub: No restaurant-tech hype. Just a practical look at missed demand, guest communication, and the simplest system that would actually help.\nRelated links: AI voice agent for restaurants, AI automation for restaurants, Reservation confirmation and reminder automation, Missed call follow-up automation.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Published after a full backlog reconciliation pass across GEO-PLAN.md, geo-roadmap, the pattern matrix, geo-plan-2026-03, geo prompts, and current live routes."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the differentiation explicit: this page starts only after a call is missed, so it does not just rephrase the restaurant voice-agent page or the reservation-reminder page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses practical operator language around service rushes, after-hours demand, host-stand interruption, reservation recovery, and escalation instead of generic AI language."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Maintains disciplined proof framing with adjacent restaurant proof and the existing generic missed-call guide, without pretending there is already a published restaurant-only text-back case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Stays direct, operational, and non-hype in the site's established voice."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T16:22:04.791Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        6,
+        1,
+        6
+      ],
+      "avgSentenceLength": 24.3,
+      "sentenceLengthRange": [
+        4,
+        48
+      ],
+      "totalWords": 437
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nBadge: Restaurant Workflow\nHeading: Missed Call Text-Back for Restaurants\nBody: If your restaurant misses calls during service, after close, or when the host stand is overloaded, not every caller needs a full AI phone conversation.",
+      "wordCount": 36,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to stop losing reservation demand to missed calls?\nBody: Book a 30-minute call. We will look at where calls are being missed, whether text-back or a voice agent is the better fit, and what the narrowest useful restaurant phone-recovery workflow would look like for your setup.\nSub: No restaurant-tech hype. Just a practical look at missed demand, guest communication, and the simplest system that would actually help.\nRelated links: AI voice agent for restaurants, AI automation for restaurants, Reservation confirmation and reminder automation, Missed call follow-up automation.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 17,
+      "commas": 35,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 13,
+      "commasPerSentence": 1.94
+    },
+    "vocabulary": {
+      "distinctWords": 222,
+      "totalWords": 437,
+      "topWords": [
+        [
+          "restaurant",
+          13
+        ],
+        [
+          "missed",
+          9
+        ],
+        [
+          "text-back",
+          9
+        ],
+        [
+          "page",
+          8
+        ],
+        [
+          "call",
+          7
+        ],
+        [
+          "missed-call",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "not",
+          5
+        ],
+        [
+          "demand",
+          5
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "calls",
+          4
+        ],
+        [
+          "full",
+          4
+        ],
+        [
+          "ai",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

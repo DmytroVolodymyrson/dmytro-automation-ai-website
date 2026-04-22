@@ -93,6 +93,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-restaurants",
+      "path": "/missed-call-text-back-for-restaurants",
+      "label": "Missed Call Text-Back for Restaurants",
+      "prompts": [
+        "Missed call text-back for restaurants",
+        "How do restaurants text back missed calls automatically?",
+        "Best way for a restaurant to follow up on missed reservation calls",
+        "Restaurant missed call SMS automation",
+        "Should a restaurant use missed call text-back or a voice agent?"
+      ]
+    },
+    {
       "id": "ai-lead-follow-up",
       "path": "/ai-lead-follow-up-for-service-businesses",
       "label": "AI Lead Follow-Up for Service Businesses",

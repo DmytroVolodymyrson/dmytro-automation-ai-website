@@ -421,6 +421,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back for Restaurants",
+    description:
+      "How restaurants recover missed reservation and guest-service calls with an immediate text-back workflow, where SMS-first recovery works better than voicemail, and when a full voice agent is the better fit.",
+    href: "/missed-call-text-back-for-restaurants",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Real Estate",
     description:
       "AI automation for real estate agents and teams. Lead follow-up, showing coordination, CRM workflows, and drip campaigns. What works and where to start.",

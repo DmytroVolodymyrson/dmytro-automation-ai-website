@@ -37,6 +37,9 @@ How restaurants automate private-dining, buyout, large-party, and catering inqui
 ## Restaurant Reservation Confirmation & Reminder Guide
 How restaurants automate reservation confirmations, reminders, waitlist backfill, and guest communication without turning hospitality into robotic SMS spam. Covers no-show reduction, cleaner pre-service visibility, and where human judgment should still take over. Learn more: https://www.dmytroai.com/reservation-confirmation-and-reminder-automation-for-restaurants
 
+## Restaurant Missed-Call Text-Back Guide
+How restaurants recover missed reservation and guest-service calls with an immediate text-back workflow. Covers SMS-first follow-up, after-hours demand recovery, where text-back is enough, and when a live voice agent is the better fit. Learn more: https://www.dmytroai.com/missed-call-text-back-for-restaurants
+
 ## AI Automation Consultant for Small Business
 Dedicated AI automation consulting for small businesses — lead follow-up, CRM workflows, voice agents, and operational automation built for teams of 1-20. Fixed pricing, direct access to the builder, and systems that pay for themselves. Learn more: https://www.dmytroai.com/ai-automation-consultant-small-business
 

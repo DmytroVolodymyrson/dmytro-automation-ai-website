@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped repeat-purchase-reactivation-automation-for-ecommerce-brands and added it to tracking)
+Last updated: 2026-04-22 (shipped missed-call-text-back-for-restaurants and added it to tracking)
 
 ## Live GEO Assets
 
@@ -19,6 +19,7 @@ Last updated: 2026-04-22 (shipped repeat-purchase-reactivation-automation-for-ec
 | AI Automation for Restaurants | `/ai-automation-for-restaurants` | Industry page | Live |
 | Private-Event Inquiry Follow-Up for Restaurants | `/private-event-inquiry-follow-up-for-restaurants` | Restaurant workflow page | Live |
 | Reservation Confirmation and Reminder Automation for Restaurants | `/reservation-confirmation-and-reminder-automation-for-restaurants` | Restaurant workflow page | Live |
+| Missed Call Text-Back for Restaurants | `/missed-call-text-back-for-restaurants` | Restaurant workflow page | Live |
 | AI Lead Follow-Up | `/ai-lead-follow-up-for-service-businesses` | Decision page | Live |
 | AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo landing page | Live |
 | AI Consultant Edmonton | `/ai-automation-consultant-edmonton` | Geo landing page | Live |
@@ -107,21 +108,20 @@ Last updated: 2026-04-22 (shipped repeat-purchase-reactivation-automation-for-ec
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 88**
+**Total decision/comparison/industry pages live: 89**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/repeat-purchase-reactivation-automation-for-ecommerce-brands` confirmed there was still one defensible e-commerce child page hidden inside the broader parent-page prompt set even after the roadmap had drifted toward a restaurant-only fallback. After re-checking GEO-PLAN.md, docs/geo-plan-2026-03.md, docs/programmatic-seo-pattern-matrix.md, scripts/geo-prompts.json, and the live route set again, the remaining backlog now looks thinner than ever. The strongest remaining net-new possibility is still a very narrow restaurant missed-call / SMS-first child page, but it needs stricter anti-cannibalization review than the e-commerce lifecycle page did.
+Shipping `/missed-call-text-back-for-restaurants` used the strongest remaining commercially distinct restaurant child angle left in the prompt set: an SMS-first recovery layer that starts only after a call is missed, instead of rephrasing the broader restaurant automation page, the restaurant voice-agent page, or the reservation-reminder page. After that ship, the clean remaining backlog looks even thinner. Nothing else in the current planning set stands out as a similarly defensible net-new page without drifting into obvious overlap or lower-confidence filler.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P0** | One more broad backlog reconciliation pass, now with restaurant missed-call / SMS-first gaps checked first | planning docs, live routes, geo prompts | After recovering the hidden e-commerce lifecycle child, the cleanest remaining net-new path still looks like a restaurant operations angle rather than a fresh untouched legacy queue item. | **Required next run** |
-| 2 | **P1** | Restaurant missed-call text-back or other SMS-first child page only if it can stay clearly distinct | restaurants, missed calls, SMS follow-up, reservations | This is still the best remaining commercial candidate, but it now sits even closer to the existing restaurant voice-agent page, generic missed-call guide, and reservation-reminder page. | **Needs strict anti-cannibalization review** |
-| 3 | **Fallback** | Strengthen the restaurant or e-commerce clusters if no clean new page survives review | restaurants, e-commerce lifecycle, internal linking, guide discovery | If the remaining page ideas collapse into overlap, improving discovery and depth inside the strongest clusters is better than forcing a filler page. | **Fallback only** |
-| 4 | **Watch list** | AI automation ROI calculator or other low-confidence legacy ideas | calculator / tool concepts from older plans | These still appear in older planning docs but remain weaker than the proof-backed static pages already shipped. | **Defer** |
+| 1 | **P0** | Broad backlog reconciliation pass before approving any more net-new pages | planning docs, live routes, geo prompts | The strongest remaining restaurant SMS-first child has now shipped. Re-check the full planning set before forcing another page; the backlog may now be effectively exhausted for high-confidence net-new ships. | **Required next run** |
+| 2 | **Fallback** | Strengthen restaurant and e-commerce cluster discovery if no clean new page survives review | restaurants, e-commerce lifecycle, internal linking, guide discovery | If the next reconciliation still finds only overlapping ideas, deepen the strongest clusters instead of publishing a filler page. | **Likely fallback** |
+| 3 | **Watch list** | AI automation ROI calculator or other low-confidence legacy ideas | calculator / tool concepts from older plans | These still appear in older planning docs but remain weaker than the proof-backed static pages already shipped. | **Defer** |
 
 ### Priority Definitions
 
