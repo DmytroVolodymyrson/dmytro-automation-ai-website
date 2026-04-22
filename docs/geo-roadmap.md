@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-21 (shipped cross-sell-automation-for-insurance-agencies and added it to tracking)
+Last updated: 2026-04-22 (shipped maintenance-request-automation-for-property-management-companies and added it to tracking)
 
 ## Live GEO Assets
 
@@ -55,6 +55,7 @@ Last updated: 2026-04-21 (shipped cross-sell-automation-for-insurance-agencies a
 | AI Automation for Property Management | `/ai-automation-for-property-management` | Industry page | Live |
 | Lease Renewal Automation for Property Management Companies | `/lease-renewal-automation-for-property-management-companies` | Industry workflow page | Live |
 | Showing Coordination Automation for Property Management Companies | `/showing-coordination-automation-for-property-management-companies` | Industry workflow page | Live |
+| Maintenance Request Automation for Property Management Companies | `/maintenance-request-automation-for-property-management-companies` | Industry workflow page | Live |
 | AI Automation for E-Commerce Brands | `/ai-automation-ecommerce` | Industry page | Live |
 | AI Automation for Auto Parts E-Commerce | `/ai-automation-for-auto-parts-ecommerce` | Industry page | Live |
 | Fitment Inquiry Automation for Auto Parts E-Commerce | `/fitment-inquiry-automation-for-auto-parts-ecommerce` | Industry workflow page | Live |
@@ -96,20 +97,20 @@ Last updated: 2026-04-21 (shipped cross-sell-automation-for-insurance-agencies a
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 77**
+**Total decision/comparison/industry pages live: 78**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-The insurance cross-sell child page has now shipped. The broader planning docs still contain adjacent backlog ideas, but none currently clear the same combination of distinct intent, nearby proof, and non-cannibalizing execution as cleanly as the insurance and mortgage clusters already on-site. For now, the safest next move is to keep the queue honest: bias toward tightening the highest-value revenue clusters unless a new proof-backed child workflow emerges.
+The property-management maintenance child page has now shipped. The backlog is tighter, but there are still defensible pages in the broader planning set if they stay commercially distinct and proof-bounded. The cleanest remaining candidate is a CRM-system page for contractors because GEO-PLAN still explicitly targets contractor CRM intent and the site now has enough adjacent trades + CRM proof to support a non-generic version.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Recommended next** | Refresh insurance + mortgage revenue workflow cluster if no stronger proof-backed child page emerges | Improve citation readiness on the strongest revenue-adjacent pages | Cross-sell, renewal, quote follow-up, incomplete applications, and document collection now form a strong cluster. The next useful move may be tightening proof framing, internal links, FAQ coverage, and tracking instead of forcing a weaker new URL. | **Recommended fallback** |
-| 2 | **Watch list** | Revisit broader backlog only when new proof improves another distinct cluster | Preserve page quality instead of forcing weak URLs | GEO-PLAN and the March plan still contain broader backlog concepts, but most high-confidence static pages are now live. Keep looking for pages with a genuinely different workflow stage or buyer decision before shipping another child page. | **Needs fresh proof / differentiation** |
-| 3 | **Watch list** | Insurance or property-management sibling only if a new workflow angle can stay clearly distinct | Avoid cannibalization inside mature clusters | Another child page is still possible in theory, but it has to be narrower than the parent pages and supported by real adjacent proof rather than just another reworded automation theme. | **Defer until stronger signal** |
+| 1 | **Recommended next** | CRM Automation for Contractors | contractor CRM setup, pipeline automation, estimate follow-up, dispatch handoff | GEO-PLAN still explicitly names contractor CRM intent. This page would be commercially distinct from the existing trade-industry pages because it frames the decision around CRM structure, pipeline ownership, estimate workflow, and ops visibility rather than broad automation by trade. Adjacent proof already exists in the WheelsFeels CRM case study, GoHighLevel / custom CRM pages, and the home-service/trades cluster. | **Good next ship** |
+| 2 | **Watch list** | Another property-management child only if the workflow stage is still clearly distinct after this maintenance page | maintenance operations, leasing, retention, resident lifecycle | The cluster is now stronger, but any further sibling page must stay narrower than the parent and not simply restate maintenance, showing, or renewal themes. | **Needs careful differentiation** |
+| 3 | **Fallback** | Refresh the strongest revenue clusters if no new page clears the quality bar | insurance, mortgage, property-management workflow clusters | If the next candidate cannot stay distinct and proof-backed, improving the best-performing workflow clusters is still better than forcing filler URLs. | **Fallback only** |
 
 ### Priority Definitions
 

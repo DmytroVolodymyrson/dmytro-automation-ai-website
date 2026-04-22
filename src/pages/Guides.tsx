@@ -512,6 +512,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Maintenance Request Automation for Property Management Companies",
+    description:
+      "A narrower property-management operations page focused on intake, urgency triage, vendor routing, tenant updates, and manager handoff before routine requests turn into after-hours chaos.",
+    href: "/maintenance-request-automation-for-property-management-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for E-Commerce Brands",
     description:
       "AI automation for e-commerce brands. CRM organization, lead follow-up, customer service routing, reactivation campaigns, and repeat-purchase workflows.",

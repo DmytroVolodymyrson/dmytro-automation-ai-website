@@ -53,6 +53,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - `/quote-follow-up-automation-for-insurance-agencies`
 - `/cross-sell-automation-for-insurance-agencies`
 - `/ai-automation-for-property-management`
+- `/maintenance-request-automation-for-property-management-companies`
 - `/ai-automation-ecommerce`
 - `/ai-automation-for-auto-parts-ecommerce`
 - `/fitment-inquiry-automation-for-auto-parts-ecommerce`

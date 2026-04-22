@@ -321,6 +321,18 @@
       ]
     },
     {
+      "id": "maintenance-request-automation-for-property-management-companies",
+      "path": "/maintenance-request-automation-for-property-management-companies",
+      "label": "Maintenance Request Automation for Property Management Companies",
+      "prompts": [
+        "Maintenance request automation for property management companies",
+        "How do property management companies automate maintenance requests?",
+        "Best way to triage tenant maintenance requests after hours",
+        "How should a property management company automate emergency vs routine maintenance intake?",
+        "Can AI automate maintenance request routing and tenant updates for property managers?"
+      ]
+    },
+    {
       "id": "ai-automation-ecommerce",
       "path": "/ai-automation-ecommerce",
       "label": "AI Automation for E-Commerce Brands",

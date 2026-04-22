@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-maintenance-request-automation-for-property-management-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Maintenance Request Automation for Property Management Companies\nBody: Property management teams do not get buried in maintenance only because things break. They get buried because requests come in through five different channels, after-hours issues are hard to triage, tenants do not know what happens next, and routine work sits beside real emergencies with no clean handoff. Maintenance request automation fixes that narrow operating workflow. It captures the issue, sorts urgency, routes the next step, keeps the resident updated, and escalates the exceptions to a human before the process turns into tenant frustration and internal fire drills.\nSub: Below: what maintenance request automation actually handles, how it differs from broader property-management automation and the renewal or showing child pages, what guardrails matter, and what adjacent proof honestly supports this page.\n\n### Core sections\n- What maintenance request automation actually handles\n- Maintenance request automation vs. broader property-management workflows\n- Important guardrails for maintenance request workflows\n- How a practical maintenance request system usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about automating maintenance request handling\n\n### Final CTA\nHeading: Want maintenance intake to stop feeling like controlled chaos?\nBody: Book a 30-minute call. We will look at how requests enter the business today, where triage and communication are breaking down, and whether a focused maintenance-request workflow is the highest-leverage automation to build before anything broader.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Narrow child page under the property-management cluster; intentionally focused on maintenance intake, urgency rules, routing, and tenant communication instead of broad industry copy."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses adjacent proof from the parent property-management page plus the Paris Cafe voice-agent case study instead of implying a published maintenance-specific property-management case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the tone operational and non-hype: one intake path, emergency vs. routine triage, structured issue details, status visibility, and human handoff when judgment is required."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks back to the parent property-management page, the renewal and showing child pages, and the guides hub so the cluster stays coherent for both users and crawlers."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T06:23:13.018Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 20.7,
+      "sentenceLengthRange": [
+        5,
+        35
+      ],
+      "totalWords": 228
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Maintenance Request Automation for Property Management Companies\nBody: Property management teams do not get buried in maintenance only because things break.",
+      "wordCount": 23,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want maintenance intake to stop feeling like controlled chaos?\nBody: Book a 30-minute call. We will look at how requests enter the business today, where triage and communication are breaking down, and whether a focused maintenance-request workflow is the highest-leverage automation to build before anything broader.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 12,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 7,
+      "commasPerSentence": 1.33
+    },
+    "vocabulary": {
+      "distinctWords": 146,
+      "totalWords": 228,
+      "topWords": [
+        [
+          "maintenance",
+          10
+        ],
+        [
+          "request",
+          8
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "how",
+          3
+        ],
+        [
+          "broader",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "property",
+          2
+        ],
+        [
+          "management",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "do",
+          2
+        ],
+        [
+          "not",
+          2
+        ],
+        [
+          "get",
+          2
+        ],
+        [
+          "buried",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
