@@ -242,8 +242,8 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation for restaurants", href: "/ai-automation-for-restaurants" },
     { label: "AI voice agent for restaurants", href: "/ai-voice-agent-for-restaurants" },
+    { label: "Reservation confirmation and reminder automation", href: "/reservation-confirmation-and-reminder-automation-for-restaurants" },
     { label: "Paris Cafe case study", href: "/case-studies/paris-cafe-voice-agent" },
-    { label: "All guides", href: "/guides" },
   ],
 };
 

@@ -277,19 +277,10 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No inflated AI promises. Just a practical look at bookings, staffing pressure, and whether this would pay off.",
   relatedLinks: [
-    {
-      label: "Paris Cafe voice agent case study",
-      href: "/case-studies/paris-cafe-voice-agent",
-    },
-    {
-      label: "AI appointment setter guide",
-      href: "/ai-appointment-setter",
-    },
-    {
-      label: "AI chatbot vs voice agent",
-      href: "/ai-chatbot-vs-ai-voice-agent-for-lead-qualification",
-    },
-    { label: "All guides", href: "/guides" },
+    { label: "AI automation for restaurants", href: "/ai-automation-for-restaurants" },
+    { label: "Paris Cafe voice agent case study", href: "/case-studies/paris-cafe-voice-agent" },
+    { label: "Private event inquiry follow-up for restaurants", href: "/private-event-inquiry-follow-up-for-restaurants" },
+    { label: "Reservation confirmation and reminder automation", href: "/reservation-confirmation-and-reminder-automation-for-restaurants" },
   ],
 };
 
