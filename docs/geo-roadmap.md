@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped ai-automation-roi-calculator and added it to tracking)
+Last updated: 2026-04-22 (shipped ai-voice-agent-setup-for-lead-qualification and added it to tracking)
 
 ## Live GEO Assets
 
@@ -82,6 +82,7 @@ Last updated: 2026-04-22 (shipped ai-automation-roi-calculator and added it to t
 | Booking Confirmation & Reminder | `/booking-confirmation-and-reminder-automation` | Workflow page | Live |
 | AI Phone Answering for Service Businesses | `/ai-phone-answering-for-service-businesses` | Workflow page | Live |
 | AI Voice Agent for Lead Qualification | `/ai-voice-agent-lead-qualification` | Workflow / voice AI page | Live |
+| AI Voice Agent Setup for Lead Qualification | `/ai-voice-agent-setup-for-lead-qualification` | Workflow / implementation-help page | Live |
 | Instant Lead Response Automation | `/instant-lead-response-automation` | Workflow page | Live |
 | Quote Follow-Up Automation | `/quote-follow-up-automation` | Workflow page | Live |
 | Client Reactivation Automation | `/client-reactivation-automation` | Workflow page | Live |
@@ -115,20 +116,20 @@ Last updated: 2026-04-22 (shipped ai-automation-roi-calculator and added it to t
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 96**
+**Total decision/comparison/industry pages live: 97**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-automation-roi-calculator` cleared the last still-explicit static page from the older GEO plan that could be made distinct without forcing a weak overlap. The new page stays separate from `/ai-automation-roi-guide` by acting as a hands-on worksheet: recovered revenue, labor savings, running costs, and payback math. After this ship, the remaining backlog of defensible planned static pages looks effectively exhausted again, so the next run should only publish a new page if a clearly distinct, proof-backed candidate appears during fresh reconciliation.
+Shipping `/ai-voice-agent-setup-for-lead-qualification` pulled a still-explicit candidate out of the broader GEO-PLAN backlog instead of trusting the stale “no pages left” fallback. The new page stays separate from `/ai-voice-agent-lead-qualification` by serving setup-help / implementation-intent: call-flow design, qualification logic, transfer rules, CRM handoff, testing, and the line between DIY setup and expert help. After this ship, the backlog is thinner again, but it is still worth scanning older constraint-based and budget-intent planning notes before defaulting to maintenance.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | appointment setter + e-commerce + property management discovery and internal links | With the ROI calculator shipped, the best next move may be discovery and internal-link depth inside the strongest live clusters rather than forcing a thin adjacent page. | **Fallback** |
-| 2 | **Monitor** | Re-check broader planning docs and tracked prompts for any newly defensible static page | net-new page only if buyer intent is clearly distinct and proof-backed | Keep biasing toward shipping, but reject overlap if the next candidate mostly rephrases an already-live page. | **Monitor** |
-| 3 | **Status note** | High-confidence planned static backlog | n/a | At the moment, the clean proof-backed static queue appears effectively exhausted again. Use maintenance/no-page only after a full fresh scan confirms that remains true on the next run. | **Monitor** |
+| 1 | **P1** | Affordable AI automation for small business under $500/month | budget-first / phased-start automation decision | Still explicitly present in GEO-PLAN constraint-based research. It can stay distinct if framed honestly around narrow starter workflows, what can fit inside that budget, what cannot, and when to wait instead of pretending full custom automation is available for $500/mo. | **Planned** |
+| 2 | **Monitor** | Re-check broader planning docs and tracked prompts for any other setup-help or budget-intent sibling page | net-new page only if buyer intent is clearly distinct and proof-backed | This run showed the backlog was not fully exhausted. Keep scanning older prose and prompt language before falling back to maintenance. | **Monitor** |
+| 3 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | appointment setter + e-commerce + property management discovery and internal links | If the remaining budget-intent backlog does not survive review, the best next move is discovery and internal-link depth instead of forcing a thin adjacent page. | **Fallback** |
 
 ### Priority Definitions
 

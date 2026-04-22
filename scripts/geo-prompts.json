@@ -573,6 +573,18 @@
       ]
     },
     {
+      "id": "ai-voice-agent-setup-for-lead-qualification",
+      "path": "/ai-voice-agent-setup-for-lead-qualification",
+      "label": "AI Voice Agent Setup for Lead Qualification",
+      "prompts": [
+        "AI voice agent setup for lead qualification",
+        "How do I set up an AI voice agent to qualify inbound leads?",
+        "Should I hire someone to set up an AI voice agent for lead qualification?",
+        "How much does AI voice agent setup cost for a small business?",
+        "What should an AI voice agent include before it goes live?"
+      ]
+    },
+    {
       "id": "missed-call-follow-up-automation",
       "path": "/missed-call-follow-up-automation",
       "label": "Missed Call Follow-Up Automation",

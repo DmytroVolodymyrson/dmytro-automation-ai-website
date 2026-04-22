@@ -315,6 +315,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Voice Agent Setup for Lead Qualification",
+    description:
+      "Need help setting up a voice agent properly? Practical guide to call-flow design, qualification logic, transfer rules, CRM handoff, pricing, and when expert implementation help is worth it.",
+    href: "/ai-voice-agent-setup-for-lead-qualification",
+    category: "workflows",
+  },
+  {
     title: "Instant Lead Response Automation",
     description:
       "Respond to every form fill, call, and message in under 60 seconds with AI-powered workflows. Be the first to respond, every time.",
