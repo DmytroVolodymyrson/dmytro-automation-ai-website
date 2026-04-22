@@ -777,6 +777,18 @@
       ]
     },
     {
+      "id": "affordable-ai-automation-small-business",
+      "path": "/affordable-ai-automation-small-business",
+      "label": "Affordable AI Automation for Small Business",
+      "prompts": [
+        "Affordable AI automation for small business",
+        "Affordable AI automation for small business under $500/month",
+        "What AI automation can I get for under $500 a month?",
+        "Can a small business automate lead follow-up for under $500/month?",
+        "What is a realistic starter budget for AI automation in a small business?"
+      ]
+    },
+    {
       "id": "ai-automation-implementation-roadmap",
       "path": "/ai-automation-implementation-roadmap",
       "label": "AI Automation Implementation Roadmap",

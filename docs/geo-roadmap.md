@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped ai-voice-agent-setup-for-lead-qualification and added it to tracking)
+Last updated: 2026-04-22 (shipped affordable-ai-automation-small-business and added it to tracking)
 
 ## Live GEO Assets
 
@@ -115,21 +115,22 @@ Last updated: 2026-04-22 (shipped ai-voice-agent-setup-for-lead-qualification an
 | `llms.txt` | `/llms.txt` | AI crawler file | Live |
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
+| Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 97**
+**Total decision/comparison/industry pages live: 98**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-voice-agent-setup-for-lead-qualification` pulled a still-explicit candidate out of the broader GEO-PLAN backlog instead of trusting the stale “no pages left” fallback. The new page stays separate from `/ai-voice-agent-lead-qualification` by serving setup-help / implementation-intent: call-flow design, qualification logic, transfer rules, CRM handoff, testing, and the line between DIY setup and expert help. After this ship, the backlog is thinner again, but it is still worth scanning older constraint-based and budget-intent planning notes before defaulting to maintenance.
+Shipping `/affordable-ai-automation-small-business` exhausted the last still-explicit high-confidence page in the current planning set. It stayed distinct from the broader cost / pricing / ROI pages by answering a narrower budget-first decision: what a starter automation budget can realistically buy, what still needs setup fees, and when forcing a cheap build is a mistake. After reconciling `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-roadmap.md`, current routes, and `scripts/geo-prompts.json`, there is no equally clear planned-but-unshipped page left that feels both distinct and proof-backed.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Affordable AI automation for small business under $500/month | budget-first / phased-start automation decision | Still explicitly present in GEO-PLAN constraint-based research. It can stay distinct if framed honestly around narrow starter workflows, what can fit inside that budget, what cannot, and when to wait instead of pretending full custom automation is available for $500/mo. | **Planned** |
-| 2 | **Monitor** | Re-check broader planning docs and tracked prompts for any other setup-help or budget-intent sibling page | net-new page only if buyer intent is clearly distinct and proof-backed | This run showed the backlog was not fully exhausted. Keep scanning older prose and prompt language before falling back to maintenance. | **Monitor** |
-| 3 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | appointment setter + e-commerce + property management discovery and internal links | If the remaining budget-intent backlog does not survive review, the best next move is discovery and internal-link depth instead of forcing a thin adjacent page. | **Fallback** |
+| 1 | **Monitor** | Re-check broader planning docs and tracked prompts for any newly supportable setup-help or budget-intent sibling page | net-new page only if buyer intent is clearly distinct and proof-backed | The current planned backlog looks exhausted after this ship. Only add another page if a still-explicit topic survives a fresh cross-doc reconciliation without collapsing into existing cost / ROI / pricing coverage. | **Monitor** |
+| 2 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | appointment setter + e-commerce + property management discovery and internal links | If the backlog remains exhausted on the next run, the best next move is discovery and internal-link depth instead of forcing a thin adjacent page. | **Fallback** |
+| 3 | **Deferred** | Wait for stronger proof before inventing another budget-only or adjacent-intent page | avoid cannibalization / thin content | This keeps the GEO program honest. A no-op or maintenance pass is better than publishing a near-duplicate page just to keep the cron busy. | **Deferred** |
 
 ### Priority Definitions
 

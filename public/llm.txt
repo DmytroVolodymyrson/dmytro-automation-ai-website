@@ -131,6 +131,9 @@ AI-powered database reactivation for HVAC companies — automated campaigns to r
 ## AI Automation Without a Tech Team
 AI automation for businesses with no developers or IT staff — which automations work without technical skills, what you actually need to get started, and when to bring in outside help. Learn more: https://www.dmytroai.com/ai-automation-for-businesses-without-a-tech-team
 
+## Affordable AI Automation for Small Business
+What can a small business realistically automate on a starter budget? Honest guide to what fits under $500/month, what still needs one-time setup, where cheap automation makes sense, and where it becomes false economy. Focused on narrow starter workflows like missed-call recovery, instant lead response, reminders, and simple CRM follow-up — not fake promises about full custom systems for bargain prices. Learn more: https://www.dmytroai.com/affordable-ai-automation-small-business
+
 ## Workflow & ROI Guides
 - Client Onboarding Automation: Automate intake forms, document collection, welcome sequences, scheduling, and CRM pipeline for service businesses. Learn more: https://www.dmytroai.com/client-onboarding-automation
 - AI Automation ROI Guide: How to calculate AI automation ROI for small business. Real cost breakdowns, payback timelines, and an honest decision framework. Learn more: https://www.dmytroai.com/ai-automation-roi-guide

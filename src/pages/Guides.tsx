@@ -96,6 +96,13 @@ const guides: GuideItem[] = [
     category: "strategy",
   },
   {
+    title: "Affordable AI Automation for Small Business",
+    description:
+      "What can a small business realistically automate on a starter budget? Honest guide to what fits under $500/month, what still needs setup fees, and where cheap automation stops making sense.",
+    href: "/affordable-ai-automation-small-business",
+    category: "strategy",
+  },
+  {
     title: "AI Automation Audit Checklist",
     description:
       "Free 20-point audit checklist to assess your workflows, tools, and readiness before investing in automation. Run it yourself in 2-3 hours.",
