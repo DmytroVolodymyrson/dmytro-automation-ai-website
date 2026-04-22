@@ -610,6 +610,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Estimate Follow-Up Automation for Contractors",
+    description:
+      "A narrower contractor workflow focused on recovering sent estimates with reminder timing, objection-aware messaging, estimator handoff, and open-quote visibility.",
+    href: "/estimate-follow-up-automation-for-contractors",
+    category: "industries",
+  },
+  {
     title: "AI Automation Consultant Calgary",
     description:
       "AI automation consulting for Calgary businesses. Custom automations for lead follow-up, scheduling, CRM workflows, and operations. Fixed pricing, clear scope.",

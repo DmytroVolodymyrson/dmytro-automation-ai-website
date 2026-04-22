@@ -607,6 +607,18 @@
         "Should a home service contractor use GoHighLevel or a custom CRM?",
         "How can a contractor stop losing leads between the office and the field?"
       ]
+    },
+    {
+      "id": "estimate-follow-up-automation-for-contractors",
+      "path": "/estimate-follow-up-automation-for-contractors",
+      "label": "Estimate Follow-Up Automation for Contractors",
+      "prompts": [
+        "Estimate follow-up automation for contractors",
+        "How do contractors automate estimate follow-up?",
+        "Best way to recover open estimates for a contractor",
+        "Contractor estimate reminder workflow",
+        "How can a home service contractor stop losing jobs after sending the quote?"
+      ]
     }
   ],
   "providers": [

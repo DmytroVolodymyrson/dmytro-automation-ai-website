@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-estimate-follow-up-automation-for-contractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Estimate Follow-Up Automation for Contractors\nBody: A homeowner asked for an estimate on Monday. Your estimator sent it Tuesday. By Friday, the quote is still sitting open because nobody followed up. In contracting, that usually means the job is drifting toward the company that stayed in touch, not necessarily the company with the best work. Estimate follow-up automation fixes that narrow stage. It starts when the estimate is sent, keeps the job moving with well-timed reminders, and flags high-intent replies before another open quote dies in the gap between the office and the field.\nSub: Below: what contractor estimate follow-up automation actually handles, how it differs from broader contractor CRM work and generic lead follow-up, what guardrails matter, and what adjacent proof supports the page without pretending there is already a published contractor estimate-recovery case study.\n\n### Core sections\n- What contractor estimate follow-up automation actually handles\n- Estimate follow-up automation vs. contractor CRM vs. generic quote follow-up\n- Important guardrails for contractor estimate-recovery workflows\n- How a practical contractor estimate-recovery system usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about automating contractor estimate follow-up\nTopics: difference from contractor CRM, difference from generic quote follow-up, focused build cost, compatibility with contractor software, and main ROI.\n\n### Final CTA\nHeading: Want fewer open estimates dying in silence?\nBody: Book a 30-minute call. We will look at how your company handles sent estimates today, where open quotes go cold, and whether a focused estimate-recovery workflow is the cleanest automation to build next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because it was the strongest remaining planned-but-unshipped candidate in the roadmap and stays meaningfully narrower than both the broader contractor CRM page and the generic quote-follow-up guide."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the proof framing disciplined: relies on the contractor CRM page, adjacent trades pages, and the published CRM case study instead of inventing a contractor estimate-recovery case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays operational and non-hype: stage triggers, reminder timing, objection handling, estimator handoff, and stale-estimate visibility."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks back to the contractor CRM page, the generic quote-follow-up guide, and adjacent trades pages where estimate-stage leakage is already discussed."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T09:21:16.213Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        3,
+        1,
+        3
+      ],
+      "avgSentenceLength": 18.1,
+      "sentenceLengthRange": [
+        3,
+        42
+      ],
+      "totalWords": 254
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Estimate Follow-Up Automation for Contractors\nBody: A homeowner asked for an estimate on Monday.",
+      "wordCount": 16,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want fewer open estimates dying in silence?\nBody: Book a 30-minute call. We will look at how your company handles sent estimates today, where open quotes go cold, and whether a focused estimate-recovery workflow is the cleanest automation to build next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 12,
+      "commas": 14,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.08
+    },
+    "vocabulary": {
+      "distinctWords": 142,
+      "totalWords": 254,
+      "topWords": [
+        [
+          "contractor",
+          10
+        ],
+        [
+          "follow-up",
+          9
+        ],
+        [
+          "estimate",
+          8
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "quote",
+          4
+        ],
+        [
+          "open",
+          4
+        ],
+        [
+          "estimate-recovery",
+          4
+        ],
+        [
+          "sent",
+          3
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "company",
+          3
+        ],
+        [
+          "with",
+          3
+        ],
+        [
+          "handles",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

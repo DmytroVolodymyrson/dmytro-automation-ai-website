@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped crm-automation-for-contractors and added it to tracking)
+Last updated: 2026-04-22 (shipped estimate-follow-up-automation-for-contractors and added it to tracking)
 
 ## Live GEO Assets
 
@@ -45,6 +45,7 @@ Last updated: 2026-04-22 (shipped crm-automation-for-contractors and added it to
 | AI Automation for Plumbing Companies | `/ai-automation-for-plumbing-companies` | Industry page | Live |
 | AI Automation for Electrical Contractors | `/ai-automation-for-electrical-contractors` | Industry page | Live |
 | CRM Automation for Contractors | `/crm-automation-for-contractors` | Industry / CRM systems page | Live |
+| Estimate Follow-Up Automation for Contractors | `/estimate-follow-up-automation-for-contractors` | Industry workflow page | Live |
 | Client Onboarding Automation | `/client-onboarding-automation` | Workflow page | Live |
 | AI Automation ROI Guide | `/ai-automation-roi-guide` | Decision page | Live |
 | n8n Automation Examples (SMB) | `/n8n-automation-examples-small-business` | Authority page | Live |
@@ -98,20 +99,20 @@ Last updated: 2026-04-22 (shipped crm-automation-for-contractors and added it to
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 79**
+**Total decision/comparison/industry pages live: 80**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-The contractor CRM systems page has now shipped. That was the cleanest explicit remaining page in the planning set. The remaining backlog is thinner and more overlap-prone, so the next run should only ship another page if it can stay tightly bounded and commercially distinct.
+The contractor estimate follow-up page has now shipped. The remaining backlog is still overlap-prone, but there is probably room for one more tightly bounded contractor operations child page if it stays focused on a clearly different stage than both the CRM systems page and the new estimate-recovery page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Needs validation** | Contractor estimate follow-up automation | contractor quote follow-up, estimate reminder workflow, open estimate recovery | This is the best adjacent child candidate after the CRM systems page because it can focus on one workflow stage instead of rehashing general contractor automation. But it must stay materially different from the existing generic quote-follow-up page and the trade-industry pages. | **Validate before shipping** |
-| 2 | **Watch list** | Another contractor operations child page only if the workflow stage is clearly narrower than the new CRM page | dispatch handoff, office-to-field visibility, job intake routing | There may still be room for a contractor operations child page, but only if the angle is tightly scoped and supportable from adjacent proof instead of broad contractor claims. | **Needs careful differentiation** |
-| 3 | **Fallback** | Refresh the strongest revenue clusters if no new page clears the quality bar | insurance, mortgage, property-management, contractor CRM cluster | If the next candidate cannot stay distinct and proof-backed, improving the best-performing workflow clusters is still better than forcing filler URLs. | **Fallback only** |
+| 1 | **Needs validation** | Contractor dispatch handoff automation | contractor dispatch handoff, office to field workflow, job context handoff | This is the cleanest remaining contractor child candidate because it focuses on what happens after the job is booked, not on lead capture or estimate recovery. It only works if the copy stays tightly centered on notes, scheduling context, technician readiness, and office-to-field visibility. | **Validate before shipping** |
+| 2 | **Watch list** | Contractor job intake routing | contractor job intake routing, lead-to-estimator assignment, service request triage | There may still be room for a narrower intake-routing page if it stays distinct from the CRM systems page and from the generic instant-response cluster. It needs careful framing around routing logic rather than broad lead follow-up. | **Needs careful differentiation** |
+| 3 | **Fallback** | Refresh the strongest revenue clusters if no new page clears the quality bar | insurance, mortgage, property-management, contractor cluster | If the next contractor child page cannot stay distinct and proof-backed, improving the strongest workflow clusters is still better than forcing filler URLs. | **Fallback only** |
 
 ### Priority Definitions
 
