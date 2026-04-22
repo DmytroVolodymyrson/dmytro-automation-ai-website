@@ -153,6 +153,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Appointment Setter Setup Help",
+    description:
+      "Need help setting up an AI appointment setter? Practical guide to qualification logic, calendar rules, CRM handoff, pricing, and when expert setup is worth it.",
+    href: "/ai-appointment-setter-setup",
+    category: "workflows",
+  },
+  {
     title: "AI Appointment Setter vs. Human Receptionist",
     description:
       "Should you replace your receptionist with an AI appointment setter? Compare cost, availability, caller experience, and booking accuracy for service businesses.",

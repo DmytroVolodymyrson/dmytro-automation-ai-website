@@ -12,6 +12,7 @@ const AiAutomationConsultantSmallBusiness = lazy(() => import("./pages/AiAutomat
 const Guides = lazy(() => import("./pages/Guides"));
 const N8nVsZapierSmallBusiness = lazy(() => import("./pages/N8nVsZapierSmallBusiness"));
 const AiAppointmentSetter = lazy(() => import("./pages/AiAppointmentSetter"));
+const AiAppointmentSetterSetup = lazy(() => import("./pages/AiAppointmentSetterSetup"));
 const AiLeadFollowUpForServiceBusinesses = lazy(() => import("./pages/AiLeadFollowUpForServiceBusinesses"));
 const AiAutomationConsultantCalgary = lazy(() => import("./pages/AiAutomationConsultantCalgary"));
 const HireAiAutomationConsultantVsAgency = lazy(() => import("./pages/HireAiAutomationConsultantVsAgency"));
@@ -120,6 +121,7 @@ const AppRoutesClient = () => (
       <Route path="/guides" element={<Guides />} />
       <Route path="/n8n-vs-zapier-small-business" element={<N8nVsZapierSmallBusiness />} />
       <Route path="/ai-appointment-setter" element={<AiAppointmentSetter />} />
+      <Route path="/ai-appointment-setter-setup" element={<AiAppointmentSetterSetup />} />
       <Route path="/ai-lead-follow-up-for-service-businesses" element={<AiLeadFollowUpForServiceBusinesses />} />
       <Route path="/ai-automation-consultant-calgary" element={<AiAutomationConsultantCalgary />} />
       <Route path="/ai-automation-consultant-edmonton" element={<AiAutomationConsultantEdmonton />} />

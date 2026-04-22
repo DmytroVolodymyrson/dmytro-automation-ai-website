@@ -45,6 +45,18 @@
       ]
     },
     {
+      "id": "ai-appointment-setter-setup",
+      "path": "/ai-appointment-setter-setup",
+      "label": "AI Appointment Setter Setup Help",
+      "prompts": [
+        "AI appointment setter setup help",
+        "How do I set up an AI appointment setter for my business?",
+        "Should I hire someone to set up an AI appointment setter?",
+        "How much does AI appointment setter setup cost?",
+        "AI appointment setter implementation help for small business"
+      ]
+    },
+    {
       "id": "ai-automation-for-restaurants",
       "path": "/ai-automation-for-restaurants",
       "label": "AI Automation for Restaurants",

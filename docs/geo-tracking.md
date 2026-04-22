@@ -30,6 +30,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 
 ### Workflow + solution pages
 - `/ai-appointment-setter`
+- `/ai-appointment-setter-setup`
 - `/ai-lead-follow-up-for-service-businesses`
 - `/client-onboarding-automation`
 - `/ai-automation-roi-guide`

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-ai-appointment-setter-setup",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Appointment Setter Setup Help for Small Business\nBody: If you already believe an AI appointment setter could help your business, the real question is not whether the software exists. The real question is whether the setup will actually match your call flow, booking rules, qualification logic, and CRM handoff. That is where most businesses get stuck. The technology is not the hard part. The hard part is deciding what the AI should handle, what should stay human, and how to make sure every lead lands in the right place instead of creating a bigger mess.\nSub: Below: what good appointment-setter setup help should include, when DIY is fine, what setup usually costs, and the failure points that matter before you pay for another tool or contractor.\n\n### Core sections\n- What good AI appointment setter setup should actually include\n- When appointment-setter setup help is a good fit — and when it is not\n- DIY appointment-setter setup vs. expert help\n- What usually breaks when appointment-setter setup is rushed\n- What to check before paying for setup help\n- Relevant proof and adjacent proof\n\n### FAQ\nSubhead: Practical questions from small businesses that are past the curiosity stage and trying to decide whether implementation help is worth paying for\n- What does AI appointment setter setup help usually include?\n- How much does AI appointment setter setup cost?\n- How long does setup usually take?\n- Can an appointment setter integrate with my current CRM and calendar?\n- When should I skip building an AI appointment setter entirely?\n\n### Final CTA\nHeading: Need help setting up an AI appointment setter properly?\nBody: Book a 30-minute call. We will look at your lead flow, booking rules, calendar constraints, CRM handoff, and where the setup could create real ROI instead of just another tool your team has to manage.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen after reconciling the stale roadmap with GEO-PLAN's still-explicit setup-help buyer intent: weekly tracking prompts included \"AI appointment setter setup help,\" and the positioning section still pointed at implementation-oriented appointment-setter demand."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page distinct from the generic appointment-setter guide by centering implementation and hiring intent: setup scope, qualification logic, calendar rules, CRM handoff, and when expert help is worth paying for."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used bounded proof only: Paris Cafe for real inbound call handling, the published lead-qualification page for routing logic, and WheelsFeels for downstream CRM/follow-up automation adjacency."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoided fake vertical specificity or invented metrics. The page frames setup help as workflow design and integration work, not as a magic AI product."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T19:22:25.123Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        5,
+        3
+      ],
+      "avgSentenceLength": 19.2,
+      "sentenceLengthRange": [
+        5,
+        34
+      ],
+      "totalWords": 307
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Appointment Setter Setup Help for Small Business\nBody: If you already believe an AI appointment setter could help your business, the real question is not whether the software exists.",
+      "wordCount": 32,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help setting up an AI appointment setter properly?\nBody: Book a 30-minute call. We will look at your lead flow, booking rules, calendar constraints, CRM handoff, and where the setup could create real ROI instead of just another tool your team has to manage.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 13,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 0.87
+    },
+    "vocabulary": {
+      "distinctWords": 148,
+      "totalWords": 307,
+      "topWords": [
+        [
+          "setup",
+          13
+        ],
+        [
+          "-",
+          11
+        ],
+        [
+          "help",
+          9
+        ],
+        [
+          "ai",
+          8
+        ],
+        [
+          "appointment",
+          8
+        ],
+        [
+          "setter",
+          8
+        ],
+        [
+          "what",
+          8
+        ],
+        [
+          "should",
+          5
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "appointment-setter",
+          4
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "real",
+          3
+        ],
+        [
+          "not",
+          3
+        ],
+        [
+          "whether",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

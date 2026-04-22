@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped tenant-communication-automation-for-property-management-companies and added it to tracking)
+Last updated: 2026-04-22 (shipped ai-appointment-setter-setup and added it to tracking)
 
 ## Live GEO Assets
 
@@ -15,6 +15,7 @@ Last updated: 2026-04-22 (shipped tenant-communication-automation-for-property-m
 | AI Consultant (SMB) | `/ai-automation-consultant-small-business` | Decision page | Live |
 | n8n vs Zapier | `/n8n-vs-zapier-small-business` | Comparison page | Live |
 | AI Appointment Setter | `/ai-appointment-setter` | Decision page | Live |
+| AI Appointment Setter Setup Help | `/ai-appointment-setter-setup` | Workflow / service page | Live |
 | AI Voice Agent for Restaurants | `/ai-voice-agent-for-restaurants` | Industry page | Live |
 | AI Automation for Restaurants | `/ai-automation-for-restaurants` | Industry page | Live |
 | Private-Event Inquiry Follow-Up for Restaurants | `/private-event-inquiry-follow-up-for-restaurants` | Restaurant workflow page | Live |
@@ -113,20 +114,20 @@ Last updated: 2026-04-22 (shipped tenant-communication-automation-for-property-m
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 94**
+**Total decision/comparison/industry pages live: 95**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/tenant-communication-automation-for-property-management-companies` closes the last high-confidence planned child page in the property-management cluster. That page was still defensible because the live parent explicitly tracked tenant-communication intent while the shipped child set only covered renewals, showings, and maintenance. After this ship, the broad planning docs still contain ideas, but none currently look as strong as this one on the combination of distinct intent, adjacent proof, and low cannibalization risk.
+Shipping `/ai-appointment-setter-setup` pulled a still-defensible buyer-intent page out of the older GEO plan even though the roadmap had drifted toward fallback-only guidance. The page stays distinct from the generic appointment-setter guide because it targets implementation / hiring intent: setup scope, calendar and CRM integration, pricing, and when expert help is worth it. After this ship, the remaining planned backlog still looks thin, and the next run should only force another page if a comparably distinct intent survives fresh review.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | property management + real estate + e-commerce discovery and internal links | The next clean move may be improving discovery and internal-link depth inside the strongest clusters instead of forcing another thin adjacent page. | **Fallback** |
-| 2 | **Watch list** | AI automation ROI calculator or other low-confidence legacy ideas | calculator / tool concepts from older plans | These still appear in older planning docs but remain weaker than the proof-backed static pages already shipped. Reconsider only if a stronger content angle or supporting proof emerges. | **Defer** |
-| 3 | **Status note** | Backlog of high-confidence planned static pages | n/a | At this point the proof-backed queue looks close to exhausted. Do not force filler pages unless another clearly distinct planned topic survives a fresh reconciliation. | **Monitor** |
+| 1 | **Watch list** | AI automation ROI calculator or another stronger static ROI angle | calculator / ROI decision concepts from older plans | Still planned in the older GEO docs, but weaker than the proof-backed static pages already shipped. Only build if the angle can stay commercially concrete and distinct from `/ai-automation-roi-guide`. | **Defer** |
+| 2 | **Fallback** | Strengthen strongest live clusters if no other distinct page survives review | appointment setter + e-commerce + property management discovery and internal links | If no other clean static page survives reconciliation, the best next move may be discovery/internal-link depth inside the strongest live clusters instead of forcing a thin adjacent page. | **Fallback** |
+| 3 | **Status note** | Backlog of high-confidence planned static pages | n/a | The proof-backed queue is close to exhausted again. Keep biasing toward net-new pages, but only if the next candidate is clearly distinct and supportable by real proof. | **Monitor** |
 
 ### Priority Definitions
 
