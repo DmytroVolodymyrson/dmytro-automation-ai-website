@@ -595,6 +595,18 @@
         "How long does it take to implement AI automation for a small business?",
         "Step by step guide to implementing AI automation"
       ]
+    },
+    {
+      "id": "crm-automation-for-contractors",
+      "path": "/crm-automation-for-contractors",
+      "label": "CRM Automation for Contractors",
+      "prompts": [
+        "CRM automation for contractors",
+        "What is the best CRM automation setup for a contractor?",
+        "How do contractors automate estimate follow-up?",
+        "Should a home service contractor use GoHighLevel or a custom CRM?",
+        "How can a contractor stop losing leads between the office and the field?"
+      ]
     }
   ],
   "providers": [

@@ -603,6 +603,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "CRM Automation for Contractors",
+    description:
+      "Contractor-focused CRM setup for pipeline structure, estimate follow-up, scheduling handoff, and ops visibility when your office and field teams are dropping context.",
+    href: "/crm-automation-for-contractors",
+    category: "industries",
+  },
+  {
     title: "AI Automation Consultant Calgary",
     description:
       "AI automation consulting for Calgary businesses. Custom automations for lead follow-up, scheduling, CRM workflows, and operations. Fixed pricing, clear scope.",

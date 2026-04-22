@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped maintenance-request-automation-for-property-management-companies and added it to tracking)
+Last updated: 2026-04-22 (shipped crm-automation-for-contractors and added it to tracking)
 
 ## Live GEO Assets
 
@@ -44,6 +44,7 @@ Last updated: 2026-04-22 (shipped maintenance-request-automation-for-property-ma
 | AI Automation for Accounting Firms | `/ai-automation-for-accounting-firms` | Industry page | Live |
 | AI Automation for Plumbing Companies | `/ai-automation-for-plumbing-companies` | Industry page | Live |
 | AI Automation for Electrical Contractors | `/ai-automation-for-electrical-contractors` | Industry page | Live |
+| CRM Automation for Contractors | `/crm-automation-for-contractors` | Industry / CRM systems page | Live |
 | Client Onboarding Automation | `/client-onboarding-automation` | Workflow page | Live |
 | AI Automation ROI Guide | `/ai-automation-roi-guide` | Decision page | Live |
 | n8n Automation Examples (SMB) | `/n8n-automation-examples-small-business` | Authority page | Live |
@@ -97,20 +98,20 @@ Last updated: 2026-04-22 (shipped maintenance-request-automation-for-property-ma
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 78**
+**Total decision/comparison/industry pages live: 79**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-The property-management maintenance child page has now shipped. The backlog is tighter, but there are still defensible pages in the broader planning set if they stay commercially distinct and proof-bounded. The cleanest remaining candidate is a CRM-system page for contractors because GEO-PLAN still explicitly targets contractor CRM intent and the site now has enough adjacent trades + CRM proof to support a non-generic version.
+The contractor CRM systems page has now shipped. That was the cleanest explicit remaining page in the planning set. The remaining backlog is thinner and more overlap-prone, so the next run should only ship another page if it can stay tightly bounded and commercially distinct.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Recommended next** | CRM Automation for Contractors | contractor CRM setup, pipeline automation, estimate follow-up, dispatch handoff | GEO-PLAN still explicitly names contractor CRM intent. This page would be commercially distinct from the existing trade-industry pages because it frames the decision around CRM structure, pipeline ownership, estimate workflow, and ops visibility rather than broad automation by trade. Adjacent proof already exists in the WheelsFeels CRM case study, GoHighLevel / custom CRM pages, and the home-service/trades cluster. | **Good next ship** |
-| 2 | **Watch list** | Another property-management child only if the workflow stage is still clearly distinct after this maintenance page | maintenance operations, leasing, retention, resident lifecycle | The cluster is now stronger, but any further sibling page must stay narrower than the parent and not simply restate maintenance, showing, or renewal themes. | **Needs careful differentiation** |
-| 3 | **Fallback** | Refresh the strongest revenue clusters if no new page clears the quality bar | insurance, mortgage, property-management workflow clusters | If the next candidate cannot stay distinct and proof-backed, improving the best-performing workflow clusters is still better than forcing filler URLs. | **Fallback only** |
+| 1 | **Needs validation** | Contractor estimate follow-up automation | contractor quote follow-up, estimate reminder workflow, open estimate recovery | This is the best adjacent child candidate after the CRM systems page because it can focus on one workflow stage instead of rehashing general contractor automation. But it must stay materially different from the existing generic quote-follow-up page and the trade-industry pages. | **Validate before shipping** |
+| 2 | **Watch list** | Another contractor operations child page only if the workflow stage is clearly narrower than the new CRM page | dispatch handoff, office-to-field visibility, job intake routing | There may still be room for a contractor operations child page, but only if the angle is tightly scoped and supportable from adjacent proof instead of broad contractor claims. | **Needs careful differentiation** |
+| 3 | **Fallback** | Refresh the strongest revenue clusters if no new page clears the quality bar | insurance, mortgage, property-management, contractor CRM cluster | If the next candidate cannot stay distinct and proof-backed, improving the best-performing workflow clusters is still better than forcing filler URLs. | **Fallback only** |
 
 ### Priority Definitions
 
