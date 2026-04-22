@@ -44,6 +44,7 @@ import AiAutomationForElectricalContractors from "./pages/AiAutomationForElectri
 import ClientOnboardingAutomation from "./pages/ClientOnboardingAutomation";
 import AiAutomationRoiGuide from "./pages/AiAutomationRoiGuide";
 import N8nAutomationExamplesSmallBusiness from "./pages/N8nAutomationExamplesSmallBusiness";
+import N8nAutomationConsultant from "./pages/N8nAutomationConsultant";
 import AiEmailSequenceAutomation from "./pages/AiEmailSequenceAutomation";
 import AiAutomationForInsuranceAgencies from "./pages/AiAutomationForInsuranceAgencies";
 import RenewalReminderAutomationForInsuranceAgencies from "./pages/RenewalReminderAutomationForInsuranceAgencies";
@@ -156,6 +157,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/client-onboarding-automation", element: <ClientOnboardingAutomation /> },
   { path: "/ai-automation-roi-guide", element: <AiAutomationRoiGuide /> },
   { path: "/n8n-automation-examples-small-business", element: <N8nAutomationExamplesSmallBusiness /> },
+  { path: "/n8n-automation-consultant", element: <N8nAutomationConsultant /> },
   { path: "/ai-email-sequence-automation", element: <AiEmailSequenceAutomation /> },
   { path: "/ai-automation-for-insurance-agencies", element: <AiAutomationForInsuranceAgencies /> },
   { path: "/renewal-reminder-automation-for-insurance-agencies", element: <RenewalReminderAutomationForInsuranceAgencies /> },

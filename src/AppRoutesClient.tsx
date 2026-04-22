@@ -45,6 +45,7 @@ const AiAutomationForElectricalContractors = lazy(() => import("./pages/AiAutoma
 const ClientOnboardingAutomation = lazy(() => import("./pages/ClientOnboardingAutomation"));
 const AiAutomationRoiGuide = lazy(() => import("./pages/AiAutomationRoiGuide"));
 const N8nAutomationExamplesSmallBusiness = lazy(() => import("./pages/N8nAutomationExamplesSmallBusiness"));
+const N8nAutomationConsultant = lazy(() => import("./pages/N8nAutomationConsultant"));
 const AiEmailSequenceAutomation = lazy(() => import("./pages/AiEmailSequenceAutomation"));
 const AiAutomationForInsuranceAgencies = lazy(() => import("./pages/AiAutomationForInsuranceAgencies"));
 const RenewalReminderAutomationForInsuranceAgencies = lazy(() => import("./pages/RenewalReminderAutomationForInsuranceAgencies"));
@@ -143,6 +144,7 @@ const AppRoutesClient = () => (
       <Route path="/client-onboarding-automation" element={<ClientOnboardingAutomation />} />
       <Route path="/ai-automation-roi-guide" element={<AiAutomationRoiGuide />} />
       <Route path="/n8n-automation-examples-small-business" element={<N8nAutomationExamplesSmallBusiness />} />
+      <Route path="/n8n-automation-consultant" element={<N8nAutomationConsultant />} />
       <Route path="/ai-email-sequence-automation" element={<AiEmailSequenceAutomation />} />
       <Route path="/ai-automation-for-insurance-agencies" element={<AiAutomationForInsuranceAgencies />} />
       <Route path="/renewal-reminder-automation-for-insurance-agencies" element={<RenewalReminderAutomationForInsuranceAgencies />} />

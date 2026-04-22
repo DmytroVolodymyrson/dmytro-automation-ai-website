@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-n8n-automation-consultant",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: n8n Automation Consultant for Small Business\nBody: If you already know n8n is the right platform, the real question is not whether you can build something in it. The real question is whether you want to spend the next two weeks wiring triggers, debugging edge cases, handling hosting, and cleaning up broken workflow logic instead of getting a revenue-critical automation live. Hiring an n8n automation consultant makes sense when the workflow matters enough that delays, duplicate messages, or silent failures will cost you leads, bookings, or team trust.\nSub: Below: what an n8n consultant should actually help with, what projects usually cost, when DIY is fine, and how to tell whether you need workflow strategy, implementation help, or ongoing support.\n\n### Core sections\n- Frames the page as a hiring / scoping decision, not a generic n8n tutorial and not a duplicate of the broader consultant page.\n- Explains consultant value in workflow mapping, stack integration, hosting and credentials, error handling, documentation, and production trust.\n- Includes good-fit / not-fit filtering plus a DIY-vs-consultant comparison table with realistic small-business pricing ranges.\n- Covers high-ROI n8n project types such as lead routing, CRM workflows, AI-assisted classification, self-hosted stacks, and cleanup / rescue work.\n- Uses direct proof from the Instagram lead-generation case study plus adjacent proof from the e-commerce CRM and Paris Cafe builds.\n\n### FAQ\nSubhead: Practical questions from businesses considering n8n expert help\nTopics: what an n8n consultant does, when to hire instead of DIY, realistic pricing, cleanup of messy existing workflows, and how n8n compares with Zapier.\n\n### Final CTA\nHeading: Need an n8n workflow that works in the real world?\nBody: Book a 30-minute call. We will look at the workflow you want to automate, decide whether n8n is the right fit, and map the narrowest high-ROI build worth doing first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the broader GEO backlog still explicitly called for an “n8n automation consultant / best n8n consultant for small business” page, and it remained the clearest proof-backed unshipped candidate across the planning docs."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps a distinct intent from both /ai-automation-consultant-small-business and /n8n-automation-examples-small-business by focusing on the hiring decision, production reliability, rescue work, and implementation ownership."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses direct and adjacent case-study proof already published on the site without inventing a new vertical claim."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical, commercial, and non-hype with explicit bad-fit framing."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T13:20:40.088Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        5,
+        1,
+        3
+      ],
+      "avgSentenceLength": 23.1,
+      "sentenceLengthRange": [
+        5,
+        35
+      ],
+      "totalWords": 300
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: n8n Automation Consultant for Small Business\nBody: If you already know n8n is the right platform, the real question is not whether you can build something in it.",
+      "wordCount": 30,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need an n8n workflow that works in the real world?\nBody: Book a 30-minute call. We will look at the workflow you want to automate, decide whether n8n is the right fit, and map the narrowest high-ROI build worth doing first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 12,
+      "commas": 29,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 2.23
+    },
+    "vocabulary": {
+      "distinctWords": 182,
+      "totalWords": 300,
+      "topWords": [
+        [
+          "n8n",
+          11
+        ],
+        [
+          "consultant",
+          6
+        ],
+        [
+          "workflow",
+          6
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "whether",
+          4
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "real",
+          3
+        ],
+        [
+          "not",
+          3
+        ],
+        [
+          "when",
+          3
+        ],
+        [
+          "what",
+          3
+        ],
+        [
+          "help",
+          3
+        ],
+        [
+          "with",
+          3
+        ],
+        [
+          "from",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "body",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.007
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

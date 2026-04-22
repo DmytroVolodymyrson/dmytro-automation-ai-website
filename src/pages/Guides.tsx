@@ -252,6 +252,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "n8n Automation Consultant for Small Business",
+    description:
+      "Need help building or cleaning up n8n workflows? Practical guide to hiring an n8n consultant — what they should handle, what projects cost, and when DIY is enough.",
+    href: "/n8n-automation-consultant",
+    category: "workflows",
+  },
+  {
     title: "AI Email Sequence Automation",
     description:
       "How AI email sequence automation works for small businesses. Automated follow-up, lead nurture, re-engagement campaigns, and personalized outreach.",

@@ -177,6 +177,18 @@
       ]
     },
     {
+      "id": "n8n-automation-consultant",
+      "path": "/n8n-automation-consultant",
+      "label": "n8n Automation Consultant for Small Business",
+      "prompts": [
+        "n8n automation consultant",
+        "best n8n consultant for small business",
+        "hire n8n expert for small business",
+        "Should I hire an n8n consultant or build it myself?",
+        "What does an n8n automation consultant cost?"
+      ]
+    },
+    {
       "id": "ai-email-sequence-automation",
       "path": "/ai-email-sequence-automation",
       "label": "AI Email Sequence Automation",

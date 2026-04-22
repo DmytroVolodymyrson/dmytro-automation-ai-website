@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped ecommerce-crm-automation-with-ai-follow-up and added it to tracking)
+Last updated: 2026-04-22 (shipped n8n-automation-consultant and added it to tracking)
 
 ## Live GEO Assets
 
@@ -63,6 +63,7 @@ Last updated: 2026-04-22 (shipped ecommerce-crm-automation-with-ai-follow-up and
 | AI Automation for E-Commerce Brands | `/ai-automation-ecommerce` | Industry page | Live |
 | AI Automation for Auto Parts E-Commerce | `/ai-automation-for-auto-parts-ecommerce` | Industry page | Live |
 | E-Commerce CRM Automation with AI Follow-Up | `/ecommerce-crm-automation-with-ai-follow-up` | Industry workflow page | Live |
+| n8n Automation Consultant for Small Business | `/n8n-automation-consultant` | Decision / service page | Live |
 | Fitment Inquiry Automation for Auto Parts E-Commerce | `/fitment-inquiry-automation-for-auto-parts-ecommerce` | Industry workflow page | Live |
 | After-Hours Lead Capture | `/after-hours-lead-capture-for-service-businesses` | Workflow page | Live |
 | Missed Call Follow-Up Automation | `/missed-call-follow-up-automation` | Workflow page | Live |
@@ -102,20 +103,20 @@ Last updated: 2026-04-22 (shipped ecommerce-crm-automation-with-ai-follow-up and
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 83**
+**Total decision/comparison/industry pages live: 84**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Broader backlog reconciliation found one remaining explicit, proof-backed candidate in GEO-PLAN.md's secondary list: e-commerce CRM automation with AI follow-up. That page is now live. The next clean candidate is less certain, so the next run should start by checking whether a dedicated n8n-automation-consultant page can stay meaningfully distinct from the existing consultant + n8n examples pages before shipping another net-new URL.
+The last explicit proof-backed backlog candidate from the planning docs was the n8n automation consultant page, and it is now live. After reconciling GEO-PLAN.md, docs/geo-plan-2026-03.md, docs/programmatic-seo-pattern-matrix.md, scripts/geo-prompts.json, and the current route set, there is no equally clean explicit next page left. The next run should start with a broader backlog re-check for any still-distinct proof-backed child page; if nothing clears that bar, prefer strengthening a high-value live cluster over inventing filler.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P0** | `n8n automation consultant` decision/service page | `n8n automation consultant`, `hire n8n expert for small business` | Still appears in the broader planning docs and has direct proof adjacency from the Instagram lead-gen case study plus the live n8n comparison/examples cluster, but needs a cannibalization check against the existing consultant and n8n examples pages. | **Validate distinct angle next run** |
-| 2 | **P1** | Broader backlog reconciliation after that candidate | planning docs, live routes, geo prompts | If the n8n-consultant angle collapses into existing pages, re-check the full backlog before forcing another ship. The obvious contractor / insurance / property-management child queues are already live. | **Do if P0 fails distinctness test** |
-| 3 | **Watch list** | Refresh highest-value live clusters if no defensible new page clears the bar | insurance, mortgage, property-management, e-commerce | If the broader backlog scan no longer yields a distinct proof-backed page, cluster refreshes are better than weak filler URLs. | **Fallback only** |
+| 1 | **P0** | Broad backlog reconciliation for one more distinct proof-backed page | planning docs, live routes, geo prompts | The obvious explicit backlog is now exhausted. Re-check broader planning language and tracked prompts for a remaining child page that is materially distinct from the live set before defaulting to maintenance. | **Required next run** |
+| 2 | **P1** | Refresh highest-value live cluster if no defensible new page survives review | n8n, insurance, mortgage, property-management, e-commerce | If no clean new URL remains, a meaningful refresh to an already-performing cluster is better than weak filler or cannibalizing copy. | **Fallback only** |
+| 3 | **Watch list** | AI automation ROI calculator or other low-confidence legacy ideas | calculator / tool concepts from older plans | These still appear in older planning docs but are lower-confidence and weaker than the pages already shipped. Only revisit if a distinct commercial angle becomes clearer. | **Defer** |
 
 ### Priority Definitions
 
