@@ -225,6 +225,18 @@
       ]
     },
     {
+      "id": "incomplete-application-follow-up-for-mortgage-brokers",
+      "path": "/incomplete-application-follow-up-for-mortgage-brokers",
+      "label": "Incomplete Application Follow-Up for Mortgage Brokers",
+      "prompts": [
+        "Incomplete application follow-up for mortgage brokers",
+        "How can mortgage brokers automate incomplete application follow-up?",
+        "Best way to re-engage borrowers who started a mortgage application but did not finish",
+        "How do mortgage brokerages follow up with stalled pre-approval applications?",
+        "Should a mortgage broker automate application nurture before document collection?"
+      ]
+    },
+    {
       "id": "ai-automation-for-insurance-agencies",
       "path": "/ai-automation-for-insurance-agencies",
       "label": "AI Automation for Insurance Agencies",

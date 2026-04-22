@@ -47,6 +47,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - `/ai-automation-for-real-estate`
 - `/ai-lead-follow-up-for-mortgage-brokers`
 - `/document-collection-automation-for-mortgage-brokers`
+- `/incomplete-application-follow-up-for-mortgage-brokers`
 - `/ai-automation-for-insurance-agencies`
 - `/ai-automation-for-property-management`
 - `/ai-automation-ecommerce`

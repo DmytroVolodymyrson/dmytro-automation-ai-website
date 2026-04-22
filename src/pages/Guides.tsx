@@ -421,6 +421,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Incomplete Application Follow-Up for Mortgage Brokers",
+    description:
+      "Recover stalled mortgage applications with stage-based reminders, booking prompts, and broker handoff before half-finished files go cold.",
+    href: "/incomplete-application-follow-up-for-mortgage-brokers",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Dental Practices",
     description:
       "AI automation for dental practices. Patient booking, recall campaigns, appointment reminders, intake forms, and no-show follow-up.",

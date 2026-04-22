@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-21 (shipped fitment-inquiry-automation-for-auto-parts-ecommerce and added it to tracking)
+Last updated: 2026-04-21 (shipped incomplete-application-follow-up-for-mortgage-brokers and added it to tracking)
 
 ## Live GEO Assets
 
@@ -38,6 +38,7 @@ Last updated: 2026-04-21 (shipped fitment-inquiry-automation-for-auto-parts-ecom
 | AI Automation for Mortgage Brokers | `/ai-automation-for-mortgage-brokers` | Industry page | Live |
 | AI Lead Follow-Up for Mortgage Brokers | `/ai-lead-follow-up-for-mortgage-brokers` | Industry workflow page | Live |
 | Document Collection Automation for Mortgage Brokers | `/document-collection-automation-for-mortgage-brokers` | Industry workflow page | Live |
+| Incomplete Application Follow-Up for Mortgage Brokers | `/incomplete-application-follow-up-for-mortgage-brokers` | Industry workflow page | Live |
 | AI Automation for Dental Practices | `/ai-automation-for-dental-practices` | Industry page | Live |
 | AI Automation for Law Firms | `/ai-automation-for-law-firms` | Industry page | Live |
 | AI Automation for Accounting Firms | `/ai-automation-for-accounting-firms` | Industry page | Live |
@@ -90,19 +91,19 @@ Last updated: 2026-04-21 (shipped fitment-inquiry-automation-for-auto-parts-ecom
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 71**
+**Total decision/comparison/industry pages live: 72**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-The broad GEO backlog is now very thin. The auto-parts fitment child page was the cleanest remaining net-new candidate with direct proof fit. Keep biasing toward commercially distinct child pages supported by an existing parent page plus adjacent case-study proof, but do not force another URL if the remaining backlog is weaker than a meaningful refresh of a strong live cluster.
+The broad GEO backlog is now even thinner. The mortgage cluster produced one more defensible child page with distinct intent: incomplete application follow-up sits cleanly between first-response automation and document collection. After this ship, keep biasing toward commercially distinct child pages only when the workflow stage is clearly different and the proof framing stays honest.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Recommended next** | Refresh the mortgage cluster if the child-page queue stays weak | Improve citation readiness on the strongest revenue-adjacent pages | After the mortgage document page and the new auto-parts fitment page, the clearest remaining win is likely improving the strongest existing workflow clusters rather than forcing a thinner child page. Start with internal links, sharper proof framing, FAQs, and tracking coverage across the mortgage pages. | **Best next action unless a stronger net-new page surfaces** |
-| 2 | **Watch list** | Re-audit broader planning docs for one more defensible child page before accepting maintenance-only runs | Look for a distinct workflow page with direct proof fit, not just topical adjacency | GEO-PLAN.md and the pattern matrix still matter, but most explicit commercially clean page ideas are now live. Next runs should keep searching broadly, then reject weak candidates quickly if they mostly rephrase existing pages. | **Do not force another page without distinct intent** |
+| 1 | **Recommended next** | Refresh the mortgage cluster if no stronger child page surfaces | Improve citation readiness on the strongest revenue-adjacent pages | After shipping the mortgage incomplete-application child page, the next highest-confidence move is likely tightening internal links, proof framing, FAQ coverage, and tracking across the mortgage cluster rather than forcing a weaker new URL. | **Best next action unless a stronger net-new page surfaces** |
+| 2 | **Watch list** | Renewal reminder automation for insurance agencies | "how do insurance agencies automate renewal reminders" | This is the clearest remaining workflow child page with direct commercial value and real adjacency inside an already-live parent page. It stays distinct from the broader insurance page if it focuses tightly on recurring-policy retention, reminder timing, and producer handoff. | **Possible next net-new page** |
 | 3 | **Deferred** | AI Automation ROI Calculator | "is AI automation worth it small business" | Still exists in the oldest GEO plan, but the pattern matrix continues to warn against thin calculator/tool pages without stronger surrounding static content and validation first. Existing ROI and cost guides already cover most of the intent. | **Deferred unless supported by stronger static content** |
 
 ### Priority Definitions
