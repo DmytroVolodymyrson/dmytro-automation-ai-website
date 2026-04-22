@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-private-event-inquiry-follow-up-for-restaurants",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nBadge: Restaurant Workflow\nHeading: Private-Event Inquiry Follow-Up for Restaurants\nBody: If your restaurant hosts buyouts, private dining, group bookings, or catering requests, the first operational risk is usually not demand. It is response speed. Event leads come in through forms, voicemails, DMs, and rushed phone calls, then sit while service is happening. Private-event inquiry follow-up automation fixes that narrow gap. It captures the important details, confirms the inquiry fast, alerts the right person, and keeps the thread moving until a human takes over the actual sales conversation.\nSub: Below: what this workflow should automate, how it differs from broad restaurant automation or a restaurant voice-agent setup, what proof honestly supports it today, and where the human event lead should still stay fully human.\n\n### Core sections\n- Defines the page as a narrow restaurant workflow page rather than a broad restaurant AI pitch.\n- Covers multi-channel inquiry capture, immediate acknowledgement, structured detail capture, clean human routing, reminder logic, and narrow templated outreach.\n- Includes a decision table separating the broader restaurant page, the restaurant voice-agent page, and this event-follow-up child page.\n- Uses explicit good-fit / not-fit criteria so the page stays commercial and decision-oriented.\n- Adds an implementation section focused on speed-to-first-response, useful intake detail, human-led negotiation, and tracking where leads stall.\n- Includes an honest proof frame: no private-event-specific case study yet, but the parent restaurant page and Paris Cafe fast-response/routing proof support the workflow pattern.\n\n### FAQ\nSubhead: Straight answers for restaurant owners and managers considering event-lead automation\nTopics: whether this is just a chatbot, what should stay human, cost framing, whether it works across phone/email/social intake, and where the ROI actually shows up.\n\n### Final CTA\nHeading: Want private-event leads handled faster without making the process robotic?\nBody: Book a 30-minute call. We will look at how event inquiries enter the business today, where they stall, and whether a focused follow-up workflow would create a real revenue win before you touch anything broader.\nSub: No fake hospitality-tech hype. Just a practical look at event demand, response lag, and which parts of the process should stay fully human.\nRelated links: AI automation for restaurants, AI voice agent for restaurants, Paris Cafe case study, All guides.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "New net-new GEO page selected from a buried restaurant prompt in the existing tracking set after the roadmap backlog looked exhausted."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the proof framing disciplined: adjacent restaurant operations proof, no invented private-event case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Opens with the operational problem and funnel leak, not generic AI language."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Repeats the key limitation clearly: automation should protect speed and discipline, not impersonate the events manager."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Maintains the site's practical, non-hype tone and uses buyer-language around buyouts, large parties, catering, and slow follow-up."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-22T14:52:15.916Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        6,
+        1,
+        6
+      ],
+      "avgSentenceLength": 19.2,
+      "sentenceLengthRange": [
+        4,
+        38
+      ],
+      "totalWords": 365
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nBadge: Restaurant Workflow\nHeading: Private-Event Inquiry Follow-Up for Restaurants\nBody: If your restaurant hosts buyouts, private dining, group bookings, or catering requests, the first operational risk is usually not demand.",
+      "wordCount": 31,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want private-event leads handled faster without making the process robotic?\nBody: Book a 30-minute call. We will look at how event inquiries enter the business today, where they stall, and whether a focused follow-up workflow would create a real revenue win before you touch anything broader.\nSub: No fake hospitality-tech hype. Just a practical look at event demand, response lag, and which parts of the process should stay fully human.\nRelated links: AI automation for restaurants, AI voice agent for restaurants, Paris Cafe case study, All guides.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 18,
+      "commas": 36,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 12,
+      "commasPerSentence": 1.89
+    },
+    "vocabulary": {
+      "distinctWords": 225,
+      "totalWords": 365,
+      "topWords": [
+        [
+          "restaurant",
+          10
+        ],
+        [
+          "page",
+          7
+        ],
+        [
+          "human",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "it",
+          5
+        ],
+        [
+          "inquiry",
+          4
+        ],
+        [
+          "event",
+          4
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "where",
+          4
+        ],
+        [
+          "private-event",
+          3
+        ],
+        [
+          "follow-up",
+          3
+        ],
+        [
+          "restaurants",
+          3
+        ],
+        [
+          "leads",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

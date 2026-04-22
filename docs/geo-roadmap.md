@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped ai-automation-for-restaurants and added it to tracking)
+Last updated: 2026-04-22 (shipped private-event-inquiry-follow-up-for-restaurants and added it to tracking)
 
 ## Live GEO Assets
 
@@ -17,6 +17,7 @@ Last updated: 2026-04-22 (shipped ai-automation-for-restaurants and added it to 
 | AI Appointment Setter | `/ai-appointment-setter` | Decision page | Live |
 | AI Voice Agent for Restaurants | `/ai-voice-agent-for-restaurants` | Industry page | Live |
 | AI Automation for Restaurants | `/ai-automation-for-restaurants` | Industry page | Live |
+| Private-Event Inquiry Follow-Up for Restaurants | `/private-event-inquiry-follow-up-for-restaurants` | Restaurant workflow page | Live |
 | AI Lead Follow-Up | `/ai-lead-follow-up-for-service-businesses` | Decision page | Live |
 | AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo landing page | Live |
 | AI Consultant Edmonton | `/ai-automation-consultant-edmonton` | Geo landing page | Live |
@@ -104,19 +105,19 @@ Last updated: 2026-04-22 (shipped ai-automation-for-restaurants and added it to 
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 
-**Total decision/comparison/industry pages live: 85**
+**Total decision/comparison/industry pages live: 86**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-automation-for-restaurants` closed the last clean pilot-level vertical gap that still had direct proof fit across the current planning set. After re-checking GEO-PLAN.md, docs/geo-plan-2026-03.md, docs/programmatic-seo-pattern-matrix.md, scripts/geo-prompts.json, and the live route set, there is still no equally strong explicit net-new page left that is both clearly planned and clearly distinct from the existing clusters.
+Shipping `/private-event-inquiry-follow-up-for-restaurants` proved there was still one defensible child workflow hiding in the restaurant prompt set even after the broader roadmap looked exhausted. After re-checking GEO-PLAN.md, docs/geo-plan-2026-03.md, docs/programmatic-seo-pattern-matrix.md, scripts/geo-prompts.json, and the live route set, the remaining backlog is still thin. There is no equally strong explicit net-new page left yet, but the restaurant cluster remains the most plausible place to find one more bounded workflow page if another run can defend a clearly distinct angle.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P0** | One more broad backlog reconciliation pass for a defensible proof-backed page | planning docs, live routes, geo prompts | The strongest remaining work is still to verify whether any buried workflow or vertical target remains before defaulting to maintenance. | **Required next run** |
-| 2 | **P1** | Strengthen the restaurant cluster if no clean new page survives review | restaurants, phone answering, reservations, guest follow-up | The new broad restaurant page plus the existing voice-agent page now form a real cluster; if backlog remains exhausted, tightening internal links, proof framing, and FAQs here is higher value than filler. | **Fallback only** |
+| 1 | **P0** | One more broad backlog reconciliation pass, with restaurant-child prompt gaps checked first | planning docs, live routes, geo prompts | The highest-probability remaining path is still a narrowly framed workflow hidden inside parent-page prompt language rather than the stale legacy backlog table. | **Required next run** |
+| 2 | **P1** | Strengthen the restaurant cluster if no clean new page survives review | restaurants, phone answering, reservations, private events | The restaurant cluster now has a parent page, a voice-agent page, and an event-follow-up child. If no new page is defensible, improve cluster depth instead of forcing filler. | **Fallback only** |
 | 3 | **Watch list** | AI automation ROI calculator or other low-confidence legacy ideas | calculator / tool concepts from older plans | These still appear in older planning docs but remain weaker than the proof-backed static pages already shipped. | **Defer** |
 
 ### Priority Definitions

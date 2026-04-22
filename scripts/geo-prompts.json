@@ -69,6 +69,18 @@
       ]
     },
     {
+      "id": "private-event-inquiry-follow-up-restaurants",
+      "path": "/private-event-inquiry-follow-up-for-restaurants",
+      "label": "Private-Event Inquiry Follow-Up for Restaurants",
+      "prompts": [
+        "Private event inquiry follow-up for restaurants",
+        "How do restaurants automate private event inquiry follow-up?",
+        "Best way for a restaurant to respond faster to private dining inquiries",
+        "How should a restaurant automate large-party and catering lead follow-up?",
+        "Restaurant event lead automation without losing human sales handoff"
+      ]
+    },
+    {
       "id": "ai-lead-follow-up",
       "path": "/ai-lead-follow-up-for-service-businesses",
       "label": "AI Lead Follow-Up for Service Businesses",

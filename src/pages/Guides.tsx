@@ -407,6 +407,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Private-Event Inquiry Follow-Up for Restaurants",
+    description:
+      "How restaurants automate private-dining, buyout, and large-party lead follow-up without making the sales conversation feel robotic. Faster response, cleaner handoff, better event-lead discipline.",
+    href: "/private-event-inquiry-follow-up-for-restaurants",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Real Estate",
     description:
       "AI automation for real estate agents and teams. Lead follow-up, showing coordination, CRM workflows, and drip campaigns. What works and where to start.",

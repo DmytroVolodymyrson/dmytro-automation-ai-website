@@ -31,6 +31,9 @@ AI phone answering for restaurants — where an AI voice agent helps, where it d
 ## Restaurant Automation Guide
 AI automation for restaurants — reservation capture, missed-call coverage, private-event inquiry follow-up, review requests, and guest communication systems that reduce front-of-house interruption without pretending AI should replace hospitality. Grounded in the live Paris Cafe restaurant case study. Learn more: https://www.dmytroai.com/ai-automation-for-restaurants
 
+## Restaurant Private-Event Inquiry Follow-Up Guide
+How restaurants automate private-dining, buyout, large-party, and catering inquiry follow-up without making the sales process feel robotic. Covers fast acknowledgement, structured intake, reminder logic, and clean human handoff for event leads. Learn more: https://www.dmytroai.com/private-event-inquiry-follow-up-for-restaurants
+
 ## AI Automation Consultant for Small Business
 Dedicated AI automation consulting for small businesses — lead follow-up, CRM workflows, voice agents, and operational automation built for teams of 1-20. Fixed pricing, direct access to the builder, and systems that pay for themselves. Learn more: https://www.dmytroai.com/ai-automation-consultant-small-business
 
