@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped missed-call-text-back-vs-ai-phone-answering-for-auto-repair-shops by turning the remaining auto-repair phone-recovery watchlist item into a distinct buyer-decision page anchored in the live auto-repair missed-call child, the generic AI phone-answering guide, and adjacent call-handling proof without pretending there is already a published auto-repair-specific comparison case study)
+Last updated: 2026-04-23 (shipped crm-automation-setup-vs-diy-for-contractors by extracting the exact contractor CRM buy-vs-build query from the live contractor setup-help page into its own distinct decision page anchored in the contractor CRM cluster and adjacent CRM proof without pretending there is already a contractor-specific setup case study)
 
 ## Live GEO Assets
 
@@ -65,6 +65,7 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-vs-ai-phone-answering-fo
 | AI Automation for Electrical Contractors | `/ai-automation-for-electrical-contractors` | Industry page | Live |
 | CRM Automation for Contractors | `/crm-automation-for-contractors` | Industry / CRM systems page | Live |
 | CRM Automation Setup for Contractors | `/crm-automation-setup-for-contractors` | Contractor setup-help page | Live |
+| CRM Automation Setup vs. DIY for Contractors | `/crm-automation-setup-vs-diy-for-contractors` | Contractor buy-vs-build decision page | Live |
 | GoHighLevel vs. Custom CRM for Contractors | `/gohighlevel-vs-custom-crm-for-contractors` | Contractor CRM decision page | Live |
 | Estimate Follow-Up Automation for Contractors | `/estimate-follow-up-automation-for-contractors` | Industry workflow page | Live |
 | Dispatch Handoff Automation for Contractors | `/dispatch-handoff-automation-for-contractors` | Industry operations page | Live |
@@ -153,19 +154,19 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-vs-ai-phone-answering-fo
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 134**
+**Total decision/comparison/industry pages live: 135**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/missed-call-text-back-vs-ai-phone-answering-for-auto-repair-shops` exhausted the remaining explicit auto-repair phone-recovery watchlist item that survived the last reconciliation. The next pass should reopen broader planning docs and remaining tracked prompts again instead of pretending another clean slug is already queued. The strongest exact remaining extraction after this reconciliation is now the contractor CRM setup buy-vs-build question already implied by the live contractor setup-help page.
+Shipping `/crm-automation-setup-vs-diy-for-contractors` appears to exhaust the last clean, explicit high-confidence page that still survived the current reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, the live route set, and `scripts/geo-prompts.json`. Do not pretend another neat slug is still queued. The next pass should reopen broader planning docs and remaining tracked prompts from scratch, then either identify a truly distinct proof-backed child page or leave the queue in fallback/watchlist mode again.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | `/crm-automation-setup-vs-diy-for-contractors` | Should a contractor set up CRM automation alone or get expert help? | The live contractor CRM setup-help page already tracks the exact buy-vs-build query, the broader contractor CRM cluster is live, and the page would answer a narrower implementation decision without rewriting the parent setup or platform-comparison pages. | **Next best candidate** |
-| 2 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts for the next proof-backed net-new page after the contractor CRM setup buy-vs-build child | Next distinct buyer-intent or workflow page not yet live | The neat queue is exhausted again, so the next ship after the contractor setup decision likely needs another cross-doc reconciliation instead of stale watchlist reuse. | **Recheck after next ship** |
+| 1 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts for the next proof-backed net-new page | Next distinct buyer-intent or workflow page not yet live | The clean queued slug is now shipped, so the next run needs another full reconciliation instead of stale watchlist reuse. | **Recheck next run** |
+| 2 | **Watchlist** | Improve discovery/internal-link coverage on the strongest live clusters only if reconciliation finds no distinct net-new page | Support already-live contractor, property-management, insurance, e-commerce, and auto-repair clusters without filler | Use this only if a real net-new page does not survive the next cross-doc + tracked-prompt review. | **Fallback only** |
 
 ### Priority Definitions
 

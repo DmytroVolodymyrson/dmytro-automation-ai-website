@@ -1229,7 +1229,19 @@
         "What is the best CRM automation setup for a contractor?",
         "What should contractor CRM setup help include?",
         "How much does contractor CRM setup cost?",
-        "Should a contractor set up CRM automation alone or get expert help?"
+        "What contractor workflow should I automate first before building a bigger CRM layer?"
+      ]
+    },
+    {
+      "id": "crm-automation-setup-vs-diy-for-contractors",
+      "path": "/crm-automation-setup-vs-diy-for-contractors",
+      "label": "CRM Automation Setup vs. DIY for Contractors",
+      "prompts": [
+        "CRM automation setup vs DIY for contractors",
+        "Should a contractor set up CRM automation alone or get expert help?",
+        "When is DIY contractor CRM setup enough?",
+        "Is contractor CRM setup help worth paying for?",
+        "Should a contractor hire someone to configure CRM automation or build it in-house?"
       ]
     },
     {

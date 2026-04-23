@@ -974,6 +974,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "CRM Automation Setup vs. DIY for Contractors",
+    description:
+      "Buyer-decision page for contractors deciding whether CRM setup should stay an owner-led project or move to expert implementation before more leads, estimates, and job handoffs leak during rollout.",
+    href: "/crm-automation-setup-vs-diy-for-contractors",
+    category: "industries",
+  },
+  {
     title: "GoHighLevel vs. Custom CRM for Contractors",
     description:
       "Contractor-specific CRM decision guide focused on estimate follow-up, dispatch handoff, field context, and when GoHighLevel is enough versus when a custom or hybrid system is the safer fit.",
