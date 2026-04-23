@@ -715,6 +715,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "After-Hours Maintenance Triage for Property Management Companies",
+    description:
+      "A narrower property-management overnight operations page focused specifically on maintenance-intake acknowledgement, emergency-vs-routine sorting, on-call escalation, and a cleaner next-day queue for routine repair issues.",
+    href: "/after-hours-maintenance-triage-for-property-management-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for E-Commerce Brands",
     description:
       "AI automation for e-commerce brands. CRM organization, lead follow-up, customer service routing, reactivation campaigns, and repeat-purchase workflows.",

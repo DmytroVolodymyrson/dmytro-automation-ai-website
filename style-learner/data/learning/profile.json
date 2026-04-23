@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-23T02:27:44.075Z",
-  "postCount": 132,
+  "updatedAt": "2026-04-23T02:57:34.320Z",
+  "postCount": 133,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,25 +15,25 @@
       "max": 11,
       "p25": 4,
       "p75": 4,
-      "samples": 132
+      "samples": 133
     },
     "sentenceLength": {
       "mean": 19.1,
-      "median": 18,
+      "median": 18.1,
       "min": 7.1,
       "max": 105,
-      "p25": 15.4,
+      "p25": 15.5,
       "p75": 21.3,
-      "samples": 132
+      "samples": 133
     },
     "totalWords": {
-      "mean": 252.8,
-      "median": 232,
+      "mean": 252.7,
+      "median": 233,
       "min": 17,
       "max": 1155,
-      "p25": 175,
+      "p25": 176,
       "p75": 296,
-      "samples": 132
+      "samples": 133
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -58,7 +58,7 @@
       "long | long | single | long | long | short | short | single | long": 1,
       "long | single | single | short": 16,
       "long | single | short | long": 7,
-      "long | single | single | long": 4,
+      "long | single | single | long": 5,
       "long | short | single | long": 13,
       "long | single | single | long | short | single | single | single": 1,
       "long | short | single | single": 6,
@@ -97,7 +97,7 @@
       "opener | product-pitch | product-pitch | result | context | product-pitch | context | product-pitch | product-pitch | closer": 1,
       "opener | context | context | context | result | product-pitch | context | context | closer": 1,
       "opener | context | product-pitch | closer": 8,
-      "opener | context | context | closer": 53,
+      "opener | context | context | closer": 54,
       "opener | product-pitch | context | closer": 12,
       "opener | context | product-pitch | context | product-pitch | result | context | closer": 1,
       "opener | product-pitch | product-pitch | closer": 6,
@@ -135,7 +135,7 @@
         ]
       },
       "standard-opener": {
-        "count": 82,
+        "count": 83,
         "examples": [
           "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an autom",
           "Section heading: Real Results for Real Businesses\nSubheading: Here's what happen",
@@ -169,7 +169,7 @@
         ]
       },
       "question": {
-        "count": 86,
+        "count": 87,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -202,7 +202,7 @@
     "topWords": [
       [
         "-",
-        888
+        893
       ],
       [
         "automation",
@@ -210,7 +210,7 @@
       ],
       [
         "what",
-        367
+        373
       ],
       [
         "ai",
@@ -230,23 +230,27 @@
       ],
       [
         "heading",
-        130
+        132
       ],
       [
         "it",
         128
       ],
       [
+        "how",
+        113
+      ],
+      [
         "not",
         113
       ],
       [
-        "how",
-        109
-      ],
-      [
         "that",
         107
+      ],
+      [
+        "body",
+        103
       ],
       [
         "with",
@@ -254,10 +258,6 @@
       ],
       [
         "call",
-        101
-      ],
-      [
-        "body",
         101
       ],
       [
@@ -273,15 +273,19 @@
         80
       ],
       [
+        "workflow",
+        79
+      ],
+      [
         "leads",
         76
       ],
       [
-        "workflow",
-        75
+        "usually",
+        67
       ],
       [
-        "usually",
+        "this",
         67
       ],
       [
@@ -297,24 +301,20 @@
         64
       ],
       [
-        "this",
-        64
-      ],
-      [
         "crm",
         63
+      ],
+      [
+        "from",
+        61
       ],
       [
         "agent",
         61
       ],
       [
-        "from",
-        58
-      ],
-      [
         "page",
-        58
+        61
       ],
       [
         "restaurant",

@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped missed-call-text-back-vs-ai-voice-agent-for-restaurants by turning the exact restaurant phone-choice prompt already tracked under the live missed-call-text-back cluster into a dedicated comparison page anchored in Paris Cafe proof and existing restaurant phone-recovery guides)
+Last updated: 2026-04-22 (shipped after-hours-maintenance-triage-for-property-management-companies by turning the exact overnight maintenance-triage prompt already embedded under the live maintenance-request cluster into a dedicated child page anchored in the property-management maintenance + after-hours workflow guides and adjacent overnight routing proof)
 
 ## Live GEO Assets
 
@@ -82,6 +82,7 @@ Last updated: 2026-04-22 (shipped missed-call-text-back-vs-ai-voice-agent-for-re
 | Maintenance Request Automation for Property Management Companies | `/maintenance-request-automation-for-property-management-companies` | Industry workflow page | Live |
 | Tenant Communication Automation for Property Management Companies | `/tenant-communication-automation-for-property-management-companies` | Industry communication workflow page | Live |
 | After-Hours Tenant Communication for Property Management Companies | `/after-hours-tenant-communication-for-property-management-companies` | Property-management overnight communication workflow page | Live |
+| After-Hours Maintenance Triage for Property Management Companies | `/after-hours-maintenance-triage-for-property-management-companies` | Property-management overnight maintenance triage workflow page | Live |
 | AI Automation for E-Commerce Brands | `/ai-automation-ecommerce` | Industry page | Live |
 | AI Automation for Auto Parts E-Commerce | `/ai-automation-for-auto-parts-ecommerce` | Industry page | Live |
 | E-Commerce CRM Automation with AI Follow-Up | `/ecommerce-crm-automation-with-ai-follow-up` | Industry workflow page | Live |
@@ -136,20 +137,19 @@ Last updated: 2026-04-22 (shipped missed-call-text-back-vs-ai-voice-agent-for-re
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 117**
+**Total decision/comparison/industry pages live: 118**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/missed-call-text-back-vs-ai-voice-agent-for-restaurants` used one of the last exact tracked comparison queries still hiding inside a live cluster: the restaurant phone-choice prompt already embedded under the live missed-call-text-back page. With that page now live, the backlog returns to fallback + proof-led watchlist mode again instead of pretending another equally clean net-new page is ready at the same confidence level.
+Shipping `/after-hours-maintenance-triage-for-property-management-companies` consumed the remaining property-management watchlist item because the exact overnight maintenance-triage query was already present inside the live maintenance-request cluster (`Best way to triage tenant maintenance requests after hours`). With that page now live, the backlog returns to honest fallback mode again instead of pretending another equally clean net-new page is still queued.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | GoHighLevel + appointment setter + restaurant + e-commerce + property management discovery and internal links | After shipping one of the last exact tracked comparison queries, default back to discovery-surface and internal-link improvements unless a new proof-backed query becomes explicit. | **Fallback** |
-| 2 | **Watchlist** | After-hours maintenance triage for property management companies (only if the exact query strengthens) | narrower overnight maintenance-intake decision | The remaining ideas are softer prompt-adjacent children and need a cleaner exact query or stronger proof before shipping. | **Watchlist** |
-| 3 | **Deferred** | Re-open net-new shipping only when a live cluster gains a clearer exact query or stronger proof | proof-led backlog refresh | Do not invent filler pages once the explicit high-confidence queue is exhausted again. | **Deferred** |
+| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | GoHighLevel + appointment setter + restaurant + e-commerce + property management discovery and internal links | After shipping the last property-management watchlist child with an exact tracked query, default back to discovery-surface and internal-link improvements unless a new proof-backed query becomes explicit. | **Fallback** |
+| 2 | **Deferred** | Re-open net-new shipping only when a live cluster gains a clearer exact query or stronger proof | proof-led backlog refresh | Do not invent filler pages once the explicit high-confidence queue is exhausted again. | **Deferred** |
 
 ### Priority Definitions
 

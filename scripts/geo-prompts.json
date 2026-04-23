@@ -585,6 +585,18 @@
       ]
     },
     {
+      "id": "after-hours-maintenance-triage-for-property-management-companies",
+      "path": "/after-hours-maintenance-triage-for-property-management-companies",
+      "label": "After-Hours Maintenance Triage for Property Management Companies",
+      "prompts": [
+        "After-hours maintenance triage for property management companies",
+        "Best way to triage tenant maintenance requests after hours",
+        "How should a property management company automate overnight maintenance triage?",
+        "Should property managers use AI to separate emergency vs routine maintenance issues at night?",
+        "How do property management teams handle after-hours maintenance requests without missing real emergencies?"
+      ]
+    },
+    {
       "id": "ai-automation-ecommerce",
       "path": "/ai-automation-ecommerce",
       "label": "AI Automation for E-Commerce Brands",
