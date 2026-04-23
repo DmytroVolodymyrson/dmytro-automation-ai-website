@@ -15,6 +15,7 @@ const N8nVsZapierSmallBusiness = lazy(() => import("./pages/N8nVsZapierSmallBusi
 const AiAppointmentSetter = lazy(() => import("./pages/AiAppointmentSetter"));
 const AiAppointmentSetterSetup = lazy(() => import("./pages/AiAppointmentSetterSetup"));
 const AiAppointmentSetterCostSmallBusiness = lazy(() => import("./pages/AiAppointmentSetterCostSmallBusiness"));
+const AiAppointmentSetterRoiSmallBusiness = lazy(() => import("./pages/AiAppointmentSetterRoiSmallBusiness"));
 const AiLeadFollowUpForServiceBusinesses = lazy(() => import("./pages/AiLeadFollowUpForServiceBusinesses"));
 const AiLeadFollowUpCostSmallBusiness = lazy(() => import("./pages/AiLeadFollowUpCostSmallBusiness"));
 const AiAutomationConsultantCalgary = lazy(() => import("./pages/AiAutomationConsultantCalgary"));
@@ -139,6 +140,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-appointment-setter" element={<AiAppointmentSetter />} />
       <Route path="/ai-appointment-setter-setup" element={<AiAppointmentSetterSetup />} />
       <Route path="/ai-appointment-setter-cost-small-business" element={<AiAppointmentSetterCostSmallBusiness />} />
+      <Route path="/ai-appointment-setter-roi-small-business" element={<AiAppointmentSetterRoiSmallBusiness />} />
       <Route path="/ai-lead-follow-up-for-service-businesses" element={<AiLeadFollowUpForServiceBusinesses />} />
       <Route path="/ai-lead-follow-up-cost-small-business" element={<AiLeadFollowUpCostSmallBusiness />} />
       <Route path="/ai-automation-consultant-calgary" element={<AiAutomationConsultantCalgary />} />

@@ -14,6 +14,7 @@ import N8nVsZapierSmallBusiness from "./pages/N8nVsZapierSmallBusiness";
 import AiAppointmentSetter from "./pages/AiAppointmentSetter";
 import AiAppointmentSetterSetup from "./pages/AiAppointmentSetterSetup";
 import AiAppointmentSetterCostSmallBusiness from "./pages/AiAppointmentSetterCostSmallBusiness";
+import AiAppointmentSetterRoiSmallBusiness from "./pages/AiAppointmentSetterRoiSmallBusiness";
 import AiLeadFollowUpForServiceBusinesses from "./pages/AiLeadFollowUpForServiceBusinesses";
 import AiLeadFollowUpCostSmallBusiness from "./pages/AiLeadFollowUpCostSmallBusiness";
 import AiAutomationConsultantCalgary from "./pages/AiAutomationConsultantCalgary";
@@ -142,6 +143,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-appointment-setter", element: <AiAppointmentSetter /> },
   { path: "/ai-appointment-setter-setup", element: <AiAppointmentSetterSetup /> },
   { path: "/ai-appointment-setter-cost-small-business", element: <AiAppointmentSetterCostSmallBusiness /> },
+  { path: "/ai-appointment-setter-roi-small-business", element: <AiAppointmentSetterRoiSmallBusiness /> },
   { path: "/ai-lead-follow-up-for-service-businesses", element: <AiLeadFollowUpForServiceBusinesses /> },
   { path: "/ai-lead-follow-up-cost-small-business", element: <AiLeadFollowUpCostSmallBusiness /> },
   { path: "/ai-automation-consultant-calgary", element: <AiAutomationConsultantCalgary /> },

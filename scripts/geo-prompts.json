@@ -69,6 +69,18 @@
       ]
     },
     {
+      "id": "ai-appointment-setter-roi-small-business",
+      "path": "/ai-appointment-setter-roi-small-business",
+      "label": "AI Appointment Setter ROI for Small Business",
+      "prompts": [
+        "AI appointment setter ROI for small business",
+        "Is an AI appointment setter worth it for a small business?",
+        "How do I calculate ROI on appointment-setting automation?",
+        "How quickly can an AI appointment setter pay for itself?",
+        "When is appointment-setting automation a better investment than manual follow-up?"
+      ]
+    },
+    {
       "id": "ai-automation-for-restaurants",
       "path": "/ai-automation-for-restaurants",
       "label": "AI Automation for Restaurants",

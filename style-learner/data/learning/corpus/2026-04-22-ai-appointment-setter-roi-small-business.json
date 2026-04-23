@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-ai-appointment-setter-roi-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Appointment Setter ROI for Small Business\nBody: If your business loses good inquiries because booking happens too slowly, callbacks drift into tomorrow, or after-hours leads sit until someone is free, an AI appointment setter can have very short payback. The ROI is usually not about eliminating every admin task. It comes from recovering bookings that would have gone cold, shortening the gap between inquiry and scheduled next step, and removing repetitive first-response work that keeps piling up on the owner or front desk. The wrong business will overbuy. The right one can justify the build with only a modest lift in booked calls, estimates, or consultations.\nSub: Below: where the ROI usually comes from, how to model it conservatively, what makes payback happen faster, and when a simpler workflow is the better first investment.\n\n### Core sections\n- Where the ROI usually comes from\n- A conservative ROI model\n- What usually makes payback happen faster\n- When the ROI case is strong vs. weak\n- Proof and adjacent proof\n- What small businesses usually get wrong about appointment-setter ROI\n\n### FAQ\nSubhead: Practical questions from business owners trying to decide whether appointment-setting automation is financially worth implementing\n- How do I estimate ROI on an AI appointment setter?\n- How quickly can appointment-setting automation pay for itself?\n- Is this page different from the AI appointment setter cost page?\n- When is a simpler workflow a better move than a full AI appointment setter?\n- What usually kills ROI on appointment-setting automation?\n\n### Final CTA\nHeading: Want to see whether an appointment setter would actually pay back in your business?\nBody: Book a 30-minute call. We will look at your current response speed, booking leak points, after-hours demand, and average appointment value, then estimate whether an appointment-setter workflow has real payback or whether a simpler build should come first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped from a tracked appointment-setter prompt that still contained a distinct economic-decision query: “Is an AI appointment setter worth it for a small business?”"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page separate from the generic appointment-setter guide and the pricing page by focusing on conservative payback logic, recovered bookings, saved admin time, and scope discipline."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used bounded proof only: Paris Café for direct speed-to-response and time-saved evidence, plus the existing appointment-setter cost/setup pages for adjacent implementation economics."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoided fake ROI percentages, fake booking-lift claims, or invented appointment-setter case-study proof. The copy stays practical and deliberately conservative."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T01:03:25.517Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        5,
+        3
+      ],
+      "avgSentenceLength": 19.4,
+      "sentenceLengthRange": [
+        5,
+        42
+      ],
+      "totalWords": 310
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Appointment Setter ROI for Small Business\nBody: If your business loses good inquiries because booking happens too slowly, callbacks drift into tomorrow, or after-hours leads sit until someone is free, an AI appointment setter can have very short payback.",
+      "wordCount": 42,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to see whether an appointment setter would actually pay back in your business?\nBody: Book a 30-minute call. We will look at your current response speed, booking leak points, after-hours demand, and average appointment value, then estimate whether an appointment-setter workflow has real payback or whether a simpler build should come first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "result",
+        "closer"
+      ],
+      "template": "opener | result | result | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 14,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 0.93
+    },
+    "vocabulary": {
+      "distinctWords": 173,
+      "totalWords": 310,
+      "topWords": [
+        [
+          "-",
+          11
+        ],
+        [
+          "roi",
+          9
+        ],
+        [
+          "appointment",
+          7
+        ],
+        [
+          "setter",
+          6
+        ],
+        [
+          "usually",
+          6
+        ],
+        [
+          "ai",
+          5
+        ],
+        [
+          "business",
+          5
+        ],
+        [
+          "from",
+          5
+        ],
+        [
+          "payback",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "whether",
+          4
+        ],
+        [
+          "your",
+          3
+        ],
+        [
+          "can",
+          3
+        ],
+        [
+          "comes",
+          3
+        ],
+        [
+          "how",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

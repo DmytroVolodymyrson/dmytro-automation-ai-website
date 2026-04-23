@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped ai-lead-follow-up-for-insurance-agencies and added it to tracking)
+Last updated: 2026-04-22 (shipped ai-appointment-setter-roi-small-business and added it to tracking)
 
 ## Live GEO Assets
 
@@ -18,6 +18,7 @@ Last updated: 2026-04-22 (shipped ai-lead-follow-up-for-insurance-agencies and a
 | AI Appointment Setter | `/ai-appointment-setter` | Decision page | Live |
 | AI Appointment Setter Setup Help | `/ai-appointment-setter-setup` | Workflow / service page | Live |
 | AI Appointment Setter Cost (SMB) | `/ai-appointment-setter-cost-small-business` | Workflow / pricing decision page | Live |
+| AI Appointment Setter ROI (SMB) | `/ai-appointment-setter-roi-small-business` | Workflow / ROI decision page | Live |
 | AI Voice Agent for Restaurants | `/ai-voice-agent-for-restaurants` | Industry page | Live |
 | AI Automation for Restaurants | `/ai-automation-for-restaurants` | Industry page | Live |
 | Private-Event Inquiry Follow-Up for Restaurants | `/private-event-inquiry-follow-up-for-restaurants` | Restaurant workflow page | Live |
@@ -129,20 +130,20 @@ Last updated: 2026-04-22 (shipped ai-lead-follow-up-for-insurance-agencies and a
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 110**
+**Total decision/comparison/industry pages live: 111**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-The explicit cross-doc backlog stayed effectively exhausted, but one tracked parent-page prompt still survived overlap review and is now live. `/ai-lead-follow-up-for-insurance-agencies` qualified because the insurance parent page and tracking prompts still contained a distinct early-funnel lead-follow-up intent, the existing insurance child set was still quote / renewal / cross-sell rather than first-response speed, and the site already had adjacent proof from lead-follow-up + CRM automation pages without pretending there was an insurance-specific published case study. After this ship, there is no cleaner explicit page candidate left in the current planning set, so the queue returns to an honest fallback/watchlist state.
+The explicit cross-doc backlog is still mostly exhausted, but one tracked prompt inside the appointment-setter cluster still survived overlap review and is now live. `/ai-appointment-setter-roi-small-business` qualified because the cluster already had category, setup, cost, comparison, and home-service coverage, while the tracked cost-page prompt still contained a distinct “is it worth it?” economic decision that was not yet isolated into its own page. The site also already had bounded adjacent proof from the Paris Café voice-agent case study plus the existing appointment-setter cost/setup pages, so the page could stay specific without pretending there was a dedicated published appointment-setter case study. After this ship, the queue returns to an honest watchlist state again.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | appointment setter + voice + e-commerce + property management discovery and internal links | After shipping the insurance lead-follow-up child, the clean planned backlog is exhausted again. Default back to discovery-surface and internal-link improvement on the strongest live clusters unless a truly distinct proof-led page survives review. | **Fallback** |
-| 2 | **Watchlist** | No remaining explicit high-confidence net-new page currently survives reconciliation | avoid cannibalization / thin-content filler | Keep the program honest. Do another cross-doc + tracked-prompt sweep next run, but do not invent a page just to keep the streak going. | **Watchlist** |
-| 3 | **Deferred** | Hold weaker adjacent-intent ideas until direct proof improves | avoid cannibalization / thin content | This keeps the GEO program honest now that the clean planned queue is gone. | **Deferred** |
+| 1 | **Watchlist** | Order-status / return-support child page under the e-commerce support cluster (only if it stays clearly narrower than the existing customer-service page) | e-commerce order-status automation / return-support routing | The e-commerce cluster still has adjacent support prompts strong enough for another narrow child, but only if the page stays tightly bounded to order-status, return, and support-routing workflows instead of rewriting the broader customer-service page. | **Watchlist** |
+| 2 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | appointment setter + voice + e-commerce + property management discovery and internal links | If the e-commerce support child does not survive overlap review next run, default back to discovery-surface and internal-link improvement on the strongest live clusters instead of inventing filler. | **Fallback** |
+| 3 | **Deferred** | Hold weaker adjacent-intent ideas until direct proof improves | avoid cannibalization / thin content | Keep the program honest now that the clean explicit backlog is mostly gone. | **Deferred** |
 
 ### Priority Definitions
 

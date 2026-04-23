@@ -202,6 +202,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Appointment Setter ROI for Small Business",
+    description:
+      "How do you know if an AI appointment setter is actually worth it? Conservative payback math for small businesses — recovered bookings, saved admin time, and when a simpler workflow is the better move.",
+    href: "/ai-appointment-setter-roi-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Appointment Setter vs. Human Receptionist",
     description:
       "Should you replace your receptionist with an AI appointment setter? Compare cost, availability, caller experience, and booking accuracy for service businesses.",
