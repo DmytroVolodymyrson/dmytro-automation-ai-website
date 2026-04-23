@@ -561,6 +561,18 @@
       ]
     },
     {
+      "id": "after-hours-tenant-communication-for-property-management-companies",
+      "path": "/after-hours-tenant-communication-for-property-management-companies",
+      "label": "After-Hours Tenant Communication for Property Management Companies",
+      "prompts": [
+        "After-hours tenant communication for property management companies",
+        "How should a property management company automate after-hours tenant communication and escalation?",
+        "Best way to triage emergency vs routine tenant messages at night for property managers",
+        "Should property managers use AI for overnight tenant communication and on-call routing?",
+        "How do property management teams handle after-hours tenant calls without missing real emergencies?"
+      ]
+    },
+    {
       "id": "ai-automation-ecommerce",
       "path": "/ai-automation-ecommerce",
       "label": "AI Automation for E-Commerce Brands",

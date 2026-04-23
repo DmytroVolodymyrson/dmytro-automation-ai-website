@@ -701,6 +701,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "After-Hours Tenant Communication for Property Management Companies",
+    description:
+      "A narrower property-management after-hours page focused on resident acknowledgement, emergency-vs-routine triage, on-call escalation, and cleaner overnight communication without waking up the whole team for routine noise.",
+    href: "/after-hours-tenant-communication-for-property-management-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for E-Commerce Brands",
     description:
       "AI automation for e-commerce brands. CRM organization, lead follow-up, customer service routing, reactivation campaigns, and repeat-purchase workflows.",

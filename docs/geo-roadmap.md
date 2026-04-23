@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped ecommerce-crm-automation-vs-manual-follow-up after reopening the e-commerce cluster with an explicit tracked prompt about custom automation vs manual follow-up)
+Last updated: 2026-04-22 (shipped after-hours-tenant-communication-for-property-management-companies by isolating the exact overnight escalation query already tracked inside the live tenant-communication cluster)
 
 ## Live GEO Assets
 
@@ -80,6 +80,7 @@ Last updated: 2026-04-22 (shipped ecommerce-crm-automation-vs-manual-follow-up a
 | Showing Coordination Automation for Property Management Companies | `/showing-coordination-automation-for-property-management-companies` | Industry workflow page | Live |
 | Maintenance Request Automation for Property Management Companies | `/maintenance-request-automation-for-property-management-companies` | Industry workflow page | Live |
 | Tenant Communication Automation for Property Management Companies | `/tenant-communication-automation-for-property-management-companies` | Industry communication workflow page | Live |
+| After-Hours Tenant Communication for Property Management Companies | `/after-hours-tenant-communication-for-property-management-companies` | Property-management overnight communication workflow page | Live |
 | AI Automation for E-Commerce Brands | `/ai-automation-ecommerce` | Industry page | Live |
 | AI Automation for Auto Parts E-Commerce | `/ai-automation-for-auto-parts-ecommerce` | Industry page | Live |
 | E-Commerce CRM Automation with AI Follow-Up | `/ecommerce-crm-automation-with-ai-follow-up` | Industry workflow page | Live |
@@ -134,20 +135,20 @@ Last updated: 2026-04-22 (shipped ecommerce-crm-automation-vs-manual-follow-up a
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 115**
+**Total decision/comparison/industry pages live: 116**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-`/ecommerce-crm-automation-vs-manual-follow-up` reopened the backlog because the live e-commerce parent already tracked an explicit decision query about custom automation versus manual follow-up. That made the page commercially real, materially different from the broader CRM workflow guide, and directly supportable by the published WheelsFeels CRM case study. With that child now live, the queue returns to fallback + proof-led watchlist mode rather than pretending there is another equally clean ship waiting.
+Shipping `/after-hours-tenant-communication-for-property-management-companies` used the strongest remaining explicit prompt-adjacent child still left in the backlog: the overnight tenant-communication and escalation query already tracked inside the live property-management communication cluster. With that page now live, there is no equally clean planned-but-unshipped child still surviving review. The queue returns to fallback + proof-led watchlist mode instead of pretending another net-new page is ready on the same confidence level.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | GoHighLevel + appointment setter + e-commerce + property management discovery and internal links | After shipping the explicit custom-vs-manual e-commerce child, default back to discovery-surface and internal-link improvements instead of inventing filler. | **Fallback** |
-| 2 | **Watchlist** | `after-hours-tenant-communication-for-property-management-companies` | after-hours tenant communication and escalation for property managers | The tenant-communication cluster already tracks this exact after-hours escalation intent, but it is still a softer adjacent child that should stay deferred until stronger proof or performance signal makes the distinction cleaner. | **Watchlist** |
-| 3 | **Deferred** | Hold weaker adjacent-intent ideas until direct proof improves | avoid cannibalization / thin content | Keep the program honest when only soft prompt-adjacent ideas remain. | **Deferred** |
+| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | GoHighLevel + appointment setter + e-commerce + property management discovery and internal links | After shipping the strongest remaining property-management watchlist child, default back to discovery-surface and internal-link improvements unless a new proof-backed query becomes explicit. | **Fallback** |
+| 2 | **Watchlist** | Hold softer adjacent-intent ideas until direct proof improves | avoid cannibalization / thin content | Keep the program honest when only weaker prompt-adjacent ideas remain. | **Watchlist** |
+| 3 | **Deferred** | Re-open net-new shipping only when a live cluster gains a clearer exact query or stronger proof | proof-led backlog refresh | Do not invent filler pages once the explicit high-confidence queue is exhausted again. | **Deferred** |
 
 ### Priority Definitions
 
