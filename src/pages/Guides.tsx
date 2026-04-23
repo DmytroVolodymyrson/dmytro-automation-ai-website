@@ -974,6 +974,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "CRM Automation Setup Cost for Contractors",
+    description:
+      "Pricing guide for contractors budgeting CRM setup work: realistic ranges for intake cleanup, estimate follow-up, dispatch handoff, messy-account rebuilds, and when a lighter scope is enough.",
+    href: "/crm-automation-setup-cost-for-contractors",
+    category: "industries",
+  },
+  {
     title: "CRM Automation Setup vs. DIY for Contractors",
     description:
       "Buyer-decision page for contractors deciding whether CRM setup should stay an owner-led project or move to expert implementation before more leads, estimates, and job handoffs leak during rollout.",

@@ -48,6 +48,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - `/contact-form-lead-follow-up-automation`
 - `/contact-form-autoresponder-vs-full-lead-follow-up`
 - `/missed-call-follow-up-automation`
+- `/crm-automation-setup-cost-for-contractors`
 
 ### Geo + industry pages
 - `/ai-automation-consultant-calgary`

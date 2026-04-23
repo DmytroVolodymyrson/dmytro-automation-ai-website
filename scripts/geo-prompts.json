@@ -1228,8 +1228,20 @@
         "CRM automation setup for contractors",
         "What is the best CRM automation setup for a contractor?",
         "What should contractor CRM setup help include?",
-        "How much does contractor CRM setup cost?",
+        "How long does contractor CRM setup usually take?",
         "What contractor workflow should I automate first before building a bigger CRM layer?"
+      ]
+    },
+    {
+      "id": "crm-automation-setup-cost-for-contractors",
+      "path": "/crm-automation-setup-cost-for-contractors",
+      "label": "CRM Automation Setup Cost for Contractors",
+      "prompts": [
+        "CRM automation setup cost for contractors",
+        "How much does contractor CRM setup cost?",
+        "What should a home service contractor budget for CRM automation setup?",
+        "What makes contractor CRM setup expensive?",
+        "Is contractor CRM setup worth the price for a small home service business?"
       ]
     },
     {

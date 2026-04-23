@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped crm-automation-setup-vs-diy-for-contractors by extracting the exact contractor CRM buy-vs-build query from the live contractor setup-help page into its own distinct decision page anchored in the contractor CRM cluster and adjacent CRM proof without pretending there is already a contractor-specific setup case study)
+Last updated: 2026-04-23 (shipped crm-automation-setup-cost-for-contractors by extracting the exact contractor CRM pricing query from the live contractor setup-help page into its own distinct decision page anchored in the contractor CRM cluster and adjacent CRM proof without pretending there is already a contractor-specific pricing case study)
 
 ## Live GEO Assets
 
@@ -65,6 +65,7 @@ Last updated: 2026-04-23 (shipped crm-automation-setup-vs-diy-for-contractors by
 | AI Automation for Electrical Contractors | `/ai-automation-for-electrical-contractors` | Industry page | Live |
 | CRM Automation for Contractors | `/crm-automation-for-contractors` | Industry / CRM systems page | Live |
 | CRM Automation Setup for Contractors | `/crm-automation-setup-for-contractors` | Contractor setup-help page | Live |
+| CRM Automation Setup Cost for Contractors | `/crm-automation-setup-cost-for-contractors` | Contractor pricing decision page | Live |
 | CRM Automation Setup vs. DIY for Contractors | `/crm-automation-setup-vs-diy-for-contractors` | Contractor buy-vs-build decision page | Live |
 | GoHighLevel vs. Custom CRM for Contractors | `/gohighlevel-vs-custom-crm-for-contractors` | Contractor CRM decision page | Live |
 | Estimate Follow-Up Automation for Contractors | `/estimate-follow-up-automation-for-contractors` | Industry workflow page | Live |
@@ -154,14 +155,14 @@ Last updated: 2026-04-23 (shipped crm-automation-setup-vs-diy-for-contractors by
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 135**
+**Total decision/comparison/industry pages live: 136**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/crm-automation-setup-vs-diy-for-contractors` appears to exhaust the last clean, explicit high-confidence page that still survived the current reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, the live route set, and `scripts/geo-prompts.json`. Do not pretend another neat slug is still queued. The next pass should reopen broader planning docs and remaining tracked prompts from scratch, then either identify a truly distinct proof-backed child page or leave the queue in fallback/watchlist mode again.
+Shipping `/crm-automation-setup-cost-for-contractors` confirms there were still a few proof-backed child pages hidden inside tracked prompts even after the neat queue looked exhausted. Do not pretend a clean backlog now exists. The next pass should reopen broader planning docs and remaining tracked prompts from scratch again, then either identify another truly distinct proof-backed child page or leave the queue in fallback/watchlist mode.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
