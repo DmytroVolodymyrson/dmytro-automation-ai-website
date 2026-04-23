@@ -61,6 +61,7 @@ import AiAutomationForLawFirms from "./pages/AiAutomationForLawFirms";
 import AiAutomationForAccountingFirms from "./pages/AiAutomationForAccountingFirms";
 import AiAutomationForPlumbingCompanies from "./pages/AiAutomationForPlumbingCompanies";
 import AiAutomationForElectricalContractors from "./pages/AiAutomationForElectricalContractors";
+import CrmAutomationSetupForContractors from "./pages/CrmAutomationSetupForContractors";
 import ClientOnboardingAutomation from "./pages/ClientOnboardingAutomation";
 import AiAutomationRoiGuide from "./pages/AiAutomationRoiGuide";
 import AiAutomationRoiCalculator from "./pages/AiAutomationRoiCalculator";
@@ -313,6 +314,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-audit-checklist", element: <AiAutomationAuditChecklist /> },
   { path: "/crm-automation-examples-small-business", element: <CrmAutomationExamplesSmallBusiness /> },
   { path: "/crm-automation-for-contractors", element: <CrmAutomationForContractors /> },
+  { path: "/crm-automation-setup-for-contractors", element: <CrmAutomationSetupForContractors /> },
   { path: "/estimate-follow-up-automation-for-contractors", element: <EstimateFollowUpAutomationForContractors /> },
   { path: "/estimate-follow-up-automation-for-roofing-companies", element: <EstimateFollowUpAutomationForRoofingCompanies /> },
   { path: "/dispatch-handoff-automation-for-contractors", element: <DispatchHandoffAutomationForContractors /> },

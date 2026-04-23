@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped ai-voice-agent-setup-vs-diy-small-business by extracting the exact hire-vs-DIY query still tracked under the live /ai-voice-agent-setup-for-lead-qualification cluster into a distinct voice-agent buy-vs-build page anchored in the existing setup, cost, ROI, and manual-callback pages plus adjacent phone-handling and CRM proof)
+Last updated: 2026-04-23 (shipped crm-automation-setup-for-contractors by extracting the exact setup-help query still tracked under the live /crm-automation-for-contractors cluster into a distinct contractor implementation-help page anchored in the existing contractor CRM, GoHighLevel-vs-custom contractor decision, estimate-follow-up, dispatch-handoff, and CRM case-study proof)
 
 ## Live GEO Assets
 
@@ -64,6 +64,7 @@ Last updated: 2026-04-23 (shipped ai-voice-agent-setup-vs-diy-small-business by 
 | AI Automation for Plumbing Companies | `/ai-automation-for-plumbing-companies` | Industry page | Live |
 | AI Automation for Electrical Contractors | `/ai-automation-for-electrical-contractors` | Industry page | Live |
 | CRM Automation for Contractors | `/crm-automation-for-contractors` | Industry / CRM systems page | Live |
+| CRM Automation Setup for Contractors | `/crm-automation-setup-for-contractors` | Contractor setup-help page | Live |
 | GoHighLevel vs. Custom CRM for Contractors | `/gohighlevel-vs-custom-crm-for-contractors` | Contractor CRM decision page | Live |
 | Estimate Follow-Up Automation for Contractors | `/estimate-follow-up-automation-for-contractors` | Industry workflow page | Live |
 | Dispatch Handoff Automation for Contractors | `/dispatch-handoff-automation-for-contractors` | Industry operations page | Live |
@@ -146,19 +147,19 @@ Last updated: 2026-04-23 (shipped ai-voice-agent-setup-vs-diy-small-business by 
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 127**
+**Total decision/comparison/industry pages live: 128**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-voice-agent-setup-vs-diy-small-business` extracted the last clean hire-vs-DIY query still sitting inside the strongest live setup-help clusters. The next pass should reopen broader planning docs for another proof-backed net-new page; if nothing survives fresh reconciliation cleanly, the honest fallback is maintenance on the strongest live voice-agent / appointment-setter / GoHighLevel clusters instead of forcing a thin new page.
+Shipping `/crm-automation-setup-for-contractors` proved there was still one clean setup-help extraction left inside the stronger vertical clusters once the broader queue was reconciled against tracked prompts. The next pass should reopen broader planning docs and remaining tracked prompts for another proof-backed net-new page outside the now-thinner contractor setup cluster; if nothing survives fresh reconciliation cleanly, the honest fallback is maintenance on the strongest live voice-agent / appointment-setter / contractor CRM / GoHighLevel clusters instead of forcing a thin page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Reconcile broader planning docs for the next proof-backed net-new page outside the exhausted setup buy-vs-build cluster | Next distinct buyer-intent page not yet live | The clean setup buy-vs-build extractions are now exhausted across the strongest live voice-agent / appointment-setter / GoHighLevel clusters, so the next ship should come from broader plan reconciliation instead of forcing another thin sibling. | **Recheck next run** |
-| 2 | **Fallback** | Strengthen strongest live voice-agent / appointment-setter / GoHighLevel clusters | Discovery, internal links, and tracked-prompt cleanup | If no broader planned page survives fresh reconciliation cleanly, the safest next move is maintenance on the strongest live workflow clusters instead of pretending another exact child page still exists. | **Watch next** |
+| 1 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts for the next proof-backed net-new page outside the contractor setup-help extraction | Next distinct buyer-intent or workflow page not yet live | The contractor setup-help query was still worth shipping, but that cluster is now thinner. The next net-new ship should come from fresh plan reconciliation across other clusters instead of forcing another near-duplicate contractor child page. | **Recheck next run** |
+| 2 | **Fallback** | Strengthen strongest live voice-agent / appointment-setter / contractor CRM / GoHighLevel clusters | Discovery, internal links, and tracked-prompt cleanup | If no broader planned page survives fresh reconciliation cleanly, the safest next move is maintenance on the strongest workflow clusters instead of pretending another exact child page still exists. | **Watch next** |
 
 ### Priority Definitions
 

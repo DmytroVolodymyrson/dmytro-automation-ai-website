@@ -925,6 +925,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "CRM Automation Setup for Contractors",
+    description:
+      "Implementation-help guide for contractors choosing how to set up pipeline stages, estimate follow-up, dispatch handoff, integrations, and workflow ownership without creating another messy dashboard.",
+    href: "/crm-automation-setup-for-contractors",
+    category: "industries",
+  },
+  {
     title: "GoHighLevel vs. Custom CRM for Contractors",
     description:
       "Contractor-specific CRM decision guide focused on estimate follow-up, dispatch handoff, field context, and when GoHighLevel is enough versus when a custom or hybrid system is the safer fit.",

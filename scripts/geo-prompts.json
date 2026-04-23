@@ -1142,10 +1142,22 @@
       "label": "CRM Automation for Contractors",
       "prompts": [
         "CRM automation for contractors",
-        "What is the best CRM automation setup for a contractor?",
-        "How do contractors automate estimate follow-up?",
         "Best CRM system for a contractor with estimate follow-up and dispatch handoff",
-        "How can a contractor stop losing leads between the office and the field?"
+        "How can a contractor stop losing leads between the office and the field?",
+        "When does a contractor need more than a basic CRM?",
+        "How should a contractor structure pipeline stages before adding automation?"
+      ]
+    },
+    {
+      "id": "crm-automation-setup-for-contractors",
+      "path": "/crm-automation-setup-for-contractors",
+      "label": "CRM Automation Setup for Contractors",
+      "prompts": [
+        "CRM automation setup for contractors",
+        "What is the best CRM automation setup for a contractor?",
+        "What should contractor CRM setup help include?",
+        "How much does contractor CRM setup cost?",
+        "Should a contractor set up CRM automation alone or get expert help?"
       ]
     },
     {
