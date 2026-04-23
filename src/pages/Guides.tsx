@@ -918,6 +918,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Appointment Scheduling and Reminder Automation for Auto Repair Shops",
+    description:
+      "Appointment scheduling and reminder automation for auto repair shops. Booking confirmations, reminder timing, reschedule routing, advisor handoff, and fewer missed appointments.",
+    href: "/appointment-scheduling-and-reminder-automation-for-auto-repair-shops",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Landscaping Companies",
     description:
       "AI automation for landscaping companies. Lead follow-up, estimate follow-up, seasonal upsell campaigns, recurring service management, and review automation.",

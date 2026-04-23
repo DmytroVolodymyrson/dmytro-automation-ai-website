@@ -1094,10 +1094,10 @@
       "label": "AI Automation for Auto Repair Shops",
       "prompts": [
         "AI automation for auto repair shops",
-        "How can AI help my auto repair shop with appointments?",
+        "What should an auto repair shop automate first?",
         "Best AI tools for auto repair customer follow-up",
-        "How do auto repair shops reduce no-shows and missed appointments?",
-        "AI appointment scheduling for mechanic shop"
+        "How do missed calls, reminders, estimate follow-up, and maintenance campaigns fit together in an auto repair shop?",
+        "What auto repair shop workflows are actually worth automating?"
       ]
     },
     {
@@ -1122,6 +1122,18 @@
         "Best way to recover open repair quotes at a mechanic shop",
         "Mechanic shop estimate reminder workflow",
         "How do I stop losing repair jobs after sending the estimate?"
+      ]
+    },
+    {
+      "id": "appointment-scheduling-and-reminder-automation-for-auto-repair-shops",
+      "path": "/appointment-scheduling-and-reminder-automation-for-auto-repair-shops",
+      "label": "Appointment Scheduling and Reminder Automation for Auto Repair Shops",
+      "prompts": [
+        "Appointment scheduling and reminder automation for auto repair shops",
+        "AI appointment scheduling for mechanic shop",
+        "How do auto repair shops reduce no-shows and missed appointments?",
+        "Best way to automate service appointment reminders for an auto repair shop",
+        "Mechanic shop appointment confirmation and reschedule workflow"
       ]
     },
     {
