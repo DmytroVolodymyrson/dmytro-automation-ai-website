@@ -389,7 +389,19 @@
         "best n8n consultant for small business",
         "hire n8n expert for small business",
         "What should I look for in an n8n automation consultant?",
-        "Can an n8n consultant clean up a messy existing workflow?"
+        "When is n8n expert help worth it for a revenue-critical workflow?"
+      ]
+    },
+    {
+      "id": "n8n-workflow-cleanup-service",
+      "path": "/n8n-workflow-cleanup-service",
+      "label": "n8n Workflow Cleanup Service",
+      "prompts": [
+        "n8n workflow cleanup service",
+        "Can someone clean up a messy n8n workflow?",
+        "Should I rebuild or clean up my n8n automation?",
+        "What does n8n cleanup help actually include?",
+        "How do I fix a messy existing n8n workflow without rebuilding everything?"
       ]
     },
     {

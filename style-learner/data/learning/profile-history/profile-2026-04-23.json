@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-23T11:52:15.978Z",
-  "postCount": 152,
+  "updatedAt": "2026-04-23T12:14:55.017Z",
+  "postCount": 153,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -9,31 +9,31 @@
   },
   "structure": {
     "paragraphCount": {
-      "mean": 4.6,
+      "mean": 4.5,
       "median": 4,
       "min": 1,
       "max": 11,
       "p25": 4,
       "p75": 4,
-      "samples": 152
+      "samples": 153
     },
     "sentenceLength": {
-      "mean": 19.7,
-      "median": 18.85,
+      "mean": 19.8,
+      "median": 18.9,
       "min": 7.1,
       "max": 105,
       "p25": 16,
-      "p75": 22.1,
-      "samples": 152
+      "p75": 22.4,
+      "samples": 153
     },
     "totalWords": {
-      "mean": 262.2,
-      "median": 246.5,
+      "mean": 263.1,
+      "median": 247,
       "min": 17,
       "max": 1155,
       "p25": 178,
-      "p75": 306,
-      "samples": 152
+      "p75": 307,
+      "samples": 153
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -70,7 +70,7 @@
       "single | single | long | single | short | short": 2,
       "single | single | long | short | long | single": 1,
       "long | long | long | long": 8,
-      "long | long | single | long": 30,
+      "long | long | single | long": 31,
       "single | long | long": 1,
       "long | short | long | long": 9,
       "long | single | long | long": 12,
@@ -98,7 +98,7 @@
       "opener | context | context | context | result | product-pitch | context | context | closer": 1,
       "opener | context | product-pitch | closer": 8,
       "opener | context | context | closer": 64,
-      "opener | product-pitch | context | closer": 14,
+      "opener | product-pitch | context | closer": 15,
       "opener | context | product-pitch | context | product-pitch | result | context | closer": 1,
       "opener | product-pitch | product-pitch | closer": 8,
       "opener | context | product-pitch | context | product-pitch | product-pitch | product-pitch | product-pitch | closer": 1,
@@ -135,7 +135,7 @@
         ]
       },
       "standard-opener": {
-        "count": 91,
+        "count": 92,
         "examples": [
           "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an autom",
           "Section heading: Real Results for Real Businesses\nSubheading: Here's what happen",
@@ -169,7 +169,7 @@
         ]
       },
       "question": {
-        "count": 106,
+        "count": 107,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -202,7 +202,7 @@
     "topWords": [
       [
         "-",
-        1002
+        1007
       ],
       [
         "automation",
@@ -226,11 +226,15 @@
       ],
       [
         "it",
-        166
+        169
       ],
       [
         "lead",
         145
+      ],
+      [
+        "workflow",
+        139
       ],
       [
         "how",
@@ -241,11 +245,11 @@
         132
       ],
       [
-        "workflow",
-        127
+        "not",
+        125
       ],
       [
-        "not",
+        "whether",
         122
       ],
       [
@@ -253,16 +257,12 @@
         119
       ],
       [
-        "whether",
-        116
+        "that",
+        114
       ],
       [
         "when",
         113
-      ],
-      [
-        "that",
-        111
       ],
       [
         "setup",
@@ -270,19 +270,19 @@
       ],
       [
         "page",
-        107
+        111
       ],
       [
         "crm",
         106
       ],
       [
-        "body",
-        103
+        "with",
+        105
       ],
       [
-        "with",
-        102
+        "body",
+        103
       ],
       [
         "voice",
@@ -313,12 +313,12 @@
         74
       ],
       [
-        "small",
-        69
+        "n8n",
+        72
       ],
       [
-        "consultant",
-        67
+        "small",
+        69
       ]
     ],
     "casualMarkerRate": 0,

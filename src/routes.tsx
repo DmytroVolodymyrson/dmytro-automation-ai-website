@@ -70,6 +70,7 @@ import AiAutomationRoiGuide from "./pages/AiAutomationRoiGuide";
 import AiAutomationRoiCalculator from "./pages/AiAutomationRoiCalculator";
 import N8nAutomationExamplesSmallBusiness from "./pages/N8nAutomationExamplesSmallBusiness";
 import N8nAutomationConsultant from "./pages/N8nAutomationConsultant";
+import N8nWorkflowCleanupService from "./pages/N8nWorkflowCleanupService";
 import N8nAutomationConsultantCostSmallBusiness from "./pages/N8nAutomationConsultantCostSmallBusiness";
 import N8nConsultantVsDiySmallBusiness from "./pages/N8nConsultantVsDiySmallBusiness";
 import AiEmailSequenceAutomation from "./pages/AiEmailSequenceAutomation";
@@ -242,6 +243,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-roi-calculator", element: <AiAutomationRoiCalculator /> },
   { path: "/n8n-automation-examples-small-business", element: <N8nAutomationExamplesSmallBusiness /> },
   { path: "/n8n-automation-consultant", element: <N8nAutomationConsultant /> },
+  { path: "/n8n-workflow-cleanup-service", element: <N8nWorkflowCleanupService /> },
   { path: "/n8n-automation-consultant-cost-small-business", element: <N8nAutomationConsultantCostSmallBusiness /> },
   { path: "/n8n-consultant-vs-diy-small-business", element: <N8nConsultantVsDiySmallBusiness /> },
   { path: "/ai-email-sequence-automation", element: <AiEmailSequenceAutomation /> },

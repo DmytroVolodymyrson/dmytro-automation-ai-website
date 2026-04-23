@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped gohighlevel-account-cleanup-service by extracting the exact messy-account cleanup query from the live GoHighLevel setup cluster into its own recovery-stage decision page grounded in the existing GHL pages plus adjacent CRM and inquiry-routing proof without pretending there is a dedicated GoHighLevel cleanup case study)
+Last updated: 2026-04-23 (shipped n8n-workflow-cleanup-service by extracting the exact messy-workflow cleanup query from the live n8n consultant cluster into its own recovery-stage decision page grounded in the existing n8n pages plus adjacent Instagram lead-gen and CRM workflow proof without pretending there is a dedicated standalone n8n cleanup case study)
 
 ## Live GEO Assets
 
@@ -96,6 +96,7 @@ Last updated: 2026-04-23 (shipped gohighlevel-account-cleanup-service by extract
 | E-Commerce CRM Automation vs. Manual Follow-Up | `/ecommerce-crm-automation-vs-manual-follow-up` | Industry decision page | Live |
 | n8n Automation Consultant for Small Business | `/n8n-automation-consultant` | Decision / service page | Live |
 | n8n Automation Consultant Cost for Small Business | `/n8n-automation-consultant-cost-small-business` | n8n pricing decision page | Live |
+| n8n Workflow Cleanup Service | `/n8n-workflow-cleanup-service` | n8n recovery-stage cleanup page | Live |
 | n8n Consultant vs. DIY for Small Business | `/n8n-consultant-vs-diy-small-business` | n8n buy-vs-build decision page | Live |
 | Fitment Inquiry Automation for Auto Parts E-Commerce | `/fitment-inquiry-automation-for-auto-parts-ecommerce` | Industry workflow page | Live |
 | Customer Inquiry Automation for Auto Parts E-Commerce | `/customer-inquiry-automation-for-auto-parts-ecommerce` | Auto-parts inquiry-routing workflow page | Live |
@@ -156,19 +157,20 @@ Last updated: 2026-04-23 (shipped gohighlevel-account-cleanup-service by extract
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 137**
+**Total decision/comparison/industry pages live: 138**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/gohighlevel-account-cleanup-service` confirms there were still exact failure-state / cleanup queries hidden inside tracked prompts even after the neat queue looked exhausted. Do not pretend a clean backlog now exists. The next pass should reopen broader planning docs and remaining tracked prompts from scratch again, then either identify another truly distinct proof-backed child page or leave the queue in fallback/watchlist mode.
+Shipping `/n8n-workflow-cleanup-service` confirms there were still exact recovery-stage queries hidden inside tracked prompts even after the roadmap had already fallen back to generic reconciliation. The next pass should still reopen broader planning docs and remaining tracked prompts from scratch, but the strongest visible next candidate now looks like a restaurant after-hours decision page extracted from the existing phone-answering cluster rather than another maintenance-only run.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts for the next proof-backed net-new page | Next distinct buyer-intent or workflow page not yet live | The clean queued slug is now shipped, so the next run needs another full reconciliation instead of stale watchlist reuse. | **Recheck next run** |
-| 2 | **Watchlist** | Improve discovery/internal-link coverage on the strongest live clusters only if reconciliation finds no distinct net-new page | Support already-live contractor, property-management, insurance, e-commerce, and auto-repair clusters without filler | Use this only if a real net-new page does not survive the next cross-doc + tracked-prompt review. | **Fallback only** |
+| 1 | **P1** | `/after-hours-ai-phone-answering-vs-voicemail-for-restaurants` | When should a restaurant use live AI phone answering instead of voicemail after hours? | The exact buyer-decision query still lives inside the restaurant after-hours phone-answering prompts, has direct Paris Cafe proof adjacency, and stays distinct from both the generic AI-voice-agent-vs-voicemail page and the broader restaurant phone-answering workflow page. | **Candidate for next run** |
+| 2 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts again if the restaurant after-hours comparison does not survive overlap review | Next distinct buyer-intent or workflow page not yet live | The neat backlog is still largely exhausted, so every run should keep validating proof-backed distinct intent instead of pretending there is a long clean queue. | **Recheck if #1 fails** |
+| 3 | **Watchlist** | Improve discovery/internal-link coverage on the strongest live clusters only if reconciliation finds no distinct net-new page | Support already-live contractor, property-management, insurance, e-commerce, auto-repair, and n8n clusters without filler | Use this only if a real net-new page does not survive the next cross-doc + tracked-prompt review. | **Fallback only** |
 
 ### Priority Definitions
 

@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-n8n-workflow-cleanup-service",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: n8n Workflow Cleanup Service\nBody: If your n8n instance technically runs but nobody fully trusts it, cleanup usually matters more than adding another workflow. The real problem is not ugly node layouts. It is broken credentials, duplicate branches, unclear naming, missing error handling, messy CRM writes, and automations that keep firing after the business process has already changed. A good n8n cleanup project stabilizes the workflow that matters most, removes fragile logic, and leaves you with something your team can trust again.\nSub: Below: what n8n cleanup actually includes, when a bounded rescue is smarter than a full rebuild, when you should stop forcing a messy workflow stack, and how to tell whether expert cleanup help is worth paying for.\n\n### Core sections\n- Frames the page as a recovery-stage workflow decision for businesses with an existing messy n8n automation, not as another broad consultant explainer or a generic n8n tutorial.\n- Defines cleanup as workflow auditing, duplicate-branch removal, auth/webhook repair, data-mapping fixes, and adding the reliability layer that should have existed before the workflow went live.\n- Compares the three real owner choices: bounded cleanup, full rebuild, or continuing to patch a workflow the team no longer trusts.\n- Uses disciplined good-fit / bad-fit framing so the page does not push cleanup help where first-time setup, tool selection, or a tiny simple automation is the real need.\n- Grounds the page in the existing n8n consultant cluster plus direct and adjacent proof from the Instagram lead-generation and e-commerce CRM case studies without inventing a dedicated n8n cleanup case study.\n\n### FAQ\nSubhead: Practical questions from owners deciding whether a messy n8n workflow should be cleaned up, rebuilt, or replaced with a cleaner implementation\nTopics: whether a messy existing n8n workflow can be cleaned up instead of rebuilt, what cleanup help includes, how to know cleanup should come before new automation, when cleanup is enough versus a rebuild, and how this page differs from the broader n8n consultant, cost, and DIY guides.\n\n### Final CTA\nHeading: Need a second opinion on whether this n8n workflow is worth cleaning up?\nBody: Book a 30-minute call. We will look at what the workflow is supposed to do, where trust is breaking, whether a bounded cleanup can stabilize it, and whether the smarter move is cleanup, rebuild, or narrowing the scope entirely.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because `scripts/geo-prompts.json` still contained the exact messy-workflow cleanup buyer query under the live n8n consultant cluster even after the neat roadmap queue had fallen back to maintenance/reconciliation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps a disciplined distinction from `/n8n-automation-consultant`, `/n8n-automation-consultant-cost-small-business`, and `/n8n-consultant-vs-diy-small-business` by staying tightly on recovery-stage cleanup decisions rather than repeating hiring, pricing, or generic buy-vs-build advice."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: no fake standalone n8n cleanup case study, only published n8n and CRM workflow proof already on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical, commercially specific, and non-hype with explicit guidance on when the right move may be rebuilding the workflow instead of paying for more cleanup."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T12:14:54.978Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        5,
+        1,
+        3
+      ],
+      "avgSentenceLength": 27.6,
+      "sentenceLengthRange": [
+        5,
+        71
+      ],
+      "totalWords": 387
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: n8n Workflow Cleanup Service\nBody: If your n8n instance technically runs but nobody fully trusts it, cleanup usually matters more than adding another workflow.",
+      "wordCount": 26,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a second opinion on whether this n8n workflow is worth cleaning up?\nBody: Book a 30-minute call. We will look at what the workflow is supposed to do, where trust is breaking, whether a bounded cleanup can stabilize it, and whether the smarter move is cleanup, rebuild, or narrowing the scope entirely.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 13,
+      "commas": 33,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 2.36
+    },
+    "vocabulary": {
+      "distinctWords": 216,
+      "totalWords": 387,
+      "topWords": [
+        [
+          "cleanup",
+          14
+        ],
+        [
+          "n8n",
+          12
+        ],
+        [
+          "workflow",
+          12
+        ],
+        [
+          "whether",
+          6
+        ],
+        [
+          "messy",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "rebuild",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "real",
+          3
+        ],
+        [
+          "not",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "with",
+          3
+        ],
+        [
+          "can",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

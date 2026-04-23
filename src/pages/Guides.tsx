@@ -399,6 +399,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "n8n Workflow Cleanup Service",
+    description:
+      "Need help rescuing messy n8n automations? Practical guide to workflow audits, branch cleanup, credential repair, rebuild-vs-cleanup decisions, and when expert n8n rescue help is worth paying for.",
+    href: "/n8n-workflow-cleanup-service",
+    category: "workflows",
+  },
+  {
     title: "n8n Consultant vs. DIY for Small Business",
     description:
       "Should you keep building in n8n yourself or hire expert help? Practical comparison of owner time, workflow risk, self-hosting overhead, and when a bounded consultant build is the cheaper move.",
