@@ -1009,6 +1009,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering vs. Voicemail for Auto Repair Shops",
+    description:
+      "Should a repair shop keep relying on voicemail and callbacks or answer calls live with AI? Auto-repair buyer guide focused on callback lag, advisor workload, after-hours demand, and when text-back is the better middle step.",
+    href: "/ai-phone-answering-vs-voicemail-for-auto-repair-shops",
+    category: "comparisons",
+  },
+  {
     title: "AI Automation for Landscaping Companies",
     description:
       "AI automation for landscaping companies. Lead follow-up, estimate follow-up, seasonal upsell campaigns, recurring service management, and review automation.",

@@ -1275,9 +1275,21 @@
       "prompts": [
         "AI phone answering for auto repair shops",
         "Best way for a mechanic shop to stop losing calls when the service advisor is tied up",
-        "Should an auto repair shop use live AI phone answering instead of voicemail or callbacks?",
+        "How should an auto repair shop handle routine service calls when the advisor is tied up?",
         "Can AI answer routine service calls for an auto repair shop after hours?",
         "When is live AI phone answering better than missed-call text-back for a repair shop?"
+      ]
+    },
+    {
+      "id": "ai-phone-answering-vs-voicemail-for-auto-repair-shops",
+      "path": "/ai-phone-answering-vs-voicemail-for-auto-repair-shops",
+      "label": "AI Phone Answering vs. Voicemail for Auto Repair Shops",
+      "prompts": [
+        "AI phone answering vs voicemail for auto repair shops",
+        "Should an auto repair shop use live AI phone answering instead of voicemail or callbacks?",
+        "Is voicemail enough for an auto repair shop when the service advisor cannot answer live?",
+        "When should a repair shop replace voicemail with live AI phone answering?",
+        "What is better for an auto repair shop live AI phone answering or voicemail and callbacks?"
       ]
     },
     {

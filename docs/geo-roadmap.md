@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped emergency-vs-routine-maintenance-intake-for-property-management-companies because the exact tracked query still survived inside the property-management maintenance cluster, and it could still be kept distinct from the broader maintenance-request page plus the just-live after-hours maintenance triage page by framing it strictly as the buyer decision about what deserves immediate escalation versus a next-day queue)
+Last updated: 2026-04-23 (shipped ai-phone-answering-vs-voicemail-for-auto-repair-shops because the exact tracked query still survived inside the live auto-repair phone-answering page, and it could still be kept distinct from both the broader live-answering page and the missed-call-text-back-vs-AI-phone-answering comparison by framing it strictly as the buyer decision about whether voicemail/manual callback is still enough or whether the shop now needs live AI call coverage)
 
 ## Live GEO Assets
 
@@ -149,6 +149,7 @@ Last updated: 2026-04-23 (shipped emergency-vs-routine-maintenance-intake-for-pr
 || Missed Call Text-Back for Auto Repair Shops | `/missed-call-text-back-for-auto-repair-shops` | Auto-repair phone-recovery workflow page | Live |
 || Missed Call Text-Back vs. AI Phone Answering for Auto Repair Shops | `/missed-call-text-back-vs-ai-phone-answering-for-auto-repair-shops` | Auto-repair phone-recovery decision page | Live |
 || AI Phone Answering for Auto Repair Shops | `/ai-phone-answering-for-auto-repair-shops` | Auto-repair live-phone-coverage workflow page | Live |
+|| AI Phone Answering vs. Voicemail for Auto Repair Shops | `/ai-phone-answering-vs-voicemail-for-auto-repair-shops` | Auto-repair phone-fallback decision page | Live |
 || AI Automation for Landscaping Companies | `/ai-automation-for-landscaping-companies` | Industry page | Live |
 || AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
 || AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
@@ -165,14 +166,14 @@ Last updated: 2026-04-23 (shipped emergency-vs-routine-maintenance-intake-for-pr
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 145**
+**Total decision/comparison/industry pages live: 146**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/emergency-vs-routine-maintenance-intake-for-property-management-companies` appears to use the last explicit high-confidence planned child page that still survived reconciliation across the roadmap, broader planning docs, live routes, and tracked prompt set. The exact maintenance-intake decision query is now extracted into its own page and removed from the broader maintenance-request prompt set, so the next pass should stop pretending there is another clean backlog page if there is not.
+Shipping `/ai-phone-answering-vs-voicemail-for-auto-repair-shops` extracted another exact tracked buyer query from an already-live parent page without rehashing the same auto-repair phone cluster. The specific voicemail-vs-live-answering decision is now isolated into its own page and removed from the broader auto-repair phone-answering prompt set. The next pass should still start with a broad reconciliation instead of assuming another clean backlog page exists.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|

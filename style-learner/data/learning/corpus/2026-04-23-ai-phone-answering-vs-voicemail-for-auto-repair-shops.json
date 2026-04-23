@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-ai-phone-answering-vs-voicemail-for-auto-repair-shops",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: AI Phone Answering vs. Voicemail for Auto Repair Shops\nBody: If your shop keeps sending callers to voicemail, the real question is not whether AI sounds modern. It is whether delayed callbacks are quietly costing you booked work. In auto repair, callers often want an answer now: Can you look at the car today? Is the vehicle drivable? When can I drop it off? Do I need to speak to someone before I commit? AI phone answering changes that first moment by giving the caller a live path instead of a beep and a callback promise. Voicemail can still be fine when call volume is light and callback discipline is strong. But when the advisor is overloaded, the bays are loud, or after-hours demand matters, voicemail is usually not a neutral fallback. It is a delay that gives the caller time to try the next shop.\nSub: Below: when live AI phone answering is worth it for a repair shop, when voicemail is still acceptable, where missed-call text-back is the smarter middle step, and what the existing auto-repair plus phone-coverage proof honestly supports.\n\n### Core sections\n- Extracts the exact tracked buyer query from the live auto-repair phone-answering page into its own narrower decision page instead of leaving the voicemail-vs-live-answering choice buried inside a broader workflow guide.\n- Keeps the frame tightly on repair-shop realities: advisor overload, callback lag, after-hours demand, simple booking and intake calls, and the point where voicemail stops being a harmless default.\n- Uses the already-live auto-repair cluster, the generic AI phone-answering page, and the Paris Cafe case study as adjacent proof without pretending there is already a published auto-repair-specific voicemail comparison case study.\n- Preserves clear separation from the existing missed-call-text-back-vs-AI-phone-answering page by focusing on voicemail/manual callback versus live AI answering, while still naming text-back as the practical middle step.\n\n### FAQ\nSubhead: Straight answers for repair-shop owners deciding whether voicemail is still good enough\nTopics: how this differs from the generic voice-agent-vs-voicemail page, when a repair shop should move from voicemail to live AI answering, when text-back is still the smarter first step, what a focused live-answering build typically costs, and how it fits current phone or shop systems.\n\n### Final CTA\nHeading: Need a clearer answer than \"just let it go to voicemail\"?\nBody: Book a 30-minute call. We will look at your call pattern, callback discipline, after-hours demand, and whether your shop needs live AI phone answering, a lighter text-back workflow, or no new phone layer at all.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because `scripts/geo-prompts.json` still contained the exact buyer query \"Should an auto repair shop use live AI phone answering instead of voicemail or callbacks?\" under the live `/ai-phone-answering-for-auto-repair-shops` page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The new page stays materially distinct from `/ai-phone-answering-for-auto-repair-shops` and `/missed-call-text-back-vs-ai-phone-answering-for-auto-repair-shops` by isolating the lighter fallback decision itself: keep relying on voicemail/manual callback, move to live AI answering, or stop at text-back first."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: existing auto-repair workflow pages plus the generic AI phone-answering guide and the Paris Cafe call-handling case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype with explicit guidance on when voicemail is still fine, when callback discipline is enough, and when a heavier live-answering layer is actually worth paying for."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T17:13:48.919Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        12,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 20.8,
+      "sentenceLengthRange": [
+        4,
+        59
+      ],
+      "totalWords": 415
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: AI Phone Answering vs.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a clearer answer than \"just let it go to voicemail\"?\nBody: Book a 30-minute call. We will look at your call pattern, callback discipline, after-hours demand, and whether your shop needs live AI phone answering, a lighter text-back workflow, or no new phone layer at all.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 15,
+      "commas": 24,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 5,
+      "colon": 10,
+      "commasPerSentence": 1.2
+    },
+    "vocabulary": {
+      "distinctWords": 226,
+      "totalWords": 415,
+      "topWords": [
+        [
+          "voicemail",
+          10
+        ],
+        [
+          "ai",
+          8
+        ],
+        [
+          "when",
+          7
+        ],
+        [
+          "phone",
+          6
+        ],
+        [
+          "answering",
+          6
+        ],
+        [
+          "shop",
+          6
+        ],
+        [
+          "it",
+          6
+        ],
+        [
+          "live",
+          6
+        ],
+        [
+          "callback",
+          5
+        ],
+        [
+          "still",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "repair",
+          4
+        ],
+        [
+          "whether",
+          4
+        ],
+        [
+          "text-back",
+          4
+        ],
+        [
+          "-",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
