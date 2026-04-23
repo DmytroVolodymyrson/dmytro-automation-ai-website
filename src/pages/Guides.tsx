@@ -455,6 +455,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "n8n Workflow Audit Checklist",
+    description:
+      "What should you inspect in a messy n8n workflow before you pay for cleanup? Practical checklist for branch truth, broken credentials, downstream data quality, ownership gaps, and whether cleanup, rebuild, or a narrower workflow scope is the smarter next step.",
+    href: "/n8n-workflow-audit-checklist",
+    category: "workflows",
+  },
+  {
     title: "n8n Consultant vs. DIY for Small Business",
     description:
       "Should you keep building in n8n yourself or hire expert help? Practical comparison of owner time, workflow risk, self-hosting overhead, and when a bounded consultant build is the cheaper move.",

@@ -78,6 +78,7 @@ import N8nAutomationConsultant from "./pages/N8nAutomationConsultant";
 import HowToHireN8nAutomationConsultant from "./pages/HowToHireN8nAutomationConsultant";
 import N8nWorkflowCleanupService from "./pages/N8nWorkflowCleanupService";
 import N8nWorkflowCleanupVsRebuild from "./pages/N8nWorkflowCleanupVsRebuild";
+import N8nWorkflowAuditChecklist from "./pages/N8nWorkflowAuditChecklist";
 import N8nAutomationConsultantCostSmallBusiness from "./pages/N8nAutomationConsultantCostSmallBusiness";
 import N8nConsultantVsDiySmallBusiness from "./pages/N8nConsultantVsDiySmallBusiness";
 import AiEmailSequenceAutomation from "./pages/AiEmailSequenceAutomation";
@@ -268,6 +269,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/how-to-hire-n8n-automation-consultant", element: <HowToHireN8nAutomationConsultant /> },
   { path: "/n8n-workflow-cleanup-service", element: <N8nWorkflowCleanupService /> },
   { path: "/n8n-workflow-cleanup-vs-rebuild", element: <N8nWorkflowCleanupVsRebuild /> },
+  { path: "/n8n-workflow-audit-checklist", element: <N8nWorkflowAuditChecklist /> },
   { path: "/n8n-automation-consultant-cost-small-business", element: <N8nAutomationConsultantCostSmallBusiness /> },
   { path: "/n8n-consultant-vs-diy-small-business", element: <N8nConsultantVsDiySmallBusiness /> },
   { path: "/ai-email-sequence-automation", element: <AiEmailSequenceAutomation /> },

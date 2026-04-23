@@ -453,6 +453,18 @@
       ]
     },
     {
+      "id": "n8n-workflow-audit-checklist",
+      "path": "/n8n-workflow-audit-checklist",
+      "label": "n8n Workflow Audit Checklist",
+      "prompts": [
+        "How do I audit a messy n8n workflow before paying for cleanup?",
+        "n8n workflow audit checklist",
+        "What should I check in a messy n8n workflow before I pay for cleanup?",
+        "How do I know if my n8n workflow needs cleanup or a rebuild?",
+        "What should an n8n workflow audit look at first?"
+      ]
+    },
+    {
       "id": "n8n-automation-consultant-cost-small-business",
       "path": "/n8n-automation-consultant-cost-small-business",
       "label": "n8n Automation Consultant Cost for Small Business",

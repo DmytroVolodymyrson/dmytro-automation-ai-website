@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped ai-voice-agent-launch-checklist-small-business because the live voice-agent setup cluster still contained the exact pre-launch go-live queries "What should an AI voice agent include before it goes live?" and "What should I test before launching an AI voice agent?". That made a distinct, proof-backed child page possible beside the existing setup-help, setup-mistakes, DIY, cost, ROI, and manual-callback pages by framing it strictly as release-readiness and launch verification rather than broader implementation scope or failure analysis.)
+Last updated: 2026-04-23 (shipped n8n-workflow-audit-checklist because the live n8n recovery cluster still supported a distinct pre-purchase diagnostic page between cleanup service and cleanup-vs-rebuild. The new page stays tightly on what to inspect before paying for rescue work — branch truth, downstream data quality, credential drift, and workflow ownership — instead of rehashing the broader service explainer or the cleanup-vs-rebuild buyer decision.)
 
 ## Live GEO Assets
 
@@ -106,6 +106,7 @@ Last updated: 2026-04-23 (shipped ai-voice-agent-launch-checklist-small-business
 | n8n Automation Consultant Cost for Small Business | `/n8n-automation-consultant-cost-small-business` | n8n pricing decision page | Live |
 | n8n Workflow Cleanup Service | `/n8n-workflow-cleanup-service` | n8n recovery-stage cleanup page | Live |
 | n8n Workflow Cleanup vs. Rebuild | `/n8n-workflow-cleanup-vs-rebuild` | n8n recovery decision page | Live |
+| n8n Workflow Audit Checklist | `/n8n-workflow-audit-checklist` | n8n recovery-stage audit page | Live |
 | n8n Consultant vs. DIY for Small Business | `/n8n-consultant-vs-diy-small-business` | n8n buy-vs-build decision page | Live |
 | Fitment Inquiry Automation for Auto Parts E-Commerce | `/fitment-inquiry-automation-for-auto-parts-ecommerce` | Industry workflow page | Live |
 | Customer Inquiry Automation for Auto Parts E-Commerce | `/customer-inquiry-automation-for-auto-parts-ecommerce` | Auto-parts inquiry-routing workflow page | Live |
@@ -171,18 +172,18 @@ Last updated: 2026-04-23 (shipped ai-voice-agent-launch-checklist-small-business
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 151**
+**Total decision/comparison/industry pages live: 152**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-voice-agent-launch-checklist-small-business` extracted the remaining exact pre-launch go-live readiness queries from the live voice-agent setup page without rehashing setup-help, setup-mistakes, cost, ROI, DIY, or manual-callback intent. Broad backlog reconciliation still looks close to exhausted, so the next pass should start broad again instead of assuming another clean page survives automatically.
+Shipping `/n8n-workflow-audit-checklist` cleaned up the live n8n recovery cluster by isolating the pre-purchase diagnostic layer that sits before both cleanup-service scope and cleanup-vs-rebuild choice. Broad backlog reconciliation still looks close to exhausted, so the next pass should start broad again instead of assuming another clean page survives automatically.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Broad backlog reconciliation for one more net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | After extracting the voice-agent launch-checklist child, the neat queue is no longer trustworthy enough to force another exact-page assumption. | **Do this first next run** |
+| 1 | **Fallback** | Broad backlog reconciliation for one more net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | After extracting the n8n audit-checklist child, the neat queue is no longer trustworthy enough to force another exact-page assumption. | **Do this first next run** |
 | 2 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, n8n, and voice-agent clusters without filler | Use this if the next reconciliation still finds no clean proof-backed net-new page that is meaningfully distinct. | **Fallback if no better exact query survives** |
 | 3 | **Watchlist** | Keep the voice-agent setup cluster clean | Preserve the separation between setup help, setup-mistakes, launch-checklist, DIY, cost, ROI, and manual-callback pages | Avoid leaving the exact go-live checklist queries duplicated under the broader setup-help entry again. | **Done for now; monitor drift only** |
 

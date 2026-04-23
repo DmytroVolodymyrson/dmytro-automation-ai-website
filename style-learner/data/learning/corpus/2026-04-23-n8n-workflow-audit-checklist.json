@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-n8n-workflow-audit-checklist",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: n8n Workflow Audit Checklist\nBody: If your n8n workflow feels messy, do not pay for cleanup blindly. Audit the workflow first. The job is to answer three practical questions quickly: what is actually broken, whether the core workflow is still worth saving, and whether the smartest next move is bounded cleanup, a rebuild, or a smaller workflow scope entirely.\nSub: Below: what to inspect before you pay for cleanup, which red flags usually point to cleanup, which ones usually point to rebuild, and how this page stays distinct from the broader n8n cleanup-service and cleanup-vs-rebuild guides already live on the site.\n\n### Core sections\n- What to audit first in a messy n8n workflow\n- What the audit usually points to\n- When this checklist is useful — and when it is not\n- The five red flags that should change your decision quickly\n- How this page stays distinct from the other n8n recovery pages\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions from owners trying to diagnose a messy n8n workflow before paying for more implementation work\n- How do I audit a messy n8n workflow before paying for cleanup?\n- What should I check first in an n8n workflow audit?\n- How do I know if n8n cleanup is enough or if I need a rebuild?\n- Can an audit show that I should narrow the workflow scope instead of rescuing everything?\n- How is this different from the n8n cleanup-service page already on the site?\n\n### Final CTA\nHeading: Need a second opinion on what is actually broken in your n8n workflow?\nBody: Book a 30-minute call. We will look at the live workflow first, identify whether the stack needs bounded cleanup, a rebuild, or a narrower scope, and help you avoid paying for the wrong rescue project.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected because the broad roadmap queue was still close to exhausted, but the live n8n recovery cluster still supported a distinct diagnostic page before purchase: what should an owner inspect before paying for cleanup help?"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page distinct from both nearby siblings: the cleanup-service page still answers what rescue help includes, and the cleanup-vs-rebuild page still answers how to choose between those paths. This new page stays one step earlier on diagnosis before purchase."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used only adjacent proof already published on the site: the live n8n cluster, the Instagram lead-generation case study, and the WheelsFeels CRM workflow-trust example. Avoided pretending there is a standalone n8n audit case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: branch truth, downstream data quality, credential drift, owner-time cost, and the possibility that the smartest answer is to narrow workflow scope instead of rescuing everything."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T19:43:52.176Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 23.4,
+      "sentenceLengthRange": [
+        4,
+        60
+      ],
+      "totalWords": 304
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: n8n Workflow Audit Checklist\nBody: If your n8n workflow feels messy, do not pay for cleanup blindly.",
+      "wordCount": 19,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a second opinion on what is actually broken in your n8n workflow?\nBody: Book a 30-minute call. We will look at the live workflow first, identify whether the stack needs bounded cleanup, a rebuild, or a narrower scope, and help you avoid paying for the wrong rescue project.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 6,
+      "commas": 12,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 8,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 132,
+      "totalWords": 304,
+      "topWords": [
+        [
+          "workflow",
+          12
+        ],
+        [
+          "n8n",
+          11
+        ],
+        [
+          "-",
+          11
+        ],
+        [
+          "audit",
+          7
+        ],
+        [
+          "cleanup",
+          7
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "messy",
+          4
+        ],
+        [
+          "first",
+          4
+        ],
+        [
+          "rebuild",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "if",
+          3
+        ],
+        [
+          "your",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
