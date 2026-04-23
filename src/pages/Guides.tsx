@@ -645,6 +645,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering for HVAC Companies",
+    description:
+      "A narrower HVAC live-phone-coverage guide focused on routine service-call intake, after-hours answer coverage, CSR relief, and the handoff points that should stay human.",
+    href: "/ai-phone-answering-for-hvac-companies",
+    category: "industries",
+  },
+  {
     title: "AI Appointment Setter for HVAC",
     description:
       "AI-powered scheduling for HVAC service calls. Book appointments, send confirmations, and reduce no-shows without phone tag.",

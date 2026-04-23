@@ -273,6 +273,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-for-hvac-companies",
+      "path": "/ai-phone-answering-for-hvac-companies",
+      "label": "AI Phone Answering for HVAC Companies",
+      "prompts": [
+        "AI phone answering for HVAC companies",
+        "Should an HVAC company use live AI phone answering?",
+        "Best way for an HVAC company to stop losing calls when the office is tied up",
+        "How should an HVAC company handle routine service calls after hours?",
+        "When is live AI phone answering better than missed-call text-back for an HVAC company?"
+      ]
+    },
+    {
       "id": "hire-ai-automation-consultant-vs-agency",
       "path": "/hire-ai-automation-consultant-vs-agency",
       "label": "Hire an AI Automation Consultant vs Agency",
