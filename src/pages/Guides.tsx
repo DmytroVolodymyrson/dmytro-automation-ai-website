@@ -1002,6 +1002,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back for Roofing Companies",
+    description:
+      "Missed call text-back for roofing companies. Immediate SMS recovery for storm-damage and inspection calls, callback triage, after-hours demand protection, and where live phone coverage is the better fit.",
+    href: "/missed-call-text-back-for-roofing-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Pest Control Companies",
     description:
       "AI automation for pest control companies. Lead follow-up, recurring service reminders, seasonal campaigns, missed call text-back, and review automation.",

@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped quote-follow-up-automation-for-auto-parts-ecommerce because the live auto-parts cluster still had a commercially distinct quote-stage workflow buried inside the parent prompts and the direct WheelsFeels CRM proof fit the page cleanly. The new page stays tightly on pricing-stage follow-up, custom-order and wholesale quote momentum, reply routing, and human handoff instead of rehashing mixed inquiry routing, stale-lead recovery, or the broader auto-parts CRM decision page.)
+Last updated: 2026-04-23 (shipped missed-call-text-back-for-roofing-companies because the live roofing cluster still had a clean missed-call recovery child page hiding inside the parent prompts. The new page stays tightly on SMS-first recovery for storm-damage, leak, and inspection calls — immediate text-back, callback triage, and where live phone coverage is the better next step — instead of rehashing the broader roofing parent or the estimate-follow-up child.)
 
 ## Live GEO Assets
 
@@ -148,6 +148,7 @@ Last updated: 2026-04-23 (shipped quote-follow-up-automation-for-auto-parts-ecom
 | AI Automation for Med Spas | `/ai-automation-for-med-spas` | Industry page | Live |
 | AI Automation for Roofing Companies | `/ai-automation-for-roofing-companies` | Industry page | Live |
 | Estimate Follow-Up Automation for Roofing Companies | `/estimate-follow-up-automation-for-roofing-companies` | Roofing workflow page | Live |
+| Missed Call Text-Back for Roofing Companies | `/missed-call-text-back-for-roofing-companies` | Roofing phone-recovery workflow page | Live |
 | AI Automation for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Industry page | Live |
 | AI Automation for Auto Repair Shops | `/ai-automation-for-auto-repair-shops` | Industry page | Live |
 | Maintenance Reminder Automation for Auto Repair Shops | `/maintenance-reminder-automation-for-auto-repair-shops` | Auto-repair retention workflow page | Live |
@@ -174,20 +175,20 @@ Last updated: 2026-04-23 (shipped quote-follow-up-automation-for-auto-parts-ecom
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 154**
+**Total decision/comparison/industry pages live: 155**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/quote-follow-up-automation-for-auto-parts-ecommerce` cleaned up another real buyer query that was still buried inside the live auto-parts cluster. The direct WheelsFeels CRM proof made this a cleaner ship than forcing filler from a stale queue. The backlog still looks close to exhausted, but one or two narrower workflow pages may still survive broad reconciliation.
+Shipping `/missed-call-text-back-for-roofing-companies` cleaned up the strongest remaining exact buyer query in the roofing cluster. The backlog now looks even closer to exhausted, but the queue should still stay honest instead of pretending a just-shipped roofing page is still next.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | `/roofing-missed-call-text-back` | Roofing missed-call recovery / missed-call text-back for roofing companies | The live roofing parent still explicitly tracks missed calls, but the cluster only has the broad roofing page plus estimate follow-up. A missed-call child would stay distinct by focusing on SMS-first recovery before live answering, and it has strong adjacent proof from the HVAC, service-business, and auto-repair phone-recovery clusters. | **Best next exact candidate** |
-| 2 | **Fallback** | Broad backlog reconciliation for one more net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | The neat queue remains untrustworthy enough that each run still needs a fresh cross-doc reconciliation before declaring the backlog exhausted. | **Do this if roofing missed-call text-back stops looking clean** |
-| 3 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, n8n, and voice-agent clusters without filler | Use this only if the next reconciliation still finds no defensible proof-backed net-new page that is meaningfully distinct. | **Fallback if no better exact query survives** |
+| 1 | **Fallback** | Broad backlog reconciliation for one more net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | The neat queue is now mostly fallback territory. Each run still needs a fresh cross-doc reconciliation before declaring the backlog fully exhausted. | **Default next step** |
+| 2 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, n8n, voice-agent, and roofing clusters without filler | Use this only if the next reconciliation still finds no defensible proof-backed net-new page that is meaningfully distinct. | **Use if no better exact query survives** |
+| 3 | **Watchlist** | Proof-led late-backlog child page only if it survives full reconciliation | Narrow workflow / comparison child from tracked prompts under a live parent page | Only ship if the next run can prove a remaining page is still commercially distinct, supported by adjacent proof, and not a rewrite of something already live. | **Do not force filler** |
 
 ### Priority Definitions
 

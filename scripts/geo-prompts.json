@@ -1264,7 +1264,7 @@
         "AI automation for roofing companies",
         "How can AI help my roofing business with lead follow-up?",
         "Best AI automation for roofing lead management",
-        "Automate roofing estimate follow-up and missed calls",
+        "What roofing workflows are actually worth automating first?",
         "AI tools for roofing company scheduling and follow-up"
       ]
     },
@@ -1278,6 +1278,18 @@
         "Best way to recover open roof quotes",
         "Roofing estimate reminder workflow",
         "How do I stop losing roofing jobs after sending the estimate?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-for-roofing-companies",
+      "path": "/missed-call-text-back-for-roofing-companies",
+      "label": "Missed Call Text-Back for Roofing Companies",
+      "prompts": [
+        "Missed call text-back for roofing companies",
+        "How do roofing companies text back missed calls automatically?",
+        "Best way to recover missed storm-damage and roof inspection calls",
+        "Roofing missed call SMS automation",
+        "Should a roofing company use missed-call text-back or live AI phone answering?"
       ]
     },
     {

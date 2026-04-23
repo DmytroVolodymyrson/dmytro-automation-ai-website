@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-missed-call-text-back-for-roofing-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back for Roofing Companies\nBody: Roofing companies lose a lot of demand at the first missed call, especially after storms, during busy crew days, and after hours when homeowners will not wait on voicemail. This page narrows the workflow to one practical fallback layer: the call is missed, a useful text goes out immediately, the homeowner gets a clear next step, and the office or estimator takes over when the conversation becomes real.\nSub: Below: what roofing missed-call text-back should actually handle, how it stays distinct from the broader roofing and estimate-follow-up pages, where it works best, and what adjacent proof honestly supports it.\n\n### Core sections\n- What roofing missed-call text-back should actually handle\n- How this page stays distinct from the other roofing and phone pages\n- When this is a good fit and when it is not\n- Important guardrails for roofing missed-call recovery\n- How a practical roofing missed-call text-back workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Straight answers for roofers deciding whether SMS-first missed-call recovery is enough\n- Is missed-call text-back enough for most roofing companies?\n- What should the first roofing text actually say?\n- How is this different from the broader roofing automation page?\n- What does a focused roofing missed-call text-back build usually cost?\n- When should a roofing company skip text-back and go straight to live AI phone answering?\n\n### Final CTA\nHeading: Want to stop losing roofing jobs to missed calls?\nBody: Book a 30-minute call. We will look at where your company is missing calls, whether missed-call text-back is enough or live phone coverage makes more sense, and what the narrowest useful recovery workflow would look like for your setup.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected because the reconciled roadmap still had one clean remaining roofing child query: missed-call text-back. The roofing parent already referenced missed-call loss, making this a distinct and commercially real child page rather than filler."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page separate from the broader roofing guide and the roofing estimate-follow-up child by staying tightly on the first missed-call recovery layer: immediate text-back, callback triage, after-hours demand protection, and where live phone coverage should take over."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used bounded proof only: the broader roofing page, the HVAC missed-call page, the generic missed-call guide, and the auto-repair phone-recovery cluster. Avoided pretending there is already a dedicated roofing missed-call case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: real workflow boundaries, real not-fit cases, and explicit limits on what SMS should and should not do in a roofing business."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T21:09:10.514Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 24,
+      "sentenceLengthRange": [
+        5,
+        59
+      ],
+      "totalWords": 288
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Missed Call Text-Back for Roofing Companies\nBody: Roofing companies lose a lot of demand at the first missed call, especially after storms, during busy crew days, and after hours when homeowners will not wait on voicemail.",
+      "wordCount": 38,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to stop losing roofing jobs to missed calls?\nBody: Book a 30-minute call. We will look at where your company is missing calls, whether missed-call text-back is enough or live phone coverage makes more sense, and what the narrowest useful recovery workflow would look like for your setup.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 5,
+      "commas": 11,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 8,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 138,
+      "totalWords": 288,
+      "topWords": [
+        [
+          "roofing",
+          14
+        ],
+        [
+          "-",
+          11
+        ],
+        [
+          "text-back",
+          8
+        ],
+        [
+          "missed-call",
+          8
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "missed",
+          4
+        ],
+        [
+          "call",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "companies",
+          3
+        ],
+        [
+          "workflow",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
