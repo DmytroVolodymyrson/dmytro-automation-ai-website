@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped missed-call-text-back-for-auto-repair-shops by turning the remaining auto-repair missed-call recovery watchlist item into a distinct child page anchored in the live auto-repair parent plus adjacent missed-call / phone-answering proof, without pretending there is already a dedicated published auto-repair missed-call case study)
+Last updated: 2026-04-23 (shipped missed-call-text-back-vs-ai-phone-answering-for-auto-repair-shops by turning the remaining auto-repair phone-recovery watchlist item into a distinct buyer-decision page anchored in the live auto-repair missed-call child, the generic AI phone-answering guide, and adjacent call-handling proof without pretending there is already a published auto-repair-specific comparison case study)
 
 ## Live GEO Assets
 
@@ -136,6 +136,7 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-for-auto-repair-shops by
 || Estimate Follow-Up Automation for Auto Repair Shops | `/estimate-follow-up-automation-for-auto-repair-shops` | Auto-repair quote-stage workflow page | Live |
 || Appointment Scheduling and Reminder Automation for Auto Repair Shops | `/appointment-scheduling-and-reminder-automation-for-auto-repair-shops` | Auto-repair booked-visit workflow page | Live |
 || Missed Call Text-Back for Auto Repair Shops | `/missed-call-text-back-for-auto-repair-shops` | Auto-repair phone-recovery workflow page | Live |
+|| Missed Call Text-Back vs. AI Phone Answering for Auto Repair Shops | `/missed-call-text-back-vs-ai-phone-answering-for-auto-repair-shops` | Auto-repair phone-recovery decision page | Live |
 || AI Automation for Landscaping Companies | `/ai-automation-for-landscaping-companies` | Industry page | Live |
 | AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
 | AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
@@ -152,19 +153,19 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-for-auto-repair-shops by
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 133**
+**Total decision/comparison/industry pages live: 134**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/missed-call-text-back-for-auto-repair-shops` exhausted the remaining explicit auto-repair missed-call watchlist item that survived the last reconciliation. The next pass should reopen broader planning docs and remaining tracked prompts again instead of pretending another clean slug is already queued. If nothing survives fresh reconciliation cleanly, the honest fallback is maintenance on the strongest live voice-agent / appointment-setter / contractor CRM / GoHighLevel / auto-repair clusters instead of forcing a thin page.
+Shipping `/missed-call-text-back-vs-ai-phone-answering-for-auto-repair-shops` exhausted the remaining explicit auto-repair phone-recovery watchlist item that survived the last reconciliation. The next pass should reopen broader planning docs and remaining tracked prompts again instead of pretending another clean slug is already queued. The strongest exact remaining extraction after this reconciliation is now the contractor CRM setup buy-vs-build question already implied by the live contractor setup-help page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts for the next proof-backed net-new page after the auto-repair missed-call child | Next distinct buyer-intent or workflow page not yet live | The remaining neat queue is exhausted again, so the next ship needs another cross-doc reconciliation instead of copying stale watchlist prose forward. | **Recheck next run** |
-| 2 | **Watchlist** | Auto-repair missed-call text-back vs. live AI phone answering, or another equally proof-backed vertical phone-recovery decision page, only if fresh reconciliation cleanly supports it | Distinct buyer decision inside a live phone-recovery cluster | The site now has the auto-repair parent plus the missed-call child and generic phone-answering pages. A comparison page could still work, but only if the next run confirms it remains distinct and supportable rather than redundant. | **Check next** |
+| 1 | **P1** | `/crm-automation-setup-vs-diy-for-contractors` | Should a contractor set up CRM automation alone or get expert help? | The live contractor CRM setup-help page already tracks the exact buy-vs-build query, the broader contractor CRM cluster is live, and the page would answer a narrower implementation decision without rewriting the parent setup or platform-comparison pages. | **Next best candidate** |
+| 2 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts for the next proof-backed net-new page after the contractor CRM setup buy-vs-build child | Next distinct buyer-intent or workflow page not yet live | The neat queue is exhausted again, so the next ship after the contractor setup decision likely needs another cross-doc reconciliation instead of stale watchlist reuse. | **Recheck after next ship** |
 
 ### Priority Definitions
 

@@ -932,6 +932,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. AI Phone Answering for Auto Repair Shops",
+    description:
+      "Should an auto repair shop use SMS-first missed-call recovery or live AI phone answering? Practical comparison of call volume, caller expectations, advisor workload, and cost.",
+    href: "/missed-call-text-back-vs-ai-phone-answering-for-auto-repair-shops",
+    category: "comparisons",
+  },
+  {
     title: "AI Automation for Landscaping Companies",
     description:
       "AI automation for landscaping companies. Lead follow-up, estimate follow-up, seasonal upsell campaigns, recurring service management, and review automation.",

@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-missed-call-text-back-vs-ai-phone-answering-for-auto-repair-shops",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back vs. AI Phone Answering for Auto Repair Shops\nBody: If your shop is losing calls, the real decision is not whether automation sounds impressive. It is whether a lighter missed-call text-back workflow is enough or whether you need live AI phone answering. Text-back is the narrower fallback: the phone rings out, a useful SMS goes out immediately, and simpler repair intent gets recovered before the caller disappears. AI phone answering is the heavier option: the call gets answered live, routine questions get handled on the spot, and straightforward appointments or callbacks can start right there instead of waiting for a text thread later. The right choice depends on call pattern, service-advisor workload, after-hours demand, and how often callers actually need a live answer instead of a fast acknowledgement.\nSub: Below: where each option fits, where repair shops overbuild, where they underbuild, and what the existing auto-repair plus phone-recovery proof honestly supports.\n\n### Core sections\n- Frames the page as a buyer decision inside the live auto-repair phone-recovery cluster instead of a rewrite of the broader auto-repair parent, the missed-call child, or the generic AI phone-answering page.\n- Compares SMS-first missed-call recovery, live AI phone answering, and voicemail across first response, advisor workload, caller expectations, implementation cost, and where each option breaks.\n- Keeps proof honest by grounding the page in the live auto-repair missed-call child, the generic AI phone-answering guide, and the Paris Cafe call-handling case study without pretending there is already a published auto-repair-specific comparison case study.\n- Uses practical repair-shop framing: service-advisor overload, after-hours calls, routine service intake, booking recovery, and the smallest phone-recovery layer that actually protects revenue.\n\n### FAQ\nSubhead: Straight answers for shop owners deciding between SMS-first recovery and live AI phone coverage\nTopics: whether text-back is cheaper, when a repair shop should skip straight to live AI phone answering, whether customers will reply to a missed-call text, whether AI phone answering replaces the service advisor, and the safest way to choose between the two.\n\n### Final CTA\nHeading: Need help choosing the right phone-recovery layer for your auto repair shop?\nBody: Book a 30-minute call. We will look at your missed-call pattern, where repair demand is leaking, and whether a focused text-back workflow or live AI phone answering is the better first move for your shop.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the roadmap fallback still left one defensible auto-repair phone-recovery decision page: text-back versus live AI phone answering."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page tightly on the buyer decision itself so it does not collapse into the broader auto-repair page, the missed-call child, or the generic phone-answering guide."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Reassigned the exact tracked comparison query out of the auto-repair missed-call child and into this new page so the intent is no longer duplicated across both entries."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T10:31:26.136Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 25.6,
+      "sentenceLengthRange": [
+        5,
+        58
+      ],
+      "totalWords": 384
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Missed Call Text-Back vs.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help choosing the right phone-recovery layer for your auto repair shop?\nBody: Book a 30-minute call. We will look at your missed-call pattern, where repair demand is leaking, and whether a focused text-back workflow or live AI phone answering is the better first move for your shop.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 14,
+      "commas": 31,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 11,
+      "commasPerSentence": 2.07
+    },
+    "vocabulary": {
+      "distinctWords": 198,
+      "totalWords": 384,
+      "topWords": [
+        [
+          "ai",
+          10
+        ],
+        [
+          "phone",
+          9
+        ],
+        [
+          "live",
+          9
+        ],
+        [
+          "answering",
+          7
+        ],
+        [
+          "whether",
+          7
+        ],
+        [
+          "repair",
+          6
+        ],
+        [
+          "missed-call",
+          6
+        ],
+        [
+          "text-back",
+          5
+        ],
+        [
+          "shop",
+          5
+        ],
+        [
+          "where",
+          5
+        ],
+        [
+          "call",
+          4
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "auto-repair",
+          4
+        ],
+        [
+          "phone-recovery",
+          4
+        ],
+        [
+          "-",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.008
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

@@ -1144,8 +1144,20 @@
         "Missed call text-back for auto repair shops",
         "How do auto repair shops text back missed calls automatically?",
         "Best way to recover missed calls at a mechanic shop",
+        "How do I stop losing repair jobs because nobody answered the phone?",
+        "How should a repair shop handle missed calls when the service advisor is tied up?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-ai-phone-answering-for-auto-repair-shops",
+      "path": "/missed-call-text-back-vs-ai-phone-answering-for-auto-repair-shops",
+      "label": "Missed Call Text-Back vs. AI Phone Answering for Auto Repair Shops",
+      "prompts": [
         "Should an auto repair shop use missed call text-back or live AI phone answering?",
-        "How do I stop losing repair jobs because nobody answered the phone?"
+        "Missed call text-back vs AI phone answering for auto repair shops",
+        "What is better for a mechanic shop missed-call recovery text-back or live AI phone answering?",
+        "When should an auto repair shop use SMS-first missed-call recovery instead of live AI phone coverage?",
+        "Best auto repair phone-recovery setup text-back or AI phone answering"
       ]
     },
     {
