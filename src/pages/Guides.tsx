@@ -1037,6 +1037,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. Voicemail for Auto Repair Shops",
+    description:
+      "Should a repair shop use SMS-first missed-call recovery or keep relying on voicemail? Practical comparison of callback lag, caller effort, advisor workload, and when live AI phone answering is the next step.",
+    href: "/missed-call-text-back-vs-voicemail-for-auto-repair-shops",
+    category: "comparisons",
+  },
+  {
     title: "Missed Call Text-Back vs. AI Phone Answering for Auto Repair Shops",
     description:
       "Should an auto repair shop use SMS-first missed-call recovery or live AI phone answering? Practical comparison of call volume, caller expectations, advisor workload, and cost.",

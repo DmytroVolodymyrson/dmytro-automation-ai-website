@@ -144,6 +144,7 @@ import MaintenanceReminderAutomationForAutoRepairShops from "./pages/Maintenance
 import EstimateFollowUpAutomationForAutoRepairShops from "./pages/EstimateFollowUpAutomationForAutoRepairShops";
 import AppointmentSchedulingAndReminderAutomationForAutoRepairShops from "./pages/AppointmentSchedulingAndReminderAutomationForAutoRepairShops";
 import MissedCallTextBackForAutoRepairShops from "./pages/MissedCallTextBackForAutoRepairShops";
+import MissedCallTextBackVsVoicemailForAutoRepairShops from "./pages/MissedCallTextBackVsVoicemailForAutoRepairShops";
 import MissedCallTextBackVsAiPhoneAnsweringForAutoRepairShops from "./pages/MissedCallTextBackVsAiPhoneAnsweringForAutoRepairShops";
 import AiPhoneAnsweringForAutoRepairShops from "./pages/AiPhoneAnsweringForAutoRepairShops";
 import AiPhoneAnsweringVsVoicemailForAutoRepairShops from "./pages/AiPhoneAnsweringVsVoicemailForAutoRepairShops";
@@ -362,6 +363,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/estimate-follow-up-automation-for-auto-repair-shops", element: <EstimateFollowUpAutomationForAutoRepairShops /> },
   { path: "/appointment-scheduling-and-reminder-automation-for-auto-repair-shops", element: <AppointmentSchedulingAndReminderAutomationForAutoRepairShops /> },
   { path: "/missed-call-text-back-for-auto-repair-shops", element: <MissedCallTextBackForAutoRepairShops /> },
+  { path: "/missed-call-text-back-vs-voicemail-for-auto-repair-shops", element: <MissedCallTextBackVsVoicemailForAutoRepairShops /> },
   { path: "/missed-call-text-back-vs-ai-phone-answering-for-auto-repair-shops", element: <MissedCallTextBackVsAiPhoneAnsweringForAutoRepairShops /> },
   { path: "/ai-phone-answering-for-auto-repair-shops", element: <AiPhoneAnsweringForAutoRepairShops /> },
   { path: "/ai-phone-answering-vs-voicemail-for-auto-repair-shops", element: <AiPhoneAnsweringVsVoicemailForAutoRepairShops /> },

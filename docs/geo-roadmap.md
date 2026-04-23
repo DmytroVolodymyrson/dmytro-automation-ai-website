@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped n8n-workflow-audit-checklist because the live n8n recovery cluster still supported a distinct pre-purchase diagnostic page between cleanup service and cleanup-vs-rebuild. The new page stays tightly on what to inspect before paying for rescue work — branch truth, downstream data quality, credential drift, and workflow ownership — instead of rehashing the broader service explainer or the cleanup-vs-rebuild buyer decision.)
+Last updated: 2026-04-23 (shipped missed-call-text-back-vs-voicemail-for-auto-repair-shops because the live auto-repair phone cluster still lacked the lighter fallback decision already proven in the restaurant cluster: SMS-first missed-call recovery versus voicemail/manual callback. The new page stays tightly on callback lag, caller effort, advisor workload, and when the shop should move beyond both into live AI phone answering instead of rehashing the broader auto-repair phone-answering pages.)
 
 ## Live GEO Assets
 
@@ -153,6 +153,7 @@ Last updated: 2026-04-23 (shipped n8n-workflow-audit-checklist because the live 
 | Estimate Follow-Up Automation for Auto Repair Shops | `/estimate-follow-up-automation-for-auto-repair-shops` | Auto-repair quote-stage workflow page | Live |
 | Appointment Scheduling and Reminder Automation for Auto Repair Shops | `/appointment-scheduling-and-reminder-automation-for-auto-repair-shops` | Auto-repair booked-visit workflow page | Live |
 | Missed Call Text-Back for Auto Repair Shops | `/missed-call-text-back-for-auto-repair-shops` | Auto-repair phone-recovery workflow page | Live |
+| Missed Call Text-Back vs. Voicemail for Auto Repair Shops | `/missed-call-text-back-vs-voicemail-for-auto-repair-shops` | Auto-repair lighter-fallback decision page | Live |
 | Missed Call Text-Back vs. AI Phone Answering for Auto Repair Shops | `/missed-call-text-back-vs-ai-phone-answering-for-auto-repair-shops` | Auto-repair phone-recovery decision page | Live |
 | AI Phone Answering for Auto Repair Shops | `/ai-phone-answering-for-auto-repair-shops` | Auto-repair live-phone-coverage workflow page | Live |
 | AI Phone Answering vs. Voicemail for Auto Repair Shops | `/ai-phone-answering-vs-voicemail-for-auto-repair-shops` | Auto-repair phone-fallback decision page | Live |
@@ -172,14 +173,14 @@ Last updated: 2026-04-23 (shipped n8n-workflow-audit-checklist because the live 
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 152**
+**Total decision/comparison/industry pages live: 153**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/n8n-workflow-audit-checklist` cleaned up the live n8n recovery cluster by isolating the pre-purchase diagnostic layer that sits before both cleanup-service scope and cleanup-vs-rebuild choice. Broad backlog reconciliation still looks close to exhausted, so the next pass should start broad again instead of assuming another clean page survives automatically.
+Shipping `/missed-call-text-back-vs-voicemail-for-auto-repair-shops` cleaned up the live auto-repair phone fallback cluster by isolating the lighter buyer choice between SMS-first missed-call recovery and voicemail/manual callback. Broad backlog reconciliation still looks close to exhausted, so the next pass should start broad again instead of assuming another clean page survives automatically.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
