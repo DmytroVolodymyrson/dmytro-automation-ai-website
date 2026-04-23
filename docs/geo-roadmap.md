@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped n8n-workflow-cleanup-vs-rebuild by extracting the exact tracked recovery decision already hiding inside the live n8n cleanup cluster into its own buyer-decision page, so the site now answers the narrower question owners ask after inheriting a messy workflow: bounded cleanup first, rebuild now, or stop prolonging the trust problem with more patching)
+Last updated: 2026-04-23 (shipped how-to-hire-n8n-automation-consultant by extracting the exact tracked hiring-intent query already hiding inside the live n8n consultant cluster into its own narrower hiring guide, so the site now answers what owners ask after deciding n8n may fit: how to vet expert help, what proof matters, and what ownership terms to insist on before trusting someone with a live workflow)
 
 ## Live GEO Assets
 
@@ -98,6 +98,7 @@ Last updated: 2026-04-23 (shipped n8n-workflow-cleanup-vs-rebuild by extracting 
 | E-Commerce CRM Automation with AI Follow-Up | `/ecommerce-crm-automation-with-ai-follow-up` | Industry workflow page | Live |
 | E-Commerce CRM Automation vs. Manual Follow-Up | `/ecommerce-crm-automation-vs-manual-follow-up` | Industry decision page | Live |
 | n8n Automation Consultant for Small Business | `/n8n-automation-consultant` | Decision / service page | Live |
+| How to Hire an n8n Automation Consultant | `/how-to-hire-n8n-automation-consultant` | n8n hiring-intent guide | Live |
 | n8n Automation Consultant Cost for Small Business | `/n8n-automation-consultant-cost-small-business` | n8n pricing decision page | Live |
 | n8n Workflow Cleanup Service | `/n8n-workflow-cleanup-service` | n8n recovery-stage cleanup page | Live |
 | n8n Workflow Cleanup vs. Rebuild | `/n8n-workflow-cleanup-vs-rebuild` | n8n recovery decision page | Live |
@@ -169,13 +170,13 @@ Last updated: 2026-04-23 (shipped n8n-workflow-cleanup-vs-rebuild by extracting 
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/n8n-workflow-cleanup-vs-rebuild` removes the last clean recovery-decision extraction that was explicitly surviving in the n8n / GoHighLevel cleanup clusters. The next pass should start from a fresh cross-doc + tracked-prompt reconciliation instead of inheriting stale queue momentum from those recovery pages.
+Shipping `/how-to-hire-n8n-automation-consultant` clears the strongest remaining hiring-intent extraction inside the n8n cluster. The next pass should stay aggressive, but it should now favor the next exact tracked child query that is still distinct from already-live pages rather than drifting back into vague queue placeholders.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Reconcile broader planning docs and remaining tracked prompts from scratch beyond the n8n / GoHighLevel recovery clusters | Next distinct buyer-intent or workflow page not yet live | After shipping the last clean queued recovery extraction, the next acceptable ship should survive a fresh review of GEO-PLAN, the March GEO plan, the pattern matrix, current live routes, and remaining tracked prompts instead of defaulting to stale roadmap momentum. | **Best next candidate** |
-| 2 | **Watchlist** | Improve discovery/internal-link coverage on the strongest live clusters only if fresh reconciliation finds no distinct net-new page | Support already-live restaurant, contractor, property-management, insurance, e-commerce, auto-repair, GoHighLevel, and n8n clusters without filler | Use this only if no proof-backed net-new page survives the next review. | **Fallback only** |
-| 3 | **Watchlist** | Proof-led future child pages only when a new exact tracked query or case-study-adjacent workflow emerges | Preserve credibility while keeping Tier B aggressive | Late-backlog expansion is still valid, but only when the next page is materially distinct and supportable by exact tracked intent or adjacent proof already on-site. | **Do not force** |
+| 1 | **P1** | Emergency vs. routine maintenance triage for property management companies | How should a property management company automate emergency vs. routine maintenance intake? | The live maintenance-request and after-hours maintenance pages already establish adjacent proof and the tracked prompt still contains a narrower emergency-vs-routine triage decision that is not yet isolated as its own buyer-intent page. | **Best next candidate** |
+| 2 | **Watchlist** | AI phone answering for auto repair shops | Best way for a mechanic shop to stop losing calls when the service advisor is tied up | The auto-repair cluster already has missed-call and reminder children plus a phone-recovery comparison page, so a direct phone-answering child may be the next defensible extraction if the property-management triage page proves too close to existing coverage. | **Fallback candidate** |
+| 3 | **Watchlist** | Improve discovery/internal-link coverage on the strongest live clusters only if no distinct proof-backed page survives reconciliation | Support already-live restaurant, contractor, property-management, insurance, e-commerce, auto-repair, GoHighLevel, and n8n clusters without filler | Use this only if no clean net-new page survives the next proof-and-intent review. | **Fallback only** |
 
 ### Priority Definitions
 

@@ -413,6 +413,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "How to Hire an n8n Automation Consultant",
+    description:
+      "Need help vetting n8n expert help? Practical hiring guide to proof, hosting judgment, ownership terms, failure handling, and the questions to ask before you trust someone with a live workflow.",
+    href: "/how-to-hire-n8n-automation-consultant",
+    category: "workflows",
+  },
+  {
     title: "n8n Automation Consultant Cost for Small Business",
     description:
       "How much should a small business budget for an n8n consultant? Practical pricing guide for bounded workflow builds, self-hosting, cleanup work, and when expert help pays back.",

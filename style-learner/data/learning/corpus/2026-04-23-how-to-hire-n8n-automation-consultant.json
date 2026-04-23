@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-how-to-hire-n8n-automation-consultant",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: How to Hire an n8n Automation Consultant\nBody: If the workflow matters enough that broken webhooks, messy branching, duplicate CRM data, or weak error handling will cost you leads or team trust, hiring the right n8n consultant can save a lot of cleanup. The catch is that plenty of people can demo a working node chain. Fewer can scope one bounded workflow, handle the ugly edge cases, leave you owning the system, and explain when n8n is the right platform at all. This page is for owners who already think n8n may fit and want to know how to choose expert help without paying for hype or getting trapped in someone else's fragile setup.\nSub: Below: what a strong n8n consultant should actually help with, what proof matters, what questions to ask before you sign anything, and how this page stays distinct from the broader n8n consultant service guide and the n8n consultant vs. DIY decision page.\n\n### Core sections\n- What you are really hiring an n8n consultant to do\n- Strong hiring signals vs. n8n-specific red flags\n- When specialist n8n help is worth hiring — and when it is not\n- What a serious n8n discovery call should produce\n- Five questions to ask before you hire anyone\n- Relevant proof and adjacent proof\n\n### FAQ\nSubhead: Straight answers for owners trying to choose the right n8n implementation partner\n- What should I look for in an n8n automation consultant?\n- How is this different from the n8n automation consultant page?\n- When is specialist n8n help worth hiring for a small business?\n- Should the consultant build inside my own n8n instance?\n- What is the biggest red flag when hiring n8n help?\n\n### Final CTA\nHeading: Need a second opinion before hiring an n8n consultant?\nBody: Book a 30-minute call. We will look at the workflow you want to build or rescue, whether n8n is actually the right platform, what a bounded first phase should include, and what kind of consultant fit makes sense before you sign anything.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected because the strongest remaining exact hiring-intent query inside the live n8n cluster was still sitting on the broader n8n consultant page: what should I look for in an n8n automation consultant?"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the new page distinct from the broader n8n consultant guide by framing it as a vetting and hiring-decision page first, not a service explainer or a buy-vs-DIY page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used only proof already published on-site: the live n8n guide cluster, the Instagram lead-generation case study, and the WheelsFeels CRM case study. Avoided pretending there is a public case study specifically about hiring an n8n consultant."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: ownership, hosting judgment, failure handling, scope discipline, and what makes expert help trustworthy in production."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T15:56:44.672Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        5,
+        3
+      ],
+      "avgSentenceLength": 21.3,
+      "sentenceLengthRange": [
+        3,
+        45
+      ],
+      "totalWords": 341
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: How to Hire an n8n Automation Consultant\nBody: If the workflow matters enough that broken webhooks, messy branching, duplicate CRM data, or weak error handling will cost you leads or team trust, hiring the right n8n consultant can save a lot of cleanup.",
+      "wordCount": 45,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a second opinion before hiring an n8n consultant?\nBody: Book a 30-minute call. We will look at the workflow you want to build or rescue, whether n8n is actually the right platform, what a bounded first phase should include, and what kind of consultant fit makes sense before you sign anything.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 13,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 0.87
+    },
+    "vocabulary": {
+      "distinctWords": 169,
+      "totalWords": 341,
+      "topWords": [
+        [
+          "n8n",
+          18
+        ],
+        [
+          "consultant",
+          11
+        ],
+        [
+          "-",
+          11
+        ],
+        [
+          "what",
+          9
+        ],
+        [
+          "hiring",
+          7
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "help",
+          5
+        ],
+        [
+          "should",
+          5
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "right",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "before",
+          4
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "workflow",
+          3
+        ],
+        [
+          "can",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right",
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.012
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

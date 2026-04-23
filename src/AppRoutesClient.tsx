@@ -74,6 +74,7 @@ const AiAutomationRoiGuide = lazy(() => import("./pages/AiAutomationRoiGuide"));
 const AiAutomationRoiCalculator = lazy(() => import("./pages/AiAutomationRoiCalculator"));
 const N8nAutomationExamplesSmallBusiness = lazy(() => import("./pages/N8nAutomationExamplesSmallBusiness"));
 const N8nAutomationConsultant = lazy(() => import("./pages/N8nAutomationConsultant"));
+const HowToHireN8nAutomationConsultant = lazy(() => import("./pages/HowToHireN8nAutomationConsultant"));
 const N8nWorkflowCleanupService = lazy(() => import("./pages/N8nWorkflowCleanupService"));
 const N8nWorkflowCleanupVsRebuild = lazy(() => import("./pages/N8nWorkflowCleanupVsRebuild"));
 const N8nAutomationConsultantCostSmallBusiness = lazy(() => import("./pages/N8nAutomationConsultantCostSmallBusiness"));
@@ -229,6 +230,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-automation-roi-calculator" element={<AiAutomationRoiCalculator />} />
       <Route path="/n8n-automation-examples-small-business" element={<N8nAutomationExamplesSmallBusiness />} />
       <Route path="/n8n-automation-consultant" element={<N8nAutomationConsultant />} />
+      <Route path="/how-to-hire-n8n-automation-consultant" element={<HowToHireN8nAutomationConsultant />} />
       <Route path="/n8n-workflow-cleanup-service" element={<N8nWorkflowCleanupService />} />
       <Route path="/n8n-workflow-cleanup-vs-rebuild" element={<N8nWorkflowCleanupVsRebuild />} />
       <Route path="/n8n-automation-consultant-cost-small-business" element={<N8nAutomationConsultantCostSmallBusiness />} />

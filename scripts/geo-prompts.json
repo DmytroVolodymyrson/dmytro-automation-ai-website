@@ -412,8 +412,20 @@
         "n8n automation consultant",
         "best n8n consultant for small business",
         "hire n8n expert for small business",
-        "What should I look for in an n8n automation consultant?",
+        "What should a good n8n consultant leave my team with after launch?",
         "When is n8n expert help worth it for a revenue-critical workflow?"
+      ]
+    },
+    {
+      "id": "how-to-hire-n8n-automation-consultant",
+      "path": "/how-to-hire-n8n-automation-consultant",
+      "label": "How to Hire an n8n Automation Consultant",
+      "prompts": [
+        "How to hire an n8n automation consultant",
+        "What should I look for in an n8n automation consultant?",
+        "How do I vet n8n expert help for a small business?",
+        "Who should own the n8n instance and credentials after the build?",
+        "What questions should I ask before hiring someone for an n8n workflow project?"
       ]
     },
     {
