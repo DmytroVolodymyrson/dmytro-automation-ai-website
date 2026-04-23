@@ -1137,6 +1137,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-for-auto-repair-shops",
+      "path": "/missed-call-text-back-for-auto-repair-shops",
+      "label": "Missed Call Text-Back for Auto Repair Shops",
+      "prompts": [
+        "Missed call text-back for auto repair shops",
+        "How do auto repair shops text back missed calls automatically?",
+        "Best way to recover missed calls at a mechanic shop",
+        "Should an auto repair shop use missed call text-back or live AI phone answering?",
+        "How do I stop losing repair jobs because nobody answered the phone?"
+      ]
+    },
+    {
       "id": "ai-automation-cost-small-business",
       "path": "/ai-automation-cost-small-business",
       "label": "AI Automation Cost for Small Business",

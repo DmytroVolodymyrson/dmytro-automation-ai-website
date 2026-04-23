@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped appointment-scheduling-and-reminder-automation-for-auto-repair-shops by turning the remaining booked-visit / no-show auto-repair watchlist item into a distinct child page anchored in the live auto-repair parent plus adjacent reminder/no-show/scheduling proof, without pretending there is already a dedicated published auto-repair scheduling case study)
+Last updated: 2026-04-23 (shipped missed-call-text-back-for-auto-repair-shops by turning the remaining auto-repair missed-call recovery watchlist item into a distinct child page anchored in the live auto-repair parent plus adjacent missed-call / phone-answering proof, without pretending there is already a dedicated published auto-repair missed-call case study)
 
 ## Live GEO Assets
 
@@ -130,12 +130,13 @@ Last updated: 2026-04-23 (shipped appointment-scheduling-and-reminder-automation
 | AI Automation for Med Spas | `/ai-automation-for-med-spas` | Industry page | Live |
 | AI Automation for Roofing Companies | `/ai-automation-for-roofing-companies` | Industry page | Live |
 | Estimate Follow-Up Automation for Roofing Companies | `/estimate-follow-up-automation-for-roofing-companies` | Roofing workflow page | Live |
-| AI Automation for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Industry page | Live |
-| AI Automation for Auto Repair Shops | `/ai-automation-for-auto-repair-shops` | Industry page | Live |
-| Maintenance Reminder Automation for Auto Repair Shops | `/maintenance-reminder-automation-for-auto-repair-shops` | Auto-repair retention workflow page | Live |
-| Estimate Follow-Up Automation for Auto Repair Shops | `/estimate-follow-up-automation-for-auto-repair-shops` | Auto-repair quote-stage workflow page | Live |
-| Appointment Scheduling and Reminder Automation for Auto Repair Shops | `/appointment-scheduling-and-reminder-automation-for-auto-repair-shops` | Auto-repair booked-visit workflow page | Live |
-| AI Automation for Landscaping Companies | `/ai-automation-for-landscaping-companies` | Industry page | Live |
+|| AI Automation for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Industry page | Live |
+|| AI Automation for Auto Repair Shops | `/ai-automation-for-auto-repair-shops` | Industry page | Live |
+|| Maintenance Reminder Automation for Auto Repair Shops | `/maintenance-reminder-automation-for-auto-repair-shops` | Auto-repair retention workflow page | Live |
+|| Estimate Follow-Up Automation for Auto Repair Shops | `/estimate-follow-up-automation-for-auto-repair-shops` | Auto-repair quote-stage workflow page | Live |
+|| Appointment Scheduling and Reminder Automation for Auto Repair Shops | `/appointment-scheduling-and-reminder-automation-for-auto-repair-shops` | Auto-repair booked-visit workflow page | Live |
+|| Missed Call Text-Back for Auto Repair Shops | `/missed-call-text-back-for-auto-repair-shops` | Auto-repair phone-recovery workflow page | Live |
+|| AI Automation for Landscaping Companies | `/ai-automation-for-landscaping-companies` | Industry page | Live |
 | AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
 | AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
 | AI Automation Cost (SMB) | `/ai-automation-cost-small-business` | Authority page | Live |
@@ -151,19 +152,19 @@ Last updated: 2026-04-23 (shipped appointment-scheduling-and-reminder-automation
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 132**
+**Total decision/comparison/industry pages live: 133**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/appointment-scheduling-and-reminder-automation-for-auto-repair-shops` exhausted the specific booked-visit / no-show auto-repair watchlist that survived the last reconciliation. The next pass should reopen broader planning docs and remaining tracked prompts again instead of pretending another clean candidate is already queued. If nothing survives fresh reconciliation cleanly, the honest fallback is maintenance on the strongest live voice-agent / appointment-setter / contractor CRM / GoHighLevel / auto-repair clusters instead of forcing a thin page.
+Shipping `/missed-call-text-back-for-auto-repair-shops` exhausted the remaining explicit auto-repair missed-call watchlist item that survived the last reconciliation. The next pass should reopen broader planning docs and remaining tracked prompts again instead of pretending another clean slug is already queued. If nothing survives fresh reconciliation cleanly, the honest fallback is maintenance on the strongest live voice-agent / appointment-setter / contractor CRM / GoHighLevel / auto-repair clusters instead of forcing a thin page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts for the next proof-backed net-new page after the auto-repair scheduling child | Next distinct buyer-intent or workflow page not yet live | The auto-repair scheduling child was worth shipping, but the broader queue still needs another honest cross-doc reconciliation instead of carrying forward a stale watchlist. | **Recheck next run** |
-| 2 | **Watchlist** | Auto-repair missed-call recovery / text-back child or another equally proof-backed vertical workflow page only if fresh reconciliation still supports it | Distinct vertical missed-call or phone-recovery intent with honest adjacent proof | The auto-repair parent still spans missed-call leakage and the site already has adjacent missed-call / phone-answering proof. But it needs the same proof and cannibalization check before becoming the next ship. | **Check next** |
+| 1 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts for the next proof-backed net-new page after the auto-repair missed-call child | Next distinct buyer-intent or workflow page not yet live | The remaining neat queue is exhausted again, so the next ship needs another cross-doc reconciliation instead of copying stale watchlist prose forward. | **Recheck next run** |
+| 2 | **Watchlist** | Auto-repair missed-call text-back vs. live AI phone answering, or another equally proof-backed vertical phone-recovery decision page, only if fresh reconciliation cleanly supports it | Distinct buyer decision inside a live phone-recovery cluster | The site now has the auto-repair parent plus the missed-call child and generic phone-answering pages. A comparison page could still work, but only if the next run confirms it remains distinct and supportable rather than redundant. | **Check next** |
 
 ### Priority Definitions
 

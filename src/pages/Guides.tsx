@@ -925,6 +925,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back for Auto Repair Shops",
+    description:
+      "Missed call text-back for auto repair shops. Immediate SMS recovery for missed repair calls, callback triage, after-hours demand protection, advisor handoff, and when live AI phone answering is the better fit.",
+    href: "/missed-call-text-back-for-auto-repair-shops",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Landscaping Companies",
     description:
       "AI automation for landscaping companies. Lead follow-up, estimate follow-up, seasonal upsell campaigns, recurring service management, and review automation.",
