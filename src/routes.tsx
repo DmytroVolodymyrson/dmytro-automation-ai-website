@@ -33,6 +33,7 @@ import GoHighLevelSetupVsDiySmallBusiness from "./pages/GoHighLevelSetupVsDiySma
 import GoHighLevelAccountCleanupService from "./pages/GoHighLevelAccountCleanupService";
 import GoHighLevelAccountCleanupVsRebuild from "./pages/GoHighLevelAccountCleanupVsRebuild";
 import GoHighLevelAccountAuditChecklist from "./pages/GoHighLevelAccountAuditChecklist";
+import GoHighLevelSetupMistakesSmallBusiness from "./pages/GoHighLevelSetupMistakesSmallBusiness";
 import AiAutomationConsultantPricingSmallBusiness from "./pages/AiAutomationConsultantPricingSmallBusiness";
 import BestAiAutomationForServiceBusinesses from "./pages/BestAiAutomationForServiceBusinesses";
 import AiAutomationForHvacCompanies from "./pages/AiAutomationForHvacCompanies";
@@ -209,6 +210,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/gohighlevel-account-cleanup-service", element: <GoHighLevelAccountCleanupService /> },
   { path: "/gohighlevel-account-cleanup-vs-rebuild", element: <GoHighLevelAccountCleanupVsRebuild /> },
   { path: "/gohighlevel-account-audit-checklist", element: <GoHighLevelAccountAuditChecklist /> },
+  { path: "/gohighlevel-setup-mistakes-small-business", element: <GoHighLevelSetupMistakesSmallBusiness /> },
   {
     path: "/ai-automation-consultant-pricing-small-business",
     element: <AiAutomationConsultantPricingSmallBusiness />,

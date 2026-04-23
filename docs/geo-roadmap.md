@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped gohighlevel-account-audit-checklist because the neat roadmap queue was still exhausted, but the live GoHighLevel cleanup-service prompt set still contained the exact pre-purchase diagnostic query "How do I audit a messy GoHighLevel account before paying for cleanup?". That made a distinct, proof-backed child page possible beside the existing setup, cleanup-service, and cleanup-vs-rebuild pages by framing it strictly as diagnosis before purchase rather than another cleanup explainer.)
+Last updated: 2026-04-23 (shipped gohighlevel-setup-mistakes-small-business because broad backlog reconciliation was still effectively exhausted, but the live GoHighLevel setup page still contained the exact pre-launch query "What are the most common GoHighLevel setup mistakes for a small business?". That made a distinct, proof-backed child page possible beside the existing setup-help, setup-cost, DIY, cleanup, audit, and cleanup-vs-rebuild pages by framing it strictly as first-launch mistakes before the account turns into a recovery-stage cleanup project.)
 
 ## Live GEO Assets
 
@@ -46,6 +46,7 @@ Last updated: 2026-04-23 (shipped gohighlevel-account-audit-checklist because th
 | GoHighLevel Account Cleanup Service | `/gohighlevel-account-cleanup-service` | Workflow / recovery-stage cleanup page | Live |
 | GoHighLevel Account Cleanup vs. Rebuild | `/gohighlevel-account-cleanup-vs-rebuild` | Workflow / recovery decision page | Live |
 | GoHighLevel Account Audit Checklist | `/gohighlevel-account-audit-checklist` | Workflow / recovery-stage audit page | Live |
+| GoHighLevel Setup Mistakes for Small Business | `/gohighlevel-setup-mistakes-small-business` | Workflow / pre-launch setup-risk page | Live |
 | AI Consultant Pricing | `/ai-automation-consultant-pricing-small-business` | Decision page | Live |
 | Best AI Automations for Service Businesses | `/best-ai-automation-for-service-businesses` | Decision page | Live |
 | AI Automation for HVAC Companies | `/ai-automation-for-hvac-companies` | Industry page | Live |
@@ -168,20 +169,20 @@ Last updated: 2026-04-23 (shipped gohighlevel-account-audit-checklist because th
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 148**
+**Total decision/comparison/industry pages live: 149**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/gohighlevel-account-audit-checklist` extracted another exact tracked query from an already-live recovery cluster without rehashing the same page intent. The specific pre-purchase audit query now lives on its own page instead of staying buried under the broader cleanup-service prompt set. The next pass should still start with a broad reconciliation instead of assuming another clean backlog page exists.
+Shipping `/gohighlevel-setup-mistakes-small-business` extracted another exact tracked query from an already-live setup cluster without rehashing the same page intent. The specific pre-launch mistakes query now lives on its own page instead of staying buried under the broader setup-help prompt set. The next pass should still start with a broad reconciliation instead of assuming another clean backlog page exists.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, and n8n clusters without filler | Use this if the next reconciliation still finds no clean proof-backed net-new page that is meaningfully distinct. | **Next best candidate if backlog stays exhausted** |
-| 2 | **Watchlist** | Re-run a broad proof-and-intent reconciliation across GEO-PLAN, geo-plan-2026-03, the prompt set, and live routes before inventing another recovery-stage or vertical child page | Validate whether any exact tracked query still survives as a distinct page rather than defaulting to maintenance by habit | If a new clean candidate appears, it should come from an exact surviving query plus adjacent proof — not from rewording an already-dense cluster. | **Guardrail** |
-| 3 | **Watchlist** | Keep the GoHighLevel recovery cluster clean | Preserve the new separation between setup help, cleanup service, cleanup-vs-rebuild, and the new audit-checklist page | Avoid leaving the exact pre-purchase audit query duplicated under the broader cleanup-service entry again. | **Done for now; monitor drift only** |
+| 1 | **P1 candidate** | `/ai-voice-agent-setup-mistakes-small-business` | Exact remaining setup-stage query: common AI voice-agent setup mistakes before launch | The voice-agent setup page still carries a distinct pre-launch failure-state prompt, and the site has direct phone-workflow proof plus adjacent qualification/CRM proof to support a bounded child page without rehashing setup-help, cost, ROI, or DIY. | **Next best candidate** |
+| 2 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, and n8n clusters without filler | Use this if the next reconciliation still finds no clean proof-backed net-new page that is meaningfully distinct. | **Fallback if no better exact query survives** |
+| 3 | **Watchlist** | Keep the GoHighLevel setup + recovery cluster clean | Preserve the new separation between setup help, setup-cost, DIY, setup-mistakes, cleanup, audit, and cleanup-vs-rebuild pages | Avoid leaving the exact setup-mistakes query duplicated under the broader setup-help entry again. | **Done for now; monitor drift only** |
 
 ### Priority Definitions
 

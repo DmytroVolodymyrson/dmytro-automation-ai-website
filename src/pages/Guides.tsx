@@ -223,6 +223,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "GoHighLevel Setup Mistakes for Small Business",
+    description:
+      "Common GHL setup mistakes that quietly create duplicate automations, weak pipeline trust, broken booking handoff, and future cleanup work. Practical guide to what usually goes wrong before launch.",
+    href: "/gohighlevel-setup-mistakes-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Appointment Setter Setup Help",
     description:
       "Need help setting up an AI appointment setter? Practical guide to qualification logic, calendar rules, CRM handoff, pricing, and when expert setup is worth it.",

@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-gohighlevel-setup-mistakes-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: GoHighLevel Setup Mistakes for Small Business\nBody: Most GoHighLevel problems do not start at the cleanup stage. They start during setup. This page isolates the early rollout mistakes that quietly create duplicate automations, weak pipeline trust, broken booking handoff, and future cleanup work.\nSub: Below: the most common GHL setup mistakes, which ones usually create the worst downstream mess, when DIY is still fine, and how this page stays distinct from the broader setup-help, setup-cost, DIY, cleanup, and audit pages already live on the site.\n\n### Core sections\n- The setup mistakes that usually create the biggest mess later\n- What each setup mistake usually causes downstream\n- When this page is useful — and when it is not\n- How to avoid turning setup into future cleanup\n- The five GoHighLevel setup mistakes owners regret most\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions from owners trying to avoid the setup mistakes that quietly turn a GoHighLevel rollout into a future cleanup project\n- What are the most common GoHighLevel setup mistakes for a small business?\n- How do I avoid creating a messy GoHighLevel account during setup?\n- How is this different from the GoHighLevel setup-help page?\n- When do setup mistakes turn into a cleanup project?\n- Should I fix setup mistakes myself or hire help before launch?\n\n### Final CTA\nHeading: Want a cleaner GoHighLevel launch before small setup mistakes get expensive?\nBody: Book a 30-minute call. We will look at your planned workflow, identify the setup mistakes most likely to create duplicate automation, weak handoff, or pipeline confusion, and help you scope the narrowest trustworthy rollout first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected because the neat roadmap queue was still effectively exhausted, but the live GoHighLevel setup page still contained the exact pre-launch tracked query: what are the most common GoHighLevel setup mistakes for a small business?"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page distinct from nearby siblings by staying strictly on first-launch failure modes before the account becomes a cleanup, audit, or cleanup-vs-rebuild problem."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used only adjacent proof already published on the site: the live GoHighLevel setup/recovery cluster, the WheelsFeels CRM case study, and the Paris Cafe workflow-routing case study. Avoided pretending there is a standalone GoHighLevel setup-mistakes case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: workflow mapping, stage truth, stop conditions, calendar handoff, naming discipline, and preventing expensive cleanup later."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T18:32:29.192Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 21.1,
+      "sentenceLengthRange": [
+        4,
+        57
+      ],
+      "totalWords": 274
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: GoHighLevel Setup Mistakes for Small Business\nBody: Most GoHighLevel problems do not start at the cleanup stage.",
+      "wordCount": 19,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a cleaner GoHighLevel launch before small setup mistakes get expensive?\nBody: Book a 30-minute call. We will look at your planned workflow, identify the setup mistakes most likely to create duplicate automation, weak handoff, or pipeline confusion, and help you scope the narrowest trustworthy rollout first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 6,
+      "commas": 14,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 1.17
+    },
+    "vocabulary": {
+      "distinctWords": 134,
+      "totalWords": 274,
+      "topWords": [
+        [
+          "setup",
+          14
+        ],
+        [
+          "mistakes",
+          11
+        ],
+        [
+          "-",
+          11
+        ],
+        [
+          "gohighlevel",
+          8
+        ],
+        [
+          "cleanup",
+          6
+        ],
+        [
+          "most",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "create",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "small",
+          3
+        ],
+        [
+          "do",
+          3
+        ],
+        [
+          "rollout",
+          3
+        ],
+        [
+          "that",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

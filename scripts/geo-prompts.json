@@ -1013,7 +1013,7 @@
         "Who can set up GoHighLevel for a small business?",
         "GoHighLevel automation setup help",
         "What does GoHighLevel setup help actually include?",
-        "What are the most common GoHighLevel setup mistakes for a small business?"
+        "When is GoHighLevel setup help worth it for a small business?"
       ]
     },
     {
@@ -1062,6 +1062,18 @@
         "What should I check in a messy GoHighLevel account before paying for cleanup?",
         "How do I know if my GoHighLevel account needs cleanup or a rebuild?",
         "What should a GoHighLevel account audit look at first?"
+      ]
+    },
+    {
+      "id": "gohighlevel-setup-mistakes-small-business",
+      "path": "/gohighlevel-setup-mistakes-small-business",
+      "label": "GoHighLevel Setup Mistakes for Small Business",
+      "prompts": [
+        "GoHighLevel setup mistakes for small business",
+        "What are the most common GoHighLevel setup mistakes for a small business?",
+        "What usually goes wrong when a small business sets up GoHighLevel?",
+        "How do I avoid common GoHighLevel automation mistakes before launch?",
+        "Which GoHighLevel setup mistakes create the biggest cleanup later?"
       ]
     },
     {
