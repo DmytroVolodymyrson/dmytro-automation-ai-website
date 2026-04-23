@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped missed-call-text-back-vs-voicemail-for-restaurants by extracting the still-distinct lighter fallback decision sitting inside the live restaurant after-hours phone cluster into its own comparison page grounded in the Paris Cafe phone-coverage proof plus the already-live restaurant missed-call and after-hours workflow pages, without pretending the broader live AI-vs-voicemail or text-back-vs-AI pages had already exhausted the voicemail-vs-text-back buyer choice)
+Last updated: 2026-04-23 (shipped gohighlevel-account-cleanup-vs-rebuild by extracting the exact tracked recovery decision already hiding inside the live GoHighLevel cleanup cluster into its own buyer-decision page, so the site now answers the narrower question owners ask after inheriting a messy GHL account: bounded cleanup first, full rebuild now, or stop forcing the stack entirely)
 
 ## Live GEO Assets
 
@@ -44,6 +44,7 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-vs-voicemail-for-restaur
 | GoHighLevel Setup Cost (SMB) | `/gohighlevel-setup-cost-small-business` | Workflow / pricing decision page | Live |
 | GoHighLevel Setup vs. DIY (SMB) | `/gohighlevel-setup-vs-diy-small-business` | Workflow / buy-vs-build comparison page | Live |
 | GoHighLevel Account Cleanup Service | `/gohighlevel-account-cleanup-service` | Workflow / recovery-stage cleanup page | Live |
+| GoHighLevel Account Cleanup vs. Rebuild | `/gohighlevel-account-cleanup-vs-rebuild` | Workflow / recovery decision page | Live |
 | AI Consultant Pricing | `/ai-automation-consultant-pricing-small-business` | Decision page | Live |
 | Best AI Automations for Service Businesses | `/best-ai-automation-for-service-businesses` | Decision page | Live |
 | AI Automation for HVAC Companies | `/ai-automation-for-hvac-companies` | Industry page | Live |
@@ -160,20 +161,20 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-vs-voicemail-for-restaur
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 141**
+**Total decision/comparison/industry pages live: 142**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/missed-call-text-back-vs-voicemail-for-restaurants` proves there was still one more defensible restaurant after-hours buyer decision hiding inside the tracked prompt set even after the neat queue looked exhausted. The next pass should still reconcile broader planning docs and remaining tracked prompts from scratch instead of pretending there is another equally clean queued page already validated.
+Shipping `/gohighlevel-account-cleanup-vs-rebuild` proves there are still defensible late-backlog buyer decisions hiding inside live setup and cleanup clusters when the tracked prompt is exact enough. The next pass should keep reconciling broader planning docs and remaining tracked prompts from scratch, but the strongest remaining candidate now looks like the parallel n8n recovery decision rather than a maintenance-only run.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts from scratch | Next distinct buyer-intent or workflow page not yet live | The neat queue is exhausted again after the restaurant voicemail-vs-text-back extraction. The next acceptable ship still has to survive a fresh cross-doc + tracked-prompt review instead of inheriting stale roadmap momentum. | **Required next step** |
-| 2 | **Watchlist** | Improve discovery/internal-link coverage on the strongest live clusters only if fresh reconciliation finds no distinct net-new page | Support already-live restaurant, contractor, property-management, insurance, e-commerce, auto-repair, and n8n clusters without filler | Use this only if no proof-backed net-new page survives the next review. | **Fallback only** |
-| 3 | **Deferred** | Hold low-confidence cluster expansions until new proof or a clearly distinct tracked query appears | Avoid cannibalizing already-live clusters with thin overlap pages | Tier B should still bias toward shipping, but not at the cost of fake proof or a page that mostly rewrites an existing asset. | **Do not force** |
+| 1 | **P1** | `/n8n-workflow-cleanup-vs-rebuild` | Recovery-stage buyer decision for messy n8n stacks | The live n8n cleanup page already tracks the exact sibling query: should the workflow be rescued or rebuilt? It is the cleanest remaining late-backlog extraction because the intent is explicit, commercially real, and still distinct from the broader consultant, cost, and cleanup pages. | **Best next candidate** |
+| 2 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts from scratch beyond the GoHighLevel and n8n recovery clusters | Next distinct buyer-intent or workflow page not yet live | After the GHL recovery-decision extraction, the next acceptable ship should still survive a fresh cross-doc + tracked-prompt review instead of inheriting stale roadmap momentum from older queues. | **Required if #1 fails** |
+| 3 | **Watchlist** | Improve discovery/internal-link coverage on the strongest live clusters only if fresh reconciliation finds no distinct net-new page | Support already-live restaurant, contractor, property-management, insurance, e-commerce, auto-repair, and n8n clusters without filler | Use this only if no proof-backed net-new page survives the next review. | **Fallback only** |
 
 ### Priority Definitions
 

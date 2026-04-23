@@ -1000,8 +1000,20 @@
         "GoHighLevel account cleanup service",
         "Can someone clean up a messy GoHighLevel account?",
         "How do I clean up an inherited GoHighLevel account?",
-        "Should I rebuild or clean up my GoHighLevel account?",
+        "How do I audit a messy GoHighLevel account before paying for cleanup?",
         "What does GoHighLevel cleanup help actually include?"
+      ]
+    },
+    {
+      "id": "gohighlevel-account-cleanup-vs-rebuild",
+      "path": "/gohighlevel-account-cleanup-vs-rebuild",
+      "label": "GoHighLevel Account Cleanup vs. Rebuild",
+      "prompts": [
+        "Should I rebuild or clean up my GoHighLevel account?",
+        "GoHighLevel cleanup vs rebuild",
+        "When is a messy GoHighLevel account worth cleaning up instead of rebuilding?",
+        "Is it better to rebuild GoHighLevel from scratch or fix the current account?",
+        "How do I decide between GoHighLevel account cleanup and a full rebuild?"
       ]
     },
     {

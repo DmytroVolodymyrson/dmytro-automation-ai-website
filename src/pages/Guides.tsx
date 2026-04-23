@@ -209,6 +209,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "GoHighLevel Account Cleanup vs. Rebuild",
+    description:
+      "Should you rescue a messy GHL account with bounded cleanup or rebuild it from scratch? Practical buyer guide to where cleanup is enough, when rebuild is safer, and when the platform itself may be the wrong fit.",
+    href: "/gohighlevel-account-cleanup-vs-rebuild",
+    category: "comparisons",
+  },
+  {
     title: "AI Appointment Setter Setup Help",
     description:
       "Need help setting up an AI appointment setter? Practical guide to qualification logic, calendar rules, CRM handoff, pricing, and when expert setup is worth it.",
