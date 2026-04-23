@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped missed-call-text-back-vs-voicemail-for-roofing-companies after another full cross-doc reconciliation. The page survived because the remaining roofing watchlist still held one lighter-fallback buyer decision that stayed materially distinct from the broader roofing parent, the missed-call text-back child, and the now-live live-answering workflow pages. It stays tightly on the fallback choice itself — SMS-first recovery versus voicemail/manual callback — and treats live AI phone answering as the next escalation step rather than rehashing the heavier roofing phone pages.)
+Last updated: 2026-04-23 (shipped ai-phone-answering-vs-voicemail-for-roofing-companies after another full cross-doc reconciliation. The page survived because the live roofing phone-answering cluster still held one exact heavier-fallback buyer decision that had not been isolated yet: live AI phone coverage versus voicemail/manual callback. It stays tightly on that buyer choice itself — not the broader roofing parent page, not the missed-call text-back fallback pages, and not the generic voice-agent-vs-voicemail guide — while still treating missed-call text-back as the practical middle step rather than rehashing the existing roofing phone workflow pages.)
 
 ## Live GEO Assets
 
@@ -152,6 +152,7 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-vs-voicemail-for-roofing
 | Missed Call Text-Back vs. AI Phone Answering for Roofing Companies | `/missed-call-text-back-vs-ai-phone-answering-for-roofing-companies` | Roofing phone-recovery decision page | Live |
 | AI Phone Answering for Roofing Companies | `/ai-phone-answering-for-roofing-companies` | Roofing live-phone-coverage workflow page | Live |
 | Missed Call Text-Back vs. Voicemail for Roofing Companies | `/missed-call-text-back-vs-voicemail-for-roofing-companies` | Roofing lighter-fallback decision page | Live |
+| AI Phone Answering vs. Voicemail for Roofing Companies | `/ai-phone-answering-vs-voicemail-for-roofing-companies` | Roofing phone-fallback decision page | Live |
 | AI Automation for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Industry page | Live |
 | AI Automation for Auto Repair Shops | `/ai-automation-for-auto-repair-shops` | Industry page | Live |
 | Maintenance Reminder Automation for Auto Repair Shops | `/maintenance-reminder-automation-for-auto-repair-shops` | Auto-repair retention workflow page | Live |
@@ -178,14 +179,14 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-vs-voicemail-for-roofing
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 157**
+**Total decision/comparison/industry pages live: 158**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/missed-call-text-back-vs-voicemail-for-roofing-companies` used the last clean roofing watchlist item that still survived a full reconciliation. With that lighter fallback decision now live, the backlog is back in broad fallback territory and the roadmap should stop pretending the roofing cluster still has an automatic next child waiting.
+Shipping `/ai-phone-answering-vs-voicemail-for-roofing-companies` extracted the last still-defensible roofing phone-fallback buyer decision that survived reconciliation: live AI phone coverage versus voicemail/manual callback. With that heavier fallback decision now live too, the backlog is back in broad fallback territory and the roadmap should stop pretending the roofing cluster still has an automatic next child waiting.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|

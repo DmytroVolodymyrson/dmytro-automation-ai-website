@@ -1030,6 +1030,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering vs. Voicemail for Roofing Companies",
+    description:
+      "Roofing-specific buyer guide for choosing between live AI phone coverage and voicemail/manual callback. Covers inspection recovery, storm-season demand, office workload, after-hours calls, and when missed-call text-back is the smarter middle step.",
+    href: "/ai-phone-answering-vs-voicemail-for-roofing-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Pest Control Companies",
     description:
       "AI automation for pest control companies. Lead follow-up, recurring service reminders, seasonal campaigns, missed call text-back, and review automation.",
