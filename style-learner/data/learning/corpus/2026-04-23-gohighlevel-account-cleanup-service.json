@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-gohighlevel-account-cleanup-service",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: GoHighLevel Account Cleanup Service\nBody: If your GoHighLevel account already exists but nobody fully trusts it, cleanup usually matters more than adding another automation. The real problem is not that the account looks unfinished. It is that leads may be entering the wrong pipeline, triggers may be firing in the wrong order, duplicate contacts may be muddying reporting, and staff may be working around the CRM instead of inside it. A good GoHighLevel cleanup project fixes the revenue-critical workflow first, removes template clutter, and makes the account trustworthy enough to use again.\nSub: Below: what GoHighLevel cleanup actually includes, when a bounded cleanup is smarter than a full rebuild, when you should stop forcing GHL entirely, and how to tell whether expert cleanup help is worth paying for.\n\n### Core sections\n- Frames the page as a recovery-stage workflow decision for businesses with an existing messy GHL account, not as another broad setup explainer.\n- Defines cleanup as trigger/campaign simplification, pipeline and ownership repair, duplicate-contact cleanup, and stabilizing one revenue-critical workflow before adding anything new.\n- Compares three real paths: bounded cleanup inside GHL, deeper rebuild inside GHL, or continuing to patch a messy account.\n- Uses disciplined good-fit / bad-fit framing so the page does not push cleanup help where a simple first-time setup or a different stack is the real answer.\n- Grounds the page in the existing GoHighLevel setup/cost/DIY cluster plus adjacent published proof from the e-commerce CRM and Paris Cafe case studies without inventing a dedicated GoHighLevel cleanup case study.\n\n### FAQ\nSubhead: Practical questions from owners deciding whether a messy GoHighLevel account should be cleaned up, rebuilt, or replaced\nTopics: whether a consultant can clean up a messy existing account, what cleanup help includes, how to know cleanup should come before new automation, when cleanup is enough versus a rebuild, and how this page differs from the broader setup and pricing guides.\n\n### Final CTA\nHeading: Need a second opinion on whether this GoHighLevel account is worth cleaning up?\nBody: Book a 30-minute call. We will look at what is actually broken in the account, whether a bounded cleanup can make the core workflow trustworthy again, and whether the smarter move is cleanup, rebuild, or a different stack entirely.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because `scripts/geo-prompts.json` still contained the exact messy-account cleanup buyer query under the live GoHighLevel setup cluster even after the roadmap queue had fallen back to maintenance."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps a disciplined distinction from `/gohighlevel-automation-setup`, `/gohighlevel-setup-cost-small-business`, and `/gohighlevel-setup-vs-diy-small-business` by staying tightly on recovery-stage cleanup decisions rather than repeating implementation scope, budgeting, or generic buy-vs-build advice."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: no fake dedicated GoHighLevel cleanup case study, only adjacent published proof around CRM workflow design and live inquiry routing already on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical, commercially specific, and non-hype with explicit guidance on when the right move may be rebuilding or replacing GHL instead of paying for cleanup."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T11:52:15.938Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        5,
+        1,
+        3
+      ],
+      "avgSentenceLength": 26.6,
+      "sentenceLengthRange": [
+        5,
+        62
+      ],
+      "totalWords": 372
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: GoHighLevel Account Cleanup Service\nBody: If your GoHighLevel account already exists but nobody fully trusts it, cleanup usually matters more than adding another automation.",
+      "wordCount": 26,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a second opinion on whether this GoHighLevel account is worth cleaning up?\nBody: Book a 30-minute call. We will look at what is actually broken in the account, whether a bounded cleanup can make the core workflow trustworthy again, and whether the smarter move is cleanup, rebuild, or a different stack entirely.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 13,
+      "commas": 25,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 1.79
+    },
+    "vocabulary": {
+      "distinctWords": 197,
+      "totalWords": 372,
+      "topWords": [
+        [
+          "cleanup",
+          16
+        ],
+        [
+          "account",
+          10
+        ],
+        [
+          "gohighlevel",
+          8
+        ],
+        [
+          "whether",
+          6
+        ],
+        [
+          "be",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "may",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "rebuild",
+          4
+        ],
+        [
+          "ghl",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "messy",
+          4
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "real",
+          3
+        ],
+        [
+          "not",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

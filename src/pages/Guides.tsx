@@ -202,6 +202,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "GoHighLevel Account Cleanup Service",
+    description:
+      "Recovery-stage guide for fixing a messy GoHighLevel account — trigger cleanup, duplicate-contact repair, pipeline trust, rebuild-vs-cleanup decisions, and when expert cleanup is worth hiring.",
+    href: "/gohighlevel-account-cleanup-service",
+    category: "workflows",
+  },
+  {
     title: "AI Appointment Setter Setup Help",
     description:
       "Need help setting up an AI appointment setter? Practical guide to qualification logic, calendar rules, CRM handoff, pricing, and when expert setup is worth it.",

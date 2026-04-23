@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped crm-automation-setup-cost-for-contractors by extracting the exact contractor CRM pricing query from the live contractor setup-help page into its own distinct decision page anchored in the contractor CRM cluster and adjacent CRM proof without pretending there is already a contractor-specific pricing case study)
+Last updated: 2026-04-23 (shipped gohighlevel-account-cleanup-service by extracting the exact messy-account cleanup query from the live GoHighLevel setup cluster into its own recovery-stage decision page grounded in the existing GHL pages plus adjacent CRM and inquiry-routing proof without pretending there is a dedicated GoHighLevel cleanup case study)
 
 ## Live GEO Assets
 
@@ -41,6 +41,7 @@ Last updated: 2026-04-23 (shipped crm-automation-setup-cost-for-contractors by e
 | GoHighLevel Automation Setup | `/gohighlevel-automation-setup` | Workflow / service page | Live |
 | GoHighLevel Setup Cost (SMB) | `/gohighlevel-setup-cost-small-business` | Workflow / pricing decision page | Live |
 | GoHighLevel Setup vs. DIY (SMB) | `/gohighlevel-setup-vs-diy-small-business` | Workflow / buy-vs-build comparison page | Live |
+| GoHighLevel Account Cleanup Service | `/gohighlevel-account-cleanup-service` | Workflow / recovery-stage cleanup page | Live |
 | AI Consultant Pricing | `/ai-automation-consultant-pricing-small-business` | Decision page | Live |
 | Best AI Automations for Service Businesses | `/best-ai-automation-for-service-businesses` | Decision page | Live |
 | AI Automation for HVAC Companies | `/ai-automation-for-hvac-companies` | Industry page | Live |
@@ -155,14 +156,14 @@ Last updated: 2026-04-23 (shipped crm-automation-setup-cost-for-contractors by e
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 136**
+**Total decision/comparison/industry pages live: 137**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/crm-automation-setup-cost-for-contractors` confirms there were still a few proof-backed child pages hidden inside tracked prompts even after the neat queue looked exhausted. Do not pretend a clean backlog now exists. The next pass should reopen broader planning docs and remaining tracked prompts from scratch again, then either identify another truly distinct proof-backed child page or leave the queue in fallback/watchlist mode.
+Shipping `/gohighlevel-account-cleanup-service` confirms there were still exact failure-state / cleanup queries hidden inside tracked prompts even after the neat queue looked exhausted. Do not pretend a clean backlog now exists. The next pass should reopen broader planning docs and remaining tracked prompts from scratch again, then either identify another truly distinct proof-backed child page or leave the queue in fallback/watchlist mode.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|

@@ -917,7 +917,7 @@
         "Who can set up GoHighLevel for a small business?",
         "GoHighLevel automation setup help",
         "What does GoHighLevel setup help actually include?",
-        "Can someone clean up a messy GoHighLevel account?"
+        "What are the most common GoHighLevel setup mistakes for a small business?"
       ]
     },
     {
@@ -942,6 +942,18 @@
         "Should I pay someone to configure GoHighLevel or do it myself?",
         "When is DIY GoHighLevel setup enough for a small business?",
         "When should a business hire GoHighLevel setup help instead of figuring it out alone?"
+      ]
+    },
+    {
+      "id": "gohighlevel-account-cleanup-service",
+      "path": "/gohighlevel-account-cleanup-service",
+      "label": "GoHighLevel Account Cleanup Service",
+      "prompts": [
+        "GoHighLevel account cleanup service",
+        "Can someone clean up a messy GoHighLevel account?",
+        "How do I clean up an inherited GoHighLevel account?",
+        "Should I rebuild or clean up my GoHighLevel account?",
+        "What does GoHighLevel cleanup help actually include?"
       ]
     },
     {
