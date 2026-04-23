@@ -47,6 +47,7 @@ import ReservationConfirmationAndReminderAutomationForRestaurants from "./pages/
 import MissedCallTextBackForRestaurants from "./pages/MissedCallTextBackForRestaurants";
 import MissedCallTextBackVsAiVoiceAgentForRestaurants from "./pages/MissedCallTextBackVsAiVoiceAgentForRestaurants";
 import AfterHoursPhoneAnsweringForRestaurants from "./pages/AfterHoursPhoneAnsweringForRestaurants";
+import AfterHoursAiPhoneAnsweringVsVoicemailForRestaurants from "./pages/AfterHoursAiPhoneAnsweringVsVoicemailForRestaurants";
 import AiAutomationConsultantEdmonton from "./pages/AiAutomationConsultantEdmonton";
 import AiAutomationConsultantAlberta from "./pages/AiAutomationConsultantAlberta";
 import AiAutomationConsultantCanada from "./pages/AiAutomationConsultantCanada";
@@ -218,6 +219,7 @@ export const appRoutes: AppRouteDefinition[] = [
     element: <MissedCallTextBackVsAiVoiceAgentForRestaurants />,
   },
   { path: "/after-hours-phone-answering-for-restaurants", element: <AfterHoursPhoneAnsweringForRestaurants /> },
+  { path: "/after-hours-ai-phone-answering-vs-voicemail-for-restaurants", element: <AfterHoursAiPhoneAnsweringVsVoicemailForRestaurants /> },
   { path: "/ai-automation-consultant-alberta", element: <AiAutomationConsultantAlberta /> },
   { path: "/ai-automation-consultant-canada", element: <AiAutomationConsultantCanada /> },
   { path: "/ai-automation-for-real-estate", element: <AiAutomationForRealEstate /> },

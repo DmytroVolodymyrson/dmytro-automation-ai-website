@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped n8n-workflow-cleanup-service by extracting the exact messy-workflow cleanup query from the live n8n consultant cluster into its own recovery-stage decision page grounded in the existing n8n pages plus adjacent Instagram lead-gen and CRM workflow proof without pretending there is a dedicated standalone n8n cleanup case study)
+Last updated: 2026-04-23 (shipped after-hours-ai-phone-answering-vs-voicemail-for-restaurants by extracting the exact after-hours restaurant voicemail-vs-live-answering buyer query from the tracked restaurant phone-answering cluster into its own comparison page grounded in the Paris Cafe case study plus adjacent restaurant phone-recovery guides without pretending every restaurant needs full live AI coverage)
 
 ## Live GEO Assets
 
@@ -27,6 +27,7 @@ Last updated: 2026-04-23 (shipped n8n-workflow-cleanup-service by extracting the
 | Missed Call Text-Back for Restaurants | `/missed-call-text-back-for-restaurants` | Restaurant workflow page | Live |
 | Missed Call Text-Back vs. AI Voice Agent for Restaurants | `/missed-call-text-back-vs-ai-voice-agent-for-restaurants` | Restaurant comparison page | Live |
 | After-Hours Phone Answering for Restaurants | `/after-hours-phone-answering-for-restaurants` | Restaurant after-hours phone workflow page | Live |
+| After-Hours AI Phone Answering vs. Voicemail for Restaurants | `/after-hours-ai-phone-answering-vs-voicemail-for-restaurants` | Restaurant after-hours decision page | Live |
 | AI Lead Follow-Up | `/ai-lead-follow-up-for-service-businesses` | Decision page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Workflow / pricing decision page | Live |
 | AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo landing page | Live |
@@ -157,20 +158,20 @@ Last updated: 2026-04-23 (shipped n8n-workflow-cleanup-service by extracting the
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 138**
+**Total decision/comparison/industry pages live: 139**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/n8n-workflow-cleanup-service` confirms there were still exact recovery-stage queries hidden inside tracked prompts even after the roadmap had already fallen back to generic reconciliation. The next pass should still reopen broader planning docs and remaining tracked prompts from scratch, but the strongest visible next candidate now looks like a restaurant after-hours decision page extracted from the existing phone-answering cluster rather than another maintenance-only run.
+Shipping `/after-hours-ai-phone-answering-vs-voicemail-for-restaurants` clears the last explicit high-confidence candidate that was still sitting in the roadmap queue. The next pass should reopen broader planning docs and remaining tracked prompts from scratch instead of pretending there is another clean queued page already validated.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | `/after-hours-ai-phone-answering-vs-voicemail-for-restaurants` | When should a restaurant use live AI phone answering instead of voicemail after hours? | The exact buyer-decision query still lives inside the restaurant after-hours phone-answering prompts, has direct Paris Cafe proof adjacency, and stays distinct from both the generic AI-voice-agent-vs-voicemail page and the broader restaurant phone-answering workflow page. | **Candidate for next run** |
-| 2 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts again if the restaurant after-hours comparison does not survive overlap review | Next distinct buyer-intent or workflow page not yet live | The neat backlog is still largely exhausted, so every run should keep validating proof-backed distinct intent instead of pretending there is a long clean queue. | **Recheck if #1 fails** |
-| 3 | **Watchlist** | Improve discovery/internal-link coverage on the strongest live clusters only if reconciliation finds no distinct net-new page | Support already-live contractor, property-management, insurance, e-commerce, auto-repair, and n8n clusters without filler | Use this only if a real net-new page does not survive the next cross-doc + tracked-prompt review. | **Fallback only** |
+| 1 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts from scratch | Next distinct buyer-intent or workflow page not yet live | The neat queue is now exhausted again. The next acceptable ship has to survive a fresh cross-doc + tracked-prompt review instead of inheriting stale roadmap momentum. | **Required next step** |
+| 2 | **Watchlist** | Improve discovery/internal-link coverage on the strongest live clusters only if fresh reconciliation finds no distinct net-new page | Support already-live restaurant, contractor, property-management, insurance, e-commerce, auto-repair, and n8n clusters without filler | Use this only if no proof-backed net-new page survives the next review. | **Fallback only** |
+| 3 | **Deferred** | Hold low-confidence cluster expansions until new proof or a clearly distinct tracked query appears | Avoid cannibalizing already-live clusters with thin overlap pages | Tier B should still bias toward shipping, but not at the cost of fake proof or a page that mostly rewrites an existing asset. | **Do not force** |
 
 ### Priority Definitions
 

@@ -272,6 +272,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "After-Hours AI Phone Answering vs. Voicemail for Restaurants",
+    description:
+      "Should a restaurant keep sending after-hours callers to voicemail or answer with AI? Restaurant-specific comparison of booking recovery, guest expectations, cost, and when a lighter fallback still makes more sense.",
+    href: "/after-hours-ai-phone-answering-vs-voicemail-for-restaurants",
+    category: "comparisons",
+  },
+  {
     title: "Missed Call Text-Back vs. AI Voice Agent for Restaurants",
     description:
       "Should a restaurant use SMS-first recovery after missed calls or invest in live AI phone coverage? Practical comparison of booking recovery, guest experience, cost, and where each option fits.",

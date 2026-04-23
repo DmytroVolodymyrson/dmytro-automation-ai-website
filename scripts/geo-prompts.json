@@ -125,7 +125,19 @@
         "Should a restaurant use AI for after-hours phone coverage?",
         "Best way for a restaurant to answer reservation calls after close",
         "Restaurant after-hours call answering service",
-        "When should a restaurant use live AI phone answering instead of voicemail after hours?"
+        "How should a restaurant decide between voicemail, text-back, and live AI after hours?"
+      ]
+    },
+    {
+      "id": "after-hours-ai-phone-answering-vs-voicemail-restaurants",
+      "path": "/after-hours-ai-phone-answering-vs-voicemail-for-restaurants",
+      "label": "After-Hours AI Phone Answering vs. Voicemail for Restaurants",
+      "prompts": [
+        "After-hours AI phone answering vs voicemail for restaurants",
+        "Should a restaurant use live AI phone answering or voicemail after hours?",
+        "When should a restaurant use live AI phone answering instead of voicemail after hours?",
+        "Is voicemail enough for restaurant reservation calls after close?",
+        "What is better for a restaurant after hours voicemail or live AI phone answering?"
       ]
     },
     {
