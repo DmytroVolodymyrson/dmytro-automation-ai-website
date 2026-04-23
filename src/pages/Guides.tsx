@@ -771,6 +771,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Customer Service Automation vs. Manual Support for E-Commerce Brands",
+    description:
+      "Decision guide for online stores deciding whether support volume has outgrown manual handling and whether a bounded automation layer now makes more sense than continuing to triage everything by hand.",
+    href: "/customer-service-automation-vs-manual-support-for-ecommerce-brands",
+    category: "industries",
+  },
+  {
     title: "Order-Status and Return Support Automation for E-Commerce Brands",
     description:
       "A tighter post-purchase support page focused specifically on order-status questions, return and exchange intake, exception routing, and the fastest bounded workflow to automate before broader support work.",

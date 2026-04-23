@@ -681,6 +681,18 @@
       ]
     },
     {
+      "id": "customer-service-automation-vs-manual-support-for-ecommerce-brands",
+      "path": "/customer-service-automation-vs-manual-support-for-ecommerce-brands",
+      "label": "Customer Service Automation vs. Manual Support for E-Commerce Brands",
+      "prompts": [
+        "Customer service automation vs manual support for e-commerce brands",
+        "Should an online store automate customer service or keep it manual?",
+        "When does manual support stop working for an e-commerce brand?",
+        "Is customer service automation worth it for an online store with rising support volume?",
+        "Best way to decide between manual support and customer service automation for an online store"
+      ]
+    },
+    {
       "id": "order-status-and-return-support-automation-for-ecommerce-brands",
       "path": "/order-status-and-return-support-automation-for-ecommerce-brands",
       "label": "Order-Status and Return Support Automation for E-Commerce Brands",

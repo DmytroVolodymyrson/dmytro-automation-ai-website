@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped after-hours-maintenance-triage-for-property-management-companies by turning the exact overnight maintenance-triage prompt already embedded under the live maintenance-request cluster into a dedicated child page anchored in the property-management maintenance + after-hours workflow guides and adjacent overnight routing proof)
+Last updated: 2026-04-22 (shipped customer-service-automation-vs-manual-support-for-ecommerce-brands by turning the exact manual-vs-automation support question already embedded under the live e-commerce customer-service cluster into a dedicated comparison page anchored in the published e-commerce CRM case study plus the adjacent customer-service and order-status workflow guides)
 
 ## Live GEO Assets
 
@@ -91,6 +91,7 @@ Last updated: 2026-04-22 (shipped after-hours-maintenance-triage-for-property-ma
 | Fitment Inquiry Automation for Auto Parts E-Commerce | `/fitment-inquiry-automation-for-auto-parts-ecommerce` | Industry workflow page | Live |
 | Repeat-Purchase & Reactivation Automation for E-Commerce Brands | `/repeat-purchase-reactivation-automation-for-ecommerce-brands` | Industry lifecycle page | Live |
 | Customer Service Automation for E-Commerce Brands | `/customer-service-automation-for-ecommerce-brands` | Industry support workflow page | Live |
+| Customer Service Automation vs. Manual Support for E-Commerce Brands | `/customer-service-automation-vs-manual-support-for-ecommerce-brands` | E-commerce support decision page | Live |
 | Order-Status and Return Support Automation for E-Commerce Brands | `/order-status-and-return-support-automation-for-ecommerce-brands` | Industry post-purchase support workflow page | Live |
 | After-Hours Lead Capture | `/after-hours-lead-capture-for-service-businesses` | Workflow page | Live |
 | Missed Call Follow-Up Automation | `/missed-call-follow-up-automation` | Workflow page | Live |
@@ -137,18 +138,18 @@ Last updated: 2026-04-22 (shipped after-hours-maintenance-triage-for-property-ma
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 118**
+**Total decision/comparison/industry pages live: 119**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/after-hours-maintenance-triage-for-property-management-companies` consumed the remaining property-management watchlist item because the exact overnight maintenance-triage query was already present inside the live maintenance-request cluster (`Best way to triage tenant maintenance requests after hours`). With that page now live, the backlog returns to honest fallback mode again instead of pretending another equally clean net-new page is still queued.
+Shipping `/customer-service-automation-vs-manual-support-for-ecommerce-brands` consumed the cleanest remaining exact tracked comparison query inside the live e-commerce support cluster (`Should an online store automate customer service or keep it manual?`). With that page now live, the backlog drops back into honest fallback mode again instead of pretending another equally clean proof-backed net-new page is still queued.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | GoHighLevel + appointment setter + restaurant + e-commerce + property management discovery and internal links | After shipping the last property-management watchlist child with an exact tracked query, default back to discovery-surface and internal-link improvements unless a new proof-backed query becomes explicit. | **Fallback** |
+| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | E-commerce + GoHighLevel + appointment setter + property management discovery and internal links | After consuming the exact manual-vs-automation e-commerce support query, the cleanest next move is still discovery-surface and internal-link strengthening unless another exact proof-backed child query becomes explicit. | **Fallback** |
 | 2 | **Deferred** | Re-open net-new shipping only when a live cluster gains a clearer exact query or stronger proof | proof-led backlog refresh | Do not invent filler pages once the explicit high-confidence queue is exhausted again. | **Deferred** |
 
 ### Priority Definitions

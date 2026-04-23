@@ -83,6 +83,7 @@ import EcommerceCrmAutomationWithAiFollowUp from "./pages/EcommerceCrmAutomation
 import EcommerceCrmAutomationVsManualFollowUp from "./pages/EcommerceCrmAutomationVsManualFollowUp";
 import RepeatPurchaseReactivationAutomationForEcommerceBrands from "./pages/RepeatPurchaseReactivationAutomationForEcommerceBrands";
 import CustomerServiceAutomationForEcommerceBrands from "./pages/CustomerServiceAutomationForEcommerceBrands";
+import CustomerServiceAutomationVsManualSupportForEcommerceBrands from "./pages/CustomerServiceAutomationVsManualSupportForEcommerceBrands";
 import OrderStatusAndReturnSupportAutomationForEcommerceBrands from "./pages/OrderStatusAndReturnSupportAutomationForEcommerceBrands";
 import AfterHoursLeadCapture from "./pages/AfterHoursLeadCapture";
 import MissedCallFollowUp from "./pages/MissedCallFollowUp";
@@ -247,6 +248,10 @@ export const appRoutes: AppRouteDefinition[] = [
   {
     path: "/customer-service-automation-for-ecommerce-brands",
     element: <CustomerServiceAutomationForEcommerceBrands />,
+  },
+  {
+    path: "/customer-service-automation-vs-manual-support-for-ecommerce-brands",
+    element: <CustomerServiceAutomationVsManualSupportForEcommerceBrands />,
   },
   {
     path: "/order-status-and-return-support-automation-for-ecommerce-brands",
