@@ -427,6 +427,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "n8n Workflow Cleanup vs. Rebuild",
+    description:
+      "Should you rescue a messy n8n workflow with bounded cleanup or rebuild it from scratch? Practical buyer guide to where cleanup is enough, when rebuild is safer, and when ongoing patching is the most expensive option.",
+    href: "/n8n-workflow-cleanup-vs-rebuild",
+    category: "comparisons",
+  },
+  {
     title: "n8n Consultant vs. DIY for Small Business",
     description:
       "Should you keep building in n8n yourself or hire expert help? Practical comparison of owner time, workflow risk, self-hosting overhead, and when a bounded consultant build is the cheaper move.",

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-n8n-workflow-cleanup-vs-rebuild",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: n8n Workflow Cleanup vs. Rebuild\nBody: If your n8n workflow is already live but the team no longer trusts it, the real decision is usually not whether to add one more node or patch one more branch. It is whether the current workflow is still worth saving. A bounded cleanup makes sense when the core business logic is still right and one revenue-critical automation can be stabilized quickly. A rebuild makes more sense when duplicate branches, stale copies, bad data mapping, auth drift, and unclear stop conditions are so tangled that every fix creates another surprise.\nSub: Below: what cleanup actually fixes inside n8n, where rebuild becomes the lower-risk move, how to avoid paying for the wrong kind of rescue project, and what adjacent proof supports this buyer decision without pretending there is a dedicated public n8n cleanup case study.\n\n### Core sections\n- What this decision is really about\n- Cleanup first vs. rebuild now vs. keep patching the workflow\n- When cleanup is usually enough — and when rebuild is the safer move\n- What to check before paying for either option\n- How this stays distinct from the broader n8n cleanup-service page\n- Proof and adjacent proof\n\n### FAQ\nSubhead: Practical questions from owners deciding whether a messy n8n workflow should be cleaned up, rebuilt, or replaced with a cleaner implementation\n- How do I know if my n8n workflow needs cleanup or a full rebuild?\n- Is cleanup usually cheaper than rebuilding an n8n workflow?\n- Does rebuilding mean I should stop using n8n entirely?\n- How is this different from the existing n8n workflow cleanup service page?\n- What is the biggest mistake owners make with a messy n8n workflow?\n\n### Final CTA\nHeading: Need a second opinion on cleanup vs. rebuild for a messy n8n workflow?\nBody: Book a 30-minute call. We will look at where trust is breaking in the workflow, whether one bounded cleanup can stabilize the important path, and whether the smarter move is cleanup, rebuild, or narrowing the automation scope entirely.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected because the roadmap's best remaining explicit candidate was the exact sibling query already tracked under the live n8n cleanup page: should I rebuild or clean up my n8n automation?"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the new page distinct from the broader cleanup-service page by framing it as a buyer decision first, not a services explainer. The cleanup page still answers what recovery help includes; this page answers how to choose cleanup vs rebuild."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used only adjacent proof already published on the site: the live n8n cluster, the Instagram lead-generation case study, and the WheelsFeels CRM workflow-trust example. Avoided pretending there is a standalone n8n cleanup case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: trust, workflow drift, hidden owner time, downstream data quality, and the cost of continuing to patch a workflow nobody wants to own."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T15:06:27.291Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        3,
+        5,
+        4
+      ],
+      "avgSentenceLength": 18.8,
+      "sentenceLengthRange": [
+        3,
+        44
+      ],
+      "totalWords": 339
+    },
+    "opener": {
+      "type": "stat",
+      "text": "### Hero\nHeading: n8n Workflow Cleanup vs.",
+      "wordCount": 6,
+      "pattern": "stat"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a second opinion on cleanup vs. rebuild for a messy n8n workflow?\nBody: Book a 30-minute call. We will look at where trust is breaking in the workflow, whether one bounded cleanup can stabilize the important path, and whether the smarter move is cleanup, rebuild, or narrowing the automation scope entirely.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 14,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 0.82
+    },
+    "vocabulary": {
+      "distinctWords": 182,
+      "totalWords": 339,
+      "topWords": [
+        [
+          "n8n",
+          12
+        ],
+        [
+          "cleanup",
+          12
+        ],
+        [
+          "workflow",
+          11
+        ],
+        [
+          "-",
+          11
+        ],
+        [
+          "rebuild",
+          8
+        ],
+        [
+          "whether",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "vs",
+          4
+        ],
+        [
+          "one",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "decision",
+          3
+        ],
+        [
+          "usually",
+          3
+        ],
+        [
+          "more",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

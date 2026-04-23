@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped gohighlevel-account-cleanup-vs-rebuild by extracting the exact tracked recovery decision already hiding inside the live GoHighLevel cleanup cluster into its own buyer-decision page, so the site now answers the narrower question owners ask after inheriting a messy GHL account: bounded cleanup first, full rebuild now, or stop forcing the stack entirely)
+Last updated: 2026-04-23 (shipped n8n-workflow-cleanup-vs-rebuild by extracting the exact tracked recovery decision already hiding inside the live n8n cleanup cluster into its own buyer-decision page, so the site now answers the narrower question owners ask after inheriting a messy workflow: bounded cleanup first, rebuild now, or stop prolonging the trust problem with more patching)
 
 ## Live GEO Assets
 
@@ -100,6 +100,7 @@ Last updated: 2026-04-23 (shipped gohighlevel-account-cleanup-vs-rebuild by extr
 | n8n Automation Consultant for Small Business | `/n8n-automation-consultant` | Decision / service page | Live |
 | n8n Automation Consultant Cost for Small Business | `/n8n-automation-consultant-cost-small-business` | n8n pricing decision page | Live |
 | n8n Workflow Cleanup Service | `/n8n-workflow-cleanup-service` | n8n recovery-stage cleanup page | Live |
+| n8n Workflow Cleanup vs. Rebuild | `/n8n-workflow-cleanup-vs-rebuild` | n8n recovery decision page | Live |
 | n8n Consultant vs. DIY for Small Business | `/n8n-consultant-vs-diy-small-business` | n8n buy-vs-build decision page | Live |
 | Fitment Inquiry Automation for Auto Parts E-Commerce | `/fitment-inquiry-automation-for-auto-parts-ecommerce` | Industry workflow page | Live |
 | Customer Inquiry Automation for Auto Parts E-Commerce | `/customer-inquiry-automation-for-auto-parts-ecommerce` | Auto-parts inquiry-routing workflow page | Live |
@@ -161,20 +162,20 @@ Last updated: 2026-04-23 (shipped gohighlevel-account-cleanup-vs-rebuild by extr
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 142**
+**Total decision/comparison/industry pages live: 143**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/gohighlevel-account-cleanup-vs-rebuild` proves there are still defensible late-backlog buyer decisions hiding inside live setup and cleanup clusters when the tracked prompt is exact enough. The next pass should keep reconciling broader planning docs and remaining tracked prompts from scratch, but the strongest remaining candidate now looks like the parallel n8n recovery decision rather than a maintenance-only run.
+Shipping `/n8n-workflow-cleanup-vs-rebuild` removes the last clean recovery-decision extraction that was explicitly surviving in the n8n / GoHighLevel cleanup clusters. The next pass should start from a fresh cross-doc + tracked-prompt reconciliation instead of inheriting stale queue momentum from those recovery pages.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | `/n8n-workflow-cleanup-vs-rebuild` | Recovery-stage buyer decision for messy n8n stacks | The live n8n cleanup page already tracks the exact sibling query: should the workflow be rescued or rebuilt? It is the cleanest remaining late-backlog extraction because the intent is explicit, commercially real, and still distinct from the broader consultant, cost, and cleanup pages. | **Best next candidate** |
-| 2 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts from scratch beyond the GoHighLevel and n8n recovery clusters | Next distinct buyer-intent or workflow page not yet live | After the GHL recovery-decision extraction, the next acceptable ship should still survive a fresh cross-doc + tracked-prompt review instead of inheriting stale roadmap momentum from older queues. | **Required if #1 fails** |
-| 3 | **Watchlist** | Improve discovery/internal-link coverage on the strongest live clusters only if fresh reconciliation finds no distinct net-new page | Support already-live restaurant, contractor, property-management, insurance, e-commerce, auto-repair, and n8n clusters without filler | Use this only if no proof-backed net-new page survives the next review. | **Fallback only** |
+| 1 | **P1** | Reconcile broader planning docs and remaining tracked prompts from scratch beyond the n8n / GoHighLevel recovery clusters | Next distinct buyer-intent or workflow page not yet live | After shipping the last clean queued recovery extraction, the next acceptable ship should survive a fresh review of GEO-PLAN, the March GEO plan, the pattern matrix, current live routes, and remaining tracked prompts instead of defaulting to stale roadmap momentum. | **Best next candidate** |
+| 2 | **Watchlist** | Improve discovery/internal-link coverage on the strongest live clusters only if fresh reconciliation finds no distinct net-new page | Support already-live restaurant, contractor, property-management, insurance, e-commerce, auto-repair, GoHighLevel, and n8n clusters without filler | Use this only if no proof-backed net-new page survives the next review. | **Fallback only** |
+| 3 | **Watchlist** | Proof-led future child pages only when a new exact tracked query or case-study-adjacent workflow emerges | Preserve credibility while keeping Tier B aggressive | Late-backlog expansion is still valid, but only when the next page is materially distinct and supportable by exact tracked intent or adjacent proof already on-site. | **Do not force** |
 
 ### Priority Definitions
 

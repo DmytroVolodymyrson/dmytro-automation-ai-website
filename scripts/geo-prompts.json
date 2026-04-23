@@ -423,9 +423,21 @@
       "prompts": [
         "n8n workflow cleanup service",
         "Can someone clean up a messy n8n workflow?",
-        "Should I rebuild or clean up my n8n automation?",
+        "When is n8n workflow cleanup help worth paying for?",
         "What does n8n cleanup help actually include?",
         "How do I fix a messy existing n8n workflow without rebuilding everything?"
+      ]
+    },
+    {
+      "id": "n8n-workflow-cleanup-vs-rebuild",
+      "path": "/n8n-workflow-cleanup-vs-rebuild",
+      "label": "n8n Workflow Cleanup vs. Rebuild",
+      "prompts": [
+        "n8n workflow cleanup vs rebuild",
+        "Should I rebuild or clean up my n8n automation?",
+        "When should I rebuild an n8n workflow instead of cleaning it up?",
+        "Is it better to rescue a messy n8n workflow or rebuild it from scratch?",
+        "How do I know if my n8n automation is worth saving?"
       ]
     },
     {
