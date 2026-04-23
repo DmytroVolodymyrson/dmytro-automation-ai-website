@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-ai-voice-agent-setup-mistakes-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: AI Voice Agent Setup Mistakes for Small Business\nBody: Most AI voice-agent failures do not start after months of scale. They start before launch. This page isolates the early rollout mistakes that quietly create bad caller experience, weak transfer logic, messy CRM handoff, and future rescue work.\nSub: Below: the most common voice-agent setup mistakes, which ones usually create the biggest downstream mess, when DIY is still fine, and how this page stays separate from the broader setup-help, cost, ROI, DIY, and manual-callback pages already live on the site.\n\n### Core sections\n- The setup mistakes that usually create the biggest mess later\n- What each setup mistake usually causes downstream\n- When this page is useful — and when it is not\n- How to avoid turning setup into future cleanup\n- The five AI voice-agent setup mistakes owners regret most\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions from owners trying to avoid the setup mistakes that quietly turn a promising voice-agent rollout into a fragile phone workflow nobody trusts\n- What are the most common AI voice-agent setup mistakes before launch?\n- How do I avoid a messy AI voice-agent launch?\n- How is this different from the voice-agent setup-help page?\n- When do setup mistakes turn into a cleanup problem?\n- Should I fix voice-agent setup mistakes myself or hire help before launch?\n\n### Final CTA\nHeading: Want a cleaner voice-agent launch before small setup mistakes get expensive?\nBody: Book a 30-minute call. We will look at your planned call flow, identify the setup mistakes most likely to create weak qualification, bad transfer behavior, or messy handoff, and help you scope the narrowest trustworthy rollout first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the exact tracked query “What are common AI voice agent setup mistakes before launch?” was still buried under the live AI voice-agent setup page, and it remained materially distinct from the broader setup-help, cost, ROI, DIY, and manual-callback pages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page tightly on pre-launch failure modes: call objective, transfer boundaries, CRM handoff, ugly-call testing, and live ownership after go-live."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used only adjacent proof already published on the site: the existing voice-agent cluster, the Paris Cafe phone-workflow case study, and the WheelsFeels CRM case study. Avoided pretending there is a dedicated voice-agent setup-mistakes case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: smaller first rollout, hard boundaries, edge-case testing, and preventing expensive rescue work later."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T18:55:06.488Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 21.7,
+      "sentenceLengthRange": [
+        4,
+        58
+      ],
+      "totalWords": 282
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Voice Agent Setup Mistakes for Small Business\nBody: Most AI voice-agent failures do not start after months of scale.",
+      "wordCount": 22,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a cleaner voice-agent launch before small setup mistakes get expensive?\nBody: Book a 30-minute call. We will look at your planned call flow, identify the setup mistakes most likely to create weak qualification, bad transfer behavior, or messy handoff, and help you scope the narrowest trustworthy rollout first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 6,
+      "commas": 14,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 1.17
+    },
+    "vocabulary": {
+      "distinctWords": 143,
+      "totalWords": 282,
+      "topWords": [
+        [
+          "setup",
+          12
+        ],
+        [
+          "mistakes",
+          11
+        ],
+        [
+          "-",
+          11
+        ],
+        [
+          "voice-agent",
+          9
+        ],
+        [
+          "ai",
+          5
+        ],
+        [
+          "most",
+          5
+        ],
+        [
+          "launch",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "before",
+          4
+        ],
+        [
+          "create",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "do",
+          3
+        ],
+        [
+          "rollout",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

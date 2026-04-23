@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped gohighlevel-setup-mistakes-small-business because broad backlog reconciliation was still effectively exhausted, but the live GoHighLevel setup page still contained the exact pre-launch query "What are the most common GoHighLevel setup mistakes for a small business?". That made a distinct, proof-backed child page possible beside the existing setup-help, setup-cost, DIY, cleanup, audit, and cleanup-vs-rebuild pages by framing it strictly as first-launch mistakes before the account turns into a recovery-stage cleanup project.)
+Last updated: 2026-04-23 (shipped ai-voice-agent-setup-mistakes-small-business because the live voice-agent setup cluster still contained the exact pre-launch query "What are common AI voice agent setup mistakes before launch?". That made a distinct, proof-backed child page possible beside the existing setup-help, DIY, cost, ROI, and manual-callback pages by framing it strictly as first-launch mistake prevention before the workflow turns into a rescue project.)
 
 ## Live GEO Assets
 
@@ -120,6 +120,7 @@ Last updated: 2026-04-23 (shipped gohighlevel-setup-mistakes-small-business beca
 | AI Phone Answering for Service Businesses | `/ai-phone-answering-for-service-businesses` | Workflow page | Live |
 | AI Voice Agent for Lead Qualification | `/ai-voice-agent-lead-qualification` | Workflow / voice AI page | Live |
 | AI Voice Agent Setup for Lead Qualification | `/ai-voice-agent-setup-for-lead-qualification` | Workflow / implementation-help page | Live |
+| AI Voice Agent Setup Mistakes for Small Business | `/ai-voice-agent-setup-mistakes-small-business` | Workflow / pre-launch setup-risk page | Live |
 | AI Voice Agent Setup vs. DIY (SMB) | `/ai-voice-agent-setup-vs-diy-small-business` | Workflow / buy-vs-build comparison page | Live |
 | AI Voice Agent Cost for Small Business | `/ai-voice-agent-cost-small-business` | Workflow / pricing decision page | Live |
 | AI Voice Agent ROI for Lead Follow-Up | `/ai-voice-agent-roi-for-lead-follow-up` | Workflow / ROI decision page | Live |
@@ -169,20 +170,20 @@ Last updated: 2026-04-23 (shipped gohighlevel-setup-mistakes-small-business beca
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 149**
+**Total decision/comparison/industry pages live: 150**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/gohighlevel-setup-mistakes-small-business` extracted another exact tracked query from an already-live setup cluster without rehashing the same page intent. The specific pre-launch mistakes query now lives on its own page instead of staying buried under the broader setup-help prompt set. The next pass should still start with a broad reconciliation instead of assuming another clean backlog page exists.
+Shipping `/ai-voice-agent-setup-mistakes-small-business` extracted the remaining exact pre-launch mistakes query from the live voice-agent setup page without rehashing setup-help, cost, ROI, DIY, or manual-callback intent. Broad backlog reconciliation still looks close to exhausted, so the next pass should start broad again instead of assuming another clean page survives automatically.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1 candidate** | `/ai-voice-agent-setup-mistakes-small-business` | Exact remaining setup-stage query: common AI voice-agent setup mistakes before launch | The voice-agent setup page still carries a distinct pre-launch failure-state prompt, and the site has direct phone-workflow proof plus adjacent qualification/CRM proof to support a bounded child page without rehashing setup-help, cost, ROI, or DIY. | **Next best candidate** |
-| 2 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, and n8n clusters without filler | Use this if the next reconciliation still finds no clean proof-backed net-new page that is meaningfully distinct. | **Fallback if no better exact query survives** |
-| 3 | **Watchlist** | Keep the GoHighLevel setup + recovery cluster clean | Preserve the new separation between setup help, setup-cost, DIY, setup-mistakes, cleanup, audit, and cleanup-vs-rebuild pages | Avoid leaving the exact setup-mistakes query duplicated under the broader setup-help entry again. | **Done for now; monitor drift only** |
+| 1 | **Fallback** | Broad backlog reconciliation for one more net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | After extracting the voice-agent setup-mistakes child, the neat queue is no longer trustworthy enough to force another exact-page assumption. | **Do this first next run** |
+| 2 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, n8n, and voice-agent clusters without filler | Use this if the next reconciliation still finds no clean proof-backed net-new page that is meaningfully distinct. | **Fallback if no better exact query survives** |
+| 3 | **Watchlist** | Keep the voice-agent setup cluster clean | Preserve the separation between setup help, setup-mistakes, DIY, cost, ROI, and manual-callback pages | Avoid leaving the exact setup-mistakes query duplicated under the broader setup-help entry again. | **Done for now; monitor drift only** |
 
 ### Priority Definitions
 

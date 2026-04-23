@@ -511,6 +511,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Voice Agent Setup Mistakes for Small Business",
+    description:
+      "Pre-launch guide to the voice-agent setup mistakes that usually create bad caller experience, weak transfer behavior, messy CRM handoff, and expensive rescue work later.",
+    href: "/ai-voice-agent-setup-mistakes-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Voice Agent Setup vs. DIY for Small Business",
     description:
       "Practical buy-vs-build guide for businesses deciding whether voice-agent setup should stay an owner-led project or move to expert implementation before more calls leak during rollout.",

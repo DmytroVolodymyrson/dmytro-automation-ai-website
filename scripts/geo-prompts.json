@@ -941,7 +941,19 @@
         "How do I set up an AI voice agent to qualify inbound leads?",
         "What should an AI voice agent include before it goes live?",
         "How much does AI voice agent setup cost for a small business?",
-        "What are common AI voice agent setup mistakes before launch?"
+        "What should I test before launching an AI voice agent?"
+      ]
+    },
+    {
+      "id": "ai-voice-agent-setup-mistakes-small-business",
+      "path": "/ai-voice-agent-setup-mistakes-small-business",
+      "label": "AI Voice Agent Setup Mistakes for Small Business",
+      "prompts": [
+        "AI voice agent setup mistakes for small business",
+        "What are common AI voice agent setup mistakes before launch?",
+        "What usually goes wrong when a small business launches an AI voice agent?",
+        "How do I avoid bad transfer logic in an AI voice agent setup?",
+        "Which AI voice agent setup mistakes create the most cleanup later?"
       ]
     },
     {
