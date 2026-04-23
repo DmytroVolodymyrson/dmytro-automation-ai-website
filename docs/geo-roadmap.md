@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped ai-appointment-setter-cost-small-business and added it to tracking)
+Last updated: 2026-04-22 (shipped ai-voice-agent-cost-small-business and added it to tracking)
 
 ## Live GEO Assets
 
@@ -88,6 +88,7 @@ Last updated: 2026-04-22 (shipped ai-appointment-setter-cost-small-business and 
 | AI Phone Answering for Service Businesses | `/ai-phone-answering-for-service-businesses` | Workflow page | Live |
 | AI Voice Agent for Lead Qualification | `/ai-voice-agent-lead-qualification` | Workflow / voice AI page | Live |
 | AI Voice Agent Setup for Lead Qualification | `/ai-voice-agent-setup-for-lead-qualification` | Workflow / implementation-help page | Live |
+| AI Voice Agent Cost for Small Business | `/ai-voice-agent-cost-small-business` | Workflow / pricing decision page | Live |
 | AI Voice Agent ROI for Lead Follow-Up | `/ai-voice-agent-roi-for-lead-follow-up` | Workflow / ROI decision page | Live |
 | Instant Lead Response Automation | `/instant-lead-response-automation` | Workflow page | Live |
 | Contact Form Lead Follow-Up Automation | `/contact-form-lead-follow-up-automation` | Workflow / web-form recovery page | Live |
@@ -125,14 +126,14 @@ Last updated: 2026-04-22 (shipped ai-appointment-setter-cost-small-business and 
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 106**
+**Total decision/comparison/industry pages live: 107**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-The explicit cross-doc backlog is still effectively exhausted, and the strongest remaining Tier-B proof-led child candidate has now shipped. `/ai-appointment-setter-cost-small-business` qualified because the pricing query was already implied by tracked appointment-setter prompts, the site already had a strong adjacent appointment-setter / voice / setup cluster, and the page stayed separate from the broader appointment-setter guide by focusing narrowly on budgeting and scope for small-business builds. The queue should now stay honest: no fake clean backlog, just fallback discovery/internal-link work plus a proof-led watchlist if a truly distinct new candidate emerges.
+The explicit cross-doc backlog is still effectively exhausted, and the strongest remaining Tier-B proof-led child candidate has now shipped. `/ai-voice-agent-cost-small-business` qualified because the pricing query was already implied by tracked voice-agent prompts, the site already had a strong adjacent voice / setup / ROI cluster, and the page stayed separate from the broader voice-agent guides by focusing narrowly on budgeting and scope for small-business phone workflows. The queue should stay honest after this ship: no fake clean backlog, just fallback discovery/internal-link work plus a proof-led watchlist if a truly distinct new candidate emerges.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|

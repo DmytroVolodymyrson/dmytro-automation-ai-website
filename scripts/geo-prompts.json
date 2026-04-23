@@ -657,6 +657,18 @@
       ]
     },
     {
+      "id": "ai-voice-agent-cost-small-business",
+      "path": "/ai-voice-agent-cost-small-business",
+      "label": "AI Voice Agent Cost for Small Business",
+      "prompts": [
+        "What does an AI voice agent cost for a small business?",
+        "How much should a small business budget for an AI voice agent?",
+        "AI voice agent pricing for lead qualification and phone answering",
+        "What makes an AI voice agent project expensive?",
+        "Is an AI voice agent worth the cost for a service business?"
+      ]
+    },
+    {
       "id": "ai-voice-agent-roi-for-lead-follow-up",
       "path": "/ai-voice-agent-roi-for-lead-follow-up",
       "label": "AI Voice Agent ROI for Lead Follow-Up",

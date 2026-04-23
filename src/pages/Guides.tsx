@@ -371,6 +371,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Voice Agent Cost for Small Business",
+    description:
+      "What a small business should actually budget for AI phone answering, lead qualification, booking, CRM handoff, and the narrowest voice-agent build worth paying for first.",
+    href: "/ai-voice-agent-cost-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Voice Agent ROI for Lead Follow-Up",
     description:
       "Practical ROI guide for voice-agent lead handling — setup cost, monthly cost, conservative payback math, and when a voice workflow is actually worth building versus overkill.",

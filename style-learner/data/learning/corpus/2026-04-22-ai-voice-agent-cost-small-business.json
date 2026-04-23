@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-ai-voice-agent-cost-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Voice Agent Cost for Small Business\nBody: If you are pricing AI voice agents, the first mistake is treating every phone workflow like the same product. A small business that only needs missed-call recovery or basic after-hours phone coverage should not buy the same build as a business that wants live lead qualification, appointment booking, CRM updates, transfer logic, and human fallback for edge cases. Voice-agent pricing is mostly a scope question. This page breaks down realistic small-business pricing for the most common voice-agent setups so you can budget the narrowest workflow that actually protects revenue instead of paying for a bloated AI receptionist fantasy.\nSub: Below: what different voice-agent builds usually cost, what pushes the price up, when a simpler phone workflow is enough, and how to budget without overbuying.\n\n### Core sections\n- What an AI voice agent usually costs\n- What makes the price go up\n- When this spend makes sense — and when it does not\n- How to budget this without wasting money\n- Proof and adjacent proof\n- What small businesses usually get wrong about voice-agent pricing\n\n### FAQ\nSubhead: Practical answers for small businesses budgeting AI voice-agent implementation\n- What does an AI voice agent cost for a small business?\n- Why is this different from the AI voice agent ROI page?\n- What usually makes a voice-agent project expensive?\n- Can I start with a smaller voice workflow and expand later?\n- How do I know whether the price is worth it?\n\n### Final CTA\nHeading: Want a realistic quote for a voice-agent workflow?\nBody: Book a 30-minute call. We will look at your call volume, missed-call patterns, booking or routing rules, and where phone demand is leaking now, then give you a fixed-price range for the narrowest voice workflow worth doing first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped from tracked voice-agent prompt intent even though the roadmap queue was already in fallback/watchlist mode."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page distinct from the broader voice-agent guide, setup guide, and ROI page by making it strictly a budgeting-and-scope decision page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used bounded proof only: Paris Café for direct voice-handling value, plus the existing lead-qualification and ROI pages for adjacent workflow and economics framing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoided fake savings claims, fake per-call benchmarks, or unsupported staffing comparisons; the pricing ranges stay conservative and small-business specific."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T00:00:22.002Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 21.5,
+      "sentenceLengthRange": [
+        5,
+        51
+      ],
+      "totalWords": 301
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Voice Agent Cost for Small Business\nBody: If you are pricing AI voice agents, the first mistake is treating every phone workflow like the same product.",
+      "wordCount": 29,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a realistic quote for a voice-agent workflow?\nBody: Book a 30-minute call. We will look at your call volume, missed-call patterns, booking or routing rules, and where phone demand is leaking now, then give you a fixed-price range for the narrowest voice workflow worth doing first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 12,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 0.92
+    },
+    "vocabulary": {
+      "distinctWords": 163,
+      "totalWords": 301,
+      "topWords": [
+        [
+          "-",
+          11
+        ],
+        [
+          "ai",
+          7
+        ],
+        [
+          "voice",
+          7
+        ],
+        [
+          "voice-agent",
+          7
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "workflow",
+          6
+        ],
+        [
+          "small",
+          5
+        ],
+        [
+          "agent",
+          4
+        ],
+        [
+          "business",
+          4
+        ],
+        [
+          "pricing",
+          4
+        ],
+        [
+          "phone",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "cost",
+          3
+        ],
+        [
+          "that",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
