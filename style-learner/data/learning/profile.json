@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-23T01:51:21.603Z",
-  "postCount": 129,
+  "updatedAt": "2026-04-23T02:02:49.083Z",
+  "postCount": 130,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -9,31 +9,31 @@
   },
   "structure": {
     "paragraphCount": {
-      "mean": 4.7,
+      "mean": 4.6,
       "median": 4,
       "min": 1,
       "max": 11,
       "p25": 4,
       "p75": 4,
-      "samples": 129
+      "samples": 130
     },
     "sentenceLength": {
       "mean": 19,
-      "median": 17.8,
+      "median": 17.85,
       "min": 7.1,
       "max": 105,
       "p25": 15.4,
-      "p75": 20.9,
-      "samples": 129
+      "p75": 21,
+      "samples": 130
     },
     "totalWords": {
-      "mean": 251.3,
-      "median": 231,
+      "mean": 251.9,
+      "median": 232,
       "min": 17,
       "max": 1155,
       "p25": 175,
-      "p75": 295,
-      "samples": 129
+      "p75": 296,
+      "samples": 130
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -72,7 +72,7 @@
       "long | long | long | long": 5,
       "long | long | single | long": 18,
       "single | long | long": 1,
-      "long | short | long | long": 8,
+      "long | short | long | long": 9,
       "long | single | long | long": 11,
       "single | long | single | single | single | single | single | long | single | single": 1,
       "long | single | single | long | single": 1
@@ -97,7 +97,7 @@
       "opener | product-pitch | product-pitch | result | context | product-pitch | context | product-pitch | product-pitch | closer": 1,
       "opener | context | context | context | result | product-pitch | context | context | closer": 1,
       "opener | context | product-pitch | closer": 8,
-      "opener | context | context | closer": 51,
+      "opener | context | context | closer": 52,
       "opener | product-pitch | context | closer": 12,
       "opener | context | product-pitch | context | product-pitch | result | context | closer": 1,
       "opener | product-pitch | product-pitch | closer": 5,
@@ -119,7 +119,7 @@
   "openers": {
     "patterns": {
       "situation": {
-        "count": 24,
+        "count": 25,
         "examples": [
           "Badge: The Person Behind the Automation",
           "Section heading: Common Questions\nSubheading: Straight answers about working wit",
@@ -169,7 +169,7 @@
         ]
       },
       "question": {
-        "count": 83,
+        "count": 84,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -202,15 +202,15 @@
     "topWords": [
       [
         "-",
-        867
+        877
       ],
       [
         "automation",
-        482
+        490
       ],
       [
         "what",
-        355
+        361
       ],
       [
         "ai",
@@ -222,19 +222,19 @@
       ],
       [
         "follow-up",
-        227
+        240
       ],
       [
         "lead",
         142
       ],
       [
-        "heading",
+        "it",
         128
       ],
       [
-        "it",
-        125
+        "heading",
+        128
       ],
       [
         "not",
@@ -269,6 +269,10 @@
         76
       ],
       [
+        "when",
+        74
+      ],
+      [
         "voice",
         71
       ],
@@ -277,7 +281,7 @@
         71
       ],
       [
-        "when",
+        "usually",
         67
       ],
       [
@@ -293,16 +297,12 @@
         64
       ],
       [
-        "usually",
+        "crm",
         63
       ],
       [
         "this",
         61
-      ],
-      [
-        "crm",
-        58
       ],
       [
         "page",

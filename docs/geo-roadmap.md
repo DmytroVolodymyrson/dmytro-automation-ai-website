@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped estimate-follow-up-automation-for-roofing-companies and exhausted the last clean net-new watchlist page)
+Last updated: 2026-04-22 (shipped ecommerce-crm-automation-vs-manual-follow-up after reopening the e-commerce cluster with an explicit tracked prompt about custom automation vs manual follow-up)
 
 ## Live GEO Assets
 
@@ -83,6 +83,7 @@ Last updated: 2026-04-22 (shipped estimate-follow-up-automation-for-roofing-comp
 | AI Automation for E-Commerce Brands | `/ai-automation-ecommerce` | Industry page | Live |
 | AI Automation for Auto Parts E-Commerce | `/ai-automation-for-auto-parts-ecommerce` | Industry page | Live |
 | E-Commerce CRM Automation with AI Follow-Up | `/ecommerce-crm-automation-with-ai-follow-up` | Industry workflow page | Live |
+| E-Commerce CRM Automation vs. Manual Follow-Up | `/ecommerce-crm-automation-vs-manual-follow-up` | Industry decision page | Live |
 | n8n Automation Consultant for Small Business | `/n8n-automation-consultant` | Decision / service page | Live |
 | Fitment Inquiry Automation for Auto Parts E-Commerce | `/fitment-inquiry-automation-for-auto-parts-ecommerce` | Industry workflow page | Live |
 | Repeat-Purchase & Reactivation Automation for E-Commerce Brands | `/repeat-purchase-reactivation-automation-for-ecommerce-brands` | Industry lifecycle page | Live |
@@ -133,20 +134,20 @@ Last updated: 2026-04-22 (shipped estimate-follow-up-automation-for-roofing-comp
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 114**
+**Total decision/comparison/industry pages live: 115**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-`/estimate-follow-up-automation-for-roofing-companies` was the last clean high-confidence watchlist child that still survived reconciliation across the roadmap, the broader planning docs, the tracked prompts, and the live route set. The roofing parent already tracked estimate-follow-up intent, and the child could stay materially distinct by focusing only on sent-roof-quote recovery, insurance-delay check-ins, estimator handoff, and stale-estimate visibility. With that page now live, the queue falls back to maintenance and proof-led watchlist mode until a new defensible net-new page emerges from future proof or prompt drift.
+`/ecommerce-crm-automation-vs-manual-follow-up` reopened the backlog because the live e-commerce parent already tracked an explicit decision query about custom automation versus manual follow-up. That made the page commercially real, materially different from the broader CRM workflow guide, and directly supportable by the published WheelsFeels CRM case study. With that child now live, the queue returns to fallback + proof-led watchlist mode rather than pretending there is another equally clean ship waiting.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | GoHighLevel + appointment setter + e-commerce + property management discovery and internal links | With the last clean watchlist child now shipped, default back to discovery-surface and internal-link improvements instead of inventing filler. | **Fallback** |
-| 2 | **Deferred** | Hold weaker adjacent-intent ideas until direct proof improves | avoid cannibalization / thin content | Keep the program honest when only soft prompt-adjacent ideas remain. | **Deferred** |
-| 3 | **Watchlist** | Re-open roofing / contractor child expansion only if new proof appears | roofing estimate recovery siblings or adjacent contractor workflow splits | Do not force another roofing or contractor child page unless new direct proof, tracked prompts, or live performance data create a cleaner distinction than what exists today. | **Watchlist** |
+| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | GoHighLevel + appointment setter + e-commerce + property management discovery and internal links | After shipping the explicit custom-vs-manual e-commerce child, default back to discovery-surface and internal-link improvements instead of inventing filler. | **Fallback** |
+| 2 | **Watchlist** | `after-hours-tenant-communication-for-property-management-companies` | after-hours tenant communication and escalation for property managers | The tenant-communication cluster already tracks this exact after-hours escalation intent, but it is still a softer adjacent child that should stay deferred until stronger proof or performance signal makes the distinction cleaner. | **Watchlist** |
+| 3 | **Deferred** | Hold weaker adjacent-intent ideas until direct proof improves | avoid cannibalization / thin content | Keep the program honest when only soft prompt-adjacent ideas remain. | **Deferred** |
 
 ### Priority Definitions
 

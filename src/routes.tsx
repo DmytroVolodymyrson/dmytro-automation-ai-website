@@ -77,6 +77,7 @@ import AiAutomationEcommerce from "./pages/AiAutomationEcommerce";
 import AiAutomationForAutoPartsEcommerce from "./pages/AiAutomationForAutoPartsEcommerce";
 import FitmentInquiryAutomationForAutoPartsEcommerce from "./pages/FitmentInquiryAutomationForAutoPartsEcommerce";
 import EcommerceCrmAutomationWithAiFollowUp from "./pages/EcommerceCrmAutomationWithAiFollowUp";
+import EcommerceCrmAutomationVsManualFollowUp from "./pages/EcommerceCrmAutomationVsManualFollowUp";
 import RepeatPurchaseReactivationAutomationForEcommerceBrands from "./pages/RepeatPurchaseReactivationAutomationForEcommerceBrands";
 import CustomerServiceAutomationForEcommerceBrands from "./pages/CustomerServiceAutomationForEcommerceBrands";
 import OrderStatusAndReturnSupportAutomationForEcommerceBrands from "./pages/OrderStatusAndReturnSupportAutomationForEcommerceBrands";
@@ -225,6 +226,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-ecommerce", element: <AiAutomationEcommerce /> },
   { path: "/ai-automation-for-auto-parts-ecommerce", element: <AiAutomationForAutoPartsEcommerce /> },
   { path: "/ecommerce-crm-automation-with-ai-follow-up", element: <EcommerceCrmAutomationWithAiFollowUp /> },
+  { path: "/ecommerce-crm-automation-vs-manual-follow-up", element: <EcommerceCrmAutomationVsManualFollowUp /> },
   {
     path: "/fitment-inquiry-automation-for-auto-parts-ecommerce",
     element: <FitmentInquiryAutomationForAutoPartsEcommerce />,

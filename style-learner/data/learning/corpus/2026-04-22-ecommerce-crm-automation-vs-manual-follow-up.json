@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-ecommerce-crm-automation-vs-manual-follow-up",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: E-Commerce CRM Automation vs. Manual Follow-Up\nBody: Manual follow-up is fine when inquiry volume is low, the buying process is simple, and one person still remembers every lead, quote request, wholesale conversation, and support-to-sales handoff. It stops working when leads sit in inboxes, stale lists never get touched, replies depend on whoever happens to be online, and nobody can tell which contacts are still worth chasing. For an e-commerce brand with real inquiry volume, the decision is usually not whether to buy a CRM, but whether manual follow-up is still good enough or whether a custom automation layer is now cheaper than continuing to leak conversations and owner attention.\nSub: Below: when manual follow-up is still acceptable, when automation becomes the safer move, what the first build should handle, and what direct proof supports this without pretending every store needs a giant custom system.\n\n### Core sections\n- What manual follow-up usually looks like once a store starts feeling the strain\n- Manual follow-up vs. a custom automation layer\n- When manual follow-up is still fine — and when it is not\n- Where a focused automation layer usually wins first\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions from operators deciding whether manual follow-up is still good enough\n- How is this different from the existing e-commerce CRM automation page?\n- What is the clearest sign manual follow-up has stopped being good enough?\n- Do I need a custom CRM from scratch to stop doing follow-up manually?\n- What does a focused e-commerce CRM automation layer usually cost?\n- When should I keep manual follow-up a little longer?\n\n### Final CTA\nHeading: Want to know if your store should keep manual follow-up or automate it now?\nBody: Book a 30-minute call. We will look at how your inquiries move today, where follow-up is slipping, and whether the right next move is a focused automation layer, better process discipline, or no build yet.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected because the e-commerce parent already tracked an explicit decision query: whether an online store should build custom automation or keep doing CRM follow-up manually. That made this a defensible Tier-B child page instead of filler."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page materially separate from the broader e-commerce CRM workflow guide by framing it as a buyer decision page: hidden cost of manual follow-up, when the leak becomes real, and the smallest automation layer worth building first."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Grounded the proof in the published WheelsFeels CRM case study plus the existing e-commerce CRM buyer guide. Avoided pretending there is a separate published manual-vs-automation case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: manual is explicitly still fine in low-volume cases, and the page leaves room for process discipline or no build yet when automation is premature."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T02:02:49.043Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        2,
+        5,
+        3
+      ],
+      "avgSentenceLength": 21.6,
+      "sentenceLengthRange": [
+        5,
+        43
+      ],
+      "totalWords": 324
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: E-Commerce CRM Automation vs.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to know if your store should keep manual follow-up or automate it now?\nBody: Book a 30-minute call. We will look at how your inquiries move today, where follow-up is slipping, and whether the right next move is a focused automation layer, better process discipline, or no build yet.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 17,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 10,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 1.21
+    },
+    "vocabulary": {
+      "distinctWords": 169,
+      "totalWords": 324,
+      "topWords": [
+        [
+          "follow-up",
+          13
+        ],
+        [
+          "manual",
+          11
+        ],
+        [
+          "-",
+          10
+        ],
+        [
+          "automation",
+          8
+        ],
+        [
+          "when",
+          7
+        ],
+        [
+          "still",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "crm",
+          5
+        ],
+        [
+          "whether",
+          5
+        ],
+        [
+          "layer",
+          5
+        ],
+        [
+          "e-commerce",
+          4
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "custom",
+          4
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "good",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

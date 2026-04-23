@@ -722,6 +722,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "E-Commerce CRM Automation vs. Manual Follow-Up",
+    description:
+      "Decision guide for online stores deciding whether manual CRM follow-up is still good enough or whether a focused custom automation layer now costs less than the leak.",
+    href: "/ecommerce-crm-automation-vs-manual-follow-up",
+    category: "industries",
+  },
+  {
     title: "Fitment Inquiry Automation for Auto Parts E-Commerce",
     description:
       "A narrower auto-parts workflow page focused on fitment inquiry intake, vehicle-detail capture, routing, high-intent alerts, and the human handoff points that should not be automated away.",

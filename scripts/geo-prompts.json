@@ -585,6 +585,18 @@
       ]
     },
     {
+      "id": "ecommerce-crm-automation-vs-manual-follow-up",
+      "path": "/ecommerce-crm-automation-vs-manual-follow-up",
+      "label": "E-Commerce CRM Automation vs. Manual Follow-Up",
+      "prompts": [
+        "E-commerce CRM automation vs manual follow-up",
+        "Should an online store build custom automation or keep doing CRM follow-up manually?",
+        "When does manual CRM follow-up stop working for an e-commerce brand?",
+        "Is custom e-commerce CRM automation worth it or should I keep doing follow-up manually?",
+        "Best way to decide between manual follow-up and automated CRM workflows for an online store?"
+      ]
+    },
+    {
       "id": "ai-automation-for-auto-parts-ecommerce",
       "path": "/ai-automation-for-auto-parts-ecommerce",
       "label": "AI Automation for Auto Parts E-Commerce",
