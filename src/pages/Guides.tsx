@@ -237,6 +237,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "Missed Call Text-Back vs. AI Voice Agent for Restaurants",
+    description:
+      "Should a restaurant use SMS-first recovery after missed calls or invest in live AI phone coverage? Practical comparison of booking recovery, guest experience, cost, and where each option fits.",
+    href: "/missed-call-text-back-vs-ai-voice-agent-for-restaurants",
+    category: "comparisons",
+  },
+  {
     title: "AI Voice Agent vs. Call Center",
     description:
       "AI voice agent or outsourced call center? Compare monthly cost, call quality, CRM integration, and scalability for small service businesses.",

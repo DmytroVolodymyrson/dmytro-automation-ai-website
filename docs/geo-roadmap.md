@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped after-hours-tenant-communication-for-property-management-companies by isolating the exact overnight escalation query already tracked inside the live tenant-communication cluster)
+Last updated: 2026-04-22 (shipped missed-call-text-back-vs-ai-voice-agent-for-restaurants by turning the exact restaurant phone-choice prompt already tracked under the live missed-call-text-back cluster into a dedicated comparison page anchored in Paris Cafe proof and existing restaurant phone-recovery guides)
 
 ## Live GEO Assets
 
@@ -24,6 +24,7 @@ Last updated: 2026-04-22 (shipped after-hours-tenant-communication-for-property-
 | Private-Event Inquiry Follow-Up for Restaurants | `/private-event-inquiry-follow-up-for-restaurants` | Restaurant workflow page | Live |
 | Reservation Confirmation and Reminder Automation for Restaurants | `/reservation-confirmation-and-reminder-automation-for-restaurants` | Restaurant workflow page | Live |
 | Missed Call Text-Back for Restaurants | `/missed-call-text-back-for-restaurants` | Restaurant workflow page | Live |
+| Missed Call Text-Back vs. AI Voice Agent for Restaurants | `/missed-call-text-back-vs-ai-voice-agent-for-restaurants` | Restaurant comparison page | Live |
 | AI Lead Follow-Up | `/ai-lead-follow-up-for-service-businesses` | Decision page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Workflow / pricing decision page | Live |
 | AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo landing page | Live |
@@ -135,19 +136,19 @@ Last updated: 2026-04-22 (shipped after-hours-tenant-communication-for-property-
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 116**
+**Total decision/comparison/industry pages live: 117**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/after-hours-tenant-communication-for-property-management-companies` used the strongest remaining explicit prompt-adjacent child still left in the backlog: the overnight tenant-communication and escalation query already tracked inside the live property-management communication cluster. With that page now live, there is no equally clean planned-but-unshipped child still surviving review. The queue returns to fallback + proof-led watchlist mode instead of pretending another net-new page is ready on the same confidence level.
+Shipping `/missed-call-text-back-vs-ai-voice-agent-for-restaurants` used one of the last exact tracked comparison queries still hiding inside a live cluster: the restaurant phone-choice prompt already embedded under the live missed-call-text-back page. With that page now live, the backlog returns to fallback + proof-led watchlist mode again instead of pretending another equally clean net-new page is ready at the same confidence level.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | GoHighLevel + appointment setter + e-commerce + property management discovery and internal links | After shipping the strongest remaining property-management watchlist child, default back to discovery-surface and internal-link improvements unless a new proof-backed query becomes explicit. | **Fallback** |
-| 2 | **Watchlist** | Hold softer adjacent-intent ideas until direct proof improves | avoid cannibalization / thin content | Keep the program honest when only weaker prompt-adjacent ideas remain. | **Watchlist** |
+| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | GoHighLevel + appointment setter + restaurant + e-commerce + property management discovery and internal links | After shipping one of the last exact tracked comparison queries, default back to discovery-surface and internal-link improvements unless a new proof-backed query becomes explicit. | **Fallback** |
+| 2 | **Watchlist** | After-hours maintenance triage for property management companies (only if the exact query strengthens) | narrower overnight maintenance-intake decision | The remaining ideas are softer prompt-adjacent children and need a cleaner exact query or stronger proof before shipping. | **Watchlist** |
 | 3 | **Deferred** | Re-open net-new shipping only when a live cluster gains a clearer exact query or stronger proof | proof-led backlog refresh | Do not invent filler pages once the explicit high-confidence queue is exhausted again. | **Deferred** |
 
 ### Priority Definitions

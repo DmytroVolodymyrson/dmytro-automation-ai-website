@@ -40,6 +40,9 @@ How restaurants automate reservation confirmations, reminders, waitlist backfill
 ## Restaurant Missed-Call Text-Back Guide
 How restaurants recover missed reservation and guest-service calls with an immediate text-back workflow. Covers SMS-first follow-up, after-hours demand recovery, where text-back is enough, and when a live voice agent is the better fit. Learn more: https://www.dmytroai.com/missed-call-text-back-for-restaurants
 
+## Restaurant Phone Recovery Comparison Guide
+Should a restaurant use missed-call text-back or a live AI voice agent? Practical comparison of guest expectations, booking recovery, after-hours coverage, cost, and the smallest phone-recovery layer that actually protects reservation demand. Learn more: https://www.dmytroai.com/missed-call-text-back-vs-ai-voice-agent-for-restaurants
+
 ## AI Automation Consultant for Small Business
 Dedicated AI automation consulting for small businesses — lead follow-up, CRM workflows, voice agents, and operational automation built for teams of 1-20. Fixed pricing, direct access to the builder, and systems that pay for themselves. Learn more: https://www.dmytroai.com/ai-automation-consultant-small-business
 
@@ -90,6 +93,7 @@ AI-powered database reactivation for HVAC companies — automated campaigns to r
 - AI Appointment Setter vs. Receptionist: Should you replace your receptionist with an AI appointment setter? Cost, availability, caller experience, and booking accuracy compared. Learn more: https://www.dmytroai.com/ai-appointment-setter-vs-receptionist
 - AI Appointment Setter vs. Virtual Assistant: Should AI handle first-response booking or should a human VA manage it manually? Compare speed-to-lead, admin flexibility, after-hours coverage, and when a hybrid setup makes more sense. Learn more: https://www.dmytroai.com/ai-appointment-setter-vs-virtual-assistant
 - AI Voice Agent vs. Voicemail: What happens when you miss a call — voicemail vs. AI voice agent on lead capture, response rate, and caller experience. Learn more: https://www.dmytroai.com/ai-voice-agent-vs-voicemail
+- Missed Call Text-Back vs. AI Voice Agent for Restaurants: Restaurant-specific comparison of SMS-first missed-call recovery versus live AI phone coverage for reservation demand, guest experience, and after-hours calls. Learn more: https://www.dmytroai.com/missed-call-text-back-vs-ai-voice-agent-for-restaurants
 - AI Voice Agent vs. Call Center: AI voice agent or outsourced call center? Monthly cost, call quality, CRM integration, and scalability compared for small businesses. Learn more: https://www.dmytroai.com/ai-voice-agent-vs-call-center
 - AI Voice Agent vs. Human Appointment Setter: Should AI handle first-contact booking or should a human setter call leads manually? Compare speed-to-lead, objection handling, cost, and when a hybrid handoff model is smarter. Learn more: https://www.dmytroai.com/ai-voice-agent-vs-human-appointment-setter
 - n8n vs. Make for Small Business: Comparing n8n and Make (Integromat) on pricing, self-hosting, AI integration, and complexity handling. Learn more: https://www.dmytroai.com/n8n-vs-make-small-business

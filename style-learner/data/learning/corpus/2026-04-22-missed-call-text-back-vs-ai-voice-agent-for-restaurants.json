@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-missed-call-text-back-vs-ai-voice-agent-for-restaurants",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nBadge: Restaurant Comparison\nHeading: Missed Call Text-Back vs. AI Voice Agent for Restaurants\nBody: If your restaurant is missing calls, the real decision is not \"Should we use AI?\" It is whether a simple missed-call text-back is enough or whether you need a live AI voice agent answering the phone. Text-back is the lighter, cheaper fallback when the main problem is unanswered calls and simple reservation recovery. A voice agent is the stronger option when guests need answers right away, booking should happen in the same interaction, or after-hours phone demand is too valuable to leave to SMS threads and morning callbacks.\nSub: Below: where each option wins, where restaurants overbuild, where they underbuild, and what the Paris Cafe restaurant proof plus the existing phone-recovery pages actually support.\n\n### Core sections\n- Frames the decision as a restaurant phone-recovery choice, not a generic AI page.\n- Separates the job-to-be-done for missed-call text-back, AI voice agents, and voicemail instead of treating them like interchangeable tools.\n- Includes a side-by-side comparison on first response, reservation capture, guest experience, operating context, implementation cost, and failure modes.\n- Uses explicit “choose text-back when…” versus “choose voice agent when…” guidance so the page stays commercially distinct from both existing restaurant workflow pages.\n- Adds fit and non-fit signals, plus practical buying mistakes like overbuilding too early or underbuilding when live answers actually matter.\n- Keeps proof framing honest: Paris Cafe supports the live-answering side, while the existing restaurant missed-call text-back page supports the SMS-first side.\n\n### FAQ\nSubhead: Straight answers for restaurant owners deciding between SMS-first recovery and live AI phone coverage\nTopics: whether text-back is really cheaper, when to skip text-back and go straight to voice, whether guests actually reply to a missed-call text, whether a voice agent replaces the host stand, and how to make the decision using call pattern plus booking economics.\n\n### Final CTA\nHeading: Need help choosing the right restaurant phone-recovery layer?\nBody: Book a 30-minute call. We will look at your missed-call pattern, where reservation demand is leaking, and whether a focused text-back workflow or a live AI voice agent is the better first move for your restaurant.\nSub: No restaurant-tech theater. Just a practical decision based on call flow, guest expectations, and booking economics.\nRelated links: AI voice agent for restaurants, Missed call text-back for restaurants, AI automation for restaurants, Paris Cafe voice agent case study.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen after reconciling GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, scripts/geo-prompts.json, and current live routes."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Built from an exact tracked restaurant comparison prompt already living under the missed-call-text-back cluster, so the angle is backlog-grounded rather than invented."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the distinction explicit: text-back is the lighter fallback; voice agent is the stronger live-answering layer."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses direct, operator-style language around host-stand pressure, reservation recovery, after-hours demand, and booking economics instead of vague AI claims."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Maintains disciplined proof framing with the Paris Cafe case study plus adjacent on-site workflow pages, without pretending there is a dedicated restaurant comparison case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T02:27:44.043Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        6,
+        1,
+        6
+      ],
+      "avgSentenceLength": 22,
+      "sentenceLengthRange": [
+        4,
+        59
+      ],
+      "totalWords": 396
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nBadge: Restaurant Comparison\nHeading: Missed Call Text-Back vs.",
+      "wordCount": 9,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help choosing the right restaurant phone-recovery layer?\nBody: Book a 30-minute call. We will look at your missed-call pattern, where reservation demand is leaking, and whether a focused text-back workflow or a live AI voice agent is the better first move for your restaurant.\nSub: No restaurant-tech theater. Just a practical decision based on call flow, guest expectations, and booking economics.\nRelated links: AI voice agent for restaurants, Missed call text-back for restaurants, AI automation for restaurants, Paris Cafe voice agent case study.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 17,
+      "commas": 28,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 12,
+      "commasPerSentence": 1.56
+    },
+    "vocabulary": {
+      "distinctWords": 199,
+      "totalWords": 396,
+      "topWords": [
+        [
+          "text-back",
+          10
+        ],
+        [
+          "voice",
+          10
+        ],
+        [
+          "restaurant",
+          9
+        ],
+        [
+          "ai",
+          9
+        ],
+        [
+          "agent",
+          8
+        ],
+        [
+          "whether",
+          6
+        ],
+        [
+          "when",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "call",
+          5
+        ],
+        [
+          "restaurants",
+          5
+        ],
+        [
+          "missed-call",
+          5
+        ],
+        [
+          "decision",
+          4
+        ],
+        [
+          "live",
+          4
+        ],
+        [
+          "where",
+          4
+        ],
+        [
+          "your",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.005
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

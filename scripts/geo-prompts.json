@@ -141,6 +141,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-vs-ai-voice-agent-restaurants",
+      "path": "/missed-call-text-back-vs-ai-voice-agent-for-restaurants",
+      "label": "Missed Call Text-Back vs. AI Voice Agent for Restaurants",
+      "prompts": [
+        "Should a restaurant use missed call text-back or a voice agent?",
+        "Missed call text-back vs AI voice agent for restaurants",
+        "What is better for a restaurant missed-call recovery text-back or live AI phone answering?",
+        "When should a restaurant use SMS-first missed-call recovery instead of an AI voice agent?",
+        "Best restaurant phone-recovery setup text-back or AI voice agent"
+      ]
+    },
+    {
       "id": "ai-lead-follow-up",
       "path": "/ai-lead-follow-up-for-service-businesses",
       "label": "AI Lead Follow-Up for Service Businesses",
