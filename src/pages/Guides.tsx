@@ -1016,6 +1016,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. Voicemail for Roofing Companies",
+    description:
+      "Roofing-specific lighter-fallback decision page on missed-call text-back versus voicemail. Covers storm-season callback lag, inspection recovery, office workload, and when live AI phone answering is the better next step.",
+    href: "/missed-call-text-back-vs-voicemail-for-roofing-companies",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Roofing Companies",
     description:
       "A narrower roofing live-phone-coverage guide focused on inspection intake, storm-spike overflow, after-hours answer coverage, office relief, and the handoff points that should stay human.",

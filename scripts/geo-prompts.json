@@ -1305,6 +1305,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-vs-voicemail-for-roofing-companies",
+      "path": "/missed-call-text-back-vs-voicemail-for-roofing-companies",
+      "label": "Missed Call Text-Back vs. Voicemail for Roofing Companies",
+      "prompts": [
+        "Should a roofing company use missed-call text-back or voicemail?",
+        "Missed call text-back vs voicemail for roofing companies",
+        "Is voicemail enough for a roofing company when calls get missed?",
+        "When should a roofing company use missed-call text-back instead of voicemail and callbacks?",
+        "Best roofing missed-call recovery setup text-back or voicemail"
+      ]
+    },
+    {
       "id": "ai-phone-answering-for-roofing-companies",
       "path": "/ai-phone-answering-for-roofing-companies",
       "label": "AI Phone Answering for Roofing Companies",
