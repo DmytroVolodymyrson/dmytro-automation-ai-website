@@ -79,6 +79,7 @@ const FitmentInquiryAutomationForAutoPartsEcommerce = lazy(() => import("./pages
 const EcommerceCrmAutomationWithAiFollowUp = lazy(() => import("./pages/EcommerceCrmAutomationWithAiFollowUp"));
 const RepeatPurchaseReactivationAutomationForEcommerceBrands = lazy(() => import("./pages/RepeatPurchaseReactivationAutomationForEcommerceBrands"));
 const CustomerServiceAutomationForEcommerceBrands = lazy(() => import("./pages/CustomerServiceAutomationForEcommerceBrands"));
+const OrderStatusAndReturnSupportAutomationForEcommerceBrands = lazy(() => import("./pages/OrderStatusAndReturnSupportAutomationForEcommerceBrands"));
 const AfterHoursLeadCapture = lazy(() => import("./pages/AfterHoursLeadCapture"));
 const MissedCallFollowUp = lazy(() => import("./pages/MissedCallFollowUp"));
 const BookingConfirmationAndReminder = lazy(() => import("./pages/BookingConfirmationAndReminder"));
@@ -205,6 +206,7 @@ const AppRoutesClient = () => (
       <Route path="/fitment-inquiry-automation-for-auto-parts-ecommerce" element={<FitmentInquiryAutomationForAutoPartsEcommerce />} />
       <Route path="/repeat-purchase-reactivation-automation-for-ecommerce-brands" element={<RepeatPurchaseReactivationAutomationForEcommerceBrands />} />
       <Route path="/customer-service-automation-for-ecommerce-brands" element={<CustomerServiceAutomationForEcommerceBrands />} />
+      <Route path="/order-status-and-return-support-automation-for-ecommerce-brands" element={<OrderStatusAndReturnSupportAutomationForEcommerceBrands />} />
       <Route path="/after-hours-lead-capture-for-service-businesses" element={<AfterHoursLeadCapture />} />
       <Route path="/missed-call-follow-up-automation" element={<MissedCallFollowUp />} />
       <Route path="/booking-confirmation-and-reminder-automation" element={<BookingConfirmationAndReminder />} />

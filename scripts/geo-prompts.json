@@ -633,6 +633,18 @@
       ]
     },
     {
+      "id": "order-status-and-return-support-automation-for-ecommerce-brands",
+      "path": "/order-status-and-return-support-automation-for-ecommerce-brands",
+      "label": "Order-Status and Return Support Automation for E-Commerce Brands",
+      "prompts": [
+        "Order-status and return support automation for e-commerce brands",
+        "How do e-commerce brands automate order-status questions without hurting customer experience?",
+        "Best way to automate return and exchange intake for an online store",
+        "Should an e-commerce brand automate order-status and return support before broader customer service automation?",
+        "How do e-commerce brands route order-status return and exchange questions faster?"
+      ]
+    },
+    {
       "id": "after-hours-lead-capture",
       "path": "/after-hours-lead-capture-for-service-businesses",
       "label": "After-Hours Lead Capture",

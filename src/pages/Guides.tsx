@@ -736,6 +736,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Order-Status and Return Support Automation for E-Commerce Brands",
+    description:
+      "A tighter post-purchase support page focused specifically on order-status questions, return and exchange intake, exception routing, and the fastest bounded workflow to automate before broader support work.",
+    href: "/order-status-and-return-support-automation-for-ecommerce-brands",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Chiropractors",
     description:
       "AI automation for chiropractors. New patient intake, appointment scheduling, recall campaigns, no-show reduction, and review automation.",

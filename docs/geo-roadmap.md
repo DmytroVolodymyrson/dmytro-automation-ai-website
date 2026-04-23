@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped ai-appointment-setter-roi-small-business and added it to tracking)
+Last updated: 2026-04-22 (shipped order-status-and-return-support-automation-for-ecommerce-brands and refreshed the queue)
 
 ## Live GEO Assets
 
@@ -86,6 +86,7 @@ Last updated: 2026-04-22 (shipped ai-appointment-setter-roi-small-business and a
 | Fitment Inquiry Automation for Auto Parts E-Commerce | `/fitment-inquiry-automation-for-auto-parts-ecommerce` | Industry workflow page | Live |
 | Repeat-Purchase & Reactivation Automation for E-Commerce Brands | `/repeat-purchase-reactivation-automation-for-ecommerce-brands` | Industry lifecycle page | Live |
 | Customer Service Automation for E-Commerce Brands | `/customer-service-automation-for-ecommerce-brands` | Industry support workflow page | Live |
+| Order-Status and Return Support Automation for E-Commerce Brands | `/order-status-and-return-support-automation-for-ecommerce-brands` | Industry post-purchase support workflow page | Live |
 | After-Hours Lead Capture | `/after-hours-lead-capture-for-service-businesses` | Workflow page | Live |
 | Missed Call Follow-Up Automation | `/missed-call-follow-up-automation` | Workflow page | Live |
 | Booking Confirmation & Reminder | `/booking-confirmation-and-reminder-automation` | Workflow page | Live |
@@ -130,20 +131,20 @@ Last updated: 2026-04-22 (shipped ai-appointment-setter-roi-small-business and a
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 111**
+**Total decision/comparison/industry pages live: 112**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-The explicit cross-doc backlog is still mostly exhausted, but one tracked prompt inside the appointment-setter cluster still survived overlap review and is now live. `/ai-appointment-setter-roi-small-business` qualified because the cluster already had category, setup, cost, comparison, and home-service coverage, while the tracked cost-page prompt still contained a distinct “is it worth it?” economic decision that was not yet isolated into its own page. The site also already had bounded adjacent proof from the Paris Café voice-agent case study plus the existing appointment-setter cost/setup pages, so the page could stay specific without pretending there was a dedicated published appointment-setter case study. After this ship, the queue returns to an honest watchlist state again.
+The last remaining watchlist candidate from the broader planning set is now live. `/order-status-and-return-support-automation-for-ecommerce-brands` qualified because the e-commerce cluster already had a broad parent, CRM page, lifecycle child, and broader customer-service child, while the tracked prompts still contained a narrower post-purchase intent around order-status questions, return intake, and support routing. That made it commercially distinct enough to ship without pretending there is a dedicated published returns case study. With that page live, the clean net-new backlog returns to an honest maintenance-first fallback state until a stronger proof-backed adjacent page appears.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Watchlist** | Order-status / return-support child page under the e-commerce support cluster (only if it stays clearly narrower than the existing customer-service page) | e-commerce order-status automation / return-support routing | The e-commerce cluster still has adjacent support prompts strong enough for another narrow child, but only if the page stays tightly bounded to order-status, return, and support-routing workflows instead of rewriting the broader customer-service page. | **Watchlist** |
-| 2 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | appointment setter + voice + e-commerce + property management discovery and internal links | If the e-commerce support child does not survive overlap review next run, default back to discovery-surface and internal-link improvement on the strongest live clusters instead of inventing filler. | **Fallback** |
-| 3 | **Deferred** | Hold weaker adjacent-intent ideas until direct proof improves | avoid cannibalization / thin content | Keep the program honest now that the clean explicit backlog is mostly gone. | **Deferred** |
+| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | appointment setter + voice + e-commerce + property management discovery and internal links | The last clean e-commerce support child is now live. Default back to discovery-surface and internal-link improvement on the strongest live clusters instead of inventing filler next run. | **Fallback** |
+| 2 | **Watchlist** | Hold for a proof-backed adjacent child only if a truly distinct support or lifecycle prompt survives review later | future e-commerce / support / retention child intent | No additional clean net-new page currently survives overlap review strongly enough to justify another ship without new proof or a sharper prompt signal. | **Watchlist** |
+| 3 | **Deferred** | Hold weaker adjacent-intent ideas until direct proof improves | avoid cannibalization / thin content | Keep the program honest now that the clean explicit backlog is effectively exhausted again. | **Deferred** |
 
 ### Priority Definitions
 
