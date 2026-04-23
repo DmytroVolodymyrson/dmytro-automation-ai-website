@@ -371,6 +371,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "n8n Automation Consultant Cost for Small Business",
+    description:
+      "How much should a small business budget for an n8n consultant? Practical pricing guide for bounded workflow builds, self-hosting, cleanup work, and when expert help pays back.",
+    href: "/n8n-automation-consultant-cost-small-business",
+    category: "workflows",
+  },
+  {
     title: "n8n Consultant vs. DIY for Small Business",
     description:
       "Should you keep building in n8n yourself or hire expert help? Practical comparison of owner time, workflow risk, self-hosting overhead, and when a bounded consultant build is the cheaper move.",

@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped n8n-consultant-vs-diy-small-business by extracting the exact tool-specific buy-vs-build query already tracked under the live /n8n-automation-consultant cluster into a dedicated decision page anchored in the existing n8n consultant guide plus direct and adjacent workflow proof from the Instagram lead-generation and e-commerce CRM case studies)
+Last updated: 2026-04-22 (shipped n8n-automation-consultant-cost-small-business by extracting the exact pricing query still tracked under the live /n8n-automation-consultant cluster into a dedicated economic child page anchored in the existing n8n consultant guide plus direct and adjacent workflow proof from the Instagram lead-generation and e-commerce CRM case studies)
 
 ## Live GEO Assets
 
@@ -89,6 +89,7 @@ Last updated: 2026-04-22 (shipped n8n-consultant-vs-diy-small-business by extrac
 | E-Commerce CRM Automation with AI Follow-Up | `/ecommerce-crm-automation-with-ai-follow-up` | Industry workflow page | Live |
 | E-Commerce CRM Automation vs. Manual Follow-Up | `/ecommerce-crm-automation-vs-manual-follow-up` | Industry decision page | Live |
 | n8n Automation Consultant for Small Business | `/n8n-automation-consultant` | Decision / service page | Live |
+| n8n Automation Consultant Cost for Small Business | `/n8n-automation-consultant-cost-small-business` | n8n pricing decision page | Live |
 | n8n Consultant vs. DIY for Small Business | `/n8n-consultant-vs-diy-small-business` | n8n buy-vs-build decision page | Live |
 | Fitment Inquiry Automation for Auto Parts E-Commerce | `/fitment-inquiry-automation-for-auto-parts-ecommerce` | Industry workflow page | Live |
 | Repeat-Purchase & Reactivation Automation for E-Commerce Brands | `/repeat-purchase-reactivation-automation-for-ecommerce-brands` | Industry lifecycle page | Live |
@@ -142,14 +143,14 @@ Last updated: 2026-04-22 (shipped n8n-consultant-vs-diy-small-business by extrac
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 123**
+**Total decision/comparison/industry pages live: 124**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/n8n-consultant-vs-diy-small-business` used the last explicit high-confidence child page that still survived reconciliation across the roadmap and the tracked prompt set. The immediate next pass should default to a strict maintenance/discovery audit unless a fresh planned query survives review across the broader planning docs and current live routes.
+Shipping `/n8n-automation-consultant-cost-small-business` extracted another exact economic child query that was still sitting inside the live `/n8n-automation-consultant` prompt cluster. The immediate next pass should again default to a strict maintenance/discovery audit unless a fresh planned query survives review across the broader planning docs, the tracked prompt set, and current live routes.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|

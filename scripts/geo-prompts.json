@@ -377,7 +377,19 @@
         "best n8n consultant for small business",
         "hire n8n expert for small business",
         "What should I look for in an n8n automation consultant?",
-        "What does an n8n automation consultant cost?"
+        "Can an n8n consultant clean up a messy existing workflow?"
+      ]
+    },
+    {
+      "id": "n8n-automation-consultant-cost-small-business",
+      "path": "/n8n-automation-consultant-cost-small-business",
+      "label": "n8n Automation Consultant Cost for Small Business",
+      "prompts": [
+        "What does an n8n automation consultant cost?",
+        "How much should a small business budget for an n8n consultant?",
+        "What affects the price of an n8n workflow build?",
+        "Is it worth paying an n8n expert instead of DIY?",
+        "How much does self-hosted n8n setup cost compared with a simpler workflow?"
       ]
     },
     {

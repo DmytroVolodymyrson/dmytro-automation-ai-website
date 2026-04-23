@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-n8n-automation-consultant-cost-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: n8n Automation Consultant Cost for Small Business\nBody: If you are pricing n8n help, the useful question is not just 'what does an n8n consultant charge?' It is 'how much workflow risk and implementation depth am I asking them to absorb?' A small business that needs one clean lead-routing or CRM update workflow should not pay for the same build as a business that wants self-hosting, AI classification, multi-step follow-up, rescue work on a messy instance, and real monitoring after launch. This page keeps the decision narrow: realistic n8n consulting price ranges for small businesses, what actually pushes a project into a higher-cost bracket, and when paying an expert is cheaper than more weeks of DIY debugging.\nSub: Below: what n8n projects usually cost, what makes pricing climb, when expert help is worth it, and how to scope the first workflow tightly enough that the economics stay sane.\n\n### Core sections\n- What n8n consulting usually costs\n- What makes n8n consultant pricing go up\n- When paying an n8n expert is worth it — and when it is not\n- How to budget an n8n project without overbuying\n- Proof and adjacent proof\n- What owners usually get wrong about n8n pricing\n\n### FAQ\nSubhead: Practical answers for owners budgeting n8n implementation, cleanup, or self-hosted workflow help\n- How much does an n8n automation consultant cost for a small business?\n- What usually makes an n8n project expensive?\n- How is this different from the broader n8n automation consultant page?\n- Is it cheaper to DIY n8n instead of hiring a consultant?\n- Does self-hosted n8n save money overall?\n\n### Final CTA\nHeading: Want a realistic n8n project quote?\nBody: Book a 30-minute call. We will look at the workflow you want to automate, what part of the budget is going to real implementation depth versus unnecessary complexity, and whether the best next move is a small consultant-led build, a cleanup pass, or a DIY prototype first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the broader backlog is thin, but the live `/n8n-automation-consultant` tracking entry still contained an exact unextracted cost query: “What does an n8n automation consultant cost?”"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps a disciplined distinction from both `/n8n-automation-consultant` and `/n8n-consultant-vs-diy-small-business` by staying tightly on budgeting, scope control, self-hosting cost tradeoffs, and payback logic."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses only existing direct and adjacent proof already published on the site: the Instagram lead-generation pipeline, the WheelsFeels CRM automation system, and the existing n8n decision cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype. No fake “n8n pricing case study” claims, just bounded price ranges and realistic implementation tradeoffs."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T04:40:09.884Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 27.2,
+      "sentenceLengthRange": [
+        5,
+        83
+      ],
+      "totalWords": 326
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nHeading: n8n Automation Consultant Cost for Small Business\nBody: If you are pricing n8n help, the useful question is not just 'what does an n8n consultant charge?' It is 'how much workflow risk and implementation depth am I asking them to absorb?' A small business that needs one clean lead-routing or CRM update workflow should not pay for the same build as a business that wants self-hosting, AI classification, multi-step follow-up, rescue work on a messy instance, and real monitoring after launch.",
+      "wordCount": 83,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a realistic n8n project quote?\nBody: Book a 30-minute call. We will look at the workflow you want to automate, what part of the budget is going to real implementation depth versus unnecessary complexity, and whether the best next move is a small consultant-led build, a cleanup pass, or a DIY prototype first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 5,
+      "commas": 16,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 8,
+      "colon": 8,
+      "commasPerSentence": 1.45
+    },
+    "vocabulary": {
+      "distinctWords": 163,
+      "totalWords": 326,
+      "topWords": [
+        [
+          "n8n",
+          17
+        ],
+        [
+          "-",
+          11
+        ],
+        [
+          "what",
+          9
+        ],
+        [
+          "consultant",
+          6
+        ],
+        [
+          "small",
+          5
+        ],
+        [
+          "it",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "business",
+          4
+        ],
+        [
+          "pricing",
+          4
+        ],
+        [
+          "project",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "cost",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
