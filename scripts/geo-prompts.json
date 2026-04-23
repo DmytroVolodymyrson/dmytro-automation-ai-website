@@ -1565,7 +1565,19 @@
         "What is the best CRM automation setup for a contractor?",
         "What should contractor CRM setup help include?",
         "How long does contractor CRM setup usually take?",
-        "What contractor workflow should I automate first before building a bigger CRM layer?"
+        "When is contractor CRM setup help worth paying for instead of building it in-house?"
+      ]
+    },
+    {
+      "id": "what-to-automate-first-for-contractors",
+      "path": "/what-to-automate-first-for-contractors",
+      "label": "What to Automate First for Contractors",
+      "prompts": [
+        "What contractor workflow should I automate first before building a bigger CRM layer?",
+        "What should a contractor automate first intake follow-up or dispatch?",
+        "How do I choose the first CRM automation for a contractor?",
+        "Should a contractor start with intake routing estimate follow-up or dispatch handoff?",
+        "What is the safest first automation project for a contracting business?"
       ]
     },
     {

@@ -70,6 +70,7 @@ import AiAutomationForAccountingFirms from "./pages/AiAutomationForAccountingFir
 import AiAutomationForPlumbingCompanies from "./pages/AiAutomationForPlumbingCompanies";
 import AiAutomationForElectricalContractors from "./pages/AiAutomationForElectricalContractors";
 import CrmAutomationSetupForContractors from "./pages/CrmAutomationSetupForContractors";
+import WhatToAutomateFirstForContractors from "./pages/WhatToAutomateFirstForContractors";
 import CrmAutomationSetupCostForContractors from "./pages/CrmAutomationSetupCostForContractors";
 import CrmAutomationSetupVsDiyForContractors from "./pages/CrmAutomationSetupVsDiyForContractors";
 import ClientOnboardingAutomation from "./pages/ClientOnboardingAutomation";
@@ -400,6 +401,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/crm-automation-for-contractors", element: <CrmAutomationForContractors /> },
   { path: "/crm-pipeline-stages-for-contractors", element: <CrmPipelineStagesForContractors /> },
   { path: "/crm-automation-setup-for-contractors", element: <CrmAutomationSetupForContractors /> },
+  { path: "/what-to-automate-first-for-contractors", element: <WhatToAutomateFirstForContractors /> },
   { path: "/crm-automation-setup-cost-for-contractors", element: <CrmAutomationSetupCostForContractors /> },
   { path: "/crm-automation-setup-vs-diy-for-contractors", element: <CrmAutomationSetupVsDiyForContractors /> },
   { path: "/estimate-follow-up-automation-for-contractors", element: <EstimateFollowUpAutomationForContractors /> },

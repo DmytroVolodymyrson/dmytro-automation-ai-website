@@ -1170,6 +1170,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Contractors",
+    description:
+      "Scoping guide for contractors deciding whether the first workflow should be intake routing, estimate follow-up, dispatch handoff, or pipeline cleanup before a bigger CRM project.",
+    href: "/what-to-automate-first-for-contractors",
+    category: "industries",
+  },
+  {
     title: "CRM Automation Setup Cost for Contractors",
     description:
       "Pricing guide for contractors budgeting CRM setup work: realistic ranges for intake cleanup, estimate follow-up, dispatch handoff, messy-account rebuilds, and when a lighter scope is enough.",
