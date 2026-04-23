@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-estimate-follow-up-automation-for-roofing-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Estimate Follow-Up Automation for Roofing Companies\nBody: If a roofing estimate is sent and nobody follows up clearly, the job usually drifts to the roofer who stayed in front of the homeowner longer. This page narrows the workflow to one expensive stage: roof quotes that already exist but go quiet because the homeowner is comparing bids, waiting on insurance, or simply not being prompted to take the next step.\nSub: Below: what roofing estimate follow-up automation actually handles, how it stays distinct from the broader roofing automation page and the generic quote-follow-up guide, what guardrails matter, and what adjacent proof supports it honestly.\n\n### Core sections\n- What roofing estimate follow-up automation actually handles\n- Roofing estimate follow-up vs. broader roofing automation vs. generic quote follow-up\n- Is this a good fit for your roofing company?\n- Important guardrails for roofing estimate-recovery workflows\n- How a practical roofing estimate-recovery system usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about automating roofing estimate follow-up\n- How is this different from the broader roofing automation page?\n- How is this different from the generic quote follow-up page?\n- What does a focused roofing estimate-follow-up build usually cost?\n- Can this work with JobNimbus, AccuLynx, Jobber, GoHighLevel, or a custom stack?\n- What is the main ROI?\n\n### Final CTA\nHeading: Want fewer roof quotes dying after the estimate is sent?\nBody: Book a 30-minute call. We will look at how your company handles sent estimates today, where roof quotes are going cold, and whether a focused estimate-recovery workflow is the cleanest automation to build next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected because the reconciled roadmap had one remaining high-confidence watchlist child page: roofing estimate follow-up. The roofing parent already tracked estimate-follow-up intent, making this a distinct and commercially real child page rather than filler."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page separate from the broader roofing guide by staying tightly on the post-estimate stage: reminder timing, insurance-delay check-ins, objection-aware messaging, estimator handoff, and stale-quote visibility."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used bounded proof only: the broader roofing page, the contractor estimate-follow-up page, and the published CRM case study. Avoided pretending there is already a dedicated roofing estimate-recovery case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: real workflow friction, real handoff points, and honest not-fit cases instead of inflated close-rate promises."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T01:51:21.565Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        4,
+        5,
+        3
+      ],
+      "avgSentenceLength": 17.8,
+      "sentenceLengthRange": [
+        4,
+        36
+      ],
+      "totalWords": 267
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Estimate Follow-Up Automation for Roofing Companies\nBody: If a roofing estimate is sent and nobody follows up clearly, the job usually drifts to the roofer who stayed in front of the homeowner longer.",
+      "wordCount": 35,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want fewer roof quotes dying after the estimate is sent?\nBody: Book a 30-minute call. We will look at how your company handles sent estimates today, where roof quotes are going cold, and whether a focused estimate-recovery workflow is the cleanest automation to build next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 12,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 7,
+      "colon": 8,
+      "commasPerSentence": 0.86
+    },
+    "vocabulary": {
+      "distinctWords": 138,
+      "totalWords": 267,
+      "topWords": [
+        [
+          "roofing",
+          13
+        ],
+        [
+          "-",
+          11
+        ],
+        [
+          "estimate",
+          7
+        ],
+        [
+          "follow-up",
+          7
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "this",
+          6
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "sent",
+          3
+        ],
+        [
+          "usually",
+          3
+        ],
+        [
+          "roof",
+          3
+        ],
+        [
+          "quotes",
+          3
+        ],
+        [
+          "handles",
+          3
+        ],
+        [
+          "from",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

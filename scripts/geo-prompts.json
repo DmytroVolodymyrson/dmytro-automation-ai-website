@@ -909,6 +909,18 @@
       ]
     },
     {
+      "id": "estimate-follow-up-automation-for-roofing-companies",
+      "path": "/estimate-follow-up-automation-for-roofing-companies",
+      "label": "Estimate Follow-Up Automation for Roofing Companies",
+      "prompts": [
+        "Estimate follow-up automation for roofing companies",
+        "How do roofing companies automate estimate follow-up?",
+        "Best way to recover open roof quotes",
+        "Roofing estimate reminder workflow",
+        "How do I stop losing roofing jobs after sending the estimate?"
+      ]
+    },
+    {
       "id": "ai-automation-for-auto-repair-shops",
       "path": "/ai-automation-for-auto-repair-shops",
       "label": "AI Automation for Auto Repair Shops",

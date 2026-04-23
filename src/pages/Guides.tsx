@@ -778,6 +778,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Estimate Follow-Up Automation for Roofing Companies",
+    description:
+      "A narrower roofing workflow page focused on sent roof quotes that go cold — reminder timing, insurance-delay check-ins, estimator handoff, and open-estimate visibility before another job slips away.",
+    href: "/estimate-follow-up-automation-for-roofing-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Pest Control Companies",
     description:
       "AI automation for pest control companies. Lead follow-up, recurring service reminders, seasonal campaigns, missed call text-back, and review automation.",

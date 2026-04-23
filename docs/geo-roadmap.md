@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped gohighlevel-setup-cost-small-business and refreshed the queue)
+Last updated: 2026-04-22 (shipped estimate-follow-up-automation-for-roofing-companies and exhausted the last clean net-new watchlist page)
 
 ## Live GEO Assets
 
@@ -114,6 +114,7 @@ Last updated: 2026-04-22 (shipped gohighlevel-setup-cost-small-business and refr
 | AI Automation for Cleaning Companies | `/ai-automation-for-cleaning-companies` | Industry page | Live |
 | AI Automation for Med Spas | `/ai-automation-for-med-spas` | Industry page | Live |
 | AI Automation for Roofing Companies | `/ai-automation-for-roofing-companies` | Industry page | Live |
+| Estimate Follow-Up Automation for Roofing Companies | `/estimate-follow-up-automation-for-roofing-companies` | Roofing workflow page | Live |
 | AI Automation for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Industry page | Live |
 | AI Automation for Auto Repair Shops | `/ai-automation-for-auto-repair-shops` | Industry page | Live |
 | AI Automation for Landscaping Companies | `/ai-automation-for-landscaping-companies` | Industry page | Live |
@@ -132,20 +133,20 @@ Last updated: 2026-04-22 (shipped gohighlevel-setup-cost-small-business and refr
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 113**
+**Total decision/comparison/industry pages live: 114**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-`/gohighlevel-setup-cost-small-business` qualified even though the neat backlog had fallen back to maintenance. The existing GoHighLevel setup page already tracked an explicit pricing query (`How much does GoHighLevel setup cost for a service business?`), and that economic decision is materially different from the broader setup-help page and the platform-choice comparison page. That made it a valid Tier-B child ship: narrow, commercially real, proof-adjacent, and distinct enough to publish without inventing a fake GHL case study.
+`/estimate-follow-up-automation-for-roofing-companies` was the last clean high-confidence watchlist child that still survived reconciliation across the roadmap, the broader planning docs, the tracked prompts, and the live route set. The roofing parent already tracked estimate-follow-up intent, and the child could stay materially distinct by focusing only on sent-roof-quote recovery, insurance-delay check-ins, estimator handoff, and stale-estimate visibility. With that page now live, the queue falls back to maintenance and proof-led watchlist mode until a new defensible net-new page emerges from future proof or prompt drift.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Watchlist** | Estimate Follow-Up Automation for Roofing Companies | roofing estimate follow-up, roofing missed calls, estimate reminders | The roofing parent page already tracks estimate-follow-up and missed-call intent. A bounded child page could still qualify if it stays tightly on sent-estimate recovery and uses adjacent contractor proof instead of pretending there is a roofing case study. | **Watchlist** |
-| 2 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | GoHighLevel + appointment setter + e-commerce + property management discovery and internal links | If no other tracked child survives overlap review cleanly, default back to discovery-surface and internal-link improvements instead of inventing filler. | **Fallback** |
-| 3 | **Deferred** | Hold weaker adjacent-intent ideas until direct proof improves | avoid cannibalization / thin content | Keep the program honest when only soft prompt-adjacent ideas remain. | **Deferred** |
+| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | GoHighLevel + appointment setter + e-commerce + property management discovery and internal links | With the last clean watchlist child now shipped, default back to discovery-surface and internal-link improvements instead of inventing filler. | **Fallback** |
+| 2 | **Deferred** | Hold weaker adjacent-intent ideas until direct proof improves | avoid cannibalization / thin content | Keep the program honest when only soft prompt-adjacent ideas remain. | **Deferred** |
+| 3 | **Watchlist** | Re-open roofing / contractor child expansion only if new proof appears | roofing estimate recovery siblings or adjacent contractor workflow splits | Do not force another roofing or contractor child page unless new direct proof, tracked prompts, or live performance data create a cleaner distinction than what exists today. | **Watchlist** |
 
 ### Priority Definitions
 
