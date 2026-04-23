@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped ai-voice-agent-cost-small-business and added it to tracking)
+Last updated: 2026-04-22 (shipped gohighlevel-vs-custom-crm-for-contractors and added it to tracking)
 
 ## Live GEO Assets
 
@@ -58,6 +58,7 @@ Last updated: 2026-04-22 (shipped ai-voice-agent-cost-small-business and added i
 | AI Automation for Plumbing Companies | `/ai-automation-for-plumbing-companies` | Industry page | Live |
 | AI Automation for Electrical Contractors | `/ai-automation-for-electrical-contractors` | Industry page | Live |
 | CRM Automation for Contractors | `/crm-automation-for-contractors` | Industry / CRM systems page | Live |
+| GoHighLevel vs. Custom CRM for Contractors | `/gohighlevel-vs-custom-crm-for-contractors` | Contractor CRM decision page | Live |
 | Estimate Follow-Up Automation for Contractors | `/estimate-follow-up-automation-for-contractors` | Industry workflow page | Live |
 | Dispatch Handoff Automation for Contractors | `/dispatch-handoff-automation-for-contractors` | Industry operations page | Live |
 | Job Intake Routing Automation for Contractors | `/job-intake-routing-automation-for-contractors` | Industry workflow page | Live |
@@ -126,14 +127,14 @@ Last updated: 2026-04-22 (shipped ai-voice-agent-cost-small-business and added i
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 107**
+**Total decision/comparison/industry pages live: 108**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-The explicit cross-doc backlog is still effectively exhausted, and the strongest remaining Tier-B proof-led child candidate has now shipped. `/ai-voice-agent-cost-small-business` qualified because the pricing query was already implied by tracked voice-agent prompts, the site already had a strong adjacent voice / setup / ROI cluster, and the page stayed separate from the broader voice-agent guides by focusing narrowly on budgeting and scope for small-business phone workflows. The queue should stay honest after this ship: no fake clean backlog, just fallback discovery/internal-link work plus a proof-led watchlist if a truly distinct new candidate emerges.
+The explicit cross-doc backlog is still effectively exhausted, but one more proof-led child page qualified and is now live. `/gohighlevel-vs-custom-crm-for-contractors` qualified because the contractor CRM tracking set already contained the exact comparison intent, the site already had a live contractor CRM cluster plus the broader GoHighLevel-vs-custom decision page, and the new page stays distinct by focusing on estimate follow-up, dispatch handoff, and office-to-field workflow fit for contractors. After this ship, the queue should go back to an honest fallback/watchlist state unless another tracked prompt survives overlap review with equally clear proof adjacency.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|

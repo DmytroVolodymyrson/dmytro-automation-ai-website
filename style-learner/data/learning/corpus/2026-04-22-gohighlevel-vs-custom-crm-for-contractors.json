@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-gohighlevel-vs-custom-crm-for-contractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: GoHighLevel vs. Custom CRM for Contractors\nBody: If you run a contracting business, this decision is not really about software features. It is about where your operation actually breaks. If the main problem is lead capture, basic follow-up, and calendar booking, GoHighLevel can be enough. If jobs are getting lost between intake, estimate follow-up, scheduling, dispatch, and field handoff, a generic marketing-first CRM usually needs help. The right answer depends on whether you need a fast off-the-shelf pipeline or a system built around contractor operations.\nSub: Below: when GoHighLevel is enough for a contractor, when a custom or hybrid CRM stack is worth it, and what the cost math looks like once estimate follow-up and office-to-field handoff matter.\n\n### Core sections\n- What this decision really changes for contractors\n- Side-by-side for contractor workflows\n- When each option is the better fit\n- The cost tradeoff is not just the monthly subscription\n- Good fit / not-fit framing\n- Where contractor CRM choices usually go wrong\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about GoHighLevel vs. custom CRM for contractors\nTopics: where GoHighLevel is enough, how contractor field-service software changes the decision, focused build cost, when hybrid is realistic, and what stage to automate first before choosing the whole stack.\n\n### Final CTA\nHeading: Need to decide whether contractor operations should stay in GHL?\nBody: Book a 30-minute call. We will look at how your contractor workflow actually runs today, where the friction lives, and whether GoHighLevel, a custom layer, or a hybrid setup makes the most sense for the next build.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the contractor CRM tracking prompts already contained the exact comparison query, making this the strongest remaining proof-led child page that still survived overlap review."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the framing distinct from the broader GoHighLevel vs. custom CRM page by focusing on estimate follow-up, dispatch handoff, service-type routing, and office-to-field workflow fit for contractors."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live contractor cluster plus the published CRM case study as honest adjacent proof instead of inventing a contractor-specific GoHighLevel case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: workflow fit, ownership, handoff clarity, and cost tradeoffs instead of generic software-feature chest-beating."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T00:15:14.667Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        1,
+        2,
+        3
+      ],
+      "avgSentenceLength": 20.3,
+      "sentenceLengthRange": [
+        4,
+        52
+      ],
+      "totalWords": 264
+    },
+    "opener": {
+      "type": "short-punch",
+      "text": "### Hero\nHeading: GoHighLevel vs.",
+      "wordCount": 4,
+      "pattern": "short-punch"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need to decide whether contractor operations should stay in GHL?\nBody: Book a 30-minute call. We will look at how your contractor workflow actually runs today, where the friction lives, and whether GoHighLevel, a custom layer, or a hybrid setup makes the most sense for the next build.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 19,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.58
+    },
+    "vocabulary": {
+      "distinctWords": 152,
+      "totalWords": 264,
+      "topWords": [
+        [
+          "contractor",
+          7
+        ],
+        [
+          "-",
+          7
+        ],
+        [
+          "gohighlevel",
+          6
+        ],
+        [
+          "crm",
+          5
+        ],
+        [
+          "custom",
+          4
+        ],
+        [
+          "where",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "contractors",
+          3
+        ],
+        [
+          "if",
+          3
+        ],
+        [
+          "this",
+          3
+        ],
+        [
+          "decision",
+          3
+        ],
+        [
+          "about",
+          3
+        ],
+        [
+          "follow-up",
+          3
+        ],
+        [
+          "enough",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.004
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

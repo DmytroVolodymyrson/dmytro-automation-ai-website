@@ -785,6 +785,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "GoHighLevel vs. Custom CRM for Contractors",
+    description:
+      "Contractor-specific CRM decision guide focused on estimate follow-up, dispatch handoff, field context, and when GoHighLevel is enough versus when a custom or hybrid system is the safer fit.",
+    href: "/gohighlevel-vs-custom-crm-for-contractors",
+    category: "industries",
+  },
+  {
     title: "Estimate Follow-Up Automation for Contractors",
     description:
       "A narrower contractor workflow focused on recovering sent estimates with reminder timing, objection-aware messaging, estimator handoff, and open-quote visibility.",

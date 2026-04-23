@@ -916,8 +916,20 @@
         "CRM automation for contractors",
         "What is the best CRM automation setup for a contractor?",
         "How do contractors automate estimate follow-up?",
-        "Should a home service contractor use GoHighLevel or a custom CRM?",
+        "Best CRM system for a contractor with estimate follow-up and dispatch handoff",
         "How can a contractor stop losing leads between the office and the field?"
+      ]
+    },
+    {
+      "id": "gohighlevel-vs-custom-crm-for-contractors",
+      "path": "/gohighlevel-vs-custom-crm-for-contractors",
+      "label": "GoHighLevel vs. Custom CRM for Contractors",
+      "prompts": [
+        "GoHighLevel vs custom CRM for contractors",
+        "Should a home service contractor use GoHighLevel or a custom CRM?",
+        "Best CRM for contractors GoHighLevel or custom build",
+        "When should a contractor outgrow GoHighLevel?",
+        "Hybrid CRM setup for contractors using GoHighLevel and field-service software"
       ]
     },
     {
