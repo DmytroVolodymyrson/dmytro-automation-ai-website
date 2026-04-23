@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped after-hours-ai-phone-answering-vs-voicemail-for-restaurants by extracting the exact after-hours restaurant voicemail-vs-live-answering buyer query from the tracked restaurant phone-answering cluster into its own comparison page grounded in the Paris Cafe case study plus adjacent restaurant phone-recovery guides without pretending every restaurant needs full live AI coverage)
+Last updated: 2026-04-23 (shipped stale-lead-follow-up-for-auto-parts-ecommerce by extracting the exact stale-lead recovery intent still buried in the tracked auto-parts parent cluster into its own workflow page grounded directly in the published 5,600+ lead WheelsFeels CRM case study plus the already-live auto-parts inquiry-routing pages without pretending repeat-purchase or generic e-commerce reactivation pages already covered the same pre-sale recovery job)
 
 ## Live GEO Assets
 
@@ -101,6 +101,7 @@ Last updated: 2026-04-23 (shipped after-hours-ai-phone-answering-vs-voicemail-fo
 | n8n Consultant vs. DIY for Small Business | `/n8n-consultant-vs-diy-small-business` | n8n buy-vs-build decision page | Live |
 | Fitment Inquiry Automation for Auto Parts E-Commerce | `/fitment-inquiry-automation-for-auto-parts-ecommerce` | Industry workflow page | Live |
 | Customer Inquiry Automation for Auto Parts E-Commerce | `/customer-inquiry-automation-for-auto-parts-ecommerce` | Auto-parts inquiry-routing workflow page | Live |
+| Stale Lead Follow-Up for Auto Parts E-Commerce | `/stale-lead-follow-up-for-auto-parts-ecommerce` | Auto-parts stale-lead recovery workflow page | Live |
 | Repeat-Purchase & Reactivation Automation for E-Commerce Brands | `/repeat-purchase-reactivation-automation-for-ecommerce-brands` | Industry lifecycle page | Live |
 | Customer Service Automation for E-Commerce Brands | `/customer-service-automation-for-ecommerce-brands` | Industry support workflow page | Live |
 | Customer Service Automation vs. Manual Support for E-Commerce Brands | `/customer-service-automation-vs-manual-support-for-ecommerce-brands` | E-commerce support decision page | Live |
@@ -158,7 +159,7 @@ Last updated: 2026-04-23 (shipped after-hours-ai-phone-answering-vs-voicemail-fo
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 139**
+**Total decision/comparison/industry pages live: 140**
 **Total case studies live: 3**
 
 ---

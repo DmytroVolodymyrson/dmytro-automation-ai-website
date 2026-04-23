@@ -848,6 +848,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Stale Lead Follow-Up for Auto Parts E-Commerce",
+    description:
+      "A narrower auto-parts recovery page focused on reopening old quote requests, fitment leads, and dormant inquiry-stage contacts without mixing stale revenue opportunities into routine support traffic.",
+    href: "/stale-lead-follow-up-for-auto-parts-ecommerce",
+    category: "industries",
+  },
+  {
     title: "Repeat-Purchase & Reactivation Automation for E-Commerce Brands",
     description:
       "A narrower e-commerce lifecycle page focused on reorder timing, dormant-customer reactivation, stale-lead recovery, and the alerts that turn renewed intent into real follow-up.",
