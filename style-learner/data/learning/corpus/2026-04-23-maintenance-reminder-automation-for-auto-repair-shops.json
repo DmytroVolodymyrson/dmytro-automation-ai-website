@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-maintenance-reminder-automation-for-auto-repair-shops",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Maintenance Reminder Automation for Auto Repair Shops\nBody: Most auto repair shops already paid to acquire the customer once. Then the car disappears until the next oil change is overdue, the inspection is expiring, or a declined brake job gets forgotten. This page isolates that retention problem into one workflow: service-due reminders, deferred-work recall, and dormant-customer reactivation that happen on time without forcing the front desk to remember every next step by hand.\nSub: Below: what auto repair maintenance reminder automation actually handles, how it stays distinct from the broader auto-repair automation page, what guardrails matter, and what adjacent proof supports the page honestly.\n\n### Core sections\n- What maintenance reminder automation actually handles\n- Maintenance reminder automation vs. broader auto-repair automation\n- Is this a good fit for your auto repair shop?\n- Important guardrails for auto-repair reminder workflows\n- How a practical maintenance reminder system usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about automating maintenance reminders in an auto repair shop\n- How is this different from the main auto-repair automation page?\n- Can this work with my shop management software?\n- What does a focused maintenance reminder build usually cost?\n- Will this annoy customers if I remind them too often?\n- What is the main ROI?\n\n### Final CTA\nHeading: Want more repeat service without turning reminders into a manual chore?\nBody: Book a 30-minute call. We will look at how your shop handles repeat-service reminders today, where deferred work and dormant customers are slipping away, and whether a focused reminder workflow is the cleanest automation to build next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected because the broader queue was mostly exhausted, but the live auto-repair parent still tracked an exact maintenance-reminder query and the roadmap watchlist already flagged it as a defensible proof-backed child page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page tightly separate from the broader auto-repair guide by staying on one workflow stage: recurring-service retention, declined-work recall, dormant-customer reactivation, and advisor handoff when a driver is ready to book."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used bounded proof only: the live auto-repair parent page, the HVAC database reactivation page, and the published CRM case study. Avoided pretending there is already a dedicated auto-repair reminder case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: reminder timing, data cleanliness, repeat-visit economics, and honest not-fit cases instead of inflated retention promises."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T07:43:43.379Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        3,
+        5,
+        3
+      ],
+      "avgSentenceLength": 17.9,
+      "sentenceLengthRange": [
+        5,
+        33
+      ],
+      "totalWords": 268
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Maintenance Reminder Automation for Auto Repair Shops\nBody: Most auto repair shops already paid to acquire the customer once.",
+      "wordCount": 21,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want more repeat service without turning reminders into a manual chore?\nBody: Book a 30-minute call. We will look at how your shop handles repeat-service reminders today, where deferred work and dormant customers are slipping away, and whether a focused reminder workflow is the cleanest automation to build next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 9,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 7,
+      "colon": 8,
+      "commasPerSentence": 0.64
+    },
+    "vocabulary": {
+      "distinctWords": 150,
+      "totalWords": 268,
+      "topWords": [
+        [
+          "-",
+          11
+        ],
+        [
+          "reminder",
+          8
+        ],
+        [
+          "automation",
+          8
+        ],
+        [
+          "maintenance",
+          7
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "this",
+          6
+        ],
+        [
+          "auto",
+          5
+        ],
+        [
+          "repair",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "reminders",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "auto-repair",
+          4
+        ],
+        [
+          "shop",
+          4
+        ],
+        [
+          "next",
+          3
+        ],
+        [
+          "handles",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

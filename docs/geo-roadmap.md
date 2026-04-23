@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped customer-inquiry-automation-for-auto-parts-ecommerce by extracting the exact auto-parts customer-inquiry query still living inside the broader /ai-automation-for-auto-parts-ecommerce prompt set into a distinct child page anchored in the existing WheelsFeels CRM case study plus the live auto-parts and fitment workflow cluster)
+Last updated: 2026-04-23 (shipped maintenance-reminder-automation-for-auto-repair-shops by extracting the exact maintenance-reminder query still living inside the broader /ai-automation-for-auto-repair-shops prompt set into a distinct child page anchored in the live auto-repair parent plus adjacent lifecycle proof from the HVAC reactivation and CRM case-study cluster)
 
 ## Live GEO Assets
 
@@ -132,6 +132,7 @@ Last updated: 2026-04-23 (shipped customer-inquiry-automation-for-auto-parts-eco
 | Estimate Follow-Up Automation for Roofing Companies | `/estimate-follow-up-automation-for-roofing-companies` | Roofing workflow page | Live |
 | AI Automation for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Industry page | Live |
 | AI Automation for Auto Repair Shops | `/ai-automation-for-auto-repair-shops` | Industry page | Live |
+| Maintenance Reminder Automation for Auto Repair Shops | `/maintenance-reminder-automation-for-auto-repair-shops` | Auto-repair retention workflow page | Live |
 | AI Automation for Landscaping Companies | `/ai-automation-for-landscaping-companies` | Industry page | Live |
 | AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
 | AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
@@ -148,19 +149,19 @@ Last updated: 2026-04-23 (shipped customer-inquiry-automation-for-auto-parts-eco
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 129**
+**Total decision/comparison/industry pages live: 130**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/customer-inquiry-automation-for-auto-parts-ecommerce` proved there was still at least one defensible child page left in the auto-parts / e-commerce cluster once the broader queue was reconciled against tracked prompts. The next pass should reopen broader planning docs and remaining tracked prompts for another proof-backed net-new page outside the now-thinner auto-parts inquiry-routing gap; if nothing survives fresh reconciliation cleanly, the honest fallback is maintenance on the strongest live voice-agent / appointment-setter / contractor CRM / GoHighLevel / e-commerce clusters instead of forcing a thin page.
+Shipping `/maintenance-reminder-automation-for-auto-repair-shops` proved there was still at least one defensible vertical child page left once the broader queue was reconciled against tracked prompts. The next pass should reopen broader planning docs and remaining parent-page prompts for another proof-backed net-new page instead of assuming the fallback queue is exhausted; if nothing survives fresh reconciliation cleanly, the honest fallback is maintenance on the strongest live voice-agent / appointment-setter / contractor CRM / GoHighLevel / auto-repair clusters instead of forcing a thin page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts for the next proof-backed net-new page outside the new auto-parts inquiry-routing child | Next distinct buyer-intent or workflow page not yet live | The exact auto-parts customer-inquiry query was still worth shipping, but that cluster is now thinner. The next net-new ship should come from fresh plan reconciliation across other clusters instead of forcing another near-duplicate e-commerce child page. | **Recheck next run** |
-| 2 | **Watchlist** | Maintenance reminders for auto repair shops or another equally proof-backed vertical child page only if fresh reconciliation still supports it | Distinct vertical workflow intent with honest adjacent proof | The auto-repair parent still tracks a commercially real maintenance-reminder query, but it needs the same proof/cannibalization check before shipping. If it does not survive cleanly, default to strengthening the strongest live clusters instead. | **Check next** |
+| 1 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts for the next proof-backed net-new page after the auto-repair maintenance-reminder child | Next distinct buyer-intent or workflow page not yet live | The auto-repair maintenance child was worth extracting, but the broader queue still needs fresh reconciliation across other parent prompts instead of another stale watchlist assumption. | **Recheck next run** |
+| 2 | **Watchlist** | Auto-repair estimate follow-up or another equally proof-backed vertical child page only if fresh reconciliation still supports it | Distinct vertical workflow or quote-stage intent with honest adjacent proof | The auto-repair cluster still has estimate-follow-up logic in the parent page and adjacent generic quote-follow-up coverage, but it needs the same proof/cannibalization check before becoming the next ship. If it does not survive cleanly, default to strengthening the strongest live clusters instead. | **Check next** |
 
 ### Priority Definitions
 

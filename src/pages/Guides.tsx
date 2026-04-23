@@ -904,6 +904,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Maintenance Reminder Automation for Auto Repair Shops",
+    description:
+      "Maintenance reminder automation for auto repair shops. Oil change reminders, inspection timing, deferred-work recall, dormant-customer reactivation, and advisor handoff.",
+    href: "/maintenance-reminder-automation-for-auto-repair-shops",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Landscaping Companies",
     description:
       "AI automation for landscaping companies. Lead follow-up, estimate follow-up, seasonal upsell campaigns, recurring service management, and review automation.",

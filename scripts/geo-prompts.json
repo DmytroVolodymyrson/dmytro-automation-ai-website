@@ -1096,8 +1096,20 @@
         "AI automation for auto repair shops",
         "How can AI help my auto repair shop with appointments?",
         "Best AI tools for auto repair customer follow-up",
-        "Automate maintenance reminders for auto repair shop",
+        "How do auto repair shops reduce no-shows and missed appointments?",
         "AI appointment scheduling for mechanic shop"
+      ]
+    },
+    {
+      "id": "maintenance-reminder-automation-for-auto-repair-shops",
+      "path": "/maintenance-reminder-automation-for-auto-repair-shops",
+      "label": "Maintenance Reminder Automation for Auto Repair Shops",
+      "prompts": [
+        "Maintenance reminder automation for auto repair shops",
+        "Automate maintenance reminders for auto repair shop",
+        "How do auto repair shops remind customers about oil changes and inspections?",
+        "Best way to bring auto repair customers back for routine service",
+        "How should a mechanic shop follow up on deferred maintenance without sounding spammy?"
       ]
     },
     {
