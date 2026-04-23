@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped ai-phone-answering-for-hvac-companies after another full cross-doc reconciliation. The neat queue was exhausted again, but the HVAC cluster still held one defensible heavier phone-layer child that stayed materially distinct from the broader HVAC parent page, the missed-call text-back child, and the booking / scheduling children: live AI phone coverage for callers who need a real answer now when voicemail and callback lag are no longer enough. The page stays tightly on that workflow layer itself — routine service-call intake, office overflow protection, after-hours answer coverage, and bounded human handoff — while using only adjacent proof from the broader HVAC guide, the generic AI phone-answering guide, and the published restaurant call-handling case study.)
+Last updated: 2026-04-23 (shipped ai-phone-answering-vs-voicemail-for-hvac-companies after another full cross-doc reconciliation. The HVAC queue held one last exact buyer-decision sibling that stayed materially distinct from the broader HVAC parent page, the missed-call text-back child, the appointment-setter child, the scheduling/follow-through child, and the newly live HVAC phone-answering workflow page: the fallback choice between live AI phone coverage and voicemail/manual callback. The page stays tightly on that buyer decision itself — when voicemail is still acceptable, when live answering is worth paying for, and when missed-call text-back is the smarter middle step — while using only adjacent proof from the HVAC cluster, the generic AI phone-answering guide, and the published restaurant call-handling case study.)
 
 ## Live GEO Assets
 
@@ -55,6 +55,7 @@ Last updated: 2026-04-23 (shipped ai-phone-answering-for-hvac-companies after an
 | AI Appointment Setter for HVAC | `/ai-appointment-setter-for-hvac` | Industry page | Live |
 | HVAC Scheduling and Follow-Up Automation | `/hvac-scheduling-and-follow-up-automation` | Industry operations page | Live |
 | AI Phone Answering for HVAC Companies | `/ai-phone-answering-for-hvac-companies` | HVAC live-phone-coverage workflow page | Live |
+| AI Phone Answering vs. Voicemail for HVAC Companies | `/ai-phone-answering-vs-voicemail-for-hvac-companies` | HVAC phone-fallback decision page | Live |
 | AI Appointment Setter for Home Service Businesses | `/ai-appointment-setter-for-home-service-businesses` | Workflow / home services page | Live |
 | AI Consultant Alberta | `/ai-automation-consultant-alberta` | Geo landing page | Live |
 | AI Consultant Canada | `/ai-automation-consultant-canada` | Geo landing page | Live |
@@ -180,20 +181,20 @@ Last updated: 2026-04-23 (shipped ai-phone-answering-for-hvac-companies after an
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 159**
+**Total decision/comparison/industry pages live: 160**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-phone-answering-for-hvac-companies` pulled one still-defensible page out of the fallback backlog: the HVAC cluster now has a live heavier phone-layer child for businesses where voicemail and callback lag are no longer enough. That makes the cleanest next candidate the matching buyer-decision sibling inside the same HVAC phone cluster — but only because the workflow page is now live and the intent can stay tightly on the lighter fallback choice itself rather than rehashing the broader HVAC parent or the new phone-coverage page.
+Shipping `/ai-phone-answering-vs-voicemail-for-hvac-companies` appears to exhaust the last exact high-confidence queued HVAC child that still survived cross-doc reconciliation. The next run should not pretend another equally clean page is still queued if it is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | `/ai-phone-answering-vs-voicemail-for-hvac-companies` | HVAC owners deciding between live AI phone coverage and voicemail/manual callback | With the HVAC live-answering workflow page now shipped, the exact heavier-fallback buyer decision becomes a clean next sibling: when live phone coverage is worth it, when voicemail/callback is still enough, and when missed-call text-back is the smarter middle step. | **Strong next candidate if the next run keeps the HVAC phone cluster distinct** |
-| 2 | **Fallback** | Broad backlog reconciliation for one more net-new page beyond HVAC | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | If the HVAC phone-fallback comparison starts to feel too close after another reconciliation, the next run should not force it. It should search the wider planning set again before dropping into maintenance. | **Default if HVAC comparison does not survive** |
-| 3 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, n8n, voice-agent, roofing, and HVAC clusters without filler | Use this only if the next reconciliation still finds no defensible proof-backed net-new page that is meaningfully distinct. | **Use if no better exact query survives** |
+| 1 | **Fallback** | Broad backlog reconciliation for one more proof-backed net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | The neat queue is no longer trustworthy after the HVAC phone-decision child shipped. The next run should search for any remaining page that is proof-backed, materially distinct, and not just another rephrasing of a live cluster. | **Default next action** |
+| 2 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, n8n, voice-agent, roofing, and HVAC clusters without filler | Use this only if another full reconciliation still finds no defensible proof-backed net-new page. | **Maintenance-only fallback** |
+| 3 | **Watchlist** | Proof-led watchlist for future late-backlog pages | Keep a short list of candidate queries that only become valid if new proof, a new case study, or a clearly distinct tracked prompt emerges | Prevents future cron runs from forcing stale queue items after the explicit HVAC sibling is now live. | **Use when fresh proof appears** |
 
 ### Priority Definitions
 

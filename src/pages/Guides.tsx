@@ -652,6 +652,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering vs. Voicemail for HVAC Companies",
+    description:
+      "HVAC-specific buyer guide for choosing between live AI phone coverage and voicemail/manual callback. Covers service-call recovery, office workload, after-hours demand, and when missed-call text-back is the smarter middle step.",
+    href: "/ai-phone-answering-vs-voicemail-for-hvac-companies",
+    category: "comparisons",
+  },
+  {
     title: "AI Appointment Setter for HVAC",
     description:
       "AI-powered scheduling for HVAC service calls. Book appointments, send confirmations, and reduce no-shows without phone tag.",

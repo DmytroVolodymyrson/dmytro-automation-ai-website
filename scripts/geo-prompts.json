@@ -285,6 +285,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-vs-voicemail-for-hvac-companies",
+      "path": "/ai-phone-answering-vs-voicemail-for-hvac-companies",
+      "label": "AI Phone Answering vs. Voicemail for HVAC Companies",
+      "prompts": [
+        "AI phone answering vs voicemail for HVAC companies",
+        "Should an HVAC company use live AI phone answering or voicemail?",
+        "When is live AI phone answering better than voicemail for an HVAC company?",
+        "Is voicemail enough for HVAC service calls after hours?",
+        "What is better for an HVAC company voicemail or live AI phone answering?"
+      ]
+    },
+    {
       "id": "hire-ai-automation-consultant-vs-agency",
       "path": "/hire-ai-automation-consultant-vs-agency",
       "label": "Hire an AI Automation Consultant vs Agency",
