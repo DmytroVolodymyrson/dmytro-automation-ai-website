@@ -101,6 +101,7 @@ const AiAutomationForAutoPartsEcommerce = lazy(() => import("./pages/AiAutomatio
 const CrmAutomationVsManualFollowUpForAutoPartsEcommerce = lazy(() => import("./pages/CrmAutomationVsManualFollowUpForAutoPartsEcommerce"));
 const FitmentInquiryAutomationForAutoPartsEcommerce = lazy(() => import("./pages/FitmentInquiryAutomationForAutoPartsEcommerce"));
 const CustomerInquiryAutomationForAutoPartsEcommerce = lazy(() => import("./pages/CustomerInquiryAutomationForAutoPartsEcommerce"));
+const QuoteFollowUpAutomationForAutoPartsEcommerce = lazy(() => import("./pages/QuoteFollowUpAutomationForAutoPartsEcommerce"));
 const StaleLeadFollowUpForAutoPartsEcommerce = lazy(() => import("./pages/StaleLeadFollowUpForAutoPartsEcommerce"));
 const EcommerceCrmAutomationWithAiFollowUp = lazy(() => import("./pages/EcommerceCrmAutomationWithAiFollowUp"));
 const EcommerceCrmAutomationVsManualFollowUp = lazy(() => import("./pages/EcommerceCrmAutomationVsManualFollowUp"));
@@ -272,6 +273,7 @@ const AppRoutesClient = () => (
       <Route path="/ecommerce-crm-automation-vs-manual-follow-up" element={<EcommerceCrmAutomationVsManualFollowUp />} />
       <Route path="/fitment-inquiry-automation-for-auto-parts-ecommerce" element={<FitmentInquiryAutomationForAutoPartsEcommerce />} />
       <Route path="/customer-inquiry-automation-for-auto-parts-ecommerce" element={<CustomerInquiryAutomationForAutoPartsEcommerce />} />
+      <Route path="/quote-follow-up-automation-for-auto-parts-ecommerce" element={<QuoteFollowUpAutomationForAutoPartsEcommerce />} />
       <Route path="/stale-lead-follow-up-for-auto-parts-ecommerce" element={<StaleLeadFollowUpForAutoPartsEcommerce />} />
       <Route path="/repeat-purchase-reactivation-automation-for-ecommerce-brands" element={<RepeatPurchaseReactivationAutomationForEcommerceBrands />} />
       <Route path="/customer-service-automation-for-ecommerce-brands" element={<CustomerServiceAutomationForEcommerceBrands />} />

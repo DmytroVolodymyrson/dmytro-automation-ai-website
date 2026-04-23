@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-quote-follow-up-automation-for-auto-parts-ecommerce",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Quote Follow-Up Automation for Auto Parts E-Commerce\nBody: Auto parts brands do not only lose revenue because new inquiries never arrive. They also lose revenue because a buyer asked for pricing, sent vehicle details, requested a custom order, or opened a wholesale conversation — then the quote went out and the follow-up never stayed disciplined after that. Someone meant to respond. Someone planned to call back. Someone assumed the buyer would return when they were ready. In reality, quote-stage demand usually goes cold because nobody owned the next step clearly enough. Quote follow-up automation fixes that narrower workflow stage. It starts after the pricing conversation is real, keeps the opportunity moving with practical reminders and next-step prompts, and routes serious buying signals back to the right human before the deal dies quietly in the inbox or CRM.\nSub: Below: what quote follow-up automation should actually handle for an auto parts brand, how it stays distinct from mixed inquiry routing and stale-lead recovery, what proof supports it directly, and when this narrower build is or is not worth doing first.\n\n### Core sections\n- Extracts the quote-stage workflow from the live auto-parts cluster instead of leaving pricing, custom-order, and wholesale follow-up buried inside broader CRM and inquiry pages.\n- Keeps the frame tightly on post-quote momentum: reminder timing, quote-context messaging, reply routing, support-noise separation, and human handoff when intent returns.\n- Uses direct published WheelsFeels CRM proof plus the live auto-parts workflow cluster without pretending there is already a separate quote-follow-up-only case study.\n- Preserves clear separation from `/customer-inquiry-automation-for-auto-parts-ecommerce`, `/stale-lead-follow-up-for-auto-parts-ecommerce`, and `/crm-automation-vs-manual-follow-up-for-auto-parts-ecommerce` by keeping the page strictly on active quote-stage opportunities.\n\n### FAQ\nSubhead: Practical questions from auto-parts operators considering quote-stage follow-up automation\nTopics: how this differs from customer-inquiry automation and stale-lead recovery, what a focused build usually costs, whether the workflow can support different quote types, and where the main ROI usually shows up first.\n\n### Final CTA\nHeading: Want fewer auto-parts quotes dying after the pricing conversation?\nBody: Book a 30-minute call. We will look at how quote-stage opportunities move through your store today, where pricing and fitment conversations go cold, and whether a focused quote-follow-up workflow is the cleanest automation to build before anything broader.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the live `/ai-automation-for-auto-parts-ecommerce` parent and surrounding cluster still implied a distinct quote-stage buyer query, while the direct WheelsFeels CRM proof made the page supportable without stretching the evidence."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: ownership, timing, support-noise separation, and where a human must take over."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the workflow-stage boundaries explicit so the page does not collapse back into the broader inquiry-routing or stale-lead pages."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T20:54:59.894Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        9,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 21.5,
+      "sentenceLengthRange": [
+        4,
+        44
+      ],
+      "totalWords": 365
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Quote Follow-Up Automation for Auto Parts E-Commerce\nBody: Auto parts brands do not only lose revenue because new inquiries never arrive.",
+      "wordCount": 23,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want fewer auto-parts quotes dying after the pricing conversation?\nBody: Book a 30-minute call. We will look at how quote-stage opportunities move through your store today, where pricing and fitment conversations go cold, and whether a focused quote-follow-up workflow is the cleanest automation to build before anything broader.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 16,
+      "commas": 22,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 1.29
+    },
+    "vocabulary": {
+      "distinctWords": 222,
+      "totalWords": 365,
+      "topWords": [
+        [
+          "follow-up",
+          6
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "quote",
+          5
+        ],
+        [
+          "pricing",
+          5
+        ],
+        [
+          "quote-stage",
+          5
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "from",
+          5
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "auto-parts",
+          4
+        ],
+        [
+          "auto",
+          3
+        ],
+        [
+          "parts",
+          3
+        ],
+        [
+          "because",
+          3
+        ],
+        [
+          "conversation",
+          3
+        ],
+        [
+          "after",
+          3
+        ],
+        [
+          "someone",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

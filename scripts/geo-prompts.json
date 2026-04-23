@@ -772,7 +772,7 @@
         "AI automation for auto parts e-commerce",
         "How can an auto parts brand automate lead follow-up and CRM workflows?",
         "How do I automate fitment inquiry follow-up for an auto parts store?",
-        "How should an auto parts brand organize fitment, quote, and support follow-up inside one CRM?",
+        "How should an auto parts brand organize fitment, support, and lifecycle follow-up inside one CRM?",
         "What AI workflows are actually worth automating first for an auto parts e-commerce brand?"
       ]
     },
@@ -810,6 +810,18 @@
         "How should an auto parts store route fitment product and support questions faster?",
         "How do I stop high-intent auto parts buyers from getting buried in one support inbox?",
         "What is the best workflow for mixed customer inquiries in an auto parts store?"
+      ]
+    },
+    {
+      "id": "quote-follow-up-automation-for-auto-parts-ecommerce",
+      "path": "/quote-follow-up-automation-for-auto-parts-ecommerce",
+      "label": "Quote Follow-Up Automation for Auto Parts E-Commerce",
+      "prompts": [
+        "Quote follow-up automation for auto parts e-commerce",
+        "How should an auto parts brand automate quote follow-up without mixing it with support traffic?",
+        "Best way to follow up on pricing and custom-order quotes for an auto parts store",
+        "How do I stop auto parts quote requests from going cold after pricing is sent?",
+        "Should an auto parts brand automate quote follow-up before broader CRM cleanup?"
       ]
     },
     {

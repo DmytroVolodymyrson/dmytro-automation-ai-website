@@ -932,6 +932,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Quote Follow-Up Automation for Auto Parts E-Commerce",
+    description:
+      "A narrower auto-parts quote-stage page focused on pricing conversations, custom-order and wholesale follow-up, reply routing, and the human handoff that keeps high-intent buyers from dying after the quote goes out.",
+    href: "/quote-follow-up-automation-for-auto-parts-ecommerce",
+    category: "industries",
+  },
+  {
     title: "Repeat-Purchase & Reactivation Automation for E-Commerce Brands",
     description:
       "A narrower e-commerce lifecycle page focused on reorder timing, dormant-customer reactivation, stale-lead recovery, and the alerts that turn renewed intent into real follow-up.",

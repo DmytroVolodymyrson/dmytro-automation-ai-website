@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped missed-call-text-back-vs-voicemail-for-auto-repair-shops because the live auto-repair phone cluster still lacked the lighter fallback decision already proven in the restaurant cluster: SMS-first missed-call recovery versus voicemail/manual callback. The new page stays tightly on callback lag, caller effort, advisor workload, and when the shop should move beyond both into live AI phone answering instead of rehashing the broader auto-repair phone-answering pages.)
+Last updated: 2026-04-23 (shipped quote-follow-up-automation-for-auto-parts-ecommerce because the live auto-parts cluster still had a commercially distinct quote-stage workflow buried inside the parent prompts and the direct WheelsFeels CRM proof fit the page cleanly. The new page stays tightly on pricing-stage follow-up, custom-order and wholesale quote momentum, reply routing, and human handoff instead of rehashing mixed inquiry routing, stale-lead recovery, or the broader auto-parts CRM decision page.)
 
 ## Live GEO Assets
 
@@ -111,6 +111,7 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-vs-voicemail-for-auto-re
 | Fitment Inquiry Automation for Auto Parts E-Commerce | `/fitment-inquiry-automation-for-auto-parts-ecommerce` | Industry workflow page | Live |
 | Customer Inquiry Automation for Auto Parts E-Commerce | `/customer-inquiry-automation-for-auto-parts-ecommerce` | Auto-parts inquiry-routing workflow page | Live |
 | Stale Lead Follow-Up for Auto Parts E-Commerce | `/stale-lead-follow-up-for-auto-parts-ecommerce` | Auto-parts stale-lead recovery workflow page | Live |
+| Quote Follow-Up Automation for Auto Parts E-Commerce | `/quote-follow-up-automation-for-auto-parts-ecommerce` | Auto-parts quote-stage workflow page | Live |
 | Repeat-Purchase & Reactivation Automation for E-Commerce Brands | `/repeat-purchase-reactivation-automation-for-ecommerce-brands` | Industry lifecycle page | Live |
 | Customer Service Automation for E-Commerce Brands | `/customer-service-automation-for-ecommerce-brands` | Industry support workflow page | Live |
 | Customer Service Automation vs. Manual Support for E-Commerce Brands | `/customer-service-automation-vs-manual-support-for-ecommerce-brands` | E-commerce support decision page | Live |
@@ -173,20 +174,20 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-vs-voicemail-for-auto-re
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 153**
+**Total decision/comparison/industry pages live: 154**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/missed-call-text-back-vs-voicemail-for-auto-repair-shops` cleaned up the live auto-repair phone fallback cluster by isolating the lighter buyer choice between SMS-first missed-call recovery and voicemail/manual callback. Broad backlog reconciliation still looks close to exhausted, so the next pass should start broad again instead of assuming another clean page survives automatically.
+Shipping `/quote-follow-up-automation-for-auto-parts-ecommerce` cleaned up another real buyer query that was still buried inside the live auto-parts cluster. The direct WheelsFeels CRM proof made this a cleaner ship than forcing filler from a stale queue. The backlog still looks close to exhausted, but one or two narrower workflow pages may still survive broad reconciliation.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Broad backlog reconciliation for one more net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | After extracting the n8n audit-checklist child, the neat queue is no longer trustworthy enough to force another exact-page assumption. | **Do this first next run** |
-| 2 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, n8n, and voice-agent clusters without filler | Use this if the next reconciliation still finds no clean proof-backed net-new page that is meaningfully distinct. | **Fallback if no better exact query survives** |
-| 3 | **Watchlist** | Keep the voice-agent setup cluster clean | Preserve the separation between setup help, setup-mistakes, launch-checklist, DIY, cost, ROI, and manual-callback pages | Avoid leaving the exact go-live checklist queries duplicated under the broader setup-help entry again. | **Done for now; monitor drift only** |
+| 1 | **P1** | `/roofing-missed-call-text-back` | Roofing missed-call recovery / missed-call text-back for roofing companies | The live roofing parent still explicitly tracks missed calls, but the cluster only has the broad roofing page plus estimate follow-up. A missed-call child would stay distinct by focusing on SMS-first recovery before live answering, and it has strong adjacent proof from the HVAC, service-business, and auto-repair phone-recovery clusters. | **Best next exact candidate** |
+| 2 | **Fallback** | Broad backlog reconciliation for one more net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | The neat queue remains untrustworthy enough that each run still needs a fresh cross-doc reconciliation before declaring the backlog exhausted. | **Do this if roofing missed-call text-back stops looking clean** |
+| 3 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, n8n, and voice-agent clusters without filler | Use this only if the next reconciliation still finds no defensible proof-backed net-new page that is meaningfully distinct. | **Fallback if no better exact query survives** |
 
 ### Priority Definitions
 
