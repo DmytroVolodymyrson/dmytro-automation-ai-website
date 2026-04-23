@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-gohighlevel-account-audit-checklist",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: GoHighLevel Account Audit Checklist\nBody: If your GoHighLevel account feels messy, do not pay for cleanup blindly. Audit the account first. The goal is to answer three practical questions fast: what is actually broken, whether the core workflow is still worth saving, and whether you need bounded cleanup, a rebuild, or a different stack entirely.\nSub: Below: what to inspect before you pay for cleanup, which red flags usually mean cleanup is enough, which ones point to rebuild, and how to keep this audit page distinct from the broader cleanup-service and cleanup-vs-rebuild guides already live on the site.\n\n### Core sections\n- What to audit first in a messy GoHighLevel account\n- What the audit usually points to\n- When this checklist is useful — and when it is not\n- The five red flags that should change your decision quickly\n- How this page stays distinct from the other GoHighLevel recovery pages\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions from owners trying to diagnose a messy GoHighLevel account before paying for more implementation work\n- How do I audit a messy GoHighLevel account before paying for cleanup?\n- What should I check first in a GoHighLevel account audit?\n- How do I know if GoHighLevel cleanup is enough or if I need a rebuild?\n- Can an audit show that GoHighLevel is the wrong stack for this workflow?\n- How is this different from the cleanup-service page already on the site?\n\n### Final CTA\nHeading: Need a second opinion on what is actually broken in your GoHighLevel account?\nBody: Book a 30-minute call. We will look at the live workflow first, identify whether the account needs bounded cleanup, a rebuild, or a different stack, and help you avoid paying for the wrong rescue project.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected because the neat roadmap queue was still exhausted, but the live GoHighLevel cleanup-service prompt set still contained the exact pre-purchase diagnostic query: how do I audit a messy GoHighLevel account before paying for cleanup?"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page distinct from both nearby siblings: the cleanup-service page still answers what recovery help includes, and the cleanup-vs-rebuild page still answers how to choose between those paths. This new page stays one step earlier on diagnosis before purchase."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used only adjacent proof already published on the site: the live GoHighLevel cluster, the WheelsFeels CRM case study, and the Paris Cafe workflow-trust example. Avoided pretending there is a standalone GoHighLevel audit case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: workflow trust, pipeline truth, duplicate state, owner-time cost, and the possibility that GHL may be the wrong stack for the workflow."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T18:02:18.575Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 22.9,
+      "sentenceLengthRange": [
+        4,
+        60
+      ],
+      "totalWords": 298
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: GoHighLevel Account Audit Checklist\nBody: If your GoHighLevel account feels messy, do not pay for cleanup blindly.",
+      "wordCount": 19,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a second opinion on what is actually broken in your GoHighLevel account?\nBody: Book a 30-minute call. We will look at the live workflow first, identify whether the account needs bounded cleanup, a rebuild, or a different stack, and help you avoid paying for the wrong rescue project.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 6,
+      "commas": 12,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 8,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 125,
+      "totalWords": 298,
+      "topWords": [
+        [
+          "-",
+          11
+        ],
+        [
+          "gohighlevel",
+          10
+        ],
+        [
+          "account",
+          9
+        ],
+        [
+          "audit",
+          8
+        ],
+        [
+          "cleanup",
+          7
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "this",
+          6
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "messy",
+          4
+        ],
+        [
+          "first",
+          4
+        ],
+        [
+          "rebuild",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "if",
+          3
+        ],
+        [
+          "your",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

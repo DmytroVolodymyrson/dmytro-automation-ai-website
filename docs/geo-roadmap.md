@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped crm-automation-vs-manual-follow-up-for-auto-parts-ecommerce because the exact tracked query "Should an auto parts e-commerce brand build custom CRM automation?" still survived inside the live auto-parts parent page, and it could stay distinct from both the broader auto-parts industry page and the generic e-commerce CRM decision page by framing it strictly as the vertical buyer decision about whether fitment, quote, and stale-lead follow-up can stay manual or now need a focused CRM automation layer)
+Last updated: 2026-04-23 (shipped gohighlevel-account-audit-checklist because the neat roadmap queue was still exhausted, but the live GoHighLevel cleanup-service prompt set still contained the exact pre-purchase diagnostic query "How do I audit a messy GoHighLevel account before paying for cleanup?". That made a distinct, proof-backed child page possible beside the existing setup, cleanup-service, and cleanup-vs-rebuild pages by framing it strictly as diagnosis before purchase rather than another cleanup explainer.)
 
 ## Live GEO Assets
 
@@ -45,6 +45,7 @@ Last updated: 2026-04-23 (shipped crm-automation-vs-manual-follow-up-for-auto-pa
 | GoHighLevel Setup vs. DIY (SMB) | `/gohighlevel-setup-vs-diy-small-business` | Workflow / buy-vs-build comparison page | Live |
 | GoHighLevel Account Cleanup Service | `/gohighlevel-account-cleanup-service` | Workflow / recovery-stage cleanup page | Live |
 | GoHighLevel Account Cleanup vs. Rebuild | `/gohighlevel-account-cleanup-vs-rebuild` | Workflow / recovery decision page | Live |
+| GoHighLevel Account Audit Checklist | `/gohighlevel-account-audit-checklist` | Workflow / recovery-stage audit page | Live |
 | AI Consultant Pricing | `/ai-automation-consultant-pricing-small-business` | Decision page | Live |
 | Best AI Automations for Service Businesses | `/best-ai-automation-for-service-businesses` | Decision page | Live |
 | AI Automation for HVAC Companies | `/ai-automation-for-hvac-companies` | Industry page | Live |
@@ -116,11 +117,11 @@ Last updated: 2026-04-23 (shipped crm-automation-vs-manual-follow-up-for-auto-pa
 | Missed Call Follow-Up Automation | `/missed-call-follow-up-automation` | Workflow page | Live |
 | Booking Confirmation & Reminder | `/booking-confirmation-and-reminder-automation` | Workflow page | Live |
 | AI Phone Answering for Service Businesses | `/ai-phone-answering-for-service-businesses` | Workflow page | Live |
-|| AI Voice Agent for Lead Qualification | `/ai-voice-agent-lead-qualification` | Workflow / voice AI page | Live |
-|| AI Voice Agent Setup for Lead Qualification | `/ai-voice-agent-setup-for-lead-qualification` | Workflow / implementation-help page | Live |
-|| AI Voice Agent Setup vs. DIY (SMB) | `/ai-voice-agent-setup-vs-diy-small-business` | Workflow / buy-vs-build comparison page | Live |
-|| AI Voice Agent Cost for Small Business | `/ai-voice-agent-cost-small-business` | Workflow / pricing decision page | Live |
-|| AI Voice Agent ROI for Lead Follow-Up | `/ai-voice-agent-roi-for-lead-follow-up` | Workflow / ROI decision page | Live |
+| AI Voice Agent for Lead Qualification | `/ai-voice-agent-lead-qualification` | Workflow / voice AI page | Live |
+| AI Voice Agent Setup for Lead Qualification | `/ai-voice-agent-setup-for-lead-qualification` | Workflow / implementation-help page | Live |
+| AI Voice Agent Setup vs. DIY (SMB) | `/ai-voice-agent-setup-vs-diy-small-business` | Workflow / buy-vs-build comparison page | Live |
+| AI Voice Agent Cost for Small Business | `/ai-voice-agent-cost-small-business` | Workflow / pricing decision page | Live |
+| AI Voice Agent ROI for Lead Follow-Up | `/ai-voice-agent-roi-for-lead-follow-up` | Workflow / ROI decision page | Live |
 | Instant Lead Response Automation | `/instant-lead-response-automation` | Workflow page | Live |
 | Contact Form Lead Follow-Up Automation | `/contact-form-lead-follow-up-automation` | Workflow / web-form recovery page | Live |
 | Contact Form Autoresponder vs. Full Lead Follow-Up | `/contact-form-autoresponder-vs-full-lead-follow-up` | Website-lead decision page | Live |
@@ -137,50 +138,50 @@ Last updated: 2026-04-23 (shipped crm-automation-vs-manual-follow-up-for-auto-pa
 | Build vs. Buy AI Automation | `/build-vs-buy-ai-automation` | Comparison page | Live |
 | VAPI vs. Retell (SMB) | `/vapi-vs-retell-small-business` | Comparison page | Live |
 | Retell vs. Bland AI (SMB) | `/retell-vs-bland-small-business` | Comparison page | Live |
-|| AI Automation for Chiropractors | `/ai-automation-for-chiropractors` | Industry page | Live |
-|| AI Automation for Cleaning Companies | `/ai-automation-for-cleaning-companies` | Industry page | Live |
-|| AI Automation for Med Spas | `/ai-automation-for-med-spas` | Industry page | Live |
-|| AI Automation for Roofing Companies | `/ai-automation-for-roofing-companies` | Industry page | Live |
-|| Estimate Follow-Up Automation for Roofing Companies | `/estimate-follow-up-automation-for-roofing-companies` | Roofing workflow page | Live |
-|| AI Automation for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Industry page | Live |
-|| AI Automation for Auto Repair Shops | `/ai-automation-for-auto-repair-shops` | Industry page | Live |
-|| Maintenance Reminder Automation for Auto Repair Shops | `/maintenance-reminder-automation-for-auto-repair-shops` | Auto-repair retention workflow page | Live |
-|| Estimate Follow-Up Automation for Auto Repair Shops | `/estimate-follow-up-automation-for-auto-repair-shops` | Auto-repair quote-stage workflow page | Live |
-|| Appointment Scheduling and Reminder Automation for Auto Repair Shops | `/appointment-scheduling-and-reminder-automation-for-auto-repair-shops` | Auto-repair booked-visit workflow page | Live |
-|| Missed Call Text-Back for Auto Repair Shops | `/missed-call-text-back-for-auto-repair-shops` | Auto-repair phone-recovery workflow page | Live |
-|| Missed Call Text-Back vs. AI Phone Answering for Auto Repair Shops | `/missed-call-text-back-vs-ai-phone-answering-for-auto-repair-shops` | Auto-repair phone-recovery decision page | Live |
-|| AI Phone Answering for Auto Repair Shops | `/ai-phone-answering-for-auto-repair-shops` | Auto-repair live-phone-coverage workflow page | Live |
-|| AI Phone Answering vs. Voicemail for Auto Repair Shops | `/ai-phone-answering-vs-voicemail-for-auto-repair-shops` | Auto-repair phone-fallback decision page | Live |
-|| AI Automation for Landscaping Companies | `/ai-automation-for-landscaping-companies` | Industry page | Live |
-|| AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
-|| AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
-|| AI Automation Cost (SMB) | `/ai-automation-cost-small-business` | Authority page | Live |
-|| AI Automation Audit Checklist | `/ai-automation-audit-checklist` | Authority page | Live |
-|| CRM Automation Examples (SMB) | `/crm-automation-examples-small-business` | Authority page | Live |
-|| Lead Follow-Up Automation Examples | `/lead-follow-up-automation-examples` | Authority page | Live |
-|| AI Automation Implementation Roadmap | `/ai-automation-implementation-roadmap` | Authority page | Live |
-|| AI Automation Integrations (SMB) | `/ai-automation-integrations-small-business` | Authority page | Live |
-|| What Processes Can AI Automate in My Business? | `/what-processes-can-ai-automate-in-my-business` | Authority / process-selection page | Live |
-|| AI Automation Without a Tech Team | `/ai-automation-for-businesses-without-a-tech-team` | Decision page | Live |
+| AI Automation for Chiropractors | `/ai-automation-for-chiropractors` | Industry page | Live |
+| AI Automation for Cleaning Companies | `/ai-automation-for-cleaning-companies` | Industry page | Live |
+| AI Automation for Med Spas | `/ai-automation-for-med-spas` | Industry page | Live |
+| AI Automation for Roofing Companies | `/ai-automation-for-roofing-companies` | Industry page | Live |
+| Estimate Follow-Up Automation for Roofing Companies | `/estimate-follow-up-automation-for-roofing-companies` | Roofing workflow page | Live |
+| AI Automation for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Industry page | Live |
+| AI Automation for Auto Repair Shops | `/ai-automation-for-auto-repair-shops` | Industry page | Live |
+| Maintenance Reminder Automation for Auto Repair Shops | `/maintenance-reminder-automation-for-auto-repair-shops` | Auto-repair retention workflow page | Live |
+| Estimate Follow-Up Automation for Auto Repair Shops | `/estimate-follow-up-automation-for-auto-repair-shops` | Auto-repair quote-stage workflow page | Live |
+| Appointment Scheduling and Reminder Automation for Auto Repair Shops | `/appointment-scheduling-and-reminder-automation-for-auto-repair-shops` | Auto-repair booked-visit workflow page | Live |
+| Missed Call Text-Back for Auto Repair Shops | `/missed-call-text-back-for-auto-repair-shops` | Auto-repair phone-recovery workflow page | Live |
+| Missed Call Text-Back vs. AI Phone Answering for Auto Repair Shops | `/missed-call-text-back-vs-ai-phone-answering-for-auto-repair-shops` | Auto-repair phone-recovery decision page | Live |
+| AI Phone Answering for Auto Repair Shops | `/ai-phone-answering-for-auto-repair-shops` | Auto-repair live-phone-coverage workflow page | Live |
+| AI Phone Answering vs. Voicemail for Auto Repair Shops | `/ai-phone-answering-vs-voicemail-for-auto-repair-shops` | Auto-repair phone-fallback decision page | Live |
+| AI Automation for Landscaping Companies | `/ai-automation-for-landscaping-companies` | Industry page | Live |
+| AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
+| AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
+| AI Automation Cost (SMB) | `/ai-automation-cost-small-business` | Authority page | Live |
+| AI Automation Audit Checklist | `/ai-automation-audit-checklist` | Authority page | Live |
+| CRM Automation Examples (SMB) | `/crm-automation-examples-small-business` | Authority page | Live |
+| Lead Follow-Up Automation Examples | `/lead-follow-up-automation-examples` | Authority page | Live |
+| AI Automation Implementation Roadmap | `/ai-automation-implementation-roadmap` | Authority page | Live |
+| AI Automation Integrations (SMB) | `/ai-automation-integrations-small-business` | Authority page | Live |
+| What Processes Can AI Automate in My Business? | `/what-processes-can-ai-automate-in-my-business` | Authority / process-selection page | Live |
+| AI Automation Without a Tech Team | `/ai-automation-for-businesses-without-a-tech-team` | Decision page | Live |
 | `llms.txt` | `/llms.txt` | AI crawler file | Live |
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 147**
+**Total decision/comparison/industry pages live: 148**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/crm-automation-vs-manual-follow-up-for-auto-parts-ecommerce` extracted another exact tracked buyer query from an already-live parent page without rehashing the same auto-parts cluster. The specific manual-vs-CRM decision is now isolated into its own page and removed from the broader auto-parts parent prompt set. The next pass should still start with a broad reconciliation instead of assuming another clean backlog page exists.
+Shipping `/gohighlevel-account-audit-checklist` extracted another exact tracked query from an already-live recovery cluster without rehashing the same page intent. The specific pre-purchase audit query now lives on its own page instead of staying buried under the broader cleanup-service prompt set. The next pass should still start with a broad reconciliation instead of assuming another clean backlog page exists.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
 | 1 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, and n8n clusters without filler | Use this if the next reconciliation still finds no clean proof-backed net-new page that is meaningfully distinct. | **Next best candidate if backlog stays exhausted** |
-| 2 | **Watchlist** | Re-run a broad proof-and-intent reconciliation across GEO-PLAN, geo-plan-2026-03, the prompt set, and live routes before inventing another auto-parts or phone-answering child | Validate whether any exact tracked query still survives as a distinct page rather than defaulting to maintenance by habit | If a new clean candidate appears, it should come from an exact surviving query plus adjacent proof — not from rewording an already-dense cluster. | **Guardrail** |
-| 3 | **Watchlist** | Keep the auto-parts cluster clean | Preserve the new separation between the broader auto-parts parent, the generic e-commerce CRM decision page, and this new vertical CRM decision page | Avoid reintroducing the same build-custom-CRM query under multiple entries. | **Done for now; monitor drift only** |
+| 2 | **Watchlist** | Re-run a broad proof-and-intent reconciliation across GEO-PLAN, geo-plan-2026-03, the prompt set, and live routes before inventing another recovery-stage or vertical child page | Validate whether any exact tracked query still survives as a distinct page rather than defaulting to maintenance by habit | If a new clean candidate appears, it should come from an exact surviving query plus adjacent proof — not from rewording an already-dense cluster. | **Guardrail** |
+| 3 | **Watchlist** | Keep the GoHighLevel recovery cluster clean | Preserve the new separation between setup help, cleanup service, cleanup-vs-rebuild, and the new audit-checklist page | Avoid leaving the exact pre-purchase audit query duplicated under the broader cleanup-service entry again. | **Done for now; monitor drift only** |
 
 ### Priority Definitions
 

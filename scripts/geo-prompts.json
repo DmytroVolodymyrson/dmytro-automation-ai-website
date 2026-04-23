@@ -1048,8 +1048,20 @@
         "GoHighLevel account cleanup service",
         "Can someone clean up a messy GoHighLevel account?",
         "How do I clean up an inherited GoHighLevel account?",
+        "What does GoHighLevel cleanup help actually include?",
+        "When should I get GoHighLevel cleanup help instead of adding more automation?"
+      ]
+    },
+    {
+      "id": "gohighlevel-account-audit-checklist",
+      "path": "/gohighlevel-account-audit-checklist",
+      "label": "GoHighLevel Account Audit Checklist",
+      "prompts": [
         "How do I audit a messy GoHighLevel account before paying for cleanup?",
-        "What does GoHighLevel cleanup help actually include?"
+        "GoHighLevel account audit checklist",
+        "What should I check in a messy GoHighLevel account before paying for cleanup?",
+        "How do I know if my GoHighLevel account needs cleanup or a rebuild?",
+        "What should a GoHighLevel account audit look at first?"
       ]
     },
     {

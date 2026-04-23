@@ -216,6 +216,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "GoHighLevel Account Audit Checklist",
+    description:
+      "What should you inspect in a messy GoHighLevel account before you pay for cleanup? Practical checklist for pipeline truth, broken automations, duplicate contacts, ownership gaps, and whether cleanup, rebuild, or a different stack is the smarter move.",
+    href: "/gohighlevel-account-audit-checklist",
+    category: "workflows",
+  },
+  {
     title: "AI Appointment Setter Setup Help",
     description:
       "Need help setting up an AI appointment setter? Practical guide to qualification logic, calendar rules, CRM handoff, pricing, and when expert setup is worth it.",
