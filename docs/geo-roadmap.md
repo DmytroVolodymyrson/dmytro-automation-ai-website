@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped crm-automation-setup-for-contractors by extracting the exact setup-help query still tracked under the live /crm-automation-for-contractors cluster into a distinct contractor implementation-help page anchored in the existing contractor CRM, GoHighLevel-vs-custom contractor decision, estimate-follow-up, dispatch-handoff, and CRM case-study proof)
+Last updated: 2026-04-23 (shipped customer-inquiry-automation-for-auto-parts-ecommerce by extracting the exact auto-parts customer-inquiry query still living inside the broader /ai-automation-for-auto-parts-ecommerce prompt set into a distinct child page anchored in the existing WheelsFeels CRM case study plus the live auto-parts and fitment workflow cluster)
 
 ## Live GEO Assets
 
@@ -95,6 +95,7 @@ Last updated: 2026-04-23 (shipped crm-automation-setup-for-contractors by extrac
 | n8n Automation Consultant Cost for Small Business | `/n8n-automation-consultant-cost-small-business` | n8n pricing decision page | Live |
 | n8n Consultant vs. DIY for Small Business | `/n8n-consultant-vs-diy-small-business` | n8n buy-vs-build decision page | Live |
 | Fitment Inquiry Automation for Auto Parts E-Commerce | `/fitment-inquiry-automation-for-auto-parts-ecommerce` | Industry workflow page | Live |
+| Customer Inquiry Automation for Auto Parts E-Commerce | `/customer-inquiry-automation-for-auto-parts-ecommerce` | Auto-parts inquiry-routing workflow page | Live |
 | Repeat-Purchase & Reactivation Automation for E-Commerce Brands | `/repeat-purchase-reactivation-automation-for-ecommerce-brands` | Industry lifecycle page | Live |
 | Customer Service Automation for E-Commerce Brands | `/customer-service-automation-for-ecommerce-brands` | Industry support workflow page | Live |
 | Customer Service Automation vs. Manual Support for E-Commerce Brands | `/customer-service-automation-vs-manual-support-for-ecommerce-brands` | E-commerce support decision page | Live |
@@ -147,19 +148,19 @@ Last updated: 2026-04-23 (shipped crm-automation-setup-for-contractors by extrac
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 128**
+**Total decision/comparison/industry pages live: 129**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/crm-automation-setup-for-contractors` proved there was still one clean setup-help extraction left inside the stronger vertical clusters once the broader queue was reconciled against tracked prompts. The next pass should reopen broader planning docs and remaining tracked prompts for another proof-backed net-new page outside the now-thinner contractor setup cluster; if nothing survives fresh reconciliation cleanly, the honest fallback is maintenance on the strongest live voice-agent / appointment-setter / contractor CRM / GoHighLevel clusters instead of forcing a thin page.
+Shipping `/customer-inquiry-automation-for-auto-parts-ecommerce` proved there was still at least one defensible child page left in the auto-parts / e-commerce cluster once the broader queue was reconciled against tracked prompts. The next pass should reopen broader planning docs and remaining tracked prompts for another proof-backed net-new page outside the now-thinner auto-parts inquiry-routing gap; if nothing survives fresh reconciliation cleanly, the honest fallback is maintenance on the strongest live voice-agent / appointment-setter / contractor CRM / GoHighLevel / e-commerce clusters instead of forcing a thin page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts for the next proof-backed net-new page outside the contractor setup-help extraction | Next distinct buyer-intent or workflow page not yet live | The contractor setup-help query was still worth shipping, but that cluster is now thinner. The next net-new ship should come from fresh plan reconciliation across other clusters instead of forcing another near-duplicate contractor child page. | **Recheck next run** |
-| 2 | **Fallback** | Strengthen strongest live voice-agent / appointment-setter / contractor CRM / GoHighLevel clusters | Discovery, internal links, and tracked-prompt cleanup | If no broader planned page survives fresh reconciliation cleanly, the safest next move is maintenance on the strongest workflow clusters instead of pretending another exact child page still exists. | **Watch next** |
+| 1 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts for the next proof-backed net-new page outside the new auto-parts inquiry-routing child | Next distinct buyer-intent or workflow page not yet live | The exact auto-parts customer-inquiry query was still worth shipping, but that cluster is now thinner. The next net-new ship should come from fresh plan reconciliation across other clusters instead of forcing another near-duplicate e-commerce child page. | **Recheck next run** |
+| 2 | **Watchlist** | Maintenance reminders for auto repair shops or another equally proof-backed vertical child page only if fresh reconciliation still supports it | Distinct vertical workflow intent with honest adjacent proof | The auto-repair parent still tracks a commercially real maintenance-reminder query, but it needs the same proof/cannibalization check before shipping. If it does not survive cleanly, default to strengthening the strongest live clusters instead. | **Check next** |
 
 ### Priority Definitions
 

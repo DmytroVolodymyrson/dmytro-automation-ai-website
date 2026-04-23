@@ -85,6 +85,7 @@ import AfterHoursMaintenanceTriageForPropertyManagementCompanies from "./pages/A
 import AiAutomationEcommerce from "./pages/AiAutomationEcommerce";
 import AiAutomationForAutoPartsEcommerce from "./pages/AiAutomationForAutoPartsEcommerce";
 import FitmentInquiryAutomationForAutoPartsEcommerce from "./pages/FitmentInquiryAutomationForAutoPartsEcommerce";
+import CustomerInquiryAutomationForAutoPartsEcommerce from "./pages/CustomerInquiryAutomationForAutoPartsEcommerce";
 import EcommerceCrmAutomationWithAiFollowUp from "./pages/EcommerceCrmAutomationWithAiFollowUp";
 import EcommerceCrmAutomationVsManualFollowUp from "./pages/EcommerceCrmAutomationVsManualFollowUp";
 import RepeatPurchaseReactivationAutomationForEcommerceBrands from "./pages/RepeatPurchaseReactivationAutomationForEcommerceBrands";
@@ -254,6 +255,10 @@ export const appRoutes: AppRouteDefinition[] = [
   {
     path: "/fitment-inquiry-automation-for-auto-parts-ecommerce",
     element: <FitmentInquiryAutomationForAutoPartsEcommerce />,
+  },
+  {
+    path: "/customer-inquiry-automation-for-auto-parts-ecommerce",
+    element: <CustomerInquiryAutomationForAutoPartsEcommerce />,
   },
   {
     path: "/repeat-purchase-reactivation-automation-for-ecommerce-brands",

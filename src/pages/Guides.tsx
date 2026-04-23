@@ -820,6 +820,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Customer Inquiry Automation for Auto Parts E-Commerce",
+    description:
+      "A narrower auto-parts inquiry-routing page focused on separating fitment, product, quote, and support messages so high-intent buyers stop getting buried in one mixed queue.",
+    href: "/customer-inquiry-automation-for-auto-parts-ecommerce",
+    category: "industries",
+  },
+  {
     title: "Repeat-Purchase & Reactivation Automation for E-Commerce Brands",
     description:
       "A narrower e-commerce lifecycle page focused on reorder timing, dormant-customer reactivation, stale-lead recovery, and the alerts that turn renewed intent into real follow-up.",
