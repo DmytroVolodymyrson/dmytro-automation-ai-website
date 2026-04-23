@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-missed-call-text-back-vs-ai-phone-answering-for-roofing-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back vs. AI Phone Answering for Roofing Companies\nBody: Roofing companies that lose calls do not all need the same fix. This page isolates the buyer decision between a lighter SMS-first missed-call recovery layer and heavier live AI phone answering. It stays practical: storm-season call spikes, after-hours demand, office and estimator workload, caller expectations, and where each option starts or stops being enough.\nSub: Below: where each option fits for roofing companies, where roofers overbuild, where they underbuild, and what the existing roofing plus phone-recovery proof honestly supports.\n\n### Core sections\n- What each option is really trying to solve\n- Side-by-side comparison for roofing companies\n- When each option makes sense\n- Good fit and bad fit signals\n- The mistakes roofing companies make when choosing\n- How to choose without overcomplicating it\n- What proof honestly supports this comparison\n\n### FAQ\nSubhead: Straight answers for roofers deciding between SMS-first recovery and live AI phone coverage\n- Is missed-call text-back cheaper than AI phone answering for a roofing company?\n- When should a roofing company skip text-back and go straight to AI phone answering?\n- Will homeowners actually reply to a missed-call text from a roofing company?\n- Does AI phone answering replace the estimator or office coordinator?\n- What is the safest way to choose between them?\n\n### Final CTA\nHeading: Need help choosing the right phone-recovery layer for your roofing company?\nBody: Book a 30-minute call. We will look at your missed-call pattern, where roofing demand is leaking, and whether a focused text-back workflow or live AI phone answering is the better first move for your company.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected because the reconciled backlog still had one clean roofing child query hiding inside the tracked prompts: whether a roofing company should use missed-call text-back or live AI phone answering."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page separate from the broader roofing guide, the roofing missed-call child, and the roofing estimate-follow-up page by framing it strictly as the buyer decision between the lighter SMS-first fallback and the heavier live-phone-coverage layer."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used bounded proof only: the live roofing parent and missed-call child, the broader AI phone-answering guide, and the Paris Cafe voice-agent case study. Avoided pretending there is already a dedicated roofing phone-answering case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: real workflow boundaries, real not-fit cases, and explicit limits on what live AI or SMS should and should not handle in a roofing company."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T21:28:08.443Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 19.4,
+      "sentenceLengthRange": [
+        5,
+        52
+      ],
+      "totalWords": 271
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Missed Call Text-Back vs.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help choosing the right phone-recovery layer for your roofing company?\nBody: Book a 30-minute call. We will look at your missed-call pattern, where roofing demand is leaking, and whether a focused text-back workflow or live AI phone answering is the better first move for your company.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 9,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 12,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 8,
+      "commasPerSentence": 0.69
+    },
+    "vocabulary": {
+      "distinctWords": 138,
+      "totalWords": 271,
+      "topWords": [
+        [
+          "-",
+          12
+        ],
+        [
+          "roofing",
+          11
+        ],
+        [
+          "ai",
+          7
+        ],
+        [
+          "phone",
+          7
+        ],
+        [
+          "answering",
+          6
+        ],
+        [
+          "companies",
+          5
+        ],
+        [
+          "where",
+          5
+        ],
+        [
+          "company",
+          5
+        ],
+        [
+          "text-back",
+          4
+        ],
+        [
+          "missed-call",
+          4
+        ],
+        [
+          "each",
+          4
+        ],
+        [
+          "option",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "call",
+          3
+        ],
+        [
+          "between",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.004
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

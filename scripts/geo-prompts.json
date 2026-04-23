@@ -1289,7 +1289,19 @@
         "How do roofing companies text back missed calls automatically?",
         "Best way to recover missed storm-damage and roof inspection calls",
         "Roofing missed call SMS automation",
-        "Should a roofing company use missed-call text-back or live AI phone answering?"
+        "How should a roofing company handle missed calls during storm-season call spikes?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-ai-phone-answering-for-roofing-companies",
+      "path": "/missed-call-text-back-vs-ai-phone-answering-for-roofing-companies",
+      "label": "Missed Call Text-Back vs. AI Phone Answering for Roofing Companies",
+      "prompts": [
+        "Should a roofing company use missed-call text-back or live AI phone answering?",
+        "Missed call text-back vs AI phone answering for roofing companies",
+        "What is better for a roofing company missed-call recovery text-back or live AI phone answering?",
+        "When should a roofing company use SMS-first missed-call recovery instead of live AI phone answering?",
+        "Best roofing phone-recovery setup text-back or AI phone answering"
       ]
     },
     {

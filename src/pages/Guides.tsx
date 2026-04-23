@@ -1009,6 +1009,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. AI Phone Answering for Roofing Companies",
+    description:
+      "Roofing-specific buyer guide for choosing between SMS-first missed-call recovery and live AI phone coverage. Covers storm-driven call spikes, after-hours demand, office workload, caller expectations, and when the heavier phone layer is worth it.",
+    href: "/missed-call-text-back-vs-ai-phone-answering-for-roofing-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Pest Control Companies",
     description:
       "AI automation for pest control companies. Lead follow-up, recurring service reminders, seasonal campaigns, missed call text-back, and review automation.",
