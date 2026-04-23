@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped ai-voice-agent-setup-cost-small-business after another proof-led reconciliation. The neat backlog was already exhausted, but the live voice-agent setup cluster still held one exact tracked economic child that stayed materially distinct from the broader voice-agent cost page and the setup-help / setup-vs-DIY siblings: the narrower budgeting decision for implementation help itself. The new page stays tightly on setup pricing — call-flow design, qualification logic, transfer rules, CRM handoff, testing, and the difference between setup cost and ongoing monthly voice-agent cost — while using only direct and adjacent proof from the Paris Cafe case study plus the existing voice-agent qualification and setup-help guides.)
+Last updated: 2026-04-23 (shipped crm-pipeline-stages-for-contractors after another proof-led reconciliation. The neat backlog was still exhausted, but the live contractor CRM cluster still held one exact tracked setup-before-setup child that stayed materially distinct from the broader contractor CRM page, the contractor CRM setup-help page, and the estimate / dispatch workflow children: the narrower workflow-design question of how to structure contractor pipeline stages before automation. The new page stays tightly on intake ownership, qualification, estimate flow, booked-job handoff, completed-work stages, and the stage mistakes that quietly break follow-up and dispatch while using only honest adjacent proof from the live contractor cluster plus the published WheelsFeels CRM case study.)
 
 ## Live GEO Assets
 
@@ -72,6 +72,7 @@ Last updated: 2026-04-23 (shipped ai-voice-agent-setup-cost-small-business after
 | AI Automation for Plumbing Companies | `/ai-automation-for-plumbing-companies` | Industry page | Live |
 | AI Automation for Electrical Contractors | `/ai-automation-for-electrical-contractors` | Industry page | Live |
 | CRM Automation for Contractors | `/crm-automation-for-contractors` | Industry / CRM systems page | Live |
+| CRM Pipeline Stages for Contractors | `/crm-pipeline-stages-for-contractors` | Contractor workflow-design page | Live |
 | CRM Automation Setup for Contractors | `/crm-automation-setup-for-contractors` | Contractor setup-help page | Live |
 | CRM Automation Setup Cost for Contractors | `/crm-automation-setup-cost-for-contractors` | Contractor pricing decision page | Live |
 | CRM Automation Setup vs. DIY for Contractors | `/crm-automation-setup-vs-diy-for-contractors` | Contractor buy-vs-build decision page | Live |
@@ -182,20 +183,20 @@ Last updated: 2026-04-23 (shipped ai-voice-agent-setup-cost-small-business after
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 161**
+**Total decision/comparison/industry pages live: 162**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-voice-agent-setup-cost-small-business` appears to exhaust the last exact high-confidence voice-agent setup child that still survived fallback reconciliation after the cleaner roadmap queue had already run dry. The next run should not pretend another equally clean page is still queued if it is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters.
+Shipping `/crm-pipeline-stages-for-contractors` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Broad backlog reconciliation for one more proof-backed net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | The neat queue is no longer trustworthy after the HVAC phone-decision child shipped. The next run should search for any remaining page that is proof-backed, materially distinct, and not just another rephrasing of a live cluster. | **Default next action** |
+| 1 | **Fallback** | Broad backlog reconciliation for one more proof-backed net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | The neat queue is still not trustworthy after the latest contractor workflow-design child shipped. The next run should search for any remaining page that is proof-backed, materially distinct, and not just another rephrasing of a live cluster. | **Default next action** |
 | 2 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, n8n, voice-agent, roofing, and HVAC clusters without filler | Use this only if another full reconciliation still finds no defensible proof-backed net-new page. | **Maintenance-only fallback** |
-| 3 | **Watchlist** | Proof-led watchlist for future late-backlog pages | Keep a short list of candidate queries that only become valid if new proof, a new case study, or a clearly distinct tracked prompt emerges | Prevents future cron runs from forcing stale queue items after the explicit HVAC sibling is now live. | **Use when fresh proof appears** |
+| 3 | **Watchlist** | Proof-led watchlist for future late-backlog pages | Keep a short list of candidate queries that only become valid if new proof, a new case study, or a clearly distinct tracked prompt emerges | Prevents future cron runs from forcing stale queue items after the latest extracted child page shipped. | **Use when fresh proof appears** |
 
 ### Priority Definitions
 

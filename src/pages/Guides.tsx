@@ -1156,6 +1156,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "CRM Pipeline Stages for Contractors",
+    description:
+      "Practical guide to structuring contractor CRM stages before automation — intake ownership, qualification, estimate flow, booked-job handoff, and the stage mistakes that quietly break follow-up and dispatch.",
+    href: "/crm-pipeline-stages-for-contractors",
+    category: "industries",
+  },
+  {
     title: "CRM Automation Setup for Contractors",
     description:
       "Implementation-help guide for contractors choosing how to set up pipeline stages, estimate follow-up, dispatch handoff, integrations, and workflow ownership without creating another messy dashboard.",

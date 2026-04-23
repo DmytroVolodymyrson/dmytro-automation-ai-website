@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-crm-pipeline-stages-for-contractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: CRM Pipeline Stages for Contractors\nBody: Before a contractor adds more CRM automation, the pipeline itself has to make sense. If one person marks a lead as quoted, another calls it pending, and dispatch only hears about the job after the customer is already frustrated, the problem is not missing software. The problem is stage design. Good contractor pipeline stages make ownership obvious from the first request through the estimate, booked job, completed work, and reactivation layer. That clarity is what gives automation something reliable to act on.\nSub: Below: the contractor pipeline stages that usually matter, how this page stays distinct from broader contractor CRM setup help, where stage design usually breaks estimate follow-up and dispatch handoff, and what honest adjacent proof supports the page without pretending there is already a published contractor pipeline case study.\n\n### Core sections\n- What good contractor CRM pipeline stages usually include\n- Pipeline-stage design vs. contractor CRM setup vs. estimate follow-up vs. dispatch handoff\n- Where contractor pipeline-stage design usually breaks\n- How to define contractor pipeline stages before you automate them\n- Relevant proof and adjacent proof\n\n### FAQ\nSubhead: Practical questions about contractor CRM pipeline design\nTopics: which stages most contractors actually need, how this differs from the broader contractor CRM page, how it differs from contractor CRM setup help, platform fit with Jobber/Housecall Pro/ServiceTitan/GoHighLevel/custom stacks, and the main ROI of cleaning up stages first.\n\n### Final CTA\nHeading: Need cleaner contractor pipeline stages before you add more automation?\nBody: Book a 30-minute call. We will map the stages your team is actually using now, find where estimate follow-up and dispatch handoff are breaking, and show you whether the next step is lighter workflow cleanup or a broader CRM setup project.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the live contractor CRM tracking prompts still contained an exact workflow-design query that stayed materially distinct from the broader contractor CRM page, the setup-help page, and the estimate / dispatch child pages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the framing narrow and useful: intake ownership, qualification, estimate flow, booked-job handoff, completed-work stages, and where stage confusion quietly breaks automations."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live contractor cluster plus the published WheelsFeels CRM case study as honest adjacent proof instead of implying there is already a contractor-specific pipeline-stage case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: workflow states, ownership, handoffs, and stage clarity instead of generic platform cheerleading."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T23:25:51.774Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 20.7,
+      "sentenceLengthRange": [
+        3,
+        49
+      ],
+      "totalWords": 290
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: CRM Pipeline Stages for Contractors\nBody: Before a contractor adds more CRM automation, the pipeline itself has to make sense.",
+      "wordCount": 22,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need cleaner contractor pipeline stages before you add more automation?\nBody: Book a 30-minute call. We will map the stages your team is actually using now, find where estimate follow-up and dispatch handoff are breaking, and show you whether the next step is lighter workflow cleanup or a broader CRM setup project.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 12,
+      "commas": 16,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.23
+    },
+    "vocabulary": {
+      "distinctWords": 153,
+      "totalWords": 290,
+      "topWords": [
+        [
+          "contractor",
+          13
+        ],
+        [
+          "crm",
+          9
+        ],
+        [
+          "pipeline",
+          9
+        ],
+        [
+          "stages",
+          9
+        ],
+        [
+          "design",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "dispatch",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "estimate",
+          4
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "setup",
+          4
+        ],
+        [
+          "before",
+          3
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "what",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

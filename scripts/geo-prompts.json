@@ -1541,7 +1541,19 @@
         "Best CRM system for a contractor with estimate follow-up and dispatch handoff",
         "How can a contractor stop losing leads between the office and the field?",
         "When does a contractor need more than a basic CRM?",
-        "How should a contractor structure pipeline stages before adding automation?"
+        "How should a contractor organize leads, estimates, booked jobs, and completed work inside one CRM?"
+      ]
+    },
+    {
+      "id": "crm-pipeline-stages-for-contractors",
+      "path": "/crm-pipeline-stages-for-contractors",
+      "label": "CRM Pipeline Stages for Contractors",
+      "prompts": [
+        "CRM pipeline stages for contractors",
+        "How should a contractor structure pipeline stages before adding automation?",
+        "What pipeline stages should a contractor use before automating CRM follow-up?",
+        "How do I organize new leads, estimates, booked jobs, and completed work in a contractor CRM?",
+        "What contractor pipeline stages usually break estimate follow-up and dispatch handoff?"
       ]
     },
     {

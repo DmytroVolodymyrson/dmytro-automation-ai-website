@@ -166,6 +166,7 @@ import AffordableAiAutomationSmallBusiness from "./pages/AffordableAiAutomationS
 import AiAutomationAuditChecklist from "./pages/AiAutomationAuditChecklist";
 import CrmAutomationExamplesSmallBusiness from "./pages/CrmAutomationExamplesSmallBusiness";
 import CrmAutomationForContractors from "./pages/CrmAutomationForContractors";
+import CrmPipelineStagesForContractors from "./pages/CrmPipelineStagesForContractors";
 import EstimateFollowUpAutomationForContractors from "./pages/EstimateFollowUpAutomationForContractors";
 import EstimateFollowUpAutomationForRoofingCompanies from "./pages/EstimateFollowUpAutomationForRoofingCompanies";
 import DispatchHandoffAutomationForContractors from "./pages/DispatchHandoffAutomationForContractors";
@@ -397,6 +398,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-audit-checklist", element: <AiAutomationAuditChecklist /> },
   { path: "/crm-automation-examples-small-business", element: <CrmAutomationExamplesSmallBusiness /> },
   { path: "/crm-automation-for-contractors", element: <CrmAutomationForContractors /> },
+  { path: "/crm-pipeline-stages-for-contractors", element: <CrmPipelineStagesForContractors /> },
   { path: "/crm-automation-setup-for-contractors", element: <CrmAutomationSetupForContractors /> },
   { path: "/crm-automation-setup-cost-for-contractors", element: <CrmAutomationSetupCostForContractors /> },
   { path: "/crm-automation-setup-vs-diy-for-contractors", element: <CrmAutomationSetupVsDiyForContractors /> },
