@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped ai-voice-agent-vs-manual-callback-for-service-businesses by turning the exact voice-lead qualification prompt already tracked under the live AI voice-agent cluster into a dedicated buyer-decision page anchored in the published Paris Cafe voice-handling proof plus the adjacent voice qualification, cost, and ROI workflow guides)
+Last updated: 2026-04-22 (shipped after-hours-phone-answering-for-restaurants by extracting the exact after-hours phone-coverage buyer query already tracked under the live restaurant automation cluster into a dedicated overnight-call-coverage page anchored in the published Paris Cafe after-hours phone proof plus the adjacent restaurant voice-agent and missed-call recovery guides)
 
 ## Live GEO Assets
 
@@ -25,6 +25,7 @@ Last updated: 2026-04-22 (shipped ai-voice-agent-vs-manual-callback-for-service-
 | Reservation Confirmation and Reminder Automation for Restaurants | `/reservation-confirmation-and-reminder-automation-for-restaurants` | Restaurant workflow page | Live |
 | Missed Call Text-Back for Restaurants | `/missed-call-text-back-for-restaurants` | Restaurant workflow page | Live |
 | Missed Call Text-Back vs. AI Voice Agent for Restaurants | `/missed-call-text-back-vs-ai-voice-agent-for-restaurants` | Restaurant comparison page | Live |
+| After-Hours Phone Answering for Restaurants | `/after-hours-phone-answering-for-restaurants` | Restaurant after-hours phone workflow page | Live |
 | AI Lead Follow-Up | `/ai-lead-follow-up-for-service-businesses` | Decision page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Workflow / pricing decision page | Live |
 | AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo landing page | Live |
@@ -140,19 +141,19 @@ Last updated: 2026-04-22 (shipped ai-voice-agent-vs-manual-callback-for-service-
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 121**
+**Total decision/comparison/industry pages live: 122**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-voice-agent-vs-manual-callback-for-service-businesses` used up the last explicit high-confidence net-new page still surviving the current roadmap plus tracked-prompt reconciliation. The exact manual-callback decision prompt that justified this build was already embedded under the live voice-qualification cluster in `scripts/geo-prompts.json`, and it is now isolated on its own page instead of being buried under the parent. At this point the roadmap should stop pretending another equally clean page is still queued by default.
+Shipping `/after-hours-phone-answering-for-restaurants` proved there was still at least one clean proof-backed child page left inside the tracked prompts: the exact after-hours restaurant phone-coverage query that had been sitting under the broader restaurant automation parent. That buyer decision is now isolated on its own page instead of being buried under the parent cluster. The queue is still late-backlog and should stay skeptical, but it is no longer honest to say there are zero viable child-page candidates left.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives fresh planning review | Voice-agent + contact-form + e-commerce discovery and internal links | With the last explicit tracked comparison now live, the safest next move is discovery-surface tightening and internal-link strengthening unless new proof or a newly explicit tracked query appears. | **Fallback** |
-| 2 | **Watchlist** | Re-check broader planning docs for any new proof-backed exact buyer decision before shipping another page | Proof-led only | Only ship another page when a materially distinct buyer intent survives reconciliation across planning docs, tracked prompts, current routes, and existing proof. | **Watchlist** |
+| 1 | **P1** | n8n consultant vs. DIY decision page | Tool-specific implementation-help / hire-vs-build intent | `scripts/geo-prompts.json` still contains the exact buyer query "Should I hire an n8n consultant or build it myself?" inside the live `/n8n-automation-consultant` cluster. If it can stay distinct from the broader n8n hiring guide, it is the next clean proof-adjacent child-page candidate. | **Watch next** |
+| 2 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives fresh reconciliation | Restaurant + voice-agent + n8n discovery and internal links | If the n8n DIY-vs-hire query does not survive a strict distinctness review, the safest next move is discovery-surface tightening and internal-link strengthening on the strongest live clusters instead of forcing another thin page. | **Fallback** |
 
 ### Priority Definitions
 

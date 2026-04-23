@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-after-hours-phone-answering-for-restaurants",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: After-Hours Phone Answering for Restaurants\nBody: If your restaurant gets reservation calls after close, the real question is not whether you need more generic \"AI.\" The question is whether after-hours demand is valuable enough to answer in the moment instead of pushing callers to voicemail and hoping they call back tomorrow. After-hours phone answering for restaurants usually means one of two practical systems: a live AI voice agent that can answer and capture bookings right away, or a lighter missed-call recovery flow that at least keeps the guest conversation alive. The wrong setup is pretending voicemail is neutral. It is usually where reservation intent dies.\nSub: Below: what after-hours restaurant phone coverage should actually do, where a live AI answerer beats text-back, where text-back is enough, what the Paris Cafe case study proves directly, and when this problem is not worth solving yet.\n\n### Core sections\n- Narrows the already-live restaurant phone cluster to the specific overnight decision: live AI answering vs. SMS-first recovery vs. leaving callers to voicemail.\n- Keeps the page distinct from the broader AI voice-agent page by staying tightly on after-close coverage, overnight booking capture, and morning handoff visibility.\n- Uses the Paris Cafe case study as direct proof for the after-hours phone problem, then leans on the existing restaurant text-back and comparison pages as adjacent proof for lighter fallback paths.\n- Includes fit / not-fit framing, operational guardrails, FAQ, and restaurant-specific internal links instead of pretending every restaurant needs the same stack.\n\n### FAQ\nSubhead: Straight answers for restaurant owners deciding how much after-hours phone coverage they actually need\nTopics: how this differs from the broader restaurant voice-agent page, when live AI answering beats missed-call text-back, reservation-stack compatibility, realistic cost framing, and when the restaurant should ignore the problem entirely.\n\n### Final CTA\nHeading: Losing reservation calls after close?\nBody: Book a 30-minute call. We will look at how much overnight phone demand your restaurant actually gets, whether live AI answering or a lighter fallback makes more sense, and what the narrowest useful after-hours phone workflow would look like for your setup.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because `scripts/geo-prompts.json` already tracked the exact parent-level buyer query \"Should a restaurant use AI for after-hours phone coverage?\" under `/ai-automation-for-restaurants`, but the site still lacked a dedicated page isolating that decision."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page bounded to the after-hours restaurant phone problem instead of rewriting `/ai-voice-agent-for-restaurants` or `/missed-call-text-back-for-restaurants`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype, with explicit boundaries around when voicemail is still acceptable and when overnight demand is not worth automating."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T04:07:20.364Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        6,
+        1,
+        3
+      ],
+      "avgSentenceLength": 23,
+      "sentenceLengthRange": [
+        3,
+        53
+      ],
+      "totalWords": 345
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: After-Hours Phone Answering for Restaurants\nBody: If your restaurant gets reservation calls after close, the real question is not whether you need more generic \"AI.\" The question is whether after-hours demand is valuable enough to answer in the moment instead of pushing callers to voicemail and hoping they call back tomorrow.",
+      "wordCount": 53,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Losing reservation calls after close?\nBody: Book a 30-minute call. We will look at how much overnight phone demand your restaurant actually gets, whether live AI answering or a lighter fallback makes more sense, and what the narrowest useful after-hours phone workflow would look like for your setup.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 15,
+      "commas": 18,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 10,
+      "commasPerSentence": 1.2
+    },
+    "vocabulary": {
+      "distinctWords": 184,
+      "totalWords": 345,
+      "topWords": [
+        [
+          "restaurant",
+          9
+        ],
+        [
+          "phone",
+          8
+        ],
+        [
+          "after-hours",
+          7
+        ],
+        [
+          "ai",
+          7
+        ],
+        [
+          "answering",
+          5
+        ],
+        [
+          "live",
+          5
+        ],
+        [
+          "text-back",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "your",
+          3
+        ],
+        [
+          "reservation",
+          3
+        ],
+        [
+          "whether",
+          3
+        ],
+        [
+          "voicemail",
+          3
+        ],
+        [
+          "lighter",
+          3
+        ],
+        [
+          "where",
+          3
+        ],
+        [
+          "what",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

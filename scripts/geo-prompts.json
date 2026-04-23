@@ -88,8 +88,8 @@
         "AI automation for restaurants",
         "How can a restaurant automate reservations and guest follow-up?",
         "Best AI automation for restaurants with missed calls",
-        "Should a restaurant use AI for after-hours phone coverage?",
-        "How do restaurants automate private event inquiry follow-up?"
+        "How do restaurants automate private event inquiry follow-up?",
+        "What restaurant workflows are actually worth automating first?"
       ]
     },
     {
@@ -102,6 +102,18 @@
         "How can a restaurant stop missing reservation calls?",
         "Restaurant reservation AI answering service",
         "Should a restaurant use an AI phone host?"
+      ]
+    },
+    {
+      "id": "after-hours-phone-answering-restaurants",
+      "path": "/after-hours-phone-answering-for-restaurants",
+      "label": "After-Hours Phone Answering for Restaurants",
+      "prompts": [
+        "After-hours phone answering for restaurants",
+        "Should a restaurant use AI for after-hours phone coverage?",
+        "Best way for a restaurant to answer reservation calls after close",
+        "Restaurant after-hours call answering service",
+        "When should a restaurant use live AI phone answering instead of voicemail after hours?"
       ]
     },
     {

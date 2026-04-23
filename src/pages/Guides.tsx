@@ -237,6 +237,20 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "Missed Call Text-Back for Restaurants",
+    description:
+      "How restaurants recover missed reservation and guest-service calls with an immediate text-back workflow, where SMS-first recovery works better than voicemail, and when a full voice agent is the better fit.",
+    href: "/missed-call-text-back-for-restaurants",
+    category: "industries",
+  },
+  {
+    title: "After-Hours Phone Answering for Restaurants",
+    description:
+      "Practical guide to handling restaurant calls after close — when live AI phone answering is worth it, when SMS-first missed-call recovery is enough, and why voicemail usually loses reservation demand.",
+    href: "/after-hours-phone-answering-for-restaurants",
+    category: "industries",
+  },
+  {
     title: "Missed Call Text-Back vs. AI Voice Agent for Restaurants",
     description:
       "Should a restaurant use SMS-first recovery after missed calls or invest in live AI phone coverage? Practical comparison of booking recovery, guest experience, cost, and where each option fits.",

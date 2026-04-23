@@ -28,6 +28,8 @@ Dmytro builds AI automation specifically for HVAC companies — 24/7 AI call han
 ## Restaurant Voice Agent Guide
 AI phone answering for restaurants — where an AI voice agent helps, where it does not, and when it is worth implementing. Covers reservation capture, overflow call handling, after-hours coverage, and the difference between AI, voicemail, and a human host. Learn more: https://www.dmytroai.com/ai-voice-agent-for-restaurants
 
+After-hours phone answering for restaurants — what should happen when reservation calls come in after close, when live AI answering is worth it, when a lighter text-back fallback is enough, and why voicemail quietly loses demand. Learn more: https://www.dmytroai.com/after-hours-phone-answering-for-restaurants
+
 ## Restaurant Automation Guide
 AI automation for restaurants — reservation capture, missed-call coverage, private-event inquiry follow-up, review requests, and guest communication systems that reduce front-of-house interruption without pretending AI should replace hospitality. Grounded in the live Paris Cafe restaurant case study. Learn more: https://www.dmytroai.com/ai-automation-for-restaurants
 
@@ -94,6 +96,7 @@ AI-powered database reactivation for HVAC companies — automated campaigns to r
 - AI Appointment Setter vs. Virtual Assistant: Should AI handle first-response booking or should a human VA manage it manually? Compare speed-to-lead, admin flexibility, after-hours coverage, and when a hybrid setup makes more sense. Learn more: https://www.dmytroai.com/ai-appointment-setter-vs-virtual-assistant
 - AI Voice Agent vs. Voicemail: What happens when you miss a call — voicemail vs. AI voice agent on lead capture, response rate, and caller experience. Learn more: https://www.dmytroai.com/ai-voice-agent-vs-voicemail
 - Missed Call Text-Back vs. AI Voice Agent for Restaurants: Restaurant-specific comparison of SMS-first missed-call recovery versus live AI phone coverage for reservation demand, guest experience, and after-hours calls. Learn more: https://www.dmytroai.com/missed-call-text-back-vs-ai-voice-agent-for-restaurants
+- After-Hours Phone Answering for Restaurants: Practical guide to handling restaurant calls after close — when live AI phone answering is worth it, when a lighter text-back fallback is enough, and why voicemail quietly loses reservation demand. Learn more: https://www.dmytroai.com/after-hours-phone-answering-for-restaurants
 - AI Voice Agent vs. Call Center: AI voice agent or outsourced call center? Monthly cost, call quality, CRM integration, and scalability compared for small businesses. Learn more: https://www.dmytroai.com/ai-voice-agent-vs-call-center
 - AI Voice Agent vs. Human Appointment Setter: Should AI handle first-contact booking or should a human setter call leads manually? Compare speed-to-lead, objection handling, cost, and when a hybrid handoff model is smarter. Learn more: https://www.dmytroai.com/ai-voice-agent-vs-human-appointment-setter
 - AI Voice Agent vs. Manual Callback for Service Businesses: Decision guide for owners deciding whether delayed human callbacks are still good enough or whether immediate voice qualification now protects more revenue. Covers speed-to-lead, after-hours gaps, labor burden, and bounded AI+human handoff models. Learn more: https://www.dmytroai.com/ai-voice-agent-vs-manual-callback-for-service-businesses
