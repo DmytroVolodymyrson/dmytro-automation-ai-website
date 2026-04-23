@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-ai-phone-answering-for-auto-repair-shops",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: AI Phone Answering for Auto Repair Shops\nBody: Some auto repair shops do not mainly have a missed-call problem. They have a live phone-coverage problem. The service advisor is writing up an estimate, the bays are loud, customers are at the front counter, and new callers still expect a real answer now — not voicemail, not a callback later, and not always an SMS after the fact. AI phone answering for auto repair shops is the heavier phone layer that sits beyond missed-call text-back. It answers the call live, handles common service and booking questions, captures the next useful detail, and routes higher-context conversations back to a human before the shop keeps bleeding appointments, diagnostics, and after-hours demand.\nSub: Below: what live AI phone answering should actually handle in a repair shop, how it stays distinct from missed-call text-back and the broader auto-repair parent page, where it fits best, and what adjacent proof supports it honestly.\n\n### Core sections\n- Frames the page as the heavier live-answering layer inside the existing auto-repair phone cluster rather than a rewrite of the broader auto-repair parent, the missed-call child, or the existing comparison page.\n- Covers what live AI phone answering should actually handle for a repair shop: routine inbound calls, straightforward appointment intake, after-hours coverage, service-advisor overflow protection, and context-rich handoff for higher-stakes calls.\n- Keeps the proof honest by grounding the page in the auto-repair parent page, the generic AI phone-answering guide, and the Paris Cafe case study instead of pretending there is already a published auto-repair-specific phone-answering case study.\n- Stays operational and bounded: no fake diagnosis, no AI replacing the service advisor, and explicit escalation rules for towing, complaints, warranty questions, and other nuance-heavy calls.\n\n### FAQ\nSubhead: Straight answers for repair-shop owners considering live AI phone coverage\nTopics: how this differs from missed-call text-back, what a focused build usually costs, whether it can book appointments, whether it replaces the service advisor, and whether it can work with current shop software or phone systems.\n\n### Final CTA\nHeading: Need to know if your shop needs live AI phone answering or just a lighter fallback?\nBody: Book a 30-minute call. We will look at your current call pattern, how much demand dies in voicemail or callbacks, and whether live AI phone answering is the right next step for your shop or whether a narrower phone-recovery workflow would be smarter first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the roadmap’s nominal P1 property-management extraction is now too close to the just-shipped after-hours maintenance triage page, while this auto-repair live-phone-coverage page remained the cleanest distinct proof-backed candidate left in the queue."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on the live-answering workflow itself so it does not collapse into either the missed-call text-back child or the existing text-back-vs-AI-phone-answering comparison page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses adjacent proof only: the broader auto-repair parent page, the generic AI phone-answering guide, and the Paris Cafe call-handling case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T16:32:45.055Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 28.4,
+      "sentenceLengthRange": [
+        5,
+        48
+      ],
+      "totalWords": 398
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Phone Answering for Auto Repair Shops\nBody: Some auto repair shops do not mainly have a missed-call problem.",
+      "wordCount": 21,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need to know if your shop needs live AI phone answering or just a lighter fallback?\nBody: Book a 30-minute call. We will look at your current call pattern, how much demand dies in voicemail or callbacks, and whether live AI phone answering is the right next step for your shop or whether a narrower phone-recovery workflow would be smarter first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 13,
+      "commas": 32,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 10,
+      "commasPerSentence": 2.29
+    },
+    "vocabulary": {
+      "distinctWords": 213,
+      "totalWords": 398,
+      "topWords": [
+        [
+          "phone",
+          10
+        ],
+        [
+          "ai",
+          9
+        ],
+        [
+          "live",
+          7
+        ],
+        [
+          "it",
+          7
+        ],
+        [
+          "answering",
+          6
+        ],
+        [
+          "shop",
+          6
+        ],
+        [
+          "repair",
+          5
+        ],
+        [
+          "missed-call",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "whether",
+          5
+        ],
+        [
+          "not",
+          4
+        ],
+        [
+          "service",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "auto-repair",
+          4
+        ],
+        [
+          "-",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

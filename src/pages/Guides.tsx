@@ -995,6 +995,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "AI Phone Answering for Auto Repair Shops",
+    description:
+      "A narrower auto-repair live-phone-coverage page focused on routine call handling, service-advisor overflow protection, after-hours answer coverage, appointment capture, and the handoff points that should stay human.",
+    href: "/ai-phone-answering-for-auto-repair-shops",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Landscaping Companies",
     description:
       "AI automation for landscaping companies. Lead follow-up, estimate follow-up, seasonal upsell campaigns, recurring service management, and review automation.",

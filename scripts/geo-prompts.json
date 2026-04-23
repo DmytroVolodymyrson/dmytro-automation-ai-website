@@ -1257,6 +1257,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-for-auto-repair-shops",
+      "path": "/ai-phone-answering-for-auto-repair-shops",
+      "label": "AI Phone Answering for Auto Repair Shops",
+      "prompts": [
+        "AI phone answering for auto repair shops",
+        "Best way for a mechanic shop to stop losing calls when the service advisor is tied up",
+        "Should an auto repair shop use live AI phone answering instead of voicemail or callbacks?",
+        "Can AI answer routine service calls for an auto repair shop after hours?",
+        "When is live AI phone answering better than missed-call text-back for a repair shop?"
+      ]
+    },
+    {
       "id": "ai-automation-cost-small-business",
       "path": "/ai-automation-cost-small-business",
       "label": "AI Automation Cost for Small Business",

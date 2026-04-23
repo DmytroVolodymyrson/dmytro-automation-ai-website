@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped how-to-hire-n8n-automation-consultant by extracting the exact tracked hiring-intent query already hiding inside the live n8n consultant cluster into its own narrower hiring guide, so the site now answers what owners ask after deciding n8n may fit: how to vet expert help, what proof matters, and what ownership terms to insist on before trusting someone with a live workflow)
+Last updated: 2026-04-23 (shipped ai-phone-answering-for-auto-repair-shops because the nominal property-management extraction was now too close to the just-live after-hours maintenance triage page, while the auto-repair cluster still had a distinct live-phone-coverage page left: what to do when callers need a real answer now and missed-call text-back is no longer enough)
 
 ## Live GEO Assets
 
@@ -135,11 +135,11 @@ Last updated: 2026-04-23 (shipped how-to-hire-n8n-automation-consultant by extra
 | Build vs. Buy AI Automation | `/build-vs-buy-ai-automation` | Comparison page | Live |
 | VAPI vs. Retell (SMB) | `/vapi-vs-retell-small-business` | Comparison page | Live |
 | Retell vs. Bland AI (SMB) | `/retell-vs-bland-small-business` | Comparison page | Live |
-| AI Automation for Chiropractors | `/ai-automation-for-chiropractors` | Industry page | Live |
-| AI Automation for Cleaning Companies | `/ai-automation-for-cleaning-companies` | Industry page | Live |
-| AI Automation for Med Spas | `/ai-automation-for-med-spas` | Industry page | Live |
-| AI Automation for Roofing Companies | `/ai-automation-for-roofing-companies` | Industry page | Live |
-| Estimate Follow-Up Automation for Roofing Companies | `/estimate-follow-up-automation-for-roofing-companies` | Roofing workflow page | Live |
+|| AI Automation for Chiropractors | `/ai-automation-for-chiropractors` | Industry page | Live |
+|| AI Automation for Cleaning Companies | `/ai-automation-for-cleaning-companies` | Industry page | Live |
+|| AI Automation for Med Spas | `/ai-automation-for-med-spas` | Industry page | Live |
+|| AI Automation for Roofing Companies | `/ai-automation-for-roofing-companies` | Industry page | Live |
+|| Estimate Follow-Up Automation for Roofing Companies | `/estimate-follow-up-automation-for-roofing-companies` | Roofing workflow page | Live |
 || AI Automation for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Industry page | Live |
 || AI Automation for Auto Repair Shops | `/ai-automation-for-auto-repair-shops` | Industry page | Live |
 || Maintenance Reminder Automation for Auto Repair Shops | `/maintenance-reminder-automation-for-auto-repair-shops` | Auto-repair retention workflow page | Live |
@@ -147,36 +147,37 @@ Last updated: 2026-04-23 (shipped how-to-hire-n8n-automation-consultant by extra
 || Appointment Scheduling and Reminder Automation for Auto Repair Shops | `/appointment-scheduling-and-reminder-automation-for-auto-repair-shops` | Auto-repair booked-visit workflow page | Live |
 || Missed Call Text-Back for Auto Repair Shops | `/missed-call-text-back-for-auto-repair-shops` | Auto-repair phone-recovery workflow page | Live |
 || Missed Call Text-Back vs. AI Phone Answering for Auto Repair Shops | `/missed-call-text-back-vs-ai-phone-answering-for-auto-repair-shops` | Auto-repair phone-recovery decision page | Live |
+|| AI Phone Answering for Auto Repair Shops | `/ai-phone-answering-for-auto-repair-shops` | Auto-repair live-phone-coverage workflow page | Live |
 || AI Automation for Landscaping Companies | `/ai-automation-for-landscaping-companies` | Industry page | Live |
-| AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
-| AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
-| AI Automation Cost (SMB) | `/ai-automation-cost-small-business` | Authority page | Live |
-| AI Automation Audit Checklist | `/ai-automation-audit-checklist` | Authority page | Live |
-| CRM Automation Examples (SMB) | `/crm-automation-examples-small-business` | Authority page | Live |
-| Lead Follow-Up Automation Examples | `/lead-follow-up-automation-examples` | Authority page | Live |
-| AI Automation Implementation Roadmap | `/ai-automation-implementation-roadmap` | Authority page | Live |
-| AI Automation Integrations (SMB) | `/ai-automation-integrations-small-business` | Authority page | Live |
-| What Processes Can AI Automate in My Business? | `/what-processes-can-ai-automate-in-my-business` | Authority / process-selection page | Live |
-| AI Automation Without a Tech Team | `/ai-automation-for-businesses-without-a-tech-team` | Decision page | Live |
+|| AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
+|| AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
+|| AI Automation Cost (SMB) | `/ai-automation-cost-small-business` | Authority page | Live |
+|| AI Automation Audit Checklist | `/ai-automation-audit-checklist` | Authority page | Live |
+|| CRM Automation Examples (SMB) | `/crm-automation-examples-small-business` | Authority page | Live |
+|| Lead Follow-Up Automation Examples | `/lead-follow-up-automation-examples` | Authority page | Live |
+|| AI Automation Implementation Roadmap | `/ai-automation-implementation-roadmap` | Authority page | Live |
+|| AI Automation Integrations (SMB) | `/ai-automation-integrations-small-business` | Authority page | Live |
+|| What Processes Can AI Automate in My Business? | `/what-processes-can-ai-automate-in-my-business` | Authority / process-selection page | Live |
+|| AI Automation Without a Tech Team | `/ai-automation-for-businesses-without-a-tech-team` | Decision page | Live |
 | `llms.txt` | `/llms.txt` | AI crawler file | Live |
 | `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 143**
+**Total decision/comparison/industry pages live: 144**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/how-to-hire-n8n-automation-consultant` clears the strongest remaining hiring-intent extraction inside the n8n cluster. The next pass should stay aggressive, but it should now favor the next exact tracked child query that is still distinct from already-live pages rather than drifting back into vague queue placeholders.
+Shipping `/ai-phone-answering-for-auto-repair-shops` uses the cleanest distinct page still left after reconciling the broader plans, the live routes, and the just-shipped auto-repair/property-management cluster changes. The next pass should stay aggressive, but it should also be honest about overlap risk: the remaining property-management extraction still exists, yet it now needs a tighter decision-only frame than the just-live after-hours maintenance triage page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Emergency vs. routine maintenance triage for property management companies | How should a property management company automate emergency vs. routine maintenance intake? | The live maintenance-request and after-hours maintenance pages already establish adjacent proof and the tracked prompt still contains a narrower emergency-vs-routine triage decision that is not yet isolated as its own buyer-intent page. | **Best next candidate** |
-| 2 | **Watchlist** | AI phone answering for auto repair shops | Best way for a mechanic shop to stop losing calls when the service advisor is tied up | The auto-repair cluster already has missed-call and reminder children plus a phone-recovery comparison page, so a direct phone-answering child may be the next defensible extraction if the property-management triage page proves too close to existing coverage. | **Fallback candidate** |
-| 3 | **Watchlist** | Improve discovery/internal-link coverage on the strongest live clusters only if no distinct proof-backed page survives reconciliation | Support already-live restaurant, contractor, property-management, insurance, e-commerce, auto-repair, GoHighLevel, and n8n clusters without filler | Use this only if no clean net-new page survives the next proof-and-intent review. | **Fallback only** |
+| 1 | **Watchlist** | Emergency vs. routine maintenance intake for property management companies | How should a property management company automate emergency vs. routine maintenance intake? | The exact tracked query still exists, but the just-live after-hours maintenance triage page already sits close to it. Only ship this if the page stays explicitly on the buyer decision itself — not a rewrite of the broader maintenance-request or after-hours triage pages. | **Next best candidate, but overlap-sensitive** |
+| 2 | **Watchlist** | Improve discovery/internal-link coverage on the strongest live clusters only if no distinct proof-backed page survives reconciliation | Support already-live restaurant, contractor, property-management, insurance, e-commerce, auto-repair, GoHighLevel, and n8n clusters without filler | Use this only if no clean net-new page survives the next proof-and-intent review. | **Fallback only** |
+| 3 | **Watchlist** | Reconcile the property-management prompt cluster before another child extraction | Keep parent and child intent boundaries clean across maintenance-request, after-hours tenant communication, and after-hours maintenance triage pages | If the next run does ship the property-management decision child, move the exact query out of the parent prompt set immediately so the same intent does not stay duplicated. | **Guardrail / prep work** |
 
 ### Priority Definitions
 
