@@ -47,6 +47,7 @@ const PrivateEventInquiryFollowUpForRestaurants = lazy(() => import("./pages/Pri
 const ReservationConfirmationAndReminderAutomationForRestaurants = lazy(() => import("./pages/ReservationConfirmationAndReminderAutomationForRestaurants"));
 const MissedCallTextBackForRestaurants = lazy(() => import("./pages/MissedCallTextBackForRestaurants"));
 const MissedCallTextBackVsAiVoiceAgentForRestaurants = lazy(() => import("./pages/MissedCallTextBackVsAiVoiceAgentForRestaurants"));
+const MissedCallTextBackVsVoicemailForRestaurants = lazy(() => import("./pages/MissedCallTextBackVsVoicemailForRestaurants"));
 const AfterHoursPhoneAnsweringForRestaurants = lazy(() => import("./pages/AfterHoursPhoneAnsweringForRestaurants"));
 const AfterHoursAiPhoneAnsweringVsVoicemailForRestaurants = lazy(() => import("./pages/AfterHoursAiPhoneAnsweringVsVoicemailForRestaurants"));
 const AiAutomationConsultantEdmonton = lazy(() => import("./pages/AiAutomationConsultantEdmonton"));
@@ -203,6 +204,7 @@ const AppRoutesClient = () => (
       <Route path="/reservation-confirmation-and-reminder-automation-for-restaurants" element={<ReservationConfirmationAndReminderAutomationForRestaurants />} />
       <Route path="/missed-call-text-back-for-restaurants" element={<MissedCallTextBackForRestaurants />} />
       <Route path="/missed-call-text-back-vs-ai-voice-agent-for-restaurants" element={<MissedCallTextBackVsAiVoiceAgentForRestaurants />} />
+      <Route path="/missed-call-text-back-vs-voicemail-for-restaurants" element={<MissedCallTextBackVsVoicemailForRestaurants />} />
       <Route path="/after-hours-phone-answering-for-restaurants" element={<AfterHoursPhoneAnsweringForRestaurants />} />
       <Route path="/after-hours-ai-phone-answering-vs-voicemail-for-restaurants" element={<AfterHoursAiPhoneAnsweringVsVoicemailForRestaurants />} />
       <Route path="/ai-automation-consultant-alberta" element={<AiAutomationConsultantAlberta />} />

@@ -46,6 +46,7 @@ import PrivateEventInquiryFollowUpForRestaurants from "./pages/PrivateEventInqui
 import ReservationConfirmationAndReminderAutomationForRestaurants from "./pages/ReservationConfirmationAndReminderAutomationForRestaurants";
 import MissedCallTextBackForRestaurants from "./pages/MissedCallTextBackForRestaurants";
 import MissedCallTextBackVsAiVoiceAgentForRestaurants from "./pages/MissedCallTextBackVsAiVoiceAgentForRestaurants";
+import MissedCallTextBackVsVoicemailForRestaurants from "./pages/MissedCallTextBackVsVoicemailForRestaurants";
 import AfterHoursPhoneAnsweringForRestaurants from "./pages/AfterHoursPhoneAnsweringForRestaurants";
 import AfterHoursAiPhoneAnsweringVsVoicemailForRestaurants from "./pages/AfterHoursAiPhoneAnsweringVsVoicemailForRestaurants";
 import AiAutomationConsultantEdmonton from "./pages/AiAutomationConsultantEdmonton";
@@ -218,6 +219,10 @@ export const appRoutes: AppRouteDefinition[] = [
   {
     path: "/missed-call-text-back-vs-ai-voice-agent-for-restaurants",
     element: <MissedCallTextBackVsAiVoiceAgentForRestaurants />,
+  },
+  {
+    path: "/missed-call-text-back-vs-voicemail-for-restaurants",
+    element: <MissedCallTextBackVsVoicemailForRestaurants />,
   },
   { path: "/after-hours-phone-answering-for-restaurants", element: <AfterHoursPhoneAnsweringForRestaurants /> },
   { path: "/after-hours-ai-phone-answering-vs-voicemail-for-restaurants", element: <AfterHoursAiPhoneAnsweringVsVoicemailForRestaurants /> },

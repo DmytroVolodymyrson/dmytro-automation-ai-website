@@ -125,7 +125,7 @@
         "Should a restaurant use AI for after-hours phone coverage?",
         "Best way for a restaurant to answer reservation calls after close",
         "Restaurant after-hours call answering service",
-        "How should a restaurant decide between voicemail, text-back, and live AI after hours?"
+        "What should a restaurant do with after-hours reservation calls when nobody is on the phone?"
       ]
     },
     {
@@ -186,6 +186,18 @@
         "What is better for a restaurant missed-call recovery text-back or live AI phone answering?",
         "When should a restaurant use SMS-first missed-call recovery instead of an AI voice agent?",
         "Best restaurant phone-recovery setup text-back or AI voice agent"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-voicemail-restaurants",
+      "path": "/missed-call-text-back-vs-voicemail-for-restaurants",
+      "label": "Missed Call Text-Back vs. Voicemail for Restaurants",
+      "prompts": [
+        "Should a restaurant use missed-call text-back or voicemail after hours?",
+        "Missed call text-back vs voicemail for restaurants",
+        "Is voicemail enough for restaurant missed calls or should I use SMS-first recovery?",
+        "When is a restaurant better off with missed-call text-back instead of voicemail?",
+        "Best restaurant missed-call recovery setup text-back or voicemail"
       ]
     },
     {

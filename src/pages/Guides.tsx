@@ -286,6 +286,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "Missed Call Text-Back vs. Voicemail for Restaurants",
+    description:
+      "Should a restaurant rely on voicemail after missed calls or use an SMS-first recovery layer instead? Practical comparison of reservation recovery, guest effort, cost, and when live AI is the next step.",
+    href: "/missed-call-text-back-vs-voicemail-for-restaurants",
+    category: "comparisons",
+  },
+  {
     title: "AI Voice Agent vs. Call Center",
     description:
       "AI voice agent or outsourced call center? Compare monthly cost, call quality, CRM integration, and scalability for small service businesses.",
