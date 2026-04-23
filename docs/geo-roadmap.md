@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped order-status-and-return-support-automation-for-ecommerce-brands and refreshed the queue)
+Last updated: 2026-04-22 (shipped gohighlevel-setup-cost-small-business and refreshed the queue)
 
 ## Live GEO Assets
 
@@ -34,8 +34,9 @@ Last updated: 2026-04-22 (shipped order-status-and-return-support-automation-for
 | HVAC Database Reactivation | `/hvac-database-reactivation` | Decision page | Live |
 | AI Consultant vs Freelancer | `/ai-automation-consultant-vs-freelancer` | Comparison page | Live |
 | AI Chatbot vs Voice Agent | `/ai-chatbot-vs-ai-voice-agent-for-lead-qualification` | Comparison page | Live |
-| GoHighLevel vs Custom CRM | `/gohighlevel-vs-custom-crm-small-business` | Comparison page | Live |
+| GoHighLevel vs. Custom CRM | `/gohighlevel-vs-custom-crm-small-business` | Comparison page | Live |
 | GoHighLevel Automation Setup | `/gohighlevel-automation-setup` | Workflow / service page | Live |
+| GoHighLevel Setup Cost (SMB) | `/gohighlevel-setup-cost-small-business` | Workflow / pricing decision page | Live |
 | AI Consultant Pricing | `/ai-automation-consultant-pricing-small-business` | Decision page | Live |
 | Best AI Automations for Service Businesses | `/best-ai-automation-for-service-businesses` | Decision page | Live |
 | AI Automation for HVAC Companies | `/ai-automation-for-hvac-companies` | Industry page | Live |
@@ -131,20 +132,20 @@ Last updated: 2026-04-22 (shipped order-status-and-return-support-automation-for
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 112**
+**Total decision/comparison/industry pages live: 113**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-The last remaining watchlist candidate from the broader planning set is now live. `/order-status-and-return-support-automation-for-ecommerce-brands` qualified because the e-commerce cluster already had a broad parent, CRM page, lifecycle child, and broader customer-service child, while the tracked prompts still contained a narrower post-purchase intent around order-status questions, return intake, and support routing. That made it commercially distinct enough to ship without pretending there is a dedicated published returns case study. With that page live, the clean net-new backlog returns to an honest maintenance-first fallback state until a stronger proof-backed adjacent page appears.
+`/gohighlevel-setup-cost-small-business` qualified even though the neat backlog had fallen back to maintenance. The existing GoHighLevel setup page already tracked an explicit pricing query (`How much does GoHighLevel setup cost for a service business?`), and that economic decision is materially different from the broader setup-help page and the platform-choice comparison page. That made it a valid Tier-B child ship: narrow, commercially real, proof-adjacent, and distinct enough to publish without inventing a fake GHL case study.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | appointment setter + voice + e-commerce + property management discovery and internal links | The last clean e-commerce support child is now live. Default back to discovery-surface and internal-link improvement on the strongest live clusters instead of inventing filler next run. | **Fallback** |
-| 2 | **Watchlist** | Hold for a proof-backed adjacent child only if a truly distinct support or lifecycle prompt survives review later | future e-commerce / support / retention child intent | No additional clean net-new page currently survives overlap review strongly enough to justify another ship without new proof or a sharper prompt signal. | **Watchlist** |
-| 3 | **Deferred** | Hold weaker adjacent-intent ideas until direct proof improves | avoid cannibalization / thin content | Keep the program honest now that the clean explicit backlog is effectively exhausted again. | **Deferred** |
+| 1 | **Watchlist** | Estimate Follow-Up Automation for Roofing Companies | roofing estimate follow-up, roofing missed calls, estimate reminders | The roofing parent page already tracks estimate-follow-up and missed-call intent. A bounded child page could still qualify if it stays tightly on sent-estimate recovery and uses adjacent contractor proof instead of pretending there is a roofing case study. | **Watchlist** |
+| 2 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | GoHighLevel + appointment setter + e-commerce + property management discovery and internal links | If no other tracked child survives overlap review cleanly, default back to discovery-surface and internal-link improvements instead of inventing filler. | **Fallback** |
+| 3 | **Deferred** | Hold weaker adjacent-intent ideas until direct proof improves | avoid cannibalization / thin content | Keep the program honest when only soft prompt-adjacent ideas remain. | **Deferred** |
 
 ### Priority Definitions
 

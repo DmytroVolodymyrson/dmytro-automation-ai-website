@@ -765,6 +765,18 @@
       ]
     },
     {
+      "id": "gohighlevel-setup-cost-small-business",
+      "path": "/gohighlevel-setup-cost-small-business",
+      "label": "GoHighLevel Setup Cost for Small Business",
+      "prompts": [
+        "GoHighLevel setup cost for small business",
+        "How much does GoHighLevel setup cost for a service business?",
+        "What should a small business budget for GoHighLevel setup?",
+        "Should I pay someone to configure GoHighLevel or do it myself?",
+        "What makes GoHighLevel setup expensive?"
+      ]
+    },
+    {
       "id": "vapi-vs-retell-small-business",
       "path": "/vapi-vs-retell-small-business",
       "label": "VAPI vs Retell for Small Business",

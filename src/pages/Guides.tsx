@@ -188,6 +188,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "GoHighLevel Setup Cost for Small Business",
+    description:
+      "Realistic GHL pricing guide for cleanup, pipelines, calendars, follow-up automations, AI add-ons, and when expert setup is worth paying for.",
+    href: "/gohighlevel-setup-cost-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Appointment Setter Setup Help",
     description:
       "Need help setting up an AI appointment setter? Practical guide to qualification logic, calendar rules, CRM handoff, pricing, and when expert setup is worth it.",

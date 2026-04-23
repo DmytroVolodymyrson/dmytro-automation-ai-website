@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-gohighlevel-setup-cost-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: GoHighLevel Setup Cost for Small Business\nBody: If you are pricing GoHighLevel setup, the useful question is not just 'what does a GHL expert charge?' It is 'how much workflow am I actually trying to fix?' A small business that needs one clean pipeline, a booking flow, and basic follow-up should not pay for the same build as a business that wants multi-stage nurture, missed-call recovery, reporting cleanup, AI qualification, and cross-tool integrations. This page keeps the scope narrow: realistic GoHighLevel setup pricing for small businesses, what pushes the cost up, where DIY is still reasonable, and when expert help is cheaper than another month of a messy account.\nSub: Below: typical GoHighLevel setup price ranges, what makes a build expensive, when to keep the scope small, and how to tell whether expert setup will pay back fast enough to justify the spend.\n\n### Core sections\n- What GoHighLevel setup usually costs\n- What makes the price go up\n- When expert GoHighLevel setup is worth paying for — and when it is not\n- How to budget GoHighLevel setup without overspending\n- Proof and adjacent proof\n- What owners usually get wrong about GoHighLevel setup pricing\n\n### FAQ\nSubhead: Practical answers for owners budgeting a GoHighLevel build or cleanup project\n- How much does GoHighLevel setup cost for a small business?\n- Why is this different from the general GoHighLevel setup page?\n- What usually makes GoHighLevel setup expensive?\n- Should I hire someone to configure GoHighLevel or do it myself?\n- How do I know if the setup price is worth it?\n\n### Final CTA\nHeading: Want a realistic GoHighLevel setup quote?\nBody: Book a 30-minute call. We will look at your current account, the workflow you actually need to fix first, and whether the right move is a small GHL cleanup, a tighter implementation scope, or a different stack entirely.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected because the explicit broad-doc backlog was mostly exhausted, but the existing GoHighLevel setup page still tracked a clear pricing query that justified a distinct economic child page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page separate from the broader setup-help guide and the GoHighLevel vs. custom CRM comparison by focusing tightly on budgeting, scope control, cleanup cost, and payback logic."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used bounded proof only: WheelsFeels for CRM workflow design, Paris Cafe for capture-and-routing economics, and the existing GoHighLevel pages for platform-choice and implementation context."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoided fake GHL case-study claims. The page stays practical about pipelines, reminders, cleanup, handoff logic, and account mess instead of inflated \"transformation\" language."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T01:34:01.449Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 25.9,
+      "sentenceLengthRange": [
+        5,
+        75
+      ],
+      "totalWords": 311
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nHeading: GoHighLevel Setup Cost for Small Business\nBody: If you are pricing GoHighLevel setup, the useful question is not just 'what does a GHL expert charge?' It is 'how much workflow am I actually trying to fix?' A small business that needs one clean pipeline, a booking flow, and basic follow-up should not pay for the same build as a business that wants multi-stage nurture, missed-call recovery, reporting cleanup, AI qualification, and cross-tool integrations.",
+      "wordCount": 75,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a realistic GoHighLevel setup quote?\nBody: Book a 30-minute call. We will look at your current account, the workflow you actually need to fix first, and whether the right move is a small GHL cleanup, a tighter implementation scope, or a different stack entirely.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 5,
+      "commas": 17,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 8,
+      "colon": 8,
+      "commasPerSentence": 1.55
+    },
+    "vocabulary": {
+      "distinctWords": 153,
+      "totalWords": 311,
+      "topWords": [
+        [
+          "gohighlevel",
+          14
+        ],
+        [
+          "setup",
+          14
+        ],
+        [
+          "-",
+          11
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "small",
+          6
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "business",
+          4
+        ],
+        [
+          "expert",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "cost",
+          3
+        ],
+        [
+          "pricing",
+          3
+        ],
+        [
+          "not",
+          3
+        ],
+        [
+          "build",
+          3
+        ],
+        [
+          "cleanup",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
