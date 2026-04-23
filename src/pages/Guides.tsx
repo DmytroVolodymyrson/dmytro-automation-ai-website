@@ -308,6 +308,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "How Much Time Does AI Automation Save a Small Business?",
+    description:
+      "Practical time-savings benchmarks for lead response, follow-up, scheduling, onboarding, and CRM admin — plus how to judge whether reclaimed hours alone justify the build.",
+    href: "/ai-automation-time-savings-small-business",
+    category: "workflows",
+  },
+  {
     title: "n8n Automation Examples for Small Business",
     description:
       "Practical n8n automation examples for small businesses. Lead follow-up, CRM workflows, email sequences, scheduling, and review requests. Real workflows, not toy demos.",

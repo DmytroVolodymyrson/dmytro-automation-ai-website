@@ -38,6 +38,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - `/ai-lead-follow-up-cost-small-business`
 - `/client-onboarding-automation`
 - `/ai-automation-roi-guide`
+- `/ai-automation-time-savings-small-business`
 - `/n8n-automation-examples-small-business`
 - `/ai-email-sequence-automation`
 - `/ai-voice-agent-lead-qualification`

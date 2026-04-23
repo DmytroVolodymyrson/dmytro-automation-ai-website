@@ -309,6 +309,18 @@
       ]
     },
     {
+      "id": "ai-automation-time-savings-small-business",
+      "path": "/ai-automation-time-savings-small-business",
+      "label": "AI Automation Time Savings for Small Business",
+      "prompts": [
+        "How much time does AI automation save a small business?",
+        "AI automation time savings for small business",
+        "What workflows save the most time with AI automation in a small business?",
+        "Is AI automation worth it if the main benefit is time savings?",
+        "How many hours can automation save on lead follow-up scheduling or onboarding?"
+      ]
+    },
+    {
       "id": "n8n-automation-examples-small-business",
       "path": "/n8n-automation-examples-small-business",
       "label": "n8n Automation Examples for Small Business",

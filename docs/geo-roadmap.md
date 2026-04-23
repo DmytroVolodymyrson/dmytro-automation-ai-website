@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped gohighlevel-vs-custom-crm-for-contractors and added it to tracking)
+Last updated: 2026-04-22 (shipped ai-automation-time-savings-small-business and added it to tracking)
 
 ## Live GEO Assets
 
@@ -65,6 +65,7 @@ Last updated: 2026-04-22 (shipped gohighlevel-vs-custom-crm-for-contractors and 
 | Client Onboarding Automation | `/client-onboarding-automation` | Workflow page | Live |
 | AI Automation ROI Guide | `/ai-automation-roi-guide` | Decision page | Live |
 | AI Automation ROI Calculator | `/ai-automation-roi-calculator` | ROI worksheet / decision page | Live |
+| AI Automation Time Savings (SMB) | `/ai-automation-time-savings-small-business` | Authority / time-savings guide | Live |
 | n8n Automation Examples (SMB) | `/n8n-automation-examples-small-business` | Authority page | Live |
 | AI Email Sequence Automation | `/ai-email-sequence-automation` | Workflow page | Live |
 | AI Automation for Insurance Agencies | `/ai-automation-for-insurance-agencies` | Industry page | Live |
@@ -127,19 +128,19 @@ Last updated: 2026-04-22 (shipped gohighlevel-vs-custom-crm-for-contractors and 
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 108**
+**Total decision/comparison/industry pages live: 109**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-The explicit cross-doc backlog is still effectively exhausted, but one more proof-led child page qualified and is now live. `/gohighlevel-vs-custom-crm-for-contractors` qualified because the contractor CRM tracking set already contained the exact comparison intent, the site already had a live contractor CRM cluster plus the broader GoHighLevel-vs-custom decision page, and the new page stays distinct by focusing on estimate follow-up, dispatch handoff, and office-to-field workflow fit for contractors. After this ship, the queue should go back to an honest fallback/watchlist state unless another tracked prompt survives overlap review with equally clear proof adjacency.
+The explicit cross-doc backlog is still effectively exhausted, but one more explicit GEO-PLAN query survived reconciliation and is now live. `/ai-automation-time-savings-small-business` qualified because GEO-PLAN still contained the exact unshipped time-savings query, the site already had adjacent proof for reclaimed admin/ops time (especially Paris Café and the CRM/lead-pipeline case studies), and the page stays distinct from the existing ROI/cost/process-selection cluster by focusing on reclaimed capacity rather than payback math or workflow selection. After this ship, the queue returns to an honest fallback/watchlist state unless another tracked prompt survives overlap review with equally clear proof adjacency.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
 | 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | appointment setter + voice + e-commerce + property management discovery and internal links | The clean planned backlog is now exhausted again. Default back to discovery-surface and internal-link improvement on the strongest live clusters unless a truly distinct proof-led page survives review. | **Fallback** |
-| 2 | **Watchlist** | Hold for a future proof-led child only if a new tracked prompt clearly survives overlap review | distinct adjacent-intent workflow or pricing page with direct support | Do not ship filler. Require explicit tracked intent, honest adjacency, and materially different buyer intent before promoting a new page back into the queue. | **Watchlist** |
+| 2 | **Watchlist** | `AI Lead Follow-Up for Insurance Agencies` if overlap review stays clean | insurance-agency lead follow-up / producer routing / early-funnel nurture | Parent tracking prompts still contain the earlier-funnel lead-follow-up intent, and the current insurance child set is still quote / renewal / cross-sell. Only promote if the page stays clearly distinct from quote-stage follow-up. | **Watchlist** |
 | 3 | **Deferred** | Hold weaker adjacent-intent ideas until direct proof improves | avoid cannibalization / thin content | This keeps the GEO program honest now that the clean planned queue is gone. | **Deferred** |
 
 ### Priority Definitions

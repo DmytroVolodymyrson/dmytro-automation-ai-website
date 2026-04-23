@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-ai-automation-time-savings-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: How Much Time Does AI Automation Save a Small Business?\nBody: The short answer: usually more than owners expect, but only when the workflow is repetitive, measurable, and already happening often enough to matter. Good automation does not magically save 40 hours a week on day one. What it usually does is remove the same small manual steps from dozens of lead, booking, onboarding, and follow-up moments every week. That is how a business gets back 5, 10, or 15+ hours without hiring another coordinator. This page breaks down where those savings usually come from, what is realistic for a small business, and when time savings alone are enough to justify a build.\nSub: Below: realistic time-savings ranges by workflow, where the biggest admin drag usually hides, proof and adjacent proof from live projects on this site, and how to judge whether saved time is truly valuable or just nice to have.\n\n### Core sections\n- Where AI automation usually saves the most time\n- What actually creates the time savings\n- Where the time-savings case is usually strongest\n- Direct proof and honest adjacent proof\n- When time savings alone justify the build — and when they do not\n- Common mistakes when estimating automation time savings\n\n### FAQ\nSubhead: Practical questions from owners trying to decide whether time savings alone make automation worth it\n- How many hours can AI automation save a small business?\n- Which workflows usually save the most time first?\n- Should I count only time saved, or also revenue impact?\n- When is time savings enough even if revenue does not change much?\n- How do I measure whether the time savings are real?\n\n### Final CTA\nHeading: Want to see where automation could actually give your team time back?\nBody: Book a 30-minute call. We will look at the repetitive work eating hours in your business, estimate what can realistically be removed first, and tell you whether the savings are big enough to justify a focused automation build.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because GEO-PLAN still contained the exact unshipped query \"how much time does AI automation save small business\" after the cleaner slug queues were otherwise largely exhausted."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept it distinct from the existing ROI guide, ROI calculator, cost guide, and process-selection page by centering the decision on reclaimed operator/admin capacity instead of payback math, budgeting, or first-workflow selection."
+    },
+    {
+      "type": "cut",
+      "description": "Used only on-site proof and honest adjacent proof: Paris Café for the published ~15 hours/week management gain, WheelsFeels CRM for reduced manual follow-up drag, and the Instagram lead pipeline as bounded proof that rule-based workflows can remove nearly all manual execution."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and anti-hype: realistic monthly ranges, clear limits, and explicit warnings against treating vague efficiency claims as a business case."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T00:26:28.109Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 20.9,
+      "sentenceLengthRange": [
+        5,
+        54
+      ],
+      "totalWords": 334
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nHeading: How Much Time Does AI Automation Save a Small Business?",
+      "wordCount": 12,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to see where automation could actually give your team time back?\nBody: Book a 30-minute call. We will look at the repetitive work eating hours in your business, estimate what can realistically be removed first, and tell you whether the savings are big enough to justify a focused automation build.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 16,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 7,
+      "colon": 8,
+      "commasPerSentence": 1.07
+    },
+    "vocabulary": {
+      "distinctWords": 172,
+      "totalWords": 334,
+      "topWords": [
+        [
+          "time",
+          13
+        ],
+        [
+          "-",
+          11
+        ],
+        [
+          "savings",
+          9
+        ],
+        [
+          "automation",
+          8
+        ],
+        [
+          "usually",
+          7
+        ],
+        [
+          "when",
+          6
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "business",
+          5
+        ],
+        [
+          "where",
+          5
+        ],
+        [
+          "does",
+          4
+        ],
+        [
+          "save",
+          4
+        ],
+        [
+          "small",
+          4
+        ],
+        [
+          "enough",
+          4
+        ],
+        [
+          "hours",
+          4
+        ],
+        [
+          "what",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 1,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": [
+        "cuts-detail-lists"
+      ]
+    }
+  }
+}

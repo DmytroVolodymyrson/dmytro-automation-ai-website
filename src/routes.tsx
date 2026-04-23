@@ -108,6 +108,7 @@ import AiAutomationForLandscapingCompanies from "./pages/AiAutomationForLandscap
 import AiAutomationForPaintingContractors from "./pages/AiAutomationForPaintingContractors";
 import AiAutomationForHomeInspectors from "./pages/AiAutomationForHomeInspectors";
 import AiAutomationCostSmallBusiness from "./pages/AiAutomationCostSmallBusiness";
+import AiAutomationTimeSavingsSmallBusiness from "./pages/AiAutomationTimeSavingsSmallBusiness";
 import AffordableAiAutomationSmallBusiness from "./pages/AffordableAiAutomationSmallBusiness";
 import AiAutomationAuditChecklist from "./pages/AiAutomationAuditChecklist";
 import CrmAutomationExamplesSmallBusiness from "./pages/CrmAutomationExamplesSmallBusiness";
@@ -260,6 +261,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-for-painting-contractors", element: <AiAutomationForPaintingContractors /> },
   { path: "/ai-automation-for-home-inspectors", element: <AiAutomationForHomeInspectors /> },
   { path: "/ai-automation-cost-small-business", element: <AiAutomationCostSmallBusiness /> },
+  { path: "/ai-automation-time-savings-small-business", element: <AiAutomationTimeSavingsSmallBusiness /> },
   { path: "/affordable-ai-automation-small-business", element: <AffordableAiAutomationSmallBusiness /> },
   { path: "/ai-automation-audit-checklist", element: <AiAutomationAuditChecklist /> },
   { path: "/crm-automation-examples-small-business", element: <CrmAutomationExamplesSmallBusiness /> },
