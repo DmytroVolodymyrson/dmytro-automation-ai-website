@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped ai-phone-answering-vs-voicemail-for-auto-repair-shops because the exact tracked query still survived inside the live auto-repair phone-answering page, and it could still be kept distinct from both the broader live-answering page and the missed-call-text-back-vs-AI-phone-answering comparison by framing it strictly as the buyer decision about whether voicemail/manual callback is still enough or whether the shop now needs live AI call coverage)
+Last updated: 2026-04-23 (shipped crm-automation-vs-manual-follow-up-for-auto-parts-ecommerce because the exact tracked query "Should an auto parts e-commerce brand build custom CRM automation?" still survived inside the live auto-parts parent page, and it could stay distinct from both the broader auto-parts industry page and the generic e-commerce CRM decision page by framing it strictly as the vertical buyer decision about whether fitment, quote, and stale-lead follow-up can stay manual or now need a focused CRM automation layer)
 
 ## Live GEO Assets
 
@@ -98,6 +98,7 @@ Last updated: 2026-04-23 (shipped ai-phone-answering-vs-voicemail-for-auto-repai
 | AI Automation for Auto Parts E-Commerce | `/ai-automation-for-auto-parts-ecommerce` | Industry page | Live |
 | E-Commerce CRM Automation with AI Follow-Up | `/ecommerce-crm-automation-with-ai-follow-up` | Industry workflow page | Live |
 | E-Commerce CRM Automation vs. Manual Follow-Up | `/ecommerce-crm-automation-vs-manual-follow-up` | Industry decision page | Live |
+| CRM Automation vs. Manual Follow-Up for Auto Parts E-Commerce | `/crm-automation-vs-manual-follow-up-for-auto-parts-ecommerce` | Auto-parts CRM decision page | Live |
 | n8n Automation Consultant for Small Business | `/n8n-automation-consultant` | Decision / service page | Live |
 | How to Hire an n8n Automation Consultant | `/how-to-hire-n8n-automation-consultant` | n8n hiring-intent guide | Live |
 | n8n Automation Consultant Cost for Small Business | `/n8n-automation-consultant-cost-small-business` | n8n pricing decision page | Live |
@@ -166,20 +167,20 @@ Last updated: 2026-04-23 (shipped ai-phone-answering-vs-voicemail-for-auto-repai
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 146**
+**Total decision/comparison/industry pages live: 147**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-phone-answering-vs-voicemail-for-auto-repair-shops` extracted another exact tracked buyer query from an already-live parent page without rehashing the same auto-repair phone cluster. The specific voicemail-vs-live-answering decision is now isolated into its own page and removed from the broader auto-repair phone-answering prompt set. The next pass should still start with a broad reconciliation instead of assuming another clean backlog page exists.
+Shipping `/crm-automation-vs-manual-follow-up-for-auto-parts-ecommerce` extracted another exact tracked buyer query from an already-live parent page without rehashing the same auto-parts cluster. The specific manual-vs-CRM decision is now isolated into its own page and removed from the broader auto-parts parent prompt set. The next pass should still start with a broad reconciliation instead of assuming another clean backlog page exists.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
 | 1 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, and n8n clusters without filler | Use this if the next reconciliation still finds no clean proof-backed net-new page that is meaningfully distinct. | **Next best candidate if backlog stays exhausted** |
-| 2 | **Watchlist** | Re-run a broad proof-and-intent reconciliation across GEO-PLAN, geo-plan-2026-03, the prompt set, and live routes before inventing another property-management child | Validate whether any exact tracked query still survives as a distinct page rather than defaulting to maintenance by habit | If a new clean candidate appears, it should come from an exact surviving query plus adjacent proof — not from rewording the property-management cluster again. | **Guardrail** |
-| 3 | **Watchlist** | Keep the property-management cluster clean | Preserve the new separation between the broader maintenance page, the overnight triage page, and the maintenance-intake decision page | Avoid reintroducing the same emergency-vs-routine query under multiple entries. | **Done for now; monitor drift only** |
+| 2 | **Watchlist** | Re-run a broad proof-and-intent reconciliation across GEO-PLAN, geo-plan-2026-03, the prompt set, and live routes before inventing another auto-parts or phone-answering child | Validate whether any exact tracked query still survives as a distinct page rather than defaulting to maintenance by habit | If a new clean candidate appears, it should come from an exact surviving query plus adjacent proof — not from rewording an already-dense cluster. | **Guardrail** |
+| 3 | **Watchlist** | Keep the auto-parts cluster clean | Preserve the new separation between the broader auto-parts parent, the generic e-commerce CRM decision page, and this new vertical CRM decision page | Avoid reintroducing the same build-custom-CRM query under multiple entries. | **Done for now; monitor drift only** |
 
 ### Priority Definitions
 

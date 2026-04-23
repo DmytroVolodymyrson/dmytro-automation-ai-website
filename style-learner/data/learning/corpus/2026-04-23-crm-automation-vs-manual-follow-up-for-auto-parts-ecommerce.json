@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-crm-automation-vs-manual-follow-up-for-auto-parts-ecommerce",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: CRM Automation vs. Manual Follow-Up for Auto Parts E-Commerce\nBody: Manual follow-up can still work for an auto parts brand when inquiry volume is light, one operator still remembers every fitment question and quote request, and the same person can reply fast without support traffic getting in the way. It stops working when high-intent buyers, fitment conversations, quote-stage leads, and post-purchase messages all land in the same queue and somebody has to sort them by hand. At that point, the real decision is not whether CRM automation sounds sophisticated. It is whether continuing to rely on inbox discipline and memory is now more expensive than building a focused system that captures, routes, and follows up automatically.\nSub: Below: when manual follow-up is still acceptable, when a custom CRM automation layer becomes the safer move for an auto parts store, what the first bounded build should handle, and what direct proof supports this without pretending every catalog needs a giant system.\n\n### Core sections\n- Extracts the exact tracked buyer query from the live `/ai-automation-for-auto-parts-ecommerce` parent page into its own narrower decision page instead of leaving the build-custom-CRM question buried inside a broader industry guide.\n- Keeps the frame tightly on auto-parts realities: fitment questions, quote-stage follow-up, mixed sales-and-support inboxes, stale leads, and the hidden cost of relying on memory and inbox cleanup.\n- Uses the published WheelsFeels 5,600+ lead CRM case study plus the live auto-parts workflow cluster as proof without pretending there is already a separate published auto-parts manual-vs-CRM case study.\n- Preserves clear separation from `/ecommerce-crm-automation-vs-manual-follow-up` by narrowing the decision to the vertical-specific buyer context: catalog complexity, fitment, quote recovery, and support-noise separation.\n\n### FAQ\nSubhead: Practical questions from auto-parts operators deciding whether manual follow-up is still good enough\nTopics: how this differs from the broader e-commerce CRM manual-vs-automation page, the clearest sign an auto parts store has outgrown manual follow-up, whether a custom CRM from scratch is actually required, what a focused build usually costs, and when staying manual a little longer is still reasonable.\n\n### Final CTA\nHeading: Want to know if your auto parts brand should automate CRM follow-up now?\nBody: Book a 30-minute call. We will look at how fitment questions, quote requests, stale leads, and support traffic move today, then decide whether the right next move is a focused CRM automation layer, tighter manual discipline, or no build yet.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because `scripts/geo-prompts.json` still contained the exact buyer query \"Should an auto parts e-commerce brand build custom CRM automation?\" under the live `/ai-automation-for-auto-parts-ecommerce` parent entry."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The new page stays materially distinct from both `/ai-automation-for-auto-parts-ecommerce` and `/ecommerce-crm-automation-vs-manual-follow-up` by isolating the vertical buyer decision itself: keep doing fitment / quote / stale-lead follow-up manually, or move to a focused CRM automation layer now."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: direct published WheelsFeels CRM proof plus already-live auto-parts workflow guides."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype with explicit guidance on when manual follow-up is still acceptable, when automation becomes the safer move, and where a bounded first build should start."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T17:38:37.385Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 28.2,
+      "sentenceLengthRange": [
+        5,
+        62
+      ],
+      "totalWords": 395
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: CRM Automation vs.",
+      "wordCount": 5,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to know if your auto parts brand should automate CRM follow-up now?\nBody: Book a 30-minute call. We will look at how fitment questions, quote requests, stale leads, and support traffic move today, then decide whether the right next move is a focused CRM automation layer, tighter manual discipline, or no build yet.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 13,
+      "commas": 29,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 10,
+      "commasPerSentence": 2.07
+    },
+    "vocabulary": {
+      "distinctWords": 224,
+      "totalWords": 395,
+      "topWords": [
+        [
+          "crm",
+          8
+        ],
+        [
+          "manual",
+          7
+        ],
+        [
+          "follow-up",
+          7
+        ],
+        [
+          "auto",
+          5
+        ],
+        [
+          "parts",
+          5
+        ],
+        [
+          "still",
+          5
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "fitment",
+          5
+        ],
+        [
+          "whether",
+          5
+        ],
+        [
+          "from",
+          5
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "auto-parts",
+          4
+        ],
+        [
+          "quote",
+          3
+        ],
+        [
+          "without",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

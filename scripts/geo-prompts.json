@@ -760,8 +760,20 @@
         "AI automation for auto parts e-commerce",
         "How can an auto parts brand automate lead follow-up and CRM workflows?",
         "How do I automate fitment inquiry follow-up for an auto parts store?",
-        "Should an auto parts e-commerce brand build custom CRM automation?",
+        "How should an auto parts brand organize fitment, quote, and support follow-up inside one CRM?",
         "What AI workflows are actually worth automating first for an auto parts e-commerce brand?"
+      ]
+    },
+    {
+      "id": "crm-automation-vs-manual-follow-up-for-auto-parts-ecommerce",
+      "path": "/crm-automation-vs-manual-follow-up-for-auto-parts-ecommerce",
+      "label": "CRM Automation vs. Manual Follow-Up for Auto Parts E-Commerce",
+      "prompts": [
+        "CRM automation vs manual follow-up for auto parts e-commerce",
+        "Should an auto parts e-commerce brand build custom CRM automation?",
+        "When should an auto parts store stop handling fitment and quote follow-up manually?",
+        "Is manual follow-up still enough for an auto parts brand with fitment and quote inquiries?",
+        "How do I decide between manual follow-up and CRM automation for an auto parts store?"
       ]
     },
     {
