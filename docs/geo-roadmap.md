@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped gohighlevel-setup-vs-diy-small-business by extracting the exact hire-vs-DIY query still tracked under the live /gohighlevel-automation-setup and /gohighlevel-setup-cost-small-business cluster into a distinct tool-specific buy-vs-build page anchored in the existing GoHighLevel setup and pricing pages plus adjacent CRM and call-routing proof)
+Last updated: 2026-04-22 (shipped ai-appointment-setter-setup-vs-diy-small-business by extracting the exact hire-vs-DIY query still tracked under the live /ai-appointment-setter-setup cluster into a distinct appointment-setter buy-vs-build page anchored in the existing setup, cost, and ROI pages plus adjacent phone-answering and CRM proof)
 
 ## Live GEO Assets
 
@@ -17,6 +17,7 @@ Last updated: 2026-04-22 (shipped gohighlevel-setup-vs-diy-small-business by ext
 | n8n vs Zapier | `/n8n-vs-zapier-small-business` | Comparison page | Live |
 | AI Appointment Setter | `/ai-appointment-setter` | Decision page | Live |
 | AI Appointment Setter Setup Help | `/ai-appointment-setter-setup` | Workflow / service page | Live |
+| AI Appointment Setter Setup vs. DIY (SMB) | `/ai-appointment-setter-setup-vs-diy-small-business` | Workflow / buy-vs-build comparison page | Live |
 | AI Appointment Setter Cost (SMB) | `/ai-appointment-setter-cost-small-business` | Workflow / pricing decision page | Live |
 | AI Appointment Setter ROI (SMB) | `/ai-appointment-setter-roi-small-business` | Workflow / ROI decision page | Live |
 | AI Voice Agent for Restaurants | `/ai-voice-agent-for-restaurants` | Industry page | Live |
@@ -144,19 +145,19 @@ Last updated: 2026-04-22 (shipped gohighlevel-setup-vs-diy-small-business by ext
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 125**
+**Total decision/comparison/industry pages live: 126**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/gohighlevel-setup-vs-diy-small-business` extracted another exact buyer-decision query that was still sitting inside the live GoHighLevel setup cluster. The immediate next pass should again default to a strict maintenance/discovery audit unless a fresh planned query survives review across the broader planning docs, the tracked prompt set, and current live routes.
+Shipping `/ai-appointment-setter-setup-vs-diy-small-business` extracted another exact buyer-decision query that was still sitting inside the live AI appointment setter setup cluster. The next pass should first check whether the live voice-agent setup cluster still supports the same buy-vs-build pattern before falling all the way back to maintenance-only work.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Strengthen strongest live GoHighLevel / n8n / voice-agent clusters | Discovery, internal links, and tracked-prompt cleanup | With the extracted GoHighLevel DIY-vs-hire query now shipped, the safest next move is to tighten discovery surfaces and internal links on the strongest live clusters instead of forcing a thin new page. | **Watch next** |
-| 2 | **Watchlist** | Recheck broader planning docs for a still-distinct proof-backed child query | Late-backlog candidate discovery | Only ship another new page if a materially different buyer query still survives fresh reconciliation across `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, and `scripts/geo-prompts.json`. | **Only if distinct** |
+| 1 | **P1** | `/ai-voice-agent-setup-vs-diy-small-business` | Should I hire someone to set up an AI voice agent or do it myself? | The exact hire-vs-DIY query is still tracked under the live `/ai-voice-agent-setup-for-lead-qualification` page and remains distinct from the existing setup, cost, ROI, and manual-callback pages. | **Next best candidate** |
+| 2 | **Fallback** | Strengthen strongest live appointment-setter / voice-agent / GoHighLevel clusters | Discovery, internal links, and tracked-prompt cleanup | If the voice-agent setup decision no longer survives fresh reconciliation cleanly, the safest fallback is still maintenance on the strongest live workflow clusters instead of forcing a thin new page. | **Watch next** |
 
 ### Priority Definitions
 

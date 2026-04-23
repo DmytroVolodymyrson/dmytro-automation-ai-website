@@ -209,6 +209,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Appointment Setter Setup vs. DIY for Small Business",
+    description:
+      "Should you build your appointment-setting workflow yourself or hire setup help? Practical comparison of owner time, workflow risk, booking logic, CRM handoff, and when expert implementation is the cheaper move.",
+    href: "/ai-appointment-setter-setup-vs-diy-small-business",
+    category: "comparisons",
+  },
+  {
     title: "AI Appointment Setter Cost for Small Business",
     description:
       "What should a small business actually budget for an AI appointment setter? Practical pricing ranges for web booking, voice intake, qualification logic, calendar rules, and where overbuilding starts.",

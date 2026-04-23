@@ -14,6 +14,7 @@ const Guides = lazy(() => import("./pages/Guides"));
 const N8nVsZapierSmallBusiness = lazy(() => import("./pages/N8nVsZapierSmallBusiness"));
 const AiAppointmentSetter = lazy(() => import("./pages/AiAppointmentSetter"));
 const AiAppointmentSetterSetup = lazy(() => import("./pages/AiAppointmentSetterSetup"));
+const AiAppointmentSetterSetupVsDiySmallBusiness = lazy(() => import("./pages/AiAppointmentSetterSetupVsDiySmallBusiness"));
 const AiAppointmentSetterCostSmallBusiness = lazy(() => import("./pages/AiAppointmentSetterCostSmallBusiness"));
 const AiAppointmentSetterRoiSmallBusiness = lazy(() => import("./pages/AiAppointmentSetterRoiSmallBusiness"));
 const AiLeadFollowUpForServiceBusinesses = lazy(() => import("./pages/AiLeadFollowUpForServiceBusinesses"));
@@ -153,6 +154,7 @@ const AppRoutesClient = () => (
       <Route path="/n8n-vs-zapier-small-business" element={<N8nVsZapierSmallBusiness />} />
       <Route path="/ai-appointment-setter" element={<AiAppointmentSetter />} />
       <Route path="/ai-appointment-setter-setup" element={<AiAppointmentSetterSetup />} />
+      <Route path="/ai-appointment-setter-setup-vs-diy-small-business" element={<AiAppointmentSetterSetupVsDiySmallBusiness />} />
       <Route path="/ai-appointment-setter-cost-small-business" element={<AiAppointmentSetterCostSmallBusiness />} />
       <Route path="/ai-appointment-setter-roi-small-business" element={<AiAppointmentSetterRoiSmallBusiness />} />
       <Route path="/ai-lead-follow-up-for-service-businesses" element={<AiLeadFollowUpForServiceBusinesses />} />

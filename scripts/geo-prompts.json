@@ -51,9 +51,21 @@
       "prompts": [
         "AI appointment setter setup help",
         "How do I set up an AI appointment setter for my business?",
-        "Should I hire someone to set up an AI appointment setter?",
+        "What should AI appointment setter setup help include?",
         "How much does AI appointment setter setup cost?",
         "AI appointment setter implementation help for small business"
+      ]
+    },
+    {
+      "id": "ai-appointment-setter-setup-vs-diy-small-business",
+      "path": "/ai-appointment-setter-setup-vs-diy-small-business",
+      "label": "AI Appointment Setter Setup vs. DIY for Small Business",
+      "prompts": [
+        "AI appointment setter setup vs DIY for small business",
+        "Should I hire someone to set up an AI appointment setter?",
+        "Should I build my appointment-setting workflow myself or hire setup help?",
+        "When is DIY appointment-setter setup enough for a small business?",
+        "Is expert AI appointment setter setup worth paying for?"
       ]
     },
     {
