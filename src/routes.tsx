@@ -124,6 +124,7 @@ import AiAutomationForRoofingCompanies from "./pages/AiAutomationForRoofingCompa
 import AiAutomationForPestControlCompanies from "./pages/AiAutomationForPestControlCompanies";
 import AiAutomationForAutoRepairShops from "./pages/AiAutomationForAutoRepairShops";
 import MaintenanceReminderAutomationForAutoRepairShops from "./pages/MaintenanceReminderAutomationForAutoRepairShops";
+import EstimateFollowUpAutomationForAutoRepairShops from "./pages/EstimateFollowUpAutomationForAutoRepairShops";
 import AiAutomationForLandscapingCompanies from "./pages/AiAutomationForLandscapingCompanies";
 import AiAutomationForPaintingContractors from "./pages/AiAutomationForPaintingContractors";
 import AiAutomationForHomeInspectors from "./pages/AiAutomationForHomeInspectors";
@@ -312,6 +313,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-for-pest-control-companies", element: <AiAutomationForPestControlCompanies /> },
   { path: "/ai-automation-for-auto-repair-shops", element: <AiAutomationForAutoRepairShops /> },
   { path: "/maintenance-reminder-automation-for-auto-repair-shops", element: <MaintenanceReminderAutomationForAutoRepairShops /> },
+  { path: "/estimate-follow-up-automation-for-auto-repair-shops", element: <EstimateFollowUpAutomationForAutoRepairShops /> },
   { path: "/ai-automation-for-landscaping-companies", element: <AiAutomationForLandscapingCompanies /> },
   { path: "/ai-automation-for-painting-contractors", element: <AiAutomationForPaintingContractors /> },
   { path: "/ai-automation-for-home-inspectors", element: <AiAutomationForHomeInspectors /> },

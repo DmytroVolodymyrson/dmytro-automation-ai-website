@@ -911,6 +911,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Estimate Follow-Up Automation for Auto Repair Shops",
+    description:
+      "Estimate follow-up automation for auto repair shops. Open repair quote reminders, deferred-work nudges, financing or timing check-ins, advisor handoff, and stale-estimate visibility.",
+    href: "/estimate-follow-up-automation-for-auto-repair-shops",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Landscaping Companies",
     description:
       "AI automation for landscaping companies. Lead follow-up, estimate follow-up, seasonal upsell campaigns, recurring service management, and review automation.",

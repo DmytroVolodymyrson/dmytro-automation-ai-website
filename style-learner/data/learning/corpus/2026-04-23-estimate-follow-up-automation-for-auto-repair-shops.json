@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-estimate-follow-up-automation-for-auto-repair-shops",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Estimate Follow-Up Automation for Auto Repair Shops\nBody: If a repair estimate is sent and nobody follows up clearly, the work usually drifts to the shop that stayed in front of the customer longer. This page narrows the workflow to one expensive stage: repair quotes that already exist but go quiet because the customer is delaying, comparing shops, waiting for payday, or not being prompted to take the next step.\nSub: Below: what auto-repair estimate follow-up automation actually handles, how it stays distinct from the broader auto-repair automation page and the maintenance-reminder child page, what guardrails matter, and what adjacent proof supports it honestly.\n\n### Core sections\n- What auto-repair estimate follow-up automation actually handles\n- Auto-repair estimate follow-up vs. broader auto-repair automation vs. maintenance reminders\n- Is this a good fit for your auto repair shop?\n- Important guardrails for auto-repair estimate-recovery workflows\n- How a practical auto-repair estimate-recovery system usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about automating estimate follow-up in an auto repair shop\n- How is this different from the broader auto-repair automation page?\n- How is this different from the maintenance-reminder page?\n- What does a focused auto-repair estimate-follow-up build usually cost?\n- Can this work with my current shop software?\n- What is the main ROI?\n\n### Final CTA\nHeading: Want fewer repair estimates dying after the quote is sent?\nBody: Book a 30-minute call. We will look at how your shop handles sent estimates today, where repair work is going cold, and whether a focused estimate-recovery workflow is the cleanest automation to build next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected because the reconciled roadmap still had one defensible watchlist child page left in the auto-repair cluster: estimate follow-up. The parent guide already included the workflow, the broader queue was otherwise thin, and the intent stays commercially real."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page separate from the broader auto-repair guide and the maintenance-reminder child by staying tightly on the post-estimate stage: reminder timing, deferred-work nudges, financing or timing hesitation, advisor handoff, and stale-estimate visibility."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used bounded proof only: the broader auto-repair page, the generic quote-follow-up guide, and the published CRM case study. Avoided pretending there is already a dedicated auto-repair estimate-recovery case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: real workflow friction, real handoff points, and honest not-fit cases instead of inflated approval-rate promises."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T08:39:31.327Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        4,
+        5,
+        3
+      ],
+      "avgSentenceLength": 17.7,
+      "sentenceLengthRange": [
+        4,
+        36
+      ],
+      "totalWords": 266
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Estimate Follow-Up Automation for Auto Repair Shops\nBody: If a repair estimate is sent and nobody follows up clearly, the work usually drifts to the shop that stayed in front of the customer longer.",
+      "wordCount": 36,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want fewer repair estimates dying after the quote is sent?\nBody: Book a 30-minute call. We will look at how your shop handles sent estimates today, where repair work is going cold, and whether a focused estimate-recovery workflow is the cleanest automation to build next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 9,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 7,
+      "colon": 8,
+      "commasPerSentence": 0.64
+    },
+    "vocabulary": {
+      "distinctWords": 132,
+      "totalWords": 266,
+      "topWords": [
+        [
+          "-",
+          11
+        ],
+        [
+          "auto-repair",
+          9
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "repair",
+          7
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "estimate",
+          6
+        ],
+        [
+          "this",
+          6
+        ],
+        [
+          "page",
+          6
+        ],
+        [
+          "follow-up",
+          5
+        ],
+        [
+          "shop",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "auto",
+          3
+        ],
+        [
+          "sent",
+          3
+        ],
+        [
+          "work",
+          3
+        ],
+        [
+          "usually",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

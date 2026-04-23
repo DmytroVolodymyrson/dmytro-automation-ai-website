@@ -1113,6 +1113,18 @@
       ]
     },
     {
+      "id": "estimate-follow-up-automation-for-auto-repair-shops",
+      "path": "/estimate-follow-up-automation-for-auto-repair-shops",
+      "label": "Estimate Follow-Up Automation for Auto Repair Shops",
+      "prompts": [
+        "Estimate follow-up automation for auto repair shops",
+        "How do auto repair shops follow up on repair estimates?",
+        "Best way to recover open repair quotes at a mechanic shop",
+        "Mechanic shop estimate reminder workflow",
+        "How do I stop losing repair jobs after sending the estimate?"
+      ]
+    },
+    {
       "id": "ai-automation-cost-small-business",
       "path": "/ai-automation-cost-small-business",
       "label": "AI Automation Cost for Small Business",

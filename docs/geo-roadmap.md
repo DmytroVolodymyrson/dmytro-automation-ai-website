@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped maintenance-reminder-automation-for-auto-repair-shops by extracting the exact maintenance-reminder query still living inside the broader /ai-automation-for-auto-repair-shops prompt set into a distinct child page anchored in the live auto-repair parent plus adjacent lifecycle proof from the HVAC reactivation and CRM case-study cluster)
+Last updated: 2026-04-23 (shipped estimate-follow-up-automation-for-auto-repair-shops by turning the remaining auto-repair quote-stage watchlist item into a distinct child page anchored in the live auto-repair parent plus adjacent quote-follow-up and CRM proof, without pretending there is a dedicated published auto-repair estimate-recovery case study yet)
 
 ## Live GEO Assets
 
@@ -133,6 +133,7 @@ Last updated: 2026-04-23 (shipped maintenance-reminder-automation-for-auto-repai
 | AI Automation for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Industry page | Live |
 | AI Automation for Auto Repair Shops | `/ai-automation-for-auto-repair-shops` | Industry page | Live |
 | Maintenance Reminder Automation for Auto Repair Shops | `/maintenance-reminder-automation-for-auto-repair-shops` | Auto-repair retention workflow page | Live |
+| Estimate Follow-Up Automation for Auto Repair Shops | `/estimate-follow-up-automation-for-auto-repair-shops` | Auto-repair quote-stage workflow page | Live |
 | AI Automation for Landscaping Companies | `/ai-automation-for-landscaping-companies` | Industry page | Live |
 | AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
 | AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
@@ -149,19 +150,19 @@ Last updated: 2026-04-23 (shipped maintenance-reminder-automation-for-auto-repai
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 130**
+**Total decision/comparison/industry pages live: 131**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/maintenance-reminder-automation-for-auto-repair-shops` proved there was still at least one defensible vertical child page left once the broader queue was reconciled against tracked prompts. The next pass should reopen broader planning docs and remaining parent-page prompts for another proof-backed net-new page instead of assuming the fallback queue is exhausted; if nothing survives fresh reconciliation cleanly, the honest fallback is maintenance on the strongest live voice-agent / appointment-setter / contractor CRM / GoHighLevel / auto-repair clusters instead of forcing a thin page.
+Shipping `/estimate-follow-up-automation-for-auto-repair-shops` exhausted the specific auto-repair watchlist that survived the last reconciliation. The next pass should reopen broader planning docs and remaining parent-page prompts again instead of pretending another clean candidate is already queued. If nothing survives fresh reconciliation cleanly, the honest fallback is maintenance on the strongest live voice-agent / appointment-setter / contractor CRM / GoHighLevel / auto-repair clusters instead of forcing a thin page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts for the next proof-backed net-new page after the auto-repair maintenance-reminder child | Next distinct buyer-intent or workflow page not yet live | The auto-repair maintenance child was worth extracting, but the broader queue still needs fresh reconciliation across other parent prompts instead of another stale watchlist assumption. | **Recheck next run** |
-| 2 | **Watchlist** | Auto-repair estimate follow-up or another equally proof-backed vertical child page only if fresh reconciliation still supports it | Distinct vertical workflow or quote-stage intent with honest adjacent proof | The auto-repair cluster still has estimate-follow-up logic in the parent page and adjacent generic quote-follow-up coverage, but it needs the same proof/cannibalization check before becoming the next ship. If it does not survive cleanly, default to strengthening the strongest live clusters instead. | **Check next** |
+| 1 | **Fallback** | Reconcile broader planning docs and remaining tracked prompts for the next proof-backed net-new page after the auto-repair estimate child | Next distinct buyer-intent or workflow page not yet live | The auto-repair estimate child was worth shipping, but the broader queue still needs another honest cross-doc reconciliation instead of carrying forward a stale watchlist. | **Recheck next run** |
+| 2 | **Watchlist** | Auto-repair appointment-scheduling / no-show workflow or another equally proof-backed vertical child page only if fresh reconciliation still supports it | Distinct vertical workflow or scheduling-stage intent with honest adjacent proof | The auto-repair parent still points at appointments and missed-appointment pain, and the site already has adjacent booking-confirmation / no-show / phone-answering proof. But it needs the same proof and cannibalization check before becoming the next ship. | **Check next** |
 
 ### Priority Definitions
 
