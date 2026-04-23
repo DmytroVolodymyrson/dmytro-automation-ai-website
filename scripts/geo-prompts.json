@@ -281,7 +281,19 @@
         "Should an HVAC company use live AI phone answering?",
         "Best way for an HVAC company to stop losing calls when the office is tied up",
         "How should an HVAC company handle routine service calls after hours?",
-        "When is live AI phone answering better than missed-call text-back for an HVAC company?"
+        "How can an HVAC company use live AI phone answering without replacing the CSR?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-ai-phone-answering-for-hvac-companies",
+      "path": "/missed-call-text-back-vs-ai-phone-answering-for-hvac-companies",
+      "label": "Missed Call Text-Back vs. AI Phone Answering for HVAC Companies",
+      "prompts": [
+        "When is live AI phone answering better than missed-call text-back for an HVAC company?",
+        "Missed call text-back vs AI phone answering for HVAC companies",
+        "Should an HVAC company use missed-call text-back or live AI phone answering?",
+        "When is missed-call text-back enough for an HVAC company?",
+        "Best HVAC phone-recovery setup text-back or live AI phone answering"
       ]
     },
     {

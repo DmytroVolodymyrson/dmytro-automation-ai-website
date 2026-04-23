@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped what-to-automate-first-for-contractors after another proof-led reconciliation. The neat backlog was still exhausted, but the live contractor CRM cluster still held one exact scoping query inside the setup-help page that stayed materially distinct from the broader contractor CRM page, the contractor setup-help page, the pipeline-stage page, and the narrower intake / estimate / dispatch workflow children: the earlier first-project prioritization question of what a contractor should automate first before funding a bigger CRM layer. The new page stays tightly on choosing between intake routing, estimate follow-up, dispatch handoff, and pipeline cleanup while using only honest adjacent proof from the live contractor cluster plus the published WheelsFeels CRM case study and adjacent trade-service workflow proof.)
+Last updated: 2026-04-23 (shipped missed-call-text-back-vs-ai-phone-answering-for-hvac-companies after another proof-led reconciliation. The neat backlog was still exhausted, but the live HVAC phone-coverage cluster still held one exact tracked buyer decision inside the broader HVAC phone-answering page: when missed-call text-back is enough versus when live AI phone answering becomes the better fit. That query stayed materially distinct from the broader HVAC parent page, the legacy HVAC missed-call child, and the HVAC voicemail comparison page. The new page stays tightly on that phone-recovery decision — SMS-first recovery versus live AI coverage — while using only honest adjacent proof from the live HVAC cluster plus the published Paris Cafe phone-handling case study.)
 
 ## Live GEO Assets
 
@@ -55,6 +55,7 @@ Last updated: 2026-04-23 (shipped what-to-automate-first-for-contractors after a
 | AI Appointment Setter for HVAC | `/ai-appointment-setter-for-hvac` | Industry page | Live |
 | HVAC Scheduling and Follow-Up Automation | `/hvac-scheduling-and-follow-up-automation` | Industry operations page | Live |
 | AI Phone Answering for HVAC Companies | `/ai-phone-answering-for-hvac-companies` | HVAC live-phone-coverage workflow page | Live |
+| Missed Call Text-Back vs. AI Phone Answering for HVAC Companies | `/missed-call-text-back-vs-ai-phone-answering-for-hvac-companies` | HVAC phone-recovery decision page | Live |
 | AI Phone Answering vs. Voicemail for HVAC Companies | `/ai-phone-answering-vs-voicemail-for-hvac-companies` | HVAC phone-fallback decision page | Live |
 | AI Appointment Setter for Home Service Businesses | `/ai-appointment-setter-for-home-service-businesses` | Workflow / home services page | Live |
 | AI Consultant Alberta | `/ai-automation-consultant-alberta` | Geo landing page | Live |
@@ -184,7 +185,7 @@ Last updated: 2026-04-23 (shipped what-to-automate-first-for-contractors after a
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 163**
+**Total decision/comparison/industry pages live: 164**
 **Total case studies live: 3**
 
 ---
