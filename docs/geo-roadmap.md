@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped contact-form-autoresponder-vs-full-lead-follow-up by turning the exact website-lead prompt already tracked under the live contact-form cluster into a dedicated comparison page anchored in the published Paris Cafe and Instagram lead-response proof plus the adjacent contact-form and instant-response workflow guides)
+Last updated: 2026-04-22 (shipped ai-voice-agent-vs-manual-callback-for-service-businesses by turning the exact voice-lead qualification prompt already tracked under the live AI voice-agent cluster into a dedicated buyer-decision page anchored in the published Paris Cafe voice-handling proof plus the adjacent voice qualification, cost, and ROI workflow guides)
 
 ## Live GEO Assets
 
@@ -112,6 +112,7 @@ Last updated: 2026-04-22 (shipped contact-form-autoresponder-vs-full-lead-follow
 | AI Voice Agent vs. Voicemail | `/ai-voice-agent-vs-voicemail` | Comparison page | Live |
 | AI Voice Agent vs. Call Center | `/ai-voice-agent-vs-call-center` | Comparison page | Live |
 | AI Voice Agent vs. Human Appointment Setter | `/ai-voice-agent-vs-human-appointment-setter` | Comparison page | Live |
+| AI Voice Agent vs. Manual Callback for Service Businesses | `/ai-voice-agent-vs-manual-callback-for-service-businesses` | Comparison page | Live |
 | n8n vs. Make (SMB) | `/n8n-vs-make-small-business` | Comparison page | Live |
 | Build vs. Buy AI Automation | `/build-vs-buy-ai-automation` | Comparison page | Live |
 | VAPI vs. Retell (SMB) | `/vapi-vs-retell-small-business` | Comparison page | Live |
@@ -139,19 +140,19 @@ Last updated: 2026-04-22 (shipped contact-form-autoresponder-vs-full-lead-follow
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 120**
+**Total decision/comparison/industry pages live: 121**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/contact-form-autoresponder-vs-full-lead-follow-up` proved the backlog was not actually exhausted: the live contact-form cluster already contained an exact tracked buyer decision (`Contact form autoresponder vs full lead follow-up workflow`) that was still distinct from the broader contact-form and instant-response pages. With that decision page now live, the next clean candidate is another exact tracked comparison inside the voice-qualification cluster rather than pretending the backlog is back to maintenance-only by default.
+Shipping `/ai-voice-agent-vs-manual-callback-for-service-businesses` used up the last explicit high-confidence net-new page still surviving the current roadmap plus tracked-prompt reconciliation. The exact manual-callback decision prompt that justified this build was already embedded under the live voice-qualification cluster in `scripts/geo-prompts.json`, and it is now isolated on its own page instead of being buried under the parent. At this point the roadmap should stop pretending another equally clean page is still queued by default.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | `/ai-voice-agent-vs-manual-callback-for-service-businesses` | AI voice lead qualification vs manual callback | The tracked prompt already exists under the live voice-qualification page and could still support a distinct buyer-decision page if it stays tightly on immediate phone qualification vs delayed callback economics instead of rehashing the broader voice-agent guide. | **Queued** |
-| 2 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | Contact-form + voice-agent + e-commerce discovery and internal links | If the voice-agent/manual-callback comparison cannot stay distinct enough on closer review, the next move should fall back to discovery-surface and internal-link strengthening rather than filler pages. | **Fallback** |
+| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives fresh planning review | Voice-agent + contact-form + e-commerce discovery and internal links | With the last explicit tracked comparison now live, the safest next move is discovery-surface tightening and internal-link strengthening unless new proof or a newly explicit tracked query appears. | **Fallback** |
+| 2 | **Watchlist** | Re-check broader planning docs for any new proof-backed exact buyer decision before shipping another page | Proof-led only | Only ship another page when a materially distinct buyer intent survives reconciliation across planning docs, tracked prompts, current routes, and existing proof. | **Watchlist** |
 
 ### Priority Definitions
 

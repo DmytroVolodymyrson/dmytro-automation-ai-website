@@ -258,6 +258,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "AI Voice Agent vs. Manual Callback for Service Businesses",
+    description:
+      "Should a service business qualify callers immediately with an AI voice agent or keep relying on delayed human callbacks? Practical comparison of speed-to-lead, labor, call quality, and where each option fits.",
+    href: "/ai-voice-agent-vs-manual-callback-for-service-businesses",
+    category: "comparisons",
+  },
+  {
     title: "n8n vs. Make for Small Business",
     description:
       "Comparing n8n and Make (formerly Integromat) for small business automation. Pricing, self-hosting, AI integration, and complexity handling.",

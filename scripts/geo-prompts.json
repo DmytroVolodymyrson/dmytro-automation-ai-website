@@ -760,8 +760,20 @@
         "AI voice agent for lead qualification",
         "Can an AI voice agent qualify leads for a service business?",
         "Should I use AI to qualify inbound phone leads?",
-        "AI voice lead qualification vs manual callback",
+        "What should an AI voice agent handle on the first call before human handoff?",
         "How much does an AI voice agent for lead qualification cost?"
+      ]
+    },
+    {
+      "id": "ai-voice-agent-vs-manual-callback-for-service-businesses",
+      "path": "/ai-voice-agent-vs-manual-callback-for-service-businesses",
+      "label": "AI Voice Agent vs. Manual Callback for Service Businesses",
+      "prompts": [
+        "AI voice lead qualification vs manual callback",
+        "Should a service business use an AI voice agent or keep calling leads back manually?",
+        "AI voice agent vs manual callback for service businesses",
+        "When is a voice agent better than delayed staff callbacks for inbound leads?",
+        "Should I automate first-call qualification or keep a manual callback process?"
       ]
     },
     {

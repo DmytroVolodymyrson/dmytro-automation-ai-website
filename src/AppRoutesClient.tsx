@@ -105,6 +105,7 @@ const AiAppointmentSetterVsVirtualAssistant = lazy(() => import("./pages/AiAppoi
 const AiVoiceAgentVsVoicemail = lazy(() => import("./pages/AiVoiceAgentVsVoicemail"));
 const AiVoiceAgentVsCallCenter = lazy(() => import("./pages/AiVoiceAgentVsCallCenter"));
 const AiVoiceAgentVsHumanAppointmentSetter = lazy(() => import("./pages/AiVoiceAgentVsHumanAppointmentSetter"));
+const AiVoiceAgentVsManualCallbackForServiceBusinesses = lazy(() => import("./pages/AiVoiceAgentVsManualCallbackForServiceBusinesses"));
 const N8nVsMakeSmallBusiness = lazy(() => import("./pages/N8nVsMakeSmallBusiness"));
 const BuildVsBuyAiAutomation = lazy(() => import("./pages/BuildVsBuyAiAutomation"));
 const VapiVsRetellSmallBusiness = lazy(() => import("./pages/VapiVsRetellSmallBusiness"));
@@ -240,6 +241,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-voice-agent-vs-voicemail" element={<AiVoiceAgentVsVoicemail />} />
       <Route path="/ai-voice-agent-vs-call-center" element={<AiVoiceAgentVsCallCenter />} />
       <Route path="/ai-voice-agent-vs-human-appointment-setter" element={<AiVoiceAgentVsHumanAppointmentSetter />} />
+      <Route path="/ai-voice-agent-vs-manual-callback-for-service-businesses" element={<AiVoiceAgentVsManualCallbackForServiceBusinesses />} />
       <Route path="/n8n-vs-make-small-business" element={<N8nVsMakeSmallBusiness />} />
       <Route path="/build-vs-buy-ai-automation" element={<BuildVsBuyAiAutomation />} />
       <Route path="/vapi-vs-retell-small-business" element={<VapiVsRetellSmallBusiness />} />
