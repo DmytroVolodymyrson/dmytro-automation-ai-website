@@ -880,8 +880,8 @@
         "GoHighLevel automation consultant",
         "Who can set up GoHighLevel for a small business?",
         "GoHighLevel automation setup help",
-        "How much does GoHighLevel setup cost for a service business?",
-        "Should I hire someone to configure GoHighLevel or do it myself?"
+        "What does GoHighLevel setup help actually include?",
+        "Can someone clean up a messy GoHighLevel account?"
       ]
     },
     {
@@ -892,8 +892,20 @@
         "GoHighLevel setup cost for small business",
         "How much does GoHighLevel setup cost for a service business?",
         "What should a small business budget for GoHighLevel setup?",
-        "Should I pay someone to configure GoHighLevel or do it myself?",
+        "How do I know if GoHighLevel setup cost is worth it?",
         "What makes GoHighLevel setup expensive?"
+      ]
+    },
+    {
+      "id": "gohighlevel-setup-vs-diy-small-business",
+      "path": "/gohighlevel-setup-vs-diy-small-business",
+      "label": "GoHighLevel Setup vs. DIY for Small Business",
+      "prompts": [
+        "GoHighLevel setup vs DIY for small business",
+        "Should I hire someone to configure GoHighLevel or do it myself?",
+        "Should I pay someone to configure GoHighLevel or do it myself?",
+        "When is DIY GoHighLevel setup enough for a small business?",
+        "When should a business hire GoHighLevel setup help instead of figuring it out alone?"
       ]
     },
     {

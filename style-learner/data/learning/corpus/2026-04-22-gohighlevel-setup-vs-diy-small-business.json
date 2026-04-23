@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-gohighlevel-setup-vs-diy-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: GoHighLevel Setup: Hire Help or DIY?\nBody: If your GoHighLevel account only needs one simple pipeline, a calendar, and a couple of reminder messages, doing it yourself can make sense. If the setup touches real lead routing, missed-call follow-up, booking rules, pipeline cleanup, staff alerts, or a messy inherited account, hiring help is usually the cheaper move once you count owner time, rework, and leads that keep leaking while the CRM is half-configured. The decision is not whether DIY is possible. It is whether this specific GoHighLevel setup is important enough that you want it live, clean, and trusted without burning weeks inside snapshots, triggers, and duplicate-contact cleanup.\nSub: Below: when DIY GoHighLevel setup is still a smart move, when expert help pays for itself, what each path really costs, and how to tell whether you need a tutorial, a bounded cleanup build, or a different CRM entirely.\n\n### Core sections\n- Frames the page as a narrow tool-specific buy-vs-build decision for owners who already think GoHighLevel is probably the right platform.\n- Compares DIY and expert setup help on owner time, launch speed, workflow risk, cleanup depth, and what “success” should look like after launch.\n- Uses explicit good-fit / bad-fit filtering so the page does not push consulting help where a simple owner-led GHL setup is still enough.\n- Explains where DIY GoHighLevel work usually breaks down: template clutter, calendars/opportunities drifting out of sync, and the hidden ownership/cleanup layer.\n- Grounds the page in the existing GoHighLevel setup cluster plus adjacent published proof from the e-commerce CRM and Paris Cafe case studies.\n\n### FAQ\nSubhead: Practical questions from owners deciding whether to keep configuring GoHighLevel themselves or hire expert help\nTopics: when DIY GHL setup is still sensible, when to hire setup help, how this page differs from the broader setup guide, realistic setup-help pricing, and whether a consultant can clean up a messy existing account.\n\n### Final CTA\nHeading: Want a clear answer on whether this GoHighLevel setup is worth DIYing?\nBody: Book a 30-minute call. We will look at the workflow you want inside GoHighLevel, the real cost of delay and cleanup, and whether the smartest next step is a DIY sprint, a bounded setup engagement, or a different stack entirely.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because `scripts/geo-prompts.json` still contained the exact hire-vs-DIY buyer query under the live `/gohighlevel-automation-setup` and `/gohighlevel-setup-cost-small-business` cluster even after the broader roadmap queue had fallen back to maintenance."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps a disciplined distinction from both `/gohighlevel-automation-setup` and `/gohighlevel-setup-cost-small-business` by staying tightly on the tool-specific buy-vs-build decision rather than repeating implementation scope or budgeting advice."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: no fake dedicated GHL case study, only adjacent published proof for CRM workflow design and live inquiry routing already on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical, commercially specific, and non-hype with explicit bad-fit framing."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T05:22:54.332Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        5,
+        1,
+        3
+      ],
+      "avgSentenceLength": 24.9,
+      "sentenceLengthRange": [
+        5,
+        53
+      ],
+      "totalWords": 373
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nHeading: GoHighLevel Setup: Hire Help or DIY?",
+      "wordCount": 8,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a clear answer on whether this GoHighLevel setup is worth DIYing?\nBody: Book a 30-minute call. We will look at the workflow you want inside GoHighLevel, the real cost of delay and cleanup, and whether the smartest next step is a DIY sprint, a bounded setup engagement, or a different stack entirely.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 13,
+      "commas": 34,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 10,
+      "commasPerSentence": 2.27
+    },
+    "vocabulary": {
+      "distinctWords": 208,
+      "totalWords": 373,
+      "topWords": [
+        [
+          "setup",
+          12
+        ],
+        [
+          "gohighlevel",
+          10
+        ],
+        [
+          "help",
+          7
+        ],
+        [
+          "diy",
+          7
+        ],
+        [
+          "whether",
+          7
+        ],
+        [
+          "cleanup",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "hire",
+          3
+        ],
+        [
+          "account",
+          3
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "crm",
+          3
+        ],
+        [
+          "this",
+          3
+        ],
+        [
+          "want",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

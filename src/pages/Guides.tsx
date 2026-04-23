@@ -195,6 +195,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "GoHighLevel Setup vs. DIY for Small Business",
+    description:
+      "Should you configure GoHighLevel yourself or hire expert help? Practical comparison of owner time, workflow risk, cleanup depth, and when setup help is actually the cheaper move.",
+    href: "/gohighlevel-setup-vs-diy-small-business",
+    category: "comparisons",
+  },
+  {
     title: "AI Appointment Setter Setup Help",
     description:
       "Need help setting up an AI appointment setter? Practical guide to qualification logic, calendar rules, CRM handoff, pricing, and when expert setup is worth it.",

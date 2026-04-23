@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped n8n-automation-consultant-cost-small-business by extracting the exact pricing query still tracked under the live /n8n-automation-consultant cluster into a dedicated economic child page anchored in the existing n8n consultant guide plus direct and adjacent workflow proof from the Instagram lead-generation and e-commerce CRM case studies)
+Last updated: 2026-04-22 (shipped gohighlevel-setup-vs-diy-small-business by extracting the exact hire-vs-DIY query still tracked under the live /gohighlevel-automation-setup and /gohighlevel-setup-cost-small-business cluster into a distinct tool-specific buy-vs-build page anchored in the existing GoHighLevel setup and pricing pages plus adjacent CRM and call-routing proof)
 
 ## Live GEO Assets
 
@@ -39,6 +39,7 @@ Last updated: 2026-04-22 (shipped n8n-automation-consultant-cost-small-business 
 | GoHighLevel vs. Custom CRM | `/gohighlevel-vs-custom-crm-small-business` | Comparison page | Live |
 | GoHighLevel Automation Setup | `/gohighlevel-automation-setup` | Workflow / service page | Live |
 | GoHighLevel Setup Cost (SMB) | `/gohighlevel-setup-cost-small-business` | Workflow / pricing decision page | Live |
+| GoHighLevel Setup vs. DIY (SMB) | `/gohighlevel-setup-vs-diy-small-business` | Workflow / buy-vs-build comparison page | Live |
 | AI Consultant Pricing | `/ai-automation-consultant-pricing-small-business` | Decision page | Live |
 | Best AI Automations for Service Businesses | `/best-ai-automation-for-service-businesses` | Decision page | Live |
 | AI Automation for HVAC Companies | `/ai-automation-for-hvac-companies` | Industry page | Live |
@@ -143,18 +144,18 @@ Last updated: 2026-04-22 (shipped n8n-automation-consultant-cost-small-business 
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 124**
+**Total decision/comparison/industry pages live: 125**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/n8n-automation-consultant-cost-small-business` extracted another exact economic child query that was still sitting inside the live `/n8n-automation-consultant` prompt cluster. The immediate next pass should again default to a strict maintenance/discovery audit unless a fresh planned query survives review across the broader planning docs, the tracked prompt set, and current live routes.
+Shipping `/gohighlevel-setup-vs-diy-small-business` extracted another exact buyer-decision query that was still sitting inside the live GoHighLevel setup cluster. The immediate next pass should again default to a strict maintenance/discovery audit unless a fresh planned query survives review across the broader planning docs, the tracked prompt set, and current live routes.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Strengthen strongest live n8n / voice-agent clusters | Discovery, internal links, and tracked-prompt cleanup | With the extracted n8n DIY-vs-hire query now shipped, the safest next move is to tighten discovery surfaces and internal links on the strongest live clusters instead of forcing a thin new page. | **Watch next** |
+| 1 | **Fallback** | Strengthen strongest live GoHighLevel / n8n / voice-agent clusters | Discovery, internal links, and tracked-prompt cleanup | With the extracted GoHighLevel DIY-vs-hire query now shipped, the safest next move is to tighten discovery surfaces and internal links on the strongest live clusters instead of forcing a thin new page. | **Watch next** |
 | 2 | **Watchlist** | Recheck broader planning docs for a still-distinct proof-backed child query | Late-backlog candidate discovery | Only ship another new page if a materially different buyer query still survives fresh reconciliation across `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, and `scripts/geo-prompts.json`. | **Only if distinct** |
 
 ### Priority Definitions
