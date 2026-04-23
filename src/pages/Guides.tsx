@@ -1016,6 +1016,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering for Roofing Companies",
+    description:
+      "A narrower roofing live-phone-coverage guide focused on inspection intake, storm-spike overflow, after-hours answer coverage, office relief, and the handoff points that should stay human.",
+    href: "/ai-phone-answering-for-roofing-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Pest Control Companies",
     description:
       "AI automation for pest control companies. Lead follow-up, recurring service reminders, seasonal campaigns, missed call text-back, and review automation.",

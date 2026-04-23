@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped missed-call-text-back-vs-ai-phone-answering-for-roofing-companies because the live roofing cluster still had one clean buyer-decision child query hiding inside the tracked prompts. The new page stays tightly on the choice between SMS-first missed-call recovery and heavier live AI phone coverage for storm-driven, after-hours, and office-overload call patterns instead of rehashing the broader roofing parent, the roofing missed-call child, or the generic AI phone-answering guide.)
+Last updated: 2026-04-23 (shipped ai-phone-answering-for-roofing-companies because the broader planning docs were already mostly exhausted and the roadmap watchlist still held one defensible roofing child page. The new page stays tightly on the heavier live-answering workflow itself — inspection intake, storm-spike overflow, after-hours answer coverage, and human handoff — instead of rehashing the broader roofing parent, the missed-call text-back child, or the just-shipped roofing comparison page.)
 
 ## Live GEO Assets
 
@@ -150,6 +150,7 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-vs-ai-phone-answering-fo
 | Estimate Follow-Up Automation for Roofing Companies | `/estimate-follow-up-automation-for-roofing-companies` | Roofing workflow page | Live |
 | Missed Call Text-Back for Roofing Companies | `/missed-call-text-back-for-roofing-companies` | Roofing phone-recovery workflow page | Live |
 | Missed Call Text-Back vs. AI Phone Answering for Roofing Companies | `/missed-call-text-back-vs-ai-phone-answering-for-roofing-companies` | Roofing phone-recovery decision page | Live |
+| AI Phone Answering for Roofing Companies | `/ai-phone-answering-for-roofing-companies` | Roofing live-phone-coverage workflow page | Live |
 | AI Automation for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Industry page | Live |
 | AI Automation for Auto Repair Shops | `/ai-automation-for-auto-repair-shops` | Industry page | Live |
 | Maintenance Reminder Automation for Auto Repair Shops | `/maintenance-reminder-automation-for-auto-repair-shops` | Auto-repair retention workflow page | Live |
@@ -176,19 +177,19 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-vs-ai-phone-answering-fo
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 156**
+**Total decision/comparison/industry pages live: 157**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/missed-call-text-back-vs-ai-phone-answering-for-roofing-companies` extracted the last clean exact buyer-decision query that was still sitting inside the live roofing phone-recovery cluster. The backlog is now deeper into fallback territory again, so the next run should not assume another roofing page is automatically next without a fresh reconciliation.
+Shipping `/ai-phone-answering-for-roofing-companies` used the roofing watchlist item that still survived a full reconciliation: the heavier live-answering workflow stayed materially distinct from the broader roofing parent, the lighter missed-call text-back child, and the buyer-decision comparison page that shipped earlier today. The backlog is now back in broad fallback territory again, so the next run should start with another full cross-doc reconciliation instead of assuming the roofing cluster still has an automatic next child.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Broad backlog reconciliation for one more net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | The neat queue is now mostly fallback territory. Each run still needs a fresh cross-doc reconciliation before declaring the backlog fully exhausted. | **Default next step** |
-| 2 | **Watchlist** | AI phone answering for roofing companies | Live roofing phone coverage workflow page only if later reconciliation still proves it is materially distinct from the new comparison page, the broader roofing parent, and the generic AI phone-answering guide | This is the strongest remaining roofing-adjacent candidate, but it should only ship if the next pass can show the heavier live-answering workflow still deserves its own bounded page after today's comparison page. | **Only if it survives the next reconciliation** |
+| 1 | **Fallback** | Broad backlog reconciliation for one more net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | The neat queue is again mostly fallback territory. Each run still needs a fresh cross-doc reconciliation before declaring the backlog fully exhausted. | **Default next step** |
+| 2 | **Watchlist** | Missed-call text-back vs. voicemail for roofing companies | Roofing lighter-fallback decision page only if a later reconciliation still proves that the SMS-first-versus-voicemail choice is materially distinct from the broader roofing parent, the missed-call child, and the now-live live-answering workflow pages | This is the strongest remaining roofing-adjacent candidate if the next pass finds a clean exact lighter-fallback query worth isolating. It should not ship automatically without that proof. | **Only if it survives the next reconciliation** |
 | 3 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, n8n, voice-agent, and roofing clusters without filler | Use this only if the next reconciliation still finds no defensible proof-backed net-new page that is meaningfully distinct. | **Use if no better exact query survives** |
 
 ### Priority Definitions
