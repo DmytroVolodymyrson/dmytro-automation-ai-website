@@ -518,6 +518,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Voice Agent Launch Checklist for Small Business",
+    description:
+      "Pre-launch checklist for voice-agent go-live readiness: what to verify, what to test, where fallback logic breaks, and what should be true before the number turns on.",
+    href: "/ai-voice-agent-launch-checklist-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Voice Agent Setup vs. DIY for Small Business",
     description:
       "Practical buy-vs-build guide for businesses deciding whether voice-agent setup should stay an owner-led project or move to expert implementation before more calls leak during rollout.",

@@ -113,6 +113,7 @@ import AiPhoneAnswering from "./pages/AiPhoneAnswering";
 import AiVoiceAgentForLeadQualification from "./pages/AiVoiceAgentForLeadQualification";
 import AiVoiceAgentSetupForLeadQualification from "./pages/AiVoiceAgentSetupForLeadQualification";
 import AiVoiceAgentSetupMistakesSmallBusiness from "./pages/AiVoiceAgentSetupMistakesSmallBusiness";
+import AiVoiceAgentLaunchChecklistSmallBusiness from "./pages/AiVoiceAgentLaunchChecklistSmallBusiness";
 import AiVoiceAgentSetupVsDiySmallBusiness from "./pages/AiVoiceAgentSetupVsDiySmallBusiness";
 import AiVoiceAgentCostSmallBusiness from "./pages/AiVoiceAgentCostSmallBusiness";
 import AiVoiceAgentRoiForLeadFollowUp from "./pages/AiVoiceAgentRoiForLeadFollowUp";
@@ -326,6 +327,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-voice-agent-lead-qualification", element: <AiVoiceAgentForLeadQualification /> },
   { path: "/ai-voice-agent-setup-for-lead-qualification", element: <AiVoiceAgentSetupForLeadQualification /> },
   { path: "/ai-voice-agent-setup-mistakes-small-business", element: <AiVoiceAgentSetupMistakesSmallBusiness /> },
+  { path: "/ai-voice-agent-launch-checklist-small-business", element: <AiVoiceAgentLaunchChecklistSmallBusiness /> },
   { path: "/ai-voice-agent-setup-vs-diy-small-business", element: <AiVoiceAgentSetupVsDiySmallBusiness /> },
   { path: "/ai-voice-agent-cost-small-business", element: <AiVoiceAgentCostSmallBusiness /> },
   { path: "/ai-voice-agent-roi-for-lead-follow-up", element: <AiVoiceAgentRoiForLeadFollowUp /> },

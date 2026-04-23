@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-ai-voice-agent-launch-checklist-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: AI Voice Agent Launch Checklist for Small Business\nBody: A voice agent should not go live just because the demo sounds good. This page isolates the release-readiness layer: what has to be true before launch, what should be tested on ugly real calls, how fallback behavior should work, and why CRM handoff and ownership matter before the number turns on.\nSub: Below: the pre-launch checklist that matters most, what to test before you turn the number on, when this page is useful, and how it stays separate from the broader setup-help, setup-mistakes, DIY, cost, ROI, and manual-callback pages already live on the site.\n\n### Core sections\n- What to verify before an AI voice agent goes live\n- The pre-launch checks that matter most\n- When this page is useful — and when it is not\n- How to use a launch checklist without turning it into busywork\n- How this page stays distinct from the other voice-agent setup pages\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions from owners who are already close to launching a voice agent and want a safer release instead of an avoidable cleanup project a few weeks later\n- What should an AI voice agent include before it goes live?\n- What should I test before launching an AI voice agent?\n- How is this different from the voice-agent setup-help page?\n- How is this different from the setup-mistakes page?\n- When should I delay launch instead of forcing a voice agent live?\n\n### Final CTA\nHeading: Need a second opinion before you turn a voice agent live?\nBody: Book a 30-minute call. We will review the live-call objective, transfer rules, fallback behavior, CRM handoff, and ugly-call test cases so you can decide whether the workflow is ready now, needs a narrower first launch, or should wait until the release risk is lower.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the exact tracked pre-launch queries “What should an AI voice agent include before it goes live?” and “What should I test before launching an AI voice agent?” were still buried under the broader `/ai-voice-agent-setup-for-lead-qualification` page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page tightly on go-live readiness: release criteria, ugly-call testing, fallback logic, CRM handoff, and ownership after launch — not broader implementation scope, failure-mode analysis, pricing, or ROI."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used only adjacent proof already published on the site: the live voice-agent setup cluster, the Paris Cafe phone-workflow case study, and the WheelsFeels CRM case study. Avoided pretending there is a dedicated voice-agent launch-checklist case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: narrower first launch, safer release gate, real call testing, and delaying launch when the workflow is not ready."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T19:22:09.589Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 25.9,
+      "sentenceLengthRange": [
+        5,
+        62
+      ],
+      "totalWords": 311
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Voice Agent Launch Checklist for Small Business\nBody: A voice agent should not go live just because the demo sounds good.",
+      "wordCount": 24,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a second opinion before you turn a voice agent live?\nBody: Book a 30-minute call. We will review the live-call objective, transfer rules, fallback behavior, CRM handoff, and ugly-call test cases so you can decide whether the workflow is ready now, needs a narrower first launch, or should wait until the release risk is lower.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 5,
+      "commas": 17,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 8,
+      "commasPerSentence": 1.55
+    },
+    "vocabulary": {
+      "distinctWords": 152,
+      "totalWords": 311,
+      "topWords": [
+        [
+          "-",
+          11
+        ],
+        [
+          "voice",
+          8
+        ],
+        [
+          "agent",
+          8
+        ],
+        [
+          "should",
+          7
+        ],
+        [
+          "this",
+          7
+        ],
+        [
+          "page",
+          7
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "before",
+          7
+        ],
+        [
+          "live",
+          6
+        ],
+        [
+          "how",
+          6
+        ],
+        [
+          "launch",
+          5
+        ],
+        [
+          "from",
+          5
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "it",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

@@ -48,6 +48,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - `/n8n-workflow-cleanup-service`
 - `/ai-email-sequence-automation`
 - `/ai-voice-agent-lead-qualification`
+- `/ai-voice-agent-launch-checklist-small-business`
 - `/ai-voice-agent-cost-small-business`
 - `/ai-voice-agent-roi-for-lead-follow-up`
 - `/gohighlevel-account-cleanup-service`

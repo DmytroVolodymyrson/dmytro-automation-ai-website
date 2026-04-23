@@ -939,9 +939,9 @@
       "prompts": [
         "AI voice agent setup for lead qualification",
         "How do I set up an AI voice agent to qualify inbound leads?",
-        "What should an AI voice agent include before it goes live?",
+        "What does AI voice-agent setup help actually include?",
         "How much does AI voice agent setup cost for a small business?",
-        "What should I test before launching an AI voice agent?"
+        "When is expert AI voice-agent setup help worth paying for?"
       ]
     },
     {
@@ -954,6 +954,18 @@
         "What usually goes wrong when a small business launches an AI voice agent?",
         "How do I avoid bad transfer logic in an AI voice agent setup?",
         "Which AI voice agent setup mistakes create the most cleanup later?"
+      ]
+    },
+    {
+      "id": "ai-voice-agent-launch-checklist-small-business",
+      "path": "/ai-voice-agent-launch-checklist-small-business",
+      "label": "AI Voice Agent Launch Checklist for Small Business",
+      "prompts": [
+        "AI voice agent launch checklist for small business",
+        "What should an AI voice agent include before it goes live?",
+        "What should I test before launching an AI voice agent?",
+        "How do I know if my AI voice agent is ready to go live?",
+        "AI voice agent go-live checklist for lead qualification"
       ]
     },
     {
