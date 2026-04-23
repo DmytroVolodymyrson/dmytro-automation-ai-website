@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-ai-voice-agent-setup-vs-diy-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: AI Voice Agent Setup: Hire Help or DIY?\nBody: If your voice workflow is narrow, the call stakes are low, and you mainly want to learn the tools, DIY can make sense. If the setup touches real inbound calls, qualification rules, transfer logic, booking windows, CRM ownership, or after-hours coverage, hiring help is usually the cheaper move once you count owner time, rework, and leads that keep leaking while the system is half-configured. The real decision is not whether DIY is possible. It is whether this specific voice workflow matters enough that you want it live, trusted, and revenue-safe without spending nights debugging prompts, telephony, transfer rules, call summaries, and edge cases.\nSub: Below: when DIY voice-agent setup is still a smart move, when expert help pays for itself, what each path really costs, and how to tell whether you need a tutorial, a bounded implementation engagement, or a smaller phone workflow first.\n\n### Core sections\n- Frames the page as a distinct buyer decision inside the existing voice-agent cluster: keep building the setup yourself or pay for implementation help now.\n- Compares DIY and expert setup on owner time, workflow risk, transfer logic, call-handling edge cases, CRM handoff, and launch speed.\n- Keeps the page separate from the broader setup-help, cost, ROI, and manual-callback pages by staying tightly on the buy-vs-build decision for implementation.\n- Uses adjacent proof from the AI voice-agent setup page, Paris Cafe voice-agent case study, and the live voice-agent / CRM workflow cluster without inventing a direct new case study.\n\n### FAQ\nSubhead: Practical questions from owners deciding whether to keep building their voice workflow alone or bring in expert setup help\nTopics: when DIY setup is actually enough, when expert help is the cheaper move, how this differs from the setup-help page, typical setup-help cost ranges, and whether a business can prototype first then hire later.\n\n### Final CTA\nHeading: Want a clear answer on whether this voice agent is worth DIYing?\nBody: Book a 30-minute call. We will look at your call flow, qualification logic, transfer rules, CRM handoff, and the real cost of delay so you can decide whether the smartest next step is DIY, a bounded setup engagement, or a smaller phone workflow first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the exact query “Should I hire someone to set up an AI voice agent?” was still tracked under `/ai-voice-agent-setup-for-lead-qualification`, and it remained commercially distinct from the live setup-help, cost, ROI, and manual-callback pages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the copy practical and non-hype by centering owner time, workflow risk, call-handling edge cases, transfer boundaries, and CRM handoff instead of promising generic automation magic."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Treated Paris Cafe and the broader voice-agent / CRM workflow cluster as adjacent operational proof, not as a made-up voice-agent implementation case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T06:13:00.467Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 26.5,
+      "sentenceLengthRange": [
+        5,
+        56
+      ],
+      "totalWords": 371
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nHeading: AI Voice Agent Setup: Hire Help or DIY?",
+      "wordCount": 10,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a clear answer on whether this voice agent is worth DIYing?\nBody: Book a 30-minute call. We will look at your call flow, qualification logic, transfer rules, CRM handoff, and the real cost of delay so you can decide whether the smartest next step is DIY, a bounded setup engagement, or a smaller phone workflow first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "context",
+        "closer"
+      ],
+      "template": "opener | result | context | closer"
+    },
+    "punctuation": {
+      "periods": 12,
+      "commas": 42,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 10,
+      "commasPerSentence": 3
+    },
+    "vocabulary": {
+      "distinctWords": 192,
+      "totalWords": 371,
+      "topWords": [
+        [
+          "setup",
+          9
+        ],
+        [
+          "diy",
+          7
+        ],
+        [
+          "workflow",
+          7
+        ],
+        [
+          "whether",
+          7
+        ],
+        [
+          "help",
+          6
+        ],
+        [
+          "voice",
+          5
+        ],
+        [
+          "voice-agent",
+          5
+        ],
+        [
+          "call",
+          4
+        ],
+        [
+          "transfer",
+          4
+        ],
+        [
+          "crm",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "expert",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "from",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

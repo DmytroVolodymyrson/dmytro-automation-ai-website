@@ -448,6 +448,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Voice Agent Setup vs. DIY for Small Business",
+    description:
+      "Practical buy-vs-build guide for businesses deciding whether voice-agent setup should stay an owner-led project or move to expert implementation before more calls leak during rollout.",
+    href: "/ai-voice-agent-setup-vs-diy-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Voice Agent Cost for Small Business",
     description:
       "What a small business should actually budget for AI phone answering, lead qualification, booking, CRM handoff, and the narrowest voice-agent build worth paying for first.",

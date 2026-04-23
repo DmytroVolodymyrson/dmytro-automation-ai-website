@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped ai-appointment-setter-setup-vs-diy-small-business by extracting the exact hire-vs-DIY query still tracked under the live /ai-appointment-setter-setup cluster into a distinct appointment-setter buy-vs-build page anchored in the existing setup, cost, and ROI pages plus adjacent phone-answering and CRM proof)
+Last updated: 2026-04-23 (shipped ai-voice-agent-setup-vs-diy-small-business by extracting the exact hire-vs-DIY query still tracked under the live /ai-voice-agent-setup-for-lead-qualification cluster into a distinct voice-agent buy-vs-build page anchored in the existing setup, cost, ROI, and manual-callback pages plus adjacent phone-handling and CRM proof)
 
 ## Live GEO Assets
 
@@ -102,10 +102,11 @@ Last updated: 2026-04-22 (shipped ai-appointment-setter-setup-vs-diy-small-busin
 | Missed Call Follow-Up Automation | `/missed-call-follow-up-automation` | Workflow page | Live |
 | Booking Confirmation & Reminder | `/booking-confirmation-and-reminder-automation` | Workflow page | Live |
 | AI Phone Answering for Service Businesses | `/ai-phone-answering-for-service-businesses` | Workflow page | Live |
-| AI Voice Agent for Lead Qualification | `/ai-voice-agent-lead-qualification` | Workflow / voice AI page | Live |
-| AI Voice Agent Setup for Lead Qualification | `/ai-voice-agent-setup-for-lead-qualification` | Workflow / implementation-help page | Live |
-| AI Voice Agent Cost for Small Business | `/ai-voice-agent-cost-small-business` | Workflow / pricing decision page | Live |
-| AI Voice Agent ROI for Lead Follow-Up | `/ai-voice-agent-roi-for-lead-follow-up` | Workflow / ROI decision page | Live |
+|| AI Voice Agent for Lead Qualification | `/ai-voice-agent-lead-qualification` | Workflow / voice AI page | Live |
+|| AI Voice Agent Setup for Lead Qualification | `/ai-voice-agent-setup-for-lead-qualification` | Workflow / implementation-help page | Live |
+|| AI Voice Agent Setup vs. DIY (SMB) | `/ai-voice-agent-setup-vs-diy-small-business` | Workflow / buy-vs-build comparison page | Live |
+|| AI Voice Agent Cost for Small Business | `/ai-voice-agent-cost-small-business` | Workflow / pricing decision page | Live |
+|| AI Voice Agent ROI for Lead Follow-Up | `/ai-voice-agent-roi-for-lead-follow-up` | Workflow / ROI decision page | Live |
 | Instant Lead Response Automation | `/instant-lead-response-automation` | Workflow page | Live |
 | Contact Form Lead Follow-Up Automation | `/contact-form-lead-follow-up-automation` | Workflow / web-form recovery page | Live |
 | Contact Form Autoresponder vs. Full Lead Follow-Up | `/contact-form-autoresponder-vs-full-lead-follow-up` | Website-lead decision page | Live |
@@ -145,19 +146,19 @@ Last updated: 2026-04-22 (shipped ai-appointment-setter-setup-vs-diy-small-busin
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 126**
+**Total decision/comparison/industry pages live: 127**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-appointment-setter-setup-vs-diy-small-business` extracted another exact buyer-decision query that was still sitting inside the live AI appointment setter setup cluster. The next pass should first check whether the live voice-agent setup cluster still supports the same buy-vs-build pattern before falling all the way back to maintenance-only work.
+Shipping `/ai-voice-agent-setup-vs-diy-small-business` extracted the last clean hire-vs-DIY query still sitting inside the strongest live setup-help clusters. The next pass should reopen broader planning docs for another proof-backed net-new page; if nothing survives fresh reconciliation cleanly, the honest fallback is maintenance on the strongest live voice-agent / appointment-setter / GoHighLevel clusters instead of forcing a thin new page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | `/ai-voice-agent-setup-vs-diy-small-business` | Should I hire someone to set up an AI voice agent or do it myself? | The exact hire-vs-DIY query is still tracked under the live `/ai-voice-agent-setup-for-lead-qualification` page and remains distinct from the existing setup, cost, ROI, and manual-callback pages. | **Next best candidate** |
-| 2 | **Fallback** | Strengthen strongest live appointment-setter / voice-agent / GoHighLevel clusters | Discovery, internal links, and tracked-prompt cleanup | If the voice-agent setup decision no longer survives fresh reconciliation cleanly, the safest fallback is still maintenance on the strongest live workflow clusters instead of forcing a thin new page. | **Watch next** |
+| 1 | **Fallback** | Reconcile broader planning docs for the next proof-backed net-new page outside the exhausted setup buy-vs-build cluster | Next distinct buyer-intent page not yet live | The clean setup buy-vs-build extractions are now exhausted across the strongest live voice-agent / appointment-setter / GoHighLevel clusters, so the next ship should come from broader plan reconciliation instead of forcing another thin sibling. | **Recheck next run** |
+| 2 | **Fallback** | Strengthen strongest live voice-agent / appointment-setter / GoHighLevel clusters | Discovery, internal links, and tracked-prompt cleanup | If no broader planned page survives fresh reconciliation cleanly, the safest next move is maintenance on the strongest live workflow clusters instead of pretending another exact child page still exists. | **Watch next** |
 
 ### Priority Definitions
 

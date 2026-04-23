@@ -831,9 +831,21 @@
       "prompts": [
         "AI voice agent setup for lead qualification",
         "How do I set up an AI voice agent to qualify inbound leads?",
-        "Should I hire someone to set up an AI voice agent for lead qualification?",
+        "What should an AI voice agent include before it goes live?",
         "How much does AI voice agent setup cost for a small business?",
-        "What should an AI voice agent include before it goes live?"
+        "What are common AI voice agent setup mistakes before launch?"
+      ]
+    },
+    {
+      "id": "ai-voice-agent-setup-vs-diy-small-business",
+      "path": "/ai-voice-agent-setup-vs-diy-small-business",
+      "label": "AI Voice Agent Setup vs. DIY for Small Business",
+      "prompts": [
+        "AI voice agent setup vs DIY for small business",
+        "Should I hire someone to set up an AI voice agent?",
+        "Should I build my voice-agent workflow myself or hire setup help?",
+        "When is DIY voice-agent setup enough for a small business?",
+        "Is expert AI voice-agent setup worth paying for?"
       ]
     },
     {
