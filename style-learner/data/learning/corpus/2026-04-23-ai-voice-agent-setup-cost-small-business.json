@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-ai-voice-agent-setup-cost-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: AI Voice Agent Setup Cost for Small Business\nBody: If you are pricing AI voice-agent setup, the useful question is not just what the software costs. It is how much implementation work the phone workflow actually needs before you can trust it live. A small business that needs one clean qualification flow, one transfer rule set, and clean CRM logging should not buy the same build as a business trying to automate every inbound call type and escalation path on day one. This page stays tightly on setup cost: what small businesses usually pay to scope, build, test, and launch a real voice-agent workflow without confusing implementation cost with monthly usage cost.\nSub: Below: realistic setup price ranges, what makes voice-agent implementation expensive, when expert setup is worth paying for, and how this differs from the broader AI voice-agent cost page.\n\n### Core sections\n- Extracts the exact tracked cost query from the live `/ai-voice-agent-setup-for-lead-qualification` page into its own narrower pricing child instead of leaving the budgeting decision buried inside the broader setup-help guide.\n- Keeps the frame tightly on implementation cost: call-flow design, qualification logic, transfer rules, CRM handoff, testing, launch protection, and clear separation between setup cost and monthly running cost.\n- Stays materially distinct from the already-live `/ai-voice-agent-cost-small-business` page by focusing on setup-help economics inside the setup cluster rather than broader total-program voice-agent economics.\n- Uses only honest proof adjacency: the Paris Cafe voice-agent case study plus the live voice-agent qualification and setup-help guides already on the site.\n\n### FAQ\nSubhead: Practical answers for owners budgeting a real voice-agent implementation instead of just pricing software\nTopics: what AI voice-agent setup usually costs, how this differs from the broader voice-agent cost page, what makes setup expensive, when expert setup is worth paying for, and why setup cost should be separated from monthly usage cost.\n\n### Final CTA\nHeading: Want a realistic setup quote for a voice-agent workflow?\nBody: Book a 30-minute call. We will look at your call pattern, what the agent should actually handle, where human transfer boundaries should sit, and what a focused setup project would realistically cost before you commit to a bigger build.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the broader queue was stale, but the live voice-agent setup cluster still held one exact tracked economic child query: setup cost for a small business."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays distinct from the broader AI voice-agent cost guide by isolating the implementation-pricing decision itself."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays disciplined: Paris Cafe for direct phone-handling proof plus the existing voice-agent qualification and setup-help guides for adjacent workflow proof."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype with explicit guardrails against overbuying and against confusing software pricing with production setup cost."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T23:07:31.167Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 27.5,
+      "sentenceLengthRange": [
+        5,
+        54
+      ],
+      "totalWords": 358
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Voice Agent Setup Cost for Small Business\nBody: If you are pricing AI voice-agent setup, the useful question is not just what the software costs.",
+      "wordCount": 28,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a realistic setup quote for a voice-agent workflow?\nBody: Book a 30-minute call. We will look at your call pattern, what the agent should actually handle, where human transfer boundaries should sit, and what a focused setup project would realistically cost before you commit to a bigger build.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 12,
+      "commas": 22,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 11,
+      "commasPerSentence": 1.69
+    },
+    "vocabulary": {
+      "distinctWords": 187,
+      "totalWords": 358,
+      "topWords": [
+        [
+          "setup",
+          13
+        ],
+        [
+          "cost",
+          13
+        ],
+        [
+          "voice-agent",
+          11
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "implementation",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "from",
+          5
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "broader",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "small",
+          3
+        ],
+        [
+          "business",
+          3
+        ],
+        [
+          "pricing",
+          3
+        ],
+        [
+          "how",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

@@ -518,6 +518,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Voice Agent Setup Cost for Small Business",
+    description:
+      "What should a small business actually budget for voice-agent setup help? Practical pricing guide for call-flow design, transfer rules, CRM handoff, testing, and the narrowest production setup worth paying for first.",
+    href: "/ai-voice-agent-setup-cost-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Voice Agent Setup Mistakes for Small Business",
     description:
       "Pre-launch guide to the voice-agent setup mistakes that usually create bad caller experience, weak transfer behavior, messy CRM handoff, and expensive rescue work later.",

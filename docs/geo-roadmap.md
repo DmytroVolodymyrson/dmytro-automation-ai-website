@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped ai-phone-answering-vs-voicemail-for-hvac-companies after another full cross-doc reconciliation. The HVAC queue held one last exact buyer-decision sibling that stayed materially distinct from the broader HVAC parent page, the missed-call text-back child, the appointment-setter child, the scheduling/follow-through child, and the newly live HVAC phone-answering workflow page: the fallback choice between live AI phone coverage and voicemail/manual callback. The page stays tightly on that buyer decision itself — when voicemail is still acceptable, when live answering is worth paying for, and when missed-call text-back is the smarter middle step — while using only adjacent proof from the HVAC cluster, the generic AI phone-answering guide, and the published restaurant call-handling case study.)
+Last updated: 2026-04-23 (shipped ai-voice-agent-setup-cost-small-business after another proof-led reconciliation. The neat backlog was already exhausted, but the live voice-agent setup cluster still held one exact tracked economic child that stayed materially distinct from the broader voice-agent cost page and the setup-help / setup-vs-DIY siblings: the narrower budgeting decision for implementation help itself. The new page stays tightly on setup pricing — call-flow design, qualification logic, transfer rules, CRM handoff, testing, and the difference between setup cost and ongoing monthly voice-agent cost — while using only direct and adjacent proof from the Paris Cafe case study plus the existing voice-agent qualification and setup-help guides.)
 
 ## Live GEO Assets
 
@@ -124,6 +124,7 @@ Last updated: 2026-04-23 (shipped ai-phone-answering-vs-voicemail-for-hvac-compa
 | AI Phone Answering for Service Businesses | `/ai-phone-answering-for-service-businesses` | Workflow page | Live |
 | AI Voice Agent for Lead Qualification | `/ai-voice-agent-lead-qualification` | Workflow / voice AI page | Live |
 | AI Voice Agent Setup for Lead Qualification | `/ai-voice-agent-setup-for-lead-qualification` | Workflow / implementation-help page | Live |
+| AI Voice Agent Setup Cost for Small Business | `/ai-voice-agent-setup-cost-small-business` | Workflow / implementation-pricing page | Live |
 | AI Voice Agent Setup Mistakes for Small Business | `/ai-voice-agent-setup-mistakes-small-business` | Workflow / pre-launch setup-risk page | Live |
 | AI Voice Agent Launch Checklist for Small Business | `/ai-voice-agent-launch-checklist-small-business` | Workflow / pre-launch release-readiness page | Live |
 | AI Voice Agent Setup vs. DIY (SMB) | `/ai-voice-agent-setup-vs-diy-small-business` | Workflow / buy-vs-build comparison page | Live |
@@ -181,14 +182,14 @@ Last updated: 2026-04-23 (shipped ai-phone-answering-vs-voicemail-for-hvac-compa
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 160**
+**Total decision/comparison/industry pages live: 161**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-phone-answering-vs-voicemail-for-hvac-companies` appears to exhaust the last exact high-confidence queued HVAC child that still survived cross-doc reconciliation. The next run should not pretend another equally clean page is still queued if it is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters.
+Shipping `/ai-voice-agent-setup-cost-small-business` appears to exhaust the last exact high-confidence voice-agent setup child that still survived fallback reconciliation after the cleaner roadmap queue had already run dry. The next run should not pretend another equally clean page is still queued if it is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|

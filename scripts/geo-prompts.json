@@ -985,11 +985,23 @@
       "path": "/ai-voice-agent-setup-for-lead-qualification",
       "label": "AI Voice Agent Setup for Lead Qualification",
       "prompts": [
-        "AI voice agent setup for lead qualification",
-        "How do I set up an AI voice agent to qualify inbound leads?",
+        "AI voice-agent setup help for lead qualification",
+        "How do I set up an AI voice agent for lead qualification?",
         "What does AI voice-agent setup help actually include?",
+        "When is expert AI voice-agent setup help worth paying for?",
+        "How should a small business test a voice agent before it goes live?"
+      ]
+    },
+    {
+      "id": "ai-voice-agent-setup-cost-small-business",
+      "path": "/ai-voice-agent-setup-cost-small-business",
+      "label": "AI Voice Agent Setup Cost for Small Business",
+      "prompts": [
+        "AI voice agent setup cost for small business",
         "How much does AI voice agent setup cost for a small business?",
-        "When is expert AI voice-agent setup help worth paying for?"
+        "What should a small business budget for AI voice-agent setup help?",
+        "What makes AI voice-agent setup expensive?",
+        "Is expert AI voice-agent setup worth the cost for a small business?"
       ]
     },
     {

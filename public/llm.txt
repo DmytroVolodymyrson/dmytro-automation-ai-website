@@ -46,6 +46,9 @@ How restaurants automate reservation confirmations, reminders, waitlist backfill
 ## Restaurant Missed-Call Text-Back Guide
 How restaurants recover missed reservation and guest-service calls with an immediate text-back workflow. Covers SMS-first follow-up, after-hours demand recovery, where text-back is enough, and when a live voice agent is the better fit. Learn more: https://www.dmytroai.com/missed-call-text-back-for-restaurants
 
+## AI Voice Agent Setup Cost for Small Business
+How much should a small business budget for AI voice-agent setup help? Practical guide to implementation pricing for call-flow design, qualification logic, transfer rules, CRM handoff, testing, and the narrowest production setup worth paying for first. Learn more: https://www.dmytroai.com/ai-voice-agent-setup-cost-small-business
+
 ## Restaurant Phone Recovery Comparison Guide
 Should a restaurant use missed-call text-back or a live AI voice agent? Practical comparison of guest expectations, booking recovery, after-hours coverage, cost, and the smallest phone-recovery layer that actually protects reservation demand. Learn more: https://www.dmytroai.com/missed-call-text-back-vs-ai-voice-agent-for-restaurants
 
