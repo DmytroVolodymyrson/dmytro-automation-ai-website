@@ -441,6 +441,18 @@
       ]
     },
     {
+      "id": "ai-lead-follow-up-for-insurance-agencies",
+      "path": "/ai-lead-follow-up-for-insurance-agencies",
+      "label": "AI Lead Follow-Up for Insurance Agencies",
+      "prompts": [
+        "AI lead follow-up for insurance agencies",
+        "How can insurance agencies automate lead follow-up before quotes are sent?",
+        "Best way to respond faster to inbound insurance quote requests",
+        "How should an insurance agency automate early-funnel lead nurture without sounding robotic?",
+        "Insurance lead follow-up workflow for independent agencies"
+      ]
+    },
+    {
       "id": "renewal-reminder-automation-for-insurance-agencies",
       "path": "/renewal-reminder-automation-for-insurance-agencies",
       "label": "Renewal Reminder Automation for Insurance Agencies",

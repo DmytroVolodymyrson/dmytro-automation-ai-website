@@ -62,6 +62,7 @@ import N8nAutomationExamplesSmallBusiness from "./pages/N8nAutomationExamplesSma
 import N8nAutomationConsultant from "./pages/N8nAutomationConsultant";
 import AiEmailSequenceAutomation from "./pages/AiEmailSequenceAutomation";
 import AiAutomationForInsuranceAgencies from "./pages/AiAutomationForInsuranceAgencies";
+import AiLeadFollowUpForInsuranceAgencies from "./pages/AiLeadFollowUpForInsuranceAgencies";
 import RenewalReminderAutomationForInsuranceAgencies from "./pages/RenewalReminderAutomationForInsuranceAgencies";
 import QuoteFollowUpAutomationForInsuranceAgencies from "./pages/QuoteFollowUpAutomationForInsuranceAgencies";
 import CrossSellAutomationForInsuranceAgencies from "./pages/CrossSellAutomationForInsuranceAgencies";
@@ -206,6 +207,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/n8n-automation-consultant", element: <N8nAutomationConsultant /> },
   { path: "/ai-email-sequence-automation", element: <AiEmailSequenceAutomation /> },
   { path: "/ai-automation-for-insurance-agencies", element: <AiAutomationForInsuranceAgencies /> },
+  { path: "/ai-lead-follow-up-for-insurance-agencies", element: <AiLeadFollowUpForInsuranceAgencies /> },
   { path: "/renewal-reminder-automation-for-insurance-agencies", element: <RenewalReminderAutomationForInsuranceAgencies /> },
   { path: "/quote-follow-up-automation-for-insurance-agencies", element: <QuoteFollowUpAutomationForInsuranceAgencies /> },
   { path: "/cross-sell-automation-for-insurance-agencies", element: <CrossSellAutomationForInsuranceAgencies /> },

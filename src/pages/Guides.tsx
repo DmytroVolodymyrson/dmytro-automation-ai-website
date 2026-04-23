@@ -624,6 +624,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Lead Follow-Up for Insurance Agencies",
+    description:
+      "A narrower insurance early-funnel page focused on first-response speed, intake qualification, after-hours lead capture, and producer handoff before inbound quote requests go cold.",
+    href: "/ai-lead-follow-up-for-insurance-agencies",
+    category: "industries",
+  },
+  {
     title: "Renewal Reminder Automation for Insurance Agencies",
     description:
       "A narrower insurance-retention page focused on recurring-policy reminders, escalation timing, producer handoff, and the operational discipline needed to keep more renewals from quietly slipping.",

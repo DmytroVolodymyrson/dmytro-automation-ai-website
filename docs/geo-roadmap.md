@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped ai-automation-time-savings-small-business and added it to tracking)
+Last updated: 2026-04-22 (shipped ai-lead-follow-up-for-insurance-agencies and added it to tracking)
 
 ## Live GEO Assets
 
@@ -69,6 +69,7 @@ Last updated: 2026-04-22 (shipped ai-automation-time-savings-small-business and 
 | n8n Automation Examples (SMB) | `/n8n-automation-examples-small-business` | Authority page | Live |
 | AI Email Sequence Automation | `/ai-email-sequence-automation` | Workflow page | Live |
 | AI Automation for Insurance Agencies | `/ai-automation-for-insurance-agencies` | Industry page | Live |
+| AI Lead Follow-Up for Insurance Agencies | `/ai-lead-follow-up-for-insurance-agencies` | Industry workflow page | Live |
 | Renewal Reminder Automation for Insurance Agencies | `/renewal-reminder-automation-for-insurance-agencies` | Industry workflow page | Live |
 | Quote Follow-Up Automation for Insurance Agencies | `/quote-follow-up-automation-for-insurance-agencies` | Industry workflow page | Live |
 | Cross-Sell Automation for Insurance Agencies | `/cross-sell-automation-for-insurance-agencies` | Industry workflow page | Live |
@@ -128,19 +129,19 @@ Last updated: 2026-04-22 (shipped ai-automation-time-savings-small-business and 
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 109**
+**Total decision/comparison/industry pages live: 110**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-The explicit cross-doc backlog is still effectively exhausted, but one more explicit GEO-PLAN query survived reconciliation and is now live. `/ai-automation-time-savings-small-business` qualified because GEO-PLAN still contained the exact unshipped time-savings query, the site already had adjacent proof for reclaimed admin/ops time (especially Paris Café and the CRM/lead-pipeline case studies), and the page stays distinct from the existing ROI/cost/process-selection cluster by focusing on reclaimed capacity rather than payback math or workflow selection. After this ship, the queue returns to an honest fallback/watchlist state unless another tracked prompt survives overlap review with equally clear proof adjacency.
+The explicit cross-doc backlog stayed effectively exhausted, but one tracked parent-page prompt still survived overlap review and is now live. `/ai-lead-follow-up-for-insurance-agencies` qualified because the insurance parent page and tracking prompts still contained a distinct early-funnel lead-follow-up intent, the existing insurance child set was still quote / renewal / cross-sell rather than first-response speed, and the site already had adjacent proof from lead-follow-up + CRM automation pages without pretending there was an insurance-specific published case study. After this ship, there is no cleaner explicit page candidate left in the current planning set, so the queue returns to an honest fallback/watchlist state.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | appointment setter + voice + e-commerce + property management discovery and internal links | The clean planned backlog is now exhausted again. Default back to discovery-surface and internal-link improvement on the strongest live clusters unless a truly distinct proof-led page survives review. | **Fallback** |
-| 2 | **Watchlist** | `AI Lead Follow-Up for Insurance Agencies` if overlap review stays clean | insurance-agency lead follow-up / producer routing / early-funnel nurture | Parent tracking prompts still contain the earlier-funnel lead-follow-up intent, and the current insurance child set is still quote / renewal / cross-sell. Only promote if the page stays clearly distinct from quote-stage follow-up. | **Watchlist** |
+| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | appointment setter + voice + e-commerce + property management discovery and internal links | After shipping the insurance lead-follow-up child, the clean planned backlog is exhausted again. Default back to discovery-surface and internal-link improvement on the strongest live clusters unless a truly distinct proof-led page survives review. | **Fallback** |
+| 2 | **Watchlist** | No remaining explicit high-confidence net-new page currently survives reconciliation | avoid cannibalization / thin-content filler | Keep the program honest. Do another cross-doc + tracked-prompt sweep next run, but do not invent a page just to keep the streak going. | **Watchlist** |
 | 3 | **Deferred** | Hold weaker adjacent-intent ideas until direct proof improves | avoid cannibalization / thin content | This keeps the GEO program honest now that the clean planned queue is gone. | **Deferred** |
 
 ### Priority Definitions

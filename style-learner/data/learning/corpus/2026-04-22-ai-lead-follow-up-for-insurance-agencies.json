@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-ai-lead-follow-up-for-insurance-agencies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Lead Follow-Up for Insurance Agencies\nBody: Insurance agencies do not only lose business after the quote goes out. They lose it earlier — when a prospect asks for a quote, fills out a form, calls after hours, or gets referred by a partner and then hears almost nothing back until another agency has already started the conversation. AI lead follow-up for insurance agencies fixes that earlier-funnel response problem. It answers fast, keeps new inquiries moving, asks the next practical qualifying question, and routes serious buyers to a producer before the opportunity dies in the CRM or never becomes a quote at all.\nSub: Below: what insurance lead-follow-up automation actually handles, how it stays distinct from quote follow-up and renewal workflows, what guardrails matter, and what adjacent proof supports the page without pretending there is a published insurance-specific lead-follow-up case study.\n\n### Core sections\n- What insurance lead-follow-up automation actually handles\n- Insurance lead follow-up vs. quote follow-up vs. renewal workflows\n- Important guardrails for insurance lead-follow-up workflows\n- How a practical insurance lead-follow-up system usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about automating insurance lead follow-up\n\n### Final CTA\nHeading: Want more insurance inquiries to turn into real quote conversations?\nBody: Book a 30-minute call. We will look at how your agency handles fresh inbound leads today, where response speed breaks down, and whether a focused lead-follow-up workflow is the highest-leverage automation to build before anything broader.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Narrow child page under the insurance cluster; intentionally focused on the pre-quote / first-response stage rather than quote-expiration or renewal retention."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses adjacent proof from the insurance parent page plus service-business lead-follow-up and CRM automation patterns instead of implying a published insurance-specific case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the tone practical and operator-oriented: response speed, qualification, source routing, after-hours capture, and producer handoff."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Interlinks back to the parent insurance page, the generic lead-follow-up page, and the insurance quote-follow-up child page."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T00:51:56.918Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "avgSentenceLength": 20.2,
+      "sentenceLengthRange": [
+        3,
+        38
+      ],
+      "totalWords": 242
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Lead Follow-Up for Insurance Agencies\nBody: Insurance agencies do not only lose business after the quote goes out.",
+      "wordCount": 21,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want more insurance inquiries to turn into real quote conversations?\nBody: Book a 30-minute call. We will look at how your agency handles fresh inbound leads today, where response speed breaks down, and whether a focused lead-follow-up workflow is the highest-leverage automation to build before anything broader.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 11,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 7,
+      "commasPerSentence": 1.1
+    },
+    "vocabulary": {
+      "distinctWords": 148,
+      "totalWords": 242,
+      "topWords": [
+        [
+          "insurance",
+          10
+        ],
+        [
+          "follow-up",
+          6
+        ],
+        [
+          "quote",
+          6
+        ],
+        [
+          "lead-follow-up",
+          6
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "lead",
+          4
+        ],
+        [
+          "agencies",
+          3
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "practical",
+          3
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "handles",
+          3
+        ],
+        [
+          "how",
+          3
+        ],
+        [
+          "workflows",
+          3
+        ],
+        [
+          "heading",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

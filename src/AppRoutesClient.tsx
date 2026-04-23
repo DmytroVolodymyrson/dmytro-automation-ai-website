@@ -63,6 +63,7 @@ const N8nAutomationExamplesSmallBusiness = lazy(() => import("./pages/N8nAutomat
 const N8nAutomationConsultant = lazy(() => import("./pages/N8nAutomationConsultant"));
 const AiEmailSequenceAutomation = lazy(() => import("./pages/AiEmailSequenceAutomation"));
 const AiAutomationForInsuranceAgencies = lazy(() => import("./pages/AiAutomationForInsuranceAgencies"));
+const AiLeadFollowUpForInsuranceAgencies = lazy(() => import("./pages/AiLeadFollowUpForInsuranceAgencies"));
 const RenewalReminderAutomationForInsuranceAgencies = lazy(() => import("./pages/RenewalReminderAutomationForInsuranceAgencies"));
 const QuoteFollowUpAutomationForInsuranceAgencies = lazy(() => import("./pages/QuoteFollowUpAutomationForInsuranceAgencies"));
 const CrossSellAutomationForInsuranceAgencies = lazy(() => import("./pages/CrossSellAutomationForInsuranceAgencies"));
@@ -187,6 +188,7 @@ const AppRoutesClient = () => (
       <Route path="/n8n-automation-consultant" element={<N8nAutomationConsultant />} />
       <Route path="/ai-email-sequence-automation" element={<AiEmailSequenceAutomation />} />
       <Route path="/ai-automation-for-insurance-agencies" element={<AiAutomationForInsuranceAgencies />} />
+      <Route path="/ai-lead-follow-up-for-insurance-agencies" element={<AiLeadFollowUpForInsuranceAgencies />} />
       <Route path="/renewal-reminder-automation-for-insurance-agencies" element={<RenewalReminderAutomationForInsuranceAgencies />} />
       <Route path="/quote-follow-up-automation-for-insurance-agencies" element={<QuoteFollowUpAutomationForInsuranceAgencies />} />
       <Route path="/cross-sell-automation-for-insurance-agencies" element={<CrossSellAutomationForInsuranceAgencies />} />

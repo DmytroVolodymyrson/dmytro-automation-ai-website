@@ -61,6 +61,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - `/document-collection-automation-for-mortgage-brokers`
 - `/incomplete-application-follow-up-for-mortgage-brokers`
 - `/ai-automation-for-insurance-agencies`
+- `/ai-lead-follow-up-for-insurance-agencies`
 - `/renewal-reminder-automation-for-insurance-agencies`
 - `/quote-follow-up-automation-for-insurance-agencies`
 - `/cross-sell-automation-for-insurance-agencies`
