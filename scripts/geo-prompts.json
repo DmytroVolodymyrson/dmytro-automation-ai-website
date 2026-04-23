@@ -376,8 +376,20 @@
         "n8n automation consultant",
         "best n8n consultant for small business",
         "hire n8n expert for small business",
-        "Should I hire an n8n consultant or build it myself?",
+        "What should I look for in an n8n automation consultant?",
         "What does an n8n automation consultant cost?"
+      ]
+    },
+    {
+      "id": "n8n-consultant-vs-diy-small-business",
+      "path": "/n8n-consultant-vs-diy-small-business",
+      "label": "n8n Consultant vs. DIY for Small Business",
+      "prompts": [
+        "Should I hire an n8n consultant or build it myself?",
+        "n8n consultant vs DIY for small business",
+        "Can I build n8n automations myself or should I hire an expert?",
+        "When is it worth hiring an n8n consultant instead of learning n8n?",
+        "Is DIY n8n enough for a revenue-critical workflow?"
       ]
     },
     {

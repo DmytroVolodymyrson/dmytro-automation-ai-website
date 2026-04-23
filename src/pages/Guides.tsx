@@ -371,6 +371,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "n8n Consultant vs. DIY for Small Business",
+    description:
+      "Should you keep building in n8n yourself or hire expert help? Practical comparison of owner time, workflow risk, self-hosting overhead, and when a bounded consultant build is the cheaper move.",
+    href: "/n8n-consultant-vs-diy-small-business",
+    category: "comparisons",
+  },
+  {
     title: "AI Email Sequence Automation",
     description:
       "How AI email sequence automation works for small businesses. Automated follow-up, lead nurture, re-engagement campaigns, and personalized outreach.",

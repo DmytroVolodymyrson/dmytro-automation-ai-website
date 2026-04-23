@@ -64,6 +64,7 @@ import AiAutomationRoiGuide from "./pages/AiAutomationRoiGuide";
 import AiAutomationRoiCalculator from "./pages/AiAutomationRoiCalculator";
 import N8nAutomationExamplesSmallBusiness from "./pages/N8nAutomationExamplesSmallBusiness";
 import N8nAutomationConsultant from "./pages/N8nAutomationConsultant";
+import N8nConsultantVsDiySmallBusiness from "./pages/N8nConsultantVsDiySmallBusiness";
 import AiEmailSequenceAutomation from "./pages/AiEmailSequenceAutomation";
 import AiAutomationForInsuranceAgencies from "./pages/AiAutomationForInsuranceAgencies";
 import AiLeadFollowUpForInsuranceAgencies from "./pages/AiLeadFollowUpForInsuranceAgencies";
@@ -224,6 +225,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-roi-calculator", element: <AiAutomationRoiCalculator /> },
   { path: "/n8n-automation-examples-small-business", element: <N8nAutomationExamplesSmallBusiness /> },
   { path: "/n8n-automation-consultant", element: <N8nAutomationConsultant /> },
+  { path: "/n8n-consultant-vs-diy-small-business", element: <N8nConsultantVsDiySmallBusiness /> },
   { path: "/ai-email-sequence-automation", element: <AiEmailSequenceAutomation /> },
   { path: "/ai-automation-for-insurance-agencies", element: <AiAutomationForInsuranceAgencies /> },
   { path: "/ai-lead-follow-up-for-insurance-agencies", element: <AiLeadFollowUpForInsuranceAgencies /> },

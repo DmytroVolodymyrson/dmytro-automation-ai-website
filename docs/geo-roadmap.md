@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped after-hours-phone-answering-for-restaurants by extracting the exact after-hours phone-coverage buyer query already tracked under the live restaurant automation cluster into a dedicated overnight-call-coverage page anchored in the published Paris Cafe after-hours phone proof plus the adjacent restaurant voice-agent and missed-call recovery guides)
+Last updated: 2026-04-22 (shipped n8n-consultant-vs-diy-small-business by extracting the exact tool-specific buy-vs-build query already tracked under the live /n8n-automation-consultant cluster into a dedicated decision page anchored in the existing n8n consultant guide plus direct and adjacent workflow proof from the Instagram lead-generation and e-commerce CRM case studies)
 
 ## Live GEO Assets
 
@@ -89,6 +89,7 @@ Last updated: 2026-04-22 (shipped after-hours-phone-answering-for-restaurants by
 | E-Commerce CRM Automation with AI Follow-Up | `/ecommerce-crm-automation-with-ai-follow-up` | Industry workflow page | Live |
 | E-Commerce CRM Automation vs. Manual Follow-Up | `/ecommerce-crm-automation-vs-manual-follow-up` | Industry decision page | Live |
 | n8n Automation Consultant for Small Business | `/n8n-automation-consultant` | Decision / service page | Live |
+| n8n Consultant vs. DIY for Small Business | `/n8n-consultant-vs-diy-small-business` | n8n buy-vs-build decision page | Live |
 | Fitment Inquiry Automation for Auto Parts E-Commerce | `/fitment-inquiry-automation-for-auto-parts-ecommerce` | Industry workflow page | Live |
 | Repeat-Purchase & Reactivation Automation for E-Commerce Brands | `/repeat-purchase-reactivation-automation-for-ecommerce-brands` | Industry lifecycle page | Live |
 | Customer Service Automation for E-Commerce Brands | `/customer-service-automation-for-ecommerce-brands` | Industry support workflow page | Live |
@@ -141,19 +142,19 @@ Last updated: 2026-04-22 (shipped after-hours-phone-answering-for-restaurants by
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 122**
+**Total decision/comparison/industry pages live: 123**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/after-hours-phone-answering-for-restaurants` proved there was still at least one clean proof-backed child page left inside the tracked prompts: the exact after-hours restaurant phone-coverage query that had been sitting under the broader restaurant automation parent. That buyer decision is now isolated on its own page instead of being buried under the parent cluster. The queue is still late-backlog and should stay skeptical, but it is no longer honest to say there are zero viable child-page candidates left.
+Shipping `/n8n-consultant-vs-diy-small-business` used the last explicit high-confidence child page that still survived reconciliation across the roadmap and the tracked prompt set. The immediate next pass should default to a strict maintenance/discovery audit unless a fresh planned query survives review across the broader planning docs and current live routes.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | n8n consultant vs. DIY decision page | Tool-specific implementation-help / hire-vs-build intent | `scripts/geo-prompts.json` still contains the exact buyer query "Should I hire an n8n consultant or build it myself?" inside the live `/n8n-automation-consultant` cluster. If it can stay distinct from the broader n8n hiring guide, it is the next clean proof-adjacent child-page candidate. | **Watch next** |
-| 2 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives fresh reconciliation | Restaurant + voice-agent + n8n discovery and internal links | If the n8n DIY-vs-hire query does not survive a strict distinctness review, the safest next move is discovery-surface tightening and internal-link strengthening on the strongest live clusters instead of forcing another thin page. | **Fallback** |
+| 1 | **Fallback** | Strengthen strongest live n8n / voice-agent clusters | Discovery, internal links, and tracked-prompt cleanup | With the extracted n8n DIY-vs-hire query now shipped, the safest next move is to tighten discovery surfaces and internal links on the strongest live clusters instead of forcing a thin new page. | **Watch next** |
+| 2 | **Watchlist** | Recheck broader planning docs for a still-distinct proof-backed child query | Late-backlog candidate discovery | Only ship another new page if a materially different buyer query still survives fresh reconciliation across `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, and `scripts/geo-prompts.json`. | **Only if distinct** |
 
 ### Priority Definitions
 

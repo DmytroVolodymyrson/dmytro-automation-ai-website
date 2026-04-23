@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-n8n-consultant-vs-diy-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Hire an n8n Consultant or Build It Yourself?\nBody: If the workflow is simple, low-risk, and you actually want to learn n8n, doing it yourself can make sense. If the automation touches real leads, appointments, CRM ownership, or customer handoff, hiring an n8n consultant is usually the cheaper decision once you count debugging time, silent failures, and rollout delay. The real question is not whether DIY is possible. It is whether this specific workflow is important enough that you want it live, stable, and trusted without spending nights learning hosting, retries, branching logic, and edge-case cleanup.\nSub: Below: where DIY in n8n is still a smart move, where expert help pays for itself, what each path really costs, and how to tell whether you need a tutorial, a narrow consultant build, or no automation yet.\n\n### Core sections\n- Frames the page as a narrow buy-vs-build decision for owners who already think n8n is probably the right platform.\n- Compares DIY and consultant help on cost, time-to-value, workflow risk, and what “success” should actually look like after launch.\n- Uses explicit good-fit / bad-fit filtering so the page does not push consulting help where a simple DIY workflow or prototype is still enough.\n- Explains where small-business n8n DIY usually breaks down: edge cases, self-hosting and credentials, and owner context switching.\n- Uses adjacent proof from the existing n8n consultant guide plus direct / adjacent case-study support from the Instagram lead-generation and e-commerce CRM projects.\n\n### FAQ\nSubhead: Practical questions from owners deciding whether to keep building in n8n themselves or bring in expert help\nTopics: when DIY is still sensible, when to hire an n8n consultant, realistic pricing, how this page differs from the broader n8n consultant page, and whether prototype-first then consultant-hardening is a smart path.\n\n### Final CTA\nHeading: Want a clear answer on whether this workflow is worth DIYing?\nBody: Book a 30-minute call. We will look at the workflow you want to automate, the real cost of delay and debugging, and whether the smartest next step is a DIY prototype, a bounded consultant-led build, or no automation yet.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because `docs/geo-roadmap.md` and `scripts/geo-prompts.json` still contained the exact extracted buyer query “Should I hire an n8n consultant or build it myself?” under the live `/n8n-automation-consultant` cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps a disciplined distinction from both `/n8n-automation-consultant` and the broader `/hire-ai-automation-consultant-vs-diy` page by staying tightly on the tool-specific n8n buy-vs-build decision."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: no invented new vertical proof, only existing n8n and workflow-reliability case-study adjacency already published on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical, commercially specific, and non-hype with explicit bad-fit framing."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T04:31:28.779Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        5,
+        1,
+        3
+      ],
+      "avgSentenceLength": 23.3,
+      "sentenceLengthRange": [
+        5,
+        52
+      ],
+      "totalWords": 350
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nHeading: Hire an n8n Consultant or Build It Yourself?",
+      "wordCount": 10,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a clear answer on whether this workflow is worth DIYing?\nBody: Book a 30-minute call. We will look at the workflow you want to automate, the real cost of delay and debugging, and whether the smartest next step is a DIY prototype, a bounded consultant-led build, or no automation yet.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 13,
+      "commas": 32,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 9,
+      "commasPerSentence": 2.13
+    },
+    "vocabulary": {
+      "distinctWords": 193,
+      "totalWords": 350,
+      "topWords": [
+        [
+          "n8n",
+          10
+        ],
+        [
+          "consultant",
+          7
+        ],
+        [
+          "whether",
+          7
+        ],
+        [
+          "diy",
+          7
+        ],
+        [
+          "workflow",
+          6
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "want",
+          4
+        ],
+        [
+          "where",
+          4
+        ],
+        [
+          "help",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "build",
+          3
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "real",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
