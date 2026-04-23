@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-emergency-vs-routine-maintenance-intake-for-property-management-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Emergency vs. Routine Maintenance Intake for Property Management Companies\nBody: Property management teams usually do not need more ways for residents to report maintenance issues. They need a cleaner decision layer for what happens next. The real operational problem is not intake by itself. It is what happens when leaks, lockouts, no-heat complaints, appliance issues, parking-gate problems, and vague overnight messages all land in the same channel with no clear line between emergency and routine work. A focused emergency-vs-routine maintenance intake workflow solves that decision problem: acknowledge the issue fast, gather the minimum useful detail, separate true emergencies from next-day repairs using explicit rules, and route the right situations to the right human without waking up the whole team for routine noise.\nSub: Below: when this deserves its own workflow instead of living as one section on the broader maintenance page, how it differs from the after-hours maintenance triage page, what guardrails matter, and what adjacent proof honestly supports it.\n\n### Core sections\n- What this decision page is actually about\n- How this differs from adjacent property-management pages\n- Guardrails matter more than cleverness here\n- A practical decision framework for emergency vs. routine intake\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about separating emergency and routine maintenance intake\n\n### Final CTA\nHeading: Need maintenance intake to stop turning every issue into a fire drill?\nBody: Book a 30-minute call. We will look at how maintenance issues reach your team today, where the emergency-vs-routine line keeps breaking down, and whether a focused intake-decision workflow is the highest-leverage fix before broader maintenance automation work.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Extracts an exact tracked buyer-decision query that was previously buried inside the broader maintenance-request page, so the child page is justified by real search intent rather than invented filler."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the frame tightly on the classification decision itself — what deserves immediate escalation versus a next-day queue — so it does not collapse back into either the broader maintenance workflow page or the overnight triage page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses adjacent property-management workflow pages as proof instead of pretending there is a direct property-management maintenance case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the tone operational and risk-aware: explicit escalation rules, resident acknowledgement, on-call protection, and morning-queue hygiene instead of proptech hype."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T16:55:01.029Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 20.5,
+      "sentenceLengthRange": [
+        4,
+        46
+      ],
+      "totalWords": 267
+    },
+    "opener": {
+      "type": "short-punch",
+      "text": "### Hero\nHeading: Emergency vs.",
+      "wordCount": 4,
+      "pattern": "short-punch"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need maintenance intake to stop turning every issue into a fire drill?\nBody: Book a 30-minute call. We will look at how maintenance issues reach your team today, where the emergency-vs-routine line keeps breaking down, and whether a focused intake-decision workflow is the highest-leverage fix before broader maintenance automation work.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 13,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.18
+    },
+    "vocabulary": {
+      "distinctWords": 162,
+      "totalWords": 267,
+      "topWords": [
+        [
+          "maintenance",
+          9
+        ],
+        [
+          "intake",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "routine",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "emergency",
+          4
+        ],
+        [
+          "decision",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "need",
+          3
+        ],
+        [
+          "issues",
+          3
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "workflow",
+          3
+        ],
+        [
+          "from",
+          3
+        ],
+        [
+          "how",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.007
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

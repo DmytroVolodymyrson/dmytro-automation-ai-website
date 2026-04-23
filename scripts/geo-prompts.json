@@ -664,7 +664,7 @@
         "Maintenance request automation for property management companies",
         "How do property management companies automate maintenance requests?",
         "Best way to triage tenant maintenance requests after hours",
-        "How should a property management company automate emergency vs routine maintenance intake?",
+        "How do property managers keep maintenance intake organized across phone text email and portal requests?",
         "Can AI automate maintenance request routing and tenant updates for property managers?"
       ]
     },
@@ -702,6 +702,18 @@
         "How should a property management company automate overnight maintenance triage?",
         "Should property managers use AI to separate emergency vs routine maintenance issues at night?",
         "How do property management teams handle after-hours maintenance requests without missing real emergencies?"
+      ]
+    },
+    {
+      "id": "emergency-vs-routine-maintenance-intake-for-property-management-companies",
+      "path": "/emergency-vs-routine-maintenance-intake-for-property-management-companies",
+      "label": "Emergency vs. Routine Maintenance Intake for Property Management Companies",
+      "prompts": [
+        "Emergency vs routine maintenance intake for property management companies",
+        "How should a property management company automate emergency vs routine maintenance intake?",
+        "What maintenance issues should be escalated immediately versus queued for the next business day?",
+        "Should property managers use AI to separate emergency and routine maintenance requests?",
+        "Best way to keep routine maintenance intake from becoming an overnight fire drill for property managers?"
       ]
     },
     {

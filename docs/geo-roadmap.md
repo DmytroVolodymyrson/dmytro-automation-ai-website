@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped ai-phone-answering-for-auto-repair-shops because the nominal property-management extraction was now too close to the just-live after-hours maintenance triage page, while the auto-repair cluster still had a distinct live-phone-coverage page left: what to do when callers need a real answer now and missed-call text-back is no longer enough)
+Last updated: 2026-04-23 (shipped emergency-vs-routine-maintenance-intake-for-property-management-companies because the exact tracked query still survived inside the property-management maintenance cluster, and it could still be kept distinct from the broader maintenance-request page plus the just-live after-hours maintenance triage page by framing it strictly as the buyer decision about what deserves immediate escalation versus a next-day queue)
 
 ## Live GEO Assets
 
@@ -93,6 +93,7 @@ Last updated: 2026-04-23 (shipped ai-phone-answering-for-auto-repair-shops becau
 | Tenant Communication Automation for Property Management Companies | `/tenant-communication-automation-for-property-management-companies` | Industry communication workflow page | Live |
 | After-Hours Tenant Communication for Property Management Companies | `/after-hours-tenant-communication-for-property-management-companies` | Property-management overnight communication workflow page | Live |
 | After-Hours Maintenance Triage for Property Management Companies | `/after-hours-maintenance-triage-for-property-management-companies` | Property-management overnight maintenance triage workflow page | Live |
+| Emergency vs. Routine Maintenance Intake for Property Management Companies | `/emergency-vs-routine-maintenance-intake-for-property-management-companies` | Property-management maintenance-intake decision page | Live |
 | AI Automation for E-Commerce Brands | `/ai-automation-ecommerce` | Industry page | Live |
 | AI Automation for Auto Parts E-Commerce | `/ai-automation-for-auto-parts-ecommerce` | Industry page | Live |
 | E-Commerce CRM Automation with AI Follow-Up | `/ecommerce-crm-automation-with-ai-follow-up` | Industry workflow page | Live |
@@ -164,20 +165,20 @@ Last updated: 2026-04-23 (shipped ai-phone-answering-for-auto-repair-shops becau
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 144**
+**Total decision/comparison/industry pages live: 145**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-phone-answering-for-auto-repair-shops` uses the cleanest distinct page still left after reconciling the broader plans, the live routes, and the just-shipped auto-repair/property-management cluster changes. The next pass should stay aggressive, but it should also be honest about overlap risk: the remaining property-management extraction still exists, yet it now needs a tighter decision-only frame than the just-live after-hours maintenance triage page.
+Shipping `/emergency-vs-routine-maintenance-intake-for-property-management-companies` appears to use the last explicit high-confidence planned child page that still survived reconciliation across the roadmap, broader planning docs, live routes, and tracked prompt set. The exact maintenance-intake decision query is now extracted into its own page and removed from the broader maintenance-request prompt set, so the next pass should stop pretending there is another clean backlog page if there is not.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Watchlist** | Emergency vs. routine maintenance intake for property management companies | How should a property management company automate emergency vs. routine maintenance intake? | The exact tracked query still exists, but the just-live after-hours maintenance triage page already sits close to it. Only ship this if the page stays explicitly on the buyer decision itself — not a rewrite of the broader maintenance-request or after-hours triage pages. | **Next best candidate, but overlap-sensitive** |
-| 2 | **Watchlist** | Improve discovery/internal-link coverage on the strongest live clusters only if no distinct proof-backed page survives reconciliation | Support already-live restaurant, contractor, property-management, insurance, e-commerce, auto-repair, GoHighLevel, and n8n clusters without filler | Use this only if no clean net-new page survives the next proof-and-intent review. | **Fallback only** |
-| 3 | **Watchlist** | Reconcile the property-management prompt cluster before another child extraction | Keep parent and child intent boundaries clean across maintenance-request, after-hours tenant communication, and after-hours maintenance triage pages | If the next run does ship the property-management decision child, move the exact query out of the parent prompt set immediately so the same intent does not stay duplicated. | **Guardrail / prep work** |
+| 1 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, and n8n clusters without filler | Use this if the next reconciliation still finds no clean proof-backed net-new page that is meaningfully distinct. | **Next best candidate if backlog stays exhausted** |
+| 2 | **Watchlist** | Re-run a broad proof-and-intent reconciliation across GEO-PLAN, geo-plan-2026-03, the prompt set, and live routes before inventing another property-management child | Validate whether any exact tracked query still survives as a distinct page rather than defaulting to maintenance by habit | If a new clean candidate appears, it should come from an exact surviving query plus adjacent proof — not from rewording the property-management cluster again. | **Guardrail** |
+| 3 | **Watchlist** | Keep the property-management cluster clean | Preserve the new separation between the broader maintenance page, the overnight triage page, and the maintenance-intake decision page | Avoid reintroducing the same emergency-vs-routine query under multiple entries. | **Done for now; monitor drift only** |
 
 ### Priority Definitions
 

@@ -834,6 +834,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Emergency vs. Routine Maintenance Intake for Property Management Companies",
+    description:
+      "A buyer-decision page for property managers trying to separate true maintenance emergencies from routine repair intake without over-escalating every overnight issue or leaving residents guessing.",
+    href: "/emergency-vs-routine-maintenance-intake-for-property-management-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for E-Commerce Brands",
     description:
       "AI automation for e-commerce brands. CRM organization, lead follow-up, customer service routing, reactivation campaigns, and repeat-purchase workflows.",
