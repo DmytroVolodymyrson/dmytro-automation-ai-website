@@ -427,6 +427,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Contact Form Autoresponder vs. Full Lead Follow-Up",
+    description:
+      "Decision guide for owners asking whether a basic form autoresponder is still enough or whether website leads now need a real workflow with qualification, routing, and short follow-up.",
+    href: "/contact-form-autoresponder-vs-full-lead-follow-up",
+    category: "comparisons",
+  },
+  {
     title: "Quote Follow-Up Automation",
     description:
       "Automated reminders, objection handling, and timed sequences that close more estimates without manual chasing.",

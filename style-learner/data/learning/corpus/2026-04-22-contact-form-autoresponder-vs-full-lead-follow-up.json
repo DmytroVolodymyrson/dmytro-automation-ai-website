@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-22-contact-form-autoresponder-vs-full-lead-follow-up",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-22",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Contact Form Autoresponder vs. Full Lead Follow-Up\nBody: A basic contact-form autoresponder is better than silence, but it is usually not enough to convert good website leads consistently. It acknowledges the submission. It does not create urgency, qualify the lead, route the inquiry to the right owner, or keep the conversation alive if nobody replies right away. A full lead-follow-up workflow does. For most service businesses, the real decision is not whether to automate at all. It is whether a simple thank-you email is still good enough, or whether the cost of slow owner follow-up now justifies a fuller website-lead system.\nSub: Below: what an autoresponder actually solves, where it breaks, when a full workflow becomes the safer move, and what proof supports that decision without pretending every business needs a giant nurture machine.\n\n### Core sections\n- What each option actually does: autoresponder only vs. a real workflow with qualification, routing, and stop-on-reply persistence\n- Autoresponder vs. full website lead-follow-up workflow table\n- Good-fit / not-fit framing for when a simple autoresponder is still enough versus when a fuller workflow is the safer move\n- What a fuller website lead-follow-up workflow should include first\n- Proof and adjacent proof from Paris Café, the Instagram lead pipeline, and the live contact-form / instant-response workflow cluster\n\n### FAQ\nSubhead: Practical questions from business owners deciding whether a generic form autoresponder is still good enough\n\n### Final CTA\nHeading: Want to know if your website leads need more than a basic autoresponder?\nBody: Book a 30-minute call. We will look at your current form flow, response timing, owner handoff, and what happens after submit, then decide whether the right next move is a lightweight fix, a fuller follow-up workflow, or no build yet.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the exact tracked prompt “Contact form autoresponder vs full lead follow-up workflow” was already embedded under the live contact-form cluster in `scripts/geo-prompts.json`, making it a clean proof-backed buyer-decision page rather than filler."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page distinct from /contact-form-lead-follow-up-automation and /instant-lead-response-automation by focusing on the decision itself: whether a basic acknowledgement layer is still enough or whether the business has outgrown it."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof stays disciplined: published Paris Café and Instagram speed-to-lead proof plus adjacent live workflow guides, without pretending there is a dedicated website-form case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and bounded: response speed, ownership, qualification, follow-up persistence, and when a full system would be overkill."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-23T03:30:09.244Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        3,
+        1,
+        3
+      ],
+      "avgSentenceLength": 19.2,
+      "sentenceLengthRange": [
+        4,
+        55
+      ],
+      "totalWords": 288
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Contact Form Autoresponder vs.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to know if your website leads need more than a basic autoresponder?\nBody: Book a 30-minute call. We will look at your current form flow, response timing, owner handoff, and what happens after submit, then decide whether the right next move is a lightweight fix, a fuller follow-up workflow, or no build yet.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 12,
+      "commas": 19,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.46
+    },
+    "vocabulary": {
+      "distinctWords": 159,
+      "totalWords": 288,
+      "topWords": [
+        [
+          "autoresponder",
+          8
+        ],
+        [
+          "workflow",
+          8
+        ],
+        [
+          "it",
+          5
+        ],
+        [
+          "whether",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "full",
+          4
+        ],
+        [
+          "enough",
+          4
+        ],
+        [
+          "website",
+          4
+        ],
+        [
+          "fuller",
+          4
+        ],
+        [
+          "form",
+          3
+        ],
+        [
+          "vs",
+          3
+        ],
+        [
+          "lead",
+          3
+        ],
+        [
+          "follow-up",
+          3
+        ],
+        [
+          "not",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.01
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

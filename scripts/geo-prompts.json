@@ -737,7 +737,19 @@
         "How do I automate contact form lead follow-up?",
         "Best way to respond to website contact form leads faster",
         "How do I stop contact form leads from going cold?",
-        "Contact form autoresponder vs full lead follow-up workflow"
+        "How should a service business follow up with website leads after form submission?"
+      ]
+    },
+    {
+      "id": "contact-form-autoresponder-vs-full-lead-follow-up",
+      "path": "/contact-form-autoresponder-vs-full-lead-follow-up",
+      "label": "Contact Form Autoresponder vs. Full Lead Follow-Up",
+      "prompts": [
+        "Contact form autoresponder vs full lead follow-up workflow",
+        "Is a contact form autoresponder enough for website leads?",
+        "When do website form leads need more than an autoresponder?",
+        "Contact form autoresponder vs full lead follow-up",
+        "What should replace a generic contact form autoresponder?"
       ]
     },
     {

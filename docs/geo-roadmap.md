@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-22 (shipped customer-service-automation-vs-manual-support-for-ecommerce-brands by turning the exact manual-vs-automation support question already embedded under the live e-commerce customer-service cluster into a dedicated comparison page anchored in the published e-commerce CRM case study plus the adjacent customer-service and order-status workflow guides)
+Last updated: 2026-04-22 (shipped contact-form-autoresponder-vs-full-lead-follow-up by turning the exact website-lead prompt already tracked under the live contact-form cluster into a dedicated comparison page anchored in the published Paris Cafe and Instagram lead-response proof plus the adjacent contact-form and instant-response workflow guides)
 
 ## Live GEO Assets
 
@@ -103,6 +103,7 @@ Last updated: 2026-04-22 (shipped customer-service-automation-vs-manual-support-
 | AI Voice Agent ROI for Lead Follow-Up | `/ai-voice-agent-roi-for-lead-follow-up` | Workflow / ROI decision page | Live |
 | Instant Lead Response Automation | `/instant-lead-response-automation` | Workflow page | Live |
 | Contact Form Lead Follow-Up Automation | `/contact-form-lead-follow-up-automation` | Workflow / web-form recovery page | Live |
+| Contact Form Autoresponder vs. Full Lead Follow-Up | `/contact-form-autoresponder-vs-full-lead-follow-up` | Website-lead decision page | Live |
 | Quote Follow-Up Automation | `/quote-follow-up-automation` | Workflow page | Live |
 | Client Reactivation Automation | `/client-reactivation-automation` | Workflow page | Live |
 | No-Show Reduction Automation | `/no-show-reduction-automation` | Workflow page | Live |
@@ -138,19 +139,19 @@ Last updated: 2026-04-22 (shipped customer-service-automation-vs-manual-support-
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 119**
+**Total decision/comparison/industry pages live: 120**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/customer-service-automation-vs-manual-support-for-ecommerce-brands` consumed the cleanest remaining exact tracked comparison query inside the live e-commerce support cluster (`Should an online store automate customer service or keep it manual?`). With that page now live, the backlog drops back into honest fallback mode again instead of pretending another equally clean proof-backed net-new page is still queued.
+Shipping `/contact-form-autoresponder-vs-full-lead-follow-up` proved the backlog was not actually exhausted: the live contact-form cluster already contained an exact tracked buyer decision (`Contact form autoresponder vs full lead follow-up workflow`) that was still distinct from the broader contact-form and instant-response pages. With that decision page now live, the next clean candidate is another exact tracked comparison inside the voice-qualification cluster rather than pretending the backlog is back to maintenance-only by default.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | E-commerce + GoHighLevel + appointment setter + property management discovery and internal links | After consuming the exact manual-vs-automation e-commerce support query, the cleanest next move is still discovery-surface and internal-link strengthening unless another exact proof-backed child query becomes explicit. | **Fallback** |
-| 2 | **Deferred** | Re-open net-new shipping only when a live cluster gains a clearer exact query or stronger proof | proof-led backlog refresh | Do not invent filler pages once the explicit high-confidence queue is exhausted again. | **Deferred** |
+| 1 | **P1** | `/ai-voice-agent-vs-manual-callback-for-service-businesses` | AI voice lead qualification vs manual callback | The tracked prompt already exists under the live voice-qualification page and could still support a distinct buyer-decision page if it stays tightly on immediate phone qualification vs delayed callback economics instead of rehashing the broader voice-agent guide. | **Queued** |
+| 2 | **Fallback** | Strengthen strongest live clusters if no new distinct page survives review | Contact-form + voice-agent + e-commerce discovery and internal links | If the voice-agent/manual-callback comparison cannot stay distinct enough on closer review, the next move should fall back to discovery-surface and internal-link strengthening rather than filler pages. | **Fallback** |
 
 ### Priority Definitions
 
