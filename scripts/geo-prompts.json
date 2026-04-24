@@ -1442,10 +1442,22 @@
       "label": "What to Automate First for Chiropractors",
       "prompts": [
         "What should a chiropractor automate first?",
-        "Should a chiropractor start with missed-call recovery, intake and scheduling, care-plan recall, no-show reduction, or after-hours call handling?",
+        "Should a chiropractor start with missed-call recovery, intake and scheduling, no-show reduction, or after-hours call handling before a broader build?",
         "Best first automation for chiropractors",
-        "How should a chiropractic practice prioritize missed calls, booking friction, overdue care-plan patients, empty slots, and after-hours demand?",
+        "How should a chiropractic practice prioritize missed calls, booking friction, empty slots, overdue patients, and after-hours demand?",
         "What is the highest ROI first automation project for a chiropractor?"
+      ]
+    },
+    {
+      "id": "care-plan-recall-automation-for-chiropractors",
+      "path": "/care-plan-recall-automation-for-chiropractors",
+      "label": "Care Plan Recall Automation for Chiropractors",
+      "prompts": [
+        "Care plan recall automation for chiropractors",
+        "How do chiropractors automate care-plan recall and overdue-patient follow-up?",
+        "Best way for a chiropractic practice to bring lapsed maintenance patients back",
+        "Should a chiropractor fix care-plan recall before building broader front-desk automation?",
+        "How should a chiropractic office handle overdue care-plan patients without relying on manual recall?"
       ]
     },
     {

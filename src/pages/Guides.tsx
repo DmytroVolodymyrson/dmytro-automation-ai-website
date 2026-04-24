@@ -1030,6 +1030,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Care Plan Recall Automation for Chiropractors",
+    description:
+      "A narrower chiropractic retention page focused on visit-interval reminders, overdue-patient recovery, rebooking handoff, and bringing maintenance or treatment-plan patients back before they quietly fall out of care.",
+    href: "/care-plan-recall-automation-for-chiropractors",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Cleaning Companies",
     description:
       "AI automation for cleaning companies. Lead follow-up, quote follow-up, missed call text-back, scheduling, client reactivation, and review automation.",
