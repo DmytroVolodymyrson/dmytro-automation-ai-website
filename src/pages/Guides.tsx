@@ -1247,6 +1247,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back for Home Inspectors",
+    description:
+      "Immediate SMS-first recovery for missed home-inspector calls so agent referrals and buyer inquiries do not die while you are still on-site.",
+    href: "/missed-call-text-back-for-home-inspectors",
+    category: "industries",
+  },
+  {
     title: "CRM Automation for Contractors",
     description:
       "Contractor-focused CRM setup for pipeline structure, estimate follow-up, scheduling handoff, and ops visibility when your office and field teams are dropping context.",

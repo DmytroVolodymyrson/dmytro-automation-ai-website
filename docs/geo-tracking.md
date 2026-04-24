@@ -95,6 +95,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - `/customer-service-automation-for-ecommerce-brands`
 - `/customer-service-automation-vs-manual-support-for-ecommerce-brands`
 - `/order-status-and-return-support-automation-for-ecommerce-brands`
+- `/missed-call-text-back-for-home-inspectors`
 
 ## Weekly Check Process
 

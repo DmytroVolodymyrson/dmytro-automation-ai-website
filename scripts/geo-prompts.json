@@ -1653,6 +1653,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-for-home-inspectors",
+      "path": "/missed-call-text-back-for-home-inspectors",
+      "label": "Missed Call Text-Back for Home Inspectors",
+      "prompts": [
+        "Missed call text-back for home inspectors",
+        "How do home inspectors text back missed calls automatically?",
+        "Best way for a home inspector to protect agent referrals while still on-site",
+        "Should a home inspector use missed-call text-back or voicemail?",
+        "How can a home inspector stop losing buyer and agent calls during inspections?"
+      ]
+    },
+    {
       "id": "ai-automation-cost-small-business",
       "path": "/ai-automation-cost-small-business",
       "label": "AI Automation Cost for Small Business",

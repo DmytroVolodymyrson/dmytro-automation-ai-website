@@ -174,6 +174,7 @@ import AiAutomationForPaintingContractors from "./pages/AiAutomationForPaintingC
 import EstimateFollowUpAutomationForPaintingContractors from "./pages/EstimateFollowUpAutomationForPaintingContractors";
 import WhatToAutomateFirstForPaintingContractors from "./pages/WhatToAutomateFirstForPaintingContractors";
 import AiAutomationForHomeInspectors from "./pages/AiAutomationForHomeInspectors";
+import MissedCallTextBackForHomeInspectors from "./pages/MissedCallTextBackForHomeInspectors";
 import AiAutomationCostSmallBusiness from "./pages/AiAutomationCostSmallBusiness";
 import AiAutomationTimeSavingsSmallBusiness from "./pages/AiAutomationTimeSavingsSmallBusiness";
 import AffordableAiAutomationSmallBusiness from "./pages/AffordableAiAutomationSmallBusiness";
@@ -420,6 +421,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/estimate-follow-up-automation-for-painting-contractors", element: <EstimateFollowUpAutomationForPaintingContractors /> },
   { path: "/what-to-automate-first-for-painting-contractors", element: <WhatToAutomateFirstForPaintingContractors /> },
   { path: "/ai-automation-for-home-inspectors", element: <AiAutomationForHomeInspectors /> },
+  { path: "/missed-call-text-back-for-home-inspectors", element: <MissedCallTextBackForHomeInspectors /> },
   { path: "/ai-automation-cost-small-business", element: <AiAutomationCostSmallBusiness /> },
   { path: "/ai-automation-time-savings-small-business", element: <AiAutomationTimeSavingsSmallBusiness /> },
   { path: "/affordable-ai-automation-small-business", element: <AffordableAiAutomationSmallBusiness /> },

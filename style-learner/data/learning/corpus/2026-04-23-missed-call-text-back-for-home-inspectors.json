@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-missed-call-text-back-for-home-inspectors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back for Home Inspectors\nBody: Home inspectors miss calls for a very specific reason: they are in crawlspaces, attics, basements, on roofs, or driving between inspections when the phone rings. That would be manageable if callers waited. They usually do not. A real estate agent with a buyer under contract often needs an answer now. If the call goes to voicemail and sits there for two hours, the agent may already have sent the deal to another inspector before the inspector surfaces again. Missed call text-back for home inspectors is the lighter fallback layer between voicemail and full live answering. The call is missed, a useful text goes out right away, the agent or buyer gets a clear next step, and the referral stays alive long enough for a human to step back in.\nSub: Below: what home-inspector missed-call text-back should actually handle, where it fits inside the broader home-inspector automation cluster, what adjacent proof honestly supports it, and when the business should move beyond text-back into a heavier phone workflow.\n\n### Core sections\n- What a home-inspector missed-call text-back workflow should actually do\n- How this page stays distinct from the other home-inspector and call-handling guides\n- When this is a good fit and when it is not\n- Guardrails that keep home-inspector missed-call recovery useful\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Straight answers for inspectors deciding whether SMS-first missed-call recovery is enough\nTopics: whether text-back is enough for most home inspectors, what the first text should say, how this differs from the broader home-inspector page, what a focused build usually costs, and when the business should skip text-back and move straight to live answering.\n\n### Final CTA\nHeading: Protect agent referrals before the missed call turns into a lost inspection\nBody: Book a 30-minute call. We will look at where the inspection business is leaking missed calls now, whether a focused text-back workflow is enough, and what the narrowest practical first fix should be.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen after broad backlog reconciliation because the live home-inspector parent was still a thin but defensible cluster and already named missed-call text-back as one of the clearest first workflow wins."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on the first-response recovery problem instead of drifting back into the broader home-inspector page or generic service-business phone-answering copy."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live home-inspector parent page, the published Paris Cafe phone-handling case study, and transaction-speed adjacency from the real-estate cluster as honest support instead of pretending there is already a dedicated home-inspector case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and low-hype: protect referrals, keep the first fix narrow, and move to heavier live coverage only if the missed-call data says SMS-first recovery is no longer enough."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T03:23:48.867Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        1,
+        1,
+        2
+      ],
+      "avgSentenceLength": 27.6,
+      "sentenceLengthRange": [
+        4,
+        55
+      ],
+      "totalWords": 331
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Missed Call Text-Back for Home Inspectors\nBody: Home inspectors miss calls for a very specific reason: they are in crawlspaces, attics, basements, on roofs, or driving between inspections when the phone rings.",
+      "wordCount": 34,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Protect agent referrals before the missed call turns into a lost inspection\nBody: Book a 30-minute call. We will look at where the inspection business is leaking missed calls now, whether a focused text-back workflow is enough, and what the narrowest practical first fix should be.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 17,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 9,
+      "commasPerSentence": 1.55
+    },
+    "vocabulary": {
+      "distinctWords": 168,
+      "totalWords": 331,
+      "topWords": [
+        [
+          "text-back",
+          8
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "call",
+          6
+        ],
+        [
+          "home-inspector",
+          6
+        ],
+        [
+          "should",
+          6
+        ],
+        [
+          "missed",
+          5
+        ],
+        [
+          "inspectors",
+          5
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "home",
+          4
+        ],
+        [
+          "agent",
+          4
+        ],
+        [
+          "enough",
+          4
+        ],
+        [
+          "missed-call",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "it",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
