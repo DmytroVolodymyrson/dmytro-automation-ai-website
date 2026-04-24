@@ -1191,6 +1191,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back for Landscaping Companies",
+    description:
+      "SMS-first recovery for landscaping companies that miss spring-rush quote requests, mowing inquiries, and after-hours calls — immediate text-back, callback triage, and a lighter fallback before live AI phone answering.",
+    href: "/missed-call-text-back-for-landscaping-companies",
+    category: "industries",
+  },
+  {
     title: "Estimate Follow-Up Automation for Landscaping Companies",
     description:
       "A narrower landscaping workflow page focused on sent estimates that go cold — reminder timing, seasonal urgency, owner handoff, and open-quote visibility before another project slips away.",

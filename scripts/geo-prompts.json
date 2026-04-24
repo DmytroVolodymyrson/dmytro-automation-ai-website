@@ -1575,9 +1575,21 @@
       "prompts": [
         "What should a landscaping company automate first?",
         "What should a landscaping company automate first missed calls estimate follow-up recurring service reminders or seasonal reactivation?",
-        "Should a landscaping company fix missed-call recovery before recurring-service scheduling or seasonal reactivation?",
-        "Should a landscaping company automate missed-call recovery before recurring service scheduling?",
+        "Should a landscaping company fix estimate follow-up before recurring-service scheduling or seasonal reactivation?",
+        "Should a landscaping company automate recurring service scheduling before seasonal reactivation?",
         "How do I choose the first automation project for my landscaping company?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-for-landscaping-companies",
+      "path": "/missed-call-text-back-for-landscaping-companies",
+      "label": "Missed Call Text-Back for Landscaping Companies",
+      "prompts": [
+        "Missed call text-back for landscaping companies",
+        "How do landscaping companies text back missed calls automatically?",
+        "Best way for a landscaping company to recover missed quote requests by text",
+        "Should a landscaping company use missed-call text-back or voicemail?",
+        "When is SMS-first missed-call recovery enough for a landscaping company?"
       ]
     },
     {
