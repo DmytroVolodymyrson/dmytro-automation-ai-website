@@ -1,0 +1,32 @@
+# Post: AI Phone Answering for Home Inspectors
+**Date:** 2026-04-23
+**Platform:** landing-page
+**Language:** en
+**Section:** /ai-phone-answering-for-home-inspectors (home-inspector live phone-coverage page)
+
+## Final Published Text
+
+### Hero
+Heading: AI Phone Answering for Home Inspectors
+Body: Some home inspectors do not mainly have a missed-call problem. They have a live phone-coverage problem. They are inside an inspection, crawling through an attic, driving to the next property, or finishing a report while agents and buyers still expect a real answer now. Missed-call text-back is a useful lighter fallback. But when callers need live answers about scheduling, turnaround, add-ons, or whether the inspection can happen in time for the transaction, a text after the miss can still be too late. AI phone answering for home inspectors is the heavier phone layer that answers the call live, handles routine next-step questions, captures the right context before it gets lost, and routes higher-stakes conversations back to a human before the business keeps leaking referrals, bookings, and agent trust.
+Sub: Below: what live AI phone answering should actually handle for a home-inspection business, how it stays distinct from the broader parent page and the lighter missed-call pages already live, where it fits best, and what proof honestly supports it.
+
+### Core sections
+- Frames the page as the heavier live-answering layer inside the existing home-inspector phone cluster rather than a rewrite of the broader home-inspector parent or the lighter missed-call pages already live.
+- Covers what live AI phone answering should actually handle for a home inspector: routine call coverage, booking and callback intake, property-context capture, after-hours response, and context-rich handoff for higher-stakes agent or buyer conversations.
+- Keeps the proof honest by grounding the page in the home-inspector parent page, the generic AI phone-answering guide, the real-estate transaction-speed adjacency, and the Paris Cafe call-handling case study instead of pretending there is already a home-inspector-only phone-answering case study.
+- Stays operational and bounded: no fake technical inspection guidance, no AI replacing the inspector, and explicit escalation rules for rush closings, unusual properties, pricing objections, and anything that needs real human judgment.
+
+### FAQ
+Subhead: Straight answers for home inspectors considering live AI phone coverage
+Topics: how this differs from missed-call text-back, what a focused build usually costs, whether it can help book inspections, whether it replaces the inspector or admin, and whether it can work with the current phone system or inspection software.
+
+### Final CTA
+Heading: Need to know if your inspection business needs live AI phone answering or just a lighter fallback?
+Body: Book a 30-minute call. We will look at your current call pattern, how much booking demand dies in voicemail or delayed callback, and whether live AI phone answering is the right next step for your business or whether a narrower phone-recovery workflow would be smarter first.
+
+## Style Notes
+- Chosen because the neat roadmap queue is exhausted but the live home-inspector cluster still had one materially distinct heavier phone-coverage stage left after the parent page plus the two lighter phone pages were already live.
+- Keeps the page tightly on the live-answering workflow itself so it does not collapse into the broader home-inspector parent, the missed-call text-back workflow page, or the voicemail comparison page.
+- Uses adjacent proof only: the broader home-inspector parent page, the generic AI phone-answering guide, adjacent real-estate transaction-speed logic, and the Paris Cafe call-handling case study.
+- Tone stays practical and non-hype with explicit guidance on when live answering is worth it, when missed-call text-back is still enough, and where a human should take over fast.

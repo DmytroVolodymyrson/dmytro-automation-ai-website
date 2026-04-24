@@ -1725,6 +1725,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-for-home-inspectors",
+      "path": "/ai-phone-answering-for-home-inspectors",
+      "label": "AI Phone Answering for Home Inspectors",
+      "prompts": [
+        "AI phone answering for home inspectors",
+        "Should a home inspector use live AI phone answering?",
+        "Best way for a home inspector to stop losing agent and buyer calls while on-site",
+        "When is live AI phone answering better than missed-call text-back for a home inspector?",
+        "Can an AI phone workflow help a home inspector handle booking calls while still in the field?"
+      ]
+    },
+    {
       "id": "ai-automation-cost-small-business",
       "path": "/ai-automation-cost-small-business",
       "label": "AI Automation Cost for Small Business",

@@ -1275,6 +1275,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering for Home Inspectors",
+    description:
+      "A narrower home-inspector live-phone-coverage guide focused on booking intake, agent and buyer call handling, after-hours coverage, and the handoff points that should stay human.",
+    href: "/ai-phone-answering-for-home-inspectors",
+    category: "industries",
+  },
+  {
     title: "Missed Call Text-Back for Home Inspectors",
     description:
       "Immediate SMS-first recovery for missed home-inspector calls so agent referrals and buyer inquiries do not die while you are still on-site.",
