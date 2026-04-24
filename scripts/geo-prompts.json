@@ -1629,6 +1629,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-vs-ai-phone-answering-for-chiropractors",
+      "path": "/missed-call-text-back-vs-ai-phone-answering-for-chiropractors",
+      "label": "Missed Call Text-Back vs. AI Phone Answering for Chiropractors",
+      "prompts": [
+        "Missed call text-back vs AI phone answering for chiropractors",
+        "Should a chiropractor use missed-call text-back or live AI phone answering?",
+        "When is SMS-first missed-call recovery enough for a chiropractic practice instead of live AI phone answering?",
+        "What is better for a chiropractic office that keeps missing new-patient calls: text-back or AI phone answering?",
+        "How should a chiropractor choose between SMS-first missed-call recovery and live AI phone coverage?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-for-chiropractors",
       "path": "/missed-call-text-back-for-chiropractors",
       "label": "Missed Call Text-Back for Chiropractors",

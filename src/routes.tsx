@@ -150,6 +150,7 @@ import NewPatientIntakeAndSchedulingAutomationForChiropractors from "./pages/New
 import NoShowReductionAutomationForChiropractors from "./pages/NoShowReductionAutomationForChiropractors";
 import AiPhoneAnsweringForChiropractors from "./pages/AiPhoneAnsweringForChiropractors";
 import AiPhoneAnsweringVsVoicemailForChiropractors from "./pages/AiPhoneAnsweringVsVoicemailForChiropractors";
+import MissedCallTextBackVsAiPhoneAnsweringForChiropractors from "./pages/MissedCallTextBackVsAiPhoneAnsweringForChiropractors";
 import MissedCallTextBackVsVoicemailForChiropractors from "./pages/MissedCallTextBackVsVoicemailForChiropractors";
 import MissedCallTextBackForChiropractors from "./pages/MissedCallTextBackForChiropractors";
 import AiAutomationForCleaningCompanies from "./pages/AiAutomationForCleaningCompanies";
@@ -445,6 +446,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/no-show-reduction-automation-for-chiropractors", element: <NoShowReductionAutomationForChiropractors /> },
   { path: "/ai-phone-answering-for-chiropractors", element: <AiPhoneAnsweringForChiropractors /> },
   { path: "/ai-phone-answering-vs-voicemail-for-chiropractors", element: <AiPhoneAnsweringVsVoicemailForChiropractors /> },
+  { path: "/missed-call-text-back-vs-ai-phone-answering-for-chiropractors", element: <MissedCallTextBackVsAiPhoneAnsweringForChiropractors /> },
   { path: "/missed-call-text-back-vs-voicemail-for-chiropractors", element: <MissedCallTextBackVsVoicemailForChiropractors /> },
   { path: "/missed-call-text-back-for-chiropractors", element: <MissedCallTextBackForChiropractors /> },
   { path: "/ai-automation-for-cleaning-companies", element: <AiAutomationForCleaningCompanies /> },

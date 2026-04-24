@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-24-missed-call-text-back-vs-ai-phone-answering-for-chiropractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-24",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back vs. AI Phone Answering for Chiropractors\nBody: If your chiropractic practice keeps missing calls, the real decision is not whether automation sounds advanced. It is whether a lighter missed-call text-back workflow is enough or whether you need live AI phone answering. Text-back is the narrower fallback: the call is missed, an immediate SMS goes out, and a prospective patient gets a clear next step before the practice loses the booking window. AI phone answering is the heavier layer: the call gets answered live, routine first-visit and scheduling questions get handled in the moment, and higher-context conversations get routed back to staff with useful context instead of a vague voicemail. The right choice depends on how often callers truly need a real answer now, how much first-visit demand dies when the front desk is busy, how valuable after-hours calls are, and whether the team can reliably close the loop once a text thread starts.\nSub: Below: where each option fits for chiropractors, where practices overbuild, where they underbuild, and what the existing chiropractic cluster plus published call-handling proof honestly supports.\n\n### Core sections\n- What each option is actually solving\n- Side-by-side comparison for chiropractors\n- When each option makes sense\n- Good fit and bad fit signals\n- The mistakes chiropractic practices make when choosing\n- What proof honestly supports this comparison\n\n### FAQ\nSubhead: Practical questions about chiropractic phone recovery and live phone coverage\nTopics: how this differs from the lighter missed-call text-back page, when live AI phone answering becomes the better fit, what a focused text-back workflow usually costs compared with AI phone answering, whether both layers can coexist, and what should always stay human.\n\n### Final CTA\nHeading: Need to choose between SMS-first recovery and live phone coverage for your chiropractic practice?\nBody: Book a 30-minute call. We will look at where your current phone workflow is leaking new-patient demand, whether missed-call text-back is enough, when live AI phone answering starts making sense, and what the narrowest useful phone layer would look like for your setup.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the live chiropractic cluster already covered the broad parent, first-project scoping, the lighter missed-call workflow, the lighter voicemail comparison, and the heavier live-answering pages, but still lacked the exact lighter-vs-heavier buyer decision."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/ai-automation-for-chiropractors`, `/missed-call-text-back-for-chiropractors`, `/ai-phone-answering-for-chiropractors`, and `/ai-phone-answering-vs-voicemail-for-chiropractors` by focusing on the decision between SMS-first recovery and live answered coverage."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live chiropractic cluster, `/ai-phone-answering-for-service-businesses`, and the Paris Cafe call-handling case study support the phone-layer decision without inventing a chiropractic-specific case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T15:55:05.655Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 28.4,
+      "sentenceLengthRange": [
+        5,
+        54
+      ],
+      "totalWords": 341
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Missed Call Text-Back vs.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need to choose between SMS-first recovery and live phone coverage for your chiropractic practice?\nBody: Book a 30-minute call. We will look at where your current phone workflow is leaking new-patient demand, whether missed-call text-back is enough, when live AI phone answering starts making sense, and what the narrowest useful phone layer would look like for your setup.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 18,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 10,
+      "commasPerSentence": 1.64
+    },
+    "vocabulary": {
+      "distinctWords": 187,
+      "totalWords": 341,
+      "topWords": [
+        [
+          "phone",
+          11
+        ],
+        [
+          "text-back",
+          6
+        ],
+        [
+          "ai",
+          6
+        ],
+        [
+          "answering",
+          6
+        ],
+        [
+          "whether",
+          6
+        ],
+        [
+          "live",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "chiropractic",
+          5
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "call",
+          4
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "where",
+          4
+        ],
+        [
+          "chiropractors",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

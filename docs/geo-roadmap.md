@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-med-spas` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The live med spa cluster already had the broad parent, the first-project scoping page, consultation booking, no-show reduction, treatment recall, and the phone-recovery / phone-answering pages. One distinct workflow family still remained explicitly named across the parent copy and the first-project prompt set: early-funnel lead follow-up before the consult is booked. The new page stays distinct by focusing on immediate response, multi-step inquiry nurture, light qualification, and front-desk handoff — instead of rehashing booking, no-show protection, or the phone-only recovery layer.)
+Last updated: 2026-04-24 (shipped `missed-call-text-back-vs-ai-phone-answering-for-chiropractors` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The live chiropractic cluster already had the broad parent, the first-project scoping page, the lighter missed-call workflow, the lighter voicemail-vs-text-back decision, and the heavier live-answering explainer plus voicemail comparison. One clean buyer-decision gap still remained: whether SMS-first recovery is enough or whether the practice now needs live AI phone coverage. The new page stays distinct by focusing on that exact lighter-vs-heavier choice — front-desk overload, caller expectations, after-hours demand, and phone-layer economics — instead of rehashing the broader chiropractic parent or the existing lighter/heavier sibling pages.)
 
 ## Live GEO Assets
 
@@ -159,6 +159,7 @@ Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-med-spas` after another
 | No-Show Reduction Automation for Chiropractors | `/no-show-reduction-automation-for-chiropractors` | Chiropractic attendance-protection workflow page | Live |
 | AI Phone Answering for Chiropractors | `/ai-phone-answering-for-chiropractors` | Chiropractic live-phone-coverage workflow page | Live |
 | AI Phone Answering vs. Voicemail for Chiropractors | `/ai-phone-answering-vs-voicemail-for-chiropractors` | Chiropractic phone-fallback decision page | Live |
+| Missed Call Text-Back vs. AI Phone Answering for Chiropractors | `/missed-call-text-back-vs-ai-phone-answering-for-chiropractors` | Chiropractic lighter-vs-heavier phone-layer decision page | Live |
 | Missed Call Text-Back for Chiropractors | `/missed-call-text-back-for-chiropractors` | Chiropractic phone-recovery workflow page | Live |
 | Missed Call Text-Back vs. Voicemail for Chiropractors | `/missed-call-text-back-vs-voicemail-for-chiropractors` | Chiropractic lighter-fallback decision page | Live |
 | AI Automation for Cleaning Companies | `/ai-automation-for-cleaning-companies` | Industry page | Live |
@@ -247,14 +248,14 @@ Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-med-spas` after another
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 221**
+**Total decision/comparison/industry pages live: 222**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-lead-follow-up-for-med-spas` extracted the clearest exact workflow query that still survived the broader audit: the live med spa cluster already covered booking, no-show reduction, treatment recall, and the phone layers, but early-funnel consultation follow-up still did not have its own bounded page. After that ship, the safest next move is another broad repo-wide reconciliation instead of forcing one more same-cluster follow-on by inertia. If another candidate still survives cleanly, it should beat maintenance on distinct intent and proof fit across the whole planning set — not just because it lives near the med spa cluster.
+Shipping `/missed-call-text-back-vs-ai-phone-answering-for-chiropractors` extracted the cleanest remaining buyer-decision query that survived the broader audit: the live chiropractic cluster already covered the broad parent, first-project scoping, the lighter missed-call workflow, the lighter voicemail comparison, and the heavier live-answering pages, but it still lacked the exact lighter-vs-heavier phone-layer choice itself. After that ship, the safest next move is another broad repo-wide reconciliation instead of forcing one more chiropractic follow-on by inertia. If another candidate still survives cleanly, it should beat maintenance on distinct intent and proof fit across the whole planning set — not just because it lives near the chiropractic cluster.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
