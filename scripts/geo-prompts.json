@@ -1641,6 +1641,18 @@
       ]
     },
     {
+      "id": "recurring-service-scheduling-and-reminder-automation-for-landscaping-companies",
+      "path": "/recurring-service-scheduling-and-reminder-automation-for-landscaping-companies",
+      "label": "Recurring Service Scheduling and Reminder Automation for Landscaping Companies",
+      "prompts": [
+        "Recurring service scheduling and reminder automation for landscaping companies",
+        "How do landscaping companies automate recurring mowing confirmations and reminders?",
+        "Best way to handle skip requests and weather-delay updates for recurring landscaping clients",
+        "How should a landscaping company manage route-change communication for weekly and biweekly service?",
+        "When is recurring service scheduling the right first automation project for a landscaping company?"
+      ]
+    },
+    {
       "id": "seasonal-reactivation-automation-for-landscaping-companies",
       "path": "/seasonal-reactivation-automation-for-landscaping-companies",
       "label": "Seasonal Reactivation Automation for Landscaping Companies",

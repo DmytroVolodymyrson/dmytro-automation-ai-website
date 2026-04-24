@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-recurring-service-scheduling-and-reminder-automation-for-landscaping-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Recurring Service Scheduling and Reminder Automation for Landscaping Companies\nBody: A lot of landscaping companies do not lose money only on the first call or after the estimate. They lose it after the recurring work is already sold. Weekly mowing clients ask to skip a visit. Rain shifts the route. A customer wants to add another service to the next stop. The office thinks the crew knows. The crew thinks the office already texted the client. This page narrows the workflow to that recurring-service stage.\nSub: Below: what this landscaping workflow actually covers, how it stays separate from the broader landscaping parent page and the estimate / seasonal pages already live, what guardrails matter, and what adjacent proof supports the page honestly.\n\n### Core sections\n- What recurring landscaping scheduling automation should actually handle\n- How this page stays distinct inside the landscaping cluster\n- Is this a good fit for your landscaping company?\n- Guardrails that make recurring-service automation useful instead of annoying\n- How a practical landscaping recurring-service workflow usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about recurring landscaping scheduling and reminder workflows\n- How is this different from the broader landscaping automation page?\n- When is recurring-service scheduling the right first landscaping automation project?\n- What does a focused recurring-service scheduling build usually cost?\n- Can this work with Jobber, LMN, Aspire, Service Autopilot, or a custom stack?\n- What is the main ROI?\n\n### Final CTA\nHeading: Want recurring landscaping work to run cleaner without more office babysitting?\nBody: Book a 30-minute call. We will look at how your company handles confirmations, skips, weather delays, route-change communication, and recurring-service handoff today, then tell you whether this is the cleanest workflow to automate next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected after another proof-led backlog reconciliation because the live landscaping cluster still held one explicit first-project workflow that had not been isolated yet: recurring service scheduling and reminders."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page distinct from `/ai-automation-for-landscaping-companies`, `/what-to-automate-first-for-landscaping-companies`, and the seasonal / estimate children by staying tightly on what happens after recurring service is already sold: confirmations, skips, route-change communication, and weather-delay updates."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used bounded adjacent proof only: the live landscaping cluster, the generic booking-confirmation workflow page, and the roofing scheduling sibling. Avoided pretending there is already a dedicated landscaping scheduling case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: recurring route friction, office-to-field handoff, and client communication discipline instead of generic efficiency claims."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T05:22:59.008Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        9,
+        2,
+        5,
+        3
+      ],
+      "avgSentenceLength": 15.3,
+      "sentenceLengthRange": [
+        4,
+        36
+      ],
+      "totalWords": 291
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Recurring Service Scheduling and Reminder Automation for Landscaping Companies\nBody: A lot of landscaping companies do not lose money only on the first call or after the estimate.",
+      "wordCount": 30,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want recurring landscaping work to run cleaner without more office babysitting?\nBody: Book a 30-minute call. We will look at how your company handles confirmations, skips, weather delays, route-change communication, and recurring-service handoff today, then tell you whether this is the cleanest workflow to automate next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 12,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 7,
+      "colon": 7,
+      "commasPerSentence": 0.67
+    },
+    "vocabulary": {
+      "distinctWords": 153,
+      "totalWords": 291,
+      "topWords": [
+        [
+          "landscaping",
+          12
+        ],
+        [
+          "-",
+          11
+        ],
+        [
+          "this",
+          8
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "page",
+          6
+        ],
+        [
+          "recurring-service",
+          6
+        ],
+        [
+          "recurring",
+          5
+        ],
+        [
+          "scheduling",
+          5
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "service",
+          3
+        ],
+        [
+          "work",
+          3
+        ],
+        [
+          "already",
+          3
+        ],
+        [
+          "office",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

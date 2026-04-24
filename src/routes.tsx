@@ -172,6 +172,7 @@ import MissedCallTextBackForLandscapingCompanies from "./pages/MissedCallTextBac
 import MissedCallTextBackVsVoicemailForLandscapingCompanies from "./pages/MissedCallTextBackVsVoicemailForLandscapingCompanies";
 import SeasonalReactivationAutomationForLandscapingCompanies from "./pages/SeasonalReactivationAutomationForLandscapingCompanies";
 import EstimateFollowUpAutomationForLandscapingCompanies from "./pages/EstimateFollowUpAutomationForLandscapingCompanies";
+import RecurringServiceSchedulingAndReminderAutomationForLandscapingCompanies from "./pages/RecurringServiceSchedulingAndReminderAutomationForLandscapingCompanies";
 import AiAutomationForPaintingContractors from "./pages/AiAutomationForPaintingContractors";
 import EstimateFollowUpAutomationForPaintingContractors from "./pages/EstimateFollowUpAutomationForPaintingContractors";
 import WhatToAutomateFirstForPaintingContractors from "./pages/WhatToAutomateFirstForPaintingContractors";
@@ -424,6 +425,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/missed-call-text-back-for-landscaping-companies", element: <MissedCallTextBackForLandscapingCompanies /> },
   { path: "/missed-call-text-back-vs-voicemail-for-landscaping-companies", element: <MissedCallTextBackVsVoicemailForLandscapingCompanies /> },
   { path: "/estimate-follow-up-automation-for-landscaping-companies", element: <EstimateFollowUpAutomationForLandscapingCompanies /> },
+  { path: "/recurring-service-scheduling-and-reminder-automation-for-landscaping-companies", element: <RecurringServiceSchedulingAndReminderAutomationForLandscapingCompanies /> },
   { path: "/seasonal-reactivation-automation-for-landscaping-companies", element: <SeasonalReactivationAutomationForLandscapingCompanies /> },
   { path: "/ai-automation-for-painting-contractors", element: <AiAutomationForPaintingContractors /> },
   { path: "/estimate-follow-up-automation-for-painting-contractors", element: <EstimateFollowUpAutomationForPaintingContractors /> },

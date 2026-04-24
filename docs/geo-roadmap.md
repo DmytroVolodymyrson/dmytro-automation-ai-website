@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped ai-phone-answering-for-home-inspectors after another proof-led reconciliation. The neat backlog is still exhausted, but the live home-inspector cluster still supported one more materially distinct child page because the broader parent plus the two already-live lighter phone pages still left a clean heavier live-answering workflow stage unisolated. The new page stays tighter than the broader home-inspector parent and the lighter missed-call pages, uses the live cluster plus the generic phone-answering guide, adjacent real-estate / transaction-speed proof, and the Paris Cafe call-handling case study, and does not pretend there is already a direct home-inspector-only live-answering case study.)
+Last updated: 2026-04-23 (shipped recurring-service-scheduling-and-reminder-automation-for-landscaping-companies after another proof-led reconciliation. The neat backlog is still exhausted, but the live landscaping cluster still supported one more materially distinct child page because the broader parent plus the first-project scoping page already named recurring service scheduling as a bounded workflow stage, and the live child set still had not isolated that post-sale operating layer. The new page stays tighter than the broader landscaping parent and the estimate / seasonal children, uses the live cluster plus the generic booking-confirmation workflow and the roofing scheduling sibling as adjacent proof, and does not pretend there is already a direct landscaping scheduling case study.)
 
 ## Live GEO Assets
 
@@ -182,6 +182,7 @@ Last updated: 2026-04-23 (shipped ai-phone-answering-for-home-inspectors after a
 | Missed Call Text-Back for Landscaping Companies | `/missed-call-text-back-for-landscaping-companies` | Landscaping phone-recovery workflow page | Live |
 | Missed Call Text-Back vs. Voicemail for Landscaping Companies | `/missed-call-text-back-vs-voicemail-for-landscaping-companies` | Landscaping lighter-fallback decision page | Live |
 | Estimate Follow-Up Automation for Landscaping Companies | `/estimate-follow-up-automation-for-landscaping-companies` | Landscaping estimate-recovery workflow page | Live |
+| Recurring Service Scheduling and Reminder Automation for Landscaping Companies | `/recurring-service-scheduling-and-reminder-automation-for-landscaping-companies` | Landscaping recurring-service operations workflow page | Live |
 | Seasonal Reactivation Automation for Landscaping Companies | `/seasonal-reactivation-automation-for-landscaping-companies` | Landscaping seasonal retention workflow page | Live |
 | AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
 | Estimate Follow-Up Automation for Painting Contractors | `/estimate-follow-up-automation-for-painting-contractors` | Painting estimate-recovery workflow page | Live |
@@ -205,14 +206,14 @@ Last updated: 2026-04-23 (shipped ai-phone-answering-for-home-inspectors after a
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 183**
+**Total decision/comparison/industry pages live: 184**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-phone-answering-for-home-inspectors` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters. The next likely wins are still other thin live parent clusters or tightly bounded child workflows, but only if the query stays proof-backed and materially distinct.
+Shipping `/recurring-service-scheduling-and-reminder-automation-for-landscaping-companies` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters. The next likely wins are still other thin live parent clusters or tightly bounded child workflows, but only if the query stays proof-backed and materially distinct.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|

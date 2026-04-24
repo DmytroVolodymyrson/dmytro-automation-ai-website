@@ -1226,6 +1226,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Recurring Service Scheduling and Reminder Automation for Landscaping Companies",
+    description:
+      "A narrower landscaping workflow page focused on weekly and biweekly service confirmations, skip requests, weather-delay updates, route-change communication, and cleaner office-to-field handoff after recurring work is already sold.",
+    href: "/recurring-service-scheduling-and-reminder-automation-for-landscaping-companies",
+    category: "industries",
+  },
+  {
     title: "Seasonal Reactivation Automation for Landscaping Companies",
     description:
       "Timed outreach for landscaping companies to bring past clients back before spring cleanup, mulching, fall cleanup, and snow-season demand gets handled too late.",
