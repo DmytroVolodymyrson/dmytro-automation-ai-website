@@ -1247,6 +1247,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back for Painting Contractors",
+    description:
+      "SMS-first recovery for painting contractors who miss homeowner quote calls while crews are still on-site — immediate text-back, callback triage, and a lighter fallback before heavier live answering.",
+    href: "/missed-call-text-back-for-painting-contractors",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Home Inspectors",
     description:
       "AI automation for home inspectors. Agent nurture campaigns, booking automation, missed call text-back, report delivery follow-up, and review automation.",

@@ -1659,9 +1659,21 @@
       "prompts": [
         "What should a painting contractor automate first?",
         "What should I automate first in my painting company?",
-        "Should a painting contractor start with missed-call recovery or estimate follow-up?",
+        "Should a painting company fix lead response, estimate follow-up, or past-client reactivation first?",
         "Should a painting company automate lead response before referral campaigns?",
         "How do I choose the first automation project for a painting business?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-for-painting-contractors",
+      "path": "/missed-call-text-back-for-painting-contractors",
+      "label": "Missed Call Text-Back for Painting Contractors",
+      "prompts": [
+        "Missed call text-back for painting contractors",
+        "How do painting contractors text back missed calls automatically?",
+        "Best way for a painting contractor to recover missed quote calls while crews are on-site",
+        "Should a painting contractor use missed-call text-back or voicemail?",
+        "How can a painting company stop losing homeowners who call while the crew is still in the field?"
       ]
     },
     {

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-missed-call-text-back-for-painting-contractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back for Painting Contractors\nBody: Painting leads often disappear for a simple reason: the phone rings while the owner is on a ladder, a crew lead is walking a job, or nobody in the office can answer fast enough. Homeowners requesting painting quotes usually call the next painter when nobody responds. This page ships the lighter fallback layer between passive voicemail and heavier live answering: when the call is missed, a useful text goes out immediately, the homeowner gets a clear next step, and the lead stays alive long enough for the estimator or office to step back in.\nSub: Below: what painting-contractor missed-call text-back should actually handle, how it stays distinct from the broader painting cluster, what adjacent proof honestly supports it, and when the phone problem has already grown past text-back into a heavier live-answering need.\n\n### Core sections\n- Extracts the clearest missing child workflow already implied by the live painting cluster: missed-call recovery while crews are on-site and homeowner quote calls would otherwise fall into voicemail.\n- Keeps the frame tightly on painting realities: homeowners comparing multiple painters, owner or crew leads being unavailable during the workday, callback ownership, and the point where voicemail is too slow to protect a quote opportunity.\n- Preserves clear separation from `/ai-automation-for-painting-contractors`, `/what-to-automate-first-for-painting-contractors`, `/estimate-follow-up-automation-for-painting-contractors`, and `/ai-phone-answering-for-service-businesses` by isolating the narrow phone-only fallback layer after a specific missed call.\n- Uses the live painting cluster, the Paris Cafe call-handling case study, and already-live roofing / landscaping sibling phone-recovery pages as adjacent proof without pretending there is already a direct painting-only missed-call text-back case study.\n\n### FAQ\nSubhead: Straight answers for painting contractors deciding whether SMS-first missed-call recovery is enough\nTopics: when missed-call text-back is enough, what the first painting-company text should say, how the page differs from the broader painting parent, what a focused build usually costs, and when the business should skip text-back and move to live answering.\n\n### Final CTA\nHeading: Need a practical answer on missed-call recovery for your painting company?\nBody: Book a 30-minute call. We will look at your missed-call pattern, whether voicemail is quietly costing quote opportunities, and whether the next step should be a focused text-back workflow, heavier live answering, or no phone automation right now.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the neat roadmap queue is exhausted but the live painting cluster still had a defensible missing child page: the first-response phone recovery layer already implied by both the parent page and the first-project page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays meaningfully distinct from the already-live painting estimate child by staying explicitly on pre-estimate phone recovery instead of sent-quote nurture."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype with explicit fit / not-fit framing, homeowner quote-shopping context, and clear boundaries around what text-back should and should not try to do."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays disciplined: live painting pages, direct phone-handling proof from Paris Cafe, and already-live home-service sibling workflow pages."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T03:51:55.327Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 31,
+      "sentenceLengthRange": [
+        5,
+        54
+      ],
+      "totalWords": 372
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Missed Call Text-Back for Painting Contractors\nBody: Painting leads often disappear for a simple reason: the phone rings while the owner is on a ladder, a crew lead is walking a job, or nobody in the office can answer fast enough.",
+      "wordCount": 43,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a practical answer on missed-call recovery for your painting company?\nBody: Book a 30-minute call. We will look at your missed-call pattern, whether voicemail is quietly costing quote opportunities, and whether the next step should be a focused text-back workflow, heavier live answering, or no phone automation right now.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 24,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 12,
+      "commasPerSentence": 2
+    },
+    "vocabulary": {
+      "distinctWords": 203,
+      "totalWords": 372,
+      "topWords": [
+        [
+          "painting",
+          10
+        ],
+        [
+          "text-back",
+          7
+        ],
+        [
+          "missed-call",
+          7
+        ],
+        [
+          "call",
+          5
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "live",
+          5
+        ],
+        [
+          "enough",
+          4
+        ],
+        [
+          "voicemail",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "missed",
+          3
+        ],
+        [
+          "phone",
+          3
+        ],
+        [
+          "next",
+          3
+        ],
+        [
+          "heavier",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
