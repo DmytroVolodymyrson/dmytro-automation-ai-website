@@ -273,6 +273,18 @@
       ]
     },
     {
+      "id": "what-to-automate-first-for-hvac-companies",
+      "path": "/what-to-automate-first-for-hvac-companies",
+      "label": "What to Automate First for HVAC Companies",
+      "prompts": [
+        "What should an HVAC company automate first?",
+        "Should an HVAC company start with missed-call recovery, lead follow-up, scheduling, or live phone answering?",
+        "Best first automation project for an HVAC company",
+        "How should an HVAC company choose the first workflow to automate?",
+        "What is the highest-ROI first automation for a small HVAC business?"
+      ]
+    },
+    {
       "id": "hvac-scheduling-and-follow-up-automation",
       "path": "/hvac-scheduling-and-follow-up-automation",
       "label": "HVAC Scheduling and Follow-Up Automation",

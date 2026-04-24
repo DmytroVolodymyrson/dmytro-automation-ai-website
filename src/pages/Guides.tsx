@@ -631,6 +631,13 @@ const guides: GuideItem[] = [
     featured: true,
   },
   {
+    title: "What to Automate First for HVAC Companies",
+    description:
+      "Scoping guide for HVAC companies deciding whether the first workflow should be missed-call recovery, lead follow-up, booked-job scheduling, or live AI phone coverage before a bigger automation rollout.",
+    href: "/what-to-automate-first-for-hvac-companies",
+    category: "industries",
+  },
+  {
     title: "HVAC Database Reactivation",
     description:
       "How HVAC companies use AI-powered database reactivation to re-engage past customers and cold leads. Turn dormant contacts into booked jobs with automated outreach.",

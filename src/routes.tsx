@@ -37,6 +37,7 @@ import GoHighLevelSetupMistakesSmallBusiness from "./pages/GoHighLevelSetupMista
 import AiAutomationConsultantPricingSmallBusiness from "./pages/AiAutomationConsultantPricingSmallBusiness";
 import BestAiAutomationForServiceBusinesses from "./pages/BestAiAutomationForServiceBusinesses";
 import AiAutomationForHvacCompanies from "./pages/AiAutomationForHvacCompanies";
+import WhatToAutomateFirstForHvacCompanies from "./pages/WhatToAutomateFirstForHvacCompanies";
 import HvacLeadFollowUpAutomation from "./pages/HvacLeadFollowUpAutomation";
 import HvacMissedCallTextBack from "./pages/HvacMissedCallTextBack";
 import AiAppointmentSetterForHvac from "./pages/AiAppointmentSetterForHvac";
@@ -310,6 +311,7 @@ export const appRoutes: AppRouteDefinition[] = [
   },
   { path: "/best-ai-automation-for-service-businesses", element: <BestAiAutomationForServiceBusinesses /> },
   { path: "/ai-automation-for-hvac-companies", element: <AiAutomationForHvacCompanies /> },
+  { path: "/what-to-automate-first-for-hvac-companies", element: <WhatToAutomateFirstForHvacCompanies /> },
   { path: "/hvac-lead-follow-up-automation", element: <HvacLeadFollowUpAutomation /> },
   { path: "/hvac-missed-call-text-back", element: <HvacMissedCallTextBack /> },
   { path: "/ai-appointment-setter-for-hvac", element: <AiAppointmentSetterForHvac /> },

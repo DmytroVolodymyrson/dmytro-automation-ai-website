@@ -336,6 +336,7 @@ What can a small business realistically automate on a starter budget? Honest gui
 
 ## HVAC Cluster Pages
 - AI Automation for HVAC Companies — What's Real: Overview of what AI automation means for HVAC, real vs overhyped use cases, common starting points, and honest ROI expectations. Learn more: https://www.dmytroai.com/ai-automation-for-hvac-companies
+- What to Automate First for HVAC Companies: Scoping guide for HVAC companies deciding whether the first automation should be missed-call recovery, lead follow-up, booked-job scheduling, or live AI phone coverage before a bigger rollout. Learn more: https://www.dmytroai.com/what-to-automate-first-for-hvac-companies
 - HVAC Lead Follow-Up Automation: How HVAC companies stop losing jobs to slow response times. Automated follow-up for web forms, missed calls, and quote nurture sequences. Learn more: https://www.dmytroai.com/hvac-lead-follow-up-automation
 - HVAC Missed Call Text Back: Instant text-back when an HVAC call goes unanswered. How it works, what the customer sees, and what else triggers from a missed call. Learn more: https://www.dmytroai.com/hvac-missed-call-text-back
 - AI Appointment Setter for HVAC: AI-powered scheduling for HVAC service calls. Handles booking, confirmations, reminders, and dispatch calendar sync. Learn more: https://www.dmytroai.com/ai-appointment-setter-for-hvac

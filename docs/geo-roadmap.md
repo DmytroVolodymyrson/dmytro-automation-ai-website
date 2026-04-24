@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `what-to-automate-first-for-real-estate` because the roadmap's top queued candidate still survived broad reconciliation cleanly. The live real-estate parent plus the lead-response and showing-coordination children already exposed a clean cluster, but there was still no page helping an owner or team lead choose which bounded workflow should come first. The new page stays distinct by framing the buyer decision one step earlier than the existing real-estate child pages instead of rehashing any single workflow.)
+Last updated: 2026-04-24 (shipped `what-to-automate-first-for-hvac-companies` after fresh reconciliation pointed back to the roadmap's "another clean first-project child" fallback. The HVAC cluster already had a broad parent plus narrower children for lead follow-up, missed-call recovery, booked-job scheduling, and heavier phone coverage, but it still lacked the earlier buyer-decision page that helps an owner choose which bounded workflow should come first. The new page stays distinct by framing the first-project decision one step earlier than the existing HVAC child pages instead of rehashing any single workflow.)
 
 ## Live GEO Assets
 
@@ -51,6 +51,7 @@ Last updated: 2026-04-24 (shipped `what-to-automate-first-for-real-estate` becau
 | AI Consultant Pricing | `/ai-automation-consultant-pricing-small-business` | Decision page | Live |
 | Best AI Automations for Service Businesses | `/best-ai-automation-for-service-businesses` | Decision page | Live |
 | AI Automation for HVAC Companies | `/ai-automation-for-hvac-companies` | Industry page | Live |
+| What to Automate First for HVAC Companies | `/what-to-automate-first-for-hvac-companies` | HVAC first-project scoping page | Live |
 | HVAC Lead Follow-Up Automation | `/hvac-lead-follow-up-automation` | Industry page | Live |
 | HVAC Missed Call Text Back | `/hvac-missed-call-text-back` | Industry page | Live |
 | AI Appointment Setter for HVAC | `/ai-appointment-setter-for-hvac` | Industry page | Live |
@@ -262,18 +263,18 @@ Last updated: 2026-04-24 (shipped `what-to-automate-first-for-real-estate` becau
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 236**
+**Total decision/comparison/industry pages live: 237**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/what-to-automate-first-for-real-estate` closes the roadmap's clearest surviving real-estate first-project gap. The real-estate cluster now has the broad parent, a first-project scoping page, lead-response coverage, and showing-coordination coverage. The next run should not force another real-estate child by inertia. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only come back to a same-cluster child if that broader audit still cannot surface a cleaner proof-backed net-new page.
+Shipping `/what-to-automate-first-for-hvac-companies` closes the clearest surviving HVAC first-project gap that surfaced during fresh reconciliation. The HVAC cluster now has the broad parent, a first-project scoping page, lead-response coverage, booked-job scheduling coverage, and heavier phone-layer decision pages. The next run should not force another HVAC child by inertia. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only come back to a same-cluster child if that broader audit still cannot surface a cleaner proof-backed net-new page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued fallback** | Review-request / reputation-closeout children in mature service verticals | Owners trying to protect completed jobs, testimonials, and reputation signals after service delivery | Broad reconciliation still suggests post-service closeout pages may be the cleanest remaining gap if another first-project page does not surface with stronger proof and cleaner separation. | **Best next content candidate after fresh audit** |
+| 1 | **Queued fallback** | Review-request / reputation-closeout children in mature service verticals | Owners trying to protect completed jobs, testimonials, and reputation signals after service delivery | Broad reconciliation still suggests post-service closeout pages may be the cleanest remaining gap now that another strong first-project child has been shipped. | **Best next content candidate after fresh audit** |
 | 2 | **Queued fallback** | Another clean first-project child surfaced by fresh reconciliation | Owners choosing between already-live workflow families inside a mature vertical cluster | If the broader audit surfaces another cluster with a clear parent plus several narrower child workflows but no process-selection layer yet, prefer that over inventing a weak adjacent page. | **Strong fallback** |
 | 3 | **Watchlist** | Real-estate CRM cleanup / past-client reactivation child pages | Real-estate teams deciding whether database cleanup or sphere reactivation deserves its own narrower workflow page | Only revisit the real-estate cluster if broader reconciliation cannot find a cleaner proof-backed page elsewhere and one of these parent-level workflows still survives as a materially distinct child. | **Re-check later; do not force next** |
 
