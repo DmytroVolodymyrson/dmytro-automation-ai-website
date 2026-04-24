@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-estimate-follow-up-automation-for-landscaping-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Estimate Follow-Up Automation for Landscaping Companies\nBody: You walked the property, scoped the work, sent the estimate, and then the job went quiet. In landscaping, that usually means the homeowner is comparing bids, delaying the project until the season feels urgent, or simply forgetting to reply while your crews stay busy elsewhere. The problem is that most landscaping companies do not lose these jobs because the estimate was terrible. They lose them because nobody follows up with discipline after the quote goes out. Estimate follow-up automation fixes that narrow workflow stage. It starts after the landscape proposal is sent, keeps the opportunity active with practical reminders and next-step prompts, and brings the owner or estimator back in when the prospect shows real buying intent.\nSub: Below: what landscaping estimate follow-up automation actually handles, how it stays distinct from the broader landscaping cluster and the generic quote-follow-up guide, what guardrails matter, and what adjacent proof supports the page without pretending there is already a published landscaping estimate-recovery case study.\n\n### Core sections\n- Frames the page as a narrow landscaping estimate-recovery workflow instead of a rewrite of the broader landscaping parent or the first-project scoping page.\n- Breaks down the real estimate-stage problems for landscapers: seasonal timing, multiple-bid comparison, field-heavy owner follow-through gaps, and the need for cleaner quote visibility after the site visit.\n- Uses the live landscaping cluster plus the contractor estimate-follow-up page and the published CRM case study as honest adjacent proof rather than inventing a landscaping-specific case study.\n- Includes fit / not-fit framing, workflow guardrails, FAQ, and landscaping-specific internal links while staying tightly on sent-quote recovery rather than drifting back into generic lead-response advice.\n\n### FAQ\nSubhead: Practical questions about automating landscaping estimate follow-up\nTopics: how this differs from the broader landscaping automation page, how it differs from the generic quote-follow-up guide, focused build cost, Jobber/LMN/Aspire/Service Autopilot fit, and the main ROI logic.\n\n### Final CTA\nHeading: Want fewer landscaping quotes dying after the estimate is sent?\nBody: Book a 30-minute call. We will look at how your company handles sent estimates today, where landscaping quotes are going cold, and whether a focused estimate-recovery workflow is the cleanest automation to build next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the live landscaping cluster and tracked prompts still exposed an exact unisolated buyer query around landscaping estimate follow-up, making this a distinct, high-intent child page rather than a rewrite of the parent or the broader first-project guide."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the proof framing honest by leaning on the live landscaping parent plus first-project page, the published contractor estimate-follow-up page, and the CRM case study instead of pretending there is already a standalone landscaping estimate-recovery case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype by centering follow-up discipline, seasonal timing, owner handoff, and quote visibility instead of inflated close-rate promises."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T02:22:17.663Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 24.3,
+      "sentenceLengthRange": [
+        5,
+        44
+      ],
+      "totalWords": 364
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Estimate Follow-Up Automation for Landscaping Companies\nBody: You walked the property, scoped the work, sent the estimate, and then the job went quiet.",
+      "wordCount": 25,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want fewer landscaping quotes dying after the estimate is sent?\nBody: Book a 30-minute call. We will look at how your company handles sent estimates today, where landscaping quotes are going cold, and whether a focused estimate-recovery workflow is the cleanest automation to build next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 14,
+      "commas": 23,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 1.53
+    },
+    "vocabulary": {
+      "distinctWords": 214,
+      "totalWords": 364,
+      "topWords": [
+        [
+          "landscaping",
+          13
+        ],
+        [
+          "estimate",
+          7
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "follow-up",
+          4
+        ],
+        [
+          "sent",
+          4
+        ],
+        [
+          "after",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "what",
+          3
+        ],
+        [
+          "from",
+          3
+        ],
+        [
+          "broader",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

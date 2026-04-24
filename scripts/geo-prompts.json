@@ -1575,9 +1575,21 @@
       "prompts": [
         "What should a landscaping company automate first?",
         "What should a landscaping company automate first missed calls estimate follow-up recurring service reminders or seasonal reactivation?",
-        "Should a landscaping company start with missed-call recovery or estimate follow-up first?",
+        "Should a landscaping company fix missed-call recovery before recurring-service scheduling or seasonal reactivation?",
         "Should a landscaping company automate missed-call recovery before recurring service scheduling?",
         "How do I choose the first automation project for my landscaping company?"
+      ]
+    },
+    {
+      "id": "estimate-follow-up-automation-for-landscaping-companies",
+      "path": "/estimate-follow-up-automation-for-landscaping-companies",
+      "label": "Estimate Follow-Up Automation for Landscaping Companies",
+      "prompts": [
+        "Estimate follow-up automation for landscaping companies",
+        "How do landscaping companies automate estimate follow-up?",
+        "Best way to recover open landscape quotes",
+        "Landscape estimate reminder workflow",
+        "How do I stop landscaping estimates from going cold after the site visit?"
       ]
     },
     {

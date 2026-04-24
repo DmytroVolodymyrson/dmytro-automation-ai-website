@@ -1191,6 +1191,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Estimate Follow-Up Automation for Landscaping Companies",
+    description:
+      "A narrower landscaping workflow page focused on sent estimates that go cold — reminder timing, seasonal urgency, owner handoff, and open-quote visibility before another project slips away.",
+    href: "/estimate-follow-up-automation-for-landscaping-companies",
+    category: "industries",
+  },
+  {
     title: "Seasonal Reactivation Automation for Landscaping Companies",
     description:
       "Timed outreach for landscaping companies to bring past clients back before spring cleanup, mulching, fall cleanup, and snow-season demand gets handled too late.",
