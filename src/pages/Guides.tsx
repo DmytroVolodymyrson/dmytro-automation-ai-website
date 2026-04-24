@@ -1310,6 +1310,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering vs. Voicemail for Home Inspectors",
+    description:
+      "Should a home inspector keep relying on voicemail and callbacks or answer calls live with AI? Home-inspector buyer guide focused on callback lag, inspection-day reality, transaction timing, and when missed-call text-back is the better middle step.",
+    href: "/ai-phone-answering-vs-voicemail-for-home-inspectors",
+    category: "comparisons",
+  },
+  {
     title: "Missed Call Text-Back for Home Inspectors",
     description:
       "Immediate SMS-first recovery for missed home-inspector calls so agent referrals and buyer inquiries do not die while you are still on-site.",

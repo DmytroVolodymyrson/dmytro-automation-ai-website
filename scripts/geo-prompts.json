@@ -1785,6 +1785,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-vs-voicemail-for-home-inspectors",
+      "path": "/ai-phone-answering-vs-voicemail-for-home-inspectors",
+      "label": "AI Phone Answering vs. Voicemail for Home Inspectors",
+      "prompts": [
+        "AI phone answering vs voicemail for home inspectors",
+        "Should a home inspector use live AI phone answering instead of voicemail or callbacks?",
+        "When is live AI phone answering better than voicemail for a home inspector?",
+        "Is voicemail enough for a home inspector during inspections and after hours?",
+        "What is better for a home inspector voicemail or live AI phone answering?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-vs-ai-phone-answering-for-home-inspectors",
       "path": "/missed-call-text-back-vs-ai-phone-answering-for-home-inspectors",
       "label": "Missed Call Text-Back vs. AI Phone Answering for Home Inspectors",
