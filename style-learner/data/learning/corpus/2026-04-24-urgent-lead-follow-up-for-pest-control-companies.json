@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-24-urgent-lead-follow-up-for-pest-control-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-24",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: Urgent Lead Follow-Up for Pest Control Companies\nBody: Pest control demand does not wait for the office to catch up. A homeowner sees ants in the kitchen, hears scratching in the attic, or finds a wasp nest by the deck and starts calling whoever answers first. If your company replies late, sends one weak text, or loses the inquiry between the phone log, web form inbox, and dispatch board, that job is usually gone before anyone books an inspection. Urgent lead follow-up automation fixes that narrower early-funnel workflow. It answers fast, keeps the lead warm while the homeowner is still comparing options, asks the next practical question, and routes real buying intent back to the office before the first inspection or treatment is even scheduled.\nSub: Below: what this urgent pest-control workflow actually handles, how it stays distinct from the broader pest-control page and the phone-recovery pages already live, what guardrails matter, and what adjacent proof honestly supports it.\n\n### Core sections\n- What urgent pest-control lead follow-up should actually handle\n- How this page stays distinct inside the pest-control cluster\n- Is this a good fit for your pest control company?\n- Guardrails that keep urgent lead follow-up useful\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about urgent lead-follow-up workflows for pest control companies\nTopics: how this differs from missed-call text-back, what a focused urgent lead-follow-up build usually costs, whether it can work with existing pest-control software or CRMs, what ROI matters most, and why it does not replace office staff.\n\n### Final CTA\nHeading: Want urgent pest-control leads handled before they go cold?\nBody: Book a 30-minute call. We will look at how your company handles fresh inquiries today, where urgent homeowner demand is leaking between first contact and booked visit, and whether this narrower lead-follow-up workflow is the cleanest automation to build next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the live pest-control parent already framed urgent lead follow-up as a distinct workflow family, while the live child set had already covered both the lighter phone-recovery layer and the recurring-retention layer."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/ai-automation-for-pest-control-companies`, `/missed-call-text-back-for-pest-control-companies`, `/ai-phone-answering-for-pest-control-companies`, and `/recurring-service-reminder-automation-for-pest-control-companies` by focusing on first response, multi-step early nurture, light qualification, and office handoff before the first visit is booked."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live pest-control parent page, `/ai-lead-follow-up-for-service-businesses`, and the Paris Cafe voice-agent case study support the early-funnel response pattern without inventing a pest-control-specific case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T14:44:21.366Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 25.8,
+      "sentenceLengthRange": [
+        5,
+        49
+      ],
+      "totalWords": 309
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Urgent Lead Follow-Up for Pest Control Companies\nBody: Pest control demand does not wait for the office to catch up.",
+      "wordCount": 22,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want urgent pest-control leads handled before they go cold?\nBody: Book a 30-minute call. We will look at how your company handles fresh inquiries today, where urgent homeowner demand is leaking between first contact and booked visit, and whether this narrower lead-follow-up workflow is the cleanest automation to build next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 19,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.73
+    },
+    "vocabulary": {
+      "distinctWords": 178,
+      "totalWords": 309,
+      "topWords": [
+        [
+          "urgent",
+          9
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "this",
+          6
+        ],
+        [
+          "pest-control",
+          6
+        ],
+        [
+          "lead",
+          5
+        ],
+        [
+          "it",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "follow-up",
+          4
+        ],
+        [
+          "pest",
+          4
+        ],
+        [
+          "control",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "office",
+          3
+        ],
+        [
+          "homeowner",
+          3
+        ],
+        [
+          "first",
+          3
+        ],
+        [
+          "your",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

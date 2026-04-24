@@ -1282,6 +1282,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Urgent Lead Follow-Up for Pest Control Companies",
+    description:
+      "Early-funnel workflow for pest control companies that keep losing urgent homeowner demand before the first visit is booked — faster first response, multi-step nurture, light qualification, and cleaner office handoff.",
+    href: "/urgent-lead-follow-up-for-pest-control-companies",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Pest Control Companies",
     description:
       "Live call coverage for pest control companies that keep losing urgent homeowner calls to voicemail or delayed callbacks — routine intake, after-hours answer coverage, office relief, and clear human handoff.",
