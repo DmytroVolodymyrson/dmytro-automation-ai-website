@@ -2145,6 +2145,18 @@
       ]
     },
     {
+      "id": "client-reactivation-automation-for-painting-contractors",
+      "path": "/client-reactivation-automation-for-painting-contractors",
+      "label": "Client Reactivation Automation for Painting Contractors",
+      "prompts": [
+        "Client reactivation automation for painting contractors",
+        "How do painting contractors bring past clients back for another project?",
+        "Best way for a painting company to reactivate past clients before repaint season",
+        "Should a painting contractor automate past-client follow-up and referral outreach?",
+        "How do I bring old painting clients back without blasting my whole list?"
+      ]
+    },
+    {
       "id": "estimate-follow-up-automation-for-painting-contractors",
       "path": "/estimate-follow-up-automation-for-painting-contractors",
       "label": "Estimate Follow-Up Automation for Painting Contractors",
@@ -2163,8 +2175,8 @@
       "prompts": [
         "What should a painting contractor automate first?",
         "What should I automate first in my painting company?",
-        "Should a painting company fix missed-call recovery, estimate follow-up, or past-client reactivation first?",
-        "Should a painting company automate estimate follow-up before referral and reactivation campaigns?",
+        "Should a painting company fix missed-call recovery, fresh lead follow-up, or estimate follow-up first?",
+        "Which painting workflow deserves the first automation build before a broader rollout?",
         "How do I choose the first automation project for a painting business?"
       ]
     },

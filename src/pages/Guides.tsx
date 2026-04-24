@@ -1520,6 +1520,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Client Reactivation Automation for Painting Contractors",
+    description:
+      "A narrower painting retention page focused on dormant past clients, repeat-project timing, referral nudges, and bringing old homeowners or commercial contacts back before the next repaint opportunity goes elsewhere.",
+    href: "/client-reactivation-automation-for-painting-contractors",
+    category: "industries",
+  },
+  {
     title: "Estimate Follow-Up Automation for Painting Contractors",
     description:
       "A narrower painting workflow page focused on sent estimates that go cold — reminder timing, homeowner-decision nudges, owner handoff, and open-quote visibility before another job slips away.",

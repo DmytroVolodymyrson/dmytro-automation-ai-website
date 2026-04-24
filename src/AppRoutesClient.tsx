@@ -214,6 +214,7 @@ const RecurringServiceSchedulingAndReminderAutomationForLandscapingCompanies = l
 const AiPhoneAnsweringForLandscapingCompanies = lazy(() => import("./pages/AiPhoneAnsweringForLandscapingCompanies"));
 const AiAutomationForPaintingContractors = lazy(() => import("./pages/AiAutomationForPaintingContractors"));
 const AiLeadFollowUpForPaintingContractors = lazy(() => import("./pages/AiLeadFollowUpForPaintingContractors"));
+const ClientReactivationAutomationForPaintingContractors = lazy(() => import("./pages/ClientReactivationAutomationForPaintingContractors"));
 const EstimateFollowUpAutomationForPaintingContractors = lazy(() => import("./pages/EstimateFollowUpAutomationForPaintingContractors"));
 const WhatToAutomateFirstForPaintingContractors = lazy(() => import("./pages/WhatToAutomateFirstForPaintingContractors"));
 const MissedCallTextBackForPaintingContractors = lazy(() => import("./pages/MissedCallTextBackForPaintingContractors"));
@@ -459,6 +460,7 @@ const AppRoutesClient = () => (
       <Route path="/seasonal-reactivation-automation-for-landscaping-companies" element={<SeasonalReactivationAutomationForLandscapingCompanies />} />
       <Route path="/ai-automation-for-painting-contractors" element={<AiAutomationForPaintingContractors />} />
       <Route path="/ai-lead-follow-up-for-painting-contractors" element={<AiLeadFollowUpForPaintingContractors />} />
+      <Route path="/client-reactivation-automation-for-painting-contractors" element={<ClientReactivationAutomationForPaintingContractors />} />
       <Route path="/estimate-follow-up-automation-for-painting-contractors" element={<EstimateFollowUpAutomationForPaintingContractors />} />
       <Route path="/what-to-automate-first-for-painting-contractors" element={<WhatToAutomateFirstForPaintingContractors />} />
       <Route path="/missed-call-text-back-for-painting-contractors" element={<MissedCallTextBackForPaintingContractors />} />
