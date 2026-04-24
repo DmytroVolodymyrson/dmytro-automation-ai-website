@@ -179,6 +179,7 @@ import WhatToAutomateFirstForPaintingContractors from "./pages/WhatToAutomateFir
 import MissedCallTextBackForPaintingContractors from "./pages/MissedCallTextBackForPaintingContractors";
 import MissedCallTextBackVsVoicemailForPaintingContractors from "./pages/MissedCallTextBackVsVoicemailForPaintingContractors";
 import AiPhoneAnsweringForPaintingContractors from "./pages/AiPhoneAnsweringForPaintingContractors";
+import AiPhoneAnsweringVsVoicemailForPaintingContractors from "./pages/AiPhoneAnsweringVsVoicemailForPaintingContractors";
 import MissedCallTextBackVsAiPhoneAnsweringForPaintingContractors from "./pages/MissedCallTextBackVsAiPhoneAnsweringForPaintingContractors";
 import AiAutomationForHomeInspectors from "./pages/AiAutomationForHomeInspectors";
 import AiPhoneAnsweringForHomeInspectors from "./pages/AiPhoneAnsweringForHomeInspectors";
@@ -436,6 +437,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/missed-call-text-back-for-painting-contractors", element: <MissedCallTextBackForPaintingContractors /> },
   { path: "/missed-call-text-back-vs-voicemail-for-painting-contractors", element: <MissedCallTextBackVsVoicemailForPaintingContractors /> },
   { path: "/ai-phone-answering-for-painting-contractors", element: <AiPhoneAnsweringForPaintingContractors /> },
+  { path: "/ai-phone-answering-vs-voicemail-for-painting-contractors", element: <AiPhoneAnsweringVsVoicemailForPaintingContractors /> },
   { path: "/missed-call-text-back-vs-ai-phone-answering-for-painting-contractors", element: <MissedCallTextBackVsAiPhoneAnsweringForPaintingContractors /> },
   { path: "/ai-automation-for-home-inspectors", element: <AiAutomationForHomeInspectors /> },
   { path: "/ai-phone-answering-for-home-inspectors", element: <AiPhoneAnsweringForHomeInspectors /> },

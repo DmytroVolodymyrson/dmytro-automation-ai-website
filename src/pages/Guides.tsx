@@ -1282,6 +1282,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering vs. Voicemail for Painting Contractors",
+    description:
+      "Should a painting company keep relying on voicemail and callbacks or answer calls live with AI? Painting buyer guide focused on callback lag, crew-in-field reality, after-hours demand, and when missed-call text-back is the better middle step.",
+    href: "/ai-phone-answering-vs-voicemail-for-painting-contractors",
+    category: "comparisons",
+  },
+  {
     title: "Missed Call Text-Back vs. AI Phone Answering for Painting Contractors",
     description:
       "Painting buyer guide for deciding when a lighter SMS-first missed-call workflow is enough, when callers actually need live AI phone coverage, and how to choose the smallest useful phone layer without losing estimates.",
