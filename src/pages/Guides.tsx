@@ -1128,6 +1128,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "Missed Call Text-Back vs. AI Phone Answering for Pest Control Companies",
+    description:
+      "Pest-control buyer guide for deciding when a lighter SMS-first missed-call recovery layer is enough, when urgent homeowner demand needs live AI phone coverage instead, and how to choose based on office workload, after-hours calls, and caller expectations.",
+    href: "/missed-call-text-back-vs-ai-phone-answering-for-pest-control-companies",
+    category: "comparisons",
+  },
+  {
     title: "AI Automation for Auto Repair Shops",
     description:
       "AI automation for auto repair shops. Appointment scheduling, estimate follow-up, maintenance reminders, missed call text-back, and review automation.",
