@@ -1513,6 +1513,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Lead Follow-Up for Painting Contractors",
+    description:
+      "A narrower painting-company early-funnel page focused on fresh quote requests — fast first response, short nurture, lightweight qualification, and owner handoff before the walkthrough or estimate stage starts.",
+    href: "/ai-lead-follow-up-for-painting-contractors",
+    category: "industries",
+  },
+  {
     title: "Estimate Follow-Up Automation for Painting Contractors",
     description:
       "A narrower painting workflow page focused on sent estimates that go cold — reminder timing, homeowner-decision nudges, owner handoff, and open-quote visibility before another job slips away.",

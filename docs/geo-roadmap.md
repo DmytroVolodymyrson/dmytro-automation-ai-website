@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-cleaning-companies` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The live cleaning-company cluster already had the broad parent, the first-project scoping page, the quote-stage child, the phone-recovery pages, and the retention child. One clean workflow gap still remained inside the first-project prompt set: slow response to fresh web leads and new quote requests before the estimate stage even starts. The new page stays distinct by focusing on that exact early-funnel response layer — fast first reply, short nurture, light qualification, and human handoff on fresh inquiries — instead of rehashing the broader cleaning parent, the quote-stage page, or the phone pages.)
+Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-painting-contractors` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The live painting cluster already had the broad parent, the first-project scoping page, the estimate-stage child, and the phone-recovery pages, but it still lacked the exact early-funnel lead-response workflow named in the first-project prompts. The new page stays distinct by focusing on that stage before the walkthrough or estimate exists — fast first reply, short nurture, light qualification, and human handoff on fresh quote requests — instead of rehashing the broader painting parent, the estimate-follow-up page, or the phone pages.)
 
 ## Live GEO Assets
 
@@ -223,6 +223,7 @@ Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-cleaning-companies` aft
 | AI Phone Answering vs. Voicemail for Landscaping Companies | `/ai-phone-answering-vs-voicemail-for-landscaping-companies` | Landscaping phone-fallback decision page | Live |
 | Missed Call Text-Back vs. AI Phone Answering for Landscaping Companies | `/missed-call-text-back-vs-ai-phone-answering-for-landscaping-companies` | Landscaping phone-recovery decision page | Live |
 | AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
+| AI Lead Follow-Up for Painting Contractors | `/ai-lead-follow-up-for-painting-contractors` | Painting early-funnel quote-response workflow page | Live |
 | Estimate Follow-Up Automation for Painting Contractors | `/estimate-follow-up-automation-for-painting-contractors` | Painting estimate-recovery workflow page | Live |
 | What to Automate First for Painting Contractors | `/what-to-automate-first-for-painting-contractors` | Painting first-project scoping page | Live |
 | Missed Call Text-Back for Painting Contractors | `/missed-call-text-back-for-painting-contractors` | Painting phone-recovery workflow page | Live |
@@ -249,20 +250,20 @@ Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-cleaning-companies` aft
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 223**
+**Total decision/comparison/industry pages live: 224**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-lead-follow-up-for-cleaning-companies` extracted the cleanest remaining workflow gap that survived the broader audit: the live cleaning-company cluster already covered the broad parent, first-project scoping, the quote-stage child, the phone-recovery pages, and the retention child, but it still lacked the exact early-funnel response layer named in the first-project prompts. After that ship, the safest next move is another broad repo-wide reconciliation instead of forcing one more cleaning-cluster follow-on by inertia. If another candidate still survives cleanly, it should beat maintenance on distinct intent and proof fit across the whole planning set — not just because it lives near the cleaning cluster.
+Shipping `/ai-lead-follow-up-for-painting-contractors` extracted the cleanest surviving gap from the current broad audit: the live painting cluster already covered the broad parent, the first-project scoping page, the estimate-stage child, and the phone-recovery pages, but it still lacked the exact early-funnel lead-response workflow named in the first-project prompts and implied by the parent copy. The next best candidate is now the remaining painting retention child, but it should still be re-checked against the broader planning set before another same-cluster ship is forced by habit.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for any still-distinct planned page that is not already live and does not collapse into an existing cluster | After shipping the missing cleaning early-funnel child, the safest next step is another fresh repo-wide audit rather than assuming the same cluster still has the best remaining page. | **Do next** |
-| 2 | **Maintenance fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if another broad audit still finds no defensible net-new page | Use only if the next reconciliation still cannot find a distinct proof-backed page worth shipping. | **Use only if backlog is exhausted** |
-| 3 | **Proof-led watchlist** | Remaining child pages only if a future audit still surfaces an exact surviving query inside a live cluster | A later run may still uncover one more clean child page from an existing parent or first-project prompt set, but it should survive the full planning set explicitly instead of being inferred from cluster momentum. | Keep the next run honest if the backlog is genuinely getting thin. | **Do not force without a fresh audit** |
+| 1 | **Queued** | `client-reactivation-automation-for-painting-contractors` | Painting-company owners asking whether the next build should focus on dormant past clients, repeat work, and referral-driven reactivation instead of just new-lead response | The live painting parent and first-project page still name past-client reactivation as a distinct workflow family, and the cluster now has the earlier lead-response and later estimate/phone layers covered. This is the clearest remaining same-cluster candidate, but it should still survive the next repo-wide reconciliation before shipping. | **Best next candidate** |
+| 2 | **Queued fallback** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for any still-distinct planned page that beats the painting reactivation child on proof fit or cleaner intent separation | Use this if the next audit surfaces a stronger cross-cluster candidate than the remaining painting retention page. | **Run before forcing another cluster follow-on** |
+| 3 | **Maintenance fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if the next broad audit still finds no defensible net-new page | Use only if the next reconciliation cannot find a distinct proof-backed page worth shipping. | **Use only if backlog is exhausted** |
 
 ### Priority Definitions
 

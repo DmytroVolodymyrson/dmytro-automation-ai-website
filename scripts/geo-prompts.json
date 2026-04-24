@@ -2133,6 +2133,18 @@
       ]
     },
     {
+      "id": "ai-lead-follow-up-for-painting-contractors",
+      "path": "/ai-lead-follow-up-for-painting-contractors",
+      "label": "AI Lead Follow-Up for Painting Contractors",
+      "prompts": [
+        "AI lead follow-up for painting contractors",
+        "How do painting contractors respond faster to new quote requests?",
+        "Best way for a painting company to automate first response before the estimate is sent",
+        "How should a painting company follow up on fresh web leads and messages while crews are still on-site?",
+        "Should a painting contractor automate lead response before estimate follow-up?"
+      ]
+    },
+    {
       "id": "estimate-follow-up-automation-for-painting-contractors",
       "path": "/estimate-follow-up-automation-for-painting-contractors",
       "label": "Estimate Follow-Up Automation for Painting Contractors",
@@ -2151,8 +2163,8 @@
       "prompts": [
         "What should a painting contractor automate first?",
         "What should I automate first in my painting company?",
-        "Should a painting company fix lead response, estimate follow-up, or past-client reactivation first?",
-        "Should a painting company automate lead response before referral campaigns?",
+        "Should a painting company fix missed-call recovery, estimate follow-up, or past-client reactivation first?",
+        "Should a painting company automate estimate follow-up before referral and reactivation campaigns?",
         "How do I choose the first automation project for a painting business?"
       ]
     },
