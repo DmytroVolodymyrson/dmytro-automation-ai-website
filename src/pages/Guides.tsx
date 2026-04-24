@@ -1086,6 +1086,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Review Request Automation for Chiropractors",
+    description:
+      "A narrower chiropractic post-visit reputation page focused on review timing after completed appointments, unhappy-reply routing, provider-to-front-desk handoff, and turning satisfied visits into cleaner local-trust follow-up.",
+    href: "/review-request-automation-for-chiropractors",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Chiropractors",
     description:
       "A narrower chiropractic live-phone-coverage page focused on answering calls during front-desk overload or after hours, handling routine first-visit questions, and routing higher-context conversations back to staff with context attached.",

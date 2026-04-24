@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `review-request-automation-for-home-inspectors` after fresh reconciliation confirmed the home-inspector cluster still had one clean post-inspection reputation gap. The live home-inspector parent already explicitly named review requests, and the cluster already had first-project, early-funnel lead follow-up, booked-inspection scheduling, broader report-delivery closeout, and mature phone-layer coverage live. The new page stays distinct by framing the buyer decision around completed-inspection review timing, uncertain-reply routing, and cleaner local-trust follow-through after the report lands — not generic report delivery or another phone-layer variant.)
+Last updated: 2026-04-24 (shipped `review-request-automation-for-chiropractors` after fresh reconciliation confirmed the chiropractic cluster still had one clean post-visit reputation gap. The live chiropractor parent already explicitly named review automation, and the cluster already had first-project, intake-and-scheduling, care-plan recall, no-show reduction, and mature phone-layer coverage live. The new page stays distinct by framing the buyer decision around completed-appointment review timing, uncertain-reply routing, and cleaner local-trust follow-through after the visit is over — not generic intake, recall, or another phone-layer variant.)
 
 ## Live GEO Assets
 
@@ -162,6 +162,7 @@ Last updated: 2026-04-24 (shipped `review-request-automation-for-home-inspectors
 | Care Plan Recall Automation for Chiropractors | `/care-plan-recall-automation-for-chiropractors` | Chiropractic retention / care-plan recall workflow page | Live |
 | New Patient Intake and Scheduling Automation for Chiropractors | `/new-patient-intake-and-scheduling-automation-for-chiropractors` | Chiropractic first-visit intake / scheduling workflow page | Live |
 | No-Show Reduction Automation for Chiropractors | `/no-show-reduction-automation-for-chiropractors` | Chiropractic attendance-protection workflow page | Live |
+| Review Request Automation for Chiropractors | `/review-request-automation-for-chiropractors` | Chiropractic post-visit reputation workflow page | Live |
 | AI Phone Answering for Chiropractors | `/ai-phone-answering-for-chiropractors` | Chiropractic live-phone-coverage workflow page | Live |
 | AI Phone Answering vs. Voicemail for Chiropractors | `/ai-phone-answering-vs-voicemail-for-chiropractors` | Chiropractic phone-fallback decision page | Live |
 | Missed Call Text-Back vs. AI Phone Answering for Chiropractors | `/missed-call-text-back-vs-ai-phone-answering-for-chiropractors` | Chiropractic lighter-vs-heavier phone-layer decision page | Live |
@@ -272,19 +273,19 @@ Last updated: 2026-04-24 (shipped `review-request-automation-for-home-inspectors
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 245**
+**Total decision/comparison/industry pages live: 246**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/review-request-automation-for-home-inspectors` closes the clean home-inspector post-inspection reputation gap that was still sitting inside a mature cluster. The next run should not force another home-inspector sibling or another review-closeout page by inertia. Do another fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only queue another reputation-closeout child if a different mature cluster still has explicit parent-page proof and a clearly separate post-service workflow gap.
+Shipping `/review-request-automation-for-chiropractors` closes the clean chiropractic post-visit reputation gap that was still sitting inside a mature cluster. The next run should not force another chiropractic sibling or another review-closeout page by inertia. Do another fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only queue another review-closeout child if a different mature cluster still has explicit parent-page proof and a clearly separate post-service workflow gap.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued workflow** | Fresh full backlog reconciliation across planning docs, live routes, and tracked prompts | Owners asking a still-clean workflow or decision question not yet isolated on the live site | Home-inspector review-closeout is now shipped. The next run should deliberately search for the best surviving distinct child page or decision page instead of forcing another same-pattern reputation page. | **Required before naming the next exact slug** |
-| 2 | **Watchlist** | `review-request-automation-for-chiropractors` | Chiropractors trying to protect completed visits, local trust, and review volume after the appointment is over | The live chiropractic parent already explicitly names review automation, and the cluster already has first-project, intake/scheduling, no-show reduction, care-plan recall, and mature phone-layer coverage live. This is only worth shipping if the next run confirms the page can stay clearly distinct from those earlier workflow stages and from the broader parent. | **Strong proof-led fallback after reconciliation** |
+| 1 | **Queued workflow** | Fresh full backlog reconciliation across planning docs, live routes, and tracked prompts | Owners asking a still-clean workflow or decision question not yet isolated on the live site | The chiropractic review-closeout gap is now shipped. The next run should deliberately search for the best surviving distinct child page or decision page instead of forcing another same-pattern reputation page. | **Required before naming the next exact slug** |
+| 2 | **Watchlist** | Proof-led review-closeout child in another mature cluster only if explicit parent-page review proof and clear post-service separation still survive reconciliation | Businesses asking how to ask for reviews at the right time without pushing unhappy contacts public too early | Review-closeout pages can still be valid when the parent explicitly names reviews and the cluster already has earlier workflow stages live, but the next run should only pick one if reconciliation shows a cleaner gap than any non-review alternative. | **Fallback only after broad audit** |
 | 3 | **Watchlist** | Distinct non-review child surfaced by full backlog reconciliation | Owners asking a workflow or decision question that is still commercially clean and proof-supported | If broader reconciliation surfaces a cleaner surviving page than another reputation child, prefer that instead of repeating the same pattern again. | **Needs next-run audit** |
 
 ### Priority Definitions

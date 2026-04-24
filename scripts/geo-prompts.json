@@ -1701,6 +1701,18 @@
       ]
     },
     {
+      "id": "review-request-automation-for-chiropractors",
+      "path": "/review-request-automation-for-chiropractors",
+      "label": "Review Request Automation for Chiropractors",
+      "prompts": [
+        "Review request automation for chiropractors",
+        "How should a chiropractor ask for Google reviews after a completed appointment?",
+        "Best way for a chiropractic practice to automate review requests without sending unhappy patients straight to a public review ask",
+        "When should a chiropractor ask for reviews after an adjustment, re-eval, or completed visit?",
+        "How should a chiropractic office route unhappy post-visit replies before asking for a review?"
+      ]
+    },
+    {
       "id": "ai-phone-answering-for-chiropractors",
       "path": "/ai-phone-answering-for-chiropractors",
       "label": "AI Phone Answering for Chiropractors",

@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-24-review-request-automation-for-chiropractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-24",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: Review Request Automation for Chiropractors\nBody: A chiropractic practice can do the clinical work well and still let the reputation moment slip. The adjustment or re-eval happened, the patient left feeling positive enough, and then no review ask went out while the visit still felt current. Or the request fired too early — before a soreness question got answered, before a billing or insurance follow-up got clarified, or before the office knew whether the experience actually felt complete. Review request automation for chiropractors fixes that narrower post-visit workflow. It gives completed appointments a cleaner reputation follow-through path, helps the office ask for reviews at a believable moment, and protects trust by routing uncertain replies back to a human before anyone gets pushed toward a public rating.\nSub: Below: what a practical chiropractic review-request workflow should actually handle, how it stays distinct from the broader chiropractor page and the first-project child, which guardrails matter most, and what proof honestly supports the page without pretending there is already a dedicated chiropractic review-automation case study on the site.\n\n### Core sections\n- What chiropractic review-request automation should actually handle\n- How this page stays distinct inside the chiropractic cluster\n- Is this a good fit for your chiropractic practice?\n- Guardrails that keep chiropractic review-request automation useful\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical answers for chiropractic practices considering a cleaner post-visit review workflow\nTopics: how this differs from the broader chiropractor automation page, how it differs from the first-project page, what a focused review-request workflow usually costs, whether every visit should get a review ask, and where the ROI usually comes from.\n\n### Final CTA\nHeading: Need cleaner reputation follow-up after the patient visit is over?\nBody: Book a 30-minute call. We will look at how post-visit follow-through works today, where review asks are getting missed or mistimed, and whether a focused review-request workflow, an earlier front-desk fix, or no new build is the smarter next move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after fresh reconciliation across `AGENTS.md`, `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the live chiropractor parent already explicitly names review automation, the cluster already has first-project, intake/scheduling, care-plan recall, no-show reduction, and mature phone-layer coverage live, and the remaining clean gap was the narrower reputation workflow after the visit was already complete."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live chiropractor parent, the live first-project sibling, the med-spa review-request page, and the published CRM case study support the workflow pattern without pretending there is already a dedicated chiropractic review-automation case study on the site."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T23:52:38.196Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 27.3,
+      "sentenceLengthRange": [
+        5,
+        52
+      ],
+      "totalWords": 327
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Review Request Automation for Chiropractors\nBody: A chiropractic practice can do the clinical work well and still let the reputation moment slip.",
+      "wordCount": 24,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need cleaner reputation follow-up after the patient visit is over?\nBody: Book a 30-minute call. We will look at how post-visit follow-through works today, where review asks are getting missed or mistimed, and whether a focused review-request workflow, an earlier front-desk fix, or no new build is the smarter next move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 17,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.55
+    },
+    "vocabulary": {
+      "distinctWords": 177,
+      "totalWords": 327,
+      "topWords": [
+        [
+          "chiropractic",
+          8
+        ],
+        [
+          "review",
+          6
+        ],
+        [
+          "page",
+          6
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "review-request",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "before",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "request",
+          3
+        ],
+        [
+          "reputation",
+          3
+        ],
+        [
+          "ask",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

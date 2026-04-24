@@ -158,6 +158,7 @@ import AiPhoneAnsweringVsVoicemailForChiropractors from "./pages/AiPhoneAnswerin
 import MissedCallTextBackVsAiPhoneAnsweringForChiropractors from "./pages/MissedCallTextBackVsAiPhoneAnsweringForChiropractors";
 import MissedCallTextBackVsVoicemailForChiropractors from "./pages/MissedCallTextBackVsVoicemailForChiropractors";
 import MissedCallTextBackForChiropractors from "./pages/MissedCallTextBackForChiropractors";
+import ReviewRequestAutomationForChiropractors from "./pages/ReviewRequestAutomationForChiropractors";
 import AiAutomationForCleaningCompanies from "./pages/AiAutomationForCleaningCompanies";
 import WhatToAutomateFirstForCleaningCompanies from "./pages/WhatToAutomateFirstForCleaningCompanies";
 import QuoteFollowUpAutomationForCleaningCompanies from "./pages/QuoteFollowUpAutomationForCleaningCompanies";
@@ -478,6 +479,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/missed-call-text-back-vs-ai-phone-answering-for-chiropractors", element: <MissedCallTextBackVsAiPhoneAnsweringForChiropractors /> },
   { path: "/missed-call-text-back-vs-voicemail-for-chiropractors", element: <MissedCallTextBackVsVoicemailForChiropractors /> },
   { path: "/missed-call-text-back-for-chiropractors", element: <MissedCallTextBackForChiropractors /> },
+  { path: "/review-request-automation-for-chiropractors", element: <ReviewRequestAutomationForChiropractors /> },
   { path: "/ai-automation-for-cleaning-companies", element: <AiAutomationForCleaningCompanies /> },
   { path: "/what-to-automate-first-for-cleaning-companies", element: <WhatToAutomateFirstForCleaningCompanies /> },
   { path: "/quote-follow-up-automation-for-cleaning-companies", element: <QuoteFollowUpAutomationForCleaningCompanies /> },
