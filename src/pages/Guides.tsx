@@ -1044,6 +1044,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "No-Show Reduction Automation for Chiropractors",
+    description:
+      "A narrower chiropractic attendance-protection page focused on active confirmations, reminder timing, easy reschedules, late-cancel recovery, and protecting already-booked visits from preventable empty slots.",
+    href: "/no-show-reduction-automation-for-chiropractors",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Cleaning Companies",
     description:
       "AI automation for cleaning companies. Lead follow-up, quote follow-up, missed call text-back, scheduling, client reactivation, and review automation.",

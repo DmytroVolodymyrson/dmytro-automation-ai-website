@@ -1473,6 +1473,18 @@
       ]
     },
     {
+      "id": "no-show-reduction-automation-for-chiropractors",
+      "path": "/no-show-reduction-automation-for-chiropractors",
+      "label": "No-Show Reduction Automation for Chiropractors",
+      "prompts": [
+        "No-show reduction automation for chiropractors",
+        "How do chiropractors reduce no-shows with automation?",
+        "Best way for a chiropractic practice to confirm appointments and cut empty slots",
+        "Should a chiropractor automate reminders and reschedules before building broader front-desk automation?",
+        "How can a chiropractic office protect booked visits from late cancellations and no-shows?"
+      ]
+    },
+    {
       "id": "ai-automation-for-roofing-companies",
       "path": "/ai-automation-for-roofing-companies",
       "label": "AI Automation for Roofing Companies",

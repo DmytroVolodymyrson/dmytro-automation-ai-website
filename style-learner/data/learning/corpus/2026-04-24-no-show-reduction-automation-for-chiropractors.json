@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-24-no-show-reduction-automation-for-chiropractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-24",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: No-Show Reduction Automation for Chiropractors\nBody: A lot of chiropractic practices do not only lose revenue at the intake stage or when patients disappear from care plans. They also lose it after the appointment is already booked: the reminder went out too late or not at all, nobody noticed the patient never confirmed, the reschedule request got buried, the front desk found the empty slot too late to save it, and the provider sat with unused time that should have turned into revenue. No-show reduction automation for chiropractors fixes that narrower attendance-protection workflow. It uses active confirmations, practical reminder timing, easy reschedules, and fast exception routing so more booked visits actually happen instead of quietly falling apart on the calendar.\nSub: Below: what a practical chiropractic no-show workflow should actually handle, how it stays distinct from the broader chiropractor page, the first-project scoping page, and the intake/recall children, what proof honestly supports it, and when no-show reduction is or is not the right next automation to build.\n\n### Core sections\n- What no-show reduction automation should actually handle in a chiropractic practice\n- This page vs. the rest of the chiropractic cluster\n- Is this a good fit for your chiropractic practice?\n- Guardrails that make chiropractic no-show workflows actually work\n- How a practical chiropractic no-show reduction workflow usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about automating chiropractic no-show reduction\nTopics: how this differs from the broader chiropractor automation page, how it differs from the intake-and-scheduling page, what a focused no-show workflow usually costs, whether deposits or hard policies are always needed, and what the main ROI actually is.\n\n### Final CTA\nHeading: Need fewer empty slots and fewer preventable chiropractic no-shows?\nBody: Book a 30-minute call. We will look at how your practice handles confirmations, reminders, reschedules, and at-risk visits today, then tell you whether a focused no-show reduction workflow is the cleanest automation to build next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes, and `scripts/geo-prompts.json`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the roadmap explicitly flagged a chiropractic no-show child as the strongest remaining nearby fallback, and the live chiropractor parent plus first-project page already isolated attendance protection as a distinct workflow leak beside intake, recall, and after-hours coverage."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/ai-automation-for-chiropractors`, `/what-to-automate-first-for-chiropractors`, `/new-patient-intake-and-scheduling-automation-for-chiropractors`, `/care-plan-recall-automation-for-chiropractors`, and `/no-show-reduction-automation` by staying only on confirmations, reminder cadence, reschedules, and recovering booked visits before the slot dies."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live chiropractor cluster, the generic no-show / booking guides, and the Paris Cafe immediate-response case study support the pattern without pretending there is already a dedicated chiropractic attendance case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T11:22:53.191Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "avgSentenceLength": 27,
+      "sentenceLengthRange": [
+        5,
+        56
+      ],
+      "totalWords": 324
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: No-Show Reduction Automation for Chiropractors\nBody: A lot of chiropractic practices do not only lose revenue at the intake stage or when patients disappear from care plans.",
+      "wordCount": 29,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need fewer empty slots and fewer preventable chiropractic no-shows?\nBody: Book a 30-minute call. We will look at how your practice handles confirmations, reminders, reschedules, and at-risk visits today, then tell you whether a focused no-show reduction workflow is the cleanest automation to build next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 20,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 9,
+      "commasPerSentence": 1.82
+    },
+    "vocabulary": {
+      "distinctWords": 173,
+      "totalWords": 324,
+      "topWords": [
+        [
+          "no-show",
+          10
+        ],
+        [
+          "chiropractic",
+          9
+        ],
+        [
+          "reduction",
+          7
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "it",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "page",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "actually",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "practical",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "not",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

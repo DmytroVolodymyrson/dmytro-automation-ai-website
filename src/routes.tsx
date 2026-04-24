@@ -147,6 +147,7 @@ import AiAutomationForChiropractors from "./pages/AiAutomationForChiropractors";
 import WhatToAutomateFirstForChiropractors from "./pages/WhatToAutomateFirstForChiropractors";
 import CarePlanRecallAutomationForChiropractors from "./pages/CarePlanRecallAutomationForChiropractors";
 import NewPatientIntakeAndSchedulingAutomationForChiropractors from "./pages/NewPatientIntakeAndSchedulingAutomationForChiropractors";
+import NoShowReductionAutomationForChiropractors from "./pages/NoShowReductionAutomationForChiropractors";
 import AiAutomationForCleaningCompanies from "./pages/AiAutomationForCleaningCompanies";
 import WhatToAutomateFirstForCleaningCompanies from "./pages/WhatToAutomateFirstForCleaningCompanies";
 import QuoteFollowUpAutomationForCleaningCompanies from "./pages/QuoteFollowUpAutomationForCleaningCompanies";
@@ -423,6 +424,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/what-to-automate-first-for-chiropractors", element: <WhatToAutomateFirstForChiropractors /> },
   { path: "/care-plan-recall-automation-for-chiropractors", element: <CarePlanRecallAutomationForChiropractors /> },
   { path: "/new-patient-intake-and-scheduling-automation-for-chiropractors", element: <NewPatientIntakeAndSchedulingAutomationForChiropractors /> },
+  { path: "/no-show-reduction-automation-for-chiropractors", element: <NoShowReductionAutomationForChiropractors /> },
   { path: "/ai-automation-for-cleaning-companies", element: <AiAutomationForCleaningCompanies /> },
   { path: "/what-to-automate-first-for-cleaning-companies", element: <WhatToAutomateFirstForCleaningCompanies /> },
   { path: "/quote-follow-up-automation-for-cleaning-companies", element: <QuoteFollowUpAutomationForCleaningCompanies /> },
