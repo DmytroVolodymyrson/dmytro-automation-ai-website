@@ -81,6 +81,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - `/quote-follow-up-automation-for-insurance-agencies`
 - `/cross-sell-automation-for-insurance-agencies`
 - `/ai-automation-for-property-management`
+- `/what-to-automate-first-for-property-management-companies`
 - `/maintenance-request-automation-for-property-management-companies`
 - `/after-hours-tenant-communication-for-property-management-companies`
 - `/after-hours-maintenance-triage-for-property-management-companies`

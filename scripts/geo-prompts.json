@@ -693,6 +693,18 @@
       ]
     },
     {
+      "id": "what-to-automate-first-for-property-management-companies",
+      "path": "/what-to-automate-first-for-property-management-companies",
+      "label": "What to Automate First for Property Management Companies",
+      "prompts": [
+        "What should a property management company automate first?",
+        "What property management workflow should I automate first maintenance intake lease renewals showing coordination or after-hours tenant communication?",
+        "Should a property management company start with maintenance request automation or lease renewal follow-up?",
+        "Should a property management team automate showing coordination before after-hours tenant communication?",
+        "How do I choose the first automation project for a property management company?"
+      ]
+    },
+    {
       "id": "lease-renewal-automation-for-property-management-companies",
       "path": "/lease-renewal-automation-for-property-management-companies",
       "label": "Lease Renewal Automation for Property Management Companies",

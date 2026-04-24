@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped what-to-automate-first-for-restaurants after another proof-led reconciliation. The neat backlog is still exhausted, but the live restaurant cluster still held one exact first-project scoping query inside the broader parent page: what the restaurant should automate first. That query stayed materially distinct from the broader restaurant page and the already-live missed-call, reservation-reminder, private-event, and after-hours phone child pages. The new page stays tightly on first-project prioritization — missed-call recovery, reservation reminders, private-event inquiry follow-up, or after-hours phone answering — while using the live Paris Cafe case study plus the restaurant cluster instead of pretending there is already a separate restaurant prioritization case study.)
+Last updated: 2026-04-23 (shipped what-to-automate-first-for-property-management-companies after another proof-led reconciliation. The neat backlog is still exhausted, but the live property-management cluster still supported one materially distinct first-project scoping page: which workflow should come first — maintenance intake, lease renewals, showing coordination, or after-hours tenant communication. That page stays one level earlier than the broader property-management parent and the already-live child pages, while using the live property-management cluster plus published communication and CRM proof instead of pretending there is already a direct property-management prioritization case study.)
 
 ## Live GEO Assets
 
@@ -95,6 +95,7 @@ Last updated: 2026-04-23 (shipped what-to-automate-first-for-restaurants after a
 | Quote Follow-Up Automation for Insurance Agencies | `/quote-follow-up-automation-for-insurance-agencies` | Industry workflow page | Live |
 | Cross-Sell Automation for Insurance Agencies | `/cross-sell-automation-for-insurance-agencies` | Industry workflow page | Live |
 | AI Automation for Property Management | `/ai-automation-for-property-management` | Industry page | Live |
+| What to Automate First for Property Management Companies | `/what-to-automate-first-for-property-management-companies` | Property-management first-project scoping page | Live |
 | Lease Renewal Automation for Property Management Companies | `/lease-renewal-automation-for-property-management-companies` | Industry workflow page | Live |
 | Showing Coordination Automation for Property Management Companies | `/showing-coordination-automation-for-property-management-companies` | Industry workflow page | Live |
 | Maintenance Request Automation for Property Management Companies | `/maintenance-request-automation-for-property-management-companies` | Industry workflow page | Live |
@@ -190,14 +191,14 @@ Last updated: 2026-04-23 (shipped what-to-automate-first-for-restaurants after a
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 169**
+**Total decision/comparison/industry pages live: 170**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/what-to-automate-first-for-restaurants` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters.
+Shipping `/what-to-automate-first-for-property-management-companies` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|

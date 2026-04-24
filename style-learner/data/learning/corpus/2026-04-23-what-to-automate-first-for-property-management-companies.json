@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-what-to-automate-first-for-property-management-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: What to Automate First for Property Management Companies\nBody: If your property management company knows it needs better automation, the safest first move is usually not a giant all-in-one platform rebuild. It is one bounded workflow that fixes an expensive communication leak first. For most property management teams, that first workflow is one of four things: maintenance request intake and routing, lease renewal follow-up, showing coordination for vacancies, or after-hours tenant communication and escalation. The right choice depends on where time, occupancy, and resident trust are already slipping today — when maintenance requests arrive through five channels with no clear triage, when renewals go quiet until vacancy risk is already close, when leasing staff lose prospects to slow showing coordination, or when nights and weekends keep turning routine tenant messages into on-call chaos.\nSub: Below: how to choose the first property-management workflow to automate, how this page stays distinct from the broader parent page and the already-live child pages, what adjacent proof supports the recommendation, and when you should keep the first project smaller instead of forcing a bigger operations rebuild.\n\n### Core sections\n- Extracts a still-distinct first-project scoping decision from the live property-management cluster instead of leaving that buyer question buried inside the broader parent page and narrower workflow children.\n- Keeps the frame tightly on four commercially distinct property-management leaks: maintenance intake, lease renewals, showing coordination, and after-hours tenant communication.\n- Uses the live property-management cluster as direct adjacent workflow proof, plus the Paris Cafe and WheelsFeels case studies as honest cross-vertical proof for after-hours communication and structured routing.\n- Preserves clear separation from the existing property-management children by staying one level earlier in the decision chain: not how to run one workflow, but which workflow should come first.\n\n### FAQ\nSubhead: Practical questions about choosing the first property-management automation\nTopics: what a property management company should automate first, how this differs from the broader parent page, when maintenance intake should come before lease renewals, when after-hours tenant communication should outrank other workflows, and whether one first workflow can justify a broader rollout later.\n\n### Final CTA\nHeading: Need help choosing the first property-management workflow to automate?\nBody: Book a 30-minute call. We will look at where your property-management operation is leaking through maintenance intake, lease renewals, showing coordination, or after-hours tenant communication now, then recommend the narrowest first workflow worth building before anything broader gets funded.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after a broad backlog reconciliation because the neat queue was exhausted, but the live property-management cluster still supported a materially distinct first-project scoping page beside the broader parent and narrower child workflows."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The new page stays materially distinct from `/ai-automation-for-property-management`, `/maintenance-request-automation-for-property-management-companies`, `/lease-renewal-automation-for-property-management-companies`, `/showing-coordination-automation-for-property-management-companies`, and `/after-hours-tenant-communication-for-property-management-companies` by isolating the prioritization decision itself."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: no invented property-management case study, just the already-live cluster plus published communication and CRM proof from existing case studies."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype with explicit guidance on where a lighter first workflow is enough, where overnight communication deserves to come first, and when not to force a broader rebuild yet."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T01:24:47.104Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 30.6,
+      "sentenceLengthRange": [
+        5,
+        58
+      ],
+      "totalWords": 398
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: What to Automate First for Property Management Companies\nBody: If your property management company knows it needs better automation, the safest first move is usually not a giant all-in-one platform rebuild.",
+      "wordCount": 33,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help choosing the first property-management workflow to automate?\nBody: Book a 30-minute call. We will look at where your property-management operation is leaking through maintenance intake, lease renewals, showing coordination, or after-hours tenant communication now, then recommend the narrowest first workflow worth building before anything broader gets funded.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 12,
+      "commas": 26,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 11,
+      "commasPerSentence": 2
+    },
+    "vocabulary": {
+      "distinctWords": 216,
+      "totalWords": 398,
+      "topWords": [
+        [
+          "first",
+          12
+        ],
+        [
+          "workflow",
+          10
+        ],
+        [
+          "property-management",
+          8
+        ],
+        [
+          "when",
+          7
+        ],
+        [
+          "communication",
+          6
+        ],
+        [
+          "one",
+          5
+        ],
+        [
+          "maintenance",
+          5
+        ],
+        [
+          "after-hours",
+          5
+        ],
+        [
+          "tenant",
+          5
+        ],
+        [
+          "broader",
+          5
+        ],
+        [
+          "should",
+          5
+        ],
+        [
+          "automate",
+          4
+        ],
+        [
+          "property",
+          4
+        ],
+        [
+          "management",
+          4
+        ],
+        [
+          "intake",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

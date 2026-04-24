@@ -93,6 +93,7 @@ import RenewalReminderAutomationForInsuranceAgencies from "./pages/RenewalRemind
 import QuoteFollowUpAutomationForInsuranceAgencies from "./pages/QuoteFollowUpAutomationForInsuranceAgencies";
 import CrossSellAutomationForInsuranceAgencies from "./pages/CrossSellAutomationForInsuranceAgencies";
 import AiAutomationForPropertyManagement from "./pages/AiAutomationForPropertyManagement";
+import WhatToAutomateFirstForPropertyManagementCompanies from "./pages/WhatToAutomateFirstForPropertyManagementCompanies";
 import LeaseRenewalAutomationForPropertyManagementCompanies from "./pages/LeaseRenewalAutomationForPropertyManagementCompanies";
 import ShowingCoordinationAutomationForPropertyManagementCompanies from "./pages/ShowingCoordinationAutomationForPropertyManagementCompanies";
 import MaintenanceRequestAutomationForPropertyManagementCompanies from "./pages/MaintenanceRequestAutomationForPropertyManagementCompanies";
@@ -301,6 +302,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/quote-follow-up-automation-for-insurance-agencies", element: <QuoteFollowUpAutomationForInsuranceAgencies /> },
   { path: "/cross-sell-automation-for-insurance-agencies", element: <CrossSellAutomationForInsuranceAgencies /> },
   { path: "/ai-automation-for-property-management", element: <AiAutomationForPropertyManagement /> },
+  { path: "/what-to-automate-first-for-property-management-companies", element: <WhatToAutomateFirstForPropertyManagementCompanies /> },
   { path: "/lease-renewal-automation-for-property-management-companies", element: <LeaseRenewalAutomationForPropertyManagementCompanies /> },
   { path: "/showing-coordination-automation-for-property-management-companies", element: <ShowingCoordinationAutomationForPropertyManagementCompanies /> },
   { path: "/maintenance-request-automation-for-property-management-companies", element: <MaintenanceRequestAutomationForPropertyManagementCompanies /> },

@@ -862,6 +862,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Property Management Companies",
+    description:
+      "Scoping guide for property-management teams deciding whether the first automation should be maintenance intake, lease renewals, showing coordination, or after-hours tenant communication before a broader rollout.",
+    href: "/what-to-automate-first-for-property-management-companies",
+    category: "industries",
+  },
+  {
     title: "Lease Renewal Automation for Property Management Companies",
     description:
       "A narrower property-management retention page focused on lease renewal reminders, resident response handling, manager escalation, and reducing surprise vacancy risk.",
