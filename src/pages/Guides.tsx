@@ -1296,6 +1296,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Seasonal Campaign Automation for Pest Control Companies",
+    description:
+      "Timed seasonal outreach for pest control companies bringing past clients back for spring ant prevention, mosquito treatments, fall rodent work, wildlife reminders, and other pre-season offers before demand goes cold.",
+    href: "/seasonal-campaign-automation-for-pest-control-companies",
+    category: "industries",
+  },
+  {
     title: "Urgent Lead Follow-Up for Pest Control Companies",
     description:
       "Early-funnel workflow for pest control companies that keep losing urgent homeowner demand before the first visit is booked — faster first response, multi-step nurture, light qualification, and cleaner office handoff.",

@@ -1756,7 +1756,7 @@
         "AI automation for pest control companies",
         "How should a pest control company prioritize missed-call recovery, recurring-service management, seasonal campaigns, and quote follow-up before a bigger automation build?",
         "Best AI automation for pest control companies that miss inbound calls",
-        "How should a pest control company connect missed-call recovery, renewal reminders, seasonal campaigns, and review asks into one operating system?",
+        "How should a pest control company connect missed-call recovery, renewal reminders, quote follow-up, and review asks into one operating system?",
         "What should the full automation stack for a pest control company include once the first workflow is working?"
       ]
     },
@@ -1782,6 +1782,18 @@
         "Best way to keep pest-control renewal reminders from slipping through the cracks",
         "How should a pest control company remind recurring customers before service lapses or annual plans expire?",
         "When should a pest control company fix recurring-service reminders before building broader seasonal marketing?"
+      ]
+    },
+    {
+      "id": "seasonal-campaign-automation-for-pest-control-companies",
+      "path": "/seasonal-campaign-automation-for-pest-control-companies",
+      "label": "Seasonal Campaign Automation for Pest Control Companies",
+      "prompts": [
+        "Seasonal campaign automation for pest control companies",
+        "How do pest control companies automate seasonal campaigns without blasting the whole list?",
+        "Best way to reactivate past pest-control customers before spring ant or mosquito season",
+        "How should a pest control company time fall rodent and wildlife outreach before demand spikes?",
+        "When should a pest control company build seasonal campaign automation after recurring-service reminders are already stable?"
       ]
     },
     {
