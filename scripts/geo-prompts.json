@@ -1473,6 +1473,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-vs-ai-phone-answering-for-med-spas",
+      "path": "/missed-call-text-back-vs-ai-phone-answering-for-med-spas",
+      "label": "Missed Call Text-Back vs. AI Phone Answering for Med Spas",
+      "prompts": [
+        "Missed call text-back vs AI phone answering for med spas",
+        "Should a med spa use missed-call text-back or live AI phone answering?",
+        "When is SMS-first missed-call recovery enough for a med spa instead of live AI phone answering?",
+        "What is better for a med spa that keeps missing consultation calls: text-back or AI phone answering?",
+        "How should a med spa choose between SMS-first missed-call recovery and live AI phone coverage?"
+      ]
+    },
+    {
       "id": "ai-phone-answering-for-med-spas",
       "path": "/ai-phone-answering-for-med-spas",
       "label": "AI Phone Answering for Med Spas",

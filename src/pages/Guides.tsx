@@ -1170,6 +1170,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. AI Phone Answering for Med Spas",
+    description:
+      "A narrower med spa buyer-decision page focused on when SMS-first missed-call recovery is enough, when live AI phone coverage becomes the better fit, and how to judge consultation-call economics without overbuilding.",
+    href: "/missed-call-text-back-vs-ai-phone-answering-for-med-spas",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Med Spas",
     description:
       "A narrower med spa phone-coverage page focused on live consultation call handling, after-hours inquiry coverage, routine booking questions, and front-desk handoff when voicemail is too weak.",
