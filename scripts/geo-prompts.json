@@ -1515,9 +1515,21 @@
       "prompts": [
         "Missed call text-back for chiropractors",
         "How do chiropractors text back missed calls automatically?",
-        "Should a chiropractor use missed-call text-back or just voicemail and callbacks?",
+        "How should a chiropractic office route missed-call text replies and callbacks without losing booking intent?",
         "When is SMS-first missed-call recovery enough for a chiropractic practice?",
         "How can a chiropractor stop losing new-patient calls while the front desk is busy?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-voicemail-for-chiropractors",
+      "path": "/missed-call-text-back-vs-voicemail-for-chiropractors",
+      "label": "Missed Call Text-Back vs. Voicemail for Chiropractors",
+      "prompts": [
+        "Missed call text-back vs voicemail for chiropractors",
+        "Should a chiropractor use missed-call text-back or just voicemail and callbacks?",
+        "When is a chiropractic practice better off with SMS-first missed-call recovery instead of voicemail?",
+        "Is voicemail enough for missed new-patient calls at a chiropractic office?",
+        "Best chiropractic missed-call recovery setup text-back or voicemail"
       ]
     },
     {
