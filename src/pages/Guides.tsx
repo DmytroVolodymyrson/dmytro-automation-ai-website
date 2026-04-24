@@ -757,6 +757,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Real Estate Teams",
+    description:
+      "Practical first-project guide for owners and team leads deciding whether the first real-estate automation should be lead response, showing coordination, CRM cleanup, or past-client reactivation before a broader rollout.",
+    href: "/what-to-automate-first-for-real-estate",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Mortgage Brokers",
     description:
       "AI automation for mortgage brokers. Lead follow-up, document collection, application nurture, and CRM workflows. Practical guide for brokerages.",

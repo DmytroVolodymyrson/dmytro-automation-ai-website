@@ -62,6 +62,7 @@ import AiAutomationConsultantCanada from "./pages/AiAutomationConsultantCanada";
 import AiAutomationForRealEstate from "./pages/AiAutomationForRealEstate";
 import RealEstateLeadResponseAndFollowUpAutomation from "./pages/RealEstateLeadResponseAndFollowUpAutomation";
 import ShowingCoordinationAutomationForRealEstateTeams from "./pages/ShowingCoordinationAutomationForRealEstateTeams";
+import WhatToAutomateFirstForRealEstate from "./pages/WhatToAutomateFirstForRealEstate";
 import AiAutomationForMortgageBrokers from "./pages/AiAutomationForMortgageBrokers";
 import AiLeadFollowUpForMortgageBrokers from "./pages/AiLeadFollowUpForMortgageBrokers";
 import DocumentCollectionAutomationForMortgageBrokers from "./pages/DocumentCollectionAutomationForMortgageBrokers";
@@ -345,6 +346,7 @@ export const appRoutes: AppRouteDefinition[] = [
     path: "/showing-coordination-automation-for-real-estate-teams",
     element: <ShowingCoordinationAutomationForRealEstateTeams />,
   },
+  { path: "/what-to-automate-first-for-real-estate", element: <WhatToAutomateFirstForRealEstate /> },
   { path: "/ai-automation-for-mortgage-brokers", element: <AiAutomationForMortgageBrokers /> },
   { path: "/ai-lead-follow-up-for-mortgage-brokers", element: <AiLeadFollowUpForMortgageBrokers /> },
   { path: "/document-collection-automation-for-mortgage-brokers", element: <DocumentCollectionAutomationForMortgageBrokers /> },

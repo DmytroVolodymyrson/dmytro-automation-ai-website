@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-24-what-to-automate-first-for-real-estate",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-24",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: What to Automate First for Real Estate Teams\nBody: If your real estate business knows it needs better automation, the first move usually should not be a giant all-in-one CRM rebuild. It should be one bounded workflow that fixes the leak already costing you conversations, showings, or follow-up discipline. For most agents and teams, that first project is one of four things: lead response while new inquiries are still deciding who answers first, showing coordination once a prospect wants the next step, CRM cleanup and pipeline automation when leads are getting lost between stages, or past-client reactivation when the database is full of people who already know you but never hear from you consistently. The right first build depends on where momentum is breaking today — before the first conversation, between inquiry and booked showing, inside the CRM itself, or after the deal closes when referral and repeat-opportunity follow-up quietly stops.\nSub: Below: how to choose the first real-estate workflow to automate, how this page stays distinct from the broader real-estate parent and the narrower lead-response and showing-coordination pages already live, what honest adjacent proof supports the recommendation, and when you should keep the first build smaller instead of forcing a broader ops overhaul too early.\n\n### Core sections\n- The first real-estate workflows usually worth automating\n- Which real-estate workflow should you automate first?\n- This page vs. the rest of the real-estate cluster\n- Is this a good fit for your real-estate business?\n- How to choose the first real-estate automation without overbuilding\n- Relevant proof and adjacent proof\n\n### FAQ\nSubhead: Practical questions about choosing the first real-estate automation project\nTopics: what a real-estate team should automate first, how this differs from the broader real-estate automation page, when lead response or showing coordination should come first, whether CRM cleanup should come before response automation, and when database reactivation is the better first build.\n\n### Final CTA\nHeading: Need help choosing the first real-estate workflow to automate?\nBody: Book a 30-minute call. We will look at where your real-estate business is actually leaking lead momentum or team time today, tell you which workflow should come first, and show you what a smaller first build would need to include before you fund a broader automation rollout.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped from the roadmap's top queued candidate after broad backlog reconciliation still showed a clean surviving first-project gap in the real-estate cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The live real-estate parent plus the lead-response and showing-coordination child pages already exposed distinct workflow families, but there was still no page helping an owner or team lead choose which bounded workflow should come first."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/ai-automation-for-real-estate`, `/real-estate-lead-response-and-follow-up-automation`, and `/showing-coordination-automation-for-real-estate-teams` by staying only on the earlier process-selection decision itself."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live real-estate cluster plus the published e-commerce CRM case study and adjacent response / booking proof support the workflow logic without pretending there is already a dedicated real-estate first-project case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T20:33:30.653Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 28.8,
+      "sentenceLengthRange": [
+        4,
+        65
+      ],
+      "totalWords": 375
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: What to Automate First for Real Estate Teams\nBody: If your real estate business knows it needs better automation, the first move usually should not be a giant all-in-one CRM rebuild.",
+      "wordCount": 33,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help choosing the first real-estate workflow to automate?\nBody: Book a 30-minute call. We will look at where your real-estate business is actually leaking lead momentum or team time today, tell you which workflow should come first, and show you what a smaller first build would need to include before you fund a broader automation rollout.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 19,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 3,
+      "colon": 9,
+      "commasPerSentence": 1.58
+    },
+    "vocabulary": {
+      "distinctWords": 184,
+      "totalWords": 375,
+      "topWords": [
+        [
+          "first",
+          18
+        ],
+        [
+          "real-estate",
+          12
+        ],
+        [
+          "should",
+          8
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "when",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "automate",
+          5
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "crm",
+          4
+        ],
+        [
+          "build",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "broader",
+          4
+        ],
+        [
+          "your",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

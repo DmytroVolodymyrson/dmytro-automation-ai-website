@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `what-to-automate-first-for-mortgage-brokers` because the roadmap's top queued candidate still survived broad reconciliation cleanly. The live mortgage parent plus its lead-follow-up, document-collection, and incomplete-application children already exposed a mature cluster, but there was still no page helping a brokerage owner choose which bounded workflow should come first. The new page stays distinct by framing the buyer decision one step earlier than the existing mortgage child pages instead of rehashing any single workflow.)
+Last updated: 2026-04-24 (shipped `what-to-automate-first-for-real-estate` because the roadmap's top queued candidate still survived broad reconciliation cleanly. The live real-estate parent plus the lead-response and showing-coordination children already exposed a clean cluster, but there was still no page helping an owner or team lead choose which bounded workflow should come first. The new page stays distinct by framing the buyer decision one step earlier than the existing real-estate child pages instead of rehashing any single workflow.)
 
 ## Live GEO Assets
 
@@ -64,6 +64,7 @@ Last updated: 2026-04-24 (shipped `what-to-automate-first-for-mortgage-brokers` 
 | AI Automation for Real Estate | `/ai-automation-for-real-estate` | Industry page | Live |
 | Real Estate Lead Response and Follow-Up Automation | `/real-estate-lead-response-and-follow-up-automation` | Industry workflow page | Live |
 | Showing Coordination Automation for Real Estate Teams | `/showing-coordination-automation-for-real-estate-teams` | Industry workflow page | Live |
+| What to Automate First for Real Estate Teams | `/what-to-automate-first-for-real-estate` | Real-estate first-project scoping page | Live |
 | AI Automation for Mortgage Brokers | `/ai-automation-for-mortgage-brokers` | Industry page | Live |
 | AI Lead Follow-Up for Mortgage Brokers | `/ai-lead-follow-up-for-mortgage-brokers` | Industry workflow page | Live |
 | Document Collection Automation for Mortgage Brokers | `/document-collection-automation-for-mortgage-brokers` | Industry workflow page | Live |
@@ -261,20 +262,20 @@ Last updated: 2026-04-24 (shipped `what-to-automate-first-for-mortgage-brokers` 
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 235**
+**Total decision/comparison/industry pages live: 236**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/what-to-automate-first-for-mortgage-brokers` closes the roadmap's clearest surviving mortgage first-project gap. The mortgage cluster now has the broad parent, a first-project scoping page, lead follow-up, document collection, and incomplete-application recovery. The next run should not force another mortgage child by inertia. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only come back to a same-cluster child if that broader audit still cannot surface a cleaner proof-backed net-new page.
+Shipping `/what-to-automate-first-for-real-estate` closes the roadmap's clearest surviving real-estate first-project gap. The real-estate cluster now has the broad parent, a first-project scoping page, lead-response coverage, and showing-coordination coverage. The next run should not force another real-estate child by inertia. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only come back to a same-cluster child if that broader audit still cannot surface a cleaner proof-backed net-new page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued** | `what-to-automate-first-for-real-estate` | Team leads choosing between the already-live real-estate workflow families before funding a broader rollout | The real-estate cluster now has a strong parent plus lead-response and showing-coordination children, but it still lacks the earlier process-selection layer that helps an owner choose which workflow deserves the first build. | **Best next content candidate** |
-| 2 | **Queued fallback** | Review-request / reputation-closeout children in mature service verticals | Re-check whether another live parent still names a distinct review-request, post-service closeout, or reputation-protection workflow that can stand alone without cannibalizing the broader vertical page | Use this only if the next broad reconciliation cannot find a cleaner proof-backed first-project or workflow child elsewhere. | **Strong fallback** |
-| 3 | **Queued fallback** | Another clean first-project child surfaced by fresh reconciliation | Owners choosing between the already-live workflow families inside a mature vertical cluster | If the broader audit surfaces another cluster with a clear parent plus several narrower child workflows but no process-selection layer yet, prefer that over inventing a weak adjacent page. | **Fallback if broader audit finds a cleaner first-project gap** |
+| 1 | **Queued fallback** | Review-request / reputation-closeout children in mature service verticals | Owners trying to protect completed jobs, testimonials, and reputation signals after service delivery | Broad reconciliation still suggests post-service closeout pages may be the cleanest remaining gap if another first-project page does not surface with stronger proof and cleaner separation. | **Best next content candidate after fresh audit** |
+| 2 | **Queued fallback** | Another clean first-project child surfaced by fresh reconciliation | Owners choosing between already-live workflow families inside a mature vertical cluster | If the broader audit surfaces another cluster with a clear parent plus several narrower child workflows but no process-selection layer yet, prefer that over inventing a weak adjacent page. | **Strong fallback** |
+| 3 | **Watchlist** | Real-estate CRM cleanup / past-client reactivation child pages | Real-estate teams deciding whether database cleanup or sphere reactivation deserves its own narrower workflow page | Only revisit the real-estate cluster if broader reconciliation cannot find a cleaner proof-backed page elsewhere and one of these parent-level workflows still survives as a materially distinct child. | **Re-check later; do not force next** |
 
 ### Priority Definitions
 
