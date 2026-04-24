@@ -2385,6 +2385,18 @@
       ]
     },
     {
+      "id": "review-request-automation-for-painting-contractors",
+      "path": "/review-request-automation-for-painting-contractors",
+      "label": "Review Request Automation for Painting Contractors",
+      "prompts": [
+        "Review request automation for painting contractors",
+        "How do painting contractors ask for Google reviews automatically after completed projects?",
+        "Best way to automate review requests for painting jobs without pushing unhappy homeowners too early",
+        "When should a painting contractor ask for reviews after a project is finished or punch-list items are closed?",
+        "How should a painting company route touch-up or cleanup replies before asking for a public review?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-home-inspectors",
       "path": "/what-to-automate-first-for-home-inspectors",
       "label": "What to Automate First for Home Inspectors",
