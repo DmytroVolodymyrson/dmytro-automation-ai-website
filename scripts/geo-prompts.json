@@ -1449,6 +1449,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-for-med-spas",
+      "path": "/ai-phone-answering-for-med-spas",
+      "label": "AI Phone Answering for Med Spas",
+      "prompts": [
+        "AI phone answering for med spas",
+        "How should a med spa handle after-hours consultation calls without relying on voicemail?",
+        "When does a med spa need live AI phone answering instead of next-day callbacks?",
+        "Best way for a med spa to answer consultation inquiries after hours",
+        "Should a med spa use live AI phone answering or a lighter missed-call workflow?"
+      ]
+    },
+    {
       "id": "consultation-booking-and-reminder-automation-for-med-spas",
       "path": "/consultation-booking-and-reminder-automation-for-med-spas",
       "label": "Consultation Booking and Reminder Automation for Med Spas",

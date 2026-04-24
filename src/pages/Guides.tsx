@@ -1156,6 +1156,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering for Med Spas",
+    description:
+      "A narrower med spa phone-coverage page focused on live consultation call handling, after-hours inquiry coverage, routine booking questions, and front-desk handoff when voicemail is too weak.",
+    href: "/ai-phone-answering-for-med-spas",
+    category: "industries",
+  },
+  {
     title: "Consultation Booking and Reminder Automation for Med Spas",
     description:
       "A narrower med spa workflow page focused on consultation scheduling friction, confirmation discipline, reminder timing, reschedule routing, and fewer no-shows before the visit happens.",
