@@ -1575,9 +1575,21 @@
       "prompts": [
         "What should a landscaping company automate first?",
         "What should a landscaping company automate first missed calls estimate follow-up recurring service reminders or seasonal reactivation?",
-        "Should a landscaping company start with estimate follow-up or seasonal reactivation automation?",
+        "Should a landscaping company start with missed-call recovery or estimate follow-up first?",
         "Should a landscaping company automate missed-call recovery before recurring service scheduling?",
         "How do I choose the first automation project for my landscaping company?"
+      ]
+    },
+    {
+      "id": "seasonal-reactivation-automation-for-landscaping-companies",
+      "path": "/seasonal-reactivation-automation-for-landscaping-companies",
+      "label": "Seasonal Reactivation Automation for Landscaping Companies",
+      "prompts": [
+        "Seasonal reactivation automation for landscaping companies",
+        "How do landscaping companies reactivate past clients before spring cleanup season?",
+        "Best way for a landscaping company to bring old clients back for seasonal services",
+        "Should a landscaping company automate spring and fall outreach to past customers?",
+        "How do I automate seasonal upsell campaigns for a landscaping company without blasting everyone?"
       ]
     },
     {

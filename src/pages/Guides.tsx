@@ -1191,6 +1191,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Seasonal Reactivation Automation for Landscaping Companies",
+    description:
+      "Timed outreach for landscaping companies to bring past clients back before spring cleanup, mulching, fall cleanup, and snow-season demand gets handled too late.",
+    href: "/seasonal-reactivation-automation-for-landscaping-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Painting Contractors",
     description:
       "AI automation for painting contractors. Lead follow-up, estimate follow-up, referral nurture, seasonal campaigns, and review automation.",

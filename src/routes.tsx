@@ -166,6 +166,7 @@ import AiPhoneAnsweringForAutoRepairShops from "./pages/AiPhoneAnsweringForAutoR
 import AiPhoneAnsweringVsVoicemailForAutoRepairShops from "./pages/AiPhoneAnsweringVsVoicemailForAutoRepairShops";
 import AiAutomationForLandscapingCompanies from "./pages/AiAutomationForLandscapingCompanies";
 import WhatToAutomateFirstForLandscapingCompanies from "./pages/WhatToAutomateFirstForLandscapingCompanies";
+import SeasonalReactivationAutomationForLandscapingCompanies from "./pages/SeasonalReactivationAutomationForLandscapingCompanies";
 import AiAutomationForPaintingContractors from "./pages/AiAutomationForPaintingContractors";
 import AiAutomationForHomeInspectors from "./pages/AiAutomationForHomeInspectors";
 import AiAutomationCostSmallBusiness from "./pages/AiAutomationCostSmallBusiness";
@@ -406,6 +407,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-phone-answering-vs-voicemail-for-auto-repair-shops", element: <AiPhoneAnsweringVsVoicemailForAutoRepairShops /> },
   { path: "/ai-automation-for-landscaping-companies", element: <AiAutomationForLandscapingCompanies /> },
   { path: "/what-to-automate-first-for-landscaping-companies", element: <WhatToAutomateFirstForLandscapingCompanies /> },
+  { path: "/seasonal-reactivation-automation-for-landscaping-companies", element: <SeasonalReactivationAutomationForLandscapingCompanies /> },
   { path: "/ai-automation-for-painting-contractors", element: <AiAutomationForPaintingContractors /> },
   { path: "/ai-automation-for-home-inspectors", element: <AiAutomationForHomeInspectors /> },
   { path: "/ai-automation-cost-small-business", element: <AiAutomationCostSmallBusiness /> },
