@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped missed-call-text-back-for-painting-contractors after another proof-led reconciliation. The neat backlog is still exhausted, but the live painting cluster still supported one more materially distinct child page because the already-live parent and first-project page both exposed missed-call recovery as a separate buyer problem from estimate follow-up. The page stays tighter than the broader painting parent, uses the live cluster plus adjacent phone-handling and home-service sibling proof, and does not pretend there is already a direct painting-only missed-call case study.)
+Last updated: 2026-04-23 (shipped missed-call-text-back-vs-voicemail-for-painting-contractors after another proof-led reconciliation. The neat backlog is still exhausted, but the live painting phone cluster still supported one more materially distinct child page because the already-live missed-call page and tracked prompts exposed the lighter fallback buyer decision itself: stay with voicemail or move to SMS-first recovery. The page stays tighter than the broader painting parent and missed-call workflow page, uses the live cluster plus adjacent phone-handling and home-service sibling comparison proof, and does not pretend there is already a direct painting-only voicemail comparison case study.)
 
 ## Live GEO Assets
 
@@ -186,6 +186,7 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-for-painting-contractors
 | Estimate Follow-Up Automation for Painting Contractors | `/estimate-follow-up-automation-for-painting-contractors` | Painting estimate-recovery workflow page | Live |
 | What to Automate First for Painting Contractors | `/what-to-automate-first-for-painting-contractors` | Painting first-project scoping page | Live |
 | Missed Call Text-Back for Painting Contractors | `/missed-call-text-back-for-painting-contractors` | Painting phone-recovery workflow page | Live |
+| Missed Call Text-Back vs. Voicemail for Painting Contractors | `/missed-call-text-back-vs-voicemail-for-painting-contractors` | Painting lighter-fallback decision page | Live |
 | AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
 | Missed Call Text-Back for Home Inspectors | `/missed-call-text-back-for-home-inspectors` | Home-inspector phone-recovery workflow page | Live |
 | AI Automation Cost (SMB) | `/ai-automation-cost-small-business` | Authority page | Live |
@@ -201,14 +202,14 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-for-painting-contractors
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 179**
+**Total decision/comparison/industry pages live: 180**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/missed-call-text-back-for-painting-contractors` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters. The next likely wins are still other thin live parent clusters or tightly bounded child workflows, but only if the query stays proof-backed and materially distinct.
+Shipping `/missed-call-text-back-vs-voicemail-for-painting-contractors` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters. The next likely wins are still other thin live parent clusters or tightly bounded child workflows, but only if the query stays proof-backed and materially distinct.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|

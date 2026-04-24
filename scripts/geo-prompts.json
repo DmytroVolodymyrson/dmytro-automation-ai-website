@@ -1672,8 +1672,20 @@
         "Missed call text-back for painting contractors",
         "How do painting contractors text back missed calls automatically?",
         "Best way for a painting contractor to recover missed quote calls while crews are on-site",
-        "Should a painting contractor use missed-call text-back or voicemail?",
+        "When should a painting contractor use missed-call text-back instead of live phone answering?",
         "How can a painting company stop losing homeowners who call while the crew is still in the field?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-voicemail-for-painting-contractors",
+      "path": "/missed-call-text-back-vs-voicemail-for-painting-contractors",
+      "label": "Missed Call Text-Back vs. Voicemail for Painting Contractors",
+      "prompts": [
+        "Should a painting contractor use missed-call text-back or voicemail?",
+        "Missed call text-back vs voicemail for painting contractors",
+        "Is voicemail enough for painting quote calls or should I use SMS-first recovery?",
+        "When is a painting company better off with missed-call text-back instead of voicemail?",
+        "Best painting-contractor missed-call recovery setup text-back or voicemail"
       ]
     },
     {
