@@ -378,3 +378,16 @@ Notes:
 - All APIs returned substantive answers with web search grounding — no errors.
 - dmytroai.com not yet in any provider's search index for these queries.
 - Anthropic/Claude had highest latency (~20-40s) due to web search tool execution.
+
+## Weekly Note — 2026-04-24
+
+Week of: 2026-04-24
+
+Summary:
+- Live site now has a much broader GEO footprint than the original baseline: homepage, consultant pages, Calgary page, HVAC page, GoHighLevel setup page, restaurant voice-agent page, and many vertical/decision pages are all live and crawlable.
+- Brand visibility is still weak in open web search. Perplexity search for `DmytroAI`, `dmytroai`, and `dmytro ai` did not surface dmytroai.com directly in the top results; the strongest branded result was the n8n creator profile referencing the site.
+- Current direct 4-provider runner spot-check on 2026-04-24 again started with zeros across early prompts for OpenAI, Anthropic, and Gemini. Perplexity inside the repo runner is still failing due to invalid API key.
+- Manual Perplexity Ask proxy checks: dmytroai.com is identifiable when asked about the brand directly, but absent from unbranded buyer-intent recommendation prompts for small-business consultants, Calgary consultants, restaurant after-hours call handling, and GoHighLevel setup help.
+
+Key implication:
+- The site is content-ready enough to be cited, but recommendation visibility is still near-zero for the commercial prompts that matter most.
