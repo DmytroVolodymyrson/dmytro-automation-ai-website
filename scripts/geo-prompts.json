@@ -1923,7 +1923,7 @@
       "prompts": [
         "AI automation for auto repair shops",
         "How should an auto repair shop prioritize missed calls, estimates, reminders, and maintenance campaigns?",
-        "Best AI tools for auto repair customer follow-up",
+        "Best AI automation system for a busy auto repair shop front desk",
         "How do missed calls, reminders, estimate follow-up, and maintenance campaigns fit together in an auto repair shop?",
         "What auto repair shop workflows are actually worth automating?"
       ]
@@ -1934,10 +1934,22 @@
       "label": "What to Automate First for Auto Repair Shops",
       "prompts": [
         "What should an auto repair shop automate first?",
-        "Should a mechanic shop fix missed calls, estimate follow-up, reminders, or maintenance campaigns first?",
+        "Should a mechanic shop fix fresh lead response, missed calls, estimate follow-up, reminders, or maintenance campaigns first?",
         "Best first automation for auto repair shop",
-        "How should an auto repair shop prioritize calls, estimates, booked visits, and repeat-customer follow-up?",
+        "How should an auto repair shop prioritize calls, fresh inquiries, estimates, booked visits, and repeat-customer follow-up?",
         "What is the highest ROI first automation project for an auto repair shop?"
+      ]
+    },
+    {
+      "id": "ai-lead-follow-up-for-auto-repair-shops",
+      "path": "/ai-lead-follow-up-for-auto-repair-shops",
+      "label": "AI Lead Follow-Up for Auto Repair Shops",
+      "prompts": [
+        "AI lead follow-up for auto repair shops",
+        "How should an auto repair shop follow up with new repair inquiries faster?",
+        "Best way to automate auto repair quote response before the estimate is written",
+        "How do mechanic shops stop fresh web leads from going cold before the service advisor calls back?",
+        "Should an auto repair shop fix fresh lead response before estimate follow-up or appointment reminders?"
       ]
     },
     {

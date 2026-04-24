@@ -90,7 +90,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Automation Consultant Calgary** — `/ai-automation-consultant-calgary`
 - **AI Automation Consultant Edmonton** — `/ai-automation-consultant-edmonton`
 
-### Industry + vertical pages (132)
+### Industry + vertical pages (133)
 - **After-Hours AI Phone Answering vs. Voicemail for Restaurants** — `/after-hours-ai-phone-answering-vs-voicemail-for-restaurants`
 - **After-Hours Maintenance Triage for Property Management Companies** — `/after-hours-maintenance-triage-for-property-management-companies`
 - **After-Hours Phone Answering for Restaurants** — `/after-hours-phone-answering-for-restaurants`
@@ -106,6 +106,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Automation for Restaurants** — `/ai-automation-for-restaurants`
 - **AI Automation for Roofing Companies** — `/ai-automation-for-roofing-companies`
 - **AI Lead Follow-Up for Insurance Agencies** — `/ai-lead-follow-up-for-insurance-agencies`
+- **AI Lead Follow-Up for Auto Repair Shops** — `/ai-lead-follow-up-for-auto-repair-shops`
 - **AI Lead Follow-Up for Med Spas** — `/ai-lead-follow-up-for-med-spas`
 - **AI Lead Follow-Up for Mortgage Brokers** — `/ai-lead-follow-up-for-mortgage-brokers`
 - **AI Phone Answering for Auto Repair Shops** — `/ai-phone-answering-for-auto-repair-shops`

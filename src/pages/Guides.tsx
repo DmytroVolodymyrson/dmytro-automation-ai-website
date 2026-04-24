@@ -1387,6 +1387,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Lead Follow-Up for Auto Repair Shops",
+    description:
+      "A narrower auto-repair early-funnel page focused on fresh repair inquiries — fast first response, short nurture, light qualification, and service-advisor handoff before the estimate or booked-visit stage starts.",
+    href: "/ai-lead-follow-up-for-auto-repair-shops",
+    category: "industries",
+  },
+  {
     title: "Maintenance Reminder Automation for Auto Repair Shops",
     description:
       "Maintenance reminder automation for auto repair shops. Oil change reminders, inspection timing, deferred-work recall, dormant-customer reactivation, and advisor handoff.",
