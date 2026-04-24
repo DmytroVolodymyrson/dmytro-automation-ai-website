@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-24-client-reactivation-automation-for-cleaning-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-24",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: Client Reactivation Automation for Cleaning Companies\nBody: Many cleaning companies do not only lose money at the front of the funnel. They lose it quietly months later when past clients disappear and nobody follows up until the owner remembers too late. A one-time deep-clean client never hears from you again. A recurring account pauses and never restarts. A seasonal or move-related customer would probably book again, but there is no system for reaching out at the right time with the right message. Client reactivation automation for cleaning companies fixes that narrow retention workflow. It brings old clients back into the conversation before they forget the business entirely, restarts repeat revenue without constant manual chasing, and routes real booking intent to a human fast instead of burying warm replies in another inbox.\nSub: Below: what this cleaning-company reactivation workflow should actually handle, how it stays distinct from the broader cleaning cluster and the generic reactivation guide, what proof honestly supports it, and when reactivation is or is not the right next build compared with lead response, missed-call recovery, or quote follow-up.\n\n### Core sections\n- What this cleaning-company workflow should actually handle\n- How this page stays distinct inside the cleaning-company cluster\n- Is this a good fit for your cleaning company?\n- How a practical cleaning-company reactivation workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions about bringing dormant cleaning clients back without turning follow-up into spam\nTopics: how this differs from the broader cleaning page, when reactivation is the right next workflow, which client segments fit best, typical build cost, and how to avoid annoying past clients.\n\n### Final CTA\nHeading: Want more repeat cleaning revenue from clients you already paid to win?\nBody: Book a 30-minute call. We will look at your past-client base, where repeat bookings are quietly leaking, and whether a focused reactivation workflow is the cleanest automation to build next for your cleaning company.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the live cleaning-company cluster still had one clean adjacent child left: recurring-client reactivation already surfaced by both the parent cleaning page and the first-project scoping page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on dormant-client recovery, repeat-booking timing, and recurring-service restart instead of drifting back into the broader cleaning-company explainer or acquisition-stage lead workflows."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live cleaning cluster, the generic client-reactivation guide, and the published ecommerce CRM lifecycle case study as honest support without pretending there is already a direct cleaning-company retention case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: timed outreach, segment-aware messaging, clear human handoff, and explicit fit / not-fit framing."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T09:54:04.267Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 23.1,
+      "sentenceLengthRange": [
+        5,
+        49
+      ],
+      "totalWords": 324
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Client Reactivation Automation for Cleaning Companies\nBody: Many cleaning companies do not only lose money at the front of the funnel.",
+      "wordCount": 23,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want more repeat cleaning revenue from clients you already paid to win?\nBody: Book a 30-minute call. We will look at your past-client base, where repeat bookings are quietly leaking, and whether a focused reactivation workflow is the cleanest automation to build next for your cleaning company.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 14,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.08
+    },
+    "vocabulary": {
+      "distinctWords": 179,
+      "totalWords": 324,
+      "topWords": [
+        [
+          "cleaning",
+          9
+        ],
+        [
+          "reactivation",
+          8
+        ],
+        [
+          "workflow",
+          6
+        ],
+        [
+          "this",
+          6
+        ],
+        [
+          "clients",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "client",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "right",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "cleaning-company",
+          4
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "companies",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right",
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.012
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

@@ -1377,6 +1377,18 @@
       ]
     },
     {
+      "id": "client-reactivation-automation-for-cleaning-companies",
+      "path": "/client-reactivation-automation-for-cleaning-companies",
+      "label": "Client Reactivation Automation for Cleaning Companies",
+      "prompts": [
+        "Client reactivation automation for cleaning companies",
+        "How do cleaning companies bring past clients back automatically?",
+        "Best way to restart recurring cleaning clients who went quiet",
+        "Should a cleaning company automate dormant-client follow-up?",
+        "How do I reactivate old cleaning clients without sounding spammy?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-med-spas",
       "path": "/what-to-automate-first-for-med-spas",
       "label": "What to Automate First for Med Spas",

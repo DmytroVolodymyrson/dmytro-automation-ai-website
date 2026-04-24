@@ -1058,6 +1058,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Client Reactivation Automation for Cleaning Companies",
+    description:
+      "A narrower cleaning-company retention page focused on dormant clients, repeat-booking timing, recurring-service restart, and practical handoff when past customers become active again.",
+    href: "/client-reactivation-automation-for-cleaning-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Med Spas",
     description:
       "AI automation for med spas. Lead follow-up, appointment booking, no-show reduction, membership renewal campaigns, and review automation.",
