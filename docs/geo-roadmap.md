@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `what-to-automate-first-for-cleaning-companies` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes, and `scripts/geo-prompts.json`. The obvious Tier-B move was no longer another landscaping phone page, but a still-distinct first-project prioritization page inside the newer cleaning-company cluster. The broader cleaning-company parent was already live and clearly exposed four bounded workflow families — instant lead follow-up, missed-call recovery, quote follow-up, and recurring-client reactivation — but none of those options had been isolated into a first-project decision page yet. The new page stays distinct by focusing only on that earlier buyer question: which leak should a cleaning company fix first before paying for a broader system. Proof framing stays honest through the live cleaning-company parent, the published Paris Cafe call-handling case study, and the published e-commerce CRM/follow-up case study.)
+Last updated: 2026-04-24 (shipped `what-to-automate-first-for-med-spas` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes, and `scripts/geo-prompts.json`. The strongest remaining planned page was still another first-project prioritization guide inside a live parent cluster, but this time in med spas rather than another home-service phone layer. The broader med-spa parent was already live and clearly exposed five bounded workflow families — lead follow-up, consultation booking, no-show reduction, treatment recall, and after-hours inquiry handling — but none of those options had been isolated into an earlier buyer-decision page yet. The new page stays distinct by focusing only on that prioritization question: which leak a med spa should fix first before funding a broader patient-communication system. Proof framing stays honest through the live med-spa parent, the published Paris Cafe call-handling case study, and the published e-commerce CRM/follow-up case study.)
 
 ## Live GEO Assets
 
@@ -156,6 +156,7 @@ Last updated: 2026-04-24 (shipped `what-to-automate-first-for-cleaning-companies
 | AI Automation for Cleaning Companies | `/ai-automation-for-cleaning-companies` | Industry page | Live |
 | What to Automate First for Cleaning Companies | `/what-to-automate-first-for-cleaning-companies` | Cleaning first-project scoping page | Live |
 | AI Automation for Med Spas | `/ai-automation-for-med-spas` | Industry page | Live |
+| What to Automate First for Med Spas | `/what-to-automate-first-for-med-spas` | Med-spa first-project scoping page | Live |
 | AI Automation for Roofing Companies | `/ai-automation-for-roofing-companies` | Industry page | Live |
 | What to Automate First for Roofing Companies | `/what-to-automate-first-for-roofing-companies` | Roofing first-project scoping page | Live |
 | Estimate Follow-Up Automation for Roofing Companies | `/estimate-follow-up-automation-for-roofing-companies` | Roofing workflow page | Live |
@@ -218,20 +219,19 @@ Last updated: 2026-04-24 (shipped `what-to-automate-first-for-cleaning-companies
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 195**
+**Total decision/comparison/industry pages live: 196**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/what-to-automate-first-for-cleaning-companies` proved there is still room for proof-backed first-project pages when a newer parent page clearly exposes multiple bounded workflows but the earlier prioritization question is still missing. The next run should still re-check broad planning docs first, but the strongest follow-up candidate is now another first-project page in a service vertical with a live parent and no child prioritization guide yet.
+Shipping `/what-to-automate-first-for-med-spas` confirmed there is still room for proof-backed first-project pages when a live parent already exposes multiple bounded workflow families but the earlier prioritization question is still missing. The next run should still re-check broad planning docs first, but the cleanest remaining follow-up candidate is now the parallel healthcare-style first-project page inside the already-live chiropractic cluster.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | `what-to-automate-first-for-med-spas` | Which med spa workflow should be automated first: lead follow-up, consultation booking, no-show reduction, treatment recall, or after-hours inquiry handling? | The live med-spa parent already cleanly exposes several bounded workflow families, but there is still no earlier buyer-decision page helping an owner choose the first project before funding a broader build. | **Best next candidate** |
-| 2 | **Fallback** | `what-to-automate-first-for-chiropractors` | Which chiropractic workflow should be automated first: missed-call recovery, intake/scheduling, care-plan recall, no-show reduction, or after-hours call handling? | The live chiropractor parent also exposes a clean first-project decision layer that is still materially distinct from the broader parent. | **Backup if candidate 1 is blocked** |
-| 3 | **Maintenance fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if no clean net-new page survives the next broad audit | Use only if another full reconciliation genuinely shows no defensible planned page left to ship. | **Only if backlog is exhausted** |
+| 1 | **Fallback** | `what-to-automate-first-for-chiropractors` | Which chiropractic workflow should be automated first: missed-call recovery, intake/scheduling, care-plan recall, no-show reduction, or after-hours call handling? | The live chiropractor parent already exposes a clean first-project decision layer, but there is still no child page isolating the earlier buyer question of which leak to fix first before funding a broader patient-communication system. | **Best next candidate** |
+| 2 | **Maintenance fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if no clean net-new page survives the next broad audit | Use only if another full reconciliation genuinely shows no defensible planned page left to ship. | **Only if backlog is exhausted** |
 
 ### Priority Definitions
 

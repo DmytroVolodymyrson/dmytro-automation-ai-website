@@ -1044,6 +1044,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Med Spas",
+    description:
+      "Scoping guide for med spas deciding whether the first workflow should be lead follow-up, consultation booking, no-show reduction, treatment recall, or after-hours inquiry handling before a bigger automation build.",
+    href: "/what-to-automate-first-for-med-spas",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Roofing Companies",
     description:
       "AI automation for roofing companies. Lead follow-up, estimate follow-up, missed call text-back, storm season handling, and review automation.",

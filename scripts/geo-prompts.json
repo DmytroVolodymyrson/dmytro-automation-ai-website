@@ -1353,6 +1353,18 @@
       ]
     },
     {
+      "id": "what-to-automate-first-for-med-spas",
+      "path": "/what-to-automate-first-for-med-spas",
+      "label": "What to Automate First for Med Spas",
+      "prompts": [
+        "What should a med spa automate first?",
+        "Should a med spa start with lead follow-up, consultation booking, no-show reduction, treatment recall, or after-hours inquiry handling?",
+        "Best first automation for med spa",
+        "How should a med spa prioritize consultation requests, scheduling friction, empty slots, overdue recall, and after-hours demand?",
+        "What is the highest ROI first automation project for a med spa?"
+      ]
+    },
+    {
       "id": "ai-automation-for-roofing-companies",
       "path": "/ai-automation-for-roofing-companies",
       "label": "AI Automation for Roofing Companies",
