@@ -1857,6 +1857,18 @@
       ]
     },
     {
+      "id": "review-request-automation-for-roofing-companies",
+      "path": "/review-request-automation-for-roofing-companies",
+      "label": "Review Request Automation for Roofing Companies",
+      "prompts": [
+        "Review request automation for roofing companies",
+        "How should a roofing company ask for reviews after a completed job?",
+        "Best way for a roofer to automate review requests without pushing unhappy customers public too early",
+        "How do roofing companies route callback issues before sending a Google review ask?",
+        "Roofing post-job review workflow after repairs and replacements"
+      ]
+    },
+    {
       "id": "ai-automation-for-pest-control-companies",
       "path": "/ai-automation-for-pest-control-companies",
       "label": "AI Automation for Pest Control Companies",

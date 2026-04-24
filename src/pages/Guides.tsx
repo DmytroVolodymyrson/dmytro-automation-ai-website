@@ -1338,6 +1338,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Review Request Automation for Roofing Companies",
+    description:
+      "Post-job reputation workflow for roofing companies that want cleaner review timing, unhappy-reply routing, and stronger local-trust follow-through after completed repairs and replacements.",
+    href: "/review-request-automation-for-roofing-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Pest Control Companies",
     description:
       "AI automation for pest control companies. Lead follow-up, recurring service reminders, seasonal campaigns, missed call text-back, and review automation.",
