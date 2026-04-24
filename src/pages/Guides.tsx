@@ -1177,6 +1177,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering vs. Voicemail for Med Spas",
+    description:
+      "A narrower med spa buyer-decision page focused on when a clinic should replace voicemail and delayed callbacks with live AI phone answering, and when a lighter text-back workflow is still the better middle step.",
+    href: "/ai-phone-answering-vs-voicemail-for-med-spas",
+    category: "industries",
+  },
+  {
     title: "Consultation Booking and Reminder Automation for Med Spas",
     description:
       "A narrower med spa workflow page focused on consultation scheduling friction, confirmation discipline, reminder timing, reschedule routing, and fewer no-shows before the visit happens.",

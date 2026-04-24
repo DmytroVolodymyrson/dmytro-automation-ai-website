@@ -1485,6 +1485,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-vs-voicemail-for-med-spas",
+      "path": "/ai-phone-answering-vs-voicemail-for-med-spas",
+      "label": "AI Phone Answering vs. Voicemail for Med Spas",
+      "prompts": [
+        "AI phone answering vs voicemail for med spas",
+        "Should a med spa use live AI phone answering instead of voicemail?",
+        "When has a med spa outgrown voicemail and callbacks for consultation calls?",
+        "Is AI phone answering worth it for a med spa that keeps missing after-hours consultation inquiries?",
+        "What is better for a med spa: live AI phone answering or voicemail plus callback?"
+      ]
+    },
+    {
       "id": "consultation-booking-and-reminder-automation-for-med-spas",
       "path": "/consultation-booking-and-reminder-automation-for-med-spas",
       "label": "Consultation Booking and Reminder Automation for Med Spas",

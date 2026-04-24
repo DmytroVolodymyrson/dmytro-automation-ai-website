@@ -166,6 +166,7 @@ import WhatToAutomateFirstForMedSpas from "./pages/WhatToAutomateFirstForMedSpas
 import MissedCallTextBackForMedSpas from "./pages/MissedCallTextBackForMedSpas";
 import MissedCallTextBackVsVoicemailForMedSpas from "./pages/MissedCallTextBackVsVoicemailForMedSpas";
 import AiPhoneAnsweringForMedSpas from "./pages/AiPhoneAnsweringForMedSpas";
+import AiPhoneAnsweringVsVoicemailForMedSpas from "./pages/AiPhoneAnsweringVsVoicemailForMedSpas";
 import ConsultationBookingAndReminderAutomationForMedSpas from "./pages/ConsultationBookingAndReminderAutomationForMedSpas";
 import NoShowReductionAutomationForMedSpas from "./pages/NoShowReductionAutomationForMedSpas";
 import TreatmentRecallAutomationForMedSpas from "./pages/TreatmentRecallAutomationForMedSpas";
@@ -454,6 +455,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/missed-call-text-back-for-med-spas", element: <MissedCallTextBackForMedSpas /> },
   { path: "/missed-call-text-back-vs-voicemail-for-med-spas", element: <MissedCallTextBackVsVoicemailForMedSpas /> },
   { path: "/ai-phone-answering-for-med-spas", element: <AiPhoneAnsweringForMedSpas /> },
+  { path: "/ai-phone-answering-vs-voicemail-for-med-spas", element: <AiPhoneAnsweringVsVoicemailForMedSpas /> },
   { path: "/consultation-booking-and-reminder-automation-for-med-spas", element: <ConsultationBookingAndReminderAutomationForMedSpas /> },
   { path: "/no-show-reduction-automation-for-med-spas", element: <NoShowReductionAutomationForMedSpas /> },
   { path: "/treatment-recall-automation-for-med-spas", element: <TreatmentRecallAutomationForMedSpas /> },

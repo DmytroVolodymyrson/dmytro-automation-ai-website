@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `missed-call-text-back-vs-voicemail-for-med-spas` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The med spa cluster still had one clean lighter fallback decision page because the broad parent, the first-project page, the lighter missed-call workflow page, the consultation-booking child, the no-show child, the treatment-recall child, and the heavier live-answering explainer were already live, but the voicemail-vs-SMS-first buyer choice was not isolated. The new page stays distinct by focusing on voicemail/manual callback versus immediate text-back as the lighter buyer decision, with live AI phone answering treated as the heavier next step rather than rehashing the broader med spa cluster.)
+Last updated: 2026-04-24 (shipped `ai-phone-answering-vs-voicemail-for-med-spas` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The med spa cluster still had one clean heavier phone-fallback decision page because the broad parent, the first-project page, the lighter missed-call workflow page, the lighter voicemail comparison, the booked-consult child, the no-show child, the treatment-recall child, and the heavier live-answering explainer were already live, but the live-AI-versus-voicemail buyer choice was not isolated. The new page stays distinct by focusing on live AI answering versus voicemail/manual callback as the heavier buyer decision, with missed-call text-back treated as the lighter middle step rather than rehashing the broader med spa cluster.)
 
 ## Live GEO Assets
 
@@ -178,6 +178,7 @@ Last updated: 2026-04-24 (shipped `missed-call-text-back-vs-voicemail-for-med-sp
 | No-Show Reduction Automation for Med Spas | `/no-show-reduction-automation-for-med-spas` | Med-spa attendance-protection workflow page | Live |
 | Treatment Recall Automation for Med Spas | `/treatment-recall-automation-for-med-spas` | Med-spa retention / repeat-treatment workflow page | Live |
 | AI Phone Answering for Med Spas | `/ai-phone-answering-for-med-spas` | Med-spa live-phone-coverage workflow page | Live |
+| AI Phone Answering vs. Voicemail for Med Spas | `/ai-phone-answering-vs-voicemail-for-med-spas` | Med-spa heavier phone-fallback decision page | Live |
 | AI Automation for Roofing Companies | `/ai-automation-for-roofing-companies` | Industry page | Live |
 | What to Automate First for Roofing Companies | `/what-to-automate-first-for-roofing-companies` | Roofing first-project scoping page | Live |
 | Estimate Follow-Up Automation for Roofing Companies | `/estimate-follow-up-automation-for-roofing-companies` | Roofing workflow page | Live |
@@ -240,19 +241,19 @@ Last updated: 2026-04-24 (shipped `missed-call-text-back-vs-voicemail-for-med-sp
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 214**
+**Total decision/comparison/industry pages live: 215**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/missed-call-text-back-vs-voicemail-for-med-spas` fills the lighter fallback decision layer inside the med spa cluster: the broad parent, the first-project scoping page, the lighter missed-call workflow, the lighter voicemail comparison, the consultation-booking child, the no-show child, the treatment-recall child, and the heavier live-answering explainer now exist as separate assets. The next run should still start with a fresh broad reconciliation across the planning docs, live routes/pages, and `scripts/geo-prompts.json` instead of forcing another med spa page automatically, but if no stronger repo-wide page surfaces the med spa cluster now has a clean heavier phone-fallback decision page worth considering next.
+Shipping `/ai-phone-answering-vs-voicemail-for-med-spas` fills the heavier phone-fallback decision layer inside the med spa cluster: the broad parent, the first-project scoping page, the lighter missed-call workflow page, the lighter voicemail comparison, the booked-consult child, the no-show child, the treatment-recall child, the heavier live-answering explainer, and the heavier voicemail-vs-live-answering decision page now exist as separate assets. There is no automatically clean med spa follow-on left pre-selected in the roadmap, so the next run should start with a fresh broad reconciliation across the planning docs, live routes/pages, and `scripts/geo-prompts.json` instead of forcing another med spa page by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for any still-distinct planned page that is not already live and does not collapse into an existing cluster | The roadmap queue is still weaker than the combined planning docs + live-cluster state, so the next clean ship may still come from another cluster instead of another med spa page. | **Do first next run** |
-| 2 | **P1** | `/ai-phone-answering-vs-voicemail-for-med-spas` | Heavier buyer decision for clinics where voicemail and delayed callbacks are clearly failing, but the owner still needs to decide whether live AI phone answering is worth adopting instead of staying with the old fallback stack | Now that the lighter missed-call workflow page, the lighter voicemail comparison, and the heavier live-answering explainer are all live, the med spa cluster has a clean heavier phone-fallback comparison if a broader reconciliation does not surface a stronger repo-wide ship. It would stay distinct by focusing on when a clinic should move from voicemail/callbacks to live AI answering rather than rehashing the lighter SMS-first layer. | **Use if broad reconciliation does not surface a stronger repo-wide candidate** |
+| 1 | **Fallback** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for any still-distinct planned page that is not already live and does not collapse into an existing cluster | The roadmap queue is weaker than the combined planning docs + live-cluster state, and the med spa cluster no longer has an obviously clean next child page. | **Do first next run** |
+| 2 | **Watchlist** | Proof-led watchlist only if broad reconciliation surfaces a clearly distinct child page in another cluster | Look for an exact remaining buyer query or workflow stage that is still commercially separate and supported by direct or adjacent proof | Use this only if a broad audit surfaces a stronger repo-wide ship; do not force another med spa child just because the cluster shipped well recently. | **Use only if a clean repo-wide candidate survives reconciliation** |
 | 3 | **Maintenance fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if another broad audit still finds no defensible net-new page | Use only if the next reconciliation still cannot find a distinct proof-backed page worth shipping. | **Use only if backlog is exhausted** |
 
 ### Priority Definitions

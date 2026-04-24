@@ -167,6 +167,7 @@ const WhatToAutomateFirstForMedSpas = lazy(() => import("./pages/WhatToAutomateF
 const MissedCallTextBackForMedSpas = lazy(() => import("./pages/MissedCallTextBackForMedSpas"));
 const MissedCallTextBackVsVoicemailForMedSpas = lazy(() => import("./pages/MissedCallTextBackVsVoicemailForMedSpas"));
 const AiPhoneAnsweringForMedSpas = lazy(() => import("./pages/AiPhoneAnsweringForMedSpas"));
+const AiPhoneAnsweringVsVoicemailForMedSpas = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForMedSpas"));
 const ConsultationBookingAndReminderAutomationForMedSpas = lazy(() => import("./pages/ConsultationBookingAndReminderAutomationForMedSpas"));
 const NoShowReductionAutomationForMedSpas = lazy(() => import("./pages/NoShowReductionAutomationForMedSpas"));
 const TreatmentRecallAutomationForMedSpas = lazy(() => import("./pages/TreatmentRecallAutomationForMedSpas"));
@@ -402,6 +403,7 @@ const AppRoutesClient = () => (
       <Route path="/missed-call-text-back-for-med-spas" element={<MissedCallTextBackForMedSpas />} />
       <Route path="/missed-call-text-back-vs-voicemail-for-med-spas" element={<MissedCallTextBackVsVoicemailForMedSpas />} />
       <Route path="/ai-phone-answering-for-med-spas" element={<AiPhoneAnsweringForMedSpas />} />
+      <Route path="/ai-phone-answering-vs-voicemail-for-med-spas" element={<AiPhoneAnsweringVsVoicemailForMedSpas />} />
       <Route path="/consultation-booking-and-reminder-automation-for-med-spas" element={<ConsultationBookingAndReminderAutomationForMedSpas />} />
       <Route path="/no-show-reduction-automation-for-med-spas" element={<NoShowReductionAutomationForMedSpas />} />
       <Route path="/treatment-recall-automation-for-med-spas" element={<TreatmentRecallAutomationForMedSpas />} />
