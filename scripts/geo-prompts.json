@@ -1401,6 +1401,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-vs-ai-phone-answering-for-cleaning-companies",
+      "path": "/missed-call-text-back-vs-ai-phone-answering-for-cleaning-companies",
+      "label": "Missed Call Text-Back vs. AI Phone Answering for Cleaning Companies",
+      "prompts": [
+        "Missed call text-back vs AI phone answering for cleaning companies",
+        "Should a cleaning company use missed-call text-back or live AI phone answering?",
+        "When is SMS-first missed-call recovery enough for a cleaning company instead of live AI phone coverage?",
+        "What is better for a cleaning company missed-call text-back or live AI phone answering?",
+        "Best cleaning-company phone-recovery setup text-back or live AI answering"
+      ]
+    },
+    {
       "id": "missed-call-text-back-vs-voicemail-for-cleaning-companies",
       "path": "/missed-call-text-back-vs-voicemail-for-cleaning-companies",
       "label": "Missed Call Text-Back vs. Voicemail for Cleaning Companies",

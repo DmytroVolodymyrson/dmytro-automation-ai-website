@@ -158,6 +158,7 @@ const WhatToAutomateFirstForCleaningCompanies = lazy(() => import("./pages/WhatT
 const QuoteFollowUpAutomationForCleaningCompanies = lazy(() => import("./pages/QuoteFollowUpAutomationForCleaningCompanies"));
 const MissedCallTextBackForCleaningCompanies = lazy(() => import("./pages/MissedCallTextBackForCleaningCompanies"));
 const MissedCallTextBackVsVoicemailForCleaningCompanies = lazy(() => import("./pages/MissedCallTextBackVsVoicemailForCleaningCompanies"));
+const MissedCallTextBackVsAiPhoneAnsweringForCleaningCompanies = lazy(() => import("./pages/MissedCallTextBackVsAiPhoneAnsweringForCleaningCompanies"));
 const AiPhoneAnsweringForCleaningCompanies = lazy(() => import("./pages/AiPhoneAnsweringForCleaningCompanies"));
 const AiPhoneAnsweringVsVoicemailForCleaningCompanies = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForCleaningCompanies"));
 const ClientReactivationAutomationForCleaningCompanies = lazy(() => import("./pages/ClientReactivationAutomationForCleaningCompanies"));
@@ -390,6 +391,7 @@ const AppRoutesClient = () => (
       <Route path="/missed-call-text-back-for-cleaning-companies" element={<MissedCallTextBackForCleaningCompanies />} />
       <Route path="/ai-phone-answering-for-cleaning-companies" element={<AiPhoneAnsweringForCleaningCompanies />} />
       <Route path="/ai-phone-answering-vs-voicemail-for-cleaning-companies" element={<AiPhoneAnsweringVsVoicemailForCleaningCompanies />} />
+      <Route path="/missed-call-text-back-vs-ai-phone-answering-for-cleaning-companies" element={<MissedCallTextBackVsAiPhoneAnsweringForCleaningCompanies />} />
       <Route path="/missed-call-text-back-vs-voicemail-for-cleaning-companies" element={<MissedCallTextBackVsVoicemailForCleaningCompanies />} />
       <Route path="/client-reactivation-automation-for-cleaning-companies" element={<ClientReactivationAutomationForCleaningCompanies />} />
       <Route path="/ai-automation-for-med-spas" element={<AiAutomationForMedSpas />} />

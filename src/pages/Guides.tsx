@@ -1121,6 +1121,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. AI Phone Answering for Cleaning Companies",
+    description:
+      "Cleaning-company buyer guide for deciding when SMS-first missed-call recovery is enough, when live AI phone coverage is worth the heavier build, and how to choose based on quote-call urgency, office workload, and after-hours demand.",
+    href: "/missed-call-text-back-vs-ai-phone-answering-for-cleaning-companies",
+    category: "industries",
+  },
+  {
     title: "Missed Call Text-Back vs. Voicemail for Cleaning Companies",
     description:
       "Cleaning-company buyer guide for deciding when SMS-first missed-call recovery is a better fallback than voicemail and callbacks, when voicemail is still acceptable, and when the business has already outgrown both into live AI phone coverage.",
