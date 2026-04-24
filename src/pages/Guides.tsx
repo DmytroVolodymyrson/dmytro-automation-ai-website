@@ -1051,6 +1051,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering for Chiropractors",
+    description:
+      "A narrower chiropractic live-phone-coverage page focused on answering calls during front-desk overload or after hours, handling routine first-visit questions, and routing higher-context conversations back to staff with context attached.",
+    href: "/ai-phone-answering-for-chiropractors",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Cleaning Companies",
     description:
       "AI automation for cleaning companies. Lead follow-up, quote follow-up, missed call text-back, scheduling, client reactivation, and review automation.",

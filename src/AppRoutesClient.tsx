@@ -149,6 +149,7 @@ const WhatToAutomateFirstForChiropractors = lazy(() => import("./pages/WhatToAut
 const CarePlanRecallAutomationForChiropractors = lazy(() => import("./pages/CarePlanRecallAutomationForChiropractors"));
 const NewPatientIntakeAndSchedulingAutomationForChiropractors = lazy(() => import("./pages/NewPatientIntakeAndSchedulingAutomationForChiropractors"));
 const NoShowReductionAutomationForChiropractors = lazy(() => import("./pages/NoShowReductionAutomationForChiropractors"));
+const AiPhoneAnsweringForChiropractors = lazy(() => import("./pages/AiPhoneAnsweringForChiropractors"));
 const AiAutomationForCleaningCompanies = lazy(() => import("./pages/AiAutomationForCleaningCompanies"));
 const WhatToAutomateFirstForCleaningCompanies = lazy(() => import("./pages/WhatToAutomateFirstForCleaningCompanies"));
 const QuoteFollowUpAutomationForCleaningCompanies = lazy(() => import("./pages/QuoteFollowUpAutomationForCleaningCompanies"));
@@ -373,6 +374,7 @@ const AppRoutesClient = () => (
       <Route path="/care-plan-recall-automation-for-chiropractors" element={<CarePlanRecallAutomationForChiropractors />} />
       <Route path="/new-patient-intake-and-scheduling-automation-for-chiropractors" element={<NewPatientIntakeAndSchedulingAutomationForChiropractors />} />
       <Route path="/no-show-reduction-automation-for-chiropractors" element={<NoShowReductionAutomationForChiropractors />} />
+      <Route path="/ai-phone-answering-for-chiropractors" element={<AiPhoneAnsweringForChiropractors />} />
       <Route path="/ai-automation-for-cleaning-companies" element={<AiAutomationForCleaningCompanies />} />
       <Route path="/what-to-automate-first-for-cleaning-companies" element={<WhatToAutomateFirstForCleaningCompanies />} />
       <Route path="/quote-follow-up-automation-for-cleaning-companies" element={<QuoteFollowUpAutomationForCleaningCompanies />} />

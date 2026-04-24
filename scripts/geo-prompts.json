@@ -1485,6 +1485,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-for-chiropractors",
+      "path": "/ai-phone-answering-for-chiropractors",
+      "label": "AI Phone Answering for Chiropractors",
+      "prompts": [
+        "AI phone answering for chiropractors",
+        "How should a chiropractor handle after-hours calls without relying on voicemail?",
+        "When does a chiropractic practice need live AI phone answering instead of next-day callbacks?",
+        "Best way for a chiropractic office to answer new-patient calls when the front desk is busy",
+        "Should a chiropractor use live AI phone answering or just voicemail and callbacks?"
+      ]
+    },
+    {
       "id": "ai-automation-for-roofing-companies",
       "path": "/ai-automation-for-roofing-companies",
       "label": "AI Automation for Roofing Companies",
