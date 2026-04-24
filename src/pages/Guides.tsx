@@ -1093,6 +1093,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Treatment Recall Automation for Med Spas",
+    description:
+      "A narrower med spa retention page focused on interval-based reminders, lapse recovery, repeat-treatment timing, package or membership touchpoints, and bringing existing patients back before repeat revenue quietly disappears.",
+    href: "/treatment-recall-automation-for-med-spas",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Roofing Companies",
     description:
       "AI automation for roofing companies. Lead follow-up, estimate follow-up, missed call text-back, storm season handling, and review automation.",

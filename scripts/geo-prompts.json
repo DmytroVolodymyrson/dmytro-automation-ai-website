@@ -1425,6 +1425,18 @@
       ]
     },
     {
+      "id": "treatment-recall-automation-for-med-spas",
+      "path": "/treatment-recall-automation-for-med-spas",
+      "label": "Treatment Recall Automation for Med Spas",
+      "prompts": [
+        "Treatment recall automation for med spas",
+        "How do med spas automate treatment recall and repeat-visit follow-up?",
+        "Best way for a med spa to bring Botox, filler, laser, or skincare patients back on time",
+        "Should a med spa fix treatment recall before building broader patient communication automation?",
+        "How should a med spa recover repeat-treatment revenue from patients who quietly lapse?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-chiropractors",
       "path": "/what-to-automate-first-for-chiropractors",
       "label": "What to Automate First for Chiropractors",

@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `no-show-reduction-automation-for-med-spas` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes, and `scripts/geo-prompts.json`. The cleanest still-unshipped proof-backed child page was the med-spa no-show layer already named in the live parent and first-project scoping page and adjacent to the just-shipped consultation-booking child. The new page stays distinct by focusing only on attendance protection for already-booked consult and treatment slots: confirmation discipline, reminder cadence, reschedules, selective deposit logic, and fast exception recovery. Proof framing stays honest through the live med-spa cluster, the generic booking/no-show guides, and the published restaurant voice-agent case study rather than pretending there is already a dedicated med-spa no-show case study.)
+Last updated: 2026-04-24 (shipped `treatment-recall-automation-for-med-spas` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes, and `scripts/geo-prompts.json`. The cleanest still-unshipped proof-backed child page was the med-spa recall layer already named in the live parent and first-project scoping page and left open after the consultation-booking and no-show children shipped. The new page stays distinct by focusing only on repeat-treatment retention: interval-based reminders, lapse detection, package or membership touchpoints, and front-desk handoff when an existing patient is ready to return. Proof framing stays honest through the live med-spa cluster, the generic client-reactivation guide, and the published e-commerce CRM case study rather than pretending there is already a dedicated med-spa recall case study.)
 
 ## Live GEO Assets
 
@@ -163,6 +163,7 @@ Last updated: 2026-04-24 (shipped `no-show-reduction-automation-for-med-spas` af
 | What to Automate First for Med Spas | `/what-to-automate-first-for-med-spas` | Med-spa first-project scoping page | Live |
 | Consultation Booking and Reminder Automation for Med Spas | `/consultation-booking-and-reminder-automation-for-med-spas` | Med-spa booked-consult workflow page | Live |
 | No-Show Reduction Automation for Med Spas | `/no-show-reduction-automation-for-med-spas` | Med-spa attendance-protection workflow page | Live |
+| Treatment Recall Automation for Med Spas | `/treatment-recall-automation-for-med-spas` | Med-spa retention / repeat-treatment workflow page | Live |
 | AI Automation for Roofing Companies | `/ai-automation-for-roofing-companies` | Industry page | Live |
 | What to Automate First for Roofing Companies | `/what-to-automate-first-for-roofing-companies` | Roofing first-project scoping page | Live |
 | Estimate Follow-Up Automation for Roofing Companies | `/estimate-follow-up-automation-for-roofing-companies` | Roofing workflow page | Live |
@@ -225,19 +226,19 @@ Last updated: 2026-04-24 (shipped `no-show-reduction-automation-for-med-spas` af
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 201**
+**Total decision/comparison/industry pages live: 202**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/no-show-reduction-automation-for-med-spas` turns the med-spa cluster into a broader parent + first-project page + booked-consult child + attendance-protection child. The next run should still start with a fresh broad reconciliation across the planning docs, live routes, and `scripts/geo-prompts.json`, but the cleanest nearby fallback now looks more like a remaining healthcare recall / retention child than another no-show page in the same cluster.
+Shipping `/treatment-recall-automation-for-med-spas` rounds out the strongest med-spa child set the planning docs had been hinting at: broader parent, first-project scoping page, booked-consult child, attendance-protection child, and now the repeat-treatment retention child. The next run should still start with a fresh broad reconciliation across the planning docs, live routes, and `scripts/geo-prompts.json`, but the cleanest nearby fallback now looks more like the parallel chiropractic recall child or another equally distinct healthcare retention page rather than more med-spa overlap.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | `treatment-recall-automation-for-med-spas` or the strongest equally distinct healthcare recall child that survives reconciliation | Re-check the med-spa and chiropractor first-project clusters for the cleanest remaining buyer-decision page around treatment recall / care-plan recall without collapsing back into the broader parent pages | The live med-spa cluster now covers first-project scoping, booked-consult flow, and no-show protection. A recall-stage child can still be defensible if it stays tightly on repeat-treatment timing, lapse prevention, and front-desk handoff instead of rewording the broader parent. | **Re-check first next run** |
-| 2 | **Fallback** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for any still-distinct planned page that is not already live and does not collapse into an existing cluster | Keep using broad reconciliation before defaulting into maintenance, because the roadmap queue is still weaker than the combined planning docs + live cluster state. | **Do this if no clean healthcare recall child survives** |
+| 1 | **Fallback** | `care-plan-recall-automation-for-chiropractors` or the strongest equally distinct healthcare recall child that survives reconciliation | Re-check the chiropractor parent and first-project cluster for the cleanest remaining buyer-decision page around overdue care-plan patients, maintenance-visit timing, and front-desk recall ownership without collapsing back into the broader chiropractor parent | The live chiropractor cluster still names care-plan recall as one of the highest-value retention leaks, and that child would stay distinct if it remains tightly on overdue-patient recovery rather than rewording the broader parent or the first-project page. | **Re-check first next run** |
+| 2 | **Fallback** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for any still-distinct planned page that is not already live and does not collapse into an existing cluster | Keep using broad reconciliation before defaulting into maintenance, because the roadmap queue is still weaker than the combined planning docs + live cluster state. | **Do this if no clean chiropractic recall child survives** |
 | 3 | **Maintenance fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if another broad audit still finds no defensible net-new page | Use only if the next reconciliation still cannot find a distinct proof-backed page worth shipping. | **Use only if backlog is exhausted** |
 
 ### Priority Definitions
