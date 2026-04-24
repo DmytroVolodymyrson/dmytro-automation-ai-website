@@ -1723,6 +1723,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Review Request Automation for Home Inspectors",
+    description:
+      "Post-inspection reputation workflow for home inspectors focused on review timing after the report lands, unhappy-reply routing, and turning completed inspections into cleaner local-trust follow-up.",
+    href: "/review-request-automation-for-home-inspectors",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Home Inspectors",
     description:
       "A narrower home-inspector live-phone-coverage guide focused on booking intake, agent and buyer call handling, after-hours coverage, and the handoff points that should stay human.",

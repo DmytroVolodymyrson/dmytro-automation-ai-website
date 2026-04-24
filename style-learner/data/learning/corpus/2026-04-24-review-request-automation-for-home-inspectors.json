@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-24-review-request-automation-for-home-inspectors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-24",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: Review Request Automation for Home Inspectors\nBody: A lot of inspectors do solid field work and still let the reputation moment slip. The inspection happened, the report got delivered, the buyer or agent seemed satisfied enough, and then no review ask went out while the experience still felt current. Or the request went out too early, before the client had opened the report, before a clarification question got answered, or before the inspector knew whether the experience actually felt complete. Review request automation for home inspectors fixes that narrower post-inspection workflow. It gives completed inspections a cleaner reputation follow-through path, helps the business ask for reviews at a believable moment, and protects trust by routing uncertain replies back to a human before anyone is pushed toward a public rating.\nSub: Below: what a practical home-inspector review-request workflow should actually handle, how it stays distinct from the broader home-inspector page and the existing report-delivery child, which guardrails matter most, and what proof honestly supports the page without pretending there is already a dedicated home-inspector review-automation case study on the site.\n\n### Core sections\n- What home-inspector review-request automation should actually handle\n- How this page stays distinct inside the home-inspector cluster\n- Is this a good fit for your home-inspection business?\n- Guardrails that keep home-inspector review automation useful\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical answers for home inspectors considering a cleaner post-inspection review workflow\nTopics: how this differs from the broader home-inspector automation page, how it differs from the report-delivery child, what a focused review-request workflow usually costs, whether the ask should go to the buyer or the agent, and where the ROI usually comes from.\n\n### Final CTA\nHeading: Need cleaner reputation follow-up after the report is out?\nBody: Book a 30-minute call. We will look at how post-inspection closeout works today, where review asks are getting missed or mistimed, and whether a focused review-request workflow, a broader report-delivery fix, or no new build is the smarter next move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after fresh reconciliation across `AGENTS.md`, `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the live home-inspector parent already explicitly names review requests, the home-inspector cluster already has first-project, early-funnel lead follow-up, booked-inspection scheduling, broader post-inspection report-delivery closeout, and the phone layer live, and the remaining clean gap was the narrower reputation workflow after the report had already landed."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live home-inspector parent, the live report-delivery sibling, and the recently shipped med-spa review-request page support the workflow pattern without pretending there is already a dedicated home-inspector review-automation case study on the site."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T23:31:11.466Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 27.8,
+      "sentenceLengthRange": [
+        5,
+        55
+      ],
+      "totalWords": 334
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Review Request Automation for Home Inspectors\nBody: A lot of inspectors do solid field work and still let the reputation moment slip.",
+      "wordCount": 24,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need cleaner reputation follow-up after the report is out?\nBody: Book a 30-minute call. We will look at how post-inspection closeout works today, where review asks are getting missed or mistimed, and whether a focused review-request workflow, a broader report-delivery fix, or no new build is the smarter next move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 19,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.73
+    },
+    "vocabulary": {
+      "distinctWords": 173,
+      "totalWords": 334,
+      "topWords": [
+        [
+          "home-inspector",
+          7
+        ],
+        [
+          "review",
+          6
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "inspectors",
+          4
+        ],
+        [
+          "before",
+          4
+        ],
+        [
+          "review-request",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "request",
+          3
+        ],
+        [
+          "home",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

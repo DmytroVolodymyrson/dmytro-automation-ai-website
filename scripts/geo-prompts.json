@@ -2475,9 +2475,21 @@
       "prompts": [
         "Report delivery and review automation for home inspectors",
         "How should a home inspector automate report delivery and follow-up after the inspection?",
-        "Best way for a home inspector to handle report-ready updates for buyers and agents",
-        "When should a home inspector ask for reviews after sending the inspection report?",
+        "Best way to handle report-ready alerts and post-inspection questions for home inspectors",
+        "How should a home inspector follow up after sending the inspection report when the buyer or agent still has questions?",
         "What should a home-inspector post-inspection workflow handle after booking is done and the report is ready?"
+      ]
+    },
+    {
+      "id": "review-request-automation-for-home-inspectors",
+      "path": "/review-request-automation-for-home-inspectors",
+      "label": "Review Request Automation for Home Inspectors",
+      "prompts": [
+        "Review request automation for home inspectors",
+        "How should a home inspector ask for Google reviews after the inspection report is delivered?",
+        "Best way for a home inspector to automate review requests without sending confused clients straight to a public review ask",
+        "When should a home inspector ask for reviews after the report lands and follow-up questions are settled?",
+        "How should a home inspector route uncertain post-inspection replies before asking for a review?"
       ]
     },
     {
