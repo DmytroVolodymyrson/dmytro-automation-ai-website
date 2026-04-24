@@ -2073,6 +2073,18 @@
       ]
     },
     {
+      "id": "review-request-automation-for-auto-repair-shops",
+      "path": "/review-request-automation-for-auto-repair-shops",
+      "label": "Review Request Automation for Auto Repair Shops",
+      "prompts": [
+        "Review request automation for auto repair shops",
+        "How do auto repair shops ask for Google reviews automatically after a completed service visit?",
+        "Best way to automate review requests for a repair shop without pushing comeback customers too early",
+        "When should an auto repair shop ask for reviews after maintenance, diagnostics, or repair work is finished?",
+        "How should a repair shop route unhappy post-service replies before sending a public review link?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-for-auto-repair-shops",
       "path": "/missed-call-text-back-for-auto-repair-shops",
       "label": "Missed Call Text-Back for Auto Repair Shops",

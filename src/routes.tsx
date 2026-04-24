@@ -210,6 +210,7 @@ import MissedCallTextBackVsVoicemailForAutoRepairShops from "./pages/MissedCallT
 import MissedCallTextBackVsAiPhoneAnsweringForAutoRepairShops from "./pages/MissedCallTextBackVsAiPhoneAnsweringForAutoRepairShops";
 import AiPhoneAnsweringForAutoRepairShops from "./pages/AiPhoneAnsweringForAutoRepairShops";
 import AiPhoneAnsweringVsVoicemailForAutoRepairShops from "./pages/AiPhoneAnsweringVsVoicemailForAutoRepairShops";
+import ReviewRequestAutomationForAutoRepairShops from "./pages/ReviewRequestAutomationForAutoRepairShops";
 import AiAutomationForLandscapingCompanies from "./pages/AiAutomationForLandscapingCompanies";
 import WhatToAutomateFirstForLandscapingCompanies from "./pages/WhatToAutomateFirstForLandscapingCompanies";
 import AiLeadFollowUpForLandscapingCompanies from "./pages/AiLeadFollowUpForLandscapingCompanies";
@@ -523,6 +524,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/missed-call-text-back-vs-ai-phone-answering-for-auto-repair-shops", element: <MissedCallTextBackVsAiPhoneAnsweringForAutoRepairShops /> },
   { path: "/ai-phone-answering-for-auto-repair-shops", element: <AiPhoneAnsweringForAutoRepairShops /> },
   { path: "/ai-phone-answering-vs-voicemail-for-auto-repair-shops", element: <AiPhoneAnsweringVsVoicemailForAutoRepairShops /> },
+  { path: "/review-request-automation-for-auto-repair-shops", element: <ReviewRequestAutomationForAutoRepairShops /> },
   { path: "/ai-automation-for-landscaping-companies", element: <AiAutomationForLandscapingCompanies /> },
   { path: "/what-to-automate-first-for-landscaping-companies", element: <WhatToAutomateFirstForLandscapingCompanies /> },
   { path: "/ai-lead-follow-up-for-landscaping-companies", element: <AiLeadFollowUpForLandscapingCompanies /> },

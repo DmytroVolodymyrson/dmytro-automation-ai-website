@@ -211,6 +211,7 @@ const MissedCallTextBackVsVoicemailForAutoRepairShops = lazy(() => import("./pag
 const MissedCallTextBackVsAiPhoneAnsweringForAutoRepairShops = lazy(() => import("./pages/MissedCallTextBackVsAiPhoneAnsweringForAutoRepairShops"));
 const AiPhoneAnsweringForAutoRepairShops = lazy(() => import("./pages/AiPhoneAnsweringForAutoRepairShops"));
 const AiPhoneAnsweringVsVoicemailForAutoRepairShops = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForAutoRepairShops"));
+const ReviewRequestAutomationForAutoRepairShops = lazy(() => import("./pages/ReviewRequestAutomationForAutoRepairShops"));
 const AiAutomationForLandscapingCompanies = lazy(() => import("./pages/AiAutomationForLandscapingCompanies"));
 const WhatToAutomateFirstForLandscapingCompanies = lazy(() => import("./pages/WhatToAutomateFirstForLandscapingCompanies"));
 const AiLeadFollowUpForLandscapingCompanies = lazy(() => import("./pages/AiLeadFollowUpForLandscapingCompanies"));
@@ -471,6 +472,7 @@ const AppRoutesClient = () => (
       <Route path="/missed-call-text-back-vs-ai-phone-answering-for-auto-repair-shops" element={<MissedCallTextBackVsAiPhoneAnsweringForAutoRepairShops />} />
       <Route path="/ai-phone-answering-for-auto-repair-shops" element={<AiPhoneAnsweringForAutoRepairShops />} />
       <Route path="/ai-phone-answering-vs-voicemail-for-auto-repair-shops" element={<AiPhoneAnsweringVsVoicemailForAutoRepairShops />} />
+      <Route path="/review-request-automation-for-auto-repair-shops" element={<ReviewRequestAutomationForAutoRepairShops />} />
       <Route path="/ai-automation-for-landscaping-companies" element={<AiAutomationForLandscapingCompanies />} />
       <Route path="/what-to-automate-first-for-landscaping-companies" element={<WhatToAutomateFirstForLandscapingCompanies />} />
       <Route path="/ai-lead-follow-up-for-landscaping-companies" element={<AiLeadFollowUpForLandscapingCompanies />} />

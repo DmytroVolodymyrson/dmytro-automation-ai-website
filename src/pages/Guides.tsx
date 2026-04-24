@@ -1464,6 +1464,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Review Request Automation for Auto Repair Shops",
+    description:
+      "Review request automation for auto repair shops. Post-service timing, comeback-aware reply routing, advisor handoff, and cleaner local-trust follow-up after completed visits.",
+    href: "/review-request-automation-for-auto-repair-shops",
+    category: "industries",
+  },
+  {
     title: "Missed Call Text-Back for Auto Repair Shops",
     description:
       "Missed call text-back for auto repair shops. Immediate SMS recovery for missed repair calls, callback triage, after-hours demand protection, advisor handoff, and when live AI phone answering is the better fit.",
