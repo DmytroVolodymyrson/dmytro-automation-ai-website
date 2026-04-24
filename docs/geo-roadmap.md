@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `what-to-automate-first-for-home-inspectors` after a broad backlog reconciliation found a clean process-selection gap inside the mature home-inspector cluster. The live parent and child set already isolated early-funnel lead follow-up, booked-inspection scheduling, post-inspection report delivery, and the phone layer, but there was still no page helping an inspector choose which bounded workflow should come first. The new page stays distinct by framing the buyer decision one step earlier than the existing child pages instead of rehashing any single workflow.)
+Last updated: 2026-04-24 (shipped `what-to-automate-first-for-insurance-agencies` because the roadmap's top queued candidate still survived broad reconciliation cleanly. The live insurance parent plus its lead-follow-up, quote-follow-up, renewal, and cross-sell children already exposed a mature cluster, but there was still no page helping an agency owner choose which bounded workflow should come first. The new page stays distinct by framing the buyer decision one step earlier than the existing insurance child pages instead of rehashing any single workflow.)
 
 ## Live GEO Assets
 
@@ -90,6 +90,7 @@ Last updated: 2026-04-24 (shipped `what-to-automate-first-for-home-inspectors` a
 | n8n Automation Examples (SMB) | `/n8n-automation-examples-small-business` | Authority page | Live |
 | AI Email Sequence Automation | `/ai-email-sequence-automation` | Workflow page | Live |
 | AI Automation for Insurance Agencies | `/ai-automation-for-insurance-agencies` | Industry page | Live |
+| What to Automate First for Insurance Agencies | `/what-to-automate-first-for-insurance-agencies` | Insurance first-project scoping page | Live |
 | AI Lead Follow-Up for Insurance Agencies | `/ai-lead-follow-up-for-insurance-agencies` | Industry workflow page | Live |
 | Renewal Reminder Automation for Insurance Agencies | `/renewal-reminder-automation-for-insurance-agencies` | Industry workflow page | Live |
 | Quote Follow-Up Automation for Insurance Agencies | `/quote-follow-up-automation-for-insurance-agencies` | Industry workflow page | Live |
@@ -259,20 +260,20 @@ Last updated: 2026-04-24 (shipped `what-to-automate-first-for-home-inspectors` a
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 233**
+**Total decision/comparison/industry pages live: 234**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/what-to-automate-first-for-home-inspectors` closes a clean process-selection gap inside the mature home-inspector cluster. That cluster now has the broad parent, a first-project scoping page, early-funnel lead follow-up, booked-inspection scheduling, post-inspection report delivery, and the full phone-decision layer. The next run should not force another home-inspector page by inertia. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only come back to a same-cluster child if that broader audit still cannot surface a cleaner proof-backed net-new page.
+Shipping `/what-to-automate-first-for-insurance-agencies` closes the roadmap's clearest surviving insurance first-project gap. The insurance cluster now has the broad parent, a first-project scoping page, lead follow-up, quote follow-up, renewals, and cross-sell. The next run should not force another insurance child by inertia. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only come back to a same-cluster child if that broader audit still cannot surface a cleaner proof-backed net-new page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued** | `what-to-automate-first-for-insurance-agencies` | Owners asking which insurance-agency workflow should come first before a broader automation rollout | The insurance cluster is now mature enough to support a first-project scoping page beside lead follow-up, renewals, quote follow-up, and cross-sell, but it still lacks that earlier buyer-decision layer. | **Best next content candidate** |
-| 2 | **Queued fallback** | `what-to-automate-first-for-mortgage-brokers` | Brokers asking whether to start with lead follow-up, document collection, or incomplete-application recovery | The mortgage-broker cluster already has a strong parent plus three narrow workflow children, so a first-project scoping page could still be a clean process-selection child if the next broad audit does not surface something stronger. | **Strong fallback** |
-| 3 | **Queued fallback** | Review-request / reputation-closeout children in mature service verticals | Re-check whether another live parent still names a distinct review-request, post-service closeout, or reputation-protection workflow that can stand alone without cannibalizing the broader vertical page | Use this only if the next broad reconciliation cannot find a cleaner proof-backed first-project or workflow child elsewhere. | **Fallback if broader audit is thin** |
+| 1 | **Queued** | `what-to-automate-first-for-mortgage-brokers` | Brokers asking whether to start with lead follow-up, document collection, or incomplete-application recovery | The mortgage-broker cluster already has a strong parent plus three narrow workflow children, so a first-project scoping page is now the cleanest remaining process-selection candidate after the insurance page shipped. | **Best next content candidate** |
+| 2 | **Queued fallback** | Review-request / reputation-closeout children in mature service verticals | Re-check whether another live parent still names a distinct review-request, post-service closeout, or reputation-protection workflow that can stand alone without cannibalizing the broader vertical page | Use this only if the next broad reconciliation cannot find a cleaner proof-backed first-project or workflow child elsewhere. | **Strong fallback** |
+| 3 | **Queued fallback** | `what-to-automate-first-for-real-estate` or another clean first-project child surfaced by fresh reconciliation | Owners choosing between the already-live workflow families inside a mature vertical cluster | If the broader audit surfaces another cluster with a clear parent plus several narrower child workflows but no process-selection layer yet, prefer that over inventing a weak adjacent page. | **Fallback if broader audit finds a cleaner first-project gap** |
 
 ### Priority Definitions
 

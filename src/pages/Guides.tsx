@@ -827,6 +827,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Insurance Agencies",
+    description:
+      "Scoping guide for insurance agencies deciding whether the first automation should be lead follow-up, quote follow-up, renewal reminders, or cross-sell before a broader rollout.",
+    href: "/what-to-automate-first-for-insurance-agencies",
+    category: "industries",
+  },
+  {
     title: "AI Lead Follow-Up for Insurance Agencies",
     description:
       "A narrower insurance early-funnel page focused on first-response speed, intake qualification, after-hours lead capture, and producer handoff before inbound quote requests go cold.",

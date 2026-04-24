@@ -629,7 +629,19 @@
         "How can AI help my insurance agency with lead follow-up?",
         "Automate renewal reminders for insurance agency",
         "AI follow-up for insurance agents",
-        "Best AI tools for independent insurance agencies"
+        "How should an insurance agency connect lead follow-up, quote follow-up, renewals, and cross-sell into one operating system?"
+      ]
+    },
+    {
+      "id": "what-to-automate-first-for-insurance-agencies",
+      "path": "/what-to-automate-first-for-insurance-agencies",
+      "label": "What to Automate First for Insurance Agencies",
+      "prompts": [
+        "What should an insurance agency automate first?",
+        "What should an independent insurance agency automate first lead follow-up quote follow-up renewals or cross-sell?",
+        "Should an insurance agency automate lead follow-up before quote follow-up?",
+        "Should an insurance agency automate renewals before cross-sell campaigns?",
+        "How do I choose the first automation project for my insurance agency?"
       ]
     },
     {

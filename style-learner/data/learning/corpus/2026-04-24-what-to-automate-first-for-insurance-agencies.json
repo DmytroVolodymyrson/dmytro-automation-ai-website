@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-24-what-to-automate-first-for-insurance-agencies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-24",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: What to Automate First for Insurance Agencies\nBody: If your insurance agency knows it needs better automation, the first move usually should not be a giant all-in-one rebuild. It should be one bounded workflow that fixes the leak already costing you policies, retention, or producer time. For most independent insurance agencies, that first workflow is one of four things: lead follow-up before a quote is even built, quote follow-up after the proposal goes out, renewal reminders before existing clients drift, or cross-sell outreach inside the current book. The right choice depends on where the agency is already losing momentum today — before the quote exists, after the quote is sent, before the policy renews, or after trust is already in the book but expansion never gets consistent follow-through.\nSub: Below: how to choose the first insurance-agency workflow to automate, how this page stays distinct from the broader parent and the narrower insurance child pages already live, what honest adjacent proof supports the recommendation, and when you should keep the first project smaller instead of forcing a broader agency-ops rebuild too early.\n\n### Core sections\n- The first insurance-agency workflows usually worth automating\n- Which insurance-agency workflow should you automate first?\n- This page vs. the rest of the insurance cluster\n- Is this a good fit for your agency?\n- How to choose the first insurance-agency automation without overbuilding\n- Relevant proof and adjacent proof\n\n### FAQ\nSubhead: Practical questions about choosing the first insurance-agency automation project\nTopics: what an insurance agency should automate first, how this differs from the broader insurance automation page, when lead follow-up or renewals should come first, whether quote follow-up or cross-sell is the better first build, and how to keep the first project bounded.\n\n### Final CTA\nHeading: Need help choosing the first insurance workflow to automate?\nBody: Book a 30-minute call. We will look at where your agency is actually leaking policies or producer time today, tell you which workflow should come first, and show you what a smaller first build would need to include before you fund a broader automation rollout.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped from the roadmap's top queued candidate after broad backlog reconciliation still showed a clean surviving gap in the insurance cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The live insurance parent plus the lead-follow-up, quote-follow-up, renewal, and cross-sell children already exposed four distinct workflow families, but there was still no page helping an owner choose which one should come first."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/ai-automation-for-insurance-agencies`, `/ai-lead-follow-up-for-insurance-agencies`, `/quote-follow-up-automation-for-insurance-agencies`, `/renewal-reminder-automation-for-insurance-agencies`, and `/cross-sell-automation-for-insurance-agencies` by staying only on the earlier process-selection decision itself."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live insurance cluster plus the published e-commerce CRM case study and adjacent lead-follow-up guidance support the workflow logic without pretending there is already a dedicated insurance first-project case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T20:05:00.140Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 26.7,
+      "sentenceLengthRange": [
+        4,
+        54
+      ],
+      "totalWords": 347
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: What to Automate First for Insurance Agencies\nBody: If your insurance agency knows it needs better automation, the first move usually should not be a giant all-in-one rebuild.",
+      "wordCount": 30,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help choosing the first insurance workflow to automate?\nBody: Book a 30-minute call. We will look at where your agency is actually leaking policies or producer time today, tell you which workflow should come first, and show you what a smaller first build would need to include before you fund a broader automation rollout.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 19,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 3,
+      "colon": 9,
+      "commasPerSentence": 1.58
+    },
+    "vocabulary": {
+      "distinctWords": 165,
+      "totalWords": 347,
+      "topWords": [
+        [
+          "first",
+          16
+        ],
+        [
+          "insurance",
+          8
+        ],
+        [
+          "should",
+          7
+        ],
+        [
+          "workflow",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "automate",
+          5
+        ],
+        [
+          "agency",
+          5
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "before",
+          5
+        ],
+        [
+          "quote",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "insurance-agency",
+          5
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "already",
+          4
+        ],
+        [
+          "follow-up",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
