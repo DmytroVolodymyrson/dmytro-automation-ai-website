@@ -2289,6 +2289,18 @@
       ]
     },
     {
+      "id": "inspection-scheduling-and-reminder-automation-for-home-inspectors",
+      "path": "/inspection-scheduling-and-reminder-automation-for-home-inspectors",
+      "label": "Inspection Scheduling and Reminder Automation for Home Inspectors",
+      "prompts": [
+        "Inspection scheduling and reminder automation for home inspectors",
+        "How should a home inspector automate booking confirmations and reminders?",
+        "Best way for a home inspector to handle scheduling, confirmations, and reschedules without phone tag",
+        "How do home inspectors coordinate availability, inspection type, and reminders once the booking is real?",
+        "What should a home-inspector booking workflow handle after lead follow-up and before the inspection happens?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-for-home-inspectors",
       "path": "/missed-call-text-back-for-home-inspectors",
       "label": "Missed Call Text-Back for Home Inspectors",

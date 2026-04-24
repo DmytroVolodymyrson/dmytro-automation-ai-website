@@ -1611,6 +1611,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Inspection Scheduling and Reminder Automation for Home Inspectors",
+    description:
+      "Booked-inspection workflow for home inspectors focused on availability handling, inspection-type logic, confirmations, reminders, reschedules, and cleaner agent/buyer handoff once scheduling starts.",
+    href: "/inspection-scheduling-and-reminder-automation-for-home-inspectors",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Home Inspectors",
     description:
       "A narrower home-inspector live-phone-coverage guide focused on booking intake, agent and buyer call handling, after-hours coverage, and the handoff points that should stay human.",

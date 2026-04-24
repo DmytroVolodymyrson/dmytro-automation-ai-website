@@ -226,6 +226,7 @@ import AiPhoneAnsweringVsVoicemailForPaintingContractors from "./pages/AiPhoneAn
 import MissedCallTextBackVsAiPhoneAnsweringForPaintingContractors from "./pages/MissedCallTextBackVsAiPhoneAnsweringForPaintingContractors";
 import AiAutomationForHomeInspectors from "./pages/AiAutomationForHomeInspectors";
 import AiLeadFollowUpForHomeInspectors from "./pages/AiLeadFollowUpForHomeInspectors";
+import InspectionSchedulingAndReminderAutomationForHomeInspectors from "./pages/InspectionSchedulingAndReminderAutomationForHomeInspectors";
 import AiPhoneAnsweringForHomeInspectors from "./pages/AiPhoneAnsweringForHomeInspectors";
 import MissedCallTextBackForHomeInspectors from "./pages/MissedCallTextBackForHomeInspectors";
 import MissedCallTextBackVsVoicemailForHomeInspectors from "./pages/MissedCallTextBackVsVoicemailForHomeInspectors";
@@ -529,6 +530,10 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/missed-call-text-back-vs-ai-phone-answering-for-painting-contractors", element: <MissedCallTextBackVsAiPhoneAnsweringForPaintingContractors /> },
   { path: "/ai-automation-for-home-inspectors", element: <AiAutomationForHomeInspectors /> },
   { path: "/ai-lead-follow-up-for-home-inspectors", element: <AiLeadFollowUpForHomeInspectors /> },
+  {
+    path: "/inspection-scheduling-and-reminder-automation-for-home-inspectors",
+    element: <InspectionSchedulingAndReminderAutomationForHomeInspectors />,
+  },
   { path: "/ai-phone-answering-for-home-inspectors", element: <AiPhoneAnsweringForHomeInspectors /> },
   { path: "/ai-phone-answering-vs-voicemail-for-home-inspectors", element: <AiPhoneAnsweringVsVoicemailForHomeInspectors /> },
   { path: "/missed-call-text-back-for-home-inspectors", element: <MissedCallTextBackForHomeInspectors /> },
