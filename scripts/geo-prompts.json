@@ -1708,8 +1708,20 @@
         "Missed call text-back for home inspectors",
         "How do home inspectors text back missed calls automatically?",
         "Best way for a home inspector to protect agent referrals while still on-site",
-        "Should a home inspector use missed-call text-back or voicemail?",
+        "What should a home inspector missed-call text-back workflow actually say after a missed call?",
         "How can a home inspector stop losing buyer and agent calls during inspections?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-voicemail-for-home-inspectors",
+      "path": "/missed-call-text-back-vs-voicemail-for-home-inspectors",
+      "label": "Missed Call Text-Back vs. Voicemail for Home Inspectors",
+      "prompts": [
+        "Missed call text-back vs voicemail for home inspectors",
+        "Should a home inspector use missed-call text-back or voicemail?",
+        "Is voicemail enough for a home inspector when calls get missed during inspections?",
+        "When should a home inspector use missed-call text-back instead of voicemail and callbacks?",
+        "Best home-inspector missed-call recovery setup text-back or voicemail"
       ]
     },
     {

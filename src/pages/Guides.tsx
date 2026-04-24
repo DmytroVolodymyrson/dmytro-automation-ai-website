@@ -1282,6 +1282,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. Voicemail for Home Inspectors",
+    description:
+      "Home-inspector buyer guide for deciding when a simple SMS-first recovery layer is enough, when voicemail and callbacks are quietly leaking bookings, and when the business should move beyond both into live AI phone answering.",
+    href: "/missed-call-text-back-vs-voicemail-for-home-inspectors",
+    category: "comparisons",
+  },
+  {
     title: "CRM Automation for Contractors",
     description:
       "Contractor-focused CRM setup for pipeline structure, estimate follow-up, scheduling handoff, and ops visibility when your office and field teams are dropping context.",
