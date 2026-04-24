@@ -333,6 +333,18 @@
       ]
     },
     {
+      "id": "review-request-automation-for-hvac-companies",
+      "path": "/review-request-automation-for-hvac-companies",
+      "label": "Review Request Automation for HVAC Companies",
+      "prompts": [
+        "Review request automation for HVAC companies",
+        "How do HVAC companies ask for Google reviews automatically after a completed service call?",
+        "Best way to automate review requests for HVAC jobs without pushing unhappy customers too early",
+        "When should an HVAC company ask for reviews after repair, maintenance, or install work is finished?",
+        "How should an HVAC company route unhappy post-job replies before sending a public review link?"
+      ]
+    },
+    {
       "id": "hire-ai-automation-consultant-vs-agency",
       "path": "/hire-ai-automation-consultant-vs-agency",
       "label": "Hire an AI Automation Consultant vs Agency",

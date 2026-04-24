@@ -680,6 +680,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "Review Request Automation for HVAC Companies",
+    description:
+      "Post-job reputation workflow for HVAC companies that want better review timing, unhappy-reply routing, and cleaner technician-to-office handoff after completed service calls instead of manual review chasing.",
+    href: "/review-request-automation-for-hvac-companies",
+    category: "industries",
+  },
+  {
     title: "AI Appointment Setter for HVAC",
     description:
       "AI-powered scheduling for HVAC service calls. Book appointments, send confirmations, and reduce no-shows without phone tag.",

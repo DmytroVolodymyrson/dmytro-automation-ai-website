@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-24-review-request-automation-for-hvac-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-24",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: Review Request Automation for HVAC Companies\nBody: A lot of HVAC companies do not only lose jobs because somebody missed the first call. They also lose easy trust after the work is already done. The technician finished the repair or maintenance visit, the customer seemed satisfied, and then nothing happened. Or a review request went out too early while the customer was still waiting to see if the fix held. Or every completed job got the same generic message even when a callback issue, billing question, or comfort complaint should have come back to the office first. Review request automation for HVAC companies fixes that narrower post-job workflow. It gives completed service calls a cleaner closeout path, helps the office ask for reviews when the experience is actually ready, and protects reputation by routing uncertain replies back inside before the company pushes for a public rating.\nSub: Below: what a practical HVAC review-request workflow should actually handle, how it stays distinct from the broader HVAC page and the other live child pages, what guardrails matter, and what proof honestly supports this page without pretending there is already a dedicated HVAC review-automation case study on the site.\n\n### Core sections\n- What HVAC review-request automation should actually handle\n- How this page stays distinct inside the HVAC cluster\n- Is this a good fit for your HVAC company?\n- Guardrails that keep HVAC review-request automation useful\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical answers for HVAC companies considering a cleaner post-job review workflow\nTopics: how this differs from the broader HVAC automation page, why not every completed HVAC job should get an instant review ask, what a focused HVAC review-request workflow usually costs, whether the build can fit the current HVAC software stack, and where the real ROI comes from.\n\n### Final CTA\nHeading: Need cleaner reputation follow-up after the work is done?\nBody: Book a 30-minute call. We will look at how completed jobs get handed off today, where review asks are being missed or mistimed, and whether a focused post-job workflow, an earlier lead or scheduling fix, or no new build is the smarter next move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after fresh reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the roadmap fallback explicitly prioritized review-request / reputation-closeout children in mature service verticals, and HVAC was the strongest current proof-backed fallback after the pest-control page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/ai-automation-for-hvac-companies` by narrowing to the completed-job reputation stage instead of rehashing the full stack, and it stays distinct from the other HVAC child pages by starting after the job is finished rather than earlier lead, scheduling, or phone stages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live HVAC parent, the adjacent HVAC lead-follow-up and scheduling pages, and the published e-commerce CRM case study support the workflow pattern without pretending there is already a dedicated HVAC review-automation case study on the site."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T21:26:21.420Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 25.7,
+      "sentenceLengthRange": [
+        5,
+        60
+      ],
+      "totalWords": 360
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Review Request Automation for HVAC Companies\nBody: A lot of HVAC companies do not only lose jobs because somebody missed the first call.",
+      "wordCount": 25,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need cleaner reputation follow-up after the work is done?\nBody: Book a 30-minute call. We will look at how completed jobs get handed off today, where review asks are being missed or mistimed, and whether a focused post-job workflow, an earlier lead or scheduling fix, or no new build is the smarter next move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 17,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.31
+    },
+    "vocabulary": {
+      "distinctWords": 196,
+      "totalWords": 360,
+      "topWords": [
+        [
+          "hvac",
+          15
+        ],
+        [
+          "review",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "companies",
+          4
+        ],
+        [
+          "completed",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "review-request",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "request",
+          3
+        ],
+        [
+          "post-job",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
