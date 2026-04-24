@@ -1677,6 +1677,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-for-landscaping-companies",
+      "path": "/ai-phone-answering-for-landscaping-companies",
+      "label": "AI Phone Answering for Landscaping Companies",
+      "prompts": [
+        "AI phone answering for landscaping companies",
+        "Best way for a landscaping company to stop losing spring-rush calls when crews are still in the field",
+        "How should a landscaping company handle quote calls when the owner is on-site or after hours?",
+        "Can AI answer routine landscaping quote and scheduling calls live?",
+        "What should live AI phone answering actually handle for a landscaping company before the call should transfer to a human?"
+      ]
+    },
+    {
       "id": "estimate-follow-up-automation-for-landscaping-companies",
       "path": "/estimate-follow-up-automation-for-landscaping-companies",
       "label": "Estimate Follow-Up Automation for Landscaping Companies",

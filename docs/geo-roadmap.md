@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `ai-phone-answering-vs-voicemail-for-pest-control-companies` after another fallback reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes, and `scripts/geo-prompts.json`. The clean remaining gap in the pest-control phone cluster was the heavier live-answering-vs-voicemail buyer decision: the broader parent, live-answering explainer, lighter missed-call page, lighter voicemail comparison, and lighter-vs-heavier comparison were already live, but the heavier fallback choice still was not isolated. The new page stays distinct by focusing only on the buyer decision itself: when voicemail/manual callback is still acceptable, when live AI phone coverage earns the extra complexity, and when missed-call text-back remains the better middle step. Proof framing stays honest through the live pest-control cluster, the generic phone-answering guide, and the Paris Cafe call-handling case study.)
+Last updated: 2026-04-24 (shipped `ai-phone-answering-for-landscaping-companies` after another fallback reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes, and `scripts/geo-prompts.json`. The landscaping cluster still had a clean heavier phone-layer gap: the broader parent, first-project guide, lighter missed-call page, lighter voicemail comparison, estimate-recovery page, recurring-service page, and seasonal-reactivation page were already live, but the live-answering explainer itself was still missing. The new page stays distinct by focusing only on the live phone-coverage layer: when a landscaping company has outgrown voicemail and SMS-first recovery, what live AI answering should actually handle, where the handoff back to a human belongs, and why this is a different decision from the lighter fallback pages already live. Proof framing stays honest through the live landscaping cluster, the generic phone-answering guide, and the Paris Cafe call-handling case study.)
 
 ## Live GEO Assets
 
@@ -187,6 +187,7 @@ Last updated: 2026-04-24 (shipped `ai-phone-answering-vs-voicemail-for-pest-cont
 | Estimate Follow-Up Automation for Landscaping Companies | `/estimate-follow-up-automation-for-landscaping-companies` | Landscaping estimate-recovery workflow page | Live |
 | Recurring Service Scheduling and Reminder Automation for Landscaping Companies | `/recurring-service-scheduling-and-reminder-automation-for-landscaping-companies` | Landscaping recurring-service operations workflow page | Live |
 | Seasonal Reactivation Automation for Landscaping Companies | `/seasonal-reactivation-automation-for-landscaping-companies` | Landscaping seasonal retention workflow page | Live |
+| AI Phone Answering for Landscaping Companies | `/ai-phone-answering-for-landscaping-companies` | Landscaping live-phone-coverage workflow page | Live |
 | AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
 | Estimate Follow-Up Automation for Painting Contractors | `/estimate-follow-up-automation-for-painting-contractors` | Painting estimate-recovery workflow page | Live |
 | What to Automate First for Painting Contractors | `/what-to-automate-first-for-painting-contractors` | Painting first-project scoping page | Live |
@@ -214,20 +215,20 @@ Last updated: 2026-04-24 (shipped `ai-phone-answering-vs-voicemail-for-pest-cont
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 192**
+**Total decision/comparison/industry pages live: 193**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-phone-answering-vs-voicemail-for-pest-control-companies` clears the last clean phone-layer comparison in the pest-control cluster. The next run should broaden back out to the remaining backlog and look for another proof-backed child, setup/pricing decision, or exact tracked buyer query in a different live cluster instead of forcing more pest-control overlap.
+Shipping `/ai-phone-answering-for-landscaping-companies` fills the missing heavier live-phone-coverage explainer in the landscaping cluster. The next run should stay alert for a clean landscaping phone comparison if it still survives reconciliation, but should still prefer the best proof-backed net-new page anywhere in the backlog over forcing same-cluster overlap.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Broad backlog reconciliation for one more proof-backed net-new page outside the pest-control cluster | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | Best next move now that the pest-control phone stack looks complete enough and another same-cluster page would risk overlap. | **Best next candidate** |
-| 2 | **Fallback** | Re-audit live parent pages for exact tracked child queries that still have no dedicated page | Mine tracked prompts and planning docs for one cleaner extracted child in another cluster (for example setup, pricing, first-project, or phone-layer decisions) | Useful when the roadmap queue is exhausted or stale but the wider planning set still hides a defensible page. | **Default backup** |
-| 3 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, n8n, voice-agent, roofing, HVAC, painting, home-inspector, and pest-control clusters without filler | Use this only if another full reconciliation still finds no defensible proof-backed net-new page. | **Maintenance-only fallback** |
+| 1 | **Fallback** | `missed-call-text-back-vs-ai-phone-answering-for-landscaping-companies` | Landscaping owners deciding when SMS-first recovery is enough versus when live AI phone coverage is worth the heavier build | Clean next comparison if broader reconciliation still supports a landscaping phone-decision follow-up without collapsing back into the new explainer. | **Best next candidate** |
+| 2 | **Fallback** | `ai-phone-answering-vs-voicemail-for-landscaping-companies` | Landscaping owners deciding when voicemail/callback is still enough versus when they should move to live AI phone answering | Also plausible now that the live-answering explainer exists, but only if the lighter voicemail comparison still looks materially distinct after another broad audit. | **Default backup** |
+| 3 | **Fallback** | Broad backlog reconciliation for one more proof-backed net-new page anywhere outside the landscaping phone cluster | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | Use this if the landscaping follow-up comparisons look too thin or duplicative once the repo is re-audited next run. | **Wide fallback** |
 
 ### Priority Definitions
 

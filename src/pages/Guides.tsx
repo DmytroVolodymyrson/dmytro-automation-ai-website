@@ -1247,6 +1247,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering for Landscaping Companies",
+    description:
+      "A narrower landscaping live-phone-coverage guide focused on quote-call intake, spring-rush overflow protection, after-hours answer coverage, recurring-service call handling, and the handoff points that should stay human.",
+    href: "/ai-phone-answering-for-landscaping-companies",
+    category: "industries",
+  },
+  {
     title: "Recurring Service Scheduling and Reminder Automation for Landscaping Companies",
     description:
       "A narrower landscaping workflow page focused on weekly and biweekly service confirmations, skip requests, weather-delay updates, route-change communication, and cleaner office-to-field handoff after recurring work is already sold.",
