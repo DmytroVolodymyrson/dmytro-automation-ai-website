@@ -1156,6 +1156,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Lead Follow-Up for Med Spas",
+    description:
+      "A narrower med spa early-funnel page focused on faster consultation response, multi-step inquiry nurture, lightweight qualification, and clean front-desk handoff before the consult gets booked.",
+    href: "/ai-lead-follow-up-for-med-spas",
+    category: "industries",
+  },
+  {
     title: "Missed Call Text-Back for Med Spas",
     description:
       "A narrower med spa phone-recovery page focused on missed consultation calls, immediate SMS follow-up, lightweight intake capture, and a practical fallback when voicemail is too passive but live answering is still too heavy.",

@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `seasonal-campaign-automation-for-pest-control-companies` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The live pest-control cluster already had the broad parent, the first-project scoping page, the recurring-service reminder child, the urgent lead-follow-up child, and the phone-recovery pages. One distinct workflow family still remained explicitly named across the parent copy, roadmap watchlist, and prompt set: pre-season seasonal outreach. The new page stays distinct by focusing on timed seasonal campaigns and reactivation — spring ant prevention, mosquito-season outreach, fall rodent timing, and wildlife reminders — instead of rehashing recurring-service reminders or same-day inbound response.)
+Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-med-spas` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The live med spa cluster already had the broad parent, the first-project scoping page, consultation booking, no-show reduction, treatment recall, and the phone-recovery / phone-answering pages. One distinct workflow family still remained explicitly named across the parent copy and the first-project prompt set: early-funnel lead follow-up before the consult is booked. The new page stays distinct by focusing on immediate response, multi-step inquiry nurture, light qualification, and front-desk handoff — instead of rehashing booking, no-show protection, or the phone-only recovery layer.)
 
 ## Live GEO Assets
 
@@ -178,6 +178,7 @@ Last updated: 2026-04-24 (shipped `seasonal-campaign-automation-for-pest-control
 | Consultation Booking and Reminder Automation for Med Spas | `/consultation-booking-and-reminder-automation-for-med-spas` | Med-spa booked-consult workflow page | Live |
 | No-Show Reduction Automation for Med Spas | `/no-show-reduction-automation-for-med-spas` | Med-spa attendance-protection workflow page | Live |
 | Treatment Recall Automation for Med Spas | `/treatment-recall-automation-for-med-spas` | Med-spa retention / repeat-treatment workflow page | Live |
+| AI Lead Follow-Up for Med Spas | `/ai-lead-follow-up-for-med-spas` | Med-spa early-funnel consultation-response workflow page | Live |
 | AI Phone Answering for Med Spas | `/ai-phone-answering-for-med-spas` | Med-spa live-phone-coverage workflow page | Live |
 | AI Phone Answering vs. Voicemail for Med Spas | `/ai-phone-answering-vs-voicemail-for-med-spas` | Med-spa heavier phone-fallback decision page | Live |
 | AI Automation for Roofing Companies | `/ai-automation-for-roofing-companies` | Industry page | Live |
@@ -246,18 +247,18 @@ Last updated: 2026-04-24 (shipped `seasonal-campaign-automation-for-pest-control
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 220**
+**Total decision/comparison/industry pages live: 221**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/seasonal-campaign-automation-for-pest-control-companies` closes the clearest remaining pest-control workflow family that still survived the broader audit: the parent page, first-project scoping page, recurring-service reminder child, and phone-recovery pages were already live, but pre-season outreach still did not have its own bounded page. After that ship, the safest next move is another broad repo-wide reconciliation instead of forcing one more same-cluster follow-on by inertia. If another candidate still survives cleanly, it should beat maintenance on distinct intent and proof fit across the whole planning set — not just because it lives near the pest-control cluster.
+Shipping `/ai-lead-follow-up-for-med-spas` extracted the clearest exact workflow query that still survived the broader audit: the live med spa cluster already covered booking, no-show reduction, treatment recall, and the phone layers, but early-funnel consultation follow-up still did not have its own bounded page. After that ship, the safest next move is another broad repo-wide reconciliation instead of forcing one more same-cluster follow-on by inertia. If another candidate still survives cleanly, it should beat maintenance on distinct intent and proof fit across the whole planning set — not just because it lives near the med spa cluster.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for any still-distinct planned page that is not already live and does not collapse into an existing cluster | After shipping the missing pest-control seasonal-outreach child, the safest next step is another fresh repo-wide audit rather than assuming the same cluster still has the best remaining page. | **Do next** |
+| 1 | **Queued** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for any still-distinct planned page that is not already live and does not collapse into an existing cluster | After shipping the missing med-spa early-funnel child, the safest next step is another fresh repo-wide audit rather than assuming the same cluster still has the best remaining page. | **Do next** |
 | 2 | **Maintenance fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if another broad audit still finds no defensible net-new page | Use only if the next reconciliation still cannot find a distinct proof-backed page worth shipping. | **Use only if backlog is exhausted** |
 | 3 | **Proof-led watchlist** | Remaining child pages only if a future audit still surfaces an exact surviving query inside a live cluster | A later run may still uncover one more clean child page from an existing parent or first-project prompt set, but it should survive the full planning set explicitly instead of being inferred from cluster momentum. | Keep the next run honest if the backlog is genuinely getting thin. | **Do not force without a fresh audit** |
 

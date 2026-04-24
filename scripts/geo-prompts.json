@@ -1442,10 +1442,22 @@
       "label": "What to Automate First for Med Spas",
       "prompts": [
         "What should a med spa automate first?",
-        "How should a med spa prioritize lead follow-up, booking friction, no-show reduction, treatment recall, and after-hours inquiry handling before a bigger automation build?",
+        "How should a med spa choose the highest-ROI first automation project before building a broader patient-communication system?",
         "Best first automation for med spas",
         "How do I choose the first automation project for a med spa?",
         "What is the highest ROI first automation project for a med spa?"
+      ]
+    },
+    {
+      "id": "ai-lead-follow-up-for-med-spas",
+      "path": "/ai-lead-follow-up-for-med-spas",
+      "label": "AI Lead Follow-Up for Med Spas",
+      "prompts": [
+        "AI lead follow-up for med spas",
+        "How should a med spa automate consultation lead follow-up?",
+        "Best way for a med spa to respond faster to consultation inquiries",
+        "How do med spas stop consultation requests from going cold before booking?",
+        "Should a med spa fix lead follow-up before broader booking and patient communication automation?"
       ]
     },
     {

@@ -1,0 +1,33 @@
+# Post: AI Lead Follow-Up for Med Spas
+**Date:** 2026-04-24
+**Platform:** landing-page
+**Language:** en
+**Section:** /ai-lead-follow-up-for-med-spas (med-spa early-funnel consultation-response workflow page)
+
+## Final Published Text
+
+### Hero
+Heading: AI Lead Follow-Up for Med Spas
+Body: Most med spas do not lose consultation revenue because nobody wants the treatment. They lose it because the inquiry arrives, sits too long, gets one weak reply, or disappears between Instagram DMs, web forms, missed calls, and a busy front desk. When a prospective patient is comparing Botox, filler, laser, or skincare options, the clinic that responds first and follows through usually gets the consult. AI lead follow-up for med spas fixes that narrower early-funnel workflow. It answers fast, keeps the conversation moving while interest is still hot, captures the next useful detail, and hands real buying intent back to a human before the consult goes cold.
+Sub: Below: what this med spa workflow actually covers, how it stays distinct from the broader med spa page and the booking / no-show / phone pages already live, what guardrails matter, and what adjacent proof honestly supports it.
+
+### Core sections
+- What med spa lead follow-up should actually handle
+- How this page stays distinct inside the med spa cluster
+- Is this a good fit for your med spa?
+- Guardrails that keep med spa lead follow-up useful
+- What proof supports this page
+
+### FAQ
+Subhead: Practical questions about lead-follow-up workflows for med spas
+Topics: how this differs from consultation booking automation, what a focused med spa lead-follow-up build usually costs, whether it can work with existing booking software or a CRM, what ROI matters most, and why it does not replace the front desk.
+
+### Final CTA
+Heading: Want more med spa inquiries handled before they go cold?
+Body: Book a 30-minute call. We will look at how your clinic handles new consultation inquiries today, where speed-to-lead is leaking, and whether this narrower lead-follow-up workflow is the cleanest automation to build next.
+
+## Style Notes
+- Shipped after broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json`.
+- Chosen because the live med spa parent and first-project page already framed lead follow-up as a distinct workflow family, while the live child set had already covered booking, no-show reduction, treatment recall, and the phone-recovery / phone-answering layers.
+- The page stays materially distinct from `/ai-automation-for-med-spas`, `/what-to-automate-first-for-med-spas`, `/consultation-booking-and-reminder-automation-for-med-spas`, and `/missed-call-text-back-for-med-spas` by focusing on first response, multi-step nurture, light qualification, and front-desk handoff before the consult is booked.
+- Proof framing stays honest: the live med spa parent page, `/ai-lead-follow-up-for-service-businesses`, and the e-commerce CRM case study support the early-funnel follow-up pattern without inventing a med-spa-specific case study.
