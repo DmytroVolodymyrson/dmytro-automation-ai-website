@@ -1156,6 +1156,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back for Med Spas",
+    description:
+      "A narrower med spa phone-recovery page focused on missed consultation calls, immediate SMS follow-up, lightweight intake capture, and a practical fallback when voicemail is too passive but live answering is still too heavy.",
+    href: "/missed-call-text-back-for-med-spas",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Med Spas",
     description:
       "A narrower med spa phone-coverage page focused on live consultation call handling, after-hours inquiry coverage, routine booking questions, and front-desk handoff when voicemail is too weak.",

@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `ai-phone-answering-for-med-spas` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The med spa cluster still had one clean missing phone-layer child: the broad parent, the first-project guide, the consultation-booking child, the no-show child, and the treatment-recall child were already live, and both the parent copy and the first-project prompt set already isolated after-hours inquiry handling as its own workflow choice. The new page stays distinct by isolating the heavier live-answering layer itself — live consultation-call coverage, routine booking-question handling, after-hours demand protection, and front-desk handoff — rather than rehashing the broader parent, the first-project page, or the generic service-business phone guide. Proof framing stays honest through the live med spa cluster, the generic AI phone-answering guide, and the published Paris Cafe call-handling case study rather than pretending there is already a med-spa-only phone-answering case study.)
+Last updated: 2026-04-24 (shipped `missed-call-text-back-for-med-spas` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The med spa cluster still had one clean lighter phone-layer child: the broad parent, the first-project page, the consultation-booking child, the no-show child, the treatment-recall child, and the heavier live-answering explainer were already live, but the SMS-first missed-call recovery page was still unshipped. The new page stays distinct by isolating the lighter fallback after a missed consultation call — immediate text-back, lightweight intake capture, callback routing, and the line between voicemail, text-back, and live answering — rather than rehashing the broader parent, the first-project page, or the heavier live phone-answering page. Proof framing stays honest through the live med spa cluster, the generic missed-call guide, the live med spa phone-answering page, and the published Paris Cafe call-handling case study rather than pretending there is already a med-spa-only missed-call text-back case study.)
 
 ## Live GEO Assets
 
@@ -172,6 +172,7 @@ Last updated: 2026-04-24 (shipped `ai-phone-answering-for-med-spas` after anothe
 | Client Reactivation Automation for Cleaning Companies | `/client-reactivation-automation-for-cleaning-companies` | Cleaning retention workflow page | Live |
 | AI Automation for Med Spas | `/ai-automation-for-med-spas` | Industry page | Live |
 | What to Automate First for Med Spas | `/what-to-automate-first-for-med-spas` | Med-spa first-project scoping page | Live |
+| Missed Call Text-Back for Med Spas | `/missed-call-text-back-for-med-spas` | Med-spa lighter phone-recovery workflow page | Live |
 | Consultation Booking and Reminder Automation for Med Spas | `/consultation-booking-and-reminder-automation-for-med-spas` | Med-spa booked-consult workflow page | Live |
 | No-Show Reduction Automation for Med Spas | `/no-show-reduction-automation-for-med-spas` | Med-spa attendance-protection workflow page | Live |
 | Treatment Recall Automation for Med Spas | `/treatment-recall-automation-for-med-spas` | Med-spa retention / repeat-treatment workflow page | Live |
@@ -238,19 +239,19 @@ Last updated: 2026-04-24 (shipped `ai-phone-answering-for-med-spas` after anothe
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 212**
+**Total decision/comparison/industry pages live: 213**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-phone-answering-for-med-spas` opens a new bounded phone layer inside the med spa cluster: the broad parent, the first-project scoping page, the consultation-booking child, the no-show child, the treatment-recall child, and now the heavier live-answering explainer all exist as separate assets. The next run should still start with a fresh broad reconciliation across the planning docs, live routes/pages, and `scripts/geo-prompts.json` instead of forcing another med spa page automatically, but the med spa cluster now has a clean lighter-fallback candidate if no stronger repo-wide page surfaces.
+Shipping `/missed-call-text-back-for-med-spas` fills the lighter phone-recovery layer inside the med spa cluster: the broad parent, the first-project scoping page, the lighter missed-call workflow, the consultation-booking child, the no-show child, the treatment-recall child, and the heavier live-answering explainer now exist as separate assets. The next run should still start with a fresh broad reconciliation across the planning docs, live routes/pages, and `scripts/geo-prompts.json` instead of forcing another med spa page automatically, but if no stronger repo-wide page surfaces the med spa cluster now has a clean lighter-fallback decision page worth considering next.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
 | 1 | **Fallback** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for any still-distinct planned page that is not already live and does not collapse into an existing cluster | The roadmap queue is still weaker than the combined planning docs + live-cluster state, so the next clean ship may still come from another cluster instead of another med spa page. | **Do first next run** |
-| 2 | **P1** | `/missed-call-text-back-for-med-spas` | Lighter after-hours consultation recovery for clinics where live AI answering is too heavy but voicemail is too weak | Now that the heavier live-answering explainer is live, the med spa cluster still has one clean adjacent phone-layer fallback: the lighter SMS-first missed-call recovery page. It would stay distinct by focusing on post-miss consultation recovery instead of live answer coverage. | **Use if broad reconciliation does not surface a stronger repo-wide candidate** |
+| 2 | **P1** | `/missed-call-text-back-vs-voicemail-for-med-spas` | Lighter buyer decision for clinics where voicemail may still feel acceptable but a simple SMS-first recovery layer could preserve more consultation demand without jumping straight to live AI answering | Now that both the lighter missed-call workflow page and the heavier live-answering explainer are live, the med spa cluster has a clean remaining phone-fallback comparison if a broader reconciliation does not surface a stronger repo-wide ship. It would stay distinct by focusing on voicemail vs. SMS-first recovery rather than rehashing the broader cluster or the heavier live-answering layer. | **Use if broad reconciliation does not surface a stronger repo-wide candidate** |
 | 3 | **Maintenance fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if another broad audit still finds no defensible net-new page | Use only if the next reconciliation still cannot find a distinct proof-backed page worth shipping. | **Use only if backlog is exhausted** |
 
 ### Priority Definitions

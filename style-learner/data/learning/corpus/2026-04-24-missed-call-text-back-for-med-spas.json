@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-24-missed-call-text-back-for-med-spas",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-24",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back for Med Spas\nBody: Many med spa calls do not need a full live AI conversation. They need a fast, credible response before the prospective patient moves on. A consultation lead calls after work, during a busy treatment block, or while the front desk is juggling check-ins and nobody answers. Voicemail is usually too passive for that moment. Missed-call text-back is the lighter fallback layer between doing nothing and deploying full live AI phone coverage. The call is missed, a useful text goes out immediately, the patient gets a clear next step, and your team gets enough context to call back or book follow-up before the consultation request goes cold.\nSub: Below: what med spa missed-call text-back should actually handle, how it stays distinct from the broader med spa pages and the heavier live-answering page, what proof honestly supports it, and when the clinic has already outgrown SMS-first recovery into live phone coverage.\n\n### Core sections\n- What med spa missed-call text-back should actually do\n- How this page stays distinct from the rest of the med spa cluster\n- When this is a good fit — and when it is not\n- How a practical med spa missed-call text-back workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Straight answers for med spa owners deciding whether SMS-first missed-call recovery is enough\nTopics: when text-back is enough, what the first text should say, how this differs from the heavier med spa phone-answering page, typical build cost, and when the clinic should skip text-back and move to live answering.\n\n### Final CTA\nHeading: Need a practical answer on missed-call recovery for your med spa?\nBody: Book a 30-minute call. We will look at your missed-call pattern, whether voicemail is quietly costing consult requests, and whether the next step should be a focused text-back workflow, heavier live answering, or no phone automation at all right now.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current live routes/pages, and `scripts/geo-prompts.json`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the med spa cluster still had one clean lighter phone-layer child: the broad parent, the first-project page, the consultation-booking child, the no-show child, the treatment-recall child, and the heavier live-answering explainer were already live, but the SMS-first missed-call recovery page was still unshipped."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page materially distinct from `/ai-automation-for-med-spas`, `/what-to-automate-first-for-med-spas`, `/ai-phone-answering-for-med-spas`, and `/consultation-booking-and-reminder-automation-for-med-spas` by staying tightly on the lighter fallback after a missed consultation call rather than re-explaining the broader cluster or the heavier live-answering layer."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live med spa cluster, the generic missed-call guide, the live med spa phone-answering page, and the Paris Cafe call-handling case study support the pattern without pretending there is already a med-spa-only missed-call text-back case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T13:35:05.081Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 26.6,
+      "sentenceLengthRange": [
+        5,
+        55
+      ],
+      "totalWords": 319
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Missed Call Text-Back for Med Spas\nBody: Many med spa calls do not need a full live AI conversation.",
+      "wordCount": 21,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a practical answer on missed-call recovery for your med spa?\nBody: Book a 30-minute call. We will look at your missed-call pattern, whether voicemail is quietly costing consult requests, and whether the next step should be a focused text-back workflow, heavier live answering, or no phone automation at all right now.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 17,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.55
+    },
+    "vocabulary": {
+      "distinctWords": 159,
+      "totalWords": 319,
+      "topWords": [
+        [
+          "med",
+          10
+        ],
+        [
+          "spa",
+          9
+        ],
+        [
+          "text-back",
+          8
+        ],
+        [
+          "missed-call",
+          7
+        ],
+        [
+          "live",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "should",
+          5
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "call",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "need",
+          3
+        ],
+        [
+          "phone",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

@@ -1449,6 +1449,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-for-med-spas",
+      "path": "/missed-call-text-back-for-med-spas",
+      "label": "Missed Call Text-Back for Med Spas",
+      "prompts": [
+        "Missed call text-back for med spas",
+        "How should a med spa text back missed consultation calls?",
+        "Is missed-call text-back enough for a med spa that keeps losing after-hours consultation calls?",
+        "Best way for a med spa to recover missed consultation calls without full live phone answering",
+        "When should a med spa use missed-call text-back instead of voicemail?"
+      ]
+    },
+    {
       "id": "ai-phone-answering-for-med-spas",
       "path": "/ai-phone-answering-for-med-spas",
       "label": "AI Phone Answering for Med Spas",
@@ -1457,7 +1469,7 @@
         "How should a med spa handle after-hours consultation calls without relying on voicemail?",
         "When does a med spa need live AI phone answering instead of next-day callbacks?",
         "Best way for a med spa to answer consultation inquiries after hours",
-        "Should a med spa use live AI phone answering or a lighter missed-call workflow?"
+        "How can a med spa use live AI phone answering without replacing the front desk?"
       ]
     },
     {

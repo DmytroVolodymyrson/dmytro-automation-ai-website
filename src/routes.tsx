@@ -163,6 +163,7 @@ import AiPhoneAnsweringVsVoicemailForCleaningCompanies from "./pages/AiPhoneAnsw
 import ClientReactivationAutomationForCleaningCompanies from "./pages/ClientReactivationAutomationForCleaningCompanies";
 import AiAutomationForMedSpas from "./pages/AiAutomationForMedSpas";
 import WhatToAutomateFirstForMedSpas from "./pages/WhatToAutomateFirstForMedSpas";
+import MissedCallTextBackForMedSpas from "./pages/MissedCallTextBackForMedSpas";
 import AiPhoneAnsweringForMedSpas from "./pages/AiPhoneAnsweringForMedSpas";
 import ConsultationBookingAndReminderAutomationForMedSpas from "./pages/ConsultationBookingAndReminderAutomationForMedSpas";
 import NoShowReductionAutomationForMedSpas from "./pages/NoShowReductionAutomationForMedSpas";
@@ -449,6 +450,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/client-reactivation-automation-for-cleaning-companies", element: <ClientReactivationAutomationForCleaningCompanies /> },
   { path: "/ai-automation-for-med-spas", element: <AiAutomationForMedSpas /> },
   { path: "/what-to-automate-first-for-med-spas", element: <WhatToAutomateFirstForMedSpas /> },
+  { path: "/missed-call-text-back-for-med-spas", element: <MissedCallTextBackForMedSpas /> },
   { path: "/ai-phone-answering-for-med-spas", element: <AiPhoneAnsweringForMedSpas /> },
   { path: "/consultation-booking-and-reminder-automation-for-med-spas", element: <ConsultationBookingAndReminderAutomationForMedSpas /> },
   { path: "/no-show-reduction-automation-for-med-spas", element: <NoShowReductionAutomationForMedSpas /> },
