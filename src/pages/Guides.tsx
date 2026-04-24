@@ -1135,6 +1135,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "AI Phone Answering vs. Voicemail for Pest Control Companies",
+    description:
+      "Pest-control buyer guide for choosing between live AI phone coverage and voicemail/manual callback. Covers urgent homeowner demand, callback lag, office workload, after-hours calls, and when missed-call text-back is the smarter middle step.",
+    href: "/ai-phone-answering-vs-voicemail-for-pest-control-companies",
+    category: "comparisons",
+  },
+  {
     title: "AI Automation for Auto Repair Shops",
     description:
       "AI automation for auto repair shops. Appointment scheduling, estimate follow-up, maintenance reminders, missed call text-back, and review automation.",

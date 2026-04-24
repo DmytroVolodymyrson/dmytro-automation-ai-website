@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `missed-call-text-back-vs-ai-phone-answering-for-pest-control-companies` after another fallback reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes, and `scripts/geo-prompts.json`. The surviving exact query was sitting on the live pest-control phone-answering entry, which made the comparison page the cleanest remaining child in the cluster. The new page stays distinct from the broader pest-control parent, the lighter missed-call text-back workflow page, the lighter voicemail comparison page, and the heavier live-answering explainer by focusing only on the buyer decision itself: when SMS-first recovery is enough, when urgent homeowner demand needs live answered coverage, and how to choose based on office workload, after-hours calls, and caller expectations. Proof framing stays honest through the live pest-control cluster, the generic phone-answering guide, and the Paris Cafe call-handling case study.)
+Last updated: 2026-04-24 (shipped `ai-phone-answering-vs-voicemail-for-pest-control-companies` after another fallback reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes, and `scripts/geo-prompts.json`. The clean remaining gap in the pest-control phone cluster was the heavier live-answering-vs-voicemail buyer decision: the broader parent, live-answering explainer, lighter missed-call page, lighter voicemail comparison, and lighter-vs-heavier comparison were already live, but the heavier fallback choice still was not isolated. The new page stays distinct by focusing only on the buyer decision itself: when voicemail/manual callback is still acceptable, when live AI phone coverage earns the extra complexity, and when missed-call text-back remains the better middle step. Proof framing stays honest through the live pest-control cluster, the generic phone-answering guide, and the Paris Cafe call-handling case study.)
 
 ## Live GEO Assets
 
@@ -166,6 +166,7 @@ Last updated: 2026-04-24 (shipped `missed-call-text-back-vs-ai-phone-answering-f
 | AI Phone Answering vs. Voicemail for Roofing Companies | `/ai-phone-answering-vs-voicemail-for-roofing-companies` | Roofing phone-fallback decision page | Live |
 | AI Automation for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Industry page | Live |
 | AI Phone Answering for Pest Control Companies | `/ai-phone-answering-for-pest-control-companies` | Pest-control live-phone-coverage workflow page | Live |
+| AI Phone Answering vs. Voicemail for Pest Control Companies | `/ai-phone-answering-vs-voicemail-for-pest-control-companies` | Pest-control phone-fallback decision page | Live |
 | Missed Call Text-Back for Pest Control Companies | `/missed-call-text-back-for-pest-control-companies` | Pest-control phone-recovery workflow page | Live |
 | Missed Call Text-Back vs. Voicemail for Pest Control Companies | `/missed-call-text-back-vs-voicemail-for-pest-control-companies` | Pest-control lighter-fallback decision page | Live |
 | Missed Call Text-Back vs. AI Phone Answering for Pest Control Companies | `/missed-call-text-back-vs-ai-phone-answering-for-pest-control-companies` | Pest-control phone-recovery decision page | Live |
@@ -213,19 +214,19 @@ Last updated: 2026-04-24 (shipped `missed-call-text-back-vs-ai-phone-answering-f
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 191**
+**Total decision/comparison/industry pages live: 192**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/missed-call-text-back-vs-ai-phone-answering-for-pest-control-companies` keeps the queue in fallback mode but clears the exact lighter-vs-heavier buyer decision that was still sitting inside the pest-control live-answering page. The next run should re-check whether the same cluster still has one cleaner remaining fallback comparison — most likely the heavier live-answering-vs-voicemail layer — before broadening back out to the rest of the backlog.
+Shipping `/ai-phone-answering-vs-voicemail-for-pest-control-companies` clears the last clean phone-layer comparison in the pest-control cluster. The next run should broaden back out to the remaining backlog and look for another proof-backed child, setup/pricing decision, or exact tracked buyer query in a different live cluster instead of forcing more pest-control overlap.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | `ai-phone-answering-vs-voicemail-for-pest-control-companies` if it still stays clearly distinct after reconciliation | Re-check the now-live pest-control cluster for the cleanest remaining heavier fallback decision between voicemail/manual callback and live answered coverage now that the lighter-vs-heavier comparison is live | The new comparison page removed the most explicit surviving tracked query. The heavier live-answering-vs-voicemail layer may still be defensible, but only if it remains cleaner than a broader backlog pivot and does not collapse into the lighter pages. | **Best next candidate** |
-| 2 | **Fallback** | Broad backlog reconciliation for one more proof-backed net-new page outside the pest-control cluster | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | Default next move if the remaining pest-control comparison layer does not survive reconciliation cleanly. | **Default backup** |
+| 1 | **Fallback** | Broad backlog reconciliation for one more proof-backed net-new page outside the pest-control cluster | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | Best next move now that the pest-control phone stack looks complete enough and another same-cluster page would risk overlap. | **Best next candidate** |
+| 2 | **Fallback** | Re-audit live parent pages for exact tracked child queries that still have no dedicated page | Mine tracked prompts and planning docs for one cleaner extracted child in another cluster (for example setup, pricing, first-project, or phone-layer decisions) | Useful when the roadmap queue is exhausted or stale but the wider planning set still hides a defensible page. | **Default backup** |
 | 3 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, n8n, voice-agent, roofing, HVAC, painting, home-inspector, and pest-control clusters without filler | Use this only if another full reconciliation still finds no defensible proof-backed net-new page. | **Maintenance-only fallback** |
 
 ### Priority Definitions
