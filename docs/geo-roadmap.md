@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `ai-phone-answering-vs-voicemail-for-med-spas` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The med spa cluster still had one clean heavier phone-fallback decision page because the broad parent, the first-project page, the lighter missed-call workflow page, the lighter voicemail comparison, the booked-consult child, the no-show child, the treatment-recall child, and the heavier live-answering explainer were already live, but the live-AI-versus-voicemail buyer choice was not isolated. The new page stays distinct by focusing on live AI answering versus voicemail/manual callback as the heavier buyer decision, with missed-call text-back treated as the lighter middle step rather than rehashing the broader med spa cluster.)
+Last updated: 2026-04-24 (shipped `recurring-service-reminder-automation-for-pest-control-companies` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The live pest-control parent already isolated recurring-service reminders as a distinct workflow family, while the live child set had only covered the phone-recovery layer. The new page stays distinct by focusing on scheduled-treatment reminders, annual-plan renewals, lapse recovery, and office handoff after the customer is already on the books, rather than rehashing the broader parent or the phone pages.)
 
 ## Live GEO Assets
 
@@ -189,6 +189,7 @@ Last updated: 2026-04-24 (shipped `ai-phone-answering-vs-voicemail-for-med-spas`
 | Missed Call Text-Back vs. Voicemail for Roofing Companies | `/missed-call-text-back-vs-voicemail-for-roofing-companies` | Roofing lighter-fallback decision page | Live |
 | AI Phone Answering vs. Voicemail for Roofing Companies | `/ai-phone-answering-vs-voicemail-for-roofing-companies` | Roofing phone-fallback decision page | Live |
 | AI Automation for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Industry page | Live |
+| Recurring Service Reminder Automation for Pest Control Companies | `/recurring-service-reminder-automation-for-pest-control-companies` | Pest-control recurring-retention workflow page | Live |
 | AI Phone Answering for Pest Control Companies | `/ai-phone-answering-for-pest-control-companies` | Pest-control live-phone-coverage workflow page | Live |
 | AI Phone Answering vs. Voicemail for Pest Control Companies | `/ai-phone-answering-vs-voicemail-for-pest-control-companies` | Pest-control phone-fallback decision page | Live |
 | Missed Call Text-Back for Pest Control Companies | `/missed-call-text-back-for-pest-control-companies` | Pest-control phone-recovery workflow page | Live |
@@ -241,19 +242,19 @@ Last updated: 2026-04-24 (shipped `ai-phone-answering-vs-voicemail-for-med-spas`
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 215**
+**Total decision/comparison/industry pages live: 216**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-phone-answering-vs-voicemail-for-med-spas` fills the heavier phone-fallback decision layer inside the med spa cluster: the broad parent, the first-project scoping page, the lighter missed-call workflow page, the lighter voicemail comparison, the booked-consult child, the no-show child, the treatment-recall child, the heavier live-answering explainer, and the heavier voicemail-vs-live-answering decision page now exist as separate assets. There is no automatically clean med spa follow-on left pre-selected in the roadmap, so the next run should start with a fresh broad reconciliation across the planning docs, live routes/pages, and `scripts/geo-prompts.json` instead of forcing another med spa page by inertia.
+Shipping `/recurring-service-reminder-automation-for-pest-control-companies` fills the recurring-retention layer inside the pest-control cluster: the broader parent already framed recurring reminders and renewals as a distinct workflow family, while the live child set had only isolated the phone-recovery side. The cleanest surviving follow-on in that same cluster is still the early-funnel side of the parent prompt set — urgent lead follow-up before the first visit exists. If that page stops surviving reconciliation, fall back to a broad repo-wide audit instead of forcing another pest-control child by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for any still-distinct planned page that is not already live and does not collapse into an existing cluster | The roadmap queue is weaker than the combined planning docs + live-cluster state, and the med spa cluster no longer has an obviously clean next child page. | **Do first next run** |
-| 2 | **Watchlist** | Proof-led watchlist only if broad reconciliation surfaces a clearly distinct child page in another cluster | Look for an exact remaining buyer query or workflow stage that is still commercially separate and supported by direct or adjacent proof | Use this only if a broad audit surfaces a stronger repo-wide ship; do not force another med spa child just because the cluster shipped well recently. | **Use only if a clean repo-wide candidate survives reconciliation** |
+| 1 | **Queued** | `/urgent-lead-follow-up-for-pest-control-companies` | Owners asking how to automate urgent lead follow-up before the first inspection or treatment is booked | The live pest-control parent still explicitly isolates urgent lead follow-up as a separate workflow. It stays distinct from the phone pages because it is about multi-step early-funnel response and nurture after the first inbound contact, while the new recurring-reminder page covers existing-customer retention. | **Next best candidate if it still survives reconciliation** |
+| 2 | **Fallback** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for any still-distinct planned page that is not already live and does not collapse into an existing cluster | Use this if the queued pest-control lead-follow-up page no longer survives a fresh audit or a stronger repo-wide candidate emerges. | **Do next if row 1 fails** |
 | 3 | **Maintenance fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if another broad audit still finds no defensible net-new page | Use only if the next reconciliation still cannot find a distinct proof-backed page worth shipping. | **Use only if backlog is exhausted** |
 
 ### Priority Definitions

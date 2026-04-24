@@ -1275,6 +1275,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Recurring Service Reminder Automation for Pest Control Companies",
+    description:
+      "Retention workflow for pest control companies that keep losing recurring revenue between visits — scheduled-treatment reminders, annual-plan renewals, lapse recovery, and cleaner office handoff without manual chasing.",
+    href: "/recurring-service-reminder-automation-for-pest-control-companies",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Pest Control Companies",
     description:
       "Live call coverage for pest control companies that keep losing urgent homeowner calls to voicemail or delayed callbacks — routine intake, after-hours answer coverage, office relief, and clear human handoff.",

@@ -1742,10 +1742,22 @@
       "label": "AI Automation for Pest Control Companies",
       "prompts": [
         "AI automation for pest control companies",
-        "How can a pest control company automate urgent lead follow-up and recurring service reminders?",
+        "How should a pest control company prioritize missed-call recovery, recurring-service management, seasonal campaigns, and quote follow-up before a bigger automation build?",
         "Best AI automation for pest control companies that miss inbound calls",
         "How should a pest control company connect missed-call recovery, renewal reminders, seasonal campaigns, and review asks into one operating system?",
         "What pest control workflows are actually worth automating first?"
+      ]
+    },
+    {
+      "id": "recurring-service-reminder-automation-for-pest-control-companies",
+      "path": "/recurring-service-reminder-automation-for-pest-control-companies",
+      "label": "Recurring Service Reminder Automation for Pest Control Companies",
+      "prompts": [
+        "Recurring service reminder automation for pest control companies",
+        "How do pest control companies automate recurring service reminders and annual renewals?",
+        "Best way to keep pest-control renewal reminders from slipping through the cracks",
+        "How should a pest control company remind recurring customers before service lapses or annual plans expire?",
+        "When should a pest control company fix recurring-service reminders before building broader seasonal marketing?"
       ]
     },
     {
