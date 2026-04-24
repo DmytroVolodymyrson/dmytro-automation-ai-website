@@ -1493,7 +1493,19 @@
         "How should a chiropractor handle after-hours calls without relying on voicemail?",
         "When does a chiropractic practice need live AI phone answering instead of next-day callbacks?",
         "Best way for a chiropractic office to answer new-patient calls when the front desk is busy",
-        "Should a chiropractor use live AI phone answering or just voicemail and callbacks?"
+        "How should a chiropractic office route new-patient and scheduling calls when nobody can answer live?"
+      ]
+    },
+    {
+      "id": "ai-phone-answering-vs-voicemail-for-chiropractors",
+      "path": "/ai-phone-answering-vs-voicemail-for-chiropractors",
+      "label": "AI Phone Answering vs. Voicemail for Chiropractors",
+      "prompts": [
+        "AI phone answering vs voicemail for chiropractors",
+        "Should a chiropractor use live AI phone answering or just voicemail and callbacks?",
+        "When should a chiropractic practice replace voicemail with live AI phone coverage?",
+        "Is voicemail enough for a chiropractor or is live AI phone answering worth it?",
+        "What is better for a chiropractic practice live AI phone answering or voicemail?"
       ]
     },
     {

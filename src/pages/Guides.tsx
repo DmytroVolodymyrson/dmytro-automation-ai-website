@@ -1058,6 +1058,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering vs. Voicemail for Chiropractors",
+    description:
+      "Chiropractic buyer guide for deciding when live AI phone coverage is worth replacing voicemail and callbacks, when voicemail is still acceptable, and when missed-call text-back is the smarter middle step.",
+    href: "/ai-phone-answering-vs-voicemail-for-chiropractors",
+    category: "comparisons",
+  },
+  {
     title: "Missed Call Text-Back for Chiropractors",
     description:
       "A narrower chiropractic phone-recovery page focused on missed new-patient and scheduling calls — immediate text acknowledgment, lightweight intake capture, callback routing, and where SMS-first recovery beats passive voicemail but still stays lighter than full live answering.",
