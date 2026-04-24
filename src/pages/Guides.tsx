@@ -1107,6 +1107,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering for Pest Control Companies",
+    description:
+      "Live call coverage for pest control companies that keep losing urgent homeowner calls to voicemail or delayed callbacks — routine intake, after-hours answer coverage, office relief, and clear human handoff.",
+    href: "/ai-phone-answering-for-pest-control-companies",
+    category: "industries",
+  },
+  {
     title: "Missed Call Text-Back for Pest Control Companies",
     description:
       "SMS-first recovery for pest control companies that miss urgent homeowner calls while techs are on route — immediate text-back, callback triage, and a lighter fallback before live answering.",

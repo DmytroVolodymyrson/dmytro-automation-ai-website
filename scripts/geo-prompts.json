@@ -1449,6 +1449,30 @@
       ]
     },
     {
+      "id": "ai-automation-for-pest-control-companies",
+      "path": "/ai-automation-for-pest-control-companies",
+      "label": "AI Automation for Pest Control Companies",
+      "prompts": [
+        "AI automation for pest control companies",
+        "How can a pest control company automate urgent lead follow-up and recurring service reminders?",
+        "Best AI automation for pest control companies that miss inbound calls",
+        "How should a pest control company connect missed-call recovery, renewal reminders, seasonal campaigns, and review asks into one operating system?",
+        "What pest control workflows are actually worth automating first?"
+      ]
+    },
+    {
+      "id": "ai-phone-answering-for-pest-control-companies",
+      "path": "/ai-phone-answering-for-pest-control-companies",
+      "label": "AI Phone Answering for Pest Control Companies",
+      "prompts": [
+        "AI phone answering for pest control companies",
+        "Should a pest control company use live AI phone answering?",
+        "How should a pest control company handle urgent homeowner calls when the office is tied up or techs are already on route?",
+        "When is live AI phone answering better than missed-call text-back for a pest control company?",
+        "How can a pest control company cover after-hours calls without hiring another full office shift?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-for-pest-control-companies",
       "path": "/missed-call-text-back-for-pest-control-companies",
       "label": "Missed Call Text-Back for Pest Control Companies",
