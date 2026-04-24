@@ -203,6 +203,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Recurring Service Scheduling and Reminder Automation for Landscaping Companies** — `/recurring-service-scheduling-and-reminder-automation-for-landscaping-companies`
 - **Renewal Reminder Automation for Insurance Agencies** — `/renewal-reminder-automation-for-insurance-agencies`
 - **Repeat-Purchase & Reactivation Automation for E-Commerce Brands** — `/repeat-purchase-reactivation-automation-for-ecommerce-brands`
+- **Report Delivery and Review Automation for Home Inspectors** — `/report-delivery-and-review-automation-for-home-inspectors`
 - **Reservation Confirmation and Reminder Automation for Restaurants** — `/reservation-confirmation-and-reminder-automation-for-restaurants`
 - **Seasonal Campaign Automation for Pest Control Companies** — `/seasonal-campaign-automation-for-pest-control-companies`
 - **Seasonal Reactivation Automation for Landscaping Companies** — `/seasonal-reactivation-automation-for-landscaping-companies`

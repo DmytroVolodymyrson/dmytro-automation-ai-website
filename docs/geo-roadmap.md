@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `inspection-scheduling-and-reminder-automation-for-home-inspectors` after the roadmap's explicit home-inspector follow-up audit. The live home-inspector cluster already had the broad parent, the new early-funnel lead-follow-up child, and the phone-recovery decision pages, but it still lacked the booked-inspection scheduling layer the parent explicitly names. The new page stays distinct by focusing on availability handling, inspection-type logic, confirmations, reminders, reschedules, and cleaner agent/buyer handoff after the inquiry is already warm, instead of rehashing the broader parent, the earlier lead-follow-up child, or the phone pages.)
+Last updated: 2026-04-24 (shipped `report-delivery-and-review-automation-for-home-inspectors` after a broad backlog reconciliation still found the clearest surviving proof-backed gap inside the home-inspector cluster. The live cluster already had the broad parent, the early-funnel lead-follow-up child, the booked-inspection scheduling child, and the phone-recovery decision pages, but it still lacked the explicit post-inspection layer the parent names: report-ready delivery, buyer/agent follow-up, and review timing. The new page stays distinct by focusing on clean closeout after the inspection is done instead of rehashing lead response, booking, or phone coverage.)
 
 ## Live GEO Assets
 
@@ -238,6 +238,7 @@ Last updated: 2026-04-24 (shipped `inspection-scheduling-and-reminder-automation
 | AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
 | AI Lead Follow-Up for Home Inspectors | `/ai-lead-follow-up-for-home-inspectors` | Home-inspector early-funnel inquiry-response workflow page | Live |
 | Inspection Scheduling and Reminder Automation for Home Inspectors | `/inspection-scheduling-and-reminder-automation-for-home-inspectors` | Home-inspector booked-inspection scheduling workflow page | Live |
+| Report Delivery and Review Automation for Home Inspectors | `/report-delivery-and-review-automation-for-home-inspectors` | Home-inspector post-inspection closeout workflow page | Live |
 | Missed Call Text-Back for Home Inspectors | `/missed-call-text-back-for-home-inspectors` | Home-inspector phone-recovery workflow page | Live |
 | Missed Call Text-Back vs. Voicemail for Home Inspectors | `/missed-call-text-back-vs-voicemail-for-home-inspectors` | Home-inspector lighter-fallback decision page | Live |
 | AI Phone Answering for Home Inspectors | `/ai-phone-answering-for-home-inspectors` | Home-inspector live-phone-coverage workflow page | Live |
@@ -256,20 +257,20 @@ Last updated: 2026-04-24 (shipped `inspection-scheduling-and-reminder-automation
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 230**
+**Total decision/comparison/industry pages live: 231**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/inspection-scheduling-and-reminder-automation-for-home-inspectors` closes the cleanest booked-inspection gap inside the still-maturing home-inspector cluster. That cluster now has the broad parent, the early-funnel lead-response child, the booked-inspection scheduling child, and the phone-recovery decision pages. The next run should stop assuming another home-inspector page is automatically best and instead do a fresh broad reconciliation first; if the home-inspector cluster still survives that audit, the strongest remaining child is likely the post-inspection report-delivery / review layer the parent still names explicitly.
+Shipping `/report-delivery-and-review-automation-for-home-inspectors` closes the last clearly named post-inspection gap inside the mature home-inspector cluster. That cluster now has the broad parent, the early-funnel lead-response child, the booked-inspection scheduling child, the post-inspection closeout child, and the phone-recovery decision pages. The next run should not force another home-inspector page by inertia. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only come back to maintenance if that wider audit still does not surface a cleaner proof-backed net-new page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued** | Broad backlog reconciliation beyond the home-inspector cluster | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for the strongest still-unshipped planned or extracted child page across all clusters | The explicit booked-inspection gap is now closed, so the next run should not force another same-cluster page without a fresh distinct-intent check. | **Best next content candidate** |
-| 2 | **Queued fallback** | Report delivery and review automation for home inspectors | Inspect whether the live home-inspector parent still leaves one clean post-inspection child around report delivery, buyer/agent follow-up, and review requests after booking and phone coverage are already covered | Use this only if a fresh cross-cluster reconciliation does not surface a stronger proof-backed page elsewhere and the post-inspection layer still survives a distinct-intent check. | **Best same-cluster fallback** |
-| 3 | **Maintenance fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if the next broad audit still finds no defensible net-new page | Use only if the next reconciliation cannot find a distinct proof-backed page worth shipping. | **Use only if backlog is exhausted** |
+| 1 | **Queued** | Broad backlog reconciliation beyond the home-inspector cluster | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for the strongest still-unshipped planned or extracted child page across all remaining clusters | The explicit home-inspector post-inspection gap is now closed, so the next run should reset to a repo-wide distinct-intent audit instead of forcing another same-cluster ship. | **Best next content candidate** |
+| 2 | **Queued fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if the next broad audit still finds no defensible net-new page | Use only if the next reconciliation cannot find a distinct proof-backed page worth shipping. | **Use only if backlog is exhausted** |
+| 3 | **Watchlist** | Proof-led review / closeout children in other mature vertical clusters | Re-check whether another live parent still names a distinct post-service workflow like review requests, closeout, or delivery follow-up that can stand alone without cannibalizing the broader vertical page | Keep this as a watchlist, not the default next ship, until a broader reconciliation surfaces one cluster with clearer proof than the now-complete home-inspector set. | **Secondary watchlist** |
 
 ### Priority Definitions
 

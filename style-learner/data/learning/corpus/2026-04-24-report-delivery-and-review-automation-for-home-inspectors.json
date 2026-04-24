@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-24-report-delivery-and-review-automation-for-home-inspectors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-24",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: Report Delivery and Review Automation for Home Inspectors\nBody: A lot of home inspectors do not lose the job at the inquiry stage. They lose trust one step later, after the inspection is done. The report is ready but delivery is manual, the buyer is not sure what happens next, the agent does not get a clean update, questions get buried in scattered texts, and the review request either never goes out or lands at the wrong moment. Report delivery and review automation for home inspectors fixes that narrower post-inspection workflow. It moves the inspection from finished job to clean follow-up, makes report-ready communication more consistent, gives buyers and agents a clearer handoff after the field work is over, and creates a disciplined review-request layer without pretending every client should get the same message five minutes after a stressful inspection.\nSub: Below: what this post-inspection workflow should actually handle, how it stays distinct from the broader home-inspector page and the newer booking child, what guardrails matter, and what proof honestly supports the page without pretending there is already a home-inspector-specific report-delivery case study on the site.\n\n### Core sections\n- What home-inspector report delivery and review automation should actually handle\n- How this page stays distinct inside the home-inspector cluster\n- Is this a good fit for your home-inspection business?\n- Guardrails that keep post-inspection automation useful\n- How a practical home-inspector report-delivery workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical answers for home inspectors considering a cleaner post-inspection workflow\nTopics: how this differs from the broader home-inspector automation page, how it differs from the inspection-scheduling child, what a focused report-delivery and review workflow usually costs, whether it can work with the current inspection software, and what the main ROI actually is.\n\n### Final CTA\nHeading: Need a cleaner closeout after the inspection is done?\nBody: Book a 30-minute call. We will look at how reports get delivered today, where buyer or agent follow-up is getting lost, and whether a focused post-inspection workflow, an earlier booking fix, or no new build is the smartest next move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after a broad reconciliation still found one explicit named gap inside the home-inspector cluster: post-inspection report delivery, buyer/agent follow-up, and review timing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct by focusing on the closeout stage after the inspection is complete instead of rehashing lead response, booking, or phone coverage."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live home-inspector parent, the booked-inspection scheduling child, and the published e-commerce CRM case study support the workflow pattern without pretending there is already a home-inspector-specific report-delivery case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype because the buyer intent here is operational trust and referral protection, not flashy automation claims."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T19:25:30.992Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 29.3,
+      "sentenceLengthRange": [
+        5,
+        54
+      ],
+      "totalWords": 351
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Report Delivery and Review Automation for Home Inspectors\nBody: A lot of home inspectors do not lose the job at the inquiry stage.",
+      "wordCount": 25,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a cleaner closeout after the inspection is done?\nBody: Book a 30-minute call. We will look at how reports get delivered today, where buyer or agent follow-up is getting lost, and whether a focused post-inspection workflow, an earlier booking fix, or no new build is the smartest next move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 19,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.73
+    },
+    "vocabulary": {
+      "distinctWords": 179,
+      "totalWords": 351,
+      "topWords": [
+        [
+          "what",
+          8
+        ],
+        [
+          "workflow",
+          6
+        ],
+        [
+          "how",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "review",
+          5
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "inspection",
+          5
+        ],
+        [
+          "post-inspection",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "home-inspector",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "report",
+          4
+        ],
+        [
+          "delivery",
+          4
+        ],
+        [
+          "home",
+          4
+        ],
+        [
+          "inspectors",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

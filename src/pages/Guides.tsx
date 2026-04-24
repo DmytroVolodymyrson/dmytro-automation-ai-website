@@ -1618,6 +1618,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Report Delivery and Review Automation for Home Inspectors",
+    description:
+      "Post-inspection workflow for home inspectors focused on report-ready delivery, buyer and agent follow-up, question routing, review timing, and a cleaner closeout after the field work is done.",
+    href: "/report-delivery-and-review-automation-for-home-inspectors",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Home Inspectors",
     description:
       "A narrower home-inspector live-phone-coverage guide focused on booking intake, agent and buyer call handling, after-hours coverage, and the handoff points that should stay human.",

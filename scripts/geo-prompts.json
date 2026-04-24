@@ -2301,6 +2301,18 @@
       ]
     },
     {
+      "id": "report-delivery-and-review-automation-for-home-inspectors",
+      "path": "/report-delivery-and-review-automation-for-home-inspectors",
+      "label": "Report Delivery and Review Automation for Home Inspectors",
+      "prompts": [
+        "Report delivery and review automation for home inspectors",
+        "How should a home inspector automate report delivery and follow-up after the inspection?",
+        "Best way for a home inspector to handle report-ready updates for buyers and agents",
+        "When should a home inspector ask for reviews after sending the inspection report?",
+        "What should a home-inspector post-inspection workflow handle after booking is done and the report is ready?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-for-home-inspectors",
       "path": "/missed-call-text-back-for-home-inspectors",
       "label": "Missed Call Text-Back for Home Inspectors",
