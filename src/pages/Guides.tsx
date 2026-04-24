@@ -1044,6 +1044,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Quote Follow-Up Automation for Cleaning Companies",
+    description:
+      "A narrower cleaning-company quote-stage page focused on sent estimates that go cold — reminder timing, objection-aware messaging, owner handoff, and stale-quote visibility before another job quietly dies.",
+    href: "/quote-follow-up-automation-for-cleaning-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Med Spas",
     description:
       "AI automation for med spas. Lead follow-up, appointment booking, no-show reduction, membership renewal campaigns, and review automation.",

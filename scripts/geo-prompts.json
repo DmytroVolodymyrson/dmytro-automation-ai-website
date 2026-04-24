@@ -1346,10 +1346,22 @@
       "label": "What to Automate First for Cleaning Companies",
       "prompts": [
         "What should a cleaning company automate first?",
-        "Should a cleaning company start with lead follow-up, missed-call recovery, quote follow-up, or recurring-client reactivation?",
         "Best first automation for cleaning company",
         "How should a cleaning company prioritize web leads, missed calls, sent quotes, and repeat bookings?",
+        "Which cleaning-company workflow should come first before building a broader office system?",
         "What is the highest ROI first automation project for a cleaning company?"
+      ]
+    },
+    {
+      "id": "quote-follow-up-automation-for-cleaning-companies",
+      "path": "/quote-follow-up-automation-for-cleaning-companies",
+      "label": "Quote Follow-Up Automation for Cleaning Companies",
+      "prompts": [
+        "Quote follow-up automation for cleaning companies",
+        "How do cleaning companies automate quote follow-up?",
+        "Best way to recover open cleaning quotes",
+        "Should a cleaning company automate estimate reminders after sending a quote?",
+        "How do I stop cleaning estimates from going cold after the quote is sent?"
       ]
     },
     {

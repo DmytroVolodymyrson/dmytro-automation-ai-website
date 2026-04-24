@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-24-quote-follow-up-automation-for-cleaning-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-24",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: Quote Follow-Up Automation for Cleaning Companies\nBody: A homeowner asks for a quote, you send the estimate, and then the job disappears. That leak is common in cleaning companies because the office is juggling inbound calls, schedule changes, recurring clients, and crews already out in the field. The quote went out, but nobody followed up at the right time with the right next step. Quote follow-up automation for cleaning companies fixes that narrow stage. It starts after the estimate is sent, keeps the opportunity alive with practical reminders and low-friction reply paths, and routes serious buying intent back to a human before another solid quote quietly dies.\nSub: Below: what cleaning-company quote follow-up automation actually handles, how it stays distinct from the broader cleaning page and the generic quote-follow-up guide, what guardrails matter, and what adjacent proof supports the page without pretending there is already a published cleaning-specific quote-recovery case study.\n\n### Core sections\n- What cleaning-company quote follow-up automation actually handles\n- How this page stays distinct from the rest of the cleaning-company cluster\n- Is this a good fit for your cleaning company?\n- How a practical cleaning-company quote-recovery workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions about automating quote follow-up for cleaning companies\nTopics: how this differs from the broader cleaning-company page, how it differs from the generic quote-follow-up page, typical build cost, whether it can work with Jobber/Housecall Pro/GoHighLevel/spreadsheets, and where the ROI usually comes from.\n\n### Final CTA\nHeading: Want fewer cleaning quotes dying after the estimate is sent?\nBody: Book a 30-minute call. We will look at how your company handles sent estimates today, where cleaning quotes are going cold, and whether a focused quote-follow-up workflow is the cleanest automation to build next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the live cleaning-company cluster was still thin but already exposed quote follow-up as one of the highest-leverage workflows through both the broader parent page and the first-project page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on the sent-estimate recovery stage instead of rehashing the broader cleaning-company explainer or the generic quote-follow-up page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live cleaning parent, the generic quote-follow-up guide, and the published e-commerce CRM/follow-up case study as honest support instead of pretending there is already a direct cleaning-company quote-recovery case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and low-hype: stable trigger, reminder discipline, clean handoff, and realistic ROI from recovering estimates that already made it to the quote stage."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T09:26:03.298Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 24.6,
+      "sentenceLengthRange": [
+        5,
+        45
+      ],
+      "totalWords": 295
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Quote Follow-Up Automation for Cleaning Companies\nBody: A homeowner asks for a quote, you send the estimate, and then the job disappears.",
+      "wordCount": 24,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want fewer cleaning quotes dying after the estimate is sent?\nBody: Book a 30-minute call. We will look at how your company handles sent estimates today, where cleaning quotes are going cold, and whether a focused quote-follow-up workflow is the cleanest automation to build next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 17,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.55
+    },
+    "vocabulary": {
+      "distinctWords": 156,
+      "totalWords": 295,
+      "topWords": [
+        [
+          "quote",
+          8
+        ],
+        [
+          "cleaning",
+          8
+        ],
+        [
+          "how",
+          6
+        ],
+        [
+          "page",
+          6
+        ],
+        [
+          "follow-up",
+          5
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "cleaning-company",
+          5
+        ],
+        [
+          "from",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "companies",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "estimate",
+          3
+        ],
+        [
+          "with",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.007
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
