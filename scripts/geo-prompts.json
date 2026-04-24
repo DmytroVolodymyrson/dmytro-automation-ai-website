@@ -1744,8 +1744,20 @@
         "AI phone answering for home inspectors",
         "Should a home inspector use live AI phone answering?",
         "Best way for a home inspector to stop losing agent and buyer calls while on-site",
-        "When is live AI phone answering better than missed-call text-back for a home inspector?",
+        "What should a home inspector AI phone workflow handle live versus route back to a human?",
         "Can an AI phone workflow help a home inspector handle booking calls while still in the field?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-ai-phone-answering-for-home-inspectors",
+      "path": "/missed-call-text-back-vs-ai-phone-answering-for-home-inspectors",
+      "label": "Missed Call Text-Back vs. AI Phone Answering for Home Inspectors",
+      "prompts": [
+        "Missed call text-back vs AI phone answering for home inspectors",
+        "Should a home inspector use missed-call text-back or live AI phone answering?",
+        "When is SMS-first missed-call recovery enough for a home inspector?",
+        "When should a home inspector move from text-back to live AI phone coverage?",
+        "What is better for a home inspector missed-call text-back or AI phone answering?"
       ]
     },
     {

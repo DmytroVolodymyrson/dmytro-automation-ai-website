@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-missed-call-text-back-vs-ai-phone-answering-for-home-inspectors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back vs. AI Phone Answering for Home Inspectors\nBody: If you miss calls during inspections, the real question is not whether automation sounds modern. It is whether a lighter missed-call text-back workflow is enough or whether you need live AI phone answering. Text-back is the narrower fallback: the call is missed, an immediate SMS goes out, and the buyer or agent gets a clear next step before the opportunity dies. AI phone answering is the heavier layer: the call gets answered live, routine scheduling and timing questions get handled in the moment, and higher-context conversations get routed back to a human with useful context instead of a vague voicemail. The right choice depends on how often callers truly need a live answer, how much agent trust depends on responsiveness, how much during-inspection demand you lose, and whether your business can reliably close the loop after a text thread starts.\nSub: Below: where each option fits for a home-inspection business, where inspectors overbuild, where they underbuild, and what the existing home-inspector plus phone-handling proof honestly supports.\n\n### Core sections\n- Frames the page as the missing buyer-decision child inside the live home-inspector phone cluster rather than a rewrite of the broader parent, the lighter text-back workflow page, or the lighter voicemail comparison page.\n- Compares SMS-first recovery, live AI phone answering, and voicemail through home-inspector realities: long on-site blocks, agent and buyer expectations, transaction urgency, scheduling questions, and callback ownership.\n- Uses the live home-inspector cluster plus the broader phone-answering guide and Paris Cafe call-handling case study as honest proof adjacency instead of pretending there is already a dedicated home-inspector comparison case study.\n- Includes fit / not-fit framing, workflow guardrails, FAQ, and internal links while staying tightly on the text-back-vs-live-answering decision instead of drifting back into generic home-inspector automation.\n\n### FAQ\nSubhead: Straight answers for home inspectors deciding whether SMS-first recovery is enough or live AI phone coverage is worth it\nTopics: how this differs from the existing text-back page, when live answering is worth it, cost differences between lighter text-back and heavier live answering, whether both can coexist, and what should stay human.\n\n### Final CTA\nHeading: Need to choose between SMS-first recovery and live phone coverage?\nBody: Book a 30-minute call. We will look at where your inspection business is actually losing calls, whether missed-call text-back is enough, when live AI phone answering starts making sense, and what the narrowest useful phone workflow would look like for your setup.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the live home-inspector cluster already contained the exact unisolated buyer query inside the tracked prompts: when live AI phone answering is better than missed-call text-back for a home inspector."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the proof framing honest by leaning on the live home-inspector cluster, the generic phone-answering guide, and the published Paris Cafe call-handling case study instead of inventing home-inspector-specific proof."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype by centering responsiveness, agent trust, on-site workload, transaction timing, and workflow boundaries instead of inflated conversion claims."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T05:33:29.583Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 27.4,
+      "sentenceLengthRange": [
+        5,
+        54
+      ],
+      "totalWords": 411
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Missed Call Text-Back vs.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need to choose between SMS-first recovery and live phone coverage?\nBody: Book a 30-minute call. We will look at where your inspection business is actually losing calls, whether missed-call text-back is enough, when live AI phone answering starts making sense, and what the narrowest useful phone workflow would look like for your setup.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 14,
+      "commas": 29,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 11,
+      "commasPerSentence": 1.93
+    },
+    "vocabulary": {
+      "distinctWords": 217,
+      "totalWords": 411,
+      "topWords": [
+        [
+          "live",
+          11
+        ],
+        [
+          "phone",
+          9
+        ],
+        [
+          "text-back",
+          7
+        ],
+        [
+          "answering",
+          7
+        ],
+        [
+          "whether",
+          7
+        ],
+        [
+          "ai",
+          6
+        ],
+        [
+          "home-inspector",
+          6
+        ],
+        [
+          "call",
+          4
+        ],
+        [
+          "lighter",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "where",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "inspectors",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.002
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

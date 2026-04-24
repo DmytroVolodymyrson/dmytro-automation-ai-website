@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped recurring-service-scheduling-and-reminder-automation-for-landscaping-companies after another proof-led reconciliation. The neat backlog is still exhausted, but the live landscaping cluster still supported one more materially distinct child page because the broader parent plus the first-project scoping page already named recurring service scheduling as a bounded workflow stage, and the live child set still had not isolated that post-sale operating layer. The new page stays tighter than the broader landscaping parent and the estimate / seasonal children, uses the live cluster plus the generic booking-confirmation workflow and the roofing scheduling sibling as adjacent proof, and does not pretend there is already a direct landscaping scheduling case study.)
+Last updated: 2026-04-23 (shipped missed-call-text-back-vs-ai-phone-answering-for-home-inspectors after another proof-led reconciliation. The neat backlog is still exhausted, but the live home-inspector phone cluster still exposed one more exact buyer-decision query because the tracked prompts on the new live-answering child explicitly asked when live AI phone answering is better than missed-call text-back for a home inspector. The new page stays tighter than the broader home-inspector parent, the lighter text-back workflow page, and the lighter voicemail comparison page, uses the live home-inspector cluster plus the generic phone-answering guide and Paris Cafe call-handling case study as adjacent proof, and does not pretend there is already a home-inspector-only comparison case study.)
 
 ## Live GEO Assets
 
@@ -193,6 +193,7 @@ Last updated: 2026-04-23 (shipped recurring-service-scheduling-and-reminder-auto
 | Missed Call Text-Back for Home Inspectors | `/missed-call-text-back-for-home-inspectors` | Home-inspector phone-recovery workflow page | Live |
 | Missed Call Text-Back vs. Voicemail for Home Inspectors | `/missed-call-text-back-vs-voicemail-for-home-inspectors` | Home-inspector lighter-fallback decision page | Live |
 | AI Phone Answering for Home Inspectors | `/ai-phone-answering-for-home-inspectors` | Home-inspector live-phone-coverage workflow page | Live |
+| Missed Call Text-Back vs. AI Phone Answering for Home Inspectors | `/missed-call-text-back-vs-ai-phone-answering-for-home-inspectors` | Home-inspector phone-recovery decision page | Live |
 | AI Automation Cost (SMB) | `/ai-automation-cost-small-business` | Authority page | Live |
 | AI Automation Audit Checklist | `/ai-automation-audit-checklist` | Authority page | Live |
 | CRM Automation Examples (SMB) | `/crm-automation-examples-small-business` | Authority page | Live |
@@ -206,7 +207,7 @@ Last updated: 2026-04-23 (shipped recurring-service-scheduling-and-reminder-auto
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 184**
+**Total decision/comparison/industry pages live: 185**
 **Total case studies live: 3**
 
 ---

@@ -1303,6 +1303,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "Missed Call Text-Back vs. AI Phone Answering for Home Inspectors",
+    description:
+      "Home-inspector buyer guide for deciding when SMS-first missed-call recovery is enough, when live AI phone coverage is worth the heavier build, and how to choose based on field-work reality, caller expectations, and referral trust.",
+    href: "/missed-call-text-back-vs-ai-phone-answering-for-home-inspectors",
+    category: "comparisons",
+  },
+  {
     title: "CRM Automation for Contractors",
     description:
       "Contractor-focused CRM setup for pipeline structure, estimate follow-up, scheduling handoff, and ops visibility when your office and field teams are dropping context.",
