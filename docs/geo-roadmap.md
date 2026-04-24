@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped missed-call-text-back-for-landscaping-companies after another proof-led reconciliation. The neat backlog is still exhausted, but the live landscaping cluster still supported one more materially distinct child page: a narrowly scoped missed-call recovery workflow for spring-rush quote requests, mowing inquiries, and after-hours calls that hit voicemail while crews are in the field. The page stays tighter than the broader landscaping parent and the first-project scoping page, and it uses the live landscaping cluster plus generic missed-call and adjacent home-service phone-recovery proof instead of pretending there is already a direct landscaping missed-call case study.)
+Last updated: 2026-04-23 (shipped missed-call-text-back-vs-voicemail-for-landscaping-companies after another proof-led reconciliation. The neat backlog is still exhausted, but the live landscaping cluster still supported one more materially distinct child page: the lighter buyer decision between SMS-first missed-call recovery and plain voicemail. The page stays tighter than the broader landscaping parent, the first-project scoping page, and the landscaping missed-call workflow page, and it uses the live landscaping cluster plus adjacent home-service phone-recovery proof instead of pretending there is already a direct landscaping comparison case study.)
 
 ## Live GEO Assets
 
@@ -178,6 +178,7 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-for-landscaping-companie
 | AI Automation for Landscaping Companies | `/ai-automation-for-landscaping-companies` | Industry page | Live |
 | What to Automate First for Landscaping Companies | `/what-to-automate-first-for-landscaping-companies` | Landscaping first-project scoping page | Live |
 | Missed Call Text-Back for Landscaping Companies | `/missed-call-text-back-for-landscaping-companies` | Landscaping phone-recovery workflow page | Live |
+| Missed Call Text-Back vs. Voicemail for Landscaping Companies | `/missed-call-text-back-vs-voicemail-for-landscaping-companies` | Landscaping lighter-fallback decision page | Live |
 | Estimate Follow-Up Automation for Landscaping Companies | `/estimate-follow-up-automation-for-landscaping-companies` | Landscaping estimate-recovery workflow page | Live |
 | Seasonal Reactivation Automation for Landscaping Companies | `/seasonal-reactivation-automation-for-landscaping-companies` | Landscaping seasonal retention workflow page | Live |
 | AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
@@ -196,14 +197,14 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-for-landscaping-companie
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 174**
+**Total decision/comparison/industry pages live: 175**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/missed-call-text-back-for-landscaping-companies` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters.
+Shipping `/missed-call-text-back-vs-voicemail-for-landscaping-companies` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|

@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-missed-call-text-back-vs-voicemail-for-landscaping-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back vs. Voicemail for Landscaping Companies\nBody: If your landscaping company misses calls, missed-call text-back is usually a better fallback than voicemail when the real problem is simple demand recovery. Voicemail asks the homeowner to leave details, trust that someone will call back, and wait long enough that they do not ring the next crew first. Missed-call text-back is not magic, but it does one thing voicemail usually does not: it reaches back immediately and gives the prospect a clear next step while the job request is still active. That matters when the owner is in the field, the office is thin, spring-rush calls hit all at once, or after-hours quote requests come in when nobody is near the phone. The real decision is not whether text feels newer. It is whether your landscaping company needs a lighter missed-call recovery layer or whether voicemail and callbacks are already quietly leaking booked work.\nSub: Below: when missed-call text-back is the smarter first move for a landscaping company, when voicemail is still acceptable, when the phone problem has already grown past both and needs live AI phone answering, and what the existing landscaping plus adjacent home-service proof honestly supports.\n\n### Core sections\n- Frames the page as the landscaping lighter-fallback buyer decision between SMS-first missed-call recovery and plain voicemail rather than a rewrite of the broader landscaping parent, the first-project scoping page, or the landscaping missed-call workflow page.\n- Compares callback lag, caller effort, field-heavy owner workload, and when a landscaping company should stay with voicemail, move to text-back, or step up to live AI phone answering.\n- Uses the live landscaping cluster, the Paris Cafe phone-handling case study, and adjacent roofing/auto-repair phone-recovery comparisons as honest proof adjacency instead of inventing a landscaping-only comparison case study.\n- Includes fit / not-fit framing, operational guardrails, FAQ, and landscaping-specific internal links while keeping the copy tightly on the text-back-vs-voicemail decision.\n\n### FAQ\nSubhead: Straight answers for landscaping owners deciding whether voicemail is still good enough after missed calls\nTopics: whether text-back is usually better than voicemail, when voicemail is still fine, when to move to live AI phone answering, whether homeowners will reply to a missed-call text, and how this page differs from the other landscaping workflow pages.\n\n### Final CTA\nHeading: Need a practical answer on missed-call recovery for your landscaping company?\nBody: Book a 30-minute call. We will look at your missed-call pattern, whether voicemail is quietly costing booked work, and whether your company should use missed-call text-back, move to live AI phone answering, or leave the phone stack alone for now.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the live landscaping cluster plus tracked prompts still exposed an exact unisolated buyer query around missed-call text-back versus voicemail, making this a distinct adjacent-intent comparison instead of a rewrite of the broader landscaping or missed-call pages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the proof framing honest by leaning on the live landscaping cluster, the Paris Cafe call-handling case study, and adjacent home-service phone-recovery comparisons instead of pretending there is already a direct landscaping comparison case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype by centering callback speed, homeowner effort, office capacity, and workflow boundaries instead of inflated conversion claims."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T02:57:49.260Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 26.9,
+      "sentenceLengthRange": [
+        5,
+        57
+      ],
+      "totalWords": 430
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Missed Call Text-Back vs.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a practical answer on missed-call recovery for your landscaping company?\nBody: Book a 30-minute call. We will look at your missed-call pattern, whether voicemail is quietly costing booked work, and whether your company should use missed-call text-back, move to live AI phone answering, or leave the phone stack alone for now.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 15,
+      "commas": 30,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 1.88
+    },
+    "vocabulary": {
+      "distinctWords": 215,
+      "totalWords": 430,
+      "topWords": [
+        [
+          "landscaping",
+          13
+        ],
+        [
+          "voicemail",
+          12
+        ],
+        [
+          "missed-call",
+          10
+        ],
+        [
+          "when",
+          9
+        ],
+        [
+          "whether",
+          8
+        ],
+        [
+          "text-back",
+          7
+        ],
+        [
+          "phone",
+          7
+        ],
+        [
+          "company",
+          6
+        ],
+        [
+          "your",
+          5
+        ],
+        [
+          "live",
+          5
+        ],
+        [
+          "recovery",
+          4
+        ],
+        [
+          "not",
+          4
+        ],
+        [
+          "still",
+          4
+        ],
+        [
+          "move",
+          4
+        ],
+        [
+          "ai",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

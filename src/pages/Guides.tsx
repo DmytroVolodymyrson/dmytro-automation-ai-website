@@ -1198,6 +1198,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. Voicemail for Landscaping Companies",
+    description:
+      "Should a landscaping company rely on voicemail after missed calls or use SMS-first recovery instead? Practical comparison of callback lag, homeowner effort, office workload, and when live AI phone answering is the next step.",
+    href: "/missed-call-text-back-vs-voicemail-for-landscaping-companies",
+    category: "comparisons",
+  },
+  {
     title: "Estimate Follow-Up Automation for Landscaping Companies",
     description:
       "A narrower landscaping workflow page focused on sent estimates that go cold — reminder timing, seasonal urgency, owner handoff, and open-quote visibility before another project slips away.",
