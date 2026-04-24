@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-24-missed-call-text-back-vs-ai-phone-answering-for-landscaping-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-24",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back vs. AI Phone Answering for Landscaping Companies\nBody: If your landscaping company keeps losing calls, the real decision is not whether automation sounds advanced. It is whether a lighter missed-call text-back workflow is enough or whether you need live AI phone answering. Text-back is the narrower fallback: the call is missed, an immediate SMS goes out, and simpler quote or callback intent gets recovered before the homeowner rings the next crew. AI phone answering is the heavier option: the call gets answered live, routine service and scheduling questions get handled on the spot, and straightforward quote-call intake starts during the call instead of waiting for a text thread later. The right choice depends on how often callers truly need a real answer now, how much spring-rush demand dies when the owner is still in the field, how valuable after-hours quote and service requests are, and whether the business can reliably close the loop once a text conversation starts.\nSub: Below: where each option fits for landscaping companies, where owners overbuild, where they underbuild, and what the existing landscaping plus phone-handling proof honestly supports.\n\n### Core sections\n- What each option is actually solving\n- Side-by-side comparison for landscaping companies\n- When each option makes sense\n- The mistakes landscaping companies make when choosing\n- What proof honestly supports this comparison\n\n### FAQ\nSubhead: Straight answers for landscaping owners deciding between SMS-first recovery and live phone coverage\nTopics: how this differs from the existing missed-call text-back page, when live AI phone answering is worth it, what each layer usually costs, whether both can coexist, and what should stay human.\n\n### Final CTA\nHeading: Need to choose between SMS-first recovery and live phone coverage for your landscaping company?\nBody: Book a 30-minute call. We will look at where your current phone workflow is leaking quote demand, whether missed-call text-back is enough, when live AI phone answering starts making sense, and what the narrowest useful phone layer would look like for your setup.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after reconciling `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current live routes, and `scripts/geo-prompts.json`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the landscaping cluster still had a clean buyer-decision gap after the live-answering explainer shipped: the broader parent, first-project guide, lighter missed-call page, lighter voicemail comparison, and the new live-answering page were already live, but the exact lighter-vs-heavier phone-choice page was still missing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page materially distinct from `/missed-call-text-back-for-landscaping-companies` and `/ai-phone-answering-for-landscaping-companies` by staying tightly on the decision between them rather than re-explaining either workflow in isolation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live landscaping cluster, the generic AI phone-answering guide, and the Paris Cafe call-handling case study support the pattern without pretending there is already a landscaping-only comparison case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T07:51:35.450Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 27.7,
+      "sentenceLengthRange": [
+        5,
+        49
+      ],
+      "totalWords": 332
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Missed Call Text-Back vs.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need to choose between SMS-first recovery and live phone coverage for your landscaping company?\nBody: Book a 30-minute call. We will look at where your current phone workflow is leaking quote demand, whether missed-call text-back is enough, when live AI phone answering starts making sense, and what the narrowest useful phone layer would look like for your setup.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 18,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 10,
+      "commasPerSentence": 1.64
+    },
+    "vocabulary": {
+      "distinctWords": 177,
+      "totalWords": 332,
+      "topWords": [
+        [
+          "phone",
+          9
+        ],
+        [
+          "landscaping",
+          8
+        ],
+        [
+          "whether",
+          6
+        ],
+        [
+          "live",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "call",
+          5
+        ],
+        [
+          "text-back",
+          5
+        ],
+        [
+          "ai",
+          5
+        ],
+        [
+          "answering",
+          5
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "companies",
+          4
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "option",
+          4
+        ],
+        [
+          "how",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

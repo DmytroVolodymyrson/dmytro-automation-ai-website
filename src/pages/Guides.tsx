@@ -1240,6 +1240,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "Missed Call Text-Back vs. AI Phone Answering for Landscaping Companies",
+    description:
+      "Landscaping buyer guide for deciding when SMS-first missed-call recovery is enough, when live AI phone answering is worth the heavier build, and how spring-rush call patterns change the answer.",
+    href: "/missed-call-text-back-vs-ai-phone-answering-for-landscaping-companies",
+    category: "comparisons",
+  },
+  {
     title: "Estimate Follow-Up Automation for Landscaping Companies",
     description:
       "A narrower landscaping workflow page focused on sent estimates that go cold — reminder timing, seasonal urgency, owner handoff, and open-quote visibility before another project slips away.",

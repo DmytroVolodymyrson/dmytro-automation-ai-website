@@ -173,6 +173,7 @@ import AiAutomationForLandscapingCompanies from "./pages/AiAutomationForLandscap
 import WhatToAutomateFirstForLandscapingCompanies from "./pages/WhatToAutomateFirstForLandscapingCompanies";
 import MissedCallTextBackForLandscapingCompanies from "./pages/MissedCallTextBackForLandscapingCompanies";
 import MissedCallTextBackVsVoicemailForLandscapingCompanies from "./pages/MissedCallTextBackVsVoicemailForLandscapingCompanies";
+import MissedCallTextBackVsAiPhoneAnsweringForLandscapingCompanies from "./pages/MissedCallTextBackVsAiPhoneAnsweringForLandscapingCompanies";
 import SeasonalReactivationAutomationForLandscapingCompanies from "./pages/SeasonalReactivationAutomationForLandscapingCompanies";
 import EstimateFollowUpAutomationForLandscapingCompanies from "./pages/EstimateFollowUpAutomationForLandscapingCompanies";
 import RecurringServiceSchedulingAndReminderAutomationForLandscapingCompanies from "./pages/RecurringServiceSchedulingAndReminderAutomationForLandscapingCompanies";
@@ -436,6 +437,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/what-to-automate-first-for-landscaping-companies", element: <WhatToAutomateFirstForLandscapingCompanies /> },
   { path: "/missed-call-text-back-for-landscaping-companies", element: <MissedCallTextBackForLandscapingCompanies /> },
   { path: "/missed-call-text-back-vs-voicemail-for-landscaping-companies", element: <MissedCallTextBackVsVoicemailForLandscapingCompanies /> },
+  { path: "/missed-call-text-back-vs-ai-phone-answering-for-landscaping-companies", element: <MissedCallTextBackVsAiPhoneAnsweringForLandscapingCompanies /> },
   { path: "/estimate-follow-up-automation-for-landscaping-companies", element: <EstimateFollowUpAutomationForLandscapingCompanies /> },
   { path: "/recurring-service-scheduling-and-reminder-automation-for-landscaping-companies", element: <RecurringServiceSchedulingAndReminderAutomationForLandscapingCompanies /> },
   { path: "/ai-phone-answering-for-landscaping-companies", element: <AiPhoneAnsweringForLandscapingCompanies /> },
