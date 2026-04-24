@@ -1406,10 +1406,22 @@
       "label": "AI Automation for Auto Repair Shops",
       "prompts": [
         "AI automation for auto repair shops",
-        "What should an auto repair shop automate first?",
+        "How should an auto repair shop prioritize missed calls, estimates, reminders, and maintenance campaigns?",
         "Best AI tools for auto repair customer follow-up",
         "How do missed calls, reminders, estimate follow-up, and maintenance campaigns fit together in an auto repair shop?",
         "What auto repair shop workflows are actually worth automating?"
+      ]
+    },
+    {
+      "id": "what-to-automate-first-for-auto-repair-shops",
+      "path": "/what-to-automate-first-for-auto-repair-shops",
+      "label": "What to Automate First for Auto Repair Shops",
+      "prompts": [
+        "What should an auto repair shop automate first?",
+        "Should a mechanic shop fix missed calls, estimate follow-up, reminders, or maintenance campaigns first?",
+        "Best first automation for auto repair shop",
+        "How should an auto repair shop prioritize calls, estimates, booked visits, and repeat-customer follow-up?",
+        "What is the highest ROI first automation project for an auto repair shop?"
       ]
     },
     {

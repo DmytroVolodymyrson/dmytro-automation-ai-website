@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped roofing-scheduling-and-follow-up-automation after another proof-led reconciliation. The neat backlog was still exhausted, but the live roofing cluster still held one exact tracked booked-job workflow query inside the broader roofing parent page: scheduling and follow-through after the inspection or job is already booked. That query stayed materially distinct from the broader roofing parent page, the roofing estimate-follow-up child, and the roofing phone-recovery pages. The new page stays tightly on confirmations, reminders, weather-delay updates, reschedules, and office-to-crew handoff — while using only honest adjacent proof from the live roofing cluster, the HVAC scheduling sibling, the contractor dispatch-handoff page, and existing published workflow proof.)
+Last updated: 2026-04-23 (shipped what-to-automate-first-for-auto-repair-shops after another proof-led reconciliation. The neat backlog was still exhausted, but the live auto-repair cluster still held one exact scoping query inside the broader parent page: what the shop should automate first. That query stayed materially distinct from the broader auto-repair page and the already-live missed-call, estimate-follow-up, booked-visit, maintenance, and phone-answering child pages. The new page stays tightly on first-project prioritization — missed-call recovery, estimate follow-up, appointment reminders, or maintenance reactivation — while using only honest support from the live auto-repair cluster plus published phone-handling and CRM proof.)
 
 ## Live GEO Assets
 
@@ -162,6 +162,7 @@ Last updated: 2026-04-23 (shipped roofing-scheduling-and-follow-up-automation af
 | AI Phone Answering vs. Voicemail for Roofing Companies | `/ai-phone-answering-vs-voicemail-for-roofing-companies` | Roofing phone-fallback decision page | Live |
 | AI Automation for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Industry page | Live |
 | AI Automation for Auto Repair Shops | `/ai-automation-for-auto-repair-shops` | Industry page | Live |
+| What to Automate First for Auto Repair Shops | `/what-to-automate-first-for-auto-repair-shops` | Auto-repair first-project scoping page | Live |
 | Maintenance Reminder Automation for Auto Repair Shops | `/maintenance-reminder-automation-for-auto-repair-shops` | Auto-repair retention workflow page | Live |
 | Estimate Follow-Up Automation for Auto Repair Shops | `/estimate-follow-up-automation-for-auto-repair-shops` | Auto-repair quote-stage workflow page | Live |
 | Appointment Scheduling and Reminder Automation for Auto Repair Shops | `/appointment-scheduling-and-reminder-automation-for-auto-repair-shops` | Auto-repair booked-visit workflow page | Live |
@@ -186,7 +187,7 @@ Last updated: 2026-04-23 (shipped roofing-scheduling-and-follow-up-automation af
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 165**
+**Total decision/comparison/industry pages live: 166**
 **Total case studies live: 3**
 
 ---

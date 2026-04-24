@@ -1086,6 +1086,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Auto Repair Shops",
+    description:
+      "Scoping guide for auto repair shops deciding whether the first workflow should be missed-call recovery, estimate follow-up, appointment reminders, or maintenance reactivation before a bigger automation build.",
+    href: "/what-to-automate-first-for-auto-repair-shops",
+    category: "industries",
+  },
+  {
     title: "Maintenance Reminder Automation for Auto Repair Shops",
     description:
       "Maintenance reminder automation for auto repair shops. Oil change reminders, inspection timing, deferred-work recall, dormant-customer reactivation, and advisor handoff.",
