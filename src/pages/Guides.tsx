@@ -1338,6 +1338,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Quote Follow-Up Automation for Pest Control Companies",
+    description:
+      "Quote-stage workflow for pest control companies that keep losing one-time or higher-ticket jobs after pricing is sent — reminder timing, objection-aware messaging, office handoff, and stale-quote visibility before another winnable job dies in silence.",
+    href: "/quote-follow-up-automation-for-pest-control-companies",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Pest Control Companies",
     description:
       "Live call coverage for pest control companies that keep losing urgent homeowner calls to voicemail or delayed callbacks — routine intake, after-hours answer coverage, office relief, and clear human handoff.",

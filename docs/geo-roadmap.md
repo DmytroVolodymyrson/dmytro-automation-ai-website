@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `report-delivery-and-review-automation-for-home-inspectors` after a broad backlog reconciliation still found the clearest surviving proof-backed gap inside the home-inspector cluster. The live cluster already had the broad parent, the early-funnel lead-follow-up child, the booked-inspection scheduling child, and the phone-recovery decision pages, but it still lacked the explicit post-inspection layer the parent names: report-ready delivery, buyer/agent follow-up, and review timing. The new page stays distinct by focusing on clean closeout after the inspection is done instead of rehashing lead response, booking, or phone coverage.)
+Last updated: 2026-04-24 (shipped `quote-follow-up-automation-for-pest-control-companies` after a broad backlog reconciliation found the clearest surviving explicit workflow gap inside the live pest-control cluster. The parent page already named quote follow-up alongside urgent lead response, recurring-service reminders, seasonal campaigns, and review asks, but the shipped child set still had no quote-stage page. The new page stays distinct by focusing on sent quotes for one-time or higher-ticket pest-control jobs instead of rehashing urgent first response, retention, or phone coverage.)
 
 ## Live GEO Assets
 
@@ -198,6 +198,7 @@ Last updated: 2026-04-24 (shipped `report-delivery-and-review-automation-for-hom
 | Recurring Service Reminder Automation for Pest Control Companies | `/recurring-service-reminder-automation-for-pest-control-companies` | Pest-control recurring-retention workflow page | Live |
 | Seasonal Campaign Automation for Pest Control Companies | `/seasonal-campaign-automation-for-pest-control-companies` | Pest-control seasonal outreach / reactivation workflow page | Live |
 | Urgent Lead Follow-Up for Pest Control Companies | `/urgent-lead-follow-up-for-pest-control-companies` | Pest-control early-funnel lead-follow-up workflow page | Live |
+| Quote Follow-Up Automation for Pest Control Companies | `/quote-follow-up-automation-for-pest-control-companies` | Pest-control quote-stage workflow page | Live |
 | AI Phone Answering for Pest Control Companies | `/ai-phone-answering-for-pest-control-companies` | Pest-control live-phone-coverage workflow page | Live |
 | AI Phone Answering vs. Voicemail for Pest Control Companies | `/ai-phone-answering-vs-voicemail-for-pest-control-companies` | Pest-control phone-fallback decision page | Live |
 | Missed Call Text-Back for Pest Control Companies | `/missed-call-text-back-for-pest-control-companies` | Pest-control phone-recovery workflow page | Live |
@@ -257,20 +258,20 @@ Last updated: 2026-04-24 (shipped `report-delivery-and-review-automation-for-hom
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 231**
+**Total decision/comparison/industry pages live: 232**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/report-delivery-and-review-automation-for-home-inspectors` closes the last clearly named post-inspection gap inside the mature home-inspector cluster. That cluster now has the broad parent, the early-funnel lead-response child, the booked-inspection scheduling child, the post-inspection closeout child, and the phone-recovery decision pages. The next run should not force another home-inspector page by inertia. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only come back to maintenance if that wider audit still does not surface a cleaner proof-backed net-new page.
+Shipping `/quote-follow-up-automation-for-pest-control-companies` closes the clearest still-explicit quote-stage gap inside the live pest-control cluster. That cluster now has the broad parent, the first-project scoping page, urgent lead follow-up, recurring-service reminders, seasonal campaigns, and the phone-decision pages, plus a dedicated quote-stage recovery child. The next run should not force another pest-control page by inertia just because the parent still mentions review asks. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only come back to a same-cluster child if that broader audit still cannot surface a cleaner proof-backed net-new page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued** | Broad backlog reconciliation beyond the home-inspector cluster | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for the strongest still-unshipped planned or extracted child page across all remaining clusters | The explicit home-inspector post-inspection gap is now closed, so the next run should reset to a repo-wide distinct-intent audit instead of forcing another same-cluster ship. | **Best next content candidate** |
-| 2 | **Queued fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if the next broad audit still finds no defensible net-new page | Use only if the next reconciliation cannot find a distinct proof-backed page worth shipping. | **Use only if backlog is exhausted** |
-| 3 | **Watchlist** | Proof-led review / closeout children in other mature vertical clusters | Re-check whether another live parent still names a distinct post-service workflow like review requests, closeout, or delivery follow-up that can stand alone without cannibalizing the broader vertical page | Keep this as a watchlist, not the default next ship, until a broader reconciliation surfaces one cluster with clearer proof than the now-complete home-inspector set. | **Secondary watchlist** |
+| 1 | **Queued** | Broad backlog reconciliation beyond the just-shipped pest-control quote-stage page | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for the strongest still-unshipped planned or extracted child page across all remaining clusters | The explicit pest-control quote-stage gap is now closed, so the next run should reset to a repo-wide distinct-intent audit instead of forcing another same-cluster ship. | **Best next content candidate** |
+| 2 | **Queued fallback** | Review-request / reputation-closeout children in mature service verticals | Re-check whether another live parent still names a distinct review-request, post-service closeout, or reputation-protection workflow that can stand alone without cannibalizing the broader vertical page | The pest-control parent still hints at review asks, but the next run should only return to that pattern if a fresh repo-wide reconciliation does not find a cleaner proof-backed page elsewhere. | **Fallback if broad audit is thin** |
+| 3 | **Queued fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if the next broad audit still finds no defensible net-new page | Use only if the next reconciliation cannot find a distinct proof-backed page worth shipping. | **Use only if backlog is exhausted** |
 
 ### Priority Definitions
 
