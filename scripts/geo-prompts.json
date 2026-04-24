@@ -1457,7 +1457,19 @@
         "How should a med spa text back missed consultation calls?",
         "Is missed-call text-back enough for a med spa that keeps losing after-hours consultation calls?",
         "Best way for a med spa to recover missed consultation calls without full live phone answering",
-        "When should a med spa use missed-call text-back instead of voicemail?"
+        "How should a med spa route missed-call text replies back to the front desk or callback queue?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-voicemail-for-med-spas",
+      "path": "/missed-call-text-back-vs-voicemail-for-med-spas",
+      "label": "Missed Call Text-Back vs. Voicemail for Med Spas",
+      "prompts": [
+        "Missed call text-back vs voicemail for med spas",
+        "Should a med spa use missed-call text-back or voicemail?",
+        "Is voicemail enough for a med spa that keeps missing consultation calls?",
+        "When should a med spa replace voicemail with SMS-first missed-call recovery?",
+        "What is the better fallback for missed med spa consultation calls: voicemail or text-back?"
       ]
     },
     {
