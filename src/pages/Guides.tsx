@@ -1030,6 +1030,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Cleaning Companies",
+    description:
+      "Practical guide to choosing the first cleaning-company workflow to automate: instant lead follow-up, missed-call recovery, quote nurture, or recurring-client reactivation.",
+    href: "/what-to-automate-first-for-cleaning-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Med Spas",
     description:
       "AI automation for med spas. Lead follow-up, appointment booking, no-show reduction, membership renewal campaigns, and review automation.",

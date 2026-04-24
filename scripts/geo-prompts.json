@@ -1341,6 +1341,18 @@
       ]
     },
     {
+      "id": "what-to-automate-first-for-cleaning-companies",
+      "path": "/what-to-automate-first-for-cleaning-companies",
+      "label": "What to Automate First for Cleaning Companies",
+      "prompts": [
+        "What should a cleaning company automate first?",
+        "Should a cleaning company start with lead follow-up, missed-call recovery, quote follow-up, or recurring-client reactivation?",
+        "Best first automation for cleaning company",
+        "How should a cleaning company prioritize web leads, missed calls, sent quotes, and repeat bookings?",
+        "What is the highest ROI first automation project for a cleaning company?"
+      ]
+    },
+    {
       "id": "ai-automation-for-roofing-companies",
       "path": "/ai-automation-for-roofing-companies",
       "label": "AI Automation for Roofing Companies",

@@ -145,6 +145,7 @@ import VapiVsRetellSmallBusiness from "./pages/VapiVsRetellSmallBusiness";
 import RetellVsBlandSmallBusiness from "./pages/RetellVsBlandSmallBusiness";
 import AiAutomationForChiropractors from "./pages/AiAutomationForChiropractors";
 import AiAutomationForCleaningCompanies from "./pages/AiAutomationForCleaningCompanies";
+import WhatToAutomateFirstForCleaningCompanies from "./pages/WhatToAutomateFirstForCleaningCompanies";
 import AiAutomationForMedSpas from "./pages/AiAutomationForMedSpas";
 import AiAutomationForRoofingCompanies from "./pages/AiAutomationForRoofingCompanies";
 import WhatToAutomateFirstForRoofingCompanies from "./pages/WhatToAutomateFirstForRoofingCompanies";
@@ -410,6 +411,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/retell-vs-bland-small-business", element: <RetellVsBlandSmallBusiness /> },
   { path: "/ai-automation-for-chiropractors", element: <AiAutomationForChiropractors /> },
   { path: "/ai-automation-for-cleaning-companies", element: <AiAutomationForCleaningCompanies /> },
+  { path: "/what-to-automate-first-for-cleaning-companies", element: <WhatToAutomateFirstForCleaningCompanies /> },
   { path: "/ai-automation-for-med-spas", element: <AiAutomationForMedSpas /> },
   { path: "/ai-automation-for-roofing-companies", element: <AiAutomationForRoofingCompanies /> },
   { path: "/what-to-automate-first-for-roofing-companies", element: <WhatToAutomateFirstForRoofingCompanies /> },

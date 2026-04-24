@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `ai-phone-answering-vs-voicemail-for-landscaping-companies` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes, and `scripts/geo-prompts.json`. This closed the remaining heavier fallback choice inside the landscaping phone cluster: the broader parent, first-project guide, lighter missed-call page, lighter voicemail comparison, lighter-vs-heavier comparison, estimate-recovery page, recurring-service page, seasonal-reactivation page, and the live-answering explainer were already live, but the exact decision between keeping voicemail/callbacks and moving to live AI phone answering was still missing. The new page stays distinct by focusing only on that buyer decision: when voicemail is still acceptable, when live AI phone answering is worth the heavier build, and why that is a different question from both the lighter fallback page and the broader live-answering explainer. Proof framing stays honest through the live landscaping cluster, the generic phone-answering guide, and the Paris Cafe call-handling case study.)
+Last updated: 2026-04-24 (shipped `what-to-automate-first-for-cleaning-companies` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes, and `scripts/geo-prompts.json`. The obvious Tier-B move was no longer another landscaping phone page, but a still-distinct first-project prioritization page inside the newer cleaning-company cluster. The broader cleaning-company parent was already live and clearly exposed four bounded workflow families — instant lead follow-up, missed-call recovery, quote follow-up, and recurring-client reactivation — but none of those options had been isolated into a first-project decision page yet. The new page stays distinct by focusing only on that earlier buyer question: which leak should a cleaning company fix first before paying for a broader system. Proof framing stays honest through the live cleaning-company parent, the published Paris Cafe call-handling case study, and the published e-commerce CRM/follow-up case study.)
 
 ## Live GEO Assets
 
@@ -154,6 +154,7 @@ Last updated: 2026-04-24 (shipped `ai-phone-answering-vs-voicemail-for-landscapi
 | Retell vs. Bland AI (SMB) | `/retell-vs-bland-small-business` | Comparison page | Live |
 | AI Automation for Chiropractors | `/ai-automation-for-chiropractors` | Industry page | Live |
 | AI Automation for Cleaning Companies | `/ai-automation-for-cleaning-companies` | Industry page | Live |
+| What to Automate First for Cleaning Companies | `/what-to-automate-first-for-cleaning-companies` | Cleaning first-project scoping page | Live |
 | AI Automation for Med Spas | `/ai-automation-for-med-spas` | Industry page | Live |
 | AI Automation for Roofing Companies | `/ai-automation-for-roofing-companies` | Industry page | Live |
 | What to Automate First for Roofing Companies | `/what-to-automate-first-for-roofing-companies` | Roofing first-project scoping page | Live |
@@ -224,13 +225,13 @@ Last updated: 2026-04-24 (shipped `ai-phone-answering-vs-voicemail-for-landscapi
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-phone-answering-vs-voicemail-for-landscaping-companies` closes the obvious remaining landscaping phone-gap. The next run should still re-check broad planning docs first, but the queue is now an honest fallback/watchlist state rather than another stale landscaping placeholder.
+Shipping `/what-to-automate-first-for-cleaning-companies` proved there is still room for proof-backed first-project pages when a newer parent page clearly exposes multiple bounded workflows but the earlier prioritization question is still missing. The next run should still re-check broad planning docs first, but the strongest follow-up candidate is now another first-project page in a service vertical with a live parent and no child prioritization guide yet.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Broad backlog reconciliation for one more proof-backed net-new page outside the landscaping phone cluster | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | Landscaping phone coverage is now cleanly filled; the next ship should come from a different cluster unless another broad audit surfaces a better remaining edge case. | **Best next candidate** |
-| 2 | **Fallback** | Proof-backed late-backlog child page in another live cluster | Prioritize any still-distinct workflow, setup-help, pricing, or phone-decision child page that survives intent scrutiny after the broad audit | Use this if the audit surfaces an exact remaining buyer query in another live cluster rather than defaulting to maintenance. | **Backup if found** |
-| 3 | **Maintenance fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if no clean net-new page survives the broad audit | Use only if another full reconciliation genuinely shows no defensible planned page left to ship. | **Only if backlog is exhausted** |
+| 1 | **Fallback** | `what-to-automate-first-for-med-spas` | Which med spa workflow should be automated first: lead follow-up, consultation booking, no-show reduction, treatment recall, or after-hours inquiry handling? | The live med-spa parent already cleanly exposes several bounded workflow families, but there is still no earlier buyer-decision page helping an owner choose the first project before funding a broader build. | **Best next candidate** |
+| 2 | **Fallback** | `what-to-automate-first-for-chiropractors` | Which chiropractic workflow should be automated first: missed-call recovery, intake/scheduling, care-plan recall, no-show reduction, or after-hours call handling? | The live chiropractor parent also exposes a clean first-project decision layer that is still materially distinct from the broader parent. | **Backup if candidate 1 is blocked** |
+| 3 | **Maintenance fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if no clean net-new page survives the next broad audit | Use only if another full reconciliation genuinely shows no defensible planned page left to ship. | **Only if backlog is exhausted** |
 
 ### Priority Definitions
 
