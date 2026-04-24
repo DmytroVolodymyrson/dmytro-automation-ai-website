@@ -1497,6 +1497,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-for-chiropractors",
+      "path": "/missed-call-text-back-for-chiropractors",
+      "label": "Missed Call Text-Back for Chiropractors",
+      "prompts": [
+        "Missed call text-back for chiropractors",
+        "How do chiropractors text back missed calls automatically?",
+        "Should a chiropractor use missed-call text-back or just voicemail and callbacks?",
+        "When is SMS-first missed-call recovery enough for a chiropractic practice?",
+        "How can a chiropractor stop losing new-patient calls while the front desk is busy?"
+      ]
+    },
+    {
       "id": "ai-automation-for-roofing-companies",
       "path": "/ai-automation-for-roofing-companies",
       "label": "AI Automation for Roofing Companies",

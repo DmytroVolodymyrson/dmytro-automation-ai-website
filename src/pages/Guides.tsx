@@ -1058,6 +1058,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back for Chiropractors",
+    description:
+      "A narrower chiropractic phone-recovery page focused on missed new-patient and scheduling calls — immediate text acknowledgment, lightweight intake capture, callback routing, and where SMS-first recovery beats passive voicemail but still stays lighter than full live answering.",
+    href: "/missed-call-text-back-for-chiropractors",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Cleaning Companies",
     description:
       "AI automation for cleaning companies. Lead follow-up, quote follow-up, missed call text-back, scheduling, client reactivation, and review automation.",

@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-24-missed-call-text-back-for-chiropractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-24",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back for Chiropractors\nBody: Some chiropractic practices do not need full live phone answering yet. They need a lighter recovery layer for the calls that still get missed during lunch, while the front desk is checking someone out, when the doctor is with a patient, or after the office closes. That is what missed-call text-back is for. The call is missed, a useful text goes out immediately, the prospective patient gets a clear next step, and the office gets enough context to call back fast before the person books somewhere else. For many chiropractors, this is the middle layer between passive voicemail and heavier live AI phone coverage: faster than next-day callbacks, simpler than answering every call live, and often enough to stop the practice from leaking warm new-patient demand during the busiest parts of the day.\nSub: Below: what a practical chiropractic missed-call text-back workflow should actually do, how it stays distinct from the broader chiropractor page and the new live-answering child, what proof honestly supports it, and when SMS-first recovery is enough versus when the practice has already outgrown it.\n\n### Core sections\n- What chiropractic missed-call text-back should actually handle\n- How this page stays distinct from the rest of the chiropractic cluster\n- When chiropractic missed-call text-back is a good fit — and when it is not\n- Guardrails that keep chiropractic missed-call recovery useful\n- How a practical chiropractic missed-call text-back workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions about missed-call text-back for chiropractors\nTopics: how this differs from live AI phone answering, what the first text should actually say, when SMS-first recovery is enough, what a focused build usually costs, and when to skip text-back and go straight to live answering.\n\n### Final CTA\nHeading: Need a lighter phone-recovery layer before you add full live answering?\nBody: Book a 30-minute call. We will look at how your practice handles missed calls today, where new-patient demand is leaking, and whether a focused text-back workflow is enough or whether you have already outgrown it into live AI phone coverage.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the roadmap explicitly left a chiropractic lighter phone child as the strongest nearby fallback after the live-answering page shipped, and the live chiropractor parent plus first-project page already isolate missed-call recovery as a clean first workflow beside intake, recall, no-show reduction, and after-hours handling."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/ai-automation-for-chiropractors`, `/what-to-automate-first-for-chiropractors`, `/ai-phone-answering-for-chiropractors`, and `/missed-call-follow-up-automation` by staying only on the lighter SMS-first recovery layer that starts after the call is missed."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live chiropractor cluster, the generic missed-call guide, the live chiropractic phone-answering child, and the Paris Cafe call-handling case study support the pattern without pretending there is already a dedicated chiropractor missed-call case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T11:50:48.610Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 31.8,
+      "sentenceLengthRange": [
+        5,
+        62
+      ],
+      "totalWords": 350
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Missed Call Text-Back for Chiropractors\nBody: Some chiropractic practices do not need full live phone answering yet.",
+      "wordCount": 19,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a lighter phone-recovery layer before you add full live answering?\nBody: Book a 30-minute call. We will look at how your practice handles missed calls today, where new-patient demand is leaking, and whether a focused text-back workflow is enough or whether you have already outgrown it into live AI phone coverage.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 18,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 1.8
+    },
+    "vocabulary": {
+      "distinctWords": 163,
+      "totalWords": 350,
+      "topWords": [
+        [
+          "text-back",
+          9
+        ],
+        [
+          "chiropractic",
+          7
+        ],
+        [
+          "live",
+          7
+        ],
+        [
+          "when",
+          7
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "missed-call",
+          7
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "call",
+          5
+        ],
+        [
+          "answering",
+          5
+        ],
+        [
+          "enough",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "it",
+          5
+        ],
+        [
+          "missed",
+          4
+        ],
+        [
+          "phone",
+          4
+        ],
+        [
+          "recovery",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
