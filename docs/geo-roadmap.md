@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `review-request-automation-for-auto-repair-shops` after fresh reconciliation confirmed the auto-repair cluster still had one clean post-service reputation gap. The parent already explicitly named review automation, and the cluster already had the broad parent, first-project page, early-funnel lead response, maintenance reminders, estimate follow-up, booked-visit scheduling, and mature phone-layer pages live. The new page stays distinct by framing the buyer decision around completed-visit closeout, comeback-aware unhappy-reply routing, advisor handoff, and local-trust follow-through instead of rehashing earlier lead, reminder, or phone stages.)
+Last updated: 2026-04-24 (shipped `review-request-automation-for-landscaping-companies` after fresh reconciliation confirmed the landscaping cluster still had one clean post-job reputation gap. The parent already explicitly named review automation, and the cluster already had the broad parent, first-project page, early-funnel lead response, estimate follow-up, recurring-service scheduling, seasonal reactivation, and the mature phone layer live. The new page stays distinct by framing the buyer decision around completed-project closeout, unhappy-reply routing, office handoff, and local-trust follow-through instead of rehashing earlier lead, scheduling, seasonal, or phone stages.)
 
 ## Live GEO Assets
 
@@ -230,6 +230,7 @@ Last updated: 2026-04-24 (shipped `review-request-automation-for-auto-repair-sho
 | Estimate Follow-Up Automation for Landscaping Companies | `/estimate-follow-up-automation-for-landscaping-companies` | Landscaping estimate-recovery workflow page | Live |
 | Recurring Service Scheduling and Reminder Automation for Landscaping Companies | `/recurring-service-scheduling-and-reminder-automation-for-landscaping-companies` | Landscaping recurring-service operations workflow page | Live |
 | Seasonal Reactivation Automation for Landscaping Companies | `/seasonal-reactivation-automation-for-landscaping-companies` | Landscaping seasonal retention workflow page | Live |
+| Review Request Automation for Landscaping Companies | `/review-request-automation-for-landscaping-companies` | Landscaping post-job reputation workflow page | Live |
 | AI Phone Answering for Landscaping Companies | `/ai-phone-answering-for-landscaping-companies` | Landscaping live-phone-coverage workflow page | Live |
 | AI Phone Answering vs. Voicemail for Landscaping Companies | `/ai-phone-answering-vs-voicemail-for-landscaping-companies` | Landscaping phone-fallback decision page | Live |
 | Missed Call Text-Back vs. AI Phone Answering for Landscaping Companies | `/missed-call-text-back-vs-ai-phone-answering-for-landscaping-companies` | Landscaping phone-recovery decision page | Live |
@@ -266,20 +267,20 @@ Last updated: 2026-04-24 (shipped `review-request-automation-for-auto-repair-sho
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 240**
+**Total decision/comparison/industry pages live: 241**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/review-request-automation-for-auto-repair-shops` validates another late-backlog review-request / reputation-closeout child inside a mature service vertical. The auto-repair cluster already had the broad parent, a first-project chooser, early-funnel lead response, maintenance reminders, estimate follow-up, booked-visit scheduling, and the full phone layer live, so the cleanest remaining gap was the narrower post-service review workflow after the vehicle is picked up. The next run should still do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; do not force another auto-repair sibling by inertia just because this cluster shipped cleanly.
+Shipping `/review-request-automation-for-landscaping-companies` validates another late-backlog review-request / reputation-closeout child inside a mature service vertical. The landscaping cluster already had the broad parent, a first-project chooser, early-funnel lead response, estimate follow-up, recurring-service scheduling, seasonal reactivation, and the full phone layer live, so the cleanest remaining gap was the narrower post-job review workflow after a project or service visit is completed. The next run should still do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; do not force another landscaping sibling by inertia just because this cluster shipped cleanly.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued fallback** | `review-request-automation-for-landscaping-companies` | Landscaping owners trying to turn completed jobs into cleaner Google-review follow-up without pushing unhappy customers too early | The landscaping parent already names review automation, and the cluster is mature enough — first-project scoping, lead follow-up, estimate recovery, recurring scheduling, seasonal reactivation, and the phone layer are already live — that a distinct post-job reputation child can plausibly stand on its own. | **Best next content candidate after fresh audit** |
-| 2 | **Watchlist** | `review-request-automation-for-painting-contractors` | Painting contractors trying to protect local trust and referrals after completed projects | The painting parent explicitly names review automation and the cluster already has first-project, lead-follow-up, estimate, reactivation, and phone pages. Strong fallback if broader reconciliation does not surface a cleaner remaining gap first. | **Strong fallback** |
-| 3 | **Watchlist** | Another review-request / reputation-closeout child in a mature service vertical with explicit parent-page proof | Owners trying to protect completed jobs, local trust, and review volume after service delivery | HVAC, pest control, and auto repair are now covered. Only ship another review-closeout page if a live parent explicitly names the reputation layer and the workflow can stay clearly distinct from earlier lead, scheduling, retention, and phone pages. | **Do not force without proof** |
+| 1 | **Queued fallback** | `review-request-automation-for-painting-contractors` | Painting contractors trying to protect local trust and referrals after completed projects | The painting parent explicitly names review automation and the cluster already has first-project, lead follow-up, estimate recovery, reactivation, and the mature phone layer live. The remaining gap is the narrower post-job reputation workflow after the project is complete. | **Best next content candidate after fresh audit** |
+| 2 | **Watchlist** | Another review-request / reputation-closeout child in a mature service vertical with explicit parent-page proof | Owners trying to protect completed jobs, local trust, and review volume after service delivery | HVAC, pest control, auto repair, and landscaping are now covered. Only ship another review-closeout page if a live parent explicitly names the reputation layer and the workflow can stay clearly distinct from earlier lead, scheduling, retention, and phone stages. | **Do not force without proof** |
+| 3 | **Watchlist** | Distinct non-review child surfaced by full backlog reconciliation | Owners asking a still-clean workflow or decision question not yet isolated on the live site | If broader reconciliation surfaces a cleaner surviving page than another reputation child, prefer that instead of rolling review pages by inertia. | **Needs next-run audit** |
 
 ### Priority Definitions
 

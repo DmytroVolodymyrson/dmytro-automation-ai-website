@@ -2265,6 +2265,18 @@
       ]
     },
     {
+      "id": "review-request-automation-for-landscaping-companies",
+      "path": "/review-request-automation-for-landscaping-companies",
+      "label": "Review Request Automation for Landscaping Companies",
+      "prompts": [
+        "Review request automation for landscaping companies",
+        "How do landscaping companies ask for Google reviews automatically after completed projects or service visits?",
+        "Best way to automate review requests for landscaping jobs without pushing unhappy homeowners too early",
+        "When should a landscaping company ask for reviews after a project is finished or a recurring service cycle is complete?",
+        "How should a landscaping company route unhappy post-job replies before sending a public review link?"
+      ]
+    },
+    {
       "id": "ai-lead-follow-up-for-painting-contractors",
       "path": "/ai-lead-follow-up-for-painting-contractors",
       "label": "AI Lead Follow-Up for Painting Contractors",

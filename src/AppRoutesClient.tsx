@@ -212,6 +212,7 @@ const MissedCallTextBackVsAiPhoneAnsweringForAutoRepairShops = lazy(() => import
 const AiPhoneAnsweringForAutoRepairShops = lazy(() => import("./pages/AiPhoneAnsweringForAutoRepairShops"));
 const AiPhoneAnsweringVsVoicemailForAutoRepairShops = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForAutoRepairShops"));
 const ReviewRequestAutomationForAutoRepairShops = lazy(() => import("./pages/ReviewRequestAutomationForAutoRepairShops"));
+const ReviewRequestAutomationForLandscapingCompanies = lazy(() => import("./pages/ReviewRequestAutomationForLandscapingCompanies"));
 const AiAutomationForLandscapingCompanies = lazy(() => import("./pages/AiAutomationForLandscapingCompanies"));
 const WhatToAutomateFirstForLandscapingCompanies = lazy(() => import("./pages/WhatToAutomateFirstForLandscapingCompanies"));
 const AiLeadFollowUpForLandscapingCompanies = lazy(() => import("./pages/AiLeadFollowUpForLandscapingCompanies"));
@@ -480,6 +481,7 @@ const AppRoutesClient = () => (
       <Route path="/missed-call-text-back-vs-voicemail-for-landscaping-companies" element={<MissedCallTextBackVsVoicemailForLandscapingCompanies />} />
       <Route path="/missed-call-text-back-vs-ai-phone-answering-for-landscaping-companies" element={<MissedCallTextBackVsAiPhoneAnsweringForLandscapingCompanies />} />
       <Route path="/estimate-follow-up-automation-for-landscaping-companies" element={<EstimateFollowUpAutomationForLandscapingCompanies />} />
+      <Route path="/review-request-automation-for-landscaping-companies" element={<ReviewRequestAutomationForLandscapingCompanies />} />
       <Route path="/recurring-service-scheduling-and-reminder-automation-for-landscaping-companies" element={<RecurringServiceSchedulingAndReminderAutomationForLandscapingCompanies />} />
       <Route path="/ai-phone-answering-for-landscaping-companies" element={<AiPhoneAnsweringForLandscapingCompanies />} />
       <Route path="/ai-phone-answering-vs-voicemail-for-landscaping-companies" element={<AiPhoneAnsweringVsVoicemailForLandscapingCompanies />} />

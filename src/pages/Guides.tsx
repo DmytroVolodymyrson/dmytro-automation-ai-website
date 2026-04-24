@@ -1555,6 +1555,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Review Request Automation for Landscaping Companies",
+    description:
+      "Post-job reputation workflow for landscaping companies that want better review timing, unhappy-reply routing, and cleaner crew-to-office handoff after completed projects or service visits instead of manual review chasing.",
+    href: "/review-request-automation-for-landscaping-companies",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Landscaping Companies",
     description:
       "A narrower landscaping live-phone-coverage guide focused on quote-call intake, spring-rush overflow protection, after-hours answer coverage, recurring-service call handling, and the handoff points that should stay human.",
