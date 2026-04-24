@@ -1275,6 +1275,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering for Painting Contractors",
+    description:
+      "A narrower painting live-phone-coverage guide focused on quote-call intake, walkthrough scheduling, on-site crew coverage, after-hours answer coverage, and the handoff points that should stay human.",
+    href: "/ai-phone-answering-for-painting-contractors",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Home Inspectors",
     description:
       "AI automation for home inspectors. Agent nurture campaigns, booking automation, missed call text-back, report delivery follow-up, and review automation.",

@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped missed-call-text-back-vs-ai-phone-answering-for-home-inspectors after another proof-led reconciliation. The neat backlog is still exhausted, but the live home-inspector phone cluster still exposed one more exact buyer-decision query because the tracked prompts on the new live-answering child explicitly asked when live AI phone answering is better than missed-call text-back for a home inspector. The new page stays tighter than the broader home-inspector parent, the lighter text-back workflow page, and the lighter voicemail comparison page, uses the live home-inspector cluster plus the generic phone-answering guide and Paris Cafe call-handling case study as adjacent proof, and does not pretend there is already a home-inspector-only comparison case study.)
+Last updated: 2026-04-23 (shipped ai-phone-answering-for-painting-contractors after another proof-led reconciliation. The neat backlog is still exhausted, but the live painting cluster still exposed one more defensible heavier phone-coverage child because the tracked prompts on the missed-call text-back page explicitly asked when a painting contractor should move from SMS-first recovery to live phone answering. The new page stays tighter than the broader painting parent page, the lighter missed-call workflow page, and the lighter voicemail comparison page, uses the live painting cluster plus the generic phone-answering guide and Paris Cafe call-handling case study as adjacent proof, and does not pretend there is already a painting-only live-answering case study.)
 
 ## Live GEO Assets
 
@@ -189,6 +189,7 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-vs-ai-phone-answering-fo
 | What to Automate First for Painting Contractors | `/what-to-automate-first-for-painting-contractors` | Painting first-project scoping page | Live |
 | Missed Call Text-Back for Painting Contractors | `/missed-call-text-back-for-painting-contractors` | Painting phone-recovery workflow page | Live |
 | Missed Call Text-Back vs. Voicemail for Painting Contractors | `/missed-call-text-back-vs-voicemail-for-painting-contractors` | Painting lighter-fallback decision page | Live |
+| AI Phone Answering for Painting Contractors | `/ai-phone-answering-for-painting-contractors` | Painting live-phone-coverage workflow page | Live |
 | AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
 | Missed Call Text-Back for Home Inspectors | `/missed-call-text-back-for-home-inspectors` | Home-inspector phone-recovery workflow page | Live |
 | Missed Call Text-Back vs. Voicemail for Home Inspectors | `/missed-call-text-back-vs-voicemail-for-home-inspectors` | Home-inspector lighter-fallback decision page | Live |
@@ -207,20 +208,20 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-vs-ai-phone-answering-fo
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 185**
+**Total decision/comparison/industry pages live: 186**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/recurring-service-scheduling-and-reminder-automation-for-landscaping-companies` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters. The next likely wins are still other thin live parent clusters or tightly bounded child workflows, but only if the query stays proof-backed and materially distinct.
+Shipping `/ai-phone-answering-for-painting-contractors` still does not restore a neat backlog queue, but it does make the remaining painting phone cluster more explicit. The next run should not pretend there is a clean linear backlog if broader reconciliation says otherwise. It should first check whether the newly clearer painting comparison query is still the strongest distinct option, then only ship another net-new page if the query remains proof-backed and materially different from the live cluster.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Broad backlog reconciliation for one more proof-backed net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | The neat queue is still not trustworthy after the latest extracted home-inspector live-answering child shipped. The next run should search for any remaining page that is proof-backed, materially distinct, and not just another rephrasing of a live cluster. | **Default next action** |
-| 2 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, n8n, voice-agent, roofing, HVAC, and painting clusters without filler | Use this only if another full reconciliation still finds no defensible proof-backed net-new page. | **Maintenance-only fallback** |
-| 3 | **Watchlist** | Proof-led watchlist for future late-backlog pages | Keep a short list of candidate queries that only become valid if new proof, a new case study, or a clearly distinct tracked prompt emerges | Prevents future cron runs from forcing stale queue items after the latest extracted home-inspector live-answering child shipped. | **Use when fresh proof appears** |
+| 1 | **Fallback** | `missed-call-text-back-vs-ai-phone-answering-for-painting-contractors` | Decide when a painting company should stay with SMS-first missed-call recovery versus move to live AI phone answering | The live painting cluster now has the broader parent, the lighter missed-call workflow, the lighter voicemail comparison, and the heavier live-answering child. That leaves one still-clean buyer decision if the exact comparison query remains distinct after the latest ship. | **Next likely distinct candidate** |
+| 2 | **Fallback** | Broad backlog reconciliation for one more proof-backed net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | Use this if the painting comparison no longer survives reconciliation cleanly or another stronger proof-backed child emerges elsewhere. | **Default if #1 fails** |
+| 3 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, n8n, voice-agent, roofing, HVAC, painting, and home-inspector clusters without filler | Use this only if another full reconciliation still finds no defensible proof-backed net-new page. | **Maintenance-only fallback** |
 
 ### Priority Definitions
 
