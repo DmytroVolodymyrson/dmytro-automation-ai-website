@@ -1509,6 +1509,18 @@
       ]
     },
     {
+      "id": "review-request-automation-for-cleaning-companies",
+      "path": "/review-request-automation-for-cleaning-companies",
+      "label": "Review Request Automation for Cleaning Companies",
+      "prompts": [
+        "Review request automation for cleaning companies",
+        "How should a cleaning company automate review requests after completed cleans?",
+        "Best way for a cleaning company to ask for Google reviews without sending unhappy clients straight to a public review ask",
+        "Should a cleaning company automate post-clean review follow-up?",
+        "How should a cleaning company route unhappy post-job replies before asking for a review?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-med-spas",
       "path": "/what-to-automate-first-for-med-spas",
       "label": "What to Automate First for Med Spas",

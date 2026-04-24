@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `review-request-automation-for-roofing-companies` after fresh reconciliation confirmed the roofing cluster still had one clean post-job reputation gap. The roofing parent already explicitly named review automation, and the live cluster already had the broad parent, first-project page, early-funnel lead follow-up, estimate recovery, booked-job follow-up, and the mature phone layer live. The new page stays distinct by framing the buyer decision around completed-job closeout, unhappy-reply routing, office handoff, and local-trust follow-through instead of rehashing earlier lead, estimate, scheduling, or phone stages.)
+Last updated: 2026-04-24 (shipped `review-request-automation-for-cleaning-companies` after fresh reconciliation confirmed the cleaning cluster still had one clean post-job reputation gap. The cleaning parent already explicitly named review automation, and the live cluster already had the broad parent, first-project page, early-funnel lead follow-up, quote-stage recovery, the mature phone layer, and client reactivation live. The new page stays distinct by framing the buyer decision around completed-job closeout, unhappy-reply routing, office handoff, and local-trust follow-through instead of rehashing earlier lead, quote, retention, or phone stages.)
 
 ## Live GEO Assets
 
@@ -177,6 +177,7 @@ Last updated: 2026-04-24 (shipped `review-request-automation-for-roofing-compani
 | Missed Call Text-Back vs. AI Phone Answering for Cleaning Companies | `/missed-call-text-back-vs-ai-phone-answering-for-cleaning-companies` | Cleaning phone-recovery decision page | Live |
 | Missed Call Text-Back vs. Voicemail for Cleaning Companies | `/missed-call-text-back-vs-voicemail-for-cleaning-companies` | Cleaning lighter-fallback decision page | Live |
 | Client Reactivation Automation for Cleaning Companies | `/client-reactivation-automation-for-cleaning-companies` | Cleaning retention workflow page | Live |
+| Review Request Automation for Cleaning Companies | `/review-request-automation-for-cleaning-companies` | Cleaning post-job reputation workflow page | Live |
 | AI Automation for Med Spas | `/ai-automation-for-med-spas` | Industry page | Live |
 | What to Automate First for Med Spas | `/what-to-automate-first-for-med-spas` | Med-spa first-project scoping page | Live |
 | Missed Call Text-Back for Med Spas | `/missed-call-text-back-for-med-spas` | Med-spa lighter phone-recovery workflow page | Live |
@@ -269,19 +270,19 @@ Last updated: 2026-04-24 (shipped `review-request-automation-for-roofing-compani
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 242**
+**Total decision/comparison/industry pages live: 243**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/review-request-automation-for-roofing-companies` closes the clean roofing post-job reputation gap that was still sitting inside a mature cluster. The next run should not force another roofing sibling or another review-closeout page by inertia. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only queue another reputation-closeout child if a different mature cluster still has explicit parent-page proof and a clearly separate post-job workflow gap.
+Shipping `/review-request-automation-for-cleaning-companies` closes the clean cleaning post-job reputation gap that was still sitting inside a mature cluster. The next run should not force another cleaning sibling or another review-closeout page by inertia. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only queue another reputation-closeout child if a different mature cluster still has explicit parent-page proof and a clearly separate post-job workflow gap.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued workflow** | Fresh full backlog reconciliation across planning docs, live routes, and tracked prompts | Owners asking a still-clean workflow or decision question not yet isolated on the live site | Roofing review-closeout is now shipped. The next run should deliberately search for the best surviving distinct child page or decision page instead of forcing another same-pattern review page. | **Required before naming the next exact slug** |
-| 2 | **Watchlist** | Another review-request / reputation-closeout child in a mature service vertical with explicit parent-page proof | Owners trying to protect completed jobs, local trust, and review volume after service delivery | HVAC, pest control, auto repair, landscaping, painting, and now roofing are covered. Only ship another review-closeout page if a live parent explicitly names the reputation layer and the workflow can stay clearly distinct from earlier lead, scheduling, retention, and phone stages. | **Do not force without proof** |
+| 1 | **Queued workflow** | Fresh full backlog reconciliation across planning docs, live routes, and tracked prompts | Owners asking a still-clean workflow or decision question not yet isolated on the live site | Cleaning review-closeout is now shipped. The next run should deliberately search for the best surviving distinct child page or decision page instead of forcing another same-pattern review page. | **Required before naming the next exact slug** |
+| 2 | **Watchlist** | Another review-request / reputation-closeout child in a mature service vertical with explicit parent-page proof | Owners trying to protect completed jobs, local trust, and review volume after service delivery | HVAC, pest control, auto repair, landscaping, painting, roofing, and now cleaning are covered. Only ship another review-closeout page if a live parent explicitly names the reputation layer and the workflow can stay clearly distinct from earlier lead, scheduling, retention, and phone stages. | **Do not force without proof** |
 | 3 | **Watchlist** | Distinct non-review child surfaced by full backlog reconciliation | Owners asking a workflow or decision question that is still commercially clean and proof-supported | If broader reconciliation surfaces a cleaner surviving page than another reputation child, prefer that instead of rolling the same pattern again. | **Needs next-run audit** |
 
 ### Priority Definitions

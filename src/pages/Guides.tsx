@@ -1191,6 +1191,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Review Request Automation for Cleaning Companies",
+    description:
+      "A narrower cleaning-company post-job reputation page focused on asking for reviews at the right time, routing unhappy replies before a public ask, and turning completed cleans into cleaner local-trust follow-up.",
+    href: "/review-request-automation-for-cleaning-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Med Spas",
     description:
       "AI automation for med spas. Lead follow-up, appointment booking, no-show reduction, membership renewal campaigns, and review automation.",
