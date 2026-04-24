@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-estimate-follow-up-automation-for-painting-contractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Estimate Follow-Up Automation for Painting Contractors\nBody: The homeowner asked for a quote. You walked the house, sent the estimate, and then the job went quiet. In painting, that usually means the prospect is comparing multiple bids and the painter who stays visible wins. The problem is that most painting companies are busy on job sites, juggling crews, and relying on memory for follow-up. Estimate follow-up automation fixes that narrow stage. It starts after the quote is sent, keeps the job active with practical reminders and next-step prompts, and surfaces real buying intent before another solid painting estimate dies in silence.\nSub: Below: what painting estimate follow-up automation actually handles, how it stays distinct from the broader painting page and the generic quote-follow-up guide, what guardrails matter, and what adjacent proof supports the page without pretending there is already a published painting estimate-recovery case study.\n\n### Core sections\n- Frames the page as a narrow painting estimate-recovery workflow, not a rewrite of the broader painting parent or the generic quote-follow-up guide.\n- Focuses on timed reminders after a quote is sent, homeowner-decision nudges around price and timing, owner or estimator handoff, and open-estimate visibility.\n- Uses explicit fit / not-fit framing so the page stays useful only for painting companies that already quote regularly and are losing work after the estimate stage.\n- Keeps the proof frame disciplined: the live painting parent page, the live contractor estimate-follow-up page, and the published 5,600+ contact CRM case study instead of pretending there is already a direct painting estimate-recovery case study.\n- Includes practical guardrails around stage cleanliness, honest urgency, clear next steps, and when a human should take over instead of forcing the automation too far.\n\n### FAQ\nSubhead: Practical questions about automating painting estimate follow-up\nTopics: how this differs from the broader painting page, how it differs from the generic quote-follow-up guide, what a focused build usually costs, what tools it can work with, and where the ROI usually comes from.\n\n### Final CTA\nHeading: Want fewer painting quotes dying after the estimate is sent?\nBody: Book a 30-minute call. We will look at how your company handles sent estimates today, where painting quotes are going cold, and whether a focused estimate-recovery workflow is the cleanest automation to build next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected after broad backlog reconciliation because the neat roadmap queue is exhausted, but the live painting parent still exposed estimate follow-up as a distinct workflow stage worth isolating."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps a clear separation from `/ai-automation-for-painting-contractors` by staying tightly on what happens after a painting estimate is sent and before the homeowner books or disappears."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest and adjacent: live painting and contractor workflow pages plus published CRM follow-up proof, with no fake painting-specific case study claims."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical, operational, and non-hype with emphasis on quote-stage leakage, owner handoff, and homeowner timing instead of generic sales-language fluff."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T02:05:22.155Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        5,
+        1,
+        3
+      ],
+      "avgSentenceLength": 23.6,
+      "sentenceLengthRange": [
+        5,
+        45
+      ],
+      "totalWords": 377
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Estimate Follow-Up Automation for Painting Contractors\nBody: The homeowner asked for a quote.",
+      "wordCount": 15,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want fewer painting quotes dying after the estimate is sent?\nBody: Book a 30-minute call. We will look at how your company handles sent estimates today, where painting quotes are going cold, and whether a focused estimate-recovery workflow is the cleanest automation to build next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 15,
+      "commas": 26,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 1.63
+    },
+    "vocabulary": {
+      "distinctWords": 193,
+      "totalWords": 377,
+      "topWords": [
+        [
+          "painting",
+          16
+        ],
+        [
+          "estimate",
+          8
+        ],
+        [
+          "page",
+          7
+        ],
+        [
+          "follow-up",
+          5
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "sent",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "quote",
+          4
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "after",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "estimate-recovery",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

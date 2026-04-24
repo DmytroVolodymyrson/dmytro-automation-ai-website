@@ -1593,6 +1593,18 @@
       ]
     },
     {
+      "id": "estimate-follow-up-automation-for-painting-contractors",
+      "path": "/estimate-follow-up-automation-for-painting-contractors",
+      "label": "Estimate Follow-Up Automation for Painting Contractors",
+      "prompts": [
+        "Estimate follow-up automation for painting contractors",
+        "How do painting contractors follow up on estimates without manual chasing?",
+        "Best way for a painting company to recover open quotes",
+        "Should a painting contractor automate estimate reminders after sending a quote?",
+        "How do I stop painting estimates from going cold after the walkthrough?"
+      ]
+    },
+    {
       "id": "ai-automation-cost-small-business",
       "path": "/ai-automation-cost-small-business",
       "label": "AI Automation Cost for Small Business",

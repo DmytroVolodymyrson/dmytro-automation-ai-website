@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped seasonal-reactivation-automation-for-landscaping-companies after another proof-led reconciliation. The neat backlog is still exhausted, but the live landscaping cluster still supported one more materially distinct child page: a narrowly scoped seasonal reactivation workflow for bringing past clients back before spring cleanup, mulching, fall cleanup, and snow-season demand arrive too late. The page stays tighter than both the broader landscaping parent and the landscaping first-project page, and it uses the live landscaping cluster plus published HVAC reactivation and CRM proof instead of pretending there is already a direct landscaping seasonal-reactivation case study.)
+Last updated: 2026-04-23 (shipped estimate-follow-up-automation-for-painting-contractors after another proof-led reconciliation. The neat backlog is still exhausted, but the live painting cluster still supported one more materially distinct child page: a narrowly scoped estimate-recovery workflow for sent painting quotes that die after the walkthrough. The page stays tighter than the broader painting parent and uses the live painting page plus published contractor estimate-follow-up and CRM proof instead of pretending there is already a direct painting estimate-recovery case study.)
 
 ## Live GEO Assets
 
@@ -179,6 +179,7 @@ Last updated: 2026-04-23 (shipped seasonal-reactivation-automation-for-landscapi
 | What to Automate First for Landscaping Companies | `/what-to-automate-first-for-landscaping-companies` | Landscaping first-project scoping page | Live |
 | Seasonal Reactivation Automation for Landscaping Companies | `/seasonal-reactivation-automation-for-landscaping-companies` | Landscaping seasonal retention workflow page | Live |
 | AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
+| Estimate Follow-Up Automation for Painting Contractors | `/estimate-follow-up-automation-for-painting-contractors` | Painting estimate-recovery workflow page | Live |
 | AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
 | AI Automation Cost (SMB) | `/ai-automation-cost-small-business` | Authority page | Live |
 | AI Automation Audit Checklist | `/ai-automation-audit-checklist` | Authority page | Live |
@@ -193,7 +194,7 @@ Last updated: 2026-04-23 (shipped seasonal-reactivation-automation-for-landscapi
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 172**
+**Total decision/comparison/industry pages live: 173**
 **Total case studies live: 3**
 
 ---

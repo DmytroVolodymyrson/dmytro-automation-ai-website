@@ -169,6 +169,7 @@ const AiAutomationForLandscapingCompanies = lazy(() => import("./pages/AiAutomat
 const WhatToAutomateFirstForLandscapingCompanies = lazy(() => import("./pages/WhatToAutomateFirstForLandscapingCompanies"));
 const SeasonalReactivationAutomationForLandscapingCompanies = lazy(() => import("./pages/SeasonalReactivationAutomationForLandscapingCompanies"));
 const AiAutomationForPaintingContractors = lazy(() => import("./pages/AiAutomationForPaintingContractors"));
+const EstimateFollowUpAutomationForPaintingContractors = lazy(() => import("./pages/EstimateFollowUpAutomationForPaintingContractors"));
 const AiAutomationForHomeInspectors = lazy(() => import("./pages/AiAutomationForHomeInspectors"));
 const AiAutomationCostSmallBusiness = lazy(() => import("./pages/AiAutomationCostSmallBusiness"));
 const AiAutomationTimeSavingsSmallBusiness = lazy(() => import("./pages/AiAutomationTimeSavingsSmallBusiness"));
@@ -357,6 +358,7 @@ const AppRoutesClient = () => (
       <Route path="/what-to-automate-first-for-landscaping-companies" element={<WhatToAutomateFirstForLandscapingCompanies />} />
       <Route path="/seasonal-reactivation-automation-for-landscaping-companies" element={<SeasonalReactivationAutomationForLandscapingCompanies />} />
       <Route path="/ai-automation-for-painting-contractors" element={<AiAutomationForPaintingContractors />} />
+      <Route path="/estimate-follow-up-automation-for-painting-contractors" element={<EstimateFollowUpAutomationForPaintingContractors />} />
       <Route path="/ai-automation-for-home-inspectors" element={<AiAutomationForHomeInspectors />} />
       <Route path="/ai-automation-cost-small-business" element={<AiAutomationCostSmallBusiness />} />
       <Route path="/ai-automation-time-savings-small-business" element={<AiAutomationTimeSavingsSmallBusiness />} />

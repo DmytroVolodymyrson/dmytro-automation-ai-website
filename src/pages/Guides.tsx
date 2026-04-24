@@ -1205,6 +1205,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Estimate Follow-Up Automation for Painting Contractors",
+    description:
+      "A narrower painting workflow page focused on sent estimates that go cold — reminder timing, homeowner-decision nudges, owner handoff, and open-quote visibility before another job slips away.",
+    href: "/estimate-follow-up-automation-for-painting-contractors",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Home Inspectors",
     description:
       "AI automation for home inspectors. Agent nurture campaigns, booking automation, missed call text-back, report delivery follow-up, and review automation.",
