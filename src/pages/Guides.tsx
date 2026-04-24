@@ -1233,6 +1233,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Painting Contractors",
+    description:
+      "Scoping guide for painting contractors deciding whether the first automation should be missed-call recovery, instant lead response, estimate follow-up, or past-client reactivation before a broader rollout.",
+    href: "/what-to-automate-first-for-painting-contractors",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Home Inspectors",
     description:
       "AI automation for home inspectors. Agent nurture campaigns, booking automation, missed call text-back, report delivery follow-up, and review automation.",

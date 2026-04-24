@@ -172,6 +172,7 @@ import SeasonalReactivationAutomationForLandscapingCompanies from "./pages/Seaso
 import EstimateFollowUpAutomationForLandscapingCompanies from "./pages/EstimateFollowUpAutomationForLandscapingCompanies";
 import AiAutomationForPaintingContractors from "./pages/AiAutomationForPaintingContractors";
 import EstimateFollowUpAutomationForPaintingContractors from "./pages/EstimateFollowUpAutomationForPaintingContractors";
+import WhatToAutomateFirstForPaintingContractors from "./pages/WhatToAutomateFirstForPaintingContractors";
 import AiAutomationForHomeInspectors from "./pages/AiAutomationForHomeInspectors";
 import AiAutomationCostSmallBusiness from "./pages/AiAutomationCostSmallBusiness";
 import AiAutomationTimeSavingsSmallBusiness from "./pages/AiAutomationTimeSavingsSmallBusiness";
@@ -417,6 +418,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/seasonal-reactivation-automation-for-landscaping-companies", element: <SeasonalReactivationAutomationForLandscapingCompanies /> },
   { path: "/ai-automation-for-painting-contractors", element: <AiAutomationForPaintingContractors /> },
   { path: "/estimate-follow-up-automation-for-painting-contractors", element: <EstimateFollowUpAutomationForPaintingContractors /> },
+  { path: "/what-to-automate-first-for-painting-contractors", element: <WhatToAutomateFirstForPaintingContractors /> },
   { path: "/ai-automation-for-home-inspectors", element: <AiAutomationForHomeInspectors /> },
   { path: "/ai-automation-cost-small-business", element: <AiAutomationCostSmallBusiness /> },
   { path: "/ai-automation-time-savings-small-business", element: <AiAutomationTimeSavingsSmallBusiness /> },

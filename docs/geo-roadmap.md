@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped missed-call-text-back-vs-voicemail-for-landscaping-companies after another proof-led reconciliation. The neat backlog is still exhausted, but the live landscaping cluster still supported one more materially distinct child page: the lighter buyer decision between SMS-first missed-call recovery and plain voicemail. The page stays tighter than the broader landscaping parent, the first-project scoping page, and the landscaping missed-call workflow page, and it uses the live landscaping cluster plus adjacent home-service phone-recovery proof instead of pretending there is already a direct landscaping comparison case study.)
+Last updated: 2026-04-23 (shipped what-to-automate-first-for-painting-contractors after another proof-led reconciliation. The neat backlog is still exhausted, but the live painting cluster still supported one more materially distinct child page: the earlier buyer decision about which bounded workflow should come first. The page stays tighter than the broader painting parent and the narrower estimate-follow-up child, and it uses the live painting cluster plus adjacent phone-handling and CRM proof instead of pretending there is already a direct painting prioritization case study.)
 
 ## Live GEO Assets
 
@@ -183,6 +183,7 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-vs-voicemail-for-landsca
 | Seasonal Reactivation Automation for Landscaping Companies | `/seasonal-reactivation-automation-for-landscaping-companies` | Landscaping seasonal retention workflow page | Live |
 | AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
 | Estimate Follow-Up Automation for Painting Contractors | `/estimate-follow-up-automation-for-painting-contractors` | Painting estimate-recovery workflow page | Live |
+| What to Automate First for Painting Contractors | `/what-to-automate-first-for-painting-contractors` | Painting first-project scoping page | Live |
 | AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
 | AI Automation Cost (SMB) | `/ai-automation-cost-small-business` | Authority page | Live |
 | AI Automation Audit Checklist | `/ai-automation-audit-checklist` | Authority page | Live |
@@ -197,14 +198,14 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-vs-voicemail-for-landsca
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 175**
+**Total decision/comparison/industry pages live: 176**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/missed-call-text-back-vs-voicemail-for-landscaping-companies` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters.
+Shipping `/what-to-automate-first-for-painting-contractors` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters. Thin live parent clusters like home inspectors may still hide a valid child page, but only if the query stays proof-backed and materially distinct.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-what-to-automate-first-for-painting-contractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: What to Automate First for Painting Contractors\nBody: If your painting company knows it needs better automation, the safest first move is usually not a giant all-in-one system. It is one bounded workflow that fixes an expensive leak. For most painting contractors, that first workflow is one of four things: missed-call recovery, instant lead response, estimate follow-up, or past-client reactivation and referral outreach. The right choice depends on where jobs are already slipping today — on the first missed call, in the first few minutes after an inquiry, after the estimate is sent, or months later when past clients could still be creating repeat work and referrals but nobody is staying in touch.\nSub: Below: how to choose the first painting workflow to automate, how this page stays distinct from the broader painting page and the narrower estimate-follow-up child page, what adjacent proof supports the recommendation, and when you should keep the first project smaller instead of forcing a broader painting-automation rollout too early.\n\n### Core sections\n- The first painting workflows usually worth automating\n- Which painting workflow should you automate first?\n- This page vs. the rest of the painting cluster\n- How to choose the first painting automation without overbuilding\n- Relevant proof and adjacent proof\n\n### FAQ\nSubhead: Practical questions about choosing the first painting automation\nTopics: what a painting contractor should automate first, how this differs from the broader painting page, whether instant lead response should come before estimate follow-up, when past-client reactivation should come before front-end workflows, and the ROI of choosing the first workflow correctly.\n\n### Final CTA\nHeading: Need help choosing the first painting workflow to automate?\nBody: Book a 30-minute call. We will look at where your company is leaking calls, lead speed, estimates, or past-client opportunities now, then recommend whether the first move should be missed-call recovery, instant response, estimate follow-up, or a retention workflow before anything broader gets built.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen after broad backlog reconciliation because the live painting cluster still had a defensible first-project prioritization page even though `scripts/geo-prompts.json` had not yet caught up with the broader parent page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on first-project selection instead of drifting back into generic painting automation copy or rehashing the narrower estimate-follow-up child page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live painting cluster plus the published Paris Cafe phone-handling proof and the published e-commerce CRM/follow-up proof as honest support instead of pretending there is already a dedicated painting prioritization case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and low-hype: choose the most expensive leak, keep the first project bounded, prove value, then expand from real operating evidence."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T03:13:02.762Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "avgSentenceLength": 26.5,
+      "sentenceLengthRange": [
+        4,
+        52
+      ],
+      "totalWords": 318
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: What to Automate First for Painting Contractors\nBody: If your painting company knows it needs better automation, the safest first move is usually not a giant all-in-one system.",
+      "wordCount": 30,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help choosing the first painting workflow to automate?\nBody: Book a 30-minute call. We will look at where your company is leaking calls, lead speed, estimates, or past-client opportunities now, then recommend whether the first move should be missed-call recovery, instant response, estimate follow-up, or a retention workflow before anything broader gets built.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 22,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 9,
+      "commasPerSentence": 2
+    },
+    "vocabulary": {
+      "distinctWords": 165,
+      "totalWords": 318,
+      "topWords": [
+        [
+          "first",
+          15
+        ],
+        [
+          "painting",
+          13
+        ],
+        [
+          "workflow",
+          7
+        ],
+        [
+          "should",
+          6
+        ],
+        [
+          "automate",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "estimate",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "broader",
+          4
+        ],
+        [
+          "what",
+          3
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "instant",
+          3
+        ],
+        [
+          "lead",
+          3
+        ],
+        [
+          "response",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

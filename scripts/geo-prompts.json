@@ -1641,6 +1641,18 @@
       ]
     },
     {
+      "id": "what-to-automate-first-for-painting-contractors",
+      "path": "/what-to-automate-first-for-painting-contractors",
+      "label": "What to Automate First for Painting Contractors",
+      "prompts": [
+        "What should a painting contractor automate first?",
+        "What should I automate first in my painting company?",
+        "Should a painting contractor start with missed-call recovery or estimate follow-up?",
+        "Should a painting company automate lead response before referral campaigns?",
+        "How do I choose the first automation project for a painting business?"
+      ]
+    },
+    {
       "id": "ai-automation-cost-small-business",
       "path": "/ai-automation-cost-small-business",
       "label": "AI Automation Cost for Small Business",
