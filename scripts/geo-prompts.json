@@ -1456,8 +1456,20 @@
         "Missed call text-back for pest control companies",
         "How do pest control companies text back missed calls automatically?",
         "Best way to recover urgent pest control calls when techs are already on route",
-        "Should a pest control company use missed-call text-back or voicemail?",
+        "How should a pest control company hand urgent missed-call replies back to the office quickly?",
         "How can a pest control company stop losing urgent homeowner calls while the team is in the field?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-voicemail-for-pest-control-companies",
+      "path": "/missed-call-text-back-vs-voicemail-for-pest-control-companies",
+      "label": "Missed Call Text-Back vs. Voicemail for Pest Control Companies",
+      "prompts": [
+        "Missed call text-back vs voicemail for pest control companies",
+        "Should a pest control company use missed-call text-back or voicemail?",
+        "Is voicemail enough for a pest control company when urgent calls get missed?",
+        "When should a pest control company use missed-call text-back instead of voicemail and callbacks?",
+        "Best pest control missed-call recovery setup text-back or voicemail"
       ]
     },
     {

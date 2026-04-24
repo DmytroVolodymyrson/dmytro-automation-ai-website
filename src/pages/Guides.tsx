@@ -1114,6 +1114,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. Voicemail for Pest Control Companies",
+    description:
+      "Pest-control buyer guide for deciding when a simple SMS-first recovery layer is enough, when voicemail and callbacks are quietly leaking urgent homeowner demand, and when the company should move beyond both into live AI phone answering.",
+    href: "/missed-call-text-back-vs-voicemail-for-pest-control-companies",
+    category: "comparisons",
+  },
+  {
     title: "AI Automation for Auto Repair Shops",
     description:
       "AI automation for auto repair shops. Appointment scheduling, estimate follow-up, maintenance reminders, missed call text-back, and review automation.",
