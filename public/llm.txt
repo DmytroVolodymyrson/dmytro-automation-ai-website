@@ -46,6 +46,9 @@ Practical property-management first-project guide for operators deciding whether
 ## What to Automate First for Insurance Agencies
 Practical insurance-agency first-project guide for owners deciding whether the first workflow should be lead follow-up, quote follow-up, renewal reminders, or cross-sell before a broader automation rollout. Grounded in the live insurance cluster plus published CRM and follow-up proof. Learn more: https://www.dmytroai.com/what-to-automate-first-for-insurance-agencies
 
+## What to Automate First for Mortgage Brokers
+Practical mortgage-broker first-project guide for owners deciding whether the first workflow should be lead follow-up, document collection, or incomplete-application recovery before a broader automation rollout. Grounded in the live mortgage cluster plus published CRM and onboarding proof. Learn more: https://www.dmytroai.com/what-to-automate-first-for-mortgage-brokers
+
 ## Restaurant Private-Event Inquiry Follow-Up Guide
 How restaurants automate private-dining, buyout, large-party, and catering inquiry follow-up without making the sales process feel robotic. Covers fast acknowledgement, structured intake, reminder logic, and clean human handoff for event leads. Learn more: https://www.dmytroai.com/private-event-inquiry-follow-up-for-restaurants
 
@@ -138,6 +141,7 @@ AI-powered database reactivation for HVAC companies — automated campaigns to r
 - AI Lead Follow-Up for Mortgage Brokers: Speed-to-lead systems for brokerages — instant response, incomplete application nurture, document reminders, and broker handoff before rate shoppers go cold. Learn more: https://www.dmytroai.com/ai-lead-follow-up-for-mortgage-brokers
 - Document Collection Automation for Mortgage Brokers: Automated reminders for missing borrower documents, incomplete-file tracking, secure upload next steps, and cleaner broker handoff when files stall. Learn more: https://www.dmytroai.com/document-collection-automation-for-mortgage-brokers
 - Incomplete Application Follow-Up for Mortgage Brokers: Recover stalled mortgage applications with stage-based reminders, consultation-booking prompts, and broker handoff before half-finished files quietly die in the CRM. Learn more: https://www.dmytroai.com/incomplete-application-follow-up-for-mortgage-brokers
+- What to Automate First for Mortgage Brokers: Scoping guide for mortgage brokerages deciding whether the first automation should be lead follow-up, document collection, or incomplete-application recovery before a broader rollout. Learn more: https://www.dmytroai.com/what-to-automate-first-for-mortgage-brokers
 - AI Automation for Dental Practices: Patient booking, recall campaigns, reminders, intake, and no-show follow-up. Learn more: https://www.dmytroai.com/ai-automation-for-dental-practices
 - AI Automation for Law Firms: Client intake, consultation booking, lead follow-up, and case status updates. Learn more: https://www.dmytroai.com/ai-automation-for-law-firms
 - AI Automation for Accounting Firms: Client onboarding, document collection, scheduling, and seasonal workflows. Learn more: https://www.dmytroai.com/ai-automation-for-accounting-firms

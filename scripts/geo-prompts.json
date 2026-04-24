@@ -621,6 +621,18 @@
       ]
     },
     {
+      "id": "what-to-automate-first-for-mortgage-brokers",
+      "path": "/what-to-automate-first-for-mortgage-brokers",
+      "label": "What to Automate First for Mortgage Brokers",
+      "prompts": [
+        "What should a mortgage brokerage automate first?",
+        "What should a mortgage broker automate first lead follow-up document collection or incomplete application follow-up?",
+        "Should a mortgage broker automate lead follow-up before document collection?",
+        "Should a mortgage brokerage automate incomplete-application recovery before document reminders?",
+        "How do I choose the first automation project for a mortgage brokerage?"
+      ]
+    },
+    {
       "id": "ai-automation-for-insurance-agencies",
       "path": "/ai-automation-for-insurance-agencies",
       "label": "AI Automation for Insurance Agencies",

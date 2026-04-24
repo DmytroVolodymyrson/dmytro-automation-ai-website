@@ -66,6 +66,7 @@ import AiAutomationForMortgageBrokers from "./pages/AiAutomationForMortgageBroke
 import AiLeadFollowUpForMortgageBrokers from "./pages/AiLeadFollowUpForMortgageBrokers";
 import DocumentCollectionAutomationForMortgageBrokers from "./pages/DocumentCollectionAutomationForMortgageBrokers";
 import IncompleteApplicationFollowUpForMortgageBrokers from "./pages/IncompleteApplicationFollowUpForMortgageBrokers";
+import WhatToAutomateFirstForMortgageBrokers from "./pages/WhatToAutomateFirstForMortgageBrokers";
 import AiAutomationForDentalPractices from "./pages/AiAutomationForDentalPractices";
 import AiAutomationForLawFirms from "./pages/AiAutomationForLawFirms";
 import AiAutomationForAccountingFirms from "./pages/AiAutomationForAccountingFirms";
@@ -348,6 +349,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-lead-follow-up-for-mortgage-brokers", element: <AiLeadFollowUpForMortgageBrokers /> },
   { path: "/document-collection-automation-for-mortgage-brokers", element: <DocumentCollectionAutomationForMortgageBrokers /> },
   { path: "/incomplete-application-follow-up-for-mortgage-brokers", element: <IncompleteApplicationFollowUpForMortgageBrokers /> },
+  { path: "/what-to-automate-first-for-mortgage-brokers", element: <WhatToAutomateFirstForMortgageBrokers /> },
   { path: "/ai-automation-for-dental-practices", element: <AiAutomationForDentalPractices /> },
   { path: "/ai-automation-for-law-firms", element: <AiAutomationForLawFirms /> },
   { path: "/ai-automation-for-accounting-firms", element: <AiAutomationForAccountingFirms /> },

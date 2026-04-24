@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `what-to-automate-first-for-insurance-agencies` because the roadmap's top queued candidate still survived broad reconciliation cleanly. The live insurance parent plus its lead-follow-up, quote-follow-up, renewal, and cross-sell children already exposed a mature cluster, but there was still no page helping an agency owner choose which bounded workflow should come first. The new page stays distinct by framing the buyer decision one step earlier than the existing insurance child pages instead of rehashing any single workflow.)
+Last updated: 2026-04-24 (shipped `what-to-automate-first-for-mortgage-brokers` because the roadmap's top queued candidate still survived broad reconciliation cleanly. The live mortgage parent plus its lead-follow-up, document-collection, and incomplete-application children already exposed a mature cluster, but there was still no page helping a brokerage owner choose which bounded workflow should come first. The new page stays distinct by framing the buyer decision one step earlier than the existing mortgage child pages instead of rehashing any single workflow.)
 
 ## Live GEO Assets
 
@@ -68,6 +68,7 @@ Last updated: 2026-04-24 (shipped `what-to-automate-first-for-insurance-agencies
 | AI Lead Follow-Up for Mortgage Brokers | `/ai-lead-follow-up-for-mortgage-brokers` | Industry workflow page | Live |
 | Document Collection Automation for Mortgage Brokers | `/document-collection-automation-for-mortgage-brokers` | Industry workflow page | Live |
 | Incomplete Application Follow-Up for Mortgage Brokers | `/incomplete-application-follow-up-for-mortgage-brokers` | Industry workflow page | Live |
+| What to Automate First for Mortgage Brokers | `/what-to-automate-first-for-mortgage-brokers` | Mortgage first-project scoping page | Live |
 | AI Automation for Dental Practices | `/ai-automation-for-dental-practices` | Industry page | Live |
 | AI Automation for Law Firms | `/ai-automation-for-law-firms` | Industry page | Live |
 | AI Automation for Accounting Firms | `/ai-automation-for-accounting-firms` | Industry page | Live |
@@ -260,20 +261,20 @@ Last updated: 2026-04-24 (shipped `what-to-automate-first-for-insurance-agencies
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 234**
+**Total decision/comparison/industry pages live: 235**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/what-to-automate-first-for-insurance-agencies` closes the roadmap's clearest surviving insurance first-project gap. The insurance cluster now has the broad parent, a first-project scoping page, lead follow-up, quote follow-up, renewals, and cross-sell. The next run should not force another insurance child by inertia. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only come back to a same-cluster child if that broader audit still cannot surface a cleaner proof-backed net-new page.
+Shipping `/what-to-automate-first-for-mortgage-brokers` closes the roadmap's clearest surviving mortgage first-project gap. The mortgage cluster now has the broad parent, a first-project scoping page, lead follow-up, document collection, and incomplete-application recovery. The next run should not force another mortgage child by inertia. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only come back to a same-cluster child if that broader audit still cannot surface a cleaner proof-backed net-new page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued** | `what-to-automate-first-for-mortgage-brokers` | Brokers asking whether to start with lead follow-up, document collection, or incomplete-application recovery | The mortgage-broker cluster already has a strong parent plus three narrow workflow children, so a first-project scoping page is now the cleanest remaining process-selection candidate after the insurance page shipped. | **Best next content candidate** |
+| 1 | **Queued** | `what-to-automate-first-for-real-estate` | Team leads choosing between the already-live real-estate workflow families before funding a broader rollout | The real-estate cluster now has a strong parent plus lead-response and showing-coordination children, but it still lacks the earlier process-selection layer that helps an owner choose which workflow deserves the first build. | **Best next content candidate** |
 | 2 | **Queued fallback** | Review-request / reputation-closeout children in mature service verticals | Re-check whether another live parent still names a distinct review-request, post-service closeout, or reputation-protection workflow that can stand alone without cannibalizing the broader vertical page | Use this only if the next broad reconciliation cannot find a cleaner proof-backed first-project or workflow child elsewhere. | **Strong fallback** |
-| 3 | **Queued fallback** | `what-to-automate-first-for-real-estate` or another clean first-project child surfaced by fresh reconciliation | Owners choosing between the already-live workflow families inside a mature vertical cluster | If the broader audit surfaces another cluster with a clear parent plus several narrower child workflows but no process-selection layer yet, prefer that over inventing a weak adjacent page. | **Fallback if broader audit finds a cleaner first-project gap** |
+| 3 | **Queued fallback** | Another clean first-project child surfaced by fresh reconciliation | Owners choosing between the already-live workflow families inside a mature vertical cluster | If the broader audit surfaces another cluster with a clear parent plus several narrower child workflows but no process-selection layer yet, prefer that over inventing a weak adjacent page. | **Fallback if broader audit finds a cleaner first-project gap** |
 
 ### Priority Definitions
 

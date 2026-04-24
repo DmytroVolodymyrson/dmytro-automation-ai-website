@@ -785,6 +785,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Mortgage Brokers",
+    description:
+      "Scoping guide for mortgage brokerages deciding whether the first automation should be lead follow-up, document collection, or incomplete-application recovery before a broader rollout.",
+    href: "/what-to-automate-first-for-mortgage-brokers",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Dental Practices",
     description:
       "AI automation for dental practices. Patient booking, recall campaigns, appointment reminders, intake forms, and no-show follow-up.",
