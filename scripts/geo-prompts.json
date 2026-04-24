@@ -809,7 +809,19 @@
         "How can an auto parts brand automate lead follow-up and CRM workflows?",
         "How do I automate fitment inquiry follow-up for an auto parts store?",
         "How should an auto parts brand organize fitment, support, and lifecycle follow-up inside one CRM?",
-        "What AI workflows are actually worth automating first for an auto parts e-commerce brand?"
+        "How should an auto parts brand decide what the broader CRM and follow-up system should include after the first workflow is working?"
+      ]
+    },
+    {
+      "id": "what-to-automate-first-for-auto-parts-ecommerce",
+      "path": "/what-to-automate-first-for-auto-parts-ecommerce",
+      "label": "What to Automate First for Auto Parts E-Commerce",
+      "prompts": [
+        "What should an auto parts e-commerce brand automate first?",
+        "What AI workflows are actually worth automating first for an auto parts e-commerce brand?",
+        "Should an auto parts store start with inquiry routing, fitment intake, quote follow-up, or stale-lead recovery?",
+        "Best first automation for auto parts e-commerce",
+        "How should an auto parts brand prioritize inquiry handling, quotes, and stale leads before a bigger CRM build?"
       ]
     },
     {

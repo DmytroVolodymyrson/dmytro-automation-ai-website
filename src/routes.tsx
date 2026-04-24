@@ -101,6 +101,7 @@ import AfterHoursMaintenanceTriageForPropertyManagementCompanies from "./pages/A
 import EmergencyVsRoutineMaintenanceIntakeForPropertyManagementCompanies from "./pages/EmergencyVsRoutineMaintenanceIntakeForPropertyManagementCompanies";
 import AiAutomationEcommerce from "./pages/AiAutomationEcommerce";
 import AiAutomationForAutoPartsEcommerce from "./pages/AiAutomationForAutoPartsEcommerce";
+import WhatToAutomateFirstForAutoPartsEcommerce from "./pages/WhatToAutomateFirstForAutoPartsEcommerce";
 import CrmAutomationVsManualFollowUpForAutoPartsEcommerce from "./pages/CrmAutomationVsManualFollowUpForAutoPartsEcommerce";
 import FitmentInquiryAutomationForAutoPartsEcommerce from "./pages/FitmentInquiryAutomationForAutoPartsEcommerce";
 import CustomerInquiryAutomationForAutoPartsEcommerce from "./pages/CustomerInquiryAutomationForAutoPartsEcommerce";
@@ -307,6 +308,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/emergency-vs-routine-maintenance-intake-for-property-management-companies", element: <EmergencyVsRoutineMaintenanceIntakeForPropertyManagementCompanies /> },
   { path: "/ai-automation-ecommerce", element: <AiAutomationEcommerce /> },
   { path: "/ai-automation-for-auto-parts-ecommerce", element: <AiAutomationForAutoPartsEcommerce /> },
+  { path: "/what-to-automate-first-for-auto-parts-ecommerce", element: <WhatToAutomateFirstForAutoPartsEcommerce /> },
   {
     path: "/crm-automation-vs-manual-follow-up-for-auto-parts-ecommerce",
     element: <CrmAutomationVsManualFollowUpForAutoPartsEcommerce />,

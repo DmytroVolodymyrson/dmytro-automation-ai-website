@@ -918,6 +918,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Auto Parts E-Commerce",
+    description:
+      "Scoping guide for auto parts brands deciding whether the first workflow should be mixed inquiry routing, fitment intake, quote follow-up, or stale-lead recovery before a bigger CRM build.",
+    href: "/what-to-automate-first-for-auto-parts-ecommerce",
+    category: "industries",
+  },
+  {
     title: "E-Commerce CRM Automation with AI Follow-Up",
     description:
       "A narrower e-commerce buyer guide focused on CRM centralization, automated nurture, reply alerts, and the follow-up systems that stop inquiries and stale leads from getting lost.",

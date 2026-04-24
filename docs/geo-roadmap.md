@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped what-to-automate-first-for-roofing-companies after another proof-led reconciliation. The neat backlog was still exhausted, but the live roofing cluster still held one exact first-project scoping query inside the broader parent page: what the company should automate first. That query stayed materially distinct from the broader roofing page and the already-live estimate, scheduling, missed-call, and phone-answering child pages. The new page stays tightly on first-project prioritization — missed-call recovery, estimate follow-up, booked-job scheduling, or heavier live AI phone coverage — while using only honest support from the live roofing cluster plus published phone-handling and CRM proof.)
+Last updated: 2026-04-23 (shipped what-to-automate-first-for-auto-parts-ecommerce after another proof-led reconciliation. The neat backlog was still exhausted, but the live auto-parts cluster still held one exact first-project scoping query inside the broader parent page: what the brand should automate first. That query stayed materially distinct from the broader auto-parts page and the already-live inquiry-routing, fitment, quote-follow-up, and stale-lead child pages. The new page stays tightly on first-project prioritization — mixed inquiry routing, fitment intake, quote follow-up, or stale-lead recovery — while using direct WheelsFeels CRM proof plus the live cluster instead of pretending there is already a separate prioritization case study.)
 
 ## Live GEO Assets
 
@@ -103,6 +103,7 @@ Last updated: 2026-04-23 (shipped what-to-automate-first-for-roofing-companies a
 | Emergency vs. Routine Maintenance Intake for Property Management Companies | `/emergency-vs-routine-maintenance-intake-for-property-management-companies` | Property-management maintenance-intake decision page | Live |
 | AI Automation for E-Commerce Brands | `/ai-automation-ecommerce` | Industry page | Live |
 | AI Automation for Auto Parts E-Commerce | `/ai-automation-for-auto-parts-ecommerce` | Industry page | Live |
+| What to Automate First for Auto Parts E-Commerce | `/what-to-automate-first-for-auto-parts-ecommerce` | Auto-parts first-project scoping page | Live |
 | E-Commerce CRM Automation with AI Follow-Up | `/ecommerce-crm-automation-with-ai-follow-up` | Industry workflow page | Live |
 | E-Commerce CRM Automation vs. Manual Follow-Up | `/ecommerce-crm-automation-vs-manual-follow-up` | Industry decision page | Live |
 | CRM Automation vs. Manual Follow-Up for Auto Parts E-Commerce | `/crm-automation-vs-manual-follow-up-for-auto-parts-ecommerce` | Auto-parts CRM decision page | Live |
@@ -188,18 +189,18 @@ Last updated: 2026-04-23 (shipped what-to-automate-first-for-roofing-companies a
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 167**
+**Total decision/comparison/industry pages live: 168**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/roofing-scheduling-and-follow-up-automation` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters.
+Shipping `/what-to-automate-first-for-auto-parts-ecommerce` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Broad backlog reconciliation for one more proof-backed net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | The neat queue is still not trustworthy after the latest roofing booked-job workflow child shipped. The next run should search for any remaining page that is proof-backed, materially distinct, and not just another rephrasing of a live cluster. | **Default next action** |
+| 1 | **Fallback** | Broad backlog reconciliation for one more proof-backed net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | The neat queue is still not trustworthy after the latest auto-parts first-project scoping child shipped. The next run should search for any remaining page that is proof-backed, materially distinct, and not just another rephrasing of a live cluster. | **Default next action** |
 | 2 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, n8n, voice-agent, roofing, and HVAC clusters without filler | Use this only if another full reconciliation still finds no defensible proof-backed net-new page. | **Maintenance-only fallback** |
 | 3 | **Watchlist** | Proof-led watchlist for future late-backlog pages | Keep a short list of candidate queries that only become valid if new proof, a new case study, or a clearly distinct tracked prompt emerges | Prevents future cron runs from forcing stale queue items after the latest extracted child page shipped. | **Use when fresh proof appears** |
 
