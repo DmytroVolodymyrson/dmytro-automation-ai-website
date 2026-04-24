@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `client-reactivation-automation-for-painting-contractors` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The live painting cluster already had the broad parent, the first-project scoping page, the early-funnel lead-response child, the estimate-stage child, and the phone-recovery pages, but it still lacked the narrower retention workflow that the first-project page had been naming explicitly. The new page stays distinct by focusing on dormant past clients, repeat-project timing, referral nudges, and human handoff when old customers show new intent — instead of rehashing the broader painting parent, the early-funnel page, the estimate-follow-up page, or the phone pages.)
+Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-roofing-companies` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The live roofing cluster already had the broad parent, the first-project scoping page, the estimate-stage child, the booked-job scheduling child, and the phone-recovery pages, but it still lacked the narrower early-funnel lead-response workflow that the parent copy had been naming explicitly. The new page stays distinct by focusing on fresh inspection and storm-damage inquiries before the estimate exists — fast first response, short nurture, light qualification, and human handoff — instead of rehashing the broader roofing parent, the estimate-follow-up page, the scheduling page, or the phone pages.)
 
 ## Live GEO Assets
 
@@ -185,6 +185,7 @@ Last updated: 2026-04-24 (shipped `client-reactivation-automation-for-painting-c
 | AI Phone Answering vs. Voicemail for Med Spas | `/ai-phone-answering-vs-voicemail-for-med-spas` | Med-spa heavier phone-fallback decision page | Live |
 | AI Automation for Roofing Companies | `/ai-automation-for-roofing-companies` | Industry page | Live |
 | What to Automate First for Roofing Companies | `/what-to-automate-first-for-roofing-companies` | Roofing first-project scoping page | Live |
+| AI Lead Follow-Up for Roofing Companies | `/ai-lead-follow-up-for-roofing-companies` | Roofing early-funnel lead-response workflow page | Live |
 | Estimate Follow-Up Automation for Roofing Companies | `/estimate-follow-up-automation-for-roofing-companies` | Roofing workflow page | Live |
 | Roofing Scheduling and Follow-Up Automation | `/roofing-scheduling-and-follow-up-automation` | Roofing booked-job workflow page | Live |
 | Missed Call Text-Back for Roofing Companies | `/missed-call-text-back-for-roofing-companies` | Roofing phone-recovery workflow page | Live |
@@ -251,19 +252,19 @@ Last updated: 2026-04-24 (shipped `client-reactivation-automation-for-painting-c
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 225**
+**Total decision/comparison/industry pages live: 226**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/client-reactivation-automation-for-painting-contractors` appears to close the cleanest remaining painting-cluster gap from the latest broad audit. The next run should not force another same-cluster page by inertia. Reconcile the broader planning docs, live routes/pages, and `scripts/geo-prompts.json` again first and only ship the next page if another exact, still-distinct candidate survives that pass.
+Shipping `/ai-lead-follow-up-for-roofing-companies` closes the clearest remaining early-funnel gap inside the live roofing cluster. The next run should not force another roofing page by inertia. Reconcile the broader planning docs, live routes/pages, and `scripts/geo-prompts.json` again first and only ship the next page if another exact, still-distinct candidate survives that pass.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for the strongest still-unshipped planned or extracted child page across all clusters | Use this first now that the painting cluster has its broad parent, first-project guide, early-funnel, estimate, phone, and retention layers covered. | **Best next move** |
-| 2 | **Queued fallback** | Another proof-backed extracted child from a different live cluster | Ship the next exact workflow, setup, pricing, or decision page only if the next audit surfaces a materially distinct candidate with direct proof adjacency and cleaner separation than another painting follow-on | Prevents the roadmap from pretending a same-cluster page is automatically next when the cleaner opportunity may now be elsewhere. | **Depends on next broad audit** |
+| 1 | **Queued** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for the strongest still-unshipped planned or extracted child page across all clusters | Use this first now that the roofing cluster has its broad parent, first-project guide, early-funnel, estimate, scheduling, and phone layers covered. | **Best next move** |
+| 2 | **Queued fallback** | Another proof-backed extracted child from a different live cluster | Ship the next exact workflow, setup, pricing, or decision page only if the next audit surfaces a materially distinct candidate with direct proof adjacency and cleaner separation than another roofing follow-on | Prevents the roadmap from pretending a same-cluster page is automatically next when the cleaner opportunity may now be elsewhere. | **Depends on next broad audit** |
 | 3 | **Maintenance fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if the next broad audit still finds no defensible net-new page | Use only if the next reconciliation cannot find a distinct proof-backed page worth shipping. | **Use only if backlog is exhausted** |
 
 ### Priority Definitions

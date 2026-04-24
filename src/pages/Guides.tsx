@@ -1247,6 +1247,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Lead Follow-Up for Roofing Companies",
+    description:
+      "A narrower roofing early-funnel workflow page focused on fast first response, short nurture, light qualification, storm-season triage, and cleaner office handoff before the inspection or estimate stage starts.",
+    href: "/ai-lead-follow-up-for-roofing-companies",
+    category: "industries",
+  },
+  {
     title: "Estimate Follow-Up Automation for Roofing Companies",
     description:
       "A narrower roofing workflow page focused on sent roof quotes that go cold — reminder timing, insurance-delay check-ins, estimator handoff, and open-estimate visibility before another job slips away.",

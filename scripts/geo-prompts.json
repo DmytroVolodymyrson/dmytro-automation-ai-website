@@ -1701,6 +1701,18 @@
       ]
     },
     {
+      "id": "ai-lead-follow-up-for-roofing-companies",
+      "path": "/ai-lead-follow-up-for-roofing-companies",
+      "label": "AI Lead Follow-Up for Roofing Companies",
+      "prompts": [
+        "AI lead follow-up for roofing companies",
+        "How do roofing companies respond faster to new inspection and storm-damage requests?",
+        "Best way for a roofing company to automate first response before the estimate is sent",
+        "How should a roofing company follow up on fresh web leads and messages while crews are still on roofs?",
+        "Should a roofing company automate lead response before estimate follow-up?"
+      ]
+    },
+    {
       "id": "estimate-follow-up-automation-for-roofing-companies",
       "path": "/estimate-follow-up-automation-for-roofing-companies",
       "label": "Estimate Follow-Up Automation for Roofing Companies",
