@@ -1569,6 +1569,18 @@
       ]
     },
     {
+      "id": "what-to-automate-first-for-landscaping-companies",
+      "path": "/what-to-automate-first-for-landscaping-companies",
+      "label": "What to Automate First for Landscaping Companies",
+      "prompts": [
+        "What should a landscaping company automate first?",
+        "What should a landscaping company automate first missed calls estimate follow-up recurring service reminders or seasonal reactivation?",
+        "Should a landscaping company start with estimate follow-up or seasonal reactivation automation?",
+        "Should a landscaping company automate missed-call recovery before recurring service scheduling?",
+        "How do I choose the first automation project for my landscaping company?"
+      ]
+    },
+    {
       "id": "ai-automation-cost-small-business",
       "path": "/ai-automation-cost-small-business",
       "label": "AI Automation Cost for Small Business",

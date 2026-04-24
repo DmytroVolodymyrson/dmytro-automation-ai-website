@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped what-to-automate-first-for-property-management-companies after another proof-led reconciliation. The neat backlog is still exhausted, but the live property-management cluster still supported one materially distinct first-project scoping page: which workflow should come first — maintenance intake, lease renewals, showing coordination, or after-hours tenant communication. That page stays one level earlier than the broader property-management parent and the already-live child pages, while using the live property-management cluster plus published communication and CRM proof instead of pretending there is already a direct property-management prioritization case study.)
+Last updated: 2026-04-23 (shipped what-to-automate-first-for-landscaping-companies after another proof-led reconciliation. The neat backlog is still exhausted, but the live landscaping cluster still supported one materially distinct first-project scoping page: which workflow should come first — missed-call recovery, estimate follow-up, recurring service scheduling, or seasonal reactivation. That page stays one level earlier than the broader landscaping parent and uses the live landscaping page plus published phone-handling and CRM proof instead of pretending there is already a direct landscaping prioritization case study.)
 
 ## Live GEO Assets
 
@@ -176,6 +176,7 @@ Last updated: 2026-04-23 (shipped what-to-automate-first-for-property-management
 | AI Phone Answering for Auto Repair Shops | `/ai-phone-answering-for-auto-repair-shops` | Auto-repair live-phone-coverage workflow page | Live |
 | AI Phone Answering vs. Voicemail for Auto Repair Shops | `/ai-phone-answering-vs-voicemail-for-auto-repair-shops` | Auto-repair phone-fallback decision page | Live |
 | AI Automation for Landscaping Companies | `/ai-automation-for-landscaping-companies` | Industry page | Live |
+| What to Automate First for Landscaping Companies | `/what-to-automate-first-for-landscaping-companies` | Landscaping first-project scoping page | Live |
 | AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
 | AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
 | AI Automation Cost (SMB) | `/ai-automation-cost-small-business` | Authority page | Live |
@@ -191,18 +192,18 @@ Last updated: 2026-04-23 (shipped what-to-automate-first-for-property-management
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 170**
+**Total decision/comparison/industry pages live: 171**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/what-to-automate-first-for-property-management-companies` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters.
+Shipping `/what-to-automate-first-for-landscaping-companies` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Broad backlog reconciliation for one more proof-backed net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | The neat queue is still not trustworthy after the latest auto-parts first-project scoping child shipped. The next run should search for any remaining page that is proof-backed, materially distinct, and not just another rephrasing of a live cluster. | **Default next action** |
+| 1 | **Fallback** | Broad backlog reconciliation for one more proof-backed net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | The neat queue is still not trustworthy after the latest landscaping first-project scoping child shipped. The next run should search for any remaining page that is proof-backed, materially distinct, and not just another rephrasing of a live cluster. | **Default next action** |
 | 2 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, n8n, voice-agent, roofing, and HVAC clusters without filler | Use this only if another full reconciliation still finds no defensible proof-backed net-new page. | **Maintenance-only fallback** |
 | 3 | **Watchlist** | Proof-led watchlist for future late-backlog pages | Keep a short list of candidate queries that only become valid if new proof, a new case study, or a clearly distinct tracked prompt emerges | Prevents future cron runs from forcing stale queue items after the latest extracted child page shipped. | **Use when fresh proof appears** |
 

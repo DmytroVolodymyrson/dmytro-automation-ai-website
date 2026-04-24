@@ -1184,6 +1184,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Landscaping Companies",
+    description:
+      "Scoping guide for landscaping companies deciding whether the first automation should be missed-call recovery, estimate follow-up, recurring service scheduling, or seasonal reactivation before a broader rollout.",
+    href: "/what-to-automate-first-for-landscaping-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Painting Contractors",
     description:
       "AI automation for painting contractors. Lead follow-up, estimate follow-up, referral nurture, seasonal campaigns, and review automation.",
