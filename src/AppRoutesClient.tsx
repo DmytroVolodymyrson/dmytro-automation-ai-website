@@ -175,6 +175,7 @@ const WhatToAutomateFirstForLandscapingCompanies = lazy(() => import("./pages/Wh
 const MissedCallTextBackForLandscapingCompanies = lazy(() => import("./pages/MissedCallTextBackForLandscapingCompanies"));
 const MissedCallTextBackVsVoicemailForLandscapingCompanies = lazy(() => import("./pages/MissedCallTextBackVsVoicemailForLandscapingCompanies"));
 const MissedCallTextBackVsAiPhoneAnsweringForLandscapingCompanies = lazy(() => import("./pages/MissedCallTextBackVsAiPhoneAnsweringForLandscapingCompanies"));
+const AiPhoneAnsweringVsVoicemailForLandscapingCompanies = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForLandscapingCompanies"));
 const SeasonalReactivationAutomationForLandscapingCompanies = lazy(() => import("./pages/SeasonalReactivationAutomationForLandscapingCompanies"));
 const EstimateFollowUpAutomationForLandscapingCompanies = lazy(() => import("./pages/EstimateFollowUpAutomationForLandscapingCompanies"));
 const RecurringServiceSchedulingAndReminderAutomationForLandscapingCompanies = lazy(() => import("./pages/RecurringServiceSchedulingAndReminderAutomationForLandscapingCompanies"));
@@ -389,6 +390,7 @@ const AppRoutesClient = () => (
       <Route path="/estimate-follow-up-automation-for-landscaping-companies" element={<EstimateFollowUpAutomationForLandscapingCompanies />} />
       <Route path="/recurring-service-scheduling-and-reminder-automation-for-landscaping-companies" element={<RecurringServiceSchedulingAndReminderAutomationForLandscapingCompanies />} />
       <Route path="/ai-phone-answering-for-landscaping-companies" element={<AiPhoneAnsweringForLandscapingCompanies />} />
+      <Route path="/ai-phone-answering-vs-voicemail-for-landscaping-companies" element={<AiPhoneAnsweringVsVoicemailForLandscapingCompanies />} />
       <Route path="/seasonal-reactivation-automation-for-landscaping-companies" element={<SeasonalReactivationAutomationForLandscapingCompanies />} />
       <Route path="/ai-automation-for-painting-contractors" element={<AiAutomationForPaintingContractors />} />
       <Route path="/estimate-follow-up-automation-for-painting-contractors" element={<EstimateFollowUpAutomationForPaintingContractors />} />

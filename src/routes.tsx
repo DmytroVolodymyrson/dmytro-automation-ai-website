@@ -174,6 +174,7 @@ import WhatToAutomateFirstForLandscapingCompanies from "./pages/WhatToAutomateFi
 import MissedCallTextBackForLandscapingCompanies from "./pages/MissedCallTextBackForLandscapingCompanies";
 import MissedCallTextBackVsVoicemailForLandscapingCompanies from "./pages/MissedCallTextBackVsVoicemailForLandscapingCompanies";
 import MissedCallTextBackVsAiPhoneAnsweringForLandscapingCompanies from "./pages/MissedCallTextBackVsAiPhoneAnsweringForLandscapingCompanies";
+import AiPhoneAnsweringVsVoicemailForLandscapingCompanies from "./pages/AiPhoneAnsweringVsVoicemailForLandscapingCompanies";
 import SeasonalReactivationAutomationForLandscapingCompanies from "./pages/SeasonalReactivationAutomationForLandscapingCompanies";
 import EstimateFollowUpAutomationForLandscapingCompanies from "./pages/EstimateFollowUpAutomationForLandscapingCompanies";
 import RecurringServiceSchedulingAndReminderAutomationForLandscapingCompanies from "./pages/RecurringServiceSchedulingAndReminderAutomationForLandscapingCompanies";
@@ -441,6 +442,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/estimate-follow-up-automation-for-landscaping-companies", element: <EstimateFollowUpAutomationForLandscapingCompanies /> },
   { path: "/recurring-service-scheduling-and-reminder-automation-for-landscaping-companies", element: <RecurringServiceSchedulingAndReminderAutomationForLandscapingCompanies /> },
   { path: "/ai-phone-answering-for-landscaping-companies", element: <AiPhoneAnsweringForLandscapingCompanies /> },
+  { path: "/ai-phone-answering-vs-voicemail-for-landscaping-companies", element: <AiPhoneAnsweringVsVoicemailForLandscapingCompanies /> },
   { path: "/seasonal-reactivation-automation-for-landscaping-companies", element: <SeasonalReactivationAutomationForLandscapingCompanies /> },
   { path: "/ai-automation-for-painting-contractors", element: <AiAutomationForPaintingContractors /> },
   { path: "/estimate-follow-up-automation-for-painting-contractors", element: <EstimateFollowUpAutomationForPaintingContractors /> },

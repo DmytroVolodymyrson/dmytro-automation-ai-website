@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `missed-call-text-back-vs-ai-phone-answering-for-landscaping-companies` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes, and `scripts/geo-prompts.json`. The landscaping cluster still had a clean buyer-decision gap even after the live-answering explainer shipped: the broader parent, first-project guide, lighter missed-call page, lighter voicemail comparison, estimate-recovery page, recurring-service page, seasonal-reactivation page, and the heavier live-answering explainer were already live, but the exact choice between the lighter SMS-first layer and the heavier live-answering layer was still missing. The new page stays distinct by focusing only on that buyer decision: when a landscaping company should stay with missed-call text-back, when live AI phone answering is worth the heavier build, and why that is a different question from either the lighter fallback page or the live-answering explainer. Proof framing stays honest through the live landscaping cluster, the generic phone-answering guide, and the Paris Cafe call-handling case study.)
+Last updated: 2026-04-24 (shipped `ai-phone-answering-vs-voicemail-for-landscaping-companies` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes, and `scripts/geo-prompts.json`. This closed the remaining heavier fallback choice inside the landscaping phone cluster: the broader parent, first-project guide, lighter missed-call page, lighter voicemail comparison, lighter-vs-heavier comparison, estimate-recovery page, recurring-service page, seasonal-reactivation page, and the live-answering explainer were already live, but the exact decision between keeping voicemail/callbacks and moving to live AI phone answering was still missing. The new page stays distinct by focusing only on that buyer decision: when voicemail is still acceptable, when live AI phone answering is worth the heavier build, and why that is a different question from both the lighter fallback page and the broader live-answering explainer. Proof framing stays honest through the live landscaping cluster, the generic phone-answering guide, and the Paris Cafe call-handling case study.)
 
 ## Live GEO Assets
 
@@ -188,6 +188,7 @@ Last updated: 2026-04-24 (shipped `missed-call-text-back-vs-ai-phone-answering-f
 | Recurring Service Scheduling and Reminder Automation for Landscaping Companies | `/recurring-service-scheduling-and-reminder-automation-for-landscaping-companies` | Landscaping recurring-service operations workflow page | Live |
 | Seasonal Reactivation Automation for Landscaping Companies | `/seasonal-reactivation-automation-for-landscaping-companies` | Landscaping seasonal retention workflow page | Live |
 | AI Phone Answering for Landscaping Companies | `/ai-phone-answering-for-landscaping-companies` | Landscaping live-phone-coverage workflow page | Live |
+| AI Phone Answering vs. Voicemail for Landscaping Companies | `/ai-phone-answering-vs-voicemail-for-landscaping-companies` | Landscaping phone-fallback decision page | Live |
 | Missed Call Text-Back vs. AI Phone Answering for Landscaping Companies | `/missed-call-text-back-vs-ai-phone-answering-for-landscaping-companies` | Landscaping phone-recovery decision page | Live |
 | AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
 | Estimate Follow-Up Automation for Painting Contractors | `/estimate-follow-up-automation-for-painting-contractors` | Painting estimate-recovery workflow page | Live |
@@ -216,19 +217,19 @@ Last updated: 2026-04-24 (shipped `missed-call-text-back-vs-ai-phone-answering-f
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 194**
+**Total decision/comparison/industry pages live: 195**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/missed-call-text-back-vs-ai-phone-answering-for-landscaping-companies` closes the clean lighter-vs-heavier phone-choice gap inside the landscaping cluster. The next run should still re-check broad planning docs first, but the most plausible immediate landscaping follow-up is now the remaining heavier-fallback comparison if it still survives distinct-intent scrutiny after another audit.
+Shipping `/ai-phone-answering-vs-voicemail-for-landscaping-companies` closes the obvious remaining landscaping phone-gap. The next run should still re-check broad planning docs first, but the queue is now an honest fallback/watchlist state rather than another stale landscaping placeholder.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | `ai-phone-answering-vs-voicemail-for-landscaping-companies` | Landscaping owners deciding when voicemail/callback is still enough versus when they should move to live AI phone answering | Still a plausible remaining landscaping phone decision because it isolates the heavier fallback choice itself rather than the lighter-versus-heavier comparison that just shipped. | **Best next candidate** |
-| 2 | **Fallback** | Broad backlog reconciliation for one more proof-backed net-new page anywhere outside the landscaping phone cluster | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | Prefer this if the remaining landscaping voicemail comparison now looks too thin or too close to the just-shipped page. | **Default backup** |
+| 1 | **Fallback** | Broad backlog reconciliation for one more proof-backed net-new page outside the landscaping phone cluster | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | Landscaping phone coverage is now cleanly filled; the next ship should come from a different cluster unless another broad audit surfaces a better remaining edge case. | **Best next candidate** |
+| 2 | **Fallback** | Proof-backed late-backlog child page in another live cluster | Prioritize any still-distinct workflow, setup-help, pricing, or phone-decision child page that survives intent scrutiny after the broad audit | Use this if the audit surfaces an exact remaining buyer query in another live cluster rather than defaulting to maintenance. | **Backup if found** |
 | 3 | **Maintenance fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if no clean net-new page survives the broad audit | Use only if another full reconciliation genuinely shows no defensible planned page left to ship. | **Only if backlog is exhausted** |
 
 ### Priority Definitions

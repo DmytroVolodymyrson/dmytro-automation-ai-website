@@ -1261,6 +1261,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering vs. Voicemail for Landscaping Companies",
+    description:
+      "Landscaping buyer guide for deciding when live AI phone coverage is worth replacing voicemail and callbacks, when voicemail is still acceptable, and when missed-call text-back is the smarter middle step.",
+    href: "/ai-phone-answering-vs-voicemail-for-landscaping-companies",
+    category: "comparisons",
+  },
+  {
     title: "Recurring Service Scheduling and Reminder Automation for Landscaping Companies",
     description:
       "A narrower landscaping workflow page focused on weekly and biweekly service confirmations, skip requests, weather-delay updates, route-change communication, and cleaner office-to-field handoff after recurring work is already sold.",
