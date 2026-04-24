@@ -1449,6 +1449,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-for-pest-control-companies",
+      "path": "/missed-call-text-back-for-pest-control-companies",
+      "label": "Missed Call Text-Back for Pest Control Companies",
+      "prompts": [
+        "Missed call text-back for pest control companies",
+        "How do pest control companies text back missed calls automatically?",
+        "Best way to recover urgent pest control calls when techs are already on route",
+        "Should a pest control company use missed-call text-back or voicemail?",
+        "How can a pest control company stop losing urgent homeowner calls while the team is in the field?"
+      ]
+    },
+    {
       "id": "ai-automation-for-auto-repair-shops",
       "path": "/ai-automation-for-auto-repair-shops",
       "label": "AI Automation for Auto Repair Shops",

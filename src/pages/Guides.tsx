@@ -1107,6 +1107,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back for Pest Control Companies",
+    description:
+      "SMS-first recovery for pest control companies that miss urgent homeowner calls while techs are on route — immediate text-back, callback triage, and a lighter fallback before live answering.",
+    href: "/missed-call-text-back-for-pest-control-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Auto Repair Shops",
     description:
       "AI automation for auto repair shops. Appointment scheduling, estimate follow-up, maintenance reminders, missed call text-back, and review automation.",

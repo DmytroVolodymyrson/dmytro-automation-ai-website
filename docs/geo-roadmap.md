@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped missed-call-text-back-for-home-inspectors after another proof-led reconciliation. The neat backlog is still exhausted, but the live home-inspector parent still supported one more materially distinct child page: the narrow missed-call recovery layer that protects agent referrals and buyer inquiries while the inspector is still on-site. The page stays tighter than the broader home-inspector parent and uses the live parent plus adjacent phone-handling and transaction-speed proof instead of pretending there is already a direct home-inspector case study.)
+Last updated: 2026-04-23 (shipped missed-call-text-back-for-pest-control-companies after another proof-led reconciliation. The neat backlog is still exhausted, but the thin live pest-control parent still supported one more materially distinct child page: the narrow missed-call recovery layer that protects urgent homeowner demand while techs are already on route. The page stays tighter than the broader pest-control parent and uses the live parent plus adjacent phone-handling and home-service sibling proof instead of pretending there is already a direct pest-control case study.)
 
 ## Live GEO Assets
 
@@ -165,6 +165,7 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-for-home-inspectors afte
 | Missed Call Text-Back vs. Voicemail for Roofing Companies | `/missed-call-text-back-vs-voicemail-for-roofing-companies` | Roofing lighter-fallback decision page | Live |
 | AI Phone Answering vs. Voicemail for Roofing Companies | `/ai-phone-answering-vs-voicemail-for-roofing-companies` | Roofing phone-fallback decision page | Live |
 | AI Automation for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Industry page | Live |
+| Missed Call Text-Back for Pest Control Companies | `/missed-call-text-back-for-pest-control-companies` | Pest-control phone-recovery workflow page | Live |
 | AI Automation for Auto Repair Shops | `/ai-automation-for-auto-repair-shops` | Industry page | Live |
 | What to Automate First for Auto Repair Shops | `/what-to-automate-first-for-auto-repair-shops` | Auto-repair first-project scoping page | Live |
 | Maintenance Reminder Automation for Auto Repair Shops | `/maintenance-reminder-automation-for-auto-repair-shops` | Auto-repair retention workflow page | Live |
@@ -199,14 +200,14 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-for-home-inspectors afte
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 177**
+**Total decision/comparison/industry pages live: 178**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/missed-call-text-back-for-home-inspectors` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters. Thin live parent clusters like pest control may still hide a valid child page, but only if the query stays proof-backed and materially distinct.
+Shipping `/missed-call-text-back-for-pest-control-companies` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters. The next likely wins are still other thin live parent clusters or tightly bounded child workflows, but only if the query stays proof-backed and materially distinct.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|

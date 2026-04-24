@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-missed-call-text-back-for-pest-control-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back for Pest Control Companies\nBody: Pest control calls are usually urgent. Homeowners with ants, wasps, rodents, termites, or another active issue do not want to leave a voicemail and hope someone checks it later. They call until someone responds. This page ships the lighter fallback layer between passive voicemail and heavier live phone answering: when the call is missed, a useful text goes out immediately, the caller gets a clear next step, and the office gets enough context to call back fast. The page stays tightly on first-response recovery for route-heavy pest-control teams instead of rehashing the whole parent automation stack.\nSub: Below: what pest-control missed-call text-back should actually handle, how it stays distinct from the broader parent page, what adjacent proof honestly supports it, and when the business should move beyond SMS-first recovery into heavier live answering.\n\n### Core sections\n- Extracts the clearest child workflow already implied by the live pest-control parent page: urgent missed-call recovery while techs are on route and the office cannot answer every call.\n- Keeps the frame tightly on pest-control realities: same-day urgency, homeowner anxiety, route-heavy crews, callback ownership, and the point where voicemail is too slow to protect the job.\n- Preserves clear separation from `/ai-automation-for-pest-control-companies`, `/missed-call-follow-up-automation`, `/instant-lead-response-automation`, and `/ai-phone-answering-for-service-businesses` by isolating the narrow phone-only fallback layer after a specific missed call.\n- Uses the pest-control parent page, the Paris Cafe call-handling case study, and already-live home-service sibling phone-recovery pages as adjacent proof without pretending there is already a direct pest-control-only missed-call text-back case study.\n\n### FAQ\nSubhead: Straight answers for pest-control owners deciding whether SMS-first missed-call recovery is enough\nTopics: when missed-call text-back is enough, what the first pest-control text should say, how the page differs from the broader pest-control parent, what a focused build usually costs, and when the team should skip text-back and move to live answering.\n\n### Final CTA\nHeading: Need a practical answer on missed-call recovery for your pest control company?\nBody: Book a 30-minute call. We will look at your missed-call pattern, whether voicemail is quietly costing urgent jobs, and whether the next step should be a focused text-back workflow, heavier live answering, or no phone automation right now.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the roadmap explicitly said the neat backlog was exhausted and thin live parent clusters like pest control might still hide one more proof-backed child page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The live pest-control parent already named missed-call text-back as one of the clearest workflows in the cluster, making this a safer extraction than inventing a new unsupported angle."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype with explicit fit / not-fit framing, urgent-service context, and clear boundaries around what text-back should and should not try to do."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays disciplined: live parent page, direct phone-handling proof from Paris Cafe, and already-live home-service sibling workflow pages."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T03:35:04.952Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 26.1,
+      "sentenceLengthRange": [
+        5,
+        54
+      ],
+      "totalWords": 365
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Missed Call Text-Back for Pest Control Companies\nBody: Pest control calls are usually urgent.",
+      "wordCount": 16,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a practical answer on missed-call recovery for your pest control company?\nBody: Book a 30-minute call. We will look at your missed-call pattern, whether voicemail is quietly costing urgent jobs, and whether the next step should be a focused text-back workflow, heavier live answering, or no phone automation right now.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 13,
+      "commas": 27,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 11,
+      "commasPerSentence": 1.93
+    },
+    "vocabulary": {
+      "distinctWords": 201,
+      "totalWords": 365,
+      "topWords": [
+        [
+          "pest-control",
+          8
+        ],
+        [
+          "call",
+          7
+        ],
+        [
+          "missed-call",
+          7
+        ],
+        [
+          "text-back",
+          6
+        ],
+        [
+          "page",
+          6
+        ],
+        [
+          "live",
+          5
+        ],
+        [
+          "recovery",
+          5
+        ],
+        [
+          "parent",
+          5
+        ],
+        [
+          "should",
+          5
+        ],
+        [
+          "voicemail",
+          4
+        ],
+        [
+          "answering",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "missed",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
