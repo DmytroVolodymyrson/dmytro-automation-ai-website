@@ -1023,6 +1023,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Chiropractors",
+    description:
+      "Scoping guide for chiropractors deciding whether the first workflow should be missed-call recovery, intake and scheduling, care-plan recall, no-show reduction, or after-hours call handling before a bigger automation build.",
+    href: "/what-to-automate-first-for-chiropractors",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Cleaning Companies",
     description:
       "AI automation for cleaning companies. Lead follow-up, quote follow-up, missed call text-back, scheduling, client reactivation, and review automation.",

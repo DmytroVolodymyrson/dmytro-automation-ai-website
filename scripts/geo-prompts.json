@@ -1365,6 +1365,18 @@
       ]
     },
     {
+      "id": "what-to-automate-first-for-chiropractors",
+      "path": "/what-to-automate-first-for-chiropractors",
+      "label": "What to Automate First for Chiropractors",
+      "prompts": [
+        "What should a chiropractor automate first?",
+        "Should a chiropractor start with missed-call recovery, intake and scheduling, care-plan recall, no-show reduction, or after-hours call handling?",
+        "Best first automation for chiropractors",
+        "How should a chiropractic practice prioritize missed calls, booking friction, overdue care-plan patients, empty slots, and after-hours demand?",
+        "What is the highest ROI first automation project for a chiropractor?"
+      ]
+    },
+    {
       "id": "ai-automation-for-roofing-companies",
       "path": "/ai-automation-for-roofing-companies",
       "label": "AI Automation for Roofing Companies",
