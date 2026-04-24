@@ -1100,6 +1100,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Lead Follow-Up for Cleaning Companies",
+    description:
+      "A narrower cleaning-company early-funnel page focused on web leads, ad leads, and new quote requests — fast first response, short nurture, light qualification, and owner handoff before the estimate stage starts.",
+    href: "/ai-lead-follow-up-for-cleaning-companies",
+    category: "industries",
+  },
+  {
     title: "Quote Follow-Up Automation for Cleaning Companies",
     description:
       "A narrower cleaning-company quote-stage page focused on sent estimates that go cold — reminder timing, objection-aware messaging, owner handoff, and stale-quote visibility before another job quietly dies.",

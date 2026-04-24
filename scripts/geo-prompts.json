@@ -1347,9 +1347,21 @@
       "prompts": [
         "What should a cleaning company automate first?",
         "Best first automation for cleaning company",
-        "How should a cleaning company prioritize web leads, missed calls, sent quotes, and repeat bookings?",
+        "How should a cleaning company prioritize new lead response, missed calls, sent quotes, and repeat bookings before a broader office-system build?",
         "Which cleaning-company workflow should come first before building a broader office system?",
         "What is the highest ROI first automation project for a cleaning company?"
+      ]
+    },
+    {
+      "id": "ai-lead-follow-up-for-cleaning-companies",
+      "path": "/ai-lead-follow-up-for-cleaning-companies",
+      "label": "AI Lead Follow-Up for Cleaning Companies",
+      "prompts": [
+        "AI lead follow-up for cleaning companies",
+        "How do cleaning companies follow up with web leads faster?",
+        "Best way for a cleaning company to respond to new quote requests before the lead goes cold",
+        "Should a cleaning company automate web lead follow-up before quote reminders or repeat-booking campaigns?",
+        "How do I stop cleaning website leads from sitting too long before someone replies?"
       ]
     },
     {

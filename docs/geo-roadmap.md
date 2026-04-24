@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `missed-call-text-back-vs-ai-phone-answering-for-chiropractors` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The live chiropractic cluster already had the broad parent, the first-project scoping page, the lighter missed-call workflow, the lighter voicemail-vs-text-back decision, and the heavier live-answering explainer plus voicemail comparison. One clean buyer-decision gap still remained: whether SMS-first recovery is enough or whether the practice now needs live AI phone coverage. The new page stays distinct by focusing on that exact lighter-vs-heavier choice — front-desk overload, caller expectations, after-hours demand, and phone-layer economics — instead of rehashing the broader chiropractic parent or the existing lighter/heavier sibling pages.)
+Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-cleaning-companies` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The live cleaning-company cluster already had the broad parent, the first-project scoping page, the quote-stage child, the phone-recovery pages, and the retention child. One clean workflow gap still remained inside the first-project prompt set: slow response to fresh web leads and new quote requests before the estimate stage even starts. The new page stays distinct by focusing on that exact early-funnel response layer — fast first reply, short nurture, light qualification, and human handoff on fresh inquiries — instead of rehashing the broader cleaning parent, the quote-stage page, or the phone pages.)
 
 ## Live GEO Assets
 
@@ -164,6 +164,7 @@ Last updated: 2026-04-24 (shipped `missed-call-text-back-vs-ai-phone-answering-f
 | Missed Call Text-Back vs. Voicemail for Chiropractors | `/missed-call-text-back-vs-voicemail-for-chiropractors` | Chiropractic lighter-fallback decision page | Live |
 | AI Automation for Cleaning Companies | `/ai-automation-for-cleaning-companies` | Industry page | Live |
 | What to Automate First for Cleaning Companies | `/what-to-automate-first-for-cleaning-companies` | Cleaning first-project scoping page | Live |
+| AI Lead Follow-Up for Cleaning Companies | `/ai-lead-follow-up-for-cleaning-companies` | Cleaning early-funnel web-lead response workflow page | Live |
 | Quote Follow-Up Automation for Cleaning Companies | `/quote-follow-up-automation-for-cleaning-companies` | Cleaning quote-stage workflow page | Live |
 | Missed Call Text-Back for Cleaning Companies | `/missed-call-text-back-for-cleaning-companies` | Cleaning phone-recovery workflow page | Live |
 | AI Phone Answering for Cleaning Companies | `/ai-phone-answering-for-cleaning-companies` | Cleaning live-phone-coverage workflow page | Live |
@@ -248,18 +249,18 @@ Last updated: 2026-04-24 (shipped `missed-call-text-back-vs-ai-phone-answering-f
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 222**
+**Total decision/comparison/industry pages live: 223**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/missed-call-text-back-vs-ai-phone-answering-for-chiropractors` extracted the cleanest remaining buyer-decision query that survived the broader audit: the live chiropractic cluster already covered the broad parent, first-project scoping, the lighter missed-call workflow, the lighter voicemail comparison, and the heavier live-answering pages, but it still lacked the exact lighter-vs-heavier phone-layer choice itself. After that ship, the safest next move is another broad repo-wide reconciliation instead of forcing one more chiropractic follow-on by inertia. If another candidate still survives cleanly, it should beat maintenance on distinct intent and proof fit across the whole planning set — not just because it lives near the chiropractic cluster.
+Shipping `/ai-lead-follow-up-for-cleaning-companies` extracted the cleanest remaining workflow gap that survived the broader audit: the live cleaning-company cluster already covered the broad parent, first-project scoping, the quote-stage child, the phone-recovery pages, and the retention child, but it still lacked the exact early-funnel response layer named in the first-project prompts. After that ship, the safest next move is another broad repo-wide reconciliation instead of forcing one more cleaning-cluster follow-on by inertia. If another candidate still survives cleanly, it should beat maintenance on distinct intent and proof fit across the whole planning set — not just because it lives near the cleaning cluster.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for any still-distinct planned page that is not already live and does not collapse into an existing cluster | After shipping the missing med-spa early-funnel child, the safest next step is another fresh repo-wide audit rather than assuming the same cluster still has the best remaining page. | **Do next** |
+| 1 | **Queued** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for any still-distinct planned page that is not already live and does not collapse into an existing cluster | After shipping the missing cleaning early-funnel child, the safest next step is another fresh repo-wide audit rather than assuming the same cluster still has the best remaining page. | **Do next** |
 | 2 | **Maintenance fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if another broad audit still finds no defensible net-new page | Use only if the next reconciliation still cannot find a distinct proof-backed page worth shipping. | **Use only if backlog is exhausted** |
 | 3 | **Proof-led watchlist** | Remaining child pages only if a future audit still surfaces an exact surviving query inside a live cluster | A later run may still uncover one more clean child page from an existing parent or first-project prompt set, but it should survive the full planning set explicitly instead of being inferred from cluster momentum. | Keep the next run honest if the backlog is genuinely getting thin. | **Do not force without a fresh audit** |
 
