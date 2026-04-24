@@ -1852,7 +1852,7 @@
         "AI automation for pest control companies",
         "How should a pest control company prioritize missed-call recovery, recurring-service management, seasonal campaigns, and quote follow-up before a bigger automation build?",
         "Best AI automation for pest control companies that miss inbound calls",
-        "How should a pest control company connect missed-call recovery, renewal reminders, quote follow-up, and review asks into one operating system?",
+        "How should a pest control company connect missed-call recovery, renewal reminders, quote follow-up, and post-service follow-through into one operating system?",
         "What should the full automation stack for a pest control company include once the first workflow is working?"
       ]
     },
@@ -1914,6 +1914,18 @@
         "Best way to recover open pest-control quotes after pricing is sent",
         "How should a pest control company automate follow-up on termite, wildlife, or one-time treatment quotes?",
         "What is the best way to stop pest-control quotes from going cold after the inspection or pricing step?"
+      ]
+    },
+    {
+      "id": "review-request-automation-for-pest-control-companies",
+      "path": "/review-request-automation-for-pest-control-companies",
+      "label": "Review Request Automation for Pest Control Companies",
+      "prompts": [
+        "Review request automation for pest control companies",
+        "How do pest control companies ask for Google reviews automatically after service?",
+        "Best way to automate review requests for pest control jobs without annoying homeowners",
+        "When should a pest control company ask for reviews after a treatment is completed?",
+        "How should a pest control company route unhappy post-service replies before sending a public review link?"
       ]
     },
     {

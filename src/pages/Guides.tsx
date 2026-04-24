@@ -1373,6 +1373,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Review Request Automation for Pest Control Companies",
+    description:
+      "Post-service reputation workflow for pest control companies that want cleaner review timing, unhappy-customer routing, and technician-to-office handoff after completed jobs instead of manual review chasing.",
+    href: "/review-request-automation-for-pest-control-companies",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Pest Control Companies",
     description:
       "Live call coverage for pest control companies that keep losing urgent homeowner calls to voicemail or delayed callbacks — routine intake, after-hours answer coverage, office relief, and clear human handoff.",

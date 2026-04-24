@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `what-to-automate-first-for-hvac-companies` after fresh reconciliation pointed back to the roadmap's "another clean first-project child" fallback. The HVAC cluster already had a broad parent plus narrower children for lead follow-up, missed-call recovery, booked-job scheduling, and heavier phone coverage, but it still lacked the earlier buyer-decision page that helps an owner choose which bounded workflow should come first. The new page stays distinct by framing the first-project decision one step earlier than the existing HVAC child pages instead of rehashing any single workflow.)
+Last updated: 2026-04-24 (shipped `review-request-automation-for-pest-control-companies` after fresh reconciliation confirmed the roadmap's review-request / reputation-closeout fallback was still the cleanest remaining gap. The pest-control cluster already had the broad parent plus first-project, recurring-retention, quote-stage, and phone-layer children live, but it still lacked the narrower post-service review workflow that protects reputation after completed jobs. The new page stays distinct by framing the buyer decision around completed-service closeout, review timing, and internal recovery of unhappy replies instead of rehashing earlier lead, quote, retention, or phone stages.)
 
 ## Live GEO Assets
 
@@ -203,6 +203,7 @@ Last updated: 2026-04-24 (shipped `what-to-automate-first-for-hvac-companies` af
 | Seasonal Campaign Automation for Pest Control Companies | `/seasonal-campaign-automation-for-pest-control-companies` | Pest-control seasonal outreach / reactivation workflow page | Live |
 | Urgent Lead Follow-Up for Pest Control Companies | `/urgent-lead-follow-up-for-pest-control-companies` | Pest-control early-funnel lead-follow-up workflow page | Live |
 | Quote Follow-Up Automation for Pest Control Companies | `/quote-follow-up-automation-for-pest-control-companies` | Pest-control quote-stage workflow page | Live |
+| Review Request Automation for Pest Control Companies | `/review-request-automation-for-pest-control-companies` | Pest-control post-service reputation workflow page | Live |
 | AI Phone Answering for Pest Control Companies | `/ai-phone-answering-for-pest-control-companies` | Pest-control live-phone-coverage workflow page | Live |
 | AI Phone Answering vs. Voicemail for Pest Control Companies | `/ai-phone-answering-vs-voicemail-for-pest-control-companies` | Pest-control phone-fallback decision page | Live |
 | Missed Call Text-Back for Pest Control Companies | `/missed-call-text-back-for-pest-control-companies` | Pest-control phone-recovery workflow page | Live |
@@ -263,18 +264,18 @@ Last updated: 2026-04-24 (shipped `what-to-automate-first-for-hvac-companies` af
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 237**
+**Total decision/comparison/industry pages live: 238**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/what-to-automate-first-for-hvac-companies` closes the clearest surviving HVAC first-project gap that surfaced during fresh reconciliation. The HVAC cluster now has the broad parent, a first-project scoping page, lead-response coverage, booked-job scheduling coverage, and heavier phone-layer decision pages. The next run should not force another HVAC child by inertia. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only come back to a same-cluster child if that broader audit still cannot surface a cleaner proof-backed net-new page.
+Shipping `/review-request-automation-for-pest-control-companies` validates the roadmap's review-request / reputation-closeout fallback. The pest-control cluster already had the broad parent, a first-project scoping page, recurring-retention coverage, quote-stage coverage, and mature phone-layer pages live, so the cleanest remaining gap was the narrower post-service reputation workflow after completed jobs. The next run should still do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; do not force another pest-control sibling by inertia just because this cluster shipped well.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued fallback** | Review-request / reputation-closeout children in mature service verticals | Owners trying to protect completed jobs, testimonials, and reputation signals after service delivery | Broad reconciliation still suggests post-service closeout pages may be the cleanest remaining gap now that another strong first-project child has been shipped. | **Best next content candidate after fresh audit** |
+| 1 | **Queued fallback** | Review-request / reputation-closeout child in another mature service vertical (HVAC strongest current fallback) | Owners trying to protect completed jobs, local trust, and review volume after service delivery | HVAC still has the broad parent, first-project page, scheduling, lead, reactivation, and phone layers live, plus direct adjacent proof, but no narrow post-service reputation-closeout child yet. | **Best next content candidate after fresh audit** |
 | 2 | **Queued fallback** | Another clean first-project child surfaced by fresh reconciliation | Owners choosing between already-live workflow families inside a mature vertical cluster | If the broader audit surfaces another cluster with a clear parent plus several narrower child workflows but no process-selection layer yet, prefer that over inventing a weak adjacent page. | **Strong fallback** |
 | 3 | **Watchlist** | Real-estate CRM cleanup / past-client reactivation child pages | Real-estate teams deciding whether database cleanup or sphere reactivation deserves its own narrower workflow page | Only revisit the real-estate cluster if broader reconciliation cannot find a cleaner proof-backed page elsewhere and one of these parent-level workflows still survives as a materially distinct child. | **Re-check later; do not force next** |
 

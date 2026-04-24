@@ -192,6 +192,7 @@ import RecurringServiceReminderAutomationForPestControlCompanies from "./pages/R
 import SeasonalCampaignAutomationForPestControlCompanies from "./pages/SeasonalCampaignAutomationForPestControlCompanies";
 import UrgentLeadFollowUpForPestControlCompanies from "./pages/UrgentLeadFollowUpForPestControlCompanies";
 import QuoteFollowUpAutomationForPestControlCompanies from "./pages/QuoteFollowUpAutomationForPestControlCompanies";
+import ReviewRequestAutomationForPestControlCompanies from "./pages/ReviewRequestAutomationForPestControlCompanies";
 import AiPhoneAnsweringForPestControlCompanies from "./pages/AiPhoneAnsweringForPestControlCompanies";
 import MissedCallTextBackForPestControlCompanies from "./pages/MissedCallTextBackForPestControlCompanies";
 import MissedCallTextBackVsVoicemailForPestControlCompanies from "./pages/MissedCallTextBackVsVoicemailForPestControlCompanies";
@@ -503,6 +504,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/seasonal-campaign-automation-for-pest-control-companies", element: <SeasonalCampaignAutomationForPestControlCompanies /> },
   { path: "/urgent-lead-follow-up-for-pest-control-companies", element: <UrgentLeadFollowUpForPestControlCompanies /> },
   { path: "/quote-follow-up-automation-for-pest-control-companies", element: <QuoteFollowUpAutomationForPestControlCompanies /> },
+  { path: "/review-request-automation-for-pest-control-companies", element: <ReviewRequestAutomationForPestControlCompanies /> },
   { path: "/ai-phone-answering-for-pest-control-companies", element: <AiPhoneAnsweringForPestControlCompanies /> },
   { path: "/missed-call-text-back-for-pest-control-companies", element: <MissedCallTextBackForPestControlCompanies /> },
   { path: "/missed-call-text-back-vs-voicemail-for-pest-control-companies", element: <MissedCallTextBackVsVoicemailForPestControlCompanies /> },

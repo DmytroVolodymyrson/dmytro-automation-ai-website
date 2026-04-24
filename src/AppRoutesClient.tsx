@@ -193,6 +193,7 @@ const RecurringServiceReminderAutomationForPestControlCompanies = lazy(() => imp
 const SeasonalCampaignAutomationForPestControlCompanies = lazy(() => import("./pages/SeasonalCampaignAutomationForPestControlCompanies"));
 const UrgentLeadFollowUpForPestControlCompanies = lazy(() => import("./pages/UrgentLeadFollowUpForPestControlCompanies"));
 const QuoteFollowUpAutomationForPestControlCompanies = lazy(() => import("./pages/QuoteFollowUpAutomationForPestControlCompanies"));
+const ReviewRequestAutomationForPestControlCompanies = lazy(() => import("./pages/ReviewRequestAutomationForPestControlCompanies"));
 const AiPhoneAnsweringForPestControlCompanies = lazy(() => import("./pages/AiPhoneAnsweringForPestControlCompanies"));
 const MissedCallTextBackForPestControlCompanies = lazy(() => import("./pages/MissedCallTextBackForPestControlCompanies"));
 const MissedCallTextBackVsVoicemailForPestControlCompanies = lazy(() => import("./pages/MissedCallTextBackVsVoicemailForPestControlCompanies"));
@@ -451,6 +452,7 @@ const AppRoutesClient = () => (
       <Route path="/seasonal-campaign-automation-for-pest-control-companies" element={<SeasonalCampaignAutomationForPestControlCompanies />} />
       <Route path="/urgent-lead-follow-up-for-pest-control-companies" element={<UrgentLeadFollowUpForPestControlCompanies />} />
       <Route path="/quote-follow-up-automation-for-pest-control-companies" element={<QuoteFollowUpAutomationForPestControlCompanies />} />
+      <Route path="/review-request-automation-for-pest-control-companies" element={<ReviewRequestAutomationForPestControlCompanies />} />
       <Route path="/ai-phone-answering-for-pest-control-companies" element={<AiPhoneAnsweringForPestControlCompanies />} />
       <Route path="/missed-call-text-back-for-pest-control-companies" element={<MissedCallTextBackForPestControlCompanies />} />
       <Route path="/missed-call-text-back-vs-voicemail-for-pest-control-companies" element={<MissedCallTextBackVsVoicemailForPestControlCompanies />} />
