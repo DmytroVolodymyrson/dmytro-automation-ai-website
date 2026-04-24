@@ -1086,6 +1086,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "No-Show Reduction Automation for Med Spas",
+    description:
+      "A narrower med spa attendance-protection page focused on confirmation discipline, reminder cadence, reschedules, deposits where appropriate, and fewer empty consult or treatment slots.",
+    href: "/no-show-reduction-automation-for-med-spas",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Roofing Companies",
     description:
       "AI automation for roofing companies. Lead follow-up, estimate follow-up, missed call text-back, storm season handling, and review automation.",

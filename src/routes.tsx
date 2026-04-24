@@ -153,6 +153,7 @@ import ClientReactivationAutomationForCleaningCompanies from "./pages/ClientReac
 import AiAutomationForMedSpas from "./pages/AiAutomationForMedSpas";
 import WhatToAutomateFirstForMedSpas from "./pages/WhatToAutomateFirstForMedSpas";
 import ConsultationBookingAndReminderAutomationForMedSpas from "./pages/ConsultationBookingAndReminderAutomationForMedSpas";
+import NoShowReductionAutomationForMedSpas from "./pages/NoShowReductionAutomationForMedSpas";
 import AiAutomationForRoofingCompanies from "./pages/AiAutomationForRoofingCompanies";
 import WhatToAutomateFirstForRoofingCompanies from "./pages/WhatToAutomateFirstForRoofingCompanies";
 import MissedCallTextBackForRoofingCompanies from "./pages/MissedCallTextBackForRoofingCompanies";
@@ -425,6 +426,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-for-med-spas", element: <AiAutomationForMedSpas /> },
   { path: "/what-to-automate-first-for-med-spas", element: <WhatToAutomateFirstForMedSpas /> },
   { path: "/consultation-booking-and-reminder-automation-for-med-spas", element: <ConsultationBookingAndReminderAutomationForMedSpas /> },
+  { path: "/no-show-reduction-automation-for-med-spas", element: <NoShowReductionAutomationForMedSpas /> },
   { path: "/ai-automation-for-roofing-companies", element: <AiAutomationForRoofingCompanies /> },
   { path: "/what-to-automate-first-for-roofing-companies", element: <WhatToAutomateFirstForRoofingCompanies /> },
   { path: "/missed-call-text-back-for-roofing-companies", element: <MissedCallTextBackForRoofingCompanies /> },

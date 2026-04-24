@@ -1407,9 +1407,21 @@
       "prompts": [
         "Consultation booking and reminder automation for med spas",
         "How do med spas automate consultation booking and reminders?",
-        "How should a med spa reduce no-shows during consultation scheduling?",
-        "Best way for a med spa to automate confirmations, reminders, and reschedules for consultations",
+        "How do med spas automate confirmations, reminders, and reschedules for consultations?",
+        "Best way for a med spa to keep consultation scheduling from dragging out over text and voicemail",
         "Should a med spa fix consultation booking before broader patient communication automation?"
+      ]
+    },
+    {
+      "id": "no-show-reduction-automation-for-med-spas",
+      "path": "/no-show-reduction-automation-for-med-spas",
+      "label": "No-Show Reduction Automation for Med Spas",
+      "prompts": [
+        "No-show reduction automation for med spas",
+        "How do med spas reduce no-shows for consultations and treatment visits?",
+        "Best way for a med spa to automate confirmations, reminders, and reschedules before a patient no-shows",
+        "Should a med spa use deposits or better reminder automation to reduce no-shows?",
+        "How should a med spa protect high-value consult slots from preventable no-shows?"
       ]
     },
     {
