@@ -1365,6 +1365,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-for-cleaning-companies",
+      "path": "/missed-call-text-back-for-cleaning-companies",
+      "label": "Missed Call Text-Back for Cleaning Companies",
+      "prompts": [
+        "Missed call text-back for cleaning companies",
+        "How do cleaning companies text back missed calls automatically?",
+        "Best way for a cleaning company to respond after missing a call",
+        "Should a cleaning company use missed-call text-back or just voicemail?",
+        "How do I stop losing cleaning jobs when nobody answers the phone?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-med-spas",
       "path": "/what-to-automate-first-for-med-spas",
       "label": "What to Automate First for Med Spas",

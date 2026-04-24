@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `quote-follow-up-automation-for-cleaning-companies` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes, and `scripts/geo-prompts.json`. The strongest remaining planned page was no longer another broad first-project page, but a narrower workflow child hiding inside the still-thin cleaning-company cluster. The live cleaning parent plus the live cleaning first-project page already exposed quote follow-up as one of the four highest-leverage workflows, but there was still no page isolating the sent-estimate recovery problem itself. The new page stays distinct by focusing only on what happens after a cleaning quote is sent and before the prospect books or disappears. Proof framing stays honest through the live cleaning parent, the generic quote-follow-up guide, and the published e-commerce CRM/follow-up case study rather than pretending there is already a dedicated cleaning-company quote-recovery case study.)
+Last updated: 2026-04-24 (shipped `missed-call-text-back-for-cleaning-companies` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes, and `scripts/geo-prompts.json`. The strongest remaining planned page was still inside the thin cleaning-company cluster, but the clean next ship had shifted from another broad explainer to a narrower phone-recovery child already implied by both the live cleaning parent and the first-project scoping page. The new page stays distinct by focusing only on what happens after a cleaning-company call is missed and before the prospect gives up or calls the next provider. Proof framing stays honest through the live cleaning parent/scoping pages, the generic missed-call guide, the Paris Cafe phone-handling case study, and already-live home-service sibling phone-recovery pages rather than pretending there is already a dedicated cleaning-company missed-call case study.)
 
 ## Live GEO Assets
 
@@ -157,6 +157,7 @@ Last updated: 2026-04-24 (shipped `quote-follow-up-automation-for-cleaning-compa
 | AI Automation for Cleaning Companies | `/ai-automation-for-cleaning-companies` | Industry page | Live |
 | What to Automate First for Cleaning Companies | `/what-to-automate-first-for-cleaning-companies` | Cleaning first-project scoping page | Live |
 | Quote Follow-Up Automation for Cleaning Companies | `/quote-follow-up-automation-for-cleaning-companies` | Cleaning quote-stage workflow page | Live |
+| Missed Call Text-Back for Cleaning Companies | `/missed-call-text-back-for-cleaning-companies` | Cleaning phone-recovery workflow page | Live |
 | AI Automation for Med Spas | `/ai-automation-for-med-spas` | Industry page | Live |
 | What to Automate First for Med Spas | `/what-to-automate-first-for-med-spas` | Med-spa first-project scoping page | Live |
 | AI Automation for Roofing Companies | `/ai-automation-for-roofing-companies` | Industry page | Live |
@@ -221,18 +222,18 @@ Last updated: 2026-04-24 (shipped `quote-follow-up-automation-for-cleaning-compa
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 198**
+**Total decision/comparison/industry pages live: 199**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/quote-follow-up-automation-for-cleaning-companies` shows the backlog is not exhausted yet; the strongest remaining proof-backed work now sits in the still-thin cleaning-company cluster rather than in another broad first-project page. The next run should still re-check the broader planning docs first, but the clean default candidate is now the adjacent cleaning missed-call recovery child because the parent page and first-project page still expose that exact workflow and the live site already has strong phone-recovery proof to support it honestly.
+Shipping `/missed-call-text-back-for-cleaning-companies` shows the backlog is still not exhausted; the strongest remaining proof-backed work is still inside the cleaning-company cluster, but the next clean child no longer needs to be another phone-recovery explainer by default. The next run should still re-check the broader planning docs first, but the clean default candidate is now the adjacent reactivation child because the live cleaning parent and first-project page still expose recurring-client reactivation as one of the four bounded first workflows, and the site already has direct CRM/follow-up proof to support it honestly without inventing a cleaning-specific retention case study.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | `/missed-call-text-back-for-cleaning-companies` | Cleaning-company missed-call recovery / voicemail-replacement intent | The cleaning cluster is still thin but now has a clear quote-stage child live. The next distinct workflow child is missed-call recovery: it is explicitly surfaced by the cleaning parent and first-project page, maps to strong buyer pain, and can lean on the existing generic missed-call guide plus the published Paris Cafe call-handling proof without inventing a cleaning-specific case study. | **Best next candidate** |
+| 1 | **P1** | `/client-reactivation-automation-for-cleaning-companies` | Cleaning-company recurring-client reactivation / dormant-customer recovery intent | The cleaning cluster now has the parent page, the first-project scoping page, a quote-stage child, and a missed-call recovery child. The clean next distinct child is recurring-client reactivation: it is already surfaced by the parent and first-project page, answers a different stage than lead capture or quote recovery, and can lean on the published e-commerce CRM/follow-up case study plus the generic client-reactivation guide without pretending there is already a direct cleaning-specific retention case study. | **Best next candidate** |
 | 2 | **Fallback** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for any still-distinct planned page that is not already live and does not collapse into an existing cluster | Still required before shipping, but no longer defaulting straight to maintenance because the cleaning cluster still has at least one clean adjacent child left. | **Re-check before shipping** |
 | 3 | **Maintenance fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if no clean net-new page survives the next broad audit | Use only if another full reconciliation genuinely shows no defensible planned page left to ship. | **Use only if backlog is exhausted** |
 

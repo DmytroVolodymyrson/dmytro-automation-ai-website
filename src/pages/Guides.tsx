@@ -1051,6 +1051,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back for Cleaning Companies",
+    description:
+      "A narrower cleaning-company phone-recovery page focused on missed inbound quote requests — instant text acknowledgment, lightweight intake capture, callback routing, and the point where voicemail is too passive to keep the job alive.",
+    href: "/missed-call-text-back-for-cleaning-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Med Spas",
     description:
       "AI automation for med spas. Lead follow-up, appointment booking, no-show reduction, membership renewal campaigns, and review automation.",
