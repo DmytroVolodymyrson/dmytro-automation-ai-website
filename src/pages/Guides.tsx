@@ -1457,6 +1457,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Lead Follow-Up for Landscaping Companies",
+    description:
+      "A narrower landscaping-company early-funnel page focused on fresh quote requests — fast first response, short nurture, lightweight qualification, and owner handoff before the walkthrough or estimate stage starts.",
+    href: "/ai-lead-follow-up-for-landscaping-companies",
+    category: "industries",
+  },
+  {
     title: "Missed Call Text-Back for Landscaping Companies",
     description:
       "SMS-first recovery for landscaping companies that miss spring-rush quote requests, mowing inquiries, and after-hours calls — immediate text-back, callback triage, and a lighter fallback before live AI phone answering.",

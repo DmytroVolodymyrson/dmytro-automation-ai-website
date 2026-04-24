@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-roofing-companies` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The live roofing cluster already had the broad parent, the first-project scoping page, the estimate-stage child, the booked-job scheduling child, and the phone-recovery pages, but it still lacked the narrower early-funnel lead-response workflow that the parent copy had been naming explicitly. The new page stays distinct by focusing on fresh inspection and storm-damage inquiries before the estimate exists — fast first response, short nurture, light qualification, and human handoff — instead of rehashing the broader roofing parent, the estimate-follow-up page, the scheduling page, or the phone pages.)
+Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-landscaping-companies` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The live landscaping cluster already had the broad parent, the first-project scoping page, the estimate-stage child, the recurring-service child, the seasonal-reactivation child, and the phone-recovery pages, but it still lacked the narrower early-funnel lead-response workflow that the parent copy had already named explicitly. The new page stays distinct by focusing on fresh spring-rush quote requests before the walkthrough or estimate exists — fast first response, short nurture, light qualification, and human handoff — instead of rehashing the broader landscaping parent, the first-project scoping page, the estimate-follow-up page, the recurring-service page, the seasonal page, or the phone pages.)
 
 ## Live GEO Assets
 
@@ -215,6 +215,7 @@ Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-roofing-companies` afte
 | AI Phone Answering vs. Voicemail for Auto Repair Shops | `/ai-phone-answering-vs-voicemail-for-auto-repair-shops` | Auto-repair phone-fallback decision page | Live |
 | AI Automation for Landscaping Companies | `/ai-automation-for-landscaping-companies` | Industry page | Live |
 | What to Automate First for Landscaping Companies | `/what-to-automate-first-for-landscaping-companies` | Landscaping first-project scoping page | Live |
+| AI Lead Follow-Up for Landscaping Companies | `/ai-lead-follow-up-for-landscaping-companies` | Landscaping early-funnel quote-response workflow page | Live |
 | Missed Call Text-Back for Landscaping Companies | `/missed-call-text-back-for-landscaping-companies` | Landscaping phone-recovery workflow page | Live |
 | Missed Call Text-Back vs. Voicemail for Landscaping Companies | `/missed-call-text-back-vs-voicemail-for-landscaping-companies` | Landscaping lighter-fallback decision page | Live |
 | Estimate Follow-Up Automation for Landscaping Companies | `/estimate-follow-up-automation-for-landscaping-companies` | Landscaping estimate-recovery workflow page | Live |
@@ -252,19 +253,19 @@ Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-roofing-companies` afte
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 226**
+**Total decision/comparison/industry pages live: 227**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-lead-follow-up-for-roofing-companies` closes the clearest remaining early-funnel gap inside the live roofing cluster. The next run should not force another roofing page by inertia. Reconcile the broader planning docs, live routes/pages, and `scripts/geo-prompts.json` again first and only ship the next page if another exact, still-distinct candidate survives that pass.
+Shipping `/ai-lead-follow-up-for-landscaping-companies` closes the clearest remaining early-funnel gap inside the live landscaping cluster. The next run should not force another landscaping page by inertia. Reconcile the broader planning docs, live routes/pages, and `scripts/geo-prompts.json` again first and only ship the next page if another exact, still-distinct candidate survives that pass.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for the strongest still-unshipped planned or extracted child page across all clusters | Use this first now that the roofing cluster has its broad parent, first-project guide, early-funnel, estimate, scheduling, and phone layers covered. | **Best next move** |
-| 2 | **Queued fallback** | Another proof-backed extracted child from a different live cluster | Ship the next exact workflow, setup, pricing, or decision page only if the next audit surfaces a materially distinct candidate with direct proof adjacency and cleaner separation than another roofing follow-on | Prevents the roadmap from pretending a same-cluster page is automatically next when the cleaner opportunity may now be elsewhere. | **Depends on next broad audit** |
+| 1 | **Queued** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for the strongest still-unshipped planned or extracted child page across all clusters | Use this first now that the landscaping cluster has its broad parent, first-project guide, early-funnel, estimate, recurring-service, seasonal, and phone layers covered. | **Best next move** |
+| 2 | **Queued fallback** | `ai-lead-follow-up-for-auto-repair-shops` | Early-funnel quote-response page for auto repair shops if the next broad pass still finds that the live auto-repair cluster has a clean pre-estimate speed-to-lead gap beside maintenance reminders, estimate follow-up, appointment reminders, and the phone pages | Strong adjacent proof and a mature cluster make it a plausible next extracted child, but still verify against the broader docs before shipping. | **Best content fallback** |
 | 3 | **Maintenance fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if the next broad audit still finds no defensible net-new page | Use only if the next reconciliation cannot find a distinct proof-backed page worth shipping. | **Use only if backlog is exhausted** |
 
 ### Priority Definitions

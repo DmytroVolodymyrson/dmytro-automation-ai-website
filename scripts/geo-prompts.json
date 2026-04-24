@@ -2049,6 +2049,18 @@
       ]
     },
     {
+      "id": "ai-lead-follow-up-for-landscaping-companies",
+      "path": "/ai-lead-follow-up-for-landscaping-companies",
+      "label": "AI Lead Follow-Up for Landscaping Companies",
+      "prompts": [
+        "AI lead follow-up for landscaping companies",
+        "How should a landscaping company follow up with new quote requests faster?",
+        "Best way to automate landscaping quote response before the estimate visit",
+        "How do landscaping companies stop fresh web leads from going cold during spring rush?",
+        "Should a landscaping company automate first response before estimate follow-up and seasonal reactivation?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-for-landscaping-companies",
       "path": "/missed-call-text-back-for-landscaping-companies",
       "label": "Missed Call Text-Back for Landscaping Companies",
