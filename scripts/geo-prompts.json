@@ -1745,7 +1745,19 @@
         "How should a pest control company prioritize missed-call recovery, recurring-service management, seasonal campaigns, and quote follow-up before a bigger automation build?",
         "Best AI automation for pest control companies that miss inbound calls",
         "How should a pest control company connect missed-call recovery, renewal reminders, seasonal campaigns, and review asks into one operating system?",
-        "What pest control workflows are actually worth automating first?"
+        "What should the full automation stack for a pest control company include once the first workflow is working?"
+      ]
+    },
+    {
+      "id": "what-to-automate-first-for-pest-control-companies",
+      "path": "/what-to-automate-first-for-pest-control-companies",
+      "label": "What to Automate First for Pest Control Companies",
+      "prompts": [
+        "What should a pest control company automate first?",
+        "Best first automation for pest control company",
+        "How should a pest control company prioritize urgent lead follow-up, missed-call recovery, recurring-service reminders, and seasonal campaigns?",
+        "Which pest-control workflow should come first before building a broader automation stack?",
+        "What is the highest ROI first automation project for a pest control company?"
       ]
     },
     {

@@ -178,6 +178,7 @@ import MissedCallTextBackVsVoicemailForRoofingCompanies from "./pages/MissedCall
 import AiPhoneAnsweringForRoofingCompanies from "./pages/AiPhoneAnsweringForRoofingCompanies";
 import AiPhoneAnsweringVsVoicemailForRoofingCompanies from "./pages/AiPhoneAnsweringVsVoicemailForRoofingCompanies";
 import AiAutomationForPestControlCompanies from "./pages/AiAutomationForPestControlCompanies";
+import WhatToAutomateFirstForPestControlCompanies from "./pages/WhatToAutomateFirstForPestControlCompanies";
 import RecurringServiceReminderAutomationForPestControlCompanies from "./pages/RecurringServiceReminderAutomationForPestControlCompanies";
 import UrgentLeadFollowUpForPestControlCompanies from "./pages/UrgentLeadFollowUpForPestControlCompanies";
 import AiPhoneAnsweringForPestControlCompanies from "./pages/AiPhoneAnsweringForPestControlCompanies";
@@ -469,6 +470,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-phone-answering-for-roofing-companies", element: <AiPhoneAnsweringForRoofingCompanies /> },
   { path: "/ai-phone-answering-vs-voicemail-for-roofing-companies", element: <AiPhoneAnsweringVsVoicemailForRoofingCompanies /> },
   { path: "/ai-automation-for-pest-control-companies", element: <AiAutomationForPestControlCompanies /> },
+  { path: "/what-to-automate-first-for-pest-control-companies", element: <WhatToAutomateFirstForPestControlCompanies /> },
   { path: "/recurring-service-reminder-automation-for-pest-control-companies", element: <RecurringServiceReminderAutomationForPestControlCompanies /> },
   { path: "/urgent-lead-follow-up-for-pest-control-companies", element: <UrgentLeadFollowUpForPestControlCompanies /> },
   { path: "/ai-phone-answering-for-pest-control-companies", element: <AiPhoneAnsweringForPestControlCompanies /> },

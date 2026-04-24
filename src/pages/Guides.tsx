@@ -1275,6 +1275,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Pest Control Companies",
+    description:
+      "Scoping guide for pest control companies deciding whether the first workflow should be urgent lead follow-up, missed-call recovery, recurring-service reminders, seasonal campaigns, or heavier live phone coverage before a bigger automation build.",
+    href: "/what-to-automate-first-for-pest-control-companies",
+    category: "industries",
+  },
+  {
     title: "Recurring Service Reminder Automation for Pest Control Companies",
     description:
       "Retention workflow for pest control companies that keep losing recurring revenue between visits — scheduled-treatment reminders, annual-plan renewals, lapse recovery, and cleaner office handoff without manual chasing.",

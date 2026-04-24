@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `urgent-lead-follow-up-for-pest-control-companies` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The live pest-control parent already isolated urgent lead follow-up as a distinct workflow family, while the live child set had already covered the lighter phone-recovery layer and the recurring-retention layer. The new page stays distinct by focusing on first response, multi-step early nurture, light qualification, and office handoff before the first inspection or treatment is booked, rather than rehashing the broader parent or the phone pages.)
+Last updated: 2026-04-24 (shipped `what-to-automate-first-for-pest-control-companies` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The live pest-control parent already carried the exact first-project prioritization query, and the cluster now had enough narrower child pages — urgent lead follow-up, recurring-service reminders, missed-call recovery, and live phone coverage — to support a real scoping page without collapsing into the broader parent. The new page stays distinct by focusing on the buyer decision itself: which single pest-control workflow should come first before a broader automation rollout.)
 
 ## Live GEO Assets
 
@@ -189,6 +189,7 @@ Last updated: 2026-04-24 (shipped `urgent-lead-follow-up-for-pest-control-compan
 | Missed Call Text-Back vs. Voicemail for Roofing Companies | `/missed-call-text-back-vs-voicemail-for-roofing-companies` | Roofing lighter-fallback decision page | Live |
 | AI Phone Answering vs. Voicemail for Roofing Companies | `/ai-phone-answering-vs-voicemail-for-roofing-companies` | Roofing phone-fallback decision page | Live |
 | AI Automation for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Industry page | Live |
+| What to Automate First for Pest Control Companies | `/what-to-automate-first-for-pest-control-companies` | Pest-control first-project scoping page | Live |
 | Recurring Service Reminder Automation for Pest Control Companies | `/recurring-service-reminder-automation-for-pest-control-companies` | Pest-control recurring-retention workflow page | Live |
 | Urgent Lead Follow-Up for Pest Control Companies | `/urgent-lead-follow-up-for-pest-control-companies` | Pest-control early-funnel lead-follow-up workflow page | Live |
 | AI Phone Answering for Pest Control Companies | `/ai-phone-answering-for-pest-control-companies` | Pest-control live-phone-coverage workflow page | Live |
@@ -243,19 +244,19 @@ Last updated: 2026-04-24 (shipped `urgent-lead-follow-up-for-pest-control-compan
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 217**
+**Total decision/comparison/industry pages live: 218**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/urgent-lead-follow-up-for-pest-control-companies` fills the early-funnel response layer inside the pest-control cluster: the broader parent already framed urgent lead follow-up as a distinct workflow family, while the live child set had already covered the lighter phone-recovery layer and the recurring-retention layer. That makes the next safest move a broad repo-wide reconciliation instead of forcing another pest-control child by inertia. The cleanest surviving same-cluster follow-on may be a first-project scoping page, but that should only ship if it still survives a fresh audit against the broader planning set and the now-denser pest-control cluster.
+Shipping `/what-to-automate-first-for-pest-control-companies` fills the earlier buyer-decision layer inside the pest-control cluster: the broader parent already carried the prioritization query, and the live child set now covers urgent lead follow-up, recurring-service reminders, missed-call recovery, and live phone coverage. That makes the next safest move another broad repo-wide reconciliation instead of forcing a same-cluster follow-on by inertia. If a future audit still finds one more clean pest-control child, the likeliest remaining watchlist candidate is a seasonal-campaign page — but only if it still survives the broader planning set and stays clearly distinct from both the parent and the new first-project page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for any still-distinct planned page that is not already live and does not collapse into an existing cluster | After shipping the pest-control early-funnel page, the safest next step is a fresh repo-wide audit rather than assuming the same cluster still has the best remaining page. | **Do next** |
-| 2 | **Fallback** | `/what-to-automate-first-for-pest-control-companies` | Owners asking which pest-control workflow should come first before a broader automation rollout | The live pest-control parent still carries a first-project prioritization prompt. This page could stay distinct if it cleanly scopes urgent lead follow-up vs recurring reminders vs phone recovery vs seasonal campaigns without rehashing the broader parent. | **Only queue if a fresh audit still says it is the cleanest surviving child** |
+| 1 | **Queued** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for any still-distinct planned page that is not already live and does not collapse into an existing cluster | After shipping the pest-control first-project page, the safest next step is a fresh repo-wide audit rather than assuming the same cluster still has the best remaining page. | **Do next** |
+| 2 | **Fallback watchlist** | `/seasonal-campaign-automation-for-pest-control-companies` | Owners asking whether pre-season outreach and reactivation should become the next bounded pest-control workflow after response and retention basics are stable | The live pest-control parent still names seasonal campaigns as a distinct workflow family, but this should only ship if a fresh audit still says it is planned enough, proof-backed enough, and clearly distinct from the broader parent plus the new first-project scoping page. | **Only queue if a fresh audit still says it survives cleanly** |
 | 3 | **Maintenance fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if another broad audit still finds no defensible net-new page | Use only if the next reconciliation still cannot find a distinct proof-backed page worth shipping. | **Use only if backlog is exhausted** |
 
 ### Priority Definitions
