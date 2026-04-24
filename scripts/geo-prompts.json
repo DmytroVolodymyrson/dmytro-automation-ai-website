@@ -1394,10 +1394,22 @@
       "label": "What to Automate First for Med Spas",
       "prompts": [
         "What should a med spa automate first?",
-        "Should a med spa start with lead follow-up, consultation booking, no-show reduction, treatment recall, or after-hours inquiry handling?",
-        "Best first automation for med spa",
-        "How should a med spa prioritize consultation requests, scheduling friction, empty slots, overdue recall, and after-hours demand?",
+        "How should a med spa prioritize lead follow-up, booking friction, no-show reduction, treatment recall, and after-hours inquiry handling before a bigger automation build?",
+        "Best first automation for med spas",
+        "How do I choose the first automation project for a med spa?",
         "What is the highest ROI first automation project for a med spa?"
+      ]
+    },
+    {
+      "id": "consultation-booking-and-reminder-automation-for-med-spas",
+      "path": "/consultation-booking-and-reminder-automation-for-med-spas",
+      "label": "Consultation Booking and Reminder Automation for Med Spas",
+      "prompts": [
+        "Consultation booking and reminder automation for med spas",
+        "How do med spas automate consultation booking and reminders?",
+        "How should a med spa reduce no-shows during consultation scheduling?",
+        "Best way for a med spa to automate confirmations, reminders, and reschedules for consultations",
+        "Should a med spa fix consultation booking before broader patient communication automation?"
       ]
     },
     {

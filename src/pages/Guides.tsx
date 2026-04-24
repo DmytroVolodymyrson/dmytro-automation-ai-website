@@ -1079,6 +1079,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Consultation Booking and Reminder Automation for Med Spas",
+    description:
+      "A narrower med spa workflow page focused on consultation scheduling friction, confirmation discipline, reminder timing, reschedule routing, and fewer no-shows before the visit happens.",
+    href: "/consultation-booking-and-reminder-automation-for-med-spas",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Roofing Companies",
     description:
       "AI automation for roofing companies. Lead follow-up, estimate follow-up, missed call text-back, storm season handling, and review automation.",
