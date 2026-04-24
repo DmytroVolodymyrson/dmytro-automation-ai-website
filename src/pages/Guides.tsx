@@ -1282,6 +1282,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. AI Phone Answering for Painting Contractors",
+    description:
+      "Painting buyer guide for deciding when a lighter SMS-first missed-call workflow is enough, when callers actually need live AI phone coverage, and how to choose the smallest useful phone layer without losing estimates.",
+    href: "/missed-call-text-back-vs-ai-phone-answering-for-painting-contractors",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Home Inspectors",
     description:
       "AI automation for home inspectors. Agent nurture campaigns, booking automation, missed call text-back, report delivery follow-up, and review automation.",

@@ -180,6 +180,7 @@ const WhatToAutomateFirstForPaintingContractors = lazy(() => import("./pages/Wha
 const MissedCallTextBackForPaintingContractors = lazy(() => import("./pages/MissedCallTextBackForPaintingContractors"));
 const MissedCallTextBackVsVoicemailForPaintingContractors = lazy(() => import("./pages/MissedCallTextBackVsVoicemailForPaintingContractors"));
 const AiPhoneAnsweringForPaintingContractors = lazy(() => import("./pages/AiPhoneAnsweringForPaintingContractors"));
+const MissedCallTextBackVsAiPhoneAnsweringForPaintingContractors = lazy(() => import("./pages/MissedCallTextBackVsAiPhoneAnsweringForPaintingContractors"));
 const AiAutomationForHomeInspectors = lazy(() => import("./pages/AiAutomationForHomeInspectors"));
 const AiPhoneAnsweringForHomeInspectors = lazy(() => import("./pages/AiPhoneAnsweringForHomeInspectors"));
 const MissedCallTextBackForHomeInspectors = lazy(() => import("./pages/MissedCallTextBackForHomeInspectors"));
@@ -383,6 +384,7 @@ const AppRoutesClient = () => (
       <Route path="/missed-call-text-back-for-painting-contractors" element={<MissedCallTextBackForPaintingContractors />} />
       <Route path="/missed-call-text-back-vs-voicemail-for-painting-contractors" element={<MissedCallTextBackVsVoicemailForPaintingContractors />} />
       <Route path="/ai-phone-answering-for-painting-contractors" element={<AiPhoneAnsweringForPaintingContractors />} />
+      <Route path="/missed-call-text-back-vs-ai-phone-answering-for-painting-contractors" element={<MissedCallTextBackVsAiPhoneAnsweringForPaintingContractors />} />
       <Route path="/ai-automation-for-home-inspectors" element={<AiAutomationForHomeInspectors />} />
       <Route path="/ai-phone-answering-for-home-inspectors" element={<AiPhoneAnsweringForHomeInspectors />} />
       <Route path="/missed-call-text-back-for-home-inspectors" element={<MissedCallTextBackForHomeInspectors />} />
