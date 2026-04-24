@@ -1377,6 +1377,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-for-cleaning-companies",
+      "path": "/ai-phone-answering-for-cleaning-companies",
+      "label": "AI Phone Answering for Cleaning Companies",
+      "prompts": [
+        "AI phone answering for cleaning companies",
+        "Best way for a cleaning company to stop losing quote calls when the office cannot answer live",
+        "How should a cleaning company handle quote calls when the owner is still on jobs?",
+        "Can AI answer routine cleaning quote and recurring-service calls after hours?",
+        "What should live AI phone answering actually handle for a cleaning company before the call should transfer to a human?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-vs-voicemail-for-cleaning-companies",
       "path": "/missed-call-text-back-vs-voicemail-for-cleaning-companies",
       "label": "Missed Call Text-Back vs. Voicemail for Cleaning Companies",

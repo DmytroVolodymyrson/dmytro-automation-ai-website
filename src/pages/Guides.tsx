@@ -1107,6 +1107,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering for Cleaning Companies",
+    description:
+      "A narrower cleaning-company live-phone-coverage guide focused on quote-call intake, recurring-service questions, after-hours answer coverage, callback routing, and the handoff points that should stay human.",
+    href: "/ai-phone-answering-for-cleaning-companies",
+    category: "industries",
+  },
+  {
     title: "Missed Call Text-Back vs. Voicemail for Cleaning Companies",
     description:
       "Cleaning-company buyer guide for deciding when SMS-first missed-call recovery is a better fallback than voicemail and callbacks, when voicemail is still acceptable, and when the business has already outgrown both into live AI phone coverage.",
