@@ -2277,6 +2277,18 @@
       ]
     },
     {
+      "id": "ai-lead-follow-up-for-home-inspectors",
+      "path": "/ai-lead-follow-up-for-home-inspectors",
+      "label": "AI Lead Follow-Up for Home Inspectors",
+      "prompts": [
+        "AI lead follow-up for home inspectors",
+        "How should a home inspector respond faster to new agent and buyer inquiries?",
+        "Best way for a home inspector to follow up on new web forms and referrals while still on-site",
+        "How do home inspectors keep fresh inspection inquiries warm before the booking is confirmed?",
+        "What should a home-inspector lead-follow-up workflow handle before scheduling takes over?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-for-home-inspectors",
       "path": "/missed-call-text-back-for-home-inspectors",
       "label": "Missed Call Text-Back for Home Inspectors",

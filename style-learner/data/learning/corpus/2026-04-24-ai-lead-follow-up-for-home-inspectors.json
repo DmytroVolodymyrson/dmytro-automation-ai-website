@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-24-ai-lead-follow-up-for-home-inspectors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-24",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Lead Follow-Up for Home Inspectors\nBody: Many home inspectors do not mainly lose work because their inspection quality is weak. They lose it earlier — when an agent calls during an attic crawl, a buyer fills out a request form after hours, or a referral arrives while you are still driving between properties and nobody follows up fast enough. In home inspection, the first serious response often decides who gets the booking because agents work on tight timelines and buyers usually contact more than one inspector. AI lead follow-up for home inspectors fixes that narrower early-funnel problem. It answers quickly, keeps the conversation alive over the next few hours or days, captures the next useful detail, and routes real booking intent back to a human before the referral goes cold.\nSub: Below: what this home-inspector workflow should actually cover, how it stays distinct from the broader home-inspector page and the existing phone pages, what guardrails matter, and what proof honestly supports it without pretending there is already a home-inspector-only lead-follow-up case study.\n\n### Core sections\n- What home-inspector lead follow-up should actually handle\n- How this page stays distinct inside the home-inspector cluster\n- Is this a good fit for your home-inspection business?\n- Guardrails that keep home-inspector lead follow-up useful\n- How a practical home-inspector lead-follow-up workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Straight answers for home inspectors deciding whether their first leak is slow response\nTopics: how this differs from missed-call text-back for home inspectors, what a focused home-inspector lead-follow-up build usually costs, whether it can work with the current inspection software or inbox, what the main ROI really is, and whether the workflow replaces the inspector or an admin person.\n\n### Final CTA\nHeading: Stop losing home-inspection referrals before the booking conversation starts\nBody: Book a 30-minute call. We will look at how fresh referrals and buyer inquiries currently arrive, identify where response is slowing down, and tell you whether lead follow-up, booking automation, or a lighter phone workflow should come first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after another broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the live home-inspector cluster already had the broader parent plus the phone-recovery decision pages, but it still lacked the earlier inquiry-response layer the parent explicitly names: agent and buyer lead follow-up before the inspection is booked."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/missed-call-text-back-for-home-inspectors` and `/ai-phone-answering-for-home-inspectors` by focusing on immediate response, short nurture, light qualification, and handoff across referrals, forms, and messages before scheduling starts."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live home-inspector parent page, the broader `/ai-lead-follow-up-for-service-businesses` guide, and the published e-commerce CRM case study support the pattern without pretending there is already a home-inspector-specific lead-follow-up case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T18:52:35.289Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        1,
+        2
+      ],
+      "avgSentenceLength": 30.9,
+      "sentenceLengthRange": [
+        11,
+        61
+      ],
+      "totalWords": 340
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Lead Follow-Up for Home Inspectors\nBody: Many home inspectors do not mainly lose work because their inspection quality is weak.",
+      "wordCount": 23,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing home-inspection referrals before the booking conversation starts\nBody: Book a 30-minute call. We will look at how fresh referrals and buyer inquiries currently arrive, identify where response is slowing down, and tell you whether lead follow-up, booking automation, or a lighter phone workflow should come first.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 17,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.7
+    },
+    "vocabulary": {
+      "distinctWords": 197,
+      "totalWords": 340,
+      "topWords": [
+        [
+          "what",
+          7
+        ],
+        [
+          "home-inspector",
+          7
+        ],
+        [
+          "home",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "lead",
+          5
+        ],
+        [
+          "follow-up",
+          5
+        ],
+        [
+          "inspectors",
+          5
+        ],
+        [
+          "it",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "booking",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "whether",
+          4
+        ],
+        [
+          "work",
+          3
+        ],
+        [
+          "inspection",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

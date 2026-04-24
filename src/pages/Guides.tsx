@@ -1604,6 +1604,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Lead Follow-Up for Home Inspectors",
+    description:
+      "Home-inspector early-funnel workflow for responding faster to agent and buyer inquiries, keeping referrals warm while you are still on-site, and handing booking intent back with context before the inspection is booked.",
+    href: "/ai-lead-follow-up-for-home-inspectors",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Home Inspectors",
     description:
       "A narrower home-inspector live-phone-coverage guide focused on booking intake, agent and buyer call handling, after-hours coverage, and the handoff points that should stay human.",

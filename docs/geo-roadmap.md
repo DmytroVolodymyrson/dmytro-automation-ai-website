@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-auto-repair-shops` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The live auto-repair cluster already had the broad parent, the first-project scoping page, the estimate-stage child, the booked-appointment child, the maintenance-retention child, and the phone-recovery pages, but it still lacked the narrower early-funnel lead-response workflow before the estimate exists. The new page stays distinct by focusing on fresh repair inquiries — fast first response, short nurture, light qualification, and service-advisor handoff — instead of rehashing the broader auto-repair parent, the first-project scoping page, the estimate page, the appointment-reminder page, the maintenance page, or the phone pages.)
+Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-home-inspectors` after another broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, the roadmap, live routes/pages, and `scripts/geo-prompts.json`. The live home-inspector cluster already had the broad parent plus the phone-recovery decision pages, but it still lacked the earlier inquiry-response layer the parent explicitly names: agent and buyer lead follow-up before the inspection is booked. The new page stays distinct by focusing on immediate response, short nurture, light qualification, and handoff before scheduling starts, instead of rehashing the broader parent or the existing home-inspector phone pages.)
 
 ## Live GEO Assets
 
@@ -236,6 +236,7 @@ Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-auto-repair-shops` afte
 | AI Phone Answering vs. Voicemail for Painting Contractors | `/ai-phone-answering-vs-voicemail-for-painting-contractors` | Painting phone-fallback decision page | Live |
 | Missed Call Text-Back vs. AI Phone Answering for Painting Contractors | `/missed-call-text-back-vs-ai-phone-answering-for-painting-contractors` | Painting phone-recovery decision page | Live |
 | AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
+| AI Lead Follow-Up for Home Inspectors | `/ai-lead-follow-up-for-home-inspectors` | Home-inspector early-funnel inquiry-response workflow page | Live |
 | Missed Call Text-Back for Home Inspectors | `/missed-call-text-back-for-home-inspectors` | Home-inspector phone-recovery workflow page | Live |
 | Missed Call Text-Back vs. Voicemail for Home Inspectors | `/missed-call-text-back-vs-voicemail-for-home-inspectors` | Home-inspector lighter-fallback decision page | Live |
 | AI Phone Answering for Home Inspectors | `/ai-phone-answering-for-home-inspectors` | Home-inspector live-phone-coverage workflow page | Live |
@@ -254,19 +255,19 @@ Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-auto-repair-shops` afte
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 228**
+**Total decision/comparison/industry pages live: 229**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-lead-follow-up-for-auto-repair-shops` closes the clearest remaining early-funnel gap inside the live auto-repair cluster. The next run should not force another auto-repair page by inertia. Reconcile the broader planning docs, live routes/pages, and `scripts/geo-prompts.json` again first and only ship the next page if another exact, still-distinct candidate survives that pass.
+Shipping `/ai-lead-follow-up-for-home-inspectors` closes the clearest remaining early-funnel gap inside the still-thin home-inspector cluster. The broad parent already names lead follow-up, booking automation, agent nurture, report delivery, and reviews as separate workflow families, while the live child set had so far isolated only the phone layer. The next clean candidate is the booked-inspection scheduling layer if a fresh reconciliation still says that remains the clearest distinct gap.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued** | Broad backlog reconciliation before any new ship | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for the strongest still-unshipped planned or extracted child page across all clusters | Use this first now that the auto-repair cluster has its broad parent, first-project guide, early-funnel, estimate, booked-visit, maintenance, and phone layers covered. | **Best next move** |
-| 2 | **Queued fallback** | Discovery-led watchlist across remaining mature clusters | Look for the next still-distinct first-project, early-funnel, or workflow child page in a mature live cluster that does not yet have that layer isolated | Use only after another full reconciliation instead of forcing another same-cluster page immediately. | **Best content fallback** |
+| 1 | **Queued** | Booking automation for home inspectors | Inspect the live home-inspector parent and cluster for the still-missing booked-inspection workflow: availability, confirmations, reminders, reschedules, and inspection-type logic after inquiry response is already working | The parent page explicitly names booking automation, and the cluster now has the broader page, the early-funnel lead-response child, and the phone-recovery decision pages without yet isolating the booked-inspection layer. | **Best next content candidate** |
+| 2 | **Queued fallback** | Broad backlog reconciliation beyond the home-inspector cluster | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for the strongest still-unshipped planned or extracted child page across all clusters | Use this if the home-inspector booking layer no longer survives a distinct-intent check or a stronger proof-backed page appears elsewhere. | **Best cross-cluster fallback** |
 | 3 | **Maintenance fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if the next broad audit still finds no defensible net-new page | Use only if the next reconciliation cannot find a distinct proof-backed page worth shipping. | **Use only if backlog is exhausted** |
 
 ### Priority Definitions
