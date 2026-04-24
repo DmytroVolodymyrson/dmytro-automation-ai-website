@@ -49,6 +49,7 @@ const AiAppointmentSetterForHomeServiceBusinesses = lazy(() => import("./pages/A
 const AiAutomationNoTechTeam = lazy(() => import("./pages/AiAutomationNoTechTeam"));
 const AiVoiceAgentForRestaurants = lazy(() => import("./pages/AiVoiceAgentForRestaurants"));
 const AiAutomationForRestaurants = lazy(() => import("./pages/AiAutomationForRestaurants"));
+const WhatToAutomateFirstForRestaurants = lazy(() => import("./pages/WhatToAutomateFirstForRestaurants"));
 const PrivateEventInquiryFollowUpForRestaurants = lazy(() => import("./pages/PrivateEventInquiryFollowUpForRestaurants"));
 const ReservationConfirmationAndReminderAutomationForRestaurants = lazy(() => import("./pages/ReservationConfirmationAndReminderAutomationForRestaurants"));
 const MissedCallTextBackForRestaurants = lazy(() => import("./pages/MissedCallTextBackForRestaurants"));
@@ -235,6 +236,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-automation-for-businesses-without-a-tech-team" element={<AiAutomationNoTechTeam />} />
       <Route path="/ai-voice-agent-for-restaurants" element={<AiVoiceAgentForRestaurants />} />
       <Route path="/ai-automation-for-restaurants" element={<AiAutomationForRestaurants />} />
+      <Route path="/what-to-automate-first-for-restaurants" element={<WhatToAutomateFirstForRestaurants />} />
       <Route path="/private-event-inquiry-follow-up-for-restaurants" element={<PrivateEventInquiryFollowUpForRestaurants />} />
       <Route path="/reservation-confirmation-and-reminder-automation-for-restaurants" element={<ReservationConfirmationAndReminderAutomationForRestaurants />} />
       <Route path="/missed-call-text-back-for-restaurants" element={<MissedCallTextBackForRestaurants />} />

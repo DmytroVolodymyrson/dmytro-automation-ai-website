@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped what-to-automate-first-for-auto-parts-ecommerce after another proof-led reconciliation. The neat backlog was still exhausted, but the live auto-parts cluster still held one exact first-project scoping query inside the broader parent page: what the brand should automate first. That query stayed materially distinct from the broader auto-parts page and the already-live inquiry-routing, fitment, quote-follow-up, and stale-lead child pages. The new page stays tightly on first-project prioritization — mixed inquiry routing, fitment intake, quote follow-up, or stale-lead recovery — while using direct WheelsFeels CRM proof plus the live cluster instead of pretending there is already a separate prioritization case study.)
+Last updated: 2026-04-23 (shipped what-to-automate-first-for-restaurants after another proof-led reconciliation. The neat backlog is still exhausted, but the live restaurant cluster still held one exact first-project scoping query inside the broader parent page: what the restaurant should automate first. That query stayed materially distinct from the broader restaurant page and the already-live missed-call, reservation-reminder, private-event, and after-hours phone child pages. The new page stays tightly on first-project prioritization — missed-call recovery, reservation reminders, private-event inquiry follow-up, or after-hours phone answering — while using the live Paris Cafe case study plus the restaurant cluster instead of pretending there is already a separate restaurant prioritization case study.)
 
 ## Live GEO Assets
 
@@ -22,6 +22,7 @@ Last updated: 2026-04-23 (shipped what-to-automate-first-for-auto-parts-ecommerc
 | AI Appointment Setter ROI (SMB) | `/ai-appointment-setter-roi-small-business` | Workflow / ROI decision page | Live |
 | AI Voice Agent for Restaurants | `/ai-voice-agent-for-restaurants` | Industry page | Live |
 | AI Automation for Restaurants | `/ai-automation-for-restaurants` | Industry page | Live |
+| What to Automate First for Restaurants | `/what-to-automate-first-for-restaurants` | Restaurant first-project scoping page | Live |
 | Private-Event Inquiry Follow-Up for Restaurants | `/private-event-inquiry-follow-up-for-restaurants` | Restaurant workflow page | Live |
 | Reservation Confirmation and Reminder Automation for Restaurants | `/reservation-confirmation-and-reminder-automation-for-restaurants` | Restaurant workflow page | Live |
 | Missed Call Text-Back for Restaurants | `/missed-call-text-back-for-restaurants` | Restaurant workflow page | Live |
@@ -189,14 +190,14 @@ Last updated: 2026-04-23 (shipped what-to-automate-first-for-auto-parts-ecommerc
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 168**
+**Total decision/comparison/industry pages live: 169**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/what-to-automate-first-for-auto-parts-ecommerce` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters.
+Shipping `/what-to-automate-first-for-restaurants` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|

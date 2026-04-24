@@ -101,7 +101,19 @@
         "How can a restaurant automate reservations and guest follow-up?",
         "Best AI automation for restaurants with missed calls",
         "How do restaurants automate private event inquiry follow-up?",
-        "What restaurant workflows are actually worth automating first?"
+        "How should a restaurant connect phone handling, reservation reminders, event follow-up, and guest communication into one operating system?"
+      ]
+    },
+    {
+      "id": "what-to-automate-first-for-restaurants",
+      "path": "/what-to-automate-first-for-restaurants",
+      "label": "What to Automate First for Restaurants",
+      "prompts": [
+        "What restaurant workflows are actually worth automating first?",
+        "What should a restaurant automate first missed calls reservation reminders event follow-up or after-hours phone answering?",
+        "Should a restaurant start with missed-call recovery or after-hours phone answering?",
+        "Should a restaurant automate reservation reminders before private event follow-up?",
+        "How do I choose the first automation project for my restaurant?"
       ]
     },
     {

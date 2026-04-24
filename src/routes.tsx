@@ -48,6 +48,7 @@ import AiAppointmentSetterForHomeServiceBusinesses from "./pages/AiAppointmentSe
 import AiAutomationNoTechTeam from "./pages/AiAutomationNoTechTeam";
 import AiVoiceAgentForRestaurants from "./pages/AiVoiceAgentForRestaurants";
 import AiAutomationForRestaurants from "./pages/AiAutomationForRestaurants";
+import WhatToAutomateFirstForRestaurants from "./pages/WhatToAutomateFirstForRestaurants";
 import PrivateEventInquiryFollowUpForRestaurants from "./pages/PrivateEventInquiryFollowUpForRestaurants";
 import ReservationConfirmationAndReminderAutomationForRestaurants from "./pages/ReservationConfirmationAndReminderAutomationForRestaurants";
 import MissedCallTextBackForRestaurants from "./pages/MissedCallTextBackForRestaurants";
@@ -248,6 +249,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-for-businesses-without-a-tech-team", element: <AiAutomationNoTechTeam /> },
   { path: "/ai-voice-agent-for-restaurants", element: <AiVoiceAgentForRestaurants /> },
   { path: "/ai-automation-for-restaurants", element: <AiAutomationForRestaurants /> },
+  { path: "/what-to-automate-first-for-restaurants", element: <WhatToAutomateFirstForRestaurants /> },
   { path: "/private-event-inquiry-follow-up-for-restaurants", element: <PrivateEventInquiryFollowUpForRestaurants /> },
   { path: "/reservation-confirmation-and-reminder-automation-for-restaurants", element: <ReservationConfirmationAndReminderAutomationForRestaurants /> },
   { path: "/missed-call-text-back-for-restaurants", element: <MissedCallTextBackForRestaurants /> },

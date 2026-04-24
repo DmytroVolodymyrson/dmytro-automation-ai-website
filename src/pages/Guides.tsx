@@ -708,6 +708,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Restaurants",
+    description:
+      "Practical first-project guide for restaurant owners deciding whether the first workflow should be missed-call recovery, reservation reminders, private-event follow-up, or after-hours phone answering before a bigger automation rollout.",
+    href: "/what-to-automate-first-for-restaurants",
+    category: "industries",
+  },
+  {
     title: "Private-Event Inquiry Follow-Up for Restaurants",
     description:
       "How restaurants automate private-dining, buyout, and large-party lead follow-up without making the sales conversation feel robotic. Faster response, cleaner handoff, better event-lead discipline.",
