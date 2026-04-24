@@ -179,6 +179,7 @@ import AiPhoneAnsweringVsVoicemailForMedSpas from "./pages/AiPhoneAnsweringVsVoi
 import ConsultationBookingAndReminderAutomationForMedSpas from "./pages/ConsultationBookingAndReminderAutomationForMedSpas";
 import NoShowReductionAutomationForMedSpas from "./pages/NoShowReductionAutomationForMedSpas";
 import TreatmentRecallAutomationForMedSpas from "./pages/TreatmentRecallAutomationForMedSpas";
+import ReviewRequestAutomationForMedSpas from "./pages/ReviewRequestAutomationForMedSpas";
 import AiLeadFollowUpForMedSpas from "./pages/AiLeadFollowUpForMedSpas";
 import AiAutomationForRoofingCompanies from "./pages/AiAutomationForRoofingCompanies";
 import WhatToAutomateFirstForRoofingCompanies from "./pages/WhatToAutomateFirstForRoofingCompanies";
@@ -497,6 +498,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/consultation-booking-and-reminder-automation-for-med-spas", element: <ConsultationBookingAndReminderAutomationForMedSpas /> },
   { path: "/no-show-reduction-automation-for-med-spas", element: <NoShowReductionAutomationForMedSpas /> },
   { path: "/treatment-recall-automation-for-med-spas", element: <TreatmentRecallAutomationForMedSpas /> },
+  { path: "/review-request-automation-for-med-spas", element: <ReviewRequestAutomationForMedSpas /> },
   { path: "/ai-lead-follow-up-for-med-spas", element: <AiLeadFollowUpForMedSpas /> },
   { path: "/ai-automation-for-roofing-companies", element: <AiAutomationForRoofingCompanies /> },
   { path: "/what-to-automate-first-for-roofing-companies", element: <WhatToAutomateFirstForRoofingCompanies /> },

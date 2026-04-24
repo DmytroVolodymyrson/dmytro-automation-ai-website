@@ -212,6 +212,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Stale Lead Follow-Up for Auto Parts E-Commerce** — `/stale-lead-follow-up-for-auto-parts-ecommerce`
 - **Tenant Communication Automation for Property Management Companies** — `/tenant-communication-automation-for-property-management-companies`
 - **Treatment Recall Automation for Med Spas** — `/treatment-recall-automation-for-med-spas`
+- **Review Request Automation for Med Spas** — `/review-request-automation-for-med-spas`
 - **Urgent Lead Follow-Up for Pest Control Companies** — `/urgent-lead-follow-up-for-pest-control-companies`
 - **What to Automate First for Auto Parts E-Commerce** — `/what-to-automate-first-for-auto-parts-ecommerce`
 - **What to Automate First for Auto Repair Shops** — `/what-to-automate-first-for-auto-repair-shops`

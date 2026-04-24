@@ -1641,6 +1641,18 @@
       ]
     },
     {
+      "id": "review-request-automation-for-med-spas",
+      "path": "/review-request-automation-for-med-spas",
+      "label": "Review Request Automation for Med Spas",
+      "prompts": [
+        "Review request automation for med spas",
+        "How should a med spa ask for Google reviews after consultations and treatment visits?",
+        "Best way for a med spa to automate review requests without sending unhappy patients straight to a public review ask",
+        "When should a med spa ask for reviews after a consultation or treatment visit is completed?",
+        "How should a med spa route unhappy post-visit replies before asking for a review?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-chiropractors",
       "path": "/what-to-automate-first-for-chiropractors",
       "label": "What to Automate First for Chiropractors",

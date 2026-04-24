@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `review-request-automation-for-cleaning-companies` after fresh reconciliation confirmed the cleaning cluster still had one clean post-job reputation gap. The cleaning parent already explicitly named review automation, and the live cluster already had the broad parent, first-project page, early-funnel lead follow-up, quote-stage recovery, the mature phone layer, and client reactivation live. The new page stays distinct by framing the buyer decision around completed-job closeout, unhappy-reply routing, office handoff, and local-trust follow-through instead of rehashing earlier lead, quote, retention, or phone stages.)
+Last updated: 2026-04-24 (shipped `review-request-automation-for-med-spas` after fresh reconciliation confirmed the med-spa cluster still had one clean post-visit reputation gap. The live med-spa parent already explicitly named review automation, and the cluster already had first-project, early-funnel lead follow-up, booking/reminder, no-show reduction, recall, and mature phone-layer coverage live. The new page stays distinct by framing the buyer decision around completed-visit closeout, unhappy-reply routing, front-desk handoff, and local-trust follow-through instead of rehashing earlier lead, booking, retention, or phone stages.)
 
 ## Live GEO Assets
 
@@ -186,6 +186,7 @@ Last updated: 2026-04-24 (shipped `review-request-automation-for-cleaning-compan
 | Consultation Booking and Reminder Automation for Med Spas | `/consultation-booking-and-reminder-automation-for-med-spas` | Med-spa booked-consult workflow page | Live |
 | No-Show Reduction Automation for Med Spas | `/no-show-reduction-automation-for-med-spas` | Med-spa attendance-protection workflow page | Live |
 | Treatment Recall Automation for Med Spas | `/treatment-recall-automation-for-med-spas` | Med-spa retention / repeat-treatment workflow page | Live |
+| Review Request Automation for Med Spas | `/review-request-automation-for-med-spas` | Med-spa post-visit reputation workflow page | Live |
 | AI Lead Follow-Up for Med Spas | `/ai-lead-follow-up-for-med-spas` | Med-spa early-funnel consultation-response workflow page | Live |
 | AI Phone Answering for Med Spas | `/ai-phone-answering-for-med-spas` | Med-spa live-phone-coverage workflow page | Live |
 | AI Phone Answering vs. Voicemail for Med Spas | `/ai-phone-answering-vs-voicemail-for-med-spas` | Med-spa heavier phone-fallback decision page | Live |
@@ -270,20 +271,20 @@ Last updated: 2026-04-24 (shipped `review-request-automation-for-cleaning-compan
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 243**
+**Total decision/comparison/industry pages live: 244**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/review-request-automation-for-cleaning-companies` closes the clean cleaning post-job reputation gap that was still sitting inside a mature cluster. The next run should not force another cleaning sibling or another review-closeout page by inertia. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only queue another reputation-closeout child if a different mature cluster still has explicit parent-page proof and a clearly separate post-job workflow gap.
+Shipping `/review-request-automation-for-med-spas` closes the clean med-spa post-visit reputation gap that was still sitting inside a mature cluster. The next run should not force another med-spa sibling or another review-closeout page by inertia. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only queue another reputation-closeout child if a different mature cluster still has explicit parent-page proof and a clearly separate post-service workflow gap.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued workflow** | Fresh full backlog reconciliation across planning docs, live routes, and tracked prompts | Owners asking a still-clean workflow or decision question not yet isolated on the live site | Cleaning review-closeout is now shipped. The next run should deliberately search for the best surviving distinct child page or decision page instead of forcing another same-pattern review page. | **Required before naming the next exact slug** |
-| 2 | **Watchlist** | Another review-request / reputation-closeout child in a mature service vertical with explicit parent-page proof | Owners trying to protect completed jobs, local trust, and review volume after service delivery | HVAC, pest control, auto repair, landscaping, painting, roofing, and now cleaning are covered. Only ship another review-closeout page if a live parent explicitly names the reputation layer and the workflow can stay clearly distinct from earlier lead, scheduling, retention, and phone stages. | **Do not force without proof** |
-| 3 | **Watchlist** | Distinct non-review child surfaced by full backlog reconciliation | Owners asking a workflow or decision question that is still commercially clean and proof-supported | If broader reconciliation surfaces a cleaner surviving page than another reputation child, prefer that instead of rolling the same pattern again. | **Needs next-run audit** |
+| 1 | **Queued workflow** | Fresh full backlog reconciliation across planning docs, live routes, and tracked prompts | Owners asking a still-clean workflow or decision question not yet isolated on the live site | Med-spa review-closeout is now shipped. The next run should deliberately search for the best surviving distinct child page or decision page instead of forcing another same-pattern reputation page. | **Required before naming the next exact slug** |
+| 2 | **Watchlist** | Another review-request / reputation-closeout child in a mature service vertical with explicit parent-page proof | Owners trying to protect completed services, local trust, and review volume after delivery | HVAC, pest control, auto repair, landscaping, painting, roofing, cleaning, and now med spas are covered. Only ship another reputation-closeout page if a live parent explicitly names the reputation layer and the workflow can stay clearly distinct from earlier lead, booking, retention, and phone stages. | **Do not force without proof** |
+| 3 | **Watchlist** | Distinct non-review child surfaced by full backlog reconciliation | Owners asking a workflow or decision question that is still commercially clean and proof-supported | If broader reconciliation surfaces a cleaner surviving page than another reputation child, prefer that instead of repeating the same pattern again. | **Needs next-run audit** |
 
 ### Priority Definitions
 

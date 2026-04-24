@@ -1275,6 +1275,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Review Request Automation for Med Spas",
+    description:
+      "A narrower med spa post-visit reputation page focused on asking for reviews at the right time, routing unhappy replies before a public ask, and turning completed consultations and treatment visits into cleaner local-trust follow-up.",
+    href: "/review-request-automation-for-med-spas",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Roofing Companies",
     description:
       "AI automation for roofing companies. Lead follow-up, estimate follow-up, missed call text-back, storm season handling, and review automation.",
