@@ -1372,8 +1372,20 @@
         "Missed call text-back for cleaning companies",
         "How do cleaning companies text back missed calls automatically?",
         "Best way for a cleaning company to respond after missing a call",
-        "Should a cleaning company use missed-call text-back or just voicemail?",
+        "What should a cleaning company missed-call text-back workflow actually say after a missed call?",
         "How do I stop losing cleaning jobs when nobody answers the phone?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-voicemail-for-cleaning-companies",
+      "path": "/missed-call-text-back-vs-voicemail-for-cleaning-companies",
+      "label": "Missed Call Text-Back vs. Voicemail for Cleaning Companies",
+      "prompts": [
+        "Missed call text-back vs voicemail for cleaning companies",
+        "Should a cleaning company use missed-call text-back or voicemail?",
+        "Is voicemail enough for a cleaning company when quote calls get missed?",
+        "When should a cleaning company use missed-call text-back instead of voicemail and callbacks?",
+        "Best cleaning-company missed-call recovery setup text-back or voicemail"
       ]
     },
     {

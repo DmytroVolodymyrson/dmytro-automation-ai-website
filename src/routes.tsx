@@ -156,6 +156,7 @@ import AiAutomationForCleaningCompanies from "./pages/AiAutomationForCleaningCom
 import WhatToAutomateFirstForCleaningCompanies from "./pages/WhatToAutomateFirstForCleaningCompanies";
 import QuoteFollowUpAutomationForCleaningCompanies from "./pages/QuoteFollowUpAutomationForCleaningCompanies";
 import MissedCallTextBackForCleaningCompanies from "./pages/MissedCallTextBackForCleaningCompanies";
+import MissedCallTextBackVsVoicemailForCleaningCompanies from "./pages/MissedCallTextBackVsVoicemailForCleaningCompanies";
 import ClientReactivationAutomationForCleaningCompanies from "./pages/ClientReactivationAutomationForCleaningCompanies";
 import AiAutomationForMedSpas from "./pages/AiAutomationForMedSpas";
 import WhatToAutomateFirstForMedSpas from "./pages/WhatToAutomateFirstForMedSpas";
@@ -437,6 +438,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/what-to-automate-first-for-cleaning-companies", element: <WhatToAutomateFirstForCleaningCompanies /> },
   { path: "/quote-follow-up-automation-for-cleaning-companies", element: <QuoteFollowUpAutomationForCleaningCompanies /> },
   { path: "/missed-call-text-back-for-cleaning-companies", element: <MissedCallTextBackForCleaningCompanies /> },
+  { path: "/missed-call-text-back-vs-voicemail-for-cleaning-companies", element: <MissedCallTextBackVsVoicemailForCleaningCompanies /> },
   { path: "/client-reactivation-automation-for-cleaning-companies", element: <ClientReactivationAutomationForCleaningCompanies /> },
   { path: "/ai-automation-for-med-spas", element: <AiAutomationForMedSpas /> },
   { path: "/what-to-automate-first-for-med-spas", element: <WhatToAutomateFirstForMedSpas /> },

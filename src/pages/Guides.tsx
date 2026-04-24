@@ -1107,6 +1107,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. Voicemail for Cleaning Companies",
+    description:
+      "Cleaning-company buyer guide for deciding when SMS-first missed-call recovery is a better fallback than voicemail and callbacks, when voicemail is still acceptable, and when the business has already outgrown both into live AI phone coverage.",
+    href: "/missed-call-text-back-vs-voicemail-for-cleaning-companies",
+    category: "industries",
+  },
+  {
     title: "Client Reactivation Automation for Cleaning Companies",
     description:
       "A narrower cleaning-company retention page focused on dormant clients, repeat-booking timing, recurring-service restart, and practical handoff when past customers become active again.",
