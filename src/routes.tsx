@@ -171,6 +171,7 @@ import CrmAutomationForContractors from "./pages/CrmAutomationForContractors";
 import CrmPipelineStagesForContractors from "./pages/CrmPipelineStagesForContractors";
 import EstimateFollowUpAutomationForContractors from "./pages/EstimateFollowUpAutomationForContractors";
 import EstimateFollowUpAutomationForRoofingCompanies from "./pages/EstimateFollowUpAutomationForRoofingCompanies";
+import RoofingSchedulingAndFollowUpAutomation from "./pages/RoofingSchedulingAndFollowUpAutomation";
 import DispatchHandoffAutomationForContractors from "./pages/DispatchHandoffAutomationForContractors";
 import JobIntakeRoutingAutomationForContractors from "./pages/JobIntakeRoutingAutomationForContractors";
 import LeadFollowUpAutomationExamples from "./pages/LeadFollowUpAutomationExamples";
@@ -408,6 +409,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/crm-automation-setup-vs-diy-for-contractors", element: <CrmAutomationSetupVsDiyForContractors /> },
   { path: "/estimate-follow-up-automation-for-contractors", element: <EstimateFollowUpAutomationForContractors /> },
   { path: "/estimate-follow-up-automation-for-roofing-companies", element: <EstimateFollowUpAutomationForRoofingCompanies /> },
+  { path: "/roofing-scheduling-and-follow-up-automation", element: <RoofingSchedulingAndFollowUpAutomation /> },
   { path: "/dispatch-handoff-automation-for-contractors", element: <DispatchHandoffAutomationForContractors /> },
   { path: "/job-intake-routing-automation-for-contractors", element: <JobIntakeRoutingAutomationForContractors /> },
   { path: "/lead-follow-up-automation-examples", element: <LeadFollowUpAutomationExamples /> },

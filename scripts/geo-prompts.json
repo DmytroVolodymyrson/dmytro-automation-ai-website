@@ -1313,7 +1313,7 @@
         "How can AI help my roofing business with lead follow-up?",
         "Best AI automation for roofing lead management",
         "What roofing workflows are actually worth automating first?",
-        "AI tools for roofing company scheduling and follow-up"
+        "How should a roofing company connect lead response, estimate follow-up, scheduling, and after-hours communication into one workflow?"
       ]
     },
     {
@@ -1326,6 +1326,18 @@
         "Best way to recover open roof quotes",
         "Roofing estimate reminder workflow",
         "How do I stop losing roofing jobs after sending the estimate?"
+      ]
+    },
+    {
+      "id": "roofing-scheduling-and-follow-up-automation",
+      "path": "/roofing-scheduling-and-follow-up-automation",
+      "label": "Roofing Scheduling and Follow-Up Automation",
+      "prompts": [
+        "Roofing scheduling and follow-up automation",
+        "How do roofing companies automate scheduling and post-booking follow-up?",
+        "Best way to confirm roof inspections, reminders, and day-of updates automatically",
+        "How should a roofing company handle weather delays, reschedules, and homeowner updates after a job is booked?",
+        "Roofing booked-job reminder and office-to-crew handoff workflow"
       ]
     },
     {

@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped missed-call-text-back-vs-ai-phone-answering-for-hvac-companies after another proof-led reconciliation. The neat backlog was still exhausted, but the live HVAC phone-coverage cluster still held one exact tracked buyer decision inside the broader HVAC phone-answering page: when missed-call text-back is enough versus when live AI phone answering becomes the better fit. That query stayed materially distinct from the broader HVAC parent page, the legacy HVAC missed-call child, and the HVAC voicemail comparison page. The new page stays tightly on that phone-recovery decision — SMS-first recovery versus live AI coverage — while using only honest adjacent proof from the live HVAC cluster plus the published Paris Cafe phone-handling case study.)
+Last updated: 2026-04-23 (shipped roofing-scheduling-and-follow-up-automation after another proof-led reconciliation. The neat backlog was still exhausted, but the live roofing cluster still held one exact tracked booked-job workflow query inside the broader roofing parent page: scheduling and follow-through after the inspection or job is already booked. That query stayed materially distinct from the broader roofing parent page, the roofing estimate-follow-up child, and the roofing phone-recovery pages. The new page stays tightly on confirmations, reminders, weather-delay updates, reschedules, and office-to-crew handoff — while using only honest adjacent proof from the live roofing cluster, the HVAC scheduling sibling, the contractor dispatch-handoff page, and existing published workflow proof.)
 
 ## Live GEO Assets
 
@@ -154,6 +154,7 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-vs-ai-phone-answering-fo
 | AI Automation for Med Spas | `/ai-automation-for-med-spas` | Industry page | Live |
 | AI Automation for Roofing Companies | `/ai-automation-for-roofing-companies` | Industry page | Live |
 | Estimate Follow-Up Automation for Roofing Companies | `/estimate-follow-up-automation-for-roofing-companies` | Roofing workflow page | Live |
+| Roofing Scheduling and Follow-Up Automation | `/roofing-scheduling-and-follow-up-automation` | Roofing booked-job workflow page | Live |
 | Missed Call Text-Back for Roofing Companies | `/missed-call-text-back-for-roofing-companies` | Roofing phone-recovery workflow page | Live |
 | Missed Call Text-Back vs. AI Phone Answering for Roofing Companies | `/missed-call-text-back-vs-ai-phone-answering-for-roofing-companies` | Roofing phone-recovery decision page | Live |
 | AI Phone Answering for Roofing Companies | `/ai-phone-answering-for-roofing-companies` | Roofing live-phone-coverage workflow page | Live |
@@ -185,18 +186,18 @@ Last updated: 2026-04-23 (shipped missed-call-text-back-vs-ai-phone-answering-fo
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 164**
+**Total decision/comparison/industry pages live: 165**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/what-to-automate-first-for-contractors` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters.
+Shipping `/roofing-scheduling-and-follow-up-automation` still does not restore a neat backlog queue. The next run should not pretend there is a clean linear next page if there is not. It should start from a broad proof-led reconciliation again, then only ship another net-new page if a still-distinct buyer query survives across GEO-PLAN, geo-plan-2026-03, the pattern matrix, geo prompts, and the current live clusters.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Fallback** | Broad backlog reconciliation for one more proof-backed net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | The neat queue is still not trustworthy after the latest contractor first-project scoping child shipped. The next run should search for any remaining page that is proof-backed, materially distinct, and not just another rephrasing of a live cluster. | **Default next action** |
+| 1 | **Fallback** | Broad backlog reconciliation for one more proof-backed net-new page | Re-check GEO-PLAN, geo-plan-2026-03, programmatic matrix, geo prompts, and live clusters for any still-distinct query that has not been isolated yet | The neat queue is still not trustworthy after the latest roofing booked-job workflow child shipped. The next run should search for any remaining page that is proof-backed, materially distinct, and not just another rephrasing of a live cluster. | **Default next action** |
 | 2 | **Fallback** | Improve discovery/internal-link coverage on the strongest live clusters | Support already-live property-management, contractor, insurance, e-commerce, restaurant, auto-repair, GoHighLevel, n8n, voice-agent, roofing, and HVAC clusters without filler | Use this only if another full reconciliation still finds no defensible proof-backed net-new page. | **Maintenance-only fallback** |
 | 3 | **Watchlist** | Proof-led watchlist for future late-backlog pages | Keep a short list of candidate queries that only become valid if new proof, a new case study, or a clearly distinct tracked prompt emerges | Prevents future cron runs from forcing stale queue items after the latest extracted child page shipped. | **Use when fresh proof appears** |
 

@@ -172,6 +172,7 @@ const CrmAutomationForContractors = lazy(() => import("./pages/CrmAutomationForC
 const CrmPipelineStagesForContractors = lazy(() => import("./pages/CrmPipelineStagesForContractors"));
 const EstimateFollowUpAutomationForContractors = lazy(() => import("./pages/EstimateFollowUpAutomationForContractors"));
 const EstimateFollowUpAutomationForRoofingCompanies = lazy(() => import("./pages/EstimateFollowUpAutomationForRoofingCompanies"));
+const RoofingSchedulingAndFollowUpAutomation = lazy(() => import("./pages/RoofingSchedulingAndFollowUpAutomation"));
 const DispatchHandoffAutomationForContractors = lazy(() => import("./pages/DispatchHandoffAutomationForContractors"));
 const JobIntakeRoutingAutomationForContractors = lazy(() => import("./pages/JobIntakeRoutingAutomationForContractors"));
 const LeadFollowUpAutomationExamples = lazy(() => import("./pages/LeadFollowUpAutomationExamples"));
@@ -356,6 +357,7 @@ const AppRoutesClient = () => (
       <Route path="/crm-automation-setup-vs-diy-for-contractors" element={<CrmAutomationSetupVsDiyForContractors />} />
       <Route path="/estimate-follow-up-automation-for-contractors" element={<EstimateFollowUpAutomationForContractors />} />
       <Route path="/estimate-follow-up-automation-for-roofing-companies" element={<EstimateFollowUpAutomationForRoofingCompanies />} />
+      <Route path="/roofing-scheduling-and-follow-up-automation" element={<RoofingSchedulingAndFollowUpAutomation />} />
       <Route path="/dispatch-handoff-automation-for-contractors" element={<DispatchHandoffAutomationForContractors />} />
       <Route path="/job-intake-routing-automation-for-contractors" element={<JobIntakeRoutingAutomationForContractors />} />
       <Route path="/lead-follow-up-automation-examples" element={<LeadFollowUpAutomationExamples />} />

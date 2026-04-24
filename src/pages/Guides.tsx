@@ -1030,6 +1030,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Roofing Scheduling and Follow-Up Automation",
+    description:
+      "Booked-job confirmations, reminders, weather-delay updates, reschedules, and cleaner office-to-crew handoff for roofing companies that want fewer day-of gaps and fewer callback-worthy misses.",
+    href: "/roofing-scheduling-and-follow-up-automation",
+    category: "industries",
+  },
+  {
     title: "Missed Call Text-Back for Roofing Companies",
     description:
       "Missed call text-back for roofing companies. Immediate SMS recovery for storm-damage and inspection calls, callback triage, after-hours demand protection, and where live phone coverage is the better fit.",

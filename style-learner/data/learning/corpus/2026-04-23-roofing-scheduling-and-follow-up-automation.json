@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-roofing-scheduling-and-follow-up-automation",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Roofing Scheduling and Follow-Up Automation\nBody: Roofing companies do not only lose jobs on the first call or after the estimate. They also lose trust after the inspection or job is already booked: vague confirmations, weather-related changes, scattered notes, and poor office-to-crew handoff create avoidable confusion before the work even starts. This page narrows the workflow to that booked-job stage.\nSub: Below: what roofing scheduling and follow-up automation actually handles, how it stays distinct from the broader roofing parent page and the estimate / phone pages already live, what guardrails matter, and what adjacent proof supports it honestly.\n\n### Core sections\n- What roofing scheduling and follow-up automation actually handles\n- Roofing scheduling and follow-up vs. roofing estimate follow-up vs. roofing phone recovery\n- Is this a good fit for your roofing company?\n- Important guardrails for roofing booked-job workflows\n- How a practical roofing scheduling and follow-up system usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about automating roofing scheduling and booked-job follow-through\n- How is this different from the roofing estimate-follow-up page?\n- How is this different from the roofing phone-answering and missed-call pages?\n- What does a focused roofing scheduling-and-follow-up build usually cost?\n- Can this work with JobNimbus, AccuLynx, Jobber, ServiceTitan, or a custom stack?\n- What is the main ROI?\n\n### Final CTA\nHeading: Want booked roofing jobs to stay cleaner all the way to the crew handoff?\nBody: Book a 30-minute call. We will look at how your company handles confirmations, reminders, weather delays, and office-to-crew handoff today, then tell you whether a focused scheduling-and-follow-up workflow is the cleanest automation to build next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Selected because the reconciled backlog still had one exact tracked roofing query inside the parent page: scheduling and post-booking follow-through after the inspection or job is already on the calendar."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page separate from the broader roofing guide by staying tightly on confirmations, reminders, weather-delay updates, reschedules, and office-to-crew handoff — not estimate recovery or missed-call capture."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used bounded proof only: the broader roofing parent page, the HVAC scheduling sibling, the contractor dispatch-handoff page, and existing published workflow proof. Avoided pretending there is already a dedicated roofing scheduling case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: real workflow friction, real handoff points, and honest not-fit cases instead of inflated efficiency promises."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T00:05:23.006Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        4,
+        5,
+        3
+      ],
+      "avgSentenceLength": 17,
+      "sentenceLengthRange": [
+        4,
+        37
+      ],
+      "totalWords": 272
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Roofing Scheduling and Follow-Up Automation\nBody: Roofing companies do not only lose jobs on the first call or after the estimate.",
+      "wordCount": 23,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want booked roofing jobs to stay cleaner all the way to the crew handoff?\nBody: Book a 30-minute call. We will look at how your company handles confirmations, reminders, weather delays, and office-to-crew handoff today, then tell you whether a focused scheduling-and-follow-up workflow is the cleanest automation to build next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 14,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 7,
+      "colon": 8,
+      "commasPerSentence": 0.93
+    },
+    "vocabulary": {
+      "distinctWords": 140,
+      "totalWords": 272,
+      "topWords": [
+        [
+          "roofing",
+          16
+        ],
+        [
+          "-",
+          11
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "scheduling",
+          6
+        ],
+        [
+          "follow-up",
+          6
+        ],
+        [
+          "this",
+          6
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "estimate",
+          3
+        ],
+        [
+          "handoff",
+          3
+        ],
+        [
+          "booked-job",
+          3
+        ],
+        [
+          "handles",
+          3
+        ],
+        [
+          "from",
+          3
+        ],
+        [
+          "heading",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
