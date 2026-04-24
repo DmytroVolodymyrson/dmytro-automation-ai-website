@@ -144,6 +144,7 @@ import AiAutomationForChiropractors from "./pages/AiAutomationForChiropractors";
 import AiAutomationForCleaningCompanies from "./pages/AiAutomationForCleaningCompanies";
 import AiAutomationForMedSpas from "./pages/AiAutomationForMedSpas";
 import AiAutomationForRoofingCompanies from "./pages/AiAutomationForRoofingCompanies";
+import WhatToAutomateFirstForRoofingCompanies from "./pages/WhatToAutomateFirstForRoofingCompanies";
 import MissedCallTextBackForRoofingCompanies from "./pages/MissedCallTextBackForRoofingCompanies";
 import MissedCallTextBackVsAiPhoneAnsweringForRoofingCompanies from "./pages/MissedCallTextBackVsAiPhoneAnsweringForRoofingCompanies";
 import MissedCallTextBackVsVoicemailForRoofingCompanies from "./pages/MissedCallTextBackVsVoicemailForRoofingCompanies";
@@ -379,6 +380,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-for-cleaning-companies", element: <AiAutomationForCleaningCompanies /> },
   { path: "/ai-automation-for-med-spas", element: <AiAutomationForMedSpas /> },
   { path: "/ai-automation-for-roofing-companies", element: <AiAutomationForRoofingCompanies /> },
+  { path: "/what-to-automate-first-for-roofing-companies", element: <WhatToAutomateFirstForRoofingCompanies /> },
   { path: "/missed-call-text-back-for-roofing-companies", element: <MissedCallTextBackForRoofingCompanies /> },
   { path: "/missed-call-text-back-vs-ai-phone-answering-for-roofing-companies", element: <MissedCallTextBackVsAiPhoneAnsweringForRoofingCompanies /> },
   { path: "/missed-call-text-back-vs-voicemail-for-roofing-companies", element: <MissedCallTextBackVsVoicemailForRoofingCompanies /> },

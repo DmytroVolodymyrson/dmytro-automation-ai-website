@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-23-what-to-automate-first-for-roofing-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-23",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: What to Automate First for Roofing Companies\nBody: If your roofing company knows it needs better automation, the safest first move is usually not a giant all-in-one system. It is one bounded workflow that fixes an expensive leak. For most roofing companies, that first workflow is one of four things: missed-call recovery, estimate follow-up, booked-job scheduling and reminders, or live AI phone answering for heavier storm-season and after-hours coverage. The right choice depends on where jobs are already slipping today — before the inspection is booked, after the quote is sent, after the visit is already on the calendar, or when the office simply cannot answer enough live calls to protect demand.\nSub: Below: how to choose the first roofing workflow to automate, how this page stays distinct from the broader roofing parent page and the narrower child pages already live, what adjacent proof supports the recommendation, and when you should keep the first project smaller instead of forcing a bigger roofing automation rollout.\n\n### Core sections\n- The first roofing workflows usually worth automating\n- Which roofing workflow should you automate first?\n- This page vs. the rest of the roofing cluster\n- How to choose the first roofing automation without overbuilding\n- Relevant proof and adjacent proof\n\n### FAQ\nSubhead: Practical questions about choosing the first roofing automation\nTopics: what a roofing company should automate first, how this differs from the broader roofing page, whether the business should start with missed-call text-back or live AI phone answering, whether one narrow workflow can come before a bigger rebuild, and the ROI of choosing the first workflow correctly.\n\n### Final CTA\nHeading: Need help choosing the first roofing workflow to automate?\nBody: Book a 30-minute call. We will look at where your roofing company is leaking calls, estimates, booked jobs, or after-hours demand now, then recommend whether the first move should be missed-call recovery, estimate follow-up, booked-job communication, or a heavier live-phone layer before anything broader gets built.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the live roofing parent page still contained an exact first-project scoping query that stayed materially distinct from the broader parent and the already-live estimate, scheduling, missed-call, and phone-answering child pages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on first-project prioritization instead of drifting back into generic roofing automation copy or rehashing one narrower child workflow."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live roofing cluster plus the published Paris Café phone-handling proof and the published e-commerce CRM/follow-up proof as honest support instead of pretending there is already a dedicated roofing prioritization case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and low-hype: choose the clearest leak, keep the first project bounded, prove value, then expand from real operating evidence."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T00:33:11.321Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        3,
+        1,
+        3
+      ],
+      "avgSentenceLength": 27.2,
+      "sentenceLengthRange": [
+        4,
+        58
+      ],
+      "totalWords": 326
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: What to Automate First for Roofing Companies\nBody: If your roofing company knows it needs better automation, the safest first move is usually not a giant all-in-one system.",
+      "wordCount": 30,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help choosing the first roofing workflow to automate?\nBody: Book a 30-minute call. We will look at where your roofing company is leaking calls, estimates, booked jobs, or after-hours demand now, then recommend whether the first move should be missed-call recovery, estimate follow-up, booked-job communication, or a heavier live-phone layer before anything broader gets built.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 22,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 9,
+      "commasPerSentence": 2
+    },
+    "vocabulary": {
+      "distinctWords": 166,
+      "totalWords": 326,
+      "topWords": [
+        [
+          "roofing",
+          15
+        ],
+        [
+          "first",
+          13
+        ],
+        [
+          "workflow",
+          7
+        ],
+        [
+          "automate",
+          5
+        ],
+        [
+          "should",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "live",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "what",
+          3
+        ],
+        [
+          "company",
+          3
+        ],
+        [
+          "one",
+          3
+        ],
+        [
+          "missed-call",
+          3
+        ],
+        [
+          "already",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

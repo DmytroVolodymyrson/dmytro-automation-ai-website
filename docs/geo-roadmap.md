@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-23 (shipped what-to-automate-first-for-auto-repair-shops after another proof-led reconciliation. The neat backlog was still exhausted, but the live auto-repair cluster still held one exact scoping query inside the broader parent page: what the shop should automate first. That query stayed materially distinct from the broader auto-repair page and the already-live missed-call, estimate-follow-up, booked-visit, maintenance, and phone-answering child pages. The new page stays tightly on first-project prioritization — missed-call recovery, estimate follow-up, appointment reminders, or maintenance reactivation — while using only honest support from the live auto-repair cluster plus published phone-handling and CRM proof.)
+Last updated: 2026-04-23 (shipped what-to-automate-first-for-roofing-companies after another proof-led reconciliation. The neat backlog was still exhausted, but the live roofing cluster still held one exact first-project scoping query inside the broader parent page: what the company should automate first. That query stayed materially distinct from the broader roofing page and the already-live estimate, scheduling, missed-call, and phone-answering child pages. The new page stays tightly on first-project prioritization — missed-call recovery, estimate follow-up, booked-job scheduling, or heavier live AI phone coverage — while using only honest support from the live roofing cluster plus published phone-handling and CRM proof.)
 
 ## Live GEO Assets
 
@@ -153,6 +153,7 @@ Last updated: 2026-04-23 (shipped what-to-automate-first-for-auto-repair-shops a
 | AI Automation for Cleaning Companies | `/ai-automation-for-cleaning-companies` | Industry page | Live |
 | AI Automation for Med Spas | `/ai-automation-for-med-spas` | Industry page | Live |
 | AI Automation for Roofing Companies | `/ai-automation-for-roofing-companies` | Industry page | Live |
+| What to Automate First for Roofing Companies | `/what-to-automate-first-for-roofing-companies` | Roofing first-project scoping page | Live |
 | Estimate Follow-Up Automation for Roofing Companies | `/estimate-follow-up-automation-for-roofing-companies` | Roofing workflow page | Live |
 | Roofing Scheduling and Follow-Up Automation | `/roofing-scheduling-and-follow-up-automation` | Roofing booked-job workflow page | Live |
 | Missed Call Text-Back for Roofing Companies | `/missed-call-text-back-for-roofing-companies` | Roofing phone-recovery workflow page | Live |
@@ -187,7 +188,7 @@ Last updated: 2026-04-23 (shipped what-to-automate-first-for-auto-repair-shops a
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 166**
+**Total decision/comparison/industry pages live: 167**
 **Total case studies live: 3**
 
 ---

@@ -1312,8 +1312,20 @@
         "AI automation for roofing companies",
         "How can AI help my roofing business with lead follow-up?",
         "Best AI automation for roofing lead management",
-        "What roofing workflows are actually worth automating first?",
-        "How should a roofing company connect lead response, estimate follow-up, scheduling, and after-hours communication into one workflow?"
+        "How should a roofing company connect lead response, estimate follow-up, scheduling, and after-hours communication into one workflow?",
+        "Which roofing workflows usually need automation after the first project is already working?"
+      ]
+    },
+    {
+      "id": "what-to-automate-first-for-roofing-companies",
+      "path": "/what-to-automate-first-for-roofing-companies",
+      "label": "What to Automate First for Roofing Companies",
+      "prompts": [
+        "What should a roofing company automate first?",
+        "Should a roofer fix missed calls, estimate follow-up, scheduling, or phone coverage first?",
+        "Best first automation for roofing company",
+        "How should a roofing company prioritize calls, estimates, booked jobs, and after-hours coverage?",
+        "What is the highest ROI first automation project for a roofing company?"
       ]
     },
     {

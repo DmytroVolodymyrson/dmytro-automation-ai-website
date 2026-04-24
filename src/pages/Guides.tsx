@@ -1023,6 +1023,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Roofing Companies",
+    description:
+      "Scoping guide for roofing companies deciding whether the first workflow should be missed-call recovery, estimate follow-up, booked-job scheduling, or live AI phone coverage before a bigger automation build.",
+    href: "/what-to-automate-first-for-roofing-companies",
+    category: "industries",
+  },
+  {
     title: "Estimate Follow-Up Automation for Roofing Companies",
     description:
       "A narrower roofing workflow page focused on sent roof quotes that go cold — reminder timing, insurance-delay check-ins, estimator handoff, and open-estimate visibility before another job slips away.",
