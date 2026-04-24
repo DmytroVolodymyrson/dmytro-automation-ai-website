@@ -1037,6 +1037,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "New Patient Intake and Scheduling Automation for Chiropractors",
+    description:
+      "A narrower chiropractic first-visit workflow page focused on intake friction, insurance and paperwork handoff, scheduling momentum, reschedules, and getting more new-patient interest onto the calendar cleanly.",
+    href: "/new-patient-intake-and-scheduling-automation-for-chiropractors",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Cleaning Companies",
     description:
       "AI automation for cleaning companies. Lead follow-up, quote follow-up, missed call text-back, scheduling, client reactivation, and review automation.",

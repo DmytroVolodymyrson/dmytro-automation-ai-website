@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-24-new-patient-intake-and-scheduling-automation-for-chiropractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-24",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: New Patient Intake and Scheduling Automation for Chiropractors\nBody: A lot of chiropractic practices do not lose new patients because nobody is interested. They lose them in the awkward middle: the call was answered or the form came in, but the first visit never got booked cleanly. Intake paperwork was slow, insurance questions stalled the conversation, the front desk had to call back later, the patient asked to reschedule and the thread went cold, or nobody owned the handoff between initial interest and a confirmed appointment. New patient intake and scheduling automation for chiropractors fixes that narrower first-visit workflow. It keeps new-patient momentum moving from inquiry to booked visit with cleaner intake steps, clearer next actions, practical insurance and paperwork routing, and front-desk handoff that does not depend on memory.\nSub: Below: what this chiropractic workflow should actually handle, how it stays distinct from the broader chiropractor page and the first-project scoping page, what proof honestly supports it, and when intake friction is or is not the right next automation to build.\n\n### Core sections\n- What new-patient intake and scheduling automation should actually handle\n- This page vs. the rest of the chiropractic cluster\n- Is this a good fit for your chiropractic practice?\n- Guardrails that make chiropractic intake workflows actually work\n- How a practical chiropractic intake and scheduling workflow usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about automating new-patient intake and scheduling for chiropractors\nTopics: how this differs from the broader chiropractor automation page, how it differs from the first-project page, what a focused intake-and-scheduling workflow usually costs, whether it can work with current practice software, and what the main ROI actually is.\n\n### Final CTA\nHeading: Need more new-patient interest turning into real booked first visits?\nBody: Book a 30-minute call. We will look at how your practice handles first response, intake forms, insurance questions, scheduling, and reschedules today, then tell you whether a focused intake-and-scheduling workflow is the cleanest automation to build next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes, and `scripts/geo-prompts.json`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the roadmap explicitly flagged the chiropractic intake child as the cleanest next fallback after the recall page, and the live chiropractor parent plus first-project page already exposed first-visit conversion friction as a distinct workflow gap."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/ai-automation-for-chiropractors`, `/what-to-automate-first-for-chiropractors`, `/care-plan-recall-automation-for-chiropractors`, and `/booking-confirmation-and-reminder-automation` by staying only on the path from initial new-patient intent to a confirmed first visit."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live chiropractor cluster, the generic booking-confirmation guide, and the Paris Cafe immediate-response case study support the pattern without pretending there is already a dedicated chiropractic intake case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-24T11:03:45.682Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        3,
+        1,
+        3
+      ],
+      "avgSentenceLength": 25.7,
+      "sentenceLengthRange": [
+        5,
+        51
+      ],
+      "totalWords": 334
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: New Patient Intake and Scheduling Automation for Chiropractors\nBody: A lot of chiropractic practices do not lose new patients because nobody is interested.",
+      "wordCount": 25,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need more new-patient interest turning into real booked first visits?\nBody: Book a 30-minute call. We will look at how your practice handles first response, intake forms, insurance questions, scheduling, and reschedules today, then tell you whether a focused intake-and-scheduling workflow is the cleanest automation to build next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 20,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 9,
+      "commasPerSentence": 1.67
+    },
+    "vocabulary": {
+      "distinctWords": 168,
+      "totalWords": 334,
+      "topWords": [
+        [
+          "intake",
+          10
+        ],
+        [
+          "scheduling",
+          6
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "chiropractic",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "page",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "it",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "new-patient",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "actually",
+          4
+        ],
+        [
+          "new",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

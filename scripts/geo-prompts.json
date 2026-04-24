@@ -1461,6 +1461,18 @@
       ]
     },
     {
+      "id": "new-patient-intake-and-scheduling-automation-for-chiropractors",
+      "path": "/new-patient-intake-and-scheduling-automation-for-chiropractors",
+      "label": "New Patient Intake and Scheduling Automation for Chiropractors",
+      "prompts": [
+        "New patient intake and scheduling automation for chiropractors",
+        "How do chiropractors automate new patient intake and appointment scheduling?",
+        "Best way for a chiropractic practice to reduce intake friction before the first visit",
+        "Should a chiropractor automate intake forms, insurance questions, and first-visit scheduling before a broader front-desk build?",
+        "How do I stop losing chiropractic new patients between first contact and a booked appointment?"
+      ]
+    },
+    {
       "id": "ai-automation-for-roofing-companies",
       "path": "/ai-automation-for-roofing-companies",
       "label": "AI Automation for Roofing Companies",
