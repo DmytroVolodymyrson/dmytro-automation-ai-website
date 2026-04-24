@@ -2289,6 +2289,18 @@
       ]
     },
     {
+      "id": "what-to-automate-first-for-home-inspectors",
+      "path": "/what-to-automate-first-for-home-inspectors",
+      "label": "What to Automate First for Home Inspectors",
+      "prompts": [
+        "What should a home inspector automate first?",
+        "Should a home inspector fix slow lead follow-up, missed calls, booking friction, or report delivery first?",
+        "Best first automation for home inspectors",
+        "How should a home inspector prioritize agent response, scheduling, and post-inspection follow-up before a broader automation build?",
+        "What is the highest ROI first automation project for a home inspection business?"
+      ]
+    },
+    {
       "id": "ai-lead-follow-up-for-home-inspectors",
       "path": "/ai-lead-follow-up-for-home-inspectors",
       "label": "AI Lead Follow-Up for Home Inspectors",

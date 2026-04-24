@@ -1611,6 +1611,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Home Inspectors",
+    description:
+      "Home-inspector first-project scoping guide for choosing between lead follow-up, missed-call recovery, scheduling and reminders, and report-delivery closeout before funding a broader automation build.",
+    href: "/what-to-automate-first-for-home-inspectors",
+    category: "industries",
+  },
+  {
     title: "AI Lead Follow-Up for Home Inspectors",
     description:
       "Home-inspector early-funnel workflow for responding faster to agent and buyer inquiries, keeping referrals warm while you are still on-site, and handing booking intent back with context before the inspection is booked.",

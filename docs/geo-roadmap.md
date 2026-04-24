@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `quote-follow-up-automation-for-pest-control-companies` after a broad backlog reconciliation found the clearest surviving explicit workflow gap inside the live pest-control cluster. The parent page already named quote follow-up alongside urgent lead response, recurring-service reminders, seasonal campaigns, and review asks, but the shipped child set still had no quote-stage page. The new page stays distinct by focusing on sent quotes for one-time or higher-ticket pest-control jobs instead of rehashing urgent first response, retention, or phone coverage.)
+Last updated: 2026-04-24 (shipped `what-to-automate-first-for-home-inspectors` after a broad backlog reconciliation found a clean process-selection gap inside the mature home-inspector cluster. The live parent and child set already isolated early-funnel lead follow-up, booked-inspection scheduling, post-inspection report delivery, and the phone layer, but there was still no page helping an inspector choose which bounded workflow should come first. The new page stays distinct by framing the buyer decision one step earlier than the existing child pages instead of rehashing any single workflow.)
 
 ## Live GEO Assets
 
@@ -237,6 +237,7 @@ Last updated: 2026-04-24 (shipped `quote-follow-up-automation-for-pest-control-c
 | AI Phone Answering vs. Voicemail for Painting Contractors | `/ai-phone-answering-vs-voicemail-for-painting-contractors` | Painting phone-fallback decision page | Live |
 | Missed Call Text-Back vs. AI Phone Answering for Painting Contractors | `/missed-call-text-back-vs-ai-phone-answering-for-painting-contractors` | Painting phone-recovery decision page | Live |
 | AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
+| What to Automate First for Home Inspectors | `/what-to-automate-first-for-home-inspectors` | Home-inspector first-project scoping page | Live |
 | AI Lead Follow-Up for Home Inspectors | `/ai-lead-follow-up-for-home-inspectors` | Home-inspector early-funnel inquiry-response workflow page | Live |
 | Inspection Scheduling and Reminder Automation for Home Inspectors | `/inspection-scheduling-and-reminder-automation-for-home-inspectors` | Home-inspector booked-inspection scheduling workflow page | Live |
 | Report Delivery and Review Automation for Home Inspectors | `/report-delivery-and-review-automation-for-home-inspectors` | Home-inspector post-inspection closeout workflow page | Live |
@@ -258,20 +259,20 @@ Last updated: 2026-04-24 (shipped `quote-follow-up-automation-for-pest-control-c
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 232**
+**Total decision/comparison/industry pages live: 233**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/quote-follow-up-automation-for-pest-control-companies` closes the clearest still-explicit quote-stage gap inside the live pest-control cluster. That cluster now has the broad parent, the first-project scoping page, urgent lead follow-up, recurring-service reminders, seasonal campaigns, and the phone-decision pages, plus a dedicated quote-stage recovery child. The next run should not force another pest-control page by inertia just because the parent still mentions review asks. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only come back to a same-cluster child if that broader audit still cannot surface a cleaner proof-backed net-new page.
+Shipping `/what-to-automate-first-for-home-inspectors` closes a clean process-selection gap inside the mature home-inspector cluster. That cluster now has the broad parent, a first-project scoping page, early-funnel lead follow-up, booked-inspection scheduling, post-inspection report delivery, and the full phone-decision layer. The next run should not force another home-inspector page by inertia. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only come back to a same-cluster child if that broader audit still cannot surface a cleaner proof-backed net-new page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued** | Broad backlog reconciliation beyond the just-shipped pest-control quote-stage page | Re-check GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` for the strongest still-unshipped planned or extracted child page across all remaining clusters | The explicit pest-control quote-stage gap is now closed, so the next run should reset to a repo-wide distinct-intent audit instead of forcing another same-cluster ship. | **Best next content candidate** |
-| 2 | **Queued fallback** | Review-request / reputation-closeout children in mature service verticals | Re-check whether another live parent still names a distinct review-request, post-service closeout, or reputation-protection workflow that can stand alone without cannibalizing the broader vertical page | The pest-control parent still hints at review asks, but the next run should only return to that pattern if a fresh repo-wide reconciliation does not find a cleaner proof-backed page elsewhere. | **Fallback if broad audit is thin** |
-| 3 | **Queued fallback** | Discovery-surface reconciliation for the strongest live clusters | Audit routes vs Guides vs `llm.txt` / `llms.txt` / `sitemap.xml` / `scripts/geo-prompts.json` for the highest-value drift only if the next broad audit still finds no defensible net-new page | Use only if the next reconciliation cannot find a distinct proof-backed page worth shipping. | **Use only if backlog is exhausted** |
+| 1 | **Queued** | `what-to-automate-first-for-insurance-agencies` | Owners asking which insurance-agency workflow should come first before a broader automation rollout | The insurance cluster is now mature enough to support a first-project scoping page beside lead follow-up, renewals, quote follow-up, and cross-sell, but it still lacks that earlier buyer-decision layer. | **Best next content candidate** |
+| 2 | **Queued fallback** | `what-to-automate-first-for-mortgage-brokers` | Brokers asking whether to start with lead follow-up, document collection, or incomplete-application recovery | The mortgage-broker cluster already has a strong parent plus three narrow workflow children, so a first-project scoping page could still be a clean process-selection child if the next broad audit does not surface something stronger. | **Strong fallback** |
+| 3 | **Queued fallback** | Review-request / reputation-closeout children in mature service verticals | Re-check whether another live parent still names a distinct review-request, post-service closeout, or reputation-protection workflow that can stand alone without cannibalizing the broader vertical page | Use this only if the next broad reconciliation cannot find a cleaner proof-backed first-project or workflow child elsewhere. | **Fallback if broader audit is thin** |
 
 ### Priority Definitions
 
