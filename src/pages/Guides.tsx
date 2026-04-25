@@ -1163,6 +1163,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Review Request Automation for Insurance Agencies",
+    description:
+      "A narrower insurance reputation page focused on post-bind and post-service review timing, unhappy-reply routing, team ownership, and cleaner trust follow-through after a client moment feels complete.",
+    href: "/review-request-automation-for-insurance-agencies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Property Management",
     description:
       "AI automation for property management companies. Tenant communication, maintenance requests, lease renewals, showing scheduling, and owner reporting.",

@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-25-review-request-automation-for-insurance-agencies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-25",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "### Hero\nHeading: Review Request Automation for Insurance Agencies\nBody: Insurance agencies usually know reviews matter. The problem is not understanding that local trust helps new business. The problem is that the review ask rarely has a clear owner or a clean trigger. A policy gets bound, a rewrite gets finished, a service issue gets resolved, or a renewal save goes through — then the team moves on and the review request either never happens or goes out too early while the client still has a question. Review request automation for insurance agencies fixes that narrower reputation workflow. It helps the agency ask at a believable moment, gives happy clients a cleaner path to leave feedback, and routes uncertain replies back to a human before anyone is pushed toward a public rating.\nSub: Below: what a practical insurance-agency review-request workflow should actually handle, how it stays distinct from the broader insurance page and the current quote / renewal / cross-sell children, which guardrails matter most, and what proof honestly supports this page without pretending there is already a published insurance-specific review-automation case study on the site.\n\n### Core sections\n- What insurance review-request automation should actually handle\n- How this page stays distinct inside the insurance cluster\n- Is this a good fit for your agency?\n- Guardrails that keep insurance review automation useful\n- How a practical insurance review-request workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical answers for insurance agencies considering a cleaner review-request workflow\nTopics: how this differs from the broader insurance automation page, how it differs from quote follow-up or renewal automation, what a focused insurance review-request workflow usually costs, whether it should be tied to every policy event automatically, and where the ROI usually comes from.\n\n### Final CTA\nHeading: Need cleaner reputation follow-through after client wins?\nBody: Book a 30-minute call. We will look at how your agency handles post-bind and post-service follow-up today, where review asks are getting missed or mistimed, and whether a focused review-request workflow, a broader lifecycle fix, or no new build is the smarter next move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after fresh reconciliation showed the live insurance parent already named reviews and referrals as a distinct workflow family, while the cluster still lacked a dedicated post-service reputation child page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on the completed-client-moment layer: review timing, unhappy-reply routing, and account ownership after a policy or service interaction feels complete."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live insurance cluster, the adjacent med-spa review-request page, and the e-commerce CRM case study as honest adjacent proof without claiming an existing insurance-specific review-automation case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fit / not-fit framing, explicit service-recovery guardrails, and clear separation from quote-stage, renewal, and cross-sell workflows."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-25T12:00:27.235Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 26.6,
+      "sentenceLengthRange": [
+        5,
+        56
+      ],
+      "totalWords": 346
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Review Request Automation for Insurance Agencies\nBody: Insurance agencies usually know reviews matter.",
+      "wordCount": 15,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need cleaner reputation follow-through after client wins?\nBody: Book a 30-minute call. We will look at how your agency handles post-bind and post-service follow-up today, where review asks are getting missed or mistimed, and whether a focused review-request workflow, a broader lifecycle fix, or no new build is the smarter next move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 16,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.33
+    },
+    "vocabulary": {
+      "distinctWords": 181,
+      "totalWords": 346,
+      "topWords": [
+        [
+          "insurance",
+          11
+        ],
+        [
+          "review",
+          6
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "workflow",
+          6
+        ],
+        [
+          "review-request",
+          6
+        ],
+        [
+          "how",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "agencies",
+          4
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "from",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

@@ -969,6 +969,18 @@
       ]
     },
     {
+      "id": "review-request-automation-for-insurance-agencies",
+      "path": "/review-request-automation-for-insurance-agencies",
+      "label": "Review Request Automation for Insurance Agencies",
+      "prompts": [
+        "Review request automation for insurance agencies",
+        "How do insurance agencies automate review requests after policy wins or resolved service moments?",
+        "Best way for an insurance agency to ask happy clients for Google reviews without sounding pushy",
+        "Should an insurance agency automate review requests before building a broader referral campaign?",
+        "Insurance review request workflow for independent agencies"
+      ]
+    },
+    {
       "id": "ai-automation-for-property-management",
       "path": "/ai-automation-for-property-management",
       "label": "AI Automation for Property Management",

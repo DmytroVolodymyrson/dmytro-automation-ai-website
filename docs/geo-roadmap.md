@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `ai-phone-answering-vs-voicemail-for-law-firms` after a fresh reconciliation across GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The clean surviving child was the exact law-firm voicemail-vs-live decision already implied by the live law-firm phone-answering page and the broader cluster: the parent phone page still carried the buyer question about when live answering is worth it versus voicemail or manual callbacks, the cluster already had direct adjacent proof through the live law-firm phone-answering page plus the broader law-firm pages, and the page stays distinct by focusing on the heavier buyer decision itself rather than rewriting the generic voice-agent-vs-voicemail page or the broader law-firm phone explainer.)
+Last updated: 2026-04-25 (shipped `review-request-automation-for-insurance-agencies` after a fresh reconciliation across GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The clean surviving child was the insurance post-service reputation layer already implied by the live insurance parent page and the broader cluster: the parent page already named reviews and referrals alongside lead follow-up, quote follow-up, renewals, and cross-sell, the cluster already had direct adjacent proof through the live insurance workflow children plus other mature review-request pages, and the new page stays distinct by focusing on review timing and unhappy-reply routing after a client moment feels complete rather than rewriting the broader insurance explainer or any existing quote / renewal / cross-sell child.)
 
 ## Live GEO Assets
 
@@ -138,6 +138,7 @@ Last updated: 2026-04-25 (shipped `ai-phone-answering-vs-voicemail-for-law-firms
 | Renewal Reminder Automation for Insurance Agencies | `/renewal-reminder-automation-for-insurance-agencies` | Industry workflow page | Live |
 | Quote Follow-Up Automation for Insurance Agencies | `/quote-follow-up-automation-for-insurance-agencies` | Industry workflow page | Live |
 | Cross-Sell Automation for Insurance Agencies | `/cross-sell-automation-for-insurance-agencies` | Industry workflow page | Live |
+| Review Request Automation for Insurance Agencies | `/review-request-automation-for-insurance-agencies` | Insurance post-service reputation workflow page | Live |
 | AI Automation for Property Management | `/ai-automation-for-property-management` | Industry page | Live |
 | What to Automate First for Property Management Companies | `/what-to-automate-first-for-property-management-companies` | Property-management first-project scoping page | Live |
 | Lease Renewal Automation for Property Management Companies | `/lease-renewal-automation-for-property-management-companies` | Industry workflow page | Live |
@@ -313,18 +314,18 @@ Last updated: 2026-04-25 (shipped `ai-phone-answering-vs-voicemail-for-law-firms
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 286**
+**Total decision/comparison/industry pages live: 287**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-phone-answering-vs-voicemail-for-law-firms` closes the clearest surviving law-firm phone-fallback decision that still reconciled cleanly across the broader plan, the live cluster, and the prompt set. The exact heavier buyer query was already sitting on the live law-firm phone-answering page, and this child now owns that intent directly. There is no equally clean same-cluster law-firm sibling already re-verified across planning docs, live routes/pages, and prompts, so the next run should reset to broad backlog reconciliation instead of forcing another law-firm phone page by inertia.
+Shipping `/review-request-automation-for-insurance-agencies` extracts the remaining post-service reputation layer that the live insurance parent already named alongside lead follow-up, renewals, quote follow-up, and cross-sell. The new child owns that narrower buyer intent directly without pretending there is already a dedicated insurance review-automation case study on the site. The insurance cluster may still leave room for an after-hours inquiry / client-communication sibling, but that has not yet been re-verified cleanly across planning docs, live routes/pages, and prompts, so the next run should reset to broad backlog reconciliation instead of forcing another insurance page by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending another law-firm phone page is automatically next now that the clean voicemail-vs-live child has shipped. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending another insurance child is automatically next now that the clean review-request page has shipped. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 
