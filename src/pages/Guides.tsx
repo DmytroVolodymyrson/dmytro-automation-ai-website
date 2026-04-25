@@ -806,6 +806,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "CRM Cleanup vs Lead Follow-Up for Real Estate Teams",
+    description:
+      "A buyer-decision page for real-estate teams deciding whether the first fix should be cleaner CRM stages and routing or faster lead response and nurture based on which leak is more expensive today.",
+    href: "/crm-cleanup-vs-lead-follow-up-for-real-estate-teams",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Mortgage Brokers",
     description:
       "AI automation for mortgage brokers. Lead follow-up, document collection, application nurture, and CRM workflows. Practical guide for brokerages.",

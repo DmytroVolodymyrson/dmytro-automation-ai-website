@@ -55,6 +55,9 @@ Practical mortgage-broker first-project guide for owners deciding whether the fi
 ## What to Automate First for Real Estate Teams
 Practical real-estate first-project guide for owners and team leads deciding whether the first workflow should be lead response, showing coordination, CRM cleanup, or past-client reactivation before a broader automation rollout. Grounded in the live real-estate cluster plus published CRM and response proof. Learn more: https://www.dmytroai.com/what-to-automate-first-for-real-estate
 
+## CRM Cleanup vs Lead Follow-Up for Real Estate Teams
+Buyer-decision guide for real-estate teams deciding whether to fix messy CRM stages, routing, and ownership first or automate faster lead follow-up first. Covers which leak is actually more expensive, when each path should come first, and how to phase both without overbuilding. Learn more: https://www.dmytroai.com/crm-cleanup-vs-lead-follow-up-for-real-estate-teams
+
 ## Restaurant Private-Event Inquiry Follow-Up Guide
 How restaurants automate private-dining, buyout, large-party, and catering inquiry follow-up without making the sales process feel robotic. Covers fast acknowledgement, structured intake, reminder logic, and clean human handoff for event leads. Learn more: https://www.dmytroai.com/private-event-inquiry-follow-up-for-restaurants
 

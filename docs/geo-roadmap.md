@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `quote-follow-up-automation-for-hvac-companies` after the prior broad-reconciliation pass left it as the only clearly defensible HVAC watchlist item. The live HVAC cluster already had the broad parent, first-project scoping page, lead-response child, scheduling child, phone-layer pages, review-request child, maintenance-reminder child, and the older HVAC database-reactivation proof page, but it still lacked a bounded sent-quote recovery page. This new child now owns the quote-stage recovery intent directly instead of leaving it implied inside the broader HVAC parent and the earlier lead-follow-up / reactivation pages. With that quote-follow-up page now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster HVAC page by inertia.)
+Last updated: 2026-04-25 (shipped `crm-cleanup-vs-lead-follow-up-for-real-estate-teams` after broad backlog reconciliation surfaced one exact tracked buyer-decision query still buried inside the live real-estate cluster. The site already had the broader real-estate parent, the first-project scoping page, the lead-response child, the showing-coordination child, the client-reactivation child, and the CRM-cleanup child live, but it still lacked the explicit decision page that answers which fix should come first when both CRM mess and speed-to-lead problems exist. This new comparison page now owns that buyer choice directly instead of leaving it implied inside the narrower CRM-cleanup guide. With that real-estate decision page now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster real-estate page by inertia.)
 
 ## Live GEO Assets
 
@@ -71,6 +71,7 @@ Last updated: 2026-04-25 (shipped `quote-follow-up-automation-for-hvac-companies
 | What to Automate First for Real Estate Teams | `/what-to-automate-first-for-real-estate` | Real-estate first-project scoping page | Live |
 | Client Reactivation Automation for Real Estate Teams | `/client-reactivation-automation-for-real-estate-teams` | Real-estate lifecycle / past-client reactivation workflow page | Live |
 | CRM Cleanup and Routing for Real Estate Teams | `/crm-cleanup-and-routing-for-real-estate-teams` | Real-estate CRM operations workflow page | Live |
+| CRM Cleanup vs Lead Follow-Up for Real Estate Teams | `/crm-cleanup-vs-lead-follow-up-for-real-estate-teams` | Real-estate workflow-priority decision page | Live |
 | AI Automation for Mortgage Brokers | `/ai-automation-for-mortgage-brokers` | Industry page | Live |
 | AI Lead Follow-Up for Mortgage Brokers | `/ai-lead-follow-up-for-mortgage-brokers` | Industry workflow page | Live |
 | Document Collection Automation for Mortgage Brokers | `/document-collection-automation-for-mortgage-brokers` | Industry workflow page | Live |
@@ -333,7 +334,7 @@ Last updated: 2026-04-25 (shipped `quote-follow-up-automation-for-hvac-companies
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 306**
+**Total decision/comparison/industry pages live: 307**
 **Total case studies live: 3**
 
 ---
@@ -341,7 +342,7 @@ Last updated: 2026-04-25 (shipped `quote-follow-up-automation-for-hvac-companies
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/quote-follow-up-automation-for-hvac-companies` extracts the sent-estimate recovery layer that the broader HVAC parent page, the earlier lead-follow-up page, and the HVAC database-reactivation proof page were already implying, but without collapsing it back into speed-to-lead, booked-job scheduling, seasonal retention, or phone coverage. The HVAC cluster now has the broad parent, first-project scoping page, lead-response child, scheduling child, phone-layer pages, review-request child, maintenance-reminder child, and this quote-follow-up child live. With that quote-stage page now shipped, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster HVAC page by inertia.
+Shipping `/crm-cleanup-vs-lead-follow-up-for-real-estate-teams` extracts an exact buyer-decision query that the live real-estate CRM-cleanup page was already tracking, but without collapsing it back into the narrower cleanup explainer or the separate lead-response child page. The real-estate cluster now has the broad parent, first-project scoping page, lead-response child, showing-coordination child, client-reactivation child, CRM-cleanup child, and this workflow-priority decision page live. With that comparison now shipped, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster real-estate page by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|

@@ -676,8 +676,20 @@
         "CRM cleanup and routing for real estate teams",
         "How do real estate teams clean up a messy CRM before adding more automation?",
         "Best way to fix lead routing and stage discipline for a real estate team",
-        "Should a real estate team start with CRM cleanup or lead follow-up?",
+        "When should a real estate team fix CRM stages and routing before adding showing coordination or nurture workflows?",
         "How do you clean duplicates, ownership rules, and pipeline stages in a real-estate CRM?"
+      ]
+    },
+    {
+      "id": "crm-cleanup-vs-lead-follow-up-for-real-estate-teams",
+      "path": "/crm-cleanup-vs-lead-follow-up-for-real-estate-teams",
+      "label": "CRM Cleanup vs Lead Follow-Up for Real Estate Teams",
+      "prompts": [
+        "CRM cleanup vs lead follow-up for real estate teams",
+        "Should a real estate team start with CRM cleanup or lead follow-up?",
+        "When should a real estate team fix CRM stages before building faster lead follow-up?",
+        "What should a real estate team do first clean the CRM or automate first response?",
+        "Is messy CRM data the reason real estate lead follow-up automation is not working?"
       ]
     },
     {
