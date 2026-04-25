@@ -904,6 +904,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Appointment Scheduling and Reminder Automation for Electrical Contractors",
+    description:
+      "A narrower electrical booked-job workflow page focused on confirmations, reminder timing, reschedule routing, office-to-field handoff, and fewer preventable schedule gaps after the visit is already booked.",
+    href: "/appointment-scheduling-and-reminder-automation-for-electrical-contractors",
+    category: "industries",
+  },
+  {
     title: "Estimate Follow-Up Automation for Electrical Contractors",
     description:
       "A narrower electrical workflow page focused on sent panel-upgrade, rewiring, troubleshooting, and service quotes that go cold — reminder timing, objection-aware messaging, estimator handoff, and open-estimate visibility before another job slips away.",

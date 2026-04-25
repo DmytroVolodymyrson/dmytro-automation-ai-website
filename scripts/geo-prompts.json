@@ -2851,6 +2851,18 @@
         "Should an electrical contractor automate first response before worrying about estimate follow-up?",
         "How should an electrical company handle new web leads and inbound quote requests before they go cold?"
       ]
+    },
+    {
+      "id": "appointment-scheduling-and-reminder-automation-for-electrical-contractors",
+      "path": "/appointment-scheduling-and-reminder-automation-for-electrical-contractors",
+      "label": "Appointment Scheduling and Reminder Automation for Electrical Contractors",
+      "prompts": [
+        "Appointment scheduling and reminder automation for electrical contractors",
+        "How do electrical contractors automate booked-job confirmations and reminders?",
+        "Best way for an electrical contractor to handle reschedules and reminder texts after the visit is booked",
+        "Should an electrical contractor automate scheduling reminders before rebuilding the whole dispatch workflow?",
+        "How should an electrical company reduce missed booked visits and callback chaos after the appointment already exists?"
+      ]
     }
   ],
   "providers": [

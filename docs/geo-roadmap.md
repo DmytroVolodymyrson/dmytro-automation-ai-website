@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-electrical-contractors` after the required broad reconciliation across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json` still showed one clean early-funnel gap in the live electrical cluster. The new page stays separate by focusing only on first response, short nurture, light qualification, and office handoff before the estimate, booked-job, or phone layers take over.)
+Last updated: 2026-04-24 (shipped `appointment-scheduling-and-reminder-automation-for-electrical-contractors` after the required broad reconciliation still showed one clean booked-job gap in the live electrical cluster. The new page stays separate by focusing only on confirmations, reminder timing, reschedules, and office-to-field handoff after the visit is already booked, instead of rehashing the broader electrical page, early-funnel lead response, estimate recovery, or review follow-through.)
 
 ## Live GEO Assets
 
@@ -85,6 +85,7 @@ Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-electrical-contractors`
 | AI Automation for Electrical Contractors | `/ai-automation-for-electrical-contractors` | Industry page | Live |
 | What to Automate First for Electrical Contractors | `/what-to-automate-first-for-electrical-contractors` | Electrical first-project scoping page | Live |
 | AI Lead Follow-Up for Electrical Contractors | `/ai-lead-follow-up-for-electrical-contractors` | Electrical early-funnel lead-response workflow page | Live |
+| Appointment Scheduling and Reminder Automation for Electrical Contractors | `/appointment-scheduling-and-reminder-automation-for-electrical-contractors` | Electrical booked-job scheduling workflow page | Live |
 | Estimate Follow-Up Automation for Electrical Contractors | `/estimate-follow-up-automation-for-electrical-contractors` | Electrical quote-stage workflow page | Live |
 | Review Request Automation for Electrical Contractors | `/review-request-automation-for-electrical-contractors` | Electrical post-job reputation workflow page | Live |
 | CRM Automation for Contractors | `/crm-automation-for-contractors` | Industry / CRM systems page | Live |
@@ -283,20 +284,20 @@ Last updated: 2026-04-24 (shipped `ai-lead-follow-up-for-electrical-contractors`
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 256**
+**Total decision/comparison/industry pages live: 257**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-lead-follow-up-for-electrical-contractors` won the required broad reconciliation because the live electrical parent, the electrical first-project page, the broader planning docs, and the current live workflow mix still exposed one clean early-funnel gap without a dedicated child page. The electrical cluster now covers the broad parent, first-project scoping, early-funnel lead response, estimate recovery, and post-job review follow-through, so the next run should deliberately re-check the full backlog before giving electrical another turn by inertia.
+Shipping `/appointment-scheduling-and-reminder-automation-for-electrical-contractors` closed the cleanest booked-job gap in the live electrical cluster. That cluster now covers the broad parent, first-project scoping, early-funnel lead response, booked-job scheduling/reminders, estimate recovery, and post-job review follow-through, so the next run should deliberately re-check the full backlog before giving electrical another turn by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued workflow** | Fresh full backlog reconciliation across planning docs, live routes, and tracked prompts | Owners asking a still-clean workflow or decision question not yet isolated on the live site | The electrical early-funnel gap is now shipped. The next run should deliberately search for the best surviving distinct page instead of assuming the same cluster still deserves another turn. | **Required before naming the next exact slug** |
-| 2 | **Watchlist** | Appointment scheduling and reminder automation for electrical contractors (only if broad reconciliation still says it is the strongest surviving child) | Electrical contractors asking how to reduce booked-job confusion with confirmations, reminder timing, reschedules, and cleaner office-to-tech handoff after the appointment already exists | The live electrical parent and first-project page still name scheduling as a distinct workflow family, while the current electrical child set now isolates early-funnel response, estimate recovery, and review follow-through but not the booked-job layer. | **Needs next-run audit** |
-| 3 | **Watchlist** | Distinct non-electrical child surfaced by full backlog reconciliation | Owners asking a workflow or decision question that is still commercially clean and proof-supported | The backlog still needs a repo-wide pass before another exact slug is promoted. Prefer the strongest remaining proof-backed page even if it comes from a different cluster. | **Needs next-run audit** |
+| 1 | **Queued workflow** | Fresh full backlog reconciliation across planning docs, live routes, live parent copy, and tracked prompts | Owners asking a still-clean workflow or decision question not yet isolated on the live site | The electrical booked-job gap is now shipped. The next run should deliberately search for the strongest remaining distinct page instead of assuming the same cluster still deserves another child immediately. | **Required before naming the next exact slug** |
+| 2 | **Watchlist** | Missed call text-back for electrical contractors (only if the next repo-wide reconciliation still says the electrical phone layer is the strongest surviving child) | Electrical contractors asking how to recover missed inbound calls before the office can call back | The electrical parent and first-project page still name missed-call recovery as a distinct workflow family, while the current electrical child set now isolates lead response, scheduling, estimate recovery, and review follow-through but still lacks the lighter phone-recovery layer. | **Needs next-run audit** |
+| 3 | **Watchlist** | Distinct non-electrical child surfaced by full backlog reconciliation | Owners asking a workflow or decision question that is still commercially clean and proof-supported | The broader backlog still needs a repo-wide pass before another exact slug is promoted. Prefer the strongest remaining proof-backed page even if it comes from a different cluster. | **Needs next-run audit** |
 
 ### Priority Definitions
 
