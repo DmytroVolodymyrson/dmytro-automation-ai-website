@@ -3511,6 +3511,18 @@
         "Should an electrical contractor automate scheduling reminders before rebuilding the whole dispatch workflow?",
         "How should an electrical company reduce missed booked visits and callback chaos after the appointment already exists?"
       ]
+    },
+    {
+      "id": "ai-automation-for-solar-companies",
+      "path": "/ai-automation-for-solar-companies",
+      "label": "AI Automation for Solar Companies",
+      "prompts": [
+        "AI automation for solar companies",
+        "How can AI help my solar business close more leads?",
+        "Best AI automation for solar lead follow-up",
+        "Solar project management automation with AI",
+        "How to automate utility bill collection for solar quotes"
+      ]
     }
   ],
   "providers": [

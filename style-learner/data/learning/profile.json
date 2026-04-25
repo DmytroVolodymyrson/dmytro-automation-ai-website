@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-25T22:27:34.782Z",
-  "postCount": 335,
+  "updatedAt": "2026-04-25T22:53:50.690Z",
+  "postCount": 336,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,7 +15,7 @@
       "max": 11,
       "p25": 4,
       "p75": 4,
-      "samples": 335
+      "samples": 336
     },
     "sentenceLength": {
       "mean": 22.9,
@@ -24,16 +24,16 @@
       "max": 105,
       "p25": 18.8,
       "p75": 26.9,
-      "samples": 335
+      "samples": 336
     },
     "totalWords": {
-      "mean": 324.3,
-      "median": 327,
+      "mean": 325,
+      "median": 327.5,
       "min": 17,
       "max": 1155,
       "p25": 256,
       "p75": 367,
-      "samples": 335
+      "samples": 336
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -78,6 +78,7 @@
       "long | single | single | long | single": 1,
       "long | single | long | long | single | single | long | single | long": 8,
       "long | short | long | long | long | short | long | single | long": 3,
+      "long | long | long | long | long": 1,
       "long | short | long | long | single | single | long | single | long": 3,
       "long | single | long | long | short": 1,
       "long | single | short | long | single | long | single | long": 2,
@@ -126,6 +127,7 @@
       "opener | context | context | context | context | context | context | context | closer": 6,
       "opener | context | context | context | context | result | context | result | closer": 1,
       "opener | context | context | context | context | context | context | result | closer": 2,
+      "opener | result | context | context | closer": 1,
       "opener | context | context | result | context | context | context | context | closer": 2,
       "opener | product-pitch | context | context | context | context | context | context | closer": 1,
       "opener | product-pitch | context | context | context | context | context | closer": 1,
@@ -137,7 +139,7 @@
   "openers": {
     "patterns": {
       "situation": {
-        "count": 76,
+        "count": 77,
         "examples": [
           "Badge: The Person Behind the Automation",
           "Section heading: Common Questions\nSubheading: Straight answers about working wit",
@@ -188,7 +190,7 @@
         ]
       },
       "question": {
-        "count": 284,
+        "count": 285,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -227,7 +229,7 @@
     "topWords": [
       [
         "-",
-        1906
+        1917
       ],
       [
         "what",
@@ -235,7 +237,7 @@
       ],
       [
         "automation",
-        964
+        968
       ],
       [
         "ai",
@@ -274,12 +276,12 @@
         462
       ],
       [
-        "whether",
+        "follow-up",
         459
       ],
       [
-        "follow-up",
-        454
+        "whether",
+        459
       ],
       [
         "live",
@@ -287,7 +289,7 @@
       ],
       [
         "your",
-        407
+        416
       ],
       [
         "call",
@@ -315,7 +317,7 @@
       ],
       [
         "heading",
-        279
+        284
       ],
       [
         "missed-call",
@@ -335,7 +337,7 @@
       ],
       [
         "lead",
-        209
+        216
       ],
       [
         "crm",

@@ -94,6 +94,7 @@ import UnretainedConsultFollowUpForLawFirms from "./pages/UnretainedConsultFollo
 import CaseStatusUpdateAutomationForLawFirms from "./pages/CaseStatusUpdateAutomationForLawFirms";
 import AiPhoneAnsweringForLawFirms from "./pages/AiPhoneAnsweringForLawFirms";
 import AiPhoneAnsweringVsVoicemailForLawFirms from "./pages/AiPhoneAnsweringVsVoicemailForLawFirms";
+import AiAutomationForSolarCompanies from "./pages/AiAutomationForSolarCompanies";
 import AiAutomationForAccountingFirms from "./pages/AiAutomationForAccountingFirms";
 import DocumentCollectionAutomationForAccountingFirms from "./pages/DocumentCollectionAutomationForAccountingFirms";
 import ClientOnboardingAutomationForAccountingFirms from "./pages/ClientOnboardingAutomationForAccountingFirms";
@@ -462,6 +463,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/case-status-update-automation-for-law-firms", element: <CaseStatusUpdateAutomationForLawFirms /> },
   { path: "/ai-phone-answering-for-law-firms", element: <AiPhoneAnsweringForLawFirms /> },
   { path: "/ai-phone-answering-vs-voicemail-for-law-firms", element: <AiPhoneAnsweringVsVoicemailForLawFirms /> },
+  { path: "/ai-automation-for-solar-companies", element: <AiAutomationForSolarCompanies /> },
   { path: "/ai-automation-for-accounting-firms", element: <AiAutomationForAccountingFirms /> },
   { path: "/document-collection-automation-for-accounting-firms", element: <DocumentCollectionAutomationForAccountingFirms /> },
   { path: "/client-onboarding-automation-for-accounting-firms", element: <ClientOnboardingAutomationForAccountingFirms /> },

@@ -1179,6 +1179,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Automation for Solar Companies",
+    description:
+      "AI automation for solar installers and sales teams. Automate lead response, utility bill collection, site audit scheduling, and project status updates.",
+    href: "/ai-automation-for-solar-companies",
+    category: "industries",
+  },
+  {
     title: "Estimate Follow-Up Automation for Electrical Contractors",
     description:
       "A narrower electrical workflow page focused on sent panel-upgrade, rewiring, troubleshooting, and service quotes that go cold — reminder timing, objection-aware messaging, estimator handoff, and open-estimate visibility before another job slips away.",

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-25-ai-automation-for-solar-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-25",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for Solar Companies\nBody: Selling solar is a race against time. Every lead is expensive, and if you don't respond in seconds, they've already clicked the next ad. Once a lead is warm, project management becomes a communication nightmare: site audits, utility bills, financing approvals, and installation updates. AI automation handles the constant follow-up and document chasing so your sales team can focus on closing deals and your project managers can focus on the install.\n\n### Core sections\nHeading: What you can automate in a solar business\nBody: These automations handle the high-volume communication and document chasing that slows down solar projects:\n- Instant Lead Response: Every lead from your website, Facebook ads, or Google LSA gets an instant text and email. Prospects hear from you in under 60 seconds, which is the single biggest driver of solar lead conversion.\n- Utility Bill Collection: Automated reminders to homeowners to upload their utility bills. The system tracks what has been received and follows up on what is outstanding, so you don't have to manual chase docs for the quote.\n- Site Audit Scheduling: Homeowners can self-schedule site audits and consultations. The system syncs with your reps' calendars, sends reminders to reduce no-shows, and handles rescheduling automatically.\n- Project Milestone Updates: Automated SMS/email notifications at every stage: permit application submitted, equipment ordered, install date confirmed. Keeps the customer informed without manual calls.\n- Financing Nurture: Automated follow-up with leads who stalled at the financing stage. Clear the objections and keep the deal moving forward without your sales team getting bogged down.\n- Referral & Review Requests: Automatically request a Google review and a referral once the system is installed and PTO (Permission to Operate) is granted. Scale your word-of-mouth growth.\n\nHeading: Manual vs. automated solar operations\nBody: Solar companies that automate their communication cycle through the project faster. Automated leads get instant response, utility bills are chased by the system, and site audits are self-booked. Manual processes rely on rep availability, phone tag, and manual follow-up.\n\n### FAQ\nHeading: Practical answers for solar companies considering AI automation\n- Q: Which solar CRM do you work with? A: We primarily build on GoHighLevel but can integrate with JobNimbus, Aurora, and other platforms via Zapier or Make.\n- Q: How do you automate utility bill collection? A: The system sends a personalized secure upload link to the homeowner via SMS and email. It tracks the file arrival in your CRM. If the file isn't uploaded within 24 hours, it sends a polite reminder.\n- Q: Will this work for door-to-door leads? A: Yes. While most impact is seen on digital leads, door-to-door reps can use a simple mobile form to trigger the follow-up and project update sequences immediately.\n- Q: What does it cost to set up? A: A focused lead response and utility bill collection system runs $3K to $5K. A full project-milestone update and referral system typically runs $5K to $8K.\n- Q: How long does implementation take? A: Typically 2 to 4 weeks.\n\n### Final CTA\nHeading: Ready to stop losing expensive leads and start closing more solar projects?\nBody: Book a 30-minute call. We will look at your lead follow-up and project management workflows, identify the leaks, and give you a clear plan for automation. No obligation. No hard sell. Just a practical conversation about your solar operations.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Industry-specific (solar)"
+    },
+    {
+      "type": "tone_shift",
+      "description": "High-stakes (expensive leads, complex project management)"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Result-oriented (speed to lead, closing more deals)"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Professional and operational"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-25T22:53:50.610Z",
+    "structure": {
+      "paragraphCount": 5,
+      "sentencesPerParagraph": [
+        4,
+        12,
+        4,
+        14,
+        6
+      ],
+      "avgSentenceLength": 14,
+      "sentenceLengthRange": [
+        2,
+        46
+      ],
+      "totalWords": 558
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: AI Automation for Solar Companies\nBody: Selling solar is a race against time.",
+      "wordCount": 15,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Ready to stop losing expensive leads and start closing more solar projects?\nBody: Book a 30-minute call. We will look at your lead follow-up and project management workflows, identify the leaks, and give you a clear plan for automation. No obligation. No hard sell. Just a practical conversation about your solar operations.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | result | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 34,
+      "commas": 24,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 28,
+      "commasPerSentence": 0.6
+    },
+    "vocabulary": {
+      "distinctWords": 283,
+      "totalWords": 558,
+      "topWords": [
+        [
+          "solar",
+          11
+        ],
+        [
+          "-",
+          11
+        ],
+        [
+          "your",
+          9
+        ],
+        [
+          "lead",
+          7
+        ],
+        [
+          "system",
+          7
+        ],
+        [
+          "project",
+          6
+        ],
+        [
+          "utility",
+          6
+        ],
+        [
+          "can",
+          6
+        ],
+        [
+          "heading",
+          5
+        ],
+        [
+          "follow-up",
+          5
+        ],
+        [
+          "automated",
+          5
+        ],
+        [
+          "manual",
+          5
+        ],
+        [
+          "leads",
+          5
+        ],
+        [
+          "q",
+          5
+        ],
+        [
+          "automation",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
