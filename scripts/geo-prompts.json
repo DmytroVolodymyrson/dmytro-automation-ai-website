@@ -753,6 +753,18 @@
       ]
     },
     {
+      "id": "ai-lead-follow-up-for-accounting-firms",
+      "path": "/ai-lead-follow-up-for-accounting-firms",
+      "label": "AI Lead Follow-Up for Accounting Firms",
+      "prompts": [
+        "AI lead follow-up for accounting firms",
+        "How do accounting firms respond faster to new inquiries and referrals?",
+        "Best way for a CPA firm to automate first response before the consultation is booked",
+        "Should an accounting firm automate prospect response before a broader operations rebuild?",
+        "How can a bookkeeping firm stop new leads from going cold between first inquiry and a real consultation?"
+      ]
+    },
+    {
       "id": "ai-automation-for-insurance-agencies",
       "path": "/ai-automation-for-insurance-agencies",
       "label": "AI Automation for Insurance Agencies",

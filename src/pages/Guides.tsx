@@ -883,6 +883,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Lead Follow-Up for Accounting Firms",
+    description:
+      "Early-funnel accounting workflow for faster response to new inquiries and referrals — immediate reply timing, short nurture, light qualification, and cleaner partner/admin handoff before the consultation is booked.",
+    href: "/ai-lead-follow-up-for-accounting-firms",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Plumbing Companies",
     description:
       "AI automation for plumbing companies. Missed call text-back, lead follow-up, appointment scheduling, estimate follow-up, and review automation.",
