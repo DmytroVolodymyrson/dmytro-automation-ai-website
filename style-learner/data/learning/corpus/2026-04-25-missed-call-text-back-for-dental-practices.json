@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-25-missed-call-text-back-for-dental-practices",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-25",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back for Dental Practices\nBody: Many dental practices do not need a full live AI conversation every time the phone rings. They need a faster fallback than voicemail when the front desk is tied up, lunch starts, a team member calls out, or the office is already closed. A new patient calls, nobody answers, and by the time someone listens to voicemail the patient has already booked somewhere else. Missed-call text-back for dental practices is the lighter recovery layer between doing nothing and deploying full live AI phone coverage. The call is missed, a useful text goes out immediately, the patient gets a clear next step, and the office gets enough context to call back or book follow-up before the opportunity goes cold.\nSub: Below: what dental missed-call text-back should actually handle, how it stays distinct from the broader dental cluster and the heavier live-answering page, what proof honestly supports it, and when the practice has already outgrown SMS-first recovery into live phone coverage.\n\n### Core sections\n- Frames the page as the missing lighter phone-recovery layer inside the live dental cluster, not a rewrite of the broader dental parent or the heavier AI phone-answering page.\n- Keeps the workflow tightly bounded to what happens after the call is missed: immediate text acknowledgement, lightweight context capture, callback routing, and honest limits around what should never stay inside SMS.\n- Uses the live dental parent, the dental first-project page, the already-live dental AI phone-answering page, the generic missed-call guide, and the Paris Cafe phone-handling case study as the proof stack without pretending there is already a dental-only missed-call deployment case study.\n- Includes fit / not-fit framing, distinction from scheduling and reminders, FAQ, pricing guidance, and related links so the page answers a clean buyer question instead of cannibalizing nearby dental workflow pages.\n\n### FAQ\nSubhead: Straight answers for dental practices deciding whether SMS-first missed-call recovery is enough.\nTopics: whether missed-call text-back is enough for most practices, what the first text should say, how this differs from live AI phone answering, what a focused build usually costs, and when the office should skip text-back and go straight to live answering.\n\n### Final CTA\nHeading: Need a practical answer on missed-call recovery for your dental practice?\nBody: Book a 30-minute call. We will look at your missed-call pattern, whether voicemail is quietly costing new-patient demand, and whether the next step should be a focused text-back workflow, heavier live answering, or no phone automation at all right now.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because broad backlog reconciliation surfaced one exact lighter-phone gap still implied by the live dental cluster and the tracked dental phone prompts: the site had the heavier live-answering page and voicemail comparison, but not the SMS-first missed-call recovery layer that should sit before them."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps a disciplined distinction from `/ai-phone-answering-for-dental-practices` by staying on the fallback after the call is already missed rather than the heavier live-answering layer that answers in real time."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: live dental cluster plus generic missed-call and phone-handling proof, with no invented dental case study and no inflated claims about what SMS can handle inside a healthcare workflow."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and operational: front-desk overload, new-patient shopping behavior, callback ownership, and when the lighter workflow is enough before paying for a heavier phone stack."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-25T20:29:47.525Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        4,
+        2,
+        3
+      ],
+      "avgSentenceLength": 27.7,
+      "sentenceLengthRange": [
+        5,
+        42
+      ],
+      "totalWords": 415
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Missed Call Text-Back for Dental Practices\nBody: Many dental practices do not need a full live AI conversation every time the phone rings.",
+      "wordCount": 25,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a practical answer on missed-call recovery for your dental practice?\nBody: Book a 30-minute call. We will look at your missed-call pattern, whether voicemail is quietly costing new-patient demand, and whether the next step should be a focused text-back workflow, heavier live answering, or no phone automation at all right now.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 14,
+      "commas": 31,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 2.07
+    },
+    "vocabulary": {
+      "distinctWords": 210,
+      "totalWords": 415,
+      "topWords": [
+        [
+          "dental",
+          13
+        ],
+        [
+          "live",
+          8
+        ],
+        [
+          "missed-call",
+          8
+        ],
+        [
+          "text-back",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "page",
+          6
+        ],
+        [
+          "call",
+          5
+        ],
+        [
+          "practices",
+          5
+        ],
+        [
+          "ai",
+          5
+        ],
+        [
+          "phone",
+          5
+        ],
+        [
+          "should",
+          5
+        ],
+        [
+          "already",
+          4
+        ],
+        [
+          "recovery",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "whether",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.002
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

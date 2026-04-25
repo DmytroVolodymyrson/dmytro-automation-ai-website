@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 289 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 290 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -245,6 +245,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Recall and Reactivation Automation for Dental Practices** — `/recall-and-reactivation-automation-for-dental-practices`
 - **No-Show Reduction Automation for Dental Practices** — `/no-show-reduction-automation-for-dental-practices`
 - **Review Request Automation for Dental Practices** — `/review-request-automation-for-dental-practices`
+- **Missed Call Text-Back for Dental Practices** — `/missed-call-text-back-for-dental-practices`
 - **AI Phone Answering for Dental Practices** — `/ai-phone-answering-for-dental-practices`
 - **AI Phone Answering vs. Voicemail for Dental Practices** — `/ai-phone-answering-vs-voicemail-for-dental-practices`
 - **Real Estate Lead Response and Follow-Up Automation** — `/real-estate-lead-response-and-follow-up-automation`

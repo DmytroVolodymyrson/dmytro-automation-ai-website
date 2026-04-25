@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `crm-cleanup-vs-lead-follow-up-for-real-estate-teams` after broad backlog reconciliation surfaced one exact tracked buyer-decision query still buried inside the live real-estate cluster. The site already had the broader real-estate parent, the first-project scoping page, the lead-response child, the showing-coordination child, the client-reactivation child, and the CRM-cleanup child live, but it still lacked the explicit decision page that answers which fix should come first when both CRM mess and speed-to-lead problems exist. This new comparison page now owns that buyer choice directly instead of leaving it implied inside the narrower CRM-cleanup guide. With that real-estate decision page now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster real-estate page by inertia.)
+Last updated: 2026-04-25 (shipped `missed-call-text-back-for-dental-practices` after broad backlog reconciliation surfaced one exact surviving lighter-phone workflow gap inside the live dental cluster. The site already had the broader dental parent, the first-project scoping page, lead follow-up, booked-visit scheduling, recall/reactivation, no-show protection, review requests, and the heavier live phone-answering plus voicemail comparison pages live, but it still lacked the SMS-first missed-call recovery layer implied by both the cluster shape and the tracked dental phone prompts. This new page now owns that lighter fallback workflow directly instead of leaving it buried inside the heavier live-answering guide. With that dental phone-recovery child now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster dental page by inertia.)
 
 ## Live GEO Assets
 
@@ -84,6 +84,7 @@ Last updated: 2026-04-25 (shipped `crm-cleanup-vs-lead-follow-up-for-real-estate
 | Recall and Reactivation Automation for Dental Practices | `/recall-and-reactivation-automation-for-dental-practices` | Dental retention workflow page | Live |
 | No-Show Reduction Automation for Dental Practices | `/no-show-reduction-automation-for-dental-practices` | Dental attendance-protection workflow page | Live |
 | Review Request Automation for Dental Practices | `/review-request-automation-for-dental-practices` | Dental post-visit reputation workflow page | Live |
+| Missed Call Text-Back for Dental Practices | `/missed-call-text-back-for-dental-practices` | Dental lighter phone-recovery workflow page | Live |
 | AI Phone Answering for Dental Practices | `/ai-phone-answering-for-dental-practices` | Dental live-phone-coverage workflow page | Live |
 | AI Phone Answering vs. Voicemail for Dental Practices | `/ai-phone-answering-vs-voicemail-for-dental-practices` | Dental phone-fallback decision page | Live |
 | AI Automation for Law Firms | `/ai-automation-for-law-firms` | Industry page | Live |
@@ -334,7 +335,7 @@ Last updated: 2026-04-25 (shipped `crm-cleanup-vs-lead-follow-up-for-real-estate
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 307**
+**Total decision/comparison/industry pages live: 308**
 **Total case studies live: 3**
 
 ---
@@ -342,11 +343,11 @@ Last updated: 2026-04-25 (shipped `crm-cleanup-vs-lead-follow-up-for-real-estate
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/crm-cleanup-vs-lead-follow-up-for-real-estate-teams` extracts an exact buyer-decision query that the live real-estate CRM-cleanup page was already tracking, but without collapsing it back into the narrower cleanup explainer or the separate lead-response child page. The real-estate cluster now has the broad parent, first-project scoping page, lead-response child, showing-coordination child, client-reactivation child, CRM-cleanup child, and this workflow-priority decision page live. With that comparison now shipped, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster real-estate page by inertia.
+Shipping `/missed-call-text-back-for-dental-practices` extracts the lighter SMS-first phone-recovery workflow that the live dental phone cluster was already implying, without collapsing it back into the heavier live-answering explainer or the separate voicemail comparison page. The dental cluster now has the broad parent, first-project scoping page, lead follow-up, booked-visit scheduling, recall/reactivation, no-show reduction, review requests, the lighter missed-call child, and the heavier live-answering pages live. With that lighter phone layer now shipped, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster dental page by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the mature HVAC cluster automatically owns the next run now that quote recovery, seasonal retention, lead response, scheduling, and the phone layers are all isolated. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the mature dental phone cluster automatically owns the next run now that the lighter missed-call layer and the heavier live-answering pages are both isolated. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 

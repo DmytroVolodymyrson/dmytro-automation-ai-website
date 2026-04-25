@@ -813,13 +813,25 @@
       ]
     },
     {
+      "id": "missed-call-text-back-for-dental-practices",
+      "path": "/missed-call-text-back-for-dental-practices",
+      "label": "Missed Call Text-Back for Dental Practices",
+      "prompts": [
+        "Missed call text-back for dental practices",
+        "How should a dental practice text back missed patient calls automatically?",
+        "Best way for a dental office to respond to missed calls when the front desk is tied up",
+        "When is missed-call text-back enough for a dental practice before live AI phone answering?",
+        "Should a dental practice use missed-call text-back or voicemail after hours?"
+      ]
+    },
+    {
       "id": "ai-phone-answering-for-dental-practices",
       "path": "/ai-phone-answering-for-dental-practices",
       "label": "AI Phone Answering for Dental Practices",
       "prompts": [
         "AI phone answering for dental practices",
         "Best way for a dental office to answer patient calls after hours without hiring another front-desk person",
-        "When should a dental practice use live AI phone answering instead of a missed-call text-back workflow?",
+        "How should a dental practice handle after-hours new-patient calls when nobody can answer live?",
         "How can a dental office handle routine booking calls live when the front desk is tied up?",
         "How can a dental practice use live AI phone answering without replacing the front desk or pretending it gives clinical advice?"
       ]

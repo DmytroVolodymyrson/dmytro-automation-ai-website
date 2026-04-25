@@ -897,6 +897,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back for Dental Practices",
+    description:
+      "Dental missed-call recovery page focused on sending an immediate text after a missed patient call, capturing enough context for a better callback, and protecting new-patient demand before it slips to another office.",
+    href: "/missed-call-text-back-for-dental-practices",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Dental Practices",
     description:
       "Live patient-call coverage for dental practices that need after-hours answering, routine booking-question handling, cleaner front-desk handoff, and fewer appointments lost to voicemail or delayed callbacks.",
