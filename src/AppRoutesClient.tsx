@@ -80,6 +80,7 @@ const AiLeadFollowUpForPlumbingCompanies = lazy(() => import("./pages/AiLeadFoll
 const EstimateFollowUpAutomationForPlumbingCompanies = lazy(() => import("./pages/EstimateFollowUpAutomationForPlumbingCompanies"));
 const MissedCallTextBackForPlumbingCompanies = lazy(() => import("./pages/MissedCallTextBackForPlumbingCompanies"));
 const AiPhoneAnsweringForPlumbingCompanies = lazy(() => import("./pages/AiPhoneAnsweringForPlumbingCompanies"));
+const AppointmentSchedulingAndReminderAutomationForPlumbingCompanies = lazy(() => import("./pages/AppointmentSchedulingAndReminderAutomationForPlumbingCompanies"));
 const AiAutomationForElectricalContractors = lazy(() => import("./pages/AiAutomationForElectricalContractors"));
 const WhatToAutomateFirstForElectricalContractors = lazy(() => import("./pages/WhatToAutomateFirstForElectricalContractors"));
 const EstimateFollowUpAutomationForElectricalContractors = lazy(() => import("./pages/EstimateFollowUpAutomationForElectricalContractors"));
@@ -357,6 +358,7 @@ const AppRoutesClient = () => (
       <Route path="/estimate-follow-up-automation-for-plumbing-companies" element={<EstimateFollowUpAutomationForPlumbingCompanies />} />
       <Route path="/missed-call-text-back-for-plumbing-companies" element={<MissedCallTextBackForPlumbingCompanies />} />
       <Route path="/ai-phone-answering-for-plumbing-companies" element={<AiPhoneAnsweringForPlumbingCompanies />} />
+      <Route path="/appointment-scheduling-and-reminder-automation-for-plumbing-companies" element={<AppointmentSchedulingAndReminderAutomationForPlumbingCompanies />} />
       <Route path="/ai-automation-for-electrical-contractors" element={<AiAutomationForElectricalContractors />} />
       <Route path="/what-to-automate-first-for-electrical-contractors" element={<WhatToAutomateFirstForElectricalContractors />} />
       <Route path="/estimate-follow-up-automation-for-electrical-contractors" element={<EstimateFollowUpAutomationForElectricalContractors />} />

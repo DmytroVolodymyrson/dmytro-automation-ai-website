@@ -876,6 +876,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Appointment Scheduling and Reminder Automation for Plumbing Companies",
+    description:
+      "A narrower plumbing booked-job workflow page focused on confirmations, reminder timing, reschedule routing, office-to-tech handoff, and fewer preventable schedule gaps after the appointment is already booked.",
+    href: "/appointment-scheduling-and-reminder-automation-for-plumbing-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Electrical Contractors",
     description:
       "AI automation for electrical contractors. Lead follow-up, missed call text-back, scheduling, estimate follow-up, and review automation.",

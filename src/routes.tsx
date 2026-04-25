@@ -79,6 +79,7 @@ import AiLeadFollowUpForPlumbingCompanies from "./pages/AiLeadFollowUpForPlumbin
 import EstimateFollowUpAutomationForPlumbingCompanies from "./pages/EstimateFollowUpAutomationForPlumbingCompanies";
 import MissedCallTextBackForPlumbingCompanies from "./pages/MissedCallTextBackForPlumbingCompanies";
 import AiPhoneAnsweringForPlumbingCompanies from "./pages/AiPhoneAnsweringForPlumbingCompanies";
+import AppointmentSchedulingAndReminderAutomationForPlumbingCompanies from "./pages/AppointmentSchedulingAndReminderAutomationForPlumbingCompanies";
 import AiAutomationForElectricalContractors from "./pages/AiAutomationForElectricalContractors";
 import WhatToAutomateFirstForElectricalContractors from "./pages/WhatToAutomateFirstForElectricalContractors";
 import EstimateFollowUpAutomationForElectricalContractors from "./pages/EstimateFollowUpAutomationForElectricalContractors";
@@ -382,6 +383,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/estimate-follow-up-automation-for-plumbing-companies", element: <EstimateFollowUpAutomationForPlumbingCompanies /> },
   { path: "/missed-call-text-back-for-plumbing-companies", element: <MissedCallTextBackForPlumbingCompanies /> },
   { path: "/ai-phone-answering-for-plumbing-companies", element: <AiPhoneAnsweringForPlumbingCompanies /> },
+  { path: "/appointment-scheduling-and-reminder-automation-for-plumbing-companies", element: <AppointmentSchedulingAndReminderAutomationForPlumbingCompanies /> },
   { path: "/ai-automation-for-electrical-contractors", element: <AiAutomationForElectricalContractors /> },
   { path: "/what-to-automate-first-for-electrical-contractors", element: <WhatToAutomateFirstForElectricalContractors /> },
   { path: "/estimate-follow-up-automation-for-electrical-contractors", element: <EstimateFollowUpAutomationForElectricalContractors /> },

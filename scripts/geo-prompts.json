@@ -2793,6 +2793,18 @@
       ]
     },
     {
+      "id": "appointment-scheduling-and-reminder-automation-for-plumbing-companies",
+      "path": "/appointment-scheduling-and-reminder-automation-for-plumbing-companies",
+      "label": "Appointment Scheduling and Reminder Automation for Plumbing Companies",
+      "prompts": [
+        "Appointment scheduling and reminder automation for plumbing companies",
+        "How do plumbing companies automate booked-job confirmations and reminders?",
+        "Best way for a plumbing company to handle reschedules and reminder texts after the job is booked",
+        "Should a plumbing company automate scheduling reminders before rebuilding the whole dispatch workflow?",
+        "How should a plumbing company reduce missed booked jobs and callback chaos after the appointment already exists?"
+      ]
+    },
+    {
       "id": "estimate-follow-up-automation-for-electrical-contractors",
       "path": "/estimate-follow-up-automation-for-electrical-contractors",
       "label": "Estimate Follow-Up Automation for Electrical Contractors",
