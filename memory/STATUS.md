@@ -2,6 +2,14 @@
 
 **Last updated:** 2026-04-25 MDT
 
+## Update 2026-04-25 — Technical indexability audit for priority URLs
+- Browser session is not authenticated to GSC and no local Search Console API credentials exist, so GSC URL Inspection statuses remain `NOT INSPECTED` rather than guessed.
+- Added `scripts/audit-indexability.mjs` for reproducible public/live technical checks of the 25 priority URLs.
+- Audit results: 25/25 HTTP 200, 25/25 in sitemap, 25/25 self-canonical, 0 noindex, 0 robots-blocked.
+- Added `/best-ai-automation-for-service-businesses` to `scripts/geo-prompts.json`, bringing priority commercial/category page tracking to 22/25; the remaining 3 untracked URLs are homepage/guides/case-study hubs.
+- Updated `docs/geo-priority-urls.md` with full technical readiness columns, `NOT INSPECTED` GSC status per URL, and next manual GSC actions.
+- Verification: `node scripts/audit-indexability.mjs`, `npm run geo:weekly:dry`, and `npm run build` passed; build prerendered 322 routes.
+
 ## Update 2026-04-25 — Phase 1/2 GEO authority execution
 - Proceeded on GSC + entity cleanup foundation after Dmytro confirmed the sitemap shows 320 discovered pages.
 - Added `docs/geo-priority-urls.md` with a bounded 25-URL priority set, GSC status placeholders, GEO status, problem notes, and next actions.

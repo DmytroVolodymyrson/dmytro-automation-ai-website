@@ -21,6 +21,18 @@
       ]
     },
     {
+      "id": "best-ai-automation-for-service-businesses",
+      "path": "/best-ai-automation-for-service-businesses",
+      "label": "Best AI Automations for Service Businesses",
+      "prompts": [
+        "Best AI automations for service businesses",
+        "What are the highest ROI AI automations for a service business?",
+        "Which business processes should a service company automate first?",
+        "Best automation ideas for HVAC dental legal and real estate service businesses",
+        "What AI automations are actually worth building for a small service business?"
+      ]
+    },
+    {
       "id": "n8n-vs-zapier-small-business",
       "path": "/n8n-vs-zapier-small-business",
       "label": "n8n vs Zapier for Small Business",
