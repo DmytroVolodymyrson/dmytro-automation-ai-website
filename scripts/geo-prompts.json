@@ -717,6 +717,18 @@
       ]
     },
     {
+      "id": "client-onboarding-automation-for-accounting-firms",
+      "path": "/client-onboarding-automation-for-accounting-firms",
+      "label": "Client Onboarding Automation for Accounting Firms",
+      "prompts": [
+        "Client onboarding automation for accounting firms",
+        "How do accounting firms automate client onboarding after the engagement letter is signed?",
+        "Best way for a CPA firm to standardize engagement letters intake forms and portal setup",
+        "Should an accounting firm automate client onboarding before appointment scheduling or seasonal campaigns?",
+        "How can a bookkeeping firm automate new-client intake without manual email follow-up?"
+      ]
+    },
+    {
       "id": "ai-automation-for-insurance-agencies",
       "path": "/ai-automation-for-insurance-agencies",
       "label": "AI Automation for Insurance Agencies",

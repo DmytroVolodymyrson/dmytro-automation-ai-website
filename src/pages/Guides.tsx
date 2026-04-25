@@ -855,6 +855,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Client Onboarding Automation for Accounting Firms",
+    description:
+      "Standardize engagement-letter delivery, intake forms, portal setup, kickoff scheduling, and first-step follow-up so new accounting clients stop entering the firm through inbox chaos.",
+    href: "/client-onboarding-automation-for-accounting-firms",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Accounting Firms",
     description:
       "Scoping guide for accounting firms deciding whether the first automation should be document collection, onboarding, appointment scheduling, prospect response, or seasonal client re-engagement before a broader rollout.",
