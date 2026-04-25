@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `review-request-automation-for-insurance-agencies` after a fresh reconciliation across GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The clean surviving child was the insurance post-service reputation layer already implied by the live insurance parent page and the broader cluster: the parent page already named reviews and referrals alongside lead follow-up, quote follow-up, renewals, and cross-sell, the cluster already had direct adjacent proof through the live insurance workflow children plus other mature review-request pages, and the new page stays distinct by focusing on review timing and unhappy-reply routing after a client moment feels complete rather than rewriting the broader insurance explainer or any existing quote / renewal / cross-sell child.)
+Last updated: 2026-04-25 (shipped `after-hours-inquiry-handling-for-insurance-agencies` after re-checking the broad docs, current live insurance cluster, and prompt inventory for a remaining clean child page. The live insurance parent still explicitly carried client communication as an unisolated workflow family, the current insurance child set already covered lead follow-up, quote follow-up, renewals, cross-sell, and review requests, and the surviving gap was the narrower off-hours communication layer: quote requests, missed calls, and client questions that arrive when the office is closed. The new page stays distinct by focusing on after-hours acknowledgement, urgency-based routing, and cleaner morning handoff rather than rewriting the broader insurance explainer or the existing lead / quote / renewal children.)
 
 ## Live GEO Assets
 
@@ -139,6 +139,7 @@ Last updated: 2026-04-25 (shipped `review-request-automation-for-insurance-agenc
 | Quote Follow-Up Automation for Insurance Agencies | `/quote-follow-up-automation-for-insurance-agencies` | Industry workflow page | Live |
 | Cross-Sell Automation for Insurance Agencies | `/cross-sell-automation-for-insurance-agencies` | Industry workflow page | Live |
 | Review Request Automation for Insurance Agencies | `/review-request-automation-for-insurance-agencies` | Insurance post-service reputation workflow page | Live |
+| After-Hours Inquiry Handling for Insurance Agencies | `/after-hours-inquiry-handling-for-insurance-agencies` | Insurance overnight communication workflow page | Live |
 | AI Automation for Property Management | `/ai-automation-for-property-management` | Industry page | Live |
 | What to Automate First for Property Management Companies | `/what-to-automate-first-for-property-management-companies` | Property-management first-project scoping page | Live |
 | Lease Renewal Automation for Property Management Companies | `/lease-renewal-automation-for-property-management-companies` | Industry workflow page | Live |
@@ -314,18 +315,18 @@ Last updated: 2026-04-25 (shipped `review-request-automation-for-insurance-agenc
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 287**
+**Total decision/comparison/industry pages live: 288**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/review-request-automation-for-insurance-agencies` extracts the remaining post-service reputation layer that the live insurance parent already named alongside lead follow-up, renewals, quote follow-up, and cross-sell. The new child owns that narrower buyer intent directly without pretending there is already a dedicated insurance review-automation case study on the site. The insurance cluster may still leave room for an after-hours inquiry / client-communication sibling, but that has not yet been re-verified cleanly across planning docs, live routes/pages, and prompts, so the next run should reset to broad backlog reconciliation instead of forcing another insurance page by inertia.
+Shipping `/after-hours-inquiry-handling-for-insurance-agencies` extracts the remaining off-hours communication layer that the live insurance parent still named after the lead, quote, renewal, cross-sell, and review children were already live. That child now owns the overnight buyer intent directly: missed calls, late quote requests, and off-hours client questions that need acknowledgement, basic routing, and cleaner morning handoff without pretending there is already a published insurance-specific after-hours case study. With that insurance communication gap now shipped, the next run should reset to broad backlog reconciliation across the rest of the live clusters and planning docs instead of forcing yet another insurance child by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending another insurance child is automatically next now that the clean review-request page has shipped. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the insurance cluster still automatically owns the next run now that the off-hours communication child has shipped. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 

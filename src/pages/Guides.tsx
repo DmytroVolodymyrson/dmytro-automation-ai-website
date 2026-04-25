@@ -1170,6 +1170,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "After-Hours Inquiry Handling for Insurance Agencies",
+    description:
+      "A narrower insurance communication page focused on missed calls, after-hours quote requests, off-hours client questions, urgency-based routing, and cleaner morning handoff when the office is closed.",
+    href: "/after-hours-inquiry-handling-for-insurance-agencies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Property Management",
     description:
       "AI automation for property management companies. Tenant communication, maintenance requests, lease renewals, showing scheduling, and owner reporting.",
