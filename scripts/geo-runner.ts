@@ -197,8 +197,10 @@ function assertCliAvailable(command: string, testArgs: string[], label: string):
 // ---------------------------------------------------------------------------
 
 async function queryOpenAICli(prompt: string): Promise<{ answer: string; citations: string[]; model: string }> {
-  // Use Codex CLI subscription — no OPENAI_API_KEY used
-  const result = execFileSync("codex", ["exec", prompt], {
+  // Use Codex CLI subscription — no OPENAI_API_KEY used.
+  // Pin the model because the local Codex default can move ahead of the installed CLI.
+  const model = "gpt-5.4";
+  const result = execFileSync("codex", ["exec", "-m", model, prompt], {
     timeout: 120_000,
     stdio: ["pipe", "pipe", "pipe"],
     encoding: "utf-8",
@@ -208,7 +210,7 @@ async function queryOpenAICli(prompt: string): Promise<{ answer: string; citatio
   const answer = result.trim();
   const citations = extractUrlsFromText(answer);
 
-  return { answer, citations, model: "codex-cli" };
+  return { answer, citations, model: `codex-cli:${model}` };
 }
 
 async function queryClaudeCli(prompt: string): Promise<{ answer: string; citations: string[]; model: string }> {

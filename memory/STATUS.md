@@ -7,6 +7,7 @@
 - Ran an OpenAI GEO provider smoke test through the new `codex exec` CLI path with no local `OPENAI_API_KEY` or `ANTHROPIC_API_KEY` active. The OpenAI provider now authenticates and runs through Codex subscription instead of OpenAI API.
 - During the verification window, the scheduled GEO expansion worker also shipped `/client-reactivation-automation-for-auto-repair-shops`; paused GEO cron jobs to avoid further race conditions, cleaned the temporary GEO smoke result artifacts, kept the worker's coherent page ship, and verified build.
 - New page wiring includes the decision-page data file, page wrapper, both route files, Guides, sitemap, `llm.txt`, `llms.txt`, GEO prompts, roadmap/tracking docs, and style-learner artifacts.
+- Pinned Codex GEO runner to `gpt-5.4` after verification showed the local Codex default `gpt-5.5` requires a newer CLI; OpenAI GEO smoke now runs through Codex subscription and scored normally.
 - Verification: `scripts/geo-prompts.json` parses successfully; `npm run build` passed and prerendered 312 routes.
 
 ## Update 2026-04-25 07:48 MDT

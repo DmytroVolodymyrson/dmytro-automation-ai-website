@@ -29,7 +29,7 @@ OpenAI and Claude use local CLI subscriptions — flat-rate, no pay-per-token AP
 
 | Provider | CLI Command | Subscription | Install |
 |----------|-------------|--------------|---------|
-| OpenAI | `codex exec` | Codex CLI subscription | Install `codex`, then authenticate |
+| OpenAI | `codex exec -m gpt-5.4` | Codex CLI subscription | Install `codex`, then authenticate |
 | Claude | `claude -p` | Claude Code Max subscription | Install `claude`, then authenticate |
 
 The runner verifies each CLI is installed and authenticated before making any calls. If a CLI is missing or unauthenticated, that provider is skipped with a clear error; if no providers remain, the run exits. It will never fall back to an API key.
