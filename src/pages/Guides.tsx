@@ -848,6 +848,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Document Collection Automation for Accounting Firms",
+    description:
+      "Automated reminders for missing tax documents, incomplete-file tracking, secure upload next steps, and cleaner staff handoff without manual chasing during busy season.",
+    href: "/document-collection-automation-for-accounting-firms",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Accounting Firms",
     description:
       "Scoping guide for accounting firms deciding whether the first automation should be document collection, onboarding, appointment scheduling, prospect response, or seasonal client re-engagement before a broader rollout.",
