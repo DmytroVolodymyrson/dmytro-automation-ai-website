@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `maintenance-reminder-automation-for-hvac-companies` after broad backlog reconciliation surfaced one clean surviving HVAC child-page gap. The live HVAC cluster already had the broad parent, first-project scoping page, lead-response child, scheduling child, phone-layer pages, review-request child, and the older database-reactivation proof page, but it still lacked a bounded seasonal retention / service-due reminder page. This new child now owns that maintenance-reminder intent directly instead of leaving it implied inside the broader HVAC parent and the older reactivation page. With that HVAC retention page now live beside the existing parent and sibling workflow pages, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster HVAC page by inertia.)
+Last updated: 2026-04-25 (shipped `quote-follow-up-automation-for-hvac-companies` after the prior broad-reconciliation pass left it as the only clearly defensible HVAC watchlist item. The live HVAC cluster already had the broad parent, first-project scoping page, lead-response child, scheduling child, phone-layer pages, review-request child, maintenance-reminder child, and the older HVAC database-reactivation proof page, but it still lacked a bounded sent-quote recovery page. This new child now owns the quote-stage recovery intent directly instead of leaving it implied inside the broader HVAC parent and the earlier lead-follow-up / reactivation pages. With that quote-follow-up page now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster HVAC page by inertia.)
 
 ## Live GEO Assets
 
@@ -61,6 +61,7 @@ Last updated: 2026-04-25 (shipped `maintenance-reminder-automation-for-hvac-comp
 | AI Phone Answering vs. Voicemail for HVAC Companies | `/ai-phone-answering-vs-voicemail-for-hvac-companies` | HVAC phone-fallback decision page | Live |
 | Review Request Automation for HVAC Companies | `/review-request-automation-for-hvac-companies` | HVAC post-job reputation workflow page | Live |
 | Maintenance Reminder Automation for HVAC Companies | `/maintenance-reminder-automation-for-hvac-companies` | HVAC seasonal retention / service-due reminder workflow page | Live |
+| Quote Follow-Up Automation for HVAC Companies | `/quote-follow-up-automation-for-hvac-companies` | HVAC sent-quote recovery workflow page | Live |
 | AI Appointment Setter for Home Service Businesses | `/ai-appointment-setter-for-home-service-businesses` | Workflow / home services page | Live |
 | AI Consultant Alberta | `/ai-automation-consultant-alberta` | Geo landing page | Live |
 | AI Consultant Canada | `/ai-automation-consultant-canada` | Geo landing page | Live |
@@ -332,19 +333,19 @@ Last updated: 2026-04-25 (shipped `maintenance-reminder-automation-for-hvac-comp
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 305**
+**Total decision/comparison/industry pages live: 306**
 **Total case studies live: 3**
 
 ---
 
+
 ## Next Pages (Prioritized Queue)
 
-Shipping `/maintenance-reminder-automation-for-hvac-companies` extracts the narrower seasonal retention layer that the live HVAC parent page and the older HVAC database-reactivation proof page were already implying, but without collapsing it back into lead follow-up, scheduling, review requests, or live phone coverage. The HVAC cluster now has the broad parent, first-project scoping page, lead-response child, scheduling child, phone-layer pages, review-request child, and this maintenance-reminder child live. With that seasonal retention page now shipped, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster HVAC page by inertia.
+Shipping `/quote-follow-up-automation-for-hvac-companies` extracts the sent-estimate recovery layer that the broader HVAC parent page, the earlier lead-follow-up page, and the HVAC database-reactivation proof page were already implying, but without collapsing it back into speed-to-lead, booked-job scheduling, seasonal retention, or phone coverage. The HVAC cluster now has the broad parent, first-project scoping page, lead-response child, scheduling child, phone-layer pages, review-request child, maintenance-reminder child, and this quote-follow-up child live. With that quote-stage page now shipped, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster HVAC page by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the mature HVAC cluster automatically owns the next run now that its maintenance-reminder child is live beside the parent, first-project, scheduling, review, and phone pages. | **Fresh reconciliation required next run** |
-| 2 | **P2** | `quote-follow-up-automation-for-hvac-companies` (watchlist only) | HVAC quote-stage recovery for unsold estimates | The HVAC parent still explicitly names unsold-estimate follow-up as a separate revenue-recovery workflow, but it should only ship if the next full reconciliation still shows it is distinct from the broader lead-follow-up and database-reactivation pages. | **Needs fresh repo-wide verification before shipping** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the mature HVAC cluster automatically owns the next run now that quote recovery, seasonal retention, lead response, scheduling, and the phone layers are all isolated. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 

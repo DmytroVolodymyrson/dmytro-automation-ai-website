@@ -47,6 +47,7 @@ import MissedCallTextBackVsAiPhoneAnsweringForHvacCompanies from "./pages/Missed
 import AiPhoneAnsweringVsVoicemailForHvacCompanies from "./pages/AiPhoneAnsweringVsVoicemailForHvacCompanies";
 import ReviewRequestAutomationForHvacCompanies from "./pages/ReviewRequestAutomationForHvacCompanies";
 import MaintenanceReminderAutomationForHvacCompanies from "./pages/MaintenanceReminderAutomationForHvacCompanies";
+import QuoteFollowUpAutomationForHvacCompanies from "./pages/QuoteFollowUpAutomationForHvacCompanies";
 import AiAppointmentSetterForHomeServiceBusinesses from "./pages/AiAppointmentSetterForHomeServiceBusinesses";
 import AiAutomationNoTechTeam from "./pages/AiAutomationNoTechTeam";
 import AiVoiceAgentForRestaurants from "./pages/AiVoiceAgentForRestaurants";
@@ -390,6 +391,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-phone-answering-vs-voicemail-for-hvac-companies", element: <AiPhoneAnsweringVsVoicemailForHvacCompanies /> },
   { path: "/review-request-automation-for-hvac-companies", element: <ReviewRequestAutomationForHvacCompanies /> },
   { path: "/maintenance-reminder-automation-for-hvac-companies", element: <MaintenanceReminderAutomationForHvacCompanies /> },
+  { path: "/quote-follow-up-automation-for-hvac-companies", element: <QuoteFollowUpAutomationForHvacCompanies /> },
   { path: "/ai-appointment-setter-for-home-service-businesses", element: <AiAppointmentSetterForHomeServiceBusinesses /> },
   { path: "/ai-automation-for-businesses-without-a-tech-team", element: <AiAutomationNoTechTeam /> },
   { path: "/ai-voice-agent-for-restaurants", element: <AiVoiceAgentForRestaurants /> },

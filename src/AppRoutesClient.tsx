@@ -48,6 +48,7 @@ const MissedCallTextBackVsAiPhoneAnsweringForHvacCompanies = lazy(() => import("
 const AiPhoneAnsweringVsVoicemailForHvacCompanies = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForHvacCompanies"));
 const ReviewRequestAutomationForHvacCompanies = lazy(() => import("./pages/ReviewRequestAutomationForHvacCompanies"));
 const MaintenanceReminderAutomationForHvacCompanies = lazy(() => import("./pages/MaintenanceReminderAutomationForHvacCompanies"));
+const QuoteFollowUpAutomationForHvacCompanies = lazy(() => import("./pages/QuoteFollowUpAutomationForHvacCompanies"));
 const AiAppointmentSetterForHomeServiceBusinesses = lazy(() => import("./pages/AiAppointmentSetterForHomeServiceBusinesses"));
 const AiAutomationNoTechTeam = lazy(() => import("./pages/AiAutomationNoTechTeam"));
 const AiVoiceAgentForRestaurants = lazy(() => import("./pages/AiVoiceAgentForRestaurants"));
@@ -377,6 +378,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-phone-answering-vs-voicemail-for-hvac-companies" element={<AiPhoneAnsweringVsVoicemailForHvacCompanies />} />
       <Route path="/review-request-automation-for-hvac-companies" element={<ReviewRequestAutomationForHvacCompanies />} />
       <Route path="/maintenance-reminder-automation-for-hvac-companies" element={<MaintenanceReminderAutomationForHvacCompanies />} />
+      <Route path="/quote-follow-up-automation-for-hvac-companies" element={<QuoteFollowUpAutomationForHvacCompanies />} />
       <Route path="/ai-appointment-setter-for-home-service-businesses" element={<AiAppointmentSetterForHomeServiceBusinesses />} />
       <Route path="/ai-automation-for-businesses-without-a-tech-team" element={<AiAutomationNoTechTeam />} />
       <Route path="/ai-voice-agent-for-restaurants" element={<AiVoiceAgentForRestaurants />} />

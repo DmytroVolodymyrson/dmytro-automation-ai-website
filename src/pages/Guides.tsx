@@ -694,6 +694,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Quote Follow-Up Automation for HVAC Companies",
+    description:
+      "HVAC quote-recovery workflow for repair, replacement, and maintenance estimates that went quiet after pricing was sent. Covers reminder timing, objection-aware messaging, office handoff, and open-quote visibility.",
+    href: "/quote-follow-up-automation-for-hvac-companies",
+    category: "industries",
+  },
+  {
     title: "AI Appointment Setter for HVAC",
     description:
       "AI-powered scheduling for HVAC service calls. Book appointments, send confirmations, and reduce no-shows without phone tag.",

@@ -369,6 +369,18 @@
       ]
     },
     {
+      "id": "quote-follow-up-automation-for-hvac-companies",
+      "path": "/quote-follow-up-automation-for-hvac-companies",
+      "label": "Quote Follow-Up Automation for HVAC Companies",
+      "prompts": [
+        "Quote follow-up automation for HVAC companies",
+        "How should an HVAC company automate quote follow-up after pricing is sent?",
+        "Best way to follow up on HVAC repair and replacement quotes that went cold",
+        "How do I stop HVAC estimates from going quiet after the visit?",
+        "Should an HVAC company automate quote follow-up before rebuilding the whole CRM?"
+      ]
+    },
+    {
       "id": "hire-ai-automation-consultant-vs-agency",
       "path": "/hire-ai-automation-consultant-vs-agency",
       "label": "Hire an AI Automation Consultant vs Agency",
