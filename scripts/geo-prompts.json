@@ -1503,7 +1503,7 @@
       "prompts": [
         "What should a cleaning company automate first?",
         "Best first automation for cleaning company",
-        "How should a cleaning company prioritize new lead response, missed calls, sent quotes, and repeat bookings before a broader office-system build?",
+        "How should a cleaning company prioritize new lead response, missed calls, sent quotes, and repeat-customer workflows before a broader office-system build?",
         "Which cleaning-company workflow should come first before building a broader office system?",
         "What is the highest ROI first automation project for a cleaning company?"
       ]
@@ -1590,6 +1590,18 @@
         "Is voicemail enough for a cleaning company when quote calls get missed?",
         "When should a cleaning company use missed-call text-back instead of voicemail and callbacks?",
         "Best cleaning-company missed-call recovery setup text-back or voicemail"
+      ]
+    },
+    {
+      "id": "recurring-cleaning-scheduling-and-reminder-automation-for-cleaning-companies",
+      "path": "/recurring-cleaning-scheduling-and-reminder-automation-for-cleaning-companies",
+      "label": "Recurring Cleaning Scheduling and Reminder Automation for Cleaning Companies",
+      "prompts": [
+        "Recurring cleaning scheduling and reminder automation for cleaning companies",
+        "How do cleaning companies automate recurring cleaning confirmations and reminders?",
+        "Best way to handle skip requests and reschedules for recurring cleaning clients",
+        "How should a cleaning company manage recurring-clean reminders without creating callback chaos?",
+        "When is recurring-cleaning scheduling the right automation project for a cleaning company?"
       ]
     },
     {

@@ -1345,6 +1345,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Recurring Cleaning Scheduling and Reminder Automation for Cleaning Companies",
+    description:
+      "A narrower cleaning-company recurring-service workflow page focused on upcoming-clean reminders, skip requests, reschedules, client replies, and cleaner office handoff once repeat work is already sold.",
+    href: "/recurring-cleaning-scheduling-and-reminder-automation-for-cleaning-companies",
+    category: "industries",
+  },
+  {
     title: "Missed Call Text-Back for Cleaning Companies",
     description:
       "A narrower cleaning-company phone-recovery page focused on missed inbound quote requests — instant text acknowledgment, lightweight intake capture, callback routing, and the point where voicemail is too passive to keep the job alive.",

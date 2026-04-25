@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-25-recurring-cleaning-scheduling-and-reminder-automation-for-cleaning-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-25",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "### Hero\nHeading: Recurring Cleaning Scheduling and Reminder Automation for Cleaning Companies\nBody: Some cleaning companies do not mainly leak money at the first inquiry or after the quote. They leak it after the recurring work is already sold. A homeowner forgets the upcoming clean. A client asks to skip next week. Someone needs to reschedule because of travel, a lockout issue, or a change in access instructions. The office thinks the cleaner saw the note. The cleaner thinks the office already replied. By the time it gets sorted out, the route is off, callbacks pile up, and repeat revenue starts feeling harder than winning the first job. Recurring cleaning scheduling and reminder automation fixes that narrow operating layer. It keeps upcoming cleans, reminders, skip requests, and reschedules attached to the real job so repeat business runs cleaner instead of creating repetitive office drag.\nSub: Below: what this cleaning-company workflow should actually handle, how it stays distinct from the broader cleaning cluster and the dormant-client reactivation page already live, what proof honestly supports it, and when recurring-clean scheduling is or is not the right next build compared with lead follow-up, missed-call recovery, quote follow-up, or reactivation.\n\n### Core sections\n- What recurring cleaning scheduling automation should actually handle\n- How this page stays distinct inside the cleaning-company cluster\n- Is this a good fit for your cleaning company?\n- How a practical recurring-cleaning workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions about recurring cleaning scheduling and reminder workflows\nTopics: how this differs from cleaning-company reactivation, when recurring-clean scheduling is the right first project, typical build cost, tool compatibility, and the real ROI.\n\n### Final CTA\nHeading: Want recurring cleaning clients to stay easier to manage and harder to lose?\nBody: Book a 30-minute call. We will look at how recurring cleans are currently confirmed, where schedule confusion is leaking time or retention, and whether a focused reminder-and-reschedule workflow is the cleanest build to ship next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the live cleaning-company cluster still had one clean booked-service child left: the broader parent explicitly names recurring schedule management, and the first-project page still exposes repeat-booking stability as a distinct buyer decision."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on active recurring clients, reminders, skip requests, reschedules, and office handoff instead of collapsing into lead follow-up, missed-call recovery, quote nurture, or dormant-client reactivation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live cleaning cluster, the generic booking-confirmation guide, and the landscaping recurring-service sibling as honest adjacent proof without pretending there is already a direct cleaning-company scheduling case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fewer preventable callbacks, cleaner visit notes, stronger recurring retention, and explicit fit / not-fit framing."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-25T07:57:13.253Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        11,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 19.3,
+      "sentenceLengthRange": [
+        5,
+        52
+      ],
+      "totalWords": 328
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Recurring Cleaning Scheduling and Reminder Automation for Cleaning Companies\nBody: Some cleaning companies do not mainly leak money at the first inquiry or after the quote.",
+      "wordCount": 28,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want recurring cleaning clients to stay easier to manage and harder to lose?\nBody: Book a 30-minute call. We will look at how recurring cleans are currently confirmed, where schedule confusion is leaking time or retention, and whether a focused reminder-and-reschedule workflow is the cleanest build to ship next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 14,
+      "commas": 20,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.25
+    },
+    "vocabulary": {
+      "distinctWords": 180,
+      "totalWords": 328,
+      "topWords": [
+        [
+          "cleaning",
+          9
+        ],
+        [
+          "recurring",
+          7
+        ],
+        [
+          "scheduling",
+          6
+        ],
+        [
+          "it",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "reminder",
+          3
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "first",
+          3
+        ],
+        [
+          "already",
+          3
+        ],
+        [
+          "next",
+          3
+        ],
+        [
+          "office",
+          3
+        ],
+        [
+          "cleaner",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.006
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

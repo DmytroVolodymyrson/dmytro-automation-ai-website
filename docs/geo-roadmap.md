@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `missed-call-text-back-vs-voicemail-for-plumbing-companies` after reconciling GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The broad re-audit still left one clean plumbing lighter phone-fallback decision: the cluster already had the broad parent, first-project guide, the lighter missed-call workflow, the heavier AI-phone-answering explainer, and the adjacent heavier voicemail comparison live, while the remaining buyer question about SMS-first recovery versus voicemail stayed materially distinct.)
+Last updated: 2026-04-25 (shipped `recurring-cleaning-scheduling-and-reminder-automation-for-cleaning-companies` after reconciling GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The fresh audit showed the cleaning cluster still had one clean booked-service child left: the broad parent already named recurring schedule management, the first-project page already isolated repeat-booking stability as a bounded decision, and the live cluster still lacked a page focused specifically on reminders, skip requests, reschedules, and office handoff for active recurring clients.)
 
 ## Live GEO Assets
 
@@ -199,6 +199,7 @@ Last updated: 2026-04-25 (shipped `missed-call-text-back-vs-voicemail-for-plumbi
 | What to Automate First for Cleaning Companies | `/what-to-automate-first-for-cleaning-companies` | Cleaning first-project scoping page | Live |
 | AI Lead Follow-Up for Cleaning Companies | `/ai-lead-follow-up-for-cleaning-companies` | Cleaning early-funnel web-lead response workflow page | Live |
 | Quote Follow-Up Automation for Cleaning Companies | `/quote-follow-up-automation-for-cleaning-companies` | Cleaning quote-stage workflow page | Live |
+| Recurring Cleaning Scheduling and Reminder Automation for Cleaning Companies | `/recurring-cleaning-scheduling-and-reminder-automation-for-cleaning-companies` | Cleaning recurring-service scheduling workflow page | Live |
 | Missed Call Text-Back for Cleaning Companies | `/missed-call-text-back-for-cleaning-companies` | Cleaning phone-recovery workflow page | Live |
 | AI Phone Answering for Cleaning Companies | `/ai-phone-answering-for-cleaning-companies` | Cleaning live-phone-coverage workflow page | Live |
 | AI Phone Answering vs. Voicemail for Cleaning Companies | `/ai-phone-answering-vs-voicemail-for-cleaning-companies` | Cleaning heavier phone-fallback decision page | Live |
@@ -300,18 +301,18 @@ Last updated: 2026-04-25 (shipped `missed-call-text-back-vs-voicemail-for-plumbi
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 273**
+**Total decision/comparison/industry pages live: 274**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/missed-call-text-back-vs-voicemail-for-plumbing-companies` closes the remaining clean plumbing lighter fallback decision that still survived the broader reconciliation. The next run should begin with a fresh repo-wide audit instead of forcing another plumbing page by inertia; that phone cluster now has the broad parent, first-project guide, lighter missed-call workflow, lighter voicemail comparison, heavier live-answering explainer, heavier voicemail comparison, and lighter-vs-heavier comparison live.
+Shipping `/recurring-cleaning-scheduling-and-reminder-automation-for-cleaning-companies` closes the remaining clean booked-service scheduling child that still survived inside the cleaning cluster. The next run should start with another broad repo-wide reconciliation instead of forcing a second cleaning-company child by inertia. The strongest current fallback is likely a still-unshipped post-job reputation page for plumbing companies: the live plumbing parent already names review automation, but the cluster still has no dedicated plumbing review-request child live.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Watchlist** | Fresh repo-wide reconciliation across broader planning docs, live clusters, and tracked prompts | Owners asking a still-clean workflow, setup, or economic decision question not yet isolated on the live site | After shipping the remaining plumbing fallback page, the best next step is a broad audit instead of assuming the same cluster still beats every other surviving candidate. | **Best current next step** |
+| 1 | **Watchlist** | Review Request Automation for Plumbing Companies | Owners asking how to automate post-job review requests without pushing unhappy customers straight to a public review ask | The plumbing parent already frames review automation as part of the cluster, and a narrower post-job reputation child would be materially distinct from the now-mature plumbing phone / scheduling pages. | **Best current fallback after fresh reconciliation** |
 
 ### Priority Definitions
 

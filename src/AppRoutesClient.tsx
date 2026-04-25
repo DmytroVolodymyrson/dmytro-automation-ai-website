@@ -198,6 +198,7 @@ const AiPhoneAnsweringVsVoicemailForCleaningCompanies = lazy(() => import("./pag
 const ClientReactivationAutomationForCleaningCompanies = lazy(() => import("./pages/ClientReactivationAutomationForCleaningCompanies"));
 const ReviewRequestAutomationForCleaningCompanies = lazy(() => import("./pages/ReviewRequestAutomationForCleaningCompanies"));
 const AiLeadFollowUpForCleaningCompanies = lazy(() => import("./pages/AiLeadFollowUpForCleaningCompanies"));
+const RecurringCleaningSchedulingAndReminderAutomationForCleaningCompanies = lazy(() => import("./pages/RecurringCleaningSchedulingAndReminderAutomationForCleaningCompanies"));
 const AiAutomationForMedSpas = lazy(() => import("./pages/AiAutomationForMedSpas"));
 const WhatToAutomateFirstForMedSpas = lazy(() => import("./pages/WhatToAutomateFirstForMedSpas"));
 const MissedCallTextBackForMedSpas = lazy(() => import("./pages/MissedCallTextBackForMedSpas"));
@@ -485,6 +486,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-automation-for-cleaning-companies" element={<AiAutomationForCleaningCompanies />} />
       <Route path="/what-to-automate-first-for-cleaning-companies" element={<WhatToAutomateFirstForCleaningCompanies />} />
       <Route path="/quote-follow-up-automation-for-cleaning-companies" element={<QuoteFollowUpAutomationForCleaningCompanies />} />
+      <Route path="/recurring-cleaning-scheduling-and-reminder-automation-for-cleaning-companies" element={<RecurringCleaningSchedulingAndReminderAutomationForCleaningCompanies />} />
       <Route path="/missed-call-text-back-for-cleaning-companies" element={<MissedCallTextBackForCleaningCompanies />} />
       <Route path="/ai-phone-answering-for-cleaning-companies" element={<AiPhoneAnsweringForCleaningCompanies />} />
       <Route path="/ai-phone-answering-vs-voicemail-for-cleaning-companies" element={<AiPhoneAnsweringVsVoicemailForCleaningCompanies />} />
