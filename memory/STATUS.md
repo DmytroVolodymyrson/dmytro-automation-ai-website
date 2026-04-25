@@ -1,6 +1,14 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-04-03 10:56 MDT
+**Last updated:** 2026-04-25 07:15 MDT
+
+## Update 2026-04-25 07:15 MDT
+- Investigated Anthropic Console screenshot showing API key `cedric` with recent spend/usage.
+- Found the local GEO runner path still had Anthropic enabled: `.env.local` contained an active `ANTHROPIC_API_KEY`, `scripts/geo-prompts.json` still listed `anthropic`, and `scripts/geo-runner.ts` mapped Anthropic to `claude-sonnet-4-20250514`.
+- Confirmed `docs/data/geo-results/2026-04-25.json` contained 1,065 Anthropic result entries from the full GEO sweep.
+- Removed the active Anthropic assignment from `.env.local` locally and committed code/docs guardrails so the GEO runner defaults to OpenAI, Gemini, and Perplexity only.
+- Verification: `npm run geo -- --provider anthropic --page ai-automation-consultant-small-business` exits before any API call; `npm run build` passed and prerendered 309 routes.
+- Commit pushed: `44f02552 fix: disable paid Claude API in GEO runner`.
 
 ## Update 2026-04-03 10:56 MDT
 - Ran the full GEO prompt sweep via the repo runner: `npm run geo`.
