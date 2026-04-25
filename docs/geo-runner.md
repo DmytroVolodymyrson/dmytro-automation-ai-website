@@ -26,12 +26,13 @@ npx tsx scripts/geo-runner.ts --provider perplexity --page ai-automation-consult
 1. Copy `.env.example` to `.env.local` (or export vars in your shell)
 2. Add API keys for the providers you want to test:
 
-| Provider | Env Var | Where to get it |
+| Provider | Env Var | API Key URL |
 |----------|---------|-----------------|
 | OpenAI | `OPENAI_API_KEY` | https://platform.openai.com/api-keys |
-| Anthropic | `ANTHROPIC_API_KEY` | https://console.anthropic.com/settings/keys |
 | Gemini | `GEMINI_API_KEY` | https://aistudio.google.com/apikey |
 | Perplexity | `PERPLEXITY_API_KEY` | https://www.perplexity.ai/settings/api |
+
+Anthropic/Claude API is intentionally disabled for this runner to avoid pay-per-token Claude API spend.
 
 You only need the providers you want to track. The runner gracefully skips any provider without a key.
 

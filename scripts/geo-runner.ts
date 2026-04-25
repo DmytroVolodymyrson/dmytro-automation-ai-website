@@ -2,18 +2,20 @@
 /**
  * GEO Test Runner — Weekly AI visibility tracker for dmytroai.com
  *
- * Runs tracked prompts against 4 AI providers and records whether
+ * Runs tracked prompts against approved AI providers and records whether
  * dmytroai.com appears in responses/citations.
  *
  * Usage:
- *   npx tsx scripts/geo-runner.ts                                       # all providers, all tracked pages
+ *   npx tsx scripts/geo-runner.ts                                       # approved providers, all tracked pages
  *   npx tsx scripts/geo-runner.ts --provider openai                      # single provider
  *   npx tsx scripts/geo-runner.ts --page ai-automation-consultant-small-business
  *   npx tsx scripts/geo-runner.ts --provider perplexity --page ai-appointment-setter
  *   npx tsx scripts/geo-runner.ts --dry-run                              # show prompts, no API calls
  *
  * Env vars needed (set in .env or export):
- *   OPENAI_API_KEY, ANTHROPIC_API_KEY, GEMINI_API_KEY, PERPLEXITY_API_KEY
+ *   OPENAI_API_KEY, GEMINI_API_KEY, PERPLEXITY_API_KEY
+ *
+ * Cost guardrail: Anthropic/Claude API calls are intentionally disabled.
  */
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
@@ -332,7 +334,6 @@ const PROVIDER_FNS: Record<
   { envVar: string; fn: (prompt: string, key: string) => Promise<{ answer: string; citations: string[]; model: string }> }
 > = {
   openai: { envVar: "OPENAI_API_KEY", fn: queryOpenAI },
-  anthropic: { envVar: "ANTHROPIC_API_KEY", fn: queryAnthropic },
   gemini: { envVar: "GEMINI_API_KEY", fn: queryGemini },
   perplexity: { envVar: "PERPLEXITY_API_KEY", fn: queryPerplexity },
 };
