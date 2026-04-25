@@ -862,6 +862,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering for Plumbing Companies",
+    description:
+      "A narrower plumbing live-phone-coverage guide focused on routine call intake, after-hours answer coverage, dispatch-friendly handoff, and the point where voicemail or SMS-only recovery stops being enough.",
+    href: "/ai-phone-answering-for-plumbing-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Electrical Contractors",
     description:
       "AI automation for electrical contractors. Lead follow-up, missed call text-back, scheduling, estimate follow-up, and review automation.",

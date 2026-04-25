@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `missed-call-text-back-for-plumbing-companies` after the live plumbing parent and the plumbing first-project page still exposed one clean lighter phone-recovery gap. The new page stays separate by focusing only on the missed-call fallback layer — immediate text-back, issue capture, callback routing, and after-hours demand protection before a homeowner calls the next plumber.)
+Last updated: 2026-04-24 (shipped `ai-phone-answering-for-plumbing-companies` after the live plumbing parent, the plumbing first-project page, and the just-shipped lighter missed-call child still exposed one clean heavier phone-coverage gap. The new page stays separate by focusing only on live plumbing call coverage — routine call intake, after-hours answer coverage, dispatcher-friendly handoff, and the point where voicemail or SMS-only recovery stops being enough.)
 
 ## Live GEO Assets
 
@@ -79,6 +79,7 @@ Last updated: 2026-04-24 (shipped `missed-call-text-back-for-plumbing-companies`
 | What to Automate First for Plumbing Companies | `/what-to-automate-first-for-plumbing-companies` | Plumbing first-project scoping page | Live |
 | Estimate Follow-Up Automation for Plumbing Companies | `/estimate-follow-up-automation-for-plumbing-companies` | Plumbing quote-stage workflow page | Live |
 | Missed Call Text-Back for Plumbing Companies | `/missed-call-text-back-for-plumbing-companies` | Plumbing phone-recovery workflow page | Live |
+| AI Phone Answering for Plumbing Companies | `/ai-phone-answering-for-plumbing-companies` | Plumbing live-phone-coverage workflow page | Live |
 | AI Automation for Electrical Contractors | `/ai-automation-for-electrical-contractors` | Industry page | Live |
 | What to Automate First for Electrical Contractors | `/what-to-automate-first-for-electrical-contractors` | Electrical first-project scoping page | Live |
 | Estimate Follow-Up Automation for Electrical Contractors | `/estimate-follow-up-automation-for-electrical-contractors` | Electrical quote-stage workflow page | Live |
@@ -279,19 +280,19 @@ Last updated: 2026-04-24 (shipped `missed-call-text-back-for-plumbing-companies`
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 252**
+**Total decision/comparison/industry pages live: 253**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/missed-call-text-back-for-plumbing-companies` closes the cleanest lighter phone-recovery gap still exposed by the live plumbing parent plus the plumbing first-project page. The plumbing cluster can still support more children later, but the next run should not force another plumbing sibling by momentum. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only promote the next exact slug after that broader audit.
+Shipping `/ai-phone-answering-for-plumbing-companies` closes the cleanest heavier phone-coverage gap still exposed by the live plumbing parent, the plumbing first-project page, and the just-shipped lighter missed-call child. The plumbing cluster can still support more children later, but the next run should not force another plumbing sibling by momentum. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only promote the next exact slug after that broader audit.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued workflow** | Fresh full backlog reconciliation across planning docs, live routes, and tracked prompts | Owners asking a still-clean workflow or decision question not yet isolated on the live site | The plumbing lighter phone-recovery gap is now shipped. The next run should deliberately search for the best surviving distinct page instead of assuming the same cluster still deserves another turn. | **Required before naming the next exact slug** |
-| 2 | **Watchlist** | AI phone answering for plumbing companies (only if broad reconciliation still says the cluster deserves the next turn) | Plumbing owners asking when lighter missed-call recovery is no longer enough and heavier live phone coverage is worth it | The live plumbing parent plus first-project page still expose heavier after-hours phone coverage as a distinct next layer, but it should win only if the next repo-wide audit does not surface a stronger cross-cluster page first. | **Needs next-run audit** |
+| 1 | **Queued workflow** | Fresh full backlog reconciliation across planning docs, live routes, and tracked prompts | Owners asking a still-clean workflow or decision question not yet isolated on the live site | The plumbing heavier phone-coverage gap is now shipped. The next run should deliberately search for the best surviving distinct page instead of assuming the same cluster still deserves another turn. | **Required before naming the next exact slug** |
+| 2 | **Watchlist** | AI lead follow-up for plumbing companies (only if broad reconciliation still says the cluster deserves another turn) | Plumbing owners asking how to respond faster to inbound service and quote requests before the first conversation goes cold | The live plumbing parent plus the plumbing first-project page still expose early-funnel lead response as a distinct workflow layer, but it should win only if the next repo-wide audit does not surface a stronger cross-cluster page first. | **Needs next-run audit** |
 | 3 | **Watchlist** | Distinct non-plumbing child surfaced by full backlog reconciliation | Owners asking a workflow or decision question that is still commercially clean and proof-supported | The backlog still needs a repo-wide pass before another exact slug is promoted. Prefer the strongest remaining proof-backed page even if it comes from a different cluster. | **Needs next-run audit** |
 
 ### Priority Definitions

@@ -2769,6 +2769,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-for-plumbing-companies",
+      "path": "/ai-phone-answering-for-plumbing-companies",
+      "label": "AI Phone Answering for Plumbing Companies",
+      "prompts": [
+        "AI phone answering for plumbing companies",
+        "Should a plumbing company use live AI phone answering instead of voicemail or callbacks?",
+        "Best way for a plumbing company to answer calls live after hours without hiring another dispatcher",
+        "When should a plumbing company move from missed-call text-back to live AI phone answering?",
+        "How should a plumbing company handle overflow and after-hours service calls when callers need a real answer now?"
+      ]
+    },
+    {
       "id": "estimate-follow-up-automation-for-electrical-contractors",
       "path": "/estimate-follow-up-automation-for-electrical-contractors",
       "label": "Estimate Follow-Up Automation for Electrical Contractors",
