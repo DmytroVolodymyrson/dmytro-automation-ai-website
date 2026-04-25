@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 259 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 260 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -47,7 +47,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **What Does an AI Automation Consultant Actually Do?** — `/what-does-an-ai-automation-consultant-do`
 - **What Processes Can AI Automate in My Business?** — `/what-processes-can-ai-automate-in-my-business`
 
-### Workflow + solution pages (42)
+### Workflow + solution pages (43)
 - **After-Hours Lead Capture** — `/after-hours-lead-capture-for-service-businesses`
 - **AI Appointment Setter** — `/ai-appointment-setter`
 - **AI Appointment Setter Cost for Small Business** — `/ai-appointment-setter-cost-small-business`
@@ -60,6 +60,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Lead Follow-Up for Accounting Firms** — `/ai-lead-follow-up-for-accounting-firms`
 - **Consultation Scheduling and Reminder Automation for Law Firms** — `/consultation-scheduling-and-reminder-automation-for-law-firms`
 - **Intake and Conflict-Check Automation for Law Firms** — `/intake-and-conflict-check-automation-for-law-firms`
+- **Unretained-Consult Follow-Up for Law Firms** — `/unretained-consult-follow-up-for-law-firms`
 - **AI Email Sequence Automation** — `/ai-email-sequence-automation`
 - **AI Lead Follow-Up Cost for Small Business** — `/ai-lead-follow-up-cost-small-business`
 - **AI Lead Follow-Up for Service Businesses** — `/ai-lead-follow-up-for-service-businesses`

@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-25-unretained-consult-follow-up-for-law-firms",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-25",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "### Hero\nHeading: Unretained-Consult Follow-Up for Law Firms\nBody: A law firm can do a lot right before the consultation and still lose the matter afterward. The consult happens, the prospect says they need to think about it, asks to review the fee agreement, wants to talk to a spouse or business partner, or simply goes quiet. Then nobody owns the follow-up. A receptionist assumes the attorney will handle it. The attorney assumes intake will send something. A sticky note or CRM task gets missed. By the time someone remembers, the prospect has already hired another firm or gone cold. Unretained-consult follow-up automation for law firms fixes that narrower post-consult conversion workflow. It gives the firm a consistent, professional way to follow up after the consultation, protect momentum while the matter is still active, route replies back to the right human, and recover retained matters that should not depend on memory alone.\nSub: Below: what this legal post-consult workflow should actually include, how it stays distinct from the broader law-firm page, the first-project page, and the consultation-scheduling child, what adjacent proof honestly supports it, and when post-consult follow-up is or is not the right workflow to build before faster inquiry response, intake prep, or after-hours call handling.\n\n### Core sections\nHeading: What unretained-consult follow-up should actually handle\nBody: The page stays tightly on the stage after the consultation already happened. It covers immediate post-consult acknowledgment, defined next-touch cadence, fee-agreement and next-step reminders, clean reply routing, re-booking when another conversation is needed, and clearer ownership across intake and attorney handoff.\n\nHeading: This page vs. the rest of the law-firm cluster\nBody: The comparison section keeps the boundaries clear. The broader law-firm page covers the full intake-and-operations layer. The first-project page helps an owner choose between inquiry response, intake prep, consultation scheduling, post-consult follow-up, and after-hours handling. The consultation-scheduling child stays on getting the consult booked and attended. This new child isolates only the post-consult conversion layer.\n\nHeading: Is this a good fit for your law firm?\nBody: The fit framing stays grounded. This workflow is strongest when the firm already generates consultations, but too many prospects disappear afterward because no one owns the next touch. It is not the right fit when the bigger leak is still slow first response, low consult volume, unstable owner rules, or booking friction before the consult happens.\n\nHeading: Guardrails that keep legal post-consult follow-up useful\nBody: The page emphasizes not treating every consult outcome the same, keeping substantive legal work out of the automation, separating post-consult nurture from pre-consult scheduling, and tracking why consults stall so the workflow helps the team learn where conversion is really breaking down.\n\nHeading: How a practical law-firm post-consult follow-up workflow usually works\nBody: The page walks through the flow stage by stage: the consultation gets an actual outcome state, the prospect receives the right next-step message quickly, silence triggers the next touch on a defined cadence, replies route back to the right owner with the thread attached, and the firm learns whether the real leak is follow-up discipline or an earlier intake-stage problem.\n\nHeading: What proof supports this page\nBody: The proof framing stays disciplined. The live law-firm parent and first-project page already isolate post-consult follow-up as one of the clearest workflow families in the cluster. Adjacent proof comes from the e-commerce CRM case study plus the generic AI lead-follow-up guide. The page does not pretend a law-firm-specific post-consult case study is already live.\n\n### FAQ\nSubhead: Practical questions about automating law-firm follow-up after consultations\nTopics: how this differs from the broader law-firm page, how it differs from consultation-scheduling automation, what a focused build usually costs, when post-consult follow-up should come before faster inquiry response, and whether it can fit the current CRM or legal software stack.\n\n### Final CTA\nHeading: Want fewer legal consultations going cold after the meeting?\nBody: Book a 30-minute call. We will look at how your firm currently handles consult outcomes, post-consult follow-up, fee-agreement reminders, and reply routing, then tell you whether this is the cleanest workflow to build next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after reconciling AGENTS.md, GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the law-firm cluster already had the broad parent, the first-project page, the intake-prep child, and the booked-consult scheduling child live, while the parent plus first-project copy still left post-consult follow-up as a clean exact late-funnel workflow that had not been isolated yet."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page separate from /ai-automation-for-law-firms by staying tightly on post-consult next-touch ownership, agreement reminders, reply routing, and consult-to-retainer recovery instead of the full legal intake-and-operations layer."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page separate from /what-to-automate-first-for-law-firms by assuming post-consult follow-up is already the chosen workflow and then going deeper on what that workflow should actually include."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page separate from /consultation-scheduling-and-reminder-automation-for-law-firms by starting after the meeting already happened rather than on booking, confirmations, reminder timing, and reschedules before attendance."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live law-firm cluster, the generic lead-follow-up guide, and the published CRM case study support the workflow pattern without implying a direct law-firm-specific post-consult case study already exists."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-25T09:25:45.359Z",
+    "structure": {
+      "paragraphCount": 9,
+      "sentencesPerParagraph": [
+        10,
+        2,
+        6,
+        4,
+        1,
+        1,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 21,
+      "sentenceLengthRange": [
+        4,
+        71
+      ],
+      "totalWords": 672
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Unretained-Consult Follow-Up for Law Firms\nBody: A law firm can do a lot right before the consultation and still lose the matter afterward.",
+      "wordCount": 25,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want fewer legal consultations going cold after the meeting?\nBody: Book a 30-minute call. We will look at how your firm currently handles consult outcomes, post-consult follow-up, fee-agreement reminders, and reply routing, then tell you whether this is the cleanest workflow to build next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "context",
+        "result",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | result | context | result | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 30,
+      "commas": 44,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 21,
+      "commasPerSentence": 1.38
+    },
+    "vocabulary": {
+      "distinctWords": 308,
+      "totalWords": 672,
+      "topWords": [
+        [
+          "follow-up",
+          13
+        ],
+        [
+          "post-consult",
+          13
+        ],
+        [
+          "page",
+          12
+        ],
+        [
+          "it",
+          9
+        ],
+        [
+          "heading",
+          8
+        ],
+        [
+          "body",
+          8
+        ],
+        [
+          "workflow",
+          8
+        ],
+        [
+          "this",
+          8
+        ],
+        [
+          "firm",
+          7
+        ],
+        [
+          "law-firm",
+          7
+        ],
+        [
+          "right",
+          6
+        ],
+        [
+          "consult",
+          6
+        ],
+        [
+          "consultation",
+          5
+        ],
+        [
+          "already",
+          5
+        ],
+        [
+          "not",
+          5
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right",
+        "right",
+        "right",
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.009
+    },
+    "editSignals": {
+      "totalEdits": 6,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 6,
+      "patterns": []
+    }
+  }
+}

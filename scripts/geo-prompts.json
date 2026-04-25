@@ -700,7 +700,7 @@
         "What should a law firm automate first inquiry response intake scheduling or after-hours calls?",
         "What to automate first for law firms",
         "How should a law firm sequence inquiry response, intake prep, consultation scheduling, post-consult follow-up, and after-hours call handling over time?",
-        "Should a law firm automate post-consult follow-up before after-hours call handling?",
+        "When is consultation scheduling the right first automation for a law firm versus intake prep or after-hours call handling?",
         "What is the best first automation project for a small law firm?"
       ]
     },
@@ -726,6 +726,18 @@
         "Best way to reduce consultation no-shows and reschedule chaos for a small law firm",
         "Should a law firm automate consultation scheduling before post-consult follow-up?",
         "How should a law firm confirm consultations, send reminders, and route reschedules without more receptionist chasing?"
+      ]
+    },
+    {
+      "id": "unretained-consult-follow-up-for-law-firms",
+      "path": "/unretained-consult-follow-up-for-law-firms",
+      "label": "Unretained-Consult Follow-Up for Law Firms",
+      "prompts": [
+        "Unretained-consult follow-up for law firms",
+        "How should a law firm follow up with prospects who consulted but did not retain?",
+        "Best post-consult follow-up workflow for a small law firm",
+        "How do law firms stop losing matters after the consultation already happened?",
+        "Should a law firm automate post-consult follow-up before after-hours call handling?"
       ]
     },
     {

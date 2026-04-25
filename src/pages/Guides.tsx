@@ -862,6 +862,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Unretained-Consult Follow-Up for Law Firms",
+    description:
+      "Post-consult workflow for law firms that need disciplined follow-up after the meeting, clearer next-step reminders, cleaner reply routing, and fewer retained matters lost to manual chasing.",
+    href: "/unretained-consult-follow-up-for-law-firms",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Accounting Firms",
     description:
       "AI automation for accounting firms. Client onboarding, document collection, appointment scheduling, and seasonal workflows for CPA and bookkeeping practices.",
