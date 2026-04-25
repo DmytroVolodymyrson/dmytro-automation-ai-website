@@ -1212,6 +1212,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Tenant Onboarding Automation for Property Management Companies",
+    description:
+      "A narrower property-management move-in page focused on signed-lease handoff, onboarding checklists, portal setup, move-in instructions, and cleaner leasing-to-operations ownership before new residents enter through inbox chaos.",
+    href: "/tenant-onboarding-automation-for-property-management-companies",
+    category: "industries",
+  },
+  {
     title: "Tenant Communication Automation for Property Management Companies",
     description:
       "A narrower property-management communication page focused on routine resident questions, after-hours triage, building updates, escalation rules, and cleaner manager handoff when messages stop being routine.",

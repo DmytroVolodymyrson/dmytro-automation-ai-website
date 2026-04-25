@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 269 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 270 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -99,7 +99,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Automation Consultant Calgary** — `/ai-automation-consultant-calgary`
 - **AI Automation Consultant Edmonton** — `/ai-automation-consultant-edmonton`
 
-### Industry + vertical pages (144)
+### Industry + vertical pages (171)
 - **After-Hours AI Phone Answering vs. Voicemail for Restaurants** — `/after-hours-ai-phone-answering-vs-voicemail-for-restaurants`
 - **After-Hours Maintenance Triage for Property Management Companies** — `/after-hours-maintenance-triage-for-property-management-companies`
 - **After-Hours Phone Answering for Restaurants** — `/after-hours-phone-answering-for-restaurants`
@@ -244,6 +244,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Showing Coordination Automation for Property Management Companies** — `/showing-coordination-automation-for-property-management-companies`
 - **Showing Coordination Automation for Real Estate Teams** — `/showing-coordination-automation-for-real-estate-teams`
 - **Stale Lead Follow-Up for Auto Parts E-Commerce** — `/stale-lead-follow-up-for-auto-parts-ecommerce`
+- **Tenant Onboarding Automation for Property Management Companies** — `/tenant-onboarding-automation-for-property-management-companies`
 - **Tenant Communication Automation for Property Management Companies** — `/tenant-communication-automation-for-property-management-companies`
 - **Treatment Recall Automation for Med Spas** — `/treatment-recall-automation-for-med-spas`
 - **Review Request Automation for Insurance Agencies** — `/review-request-automation-for-insurance-agencies`

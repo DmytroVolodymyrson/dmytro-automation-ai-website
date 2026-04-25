@@ -143,6 +143,7 @@ import WhatToAutomateFirstForPropertyManagementCompanies from "./pages/WhatToAut
 import LeaseRenewalAutomationForPropertyManagementCompanies from "./pages/LeaseRenewalAutomationForPropertyManagementCompanies";
 import ShowingCoordinationAutomationForPropertyManagementCompanies from "./pages/ShowingCoordinationAutomationForPropertyManagementCompanies";
 import MaintenanceRequestAutomationForPropertyManagementCompanies from "./pages/MaintenanceRequestAutomationForPropertyManagementCompanies";
+import TenantOnboardingAutomationForPropertyManagementCompanies from "./pages/TenantOnboardingAutomationForPropertyManagementCompanies";
 import TenantCommunicationAutomationForPropertyManagementCompanies from "./pages/TenantCommunicationAutomationForPropertyManagementCompanies";
 import AfterHoursTenantCommunicationForPropertyManagementCompanies from "./pages/AfterHoursTenantCommunicationForPropertyManagementCompanies";
 import AfterHoursMaintenanceTriageForPropertyManagementCompanies from "./pages/AfterHoursMaintenanceTriageForPropertyManagementCompanies";
@@ -476,6 +477,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/lease-renewal-automation-for-property-management-companies", element: <LeaseRenewalAutomationForPropertyManagementCompanies /> },
   { path: "/showing-coordination-automation-for-property-management-companies", element: <ShowingCoordinationAutomationForPropertyManagementCompanies /> },
   { path: "/maintenance-request-automation-for-property-management-companies", element: <MaintenanceRequestAutomationForPropertyManagementCompanies /> },
+  { path: "/tenant-onboarding-automation-for-property-management-companies", element: <TenantOnboardingAutomationForPropertyManagementCompanies /> },
   { path: "/tenant-communication-automation-for-property-management-companies", element: <TenantCommunicationAutomationForPropertyManagementCompanies /> },
   { path: "/after-hours-tenant-communication-for-property-management-companies", element: <AfterHoursTenantCommunicationForPropertyManagementCompanies /> },
   { path: "/after-hours-maintenance-triage-for-property-management-companies", element: <AfterHoursMaintenanceTriageForPropertyManagementCompanies /> },

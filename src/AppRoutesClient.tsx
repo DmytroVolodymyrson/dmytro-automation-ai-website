@@ -144,6 +144,7 @@ const WhatToAutomateFirstForPropertyManagementCompanies = lazy(() => import("./p
 const LeaseRenewalAutomationForPropertyManagementCompanies = lazy(() => import("./pages/LeaseRenewalAutomationForPropertyManagementCompanies"));
 const ShowingCoordinationAutomationForPropertyManagementCompanies = lazy(() => import("./pages/ShowingCoordinationAutomationForPropertyManagementCompanies"));
 const MaintenanceRequestAutomationForPropertyManagementCompanies = lazy(() => import("./pages/MaintenanceRequestAutomationForPropertyManagementCompanies"));
+const TenantOnboardingAutomationForPropertyManagementCompanies = lazy(() => import("./pages/TenantOnboardingAutomationForPropertyManagementCompanies"));
 const TenantCommunicationAutomationForPropertyManagementCompanies = lazy(() => import("./pages/TenantCommunicationAutomationForPropertyManagementCompanies"));
 const AfterHoursTenantCommunicationForPropertyManagementCompanies = lazy(() => import("./pages/AfterHoursTenantCommunicationForPropertyManagementCompanies"));
 const AfterHoursMaintenanceTriageForPropertyManagementCompanies = lazy(() => import("./pages/AfterHoursMaintenanceTriageForPropertyManagementCompanies"));
@@ -451,6 +452,7 @@ const AppRoutesClient = () => (
       <Route path="/lease-renewal-automation-for-property-management-companies" element={<LeaseRenewalAutomationForPropertyManagementCompanies />} />
       <Route path="/showing-coordination-automation-for-property-management-companies" element={<ShowingCoordinationAutomationForPropertyManagementCompanies />} />
       <Route path="/maintenance-request-automation-for-property-management-companies" element={<MaintenanceRequestAutomationForPropertyManagementCompanies />} />
+      <Route path="/tenant-onboarding-automation-for-property-management-companies" element={<TenantOnboardingAutomationForPropertyManagementCompanies />} />
       <Route path="/tenant-communication-automation-for-property-management-companies" element={<TenantCommunicationAutomationForPropertyManagementCompanies />} />
       <Route path="/after-hours-tenant-communication-for-property-management-companies" element={<AfterHoursTenantCommunicationForPropertyManagementCompanies />} />
       <Route path="/after-hours-maintenance-triage-for-property-management-companies" element={<AfterHoursMaintenanceTriageForPropertyManagementCompanies />} />

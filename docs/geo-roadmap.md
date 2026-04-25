@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `after-hours-inquiry-handling-for-insurance-agencies` after re-checking the broad docs, current live insurance cluster, and prompt inventory for a remaining clean child page. The live insurance parent still explicitly carried client communication as an unisolated workflow family, the current insurance child set already covered lead follow-up, quote follow-up, renewals, cross-sell, and review requests, and the surviving gap was the narrower off-hours communication layer: quote requests, missed calls, and client questions that arrive when the office is closed. The new page stays distinct by focusing on after-hours acknowledgement, urgency-based routing, and cleaner morning handoff rather than rewriting the broader insurance explainer or the existing lead / quote / renewal children.)
+Last updated: 2026-04-25 (shipped `tenant-onboarding-automation-for-property-management-companies` after re-checking the live property-management cluster, planning docs, and current prompts for a remaining defensible child page. The live cluster already covered maintenance intake, lease renewals, showing coordination, tenant communication, and after-hours variants, but it still lacked a bounded signed-lease-to-move-in handoff page. This new child isolates onboarding checklists, portal setup, move-in instructions, and leasing-to-operations handoff without pretending there is already a property-management-specific onboarding case study.)
 
 ## Live GEO Assets
 
@@ -145,6 +145,7 @@ Last updated: 2026-04-25 (shipped `after-hours-inquiry-handling-for-insurance-ag
 | Lease Renewal Automation for Property Management Companies | `/lease-renewal-automation-for-property-management-companies` | Industry workflow page | Live |
 | Showing Coordination Automation for Property Management Companies | `/showing-coordination-automation-for-property-management-companies` | Industry workflow page | Live |
 | Maintenance Request Automation for Property Management Companies | `/maintenance-request-automation-for-property-management-companies` | Industry workflow page | Live |
+| Tenant Onboarding Automation for Property Management Companies | `/tenant-onboarding-automation-for-property-management-companies` | Property-management move-in onboarding workflow page | Live |
 | Tenant Communication Automation for Property Management Companies | `/tenant-communication-automation-for-property-management-companies` | Industry communication workflow page | Live |
 | After-Hours Tenant Communication for Property Management Companies | `/after-hours-tenant-communication-for-property-management-companies` | Property-management overnight communication workflow page | Live |
 | After-Hours Maintenance Triage for Property Management Companies | `/after-hours-maintenance-triage-for-property-management-companies` | Property-management overnight maintenance triage workflow page | Live |
@@ -315,18 +316,18 @@ Last updated: 2026-04-25 (shipped `after-hours-inquiry-handling-for-insurance-ag
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 288**
+**Total decision/comparison/industry pages live: 289**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/after-hours-inquiry-handling-for-insurance-agencies` extracts the remaining off-hours communication layer that the live insurance parent still named after the lead, quote, renewal, cross-sell, and review children were already live. That child now owns the overnight buyer intent directly: missed calls, late quote requests, and off-hours client questions that need acknowledgement, basic routing, and cleaner morning handoff without pretending there is already a published insurance-specific after-hours case study. With that insurance communication gap now shipped, the next run should reset to broad backlog reconciliation across the rest of the live clusters and planning docs instead of forcing yet another insurance child by inertia.
+Shipping `/tenant-onboarding-automation-for-property-management-companies` fills the signed-lease-to-move-in handoff gap that the live property-management cluster still left open after maintenance, renewal, showing, and broader tenant-communication children were already live. That child now owns the move-in buyer intent directly: checklist sequencing, portal setup, utility and access instructions, and clearer leasing-to-operations handoff without pretending there is already a published property-management-specific onboarding case study. With that post-lease onboarding gap now shipped, the next run should reset to broad backlog reconciliation across the rest of the live clusters and planning docs instead of forcing another property-management child by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the insurance cluster still automatically owns the next run now that the off-hours communication child has shipped. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the property-management cluster still automatically owns the next run now that the onboarding child has shipped. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 

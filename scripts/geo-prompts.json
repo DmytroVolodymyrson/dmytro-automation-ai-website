@@ -1053,6 +1053,18 @@
       ]
     },
     {
+      "id": "tenant-onboarding-automation-for-property-management-companies",
+      "path": "/tenant-onboarding-automation-for-property-management-companies",
+      "label": "Tenant Onboarding Automation for Property Management Companies",
+      "prompts": [
+        "Tenant onboarding automation for property management companies",
+        "How do property managers automate new tenant onboarding and move-in communication?",
+        "Best way to automate move-in instructions utility reminders and portal setup for new tenants",
+        "Should a property management company automate tenant onboarding before broader tenant communication workflows?",
+        "Property management move-in onboarding workflow with manager handoff"
+      ]
+    },
+    {
       "id": "tenant-communication-automation-for-property-management-companies",
       "path": "/tenant-communication-automation-for-property-management-companies",
       "label": "Tenant Communication Automation for Property Management Companies",
