@@ -10,7 +10,7 @@
 - Added `geo:weekly` and `geo:weekly:dry` package scripts.
 - Updated `docs/geo-runner.md` and `docs/geo-tracking.md` with weekly worker design and Perplexity measurement notes.
 - All provider guardrails preserved: no `OPENAI_API_KEY` / `ANTHROPIC_API_KEY` / `api.openai.com` / `api.anthropic.com` dependence.
-- Verification: `npm run geo:weekly:dry` passed; real smoke with Perplexity+Gemini detected the current Perplexity key is invalid and skipped it, then completed through Gemini; `npm run build` passed with 314 prerendered routes.
+- Verification: `npm run geo:weekly:dry` passed; real smoke with Perplexity+Gemini originally skipped Perplexity because `.env.local` held a stale placeholder key, while the Hermes MCP Perplexity key was valid. Synced `.env.local` from the Hermes MCP Perplexity config locally, reran Perplexity smoke successfully (`sonar`, 5 prompts, citations returned, no errors), and `npm run build` passed with 314 prerendered routes.
 
 ## Update 2026-04-25 08:50 MDT
 - Verified Dmytro's Codex login: `codex login status` now reports logged in via ChatGPT.
