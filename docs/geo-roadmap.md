@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `client-reactivation-automation-for-roofing-companies` after broad backlog reconciliation. The live roofing parent already named client reactivation and maintenance campaigns as part of the broader operating layer, while the mature roofing child cluster already covered lead follow-up, estimate follow-up, booked-job scheduling, phone-recovery decisions, live phone coverage, and review automation. This new child isolates the completed-job retention layer: past-client outreach, seasonal inspection or maintenance timing, referral nudges, and fast human handoff when old customers show new intent without pretending there is already a roofing-specific reactivation case study on the site.)
+Last updated: 2026-04-25 (shipped `case-status-update-automation-for-law-firms` after broad backlog reconciliation. The live law-firm parent already named case status updates as part of the broader legal operations layer, while the mature law-firm child cluster already covered inquiry response, intake/conflict-check prep, consultation scheduling, post-consult conversion, and after-hours phone coverage. This new child isolates the active-client communication layer: progress updates, receipt confirmations, next-step reminders, and cleaner reply routing without pretending there is already a law-firm-specific case-status case study on the site.)
 
 ## Live GEO Assets
 
@@ -86,6 +86,7 @@ Last updated: 2026-04-25 (shipped `client-reactivation-automation-for-roofing-co
 | Intake and Conflict-Check Automation for Law Firms | `/intake-and-conflict-check-automation-for-law-firms` | Law-firm pre-consult intake workflow page | Live |
 | Consultation Scheduling and Reminder Automation for Law Firms | `/consultation-scheduling-and-reminder-automation-for-law-firms` | Law-firm booked-consult scheduling workflow page | Live |
 | Unretained-Consult Follow-Up for Law Firms | `/unretained-consult-follow-up-for-law-firms` | Law-firm post-consult conversion workflow page | Live |
+| Case Status Update Automation for Law Firms | `/case-status-update-automation-for-law-firms` | Law-firm active-client status-update workflow page | Live |
 | AI Phone Answering for Law Firms | `/ai-phone-answering-for-law-firms` | Law-firm live-phone-coverage workflow page | Live |
 | AI Phone Answering vs. Voicemail for Law Firms | `/ai-phone-answering-vs-voicemail-for-law-firms` | Law-firm phone-fallback decision page | Live |
 | AI Automation for Accounting Firms | `/ai-automation-for-accounting-firms` | Industry page | Live |
@@ -318,18 +319,18 @@ Last updated: 2026-04-25 (shipped `client-reactivation-automation-for-roofing-co
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 291**
+**Total decision/comparison/industry pages live: 292**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/client-reactivation-automation-for-roofing-companies` fills the completed-job retention gap that the live roofing cluster still left open after lead follow-up, estimate follow-up, booked-job scheduling, phone-recovery decisions, live phone coverage, and review automation were already live. That child now owns the past-client reactivation buyer intent directly: seasonal inspection or maintenance timing, dormant-customer outreach, referral nudges, and fast human handoff when old customers show new intent. With that retention layer now shipped, the next run should reset to broad backlog reconciliation across the rest of the live clusters and planning docs instead of forcing another roofing child by inertia.
+Shipping `/case-status-update-automation-for-law-firms` fills the active-client communication gap that the live law-firm cluster still left open after inquiry response, intake/conflict-check prep, booked-consult scheduling, post-consult conversion, and after-hours phone coverage were already live. That child now owns the client-status buyer intent directly: plain-language progress updates, receipt confirmations, next-step reminders, and cleaner reply routing once the matter already exists. With that communication layer now shipped, the next run should reset to broad backlog reconciliation across the remaining live clusters and planning docs instead of forcing another law-firm child by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the roofing cluster still automatically owns the next run now that the completed-job reactivation child has shipped. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the law-firm cluster still automatically owns the next run now that the active-client status-update child has shipped. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 

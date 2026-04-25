@@ -84,6 +84,7 @@ import AiLeadFollowUpForLawFirms from "./pages/AiLeadFollowUpForLawFirms";
 import IntakeAndConflictCheckAutomationForLawFirms from "./pages/IntakeAndConflictCheckAutomationForLawFirms";
 import ConsultationSchedulingAndReminderAutomationForLawFirms from "./pages/ConsultationSchedulingAndReminderAutomationForLawFirms";
 import UnretainedConsultFollowUpForLawFirms from "./pages/UnretainedConsultFollowUpForLawFirms";
+import CaseStatusUpdateAutomationForLawFirms from "./pages/CaseStatusUpdateAutomationForLawFirms";
 import AiPhoneAnsweringForLawFirms from "./pages/AiPhoneAnsweringForLawFirms";
 import AiPhoneAnsweringVsVoicemailForLawFirms from "./pages/AiPhoneAnsweringVsVoicemailForLawFirms";
 import AiAutomationForAccountingFirms from "./pages/AiAutomationForAccountingFirms";
@@ -424,6 +425,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/intake-and-conflict-check-automation-for-law-firms", element: <IntakeAndConflictCheckAutomationForLawFirms /> },
   { path: "/consultation-scheduling-and-reminder-automation-for-law-firms", element: <ConsultationSchedulingAndReminderAutomationForLawFirms /> },
   { path: "/unretained-consult-follow-up-for-law-firms", element: <UnretainedConsultFollowUpForLawFirms /> },
+  { path: "/case-status-update-automation-for-law-firms", element: <CaseStatusUpdateAutomationForLawFirms /> },
   { path: "/ai-phone-answering-for-law-firms", element: <AiPhoneAnsweringForLawFirms /> },
   { path: "/ai-phone-answering-vs-voicemail-for-law-firms", element: <AiPhoneAnsweringVsVoicemailForLawFirms /> },
   { path: "/ai-automation-for-accounting-firms", element: <AiAutomationForAccountingFirms /> },

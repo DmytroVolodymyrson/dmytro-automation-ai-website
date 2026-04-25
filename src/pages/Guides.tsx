@@ -911,6 +911,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Case Status Update Automation for Law Firms",
+    description:
+      "Active-matter communication workflow for law firms that need clearer progress updates, receipt confirmations, next-step reminders, and fewer routine status questions soaking up attorney or staff time.",
+    href: "/case-status-update-automation-for-law-firms",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Law Firms",
     description:
       "Live intake-call coverage for law firms that need after-hours answering, routine consultation-question handling, cleaner receptionist handoff, and fewer matters lost to voicemail or delayed callbacks.",

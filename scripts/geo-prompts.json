@@ -813,6 +813,18 @@
       ]
     },
     {
+      "id": "case-status-update-automation-for-law-firms",
+      "path": "/case-status-update-automation-for-law-firms",
+      "label": "Case Status Update Automation for Law Firms",
+      "prompts": [
+        "Case status update automation for law firms",
+        "How should a law firm automate client case status updates without making communication feel robotic?",
+        "Best way for a small law firm to reduce routine client status-check emails and calls",
+        "Should a law firm automate progress updates and next-step reminders for active matters?",
+        "How do law firms keep clients informed without attorneys manually sending the same status explanations all day?"
+      ]
+    },
+    {
       "id": "ai-phone-answering-for-law-firms",
       "path": "/ai-phone-answering-for-law-firms",
       "label": "AI Phone Answering for Law Firms",
