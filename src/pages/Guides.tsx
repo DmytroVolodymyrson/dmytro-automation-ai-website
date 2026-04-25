@@ -848,6 +848,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Intake and Conflict-Check Automation for Law Firms",
+    description:
+      "Pre-consult workflow for law firms that need cleaner intake details, conflict-check prep, missing-information reminders, and attorney handoff before consultations happen.",
+    href: "/intake-and-conflict-check-automation-for-law-firms",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Accounting Firms",
     description:
       "AI automation for accounting firms. Client onboarding, document collection, appointment scheduling, and seasonal workflows for CPA and bookkeeping practices.",

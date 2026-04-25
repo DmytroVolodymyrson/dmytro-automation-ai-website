@@ -700,8 +700,20 @@
         "What should a law firm automate first inquiry response intake scheduling or after-hours calls?",
         "What to automate first for law firms",
         "Should a law firm automate inquiry response before consultation scheduling?",
-        "When should a law firm automate intake and conflict-check prep first?",
+        "Should a law firm automate post-consult follow-up before after-hours call handling?",
         "What is the best first automation project for a small law firm?"
+      ]
+    },
+    {
+      "id": "intake-and-conflict-check-automation-for-law-firms",
+      "path": "/intake-and-conflict-check-automation-for-law-firms",
+      "label": "Intake and Conflict-Check Automation for Law Firms",
+      "prompts": [
+        "How can a law firm automate intake and conflict checks before a consultation?",
+        "Intake and conflict-check automation for law firms",
+        "What should a law firm collect before a consultation to speed up conflict checks?",
+        "Should a law firm automate pre-consult intake before consultation scheduling?",
+        "How do small law firms stop chasing missing intake details before consultations?"
       ]
     },
     {

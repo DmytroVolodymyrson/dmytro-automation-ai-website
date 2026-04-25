@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `recall-and-reactivation-automation-for-dental-practices` after reconciling GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The fresh audit confirmed the dental cluster still had one clean retention child left: the broad parent already names recall/reactivation, the first-project page already isolates it as a bounded buyer decision, and the live child set still lacked a page focused specifically on overdue hygiene, exam, and unscheduled-treatment recovery.)
+Last updated: 2026-04-25 (shipped `intake-and-conflict-check-automation-for-law-firms` after reconciling GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The fresh audit confirmed the law-firm cluster still had one clean pre-consult child left: the broad parent already names intake automation, the first-project page already isolates intake and conflict-check prep as a bounded buyer decision, and the live cluster still lacked a page focused specifically on pre-consult information gathering, conflict-check readiness, and attorney handoff.)
 
 ## Live GEO Assets
 
@@ -77,6 +77,7 @@ Last updated: 2026-04-25 (shipped `recall-and-reactivation-automation-for-dental
 | Recall and Reactivation Automation for Dental Practices | `/recall-and-reactivation-automation-for-dental-practices` | Dental retention workflow page | Live |
 | AI Automation for Law Firms | `/ai-automation-for-law-firms` | Industry page | Live |
 | What to Automate First for Law Firms | `/what-to-automate-first-for-law-firms` | Law-firm first-project scoping page | Live |
+| Intake and Conflict-Check Automation for Law Firms | `/intake-and-conflict-check-automation-for-law-firms` | Law-firm pre-consult intake workflow page | Live |
 | AI Automation for Accounting Firms | `/ai-automation-for-accounting-firms` | Industry page | Live |
 | Document Collection Automation for Accounting Firms | `/document-collection-automation-for-accounting-firms` | Accounting document-intake workflow page | Live |
 | Client Onboarding Automation for Accounting Firms | `/client-onboarding-automation-for-accounting-firms` | Accounting post-sale onboarding workflow page | Live |
@@ -303,18 +304,18 @@ Last updated: 2026-04-25 (shipped `recall-and-reactivation-automation-for-dental
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 276**
+**Total decision/comparison/industry pages live: 277**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/recall-and-reactivation-automation-for-dental-practices` closes the cleanest remaining retention child that still survived inside the dental cluster. The next run should go back to a broad planned-backlog reconciliation instead of forcing another dental child by inertia. After this ship, there is no single repo-wide fallback page already locked with the same confidence as the dental recall child; the safest next move is to re-audit the broader commercial backlog across GEO-PLAN.md, docs/geo-plan-2026-03.md, docs/programmatic-seo-pattern-matrix.md, current live routes/pages, and scripts/geo-prompts.json, then pick the next truly unshipped non-duplicate page.
+Shipping `/intake-and-conflict-check-automation-for-law-firms` closes the cleanest remaining exact tracked query that still survived inside the law-firm cluster. The next run should go back to a broad planned-backlog reconciliation instead of forcing another law-firm child by inertia. After this ship, the safest default is still a repo-wide re-audit across GEO-PLAN.md, docs/geo-plan-2026-03.md, docs/programmatic-seo-pattern-matrix.md, current live routes/pages, and scripts/geo-prompts.json before naming another cluster-level fallback.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Watchlist** | Fresh broad reconciliation of remaining generic and cluster backlog | Re-check the highest-value remaining planned gaps before defaulting to another cluster child | The strongest explicit fallback just shipped, and the remaining planning docs now need another repo-wide pass to distinguish genuinely unshipped pages from already-live pages, renamed equivalents, and stale backlog wording. | **Fresh reconciliation required next run** |
+| 1 | **Watchlist** | Fresh broad reconciliation of remaining generic and cluster backlog | Re-check the highest-value remaining planned gaps before defaulting to another cluster child | The strongest exact law-firm intake-prep candidate just shipped, and the remaining planning docs now need another repo-wide pass to distinguish genuinely unshipped pages from already-live pages, renamed equivalents, and stale backlog wording. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 
