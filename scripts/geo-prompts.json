@@ -1036,8 +1036,20 @@
         "After-hours inquiry handling for insurance agencies",
         "How should an insurance agency handle quote requests and client questions after hours?",
         "Best way for an insurance agency to respond to missed calls and quote requests after hours",
-        "Should an insurance agency use an after-hours workflow before broader AI phone answering?",
+        "How should an insurance agency triage urgent after-hours issues without waking up the whole team?",
         "Insurance after-hours communication workflow for independent agencies"
+      ]
+    },
+    {
+      "id": "ai-phone-answering-for-insurance-agencies",
+      "path": "/ai-phone-answering-for-insurance-agencies",
+      "label": "AI Phone Answering for Insurance Agencies",
+      "prompts": [
+        "AI phone answering for insurance agencies",
+        "Should an insurance agency use AI phone answering instead of voicemail after hours?",
+        "When does an insurance agency need live AI phone answering instead of a lighter after-hours workflow?",
+        "Can AI answer inbound insurance calls and route producers or CSRs correctly?",
+        "Best AI phone answering workflow for independent insurance agencies"
       ]
     },
     {

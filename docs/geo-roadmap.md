@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `ai-phone-answering-vs-voicemail-for-dental-practices` after broad backlog reconciliation. The live dental phone-coverage child already tracked the exact voicemail-vs-live-answering buyer question, and the cluster still lacked that narrower decision page even though adjacent dental proof and the generic phone-answering proof were already live. With that dental comparison now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster dental phone page by inertia.)
+Last updated: 2026-04-25 (shipped `ai-phone-answering-for-insurance-agencies` after broad backlog reconciliation. The live insurance after-hours child already tracked the exact heavier next-step buyer question — when a lighter overnight workflow stops being enough and the agency needs live AI phone coverage — while the broader insurance cluster and generic phone-answering proof were already live. With that heavier insurance phone child now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster insurance phone page by inertia.)
 
 ## Live GEO Assets
 
@@ -144,6 +144,7 @@ Last updated: 2026-04-25 (shipped `ai-phone-answering-vs-voicemail-for-dental-pr
 | Cross-Sell Automation for Insurance Agencies | `/cross-sell-automation-for-insurance-agencies` | Industry workflow page | Live |
 | Review Request Automation for Insurance Agencies | `/review-request-automation-for-insurance-agencies` | Insurance post-service reputation workflow page | Live |
 | After-Hours Inquiry Handling for Insurance Agencies | `/after-hours-inquiry-handling-for-insurance-agencies` | Insurance overnight communication workflow page | Live |
+| AI Phone Answering for Insurance Agencies | `/ai-phone-answering-for-insurance-agencies` | Insurance live-phone-coverage workflow page | Live |
 | AI Automation for Property Management | `/ai-automation-for-property-management` | Industry page | Live |
 | What to Automate First for Property Management Companies | `/what-to-automate-first-for-property-management-companies` | Property-management first-project scoping page | Live |
 | Lease Renewal Automation for Property Management Companies | `/lease-renewal-automation-for-property-management-companies` | Industry workflow page | Live |
@@ -324,18 +325,18 @@ Last updated: 2026-04-25 (shipped `ai-phone-answering-vs-voicemail-for-dental-pr
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 297**
+**Total decision/comparison/industry pages live: 298**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-phone-answering-vs-voicemail-for-dental-practices` extracts the exact buyer decision that was already sitting inside the live dental phone-answering page's tracked prompts: whether a practice has truly outgrown voicemail and delayed callbacks enough to justify live AI coverage. The broader dental cluster already had first-project, early-funnel, booking, recall, no-show, review, and live-answering pages, so this narrower comparison was the clearest distinct child still missing. With that phone-fallback decision now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster dental phone page by inertia.
+Shipping `/ai-phone-answering-for-insurance-agencies` extracts the heavier live-call-coverage child that the lighter insurance after-hours page was already hinting at in both its copy and tracked prompts. The insurance cluster already had the broader parent plus lead-follow-up, renewal, quote-follow-up, cross-sell, review, and after-hours children, so this was the clearest distinct next-step page still missing. With that heavier insurance phone child now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster insurance phone page by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the dental phone cluster still automatically owns the next run now that the voicemail-vs-live-answering child has shipped. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the insurance phone cluster still automatically owns the next run now that the heavier live-answering child has shipped. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 

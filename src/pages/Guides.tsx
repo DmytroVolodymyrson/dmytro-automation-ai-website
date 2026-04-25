@@ -1205,6 +1205,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering for Insurance Agencies",
+    description:
+      "A heavier insurance phone-coverage page focused on live quote and service call handling, routine intake-question triage, after-hours call coverage, and cleaner producer or CSR handoff when voicemail is no longer enough.",
+    href: "/ai-phone-answering-for-insurance-agencies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Property Management",
     description:
       "AI automation for property management companies. Tenant communication, maintenance requests, lease renewals, showing scheduling, and owner reporting.",
