@@ -2,6 +2,14 @@
 
 **Last updated:** 2026-04-25 MDT
 
+## Update 2026-04-25 — Phase 1/2 GEO authority execution
+- Proceeded on GSC + entity cleanup foundation after Dmytro confirmed the sitemap shows 320 discovered pages.
+- Added `docs/geo-priority-urls.md` with a bounded 25-URL priority set, GSC status placeholders, GEO status, problem notes, and next actions.
+- Recreated/saved `docs/plans/2026-04-25-geo-authority-improvement.md` so the authority plan is durable in-repo.
+- Strengthened homepage JSON-LD entity clarity: `Person` now explicitly links Dmytro Afanasiev to Dmytro AI, adds alternate names, knowsAbout topics, n8n profile sameAs, and `worksFor`; business node is now `LocalBusiness` + `ProfessionalService` named Dmytro AI.
+- Updated `public/llm.txt` and `public/llms.txt` lead entity text to use the same Dmytro AI / Dmytro Afanasiev identity language.
+- Verification: priority URL validation passed (25 URLs, all in sitemap); `npm run build` passed with 321 indexable/prerendered routes; `npm run geo:weekly:dry` passed with all providers ready.
+
 ## Update 2026-04-25 — Weekly GEO visibility worker
 - Added weekly bounded mode to `scripts/geo-runner.ts`: `--providers`, `--sample-pages`/`--sample-size`, `--run-id`, `--output-prefix`, `--output-dir`, `--weekly-report`/`--report` flags.
 - Weekly mode samples 30 pages deterministically (ISO week seed), outputs to `docs/data/geo-weekly/`, and generates an executive report with visibility metrics, provider breakdown, competitor domains, wins/gaps, and action suggestions.

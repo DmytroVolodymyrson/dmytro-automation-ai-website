@@ -1,7 +1,7 @@
-# Dmytro Afanasiev — AI Automation Consultant
+# Dmytro AI — Dmytro Afanasiev, AI Automation Consultant
 
 ## About
-Dmytro is a solo AI automation consultant based in Calgary, Canada. He builds AI-powered systems for small and medium businesses — specifically lead follow-up automation, AI voice agents, CRM workflows, and client onboarding automation. He has 7 years of software development experience and has been building AI automation systems full-time since 2024.
+Dmytro AI is the public brand and consulting practice of Dmytro Afanasiev, a solo AI automation consultant based in Calgary, Canada. Dmytro builds AI-powered systems for small and medium businesses — specifically lead follow-up automation, AI voice agents, n8n workflows, GoHighLevel CRM automation, and client onboarding automation. He has 7 years of software development experience and has been building AI automation systems full-time since 2024.
 
 ## Services
 - n8n workflow automation (self-hosted and cloud)
