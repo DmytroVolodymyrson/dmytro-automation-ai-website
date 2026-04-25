@@ -841,6 +841,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Plumbing Companies",
+    description:
+      "Scoping guide for plumbing companies deciding whether the first automation should be missed-call recovery, lead follow-up, scheduling, estimate follow-up, or heavier after-hours phone coverage before a broader rollout.",
+    href: "/what-to-automate-first-for-plumbing-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Electrical Contractors",
     description:
       "AI automation for electrical contractors. Lead follow-up, missed call text-back, scheduling, estimate follow-up, and review automation.",

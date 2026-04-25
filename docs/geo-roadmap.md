@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `review-request-automation-for-chiropractors` after fresh reconciliation confirmed the chiropractic cluster still had one clean post-visit reputation gap. The live chiropractor parent already explicitly named review automation, and the cluster already had first-project, intake-and-scheduling, care-plan recall, no-show reduction, and mature phone-layer coverage live. The new page stays distinct by framing the buyer decision around completed-appointment review timing, uncertain-reply routing, and cleaner local-trust follow-through after the visit is over — not generic intake, recall, or another phone-layer variant.)
+Last updated: 2026-04-24 (shipped `what-to-automate-first-for-plumbing-companies` after fresh reconciliation confirmed the broad plumbing parent already exposed a clean earlier prioritization gap. The live plumbing page already explicitly named missed-call recovery, lead follow-up, appointment scheduling, estimate follow-up, review automation, and after-hours call handling, but the site still lacked the page that helps owners choose the first bounded workflow. The new page stays distinct by framing the buyer decision around where revenue is leaking first — before the first conversation, right after the inquiry lands, after the job is booked, after pricing is sent, or when heavier after-hours phone coverage becomes necessary — not by rewording the broader parent.)
 
 ## Live GEO Assets
 
@@ -76,6 +76,7 @@ Last updated: 2026-04-24 (shipped `review-request-automation-for-chiropractors` 
 | AI Automation for Law Firms | `/ai-automation-for-law-firms` | Industry page | Live |
 | AI Automation for Accounting Firms | `/ai-automation-for-accounting-firms` | Industry page | Live |
 | AI Automation for Plumbing Companies | `/ai-automation-for-plumbing-companies` | Industry page | Live |
+| What to Automate First for Plumbing Companies | `/what-to-automate-first-for-plumbing-companies` | Plumbing first-project scoping page | Live |
 | AI Automation for Electrical Contractors | `/ai-automation-for-electrical-contractors` | Industry page | Live |
 | CRM Automation for Contractors | `/crm-automation-for-contractors` | Industry / CRM systems page | Live |
 | CRM Pipeline Stages for Contractors | `/crm-pipeline-stages-for-contractors` | Contractor workflow-design page | Live |
@@ -273,20 +274,20 @@ Last updated: 2026-04-24 (shipped `review-request-automation-for-chiropractors` 
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 246**
+**Total decision/comparison/industry pages live: 247**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/review-request-automation-for-chiropractors` closes the clean chiropractic post-visit reputation gap that was still sitting inside a mature cluster. The next run should not force another chiropractic sibling or another review-closeout page by inertia. Do another fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only queue another review-closeout child if a different mature cluster still has explicit parent-page proof and a clearly separate post-service workflow gap.
+Shipping `/what-to-automate-first-for-plumbing-companies` gives the plumbing cluster its earlier prioritization layer. The broad plumbing parent already exposed several bounded workflow families, but the site still lacked the page that helps an owner choose the first project instead of jumping straight to a bigger rollout. The next run should not force another plumbing sibling by inertia. Do another fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only queue another same-cluster home-service child if it still survives that broader audit as the cleanest remaining fit.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued workflow** | Fresh full backlog reconciliation across planning docs, live routes, and tracked prompts | Owners asking a still-clean workflow or decision question not yet isolated on the live site | The chiropractic review-closeout gap is now shipped. The next run should deliberately search for the best surviving distinct child page or decision page instead of forcing another same-pattern reputation page. | **Required before naming the next exact slug** |
-| 2 | **Watchlist** | Proof-led review-closeout child in another mature cluster only if explicit parent-page review proof and clear post-service separation still survive reconciliation | Businesses asking how to ask for reviews at the right time without pushing unhappy contacts public too early | Review-closeout pages can still be valid when the parent explicitly names reviews and the cluster already has earlier workflow stages live, but the next run should only pick one if reconciliation shows a cleaner gap than any non-review alternative. | **Fallback only after broad audit** |
-| 3 | **Watchlist** | Distinct non-review child surfaced by full backlog reconciliation | Owners asking a workflow or decision question that is still commercially clean and proof-supported | If broader reconciliation surfaces a cleaner surviving page than another reputation child, prefer that instead of repeating the same pattern again. | **Needs next-run audit** |
+| 1 | **Queued workflow** | Fresh full backlog reconciliation across planning docs, live routes, and tracked prompts | Owners asking a still-clean workflow or decision question not yet isolated on the live site | The plumbing first-project gap is now shipped. The next run should deliberately search for the best surviving distinct child page or decision page instead of forcing another plumbing workflow by momentum. | **Required before naming the next exact slug** |
+| 2 | **Watchlist** | `what-to-automate-first-for-electrical-contractors` | Electrical contractors asking which bounded workflow should come first before a broader automation rollout | The live electrical parent already names lead follow-up, missed-call recovery, scheduling, estimate follow-up, and review automation, but the site still appears to lack the earlier scoping layer that would parallel the new plumbing page. | **Strong fallback after broad audit** |
+| 3 | **Watchlist** | Distinct non-review child surfaced by full backlog reconciliation | Owners asking a workflow or decision question that is still commercially clean and proof-supported | If broader reconciliation surfaces a cleaner surviving page than another home-service first-project sibling, prefer that instead of repeating the same pattern again. | **Needs next-run audit** |
 
 ### Priority Definitions
 

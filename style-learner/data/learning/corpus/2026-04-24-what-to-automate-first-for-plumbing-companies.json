@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-24-what-to-automate-first-for-plumbing-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-24",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: What to Automate First for Plumbing Companies\nBody: If your plumbing company knows it needs better automation, the safest first move is usually not a giant all-in-one system. It is one bounded workflow that fixes an expensive leak first. For most plumbing companies, that first workflow is one of five things: missed-call recovery when emergency or same-day callers still hit voicemail, lead follow-up when web forms and quote requests sit too long before anyone replies, booked-job scheduling and reminder flow when the office keeps losing time to confirmations and reschedules, estimate follow-up when sent pricing keeps dying quietly after the visit, or heavier after-hours phone coverage when the call load is too urgent for lighter callback workflows to protect demand reliably. The right choice depends on where revenue is leaking today — before the first conversation, right after the inquiry lands, after the job is already booked, after pricing is already out, or when the office simply cannot answer enough live calls to keep up.\nSub: Below: how to choose the first plumbing workflow to automate, how this page stays distinct from the broader plumbing parent page, what adjacent proof honestly supports the recommendation, and when you should keep the first project smaller instead of forcing a bigger automation rollout too early.\n\n### Core sections\n- The first plumbing workflows usually worth automating\n- Which plumbing workflow should you automate first?\n- This page vs. the rest of the plumbing guidance already live\n- Is this a good fit for your plumbing company?\n- How to choose the first plumbing automation without overbuilding\n- Mistakes that make the first plumbing automation project harder than it needs to be\n- Relevant proof and adjacent proof\n\n### FAQ\nSubhead: Practical answers for plumbing companies deciding where the first automation should go\nTopics: what is usually the best first automation for a plumbing company, how this differs from the broader plumbing automation page, what a focused first workflow usually costs, whether review automation should come first, and where the ROI usually comes from.\n\n### Final CTA\nHeading: Need help choosing the first plumbing workflow to automate?\nBody: Book a 30-minute call. We will look at how calls, new inquiries, schedules, and estimates move today, identify where jobs are actually being lost, and tell you whether the right first move is missed-call recovery, faster lead follow-up, a scheduling workflow, estimate follow-up, or no new build yet.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after fresh reconciliation across `AGENTS.md`, `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the live plumbing parent already explicitly names missed-call recovery, lead follow-up, appointment scheduling, estimate follow-up, review automation, and after-hours call handling, but the site still lacked the earlier scoping page that helps an owner choose the first bounded workflow."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live plumbing parent, the home-service appointment-setter page, the generic lead-follow-up and quote-follow-up guides, and the published phone / CRM case studies support the workflow pattern without pretending there is already a dedicated plumbing-child case study on the site."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-25T00:06:29.646Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 30.8,
+      "sentenceLengthRange": [
+        4,
+        82
+      ],
+      "totalWords": 400
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: What to Automate First for Plumbing Companies\nBody: If your plumbing company knows it needs better automation, the safest first move is usually not a giant all-in-one system.",
+      "wordCount": 30,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help choosing the first plumbing workflow to automate?\nBody: Book a 30-minute call. We will look at how calls, new inquiries, schedules, and estimates move today, identify where jobs are actually being lost, and tell you whether the right first move is missed-call recovery, faster lead follow-up, a scheduling workflow, estimate follow-up, or no new build yet.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 26,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 3,
+      "colon": 9,
+      "commasPerSentence": 2.17
+    },
+    "vocabulary": {
+      "distinctWords": 202,
+      "totalWords": 400,
+      "topWords": [
+        [
+          "first",
+          17
+        ],
+        [
+          "plumbing",
+          15
+        ],
+        [
+          "automation",
+          8
+        ],
+        [
+          "workflow",
+          7
+        ],
+        [
+          "when",
+          7
+        ],
+        [
+          "-",
+          7
+        ],
+        [
+          "usually",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "automate",
+          4
+        ],
+        [
+          "follow-up",
+          4
+        ],
+        [
+          "after",
+          4
+        ],
+        [
+          "where",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "page",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.008
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

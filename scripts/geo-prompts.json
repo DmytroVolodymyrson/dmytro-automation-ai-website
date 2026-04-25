@@ -2731,6 +2731,18 @@
         "Contractor lead to estimator assignment workflow",
         "How can a home service contractor triage new service requests before the estimate?"
       ]
+    },
+    {
+      "id": "what-to-automate-first-for-plumbing-companies",
+      "path": "/what-to-automate-first-for-plumbing-companies",
+      "label": "What to Automate First for Plumbing Companies",
+      "prompts": [
+        "What should a plumbing company automate first?",
+        "What should a plumbing company automate first missed-call recovery lead follow-up scheduling estimate follow-up or after-hours phone coverage?",
+        "Should a plumbing company fix missed calls before estimate follow-up?",
+        "Should a plumbing company automate scheduling before heavier live phone answering?",
+        "How do I choose the first automation project for my plumbing company?"
+      ]
     }
   ],
   "providers": [
