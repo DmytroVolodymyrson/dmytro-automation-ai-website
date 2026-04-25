@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `ai-phone-answering-vs-voicemail-for-plumbing-companies` after reconciling GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The strongest surviving page was the plumbing heavier phone-fallback decision: the cluster already had the broad parent, first-project guide, heavier AI phone-answering explainer, and lighter text-back-vs-AI comparison live, while the exact buyer question about live AI phone answering versus voicemail/callbacks still survived in tracked prompts and stayed materially distinct.)
+Last updated: 2026-04-25 (shipped `missed-call-text-back-vs-voicemail-for-plumbing-companies` after reconciling GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The broad re-audit still left one clean plumbing lighter phone-fallback decision: the cluster already had the broad parent, first-project guide, the lighter missed-call workflow, the heavier AI-phone-answering explainer, and the adjacent heavier voicemail comparison live, while the remaining buyer question about SMS-first recovery versus voicemail stayed materially distinct.)
 
 ## Live GEO Assets
 
@@ -88,6 +88,7 @@ Last updated: 2026-04-25 (shipped `ai-phone-answering-vs-voicemail-for-plumbing-
 | AI Lead Follow-Up for Plumbing Companies | `/ai-lead-follow-up-for-plumbing-companies` | Plumbing early-funnel lead-response workflow page | Live |
 | Estimate Follow-Up Automation for Plumbing Companies | `/estimate-follow-up-automation-for-plumbing-companies` | Plumbing quote-stage workflow page | Live |
 | Missed Call Text-Back for Plumbing Companies | `/missed-call-text-back-for-plumbing-companies` | Plumbing phone-recovery workflow page | Live |
+| Missed Call Text-Back vs. Voicemail for Plumbing Companies | `/missed-call-text-back-vs-voicemail-for-plumbing-companies` | Plumbing lighter-fallback phone decision page | Live |
 | Missed Call Text-Back vs. AI Phone Answering for Plumbing Companies | `/missed-call-text-back-vs-ai-phone-answering-for-plumbing-companies` | Plumbing lighter-vs-heavier phone-layer decision page | Live |
 | AI Phone Answering for Plumbing Companies | `/ai-phone-answering-for-plumbing-companies` | Plumbing live-phone-coverage workflow page | Live |
 | AI Phone Answering vs. Voicemail for Plumbing Companies | `/ai-phone-answering-vs-voicemail-for-plumbing-companies` | Plumbing heavier phone-fallback decision page | Live |
@@ -299,19 +300,18 @@ Last updated: 2026-04-25 (shipped `ai-phone-answering-vs-voicemail-for-plumbing-
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 272**
+**Total decision/comparison/industry pages live: 273**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-phone-answering-vs-voicemail-for-plumbing-companies` closes the clean plumbing heavier phone-fallback decision that was still explicitly sitting in tracked prompts. The next run should still begin with a broad repo-wide reconciliation instead of forcing another plumbing page by inertia, but one lighter same-cluster fallback question remains clean enough to keep on the watchlist if the wider backlog does not surface a stronger page.
+Shipping `/missed-call-text-back-vs-voicemail-for-plumbing-companies` closes the remaining clean plumbing lighter fallback decision that still survived the broader reconciliation. The next run should begin with a fresh repo-wide audit instead of forcing another plumbing page by inertia; that phone cluster now has the broad parent, first-project guide, lighter missed-call workflow, lighter voicemail comparison, heavier live-answering explainer, heavier voicemail comparison, and lighter-vs-heavier comparison live.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Watchlist** | Fresh repo-wide reconciliation across broader planning docs, live clusters, and tracked prompts | Owners asking a still-clean workflow or economic decision question not yet isolated on the live site | After shipping the plumbing heavier voicemail comparison, the next run should still start with a broad audit instead of assuming the same cluster automatically beats every other remaining page. | **Best current next step** |
-| 2 | **P1** | Missed Call Text-Back vs. Voicemail for Plumbing Companies | Plumbing owners deciding whether voicemail is still good enough before they move to SMS-first recovery or heavier live answering | This remains the clearest same-cluster lighter-fallback decision still missing after the heavier voicemail comparison shipped, and it stays distinct from both the new page and the broader live-answering explainer. | **Strong fallback if broader re-audit does not surface a better page** |
+| 1 | **Watchlist** | Fresh repo-wide reconciliation across broader planning docs, live clusters, and tracked prompts | Owners asking a still-clean workflow, setup, or economic decision question not yet isolated on the live site | After shipping the remaining plumbing fallback page, the best next step is a broad audit instead of assuming the same cluster still beats every other surviving candidate. | **Best current next step** |
 
 ### Priority Definitions
 

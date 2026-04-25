@@ -2877,6 +2877,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-vs-voicemail-for-plumbing-companies",
+      "path": "/missed-call-text-back-vs-voicemail-for-plumbing-companies",
+      "label": "Missed Call Text-Back vs. Voicemail for Plumbing Companies",
+      "prompts": [
+        "Missed call text-back vs voicemail for plumbing companies",
+        "Should a plumbing company use missed-call text-back or voicemail?",
+        "When is SMS-first missed-call recovery better than voicemail for a plumbing company?",
+        "Is voicemail enough for missed plumbing calls after hours?",
+        "What is better for plumbing companies missed-call text-back or voicemail?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-vs-ai-phone-answering-for-plumbing-companies",
       "path": "/missed-call-text-back-vs-ai-phone-answering-for-plumbing-companies",
       "label": "Missed Call Text-Back vs. AI Phone Answering for Plumbing Companies",

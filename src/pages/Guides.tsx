@@ -925,6 +925,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. Voicemail for Plumbing Companies",
+    description:
+      "Plumbing buyer guide for deciding when SMS-first missed-call recovery is enough, when voicemail is quietly costing booked work, and when the company should move beyond both into live AI phone answering.",
+    href: "/missed-call-text-back-vs-voicemail-for-plumbing-companies",
+    category: "comparisons",
+  },
+  {
     title: "Missed Call Text-Back vs. AI Phone Answering for Plumbing Companies",
     description:
       "Plumbing buyer guide for deciding when SMS-first missed-call recovery is enough, when live AI phone answering is worth the heavier build, and how to choose based on office workload, after-hours demand, and caller urgency.",
