@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `what-to-automate-first-for-plumbing-companies` after fresh reconciliation confirmed the broad plumbing parent already exposed a clean earlier prioritization gap. The live plumbing page already explicitly named missed-call recovery, lead follow-up, appointment scheduling, estimate follow-up, review automation, and after-hours call handling, but the site still lacked the page that helps owners choose the first bounded workflow. The new page stays distinct by framing the buyer decision around where revenue is leaking first — before the first conversation, right after the inquiry lands, after the job is booked, after pricing is sent, or when heavier after-hours phone coverage becomes necessary — not by rewording the broader parent.)
+Last updated: 2026-04-24 (shipped `what-to-automate-first-for-electrical-contractors` after fresh reconciliation confirmed the broad electrical parent already exposed a clean earlier prioritization gap. The live electrical page already explicitly named missed-call recovery, lead follow-up, appointment scheduling, estimate follow-up, review automation, and after-hours call handling, but the site still lacked the page that helps owners choose the first bounded workflow. The new page stays distinct by framing the buyer decision around where revenue or office time is leaking first — before the first conversation, right after the inquiry lands, after the job is booked, after pricing is sent, after completed jobs fail to become reviews, or when heavier after-hours phone coverage becomes necessary — not by rewording the broader parent.)
 
 ## Live GEO Assets
 
@@ -78,6 +78,7 @@ Last updated: 2026-04-24 (shipped `what-to-automate-first-for-plumbing-companies
 | AI Automation for Plumbing Companies | `/ai-automation-for-plumbing-companies` | Industry page | Live |
 | What to Automate First for Plumbing Companies | `/what-to-automate-first-for-plumbing-companies` | Plumbing first-project scoping page | Live |
 | AI Automation for Electrical Contractors | `/ai-automation-for-electrical-contractors` | Industry page | Live |
+| What to Automate First for Electrical Contractors | `/what-to-automate-first-for-electrical-contractors` | Electrical first-project scoping page | Live |
 | CRM Automation for Contractors | `/crm-automation-for-contractors` | Industry / CRM systems page | Live |
 | CRM Pipeline Stages for Contractors | `/crm-pipeline-stages-for-contractors` | Contractor workflow-design page | Live |
 | CRM Automation Setup for Contractors | `/crm-automation-setup-for-contractors` | Contractor setup-help page | Live |
@@ -274,20 +275,20 @@ Last updated: 2026-04-24 (shipped `what-to-automate-first-for-plumbing-companies
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 247**
+**Total decision/comparison/industry pages live: 248**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/what-to-automate-first-for-plumbing-companies` gives the plumbing cluster its earlier prioritization layer. The broad plumbing parent already exposed several bounded workflow families, but the site still lacked the page that helps an owner choose the first project instead of jumping straight to a bigger rollout. The next run should not force another plumbing sibling by inertia. Do another fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only queue another same-cluster home-service child if it still survives that broader audit as the cleanest remaining fit.
+Shipping `/what-to-automate-first-for-electrical-contractors` gives the electrical cluster its earlier prioritization layer. The broad electrical parent already exposed several bounded workflow families, but the site still lacked the page that helps an owner choose the first project instead of jumping straight to a bigger rollout. The next run should not force another electrical sibling by inertia. Do another fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only queue another same-cluster home-service child if it still survives that broader audit as the cleanest remaining fit.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued workflow** | Fresh full backlog reconciliation across planning docs, live routes, and tracked prompts | Owners asking a still-clean workflow or decision question not yet isolated on the live site | The plumbing first-project gap is now shipped. The next run should deliberately search for the best surviving distinct child page or decision page instead of forcing another plumbing workflow by momentum. | **Required before naming the next exact slug** |
-| 2 | **Watchlist** | `what-to-automate-first-for-electrical-contractors` | Electrical contractors asking which bounded workflow should come first before a broader automation rollout | The live electrical parent already names lead follow-up, missed-call recovery, scheduling, estimate follow-up, and review automation, but the site still appears to lack the earlier scoping layer that would parallel the new plumbing page. | **Strong fallback after broad audit** |
-| 3 | **Watchlist** | Distinct non-review child surfaced by full backlog reconciliation | Owners asking a workflow or decision question that is still commercially clean and proof-supported | If broader reconciliation surfaces a cleaner surviving page than another home-service first-project sibling, prefer that instead of repeating the same pattern again. | **Needs next-run audit** |
+| 1 | **Queued workflow** | Fresh full backlog reconciliation across planning docs, live routes, and tracked prompts | Owners asking a still-clean workflow or decision question not yet isolated on the live site | The electrical first-project gap is now shipped. The next run should deliberately search for the best surviving distinct child page or decision page instead of forcing another electrical workflow by momentum. | **Required before naming the next exact slug** |
+| 2 | **Watchlist** | `estimate-follow-up-automation-for-electrical-contractors` | Electrical contractors asking how to recover panel-upgrade, rewiring, and service quotes that go quiet after the estimate stage | Now that the electrical scoping layer is live, estimate follow-up looks like the cleanest narrower child still implied by the parent page and supported by adjacent quote-follow-up proof — but it should still lose to any stronger distinct page surfaced by the next broad audit. | **Strong fallback after broad audit** |
+| 3 | **Watchlist** | Distinct non-electrical child surfaced by full backlog reconciliation | Owners asking a workflow or decision question that is still commercially clean and proof-supported | If broader reconciliation surfaces a cleaner surviving page than another same-cluster electrical child, prefer that instead of repeating the same home-service pattern again. | **Needs next-run audit** |
 
 ### Priority Definitions
 

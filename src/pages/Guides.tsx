@@ -855,6 +855,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Electrical Contractors",
+    description:
+      "Scoping guide for electrical contractors deciding whether the first automation should be missed-call recovery, lead follow-up, scheduling, estimate follow-up, review requests, or heavier after-hours phone coverage before a broader rollout.",
+    href: "/what-to-automate-first-for-electrical-contractors",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Insurance Agencies",
     description:
       "AI automation for insurance agencies. Lead follow-up, renewal reminders, quote follow-up, cross-sell campaigns, and client communication.",

@@ -76,6 +76,7 @@ import AiAutomationForAccountingFirms from "./pages/AiAutomationForAccountingFir
 import AiAutomationForPlumbingCompanies from "./pages/AiAutomationForPlumbingCompanies";
 import WhatToAutomateFirstForPlumbingCompanies from "./pages/WhatToAutomateFirstForPlumbingCompanies";
 import AiAutomationForElectricalContractors from "./pages/AiAutomationForElectricalContractors";
+import WhatToAutomateFirstForElectricalContractors from "./pages/WhatToAutomateFirstForElectricalContractors";
 import CrmAutomationSetupForContractors from "./pages/CrmAutomationSetupForContractors";
 import WhatToAutomateFirstForContractors from "./pages/WhatToAutomateFirstForContractors";
 import CrmAutomationSetupCostForContractors from "./pages/CrmAutomationSetupCostForContractors";
@@ -372,6 +373,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-for-plumbing-companies", element: <AiAutomationForPlumbingCompanies /> },
   { path: "/what-to-automate-first-for-plumbing-companies", element: <WhatToAutomateFirstForPlumbingCompanies /> },
   { path: "/ai-automation-for-electrical-contractors", element: <AiAutomationForElectricalContractors /> },
+  { path: "/what-to-automate-first-for-electrical-contractors", element: <WhatToAutomateFirstForElectricalContractors /> },
   { path: "/client-onboarding-automation", element: <ClientOnboardingAutomation /> },
   { path: "/ai-automation-roi-guide", element: <AiAutomationRoiGuide /> },
   { path: "/ai-automation-roi-calculator", element: <AiAutomationRoiCalculator /> },
