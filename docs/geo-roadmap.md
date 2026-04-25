@@ -73,6 +73,7 @@ Last updated: 2026-04-24 (shipped `ai-phone-answering-vs-voicemail-for-electrica
 | Incomplete Application Follow-Up for Mortgage Brokers | `/incomplete-application-follow-up-for-mortgage-brokers` | Industry workflow page | Live |
 | What to Automate First for Mortgage Brokers | `/what-to-automate-first-for-mortgage-brokers` | Mortgage first-project scoping page | Live |
 | AI Automation for Dental Practices | `/ai-automation-for-dental-practices` | Industry page | Live |
+| What to Automate First for Dental Practices | `/what-to-automate-first-for-dental-practices` | Dental first-project scoping page | Live |
 | AI Automation for Law Firms | `/ai-automation-for-law-firms` | Industry page | Live |
 | AI Automation for Accounting Firms | `/ai-automation-for-accounting-firms` | Industry page | Live |
 | AI Automation for Plumbing Companies | `/ai-automation-for-plumbing-companies` | Industry page | Live |
@@ -289,20 +290,20 @@ Last updated: 2026-04-24 (shipped `ai-phone-answering-vs-voicemail-for-electrica
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 262**
+**Total decision/comparison/industry pages live: 263**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-phone-answering-vs-voicemail-for-electrical-contractors` appears to close the last obviously clean electrical phone-fallback buyer decision inside that cluster. Electrical now covers the broad parent, first-project scoping, early-funnel lead response, lighter missed-call recovery, lighter voicemail-vs-text-back, lighter-vs-heavier text-back-vs-live-answering, heavier live-phone coverage, heavier live-answering-vs-voicemail, booked-job scheduling, estimate recovery, and post-job review follow-through. The next run should deliberately reset to a repo-wide backlog reconciliation instead of giving electrical another turn by inertia.
+Shipping `/what-to-automate-first-for-dental-practices` closes the clearest missing earlier scoping layer in the live dental cluster. Dental now covers the broader parent page plus the first-project decision that helps an owner choose between new-patient follow-up, booking and reminders, recall/reactivation, no-show reduction, and after-hours call handling before a broader build. The next run should keep the broader backlog-reconciliation mindset, but the strongest remaining adjacent candidates now appear to be the same first-project decision layer in other live professional-services clusters that still only have the broad parent page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued workflow** | Fresh full backlog reconciliation across planning docs, live routes, live parent copy, and tracked prompts | Owners asking a still-clean workflow or decision question not yet isolated on the live site | The electrical heavier-fallback decision is now shipped too. The next run should deliberately search for the strongest remaining distinct page anywhere in the backlog instead of defaulting to the same cluster. | **Required before naming the next exact slug** |
-| 2 | **Watchlist** | Distinct non-electrical child surfaced by full backlog reconciliation | Owners asking a workflow or decision question that is still commercially clean and proof-supported | The broader backlog still needs a repo-wide pass before another exact slug is promoted. Prefer the strongest remaining proof-backed page even if it comes from a different cluster. | **Needs next-run audit** |
-| 3 | **Watchlist** | Proof-backed setup, pricing, or workflow child from a mature live cluster outside electrical | Owners asking an implementation-help, economics, or narrower workflow question that still has clean intent separation | Tier B should still bias toward shipping one net-new page quickly, but only after the next run confirms the surviving page is materially distinct and supported by adjacent proof. | **Needs next-run audit** |
+| 1 | **Queued workflow** | `what-to-automate-first-for-law-firms` | Law-firm owners deciding whether the first workflow should be inquiry response, intake, consultation scheduling, lead nurture, case-status updates, or after-hours coverage | The live law-firm parent already exposes multiple bounded workflow families, but the site still lacks the earlier scoping page that helps a buyer choose the first one before funding a broader intake/operations build. Adjacent proof is strong via the live legal parent plus the same published phone-handling and CRM proof used across other first-project pages. | **Best current candidate after this ship** |
+| 2 | **Watchlist** | `what-to-automate-first-for-accounting-firms` | Accounting-firm owners deciding whether the first workflow should be document collection, onboarding, appointment scheduling, prospect response, seasonal campaigns, or client re-engagement | The live accounting parent also exposes a clean first-project buyer decision with strong operational pain and adjacent proof, but law-firm scoping likely has slightly stronger buyer urgency and cleaner direct-intake framing. | **Strong fallback** |
+| 3 | **Watchlist** | Fresh repo-wide reconciliation after the next professional-services first-project ship | Owners asking a still-clean workflow or decision question not yet isolated on the live site | Dental proved there are still defensible earlier scoping layers hidden inside broad live parent pages. After one more likely law/accounting first-project ship, the backlog should be re-audited again instead of forcing another same-cluster child by inertia. | **Do after the next ship** |
 
 ### Priority Definitions
 

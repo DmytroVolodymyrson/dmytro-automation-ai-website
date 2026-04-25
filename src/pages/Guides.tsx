@@ -820,6 +820,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Dental Practices",
+    description:
+      "Scoping guide for dental practices deciding whether the first automation should be new-patient follow-up, booking and reminders, recall/reactivation, no-show reduction, or after-hours call handling before a broader rollout.",
+    href: "/what-to-automate-first-for-dental-practices",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Law Firms",
     description:
       "AI automation for law firms. Client intake, consultation booking, lead follow-up, and case status updates. What works for small to mid-size practices.",

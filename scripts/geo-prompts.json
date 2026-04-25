@@ -669,6 +669,18 @@
       ]
     },
     {
+      "id": "what-to-automate-first-for-dental-practices",
+      "path": "/what-to-automate-first-for-dental-practices",
+      "label": "What to Automate First for Dental Practices",
+      "prompts": [
+        "What should a dental practice automate first?",
+        "What should a dental office automate first new-patient follow-up booking and reminders recall campaigns no-show reduction or after-hours call handling?",
+        "Best first automation for dental practices",
+        "How do I choose the first automation project for a dental practice?",
+        "Should a dental practice fix recall and reactivation before after-hours call handling?"
+      ]
+    },
+    {
       "id": "ai-automation-for-insurance-agencies",
       "path": "/ai-automation-for-insurance-agencies",
       "label": "AI Automation for Insurance Agencies",
