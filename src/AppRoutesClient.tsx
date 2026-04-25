@@ -102,6 +102,7 @@ const WhatToAutomateFirstForAccountingFirms = lazy(() => import("./pages/WhatToA
 const AppointmentSchedulingAndReminderAutomationForAccountingFirms = lazy(() => import("./pages/AppointmentSchedulingAndReminderAutomationForAccountingFirms"));
 const SeasonalClientReactivationForAccountingFirms = lazy(() => import("./pages/SeasonalClientReactivationForAccountingFirms"));
 const AiLeadFollowUpForAccountingFirms = lazy(() => import("./pages/AiLeadFollowUpForAccountingFirms"));
+const AiPhoneAnsweringForAccountingFirms = lazy(() => import("./pages/AiPhoneAnsweringForAccountingFirms"));
 const AiAutomationForPlumbingCompanies = lazy(() => import("./pages/AiAutomationForPlumbingCompanies"));
 const WhatToAutomateFirstForPlumbingCompanies = lazy(() => import("./pages/WhatToAutomateFirstForPlumbingCompanies"));
 const AiLeadFollowUpForPlumbingCompanies = lazy(() => import("./pages/AiLeadFollowUpForPlumbingCompanies"));
@@ -433,8 +434,9 @@ const AppRoutesClient = () => (
       <Route path="/appointment-scheduling-and-reminder-automation-for-accounting-firms" element={<AppointmentSchedulingAndReminderAutomationForAccountingFirms />} />
       <Route path="/seasonal-client-reactivation-for-accounting-firms" element={<SeasonalClientReactivationForAccountingFirms />} />
       <Route path="/ai-lead-follow-up-for-accounting-firms" element={<AiLeadFollowUpForAccountingFirms />} />
+      <Route path="/ai-phone-answering-for-accounting-firms" element={<AiPhoneAnsweringForAccountingFirms />} />
       <Route path="/ai-automation-for-plumbing-companies" element={<AiAutomationForPlumbingCompanies />} />
-      <Route path="/what-to-automate-first-for-plumbing-companies" element={<WhatToAutomateFirstForPlumbingCompanies />} />
+
       <Route path="/ai-lead-follow-up-for-plumbing-companies" element={<AiLeadFollowUpForPlumbingCompanies />} />
       <Route path="/estimate-follow-up-automation-for-plumbing-companies" element={<EstimateFollowUpAutomationForPlumbingCompanies />} />
       <Route path="/missed-call-text-back-for-plumbing-companies" element={<MissedCallTextBackForPlumbingCompanies />} />

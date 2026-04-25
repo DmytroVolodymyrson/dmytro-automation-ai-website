@@ -1031,6 +1031,14 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering for Accounting Firms",
+    description:
+      "Live call handling, after-hours coverage, and routine inquiry triage for accounting firms. Professional intake, appointment support, and cleaner staff handoff during busy tax seasons.",
+    href: "/ai-phone-answering-for-accounting-firms",
+    category: "industries",
+  },
+
+  {
     title: "AI Automation for Plumbing Companies",
     description:
       "AI automation for plumbing companies. Missed call text-back, lead follow-up, appointment scheduling, estimate follow-up, and review automation.",

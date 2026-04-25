@@ -1017,6 +1017,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-for-accounting-firms",
+      "path": "/ai-phone-answering-for-accounting-firms",
+      "label": "AI Phone Answering for Accounting Firms",
+      "prompts": [
+        "AI phone answering for accounting firms",
+        "Best AI live phone coverage for CPA practices",
+        "Should an accounting firm use AI phone answering instead of voicemail?",
+        "AI professional intake and inquiry handling for accounting",
+        "How much does AI phone answering cost for an accounting firm?"
+      ]
+    },
+    {
       "id": "ai-automation-for-insurance-agencies",
       "path": "/ai-automation-for-insurance-agencies",
       "label": "AI Automation for Insurance Agencies",

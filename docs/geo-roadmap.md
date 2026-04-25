@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `missed-call-text-back-for-dental-practices` after broad backlog reconciliation surfaced one exact surviving lighter-phone workflow gap inside the live dental cluster. The site already had the broader dental parent, the first-project scoping page, lead follow-up, booked-visit scheduling, recall/reactivation, no-show protection, review requests, and the heavier live phone-answering plus voicemail comparison pages live, but it still lacked the SMS-first missed-call recovery layer implied by both the cluster shape and the tracked dental phone prompts. This new page now owns that lighter fallback workflow directly instead of leaving it buried inside the heavier live-answering guide. With that dental phone-recovery child now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster dental page by inertia.)
+Last updated: 2026-04-25 (shipped `ai-phone-answering-for-accounting-firms` after broad backlog reconciliation surfaced one exact surviving phone-coverage workflow gap inside the live accounting cluster. The site already had the broader accounting parent, the first-project scoping page, lead follow-up, document collection, onboarding, and scheduling pages live, but it still lacked the heavier live-answering layer implied by both the cluster shape and the professional intake requirements of CPA practices. This new page now owns that live-answering workflow directly instead of leaving it buried inside generic guides. With that accounting phone-coverage child now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster accounting page by inertia.)
 
 ## Live GEO Assets
 
@@ -103,6 +103,7 @@ Last updated: 2026-04-25 (shipped `missed-call-text-back-for-dental-practices` a
 | Appointment Scheduling and Reminder Automation for Accounting Firms | `/appointment-scheduling-and-reminder-automation-for-accounting-firms` | Accounting booked-meeting scheduling workflow page | Live |
 | Seasonal Client Reactivation for Accounting Firms | `/seasonal-client-reactivation-for-accounting-firms` | Accounting returning-client / seasonal re-engagement workflow page | Live |
 | AI Lead Follow-Up for Accounting Firms | `/ai-lead-follow-up-for-accounting-firms` | Accounting early-funnel prospect-response workflow page | Live |
+| AI Phone Answering for Accounting Firms | `/ai-phone-answering-for-accounting-firms` | Accounting live-phone-coverage workflow page | Live |
 | AI Automation for Plumbing Companies | `/ai-automation-for-plumbing-companies` | Industry page | Live |
 | What to Automate First for Plumbing Companies | `/what-to-automate-first-for-plumbing-companies` | Plumbing first-project scoping page | Live |
 | AI Lead Follow-Up for Plumbing Companies | `/ai-lead-follow-up-for-plumbing-companies` | Plumbing early-funnel lead-response workflow page | Live |
@@ -335,7 +336,7 @@ Last updated: 2026-04-25 (shipped `missed-call-text-back-for-dental-practices` a
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 308**
+**Total decision/comparison/industry pages live: 309**
 **Total case studies live: 3**
 
 ---
@@ -343,11 +344,11 @@ Last updated: 2026-04-25 (shipped `missed-call-text-back-for-dental-practices` a
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/missed-call-text-back-for-dental-practices` extracts the lighter SMS-first phone-recovery workflow that the live dental phone cluster was already implying, without collapsing it back into the heavier live-answering explainer or the separate voicemail comparison page. The dental cluster now has the broad parent, first-project scoping page, lead follow-up, booked-visit scheduling, recall/reactivation, no-show reduction, review requests, the lighter missed-call child, and the heavier live-answering pages live. With that lighter phone layer now shipped, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster dental page by inertia.
+Shipping `/ai-phone-answering-for-accounting-firms` extracts the heavier professional live-phone-coverage layer that the live accounting cluster was already implying, without collapsing it back into the broader systems guide or the separate lead-follow-up page. The accounting cluster now has the broad parent, first-project scoping page, lead follow-up, document collection, onboarding, appointment scheduling, and the heavier live phone-answering pages live. With that professional phone layer now shipped, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster accounting page by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the mature dental phone cluster automatically owns the next run now that the lighter missed-call layer and the heavier live-answering pages are both isolated. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the mature accounting cluster automatically owns the next run now that the live-answering layer is isolated. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 
