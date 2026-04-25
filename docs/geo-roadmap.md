@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `crm-cleanup-and-routing-for-real-estate-teams` after broad backlog reconciliation. The live real-estate parent plus the first-project, lead-response, and showing-coordination pages already exposed a clear missing workflow child: CRM cleanup and routing for teams whose stages, ownership, and pipeline truth are too messy to trust before heavier automation.)
+Last updated: 2026-04-25 (shipped `repeat-purchase-reactivation-automation-for-auto-parts-ecommerce` after broad backlog reconciliation. The live auto-parts parent already exposed post-purchase and replenishment as a distinct workflow family, and the cluster still lacked the vertical child specifically for reorder timing and dormant-customer recovery. With that lifecycle page now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster auto-parts page by inertia.)
 
 ## Live GEO Assets
 
@@ -170,6 +170,7 @@ Last updated: 2026-04-25 (shipped `crm-cleanup-and-routing-for-real-estate-teams
 | Fitment Inquiry Automation for Auto Parts E-Commerce | `/fitment-inquiry-automation-for-auto-parts-ecommerce` | Industry workflow page | Live |
 | Customer Inquiry Automation for Auto Parts E-Commerce | `/customer-inquiry-automation-for-auto-parts-ecommerce` | Auto-parts inquiry-routing workflow page | Live |
 | Stale Lead Follow-Up for Auto Parts E-Commerce | `/stale-lead-follow-up-for-auto-parts-ecommerce` | Auto-parts stale-lead recovery workflow page | Live |
+| Repeat-Purchase & Reactivation Automation for Auto Parts E-Commerce | `/repeat-purchase-reactivation-automation-for-auto-parts-ecommerce` | Auto-parts lifecycle / repeat-purchase workflow page | Live |
 | Quote Follow-Up Automation for Auto Parts E-Commerce | `/quote-follow-up-automation-for-auto-parts-ecommerce` | Auto-parts quote-stage workflow page | Live |
 | Repeat-Purchase & Reactivation Automation for E-Commerce Brands | `/repeat-purchase-reactivation-automation-for-ecommerce-brands` | Industry lifecycle page | Live |
 | Customer Service Automation for E-Commerce Brands | `/customer-service-automation-for-ecommerce-brands` | Industry support workflow page | Live |
@@ -322,18 +323,18 @@ Last updated: 2026-04-25 (shipped `crm-cleanup-and-routing-for-real-estate-teams
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 295**
+**Total decision/comparison/industry pages live: 296**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/crm-cleanup-and-routing-for-real-estate-teams` extracts the exact CRM-cleanup buyer query that was still sitting inside the live real-estate first-project page. The broader parent plus the already-live lead-response and showing pages made the missing stage clearer: some teams do not need another follow-up or scheduling layer first — they need pipeline truth, owner clarity, and routing discipline before any heavier automation can be trusted. With that operations child now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster real-estate page by inertia.
+Shipping `/repeat-purchase-reactivation-automation-for-auto-parts-ecommerce` extracts the post-purchase lifecycle gap that was already exposed inside the live auto-parts parent page: the cluster had fresh-inquiry, quote-stage, and stale-lead recovery coverage, but it still lacked the narrower buyer guide for reorder timing and dormant-customer recovery after the first sale. With that child now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster auto-parts page by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the real-estate cluster still automatically owns the next run now that the CRM-cleanup child has shipped. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the auto-parts cluster still automatically owns the next run now that the post-purchase lifecycle child has shipped. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 

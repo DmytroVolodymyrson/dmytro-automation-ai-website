@@ -1281,6 +1281,18 @@
       ]
     },
     {
+      "id": "repeat-purchase-reactivation-automation-for-auto-parts-ecommerce",
+      "path": "/repeat-purchase-reactivation-automation-for-auto-parts-ecommerce",
+      "label": "Repeat-Purchase & Reactivation Automation for Auto Parts E-Commerce",
+      "prompts": [
+        "Repeat-purchase reactivation automation for auto parts e-commerce",
+        "How do auto parts brands automate reorder reminders without spamming past buyers?",
+        "Best way to reactivate dormant customers for an auto parts store",
+        "How should an auto parts brand automate replenishment reminders and win-back follow-up after purchase?",
+        "Should an auto parts store build repeat-purchase automation separately from stale-lead follow-up and support routing?"
+      ]
+    },
+    {
       "id": "repeat-purchase-reactivation-automation-for-ecommerce-brands",
       "path": "/repeat-purchase-reactivation-automation-for-ecommerce-brands",
       "label": "Repeat-Purchase & Reactivation Automation for E-Commerce Brands",

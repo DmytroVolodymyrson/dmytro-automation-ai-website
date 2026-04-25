@@ -161,6 +161,7 @@ const FitmentInquiryAutomationForAutoPartsEcommerce = lazy(() => import("./pages
 const CustomerInquiryAutomationForAutoPartsEcommerce = lazy(() => import("./pages/CustomerInquiryAutomationForAutoPartsEcommerce"));
 const QuoteFollowUpAutomationForAutoPartsEcommerce = lazy(() => import("./pages/QuoteFollowUpAutomationForAutoPartsEcommerce"));
 const StaleLeadFollowUpForAutoPartsEcommerce = lazy(() => import("./pages/StaleLeadFollowUpForAutoPartsEcommerce"));
+const RepeatPurchaseReactivationAutomationForAutoPartsEcommerce = lazy(() => import("./pages/RepeatPurchaseReactivationAutomationForAutoPartsEcommerce"));
 const EcommerceCrmAutomationWithAiFollowUp = lazy(() => import("./pages/EcommerceCrmAutomationWithAiFollowUp"));
 const EcommerceCrmAutomationVsManualFollowUp = lazy(() => import("./pages/EcommerceCrmAutomationVsManualFollowUp"));
 const RepeatPurchaseReactivationAutomationForEcommerceBrands = lazy(() => import("./pages/RepeatPurchaseReactivationAutomationForEcommerceBrands"));
@@ -480,6 +481,7 @@ const AppRoutesClient = () => (
       <Route path="/customer-inquiry-automation-for-auto-parts-ecommerce" element={<CustomerInquiryAutomationForAutoPartsEcommerce />} />
       <Route path="/quote-follow-up-automation-for-auto-parts-ecommerce" element={<QuoteFollowUpAutomationForAutoPartsEcommerce />} />
       <Route path="/stale-lead-follow-up-for-auto-parts-ecommerce" element={<StaleLeadFollowUpForAutoPartsEcommerce />} />
+      <Route path="/repeat-purchase-reactivation-automation-for-auto-parts-ecommerce" element={<RepeatPurchaseReactivationAutomationForAutoPartsEcommerce />} />
       <Route path="/repeat-purchase-reactivation-automation-for-ecommerce-brands" element={<RepeatPurchaseReactivationAutomationForEcommerceBrands />} />
       <Route path="/customer-service-automation-for-ecommerce-brands" element={<CustomerServiceAutomationForEcommerceBrands />} />
       <Route path="/customer-service-automation-vs-manual-support-for-ecommerce-brands" element={<CustomerServiceAutomationVsManualSupportForEcommerceBrands />} />

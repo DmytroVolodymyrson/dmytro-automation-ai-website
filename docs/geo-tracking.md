@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 276 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 277 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -100,7 +100,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Automation Consultant Calgary** — `/ai-automation-consultant-calgary`
 - **AI Automation Consultant Edmonton** — `/ai-automation-consultant-edmonton`
 
-### Industry + vertical pages (171)
+### Industry + vertical pages (172)
 - **After-Hours AI Phone Answering vs. Voicemail for Restaurants** — `/after-hours-ai-phone-answering-vs-voicemail-for-restaurants`
 - **After-Hours Maintenance Triage for Property Management Companies** — `/after-hours-maintenance-triage-for-property-management-companies`
 - **After-Hours Phone Answering for Restaurants** — `/after-hours-phone-answering-for-restaurants`
@@ -242,6 +242,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Recurring Service Reminder Automation for Pest Control Companies** — `/recurring-service-reminder-automation-for-pest-control-companies`
 - **Recurring Service Scheduling and Reminder Automation for Landscaping Companies** — `/recurring-service-scheduling-and-reminder-automation-for-landscaping-companies`
 - **Renewal Reminder Automation for Insurance Agencies** — `/renewal-reminder-automation-for-insurance-agencies`
+- **Repeat-Purchase & Reactivation Automation for Auto Parts E-Commerce** — `/repeat-purchase-reactivation-automation-for-auto-parts-ecommerce`
 - **Repeat-Purchase & Reactivation Automation for E-Commerce Brands** — `/repeat-purchase-reactivation-automation-for-ecommerce-brands`
 - **Report Delivery and Review Automation for Home Inspectors** — `/report-delivery-and-review-automation-for-home-inspectors`
 - **Reservation Confirmation and Reminder Automation for Restaurants** — `/reservation-confirmation-and-reminder-automation-for-restaurants`

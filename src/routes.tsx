@@ -160,6 +160,7 @@ import FitmentInquiryAutomationForAutoPartsEcommerce from "./pages/FitmentInquir
 import CustomerInquiryAutomationForAutoPartsEcommerce from "./pages/CustomerInquiryAutomationForAutoPartsEcommerce";
 import QuoteFollowUpAutomationForAutoPartsEcommerce from "./pages/QuoteFollowUpAutomationForAutoPartsEcommerce";
 import StaleLeadFollowUpForAutoPartsEcommerce from "./pages/StaleLeadFollowUpForAutoPartsEcommerce";
+import RepeatPurchaseReactivationAutomationForAutoPartsEcommerce from "./pages/RepeatPurchaseReactivationAutomationForAutoPartsEcommerce";
 import EcommerceCrmAutomationWithAiFollowUp from "./pages/EcommerceCrmAutomationWithAiFollowUp";
 import EcommerceCrmAutomationVsManualFollowUp from "./pages/EcommerceCrmAutomationVsManualFollowUp";
 import RepeatPurchaseReactivationAutomationForEcommerceBrands from "./pages/RepeatPurchaseReactivationAutomationForEcommerceBrands";
@@ -519,6 +520,10 @@ export const appRoutes: AppRouteDefinition[] = [
   {
     path: "/stale-lead-follow-up-for-auto-parts-ecommerce",
     element: <StaleLeadFollowUpForAutoPartsEcommerce />,
+  },
+  {
+    path: "/repeat-purchase-reactivation-automation-for-auto-parts-ecommerce",
+    element: <RepeatPurchaseReactivationAutomationForAutoPartsEcommerce />,
   },
   {
     path: "/repeat-purchase-reactivation-automation-for-ecommerce-brands",
