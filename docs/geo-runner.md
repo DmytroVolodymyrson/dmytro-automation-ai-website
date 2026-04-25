@@ -19,6 +19,12 @@ npx tsx scripts/geo-runner.ts --page ai-appointment-setter
 
 # Fast spot-check: one provider + one page
 npx tsx scripts/geo-runner.ts --provider perplexity --page ai-automation-consultant-small-business
+
+# Weekly bounded sample (30 pages, Perplexity-first, executive report)
+npm run geo:weekly
+
+# Weekly dry run — preview which pages would be sampled
+npm run geo:weekly:dry
 ```
 
 ## Setup
@@ -72,12 +78,28 @@ Review the markdown summary after each run and upgrade any `-` scores to P or R 
 
 ## Output
 
+### Daily runs (default)
+
 Each run creates two files in `docs/data/geo-results/`:
 
 - `YYYY-MM-DD.json` — full machine-readable results (all answers, citations, latencies)
 - `YYYY-MM-DD.md` — human-readable summary table
 
 Running multiple times on the same day overwrites the same date's files.
+
+### Weekly runs
+
+Weekly runs output to `docs/data/geo-weekly/` with a `weekly-` prefix:
+
+- `weekly-YYYY-MM-DD.json` — full results for the bounded sample
+- `weekly-YYYY-MM-DD.md` — per-page summary table
+- `weekly-YYYY-MM-DD-report.md` — executive report with metrics:
+  - Visibility responses, citation/domain hits, mention hits, absent, errors
+  - Provider breakdown table
+  - Top cited external domains (competitors)
+  - Strongest wins (pages with highest scores)
+  - Biggest gaps (zero-score pages)
+  - Action suggestions based on visibility rate
 
 ## Provider Details
 
@@ -94,18 +116,56 @@ Running multiple times on the same day overwrites the same date's files.
 
 **API providers** (Gemini, Perplexity) use traditional HTTP API calls with structured citation data. These require API keys and incur per-token costs.
 
+### Advanced CLI options
+
+| Flag | Description | Example |
+|------|-------------|---------|
+| `--provider <name>` | Single provider override | `--provider perplexity` |
+| `--providers <list>` | Comma-separated multi-provider override | `--providers perplexity,gemini` |
+| `--page <id>` | Run a single page | `--page ai-appointment-setter` |
+| `--sample-pages <N>` | Deterministic bounded sample of N pages | `--sample-pages 30` |
+| `--sample-size <N>` | Backward-compatible alias for `--sample-pages` | `--sample-size 30` |
+| `--run-id <id>` | Override output run id / filename stem | `--run-id smoke-weekly` |
+| `--output-prefix <str>` | Prefix for output filenames | `--output-prefix weekly-` |
+| `--output-dir <path>` | Output directory (relative to repo root) | `--output-dir docs/data/geo-weekly` |
+| `--weekly-report` | Generate an executive markdown report | `--weekly-report` |
+| `--report` | Backward-compatible alias for `--weekly-report` | `--report` |
+| `--dry-run` | Preview prompts without making provider calls | `--dry-run` |
+
+The `--sample-pages` option uses a deterministic seed based on the ISO week number, so the same pages are selected within a given week but the selection rotates across weeks.
+
+### Perplexity as primary GEO signal
+
+Perplexity (Sonar API) is the most useful provider for GEO measurement because:
+- It has native web search built into every response (no grounding toggle needed)
+- It returns structured `citations` arrays with the exact URLs it referenced
+- Its API behavior closely mirrors the consumer Perplexity web product
+- Citation pickup on Perplexity tends to be the earliest signal of GEO traction
+
+For weekly bounded runs, Perplexity is listed first in the provider order. If only one provider is available, Perplexity alone produces a useful weekly signal.
+
 ### API vs UI differences
 
 API and CLI results may differ from the web UI experience for each provider. The web UIs sometimes have additional search integration, personalization, or formatting that the APIs/CLIs do not expose. This runner tests the programmatic path, which is reproducible and scriptable. For the most complete picture, occasionally cross-check with manual UI runs per the process in `docs/geo-weekly-checklist.md`.
 
 ## Weekly Workflow
 
-1. Every Friday, run `npm run geo`
+### Bounded weekly mode (recommended)
+
+1. Every Friday, run `npm run geo:weekly` (or let the cron handle it)
+2. This samples 30 pages deterministically (same pages within a week, rotates across weeks)
+3. Provider priority: Perplexity first (best GEO signal), then Gemini, Codex CLI, Claude CLI
+4. Review the executive report at `docs/data/geo-weekly/weekly-YYYY-MM-DD-report.md`
+5. Manually upgrade any `-` scores to P or R where appropriate
+6. Commit: `git add docs/data/geo-weekly/ && git commit -m "data: geo weekly run YYYY-MM-DD"`
+
+### Full sweep (occasional)
+
+1. Run `npm run geo` for a complete check across all 276+ pages
 2. Review the generated `.md` summary
-3. Manually upgrade any `-` scores to P or R where appropriate
-4. Spot-check only the pages that were improved, newly published, or showed movement
-5. Commit the results to the repo: `git add docs/data/geo-results/ && git commit -m "data: geo run YYYY-MM-DD"`
-6. Compare week-over-week using the JSON files or markdown tables
+3. Spot-check only the pages that were improved, newly published, or showed movement
+4. Commit the results to the repo: `git add docs/data/geo-results/ && git commit -m "data: geo run YYYY-MM-DD"`
+5. Compare week-over-week using the JSON files or markdown tables
 
 ## Adding Prompts or Pages
 

@@ -347,14 +347,31 @@ The GEO test runner (`scripts/geo-runner.ts`) automates weekly checks across all
 ```bash
 npm run geo            # Run all tracked pages across all providers
 npm run geo:dry        # Preview prompts without API calls
+npm run geo:weekly     # Bounded weekly sample (30 pages, Perplexity-first, executive report)
+npm run geo:weekly:dry # Preview weekly sample without calls
 npx tsx scripts/geo-runner.ts --provider openai
 npx tsx scripts/geo-runner.ts --page ai-voice-agent-restaurants
 npx tsx scripts/geo-runner.ts --provider perplexity --page ai-automation-for-hvac-companies
 ```
 
-Results are saved to `docs/data/geo-results/`:
+### Daily results
+
+Saved to `docs/data/geo-results/`:
 - `YYYY-MM-DD.json` — full machine-readable results (answers, citations, latency, scores)
 - `YYYY-MM-DD.md` — human-readable summary table
+
+### Weekly results
+
+Saved to `docs/data/geo-weekly/`:
+- `weekly-YYYY-MM-DD.json` — bounded sample results
+- `weekly-YYYY-MM-DD.md` — per-page summary table
+- `weekly-YYYY-MM-DD-report.md` — executive report with visibility metrics, provider breakdown, competitor domains, wins, gaps, and action suggestions
+
+### Weekly worker design
+
+The weekly mode (`geo:weekly`) samples 30 pages per run using a deterministic seed based on the ISO week number. The same pages are checked within a given week; different pages rotate in across weeks. Over ~10 weeks, the full watchlist gets covered.
+
+Provider priority is Perplexity-first (best GEO signal), then Gemini, Codex CLI, Claude CLI. CLI providers are skipped automatically if not authenticated. The cron (`scripts/geo-weekly-cron.sh`) runs the bounded sample, commits results, and sends a Discord summary.
 
 **Provider types:**
 - **CLI providers** (openai, claude): use local subscription CLIs (`codex exec`, `claude -p`). No API keys needed — flat-rate subscriptions only.

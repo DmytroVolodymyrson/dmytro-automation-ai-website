@@ -13,9 +13,12 @@
  * Usage:
  *   npx tsx scripts/geo-runner.ts                                       # approved providers, all tracked pages
  *   npx tsx scripts/geo-runner.ts --provider openai                      # single provider
+ *   npx tsx scripts/geo-runner.ts --providers perplexity,gemini          # multi-provider override
  *   npx tsx scripts/geo-runner.ts --page ai-automation-consultant-small-business
  *   npx tsx scripts/geo-runner.ts --provider perplexity --page ai-appointment-setter
  *   npx tsx scripts/geo-runner.ts --dry-run                              # show prompts, no API calls
+ *   npx tsx scripts/geo-runner.ts --sample-pages 30 --output-dir docs/data/geo-weekly --output-prefix weekly- --weekly-report
+ *   npx tsx scripts/geo-runner.ts --sample-pages 30 --dry-run            # preview weekly sample, no calls
  *
  * Env vars needed (set in .env or export):
  *   GEMINI_API_KEY, PERPLEXITY_API_KEY
@@ -30,7 +33,7 @@
  */
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
-import { join, dirname } from "node:path";
+import { join, dirname, isAbsolute, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
 
@@ -115,13 +118,46 @@ function ensureDir(dir: string) {
   if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
 }
 
-function runId(): string {
+function defaultRunId(): string {
   const now = new Date();
   return now.toISOString().slice(0, 10); // YYYY-MM-DD
 }
 
+let activeRunId = defaultRunId();
+
+function runId(): string {
+  return activeRunId;
+}
+
+function outputDirPath(input: string | undefined): string {
+  if (!input) return RESULTS_DIR;
+  return isAbsolute(input) ? input : resolve(ROOT, input);
+}
+
 function envKey(name: string): string | undefined {
   return process.env[name];
+}
+
+/** Deterministic bounded sample: pick N pages using a seed so the same week
+ *  always selects the same pages, but different weeks rotate through the watchlist. */
+function samplePages<T>(items: T[], size: number, seed: number): T[] {
+  if (size >= items.length) return items;
+  const copy = [...items];
+  let s = seed;
+  const next = () => { s = (s * 1103515245 + 12345) & 0x7fffffff; return s; };
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = next() % (i + 1);
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy.slice(0, size);
+}
+
+/** ISO week number for deterministic sampling seed */
+function isoWeekNumber(date: Date): number {
+  const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+  d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7));
+  const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+  return Math.ceil(((d.getTime() - yearStart.getTime()) / 86400000 + 1) / 7);
 }
 
 /** Extract URLs from plain text (CLI output doesn't have structured citations) */
@@ -235,7 +271,7 @@ async function queryClaudeCli(prompt: string): Promise<{ answer: string; citatio
 async function queryGemini(prompt: string, apiKey: string): Promise<{ answer: string; citations: string[]; model: string }> {
   // Gemini API with Google Search grounding
   const model = "gemini-2.5-flash";
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(apiKey)}`;
 
   const res = await fetch(url, {
     method: "POST",
@@ -500,6 +536,153 @@ function formatMarkdownSummary(summary: RunSummary, config: PromptConfig): strin
   return lines.join("\n");
 }
 
+function formatWeeklyReport(summary: RunSummary, config: PromptConfig): string {
+  const lines: string[] = [];
+  const results = summary.results;
+  const total = results.length;
+  const errors = results.filter((r) => r.error);
+  const links = results.filter((r) => r.autoScore === "L");
+  const mentions = results.filter((r) => r.autoScore === "M");
+  const absent = results.filter((r) => r.autoScore === "-" && !r.error);
+
+  const fullConfig = loadPrompts();
+
+  lines.push(`# GEO Weekly Visibility Report — ${summary.runId}`);
+  lines.push("");
+  lines.push(`**Generated:** ${summary.timestamp}`);
+  lines.push(`**Providers:** ${summary.providers.join(", ")}`);
+  lines.push(`**Pages sampled:** ${config.pages.length} of ${fullConfig.pages.length}`);
+  lines.push(`**Total prompts checked:** ${total}`);
+  lines.push("");
+
+  // Headline metrics
+  lines.push("## Headline Metrics");
+  lines.push("");
+  lines.push(`| Metric | Count | % |`);
+  lines.push(`|--------|------:|--:|`);
+  const visCount = links.length + mentions.length;
+  const pct = (n: number) => total ? Math.round((n / total) * 100) : 0;
+  lines.push(`| Visibility responses (L or M) | ${visCount} | ${pct(visCount)}% |`);
+  lines.push(`| Citation / domain hits (L) | ${links.length} | ${pct(links.length)}% |`);
+  lines.push(`| Mention hits (M) | ${mentions.length} | ${pct(mentions.length)}% |`);
+  lines.push(`| Absent (-) | ${absent.length} | ${pct(absent.length)}% |`);
+  lines.push(`| Errors | ${errors.length} | ${pct(errors.length)}% |`);
+  lines.push(`| **Total score** | **${summary.totalScore}** | |`);
+  lines.push("");
+
+  // Provider breakdown
+  lines.push("## Provider Breakdown");
+  lines.push("");
+  lines.push(`| Provider | Checked | L | M | - | Err | Score |`);
+  lines.push(`|----------|--------:|--:|--:|--:|----:|------:|`);
+  for (const prov of summary.providers) {
+    const pr = results.filter((r) => r.provider === prov);
+    const pL = pr.filter((r) => r.autoScore === "L").length;
+    const pM = pr.filter((r) => r.autoScore === "M").length;
+    const pA = pr.filter((r) => r.autoScore === "-" && !r.error).length;
+    const pE = pr.filter((r) => r.error).length;
+    const pScore = pr.reduce((s, r) => s + (config.scoring[r.autoScore]?.points || 0), 0);
+    lines.push(`| ${prov} | ${pr.length} | ${pL} | ${pM} | ${pA} | ${pE} | ${pScore} |`);
+  }
+  lines.push("");
+
+  // Top cited external domains
+  const allCitations = results.flatMap((r) => r.citations);
+  const domainCounts = new Map<string, number>();
+  for (const url of allCitations) {
+    try {
+      const host = new URL(url).hostname.replace(/^www\./, "");
+      if (host !== config.target_domain) {
+        domainCounts.set(host, (domainCounts.get(host) || 0) + 1);
+      }
+    } catch { /* skip malformed */ }
+  }
+  const topDomains = [...domainCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 15);
+  if (topDomains.length > 0) {
+    lines.push("## Top Cited External Domains");
+    lines.push("");
+    lines.push(`| Domain | Citations |`);
+    lines.push(`|--------|----------:|`);
+    for (const [domain, count] of topDomains) {
+      lines.push(`| ${domain} | ${count} |`);
+    }
+    lines.push("");
+  }
+
+  // Strongest wins (pages with highest scores)
+  const pageScores = config.pages.map((page) => {
+    const pageResults = results.filter((r) => r.pageId === page.id);
+    const score = pageResults.reduce((s, r) => s + (config.scoring[r.autoScore]?.points || 0), 0);
+    const lCount = pageResults.filter((r) => r.autoScore === "L").length;
+    const mCount = pageResults.filter((r) => r.autoScore === "M").length;
+    return { page, score, lCount, mCount };
+  }).sort((a, b) => b.score - a.score);
+
+  const wins = pageScores.filter((p) => p.score > 0);
+  if (wins.length > 0) {
+    lines.push("## Strongest Wins");
+    lines.push("");
+    lines.push(`| Page | Score | L | M |`);
+    lines.push(`|------|------:|--:|--:|`);
+    for (const w of wins.slice(0, 20)) {
+      lines.push(`| ${w.page.label} | ${w.score} | ${w.lCount} | ${w.mCount} |`);
+    }
+    lines.push("");
+  }
+
+  // Biggest gaps (sampled pages with score 0)
+  const gaps = pageScores.filter((p) => p.score === 0);
+  if (gaps.length > 0) {
+    lines.push("## Biggest Gaps (score 0)");
+    lines.push("");
+    lines.push(`${gaps.length} of ${config.pages.length} sampled pages had zero visibility.`);
+    lines.push("");
+    if (gaps.length <= 30) {
+      for (const g of gaps) {
+        lines.push(`- ${g.page.label} (\`${g.page.path}\`)`);
+      }
+    } else {
+      for (const g of gaps.slice(0, 15)) {
+        lines.push(`- ${g.page.label} (\`${g.page.path}\`)`);
+      }
+      lines.push(`- ... and ${gaps.length - 15} more`);
+    }
+    lines.push("");
+  }
+
+  // Action suggestions
+  lines.push("## Action Suggestions");
+  lines.push("");
+  const visRate = total ? visCount / total : 0;
+  if (visRate === 0) {
+    lines.push("- Visibility is at zero. Focus on proof assets, structured data, and internal linking before the next weekly check.");
+    lines.push("- Consider running manual Perplexity spot-checks on the 3-5 highest-value pages to verify the API signal matches the consumer UI.");
+  } else if (visRate < 0.05) {
+    lines.push("- Early signals detected. Double down on the pages showing movement — add proof, case studies, and schema markup.");
+    lines.push("- Cross-check winning pages in the Perplexity and Gemini web UIs to confirm API results match consumer experience.");
+  } else if (visRate < 0.2) {
+    lines.push("- Visibility is growing. Review gap pages for missing structured data, thin content, or weak internal links.");
+    lines.push("- Consider expanding the weekly sample size to catch more pages as they start to surface.");
+  } else {
+    lines.push("- Strong visibility. Maintain content freshness and monitor for competitor displacement.");
+    lines.push("- Start tracking competitor domains from the external citation table above.");
+  }
+  if (errors.length > 0) {
+    const uniqueErrs = [...new Set(errors.map((e) => `${e.provider}: ${(e.error || "").slice(0, 80)}`))];
+    lines.push("");
+    lines.push("### Errors to investigate");
+    for (const e of uniqueErrs) {
+      lines.push(`- ${e}`);
+    }
+  }
+  lines.push("");
+
+  lines.push("---");
+  lines.push("*Auto-scored: L=link, M=mention, -=absent. P (paraphrase) and R (recommendation) require human review.*");
+
+  return lines.join("\n");
+}
+
 // ---------------------------------------------------------------------------
 // CLI
 // ---------------------------------------------------------------------------
@@ -510,19 +693,52 @@ async function main() {
 
   const args = process.argv.slice(2);
   const dryRun = args.includes("--dry-run");
+  const reportMode = args.includes("--report") || args.includes("--weekly-report");
   const providerArg = args.find((_, i) => args[i - 1] === "--provider");
+  const providersArg = args.find((_, i) => args[i - 1] === "--providers");
   const pageArg = args.find((_, i) => args[i - 1] === "--page");
+  const sampleSizeArg = args.find((_, i) => args[i - 1] === "--sample-size" || args[i - 1] === "--sample-pages");
+  const runIdArg = args.find((_, i) => args[i - 1] === "--run-id");
+  const outputPrefixArg = args.find((_, i) => args[i - 1] === "--output-prefix") || "";
+  const outputDirArg = args.find((_, i) => args[i - 1] === "--output-dir");
+
+  if (runIdArg) {
+    if (!/^[a-zA-Z0-9._-]+$/.test(runIdArg)) {
+      console.error(`\n  Invalid --run-id: ${runIdArg}. Use only letters, numbers, dot, underscore, or dash.`);
+      process.exit(1);
+    }
+    activeRunId = runIdArg;
+  }
 
   const config = loadPrompts();
-  const providers = providerArg
-    ? [providerArg]
-    : config.providers;
-  const pages = pageArg
+
+  // Provider resolution: --providers (comma-sep) > --provider (single) > config default
+  const providers = providersArg
+    ? providersArg.split(",").map((p) => p.trim()).filter(Boolean)
+    : providerArg
+      ? [providerArg]
+      : config.providers;
+
+  // Page selection: --page (single) > --sample-pages/--sample-size (bounded deterministic sample) > all
+  let pages = pageArg
     ? config.pages.filter((page) => page.id === pageArg)
     : config.pages;
 
+  if (!pageArg && sampleSizeArg) {
+    const size = parseInt(sampleSizeArg, 10);
+    if (isNaN(size) || size < 1) {
+      console.error(`\n  Invalid --sample-pages/--sample-size: ${sampleSizeArg}`);
+      process.exit(1);
+    }
+    const seed = isoWeekNumber(new Date()) + new Date().getFullYear() * 100;
+    pages = samplePages(pages, size, seed);
+  }
+
+  // Output directory: --output-dir overrides default. Relative paths are repo-root relative.
+  const resultsDir = outputDirPath(outputDirArg);
+
   if (pageArg && pages.length === 0) {
-    console.error(`\n❌ Unknown page id: ${pageArg}`);
+    console.error(`\n  Unknown page id: ${pageArg}`);
     console.error(`   Available page ids: ${config.pages.map((page) => page.id).join(", ")}`);
     process.exit(1);
   }
@@ -532,16 +748,17 @@ async function main() {
     pages,
   };
 
-  console.log(`\n🔍 GEO Test Runner — ${runId()}`);
+  console.log(`\n  GEO Test Runner — ${runId()}`);
   console.log(`   Providers: ${providers.join(", ")}`);
   console.log(`   Prompts: ${activeConfig.pages.reduce((s, p) => s + p.prompts.length, 0)} across ${activeConfig.pages.length} pages`);
+  if (sampleSizeArg) console.log(`   Sample: ${activeConfig.pages.length} of ${config.pages.length} pages (seed: week ${isoWeekNumber(new Date())})`);
 
   if (dryRun) {
-    console.log("\n📋 DRY RUN — prompts that would be sent:\n");
+    console.log("\n  DRY RUN — prompts that would be sent:\n");
     for (const page of activeConfig.pages) {
       console.log(`  ${page.label}:`);
       for (const prompt of page.prompts) {
-        console.log(`    → ${prompt}`);
+        console.log(`    -> ${prompt}`);
       }
     }
     // Show provider readiness summary. CLI checks only run local auth/status commands.
@@ -549,17 +766,17 @@ async function main() {
     for (const p of providers) {
       const prov = PROVIDER_FNS[p];
       if (!prov) {
-        console.log(`    ❌ ${p}: unknown provider`);
+        console.log(`    x ${p}: unknown provider`);
       } else if (prov.kind === "cli") {
         try {
           assertCliAvailable(prov.command, prov.testArgs, p);
-          console.log(`    ✓ ${p}: CLI provider (${prov.command}) authenticated — no API key needed`);
+          console.log(`    ok ${p}: CLI provider (${prov.command}) authenticated — no API key needed`);
         } catch (err: any) {
-          console.log(`    ⚠️ ${p}: CLI provider (${prov.command}) unavailable — ${err.message.split("\n")[0]}`);
+          console.log(`    !! ${p}: CLI provider (${prov.command}) unavailable — ${err.message.split("\n")[0]}`);
         }
       } else {
         const hasKey = !!envKey(prov.envVar);
-        console.log(`    ${hasKey ? "✓" : "⚠️"} ${p}: API provider — ${prov.envVar} ${hasKey ? "set" : "missing"}`);
+        console.log(`    ${hasKey ? "ok" : "!!"} ${p}: API provider — ${prov.envVar} ${hasKey ? "set" : "missing"}`);
       }
     }
     console.log("\n   No provider prompts/API calls made.");
@@ -568,16 +785,34 @@ async function main() {
 
   // Pre-flight: verify CLI providers are installed/authenticated, but do not fall back to APIs.
   const cliErrors = new Map<string, string>();
+  const apiErrors = new Map<string, string>();
   const cliProviders = providers.filter((p) => PROVIDER_FNS[p]?.kind === "cli");
   for (const p of cliProviders) {
     const prov = PROVIDER_FNS[p] as CliProvider;
-    console.log(`\n🔧 Checking ${p} CLI (${prov.command})...`);
+    console.log(`\n  Checking ${p} CLI (${prov.command})...`);
     try {
       assertCliAvailable(prov.command, prov.testArgs, p);
-      console.log(`   ✓ ${prov.command} is authenticated and available`);
+      console.log(`   ok ${prov.command} is authenticated and available`);
     } catch (err: any) {
       cliErrors.set(p, err.message.split("\n")[0]);
-      console.log(`   ⚠️ ${err.message.split("\n")[0]}`);
+      console.log(`   !! ${err.message.split("\n")[0]}`);
+    }
+  }
+
+  // Pre-flight API providers too. This costs one tiny request per API provider, but avoids
+  // wasting an entire weekly sweep on an expired/invalid key.
+  const apiProviders = providers.filter((p) => PROVIDER_FNS[p]?.kind === "api");
+  for (const p of apiProviders) {
+    const prov = PROVIDER_FNS[p] as ApiProvider;
+    const key = envKey(prov.envVar);
+    if (!key) continue;
+    console.log(`\n  Checking ${p} API key (${prov.envVar})...`);
+    try {
+      await prov.fn("Answer with exactly: OK", key);
+      console.log(`   ok ${p} API key is active`);
+    } catch (err: any) {
+      apiErrors.set(p, err.message.split("\n")[0]);
+      console.log(`   !! ${err.message.split("\n")[0]}`);
     }
   }
 
@@ -593,10 +828,12 @@ async function main() {
     if (prov.kind === "cli") {
       if (cliErrors.has(p)) missing.push(p);
       else available.push(p);
-    } else if (envKey(prov.envVar)) {
-      available.push(p);
-    } else {
+    } else if (!envKey(prov.envVar)) {
       missing.push(p);
+    } else if (apiErrors.has(p)) {
+      missing.push(p);
+    } else {
+      available.push(p);
     }
   }
 
@@ -604,18 +841,18 @@ async function main() {
     const missingDetails = missing.map((p) => {
       const prov = PROVIDER_FNS[p];
       if (!prov) return `${p} (unknown)`;
-      if (prov.kind === "api") return `${p} (set ${prov.envVar})`;
+      if (prov.kind === "api") return `${p} (${apiErrors.get(p) || `set ${prov.envVar}`})`;
       return `${p} (${cliErrors.get(p) || `install/authenticate ${(prov as CliProvider).command}`})`;
     });
-    console.log(`\n⚠️  Unavailable providers: ${missingDetails.join(", ")}`);
+    console.log(`\n  Unavailable providers: ${missingDetails.join(", ")}`);
   }
 
   if (available.length === 0) {
-    console.error("\n❌ No providers available. Install CLI tools or set API keys and retry.");
+    console.error("\n  No providers available. Install CLI tools or set API keys and retry.");
     process.exit(1);
   }
 
-  console.log(`\n▶ Running ${available.length} provider(s)...\n`);
+  console.log(`\n  Running ${available.length} provider(s)...\n`);
 
   const results: ProviderResult[] = [];
 
@@ -627,7 +864,7 @@ async function main() {
         const result = await runProvider(prov, prompt, page.id, config);
         results.push(result);
 
-        const icon = result.error ? "❌" : result.autoScore === "-" ? "·" : "✓";
+        const icon = result.error ? "x" : result.autoScore === "-" ? "." : "ok";
         console.log(` ${icon} ${result.autoScore} (${result.latencyMs}ms)`);
 
         // Small delay to avoid rate limits
@@ -639,17 +876,24 @@ async function main() {
   // Build and save results
   const summary = buildSummary(results, activeConfig, available);
 
-  ensureDir(RESULTS_DIR);
+  ensureDir(resultsDir);
 
-  const jsonPath = join(RESULTS_DIR, `${summary.runId}.json`);
+  const fileBase = `${outputPrefixArg}${summary.runId}`;
+  const jsonPath = join(resultsDir, `${fileBase}.json`);
   writeFileSync(jsonPath, JSON.stringify(summary, null, 2));
-  console.log(`\n📁 JSON results: ${jsonPath}`);
+  console.log(`\n  JSON results: ${jsonPath}`);
 
-  const mdPath = join(RESULTS_DIR, `${summary.runId}.md`);
+  const mdPath = join(resultsDir, `${fileBase}.md`);
   writeFileSync(mdPath, formatMarkdownSummary(summary, activeConfig));
-  console.log(`📄 Summary:      ${mdPath}`);
+  console.log(`  Summary:      ${mdPath}`);
 
-  console.log(`\n📊 Total score: ${summary.totalScore}`);
+  if (reportMode) {
+    const reportPath = join(resultsDir, `${fileBase}-report.md`);
+    writeFileSync(reportPath, formatWeeklyReport(summary, activeConfig));
+    console.log(`  Report:       ${reportPath}`);
+  }
+
+  console.log(`\n  Total score: ${summary.totalScore}`);
   for (const page of activeConfig.pages) {
     const pageTotal = Object.values(summary.scores[page.id] || {}).reduce(
       (a, b) => a + b,
@@ -658,7 +902,7 @@ async function main() {
     console.log(`   ${page.label}: ${pageTotal}`);
   }
 
-  console.log("\nDone. ✅\n");
+  console.log("\nDone.\n");
 }
 
 main().catch((err) => {

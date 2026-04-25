@@ -25,21 +25,23 @@ cd "$REPO"
 /usr/bin/git checkout main
 /usr/bin/git pull --rebase origin main
 
-# Run the full weekly GEO baseline
-npm run geo
+# Run a bounded weekly sample (30 pages) instead of all 276+ pages.
+# Provider priority: Perplexity first (best GEO signal), then Gemini, Codex, Claude.
+# CLI providers (codex, claude) are skipped automatically if not authenticated.
+npm run geo:weekly
 
 # Commit only if result files changed
-/usr/bin/git add docs/data/geo-results/
+/usr/bin/git add docs/data/geo-weekly/
 if ! /usr/bin/git diff --cached --quiet; then
-  /usr/bin/git commit -m "data: geo run $(date +%Y-%m-%d)"
+  /usr/bin/git commit -m "data: geo weekly run $(date +%Y-%m-%d)"
   /usr/bin/git push origin main
-  echo "[$(date '+%Y-%m-%d %H:%M:%S %Z')] GEO run committed and pushed"
+  echo "[$(date '+%Y-%m-%d %H:%M:%S %Z')] GEO weekly run committed and pushed"
 else
-  echo "[$(date '+%Y-%m-%d %H:%M:%S %Z')] No GEO result changes to commit"
+  echo "[$(date '+%Y-%m-%d %H:%M:%S %Z')] No GEO weekly result changes to commit"
 fi
 
 # Send Discord summary (best-effort; don't fail the cron on notification error)
-"$SCRIPT_DIR/geo-discord-summary.sh" "$(date +%Y-%m-%d)" || \
+"$SCRIPT_DIR/geo-discord-summary.sh" --weekly "$(date +%Y-%m-%d)" || \
   echo "[$(date '+%Y-%m-%d %H:%M:%S %Z')] Discord summary failed (non-fatal)"
 
 echo "[$(date '+%Y-%m-%d %H:%M:%S %Z')] Weekly GEO run finished"

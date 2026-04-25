@@ -13,7 +13,9 @@
     "test:watch": "vitest",
     "generate-favicons": "node scripts/generate-favicons.cjs",
     "geo": "npx tsx scripts/geo-runner.ts",
-    "geo:dry": "npx tsx scripts/geo-runner.ts --dry-run"
+    "geo:dry": "npx tsx scripts/geo-runner.ts --dry-run",
+    "geo:weekly": "npx tsx scripts/geo-runner.ts --providers perplexity,gemini,openai,claude --sample-pages 30 --output-dir docs/data/geo-weekly --output-prefix weekly- --weekly-report",
+    "geo:weekly:dry": "npx tsx scripts/geo-runner.ts --providers perplexity,gemini,openai,claude --sample-pages 30 --output-dir docs/data/geo-weekly --output-prefix weekly- --weekly-report --dry-run"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

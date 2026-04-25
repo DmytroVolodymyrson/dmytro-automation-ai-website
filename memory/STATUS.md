@@ -1,6 +1,16 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-04-25 07:15 MDT
+**Last updated:** 2026-04-25 MDT
+
+## Update 2026-04-25 — Weekly GEO visibility worker
+- Added weekly bounded mode to `scripts/geo-runner.ts`: `--providers`, `--sample-pages`/`--sample-size`, `--run-id`, `--output-prefix`, `--output-dir`, `--weekly-report`/`--report` flags.
+- Weekly mode samples 30 pages deterministically (ISO week seed), outputs to `docs/data/geo-weekly/`, and generates an executive report with visibility metrics, provider breakdown, competitor domains, wins/gaps, and action suggestions.
+- Updated `scripts/geo-weekly-cron.sh` to run `geo:weekly` (bounded sample) instead of `geo` (full 276-page sweep).
+- Updated `scripts/geo-discord-summary.sh` with `--weekly` flag for weekly report paths.
+- Added `geo:weekly` and `geo:weekly:dry` package scripts.
+- Updated `docs/geo-runner.md` and `docs/geo-tracking.md` with weekly worker design and Perplexity measurement notes.
+- All provider guardrails preserved: no `OPENAI_API_KEY` / `ANTHROPIC_API_KEY` / `api.openai.com` / `api.anthropic.com` dependence.
+- Verification: `npm run geo:weekly:dry` passed; real smoke with Perplexity+Gemini detected the current Perplexity key is invalid and skipped it, then completed through Gemini; `npm run build` passed with 314 prerendered routes.
 
 ## Update 2026-04-25 08:50 MDT
 - Verified Dmytro's Codex login: `codex login status` now reports logged in via ChatGPT.
