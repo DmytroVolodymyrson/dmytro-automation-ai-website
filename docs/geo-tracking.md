@@ -11,11 +11,11 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 241 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 242 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
-### Strategy + comparison pages (30)
+### Strategy + comparison pages (31)
 - **Affordable AI Automation for Small Business** — `/affordable-ai-automation-small-business`
 - **AI Appointment Setter vs Receptionist** — `/ai-appointment-setter-vs-receptionist`
 - **AI Appointment Setter vs Virtual Assistant** — `/ai-appointment-setter-vs-virtual-assistant`
@@ -185,6 +185,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Missed Call Text-Back vs. AI Phone Answering for Cleaning Companies** — `/missed-call-text-back-vs-ai-phone-answering-for-cleaning-companies`
 - **Missed Call Text-Back vs. AI Phone Answering for Home Inspectors** — `/missed-call-text-back-vs-ai-phone-answering-for-home-inspectors`
 - **Missed Call Text-Back vs. AI Phone Answering for HVAC Companies** — `/missed-call-text-back-vs-ai-phone-answering-for-hvac-companies`
+- **Missed Call Text-Back vs. AI Phone Answering for Electrical Contractors** — `/missed-call-text-back-vs-ai-phone-answering-for-electrical-contractors`
 - **Missed Call Text-Back vs. AI Phone Answering for Landscaping Companies** — `/missed-call-text-back-vs-ai-phone-answering-for-landscaping-companies`
 - **Missed Call Text-Back vs. AI Phone Answering for Med Spas** — `/missed-call-text-back-vs-ai-phone-answering-for-med-spas`
 - **Missed Call Text-Back vs. AI Phone Answering for Painting Contractors** — `/missed-call-text-back-vs-ai-phone-answering-for-painting-contractors`
@@ -193,6 +194,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Missed Call Text-Back vs. AI Voice Agent for Restaurants** — `/missed-call-text-back-vs-ai-voice-agent-for-restaurants`
 - **Missed Call Text-Back vs. Voicemail for Auto Repair Shops** — `/missed-call-text-back-vs-voicemail-for-auto-repair-shops`
 - **Missed Call Text-Back vs. Voicemail for Chiropractors** — `/missed-call-text-back-vs-voicemail-for-chiropractors`
+- **Missed Call Text-Back vs. Voicemail for Electrical Contractors** — `/missed-call-text-back-vs-voicemail-for-electrical-contractors`
 - **Missed Call Text-Back vs. Voicemail for Cleaning Companies** — `/missed-call-text-back-vs-voicemail-for-cleaning-companies`
 - **Missed Call Text-Back vs. Voicemail for Home Inspectors** — `/missed-call-text-back-vs-voicemail-for-home-inspectors`
 - **Missed Call Text-Back vs. Voicemail for Landscaping Companies** — `/missed-call-text-back-vs-voicemail-for-landscaping-companies`

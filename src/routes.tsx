@@ -84,6 +84,7 @@ import AiAutomationForElectricalContractors from "./pages/AiAutomationForElectri
 import WhatToAutomateFirstForElectricalContractors from "./pages/WhatToAutomateFirstForElectricalContractors";
 import AiLeadFollowUpForElectricalContractors from "./pages/AiLeadFollowUpForElectricalContractors";
 import MissedCallTextBackForElectricalContractors from "./pages/MissedCallTextBackForElectricalContractors";
+import MissedCallTextBackVsVoicemailForElectricalContractors from "./pages/MissedCallTextBackVsVoicemailForElectricalContractors";
 import MissedCallTextBackVsAiPhoneAnsweringForElectricalContractors from "./pages/MissedCallTextBackVsAiPhoneAnsweringForElectricalContractors";
 import AiPhoneAnsweringForElectricalContractors from "./pages/AiPhoneAnsweringForElectricalContractors";
 import EstimateFollowUpAutomationForElectricalContractors from "./pages/EstimateFollowUpAutomationForElectricalContractors";
@@ -393,6 +394,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/what-to-automate-first-for-electrical-contractors", element: <WhatToAutomateFirstForElectricalContractors /> },
   { path: "/ai-lead-follow-up-for-electrical-contractors", element: <AiLeadFollowUpForElectricalContractors /> },
   { path: "/missed-call-text-back-for-electrical-contractors", element: <MissedCallTextBackForElectricalContractors /> },
+  { path: "/missed-call-text-back-vs-voicemail-for-electrical-contractors", element: <MissedCallTextBackVsVoicemailForElectricalContractors /> },
   { path: "/missed-call-text-back-vs-ai-phone-answering-for-electrical-contractors", element: <MissedCallTextBackVsAiPhoneAnsweringForElectricalContractors /> },
   { path: "/ai-phone-answering-for-electrical-contractors", element: <AiPhoneAnsweringForElectricalContractors /> },
   { path: "/appointment-scheduling-and-reminder-automation-for-electrical-contractors", element: <AppointmentSchedulingAndReminderAutomationForElectricalContractors /> },

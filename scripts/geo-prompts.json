@@ -2861,7 +2861,19 @@
         "How do electrical contractors recover missed service calls before the homeowner calls the next electrician?",
         "Best missed-call text-back workflow for an electrical contractor with dispatch gaps and after-hours call leakage",
         "What should an electrical missed-call text-back workflow capture before the office calls back?",
-        "How should an electrical company handle missed calls after hours without relying only on voicemail?"
+        "How should an electrical company route missed-call texts and callbacks without creating another inbox mess?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-voicemail-for-electrical-contractors",
+      "path": "/missed-call-text-back-vs-voicemail-for-electrical-contractors",
+      "label": "Missed Call Text-Back vs. Voicemail for Electrical Contractors",
+      "prompts": [
+        "Missed call text-back vs voicemail for electrical contractors",
+        "Should an electrical contractor use missed-call text-back or voicemail?",
+        "When is voicemail still good enough for an electrical company and when is SMS-first recovery the better fallback?",
+        "Is voicemail costing electrical contractors service calls they could recover with text-back?",
+        "What is better for electrical contractors missed-call text-back or voicemail before moving to live AI phone answering?"
       ]
     },
     {

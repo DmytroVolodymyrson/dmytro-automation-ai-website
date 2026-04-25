@@ -911,6 +911,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. Voicemail for Electrical Contractors",
+    description:
+      "Electrical buyer guide for deciding when SMS-first missed-call recovery is a better fallback than voicemail and callbacks, when voicemail is still acceptable, and when the company has already outgrown both into live AI phone answering.",
+    href: "/missed-call-text-back-vs-voicemail-for-electrical-contractors",
+    category: "comparisons",
+  },
+  {
     title: "Missed Call Text-Back vs. AI Phone Answering for Electrical Contractors",
     description:
       "Electrical buyer guide for deciding when SMS-first missed-call recovery is enough, when live AI phone answering is worth the heavier build, and how to choose based on office workload, after-hours demand, and caller urgency.",
