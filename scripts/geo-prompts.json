@@ -2757,6 +2757,18 @@
       ]
     },
     {
+      "id": "review-request-automation-for-electrical-contractors",
+      "path": "/review-request-automation-for-electrical-contractors",
+      "label": "Review Request Automation for Electrical Contractors",
+      "prompts": [
+        "Review request automation for electrical contractors",
+        "How do electrical contractors ask for more reviews after completed service work without sending every customer the same generic follow-up?",
+        "Best way for an electrical contractor to automate post-job review requests without pushing unhappy customers toward a public review too early",
+        "Should an electrical contractor automate review requests after troubleshooting calls, panel upgrades, or rewiring jobs are completed?",
+        "How should an electrical company route post-job complaints or callback issues before asking for a Google review?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-electrical-contractors",
       "path": "/what-to-automate-first-for-electrical-contractors",
       "label": "What to Automate First for Electrical Contractors",

@@ -869,6 +869,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Review Request Automation for Electrical Contractors",
+    description:
+      "A narrower electrical post-job reputation page focused on completed service work — better review timing, unhappy-reply routing, field-to-office handoff, and stronger local-trust follow-through after the job is done.",
+    href: "/review-request-automation-for-electrical-contractors",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Insurance Agencies",
     description:
       "AI automation for insurance agencies. Lead follow-up, renewal reminders, quote follow-up, cross-sell campaigns, and client communication.",
