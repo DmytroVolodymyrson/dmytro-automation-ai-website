@@ -2409,6 +2409,18 @@
       ]
     },
     {
+      "id": "client-reactivation-automation-for-auto-repair-shops",
+      "path": "/client-reactivation-automation-for-auto-repair-shops",
+      "label": "Client Reactivation Automation for Auto Repair Shops",
+      "prompts": [
+        "Client reactivation automation for auto repair shops",
+        "How do auto repair shops bring inactive customers back before the next service goes elsewhere?",
+        "Best way for a mechanic shop to reactivate past customers without sending generic maintenance blasts",
+        "Should an auto repair shop build dormant-customer reactivation before a broader CRM rebuild?",
+        "How should a repair shop segment old customers for win-back campaigns deferred-work recall or seasonal service prompts?"
+      ]
+    },
+    {
       "id": "estimate-follow-up-automation-for-auto-repair-shops",
       "path": "/estimate-follow-up-automation-for-auto-repair-shops",
       "label": "Estimate Follow-Up Automation for Auto Repair Shops",

@@ -1800,6 +1800,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Client Reactivation Automation for Auto Repair Shops",
+    description:
+      "Client reactivation automation for auto repair shops. Dormant-customer win-back, deferred-work recall, seasonal service prompts, and advisor handoff when old customers become active again.",
+    href: "/client-reactivation-automation-for-auto-repair-shops",
+    category: "industries",
+  },
+  {
     title: "Estimate Follow-Up Automation for Auto Repair Shops",
     description:
       "Estimate follow-up automation for auto repair shops. Open repair quote reminders, deferred-work nudges, financing or timing check-ins, advisor handoff, and stale-estimate visibility.",

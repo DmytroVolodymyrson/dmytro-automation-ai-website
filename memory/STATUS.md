@@ -2,6 +2,13 @@
 
 **Last updated:** 2026-04-25 07:15 MDT
 
+## Update 2026-04-25 08:50 MDT
+- Verified Dmytro's Codex login: `codex login status` now reports logged in via ChatGPT.
+- Ran an OpenAI GEO provider smoke test through the new `codex exec` CLI path with no local `OPENAI_API_KEY` or `ANTHROPIC_API_KEY` active. The OpenAI provider now authenticates and runs through Codex subscription instead of OpenAI API.
+- During the verification window, the scheduled GEO expansion worker also shipped `/client-reactivation-automation-for-auto-repair-shops`; paused GEO cron jobs to avoid further race conditions, cleaned the temporary GEO smoke result artifacts, kept the worker's coherent page ship, and verified build.
+- New page wiring includes the decision-page data file, page wrapper, both route files, Guides, sitemap, `llm.txt`, `llms.txt`, GEO prompts, roadmap/tracking docs, and style-learner artifacts.
+- Verification: `scripts/geo-prompts.json` parses successfully; `npm run build` passed and prerendered 312 routes.
+
 ## Update 2026-04-25 07:48 MDT
 - Switched GEO visibility checks away from OpenAI and Claude pay-per-token APIs.
 - `scripts/geo-runner.ts` now treats `openai` as a CLI provider through `codex exec` and `claude` as a CLI provider through `claude -p`; both subprocesses strip API-key env vars and never call OpenAI/Anthropic API endpoints.

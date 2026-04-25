@@ -253,6 +253,7 @@ import AiAutomationForAutoRepairShops from "./pages/AiAutomationForAutoRepairSho
 import WhatToAutomateFirstForAutoRepairShops from "./pages/WhatToAutomateFirstForAutoRepairShops";
 import AiLeadFollowUpForAutoRepairShops from "./pages/AiLeadFollowUpForAutoRepairShops";
 import MaintenanceReminderAutomationForAutoRepairShops from "./pages/MaintenanceReminderAutomationForAutoRepairShops";
+import ClientReactivationAutomationForAutoRepairShops from "./pages/ClientReactivationAutomationForAutoRepairShops";
 import EstimateFollowUpAutomationForAutoRepairShops from "./pages/EstimateFollowUpAutomationForAutoRepairShops";
 import AppointmentSchedulingAndReminderAutomationForAutoRepairShops from "./pages/AppointmentSchedulingAndReminderAutomationForAutoRepairShops";
 import MissedCallTextBackForAutoRepairShops from "./pages/MissedCallTextBackForAutoRepairShops";
@@ -620,6 +621,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/what-to-automate-first-for-auto-repair-shops", element: <WhatToAutomateFirstForAutoRepairShops /> },
   { path: "/ai-lead-follow-up-for-auto-repair-shops", element: <AiLeadFollowUpForAutoRepairShops /> },
   { path: "/maintenance-reminder-automation-for-auto-repair-shops", element: <MaintenanceReminderAutomationForAutoRepairShops /> },
+  { path: "/client-reactivation-automation-for-auto-repair-shops", element: <ClientReactivationAutomationForAutoRepairShops /> },
   { path: "/estimate-follow-up-automation-for-auto-repair-shops", element: <EstimateFollowUpAutomationForAutoRepairShops /> },
   { path: "/appointment-scheduling-and-reminder-automation-for-auto-repair-shops", element: <AppointmentSchedulingAndReminderAutomationForAutoRepairShops /> },
   { path: "/missed-call-text-back-for-auto-repair-shops", element: <MissedCallTextBackForAutoRepairShops /> },

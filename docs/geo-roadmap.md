@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `case-status-update-automation-for-law-firms` after broad backlog reconciliation. The live law-firm parent already named case status updates as part of the broader legal operations layer, while the mature law-firm child cluster already covered inquiry response, intake/conflict-check prep, consultation scheduling, post-consult conversion, and after-hours phone coverage. This new child isolates the active-client communication layer: progress updates, receipt confirmations, next-step reminders, and cleaner reply routing without pretending there is already a law-firm-specific case-status case study on the site.)
+Last updated: 2026-04-25 (shipped `client-reactivation-automation-for-auto-repair-shops` after broad backlog reconciliation. The live auto-repair parent and first-project pages already isolated repeat-customer follow-up as a distinct workflow family beside missed calls, fresh lead response, booked-visit reminders, estimate recovery, and phone handling. This new child now owns the dormant-customer retention intent directly: inactive-customer win-back, deferred-work reactivation, seasonal service prompts, and faster advisor handoff when old customers show intent again.)
 
 ## Live GEO Assets
 
@@ -264,6 +264,7 @@ Last updated: 2026-04-25 (shipped `case-status-update-automation-for-law-firms` 
 | What to Automate First for Auto Repair Shops | `/what-to-automate-first-for-auto-repair-shops` | Auto-repair first-project scoping page | Live |
 | AI Lead Follow-Up for Auto Repair Shops | `/ai-lead-follow-up-for-auto-repair-shops` | Auto-repair early-funnel inquiry-response workflow page | Live |
 | Maintenance Reminder Automation for Auto Repair Shops | `/maintenance-reminder-automation-for-auto-repair-shops` | Auto-repair retention workflow page | Live |
+| Client Reactivation Automation for Auto Repair Shops | `/client-reactivation-automation-for-auto-repair-shops` | Auto-repair dormant-customer retention workflow page | Live |
 | Estimate Follow-Up Automation for Auto Repair Shops | `/estimate-follow-up-automation-for-auto-repair-shops` | Auto-repair quote-stage workflow page | Live |
 | Appointment Scheduling and Reminder Automation for Auto Repair Shops | `/appointment-scheduling-and-reminder-automation-for-auto-repair-shops` | Auto-repair booked-visit workflow page | Live |
 | Review Request Automation for Auto Repair Shops | `/review-request-automation-for-auto-repair-shops` | Auto-repair post-service reputation workflow page | Live |
@@ -319,14 +320,14 @@ Last updated: 2026-04-25 (shipped `case-status-update-automation-for-law-firms` 
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 292**
+**Total decision/comparison/industry pages live: 293**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/case-status-update-automation-for-law-firms` fills the active-client communication gap that the live law-firm cluster still left open after inquiry response, intake/conflict-check prep, booked-consult scheduling, post-consult conversion, and after-hours phone coverage were already live. That child now owns the client-status buyer intent directly: plain-language progress updates, receipt confirmations, next-step reminders, and cleaner reply routing once the matter already exists. With that communication layer now shipped, the next run should reset to broad backlog reconciliation across the remaining live clusters and planning docs instead of forcing another law-firm child by inertia.
+Shipping `/client-reactivation-automation-for-auto-repair-shops` fills the dormant-customer retention gap that the live auto-repair cluster still left open after fresh lead response, booked-visit reminders, maintenance reminders, estimate recovery, review requests, and the phone-recovery decision pages were already live. That child now owns the repeat-customer win-back buyer intent directly: inactive-customer segmentation, deferred-work reactivation, seasonal service prompts, and faster advisor handoff when old customers become active again. With that retention layer now shipped, the next run should reset to broad backlog reconciliation across the remaining live clusters and planning docs instead of forcing another auto-repair child by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|

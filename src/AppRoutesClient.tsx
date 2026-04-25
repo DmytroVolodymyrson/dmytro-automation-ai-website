@@ -254,6 +254,7 @@ const AiAutomationForAutoRepairShops = lazy(() => import("./pages/AiAutomationFo
 const WhatToAutomateFirstForAutoRepairShops = lazy(() => import("./pages/WhatToAutomateFirstForAutoRepairShops"));
 const AiLeadFollowUpForAutoRepairShops = lazy(() => import("./pages/AiLeadFollowUpForAutoRepairShops"));
 const MaintenanceReminderAutomationForAutoRepairShops = lazy(() => import("./pages/MaintenanceReminderAutomationForAutoRepairShops"));
+const ClientReactivationAutomationForAutoRepairShops = lazy(() => import("./pages/ClientReactivationAutomationForAutoRepairShops"));
 const EstimateFollowUpAutomationForAutoRepairShops = lazy(() => import("./pages/EstimateFollowUpAutomationForAutoRepairShops"));
 const AppointmentSchedulingAndReminderAutomationForAutoRepairShops = lazy(() => import("./pages/AppointmentSchedulingAndReminderAutomationForAutoRepairShops"));
 const MissedCallTextBackForAutoRepairShops = lazy(() => import("./pages/MissedCallTextBackForAutoRepairShops"));
@@ -568,6 +569,7 @@ const AppRoutesClient = () => (
       <Route path="/what-to-automate-first-for-auto-repair-shops" element={<WhatToAutomateFirstForAutoRepairShops />} />
       <Route path="/ai-lead-follow-up-for-auto-repair-shops" element={<AiLeadFollowUpForAutoRepairShops />} />
       <Route path="/maintenance-reminder-automation-for-auto-repair-shops" element={<MaintenanceReminderAutomationForAutoRepairShops />} />
+      <Route path="/client-reactivation-automation-for-auto-repair-shops" element={<ClientReactivationAutomationForAutoRepairShops />} />
       <Route path="/estimate-follow-up-automation-for-auto-repair-shops" element={<EstimateFollowUpAutomationForAutoRepairShops />} />
       <Route path="/appointment-scheduling-and-reminder-automation-for-auto-repair-shops" element={<AppointmentSchedulingAndReminderAutomationForAutoRepairShops />} />
       <Route path="/missed-call-text-back-for-auto-repair-shops" element={<MissedCallTextBackForAutoRepairShops />} />
