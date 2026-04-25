@@ -75,6 +75,7 @@ import AiAutomationForLawFirms from "./pages/AiAutomationForLawFirms";
 import AiAutomationForAccountingFirms from "./pages/AiAutomationForAccountingFirms";
 import AiAutomationForPlumbingCompanies from "./pages/AiAutomationForPlumbingCompanies";
 import WhatToAutomateFirstForPlumbingCompanies from "./pages/WhatToAutomateFirstForPlumbingCompanies";
+import AiLeadFollowUpForPlumbingCompanies from "./pages/AiLeadFollowUpForPlumbingCompanies";
 import EstimateFollowUpAutomationForPlumbingCompanies from "./pages/EstimateFollowUpAutomationForPlumbingCompanies";
 import MissedCallTextBackForPlumbingCompanies from "./pages/MissedCallTextBackForPlumbingCompanies";
 import AiPhoneAnsweringForPlumbingCompanies from "./pages/AiPhoneAnsweringForPlumbingCompanies";
@@ -377,6 +378,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-for-accounting-firms", element: <AiAutomationForAccountingFirms /> },
   { path: "/ai-automation-for-plumbing-companies", element: <AiAutomationForPlumbingCompanies /> },
   { path: "/what-to-automate-first-for-plumbing-companies", element: <WhatToAutomateFirstForPlumbingCompanies /> },
+  { path: "/ai-lead-follow-up-for-plumbing-companies", element: <AiLeadFollowUpForPlumbingCompanies /> },
   { path: "/estimate-follow-up-automation-for-plumbing-companies", element: <EstimateFollowUpAutomationForPlumbingCompanies /> },
   { path: "/missed-call-text-back-for-plumbing-companies", element: <MissedCallTextBackForPlumbingCompanies /> },
   { path: "/ai-phone-answering-for-plumbing-companies", element: <AiPhoneAnsweringForPlumbingCompanies /> },

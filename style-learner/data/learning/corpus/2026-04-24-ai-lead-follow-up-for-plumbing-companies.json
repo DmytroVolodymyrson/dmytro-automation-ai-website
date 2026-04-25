@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-24-ai-lead-follow-up-for-plumbing-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-24",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: AI Lead Follow-Up for Plumbing Companies\nBody: Many plumbing companies do not mainly lose jobs because the estimate is weak. They lose them before the first real conversation ever happens. A homeowner fills out a form for a water-heater replacement, messages about a drain issue, or calls about a leak while your techs are on jobs and the office is juggling dispatch, callbacks, and same-day service windows. By the time someone replies, that homeowner has already heard back from a faster plumber and moved on. AI lead follow-up for plumbing companies fixes that earlier speed-to-lead workflow. It responds quickly, keeps the conversation alive over the next few hours or days, captures the next useful detail, and routes real service intent back to a human before the opportunity goes cold.\nSub: Below: what this plumbing-company workflow should actually handle, how it stays distinct from the broader plumbing page and the estimate / phone pages already live, what guardrails matter, and what proof honestly supports it without pretending there is already a plumbing-only lead-response case study.\n\n### Core sections\n- What plumbing-company lead follow-up should actually handle\n- How this page stays distinct inside the plumbing cluster\n- Is this a good fit for your plumbing company?\n- Guardrails that keep plumbing-company lead follow-up useful\n- How a practical plumbing-company lead-follow-up workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions from plumbing companies that know fresh service requests are leaking somewhere after the first inquiry\nTopics: how this differs from estimate follow-up automation, typical plumbing lead-follow-up build cost, whether it can work with the current CRM or plumbing software, what the main ROI looks like, and whether it replaces the office manager or dispatcher.\n\n### Final CTA\nHeading: Want faster follow-up on new plumbing leads before the service request goes cold?\nBody: Book a 30-minute call. We will look at your current inquiry flow, response timing, office handoff, and where fresh plumbing leads are actually stalling, then map the smallest workflow that would fix the leak without overbuilding it.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after reconciling `AGENTS.md`, `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current live routes/pages, and `scripts/geo-prompts.json`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the live plumbing parent, the plumbing first-project page, and the broader planning docs still exposed one clean early-funnel gap: faster first response and short nurture before the request turns into a booked job, sent estimate, or missed-call-only recovery problem."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page materially distinct from `/ai-automation-for-plumbing-companies`, `/what-to-automate-first-for-plumbing-companies`, `/estimate-follow-up-automation-for-plumbing-companies`, `/missed-call-text-back-for-plumbing-companies`, and `/ai-phone-answering-for-plumbing-companies` by staying tightly on immediate response, light qualification, and office handoff before later plumbing workflows take over."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live plumbing cluster, the generic AI lead-follow-up guide, and the Instagram lead-generation case study support the pattern without pretending there is already a plumbing-only lead-response case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-25T01:54:29.927Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 26.2,
+      "sentenceLengthRange": [
+        5,
+        58
+      ],
+      "totalWords": 341
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Lead Follow-Up for Plumbing Companies\nBody: Many plumbing companies do not mainly lose jobs because the estimate is weak.",
+      "wordCount": 22,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want faster follow-up on new plumbing leads before the service request goes cold?\nBody: Book a 30-minute call. We will look at your current inquiry flow, response timing, office handoff, and where fresh plumbing leads are actually stalling, then map the smallest workflow that would fix the leak without overbuilding it.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 19,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.58
+    },
+    "vocabulary": {
+      "distinctWords": 188,
+      "totalWords": 341,
+      "topWords": [
+        [
+          "plumbing",
+          11
+        ],
+        [
+          "follow-up",
+          6
+        ],
+        [
+          "it",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "that",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "lead",
+          4
+        ],
+        [
+          "companies",
+          4
+        ],
+        [
+          "service",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "plumbing-company",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "estimate",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

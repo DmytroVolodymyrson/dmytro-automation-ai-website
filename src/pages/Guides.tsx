@@ -848,6 +848,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Lead Follow-Up for Plumbing Companies",
+    description:
+      "A narrower plumbing workflow page focused on faster first response for new service and quote requests — immediate reply timing, short nurture, light qualification, and office handoff before the homeowner calls the next plumber.",
+    href: "/ai-lead-follow-up-for-plumbing-companies",
+    category: "industries",
+  },
+  {
     title: "Estimate Follow-Up Automation for Plumbing Companies",
     description:
       "A narrower plumbing workflow page focused on sent water-heater, drain, sewer, repipe, and service quotes that go cold — reminder timing, objection-aware messaging, office handoff, and open-estimate visibility before another job slips away.",

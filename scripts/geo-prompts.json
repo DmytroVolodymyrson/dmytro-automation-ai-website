@@ -2739,9 +2739,21 @@
       "prompts": [
         "What should a plumbing company automate first?",
         "What should a plumbing company automate first missed-call recovery lead follow-up scheduling estimate follow-up or after-hours phone coverage?",
-        "Should a plumbing company start with lead follow-up before booked-job scheduling?",
+        "Should a plumbing company start with missed-call recovery before booked-job scheduling?",
         "Should a plumbing company automate scheduling before heavier live phone answering?",
         "How do I choose the first automation project for my plumbing company?"
+      ]
+    },
+    {
+      "id": "ai-lead-follow-up-for-plumbing-companies",
+      "path": "/ai-lead-follow-up-for-plumbing-companies",
+      "label": "AI Lead Follow-Up for Plumbing Companies",
+      "prompts": [
+        "AI lead follow-up for plumbing companies",
+        "How do plumbing companies respond faster to new service and quote requests?",
+        "Best way for a plumbing company to follow up on web forms, Google leads, and inbound service inquiries before the lead goes cold",
+        "Should a plumbing company automate lead follow-up before booked-job scheduling or estimate follow-up?",
+        "How should a plumbing company handle new plumbing leads when the office cannot respond right away?"
       ]
     },
     {
