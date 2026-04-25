@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-24-missed-call-text-back-for-electrical-contractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-24",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back for Electrical Contractors\nBody: A lot of electrical contractors do not need a full live AI phone conversation on every inbound call. They need a tighter fallback when the phone rings out because the office is buried in dispatch, the estimator is on another call, the electrician is on-site instead of answering, or the inquiry came in after hours. Missed call text-back for electrical contractors is that narrower layer. The call is missed, a useful text goes out immediately, the homeowner or property manager gets a clear next step, and the opportunity stays alive long enough to be recovered instead of leaking to the next electrician in the search results. It sits between voicemail and full live AI phone answering. Done well, it protects easy wins without pretending a text thread should replace every electrical conversation.\nSub: Below: what an electrical missed-call text-back workflow should actually do, how it stays distinct from the broader electrical pages already live, where it works best, and what adjacent proof honestly supports it.\n\n### Core sections\n- What electrical missed-call text-back should actually handle\n- How this page stays distinct from the other electrical and phone pages\n- When this is a good fit and when it is not\n- Important guardrails for electrical missed-call recovery\n- How a practical electrical missed-call text-back workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Straight answers for electrical contractors deciding whether SMS-first missed-call recovery is enough\nTopics: whether missed-call text-back is enough for most electrical contractors, what the first text should actually say, how this differs from the broader electrical automation page, what a focused missed-call workflow usually costs, and when to skip SMS-first recovery and go straight to live AI phone answering.\n\n### Final CTA\nHeading: Want to stop losing electrical jobs to missed calls?\nBody: Book a 30-minute call. We will look at where your company is missing calls, whether missed-call text-back is enough or live AI phone answering makes more sense, and what the narrowest useful recovery workflow would look like for your setup.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after reconciling `AGENTS.md`, `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current live routes/pages, and `scripts/geo-prompts.json`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the live electrical parent, the electrical first-project page, and the roadmap watchlist still exposed one clean lighter phone-recovery gap: immediate SMS-first missed-call recovery before the cluster jumps to heavier live phone coverage."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page materially distinct from `/ai-automation-for-electrical-contractors`, `/what-to-automate-first-for-electrical-contractors`, `/ai-lead-follow-up-for-electrical-contractors`, `/appointment-scheduling-and-reminder-automation-for-electrical-contractors`, `/estimate-follow-up-automation-for-electrical-contractors`, and `/review-request-automation-for-electrical-contractors` by staying tightly on missed-call recovery instead of broader scoping, early-funnel response, booked-job scheduling, quote recovery, or post-job reputation follow-through."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live electrical cluster, the first-project scoping page, the broader missed-call recovery guide, and the Paris Cafe phone-demand case study support the pattern without pretending there is already an electrical-only missed-call text-back case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-25T02:52:34.358Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 28.9,
+      "sentenceLengthRange": [
+        5,
+        61
+      ],
+      "totalWords": 347
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Missed Call Text-Back for Electrical Contractors\nBody: A lot of electrical contractors do not need a full live AI phone conversation on every inbound call.",
+      "wordCount": 27,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to stop losing electrical jobs to missed calls?\nBody: Book a 30-minute call. We will look at where your company is missing calls, whether missed-call text-back is enough or live AI phone answering makes more sense, and what the narrowest useful recovery workflow would look like for your setup.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 16,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.45
+    },
+    "vocabulary": {
+      "distinctWords": 161,
+      "totalWords": 347,
+      "topWords": [
+        [
+          "electrical",
+          14
+        ],
+        [
+          "missed-call",
+          8
+        ],
+        [
+          "text-back",
+          7
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "call",
+          6
+        ],
+        [
+          "phone",
+          6
+        ],
+        [
+          "it",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "contractors",
+          5
+        ],
+        [
+          "live",
+          5
+        ],
+        [
+          "missed",
+          4
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "answering",
+          4
+        ],
+        [
+          "enough",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

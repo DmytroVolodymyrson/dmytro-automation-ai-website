@@ -904,6 +904,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back for Electrical Contractors",
+    description:
+      "A narrower electrical phone-recovery workflow page focused on missed service calls — immediate text-back, issue capture, callback routing, and after-hours demand protection before the homeowner or property manager calls the next electrician.",
+    href: "/missed-call-text-back-for-electrical-contractors",
+    category: "industries",
+  },
+  {
     title: "Appointment Scheduling and Reminder Automation for Electrical Contractors",
     description:
       "A narrower electrical booked-job workflow page focused on confirmations, reminder timing, reschedule routing, office-to-field handoff, and fewer preventable schedule gaps after the visit is already booked.",

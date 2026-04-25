@@ -2835,7 +2835,7 @@
       "prompts": [
         "What should an electrical contractor automate first?",
         "What should an electrical contractor automate first missed-call recovery scheduling estimate follow-up review requests or after-hours phone coverage?",
-        "Should an electrical contractor fix missed calls before scheduling or estimate follow-up?",
+        "What breaks first for most electrical contractors: missed calls, slow lead response, schedule follow-through, stale estimates, or weak reviews?",
         "Should an electrical contractor automate review requests only after the earlier response and estimate workflows are already working?",
         "How do I choose the first automation project for my electrical contracting business?"
       ]
@@ -2850,6 +2850,18 @@
         "Best way for an electrical contractor to follow up on fresh leads before the prospect calls another company",
         "Should an electrical contractor automate first response before worrying about estimate follow-up?",
         "How should an electrical company handle new web leads and inbound quote requests before they go cold?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-for-electrical-contractors",
+      "path": "/missed-call-text-back-for-electrical-contractors",
+      "label": "Missed Call Text-Back for Electrical Contractors",
+      "prompts": [
+        "Missed call text-back for electrical contractors",
+        "How do electrical contractors recover missed service calls before the homeowner calls the next electrician?",
+        "Best missed-call text-back workflow for an electrical contractor with dispatch gaps and after-hours call leakage",
+        "Should an electrical contractor use missed-call text-back before paying for heavier live AI phone answering?",
+        "How should an electrical company handle missed calls after hours without relying only on voicemail?"
       ]
     },
     {
