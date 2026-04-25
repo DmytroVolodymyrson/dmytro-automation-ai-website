@@ -681,6 +681,18 @@
       ]
     },
     {
+      "id": "appointment-scheduling-and-reminder-automation-for-dental-practices",
+      "path": "/appointment-scheduling-and-reminder-automation-for-dental-practices",
+      "label": "Appointment Scheduling and Reminder Automation for Dental Practices",
+      "prompts": [
+        "Appointment scheduling and reminder automation for dental practices",
+        "How can a dental practice automate appointment confirmations and reminders without more front-desk chasing?",
+        "Best way to automate dental booking confirmations, reminder timing, and reschedules",
+        "Should a dental practice automate booking and reminders before no-show reduction or recall campaigns?",
+        "How do dental offices confirm appointments, handle reschedules, and reduce preventable schedule gaps without manual reminder chaos?"
+      ]
+    },
+    {
       "id": "recall-and-reactivation-automation-for-dental-practices",
       "path": "/recall-and-reactivation-automation-for-dental-practices",
       "label": "Recall and Reactivation Automation for Dental Practices",

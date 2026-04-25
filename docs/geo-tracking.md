@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 263 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 264 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -99,7 +99,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Automation Consultant Calgary** — `/ai-automation-consultant-calgary`
 - **AI Automation Consultant Edmonton** — `/ai-automation-consultant-edmonton`
 
-### Industry + vertical pages (139)
+### Industry + vertical pages (140)
 - **After-Hours AI Phone Answering vs. Voicemail for Restaurants** — `/after-hours-ai-phone-answering-vs-voicemail-for-restaurants`
 - **After-Hours Maintenance Triage for Property Management Companies** — `/after-hours-maintenance-triage-for-property-management-companies`
 - **After-Hours Phone Answering for Restaurants** — `/after-hours-phone-answering-for-restaurants`
@@ -226,6 +226,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Quote Follow-Up Automation for Cleaning Companies** — `/quote-follow-up-automation-for-cleaning-companies`
 - **Recurring Cleaning Scheduling and Reminder Automation for Cleaning Companies** — `/recurring-cleaning-scheduling-and-reminder-automation-for-cleaning-companies`
 - **Quote Follow-Up Automation for Insurance Agencies** — `/quote-follow-up-automation-for-insurance-agencies`
+- **Appointment Scheduling and Reminder Automation for Dental Practices** — `/appointment-scheduling-and-reminder-automation-for-dental-practices`
 - **Recall and Reactivation Automation for Dental Practices** — `/recall-and-reactivation-automation-for-dental-practices`
 - **No-Show Reduction Automation for Dental Practices** — `/no-show-reduction-automation-for-dental-practices`
 - **Real Estate Lead Response and Follow-Up Automation** — `/real-estate-lead-response-and-follow-up-automation`

@@ -827,6 +827,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Appointment Scheduling and Reminder Automation for Dental Practices",
+    description:
+      "Booked-visit workflow for dental practices focused on clearer confirmations, reminder timing, easy reschedules, and cleaner front-desk handoff before hygiene, exam, and treatment visits turn into preventable gaps.",
+    href: "/appointment-scheduling-and-reminder-automation-for-dental-practices",
+    category: "industries",
+  },
+  {
     title: "Recall and Reactivation Automation for Dental Practices",
     description:
       "Bring overdue hygiene, exam, and unscheduled-treatment patients back with interval-based reminders, lapse recovery, and cleaner front-desk handoff.",
