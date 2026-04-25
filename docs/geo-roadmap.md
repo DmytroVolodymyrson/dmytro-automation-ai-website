@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `ai-phone-answering-for-dental-practices` after a fresh reconciliation across GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The audit showed one clean dental child still surviving inside the cluster: the broad dental parent already isolates after-hours call handling as its own workflow family, the first-project page still treats it as a distinct choice beside inquiry follow-up, booking and reminders, recall/reactivation, and no-show reduction, and the live dental cluster plus the generic phone-answering guide and published call-handling proof made it possible to ship a narrow page focused specifically on live patient call coverage, routine booking-question triage, and cleaner front-desk handoff without pretending there is already a dental-specific phone-answering case study.)
+Last updated: 2026-04-25 (shipped `ai-phone-answering-vs-voicemail-for-law-firms` after a fresh reconciliation across GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The clean surviving child was the exact law-firm voicemail-vs-live decision already implied by the live law-firm phone-answering page and the broader cluster: the parent phone page still carried the buyer question about when live answering is worth it versus voicemail or manual callbacks, the cluster already had direct adjacent proof through the live law-firm phone-answering page plus the broader law-firm pages, and the page stays distinct by focusing on the heavier buyer decision itself rather than rewriting the generic voice-agent-vs-voicemail page or the broader law-firm phone explainer.)
 
 ## Live GEO Assets
 
@@ -86,6 +86,7 @@ Last updated: 2026-04-25 (shipped `ai-phone-answering-for-dental-practices` afte
 | Consultation Scheduling and Reminder Automation for Law Firms | `/consultation-scheduling-and-reminder-automation-for-law-firms` | Law-firm booked-consult scheduling workflow page | Live |
 | Unretained-Consult Follow-Up for Law Firms | `/unretained-consult-follow-up-for-law-firms` | Law-firm post-consult conversion workflow page | Live |
 | AI Phone Answering for Law Firms | `/ai-phone-answering-for-law-firms` | Law-firm live-phone-coverage workflow page | Live |
+| AI Phone Answering vs. Voicemail for Law Firms | `/ai-phone-answering-vs-voicemail-for-law-firms` | Law-firm phone-fallback decision page | Live |
 | AI Automation for Accounting Firms | `/ai-automation-for-accounting-firms` | Industry page | Live |
 | Document Collection Automation for Accounting Firms | `/document-collection-automation-for-accounting-firms` | Accounting document-intake workflow page | Live |
 | Client Onboarding Automation for Accounting Firms | `/client-onboarding-automation-for-accounting-firms` | Accounting post-sale onboarding workflow page | Live |
@@ -312,18 +313,18 @@ Last updated: 2026-04-25 (shipped `ai-phone-answering-for-dental-practices` afte
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 285**
+**Total decision/comparison/industry pages live: 286**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-phone-answering-for-dental-practices` closes the clearest surviving dental phone-layer child that still reconciled cleanly across the broader plan, the live cluster, and the prompt set. The cluster still contains broader language about after-hours handling, but there is no equally clean next same-cluster dental page that has already been re-verified across planning docs, live routes/pages, and prompts. The next run should reset to broad backlog reconciliation instead of forcing a dental phone comparison by inertia.
+Shipping `/ai-phone-answering-vs-voicemail-for-law-firms` closes the clearest surviving law-firm phone-fallback decision that still reconciled cleanly across the broader plan, the live cluster, and the prompt set. The exact heavier buyer query was already sitting on the live law-firm phone-answering page, and this child now owns that intent directly. There is no equally clean same-cluster law-firm sibling already re-verified across planning docs, live routes/pages, and prompts, so the next run should reset to broad backlog reconciliation instead of forcing another law-firm phone page by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending another dental phone page is automatically next now that the clean live-answering child has shipped. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending another law-firm phone page is automatically next now that the clean voicemail-vs-live child has shipped. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 

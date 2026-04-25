@@ -911,6 +911,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering vs. Voicemail for Law Firms",
+    description:
+      "Decision guide for law firms choosing between live AI phone coverage and voicemail callbacks, with a practical view of intake urgency, receptionist workload, after-hours demand, and when a lighter recovery layer is enough.",
+    href: "/ai-phone-answering-vs-voicemail-for-law-firms",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Accounting Firms",
     description:
       "AI automation for accounting firms. Client onboarding, document collection, appointment scheduling, and seasonal workflows for CPA and bookkeeping practices.",

@@ -809,7 +809,19 @@
         "How should a law firm handle intake calls after hours without relying on voicemail?",
         "Should a small law firm use AI phone answering instead of next-day callbacks?",
         "Best way for a law firm to answer consultation calls when attorneys are in court or staff cannot pick up",
-        "When is live AI phone answering the right next workflow for a law firm versus voicemail or manual callbacks?"
+        "How can a law firm use live AI phone answering without replacing the intake team or pretending it gives legal advice?"
+      ]
+    },
+    {
+      "id": "ai-phone-answering-vs-voicemail-for-law-firms",
+      "path": "/ai-phone-answering-vs-voicemail-for-law-firms",
+      "label": "AI Phone Answering vs Voicemail for Law Firms",
+      "prompts": [
+        "AI phone answering vs voicemail for law firms",
+        "Should a law firm use live AI phone answering instead of voicemail?",
+        "When is voicemail still good enough for a small law firm versus live phone answering?",
+        "Best way for a law firm to decide between voicemail callbacks and live AI intake coverage",
+        "Does a law firm need live AI phone answering or just a lighter callback workflow?"
       ]
     },
     {
