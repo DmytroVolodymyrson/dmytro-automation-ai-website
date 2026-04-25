@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `client-reactivation-automation-for-real-estate-teams` after broad backlog reconciliation confirmed one clean surviving real-estate gap. The live real-estate parent already named past-client reactivation as part of the broader operating layer, and the first-project page explicitly framed database reactivation and sphere nurture as one of the four bounded first builds, but the cluster still lacked a child page that isolated that lifecycle stage from fresh lead response, showing coordination, and CRM cleanup. This new child now owns the real-estate database-reactivation layer instead of leaving that intent buried inside broader cluster copy. With that real-estate reactivation page now live beside the parent, first-project, lead-response, showing, and CRM-cleanup pages, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster real-estate page by inertia.)
+Last updated: 2026-04-25 (shipped `review-request-automation-for-ecommerce-brands` after broad backlog reconciliation confirmed one clean surviving e-commerce child-page gap. The live e-commerce cluster already had the broad parent, first-project scoping page, CRM pages, lifecycle/reactivation page, and support/returns children, but it still lacked a bounded post-purchase reputation layer for brands that want more reviews without mixing review asks into support, return, or win-back workflows. This new child now owns that review-request intent directly instead of leaving it implied inside broader e-commerce operations copy. With that e-commerce review-request page now live beside the existing parent and sibling workflow pages, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster e-commerce page by inertia.)
 
 ## Live GEO Assets
 
@@ -182,6 +182,7 @@ Last updated: 2026-04-25 (shipped `client-reactivation-automation-for-real-estat
 | Customer Service Automation for E-Commerce Brands | `/customer-service-automation-for-ecommerce-brands` | Industry support workflow page | Live |
 | Customer Service Automation vs. Manual Support for E-Commerce Brands | `/customer-service-automation-vs-manual-support-for-ecommerce-brands` | E-commerce support decision page | Live |
 | Order-Status and Return Support Automation for E-Commerce Brands | `/order-status-and-return-support-automation-for-ecommerce-brands` | Industry post-purchase support workflow page | Live |
+| Review Request Automation for E-Commerce Brands | `/review-request-automation-for-ecommerce-brands` | E-commerce post-purchase reputation workflow page | Live |
 | After-Hours Lead Capture | `/after-hours-lead-capture-for-service-businesses` | Workflow page | Live |
 | Missed Call Follow-Up Automation | `/missed-call-follow-up-automation` | Workflow page | Live |
 | Booking Confirmation & Reminder | `/booking-confirmation-and-reminder-automation` | Workflow page | Live |
@@ -330,18 +331,18 @@ Last updated: 2026-04-25 (shipped `client-reactivation-automation-for-real-estat
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 303**
+**Total decision/comparison/industry pages live: 304**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/client-reactivation-automation-for-real-estate-teams` extracts the narrower lifecycle layer that the live real-estate parent and the existing first-project page were already implying, but without collapsing it back into either fresh lead follow-up, showing coordination, or CRM cleanup. The real-estate cluster now has the broad parent, lead-response child, showing child, first-project scoping page, CRM-cleanup child, and this new database-reactivation child live. With that real-estate reactivation page now shipped, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster real-estate page by inertia.
+Shipping `/review-request-automation-for-ecommerce-brands` extracts the narrower post-purchase reputation layer that the live e-commerce parent and sibling workflow pages were already implying, but without collapsing it back into customer service, return support, CRM follow-up, or repeat-purchase reactivation. The e-commerce cluster now has the broad parent, first-project scoping page, CRM pages, lifecycle child, support child, returns child, and this new review-request child live. With that e-commerce reputation page now shipped, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster e-commerce page by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the mature real-estate cluster still automatically owns the next run now that its database-reactivation child is live beside the parent, first-project, lead-response, showing, and CRM-cleanup pages. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the mature e-commerce cluster still automatically owns the next run now that its review-request child is live beside the parent, first-project, CRM, lifecycle, support, and returns pages. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 

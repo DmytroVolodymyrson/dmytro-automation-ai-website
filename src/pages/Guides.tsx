@@ -1422,6 +1422,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Review Request Automation for E-Commerce Brands",
+    description:
+      "A narrower post-purchase reputation page focused on the timing, segmentation, and opt-out-safe follow-up that helps online stores ask for reviews without stuffing review requests into the wrong support or lifecycle workflows.",
+    href: "/review-request-automation-for-ecommerce-brands",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Chiropractors",
     description:
       "AI automation for chiropractors. New patient intake, appointment scheduling, recall campaigns, no-show reduction, and review automation.",

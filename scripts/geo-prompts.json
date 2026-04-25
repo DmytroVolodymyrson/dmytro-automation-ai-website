@@ -1425,6 +1425,18 @@
       ]
     },
     {
+      "id": "review-request-automation-for-ecommerce-brands",
+      "path": "/review-request-automation-for-ecommerce-brands",
+      "label": "Review Request Automation for E-Commerce Brands",
+      "prompts": [
+        "Review request automation for e-commerce brands",
+        "How do e-commerce brands ask for reviews without spamming customers after every order?",
+        "Best way to automate review requests for an online store after delivery without hurting support experience",
+        "Should an e-commerce brand automate review requests separately from customer service and win-back flows?",
+        "How do online stores segment review-request timing for happy customers without mixing in return and refund issues?"
+      ]
+    },
+    {
       "id": "after-hours-lead-capture",
       "path": "/after-hours-lead-capture-for-service-businesses",
       "label": "After-Hours Lead Capture",
