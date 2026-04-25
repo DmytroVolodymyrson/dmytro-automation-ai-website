@@ -827,6 +827,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Lead Follow-Up for Dental Practices",
+    description:
+      "Early-funnel dental workflow page focused on faster new-patient response, short nurture before the appointment is booked, cleaner front-desk handoff, and fewer inquiries going cold.",
+    href: "/ai-lead-follow-up-for-dental-practices",
+    category: "industries",
+  },
+  {
     title: "Appointment Scheduling and Reminder Automation for Dental Practices",
     description:
       "Booked-visit workflow for dental practices focused on clearer confirmations, reminder timing, easy reschedules, and cleaner front-desk handoff before hygiene, exam, and treatment visits turn into preventable gaps.",

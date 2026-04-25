@@ -674,10 +674,22 @@
       "label": "What to Automate First for Dental Practices",
       "prompts": [
         "What should a dental practice automate first?",
-        "What should a dental office automate first new-patient follow-up booking and reminders recall campaigns no-show reduction or after-hours call handling?",
+        "What should a dental office automate first if booking and reminders, recall campaigns, no-show reduction, and after-hours call handling all need work?",
         "Best first automation for dental practices",
         "How do I choose the first automation project for a dental practice?",
         "How should a dental practice choose between recall/reactivation, no-show reduction, and after-hours call handling as the first automation project?"
+      ]
+    },
+    {
+      "id": "ai-lead-follow-up-for-dental-practices",
+      "path": "/ai-lead-follow-up-for-dental-practices",
+      "label": "AI Lead Follow-Up for Dental Practices",
+      "prompts": [
+        "AI lead follow-up for dental practices",
+        "How should a dental practice follow up with new patient inquiries before the appointment is booked?",
+        "Best way for a dental office to respond faster to new leads from forms texts Google messages and missed calls",
+        "Should a dental practice automate inquiry follow-up before booking reminders or recall campaigns?",
+        "How do dental practices stop new-patient inquiries from going cold before anyone actually books the appointment?"
       ]
     },
     {

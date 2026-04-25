@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-25-ai-lead-follow-up-for-dental-practices",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-25",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "### Hero\nHeading: AI Lead Follow-Up for Dental Practices\nBody: Dental practices do not only lose revenue when recall breaks down months later or when a booked visit no-shows. They lose it much earlier, right after a new patient inquiry arrives. The web form sat too long. The missed call never got a clean reply. The Google inquiry got one weak message and then died while the front desk was juggling patients, phones, insurance questions, and the next person at the desk. AI lead follow-up for dental practices fixes that narrower early-funnel workflow. It responds fast, keeps the conversation moving while intent is still fresh, captures the next useful detail, and hands serious booking intent back to a human before the patient calls the office across town that replied first.\nSub: Below: what this workflow should actually handle, how it stays distinct from the broader dental page plus the booking / recall / no-show pages already live, what guardrails matter, and what proof honestly supports the page without pretending there is already a dental-specific lead-follow-up case study on the site.\n\n### Core sections\n- What dental lead follow-up should actually handle\n- How this page stays distinct inside the dental cluster\n- Is this a good fit for your dental practice?\n- How a practical dental lead-follow-up workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions about AI lead follow-up for dental practices\nTopics: how this differs from dental booking/reminder automation, how it differs from recall/reactivation, typical build cost, whether AI can handle first response without sounding robotic, and when after-hours phone coverage should come first instead.\n\n### Final CTA\nHeading: Need faster new-patient response before more dental inquiries go cold?\nBody: Book a 30-minute call. We will look at how your practice handles new-patient inquiries today, where response speed and ownership are breaking down, and whether a focused lead-follow-up workflow is the right next build or whether another dental workflow should come first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the roadmap still named `/ai-lead-follow-up-for-dental-practices` as the next clean dental child after booked-visit scheduling, recall/reactivation, and no-show protection were live."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on the stage before the appointment exists: first response, short nurture, light qualification, and front-desk handoff. It does not collapse into booking/reminders, recall/reactivation, or the broader dental parent."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live dental cluster, the generic lead-follow-up guide, and the published e-commerce CRM case study as honest adjacent proof without pretending there is already a dental-specific lead-follow-up case study on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fewer lost new-patient bookings, less front-desk chasing, explicit fit / not-fit framing, and clear guardrails around where automation should stop."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-25T11:06:26.678Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 23.1,
+      "sentenceLengthRange": [
+        5,
+        48
+      ],
+      "totalWords": 324
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Lead Follow-Up for Dental Practices\nBody: Dental practices do not only lose revenue when recall breaks down months later or when a booked visit no-shows.",
+      "wordCount": 28,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need faster new-patient response before more dental inquiries go cold?\nBody: Book a 30-minute call. We will look at how your practice handles new-patient inquiries today, where response speed and ownership are breaking down, and whether a focused lead-follow-up workflow is the right next build or whether another dental workflow should come first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 16,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.23
+    },
+    "vocabulary": {
+      "distinctWords": 184,
+      "totalWords": 324,
+      "topWords": [
+        [
+          "dental",
+          12
+        ],
+        [
+          "how",
+          6
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "lead",
+          4
+        ],
+        [
+          "follow-up",
+          4
+        ],
+        [
+          "practices",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "first",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "when",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.006
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

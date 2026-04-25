@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `appointment-scheduling-and-reminder-automation-for-dental-practices` after another broad reconciliation across GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The fresh audit confirmed the dental cluster still had one clean booked-visit child left: the broad parent already names booking and reminders as a distinct workflow family, the first-project page still isolates that choice beside recall, no-show reduction, and after-hours handling, and the live dental cluster plus adjacent booking proof made it possible to ship a narrow page focused specifically on confirmations, reminder timing, reschedules, and front-desk handoff without collapsing back into the broader dental page, the recall child, or the no-show child.)
+Last updated: 2026-04-25 (shipped `ai-lead-follow-up-for-dental-practices` after a fresh reconciliation across GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The audit still supported one clean dental early-funnel child: the roadmap already named this page explicitly, the broad dental parent still isolates new-patient inquiry response as its own workflow family, the first-project page already treats it as a distinct choice beside booking, recall, no-show reduction, and after-hours handling, and the live dental cluster plus adjacent lead-follow-up / CRM proof made it possible to ship a narrow page focused specifically on first response, short nurture, and front-desk handoff before the appointment is booked.)
 
 ## Live GEO Assets
 
@@ -74,6 +74,7 @@ Last updated: 2026-04-25 (shipped `appointment-scheduling-and-reminder-automatio
 | What to Automate First for Mortgage Brokers | `/what-to-automate-first-for-mortgage-brokers` | Mortgage first-project scoping page | Live |
 | AI Automation for Dental Practices | `/ai-automation-for-dental-practices` | Industry page | Live |
 | What to Automate First for Dental Practices | `/what-to-automate-first-for-dental-practices` | Dental first-project scoping page | Live |
+| AI Lead Follow-Up for Dental Practices | `/ai-lead-follow-up-for-dental-practices` | Dental early-funnel inquiry-response workflow page | Live |
 | Appointment Scheduling and Reminder Automation for Dental Practices | `/appointment-scheduling-and-reminder-automation-for-dental-practices` | Dental booked-visit scheduling workflow page | Live |
 | Recall and Reactivation Automation for Dental Practices | `/recall-and-reactivation-automation-for-dental-practices` | Dental retention workflow page | Live |
 | No-Show Reduction Automation for Dental Practices | `/no-show-reduction-automation-for-dental-practices` | Dental attendance-protection workflow page | Live |
@@ -310,18 +311,18 @@ Last updated: 2026-04-25 (shipped `appointment-scheduling-and-reminder-automatio
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 283**
+**Total decision/comparison/industry pages live: 284**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/appointment-scheduling-and-reminder-automation-for-dental-practices` closes the booked-visit coordination layer inside the live dental cluster without rehashing the broader parent, the recall child, or the new no-show page. The cleanest immediately visible remaining dental child is the early-funnel response layer: the broad parent and the first-project page still isolate new-patient follow-up as its own workflow family, and that page can stay one step earlier than booking, reminders, recall, no-show protection, and after-hours handling by focusing on first response, short nurture, and staff handoff before the appointment is even on the calendar.
+Shipping `/ai-lead-follow-up-for-dental-practices` closes the last exact tracked workflow child that still survived cleanly inside the current dental cluster. The broader dental parent still mentions other workflow families, but there is no longer an equally clean named follow-up candidate in the queue that has already been re-verified across the planning docs, live routes/pages, and prompts. The next run should reset to broad backlog reconciliation instead of forcing another dental child by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | `/ai-lead-follow-up-for-dental-practices` | Dental new-patient response speed, short nurture, and early-funnel booking recovery | The live dental parent and first-project page still name new-patient follow-up as a separate workflow family, and it remains materially different from the new booking child because it stays focused on first response and appointment-setting momentum before the visit is ever booked. | **Next clean dental child candidate** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending another dental page is automatically next when the surviving clean candidate has now shipped. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 
