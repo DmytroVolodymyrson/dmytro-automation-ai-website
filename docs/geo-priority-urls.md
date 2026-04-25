@@ -4,13 +4,24 @@ Last updated: 2026-04-25 MDT
 
 ## GSC status snapshot
 
-**GSC URL Inspection: NOT YET INSPECTED** — browser session is not authenticated to Google Search Console and no local Search Console API credentials were found. The audit below is a public/live technical indexability audit, not a substitute for GSC's indexed / discovered-not-indexed / crawled-not-indexed statuses.
+**GSC URL Inspection: PARTIAL SNAPSHOT FROM MANUAL UI** — Dmytro manually inspected 5 priority URLs in Google Search Console on Apr 25, 2026. Result: homepage is indexed; `/guides`, `/case-studies`, `/ai-automation-consultant-small-business`, and `/best-ai-automation-for-service-businesses` are discovered but not yet indexed. The remaining priority URLs still need manual URL Inspection or API access.
 
 Background context:
 - Google Search Console sitemap submission is successful for `https://www.dmytroai.com/sitemap.xml`.
 - Screenshot from Apr 25, 2026 shows `Status: Success`, `Last read: Apr 25, 2026`, and `Discovered pages: 320`.
 - Live checks confirmed `robots.txt` and `sitemap.xml` return HTTP 200 and `robots.txt` points to the sitemap.
-- This confirms discovery plumbing. It does **not** prove every URL is indexed or eligible for AI citation.
+- This confirms discovery plumbing. It does **not** prove every URL is indexed or eligible for AI citation. The partial manual snapshot shows discovery is working, but several important pages have not been crawled/indexed yet.
+
+
+## Manual GSC URL Inspection snapshot (2026-04-25)
+
+| URL | GSC status | Discovery/referring signal | Crawl details | Interpretation | Immediate action |
+|---|---|---|---|---|---|
+| `/` | URL is on Google; page is indexed | Indexed homepage | Enhancements visible: HTTPS + FAQ | Core entity page is indexed and eligible | No urgent action; request indexing only if homepage changed after last crawl |
+| `/guides` | Discovered — currently not indexed | Sitemap + referring page `/ai-voice-agent-vs-human-appointment-setter` | Last crawl N/A | Google knows the hub exists but has not crawled it | Request indexing after strengthening hub links |
+| `/case-studies` | Discovered — currently not indexed | Sitemap + referring page `/ai-automation-for-home-inspectors` | Last crawl N/A | Proof hub is discovered but uncrawled | Request indexing after linking proof from priority commercial pages |
+| `/ai-automation-consultant-small-business` | Discovered — currently not indexed | Sitemap + referring page `/guides` | Last crawl N/A | Main commercial category page is discovered but not crawled/indexed | Request indexing now; then strengthen links/proof |
+| `/best-ai-automation-for-service-businesses` | Discovered — currently not indexed | Sitemap | Last crawl N/A | Important category page is discovered only through sitemap so far | Add stronger internal links, then request indexing |
 
 ## Technical indexability audit (2026-04-25)
 
@@ -37,14 +48,14 @@ Automated live-site checks via `scripts/audit-indexability.mjs`. All 25 URLs pas
 
 | # | URL | Title | H1 | HTTP | Canonical | Noindex | Sitemap | GEO tracked | GSC Inspection | GEO status | Next action |
 |--:|---|---|---|:---:|:---:|:---:|:---:|:---:|---|---|---|
-| 1 | `/` | Dmytro \| AI Automation Expert | Automate boring work. Focus on growth. | 200 | self | no | yes | — | NOT INSPECTED | Branded visible; category baseline weak | Entity/schema update shipped; inspect in GSC |
-| 2 | `/guides` | Guides \| Dmytro AI | Practical Guides for Small Business Automation | 200 | self | no | yes | — | NOT INSPECTED | Not separately scored | Strengthen start-here links and cluster intros |
-| 3 | `/case-studies` | Case Studies — AI Automation Results for Real Businesses \| Dmytro AI | Proven Automation Outcomes | 200 | self | no | yes | — | NOT INSPECTED | Not separately scored | Link proof to priority workflows |
-| 4 | `/ai-automation-consultant-small-business` | AI Automation Consultant for Small Business \| Dmytro AI | AI Automation Consultant for Small Businesses | 200 | self | no | yes | yes | NOT INSPECTED | 0 on latest full sweep | Add stronger proof links, related links, entity language |
+| 1 | `/` | Dmytro \| AI Automation Expert | Automate boring work. Focus on growth. | 200 | self | no | yes | — | **Indexed** | Branded visible; category baseline weak | Keep as entity anchor; no urgent GSC action |
+| 2 | `/guides` | Guides \| Dmytro AI | Practical Guides for Small Business Automation | 200 | self | no | yes | — | **Discovered — currently not indexed** | Not separately scored | Strengthen start-here links and request indexing |
+| 3 | `/case-studies` | Case Studies — AI Automation Results for Real Businesses \| Dmytro AI | Proven Automation Outcomes | 200 | self | no | yes | — | **Discovered — currently not indexed** | Not separately scored | Link proof to priority workflows and request indexing |
+| 4 | `/ai-automation-consultant-small-business` | AI Automation Consultant for Small Business \| Dmytro AI | AI Automation Consultant for Small Businesses | 200 | self | no | yes | yes | **Discovered — currently not indexed** | 0 on latest full sweep | Request indexing; add stronger proof links, related links, entity language |
 | 5 | `/what-does-an-ai-automation-consultant-do` | What Does an AI Automation Consultant Do? ... \| Dmytro AI | What Does an AI Automation Consultant Actually Do? | 200 | self | no | yes | yes | NOT INSPECTED | 0 on latest full sweep | Improve answer block and link to proof |
 | 6 | `/ai-automation-consultant-pricing-small-business` | AI Automation Consultant Pricing for Small Business ... \| Dmytro AI | AI Automation Consultant Pricing for Small Business | 200 | self | no | yes | yes | NOT INSPECTED | 0 on latest full sweep | Add fixed-price framing and proof examples |
 | 7 | `/ai-automation-cost-small-business` | AI Automation Cost for Small Business ... \| Dmytro AI | AI Automation Cost for Small Business | 200 | self | no | yes | yes | NOT INSPECTED | 0 on latest full sweep | Add cost ranges and related pricing links |
-| 8 | `/best-ai-automation-for-service-businesses` | Best AI Automations for Service Businesses ... \| Dmytro AI | Best AI Automations for Service Businesses | 200 | self | no | yes | yes | NOT INSPECTED | Added to GEO tracking | Make canonical cluster summary and strengthen proof links |
+| 8 | `/best-ai-automation-for-service-businesses` | Best AI Automations for Service Businesses ... \| Dmytro AI | Best AI Automations for Service Businesses | 200 | self | no | yes | yes | **Discovered — currently not indexed** | Added to GEO tracking | Add stronger internal links, then request indexing |
 | 9 | `/ai-automation-for-businesses-without-a-tech-team` | AI Automation for Businesses Without a Tech Team ... \| Dmytro AI | AI Automation for Businesses Without a Tech Team | 200 | self | no | yes | yes | NOT INSPECTED | 0 on latest full sweep | Add fit/not-fit details and case proof |
 | 10 | `/n8n-vs-zapier-small-business` | n8n vs Zapier for Small Business \| Dmytro AI | n8n vs Zapier for Small Business | 200 | self | no | yes | yes | NOT INSPECTED | 0 on latest full sweep | Add implementation examples and external template links |
 | 11 | `/ai-appointment-setter` | AI Appointment Setter for Service Businesses \| Dmytro AI | AI Appointment Setter for Service Businesses | 200 | self | no | yes | yes | NOT INSPECTED | 0 on latest full sweep | Build hub links to setup/cost/ROI pages |

@@ -355,3 +355,9 @@ A full GEO (Generative Engine Optimization) plan was created to make Dmytro show
 
 ## Done
 - [x] Synced repo to the updated project-template structure: added `docs/index.md` and refreshed agent/session-sync guidance
+
+## Update 2026-04-25 — Manual GSC URL Inspection snapshot
+- Dmytro manually inspected 5 priority URLs in Google Search Console.
+- `/` is indexed / URL is on Google.
+- `/guides`, `/case-studies`, `/ai-automation-consultant-small-business`, and `/best-ai-automation-for-service-businesses` are `Discovered - currently not indexed`; GSC shows crawl details as N/A for these, meaning Google knows them from sitemap/referring pages but has not crawled them yet.
+- Updated `docs/geo-priority-urls.md` with the partial GSC snapshot. Next action is request indexing for these discovered pages and strengthen internal links to `/guides`, `/case-studies`, and `/best-ai-automation-for-service-businesses`.
