@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 252 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 253 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -134,6 +134,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Phone Answering vs. Voicemail for Med Spas** — `/ai-phone-answering-vs-voicemail-for-med-spas`
 - **AI Phone Answering vs. Voicemail for Painting Contractors** — `/ai-phone-answering-vs-voicemail-for-painting-contractors`
 - **AI Phone Answering vs. Voicemail for Pest Control Companies** — `/ai-phone-answering-vs-voicemail-for-pest-control-companies`
+- **AI Phone Answering vs. Voicemail for Plumbing Companies** — `/ai-phone-answering-vs-voicemail-for-plumbing-companies`
 - **AI Phone Answering vs. Voicemail for Roofing Companies** — `/ai-phone-answering-vs-voicemail-for-roofing-companies`
 - **AI Voice Agent for Restaurants** — `/ai-voice-agent-for-restaurants`
 - **Appointment Scheduling and Reminder Automation for Auto Repair Shops** — `/appointment-scheduling-and-reminder-automation-for-auto-repair-shops`

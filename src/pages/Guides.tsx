@@ -939,6 +939,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering vs. Voicemail for Plumbing Companies",
+    description:
+      "Plumbing buyer guide for deciding when live AI phone answering is worth replacing voicemail and callbacks, when voicemail is still acceptable, and when missed-call text-back is the smarter middle step before a heavier phone build.",
+    href: "/ai-phone-answering-vs-voicemail-for-plumbing-companies",
+    category: "comparisons",
+  },
+  {
     title: "Appointment Scheduling and Reminder Automation for Plumbing Companies",
     description:
       "A narrower plumbing booked-job workflow page focused on confirmations, reminder timing, reschedule routing, office-to-tech handoff, and fewer preventable schedule gaps after the appointment is already booked.",

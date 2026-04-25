@@ -89,6 +89,7 @@ const EstimateFollowUpAutomationForPlumbingCompanies = lazy(() => import("./page
 const MissedCallTextBackForPlumbingCompanies = lazy(() => import("./pages/MissedCallTextBackForPlumbingCompanies"));
 const MissedCallTextBackVsAiPhoneAnsweringForPlumbingCompanies = lazy(() => import("./pages/MissedCallTextBackVsAiPhoneAnsweringForPlumbingCompanies"));
 const AiPhoneAnsweringForPlumbingCompanies = lazy(() => import("./pages/AiPhoneAnsweringForPlumbingCompanies"));
+const AiPhoneAnsweringVsVoicemailForPlumbingCompanies = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForPlumbingCompanies"));
 const AppointmentSchedulingAndReminderAutomationForPlumbingCompanies = lazy(() => import("./pages/AppointmentSchedulingAndReminderAutomationForPlumbingCompanies"));
 const AiAutomationForElectricalContractors = lazy(() => import("./pages/AiAutomationForElectricalContractors"));
 const WhatToAutomateFirstForElectricalContractors = lazy(() => import("./pages/WhatToAutomateFirstForElectricalContractors"));
@@ -383,6 +384,7 @@ const AppRoutesClient = () => (
       <Route path="/missed-call-text-back-for-plumbing-companies" element={<MissedCallTextBackForPlumbingCompanies />} />
       <Route path="/missed-call-text-back-vs-ai-phone-answering-for-plumbing-companies" element={<MissedCallTextBackVsAiPhoneAnsweringForPlumbingCompanies />} />
       <Route path="/ai-phone-answering-for-plumbing-companies" element={<AiPhoneAnsweringForPlumbingCompanies />} />
+      <Route path="/ai-phone-answering-vs-voicemail-for-plumbing-companies" element={<AiPhoneAnsweringVsVoicemailForPlumbingCompanies />} />
       <Route path="/appointment-scheduling-and-reminder-automation-for-plumbing-companies" element={<AppointmentSchedulingAndReminderAutomationForPlumbingCompanies />} />
       <Route path="/ai-automation-for-electrical-contractors" element={<AiAutomationForElectricalContractors />} />
       <Route path="/what-to-automate-first-for-electrical-contractors" element={<WhatToAutomateFirstForElectricalContractors />} />

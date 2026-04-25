@@ -2894,10 +2894,22 @@
       "label": "AI Phone Answering for Plumbing Companies",
       "prompts": [
         "AI phone answering for plumbing companies",
-        "Should a plumbing company use live AI phone answering instead of voicemail or callbacks?",
+        "Should a plumbing company use live AI phone answering for after-hours or overflow calls?",
         "Best way for a plumbing company to answer calls live after hours without hiring another dispatcher",
         "What should live AI phone answering handle for a plumbing company versus route back to the office?",
         "How should a plumbing company handle overflow and after-hours service calls when callers need a real answer now?"
+      ]
+    },
+    {
+      "id": "ai-phone-answering-vs-voicemail-for-plumbing-companies",
+      "path": "/ai-phone-answering-vs-voicemail-for-plumbing-companies",
+      "label": "AI Phone Answering vs. Voicemail for Plumbing Companies",
+      "prompts": [
+        "AI phone answering vs voicemail for plumbing companies",
+        "Should a plumbing company use live AI phone answering or voicemail?",
+        "When is live AI phone answering better than voicemail for a plumbing company?",
+        "Is voicemail enough for plumbing service calls after hours?",
+        "What is better for a plumbing company voicemail or live AI phone answering?"
       ]
     },
     {
