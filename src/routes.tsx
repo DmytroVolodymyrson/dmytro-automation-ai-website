@@ -78,6 +78,7 @@ import AiAutomationForAccountingFirms from "./pages/AiAutomationForAccountingFir
 import DocumentCollectionAutomationForAccountingFirms from "./pages/DocumentCollectionAutomationForAccountingFirms";
 import ClientOnboardingAutomationForAccountingFirms from "./pages/ClientOnboardingAutomationForAccountingFirms";
 import WhatToAutomateFirstForAccountingFirms from "./pages/WhatToAutomateFirstForAccountingFirms";
+import AppointmentSchedulingAndReminderAutomationForAccountingFirms from "./pages/AppointmentSchedulingAndReminderAutomationForAccountingFirms";
 import AiAutomationForPlumbingCompanies from "./pages/AiAutomationForPlumbingCompanies";
 import WhatToAutomateFirstForPlumbingCompanies from "./pages/WhatToAutomateFirstForPlumbingCompanies";
 import AiLeadFollowUpForPlumbingCompanies from "./pages/AiLeadFollowUpForPlumbingCompanies";
@@ -394,6 +395,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/document-collection-automation-for-accounting-firms", element: <DocumentCollectionAutomationForAccountingFirms /> },
   { path: "/client-onboarding-automation-for-accounting-firms", element: <ClientOnboardingAutomationForAccountingFirms /> },
   { path: "/what-to-automate-first-for-accounting-firms", element: <WhatToAutomateFirstForAccountingFirms /> },
+  { path: "/appointment-scheduling-and-reminder-automation-for-accounting-firms", element: <AppointmentSchedulingAndReminderAutomationForAccountingFirms /> },
   { path: "/ai-automation-for-plumbing-companies", element: <AiAutomationForPlumbingCompanies /> },
   { path: "/what-to-automate-first-for-plumbing-companies", element: <WhatToAutomateFirstForPlumbingCompanies /> },
   { path: "/ai-lead-follow-up-for-plumbing-companies", element: <AiLeadFollowUpForPlumbingCompanies /> },

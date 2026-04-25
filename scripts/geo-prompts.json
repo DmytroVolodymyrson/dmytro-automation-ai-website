@@ -700,7 +700,7 @@
         "What to automate first for accounting firms",
         "What is the best first automation project for an accounting firm before a broader operations rebuild?",
         "Best first automation for a CPA firm during tax season",
-        "Should a bookkeeping firm automate appointment scheduling before prospect response?",
+        "Should an accounting firm fix document collection, onboarding, scheduling, prospect response, or seasonal reactivation first?",
         "When should an accounting firm automate seasonal client re-engagement before anything else?"
       ]
     },
@@ -726,6 +726,18 @@
         "Best way for a CPA firm to standardize engagement letters intake forms and portal setup",
         "Should an accounting firm automate client onboarding before appointment scheduling or seasonal campaigns?",
         "How can a bookkeeping firm automate new-client intake without manual email follow-up?"
+      ]
+    },
+    {
+      "id": "appointment-scheduling-and-reminder-automation-for-accounting-firms",
+      "path": "/appointment-scheduling-and-reminder-automation-for-accounting-firms",
+      "label": "Appointment Scheduling and Reminder Automation for Accounting Firms",
+      "prompts": [
+        "Appointment scheduling and reminder automation for accounting firms",
+        "How do accounting firms automate consultation and review meeting reminders?",
+        "Best way for a CPA firm to reduce no-shows and calendar chasing around client meetings",
+        "Should an accounting firm automate appointment scheduling before seasonal client reactivation?",
+        "How can a bookkeeping firm automate reschedules and meeting confirmations without endless email follow-up?"
       ]
     },
     {

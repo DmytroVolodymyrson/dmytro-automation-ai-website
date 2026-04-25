@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `client-onboarding-automation-for-accounting-firms` after reconciling GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The clearest remaining high-confidence child page was still inside the live accounting cluster: a post-sale onboarding page focused on engagement-letter delivery, intake forms, portal setup, kickoff scheduling, and first-step handoff — distinct from both the broader accounting operations page and the narrower document-collection child.)
+Last updated: 2026-04-25 (shipped `appointment-scheduling-and-reminder-automation-for-accounting-firms` after reconciling GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The clearest remaining high-confidence child page was still inside the live accounting cluster: a booked-meeting workflow page focused on consultation, kickoff, and review-call confirmations, reminder timing, reschedule routing, and cleaner owner handoff — distinct from both the broader accounting operations page and the newer onboarding child.)
 
 ## Live GEO Assets
 
@@ -80,6 +80,7 @@ Last updated: 2026-04-24 (shipped `client-onboarding-automation-for-accounting-f
 | Document Collection Automation for Accounting Firms | `/document-collection-automation-for-accounting-firms` | Accounting document-intake workflow page | Live |
 | Client Onboarding Automation for Accounting Firms | `/client-onboarding-automation-for-accounting-firms` | Accounting post-sale onboarding workflow page | Live |
 | What to Automate First for Accounting Firms | `/what-to-automate-first-for-accounting-firms` | Accounting first-project scoping page | Live |
+| Appointment Scheduling and Reminder Automation for Accounting Firms | `/appointment-scheduling-and-reminder-automation-for-accounting-firms` | Accounting booked-meeting scheduling workflow page | Live |
 | AI Automation for Plumbing Companies | `/ai-automation-for-plumbing-companies` | Industry page | Live |
 | What to Automate First for Plumbing Companies | `/what-to-automate-first-for-plumbing-companies` | Plumbing first-project scoping page | Live |
 | AI Lead Follow-Up for Plumbing Companies | `/ai-lead-follow-up-for-plumbing-companies` | Plumbing early-funnel lead-response workflow page | Live |
@@ -294,20 +295,20 @@ Last updated: 2026-04-24 (shipped `client-onboarding-automation-for-accounting-f
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 267**
+**Total decision/comparison/industry pages live: 268**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/client-onboarding-automation-for-accounting-firms` proves the accounting cluster still had one more clean post-sale child left after document collection. The next run should still re-audit the broader backlog instead of forcing another accounting page by inertia. If a same-cluster follow-on survives that audit, it should be because a clearly different booked-meeting or seasonal-return workflow still stands on its own — not because the site just shipped another accounting child and kept the cluster alive automatically.
+Shipping `/appointment-scheduling-and-reminder-automation-for-accounting-firms` proves the accounting cluster still had one more clean booked-meeting child left after onboarding and document collection. The next run should still re-audit the broader backlog instead of forcing another accounting page by inertia. If a same-cluster follow-on survives that audit, it should be because a clearly different seasonal reactivation or early-funnel prospect-response workflow still stands on its own — not because the site just shipped another accounting child and kept the cluster alive automatically.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Watchlist** | Fresh repo-wide reconciliation across broader planning docs, live clusters, and tracked prompts | Owners asking a still-clean workflow or economic decision question not yet isolated on the live site | Accounting onboarding was the clearest high-confidence ship that survived this run. The next run should re-check the full backlog before assuming another accounting workflow page still beats every other cluster. | **Best current next step** |
-| 2 | **P1** | `appointment-scheduling-and-reminder-automation-for-accounting-firms` only if the next reconciliation still confirms a clean booked-meeting layer | Accounting-firm owners asking how to reduce back-and-forth around consults, tax-prep calls, review meetings, reminders, and reschedules after interest or onboarding is already real | This would stay distinct from the broader accounting parent, the new onboarding child, and the document-collection child by focusing on booked-meeting coordination instead of post-sale intake or missing-file reminders. It should only ship if the next audit still prefers it over a cleaner opportunity elsewhere. | **Same-cluster fallback only after reconciliation** |
-| 3 | **Watchlist** | Narrow proof-led child page from another cluster surfaced by the next full reconciliation | Owners asking a commercially specific workflow or decision question that is still distinct from the live site | If another cluster exposes a cleaner opportunity than an accounting scheduling child, prefer that over same-cluster inertia. | **After reconciliation** |
+| 1 | **Watchlist** | Fresh repo-wide reconciliation across broader planning docs, live clusters, and tracked prompts | Owners asking a still-clean workflow or economic decision question not yet isolated on the live site | Accounting scheduling was the clearest high-confidence ship that survived this run. The next run should re-check the full backlog before assuming another accounting workflow page still beats every other cluster. | **Best current next step** |
+| 2 | **P1** | `seasonal-client-reactivation-for-accounting-firms` only if the next reconciliation still confirms a clean dormant-client / pre-season outreach layer | Accounting-firm owners asking how to bring past tax, bookkeeping, or advisory clients back before deadlines and planning windows | This would stay distinct from the broader accounting parent and the newer onboarding / scheduling children by focusing on returning-client outreach instead of post-sale intake or booked-meeting coordination. It should only ship if the next audit still prefers it over a cleaner opportunity elsewhere. | **Same-cluster fallback only after reconciliation** |
+| 3 | **Watchlist** | Narrow proof-led child page from another cluster surfaced by the next full reconciliation | Owners asking a commercially specific workflow or decision question that is still distinct from the live site | If another cluster exposes a cleaner opportunity than an accounting seasonal-reactivation child, prefer that over same-cluster inertia. | **After reconciliation** |
 
 ### Priority Definitions
 

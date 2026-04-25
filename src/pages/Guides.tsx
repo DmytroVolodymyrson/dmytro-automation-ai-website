@@ -869,6 +869,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Appointment Scheduling and Reminder Automation for Accounting Firms",
+    description:
+      "A narrower accounting workflow page focused on consultation, kickoff, and review meeting confirmations, reminder timing, reschedule routing, and fewer preventable no-shows once the meeting is already close to happening.",
+    href: "/appointment-scheduling-and-reminder-automation-for-accounting-firms",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Plumbing Companies",
     description:
       "AI automation for plumbing companies. Missed call text-back, lead follow-up, appointment scheduling, estimate follow-up, and review automation.",
