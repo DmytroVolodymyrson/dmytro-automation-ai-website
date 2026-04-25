@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `review-request-automation-for-plumbing-companies` after reconciling GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The fresh audit confirmed the plumbing cluster still had one clean post-job reputation child left: the broad parent already names review automation, the first-project page already isolates review requests as a bounded later-stage decision, and the live child set still lacked a page focused specifically on review timing, unhappy-reply routing, and office handoff after completed plumbing jobs.)
+Last updated: 2026-04-25 (shipped `recall-and-reactivation-automation-for-dental-practices` after reconciling GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The fresh audit confirmed the dental cluster still had one clean retention child left: the broad parent already names recall/reactivation, the first-project page already isolates it as a bounded buyer decision, and the live child set still lacked a page focused specifically on overdue hygiene, exam, and unscheduled-treatment recovery.)
 
 ## Live GEO Assets
 
@@ -74,6 +74,7 @@ Last updated: 2026-04-25 (shipped `review-request-automation-for-plumbing-compan
 | What to Automate First for Mortgage Brokers | `/what-to-automate-first-for-mortgage-brokers` | Mortgage first-project scoping page | Live |
 | AI Automation for Dental Practices | `/ai-automation-for-dental-practices` | Industry page | Live |
 | What to Automate First for Dental Practices | `/what-to-automate-first-for-dental-practices` | Dental first-project scoping page | Live |
+| Recall and Reactivation Automation for Dental Practices | `/recall-and-reactivation-automation-for-dental-practices` | Dental retention workflow page | Live |
 | AI Automation for Law Firms | `/ai-automation-for-law-firms` | Industry page | Live |
 | What to Automate First for Law Firms | `/what-to-automate-first-for-law-firms` | Law-firm first-project scoping page | Live |
 | AI Automation for Accounting Firms | `/ai-automation-for-accounting-firms` | Industry page | Live |
@@ -302,18 +303,18 @@ Last updated: 2026-04-25 (shipped `review-request-automation-for-plumbing-compan
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 275**
+**Total decision/comparison/industry pages live: 276**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/review-request-automation-for-plumbing-companies` closes the cleanest remaining post-job reputation child that still survived inside the plumbing cluster. The next run should start with another broad repo-wide reconciliation instead of forcing a second plumbing child by inertia. The strongest current fallback appears to be a still-unshipped dental recall / reactivation page: the live dental parent and first-project page already isolate overdue-patient recall as one of the core workflow families, but the dental cluster still has no dedicated child page focused specifically on bringing overdue hygiene, exam, and unscheduled-treatment patients back before that revenue disappears.
+Shipping `/recall-and-reactivation-automation-for-dental-practices` closes the cleanest remaining retention child that still survived inside the dental cluster. The next run should go back to a broad planned-backlog reconciliation instead of forcing another dental child by inertia. After this ship, there is no single repo-wide fallback page already locked with the same confidence as the dental recall child; the safest next move is to re-audit the broader commercial backlog across GEO-PLAN.md, docs/geo-plan-2026-03.md, docs/programmatic-seo-pattern-matrix.md, current live routes/pages, and scripts/geo-prompts.json, then pick the next truly unshipped non-duplicate page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Watchlist** | Dental Recall and Reactivation Automation | Practice owners asking how to bring overdue hygiene, exam, and unscheduled-treatment patients back without manual front-desk chasing | The live dental parent plus first-project page already frame recall/reactivation as a distinct buyer decision, and the cluster still lacks any dedicated dental child page despite strong adjacent reactivation proof elsewhere on the site. | **Best current fallback after fresh reconciliation** |
+| 1 | **Watchlist** | Fresh broad reconciliation of remaining generic and cluster backlog | Re-check the highest-value remaining planned gaps before defaulting to another cluster child | The strongest explicit fallback just shipped, and the remaining planning docs now need another repo-wide pass to distinguish genuinely unshipped pages from already-live pages, renamed equivalents, and stale backlog wording. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 

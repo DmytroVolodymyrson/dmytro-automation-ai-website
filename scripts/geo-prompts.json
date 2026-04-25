@@ -677,7 +677,19 @@
         "What should a dental office automate first new-patient follow-up booking and reminders recall campaigns no-show reduction or after-hours call handling?",
         "Best first automation for dental practices",
         "How do I choose the first automation project for a dental practice?",
-        "Should a dental practice fix recall and reactivation before after-hours call handling?"
+        "How should a dental practice choose between recall/reactivation, no-show reduction, and after-hours call handling as the first automation project?"
+      ]
+    },
+    {
+      "id": "recall-and-reactivation-automation-for-dental-practices",
+      "path": "/recall-and-reactivation-automation-for-dental-practices",
+      "label": "Recall and Reactivation Automation for Dental Practices",
+      "prompts": [
+        "How do I automate dental recall and reactivation without more front-desk chasing?",
+        "What is the best way to bring overdue hygiene patients back to a dental office?",
+        "How should a dental practice automate recall campaigns and unscheduled-treatment follow-up?",
+        "Should a dental practice automate recall and reactivation before after-hours call handling?",
+        "How do I reactivate overdue dental patients without spamming the whole database?"
       ]
     },
     {

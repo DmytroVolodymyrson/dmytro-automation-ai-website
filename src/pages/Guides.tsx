@@ -827,6 +827,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Recall and Reactivation Automation for Dental Practices",
+    description:
+      "Bring overdue hygiene, exam, and unscheduled-treatment patients back with interval-based reminders, lapse recovery, and cleaner front-desk handoff.",
+    href: "/recall-and-reactivation-automation-for-dental-practices",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Law Firms",
     description:
       "AI automation for law firms. Client intake, consultation booking, lead follow-up, and case status updates. What works for small to mid-size practices.",
