@@ -1024,8 +1024,20 @@
         "Review request automation for insurance agencies",
         "How do insurance agencies automate review requests after policy wins or resolved service moments?",
         "Best way for an insurance agency to ask happy clients for Google reviews without sounding pushy",
-        "Should an insurance agency automate review requests before building a broader referral campaign?",
+        "When should an insurance agency ask for reviews after a policy is bound or a service issue is resolved?",
         "Insurance review request workflow for independent agencies"
+      ]
+    },
+    {
+      "id": "referral-request-automation-for-insurance-agencies",
+      "path": "/referral-request-automation-for-insurance-agencies",
+      "label": "Referral Request Automation for Insurance Agencies",
+      "prompts": [
+        "Referral request automation for insurance agencies",
+        "How do insurance agencies ask happy clients for referrals automatically?",
+        "Best way for an insurance agency to separate referral asks from review requests",
+        "Should an insurance agency automate referral requests after a policy binds or a service issue is resolved?",
+        "When should an independent insurance agency ask for referrals from satisfied clients?"
       ]
     },
     {

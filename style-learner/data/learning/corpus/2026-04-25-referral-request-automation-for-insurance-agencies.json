@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-25-referral-request-automation-for-insurance-agencies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-25",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "### Hero\nHeading: Referral Request Automation for Insurance Agencies\nBody: Independent insurance agencies usually say referrals are their best leads, then handle the referral ask with no system at all. A policy gets bound. A claims or service issue gets resolved cleanly. A renewal save goes through. The client is relieved, trust is high, and then nobody follows up with a practical referral ask while that goodwill is still real. Or the agency bundles a review ask, a referral ask, and another marketing touch into one awkward message that sounds more like a campaign than a real client follow-up. Referral request automation for insurance agencies fixes that narrower advocacy workflow. It gives the agency a believable moment to ask, keeps referral asks separate from review asks, routes warm introductions back to a producer or account manager fast, and turns completed client moments into cleaner word-of-mouth follow-through instead of hoping referrals just happen on their own.\nSub: Below: what a practical insurance referral workflow should actually handle, how it stays distinct from review requests and the broader insurance page, what guardrails matter most, and what proof honestly supports the page without pretending there is already a published insurance-specific referral-automation case study on the site.\n\n### Core sections\n- What insurance referral-request automation should actually handle\n- How this page stays distinct inside the insurance cluster\n- Is this a good fit for your agency?\n- Guardrails that keep insurance referral automation useful instead of awkward\n- How a practical insurance referral workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical answers for insurance agencies considering a cleaner referral workflow after a policy or service moment is complete\nTopics: how this differs from review-request automation, when an insurance agency should ask for referrals, whether referral asks should happen after every policy event, what a focused insurance referral workflow usually costs, and where the ROI actually comes from.\n\n### Final CTA\nHeading: Want your happiest insurance clients to produce more real introductions?\nBody: Book a 30-minute call. We will look at how your agency handles post-bind and post-service follow-up today, where referral opportunities are getting lost, and whether a focused referral workflow, a review-timing fix, or an earlier quote / renewal problem is the smarter next build.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after broad backlog reconciliation showed a clean remaining insurance child: the narrower referral-request layer already implied by the live insurance parent and by the review-request page's prior prompt framing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on advocacy after a completed client moment: referral timing, separate review-vs-referral asks, and fast producer / account-manager handoff when a client introduces someone."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live insurance parent, the insurance review-request child, and the published e-commerce CRM case study as honest adjacent proof without claiming an insurance-specific referral case study already exists."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fit / not-fit framing, guardrails against awkward bundled asks, and clear separation from quote follow-up, renewals, cross-sell, reviews, and broader client communication."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-25T18:26:33.108Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        9,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 24.9,
+      "sentenceLengthRange": [
+        4,
+        59
+      ],
+      "totalWords": 374
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Referral Request Automation for Insurance Agencies\nBody: Independent insurance agencies usually say referrals are their best leads, then handle the referral ask with no system at all.",
+      "wordCount": 29,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want your happiest insurance clients to produce more real introductions?\nBody: Book a 30-minute call. We will look at how your agency handles post-bind and post-service follow-up today, where referral opportunities are getting lost, and whether a focused referral workflow, a review-timing fix, or an earlier quote / renewal problem is the smarter next build.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 12,
+      "commas": 19,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.36
+    },
+    "vocabulary": {
+      "distinctWords": 191,
+      "totalWords": 374,
+      "topWords": [
+        [
+          "referral",
+          14
+        ],
+        [
+          "insurance",
+          13
+        ],
+        [
+          "ask",
+          6
+        ],
+        [
+          "workflow",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "agency",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "agencies",
+          4
+        ],
+        [
+          "practical",
+          4
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "page",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

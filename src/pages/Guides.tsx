@@ -1198,6 +1198,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Referral Request Automation for Insurance Agencies",
+    description:
+      "A narrower insurance advocacy page focused on referral timing after positive policy or service moments, separate review-vs-referral asks, and fast producer handoff when a happy client names another opportunity.",
+    href: "/referral-request-automation-for-insurance-agencies",
+    category: "industries",
+  },
+  {
     title: "After-Hours Inquiry Handling for Insurance Agencies",
     description:
       "A narrower insurance communication page focused on missed calls, after-hours quote requests, off-hours client questions, urgency-based routing, and cleaner morning handoff when the office is closed.",

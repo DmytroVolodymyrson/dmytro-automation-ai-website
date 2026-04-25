@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `referral-request-automation-for-painting-contractors` after broad backlog reconciliation. The live painting parent and client-reactivation child were already carrying explicit referral intent, but the cluster still lacked a page that isolated the narrower post-job referral ask from both dormant-client reactivation and review timing. This new child owns the advocacy / referral-request layer instead of stretching the reactivation page into another mixed retention catch-all. With that mature painting-cluster referral workflow now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster painting page by inertia.)
+Last updated: 2026-04-25 (shipped `referral-request-automation-for-insurance-agencies` after broad backlog reconciliation. The live insurance parent already named reviews and referrals as one workflow family, and the insurance review-request child had been carrying an explicit broader-referral prompt, but the cluster still lacked a page that isolated the narrower advocacy / introduction ask from public-review timing. This new child now owns the post-service referral-request layer instead of stretching the review page into mixed trust-plus-advocacy intent. With that insurance referral workflow now live beside the parent, first-project, lead, quote, renewal, cross-sell, review, and phone pages, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster insurance page by inertia.)
 
 ## Live GEO Assets
 
@@ -143,6 +143,7 @@ Last updated: 2026-04-25 (shipped `referral-request-automation-for-painting-cont
 | Quote Follow-Up Automation for Insurance Agencies | `/quote-follow-up-automation-for-insurance-agencies` | Industry workflow page | Live |
 | Cross-Sell Automation for Insurance Agencies | `/cross-sell-automation-for-insurance-agencies` | Industry workflow page | Live |
 | Review Request Automation for Insurance Agencies | `/review-request-automation-for-insurance-agencies` | Insurance post-service reputation workflow page | Live |
+| Referral Request Automation for Insurance Agencies | `/referral-request-automation-for-insurance-agencies` | Insurance post-service advocacy workflow page | Live |
 | After-Hours Inquiry Handling for Insurance Agencies | `/after-hours-inquiry-handling-for-insurance-agencies` | Insurance overnight communication workflow page | Live |
 | AI Phone Answering for Insurance Agencies | `/ai-phone-answering-for-insurance-agencies` | Insurance live-phone-coverage workflow page | Live |
 | AI Phone Answering vs. Voicemail for Insurance Agencies | `/ai-phone-answering-vs-voicemail-for-insurance-agencies` | Insurance phone-fallback decision page | Live |
@@ -328,18 +329,18 @@ Last updated: 2026-04-25 (shipped `referral-request-automation-for-painting-cont
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 301**
+**Total decision/comparison/industry pages live: 302**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/referral-request-automation-for-painting-contractors` extracts the narrower post-job advocacy layer that the live painting parent and the existing painting reactivation child were already implying, but without collapsing it back into either dormant-client recovery or review timing. The mature painting cluster already had the broad parent, first-project scoping page, lead follow-up, estimate recovery, client reactivation, review-request, and the full phone layer live; this new child now owns the explicit referral-request decision. With that mature painting-cluster advocacy page now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster painting page by inertia.
+Shipping `/referral-request-automation-for-insurance-agencies` extracts the narrower advocacy layer that the live insurance parent and the existing insurance review-request child were already implying, but without collapsing it back into either public-review timing or the broader revenue / retention pages. The mature insurance cluster now has the broad parent, first-project scoping page, lead follow-up, quote follow-up, renewal reminders, cross-sell, review requests, referral requests, and the phone layer live. With that insurance advocacy page now shipped, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster insurance page by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the mature painting cluster still automatically owns the next run now that its referral-request child is live beside reactivation, review, and the phone pages. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the mature insurance cluster still automatically owns the next run now that its referral-request child is live beside review requests, cross-sell, renewals, and the phone pages. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 
