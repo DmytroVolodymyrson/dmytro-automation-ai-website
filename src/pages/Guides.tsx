@@ -876,6 +876,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering vs. Voicemail for Dental Practices",
+    description:
+      "Decision guide for dental practices choosing between live AI phone coverage and voicemail callbacks, with a practical view of booking urgency, front-desk workload, after-hours demand, and when a lighter callback layer is enough.",
+    href: "/ai-phone-answering-vs-voicemail-for-dental-practices",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Law Firms",
     description:
       "AI automation for law firms. Client intake, consultation booking, lead follow-up, and case status updates. What works for small to mid-size practices.",

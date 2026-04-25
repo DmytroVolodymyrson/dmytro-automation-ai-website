@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `repeat-purchase-reactivation-automation-for-auto-parts-ecommerce` after broad backlog reconciliation. The live auto-parts parent already exposed post-purchase and replenishment as a distinct workflow family, and the cluster still lacked the vertical child specifically for reorder timing and dormant-customer recovery. With that lifecycle page now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster auto-parts page by inertia.)
+Last updated: 2026-04-25 (shipped `ai-phone-answering-vs-voicemail-for-dental-practices` after broad backlog reconciliation. The live dental phone-coverage child already tracked the exact voicemail-vs-live-answering buyer question, and the cluster still lacked that narrower decision page even though adjacent dental proof and the generic phone-answering proof were already live. With that dental comparison now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster dental phone page by inertia.)
 
 ## Live GEO Assets
 
@@ -81,6 +81,7 @@ Last updated: 2026-04-25 (shipped `repeat-purchase-reactivation-automation-for-a
 | No-Show Reduction Automation for Dental Practices | `/no-show-reduction-automation-for-dental-practices` | Dental attendance-protection workflow page | Live |
 | Review Request Automation for Dental Practices | `/review-request-automation-for-dental-practices` | Dental post-visit reputation workflow page | Live |
 | AI Phone Answering for Dental Practices | `/ai-phone-answering-for-dental-practices` | Dental live-phone-coverage workflow page | Live |
+| AI Phone Answering vs. Voicemail for Dental Practices | `/ai-phone-answering-vs-voicemail-for-dental-practices` | Dental phone-fallback decision page | Live |
 | AI Automation for Law Firms | `/ai-automation-for-law-firms` | Industry page | Live |
 | What to Automate First for Law Firms | `/what-to-automate-first-for-law-firms` | Law-firm first-project scoping page | Live |
 | AI Lead Follow-Up for Law Firms | `/ai-lead-follow-up-for-law-firms` | Law-firm early-funnel lead-response workflow page | Live |
@@ -323,18 +324,18 @@ Last updated: 2026-04-25 (shipped `repeat-purchase-reactivation-automation-for-a
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 296**
+**Total decision/comparison/industry pages live: 297**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/repeat-purchase-reactivation-automation-for-auto-parts-ecommerce` extracts the post-purchase lifecycle gap that was already exposed inside the live auto-parts parent page: the cluster had fresh-inquiry, quote-stage, and stale-lead recovery coverage, but it still lacked the narrower buyer guide for reorder timing and dormant-customer recovery after the first sale. With that child now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster auto-parts page by inertia.
+Shipping `/ai-phone-answering-vs-voicemail-for-dental-practices` extracts the exact buyer decision that was already sitting inside the live dental phone-answering page's tracked prompts: whether a practice has truly outgrown voicemail and delayed callbacks enough to justify live AI coverage. The broader dental cluster already had first-project, early-funnel, booking, recall, no-show, review, and live-answering pages, so this narrower comparison was the clearest distinct child still missing. With that phone-fallback decision now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster dental phone page by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the auto-parts cluster still automatically owns the next run now that the post-purchase lifecycle child has shipped. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the dental phone cluster still automatically owns the next run now that the voicemail-vs-live-answering child has shipped. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 

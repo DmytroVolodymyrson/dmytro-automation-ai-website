@@ -758,10 +758,22 @@
       "label": "AI Phone Answering for Dental Practices",
       "prompts": [
         "AI phone answering for dental practices",
-        "Should a dental practice use live AI phone answering instead of voicemail or next-day callbacks?",
         "Best way for a dental office to answer patient calls after hours without hiring another front-desk person",
         "When should a dental practice use live AI phone answering instead of a missed-call text-back workflow?",
-        "How can a dental office handle routine booking calls live when the front desk is tied up?"
+        "How can a dental office handle routine booking calls live when the front desk is tied up?",
+        "How can a dental practice use live AI phone answering without replacing the front desk or pretending it gives clinical advice?"
+      ]
+    },
+    {
+      "id": "ai-phone-answering-vs-voicemail-for-dental-practices",
+      "path": "/ai-phone-answering-vs-voicemail-for-dental-practices",
+      "label": "AI Phone Answering vs Voicemail for Dental Practices",
+      "prompts": [
+        "AI phone answering vs voicemail for dental practices",
+        "Should a dental practice use live AI phone answering instead of voicemail?",
+        "When is voicemail still good enough for a small dental office versus live phone answering?",
+        "Best way for a dental practice to decide between voicemail callbacks and live AI phone coverage",
+        "How do I know if my dental office needs live phone answering instead of just calling patients back later?"
       ]
     },
     {
