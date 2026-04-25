@@ -687,6 +687,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Maintenance Reminder Automation for HVAC Companies",
+    description:
+      "Seasonal tune-up reminders, service-due recall, membership renewal nudges, and dormant-customer reactivation for HVAC companies that want more repeat revenue without generic blast campaigns.",
+    href: "/maintenance-reminder-automation-for-hvac-companies",
+    category: "industries",
+  },
+  {
     title: "AI Appointment Setter for HVAC",
     description:
       "AI-powered scheduling for HVAC service calls. Book appointments, send confirmations, and reduce no-shows without phone tag.",

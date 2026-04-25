@@ -357,6 +357,18 @@
       ]
     },
     {
+      "id": "maintenance-reminder-automation-for-hvac-companies",
+      "path": "/maintenance-reminder-automation-for-hvac-companies",
+      "label": "Maintenance Reminder Automation for HVAC Companies",
+      "prompts": [
+        "Maintenance reminder automation for HVAC companies",
+        "How do HVAC companies automate seasonal tune-up reminders?",
+        "Best way to reactivate past HVAC maintenance customers before spring or fall rush",
+        "Should an HVAC company automate maintenance-plan renewal and service-due reminders?",
+        "How can an HVAC company bring old maintenance customers back without sending generic blasts?"
+      ]
+    },
+    {
       "id": "hire-ai-automation-consultant-vs-agency",
       "path": "/hire-ai-automation-consultant-vs-agency",
       "label": "Hire an AI Automation Consultant vs Agency",
