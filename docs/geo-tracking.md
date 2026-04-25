@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 262 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 263 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -47,7 +47,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **What Does an AI Automation Consultant Actually Do?** — `/what-does-an-ai-automation-consultant-do`
 - **What Processes Can AI Automate in My Business?** — `/what-processes-can-ai-automate-in-my-business`
 
-### Workflow + solution pages (43)
+### Workflow + solution pages (44)
 - **After-Hours Lead Capture** — `/after-hours-lead-capture-for-service-businesses`
 - **AI Appointment Setter** — `/ai-appointment-setter`
 - **AI Appointment Setter Cost for Small Business** — `/ai-appointment-setter-cost-small-business`
@@ -227,6 +227,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Recurring Cleaning Scheduling and Reminder Automation for Cleaning Companies** — `/recurring-cleaning-scheduling-and-reminder-automation-for-cleaning-companies`
 - **Quote Follow-Up Automation for Insurance Agencies** — `/quote-follow-up-automation-for-insurance-agencies`
 - **Recall and Reactivation Automation for Dental Practices** — `/recall-and-reactivation-automation-for-dental-practices`
+- **No-Show Reduction Automation for Dental Practices** — `/no-show-reduction-automation-for-dental-practices`
 - **Real Estate Lead Response and Follow-Up Automation** — `/real-estate-lead-response-and-follow-up-automation`
 - **Recurring Service Reminder Automation for Pest Control Companies** — `/recurring-service-reminder-automation-for-pest-control-companies`
 - **Recurring Service Scheduling and Reminder Automation for Landscaping Companies** — `/recurring-service-scheduling-and-reminder-automation-for-landscaping-companies`

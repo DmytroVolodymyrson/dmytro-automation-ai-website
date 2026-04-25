@@ -73,6 +73,7 @@ import WhatToAutomateFirstForMortgageBrokers from "./pages/WhatToAutomateFirstFo
 import AiAutomationForDentalPractices from "./pages/AiAutomationForDentalPractices";
 import WhatToAutomateFirstForDentalPractices from "./pages/WhatToAutomateFirstForDentalPractices";
 import RecallAndReactivationAutomationForDentalPractices from "./pages/RecallAndReactivationAutomationForDentalPractices";
+import NoShowReductionAutomationForDentalPractices from "./pages/NoShowReductionAutomationForDentalPractices";
 import AiAutomationForLawFirms from "./pages/AiAutomationForLawFirms";
 import WhatToAutomateFirstForLawFirms from "./pages/WhatToAutomateFirstForLawFirms";
 import AiLeadFollowUpForLawFirms from "./pages/AiLeadFollowUpForLawFirms";
@@ -403,6 +404,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-for-dental-practices", element: <AiAutomationForDentalPractices /> },
   { path: "/what-to-automate-first-for-dental-practices", element: <WhatToAutomateFirstForDentalPractices /> },
   { path: "/recall-and-reactivation-automation-for-dental-practices", element: <RecallAndReactivationAutomationForDentalPractices /> },
+  { path: "/no-show-reduction-automation-for-dental-practices", element: <NoShowReductionAutomationForDentalPractices /> },
   { path: "/ai-automation-for-law-firms", element: <AiAutomationForLawFirms /> },
   { path: "/what-to-automate-first-for-law-firms", element: <WhatToAutomateFirstForLawFirms /> },
   { path: "/ai-lead-follow-up-for-law-firms", element: <AiLeadFollowUpForLawFirms /> },

@@ -693,6 +693,18 @@
       ]
     },
     {
+      "id": "no-show-reduction-automation-for-dental-practices",
+      "path": "/no-show-reduction-automation-for-dental-practices",
+      "label": "No-Show Reduction Automation for Dental Practices",
+      "prompts": [
+        "No-show reduction automation for dental practices",
+        "How can a dental practice reduce no-shows without more front-desk chasing?",
+        "Best way to automate appointment confirmations and late-cancel recovery for a dental office",
+        "Should a dental practice automate no-show reduction before after-hours call handling?",
+        "How do dental offices confirm appointments, handle reschedules, and recover missed visits without manual reminder chaos?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-law-firms",
       "path": "/what-to-automate-first-for-law-firms",
       "label": "What to Automate First for Law Firms",

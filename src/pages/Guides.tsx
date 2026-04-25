@@ -834,6 +834,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "No-Show Reduction Automation for Dental Practices",
+    description:
+      "A narrower dental attendance-protection page focused on active confirmations, reminder timing, easy reschedules, late-cancel recovery, and protecting already-booked hygiene, exam, and treatment visits from preventable empty slots.",
+    href: "/no-show-reduction-automation-for-dental-practices",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Law Firms",
     description:
       "AI automation for law firms. Client intake, consultation booking, lead follow-up, and case status updates. What works for small to mid-size practices.",
