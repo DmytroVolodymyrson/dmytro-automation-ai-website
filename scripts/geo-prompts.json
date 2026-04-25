@@ -1185,6 +1185,18 @@
       ]
     },
     {
+      "id": "owner-reporting-automation-for-property-management-companies",
+      "path": "/owner-reporting-automation-for-property-management-companies",
+      "label": "Owner Reporting Automation for Property Management Companies",
+      "prompts": [
+        "Owner reporting automation for property management companies",
+        "How do property managers automate owner reports and portfolio updates?",
+        "Best way to automate monthly owner reports for a property management company",
+        "Can a property management company automate owner communication without making reports feel generic?",
+        "What should owner-reporting automation include for a property management company?"
+      ]
+    },
+    {
       "id": "ai-automation-ecommerce",
       "path": "/ai-automation-ecommerce",
       "label": "AI Automation for E-Commerce Brands",

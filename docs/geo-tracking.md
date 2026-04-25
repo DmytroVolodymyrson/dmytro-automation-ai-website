@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 280 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 281 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -100,7 +100,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Automation Consultant Calgary** — `/ai-automation-consultant-calgary`
 - **AI Automation Consultant Edmonton** — `/ai-automation-consultant-edmonton`
 
-### Industry + vertical pages (173)
+### Industry + vertical pages (175)
 - **After-Hours AI Phone Answering vs. Voicemail for Restaurants** — `/after-hours-ai-phone-answering-vs-voicemail-for-restaurants`
 - **After-Hours Maintenance Triage for Property Management Companies** — `/after-hours-maintenance-triage-for-property-management-companies`
 - **After-Hours Phone Answering for Restaurants** — `/after-hours-phone-answering-for-restaurants`
@@ -171,6 +171,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Document Collection Automation for Accounting Firms** — `/document-collection-automation-for-accounting-firms`
 - **Document Collection Automation for Mortgage Brokers** — `/document-collection-automation-for-mortgage-brokers`
 - **Emergency vs. Routine Maintenance Intake for Property Management Companies** — `/emergency-vs-routine-maintenance-intake-for-property-management-companies`
+- **Owner Reporting Automation for Property Management Companies** — `/owner-reporting-automation-for-property-management-companies`
 - **Estimate Follow-Up Automation for Auto Repair Shops** — `/estimate-follow-up-automation-for-auto-repair-shops`
 - **Estimate Follow-Up Automation for Contractors** — `/estimate-follow-up-automation-for-contractors`
 - **Estimate Follow-Up Automation for Landscaping Companies** — `/estimate-follow-up-automation-for-landscaping-companies`

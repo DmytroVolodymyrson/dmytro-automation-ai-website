@@ -1289,6 +1289,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Owner Reporting Automation for Property Management Companies",
+    description:
+      "A narrower property-management owner-communication page focused on monthly owner reports, exception updates, portfolio visibility, and cleaner manager handoff when owners need context instead of another spreadsheet delay.",
+    href: "/owner-reporting-automation-for-property-management-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for E-Commerce Brands",
     description:
       "AI automation for e-commerce brands. CRM organization, lead follow-up, customer service routing, reactivation campaigns, and repeat-purchase workflows.",

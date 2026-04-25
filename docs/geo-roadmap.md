@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `ai-phone-answering-vs-voicemail-for-insurance-agencies` after broad backlog reconciliation. The live insurance phone-answering child still carried the exact buyer query — whether an agency should keep relying on voicemail and callbacks or move to live AI phone answering — while the broader insurance cluster, the lighter after-hours child, and generic phone-answering proof were already live. With that insurance phone-fallback decision page now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster insurance phone page by inertia.)
+Last updated: 2026-04-25 (shipped `owner-reporting-automation-for-property-management-companies` after broad backlog reconciliation. The live property-management parent still explicitly named owner communication and reporting as a core workflow family while the rest of the cluster already covered maintenance intake, lease renewals, showing coordination, tenant communication, onboarding, and after-hours triage. This new child isolates the owner-facing reporting layer instead of stretching the parent page into a generic rewrite. With that property-management owner-reporting workflow now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster property-management page by inertia.)
 
 ## Live GEO Assets
 
@@ -156,6 +156,7 @@ Last updated: 2026-04-25 (shipped `ai-phone-answering-vs-voicemail-for-insurance
 | After-Hours Tenant Communication for Property Management Companies | `/after-hours-tenant-communication-for-property-management-companies` | Property-management overnight communication workflow page | Live |
 | After-Hours Maintenance Triage for Property Management Companies | `/after-hours-maintenance-triage-for-property-management-companies` | Property-management overnight maintenance triage workflow page | Live |
 | Emergency vs. Routine Maintenance Intake for Property Management Companies | `/emergency-vs-routine-maintenance-intake-for-property-management-companies` | Property-management maintenance-intake decision page | Live |
+| Owner Reporting Automation for Property Management Companies | `/owner-reporting-automation-for-property-management-companies` | Property-management owner-reporting workflow page | Live |
 | AI Automation for E-Commerce Brands | `/ai-automation-ecommerce` | Industry page | Live |
 | What to Automate First for E-Commerce Brands | `/what-to-automate-first-for-ecommerce-brands` | E-commerce first-project scoping page | Live |
 | AI Automation for Auto Parts E-Commerce | `/ai-automation-for-auto-parts-ecommerce` | Industry page | Live |
@@ -326,18 +327,18 @@ Last updated: 2026-04-25 (shipped `ai-phone-answering-vs-voicemail-for-insurance
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 299**
+**Total decision/comparison/industry pages live: 300**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-phone-answering-vs-voicemail-for-insurance-agencies` extracts the remaining clean insurance phone-fallback buyer decision that was still sitting inside the broader live-answering page's tracked prompts. The insurance cluster already had the broad parent, the lighter after-hours child, and the heavier live-answering explainer; this page isolated the missing decision layer instead of stretching the cluster into a generic rewrite. With that insurance voicemail-vs-live-answering decision now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster insurance page by inertia.
+Shipping `/owner-reporting-automation-for-property-management-companies` extracts the remaining clean property-management owner-communication workflow that the broader parent page was already promising but the live child set had not isolated yet. The cluster already had the broad parent, the first-project scoping page, and the narrower maintenance, renewal, showing, onboarding, tenant-communication, and after-hours pages; this new child owns the owner-facing reporting layer instead of turning the parent into a catch-all. With that owner-reporting workflow now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster property-management page by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the insurance phone cluster still automatically owns the next run now that both the heavier explainer and the voicemail decision page are live. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the property-management cluster still automatically owns the next run now that the owner-reporting child is live beside the tenant-facing workflow set. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 

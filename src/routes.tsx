@@ -154,6 +154,7 @@ import TenantCommunicationAutomationForPropertyManagementCompanies from "./pages
 import AfterHoursTenantCommunicationForPropertyManagementCompanies from "./pages/AfterHoursTenantCommunicationForPropertyManagementCompanies";
 import AfterHoursMaintenanceTriageForPropertyManagementCompanies from "./pages/AfterHoursMaintenanceTriageForPropertyManagementCompanies";
 import EmergencyVsRoutineMaintenanceIntakeForPropertyManagementCompanies from "./pages/EmergencyVsRoutineMaintenanceIntakeForPropertyManagementCompanies";
+import OwnerReportingAutomationForPropertyManagementCompanies from "./pages/OwnerReportingAutomationForPropertyManagementCompanies";
 import AiAutomationEcommerce from "./pages/AiAutomationEcommerce";
 import WhatToAutomateFirstForEcommerceBrands from "./pages/WhatToAutomateFirstForEcommerceBrands";
 import AiAutomationForAutoPartsEcommerce from "./pages/AiAutomationForAutoPartsEcommerce";
@@ -501,6 +502,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/after-hours-tenant-communication-for-property-management-companies", element: <AfterHoursTenantCommunicationForPropertyManagementCompanies /> },
   { path: "/after-hours-maintenance-triage-for-property-management-companies", element: <AfterHoursMaintenanceTriageForPropertyManagementCompanies /> },
   { path: "/emergency-vs-routine-maintenance-intake-for-property-management-companies", element: <EmergencyVsRoutineMaintenanceIntakeForPropertyManagementCompanies /> },
+  { path: "/owner-reporting-automation-for-property-management-companies", element: <OwnerReportingAutomationForPropertyManagementCompanies /> },
   { path: "/ai-automation-ecommerce", element: <AiAutomationEcommerce /> },
   { path: "/what-to-automate-first-for-ecommerce-brands", element: <WhatToAutomateFirstForEcommerceBrands /> },
   { path: "/ai-automation-for-auto-parts-ecommerce", element: <AiAutomationForAutoPartsEcommerce /> },
