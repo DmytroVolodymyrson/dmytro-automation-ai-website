@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 251 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 252 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -192,6 +192,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Missed Call Text-Back vs. AI Phone Answering for Home Inspectors** — `/missed-call-text-back-vs-ai-phone-answering-for-home-inspectors`
 - **Missed Call Text-Back vs. AI Phone Answering for HVAC Companies** — `/missed-call-text-back-vs-ai-phone-answering-for-hvac-companies`
 - **Missed Call Text-Back vs. AI Phone Answering for Electrical Contractors** — `/missed-call-text-back-vs-ai-phone-answering-for-electrical-contractors`
+- **Missed Call Text-Back vs. AI Phone Answering for Plumbing Companies** — `/missed-call-text-back-vs-ai-phone-answering-for-plumbing-companies`
 - **Missed Call Text-Back vs. AI Phone Answering for Landscaping Companies** — `/missed-call-text-back-vs-ai-phone-answering-for-landscaping-companies`
 - **Missed Call Text-Back vs. AI Phone Answering for Med Spas** — `/missed-call-text-back-vs-ai-phone-answering-for-med-spas`
 - **Missed Call Text-Back vs. AI Phone Answering for Painting Contractors** — `/missed-call-text-back-vs-ai-phone-answering-for-painting-contractors`

@@ -2872,8 +2872,20 @@
         "Missed call text-back for plumbing companies",
         "How do plumbing companies recover missed service calls before the homeowner calls the next plumber?",
         "Best missed-call text-back workflow for a plumbing company with dispatch and after-hours call gaps",
-        "Should a plumbing company use missed-call text-back before paying for heavier live AI phone answering?",
+        "What should a plumbing missed-call text-back workflow capture before the office calls back?",
         "How should a plumbing company handle missed plumbing calls after hours without relying only on voicemail?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-ai-phone-answering-for-plumbing-companies",
+      "path": "/missed-call-text-back-vs-ai-phone-answering-for-plumbing-companies",
+      "label": "Missed Call Text-Back vs. AI Phone Answering for Plumbing Companies",
+      "prompts": [
+        "Missed call text-back vs AI phone answering for plumbing companies",
+        "Should a plumbing company use missed-call text-back or live AI phone answering?",
+        "When is SMS-first missed-call recovery enough for a plumbing company and when does it need live AI phone coverage?",
+        "What is better for plumbing companies missed-call text-back or live AI phone answering?",
+        "How should a plumbing company choose between a lighter text-back fallback and heavier live phone coverage?"
       ]
     },
     {
@@ -2884,7 +2896,7 @@
         "AI phone answering for plumbing companies",
         "Should a plumbing company use live AI phone answering instead of voicemail or callbacks?",
         "Best way for a plumbing company to answer calls live after hours without hiring another dispatcher",
-        "When should a plumbing company move from missed-call text-back to live AI phone answering?",
+        "What should live AI phone answering handle for a plumbing company versus route back to the office?",
         "How should a plumbing company handle overflow and after-hours service calls when callers need a real answer now?"
       ]
     },
