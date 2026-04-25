@@ -855,6 +855,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Review Request Automation for Dental Practices",
+    description:
+      "Post-visit dental reputation workflow focused on asking for reviews at the right moment, routing unhappy replies back inside first, and turning completed appointments into cleaner local-trust follow-through.",
+    href: "/review-request-automation-for-dental-practices",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Dental Practices",
     description:
       "Live patient-call coverage for dental practices that need after-hours answering, routine booking-question handling, cleaner front-desk handoff, and fewer appointments lost to voicemail or delayed callbacks.",

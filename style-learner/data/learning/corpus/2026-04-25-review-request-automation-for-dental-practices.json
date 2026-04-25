@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-25-review-request-automation-for-dental-practices",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-25",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "### Hero\nHeading: Review Request Automation for Dental Practices\nBody: Dental practices do not only lose revenue when a new-patient inquiry goes cold or when a scheduled visit turns into a no-show. They also lose momentum after the appointment is already done. A patient finishes a hygiene visit, exam, consult, or treatment, seems satisfied enough, and then nobody asks for a review while the experience still feels fresh. Or the request goes out too early, before a post-visit question is answered, before a billing issue is resolved, or before the office knows whether the patient actually felt taken care of. Review request automation for dental practices fixes that narrower post-visit workflow. It helps the practice ask at a believable moment, keeps provider-to-front-desk context attached, and protects reputation by routing uncertain replies back to a human before the system pushes for a public rating.\nSub: Below: what a practical dental review-request workflow should actually handle, how it stays distinct from the rest of the live dental cluster, what guardrails matter most, and what proof honestly supports the page without pretending there is already a dental-only review-automation case study on the site.\n\n### Core sections\n- What dental review-request automation should actually handle\n- How this page stays distinct inside the dental cluster\n- When this is a good fit — and when it is not\n- Guardrails that keep dental review-request automation useful\n- How a practical dental review-request workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical answers for dental practices considering a cleaner post-visit review workflow\nTopics: how this differs from the broader dental page, why not every appointment should get an immediate review ask, what a focused workflow usually costs, whether every visit should be treated the same, and where the ROI usually comes from.\n\n### Final CTA\nHeading: Need cleaner reputation follow-up after the appointment is over?\nBody: Book a 30-minute call. We will look at how post-visit follow-through works today, where review asks are getting missed or mistimed, and whether a focused review-request workflow, an earlier front-desk fix, or no new build is the smarter next move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after broad reconciliation because the live dental parent still explicitly named review request automation as part of the operating layer, while the mature dental child set already covered lead follow-up, booking/reminders, recall/reactivation, no-show reduction, and live phone answering."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on the completed-appointment reputation layer: timing, unhappy-reply routing, provider-to-front-desk handoff, and post-visit trust recovery. It does not collapse into booking, recall, no-show, or broader dental automation copy."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live dental parent plus the existing dental child cluster as direct on-site proof, with the chiropractic review-request page as adjacent healthcare proof instead of pretending there is already a dental-only review-automation case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fit / not-fit framing, clearer guardrails, stage-specific timing, and explicit boundaries around where automation should stop."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-25T13:06:59.253Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 29.3,
+      "sentenceLengthRange": [
+        5,
+        56
+      ],
+      "totalWords": 351
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Review Request Automation for Dental Practices\nBody: Dental practices do not only lose revenue when a new-patient inquiry goes cold or when a scheduled visit turns into a no-show.",
+      "wordCount": 31,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need cleaner reputation follow-up after the appointment is over?\nBody: Book a 30-minute call. We will look at how post-visit follow-through works today, where review asks are getting missed or mistimed, and whether a focused review-request workflow, an earlier front-desk fix, or no new build is the smarter next move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 21,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.91
+    },
+    "vocabulary": {
+      "distinctWords": 187,
+      "totalWords": 351,
+      "topWords": [
+        [
+          "dental",
+          11
+        ],
+        [
+          "review",
+          6
+        ],
+        [
+          "workflow",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "review-request",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "practices",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "before",
+          4
+        ],
+        [
+          "post-visit",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "this",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

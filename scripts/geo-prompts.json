@@ -729,6 +729,18 @@
       ]
     },
     {
+      "id": "review-request-automation-for-dental-practices",
+      "path": "/review-request-automation-for-dental-practices",
+      "label": "Review Request Automation for Dental Practices",
+      "prompts": [
+        "Review request automation for dental practices",
+        "How should a dental practice automate review requests after hygiene exams and completed treatment visits?",
+        "Best way to ask dental patients for Google reviews without relying on front-desk memory",
+        "How can a dental office route unhappy post-visit replies before sending a public review link?",
+        "Should a dental practice automate review requests before forcing a broader patient-communication rebuild?"
+      ]
+    },
+    {
       "id": "ai-phone-answering-for-dental-practices",
       "path": "/ai-phone-answering-for-dental-practices",
       "label": "AI Phone Answering for Dental Practices",
@@ -3251,7 +3263,6 @@
   ],
   "providers": [
     "openai",
-    "anthropic",
     "gemini",
     "perplexity"
   ],

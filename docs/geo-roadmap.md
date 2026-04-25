@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `tenant-onboarding-automation-for-property-management-companies` after re-checking the live property-management cluster, planning docs, and current prompts for a remaining defensible child page. The live cluster already covered maintenance intake, lease renewals, showing coordination, tenant communication, and after-hours variants, but it still lacked a bounded signed-lease-to-move-in handoff page. This new child isolates onboarding checklists, portal setup, move-in instructions, and leasing-to-operations handoff without pretending there is already a property-management-specific onboarding case study.)
+Last updated: 2026-04-25 (shipped `review-request-automation-for-dental-practices` after broad backlog reconciliation. The live dental parent already named review-request automation as part of the broader operating layer, and the mature dental child cluster already covered lead follow-up, booking/reminders, recall/reactivation, no-show reduction, and live phone coverage. This new child isolates the completed-appointment reputation layer: review timing, unhappy-reply routing, provider-to-front-desk handoff, and cleaner post-visit trust follow-through without pretending there is already a dental-specific review-automation case study on the site.)
 
 ## Live GEO Assets
 
@@ -78,6 +78,7 @@ Last updated: 2026-04-25 (shipped `tenant-onboarding-automation-for-property-man
 | Appointment Scheduling and Reminder Automation for Dental Practices | `/appointment-scheduling-and-reminder-automation-for-dental-practices` | Dental booked-visit scheduling workflow page | Live |
 | Recall and Reactivation Automation for Dental Practices | `/recall-and-reactivation-automation-for-dental-practices` | Dental retention workflow page | Live |
 | No-Show Reduction Automation for Dental Practices | `/no-show-reduction-automation-for-dental-practices` | Dental attendance-protection workflow page | Live |
+| Review Request Automation for Dental Practices | `/review-request-automation-for-dental-practices` | Dental post-visit reputation workflow page | Live |
 | AI Phone Answering for Dental Practices | `/ai-phone-answering-for-dental-practices` | Dental live-phone-coverage workflow page | Live |
 | AI Automation for Law Firms | `/ai-automation-for-law-firms` | Industry page | Live |
 | What to Automate First for Law Firms | `/what-to-automate-first-for-law-firms` | Law-firm first-project scoping page | Live |
@@ -316,18 +317,18 @@ Last updated: 2026-04-25 (shipped `tenant-onboarding-automation-for-property-man
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 289**
+**Total decision/comparison/industry pages live: 290**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/tenant-onboarding-automation-for-property-management-companies` fills the signed-lease-to-move-in handoff gap that the live property-management cluster still left open after maintenance, renewal, showing, and broader tenant-communication children were already live. That child now owns the move-in buyer intent directly: checklist sequencing, portal setup, utility and access instructions, and clearer leasing-to-operations handoff without pretending there is already a published property-management-specific onboarding case study. With that post-lease onboarding gap now shipped, the next run should reset to broad backlog reconciliation across the rest of the live clusters and planning docs instead of forcing another property-management child by inertia.
+Shipping `/review-request-automation-for-dental-practices` fills the completed-appointment reputation gap that the live dental cluster still left open after lead follow-up, booking/reminders, recall/reactivation, no-show reduction, and live phone coverage were already live. That child now owns the post-visit review buyer intent directly: timing the ask to the appointment type, routing unhappy replies back inside first, and keeping provider-to-front-desk handoff attached instead of treating review requests like one more generic reminder. With that reputation layer now shipped, the next run should reset to broad backlog reconciliation across the rest of the live clusters and planning docs instead of forcing another dental child by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the property-management cluster still automatically owns the next run now that the onboarding child has shipped. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the dental cluster still automatically owns the next run now that the post-visit review child has shipped. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 

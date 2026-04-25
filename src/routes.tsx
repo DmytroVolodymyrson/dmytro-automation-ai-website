@@ -76,6 +76,7 @@ import AiLeadFollowUpForDentalPractices from "./pages/AiLeadFollowUpForDentalPra
 import RecallAndReactivationAutomationForDentalPractices from "./pages/RecallAndReactivationAutomationForDentalPractices";
 import NoShowReductionAutomationForDentalPractices from "./pages/NoShowReductionAutomationForDentalPractices";
 import AppointmentSchedulingAndReminderAutomationForDentalPractices from "./pages/AppointmentSchedulingAndReminderAutomationForDentalPractices";
+import ReviewRequestAutomationForDentalPractices from "./pages/ReviewRequestAutomationForDentalPractices";
 import AiPhoneAnsweringForDentalPractices from "./pages/AiPhoneAnsweringForDentalPractices";
 import AiAutomationForLawFirms from "./pages/AiAutomationForLawFirms";
 import WhatToAutomateFirstForLawFirms from "./pages/WhatToAutomateFirstForLawFirms";
@@ -414,6 +415,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/appointment-scheduling-and-reminder-automation-for-dental-practices", element: <AppointmentSchedulingAndReminderAutomationForDentalPractices /> },
   { path: "/recall-and-reactivation-automation-for-dental-practices", element: <RecallAndReactivationAutomationForDentalPractices /> },
   { path: "/no-show-reduction-automation-for-dental-practices", element: <NoShowReductionAutomationForDentalPractices /> },
+  { path: "/review-request-automation-for-dental-practices", element: <ReviewRequestAutomationForDentalPractices /> },
   { path: "/ai-phone-answering-for-dental-practices", element: <AiPhoneAnsweringForDentalPractices /> },
   { path: "/ai-automation-for-law-firms", element: <AiAutomationForLawFirms /> },
   { path: "/what-to-automate-first-for-law-firms", element: <WhatToAutomateFirstForLawFirms /> },
