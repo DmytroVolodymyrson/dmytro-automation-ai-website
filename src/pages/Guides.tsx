@@ -848,6 +848,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Lead Follow-Up for Law Firms",
+    description:
+      "Early-funnel legal intake workflow for faster response to new inquiries — immediate reply timing, short nurture, light qualification, and cleaner staff handoff before the consultation is booked.",
+    href: "/ai-lead-follow-up-for-law-firms",
+    category: "industries",
+  },
+  {
     title: "Intake and Conflict-Check Automation for Law Firms",
     description:
       "Pre-consult workflow for law firms that need cleaner intake details, conflict-check prep, missing-information reminders, and attorney handoff before consultations happen.",

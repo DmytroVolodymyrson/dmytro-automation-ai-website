@@ -76,6 +76,7 @@ const WhatToAutomateFirstForDentalPractices = lazy(() => import("./pages/WhatToA
 const RecallAndReactivationAutomationForDentalPractices = lazy(() => import("./pages/RecallAndReactivationAutomationForDentalPractices"));
 const AiAutomationForLawFirms = lazy(() => import("./pages/AiAutomationForLawFirms"));
 const WhatToAutomateFirstForLawFirms = lazy(() => import("./pages/WhatToAutomateFirstForLawFirms"));
+const AiLeadFollowUpForLawFirms = lazy(() => import("./pages/AiLeadFollowUpForLawFirms"));
 const IntakeAndConflictCheckAutomationForLawFirms = lazy(() => import("./pages/IntakeAndConflictCheckAutomationForLawFirms"));
 const ConsultationSchedulingAndReminderAutomationForLawFirms = lazy(() => import("./pages/ConsultationSchedulingAndReminderAutomationForLawFirms"));
 const UnretainedConsultFollowUpForLawFirms = lazy(() => import("./pages/UnretainedConsultFollowUpForLawFirms"));
@@ -379,6 +380,7 @@ const AppRoutesClient = () => (
       <Route path="/recall-and-reactivation-automation-for-dental-practices" element={<RecallAndReactivationAutomationForDentalPractices />} />
       <Route path="/ai-automation-for-law-firms" element={<AiAutomationForLawFirms />} />
       <Route path="/what-to-automate-first-for-law-firms" element={<WhatToAutomateFirstForLawFirms />} />
+      <Route path="/ai-lead-follow-up-for-law-firms" element={<AiLeadFollowUpForLawFirms />} />
       <Route path="/intake-and-conflict-check-automation-for-law-firms" element={<IntakeAndConflictCheckAutomationForLawFirms />} />
       <Route path="/consultation-scheduling-and-reminder-automation-for-law-firms" element={<ConsultationSchedulingAndReminderAutomationForLawFirms />} />
       <Route path="/unretained-consult-follow-up-for-law-firms" element={<UnretainedConsultFollowUpForLawFirms />} />

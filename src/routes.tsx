@@ -75,6 +75,7 @@ import WhatToAutomateFirstForDentalPractices from "./pages/WhatToAutomateFirstFo
 import RecallAndReactivationAutomationForDentalPractices from "./pages/RecallAndReactivationAutomationForDentalPractices";
 import AiAutomationForLawFirms from "./pages/AiAutomationForLawFirms";
 import WhatToAutomateFirstForLawFirms from "./pages/WhatToAutomateFirstForLawFirms";
+import AiLeadFollowUpForLawFirms from "./pages/AiLeadFollowUpForLawFirms";
 import IntakeAndConflictCheckAutomationForLawFirms from "./pages/IntakeAndConflictCheckAutomationForLawFirms";
 import ConsultationSchedulingAndReminderAutomationForLawFirms from "./pages/ConsultationSchedulingAndReminderAutomationForLawFirms";
 import UnretainedConsultFollowUpForLawFirms from "./pages/UnretainedConsultFollowUpForLawFirms";
@@ -404,6 +405,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/recall-and-reactivation-automation-for-dental-practices", element: <RecallAndReactivationAutomationForDentalPractices /> },
   { path: "/ai-automation-for-law-firms", element: <AiAutomationForLawFirms /> },
   { path: "/what-to-automate-first-for-law-firms", element: <WhatToAutomateFirstForLawFirms /> },
+  { path: "/ai-lead-follow-up-for-law-firms", element: <AiLeadFollowUpForLawFirms /> },
   { path: "/intake-and-conflict-check-automation-for-law-firms", element: <IntakeAndConflictCheckAutomationForLawFirms /> },
   { path: "/consultation-scheduling-and-reminder-automation-for-law-firms", element: <ConsultationSchedulingAndReminderAutomationForLawFirms /> },
   { path: "/unretained-consult-follow-up-for-law-firms", element: <UnretainedConsultFollowUpForLawFirms /> },

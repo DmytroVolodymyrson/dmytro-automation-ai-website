@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 261 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 262 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -59,6 +59,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Seasonal Client Reactivation for Accounting Firms** — `/seasonal-client-reactivation-for-accounting-firms`
 - **AI Lead Follow-Up for Accounting Firms** — `/ai-lead-follow-up-for-accounting-firms`
 - **Consultation Scheduling and Reminder Automation for Law Firms** — `/consultation-scheduling-and-reminder-automation-for-law-firms`
+- **AI Lead Follow-Up for Law Firms** — `/ai-lead-follow-up-for-law-firms`
 - **Intake and Conflict-Check Automation for Law Firms** — `/intake-and-conflict-check-automation-for-law-firms`
 - **Unretained-Consult Follow-Up for Law Firms** — `/unretained-consult-follow-up-for-law-firms`
 - **AI Phone Answering for Law Firms** — `/ai-phone-answering-for-law-firms`

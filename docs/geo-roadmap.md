@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `ai-phone-answering-for-law-firms` after another broad reconciliation across GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The fresh audit confirmed the law-firm cluster still had one clean phone-layer child left: the broad parent already names after-hours call handling, the first-project page still isolates it as a bounded workflow choice, the intake, scheduling, and post-consult children are already live, and the cluster still lacked a page focused specifically on live intake-call coverage, routine consultation-question handling, after-hours answer coverage, and bounded receptionist handoff.)
+Last updated: 2026-04-25 (shipped `ai-lead-follow-up-for-law-firms` after another broad reconciliation across GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The fresh audit confirmed the law-firm cluster still had one clean early-funnel child left: the broad parent already names inquiry response, the first-project page still isolates it as a bounded workflow choice, and the intake / scheduling / post-consult / phone children were already live while the cluster still lacked a page focused specifically on immediate first response, short nurture, light qualification, and cleaner handoff before the consultation is booked.)
 
 ## Live GEO Assets
 
@@ -77,6 +77,7 @@ Last updated: 2026-04-25 (shipped `ai-phone-answering-for-law-firms` after anoth
 | Recall and Reactivation Automation for Dental Practices | `/recall-and-reactivation-automation-for-dental-practices` | Dental retention workflow page | Live |
 | AI Automation for Law Firms | `/ai-automation-for-law-firms` | Industry page | Live |
 | What to Automate First for Law Firms | `/what-to-automate-first-for-law-firms` | Law-firm first-project scoping page | Live |
+| AI Lead Follow-Up for Law Firms | `/ai-lead-follow-up-for-law-firms` | Law-firm early-funnel lead-response workflow page | Live |
 | Intake and Conflict-Check Automation for Law Firms | `/intake-and-conflict-check-automation-for-law-firms` | Law-firm pre-consult intake workflow page | Live |
 | Consultation Scheduling and Reminder Automation for Law Firms | `/consultation-scheduling-and-reminder-automation-for-law-firms` | Law-firm booked-consult scheduling workflow page | Live |
 | Unretained-Consult Follow-Up for Law Firms | `/unretained-consult-follow-up-for-law-firms` | Law-firm post-consult conversion workflow page | Live |
@@ -307,18 +308,18 @@ Last updated: 2026-04-25 (shipped `ai-phone-answering-for-law-firms` after anoth
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 280**
+**Total decision/comparison/industry pages live: 281**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-phone-answering-for-law-firms` removes the last clean surviving law-firm phone-layer child that was still explicitly supported by the live parent page, the first-project scoping page, and the current tracked prompts. The safest next move is now another broad repo-wide reconciliation instead of forcing more law-firm expansion by inertia; the next run should re-check the broader backlog across planning docs, live routes/pages, and prompts before naming another exact ship target.
+Shipping `/ai-lead-follow-up-for-law-firms` removes the clean surviving early-funnel child that the live law-firm parent and first-project scoping page were still explicitly naming beside the intake, scheduling, post-consult, and phone workflows. The safest next move is now another broad repo-wide reconciliation instead of forcing more law-firm expansion by inertia; the next run should re-check the broader backlog across planning docs, live routes/pages, and prompts before naming another exact ship target.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Watchlist** | Fresh broad reconciliation of remaining generic and cluster backlog | Re-check the highest-value remaining planned gaps before defaulting to another cluster child | After the law-firm live-answering page shipped, the cleanest next move is another repo-wide pass across planning docs, live routes/pages, and prompts to distinguish genuinely unshipped pages from already-live equivalents, stale wording, and clusters that are now effectively exhausted. | **Fresh reconciliation required next run** |
+| 1 | **Watchlist** | Fresh broad reconciliation of remaining generic and cluster backlog | Re-check the highest-value remaining planned gaps before defaulting to another cluster child | After the law-firm early-funnel lead-follow-up page shipped, the cleanest next move is another repo-wide pass across planning docs, live routes/pages, and prompts to distinguish genuinely unshipped pages from already-live equivalents, stale wording, and clusters that are now effectively exhausted. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-25T09:56:47.854Z",
-  "postCount": 303,
+  "updatedAt": "2026-04-25T10:15:09.525Z",
+  "postCount": 304,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,25 +15,25 @@
       "max": 11,
       "p25": 4,
       "p75": 4,
-      "samples": 303
+      "samples": 304
     },
     "sentenceLength": {
       "mean": 22.6,
-      "median": 22.4,
+      "median": 22.45,
       "min": 7.1,
       "max": 105,
       "p25": 18.3,
       "p75": 26.9,
-      "samples": 303
+      "samples": 304
     },
     "totalWords": {
-      "mean": 317.1,
-      "median": 323,
+      "mean": 318,
+      "median": 323.5,
       "min": 17,
       "max": 1155,
       "p25": 246,
       "p75": 365,
-      "samples": 303
+      "samples": 304
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -76,7 +76,7 @@
       "long | single | long | long": 19,
       "single | long | single | single | single | single | single | long | single | single": 1,
       "long | single | single | long | single": 1,
-      "long | single | long | long | single | single | long | single | long": 6,
+      "long | single | long | long | single | single | long | single | long": 7,
       "long | short | long | long | long | short | long | single | long": 3,
       "long | short | long | long | single | single | long | single | long": 3,
       "long | single | short | single | single | long | single | long": 1
@@ -121,7 +121,7 @@
       "opener | context | context | context | context | context | context | context | closer": 6,
       "opener | context | context | context | context | result | context | result | closer": 1,
       "opener | context | context | context | context | context | context | result | closer": 2,
-      "opener | context | context | result | context | context | context | context | closer": 1,
+      "opener | context | context | result | context | context | context | context | closer": 2,
       "opener | product-pitch | context | context | context | context | context | closer": 1,
       "opener | product-pitch | context | context | product-pitch | product-pitch | context | context | closer": 1,
       "opener | context | result | context | result | context | context | context | closer": 1
@@ -146,7 +146,7 @@
         ]
       },
       "standard-opener": {
-        "count": 199,
+        "count": 200,
         "examples": [
           "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an autom",
           "Section heading: Real Results for Real Businesses\nSubheading: Here's what happen",
@@ -181,7 +181,7 @@
         ]
       },
       "question": {
-        "count": 255,
+        "count": 256,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -218,7 +218,7 @@
       ],
       [
         "what",
-        1018
+        1024
       ],
       [
         "automation",
@@ -226,11 +226,11 @@
       ],
       [
         "ai",
-        656
+        661
       ],
       [
         "workflow",
-        595
+        603
       ],
       [
         "it",
@@ -238,14 +238,18 @@
       ],
       [
         "page",
-        543
+        552
       ],
       [
         "how",
-        536
+        542
       ],
       [
         "when",
+        485
+      ],
+      [
+        "this",
         485
       ],
       [
@@ -253,16 +257,12 @@
         482
       ],
       [
-        "this",
-        478
-      ],
-      [
         "follow-up",
-        429
+        438
       ],
       [
         "first",
-        425
+        432
       ],
       [
         "whether",
@@ -302,11 +302,11 @@
       ],
       [
         "heading",
-        237
+        245
       ],
       [
         "from",
-        227
+        233
       ],
       [
         "not",
@@ -314,7 +314,7 @@
       ],
       [
         "body",
-        206
+        214
       ],
       [
         "lead",

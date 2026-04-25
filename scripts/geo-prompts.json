@@ -705,6 +705,18 @@
       ]
     },
     {
+      "id": "ai-lead-follow-up-for-law-firms",
+      "path": "/ai-lead-follow-up-for-law-firms",
+      "label": "AI Lead Follow-Up for Law Firms",
+      "prompts": [
+        "AI lead follow-up for law firms",
+        "How should a law firm follow up with new inquiries before the consultation is booked?",
+        "Best way for a small law firm to respond faster to new leads from forms texts and referrals",
+        "Should a law firm automate inquiry follow-up before intake prep or consultation scheduling?",
+        "How do law firms stop new matters from going cold before anyone actually books the consultation?"
+      ]
+    },
+    {
       "id": "intake-and-conflict-check-automation-for-law-firms",
       "path": "/intake-and-conflict-check-automation-for-law-firms",
       "label": "Intake and Conflict-Check Automation for Law Firms",
