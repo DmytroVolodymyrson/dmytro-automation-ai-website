@@ -2949,6 +2949,18 @@
       ]
     },
     {
+      "id": "review-request-automation-for-plumbing-companies",
+      "path": "/review-request-automation-for-plumbing-companies",
+      "label": "Review Request Automation for Plumbing Companies",
+      "prompts": [
+        "Review request automation for plumbing companies",
+        "How do plumbing companies ask for more reviews after completed service work without sending every homeowner the same generic follow-up?",
+        "Best way for a plumbing company to automate post-job review requests without pushing unhappy customers toward a public review too early",
+        "Should a plumbing company automate review requests after service calls, water-heater jobs, drain work, sewer work, or repipes are completed?",
+        "How should a plumbing company route post-job complaints or callback issues before asking for a Google review?"
+      ]
+    },
+    {
       "id": "estimate-follow-up-automation-for-electrical-contractors",
       "path": "/estimate-follow-up-automation-for-electrical-contractors",
       "label": "Estimate Follow-Up Automation for Electrical Contractors",

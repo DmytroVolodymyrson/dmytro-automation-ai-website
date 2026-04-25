@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `recurring-cleaning-scheduling-and-reminder-automation-for-cleaning-companies` after reconciling GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The fresh audit showed the cleaning cluster still had one clean booked-service child left: the broad parent already named recurring schedule management, the first-project page already isolated repeat-booking stability as a bounded decision, and the live cluster still lacked a page focused specifically on reminders, skip requests, reschedules, and office handoff for active recurring clients.)
+Last updated: 2026-04-25 (shipped `review-request-automation-for-plumbing-companies` after reconciling GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The fresh audit confirmed the plumbing cluster still had one clean post-job reputation child left: the broad parent already names review automation, the first-project page already isolates review requests as a bounded later-stage decision, and the live child set still lacked a page focused specifically on review timing, unhappy-reply routing, and office handoff after completed plumbing jobs.)
 
 ## Live GEO Assets
 
@@ -93,6 +93,7 @@ Last updated: 2026-04-25 (shipped `recurring-cleaning-scheduling-and-reminder-au
 | AI Phone Answering for Plumbing Companies | `/ai-phone-answering-for-plumbing-companies` | Plumbing live-phone-coverage workflow page | Live |
 | AI Phone Answering vs. Voicemail for Plumbing Companies | `/ai-phone-answering-vs-voicemail-for-plumbing-companies` | Plumbing heavier phone-fallback decision page | Live |
 | Appointment Scheduling and Reminder Automation for Plumbing Companies | `/appointment-scheduling-and-reminder-automation-for-plumbing-companies` | Plumbing booked-job scheduling workflow page | Live |
+| Review Request Automation for Plumbing Companies | `/review-request-automation-for-plumbing-companies` | Plumbing post-job reputation workflow page | Live |
 | AI Automation for Electrical Contractors | `/ai-automation-for-electrical-contractors` | Industry page | Live |
 | What to Automate First for Electrical Contractors | `/what-to-automate-first-for-electrical-contractors` | Electrical first-project scoping page | Live |
 | AI Lead Follow-Up for Electrical Contractors | `/ai-lead-follow-up-for-electrical-contractors` | Electrical early-funnel lead-response workflow page | Live |
@@ -301,18 +302,18 @@ Last updated: 2026-04-25 (shipped `recurring-cleaning-scheduling-and-reminder-au
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 274**
+**Total decision/comparison/industry pages live: 275**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/recurring-cleaning-scheduling-and-reminder-automation-for-cleaning-companies` closes the remaining clean booked-service scheduling child that still survived inside the cleaning cluster. The next run should start with another broad repo-wide reconciliation instead of forcing a second cleaning-company child by inertia. The strongest current fallback is likely a still-unshipped post-job reputation page for plumbing companies: the live plumbing parent already names review automation, but the cluster still has no dedicated plumbing review-request child live.
+Shipping `/review-request-automation-for-plumbing-companies` closes the cleanest remaining post-job reputation child that still survived inside the plumbing cluster. The next run should start with another broad repo-wide reconciliation instead of forcing a second plumbing child by inertia. The strongest current fallback appears to be a still-unshipped dental recall / reactivation page: the live dental parent and first-project page already isolate overdue-patient recall as one of the core workflow families, but the dental cluster still has no dedicated child page focused specifically on bringing overdue hygiene, exam, and unscheduled-treatment patients back before that revenue disappears.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Watchlist** | Review Request Automation for Plumbing Companies | Owners asking how to automate post-job review requests without pushing unhappy customers straight to a public review ask | The plumbing parent already frames review automation as part of the cluster, and a narrower post-job reputation child would be materially distinct from the now-mature plumbing phone / scheduling pages. | **Best current fallback after fresh reconciliation** |
+| 1 | **Watchlist** | Dental Recall and Reactivation Automation | Practice owners asking how to bring overdue hygiene, exam, and unscheduled-treatment patients back without manual front-desk chasing | The live dental parent plus first-project page already frame recall/reactivation as a distinct buyer decision, and the cluster still lacks any dedicated dental child page despite strong adjacent reactivation proof elsewhere on the site. | **Best current fallback after fresh reconciliation** |
 
 ### Priority Definitions
 

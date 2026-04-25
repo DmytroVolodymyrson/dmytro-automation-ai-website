@@ -960,6 +960,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Review Request Automation for Plumbing Companies",
+    description:
+      "A narrower plumbing post-job reputation workflow page focused on review timing, unhappy-reply routing, office handoff, and cleaner follow-through after completed service calls, water-heater jobs, drain work, sewer work, and repipes.",
+    href: "/review-request-automation-for-plumbing-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Electrical Contractors",
     description:
       "AI automation for electrical contractors. Lead follow-up, missed call text-back, scheduling, estimate follow-up, and review automation.",

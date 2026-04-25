@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-25-review-request-automation-for-plumbing-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-25",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "### Hero\nHeading: Review Request Automation for Plumbing Companies\nBody: Plumbing companies do not only lose work at the first missed call or the estimate that never gets approved. They also leave trust on the table after the job is already done. The water-heater replacement finished. The drain or sewer call solved the problem. The repipe, leak repair, or service visit wrapped cleanly. Then nothing happened. Or the review ask went out too early while the homeowner was still waiting to see whether the leak really stayed fixed, whether a return visit was needed, or whether an invoice or warranty question should have come back to the office first. Review request automation for plumbing companies fixes that narrower post-job workflow. It gives completed work a cleaner closeout path, helps the office ask for reviews when the experience is actually ready, and protects reputation by routing uncertain replies back inside before the company pushes for a public rating.\nSub: Below: what a practical plumbing review-request workflow should actually handle, how it stays distinct from the broader plumbing cluster and the newer first-project / estimate-recovery pages, what proof honestly supports it, and when review automation is or is not the right next build compared with missed-call recovery, lead follow-up, scheduling, estimate follow-up, or heavier live phone coverage.\n\n### Core sections\n- What plumbing review-request automation should actually handle\n- How this page stays distinct inside the plumbing cluster\n- Is this a good fit for your plumbing company?\n- How a practical plumbing review-request workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions about plumbing review-request automation\nTopics: how this differs from the broader plumbing page, why not to ask for a review immediately after every job, typical build cost, tool compatibility, and the real ROI of cleaner post-job reputation follow-through.\n\n### Final CTA\nHeading: Want more completed plumbing jobs to turn into clean local-trust follow-through?\nBody: Book a 30-minute call. We will look at how your team closes out completed service work today, where reviews are being lost or asked too early, and whether a focused review-request workflow is the cleanest build to ship next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the live plumbing cluster still had one clean post-job reputation child left: the broader parent explicitly names review automation, and the first-project page already treats review requests as a bounded later-stage choice."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on review timing, unhappy-reply routing, and office handoff after completed plumbing jobs instead of collapsing into missed-call recovery, lead follow-up, booked-job scheduling, or estimate nurture."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live plumbing cluster, the adjacent electrical review-request sibling, and the published CRM case study as honest adjacent proof without pretending there is already a direct plumbing review-automation case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: cleaner closeout discipline, fewer unhappy homeowners pushed public too early, and a clearer fit / not-fit frame for operators."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-25T08:12:44.917Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        10,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 22.2,
+      "sentenceLengthRange": [
+        3,
+        57
+      ],
+      "totalWords": 355
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Review Request Automation for Plumbing Companies\nBody: Plumbing companies do not only lose work at the first missed call or the estimate that never gets approved.",
+      "wordCount": 28,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want more completed plumbing jobs to turn into clean local-trust follow-through?\nBody: Book a 30-minute call. We will look at how your team closes out completed service work today, where reviews are being lost or asked too early, and whether a focused review-request workflow is the cleanest build to ship next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 13,
+      "commas": 19,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.27
+    },
+    "vocabulary": {
+      "distinctWords": 195,
+      "totalWords": 355,
+      "topWords": [
+        [
+          "plumbing",
+          12
+        ],
+        [
+          "review",
+          5
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "review-request",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "whether",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "companies",
+          3
+        ],
+        [
+          "not",
+          3
+        ],
+        [
+          "work",
+          3
+        ],
+        [
+          "call",
+          3
+        ],
+        [
+          "ask",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
