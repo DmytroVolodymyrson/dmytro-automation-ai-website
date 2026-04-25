@@ -855,6 +855,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering for Dental Practices",
+    description:
+      "Live patient-call coverage for dental practices that need after-hours answering, routine booking-question handling, cleaner front-desk handoff, and fewer appointments lost to voicemail or delayed callbacks.",
+    href: "/ai-phone-answering-for-dental-practices",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Law Firms",
     description:
       "AI automation for law firms. Client intake, consultation booking, lead follow-up, and case status updates. What works for small to mid-size practices.",

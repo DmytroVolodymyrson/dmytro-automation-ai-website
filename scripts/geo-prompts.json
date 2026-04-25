@@ -729,6 +729,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-for-dental-practices",
+      "path": "/ai-phone-answering-for-dental-practices",
+      "label": "AI Phone Answering for Dental Practices",
+      "prompts": [
+        "AI phone answering for dental practices",
+        "Should a dental practice use live AI phone answering instead of voicemail or next-day callbacks?",
+        "Best way for a dental office to answer patient calls after hours without hiring another front-desk person",
+        "When should a dental practice use live AI phone answering instead of a missed-call text-back workflow?",
+        "How can a dental office handle routine booking calls live when the front desk is tied up?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-law-firms",
       "path": "/what-to-automate-first-for-law-firms",
       "label": "What to Automate First for Law Firms",

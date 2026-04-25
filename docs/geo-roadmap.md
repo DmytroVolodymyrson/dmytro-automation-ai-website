@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `ai-lead-follow-up-for-dental-practices` after a fresh reconciliation across GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The audit still supported one clean dental early-funnel child: the roadmap already named this page explicitly, the broad dental parent still isolates new-patient inquiry response as its own workflow family, the first-project page already treats it as a distinct choice beside booking, recall, no-show reduction, and after-hours handling, and the live dental cluster plus adjacent lead-follow-up / CRM proof made it possible to ship a narrow page focused specifically on first response, short nurture, and front-desk handoff before the appointment is booked.)
+Last updated: 2026-04-25 (shipped `ai-phone-answering-for-dental-practices` after a fresh reconciliation across GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The audit showed one clean dental child still surviving inside the cluster: the broad dental parent already isolates after-hours call handling as its own workflow family, the first-project page still treats it as a distinct choice beside inquiry follow-up, booking and reminders, recall/reactivation, and no-show reduction, and the live dental cluster plus the generic phone-answering guide and published call-handling proof made it possible to ship a narrow page focused specifically on live patient call coverage, routine booking-question triage, and cleaner front-desk handoff without pretending there is already a dental-specific phone-answering case study.)
 
 ## Live GEO Assets
 
@@ -78,6 +78,7 @@ Last updated: 2026-04-25 (shipped `ai-lead-follow-up-for-dental-practices` after
 | Appointment Scheduling and Reminder Automation for Dental Practices | `/appointment-scheduling-and-reminder-automation-for-dental-practices` | Dental booked-visit scheduling workflow page | Live |
 | Recall and Reactivation Automation for Dental Practices | `/recall-and-reactivation-automation-for-dental-practices` | Dental retention workflow page | Live |
 | No-Show Reduction Automation for Dental Practices | `/no-show-reduction-automation-for-dental-practices` | Dental attendance-protection workflow page | Live |
+| AI Phone Answering for Dental Practices | `/ai-phone-answering-for-dental-practices` | Dental live-phone-coverage workflow page | Live |
 | AI Automation for Law Firms | `/ai-automation-for-law-firms` | Industry page | Live |
 | What to Automate First for Law Firms | `/what-to-automate-first-for-law-firms` | Law-firm first-project scoping page | Live |
 | AI Lead Follow-Up for Law Firms | `/ai-lead-follow-up-for-law-firms` | Law-firm early-funnel lead-response workflow page | Live |
@@ -311,18 +312,18 @@ Last updated: 2026-04-25 (shipped `ai-lead-follow-up-for-dental-practices` after
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 284**
+**Total decision/comparison/industry pages live: 285**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-lead-follow-up-for-dental-practices` closes the last exact tracked workflow child that still survived cleanly inside the current dental cluster. The broader dental parent still mentions other workflow families, but there is no longer an equally clean named follow-up candidate in the queue that has already been re-verified across the planning docs, live routes/pages, and prompts. The next run should reset to broad backlog reconciliation instead of forcing another dental child by inertia.
+Shipping `/ai-phone-answering-for-dental-practices` closes the clearest surviving dental phone-layer child that still reconciled cleanly across the broader plan, the live cluster, and the prompt set. The cluster still contains broader language about after-hours handling, but there is no equally clean next same-cluster dental page that has already been re-verified across planning docs, live routes/pages, and prompts. The next run should reset to broad backlog reconciliation instead of forcing a dental phone comparison by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending another dental page is automatically next when the surviving clean candidate has now shipped. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending another dental phone page is automatically next now that the clean live-answering child has shipped. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 
