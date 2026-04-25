@@ -79,6 +79,7 @@ const WhatToAutomateFirstForLawFirms = lazy(() => import("./pages/WhatToAutomate
 const IntakeAndConflictCheckAutomationForLawFirms = lazy(() => import("./pages/IntakeAndConflictCheckAutomationForLawFirms"));
 const ConsultationSchedulingAndReminderAutomationForLawFirms = lazy(() => import("./pages/ConsultationSchedulingAndReminderAutomationForLawFirms"));
 const UnretainedConsultFollowUpForLawFirms = lazy(() => import("./pages/UnretainedConsultFollowUpForLawFirms"));
+const AiPhoneAnsweringForLawFirms = lazy(() => import("./pages/AiPhoneAnsweringForLawFirms"));
 const AiAutomationForAccountingFirms = lazy(() => import("./pages/AiAutomationForAccountingFirms"));
 const DocumentCollectionAutomationForAccountingFirms = lazy(() => import("./pages/DocumentCollectionAutomationForAccountingFirms"));
 const ClientOnboardingAutomationForAccountingFirms = lazy(() => import("./pages/ClientOnboardingAutomationForAccountingFirms"));
@@ -381,6 +382,7 @@ const AppRoutesClient = () => (
       <Route path="/intake-and-conflict-check-automation-for-law-firms" element={<IntakeAndConflictCheckAutomationForLawFirms />} />
       <Route path="/consultation-scheduling-and-reminder-automation-for-law-firms" element={<ConsultationSchedulingAndReminderAutomationForLawFirms />} />
       <Route path="/unretained-consult-follow-up-for-law-firms" element={<UnretainedConsultFollowUpForLawFirms />} />
+      <Route path="/ai-phone-answering-for-law-firms" element={<AiPhoneAnsweringForLawFirms />} />
       <Route path="/ai-automation-for-accounting-firms" element={<AiAutomationForAccountingFirms />} />
       <Route path="/document-collection-automation-for-accounting-firms" element={<DocumentCollectionAutomationForAccountingFirms />} />
       <Route path="/client-onboarding-automation-for-accounting-firms" element={<ClientOnboardingAutomationForAccountingFirms />} />

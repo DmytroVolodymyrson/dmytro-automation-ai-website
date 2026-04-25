@@ -869,6 +869,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering for Law Firms",
+    description:
+      "Live intake-call coverage for law firms that need after-hours answering, routine consultation-question handling, cleaner receptionist handoff, and fewer matters lost to voicemail or delayed callbacks.",
+    href: "/ai-phone-answering-for-law-firms",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Accounting Firms",
     description:
       "AI automation for accounting firms. Client onboarding, document collection, appointment scheduling, and seasonal workflows for CPA and bookkeeping practices.",

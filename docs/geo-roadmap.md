@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `unretained-consult-follow-up-for-law-firms` after reconciling GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The fresh audit confirmed the law-firm cluster still had one clean late-funnel child left: the broad parent already names follow-up for prospects who consulted but did not retain, the first-project page already isolates it as a bounded buyer decision, the booked-consult scheduling child is now live, and the cluster still lacked a page focused specifically on disciplined post-consult next-touch ownership, agreement reminders, reply routing, and consult-to-retainer recovery after the meeting already happened.)
+Last updated: 2026-04-25 (shipped `ai-phone-answering-for-law-firms` after another broad reconciliation across GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The fresh audit confirmed the law-firm cluster still had one clean phone-layer child left: the broad parent already names after-hours call handling, the first-project page still isolates it as a bounded workflow choice, the intake, scheduling, and post-consult children are already live, and the cluster still lacked a page focused specifically on live intake-call coverage, routine consultation-question handling, after-hours answer coverage, and bounded receptionist handoff.)
 
 ## Live GEO Assets
 
@@ -80,6 +80,7 @@ Last updated: 2026-04-25 (shipped `unretained-consult-follow-up-for-law-firms` a
 | Intake and Conflict-Check Automation for Law Firms | `/intake-and-conflict-check-automation-for-law-firms` | Law-firm pre-consult intake workflow page | Live |
 | Consultation Scheduling and Reminder Automation for Law Firms | `/consultation-scheduling-and-reminder-automation-for-law-firms` | Law-firm booked-consult scheduling workflow page | Live |
 | Unretained-Consult Follow-Up for Law Firms | `/unretained-consult-follow-up-for-law-firms` | Law-firm post-consult conversion workflow page | Live |
+| AI Phone Answering for Law Firms | `/ai-phone-answering-for-law-firms` | Law-firm live-phone-coverage workflow page | Live |
 | AI Automation for Accounting Firms | `/ai-automation-for-accounting-firms` | Industry page | Live |
 | Document Collection Automation for Accounting Firms | `/document-collection-automation-for-accounting-firms` | Accounting document-intake workflow page | Live |
 | Client Onboarding Automation for Accounting Firms | `/client-onboarding-automation-for-accounting-firms` | Accounting post-sale onboarding workflow page | Live |
@@ -306,18 +307,18 @@ Last updated: 2026-04-25 (shipped `unretained-consult-follow-up-for-law-firms` a
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 279**
+**Total decision/comparison/industry pages live: 280**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/unretained-consult-follow-up-for-law-firms` removes the last clearly surviving law-firm child that was still explicitly supported by the live parent page, the first-project scoping page, and the current tracked prompts. The safest next move is now a fresh repo-wide reconciliation instead of forcing another same-cluster page by inertia; the next run should re-check the broader backlog across planning docs, live routes/pages, and prompts before naming another exact ship target.
+Shipping `/ai-phone-answering-for-law-firms` removes the last clean surviving law-firm phone-layer child that was still explicitly supported by the live parent page, the first-project scoping page, and the current tracked prompts. The safest next move is now another broad repo-wide reconciliation instead of forcing more law-firm expansion by inertia; the next run should re-check the broader backlog across planning docs, live routes/pages, and prompts before naming another exact ship target.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Watchlist** | Fresh broad reconciliation of remaining generic and cluster backlog | Re-check the highest-value remaining planned gaps before defaulting to another cluster child | After the post-consult law-firm page shipped, the cleanest next move is another repo-wide pass across planning docs, live routes/pages, and prompts to distinguish genuinely unshipped pages from already-live equivalents, stale wording, and clusters that are now effectively exhausted. | **Fresh reconciliation required next run** |
+| 1 | **Watchlist** | Fresh broad reconciliation of remaining generic and cluster backlog | Re-check the highest-value remaining planned gaps before defaulting to another cluster child | After the law-firm live-answering page shipped, the cleanest next move is another repo-wide pass across planning docs, live routes/pages, and prompts to distinguish genuinely unshipped pages from already-live equivalents, stale wording, and clusters that are now effectively exhausted. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 

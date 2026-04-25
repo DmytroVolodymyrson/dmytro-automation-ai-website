@@ -697,7 +697,7 @@
       "path": "/what-to-automate-first-for-law-firms",
       "label": "What to Automate First for Law Firms",
       "prompts": [
-        "What should a law firm automate first inquiry response intake scheduling or after-hours calls?",
+        "What should a law firm automate first if response speed intake prep scheduling and post-consult conversion all need work?",
         "What to automate first for law firms",
         "How should a law firm sequence inquiry response, intake prep, consultation scheduling, post-consult follow-up, and after-hours call handling over time?",
         "When is consultation scheduling the right first automation for a law firm versus intake prep or after-hours call handling?",
@@ -738,6 +738,18 @@
         "Best post-consult follow-up workflow for a small law firm",
         "How do law firms stop losing matters after the consultation already happened?",
         "Should a law firm automate post-consult follow-up before after-hours call handling?"
+      ]
+    },
+    {
+      "id": "ai-phone-answering-for-law-firms",
+      "path": "/ai-phone-answering-for-law-firms",
+      "label": "AI Phone Answering for Law Firms",
+      "prompts": [
+        "AI phone answering for law firms",
+        "How should a law firm handle intake calls after hours without relying on voicemail?",
+        "Should a small law firm use AI phone answering instead of next-day callbacks?",
+        "Best way for a law firm to answer consultation calls when attorneys are in court or staff cannot pick up",
+        "When is live AI phone answering the right next workflow for a law firm versus voicemail or manual callbacks?"
       ]
     },
     {
