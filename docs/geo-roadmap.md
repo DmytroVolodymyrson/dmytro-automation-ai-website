@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `owner-reporting-automation-for-property-management-companies` after broad backlog reconciliation. The live property-management parent still explicitly named owner communication and reporting as a core workflow family while the rest of the cluster already covered maintenance intake, lease renewals, showing coordination, tenant communication, onboarding, and after-hours triage. This new child isolates the owner-facing reporting layer instead of stretching the parent page into a generic rewrite. With that property-management owner-reporting workflow now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster property-management page by inertia.)
+Last updated: 2026-04-25 (shipped `referral-request-automation-for-painting-contractors` after broad backlog reconciliation. The live painting parent and client-reactivation child were already carrying explicit referral intent, but the cluster still lacked a page that isolated the narrower post-job referral ask from both dormant-client reactivation and review timing. This new child owns the advocacy / referral-request layer instead of stretching the reactivation page into another mixed retention catch-all. With that mature painting-cluster referral workflow now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster painting page by inertia.)
 
 ## Live GEO Assets
 
@@ -295,6 +295,7 @@ Last updated: 2026-04-25 (shipped `owner-reporting-automation-for-property-manag
 | AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
 | AI Lead Follow-Up for Painting Contractors | `/ai-lead-follow-up-for-painting-contractors` | Painting early-funnel quote-response workflow page | Live |
 | Client Reactivation Automation for Painting Contractors | `/client-reactivation-automation-for-painting-contractors` | Painting retention / past-client reactivation workflow page | Live |
+| Referral Request Automation for Painting Contractors | `/referral-request-automation-for-painting-contractors` | Painting post-job advocacy / referral workflow page | Live |
 | Estimate Follow-Up Automation for Painting Contractors | `/estimate-follow-up-automation-for-painting-contractors` | Painting estimate-recovery workflow page | Live |
 | Review Request Automation for Painting Contractors | `/review-request-automation-for-painting-contractors` | Painting post-job reputation workflow page | Live |
 | What to Automate First for Painting Contractors | `/what-to-automate-first-for-painting-contractors` | Painting first-project scoping page | Live |
@@ -327,18 +328,18 @@ Last updated: 2026-04-25 (shipped `owner-reporting-automation-for-property-manag
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 300**
+**Total decision/comparison/industry pages live: 301**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/owner-reporting-automation-for-property-management-companies` extracts the remaining clean property-management owner-communication workflow that the broader parent page was already promising but the live child set had not isolated yet. The cluster already had the broad parent, the first-project scoping page, and the narrower maintenance, renewal, showing, onboarding, tenant-communication, and after-hours pages; this new child owns the owner-facing reporting layer instead of turning the parent into a catch-all. With that owner-reporting workflow now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster property-management page by inertia.
+Shipping `/referral-request-automation-for-painting-contractors` extracts the narrower post-job advocacy layer that the live painting parent and the existing painting reactivation child were already implying, but without collapsing it back into either dormant-client recovery or review timing. The mature painting cluster already had the broad parent, first-project scoping page, lead follow-up, estimate recovery, client reactivation, review-request, and the full phone layer live; this new child now owns the explicit referral-request decision. With that mature painting-cluster advocacy page now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster painting page by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the property-management cluster still automatically owns the next run now that the owner-reporting child is live beside the tenant-facing workflow set. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the mature painting cluster still automatically owns the next run now that its referral-request child is live beside reactivation, review, and the phone pages. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 

@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-25-referral-request-automation-for-painting-contractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-25",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "### Hero\nHeading: Referral Request Automation for Painting Contractors\nBody: A lot of painting companies say referrals are their best leads, then leave referrals to luck. The crew finishes a job, the homeowner is happy enough, and everyone moves on. No clean follow-up. No timed ask once the project actually feels complete. No simple way to turn a satisfied client into a neighbor introduction, a second property conversation, or a repeat-project opportunity while trust is still warm. Referral request automation for painting contractors fixes that narrower post-job advocacy workflow. It gives the business a practical way to ask for referrals at the right moment, separate referral asks from review asks, route warm replies back to the owner or office quickly, and keep finished jobs producing introductions instead of going quiet the minute the final invoice is paid.\nSub: Below: what a practical painting-contractor referral workflow should actually handle, how it stays distinct from review requests and broader client reactivation, what guardrails matter, and what proof honestly supports this page without pretending there is already a painting-specific referral-automation case study on the site.\n\n### Core sections\n- What painting-contractor referral automation should actually handle\n- How this page stays distinct inside the painting cluster\n- Is this a good fit for your painting company?\n- Guardrails that keep painting referral automation useful instead of awkward\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical answers for painting contractors considering a cleaner referral workflow after the job is done\nTopics: how this differs from client reactivation automation, how it differs from a review-request workflow, when a painting contractor should ask for referrals, what a focused painting referral workflow usually costs, and where the ROI actually comes from.\n\n### Final CTA\nHeading: Want finished painting jobs to produce more real referrals?\nBody: Book a 30-minute call. We will look at how your company closes out projects today, where referral opportunities are getting lost, and whether a focused referral workflow, a review-timing fix, or an earlier lead or estimate fix is the smarter next move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after broad backlog reconciliation across planning docs, the live routes/pages set, and the mature painting cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the painting parent and the live client-reactivation child already explicitly carried referral intent, but the cluster still lacked a page that isolated the narrower post-job referral ask from both dormant-client reactivation and review timing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live painting cluster, the existing painting reactivation and review-request children, and the published e-commerce CRM case study support the workflow pattern without implying a dedicated painting referral case study already exists."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-25T18:09:56.497Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 24.2,
+      "sentenceLengthRange": [
+        3,
+        55
+      ],
+      "totalWords": 339
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Referral Request Automation for Painting Contractors\nBody: A lot of painting companies say referrals are their best leads, then leave referrals to luck.",
+      "wordCount": 25,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want finished painting jobs to produce more real referrals?\nBody: Book a 30-minute call. We will look at how your company closes out projects today, where referral opportunities are getting lost, and whether a focused referral workflow, a review-timing fix, or an earlier lead or estimate fix is the smarter next move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 19,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.46
+    },
+    "vocabulary": {
+      "distinctWords": 183,
+      "totalWords": 339,
+      "topWords": [
+        [
+          "referral",
+          10
+        ],
+        [
+          "painting",
+          10
+        ],
+        [
+          "workflow",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "referrals",
+          5
+        ],
+        [
+          "from",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "actually",
+          4
+        ],
+        [
+          "contractors",
+          3
+        ],
+        [
+          "no",
+          3
+        ],
+        [
+          "ask",
+          3
+        ],
+        [
+          "client",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

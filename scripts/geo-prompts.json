@@ -2752,8 +2752,20 @@
         "Client reactivation automation for painting contractors",
         "How do painting contractors bring past clients back for another project?",
         "Best way for a painting company to reactivate past clients before repaint season",
-        "Should a painting contractor automate past-client follow-up and referral outreach?",
+        "How should a painting company time seasonal reactivation around likely repaint windows?",
         "How do I bring old painting clients back without blasting my whole list?"
+      ]
+    },
+    {
+      "id": "referral-request-automation-for-painting-contractors",
+      "path": "/referral-request-automation-for-painting-contractors",
+      "label": "Referral Request Automation for Painting Contractors",
+      "prompts": [
+        "Referral request automation for painting contractors",
+        "How do painting contractors ask happy clients for referrals automatically?",
+        "Best way for a painting company to automate neighbor-referral follow-up after completed projects",
+        "Should a painting contractor separate referral requests from review requests?",
+        "When should a painting company ask for referrals after a project is finished?"
       ]
     },
     {

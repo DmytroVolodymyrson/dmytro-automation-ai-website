@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 281 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 282 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -246,6 +246,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Recurring Service Reminder Automation for Pest Control Companies** — `/recurring-service-reminder-automation-for-pest-control-companies`
 - **Recurring Service Scheduling and Reminder Automation for Landscaping Companies** — `/recurring-service-scheduling-and-reminder-automation-for-landscaping-companies`
 - **Renewal Reminder Automation for Insurance Agencies** — `/renewal-reminder-automation-for-insurance-agencies`
+- **Referral Request Automation for Painting Contractors** — `/referral-request-automation-for-painting-contractors`
 - **Repeat-Purchase & Reactivation Automation for Auto Parts E-Commerce** — `/repeat-purchase-reactivation-automation-for-auto-parts-ecommerce`
 - **Repeat-Purchase & Reactivation Automation for E-Commerce Brands** — `/repeat-purchase-reactivation-automation-for-ecommerce-brands`
 - **Report Delivery and Review Automation for Home Inspectors** — `/report-delivery-and-review-automation-for-home-inspectors`

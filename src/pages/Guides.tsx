@@ -2031,6 +2031,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Referral Request Automation for Painting Contractors",
+    description:
+      "Post-job advocacy workflow for painting contractors who want cleaner referral timing, a clear separation from review asks, and faster routing when a happy client mentions a neighbor, second property, or repeat project.",
+    href: "/referral-request-automation-for-painting-contractors",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Painting Contractors",
     description:
       "Scoping guide for painting contractors deciding whether the first automation should be missed-call recovery, instant lead response, estimate follow-up, or past-client reactivation before a broader rollout.",
