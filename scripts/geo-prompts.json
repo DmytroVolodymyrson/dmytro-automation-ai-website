@@ -1029,6 +1029,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-vs-voicemail-for-accounting-firms",
+      "path": "/ai-phone-answering-vs-voicemail-for-accounting-firms",
+      "label": "AI Phone Answering vs. Voicemail for Accounting Firms",
+      "prompts": [
+        "AI phone answering vs voicemail for accounting firms",
+        "Should my accounting firm use AI phone answering or voicemail?",
+        "Is AI phone answering better than voicemail for CPAs?",
+        "Cost of AI phone answering vs voicemail for accountants",
+        "How to handle tax season calls: AI answering or voicemail?"
+      ]
+    },
+    {
       "id": "ai-automation-for-insurance-agencies",
       "path": "/ai-automation-for-insurance-agencies",
       "label": "AI Automation for Insurance Agencies",

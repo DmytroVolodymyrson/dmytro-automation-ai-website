@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `ai-phone-answering-for-accounting-firms` after broad backlog reconciliation surfaced one exact surviving phone-coverage workflow gap inside the live accounting cluster. The site already had the broader accounting parent, the first-project scoping page, lead follow-up, document collection, onboarding, and scheduling pages live, but it still lacked the heavier live-answering layer implied by both the cluster shape and the professional intake requirements of CPA practices. This new page now owns that live-answering workflow directly instead of leaving it buried inside generic guides. With that accounting phone-coverage child now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster accounting page by inertia.)
+Last updated: 2026-04-25 (shipped `ai-phone-answering-vs-voicemail-for-accounting-firms` as the high-intent fallback decision for the accounting cluster. After the broad live-answering explainer shipped, this comparison isolates the specific buyer choice between keeping voicemail and moving to live AI phone coverage, especially for tax season demand. With this comparison live, the accounting phone cluster is functionally complete. The next run should reset to broad reconciliation to identify the next high-value vertical gap.)
 
 ## Live GEO Assets
 
