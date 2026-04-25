@@ -85,6 +85,7 @@ const AiAutomationForElectricalContractors = lazy(() => import("./pages/AiAutoma
 const WhatToAutomateFirstForElectricalContractors = lazy(() => import("./pages/WhatToAutomateFirstForElectricalContractors"));
 const AiLeadFollowUpForElectricalContractors = lazy(() => import("./pages/AiLeadFollowUpForElectricalContractors"));
 const MissedCallTextBackForElectricalContractors = lazy(() => import("./pages/MissedCallTextBackForElectricalContractors"));
+const AiPhoneAnsweringForElectricalContractors = lazy(() => import("./pages/AiPhoneAnsweringForElectricalContractors"));
 const EstimateFollowUpAutomationForElectricalContractors = lazy(() => import("./pages/EstimateFollowUpAutomationForElectricalContractors"));
 const ReviewRequestAutomationForElectricalContractors = lazy(() => import("./pages/ReviewRequestAutomationForElectricalContractors"));
 const AppointmentSchedulingAndReminderAutomationForElectricalContractors = lazy(() => import("./pages/AppointmentSchedulingAndReminderAutomationForElectricalContractors"));
@@ -366,6 +367,7 @@ const AppRoutesClient = () => (
       <Route path="/what-to-automate-first-for-electrical-contractors" element={<WhatToAutomateFirstForElectricalContractors />} />
       <Route path="/ai-lead-follow-up-for-electrical-contractors" element={<AiLeadFollowUpForElectricalContractors />} />
       <Route path="/missed-call-text-back-for-electrical-contractors" element={<MissedCallTextBackForElectricalContractors />} />
+      <Route path="/ai-phone-answering-for-electrical-contractors" element={<AiPhoneAnsweringForElectricalContractors />} />
       <Route path="/appointment-scheduling-and-reminder-automation-for-electrical-contractors" element={<AppointmentSchedulingAndReminderAutomationForElectricalContractors />} />
       <Route path="/estimate-follow-up-automation-for-electrical-contractors" element={<EstimateFollowUpAutomationForElectricalContractors />} />
       <Route path="/review-request-automation-for-electrical-contractors" element={<ReviewRequestAutomationForElectricalContractors />} />

@@ -911,6 +911,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering for Electrical Contractors",
+    description:
+      "A narrower electrical live-phone-coverage workflow page focused on routine call intake, after-hours answer coverage, safety-aware handoff, and the point where voicemail or SMS-only recovery stops being enough.",
+    href: "/ai-phone-answering-for-electrical-contractors",
+    category: "industries",
+  },
+  {
     title: "Appointment Scheduling and Reminder Automation for Electrical Contractors",
     description:
       "A narrower electrical booked-job workflow page focused on confirmations, reminder timing, reschedule routing, office-to-field handoff, and fewer preventable schedule gaps after the visit is already booked.",

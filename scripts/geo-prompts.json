@@ -2865,6 +2865,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-for-electrical-contractors",
+      "path": "/ai-phone-answering-for-electrical-contractors",
+      "label": "AI Phone Answering for Electrical Contractors",
+      "prompts": [
+        "AI phone answering for electrical contractors",
+        "Should an electrical contractor use live AI phone answering?",
+        "How should an electrical contractor handle urgent service calls when the office is tied up?",
+        "When is live AI phone answering better than missed-call text-back for an electrical contractor?",
+        "How can an electrical company cover after-hours calls without hiring another full office shift?"
+      ]
+    },
+    {
       "id": "appointment-scheduling-and-reminder-automation-for-electrical-contractors",
       "path": "/appointment-scheduling-and-reminder-automation-for-electrical-contractors",
       "label": "Appointment Scheduling and Reminder Automation for Electrical Contractors",
