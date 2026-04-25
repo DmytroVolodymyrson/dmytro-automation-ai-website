@@ -65,6 +65,7 @@ import AiAutomationForRealEstate from "./pages/AiAutomationForRealEstate";
 import RealEstateLeadResponseAndFollowUpAutomation from "./pages/RealEstateLeadResponseAndFollowUpAutomation";
 import ShowingCoordinationAutomationForRealEstateTeams from "./pages/ShowingCoordinationAutomationForRealEstateTeams";
 import WhatToAutomateFirstForRealEstate from "./pages/WhatToAutomateFirstForRealEstate";
+import CrmCleanupAndRoutingForRealEstateTeams from "./pages/CrmCleanupAndRoutingForRealEstateTeams";
 import AiAutomationForMortgageBrokers from "./pages/AiAutomationForMortgageBrokers";
 import AiLeadFollowUpForMortgageBrokers from "./pages/AiLeadFollowUpForMortgageBrokers";
 import DocumentCollectionAutomationForMortgageBrokers from "./pages/DocumentCollectionAutomationForMortgageBrokers";
@@ -408,6 +409,10 @@ export const appRoutes: AppRouteDefinition[] = [
     element: <ShowingCoordinationAutomationForRealEstateTeams />,
   },
   { path: "/what-to-automate-first-for-real-estate", element: <WhatToAutomateFirstForRealEstate /> },
+  {
+    path: "/crm-cleanup-and-routing-for-real-estate-teams",
+    element: <CrmCleanupAndRoutingForRealEstateTeams />,
+  },
   { path: "/ai-automation-for-mortgage-brokers", element: <AiAutomationForMortgageBrokers /> },
   { path: "/ai-lead-follow-up-for-mortgage-brokers", element: <AiLeadFollowUpForMortgageBrokers /> },
   { path: "/document-collection-automation-for-mortgage-brokers", element: <DocumentCollectionAutomationForMortgageBrokers /> },

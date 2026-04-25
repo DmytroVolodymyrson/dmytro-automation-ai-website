@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `what-to-automate-first-for-ecommerce-brands` after broad backlog reconciliation. The live e-commerce parent plus narrower child pages for CRM follow-up, support routing, order-status / return handling, and repeat-purchase reactivation already exposed a clear missing earlier buyer decision: which bounded workflow should an online store automate first before funding a broader build. This new first-project page now owns that prioritization intent directly.)
+Last updated: 2026-04-25 (shipped `crm-cleanup-and-routing-for-real-estate-teams` after broad backlog reconciliation. The live real-estate parent plus the first-project, lead-response, and showing-coordination pages already exposed a clear missing workflow child: CRM cleanup and routing for teams whose stages, ownership, and pipeline truth are too messy to trust before heavier automation.)
 
 ## Live GEO Assets
 
@@ -67,6 +67,7 @@ Last updated: 2026-04-25 (shipped `what-to-automate-first-for-ecommerce-brands` 
 | Real Estate Lead Response and Follow-Up Automation | `/real-estate-lead-response-and-follow-up-automation` | Industry workflow page | Live |
 | Showing Coordination Automation for Real Estate Teams | `/showing-coordination-automation-for-real-estate-teams` | Industry workflow page | Live |
 | What to Automate First for Real Estate Teams | `/what-to-automate-first-for-real-estate` | Real-estate first-project scoping page | Live |
+| CRM Cleanup and Routing for Real Estate Teams | `/crm-cleanup-and-routing-for-real-estate-teams` | Real-estate CRM operations workflow page | Live |
 | AI Automation for Mortgage Brokers | `/ai-automation-for-mortgage-brokers` | Industry page | Live |
 | AI Lead Follow-Up for Mortgage Brokers | `/ai-lead-follow-up-for-mortgage-brokers` | Industry workflow page | Live |
 | Document Collection Automation for Mortgage Brokers | `/document-collection-automation-for-mortgage-brokers` | Industry workflow page | Live |
@@ -321,18 +322,18 @@ Last updated: 2026-04-25 (shipped `what-to-automate-first-for-ecommerce-brands` 
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 294**
+**Total decision/comparison/industry pages live: 295**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/what-to-automate-first-for-ecommerce-brands` fills the earlier prioritization gap that the live broader e-commerce cluster still left open after CRM follow-up, customer service routing, order-status / return handling, and repeat-purchase reactivation pages were already live. That new child now owns the first-project buyer intent directly: which workflow should come first, which leak matters most right now, and when a smaller scoped build is smarter than funding a broader automation layer too early. With that scoping layer now shipped, the next run should reset to broad backlog reconciliation across the remaining live clusters and planning docs instead of forcing another e-commerce child by inertia.
+Shipping `/crm-cleanup-and-routing-for-real-estate-teams` extracts the exact CRM-cleanup buyer query that was still sitting inside the live real-estate first-project page. The broader parent plus the already-live lead-response and showing pages made the missing stage clearer: some teams do not need another follow-up or scheduling layer first — they need pipeline truth, owner clarity, and routing discipline before any heavier automation can be trusted. With that operations child now live, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster real-estate page by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the e-commerce cluster still automatically owns the next run now that the first-project scoping child has shipped. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the real-estate cluster still automatically owns the next run now that the CRM-cleanup child has shipped. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 

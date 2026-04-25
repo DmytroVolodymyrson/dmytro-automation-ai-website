@@ -617,7 +617,19 @@
         "What should a real estate team automate first?",
         "Should a real estate team automate lead response or showing coordination first?",
         "Best first AI automation for real estate agents and teams",
-        "Should a real estate team start with CRM cleanup or lead follow-up?"
+        "How should a real estate team choose the first automation project when lead response, showings, and database nurture all need work?"
+      ]
+    },
+    {
+      "id": "crm-cleanup-and-routing-for-real-estate-teams",
+      "path": "/crm-cleanup-and-routing-for-real-estate-teams",
+      "label": "CRM Cleanup and Routing for Real Estate Teams",
+      "prompts": [
+        "CRM cleanup and routing for real estate teams",
+        "How do real estate teams clean up a messy CRM before adding more automation?",
+        "Best way to fix lead routing and stage discipline for a real estate team",
+        "Should a real estate team start with CRM cleanup or lead follow-up?",
+        "How do you clean duplicates, ownership rules, and pipeline stages in a real-estate CRM?"
       ]
     },
     {

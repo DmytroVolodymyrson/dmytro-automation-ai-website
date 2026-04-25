@@ -778,6 +778,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "CRM Cleanup and Routing for Real Estate Teams",
+    description:
+      "A narrower real-estate operations page focused on stage cleanup, lead routing, duplicate repair, task ownership, and pipeline truth before heavier follow-up and scheduling automations are layered on top.",
+    href: "/crm-cleanup-and-routing-for-real-estate-teams",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Mortgage Brokers",
     description:
       "AI automation for mortgage brokers. Lead follow-up, document collection, application nurture, and CRM workflows. Practical guide for brokerages.",
