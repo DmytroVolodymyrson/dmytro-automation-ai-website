@@ -2121,6 +2121,18 @@
       ]
     },
     {
+      "id": "client-reactivation-automation-for-roofing-companies",
+      "path": "/client-reactivation-automation-for-roofing-companies",
+      "label": "Client Reactivation Automation for Roofing Companies",
+      "prompts": [
+        "Client reactivation automation for roofing companies",
+        "How can a roofing company reactivate past clients?",
+        "Best way for a roofing company to follow up with old customers",
+        "How do roofers bring back past inspection and repair clients?",
+        "Can AI help a roofing company run maintenance and reactivation campaigns?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-for-roofing-companies",
       "path": "/missed-call-text-back-for-roofing-companies",
       "label": "Missed Call Text-Back for Roofing Companies",

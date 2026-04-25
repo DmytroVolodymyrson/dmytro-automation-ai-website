@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-25-client-reactivation-automation-for-roofing-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-25",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "### Hero\nHeading: Client Reactivation Automation for Roofing Companies\nBody: A lot of roofing companies think growth only comes from the next storm, the next ad click, or the next inspection request. In practice, some of the easiest revenue is sitting in homeowners, property managers, and commercial contacts you already won once. Past repair clients who need another inspection after the next season. Replacement customers who would ask about gutters, maintenance, or another property if someone followed up before the roof became an emergency again. Old leads that turned into real jobs but never became a lasting relationship. Client reactivation automation for roofing companies fixes that narrow retention workflow. It gives the business a practical way to reach past clients at the right time, reopen conversations before the next roofer gets there first, surface maintenance and inspection opportunities without constant manual chasing, and route live intent back to a human before it cools off again.\nSub: Below: what this roofing-company reactivation workflow should actually handle, how it stays distinct from the broader roofing cluster and the generic reactivation guide, what proof honestly supports it, and when reactivation is or is not the right next build compared with fresh lead response, estimate follow-up, booked-job communication, or phone coverage.\n\n### Core sections\n- What this roofing-company workflow should actually handle\n- How this page stays distinct inside the roofing cluster\n- Is this a good fit for your roofing company?\n- Guardrails that keep roofing-company reactivation useful instead of spammy\n- How a practical roofing-company reactivation workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions about bringing dormant roofing clients back without turning follow-up into spam\nTopics: how this differs from the broader roofing automation page, when reactivation is the right next roofing workflow, which roofing clients fit best, what a focused build usually costs, and how to avoid annoying past clients.\n\n### Final CTA\nHeading: Want more repeat roofing revenue from clients you already paid to win?\nBody: Book a 30-minute call. We will look at your completed-job history, where repeat opportunities are quietly leaking, and whether a focused reactivation workflow is the cleanest automation to build next for your roofing company.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after broad reconciliation because the live roofing parent still explicitly named client reactivation and maintenance campaigns as part of the operating layer, while the mature roofing child set already covered lead follow-up, estimate follow-up, booked-job scheduling, phone-recovery decisions, live phone coverage, and review automation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on the completed-job retention layer: past-client outreach, maintenance and inspection timing, referral nudges, and fast human handoff when old customers show new intent. It does not collapse into lead response, estimate recovery, booked-job communication, or the broader roofing automation page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live roofing parent plus `/client-reactivation-automation` as direct on-site proof, with the painting reactivation page as adjacent home-service support instead of pretending there is already a roofing-specific reactivation case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fit / not-fit framing, timing guardrails, stage-specific boundaries, and clear limits on where automation should stop."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-25T13:29:06.070Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 25.9,
+      "sentenceLengthRange": [
+        5,
+        52
+      ],
+      "totalWords": 363
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Client Reactivation Automation for Roofing Companies\nBody: A lot of roofing companies think growth only comes from the next storm, the next ad click, or the next inspection request.",
+      "wordCount": 31,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want more repeat roofing revenue from clients you already paid to win?\nBody: Book a 30-minute call. We will look at your completed-job history, where repeat opportunities are quietly leaking, and whether a focused reactivation workflow is the cleanest automation to build next for your roofing company.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 22,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.69
+    },
+    "vocabulary": {
+      "distinctWords": 195,
+      "totalWords": 363,
+      "topWords": [
+        [
+          "roofing",
+          12
+        ],
+        [
+          "reactivation",
+          9
+        ],
+        [
+          "next",
+          8
+        ],
+        [
+          "clients",
+          6
+        ],
+        [
+          "workflow",
+          6
+        ],
+        [
+          "this",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "roofing-company",
+          4
+        ],
+        [
+          "companies",
+          3
+        ],
+        [
+          "inspection",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.008
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

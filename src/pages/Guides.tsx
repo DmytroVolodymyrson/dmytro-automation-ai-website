@@ -1632,6 +1632,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Client Reactivation Automation for Roofing Companies",
+    description:
+      "A narrower roofing retention page focused on dormant past clients, seasonal inspection or maintenance timing, referral nudges, and bringing old homeowners or property contacts back before the next roofing need goes elsewhere.",
+    href: "/client-reactivation-automation-for-roofing-companies",
+    category: "industries",
+  },
+  {
     title: "Missed Call Text-Back for Roofing Companies",
     description:
       "Missed call text-back for roofing companies. Immediate SMS recovery for storm-damage and inspection calls, callback triage, after-hours demand protection, and where live phone coverage is the better fit.",

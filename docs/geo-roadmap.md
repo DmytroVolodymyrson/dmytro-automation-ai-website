@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `review-request-automation-for-dental-practices` after broad backlog reconciliation. The live dental parent already named review-request automation as part of the broader operating layer, and the mature dental child cluster already covered lead follow-up, booking/reminders, recall/reactivation, no-show reduction, and live phone coverage. This new child isolates the completed-appointment reputation layer: review timing, unhappy-reply routing, provider-to-front-desk handoff, and cleaner post-visit trust follow-through without pretending there is already a dental-specific review-automation case study on the site.)
+Last updated: 2026-04-25 (shipped `client-reactivation-automation-for-roofing-companies` after broad backlog reconciliation. The live roofing parent already named client reactivation and maintenance campaigns as part of the broader operating layer, while the mature roofing child cluster already covered lead follow-up, estimate follow-up, booked-job scheduling, phone-recovery decisions, live phone coverage, and review automation. This new child isolates the completed-job retention layer: past-client outreach, seasonal inspection or maintenance timing, referral nudges, and fast human handoff when old customers show new intent without pretending there is already a roofing-specific reactivation case study on the site.)
 
 ## Live GEO Assets
 
@@ -240,6 +240,7 @@ Last updated: 2026-04-25 (shipped `review-request-automation-for-dental-practice
 | AI Lead Follow-Up for Roofing Companies | `/ai-lead-follow-up-for-roofing-companies` | Roofing early-funnel lead-response workflow page | Live |
 | Estimate Follow-Up Automation for Roofing Companies | `/estimate-follow-up-automation-for-roofing-companies` | Roofing workflow page | Live |
 | Roofing Scheduling and Follow-Up Automation | `/roofing-scheduling-and-follow-up-automation` | Roofing booked-job workflow page | Live |
+| Client Reactivation Automation for Roofing Companies | `/client-reactivation-automation-for-roofing-companies` | Roofing completed-job retention workflow page | Live |
 | Missed Call Text-Back for Roofing Companies | `/missed-call-text-back-for-roofing-companies` | Roofing phone-recovery workflow page | Live |
 | Missed Call Text-Back vs. AI Phone Answering for Roofing Companies | `/missed-call-text-back-vs-ai-phone-answering-for-roofing-companies` | Roofing phone-recovery decision page | Live |
 | AI Phone Answering for Roofing Companies | `/ai-phone-answering-for-roofing-companies` | Roofing live-phone-coverage workflow page | Live |
@@ -317,18 +318,18 @@ Last updated: 2026-04-25 (shipped `review-request-automation-for-dental-practice
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 290**
+**Total decision/comparison/industry pages live: 291**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/review-request-automation-for-dental-practices` fills the completed-appointment reputation gap that the live dental cluster still left open after lead follow-up, booking/reminders, recall/reactivation, no-show reduction, and live phone coverage were already live. That child now owns the post-visit review buyer intent directly: timing the ask to the appointment type, routing unhappy replies back inside first, and keeping provider-to-front-desk handoff attached instead of treating review requests like one more generic reminder. With that reputation layer now shipped, the next run should reset to broad backlog reconciliation across the rest of the live clusters and planning docs instead of forcing another dental child by inertia.
+Shipping `/client-reactivation-automation-for-roofing-companies` fills the completed-job retention gap that the live roofing cluster still left open after lead follow-up, estimate follow-up, booked-job scheduling, phone-recovery decisions, live phone coverage, and review automation were already live. That child now owns the past-client reactivation buyer intent directly: seasonal inspection or maintenance timing, dormant-customer outreach, referral nudges, and fast human handoff when old customers show new intent. With that retention layer now shipped, the next run should reset to broad backlog reconciliation across the rest of the live clusters and planning docs instead of forcing another roofing child by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the dental cluster still automatically owns the next run now that the post-visit review child has shipped. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the roofing cluster still automatically owns the next run now that the completed-job reactivation child has shipped. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 
