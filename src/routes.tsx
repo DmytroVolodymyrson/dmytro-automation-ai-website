@@ -65,6 +65,7 @@ import AiAutomationForRealEstate from "./pages/AiAutomationForRealEstate";
 import RealEstateLeadResponseAndFollowUpAutomation from "./pages/RealEstateLeadResponseAndFollowUpAutomation";
 import ShowingCoordinationAutomationForRealEstateTeams from "./pages/ShowingCoordinationAutomationForRealEstateTeams";
 import WhatToAutomateFirstForRealEstate from "./pages/WhatToAutomateFirstForRealEstate";
+import ClientReactivationAutomationForRealEstateTeams from "./pages/ClientReactivationAutomationForRealEstateTeams";
 import CrmCleanupAndRoutingForRealEstateTeams from "./pages/CrmCleanupAndRoutingForRealEstateTeams";
 import AiAutomationForMortgageBrokers from "./pages/AiAutomationForMortgageBrokers";
 import AiLeadFollowUpForMortgageBrokers from "./pages/AiLeadFollowUpForMortgageBrokers";
@@ -416,6 +417,10 @@ export const appRoutes: AppRouteDefinition[] = [
     element: <ShowingCoordinationAutomationForRealEstateTeams />,
   },
   { path: "/what-to-automate-first-for-real-estate", element: <WhatToAutomateFirstForRealEstate /> },
+  {
+    path: "/client-reactivation-automation-for-real-estate-teams",
+    element: <ClientReactivationAutomationForRealEstateTeams />,
+  },
   {
     path: "/crm-cleanup-and-routing-for-real-estate-teams",
     element: <CrmCleanupAndRoutingForRealEstateTeams />,

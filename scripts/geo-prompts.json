@@ -621,6 +621,18 @@
       ]
     },
     {
+      "id": "client-reactivation-automation-for-real-estate-teams",
+      "path": "/client-reactivation-automation-for-real-estate-teams",
+      "label": "Client Reactivation Automation for Real Estate Teams",
+      "prompts": [
+        "Client reactivation automation for real estate teams",
+        "How do real estate teams automate past-client reactivation and sphere nurture?",
+        "Best way to reactivate a real-estate database without spamming past clients",
+        "Should a real estate team automate anniversary check-ins, market updates, and referral follow-up?",
+        "How should a real estate team separate past-client nurture from active deal follow-up in the CRM?"
+      ]
+    },
+    {
       "id": "crm-cleanup-and-routing-for-real-estate-teams",
       "path": "/crm-cleanup-and-routing-for-real-estate-teams",
       "label": "CRM Cleanup and Routing for Real Estate Teams",

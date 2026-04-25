@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-25-client-reactivation-automation-for-real-estate-teams",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-25",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "### Hero\nHeading: Client Reactivation Automation for Real Estate Teams\nBody: A lot of real-estate teams chase more fresh leads when the easier revenue is already sitting in the database. Past buyers who may be thinking about their next move. Past sellers whose friends or family are about to list. Sphere contacts who know you, trust you, and would probably reply if the follow-up felt timely instead of random. Old buyer and seller leads who were once real conversations but quietly fell out of the pipeline. Client reactivation automation for real estate teams fixes that narrower lifecycle workflow. It gives the business a structured way to send useful anniversary and market-timing check-ins, revive old conversations before another agent becomes the default, create referral opportunities without relying on memory, and route live intent back to the right person fast when someone is ready again.\nSub: Below: what this real-estate reactivation workflow should actually handle, how it stays distinct from the broader real-estate parent and the already-live lead-response, showing, and CRM-cleanup pages, what proof honestly supports it, and when database nurture is or is not the right next build compared with faster first response or cleaner pipeline routing.\n\n### Core sections\nHeading: What this real-estate reactivation workflow should actually handle\nBody: The page explains six practical layers: past-client reactivation, anniversary and market-timing outreach, sphere nurture without relying on memory, old lead and referral re-engagement, fast human handoff when dormant contacts show intent again, and visibility into which segments still respond.\n\nHeading: How this page stays distinct inside the real-estate cluster\nBody: The page draws a clean boundary between this child page and the broader real-estate parent, the first-project scoping page, and the CRM-cleanup child. This page is about database nurture and reactivation once the team already knows the bigger leak is in past clients, sphere contacts, or dormant conversations.\n\nHeading: Is this the right next page for your business?\nBody: Good-fit signals include meaningful contact history, weak repeat-contact discipline, clear anniversary or market-update opportunities, and a team that can own replies quickly. Poor-fit signals include slow first response to new leads, a CRM too messy to trust, or no usable database to work from.\n\nHeading: Guardrails that keep real-estate reactivation useful instead of spammy\nBody: The page stresses segmenting by relationship and timing, keeping active-deal follow-up separate from nurture, using practical messages instead of fake personalization, routing warm replies fast, and measuring recovered conversations and referrals instead of vanity engagement.\n\nHeading: What proof honestly supports this page\nBody: The proof framing stays explicit. There is no published real-estate-specific reactivation case study on the site yet. Instead, the page anchors on the live real-estate parent and first-project page that already name database reactivation as a distinct workflow family, the generic client-reactivation guide that already explains the core lifecycle mechanics, and the published e-commerce CRM case study that proves why segmentation and ownership matter before dormant value quietly rots.\n\n### FAQ\nHeading: Frequently asked questions\nBody: The FAQ covers how this differs from the broader real-estate page, when database reactivation should come before faster lead response, who belongs in a real-estate reactivation workflow, what a focused build usually costs, and how to keep the outreach from feeling spammy.\n\n### Final CTA\nHeading: Want more repeat real-estate conversations from contacts you already paid to acquire?\nBody: Book a 30-minute call. We will look at your current database, follow-up gaps, and where past clients, sphere contacts, or old leads are quietly going cold, then map the smallest workflow that would bring the right ones back without overbuilding it.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Keep the tone operational, direct, and anti-hype."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Frame reactivation as a bounded workflow decision, not a generic newsletter or drip-campaign promise."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Stay honest about proof: use the live real-estate cluster, the generic reactivation page, and published CRM proof instead of inventing a real-estate-specific case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Emphasize sphere nurture, past-client timing, dormant-contact recovery, and fast human handoff when someone is ready again."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-25T19:00:45.524Z",
+    "structure": {
+      "paragraphCount": 8,
+      "sentencesPerParagraph": [
+        8,
+        1,
+        2,
+        3,
+        1,
+        3,
+        1,
+        3
+      ],
+      "avgSentenceLength": 26.7,
+      "sentenceLengthRange": [
+        5,
+        53
+      ],
+      "totalWords": 588
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Client Reactivation Automation for Real Estate Teams\nBody: A lot of real-estate teams chase more fresh leads when the easier revenue is already sitting in the database.",
+      "wordCount": 29,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want more repeat real-estate conversations from contacts you already paid to acquire?\nBody: Book a 30-minute call. We will look at your current database, follow-up gaps, and where past clients, sphere contacts, or old leads are quietly going cold, then map the smallest workflow that would bring the right ones back without overbuilding it.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | context | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 20,
+      "commas": 40,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 19,
+      "commasPerSentence": 1.82
+    },
+    "vocabulary": {
+      "distinctWords": 281,
+      "totalWords": 588,
+      "topWords": [
+        [
+          "page",
+          12
+        ],
+        [
+          "reactivation",
+          11
+        ],
+        [
+          "real-estate",
+          11
+        ],
+        [
+          "heading",
+          8
+        ],
+        [
+          "body",
+          8
+        ],
+        [
+          "this",
+          8
+        ],
+        [
+          "database",
+          7
+        ],
+        [
+          "that",
+          7
+        ],
+        [
+          "workflow",
+          6
+        ],
+        [
+          "from",
+          6
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "already",
+          5
+        ],
+        [
+          "contacts",
+          5
+        ],
+        [
+          "instead",
+          5
+        ],
+        [
+          "conversations",
+          5
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right",
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.007
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

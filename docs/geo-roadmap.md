@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `referral-request-automation-for-insurance-agencies` after broad backlog reconciliation. The live insurance parent already named reviews and referrals as one workflow family, and the insurance review-request child had been carrying an explicit broader-referral prompt, but the cluster still lacked a page that isolated the narrower advocacy / introduction ask from public-review timing. This new child now owns the post-service referral-request layer instead of stretching the review page into mixed trust-plus-advocacy intent. With that insurance referral workflow now live beside the parent, first-project, lead, quote, renewal, cross-sell, review, and phone pages, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster insurance page by inertia.)
+Last updated: 2026-04-25 (shipped `client-reactivation-automation-for-real-estate-teams` after broad backlog reconciliation confirmed one clean surviving real-estate gap. The live real-estate parent already named past-client reactivation as part of the broader operating layer, and the first-project page explicitly framed database reactivation and sphere nurture as one of the four bounded first builds, but the cluster still lacked a child page that isolated that lifecycle stage from fresh lead response, showing coordination, and CRM cleanup. This new child now owns the real-estate database-reactivation layer instead of leaving that intent buried inside broader cluster copy. With that real-estate reactivation page now live beside the parent, first-project, lead-response, showing, and CRM-cleanup pages, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster real-estate page by inertia.)
 
 ## Live GEO Assets
 
@@ -67,6 +67,7 @@ Last updated: 2026-04-25 (shipped `referral-request-automation-for-insurance-age
 | Real Estate Lead Response and Follow-Up Automation | `/real-estate-lead-response-and-follow-up-automation` | Industry workflow page | Live |
 | Showing Coordination Automation for Real Estate Teams | `/showing-coordination-automation-for-real-estate-teams` | Industry workflow page | Live |
 | What to Automate First for Real Estate Teams | `/what-to-automate-first-for-real-estate` | Real-estate first-project scoping page | Live |
+| Client Reactivation Automation for Real Estate Teams | `/client-reactivation-automation-for-real-estate-teams` | Real-estate lifecycle / past-client reactivation workflow page | Live |
 | CRM Cleanup and Routing for Real Estate Teams | `/crm-cleanup-and-routing-for-real-estate-teams` | Real-estate CRM operations workflow page | Live |
 | AI Automation for Mortgage Brokers | `/ai-automation-for-mortgage-brokers` | Industry page | Live |
 | AI Lead Follow-Up for Mortgage Brokers | `/ai-lead-follow-up-for-mortgage-brokers` | Industry workflow page | Live |
@@ -329,18 +330,18 @@ Last updated: 2026-04-25 (shipped `referral-request-automation-for-insurance-age
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 302**
+**Total decision/comparison/industry pages live: 303**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/referral-request-automation-for-insurance-agencies` extracts the narrower advocacy layer that the live insurance parent and the existing insurance review-request child were already implying, but without collapsing it back into either public-review timing or the broader revenue / retention pages. The mature insurance cluster now has the broad parent, first-project scoping page, lead follow-up, quote follow-up, renewal reminders, cross-sell, review requests, referral requests, and the phone layer live. With that insurance advocacy page now shipped, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster insurance page by inertia.
+Shipping `/client-reactivation-automation-for-real-estate-teams` extracts the narrower lifecycle layer that the live real-estate parent and the existing first-project page were already implying, but without collapsing it back into either fresh lead follow-up, showing coordination, or CRM cleanup. The real-estate cluster now has the broad parent, lead-response child, showing child, first-project scoping page, CRM-cleanup child, and this new database-reactivation child live. With that real-estate reactivation page now shipped, the next run should reset to broad backlog reconciliation again instead of forcing another same-cluster real-estate page by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the mature insurance cluster still automatically owns the next run now that its referral-request child is live beside review requests, cross-sell, renewals, and the phone pages. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the mature real-estate cluster still automatically owns the next run now that its database-reactivation child is live beside the parent, first-project, lead-response, showing, and CRM-cleanup pages. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 

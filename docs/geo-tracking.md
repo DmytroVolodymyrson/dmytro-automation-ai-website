@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 283 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 284 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -100,7 +100,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Automation Consultant Calgary** — `/ai-automation-consultant-calgary`
 - **AI Automation Consultant Edmonton** — `/ai-automation-consultant-edmonton`
 
-### Industry + vertical pages (176)
+### Industry + vertical pages (177)
 - **After-Hours AI Phone Answering vs. Voicemail for Restaurants** — `/after-hours-ai-phone-answering-vs-voicemail-for-restaurants`
 - **After-Hours Maintenance Triage for Property Management Companies** — `/after-hours-maintenance-triage-for-property-management-companies`
 - **After-Hours Phone Answering for Restaurants** — `/after-hours-phone-answering-for-restaurants`
@@ -155,6 +155,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Care Plan Recall Automation for Chiropractors** — `/care-plan-recall-automation-for-chiropractors`
 - **Client Reactivation Automation for Cleaning Companies** — `/client-reactivation-automation-for-cleaning-companies`
 - **Client Reactivation Automation for Auto Repair Shops** — `/client-reactivation-automation-for-auto-repair-shops`
+- **Client Reactivation Automation for Real Estate Teams** — `/client-reactivation-automation-for-real-estate-teams`
 - **Client Reactivation Automation for Roofing Companies** — `/client-reactivation-automation-for-roofing-companies`
 - **Consultation Booking and Reminder Automation for Med Spas** — `/consultation-booking-and-reminder-automation-for-med-spas`
 - **CRM Automation for Contractors** — `/crm-automation-for-contractors`

@@ -66,6 +66,7 @@ const AiAutomationForRealEstate = lazy(() => import("./pages/AiAutomationForReal
 const RealEstateLeadResponseAndFollowUpAutomation = lazy(() => import("./pages/RealEstateLeadResponseAndFollowUpAutomation"));
 const ShowingCoordinationAutomationForRealEstateTeams = lazy(() => import("./pages/ShowingCoordinationAutomationForRealEstateTeams"));
 const WhatToAutomateFirstForRealEstate = lazy(() => import("./pages/WhatToAutomateFirstForRealEstate"));
+const ClientReactivationAutomationForRealEstateTeams = lazy(() => import("./pages/ClientReactivationAutomationForRealEstateTeams"));
 const CrmCleanupAndRoutingForRealEstateTeams = lazy(() => import("./pages/CrmCleanupAndRoutingForRealEstateTeams"));
 const AiAutomationForMortgageBrokers = lazy(() => import("./pages/AiAutomationForMortgageBrokers"));
 const AiLeadFollowUpForMortgageBrokers = lazy(() => import("./pages/AiLeadFollowUpForMortgageBrokers"));
@@ -391,6 +392,7 @@ const AppRoutesClient = () => (
       <Route path="/real-estate-lead-response-and-follow-up-automation" element={<RealEstateLeadResponseAndFollowUpAutomation />} />
       <Route path="/showing-coordination-automation-for-real-estate-teams" element={<ShowingCoordinationAutomationForRealEstateTeams />} />
       <Route path="/what-to-automate-first-for-real-estate" element={<WhatToAutomateFirstForRealEstate />} />
+      <Route path="/client-reactivation-automation-for-real-estate-teams" element={<ClientReactivationAutomationForRealEstateTeams />} />
       <Route path="/crm-cleanup-and-routing-for-real-estate-teams" element={<CrmCleanupAndRoutingForRealEstateTeams />} />
       <Route path="/ai-automation-for-mortgage-brokers" element={<AiAutomationForMortgageBrokers />} />
       <Route path="/ai-lead-follow-up-for-mortgage-brokers" element={<AiLeadFollowUpForMortgageBrokers />} />
