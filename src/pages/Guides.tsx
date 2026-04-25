@@ -855,6 +855,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Consultation Scheduling and Reminder Automation for Law Firms",
+    description:
+      "Booked-consult workflow for law firms that need faster scheduling, clearer confirmations, better reminder timing, cleaner reschedule routing, and fewer preventable consultation no-shows.",
+    href: "/consultation-scheduling-and-reminder-automation-for-law-firms",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Accounting Firms",
     description:
       "AI automation for accounting firms. Client onboarding, document collection, appointment scheduling, and seasonal workflows for CPA and bookkeeping practices.",

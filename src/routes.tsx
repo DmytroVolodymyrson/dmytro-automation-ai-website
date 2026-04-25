@@ -76,6 +76,7 @@ import RecallAndReactivationAutomationForDentalPractices from "./pages/RecallAnd
 import AiAutomationForLawFirms from "./pages/AiAutomationForLawFirms";
 import WhatToAutomateFirstForLawFirms from "./pages/WhatToAutomateFirstForLawFirms";
 import IntakeAndConflictCheckAutomationForLawFirms from "./pages/IntakeAndConflictCheckAutomationForLawFirms";
+import ConsultationSchedulingAndReminderAutomationForLawFirms from "./pages/ConsultationSchedulingAndReminderAutomationForLawFirms";
 import AiAutomationForAccountingFirms from "./pages/AiAutomationForAccountingFirms";
 import DocumentCollectionAutomationForAccountingFirms from "./pages/DocumentCollectionAutomationForAccountingFirms";
 import ClientOnboardingAutomationForAccountingFirms from "./pages/ClientOnboardingAutomationForAccountingFirms";
@@ -402,6 +403,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-for-law-firms", element: <AiAutomationForLawFirms /> },
   { path: "/what-to-automate-first-for-law-firms", element: <WhatToAutomateFirstForLawFirms /> },
   { path: "/intake-and-conflict-check-automation-for-law-firms", element: <IntakeAndConflictCheckAutomationForLawFirms /> },
+  { path: "/consultation-scheduling-and-reminder-automation-for-law-firms", element: <ConsultationSchedulingAndReminderAutomationForLawFirms /> },
   { path: "/ai-automation-for-accounting-firms", element: <AiAutomationForAccountingFirms /> },
   { path: "/document-collection-automation-for-accounting-firms", element: <DocumentCollectionAutomationForAccountingFirms /> },
   { path: "/client-onboarding-automation-for-accounting-firms", element: <ClientOnboardingAutomationForAccountingFirms /> },

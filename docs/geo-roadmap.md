@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `intake-and-conflict-check-automation-for-law-firms` after reconciling GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The fresh audit confirmed the law-firm cluster still had one clean pre-consult child left: the broad parent already names intake automation, the first-project page already isolates intake and conflict-check prep as a bounded buyer decision, and the live cluster still lacked a page focused specifically on pre-consult information gathering, conflict-check readiness, and attorney handoff.)
+Last updated: 2026-04-25 (shipped `consultation-scheduling-and-reminder-automation-for-law-firms` after reconciling GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json. The fresh audit confirmed the law-firm cluster still had one clean booked-consult child left: the broad parent already names consultation scheduling, the first-project page already isolates it as a bounded buyer decision, the intake-prep child is now live, and the cluster still lacked a page focused specifically on confirmations, reminder timing, reschedule routing, and receptionist-to-attorney handoff between initial intent and the attended consult.)
 
 ## Live GEO Assets
 
@@ -78,6 +78,7 @@ Last updated: 2026-04-25 (shipped `intake-and-conflict-check-automation-for-law-
 | AI Automation for Law Firms | `/ai-automation-for-law-firms` | Industry page | Live |
 | What to Automate First for Law Firms | `/what-to-automate-first-for-law-firms` | Law-firm first-project scoping page | Live |
 | Intake and Conflict-Check Automation for Law Firms | `/intake-and-conflict-check-automation-for-law-firms` | Law-firm pre-consult intake workflow page | Live |
+| Consultation Scheduling and Reminder Automation for Law Firms | `/consultation-scheduling-and-reminder-automation-for-law-firms` | Law-firm booked-consult scheduling workflow page | Live |
 | AI Automation for Accounting Firms | `/ai-automation-for-accounting-firms` | Industry page | Live |
 | Document Collection Automation for Accounting Firms | `/document-collection-automation-for-accounting-firms` | Accounting document-intake workflow page | Live |
 | Client Onboarding Automation for Accounting Firms | `/client-onboarding-automation-for-accounting-firms` | Accounting post-sale onboarding workflow page | Live |
@@ -304,18 +305,20 @@ Last updated: 2026-04-25 (shipped `intake-and-conflict-check-automation-for-law-
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 277**
+**Total decision/comparison/industry pages live: 278**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/intake-and-conflict-check-automation-for-law-firms` closes the cleanest remaining exact tracked query that still survived inside the law-firm cluster. The next run should go back to a broad planned-backlog reconciliation instead of forcing another law-firm child by inertia. After this ship, the safest default is still a repo-wide re-audit across GEO-PLAN.md, docs/geo-plan-2026-03.md, docs/programmatic-seo-pattern-matrix.md, current live routes/pages, and scripts/geo-prompts.json before naming another cluster-level fallback.
+Shipping `/consultation-scheduling-and-reminder-automation-for-law-firms` closes the clearest remaining booked-consult workflow gap still surviving inside the law-firm cluster. One exact law-firm child still appears defensible (`unretained-consult-follow-up-for-law-firms`), but the safest default for the next run is still a fresh repo-wide reconciliation so the worker does not force another same-cluster page by inertia when a cleaner cross-cluster gap may now exist.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Watchlist** | Fresh broad reconciliation of remaining generic and cluster backlog | Re-check the highest-value remaining planned gaps before defaulting to another cluster child | The strongest exact law-firm intake-prep candidate just shipped, and the remaining planning docs now need another repo-wide pass to distinguish genuinely unshipped pages from already-live pages, renamed equivalents, and stale backlog wording. | **Fresh reconciliation required next run** |
+| 1 | **Watchlist** | Fresh broad reconciliation of remaining generic and cluster backlog | Re-check the highest-value remaining planned gaps before defaulting to another cluster child | After the booked-consult law-firm page shipped, the strongest next move is another repo-wide pass across planning docs, live routes/pages, and prompts to distinguish genuinely unshipped pages from already-live equivalents and stale backlog wording. | **Fresh reconciliation required next run** |
+| 2 | High | Unretained-consult follow-up for law firms | Post-consult nurture for prospects who took the consultation but did not retain | The law-firm first-project page still names post-consult follow-up as a distinct late-funnel workflow, and the cluster still lacks a page focused narrowly on disciplined follow-up after the consultation already happened. | **Candidate if still clean after the next reconciliation** |
+|
 
 ### Priority Definitions
 
