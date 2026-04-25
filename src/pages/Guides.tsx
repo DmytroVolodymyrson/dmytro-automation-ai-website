@@ -862,6 +862,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Estimate Follow-Up Automation for Electrical Contractors",
+    description:
+      "A narrower electrical workflow page focused on sent panel-upgrade, rewiring, troubleshooting, and service quotes that go cold — reminder timing, objection-aware messaging, estimator handoff, and open-estimate visibility before another job slips away.",
+    href: "/estimate-follow-up-automation-for-electrical-contractors",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Insurance Agencies",
     description:
       "AI automation for insurance agencies. Lead follow-up, renewal reminders, quote follow-up, cross-sell campaigns, and client communication.",

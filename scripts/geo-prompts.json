@@ -2745,13 +2745,25 @@
       ]
     },
     {
+      "id": "estimate-follow-up-automation-for-electrical-contractors",
+      "path": "/estimate-follow-up-automation-for-electrical-contractors",
+      "label": "Estimate Follow-Up Automation for Electrical Contractors",
+      "prompts": [
+        "Estimate follow-up automation for electrical contractors",
+        "How do electrical contractors recover estimates that go quiet after pricing is sent?",
+        "Best way for an electrical contractor to follow up on panel upgrade, rewiring, or service quotes",
+        "Should an electrical contractor automate quote follow-up after the estimate stage?",
+        "How should an electrical company handle open estimates before the job goes cold?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-electrical-contractors",
       "path": "/what-to-automate-first-for-electrical-contractors",
       "label": "What to Automate First for Electrical Contractors",
       "prompts": [
         "What should an electrical contractor automate first?",
         "What should an electrical contractor automate first missed-call recovery lead follow-up scheduling estimate follow-up review requests or after-hours phone coverage?",
-        "Should an electrical contractor fix missed calls before estimate follow-up?",
+        "Should an electrical contractor fix missed calls before lead follow-up or scheduling?",
         "Should an electrical contractor automate review requests only after lead follow-up is already working?",
         "How do I choose the first automation project for my electrical contracting business?"
       ]

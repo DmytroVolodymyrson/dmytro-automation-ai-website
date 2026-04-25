@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-25T00:21:51.891Z",
-  "postCount": 271,
+  "updatedAt": "2026-04-25T00:36:41.301Z",
+  "postCount": 272,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,7 +15,7 @@
       "max": 11,
       "p25": 4,
       "p75": 4,
-      "samples": 271
+      "samples": 272
     },
     "sentenceLength": {
       "mean": 22.4,
@@ -24,16 +24,16 @@
       "max": 105,
       "p25": 17.8,
       "p75": 26.9,
-      "samples": 271
+      "samples": 272
     },
     "totalWords": {
       "mean": 300.5,
-      "median": 307,
+      "median": 306.5,
       "min": 17,
       "max": 1155,
       "p25": 235,
-      "p75": 359,
-      "samples": 271
+      "p75": 358,
+      "samples": 272
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -70,7 +70,7 @@
       "single | single | long | single | short | short": 2,
       "single | single | long | short | long | single": 1,
       "long | long | long | long": 11,
-      "long | long | single | long": 86,
+      "long | long | single | long": 87,
       "single | long | long": 1,
       "long | short | long | long": 11,
       "long | single | long | long": 19,
@@ -112,14 +112,14 @@
       "opener | product-pitch | closer": 1,
       "opener | context | result | context | context | context | context | context | result | closer": 1,
       "opener | context | context | context | closer": 1,
-      "opener | context | result | closer": 50,
+      "opener | context | result | closer": 51,
       "opener | result | product-pitch | closer": 1
     }
   },
   "openers": {
     "patterns": {
       "situation": {
-        "count": 63,
+        "count": 64,
         "examples": [
           "Badge: The Person Behind the Automation",
           "Section heading: Common Questions\nSubheading: Straight answers about working wit",
@@ -170,7 +170,7 @@
         ]
       },
       "question": {
-        "count": 223,
+        "count": 224,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -203,15 +203,15 @@
     "topWords": [
       [
         "-",
-        1628
+        1634
       ],
       [
         "what",
-        914
+        920
       ],
       [
         "automation",
-        762
+        769
       ],
       [
         "ai",
@@ -219,7 +219,7 @@
       ],
       [
         "how",
-        465
+        470
       ],
       [
         "workflow",
@@ -227,7 +227,7 @@
       ],
       [
         "it",
-        433
+        436
       ],
       [
         "when",
@@ -239,7 +239,7 @@
       ],
       [
         "page",
-        384
+        390
       ],
       [
         "your",
@@ -247,15 +247,15 @@
       ],
       [
         "follow-up",
-        375
+        381
+      ],
+      [
+        "this",
+        369
       ],
       [
         "whether",
         367
-      ],
-      [
-        "this",
-        365
       ],
       [
         "first",
@@ -290,12 +290,12 @@
         220
       ],
       [
-        "lead",
-        189
+        "from",
+        190
       ],
       [
-        "from",
-        186
+        "lead",
+        189
       ],
       [
         "that",
