@@ -151,6 +151,7 @@ import AfterHoursTenantCommunicationForPropertyManagementCompanies from "./pages
 import AfterHoursMaintenanceTriageForPropertyManagementCompanies from "./pages/AfterHoursMaintenanceTriageForPropertyManagementCompanies";
 import EmergencyVsRoutineMaintenanceIntakeForPropertyManagementCompanies from "./pages/EmergencyVsRoutineMaintenanceIntakeForPropertyManagementCompanies";
 import AiAutomationEcommerce from "./pages/AiAutomationEcommerce";
+import WhatToAutomateFirstForEcommerceBrands from "./pages/WhatToAutomateFirstForEcommerceBrands";
 import AiAutomationForAutoPartsEcommerce from "./pages/AiAutomationForAutoPartsEcommerce";
 import WhatToAutomateFirstForAutoPartsEcommerce from "./pages/WhatToAutomateFirstForAutoPartsEcommerce";
 import CrmAutomationVsManualFollowUpForAutoPartsEcommerce from "./pages/CrmAutomationVsManualFollowUpForAutoPartsEcommerce";
@@ -489,6 +490,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/after-hours-maintenance-triage-for-property-management-companies", element: <AfterHoursMaintenanceTriageForPropertyManagementCompanies /> },
   { path: "/emergency-vs-routine-maintenance-intake-for-property-management-companies", element: <EmergencyVsRoutineMaintenanceIntakeForPropertyManagementCompanies /> },
   { path: "/ai-automation-ecommerce", element: <AiAutomationEcommerce /> },
+  { path: "/what-to-automate-first-for-ecommerce-brands", element: <WhatToAutomateFirstForEcommerceBrands /> },
   { path: "/ai-automation-for-auto-parts-ecommerce", element: <AiAutomationForAutoPartsEcommerce /> },
   { path: "/what-to-automate-first-for-auto-parts-ecommerce", element: <WhatToAutomateFirstForAutoPartsEcommerce /> },
   {

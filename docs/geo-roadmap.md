@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `client-reactivation-automation-for-auto-repair-shops` after broad backlog reconciliation. The live auto-repair parent and first-project pages already isolated repeat-customer follow-up as a distinct workflow family beside missed calls, fresh lead response, booked-visit reminders, estimate recovery, and phone handling. This new child now owns the dormant-customer retention intent directly: inactive-customer win-back, deferred-work reactivation, seasonal service prompts, and faster advisor handoff when old customers show intent again.)
+Last updated: 2026-04-25 (shipped `what-to-automate-first-for-ecommerce-brands` after broad backlog reconciliation. The live e-commerce parent plus narrower child pages for CRM follow-up, support routing, order-status / return handling, and repeat-purchase reactivation already exposed a clear missing earlier buyer decision: which bounded workflow should an online store automate first before funding a broader build. This new first-project page now owns that prioritization intent directly.)
 
 ## Live GEO Assets
 
@@ -153,6 +153,7 @@ Last updated: 2026-04-25 (shipped `client-reactivation-automation-for-auto-repai
 | After-Hours Maintenance Triage for Property Management Companies | `/after-hours-maintenance-triage-for-property-management-companies` | Property-management overnight maintenance triage workflow page | Live |
 | Emergency vs. Routine Maintenance Intake for Property Management Companies | `/emergency-vs-routine-maintenance-intake-for-property-management-companies` | Property-management maintenance-intake decision page | Live |
 | AI Automation for E-Commerce Brands | `/ai-automation-ecommerce` | Industry page | Live |
+| What to Automate First for E-Commerce Brands | `/what-to-automate-first-for-ecommerce-brands` | E-commerce first-project scoping page | Live |
 | AI Automation for Auto Parts E-Commerce | `/ai-automation-for-auto-parts-ecommerce` | Industry page | Live |
 | What to Automate First for Auto Parts E-Commerce | `/what-to-automate-first-for-auto-parts-ecommerce` | Auto-parts first-project scoping page | Live |
 | E-Commerce CRM Automation with AI Follow-Up | `/ecommerce-crm-automation-with-ai-follow-up` | Industry workflow page | Live |
@@ -320,18 +321,18 @@ Last updated: 2026-04-25 (shipped `client-reactivation-automation-for-auto-repai
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 293**
+**Total decision/comparison/industry pages live: 294**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/client-reactivation-automation-for-auto-repair-shops` fills the dormant-customer retention gap that the live auto-repair cluster still left open after fresh lead response, booked-visit reminders, maintenance reminders, estimate recovery, review requests, and the phone-recovery decision pages were already live. That child now owns the repeat-customer win-back buyer intent directly: inactive-customer segmentation, deferred-work reactivation, seasonal service prompts, and faster advisor handoff when old customers become active again. With that retention layer now shipped, the next run should reset to broad backlog reconciliation across the remaining live clusters and planning docs instead of forcing another auto-repair child by inertia.
+Shipping `/what-to-automate-first-for-ecommerce-brands` fills the earlier prioritization gap that the live broader e-commerce cluster still left open after CRM follow-up, customer service routing, order-status / return handling, and repeat-purchase reactivation pages were already live. That new child now owns the first-project buyer intent directly: which workflow should come first, which leak matters most right now, and when a smaller scoped build is smarter than funding a broader automation layer too early. With that scoping layer now shipped, the next run should reset to broad backlog reconciliation across the remaining live clusters and planning docs instead of forcing another e-commerce child by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the law-firm cluster still automatically owns the next run now that the active-client status-update child has shipped. | **Fresh reconciliation required next run** |
+| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the e-commerce cluster still automatically owns the next run now that the first-project scoping child has shipped. | **Fresh reconciliation required next run** |
 
 ### Priority Definitions
 

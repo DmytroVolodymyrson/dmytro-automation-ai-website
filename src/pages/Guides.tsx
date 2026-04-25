@@ -1268,6 +1268,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for E-Commerce Brands",
+    description:
+      "Practical scoping guide for online stores deciding whether the first workflow should be CRM follow-up, customer service automation, order-status and return support, or repeat-purchase reactivation before a broader build.",
+    href: "/what-to-automate-first-for-ecommerce-brands",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Auto Parts E-Commerce",
     description:
       "Automation for auto parts brands with direct proof — fitment inquiry routing, CRM cleanup, lead follow-up, reactivation campaigns, and Slack alerts for high-intent replies.",

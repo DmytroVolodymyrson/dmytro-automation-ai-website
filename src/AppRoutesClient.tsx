@@ -152,6 +152,7 @@ const AfterHoursTenantCommunicationForPropertyManagementCompanies = lazy(() => i
 const AfterHoursMaintenanceTriageForPropertyManagementCompanies = lazy(() => import("./pages/AfterHoursMaintenanceTriageForPropertyManagementCompanies"));
 const EmergencyVsRoutineMaintenanceIntakeForPropertyManagementCompanies = lazy(() => import("./pages/EmergencyVsRoutineMaintenanceIntakeForPropertyManagementCompanies"));
 const AiAutomationEcommerce = lazy(() => import("./pages/AiAutomationEcommerce"));
+const WhatToAutomateFirstForEcommerceBrands = lazy(() => import("./pages/WhatToAutomateFirstForEcommerceBrands"));
 const AiAutomationForAutoPartsEcommerce = lazy(() => import("./pages/AiAutomationForAutoPartsEcommerce"));
 const WhatToAutomateFirstForAutoPartsEcommerce = lazy(() => import("./pages/WhatToAutomateFirstForAutoPartsEcommerce"));
 const CrmAutomationVsManualFollowUpForAutoPartsEcommerce = lazy(() => import("./pages/CrmAutomationVsManualFollowUpForAutoPartsEcommerce"));
@@ -464,6 +465,7 @@ const AppRoutesClient = () => (
       <Route path="/after-hours-maintenance-triage-for-property-management-companies" element={<AfterHoursMaintenanceTriageForPropertyManagementCompanies />} />
       <Route path="/emergency-vs-routine-maintenance-intake-for-property-management-companies" element={<EmergencyVsRoutineMaintenanceIntakeForPropertyManagementCompanies />} />
       <Route path="/ai-automation-ecommerce" element={<AiAutomationEcommerce />} />
+      <Route path="/what-to-automate-first-for-ecommerce-brands" element={<WhatToAutomateFirstForEcommerceBrands />} />
       <Route path="/ai-automation-for-auto-parts-ecommerce" element={<AiAutomationForAutoPartsEcommerce />} />
       <Route path="/what-to-automate-first-for-auto-parts-ecommerce" element={<WhatToAutomateFirstForAutoPartsEcommerce />} />
       <Route

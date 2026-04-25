@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 274 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 275 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -108,6 +108,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Automation for Auto Parts E-Commerce** — `/ai-automation-for-auto-parts-ecommerce`
 - **AI Automation for Auto Repair Shops** — `/ai-automation-for-auto-repair-shops`
 - **AI Automation for E-Commerce Brands** — `/ai-automation-ecommerce`
+- **What to Automate First for E-Commerce Brands** — `/what-to-automate-first-for-ecommerce-brands`
 - **AI Automation for HVAC Companies** — `/ai-automation-for-hvac-companies`
 - **AI Automation for Insurance Agencies** — `/ai-automation-for-insurance-agencies`
 - **AI Automation for Pest Control Companies** — `/ai-automation-for-pest-control-companies`

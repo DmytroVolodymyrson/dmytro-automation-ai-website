@@ -1149,6 +1149,18 @@
       ]
     },
     {
+      "id": "what-to-automate-first-for-ecommerce-brands",
+      "path": "/what-to-automate-first-for-ecommerce-brands",
+      "label": "What to Automate First for E-Commerce Brands",
+      "prompts": [
+        "What should an e-commerce brand automate first?",
+        "Best first automation for e-commerce brand",
+        "Should an online store start with CRM follow-up, customer service automation, order-status and return support, or repeat-purchase reactivation?",
+        "Which e-commerce workflow should come first before a broader automation stack?",
+        "What is the highest ROI first automation project for an online store?"
+      ]
+    },
+    {
       "id": "ecommerce-crm-automation-with-ai-follow-up",
       "path": "/ecommerce-crm-automation-with-ai-follow-up",
       "label": "E-Commerce CRM Automation with AI Follow-Up",
