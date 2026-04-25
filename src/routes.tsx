@@ -143,6 +143,7 @@ import CrossSellAutomationForInsuranceAgencies from "./pages/CrossSellAutomation
 import ReviewRequestAutomationForInsuranceAgencies from "./pages/ReviewRequestAutomationForInsuranceAgencies";
 import AfterHoursInquiryHandlingForInsuranceAgencies from "./pages/AfterHoursInquiryHandlingForInsuranceAgencies";
 import AiPhoneAnsweringForInsuranceAgencies from "./pages/AiPhoneAnsweringForInsuranceAgencies";
+import AiPhoneAnsweringVsVoicemailForInsuranceAgencies from "./pages/AiPhoneAnsweringVsVoicemailForInsuranceAgencies";
 import AiAutomationForPropertyManagement from "./pages/AiAutomationForPropertyManagement";
 import WhatToAutomateFirstForPropertyManagementCompanies from "./pages/WhatToAutomateFirstForPropertyManagementCompanies";
 import LeaseRenewalAutomationForPropertyManagementCompanies from "./pages/LeaseRenewalAutomationForPropertyManagementCompanies";
@@ -489,6 +490,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/review-request-automation-for-insurance-agencies", element: <ReviewRequestAutomationForInsuranceAgencies /> },
   { path: "/after-hours-inquiry-handling-for-insurance-agencies", element: <AfterHoursInquiryHandlingForInsuranceAgencies /> },
   { path: "/ai-phone-answering-for-insurance-agencies", element: <AiPhoneAnsweringForInsuranceAgencies /> },
+  { path: "/ai-phone-answering-vs-voicemail-for-insurance-agencies", element: <AiPhoneAnsweringVsVoicemailForInsuranceAgencies /> },
   { path: "/ai-automation-for-property-management", element: <AiAutomationForPropertyManagement /> },
   { path: "/what-to-automate-first-for-property-management-companies", element: <WhatToAutomateFirstForPropertyManagementCompanies /> },
   { path: "/lease-renewal-automation-for-property-management-companies", element: <LeaseRenewalAutomationForPropertyManagementCompanies /> },

@@ -1046,10 +1046,22 @@
       "label": "AI Phone Answering for Insurance Agencies",
       "prompts": [
         "AI phone answering for insurance agencies",
-        "Should an insurance agency use AI phone answering instead of voicemail after hours?",
+        "How can an insurance agency use live AI phone answering without creating a clunky caller experience?",
         "When does an insurance agency need live AI phone answering instead of a lighter after-hours workflow?",
         "Can AI answer inbound insurance calls and route producers or CSRs correctly?",
         "Best AI phone answering workflow for independent insurance agencies"
+      ]
+    },
+    {
+      "id": "ai-phone-answering-vs-voicemail-for-insurance-agencies",
+      "path": "/ai-phone-answering-vs-voicemail-for-insurance-agencies",
+      "label": "AI Phone Answering vs. Voicemail for Insurance Agencies",
+      "prompts": [
+        "AI phone answering vs voicemail for insurance agencies",
+        "Should an insurance agency use live AI phone answering instead of voicemail?",
+        "When is voicemail still good enough for a smaller insurance agency versus live AI phone answering?",
+        "How do I know if my insurance agency needs live phone answering instead of callbacks?",
+        "What is better for an insurance agency voicemail or live AI phone answering?"
       ]
     },
     {

@@ -1212,6 +1212,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering vs. Voicemail for Insurance Agencies",
+    description:
+      "Insurance buyer guide for deciding when live AI phone answering is worth replacing voicemail and callbacks, when voicemail is still acceptable, and when a lighter after-hours inquiry workflow is the smarter middle step.",
+    href: "/ai-phone-answering-vs-voicemail-for-insurance-agencies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Property Management",
     description:
       "AI automation for property management companies. Tenant communication, maintenance requests, lease renewals, showing scheduling, and owner reporting.",

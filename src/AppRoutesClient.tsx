@@ -144,6 +144,7 @@ const CrossSellAutomationForInsuranceAgencies = lazy(() => import("./pages/Cross
 const ReviewRequestAutomationForInsuranceAgencies = lazy(() => import("./pages/ReviewRequestAutomationForInsuranceAgencies"));
 const AfterHoursInquiryHandlingForInsuranceAgencies = lazy(() => import("./pages/AfterHoursInquiryHandlingForInsuranceAgencies"));
 const AiPhoneAnsweringForInsuranceAgencies = lazy(() => import("./pages/AiPhoneAnsweringForInsuranceAgencies"));
+const AiPhoneAnsweringVsVoicemailForInsuranceAgencies = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForInsuranceAgencies"));
 const AiAutomationForPropertyManagement = lazy(() => import("./pages/AiAutomationForPropertyManagement"));
 const WhatToAutomateFirstForPropertyManagementCompanies = lazy(() => import("./pages/WhatToAutomateFirstForPropertyManagementCompanies"));
 const LeaseRenewalAutomationForPropertyManagementCompanies = lazy(() => import("./pages/LeaseRenewalAutomationForPropertyManagementCompanies"));
@@ -461,6 +462,7 @@ const AppRoutesClient = () => (
       <Route path="/review-request-automation-for-insurance-agencies" element={<ReviewRequestAutomationForInsuranceAgencies />} />
       <Route path="/after-hours-inquiry-handling-for-insurance-agencies" element={<AfterHoursInquiryHandlingForInsuranceAgencies />} />
       <Route path="/ai-phone-answering-for-insurance-agencies" element={<AiPhoneAnsweringForInsuranceAgencies />} />
+      <Route path="/ai-phone-answering-vs-voicemail-for-insurance-agencies" element={<AiPhoneAnsweringVsVoicemailForInsuranceAgencies />} />
       <Route path="/ai-automation-for-property-management" element={<AiAutomationForPropertyManagement />} />
       <Route path="/what-to-automate-first-for-property-management-companies" element={<WhatToAutomateFirstForPropertyManagementCompanies />} />
       <Route path="/lease-renewal-automation-for-property-management-companies" element={<LeaseRenewalAutomationForPropertyManagementCompanies />} />
