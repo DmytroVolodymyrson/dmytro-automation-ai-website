@@ -2757,6 +2757,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-for-plumbing-companies",
+      "path": "/missed-call-text-back-for-plumbing-companies",
+      "label": "Missed Call Text-Back for Plumbing Companies",
+      "prompts": [
+        "Missed call text-back for plumbing companies",
+        "How do plumbing companies recover missed service calls before the homeowner calls the next plumber?",
+        "Best missed-call text-back workflow for a plumbing company with dispatch and after-hours call gaps",
+        "Should a plumbing company use missed-call text-back before paying for heavier live AI phone answering?",
+        "How should a plumbing company handle missed plumbing calls after hours without relying only on voicemail?"
+      ]
+    },
+    {
       "id": "estimate-follow-up-automation-for-electrical-contractors",
       "path": "/estimate-follow-up-automation-for-electrical-contractors",
       "label": "Estimate Follow-Up Automation for Electrical Contractors",

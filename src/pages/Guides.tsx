@@ -855,6 +855,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back for Plumbing Companies",
+    description:
+      "A narrower plumbing phone-recovery page focused on missed service calls — immediate text-back, issue capture, callback routing, and after-hours demand protection before the homeowner calls the next plumber.",
+    href: "/missed-call-text-back-for-plumbing-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Electrical Contractors",
     description:
       "AI automation for electrical contractors. Lead follow-up, missed call text-back, scheduling, estimate follow-up, and review automation.",
