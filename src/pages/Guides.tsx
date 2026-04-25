@@ -848,6 +848,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Accounting Firms",
+    description:
+      "Scoping guide for accounting firms deciding whether the first automation should be document collection, onboarding, appointment scheduling, prospect response, or seasonal client re-engagement before a broader rollout.",
+    href: "/what-to-automate-first-for-accounting-firms",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Plumbing Companies",
     description:
       "AI automation for plumbing companies. Missed call text-back, lead follow-up, appointment scheduling, estimate follow-up, and review automation.",

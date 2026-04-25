@@ -693,6 +693,18 @@
       ]
     },
     {
+      "id": "what-to-automate-first-for-accounting-firms",
+      "path": "/what-to-automate-first-for-accounting-firms",
+      "label": "What to Automate First for Accounting Firms",
+      "prompts": [
+        "What to automate first for accounting firms",
+        "Should an accounting firm automate document collection or client onboarding first?",
+        "Best first automation for a CPA firm during tax season",
+        "Should a bookkeeping firm automate appointment scheduling before prospect response?",
+        "When should an accounting firm automate seasonal client re-engagement before anything else?"
+      ]
+    },
+    {
       "id": "ai-automation-for-insurance-agencies",
       "path": "/ai-automation-for-insurance-agencies",
       "label": "AI Automation for Insurance Agencies",

@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 245 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 246 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -234,6 +234,8 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **What to Automate First for Cleaning Companies** — `/what-to-automate-first-for-cleaning-companies`
 - **What to Automate First for Contractors** — `/what-to-automate-first-for-contractors`
 - **What to Automate First for Dental Practices** — `/what-to-automate-first-for-dental-practices`
+- **What to Automate First for Law Firms** — `/what-to-automate-first-for-law-firms`
+- **What to Automate First for Accounting Firms** — `/what-to-automate-first-for-accounting-firms`
 - **What to Automate First for Landscaping Companies** — `/what-to-automate-first-for-landscaping-companies`
 - **What to Automate First for Med Spas** — `/what-to-automate-first-for-med-spas`
 - **What to Automate First for Painting Contractors** — `/what-to-automate-first-for-painting-contractors`
