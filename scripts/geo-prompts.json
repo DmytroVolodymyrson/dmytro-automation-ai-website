@@ -2860,8 +2860,20 @@
         "Missed call text-back for electrical contractors",
         "How do electrical contractors recover missed service calls before the homeowner calls the next electrician?",
         "Best missed-call text-back workflow for an electrical contractor with dispatch gaps and after-hours call leakage",
-        "Should an electrical contractor use missed-call text-back before paying for heavier live AI phone answering?",
+        "What should an electrical missed-call text-back workflow capture before the office calls back?",
         "How should an electrical company handle missed calls after hours without relying only on voicemail?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-ai-phone-answering-for-electrical-contractors",
+      "path": "/missed-call-text-back-vs-ai-phone-answering-for-electrical-contractors",
+      "label": "Missed Call Text-Back vs. AI Phone Answering for Electrical Contractors",
+      "prompts": [
+        "Missed call text-back vs AI phone answering for electrical contractors",
+        "Should an electrical contractor use missed-call text-back or live AI phone answering?",
+        "When is SMS-first missed-call recovery enough for an electrical company and when does it need live AI phone coverage?",
+        "What is better for electrical contractors missed-call text-back or live AI phone answering?",
+        "How should an electrical company choose between a lighter text-back fallback and heavier live phone coverage?"
       ]
     },
     {
@@ -2872,7 +2884,7 @@
         "AI phone answering for electrical contractors",
         "Should an electrical contractor use live AI phone answering?",
         "How should an electrical contractor handle urgent service calls when the office is tied up?",
-        "When is live AI phone answering better than missed-call text-back for an electrical contractor?",
+        "What should live AI phone answering handle for an electrical contractor versus route back to the office?",
         "How can an electrical company cover after-hours calls without hiring another full office shift?"
       ]
     },

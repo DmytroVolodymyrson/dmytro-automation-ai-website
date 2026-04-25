@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `ai-phone-answering-for-electrical-contractors` after the required broad reconciliation still showed one clean heavier phone-coverage gap in the live electrical cluster. The new page stays separate by focusing only on live call coverage, routine electrical-call intake, after-hours answer coverage, and safety-aware human handoff instead of rehashing the broader electrical page, first-project scoping, lighter missed-call recovery, booked-job scheduling, estimate recovery, or review follow-through.)
+Last updated: 2026-04-24 (shipped `missed-call-text-back-vs-ai-phone-answering-for-electrical-contractors` after the required broad reconciliation still showed one exact buyer-decision gap inside the now-mature electrical phone cluster. The new page stays separate by focusing only on the lighter-versus-heavier phone-layer choice — SMS-first missed-call recovery versus live AI phone coverage — instead of rehashing the broader electrical page, the first-project scoping page, the missed-call workflow explainer, or the live-answering explainer.)
 
 ## Live GEO Assets
 
@@ -86,6 +86,7 @@ Last updated: 2026-04-24 (shipped `ai-phone-answering-for-electrical-contractors
 | What to Automate First for Electrical Contractors | `/what-to-automate-first-for-electrical-contractors` | Electrical first-project scoping page | Live |
 | AI Lead Follow-Up for Electrical Contractors | `/ai-lead-follow-up-for-electrical-contractors` | Electrical early-funnel lead-response workflow page | Live |
 | Missed Call Text-Back for Electrical Contractors | `/missed-call-text-back-for-electrical-contractors` | Electrical lighter phone-recovery workflow page | Live |
+| Missed Call Text-Back vs. AI Phone Answering for Electrical Contractors | `/missed-call-text-back-vs-ai-phone-answering-for-electrical-contractors` | Electrical lighter-vs-heavier phone-layer decision page | Live |
 | AI Phone Answering for Electrical Contractors | `/ai-phone-answering-for-electrical-contractors` | Electrical heavier live-phone-coverage workflow page | Live |
 | Appointment Scheduling and Reminder Automation for Electrical Contractors | `/appointment-scheduling-and-reminder-automation-for-electrical-contractors` | Electrical booked-job scheduling workflow page | Live |
 | Estimate Follow-Up Automation for Electrical Contractors | `/estimate-follow-up-automation-for-electrical-contractors` | Electrical quote-stage workflow page | Live |
@@ -286,19 +287,19 @@ Last updated: 2026-04-24 (shipped `ai-phone-answering-for-electrical-contractors
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 259**
+**Total decision/comparison/industry pages live: 260**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-phone-answering-for-electrical-contractors` closed the clearest heavier phone-coverage gap in the live electrical cluster. That cluster now covers the broad parent, first-project scoping, early-funnel lead response, lighter missed-call recovery, heavier live-phone coverage, booked-job scheduling/reminders, estimate recovery, and post-job review follow-through, so the next run should deliberately re-check the full backlog before giving electrical another turn by inertia.
+Shipping `/missed-call-text-back-vs-ai-phone-answering-for-electrical-contractors` closed the cleanest exact lighter-versus-heavier buyer decision inside the live electrical phone cluster. That cluster now covers the broad parent, first-project scoping, early-funnel lead response, lighter missed-call recovery, the lighter-vs-heavier phone-layer comparison, heavier live-phone coverage, booked-job scheduling/reminders, estimate recovery, and post-job review follow-through, so the next run should deliberately re-check the full backlog before giving electrical another turn by inertia.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued workflow** | Fresh full backlog reconciliation across planning docs, live routes, live parent copy, and tracked prompts | Owners asking a still-clean workflow or decision question not yet isolated on the live site | The electrical heavier phone layer is now shipped too. The next run should deliberately search for the strongest remaining distinct page instead of assuming the same cluster still deserves another child immediately. | **Required before naming the next exact slug** |
-| 2 | **Watchlist** | AI phone answering vs voicemail for electrical contractors (only if the next repo-wide reconciliation still says the remaining electrical phone-fallback decision is the strongest surviving child) | Electrical contractors asking when live AI phone answering becomes worth it over voicemail or callbacks | The electrical cluster now has the broad parent, first-project page, lighter missed-call child, and heavier live-answering explainer. The remaining same-cluster page would be the heavier voicemail-vs-live-answering decision only if the next broad reconciliation still says it is the strongest clean buyer question left. | **Needs next-run audit** |
+| 1 | **Queued workflow** | Fresh full backlog reconciliation across planning docs, live routes, live parent copy, and tracked prompts | Owners asking a still-clean workflow or decision question not yet isolated on the live site | The electrical lighter-vs-heavier comparison is now shipped too. The next run should deliberately search for the strongest remaining distinct page instead of assuming the same cluster still deserves another child immediately. | **Required before naming the next exact slug** |
+| 2 | **Watchlist** | Missed call text-back vs voicemail for electrical contractors (only if the next repo-wide reconciliation still says the remaining lighter-fallback decision is the strongest surviving child) | Electrical contractors asking whether voicemail is still enough or whether they need SMS-first missed-call recovery before stepping up to heavier live answering | The missed-call page still supports this narrower fallback decision cleanly, but it should only be promoted if the next broad reconciliation still says it is the strongest remaining proof-backed buyer question. | **Needs next-run audit** |
 | 3 | **Watchlist** | Distinct non-electrical child surfaced by full backlog reconciliation | Owners asking a workflow or decision question that is still commercially clean and proof-supported | The broader backlog still needs a repo-wide pass before another exact slug is promoted. Prefer the strongest remaining proof-backed page even if it comes from a different cluster. | **Needs next-run audit** |
 
 ### Priority Definitions

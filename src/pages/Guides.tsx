@@ -911,6 +911,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. AI Phone Answering for Electrical Contractors",
+    description:
+      "Electrical buyer guide for deciding when SMS-first missed-call recovery is enough, when live AI phone answering is worth the heavier build, and how to choose based on office workload, after-hours demand, and caller urgency.",
+    href: "/missed-call-text-back-vs-ai-phone-answering-for-electrical-contractors",
+    category: "comparisons",
+  },
+  {
     title: "AI Phone Answering for Electrical Contractors",
     description:
       "A narrower electrical live-phone-coverage workflow page focused on routine call intake, after-hours answer coverage, safety-aware handoff, and the point where voicemail or SMS-only recovery stops being enough.",
