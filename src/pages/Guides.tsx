@@ -876,6 +876,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Seasonal Client Reactivation for Accounting Firms",
+    description:
+      "Accounting-firm reactivation workflow for pre-tax-season reminders, dormant bookkeeping and advisory client re-engagement, segmented outreach, and cleaner human handoff before deadlines and planning windows pass.",
+    href: "/seasonal-client-reactivation-for-accounting-firms",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Plumbing Companies",
     description:
       "AI automation for plumbing companies. Missed call text-back, lead follow-up, appointment scheduling, estimate follow-up, and review automation.",

@@ -80,6 +80,7 @@ const DocumentCollectionAutomationForAccountingFirms = lazy(() => import("./page
 const ClientOnboardingAutomationForAccountingFirms = lazy(() => import("./pages/ClientOnboardingAutomationForAccountingFirms"));
 const WhatToAutomateFirstForAccountingFirms = lazy(() => import("./pages/WhatToAutomateFirstForAccountingFirms"));
 const AppointmentSchedulingAndReminderAutomationForAccountingFirms = lazy(() => import("./pages/AppointmentSchedulingAndReminderAutomationForAccountingFirms"));
+const SeasonalClientReactivationForAccountingFirms = lazy(() => import("./pages/SeasonalClientReactivationForAccountingFirms"));
 const AiAutomationForPlumbingCompanies = lazy(() => import("./pages/AiAutomationForPlumbingCompanies"));
 const WhatToAutomateFirstForPlumbingCompanies = lazy(() => import("./pages/WhatToAutomateFirstForPlumbingCompanies"));
 const AiLeadFollowUpForPlumbingCompanies = lazy(() => import("./pages/AiLeadFollowUpForPlumbingCompanies"));
@@ -371,6 +372,7 @@ const AppRoutesClient = () => (
       <Route path="/client-onboarding-automation-for-accounting-firms" element={<ClientOnboardingAutomationForAccountingFirms />} />
       <Route path="/what-to-automate-first-for-accounting-firms" element={<WhatToAutomateFirstForAccountingFirms />} />
       <Route path="/appointment-scheduling-and-reminder-automation-for-accounting-firms" element={<AppointmentSchedulingAndReminderAutomationForAccountingFirms />} />
+      <Route path="/seasonal-client-reactivation-for-accounting-firms" element={<SeasonalClientReactivationForAccountingFirms />} />
       <Route path="/ai-automation-for-plumbing-companies" element={<AiAutomationForPlumbingCompanies />} />
       <Route path="/what-to-automate-first-for-plumbing-companies" element={<WhatToAutomateFirstForPlumbingCompanies />} />
       <Route path="/ai-lead-follow-up-for-plumbing-companies" element={<AiLeadFollowUpForPlumbingCompanies />} />

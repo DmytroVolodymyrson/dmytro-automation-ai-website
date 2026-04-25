@@ -701,7 +701,7 @@
         "What is the best first automation project for an accounting firm before a broader operations rebuild?",
         "Best first automation for a CPA firm during tax season",
         "Should an accounting firm fix document collection, onboarding, scheduling, prospect response, or seasonal reactivation first?",
-        "When should an accounting firm automate seasonal client re-engagement before anything else?"
+        "How should an accounting firm sequence document collection, onboarding, scheduling, prospect response, and seasonal workflows over time?"
       ]
     },
     {
@@ -738,6 +738,18 @@
         "Best way for a CPA firm to reduce no-shows and calendar chasing around client meetings",
         "Should an accounting firm automate appointment scheduling before seasonal client reactivation?",
         "How can a bookkeeping firm automate reschedules and meeting confirmations without endless email follow-up?"
+      ]
+    },
+    {
+      "id": "seasonal-client-reactivation-for-accounting-firms",
+      "path": "/seasonal-client-reactivation-for-accounting-firms",
+      "label": "Seasonal Client Reactivation for Accounting Firms",
+      "prompts": [
+        "Seasonal client reactivation for accounting firms",
+        "How do accounting firms bring past tax or bookkeeping clients back before deadlines and planning windows?",
+        "Best way for a CPA firm to reactivate dormant clients before tax season",
+        "Should an accounting firm automate seasonal client re-engagement before faster prospect response?",
+        "How can a bookkeeping firm run pre-season reminders and dormant-client outreach without last-minute scramble campaigns?"
       ]
     },
     {

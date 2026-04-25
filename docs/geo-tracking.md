@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 249 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 250 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -47,7 +47,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **What Does an AI Automation Consultant Actually Do?** — `/what-does-an-ai-automation-consultant-do`
 - **What Processes Can AI Automate in My Business?** — `/what-processes-can-ai-automate-in-my-business`
 
-### Workflow + solution pages (39)
+### Workflow + solution pages (40)
 - **After-Hours Lead Capture** — `/after-hours-lead-capture-for-service-businesses`
 - **AI Appointment Setter** — `/ai-appointment-setter`
 - **AI Appointment Setter Cost for Small Business** — `/ai-appointment-setter-cost-small-business`
@@ -56,6 +56,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Appointment Setter Setup Help** — `/ai-appointment-setter-setup`
 - **AI Appointment Setter Setup vs. DIY for Small Business** — `/ai-appointment-setter-setup-vs-diy-small-business`
 - **Appointment Scheduling and Reminder Automation for Accounting Firms** — `/appointment-scheduling-and-reminder-automation-for-accounting-firms`
+- **Seasonal Client Reactivation for Accounting Firms** — `/seasonal-client-reactivation-for-accounting-firms`
 - **AI Email Sequence Automation** — `/ai-email-sequence-automation`
 - **AI Lead Follow-Up Cost for Small Business** — `/ai-lead-follow-up-cost-small-business`
 - **AI Lead Follow-Up for Service Businesses** — `/ai-lead-follow-up-for-service-businesses`

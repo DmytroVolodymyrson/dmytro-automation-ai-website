@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-25-seasonal-client-reactivation-for-accounting-firms",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-25",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "### Hero\nHeading: Seasonal Client Reactivation for Accounting Firms\nBody: A lot of accounting firms do not only lose momentum because new prospects arrive too slowly. They also lose it because existing demand comes back too late. Past tax clients do not get nudged before filing season. Bookkeeping clients who drifted quiet never get a structured check-in. Advisory or cleanup opportunities stay buried until the owner suddenly needs work again and hires someone else. Seasonal client reactivation for accounting firms fixes that narrower workflow. It gives the firm a repeatable way to reach past or dormant clients before tax deadlines, bookkeeping catch-up windows, year-end planning conversations, and other seasonal demand moments depend on memory, one rushed spreadsheet, or a last-minute email blast.\nSub: Below: what this accounting workflow should actually handle, how it stays distinct from the broader accounting page and the newer onboarding and scheduling children, what proof honestly supports it, and when seasonal reactivation is or is not the right next build before prospect-response work.\n\n### Core sections\nHeading: What seasonal client reactivation should actually handle\nBody: The page keeps the scope practical: pre-season tax and filing reminders, dormant bookkeeping and advisory re-engagement, segmented outreach tied to prior service history, timing windows that run before the scramble, fast reply routing back to the right human, and visibility into which clients came back and why.\n\nHeading: This page vs. the rest of the accounting cluster\nBody: The comparison section makes the boundaries clear. The broader accounting page covers the full operating layer. The first-project page helps choose between document collection, onboarding, scheduling, prospect response, and seasonal client reactivation. The scheduling child stays on attended-meeting follow-through. This new page isolates only timed returning-client outreach and dormant-list recovery before deadlines and planning windows pass.\n\nHeading: Is this a good fit for your accounting firm?\nBody: The fit framing stays grounded. This workflow is strongest when the firm already has meaningful past tax, bookkeeping, cleanup, or advisory demand, but seasonal reminders and dormant-client outreach still happen too late or not at all. It is not the right fit when the bigger leak is still brand-new inquiries waiting too long for a reply, when the contact data is too weak to segment cleanly, or when the real issue is still onboarding or missing-document follow-up instead.\n\nHeading: Guardrails that make accounting reactivation useful instead of noisy\nBody: The page emphasizes segmenting by prior service and recency, tying campaigns to real operating windows, routing real replies back to humans quickly, and measuring recovered work instead of vanity metrics like opens or sends.\n\nHeading: How a practical accounting reactivation workflow usually works\nBody: The page walks through the flow stage by stage: past clients are grouped by prior service and next likely need, the outreach runs before deadlines create chaos, warm replies move to the right owner quickly, and the firm uses those results to decide whether the next build should be prospect response, deeper onboarding, or another seasonal workflow.\n\nHeading: What proof supports this page\nBody: The proof framing stays disciplined. The live accounting parent and first-project page already isolate seasonal client reactivation as one of the clearest workflow families in the firm. Adjacent proof comes from the generic client-reactivation guide, the HVAC database-reactivation page, the published CRM case study, and the AI email-sequence guide. The page does not pretend an accounting-specific reactivation case study is already live.\n\n### FAQ\nSubhead: Practical questions from accounting firms considering seasonal client reactivation\nTopics: how this differs from the broader accounting page, when seasonal reactivation should come before faster prospect response, which client segments belong in the workflow, what a focused build usually costs, and how often the firm should run seasonal outreach.\n\n### Final CTA\nHeading: Want more accounting work from clients you already paid to win?\nBody: Book a 30-minute call. We will look at your past-client base, service mix, and seasonal demand windows, then tell you whether a focused reactivation workflow is the cleanest accounting automation to build next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after reconciling AGENTS.md, GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the accounting cluster already had the broad parent, a first-project guide, and narrower document-collection, onboarding, and scheduling children live, while seasonal reactivation still remained an explicit tracked workflow with cleaner buyer intent than forcing a maintenance-only run."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page separate from /ai-automation-for-accounting-firms by staying tightly on timed dormant-client and returning-client outreach instead of the full accounting operations layer."
+    },
+    {
+      "type": "cut",
+      "description": "Keeps the page separate from /appointment-scheduling-and-reminder-automation-for-accounting-firms by focusing on seasonal demand recovery before a meeting exists, not on confirmation, reminder, and reschedule execution once a meeting is already close to happening."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live accounting cluster, the generic reactivation guide, HVAC database reactivation, AI email-sequence guidance, and the published CRM case study support the workflow pattern without implying a dedicated accounting reactivation case study already exists."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-25T06:24:30.760Z",
+    "structure": {
+      "paragraphCount": 9,
+      "sentencesPerParagraph": [
+        8,
+        1,
+        6,
+        4,
+        1,
+        1,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 22.8,
+      "sentenceLengthRange": [
+        4,
+        67
+      ],
+      "totalWords": 660
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Seasonal Client Reactivation for Accounting Firms\nBody: A lot of accounting firms do not only lose momentum because new prospects arrive too slowly.",
+      "wordCount": 25,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want more accounting work from clients you already paid to win?\nBody: Book a 30-minute call. We will look at your past-client base, service mix, and seasonal demand windows, then tell you whether a focused reactivation workflow is the cleanest accounting automation to build next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "context",
+        "product-pitch",
+        "product-pitch",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | context | product-pitch | product-pitch | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 27,
+      "commas": 41,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 22,
+      "commasPerSentence": 1.41
+    },
+    "vocabulary": {
+      "distinctWords": 303,
+      "totalWords": 660,
+      "topWords": [
+        [
+          "accounting",
+          15
+        ],
+        [
+          "seasonal",
+          13
+        ],
+        [
+          "page",
+          13
+        ],
+        [
+          "reactivation",
+          12
+        ],
+        [
+          "heading",
+          8
+        ],
+        [
+          "body",
+          8
+        ],
+        [
+          "workflow",
+          8
+        ],
+        [
+          "client",
+          7
+        ],
+        [
+          "before",
+          7
+        ],
+        [
+          "this",
+          7
+        ],
+        [
+          "not",
+          6
+        ],
+        [
+          "clients",
+          6
+        ],
+        [
+          "firm",
+          6
+        ],
+        [
+          "when",
+          6
+        ],
+        [
+          "too",
+          5
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right",
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.006
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 1,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": [
+        "cuts-analysis-keeps-action"
+      ]
+    }
+  }
+}
