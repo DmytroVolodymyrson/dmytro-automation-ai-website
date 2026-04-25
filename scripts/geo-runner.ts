@@ -5,6 +5,11 @@
  * Runs tracked prompts against approved AI providers and records whether
  * dmytroai.com appears in responses/citations.
  *
+ * Provider types:
+ *   - CLI providers (openai, claude): use local subscription CLIs — no API keys.
+ *     OpenAI uses Codex CLI (`codex exec`), Claude uses Claude Code (`claude -p`).
+ *   - API providers (gemini, perplexity): use pay-per-token API keys as before.
+ *
  * Usage:
  *   npx tsx scripts/geo-runner.ts                                       # approved providers, all tracked pages
  *   npx tsx scripts/geo-runner.ts --provider openai                      # single provider
@@ -13,14 +18,21 @@
  *   npx tsx scripts/geo-runner.ts --dry-run                              # show prompts, no API calls
  *
  * Env vars needed (set in .env or export):
- *   OPENAI_API_KEY, GEMINI_API_KEY, PERPLEXITY_API_KEY
+ *   GEMINI_API_KEY, PERPLEXITY_API_KEY
  *
- * Cost guardrail: Anthropic/Claude API calls are intentionally disabled.
+ * CLI requirements:
+ *   openai: `codex` CLI installed and authenticated via Codex subscription
+ *   claude: `claude` CLI installed and authenticated via Claude Code Max subscription
+ *
+ * Cost guardrail: OpenAI and Claude checks use flat-rate CLI subscriptions only.
+ *   The old Anthropic pay-per-token API path has been removed entirely.
+ *   OPENAI_API_KEY and ANTHROPIC_API_KEY are never read or used.
  */
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { execFileSync } from "node:child_process";
 
 // ---------------------------------------------------------------------------
 // Load .env.local (lightweight, no dependencies)
@@ -112,6 +124,14 @@ function envKey(name: string): string | undefined {
   return process.env[name];
 }
 
+/** Extract URLs from plain text (CLI output doesn't have structured citations) */
+function extractUrlsFromText(text: string): string[] {
+  const urlPattern = /https?:\/\/[^\s)\]}>,"'`]+/g;
+  const matches = text.match(urlPattern) || [];
+  // Clean trailing punctuation that isn't part of the URL
+  return [...new Set(matches.map((u) => u.replace(/[.,;:!?)]+$/, "")))];
+}
+
 /** Check if the target domain or brand names appear in text */
 function detectPresence(
   text: string,
@@ -142,117 +162,73 @@ function autoScore(hasDomain: boolean, hasMention: boolean, citations: string[],
 }
 
 // ---------------------------------------------------------------------------
-// Provider implementations
+// CLI availability guards
 // ---------------------------------------------------------------------------
 
-async function queryOpenAI(prompt: string, apiKey: string): Promise<{ answer: string; citations: string[]; model: string }> {
-  // OpenAI Responses API with web search tool
-  const res = await fetch("https://api.openai.com/v1/responses", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${apiKey}`,
-    },
-    body: JSON.stringify({
-      model: "gpt-4o",
-      tools: [{ type: "web_search_preview" }],
-      input: prompt,
-    }),
-  });
-
-  if (!res.ok) {
-    const body = await res.text();
-    throw new Error(`OpenAI ${res.status}: ${body}`);
-  }
-
-  const data = await res.json();
-
-  // Extract text and citations from the response output
-  let answer = "";
-  const citations: string[] = [];
-
-  if (Array.isArray(data.output)) {
-    for (const item of data.output) {
-      if (item.type === "message" && Array.isArray(item.content)) {
-        for (const part of item.content) {
-          if (part.type === "output_text") {
-            answer += part.text || "";
-            // Extract inline citations/annotations
-            if (Array.isArray(part.annotations)) {
-              for (const ann of part.annotations) {
-                if (ann.url) citations.push(ann.url);
-              }
-            }
-          }
-        }
-      }
-      // web_search_call results may contain URLs
-      if (item.type === "web_search_call" && Array.isArray(item.results)) {
-        for (const r of item.results) {
-          if (r.url) citations.push(r.url);
-        }
-      }
+/** Check that a CLI command is available and authenticated before running */
+function assertCliAvailable(command: string, testArgs: string[], label: string): void {
+  try {
+    execFileSync(command, testArgs, {
+      timeout: 15_000,
+      stdio: ["pipe", "pipe", "pipe"],
+      encoding: "utf-8",
+    });
+  } catch (err: any) {
+    // Command not found
+    if (err.code === "ENOENT") {
+      throw new Error(
+        `${label}: '${command}' is not installed or not on PATH. ` +
+        `Install it and authenticate via your subscription before running GEO checks.`
+      );
     }
+    // Command found but failed (auth issue, etc.)
+    const stderr = (err.stderr || "").toString().trim();
+    const exitCode = err.status;
+    throw new Error(
+      `${label}: '${command} ${testArgs.join(" ")}' exited with code ${exitCode}. ` +
+      `Ensure you are logged in via your subscription.\n` +
+      (stderr ? `  stderr: ${stderr.slice(0, 300)}` : "")
+    );
   }
-
-  return { answer, citations: [...new Set(citations)], model: "gpt-4o" };
 }
 
-async function queryAnthropic(prompt: string, apiKey: string): Promise<{ answer: string; citations: string[]; model: string }> {
-  // Claude API with web search tool
-  const res = await fetch("https://api.anthropic.com/v1/messages", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "x-api-key": apiKey,
-      "anthropic-version": "2023-06-01",
-    },
-    body: JSON.stringify({
-      model: "claude-sonnet-4-20250514",
-      max_tokens: 4096,
-      tools: [
-        {
-          type: "web_search_20250305",
-          name: "web_search",
-          max_uses: 5,
-        },
-      ],
-      messages: [{ role: "user", content: prompt }],
-    }),
+// ---------------------------------------------------------------------------
+// Provider implementations — CLI providers
+// ---------------------------------------------------------------------------
+
+async function queryOpenAICli(prompt: string): Promise<{ answer: string; citations: string[]; model: string }> {
+  // Use Codex CLI subscription — no OPENAI_API_KEY used
+  const result = execFileSync("codex", ["exec", prompt], {
+    timeout: 120_000,
+    stdio: ["pipe", "pipe", "pipe"],
+    encoding: "utf-8",
+    env: { ...process.env, OPENAI_API_KEY: undefined }, // hard-block API key leak
   });
 
-  if (!res.ok) {
-    const body = await res.text();
-    throw new Error(`Anthropic ${res.status}: ${body}`);
-  }
+  const answer = result.trim();
+  const citations = extractUrlsFromText(answer);
 
-  const data = await res.json();
-  let answer = "";
-  const citations: string[] = [];
-
-  if (Array.isArray(data.content)) {
-    for (const block of data.content) {
-      if (block.type === "text") {
-        answer += block.text || "";
-        // Extract citations from text block
-        if (Array.isArray(block.citations)) {
-          for (const cite of block.citations) {
-            if (cite.url) citations.push(cite.url);
-          }
-        }
-      }
-      if (block.type === "web_search_tool_result" && Array.isArray(block.content)) {
-        for (const r of block.content) {
-          if (r.type === "web_search_result" && r.url) {
-            citations.push(r.url);
-          }
-        }
-      }
-    }
-  }
-
-  return { answer, citations: [...new Set(citations)], model: "claude-sonnet-4-20250514" };
+  return { answer, citations, model: "codex-cli" };
 }
+
+async function queryClaudeCli(prompt: string): Promise<{ answer: string; citations: string[]; model: string }> {
+  // Use Claude Code Max subscription — no ANTHROPIC_API_KEY used
+  const result = execFileSync("claude", ["-p", prompt], {
+    timeout: 120_000,
+    stdio: ["pipe", "pipe", "pipe"],
+    encoding: "utf-8",
+    env: { ...process.env, ANTHROPIC_API_KEY: undefined }, // hard-block API key leak
+  });
+
+  const answer = result.trim();
+  const citations = extractUrlsFromText(answer);
+
+  return { answer, citations, model: "claude-cli" };
+}
+
+// ---------------------------------------------------------------------------
+// Provider implementations — API providers
+// ---------------------------------------------------------------------------
 
 async function queryGemini(prompt: string, apiKey: string): Promise<{ answer: string; citations: string[]; model: string }> {
   // Gemini API with Google Search grounding
@@ -291,9 +267,6 @@ async function queryGemini(prompt: string, apiKey: string): Promise<{ answer: st
         if (chunk.web?.uri) citations.push(chunk.web.uri);
       }
     }
-    if (cand.groundingMetadata?.webSearchQueries) {
-      // Just metadata, not citations
-    }
   }
 
   return { answer, citations: [...new Set(citations)], model };
@@ -326,17 +299,52 @@ async function queryPerplexity(prompt: string, apiKey: string): Promise<{ answer
 }
 
 // ---------------------------------------------------------------------------
-// Runner
+// Provider registry
 // ---------------------------------------------------------------------------
 
-const PROVIDER_FNS: Record<
-  string,
-  { envVar: string; fn: (prompt: string, key: string) => Promise<{ answer: string; citations: string[]; model: string }> }
-> = {
-  openai: { envVar: "OPENAI_API_KEY", fn: queryOpenAI },
-  gemini: { envVar: "GEMINI_API_KEY", fn: queryGemini },
-  perplexity: { envVar: "PERPLEXITY_API_KEY", fn: queryPerplexity },
+type CliProvider = {
+  kind: "cli";
+  command: string;
+  testArgs: string[];
+  fn: (prompt: string) => Promise<{ answer: string; citations: string[]; model: string }>;
 };
+
+type ApiProvider = {
+  kind: "api";
+  envVar: string;
+  fn: (prompt: string, key: string) => Promise<{ answer: string; citations: string[]; model: string }>;
+};
+
+type ProviderEntry = CliProvider | ApiProvider;
+
+const PROVIDER_FNS: Record<string, ProviderEntry> = {
+  openai: {
+    kind: "cli",
+    command: "codex",
+    testArgs: ["login", "status"],
+    fn: queryOpenAICli,
+  },
+  claude: {
+    kind: "cli",
+    command: "claude",
+    testArgs: ["auth", "status", "--text"],
+    fn: queryClaudeCli,
+  },
+  gemini: {
+    kind: "api",
+    envVar: "GEMINI_API_KEY",
+    fn: queryGemini,
+  },
+  perplexity: {
+    kind: "api",
+    envVar: "PERPLEXITY_API_KEY",
+    fn: queryPerplexity,
+  },
+};
+
+// ---------------------------------------------------------------------------
+// Runner
+// ---------------------------------------------------------------------------
 
 async function runProvider(
   provider: string,
@@ -347,27 +355,35 @@ async function runProvider(
   const prov = PROVIDER_FNS[provider];
   if (!prov) throw new Error(`Unknown provider: ${provider}`);
 
-  const apiKey = envKey(prov.envVar);
-  if (!apiKey) {
-    return {
-      provider,
-      model: "n/a",
-      prompt,
-      pageId,
-      answer: "",
-      citations: [],
-      hasDomain: false,
-      hasMention: false,
-      autoScore: "-",
-      latencyMs: 0,
-      timestamp: new Date().toISOString(),
-      error: `Missing ${prov.envVar}`,
-    };
-  }
-
   const start = Date.now();
   try {
-    const { answer, citations, model } = await prov.fn(prompt, apiKey);
+    let answer: string;
+    let citations: string[];
+    let model: string;
+
+    if (prov.kind === "cli") {
+      ({ answer, citations, model } = await prov.fn(prompt));
+    } else {
+      const apiKey = envKey(prov.envVar);
+      if (!apiKey) {
+        return {
+          provider,
+          model: "n/a",
+          prompt,
+          pageId,
+          answer: "",
+          citations: [],
+          hasDomain: false,
+          hasMention: false,
+          autoScore: "-",
+          latencyMs: 0,
+          timestamp: new Date().toISOString(),
+          error: `Missing ${prov.envVar}`,
+        };
+      }
+      ({ answer, citations, model } = await prov.fn(prompt, apiKey));
+    }
+
     const latencyMs = Date.now() - start;
     const { hasDomain, hasMention } = detectPresence(answer, citations, config);
     const score = autoScore(hasDomain, hasMention, citations, config.target_domain);
@@ -526,16 +542,56 @@ async function main() {
         console.log(`    → ${prompt}`);
       }
     }
-    console.log("\n   No API calls made.");
+    // Show provider readiness summary. CLI checks only run local auth/status commands.
+    console.log("\n   Provider readiness:");
+    for (const p of providers) {
+      const prov = PROVIDER_FNS[p];
+      if (!prov) {
+        console.log(`    ❌ ${p}: unknown provider`);
+      } else if (prov.kind === "cli") {
+        try {
+          assertCliAvailable(prov.command, prov.testArgs, p);
+          console.log(`    ✓ ${p}: CLI provider (${prov.command}) authenticated — no API key needed`);
+        } catch (err: any) {
+          console.log(`    ⚠️ ${p}: CLI provider (${prov.command}) unavailable — ${err.message.split("\n")[0]}`);
+        }
+      } else {
+        const hasKey = !!envKey(prov.envVar);
+        console.log(`    ${hasKey ? "✓" : "⚠️"} ${p}: API provider — ${prov.envVar} ${hasKey ? "set" : "missing"}`);
+      }
+    }
+    console.log("\n   No provider prompts/API calls made.");
     return;
   }
 
-  // Check which providers have keys
+  // Pre-flight: verify CLI providers are installed/authenticated, but do not fall back to APIs.
+  const cliErrors = new Map<string, string>();
+  const cliProviders = providers.filter((p) => PROVIDER_FNS[p]?.kind === "cli");
+  for (const p of cliProviders) {
+    const prov = PROVIDER_FNS[p] as CliProvider;
+    console.log(`\n🔧 Checking ${p} CLI (${prov.command})...`);
+    try {
+      assertCliAvailable(prov.command, prov.testArgs, p);
+      console.log(`   ✓ ${prov.command} is authenticated and available`);
+    } catch (err: any) {
+      cliErrors.set(p, err.message.split("\n")[0]);
+      console.log(`   ⚠️ ${err.message.split("\n")[0]}`);
+    }
+  }
+
+  // Check which providers are ready
   const available: string[] = [];
   const missing: string[] = [];
   for (const p of providers) {
     const prov = PROVIDER_FNS[p];
-    if (prov && envKey(prov.envVar)) {
+    if (!prov) {
+      missing.push(p);
+      continue;
+    }
+    if (prov.kind === "cli") {
+      if (cliErrors.has(p)) missing.push(p);
+      else available.push(p);
+    } else if (envKey(prov.envVar)) {
       available.push(p);
     } else {
       missing.push(p);
@@ -543,12 +599,17 @@ async function main() {
   }
 
   if (missing.length > 0) {
-    console.log(`\n⚠️  Missing API keys for: ${missing.join(", ")}`);
-    console.log(`   Set: ${missing.map((p) => PROVIDER_FNS[p]?.envVar).join(", ")}`);
+    const missingDetails = missing.map((p) => {
+      const prov = PROVIDER_FNS[p];
+      if (!prov) return `${p} (unknown)`;
+      if (prov.kind === "api") return `${p} (set ${prov.envVar})`;
+      return `${p} (${cliErrors.get(p) || `install/authenticate ${(prov as CliProvider).command}`})`;
+    });
+    console.log(`\n⚠️  Unavailable providers: ${missingDetails.join(", ")}`);
   }
 
   if (available.length === 0) {
-    console.error("\n❌ No API keys available. Set at least one provider key and retry.");
+    console.error("\n❌ No providers available. Install CLI tools or set API keys and retry.");
     process.exit(1);
   }
 

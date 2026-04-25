@@ -8,7 +8,7 @@ Automated weekly tracker that runs GEO prompts against AI providers and records 
 # Dry run — see what prompts would be sent, no API calls
 npm run geo:dry
 
-# Run all providers that have API keys set
+# Run all providers that are available
 npm run geo
 
 # Run a single provider
@@ -23,26 +23,39 @@ npx tsx scripts/geo-runner.ts --provider perplexity --page ai-automation-consult
 
 ## Setup
 
-1. Copy `.env.example` to `.env.local` (or export vars in your shell)
-2. Add API keys for the providers you want to test:
+### CLI providers (no API keys needed)
+
+OpenAI and Claude use local CLI subscriptions — flat-rate, no pay-per-token API keys.
+
+| Provider | CLI Command | Subscription | Install |
+|----------|-------------|--------------|---------|
+| OpenAI | `codex exec` | Codex CLI subscription | Install `codex`, then authenticate |
+| Claude | `claude -p` | Claude Code Max subscription | Install `claude`, then authenticate |
+
+The runner verifies each CLI is installed and authenticated before making any calls. If a CLI is missing or unauthenticated, that provider is skipped with a clear error; if no providers remain, the run exits. It will never fall back to an API key.
+
+**OPENAI_API_KEY and ANTHROPIC_API_KEY are not used.** The runner explicitly blocks these environment variables from reaching CLI subprocesses.
+
+### API providers (pay-per-token keys)
 
 | Provider | Env Var | API Key URL |
 |----------|---------|-----------------|
-| OpenAI | `OPENAI_API_KEY` | https://platform.openai.com/api-keys |
 | Gemini | `GEMINI_API_KEY` | https://aistudio.google.com/apikey |
 | Perplexity | `PERPLEXITY_API_KEY` | https://www.perplexity.ai/settings/api |
 
-Anthropic/Claude API is intentionally disabled for this runner to avoid pay-per-token Claude API spend.
-
-You only need the providers you want to track. The runner gracefully skips any provider without a key.
+Copy `.env.example` to `.env.local` and fill in the API keys for the providers you want to test. The runner gracefully skips any API provider without a key.
 
 ## How It Works
 
 1. Reads prompts from `scripts/geo-prompts.json`
-2. Sends each prompt to each available provider with web search / grounding enabled
-3. Checks responses and citations for dmytroai.com or brand name mentions
-4. Auto-scores each result: **L** (link), **M** (mention), **-** (absent)
-5. Saves results to `docs/data/geo-results/`
+2. Pre-flight: verifies CLI tools (`codex`, `claude`) are installed and authenticated
+3. Sends each prompt to each available provider:
+   - **CLI providers** (openai, claude): runs the prompt through the local CLI binary
+   - **API providers** (gemini, perplexity): calls the provider's HTTP API with web search / grounding enabled
+4. Extracts citations: API providers return structured citation data; CLI providers have URLs extracted from response text via regex
+5. Checks responses and citations for dmytroai.com or brand name mentions
+6. Auto-scores each result: **L** (link), **M** (mention), **-** (absent)
+7. Saves results to `docs/data/geo-results/`
 
 ### Auto-scoring limitations
 
@@ -68,16 +81,22 @@ Running multiple times on the same day overwrites the same date's files.
 
 ## Provider Details
 
-| Provider | Model | Search Method | Notes |
-|----------|-------|---------------|-------|
-| OpenAI | gpt-4o | Responses API + `web_search_preview` tool | Returns inline URL annotations |
-| Anthropic | claude-sonnet-4 | Messages API + `web_search` tool | Returns web_search_result blocks |
-| Gemini | gemini-2.5-flash | `google_search` grounding | Returns groundingMetadata chunks |
-| Perplexity | sonar | Chat completions (search is built-in) | Returns top-level `citations` array |
+| Provider | Type | Model / CLI | Search Method | Notes |
+|----------|------|-------------|---------------|-------|
+| OpenAI | CLI | `codex exec` (Codex subscription) | Web search via Codex | URLs extracted from text output |
+| Claude | CLI | `claude -p` (Claude Code Max) | Web search via Claude | URLs extracted from text output |
+| Gemini | API | gemini-2.5-flash | `google_search` grounding | Returns groundingMetadata chunks |
+| Perplexity | API | sonar | Chat completions (search is built-in) | Returns top-level `citations` array |
+
+### CLI vs API providers
+
+**CLI providers** (OpenAI, Claude) run through local subscription CLIs. They produce plain-text responses, so the runner extracts URLs via regex. This means citation coverage may differ from structured API responses, but it avoids all pay-per-token API spend for these two providers.
+
+**API providers** (Gemini, Perplexity) use traditional HTTP API calls with structured citation data. These require API keys and incur per-token costs.
 
 ### API vs UI differences
 
-API results may differ from the web UI experience for each provider. The web UIs sometimes have additional search integration, personalization, or formatting that the APIs do not expose. This runner tests the API path, which is reproducible and scriptable. For the most complete picture, occasionally cross-check with manual UI runs per the process in `docs/geo-weekly-checklist.md`.
+API and CLI results may differ from the web UI experience for each provider. The web UIs sometimes have additional search integration, personalization, or formatting that the APIs/CLIs do not expose. This runner tests the programmatic path, which is reproducible and scriptable. For the most complete picture, occasionally cross-check with manual UI runs per the process in `docs/geo-weekly-checklist.md`.
 
 ## Weekly Workflow
 

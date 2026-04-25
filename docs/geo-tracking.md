@@ -306,7 +306,7 @@ Weekly score per page = sum of all prompt results across all platforms.
 | P (paraphrase) | 1 |
 | - (absent) | 0 |
 
-**Max possible per page per week:** 5 prompts x 4 platforms x 3 points = 60
+**Max possible per page per week:** 5 prompts × 4 providers × 3 points = 60
 
 ## What Counts as Positive Movement
 
@@ -338,7 +338,7 @@ Notes:
 
 ## Automated Runner
 
-The GEO test runner (`scripts/geo-runner.ts`) automates weekly checks across all 4 providers via their APIs.
+The GEO test runner (`scripts/geo-runner.ts`) automates weekly checks across all 4 providers.
 
 ```bash
 npm run geo            # Run all tracked pages across all providers
@@ -352,9 +352,13 @@ Results are saved to `docs/data/geo-results/`:
 - `YYYY-MM-DD.json` — full machine-readable results (answers, citations, latency, scores)
 - `YYYY-MM-DD.md` — human-readable summary table
 
-Requires: `OPENAI_API_KEY`, `GEMINI_API_KEY`, `PERPLEXITY_API_KEY` in `.env.local`. Anthropic/Claude API is intentionally disabled to avoid pay-per-token Claude API spend.
+**Provider types:**
+- **CLI providers** (openai, claude): use local subscription CLIs (`codex exec`, `claude -p`). No API keys needed — flat-rate subscriptions only.
+- **API providers** (gemini, perplexity): require `GEMINI_API_KEY`, `PERPLEXITY_API_KEY` in `.env.local`.
 
-**Note:** API-based results may differ from browser UI results. APIs use web search tools but may not have the same retrieval index as the consumer products. Treat API results as a consistent, reproducible signal, not an exact replica of UI behavior.
+`OPENAI_API_KEY` and `ANTHROPIC_API_KEY` are not used by the runner. The old Anthropic pay-per-token API path has been removed entirely.
+
+**Note:** CLI and API results may differ from browser UI results. Treat results as a consistent, reproducible signal, not an exact replica of UI behavior.
 
 ## Tracking Expansion Rule
 

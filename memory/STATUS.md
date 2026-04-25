@@ -2,6 +2,14 @@
 
 **Last updated:** 2026-04-25 07:15 MDT
 
+## Update 2026-04-25 07:48 MDT
+- Switched GEO visibility checks away from OpenAI and Claude pay-per-token APIs.
+- `scripts/geo-runner.ts` now treats `openai` as a CLI provider through `codex exec` and `claude` as a CLI provider through `claude -p`; both subprocesses strip API-key env vars and never call OpenAI/Anthropic API endpoints.
+- Default GEO providers are now `openai`, `claude`, `gemini`, and `perplexity`; Gemini/Perplexity remain API-key providers.
+- Removed the active local `OPENAI_API_KEY` assignment from `.env.local`; `ANTHROPIC_API_KEY` also remains absent.
+- Verification: forbidden OpenAI/Anthropic API endpoint/model references are absent from the runner/docs/config; `npm run geo:dry -- --page ai-automation-consultant-small-business` works and shows Claude authenticated via CLI, Codex CLI currently not logged in; `npm run geo -- --provider openai --page ...` exits before prompts/API calls because Codex subscription auth is missing; `npm run build` passes and prerendered 310 routes.
+- Follow-up needed: run `codex login` locally to connect the Codex subscription before OpenAI GEO checks can run through the CLI path.
+
 ## Update 2026-04-25 07:15 MDT
 - Investigated Anthropic Console screenshot showing API key `cedric` with recent spend/usage.
 - Found the local GEO runner path still had Anthropic enabled: `.env.local` contained an active `ANTHROPIC_API_KEY`, `scripts/geo-prompts.json` still listed `anthropic`, and `scripts/geo-runner.ts` mapped Anthropic to `claude-sonnet-4-20250514`.
