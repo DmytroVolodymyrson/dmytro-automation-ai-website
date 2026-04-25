@@ -897,6 +897,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Lead Follow-Up for Electrical Contractors",
+    description:
+      "A narrower electrical early-funnel workflow page focused on faster first response for service and quote requests — immediate reply timing, short nurture, light qualification, and cleaner office handoff before the prospect calls the next electrician.",
+    href: "/ai-lead-follow-up-for-electrical-contractors",
+    category: "industries",
+  },
+  {
     title: "Estimate Follow-Up Automation for Electrical Contractors",
     description:
       "A narrower electrical workflow page focused on sent panel-upgrade, rewiring, troubleshooting, and service quotes that go cold — reminder timing, objection-aware messaging, estimator handoff, and open-estimate visibility before another job slips away.",

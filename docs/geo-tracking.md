@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 236 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 237 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -155,6 +155,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Estimate Follow-Up Automation for Landscaping Companies** — `/estimate-follow-up-automation-for-landscaping-companies`
 - **Estimate Follow-Up Automation for Painting Contractors** — `/estimate-follow-up-automation-for-painting-contractors`
 - **Estimate Follow-Up Automation for Roofing Companies** — `/estimate-follow-up-automation-for-roofing-companies`
+- **AI Lead Follow-Up for Electrical Contractors** — `/ai-lead-follow-up-for-electrical-contractors`
 - **Estimate Follow-Up Automation for Electrical Contractors** — `/estimate-follow-up-automation-for-electrical-contractors`
 - **Estimate Follow-Up Automation for Plumbing Companies** — `/estimate-follow-up-automation-for-plumbing-companies`
 - **Missed Call Text-Back for Plumbing Companies** — `/missed-call-text-back-for-plumbing-companies`

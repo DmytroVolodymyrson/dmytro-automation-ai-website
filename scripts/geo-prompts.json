@@ -2834,10 +2834,22 @@
       "label": "What to Automate First for Electrical Contractors",
       "prompts": [
         "What should an electrical contractor automate first?",
-        "What should an electrical contractor automate first missed-call recovery lead follow-up scheduling estimate follow-up review requests or after-hours phone coverage?",
-        "Should an electrical contractor fix missed calls before lead follow-up or scheduling?",
-        "Should an electrical contractor automate review requests only after lead follow-up is already working?",
+        "What should an electrical contractor automate first missed-call recovery scheduling estimate follow-up review requests or after-hours phone coverage?",
+        "Should an electrical contractor fix missed calls before scheduling or estimate follow-up?",
+        "Should an electrical contractor automate review requests only after the earlier response and estimate workflows are already working?",
         "How do I choose the first automation project for my electrical contracting business?"
+      ]
+    },
+    {
+      "id": "ai-lead-follow-up-for-electrical-contractors",
+      "path": "/ai-lead-follow-up-for-electrical-contractors",
+      "label": "AI Lead Follow-Up for Electrical Contractors",
+      "prompts": [
+        "AI lead follow-up for electrical contractors",
+        "How do electrical contractors respond faster to new service and quote requests?",
+        "Best way for an electrical contractor to follow up on fresh leads before the prospect calls another company",
+        "Should an electrical contractor automate first response before worrying about estimate follow-up?",
+        "How should an electrical company handle new web leads and inbound quote requests before they go cold?"
       ]
     }
   ],

@@ -82,6 +82,7 @@ import AiPhoneAnsweringForPlumbingCompanies from "./pages/AiPhoneAnsweringForPlu
 import AppointmentSchedulingAndReminderAutomationForPlumbingCompanies from "./pages/AppointmentSchedulingAndReminderAutomationForPlumbingCompanies";
 import AiAutomationForElectricalContractors from "./pages/AiAutomationForElectricalContractors";
 import WhatToAutomateFirstForElectricalContractors from "./pages/WhatToAutomateFirstForElectricalContractors";
+import AiLeadFollowUpForElectricalContractors from "./pages/AiLeadFollowUpForElectricalContractors";
 import EstimateFollowUpAutomationForElectricalContractors from "./pages/EstimateFollowUpAutomationForElectricalContractors";
 import ReviewRequestAutomationForElectricalContractors from "./pages/ReviewRequestAutomationForElectricalContractors";
 import CrmAutomationSetupForContractors from "./pages/CrmAutomationSetupForContractors";
@@ -386,6 +387,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/appointment-scheduling-and-reminder-automation-for-plumbing-companies", element: <AppointmentSchedulingAndReminderAutomationForPlumbingCompanies /> },
   { path: "/ai-automation-for-electrical-contractors", element: <AiAutomationForElectricalContractors /> },
   { path: "/what-to-automate-first-for-electrical-contractors", element: <WhatToAutomateFirstForElectricalContractors /> },
+  { path: "/ai-lead-follow-up-for-electrical-contractors", element: <AiLeadFollowUpForElectricalContractors /> },
   { path: "/estimate-follow-up-automation-for-electrical-contractors", element: <EstimateFollowUpAutomationForElectricalContractors /> },
   { path: "/review-request-automation-for-electrical-contractors", element: <ReviewRequestAutomationForElectricalContractors /> },
   { path: "/client-onboarding-automation", element: <ClientOnboardingAutomation /> },
