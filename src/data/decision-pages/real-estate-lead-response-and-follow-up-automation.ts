@@ -211,8 +211,9 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "AI automation for real estate", href: "/ai-automation-for-real-estate" },
-        { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
-        { label: "AI appointment setter", href: "/ai-appointment-setter" },
+        { label: "What to automate first for real estate teams", href: "/what-to-automate-first-for-real-estate" },
+        { label: "Showing coordination automation for real estate teams", href: "/showing-coordination-automation-for-real-estate-teams" },
+        { label: "CRM cleanup and routing for real estate teams", href: "/crm-cleanup-and-routing-for-real-estate-teams" },
       ],
     },
   ],
@@ -252,8 +253,9 @@ const data: DecisionPageData = {
     "No fake close-rate promises. Just a practical recommendation based on your lead volume, response speed, and current handoff process.",
   relatedLinks: [
     { label: "AI automation for real estate", href: "/ai-automation-for-real-estate" },
-    { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
-    { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
+    { label: "What to automate first for real estate teams", href: "/what-to-automate-first-for-real-estate" },
+    { label: "Showing coordination automation for real estate teams", href: "/showing-coordination-automation-for-real-estate-teams" },
+    { label: "CRM cleanup and routing for real estate teams", href: "/crm-cleanup-and-routing-for-real-estate-teams" },
     { label: "All guides", href: "/guides" },
   ],
 };

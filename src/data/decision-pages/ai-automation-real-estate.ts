@@ -251,8 +251,10 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No obligation. No generic pitch. Just a focused conversation about your real estate business.",
   relatedLinks: [
-    { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
-    { label: "AI appointment setter", href: "/ai-appointment-setter" },
+    { label: "What to automate first for real estate teams", href: "/what-to-automate-first-for-real-estate" },
+    { label: "Real estate lead response and follow-up automation", href: "/real-estate-lead-response-and-follow-up-automation" },
+    { label: "Showing coordination automation for real estate teams", href: "/showing-coordination-automation-for-real-estate-teams" },
+    { label: "CRM cleanup and routing for real estate teams", href: "/crm-cleanup-and-routing-for-real-estate-teams" },
     { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
     { label: "All guides", href: "/guides" },
   ],

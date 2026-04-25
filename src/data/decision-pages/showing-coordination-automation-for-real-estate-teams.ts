@@ -213,7 +213,8 @@ const data: DecisionPageData = {
       links: [
         { label: "AI automation for real estate", href: "/ai-automation-for-real-estate" },
         { label: "Real estate lead response and follow-up automation", href: "/real-estate-lead-response-and-follow-up-automation" },
-        { label: "AI appointment setter", href: "/ai-appointment-setter" },
+        { label: "What to automate first for real estate teams", href: "/what-to-automate-first-for-real-estate" },
+        { label: "CRM cleanup and routing for real estate teams", href: "/crm-cleanup-and-routing-for-real-estate-teams" },
       ],
     },
   ],
@@ -254,7 +255,8 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation for real estate", href: "/ai-automation-for-real-estate" },
     { label: "Real estate lead response and follow-up automation", href: "/real-estate-lead-response-and-follow-up-automation" },
-    { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
+    { label: "What to automate first for real estate teams", href: "/what-to-automate-first-for-real-estate" },
+    { label: "CRM cleanup and routing for real estate teams", href: "/crm-cleanup-and-routing-for-real-estate-teams" },
     { label: "All guides", href: "/guides" },
   ],
 };
