@@ -848,6 +848,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Estimate Follow-Up Automation for Plumbing Companies",
+    description:
+      "A narrower plumbing workflow page focused on sent water-heater, drain, sewer, repipe, and service quotes that go cold — reminder timing, objection-aware messaging, office handoff, and open-estimate visibility before another job slips away.",
+    href: "/estimate-follow-up-automation-for-plumbing-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Electrical Contractors",
     description:
       "AI automation for electrical contractors. Lead follow-up, missed call text-back, scheduling, estimate follow-up, and review automation.",

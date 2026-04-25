@@ -2739,9 +2739,21 @@
       "prompts": [
         "What should a plumbing company automate first?",
         "What should a plumbing company automate first missed-call recovery lead follow-up scheduling estimate follow-up or after-hours phone coverage?",
-        "Should a plumbing company fix missed calls before estimate follow-up?",
+        "Should a plumbing company start with lead follow-up before booked-job scheduling?",
         "Should a plumbing company automate scheduling before heavier live phone answering?",
         "How do I choose the first automation project for my plumbing company?"
+      ]
+    },
+    {
+      "id": "estimate-follow-up-automation-for-plumbing-companies",
+      "path": "/estimate-follow-up-automation-for-plumbing-companies",
+      "label": "Estimate Follow-Up Automation for Plumbing Companies",
+      "prompts": [
+        "Estimate follow-up automation for plumbing companies",
+        "How do plumbing companies recover estimates that go quiet after pricing is sent?",
+        "Best way for a plumbing company to follow up on water-heater, drain, sewer, repipe, or service quotes",
+        "Should a plumbing company automate quote follow-up after the estimate stage?",
+        "How should a plumbing company handle open estimates before the job goes cold?"
       ]
     },
     {

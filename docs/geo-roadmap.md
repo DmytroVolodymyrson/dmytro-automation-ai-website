@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `review-request-automation-for-electrical-contractors` after the electrical cluster still showed one clean post-job reputation gap even with the parent, first-project, and estimate-recovery pages already live. The new page stays separate by focusing only on completed-job closeout — review timing, unhappy-reply routing, field-to-office handoff, and safer local-trust follow-through after electrical service work is done.)
+Last updated: 2026-04-24 (shipped `estimate-follow-up-automation-for-plumbing-companies` after the live plumbing parent and the plumbing first-project page still exposed one clean quote-stage gap. The new page stays separate by focusing only on sent-estimate recovery — reminder timing, objection-aware messaging, office handoff, and open-estimate visibility before another plumbing job slips away after pricing is already out.)
 
 ## Live GEO Assets
 
@@ -77,6 +77,7 @@ Last updated: 2026-04-24 (shipped `review-request-automation-for-electrical-cont
 | AI Automation for Accounting Firms | `/ai-automation-for-accounting-firms` | Industry page | Live |
 | AI Automation for Plumbing Companies | `/ai-automation-for-plumbing-companies` | Industry page | Live |
 | What to Automate First for Plumbing Companies | `/what-to-automate-first-for-plumbing-companies` | Plumbing first-project scoping page | Live |
+| Estimate Follow-Up Automation for Plumbing Companies | `/estimate-follow-up-automation-for-plumbing-companies` | Plumbing quote-stage workflow page | Live |
 | AI Automation for Electrical Contractors | `/ai-automation-for-electrical-contractors` | Industry page | Live |
 | What to Automate First for Electrical Contractors | `/what-to-automate-first-for-electrical-contractors` | Electrical first-project scoping page | Live |
 | Estimate Follow-Up Automation for Electrical Contractors | `/estimate-follow-up-automation-for-electrical-contractors` | Electrical quote-stage workflow page | Live |
@@ -277,20 +278,20 @@ Last updated: 2026-04-24 (shipped `review-request-automation-for-electrical-cont
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 250**
+**Total decision/comparison/industry pages live: 251**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/review-request-automation-for-electrical-contractors` closes the cleanest remaining post-job reputation gap inside the electrical cluster. With the parent, first-project, and estimate-recovery pages already live, this child now owns the completed-job closeout stage: better review timing, unhappy-reply routing, and field-to-office handoff before the company pushes for a public rating. The next run should not force another electrical sibling by momentum. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only name the next exact slug after that broader audit.
+Shipping `/estimate-follow-up-automation-for-plumbing-companies` closes the cleanest quote-stage gap still exposed by the live plumbing parent plus the plumbing first-project page. The cluster can still support more plumbing children later, but the next run should not force another plumbing sibling by momentum. Do a fresh broad reconciliation first across GEO-PLAN, the March GEO plan, the pattern matrix, live routes/pages, and `scripts/geo-prompts.json`; only promote the next exact slug after that broader audit.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued workflow** | Fresh full backlog reconciliation across planning docs, live routes, and tracked prompts | Owners asking a still-clean workflow or decision question not yet isolated on the live site | The electrical review-request gap is now shipped. The next run should deliberately search for the best surviving distinct page instead of assuming the same cluster still deserves another turn. | **Required before naming the next exact slug** |
-| 2 | **Watchlist** | Distinct non-electrical child surfaced by full backlog reconciliation | Owners asking a workflow or decision question that is still commercially clean and proof-supported | The backlog still needs a repo-wide pass before another exact slug is promoted. Prefer the strongest remaining proof-backed page even if it comes from a different cluster. | **Needs next-run audit** |
-| 3 | **Watchlist** | Another distinct electrical child only if it survives the same broad audit | Electrical contractors asking a still-clean buyer question not already handled by the parent, first-project, estimate, and review-request pages | Electrical may still yield another valid child later, but only if the next broad reconciliation proves it is cleaner than the best cross-cluster alternative. | **Do not force by inertia** |
+| 1 | **Queued workflow** | Fresh full backlog reconciliation across planning docs, live routes, and tracked prompts | Owners asking a still-clean workflow or decision question not yet isolated on the live site | The plumbing estimate-recovery gap is now shipped. The next run should deliberately search for the best surviving distinct page instead of assuming the same cluster still deserves another turn. | **Required before naming the next exact slug** |
+| 2 | **Watchlist** | Missed-call text-back for plumbing companies (only if broad reconciliation still says it is the cleanest surviving child) | Plumbing owners asking whether lighter missed-call recovery should be the first phone layer before heavier after-hours coverage | The live plumbing parent plus first-project page still expose a clean phone-recovery gap, but it should win only if the next repo-wide audit does not surface a stronger cross-cluster page first. | **Needs next-run audit** |
+| 3 | **Watchlist** | Distinct non-plumbing child surfaced by full backlog reconciliation | Owners asking a workflow or decision question that is still commercially clean and proof-supported | The backlog still needs a repo-wide pass before another exact slug is promoted. Prefer the strongest remaining proof-backed page even if it comes from a different cluster. | **Needs next-run audit** |
 
 ### Priority Definitions
 
