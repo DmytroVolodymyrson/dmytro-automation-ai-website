@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 242 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 243 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -90,7 +90,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Automation Consultant Calgary** — `/ai-automation-consultant-calgary`
 - **AI Automation Consultant Edmonton** — `/ai-automation-consultant-edmonton`
 
-### Industry + vertical pages (135)
+### Industry + vertical pages (136)
 - **After-Hours AI Phone Answering vs. Voicemail for Restaurants** — `/after-hours-ai-phone-answering-vs-voicemail-for-restaurants`
 - **After-Hours Maintenance Triage for Property Management Companies** — `/after-hours-maintenance-triage-for-property-management-companies`
 - **After-Hours Phone Answering for Restaurants** — `/after-hours-phone-answering-for-restaurants`
@@ -161,6 +161,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Estimate Follow-Up Automation for Plumbing Companies** — `/estimate-follow-up-automation-for-plumbing-companies`
 - **Missed Call Text-Back for Electrical Contractors** — `/missed-call-text-back-for-electrical-contractors`
 - **AI Phone Answering for Electrical Contractors** — `/ai-phone-answering-for-electrical-contractors`
+- **AI Phone Answering vs. Voicemail for Electrical Contractors** — `/ai-phone-answering-vs-voicemail-for-electrical-contractors`
 - **Missed Call Text-Back for Plumbing Companies** — `/missed-call-text-back-for-plumbing-companies`
 - **Review Request Automation for Electrical Contractors** — `/review-request-automation-for-electrical-contractors`
 - **Fitment Inquiry Automation for Auto Parts E-Commerce** — `/fitment-inquiry-automation-for-auto-parts-ecommerce`

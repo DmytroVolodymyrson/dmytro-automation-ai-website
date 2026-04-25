@@ -932,6 +932,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering vs. Voicemail for Electrical Contractors",
+    description:
+      "Electrical buyer guide for deciding when live AI phone answering is worth replacing voicemail and callbacks, when voicemail is still acceptable, and when missed-call text-back is the smarter middle step before a heavier live-answering build.",
+    href: "/ai-phone-answering-vs-voicemail-for-electrical-contractors",
+    category: "comparisons",
+  },
+  {
     title: "Appointment Scheduling and Reminder Automation for Electrical Contractors",
     description:
       "A narrower electrical booked-job workflow page focused on confirmations, reminder timing, reschedule routing, office-to-field handoff, and fewer preventable schedule gaps after the visit is already booked.",

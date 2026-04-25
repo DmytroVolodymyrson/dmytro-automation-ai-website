@@ -88,6 +88,7 @@ const MissedCallTextBackForElectricalContractors = lazy(() => import("./pages/Mi
 const MissedCallTextBackVsVoicemailForElectricalContractors = lazy(() => import("./pages/MissedCallTextBackVsVoicemailForElectricalContractors"));
 const MissedCallTextBackVsAiPhoneAnsweringForElectricalContractors = lazy(() => import("./pages/MissedCallTextBackVsAiPhoneAnsweringForElectricalContractors"));
 const AiPhoneAnsweringForElectricalContractors = lazy(() => import("./pages/AiPhoneAnsweringForElectricalContractors"));
+const AiPhoneAnsweringVsVoicemailForElectricalContractors = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForElectricalContractors"));
 const EstimateFollowUpAutomationForElectricalContractors = lazy(() => import("./pages/EstimateFollowUpAutomationForElectricalContractors"));
 const ReviewRequestAutomationForElectricalContractors = lazy(() => import("./pages/ReviewRequestAutomationForElectricalContractors"));
 const AppointmentSchedulingAndReminderAutomationForElectricalContractors = lazy(() => import("./pages/AppointmentSchedulingAndReminderAutomationForElectricalContractors"));
@@ -372,6 +373,7 @@ const AppRoutesClient = () => (
       <Route path="/missed-call-text-back-vs-voicemail-for-electrical-contractors" element={<MissedCallTextBackVsVoicemailForElectricalContractors />} />
       <Route path="/missed-call-text-back-vs-ai-phone-answering-for-electrical-contractors" element={<MissedCallTextBackVsAiPhoneAnsweringForElectricalContractors />} />
       <Route path="/ai-phone-answering-for-electrical-contractors" element={<AiPhoneAnsweringForElectricalContractors />} />
+      <Route path="/ai-phone-answering-vs-voicemail-for-electrical-contractors" element={<AiPhoneAnsweringVsVoicemailForElectricalContractors />} />
       <Route path="/appointment-scheduling-and-reminder-automation-for-electrical-contractors" element={<AppointmentSchedulingAndReminderAutomationForElectricalContractors />} />
       <Route path="/estimate-follow-up-automation-for-electrical-contractors" element={<EstimateFollowUpAutomationForElectricalContractors />} />
       <Route path="/review-request-automation-for-electrical-contractors" element={<ReviewRequestAutomationForElectricalContractors />} />

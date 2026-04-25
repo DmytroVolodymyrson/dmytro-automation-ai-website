@@ -87,6 +87,7 @@ import MissedCallTextBackForElectricalContractors from "./pages/MissedCallTextBa
 import MissedCallTextBackVsVoicemailForElectricalContractors from "./pages/MissedCallTextBackVsVoicemailForElectricalContractors";
 import MissedCallTextBackVsAiPhoneAnsweringForElectricalContractors from "./pages/MissedCallTextBackVsAiPhoneAnsweringForElectricalContractors";
 import AiPhoneAnsweringForElectricalContractors from "./pages/AiPhoneAnsweringForElectricalContractors";
+import AiPhoneAnsweringVsVoicemailForElectricalContractors from "./pages/AiPhoneAnsweringVsVoicemailForElectricalContractors";
 import EstimateFollowUpAutomationForElectricalContractors from "./pages/EstimateFollowUpAutomationForElectricalContractors";
 import ReviewRequestAutomationForElectricalContractors from "./pages/ReviewRequestAutomationForElectricalContractors";
 import AppointmentSchedulingAndReminderAutomationForElectricalContractors from "./pages/AppointmentSchedulingAndReminderAutomationForElectricalContractors";
@@ -397,6 +398,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/missed-call-text-back-vs-voicemail-for-electrical-contractors", element: <MissedCallTextBackVsVoicemailForElectricalContractors /> },
   { path: "/missed-call-text-back-vs-ai-phone-answering-for-electrical-contractors", element: <MissedCallTextBackVsAiPhoneAnsweringForElectricalContractors /> },
   { path: "/ai-phone-answering-for-electrical-contractors", element: <AiPhoneAnsweringForElectricalContractors /> },
+  { path: "/ai-phone-answering-vs-voicemail-for-electrical-contractors", element: <AiPhoneAnsweringVsVoicemailForElectricalContractors /> },
   { path: "/appointment-scheduling-and-reminder-automation-for-electrical-contractors", element: <AppointmentSchedulingAndReminderAutomationForElectricalContractors /> },
   { path: "/estimate-follow-up-automation-for-electrical-contractors", element: <EstimateFollowUpAutomationForElectricalContractors /> },
   { path: "/review-request-automation-for-electrical-contractors", element: <ReviewRequestAutomationForElectricalContractors /> },
