@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-25-gsc-internal-linking-pass",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-25",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "### Guides hub\nAdded a stronger “Start here” path by promoting the best-first-automation decision page into the featured guide set and adding a proof-hub callout:\n\n- “Need proof before picking a first automation?”\n- “Review the case-study hub to connect these buying guides to live automation outcomes before you choose a build sequence.”\n\n### Case studies hub\nAdded a proof-to-decision linking block:\n\n- “Connect proof to the decision pages”\n- “Use these proof assets with the main automation guides”\n- “These case studies support the pages Google has discovered but not crawled yet: the consultant overview, the best-first-automation guide, and the main guides hub.”\n\n### AI automation consultant page\nAdded a “Continue researching” internal authority section before FAQ:\n\n- “The next pages to read before choosing an automation project”\n- “If you are still deciding what to automate first, use the guides hub, the best-first-automation decision page, and the proof hub together.”\n\n### Best AI automations page\nAdded related links to:\n\n- All automation guides\n- Case studies\n- AI automation consultant for small business",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a crawl-priority/internal-linking pass, not a net-new content page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The copy stays practical and buyer-oriented: “start here,” “proof before picking,” “choosing an automation project.”"
+    },
+    {
+      "type": "tone_shift",
+      "description": "The link blocks are explicit for crawlers but still useful to humans deciding what to read next."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoided fake claims about indexing or results. The language says Google has discovered pages, not that Google has indexed or ranked them."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept proof references bounded to existing case-study assets and existing commercial/category pages."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-25T20:32:45.154Z",
+    "structure": {
+      "paragraphCount": 8,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "avgSentenceLength": 21.4,
+      "sentenceLengthRange": [
+        8,
+        42
+      ],
+      "totalWords": 171
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Guides hub\nAdded a stronger “Start here” path by promoting the best-first-automation decision page into the featured guide set and adding a proof-hub callout:",
+      "wordCount": 24,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "- All automation guides\n- Case studies\n- AI automation consultant for small business",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | context | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 3,
+      "commas": 5,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 10,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 5,
+      "commasPerSentence": 5
+    },
+    "vocabulary": {
+      "distinctWords": 88,
+      "totalWords": 171,
+      "topWords": [
+        [
+          "-",
+          10
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "guides",
+          6
+        ],
+        [
+          "hub",
+          6
+        ],
+        [
+          "added",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "proof",
+          4
+        ],
+        [
+          "before",
+          4
+        ],
+        [
+          "best-first-automation",
+          3
+        ],
+        [
+          "decision",
+          3
+        ],
+        [
+          "these",
+          3
+        ],
+        [
+          "case",
+          3
+        ],
+        [
+          "studies",
+          3
+        ],
+        [
+          "pages",
+          3
+        ],
+        [
+          "consultant",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

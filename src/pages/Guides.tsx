@@ -87,6 +87,7 @@ const guides: GuideItem[] = [
       "Which AI automations actually move the needle? A decision framework for HVAC, dental, legal, real estate, and other service companies.",
     href: "/best-ai-automation-for-service-businesses",
     category: "strategy",
+    featured: true,
   },
   {
     title: "AI Automation for Businesses Without a Tech Team",
@@ -2460,7 +2461,7 @@ const Guides = () => {
               </p>
             </div>
 
-            <div className="grid gap-6 md:grid-cols-2">
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {featuredGuides.map((guide, i) => (
                 <motion.div
                   key={guide.href}
@@ -2489,6 +2490,24 @@ const Guides = () => {
                   </Link>
                 </motion.div>
               ))}
+            </div>
+
+            <div className="mt-8 rounded-2xl border border-border/60 bg-card/70 p-5 md:p-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Need proof before picking a first automation?
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed max-w-2xl">
+                  Review the case-study hub to connect these buying guides to live automation outcomes before you choose a build sequence.
+                </p>
+              </div>
+              <Link
+                to="/case-studies"
+                className="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:text-primary/80"
+              >
+                View case studies
+                <ArrowRight className="w-4 h-4" />
+              </Link>
             </div>
           </div>
         </section>

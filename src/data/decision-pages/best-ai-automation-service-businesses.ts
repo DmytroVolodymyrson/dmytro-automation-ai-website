@@ -219,6 +219,9 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No generic pitch. Specific recommendations based on your actual numbers.",
   relatedLinks: [
+    { label: "All automation guides", href: "/guides" },
+    { label: "Case studies", href: "/case-studies" },
+    { label: "AI automation consultant for small business", href: "/ai-automation-consultant-small-business" },
     { label: "HVAC automation guide", href: "/ai-automation-for-hvac-companies" },
     {
       label: "AI appointment setter guide",

@@ -655,8 +655,39 @@ const AiAutomationConsultantSmallBusiness = () => {
           </div>
         </Section>
 
-        {/* ── FAQ ──────────────────────────────────────────────────── */}
+        {/* ── Crawl-priority internal links ─────────────────────────── */}
         <Section className="bg-secondary/30">
+          <div className="rounded-3xl border border-primary/15 bg-card/90 p-6 md:p-8 shadow-card">
+            <p className="text-sm font-semibold uppercase tracking-wide text-primary mb-3">
+              Continue researching
+            </p>
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4 tracking-tight">
+              The next pages to read before choosing an automation project
+            </h2>
+            <p className="text-muted-foreground leading-relaxed mb-6 max-w-3xl">
+              If you are still deciding what to automate first, use the guides hub, the best-first-automation decision page, and the proof hub together. They explain the sequence, show examples, and help separate useful automation from AI noise.
+            </p>
+            <div className="grid sm:grid-cols-3 gap-4">
+              {[
+                { label: "Automation guides", href: "/guides" },
+                { label: "Best first automations", href: "/best-ai-automation-for-service-businesses" },
+                { label: "Case studies", href: "/case-studies" },
+              ].map((item) => (
+                <Link
+                  key={item.href}
+                  to={item.href}
+                  className="group rounded-2xl border border-border/60 bg-background/80 px-5 py-4 text-sm font-semibold text-foreground hover:border-primary/30 hover:bg-background transition-colors"
+                >
+                  <span>{item.label}</span>
+                  <ArrowRight className="inline-block ml-2 w-4 h-4 text-primary group-hover:translate-x-1 transition-transform" />
+                </Link>
+              ))}
+            </div>
+          </div>
+        </Section>
+
+        {/* ── FAQ ──────────────────────────────────────────────────── */}
+        <Section>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight text-center">
             Common questions
           </h2>
