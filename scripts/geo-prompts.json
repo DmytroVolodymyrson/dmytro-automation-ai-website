@@ -681,6 +681,18 @@
       ]
     },
     {
+      "id": "what-to-automate-first-for-law-firms",
+      "path": "/what-to-automate-first-for-law-firms",
+      "label": "What to Automate First for Law Firms",
+      "prompts": [
+        "What should a law firm automate first inquiry response intake scheduling or after-hours calls?",
+        "What to automate first for law firms",
+        "Should a law firm automate inquiry response before consultation scheduling?",
+        "When should a law firm automate intake and conflict-check prep first?",
+        "What is the best first automation project for a small law firm?"
+      ]
+    },
+    {
       "id": "ai-automation-for-insurance-agencies",
       "path": "/ai-automation-for-insurance-agencies",
       "label": "AI Automation for Insurance Agencies",

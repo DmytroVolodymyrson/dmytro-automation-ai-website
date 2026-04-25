@@ -1,0 +1,45 @@
+# Post: What to Automate First for Law Firms
+**Date:** 2026-04-24
+**Platform:** landing-page
+**Language:** en
+**Section:** /what-to-automate-first-for-law-firms (law-firm first-project scoping page)
+
+## Final Published Text
+
+### Hero
+Heading: What to Automate First for Law Firms
+Body: If your law firm knows it needs better automation, the first move usually should not be a giant all-in-one operations rebuild. It should be one bounded workflow that fixes the leak already costing you consults, retained matters, or intake capacity. For most small to mid-size firms, that first workflow is one of five things: inquiry response, intake and conflict-check prep, consultation scheduling, follow-up for prospects who consulted but did not retain, or after-hours call handling. The right choice depends on where the firm is losing momentum now — right after the inquiry, before the consult, during scheduling, after the consult, or when nobody can answer the phone.
+Sub: Below: how to choose the first legal workflow to automate, how this page stays distinct from the broader law-firm automation page and the generic workflow guides already live, what adjacent proof honestly supports the recommendation, and when a smaller first project is safer than forcing a broader intake-and-operations build too early.
+
+### Core sections
+Heading: The first law-firm workflows usually worth automating
+Body: The page compares five realistic starting points for a law firm: inquiry response, intake and conflict-check prep, consultation scheduling, unretained-consult follow-up, and after-hours call handling. Each section explains when that workflow is the clearest first leak to fix and when another workflow should come first instead.
+
+Heading: Which law-firm workflow should you automate first?
+Body: The scoping section stays tightly on the buyer decision. It helps a firm choose the first build by matching the current leak to the right workflow: slow first response, messy intake prep, scheduling friction, weak post-consult follow-up, or missed after-hours demand.
+
+Heading: This page vs. the rest of the legal cluster
+Body: The page distinguishes itself from the broader /ai-automation-for-law-firms parent and from narrower generic workflow pages like lead follow-up and phone answering. It stays one step earlier in the decision chain: choosing the first bounded workflow before funding a broader legal-intake automation build.
+
+Heading: Is this a good fit for your law firm?
+Body: The fit framing stays practical. Good-fit signals include a visible leak, overloaded intake ownership, and a desire to prove one workflow first. Bad-fit signals include very low lead volume, no clear communication leak, or trying to force a giant all-in-one rebuild before proving a narrower workflow.
+
+Heading: How to choose the first legal automation without overbuilding
+Body: The guidance emphasizes starting where delay already costs consults or retained matters, not where the automation sounds the most advanced. It pushes owners away from broad rebuilds and toward the smallest workflow that can prove value and teach the firm what to automate next.
+
+Heading: Relevant proof and adjacent proof
+Body: The proof framing stays honest. The live law-firm parent page supports the workflow families this page compares. Published adjacent proof comes from the Paris Cafe voice-agent case study for after-hours response and the e-commerce CRM automation case study for structured follow-up and ownership discipline. The page does not pretend there is already a dedicated law-firm first-project case study live on the site.
+
+### FAQ
+Subhead: Practical questions about choosing the first law-firm automation
+Topics: what a law firm should automate first, how this differs from the broader law-firm automation page, whether intake prep should come before faster lead response, when after-hours call handling should come first, and why the first workflow choice matters so much for ROI.
+
+### Final CTA
+Heading: Need help choosing the first legal workflow to automate?
+Body: Book a 30-minute call. We will look at where your firm is leaking inquiry response, intake prep time, consultation momentum, post-consult follow-up, or after-hours demand now, then recommend the smallest workflow that should come first before anything broader gets built.
+
+## Style Notes
+- Shipped after reconciling AGENTS.md, GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-plan-2026-03.md, current live routes/pages, and scripts/geo-prompts.json.
+- Chosen because the broad law-firm parent was already live and exposed several bounded workflow families, but the site still lacked the earlier first-project scoping page that helps a firm choose among them.
+- Keeps the page distinct from /ai-automation-for-law-firms by staying tightly on first-project prioritization rather than re-explaining the full legal automation layer.
+- Proof framing stays disciplined: the law-firm parent plus adjacent phone-handling and CRM proof support the pattern without implying a dedicated legal first-project case study already exists.

@@ -73,6 +73,7 @@ import WhatToAutomateFirstForMortgageBrokers from "./pages/WhatToAutomateFirstFo
 import AiAutomationForDentalPractices from "./pages/AiAutomationForDentalPractices";
 import WhatToAutomateFirstForDentalPractices from "./pages/WhatToAutomateFirstForDentalPractices";
 import AiAutomationForLawFirms from "./pages/AiAutomationForLawFirms";
+import WhatToAutomateFirstForLawFirms from "./pages/WhatToAutomateFirstForLawFirms";
 import AiAutomationForAccountingFirms from "./pages/AiAutomationForAccountingFirms";
 import AiAutomationForPlumbingCompanies from "./pages/AiAutomationForPlumbingCompanies";
 import WhatToAutomateFirstForPlumbingCompanies from "./pages/WhatToAutomateFirstForPlumbingCompanies";
@@ -385,6 +386,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-for-dental-practices", element: <AiAutomationForDentalPractices /> },
   { path: "/what-to-automate-first-for-dental-practices", element: <WhatToAutomateFirstForDentalPractices /> },
   { path: "/ai-automation-for-law-firms", element: <AiAutomationForLawFirms /> },
+  { path: "/what-to-automate-first-for-law-firms", element: <WhatToAutomateFirstForLawFirms /> },
   { path: "/ai-automation-for-accounting-firms", element: <AiAutomationForAccountingFirms /> },
   { path: "/ai-automation-for-plumbing-companies", element: <AiAutomationForPlumbingCompanies /> },
   { path: "/what-to-automate-first-for-plumbing-companies", element: <WhatToAutomateFirstForPlumbingCompanies /> },

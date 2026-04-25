@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-24 (shipped `ai-phone-answering-vs-voicemail-for-electrical-contractors` after the required broad reconciliation still showed one clean remaining heavier-fallback buyer decision inside the live electrical phone cluster. The new page stays separate by focusing only on whether live AI phone coverage is now worth replacing voicemail and callbacks — not on the broader electrical page, the first-project scoping page, the lighter missed-call text-back layer, or the lighter-vs-heavier text-back-versus-live-answering decision already live.)
+Last updated: 2026-04-24 (shipped `what-to-automate-first-for-law-firms` after broad reconciliation still showed one clean missing earlier scoping layer inside the live law-firm cluster. The new page stays separate by focusing only on which bounded legal workflow should come first — inquiry response, intake prep, consultation scheduling, post-consult follow-up, or after-hours call handling — rather than re-explaining the broader law-firm page or the generic workflow guides already live.)
 
 ## Live GEO Assets
 
@@ -75,6 +75,7 @@ Last updated: 2026-04-24 (shipped `ai-phone-answering-vs-voicemail-for-electrica
 | AI Automation for Dental Practices | `/ai-automation-for-dental-practices` | Industry page | Live |
 | What to Automate First for Dental Practices | `/what-to-automate-first-for-dental-practices` | Dental first-project scoping page | Live |
 | AI Automation for Law Firms | `/ai-automation-for-law-firms` | Industry page | Live |
+| What to Automate First for Law Firms | `/what-to-automate-first-for-law-firms` | Law-firm first-project scoping page | Live |
 | AI Automation for Accounting Firms | `/ai-automation-for-accounting-firms` | Industry page | Live |
 | AI Automation for Plumbing Companies | `/ai-automation-for-plumbing-companies` | Industry page | Live |
 | What to Automate First for Plumbing Companies | `/what-to-automate-first-for-plumbing-companies` | Plumbing first-project scoping page | Live |
@@ -290,20 +291,20 @@ Last updated: 2026-04-24 (shipped `ai-phone-answering-vs-voicemail-for-electrica
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 263**
+**Total decision/comparison/industry pages live: 264**
 **Total case studies live: 3**
 
 ---
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/what-to-automate-first-for-dental-practices` closes the clearest missing earlier scoping layer in the live dental cluster. Dental now covers the broader parent page plus the first-project decision that helps an owner choose between new-patient follow-up, booking and reminders, recall/reactivation, no-show reduction, and after-hours call handling before a broader build. The next run should keep the broader backlog-reconciliation mindset, but the strongest remaining adjacent candidates now appear to be the same first-project decision layer in other live professional-services clusters that still only have the broad parent page.
+Shipping `/what-to-automate-first-for-law-firms` closes the clearest missing earlier scoping layer in the live legal cluster. Law firms now cover the broader parent page plus the first-project decision that helps an owner choose between inquiry response, intake prep, consultation scheduling, post-consult follow-up, and after-hours call handling before a broader build. The next run should keep the broader backlog-reconciliation mindset, but the strongest remaining adjacent candidates now appear to be the same first-project decision layer in other live professional-services clusters that still only have the broad parent page.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|
-| 1 | **Queued workflow** | `what-to-automate-first-for-law-firms` | Law-firm owners deciding whether the first workflow should be inquiry response, intake, consultation scheduling, lead nurture, case-status updates, or after-hours coverage | The live law-firm parent already exposes multiple bounded workflow families, but the site still lacks the earlier scoping page that helps a buyer choose the first one before funding a broader intake/operations build. Adjacent proof is strong via the live legal parent plus the same published phone-handling and CRM proof used across other first-project pages. | **Best current candidate after this ship** |
-| 2 | **Watchlist** | `what-to-automate-first-for-accounting-firms` | Accounting-firm owners deciding whether the first workflow should be document collection, onboarding, appointment scheduling, prospect response, seasonal campaigns, or client re-engagement | The live accounting parent also exposes a clean first-project buyer decision with strong operational pain and adjacent proof, but law-firm scoping likely has slightly stronger buyer urgency and cleaner direct-intake framing. | **Strong fallback** |
-| 3 | **Watchlist** | Fresh repo-wide reconciliation after the next professional-services first-project ship | Owners asking a still-clean workflow or decision question not yet isolated on the live site | Dental proved there are still defensible earlier scoping layers hidden inside broad live parent pages. After one more likely law/accounting first-project ship, the backlog should be re-audited again instead of forcing another same-cluster child by inertia. | **Do after the next ship** |
+| 1 | **Queued workflow** | `what-to-automate-first-for-accounting-firms` | Accounting-firm owners deciding whether the first workflow should be document collection, onboarding, appointment scheduling, prospect response, seasonal campaigns, or client re-engagement | The live accounting parent still exposes a clean first-project buyer decision with strong operational pain and adjacent proof. It is now the clearest remaining same-pattern ship after the law-firm scoping page landed. | **Best current candidate after this ship** |
+| 2 | **Watchlist** | Fresh repo-wide reconciliation after the next professional-services first-project ship | Owners asking a still-clean workflow or decision question not yet isolated on the live site | Law firms proved there are still defensible earlier scoping layers hidden inside broad live parent pages. After one more likely accounting first-project ship, the backlog should be re-audited again instead of forcing another same-cluster child by inertia. | **Do after the next ship** |
+| 3 | **Watchlist** | Narrow proof-led child page from the next full reconciliation | Owners asking a commercially specific workflow or decision question that is still materially distinct from the live cluster | If accounting does ship next, the following run should not assume another professional-services scoping page exists by default. Re-check the broader planning docs, live parents, and tracked prompts before forcing another same-pattern page. | **Only after reconciliation** |
 
 ### Priority Definitions
 

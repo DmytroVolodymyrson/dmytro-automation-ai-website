@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-25T04:33:17.026Z",
-  "postCount": 286,
+  "updatedAt": "2026-04-25T04:51:45.884Z",
+  "postCount": 287,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,25 +15,25 @@
       "max": 11,
       "p25": 4,
       "p75": 4,
-      "samples": 286
+      "samples": 287
     },
     "sentenceLength": {
       "mean": 22.6,
-      "median": 22.45,
+      "median": 22.5,
       "min": 7.1,
       "max": 105,
       "p25": 17.9,
       "p75": 27,
-      "samples": 286
+      "samples": 287
     },
     "totalWords": {
-      "mean": 303.6,
+      "mean": 304.7,
       "median": 311,
       "min": 17,
       "max": 1155,
       "p25": 242,
-      "p75": 358,
-      "samples": 286
+      "p75": 359,
+      "samples": 287
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -76,7 +76,7 @@
       "long | single | long | long": 19,
       "single | long | single | single | single | single | single | long | single | single": 1,
       "long | single | single | long | single": 1,
-      "long | short | long | long | long | short | long | single | long": 1
+      "long | short | long | long | long | short | long | single | long": 2
     },
     "structuralTemplates": {
       "opener | context | result | context | closer": 3,
@@ -115,7 +115,8 @@
       "opener | context | context | context | closer": 1,
       "opener | context | result | closer": 56,
       "opener | result | product-pitch | closer": 1,
-      "opener | context | context | context | context | result | context | result | closer": 1
+      "opener | context | context | context | context | result | context | result | closer": 1,
+      "opener | context | context | context | context | context | context | result | closer": 1
     }
   },
   "openers": {
@@ -137,7 +138,7 @@
         ]
       },
       "standard-opener": {
-        "count": 185,
+        "count": 186,
         "examples": [
           "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an autom",
           "Section heading: Real Results for Real Businesses\nSubheading: Here's what happen",
@@ -172,7 +173,7 @@
         ]
       },
       "question": {
-        "count": 238,
+        "count": 239,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -213,7 +214,7 @@
       ],
       [
         "automation",
-        798
+        806
       ],
       [
         "ai",
@@ -224,12 +225,12 @@
         514
       ],
       [
-        "it",
-        499
+        "workflow",
+        509
       ],
       [
-        "workflow",
-        492
+        "it",
+        499
       ],
       [
         "phone",
@@ -241,27 +242,27 @@
       ],
       [
         "page",
-        418
+        427
+      ],
+      [
+        "follow-up",
+        411
       ],
       [
         "this",
         406
       ],
       [
-        "follow-up",
-        405
-      ],
-      [
         "whether",
         398
       ],
       [
-        "your",
-        393
+        "first",
+        394
       ],
       [
-        "first",
-        374
+        "your",
+        393
       ],
       [
         "live",
@@ -280,6 +281,10 @@
         269
       ],
       [
+        "should",
+        258
+      ],
+      [
         "voicemail",
         254
       ],
@@ -288,12 +293,8 @@
         254
       ],
       [
-        "should",
-        250
-      ],
-      [
         "from",
-        204
+        210
       ],
       [
         "lead",
@@ -313,7 +314,7 @@
       ],
       [
         "heading",
-        142
+        150
       ],
       [
         "roofing",

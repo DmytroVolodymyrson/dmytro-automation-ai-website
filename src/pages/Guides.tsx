@@ -834,6 +834,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Law Firms",
+    description:
+      "Scoping guide for law firms deciding whether the first automation should be inquiry response, intake prep, consultation scheduling, unretained-consult follow-up, or after-hours call handling before a broader rollout.",
+    href: "/what-to-automate-first-for-law-firms",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Accounting Firms",
     description:
       "AI automation for accounting firms. Client onboarding, document collection, appointment scheduling, and seasonal workflows for CPA and bookkeeping practices.",

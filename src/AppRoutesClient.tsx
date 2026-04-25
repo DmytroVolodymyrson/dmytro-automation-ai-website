@@ -74,6 +74,7 @@ const WhatToAutomateFirstForMortgageBrokers = lazy(() => import("./pages/WhatToA
 const AiAutomationForDentalPractices = lazy(() => import("./pages/AiAutomationForDentalPractices"));
 const WhatToAutomateFirstForDentalPractices = lazy(() => import("./pages/WhatToAutomateFirstForDentalPractices"));
 const AiAutomationForLawFirms = lazy(() => import("./pages/AiAutomationForLawFirms"));
+const WhatToAutomateFirstForLawFirms = lazy(() => import("./pages/WhatToAutomateFirstForLawFirms"));
 const AiAutomationForAccountingFirms = lazy(() => import("./pages/AiAutomationForAccountingFirms"));
 const AiAutomationForPlumbingCompanies = lazy(() => import("./pages/AiAutomationForPlumbingCompanies"));
 const WhatToAutomateFirstForPlumbingCompanies = lazy(() => import("./pages/WhatToAutomateFirstForPlumbingCompanies"));
@@ -360,6 +361,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-automation-for-dental-practices" element={<AiAutomationForDentalPractices />} />
       <Route path="/what-to-automate-first-for-dental-practices" element={<WhatToAutomateFirstForDentalPractices />} />
       <Route path="/ai-automation-for-law-firms" element={<AiAutomationForLawFirms />} />
+      <Route path="/what-to-automate-first-for-law-firms" element={<WhatToAutomateFirstForLawFirms />} />
       <Route path="/ai-automation-for-accounting-firms" element={<AiAutomationForAccountingFirms />} />
       <Route path="/ai-automation-for-plumbing-companies" element={<AiAutomationForPlumbingCompanies />} />
       <Route path="/what-to-automate-first-for-plumbing-companies" element={<WhatToAutomateFirstForPlumbingCompanies />} />
