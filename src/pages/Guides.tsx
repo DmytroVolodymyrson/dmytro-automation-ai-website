@@ -912,6 +912,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. AI Phone Answering for Dental Practices",
+    description:
+      "Dental buyer guide for deciding when SMS-first missed-call recovery is enough, when live AI phone coverage is worth the heavier build, and how to choose based on front-desk overload, caller expectations, and after-hours demand.",
+    href: "/missed-call-text-back-vs-ai-phone-answering-for-dental-practices",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Dental Practices",
     description:
       "Live patient-call coverage for dental practices that need after-hours answering, routine booking-question handling, cleaner front-desk handoff, and fewer appointments lost to voicemail or delayed callbacks.",

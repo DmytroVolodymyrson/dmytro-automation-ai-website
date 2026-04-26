@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `missed-call-text-back-vs-voicemail-for-dental-practices` after fresh reconciliation confirmed the dental cluster still had one clean lighter phone-fallback decision gap. The live dental cluster already had the broader parent, first-project, lead-follow-up, booking/reminder, recall, no-show, review, missed-call text-back, live-answering, and heavier voicemail-comparison pages; this new child isolates the narrower SMS-first-versus-voicemail buyer choice without inventing fake dental-only proof. Next run can test whether the remaining lighter-vs-heavier phone comparison is still distinct, but it should still be verified against the live cluster instead of forced by inertia.)
+Last updated: 2026-04-26 (shipped `missed-call-text-back-vs-ai-phone-answering-for-dental-practices` after a fresh reconciliation confirmed the dental phone cluster still had one clean lighter-vs-heavier buyer decision left. The live dental cluster already had the broader parent, first-project, lead-follow-up, booking/reminder, recall, no-show, review, missed-call text-back, voicemail comparison, live-answering explainer, and heavier AI-phone-vs-voicemail comparison pages; this new child isolates the remaining decision between SMS-first recovery and live AI phone coverage without inventing fake dental-only proof. With that page now live, the dental phone cluster should no longer be forced by inertia on the next run; the queue resets to broad cross-cluster reconciliation first.)
 
 ## Live GEO Assets
 
@@ -98,6 +98,7 @@ Last updated: 2026-04-26 (shipped `missed-call-text-back-vs-voicemail-for-dental
 | Review Automation (Dental) | `/review-request-automation-for-dental-practices` | Vertical workflow page | Live |
 | Missed Call Text-Back (Dental) | `/missed-call-text-back-for-dental-practices` | Vertical workflow page | Live |
 | Missed Call Text-Back vs. Voicemail (Dental) | `/missed-call-text-back-vs-voicemail-for-dental-practices` | Vertical comparison page | Live |
+| Missed Call Text-Back vs. AI Phone Answering (Dental) | `/missed-call-text-back-vs-ai-phone-answering-for-dental-practices` | Vertical comparison page | Live |
 | AI Phone Answering (Dental) | `/ai-phone-answering-for-dental-practices` | Vertical solution page | Live |
 | AI for Law Firms | `/ai-automation-for-law-firms` | Vertical category page | Live |
 | What to Automate First (Law Firms) | `/what-to-automate-first-for-law-firms` | Vertical decision page | Live |
@@ -243,9 +244,9 @@ Last updated: 2026-04-26 (shipped `missed-call-text-back-vs-voicemail-for-dental
 
 ## Next Pages
 
-The dental cluster still has one plausible remaining phone-layer comparison candidate, but it should be treated as a verified fallback rather than an automatic same-cluster repeat. The new lighter voicemail-vs-text-back page is now live alongside the heavier AI-phone-vs-voicemail page, so the only obvious surviving dental buyer decision is the lighter-vs-heavier comparison: when SMS-first recovery is enough versus when the practice has outgrown it and needs live AI phone answering.
+The dental phone cluster is now fully covered at the obvious parent / child / lighter-fallback / heavier-fallback / lighter-vs-heavier decision layers, so the next run should not default to another dental page. Reset to broad cross-cluster reconciliation first, and only name a new candidate after verifying it against the live routes, guides, sitemap, llm files, prompts file, and the broader planning docs.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `/missed-call-text-back-vs-ai-phone-answering-for-dental-practices` | The missed-call dental page still tracks the exact lighter-vs-heavier buyer query, and the rest of the dental phone cluster is now mature enough that this remaining comparison can stay tightly on the buyer decision instead of rewording sibling pages. | Verified fallback candidate |
-| 2 | Broad reconciliation across remaining live clusters | If the dental lighter-vs-heavier comparison starts to look too close to the existing phone pages on a fresh pass, the next ship should come from a new cluster instead of forcing another dental child by inertia. | Default if #1 fails distinctness check |
+| 1 | Broad reconciliation across remaining live clusters | The just-shipped dental lighter-vs-heavier comparison closes the last clean same-cluster buyer decision that survived review. The next best page should come from a fresh repo-wide reconciliation instead of forcing another dental child by inertia. | Default next run |
+| 2 | Proof-led watchlist / maintenance improvements if no clean page survives reconciliation | If no distinct high-confidence net-new page survives the next full pass, prefer honest queue maintenance and stronger discovery surfaces over filler content. | Fallback if backlog remains exhausted |

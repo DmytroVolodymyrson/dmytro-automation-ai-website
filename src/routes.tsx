@@ -84,6 +84,7 @@ import AppointmentSchedulingAndReminderAutomationForDentalPractices from "./page
 import ReviewRequestAutomationForDentalPractices from "./pages/ReviewRequestAutomationForDentalPractices";
 import MissedCallTextBackForDentalPractices from "./pages/MissedCallTextBackForDentalPractices";
 import MissedCallTextBackVsVoicemailForDentalPractices from "./pages/MissedCallTextBackVsVoicemailForDentalPractices";
+import MissedCallTextBackVsAiPhoneAnsweringForDentalPractices from "./pages/MissedCallTextBackVsAiPhoneAnsweringForDentalPractices";
 import AiPhoneAnsweringForDentalPractices from "./pages/AiPhoneAnsweringForDentalPractices";
 import AiPhoneAnsweringVsVoicemailForDentalPractices from "./pages/AiPhoneAnsweringVsVoicemailForDentalPractices";
 import AiAutomationForLawFirms from "./pages/AiAutomationForLawFirms";
@@ -461,6 +462,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/review-request-automation-for-dental-practices", element: <ReviewRequestAutomationForDentalPractices /> },
   { path: "/missed-call-text-back-for-dental-practices", element: <MissedCallTextBackForDentalPractices /> },
   { path: "/missed-call-text-back-vs-voicemail-for-dental-practices", element: <MissedCallTextBackVsVoicemailForDentalPractices /> },
+  { path: "/missed-call-text-back-vs-ai-phone-answering-for-dental-practices", element: <MissedCallTextBackVsAiPhoneAnsweringForDentalPractices /> },
   { path: "/ai-phone-answering-for-dental-practices", element: <AiPhoneAnsweringForDentalPractices /> },
   { path: "/ai-phone-answering-vs-voicemail-for-dental-practices", element: <AiPhoneAnsweringVsVoicemailForDentalPractices /> },
   { path: "/ai-automation-for-law-firms", element: <AiAutomationForLawFirms /> },
