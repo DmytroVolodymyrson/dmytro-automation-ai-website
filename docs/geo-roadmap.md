@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `what-to-automate-first-for-solar-companies` as a high-intent priority page to complete the initial solar set. Solar is a high-ticket industry where documentation bottlenecks like utility bill collection make a prioritization guide very valuable. Next run should consider further industry child pages or comparison intent.)
+Last updated: 2026-04-26 (shipped `ai-phone-answering-for-solar-companies` as the next high-intent solar child page. The live solar cluster already exposed phone coverage as a distinct workflow family, and this page cleanly isolates the heavier live-answering layer from broader solar strategy, lead follow-up, utility-bill collection, and booked-consult scheduling. Next run should look at the next distinct solar comparison or broaden to another proof-backed vertical child if a cleaner gap survives reconciliation.)
 
 ## Live GEO Assets
 
@@ -109,6 +109,7 @@ Last updated: 2026-04-26 (shipped `what-to-automate-first-for-solar-companies` a
 | What to Automate First (Solar) | `/what-to-automate-first-for-solar-companies` | Vertical decision page | Live |
 | Utility Bill Collection (Solar) | `/utility-bill-collection-automation-for-solar-companies` | Vertical workflow page | Live |
 | AI Lead Follow-Up (Solar) | `/ai-lead-follow-up-for-solar-companies` | Vertical workflow page | Live |
+| AI Phone Answering (Solar) | `/ai-phone-answering-for-solar-companies` | Vertical solution page | Live |
 | AI for Accounting Firms | `/ai-automation-for-accounting-firms` | Vertical category page | Live |
 | Document Collection (Accounting) | `/document-collection-automation-for-accounting-firms` | Vertical workflow page | Live |
 | Client Onboarding (Accounting) | `/client-onboarding-automation-for-accounting-firms` | Vertical workflow page | Live |

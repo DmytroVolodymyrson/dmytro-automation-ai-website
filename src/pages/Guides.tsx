@@ -1213,6 +1213,13 @@ const guides: GuideItem[] = [
     href: "/appointment-scheduling-and-reminder-automation-for-solar-companies",
     category: "industries",
   },
+  {
+    title: "AI Phone Answering for Solar Companies",
+    description:
+      "A narrower solar phone-coverage page focused on live inbound qualification calls, after-hours answer coverage, homeowner intake, and cleaner handoff when solar teams cannot answer fast enough.",
+    href: "/ai-phone-answering-for-solar-companies",
+    category: "industries",
+  },
 
   {
     title: "Estimate Follow-Up Automation for Electrical Contractors",

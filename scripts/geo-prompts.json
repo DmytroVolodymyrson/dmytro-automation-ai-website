@@ -3559,6 +3559,18 @@
         "Solar appointment reminder workflow for design consultations",
         "How can solar companies automate consultation rescheduling?"
       ]
+    },
+    {
+      "id": "ai-phone-answering-for-solar-companies",
+      "path": "/ai-phone-answering-for-solar-companies",
+      "label": "AI Phone Answering for Solar Companies",
+      "prompts": [
+        "AI phone answering for solar companies",
+        "Should a solar company use AI phone answering for inbound calls?",
+        "Best way for a solar company to answer qualification calls after hours",
+        "When should a solar installer use live AI phone answering instead of voicemail or delayed callback?",
+        "How can solar companies automate inbound phone qualification without hiring another office rep?"
+      ]
     }
   ],
   "scoring": {
