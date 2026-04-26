@@ -3519,9 +3519,21 @@
       "prompts": [
         "AI automation for solar companies",
         "How can AI help my solar business close more leads?",
-        "Best AI automation for solar lead follow-up",
         "Solar project management automation with AI",
-        "How to automate utility bill collection for solar quotes"
+        "How to automate utility bill collection for solar quotes",
+        "Solar workflow automation with AI"
+      ]
+    },
+    {
+      "id": "ai-lead-follow-up-for-solar-companies",
+      "path": "/ai-lead-follow-up-for-solar-companies",
+      "label": "AI Lead Follow-Up for Solar Companies",
+      "prompts": [
+        "AI lead follow-up for solar companies",
+        "Best AI automation for solar lead follow-up",
+        "How to automate solar lead response in under 60 seconds",
+        "Should I automate solar lead follow-up or hire more reps?",
+        "AI tools for instant solar lead conversion"
       ]
     }
   ],

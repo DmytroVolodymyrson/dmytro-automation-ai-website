@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `ai-automation-for-solar-companies` as the high-intent parent page for the solar cluster. Solar is a high-value industry with intense lead-response and project-milestone requirements, making it a perfect fit for CRM and communication automation. This page establishes the vertical footprint, with future child pages planned for utility-bill collection and site-audit scheduling. The next run should reset to broad reconciliation to identify the next high-value vertical gap.)
+Last updated: 2026-04-25 (shipped `ai-lead-follow-up-for-solar-companies` as a high-intent child page for the solar cluster. Solar leads are high-value and time-sensitive, making automated instant response a critical operational fix. This page strengthens the solar vertical, and the next run should consider further solar children or reset to broad reconciliation.)
 
 ## Live GEO Assets
 
@@ -127,6 +127,7 @@ Last updated: 2026-04-25 (shipped `ai-automation-for-solar-companies` as the hig
 | Estimate Follow-Up Automation for Electrical Contractors | `/estimate-follow-up-automation-for-electrical-contractors` | Electrical quote-stage workflow page | Live |
 | Review Request Automation for Electrical Contractors | `/review-request-automation-for-electrical-contractors` | Electrical post-job reputation workflow page | Live |
 | AI Automation for Solar Companies | `/ai-automation-for-solar-companies` | Industry page | Live |
+| AI Lead Follow-Up for Solar Companies | `/ai-lead-follow-up-for-solar-companies` | Solar workflow / lead-response page | Live |
 | CRM Automation for Contractors | `/crm-automation-for-contractors` | Industry / CRM systems page | Live |
 | CRM Pipeline Stages for Contractors | `/crm-pipeline-stages-for-contractors` | Contractor workflow-design page | Live |
 | CRM Automation Setup for Contractors | `/crm-automation-setup-for-contractors` | Contractor setup-help page | Live |
@@ -337,7 +338,7 @@ Last updated: 2026-04-25 (shipped `ai-automation-for-solar-companies` as the hig
 | `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
 | Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
 
-**Total decision/comparison/industry pages live: 310**
+**Total decision/comparison/industry pages live: 311**
 **Total case studies live: 3**
 
 ---
@@ -345,7 +346,7 @@ Last updated: 2026-04-25 (shipped `ai-automation-for-solar-companies` as the hig
 
 ## Next Pages (Prioritized Queue)
 
-Shipping `/ai-automation-for-solar-companies` establishes the initial footprint for the solar vertical. Solar is a high-ticket, lead-driven business where speed-to-lead and project-milestone tracking are the primary operational bottlenecks. This parent page anchors the cluster, leaving room for narrower child pages around utility-bill collection automation, site-audit scheduling, and project milestone updates. The next run should reset to broad backlog reconciliation across remaining live clusters and planning docs to identify the next high-value vertical or operational gap.
+Shipping `/ai-lead-follow-up-for-solar-companies` provides a high-intent child page for the solar cluster, targeting the critical speed-to-lead bottleneck. The solar vertical now has a parent page, a utility-bill collection page, and a lead-response page. The next run should consider adding site-audit scheduling or project-milestone updates to round out the solar cluster, or reset to broad reconciliation for a new vertical gap.
 
 | # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
 |---|----------|-------------|---------------|----------------|--------|

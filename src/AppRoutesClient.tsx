@@ -97,6 +97,7 @@ const AiPhoneAnsweringForLawFirms = lazy(() => import("./pages/AiPhoneAnsweringF
 const AiPhoneAnsweringVsVoicemailForLawFirms = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForLawFirms"));
 const AiAutomationForSolarCompanies = lazy(() => import("./pages/AiAutomationForSolarCompanies"));
 const UtilityBillCollectionAutomationForSolarCompanies = lazy(() => import("./pages/UtilityBillCollectionAutomationForSolarCompanies"));
+const AiLeadFollowUpForSolarCompanies = lazy(() => import("./pages/AiLeadFollowUpForSolarCompanies"));
 const AiAutomationForAccountingFirms = lazy(() => import("./pages/AiAutomationForAccountingFirms"));
 const DocumentCollectionAutomationForAccountingFirms = lazy(() => import("./pages/DocumentCollectionAutomationForAccountingFirms"));
 const ClientOnboardingAutomationForAccountingFirms = lazy(() => import("./pages/ClientOnboardingAutomationForAccountingFirms"));
@@ -429,10 +430,11 @@ const AppRoutesClient = () => (
       <Route path="/unretained-consult-follow-up-for-law-firms" element={<UnretainedConsultFollowUpForLawFirms />} />
       <Route path="/case-status-update-automation-for-law-firms" element={<CaseStatusUpdateAutomationForLawFirms />} />
       <Route path="/ai-phone-answering-for-law-firms" element={<AiPhoneAnsweringForLawFirms />} />
-      <Route path="/ai-phone-answering-vs-voicemail-for-law-firms" element={<AiPhoneAnsweringVsVoicemailForLawFirms />} />
-      <Route path="/ai-automation-for-solar-companies" element={<AiAutomationForSolarCompanies />} />
-      <Route path="/utility-bill-collection-automation-for-solar-companies" element={<UtilityBillCollectionAutomationForSolarCompanies />} />
-      <Route path="/ai-automation-for-accounting-firms" element={<AiAutomationForAccountingFirms />} />
+     <Route path="/ai-phone-answering-vs-voicemail-for-law-firms" element={<AiPhoneAnsweringVsVoicemailForLawFirms />} />
+     <Route path="/ai-automation-for-solar-companies" element={<AiAutomationForSolarCompanies />} />
+     <Route path="/utility-bill-collection-automation-for-solar-companies" element={<UtilityBillCollectionAutomationForSolarCompanies />} />
+      <Route path="/ai-lead-follow-up-for-solar-companies" element={<AiLeadFollowUpForSolarCompanies />} />
+     <Route path="/ai-automation-for-accounting-firms" element={<AiAutomationForAccountingFirms />} />
       <Route path="/document-collection-automation-for-accounting-firms" element={<DocumentCollectionAutomationForAccountingFirms />} />
       <Route path="/client-onboarding-automation-for-accounting-firms" element={<ClientOnboardingAutomationForAccountingFirms />} />
       <Route path="/what-to-automate-first-for-accounting-firms" element={<WhatToAutomateFirstForAccountingFirms />} />

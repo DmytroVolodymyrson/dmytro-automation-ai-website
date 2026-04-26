@@ -1193,6 +1193,14 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Lead Follow-Up for Solar Companies",
+    description:
+      "Practical guide to automating solar lead response. Instant SMS/email follow-up, multi-touch nurture sequences, and lead qualification for solar installers.",
+    href: "/ai-lead-follow-up-for-solar-companies",
+    category: "industries",
+  },
+
+  {
     title: "Estimate Follow-Up Automation for Electrical Contractors",
     description:
       "A narrower electrical workflow page focused on sent panel-upgrade, rewiring, troubleshooting, and service quotes that go cold — reminder timing, objection-aware messaging, estimator handoff, and open-estimate visibility before another job slips away.",
