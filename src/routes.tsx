@@ -213,6 +213,7 @@ import AiAppointmentSetterVsReceptionist from "./pages/AiAppointmentSetterVsRece
 import AiAppointmentSetterVsVirtualAssistant from "./pages/AiAppointmentSetterVsVirtualAssistant";
 import AiVoiceAgentVsVoicemail from "./pages/AiVoiceAgentVsVoicemail";
 import AiVoiceAgentVsCallCenter from "./pages/AiVoiceAgentVsCallCenter";
+import AiVoiceAgentVsAnsweringServiceForSmallBusiness from "./pages/AiVoiceAgentVsAnsweringServiceForSmallBusiness";
 import AiVoiceAgentVsHumanAppointmentSetter from "./pages/AiVoiceAgentVsHumanAppointmentSetter";
 import AiVoiceAgentVsManualCallbackForServiceBusinesses from "./pages/AiVoiceAgentVsManualCallbackForServiceBusinesses";
 import N8nVsMakeSmallBusiness from "./pages/N8nVsMakeSmallBusiness";
@@ -624,6 +625,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-appointment-setter-vs-virtual-assistant", element: <AiAppointmentSetterVsVirtualAssistant /> },
   { path: "/ai-voice-agent-vs-voicemail", element: <AiVoiceAgentVsVoicemail /> },
   { path: "/ai-voice-agent-vs-call-center", element: <AiVoiceAgentVsCallCenter /> },
+  { path: "/ai-voice-agent-vs-answering-service-for-small-business", element: <AiVoiceAgentVsAnsweringServiceForSmallBusiness /> },
   { path: "/ai-voice-agent-vs-human-appointment-setter", element: <AiVoiceAgentVsHumanAppointmentSetter /> },
   { path: "/ai-voice-agent-vs-manual-callback-for-service-businesses", element: <AiVoiceAgentVsManualCallbackForServiceBusinesses /> },
   { path: "/n8n-vs-make-small-business", element: <N8nVsMakeSmallBusiness /> },

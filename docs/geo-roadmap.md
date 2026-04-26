@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `missed-call-text-back-for-law-firms` after a fresh reconciliation confirmed the live law-firm cluster still had one clean missing lighter phone-recovery layer. The cluster already had the broader parent, first-project, lead-follow-up, intake/conflict-check, consultation scheduling, post-consult follow-up, case-status updates, the heavier live-answering explainer, and the heavier AI-phone-vs-voicemail comparison. This new child isolates the lighter SMS-first fallback between voicemail and live AI phone coverage without inventing fake law-firm-only proof. With that page now live, the next run should reset to broad cross-cluster reconciliation instead of forcing another law-firm phone page by inertia.)
+Last updated: 2026-04-26 (shipped `ai-voice-agent-vs-answering-service-for-small-business` after a fresh cross-cluster reconciliation found one clean horizontal buyer-intent gap still missing from the live voice-agent comparison set. The site already had AI voice agent vs voicemail, call center, human appointment setter, manual callback, receptionist, and virtual assistant comparisons, but no page isolating the common SMB answering-service decision. This new page captures that exact query without pretending there is already a published named-vendor replacement case study. Proof framing stays honest by leaning on the Paris Cafe voice-agent case study plus the existing AI voice agent cost and phone-answering pages. With that page now live, the next run should stay in broad cross-cluster reconciliation mode instead of forcing another voice-agent comparison by inertia.)
 
 ## Live GEO Assets
 
@@ -246,9 +246,9 @@ Last updated: 2026-04-26 (shipped `missed-call-text-back-for-law-firms` after a 
 
 ## Next Pages
 
-The law-firm cluster now has the broader parent, first-project page, intake/scheduling/follow-up children, the heavier live-answering explainer, the heavier AI-phone-vs-voicemail comparison, and the lighter missed-call text-back fallback. No equally clean next law-firm child survives automatically from that cluster, so the next run should reset to broad cross-cluster reconciliation first and only name a new candidate after verifying it against the live routes, guides, sitemap, llm files, prompts file, and the broader planning docs.
+The live horizontal voice-agent comparison set now covers voicemail, call center, answering service, human appointment setter, manual callback, receptionist, and virtual assistant decision frames. That closes the clearest remaining incumbent-comparison gap without inventing a fake named-vendor replacement case study. The next run should stay in broad cross-cluster reconciliation mode and only promote a named page after verifying it against the live routes, guides, sitemap, llm files, prompts file, and the broader planning docs.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | Broad reconciliation across remaining live clusters | The just-shipped law-firm missed-call text-back page closes the cleanest remaining lighter phone-recovery gap in that cluster. The next best page should come from a fresh repo-wide reconciliation instead of forcing another law-firm child by inertia. | Default next run |
+| 1 | Broad reconciliation across remaining live clusters | The just-shipped answering-service comparison closes the cleanest remaining horizontal voice-agent incumbent gap. The next best page should come from a fresh repo-wide reconciliation instead of forcing another voice-agent comparison by inertia. | Default next run |
 | 2 | Proof-led watchlist / maintenance improvements if no clean page survives reconciliation | If no distinct high-confidence net-new page survives the next full pass, prefer honest queue maintenance and stronger discovery surfaces over filler content. | Fallback if backlog remains exhausted |

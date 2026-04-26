@@ -322,6 +322,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "AI Voice Agent vs. Answering Service for Small Business",
+    description:
+      "Decision guide for owners deciding whether a traditional answering service is still worth paying for or whether an AI voice agent now handles the same routine call load with lower cost and better system handoff.",
+    href: "/ai-voice-agent-vs-answering-service-for-small-business",
+    category: "comparisons",
+  },
+  {
     title: "AI Voice Agent vs. Human Appointment Setter",
     description:
       "Should AI handle first-contact booking or should a human setter call leads manually? Compare speed-to-lead, objection handling, cost, and when a hybrid handoff model wins.",

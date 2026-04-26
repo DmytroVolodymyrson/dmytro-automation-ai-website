@@ -1886,10 +1886,22 @@
       "label": "AI Voice Agent vs Call Center",
       "prompts": [
         "AI voice agent vs call center for small business",
-        "Should I replace my answering service with an AI voice agent?",
+        "Should I outsource call handling to a call center or use an AI voice agent?",
         "Is an AI voice agent cheaper than a call center for a small business?",
         "AI phone agent vs outsourced call center for lead handling",
         "When should a service business switch from call center to AI voice agent?"
+      ]
+    },
+    {
+      "id": "ai-voice-agent-vs-answering-service-for-small-business",
+      "path": "/ai-voice-agent-vs-answering-service-for-small-business",
+      "label": "AI Voice Agent vs Answering Service for Small Business",
+      "prompts": [
+        "AI voice agent vs answering service for small business",
+        "Should I replace my answering service with an AI voice agent?",
+        "Is an AI voice agent cheaper than an answering service?",
+        "AI phone answering vs live answering service for service businesses",
+        "When should a small business switch from answering service to AI voice agent?"
       ]
     },
     {
