@@ -2358,6 +2358,56 @@ const orderedCategories: GuideCategory[] = [
   "industries",
   "geo",
 ];
+const priorityPaths: GuideItem[] = [
+  {
+    title: "AI Automation Consultant for Small Business",
+    description:
+      "Start with the main commercial overview if you are deciding whether to hire help, what good consultant work should include, and whether your business is even a fit.",
+    href: "/ai-automation-consultant-small-business",
+    category: "strategy",
+  },
+  {
+    title: "Best AI Automations for Service Businesses",
+    description:
+      "Use this decision guide to identify the first automation worth building before you spend money on low-impact tools or generic AI experiments.",
+    href: "/best-ai-automation-for-service-businesses",
+    category: "strategy",
+  },
+  {
+    title: "AI Lead Follow-Up for Service Businesses",
+    description:
+      "If your biggest problem is slow lead response, missed inquiries, or weak nurture, this is the most practical workflow page to read next.",
+    href: "/ai-lead-follow-up-for-service-businesses",
+    category: "workflows",
+  },
+  {
+    title: "AI Appointment Setter",
+    description:
+      "Read this when booking friction, after-hours calls, or scheduling bottlenecks are costing you appointments instead of just slowing follow-up.",
+    href: "/ai-appointment-setter",
+    category: "workflows",
+  },
+];
+const proofPaths = [
+  {
+    title: "Case studies hub",
+    description:
+      "Browse the proof library first if you want examples from multiple business types before choosing a workflow or consultant path.",
+    href: "/case-studies",
+  },
+  {
+    title: "Paris Cafe voice agent case study",
+    description:
+      "Relevant proof for appointment-setting, phone coverage, and after-hours booking questions.",
+    href: "/case-studies/paris-cafe-voice-agent",
+  },
+  {
+    title: "E-commerce CRM automation case study",
+    description:
+      "Best proof asset for lead follow-up, CRM cleanup, segmentation, and database reactivation questions.",
+    href: "/case-studies/ecommerce-crm-automation",
+  },
+];
 
 const Guides = () => {
   useEffect(() => {
@@ -2536,22 +2586,66 @@ const Guides = () => {
               ))}
             </div>
 
-            <div className="mt-8 rounded-2xl border border-border/60 bg-card/70 p-5 md:p-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-              <div>
+            <div className="mt-8 grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
+              <div className="rounded-2xl border border-border/60 bg-card/70 p-5 md:p-6">
+                <div className="text-xs font-semibold uppercase tracking-[0.16em] text-cyan-600 mb-3">
+                  Priority crawl paths
+                </div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">
-                  Need proof before picking a first automation?
+                  Read these pages next if you want the clearest commercial path
                 </h3>
-                <p className="text-sm text-muted-foreground leading-relaxed max-w-2xl">
-                  Review the case-study hub to connect these buying guides to live automation outcomes before you choose a build sequence.
+                <p className="text-sm text-muted-foreground leading-relaxed max-w-2xl mb-5">
+                  These are the pages that best explain who this site is for, which automation to start with, and which workflow to prioritize before you book a call.
                 </p>
+                <div className="grid gap-4 md:grid-cols-2">
+                  {priorityPaths.map((item) => (
+                    <Link
+                      key={item.href}
+                      to={item.href}
+                      className="group rounded-2xl border border-border/60 bg-background/80 p-4 shadow-card hover:shadow-card-hover transition-shadow"
+                    >
+                      <h4 className="text-base font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
+                        {item.title}
+                      </h4>
+                      <p className="text-sm text-muted-foreground leading-relaxed mb-3">
+                        {item.description}
+                      </p>
+                      <span className="inline-flex items-center gap-2 text-sm font-medium text-primary">
+                        Open page
+                        <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                      </span>
+                    </Link>
+                  ))}
+                </div>
               </div>
-              <Link
-                to="/case-studies"
-                className="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:text-primary/80"
-              >
-                View case studies
-                <ArrowRight className="w-4 h-4" />
-              </Link>
+
+              <div className="rounded-2xl border border-border/60 bg-card/70 p-5 md:p-6">
+                <div className="text-xs font-semibold uppercase tracking-[0.16em] text-cyan-600 mb-3">
+                  Proof before platform shopping
+                </div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  Pair the decision pages with real automation outcomes
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-5">
+                  If you need proof before choosing a workflow, review the case-study hub and the two strongest examples for booking and lead-follow-up systems.
+                </p>
+                <div className="grid gap-3">
+                  {proofPaths.map((item) => (
+                    <Link
+                      key={item.href}
+                      to={item.href}
+                      className="group rounded-2xl border border-border/60 bg-background/80 px-4 py-3 hover:border-primary/30 transition-colors"
+                    >
+                      <div className="text-sm font-semibold text-foreground group-hover:text-primary transition-colors">
+                        {item.title}
+                      </div>
+                      <p className="mt-1 text-sm text-muted-foreground leading-relaxed">
+                        {item.description}
+                      </p>
+                    </Link>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         </section>

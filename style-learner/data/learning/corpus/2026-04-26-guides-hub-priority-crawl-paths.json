@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-26-guides-hub-priority-crawl-paths",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-26",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "### Section\nHeading: Read these pages next if you want the clearest commercial path\nBody: These are the pages that best explain who this site is for, which automation to start with, and which workflow to prioritize before you book a call.\n\n### Priority Crawl Paths\n- AI Automation Consultant for Small Business — Start with the main commercial overview if you are deciding whether to hire help, what good consultant work should include, and whether your business is even a fit.\n- Best AI Automations for Service Businesses — Use this decision guide to identify the first automation worth building before you spend money on low-impact tools or generic AI experiments.\n- AI Lead Follow-Up for Service Businesses — If your biggest problem is slow lead response, missed inquiries, or weak nurture, this is the most practical workflow page to read next.\n- AI Appointment Setter — Read this when booking friction, after-hours calls, or scheduling bottlenecks are costing you appointments instead of just slowing follow-up.\n\n### Proof Section\nHeading: Pair the decision pages with real automation outcomes\nBody: If you need proof before choosing a workflow, review the case-study hub and the two strongest examples for booking and lead-follow-up systems.\n\n### Proof Links\n- Case studies hub — Browse the proof library first if you want examples from multiple business types before choosing a workflow or consultant path.\n- Paris Cafe voice agent case study — Relevant proof for appointment-setting, phone coverage, and after-hours booking questions.\n- E-commerce CRM automation case study — Best proof asset for lead follow-up, CRM cleanup, segmentation, and database reactivation questions.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Written as hub-page copy, not a standalone landing page, so the tone stays directional and utility-first."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the language commercial and specific: who the site is for, what page to read next, and which proof to pair with the decision path."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoids hype and broad AI claims; every sentence is meant to improve routing for both human readers and crawlers."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses short, skimmable descriptions that reinforce adjacent proof instead of introducing new topics."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-26T16:06:33.498Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        1,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 28.6,
+      "sentenceLengthRange": [
+        17,
+        41
+      ],
+      "totalWords": 257
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Section\nHeading: Read these pages next if you want the clearest commercial path\nBody: These are the pages that best explain who this site is for, which automation to start with, and which workflow to prioritize before you book a call.",
+      "wordCount": 41,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Proof Links\n- Case studies hub — Browse the proof library first if you want examples from multiple business types before choosing a workflow or consultant path.\n- Paris Cafe voice agent case study — Relevant proof for appointment-setting, phone coverage, and after-hours booking questions.\n- E-commerce CRM automation case study — Best proof asset for lead follow-up, CRM cleanup, segmentation, and database reactivation questions.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 15,
+      "emDashes": 7,
+      "enDashes": 0,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 4,
+      "commasPerSentence": 1.67
+    },
+    "vocabulary": {
+      "distinctWords": 142,
+      "totalWords": 257,
+      "topWords": [
+        [
+          "-",
+          7
+        ],
+        [
+          "proof",
+          6
+        ],
+        [
+          "if",
+          5
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "ai",
+          5
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "before",
+          4
+        ],
+        [
+          "read",
+          3
+        ],
+        [
+          "pages",
+          3
+        ],
+        [
+          "best",
+          3
+        ],
+        [
+          "with",
+          3
+        ],
+        [
+          "consultant",
+          3
+        ],
+        [
+          "business",
+          3
+        ],
+        [
+          "lead",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
