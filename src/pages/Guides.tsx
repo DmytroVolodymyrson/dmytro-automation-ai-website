@@ -1017,6 +1017,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. Voicemail for Law Firms",
+    description:
+      "Lighter fallback comparison for law firms deciding whether SMS-first missed-call recovery is enough or whether voicemail and manual callbacks are quietly costing consultations, with guidance on court-block gaps, callback lag, and when to move to live AI phone answering.",
+    href: "/missed-call-text-back-vs-voicemail-for-law-firms",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Accounting Firms",
     description:
       "AI automation for accounting firms. Client onboarding, document collection, appointment scheduling, and seasonal workflows for CPA and bookkeeping practices.",

@@ -989,6 +989,18 @@
         "How should a law firm recover intake calls it misses while attorneys are in court?",
         "Best way for a small law firm to respond faster after a missed intake call without live answering",
         "What kind of law-firm intake calls are still okay to recover by text instead of answering live?",
+        "How do law firms stop losing consultations when staff cannot pick up right away?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-voicemail-for-law-firms",
+      "path": "/missed-call-text-back-vs-voicemail-for-law-firms",
+      "label": "Missed Call Text-Back vs Voicemail for Law Firms",
+      "prompts": [
+        "Missed call text-back vs voicemail for law firms",
+        "Should a law firm replace voicemail with missed-call text-back for intake calls?",
+        "Is voicemail still good enough for a small law firm or should it switch to text-back after missed calls?",
+        "Best way for a law firm to decide between voicemail and missed-call text-back for intake recovery",
         "How do law firms stop losing consultations to voicemail when staff cannot pick up right away?"
       ]
     },

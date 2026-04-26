@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `missed-call-text-back-vs-ai-phone-answering-for-law-firms` after a fresh reconciliation of the law-firm cluster showed one clean phone-decision page still missing between the existing missed-call text-back and live AI phone-answering guides. The site already had the broad law-firm parent, first-project page, intake/conflict-check, consultation scheduling, unretained-consult follow-up, case-status updates, the live AI phone-answering explainer, the missed-call text-back workflow page, and the heavier AI-phone-vs-voicemail comparison. What was still missing was the direct lighter-vs-heavier buyer decision: when SMS-first missed-call recovery is enough and when a law firm has outgrown it and needs live answered coverage. This new page captures that exact query without pretending there is already a law-firm-only phone-answering case study. Proof framing stays honest by leaning on the live law-firm cluster, the generic phone-answering guide, and the published Paris Cafe voice-agent case study. With that page now live, the next best named law-firm follow-on is the lighter fallback comparison `missed-call-text-back-vs-voicemail-for-law-firms`; after that, the queue should return to broad cross-cluster reconciliation instead of forcing more same-cluster pages by inertia.)
+Last updated: 2026-04-26 (shipped `missed-call-text-back-vs-voicemail-for-law-firms` — the lighter fallback comparison the previous run identified as the last clean law-firm phone gap. The law-firm phone cluster now has every buyer-decision layer: the missed-call text-back workflow page, AI phone answering explainer, text-back vs AI phone answering, AI phone vs voicemail, and now text-back vs voicemail. That closes the law-firm phone cluster. The next run should return to broad cross-cluster reconciliation instead of forcing more same-cluster pages by inertia.)
 
 ## Live GEO Assets
 
@@ -111,6 +111,7 @@ Last updated: 2026-04-26 (shipped `missed-call-text-back-vs-ai-phone-answering-f
 | Missed Call Text-Back (Law Firms) | `/missed-call-text-back-for-law-firms` | Vertical workflow page | Live |
 | AI Phone vs Voicemail (Law Firms) | `/ai-phone-answering-vs-voicemail-for-law-firms` | Vertical comparison page | Live |
 | Text-Back vs AI Phone (Law Firms) | `/missed-call-text-back-vs-ai-phone-answering-for-law-firms` | Vertical comparison page | Live |
+| Text-Back vs Voicemail (Law Firms) | `/missed-call-text-back-vs-voicemail-for-law-firms` | Vertical comparison page | Live |
 | AI for Solar Companies | `/ai-automation-for-solar-companies` | Vertical category page | Live |
 | What to Automate First (Solar) | `/what-to-automate-first-for-solar-companies` | Vertical decision page | Live |
 | Utility Bill Collection (Solar) | `/utility-bill-collection-automation-for-solar-companies` | Vertical workflow page | Live |
@@ -247,10 +248,9 @@ Last updated: 2026-04-26 (shipped `missed-call-text-back-vs-ai-phone-answering-f
 
 ## Next Pages
 
-The law-firm phone cluster now has the broad parent, first-project page, missed-call text-back workflow page, live AI phone-answering explainer, and the two heavier phone comparisons. The clean remaining same-cluster buyer decision is the lighter fallback page `missed-call-text-back-vs-voicemail-for-law-firms`, because the cluster still lacks a page isolating when SMS-first recovery is enough over plain voicemail/manual callback. After that, the queue should return to broad cross-cluster reconciliation unless another exact surviving query proves itself more clearly than maintenance work.
+The law-firm phone cluster is now complete. The next run should do a fresh broad cross-cluster reconciliation across all live verticals and horizontal clusters before promoting any single named candidate.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `missed-call-text-back-vs-voicemail-for-law-firms` | The just-shipped page covers the lighter-vs-heavier decision. The remaining clean law-firm phone gap is the lighter fallback comparison: voicemail/manual callback versus SMS-first missed-call recovery. It stays distinct from both the new page and the live AI-phone-vs-voicemail page. | Next named candidate |
-| 2 | Broad reconciliation across remaining live clusters | Once that lighter law-firm fallback page ships — or if fresh verification shows it is not actually distinct enough — the next run should reset to repo-wide reconciliation instead of forcing more law-firm phone pages by inertia. | Default after candidate check |
-| 3 | Proof-led watchlist / maintenance improvements if no clean page survives reconciliation | If no distinct high-confidence net-new page survives the next full pass, prefer honest queue maintenance and stronger discovery surfaces over filler content. | Fallback if backlog remains exhausted |
+| 1 | Broad reconciliation across remaining live clusters | The law-firm phone cluster is closed. The next best page should come from a fresh repo-wide reconciliation instead of forcing another same-cluster page by inertia. | Default next run |
+| 2 | Proof-led watchlist / maintenance improvements if no clean page survives reconciliation | If no distinct high-confidence net-new page survives the next full pass, prefer honest queue maintenance and stronger discovery surfaces over filler content. | Fallback if backlog remains exhausted |
