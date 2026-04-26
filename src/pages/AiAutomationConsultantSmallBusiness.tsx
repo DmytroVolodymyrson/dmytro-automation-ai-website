@@ -53,6 +53,16 @@ const faqItems = [
       "That's exactly what the initial call is for. We'll walk through your current workflows, identify where time and money are leaking, and figure out the highest-impact first move. You don't need to arrive with a plan. That's my job.",
   },
   {
+    question: "Are there any hidden costs?",
+    answer:
+      "No. I quote fixed prices for the build. You'll also have small monthly platform costs (like n8n hosting or CRM fees) which we'll discuss during the mapping stage. I optimize for the lowest long-term cost, often replacing expensive tools with self-hosted alternatives like n8n.",
+  },
+  {
+    question: "How do you handle security and privacy?",
+    answer:
+      "I prioritize data security by using official APIs and enterprise-grade platforms (Supabase, n8n, GoHighLevel). For businesses with sensitive data, we can self-host the automation layer so your data never leaves your infrastructure. We'll discuss your specific security needs during the scoping call.",
+  },
+  {
     question: "What happens after the build is done?",
     answer:
       "Every build includes a 30-day support window. For ongoing monitoring, fixes, and optimization, I offer monthly retainer plans. I built the system, so when something needs updating, I know exactly where to look.",
@@ -132,6 +142,8 @@ const AiAutomationConsultantSmallBusiness = () => {
               "Hands-on AI automation consulting for small businesses. Custom systems for lead follow-up, scheduling, CRM, voice agents, and workflow automation.",
             provider: { "@id": "https://www.dmytroai.com/#person" },
             url: "https://www.dmytroai.com/ai-automation-consultant-small-business",
+            areaServed: ["Canada", "USA", "UK"],
+            knowsAbout: ["AI Automation", "Workflow Optimization", "CRM Implementation", "AI Voice Agents", "n8n", "GoHighLevel"],
           })}
         </script>
         <script type="application/ld+json">
@@ -182,8 +194,8 @@ const AiAutomationConsultantSmallBusiness = () => {
                 AI Automation Consultant for Small Businesses
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-                Reduce manual work. Respond to leads faster. Build systems that
-                help your business run better without adding headcount.
+                An AI automation consultant identifies manual bottlenecks and builds custom systems to automate lead follow-up, scheduling, and CRM workflows.
+                <strong> Dmytro AI helps small businesses reduce management time by up to 15 hours per week</strong> and increase team capacity without hiring more staff.
               </p>
               <p className="text-base text-muted-foreground leading-relaxed mb-8">
                 Below: what that looks like in practice, how to tell if your
