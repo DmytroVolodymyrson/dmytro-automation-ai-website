@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-26-case-studies-proof-routing",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-26",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "### Hero\nBody: Real systems built for real businesses. Start here if you want proof before choosing a workflow, platform, or consultant path.\n\n### Intro Answer Block\nLabel: What this proof library is for\nHeading: Which case study should you read first?\nBody: If you are deciding whether Dmytro's work is relevant to your business, start with the proof asset that matches your bottleneck: Paris Cafe for phone coverage and booking flow, the e-commerce CRM build for lead follow-up and reactivation, and Instagram lead generation for automated qualification and routing.\n\n### Related Guide Links\n- AI automation consultant\n- Best first automations\n- AI lead follow-up\n- AI appointment setter\n\n### Priority Support Section\nLabel: Connect proof to the priority pages\nHeading: Use these case studies to support the discovered-not-indexed hubs\nBody: These proof assets now route directly into the pages Google has already discovered but still needs stronger context for: the consultant overview, the best-first-automation guide, the lead-follow-up workflow page, and the main guides hub.\n\n### Fastest Reading Order\n- Need proof before hiring? Read the consultant overview, then the e-commerce CRM case study.\n- Losing bookings or calls? Read the appointment-setter page, then the Paris Cafe case study.\n- Unsure what to automate first? Read the best-first-automation guide, then compare all three case studies.\n\n### Proof Route Cards\n- Paris Cafe voice agent — Best proof asset for after-hours call coverage, appointment-setting, and restaurant phone workflows.\n  - Pair it with: AI appointment setter\n  - Pair it with: Best AI automations for service businesses\n  - Pair it with: Restaurant automation guides\n- E-commerce CRM automation — Strongest proof for lead follow-up, CRM cleanup, segmentation, and reactivation systems that scale without more headcount.\n  - Pair it with: AI automation consultant\n  - Pair it with: AI lead follow-up\n  - Pair it with: All automation guides\n- Instagram lead generation — Useful proof for automated qualification, enrichment, and pipeline design when the question is how to handle more inbound or outbound opportunities with the same team.\n  - Pair it with: AI automation consultant\n  - Pair it with: Best first automations\n  - Pair it with: n8n vs Zapier",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Written as hub-page routing copy, not as a standalone landing page, so every section answers where to go next."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the tone direct and commercial without turning the hub into a sales page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses concrete bottlenecks and proof categories instead of generic praise about automation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Optimized for humans and crawlers that need explicit connections between proof assets and decision pages."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-26T18:30:29.438Z",
+    "structure": {
+      "paragraphCount": 6,
+      "sentencesPerParagraph": [
+        2,
+        2,
+        1,
+        1,
+        6,
+        4
+      ],
+      "avgSentenceLength": 21.6,
+      "sentenceLengthRange": [
+        5,
+        55
+      ],
+      "totalWords": 346
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nBody: Real systems built for real businesses.",
+      "wordCount": 8,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Proof Route Cards\n- Paris Cafe voice agent — Best proof asset for after-hours call coverage, appointment-setting, and restaurant phone workflows.\n  - Pair it with: AI appointment setter\n  - Pair it with: Best AI automations for service businesses\n  - Pair it with: Restaurant automation guides\n- E-commerce CRM automation — Strongest proof for lead follow-up, CRM cleanup, segmentation, and reactivation systems that scale without more headcount.\n  - Pair it with: AI automation consultant\n  - Pair it with: AI lead follow-up\n  - Pair it with: All automation guides\n- Instagram lead generation — Useful proof for automated qualification, enrichment, and pipeline design when the question is how to handle more inbound or outbound opportunities with the same team.\n  - Pair it with: AI automation consultant\n  - Pair it with: Best first automations\n  - Pair it with: n8n vs Zapier",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 18,
+      "emDashes": 3,
+      "enDashes": 0,
+      "hyphens": 19,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 4,
+      "colon": 18,
+      "commasPerSentence": 1.2
+    },
+    "vocabulary": {
+      "distinctWords": 159,
+      "totalWords": 346,
+      "topWords": [
+        [
+          "-",
+          19
+        ],
+        [
+          "with",
+          11
+        ],
+        [
+          "proof",
+          10
+        ],
+        [
+          "pair",
+          9
+        ],
+        [
+          "it",
+          9
+        ],
+        [
+          "ai",
+          8
+        ],
+        [
+          "consultant",
+          6
+        ],
+        [
+          "lead",
+          6
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "case",
+          5
+        ],
+        [
+          "read",
+          4
+        ],
+        [
+          "first",
+          4
+        ],
+        [
+          "crm",
+          4
+        ],
+        [
+          "follow-up",
+          4
+        ],
+        [
+          "best",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

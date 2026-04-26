@@ -19,7 +19,7 @@ Background context:
 |---|---|---|---|---|---|
 | `/` | URL is on Google; page is indexed | Indexed homepage | Enhancements visible: HTTPS + FAQ | Core entity page is indexed and eligible | No urgent action; request indexing only if homepage changed after last crawl |
 | `/guides` | Discovered — currently not indexed | Sitemap + referring page `/ai-voice-agent-vs-human-appointment-setter` | Last crawl N/A | Google knows the hub exists but has not crawled it | Request indexing after strengthening hub links |
-| `/case-studies` | Discovered — currently not indexed | Sitemap + referring page `/ai-automation-for-home-inspectors` | Last crawl N/A | Proof hub is discovered but uncrawled | Request indexing after linking proof from priority commercial pages |
+| `/case-studies` | Discovered — currently not indexed | Sitemap + referring page `/ai-automation-for-home-inspectors` | Last crawl N/A | Proof hub is discovered but uncrawled | Request indexing after the new proof-routing + related-guide update is live |
 | `/ai-automation-consultant-small-business` | Discovered — currently not indexed | Sitemap + referring page `/guides` | Last crawl N/A | Main commercial category page is discovered but not crawled/indexed | Request indexing now; then strengthen links/proof |
 | `/best-ai-automation-for-service-businesses` | Discovered — currently not indexed | Sitemap | Last crawl N/A | Important category page is discovered only through sitemap so far | Add stronger internal links, then request indexing |
 
