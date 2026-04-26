@@ -335,6 +335,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://www.dmytroai.com/ai-automation-for-mortgage-brokers</loc>
     <changefreq>monthly</changefreq>
@@ -637,6 +638,11 @@
   </url>
   <url>
     <loc>https://www.dmytroai.com/ai-phone-answering-vs-voicemail-for-solar-companies</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.dmytroai.com/missed-call-text-back-for-solar-companies</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

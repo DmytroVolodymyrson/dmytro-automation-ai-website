@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 298 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 299 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -100,7 +100,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Automation Consultant Calgary** — `/ai-automation-consultant-calgary`
 - **AI Automation Consultant Edmonton** — `/ai-automation-consultant-edmonton`
 
-### Industry + vertical pages (179)
+### Industry + vertical pages (180)
 - **After-Hours AI Phone Answering vs. Voicemail for Restaurants** — `/after-hours-ai-phone-answering-vs-voicemail-for-restaurants`
 - **After-Hours Maintenance Triage for Property Management Companies** — `/after-hours-maintenance-triage-for-property-management-companies`
 - **After-Hours Phone Answering for Restaurants** — `/after-hours-phone-answering-for-restaurants`
@@ -123,6 +123,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Appointment Scheduling and Reminder Automation for Solar Companies** — `/appointment-scheduling-and-reminder-automation-for-solar-companies`
 - **AI Phone Answering for Solar Companies** — `/ai-phone-answering-for-solar-companies`
 - **AI Phone Answering vs. Voicemail for Solar Companies** — `/ai-phone-answering-vs-voicemail-for-solar-companies`
+- **Missed Call Text-Back for Solar Companies** — `/missed-call-text-back-for-solar-companies`
 - **AI Lead Follow-Up for Insurance Agencies** — `/ai-lead-follow-up-for-insurance-agencies`
 - **After-Hours Inquiry Handling for Insurance Agencies** — `/after-hours-inquiry-handling-for-insurance-agencies`
 - **Referral Request Automation for Insurance Agencies** — `/referral-request-automation-for-insurance-agencies`
@@ -173,6 +174,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **CRM Pipeline Stages for Contractors** — `/crm-pipeline-stages-for-contractors`
 - **CRM Cleanup and Routing for Real Estate Teams** — `/crm-cleanup-and-routing-for-real-estate-teams`
 - **CRM Cleanup vs Lead Follow-Up for Real Estate Teams** — `/crm-cleanup-vs-lead-follow-up-for-real-estate-teams`
+
 - **Cross-Sell Automation for Insurance Agencies** — `/cross-sell-automation-for-insurance-agencies`
 - **Customer Inquiry Automation for Auto Parts E-Commerce** — `/customer-inquiry-automation-for-auto-parts-ecommerce`
 - **Customer Service Automation for E-Commerce Brands** — `/customer-service-automation-for-ecommerce-brands`

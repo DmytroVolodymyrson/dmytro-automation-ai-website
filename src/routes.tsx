@@ -101,6 +101,7 @@ import AiLeadFollowUpForSolarCompanies from "./pages/AiLeadFollowUpForSolarCompa
 import AppointmentSchedulingAndReminderAutomationForSolarCompanies from "./pages/AppointmentSchedulingAndReminderAutomationForSolarCompanies";
 import AiPhoneAnsweringForSolarCompanies from "./pages/AiPhoneAnsweringForSolarCompanies";
 import AiPhoneAnsweringVsVoicemailForSolarCompanies from "./pages/AiPhoneAnsweringVsVoicemailForSolarCompanies";
+import MissedCallTextBackForSolarCompanies from "./pages/MissedCallTextBackForSolarCompanies";
 import AiAutomationForAccountingFirms from "./pages/AiAutomationForAccountingFirms";
 import DocumentCollectionAutomationForAccountingFirms from "./pages/DocumentCollectionAutomationForAccountingFirms";
 import ClientOnboardingAutomationForAccountingFirms from "./pages/ClientOnboardingAutomationForAccountingFirms";
@@ -476,6 +477,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/appointment-scheduling-and-reminder-automation-for-solar-companies", element: <AppointmentSchedulingAndReminderAutomationForSolarCompanies /> },
   { path: "/ai-phone-answering-for-solar-companies", element: <AiPhoneAnsweringForSolarCompanies /> },
   { path: "/ai-phone-answering-vs-voicemail-for-solar-companies", element: <AiPhoneAnsweringVsVoicemailForSolarCompanies /> },
+  { path: "/missed-call-text-back-for-solar-companies", element: <MissedCallTextBackForSolarCompanies /> },
   { path: "/ai-automation-for-accounting-firms", element: <AiAutomationForAccountingFirms /> },
   { path: "/document-collection-automation-for-accounting-firms", element: <DocumentCollectionAutomationForAccountingFirms /> },
   { path: "/client-onboarding-automation-for-accounting-firms", element: <ClientOnboardingAutomationForAccountingFirms /> },

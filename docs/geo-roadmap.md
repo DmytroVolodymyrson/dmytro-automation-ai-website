@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `ai-phone-answering-vs-voicemail-for-solar-companies` as the next distinct solar buyer-decision page. The live solar cluster already had the broader parent, first-project, utility-bill, lead-follow-up, booked-consult, and live-answering pages; this new page cleanly isolates the heavier live-answering-vs-voicemail choice without inventing fake solar-only proof. Next run should reset to broad reconciliation first rather than forcing another same-cluster solar child by inertia.)
+Last updated: 2026-04-26 (shipped `missed-call-text-back-for-solar-companies` after fresh reconciliation confirmed the solar cluster still had one clean lighter phone-recovery gap. The live solar cluster already had the broader parent, first-project, utility-bill, lead-follow-up, booked-consult, live-answering, and heavier voicemail-comparison pages; this new child cleanly isolates the SMS-first fallback layer between voicemail and live AI answering without inventing fake solar-only proof. Next run should reset to broad reconciliation first again rather than forcing another same-cluster child by inertia.)
 
 ## Live GEO Assets
 
@@ -83,6 +83,7 @@ Last updated: 2026-04-26 (shipped `ai-phone-answering-vs-voicemail-for-solar-com
 | Client Reactivation (Real Estate) | `/client-reactivation-automation-for-real-estate-teams` | Vertical workflow page | Live |
 | CRM Cleanup/Routing (Real Estate) | `/crm-cleanup-and-routing-for-real-estate-teams` | Vertical workflow page | Live |
 | CRM Cleanup vs Follow-Up | `/crm-cleanup-vs-lead-follow-up-for-real-estate-teams` | Vertical comparison page | Live |
+
 | AI for Mortgage Brokers | `/ai-automation-for-mortgage-brokers` | Vertical category page | Live |
 | AI Lead Follow-Up (Mortgage) | `/ai-lead-follow-up-for-mortgage-brokers` | Vertical workflow page | Live |
 | Document Collection (Mortgage) | `/document-collection-automation-for-mortgage-brokers` | Vertical workflow page | Live |
@@ -112,6 +113,7 @@ Last updated: 2026-04-26 (shipped `ai-phone-answering-vs-voicemail-for-solar-com
 | Appointment Scheduling (Solar) | `/appointment-scheduling-and-reminder-automation-for-solar-companies` | Vertical workflow page | Live |
 | AI Phone Answering (Solar) | `/ai-phone-answering-for-solar-companies` | Vertical solution page | Live |
 | AI Phone vs Voicemail (Solar) | `/ai-phone-answering-vs-voicemail-for-solar-companies` | Vertical comparison page | Live |
+| Missed Call Text-Back (Solar) | `/missed-call-text-back-for-solar-companies` | Vertical workflow page | Live |
 | AI for Accounting Firms | `/ai-automation-for-accounting-firms` | Vertical category page | Live |
 | Document Collection (Accounting) | `/document-collection-automation-for-accounting-firms` | Vertical workflow page | Live |
 | Client Onboarding (Accounting) | `/client-onboarding-automation-for-accounting-firms` | Vertical workflow page | Live |
@@ -240,9 +242,8 @@ Last updated: 2026-04-26 (shipped `ai-phone-answering-vs-voicemail-for-solar-com
 
 ## Next Pages
 
-Broad reconciliation first. The solar cluster now has the broad parent, first-project page, utility-bill collection, lead follow-up, booked-consult scheduling, live AI phone answering, and the heavier voicemail comparison. Do not force another same-cluster solar child unless a fresh doc + live-route + prompt reconciliation reveals one exact surviving buyer query.
+Broad reconciliation first. The solar cluster now has the broad parent, first-project page, utility-bill collection, lead follow-up, booked-consult scheduling, live AI phone answering, the heavier voicemail comparison, and the lighter SMS-first missed-call recovery child. Do not force another same-cluster solar page unless a fresh doc + live-route + prompt reconciliation reveals a clearly distinct surviving buyer query.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
 | 1 | Broad reconciliation across remaining live clusters | The roadmap and prompts still drift from the real route set in several places, so the safest next ship should come from a fresh cluster-by-cluster review rather than stale queue inertia. | Next run default |
-| 2 | `/missed-call-text-back-for-solar-companies` | Possible future solar fallback only if a fresh reconciliation confirms a real lighter phone-recovery gap that stays distinct from the newly shipped voicemail comparison and the existing live-answering page. | Watchlist only |
