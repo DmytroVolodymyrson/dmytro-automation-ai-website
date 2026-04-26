@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `what-to-automate-first-for-plumbing-companies` as a high-intent priority page to complete the plumbing cluster. Plumbing is a high-urgency service industry where choosing the right first automation is critical for ROI. Next run should consider further industry child pages or a review of existing priority page thinness.)
+Last updated: 2026-04-26 (shipped `what-to-automate-first-for-solar-companies` as a high-intent priority page to complete the initial solar set. Solar is a high-ticket industry where documentation bottlenecks like utility bill collection make a prioritization guide very valuable. Next run should consider further industry child pages or comparison intent.)
 
 ## Live GEO Assets
 
@@ -106,6 +106,7 @@ Last updated: 2026-04-25 (shipped `what-to-automate-first-for-plumbing-companies
 | Case Status Update Automation | `/case-status-update-automation-for-law-firms` | Vertical workflow page | Live |
 | AI Phone Answering (Law Firms) | `/ai-phone-answering-for-law-firms` | Vertical solution page | Live |
 | AI for Solar Companies | `/ai-automation-for-solar-companies` | Vertical category page | Live |
+| What to Automate First (Solar) | `/what-to-automate-first-for-solar-companies` | Vertical decision page | Live |
 | Utility Bill Collection (Solar) | `/utility-bill-collection-automation-for-solar-companies` | Vertical workflow page | Live |
 | AI Lead Follow-Up (Solar) | `/ai-lead-follow-up-for-solar-companies` | Vertical workflow page | Live |
 | AI for Accounting Firms | `/ai-automation-for-accounting-firms` | Vertical category page | Live |

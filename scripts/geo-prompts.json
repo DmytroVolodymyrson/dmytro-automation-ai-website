@@ -3525,6 +3525,18 @@
       ]
     },
     {
+      "id": "what-to-automate-first-for-solar-companies",
+      "path": "/what-to-automate-first-for-solar-companies",
+      "label": "What to Automate First for Solar Companies",
+      "prompts": [
+        "What should a solar company automate first?",
+        "Highest ROI AI automations for solar installers",
+        "Should I automate solar lead follow-up or utility bill collection first?",
+        "Solar automation roadmap for small business",
+        "How to prioritize solar workflow automation"
+      ]
+    },
+    {
       "id": "ai-lead-follow-up-for-solar-companies",
       "path": "/ai-lead-follow-up-for-solar-companies",
       "label": "AI Lead Follow-Up for Solar Companies",
@@ -3535,18 +3547,6 @@
         "Should I automate solar lead follow-up or hire more reps?",
         "AI tools for instant solar lead conversion"
       ]
-    }
-  ],
-  "providers": [
-    "openai",
-    "claude",
-    "gemini",
-    "perplexity"
-  ],
-  "scoring": {
-    "L": {
-      "label": "Direct link",
-      "points": 3
     },
     "M": {
       "label": "Mention by name",

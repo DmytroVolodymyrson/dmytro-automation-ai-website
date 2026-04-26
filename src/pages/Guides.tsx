@@ -1186,6 +1186,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Solar Companies",
+    description:
+      "A strategic prioritization guide for solar installers. Compare immediate ROI across lead follow-up, utility bill collection, consultation scheduling, and AI phone answering to choose your best first automation project.",
+    href: "/what-to-automate-first-for-solar-companies",
+    category: "industries",
+  },
+  {
     title: "Utility Bill Collection Automation for Solar Companies",
     description:
       "A narrower solar workflow page focused on the biggest bottleneck in the sales cycle — automated utility bill requests, intelligent upload reminders, file verification, and instant design-team notification so your team can focus on the proposal.",

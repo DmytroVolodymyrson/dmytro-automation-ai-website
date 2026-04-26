@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-26-what-to-automate-first-for-solar-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-26",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "Heading: What to Automate First for Solar Companies\n\nIntro:\nFor solar companies, the most effective first step into automation is rarely a massive system overhaul. It's usually a targeted fix for one specific operational leak. Most solar installers find the highest immediate ROI by focusing on one of four areas: lead follow-up when web inquiries or ad leads aren't contacted fast enough, utility bill collection when quotes are delayed because you're waiting on homeowner data, site visit and consultation scheduling when the office is drowning in calendar coordination, or AI phone answering for high-volume shops that need to triage 'is solar right for me?' inquiries. The right choice depends on where you're losing momentum right now: before the lead is qualified, while you're waiting for quote data, or after the consultation is already on the schedule.\n\nPriority Selection Guide:\nFollow the revenue leak. If web leads are being lost because they go cold before anyone responds, lead follow-up usually comes first. If the team is already talking to leads but the process stalls because bills aren't being collected, utility bill collection comes first. If you're booking consultations but fighting no-shows and coordination-chaos, site visit scheduling comes first. The decision should follow the leak, not whichever tool sounds the most interesting.\n\nCommon Mistakes:\nChoosing the broadest project instead of the clearest leak: Many solar companies jump toward a full project management stack when the real issue is still one stage: lead response, documentation capture, or scheduling continuity. Bigger scope feels strategic, but it often delays the first measurable win.",
+    "formatting": [
+      "bold:Heading:"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Clear, direct, high-intent."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Focuses on \"revenue leaks\" and high-ticket sales cycle friction."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoids fluff and jargon."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Speaks directly to solar installers about their specific bottlenecks (utility bills, ad lead speed, consultation no-shows)."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-26T00:49:41.922Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        1,
+        4,
+        5,
+        2
+      ],
+      "avgSentenceLength": 21.5,
+      "sentenceLengthRange": [
+        7,
+        70
+      ],
+      "totalWords": 258
+    },
+    "opener": {
+      "type": "situation",
+      "text": "Heading: What to Automate First for Solar Companies",
+      "wordCount": 8,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "Common Mistakes:\nChoosing the broadest project instead of the clearest leak: Many solar companies jump toward a full project management stack when the real issue is still one stage: lead response, documentation capture, or scheduling continuity. Bigger scope feels strategic, but it often delays the first measurable win.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | result | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 13,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.18
+    },
+    "vocabulary": {
+      "distinctWords": 159,
+      "totalWords": 258,
+      "topWords": [
+        [
+          "first",
+          6
+        ],
+        [
+          "solar",
+          5
+        ],
+        [
+          "leak",
+          4
+        ],
+        [
+          "lead",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "youre",
+          4
+        ],
+        [
+          "companies",
+          3
+        ],
+        [
+          "most",
+          3
+        ],
+        [
+          "one",
+          3
+        ],
+        [
+          "leads",
+          3
+        ],
+        [
+          "because",
+          3
+        ],
+        [
+          "scheduling",
+          3
+        ],
+        [
+          "right",
+          3
+        ],
+        [
+          "if",
+          3
+        ],
+        [
+          "comes",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.012
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
