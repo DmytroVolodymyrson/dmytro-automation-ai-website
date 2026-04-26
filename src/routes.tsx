@@ -209,6 +209,7 @@ import InstantLeadResponse from "./pages/InstantLeadResponse";
 import ContactFormLeadFollowUpAutomation from "./pages/ContactFormLeadFollowUpAutomation";
 import ReviewRequestAutomationForServiceBusinesses from "./pages/ReviewRequestAutomationForServiceBusinesses";
 import MissedCallTextBackForServiceBusinesses from "./pages/MissedCallTextBackForServiceBusinesses";
+import EstimateFollowUpAutomationForServiceBusinesses from "./pages/EstimateFollowUpAutomationForServiceBusinesses";
 import ContactFormAutoresponderVsFullLeadFollowUp from "./pages/ContactFormAutoresponderVsFullLeadFollowUp";
 import QuoteFollowUp from "./pages/QuoteFollowUp";
 import ClientReactivation from "./pages/ClientReactivation";
@@ -609,6 +610,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/after-hours-lead-capture-for-service-businesses", element: <AfterHoursLeadCapture /> },
   { path: "/missed-call-follow-up-automation", element: <MissedCallFollowUp /> },
   { path: "/missed-call-text-back-for-service-businesses", element: <MissedCallTextBackForServiceBusinesses /> },
+  { path: "/estimate-follow-up-automation-for-service-businesses", element: <EstimateFollowUpAutomationForServiceBusinesses /> },
   { path: "/booking-confirmation-and-reminder-automation", element: <BookingConfirmationAndReminder /> },
   { path: "/ai-phone-answering-for-service-businesses", element: <AiPhoneAnswering /> },
   { path: "/ai-voice-agent-lead-qualification", element: <AiVoiceAgentForLeadQualification /> },

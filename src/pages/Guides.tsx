@@ -596,6 +596,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Estimate Follow-Up Automation for Service Businesses",
+    description:
+      "Recover open estimates after inspections and site visits. Stage-based reminders, estimator-to-office handoff, objection-aware messaging, and open-estimate visibility for field-service businesses.",
+    href: "/estimate-follow-up-automation-for-service-businesses",
+    category: "workflows",
+  },
+  {
     title: "Contact Form Autoresponder vs. Full Lead Follow-Up",
     description:
       "Decision guide for owners asking whether a basic form autoresponder is still enough or whether website leads now need a real workflow with qualification, routing, and short follow-up.",

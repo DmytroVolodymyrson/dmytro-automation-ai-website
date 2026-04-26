@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `missed-call-text-back-for-service-businesses` — horizontal workflow parent for the large existing vertical cluster of missed-call-text-back pages. Focuses narrowly on SMS-first missed-call recovery to stay distinct from the broader `/missed-call-follow-up-automation` page. The next run should continue broad cross-cluster reconciliation.)
+Last updated: 2026-04-26 (shipped `estimate-follow-up-automation-for-service-businesses` — a horizontal workflow parent for the already-live field-service estimate-recovery cluster across contractors, roofing, landscaping, painting, plumbing, electrical, and auto repair. It qualified because it stays narrower than the broader `/quote-follow-up-automation` page by focusing on site-visit context, estimator-to-office handoff, and open-estimate visibility. The next run should return to broad cross-cluster reconciliation instead of forcing another same-cluster parent by inertia.)
 
 ## Live GEO Assets
 
@@ -23,6 +23,7 @@ Last updated: 2026-04-26 (shipped `missed-call-text-back-for-service-businesses`
 | AI Lead Follow-Up (SMB) | `/ai-lead-follow-up-for-service-businesses` | Category page | Live |
 | Review Request Automation (Service Businesses) | `/review-request-automation-for-service-businesses` | Workflow parent page | Live |
 | Missed Call Text-Back (Service Businesses) | `/missed-call-text-back-for-service-businesses` | Workflow parent page | Live |
+| Estimate Follow-Up Automation (Service Businesses) | `/estimate-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Category cost page | Live |
 | AI Voice Agent Setup Cost (SMB) | `/ai-voice-agent-setup-cost-small-business` | Category cost page | Live |
 | AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo page | Live |
@@ -250,9 +251,9 @@ Last updated: 2026-04-26 (shipped `missed-call-text-back-for-service-businesses`
 
 ## Next Pages
 
-The new missed-call-text-back parent closes the largest remaining SMS-first horizontal orphan cluster. The next best candidate is likely another horizontal parent, but it needs the same overlap discipline before shipping.
+The new estimate-follow-up parent closes the biggest remaining horizontal gap in the field-service estimate cluster. Do not force another same-cluster page by inertia; the safest next move is broad cross-cluster reconciliation so the next ship is chosen from a genuinely distinct buyer-intent gap.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `estimate-follow-up-automation-for-service-businesses` (provisional) | Multiple vertical estimate-follow-up children are already live across roofing, landscaping, plumbing, electrical, auto repair, painting, and contractors. This looks like the next strongest horizontal parent gap, but it needs a careful overlap check against the existing `/quote-follow-up-automation` page before shipping. | Provisional next candidate |
-| 2 | Broad cross-cluster reconciliation + proof-led maintenance | If the estimate/quote overlap turns out too close, return to repo-wide reconciliation and prefer the next distinct horizontal or vertical workflow gap over filler. | Fallback |
+| 1 | Broad cross-cluster reconciliation + proof-led maintenance | The obvious estimate-parent gap is now closed. The next run should re-check planning docs, tracked prompts, and live routes/pages to find the strongest remaining distinct child, parent, pricing, or setup-help page without shipping a duplicate. | Primary next step |
+| 2 | Another exact tracked/workflow child only if it survives full reconciliation | Accept a named next slug only after it is verified against planning docs, routes, sitemap, llm files, and `scripts/geo-prompts.json`. | Guardrail |

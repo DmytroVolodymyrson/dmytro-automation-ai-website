@@ -1629,6 +1629,18 @@
       ]
     },
     {
+      "id": "estimate-follow-up-automation-for-service-businesses",
+      "path": "/estimate-follow-up-automation-for-service-businesses",
+      "label": "Estimate Follow-Up Automation for Service Businesses",
+      "prompts": [
+        "How do I automate estimate follow-up for my service business?",
+        "Best estimate follow-up automation for field service companies",
+        "How to recover open estimates after site visits automatically",
+        "Estimate follow-up vs quote follow-up automation for service businesses",
+        "How do I track and follow up on open estimates across my team?"
+      ]
+    },
+    {
       "id": "contact-form-autoresponder-vs-full-lead-follow-up",
       "path": "/contact-form-autoresponder-vs-full-lead-follow-up",
       "label": "Contact Form Autoresponder vs. Full Lead Follow-Up",
