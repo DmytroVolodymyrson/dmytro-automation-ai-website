@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-25 (shipped `ai-lead-follow-up-for-solar-companies` as a high-intent child page for the solar cluster. Solar leads are high-value and time-sensitive, making automated instant response a critical operational fix. This page strengthens the solar vertical, and the next run should consider further solar children or reset to broad reconciliation.)
+Last updated: 2026-04-25 (shipped `what-to-automate-first-for-plumbing-companies` as a high-intent priority page to complete the plumbing cluster. Plumbing is a high-urgency service industry where choosing the right first automation is critical for ROI. Next run should consider further industry child pages or a review of existing priority page thinness.)
 
 ## Live GEO Assets
 
@@ -18,371 +18,218 @@ Last updated: 2026-04-25 (shipped `ai-lead-follow-up-for-solar-companies` as a h
 | AI Appointment Setter | `/ai-appointment-setter` | Decision page | Live |
 | AI Appointment Setter Setup Help | `/ai-appointment-setter-setup` | Workflow / service page | Live |
 | AI Appointment Setter Setup vs. DIY (SMB) | `/ai-appointment-setter-setup-vs-diy-small-business` | Workflow / buy-vs-build comparison page | Live |
-| AI Appointment Setter Cost (SMB) | `/ai-appointment-setter-cost-small-business` | Workflow / pricing decision page | Live |
-| AI Appointment Setter ROI (SMB) | `/ai-appointment-setter-roi-small-business` | Workflow / ROI decision page | Live |
-| AI Voice Agent for Restaurants | `/ai-voice-agent-for-restaurants` | Industry page | Live |
-| AI Automation for Restaurants | `/ai-automation-for-restaurants` | Industry page | Live |
-| What to Automate First for Restaurants | `/what-to-automate-first-for-restaurants` | Restaurant first-project scoping page | Live |
-| Private-Event Inquiry Follow-Up for Restaurants | `/private-event-inquiry-follow-up-for-restaurants` | Restaurant workflow page | Live |
-| Reservation Confirmation and Reminder Automation for Restaurants | `/reservation-confirmation-and-reminder-automation-for-restaurants` | Restaurant workflow page | Live |
-| Missed Call Text-Back for Restaurants | `/missed-call-text-back-for-restaurants` | Restaurant workflow page | Live |
-| Missed Call Text-Back vs. Voicemail for Restaurants | `/missed-call-text-back-vs-voicemail-for-restaurants` | Restaurant comparison page | Live |
-| Missed Call Text-Back vs. AI Voice Agent for Restaurants | `/missed-call-text-back-vs-ai-voice-agent-for-restaurants` | Restaurant comparison page | Live |
-| After-Hours Phone Answering for Restaurants | `/after-hours-phone-answering-for-restaurants` | Restaurant after-hours phone workflow page | Live |
-| After-Hours AI Phone Answering vs. Voicemail for Restaurants | `/after-hours-ai-phone-answering-vs-voicemail-for-restaurants` | Restaurant after-hours decision page | Live |
-| AI Lead Follow-Up | `/ai-lead-follow-up-for-service-businesses` | Decision page | Live |
-| AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Workflow / pricing decision page | Live |
-| AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo landing page | Live |
-| AI Consultant Edmonton | `/ai-automation-consultant-edmonton` | Geo landing page | Live |
-| AI Consultant vs Agency | `/hire-ai-automation-consultant-vs-agency` | Comparison page | Live |
-| AI Consultant vs DIY | `/hire-ai-automation-consultant-vs-diy` | Comparison page | Live |
-| How to Hire an AI Automation Consultant | `/how-to-hire-ai-automation-consultant` | Hiring-intent guide | Live |
-| HVAC Database Reactivation | `/hvac-database-reactivation` | Decision page | Live |
-| AI Consultant vs Freelancer | `/ai-automation-consultant-vs-freelancer` | Comparison page | Live |
+| AI Appointment Setter Cost (SMB) | `/ai-appointment-setter-cost-small-business` | Workflow / service cost page | Live |
+| AI Appointment Setter ROI (SMB) | `/ai-appointment-setter-roi-small-business` | Workflow / ROI page | Live |
+| AI Lead Follow-Up (SMB) | `/ai-lead-follow-up-for-service-businesses` | Category page | Live |
+| AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Category cost page | Live |
+| AI Voice Agent Setup Cost (SMB) | `/ai-voice-agent-setup-cost-small-business` | Category cost page | Live |
+| AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo page | Live |
+| AI Consultant Edmonton | `/ai-automation-consultant-edmonton` | Geo page | Live |
+| AI Consultant Alberta | `/ai-automation-consultant-alberta` | Geo page | Live |
+| AI Consultant Canada | `/ai-automation-consultant-canada` | Geo page | Live |
+| Hire Consultant vs Agency | `/hire-ai-automation-consultant-vs-agency` | Decision / comparison | Live |
+| Hire Consultant vs DIY | `/hire-ai-automation-consultant-vs-diy` | Decision / comparison | Live |
+| How to Hire a Consultant | `/how-to-hire-ai-automation-consultant` | Hiring-intent guide | Live |
+| n8n vs Make | `/n8n-vs-make-small-business` | Comparison page | Live |
+| Retell vs Bland AI | `/retell-vs-bland-small-business` | Comparison page | Live |
+| VAPI vs Retell | `/vapi-vs-retell-small-business` | Comparison page | Live |
 | AI Chatbot vs Voice Agent | `/ai-chatbot-vs-ai-voice-agent-for-lead-qualification` | Comparison page | Live |
-| GoHighLevel vs. Custom CRM | `/gohighlevel-vs-custom-crm-small-business` | Comparison page | Live |
-| GoHighLevel Automation Setup | `/gohighlevel-automation-setup` | Workflow / service page | Live |
-| GoHighLevel Setup Cost (SMB) | `/gohighlevel-setup-cost-small-business` | Workflow / pricing decision page | Live |
-| GoHighLevel Setup vs. DIY (SMB) | `/gohighlevel-setup-vs-diy-small-business` | Workflow / buy-vs-build comparison page | Live |
-| GoHighLevel Account Cleanup Service | `/gohighlevel-account-cleanup-service` | Workflow / recovery-stage cleanup page | Live |
-| GoHighLevel Account Cleanup vs. Rebuild | `/gohighlevel-account-cleanup-vs-rebuild` | Workflow / recovery decision page | Live |
-| GoHighLevel Account Audit Checklist | `/gohighlevel-account-audit-checklist` | Workflow / recovery-stage audit page | Live |
-| GoHighLevel Setup Mistakes for Small Business | `/gohighlevel-setup-mistakes-small-business` | Workflow / pre-launch setup-risk page | Live |
-| AI Consultant Pricing | `/ai-automation-consultant-pricing-small-business` | Decision page | Live |
-| Best AI Automations for Service Businesses | `/best-ai-automation-for-service-businesses` | Decision page | Live |
-| AI Automation for HVAC Companies | `/ai-automation-for-hvac-companies` | Industry page | Live |
-| What to Automate First for HVAC Companies | `/what-to-automate-first-for-hvac-companies` | HVAC first-project scoping page | Live |
-| HVAC Lead Follow-Up Automation | `/hvac-lead-follow-up-automation` | Industry page | Live |
-| HVAC Missed Call Text Back | `/hvac-missed-call-text-back` | Industry page | Live |
-| AI Appointment Setter for HVAC | `/ai-appointment-setter-for-hvac` | Industry page | Live |
-| HVAC Scheduling and Follow-Up Automation | `/hvac-scheduling-and-follow-up-automation` | Industry operations page | Live |
-| AI Phone Answering for HVAC Companies | `/ai-phone-answering-for-hvac-companies` | HVAC live-phone-coverage workflow page | Live |
-| Missed Call Text-Back vs. AI Phone Answering for HVAC Companies | `/missed-call-text-back-vs-ai-phone-answering-for-hvac-companies` | HVAC phone-recovery decision page | Live |
-| AI Phone Answering vs. Voicemail for HVAC Companies | `/ai-phone-answering-vs-voicemail-for-hvac-companies` | HVAC phone-fallback decision page | Live |
-| Review Request Automation for HVAC Companies | `/review-request-automation-for-hvac-companies` | HVAC post-job reputation workflow page | Live |
-| Maintenance Reminder Automation for HVAC Companies | `/maintenance-reminder-automation-for-hvac-companies` | HVAC seasonal retention / service-due reminder workflow page | Live |
-| Quote Follow-Up Automation for HVAC Companies | `/quote-follow-up-automation-for-hvac-companies` | HVAC sent-quote recovery workflow page | Live |
-| AI Appointment Setter for Home Service Businesses | `/ai-appointment-setter-for-home-service-businesses` | Workflow / home services page | Live |
-| AI Consultant Alberta | `/ai-automation-consultant-alberta` | Geo landing page | Live |
-| AI Consultant Canada | `/ai-automation-consultant-canada` | Geo landing page | Live |
-| AI Automation for Real Estate | `/ai-automation-for-real-estate` | Industry page | Live |
-| Real Estate Lead Response and Follow-Up Automation | `/real-estate-lead-response-and-follow-up-automation` | Industry workflow page | Live |
-| Showing Coordination Automation for Real Estate Teams | `/showing-coordination-automation-for-real-estate-teams` | Industry workflow page | Live |
-| What to Automate First for Real Estate Teams | `/what-to-automate-first-for-real-estate` | Real-estate first-project scoping page | Live |
-| Client Reactivation Automation for Real Estate Teams | `/client-reactivation-automation-for-real-estate-teams` | Real-estate lifecycle / past-client reactivation workflow page | Live |
-| CRM Cleanup and Routing for Real Estate Teams | `/crm-cleanup-and-routing-for-real-estate-teams` | Real-estate CRM operations workflow page | Live |
-| CRM Cleanup vs Lead Follow-Up for Real Estate Teams | `/crm-cleanup-vs-lead-follow-up-for-real-estate-teams` | Real-estate workflow-priority decision page | Live |
-| AI Automation for Mortgage Brokers | `/ai-automation-for-mortgage-brokers` | Industry page | Live |
-| AI Lead Follow-Up for Mortgage Brokers | `/ai-lead-follow-up-for-mortgage-brokers` | Industry workflow page | Live |
-| Document Collection Automation for Mortgage Brokers | `/document-collection-automation-for-mortgage-brokers` | Industry workflow page | Live |
-| Incomplete Application Follow-Up for Mortgage Brokers | `/incomplete-application-follow-up-for-mortgage-brokers` | Industry workflow page | Live |
-| What to Automate First for Mortgage Brokers | `/what-to-automate-first-for-mortgage-brokers` | Mortgage first-project scoping page | Live |
-| AI Automation for Dental Practices | `/ai-automation-for-dental-practices` | Industry page | Live |
-| What to Automate First for Dental Practices | `/what-to-automate-first-for-dental-practices` | Dental first-project scoping page | Live |
-| AI Lead Follow-Up for Dental Practices | `/ai-lead-follow-up-for-dental-practices` | Dental early-funnel inquiry-response workflow page | Live |
-| Appointment Scheduling and Reminder Automation for Dental Practices | `/appointment-scheduling-and-reminder-automation-for-dental-practices` | Dental booked-visit scheduling workflow page | Live |
-| Recall and Reactivation Automation for Dental Practices | `/recall-and-reactivation-automation-for-dental-practices` | Dental retention workflow page | Live |
-| No-Show Reduction Automation for Dental Practices | `/no-show-reduction-automation-for-dental-practices` | Dental attendance-protection workflow page | Live |
-| Review Request Automation for Dental Practices | `/review-request-automation-for-dental-practices` | Dental post-visit reputation workflow page | Live |
-| Missed Call Text-Back for Dental Practices | `/missed-call-text-back-for-dental-practices` | Dental lighter phone-recovery workflow page | Live |
-| AI Phone Answering for Dental Practices | `/ai-phone-answering-for-dental-practices` | Dental live-phone-coverage workflow page | Live |
-| AI Phone Answering vs. Voicemail for Dental Practices | `/ai-phone-answering-vs-voicemail-for-dental-practices` | Dental phone-fallback decision page | Live |
-| AI Automation for Law Firms | `/ai-automation-for-law-firms` | Industry page | Live |
-| What to Automate First for Law Firms | `/what-to-automate-first-for-law-firms` | Law-firm first-project scoping page | Live |
-| AI Lead Follow-Up for Law Firms | `/ai-lead-follow-up-for-law-firms` | Law-firm early-funnel lead-response workflow page | Live |
-| Intake and Conflict-Check Automation for Law Firms | `/intake-and-conflict-check-automation-for-law-firms` | Law-firm pre-consult intake workflow page | Live |
-| Consultation Scheduling and Reminder Automation for Law Firms | `/consultation-scheduling-and-reminder-automation-for-law-firms` | Law-firm booked-consult scheduling workflow page | Live |
-| Unretained-Consult Follow-Up for Law Firms | `/unretained-consult-follow-up-for-law-firms` | Law-firm post-consult conversion workflow page | Live |
-| Case Status Update Automation for Law Firms | `/case-status-update-automation-for-law-firms` | Law-firm active-client status-update workflow page | Live |
-| AI Phone Answering for Law Firms | `/ai-phone-answering-for-law-firms` | Law-firm live-phone-coverage workflow page | Live |
-| AI Phone Answering vs. Voicemail for Law Firms | `/ai-phone-answering-vs-voicemail-for-law-firms` | Law-firm phone-fallback decision page | Live |
-| AI Automation for Accounting Firms | `/ai-automation-for-accounting-firms` | Industry page | Live |
-| Document Collection Automation for Accounting Firms | `/document-collection-automation-for-accounting-firms` | Accounting document-intake workflow page | Live |
-| Client Onboarding Automation for Accounting Firms | `/client-onboarding-automation-for-accounting-firms` | Accounting post-sale onboarding workflow page | Live |
-| What to Automate First for Accounting Firms | `/what-to-automate-first-for-accounting-firms` | Accounting first-project scoping page | Live |
-| Appointment Scheduling and Reminder Automation for Accounting Firms | `/appointment-scheduling-and-reminder-automation-for-accounting-firms` | Accounting booked-meeting scheduling workflow page | Live |
-| Seasonal Client Reactivation for Accounting Firms | `/seasonal-client-reactivation-for-accounting-firms` | Accounting returning-client / seasonal re-engagement workflow page | Live |
-| AI Lead Follow-Up for Accounting Firms | `/ai-lead-follow-up-for-accounting-firms` | Accounting early-funnel prospect-response workflow page | Live |
-| AI Phone Answering for Accounting Firms | `/ai-phone-answering-for-accounting-firms` | Accounting live-phone-coverage workflow page | Live |
-| AI Automation for Plumbing Companies | `/ai-automation-for-plumbing-companies` | Industry page | Live |
-| What to Automate First for Plumbing Companies | `/what-to-automate-first-for-plumbing-companies` | Plumbing first-project scoping page | Live |
-| AI Lead Follow-Up for Plumbing Companies | `/ai-lead-follow-up-for-plumbing-companies` | Plumbing early-funnel lead-response workflow page | Live |
-| Estimate Follow-Up Automation for Plumbing Companies | `/estimate-follow-up-automation-for-plumbing-companies` | Plumbing quote-stage workflow page | Live |
-| Missed Call Text-Back for Plumbing Companies | `/missed-call-text-back-for-plumbing-companies` | Plumbing phone-recovery workflow page | Live |
-| Missed Call Text-Back vs. Voicemail for Plumbing Companies | `/missed-call-text-back-vs-voicemail-for-plumbing-companies` | Plumbing lighter-fallback phone decision page | Live |
-| Missed Call Text-Back vs. AI Phone Answering for Plumbing Companies | `/missed-call-text-back-vs-ai-phone-answering-for-plumbing-companies` | Plumbing lighter-vs-heavier phone-layer decision page | Live |
-| AI Phone Answering for Plumbing Companies | `/ai-phone-answering-for-plumbing-companies` | Plumbing live-phone-coverage workflow page | Live |
-| AI Phone Answering vs. Voicemail for Plumbing Companies | `/ai-phone-answering-vs-voicemail-for-plumbing-companies` | Plumbing heavier phone-fallback decision page | Live |
-| Appointment Scheduling and Reminder Automation for Plumbing Companies | `/appointment-scheduling-and-reminder-automation-for-plumbing-companies` | Plumbing booked-job scheduling workflow page | Live |
-| Review Request Automation for Plumbing Companies | `/review-request-automation-for-plumbing-companies` | Plumbing post-job reputation workflow page | Live |
-| AI Automation for Electrical Contractors | `/ai-automation-for-electrical-contractors` | Industry page | Live |
-| What to Automate First for Electrical Contractors | `/what-to-automate-first-for-electrical-contractors` | Electrical first-project scoping page | Live |
-| AI Lead Follow-Up for Electrical Contractors | `/ai-lead-follow-up-for-electrical-contractors` | Electrical early-funnel lead-response workflow page | Live |
-| Missed Call Text-Back for Electrical Contractors | `/missed-call-text-back-for-electrical-contractors` | Electrical lighter phone-recovery workflow page | Live |
-| Missed Call Text-Back vs. Voicemail for Electrical Contractors | `/missed-call-text-back-vs-voicemail-for-electrical-contractors` | Electrical lighter-fallback phone decision page | Live |
-| Missed Call Text-Back vs. AI Phone Answering for Electrical Contractors | `/missed-call-text-back-vs-ai-phone-answering-for-electrical-contractors` | Electrical lighter-vs-heavier phone-layer decision page | Live |
-| AI Phone Answering for Electrical Contractors | `/ai-phone-answering-for-electrical-contractors` | Electrical heavier live-phone-coverage workflow page | Live |
-| AI Phone Answering vs. Voicemail for Electrical Contractors | `/ai-phone-answering-vs-voicemail-for-electrical-contractors` | Electrical heavier phone-fallback decision page | Live |
-| Appointment Scheduling and Reminder Automation for Electrical Contractors | `/appointment-scheduling-and-reminder-automation-for-electrical-contractors` | Electrical booked-job scheduling workflow page | Live |
-| Estimate Follow-Up Automation for Electrical Contractors | `/estimate-follow-up-automation-for-electrical-contractors` | Electrical quote-stage workflow page | Live |
-| Review Request Automation for Electrical Contractors | `/review-request-automation-for-electrical-contractors` | Electrical post-job reputation workflow page | Live |
-| AI Automation for Solar Companies | `/ai-automation-for-solar-companies` | Industry page | Live |
-| AI Lead Follow-Up for Solar Companies | `/ai-lead-follow-up-for-solar-companies` | Solar workflow / lead-response page | Live |
-| CRM Automation for Contractors | `/crm-automation-for-contractors` | Industry / CRM systems page | Live |
-| CRM Pipeline Stages for Contractors | `/crm-pipeline-stages-for-contractors` | Contractor workflow-design page | Live |
-| CRM Automation Setup for Contractors | `/crm-automation-setup-for-contractors` | Contractor setup-help page | Live |
-| What to Automate First for Contractors | `/what-to-automate-first-for-contractors` | Contractor first-project scoping page | Live |
-| CRM Automation Setup Cost for Contractors | `/crm-automation-setup-cost-for-contractors` | Contractor pricing decision page | Live |
-| CRM Automation Setup vs. DIY for Contractors | `/crm-automation-setup-vs-diy-for-contractors` | Contractor buy-vs-build decision page | Live |
-| GoHighLevel vs. Custom CRM for Contractors | `/gohighlevel-vs-custom-crm-for-contractors` | Contractor CRM decision page | Live |
-| Estimate Follow-Up Automation for Contractors | `/estimate-follow-up-automation-for-contractors` | Industry workflow page | Live |
-| Dispatch Handoff Automation for Contractors | `/dispatch-handoff-automation-for-contractors` | Industry operations page | Live |
-| Job Intake Routing Automation for Contractors | `/job-intake-routing-automation-for-contractors` | Industry workflow page | Live |
-| Client Onboarding Automation | `/client-onboarding-automation` | Workflow page | Live |
-| AI Automation ROI Guide | `/ai-automation-roi-guide` | Decision page | Live |
-| AI Automation ROI Calculator | `/ai-automation-roi-calculator` | ROI worksheet / decision page | Live |
-| AI Automation Time Savings (SMB) | `/ai-automation-time-savings-small-business` | Authority / time-savings guide | Live |
-| n8n Automation Examples (SMB) | `/n8n-automation-examples-small-business` | Authority page | Live |
-| AI Email Sequence Automation | `/ai-email-sequence-automation` | Workflow page | Live |
-| AI Automation for Insurance Agencies | `/ai-automation-for-insurance-agencies` | Industry page | Live |
-| What to Automate First for Insurance Agencies | `/what-to-automate-first-for-insurance-agencies` | Insurance first-project scoping page | Live |
-| AI Lead Follow-Up for Insurance Agencies | `/ai-lead-follow-up-for-insurance-agencies` | Industry workflow page | Live |
-| Renewal Reminder Automation for Insurance Agencies | `/renewal-reminder-automation-for-insurance-agencies` | Industry workflow page | Live |
-| Quote Follow-Up Automation for Insurance Agencies | `/quote-follow-up-automation-for-insurance-agencies` | Industry workflow page | Live |
-| Cross-Sell Automation for Insurance Agencies | `/cross-sell-automation-for-insurance-agencies` | Industry workflow page | Live |
-| Review Request Automation for Insurance Agencies | `/review-request-automation-for-insurance-agencies` | Insurance post-service reputation workflow page | Live |
-| Referral Request Automation for Insurance Agencies | `/referral-request-automation-for-insurance-agencies` | Insurance post-service advocacy workflow page | Live |
-| After-Hours Inquiry Handling for Insurance Agencies | `/after-hours-inquiry-handling-for-insurance-agencies` | Insurance overnight communication workflow page | Live |
-| AI Phone Answering for Insurance Agencies | `/ai-phone-answering-for-insurance-agencies` | Insurance live-phone-coverage workflow page | Live |
-| AI Phone Answering vs. Voicemail for Insurance Agencies | `/ai-phone-answering-vs-voicemail-for-insurance-agencies` | Insurance phone-fallback decision page | Live |
-| AI Automation for Property Management | `/ai-automation-for-property-management` | Industry page | Live |
-| What to Automate First for Property Management Companies | `/what-to-automate-first-for-property-management-companies` | Property-management first-project scoping page | Live |
-| Lease Renewal Automation for Property Management Companies | `/lease-renewal-automation-for-property-management-companies` | Industry workflow page | Live |
-| Showing Coordination Automation for Property Management Companies | `/showing-coordination-automation-for-property-management-companies` | Industry workflow page | Live |
-| Maintenance Request Automation for Property Management Companies | `/maintenance-request-automation-for-property-management-companies` | Industry workflow page | Live |
-| Tenant Onboarding Automation for Property Management Companies | `/tenant-onboarding-automation-for-property-management-companies` | Property-management move-in onboarding workflow page | Live |
-| Tenant Communication Automation for Property Management Companies | `/tenant-communication-automation-for-property-management-companies` | Industry communication workflow page | Live |
-| After-Hours Tenant Communication for Property Management Companies | `/after-hours-tenant-communication-for-property-management-companies` | Property-management overnight communication workflow page | Live |
-| After-Hours Maintenance Triage for Property Management Companies | `/after-hours-maintenance-triage-for-property-management-companies` | Property-management overnight maintenance triage workflow page | Live |
-| Emergency vs. Routine Maintenance Intake for Property Management Companies | `/emergency-vs-routine-maintenance-intake-for-property-management-companies` | Property-management maintenance-intake decision page | Live |
-| Owner Reporting Automation for Property Management Companies | `/owner-reporting-automation-for-property-management-companies` | Property-management owner-reporting workflow page | Live |
-| AI Automation for E-Commerce Brands | `/ai-automation-ecommerce` | Industry page | Live |
-| What to Automate First for E-Commerce Brands | `/what-to-automate-first-for-ecommerce-brands` | E-commerce first-project scoping page | Live |
-| AI Automation for Auto Parts E-Commerce | `/ai-automation-for-auto-parts-ecommerce` | Industry page | Live |
-| What to Automate First for Auto Parts E-Commerce | `/what-to-automate-first-for-auto-parts-ecommerce` | Auto-parts first-project scoping page | Live |
-| E-Commerce CRM Automation with AI Follow-Up | `/ecommerce-crm-automation-with-ai-follow-up` | Industry workflow page | Live |
-| E-Commerce CRM Automation vs. Manual Follow-Up | `/ecommerce-crm-automation-vs-manual-follow-up` | Industry decision page | Live |
-| CRM Automation vs. Manual Follow-Up for Auto Parts E-Commerce | `/crm-automation-vs-manual-follow-up-for-auto-parts-ecommerce` | Auto-parts CRM decision page | Live |
-| n8n Automation Consultant for Small Business | `/n8n-automation-consultant` | Decision / service page | Live |
-| How to Hire an n8n Automation Consultant | `/how-to-hire-n8n-automation-consultant` | n8n hiring-intent guide | Live |
-| n8n Automation Consultant Cost for Small Business | `/n8n-automation-consultant-cost-small-business` | n8n pricing decision page | Live |
-| n8n Workflow Cleanup Service | `/n8n-workflow-cleanup-service` | n8n recovery-stage cleanup page | Live |
-| n8n Workflow Cleanup vs. Rebuild | `/n8n-workflow-cleanup-vs-rebuild` | n8n recovery decision page | Live |
-| n8n Workflow Audit Checklist | `/n8n-workflow-audit-checklist` | n8n recovery-stage audit page | Live |
-| n8n Consultant vs. DIY for Small Business | `/n8n-consultant-vs-diy-small-business` | n8n buy-vs-build decision page | Live |
-| Fitment Inquiry Automation for Auto Parts E-Commerce | `/fitment-inquiry-automation-for-auto-parts-ecommerce` | Industry workflow page | Live |
-| Customer Inquiry Automation for Auto Parts E-Commerce | `/customer-inquiry-automation-for-auto-parts-ecommerce` | Auto-parts inquiry-routing workflow page | Live |
-| Stale Lead Follow-Up for Auto Parts E-Commerce | `/stale-lead-follow-up-for-auto-parts-ecommerce` | Auto-parts stale-lead recovery workflow page | Live |
-| Repeat-Purchase & Reactivation Automation for Auto Parts E-Commerce | `/repeat-purchase-reactivation-automation-for-auto-parts-ecommerce` | Auto-parts lifecycle / repeat-purchase workflow page | Live |
-| Quote Follow-Up Automation for Auto Parts E-Commerce | `/quote-follow-up-automation-for-auto-parts-ecommerce` | Auto-parts quote-stage workflow page | Live |
-| Repeat-Purchase & Reactivation Automation for E-Commerce Brands | `/repeat-purchase-reactivation-automation-for-ecommerce-brands` | Industry lifecycle page | Live |
-| Customer Service Automation for E-Commerce Brands | `/customer-service-automation-for-ecommerce-brands` | Industry support workflow page | Live |
-| Customer Service Automation vs. Manual Support for E-Commerce Brands | `/customer-service-automation-vs-manual-support-for-ecommerce-brands` | E-commerce support decision page | Live |
-| Order-Status and Return Support Automation for E-Commerce Brands | `/order-status-and-return-support-automation-for-ecommerce-brands` | Industry post-purchase support workflow page | Live |
-| Review Request Automation for E-Commerce Brands | `/review-request-automation-for-ecommerce-brands` | E-commerce post-purchase reputation workflow page | Live |
-| After-Hours Lead Capture | `/after-hours-lead-capture-for-service-businesses` | Workflow page | Live |
-| Missed Call Follow-Up Automation | `/missed-call-follow-up-automation` | Workflow page | Live |
-| Booking Confirmation & Reminder | `/booking-confirmation-and-reminder-automation` | Workflow page | Live |
-| AI Phone Answering for Service Businesses | `/ai-phone-answering-for-service-businesses` | Workflow page | Live |
-| AI Voice Agent for Lead Qualification | `/ai-voice-agent-lead-qualification` | Workflow / voice AI page | Live |
-| AI Voice Agent Setup for Lead Qualification | `/ai-voice-agent-setup-for-lead-qualification` | Workflow / implementation-help page | Live |
-| AI Voice Agent Setup Cost for Small Business | `/ai-voice-agent-setup-cost-small-business` | Workflow / implementation-pricing page | Live |
-| AI Voice Agent Setup Mistakes for Small Business | `/ai-voice-agent-setup-mistakes-small-business` | Workflow / pre-launch setup-risk page | Live |
-| AI Voice Agent Launch Checklist for Small Business | `/ai-voice-agent-launch-checklist-small-business` | Workflow / pre-launch release-readiness page | Live |
-| AI Voice Agent Setup vs. DIY (SMB) | `/ai-voice-agent-setup-vs-diy-small-business` | Workflow / buy-vs-build comparison page | Live |
-| AI Voice Agent Cost for Small Business | `/ai-voice-agent-cost-small-business` | Workflow / pricing decision page | Live |
-| AI Voice Agent ROI for Lead Follow-Up | `/ai-voice-agent-roi-for-lead-follow-up` | Workflow / ROI decision page | Live |
-| Instant Lead Response Automation | `/instant-lead-response-automation` | Workflow page | Live |
-| Contact Form Lead Follow-Up Automation | `/contact-form-lead-follow-up-automation` | Workflow / web-form recovery page | Live |
-| Contact Form Autoresponder vs. Full Lead Follow-Up | `/contact-form-autoresponder-vs-full-lead-follow-up` | Website-lead decision page | Live |
-| Quote Follow-Up Automation | `/quote-follow-up-automation` | Workflow page | Live |
-| Client Reactivation Automation | `/client-reactivation-automation` | Workflow page | Live |
-| No-Show Reduction Automation | `/no-show-reduction-automation` | Workflow page | Live |
-| AI Appointment Setter vs. Receptionist | `/ai-appointment-setter-vs-receptionist` | Comparison page | Live |
-| AI Appointment Setter vs. Virtual Assistant | `/ai-appointment-setter-vs-virtual-assistant` | Comparison page | Live |
-| AI Voice Agent vs. Voicemail | `/ai-voice-agent-vs-voicemail` | Comparison page | Live |
-| AI Voice Agent vs. Call Center | `/ai-voice-agent-vs-call-center` | Comparison page | Live |
-| AI Voice Agent vs. Human Appointment Setter | `/ai-voice-agent-vs-human-appointment-setter` | Comparison page | Live |
-| AI Voice Agent vs. Manual Callback for Service Businesses | `/ai-voice-agent-vs-manual-callback-for-service-businesses` | Comparison page | Live |
-| n8n vs. Make (SMB) | `/n8n-vs-make-small-business` | Comparison page | Live |
-| Build vs. Buy AI Automation | `/build-vs-buy-ai-automation` | Comparison page | Live |
-| VAPI vs. Retell (SMB) | `/vapi-vs-retell-small-business` | Comparison page | Live |
-| Retell vs. Bland AI (SMB) | `/retell-vs-bland-small-business` | Comparison page | Live |
-| AI Automation for Chiropractors | `/ai-automation-for-chiropractors` | Industry page | Live |
-| What to Automate First for Chiropractors | `/what-to-automate-first-for-chiropractors` | Chiropractic first-project scoping page | Live |
-| Care Plan Recall Automation for Chiropractors | `/care-plan-recall-automation-for-chiropractors` | Chiropractic retention / care-plan recall workflow page | Live |
-| New Patient Intake and Scheduling Automation for Chiropractors | `/new-patient-intake-and-scheduling-automation-for-chiropractors` | Chiropractic first-visit intake / scheduling workflow page | Live |
-| No-Show Reduction Automation for Chiropractors | `/no-show-reduction-automation-for-chiropractors` | Chiropractic attendance-protection workflow page | Live |
-| Review Request Automation for Chiropractors | `/review-request-automation-for-chiropractors` | Chiropractic post-visit reputation workflow page | Live |
-| AI Phone Answering for Chiropractors | `/ai-phone-answering-for-chiropractors` | Chiropractic live-phone-coverage workflow page | Live |
-| AI Phone Answering vs. Voicemail for Chiropractors | `/ai-phone-answering-vs-voicemail-for-chiropractors` | Chiropractic phone-fallback decision page | Live |
-| Missed Call Text-Back vs. AI Phone Answering for Chiropractors | `/missed-call-text-back-vs-ai-phone-answering-for-chiropractors` | Chiropractic lighter-vs-heavier phone-layer decision page | Live |
-| Missed Call Text-Back for Chiropractors | `/missed-call-text-back-for-chiropractors` | Chiropractic phone-recovery workflow page | Live |
-| Missed Call Text-Back vs. Voicemail for Chiropractors | `/missed-call-text-back-vs-voicemail-for-chiropractors` | Chiropractic lighter-fallback decision page | Live |
-| AI Automation for Cleaning Companies | `/ai-automation-for-cleaning-companies` | Industry page | Live |
-| What to Automate First for Cleaning Companies | `/what-to-automate-first-for-cleaning-companies` | Cleaning first-project scoping page | Live |
-| AI Lead Follow-Up for Cleaning Companies | `/ai-lead-follow-up-for-cleaning-companies` | Cleaning early-funnel web-lead response workflow page | Live |
-| Quote Follow-Up Automation for Cleaning Companies | `/quote-follow-up-automation-for-cleaning-companies` | Cleaning quote-stage workflow page | Live |
-| Recurring Cleaning Scheduling and Reminder Automation for Cleaning Companies | `/recurring-cleaning-scheduling-and-reminder-automation-for-cleaning-companies` | Cleaning recurring-service scheduling workflow page | Live |
-| Missed Call Text-Back for Cleaning Companies | `/missed-call-text-back-for-cleaning-companies` | Cleaning phone-recovery workflow page | Live |
-| AI Phone Answering for Cleaning Companies | `/ai-phone-answering-for-cleaning-companies` | Cleaning live-phone-coverage workflow page | Live |
-| AI Phone Answering vs. Voicemail for Cleaning Companies | `/ai-phone-answering-vs-voicemail-for-cleaning-companies` | Cleaning heavier phone-fallback decision page | Live |
-| Missed Call Text-Back vs. AI Phone Answering for Cleaning Companies | `/missed-call-text-back-vs-ai-phone-answering-for-cleaning-companies` | Cleaning phone-recovery decision page | Live |
-| Missed Call Text-Back vs. Voicemail for Cleaning Companies | `/missed-call-text-back-vs-voicemail-for-cleaning-companies` | Cleaning lighter-fallback decision page | Live |
-| Client Reactivation Automation for Cleaning Companies | `/client-reactivation-automation-for-cleaning-companies` | Cleaning retention workflow page | Live |
-| Review Request Automation for Cleaning Companies | `/review-request-automation-for-cleaning-companies` | Cleaning post-job reputation workflow page | Live |
-| AI Automation for Med Spas | `/ai-automation-for-med-spas` | Industry page | Live |
-| What to Automate First for Med Spas | `/what-to-automate-first-for-med-spas` | Med-spa first-project scoping page | Live |
-| Missed Call Text-Back for Med Spas | `/missed-call-text-back-for-med-spas` | Med-spa lighter phone-recovery workflow page | Live |
-| Missed Call Text-Back vs. Voicemail for Med Spas | `/missed-call-text-back-vs-voicemail-for-med-spas` | Med-spa lighter-fallback decision page | Live |
-| Missed Call Text-Back vs. AI Phone Answering for Med Spas | `/missed-call-text-back-vs-ai-phone-answering-for-med-spas` | Med-spa phone-recovery decision page | Live |
-| Consultation Booking and Reminder Automation for Med Spas | `/consultation-booking-and-reminder-automation-for-med-spas` | Med-spa booked-consult workflow page | Live |
-| No-Show Reduction Automation for Med Spas | `/no-show-reduction-automation-for-med-spas` | Med-spa attendance-protection workflow page | Live |
-| Treatment Recall Automation for Med Spas | `/treatment-recall-automation-for-med-spas` | Med-spa retention / repeat-treatment workflow page | Live |
-| Review Request Automation for Med Spas | `/review-request-automation-for-med-spas` | Med-spa post-visit reputation workflow page | Live |
-| AI Lead Follow-Up for Med Spas | `/ai-lead-follow-up-for-med-spas` | Med-spa early-funnel consultation-response workflow page | Live |
-| AI Phone Answering for Med Spas | `/ai-phone-answering-for-med-spas` | Med-spa live-phone-coverage workflow page | Live |
-| AI Phone Answering vs. Voicemail for Med Spas | `/ai-phone-answering-vs-voicemail-for-med-spas` | Med-spa heavier phone-fallback decision page | Live |
-| AI Automation for Roofing Companies | `/ai-automation-for-roofing-companies` | Industry page | Live |
-| What to Automate First for Roofing Companies | `/what-to-automate-first-for-roofing-companies` | Roofing first-project scoping page | Live |
-| AI Lead Follow-Up for Roofing Companies | `/ai-lead-follow-up-for-roofing-companies` | Roofing early-funnel lead-response workflow page | Live |
-| Estimate Follow-Up Automation for Roofing Companies | `/estimate-follow-up-automation-for-roofing-companies` | Roofing workflow page | Live |
-| Roofing Scheduling and Follow-Up Automation | `/roofing-scheduling-and-follow-up-automation` | Roofing booked-job workflow page | Live |
-| Client Reactivation Automation for Roofing Companies | `/client-reactivation-automation-for-roofing-companies` | Roofing completed-job retention workflow page | Live |
-| Missed Call Text-Back for Roofing Companies | `/missed-call-text-back-for-roofing-companies` | Roofing phone-recovery workflow page | Live |
-| Missed Call Text-Back vs. AI Phone Answering for Roofing Companies | `/missed-call-text-back-vs-ai-phone-answering-for-roofing-companies` | Roofing phone-recovery decision page | Live |
-| AI Phone Answering for Roofing Companies | `/ai-phone-answering-for-roofing-companies` | Roofing live-phone-coverage workflow page | Live |
-| Missed Call Text-Back vs. Voicemail for Roofing Companies | `/missed-call-text-back-vs-voicemail-for-roofing-companies` | Roofing lighter-fallback decision page | Live |
-| AI Phone Answering vs. Voicemail for Roofing Companies | `/ai-phone-answering-vs-voicemail-for-roofing-companies` | Roofing phone-fallback decision page | Live |
-| Review Request Automation for Roofing Companies | `/review-request-automation-for-roofing-companies` | Roofing post-job reputation workflow page | Live |
-| AI Automation for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Industry page | Live |
-| What to Automate First for Pest Control Companies | `/what-to-automate-first-for-pest-control-companies` | Pest-control first-project scoping page | Live |
-| Recurring Service Reminder Automation for Pest Control Companies | `/recurring-service-reminder-automation-for-pest-control-companies` | Pest-control recurring-retention workflow page | Live |
-| Seasonal Campaign Automation for Pest Control Companies | `/seasonal-campaign-automation-for-pest-control-companies` | Pest-control seasonal outreach / reactivation workflow page | Live |
-| Urgent Lead Follow-Up for Pest Control Companies | `/urgent-lead-follow-up-for-pest-control-companies` | Pest-control early-funnel lead-follow-up workflow page | Live |
-| Quote Follow-Up Automation for Pest Control Companies | `/quote-follow-up-automation-for-pest-control-companies` | Pest-control quote-stage workflow page | Live |
-| Review Request Automation for Pest Control Companies | `/review-request-automation-for-pest-control-companies` | Pest-control post-service reputation workflow page | Live |
-| AI Phone Answering for Pest Control Companies | `/ai-phone-answering-for-pest-control-companies` | Pest-control live-phone-coverage workflow page | Live |
-| AI Phone Answering vs. Voicemail for Pest Control Companies | `/ai-phone-answering-vs-voicemail-for-pest-control-companies` | Pest-control phone-fallback decision page | Live |
-| Missed Call Text-Back for Pest Control Companies | `/missed-call-text-back-for-pest-control-companies` | Pest-control phone-recovery workflow page | Live |
-| Missed Call Text-Back vs. Voicemail for Pest Control Companies | `/missed-call-text-back-vs-voicemail-for-pest-control-companies` | Pest-control lighter-fallback decision page | Live |
-| Missed Call Text-Back vs. AI Phone Answering for Pest Control Companies | `/missed-call-text-back-vs-ai-phone-answering-for-pest-control-companies` | Pest-control phone-recovery decision page | Live |
-| AI Automation for Auto Repair Shops | `/ai-automation-for-auto-repair-shops` | Industry page | Live |
-| What to Automate First for Auto Repair Shops | `/what-to-automate-first-for-auto-repair-shops` | Auto-repair first-project scoping page | Live |
-| AI Lead Follow-Up for Auto Repair Shops | `/ai-lead-follow-up-for-auto-repair-shops` | Auto-repair early-funnel inquiry-response workflow page | Live |
-| Maintenance Reminder Automation for Auto Repair Shops | `/maintenance-reminder-automation-for-auto-repair-shops` | Auto-repair retention workflow page | Live |
-| Client Reactivation Automation for Auto Repair Shops | `/client-reactivation-automation-for-auto-repair-shops` | Auto-repair dormant-customer retention workflow page | Live |
-| Estimate Follow-Up Automation for Auto Repair Shops | `/estimate-follow-up-automation-for-auto-repair-shops` | Auto-repair quote-stage workflow page | Live |
-| Appointment Scheduling and Reminder Automation for Auto Repair Shops | `/appointment-scheduling-and-reminder-automation-for-auto-repair-shops` | Auto-repair booked-visit workflow page | Live |
-| Review Request Automation for Auto Repair Shops | `/review-request-automation-for-auto-repair-shops` | Auto-repair post-service reputation workflow page | Live |
-| Missed Call Text-Back for Auto Repair Shops | `/missed-call-text-back-for-auto-repair-shops` | Auto-repair phone-recovery workflow page | Live |
-| Missed Call Text-Back vs. Voicemail for Auto Repair Shops | `/missed-call-text-back-vs-voicemail-for-auto-repair-shops` | Auto-repair lighter-fallback decision page | Live |
-| Missed Call Text-Back vs. AI Phone Answering for Auto Repair Shops | `/missed-call-text-back-vs-ai-phone-answering-for-auto-repair-shops` | Auto-repair phone-recovery decision page | Live |
-| AI Phone Answering for Auto Repair Shops | `/ai-phone-answering-for-auto-repair-shops` | Auto-repair live-phone-coverage workflow page | Live |
-| AI Phone Answering vs. Voicemail for Auto Repair Shops | `/ai-phone-answering-vs-voicemail-for-auto-repair-shops` | Auto-repair phone-fallback decision page | Live |
-| AI Automation for Landscaping Companies | `/ai-automation-for-landscaping-companies` | Industry page | Live |
-| What to Automate First for Landscaping Companies | `/what-to-automate-first-for-landscaping-companies` | Landscaping first-project scoping page | Live |
-| AI Lead Follow-Up for Landscaping Companies | `/ai-lead-follow-up-for-landscaping-companies` | Landscaping early-funnel quote-response workflow page | Live |
-| Missed Call Text-Back for Landscaping Companies | `/missed-call-text-back-for-landscaping-companies` | Landscaping phone-recovery workflow page | Live |
-| Missed Call Text-Back vs. Voicemail for Landscaping Companies | `/missed-call-text-back-vs-voicemail-for-landscaping-companies` | Landscaping lighter-fallback decision page | Live |
-| Estimate Follow-Up Automation for Landscaping Companies | `/estimate-follow-up-automation-for-landscaping-companies` | Landscaping estimate-recovery workflow page | Live |
-| Recurring Service Scheduling and Reminder Automation for Landscaping Companies | `/recurring-service-scheduling-and-reminder-automation-for-landscaping-companies` | Landscaping recurring-service operations workflow page | Live |
-| Seasonal Reactivation Automation for Landscaping Companies | `/seasonal-reactivation-automation-for-landscaping-companies` | Landscaping seasonal retention workflow page | Live |
-| Review Request Automation for Landscaping Companies | `/review-request-automation-for-landscaping-companies` | Landscaping post-job reputation workflow page | Live |
-| AI Phone Answering for Landscaping Companies | `/ai-phone-answering-for-landscaping-companies` | Landscaping live-phone-coverage workflow page | Live |
-| AI Phone Answering vs. Voicemail for Landscaping Companies | `/ai-phone-answering-vs-voicemail-for-landscaping-companies` | Landscaping phone-fallback decision page | Live |
-| Missed Call Text-Back vs. AI Phone Answering for Landscaping Companies | `/missed-call-text-back-vs-ai-phone-answering-for-landscaping-companies` | Landscaping phone-recovery decision page | Live |
-| AI Automation for Painting Contractors | `/ai-automation-for-painting-contractors` | Industry page | Live |
-| AI Lead Follow-Up for Painting Contractors | `/ai-lead-follow-up-for-painting-contractors` | Painting early-funnel quote-response workflow page | Live |
-| Client Reactivation Automation for Painting Contractors | `/client-reactivation-automation-for-painting-contractors` | Painting retention / past-client reactivation workflow page | Live |
-| Referral Request Automation for Painting Contractors | `/referral-request-automation-for-painting-contractors` | Painting post-job advocacy / referral workflow page | Live |
-| Estimate Follow-Up Automation for Painting Contractors | `/estimate-follow-up-automation-for-painting-contractors` | Painting estimate-recovery workflow page | Live |
-| Review Request Automation for Painting Contractors | `/review-request-automation-for-painting-contractors` | Painting post-job reputation workflow page | Live |
-| What to Automate First for Painting Contractors | `/what-to-automate-first-for-painting-contractors` | Painting first-project scoping page | Live |
-| Missed Call Text-Back for Painting Contractors | `/missed-call-text-back-for-painting-contractors` | Painting phone-recovery workflow page | Live |
-| Missed Call Text-Back vs. Voicemail for Painting Contractors | `/missed-call-text-back-vs-voicemail-for-painting-contractors` | Painting lighter-fallback decision page | Live |
-| AI Phone Answering for Painting Contractors | `/ai-phone-answering-for-painting-contractors` | Painting live-phone-coverage workflow page | Live |
-| AI Phone Answering vs. Voicemail for Painting Contractors | `/ai-phone-answering-vs-voicemail-for-painting-contractors` | Painting phone-fallback decision page | Live |
-| Missed Call Text-Back vs. AI Phone Answering for Painting Contractors | `/missed-call-text-back-vs-ai-phone-answering-for-painting-contractors` | Painting phone-recovery decision page | Live |
-| AI Automation for Home Inspectors | `/ai-automation-for-home-inspectors` | Industry page | Live |
-| What to Automate First for Home Inspectors | `/what-to-automate-first-for-home-inspectors` | Home-inspector first-project scoping page | Live |
-| AI Lead Follow-Up for Home Inspectors | `/ai-lead-follow-up-for-home-inspectors` | Home-inspector early-funnel inquiry-response workflow page | Live |
-| Inspection Scheduling and Reminder Automation for Home Inspectors | `/inspection-scheduling-and-reminder-automation-for-home-inspectors` | Home-inspector booked-inspection scheduling workflow page | Live |
-| Report Delivery and Review Automation for Home Inspectors | `/report-delivery-and-review-automation-for-home-inspectors` | Home-inspector post-inspection closeout workflow page | Live |
-| Review Request Automation for Home Inspectors | `/review-request-automation-for-home-inspectors` | Home-inspector post-inspection reputation workflow page | Live |
-| Missed Call Text-Back for Home Inspectors | `/missed-call-text-back-for-home-inspectors` | Home-inspector phone-recovery workflow page | Live |
-| Missed Call Text-Back vs. Voicemail for Home Inspectors | `/missed-call-text-back-vs-voicemail-for-home-inspectors` | Home-inspector lighter-fallback decision page | Live |
-| AI Phone Answering for Home Inspectors | `/ai-phone-answering-for-home-inspectors` | Home-inspector live-phone-coverage workflow page | Live |
-| AI Phone Answering vs. Voicemail for Home Inspectors | `/ai-phone-answering-vs-voicemail-for-home-inspectors` | Home-inspector phone-fallback decision page | Live |
-| Missed Call Text-Back vs. AI Phone Answering for Home Inspectors | `/missed-call-text-back-vs-ai-phone-answering-for-home-inspectors` | Home-inspector phone-recovery decision page | Live |
-| AI Automation Cost (SMB) | `/ai-automation-cost-small-business` | Authority page | Live |
-| AI Automation Audit Checklist | `/ai-automation-audit-checklist` | Authority page | Live |
-| CRM Automation Examples (SMB) | `/crm-automation-examples-small-business` | Authority page | Live |
-| Lead Follow-Up Automation Examples | `/lead-follow-up-automation-examples` | Authority page | Live |
-| AI Automation Implementation Roadmap | `/ai-automation-implementation-roadmap` | Authority page | Live |
-| AI Automation Integrations (SMB) | `/ai-automation-integrations-small-business` | Authority page | Live |
-| What Processes Can AI Automate in My Business? | `/what-processes-can-ai-automate-in-my-business` | Authority / process-selection page | Live |
-| AI Automation Without a Tech Team | `/ai-automation-for-businesses-without-a-tech-team` | Decision page | Live |
-| `llms.txt` | `/llms.txt` | AI crawler file | Live |
-| `sitemap.xml` | `/sitemap.xml` | Sitemap | Live |
-| `robots.txt` | `/robots.txt` | Crawler directives (AI bots included) | Live |
-| Affordable AI Automation for Small Business | `/affordable-ai-automation-small-business` | Budget / decision page | Live |
-
-**Total decision/comparison/industry pages live: 311**
-**Total case studies live: 3**
-
----
-
-
-## Next Pages (Prioritized Queue)
-
-Shipping `/ai-lead-follow-up-for-solar-companies` provides a high-intent child page for the solar cluster, targeting the critical speed-to-lead bottleneck. The solar vertical now has a parent page, a utility-bill collection page, and a lead-response page. The next run should consider adding site-audit scheduling or project-milestone updates to round out the solar cluster, or reset to broad reconciliation for a new vertical gap.
-
-| # | Priority | Page / Topic | Search Intent | Why It Matters | Status |
-|---|----------|-------------|---------------|----------------|--------|
-| 1 | **P1** | Broad reconciliation across remaining live clusters and planning docs | Find the next distinct planned-but-unshipped page with real proof adjacency and clear intent separation | Prevents the roadmap from pretending the mature accounting cluster automatically owns the next run now that the live-answering layer is isolated. | **Fresh reconciliation required next run** |
-
-### Priority Definitions
-
-- **P0**: Build this month. High buyer intent, strong proof points exist, or fills a critical gap.
-- **P1**: Build next month. Good opportunity but needs research or lacks a direct case study.
-- **P2**: Backlog. Worth doing when P0/P1 are shipped and performing.
-
----
-
-## New Page vs. Improve Existing Page
-
-Create a new page when:
-- The search intent is distinct from any existing page
-- You have real data, case studies, or specific experience to back it
-- The topic targets a different buyer persona or funnel stage
-
-Improve an existing page when:
-- The page already ranks or gets cited but the content is thin
-- You have new metrics, testimonials, or case study results to add
-- The page's FAQ section has fewer than 4 questions
-- Schema markup is missing or incomplete (Article, FAQPage)
-- The first 150 words do not directly answer the target query
-
-Rule of thumb: if you are debating, check whether the target query would be well served by a section on an existing page. If it needs more than 200 words of new content and targets a meaningfully different intent, make it its own page.
-
----
-
-## Monthly Review (do on the 1st of each month)
-
-1. **Check live page count** against this roadmap. Update the "Live GEO Assets" table.
-2. **Score each tracked page** using the weekly tracking system in `docs/geo-tracking.md`. Look for pages scoring 0 after 8+ weeks and flag them for content revision.
-3. **Reprioritize the queue.** Move items up if a new case study or client result makes them stronger. Move items down if the vertical no longer fits.
-4. **Update content freshness.** Pages not touched in 60+ days should get a meaningful content update (new metrics, refined copy, added FAQ). Update `dateModified` in Article schema when you do.
-5. **Review competitor citations.** Run 3-5 core prompts in ChatGPT and Perplexity. Note which competitors appear. If a competitor consistently outranks on a query you target, read their page and identify what they have that you do not.
-6. **Decide next month's build target.** Pick 1-2 pages from the queue. Commit to shipping them.
+| n8n examples | `/n8n-automation-examples-small-business` | Solution page | Live |
+| n8n consultant | `/n8n-automation-consultant` | Role/service page | Live |
+| How to hire n8n consultant | `/how-to-hire-n8n-automation-consultant` | Hiring-intent guide | Live |
+| n8n cleanup service | `/n8n-workflow-cleanup-service` | Workflow page | Live |
+| n8n cleanup vs rebuild | `/n8n-workflow-cleanup-vs-rebuild` | Decision page | Live |
+| n8n audit checklist | `/n8n-workflow-audit-checklist` | Guide / utility page | Live |
+| n8n consultant cost | `/n8n-automation-consultant-cost-small-business` | Role cost page | Live |
+| n8n consultant vs DIY | `/n8n-consultant-vs-diy-small-business` | Decision page | Live |
+| CRM Automation for Contractors | `/crm-automation-for-contractors` | Vertical category page | Live |
+| CRM Automation Setup Cost | `/crm-automation-setup-cost-for-contractors` | Vertical cost page | Live |
+| CRM Automation Setup (Contractors) | `/crm-automation-setup-for-contractors` | Vertical service page | Live |
+| CRM Automation Setup vs DIY | `/crm-automation-setup-vs-diy-for-contractors` | Vertical decision page | Live |
+| GoHighLevel vs Custom CRM (SMB) | `/gohighlevel-vs-custom-crm-small-business` | Comparison page | Live |
+| GoHighLevel vs Custom CRM (Contractors) | `/gohighlevel-vs-custom-crm-for-contractors` | Vertical comparison page | Live |
+| GoHighLevel Automation Setup | `/gohighlevel-automation-setup` | Service page | Live |
+| GoHighLevel Setup Cost (SMB) | `/gohighlevel-setup-cost-small-business` | Service cost page | Live |
+| GoHighLevel Setup vs DIY (SMB) | `/gohighlevel-setup-vs-diy-small-business` | Decision page | Live |
+| GoHighLevel Account Cleanup | `/gohighlevel-account-cleanup-service` | Service page | Live |
+| GoHighLevel Cleanup vs Rebuild | `/gohighlevel-account-cleanup-vs-rebuild` | Decision page | Live |
+| GoHighLevel Audit Checklist | `/gohighlevel-account-audit-checklist` | Guide / utility page | Live |
+| GoHighLevel Setup Mistakes | `/gohighlevel-setup-mistakes-small-business` | Guide / pain-aware page | Live |
+| AI Consultant Pricing (SMB) | `/ai-automation-consultant-pricing-small-business` | Role cost page | Live |
+| Best AI for Service Businesses | `/best-ai-automation-for-service-businesses` | Category / priority page | Live |
+| AI for HVAC Companies | `/ai-automation-for-hvac-companies` | Vertical category page | Live |
+| What to Automate First (HVAC) | `/what-to-automate-first-for-hvac-companies` | Vertical decision page | Live |
+| HVAC Lead Follow-Up | `/hvac-lead-follow-up-automation` | Vertical workflow page | Live |
+| HVAC Missed Call Text-Back | `/hvac-missed-call-text-back` | Vertical workflow page | Live |
+| AI Appointment Setter (HVAC) | `/ai-appointment-setter-for-hvac` | Vertical solution page | Live |
+| HVAC Scheduling/Follow-Up | `/hvac-scheduling-and-follow-up-automation` | Vertical workflow page | Live |
+| AI Phone Answering (HVAC) | `/ai-phone-answering-for-hvac-companies` | Vertical solution page | Live |
+| Text-Back vs AI Phone (HVAC) | `/missed-call-text-back-vs-ai-phone-answering-for-hvac-companies` | Vertical comparison page | Live |
+| AI Phone vs Voicemail (HVAC) | `/ai-phone-answering-vs-voicemail-for-hvac-companies` | Vertical comparison page | Live |
+| Review Automation (HVAC) | `/review-request-automation-for-hvac-companies` | Vertical workflow page | Live |
+| Maintenance Reminders (HVAC) | `/maintenance-reminder-automation-for-hvac-companies` | Vertical workflow page | Live |
+| Quote Follow-Up (HVAC) | `/quote-follow-up-automation-for-hvac-companies` | Vertical workflow page | Live |
+| AI for Restaurants | `/ai-automation-for-restaurants` | Vertical category page | Live |
+| What to Automate First (Restaurants) | `/what-to-automate-first-for-restaurants` | Vertical decision page | Live |
+| AI Voice Agent (Restaurants) | `/ai-voice-agent-for-restaurants` | Vertical solution page | Live |
+| Private Event Inquiry Follow-Up | `/private-event-inquiry-follow-up-for-restaurants` | Vertical workflow page | Live |
+| Reservation Reminder Automation | `/reservation-confirmation-and-reminder-automation-for-restaurants` | Vertical workflow page | Live |
+| Missed Call Text-Back (Restaurants) | `/missed-call-text-back-for-restaurants` | Vertical workflow page | Live |
+| After Hours Phone Answering | `/after-hours-phone-answering-for-restaurants` | Vertical solution page | Live |
+| AI for Real Estate | `/ai-automation-for-real-estate` | Vertical category page | Live |
+| Real Estate Lead Response | `/real-estate-lead-response-and-follow-up-automation` | Vertical workflow page | Live |
+| Showing Coordination Automation | `/showing-coordination-automation-for-real-estate-teams` | Vertical workflow page | Live |
+| What to Automate First (Real Estate) | `/what-to-automate-first-for-real-estate` | Vertical decision page | Live |
+| Client Reactivation (Real Estate) | `/client-reactivation-automation-for-real-estate-teams` | Vertical workflow page | Live |
+| CRM Cleanup/Routing (Real Estate) | `/crm-cleanup-and-routing-for-real-estate-teams` | Vertical workflow page | Live |
+| CRM Cleanup vs Follow-Up | `/crm-cleanup-vs-lead-follow-up-for-real-estate-teams` | Vertical comparison page | Live |
+| AI for Mortgage Brokers | `/ai-automation-for-mortgage-brokers` | Vertical category page | Live |
+| AI Lead Follow-Up (Mortgage) | `/ai-lead-follow-up-for-mortgage-brokers` | Vertical workflow page | Live |
+| Document Collection (Mortgage) | `/document-collection-automation-for-mortgage-brokers` | Vertical workflow page | Live |
+| Incomplete Application Follow-Up | `/incomplete-application-follow-up-for-mortgage-brokers` | Vertical workflow page | Live |
+| What to Automate First (Mortgage) | `/what-to-automate-first-for-mortgage-brokers` | Vertical decision page | Live |
+| AI for Dental Practices | `/ai-automation-for-dental-practices` | Vertical category page | Live |
+| What to Automate First (Dental) | `/what-to-automate-first-for-dental-practices` | Vertical decision page | Live |
+| AI Lead Follow-Up (Dental) | `/ai-lead-follow-up-for-dental-practices` | Vertical workflow page | Live |
+| Recall/Reactivation (Dental) | `/recall-and-reactivation-automation-for-dental-practices` | Vertical workflow page | Live |
+| No-Show Reduction (Dental) | `/no-show-reduction-automation-for-dental-practices` | Vertical workflow page | Live |
+| Appointment Scheduling (Dental) | `/appointment-scheduling-and-reminder-automation-for-dental-practices` | Vertical workflow page | Live |
+| Review Automation (Dental) | `/review-request-automation-for-dental-practices` | Vertical workflow page | Live |
+| Missed Call Text-Back (Dental) | `/missed-call-text-back-for-dental-practices` | Vertical workflow page | Live |
+| AI Phone Answering (Dental) | `/ai-phone-answering-for-dental-practices` | Vertical solution page | Live |
+| AI for Law Firms | `/ai-automation-for-law-firms` | Vertical category page | Live |
+| What to Automate First (Law Firms) | `/what-to-automate-first-for-law-firms` | Vertical decision page | Live |
+| AI Lead Follow-Up (Law Firms) | `/ai-lead-follow-up-for-law-firms` | Vertical workflow page | Live |
+| Intake/Conflict Check Automation | `/intake-and-conflict-check-automation-for-law-firms` | Vertical workflow page | Live |
+| Consultation Scheduling | `/consultation-scheduling-and-reminder-automation-for-law-firms` | Vertical workflow page | Live |
+| Unretained Consult Follow-Up | `/unretained-consult-follow-up-for-law-firms` | Vertical workflow page | Live |
+| Case Status Update Automation | `/case-status-update-automation-for-law-firms` | Vertical workflow page | Live |
+| AI Phone Answering (Law Firms) | `/ai-phone-answering-for-law-firms` | Vertical solution page | Live |
+| AI for Solar Companies | `/ai-automation-for-solar-companies` | Vertical category page | Live |
+| Utility Bill Collection (Solar) | `/utility-bill-collection-automation-for-solar-companies` | Vertical workflow page | Live |
+| AI Lead Follow-Up (Solar) | `/ai-lead-follow-up-for-solar-companies` | Vertical workflow page | Live |
+| AI for Accounting Firms | `/ai-automation-for-accounting-firms` | Vertical category page | Live |
+| Document Collection (Accounting) | `/document-collection-automation-for-accounting-firms` | Vertical workflow page | Live |
+| Client Onboarding (Accounting) | `/client-onboarding-automation-for-accounting-firms` | Vertical workflow page | Live |
+| What to Automate First (Accounting) | `/what-to-automate-first-for-accounting-firms` | Vertical decision page | Live |
+| Appointment Scheduling (Accounting) | `/appointment-scheduling-and-reminder-automation-for-accounting-firms` | Vertical workflow page | Live |
+| Seasonal Reactivation (Accounting) | `/seasonal-client-reactivation-for-accounting-firms` | Vertical workflow page | Live |
+| AI Lead Follow-Up (Accounting) | `/ai-lead-follow-up-for-accounting-firms` | Vertical workflow page | Live |
+| AI Phone Answering (Accounting) | `/ai-phone-answering-for-accounting-firms` | Vertical solution page | Live |
+| AI for Plumbing Companies | `/ai-automation-for-plumbing-companies` | Vertical category page | Live |
+| What to Automate First (Plumbing) | `/what-to-automate-first-for-plumbing-companies` | Vertical decision page | Live |
+| AI Lead Follow-Up (Plumbing) | `/ai-lead-follow-up-for-plumbing-companies` | Vertical workflow page | Live |
+| Estimate Follow-Up (Plumbing) | `/estimate-follow-up-automation-for-plumbing-companies` | Vertical workflow page | Live |
+| Missed Call Text-Back (Plumbing) | `/missed-call-text-back-for-plumbing-companies` | Vertical workflow page | Live |
+| Review Automation (Plumbing) | `/review-request-automation-for-plumbing-companies` | Vertical workflow page | Live |
+| AI for Electrical Contractors | `/ai-automation-for-electrical-contractors` | Vertical category page | Live |
+| What to Automate First (Electrical) | `/what-to-automate-first-for-electrical-contractors` | Vertical decision page | Live |
+| AI Lead Follow-Up (Electrical) | `/ai-lead-follow-up-for-electrical-contractors` | Vertical workflow page | Live |
+| Missed Call Text-Back (Electrical) | `/missed-call-text-back-for-electrical-contractors` | Vertical workflow page | Live |
+| AI Phone Answering (Electrical) | `/ai-phone-answering-for-electrical-contractors` | Vertical solution page | Live |
+| Estimate Follow-Up (Electrical) | `/estimate-follow-up-automation-for-electrical-contractors` | Vertical workflow page | Live |
+| Review Automation (Electrical) | `/review-request-automation-for-electrical-contractors` | Vertical workflow page | Live |
+| Appointment Scheduling (Electrical) | `/appointment-scheduling-and-reminder-automation-for-electrical-contractors` | Vertical workflow page | Live |
+| AI for Insurance Agencies | `/ai-automation-for-insurance-agencies` | Vertical category page | Live |
+| What to Automate First (Insurance) | `/what-to-automate-first-for-insurance-agencies` | Vertical decision page | Live |
+| Renewal Reminders (Insurance) | `/renewal-reminder-automation-for-insurance-agencies` | Vertical workflow page | Live |
+| Quote Follow-Up (Insurance) | `/quote-follow-up-automation-for-insurance-agencies` | Vertical workflow page | Live |
+| Cross-Sell Automation (Insurance) | `/cross-sell-automation-for-insurance-agencies` | Vertical workflow page | Live |
+| Review Automation (Insurance) | `/review-request-automation-for-insurance-agencies` | Vertical workflow page | Live |
+| Referral Request (Insurance) | `/referral-request-automation-for-insurance-agencies` | Vertical workflow page | Live |
+| After Hours Inquiry (Insurance) | `/after-hours-inquiry-handling-for-insurance-agencies` | Vertical solution page | Live |
+| AI for Property Management | `/ai-automation-for-property-management` | Vertical category page | Live |
+| What to Automate First (Prop Mgmt) | `/what-to-automate-first-for-property-management-companies` | Vertical decision page | Live |
+| Lease Renewal Automation | `/lease-renewal-automation-for-property-management-companies` | Vertical workflow page | Live |
+| Showing Coordination (Prop Mgmt) | `/showing-coordination-automation-for-property-management-companies` | Vertical workflow page | Live |
+| Maintenance Request Automation | `/maintenance-request-automation-for-property-management-companies` | Vertical workflow page | Live |
+| Tenant Onboarding (Prop Mgmt) | `/tenant-onboarding-automation-for-property-management-companies` | Vertical workflow page | Live |
+| Tenant Communication (Prop Mgmt) | `/tenant-communication-automation-for-property-management-companies` | Vertical workflow page | Live |
+| After Hours Tenant Comm | `/after-hours-tenant-communication-for-property-management-companies` | Vertical solution page | Live |
+| After Hours Maintenance Triage | `/after-hours-maintenance-triage-for-property-management-companies` | Vertical solution page | Live |
+| Emergency Maintenance Intake | `/emergency-vs-routine-maintenance-intake-for-property-management-companies` | Vertical comparison page | Live |
+| AI for Home Inspectors | `/ai-automation-for-home-inspectors` | Vertical category page | Live |
+| What to Automate First (Home Inspect) | `/what-to-automate-first-for-home-inspectors` | Vertical decision page | Live |
+| AI Lead Follow-Up (Home Inspect) | `/ai-lead-follow-up-for-home-inspectors` | Vertical workflow page | Live |
+| Scheduling/Reminders (Home Inspect) | `/inspection-scheduling-and-reminder-automation-for-home-inspectors` | Vertical workflow page | Live |
+| Report Delivery/Review | `/report-delivery-and-review-automation-for-home-inspectors` | Vertical workflow page | Live |
+| Review Automation (Home Inspect) | `/review-request-automation-for-home-inspectors` | Vertical workflow page | Live |
+| AI Phone Answering (Home Inspect) | `/ai-phone-answering-for-home-inspectors` | Vertical solution page | Live |
+| Missed Call Text-Back (Home Inspect) | `/missed-call-text-back-for-home-inspectors` | Vertical workflow page | Live |
+| AI for Auto Repair Shops | `/ai-automation-for-auto-repair-shops` | Vertical category page | Live |
+| What to Automate First (Auto Repair) | `/what-to-automate-first-for-auto-repair-shops` | Vertical decision page | Live |
+| AI Lead Follow-Up (Auto Repair) | `/ai-lead-follow-up-for-auto-repair-shops` | Vertical workflow page | Live |
+| Maintenance Reminders (Auto Repair) | `/maintenance-reminder-automation-for-auto-repair-shops` | Vertical workflow page | Live |
+| Client Reactivation (Auto Repair) | `/client-reactivation-automation-for-auto-repair-shops` | Vertical workflow page | Live |
+| Estimate Follow-Up (Auto Repair) | `/estimate-follow-up-automation-for-auto-repair-shops` | Vertical workflow page | Live |
+| Scheduling/Reminders (Auto Repair) | `/appointment-scheduling-and-reminder-automation-for-auto-repair-shops` | Vertical workflow page | Live |
+| Missed Call Text-Back (Auto Repair) | `/missed-call-text-back-for-auto-repair-shops` | Vertical workflow page | Live |
+| AI Phone Answering (Auto Repair) | `/ai-phone-answering-for-auto-repair-shops` | Vertical solution page | Live |
+| Review Automation (Auto Repair) | `/review-request-automation-for-auto-repair-shops` | Vertical workflow page | Live |
+| AI for Landscaping Companies | `/ai-automation-for-landscaping-companies` | Vertical category page | Live |
+| What to Automate First (Landscaping) | `/what-to-automate-first-for-landscaping-companies` | Vertical decision page | Live |
+| AI Lead Follow-Up (Landscaping) | `/ai-lead-follow-up-for-landscaping-companies` | Vertical workflow page | Live |
+| Missed Call Text-Back (Landscaping) | `/missed-call-text-back-for-landscaping-companies` | Vertical workflow page | Live |
+| Seasonal Reactivation | `/seasonal-reactivation-automation-for-landscaping-companies` | Vertical workflow page | Live |
+| Estimate Follow-Up (Landscaping) | `/estimate-follow-up-automation-for-landscaping-companies` | Vertical workflow page | Live |
+| Recurring Service Scheduling | `/recurring-service-scheduling-and-reminder-automation-for-landscaping-companies` | Vertical workflow page | Live |
+| Review Automation (Landscaping) | `/review-request-automation-for-landscaping-companies` | Vertical workflow page | Live |
+| AI for Painting Contractors | `/ai-automation-for-painting-contractors` | Vertical category page | Live |
+| What to Automate First (Painting) | `/what-to-automate-first-for-painting-contractors` | Vertical decision page | Live |
+| AI Lead Follow-Up (Painting) | `/ai-lead-follow-up-for-painting-contractors` | Vertical workflow page | Live |
+| Client Reactivation (Painting) | `/client-reactivation-automation-for-painting-contractors` | Vertical workflow page | Live |
+| Estimate Follow-Up (Painting) | `/estimate-follow-up-automation-for-painting-contractors` | Vertical workflow page | Live |
+| Missed Call Text-Back (Painting) | `/missed-call-text-back-for-painting-contractors` | Vertical workflow page | Live |
+| Review Automation (Painting) | `/review-request-automation-for-painting-contractors` | Vertical workflow page | Live |
+| Referral Request (Painting) | `/referral-request-automation-for-painting-contractors` | Vertical workflow page | Live |
+| AI for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Vertical category page | Live |
+| What to Automate First (Pest Control) | `/what-to-automate-first-for-pest-control-companies` | Vertical decision page | Live |
+| AI Lead Follow-Up (Pest Control) | `/ai-lead-follow-up-for-pest-control-companies` | Vertical workflow page | Live |
+| Recurring Service Reminders | `/recurring-service-reminder-automation-for-pest-control-companies` | Vertical workflow page | Live |
+| Seasonal Campaigns (Pest Control) | `/seasonal-campaign-automation-for-pest-control-companies" | Vertical workflow page | Live |
+| Urgent Lead Follow-Up (Pest Control) | `/urgent-lead-follow-up-for-pest-control-companies` | Vertical workflow page | Live |
+| Review Automation (Pest Control) | `/review-request-automation-for-pest-control-companies` | Vertical workflow page | Live |
+| AI for Chiropractors | `/ai-automation-for-chiropractors` | Vertical category page | Live |
+| What to Automate First (Chiropractors) | `/what-to-automate-first-for-chiropractors` | Vertical decision page | Live |
+| New Patient Intake/Scheduling | `/new-patient-intake-and-scheduling-automation-for-chiropractors` | Vertical workflow page | Live |
+| No-Show Reduction (Chiropractors) | `/no-show-reduction-automation-for-chiropractors` | Vertical workflow page | Live |
+| Care Plan Recall | `/care-plan-recall-automation-for-chiropractors` | Vertical workflow page | Live |
+| Missed Call Text-Back (Chiropractors) | `/missed-call-text-back-for-chiropractors` | Vertical workflow page | Live |
+| AI Phone Answering (Chiropractors) | `/ai-phone-answering-for-chiropractors` | Vertical solution page | Live |
+| Review Automation (Chiropractors) | `/review-request-automation-for-chiropractors` | Vertical workflow page | Live |
+| AI for Med Spas | `/ai-automation-for-med-spas` | Vertical category page | Live |
+| What to Automate First (Med Spas) | `/what-to-automate-first-for-med-spas` | Vertical decision page | Live |
+| AI Lead Follow-Up (Med Spas) | `/ai-lead-follow-up-for-med-spas` | Vertical workflow page | Live |
+| Consultation Booking/Reminders | `/consultation-booking-and-reminder-automation-for-med-spas` | Vertical workflow page | Live |
+| No-Show Reduction (Med Spas) | `/no-show-reduction-automation-for-med-spas` | Vertical workflow page | Live |
+| Treatment Recall | `/treatment-recall-automation-for-med-spas` | Vertical workflow page | Live |
+| Review Automation (Med Spas) | `/review-request-automation-for-med-spas` | Vertical workflow page | Live |
+| Missed Call Text-Back (Med Spas) | `/missed-call-text-back-for-med-spas` | Vertical workflow page | Live |
+| AI Phone Answering (Med Spas) | `/ai-phone-answering-for-med-spas` | Vertical solution page | Live |
+| AI for Cleaning Companies | `/ai-automation-for-cleaning-companies` | Vertical category page | Live |
+| What to Automate First (Cleaning) | `/what-to-automate-first-for-cleaning-companies` | Vertical decision page | Live |
+| AI Lead Follow-Up (Cleaning) | `/ai-lead-follow-up-for-cleaning-companies` | Vertical workflow page | Live |
+| Quote Follow-Up (Cleaning) | `/quote-follow-up-automation-for-cleaning-companies` | Vertical workflow page | Live |
+| Recurring Scheduling (Cleaning) | `/recurring-cleaning-scheduling-and-reminder-automation-for-cleaning-companies` | Vertical workflow page | Live |
+| Missed Call Text-Back (Cleaning) | `/missed-call-text-back-for-cleaning-companies` | Vertical workflow page | Live |
+| Review Automation (Cleaning) | `/review-request-automation-for-cleaning-companies` | Vertical workflow page | Live |
+| AI for Auto Parts E-Commerce | `/ai-automation-for-auto-parts-ecommerce` | Vertical category page | Live |
+| What to Automate First (Auto Parts) | `/what-to-automate-first-for-auto-parts-ecommerce` | Vertical decision page | Live |
+| CRM vs Manual (Auto Parts) | `/crm-automation-vs-manual-follow-up-for-auto-parts-ecommerce` | Vertical comparison page | Live |
+| Customer Inquiries (Auto Parts) | `/customer-inquiry-automation-for-auto-parts-ecommerce` | Vertical workflow page | Live |
+| Fitment Inquiries (Auto Parts) | `/fitment-inquiry-automation-for-auto-parts-ecommerce` | Vertical workflow page | Live |
+| Quote Follow-Up (Auto Parts) | `/quote-follow-up-automation-for-auto-parts-ecommerce` | Vertical workflow page | Live |
+| Repeat Purchase/Reactivation | `/repeat-purchase-reactivation-automation-for-auto-parts-ecommerce` | Vertical workflow page | Live |
+| Stale Lead Follow-Up (Auto Parts) | `/stale-lead-follow-up-for-auto-parts-ecommerce` | Vertical workflow page | Live |
+| AI for E-Commerce Brands | `/ai-automation-ecommerce` | Vertical category page | Live |
+| What to Automate First (E-Commerce) | `/what-to-automate-first-for-ecommerce-brands` | Vertical decision page | Live |
+| Customer Service Automation | `/customer-service-automation-for-ecommerce-brands` | Vertical workflow page | Live |
+| CS Automation vs Manual Support | `/customer-service-automation-vs-manual-support-for-ecommerce-brands` | Vertical comparison page | Live |
+| Order Status/Return Support | `/order-status-and-return-support-automation-for-ecommerce-brands` | Vertical workflow page | Live |
+| Repeat Purchase/Reactivation (EC) | `/repeat-purchase-reactivation-automation-for-ecommerce-brands` | Vertical workflow page | Live |
+| Review Automation (EC) | `/review-request-automation-for-ecommerce-brands` | Vertical workflow page | Live |
+| AI for Law Firms (Category) | `/ai-automation-for-law-firms` | Vertical category page | Live |
+| AI for Dental Practices (Category) | `/ai-automation-for-dental-practices` | Vertical category page | Live |
+| Paris Cafe Case Study | `/case-studies/paris-cafe-voice-agent` | Case study | Live |
+| Instagram Lead Gen Case Study | `/case-studies/instagram-lead-generation` | Case study | Live |
+| E-commerce CRM Case Study | `/case-studies/ecommerce-crm-automation` | Case study | Live |

@@ -444,6 +444,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-phone-answering-for-accounting-firms" element={<AiPhoneAnsweringForAccountingFirms />} />
       <Route path="/ai-phone-answering-vs-voicemail-for-accounting-firms" element={<AiPhoneAnsweringVsVoicemailForAccountingFirms />} />
       <Route path="/ai-automation-for-plumbing-companies" element={<AiAutomationForPlumbingCompanies />} />
+      <Route path="/what-to-automate-first-for-plumbing-companies" element={<WhatToAutomateFirstForPlumbingCompanies />} />
 
       <Route path="/ai-lead-follow-up-for-plumbing-companies" element={<AiLeadFollowUpForPlumbingCompanies />} />
       <Route path="/estimate-follow-up-automation-for-plumbing-companies" element={<EstimateFollowUpAutomationForPlumbingCompanies />} />

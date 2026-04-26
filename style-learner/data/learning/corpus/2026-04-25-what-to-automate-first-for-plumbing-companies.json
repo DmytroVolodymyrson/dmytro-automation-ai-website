@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-25-what-to-automate-first-for-plumbing-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-25",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "Heading: What to Automate First for Plumbing Companies\n\nIntro:\nFor plumbing companies, the most effective first step into automation is rarely a massive system overhaul. It's usually a targeted fix for one specific operational leak. Most plumbers find the highest immediate ROI by focusing on one of four areas: missed-call recovery when emergency calls hit voicemail after hours, lead follow-up when web inquiries or referral leads aren't contacted fast enough, job scheduling and coordination when the office is drowning in reminders and reschedule calls, or live AI phone answering for high-volume shops that need more than just a callback system. The right choice depends on where you're losing money right now: before the customer talks to you, after they've sent an inquiry, or after the job is already on the schedule.\n\nPriority Selection Guide:\nFollow the revenue leak. If you are losing emergency jobs because you can't answer the phone at 2 AM, start with missed-call recovery. If you are losing jobs to the competitor who replies to the Yelp message first, start with lead follow-up. If you have plenty of jobs but are losing your mind to scheduling errors and technician coordination, start with the scheduling workflow.\n\nCommon Mistakes:\nAutomating a broken process: If your current way of handling leads or scheduling is a mess, automation will just make it a faster mess. We always review the underlying process before we build the automation.",
+    "formatting": [
+      "bold:Heading:"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Clear, direct, high-intent."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Focuses on ROI and \"leaks\"."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoids jargon."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Speaks directly to plumbing business owners about their specific pain points (emergency calls, competition speed)."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-26T00:41:19.158Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        1,
+        4,
+        4,
+        2
+      ],
+      "avgSentenceLength": 21.4,
+      "sentenceLengthRange": [
+        7,
+        65
+      ],
+      "totalWords": 235
+    },
+    "opener": {
+      "type": "situation",
+      "text": "Heading: What to Automate First for Plumbing Companies",
+      "wordCount": 8,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "Common Mistakes:\nAutomating a broken process: If your current way of handling leads or scheduling is a mess, automation will just make it a faster mess. We always review the underlying process before we build the automation.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "result",
+        "closer"
+      ],
+      "template": "opener | result | result | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 10,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 7,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 146,
+      "totalWords": 235,
+      "topWords": [
+        [
+          "scheduling",
+          4
+        ],
+        [
+          "losing",
+          4
+        ],
+        [
+          "if",
+          4
+        ],
+        [
+          "first",
+          3
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "when",
+          3
+        ],
+        [
+          "after",
+          3
+        ],
+        [
+          "jobs",
+          3
+        ],
+        [
+          "start",
+          3
+        ],
+        [
+          "with",
+          3
+        ],
+        [
+          "plumbing",
+          2
+        ],
+        [
+          "companies",
+          2
+        ],
+        [
+          "most",
+          2
+        ],
+        [
+          "system",
+          2
+        ],
+        [
+          "one",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.009
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
