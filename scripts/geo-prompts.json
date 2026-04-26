@@ -821,7 +821,19 @@
         "How should a dental practice text back missed patient calls automatically?",
         "Best way for a dental office to respond to missed calls when the front desk is tied up",
         "When is missed-call text-back enough for a dental practice before live AI phone answering?",
-        "Should a dental practice use missed-call text-back or voicemail after hours?"
+        "How can a dental office recover missed new-patient calls faster without forcing callers into voicemail?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-voicemail-for-dental-practices",
+      "path": "/missed-call-text-back-vs-voicemail-for-dental-practices",
+      "label": "Missed Call Text-Back vs Voicemail for Dental Practices",
+      "prompts": [
+        "Missed call text-back vs voicemail for dental practices",
+        "Should a dental practice use missed-call text-back or voicemail after hours?",
+        "Is missed-call text-back better than voicemail for a busy dental office?",
+        "When is voicemail still good enough for a dental practice versus SMS-first missed-call recovery?",
+        "How should a dental office decide between voicemail callbacks and missed-call text-back for new-patient calls?"
       ]
     },
     {

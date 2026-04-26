@@ -905,6 +905,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. Voicemail for Dental Practices",
+    description:
+      "Decision guide for dental practices choosing between SMS-first missed-call recovery and voicemail callbacks, with a practical view of new-patient leakage, callback lag, front-desk workload, and when live AI phone answering is the better next step.",
+    href: "/missed-call-text-back-vs-voicemail-for-dental-practices",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Dental Practices",
     description:
       "Live patient-call coverage for dental practices that need after-hours answering, routine booking-question handling, cleaner front-desk handoff, and fewer appointments lost to voicemail or delayed callbacks.",
