@@ -1186,6 +1186,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Utility Bill Collection Automation for Solar Companies",
+    description:
+      "A narrower solar workflow page focused on the biggest bottleneck in the sales cycle — automated utility bill requests, intelligent upload reminders, file verification, and instant design-team notification so your team can focus on the proposal.",
+    href: "/utility-bill-collection-automation-for-solar-companies",
+    category: "industries",
+  },
+  {
     title: "Estimate Follow-Up Automation for Electrical Contractors",
     description:
       "A narrower electrical workflow page focused on sent panel-upgrade, rewiring, troubleshooting, and service quotes that go cold — reminder timing, objection-aware messaging, estimator handoff, and open-estimate visibility before another job slips away.",

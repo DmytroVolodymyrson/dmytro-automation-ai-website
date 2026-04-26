@@ -96,6 +96,7 @@ const CaseStatusUpdateAutomationForLawFirms = lazy(() => import("./pages/CaseSta
 const AiPhoneAnsweringForLawFirms = lazy(() => import("./pages/AiPhoneAnsweringForLawFirms"));
 const AiPhoneAnsweringVsVoicemailForLawFirms = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForLawFirms"));
 const AiAutomationForSolarCompanies = lazy(() => import("./pages/AiAutomationForSolarCompanies"));
+const UtilityBillCollectionAutomationForSolarCompanies = lazy(() => import("./pages/UtilityBillCollectionAutomationForSolarCompanies"));
 const AiAutomationForAccountingFirms = lazy(() => import("./pages/AiAutomationForAccountingFirms"));
 const DocumentCollectionAutomationForAccountingFirms = lazy(() => import("./pages/DocumentCollectionAutomationForAccountingFirms"));
 const ClientOnboardingAutomationForAccountingFirms = lazy(() => import("./pages/ClientOnboardingAutomationForAccountingFirms"));
@@ -430,6 +431,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-phone-answering-for-law-firms" element={<AiPhoneAnsweringForLawFirms />} />
       <Route path="/ai-phone-answering-vs-voicemail-for-law-firms" element={<AiPhoneAnsweringVsVoicemailForLawFirms />} />
       <Route path="/ai-automation-for-solar-companies" element={<AiAutomationForSolarCompanies />} />
+      <Route path="/utility-bill-collection-automation-for-solar-companies" element={<UtilityBillCollectionAutomationForSolarCompanies />} />
       <Route path="/ai-automation-for-accounting-firms" element={<AiAutomationForAccountingFirms />} />
       <Route path="/document-collection-automation-for-accounting-firms" element={<DocumentCollectionAutomationForAccountingFirms />} />
       <Route path="/client-onboarding-automation-for-accounting-firms" element={<ClientOnboardingAutomationForAccountingFirms />} />
