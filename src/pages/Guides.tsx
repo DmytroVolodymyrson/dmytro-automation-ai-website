@@ -1304,6 +1304,13 @@ const guides: GuideItem[] = [
     href: "/missed-call-text-back-for-solar-companies",
     category: "industries",
   },
+  {
+    title: "Missed Call Text-Back vs. Voicemail for Solar Companies",
+    description:
+      "Practical solar buyer guide on whether missed-call text-back or voicemail is the better fallback after a missed call, when SMS-first recovery is enough, and when the phone problem needs live AI phone answering instead.",
+    href: "/missed-call-text-back-vs-voicemail-for-solar-companies",
+    category: "industries",
+  },
 
   {
     title: "Estimate Follow-Up Automation for Electrical Contractors",

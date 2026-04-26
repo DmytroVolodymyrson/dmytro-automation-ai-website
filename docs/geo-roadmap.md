@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `estimate-follow-up-automation-for-service-businesses` — a horizontal workflow parent for the already-live field-service estimate-recovery cluster across contractors, roofing, landscaping, painting, plumbing, electrical, and auto repair. It qualified because it stays narrower than the broader `/quote-follow-up-automation` page by focusing on site-visit context, estimator-to-office handoff, and open-estimate visibility. The next run should return to broad cross-cluster reconciliation instead of forcing another same-cluster parent by inertia.)
+Last updated: 2026-04-26 (shipped `missed-call-text-back-vs-voicemail-for-solar-companies` — the lighter fallback comparison page for the solar phone cluster. The solar cluster already had the base missed-call text-back page, AI phone answering, and AI phone vs voicemail. This fills the missing SMS-vs-voicemail layer. The sibling `/missed-call-text-back-vs-ai-phone-answering-for-solar-companies` is the next plausible candidate if the cluster warrants the lighter-vs-heavier SMS/AI comparison.)
 
 ## Live GEO Assets
 
@@ -123,6 +123,7 @@ Last updated: 2026-04-26 (shipped `estimate-follow-up-automation-for-service-bus
 | AI Phone Answering (Solar) | `/ai-phone-answering-for-solar-companies` | Vertical solution page | Live |
 | AI Phone vs Voicemail (Solar) | `/ai-phone-answering-vs-voicemail-for-solar-companies` | Vertical comparison page | Live |
 | Missed Call Text-Back (Solar) | `/missed-call-text-back-for-solar-companies` | Vertical workflow page | Live |
+| Text-Back vs Voicemail (Solar) | `/missed-call-text-back-vs-voicemail-for-solar-companies` | Vertical comparison page | Live |
 | AI for Accounting Firms | `/ai-automation-for-accounting-firms` | Vertical category page | Live |
 | Document Collection (Accounting) | `/document-collection-automation-for-accounting-firms` | Vertical workflow page | Live |
 | Client Onboarding (Accounting) | `/client-onboarding-automation-for-accounting-firms` | Vertical workflow page | Live |
@@ -251,9 +252,9 @@ Last updated: 2026-04-26 (shipped `estimate-follow-up-automation-for-service-bus
 
 ## Next Pages
 
-The new estimate-follow-up parent closes the biggest remaining horizontal gap in the field-service estimate cluster. Do not force another same-cluster page by inertia; the safest next move is broad cross-cluster reconciliation so the next ship is chosen from a genuinely distinct buyer-intent gap.
+The solar phone cluster now has the full lighter comparison layer (text-back vs voicemail). The sibling `/missed-call-text-back-vs-ai-phone-answering-for-solar-companies` (lighter-vs-heavier SMS/AI choice) is the most obvious remaining gap in that cluster. Beyond solar, the next run should do broad cross-cluster reconciliation so the next ship is chosen from a genuinely distinct buyer-intent gap.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | Broad cross-cluster reconciliation + proof-led maintenance | The obvious estimate-parent gap is now closed. The next run should re-check planning docs, tracked prompts, and live routes/pages to find the strongest remaining distinct child, parent, pricing, or setup-help page without shipping a duplicate. | Primary next step |
-| 2 | Another exact tracked/workflow child only if it survives full reconciliation | Accept a named next slug only after it is verified against planning docs, routes, sitemap, llm files, and `scripts/geo-prompts.json`. | Guardrail |
+| 1 | `/missed-call-text-back-vs-ai-phone-answering-for-solar-companies` | The solar cluster now has text-back, text-back-vs-voicemail, AI phone, and AI-phone-vs-voicemail. The missing sibling is the lighter-vs-heavier choice: should the solar company stick with SMS-first recovery or upgrade to live AI phone answering? | Next candidate if solar cluster is prioritized |
+| 2 | Broad cross-cluster reconciliation | Re-check planning docs, tracked prompts, and live routes/pages to find the strongest remaining distinct child, parent, pricing, or setup-help page across all clusters without forcing another solar page by inertia. | Primary guardrail |

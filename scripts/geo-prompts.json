@@ -3703,6 +3703,18 @@
         "When is SMS-first missed-call recovery enough for a solar company before live AI phone answering?",
         "Best missed-call text-back workflow for solar consultation calls"
       ]
+    },
+    {
+      "id": "missed-call-text-back-vs-voicemail-for-solar-companies",
+      "path": "/missed-call-text-back-vs-voicemail-for-solar-companies",
+      "label": "Missed Call Text-Back vs. Voicemail for Solar Companies",
+      "prompts": [
+        "Missed call text-back vs voicemail for solar companies",
+        "Should a solar company use missed-call text-back or keep voicemail?",
+        "Is voicemail good enough for missed solar consultation calls?",
+        "When should a solar company replace voicemail with missed-call text-back?",
+        "Best fallback for missed calls at a solar company voicemail or text-back?"
+      ]
     }
   ],
   "scoring": {
