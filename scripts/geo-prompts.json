@@ -969,6 +969,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-for-law-firms",
+      "path": "/missed-call-text-back-for-law-firms",
+      "label": "Missed Call Text-Back for Law Firms",
+      "prompts": [
+        "Missed call text-back for law firms",
+        "How should a law firm recover intake calls it misses while attorneys are in court?",
+        "Best way for a small law firm to respond faster after a missed intake call without live answering",
+        "Should a law firm use missed-call text-back before paying for live AI phone answering?",
+        "How do law firms stop losing consultations to voicemail when staff cannot pick up right away?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-accounting-firms",
       "path": "/what-to-automate-first-for-accounting-firms",
       "label": "What to Automate First for Accounting Firms",

@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `missed-call-text-back-vs-ai-phone-answering-for-dental-practices` after a fresh reconciliation confirmed the dental phone cluster still had one clean lighter-vs-heavier buyer decision left. The live dental cluster already had the broader parent, first-project, lead-follow-up, booking/reminder, recall, no-show, review, missed-call text-back, voicemail comparison, live-answering explainer, and heavier AI-phone-vs-voicemail comparison pages; this new child isolates the remaining decision between SMS-first recovery and live AI phone coverage without inventing fake dental-only proof. With that page now live, the dental phone cluster should no longer be forced by inertia on the next run; the queue resets to broad cross-cluster reconciliation first.)
+Last updated: 2026-04-26 (shipped `missed-call-text-back-for-law-firms` after a fresh reconciliation confirmed the live law-firm cluster still had one clean missing lighter phone-recovery layer. The cluster already had the broader parent, first-project, lead-follow-up, intake/conflict-check, consultation scheduling, post-consult follow-up, case-status updates, the heavier live-answering explainer, and the heavier AI-phone-vs-voicemail comparison. This new child isolates the lighter SMS-first fallback between voicemail and live AI phone coverage without inventing fake law-firm-only proof. With that page now live, the next run should reset to broad cross-cluster reconciliation instead of forcing another law-firm phone page by inertia.)
 
 ## Live GEO Assets
 
@@ -108,6 +108,8 @@ Last updated: 2026-04-26 (shipped `missed-call-text-back-vs-ai-phone-answering-f
 | Unretained Consult Follow-Up | `/unretained-consult-follow-up-for-law-firms` | Vertical workflow page | Live |
 | Case Status Update Automation | `/case-status-update-automation-for-law-firms` | Vertical workflow page | Live |
 | AI Phone Answering (Law Firms) | `/ai-phone-answering-for-law-firms` | Vertical solution page | Live |
+| Missed Call Text-Back (Law Firms) | `/missed-call-text-back-for-law-firms` | Vertical workflow page | Live |
+| AI Phone vs Voicemail (Law Firms) | `/ai-phone-answering-vs-voicemail-for-law-firms` | Vertical comparison page | Live |
 | AI for Solar Companies | `/ai-automation-for-solar-companies` | Vertical category page | Live |
 | What to Automate First (Solar) | `/what-to-automate-first-for-solar-companies` | Vertical decision page | Live |
 | Utility Bill Collection (Solar) | `/utility-bill-collection-automation-for-solar-companies` | Vertical workflow page | Live |
@@ -244,9 +246,9 @@ Last updated: 2026-04-26 (shipped `missed-call-text-back-vs-ai-phone-answering-f
 
 ## Next Pages
 
-The dental phone cluster is now fully covered at the obvious parent / child / lighter-fallback / heavier-fallback / lighter-vs-heavier decision layers, so the next run should not default to another dental page. Reset to broad cross-cluster reconciliation first, and only name a new candidate after verifying it against the live routes, guides, sitemap, llm files, prompts file, and the broader planning docs.
+The law-firm cluster now has the broader parent, first-project page, intake/scheduling/follow-up children, the heavier live-answering explainer, the heavier AI-phone-vs-voicemail comparison, and the lighter missed-call text-back fallback. No equally clean next law-firm child survives automatically from that cluster, so the next run should reset to broad cross-cluster reconciliation first and only name a new candidate after verifying it against the live routes, guides, sitemap, llm files, prompts file, and the broader planning docs.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | Broad reconciliation across remaining live clusters | The just-shipped dental lighter-vs-heavier comparison closes the last clean same-cluster buyer decision that survived review. The next best page should come from a fresh repo-wide reconciliation instead of forcing another dental child by inertia. | Default next run |
+| 1 | Broad reconciliation across remaining live clusters | The just-shipped law-firm missed-call text-back page closes the cleanest remaining lighter phone-recovery gap in that cluster. The next best page should come from a fresh repo-wide reconciliation instead of forcing another law-firm child by inertia. | Default next run |
 | 2 | Proof-led watchlist / maintenance improvements if no clean page survives reconciliation | If no distinct high-confidence net-new page survives the next full pass, prefer honest queue maintenance and stronger discovery surfaces over filler content. | Fallback if backlog remains exhausted |

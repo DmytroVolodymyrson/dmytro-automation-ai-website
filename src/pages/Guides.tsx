@@ -989,6 +989,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back for Law Firms",
+    description:
+      "SMS-first intake-call recovery for law firms that miss calls during court blocks or after hours and need a lighter fallback before heavier live AI phone answering.",
+    href: "/missed-call-text-back-for-law-firms",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering vs. Voicemail for Law Firms",
     description:
       "Decision guide for law firms choosing between live AI phone coverage and voicemail callbacks, with a practical view of intake urgency, receptionist workload, after-hours demand, and when a lighter recovery layer is enough.",
