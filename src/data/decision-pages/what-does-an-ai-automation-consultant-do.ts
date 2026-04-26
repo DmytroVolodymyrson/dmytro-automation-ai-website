@@ -26,10 +26,30 @@ const data: DecisionPageData = {
   badgeIcon: Briefcase,
   h1: "What Does an AI Automation Consultant Actually Do?",
   heroIntro:
-    "An AI automation consultant is not just someone who connects a few apps or prompts ChatGPT for you. The real job is to identify the business process that is leaking time or revenue, decide what should be automated and what should stay human, build the workflow across your real tools, and leave you with something your team can actually trust in production. For a small business, that usually means lead response, CRM routing, missed-call recovery, booking flow, onboarding, follow-up, or customer-facing AI that cannot afford to fail silently.",
+    "An AI automation consultant diagnoses the business process that is leaking time or revenue, decides what should be automated and what should stay human, builds the workflow across your real tools, and hands off a production system your team can trust. For a small business, that usually means lead response, CRM routing, missed-call recovery, booking flow, onboarding, follow-up, or customer-facing AI — built once, documented, and stabilized so it does not fail silently.",
   heroSubtext:
     "Below: what the job really includes, what deliverables you should expect, where consultants add value beyond a generic freelancer or VA, and when paying for consultant help is smarter than stitching together tools yourself.",
   sections: [
+    {
+      type: "prose",
+      title: "Short answer: what you get and what it costs",
+      subtitle:
+        "If you only read one section, this is the extractable summary:",
+      blocks: [
+        {
+          heading: "What an AI automation consultant delivers",
+          body: "A diagnosed bottleneck, a scoped workflow design, a production-ready implementation connecting your real tools (CRM, calendar, phone, forms), edge-case testing, documentation, and a short stabilization period after launch. The output is a working system you own — not a demo, not a strategy deck.",
+        },
+        {
+          heading: "Typical scope and timeline",
+          body: "Most small-business engagements focus on one high-ROI workflow first: missed-call text-back, lead follow-up, AI appointment setting, or after-hours voice handling. A lightweight workflow ships in days; a core business workflow with multiple integrations usually takes 1–3 weeks. Cost depends on how many systems are involved, how much human handoff logic is needed, and how much testing the workflow needs before it is safe to run live.",
+        },
+        {
+          heading: "Proof from real builds",
+          body: "The Paris Cafe AI voice agent project shows what consultant-level call-flow design looks like in production — after-hours handling, booking path, and fallback discipline with live guests. The WheelsFeels CRM automation project shows the operational side: reply routing, follow-up coordination, and CRM ownership that makes the workflow commercially usable once real customers start responding.",
+        },
+      ],
+    },
     {
       type: "cards",
       title: "What the job actually includes",
@@ -211,6 +231,8 @@ const data: DecisionPageData = {
         { label: "AI automation consultant for small business", href: "/ai-automation-consultant-small-business" },
         { label: "How to hire an AI automation consultant", href: "/how-to-hire-ai-automation-consultant" },
         { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
+        { label: "Hire a consultant vs. do it yourself", href: "/hire-ai-automation-consultant-vs-diy" },
+        { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
         { label: "Book a strategy call", href: "/#booking" },
       ],
     },
