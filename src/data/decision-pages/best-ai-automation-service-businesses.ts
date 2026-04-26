@@ -24,41 +24,93 @@ const data: DecisionPageData = {
   badgeIcon: Scale,
   h1: "Best AI Automations for Service Businesses",
   heroIntro:
-    "There are hundreds of AI tools marketed to service businesses. Most aren't worth your time. This is a decision guide — not a product list — that helps you identify which automations actually produce ROI for your type of business, in what order to implement them, and what to skip.",
+    "The best AI automation for a service business is speed-to-lead response. Responding to inquiries within 60 seconds via SMS or voice increases conversion rates by up to 50% by capturing the lead before they contact a competitor. This is a decision guide — not a product list — that helps you identify which automations actually produce ROI for your type of business.",
   heroSubtext:
-    "Below: the five automations with the highest proven ROI for service businesses, decision criteria for each, and the implementation sequence that produces results fastest.",
+    "Below: the five automations with the highest proven ROI for service businesses, a fit/not-fit evaluation framework, and real-world case studies from HVAC and e-commerce.",
   sections: [
     {
       type: "cards",
       title: "The five automations that actually move the needle",
       subtitle:
-        "Across HVAC, dental, legal, real estate, and other service businesses, these five automations consistently produce the highest ROI. They're ordered by typical impact:",
+        "Across HVAC, dental, legal, and real estate, these five automations consistently produce the highest ROI. They're ordered by typical impact:",
       items: [
         {
           icon: Phone,
           title: "1. Speed-to-lead response",
-          body: "Respond to every inbound lead within 60 seconds via SMS, email, or voice. This single automation typically increases conversion by 30–50% because most competitors respond in hours or not at all. Highest ROI automation for almost every service business.",
+          body: "Respond to every inbound lead within 60 seconds via SMS, email, or voice. This single automation typically increases conversion by 30–50% because most competitors respond in hours or not at all. See our full guide on lead follow-up.",
         },
         {
           icon: MessageSquare,
           title: "2. Multi-touch follow-up sequences",
-          body: "Automated SMS and email sequences that nurture leads who don't book on first contact. Most service businesses follow up once and give up. A 5–7 touch sequence over 14 days recovers 15–25% of leads that would otherwise be lost.",
+          body: "Automated SMS and email sequences that nurture leads who don't book on first contact. A 5–7 touch sequence over 14 days recovers 15–25% of leads that would otherwise be lost.",
         },
         {
           icon: CalendarCheck,
           title: "3. AI appointment booking",
-          body: "AI voice agent or chatbot that books appointments without human involvement. Eliminates phone tag, works 24/7, and removes the biggest friction point in the service business sales cycle: getting a time on the calendar.",
+          body: "AI voice agent or chatbot that books appointments without human involvement. Eliminates phone tag and works 24/7. See our AI appointment setter guide.",
         },
         {
           icon: MailCheck,
           title: "4. Database reactivation",
-          body: "Automated campaigns to re-engage past customers and cold leads sitting in your CRM. Most service businesses have hundreds or thousands of contacts they've never followed up with. A well-built reactivation campaign generates revenue from an asset you already own.",
+          body: "Automated campaigns to re-engage past customers and cold leads. A well-built reactivation campaign generates revenue from an asset you already own — your existing contact list.",
         },
         {
           icon: Star,
           title: "5. Review and reputation automation",
-          body: "Automated review requests after service completion. Consistent 5-star reviews on Google directly impact your local search ranking and lead flow. This is the lowest-effort, most compounding automation in the list.",
+          body: "Automated review requests after service completion. Consistent 5-star reviews on Google directly impact your local search ranking and recurring lead flow.",
         },
+      ],
+    },
+    {
+      type: "evaluation",
+      title: "Is your business a fit for AI automation?",
+      subtitle:
+        "Automation is an investment. It delivers the highest ROI when these conditions are met:",
+      columns: [
+        {
+          icon: CheckCircle2,
+          heading: "Best Fit If...",
+          variant: "green",
+          items: [
+            "You receive 20+ inbound inquiries per week",
+            "You have a repeatable sales or booking process",
+            "You lose leads because you can't answer the phone or respond fast enough",
+            "You have a database of 500+ past customers or old leads",
+          ],
+        },
+        {
+          icon: XCircle,
+          heading: "Wait/Skip If...",
+          variant: "neutral",
+          items: [
+            "You are a referral-only business with no cold inbound volume",
+            "Every project is a custom one-off with no repeatable steps",
+            "Your total lead volume is under 5 inquiries per month",
+            "You don't have a CRM or a centralized way to store customer data yet",
+          ],
+        },
+      ],
+    },
+    {
+      type: "case-studies",
+      title: "Proven results in service industries",
+      subtitle: "Real outcomes from businesses that implemented these automation frameworks:",
+      studies: [
+        {
+          industry: "Restaurant & Booking",
+          headline: "24/7 AI Voice Receptionist for a NYC Restaurant",
+          body: "Stopped losing after-hours reservations and freed up 15 hours of management time per week by automating phone FAQs and booking.",
+          link: "/case-studies/paris-cafe-voice-agent",
+        },
+        {
+          industry: "E-commerce & Lead Gen",
+          headline: "Full CRM & Lead Follow-Up for an Auto Parts Brand",
+          body: "Automated follow-up for 5,600+ leads, increasing conversion rate by 185% through systematic segmentation and instant response.",
+          link: "/case-studies/ecommerce-crm-automation",
+        },
+      ],
+      links: [
+        { label: "View all case studies", href: "/case-studies" },
       ],
     },
     {
