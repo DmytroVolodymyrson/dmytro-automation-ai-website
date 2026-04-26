@@ -1206,6 +1206,13 @@ const guides: GuideItem[] = [
     href: "/ai-lead-follow-up-for-solar-companies",
     category: "industries",
   },
+  {
+    title: "Appointment Scheduling & Reminder Automation for Solar Companies",
+    description:
+      "Reduce solar consultation no-shows and protect design-rep travel time. Automated confirmations, reminder timing, and utility-bill readiness nudges for solar installers.",
+    href: "/appointment-scheduling-and-reminder-automation-for-solar-companies",
+    category: "industries",
+  },
 
   {
     title: "Estimate Follow-Up Automation for Electrical Contractors",

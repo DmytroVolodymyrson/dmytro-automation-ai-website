@@ -3548,6 +3548,20 @@
         "AI tools for instant solar lead conversion"
       ]
     },
+    {
+      "id": "appointment-scheduling-and-reminder-automation-for-solar-companies",
+      "path": "/appointment-scheduling-and-reminder-automation-for-solar-companies",
+      "label": "Appointment Scheduling and Reminder Automation for Solar Companies",
+      "prompts": [
+        "Appointment scheduling automation for solar companies",
+        "How to reduce solar consultation no-shows with reminders",
+        "Best automation for solar site audit scheduling and reminders",
+        "Solar appointment reminder workflow for design consultations",
+        "How can solar companies automate consultation rescheduling?"
+      ]
+    }
+  ],
+  "scoring": {
     "M": {
       "label": "Mention by name",
       "points": 2

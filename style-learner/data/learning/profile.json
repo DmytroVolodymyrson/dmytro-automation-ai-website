@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-26T01:02:31.249Z",
-  "postCount": 341,
+  "updatedAt": "2026-04-26T03:01:44.254Z",
+  "postCount": 342,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,7 +15,7 @@
       "max": 11,
       "p25": 4,
       "p75": 4,
-      "samples": 341
+      "samples": 342
     },
     "sentenceLength": {
       "mean": 22.8,
@@ -24,16 +24,16 @@
       "max": 105,
       "p25": 18.8,
       "p75": 26.9,
-      "samples": 341
+      "samples": 342
     },
     "totalWords": {
-      "mean": 324.1,
-      "median": 326,
+      "mean": 324.2,
+      "median": 326.5,
       "min": 17,
       "max": 1155,
       "p25": 256,
       "p75": 367,
-      "samples": 341
+      "samples": 342
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -70,7 +70,7 @@
       "single | single | long | single | short | short": 2,
       "single | single | long | short | long | single": 1,
       "long | long | long | long": 12,
-      "long | long | single | long": 97,
+      "long | long | single | long": 98,
       "single | long | long": 1,
       "long | short | long | long": 11,
       "long | single | long | long": 19,
@@ -99,7 +99,7 @@
       "opener": 4,
       "opener | result | context | product-pitch | product-pitch | product-pitch | context | closer": 1,
       "opener | context | context | context | context | context | context | closer": 4,
-      "opener | product-pitch | result | closer": 1,
+      "opener | product-pitch | result | closer": 2,
       "opener | context | closer": 1,
       "opener | product-pitch | context | product-pitch | result | result | product-pitch | product-pitch | closer": 1,
       "opener | product-pitch | result | result | context | product-pitch | context | context | product-pitch | product-pitch | closer": 1,
@@ -158,7 +158,7 @@
         ]
       },
       "standard-opener": {
-        "count": 229,
+        "count": 230,
         "examples": [
           "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an autom",
           "Section heading: Real Results for Real Businesses\nSubheading: Here's what happen",
@@ -193,7 +193,7 @@
         ]
       },
       "question": {
-        "count": 286,
+        "count": 287,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -232,7 +232,7 @@
     "topWords": [
       [
         "-",
-        1937
+        1941
       ],
       [
         "what",
@@ -240,7 +240,7 @@
       ],
       [
         "automation",
-        977
+        982
       ],
       [
         "ai",
@@ -248,11 +248,11 @@
       ],
       [
         "workflow",
-        713
+        717
       ],
       [
         "page",
-        685
+        692
       ],
       [
         "it",
@@ -307,12 +307,12 @@
         314
       ],
       [
-        "voicemail",
+        "from",
         307
       ],
       [
-        "from",
-        302
+        "voicemail",
+        307
       ],
       [
         "text-back",
@@ -331,12 +331,12 @@
         248
       ],
       [
-        "not",
-        238
+        "lead",
+        240
       ],
       [
-        "lead",
-        236
+        "not",
+        238
       ],
       [
         "that",

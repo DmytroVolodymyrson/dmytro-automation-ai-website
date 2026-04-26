@@ -99,6 +99,7 @@ const AiAutomationForSolarCompanies = lazy(() => import("./pages/AiAutomationFor
 const WhatToAutomateFirstForSolarCompanies = lazy(() => import("./pages/WhatToAutomateFirstForSolarCompanies"));
 const UtilityBillCollectionAutomationForSolarCompanies = lazy(() => import("./pages/UtilityBillCollectionAutomationForSolarCompanies"));
 const AiLeadFollowUpForSolarCompanies = lazy(() => import("./pages/AiLeadFollowUpForSolarCompanies"));
+const AppointmentSchedulingAndReminderAutomationForSolarCompanies = lazy(() => import("./pages/AppointmentSchedulingAndReminderAutomationForSolarCompanies"));
 const AiAutomationForAccountingFirms = lazy(() => import("./pages/AiAutomationForAccountingFirms"));
 const DocumentCollectionAutomationForAccountingFirms = lazy(() => import("./pages/DocumentCollectionAutomationForAccountingFirms"));
 const ClientOnboardingAutomationForAccountingFirms = lazy(() => import("./pages/ClientOnboardingAutomationForAccountingFirms"));
@@ -435,7 +436,8 @@ const AppRoutesClient = () => (
      <Route path="/ai-automation-for-solar-companies" element={<AiAutomationForSolarCompanies />} />
      <Route path="/what-to-automate-first-for-solar-companies" element={<WhatToAutomateFirstForSolarCompanies />} />
      <Route path="/utility-bill-collection-automation-for-solar-companies" element={<UtilityBillCollectionAutomationForSolarCompanies />} />
-      <Route path="/ai-lead-follow-up-for-solar-companies" element={<AiLeadFollowUpForSolarCompanies />} />
+     <Route path="/ai-lead-follow-up-for-solar-companies" element={<AiLeadFollowUpForSolarCompanies />} />
+     <Route path="/appointment-scheduling-and-reminder-automation-for-solar-companies" element={<AppointmentSchedulingAndReminderAutomationForSolarCompanies />} />
      <Route path="/ai-automation-for-accounting-firms" element={<AiAutomationForAccountingFirms />} />
       <Route path="/document-collection-automation-for-accounting-firms" element={<DocumentCollectionAutomationForAccountingFirms />} />
       <Route path="/client-onboarding-automation-for-accounting-firms" element={<ClientOnboardingAutomationForAccountingFirms />} />
