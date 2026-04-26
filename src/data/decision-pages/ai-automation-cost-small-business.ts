@@ -88,6 +88,36 @@ const data: DecisionPageData = {
       ],
     },
     {
+      type: "case-studies",
+      title: "What those budgets usually buy first",
+      subtitle:
+        "These proof assets help you map price ranges to the kind of problem you are actually solving, instead of buying a generic 'AI package':",
+      studies: [
+        {
+          industry: "Phone coverage & booking",
+          headline: "Paris Café shows when a voice workflow justifies the bigger budget band",
+          body: "Use this as the reference point when you are pricing after-hours call coverage, FAQ handling, or AI-assisted booking. The lesson is not 'buy a voice agent first.' It is that the higher-ticket voice workflow makes sense only when missed calls and booking friction are already costing real revenue.",
+          link: "/case-studies/paris-cafe-voice-agent",
+        },
+        {
+          industry: "CRM cleanup & follow-up",
+          headline: "The e-commerce CRM build is the best proof for the upper end of follow-up-system pricing",
+          body: "This is the closest site proof for owners budgeting multi-step segmentation, routing, reactivation, and CRM cleanup work. It supports why a lead-follow-up or full-system quote costs more than a single trigger: the value comes from the operating system around the messages, not the message alone.",
+          link: "/case-studies/ecommerce-crm-automation",
+        },
+        {
+          industry: "Qualification & routing",
+          headline: "Instagram lead generation is the reference point for a focused first-phase pipeline build",
+          body: "If your real question is whether to spend first on faster response, qualification, or pipeline routing, start here. It is a better model for a contained first build than jumping straight to a full CRM overhaul before the basic intake path is working.",
+          link: "/case-studies/instagram-lead-generation",
+        },
+      ],
+      links: [
+        { label: "View all case studies", href: "/case-studies" },
+        { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
+      ],
+    },
+    {
       type: "evaluation",
       title: "Is your budget realistic?",
       subtitle:
@@ -213,9 +243,12 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
     { label: "AI automation ROI guide", href: "/ai-automation-roi-guide" },
+    { label: "Hire a consultant or do it yourself", href: "/hire-ai-automation-consultant-vs-diy" },
+    { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
+    { label: "AI lead follow-up cost", href: "/ai-lead-follow-up-cost-small-business" },
     { label: "Build vs. buy AI automation", href: "/build-vs-buy-ai-automation" },
+    { label: "Case studies", href: "/case-studies" },
     { label: "Implementation roadmap", href: "/ai-automation-implementation-roadmap" },
-    { label: "All guides", href: "/guides" },
   ],
 };
 

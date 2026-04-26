@@ -111,6 +111,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "View all case studies", href: "/case-studies" },
+        { label: "AI automation cost guide", href: "/ai-automation-cost-small-business" },
       ],
     },
     {

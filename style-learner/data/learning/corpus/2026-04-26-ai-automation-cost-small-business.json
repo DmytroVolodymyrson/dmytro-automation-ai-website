@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-26-ai-automation-cost-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-26",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "### New proof-aware budget-routing section\nHeading: What those budgets usually buy first\nSubhead: These proof assets help you map price ranges to the kind of problem you are actually solving, instead of buying a generic “AI package”.\n\nItems:\n- Paris Café shows when a voice workflow justifies the bigger budget band. Use it as the reference point for after-hours call coverage, FAQ handling, or AI-assisted booking. The point is not “buy a voice agent first.” The point is that the higher-ticket voice workflow only makes sense when missed calls and booking friction are already costing real revenue.\n- The e-commerce CRM build is the best proof for the upper end of follow-up-system pricing. It is the closest site proof for multi-step segmentation, routing, reactivation, and CRM cleanup work. It explains why a lead-follow-up or full-system quote costs more than a single trigger: the value comes from the operating system around the messages, not the message alone.\n- Instagram lead generation is the reference point for a focused first-phase pipeline build. If the real question is whether to spend first on faster response, qualification, or pipeline routing, this is the better model for a contained first build than jumping straight to a full CRM overhaul before the basic intake path is working.\n\n### Strengthened adjacent links\nAdded related links to:\n- Hire a consultant or do it yourself\n- Best AI automations for service businesses\n- AI lead follow-up cost\n- Case studies\n\n### Supporting contextual link from adjacent guide\nAdded an AI automation cost guide link inside the case-study/proof section on /best-ai-automation-for-service-businesses so readers comparing “what should I automate first?” can move directly into budgeting.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Keeps the tone concrete and buyer-oriented instead of generic “AI pricing” copy."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses real on-site proof assets to explain why different budget bands exist, without inventing new metrics or pretending every workflow has the same complexity."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Reinforces Dmytro’s positioning as someone who helps owners choose the right first build, not just sell a bigger package."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Internal linking now connects the cost page more directly to adjacent hiring, ROI, follow-up, and proof pages."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-26T22:31:09.022Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        1,
+        8,
+        1,
+        1
+      ],
+      "avgSentenceLength": 24.7,
+      "sentenceLengthRange": [
+        14,
+        41
+      ],
+      "totalWords": 272
+    },
+    "opener": {
+      "type": "general",
+      "text": "### New proof-aware budget-routing section\nHeading: What those budgets usually buy first\nSubhead: These proof assets help you map price ranges to the kind of problem you are actually solving, instead of buying a generic “AI package”.",
+      "wordCount": 36,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Supporting contextual link from adjacent guide\nAdded an AI automation cost guide link inside the case-study/proof section on /best-ai-automation-for-service-businesses so readers comparing “what should I automate first?” can move directly into budgeting.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 10,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 5,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 174,
+      "totalWords": 272,
+      "topWords": [
+        [
+          "-",
+          7
+        ],
+        [
+          "first",
+          5
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "point",
+          4
+        ],
+        [
+          "proof",
+          3
+        ],
+        [
+          "voice",
+          3
+        ],
+        [
+          "crm",
+          3
+        ],
+        [
+          "build",
+          3
+        ],
+        [
+          "section",
+          2
+        ],
+        [
+          "what",
+          2
+        ],
+        [
+          "buy",
+          2
+        ],
+        [
+          "when",
+          2
+        ],
+        [
+          "workflow",
+          2
+        ],
+        [
+          "reference",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
