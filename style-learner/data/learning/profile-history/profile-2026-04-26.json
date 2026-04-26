@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-26T16:44:11.106Z",
-  "postCount": 344,
+  "updatedAt": "2026-04-26T17:03:01.911Z",
+  "postCount": 345,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,7 +15,7 @@
       "max": 11,
       "p25": 4,
       "p75": 4,
-      "samples": 344
+      "samples": 345
     },
     "sentenceLength": {
       "mean": 22.8,
@@ -24,16 +24,16 @@
       "max": 105,
       "p25": 18.8,
       "p75": 26.9,
-      "samples": 344
+      "samples": 345
     },
     "totalWords": {
-      "mean": 324,
-      "median": 326.5,
+      "mean": 324.1,
+      "median": 327,
       "min": 17,
       "max": 1155,
       "p25": 256,
       "p75": 366,
-      "samples": 344
+      "samples": 345
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -59,7 +59,7 @@
       "long | single | single | short": 17,
       "long | single | short | long": 7,
       "long | single | single | long": 33,
-      "long | short | single | long": 71,
+      "long | short | single | long": 72,
       "long | single | single | long | short | single | single | single": 1,
       "long | short | single | single": 6,
       "long | long | single | short": 3,
@@ -110,7 +110,7 @@
       "opener | product-pitch | product-pitch | result | context | product-pitch | context | product-pitch | product-pitch | closer": 1,
       "opener | context | context | context | result | product-pitch | context | context | closer": 1,
       "opener | context | product-pitch | closer": 24,
-      "opener | context | context | closer": 149,
+      "opener | context | context | closer": 150,
       "opener | product-pitch | context | closer": 22,
       "opener | context | product-pitch | context | product-pitch | result | context | closer": 1,
       "opener | product-pitch | product-pitch | closer": 10,
@@ -143,7 +143,7 @@
   "openers": {
     "patterns": {
       "situation": {
-        "count": 79,
+        "count": 80,
         "examples": [
           "Badge: The Person Behind the Automation",
           "Section heading: Common Questions\nSubheading: Straight answers about working wit",
@@ -194,7 +194,7 @@
         ]
       },
       "question": {
-        "count": 288,
+        "count": 289,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -233,11 +233,11 @@
     "topWords": [
       [
         "-",
-        1953
+        1959
       ],
       [
         "what",
-        1144
+        1149
       ],
       [
         "automation",
@@ -245,7 +245,7 @@
       ],
       [
         "ai",
-        757
+        765
       ],
       [
         "workflow",
@@ -257,23 +257,23 @@
       ],
       [
         "it",
-        673
+        678
       ],
       [
         "how",
         644
       ],
       [
+        "phone",
+        572
+      ],
+      [
         "this",
         565
       ],
       [
-        "phone",
-        564
-      ],
-      [
         "when",
-        544
+        551
       ],
       [
         "first",
@@ -285,23 +285,27 @@
       ],
       [
         "whether",
-        463
+        468
+      ],
+      [
+        "live",
+        433
       ],
       [
         "your",
         431
       ],
       [
-        "live",
-        429
-      ],
-      [
         "call",
-        354
+        359
       ],
       [
         "answering",
-        352
+        358
+      ],
+      [
+        "voicemail",
+        316
       ],
       [
         "should",
@@ -309,10 +313,6 @@
       ],
       [
         "from",
-        307
-      ],
-      [
-        "voicemail",
         307
       ],
       [
@@ -348,8 +348,8 @@
         160
       ],
       [
-        "setup",
-        154
+        "company",
+        155
       ]
     ],
     "casualMarkerRate": 0,

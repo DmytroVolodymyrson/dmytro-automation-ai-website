@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `ai-phone-answering-for-solar-companies` as the next high-intent solar child page. The live solar cluster already exposed phone coverage as a distinct workflow family, and this page cleanly isolates the heavier live-answering layer from broader solar strategy, lead follow-up, utility-bill collection, and booked-consult scheduling. Next run should look at the next distinct solar comparison or broaden to another proof-backed vertical child if a cleaner gap survives reconciliation.)
+Last updated: 2026-04-26 (shipped `ai-phone-answering-vs-voicemail-for-solar-companies` as the next distinct solar buyer-decision page. The live solar cluster already had the broader parent, first-project, utility-bill, lead-follow-up, booked-consult, and live-answering pages; this new page cleanly isolates the heavier live-answering-vs-voicemail choice without inventing fake solar-only proof. Next run should reset to broad reconciliation first rather than forcing another same-cluster solar child by inertia.)
 
 ## Live GEO Assets
 
@@ -109,7 +109,9 @@ Last updated: 2026-04-26 (shipped `ai-phone-answering-for-solar-companies` as th
 | What to Automate First (Solar) | `/what-to-automate-first-for-solar-companies` | Vertical decision page | Live |
 | Utility Bill Collection (Solar) | `/utility-bill-collection-automation-for-solar-companies` | Vertical workflow page | Live |
 | AI Lead Follow-Up (Solar) | `/ai-lead-follow-up-for-solar-companies` | Vertical workflow page | Live |
+| Appointment Scheduling (Solar) | `/appointment-scheduling-and-reminder-automation-for-solar-companies` | Vertical workflow page | Live |
 | AI Phone Answering (Solar) | `/ai-phone-answering-for-solar-companies` | Vertical solution page | Live |
+| AI Phone vs Voicemail (Solar) | `/ai-phone-answering-vs-voicemail-for-solar-companies` | Vertical comparison page | Live |
 | AI for Accounting Firms | `/ai-automation-for-accounting-firms` | Vertical category page | Live |
 | Document Collection (Accounting) | `/document-collection-automation-for-accounting-firms` | Vertical workflow page | Live |
 | Client Onboarding (Accounting) | `/client-onboarding-automation-for-accounting-firms` | Vertical workflow page | Live |
@@ -235,3 +237,12 @@ Last updated: 2026-04-26 (shipped `ai-phone-answering-for-solar-companies` as th
 | Paris Cafe Case Study | `/case-studies/paris-cafe-voice-agent` | Case study | Live |
 | Instagram Lead Gen Case Study | `/case-studies/instagram-lead-generation` | Case study | Live |
 | E-commerce CRM Case Study | `/case-studies/ecommerce-crm-automation` | Case study | Live |
+
+## Next Pages
+
+Broad reconciliation first. The solar cluster now has the broad parent, first-project page, utility-bill collection, lead follow-up, booked-consult scheduling, live AI phone answering, and the heavier voicemail comparison. Do not force another same-cluster solar child unless a fresh doc + live-route + prompt reconciliation reveals one exact surviving buyer query.
+
+| Priority | Candidate | Why it is next | Status |
+|---|---|---|---|
+| 1 | Broad reconciliation across remaining live clusters | The roadmap and prompts still drift from the real route set in several places, so the safest next ship should come from a fresh cluster-by-cluster review rather than stale queue inertia. | Next run default |
+| 2 | `/missed-call-text-back-for-solar-companies` | Possible future solar fallback only if a fresh reconciliation confirms a real lighter phone-recovery gap that stays distinct from the newly shipped voicemail comparison and the existing live-answering page. | Watchlist only |

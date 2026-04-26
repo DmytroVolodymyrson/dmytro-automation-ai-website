@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 292 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 298 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -117,7 +117,12 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Automation for Restaurants** — `/ai-automation-for-restaurants`
 - **AI Automation for Roofing Companies** — `/ai-automation-for-roofing-companies`
 - **AI Automation for Solar Companies** — `/ai-automation-for-solar-companies`
+- **What to Automate First for Solar Companies** — `/what-to-automate-first-for-solar-companies`
+- **Utility Bill Collection Automation for Solar Companies** — `/utility-bill-collection-automation-for-solar-companies`
+- **AI Lead Follow-Up for Solar Companies** — `/ai-lead-follow-up-for-solar-companies`
+- **Appointment Scheduling and Reminder Automation for Solar Companies** — `/appointment-scheduling-and-reminder-automation-for-solar-companies`
 - **AI Phone Answering for Solar Companies** — `/ai-phone-answering-for-solar-companies`
+- **AI Phone Answering vs. Voicemail for Solar Companies** — `/ai-phone-answering-vs-voicemail-for-solar-companies`
 - **AI Lead Follow-Up for Insurance Agencies** — `/ai-lead-follow-up-for-insurance-agencies`
 - **After-Hours Inquiry Handling for Insurance Agencies** — `/after-hours-inquiry-handling-for-insurance-agencies`
 - **Referral Request Automation for Insurance Agencies** — `/referral-request-automation-for-insurance-agencies`

@@ -3568,8 +3568,20 @@
         "AI phone answering for solar companies",
         "Should a solar company use AI phone answering for inbound calls?",
         "Best way for a solar company to answer qualification calls after hours",
-        "When should a solar installer use live AI phone answering instead of voicemail or delayed callback?",
+        "What should live AI phone answering actually handle for a solar company before a human takes over?",
         "How can solar companies automate inbound phone qualification without hiring another office rep?"
+      ]
+    },
+    {
+      "id": "ai-phone-answering-vs-voicemail-for-solar-companies",
+      "path": "/ai-phone-answering-vs-voicemail-for-solar-companies",
+      "label": "AI Phone Answering vs. Voicemail for Solar Companies",
+      "prompts": [
+        "AI phone answering vs voicemail for solar companies",
+        "Should a solar company use live AI phone answering or voicemail?",
+        "When is live AI phone answering better than voicemail for a solar company?",
+        "Is voicemail enough for solar consultation and qualification calls after hours?",
+        "What is better for a solar company voicemail or live AI phone answering?"
       ]
     }
   ],

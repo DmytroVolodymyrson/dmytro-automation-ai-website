@@ -1220,6 +1220,13 @@ const guides: GuideItem[] = [
     href: "/ai-phone-answering-for-solar-companies",
     category: "industries",
   },
+  {
+    title: "AI Phone Answering vs. Voicemail for Solar Companies",
+    description:
+      "Practical solar buyer guide on when live AI phone answering beats voicemail, when delayed callbacks are still acceptable, and where a lighter fallback is enough.",
+    href: "/ai-phone-answering-vs-voicemail-for-solar-companies",
+    category: "industries",
+  },
 
   {
     title: "Estimate Follow-Up Automation for Electrical Contractors",
