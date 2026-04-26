@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-26T19:11:52.880Z",
-  "postCount": 351,
+  "updatedAt": "2026-04-26T19:54:46.193Z",
+  "postCount": 352,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,7 +15,7 @@
       "max": 11,
       "p25": 4,
       "p75": 4,
-      "samples": 351
+      "samples": 352
     },
     "sentenceLength": {
       "mean": 22.9,
@@ -24,16 +24,16 @@
       "max": 105,
       "p25": 18.8,
       "p75": 27,
-      "samples": 351
+      "samples": 352
     },
     "totalWords": {
-      "mean": 324.6,
+      "mean": 323.9,
       "median": 328,
       "min": 17,
       "max": 1155,
       "p25": 256,
       "p75": 367,
-      "samples": 351
+      "samples": 352
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -88,6 +88,7 @@
       "long | single | short | single | single | long | single | long": 1,
       "short | single | short | short | short": 1,
       "single | long | long | short": 2,
+      "long | long": 1,
       "short | short | single | single | long | long": 1,
       "single | long | single | long": 1
     },
@@ -138,13 +139,14 @@
       "opener | product-pitch | context | context | context | context | context | closer": 1,
       "opener | context | context | product-pitch | product-pitch | context | result | closer": 1,
       "opener | product-pitch | context | context | product-pitch | product-pitch | context | context | closer": 1,
-      "opener | context | result | context | result | context | context | context | closer": 1
+      "opener | context | result | context | result | context | context | context | closer": 1,
+      "opener | closer": 1
     }
   },
   "openers": {
     "patterns": {
       "situation": {
-        "count": 83,
+        "count": 84,
         "examples": [
           "Badge: The Person Behind the Automation",
           "Section heading: Common Questions\nSubheading: Straight answers about working wit",
@@ -187,7 +189,7 @@
   "closers": {
     "patterns": {
       "reflection": {
-        "count": 51,
+        "count": 52,
         "examples": [
           "Stats:\n- 7+ Years building software\n- 50+ Automations built\n- $100K+ Saved for c",
           "Social proof pills:\n- 10+ hrs/week saved\n- 300%+ ROI\n- 24/7 automation",
@@ -246,7 +248,7 @@
       ],
       [
         "ai",
-        787
+        791
       ],
       [
         "workflow",
@@ -266,7 +268,7 @@
       ],
       [
         "phone",
-        598
+        602
       ],
       [
         "this",
@@ -278,7 +280,7 @@
       ],
       [
         "whether",
-        482
+        484
       ],
       [
         "first",
@@ -290,7 +292,7 @@
       ],
       [
         "live",
-        457
+        459
       ],
       [
         "your",
@@ -302,11 +304,11 @@
       ],
       [
         "answering",
-        367
+        369
       ],
       [
         "voicemail",
-        331
+        335
       ],
       [
         "should",

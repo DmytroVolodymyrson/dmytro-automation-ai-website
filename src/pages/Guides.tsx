@@ -1058,6 +1058,13 @@ const guides: GuideItem[] = [
     href: "/ai-phone-answering-for-accounting-firms",
     category: "industries",
   },
+  {
+    title: "AI Phone Answering vs. Voicemail for Accounting Firms",
+    description:
+      "Buyer guide for accounting firms deciding whether live AI phone coverage is worth replacing voicemail callbacks, especially during busy-season demand spikes, professional intake overload, and cases where a lighter callback layer is still enough.",
+    href: "/ai-phone-answering-vs-voicemail-for-accounting-firms",
+    category: "comparisons",
+  },
 
   {
     title: "AI Automation for Plumbing Companies",

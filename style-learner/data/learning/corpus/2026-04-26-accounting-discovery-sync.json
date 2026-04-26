@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-26-accounting-discovery-sync",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-26",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "### Guides Hub\nTitle: AI Phone Answering vs. Voicemail for Accounting Firms\nDescription: Buyer guide for accounting firms deciding whether live AI phone coverage is worth replacing voicemail callbacks, especially during busy-season demand spikes, professional intake overload, and cases where a lighter callback layer is still enough.\nURL: /ai-phone-answering-vs-voicemail-for-accounting-firms\nCategory: comparisons\n\n### llm.txt / llms.txt\nAI Phone Answering vs. Voicemail for Accounting Firms: Buyer guide for accounting firms deciding whether live AI phone coverage is worth replacing voicemail callbacks, especially during busy-season demand spikes, professional intake overload, and cases where a lighter callback layer is still enough. Learn more: https://www.dmytroai.com/ai-phone-answering-vs-voicemail-for-accounting-firms",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This is a discovery-surface sync, not a net-new page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Copy reinforces the existing page position: live AI phone coverage vs voicemail callbacks for accounting firms."
+    },
+    {
+      "type": "tone_shift",
+      "description": "It emphasizes busy-season demand protection, professional intake, and the boundary where a lighter callback layer is still enough."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and buyer-decision focused, with no invented new proof or new page claim."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-26T19:54:46.140Z",
+    "structure": {
+      "paragraphCount": 2,
+      "sentencesPerParagraph": [
+        3,
+        3
+      ],
+      "avgSentenceLength": 16.2,
+      "sentenceLengthRange": [
+        3,
+        39
+      ],
+      "totalWords": 97
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Guides Hub\nTitle: AI Phone Answering vs.",
+      "wordCount": 7,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### llm.txt / llms.txt\nAI Phone Answering vs. Voicemail for Accounting Firms: Buyer guide for accounting firms deciding whether live AI phone coverage is worth replacing voicemail callbacks, especially during busy-season demand spikes, professional intake overload, and cases where a lighter callback layer is still enough. Learn more: https://www.dmytroai.com/ai-phone-answering-vs-voicemail-for-accounting-firms",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "closer"
+      ],
+      "template": "opener | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 6,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 7,
+      "commasPerSentence": 1.2
+    },
+    "vocabulary": {
+      "distinctWords": 48,
+      "totalWords": 97,
+      "topWords": [
+        [
+          "ai",
+          4
+        ],
+        [
+          "phone",
+          4
+        ],
+        [
+          "voicemail",
+          4
+        ],
+        [
+          "accounting",
+          4
+        ],
+        [
+          "firms",
+          4
+        ],
+        [
+          "answering",
+          2
+        ],
+        [
+          "vs",
+          2
+        ],
+        [
+          "buyer",
+          2
+        ],
+        [
+          "guide",
+          2
+        ],
+        [
+          "deciding",
+          2
+        ],
+        [
+          "whether",
+          2
+        ],
+        [
+          "live",
+          2
+        ],
+        [
+          "coverage",
+          2
+        ],
+        [
+          "worth",
+          2
+        ],
+        [
+          "replacing",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
