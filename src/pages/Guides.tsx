@@ -582,6 +582,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Review Request Automation for Service Businesses",
+    description:
+      "Post-service reputation follow-up that works. Time the ask after the job lands, route unhappy replies before a public review push, and turn completed work into consistent local-trust signals.",
+    href: "/review-request-automation-for-service-businesses",
+    category: "workflows",
+  },
+  {
     title: "Contact Form Autoresponder vs. Full Lead Follow-Up",
     description:
       "Decision guide for owners asking whether a basic form autoresponder is still enough or whether website leads now need a real workflow with qualification, routing, and short follow-up.",

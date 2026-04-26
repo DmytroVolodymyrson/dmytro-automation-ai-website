@@ -207,6 +207,7 @@ import AiVoiceAgentCostSmallBusiness from "./pages/AiVoiceAgentCostSmallBusiness
 import AiVoiceAgentRoiForLeadFollowUp from "./pages/AiVoiceAgentRoiForLeadFollowUp";
 import InstantLeadResponse from "./pages/InstantLeadResponse";
 import ContactFormLeadFollowUpAutomation from "./pages/ContactFormLeadFollowUpAutomation";
+import ReviewRequestAutomationForServiceBusinesses from "./pages/ReviewRequestAutomationForServiceBusinesses";
 import ContactFormAutoresponderVsFullLeadFollowUp from "./pages/ContactFormAutoresponderVsFullLeadFollowUp";
 import QuoteFollowUp from "./pages/QuoteFollowUp";
 import ClientReactivation from "./pages/ClientReactivation";
@@ -618,6 +619,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-voice-agent-roi-for-lead-follow-up", element: <AiVoiceAgentRoiForLeadFollowUp /> },
   { path: "/instant-lead-response-automation", element: <InstantLeadResponse /> },
   { path: "/contact-form-lead-follow-up-automation", element: <ContactFormLeadFollowUpAutomation /> },
+  { path: "/review-request-automation-for-service-businesses", element: <ReviewRequestAutomationForServiceBusinesses /> },
   {
     path: "/contact-form-autoresponder-vs-full-lead-follow-up",
     element: <ContactFormAutoresponderVsFullLeadFollowUp />,

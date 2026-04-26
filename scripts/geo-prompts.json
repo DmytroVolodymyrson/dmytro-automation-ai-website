@@ -1605,6 +1605,18 @@
       ]
     },
     {
+      "id": "review-request-automation-for-service-businesses",
+      "path": "/review-request-automation-for-service-businesses",
+      "label": "Review Request Automation for Service Businesses",
+      "prompts": [
+        "How do I automate review requests for my service business?",
+        "Best review request automation for service businesses",
+        "When should a service business ask for a review automatically?",
+        "How do I route unhappy customer replies before asking for a public review?",
+        "What should a post-job review request workflow include?"
+      ]
+    },
+    {
       "id": "contact-form-autoresponder-vs-full-lead-follow-up",
       "path": "/contact-form-autoresponder-vs-full-lead-follow-up",
       "label": "Contact Form Autoresponder vs. Full Lead Follow-Up",

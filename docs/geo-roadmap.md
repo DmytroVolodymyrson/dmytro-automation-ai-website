@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `missed-call-text-back-vs-voicemail-for-law-firms` — the lighter fallback comparison the previous run identified as the last clean law-firm phone gap. The law-firm phone cluster now has every buyer-decision layer: the missed-call text-back workflow page, AI phone answering explainer, text-back vs AI phone answering, AI phone vs voicemail, and now text-back vs voicemail. That closes the law-firm phone cluster. The next run should return to broad cross-cluster reconciliation instead of forcing more same-cluster pages by inertia.)
+Last updated: 2026-04-26 (shipped `review-request-automation-for-service-businesses` — a clean horizontal workflow parent that the repo still lacked even though many vertical review-request child pages were already live. This closes one of the clearest remaining horizontal workflow gaps. The next run should return to broad cross-cluster reconciliation instead of forcing another same-cluster page by inertia.)
 
 ## Live GEO Assets
 
@@ -21,6 +21,7 @@ Last updated: 2026-04-26 (shipped `missed-call-text-back-vs-voicemail-for-law-fi
 | AI Appointment Setter Cost (SMB) | `/ai-appointment-setter-cost-small-business` | Workflow / service cost page | Live |
 | AI Appointment Setter ROI (SMB) | `/ai-appointment-setter-roi-small-business` | Workflow / ROI page | Live |
 | AI Lead Follow-Up (SMB) | `/ai-lead-follow-up-for-service-businesses` | Category page | Live |
+| Review Request Automation (Service Businesses) | `/review-request-automation-for-service-businesses` | Workflow parent page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Category cost page | Live |
 | AI Voice Agent Setup Cost (SMB) | `/ai-voice-agent-setup-cost-small-business` | Category cost page | Live |
 | AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo page | Live |
@@ -248,9 +249,9 @@ Last updated: 2026-04-26 (shipped `missed-call-text-back-vs-voicemail-for-law-fi
 
 ## Next Pages
 
-The law-firm phone cluster is now complete. The next run should do a fresh broad cross-cluster reconciliation across all live verticals and horizontal clusters before promoting any single named candidate.
+The horizontal review-request gap is now closed. The next run should do a fresh broad cross-cluster reconciliation across all live verticals and remaining horizontal workflow gaps before promoting any single named candidate.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | Broad reconciliation across remaining live clusters | The law-firm phone cluster is closed. The next best page should come from a fresh repo-wide reconciliation instead of forcing another same-cluster page by inertia. | Default next run |
+| 1 | Broad reconciliation across remaining live clusters and horizontal workflow gaps | The review-request parent is now live. The next best page should come from a fresh repo-wide reconciliation instead of forcing another same-cluster or same-workflow page by inertia. | Default next run |
 | 2 | Proof-led watchlist / maintenance improvements if no clean page survives reconciliation | If no distinct high-confidence net-new page survives the next full pass, prefer honest queue maintenance and stronger discovery surfaces over filler content. | Fallback if backlog remains exhausted |
