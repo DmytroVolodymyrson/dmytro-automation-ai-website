@@ -98,6 +98,7 @@ const CaseStatusUpdateAutomationForLawFirms = lazy(() => import("./pages/CaseSta
 const AiPhoneAnsweringForLawFirms = lazy(() => import("./pages/AiPhoneAnsweringForLawFirms"));
 const MissedCallTextBackForLawFirms = lazy(() => import("./pages/MissedCallTextBackForLawFirms"));
 const AiPhoneAnsweringVsVoicemailForLawFirms = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForLawFirms"));
+const MissedCallTextBackVsAiPhoneAnsweringForLawFirms = lazy(() => import("./pages/MissedCallTextBackVsAiPhoneAnsweringForLawFirms"));
 const AiAutomationForSolarCompanies = lazy(() => import("./pages/AiAutomationForSolarCompanies"));
 const WhatToAutomateFirstForSolarCompanies = lazy(() => import("./pages/WhatToAutomateFirstForSolarCompanies"));
 const UtilityBillCollectionAutomationForSolarCompanies = lazy(() => import("./pages/UtilityBillCollectionAutomationForSolarCompanies"));
@@ -443,6 +444,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-phone-answering-for-law-firms" element={<AiPhoneAnsweringForLawFirms />} />
       <Route path="/missed-call-text-back-for-law-firms" element={<MissedCallTextBackForLawFirms />} />
      <Route path="/ai-phone-answering-vs-voicemail-for-law-firms" element={<AiPhoneAnsweringVsVoicemailForLawFirms />} />
+     <Route path="/missed-call-text-back-vs-ai-phone-answering-for-law-firms" element={<MissedCallTextBackVsAiPhoneAnsweringForLawFirms />} />
      <Route path="/ai-automation-for-solar-companies" element={<AiAutomationForSolarCompanies />} />
      <Route path="/what-to-automate-first-for-solar-companies" element={<WhatToAutomateFirstForSolarCompanies />} />
      <Route path="/utility-bill-collection-automation-for-solar-companies" element={<UtilityBillCollectionAutomationForSolarCompanies />} />

@@ -1010,6 +1010,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. AI Phone Answering for Law Firms",
+    description:
+      "Comparison page for law firms deciding whether SMS-first missed-call recovery is enough or whether live AI phone answering is the better fit, with practical guidance around court-block coverage, intake urgency, and front-desk workload.",
+    href: "/missed-call-text-back-vs-ai-phone-answering-for-law-firms",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Accounting Firms",
     description:
       "AI automation for accounting firms. Client onboarding, document collection, appointment scheduling, and seasonal workflows for CPA and bookkeeping practices.",

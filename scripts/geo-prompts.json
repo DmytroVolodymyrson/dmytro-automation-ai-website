@@ -969,6 +969,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-vs-ai-phone-answering-for-law-firms",
+      "path": "/missed-call-text-back-vs-ai-phone-answering-for-law-firms",
+      "label": "Missed Call Text-Back vs AI Phone Answering for Law Firms",
+      "prompts": [
+        "Missed call text-back vs AI phone answering for law firms",
+        "Should a law firm use missed-call text-back or live AI phone answering?",
+        "When is SMS-first missed-call recovery enough for a law firm versus live answered intake coverage?",
+        "Best way for a law firm to choose between text-back after missed calls and live AI phone answering",
+        "How should a law firm decide whether to start with missed-call text-back or pay for live AI phone answering?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-for-law-firms",
       "path": "/missed-call-text-back-for-law-firms",
       "label": "Missed Call Text-Back for Law Firms",
@@ -976,7 +988,7 @@
         "Missed call text-back for law firms",
         "How should a law firm recover intake calls it misses while attorneys are in court?",
         "Best way for a small law firm to respond faster after a missed intake call without live answering",
-        "Should a law firm use missed-call text-back before paying for live AI phone answering?",
+        "What kind of law-firm intake calls are still okay to recover by text instead of answering live?",
         "How do law firms stop losing consultations to voicemail when staff cannot pick up right away?"
       ]
     },

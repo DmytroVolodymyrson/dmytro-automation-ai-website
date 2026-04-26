@@ -97,6 +97,7 @@ import CaseStatusUpdateAutomationForLawFirms from "./pages/CaseStatusUpdateAutom
 import AiPhoneAnsweringForLawFirms from "./pages/AiPhoneAnsweringForLawFirms";
 import MissedCallTextBackForLawFirms from "./pages/MissedCallTextBackForLawFirms";
 import AiPhoneAnsweringVsVoicemailForLawFirms from "./pages/AiPhoneAnsweringVsVoicemailForLawFirms";
+import MissedCallTextBackVsAiPhoneAnsweringForLawFirms from "./pages/MissedCallTextBackVsAiPhoneAnsweringForLawFirms";
 import AiAutomationForSolarCompanies from "./pages/AiAutomationForSolarCompanies";
 import WhatToAutomateFirstForSolarCompanies from "./pages/WhatToAutomateFirstForSolarCompanies";
 import UtilityBillCollectionAutomationForSolarCompanies from "./pages/UtilityBillCollectionAutomationForSolarCompanies";
@@ -477,6 +478,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-phone-answering-for-law-firms", element: <AiPhoneAnsweringForLawFirms /> },
   { path: "/missed-call-text-back-for-law-firms", element: <MissedCallTextBackForLawFirms /> },
   { path: "/ai-phone-answering-vs-voicemail-for-law-firms", element: <AiPhoneAnsweringVsVoicemailForLawFirms /> },
+  { path: "/missed-call-text-back-vs-ai-phone-answering-for-law-firms", element: <MissedCallTextBackVsAiPhoneAnsweringForLawFirms /> },
   { path: "/ai-automation-for-solar-companies", element: <AiAutomationForSolarCompanies /> },
   { path: "/what-to-automate-first-for-solar-companies", element: <WhatToAutomateFirstForSolarCompanies /> },
   { path: "/utility-bill-collection-automation-for-solar-companies", element: <UtilityBillCollectionAutomationForSolarCompanies /> },
