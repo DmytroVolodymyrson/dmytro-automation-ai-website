@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `review-request-automation-for-service-businesses` — a clean horizontal workflow parent that the repo still lacked even though many vertical review-request child pages were already live. This closes one of the clearest remaining horizontal workflow gaps. The next run should return to broad cross-cluster reconciliation instead of forcing another same-cluster page by inertia.)
+Last updated: 2026-04-26 (shipped `missed-call-text-back-for-service-businesses` — horizontal workflow parent for the large existing vertical cluster of missed-call-text-back pages. Focuses narrowly on SMS-first missed-call recovery to stay distinct from the broader `/missed-call-follow-up-automation` page. The next run should continue broad cross-cluster reconciliation.)
 
 ## Live GEO Assets
 
@@ -22,6 +22,7 @@ Last updated: 2026-04-26 (shipped `review-request-automation-for-service-busines
 | AI Appointment Setter ROI (SMB) | `/ai-appointment-setter-roi-small-business` | Workflow / ROI page | Live |
 | AI Lead Follow-Up (SMB) | `/ai-lead-follow-up-for-service-businesses` | Category page | Live |
 | Review Request Automation (Service Businesses) | `/review-request-automation-for-service-businesses` | Workflow parent page | Live |
+| Missed Call Text-Back (Service Businesses) | `/missed-call-text-back-for-service-businesses` | Workflow parent page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Category cost page | Live |
 | AI Voice Agent Setup Cost (SMB) | `/ai-voice-agent-setup-cost-small-business` | Category cost page | Live |
 | AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo page | Live |
@@ -249,9 +250,9 @@ Last updated: 2026-04-26 (shipped `review-request-automation-for-service-busines
 
 ## Next Pages
 
-The horizontal review-request gap is now closed. The next run should do a fresh broad cross-cluster reconciliation across all live verticals and remaining horizontal workflow gaps before promoting any single named candidate.
+The new missed-call-text-back parent closes the largest remaining SMS-first horizontal orphan cluster. The next best candidate is likely another horizontal parent, but it needs the same overlap discipline before shipping.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | Broad reconciliation across remaining live clusters and horizontal workflow gaps | The review-request parent is now live. The next best page should come from a fresh repo-wide reconciliation instead of forcing another same-cluster or same-workflow page by inertia. | Default next run |
-| 2 | Proof-led watchlist / maintenance improvements if no clean page survives reconciliation | If no distinct high-confidence net-new page survives the next full pass, prefer honest queue maintenance and stronger discovery surfaces over filler content. | Fallback if backlog remains exhausted |
+| 1 | `estimate-follow-up-automation-for-service-businesses` (provisional) | Multiple vertical estimate-follow-up children are already live across roofing, landscaping, plumbing, electrical, auto repair, painting, and contractors. This looks like the next strongest horizontal parent gap, but it needs a careful overlap check against the existing `/quote-follow-up-automation` page before shipping. | Provisional next candidate |
+| 2 | Broad cross-cluster reconciliation + proof-led maintenance | If the estimate/quote overlap turns out too close, return to repo-wide reconciliation and prefer the next distinct horizontal or vertical workflow gap over filler. | Fallback |

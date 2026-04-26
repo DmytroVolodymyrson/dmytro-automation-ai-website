@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-26-missed-call-text-back-for-service-businesses",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-26",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back for Service Businesses\nBody: Most service businesses miss 20-40% of inbound calls. During jobs, after hours, on weekends — the phone rings and nobody picks up. The standard fallback is voicemail, and most callers do not leave one. They hang up and call the next provider. Missed call text-back is the simplest layer of defense: the call is missed, an SMS goes out within seconds, the caller gets a clear next step, and the lead stays alive long enough for your team or booking flow to recover it. It is not a full phone system replacement. It is a fast, cheap, SMS-first recovery layer that sits between doing nothing and deploying a live AI voice agent.\nSub: Below: what missed call text-back should actually handle, how it compares to voicemail, manual callbacks, and AI phone answering, when the SMS-first approach is enough, when you need more, and what proof from the live vertical pages on this site honestly supports this pattern.\n\n### Core sections\n- What a missed call text-back system should handle\n- Text-back vs. voicemail vs. manual callback vs. AI phone answering\n- When SMS-first text-back is enough — and when it is not\n- How this page relates to the rest of the site\n- What makes text-back work or fail in practice\n- Adjacent proof from this site\n\n### FAQ\nSubhead: Common questions about missed call text-back for service businesses\nTopics: how this differs from the broader missed-call-follow-up page, what the first text should say, what happens if the caller never texts back, how fast the message should go out, and what a basic text-back system usually costs.\n\n### Final CTA\nHeading: Stop losing callers to voicemail\nBody: Book a 30-minute call. We will look at how many calls you are missing, whether SMS-first text-back is the right layer, or whether your situation calls for AI phone answering, a fuller missed-call system, or a different fix entirely.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen after reconciling `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and the live route/page/discovery surfaces."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Positioned as the horizontal parent for the large existing missed-call-text-back vertical cluster while staying narrower than `/missed-call-follow-up-automation`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: use the Paris Cafe voice-agent case study plus existing missed-call-text-back vertical pages and adjacent horizontal phone-recovery guides instead of pretending there is already a dedicated cross-industry text-back case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-26T22:12:28.728Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        4,
+        1,
+        2
+      ],
+      "avgSentenceLength": 21.4,
+      "sentenceLengthRange": [
+        2,
+        49
+      ],
+      "totalWords": 321
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Missed Call Text-Back for Service Businesses\nBody: Most service businesses miss 20-40% of inbound calls.",
+      "wordCount": 17,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing callers to voicemail\nBody: Book a 30-minute call. We will look at how many calls you are missing, whether SMS-first text-back is the right layer, or whether your situation calls for AI phone answering, a fuller missed-call system, or a different fix entirely.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 14,
+      "commas": 22,
+      "emDashes": 2,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 9,
+      "commasPerSentence": 1.57
+    },
+    "vocabulary": {
+      "distinctWords": 167,
+      "totalWords": 321,
+      "topWords": [
+        [
+          "text-back",
+          10
+        ],
+        [
+          "call",
+          8
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "missed",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "phone",
+          5
+        ],
+        [
+          "it",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "voicemail",
+          4
+        ],
+        [
+          "system",
+          4
+        ],
+        [
+          "sms-first",
+          4
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "when",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

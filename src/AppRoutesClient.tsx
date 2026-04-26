@@ -209,6 +209,7 @@ const AiVoiceAgentRoiForLeadFollowUp = lazy(() => import("./pages/AiVoiceAgentRo
 const InstantLeadResponse = lazy(() => import("./pages/InstantLeadResponse"));
 const ContactFormLeadFollowUpAutomation = lazy(() => import("./pages/ContactFormLeadFollowUpAutomation"));
 const ReviewRequestAutomationForServiceBusinesses = lazy(() => import("./pages/ReviewRequestAutomationForServiceBusinesses"));
+const MissedCallTextBackForServiceBusinesses = lazy(() => import("./pages/MissedCallTextBackForServiceBusinesses"));
 const ContactFormAutoresponderVsFullLeadFollowUp = lazy(() => import("./pages/ContactFormAutoresponderVsFullLeadFollowUp"));
 const QuoteFollowUp = lazy(() => import("./pages/QuoteFollowUp"));
 const ClientReactivation = lazy(() => import("./pages/ClientReactivation"));
@@ -557,6 +558,7 @@ const AppRoutesClient = () => (
       <Route path="/instant-lead-response-automation" element={<InstantLeadResponse />} />
       <Route path="/contact-form-lead-follow-up-automation" element={<ContactFormLeadFollowUpAutomation />} />
       <Route path="/review-request-automation-for-service-businesses" element={<ReviewRequestAutomationForServiceBusinesses />} />
+      <Route path="/missed-call-text-back-for-service-businesses" element={<MissedCallTextBackForServiceBusinesses />} />
       <Route path="/contact-form-autoresponder-vs-full-lead-follow-up" element={<ContactFormAutoresponderVsFullLeadFollowUp />} />
       <Route path="/quote-follow-up-automation" element={<QuoteFollowUp />} />
       <Route path="/client-reactivation-automation" element={<ClientReactivation />} />

@@ -1617,6 +1617,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-for-service-businesses",
+      "path": "/missed-call-text-back-for-service-businesses",
+      "label": "Missed Call Text-Back for Service Businesses",
+      "prompts": [
+        "What is missed call text-back for service businesses?",
+        "Should I use text-back or AI phone answering for missed calls?",
+        "How does missed call text-back compare to voicemail for service businesses?",
+        "Is SMS text-back enough or do I need a full missed call follow-up system?",
+        "Best missed call text-back setup for small service businesses"
+      ]
+    },
+    {
       "id": "contact-form-autoresponder-vs-full-lead-follow-up",
       "path": "/contact-form-autoresponder-vs-full-lead-follow-up",
       "label": "Contact Form Autoresponder vs. Full Lead Follow-Up",

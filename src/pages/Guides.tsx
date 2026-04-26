@@ -589,6 +589,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Missed Call Text-Back for Service Businesses",
+    description:
+      "SMS-first missed-call recovery when a full voice agent is overkill. Fast text-back, two-way thread, booking link — the simplest layer between voicemail and AI phone answering.",
+    href: "/missed-call-text-back-for-service-businesses",
+    category: "workflows",
+  },
+  {
     title: "Contact Form Autoresponder vs. Full Lead Follow-Up",
     description:
       "Decision guide for owners asking whether a basic form autoresponder is still enough or whether website leads now need a real workflow with qualification, routing, and short follow-up.",
