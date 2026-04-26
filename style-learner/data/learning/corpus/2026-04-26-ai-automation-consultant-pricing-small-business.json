@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-26-ai-automation-consultant-pricing-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-26",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation Consultant Pricing for Small Business\nBody: You've decided AI automation makes sense for your business. Now you need to know what it costs. This is an honest breakdown — not a sales page — of what small businesses actually pay for automation consulting, what drives the price, and how to get the most value from your budget.\nSub: Below: real pricing ranges, what you get at each level, and how to evaluate whether a quote is fair.\n\n### Core sections\n- What real projects cost — with outcomes\n- Voice agent for a restaurant — lower/mid project band\n- CRM + lead follow-up automation — mid project band\n- Lead generation + qualification pipeline — upper-mid project band\n- How to evaluate whether a quote is fair\n- Get the scope in writing before comparing prices\n\n### FAQ\nSubhead: Honest answers about AI automation pricing for small businesses\n- What ongoing costs should I expect after the initial build?\n- How do consultant prices compare to doing it myself with no-code tools?\n\n### Final CTA\nHeading: Want to know what your specific project would cost?\nBody: Book a 30-minute call. We'll look at what you need automated, scope it out, and give you a clear estimate — no surprises, no hidden fees.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded refresh of an existing priority URL after reconciliation showed no clearly safer net-new planned page remained than an indexing/internal-linking improvement."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The update stays practical by grounding pricing guidance in published on-site outcomes instead of inventing fake invoice numbers: Paris Cafe for 100% calls answered / 15 hours freed, WheelsFeels e-commerce CRM for 5,600+ leads / 3x team capacity / +185% lift, and Instagram lead gen for 50+ qualified leads per day."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "Added buyer-decision language that helps indexing and answer extraction: project-band framing, scope-before-price guidance, recurring-cost FAQ, and DIY-versus-consultant economics."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Related links were tightened toward higher-intent adjacent pages (cost, ROI, hiring, build-vs-buy, role clarity, case studies) instead of broader generic navigation."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-26T19:11:52.827Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        1,
+        2,
+        3
+      ],
+      "avgSentenceLength": 20.4,
+      "sentenceLengthRange": [
+        5,
+        52
+      ],
+      "totalWords": 204
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation Consultant Pricing for Small Business\nBody: You've decided AI automation makes sense for your business.",
+      "wordCount": 19,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to know what your specific project would cost?\nBody: Book a 30-minute call. We'll look at what you need automated, scope it out, and give you a clear estimate — no surprises, no hidden fees.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 6,
+      "commas": 7,
+      "emDashes": 7,
+      "enDashes": 0,
+      "hyphens": 8,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 3,
+      "colon": 7,
+      "commasPerSentence": 0.78
+    },
+    "vocabulary": {
+      "distinctWords": 121,
+      "totalWords": 204,
+      "topWords": [
+        [
+          "what",
+          8
+        ],
+        [
+          "-",
+          8
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "project",
+          4
+        ],
+        [
+          "ai",
+          3
+        ],
+        [
+          "pricing",
+          3
+        ],
+        [
+          "small",
+          3
+        ],
+        [
+          "your",
+          3
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "get",
+          3
+        ],
+        [
+          "band",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "consultant",
+          2
+        ],
+        [
+          "business",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

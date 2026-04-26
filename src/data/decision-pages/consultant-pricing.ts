@@ -129,13 +129,33 @@ const data: DecisionPageData = {
     },
     {
       type: "prose",
+      title: "What real projects cost — with outcomes",
+      subtitle:
+        "Abstract pricing ranges are hard to act on. Here are three representative engagement types with real workflow scope and published outcomes so you can benchmark against your own situation:",
+      blocks: [
+        {
+          heading: "Voice agent for a restaurant — lower/mid project band",
+          body: "A NYC restaurant needed after-hours call coverage. The build included an AI voice receptionist that answers calls 24/7, handles reservation-related questions, and protects the booking path when staff are unavailable. The published Paris Cafe case study reports 100% calls answered, 15 hours of management time freed per week, and sub-60-second web lead response. A project in this class usually sits in the lower-to-middle pricing band because the workflow is narrow but customer-facing and reliability matters.",
+        },
+        {
+          heading: "CRM + lead follow-up automation — mid project band",
+          body: "An auto parts e-commerce brand was losing revenue because follow-up was manual and inconsistent. The published case study shows 5,600+ leads moved into structured CRM follow-up, 3x team capacity, and a +185% conversion lift. Builds in this band usually include CRM cleanup, instant acknowledgment, timed follow-up sequences, stale-lead recovery, reporting, documentation, and a short optimization window after launch.",
+        },
+        {
+          heading: "Lead generation + qualification pipeline — upper-mid project band",
+          body: "A lead-generation system can sit higher when it combines scraping, enrichment, AI qualification, scoring, and CRM routing instead of one simple trigger. The published Instagram case study reports 50+ qualified leads per day at $0.29 per lead with zero manual prospecting. Projects in this class usually include multiple integrations, custom logic, error handling, and more post-launch tuning because volume and data quality matter.",
+        },
+      ],
+    },
+    {
+      type: "prose",
       title: "How to evaluate whether a quote is fair",
       subtitle:
         "You've gotten a proposal. Here's how to tell if the pricing makes sense:",
       blocks: [
         {
           heading: "Compare the ROI, not just the price tag",
-          body: "A $4,000 automation that saves you 15 hours per week pays for itself in under 2 months (at $35/hour of employee time). A $1,500 automation that saves 2 hours per week takes 5 months to break even. The cheaper option isn't always the better investment. Ask: what's the monthly value of the time or revenue this automation creates?",
+          body: "A $4,000 automation that saves you 15 hours per week pays for itself in under 2 months (at $35/hour of employee time). A $1,500 automation that saves 2 hours per week takes 5 months to break even. The cheaper option isn't always the better investment. Ask: what's the monthly value of the time or revenue this automation creates? If the math is unclear, use an ROI calculator to model payback before committing.",
         },
         {
           heading: "Check what's included beyond the build",
@@ -148,6 +168,10 @@ const data: DecisionPageData = {
         {
           heading: "Beware the 'too cheap' signal",
           body: "If a quote is dramatically lower than others, ask why. Common reasons: the consultant plans to use generic templates without customization, they'll bill hourly for 'extras' later, or they're junior and will learn on your project. A fair price reflects real expertise and real time spent understanding your business.",
+        },
+        {
+          heading: "Get the scope in writing before comparing prices",
+          body: "Two consultants can quote $3,000 and $5,000 for what sounds like the same project — but the cheaper one may exclude edge case handling, post-launch support, or training. Always compare line-item scope, not headline numbers. A detailed scope document is the single best indicator that the consultant understands your problem.",
         },
       ],
     },
@@ -205,6 +229,16 @@ const data: DecisionPageData = {
       answer:
         "Start with a single project in the $2K–$4K range. Pick your biggest bottleneck — usually lead follow-up speed or missed calls — and automate that first. See the ROI before committing more budget. Most businesses that start with one project come back for more because the payback is clear and fast.",
     },
+    {
+      question: "What ongoing costs should I expect after the initial build?",
+      answer:
+        "Most automations have a monthly software and usage cost on top of the build fee — often in the $50–$300/month range for the tools that actually run the workflow, such as CRM seats, SMS sending, voice minutes, or AI usage. A good consultant should document those recurring costs before launch so there are no surprises. The exact number depends on volume and stack, but it is usually far lower than the cost of adding manual admin just to keep a narrow workflow moving.",
+    },
+    {
+      question: "How do consultant prices compare to doing it myself with no-code tools?",
+      answer:
+        "DIY is cheaper upfront but usually more expensive in total. In practice, many owners end up spending 40–80+ hours learning, building, and debugging a system that a consultant could deliver in 1–2 weeks. At your billing rate, those hours often exceed the consultant's fee. DIY also tends to produce fragile systems with no error handling, monitoring, or documentation — which means more time spent fixing things later. If your time is worth more than $30/hour and the automation touches revenue, a consultant usually pays for itself.",
+    },
   ],
   faqSubtitle:
     "Honest answers about AI automation pricing for small businesses",
@@ -215,16 +249,28 @@ const data: DecisionPageData = {
     "The call is free. You'll leave with a clear picture of cost, timeline, and expected ROI.",
   relatedLinks: [
     {
-      label: "Consultant vs. agency comparison",
-      href: "/hire-ai-automation-consultant-vs-agency",
+      label: "AI automation cost breakdown",
+      href: "/ai-automation-cost-small-business",
     },
     {
-      label: "Consultant vs. freelancer",
-      href: "/ai-automation-consultant-vs-freelancer",
+      label: "ROI calculator for automation projects",
+      href: "/ai-automation-roi-calculator",
     },
     {
-      label: "AI automation for small business",
-      href: "/ai-automation-consultant-small-business",
+      label: "How to hire an AI automation consultant",
+      href: "/how-to-hire-ai-automation-consultant",
+    },
+    {
+      label: "Build vs. buy AI automation",
+      href: "/build-vs-buy-ai-automation",
+    },
+    {
+      label: "What does an AI automation consultant do?",
+      href: "/what-does-an-ai-automation-consultant-do",
+    },
+    {
+      label: "Case studies — real results",
+      href: "/case-studies",
     },
   ],
 };

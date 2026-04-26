@@ -1,6 +1,6 @@
 # GEO Priority URLs
 
-Last updated: 2026-04-25 MDT
+Last updated: 2026-04-26 MDT
 
 ## GSC status snapshot
 
@@ -53,7 +53,7 @@ Automated live-site checks via `scripts/audit-indexability.mjs`. All 25 URLs pas
 | 3 | `/case-studies` | Case Studies — AI Automation Results for Real Businesses \| Dmytro AI | Proven Automation Outcomes | 200 | self | no | yes | — | **Discovered — currently not indexed** | Not separately scored | Link proof to priority workflows and request indexing |
 | 4 | `/ai-automation-consultant-small-business` | AI Automation Consultant for Small Business \| Dmytro AI | AI Automation Consultant for Small Businesses | 200 | self | no | yes | yes | **Discovered — currently not indexed** | Updated 2026-04-25 | Content improved with AEO answer block and schema; request indexing |
 | 5 | `/what-does-an-ai-automation-consultant-do` | What Does an AI Automation Consultant Do? ... \| Dmytro AI | What Does an AI Automation Consultant Actually Do? | 200 | self | no | yes | yes | NOT INSPECTED | 0 on latest full sweep | Improve answer block and link to proof |
-| 6 | `/ai-automation-consultant-pricing-small-business` | AI Automation Consultant Pricing for Small Business ... \| Dmytro AI | AI Automation Consultant Pricing for Small Business | 200 | self | no | yes | yes | NOT INSPECTED | 0 on latest full sweep | Add fixed-price framing and proof examples |
+| 6 | `/ai-automation-consultant-pricing-small-business` | AI Automation Consultant Pricing for Small Business ... \| Dmytro AI | AI Automation Consultant Pricing for Small Business | 200 | self | no | yes | yes | NOT INSPECTED | Updated 2026-04-26 | Added grounded pricing-band examples, stronger buyer-decision FAQs, and higher-intent related links; request indexing after deploy |
 | 7 | `/ai-automation-cost-small-business` | AI Automation Cost for Small Business ... \| Dmytro AI | AI Automation Cost for Small Business | 200 | self | no | yes | yes | NOT INSPECTED | 0 on latest full sweep | Add cost ranges and related pricing links |
 | 8 | `/best-ai-automation-for-service-businesses` | Best AI Automations for Service Businesses ... | Best AI Automations for Service Businesses | 200 | self | no | yes | yes | **Discovered — currently not indexed** | Updated 2026-04-25 | Added case studies, evaluation framework, and improved AEO answer; request indexing |
 | 9 | `/ai-automation-for-businesses-without-a-tech-team` | AI Automation for Businesses Without a Tech Team ... \| Dmytro AI | AI Automation for Businesses Without a Tech Team | 200 | self | no | yes | yes | NOT INSPECTED | 0 on latest full sweep | Add fit/not-fit details and case proof |
