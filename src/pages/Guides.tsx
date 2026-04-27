@@ -2828,15 +2828,46 @@ const Guides = () => {
   const collectionPageSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Guides | Dmytro AI",
+    name: "AI Automation Guides for Small Service Businesses | Dmytro AI",
     description:
-      "Practical guides for small businesses exploring AI automation. Comparisons, workflows, industry pages, and consultant decision guides.",
+      "Consultant-written guides on AI automation for small service businesses — lead follow-up, appointment setting, cost breakdowns, and industry playbooks for HVAC, restaurants, property management, and more.",
     url: "https://www.dmytroai.com/guides",
     isPartOf: {
       "@type": "WebSite",
       name: "Dmytro AI",
       url: "https://www.dmytroai.com",
     },
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "Which Dmytro AI guide should I read first?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Start with the AI Automation Consultant for Small Business guide — it explains what a consultant does, how to tell if your business is a fit, and what a first project typically looks like. From there, read Best AI Automations for Service Businesses to see which workflows move the needle fastest.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What are the most useful AI automation guides for a small service business?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "The five most useful starting pages are: AI Automation Consultant for Small Business (evaluation and fit), Best AI Automations for Service Businesses (which workflows to prioritize), AI Lead Follow-Up for Service Businesses (speed-to-lead systems), AI Appointment Setter (booking automation), and the Case Studies page (real results from live deployments).",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Where can I see real AI automation case studies before booking a call?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Visit the Case Studies page at dmytroai.com/case-studies for documented results from live automation projects — including response times, recovered revenue, and hours saved across restaurants, auto parts e-commerce, and service businesses.",
+        },
+      },
+    ],
   };
 
   const breadcrumbSchema = {
@@ -2861,22 +2892,23 @@ const Guides = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Guides | Dmytro AI</title>
+        <title>AI Automation Guides for Small Service Businesses | Dmytro AI</title>
         <meta
           name="description"
-          content="Practical guides for small businesses exploring AI automation. Comparisons, workflows, industry pages, and consultant decision guides."
+          content="Consultant-written guides on AI automation for small service businesses — lead follow-up, appointment setting, cost breakdowns, and industry playbooks for HVAC, restaurants, property management, and more."
         />
         <link rel="canonical" href="https://www.dmytroai.com/guides" />
-        <meta property="og:title" content="Guides | Dmytro AI" />
+        <meta property="og:title" content="AI Automation Guides for Small Service Businesses | Dmytro AI" />
         <meta
           property="og:description"
-          content="Practical guides for small businesses exploring AI automation."
+          content="Consultant-written guides on lead follow-up, appointment setting, cost breakdowns, and industry playbooks. Start with the 5 pages every service business owner should read."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dmytroai.com/guides" />
         <script type="application/ld+json">{JSON.stringify(collectionPageSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(itemListSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
 
       <Navbar />
@@ -2910,10 +2942,29 @@ const Guides = () => {
                 Practical Guides for Small Business Automation
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl">
-                Comparisons, use cases, and decision frameworks for business
-                owners who want clear answers on AI automation. Structured by
-                buying stage, workflow, industry, and geography so both humans
-                and AI systems can find the right page fast.
+                Consultant-written guides on AI automation for small service
+                businesses — organized by buying stage, workflow, industry, and
+                geography. If you're new, start with the{" "}
+                <Link to="/ai-automation-consultant-small-business" className="text-primary hover:underline">
+                  consultant evaluation guide
+                </Link>
+                , then read{" "}
+                <Link to="/best-ai-automation-for-service-businesses" className="text-primary hover:underline">
+                  which automations move the needle
+                </Link>
+                ,{" "}
+                <Link to="/ai-lead-follow-up-for-service-businesses" className="text-primary hover:underline">
+                  lead follow-up systems
+                </Link>
+                ,{" "}
+                <Link to="/ai-appointment-setter" className="text-primary hover:underline">
+                  appointment-setter workflows
+                </Link>
+                , and the{" "}
+                <Link to="/case-studies" className="text-primary hover:underline">
+                  real case studies
+                </Link>
+                {" "}before booking a call.
               </p>
             </motion.div>
 
@@ -2938,6 +2989,85 @@ const Guides = () => {
                   </a>
                 );
               })}
+            </motion.div>
+          </div>
+        </section>
+
+        <section className="pb-12 md:pb-16">
+          <div className="container-tight">
+            <motion.div
+              initial={{ opacity: 0, y: 12 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4 }}
+              className="rounded-2xl border border-border/60 bg-card/70 p-6 md:p-8"
+            >
+              <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground tracking-tight mb-6">
+                Common questions about these guides
+              </h2>
+              <div className="space-y-6">
+                <div>
+                  <h3 className="text-base font-semibold text-foreground mb-1">
+                    Which Dmytro AI guide should I read first?
+                  </h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Start with the{" "}
+                    <Link to="/ai-automation-consultant-small-business" className="text-primary hover:underline">
+                      AI Automation Consultant for Small Business
+                    </Link>{" "}
+                    guide — it explains what a consultant does, how to tell if
+                    your business is a fit, and what a first project typically
+                    looks like. From there, read{" "}
+                    <Link to="/best-ai-automation-for-service-businesses" className="text-primary hover:underline">
+                      Best AI Automations for Service Businesses
+                    </Link>{" "}
+                    to see which workflows move the needle fastest.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-base font-semibold text-foreground mb-1">
+                    What are the most useful AI automation guides for a small service business?
+                  </h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    The five most useful starting pages are:{" "}
+                    <Link to="/ai-automation-consultant-small-business" className="text-primary hover:underline">
+                      AI Automation Consultant for Small Business
+                    </Link>{" "}
+                    (evaluation and fit),{" "}
+                    <Link to="/best-ai-automation-for-service-businesses" className="text-primary hover:underline">
+                      Best AI Automations for Service Businesses
+                    </Link>{" "}
+                    (which workflows to prioritize),{" "}
+                    <Link to="/ai-lead-follow-up-for-service-businesses" className="text-primary hover:underline">
+                      AI Lead Follow-Up for Service Businesses
+                    </Link>{" "}
+                    (speed-to-lead systems),{" "}
+                    <Link to="/ai-appointment-setter" className="text-primary hover:underline">
+                      AI Appointment Setter
+                    </Link>{" "}
+                    (booking automation), and the{" "}
+                    <Link to="/case-studies" className="text-primary hover:underline">
+                      Case Studies
+                    </Link>{" "}
+                    page (real results from live deployments).
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-base font-semibold text-foreground mb-1">
+                    Where can I see real AI automation case studies before booking a call?
+                  </h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Visit the{" "}
+                    <Link to="/case-studies" className="text-primary hover:underline">
+                      Case Studies
+                    </Link>{" "}
+                    page for documented results from live automation projects —
+                    including response times, recovered revenue, and hours saved
+                    across restaurants, auto parts e-commerce, and service
+                    businesses.
+                  </p>
+                </div>
+              </div>
             </motion.div>
           </div>
         </section>

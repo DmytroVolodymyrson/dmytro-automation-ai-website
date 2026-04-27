@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-guides-hub-indexing-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Metadata\nTitle: AI Automation Guides for Small Service Businesses | Dmytro AI\nDescription: Consultant-written guides on AI automation for small service businesses — lead follow-up, appointment setting, cost breakdowns, and industry playbooks for HVAC, restaurants, property management, and more.\nOG Description: Consultant-written guides on lead follow-up, appointment setting, cost breakdowns, and industry playbooks. Start with the 5 pages every service business owner should read.\n\n### Hero\nHeading: Practical Guides for Small Business Automation\nBody: Consultant-written guides on AI automation for small service businesses — organized by buying stage, workflow, industry, and geography. If you're new, start with the consultant evaluation guide, then read which automations move the needle, lead follow-up systems, appointment-setter workflows, and the real case studies before booking a call.\n\n### FAQ\nSubhead: Common questions about these guides\nTopics:\n- Which Dmytro AI guide should I read first?\n- What are the most useful AI automation guides for a small service business?\n- Where can I see real AI automation case studies before booking a call?\n\n### Internal-link routing\nPriority links added directly in the hero and FAQ answers:\n- /ai-automation-consultant-small-business\n- /best-ai-automation-for-service-businesses\n- /ai-lead-follow-up-for-service-businesses\n- /ai-appointment-setter\n- /case-studies",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because `/guides` is one of the manually documented discovered-not-indexed priority URLs and the previous metadata/opening were still too generic for snippet extraction."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The refresh keeps the page as a hub, not a sales page: it explains what the hub is for, tells a business owner exactly where to start, and routes naturally into the highest-intent commercial and proof pages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays direct and useful: practical guide, explicit reading order, no hype, no vague “resource center” language."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "FAQ copy was added to make the page more answer-extractable for search snippets and AI retrieval while keeping all claims anchored to already-live pages."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T21:30:09.646Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        2,
+        3,
+        1
+      ],
+      "avgSentenceLength": 20.6,
+      "sentenceLengthRange": [
+        11,
+        37
+      ],
+      "totalWords": 185
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Metadata\nTitle: AI Automation Guides for Small Service Businesses | Dmytro AI\nDescription: Consultant-written guides on AI automation for small service businesses — lead follow-up, appointment setting, cost breakdowns, and industry playbooks for HVAC, restaurants, property management, and more.",
+      "wordCount": 37,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Internal-link routing\nPriority links added directly in the hero and FAQ answers:\n- /ai-automation-consultant-small-business\n- /best-ai-automation-for-service-businesses\n- /ai-lead-follow-up-for-service-businesses\n- /ai-appointment-setter\n- /case-studies",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 5,
+      "commas": 17,
+      "emDashes": 2,
+      "enDashes": 0,
+      "hyphens": 8,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 3,
+      "colon": 8,
+      "commasPerSentence": 1.89
+    },
+    "vocabulary": {
+      "distinctWords": 99,
+      "totalWords": 185,
+      "topWords": [
+        [
+          "-",
+          8
+        ],
+        [
+          "ai",
+          7
+        ],
+        [
+          "guides",
+          7
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "small",
+          5
+        ],
+        [
+          "service",
+          5
+        ],
+        [
+          "businesses",
+          3
+        ],
+        [
+          "consultant-written",
+          3
+        ],
+        [
+          "lead",
+          3
+        ],
+        [
+          "follow-up",
+          3
+        ],
+        [
+          "industry",
+          3
+        ],
+        [
+          "business",
+          3
+        ],
+        [
+          "read",
+          3
+        ],
+        [
+          "dmytro",
+          2
+        ],
+        [
+          "description",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}
