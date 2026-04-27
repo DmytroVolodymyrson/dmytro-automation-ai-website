@@ -1943,6 +1943,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Automation for Pool Service Companies",
+    description:
+      "AI automation for pool service companies. Missed call text-back, repair and cleanup quote follow-up, recurring route reminders, seasonal opening and closing outreach, and review automation.",
+    href: "/ai-automation-for-pool-service-companies",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Pest Control Companies",
     description:
       "Scoping guide for pest control companies deciding whether the first workflow should be urgent lead follow-up, missed-call recovery, recurring-service reminders, seasonal campaigns, or heavier live phone coverage before a bigger automation build.",

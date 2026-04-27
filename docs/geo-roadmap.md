@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (indexing/support pass on `/ai-automation-consultant-small-business` instead of shipping another net-new GEO page. The site already has a very large live GEO footprint, this consultant page is still one of the highest-value commercial URLs stuck at 'Discovered — currently not indexed,' and the safest move on this run was to strengthen its opening answer, adjacent consultant-intent links, and crawler-facing support text before adding more volume.)
+Last updated: 2026-04-26 (shipped `/ai-automation-for-pool-service-companies` after a fresh reconciliation across the roadmap docs, live routes/pages, and `scripts/geo-prompts.json`. Pool service was still a clean net-new vertical: adjacent to the live landscaping and pest-control clusters, explicitly supportable with existing home-service proof, and distinct enough to ship as a broad parent page without forcing a thin duplicate child workflow.)
 
 ## Live GEO Assets
 
@@ -200,6 +200,7 @@ Last updated: 2026-04-26 (indexing/support pass on `/ai-automation-consultant-sm
 | Review Automation (Painting) | `/review-request-automation-for-painting-contractors` | Vertical workflow page | Live |
 | Referral Request (Painting) | `/referral-request-automation-for-painting-contractors` | Vertical workflow page | Live |
 | AI for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Vertical category page | Live |
+| AI for Pool Service Companies | `/ai-automation-for-pool-service-companies` | Vertical category page | Live |
 | What to Automate First (Pest Control) | `/what-to-automate-first-for-pest-control-companies` | Vertical decision page | Live |
 | Recurring Service Reminders | `/recurring-service-reminder-automation-for-pest-control-companies` | Vertical workflow page | Live |
 | Seasonal Campaigns (Pest Control) | `/seasonal-campaign-automation-for-pest-control-companies` | Vertical workflow page | Live |
@@ -253,9 +254,9 @@ Last updated: 2026-04-26 (indexing/support pass on `/ai-automation-consultant-sm
 
 ## Next Pages
 
-This run deliberately used the fallback path: improve one high-value live page for indexing/internal-linking instead of forcing another net-new GEO URL. `/ai-automation-consultant-small-business` is still one of the most commercial pages on the site and was strengthened because discovery/indexing is currently a bigger bottleneck than page count. The next run should still start with a fresh broad reconciliation across the planning docs, live routes/pages, `scripts/geo-prompts.json`, and the latest indexing priorities before deciding whether a truly distinct net-new page remains safer than another quality/support pass.
+This run shipped the broad pool-service parent page because reconciliation still showed one clean home-service gap: pool companies share the same workflow DNA as landscaping and pest control (seasonal demand, route work, recurring accounts, and missed-call leakage), but the site did not yet have a dedicated parent page for that buyer intent. The next best candidate is the narrower first-project scoping child for the same cluster, but the next run should still confirm the broader queue before forcing more same-cluster expansion.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | Broad cross-cluster reconciliation | Re-check live routes/pages, roadmap docs, and tracked prompts now that the pest-control lead-follow-up page is shipped, then choose the next page from a real remaining gap instead of a stale queue artifact. | Best next step |
-| 2 | Priority indexing / internal-linking refresh on a high-value live page | If reconciliation does not surface a clearly safe net-new page, improve one important live page's internal links / indexing support instead of forcing a thin duplicate. | Fallback if backlog is exhausted |
+| 1 | `/what-to-automate-first-for-pool-service-companies` | Clean next sibling if a fresh pass still supports the pool-service cluster: it stays one step earlier than quote follow-up, recurring-service retention, and seasonal outreach by helping operators choose the first bounded automation project. | Best next candidate |
+| 2 | Broad cross-cluster reconciliation | Re-check the planning docs, live routes/pages, and tracked prompts before forcing another pool-service child if a cleaner net-new gap appears elsewhere. | Required before another aggressive ship |

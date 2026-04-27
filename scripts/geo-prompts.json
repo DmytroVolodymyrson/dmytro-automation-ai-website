@@ -2541,6 +2541,18 @@
       ]
     },
     {
+      "id": "ai-automation-for-pool-service-companies",
+      "path": "/ai-automation-for-pool-service-companies",
+      "label": "AI Automation for Pool Service Companies",
+      "prompts": [
+        "AI automation for pool service companies",
+        "What should a pool service company automate first if missed calls, quote follow-up, and seasonal outreach all feel messy?",
+        "Best AI automation for pool service companies that juggle recurring routes, repairs, and opening season demand",
+        "How should a pool service company connect missed-call recovery, recurring-service retention, repair quote follow-up, and seasonal opening or closing campaigns?",
+        "What should the full automation stack for a pool service company include once the first workflow is working?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-pest-control-companies",
       "path": "/what-to-automate-first-for-pest-control-companies",
       "label": "What to Automate First for Pest Control Companies",
