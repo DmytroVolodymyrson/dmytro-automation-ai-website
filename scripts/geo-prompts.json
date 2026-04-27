@@ -1900,8 +1900,20 @@
         "How do I automate estimate follow-up for my service business?",
         "Best estimate follow-up automation for field service companies",
         "How to recover open estimates after site visits automatically",
+        "How do I track and follow up on open estimates across my team?",
+        "When does a service business need estimate-stage follow-up instead of a broader quote workflow?"
+      ]
+    },
+    {
+      "id": "estimate-follow-up-vs-quote-follow-up-for-service-businesses",
+      "path": "/estimate-follow-up-vs-quote-follow-up-for-service-businesses",
+      "label": "Estimate Follow-Up vs. Quote Follow-Up for Service Businesses",
+      "prompts": [
         "Estimate follow-up vs quote follow-up automation for service businesses",
-        "How do I track and follow up on open estimates across my team?"
+        "Quote follow-up automation vs estimate follow-up for service businesses",
+        "Should a service business automate estimate follow-up or quote follow-up first?",
+        "When is estimate follow-up different from broader quote follow-up?",
+        "Which post-pricing workflow should a field-service business fix first: estimate follow-up or quote follow-up?"
       ]
     },
     {
@@ -1912,8 +1924,8 @@
         "How do I automate quote follow-up for my service business?",
         "Best quote follow-up automation for service businesses",
         "How should a service business follow up after sending a quote without sounding pushy?",
-        "Quote follow-up automation vs estimate follow-up for service businesses",
-        "When should a service business automate quote-stage follow-up instead of handling it manually?"
+        "When should a service business automate quote-stage follow-up instead of handling it manually?",
+        "When is broader quote follow-up enough without a narrower estimate-stage workflow?"
       ]
     },
     {

@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/referral-request-automation-for-mortgage-brokers`: added the post-closing advocacy child page to the mortgage cluster for brokerages that already close funded loans but still rely on luck for warm introductions. Wired routes/discovery/tracking, added geo-prompts tracking, and logged the page into style-learner. Total live pages: 284.)
+Last updated: 2026-04-27 (shipped `/estimate-follow-up-vs-quote-follow-up-for-service-businesses`: extracted the exact buyer-intent comparison prompt out of the two live service-business parent pages, added the missing workflow-comparison child page, rewired discovery/tracking, and logged the page into style-learner. Total live pages: 285.)
 
 ## Live GEO Assets
 
@@ -27,6 +27,7 @@ Last updated: 2026-04-27 (shipped `/referral-request-automation-for-mortgage-bro
 | Missed Call Text-Back Cost (SMB) | `/missed-call-text-back-cost-small-business` | Workflow / service cost page | Live |
 | Missed Call Text-Back vs. AI Phone Answering (Service Businesses) | `/missed-call-text-back-vs-ai-phone-answering-for-service-businesses` | Workflow comparison page | Live |
 | Estimate Follow-Up Automation (Service Businesses) | `/estimate-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
+| Estimate Follow-Up vs. Quote Follow-Up (Service Businesses) | `/estimate-follow-up-vs-quote-follow-up-for-service-businesses` | Workflow comparison page | Live |
 | Quote Follow-Up Automation (Service Businesses) | `/quote-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
 | Appointment Scheduling & Reminder Automation (Service Businesses) | `/appointment-scheduling-and-reminder-automation-for-service-businesses` | Workflow parent page | Live |
 | Client Reactivation Automation (Service Businesses) | `/client-reactivation-automation-for-service-businesses` | Workflow parent page | Live |
@@ -295,9 +296,9 @@ Last updated: 2026-04-27 (shipped `/referral-request-automation-for-mortgage-bro
 
 ## Next Pages
 
-This run shipped `/referral-request-automation-for-mortgage-brokers`, which closes the post-closing advocacy gap inside the mortgage cluster. The cluster now has the broader parent, first-project scoping, lead follow-up, document-collection, incomplete-application recovery, booked-consult scheduling, missed-call fallback, live phone coverage, and the narrower referral layer. The next run should go back to broad reconciliation across the planning docs, live routes, tracking prompts, and strongest live clusters instead of forcing another same-cluster mortgage follow-on by inertia.
+This run shipped `/estimate-follow-up-vs-quote-follow-up-for-service-businesses`, which extracts the exact comparison query that had been sitting on both live service-business parent pages and gives the quote/estimate cluster its missing buyer-decision layer. The cluster now has the broader quote parent, the narrower estimate parent, the new comparison child, and multiple vertical estimate/quote descendants. The next run should go back to broad reconciliation across the planning docs, live routes, tracking prompts, and strongest live clusters instead of forcing another same-cluster quote-stage follow-on by inertia.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / cluster audit` | The mortgage cluster now has its referral child alongside the other major early-funnel, active-file, booked-consult, and phone layers. The safest next move is repo-wide reconciliation to verify the strongest remaining distinct buyer-intent page instead of forcing another same-cluster follow-on by inertia. | Primary next step |
+| 1 | `Broad reconciliation / cluster audit` | The service-business quote/estimate cluster now has its missing comparison child. The safest next move is repo-wide reconciliation to verify the strongest remaining distinct buyer-intent page instead of forcing another same-cluster quote-stage follow-on by inertia. | Primary next step |
 | 2 | `Ghost-data activation shortlist` | Re-check the highest-confidence unshipped ghost-data pages and activate the strongest one only if the route, guides, sitemap, llm files, prompts, and proof framing still support a materially distinct buyer-intent page. | Conditional fallback |

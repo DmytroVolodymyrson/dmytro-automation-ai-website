@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-estimate-follow-up-vs-quote-follow-up-for-service-businesses",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: Estimate Follow-Up vs. Quote Follow-Up for Service Businesses\nBody: A lot of service businesses know they are losing deals after pricing goes out, but they still choose the wrong fix. They build a broad quote-follow-up sequence when the real leak starts after on-site estimates, or they obsess over estimate-stage reminders when the bigger problem is a messy quote stage across the whole business. Estimate follow-up and quote follow-up are related, but they are not interchangeable. Estimate follow-up is the narrower field-service layer: the customer had an inspection, site visit, or scoped job, an estimate went out, and now the handoff between the estimator and the office decides whether that opportunity stays alive. Quote follow-up is broader: any service business that sends pricing, proposals, or quotes needs disciplined next-step messaging after the quote is sent, even when there was no site visit at all.\nSub: Below: where estimate follow-up fits, where quote follow-up fits, when one should come before the other, what operational signals actually decide it, and what proof on this site honestly supports the comparison.\n\n### Core sections\n- What each workflow is actually trying to fix\n- Side-by-side comparison\n- When each one should come first\n- Good fit / bad fit signals\n- How businesses choose the wrong one\n- A simple way to decide\n- What proof honestly supports this comparison\n\n### FAQ\nSubhead: Practical questions about estimate follow-up vs. quote follow-up for service businesses\nTopics: the real difference between the two workflows, which one trades and field-service businesses should build first, whether both pages can coexist cleanly, likely cost differences, and what has to be fixed before either workflow is automated.\n\n### Final CTA\nHeading: Need help deciding which quote-stage workflow to build first?\nBody: Book a 30-minute call. We will look at how your business sends pricing today, where opportunities are going cold, whether the real leak is generic quote ownership or estimate-stage handoff, and which workflow is the cleaner first build.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the exact comparison prompt was already sitting on both live parent pages in `scripts/geo-prompts.json`, which made this a clean extracted child page instead of a guessed filler URL."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the framing materially distinct from `/estimate-follow-up-automation-for-service-businesses` by staying on the buyer decision itself, and distinct from `/quote-follow-up-automation-for-service-businesses` by focusing on workflow selection rather than broad quote-stage explanation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses disciplined adjacent proof only: the two live parent pages, the existing vertical estimate/quote cluster, and the published e-commerce CRM lifecycle case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: workflow stage, estimator-to-office handoff, quote ownership, trigger quality, and choosing the smallest build that actually fixes the revenue leak."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T21:47:55.429Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        1,
+        2,
+        3
+      ],
+      "avgSentenceLength": 25.1,
+      "sentenceLengthRange": [
+        5,
+        47
+      ],
+      "totalWords": 326
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Estimate Follow-Up vs.",
+      "wordCount": 5,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help deciding which quote-stage workflow to build first?\nBody: Book a 30-minute call. We will look at how your business sends pricing today, where opportunities are going cold, whether the real leak is generic quote ownership or estimate-stage handoff, and which workflow is the cleaner first build.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 21,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 10,
+      "commasPerSentence": 1.75
+    },
+    "vocabulary": {
+      "distinctWords": 174,
+      "totalWords": 326,
+      "topWords": [
+        [
+          "follow-up",
+          10
+        ],
+        [
+          "quote",
+          8
+        ],
+        [
+          "-",
+          7
+        ],
+        [
+          "estimate",
+          6
+        ],
+        [
+          "businesses",
+          5
+        ],
+        [
+          "they",
+          5
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "service",
+          4
+        ],
+        [
+          "build",
+          4
+        ],
+        [
+          "one",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "first",
+          4
+        ],
+        [
+          "after",
+          3
+        ],
+        [
+          "pricing",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

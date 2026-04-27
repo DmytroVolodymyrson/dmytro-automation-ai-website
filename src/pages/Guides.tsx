@@ -638,6 +638,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Estimate Follow-Up vs. Quote Follow-Up for Service Businesses",
+    description:
+      "Should a service business automate estimate follow-up or broader quote follow-up first? Practical comparison of site-visit handoff, quote-stage ownership, cost, and where each workflow actually fits.",
+    href: "/estimate-follow-up-vs-quote-follow-up-for-service-businesses",
+    category: "workflows",
+  },
+  {
     title: "Quote Follow-Up Automation for Service Businesses",
     description:
       "Cross-industry quote-stage recovery for service businesses. Timed reminders, objection-aware messaging, cleaner ownership after pricing goes out, and fast human handoff when a buyer re-engages.",

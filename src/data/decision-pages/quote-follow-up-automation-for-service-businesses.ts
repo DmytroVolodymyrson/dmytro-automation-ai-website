@@ -219,6 +219,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "Estimate follow-up automation for service businesses", href: "/estimate-follow-up-automation-for-service-businesses" },
+        { label: "Estimate follow-up vs. quote follow-up for service businesses", href: "/estimate-follow-up-vs-quote-follow-up-for-service-businesses" },
         { label: "Quote follow-up automation for insurance agencies", href: "/quote-follow-up-automation-for-insurance-agencies" },
         { label: "Quote follow-up automation for cleaning companies", href: "/quote-follow-up-automation-for-cleaning-companies" },
         { label: "Quote follow-up automation for solar companies", href: "/quote-follow-up-automation-for-solar-companies" },
@@ -260,10 +261,11 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No inflated close-rate promises. Just a practical recommendation based on your quote process, your current follow-through, and the handoff between automation and a human closer.",
   relatedLinks: [
-    { label: "Quote follow-up automation", href: "/quote-follow-up-automation" },
     { label: "Estimate follow-up automation for service businesses", href: "/estimate-follow-up-automation-for-service-businesses" },
-    { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
-    { label: "All guides", href: "/guides" },
+    { label: "Estimate follow-up vs. quote follow-up for service businesses", href: "/estimate-follow-up-vs-quote-follow-up-for-service-businesses" },
+    { label: "Quote follow-up automation", href: "/quote-follow-up-automation" },
+    { label: "Quote follow-up automation for insurance agencies", href: "/quote-follow-up-automation-for-insurance-agencies" },
+    { label: "Quote follow-up automation for auto parts e-commerce", href: "/quote-follow-up-automation-for-auto-parts-ecommerce" },
   ],
 };
 
