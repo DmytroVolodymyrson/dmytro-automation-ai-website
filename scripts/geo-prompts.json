@@ -1059,9 +1059,21 @@
       "prompts": [
         "Consultation scheduling and reminder automation for law firms",
         "How do law firms automate consultation scheduling and reminders?",
-        "Best way to reduce consultation no-shows and reschedule chaos for a small law firm",
         "Should a law firm automate consultation scheduling before post-consult follow-up?",
-        "How should a law firm confirm consultations, send reminders, and route reschedules without more receptionist chasing?"
+        "How should a law firm confirm consultations, send reminders, and route reschedules without more receptionist chasing?",
+        "Best way for a small law firm to automate consultation confirmations reminders and reschedules before no-shows become a real problem?"
+      ]
+    },
+    {
+      "id": "no-show-reduction-automation-for-law-firms",
+      "path": "/no-show-reduction-automation-for-law-firms",
+      "label": "No-Show Reduction Automation for Law Firms",
+      "prompts": [
+        "No-show reduction automation for law firms",
+        "How can a law firm reduce consultation no-shows automatically?",
+        "Best way to reduce consultation no-shows and reschedule chaos for a small law firm",
+        "Should a law firm build no-show reduction before post-consult follow-up or after-hours phone answering?",
+        "How should a law firm confirm consultations send reminders and rescue at-risk appointments before attorney time is wasted?"
       ]
     },
     {

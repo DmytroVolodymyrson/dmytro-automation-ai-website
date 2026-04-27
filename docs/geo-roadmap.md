@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/referral-request-automation-for-real-estate-agents`: added the post-closing advocacy page to the real-estate cluster for agents who want more warm introductions from satisfied clients without collapsing referral asks into review requests or broader client reactivation. Wired routes/discovery/tracking and added geo-prompts tracking. Total live pages: 282.)
+Last updated: 2026-04-27 (shipped `/no-show-reduction-automation-for-law-firms`: added the attendance-protection child page to the law-firm cluster for firms that already book consultations but still lose attorney time to weak confirmations, buried reschedules, and preventable no-shows. Wired routes/discovery/tracking and added geo-prompts tracking. Total live pages: 283.)
 
 ## Live GEO Assets
 
@@ -128,6 +128,7 @@ Last updated: 2026-04-27 (shipped `/referral-request-automation-for-real-estate-
 | AI Lead Follow-Up (Law Firms) | `/ai-lead-follow-up-for-law-firms` | Vertical workflow page | Live |
 | Intake/Conflict Check Automation | `/intake-and-conflict-check-automation-for-law-firms` | Vertical workflow page | Live |
 | Consultation Scheduling | `/consultation-scheduling-and-reminder-automation-for-law-firms` | Vertical workflow page | Live |
+| No-Show Reduction (Law Firms) | `/no-show-reduction-automation-for-law-firms` | Vertical workflow page | Live |
 | Unretained Consult Follow-Up | `/unretained-consult-follow-up-for-law-firms` | Vertical workflow page | Live |
 | Case Status Update Automation | `/case-status-update-automation-for-law-firms` | Vertical workflow page | Live |
 | AI Phone Answering (Law Firms) | `/ai-phone-answering-for-law-firms` | Vertical solution page | Live |
@@ -293,9 +294,9 @@ Last updated: 2026-04-27 (shipped `/referral-request-automation-for-real-estate-
 
 ## Next Pages
 
-This run shipped `/referral-request-automation-for-real-estate-agents`, which fills the post-closing advocacy gap inside the real-estate cluster. The cluster now has the broader parent, first-project scoping, lead response, showing coordination, CRM cleanup, CRM-vs-lead-follow-up comparison, client reactivation, missed-call text-back, live phone answering, review-request automation, referral-request automation, and text-back-vs-phone-answering comparison. The next run should start with a broad reconciliation across the planning docs, live routes, tracking prompts, and strongest live clusters to confirm whether any distinct unshipped buyer-intent page still survives cleanly.
+This run shipped `/no-show-reduction-automation-for-law-firms`, which closes the booked-consult attendance-protection gap inside the law-firm cluster. The cluster now has the broader parent, first-project scoping, inquiry response, intake/conflict-check prep, consultation scheduling, no-show reduction, unretained-consult follow-up, case-status updates, and the full phone-recovery comparison layer. The next run should go back to broad reconciliation across the planning docs, live routes, tracking prompts, and strongest live clusters to confirm the best remaining distinct buyer-intent page instead of forcing another same-cluster law-firm follow-on by inertia.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / cluster audit` | The real-estate cluster now has its referral-request child alongside the other major workflow and phone layers. The safest next move is repo-wide reconciliation to verify the strongest remaining distinct page instead of forcing another same-cluster follow-on by inertia. | Primary next step |
-| 2 | `Law-firm no-show reduction audit` | Only pursue a law-firm booked-consult / no-show child if a fresh live-cluster plus prompts review confirms that the page still survives cleanly as a distinct workflow separate from intake, post-consult follow-up, and phone handling. | Conditional fallback |
+| 1 | `Broad reconciliation / cluster audit` | The law-firm cluster now has its no-show child alongside the other major intake, post-consult, and phone layers. The safest next move is repo-wide reconciliation to verify the strongest remaining distinct page instead of forcing another same-cluster follow-on by inertia. | Primary next step |
+| 2 | `Ghost-data activation shortlist` | Re-check the highest-confidence unshipped ghost-data pages and activate the strongest one only if the route, guides, sitemap, llm files, prompts, and proof framing still support a materially distinct buyer-intent page. | Conditional fallback |

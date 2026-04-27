@@ -93,9 +93,9 @@ const data: DecisionPageData = {
           heading: "Start with consultation scheduling",
           items: [
             "Interest is coming in, but too much friction still exists between the inquiry and a confirmed consultation",
-            "Back-and-forth scheduling, reminders, and reschedules are clogging paralegal or receptionist time",
-            "You need a cleaner scheduling layer before you need a broader intake-and-follow-up system",
-            "Closest next page: /booking-confirmation-and-reminder-automation",
+            "Back-and-forth scheduling, reminders, reschedules, or no-show risk are clogging paralegal or receptionist time",
+            "You need a cleaner scheduling and attendance-protection layer before you need a broader intake-and-follow-up system",
+            "Closest next pages: /consultation-scheduling-and-reminder-automation-for-law-firms and /no-show-reduction-automation-for-law-firms",
           ],
         },
         {

@@ -1129,6 +1129,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "No-Show Reduction Automation for Law Firms",
+    description:
+      "Attendance-protection workflow for law firms that already book consultations but still lose attorney time to weak confirmations, buried reschedules, and preventable no-shows.",
+    href: "/no-show-reduction-automation-for-law-firms",
+    category: "industries",
+  },
+  {
     title: "Unretained-Consult Follow-Up for Law Firms",
     description:
       "Post-consult workflow for law firms that need disciplined follow-up after the meeting, clearer next-step reminders, cleaner reply routing, and fewer retained matters lost to manual chasing.",

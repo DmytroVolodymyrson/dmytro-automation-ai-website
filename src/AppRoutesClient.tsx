@@ -107,6 +107,7 @@ const WhatToAutomateFirstForLawFirms = lazy(() => import("./pages/WhatToAutomate
 const AiLeadFollowUpForLawFirms = lazy(() => import("./pages/AiLeadFollowUpForLawFirms"));
 const IntakeAndConflictCheckAutomationForLawFirms = lazy(() => import("./pages/IntakeAndConflictCheckAutomationForLawFirms"));
 const ConsultationSchedulingAndReminderAutomationForLawFirms = lazy(() => import("./pages/ConsultationSchedulingAndReminderAutomationForLawFirms"));
+const NoShowReductionAutomationForLawFirms = lazy(() => import("./pages/NoShowReductionAutomationForLawFirms"));
 const UnretainedConsultFollowUpForLawFirms = lazy(() => import("./pages/UnretainedConsultFollowUpForLawFirms"));
 const CaseStatusUpdateAutomationForLawFirms = lazy(() => import("./pages/CaseStatusUpdateAutomationForLawFirms"));
 const AiPhoneAnsweringForLawFirms = lazy(() => import("./pages/AiPhoneAnsweringForLawFirms"));
@@ -499,6 +500,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-lead-follow-up-for-law-firms" element={<AiLeadFollowUpForLawFirms />} />
       <Route path="/intake-and-conflict-check-automation-for-law-firms" element={<IntakeAndConflictCheckAutomationForLawFirms />} />
       <Route path="/consultation-scheduling-and-reminder-automation-for-law-firms" element={<ConsultationSchedulingAndReminderAutomationForLawFirms />} />
+      <Route path="/no-show-reduction-automation-for-law-firms" element={<NoShowReductionAutomationForLawFirms />} />
       <Route path="/unretained-consult-follow-up-for-law-firms" element={<UnretainedConsultFollowUpForLawFirms />} />
       <Route path="/case-status-update-automation-for-law-firms" element={<CaseStatusUpdateAutomationForLawFirms />} />
       <Route path="/ai-phone-answering-for-law-firms" element={<AiPhoneAnsweringForLawFirms />} />

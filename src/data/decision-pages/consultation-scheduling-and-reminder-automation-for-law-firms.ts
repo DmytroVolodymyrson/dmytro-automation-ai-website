@@ -221,7 +221,7 @@ const data: DecisionPageData = {
         { label: "AI automation for law firms", href: "/ai-automation-for-law-firms" },
         { label: "What to automate first for law firms", href: "/what-to-automate-first-for-law-firms" },
         { label: "Intake and conflict-check automation for law firms", href: "/intake-and-conflict-check-automation-for-law-firms" },
-        { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
+        { label: "No-show reduction automation for law firms", href: "/no-show-reduction-automation-for-law-firms" },
       ],
     },
   ],
