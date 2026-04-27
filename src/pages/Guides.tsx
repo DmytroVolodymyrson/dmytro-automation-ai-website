@@ -1971,6 +1971,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Recurring Service Reminder Automation for Pool Service Companies",
+    description:
+      "Recurring service reminder automation for pool service companies. Route reminders, seasonal plan renewals, lapse recovery, and cleaner office handoff for weekly, biweekly, and seasonal accounts that quietly lapse between visits.",
+    href: "/recurring-service-reminder-automation-for-pool-service-companies",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Pest Control Companies",
     description:
       "Scoping guide for pest control companies deciding whether the first workflow should be urgent lead follow-up, missed-call recovery, recurring-service reminders, seasonal campaigns, or heavier live phone coverage before a bigger automation build.",

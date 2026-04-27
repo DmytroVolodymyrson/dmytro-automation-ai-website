@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `/quote-follow-up-automation-for-pool-service-companies` — third child of the pool-service cluster. Covers post-pricing quote follow-up for repair, green-to-clean, cleanup, and equipment quotes: reminder timing, seasonal urgency, objection handling, stale-quote recovery, and office handoff. Total live pages: 247.)
+Last updated: 2026-04-26 (shipped `/recurring-service-reminder-automation-for-pool-service-companies` — fifth page in the pool-service cluster. Covers recurring-route retention: weekly and biweekly route reminders, seasonal plan renewals, lapse recovery, and office handoff for existing accounts that quietly lapse between visits. Total live pages: 248.)
 
 ## Live GEO Assets
 
@@ -204,6 +204,7 @@ Last updated: 2026-04-26 (shipped `/quote-follow-up-automation-for-pool-service-
 | What to Automate First (Pool Service) | `/what-to-automate-first-for-pool-service-companies` | Vertical decision page | Live |
 | AI Lead Follow-Up (Pool Service) | `/ai-lead-follow-up-for-pool-service-companies` | Vertical workflow page | Live |
 | Quote Follow-Up (Pool Service) | `/quote-follow-up-automation-for-pool-service-companies` | Vertical workflow page | Live |
+| Recurring Service Reminders (Pool Service) | `/recurring-service-reminder-automation-for-pool-service-companies` | Vertical workflow page | Live |
 | What to Automate First (Pest Control) | `/what-to-automate-first-for-pest-control-companies` | Vertical decision page | Live |
 | Recurring Service Reminders | `/recurring-service-reminder-automation-for-pest-control-companies` | Vertical workflow page | Live |
 | Seasonal Campaigns (Pest Control) | `/seasonal-campaign-automation-for-pest-control-companies` | Vertical workflow page | Live |
@@ -257,9 +258,9 @@ Last updated: 2026-04-26 (shipped `/quote-follow-up-automation-for-pool-service-
 
 ## Next Pages
 
-This run shipped the pool-service quote follow-up page (`/quote-follow-up-automation-for-pool-service-companies`), completing the post-pricing layer for the pool-service cluster. The cluster now has four live pages: parent, first-project scoping, lead follow-up, and quote follow-up. The next-best candidate is a cross-cluster reconciliation before adding a fifth pool-service child.
+This run shipped the pool-service recurring-service reminder page (`/recurring-service-reminder-automation-for-pool-service-companies`), adding the retention layer to the pool-service cluster. The cluster now has five live pages: parent, first-project scoping, lead follow-up, quote follow-up, and recurring-service reminders. The next-best candidate is a cross-cluster reconciliation before adding a sixth pool-service child.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | Cross-cluster reconciliation | The pool-service cluster now has four pages covering parent overview, first-project scoping, fresh-lead follow-up, and post-pricing quote follow-up. Check whether solar, plumbing, electrical, or another vertical has a higher-value child-page gap before adding a fifth pool-service child (e.g. recurring-route retention or seasonal campaigns). | Recommended next |
-| 2 | Narrower pool-service workflow child (recurring-route retention or seasonal opening/closing outreach) | If the cross-cluster check confirms pool service still has the highest-value gap, the next natural children cover retention and seasonal timing. | Evaluate after cross-cluster check |
+| 1 | Cross-cluster reconciliation | The pool-service cluster now has five pages covering parent overview, first-project scoping, fresh-lead follow-up, post-pricing quote follow-up, and recurring-route retention. Check whether solar, plumbing, electrical, or another vertical has a higher-value child-page gap before adding a sixth pool-service child (e.g. seasonal opening/closing outreach or review automation). | Recommended next |
+| 2 | Narrower pool-service workflow child (seasonal opening/closing outreach or review automation) | If the cross-cluster check confirms pool service still has the highest-value gap, the next natural children cover seasonal timing and reputation workflows. | Evaluate after cross-cluster check |

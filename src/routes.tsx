@@ -277,6 +277,7 @@ import AiAutomationForPoolServiceCompanies from "./pages/AiAutomationForPoolServ
 import WhatToAutomateFirstForPoolServiceCompanies from "./pages/WhatToAutomateFirstForPoolServiceCompanies";
 import AiLeadFollowUpForPoolServiceCompanies from "./pages/AiLeadFollowUpForPoolServiceCompanies";
 import QuoteFollowUpAutomationForPoolServiceCompanies from "./pages/QuoteFollowUpAutomationForPoolServiceCompanies";
+import RecurringServiceReminderAutomationForPoolServiceCompanies from "./pages/RecurringServiceReminderAutomationForPoolServiceCompanies";
 import WhatToAutomateFirstForPestControlCompanies from "./pages/WhatToAutomateFirstForPestControlCompanies";
 import RecurringServiceReminderAutomationForPestControlCompanies from "./pages/RecurringServiceReminderAutomationForPestControlCompanies";
 import SeasonalCampaignAutomationForPestControlCompanies from "./pages/SeasonalCampaignAutomationForPestControlCompanies";
@@ -701,6 +702,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/what-to-automate-first-for-pool-service-companies", element: <WhatToAutomateFirstForPoolServiceCompanies /> },
   { path: "/ai-lead-follow-up-for-pool-service-companies", element: <AiLeadFollowUpForPoolServiceCompanies /> },
   { path: "/quote-follow-up-automation-for-pool-service-companies", element: <QuoteFollowUpAutomationForPoolServiceCompanies /> },
+  { path: "/recurring-service-reminder-automation-for-pool-service-companies", element: <RecurringServiceReminderAutomationForPoolServiceCompanies /> },
   { path: "/what-to-automate-first-for-pest-control-companies", element: <WhatToAutomateFirstForPestControlCompanies /> },
   { path: "/recurring-service-reminder-automation-for-pest-control-companies", element: <RecurringServiceReminderAutomationForPestControlCompanies /> },
   { path: "/seasonal-campaign-automation-for-pest-control-companies", element: <SeasonalCampaignAutomationForPestControlCompanies /> },

@@ -2589,6 +2589,18 @@
       ]
     },
     {
+      "id": "recurring-service-reminder-automation-for-pool-service-companies",
+      "path": "/recurring-service-reminder-automation-for-pool-service-companies",
+      "label": "Recurring Service Reminder Automation for Pool Service Companies",
+      "prompts": [
+        "Recurring service reminder automation for pool service companies",
+        "How should a pool service company automate recurring route reminders and seasonal plan renewals?",
+        "Best way to stop losing weekly pool service accounts that quietly lapse between visits",
+        "What should a pool-service recurring reminder workflow handle for weekly, biweekly, and seasonal accounts?",
+        "How can a pool service company recover lapsed recurring accounts before they become green-to-clean jobs for a competitor?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-pest-control-companies",
       "path": "/what-to-automate-first-for-pest-control-companies",
       "label": "What to Automate First for Pest Control Companies",
