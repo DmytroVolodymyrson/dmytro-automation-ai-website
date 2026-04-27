@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/ai-phone-answering-vs-voicemail-for-mortgage-brokers`: extracted the exact mortgage live-answering-vs-voicemail buyer query out of the broader mortgage phone-answering page, completed the missing heavier phone-fallback comparison in the mortgage cluster, rewired discovery/tracking, and logged the page into style-learner. Total live pages: 287.)
+Last updated: 2026-04-27 (shipped `/ai-phone-answering-cost-small-business`: filled the missing horizontal pricing hub for the live phone-answering cluster, added the page across routes/discovery/tracking/style-learner, and kept the buyer framing distinct from the broader voice-agent cost page. Total live pages: 288.)
 
 ## Live GEO Assets
 
@@ -298,9 +298,9 @@ Last updated: 2026-04-27 (shipped `/ai-phone-answering-vs-voicemail-for-mortgage
 
 ## Next Pages
 
-This run shipped `/ai-phone-answering-vs-voicemail-for-mortgage-brokers`, which extracts the exact mortgage live-answering-vs-voicemail buyer query that had been sitting on the broader mortgage phone-answering page and completes the heavier phone-fallback comparison inside the mortgage cluster. The mortgage cluster now has the broad parent, the first-project selector, the lead-follow-up / application / document / scheduling children, the lighter missed-call fallback page, the lighter voicemail comparison, the broader live-answering page, and this heavier live-answering-vs-voicemail decision page. The next run should go back to broad reconciliation across the planning docs, live routes, tracking prompts, and strongest live clusters instead of forcing another same-cluster mortgage follow-on by inertia.
+The phone-answering pricing gap is now closed. Next run should go back to broad reconciliation instead of forcing another same-cluster phone page by inertia. The best-looking remaining candidate from this pass is a horizontal implementation-help sibling: `/ai-phone-answering-setup-small-business`, if full route/cluster reconciliation still confirms it stays distinct from the new cost page, the broader phone-answering guide, and the existing voice-agent setup pages.
 
-| Priority | Candidate | Why it is next | Status |
+| Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | `Broad reconciliation / cluster audit` | The mortgage phone cluster now has its missing heavier voicemail comparison. The safest next move is repo-wide reconciliation to verify the strongest remaining distinct buyer-intent page instead of forcing another same-cluster mortgage follow-on by inertia. | Primary next step |
-| 2 | `Ghost-data activation shortlist` | Re-check the highest-confidence unshipped ghost-data pages and activate the strongest one only if the route, guides, sitemap, llm files, prompts, and proof framing still support a materially distinct buyer-intent page. | Conditional fallback |
+| 1 | `/ai-phone-answering-setup-small-business` | High-intent setup/help query that would sit cleanly between the broad phone-answering guide and the new pricing page if the framing stays on implementation scope, handoff logic, and launch readiness. | Reconfirm the exact slug/page does not already exist anywhere in routes/pages/guides/sitemap/llm files/prompts and that the copy can stay distinct from the broader voice-agent setup cluster. |
+| 2 | Broad prompts/route reconciliation pass | `scripts/geo-prompts.json` still lags many already-live routes, which weakens tracking/discovery even when the content exists. | Re-run the live-routes vs prompts diff and choose the highest-value lagging cluster update if no clean net-new page survives. |

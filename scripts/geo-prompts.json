@@ -893,7 +893,7 @@
         "What should a mortgage broker automate first lead follow-up missed-call text-back document collection or incomplete application follow-up?",
         "Should a mortgage broker automate lead follow-up before document collection?",
         "Should a mortgage brokerage automate incomplete-application recovery before document reminders?",
-        "How do I choose the first automation project for a mortgage brokerage — lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
+        "How do I choose the first automation project for a mortgage brokerage \u2014 lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
       ]
     },
     {
@@ -2094,6 +2094,18 @@
         "AI voice agent pricing for lead qualification and phone answering",
         "What makes an AI voice agent project expensive?",
         "Is an AI voice agent worth the cost for a service business?"
+      ]
+    },
+    {
+      "id": "ai-phone-answering-cost-small-business",
+      "path": "/ai-phone-answering-cost-small-business",
+      "label": "AI Phone Answering Cost for Small Business",
+      "prompts": [
+        "What does AI phone answering cost for a small business?",
+        "How much should a small business budget for AI phone answering?",
+        "AI phone answering pricing for live call coverage and booking",
+        "What makes an AI phone answering setup expensive?",
+        "Is AI phone answering worth the cost for a service business?"
       ]
     },
     {

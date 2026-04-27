@@ -582,6 +582,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Phone Answering Cost for Small Business",
+    description:
+      "What a small business should actually budget for live AI phone coverage, after-hours answering, booking, CRM handoff, and the narrowest phone-answering layer worth paying for first.",
+    href: "/ai-phone-answering-cost-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Voice Agent ROI for Lead Follow-Up",
     description:
       "Practical ROI guide for voice-agent lead handling — setup cost, monthly cost, conservative payback math, and when a voice workflow is actually worth building versus overkill.",

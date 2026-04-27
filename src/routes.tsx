@@ -233,6 +233,7 @@ import AiVoiceAgentSetupMistakesSmallBusiness from "./pages/AiVoiceAgentSetupMis
 import AiVoiceAgentLaunchChecklistSmallBusiness from "./pages/AiVoiceAgentLaunchChecklistSmallBusiness";
 import AiVoiceAgentSetupVsDiySmallBusiness from "./pages/AiVoiceAgentSetupVsDiySmallBusiness";
 import AiVoiceAgentCostSmallBusiness from "./pages/AiVoiceAgentCostSmallBusiness";
+import AiPhoneAnsweringCostSmallBusiness from "./pages/AiPhoneAnsweringCostSmallBusiness";
 import AiVoiceAgentRoiForLeadFollowUp from "./pages/AiVoiceAgentRoiForLeadFollowUp";
 import InstantLeadResponse from "./pages/InstantLeadResponse";
 import ContactFormLeadFollowUpAutomation from "./pages/ContactFormLeadFollowUpAutomation";
@@ -698,6 +699,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-voice-agent-launch-checklist-small-business", element: <AiVoiceAgentLaunchChecklistSmallBusiness /> },
   { path: "/ai-voice-agent-setup-vs-diy-small-business", element: <AiVoiceAgentSetupVsDiySmallBusiness /> },
   { path: "/ai-voice-agent-cost-small-business", element: <AiVoiceAgentCostSmallBusiness /> },
+  { path: "/ai-phone-answering-cost-small-business", element: <AiPhoneAnsweringCostSmallBusiness /> },
   { path: "/ai-voice-agent-roi-for-lead-follow-up", element: <AiVoiceAgentRoiForLeadFollowUp /> },
   { path: "/instant-lead-response-automation", element: <InstantLeadResponse /> },
   { path: "/contact-form-lead-follow-up-automation", element: <ContactFormLeadFollowUpAutomation /> },
