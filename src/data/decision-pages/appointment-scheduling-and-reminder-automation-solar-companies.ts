@@ -261,6 +261,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No fake fully autonomous sales pitch. Just a practical recommendation based on your consult volume, rep travel time, and current no-show pain.",
   relatedLinks: [
+    { label: "Appointment scheduling and reminder automation for service businesses", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
     { label: "AI automation for solar companies", href: "/ai-automation-for-solar-companies" },
     { label: "What to automate first for solar companies", href: "/what-to-automate-first-for-solar-companies" },
     { label: "Utility bill collection for solar", href: "/utility-bill-collection-automation-for-solar-companies" },

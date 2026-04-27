@@ -624,6 +624,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Appointment Scheduling and Reminder Automation for Service Businesses",
+    description:
+      "Horizontal scheduling guide for service businesses deciding how to handle confirmations, reminders, reschedules, prep steps, and attended-appointment handoff without endless calendar chasing.",
+    href: "/appointment-scheduling-and-reminder-automation-for-service-businesses",
+    category: "workflows",
+  },
+  {
     title: "Contact Form Autoresponder vs. Full Lead Follow-Up",
     description:
       "Decision guide for owners asking whether a basic form autoresponder is still enough or whether website leads now need a real workflow with qualification, routing, and short follow-up.",

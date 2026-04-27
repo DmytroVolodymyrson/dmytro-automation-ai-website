@@ -254,6 +254,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No fake fully autonomous shop pitch. Just a practical recommendation based on your schedule flow, advisor workload, and current missed-appointment pain.",
   relatedLinks: [
+    { label: "Appointment scheduling and reminder automation for service businesses", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
     { label: "AI automation for auto repair shops", href: "/ai-automation-for-auto-repair-shops" },
     { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
     { label: "No-show reduction automation", href: "/no-show-reduction-automation" },

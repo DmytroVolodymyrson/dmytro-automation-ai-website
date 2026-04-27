@@ -261,6 +261,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No fake fully autonomous dispatch pitch. Just a practical recommendation based on your schedule flow, office workload, and current booked-job pain.",
   relatedLinks: [
+    { label: "Appointment scheduling and reminder automation for service businesses", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
     { label: "AI automation for plumbing companies", href: "/ai-automation-for-plumbing-companies" },
     { label: "What to automate first for plumbing companies", href: "/what-to-automate-first-for-plumbing-companies" },
     { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },

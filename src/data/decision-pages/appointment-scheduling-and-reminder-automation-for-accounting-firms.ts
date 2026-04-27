@@ -261,6 +261,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No fake fully autonomous accounting-firm pitch. Just a practical recommendation based on your meeting flow, staff workload, and where the current booking process still breaks down.",
   relatedLinks: [
+    { label: "Appointment scheduling and reminder automation for service businesses", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
     { label: "AI automation for accounting firms", href: "/ai-automation-for-accounting-firms" },
     { label: "What to automate first for accounting firms", href: "/what-to-automate-first-for-accounting-firms" },
     { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },

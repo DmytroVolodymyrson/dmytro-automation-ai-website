@@ -268,6 +268,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No generic mortgage-tech pitch. Just a practical recommendation based on your booked-call volume, broker time, and no-show pain.",
   relatedLinks: [
+    { label: "Appointment scheduling and reminder automation for service businesses", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
     { label: "AI automation for mortgage brokers", href: "/ai-automation-for-mortgage-brokers" },
     { label: "What to automate first for mortgage brokers", href: "/what-to-automate-first-for-mortgage-brokers" },
     { label: "AI lead follow-up for mortgage brokers", href: "/ai-lead-follow-up-for-mortgage-brokers" },

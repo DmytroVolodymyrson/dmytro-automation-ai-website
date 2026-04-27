@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/missed-call-text-back-cost-small-business` â€” a parent-level pricing page for the existing SMS-first phone-recovery cluster, distinct from the generic missed-call text-back explainer and the text-back-versus-AI-phone-answering decision page. Total live pages: 267.)
+Last updated: 2026-04-27 (shipped `/appointment-scheduling-and-reminder-automation-for-service-businesses` â€” a horizontal parent page for the existing scheduling/reminder cluster, distinct from AI appointment setter and the narrower booking-confirmation explainer. Total live pages: 268.)
 
 ## Live GEO Assets
 
@@ -27,6 +27,7 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-cost-small-business` â
 | Missed Call Text-Back Cost (SMB) | `/missed-call-text-back-cost-small-business` | Workflow / service cost page | Live |
 | Missed Call Text-Back vs. AI Phone Answering (Service Businesses) | `/missed-call-text-back-vs-ai-phone-answering-for-service-businesses` | Workflow comparison page | Live |
 | Estimate Follow-Up Automation (Service Businesses) | `/estimate-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
+| Appointment Scheduling & Reminder Automation (Service Businesses) | `/appointment-scheduling-and-reminder-automation-for-service-businesses` | Workflow parent page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Category cost page | Live |
 | AI Voice Agent Setup Cost (SMB) | `/ai-voice-agent-setup-cost-small-business` | Category cost page | Live |
 | AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo page | Live |
@@ -278,9 +279,9 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-cost-small-business` â
 
 ## Next Pages
 
-This run shipped the missing pricing child for the horizontal missed-call text-back cluster (`/missed-call-text-back-cost-small-business`). That closes the strongest remaining commercial parent gap inside the SMS-first phone-recovery family without duplicating the existing explainer or comparison page. The next run should not force another same-cluster phone-pricing slug by inertia. It should do a fresh broad backlog reconciliation across mature clusters and prompt ownership before naming the next clean net-new ship.
+This run shipped the missing horizontal parent for the mature scheduling/reminder cluster (`/appointment-scheduling-and-reminder-automation-for-service-businesses`). That closes a real cross-industry workflow gap without duplicating either `/ai-appointment-setter` or the narrower `/booking-confirmation-and-reminder-automation` page. The next run should not force another scheduling slug by inertia. It should do a fresh broad backlog reconciliation across mature clusters, live routes, and prompt ownership before naming the next clean candidate.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / watchlist refresh` | Re-check mature clusters, planning docs, route coverage, and prompt ownership before naming the next slug. The parent-level text-back pricing gap is now live, so the safest next move is another repo-wide re-audit rather than forcing a same-cluster phone page by habit. | Recommended next |
-| 2 | `/client-reactivation-automation-for-service-businesses` | If reconciliation does not surface a cleaner planned page, the strongest current fallback is a horizontal client-reactivation parent page. Multiple mature vertical clusters already have reactivation children, but there is still no service-business-level parent page that cleanly frames the cross-industry retained-customer recovery workflow. | Conditional fallback |
+| 1 | `Broad reconciliation / watchlist refresh` | Re-check mature clusters, planning docs, route coverage, and prompt ownership before naming the next slug. The horizontal scheduling parent is now live, so the safest next move is another repo-wide re-audit rather than forcing a same-cluster follow-on page by habit. | Recommended next |
+| 2 | `Prompt-ownership cleanup + proof-led fallback selection` | Retire stale fallback ideas that the live repo already covers (for example redundant service-business reactivation framing) and pick the next page only after reconciling docs, routes, and `scripts/geo-prompts.json` again. | Conditional fallback |

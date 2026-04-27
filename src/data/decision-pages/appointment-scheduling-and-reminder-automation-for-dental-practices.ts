@@ -268,6 +268,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No overbuilt front-desk AI pitch. Just a practical recommendation based on your current scheduling leak.",
   relatedLinks: [
+    { label: "Appointment scheduling and reminder automation for service businesses", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
     { label: "AI automation for dental practices", href: "/ai-automation-for-dental-practices" },
     { label: "What to automate first for dental practices", href: "/what-to-automate-first-for-dental-practices" },
     { label: "Recall and reactivation automation for dental practices", href: "/recall-and-reactivation-automation-for-dental-practices" },
