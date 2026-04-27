@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/ai-phone-answering-for-real-estate-agents`: added the heavier live-phone-coverage child page to the real-estate cluster for agents and teams who need live answer coverage while at showings, listing appointments, or after hours. Wired routes/discovery/tracking, added contextual internal links from the parent and sibling real-estate pages. Total live pages: 276.)
+Last updated: 2026-04-27 (shipped `/missed-call-text-back-for-mortgage-brokers`: added the lighter SMS-first missed-call recovery child page to the mortgage-broker cluster for brokerages that lose inbound opportunities while on another call, in a consultation, or between appointments. Wired routes/discovery/tracking, added contextual internal links from the mortgage parent and sibling pages. Total live pages: 277.)
 
 ## Live GEO Assets
 
@@ -102,6 +102,7 @@ Last updated: 2026-04-27 (shipped `/ai-phone-answering-for-real-estate-agents`: 
 
 | AI for Mortgage Brokers | `/ai-automation-for-mortgage-brokers` | Vertical category page | Live |
 | AI Lead Follow-Up (Mortgage) | `/ai-lead-follow-up-for-mortgage-brokers` | Vertical workflow page | Live |
+| Missed-Call Text-Back (Mortgage) | `/missed-call-text-back-for-mortgage-brokers` | Vertical workflow page | Live |
 | Document Collection (Mortgage) | `/document-collection-automation-for-mortgage-brokers` | Vertical workflow page | Live |
 | Incomplete Application Follow-Up | `/incomplete-application-follow-up-for-mortgage-brokers` | Vertical workflow page | Live |
 | What to Automate First (Mortgage) | `/what-to-automate-first-for-mortgage-brokers` | Vertical decision page | Live |
@@ -287,9 +288,9 @@ Last updated: 2026-04-27 (shipped `/ai-phone-answering-for-real-estate-agents`: 
 
 ## Next Pages
 
-This run shipped `/ai-phone-answering-for-real-estate-agents`, which qualified because the real-estate cluster already had the broader parent, decision-routing, lead-response, CRM, reactivation, showing, and lighter missed-call pages live, but still lacked the heavier live-answering counterpart. With both the lighter and heavier phone layers now live in the real-estate cluster, the next run should reset to broader reconciliation across mature clusters instead of forcing another same-cluster page by inertia.
+This run shipped `/missed-call-text-back-for-mortgage-brokers`, which qualified because the mortgage-broker cluster was still one of the thinnest high-value verticals on the site and lacked the lighter phone-recovery layer that already exists across many comparable service-business clusters. The next clean mortgage follow-on is the heavier live-answering sibling page, because the cluster now has the broader parent, early-funnel follow-up, booked-consult scheduling, and lighter missed-call recovery pages live but still lacks the distinct live-phone-coverage explainer.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / cluster audit` | The real-estate phone layer now has both the lighter SMS-first recovery page and the heavier live-answering page. Re-check which exact planned buyer-intent gap is still truly unshipped across all mature clusters before naming another target. | Primary next step |
-| 2 | `Watchlist refresh from GEO-PLAN.md + prompts` | If no clean mature-cluster gap survives reconciliation, refresh the late-backlog watchlist from broader planning docs and parent prompt sets instead of forcing another near-duplicate child page. | Fallback |
+| 1 | `/ai-phone-answering-for-mortgage-brokers` | The mortgage cluster now has the lighter missed-call child page but still lacks the heavier live-answering explainer. That page would serve brokerages whose phone volume or urgency has already outgrown SMS-first recovery and would complete the clean phone-coverage step-up inside this cluster. | Primary next step |
+| 2 | `Broad reconciliation / cluster audit` | If the heavier mortgage phone page no longer survives distinctness review against the live cluster and prompts, reset to cross-cluster reconciliation instead of forcing another same-cluster page by inertia. | Fallback |

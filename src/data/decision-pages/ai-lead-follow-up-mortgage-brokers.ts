@@ -351,6 +351,7 @@ const data: DecisionPageData = {
     "No generic audit. No obligation. Just a focused conversation about your brokerage's conversion bottlenecks.",
   relatedLinks: [
     { label: "AI automation for mortgage brokers", href: "/ai-automation-for-mortgage-brokers" },
+    { label: "Missed-call text-back for mortgage brokers", href: "/missed-call-text-back-for-mortgage-brokers" },
     { label: "AI automation for real estate", href: "/ai-automation-for-real-estate" },
     { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
     { label: "Lead follow-up automation examples", href: "/lead-follow-up-automation-examples" },

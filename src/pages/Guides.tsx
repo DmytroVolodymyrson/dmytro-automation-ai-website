@@ -940,6 +940,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed-Call Text-Back for Mortgage Brokers",
+    description:
+      "A narrower mortgage missed-call recovery page focused on immediate SMS-first callback protection for brokers who lose inbound opportunities while on another call, in a consultation, or between appointments.",
+    href: "/missed-call-text-back-for-mortgage-brokers",
+    category: "industries",
+  },
+  {
     title: "Document Collection Automation for Mortgage Brokers",
     description:
       "Automated reminders for missing mortgage documents, incomplete-file tracking, secure next-step prompts, and cleaner broker handoff without manual chasing.",

@@ -765,6 +765,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-for-mortgage-brokers",
+      "path": "/missed-call-text-back-for-mortgage-brokers",
+      "label": "Missed-Call Text-Back for Mortgage Brokers",
+      "prompts": [
+        "Missed-call text-back for mortgage brokers",
+        "How do mortgage brokers text back missed calls automatically?",
+        "Best way for a mortgage broker to follow up on missed inbound calls",
+        "Should a mortgage broker use missed-call text-back or voicemail?",
+        "When is SMS-first missed-call recovery enough for a mortgage brokerage?"
+      ]
+    },
+    {
       "id": "document-collection-automation-for-mortgage-brokers",
       "path": "/document-collection-automation-for-mortgage-brokers",
       "label": "Document Collection Automation for Mortgage Brokers",
@@ -794,10 +806,10 @@
       "label": "What to Automate First for Mortgage Brokers",
       "prompts": [
         "What should a mortgage brokerage automate first?",
-        "What should a mortgage broker automate first lead follow-up document collection or incomplete application follow-up?",
+        "What should a mortgage broker automate first lead follow-up missed-call text-back document collection or incomplete application follow-up?",
         "Should a mortgage broker automate lead follow-up before document collection?",
         "Should a mortgage brokerage automate incomplete-application recovery before document reminders?",
-        "How do I choose the first automation project for a mortgage brokerage \u2014 lead follow-up, document collection, incomplete-application recovery, or consultation scheduling?"
+        "How do I choose the first automation project for a mortgage brokerage — lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
       ]
     },
     {

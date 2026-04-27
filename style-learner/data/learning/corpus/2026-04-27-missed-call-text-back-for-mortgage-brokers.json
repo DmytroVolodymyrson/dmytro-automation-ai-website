@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-missed-call-text-back-for-mortgage-brokers",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: Missed-Call Text-Back for Mortgage Brokers\nBody: Mortgage brokers miss calls for a predictable reason: you are already on another call with a borrower, in a consultation, reviewing a file with your processor, or driving between appointments when the next inquiry rings in. That would be manageable if rate-sensitive leads waited. They usually do not. A borrower comparing pre-approval options often calls the next broker in line within minutes when the first one does not respond. Missed-call text-back for mortgage brokers is the lighter fallback layer between voicemail and full live phone answering. The call is missed, a useful text goes out right away, the lead gets a clear next step, and the opportunity stays alive long enough for you or your team to follow up properly. Done well, it protects speed to lead without pretending every mortgage conversation should happen over SMS.\nSub: Below: what mortgage missed-call text-back should actually handle, where it fits inside the broader mortgage automation cluster, what adjacent proof honestly supports it, and when you should move beyond text-back into heavier phone coverage.\n\n### Core sections\n- What a mortgage missed-call text-back workflow should actually do\n- How this page stays distinct from the other mortgage and call-handling guides\n- When this is a good fit and when it is not\n- Guardrails that keep mortgage missed-call recovery useful\n- How a practical mortgage missed-call text-back workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Straight answers for brokers deciding whether SMS-first missed-call recovery is enough\nTopics: whether text-back is enough for most mortgage brokers, what the first text should say, how this differs from the broader mortgage automation page, typical build cost, and the compliance concerns that should shape the messaging.\n\n### Final CTA\nHeading: Stop losing leads while you are on the other line\nBody: Book a 30-minute call. We will look at where your mortgage brokerage is leaking missed calls now, whether a focused text-back workflow is enough, and what the narrowest practical first fix should be.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the mortgage-broker cluster was still thin versus other high-value verticals and lacked the lighter missed-call recovery layer that already exists across many mature service-business clusters."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on one bounded top-of-funnel moment: the call goes unanswered, an immediate text protects the lead, a little context is captured, and the borrower gets routed back to a human quickly."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Explicitly separates this page from the broader `/ai-lead-follow-up-for-mortgage-brokers` workflow and the mid-funnel `/incomplete-application-follow-up-for-mortgage-brokers` page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live mortgage parent page, the live mortgage lead-follow-up page, and the Paris Cafe phone-handling case study as honest adjacent proof without pretending there is already a mortgage-specific published case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: speed-to-lead, callback protection, handoff boundaries, and compliance guardrails instead of generic AI claims."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T17:53:42.200Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        1,
+        1,
+        2
+      ],
+      "avgSentenceLength": 28.1,
+      "sentenceLengthRange": [
+        4,
+        62
+      ],
+      "totalWords": 337
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Missed-Call Text-Back for Mortgage Brokers\nBody: Mortgage brokers miss calls for a predictable reason: you are already on another call with a borrower, in a consultation, reviewing a file with your processor, or driving between appointments when the next inquiry rings in.",
+      "wordCount": 44,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing leads while you are on the other line\nBody: Book a 30-minute call. We will look at where your mortgage brokerage is leaking missed calls now, whether a focused text-back workflow is enough, and what the narrowest practical first fix should be.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 16,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 9,
+      "commasPerSentence": 1.45
+    },
+    "vocabulary": {
+      "distinctWords": 178,
+      "totalWords": 337,
+      "topWords": [
+        [
+          "mortgage",
+          13
+        ],
+        [
+          "text-back",
+          8
+        ],
+        [
+          "missed-call",
+          7
+        ],
+        [
+          "should",
+          7
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "brokers",
+          5
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "enough",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "calls",
+          3
+        ],
+        [
+          "call",
+          3
+        ],
+        [
+          "your",
+          3
+        ],
+        [
+          "next",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
