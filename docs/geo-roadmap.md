@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/no-show-reduction-automation-for-law-firms`: added the attendance-protection child page to the law-firm cluster for firms that already book consultations but still lose attorney time to weak confirmations, buried reschedules, and preventable no-shows. Wired routes/discovery/tracking and added geo-prompts tracking. Total live pages: 283.)
+Last updated: 2026-04-27 (shipped `/referral-request-automation-for-mortgage-brokers`: added the post-closing advocacy child page to the mortgage cluster for brokerages that already close funded loans but still rely on luck for warm introductions. Wired routes/discovery/tracking, added geo-prompts tracking, and logged the page into style-learner. Total live pages: 284.)
 
 ## Live GEO Assets
 
@@ -112,6 +112,7 @@ Last updated: 2026-04-27 (shipped `/no-show-reduction-automation-for-law-firms`:
 | Incomplete Application Follow-Up | `/incomplete-application-follow-up-for-mortgage-brokers` | Vertical workflow page | Live |
 | What to Automate First (Mortgage) | `/what-to-automate-first-for-mortgage-brokers` | Vertical decision page | Live |
 | Appointment Scheduling (Mortgage) | `/appointment-scheduling-and-reminder-automation-for-mortgage-brokers` | Vertical workflow page | Live |
+| Referral Request Automation (Mortgage) | `/referral-request-automation-for-mortgage-brokers` | Vertical workflow page | Live |
 | AI for Dental Practices | `/ai-automation-for-dental-practices` | Vertical category page | Live |
 | What to Automate First (Dental) | `/what-to-automate-first-for-dental-practices` | Vertical decision page | Live |
 | AI Lead Follow-Up (Dental) | `/ai-lead-follow-up-for-dental-practices` | Vertical workflow page | Live |
@@ -294,9 +295,9 @@ Last updated: 2026-04-27 (shipped `/no-show-reduction-automation-for-law-firms`:
 
 ## Next Pages
 
-This run shipped `/no-show-reduction-automation-for-law-firms`, which closes the booked-consult attendance-protection gap inside the law-firm cluster. The cluster now has the broader parent, first-project scoping, inquiry response, intake/conflict-check prep, consultation scheduling, no-show reduction, unretained-consult follow-up, case-status updates, and the full phone-recovery comparison layer. The next run should go back to broad reconciliation across the planning docs, live routes, tracking prompts, and strongest live clusters to confirm the best remaining distinct buyer-intent page instead of forcing another same-cluster law-firm follow-on by inertia.
+This run shipped `/referral-request-automation-for-mortgage-brokers`, which closes the post-closing advocacy gap inside the mortgage cluster. The cluster now has the broader parent, first-project scoping, lead follow-up, document-collection, incomplete-application recovery, booked-consult scheduling, missed-call fallback, live phone coverage, and the narrower referral layer. The next run should go back to broad reconciliation across the planning docs, live routes, tracking prompts, and strongest live clusters instead of forcing another same-cluster mortgage follow-on by inertia.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / cluster audit` | The law-firm cluster now has its no-show child alongside the other major intake, post-consult, and phone layers. The safest next move is repo-wide reconciliation to verify the strongest remaining distinct page instead of forcing another same-cluster follow-on by inertia. | Primary next step |
+| 1 | `Broad reconciliation / cluster audit` | The mortgage cluster now has its referral child alongside the other major early-funnel, active-file, booked-consult, and phone layers. The safest next move is repo-wide reconciliation to verify the strongest remaining distinct buyer-intent page instead of forcing another same-cluster follow-on by inertia. | Primary next step |
 | 2 | `Ghost-data activation shortlist` | Re-check the highest-confidence unshipped ghost-data pages and activate the strongest one only if the route, guides, sitemap, llm files, prompts, and proof framing still support a materially distinct buyer-intent page. | Conditional fallback |

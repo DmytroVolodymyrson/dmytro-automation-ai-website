@@ -61,6 +61,9 @@ Practical insurance comparison guide for agencies deciding whether an immediate 
 ## What to Automate First for Mortgage Brokers
 Practical mortgage-broker first-project guide for owners deciding whether the first workflow should be lead follow-up, document collection, or incomplete-application recovery before a broader automation rollout. Grounded in the live mortgage cluster plus published CRM and onboarding proof. Learn more: https://www.dmytroai.com/what-to-automate-first-for-mortgage-brokers
 
+## Referral Request Automation for Mortgage Brokers
+Practical mortgage post-closing advocacy guide for brokerages that want more warm introductions from satisfied funded borrowers without collapsing the ask into generic thank-you or review follow-up. Covers referral timing, separate review-vs-referral asks, and fast broker handoff when a friend, family member, or realtor contact gets mentioned. Learn more: https://www.dmytroai.com/referral-request-automation-for-mortgage-brokers
+
 ## What to Automate First for Real Estate Teams
 Practical real-estate first-project guide for owners and team leads deciding whether the first workflow should be lead response, showing coordination, CRM cleanup, or past-client reactivation before a broader automation rollout. Grounded in the live real-estate cluster plus published CRM and response proof. Learn more: https://www.dmytroai.com/what-to-automate-first-for-real-estate
 

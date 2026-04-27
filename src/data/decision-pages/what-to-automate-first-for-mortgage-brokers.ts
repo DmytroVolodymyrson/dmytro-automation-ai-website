@@ -320,6 +320,7 @@ const data: DecisionPageData = {
     { label: "Missed-call text-back for mortgage brokers", href: "/missed-call-text-back-for-mortgage-brokers" },
     { label: "Missed-call text-back vs. voicemail for mortgage brokers", href: "/missed-call-text-back-vs-voicemail-for-mortgage-brokers" },
     { label: "Appointment scheduling and reminder automation for mortgage brokers", href: "/appointment-scheduling-and-reminder-automation-for-mortgage-brokers" },
+    { label: "Referral request automation for mortgage brokers", href: "/referral-request-automation-for-mortgage-brokers" },
     { label: "Document collection automation for mortgage brokers", href: "/document-collection-automation-for-mortgage-brokers" },
     { label: "Incomplete application follow-up for mortgage brokers", href: "/incomplete-application-follow-up-for-mortgage-brokers" },
     { label: "All guides", href: "/guides" },

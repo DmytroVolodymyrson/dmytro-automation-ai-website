@@ -1010,6 +1010,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Referral Request Automation for Mortgage Brokers",
+    description:
+      "Post-closing advocacy workflow for mortgage brokerages that want more warm introductions from satisfied funded borrowers, clearer referral timing, and faster broker handoff when a friend, family member, or realtor contact gets mentioned.",
+    href: "/referral-request-automation-for-mortgage-brokers",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Dental Practices",
     description:
       "AI automation for dental practices. Patient booking, recall campaigns, appointment reminders, intake forms, and no-show follow-up.",

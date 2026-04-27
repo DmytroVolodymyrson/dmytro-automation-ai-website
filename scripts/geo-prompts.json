@@ -885,6 +885,18 @@
       ]
     },
     {
+      "id": "referral-request-automation-for-mortgage-brokers",
+      "path": "/referral-request-automation-for-mortgage-brokers",
+      "label": "Referral Request Automation for Mortgage Brokers",
+      "prompts": [
+        "Referral request automation for mortgage brokers",
+        "How do mortgage brokers ask for referrals after closing without sounding pushy?",
+        "Best way to automate post-closing referral requests for mortgage brokers",
+        "Should a mortgage brokerage separate referral asks from review requests after a funded loan?",
+        "How should mortgage brokers follow up when a happy borrower mentions a friend or realtor contact who needs financing?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-dental-practices",
       "path": "/what-to-automate-first-for-dental-practices",
       "label": "What to Automate First for Dental Practices",
