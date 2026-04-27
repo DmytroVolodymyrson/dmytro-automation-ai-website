@@ -122,6 +122,7 @@ import SeasonalClientReactivationForAccountingFirms from "./pages/SeasonalClient
 import AiLeadFollowUpForAccountingFirms from "./pages/AiLeadFollowUpForAccountingFirms";
 import AiPhoneAnsweringForAccountingFirms from "./pages/AiPhoneAnsweringForAccountingFirms";
 import AiPhoneAnsweringVsVoicemailForAccountingFirms from "./pages/AiPhoneAnsweringVsVoicemailForAccountingFirms";
+import ReviewRequestAutomationForAccountingFirms from "./pages/ReviewRequestAutomationForAccountingFirms";
 import AiAutomationForPlumbingCompanies from "./pages/AiAutomationForPlumbingCompanies";
 import WhatToAutomateFirstForPlumbingCompanies from "./pages/WhatToAutomateFirstForPlumbingCompanies";
 import AiLeadFollowUpForPlumbingCompanies from "./pages/AiLeadFollowUpForPlumbingCompanies";
@@ -525,6 +526,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-lead-follow-up-for-accounting-firms", element: <AiLeadFollowUpForAccountingFirms /> },
   { path: "/ai-phone-answering-for-accounting-firms", element: <AiPhoneAnsweringForAccountingFirms /> },
   { path: "/ai-phone-answering-vs-voicemail-for-accounting-firms", element: <AiPhoneAnsweringVsVoicemailForAccountingFirms /> },
+  { path: "/review-request-automation-for-accounting-firms", element: <ReviewRequestAutomationForAccountingFirms /> },
   { path: "/ai-automation-for-plumbing-companies", element: <AiAutomationForPlumbingCompanies /> },
   { path: "/what-to-automate-first-for-plumbing-companies", element: <WhatToAutomateFirstForPlumbingCompanies /> },
   { path: "/ai-lead-follow-up-for-plumbing-companies", element: <AiLeadFollowUpForPlumbingCompanies /> },

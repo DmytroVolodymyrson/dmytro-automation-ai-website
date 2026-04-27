@@ -234,7 +234,7 @@ const AiAppointmentSetter = () => {
               {
                 title: "Voice agent or human team",
                 body: "Read this when the real decision is not whether to automate, but how much of first contact should stay with people versus AI.",
-                href: "/voice-agent-vs-human-appointment-setter",
+                href: "/ai-voice-agent-vs-human-appointment-setter",
                 cta: "Compare voice agent vs human",
               },
               {
@@ -460,7 +460,7 @@ const AiAppointmentSetter = () => {
           <p className="text-sm text-muted-foreground mt-6 max-w-3xl leading-relaxed">
             The best results come from using AI for the repetitive 70 to 80% and
             freeing your team to focus on the interactions that actually require
-            a person. If that boundary is still fuzzy, compare an <Link to="/voice-agent-vs-human-appointment-setter" className="text-primary hover:text-primary/80 underline underline-offset-4">AI-first handoff model versus a human-first process</Link> before you commit to a build.
+            a person. If that boundary is still fuzzy, compare an <Link to="/ai-voice-agent-vs-human-appointment-setter" className="text-primary hover:text-primary/80 underline underline-offset-4">AI-first handoff model versus a human-first process</Link> before you commit to a build.
           </p>
         </Section>
 

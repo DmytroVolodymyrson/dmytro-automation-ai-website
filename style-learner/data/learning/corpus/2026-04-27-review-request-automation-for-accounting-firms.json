@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-review-request-automation-for-accounting-firms",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: Review Request Automation for Accounting Firms\nBody: A lot of accounting firms do not only lose clients because somebody missed the first inquiry. They also leave easy trust on the table after the engagement is already done. The tax return was filed. The bookkeeping cleanup wrapped. The advisory project delivered its recommendations. The annual audit closed out. Then nothing happened. Or the review ask went out too early while the client was still waiting to see whether the numbers held or the filing was accepted. Or every completed engagement got the same generic message even when an invoice question, missing-document concern, filing correction, or scope disagreement should have come back to the partner or manager first. Review request automation for accounting firms fixes that narrower post-engagement workflow. It gives completed work a cleaner closeout path, helps the firm ask for reviews when the experience is actually ready, and protects reputation by routing uncertain replies back inside before the firm pushes for a public rating.\nSub: Below: what a practical accounting review-request workflow should actually handle, how it stays distinct from the broader accounting page and the first-project scoping page, what guardrails matter, and what proof honestly supports this page without pretending there is already a dedicated accounting review-automation case study on the site.\n\n### Core sections\n- What accounting review-request automation should actually handle\n- How this page stays distinct inside the accounting cluster\n- Good fit / not-fit framing\n- Guardrails that keep accounting review-request automation useful\n- How a practical accounting review-request workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions about automating review requests for accounting firms\nTopics: how this differs from the broader accounting page, why firms should not ask for reviews immediately after every engagement, what a focused accounting review-request workflow usually costs, whether it can work with a current accounting software stack, and where the ROI usually comes from.\n\n### Final CTA\nHeading: Need cleaner reputation follow-up after the engagement is done?\nBody: Book a 30-minute call. We will look at how completed engagements get handed off today, where review asks are being missed or mistimed, and whether a focused post-engagement workflow, an earlier lead or onboarding fix, or no new build is the smarter next move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the accounting cluster had a clean post-engagement workflow gap: the broader parent and first-project page already framed the accounting operating system, but there was still no dedicated child page isolating review-request timing and unhappy-reply routing after the work was complete."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the framing distinct from `/ai-automation-for-accounting-firms`, `/what-to-automate-first-for-accounting-firms`, `/appointment-scheduling-and-reminder-automation-for-accounting-firms`, and `/seasonal-client-reactivation-for-accounting-firms` by staying tightly on the closeout / reputation stage instead of earlier lead, onboarding, scheduling, or reactivation layers."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses disciplined adjacent proof only: the live accounting cluster, the live HVAC review-request page as workflow-shape proof, and the published e-commerce CRM case study for stage visibility and handoff logic, without pretending there is already an accounting-specific review-automation case study on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: filing acceptance timing, bookkeeping closeout timing, partner handoff, complaint routing, and local-trust follow-through instead of generic reputation-management promises."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T08:00:40.660Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        12,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 22.2,
+      "sentenceLengthRange": [
+        3,
+        56
+      ],
+      "totalWords": 377
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Review Request Automation for Accounting Firms\nBody: A lot of accounting firms do not only lose clients because somebody missed the first inquiry.",
+      "wordCount": 25,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need cleaner reputation follow-up after the engagement is done?\nBody: Book a 30-minute call. We will look at how completed engagements get handed off today, where review asks are being missed or mistimed, and whether a focused post-engagement workflow, an earlier lead or onboarding fix, or no new build is the smarter next move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 15,
+      "commas": 16,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 211,
+      "totalWords": 377,
+      "topWords": [
+        [
+          "accounting",
+          14
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "page",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "review",
+          5
+        ],
+        [
+          "firms",
+          5
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "review-request",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "engagement",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "after",
+          3
+        ],
+        [
+          "ask",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

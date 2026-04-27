@@ -1125,6 +1125,18 @@
       ]
     },
     {
+      "id": "review-request-automation-for-accounting-firms",
+      "path": "/review-request-automation-for-accounting-firms",
+      "label": "Review Request Automation for Accounting Firms",
+      "prompts": [
+        "Review request automation for accounting firms",
+        "How do accounting firms ask for more Google reviews after completing tax returns or advisory engagements?",
+        "Best way for a CPA firm to automate post-engagement review requests without pushing unhappy clients toward a public review too early",
+        "Should an accounting firm automate review requests after tax filings, bookkeeping cleanups, or audit completions?",
+        "How should an accounting firm route client complaints or billing concerns before asking for a Google review?"
+      ]
+    },
+    {
       "id": "ai-automation-for-insurance-agencies",
       "path": "/ai-automation-for-insurance-agencies",
       "label": "AI Automation for Insurance Agencies",

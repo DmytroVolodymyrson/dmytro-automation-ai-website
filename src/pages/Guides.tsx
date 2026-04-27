@@ -1121,6 +1121,13 @@ const guides: GuideItem[] = [
     href: "/ai-phone-answering-vs-voicemail-for-accounting-firms",
     category: "comparisons",
   },
+  {
+    title: "Review Request Automation for Accounting Firms",
+    description:
+      "Post-engagement review-request workflow for accounting firms — better timing after tax returns, bookkeeping cleanups, advisory engagements, and audits, unhappy-reply routing before the public ask, and cleaner local-trust follow-through.",
+    href: "/review-request-automation-for-accounting-firms",
+    category: "industries",
+  },
 
   {
     title: "AI Automation for Plumbing Companies",

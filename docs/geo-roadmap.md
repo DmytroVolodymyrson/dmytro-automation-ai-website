@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/appointment-scheduling-and-reminder-automation-for-mortgage-brokers` — mortgage workflow page focused on booked-consultation confirmations, reminder timing, reschedule routing, borrower readiness, and cleaner broker handoff after a lead is warm enough to book. Total live pages: 258.)
+Last updated: 2026-04-27 (shipped `/review-request-automation-for-accounting-firms` — accounting post-engagement review-request workflow focused on timing after tax returns, bookkeeping cleanups, advisory engagements, and audits, unhappy-reply routing before the public ask, and cleaner local-trust follow-through. Total live pages: 259.)
 
 ## Live GEO Assets
 
@@ -137,6 +137,7 @@ Last updated: 2026-04-27 (shipped `/appointment-scheduling-and-reminder-automati
 | Seasonal Reactivation (Accounting) | `/seasonal-client-reactivation-for-accounting-firms` | Vertical workflow page | Live |
 | AI Lead Follow-Up (Accounting) | `/ai-lead-follow-up-for-accounting-firms` | Vertical workflow page | Live |
 | AI Phone Answering (Accounting) | `/ai-phone-answering-for-accounting-firms` | Vertical solution page | Live |
+| Review Automation (Accounting) | `/review-request-automation-for-accounting-firms` | Vertical workflow page | Live |
 | AI for Plumbing Companies | `/ai-automation-for-plumbing-companies` | Vertical category page | Live |
 | What to Automate First (Plumbing) | `/what-to-automate-first-for-plumbing-companies` | Vertical decision page | Live |
 | AI Lead Follow-Up (Plumbing) | `/ai-lead-follow-up-for-plumbing-companies` | Vertical workflow page | Live |
@@ -268,9 +269,9 @@ Last updated: 2026-04-27 (shipped `/appointment-scheduling-and-reminder-automati
 
 ## Next Pages
 
-This run shipped the mortgage booked-consultation child page (`/appointment-scheduling-and-reminder-automation-for-mortgage-brokers`). The mortgage cluster now covers the broader parent, first-project decision, lead follow-up, document collection, incomplete-application recovery, and the booked-consultation reminder layer.
+This run shipped the accounting review-request child page (`/review-request-automation-for-accounting-firms`). The accounting cluster now covers the broader parent, first-project decision, lead follow-up, onboarding, document collection, scheduling, seasonal reactivation, phone answering, phone-vs-voicemail comparison, and the post-engagement review-request layer.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `/voice-agent-vs-human-appointment-setter` | There is still a live broken internal link from `/ai-appointment-setter` to this slug, and the page fits a high-intent comparison cluster that is already partially built. Shipping it would resolve a current 404 while strengthening a money-intent decision path. | Recommended next |
-| 2 | `/review-request-automation-for-accounting-firms` | The accounting cluster has the broader parent, first-project page, lead follow-up, onboarding, scheduling, seasonal reactivation, and phone-answering pages, but still lacks the clean review-request child that many other verticals already have. | Strong fallback |
+| 1 | `/missed-call-text-back-for-accounting-firms` | The accounting cluster now covers intake, onboarding, scheduling, reactivation, phone answering, phone-vs-voicemail, and review follow-through, but it still lacks the lighter missed-call recovery layer that many professional-services clusters use before heavier live-phone coverage. That makes it the cleanest next accounting child if the next run stays in-cluster. | Recommended next |
+| 2 | `Broad reconciliation / watchlist refresh` | The stale `/voice-agent-vs-human-appointment-setter` recommendation turned out to be a broken-link issue because the real page already exists at `/ai-voice-agent-vs-human-appointment-setter`, and the older roofing fallback was also already live. The next run should re-check mature clusters and broken-link/indexing gaps before naming another specific fallback slug. | Backup mode |
