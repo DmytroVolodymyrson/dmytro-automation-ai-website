@@ -933,6 +933,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. AI Phone Answering for Real Estate Agents",
+    description:
+      "Should a real estate agent use SMS-first missed-call recovery or live AI phone answering? Practical comparison of call pattern, lead urgency, showing availability, and cost for agents who lose calls at showings and appointments.",
+    href: "/missed-call-text-back-vs-ai-phone-answering-for-real-estate-agents",
+    category: "comparisons",
+  },
+  {
     title: "AI Automation for Mortgage Brokers",
     description:
       "AI automation for mortgage brokers. Lead follow-up, document collection, application nurture, and CRM workflows. Practical guide for brokerages.",

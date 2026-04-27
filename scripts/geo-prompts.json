@@ -746,7 +746,7 @@
       "label": "AI Phone Answering for Real Estate Agents",
       "prompts": [
         "AI phone answering for real estate agents",
-        "Should a real estate team use live AI phone answering or missed call text-back?",
+        "What does AI phone answering actually handle for a real estate team?",
         "How can real estate agents answer leads live while they are at showings?",
         "Best AI answering service for real estate listing and buyer inquiries",
         "When is voicemail not enough for real estate leads calling after hours or during appointments?"
@@ -762,6 +762,18 @@
         "Best way to automate review requests after a real estate transaction without pushing unhappy clients too early",
         "When should a real estate agent ask for reviews after a deal closes?",
         "How should a real estate team route unhappy post-closing replies before sending a public review link?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-ai-phone-answering-for-real-estate-agents",
+      "path": "/missed-call-text-back-vs-ai-phone-answering-for-real-estate-agents",
+      "label": "Missed Call Text-Back vs. AI Phone Answering for Real Estate Agents",
+      "prompts": [
+        "Missed call text-back vs AI phone answering for real estate agents",
+        "Should a real estate agent use missed call text-back or live AI phone answering?",
+        "Best way for real estate agents to handle missed calls while at showings",
+        "Is missed call text-back enough for a real estate business or do I need AI phone answering?",
+        "How should a real estate agent choose between SMS-first missed-call recovery and live AI call answering?"
       ]
     },
     {

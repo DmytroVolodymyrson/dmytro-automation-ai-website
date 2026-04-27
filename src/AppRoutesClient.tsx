@@ -79,6 +79,7 @@ const CrmCleanupVsLeadFollowUpForRealEstateTeams = lazy(() => import("./pages/Cr
 const MissedCallTextBackForRealEstateAgents = lazy(() => import("./pages/MissedCallTextBackForRealEstateAgents"));
 const AiPhoneAnsweringForRealEstateAgents = lazy(() => import("./pages/AiPhoneAnsweringForRealEstateAgents"));
 const ReviewRequestAutomationForRealEstateAgents = lazy(() => import("./pages/ReviewRequestAutomationForRealEstateAgents"));
+const MissedCallTextBackVsAiPhoneAnsweringForRealEstateAgents = lazy(() => import("./pages/MissedCallTextBackVsAiPhoneAnsweringForRealEstateAgents"));
 const AiAutomationForMortgageBrokers = lazy(() => import("./pages/AiAutomationForMortgageBrokers"));
 const AiLeadFollowUpForMortgageBrokers = lazy(() => import("./pages/AiLeadFollowUpForMortgageBrokers"));
 const MissedCallTextBackForMortgageBrokers = lazy(() => import("./pages/MissedCallTextBackForMortgageBrokers"));
@@ -469,6 +470,7 @@ const AppRoutesClient = () => (
       <Route path="/missed-call-text-back-for-real-estate-agents" element={<MissedCallTextBackForRealEstateAgents />} />
       <Route path="/ai-phone-answering-for-real-estate-agents" element={<AiPhoneAnsweringForRealEstateAgents />} />
       <Route path="/review-request-automation-for-real-estate-agents" element={<ReviewRequestAutomationForRealEstateAgents />} />
+      <Route path="/missed-call-text-back-vs-ai-phone-answering-for-real-estate-agents" element={<MissedCallTextBackVsAiPhoneAnsweringForRealEstateAgents />} />
       <Route path="/ai-automation-for-mortgage-brokers" element={<AiAutomationForMortgageBrokers />} />
       <Route path="/ai-lead-follow-up-for-mortgage-brokers" element={<AiLeadFollowUpForMortgageBrokers />} />
       <Route path="/missed-call-text-back-for-mortgage-brokers" element={<MissedCallTextBackForMortgageBrokers />} />

@@ -272,6 +272,7 @@ const data: DecisionPageData = {
     { label: "AI automation for real estate", href: "/ai-automation-for-real-estate" },
     { label: "What to automate first for real estate teams", href: "/what-to-automate-first-for-real-estate" },
     { label: "Missed call text-back for real estate agents", href: "/missed-call-text-back-for-real-estate-agents" },
+    { label: "Missed call text-back vs AI phone answering for real estate agents", href: "/missed-call-text-back-vs-ai-phone-answering-for-real-estate-agents" },
     { label: "Real estate lead response and follow-up automation", href: "/real-estate-lead-response-and-follow-up-automation" },
     { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
     { label: "All guides", href: "/guides" },
