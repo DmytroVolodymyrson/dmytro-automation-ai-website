@@ -879,8 +879,15 @@ const guides: GuideItem[] = [
   {
     title: "What to Automate First for Mortgage Brokers",
     description:
-      "Scoping guide for mortgage brokerages deciding whether the first automation should be lead follow-up, document collection, or incomplete-application recovery before a broader rollout.",
+      "Scoping guide for mortgage brokerages deciding whether the first automation should be lead follow-up, document collection, incomplete-application recovery, or booked-consultation follow-through before a broader rollout.",
     href: "/what-to-automate-first-for-mortgage-brokers",
+    category: "industries",
+  },
+  {
+    title: "Appointment Scheduling and Reminder Automation for Mortgage Brokers",
+    description:
+      "Booked-consultation workflow for mortgage brokerages focused on clearer confirmations, reminder timing, easy reschedules, borrower readiness prompts, and cleaner broker handoff before warm leads drift.",
+    href: "/appointment-scheduling-and-reminder-automation-for-mortgage-brokers",
     category: "industries",
   },
   {

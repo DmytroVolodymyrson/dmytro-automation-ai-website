@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/gohighlevel-vs-jobber-for-contractors` — contractor platform decision page comparing GoHighLevel marketing CRM against Jobber field-service scheduling/dispatch/invoicing, when contractors need one vs. both, and how to keep the handoff clean. Total live pages: 257.)
+Last updated: 2026-04-27 (shipped `/appointment-scheduling-and-reminder-automation-for-mortgage-brokers` — mortgage workflow page focused on booked-consultation confirmations, reminder timing, reschedule routing, borrower readiness, and cleaner broker handoff after a lead is warm enough to book. Total live pages: 258.)
 
 ## Live GEO Assets
 
@@ -94,6 +94,7 @@ Last updated: 2026-04-27 (shipped `/gohighlevel-vs-jobber-for-contractors` — c
 | Document Collection (Mortgage) | `/document-collection-automation-for-mortgage-brokers` | Vertical workflow page | Live |
 | Incomplete Application Follow-Up | `/incomplete-application-follow-up-for-mortgage-brokers` | Vertical workflow page | Live |
 | What to Automate First (Mortgage) | `/what-to-automate-first-for-mortgage-brokers` | Vertical decision page | Live |
+| Appointment Scheduling (Mortgage) | `/appointment-scheduling-and-reminder-automation-for-mortgage-brokers` | Vertical workflow page | Live |
 | AI for Dental Practices | `/ai-automation-for-dental-practices` | Vertical category page | Live |
 | What to Automate First (Dental) | `/what-to-automate-first-for-dental-practices` | Vertical decision page | Live |
 | AI Lead Follow-Up (Dental) | `/ai-lead-follow-up-for-dental-practices` | Vertical workflow page | Live |
@@ -267,9 +268,9 @@ Last updated: 2026-04-27 (shipped `/gohighlevel-vs-jobber-for-contractors` — c
 
 ## Next Pages
 
-This run shipped the GoHighLevel vs. Jobber contractor comparison page (`/gohighlevel-vs-jobber-for-contractors`). This is a new sibling to the existing GoHighLevel vs. Custom CRM contractor page, focused on the marketing-CRM-vs-field-service-platform decision and when contractors need one tool, both, or a bridged setup.
+This run shipped the mortgage booked-consultation child page (`/appointment-scheduling-and-reminder-automation-for-mortgage-brokers`). The mortgage cluster now covers the broader parent, first-project decision, lead follow-up, document collection, incomplete-application recovery, and the booked-consultation reminder layer.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | Cross-cluster reconciliation | The contractor platform-choice cluster now has the parent CRM page plus setup, cost, DIY, custom-CRM comparison, and Jobber comparison pages. Re-check property management, restaurants, law firms, and other mature live verticals for the next clearly distinct child-page gap instead of forcing another contractor-platform sibling by inertia. | Recommended next |
-| 2 | Verified cross-cluster fallback/watchlist candidate | If reconciliation still does not produce a stronger gap, use a proof-led watchlist candidate from another live cluster rather than extending any already-dense platform or phone cluster automatically. | Evaluate after cross-cluster check |
+| 1 | `/voice-agent-vs-human-appointment-setter` | There is still a live broken internal link from `/ai-appointment-setter` to this slug, and the page fits a high-intent comparison cluster that is already partially built. Shipping it would resolve a current 404 while strengthening a money-intent decision path. | Recommended next |
+| 2 | `/review-request-automation-for-accounting-firms` | The accounting cluster has the broader parent, first-project page, lead follow-up, onboarding, scheduling, seasonal reactivation, and phone-answering pages, but still lacks the clean review-request child that many other verticals already have. | Strong fallback |

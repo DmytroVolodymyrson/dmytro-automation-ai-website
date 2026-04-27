@@ -24,9 +24,9 @@ const data: DecisionPageData = {
   badgeIcon: Workflow,
   h1: "What to Automate First for Mortgage Brokers",
   heroIntro:
-    "If your mortgage brokerage knows it needs better automation, the first move usually should not be a giant CRM rebuild. It should be one bounded workflow that fixes the leak already costing you funded opportunities, borrower momentum, or broker time. For most brokerages, that first workflow is one of three things: lead follow-up before the application really starts, document collection once the borrower owes the next file item, or incomplete-application recovery when someone showed intent but stalled before the file became workable. The right first project depends on where momentum breaks today — before the broker gets a real conversation, after the borrower owes documents, or in the messy middle where half-finished applications quietly decay in the pipeline.",
+    "If your mortgage brokerage knows it needs better automation, the first move usually should not be a giant CRM rebuild. It should be one bounded workflow that fixes the leak already costing you funded opportunities, borrower momentum, or broker time. For most brokerages, that first workflow is one of four things: lead follow-up before the application really starts, consultation scheduling once the borrower is warm enough to book, document collection once the borrower owes the next file item, or incomplete-application recovery when someone showed intent but stalled before the file became workable. The right first project depends on where momentum breaks today — before the broker gets a real conversation, after the borrower owes documents, or in the messy middle where half-finished applications quietly decay in the pipeline.",
   heroSubtext:
-    "Below: how to choose the first mortgage workflow to automate, how this page stays distinct from the broader mortgage parent and the three narrower mortgage child pages already live, what honest adjacent proof supports the recommendation, and when you should keep the first build smaller instead of forcing a broader brokerage-ops overhaul too early.",
+    "Below: how to choose the first mortgage workflow to automate, how this page stays distinct from the broader mortgage parent and the four narrower mortgage child pages already live, what honest adjacent proof supports the recommendation, and when you should keep the first build smaller instead of forcing a broader brokerage-ops overhaul too early.",
   sections: [
     {
       type: "cards",
@@ -46,6 +46,11 @@ const data: DecisionPageData = {
         },
         {
           icon: CalendarCheck,
+          title: "Consultation scheduling once the borrower is ready to book",
+          body: "Start here when the brokerage is getting borrowers warm enough to book, but too many consultations still no-show, reschedule chaotically, or lose momentum because confirmations and reminders are too manual.",
+        },
+        {
+          icon: CalendarCheck,
           title: "Incomplete-application recovery in the middle of the pipeline",
           body: "Start here when prospects show intent, begin the process, then disappear before the application becomes actionable. This is the better first project when the leak sits between inquiry and clean file completion, not just at the top or bottom of the funnel.",
         },
@@ -60,7 +65,7 @@ const data: DecisionPageData = {
       type: "when-to-use",
       title: "Which mortgage workflow should you automate first?",
       subtitle:
-        "Choose the first build by looking at the exact stage where speed, discipline, or ownership already breaks down:",
+        "Choose the first build by looking at the exact stage where speed, discipline, or ownership already breaks down — before the call is booked, after it is booked, or later in the file process:",
       options: [
         {
           icon: MessageSquare,
@@ -71,6 +76,16 @@ const data: DecisionPageData = {
             "The brokerage knows speed-to-lead matters more right now than downstream file completion",
             "Too many expensive leads disappear before the broker gets a real first conversation",
             "Closest next page: /ai-lead-follow-up-for-mortgage-brokers",
+          ],
+        },
+        {
+          icon: CalendarCheck,
+          heading: "Start with consultation scheduling and reminders",
+          items: [
+            "Borrowers are warm enough to book, but too many consultations still no-show or drift because confirmations are weak",
+            "Admins or brokers are wasting time on reminder texts, calendar chasing, and reschedule cleanup",
+            "The real leak sits after booking intent exists but before the consultation actually happens",
+            "Closest next page: /appointment-scheduling-and-reminder-automation-for-mortgage-brokers",
           ],
         },
         {
@@ -106,7 +121,7 @@ const data: DecisionPageData = {
           label: "What to automate first for mortgage brokers",
           values: [
             "Brokerage owners deciding which single workflow deserves the first project",
-            "Helps choose between lead follow-up, document collection, and incomplete-application recovery before a broader rollout",
+            "Helps choose between lead follow-up, consultation scheduling, document collection, and incomplete-application recovery before a broader rollout",
           ],
         },
         {
@@ -121,6 +136,13 @@ const data: DecisionPageData = {
           values: [
             "Brokerages that already know the leak starts before the application really begins",
             "Focuses narrowly on first-response speed, nurture, and broker handoff while the lead is still warm",
+          ],
+        },
+        {
+          label: "Appointment scheduling and reminder automation for mortgage brokers",
+          values: [
+            "Brokerages that already get borrowers warm enough to book but still lose momentum to no-shows and weak reminder discipline",
+            "Focuses narrowly on confirmations, reminder timing, reschedule routing, and borrower readiness once the consultation is on the calendar",
           ],
         },
         {
@@ -232,7 +254,7 @@ const data: DecisionPageData = {
         {
           industry: "Mortgage cluster",
           headline: "The live mortgage pages already isolate the exact workflow families this page is comparing",
-          body: "The broader mortgage parent plus the lead-follow-up, document-collection, and incomplete-application children already break the cluster into real workflow stages. This page sits one level earlier and helps a brokerage owner choose which one should come first.",
+          body: "The broader mortgage parent plus the lead-follow-up, scheduling, document-collection, and incomplete-application children already break the cluster into real workflow stages. This page sits one level earlier and helps a brokerage owner choose which one should come first.",
           link: "/ai-automation-for-mortgage-brokers",
         },
         {
@@ -251,6 +273,7 @@ const data: DecisionPageData = {
       links: [
         { label: "AI automation for mortgage brokers", href: "/ai-automation-for-mortgage-brokers" },
         { label: "AI lead follow-up for mortgage brokers", href: "/ai-lead-follow-up-for-mortgage-brokers" },
+        { label: "Appointment scheduling and reminder automation for mortgage brokers", href: "/appointment-scheduling-and-reminder-automation-for-mortgage-brokers" },
         { label: "Document collection automation for mortgage brokers", href: "/document-collection-automation-for-mortgage-brokers" },
         { label: "Incomplete application follow-up for mortgage brokers", href: "/incomplete-application-follow-up-for-mortgage-brokers" },
       ],
@@ -260,7 +283,7 @@ const data: DecisionPageData = {
     {
       question: "What should a mortgage brokerage automate first?",
       answer:
-        "Usually start where the most expensive leak is already obvious: lead follow-up if new inquiries sit too long before a response, document collection if active files stall on missing items, or incomplete-application recovery if prospects begin the process but never become clean workable files.",
+        "Usually start where the most expensive leak is already obvious: lead follow-up if new inquiries sit too long before a response, consultation scheduling if booked calls still no-show or drift, document collection if active files stall on missing items, or incomplete-application recovery if prospects begin the process but never become clean workable files.",
     },
     {
       question: "How is this different from the main mortgage automation page?",
@@ -270,7 +293,7 @@ const data: DecisionPageData = {
     {
       question: "What is the safest first project for most mortgage brokers?",
       answer:
-        "For many brokerages, lead follow-up is the safest first project because speed-to-lead drives obvious early outcomes quickly. But brokerages with strong intake speed and weak file discipline may get faster ROI from document collection or incomplete-application recovery first. The right answer depends on where the leak already is.",
+        "For many brokerages, lead follow-up is the safest first project because speed-to-lead drives obvious early outcomes quickly. But brokerages with strong intake speed and weak booked-call follow-through may get faster ROI from scheduling/reminder automation first, while others may still benefit more from document collection or incomplete-application recovery. The right answer depends on where the leak already is.",
     },
     {
       question: "Should document collection come before incomplete-application follow-up?",
@@ -293,6 +316,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation for mortgage brokers", href: "/ai-automation-for-mortgage-brokers" },
     { label: "AI lead follow-up for mortgage brokers", href: "/ai-lead-follow-up-for-mortgage-brokers" },
+    { label: "Appointment scheduling and reminder automation for mortgage brokers", href: "/appointment-scheduling-and-reminder-automation-for-mortgage-brokers" },
     { label: "Document collection automation for mortgage brokers", href: "/document-collection-automation-for-mortgage-brokers" },
     { label: "Incomplete application follow-up for mortgage brokers", href: "/incomplete-application-follow-up-for-mortgage-brokers" },
     { label: "All guides", href: "/guides" },

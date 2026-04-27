@@ -749,7 +749,19 @@
         "What should a mortgage broker automate first lead follow-up document collection or incomplete application follow-up?",
         "Should a mortgage broker automate lead follow-up before document collection?",
         "Should a mortgage brokerage automate incomplete-application recovery before document reminders?",
-        "How do I choose the first automation project for a mortgage brokerage?"
+        "How do I choose the first automation project for a mortgage brokerage \u2014 lead follow-up, document collection, incomplete-application recovery, or consultation scheduling?"
+      ]
+    },
+    {
+      "id": "appointment-scheduling-and-reminder-automation-for-mortgage-brokers",
+      "path": "/appointment-scheduling-and-reminder-automation-for-mortgage-brokers",
+      "label": "Appointment Scheduling and Reminder Automation for Mortgage Brokers",
+      "prompts": [
+        "Appointment scheduling and reminder automation for mortgage brokers",
+        "How do mortgage brokers automate consultation scheduling and reminders?",
+        "Best way to reduce no-shows for mortgage consultations and pre-approval calls",
+        "Should a mortgage brokerage automate booked-call reminders before a broader CRM rebuild?",
+        "How can mortgage brokers automate reschedules and borrower readiness before consultation calls?"
       ]
     },
     {

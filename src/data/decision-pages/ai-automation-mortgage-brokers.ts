@@ -231,6 +231,8 @@ const data: DecisionPageData = {
     "No obligation. No generic pitch. Just a practical conversation about your brokerage operations.",
   relatedLinks: [
     { label: "AI lead follow-up for mortgage brokers", href: "/ai-lead-follow-up-for-mortgage-brokers" },
+    { label: "Appointment scheduling and reminder automation for mortgage brokers", href: "/appointment-scheduling-and-reminder-automation-for-mortgage-brokers" },
+    { label: "What to automate first for mortgage brokers", href: "/what-to-automate-first-for-mortgage-brokers" },
     { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
     { label: "Lead follow-up automation examples", href: "/lead-follow-up-automation-examples" },
     { label: "AI automation for real estate", href: "/ai-automation-for-real-estate" },
