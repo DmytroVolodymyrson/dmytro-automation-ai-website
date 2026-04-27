@@ -1749,6 +1749,18 @@
       ]
     },
     {
+      "id": "client-reactivation-automation-for-service-businesses",
+      "path": "/client-reactivation-automation-for-service-businesses",
+      "label": "Client Reactivation Automation for Service Businesses",
+      "prompts": [
+        "How do I automate client reactivation for my service business?",
+        "Best client reactivation automation for service businesses",
+        "How should a service business reactivate past clients without sending spam?",
+        "When is dormant-client recovery the right next automation for a service business?",
+        "Client reactivation automation vs generic re-engagement campaigns for service businesses"
+      ]
+    },
+    {
       "id": "appointment-scheduling-and-reminder-automation-for-service-businesses",
       "path": "/appointment-scheduling-and-reminder-automation-for-service-businesses",
       "label": "Appointment Scheduling and Reminder Automation for Service Businesses",

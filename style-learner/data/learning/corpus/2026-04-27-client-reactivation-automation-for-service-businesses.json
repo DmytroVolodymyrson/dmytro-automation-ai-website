@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-client-reactivation-automation-for-service-businesses",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: Client Reactivation Automation for Service Businesses\nBody: Most service businesses spend heavily on new leads while hundreds of past clients sit untouched in the CRM. HVAC companies with two years of completed maintenance calls. Cleaning companies with dormant recurring accounts. Roofing contractors with finished repairs that never turned into inspections or referrals. Auto repair shops with deferred-work customers who never came back. The pattern is the same across every trade: the business won the first job, delivered, and then nobody followed up. Client reactivation automation for service businesses fixes that cross-industry retention leak. It gives the business a structured way to segment dormant contacts by job type and timing, trigger outreach when the next service need is actually plausible, and route live replies back to a person before another provider gets there first.\nSub: Below: what a cross-industry service-business reactivation workflow should handle, how this parent page stays distinct from the generic reactivation guide and the vertical children, what proof honestly supports it, and when reactivation is or is not the right next build.\n\n### Core sections\n- What this service-business reactivation workflow should handle (6 cards)\n- How this page stays distinct inside the reactivation cluster (table)\n- Is this a good fit for your service business? (evaluation)\n- Guardrails that keep service-business reactivation useful instead of spammy (considerations)\n- How a practical service-business reactivation workflow usually works (prose)\n- What proof honestly supports this page (case-studies with related links)\n\n### FAQ\nSubhead: Practical questions about client reactivation automation for service businesses\n\n### Final CTA\nHeading: Want more repeat revenue from clients you already paid to win?\nBody: Book a 30-minute call. We will look at your past-client data, identify which dormant segments are most recoverable, and map out a reactivation workflow that fits your trade and team.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Horizontal parent page for the mature client-reactivation cluster, distinct from both the generic /client-reactivation-automation page and the vertical children (roofing, cleaning, auto repair, painting, etc.)."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Serves as the internal-linking hub for all vertical reactivation children."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Cross-industry operating-layer focus: segmentation, timing, messaging, handoff, measurement patterns that repeat across trades."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Honest proof frame: HVAC database reactivation + e-commerce CRM case study + live vertical children."
+    },
+    {
+      "type": "tone_shift",
+      "description": "No invented metrics or fabricated case studies."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Practical, non-hype tone consistent with the rest of the site."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T13:03:53.556Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        9,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 19.9,
+      "sentenceLengthRange": [
+        5,
+        41
+      ],
+      "totalWords": 298
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Client Reactivation Automation for Service Businesses\nBody: Most service businesses spend heavily on new leads while hundreds of past clients sit untouched in the CRM.",
+      "wordCount": 27,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want more repeat revenue from clients you already paid to win?\nBody: Book a 30-minute call. We will look at your past-client data, identify which dormant segments are most recoverable, and map out a reactivation workflow that fits your trade and team.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 9,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 0.69
+    },
+    "vocabulary": {
+      "distinctWords": 184,
+      "totalWords": 298,
+      "topWords": [
+        [
+          "reactivation",
+          11
+        ],
+        [
+          "service",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "with",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "businesses",
+          4
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "service-business",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "client",
+          3
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "dormant",
+          3
+        ],
+        [
+          "business",
+          3
+        ],
+        [
+          "how",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 6,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 6,
+      "patterns": []
+    }
+  }
+}

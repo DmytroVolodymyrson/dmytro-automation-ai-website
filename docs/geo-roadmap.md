@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/appointment-scheduling-and-reminder-automation-for-service-businesses` — a horizontal parent page for the existing scheduling/reminder cluster, distinct from AI appointment setter and the narrower booking-confirmation explainer. Total live pages: 268.)
+Last updated: 2026-04-27 (shipped `/client-reactivation-automation-for-service-businesses` — the missing horizontal parent for the mature reactivation cluster, distinct from the generic `/client-reactivation-automation` page and the existing vertical children. Total live pages: 269.)
 
 ## Live GEO Assets
 
@@ -28,6 +28,7 @@ Last updated: 2026-04-27 (shipped `/appointment-scheduling-and-reminder-automati
 | Missed Call Text-Back vs. AI Phone Answering (Service Businesses) | `/missed-call-text-back-vs-ai-phone-answering-for-service-businesses` | Workflow comparison page | Live |
 | Estimate Follow-Up Automation (Service Businesses) | `/estimate-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
 | Appointment Scheduling & Reminder Automation (Service Businesses) | `/appointment-scheduling-and-reminder-automation-for-service-businesses` | Workflow parent page | Live |
+| Client Reactivation Automation (Service Businesses) | `/client-reactivation-automation-for-service-businesses` | Workflow parent page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Category cost page | Live |
 | AI Voice Agent Setup Cost (SMB) | `/ai-voice-agent-setup-cost-small-business` | Category cost page | Live |
 | AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo page | Live |
@@ -279,9 +280,9 @@ Last updated: 2026-04-27 (shipped `/appointment-scheduling-and-reminder-automati
 
 ## Next Pages
 
-This run shipped the missing horizontal parent for the mature scheduling/reminder cluster (`/appointment-scheduling-and-reminder-automation-for-service-businesses`). That closes a real cross-industry workflow gap without duplicating either `/ai-appointment-setter` or the narrower `/booking-confirmation-and-reminder-automation` page. The next run should not force another scheduling slug by inertia. It should do a fresh broad backlog reconciliation across mature clusters, live routes, and prompt ownership before naming the next clean candidate.
+This run shipped the missing horizontal parent for the mature client-reactivation cluster (`/client-reactivation-automation-for-service-businesses`). That closes a real cross-industry retention gap without collapsing back into the generic `/client-reactivation-automation` guide or any one vertical child. The next run should not force another reactivation slug by inertia. It should re-check the remaining mature workflow clusters and prompt ownership before naming the next clean candidate.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / watchlist refresh` | Re-check mature clusters, planning docs, route coverage, and prompt ownership before naming the next slug. The horizontal scheduling parent is now live, so the safest next move is another repo-wide re-audit rather than forcing a same-cluster follow-on page by habit. | Recommended next |
-| 2 | `Prompt-ownership cleanup + proof-led fallback selection` | Retire stale fallback ideas that the live repo already covers (for example redundant service-business reactivation framing) and pick the next page only after reconciling docs, routes, and `scripts/geo-prompts.json` again. | Conditional fallback |
+| 1 | `quote-follow-up-automation-for-service-businesses` | Still-unshipped horizontal parent for a mature quote-follow-up cluster. It looks distinct enough to survive beside the generic `/quote-follow-up-automation` page if it stays focused on cross-industry service-business quoting patterns, human handoff, and internal-link hub role. | Strong fallback |
+| 2 | `Broad reconciliation / watchlist refresh` | If fresh repo-state review shows the quote-follow-up parent would overlap too much with the existing generic guide, do another route / prompts / proof-led reconciliation before naming the next slug. | Safer fallback |

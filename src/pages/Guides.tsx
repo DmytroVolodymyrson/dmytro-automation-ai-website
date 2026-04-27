@@ -652,6 +652,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Client Reactivation Automation for Service Businesses",
+    description:
+      "Cross-industry reactivation guide for service businesses — dormant-client segmentation, realistic outreach timing, repeat-opportunity follow-through, and fast human handoff when past customers show intent again.",
+    href: "/client-reactivation-automation-for-service-businesses",
+    category: "workflows",
+  },
+  {
     title: "No-Show Reduction Automation",
     description:
       "Confirmation requests, timed reminders, easy rescheduling, and deposit workflows that cut no-shows by 50% or more.",
