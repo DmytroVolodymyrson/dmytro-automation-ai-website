@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-ai-phone-answering-vs-voicemail-for-mortgage-brokers",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: AI Phone Answering vs. Voicemail for Mortgage Brokers\nBody: For a mortgage brokerage, voicemail is rarely just a convenience tool. It is often where rate-sensitive borrower intent dies while the broker is in a consultation, reviewing a file, or away from the desk. When a caller wants to know whether you handle their scenario, how fast they can get a pre-approval conversation, or whether someone can call them back before they lock a rate elsewhere, a beep and a callback promise is often too slow. AI phone answering is the heavier phone layer that answers live, handles routine intake, and routes higher-stakes questions to a human with context attached. Voicemail can still be acceptable if call volume is genuinely light and callback discipline is excellent. But most brokerages that are losing phone opportunities do not have a voicemail problem in theory. They have a response-speed problem in practice.\nSub: Below: when a mortgage brokerage should replace voicemail with live AI phone answering, when voicemail is still acceptable, when missed-call text-back is the smarter middle step, and what proof this cluster honestly supports.\n\n### Core sections\n- Why voicemail breaks faster in mortgage than many owners admit\n- AI phone answering vs. voicemail for mortgage brokers\n- When to choose each phone layer\n- Good-fit and bad-fit signals\n- The mortgage-specific guardrails that matter\n- What proof honestly supports this comparison\n\n### FAQ\nSubhead: Straight answers for mortgage brokerages deciding between voicemail and live AI call coverage\nTopics: how this differs from the missed-call text-back page, when voicemail is still acceptable, whether AI can replace the broker on rate or loan questions, what a focused live-answering build usually costs, and where compliance guardrails matter.\n\n### Final CTA\nHeading: Need to know if voicemail is already costing your brokerage too much?\nBody: Book a 30-minute call. We will look at your current call pattern, where borrower and referral-partner conversations are dying in voicemail or delayed callback, and whether live AI phone answering or a lighter middle step is the right fit.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after reconciling the live mortgage cluster, `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, current routes/pages, and `scripts/geo-prompts.json`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the exact buyer-decision prompt was already sitting on the broader `/ai-phone-answering-for-mortgage-brokers` tracking entry, which made this a clean extracted child page rather than a speculative new cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/missed-call-text-back-vs-voicemail-for-mortgage-brokers` by focusing on the heavier live-answering-versus-voicemail decision and treating missed-call text-back as the middle step rather than the main comparison target."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live mortgage cluster, the generic AI phone-answering guide, and the Paris Cafe call-handling case study support the pattern without pretending there is already a mortgage-specific voicemail comparison case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T23:22:26.904Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        9,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 22.5,
+      "sentenceLengthRange": [
+        5,
+        52
+      ],
+      "totalWords": 338
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: AI Phone Answering vs.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need to know if voicemail is already costing your brokerage too much?\nBody: Book a 30-minute call. We will look at your current call pattern, where borrower and referral-partner conversations are dying in voicemail or delayed callback, and whether live AI phone answering or a lighter middle step is the right fit.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 13,
+      "commas": 17,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.21
+    },
+    "vocabulary": {
+      "distinctWords": 177,
+      "totalWords": 338,
+      "topWords": [
+        [
+          "voicemail",
+          12
+        ],
+        [
+          "phone",
+          8
+        ],
+        [
+          "ai",
+          7
+        ],
+        [
+          "mortgage",
+          6
+        ],
+        [
+          "when",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "answering",
+          5
+        ],
+        [
+          "call",
+          5
+        ],
+        [
+          "whether",
+          4
+        ],
+        [
+          "can",
+          4
+        ],
+        [
+          "live",
+          4
+        ],
+        [
+          "brokerage",
+          3
+        ],
+        [
+          "where",
+          3
+        ],
+        [
+          "they",
+          3
+        ],
+        [
+          "callback",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

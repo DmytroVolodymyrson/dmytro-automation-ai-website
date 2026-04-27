@@ -1031,6 +1031,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering vs. Voicemail for Mortgage Brokers",
+    description:
+      "Practical mortgage phone buyer guide for deciding when live AI answering is worth replacing voicemail and delayed callbacks, when voicemail is still acceptable, and when missed-call text-back is the smarter middle step.",
+    href: "/ai-phone-answering-vs-voicemail-for-mortgage-brokers",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Dental Practices",
     description:
       "AI automation for dental practices. Patient booking, recall campaigns, appointment reminders, intake forms, and no-show follow-up.",

@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/dispatch-handoff-automation-for-hvac-companies`: extracted the exact HVAC office-to-field handoff prompt out of the broader HVAC scheduling page, added the missing narrower post-booking child page, rewired discovery/tracking, and logged the page into style-learner. Total live pages: 286.)
+Last updated: 2026-04-27 (shipped `/ai-phone-answering-vs-voicemail-for-mortgage-brokers`: extracted the exact mortgage live-answering-vs-voicemail buyer query out of the broader mortgage phone-answering page, completed the missing heavier phone-fallback comparison in the mortgage cluster, rewired discovery/tracking, and logged the page into style-learner. Total live pages: 287.)
 
 ## Live GEO Assets
 
@@ -108,6 +108,7 @@ Last updated: 2026-04-27 (shipped `/dispatch-handoff-automation-for-hvac-compani
 | AI for Mortgage Brokers | `/ai-automation-for-mortgage-brokers` | Vertical category page | Live |
 | AI Lead Follow-Up (Mortgage) | `/ai-lead-follow-up-for-mortgage-brokers` | Vertical workflow page | Live |
 | AI Phone Answering (Mortgage) | `/ai-phone-answering-for-mortgage-brokers` | Vertical solution page | Live |
+| AI Phone vs Voicemail (Mortgage) | `/ai-phone-answering-vs-voicemail-for-mortgage-brokers` | Vertical comparison page | Live |
 | Missed-Call Text-Back (Mortgage) | `/missed-call-text-back-for-mortgage-brokers` | Vertical workflow page | Live |
 | Missed-Call Text-Back vs. Voicemail (Mortgage) | `/missed-call-text-back-vs-voicemail-for-mortgage-brokers` | Vertical comparison page | Live |
 | Document Collection (Mortgage) | `/document-collection-automation-for-mortgage-brokers` | Vertical workflow page | Live |
@@ -297,9 +298,9 @@ Last updated: 2026-04-27 (shipped `/dispatch-handoff-automation-for-hvac-compani
 
 ## Next Pages
 
-This run shipped `/dispatch-handoff-automation-for-hvac-companies`, which extracts the exact HVAC office-to-field handoff query that had been sitting on the broader HVAC scheduling page and gives the HVAC post-booking cluster its missing narrower technician-readiness child. The HVAC cluster now has the broad parent, the first-project selector, the broader scheduling page, the new dispatch-handoff child, and the phone/quote/review/reminder siblings. The next run should go back to broad reconciliation across the planning docs, live routes, tracking prompts, and strongest live clusters instead of forcing another same-cluster HVAC follow-on by inertia.
+This run shipped `/ai-phone-answering-vs-voicemail-for-mortgage-brokers`, which extracts the exact mortgage live-answering-vs-voicemail buyer query that had been sitting on the broader mortgage phone-answering page and completes the heavier phone-fallback comparison inside the mortgage cluster. The mortgage cluster now has the broad parent, the first-project selector, the lead-follow-up / application / document / scheduling children, the lighter missed-call fallback page, the lighter voicemail comparison, the broader live-answering page, and this heavier live-answering-vs-voicemail decision page. The next run should go back to broad reconciliation across the planning docs, live routes, tracking prompts, and strongest live clusters instead of forcing another same-cluster mortgage follow-on by inertia.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / cluster audit` | The HVAC post-booking cluster now has its missing handoff child. The safest next move is repo-wide reconciliation to verify the strongest remaining distinct buyer-intent page instead of forcing another same-cluster HVAC follow-on by inertia. | Primary next step |
+| 1 | `Broad reconciliation / cluster audit` | The mortgage phone cluster now has its missing heavier voicemail comparison. The safest next move is repo-wide reconciliation to verify the strongest remaining distinct buyer-intent page instead of forcing another same-cluster mortgage follow-on by inertia. | Primary next step |
 | 2 | `Ghost-data activation shortlist` | Re-check the highest-confidence unshipped ghost-data pages and activate the strongest one only if the route, guides, sitemap, llm files, prompts, and proof framing still support a materially distinct buyer-intent page. | Conditional fallback |

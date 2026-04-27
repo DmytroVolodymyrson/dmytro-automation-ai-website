@@ -91,6 +91,7 @@ import ReferralRequestAutomationForMortgageBrokers from "./pages/ReferralRequest
 import MissedCallTextBackForMortgageBrokers from "./pages/MissedCallTextBackForMortgageBrokers";
 import MissedCallTextBackVsVoicemailForMortgageBrokers from "./pages/MissedCallTextBackVsVoicemailForMortgageBrokers";
 import AiPhoneAnsweringForMortgageBrokers from "./pages/AiPhoneAnsweringForMortgageBrokers";
+import AiPhoneAnsweringVsVoicemailForMortgageBrokers from "./pages/AiPhoneAnsweringVsVoicemailForMortgageBrokers";
 import AiAutomationForDentalPractices from "./pages/AiAutomationForDentalPractices";
 import WhatToAutomateFirstForDentalPractices from "./pages/WhatToAutomateFirstForDentalPractices";
 import AiLeadFollowUpForDentalPractices from "./pages/AiLeadFollowUpForDentalPractices";
@@ -522,6 +523,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/missed-call-text-back-for-mortgage-brokers", element: <MissedCallTextBackForMortgageBrokers /> },
   { path: "/missed-call-text-back-vs-voicemail-for-mortgage-brokers", element: <MissedCallTextBackVsVoicemailForMortgageBrokers /> },
   { path: "/ai-phone-answering-for-mortgage-brokers", element: <AiPhoneAnsweringForMortgageBrokers /> },
+  { path: "/ai-phone-answering-vs-voicemail-for-mortgage-brokers", element: <AiPhoneAnsweringVsVoicemailForMortgageBrokers /> },
   { path: "/ai-automation-for-dental-practices", element: <AiAutomationForDentalPractices /> },
   { path: "/what-to-automate-first-for-dental-practices", element: <WhatToAutomateFirstForDentalPractices /> },
   { path: "/ai-lead-follow-up-for-dental-practices", element: <AiLeadFollowUpForDentalPractices /> },

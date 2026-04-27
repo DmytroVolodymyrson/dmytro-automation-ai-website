@@ -842,10 +842,22 @@
       "label": "AI Phone Answering for Mortgage Brokers",
       "prompts": [
         "AI phone answering for mortgage brokers",
-        "Should a mortgage brokerage use live AI phone answering instead of voicemail or delayed callback?",
+        "Should a mortgage brokerage use live AI phone answering?",
         "Best way for a mortgage broker to answer inbound calls while in consultations or after hours",
         "When is missed-call text-back not enough for a mortgage brokerage?",
         "Can AI answer mortgage inquiry calls live without replacing the broker?"
+      ]
+    },
+    {
+      "id": "ai-phone-answering-vs-voicemail-for-mortgage-brokers",
+      "path": "/ai-phone-answering-vs-voicemail-for-mortgage-brokers",
+      "label": "AI Phone Answering vs. Voicemail for Mortgage Brokers",
+      "prompts": [
+        "AI phone answering vs voicemail for mortgage brokers",
+        "Should a mortgage brokerage use live AI phone answering instead of voicemail or delayed callback?",
+        "When is live AI phone answering better than voicemail for a mortgage brokerage?",
+        "Is voicemail enough for a mortgage broker when borrowers call during consultations or after hours?",
+        "What is better for a mortgage brokerage voicemail or live AI phone answering?"
       ]
     },
     {
@@ -881,7 +893,7 @@
         "What should a mortgage broker automate first lead follow-up missed-call text-back document collection or incomplete application follow-up?",
         "Should a mortgage broker automate lead follow-up before document collection?",
         "Should a mortgage brokerage automate incomplete-application recovery before document reminders?",
-        "How do I choose the first automation project for a mortgage brokerage \u2014 lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
+        "How do I choose the first automation project for a mortgage brokerage — lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
       ]
     },
     {
