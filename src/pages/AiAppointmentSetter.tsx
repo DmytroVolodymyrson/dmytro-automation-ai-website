@@ -167,7 +167,8 @@ const AiAppointmentSetter = () => {
               </p>
               <p className="text-base text-muted-foreground leading-relaxed mb-8">
                 Below: what it actually does, which businesses benefit most, and
-                how to decide if it is the right investment for yours.
+                how to decide if it is the right investment for yours. If you are
+                already comparing options, jump next to the <Link to="/ai-appointment-setter-setup" className="text-primary hover:text-primary/80 underline underline-offset-4">setup guide</Link>, the <Link to="/ai-appointment-setter-cost-small-business" className="text-primary hover:text-primary/80 underline underline-offset-4">cost breakdown</Link>, or the <Link to="/ai-appointment-setter-roi-small-business" className="text-primary hover:text-primary/80 underline underline-offset-4">ROI page</Link>.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Button
@@ -191,6 +192,83 @@ const AiAppointmentSetter = () => {
             </motion.div>
           </div>
         </section>
+
+        <Section>
+          <div className="max-w-5xl">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5">
+              Start here
+            </div>
+            <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
+              Pick the right next read in the appointment-setter cluster
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
+              This page answers the big-picture question. The links below help you move straight to the part that usually decides whether an AI appointment setter is worth building for your business.
+            </p>
+          </div>
+          <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3 max-w-6xl">
+            {[
+              {
+                title: "How setup works",
+                body: "Read this first if you want to understand implementation scope, integrations, and what a realistic launch process looks like.",
+                href: "/ai-appointment-setter-setup",
+                cta: "View setup guide",
+              },
+              {
+                title: "What it should cost",
+                body: "Open this next if budget is the real blocker and you need a grounded breakdown of what affects price for a small business.",
+                href: "/ai-appointment-setter-cost-small-business",
+                cta: "See cost breakdown",
+              },
+              {
+                title: "What ROI to expect",
+                body: "Use this if you already believe the workflow could help and want a practical way to think about payback, saved time, and missed-lead recovery.",
+                href: "/ai-appointment-setter-roi-small-business",
+                cta: "Review ROI guide",
+              },
+              {
+                title: "Hire help or DIY",
+                body: "Best if you are deciding whether to keep piecing the system together yourself or bring in someone to structure the build properly.",
+                href: "/ai-appointment-setter-setup-vs-diy-small-business",
+                cta: "Compare setup vs DIY",
+              },
+              {
+                title: "Voice agent or human team",
+                body: "Read this when the real decision is not whether to automate, but how much of first contact should stay with people versus AI.",
+                href: "/voice-agent-vs-human-appointment-setter",
+                cta: "Compare voice agent vs human",
+              },
+              {
+                title: "Home-service use case",
+                body: "Start here if you run HVAC, plumbing, electrical, or another field-service business where after-hours calls and dispatch rules change the build.",
+                href: "/ai-appointment-setter-for-home-service-businesses",
+                cta: "See home-service fit",
+              },
+            ].map((item, i) => (
+              <motion.div
+                key={item.href}
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.05, duration: 0.35 }}
+                className="rounded-2xl border border-border/60 bg-card/80 backdrop-blur-sm p-6 shadow-card flex flex-col"
+              >
+                <h3 className="text-lg font-semibold text-foreground mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-4 flex-1">
+                  {item.body}
+                </p>
+                <Link
+                  to={item.href}
+                  className="text-sm font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+                >
+                  {item.cta}
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+              </motion.div>
+            ))}
+          </div>
+        </Section>
 
         {/* What it actually does */}
         <Section className="bg-secondary/30">
@@ -382,7 +460,7 @@ const AiAppointmentSetter = () => {
           <p className="text-sm text-muted-foreground mt-6 max-w-3xl leading-relaxed">
             The best results come from using AI for the repetitive 70 to 80% and
             freeing your team to focus on the interactions that actually require
-            a person.
+            a person. If that boundary is still fuzzy, compare an <Link to="/voice-agent-vs-human-appointment-setter" className="text-primary hover:text-primary/80 underline underline-offset-4">AI-first handoff model versus a human-first process</Link> before you commit to a build.
           </p>
         </Section>
 
@@ -492,6 +570,9 @@ const AiAppointmentSetter = () => {
               </motion.div>
             ))}
           </div>
+          <p className="text-sm text-muted-foreground mt-6 max-w-3xl leading-relaxed">
+            If you want the economics behind this kind of workflow, pair these proof pages with the <Link to="/ai-appointment-setter-roi-small-business" className="text-primary hover:text-primary/80 underline underline-offset-4">ROI guide</Link>. If you are still deciding whether the build should stay simple or include live voice handling, compare it with the <Link to="/ai-appointment-setter-setup" className="text-primary hover:text-primary/80 underline underline-offset-4">setup guide</Link> before requesting quotes.
+          </p>
           <div className="mt-6 flex flex-wrap gap-4">
             <Link
               to="/case-studies"

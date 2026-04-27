@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-26-ai-appointment-setter",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-26",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "### Hero\nBadge: Use Case Guide\nHeading: AI Appointment Setter for Service Businesses\nBody: Stop losing leads to slow follow-up and after-hours silence. An AI appointment setter handles the repetitive parts of booking so your team focuses on the work that matters.\nSub: Below: what it actually does, which businesses benefit most, and how to decide if it is the right investment for yours. If you are already comparing options, jump next to the setup guide, the cost breakdown, or the ROI page.\nCTA: Book a 30-Minute Call | All Guides\n\n### New section — Pick the right next read in the appointment-setter cluster\nIntro: This page answers the big-picture question. The links below help you move straight to the part that usually decides whether an AI appointment setter is worth building for your business.\nCards:\n1. How setup works — for implementation scope, integrations, and launch process. Link: /ai-appointment-setter-setup\n2. What it should cost — for budget and price drivers. Link: /ai-appointment-setter-cost-small-business\n3. What ROI to expect — for payback, saved time, and missed-lead recovery. Link: /ai-appointment-setter-roi-small-business\n4. Hire help or DIY — for deciding whether to keep building alone or bring in expert setup help. Link: /ai-appointment-setter-setup-vs-diy-small-business\n5. Voice agent or human team — for deciding how much first contact should stay with people. Link: /voice-agent-vs-human-appointment-setter\n6. Home-service use case — for HVAC/plumbing/electrical/field-service edge cases. Link: /ai-appointment-setter-for-home-service-businesses\n\n### What an AI setter should not replace\nClosing note now points readers to the voice-agent-vs-human comparison if the handoff boundary is still fuzzy.\n\n### What this looks like in practice\nProof section now adds a short paragraph that pairs case studies with the ROI guide and the setup guide, so readers can move from proof into economics and implementation questions.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Keep the page as a cluster parent, not a catch-all sales page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Internal-link copy should explain when each linked page is the right next read, not just dump a list of related URLs."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Stay practical and evaluative. The reader is trying to decide fit, cost, setup, and handoff boundaries."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Preserve the page's grounded tone. No hype. No invented proof. No new unsupported performance claims."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Inline contextual links should feel natural inside decision copy, especially around evaluation and proof."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Route readers from general concept -> implementation / cost / ROI / DIY-vs-hire / voice-vs-human / industry fit."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T03:31:35.150Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        15,
+        1,
+        1
+      ],
+      "avgSentenceLength": 12.6,
+      "sentenceLengthRange": [
+        2,
+        36
+      ],
+      "totalWords": 278
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nBadge: Use Case Guide\nHeading: AI Appointment Setter for Service Businesses\nBody: Stop losing leads to slow follow-up and after-hours silence.",
+      "wordCount": 22,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### What this looks like in practice\nProof section now adds a short paragraph that pairs case studies with the ROI guide and the setup guide, so readers can move from proof into economics and implementation questions.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 20,
+      "commas": 10,
+      "emDashes": 7,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 14,
+      "commasPerSentence": 0.5
+    },
+    "vocabulary": {
+      "distinctWords": 173,
+      "totalWords": 278,
+      "topWords": [
+        [
+          "link",
+          6
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "guide",
+          4
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "setter",
+          4
+        ],
+        [
+          "setup",
+          4
+        ],
+        [
+          "case",
+          3
+        ],
+        [
+          "appointment",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "how",
+          3
+        ],
+        [
+          "if",
+          3
+        ],
+        [
+          "roi",
+          3
+        ],
+        [
+          "help",
+          3
+        ],
+        [
+          "should",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.007
+    },
+    "editSignals": {
+      "totalEdits": 6,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 6,
+      "patterns": []
+    }
+  }
+}
