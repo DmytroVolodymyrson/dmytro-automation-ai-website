@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-ai-lead-follow-up-for-service-businesses",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: AI Lead Follow-Up for Service Businesses\nBody: Most service businesses lose leads because they respond too slowly. AI follow-up fixes that by contacting every lead within seconds and staying on them until they book or opt out. Below: how it works, what it costs, which businesses benefit most, and how to tell if it is worth the investment for yours.\nSub: If you are mainly comparing budget bands, build scope, or what a realistic first-phase quote should include, start with the AI lead follow-up cost guide before you request a custom build.\n\n### Routing block\nSubhead: Start with the lead-follow-up bottleneck you actually have\nBody: Use this page as the parent guide, then go deeper where the leak is happening. The core workflow is the same: respond fast, keep the thread alive, qualify properly, and hand the right lead to the right person. But the implementation changes depending on whether you are solving slow form response, missed calls, open estimates, or weak reactivation.\nCards:\n- Instant lead response automation — for forms, chats, and new inquiries sitting untouched for hours\n- Missed-call text-back — for voicemail-heavy missed-call recovery when a full voice agent is overkill\n- Estimate follow-up automation — for quotes that go cold after the visit\n- AI lead follow-up cost guide — for budgeting scope, software, and first-phase build depth\nProof links:\n- E-commerce CRM follow-up case study\n- AI appointment setter comparison when the real bottleneck is booking, not nurture\n\n### Core sections\n- The follow-up problem\n- What AI lead follow-up actually does\n- Businesses that benefit most\n- What the numbers typically look like\n- Good fit / not a fit\n- Related resources and proof\n- FAQ\n\n### Final CTA\nHeading: Ready to stop losing leads to slow follow-up?\nBody: Book a 30-minute call. We will look at your current lead flow, identify where leads are going cold, and map out what an automated follow-up system would look like for your business.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded indexing/internal-linking improvement on an existing priority page, not a new GEO page."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "Added a top-of-page routing block so the parent lead-follow-up guide now behaves like a real cluster page for child workflows."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Copy stays practical and diagnostic: match the reader to the exact leak (instant response, missed calls, estimate follow-up, budgeting) instead of pushing a generic automation pitch."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "Added direct proof and adjacent-workflow routing so crawlers and buyers can move from the parent page into proof and next-step decision pages faster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone remains clear, grounded, and non-hype: workflow leaks, handoff logic, budget-first framing, and honest escalation into appointment-setting only when booking is the true problem."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T07:16:00.988Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 26.9,
+      "sentenceLengthRange": [
+        5,
+        77
+      ],
+      "totalWords": 323
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Lead Follow-Up for Service Businesses\nBody: Most service businesses lose leads because they respond too slowly.",
+      "wordCount": 19,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Ready to stop losing leads to slow follow-up?\nBody: Book a 30-minute call. We will look at your current lead flow, identify where leads are going cold, and map out what an automated follow-up system would look like for your business.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 20,
+      "emDashes": 4,
+      "enDashes": 0,
+      "hyphens": 13,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 11,
+      "commasPerSentence": 2
+    },
+    "vocabulary": {
+      "distinctWords": 190,
+      "totalWords": 323,
+      "topWords": [
+        [
+          "-",
+          13
+        ],
+        [
+          "follow-up",
+          10
+        ],
+        [
+          "lead",
+          8
+        ],
+        [
+          "ai",
+          6
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "businesses",
+          4
+        ],
+        [
+          "body",
+          3
+        ],
+        [
+          "most",
+          3
+        ],
+        [
+          "leads",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "build",
+          3
+        ],
+        [
+          "guide",
+          3
+        ],
+        [
+          "look",
+          3
+        ],
+        [
+          "heading",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.006
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 2,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": [
+        "adds-trust-signals"
+      ]
+    }
+  }
+}

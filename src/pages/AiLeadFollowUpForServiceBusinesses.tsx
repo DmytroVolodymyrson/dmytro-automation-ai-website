@@ -209,6 +209,91 @@ const AiLeadFollowUpForServiceBusinesses = () => {
           </div>
         </section>
 
+        {/* Lead follow-up routing */}
+        <Section className="pt-0 md:pt-2">
+          <div className="rounded-3xl border border-primary/15 bg-primary/5 p-6 md:p-8 shadow-card">
+            <p className="text-sm font-semibold uppercase tracking-wide text-primary mb-3">
+              Start with the lead-follow-up bottleneck you actually have
+            </p>
+            <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-3 tracking-tight">
+              Use this page as the parent guide, then go deeper where the leak is happening
+            </h2>
+            <p className="text-muted-foreground leading-relaxed max-w-3xl mb-6">
+              The core workflow is the same: respond fast, keep the thread alive,
+              qualify properly, and hand the right lead to the right person. But
+              the implementation changes depending on whether you are solving slow
+              form response, missed calls, open estimates, or weak reactivation.
+            </p>
+            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+              {[
+                {
+                  title: "Need a fast first-response layer?",
+                  body: "Start with the instant-response page if your main problem is forms, chats, or new inquiries sitting untouched for hours.",
+                  href: "/instant-lead-response-automation",
+                  label: "Instant lead response automation",
+                },
+                {
+                  title: "Missing calls before a conversation starts?",
+                  body: "Use the missed-call text-back guide when voicemail is costing you booked jobs and a full voice agent feels like overkill.",
+                  href: "/missed-call-text-back-for-service-businesses",
+                  label: "Missed-call text-back",
+                },
+                {
+                  title: "Quotes are going cold after the visit?",
+                  body: "Read the estimate follow-up page if your team gives estimates quickly but the pipeline dies during the reminder and objection-handling stage.",
+                  href: "/estimate-follow-up-automation-for-service-businesses",
+                  label: "Estimate follow-up automation",
+                },
+                {
+                  title: "Trying to budget the whole system?",
+                  body: "Go to the cost guide if you are comparing scope, monthly software, and whether a lightweight sequence or a full booking workflow makes sense first.",
+                  href: "/ai-lead-follow-up-cost-small-business",
+                  label: "AI lead follow-up cost guide",
+                },
+              ].map((item, i) => (
+                <motion.div
+                  key={item.href}
+                  initial={{ opacity: 0, y: 12 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: i * 0.06, duration: 0.35 }}
+                  className="rounded-2xl border border-border/60 bg-background/80 p-5"
+                >
+                  <h3 className="text-base font-semibold text-foreground mb-2">
+                    {item.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                    {item.body}
+                  </p>
+                  <Link
+                    to={item.href}
+                    className="text-sm font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+                  >
+                    {item.label}
+                    <ArrowRight className="w-4 h-4" />
+                  </Link>
+                </motion.div>
+              ))}
+            </div>
+            <div className="mt-5 flex flex-wrap gap-4 text-sm">
+              <Link
+                to="/case-studies/ecommerce-crm-automation"
+                className="font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+              >
+                Proof: e-commerce CRM follow-up case study
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+              <Link
+                to="/ai-appointment-setter"
+                className="font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+              >
+                If the real problem is booking, compare with AI appointment setter
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+          </div>
+        </Section>
+
         {/* The problem */}
         <Section className="bg-secondary/30">
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
