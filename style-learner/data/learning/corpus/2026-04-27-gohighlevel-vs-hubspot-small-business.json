@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-gohighlevel-vs-hubspot-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: GoHighLevel vs HubSpot for Small Business\nBody: GoHighLevel is an all-in-one marketing CRM built for agencies and service businesses — SMS, email, funnels, booking, and reputation in one platform for $97–$497/month. HubSpot is a deeper CRM and reporting ecosystem with a genuinely useful free tier that scales into expensive paid hubs. For small service businesses, the right choice depends on what you actually need running today, not what looks better on a feature list.\nSub: Below: real pricing math, feature comparison, onboarding complexity, where each platform actually fits for a small business, and when neither option is the right answer.\n\n### Core sections\n- Two different philosophies for running your business\n- Side-by-side comparison\n- When each platform makes sense\n- The real pricing math\n- What to watch out for\n- When neither platform is the right answer\n\n### FAQ\nSubhead: Practical answers about choosing between GoHighLevel and HubSpot for small businesses\nTopics: migration timing, whether GoHighLevel is enough for a service business, HubSpot SMS limitations, which platform is easier to set up, and when a hybrid stack makes sense.\n\n### Final CTA\nHeading: Not sure which platform fits your business?\nBody: Book a 30-minute call. We will look at your current workflow, compare what each platform would actually cost for your situation, and figure out whether GoHighLevel, HubSpot, a hybrid, or something else entirely is the smarter move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because it is a distinct planned buyer-intent comparison page inside the live GoHighLevel cluster without rewriting the existing custom-CRM comparison, setup-help, cost, or DIY pages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on the specific buyer decision between an all-in-one marketing-first stack and a deeper CRM/reporting ecosystem for small service businesses."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses concrete pricing and capability framing instead of hype: SMS/calling, funnels, reputation, reporting depth, onboarding complexity, and migration pain."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live WheelsFeels CRM case study as adjacent proof for workflow design and CRM/follow-up reliability without pretending there is a direct GoHighLevel-vs-HubSpot case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and bounded: honest fit / not-fit framing, realistic pricing trade-offs, and a clear note that sometimes a hybrid or custom system is the smarter answer."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T15:03:32.088Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 25.3,
+      "sentenceLengthRange": [
+        5,
+        41
+      ],
+      "totalWords": 228
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: GoHighLevel vs HubSpot for Small Business\nBody: GoHighLevel is an all-in-one marketing CRM built for agencies and service businesses — SMS, email, funnels, booking, and reputation in one platform for $97–$497/month.",
+      "wordCount": 32,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Not sure which platform fits your business?\nBody: Book a 30-minute call. We will look at your current workflow, compare what each platform would actually cost for your situation, and figure out whether GoHighLevel, HubSpot, a hybrid, or something else entirely is the smarter move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 19,
+      "emDashes": 1,
+      "enDashes": 1,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 2.38
+    },
+    "vocabulary": {
+      "distinctWords": 129,
+      "totalWords": 228,
+      "topWords": [
+        [
+          "platform",
+          7
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "gohighlevel",
+          5
+        ],
+        [
+          "hubspot",
+          5
+        ],
+        [
+          "business",
+          5
+        ],
+        [
+          "small",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "service",
+          3
+        ],
+        [
+          "businesses",
+          3
+        ],
+        [
+          "right",
+          3
+        ],
+        [
+          "actually",
+          3
+        ],
+        [
+          "each",
+          3
+        ],
+        [
+          "heading",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.013
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

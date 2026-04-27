@@ -231,6 +231,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "GoHighLevel vs HubSpot for Small Business",
+    description:
+      "Practical comparison of GoHighLevel and HubSpot for small service businesses. Pricing, marketing automation, sales pipeline, onboarding complexity, and when each platform actually fits.",
+    href: "/gohighlevel-vs-hubspot-small-business",
+    category: "comparisons",
+  },
+  {
     title: "AI Appointment Setter Setup Help",
     description:
       "Need help setting up an AI appointment setter? Practical guide to qualification logic, calendar rules, CRM handoff, pricing, and when expert setup is worth it.",

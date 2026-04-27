@@ -243,6 +243,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "GoHighLevel automation setup help", href: "/gohighlevel-automation-setup" },
     { label: "GoHighLevel setup cost for small business", href: "/gohighlevel-setup-cost-small-business" },
+    { label: "GoHighLevel vs. HubSpot", href: "/gohighlevel-vs-hubspot-small-business" },
     { label: "GoHighLevel vs. custom CRM", href: "/gohighlevel-vs-custom-crm-small-business" },
     { label: "AI automation consultant vs. DIY", href: "/hire-ai-automation-consultant-vs-diy" },
     { label: "All guides", href: "/guides" },

@@ -37,6 +37,7 @@ const GoHighLevelAccountCleanupService = lazy(() => import("./pages/GoHighLevelA
 const GoHighLevelAccountCleanupVsRebuild = lazy(() => import("./pages/GoHighLevelAccountCleanupVsRebuild"));
 const GoHighLevelAccountAuditChecklist = lazy(() => import("./pages/GoHighLevelAccountAuditChecklist"));
 const GoHighLevelSetupMistakesSmallBusiness = lazy(() => import("./pages/GoHighLevelSetupMistakesSmallBusiness"));
+const GoHighLevelVsHubSpotSmallBusiness = lazy(() => import("./pages/GoHighLevelVsHubSpotSmallBusiness"));
 const AiAutomationConsultantPricingSmallBusiness = lazy(() => import("./pages/AiAutomationConsultantPricingSmallBusiness"));
 const BestAiAutomationForServiceBusinesses = lazy(() => import("./pages/BestAiAutomationForServiceBusinesses"));
 const AiAutomationForHvacCompanies = lazy(() => import("./pages/AiAutomationForHvacCompanies"));
@@ -419,6 +420,7 @@ const AppRoutesClient = () => (
       <Route path="/gohighlevel-account-cleanup-vs-rebuild" element={<GoHighLevelAccountCleanupVsRebuild />} />
       <Route path="/gohighlevel-account-audit-checklist" element={<GoHighLevelAccountAuditChecklist />} />
       <Route path="/gohighlevel-setup-mistakes-small-business" element={<GoHighLevelSetupMistakesSmallBusiness />} />
+      <Route path="/gohighlevel-vs-hubspot-small-business" element={<GoHighLevelVsHubSpotSmallBusiness />} />
       <Route path="/ai-automation-consultant-pricing-small-business" element={<AiAutomationConsultantPricingSmallBusiness />} />
       <Route path="/best-ai-automation-for-service-businesses" element={<BestAiAutomationForServiceBusinesses />} />
       <Route path="/ai-automation-for-hvac-companies" element={<AiAutomationForHvacCompanies />} />

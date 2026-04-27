@@ -1989,6 +1989,18 @@
       ]
     },
     {
+      "id": "gohighlevel-vs-hubspot-small-business",
+      "path": "/gohighlevel-vs-hubspot-small-business",
+      "label": "GoHighLevel vs. HubSpot for Small Business",
+      "prompts": [
+        "GoHighLevel vs HubSpot for small business",
+        "Should a small service business use GoHighLevel or HubSpot?",
+        "Is GoHighLevel better than HubSpot for marketing automation?",
+        "HubSpot vs GoHighLevel pricing for a small business",
+        "Which CRM is better for a service business GoHighLevel or HubSpot?"
+      ]
+    },
+    {
       "id": "gohighlevel-account-cleanup-service",
       "path": "/gohighlevel-account-cleanup-service",
       "label": "GoHighLevel Account Cleanup Service",

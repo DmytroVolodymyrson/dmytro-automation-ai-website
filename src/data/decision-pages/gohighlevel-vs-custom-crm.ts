@@ -209,6 +209,10 @@ const data: DecisionPageData = {
     "Book a 30-minute call. We'll look at your current workflow, figure out whether GoHighLevel, a custom build, or a hybrid makes the most sense, and map out what it would cost and how long it would take.",
   ctaSubtext: "No pressure. Just clarity on your options.",
   relatedLinks: [
+    {
+      label: "GoHighLevel vs. HubSpot",
+      href: "/gohighlevel-vs-hubspot-small-business",
+    },
     { label: "n8n vs Zapier comparison", href: "/n8n-vs-zapier-small-business" },
     {
       label: "AI lead follow-up guide",

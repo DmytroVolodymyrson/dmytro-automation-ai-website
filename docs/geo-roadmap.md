@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (no new page shipped this run; instead refreshed the priority indexing URL `/ai-automation-for-auto-parts-ecommerce` with a stronger direct-answer opening, clearer WheelsFeels proof framing, expanded child-page routing, and new internal links from the WheelsFeels case study. Total live pages remain 271.)
+Last updated: 2026-04-27 (shipped `/gohighlevel-vs-hubspot-small-business`, a distinct small-business CRM/platform comparison page that cleanly separates broad all-in-one marketing automation fit from deeper CRM/reporting fit. Added discovery/tracking/style-learner coverage. Total live pages: 272.)
 
 ## Live GEO Assets
 
@@ -56,6 +56,7 @@ Last updated: 2026-04-27 (no new page shipped this run; instead refreshed the pr
 | CRM Automation Setup (Contractors) | `/crm-automation-setup-for-contractors` | Vertical service page | Live |
 | CRM Automation Setup vs DIY | `/crm-automation-setup-vs-diy-for-contractors` | Vertical decision page | Live |
 | GoHighLevel vs Custom CRM (SMB) | `/gohighlevel-vs-custom-crm-small-business` | Comparison page | Live |
+| GoHighLevel vs HubSpot (SMB) | `/gohighlevel-vs-hubspot-small-business` | Comparison page | Live |
 | GoHighLevel vs Custom CRM (Contractors) | `/gohighlevel-vs-custom-crm-for-contractors` | Vertical comparison page | Live |
 | GoHighLevel vs Jobber (Contractors) | `/gohighlevel-vs-jobber-for-contractors` | Vertical comparison page | Live |
 | GoHighLevel Automation Setup | `/gohighlevel-automation-setup` | Service page | Live |
@@ -282,9 +283,9 @@ Last updated: 2026-04-27 (no new page shipped this run; instead refreshed the pr
 
 ## Next Pages
 
-This run did a bounded refresh on `/ai-automation-for-auto-parts-ecommerce` instead of forcing a dubious new page from a stale queue. Reconciliation showed the roadmap is lagging real route coverage in several clusters, so the safer next move is still a broad repo-wide candidate audit before another ship. The next run should verify which planned-but-distinct buyer-intent page still survives across the live routes, `scripts/geo-prompts.json`, and the broader planning docs without cannibalizing an already-live sibling.
+This run shipped `/gohighlevel-vs-hubspot-small-business`, which qualified because it was a planned, high-intent platform comparison adjacent to the live GoHighLevel setup / cost / DIY / cleanup cluster without rewriting the existing custom-CRM comparison. The next run should still start with a broad repo-wide candidate audit because the roadmap continues to lag real route coverage in several mature clusters. After that audit, the strongest fallback remains a distinct proof-backed buyer-intent page rather than another same-cluster GoHighLevel variation by inertia.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / cluster audit` | The roadmap is stale relative to live routes. Re-check which exact planned buyer-intent gap is still truly unshipped before naming another candidate. | Primary next step |
-| 2 | `Fresh proof-led candidate` | If the audit surfaces one distinct page with direct proof adjacency and clean separation from live siblings, ship that next. Otherwise continue bounded indexing/internal-linking improvements on priority URLs. | Honest fallback |
+| 1 | `Broad reconciliation / cluster audit` | The roadmap is still stale relative to live routes. Re-check which exact planned buyer-intent gap is still truly unshipped before naming another candidate. | Primary next step |
+| 2 | `/ai-automation-maintenance-and-support-small-business` | If broad reconciliation confirms it is still unshipped and still distinct from the live consultant / roadmap / audit pages, it is a reasonable next proof-backed fallback focused on post-launch support ownership rather than initial setup. | Honest fallback |

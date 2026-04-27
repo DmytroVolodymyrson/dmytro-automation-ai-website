@@ -11,11 +11,11 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 338 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 340 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
-### Strategy + comparison pages (31)
+### Strategy + comparison pages (32)
 - **Affordable AI Automation for Small Business** — `/affordable-ai-automation-small-business`
 - **AI Appointment Setter vs Receptionist** — `/ai-appointment-setter-vs-receptionist`
 - **AI Appointment Setter vs Virtual Assistant** — `/ai-appointment-setter-vs-virtual-assistant`
@@ -34,6 +34,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Voice Agent vs Voicemail** — `/ai-voice-agent-vs-voicemail`
 - **AI Voice Agent vs. Manual Callback for Service Businesses** — `/ai-voice-agent-vs-manual-callback-for-service-businesses`
 - **Build vs Buy AI Automation** — `/build-vs-buy-ai-automation`
+- **GoHighLevel vs. HubSpot for Small Business** — `/gohighlevel-vs-hubspot-small-business`
 - **Hire an AI Automation Consultant vs Agency** — `/hire-ai-automation-consultant-vs-agency`
 - **Hire an AI Automation Consultant vs. DIY** — `/hire-ai-automation-consultant-vs-diy`
 - **How to Hire an AI Automation Consultant** — `/how-to-hire-ai-automation-consultant`
