@@ -38,6 +38,9 @@ const data: DecisionPageData = {
           icon: PhoneMissed,
           title: "Detect the missed call instantly",
           body: "As soon as nobody answers, the workflow should know the call was missed and start the recovery sequence without someone checking voicemail later.",
+          links: [
+            { label: "How after-hours phone answering works for restaurants", href: "/after-hours-phone-answering-for-restaurants" },
+          ],
         },
         {
           icon: MessageSquare,
@@ -48,6 +51,9 @@ const data: DecisionPageData = {
           icon: CalendarCheck,
           title: "Recover reservation intent quickly",
           body: "If the caller wanted to book, confirm a reservation request, or ask a simple availability question, the text flow should move them toward the next useful step while the intent is still fresh.",
+          links: [
+            { label: "Reservation confirmation and reminder automation", href: "/reservation-confirmation-and-reminder-automation-for-restaurants" },
+          ],
         },
         {
           icon: BellRing,
@@ -58,6 +64,9 @@ const data: DecisionPageData = {
           icon: Clock,
           title: "Protect after-hours demand",
           body: "A guest calling after close should still get a response path. Even a simple text-back is better than forcing them to leave voicemail and hope someone remembers to call tomorrow.",
+          links: [
+            { label: "After-hours AI phone answering vs voicemail for restaurants", href: "/after-hours-ai-phone-answering-vs-voicemail-for-restaurants" },
+          ],
         },
         {
           icon: Users,
@@ -151,6 +160,10 @@ const data: DecisionPageData = {
           icon: Phone,
           title: "Know when text-back is not enough",
           body: "If the restaurant really needs live phone coverage for reservation capture, private events, or constant guest questions, a voice agent or human phone answerer may be the better fit than stretching text-back too far.",
+          links: [
+            { label: "Missed call text-back vs AI voice agent for restaurants", href: "/missed-call-text-back-vs-ai-voice-agent-for-restaurants" },
+            { label: "AI voice agent for restaurants", href: "/ai-voice-agent-for-restaurants" },
+          ],
         },
         {
           icon: Bot,
@@ -212,6 +225,8 @@ const data: DecisionPageData = {
         { label: "AI voice agent for restaurants", href: "/ai-voice-agent-for-restaurants" },
         { label: "Missed call follow-up automation", href: "/missed-call-follow-up-automation" },
         { label: "AI automation for restaurants", href: "/ai-automation-for-restaurants" },
+        { label: "After-hours phone answering for restaurants", href: "/after-hours-phone-answering-for-restaurants" },
+        { label: "Missed call text-back vs voicemail for restaurants", href: "/missed-call-text-back-vs-voicemail-for-restaurants" },
       ],
     },
   ],
@@ -254,6 +269,11 @@ const data: DecisionPageData = {
     { label: "AI automation for restaurants", href: "/ai-automation-for-restaurants" },
     { label: "Reservation confirmation and reminder automation", href: "/reservation-confirmation-and-reminder-automation-for-restaurants" },
     { label: "Missed call follow-up automation", href: "/missed-call-follow-up-automation" },
+    { label: "After-hours phone answering for restaurants", href: "/after-hours-phone-answering-for-restaurants" },
+    { label: "Missed call text-back vs AI voice agent for restaurants", href: "/missed-call-text-back-vs-ai-voice-agent-for-restaurants" },
+    { label: "Missed call text-back vs voicemail for restaurants", href: "/missed-call-text-back-vs-voicemail-for-restaurants" },
+    { label: "What to automate first for restaurants", href: "/what-to-automate-first-for-restaurants" },
+    { label: "Paris Cafe case study", href: "/case-studies/paris-cafe-voice-agent" },
   ],
 };
 

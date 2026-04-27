@@ -14,5 +14,136 @@
   "draft": null,
   "engagement": null,
   "edits": [],
-  "analysis": null
+  "analysis": {
+    "analyzedAt": "2026-04-27T20:49:10.139Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        1,
+        5,
+        5
+      ],
+      "avgSentenceLength": 22,
+      "sentenceLengthRange": [
+        5,
+        60
+      ],
+      "totalWords": 396
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Missed Call Text-Back vs.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### CTA\nHeading: Need to choose between SMS-first recovery and live phone coverage for your pool service company?\nBody: Book a 30-minute call. We will look at where your current phone workflow is leaking service demand, whether missed-call text-back is enough, when live AI phone answering starts making sense, and what the narrowest useful phone layer would look like for your setup.\nSub: The goal is not to sell the heaviest stack. It is to match the phone workflow to the actual leak.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 14,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 12,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 9,
+      "commasPerSentence": 0.82
+    },
+    "vocabulary": {
+      "distinctWords": 188,
+      "totalWords": 396,
+      "topWords": [
+        [
+          "phone",
+          13
+        ],
+        [
+          "-",
+          12
+        ],
+        [
+          "service",
+          11
+        ],
+        [
+          "pool",
+          9
+        ],
+        [
+          "text-back",
+          8
+        ],
+        [
+          "ai",
+          8
+        ],
+        [
+          "answering",
+          8
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "call",
+          5
+        ],
+        [
+          "companies",
+          5
+        ],
+        [
+          "company",
+          5
+        ],
+        [
+          "whether",
+          5
+        ],
+        [
+          "live",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "your",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 0,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 0,
+      "patterns": []
+    }
+  }
 }

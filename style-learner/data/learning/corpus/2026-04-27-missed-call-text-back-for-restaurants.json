@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-missed-call-text-back-for-restaurants",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back for Restaurants\nBody: If your restaurant misses calls during service, after close, or when the host stand is overloaded, not every caller needs a full AI phone conversation. Sometimes the fastest fix is simpler: the call is missed, an immediate text goes out, the guest gets a clear next step, and reservation demand stays alive long enough for the team or booking flow to recover it. Restaurant missed call text-back sits between voicemail and a full voice agent. It is narrow, practical, and often easier to launch when the real problem is unanswered calls rather than full phone automation.\nSub: Below: what restaurant missed call text-back should actually do, how it differs from a restaurant voice-agent setup and a generic missed-call page, what proof honestly supports it, and where SMS-first recovery works better than forcing every missed call into a live AI conversation.\n\n### Core sections\n- Added contextual internal links inside the child page to the restaurant after-hours page, reservation reminder page, restaurant voice-agent page, comparison pages, the restaurant parent page, the first-project page, and the Paris Cafe proof path.\n- Tightened the child page's cluster position around after-hours demand and reservation recovery without pretending there is a restaurant-specific text-back case study already published.\n- Added support routing from the restaurant parent page so owners reading the broader category guide can move directly into the SMS-first missed-call child when that is the real bottleneck.\n- Kept the framing narrow and operational: missed calls, reservation intent, guest expectations, and when a live voice layer is the better answer.\n\n### FAQ\nSubhead: Straight answers for restaurant owners deciding whether SMS-first missed-call recovery is enough\nTopics: whether text-back is better than a restaurant voice agent, what the first text should say, whether guests actually reply by text, what a focused build usually costs, and when to skip text-back and go straight to live phone coverage.\n\n### Final CTA\nHeading: Want to stop losing reservation demand to missed calls?\nBody: Book a 30-minute call. We will look at where calls are being missed, whether text-back or a voice agent is the better fit, and what the narrowest useful restaurant phone-recovery workflow would look like for your setup.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as a bounded GEO indexing-support refresh because docs/geo-priority-urls.md marked /missed-call-text-back-for-restaurants as zero-visibility and specifically needed stronger after-hours cluster support."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The copy stays commercially specific and honest: it does not oversell text-back as full hospitality automation, and it clearly states when live AI answering is the better fit."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing remains disciplined: Paris Cafe proves restaurant phone-demand value, while the generic missed-call page proves the horizontal SMS recovery pattern."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The parent /ai-automation-for-restaurants page now routes more clearly into this child and the broader after-hours cluster, which should make the restaurant phone subtree easier for crawlers and readers to follow."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T20:49:10.165Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 28.2,
+      "sentenceLengthRange": [
+        5,
+        54
+      ],
+      "totalWords": 366
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Missed Call Text-Back for Restaurants\nBody: If your restaurant misses calls during service, after close, or when the host stand is overloaded, not every caller needs a full AI phone conversation.",
+      "wordCount": 33,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to stop losing reservation demand to missed calls?\nBody: Book a 30-minute call. We will look at where calls are being missed, whether text-back or a voice agent is the better fit, and what the narrowest useful restaurant phone-recovery workflow would look like for your setup.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 12,
+      "commas": 26,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 10,
+      "commasPerSentence": 2
+    },
+    "vocabulary": {
+      "distinctWords": 190,
+      "totalWords": 366,
+      "topWords": [
+        [
+          "restaurant",
+          11
+        ],
+        [
+          "missed",
+          8
+        ],
+        [
+          "page",
+          8
+        ],
+        [
+          "text-back",
+          7
+        ],
+        [
+          "call",
+          6
+        ],
+        [
+          "calls",
+          5
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "reservation",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "voice",
+          4
+        ],
+        [
+          "better",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "whether",
+          4
+        ],
+        [
+          "full",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

@@ -38,6 +38,10 @@ const data: DecisionPageData = {
           icon: Phone,
           title: "After-hours and overflow call answering",
           body: "If the phone rings during service or after close, the restaurant still needs a clean next step. Automation answers, captures the reason for the call, and keeps reservation demand from dying in voicemail.",
+          links: [
+            { label: "After-hours phone answering for restaurants", href: "/after-hours-phone-answering-for-restaurants" },
+            { label: "Missed call text-back for restaurants", href: "/missed-call-text-back-for-restaurants" },
+          ],
         },
         {
           icon: CalendarCheck,
@@ -234,6 +238,8 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Paris Cafe case study", href: "/case-studies/paris-cafe-voice-agent" },
     { label: "AI voice agent for restaurants", href: "/ai-voice-agent-for-restaurants" },
+    { label: "Missed call text-back for restaurants", href: "/missed-call-text-back-for-restaurants" },
+    { label: "After-hours phone answering for restaurants", href: "/after-hours-phone-answering-for-restaurants" },
     { label: "Private event inquiry follow-up for restaurants", href: "/private-event-inquiry-follow-up-for-restaurants" },
     { label: "Reservation confirmation and reminder automation", href: "/reservation-confirmation-and-reminder-automation-for-restaurants" },
     { label: "Review request automation for restaurants", href: "/review-request-automation-for-restaurants" },
