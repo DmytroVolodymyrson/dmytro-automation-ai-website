@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 309 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 310 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -105,7 +105,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Automation Consultant Calgary** — `/ai-automation-consultant-calgary`
 - **AI Automation Consultant Edmonton** — `/ai-automation-consultant-edmonton`
 
-### Industry + vertical pages (181)
+### Industry + vertical pages (182)
 - **After-Hours AI Phone Answering vs. Voicemail for Restaurants** — `/after-hours-ai-phone-answering-vs-voicemail-for-restaurants`
 - **After-Hours Maintenance Triage for Property Management Companies** — `/after-hours-maintenance-triage-for-property-management-companies`
 - **After-Hours Phone Answering for Restaurants** — `/after-hours-phone-answering-for-restaurants`
@@ -138,6 +138,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Lead Follow-Up for Auto Repair Shops** — `/ai-lead-follow-up-for-auto-repair-shops`
 - **AI Lead Follow-Up for Med Spas** — `/ai-lead-follow-up-for-med-spas`
 - **AI Lead Follow-Up for Mortgage Brokers** — `/ai-lead-follow-up-for-mortgage-brokers`
+- **AI Lead Follow-Up for Pest Control Companies** — `/ai-lead-follow-up-for-pest-control-companies`
 - **AI Lead Follow-Up for Plumbing Companies** — `/ai-lead-follow-up-for-plumbing-companies`
 - **AI Phone Answering for Auto Repair Shops** — `/ai-phone-answering-for-auto-repair-shops`
 - **AI Phone Answering for Chiropractors** — `/ai-phone-answering-for-chiropractors`

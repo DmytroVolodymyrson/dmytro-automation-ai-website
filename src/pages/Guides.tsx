@@ -1964,9 +1964,16 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Lead Follow-Up for Pest Control Companies",
+    description:
+      "Full fresh-lead follow-up workflow for pest control companies losing inquiries across web forms, quote requests, missed-call recoveries, referral messages, and ad leads before the first visit is booked — faster first response, short nurture, light qualification, urgency routing, and office handoff.",
+    href: "/ai-lead-follow-up-for-pest-control-companies",
+    category: "industries",
+  },
+  {
     title: "Urgent Lead Follow-Up for Pest Control Companies",
     description:
-      "Early-funnel workflow for pest control companies that keep losing urgent homeowner demand before the first visit is booked — faster first response, multi-step nurture, light qualification, and cleaner office handoff.",
+      "Same-day and next-day urgent-response workflow for pest control companies that keep losing homeowners with active pest emergencies before anyone calls back — faster first reply on urgent callers, immediate office escalation, and cleaner handoff while the problem is still happening.",
     href: "/urgent-lead-follow-up-for-pest-control-companies",
     category: "industries",
   },

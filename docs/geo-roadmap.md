@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `/missed-call-text-back-vs-ai-phone-answering-for-solar-companies` — the missing lighter-vs-heavier buyer-decision page in the solar phone cluster. The cluster already had the parent solar page, the missed-call text-back page, the voicemail fallback comparison, and the heavier AI-phone-vs-voicemail comparison. This new page now isolates the exact buyer question: when SMS-first recovery is enough and when the solar team has outgrown it and needs live AI phone answering. During reconciliation, the roadmap also surfaced a stale false-live entry: `/ai-lead-follow-up-for-pest-control-companies` is still unshipped and is now the clearest next candidate.)
+Last updated: 2026-04-26 (shipped `/ai-lead-follow-up-for-pest-control-companies` — the broader early-funnel workflow page that the pest-control cluster was still missing. The cluster already had the parent page, the first-project page, recurring reminders, seasonal campaigns, urgent lead follow-up, review automation, and the phone-recovery pages. This new page now owns the general fresh-lead stage before the first service visit, while the existing urgent pest-control page stays tightly on same-day and emergency demand.)
 
 ## Live GEO Assets
 
@@ -204,6 +204,7 @@ Last updated: 2026-04-26 (shipped `/missed-call-text-back-vs-ai-phone-answering-
 | Recurring Service Reminders | `/recurring-service-reminder-automation-for-pest-control-companies` | Vertical workflow page | Live |
 | Seasonal Campaigns (Pest Control) | `/seasonal-campaign-automation-for-pest-control-companies` | Vertical workflow page | Live |
 | Urgent Lead Follow-Up (Pest Control) | `/urgent-lead-follow-up-for-pest-control-companies` | Vertical workflow page | Live |
+| AI Lead Follow-Up (Pest Control) | `/ai-lead-follow-up-for-pest-control-companies` | Vertical workflow page | Live |
 | Review Automation (Pest Control) | `/review-request-automation-for-pest-control-companies` | Vertical workflow page | Live |
 | AI for Chiropractors | `/ai-automation-for-chiropractors` | Vertical category page | Live |
 | What to Automate First (Chiropractors) | `/what-to-automate-first-for-chiropractors` | Vertical decision page | Live |
@@ -252,9 +253,9 @@ Last updated: 2026-04-26 (shipped `/missed-call-text-back-vs-ai-phone-answering-
 
 ## Next Pages
 
-The solar phone cluster now has both fallback-comparison layers live: text-back vs voicemail and text-back vs AI phone answering. A fresh reconciliation found the cleanest remaining high-intent gap elsewhere: the pest-control cluster already has the parent page, the first-project page, recurring reminders, seasonal campaigns, urgent lead follow-up, reviews, and the phone-recovery pages, but it still does not have the broader early-funnel child `/ai-lead-follow-up-for-pest-control-companies` even though the roadmap had drifted into treating it as live.
+`/ai-lead-follow-up-for-pest-control-companies` is now live, so the pest-control cluster no longer has that obvious early-funnel gap. The next run should start with a fresh broad reconciliation across the planning docs, the live routes/pages, and `scripts/geo-prompts.json` rather than forcing another same-cluster follow-up page from memory. If a clean remaining candidate still survives that pass, prefer the next distinct buyer-intent gap with direct or clearly adjacent proof instead of another stale false-live assumption.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `/ai-lead-follow-up-for-pest-control-companies` | Strong early-funnel buyer intent, clear fit inside an already-live pest-control cluster, and a distinct lifecycle stage that is still missing from routes/pages while the roadmap previously misclassified it as shipped. | Best next candidate after reconciliation |
-| 2 | Broad cross-cluster reconciliation | Re-check live routes/pages against roadmap and tracked prompts again after the pest-control lead-follow-up page ships so the next choice comes from a real remaining gap instead of another stale false-live assumption. | Ongoing guardrail |
+| 1 | Broad cross-cluster reconciliation | Re-check live routes/pages, roadmap docs, and tracked prompts now that the pest-control lead-follow-up page is shipped, then choose the next page from a real remaining gap instead of a stale queue artifact. | Best next step |
+| 2 | Priority indexing / internal-linking refresh on a high-value live page | If reconciliation does not surface a clearly safe net-new page, improve one important live page's internal links / indexing support instead of forcing a thin duplicate. | Fallback if backlog is exhausted |

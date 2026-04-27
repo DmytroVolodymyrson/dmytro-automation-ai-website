@@ -2584,8 +2584,20 @@
         "Urgent lead follow-up for pest control companies",
         "How do pest control companies respond faster to urgent inbound leads?",
         "Best way to automate urgent pest-control lead follow-up before the first inspection is booked",
-        "How should a pest control company handle web forms, missed calls, and quote requests when homeowners need same-day help?",
-        "What is the best lead follow-up workflow for a pest control company before the first service visit?"
+        "How should a pest control company handle same-day pest emergencies before the first inspection is booked?",
+        "What should a pest control company automate when urgent homeowners need help now and the office cannot respond fast enough?"
+      ]
+    },
+    {
+      "id": "ai-lead-follow-up-for-pest-control-companies",
+      "path": "/ai-lead-follow-up-for-pest-control-companies",
+      "label": "AI Lead Follow-Up for Pest Control Companies",
+      "prompts": [
+        "AI lead follow-up for pest control companies",
+        "How should a pest control company follow up on new web forms, quote requests, and referral inquiries before the first service visit?",
+        "Best lead follow-up workflow for a pest control company before the first service visit is booked",
+        "How should a pest control company route urgent homeowners differently from normal fresh leads?",
+        "What should a pest control company automate to stop fresh inquiries from going cold before the office calls back?"
       ]
     },
     {
