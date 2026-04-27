@@ -202,7 +202,7 @@ Last updated: 2026-04-26 (shipped `/missed-call-text-back-vs-ai-phone-answering-
 | AI for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Vertical category page | Live |
 | What to Automate First (Pest Control) | `/what-to-automate-first-for-pest-control-companies` | Vertical decision page | Live |
 | Recurring Service Reminders | `/recurring-service-reminder-automation-for-pest-control-companies` | Vertical workflow page | Live |
-| Seasonal Campaigns (Pest Control) | `/seasonal-campaign-automation-for-pest-control-companies" | Vertical workflow page | Live |
+| Seasonal Campaigns (Pest Control) | `/seasonal-campaign-automation-for-pest-control-companies` | Vertical workflow page | Live |
 | Urgent Lead Follow-Up (Pest Control) | `/urgent-lead-follow-up-for-pest-control-companies` | Vertical workflow page | Live |
 | Review Automation (Pest Control) | `/review-request-automation-for-pest-control-companies` | Vertical workflow page | Live |
 | AI for Chiropractors | `/ai-automation-for-chiropractors` | Vertical category page | Live |
