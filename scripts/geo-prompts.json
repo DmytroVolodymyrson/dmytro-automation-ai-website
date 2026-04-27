@@ -2613,6 +2613,18 @@
       ]
     },
     {
+      "id": "review-request-automation-for-pool-service-companies",
+      "path": "/review-request-automation-for-pool-service-companies",
+      "label": "Review Request Automation for Pool Service Companies",
+      "prompts": [
+        "Review request automation for pool service companies",
+        "How should a pool service company ask for Google reviews after successful openings, repairs, cleanups, or recurring service visits?",
+        "Best way for a pool service company to automate review requests without sending unhappy homeowners straight to a public review ask",
+        "When should a pool company ask for reviews after a repair, green-to-clean job, or weekly service milestone is completed?",
+        "How should a pool service company route unhappy post-visit replies before asking for a public review?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-for-pool-service-companies",
       "path": "/missed-call-text-back-for-pool-service-companies",
       "label": "Missed Call Text-Back for Pool Service Companies",

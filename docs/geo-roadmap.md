@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `/missed-call-text-back-vs-ai-phone-answering-for-pool-service-companies` — ninth page in the pool-service cluster. Buyer-decision comparison between lighter SMS-first recovery and heavier live AI phone answering. Total live pages: 252.)
+Last updated: 2026-04-26 (shipped `/review-request-automation-for-pool-service-companies` — tenth page in the pool-service cluster. Narrow post-service reputation workflow covering review timing after openings, repairs, cleanups, and recurring visits. Total live pages: 253.)
 
 ## Live GEO Assets
 
@@ -206,6 +206,7 @@ Last updated: 2026-04-26 (shipped `/missed-call-text-back-vs-ai-phone-answering-
 | Quote Follow-Up (Pool Service) | `/quote-follow-up-automation-for-pool-service-companies` | Vertical workflow page | Live |
 | Recurring Service Reminders (Pool Service) | `/recurring-service-reminder-automation-for-pool-service-companies` | Vertical workflow page | Live |
 | Seasonal Opening/Closing Outreach (Pool Service) | `/seasonal-opening-and-closing-outreach-for-pool-service-companies` | Vertical workflow page | Live |
+| Review Request Automation (Pool Service) | `/review-request-automation-for-pool-service-companies` | Vertical workflow page | Live |
 | Missed Call Text-Back (Pool Service) | `/missed-call-text-back-for-pool-service-companies` | Vertical workflow page | Live |
 | AI Phone Answering (Pool Service) | `/ai-phone-answering-for-pool-service-companies` | Vertical workflow page | Live |
 | Text-Back vs AI Phone (Pool Service) | `/missed-call-text-back-vs-ai-phone-answering-for-pool-service-companies` | Vertical comparison page | Live |
@@ -262,9 +263,9 @@ Last updated: 2026-04-26 (shipped `/missed-call-text-back-vs-ai-phone-answering-
 
 ## Next Pages
 
-This run shipped the pool-service text-back vs. AI phone answering comparison page (`/missed-call-text-back-vs-ai-phone-answering-for-pool-service-companies`). The pool-service cluster now has nine live pages: parent, first-project scoping, lead follow-up, quote follow-up, recurring-service reminders, seasonal opening/closing outreach, missed-call text-back, AI phone answering, and text-back vs. AI phone answering comparison.
+This run shipped the pool-service review-request workflow page (`/review-request-automation-for-pool-service-companies`). The pool-service cluster now has ten live pages: parent, first-project scoping, lead follow-up, quote follow-up, recurring-service reminders, seasonal opening/closing outreach, review automation, missed-call text-back, AI phone answering, and text-back vs. AI phone answering comparison.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | Cross-cluster reconciliation | The pool-service cluster now has nine pages. Check whether solar, plumbing, electrical, or another vertical has a higher-value child-page gap before adding a tenth pool-service child (e.g. review automation). | Recommended next |
-| 2 | Narrower pool-service workflow child (review automation) | If the cross-cluster check confirms pool service still has the highest-value gap, the next natural child covers reputation workflows. | Evaluate after cross-cluster check |
+| 1 | Cross-cluster reconciliation | The pool-service cluster now has ten pages. Re-check solar, plumbing, electrical, and other live verticals for the next clearly distinct child-page gap instead of forcing an eleventh pool-service page by inertia. | Recommended next |
+| 2 | Verified cross-cluster fallback/watchlist candidate | If reconciliation still does not produce a stronger gap, use a proof-led watchlist candidate from another live cluster rather than immediately extending pool service again. | Evaluate after cross-cluster check |

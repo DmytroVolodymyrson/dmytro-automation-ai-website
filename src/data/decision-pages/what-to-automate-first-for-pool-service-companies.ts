@@ -290,6 +290,7 @@ const data: DecisionPageData = {
     "No obligation. No giant software pitch. Just a practical recommendation about the next workflow to build.",
   relatedLinks: [
     { label: "AI automation for pool service companies", href: "/ai-automation-for-pool-service-companies" },
+    { label: "Review request automation for pool service companies", href: "/review-request-automation-for-pool-service-companies" },
     { label: "AI automation for landscaping companies", href: "/ai-automation-for-landscaping-companies" },
     { label: "AI automation for pest control companies", href: "/ai-automation-for-pest-control-companies" },
     { label: "Estimate follow-up automation", href: "/estimate-follow-up-automation-for-service-businesses" },

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-26-review-request-automation-for-pool-service-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-26",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "### Hero\nHeading: Review Request Automation for Pool Service Companies\nBody: Pool service companies do not only lose revenue on the missed call that rolled to voicemail or the repair quote that sat untouched. They also lose trust after the work is already done. The opening went well, the repair solved the problem, the weekly route visit was clean, and then nobody followed up while the homeowner still felt the result. Or the review request went out too early before the customer had seen the water settle, confirmed the equipment issue was really fixed, or raised a small service concern that should have come back to the office first. Or every completed visit got the same generic text even when the customer actually had a complaint, a billing question, or a follow-up request that needed human recovery before any public review ask. Review request automation for pool service companies fixes that narrower post-service workflow. It gives completed visits a cleaner closeout path, helps the company ask for reviews when the experience is actually ready, and protects local reputation by routing uncertain replies back to the office before the business pushes for a public rating.\nSub: Below: what a practical pool-service review-request workflow should actually handle, how it stays distinct from the broader pool-service parent and the other live child pages, what guardrails matter, and what proof honestly supports the page without pretending there is already a pool-service-specific review-automation case study on the site.\n\n### Core sections\n- What pool-service review-request automation should actually handle\n- How this page stays distinct inside the pool-service cluster\n- Is this a good fit for your pool service company?\n- Guardrails that keep pool-service review-request automation useful\n- How a practical pool-service review-request workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical answers for pool service companies considering a cleaner post-visit review workflow\nTopics: how this differs from the broader pool-service automation page, why review timing should vary by service type, typical build cost, whether it can work with an existing pool-service CRM or service stack, and the real ROI.\n\n### Final CTA\nHeading: Need cleaner reputation follow-up after the visit is done?\nBody: Book a 30-minute call. We will look at how completed openings, repairs, cleanups, and recurring visits get handed off today, where review asks are being missed or mistimed, and whether a focused post-service workflow, an earlier lead or quote fix, or no new build is the smarter next move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the live pool-service cluster already named review automation in the parent page but still lacked the narrower post-service reputation child page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on the stage after a successful opening, repair, cleanup, or recurring visit is completed: review timing, unhappy-reply routing, office handoff, and post-visit closeout discipline."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses pool-specific language like green-to-clean, recurring route visits, seasonal openings, and equipment callbacks instead of generic home-service wording."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live pool-service parent and first-project pages, the landscaping review-request child, and the published e-commerce CRM case study as honest adjacent proof without inventing a pool-service-specific case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fit / not-fit framing, service-recovery guardrails, and explicit workflow boundaries instead of generic reputation-management promises."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T04:45:54.031Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 29.3,
+      "sentenceLengthRange": [
+        5,
+        51
+      ],
+      "totalWords": 410
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Review Request Automation for Pool Service Companies\nBody: Pool service companies do not only lose revenue on the missed call that rolled to voicemail or the repair quote that sat untouched.",
+      "wordCount": 33,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need cleaner reputation follow-up after the visit is done?\nBody: Book a 30-minute call. We will look at how completed openings, repairs, cleanups, and recurring visits get handed off today, where review asks are being missed or mistimed, and whether a focused post-service workflow, an earlier lead or quote fix, or no new build is the smarter next move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 23,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.77
+    },
+    "vocabulary": {
+      "distinctWords": 222,
+      "totalWords": 410,
+      "topWords": [
+        [
+          "service",
+          8
+        ],
+        [
+          "pool-service",
+          8
+        ],
+        [
+          "review",
+          7
+        ],
+        [
+          "that",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "pool",
+          5
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "request",
+          4
+        ],
+        [
+          "companies",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "actually",
+          4
+        ],
+        [
+          "review-request",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

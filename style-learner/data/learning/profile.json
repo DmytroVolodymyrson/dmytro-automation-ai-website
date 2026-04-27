@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-27T04:06:36.954Z",
-  "postCount": 375,
+  "updatedAt": "2026-04-27T04:45:54.071Z",
+  "postCount": 377,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,7 +15,7 @@
       "max": 11,
       "p25": 4,
       "p75": 4,
-      "samples": 375
+      "samples": 377
     },
     "sentenceLength": {
       "mean": 23,
@@ -24,16 +24,16 @@
       "max": 105,
       "p25": 19.1,
       "p75": 27.1,
-      "samples": 375
+      "samples": 377
     },
     "totalWords": {
-      "mean": 326.6,
+      "mean": 327,
       "median": 331,
       "min": 17,
       "max": 1155,
-      "p25": 264,
+      "p25": 266,
       "p75": 367,
-      "samples": 375
+      "samples": 377
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -59,7 +59,7 @@
       "long | single | single | short": 17,
       "long | single | short | long": 8,
       "long | single | single | long": 39,
-      "long | short | single | long": 79,
+      "long | short | single | long": 80,
       "long | single | single | long | short | single | single | single": 1,
       "long | short | single | single": 6,
       "long | long | single | short": 4,
@@ -73,7 +73,7 @@
       "long | long | single | long": 102,
       "single | long | long": 1,
       "long | short | long | long": 12,
-      "long | single | long | long": 20,
+      "long | single | long | long": 21,
       "single | long | single | single | single | single | single | long | single | single": 1,
       "long | single | single | long | single": 1,
       "long | single | long | long | single | single | long | single | long": 10,
@@ -117,7 +117,7 @@
       "opener | context | context | closer": 162,
       "opener | product-pitch | context | closer": 24,
       "opener | context | product-pitch | context | product-pitch | result | context | closer": 1,
-      "opener | product-pitch | product-pitch | closer": 17,
+      "opener | product-pitch | product-pitch | closer": 19,
       "opener | context | product-pitch | context | product-pitch | product-pitch | product-pitch | product-pitch | closer": 1,
       "opener | result | result | closer": 5,
       "opener | product-pitch | product-pitch | context | context | context | product-pitch | context | closer": 1,
@@ -151,7 +151,7 @@
   "openers": {
     "patterns": {
       "situation": {
-        "count": 88,
+        "count": 89,
         "examples": [
           "Badge: The Person Behind the Automation",
           "Section heading: Common Questions\nSubheading: Straight answers about working wit",
@@ -167,7 +167,7 @@
         ]
       },
       "standard-opener": {
-        "count": 253,
+        "count": 254,
         "examples": [
           "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an autom",
           "Section heading: Real Results for Real Businesses\nSubheading: Here's what happen",
@@ -202,7 +202,7 @@
         ]
       },
       "question": {
-        "count": 314,
+        "count": 316,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -241,27 +241,27 @@
     "topWords": [
       [
         "-",
-        2137
+        2155
       ],
       [
         "what",
-        1268
+        1279
       ],
       [
         "automation",
-        1049
+        1054
       ],
       [
         "ai",
-        863
+        871
+      ],
+      [
+        "workflow",
+        767
       ],
       [
         "it",
         765
-      ],
-      [
-        "workflow",
-        762
       ],
       [
         "page",
@@ -269,11 +269,11 @@
       ],
       [
         "how",
-        713
+        723
       ],
       [
         "phone",
-        654
+        667
       ],
       [
         "this",
@@ -285,7 +285,7 @@
       ],
       [
         "whether",
-        527
+        532
       ],
       [
         "follow-up",
@@ -297,23 +297,23 @@
       ],
       [
         "live",
-        490
+        495
       ],
       [
         "your",
-        474
+        478
       ],
       [
         "call",
-        406
+        411
       ],
       [
         "answering",
-        398
+        406
       ],
       [
         "text-back",
-        368
+        376
       ],
       [
         "voicemail",
@@ -321,7 +321,7 @@
       ],
       [
         "should",
-        341
+        345
       ],
       [
         "missed-call",
@@ -349,15 +349,15 @@
       ],
       [
         "that",
-        247
+        253
       ],
       [
         "company",
-        176
+        181
       ],
       [
-        "crm",
-        172
+        "companies",
+        178
       ]
     ],
     "casualMarkerRate": 0,

@@ -1985,6 +1985,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Review Request Automation for Pool Service Companies",
+    description:
+      "Review request automation for pool service companies. Ask at the right time after successful openings, repairs, cleanups, and recurring-service milestones while routing unhappy replies back to the office before any public review ask.",
+    href: "/review-request-automation-for-pool-service-companies",
+    category: "industries",
+  },
+  {
     title: "Missed Call Text-Back for Pool Service Companies",
     description:
       "Missed-call text-back for pool service companies. SMS-first recovery when techs are on route, opening-season call surges overwhelm the office, or after-hours homeowners need a fast next step before calling the next provider.",
