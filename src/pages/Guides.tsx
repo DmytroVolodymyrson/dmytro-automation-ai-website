@@ -1999,6 +1999,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. AI Phone Answering for Pool Service Companies",
+    description:
+      "Should a pool service company use missed-call text-back or live AI phone answering? Practical comparison of route-day recovery, opening-season overflow, after-hours demand, equipment-emergency calls, and when the heavier phone layer is actually worth it.",
+    href: "/missed-call-text-back-vs-ai-phone-answering-for-pool-service-companies",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Pest Control Companies",
     description:
       "Scoping guide for pest control companies deciding whether the first workflow should be urgent lead follow-up, missed-call recovery, recurring-service reminders, seasonal campaigns, or heavier live phone coverage before a bigger automation build.",

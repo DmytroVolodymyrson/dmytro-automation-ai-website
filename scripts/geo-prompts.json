@@ -2631,9 +2631,21 @@
       "prompts": [
         "AI phone answering for pool service companies",
         "How does live AI phone answering work for a pool service company with techs on route all day?",
-        "When should a pool service company move from missed-call text-back to live AI phone answering?",
+        "What should a pool service AI phone answering system handle live versus escalate to the office?",
         "Best way to handle after-hours and opening-season phone overflow for a pool service company",
         "What should a pool service AI phone answering workflow handle versus route to a human?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-ai-phone-answering-for-pool-service-companies",
+      "path": "/missed-call-text-back-vs-ai-phone-answering-for-pool-service-companies",
+      "label": "Missed Call Text-Back vs. AI Phone Answering for Pool Service Companies",
+      "prompts": [
+        "Should a pool service company use missed-call text-back or live AI phone answering?",
+        "When should a pool service company move from missed-call text-back to live AI phone answering?",
+        "What is the difference between missed-call text-back and AI phone answering for a pool company?",
+        "Is missed-call text-back enough for a pool service company or do I need live AI phone answering?",
+        "How should a pool service company choose between SMS-first missed-call recovery and live AI phone answering?"
       ]
     },
     {
