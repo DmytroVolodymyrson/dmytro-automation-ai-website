@@ -912,6 +912,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back for Real Estate Agents",
+    description:
+      "A real-estate phone-layer page focused on SMS-first missed-call recovery for agents and teams who lose leads while at showings, listing appointments, or driving between properties.",
+    href: "/missed-call-text-back-for-real-estate-agents",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Mortgage Brokers",
     description:
       "AI automation for mortgage brokers. Lead follow-up, document collection, application nurture, and CRM workflows. Practical guide for brokerages.",

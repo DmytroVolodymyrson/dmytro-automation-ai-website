@@ -76,6 +76,7 @@ const WhatToAutomateFirstForRealEstate = lazy(() => import("./pages/WhatToAutoma
 const ClientReactivationAutomationForRealEstateTeams = lazy(() => import("./pages/ClientReactivationAutomationForRealEstateTeams"));
 const CrmCleanupAndRoutingForRealEstateTeams = lazy(() => import("./pages/CrmCleanupAndRoutingForRealEstateTeams"));
 const CrmCleanupVsLeadFollowUpForRealEstateTeams = lazy(() => import("./pages/CrmCleanupVsLeadFollowUpForRealEstateTeams"));
+const MissedCallTextBackForRealEstateAgents = lazy(() => import("./pages/MissedCallTextBackForRealEstateAgents"));
 const AiAutomationForMortgageBrokers = lazy(() => import("./pages/AiAutomationForMortgageBrokers"));
 const AiLeadFollowUpForMortgageBrokers = lazy(() => import("./pages/AiLeadFollowUpForMortgageBrokers"));
 const DocumentCollectionAutomationForMortgageBrokers = lazy(() => import("./pages/DocumentCollectionAutomationForMortgageBrokers"));
@@ -460,6 +461,7 @@ const AppRoutesClient = () => (
       <Route path="/client-reactivation-automation-for-real-estate-teams" element={<ClientReactivationAutomationForRealEstateTeams />} />
       <Route path="/crm-cleanup-and-routing-for-real-estate-teams" element={<CrmCleanupAndRoutingForRealEstateTeams />} />
       <Route path="/crm-cleanup-vs-lead-follow-up-for-real-estate-teams" element={<CrmCleanupVsLeadFollowUpForRealEstateTeams />} />
+      <Route path="/missed-call-text-back-for-real-estate-agents" element={<MissedCallTextBackForRealEstateAgents />} />
       <Route path="/ai-automation-for-mortgage-brokers" element={<AiAutomationForMortgageBrokers />} />
       <Route path="/ai-lead-follow-up-for-mortgage-brokers" element={<AiLeadFollowUpForMortgageBrokers />} />
       <Route path="/document-collection-automation-for-mortgage-brokers" element={<DocumentCollectionAutomationForMortgageBrokers />} />

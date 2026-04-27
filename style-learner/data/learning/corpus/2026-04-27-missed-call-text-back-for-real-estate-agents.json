@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-missed-call-text-back-for-real-estate-agents",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nBadge: Real Estate Workflow\nHeading: Missed Call Text-Back for Real Estate Agents\nBody: Real estate agents miss calls for a predictable reason: you are at a showing, in a listing appointment, driving between properties, or on a call with another client when the next lead rings in. That would be manageable if leads waited. They usually do not. A buyer who just found a listing they love often calls the next agent in line within minutes if the first one does not respond. Missed call text-back for real estate agents is the lighter fallback layer between voicemail and full live phone answering. The call is missed, a useful text goes out right away, the lead gets a clear next step, and the opportunity stays alive long enough for you or your team to follow up properly. Done well, it protects speed to lead without pretending every real estate conversation should happen over SMS.\nSub: Below: what real-estate missed-call text-back should actually handle, where it fits inside the broader real-estate automation cluster, what adjacent proof honestly supports it, and when you should move beyond text-back into heavier phone coverage.\n\n### Core sections\n- Frames the page as a real-estate-specific SMS-first recovery layer, not a generic missed-call page and not a full live phone-answering replacement.\n- Covers instant missed-call detection, human-sounding text-back, buyer/seller intent capture, lead warmth protection, human escalation for time-sensitive cases, and after-hours demand protection.\n- Includes a differentiation table separating the real-estate parent page, this real-estate text-back page, the generic missed-call page, the service-business phone-answering page, and the real-estate lead response page.\n- Uses explicit good-fit / not-fit criteria so the page stays commercially distinct and does not collapse into a reworded lead-response guide.\n- Adds implementation guardrails around keeping the first text short, respecting speed-to-lead reality, knowing when text-back is not enough, using automation for structure instead of fake qualification, and routing replies to the CRM.\n- Keeps proof framing honest: no published real-estate-only text-back case study yet, but the real-estate parent page, Paris Cafe phone-demand proof, and the lead-response page support the workflow pattern.\n\n### FAQ\nSubhead: Straight answers for agents and teams deciding whether SMS-first missed-call recovery is enough\nTopics: when text-back is enough for agents, what the first text should say, how this differs from the broader real-estate automation page, cost framing for a focused workflow, and when to skip text-back for live answering or an ISA.\n\n### Final CTA\nHeading: Stop losing leads while you are at the showing\nBody: Book a 30-minute call. We will look at where your real estate business is leaking missed calls now, whether a focused text-back workflow is enough, and what the narrowest practical first fix should be.\nSub: No hype. No fake AI receptionist pitch if a simpler workflow will do the job.\nRelated links: AI automation for real estate, Real estate lead response and follow-up automation, Missed call follow-up automation, AI phone answering for service businesses.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This is the first phone-layer child page in the real-estate cluster, positioned as the lighter fallback between voicemail and heavier live answering."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the differentiation explicit: this page starts only after a call is missed, so it does not rephrase the lead-response page or the parent category page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses practical agent language around showings, listing appointments, drive time, buyer urgency, and agent competition instead of generic AI language."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Maintains disciplined proof framing with adjacent real-estate cluster proof and the existing generic missed-call guide, without pretending there is already a published real-estate-only text-back case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Stays direct, operational, and non-hype in the site's established voice."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T17:02:20.575Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        6,
+        1,
+        5
+      ],
+      "avgSentenceLength": 24.4,
+      "sentenceLengthRange": [
+        3,
+        54
+      ],
+      "totalWords": 487
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nBadge: Real Estate Workflow\nHeading: Missed Call Text-Back for Real Estate Agents\nBody: Real estate agents miss calls for a predictable reason: you are at a showing, in a listing appointment, driving between properties, or on a call with another client when the next lead rings in.",
+      "wordCount": 48,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Stop losing leads while you are at the showing\nBody: Book a 30-minute call. We will look at where your real estate business is leaking missed calls now, whether a focused text-back workflow is enough, and what the narrowest practical first fix should be.\nSub: No hype. No fake AI receptionist pitch if a simpler workflow will do the job.\nRelated links: AI automation for real estate, Real estate lead response and follow-up automation, Missed call follow-up automation, AI phone answering for service businesses.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 20,
+      "commas": 36,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 13,
+      "commasPerSentence": 1.8
+    },
+    "vocabulary": {
+      "distinctWords": 252,
+      "totalWords": 487,
+      "topWords": [
+        [
+          "text-back",
+          11
+        ],
+        [
+          "page",
+          11
+        ],
+        [
+          "real",
+          8
+        ],
+        [
+          "estate",
+          8
+        ],
+        [
+          "real-estate",
+          7
+        ],
+        [
+          "call",
+          6
+        ],
+        [
+          "lead",
+          6
+        ],
+        [
+          "not",
+          6
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "missed",
+          5
+        ],
+        [
+          "agents",
+          5
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "enough",
+          5
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.002
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

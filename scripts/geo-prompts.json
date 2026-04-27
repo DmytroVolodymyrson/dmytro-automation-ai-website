@@ -729,6 +729,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-for-real-estate-agents",
+      "path": "/missed-call-text-back-for-real-estate-agents",
+      "label": "Missed Call Text-Back for Real Estate Agents",
+      "prompts": [
+        "Missed call text-back for real estate agents",
+        "How can real estate agents respond to missed calls automatically?",
+        "Best way to text leads back when a real estate agent misses a call at a showing",
+        "Should a real estate team use missed call text-back or hire an ISA?",
+        "How do real estate agents keep leads alive when they cannot answer the phone?"
+      ]
+    },
+    {
       "id": "ai-lead-follow-up-for-mortgage-brokers",
       "path": "/ai-lead-follow-up-for-mortgage-brokers",
       "label": "AI Lead Follow-Up for Mortgage Brokers",
