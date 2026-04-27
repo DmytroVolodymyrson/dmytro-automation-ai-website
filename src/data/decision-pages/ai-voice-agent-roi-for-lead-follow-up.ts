@@ -188,6 +188,7 @@ const data: DecisionPageData = {
       links: [
         { label: "Paris Café voice-agent case study", href: "/case-studies/paris-cafe-voice-agent" },
         { label: "AI voice agent for lead qualification", href: "/ai-voice-agent-lead-qualification" },
+        { label: "AI voice agent setup cost for small business", href: "/ai-voice-agent-setup-cost-small-business" },
         { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
         { label: "AI automation ROI guide", href: "/ai-automation-roi-guide" },
       ],

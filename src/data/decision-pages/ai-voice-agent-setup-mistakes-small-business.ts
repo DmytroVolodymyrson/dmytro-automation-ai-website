@@ -209,6 +209,7 @@ const data: DecisionPageData = {
       links: [
         { label: "AI voice agent setup help", href: "/ai-voice-agent-setup-for-lead-qualification" },
         { label: "AI voice agent setup vs. DIY", href: "/ai-voice-agent-setup-vs-diy-small-business" },
+        { label: "AI voice agent setup cost for small business", href: "/ai-voice-agent-setup-cost-small-business" },
         { label: "AI voice agent ROI guide", href: "/ai-voice-agent-roi-for-lead-follow-up" },
         { label: "Book a strategy call", href: "/#booking" },
       ],

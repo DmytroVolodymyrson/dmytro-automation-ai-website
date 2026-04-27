@@ -24,9 +24,9 @@ const data: DecisionPageData = {
   badgeIcon: DollarSign,
   h1: "AI Voice Agent Setup Cost for Small Business",
   heroIntro:
-    "If you are pricing AI voice-agent setup, the useful question is not just 'what does the software cost?' It is 'how much implementation work does this phone workflow actually need before I can trust it live?' A small business that needs one clear qualification flow, one transfer rule set, and clean CRM logging should not buy the same build as a business trying to automate every inbound call type, every scheduling edge case, and every escalation path on day one. This page stays tightly on setup cost: what small businesses usually pay to scope, build, test, and launch a real voice-agent workflow without confusing implementation cost with monthly usage cost.",
+    "If you are pricing AI voice-agent setup, the useful question is not just 'what does the software cost?' It is 'how much implementation work does this phone workflow actually need before I can trust it live?' Most small businesses that are serious about a production launch end up somewhere in the $2.5K-$5.5K range for setup help, depending on how much call logic, booking behavior, CRM handoff, and ugly-call testing the workflow actually needs. A business that only needs one clear qualification flow, one transfer rule set, and clean CRM logging should not buy the same build as a business trying to automate every inbound call type, every scheduling edge case, and every escalation path on day one. This page stays tightly on setup cost: what small businesses usually pay to scope, build, test, and launch a real voice-agent workflow without confusing implementation cost with monthly usage cost.",
   heroSubtext:
-    "Below: realistic setup price ranges, what makes voice-agent implementation expensive, when expert setup is worth paying for, and how this differs from the broader AI voice-agent cost page.",
+    "Below: realistic setup price ranges, what each setup band usually includes, what makes voice-agent implementation expensive, when expert setup is worth paying for, and how this differs from the broader AI voice-agent cost page.",
   sections: [
     {
       type: "table",
@@ -230,9 +230,11 @@ const data: DecisionPageData = {
     "No bloated AI package. Just a practical scope and setup-cost conversation.",
   relatedLinks: [
     { label: "AI voice agent setup for lead qualification", href: "/ai-voice-agent-setup-for-lead-qualification" },
+    { label: "AI voice agent setup mistakes for small business", href: "/ai-voice-agent-setup-mistakes-small-business" },
     { label: "AI voice agent cost for small business", href: "/ai-voice-agent-cost-small-business" },
     { label: "AI voice agent ROI for lead follow-up", href: "/ai-voice-agent-roi-for-lead-follow-up" },
     { label: "AI voice agent setup vs. DIY", href: "/ai-voice-agent-setup-vs-diy-small-business" },
+    { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
     { label: "Guides hub", href: "/guides" },
   ],
 };

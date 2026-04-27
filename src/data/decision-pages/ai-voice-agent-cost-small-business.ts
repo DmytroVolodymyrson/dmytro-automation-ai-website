@@ -173,6 +173,7 @@ const data: DecisionPageData = {
       links: [
         { label: "AI voice agent for lead qualification", href: "/ai-voice-agent-lead-qualification" },
         { label: "AI voice agent setup for lead qualification", href: "/ai-voice-agent-setup-for-lead-qualification" },
+        { label: "AI voice agent setup cost for small business", href: "/ai-voice-agent-setup-cost-small-business" },
         { label: "AI voice agent ROI for lead follow-up", href: "/ai-voice-agent-roi-for-lead-follow-up" },
         { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
       ],
