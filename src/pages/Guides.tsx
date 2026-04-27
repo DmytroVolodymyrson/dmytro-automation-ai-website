@@ -926,6 +926,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Review Request Automation for Real Estate Agents",
+    description:
+      "Post-closing reputation workflow for real estate agents who want better review timing, unhappy-reply routing, and cleaner follow-up after completed transactions instead of manual review chasing across Google, Zillow, and local platforms.",
+    href: "/review-request-automation-for-real-estate-agents",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Mortgage Brokers",
     description:
       "AI automation for mortgage brokers. Lead follow-up, document collection, application nurture, and CRM workflows. Practical guide for brokerages.",

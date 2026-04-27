@@ -257,6 +257,7 @@ const data: DecisionPageData = {
     { label: "CRM cleanup and routing for real estate teams", href: "/crm-cleanup-and-routing-for-real-estate-teams" },
     { label: "Missed call text-back for real estate agents", href: "/missed-call-text-back-for-real-estate-agents" },
     { label: "AI phone answering for real estate agents", href: "/ai-phone-answering-for-real-estate-agents" },
+    { label: "Review request automation for real estate agents", href: "/review-request-automation-for-real-estate-agents" },
     { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
     { label: "All guides", href: "/guides" },
   ],

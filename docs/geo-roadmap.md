@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-mortgage-brokers`: added the lighter phone-fallback comparison page to the mortgage-broker cluster for brokerages deciding whether immediate SMS-first recovery already beats passive voicemail after missed borrower calls. Wired routes/discovery/tracking, refreshed mortgage internal links, and moved the exact voicemail-vs-text-back query into its own tracked page. Total live pages: 279.)
+Last updated: 2026-04-27 (shipped `/review-request-automation-for-real-estate-agents`: added the post-closing reputation workflow page to the real-estate cluster for agents who close deals but ask for reviews inconsistently, too early, or with no complaint-routing guardrail. Covers review timing by transaction type, unhappy-reply routing, Google/Zillow platform mix, and agent handoff. Wired routes/discovery/tracking, refreshed real-estate internal links, and added geo-prompts tracking. Total live pages: 280.)
 
 ## Live GEO Assets
 
@@ -99,6 +99,7 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-mortg
 | CRM Cleanup vs Follow-Up | `/crm-cleanup-vs-lead-follow-up-for-real-estate-teams` | Vertical comparison page | Live |
 | Missed Call Text-Back (Real Estate) | `/missed-call-text-back-for-real-estate-agents` | Vertical workflow page | Live |
 | AI Phone Answering (Real Estate) | `/ai-phone-answering-for-real-estate-agents` | Vertical solution page | Live |
+| Review Automation (Real Estate) | `/review-request-automation-for-real-estate-agents` | Vertical workflow page | Live |
 
 | AI for Mortgage Brokers | `/ai-automation-for-mortgage-brokers` | Vertical category page | Live |
 | AI Lead Follow-Up (Mortgage) | `/ai-lead-follow-up-for-mortgage-brokers` | Vertical workflow page | Live |
@@ -290,9 +291,9 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-mortg
 
 ## Next Pages
 
-This run shipped `/missed-call-text-back-vs-voicemail-for-mortgage-brokers`, which closes the lighter voicemail-versus-SMS fallback decision inside the mortgage-broker phone cluster. The cluster now has the broader parent, early-funnel follow-up, booked-consult scheduling, document and application follow-through, the lighter missed-call workflow, the lighter voicemail comparison, and the heavier live-answering explainer. Instead of forcing another same-cluster mortgage page by inertia, the next run should start with a broad reconciliation across the planning docs, live routes, tracking prompts, and strongest live clusters to confirm whether any distinct unshipped buyer-intent page still survives cleanly.
+This run shipped `/review-request-automation-for-real-estate-agents`, which adds the post-closing reputation workflow to the real-estate cluster. The cluster now has the broader parent, first-project scoping, lead response, showing coordination, CRM cleanup, CRM-vs-lead-follow-up comparison, client reactivation, missed-call text-back, live phone answering, and review-request automation. The next run should start with a broad reconciliation across the planning docs, live routes, tracking prompts, and strongest live clusters to confirm whether any distinct unshipped buyer-intent page still survives cleanly.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / cluster audit` | The mortgage cluster now has its clean lighter fallback comparison. The safest next move is repo-wide reconciliation to verify the strongest remaining distinct page instead of guessing at another same-cluster follow-on. | Primary next step |
-| 2 | `Mortgage AI-phone-vs-voicemail audit` | Only pursue another mortgage phone child if a fresh live-cluster plus prompts review proves the heavier live-answering-versus-voicemail comparison still remains unshipped and non-duplicative. | Conditional fallback |
+| 1 | `Broad reconciliation / cluster audit` | The real-estate cluster now has its post-closing reputation page. The safest next move is repo-wide reconciliation to verify the strongest remaining distinct page instead of guessing at another same-cluster follow-on. | Primary next step |
+| 2 | `Real-estate referral-request audit` | Only pursue a real-estate referral-request child if a fresh live-cluster plus prompts review proves a distinct referral-specific workflow still survives cleanly separate from client reactivation and review requests. | Conditional fallback |

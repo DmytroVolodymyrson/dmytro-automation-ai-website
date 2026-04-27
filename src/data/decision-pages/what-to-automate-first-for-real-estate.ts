@@ -299,6 +299,7 @@ const data: DecisionPageData = {
     { label: "Showing coordination automation for real estate teams", href: "/showing-coordination-automation-for-real-estate-teams" },
     { label: "AI phone answering for real estate agents", href: "/ai-phone-answering-for-real-estate-agents" },
     { label: "CRM cleanup and routing for real estate teams", href: "/crm-cleanup-and-routing-for-real-estate-teams" },
+    { label: "Review request automation for real estate agents", href: "/review-request-automation-for-real-estate-agents" },
     { label: "All guides", href: "/guides" },
   ],
 };

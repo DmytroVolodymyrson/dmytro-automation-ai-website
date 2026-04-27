@@ -263,6 +263,7 @@ const data: DecisionPageData = {
     { label: "AI automation for real estate", href: "/ai-automation-for-real-estate" },
     { label: "What to automate first for real estate teams", href: "/what-to-automate-first-for-real-estate" },
     { label: "CRM cleanup and routing for real estate teams", href: "/crm-cleanup-and-routing-for-real-estate-teams" },
+    { label: "Review request automation for real estate agents", href: "/review-request-automation-for-real-estate-agents" },
     { label: "All guides", href: "/guides" },
   ],
 };

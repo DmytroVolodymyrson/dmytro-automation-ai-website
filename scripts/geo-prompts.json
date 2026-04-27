@@ -753,6 +753,18 @@
       ]
     },
     {
+      "id": "review-request-automation-for-real-estate-agents",
+      "path": "/review-request-automation-for-real-estate-agents",
+      "label": "Review Request Automation for Real Estate Agents",
+      "prompts": [
+        "Review request automation for real estate agents",
+        "How do real estate agents ask for Google reviews automatically after a closing?",
+        "Best way to automate review requests after a real estate transaction without pushing unhappy clients too early",
+        "When should a real estate agent ask for reviews after a deal closes?",
+        "How should a real estate team route unhappy post-closing replies before sending a public review link?"
+      ]
+    },
+    {
       "id": "ai-lead-follow-up-for-mortgage-brokers",
       "path": "/ai-lead-follow-up-for-mortgage-brokers",
       "label": "AI Lead Follow-Up for Mortgage Brokers",

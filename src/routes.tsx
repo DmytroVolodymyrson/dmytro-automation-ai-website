@@ -77,6 +77,7 @@ import CrmCleanupAndRoutingForRealEstateTeams from "./pages/CrmCleanupAndRouting
 import CrmCleanupVsLeadFollowUpForRealEstateTeams from "./pages/CrmCleanupVsLeadFollowUpForRealEstateTeams";
 import MissedCallTextBackForRealEstateAgents from "./pages/MissedCallTextBackForRealEstateAgents";
 import AiPhoneAnsweringForRealEstateAgents from "./pages/AiPhoneAnsweringForRealEstateAgents";
+import ReviewRequestAutomationForRealEstateAgents from "./pages/ReviewRequestAutomationForRealEstateAgents";
 import AiAutomationForMortgageBrokers from "./pages/AiAutomationForMortgageBrokers";
 import AiLeadFollowUpForMortgageBrokers from "./pages/AiLeadFollowUpForMortgageBrokers";
 import DocumentCollectionAutomationForMortgageBrokers from "./pages/DocumentCollectionAutomationForMortgageBrokers";
@@ -501,6 +502,7 @@ export const appRoutes: AppRouteDefinition[] = [
   },
   { path: "/missed-call-text-back-for-real-estate-agents", element: <MissedCallTextBackForRealEstateAgents /> },
   { path: "/ai-phone-answering-for-real-estate-agents", element: <AiPhoneAnsweringForRealEstateAgents /> },
+  { path: "/review-request-automation-for-real-estate-agents", element: <ReviewRequestAutomationForRealEstateAgents /> },
   { path: "/ai-automation-for-mortgage-brokers", element: <AiAutomationForMortgageBrokers /> },
   { path: "/ai-lead-follow-up-for-mortgage-brokers", element: <AiLeadFollowUpForMortgageBrokers /> },
   { path: "/document-collection-automation-for-mortgage-brokers", element: <DocumentCollectionAutomationForMortgageBrokers /> },
