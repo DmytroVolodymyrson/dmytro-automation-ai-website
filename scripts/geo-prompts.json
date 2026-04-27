@@ -1701,6 +1701,18 @@
       ]
     },
     {
+      "id": "referral-request-automation-for-service-businesses",
+      "path": "/referral-request-automation-for-service-businesses",
+      "label": "Referral Request Automation for Service Businesses",
+      "prompts": [
+        "How do I automate referral requests for my service business?",
+        "Best referral request automation for service businesses",
+        "When should a service business ask for referrals automatically after a completed job?",
+        "How do I keep referral asks separate from review asks in a post-job workflow?",
+        "What should a post-job referral request workflow include for a service business?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-for-service-businesses",
       "path": "/missed-call-text-back-for-service-businesses",
       "label": "Missed Call Text-Back for Service Businesses",

@@ -268,7 +268,7 @@ const data: DecisionPageData = {
     { label: "Review automation for HVAC companies", href: "/review-request-automation-for-hvac-companies" },
     { label: "Review automation for dental practices", href: "/review-request-automation-for-dental-practices" },
     { label: "Review automation for cleaning companies", href: "/review-request-automation-for-cleaning-companies" },
-    { label: "Quote follow-up automation", href: "/quote-follow-up-automation" },
+    { label: "Referral request automation", href: "/referral-request-automation-for-service-businesses" },
     { label: "All guides", href: "/guides" },
   ],
 };

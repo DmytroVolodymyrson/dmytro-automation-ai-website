@@ -596,6 +596,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Referral Request Automation for Service Businesses",
+    description:
+      "Turn finished jobs into introductions instead of silence. Ask at the right moment after a completed job, keep referral asks separate from review asks, route warm replies fast, and stop relying on luck for word-of-mouth growth.",
+    href: "/referral-request-automation-for-service-businesses",
+    category: "workflows",
+  },
+  {
     title: "Missed Call Text-Back for Service Businesses",
     description:
       "SMS-first missed-call recovery when a full voice agent is overkill. Fast text-back, two-way thread, booking link — the simplest layer between voicemail and AI phone answering.",

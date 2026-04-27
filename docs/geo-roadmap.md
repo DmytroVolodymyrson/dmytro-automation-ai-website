@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-ai-phone-answering-for-service-businesses` — service-business buyer-decision page focused on the middle phone-layer choice between SMS-first missed-call recovery and heavier live AI phone coverage, with clear separation from the existing service-business text-back, AI phone answering, and manual-callback comparison pages. Total live pages: 265.)
+Last updated: 2026-04-27 (shipped `/referral-request-automation-for-service-businesses` — a horizontal post-job advocacy page that turns finished service work into structured referral follow-through, cleanly separated from the existing review-request, lead-follow-up, and client-reactivation workflows. Total live pages: 266.)
 
 ## Live GEO Assets
 
@@ -22,6 +22,7 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-ai-phone-answering-
 | AI Appointment Setter ROI (SMB) | `/ai-appointment-setter-roi-small-business` | Workflow / ROI page | Live |
 | AI Lead Follow-Up (SMB) | `/ai-lead-follow-up-for-service-businesses` | Category page | Live |
 | Review Request Automation (Service Businesses) | `/review-request-automation-for-service-businesses` | Workflow parent page | Live |
+| Referral Request Automation (Service Businesses) | `/referral-request-automation-for-service-businesses` | Workflow parent page | Live |
 | Missed Call Text-Back (Service Businesses) | `/missed-call-text-back-for-service-businesses` | Workflow parent page | Live |
 | Missed Call Text-Back vs. AI Phone Answering (Service Businesses) | `/missed-call-text-back-vs-ai-phone-answering-for-service-businesses` | Workflow comparison page | Live |
 | Estimate Follow-Up Automation (Service Businesses) | `/estimate-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
@@ -276,9 +277,9 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-ai-phone-answering-
 
 ## Next Pages
 
-This run shipped the generic service-business phone-layer comparison page (`/missed-call-text-back-vs-ai-phone-answering-for-service-businesses`). That closes the clean parent-level gap between the lighter SMS-first recovery page and the heavier live AI phone-answering page. The next run should not force another same-cluster service-business phone slug by inertia. It should do a fresh broad backlog reconciliation across mature clusters and route ↔ prompt gaps before naming the next clean net-new ship.
+This run shipped the missing horizontal referral workflow page (`/referral-request-automation-for-service-businesses`). That gives the site a parent page for an already-valid child cluster (painting + insurance referral pages) and cleanly separates referral advocacy from the existing horizontal review-request workflow. The next run should not force another same-cluster referral slug by inertia. It should do a fresh broad backlog reconciliation across mature clusters and prompt ownership before naming the next clean net-new ship.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / watchlist refresh` | Re-check mature clusters, planning docs, route coverage, and prompt ownership before naming the next slug. The parent-level service-business phone comparison is now live, so the safest next move is a repo-wide re-audit. | Recommended next |
-| 2 | `/ai-appointment-setter-cost-small-business` (indexing refresh) | If reconciliation does not surface a clearly distinct new GEO page, this priority commercial URL is still the cleanest improvement fallback because `docs/geo-priority-urls.md` flags it for stronger pricing specificity and source-worthy internal-link support. | Conditional fallback |
+| 1 | `Broad reconciliation / watchlist refresh` | Re-check mature clusters, planning docs, route coverage, and prompt ownership before naming the next slug. The horizontal referral parent is now live, so the safest next move is another repo-wide re-audit rather than forcing a sibling service-business workflow page. | Recommended next |
+| 2 | `/missed-call-text-back-cost-small-business` | If reconciliation does not surface a clearly distinct new GEO page, the strongest remaining commercial parent gap is a cost page for the missed-call text-back cluster. The site already has the generic workflow page plus many vertical children, but still no parent-level pricing page for buyers asking whether the lighter SMS-first phone layer is worth paying for. | Conditional fallback |
