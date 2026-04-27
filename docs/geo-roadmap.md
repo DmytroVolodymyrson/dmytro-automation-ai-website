@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/ai-phone-answering-for-mortgage-brokers`: added the heavier live phone-coverage child page to the mortgage-broker cluster for brokerages whose inbound borrower and referral calls have already outgrown SMS-first missed-call recovery. Wired routes/discovery/tracking, added contextual internal links from the mortgage parent and sibling pages. Total live pages: 278.)
+Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-mortgage-brokers`: added the lighter phone-fallback comparison page to the mortgage-broker cluster for brokerages deciding whether immediate SMS-first recovery already beats passive voicemail after missed borrower calls. Wired routes/discovery/tracking, refreshed mortgage internal links, and moved the exact voicemail-vs-text-back query into its own tracked page. Total live pages: 279.)
 
 ## Live GEO Assets
 
@@ -104,6 +104,7 @@ Last updated: 2026-04-27 (shipped `/ai-phone-answering-for-mortgage-brokers`: ad
 | AI Lead Follow-Up (Mortgage) | `/ai-lead-follow-up-for-mortgage-brokers` | Vertical workflow page | Live |
 | AI Phone Answering (Mortgage) | `/ai-phone-answering-for-mortgage-brokers` | Vertical solution page | Live |
 | Missed-Call Text-Back (Mortgage) | `/missed-call-text-back-for-mortgage-brokers` | Vertical workflow page | Live |
+| Missed-Call Text-Back vs. Voicemail (Mortgage) | `/missed-call-text-back-vs-voicemail-for-mortgage-brokers` | Vertical comparison page | Live |
 | Document Collection (Mortgage) | `/document-collection-automation-for-mortgage-brokers` | Vertical workflow page | Live |
 | Incomplete Application Follow-Up | `/incomplete-application-follow-up-for-mortgage-brokers` | Vertical workflow page | Live |
 | What to Automate First (Mortgage) | `/what-to-automate-first-for-mortgage-brokers` | Vertical decision page | Live |
@@ -289,9 +290,9 @@ Last updated: 2026-04-27 (shipped `/ai-phone-answering-for-mortgage-brokers`: ad
 
 ## Next Pages
 
-This run shipped `/ai-phone-answering-for-mortgage-brokers`, which completed the missing heavier live-phone-coverage explainer inside the mortgage-broker cluster. The cluster now has the broader parent, early-funnel follow-up, booked-consult scheduling, document and application follow-through, the lighter missed-call fallback, and the heavier live-answering layer. Instead of forcing another same-cluster mortgage page by inertia, the next run should start with a broad reconciliation across the planning docs, live routes, tracking prompts, and strongest live clusters to confirm whether any distinct unshipped buyer-intent page still survives cleanly.
+This run shipped `/missed-call-text-back-vs-voicemail-for-mortgage-brokers`, which closes the lighter voicemail-versus-SMS fallback decision inside the mortgage-broker phone cluster. The cluster now has the broader parent, early-funnel follow-up, booked-consult scheduling, document and application follow-through, the lighter missed-call workflow, the lighter voicemail comparison, and the heavier live-answering explainer. Instead of forcing another same-cluster mortgage page by inertia, the next run should start with a broad reconciliation across the planning docs, live routes, tracking prompts, and strongest live clusters to confirm whether any distinct unshipped buyer-intent page still survives cleanly.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / cluster audit` | The mortgage phone cluster now has its clean heavier explainer. The safest next move is repo-wide reconciliation to verify the strongest remaining distinct page instead of guessing at another same-cluster follow-on. | Primary next step |
-| 2 | `Mortgage phone comparison audit` | Only pursue another mortgage phone child if a fresh live-cluster plus prompts review proves a materially distinct comparison page still remains unshipped and non-duplicative. | Conditional fallback |
+| 1 | `Broad reconciliation / cluster audit` | The mortgage cluster now has its clean lighter fallback comparison. The safest next move is repo-wide reconciliation to verify the strongest remaining distinct page instead of guessing at another same-cluster follow-on. | Primary next step |
+| 2 | `Mortgage AI-phone-vs-voicemail audit` | Only pursue another mortgage phone child if a fresh live-cluster plus prompts review proves the heavier live-answering-versus-voicemail comparison still remains unshipped and non-duplicative. | Conditional fallback |

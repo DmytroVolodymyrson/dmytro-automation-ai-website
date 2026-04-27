@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 346 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 347 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -113,7 +113,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Automation Consultant Calgary** — `/ai-automation-consultant-calgary`
 - **AI Automation Consultant Edmonton** — `/ai-automation-consultant-edmonton`
 
-### Industry + vertical pages (207)
+### Industry + vertical pages (227)
 - **After-Hours AI Phone Answering vs. Voicemail for Restaurants** — `/after-hours-ai-phone-answering-vs-voicemail-for-restaurants`
 - **After-Hours Maintenance Triage for Property Management Companies** — `/after-hours-maintenance-triage-for-property-management-companies`
 - **After-Hours Phone Answering for Restaurants** — `/after-hours-phone-answering-for-restaurants`
@@ -160,9 +160,11 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Missed Call Text-Back vs. AI Phone Answering for Insurance Agencies** — `/missed-call-text-back-vs-ai-phone-answering-for-insurance-agencies`
 - **AI Phone Answering for Insurance Agencies** — `/ai-phone-answering-for-insurance-agencies`
 - **AI Phone Answering vs. Voicemail for Insurance Agencies** — `/ai-phone-answering-vs-voicemail-for-insurance-agencies`
+- **AI Automation for Mortgage Brokers** — `/ai-automation-for-mortgage-brokers`
+- **AI Lead Follow-Up for Mortgage Brokers** — `/ai-lead-follow-up-for-mortgage-brokers`
+- **AI Phone Answering for Mortgage Brokers** — `/ai-phone-answering-for-mortgage-brokers`
 - **AI Lead Follow-Up for Auto Repair Shops** — `/ai-lead-follow-up-for-auto-repair-shops`
 - **AI Lead Follow-Up for Med Spas** — `/ai-lead-follow-up-for-med-spas`
-- **AI Lead Follow-Up for Mortgage Brokers** — `/ai-lead-follow-up-for-mortgage-brokers`
 - **AI Lead Follow-Up for Pest Control Companies** — `/ai-lead-follow-up-for-pest-control-companies`
 - **AI Lead Follow-Up for Plumbing Companies** — `/ai-lead-follow-up-for-plumbing-companies`
 - **AI Phone Answering for Auto Repair Shops** — `/ai-phone-answering-for-auto-repair-shops`
@@ -172,7 +174,6 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Phone Answering for HVAC Companies** — `/ai-phone-answering-for-hvac-companies`
 - **AI Phone Answering for Landscaping Companies** — `/ai-phone-answering-for-landscaping-companies`
 - **AI Phone Answering for Med Spas** — `/ai-phone-answering-for-med-spas`
-- **AI Phone Answering for Mortgage Brokers** — `/ai-phone-answering-for-mortgage-brokers`
 - **AI Phone Answering for Painting Contractors** — `/ai-phone-answering-for-painting-contractors`
 - **AI Phone Answering for Pest Control Companies** — `/ai-phone-answering-for-pest-control-companies`
 - **AI Phone Answering for Plumbing Companies** — `/ai-phone-answering-for-plumbing-companies`
@@ -253,6 +254,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Missed Call Text-Back for Home Inspectors** — `/missed-call-text-back-for-home-inspectors`
 - **Missed Call Text-Back for Landscaping Companies** — `/missed-call-text-back-for-landscaping-companies`
 - **Missed Call Text-Back for Med Spas** — `/missed-call-text-back-for-med-spas`
+- **Missed Call Text-Back for Mortgage Brokers** — `/missed-call-text-back-for-mortgage-brokers`
 - **Missed Call Text-Back for Painting Contractors** — `/missed-call-text-back-for-painting-contractors`
 - **Missed Call Text-Back for Pest Control Companies** — `/missed-call-text-back-for-pest-control-companies`
 - **Missed Call Text-Back for Restaurants** — `/missed-call-text-back-for-restaurants`
@@ -278,6 +280,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Missed Call Text-Back vs. Voicemail for HVAC Companies** — `/missed-call-text-back-vs-voicemail-for-hvac-companies`
 - **Missed Call Text-Back vs. Voicemail for Landscaping Companies** — `/missed-call-text-back-vs-voicemail-for-landscaping-companies`
 - **Missed Call Text-Back vs. Voicemail for Med Spas** — `/missed-call-text-back-vs-voicemail-for-med-spas`
+- **Missed Call Text-Back vs. Voicemail for Mortgage Brokers** — `/missed-call-text-back-vs-voicemail-for-mortgage-brokers`
 - **Missed Call Text-Back vs. Voicemail for Painting Contractors** — `/missed-call-text-back-vs-voicemail-for-painting-contractors`
 - **Missed Call Text-Back vs. Voicemail for Pest Control Companies** — `/missed-call-text-back-vs-voicemail-for-pest-control-companies`
 - **Missed Call Text-Back vs. Voicemail for Restaurants** — `/missed-call-text-back-vs-voicemail-for-restaurants`
@@ -333,6 +336,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **What to Automate First for Accounting Firms** — `/what-to-automate-first-for-accounting-firms`
 - **What to Automate First for Landscaping Companies** — `/what-to-automate-first-for-landscaping-companies`
 - **What to Automate First for Med Spas** — `/what-to-automate-first-for-med-spas`
+- **What to Automate First for Mortgage Brokers** — `/what-to-automate-first-for-mortgage-brokers`
 - **What to Automate First for Painting Contractors** — `/what-to-automate-first-for-painting-contractors`
 - **What to Automate First for Pest Control Companies** — `/what-to-automate-first-for-pest-control-companies`
 - **What to Automate First for Property Management Companies** — `/what-to-automate-first-for-property-management-companies`

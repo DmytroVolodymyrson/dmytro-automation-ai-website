@@ -772,8 +772,20 @@
         "Missed-call text-back for mortgage brokers",
         "How do mortgage brokers text back missed calls automatically?",
         "Best way for a mortgage broker to follow up on missed inbound calls",
-        "Should a mortgage broker use missed-call text-back or voicemail?",
+        "How should a mortgage broker hand missed-call text replies back to the brokerage quickly?",
         "When is SMS-first missed-call recovery enough for a mortgage brokerage?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-voicemail-for-mortgage-brokers",
+      "path": "/missed-call-text-back-vs-voicemail-for-mortgage-brokers",
+      "label": "Missed-Call Text-Back vs. Voicemail for Mortgage Brokers",
+      "prompts": [
+        "Missed-call text-back vs. voicemail for mortgage brokers",
+        "Should a mortgage broker use missed-call text-back or voicemail?",
+        "Is voicemail good enough for missed borrower calls at a mortgage brokerage?",
+        "Best fallback after a missed inbound call for mortgage brokers",
+        "When should a mortgage brokerage replace voicemail with SMS-first missed-call recovery?"
       ]
     },
     {

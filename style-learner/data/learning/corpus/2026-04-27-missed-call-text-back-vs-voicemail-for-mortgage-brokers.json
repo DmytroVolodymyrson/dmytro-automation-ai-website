@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-missed-call-text-back-vs-voicemail-for-mortgage-brokers",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: Missed-Call Text-Back vs. Voicemail for Mortgage Brokers\nBody: If your mortgage brokerage misses inbound borrower calls while you are on another call, in a consultation, reviewing a file, or driving between appointments, missed-call text-back is usually a better fallback than voicemail. Voicemail asks the borrower to leave details, wait for a callback, and trust that your team will respond before they call the next broker on their list. Missed-call text-back does one thing voicemail does not: it answers the miss immediately with an SMS and gives the borrower a live next step while their rate-shopping or pre-approval intent is still warm. The real decision is not whether texting feels newer. It is whether your brokerage needs a lighter recovery layer for missed borrower calls or whether voicemail and delayed callbacks are already quietly costing consultations, applications, and referral trust.\nSub: Below: when missed-call text-back is the smarter first move for a mortgage brokerage, when voicemail is still acceptable, when the phone problem has already grown past both and needs live AI phone answering, and what the existing mortgage cluster plus adjacent call-handling proof honestly supports.\n\n### Core sections\n- What this comparison is actually deciding\n- Missed-call text-back vs. voicemail\n- When each option makes sense\n- Good fit and bad fit signals\n- The mistakes that make this decision expensive\n- How to choose quickly\n- What proof honestly supports this page\n\n### FAQ\n- Is missed-call text-back usually better than voicemail for a mortgage brokerage?\n- When is voicemail still fine?\n- When should a mortgage brokerage skip text-back and move to live AI phone answering?\n- Will borrowers actually reply to a missed-call text from a mortgage broker?\n- How is this different from the other mortgage phone pages?\n\n### Final CTA\nHeading: Need a practical answer on missed-call recovery for your mortgage brokerage?\nBody: Book a 30-minute call. We will look at your missed-call pattern, whether voicemail is quietly costing consultations or applications, and whether your brokerage should use missed-call text-back, move to live AI phone answering, or leave the phone stack alone for now.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the mortgage-broker cluster already had the parent page, the lighter missed-call workflow page, and the heavier live-answering page, but still lacked the exact lighter buyer decision between voicemail/manual callback and SMS-first recovery."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on the fallback-layer choice so it does not collapse into the broader mortgage parent, the missed-call workflow page, or the heavier live-answering explainer."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: references the live mortgage cluster, the Paris Cafe voice-agent case study, and adjacent vertical comparison pages without pretending there is already a mortgage-only text-back-vs-voicemail case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and compliance-aware: no rate quotes, no loan-program advice, and explicit guidance on when the brokerage should jump to live AI phone answering instead."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T18:36:56.677Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        2,
+        5,
+        3
+      ],
+      "avgSentenceLength": 20.5,
+      "sentenceLengthRange": [
+        5,
+        46
+      ],
+      "totalWords": 348
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Missed-Call Text-Back vs.",
+      "wordCount": 5,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a practical answer on missed-call recovery for your mortgage brokerage?\nBody: Book a 30-minute call. We will look at your missed-call pattern, whether voicemail is quietly costing consultations or applications, and whether your brokerage should use missed-call text-back, move to live AI phone answering, or leave the phone stack alone for now.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 15,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 12,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 0.94
+    },
+    "vocabulary": {
+      "distinctWords": 166,
+      "totalWords": 348,
+      "topWords": [
+        [
+          "-",
+          12
+        ],
+        [
+          "missed-call",
+          10
+        ],
+        [
+          "voicemail",
+          10
+        ],
+        [
+          "mortgage",
+          9
+        ],
+        [
+          "text-back",
+          8
+        ],
+        [
+          "brokerage",
+          7
+        ],
+        [
+          "your",
+          6
+        ],
+        [
+          "when",
+          6
+        ],
+        [
+          "phone",
+          6
+        ],
+        [
+          "whether",
+          5
+        ],
+        [
+          "borrower",
+          4
+        ],
+        [
+          "live",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "call",
+          3
+        ],
+        [
+          "will",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

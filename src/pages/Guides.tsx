@@ -947,6 +947,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed-Call Text-Back vs. Voicemail for Mortgage Brokers",
+    description:
+      "Practical mortgage phone-fallback comparison for brokerages deciding whether an immediate SMS-first response already beats passive voicemail after missed borrower calls — and when the brokerage should move beyond both into live AI phone answering.",
+    href: "/missed-call-text-back-vs-voicemail-for-mortgage-brokers",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Mortgage Brokers",
     description:
       "A heavier mortgage phone-coverage page for brokerages that need live call answering, consultation-booking intake, after-hours coverage, and clean human handoff when missed-call text-back is no longer enough.",
