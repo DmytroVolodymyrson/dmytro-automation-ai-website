@@ -254,6 +254,7 @@ const data: DecisionPageData = {
       links: [
         { label: "AI Automation for Solar Companies", href: "/ai-automation-for-solar-companies" },
         { label: "Solar Lead Follow-Up Automation", href: "/ai-lead-follow-up-for-solar-companies" },
+        { label: "Quote Follow-Up Automation for Solar Companies", href: "/quote-follow-up-automation-for-solar-companies" },
         { label: "Utility Bill Collection for Solar", href: "/utility-bill-collection-automation-for-solar-companies" },
       ],
     },
@@ -292,6 +293,12 @@ const data: DecisionPageData = {
       description:
         "Early-funnel solar workflow focused on speed-to-lead, inquiry response, and short nurture before the quote stage.",
       href: "/ai-lead-follow-up-for-solar-companies",
+    },
+    {
+      title: "Quote Follow-Up Automation for Solar Companies",
+      description:
+        "Post-proposal solar workflow focused on recovering sent quotes before financing delays, household decision friction, or incentive timing knocks the project out of the pipeline.",
+      href: "/quote-follow-up-automation-for-solar-companies",
     },
     {
       title: "Utility Bill Collection for Solar",

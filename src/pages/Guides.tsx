@@ -1318,6 +1318,13 @@ const guides: GuideItem[] = [
     href: "/missed-call-text-back-vs-ai-phone-answering-for-solar-companies",
     category: "industries",
   },
+  {
+    title: "Quote Follow-Up Automation for Solar Companies",
+    description:
+      "Solar proposal-recovery workflow for sent quotes that went quiet after the site visit. Covers reminder timing, financing-question handling, incentive-window context, sales rep handoff, and stale-quote visibility across the solar pipeline.",
+    href: "/quote-follow-up-automation-for-solar-companies",
+    category: "industries",
+  },
 
   {
     title: "Estimate Follow-Up Automation for Electrical Contractors",

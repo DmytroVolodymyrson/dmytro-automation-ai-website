@@ -3789,6 +3789,18 @@
       ]
     },
     {
+      "id": "quote-follow-up-automation-for-solar-companies",
+      "path": "/quote-follow-up-automation-for-solar-companies",
+      "label": "Quote Follow-Up Automation for Solar Companies",
+      "prompts": [
+        "Quote follow-up automation for solar companies",
+        "How can solar companies recover sent proposals that go quiet?",
+        "Best automation for following up on solar quotes after the proposal is sent",
+        "Should a solar company automate quote follow-up before hiring another sales rep?",
+        "How do I keep solar proposals from going stale after pricing goes out?"
+      ]
+    },
+    {
       "id": "appointment-scheduling-and-reminder-automation-for-solar-companies",
       "path": "/appointment-scheduling-and-reminder-automation-for-solar-companies",
       "label": "Appointment Scheduling and Reminder Automation for Solar Companies",

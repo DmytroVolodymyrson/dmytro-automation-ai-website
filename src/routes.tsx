@@ -109,6 +109,7 @@ import AiPhoneAnsweringVsVoicemailForSolarCompanies from "./pages/AiPhoneAnsweri
 import MissedCallTextBackForSolarCompanies from "./pages/MissedCallTextBackForSolarCompanies";
 import MissedCallTextBackVsVoicemailForSolarCompanies from "./pages/MissedCallTextBackVsVoicemailForSolarCompanies";
 import MissedCallTextBackVsAiPhoneAnsweringForSolarCompanies from "./pages/MissedCallTextBackVsAiPhoneAnsweringForSolarCompanies";
+import QuoteFollowUpAutomationForSolarCompanies from "./pages/QuoteFollowUpAutomationForSolarCompanies";
 import AiAutomationForAccountingFirms from "./pages/AiAutomationForAccountingFirms";
 import DocumentCollectionAutomationForAccountingFirms from "./pages/DocumentCollectionAutomationForAccountingFirms";
 import ClientOnboardingAutomationForAccountingFirms from "./pages/ClientOnboardingAutomationForAccountingFirms";
@@ -501,6 +502,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/what-to-automate-first-for-solar-companies", element: <WhatToAutomateFirstForSolarCompanies /> },
   { path: "/utility-bill-collection-automation-for-solar-companies", element: <UtilityBillCollectionAutomationForSolarCompanies /> },
   { path: "/ai-lead-follow-up-for-solar-companies", element: <AiLeadFollowUpForSolarCompanies /> },
+  { path: "/quote-follow-up-automation-for-solar-companies", element: <QuoteFollowUpAutomationForSolarCompanies /> },
   { path: "/appointment-scheduling-and-reminder-automation-for-solar-companies", element: <AppointmentSchedulingAndReminderAutomationForSolarCompanies /> },
   { path: "/ai-phone-answering-for-solar-companies", element: <AiPhoneAnsweringForSolarCompanies /> },
   { path: "/ai-phone-answering-vs-voicemail-for-solar-companies", element: <AiPhoneAnsweringVsVoicemailForSolarCompanies /> },

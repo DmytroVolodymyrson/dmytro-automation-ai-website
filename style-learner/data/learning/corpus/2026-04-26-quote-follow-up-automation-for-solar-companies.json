@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-26-quote-follow-up-automation-for-solar-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-26",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "### Hero\nHeading: Quote Follow-Up Automation for Solar Companies\nBody: The proposal is out. The homeowner has your pricing, financing options, and system design. Then silence. In solar, that gap between sent proposal and signed contract is where a huge share of revenue disappears. Some homeowners are comparing three installers. Some are stuck on financing math. Some are waiting on a spouse, a tax question, or a seasonal decision they have not fully committed to yet. If nobody follows up with practical next steps and real context, the deal usually dies quietly — not because the homeowner said no, but because nobody made the next step easy enough to take. Quote follow-up automation fixes that narrow post-proposal stage. It starts after the quote is sent, keeps the deal alive with useful reminders and next-step prompts tied to how solar buyers actually stall, and routes real buying intent back to the sales rep before another winnable solar project goes cold in the pipeline.\nSub: Below: what solar quote follow-up automation actually handles, how it stays distinct from the parent solar page and the other live solar children (lead follow-up, utility bill collection, scheduling/reminders, phone answering, and phone comparisons), what guardrails matter, and what proof supports the page without inventing a solar quote-recovery case study that does not exist.\n\n### Core sections\n- What solar quote follow-up automation should actually handle\n- How this page stays distinct inside the solar cluster\n- Is this a good fit for your solar company?\n- Guardrails that keep solar quote follow-up useful\n- How a practical solar quote-recovery workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions from solar companies considering quote-stage follow-up automation\nTopics: how this differs from solar lead follow-up, how it differs from the broader solar automation page, what a focused quote-follow-up build usually costs, whether it can work with an existing solar CRM, and what ROI usually justifies the workflow.\n\n### Final CTA\nHeading: Want more of your sent solar proposals to actually turn into signed projects?\nBody: Book a 30-minute call. We will look at how your company handles solar quote follow-up today, where sent proposals are actually stalling, and whether a focused proposal-recovery workflow is the cleanest automation to build before a broader CRM or sales-process overhaul.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Eleventh live page in the solar cluster; intentionally post-proposal and narrower than the parent solar page, the first-project scoping page, and the earlier lead-response / utility-bill / scheduling children."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the workflow bounded to sent-proposal recovery: reminder timing, financing-question handling, incentive-window context, sales-rep handoff, and stale-quote visibility after pricing is already on the table."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live solar parent page plus the HVAC quote-follow-up page and the published e-commerce CRM case study support the workflow mechanics without pretending there is already a published solar quote-recovery case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses solar-specific hesitation points — financing math, household decision-making, tax-credit timing, and net-metering confusion — instead of generic home-service follow-up language."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "Added cluster-aware internal linking so the parent solar page and the first-project solar page now point toward the quote-follow-up child instead of leaving that post-proposal gap unlinked."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T05:41:23.433Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        11,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 22.3,
+      "sentenceLengthRange": [
+        2,
+        55
+      ],
+      "totalWords": 379
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Quote Follow-Up Automation for Solar Companies\nBody: The proposal is out.",
+      "wordCount": 13,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want more of your sent solar proposals to actually turn into signed projects?\nBody: Book a 30-minute call. We will look at how your company handles solar quote follow-up today, where sent proposals are actually stalling, and whether a focused proposal-recovery workflow is the cleanest automation to build before a broader CRM or sales-process overhaul.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 14,
+      "commas": 22,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.38
+    },
+    "vocabulary": {
+      "distinctWords": 202,
+      "totalWords": 379,
+      "topWords": [
+        [
+          "solar",
+          19
+        ],
+        [
+          "follow-up",
+          9
+        ],
+        [
+          "quote",
+          7
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "how",
+          7
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "actually",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "sent",
+          4
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "from",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
