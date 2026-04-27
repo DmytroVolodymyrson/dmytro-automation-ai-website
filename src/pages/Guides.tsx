@@ -1439,6 +1439,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back for Insurance Agencies",
+    description:
+      "A lighter insurance phone-recovery page focused on fast SMS-first response after missed quote, referral, and routine service calls before voicemail and delayed callbacks turn into cold opportunities.",
+    href: "/missed-call-text-back-for-insurance-agencies",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Insurance Agencies",
     description:
       "A heavier insurance phone-coverage page focused on live quote and service call handling, routine intake-question triage, after-hours call coverage, and cleaner producer or CSR handoff when voicemail is no longer enough.",

@@ -266,6 +266,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "AI automation for insurance agencies", href: "/ai-automation-for-insurance-agencies" },
+        { label: "Missed call text-back for insurance agencies", href: "/missed-call-text-back-for-insurance-agencies" },
         { label: "AI phone answering for insurance agencies", href: "/ai-phone-answering-for-insurance-agencies" },
         { label: "After-hours inquiry handling for insurance agencies", href: "/after-hours-inquiry-handling-for-insurance-agencies" },
         { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
@@ -307,6 +308,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "The goal is not to sell the heaviest stack. It is to match the phone workflow to the actual leak.",
   relatedLinks: [
+    { label: "Missed call text-back for insurance agencies", href: "/missed-call-text-back-for-insurance-agencies" },
     { label: "AI phone answering for insurance agencies", href: "/ai-phone-answering-for-insurance-agencies" },
     { label: "After-hours inquiry handling for insurance agencies", href: "/after-hours-inquiry-handling-for-insurance-agencies" },
     { label: "AI automation for insurance agencies", href: "/ai-automation-for-insurance-agencies" },

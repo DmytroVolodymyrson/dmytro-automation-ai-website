@@ -229,6 +229,7 @@ const data: DecisionPageData = {
       links: [
         { label: "AI automation for insurance agencies", href: "/ai-automation-for-insurance-agencies" },
         { label: "AI lead follow-up for insurance agencies", href: "/ai-lead-follow-up-for-insurance-agencies" },
+        { label: "Missed call text-back for insurance agencies", href: "/missed-call-text-back-for-insurance-agencies" },
         { label: "After-hours lead capture for service businesses", href: "/after-hours-lead-capture-for-service-businesses" },
       ],
     },
@@ -270,6 +271,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation for insurance agencies", href: "/ai-automation-for-insurance-agencies" },
     { label: "AI lead follow-up for insurance agencies", href: "/ai-lead-follow-up-for-insurance-agencies" },
+    { label: "Missed call text-back for insurance agencies", href: "/missed-call-text-back-for-insurance-agencies" },
     { label: "Quote follow-up automation for insurance agencies", href: "/quote-follow-up-automation-for-insurance-agencies" },
     { label: "All guides", href: "/guides" },
   ],

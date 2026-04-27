@@ -172,6 +172,7 @@ import CrossSellAutomationForInsuranceAgencies from "./pages/CrossSellAutomation
 import ReviewRequestAutomationForInsuranceAgencies from "./pages/ReviewRequestAutomationForInsuranceAgencies";
 import ReferralRequestAutomationForInsuranceAgencies from "./pages/ReferralRequestAutomationForInsuranceAgencies";
 import AfterHoursInquiryHandlingForInsuranceAgencies from "./pages/AfterHoursInquiryHandlingForInsuranceAgencies";
+import MissedCallTextBackForInsuranceAgencies from "./pages/MissedCallTextBackForInsuranceAgencies";
 import AiPhoneAnsweringForInsuranceAgencies from "./pages/AiPhoneAnsweringForInsuranceAgencies";
 import AiPhoneAnsweringVsVoicemailForInsuranceAgencies from "./pages/AiPhoneAnsweringVsVoicemailForInsuranceAgencies";
 import AiAutomationForPropertyManagement from "./pages/AiAutomationForPropertyManagement";
@@ -575,6 +576,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/review-request-automation-for-insurance-agencies", element: <ReviewRequestAutomationForInsuranceAgencies /> },
   { path: "/referral-request-automation-for-insurance-agencies", element: <ReferralRequestAutomationForInsuranceAgencies /> },
   { path: "/after-hours-inquiry-handling-for-insurance-agencies", element: <AfterHoursInquiryHandlingForInsuranceAgencies /> },
+  { path: "/missed-call-text-back-for-insurance-agencies", element: <MissedCallTextBackForInsuranceAgencies /> },
   { path: "/ai-phone-answering-for-insurance-agencies", element: <AiPhoneAnsweringForInsuranceAgencies /> },
   { path: "/ai-phone-answering-vs-voicemail-for-insurance-agencies", element: <AiPhoneAnsweringVsVoicemailForInsuranceAgencies /> },
   { path: "/ai-automation-for-property-management", element: <AiAutomationForPropertyManagement /> },

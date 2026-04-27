@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-pool-service-companies` — pool-service comparison page focused on the lighter fallback decision between SMS-first missed-call recovery and voicemail during route-day coverage gaps, opening-season overflow, and after-hours demand, with live AI phone answering treated as the heavier next layer. Total live pages: 262.)
+Last updated: 2026-04-27 (shipped `/missed-call-text-back-for-insurance-agencies` — insurance-agency phone-recovery page focused on the lighter SMS-first fallback between voicemail and live AI phone answering for missed quote requests, referral calls, and routine service inquiries, with distinct positioning beside the existing after-hours and live-answering insurance pages. Total live pages: 263.)
 
 ## Live GEO Assets
 
@@ -163,6 +163,7 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-pool-
 | Review Automation (Insurance) | `/review-request-automation-for-insurance-agencies` | Vertical workflow page | Live |
 | Referral Request (Insurance) | `/referral-request-automation-for-insurance-agencies` | Vertical workflow page | Live |
 | After Hours Inquiry (Insurance) | `/after-hours-inquiry-handling-for-insurance-agencies` | Vertical solution page | Live |
+| Missed Call Text-Back (Insurance) | `/missed-call-text-back-for-insurance-agencies` | Vertical workflow page | Live |
 | AI for Property Management | `/ai-automation-for-property-management` | Vertical category page | Live |
 | What to Automate First (Prop Mgmt) | `/what-to-automate-first-for-property-management-companies` | Vertical decision page | Live |
 | Lease Renewal Automation | `/lease-renewal-automation-for-property-management-companies` | Vertical workflow page | Live |
@@ -273,9 +274,9 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-pool-
 
 ## Next Pages
 
-This run shipped the pool-service lighter-fallback comparison page (`/missed-call-text-back-vs-voicemail-for-pool-service-companies`). The pool-service cluster now covers the broader parent, first-project decision, lead follow-up, quote follow-up, recurring-route retention, seasonal outreach, post-service review asks, the lighter missed-call recovery layer, the lighter missed-call-vs-voicemail comparison, the live AI phone-answering layer, the live-answering-vs-voicemail comparison, and the lighter-vs-heavier phone comparison.
+This run shipped the insurance-agency lighter phone-recovery page (`/missed-call-text-back-for-insurance-agencies`). The insurance cluster now covers the broader parent, first-project decision, lead follow-up, renewals, quote follow-up, cross-sell, reviews, referral asks, the lighter after-hours communication layer, the lighter missed-call text-back layer, and the heavier live-answering plus live-answering-vs-voicemail decision pages.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / watchlist refresh` | The pool-service cluster now has the core parent, first-project page, retention and quote children, and the full lighter/heavier phone-decision stack. The next run should re-check mature clusters, indexing/discovery gaps, and broader planning docs before forcing another same-cluster slug by inertia. | Recommended next |
-| 2 | `/missed-call-text-back-vs-voicemail-for-home-inspectors` | If a later run still needs a single page after reconciliation, this is a plausible next phone-cluster candidate because the home-inspector cluster already has the broader parent, missed-call child, and live-answering child but still appears to lack the lighter voicemail-vs-text-back decision layer. | Conditional / verify next run |
+| 1 | `Broad reconciliation / watchlist refresh` | The insurance cluster is stronger now, but the next run should still re-check mature clusters, untracked route ↔ prompt gaps, and broader planning docs before forcing another same-cluster slug by inertia. | Recommended next |
+| 2 | `/missed-call-text-back-vs-voicemail-for-insurance-agencies` | If a later run still needs a single page after reconciliation, this is the cleanest same-cluster follow-on because the new insurance text-back page now makes the lighter fallback comparison against voicemail materially distinct from the existing after-hours and heavier live-answering pages. | Conditional / verify next run |

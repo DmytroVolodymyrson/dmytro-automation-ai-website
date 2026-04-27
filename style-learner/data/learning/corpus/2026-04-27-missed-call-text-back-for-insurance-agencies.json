@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-missed-call-text-back-for-insurance-agencies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back for Insurance Agencies\nBody: Insurance agencies miss calls for ordinary reasons: producers are already on another conversation, CSRs are buried in service work, lunch gaps stack up, or the office is closed when a referral lead or policyholder reaches out. The problem is that callers usually do not experience those misses as normal operations. They experience them as silence. A prospect who wanted a fast quote calls the next agency. A current client with a routine service question gets annoyed before the team even sees the voicemail. Missed-call text-back for insurance agencies is the lighter recovery layer between passive voicemail and heavier live AI phone answering. The call is missed, a useful text goes out immediately, the caller gets a clear next step, and the agency protects the opportunity long enough for a producer or CSR to step back in with context.\nSub: Below: what an insurance missed-call text-back workflow should actually do, where it stays distinct from the broader insurance and after-hours pages already live, what adjacent proof honestly supports it, and when the phone problem has already grown past text-back into live AI phone answering.\n\n### Core sections\n- Frames the page as the lighter SMS-first fallback between voicemail and live AI phone answering inside the insurance phone cluster.\n- Uses insurance-specific realities throughout: quote requests, referral leads, policyholder service calls, CSR/producer handoff, lunch-gap misses, and office-closed / after-hours misses.\n- Keeps the distinction clean from the existing after-hours inquiry page by focusing on missed-call recovery directly across business-hour and off-hour misses instead of broader overnight triage alone.\n- Positions live AI phone answering as the heavier next layer once callers regularly need live answers and text-back is no longer enough.\n- Uses adjacent proof honestly: the live insurance cluster frames the workflow, and Paris Cafe proves the response-speed lesson without inventing an insurance-specific case study.\n\n### FAQ\nSubhead: Straight answers for insurance agencies deciding whether SMS-first missed-call recovery is enough\nTopics: when insurance missed-call text-back is enough, what the first text should say, how it differs from the after-hours insurance page, how it differs from live AI phone answering, and what a focused build usually costs.\n\n### Final CTA\nHeading: Need a practical answer on missed-call recovery for your insurance agency?\nBody: Book a 30-minute call. We will look at your missed-call pattern, whether voicemail is quietly costing quote demand or service trust, and whether your agency should use a focused text-back workflow, move to live AI phone answering, or leave the phone stack alone for now.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "New vertical child page to strengthen the insurance phone cluster with the lighter missed-call recovery layer."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the copy practical and operational rather than hypey or compliance-naive."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoids fake insurance-specific proof; support stays adjacent and mechanical."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses concrete agency language instead of generic service-business phrasing: producers, CSRs, quote requests, referral leads, and routine policyholder service calls."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Explicitly preserves the line between acknowledgement/routing and licensed human judgment."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T09:46:07.473Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        5,
+        1,
+        3
+      ],
+      "avgSentenceLength": 24.8,
+      "sentenceLengthRange": [
+        5,
+        50
+      ],
+      "totalWords": 421
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Missed Call Text-Back for Insurance Agencies\nBody: Insurance agencies miss calls for ordinary reasons: producers are already on another conversation, CSRs are buried in service work, lunch gaps stack up, or the office is closed when a referral lead or policyholder reaches out.",
+      "wordCount": 45,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a practical answer on missed-call recovery for your insurance agency?\nBody: Book a 30-minute call. We will look at your missed-call pattern, whether voicemail is quietly costing quote demand or service trust, and whether your agency should use a focused text-back workflow, move to live AI phone answering, or leave the phone stack alone for now.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 16,
+      "commas": 23,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 11,
+      "commasPerSentence": 1.35
+    },
+    "vocabulary": {
+      "distinctWords": 209,
+      "totalWords": 421,
+      "topWords": [
+        [
+          "insurance",
+          11
+        ],
+        [
+          "live",
+          9
+        ],
+        [
+          "phone",
+          9
+        ],
+        [
+          "text-back",
+          7
+        ],
+        [
+          "missed-call",
+          7
+        ],
+        [
+          "ai",
+          6
+        ],
+        [
+          "answering",
+          6
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "agencies",
+          4
+        ],
+        [
+          "service",
+          4
+        ],
+        [
+          "misses",
+          4
+        ],
+        [
+          "as",
+          4
+        ],
+        [
+          "agency",
+          4
+        ],
+        [
+          "voicemail",
+          4
+        ],
+        [
+          "recovery",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
