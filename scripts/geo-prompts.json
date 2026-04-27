@@ -2577,6 +2577,18 @@
       ]
     },
     {
+      "id": "quote-follow-up-automation-for-pool-service-companies",
+      "path": "/quote-follow-up-automation-for-pool-service-companies",
+      "label": "Quote Follow-Up Automation for Pool Service Companies",
+      "prompts": [
+        "Quote follow-up automation for pool service companies",
+        "How should a pool service company follow up on sent repair and green-to-clean quotes that go unanswered?",
+        "Best way to automate quote follow-up for pool service companies that lose jobs after sending estimates",
+        "What should a pool-service quote follow-up workflow handle for repair, cleanup, and equipment quotes?",
+        "How can a pool service company recover stale quotes before they die, especially during opening season?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-pest-control-companies",
       "path": "/what-to-automate-first-for-pest-control-companies",
       "label": "What to Automate First for Pest Control Companies",

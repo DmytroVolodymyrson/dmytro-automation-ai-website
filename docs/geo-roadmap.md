@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `/ai-lead-follow-up-for-pool-service-companies` — second child of the pool-service cluster. Covers the full fresh-lead stage before the first service visit is booked: fast first response, short nurture, light qualification, urgency routing, and office handoff. Total live pages: 246.)
+Last updated: 2026-04-26 (shipped `/quote-follow-up-automation-for-pool-service-companies` — third child of the pool-service cluster. Covers post-pricing quote follow-up for repair, green-to-clean, cleanup, and equipment quotes: reminder timing, seasonal urgency, objection handling, stale-quote recovery, and office handoff. Total live pages: 247.)
 
 ## Live GEO Assets
 
@@ -203,6 +203,7 @@ Last updated: 2026-04-26 (shipped `/ai-lead-follow-up-for-pool-service-companies
 | AI for Pool Service Companies | `/ai-automation-for-pool-service-companies` | Vertical category page | Live |
 | What to Automate First (Pool Service) | `/what-to-automate-first-for-pool-service-companies` | Vertical decision page | Live |
 | AI Lead Follow-Up (Pool Service) | `/ai-lead-follow-up-for-pool-service-companies` | Vertical workflow page | Live |
+| Quote Follow-Up (Pool Service) | `/quote-follow-up-automation-for-pool-service-companies` | Vertical workflow page | Live |
 | What to Automate First (Pest Control) | `/what-to-automate-first-for-pest-control-companies` | Vertical decision page | Live |
 | Recurring Service Reminders | `/recurring-service-reminder-automation-for-pest-control-companies` | Vertical workflow page | Live |
 | Seasonal Campaigns (Pest Control) | `/seasonal-campaign-automation-for-pest-control-companies` | Vertical workflow page | Live |
@@ -256,9 +257,9 @@ Last updated: 2026-04-26 (shipped `/ai-lead-follow-up-for-pool-service-companies
 
 ## Next Pages
 
-This run shipped the pool-service lead-follow-up page (`/ai-lead-follow-up-for-pool-service-companies`), completing the fresh-lead inquiry-response layer for the pool-service cluster. The cluster now has three live pages: parent, first-project scoping, and lead follow-up. The next-best candidates are narrower pool-service workflow children that sit after the fresh-lead stage, or a cross-cluster check if another vertical has a higher-value gap.
+This run shipped the pool-service quote follow-up page (`/quote-follow-up-automation-for-pool-service-companies`), completing the post-pricing layer for the pool-service cluster. The cluster now has four live pages: parent, first-project scoping, lead follow-up, and quote follow-up. The next-best candidate is a cross-cluster reconciliation before adding a fifth pool-service child.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | Narrower pool-service workflow child (e.g. quote follow-up for repair/green-to-clean jobs, recurring-route retention, or seasonal opening/closing outreach) | The fresh-lead layer is now live. The next natural children cover downstream stages: stale quote recovery, recurring-account churn, or seasonal campaign timing. Choose based on which stage leaks the most revenue after the first inquiry is handled. | Ready to evaluate |
-| 2 | Cross-cluster reconciliation | Check whether solar, plumbing, electrical, or another vertical has a higher-value child-page gap before adding a fourth pool-service child. The pool-service cluster is now reasonably covered for the early-funnel stage. | Recommended before fourth pool-service child |
+| 1 | Cross-cluster reconciliation | The pool-service cluster now has four pages covering parent overview, first-project scoping, fresh-lead follow-up, and post-pricing quote follow-up. Check whether solar, plumbing, electrical, or another vertical has a higher-value child-page gap before adding a fifth pool-service child (e.g. recurring-route retention or seasonal campaigns). | Recommended next |
+| 2 | Narrower pool-service workflow child (recurring-route retention or seasonal opening/closing outreach) | If the cross-cluster check confirms pool service still has the highest-value gap, the next natural children cover retention and seasonal timing. | Evaluate after cross-cluster check |

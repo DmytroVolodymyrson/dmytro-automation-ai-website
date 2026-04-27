@@ -1964,6 +1964,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Quote Follow-Up Automation for Pool Service Companies",
+    description:
+      "Quote follow-up automation for pool service companies. Reminder timing, seasonal urgency, objection handling, and stale-quote recovery for repair, green-to-clean, cleanup, and equipment quotes that already have pricing attached.",
+    href: "/quote-follow-up-automation-for-pool-service-companies",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Pest Control Companies",
     description:
       "Scoping guide for pest control companies deciding whether the first workflow should be urgent lead follow-up, missed-call recovery, recurring-service reminders, seasonal campaigns, or heavier live phone coverage before a bigger automation build.",

@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 314 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 315 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -105,7 +105,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Automation Consultant Calgary** — `/ai-automation-consultant-calgary`
 - **AI Automation Consultant Edmonton** — `/ai-automation-consultant-edmonton`
 
-### Industry + vertical pages (204)
+### Industry + vertical pages (205)
 - **After-Hours AI Phone Answering vs. Voicemail for Restaurants** — `/after-hours-ai-phone-answering-vs-voicemail-for-restaurants`
 - **After-Hours Maintenance Triage for Property Management Companies** — `/after-hours-maintenance-triage-for-property-management-companies`
 - **After-Hours Phone Answering for Restaurants** — `/after-hours-phone-answering-for-restaurants`
@@ -120,6 +120,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Automation for Pool Service Companies** — `/ai-automation-for-pool-service-companies`
 - **What to Automate First for Pool Service Companies** — `/what-to-automate-first-for-pool-service-companies`
 - **AI Lead Follow-Up for Pool Service Companies** — `/ai-lead-follow-up-for-pool-service-companies`
+- **Quote Follow-Up Automation for Pool Service Companies** — `/quote-follow-up-automation-for-pool-service-companies`
 - **AI Automation for Property Management** — `/ai-automation-for-property-management`
 - **AI Automation for Real Estate** — `/ai-automation-for-real-estate`
 - **AI Automation for Restaurants** — `/ai-automation-for-restaurants`
