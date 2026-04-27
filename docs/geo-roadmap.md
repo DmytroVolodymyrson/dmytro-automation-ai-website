@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/missed-call-text-back-for-accounting-firms` — accounting phone-recovery child page focused on SMS-first missed-call follow-up during tax-season overload, client meetings, lunch gaps, and after hours, with lightweight intake capture and a cleaner middle layer between voicemail and heavier live AI phone answering. Total live pages: 260.)
+Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-accounting-firms` — accounting comparison page focused on the lighter fallback decision between SMS-first missed-call recovery and voicemail during tax-season overload, client meetings, lunch gaps, and after hours, with live AI phone answering treated as the heavier next layer. Total live pages: 261.)
 
 ## Live GEO Assets
 
@@ -137,6 +137,8 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-for-accounting-firms` 
 | Seasonal Reactivation (Accounting) | `/seasonal-client-reactivation-for-accounting-firms` | Vertical workflow page | Live |
 | AI Lead Follow-Up (Accounting) | `/ai-lead-follow-up-for-accounting-firms` | Vertical workflow page | Live |
 | AI Phone Answering (Accounting) | `/ai-phone-answering-for-accounting-firms` | Vertical solution page | Live |
+| AI Phone vs Voicemail (Accounting) | `/ai-phone-answering-vs-voicemail-for-accounting-firms` | Vertical comparison page | Live |
+| Missed Call Text-Back vs Voicemail (Accounting) | `/missed-call-text-back-vs-voicemail-for-accounting-firms` | Vertical comparison page | Live |
 | Review Automation (Accounting) | `/review-request-automation-for-accounting-firms` | Vertical workflow page | Live |
 | Missed Call Text-Back (Accounting) | `/missed-call-text-back-for-accounting-firms` | Vertical workflow page | Live |
 | AI for Plumbing Companies | `/ai-automation-for-plumbing-companies` | Vertical category page | Live |
@@ -270,9 +272,9 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-for-accounting-firms` 
 
 ## Next Pages
 
-This run shipped the accounting missed-call child page (`/missed-call-text-back-for-accounting-firms`). The accounting cluster now covers the broader parent, first-project decision, lead follow-up, onboarding, document collection, scheduling, seasonal reactivation, live phone answering, the live-answering-vs-voicemail comparison, the lighter missed-call recovery layer, and the post-engagement review-request layer.
+This run shipped the accounting lighter-fallback comparison page (`/missed-call-text-back-vs-voicemail-for-accounting-firms`). The accounting cluster now covers the broader parent, first-project decision, lead follow-up, onboarding, document collection, scheduling, seasonal reactivation, live phone answering, the live-answering-vs-voicemail comparison, the lighter missed-call recovery layer, the lighter missed-call-vs-voicemail comparison, and the post-engagement review-request layer.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / watchlist refresh` | The accounting cluster now has the core parent, first-project page, intake/ops children, live-phone layer, review-closeout layer, and the lighter missed-call middle layer. The next run should re-check mature clusters, broken-link/indexing gaps, and broader planning docs before forcing another same-cluster slug by inertia. | Recommended next |
-| 2 | `/missed-call-text-back-vs-voicemail-for-accounting-firms` | If a later run deliberately stays in the accounting phone cluster, the next defensible child would likely be the lighter fallback comparison itself — but only after a fresh reconciliation confirms it is still distinct, supportable, and not lower priority than broader repo-wide gaps. | Conditional / later |
+| 1 | `Broad reconciliation / watchlist refresh` | The accounting cluster now has the core parent, first-project page, intake/ops children, live-phone layer, both fallback comparisons, and the review-closeout layer. The next run should re-check mature clusters, indexing/discovery gaps, and broader planning docs before forcing another same-cluster slug by inertia. | Recommended next |
+| 2 | `Proof-led backlog refresh after reconciliation` | If a later run still needs a single ship, choose it only after a fresh cross-doc reconciliation confirms a remaining planned page is distinct, supportable, and higher-value than discovery maintenance. | Conditional / later |

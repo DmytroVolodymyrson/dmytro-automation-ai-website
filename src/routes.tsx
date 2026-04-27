@@ -122,6 +122,7 @@ import SeasonalClientReactivationForAccountingFirms from "./pages/SeasonalClient
 import AiLeadFollowUpForAccountingFirms from "./pages/AiLeadFollowUpForAccountingFirms";
 import AiPhoneAnsweringForAccountingFirms from "./pages/AiPhoneAnsweringForAccountingFirms";
 import AiPhoneAnsweringVsVoicemailForAccountingFirms from "./pages/AiPhoneAnsweringVsVoicemailForAccountingFirms";
+import MissedCallTextBackVsVoicemailForAccountingFirms from "./pages/MissedCallTextBackVsVoicemailForAccountingFirms";
 import ReviewRequestAutomationForAccountingFirms from "./pages/ReviewRequestAutomationForAccountingFirms";
 import MissedCallTextBackForAccountingFirms from "./pages/MissedCallTextBackForAccountingFirms";
 import AiAutomationForPlumbingCompanies from "./pages/AiAutomationForPlumbingCompanies";
@@ -527,6 +528,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-lead-follow-up-for-accounting-firms", element: <AiLeadFollowUpForAccountingFirms /> },
   { path: "/ai-phone-answering-for-accounting-firms", element: <AiPhoneAnsweringForAccountingFirms /> },
   { path: "/ai-phone-answering-vs-voicemail-for-accounting-firms", element: <AiPhoneAnsweringVsVoicemailForAccountingFirms /> },
+  { path: "/missed-call-text-back-vs-voicemail-for-accounting-firms", element: <MissedCallTextBackVsVoicemailForAccountingFirms /> },
   { path: "/missed-call-text-back-for-accounting-firms", element: <MissedCallTextBackForAccountingFirms /> },
   { path: "/review-request-automation-for-accounting-firms", element: <ReviewRequestAutomationForAccountingFirms /> },
   { path: "/ai-automation-for-plumbing-companies", element: <AiAutomationForPlumbingCompanies /> },

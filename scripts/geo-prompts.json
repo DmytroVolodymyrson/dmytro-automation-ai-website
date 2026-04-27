@@ -1125,6 +1125,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-vs-voicemail-for-accounting-firms",
+      "path": "/missed-call-text-back-vs-voicemail-for-accounting-firms",
+      "label": "Missed Call Text-Back vs. Voicemail for Accounting Firms",
+      "prompts": [
+        "Missed call text-back vs voicemail for accounting firms",
+        "Should an accounting firm use missed-call text-back or voicemail?",
+        "Is missed-call text-back better than voicemail for CPA firms?",
+        "Best fallback when a bookkeeping firm misses new-client calls",
+        "How should an accounting firm handle missed intake calls before moving to live AI phone answering?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-for-accounting-firms",
       "path": "/missed-call-text-back-for-accounting-firms",
       "label": "Missed Call Text-Back for Accounting Firms",
@@ -1132,7 +1144,7 @@
         "Missed call text-back for accounting firms",
         "How should an accounting firm follow up on missed intake calls automatically?",
         "Best way for a CPA firm to respond when new-client calls go to voicemail",
-        "Should an accounting firm use missed-call text-back before live AI phone answering?",
+        "How should an accounting firm recover missed intake calls without adding full live phone coverage?",
         "How can a bookkeeping firm recover after-hours inquiry calls without building full live phone coverage?"
       ]
     },

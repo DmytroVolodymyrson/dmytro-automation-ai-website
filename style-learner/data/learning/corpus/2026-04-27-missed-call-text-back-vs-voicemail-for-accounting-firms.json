@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-missed-call-text-back-vs-voicemail-for-accounting-firms",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back vs. Voicemail for Accounting Firms\nBody: If your accounting firm misses calls, missed-call text-back is usually a better fallback than voicemail when the real problem is consultation-request recovery during tax season, client meetings, lunch gaps, or after hours. Voicemail asks the caller to leave details, wait for a callback, and trust that someone will respond before they call the next CPA or bookkeeping firm. Missed-call text-back is not magic, but it does one important thing voicemail does not: it answers the miss immediately and gives the prospect or client a live next step while the request is still warm. The real decision is not whether texting feels newer. It is whether your firm needs a lighter recovery layer for missed calls or whether voicemail and callbacks are already quietly costing intake opportunities and client trust.\nSub: Below: when missed-call text-back is the smarter first move for an accounting firm, when voicemail is still acceptable, when the phone problem has already grown past both and needs live AI phone answering, and what the existing accounting plus call-handling proof honestly supports.\n\n### Core sections\n- What this comparison is actually deciding\n- Missed-call text-back vs. voicemail\n- When each option makes sense\n- Good fit and bad fit signals\n- The mistakes that make this decision expensive\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Straight answers for accounting-firm owners deciding whether voicemail is still good enough after missed calls\nTopics: whether missed-call text-back is usually better than voicemail for an accounting firm, when voicemail is still fine, when the firm should skip text-back and move to live AI phone answering, whether prospects reply to a missed-call text from an accounting firm, and how this page differs from the other accounting phone pages.\n\n### Final CTA\nHeading: Need a practical answer on missed-call recovery for your accounting firm?\nBody: Book a 30-minute call. We will look at your missed-call pattern, whether voicemail is quietly costing consultation requests, and whether your firm should use missed-call text-back, move to live AI phone answering, or leave the phone stack alone for now.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after reconciling the live accounting cluster against `docs/geo-roadmap.md`, `GEO-PLAN.md`, current routes/pages, and `scripts/geo-prompts.json`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the accounting cluster already had the broader parent, the missed-call workflow child, and the heavier AI-phone-answering-vs-voicemail comparison, leaving a clean missing middle: SMS-first missed-call recovery vs passive voicemail."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct by focusing on the lighter buyer choice — text-back versus voicemail — while treating live AI phone answering as the heavier next layer rather than the main comparison target."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live accounting phone cluster, the broader accounting parent/first-project context, and the Paris Cafe call-handling case study support the response-speed logic without pretending there is already an accounting-only voicemail comparison case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T08:48:11.870Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 27,
+      "sentenceLengthRange": [
+        5,
+        70
+      ],
+      "totalWords": 351
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Missed Call Text-Back vs.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a practical answer on missed-call recovery for your accounting firm?\nBody: Book a 30-minute call. We will look at your missed-call pattern, whether voicemail is quietly costing consultation requests, and whether your firm should use missed-call text-back, move to live AI phone answering, or leave the phone stack alone for now.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 18,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 1.5
+    },
+    "vocabulary": {
+      "distinctWords": 167,
+      "totalWords": 351,
+      "topWords": [
+        [
+          "voicemail",
+          11
+        ],
+        [
+          "firm",
+          9
+        ],
+        [
+          "missed-call",
+          9
+        ],
+        [
+          "text-back",
+          8
+        ],
+        [
+          "accounting",
+          8
+        ],
+        [
+          "whether",
+          8
+        ],
+        [
+          "when",
+          7
+        ],
+        [
+          "phone",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "your",
+          5
+        ],
+        [
+          "live",
+          4
+        ],
+        [
+          "still",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "missed",
+          3
+        ],
+        [
+          "call",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

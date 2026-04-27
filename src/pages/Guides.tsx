@@ -1129,6 +1129,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "Missed Call Text-Back vs. Voicemail for Accounting Firms",
+    description:
+      "Buyer guide for accounting firms deciding when SMS-first missed-call recovery is a better fallback than voicemail and callbacks, when voicemail is still acceptable, and when the firm has already outgrown both into live AI phone answering.",
+    href: "/missed-call-text-back-vs-voicemail-for-accounting-firms",
+    category: "comparisons",
+  },
+  {
     title: "Review Request Automation for Accounting Firms",
     description:
       "Post-engagement review-request workflow for accounting firms — better timing after tax returns, bookkeeping cleanups, advisory engagements, and audits, unhappy-reply routing before the public ask, and cleaner local-trust follow-through.",

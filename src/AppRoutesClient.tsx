@@ -123,6 +123,7 @@ const SeasonalClientReactivationForAccountingFirms = lazy(() => import("./pages/
 const AiLeadFollowUpForAccountingFirms = lazy(() => import("./pages/AiLeadFollowUpForAccountingFirms"));
 const AiPhoneAnsweringForAccountingFirms = lazy(() => import("./pages/AiPhoneAnsweringForAccountingFirms"));
 const AiPhoneAnsweringVsVoicemailForAccountingFirms = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForAccountingFirms"));
+const MissedCallTextBackVsVoicemailForAccountingFirms = lazy(() => import("./pages/MissedCallTextBackVsVoicemailForAccountingFirms"));
 const MissedCallTextBackForAccountingFirms = lazy(() => import("./pages/MissedCallTextBackForAccountingFirms"));
 const ReviewRequestAutomationForAccountingFirms = lazy(() => import("./pages/ReviewRequestAutomationForAccountingFirms"));
 const AiAutomationForPlumbingCompanies = lazy(() => import("./pages/AiAutomationForPlumbingCompanies"));
@@ -493,6 +494,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-lead-follow-up-for-accounting-firms" element={<AiLeadFollowUpForAccountingFirms />} />
       <Route path="/ai-phone-answering-for-accounting-firms" element={<AiPhoneAnsweringForAccountingFirms />} />
       <Route path="/ai-phone-answering-vs-voicemail-for-accounting-firms" element={<AiPhoneAnsweringVsVoicemailForAccountingFirms />} />
+      <Route path="/missed-call-text-back-vs-voicemail-for-accounting-firms" element={<MissedCallTextBackVsVoicemailForAccountingFirms />} />
       <Route path="/missed-call-text-back-for-accounting-firms" element={<MissedCallTextBackForAccountingFirms />} />
       <Route path="/review-request-automation-for-accounting-firms" element={<ReviewRequestAutomationForAccountingFirms />} />
       <Route path="/ai-automation-for-plumbing-companies" element={<AiAutomationForPlumbingCompanies />} />
