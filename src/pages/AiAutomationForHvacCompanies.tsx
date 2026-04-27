@@ -17,6 +17,10 @@ import {
   TrendingUp,
   Bot,
   DollarSign,
+  Database,
+  Star,
+  Wrench,
+  FileText,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
@@ -102,7 +106,7 @@ const AiAutomationForHvacCompanies = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>AI Automation for HVAC Companies — What's Real and What's Hype | Dmytro AI</title>
+        <title>AI Automation for HVAC Companies — What Actually Works Today | Dmytro AI</title>
         <meta
           name="description"
           content="Honest overview of AI automation for HVAC companies. What actually works, what's overhyped, where to start, and realistic ROI expectations for shops of all sizes."
@@ -113,7 +117,7 @@ const AiAutomationForHvacCompanies = () => {
         />
         <meta
           property="og:title"
-          content="AI Automation for HVAC Companies — What's Real and What's Hype | Dmytro AI"
+          content="AI Automation for HVAC Companies — What Actually Works Today | Dmytro AI"
         />
         <meta
           property="og:description"
@@ -128,7 +132,7 @@ const AiAutomationForHvacCompanies = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            name: "AI Automation for HVAC Companies — What's Real and What's Hype",
+            name: "AI Automation for HVAC Companies — What Actually Works Today",
             description:
               "An honest overview of AI automation for HVAC companies: what works today, what's overhyped, common starting points, and realistic ROI expectations.",
             author: { "@id": "https://www.dmytroai.com/#person" },
@@ -180,17 +184,20 @@ const AiAutomationForHvacCompanies = () => {
                 HVAC + AI Overview
               </div>
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-5 tracking-tight">
-                AI Automation for HVAC Companies — What's Real and What's Hype
+                AI Automation for HVAC Companies — What Actually Works Today
               </h1>
-              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-                Every HVAC vendor is talking about AI now. Most of it is
-                marketing. This page breaks down what actually works for HVAC
-                companies today, where the real wins are, and what you can
-                safely ignore.
+              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-4">
+                The AI automations that deliver real ROI for HVAC companies right
+                now are missed-call text-back, lead follow-up sequences, appointment
+                scheduling, quote follow-up, seasonal maintenance reminders, and
+                review request automation. These handle the repetitive, time-sensitive
+                communication your office can't keep up with — and they work with
+                ServiceTitan, Housecall Pro, Jobber, or whatever you're already running.
               </p>
               <p className="text-base text-muted-foreground leading-relaxed mb-8">
-                No inflated stats. No "10x your revenue" claims. Just an honest
-                look at where automation fits in the HVAC business model.
+                Below: what's proven, what's overhyped, where to start, honest
+                ROI expectations, and real proof from HVAC and adjacent service
+                businesses.
               </p>
               <Button
                 size="lg"
@@ -203,6 +210,45 @@ const AiAutomationForHvacCompanies = () => {
             </motion.div>
           </div>
         </section>
+
+        {/* -- Cluster routing ---------------------------------------- */}
+        <Section className="bg-secondary/30">
+          <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-2 tracking-tight">
+            Jump to a specific HVAC automation
+          </h2>
+          <p className="text-base text-muted-foreground mb-6 leading-relaxed">
+            If you already know what you're looking for, go straight to the
+            detailed guide:
+          </p>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {[
+              { to: "/what-to-automate-first-for-hvac-companies", icon: Zap, label: "What to automate first" },
+              { to: "/hvac-missed-call-text-back", icon: Phone, label: "Missed call text-back" },
+              { to: "/hvac-lead-follow-up-automation", icon: MessageSquare, label: "Lead follow-up automation" },
+              { to: "/ai-appointment-setter-for-hvac", icon: CalendarCheck, label: "AI appointment scheduling" },
+              { to: "/hvac-database-reactivation", icon: Database, label: "Database reactivation" },
+              { to: "/hvac-scheduling-and-follow-up-automation", icon: Clock, label: "Scheduling & dispatch" },
+              { to: "/ai-phone-answering-for-hvac-companies", icon: Phone, label: "AI phone answering" },
+              { to: "/quote-follow-up-automation-for-hvac-companies", icon: FileText, label: "Quote follow-up" },
+              { to: "/maintenance-reminder-automation-for-hvac-companies", icon: Wrench, label: "Maintenance reminders" },
+              { to: "/review-request-automation-for-hvac-companies", icon: Star, label: "Review request automation" },
+            ].map((item) => (
+              <Link
+                key={item.to}
+                to={item.to}
+                className="flex items-center gap-3 rounded-xl border border-border/60 bg-card/80 px-4 py-3 text-sm font-medium text-foreground hover:border-primary/30 hover:bg-primary/5 transition-colors"
+              >
+                <item.icon className="w-4 h-4 text-primary flex-shrink-0" />
+                {item.label}
+                <ArrowRight className="w-3.5 h-3.5 text-muted-foreground ml-auto" />
+              </Link>
+            ))}
+          </div>
+          <p className="text-sm text-muted-foreground mt-4">
+            Or keep reading for the full overview — what works, what doesn't,
+            and where to start.
+          </p>
+        </Section>
 
         {/* -- What AI automation means for HVAC --------------------- */}
         <Section className="bg-secondary/30">
@@ -228,16 +274,29 @@ const AiAutomationForHvacCompanies = () => {
                 icon: Phone,
                 title: "Communication automation",
                 body: "Instant text-backs on missed calls, automated follow-up sequences on new leads, appointment confirmations and reminders. The communication that makes or breaks whether a lead becomes a job.",
+                links: [
+                  { to: "/hvac-missed-call-text-back", text: "Missed call text-back" },
+                  { to: "/hvac-lead-follow-up-automation", text: "Lead follow-up" },
+                ],
               },
               {
                 icon: CalendarCheck,
                 title: "Scheduling and dispatch workflows",
                 body: "AI that books appointments from inbound calls or web forms, syncs with your calendar, and sends the right confirmations. Not replacing your dispatcher — handling the intake so they can focus on routing.",
+                links: [
+                  { to: "/ai-appointment-setter-for-hvac", text: "AI appointment setter" },
+                  { to: "/hvac-scheduling-and-follow-up-automation", text: "Scheduling & follow-up" },
+                ],
               },
               {
                 icon: TrendingUp,
                 title: "Revenue recovery",
                 body: "Reactivating past customers for seasonal maintenance, following up on unsold estimates, and requesting reviews after completed jobs. Revenue that's already in your database, just not being captured.",
+                links: [
+                  { to: "/hvac-database-reactivation", text: "Database reactivation" },
+                  { to: "/quote-follow-up-automation-for-hvac-companies", text: "Quote follow-up" },
+                  { to: "/review-request-automation-for-hvac-companies", text: "Review automation" },
+                ],
               },
             ].map((item, i) => (
               <motion.div
@@ -254,9 +313,21 @@ const AiAutomationForHvacCompanies = () => {
                 <h3 className="text-lg font-semibold text-foreground mb-2">
                   {item.title}
                 </h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">
+                <p className="text-sm text-muted-foreground leading-relaxed mb-3">
                   {item.body}
                 </p>
+                <div className="flex flex-wrap gap-x-4 gap-y-1">
+                  {item.links.map((link) => (
+                    <Link
+                      key={link.to}
+                      to={link.to}
+                      className="text-xs font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+                    >
+                      {link.text}
+                      <ArrowRight className="w-3 h-3" />
+                    </Link>
+                  ))}
+                </div>
               </motion.div>
             ))}
           </div>
@@ -454,17 +525,45 @@ const AiAutomationForHvacCompanies = () => {
           </p>
         </Section>
 
-        {/* -- What results look like -------------------------------- */}
+        {/* -- HVAC-specific proof ----------------------------------- */}
         <Section className="bg-secondary/30">
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
-            Results from similar service businesses
+            Real proof from HVAC and service businesses
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
-            These case studies are from non-HVAC service businesses, but the
-            automation patterns are identical — lead follow-up, call handling,
-            and CRM workflows translate directly:
+            The HVAC database reactivation system below is built specifically
+            for HVAC companies. The adjacent case studies use the same
+            automation patterns — lead follow-up, call handling, CRM
+            workflows — that translate directly to HVAC operations.
           </p>
-          <div className="grid gap-6 md:grid-cols-3">
+
+          {/* HVAC-specific proof card */}
+          <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6 mb-6 max-w-4xl">
+            <span className="text-xs font-semibold text-primary uppercase tracking-wide mb-2 block">
+              HVAC — Database Reactivation
+            </span>
+            <h3 className="text-lg font-bold text-foreground mb-3">
+              Turn old estimates and past customers into booked jobs
+            </h3>
+            <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+              Most HVAC companies have hundreds or thousands of contacts sitting
+              untouched in their CRM — old quotes that never closed, past customers
+              who haven't been contacted in months. A done-for-you reactivation
+              system reaches out, re-engages, and books the ones who are ready.
+              No new ad spend. Works with ServiceTitan, Housecall Pro, Jobber, or
+              spreadsheets.
+            </p>
+            <Link
+              to="/hvac-database-reactivation"
+              className="text-sm font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+            >
+              See the full HVAC database reactivation guide
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+
+          {/* Adjacent service-business proof */}
+          <div className="grid gap-6 md:grid-cols-3 max-w-4xl">
             {[
               {
                 industry: "Restaurant",
@@ -512,35 +611,51 @@ const AiAutomationForHvacCompanies = () => {
               </motion.div>
             ))}
           </div>
-          <div className="mt-8 flex flex-wrap gap-4">
+          <p className="text-sm text-muted-foreground mt-6">
             <Link
-              to="/hvac-lead-follow-up-automation"
-              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+              to="/case-studies"
+              className="font-medium text-primary hover:text-primary/80 transition-colors"
             >
-              HVAC lead follow-up automation
-              <ArrowRight className="w-4 h-4" />
+              All case studies
             </Link>
+            {" · "}
             <Link
-              to="/hvac-missed-call-text-back"
-              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+              to="/best-ai-automation-for-service-businesses"
+              className="font-medium text-primary hover:text-primary/80 transition-colors"
             >
-              HVAC missed call text back
-              <ArrowRight className="w-4 h-4" />
+              Best AI automations for service businesses
             </Link>
-            <Link
-              to="/ai-appointment-setter-for-hvac"
-              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
-            >
-              AI appointment setter for HVAC
-              <ArrowRight className="w-4 h-4" />
-            </Link>
-            <Link
-              to="/hvac-database-reactivation"
-              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
-            >
-              HVAC database reactivation
-              <ArrowRight className="w-4 h-4" />
-            </Link>
+          </p>
+        </Section>
+
+        {/* -- Continue researching ---------------------------------- */}
+        <Section>
+          <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-2 tracking-tight">
+            Continue researching
+          </h2>
+          <p className="text-base text-muted-foreground mb-6 leading-relaxed">
+            Related guides, comparisons, and broader service-business resources:
+          </p>
+          <div className="grid gap-2 sm:grid-cols-2 max-w-3xl">
+            {[
+              { to: "/what-to-automate-first-for-hvac-companies", text: "What to automate first for HVAC" },
+              { to: "/missed-call-text-back-vs-ai-phone-answering-for-hvac-companies", text: "Missed call text-back vs. AI phone answering" },
+              { to: "/ai-phone-answering-vs-voicemail-for-hvac-companies", text: "AI phone answering vs. voicemail" },
+              { to: "/missed-call-text-back-vs-voicemail-for-hvac-companies", text: "Missed call text-back vs. voicemail" },
+              { to: "/best-ai-automation-for-service-businesses", text: "Best AI automations for service businesses" },
+              { to: "/ai-automation-consultant-small-business", text: "AI automation consultant for small business" },
+              { to: "/guides", text: "All guides" },
+              { to: "/case-studies", text: "All case studies" },
+            ].map((item) => (
+              <Link
+                key={item.to}
+                to={item.to}
+                className="flex items-center gap-2 py-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors"
+              >
+                <ArrowRight className="w-3.5 h-3.5 flex-shrink-0" />
+                {item.text}
+              </Link>
+            ))}
           </div>
         </Section>
 

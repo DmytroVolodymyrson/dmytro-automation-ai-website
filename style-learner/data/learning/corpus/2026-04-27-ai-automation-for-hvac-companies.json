@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-ai-automation-for-hvac-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero (refreshed)\nBadge: HVAC + AI Overview\nHeading: AI Automation for HVAC Companies — What Actually Works Today\nBody: The AI automations that deliver real ROI for HVAC companies right now are missed-call text-back, lead follow-up sequences, appointment scheduling, quote follow-up, seasonal maintenance reminders, and review request automation. These handle the repetitive, time-sensitive communication your office can't keep up with — and they work with ServiceTitan, Housecall Pro, Jobber, or whatever you're already running.\nSub: Below: what's proven, what's overhyped, where to start, honest ROI expectations, and real proof from HVAC and adjacent service businesses.\nCTA: Book a 30-Minute Call\n\n### Cluster routing block (new)\nHeading: Jump to a specific HVAC automation\nIntro: If you already know what you're looking for, go straight to the detailed guide:\nLinks: What to automate first · Missed call text-back · Lead follow-up automation · AI appointment scheduling · Database reactivation · Scheduling & dispatch · AI phone answering · Quote follow-up · Maintenance reminders · Review request automation\nClosing: Or keep reading for the full overview — what works, what doesn't, and where to start.\n\n### Category cards (refreshed — added contextual links)\nCommunication automation: Instant text-backs on missed calls, automated follow-up sequences on new leads, appointment confirmations and reminders. The communication that makes or breaks whether a lead becomes a job. Links: Missed call text-back → Lead follow-up →\nScheduling and dispatch workflows: AI that books appointments from inbound calls or web forms, syncs with your calendar, and sends the right confirmations. Not replacing your dispatcher — handling the intake so they can focus on routing. Links: AI appointment setter → Scheduling & follow-up →\nRevenue recovery: Reactivating past customers for seasonal maintenance, following up on unsold estimates, and requesting reviews after completed jobs. Revenue that's already in your database, just not being captured. Links: Database reactivation → Quote follow-up → Review automation →\n\n### Proof section (refreshed)\nHeading: Real proof from HVAC and service businesses\nIntro: The HVAC database reactivation system below is built specifically for HVAC companies. The adjacent case studies use the same automation patterns — lead follow-up, call handling, CRM workflows — that translate directly to HVAC operations.\n\nHVAC proof card:\nTitle: Turn old estimates and past customers into booked jobs\nBody: Most HVAC companies have hundreds or thousands of contacts sitting untouched in their CRM — old quotes that never closed, past customers who haven't been contacted in months. A done-for-you reactivation system reaches out, re-engages, and books the ones who are ready. No new ad spend. Works with ServiceTitan, Housecall Pro, Jobber, or spreadsheets.\nLink: See the full HVAC database reactivation guide →\n\nAdjacent proof: Restaurant (100% after-hours calls answered) · Info Business (automated qualification) · E-commerce (thousands of leads organized)\nFooter links: All case studies · Best AI automations for service businesses\n\n### Continue researching (new section)\nHeading: Continue researching\nIntro: Related guides, comparisons, and broader service-business resources:\nLinks: What to automate first for HVAC · Missed call text-back vs. AI phone answering · AI phone answering vs. voicemail · Missed call text-back vs. voicemail · Best AI automations for service businesses · AI automation consultant for small business · All guides · All case studies",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "addition",
+      "text": "",
+      "description": "Bounded refresh: tightened direct-answer opening for AEO extraction, added cluster routing for internal discovery, promoted real HVAC proof (database reactivation) ahead of adjacent proof"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept tone practical, direct, non-hype — consistent with existing page voice"
+    },
+    {
+      "type": "tone_shift",
+      "description": "No invented HVAC-specific metrics; proof limited to what's live on the site"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Title changed from \"What's Real and What's Hype\" to \"What Actually Works Today\" — more direct, less clickbait"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T16:24:24.812Z",
+    "structure": {
+      "paragraphCount": 7,
+      "sentencesPerParagraph": [
+        4,
+        1,
+        7,
+        2,
+        5,
+        1,
+        4
+      ],
+      "avgSentenceLength": 20.4,
+      "sentenceLengthRange": [
+        4,
+        70
+      ],
+      "totalWords": 489
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero (refreshed)\nBadge: HVAC + AI Overview\nHeading: AI Automation for HVAC Companies — What Actually Works Today\nBody: The AI automations that deliver real ROI for HVAC companies right now are missed-call text-back, lead follow-up sequences, appointment scheduling, quote follow-up, seasonal maintenance reminders, and review request automation.",
+      "wordCount": 46,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Continue researching (new section)\nHeading: Continue researching\nIntro: Related guides, comparisons, and broader service-business resources:\nLinks: What to automate first for HVAC · Missed call text-back vs. AI phone answering · AI phone answering vs. voicemail · Missed call text-back vs. voicemail · Best AI automations for service businesses · AI automation consultant for small business · All guides · All case studies",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "product-pitch",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | result | product-pitch | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 19,
+      "commas": 33,
+      "emDashes": 8,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 29,
+      "commasPerSentence": 1.65
+    },
+    "vocabulary": {
+      "distinctWords": 233,
+      "totalWords": 489,
+      "topWords": [
+        [
+          "hvac",
+          13
+        ],
+        [
+          "ai",
+          12
+        ],
+        [
+          "automation",
+          9
+        ],
+        [
+          "follow-up",
+          9
+        ],
+        [
+          "links",
+          7
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "call",
+          6
+        ],
+        [
+          "that",
+          5
+        ],
+        [
+          "text-back",
+          5
+        ],
+        [
+          "lead",
+          5
+        ],
+        [
+          "scheduling",
+          5
+        ],
+        [
+          "proof",
+          5
+        ],
+        [
+          "missed",
+          5
+        ],
+        [
+          "database",
+          5
+        ],
+        [
+          "reactivation",
+          5
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.004
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": [
+        "adds-trust-signals"
+      ]
+    }
+  }
+}
