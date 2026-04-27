@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-n8n-vs-zapier-small-business-indexing-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: n8n vs Zapier for Small Business\nBody: Both tools automate workflows. But they solve different problems at different price points. This page helps you figure out which one fits your business.\nSub: No affiliate links. No vendor sponsorship. Just a practical breakdown based on building with both tools for real businesses.\n\n### New/updated decision-routing section\nHeading: Three real scenarios, three different answers\nIntro: Most small businesses fall into one of these situations. Here is what the decision looks like for each:\n\n1. \"I just need form submissions to go into my CRM and trigger a follow-up email\"\n- Frames this as a straightforward SaaS-to-SaaS workflow where Zapier is usually enough.\n- Adds a natural next-step link to /n8n-automation-examples-small-business for readers whose simple automation is starting to grow into something bigger.\n\n2. \"I need leads routed differently based on source, service type, or location\"\n- Frames this as the point where branching logic, API lookups, and conditional routing push the reader toward n8n.\n- Adds contextual internal links to /ai-lead-follow-up-for-service-businesses and /n8n-consultant-vs-diy-small-business.\n\n3. \"I inherited a mess of Zaps or n8n workflows and nothing is documented\"\n- Reframes the platform choice around audit-before-migration instead of guessing.\n- Adds contextual internal links to /n8n-workflow-audit-checklist, /n8n-workflow-cleanup-vs-rebuild, and /n8n-workflow-cleanup-service.\n\n### Updated related-links area\nSection: See how n8n works in practice\n- Keeps the two case-study cards.\n- Expands the bottom link row beyond /case-studies to include:\n  - /n8n-automation-consultant\n  - /how-to-hire-n8n-automation-consultant\n  - /n8n-automation-consultant-cost-small-business\n\n### Rest of page retained\n- The short version\n- What each tool actually is\n- Side-by-side comparison\n- The cost question\n- When this decision actually matters\n- Who should use which\n- Common questions\n- Final CTA and booking widget",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was an indexing/internal-linking refresh on an existing comparison page, not a new page ship."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "The added section keeps the page in decision mode by showing three practical small-business situations instead of adding generic tool education."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Internal links stay tightly inside the live n8n cluster so the page routes readers toward examples, consultant help, hiring guidance, pricing, and rescue paths without drifting into unrelated topics."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays direct and neutral: Zapier is still presented as a valid answer for simple workflows, while n8n is positioned as the better fit only when complexity, cost scale, or ownership needs justify it."
+    },
+    {
+      "type": "tone_shift",
+      "description": "No new proof claims were invented. The update only strengthens framing and crawl paths using already-live site assets."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T08:59:37.225Z",
+    "structure": {
+      "paragraphCount": 7,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        3,
+        3,
+        3,
+        2,
+        1
+      ],
+      "avgSentenceLength": 14,
+      "sentenceLengthRange": [
+        1,
+        41
+      ],
+      "totalWords": 279
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: n8n vs Zapier for Small Business\nBody: Both tools automate workflows.",
+      "wordCount": 13,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Rest of page retained\n- The short version\n- What each tool actually is\n- Side-by-side comparison\n- The cost question\n- When this decision actually matters\n- Who should use which\n- Common questions\n- Final CTA and booking widget",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "product-pitch",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | product-pitch | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 17,
+      "commas": 7,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 19,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 8,
+      "commasPerSentence": 0.39
+    },
+    "vocabulary": {
+      "distinctWords": 184,
+      "totalWords": 279,
+      "topWords": [
+        [
+          "-",
+          19
+        ],
+        [
+          "n8n",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "different",
+          3
+        ],
+        [
+          "links",
+          3
+        ],
+        [
+          "into",
+          3
+        ],
+        [
+          "adds",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "zapier",
+          2
+        ],
+        [
+          "small",
+          2
+        ],
+        [
+          "business",
+          2
+        ],
+        [
+          "both",
+          2
+        ],
+        [
+          "tools",
+          2
+        ],
+        [
+          "workflows",
+          2
+        ],
+        [
+          "page",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

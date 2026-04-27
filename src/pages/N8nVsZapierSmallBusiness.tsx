@@ -433,6 +433,118 @@ const N8nVsZapierSmallBusiness = () => {
           </p>
         </Section>
 
+        {/* Real scenarios */}
+        <Section>
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
+            Three real scenarios, three different answers
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
+            Most small businesses fall into one of these situations. Here is
+            what the decision looks like for each:
+          </p>
+          <div className="grid gap-6 max-w-4xl">
+            <div className="rounded-2xl border border-border/60 bg-card/80 p-6">
+              <div className="flex items-start gap-3 mb-3">
+                <CheckCircle2 className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                <h3 className="text-lg font-semibold text-foreground">
+                  "I just need form submissions to go into my CRM and trigger a
+                  follow-up email"
+                </h3>
+              </div>
+              <p className="text-sm text-muted-foreground leading-relaxed mb-3">
+                This is a straightforward SaaS-to-SaaS connection. Zapier
+                handles it in minutes with no code. Unless your monthly volume
+                pushes you past the free tier, there is no reason to complicate
+                it.
+              </p>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                If you want to see what happens when simple automations grow
+                into something bigger:{" "}
+                <Link
+                  to="/n8n-automation-examples-small-business"
+                  className="text-primary hover:text-primary/80 font-medium transition-colors"
+                >
+                  real n8n workflow examples for small business
+                </Link>
+                .
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6">
+              <div className="flex items-start gap-3 mb-3">
+                <Wrench className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <h3 className="text-lg font-semibold text-foreground">
+                  "I need leads routed differently based on source, service
+                  type, or location"
+                </h3>
+              </div>
+              <p className="text-sm text-muted-foreground leading-relaxed mb-3">
+                Once your workflow needs branching logic, API lookups, or
+                conditional routing, Zapier starts fighting you. n8n handles
+                this natively with if/else nodes, HTTP requests, and
+                sub-workflows.
+              </p>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                See how this works in practice:{" "}
+                <Link
+                  to="/ai-lead-follow-up-for-service-businesses"
+                  className="text-primary hover:text-primary/80 font-medium transition-colors"
+                >
+                  AI lead follow-up for service businesses
+                </Link>
+                . If you are weighing whether to build it yourself or hire
+                help:{" "}
+                <Link
+                  to="/n8n-consultant-vs-diy-small-business"
+                  className="text-primary hover:text-primary/80 font-medium transition-colors"
+                >
+                  n8n consultant vs DIY
+                </Link>
+                .
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-border/60 bg-card/80 p-6">
+              <div className="flex items-start gap-3 mb-3">
+                <AlertTriangle className="w-5 h-5 text-amber-500 flex-shrink-0 mt-0.5" />
+                <h3 className="text-lg font-semibold text-foreground">
+                  "I inherited a mess of Zaps or n8n workflows and nothing is
+                  documented"
+                </h3>
+              </div>
+              <p className="text-sm text-muted-foreground leading-relaxed mb-3">
+                Before choosing a platform, audit what you have. Sometimes the
+                problem is not the tool. It is workflows that were built ad-hoc
+                without structure, error handling, or naming conventions.
+              </p>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Start here:{" "}
+                <Link
+                  to="/n8n-workflow-audit-checklist"
+                  className="text-primary hover:text-primary/80 font-medium transition-colors"
+                >
+                  n8n workflow audit checklist
+                </Link>
+                . Then decide whether to{" "}
+                <Link
+                  to="/n8n-workflow-cleanup-vs-rebuild"
+                  className="text-primary hover:text-primary/80 font-medium transition-colors"
+                >
+                  clean up or rebuild
+                </Link>
+                . If the scope is bigger than a weekend project:{" "}
+                <Link
+                  to="/n8n-workflow-cleanup-service"
+                  className="text-primary hover:text-primary/80 font-medium transition-colors"
+                >
+                  workflow cleanup service
+                </Link>
+                .
+              </p>
+            </div>
+          </div>
+        </Section>
+
         {/* Good fit / not a fit */}
         <Section>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
@@ -539,7 +651,7 @@ const N8nVsZapierSmallBusiness = () => {
               </motion.div>
             ))}
           </div>
-          <div className="mt-6 flex flex-wrap gap-4">
+          <div className="mt-6 flex flex-wrap gap-x-6 gap-y-3">
             <Link
               to="/case-studies"
               className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
@@ -548,10 +660,24 @@ const N8nVsZapierSmallBusiness = () => {
               <ArrowRight className="w-4 h-4" />
             </Link>
             <Link
-              to="/ai-automation-consultant-small-business"
+              to="/n8n-automation-consultant"
               className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
             >
-              Learn about automation consulting
+              n8n automation consultant
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+            <Link
+              to="/how-to-hire-n8n-automation-consultant"
+              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+            >
+              How to hire an n8n consultant
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+            <Link
+              to="/n8n-automation-consultant-cost-small-business"
+              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+            >
+              n8n consultant pricing
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
