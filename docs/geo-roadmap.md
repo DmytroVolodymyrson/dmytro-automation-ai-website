@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-accounting-firms` — accounting comparison page focused on the lighter fallback decision between SMS-first missed-call recovery and voicemail during tax-season overload, client meetings, lunch gaps, and after hours, with live AI phone answering treated as the heavier next layer. Total live pages: 261.)
+Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-pool-service-companies` — pool-service comparison page focused on the lighter fallback decision between SMS-first missed-call recovery and voicemail during route-day coverage gaps, opening-season overflow, and after-hours demand, with live AI phone answering treated as the heavier next layer. Total live pages: 262.)
 
 ## Live GEO Assets
 
@@ -216,6 +216,7 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-accou
 | Seasonal Opening/Closing Outreach (Pool Service) | `/seasonal-opening-and-closing-outreach-for-pool-service-companies` | Vertical workflow page | Live |
 | Review Request Automation (Pool Service) | `/review-request-automation-for-pool-service-companies` | Vertical workflow page | Live |
 | Missed Call Text-Back (Pool Service) | `/missed-call-text-back-for-pool-service-companies` | Vertical workflow page | Live |
+| Text-Back vs Voicemail (Pool Service) | `/missed-call-text-back-vs-voicemail-for-pool-service-companies` | Vertical comparison page | Live |
 | AI Phone Answering (Pool Service) | `/ai-phone-answering-for-pool-service-companies` | Vertical workflow page | Live |
 | AI Phone vs Voicemail (Pool Service) | `/ai-phone-answering-vs-voicemail-for-pool-service-companies` | Vertical comparison page | Live |
 | Text-Back vs AI Phone (Pool Service) | `/missed-call-text-back-vs-ai-phone-answering-for-pool-service-companies` | Vertical comparison page | Live |
@@ -272,9 +273,9 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-accou
 
 ## Next Pages
 
-This run shipped the accounting lighter-fallback comparison page (`/missed-call-text-back-vs-voicemail-for-accounting-firms`). The accounting cluster now covers the broader parent, first-project decision, lead follow-up, onboarding, document collection, scheduling, seasonal reactivation, live phone answering, the live-answering-vs-voicemail comparison, the lighter missed-call recovery layer, the lighter missed-call-vs-voicemail comparison, and the post-engagement review-request layer.
+This run shipped the pool-service lighter-fallback comparison page (`/missed-call-text-back-vs-voicemail-for-pool-service-companies`). The pool-service cluster now covers the broader parent, first-project decision, lead follow-up, quote follow-up, recurring-route retention, seasonal outreach, post-service review asks, the lighter missed-call recovery layer, the lighter missed-call-vs-voicemail comparison, the live AI phone-answering layer, the live-answering-vs-voicemail comparison, and the lighter-vs-heavier phone comparison.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / watchlist refresh` | The accounting cluster now has the core parent, first-project page, intake/ops children, live-phone layer, both fallback comparisons, and the review-closeout layer. The next run should re-check mature clusters, indexing/discovery gaps, and broader planning docs before forcing another same-cluster slug by inertia. | Recommended next |
-| 2 | `Proof-led backlog refresh after reconciliation` | If a later run still needs a single ship, choose it only after a fresh cross-doc reconciliation confirms a remaining planned page is distinct, supportable, and higher-value than discovery maintenance. | Conditional / later |
+| 1 | `Broad reconciliation / watchlist refresh` | The pool-service cluster now has the core parent, first-project page, retention and quote children, and the full lighter/heavier phone-decision stack. The next run should re-check mature clusters, indexing/discovery gaps, and broader planning docs before forcing another same-cluster slug by inertia. | Recommended next |
+| 2 | `/missed-call-text-back-vs-voicemail-for-home-inspectors` | If a later run still needs a single page after reconciliation, this is a plausible next phone-cluster candidate because the home-inspector cluster already has the broader parent, missed-call child, and live-answering child but still appears to lack the lighter voicemail-vs-text-back decision layer. | Conditional / verify next run |

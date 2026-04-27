@@ -289,6 +289,7 @@ const RecurringServiceReminderAutomationForPoolServiceCompanies = lazy(() => imp
 const SeasonalOpeningAndClosingOutreachForPoolServiceCompanies = lazy(() => import("./pages/SeasonalOpeningAndClosingOutreachForPoolServiceCompanies"));
 const ReviewRequestAutomationForPoolServiceCompanies = lazy(() => import("./pages/ReviewRequestAutomationForPoolServiceCompanies"));
 const MissedCallTextBackForPoolServiceCompanies = lazy(() => import("./pages/MissedCallTextBackForPoolServiceCompanies"));
+const MissedCallTextBackVsVoicemailForPoolServiceCompanies = lazy(() => import("./pages/MissedCallTextBackVsVoicemailForPoolServiceCompanies"));
 const AiPhoneAnsweringForPoolServiceCompanies = lazy(() => import("./pages/AiPhoneAnsweringForPoolServiceCompanies"));
 const AiPhoneAnsweringVsVoicemailForPoolServiceCompanies = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForPoolServiceCompanies"));
 const MissedCallTextBackVsAiPhoneAnsweringForPoolServiceCompanies = lazy(() => import("./pages/MissedCallTextBackVsAiPhoneAnsweringForPoolServiceCompanies"));
@@ -660,6 +661,7 @@ const AppRoutesClient = () => (
       <Route path="/seasonal-opening-and-closing-outreach-for-pool-service-companies" element={<SeasonalOpeningAndClosingOutreachForPoolServiceCompanies />} />
       <Route path="/review-request-automation-for-pool-service-companies" element={<ReviewRequestAutomationForPoolServiceCompanies />} />
       <Route path="/missed-call-text-back-for-pool-service-companies" element={<MissedCallTextBackForPoolServiceCompanies />} />
+      <Route path="/missed-call-text-back-vs-voicemail-for-pool-service-companies" element={<MissedCallTextBackVsVoicemailForPoolServiceCompanies />} />
       <Route path="/ai-phone-answering-for-pool-service-companies" element={<AiPhoneAnsweringForPoolServiceCompanies />} />
       <Route path="/ai-phone-answering-vs-voicemail-for-pool-service-companies" element={<AiPhoneAnsweringVsVoicemailForPoolServiceCompanies />} />
       <Route path="/missed-call-text-back-vs-ai-phone-answering-for-pool-service-companies" element={<MissedCallTextBackVsAiPhoneAnsweringForPoolServiceCompanies />} />

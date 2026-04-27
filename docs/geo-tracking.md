@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 328 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 330 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -125,6 +125,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Seasonal Opening and Closing Outreach for Pool Service Companies** — `/seasonal-opening-and-closing-outreach-for-pool-service-companies`
 - **Review Request Automation for Pool Service Companies** — `/review-request-automation-for-pool-service-companies`
 - **Missed Call Text-Back for Pool Service Companies** — `/missed-call-text-back-for-pool-service-companies`
+- **Missed Call Text-Back vs. Voicemail for Pool Service Companies** — `/missed-call-text-back-vs-voicemail-for-pool-service-companies`
 - **AI Phone Answering for Pool Service Companies** — `/ai-phone-answering-for-pool-service-companies`
 - **AI Phone Answering vs. Voicemail for Pool Service Companies** — `/ai-phone-answering-vs-voicemail-for-pool-service-companies`
 - **Missed Call Text-Back vs. AI Phone Answering for Pool Service Companies** — `/missed-call-text-back-vs-ai-phone-answering-for-pool-service-companies`

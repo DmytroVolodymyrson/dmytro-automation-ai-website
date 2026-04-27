@@ -2697,6 +2697,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-vs-voicemail-for-pool-service-companies",
+      "path": "/missed-call-text-back-vs-voicemail-for-pool-service-companies",
+      "label": "Missed Call Text-Back vs. Voicemail for Pool Service Companies",
+      "prompts": [
+        "Missed call text-back vs voicemail for pool service companies",
+        "Should a pool service company use missed-call text-back or voicemail?",
+        "Is voicemail enough for a pool service company during opening season or route-heavy weeks?",
+        "When should a pool service company use SMS-first missed-call recovery instead of voicemail and callbacks?",
+        "Best pool service missed-call recovery setup text-back or voicemail"
+      ]
+    },
+    {
       "id": "ai-phone-answering-for-pool-service-companies",
       "path": "/ai-phone-answering-for-pool-service-companies",
       "label": "AI Phone Answering for Pool Service Companies",

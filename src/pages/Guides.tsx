@@ -2041,6 +2041,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. Voicemail for Pool Service Companies",
+    description:
+      "Should a pool service company keep relying on voicemail or switch to SMS-first missed-call recovery? Practical comparison of route-day callback lag, opening-season overflow, homeowner effort, and when live AI phone answering is the next step.",
+    href: "/missed-call-text-back-vs-voicemail-for-pool-service-companies",
+    category: "comparisons",
+  },
+  {
     title: "AI Phone Answering for Pool Service Companies",
     description:
       "Live AI phone answering for pool service companies. Covers route-day call coverage, after-hours answering, routine service intake, repair-call capture, opening-season overflow, and when live answering beats voicemail or missed-call text-back.",
