@@ -267,8 +267,8 @@ const data: DecisionPageData = {
     "No obligation. No generic reputation-management pitch. Just a practical conversation about where the closeout stage is leaking trust or reviews.",
   relatedLinks: [
     { label: "AI automation for accounting firms", href: "/ai-automation-for-accounting-firms" },
+    { label: "Missed call text-back for accounting firms", href: "/missed-call-text-back-for-accounting-firms" },
     { label: "What to automate first for accounting firms", href: "/what-to-automate-first-for-accounting-firms" },
-    { label: "Seasonal client reactivation for accounting firms", href: "/seasonal-client-reactivation-for-accounting-firms" },
     { label: "All guides", href: "/guides" },
   ],
 };

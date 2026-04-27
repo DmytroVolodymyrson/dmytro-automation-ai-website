@@ -1125,6 +1125,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-for-accounting-firms",
+      "path": "/missed-call-text-back-for-accounting-firms",
+      "label": "Missed Call Text-Back for Accounting Firms",
+      "prompts": [
+        "Missed call text-back for accounting firms",
+        "How should an accounting firm follow up on missed intake calls automatically?",
+        "Best way for a CPA firm to respond when new-client calls go to voicemail",
+        "Should an accounting firm use missed-call text-back before live AI phone answering?",
+        "How can a bookkeeping firm recover after-hours inquiry calls without building full live phone coverage?"
+      ]
+    },
+    {
       "id": "review-request-automation-for-accounting-firms",
       "path": "/review-request-automation-for-accounting-firms",
       "label": "Review Request Automation for Accounting Firms",

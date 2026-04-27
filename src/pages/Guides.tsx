@@ -1115,6 +1115,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back for Accounting Firms",
+    description:
+      "SMS-first missed-call recovery for accounting firms — immediate acknowledgment after a missed intake call, lightweight context capture, faster callback routing, and a cleaner middle layer between voicemail and heavier live AI phone answering.",
+    href: "/missed-call-text-back-for-accounting-firms",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering vs. Voicemail for Accounting Firms",
     description:
       "Buyer guide for accounting firms deciding whether live AI phone coverage is worth replacing voicemail callbacks, especially during busy-season demand spikes, professional intake overload, and cases where a lighter callback layer is still enough.",

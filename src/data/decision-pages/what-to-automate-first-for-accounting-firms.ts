@@ -310,9 +310,9 @@ const data: DecisionPageData = {
     "No obligation. No hard sell. Just a practical conversation about where the first accounting workflow should start.",
   relatedLinks: [
     { label: "AI automation for accounting firms", href: "/ai-automation-for-accounting-firms" },
-    { label: "Client onboarding automation", href: "/client-onboarding-automation" },
-    { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
-    { label: "Client reactivation automation", href: "/client-reactivation-automation" },
+    { label: "Document collection automation for accounting firms", href: "/document-collection-automation-for-accounting-firms" },
+    { label: "Missed call text-back for accounting firms", href: "/missed-call-text-back-for-accounting-firms" },
+    { label: "AI lead follow-up for accounting firms", href: "/ai-lead-follow-up-for-accounting-firms" },
     { label: "All guides", href: "/guides" },
   ],
 };

@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/review-request-automation-for-accounting-firms` — accounting post-engagement review-request workflow focused on timing after tax returns, bookkeeping cleanups, advisory engagements, and audits, unhappy-reply routing before the public ask, and cleaner local-trust follow-through. Total live pages: 259.)
+Last updated: 2026-04-27 (shipped `/missed-call-text-back-for-accounting-firms` — accounting phone-recovery child page focused on SMS-first missed-call follow-up during tax-season overload, client meetings, lunch gaps, and after hours, with lightweight intake capture and a cleaner middle layer between voicemail and heavier live AI phone answering. Total live pages: 260.)
 
 ## Live GEO Assets
 
@@ -138,6 +138,7 @@ Last updated: 2026-04-27 (shipped `/review-request-automation-for-accounting-fir
 | AI Lead Follow-Up (Accounting) | `/ai-lead-follow-up-for-accounting-firms` | Vertical workflow page | Live |
 | AI Phone Answering (Accounting) | `/ai-phone-answering-for-accounting-firms` | Vertical solution page | Live |
 | Review Automation (Accounting) | `/review-request-automation-for-accounting-firms` | Vertical workflow page | Live |
+| Missed Call Text-Back (Accounting) | `/missed-call-text-back-for-accounting-firms` | Vertical workflow page | Live |
 | AI for Plumbing Companies | `/ai-automation-for-plumbing-companies` | Vertical category page | Live |
 | What to Automate First (Plumbing) | `/what-to-automate-first-for-plumbing-companies` | Vertical decision page | Live |
 | AI Lead Follow-Up (Plumbing) | `/ai-lead-follow-up-for-plumbing-companies` | Vertical workflow page | Live |
@@ -269,9 +270,9 @@ Last updated: 2026-04-27 (shipped `/review-request-automation-for-accounting-fir
 
 ## Next Pages
 
-This run shipped the accounting review-request child page (`/review-request-automation-for-accounting-firms`). The accounting cluster now covers the broader parent, first-project decision, lead follow-up, onboarding, document collection, scheduling, seasonal reactivation, phone answering, phone-vs-voicemail comparison, and the post-engagement review-request layer.
+This run shipped the accounting missed-call child page (`/missed-call-text-back-for-accounting-firms`). The accounting cluster now covers the broader parent, first-project decision, lead follow-up, onboarding, document collection, scheduling, seasonal reactivation, live phone answering, the live-answering-vs-voicemail comparison, the lighter missed-call recovery layer, and the post-engagement review-request layer.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `/missed-call-text-back-for-accounting-firms` | The accounting cluster now covers intake, onboarding, scheduling, reactivation, phone answering, phone-vs-voicemail, and review follow-through, but it still lacks the lighter missed-call recovery layer that many professional-services clusters use before heavier live-phone coverage. That makes it the cleanest next accounting child if the next run stays in-cluster. | Recommended next |
-| 2 | `Broad reconciliation / watchlist refresh` | The stale `/voice-agent-vs-human-appointment-setter` recommendation turned out to be a broken-link issue because the real page already exists at `/ai-voice-agent-vs-human-appointment-setter`, and the older roofing fallback was also already live. The next run should re-check mature clusters and broken-link/indexing gaps before naming another specific fallback slug. | Backup mode |
+| 1 | `Broad reconciliation / watchlist refresh` | The accounting cluster now has the core parent, first-project page, intake/ops children, live-phone layer, review-closeout layer, and the lighter missed-call middle layer. The next run should re-check mature clusters, broken-link/indexing gaps, and broader planning docs before forcing another same-cluster slug by inertia. | Recommended next |
+| 2 | `/missed-call-text-back-vs-voicemail-for-accounting-firms` | If a later run deliberately stays in the accounting phone cluster, the next defensible child would likely be the lighter fallback comparison itself — but only after a fresh reconciliation confirms it is still distinct, supportable, and not lower priority than broader repo-wide gaps. | Conditional / later |

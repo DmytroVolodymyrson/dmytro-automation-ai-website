@@ -275,7 +275,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation for accounting firms", href: "/ai-automation-for-accounting-firms" },
     { label: "What to automate first for accounting firms", href: "/what-to-automate-first-for-accounting-firms" },
-    { label: "Document collection automation for accounting firms", href: "/document-collection-automation-for-accounting-firms" },
+    { label: "Missed call text-back for accounting firms", href: "/missed-call-text-back-for-accounting-firms" },
     { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
     { label: "All guides", href: "/guides" },
   ],

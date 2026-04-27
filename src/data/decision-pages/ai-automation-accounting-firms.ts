@@ -231,8 +231,9 @@ const data: DecisionPageData = {
     "No obligation. No hard sell. Just a practical conversation about your practice operations.",
   relatedLinks: [
     { label: "AI automation for law firms", href: "/ai-automation-for-law-firms" },
-    { label: "AI appointment setter", href: "/ai-appointment-setter" },
-    { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
+    { label: "What to automate first for accounting firms", href: "/what-to-automate-first-for-accounting-firms" },
+    { label: "Missed call text-back for accounting firms", href: "/missed-call-text-back-for-accounting-firms" },
+    { label: "AI phone answering for accounting firms", href: "/ai-phone-answering-for-accounting-firms" },
     { label: "All guides", href: "/guides" },
   ],
 };
