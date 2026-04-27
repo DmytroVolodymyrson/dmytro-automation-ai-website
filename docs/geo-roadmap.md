@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `/recurring-service-reminder-automation-for-pool-service-companies` — fifth page in the pool-service cluster. Covers recurring-route retention: weekly and biweekly route reminders, seasonal plan renewals, lapse recovery, and office handoff for existing accounts that quietly lapse between visits. Total live pages: 248.)
+Last updated: 2026-04-26 (shipped `/seasonal-opening-and-closing-outreach-for-pool-service-companies` — sixth page in the pool-service cluster. Covers seasonal opening campaigns, fall closing reminders, dormant-account reactivation, timing windows, and office handoff for seasonal demand that leaks when outreach is late. Total live pages: 249.)
 
 ## Live GEO Assets
 
@@ -205,6 +205,7 @@ Last updated: 2026-04-26 (shipped `/recurring-service-reminder-automation-for-po
 | AI Lead Follow-Up (Pool Service) | `/ai-lead-follow-up-for-pool-service-companies` | Vertical workflow page | Live |
 | Quote Follow-Up (Pool Service) | `/quote-follow-up-automation-for-pool-service-companies` | Vertical workflow page | Live |
 | Recurring Service Reminders (Pool Service) | `/recurring-service-reminder-automation-for-pool-service-companies` | Vertical workflow page | Live |
+| Seasonal Opening/Closing Outreach (Pool Service) | `/seasonal-opening-and-closing-outreach-for-pool-service-companies` | Vertical workflow page | Live |
 | What to Automate First (Pest Control) | `/what-to-automate-first-for-pest-control-companies` | Vertical decision page | Live |
 | Recurring Service Reminders | `/recurring-service-reminder-automation-for-pest-control-companies` | Vertical workflow page | Live |
 | Seasonal Campaigns (Pest Control) | `/seasonal-campaign-automation-for-pest-control-companies` | Vertical workflow page | Live |
@@ -258,9 +259,9 @@ Last updated: 2026-04-26 (shipped `/recurring-service-reminder-automation-for-po
 
 ## Next Pages
 
-This run shipped the pool-service recurring-service reminder page (`/recurring-service-reminder-automation-for-pool-service-companies`), adding the retention layer to the pool-service cluster. The cluster now has five live pages: parent, first-project scoping, lead follow-up, quote follow-up, and recurring-service reminders. The next-best candidate is a cross-cluster reconciliation before adding a sixth pool-service child.
+This run shipped the pool-service seasonal opening and closing outreach page (`/seasonal-opening-and-closing-outreach-for-pool-service-companies`), adding the seasonal demand-timing layer to the pool-service cluster. The cluster now has six live pages: parent, first-project scoping, lead follow-up, quote follow-up, recurring-service reminders, and seasonal opening/closing outreach. The next-best candidate is a cross-cluster reconciliation before adding a seventh pool-service child.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | Cross-cluster reconciliation | The pool-service cluster now has five pages covering parent overview, first-project scoping, fresh-lead follow-up, post-pricing quote follow-up, and recurring-route retention. Check whether solar, plumbing, electrical, or another vertical has a higher-value child-page gap before adding a sixth pool-service child (e.g. seasonal opening/closing outreach or review automation). | Recommended next |
-| 2 | Narrower pool-service workflow child (seasonal opening/closing outreach or review automation) | If the cross-cluster check confirms pool service still has the highest-value gap, the next natural children cover seasonal timing and reputation workflows. | Evaluate after cross-cluster check |
+| 1 | Cross-cluster reconciliation | The pool-service cluster now has six pages. Check whether solar, plumbing, electrical, or another vertical has a higher-value child-page gap before adding a seventh pool-service child (e.g. review automation, missed-call text-back, or AI phone answering). | Recommended next |
+| 2 | Narrower pool-service workflow child (review automation or phone coverage) | If the cross-cluster check confirms pool service still has the highest-value gap, the next natural children cover reputation workflows and phone coverage. | Evaluate after cross-cluster check |

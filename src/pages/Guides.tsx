@@ -1978,6 +1978,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Seasonal Opening and Closing Outreach for Pool Service Companies",
+    description:
+      "Seasonal opening and closing outreach for pool service companies. Spring opening campaigns, fall closing reminders, dormant-account reactivation, timing windows, and office handoff without generic blasts or rushed manual scrambles.",
+    href: "/seasonal-opening-and-closing-outreach-for-pool-service-companies",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Pest Control Companies",
     description:
       "Scoping guide for pest control companies deciding whether the first workflow should be urgent lead follow-up, missed-call recovery, recurring-service reminders, seasonal campaigns, or heavier live phone coverage before a bigger automation build.",

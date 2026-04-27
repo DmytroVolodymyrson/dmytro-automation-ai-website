@@ -2601,6 +2601,18 @@
       ]
     },
     {
+      "id": "seasonal-opening-and-closing-outreach-for-pool-service-companies",
+      "path": "/seasonal-opening-and-closing-outreach-for-pool-service-companies",
+      "label": "Seasonal Opening and Closing Outreach for Pool Service Companies",
+      "prompts": [
+        "Seasonal opening and closing outreach automation for pool service companies",
+        "How should a pool service company automate spring opening campaigns and fall closing reminders?",
+        "Best way to reactivate dormant pool-service clients before each season starts",
+        "What should a pool-service seasonal outreach workflow handle for openings, closings, and dormant-account recovery?",
+        "How can a pool service company stop losing seasonal revenue because opening and closing campaigns go out too late?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-pest-control-companies",
       "path": "/what-to-automate-first-for-pest-control-companies",
       "label": "What to Automate First for Pest Control Companies",
