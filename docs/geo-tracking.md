@@ -11,11 +11,11 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 340 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 341 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
-### Strategy + comparison pages (32)
+### Strategy + comparison pages (33)
 - **Affordable AI Automation for Small Business** — `/affordable-ai-automation-small-business`
 - **AI Appointment Setter vs Receptionist** — `/ai-appointment-setter-vs-receptionist`
 - **AI Appointment Setter vs Virtual Assistant** — `/ai-appointment-setter-vs-virtual-assistant`
@@ -28,6 +28,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Automation ROI Calculator** — `/ai-automation-roi-calculator`
 - **AI Automation ROI Guide** — `/ai-automation-roi-guide`
 - **AI Automation Time Savings for Small Business** — `/ai-automation-time-savings-small-business`
+- **AI Automation Maintenance and Support for Small Business** — `/ai-automation-maintenance-and-support-small-business`
 - **AI Voice Agent vs Call Center** — `/ai-voice-agent-vs-call-center`
 - **AI Voice Agent vs Answering Service for Small Business** — `/ai-voice-agent-vs-answering-service-for-small-business`
 - **AI Voice Agent vs Human Appointment Setter** — `/ai-voice-agent-vs-human-appointment-setter`

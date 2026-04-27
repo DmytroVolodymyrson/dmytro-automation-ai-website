@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-ai-automation-maintenance-and-support-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation Maintenance and Support for Small Business\nBody: Small-business owners do not usually need a big monthly support contract forever. They do need a clear answer to what happens after launch if a workflow breaks, a lead stops routing correctly, a calendar handoff goes wrong, or the business changes the process six weeks later. Good automation support is not mystery retainer padding. It is a defined layer of monitoring, small fixes, change control, and ownership that keeps a live workflow dependable once real customers and staff are using it every day.\nSub: Below: when support is worth paying for, when a short stabilization period is enough, what a monthly retainer should actually include, and how to avoid getting trapped in a vague maintenance arrangement you do not need.\n\n### Core sections\n- Short answer: what maintenance and support really means\n- What good automation support actually includes\n- Common support models for small businesses\n- When ongoing support is a good fit — and when it is not\n- What usually breaks after launch\n- Direct proof and adjacent proof\n\n### FAQ\nSubhead: Straight answers about post-launch ownership, monitoring, and support cost\nTopics: whether ongoing support is necessary after launch, what a maintenance retainer should include, who should own monitoring without a retainer, what usually causes automations to break after launch, and when monthly support is better than as-needed help.\n\n### Final CTA\nHeading: Want to know what support level your workflow actually needs?\nBody: Book a 30-minute call. We will look at the workflow you want to launch or stabilize, decide whether you need only a short post-launch support window or a real maintenance plan, and outline what the right ownership model should look like.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Net-new authority / buyer-intent page focused on post-launch support ownership rather than initial implementation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the opening direct and practical: monitoring, bug fixes, ownership, monthly retainer vs as-needed help, and clear support boundaries."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Positioned the page beside existing consultant / roadmap / cost pages without duplicating them."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used disciplined proof framing: Paris Cafe for customer-facing reliability, WheelsFeels for routing/ownership discipline, and the implementation roadmap for launch-to-optimization context."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays non-hype and buyer-calibrated: clear support models, good-fit / not-fit framing, and explicit warnings against vague open-ended retainers."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T15:17:55.593Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 28.5,
+      "sentenceLengthRange": [
+        5,
+        50
+      ],
+      "totalWords": 285
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation Maintenance and Support for Small Business\nBody: Small-business owners do not usually need a big monthly support contract forever.",
+      "wordCount": 23,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to know what support level your workflow actually needs?\nBody: Book a 30-minute call. We will look at the workflow you want to launch or stabilize, decide whether you need only a short post-launch support window or a real maintenance plan, and outline what the right ownership model should look like.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 17,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 1.89
+    },
+    "vocabulary": {
+      "distinctWords": 151,
+      "totalWords": 285,
+      "topWords": [
+        [
+          "support",
+          13
+        ],
+        [
+          "what",
+          9
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "maintenance",
+          5
+        ],
+        [
+          "launch",
+          5
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "not",
+          4
+        ],
+        [
+          "need",
+          4
+        ],
+        [
+          "after",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "retainer",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "small",
+          3
+        ],
+        [
+          "do",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.004
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

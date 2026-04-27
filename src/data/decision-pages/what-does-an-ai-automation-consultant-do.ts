@@ -298,6 +298,7 @@ const data: DecisionPageData = {
     { label: "AI automation consultant for small business", href: "/ai-automation-consultant-small-business" },
     { label: "How to hire an AI automation consultant", href: "/how-to-hire-ai-automation-consultant" },
     { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
+    { label: "AI automation maintenance and support", href: "/ai-automation-maintenance-and-support-small-business" },
     { label: "Hire an AI automation consultant or do it yourself?", href: "/hire-ai-automation-consultant-vs-diy" },
   ],
 };

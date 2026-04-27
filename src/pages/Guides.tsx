@@ -125,6 +125,13 @@ const guides: GuideItem[] = [
     category: "strategy",
   },
   {
+    title: "AI Automation Maintenance and Support for Small Business",
+    description:
+      "Do you need a monthly support retainer after launch? Practical guide to monitoring, bug fixes, ownership, as-needed help, and when ongoing support is or is not worth paying for.",
+    href: "/ai-automation-maintenance-and-support-small-business",
+    category: "strategy",
+  },
+  {
     title: "What Processes Can AI Automate in My Business?",
     description:
       "A practical process-selection guide for owners deciding what to automate first. Covers lead response, follow-up, scheduling, onboarding, reactivation, and how to choose the highest-ROI workflow instead of chasing hype.",

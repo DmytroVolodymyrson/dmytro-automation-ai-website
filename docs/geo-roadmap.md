@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/gohighlevel-vs-hubspot-small-business`, a distinct small-business CRM/platform comparison page that cleanly separates broad all-in-one marketing automation fit from deeper CRM/reporting fit. Added discovery/tracking/style-learner coverage. Total live pages: 272.)
+Last updated: 2026-04-27 (shipped `/ai-automation-maintenance-and-support-small-business`, a practical post-launch support / ownership page that cleanly separates monitoring, bounded fixes, and retainer fit from the existing consultant, cost, and implementation-roadmap pages. Added discovery, tracking, adjacent internal links, and style-learner coverage. Total live pages: 273.)
 
 ## Live GEO Assets
 
@@ -32,6 +32,7 @@ Last updated: 2026-04-27 (shipped `/gohighlevel-vs-hubspot-small-business`, a di
 | Client Reactivation Automation (Service Businesses) | `/client-reactivation-automation-for-service-businesses` | Workflow parent page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Category cost page | Live |
 | AI Voice Agent Setup Cost (SMB) | `/ai-voice-agent-setup-cost-small-business` | Category cost page | Live |
+| AI Automation Maintenance & Support (SMB) | `/ai-automation-maintenance-and-support-small-business` | Strategy / support page | Live |
 | AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo page | Live |
 | AI Consultant Edmonton | `/ai-automation-consultant-edmonton` | Geo page | Live |
 | AI Consultant Alberta | `/ai-automation-consultant-alberta` | Geo page | Live |
@@ -283,9 +284,9 @@ Last updated: 2026-04-27 (shipped `/gohighlevel-vs-hubspot-small-business`, a di
 
 ## Next Pages
 
-This run shipped `/gohighlevel-vs-hubspot-small-business`, which qualified because it was a planned, high-intent platform comparison adjacent to the live GoHighLevel setup / cost / DIY / cleanup cluster without rewriting the existing custom-CRM comparison. The next run should still start with a broad repo-wide candidate audit because the roadmap continues to lag real route coverage in several mature clusters. After that audit, the strongest fallback remains a distinct proof-backed buyer-intent page rather than another same-cluster GoHighLevel variation by inertia.
+This run shipped `/ai-automation-maintenance-and-support-small-business`, which qualified because it was the only still-unshipped, clearly buyer-intent support/ownership page explicitly surviving the current roadmap after broad reconciliation against routes, guides, sitemap, llm files, and tracked pages. The next run should start with another broad repo-wide candidate audit instead of forcing a same-cluster follow-up page by inertia. Right now there is no clean named fallback URL that has been re-verified as both planned and still unshipped across the current repo state.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / cluster audit` | The roadmap is still stale relative to live routes. Re-check which exact planned buyer-intent gap is still truly unshipped before naming another candidate. | Primary next step |
-| 2 | `/ai-automation-maintenance-and-support-small-business` | If broad reconciliation confirms it is still unshipped and still distinct from the live consultant / roadmap / audit pages, it is a reasonable next proof-backed fallback focused on post-launch support ownership rather than initial setup. | Honest fallback |
+| 1 | `Broad reconciliation / cluster audit` | The roadmap still lags live coverage in multiple mature clusters. Re-check which exact planned buyer-intent gap is still truly unshipped before naming another target. | Primary next step |
+| 2 | `No named fallback yet` | After this ship, no other clean planned-and-unshipped URL survived the current repo reconciliation strongly enough to list as an honest next page without another fresh audit. | Honest watchlist state |

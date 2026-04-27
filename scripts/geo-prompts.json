@@ -525,6 +525,18 @@
       ]
     },
     {
+      "id": "ai-automation-maintenance-and-support-small-business",
+      "path": "/ai-automation-maintenance-and-support-small-business",
+      "label": "AI Automation Maintenance and Support for Small Business",
+      "prompts": [
+        "Do I need ongoing support for AI automation after launch?",
+        "AI automation maintenance and support for small business",
+        "What happens if an automation breaks after launch?",
+        "Should I pay monthly for automation support or only as needed?",
+        "Who should own automation monitoring after the consultant finishes?"
+      ]
+    },
+    {
       "id": "n8n-automation-examples-small-business",
       "path": "/n8n-automation-examples-small-business",
       "label": "n8n Automation Examples for Small Business",

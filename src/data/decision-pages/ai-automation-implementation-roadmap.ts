@@ -242,6 +242,7 @@ const data: DecisionPageData = {
     { label: "AI automation audit checklist", href: "/ai-automation-audit-checklist" },
     { label: "AI automation cost guide", href: "/ai-automation-cost-small-business" },
     { label: "AI automation ROI guide", href: "/ai-automation-roi-guide" },
+    { label: "AI automation maintenance and support", href: "/ai-automation-maintenance-and-support-small-business" },
     { label: "AI automation consultant guide", href: "/ai-automation-consultant-small-business" },
     { label: "All guides", href: "/guides" },
   ],

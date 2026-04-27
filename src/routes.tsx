@@ -364,6 +364,7 @@ import MissedCallTextBackVsAiPhoneAnsweringForHomeInspectors from "./pages/Misse
 import AiPhoneAnsweringVsVoicemailForHomeInspectors from "./pages/AiPhoneAnsweringVsVoicemailForHomeInspectors";
 import AiAutomationCostSmallBusiness from "./pages/AiAutomationCostSmallBusiness";
 import AiAutomationTimeSavingsSmallBusiness from "./pages/AiAutomationTimeSavingsSmallBusiness";
+import AiAutomationMaintenanceAndSupportSmallBusiness from "./pages/AiAutomationMaintenanceAndSupportSmallBusiness";
 import AffordableAiAutomationSmallBusiness from "./pages/AffordableAiAutomationSmallBusiness";
 import AiAutomationAuditChecklist from "./pages/AiAutomationAuditChecklist";
 import CrmAutomationExamplesSmallBusiness from "./pages/CrmAutomationExamplesSmallBusiness";
@@ -822,6 +823,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/missed-call-text-back-vs-ai-phone-answering-for-home-inspectors", element: <MissedCallTextBackVsAiPhoneAnsweringForHomeInspectors /> },
   { path: "/ai-automation-cost-small-business", element: <AiAutomationCostSmallBusiness /> },
   { path: "/ai-automation-time-savings-small-business", element: <AiAutomationTimeSavingsSmallBusiness /> },
+  { path: "/ai-automation-maintenance-and-support-small-business", element: <AiAutomationMaintenanceAndSupportSmallBusiness /> },
   { path: "/affordable-ai-automation-small-business", element: <AffordableAiAutomationSmallBusiness /> },
   { path: "/ai-automation-audit-checklist", element: <AiAutomationAuditChecklist /> },
   { path: "/crm-automation-examples-small-business", element: <CrmAutomationExamplesSmallBusiness /> },
