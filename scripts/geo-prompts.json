@@ -1749,6 +1749,18 @@
       ]
     },
     {
+      "id": "quote-follow-up-automation-for-service-businesses",
+      "path": "/quote-follow-up-automation-for-service-businesses",
+      "label": "Quote Follow-Up Automation for Service Businesses",
+      "prompts": [
+        "How do I automate quote follow-up for my service business?",
+        "Best quote follow-up automation for service businesses",
+        "How should a service business follow up after sending a quote without sounding pushy?",
+        "Quote follow-up automation vs estimate follow-up for service businesses",
+        "When should a service business automate quote-stage follow-up instead of handling it manually?"
+      ]
+    },
+    {
       "id": "client-reactivation-automation-for-service-businesses",
       "path": "/client-reactivation-automation-for-service-businesses",
       "label": "Client Reactivation Automation for Service Businesses",

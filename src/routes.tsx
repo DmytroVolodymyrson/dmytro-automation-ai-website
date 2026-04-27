@@ -225,6 +225,7 @@ import ReviewRequestAutomationForServiceBusinesses from "./pages/ReviewRequestAu
 import ReferralRequestAutomationForServiceBusinesses from "./pages/ReferralRequestAutomationForServiceBusinesses";
 import MissedCallTextBackForServiceBusinesses from "./pages/MissedCallTextBackForServiceBusinesses";
 import EstimateFollowUpAutomationForServiceBusinesses from "./pages/EstimateFollowUpAutomationForServiceBusinesses";
+import QuoteFollowUpAutomationForServiceBusinesses from "./pages/QuoteFollowUpAutomationForServiceBusinesses";
 import ContactFormAutoresponderVsFullLeadFollowUp from "./pages/ContactFormAutoresponderVsFullLeadFollowUp";
 import QuoteFollowUp from "./pages/QuoteFollowUp";
 import ClientReactivation from "./pages/ClientReactivation";
@@ -652,6 +653,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/missed-call-follow-up-automation", element: <MissedCallFollowUp /> },
   { path: "/missed-call-text-back-for-service-businesses", element: <MissedCallTextBackForServiceBusinesses /> },
   { path: "/estimate-follow-up-automation-for-service-businesses", element: <EstimateFollowUpAutomationForServiceBusinesses /> },
+  { path: "/quote-follow-up-automation-for-service-businesses", element: <QuoteFollowUpAutomationForServiceBusinesses /> },
   { path: "/appointment-scheduling-and-reminder-automation-for-service-businesses", element: <AppointmentSchedulingAndReminderAutomationForServiceBusinesses /> },
   { path: "/booking-confirmation-and-reminder-automation", element: <BookingConfirmationAndReminder /> },
   { path: "/ai-phone-answering-for-service-businesses", element: <AiPhoneAnswering /> },

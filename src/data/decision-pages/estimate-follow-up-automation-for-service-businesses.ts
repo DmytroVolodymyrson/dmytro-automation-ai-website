@@ -210,10 +210,10 @@ const data: DecisionPageData = {
         },
       ],
       links: [
+        { label: "Quote follow-up automation for service businesses", href: "/quote-follow-up-automation-for-service-businesses" },
         { label: "Estimate follow-up for contractors", href: "/estimate-follow-up-automation-for-contractors" },
         { label: "Quote follow-up automation", href: "/quote-follow-up-automation" },
         { label: "Estimate follow-up for roofing companies", href: "/estimate-follow-up-automation-for-roofing-companies" },
-        { label: "AI automation for painting contractors", href: "/ai-automation-for-painting-contractors" },
       ],
     },
   ],
@@ -252,10 +252,10 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No inflated close-rate promises. Just a practical recommendation based on your estimating process, current pipeline, and the handoff between your field team and your office.",
   relatedLinks: [
+    { label: "Quote follow-up automation for service businesses", href: "/quote-follow-up-automation-for-service-businesses" },
     { label: "Quote follow-up automation", href: "/quote-follow-up-automation" },
     { label: "Estimate follow-up for contractors", href: "/estimate-follow-up-automation-for-contractors" },
     { label: "CRM automation for contractors", href: "/crm-automation-for-contractors" },
-    { label: "All guides", href: "/guides" },
   ],
 };
 

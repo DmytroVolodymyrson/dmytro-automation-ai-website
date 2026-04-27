@@ -161,10 +161,10 @@ const data: DecisionPageData = {
         },
       ],
       links: [
+        { label: "Quote follow-up automation for service businesses", href: "/quote-follow-up-automation-for-service-businesses" },
         { label: "AI email sequence automation", href: "/ai-email-sequence-automation" },
         { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
         { label: "Client reactivation automation", href: "/client-reactivation-automation" },
-        { label: "View all case studies", href: "/case-studies" },
       ],
     },
   ],

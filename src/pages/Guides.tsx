@@ -624,6 +624,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Quote Follow-Up Automation for Service Businesses",
+    description:
+      "Cross-industry quote-stage recovery for service businesses. Timed reminders, objection-aware messaging, cleaner ownership after pricing goes out, and fast human handoff when a buyer re-engages.",
+    href: "/quote-follow-up-automation-for-service-businesses",
+    category: "workflows",
+  },
+  {
     title: "Appointment Scheduling and Reminder Automation for Service Businesses",
     description:
       "Horizontal scheduling guide for service businesses deciding how to handle confirmations, reminders, reschedules, prep steps, and attended-appointment handoff without endless calendar chasing.",

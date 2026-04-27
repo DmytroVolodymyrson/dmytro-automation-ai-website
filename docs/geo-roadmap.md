@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/client-reactivation-automation-for-service-businesses` — the missing horizontal parent for the mature reactivation cluster, distinct from the generic `/client-reactivation-automation` page and the existing vertical children. Total live pages: 269.)
+Last updated: 2026-04-27 (shipped `/quote-follow-up-automation-for-service-businesses` — the missing horizontal parent for the mature quote-follow-up cluster, distinct from the generic `/quote-follow-up-automation` guide, the narrower `/estimate-follow-up-automation-for-service-businesses` page, and the existing vertical quote children. Total live pages: 270.)
 
 ## Live GEO Assets
 
@@ -27,6 +27,7 @@ Last updated: 2026-04-27 (shipped `/client-reactivation-automation-for-service-b
 | Missed Call Text-Back Cost (SMB) | `/missed-call-text-back-cost-small-business` | Workflow / service cost page | Live |
 | Missed Call Text-Back vs. AI Phone Answering (Service Businesses) | `/missed-call-text-back-vs-ai-phone-answering-for-service-businesses` | Workflow comparison page | Live |
 | Estimate Follow-Up Automation (Service Businesses) | `/estimate-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
+| Quote Follow-Up Automation (Service Businesses) | `/quote-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
 | Appointment Scheduling & Reminder Automation (Service Businesses) | `/appointment-scheduling-and-reminder-automation-for-service-businesses` | Workflow parent page | Live |
 | Client Reactivation Automation (Service Businesses) | `/client-reactivation-automation-for-service-businesses` | Workflow parent page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Category cost page | Live |
@@ -280,9 +281,9 @@ Last updated: 2026-04-27 (shipped `/client-reactivation-automation-for-service-b
 
 ## Next Pages
 
-This run shipped the missing horizontal parent for the mature client-reactivation cluster (`/client-reactivation-automation-for-service-businesses`). That closes a real cross-industry retention gap without collapsing back into the generic `/client-reactivation-automation` guide or any one vertical child. The next run should not force another reactivation slug by inertia. It should re-check the remaining mature workflow clusters and prompt ownership before naming the next clean candidate.
+This run shipped the missing horizontal parent for the mature quote-follow-up cluster (`/quote-follow-up-automation-for-service-businesses`). That closes a real cross-industry quote-stage gap without collapsing back into the generic `/quote-follow-up-automation` guide, the narrower estimate-follow-up parent, or any one vertical quote child. The next run should not force another quote slug by inertia. It should re-check the remaining mature workflow clusters, prompt ownership, and live routing before naming the next clean candidate.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `quote-follow-up-automation-for-service-businesses` | Still-unshipped horizontal parent for a mature quote-follow-up cluster. It looks distinct enough to survive beside the generic `/quote-follow-up-automation` page if it stays focused on cross-industry service-business quoting patterns, human handoff, and internal-link hub role. | Strong fallback |
-| 2 | `Broad reconciliation / watchlist refresh` | If fresh repo-state review shows the quote-follow-up parent would overlap too much with the existing generic guide, do another route / prompts / proof-led reconciliation before naming the next slug. | Safer fallback |
+| 1 | `Broad reconciliation / watchlist refresh` | The cleanest quote-stage parent gap is now filled. Re-check route coverage, planning docs, prompt ownership, and live cluster separation before naming another slug so the next ship does not drift into overlap by habit. | Primary next step |
+| 2 | `Fresh proof-led cluster audit` | If the broader reconciliation still surfaces a distinct high-intent workflow child with direct proof adjacency, ship that next. Otherwise keep the roadmap honest instead of forcing a weak candidate. | Honest fallback |
