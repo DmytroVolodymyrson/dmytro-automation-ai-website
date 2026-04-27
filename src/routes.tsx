@@ -208,6 +208,7 @@ import AfterHoursLeadCapture from "./pages/AfterHoursLeadCapture";
 import MissedCallFollowUp from "./pages/MissedCallFollowUp";
 import BookingConfirmationAndReminder from "./pages/BookingConfirmationAndReminder";
 import AiPhoneAnswering from "./pages/AiPhoneAnswering";
+import MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses from "./pages/MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses";
 import AiVoiceAgentForLeadQualification from "./pages/AiVoiceAgentForLeadQualification";
 import AiVoiceAgentSetupForLeadQualification from "./pages/AiVoiceAgentSetupForLeadQualification";
 import AiVoiceAgentSetupCostSmallBusiness from "./pages/AiVoiceAgentSetupCostSmallBusiness";
@@ -648,6 +649,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/estimate-follow-up-automation-for-service-businesses", element: <EstimateFollowUpAutomationForServiceBusinesses /> },
   { path: "/booking-confirmation-and-reminder-automation", element: <BookingConfirmationAndReminder /> },
   { path: "/ai-phone-answering-for-service-businesses", element: <AiPhoneAnswering /> },
+  { path: "/missed-call-text-back-vs-ai-phone-answering-for-service-businesses", element: <MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses /> },
   { path: "/ai-voice-agent-lead-qualification", element: <AiVoiceAgentForLeadQualification /> },
   { path: "/ai-voice-agent-setup-for-lead-qualification", element: <AiVoiceAgentSetupForLeadQualification /> },
   { path: "/ai-voice-agent-setup-cost-small-business", element: <AiVoiceAgentSetupCostSmallBusiness /> },

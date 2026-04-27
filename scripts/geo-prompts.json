@@ -1706,7 +1706,7 @@
       "label": "Missed Call Text-Back for Service Businesses",
       "prompts": [
         "What is missed call text-back for service businesses?",
-        "Should I use text-back or AI phone answering for missed calls?",
+        "How can a service business recover missed calls without adding another receptionist?",
         "How does missed call text-back compare to voicemail for service businesses?",
         "Is SMS text-back enough or do I need a full missed call follow-up system?",
         "Best missed call text-back setup for small service businesses"
@@ -1758,6 +1758,18 @@
         "AI voice agent vs manual callback for service businesses",
         "When is a voice agent better than delayed staff callbacks for inbound leads?",
         "Should I automate first-call qualification or keep a manual callback process?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-ai-phone-answering-for-service-businesses",
+      "path": "/missed-call-text-back-vs-ai-phone-answering-for-service-businesses",
+      "label": "Missed Call Text-Back vs. AI Phone Answering for Service Businesses",
+      "prompts": [
+        "Should a service business use missed-call text-back or live AI phone answering?",
+        "When is missed-call text-back enough for a service business?",
+        "When should a service business move from SMS-first missed-call recovery to live AI phone answering?",
+        "Missed call text-back vs AI phone answering for service businesses",
+        "How should a service business choose between text-back and live AI phone coverage?"
       ]
     },
     {

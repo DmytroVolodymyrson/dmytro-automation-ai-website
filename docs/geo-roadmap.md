@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-insurance-agencies` — insurance-agency buyer-decision page focused on the lighter fallback choice between SMS-first missed-call recovery and passive voicemail for missed quote requests, referral calls, and routine service inquiries, with clear separation from the existing insurance text-back and live-answering pages. Total live pages: 264.)
+Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-ai-phone-answering-for-service-businesses` — service-business buyer-decision page focused on the middle phone-layer choice between SMS-first missed-call recovery and heavier live AI phone coverage, with clear separation from the existing service-business text-back, AI phone answering, and manual-callback comparison pages. Total live pages: 265.)
 
 ## Live GEO Assets
 
@@ -23,6 +23,7 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-insur
 | AI Lead Follow-Up (SMB) | `/ai-lead-follow-up-for-service-businesses` | Category page | Live |
 | Review Request Automation (Service Businesses) | `/review-request-automation-for-service-businesses` | Workflow parent page | Live |
 | Missed Call Text-Back (Service Businesses) | `/missed-call-text-back-for-service-businesses` | Workflow parent page | Live |
+| Missed Call Text-Back vs. AI Phone Answering (Service Businesses) | `/missed-call-text-back-vs-ai-phone-answering-for-service-businesses` | Workflow comparison page | Live |
 | Estimate Follow-Up Automation (Service Businesses) | `/estimate-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Category cost page | Live |
 | AI Voice Agent Setup Cost (SMB) | `/ai-voice-agent-setup-cost-small-business` | Category cost page | Live |
@@ -275,9 +276,9 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-insur
 
 ## Next Pages
 
-This run shipped the insurance-agency lighter fallback comparison page (`/missed-call-text-back-vs-voicemail-for-insurance-agencies`). That closes the clean remaining insurance phone gap that survived reconciliation after the missed-call text-back page landed. The next run should not force another same-cluster insurance slug by inertia. It should either do a fresh broad backlog reconciliation across mature clusters and route ↔ prompt gaps, or treat the next run as a priority-page indexing/internal-linking refresh if no distinct safe net-new page survives review.
+This run shipped the generic service-business phone-layer comparison page (`/missed-call-text-back-vs-ai-phone-answering-for-service-businesses`). That closes the clean parent-level gap between the lighter SMS-first recovery page and the heavier live AI phone-answering page. The next run should not force another same-cluster service-business phone slug by inertia. It should do a fresh broad backlog reconciliation across mature clusters and route ↔ prompt gaps before naming the next clean net-new ship.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / watchlist refresh` | Re-check mature clusters, planning docs, and route/prompts drift before naming another slug. The last clearly safe insurance follow-on has now shipped. | Recommended next |
-| 2 | `/ai-appointment-setter-cost-small-business` (indexing refresh) | If reconciliation does not surface a clearly distinct new GEO page, this priority commercial URL is the cleanest improvement fallback because `docs/geo-priority-urls.md` still flags it for stronger pricing specificity and source-worthy internal-link support. | Conditional fallback |
+| 1 | `Broad reconciliation / watchlist refresh` | Re-check mature clusters, planning docs, route coverage, and prompt ownership before naming the next slug. The parent-level service-business phone comparison is now live, so the safest next move is a repo-wide re-audit. | Recommended next |
+| 2 | `/ai-appointment-setter-cost-small-business` (indexing refresh) | If reconciliation does not surface a clearly distinct new GEO page, this priority commercial URL is still the cleanest improvement fallback because `docs/geo-priority-urls.md` flags it for stronger pricing specificity and source-worthy internal-link support. | Conditional fallback |

@@ -343,6 +343,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "Missed Call Text-Back vs. AI Phone Answering for Service Businesses",
+    description:
+      "Buyer guide for choosing between SMS-first missed-call recovery and live AI phone coverage. Covers caller expectations, office workload, after-hours demand, and when each layer actually fits.",
+    href: "/missed-call-text-back-vs-ai-phone-answering-for-service-businesses",
+    category: "comparisons",
+  },
+  {
     title: "n8n vs. Make for Small Business",
     description:
       "Comparing n8n and Make (formerly Integromat) for small business automation. Pricing, self-hosting, AI integration, and complexity handling.",
