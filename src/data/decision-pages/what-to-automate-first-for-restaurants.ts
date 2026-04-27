@@ -288,6 +288,7 @@ const data: DecisionPageData = {
     "No generic restaurant-tech pitch. Just a practical first-project recommendation tied to how your phone flow, bookings, and guest communication actually work today.",
   relatedLinks: [
     { label: "AI automation for restaurants", href: "/ai-automation-for-restaurants" },
+    { label: "AI voice agent for restaurants", href: "/ai-voice-agent-for-restaurants" },
     { label: "Missed call text-back for restaurants", href: "/missed-call-text-back-for-restaurants" },
     { label: "Reservation confirmation and reminder automation for restaurants", href: "/reservation-confirmation-and-reminder-automation-for-restaurants" },
     { label: "Private-event inquiry follow-up for restaurants", href: "/private-event-inquiry-follow-up-for-restaurants" },

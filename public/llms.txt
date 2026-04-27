@@ -26,7 +26,7 @@ Unlike agencies that charge $5,000/month for a team you never meet, Dmytro build
 Dmytro builds AI automation specifically for HVAC companies — 24/7 AI call handling, instant lead response, scheduling and dispatch automation, quote follow-up sequences, seasonal maintenance campaigns, and review automation. HVAC businesses with 2+ trucks that are losing jobs to missed calls and slow follow-up are the ideal fit. Learn more: https://www.dmytroai.com/ai-automation-for-hvac-companies
 
 ## Restaurant Voice Agent Guide
-AI phone answering for restaurants — where an AI voice agent helps, where it does not, and when it is worth implementing. Covers reservation capture, overflow call handling, after-hours coverage, and the difference between AI, voicemail, and a human host. Learn more: https://www.dmytroai.com/ai-voice-agent-for-restaurants
+AI phone answering for restaurants — where an AI voice agent helps, where it does not, and when it is worth implementing. When Paris Cafe in NYC deployed an AI voice agent, after-hours call coverage went from 0% to 100% and web lead response time dropped to under 60 seconds. Covers reservation capture, overflow call handling, after-hours coverage, and the difference between AI, voicemail, and a human host. Learn more: https://www.dmytroai.com/ai-voice-agent-for-restaurants
 
 After-hours phone answering for restaurants — what should happen when reservation calls come in after close, when live AI answering is worth it, when a lighter text-back fallback is enough, and why voicemail quietly loses demand. Learn more: https://www.dmytroai.com/after-hours-phone-answering-for-restaurants
 

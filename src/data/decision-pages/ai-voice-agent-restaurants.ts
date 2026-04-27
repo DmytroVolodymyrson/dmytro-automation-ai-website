@@ -17,16 +17,16 @@ import type { DecisionPageData } from "@/components/DecisionPageTemplate";
 const data: DecisionPageData = {
   slug: "ai-voice-agent-for-restaurants",
   metaTitle:
-    "AI Voice Agent for Restaurants — What It Does and When It Pays Off | Dmytro AI",
+    "AI Voice Agent for Restaurants — Answer Every Call, Book More Tables | Dmytro AI",
   metaDescription:
-    "AI phone answering for restaurants. Learn what an AI voice agent can handle, when it improves bookings, where it fails, and whether it is a fit for your restaurant.",
+    "AI phone answering for restaurants: answer after-hours calls, capture reservations automatically, and free staff from repetitive phone traffic. Real results from a NYC restaurant deployment.",
   badgeText: "Restaurant Use Case",
   badgeIcon: UtensilsCrossed,
   h1: "AI Voice Agent for Restaurants",
   heroIntro:
-    "If your restaurant misses calls during service, after hours, or when the host stand is overloaded, an AI voice agent can capture reservations and routine questions without adding another person to payroll. The real value is not 'using AI.' It is answering more calls, booking more tables, and freeing your staff to focus on guests in front of them.",
+    "When Paris Cafe in NYC deployed an AI voice agent, after-hours call coverage went from 0% to 100%, web lead response time dropped to under 60 seconds, and the team freed roughly 15 hours a week. The technology is not the point — answering more calls, booking more tables, and keeping your staff focused on guests in front of them is the point.",
   heroSubtext:
-    "Below: what an AI restaurant voice agent actually does, where it helps most, where it should not be used, and how to decide if it is worth implementing in your restaurant.",
+    "Below: what an AI restaurant voice agent actually handles, where it helps most, where it should not be used, and how to decide if it is worth implementing for your restaurant.",
   sections: [
     {
       type: "cards",
@@ -37,12 +37,15 @@ const data: DecisionPageData = {
         {
           icon: Phone,
           title: "Answer every inbound call",
-          body: "Picks up after-hours calls and overflow calls during busy service windows so callers do not hit voicemail or give up after two rings.",
+          body: "Picks up after-hours calls and overflow calls during busy service windows so callers do not hit voicemail or give up after two rings. Paris Cafe went from 0% after-hours coverage to 100% overnight.",
         },
         {
           icon: CalendarCheck,
           title: "Book and confirm reservations",
           body: "Collects party size, date, and time, then confirms the reservation or routes it into your booking workflow. This is the highest-value use case for most restaurants.",
+          links: [
+            { label: "Reservation confirmation and reminder automation", href: "/reservation-confirmation-and-reminder-automation-for-restaurants" },
+          ],
         },
         {
           icon: Clock,
@@ -52,17 +55,23 @@ const data: DecisionPageData = {
         {
           icon: MessageSquare,
           title: "Capture missed demand after hours",
-          body: "A caller who wants to book for tomorrow night at 10 PM should still get an answer. The agent can take the call, confirm the request, and follow up automatically.",
+          body: "A caller who wants to book for tomorrow night at 10 PM should still get an answer. The agent takes the call, confirms the request, and follows up automatically — the same after-hours flow that restaurants without phone coverage lose entirely.",
+          links: [
+            { label: "After-hours phone answering for restaurants", href: "/after-hours-phone-answering-for-restaurants" },
+          ],
         },
         {
           icon: Bot,
           title: "Route edge cases to a human",
           body: "If the caller has a complicated request, a complaint, or a VIP situation, the system can take a message and route it to a manager instead of improvising badly.",
+          links: [
+            { label: "Private event inquiry follow-up for restaurants", href: "/private-event-inquiry-follow-up-for-restaurants" },
+          ],
         },
         {
           icon: Users,
           title: "Reduce front-of-house interruptions",
-          body: "Your host or manager spends less time tied up on repetitive calls and more time on guests, service flow, and the in-person experience.",
+          body: "Your host or manager spends less time tied up on repetitive calls and more time on guests, service flow, and the in-person experience. In the Paris Cafe deployment, this freed roughly 15 hours a week for management.",
         },
       ],
     },
@@ -174,6 +183,9 @@ const data: DecisionPageData = {
           icon: MessageSquare,
           title: "Follow-up handling",
           body: "Confirmation texts, manager callbacks, and missed-request routing should all happen automatically so nothing gets dropped after the call ends.",
+          links: [
+            { label: "Missed call text-back for restaurants", href: "/missed-call-text-back-for-restaurants" },
+          ],
         },
       ],
     },
@@ -193,6 +205,7 @@ const data: DecisionPageData = {
       links: [
         { label: "View the full case study", href: "/case-studies/paris-cafe-voice-agent" },
         { label: "Browse all case studies", href: "/case-studies" },
+        { label: "Best AI automation for service businesses", href: "/best-ai-automation-for-service-businesses" },
       ],
     },
     {
@@ -279,6 +292,9 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation for restaurants", href: "/ai-automation-for-restaurants" },
     { label: "Paris Cafe voice agent case study", href: "/case-studies/paris-cafe-voice-agent" },
+    { label: "After-hours phone answering for restaurants", href: "/after-hours-phone-answering-for-restaurants" },
+    { label: "Missed call text-back vs. AI voice agent for restaurants", href: "/missed-call-text-back-vs-ai-voice-agent-for-restaurants" },
+    { label: "What to automate first for restaurants", href: "/what-to-automate-first-for-restaurants" },
     { label: "Private event inquiry follow-up for restaurants", href: "/private-event-inquiry-follow-up-for-restaurants" },
     { label: "Reservation confirmation and reminder automation", href: "/reservation-confirmation-and-reminder-automation-for-restaurants" },
   ],

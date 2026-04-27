@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-26-ai-voice-agent-for-restaurants",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-26",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "### Sharpened proof-led opening\nHeading: AI Voice Agent for Restaurants\nBody: When Paris Cafe in NYC deployed an AI voice agent, after-hours call coverage went from 0% to 100%, web lead response time dropped to under 60 seconds, and the team freed roughly 15 hours a week. The technology is not the point — answering more calls, booking more tables, and keeping your staff focused on guests in front of them is the point.\nSub: Below: what an AI restaurant voice agent actually handles, where it helps most, where it should not be used, and how to decide if it is worth implementing for your restaurant.\n\n### Stronger proof inside the feature blocks\nTopics:\n- The “answer every inbound call” block now anchors the restaurant fit around the Paris Cafe 0%→100% after-hours coverage result instead of speaking abstractly about missed calls.\n- The after-hours demand block now points directly to the narrower /after-hours-phone-answering-for-restaurants child page so readers can move from the broad explainer into the tighter buyer decision.\n- The reservation-booking, private-event, and follow-up blocks now point into the adjacent restaurant workflow pages instead of leaving the page as an isolated top-level explainer.\n- The front-of-house interruption block now ties the operational value back to the published ~15 hrs/week management-time result.\n\n### Expanded cluster routing and proof links\nAdded/strengthened links to:\n- /after-hours-phone-answering-for-restaurants\n- /missed-call-text-back-for-restaurants\n- /missed-call-text-back-vs-ai-voice-agent-for-restaurants\n- /reservation-confirmation-and-reminder-automation-for-restaurants\n- /private-event-inquiry-follow-up-for-restaurants\n- /what-to-automate-first-for-restaurants\n- /best-ai-automation-for-service-businesses\n- /case-studies/paris-cafe-voice-agent\n\n### LLM summary refresh\nHeading: Restaurant Voice Agent Guide\nBody: AI phone answering for restaurants — where an AI voice agent helps, where it does not, and when it is worth implementing. When Paris Cafe in NYC deployed an AI voice agent, after-hours call coverage went from 0% to 100% and web lead response time dropped to under 60 seconds. Covers reservation capture, overflow call handling, after-hours coverage, and the difference between AI, voicemail, and a human host.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Opens with concrete on-site proof instead of generic “AI can help restaurants” framing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page buyer-oriented: answer more calls, book more tables, free staff from repetitive phone traffic."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses internal links to connect the broad restaurant voice-agent explainer to narrower restaurant phone and booking workflows."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoids fake restaurant-proof claims beyond the published Paris Cafe case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T05:04:57.322Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 28.1,
+      "sentenceLengthRange": [
+        18,
+        46
+      ],
+      "totalWords": 309
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Sharpened proof-led opening\nHeading: AI Voice Agent for Restaurants\nBody: When Paris Cafe in NYC deployed an AI voice agent, after-hours call coverage went from 0% to 100%, web lead response time dropped to under 60 seconds, and the team freed roughly 15 hours a week.",
+      "wordCount": 46,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### LLM summary refresh\nHeading: Restaurant Voice Agent Guide\nBody: AI phone answering for restaurants — where an AI voice agent helps, where it does not, and when it is worth implementing. When Paris Cafe in NYC deployed an AI voice agent, after-hours call coverage went from 0% to 100% and web lead response time dropped to under 60 seconds. Covers reservation capture, overflow call handling, after-hours coverage, and the difference between AI, voicemail, and a human host.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 18,
+      "emDashes": 2,
+      "enDashes": 0,
+      "hyphens": 12,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 8,
+      "commasPerSentence": 1.8
+    },
+    "vocabulary": {
+      "distinctWords": 164,
+      "totalWords": 309,
+      "topWords": [
+        [
+          "-",
+          12
+        ],
+        [
+          "ai",
+          7
+        ],
+        [
+          "voice",
+          6
+        ],
+        [
+          "agent",
+          6
+        ],
+        [
+          "after-hours",
+          5
+        ],
+        [
+          "restaurant",
+          5
+        ],
+        [
+          "it",
+          5
+        ],
+        [
+          "call",
+          4
+        ],
+        [
+          "coverage",
+          4
+        ],
+        [
+          "where",
+          4
+        ],
+        [
+          "now",
+          4
+        ],
+        [
+          "when",
+          3
+        ],
+        [
+          "paris",
+          3
+        ],
+        [
+          "cafe",
+          3
+        ],
+        [
+          "from",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
