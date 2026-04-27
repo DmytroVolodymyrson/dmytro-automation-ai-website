@@ -177,6 +177,7 @@ import ReferralRequestAutomationForInsuranceAgencies from "./pages/ReferralReque
 import AfterHoursInquiryHandlingForInsuranceAgencies from "./pages/AfterHoursInquiryHandlingForInsuranceAgencies";
 import MissedCallTextBackForInsuranceAgencies from "./pages/MissedCallTextBackForInsuranceAgencies";
 import MissedCallTextBackVsVoicemailForInsuranceAgencies from "./pages/MissedCallTextBackVsVoicemailForInsuranceAgencies";
+import MissedCallTextBackVsAiPhoneAnsweringForInsuranceAgencies from "./pages/MissedCallTextBackVsAiPhoneAnsweringForInsuranceAgencies";
 import AiPhoneAnsweringForInsuranceAgencies from "./pages/AiPhoneAnsweringForInsuranceAgencies";
 import AiPhoneAnsweringVsVoicemailForInsuranceAgencies from "./pages/AiPhoneAnsweringVsVoicemailForInsuranceAgencies";
 import AiAutomationForPropertyManagement from "./pages/AiAutomationForPropertyManagement";
@@ -591,6 +592,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/after-hours-inquiry-handling-for-insurance-agencies", element: <AfterHoursInquiryHandlingForInsuranceAgencies /> },
   { path: "/missed-call-text-back-for-insurance-agencies", element: <MissedCallTextBackForInsuranceAgencies /> },
   { path: "/missed-call-text-back-vs-voicemail-for-insurance-agencies", element: <MissedCallTextBackVsVoicemailForInsuranceAgencies /> },
+  { path: "/missed-call-text-back-vs-ai-phone-answering-for-insurance-agencies", element: <MissedCallTextBackVsAiPhoneAnsweringForInsuranceAgencies /> },
   { path: "/ai-phone-answering-for-insurance-agencies", element: <AiPhoneAnsweringForInsuranceAgencies /> },
   { path: "/ai-phone-answering-vs-voicemail-for-insurance-agencies", element: <AiPhoneAnsweringVsVoicemailForInsuranceAgencies /> },
   { path: "/ai-automation-for-property-management", element: <AiAutomationForPropertyManagement /> },

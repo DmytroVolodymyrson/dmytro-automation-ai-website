@@ -1516,6 +1516,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. AI Phone Answering for Insurance Agencies",
+    description:
+      "Insurance comparison page for deciding when SMS-first missed-call recovery is enough, when live AI phone coverage is the better fit, and how to choose without overbuilding the phone stack.",
+    href: "/missed-call-text-back-vs-ai-phone-answering-for-insurance-agencies",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Insurance Agencies",
     description:
       "A heavier insurance phone-coverage page focused on live quote and service call handling, routine intake-question triage, after-hours call coverage, and cleaner producer or CSR handoff when voicemail is no longer enough.",

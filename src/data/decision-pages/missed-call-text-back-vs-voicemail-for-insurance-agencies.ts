@@ -260,6 +260,7 @@ const data: DecisionPageData = {
       links: [
         { label: "AI automation for insurance agencies", href: "/ai-automation-for-insurance-agencies" },
         { label: "Missed call text-back for insurance agencies", href: "/missed-call-text-back-for-insurance-agencies" },
+        { label: "Missed call text-back vs. AI phone answering for insurance agencies", href: "/missed-call-text-back-vs-ai-phone-answering-for-insurance-agencies" },
         { label: "AI phone answering vs. voicemail for insurance agencies", href: "/ai-phone-answering-vs-voicemail-for-insurance-agencies" },
         { label: "Best AI automation for service businesses", href: "/best-ai-automation-for-service-businesses" },
         { label: "Paris Cafe voice-agent case study", href: "/case-studies/paris-cafe-voice-agent" },

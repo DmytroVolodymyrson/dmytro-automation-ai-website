@@ -278,6 +278,7 @@ const data: DecisionPageData = {
     { label: "AI automation for insurance agencies", href: "/ai-automation-for-insurance-agencies" },
     { label: "After-hours inquiry handling for insurance agencies", href: "/after-hours-inquiry-handling-for-insurance-agencies" },
     { label: "Missed call text-back for insurance agencies", href: "/missed-call-text-back-for-insurance-agencies" },
+    { label: "Missed call text-back vs. AI phone answering for insurance agencies", href: "/missed-call-text-back-vs-ai-phone-answering-for-insurance-agencies" },
     { label: "AI lead follow-up for insurance agencies", href: "/ai-lead-follow-up-for-insurance-agencies" },
     { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
     { label: "All guides", href: "/guides" },

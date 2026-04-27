@@ -1300,7 +1300,7 @@
         "Missed call text-back for insurance agencies",
         "How can an insurance agency recover missed quote and service calls faster?",
         "Best missed-call text-back workflow for insurance agencies",
-        "When is text-back enough for an insurance agency before live AI phone answering is necessary?",
+        "What should an insurance missed-call text-back workflow capture before a producer or CSR calls back?",
         "How should an insurance agency acknowledge missed quote and service calls before a producer or CSR calls back?"
       ]
     },
@@ -1314,6 +1314,18 @@
         "When is voicemail still good enough for an insurance agency versus SMS-first missed-call recovery?",
         "What is better for an insurance agency voicemail or missed-call text-back?",
         "When should an insurance agency skip voicemail and use text-back before moving to live AI phone answering?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-ai-phone-answering-for-insurance-agencies",
+      "path": "/missed-call-text-back-vs-ai-phone-answering-for-insurance-agencies",
+      "label": "Missed Call Text-Back vs. AI Phone Answering for Insurance Agencies",
+      "prompts": [
+        "Missed call text-back vs AI phone answering for insurance agencies",
+        "Should an insurance agency use missed-call text-back or live AI phone answering?",
+        "When is missed-call text-back enough for an insurance agency versus live phone answering?",
+        "What is better for an insurance agency missed-call text-back or AI phone answering?",
+        "How do I know if my insurance agency should stay with SMS-first missed-call recovery or move to live AI phone coverage?"
       ]
     },
     {

@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (maintenance pass on `/showing-coordination-automation-for-property-management-companies`: added stronger clickable cluster routing into the parent property-management guide, first-project selector, adjacent maintenance/after-hours/onboarding/reporting pages, and grounded proof links. Total live pages: 273.)
+Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-ai-phone-answering-for-insurance-agencies`: added the missing lighter-vs-heavier phone-layer comparison inside the live insurance cluster, wired routes/discovery/tracking, refreshed adjacent internal links, and ran the style-learner pipeline. Total live pages: 274.)
 
 ## Live GEO Assets
 
@@ -174,6 +174,7 @@ Last updated: 2026-04-27 (maintenance pass on `/showing-coordination-automation-
 | After Hours Inquiry (Insurance) | `/after-hours-inquiry-handling-for-insurance-agencies` | Vertical solution page | Live |
 | Missed Call Text-Back (Insurance) | `/missed-call-text-back-for-insurance-agencies` | Vertical workflow page | Live |
 | Text-Back vs Voicemail (Insurance) | `/missed-call-text-back-vs-voicemail-for-insurance-agencies` | Vertical comparison page | Live |
+| Text-Back vs AI Phone Answering (Insurance) | `/missed-call-text-back-vs-ai-phone-answering-for-insurance-agencies` | Vertical comparison page | Live |
 | AI for Property Management | `/ai-automation-for-property-management` | Vertical category page | Live |
 | What to Automate First (Prop Mgmt) | `/what-to-automate-first-for-property-management-companies` | Vertical decision page | Live |
 | Lease Renewal Automation | `/lease-renewal-automation-for-property-management-companies` | Vertical workflow page | Live |
@@ -284,7 +285,7 @@ Last updated: 2026-04-27 (maintenance pass on `/showing-coordination-automation-
 
 ## Next Pages
 
-This run shipped `/ai-automation-maintenance-and-support-small-business`, which qualified because it was the only still-unshipped, clearly buyer-intent support/ownership page explicitly surviving the current roadmap after broad reconciliation against routes, guides, sitemap, llm files, and tracked pages. The next run should start with another broad repo-wide candidate audit instead of forcing a same-cluster follow-up page by inertia. Right now there is no clean named fallback URL that has been re-verified as both planned and still unshipped across the current repo state.
+This run shipped `/missed-call-text-back-vs-ai-phone-answering-for-insurance-agencies`, which qualified because the live insurance cluster already had the lighter missed-call page, the heavier AI phone-answering page, and both voicemail comparisons live, but still lacked the exact buyer-intent comparison between SMS-first recovery and live AI coverage. The next run should start with another broad repo-wide candidate audit instead of forcing another insurance follow-up page by inertia. Right now there is no cleaner named fallback URL than a fresh reconciliation across mature clusters and the remaining planning docs.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
