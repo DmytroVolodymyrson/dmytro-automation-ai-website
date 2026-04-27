@@ -22,7 +22,7 @@ const data: DecisionPageData = {
   badgeIcon: Workflow,
   h1: "What to Automate First for Restaurants",
   heroIntro:
-    "If your restaurant knows it needs better automation, the safest first move is usually not a giant all-in-one hospitality-tech rollout. It is one bounded workflow that fixes an expensive leak first. For most restaurants, that first workflow is one of four things: missed-call recovery, reservation confirmations and reminders, private-event inquiry follow-up, or after-hours phone answering. The right choice depends on where revenue and staff time are already slipping today — when callers hit voicemail during service, when booked guests still no-show because reminders are weak, when event inquiries sit too long without a reply, or when the restaurant keeps losing reservation demand after close.",
+    "If your restaurant knows it needs better automation, the safest first move is usually not a giant all-in-one hospitality-tech rollout. It is one bounded workflow that fixes an expensive leak first. For most restaurants, that first workflow is one of four things: missed-call recovery, reservation confirmations and reminders, private-event inquiry follow-up, or after-hours phone answering. Use the decision tree below to match your restaurant's most expensive leak — unanswered calls, no-shows, slow event replies, or after-hours demand loss — to the right first project.",
   heroSubtext:
     "Below: how to choose the first restaurant workflow to automate, how this page stays distinct from the broader restaurant parent and the already-live child pages, what direct proof supports the recommendation, and when you should keep the first project smaller instead of forcing a bigger restaurant automation rollout.",
   sections: [
@@ -36,21 +36,37 @@ const data: DecisionPageData = {
           icon: Phone,
           title: "Missed-call recovery",
           body: "Start here when reservation and guest-service calls keep hitting voicemail because the host stand is busy, the floor is slammed, or nobody can answer after hours. This is usually the best first project when the leak starts before any reservation or inquiry is even captured.",
+          links: [
+            { label: "Missed-call text-back guide", href: "/missed-call-text-back-for-restaurants" },
+            { label: "Text-back vs. voice agent", href: "/missed-call-text-back-vs-ai-voice-agent-for-restaurants" },
+          ],
         },
         {
           icon: CalendarCheck,
           title: "Reservation confirmations and reminders",
           body: "Start here when reservations are already getting booked, but no-shows, weak confirmations, and messy reminder timing are still creating empty tables or service surprises. This is the safest first move when the leak starts after the booking already exists.",
+          links: [
+            { label: "Reservation reminder workflow", href: "/reservation-confirmation-and-reminder-automation-for-restaurants" },
+            { label: "Restaurant parent guide", href: "/ai-automation-for-restaurants" },
+          ],
         },
         {
           icon: MessageSquare,
           title: "Private-event inquiry follow-up",
           body: "Start here when buyout, catering, and large-party leads matter, but those higher-value inquiries sit too long without structured intake or fast first response. This is the right first workflow when speed and ownership break down before the sales conversation really starts.",
+          links: [
+            { label: "Private-event follow-up guide", href: "/private-event-inquiry-follow-up-for-restaurants" },
+            { label: "Paris Cafe proof", href: "/case-studies/paris-cafe-voice-agent" },
+          ],
         },
         {
           icon: Clock3,
           title: "After-hours phone answering",
           body: "Start here when reservation demand or guest questions keep arriving after close and voicemail is clearly not enough. This is the better first project when the restaurant needs live overnight coverage, not just SMS-first recovery after the missed call.",
+          links: [
+            { label: "After-hours phone guide", href: "/after-hours-phone-answering-for-restaurants" },
+            { label: "AI phone vs. voicemail", href: "/after-hours-ai-phone-answering-vs-voicemail-for-restaurants" },
+          ],
         },
       ],
     },
@@ -248,6 +264,9 @@ const data: DecisionPageData = {
         { label: "AI automation for restaurants", href: "/ai-automation-for-restaurants" },
         { label: "Missed call text-back for restaurants", href: "/missed-call-text-back-for-restaurants" },
         { label: "Reservation confirmation and reminder automation for restaurants", href: "/reservation-confirmation-and-reminder-automation-for-restaurants" },
+        { label: "Private-event inquiry follow-up for restaurants", href: "/private-event-inquiry-follow-up-for-restaurants" },
+        { label: "After-hours phone answering for restaurants", href: "/after-hours-phone-answering-for-restaurants" },
+        { label: "AI voice agent for restaurants", href: "/ai-voice-agent-for-restaurants" },
         { label: "Paris Cafe case study", href: "/case-studies/paris-cafe-voice-agent" },
       ],
     },

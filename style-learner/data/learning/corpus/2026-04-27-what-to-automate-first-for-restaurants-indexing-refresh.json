@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-what-to-automate-first-for-restaurants-indexing-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: What to Automate First for Restaurants\nBody: If your restaurant knows it needs better automation, the safest first move is usually not a giant all-in-one hospitality-tech rollout. It is one bounded workflow that fixes an expensive leak first. For most restaurants, that first workflow is one of four things: missed-call recovery, reservation confirmations and reminders, private-event inquiry follow-up, or after-hours phone answering. Use the decision tree below to match your restaurant's most expensive leak — unanswered calls, no-shows, slow event replies, or after-hours demand loss — to the right first project.\nSub: Below: how to choose the first restaurant workflow to automate, how this page stays distinct from the broader restaurant parent and the already-live child pages, what direct proof supports the recommendation, and when you should keep the first project smaller instead of forcing a bigger restaurant automation rollout.\n\n### Updated decision-routing section\nHeading: The first restaurant workflows usually worth automating\nIntro: Most restaurants do not need to automate everything at once. They need to start where the leak is already costing bookings, event revenue, or front-of-house focus.\n\n1. Missed-call recovery\n- Keeps the existing explanation of when voicemail is the first leak.\n- Adds direct links to /missed-call-text-back-for-restaurants and /missed-call-text-back-vs-ai-voice-agent-for-restaurants so the \"start here\" path is clickable instead of implied.\n\n2. Reservation confirmations and reminders\n- Keeps the existing no-show / reminder framing.\n- Adds direct links to /reservation-confirmation-and-reminder-automation-for-restaurants and the broader /ai-automation-for-restaurants parent so the reminder-first path has both a narrow next step and a canonical cluster page.\n\n3. Private-event inquiry follow-up\n- Keeps the existing event-lead framing.\n- Adds direct links to /private-event-inquiry-follow-up-for-restaurants and /case-studies/paris-cafe-voice-agent so the page routes into both the exact child workflow and live restaurant proof.\n\n4. After-hours phone answering\n- Keeps the existing after-close demand framing.\n- Adds direct links to /after-hours-phone-answering-for-restaurants and /after-hours-ai-phone-answering-vs-voicemail-for-restaurants so the heavier phone-coverage path is easier to inspect and compare.\n\n### Updated proof / adjacent-links area\nSection: Relevant proof and adjacent proof\n- Keeps the existing three proof cards.\n- Expands the supporting link row to include:\n  - /private-event-inquiry-follow-up-for-restaurants\n  - /after-hours-phone-answering-for-restaurants\n  - /ai-voice-agent-for-restaurants\n- Retains /ai-automation-for-restaurants, /missed-call-text-back-for-restaurants, /reservation-confirmation-and-reminder-automation-for-restaurants, and /case-studies/paris-cafe-voice-agent.\n\n### Rest of page retained\n- Which restaurant workflow should you automate first?\n- This page vs. the rest of the restaurant cluster\n- Good fit / not the right fit\n- How to choose the first restaurant automation without overbuilding\n- Common mistakes\n- FAQ\n- Final CTA and booking widget",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded indexing/internal-linking refresh on an existing restaurant decision page, not a new page ship."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The update keeps the page in first-project decision mode instead of drifting into a generic restaurant automation explainer."
+    },
+    {
+      "type": "tone_shift",
+      "description": "New links stay tightly inside the live restaurant cluster and published Paris Cafe proof so the page becomes easier to crawl, easier to act on, and still grounded in real on-site assets."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays direct, practical, and non-hype: start with the clearest leak, keep the first project small, and only move to heavier phone coverage when the call pattern justifies it."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "No new performance claims or numbers were added in this refresh."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T14:02:36.600Z",
+    "structure": {
+      "paragraphCount": 8,
+      "sentencesPerParagraph": [
+        5,
+        2,
+        3,
+        3,
+        3,
+        3,
+        2,
+        3
+      ],
+      "avgSentenceLength": 16.6,
+      "sentenceLengthRange": [
+        1,
+        49
+      ],
+      "totalWords": 399
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: What to Automate First for Restaurants\nBody: If your restaurant knows it needs better automation, the safest first move is usually not a giant all-in-one hospitality-tech rollout.",
+      "wordCount": 29,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Rest of page retained\n- Which restaurant workflow should you automate first?\n- This page vs. the rest of the restaurant cluster\n- Good fit / not the right fit\n- How to choose the first restaurant automation without overbuilding\n- Common mistakes\n- FAQ\n- Final CTA and booking widget",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | result | context | context | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 22,
+      "commas": 16,
+      "emDashes": 2,
+      "enDashes": 0,
+      "hyphens": 21,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 0.67
+    },
+    "vocabulary": {
+      "distinctWords": 188,
+      "totalWords": 399,
+      "topWords": [
+        [
+          "-",
+          21
+        ],
+        [
+          "first",
+          11
+        ],
+        [
+          "restaurant",
+          9
+        ],
+        [
+          "proof",
+          6
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "direct",
+          5
+        ],
+        [
+          "keeps",
+          5
+        ],
+        [
+          "existing",
+          5
+        ],
+        [
+          "automate",
+          4
+        ],
+        [
+          "restaurants",
+          4
+        ],
+        [
+          "leak",
+          4
+        ],
+        [
+          "adds",
+          4
+        ],
+        [
+          "links",
+          4
+        ],
+        [
+          "so",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.005
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
