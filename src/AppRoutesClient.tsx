@@ -284,6 +284,7 @@ const SeasonalOpeningAndClosingOutreachForPoolServiceCompanies = lazy(() => impo
 const ReviewRequestAutomationForPoolServiceCompanies = lazy(() => import("./pages/ReviewRequestAutomationForPoolServiceCompanies"));
 const MissedCallTextBackForPoolServiceCompanies = lazy(() => import("./pages/MissedCallTextBackForPoolServiceCompanies"));
 const AiPhoneAnsweringForPoolServiceCompanies = lazy(() => import("./pages/AiPhoneAnsweringForPoolServiceCompanies"));
+const AiPhoneAnsweringVsVoicemailForPoolServiceCompanies = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForPoolServiceCompanies"));
 const MissedCallTextBackVsAiPhoneAnsweringForPoolServiceCompanies = lazy(() => import("./pages/MissedCallTextBackVsAiPhoneAnsweringForPoolServiceCompanies"));
 const WhatToAutomateFirstForPestControlCompanies = lazy(() => import("./pages/WhatToAutomateFirstForPestControlCompanies"));
 const RecurringServiceReminderAutomationForPestControlCompanies = lazy(() => import("./pages/RecurringServiceReminderAutomationForPestControlCompanies"));
@@ -648,6 +649,7 @@ const AppRoutesClient = () => (
       <Route path="/review-request-automation-for-pool-service-companies" element={<ReviewRequestAutomationForPoolServiceCompanies />} />
       <Route path="/missed-call-text-back-for-pool-service-companies" element={<MissedCallTextBackForPoolServiceCompanies />} />
       <Route path="/ai-phone-answering-for-pool-service-companies" element={<AiPhoneAnsweringForPoolServiceCompanies />} />
+      <Route path="/ai-phone-answering-vs-voicemail-for-pool-service-companies" element={<AiPhoneAnsweringVsVoicemailForPoolServiceCompanies />} />
       <Route path="/missed-call-text-back-vs-ai-phone-answering-for-pool-service-companies" element={<MissedCallTextBackVsAiPhoneAnsweringForPoolServiceCompanies />} />
       <Route path="/what-to-automate-first-for-pest-control-companies" element={<WhatToAutomateFirstForPestControlCompanies />} />
       <Route path="/recurring-service-reminder-automation-for-pest-control-companies" element={<RecurringServiceReminderAutomationForPestControlCompanies />} />

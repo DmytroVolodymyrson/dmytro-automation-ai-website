@@ -2649,6 +2649,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-vs-voicemail-for-pool-service-companies",
+      "path": "/ai-phone-answering-vs-voicemail-for-pool-service-companies",
+      "label": "AI Phone Answering vs. Voicemail for Pool Service Companies",
+      "prompts": [
+        "Should a pool service company use live AI phone answering or just keep sending callers to voicemail?",
+        "When is voicemail no longer good enough for a pool service company during opening season?",
+        "What is the difference between AI phone answering and voicemail for a pool service company?",
+        "Should a pool service company replace voicemail with live AI phone answering for equipment-emergency and after-hours calls?",
+        "How should a pool service company decide between voicemail, missed-call text-back, and live AI phone answering?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-vs-ai-phone-answering-for-pool-service-companies",
       "path": "/missed-call-text-back-vs-ai-phone-answering-for-pool-service-companies",
       "label": "Missed Call Text-Back vs. AI Phone Answering for Pool Service Companies",

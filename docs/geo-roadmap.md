@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `/quote-follow-up-automation-for-solar-companies` — eleventh page in the solar cluster. Narrow post-proposal recovery workflow covering reminder timing, financing-question handling, incentive-window context, and stale-quote visibility after pricing goes out. Total live pages: 254.)
+Last updated: 2026-04-27 (shipped `/ai-phone-answering-vs-voicemail-for-pool-service-companies` — eleventh page in the pool-service cluster. Narrow buyer-decision page covering opening-season surges, route-day call coverage, equipment-emergency intake, after-hours demand, and when missed-call text-back is still the smarter middle step. Total live pages: 255.)
 
 ## Live GEO Assets
 
@@ -210,6 +210,7 @@ Last updated: 2026-04-26 (shipped `/quote-follow-up-automation-for-solar-compani
 | Review Request Automation (Pool Service) | `/review-request-automation-for-pool-service-companies` | Vertical workflow page | Live |
 | Missed Call Text-Back (Pool Service) | `/missed-call-text-back-for-pool-service-companies` | Vertical workflow page | Live |
 | AI Phone Answering (Pool Service) | `/ai-phone-answering-for-pool-service-companies` | Vertical workflow page | Live |
+| AI Phone vs Voicemail (Pool Service) | `/ai-phone-answering-vs-voicemail-for-pool-service-companies` | Vertical comparison page | Live |
 | Text-Back vs AI Phone (Pool Service) | `/missed-call-text-back-vs-ai-phone-answering-for-pool-service-companies` | Vertical comparison page | Live |
 | What to Automate First (Pest Control) | `/what-to-automate-first-for-pest-control-companies` | Vertical decision page | Live |
 | Recurring Service Reminders | `/recurring-service-reminder-automation-for-pest-control-companies` | Vertical workflow page | Live |
@@ -264,9 +265,9 @@ Last updated: 2026-04-26 (shipped `/quote-follow-up-automation-for-solar-compani
 
 ## Next Pages
 
-This run shipped the solar quote-follow-up workflow page (`/quote-follow-up-automation-for-solar-companies`). The solar cluster now has eleven live pages: parent, first-project scoping, utility-bill collection, lead follow-up, quote follow-up, appointment scheduling, AI phone answering, AI phone answering vs. voicemail, missed-call text-back, missed-call text-back vs. voicemail, and missed-call text-back vs. AI phone answering.
+This run shipped the pool-service AI-phone-answering-vs-voicemail comparison page (`/ai-phone-answering-vs-voicemail-for-pool-service-companies`). The pool-service cluster now has eleven live pages: parent, first-project scoping, lead follow-up, quote follow-up, recurring-service reminders, seasonal outreach, review automation, missed-call text-back, AI phone answering, AI phone answering vs. voicemail, and missed-call text-back vs. AI phone answering.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | Cross-cluster reconciliation | Solar now has eleven pages and pool service has ten. Re-check landscaping, property management, contractors, and other mature live verticals for the next clearly distinct child-page gap instead of forcing a twelfth solar page by inertia. | Recommended next |
+| 1 | Cross-cluster reconciliation | Solar and pool service both now sit at eleven live pages. Re-check landscaping, property management, contractors, and other mature live verticals for the next clearly distinct child-page gap instead of forcing a twelfth page into either cluster by inertia. | Recommended next |
 | 2 | Verified cross-cluster fallback/watchlist candidate | If reconciliation still does not produce a stronger gap, use a proof-led watchlist candidate from another live cluster rather than immediately extending solar or pool service again. | Evaluate after cross-cluster check |

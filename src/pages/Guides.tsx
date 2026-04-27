@@ -2013,6 +2013,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering vs. Voicemail for Pool Service Companies",
+    description:
+      "Should a pool service company keep relying on voicemail or answer live with AI? Practical comparison of opening-season surges, route-day call coverage, equipment-emergency intake, after-hours demand, and when missed-call text-back is the smarter middle step.",
+    href: "/ai-phone-answering-vs-voicemail-for-pool-service-companies",
+    category: "industries",
+  },
+  {
     title: "Missed Call Text-Back vs. AI Phone Answering for Pool Service Companies",
     description:
       "Should a pool service company use missed-call text-back or live AI phone answering? Practical comparison of route-day recovery, opening-season overflow, after-hours demand, equipment-emergency calls, and when the heavier phone layer is actually worth it.",
