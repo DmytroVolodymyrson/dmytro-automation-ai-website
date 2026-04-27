@@ -1957,6 +1957,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Lead Follow-Up for Pool Service Companies",
+    description:
+      "AI lead follow-up for pool service companies. Faster first response on web forms, quote requests, missed-call recoveries, and referral inquiries. Light qualification, short nurture, urgency routing, and office handoff before the first service visit is booked.",
+    href: "/ai-lead-follow-up-for-pool-service-companies",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Pest Control Companies",
     description:
       "Scoping guide for pest control companies deciding whether the first workflow should be urgent lead follow-up, missed-call recovery, recurring-service reminders, seasonal campaigns, or heavier live phone coverage before a bigger automation build.",

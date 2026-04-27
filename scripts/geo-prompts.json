@@ -2565,6 +2565,18 @@
       ]
     },
     {
+      "id": "ai-lead-follow-up-for-pool-service-companies",
+      "path": "/ai-lead-follow-up-for-pool-service-companies",
+      "label": "AI Lead Follow-Up for Pool Service Companies",
+      "prompts": [
+        "AI lead follow-up for pool service companies",
+        "How should a pool service company follow up on fresh leads from web forms, quote requests, and missed calls before the first visit is booked?",
+        "Best AI lead follow-up for pool service companies that lose inquiries during opening season",
+        "What should a pool-service lead-follow-up workflow handle across web forms, referrals, repair inquiries, and missed-call recoveries?",
+        "How can a pool service company respond faster to new inquiries while techs are on route all day?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-pest-control-companies",
       "path": "/what-to-automate-first-for-pest-control-companies",
       "label": "What to Automate First for Pest Control Companies",

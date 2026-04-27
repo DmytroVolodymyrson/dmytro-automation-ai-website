@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `/what-to-automate-first-for-pool-service-companies` — first child of the pool-service cluster. Sits one level earlier than narrower quote, retention, or seasonal child pages by helping operators choose which single workflow should be the first project. Total live pages: 245.)
+Last updated: 2026-04-26 (shipped `/ai-lead-follow-up-for-pool-service-companies` — second child of the pool-service cluster. Covers the full fresh-lead stage before the first service visit is booked: fast first response, short nurture, light qualification, urgency routing, and office handoff. Total live pages: 246.)
 
 ## Live GEO Assets
 
@@ -202,6 +202,7 @@ Last updated: 2026-04-26 (shipped `/what-to-automate-first-for-pool-service-comp
 | AI for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Vertical category page | Live |
 | AI for Pool Service Companies | `/ai-automation-for-pool-service-companies` | Vertical category page | Live |
 | What to Automate First (Pool Service) | `/what-to-automate-first-for-pool-service-companies` | Vertical decision page | Live |
+| AI Lead Follow-Up (Pool Service) | `/ai-lead-follow-up-for-pool-service-companies` | Vertical workflow page | Live |
 | What to Automate First (Pest Control) | `/what-to-automate-first-for-pest-control-companies` | Vertical decision page | Live |
 | Recurring Service Reminders | `/recurring-service-reminder-automation-for-pest-control-companies` | Vertical workflow page | Live |
 | Seasonal Campaigns (Pest Control) | `/seasonal-campaign-automation-for-pest-control-companies` | Vertical workflow page | Live |
@@ -255,9 +256,9 @@ Last updated: 2026-04-26 (shipped `/what-to-automate-first-for-pool-service-comp
 
 ## Next Pages
 
-This run shipped the pool-service first-project scoping page (`/what-to-automate-first-for-pool-service-companies`), completing the natural parent → decision-page pair for pool service. Before forcing another same-cluster child (e.g. narrower quote follow-up, recurring-route retention, or seasonal outreach pages), a broad cross-cluster reconciliation is the cleaner next step to confirm whether the highest-value gap is still in pool service or in an underserved vertical elsewhere.
+This run shipped the pool-service lead-follow-up page (`/ai-lead-follow-up-for-pool-service-companies`), completing the fresh-lead inquiry-response layer for the pool-service cluster. The cluster now has three live pages: parent, first-project scoping, and lead follow-up. The next-best candidates are narrower pool-service workflow children that sit after the fresh-lead stage, or a cross-cluster check if another vertical has a higher-value gap.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | Broad cross-cluster reconciliation | Re-check the planning docs, live routes/pages, and tracked prompts across all verticals before forcing another pool-service child. Several verticals (solar, plumbing, electrical) have fewer child pages than the more mature clusters and may represent higher-value gaps. | Required before next ship |
-| 2 | Narrower pool-service child (e.g. quote follow-up, recurring-route retention, seasonal outreach) | Only if reconciliation confirms the pool-service cluster still has the clearest unmet buyer intent among all active verticals. | Pending reconciliation |
+| 1 | Narrower pool-service workflow child (e.g. quote follow-up for repair/green-to-clean jobs, recurring-route retention, or seasonal opening/closing outreach) | The fresh-lead layer is now live. The next natural children cover downstream stages: stale quote recovery, recurring-account churn, or seasonal campaign timing. Choose based on which stage leaks the most revenue after the first inquiry is handled. | Ready to evaluate |
+| 2 | Cross-cluster reconciliation | Check whether solar, plumbing, electrical, or another vertical has a higher-value child-page gap before adding a fourth pool-service child. The pool-service cluster is now reasonably covered for the early-funnel stage. | Recommended before fourth pool-service child |

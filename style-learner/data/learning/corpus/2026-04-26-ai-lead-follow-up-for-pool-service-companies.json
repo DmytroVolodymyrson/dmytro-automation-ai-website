@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-26-ai-lead-follow-up-for-pool-service-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-26",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "### Hero\nHeading: AI Lead Follow-Up for Pool Service Companies\nBody: Most pool service companies do not lose the majority of their jobs because the cleaning route is weak or the water chemistry is wrong. They lose them before the first real conversation ever happens. A homeowner fills out a web form about a green pool after vacation, sends a quote request for a repair, calls about opening-season service while your techs are already in backyards, or gets referred by a neighbor and never hears back. By the time someone at the office follows up, that homeowner has already booked with whoever replied first. AI lead follow-up for pool service companies fixes that broader early-funnel workflow. It covers every fresh inquiry channel — web forms, quote requests, missed-call recoveries, referral messages, and light inbound from ads — responds quickly, keeps the conversation alive over the next few hours or days, captures the next useful detail, routes by urgency, and hands real service intent back to a human before the opportunity goes cold.\nSub: Below: what this pool-service lead-follow-up workflow should actually handle across the full fresh-lead stage, how it stays distinct from the broader pool-service parent and the first-project scoping page already live, what guardrails matter, and what proof honestly supports it without inventing a pool-service-specific case study.\n\n### Core sections\n- What pool-service lead follow-up should actually handle\n- How this page stays distinct inside the pool-service cluster\n- Is this a good fit for your pool service company?\n- Guardrails that keep pool-service lead follow-up useful\n- How a practical pool-service lead-follow-up workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions from pool service companies that know fresh leads are leaking somewhere between the first inquiry and the first booked visit\nTopics: how this differs from the broader pool-service parent page, typical build cost, whether it can work with an existing CRM or scheduling stack, the real ROI, and whether it replaces office staff.\n\n### Final CTA\nHeading: Want faster follow-up on every new pool-service inquiry before it goes cold?\nBody: Book a 30-minute call. We will look at your current inquiry flow across web forms, quote requests, missed calls, referrals, and ads, where fresh pool-service leads are actually stalling, and map the smallest workflow that would fix the leak without overbuilding it.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the second child of the pool-service cluster after the parent and the first-project scoping page. Covers the fresh-lead stage that sits between initial inquiry and the first booked visit or repair job."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on the stage before a job is booked: fast first response, short nurture, light qualification, urgency routing, and office handoff across web forms, quote requests, referrals, ad leads, and missed-call recoveries."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Explicitly separates this page from the broader parent (`/ai-automation-for-pool-service-companies`) and the first-project page (`/what-to-automate-first-for-pool-service-companies`), and from likely future narrower children like quote follow-up, recurring-route retention, and seasonal outreach."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live pool-service parent, the broader service-business lead-follow-up guide, and the published e-commerce CRM case study as honest adjacent proof without pretending there is already a pool-service-specific case study on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: faster response, cleaner ownership, clearer escalation, and explicit fit / not-fit framing instead of generic automation claims. Grounds pool-specific realities like route-day field work, opening-season surges, green-to-clean and repair inquiry types, and the mix of recurring versus one-time leads."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T01:54:31.125Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 29.6,
+      "sentenceLengthRange": [
+        5,
+        57
+      ],
+      "totalWords": 385
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Lead Follow-Up for Pool Service Companies\nBody: Most pool service companies do not lose the majority of their jobs because the cleaning route is weak or the water chemistry is wrong.",
+      "wordCount": 34,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want faster follow-up on every new pool-service inquiry before it goes cold?\nBody: Book a 30-minute call. We will look at your current inquiry flow across web forms, quote requests, missed calls, referrals, and ads, where fresh pool-service leads are actually stalling, and map the smallest workflow that would fix the leak without overbuilding it.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 25,
+      "emDashes": 2,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 2.08
+    },
+    "vocabulary": {
+      "distinctWords": 212,
+      "totalWords": 385,
+      "topWords": [
+        [
+          "pool-service",
+          9
+        ],
+        [
+          "service",
+          7
+        ],
+        [
+          "it",
+          7
+        ],
+        [
+          "pool",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "follow-up",
+          5
+        ],
+        [
+          "that",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "lead",
+          4
+        ],
+        [
+          "companies",
+          4
+        ],
+        [
+          "first",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "inquiry",
+          4
+        ],
+        [
+          "from",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
