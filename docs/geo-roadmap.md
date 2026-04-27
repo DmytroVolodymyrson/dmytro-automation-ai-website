@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/missed-call-text-back-for-insurance-agencies` — insurance-agency phone-recovery page focused on the lighter SMS-first fallback between voicemail and live AI phone answering for missed quote requests, referral calls, and routine service inquiries, with distinct positioning beside the existing after-hours and live-answering insurance pages. Total live pages: 263.)
+Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-insurance-agencies` — insurance-agency buyer-decision page focused on the lighter fallback choice between SMS-first missed-call recovery and passive voicemail for missed quote requests, referral calls, and routine service inquiries, with clear separation from the existing insurance text-back and live-answering pages. Total live pages: 264.)
 
 ## Live GEO Assets
 
@@ -164,6 +164,7 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-for-insurance-agencies
 | Referral Request (Insurance) | `/referral-request-automation-for-insurance-agencies` | Vertical workflow page | Live |
 | After Hours Inquiry (Insurance) | `/after-hours-inquiry-handling-for-insurance-agencies` | Vertical solution page | Live |
 | Missed Call Text-Back (Insurance) | `/missed-call-text-back-for-insurance-agencies` | Vertical workflow page | Live |
+| Text-Back vs Voicemail (Insurance) | `/missed-call-text-back-vs-voicemail-for-insurance-agencies` | Vertical comparison page | Live |
 | AI for Property Management | `/ai-automation-for-property-management` | Vertical category page | Live |
 | What to Automate First (Prop Mgmt) | `/what-to-automate-first-for-property-management-companies` | Vertical decision page | Live |
 | Lease Renewal Automation | `/lease-renewal-automation-for-property-management-companies` | Vertical workflow page | Live |
@@ -274,9 +275,9 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-for-insurance-agencies
 
 ## Next Pages
 
-This run shipped the insurance-agency lighter phone-recovery page (`/missed-call-text-back-for-insurance-agencies`). The insurance cluster now covers the broader parent, first-project decision, lead follow-up, renewals, quote follow-up, cross-sell, reviews, referral asks, the lighter after-hours communication layer, the lighter missed-call text-back layer, and the heavier live-answering plus live-answering-vs-voicemail decision pages.
+This run shipped the insurance-agency lighter fallback comparison page (`/missed-call-text-back-vs-voicemail-for-insurance-agencies`). That closes the clean remaining insurance phone gap that survived reconciliation after the missed-call text-back page landed. The next run should not force another same-cluster insurance slug by inertia. It should either do a fresh broad backlog reconciliation across mature clusters and route ↔ prompt gaps, or treat the next run as a priority-page indexing/internal-linking refresh if no distinct safe net-new page survives review.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / watchlist refresh` | The insurance cluster is stronger now, but the next run should still re-check mature clusters, untracked route ↔ prompt gaps, and broader planning docs before forcing another same-cluster slug by inertia. | Recommended next |
-| 2 | `/missed-call-text-back-vs-voicemail-for-insurance-agencies` | If a later run still needs a single page after reconciliation, this is the cleanest same-cluster follow-on because the new insurance text-back page now makes the lighter fallback comparison against voicemail materially distinct from the existing after-hours and heavier live-answering pages. | Conditional / verify next run |
+| 1 | `Broad reconciliation / watchlist refresh` | Re-check mature clusters, planning docs, and route/prompts drift before naming another slug. The last clearly safe insurance follow-on has now shipped. | Recommended next |
+| 2 | `/ai-appointment-setter-cost-small-business` (indexing refresh) | If reconciliation does not surface a clearly distinct new GEO page, this priority commercial URL is the cleanest improvement fallback because `docs/geo-priority-urls.md` still flags it for stronger pricing specificity and source-worthy internal-link support. | Conditional fallback |

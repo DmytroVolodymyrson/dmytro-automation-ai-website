@@ -1446,6 +1446,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. Voicemail for Insurance Agencies",
+    description:
+      "A practical insurance comparison page for agencies deciding whether a fast SMS-first missed-call fallback is already better than voicemail — and when the phone problem has grown into a live-answering issue instead.",
+    href: "/missed-call-text-back-vs-voicemail-for-insurance-agencies",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Insurance Agencies",
     description:
       "A heavier insurance phone-coverage page focused on live quote and service call handling, routine intake-question triage, after-hours call coverage, and cleaner producer or CSR handoff when voicemail is no longer enough.",
