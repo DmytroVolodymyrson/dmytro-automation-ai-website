@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-26-what-to-automate-first-for-pool-service-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-26",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "### Hero\nHeading: What to Automate First for Pool Service Companies\nBody: If your pool service company knows it needs better automation, the safest first move is usually not a giant office rebuild. It is one bounded workflow that fixes an expensive leak fast. For most pool service companies, that first workflow is one of five things: missed-call recovery, repair and cleanup quote follow-up, recurring-route retention reminders, opening or closing season outreach, or heavier live phone coverage when the lighter phone layer is no longer enough. The right choice depends on where revenue is already slipping today.\nSub: Below: how to choose the first pool-service workflow to automate, how this page stays distinct from the broader pool-service parent page, what adjacent proof honestly supports the recommendation, and when you should keep the first project smaller instead of forcing a broader stack too early.\n\n### Core sections\n- Frames the page as a first-project scoping page, not a repeat of the broader pool-service parent. It sits one level earlier by helping operators choose which single workflow should come first.\n- Keeps the tone practical and bounded: route-day operations, opening-season call spikes, repair quote fragility, recurring-account churn, and office overload are the core realities instead of generic AI hype.\n- Uses adjacent proof honestly: the pool-service parent page supports the workflow taxonomy, the Paris Cafe voice-agent case study supports fast call coverage, and the e-commerce CRM case study supports follow-up and lifecycle ownership mechanics.\n- Includes fit / not-fit framing, comparison table vs. parent page, prose on how to avoid overbuilding, common mistakes, FAQ, and related links.\n\n### FAQ\nSubhead: Practical questions about choosing the first automation project for a pool service company\nTopics: best first automation for a pool company, choosing between missed-call recovery and quote follow-up, when recurring-route retention should come before seasonal outreach, when live phone answering is the right first project, and realistic first-project costs.\n\n### Final CTA\nHeading: Want help choosing the first pool-service workflow to automate?\nBody: Book a 30-minute call. We will look at how your company handles missed calls, repair quotes, recurring-route retention, seasonal outreach, and after-hours demand today, then narrow it down to the one workflow most likely to pay off first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the first child of the pool-service cluster: the parent page already isolates the workflow families and this page helps an operator choose which one comes first."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps disciplined distinction from the parent page: this page is about choosing the first bounded project, not surveying the whole automation layer."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps distinct from the pest-control and landscaping first-project siblings by focusing on pool-specific realities: green-to-clean quotes, route-day access, opening/closing season timing, and equipment repair proposals."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the site does not yet have a pool-service-specific case study, so the parent page and adjacent case studies are used only to support underlying workflow mechanics."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T01:29:56.798Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        6,
+        1,
+        3
+      ],
+      "avgSentenceLength": 24.3,
+      "sentenceLengthRange": [
+        5,
+        51
+      ],
+      "totalWords": 364
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: What to Automate First for Pool Service Companies\nBody: If your pool service company knows it needs better automation, the safest first move is usually not a giant office rebuild.",
+      "wordCount": 32,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want help choosing the first pool-service workflow to automate?\nBody: Book a 30-minute call. We will look at how your company handles missed calls, repair quotes, recurring-route retention, seasonal outreach, and after-hours demand today, then narrow it down to the one workflow most likely to pay off first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 14,
+      "commas": 30,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 11,
+      "commasPerSentence": 2
+    },
+    "vocabulary": {
+      "distinctWords": 198,
+      "totalWords": 364,
+      "topWords": [
+        [
+          "first",
+          11
+        ],
+        [
+          "workflow",
+          7
+        ],
+        [
+          "page",
+          6
+        ],
+        [
+          "pool",
+          5
+        ],
+        [
+          "pool-service",
+          5
+        ],
+        [
+          "service",
+          4
+        ],
+        [
+          "company",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "one",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "parent",
+          4
+        ],
+        [
+          "supports",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "automate",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.005
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

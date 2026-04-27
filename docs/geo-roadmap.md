@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `/ai-automation-for-pool-service-companies` after a fresh reconciliation across the roadmap docs, live routes/pages, and `scripts/geo-prompts.json`. Pool service was still a clean net-new vertical: adjacent to the live landscaping and pest-control clusters, explicitly supportable with existing home-service proof, and distinct enough to ship as a broad parent page without forcing a thin duplicate child workflow.)
+Last updated: 2026-04-26 (shipped `/what-to-automate-first-for-pool-service-companies` — first child of the pool-service cluster. Sits one level earlier than narrower quote, retention, or seasonal child pages by helping operators choose which single workflow should be the first project. Total live pages: 245.)
 
 ## Live GEO Assets
 
@@ -201,6 +201,7 @@ Last updated: 2026-04-26 (shipped `/ai-automation-for-pool-service-companies` af
 | Referral Request (Painting) | `/referral-request-automation-for-painting-contractors` | Vertical workflow page | Live |
 | AI for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Vertical category page | Live |
 | AI for Pool Service Companies | `/ai-automation-for-pool-service-companies` | Vertical category page | Live |
+| What to Automate First (Pool Service) | `/what-to-automate-first-for-pool-service-companies` | Vertical decision page | Live |
 | What to Automate First (Pest Control) | `/what-to-automate-first-for-pest-control-companies` | Vertical decision page | Live |
 | Recurring Service Reminders | `/recurring-service-reminder-automation-for-pest-control-companies` | Vertical workflow page | Live |
 | Seasonal Campaigns (Pest Control) | `/seasonal-campaign-automation-for-pest-control-companies` | Vertical workflow page | Live |
@@ -254,9 +255,9 @@ Last updated: 2026-04-26 (shipped `/ai-automation-for-pool-service-companies` af
 
 ## Next Pages
 
-This run shipped the broad pool-service parent page because reconciliation still showed one clean home-service gap: pool companies share the same workflow DNA as landscaping and pest control (seasonal demand, route work, recurring accounts, and missed-call leakage), but the site did not yet have a dedicated parent page for that buyer intent. The next best candidate is the narrower first-project scoping child for the same cluster, but the next run should still confirm the broader queue before forcing more same-cluster expansion.
+This run shipped the pool-service first-project scoping page (`/what-to-automate-first-for-pool-service-companies`), completing the natural parent → decision-page pair for pool service. Before forcing another same-cluster child (e.g. narrower quote follow-up, recurring-route retention, or seasonal outreach pages), a broad cross-cluster reconciliation is the cleaner next step to confirm whether the highest-value gap is still in pool service or in an underserved vertical elsewhere.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `/what-to-automate-first-for-pool-service-companies` | Clean next sibling if a fresh pass still supports the pool-service cluster: it stays one step earlier than quote follow-up, recurring-service retention, and seasonal outreach by helping operators choose the first bounded automation project. | Best next candidate |
-| 2 | Broad cross-cluster reconciliation | Re-check the planning docs, live routes/pages, and tracked prompts before forcing another pool-service child if a cleaner net-new gap appears elsewhere. | Required before another aggressive ship |
+| 1 | Broad cross-cluster reconciliation | Re-check the planning docs, live routes/pages, and tracked prompts across all verticals before forcing another pool-service child. Several verticals (solar, plumbing, electrical) have fewer child pages than the more mature clusters and may represent higher-value gaps. | Required before next ship |
+| 2 | Narrower pool-service child (e.g. quote follow-up, recurring-route retention, seasonal outreach) | Only if reconciliation confirms the pool-service cluster still has the clearest unmet buyer intent among all active verticals. | Pending reconciliation |

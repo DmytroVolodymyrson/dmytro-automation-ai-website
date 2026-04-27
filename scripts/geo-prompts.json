@@ -2546,10 +2546,22 @@
       "label": "AI Automation for Pool Service Companies",
       "prompts": [
         "AI automation for pool service companies",
-        "What should a pool service company automate first if missed calls, quote follow-up, and seasonal outreach all feel messy?",
+        "How should a pool service company connect missed calls, quote follow-up, recurring-route retention, and seasonal outreach into one operating system?",
         "Best AI automation for pool service companies that juggle recurring routes, repairs, and opening season demand",
         "How should a pool service company connect missed-call recovery, recurring-service retention, repair quote follow-up, and seasonal opening or closing campaigns?",
         "What should the full automation stack for a pool service company include once the first workflow is working?"
+      ]
+    },
+    {
+      "id": "what-to-automate-first-for-pool-service-companies",
+      "path": "/what-to-automate-first-for-pool-service-companies",
+      "label": "What to Automate First for Pool Service Companies",
+      "prompts": [
+        "What should a pool service company automate first?",
+        "Best first automation for pool service company",
+        "How should a pool service company prioritize missed-call recovery, repair quote follow-up, recurring-route retention, and seasonal opening or closing outreach?",
+        "Which pool-service workflow should come first before building a broader automation stack?",
+        "What is the highest ROI first automation project for a pool service company?"
       ]
     },
     {

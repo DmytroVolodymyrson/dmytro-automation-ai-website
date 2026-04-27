@@ -1950,6 +1950,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Pool Service Companies",
+    description:
+      "Scoping guide for pool service companies deciding whether the first workflow should be missed-call recovery, repair quote follow-up, recurring-route retention, seasonal outreach, or heavier live phone coverage before a bigger automation build.",
+    href: "/what-to-automate-first-for-pool-service-companies",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Pest Control Companies",
     description:
       "Scoping guide for pest control companies deciding whether the first workflow should be urgent lead follow-up, missed-call recovery, recurring-service reminders, seasonal campaigns, or heavier live phone coverage before a bigger automation build.",
