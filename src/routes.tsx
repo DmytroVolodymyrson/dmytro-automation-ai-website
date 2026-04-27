@@ -84,6 +84,7 @@ import IncompleteApplicationFollowUpForMortgageBrokers from "./pages/IncompleteA
 import WhatToAutomateFirstForMortgageBrokers from "./pages/WhatToAutomateFirstForMortgageBrokers";
 import AppointmentSchedulingAndReminderAutomationForMortgageBrokers from "./pages/AppointmentSchedulingAndReminderAutomationForMortgageBrokers";
 import MissedCallTextBackForMortgageBrokers from "./pages/MissedCallTextBackForMortgageBrokers";
+import AiPhoneAnsweringForMortgageBrokers from "./pages/AiPhoneAnsweringForMortgageBrokers";
 import AiAutomationForDentalPractices from "./pages/AiAutomationForDentalPractices";
 import WhatToAutomateFirstForDentalPractices from "./pages/WhatToAutomateFirstForDentalPractices";
 import AiLeadFollowUpForDentalPractices from "./pages/AiLeadFollowUpForDentalPractices";
@@ -506,6 +507,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/what-to-automate-first-for-mortgage-brokers", element: <WhatToAutomateFirstForMortgageBrokers /> },
   { path: "/appointment-scheduling-and-reminder-automation-for-mortgage-brokers", element: <AppointmentSchedulingAndReminderAutomationForMortgageBrokers /> },
   { path: "/missed-call-text-back-for-mortgage-brokers", element: <MissedCallTextBackForMortgageBrokers /> },
+  { path: "/ai-phone-answering-for-mortgage-brokers", element: <AiPhoneAnsweringForMortgageBrokers /> },
   { path: "/ai-automation-for-dental-practices", element: <AiAutomationForDentalPractices /> },
   { path: "/what-to-automate-first-for-dental-practices", element: <WhatToAutomateFirstForDentalPractices /> },
   { path: "/ai-lead-follow-up-for-dental-practices", element: <AiLeadFollowUpForDentalPractices /> },

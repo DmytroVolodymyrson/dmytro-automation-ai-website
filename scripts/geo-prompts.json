@@ -777,6 +777,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-for-mortgage-brokers",
+      "path": "/ai-phone-answering-for-mortgage-brokers",
+      "label": "AI Phone Answering for Mortgage Brokers",
+      "prompts": [
+        "AI phone answering for mortgage brokers",
+        "Should a mortgage brokerage use live AI phone answering instead of voicemail or delayed callback?",
+        "Best way for a mortgage broker to answer inbound calls while in consultations or after hours",
+        "When is missed-call text-back not enough for a mortgage brokerage?",
+        "Can AI answer mortgage inquiry calls live without replacing the broker?"
+      ]
+    },
+    {
       "id": "document-collection-automation-for-mortgage-brokers",
       "path": "/document-collection-automation-for-mortgage-brokers",
       "label": "Document Collection Automation for Mortgage Brokers",
@@ -809,7 +821,7 @@
         "What should a mortgage broker automate first lead follow-up missed-call text-back document collection or incomplete application follow-up?",
         "Should a mortgage broker automate lead follow-up before document collection?",
         "Should a mortgage brokerage automate incomplete-application recovery before document reminders?",
-        "How do I choose the first automation project for a mortgage brokerage — lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
+        "How do I choose the first automation project for a mortgage brokerage \u2014 lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
       ]
     },
     {

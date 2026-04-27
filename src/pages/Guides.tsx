@@ -947,6 +947,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering for Mortgage Brokers",
+    description:
+      "A heavier mortgage phone-coverage page for brokerages that need live call answering, consultation-booking intake, after-hours coverage, and clean human handoff when missed-call text-back is no longer enough.",
+    href: "/ai-phone-answering-for-mortgage-brokers",
+    category: "industries",
+  },
+  {
     title: "Document Collection Automation for Mortgage Brokers",
     description:
       "Automated reminders for missing mortgage documents, incomplete-file tracking, secure next-step prompts, and cleaner broker handoff without manual chasing.",

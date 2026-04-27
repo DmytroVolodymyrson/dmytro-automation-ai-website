@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-ai-phone-answering-for-mortgage-brokers",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: AI Phone Answering for Mortgage Brokers\nBody: Some mortgage brokerages do not mainly have a missed-call problem. They have a live phone-coverage problem. The broker is already on a call with a borrower, in a consultation, reviewing a file with the processor, or driving between appointments — and the next rate inquiry, pre-approval question, or referral partner call still expects a real answer now. Missed-call text-back is a useful lighter fallback, and it already has its own page in this cluster. But when callers need live answers about rate availability, pre-approval timelines, document requirements, or whether the brokerage can handle their situation before they call the next broker, a text after the miss is often not fast enough. AI phone answering for mortgage brokers is the heavier phone layer that answers the call live, handles the routine intake path, captures borrower context before it gets lost in voicemail, and routes higher-stakes conversations back to a human before the brokerage keeps losing rate-sensitive leads to slower response.\nSub: Below: what live AI phone answering should actually handle for a mortgage brokerage, how it stays distinct from the broader parent page and the lighter missed-call page already live, where it fits best, and what proof honestly supports it.\n\n### Core sections\n- Frames the page as the heavier live-answering layer inside the existing mortgage-broker phone cluster rather than a rewrite of the broader mortgage parent or the lighter missed-call page already live.\n- Covers what live AI phone answering should actually handle for a mortgage brokerage: routine inbound call coverage, consultation-booking and callback intake, borrower-context capture, after-hours response, and fast human handoff for rate-sensitive or referral-partner conversations.\n- Keeps the proof honest by grounding the page in the mortgage parent page, the generic AI phone-answering guide, and the Paris Cafe call-handling case study instead of pretending there is already a mortgage-only live-answering case study.\n- Stays operational and bounded: no rate quotes, no loan-program advice, no AI replacing the broker, and explicit escalation rules for closing urgency, complex scenarios, and compliance-sensitive conversations.\n\n### FAQ\nSubhead: Straight answers for mortgage brokers considering live AI phone coverage\nTopics: how this differs from missed-call text-back, what a focused build usually costs, whether it can help book mortgage consultations, whether it replaces the broker or admin, and the compliance guardrails that should stay in place.\n\n### Final CTA\nHeading: Need to know if your brokerage needs live AI phone answering or just a lighter fallback?\nBody: Book a 30-minute call. We will look at your current call pattern, how much demand dies in voicemail or delayed callback while the broker is unavailable, and whether live AI phone answering is the right next step or whether a narrower missed-call text-back workflow would be smarter first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because `docs/geo-roadmap.md` explicitly named the heavier mortgage live-answering explainer as the next clean follow-on after the lighter missed-call page shipped."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on live inbound call coverage so it does not collapse into the broader mortgage parent, the missed-call text-back child, or the generic AI phone-answering guide."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses adjacent proof only: the live mortgage cluster, the generic AI phone-answering page, and the Paris Cafe call-handling case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype with explicit guidance on when live answering is worth it, when SMS-first recovery is still enough, and where a human should take over fast."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T18:09:58.404Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        4,
+        1,
+        3
+      ],
+      "avgSentenceLength": 30.4,
+      "sentenceLengthRange": [
+        5,
+        48
+      ],
+      "totalWords": 456
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Phone Answering for Mortgage Brokers\nBody: Some mortgage brokerages do not mainly have a missed-call problem.",
+      "wordCount": 19,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need to know if your brokerage needs live AI phone answering or just a lighter fallback?\nBody: Book a 30-minute call. We will look at your current call pattern, how much demand dies in voicemail or delayed callback while the broker is unavailable, and whether live AI phone answering is the right next step or whether a narrower missed-call text-back workflow would be smarter first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 14,
+      "commas": 33,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 10,
+      "commasPerSentence": 2.2
+    },
+    "vocabulary": {
+      "distinctWords": 226,
+      "totalWords": 456,
+      "topWords": [
+        [
+          "live",
+          10
+        ],
+        [
+          "ai",
+          9
+        ],
+        [
+          "phone",
+          9
+        ],
+        [
+          "mortgage",
+          9
+        ],
+        [
+          "call",
+          7
+        ],
+        [
+          "it",
+          7
+        ],
+        [
+          "page",
+          7
+        ],
+        [
+          "answering",
+          6
+        ],
+        [
+          "missed-call",
+          6
+        ],
+        [
+          "broker",
+          5
+        ],
+        [
+          "already",
+          5
+        ],
+        [
+          "whether",
+          5
+        ],
+        [
+          "brokerage",
+          5
+        ],
+        [
+          "lighter",
+          4
+        ],
+        [
+          "what",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.002
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

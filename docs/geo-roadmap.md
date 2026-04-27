@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/missed-call-text-back-for-mortgage-brokers`: added the lighter SMS-first missed-call recovery child page to the mortgage-broker cluster for brokerages that lose inbound opportunities while on another call, in a consultation, or between appointments. Wired routes/discovery/tracking, added contextual internal links from the mortgage parent and sibling pages. Total live pages: 277.)
+Last updated: 2026-04-27 (shipped `/ai-phone-answering-for-mortgage-brokers`: added the heavier live phone-coverage child page to the mortgage-broker cluster for brokerages whose inbound borrower and referral calls have already outgrown SMS-first missed-call recovery. Wired routes/discovery/tracking, added contextual internal links from the mortgage parent and sibling pages. Total live pages: 278.)
 
 ## Live GEO Assets
 
@@ -102,6 +102,7 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-for-mortgage-brokers`:
 
 | AI for Mortgage Brokers | `/ai-automation-for-mortgage-brokers` | Vertical category page | Live |
 | AI Lead Follow-Up (Mortgage) | `/ai-lead-follow-up-for-mortgage-brokers` | Vertical workflow page | Live |
+| AI Phone Answering (Mortgage) | `/ai-phone-answering-for-mortgage-brokers` | Vertical solution page | Live |
 | Missed-Call Text-Back (Mortgage) | `/missed-call-text-back-for-mortgage-brokers` | Vertical workflow page | Live |
 | Document Collection (Mortgage) | `/document-collection-automation-for-mortgage-brokers` | Vertical workflow page | Live |
 | Incomplete Application Follow-Up | `/incomplete-application-follow-up-for-mortgage-brokers` | Vertical workflow page | Live |
@@ -288,9 +289,9 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-for-mortgage-brokers`:
 
 ## Next Pages
 
-This run shipped `/missed-call-text-back-for-mortgage-brokers`, which qualified because the mortgage-broker cluster was still one of the thinnest high-value verticals on the site and lacked the lighter phone-recovery layer that already exists across many comparable service-business clusters. The next clean mortgage follow-on is the heavier live-answering sibling page, because the cluster now has the broader parent, early-funnel follow-up, booked-consult scheduling, and lighter missed-call recovery pages live but still lacks the distinct live-phone-coverage explainer.
+This run shipped `/ai-phone-answering-for-mortgage-brokers`, which completed the missing heavier live-phone-coverage explainer inside the mortgage-broker cluster. The cluster now has the broader parent, early-funnel follow-up, booked-consult scheduling, document and application follow-through, the lighter missed-call fallback, and the heavier live-answering layer. Instead of forcing another same-cluster mortgage page by inertia, the next run should start with a broad reconciliation across the planning docs, live routes, tracking prompts, and strongest live clusters to confirm whether any distinct unshipped buyer-intent page still survives cleanly.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `/ai-phone-answering-for-mortgage-brokers` | The mortgage cluster now has the lighter missed-call child page but still lacks the heavier live-answering explainer. That page would serve brokerages whose phone volume or urgency has already outgrown SMS-first recovery and would complete the clean phone-coverage step-up inside this cluster. | Primary next step |
-| 2 | `Broad reconciliation / cluster audit` | If the heavier mortgage phone page no longer survives distinctness review against the live cluster and prompts, reset to cross-cluster reconciliation instead of forcing another same-cluster page by inertia. | Fallback |
+| 1 | `Broad reconciliation / cluster audit` | The mortgage phone cluster now has its clean heavier explainer. The safest next move is repo-wide reconciliation to verify the strongest remaining distinct page instead of guessing at another same-cluster follow-on. | Primary next step |
+| 2 | `Mortgage phone comparison audit` | Only pursue another mortgage phone child if a fresh live-cluster plus prompts review proves a materially distinct comparison page still remains unshipped and non-duplicative. | Conditional fallback |
