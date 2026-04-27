@@ -171,9 +171,20 @@ const AiLeadFollowUpForServiceBusinesses = () => {
                 slowly. AI follow-up fixes that by contacting every lead within
                 seconds and staying on them until they book or opt out.
               </p>
-              <p className="text-base text-muted-foreground leading-relaxed mb-8">
+              <p className="text-base text-muted-foreground leading-relaxed mb-4">
                 Below: how it works, what it costs, which businesses benefit
                 most, and how to tell if it is worth the investment for yours.
+              </p>
+              <p className="text-sm text-muted-foreground leading-relaxed mb-8">
+                If you are mainly comparing budget bands, build scope, or what a
+                realistic first-phase quote should include, start with the
+                <Link
+                  to="/ai-lead-follow-up-cost-small-business"
+                  className="mx-1 text-primary hover:text-primary/80 underline underline-offset-4"
+                >
+                  AI lead follow-up cost guide
+                </Link>
+                before you request a custom build.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Button
@@ -494,6 +505,13 @@ const AiLeadFollowUpForServiceBusinesses = () => {
               className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
             >
               View all case studies
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+            <Link
+              to="/ai-lead-follow-up-cost-small-business"
+              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+            >
+              AI lead follow-up cost guide
               <ArrowRight className="w-4 h-4" />
             </Link>
             <Link

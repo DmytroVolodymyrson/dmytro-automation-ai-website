@@ -24,9 +24,9 @@ const data: DecisionPageData = {
   badgeIcon: DollarSign,
   h1: "AI Lead Follow-Up Cost for Small Business",
   heroIntro:
-    "If you are looking up lead follow-up pricing, the useful question is not 'how cheap can I get automation?' It is 'what level of follow-up problem am I actually solving?' A small business that only needs instant response to web leads should not buy the same system as a business that needs multi-channel nurture, missed-call recovery, CRM routing, and owner alerts. This page breaks down realistic cost ranges for lead follow-up automation specifically — not broad AI transformation pricing, and not voice-agent ROI alone — so you can budget the right first build instead of overbuying or underbuilding.",
+    "Most small businesses should expect a focused AI lead follow-up build to land somewhere between $1.2K and $4.5K, with monthly running costs often in the $20-$150 range before heavier AI usage or ongoing support. The useful question is not 'how cheap can I get automation?' It is 'what level of lead-follow-up problem am I actually solving?' A business that only needs instant response to web leads should not buy the same system as a business that needs multi-channel nurture, missed-call recovery, CRM routing, and owner alerts. This page breaks down realistic cost ranges for lead follow-up automation specifically — not broad AI transformation pricing, and not voice-agent ROI alone — so you can budget the right first build instead of overbuying or underbuilding.",
   heroSubtext:
-    "Below: what different lead follow-up builds usually cost, what drives the price up, where small businesses overspend, and when the math makes sense versus when a simpler workflow is enough.",
+    "Below: what different lead-follow-up builds usually cost, what those budget bands actually buy, what drives the price up, where small businesses overspend, and when the math makes sense versus when a simpler workflow is enough.",
   sections: [
     {
       type: "table",
@@ -58,6 +58,26 @@ const data: DecisionPageData = {
         {
           label: "Advanced follow-up with AI qualification layer",
           values: ["$3.5K–$6K+", "$75–$250", "2–4 weeks"],
+        },
+      ],
+    },
+    {
+      type: "prose",
+      title: "What those budget bands usually buy in practice",
+      subtitle:
+        "The number only becomes useful when you tie it to the actual operating problem:",
+      blocks: [
+        {
+          heading: "$1K-$2K range: fast first response and short nurture",
+          body: "This is the band for businesses that mainly need instant response to form leads, a short follow-up sequence, and a clean owner notification or CRM handoff. It is the right first project when the core leak is slow response, not workflow sprawl.",
+        },
+        {
+          heading: "$2K-$4K range: real routing logic and multi-channel follow-up",
+          body: "This is where the system starts managing more than a simple thank-you message. Expect CRM updates, assignment rules, stop conditions when a human replies, and a tighter mix of SMS plus email or missed-call recovery. This is the range most small businesses should benchmark against when they want a production workflow instead of a lightweight autoresponder.",
+        },
+        {
+          heading: "$4K+ range: heavier qualification and more cleanup risk",
+          body: "Once proposals include AI qualification, complex branching, or a messy CRM that needs cleanup before leads can be routed correctly, you are no longer paying only for follow-up messages. You are paying for system design, testing, and failure-handling so the automation can work safely inside a real operating environment.",
         },
       ],
     },
@@ -178,7 +198,9 @@ const data: DecisionPageData = {
         { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
         { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
         { label: "Contact form lead follow-up automation", href: "/contact-form-lead-follow-up-automation" },
+        { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
         { label: "AI automation cost for small business", href: "/ai-automation-cost-small-business" },
+        { label: "View all case studies", href: "/case-studies" },
       ],
     },
     {
@@ -206,7 +228,7 @@ const data: DecisionPageData = {
     {
       question: "What does AI lead follow-up cost for a small business?",
       answer:
-        "For most small businesses, a focused lead follow-up build lands between $1.2K and $4.5K depending on channels, CRM integration, and routing logic. Monthly running costs are often in the $20-$150 range before any optional support or heavier AI usage.",
+        "For most small businesses, a focused lead-follow-up build usually lands between $1.2K and $4.5K depending on channels, CRM integration, routing logic, and whether the workflow also handles missed-call recovery or AI qualification. Monthly running costs are often in the $20-$150 range before any optional support or heavier AI usage.",
     },
     {
       question: "Why is this different from the general AI automation cost page?",
@@ -239,8 +261,12 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
     { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
+    { label: "Contact form lead follow-up automation", href: "/contact-form-lead-follow-up-automation" },
     { label: "Lead follow-up automation examples", href: "/lead-follow-up-automation-examples" },
+    { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
     { label: "AI automation cost for small business", href: "/ai-automation-cost-small-business" },
+    { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
+    { label: "Case studies", href: "/case-studies" },
     { label: "Guides hub", href: "/guides" },
   ],
 };
