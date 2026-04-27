@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-referral-request-automation-for-real-estate-agents",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: Referral Request Automation for Real Estate Agents\nBody: A lot of real estate agents say referrals are their best deals, then handle referral follow-up with no system at all. The closing happens. The client is genuinely happy. Maybe they already mention a friend who is thinking about selling, a family member who wants to buy, or an investor who needs an agent later this year. Then nothing happens. Or the referral ask gets bundled into the same message as a review request and loses all specificity. Or the team waits too long, the goodwill cools off, and the warm introduction never turns into a real conversation. Referral request automation for real estate agents fixes that narrower post-closing advocacy workflow. It gives the agent a believable moment to ask, keeps referral asks separate from reputation asks, routes warm introductions back to a human fast, and turns completed transactions into cleaner word-of-mouth follow-through instead of hoping happy clients remember to send business later.\nSub: Below: what a practical real-estate referral workflow should actually handle, how it stays distinct from review requests and longer-term client reactivation, what guardrails matter most, and what proof honestly supports this page without pretending there is already a dedicated real-estate referral-automation case study on the site.\n\n### Core sections\n- What real-estate referral-request automation should actually handle\n- How this page stays distinct inside the real-estate cluster\n- Is this a good fit for your real estate business?\n- Guardrails that keep real-estate referral automation useful instead of awkward\n- How a practical real-estate referral workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical answers for real estate agents considering a cleaner referral workflow after a deal closes\nTopics: how this differs from review-request automation, how this differs from client reactivation, when a real estate agent should ask for referrals, what a focused referral workflow usually costs, and where the ROI actually comes from.\n\n### Final CTA\nHeading: Want more happy clients to turn into real introductions?\nBody: Book a 30-minute call. We will look at how your team handles post-closing follow-up today, where warm referral opportunities are being lost, and whether a focused referral workflow, a review-timing fix, or an earlier pipeline problem is the smarter next move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as a distinct post-closing advocacy workflow inside the real-estate cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the roadmap and live cluster still had a clear gap between review-request automation (public reputation), client reactivation (longer-term nurture), and the narrower warm-introduction ask right after a successful transaction."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/review-request-automation-for-real-estate-agents` by focusing on introductions instead of public reviews, and it stays distinct from `/client-reactivation-automation-for-real-estate-teams` by focusing on the immediate post-closing advocacy window rather than broad database nurture."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live real-estate parent, the adjacent real-estate child pages, and the published e-commerce CRM case study support the workflow logic without pretending there is already a dedicated real-estate referral-automation case study on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fit / not-fit framing, guardrails against bundled review-plus-referral asks, and clear separation from earlier lead response or longer-term nurture."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T20:07:17.654Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        10,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 23.4,
+      "sentenceLengthRange": [
+        3,
+        53
+      ],
+      "totalWords": 375
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Referral Request Automation for Real Estate Agents\nBody: A lot of real estate agents say referrals are their best deals, then handle referral follow-up with no system at all.",
+      "wordCount": 31,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want more happy clients to turn into real introductions?\nBody: Book a 30-minute call. We will look at how your team handles post-closing follow-up today, where warm referral opportunities are being lost, and whether a focused referral workflow, a review-timing fix, or an earlier pipeline problem is the smarter next move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 13,
+      "commas": 19,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.27
+    },
+    "vocabulary": {
+      "distinctWords": 195,
+      "totalWords": 375,
+      "topWords": [
+        [
+          "referral",
+          12
+        ],
+        [
+          "real",
+          8
+        ],
+        [
+          "this",
+          7
+        ],
+        [
+          "estate",
+          6
+        ],
+        [
+          "workflow",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "real-estate",
+          6
+        ],
+        [
+          "how",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "from",
+          5
+        ],
+        [
+          "agents",
+          4
+        ],
+        [
+          "into",
+          4
+        ],
+        [
+          "request",
+          3
+        ],
+        [
+          "handle",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

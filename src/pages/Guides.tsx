@@ -933,6 +933,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Referral Request Automation for Real Estate Agents",
+    description:
+      "Post-closing advocacy workflow for real estate agents who want more warm introductions from satisfied clients, clearer referral timing, and faster handoff when a buyer, seller, investor, or relocating contact gets mentioned.",
+    href: "/referral-request-automation-for-real-estate-agents",
+    category: "industries",
+  },
+  {
     title: "Missed Call Text-Back vs. AI Phone Answering for Real Estate Agents",
     description:
       "Should a real estate agent use SMS-first missed-call recovery or live AI phone answering? Practical comparison of call pattern, lead urgency, showing availability, and cost for agents who lose calls at showings and appointments.",

@@ -270,6 +270,7 @@ const data: DecisionPageData = {
     { label: "What to automate first for real estate teams", href: "/what-to-automate-first-for-real-estate" },
     { label: "Client reactivation automation for real estate teams", href: "/client-reactivation-automation-for-real-estate-teams" },
     { label: "CRM cleanup and routing for real estate teams", href: "/crm-cleanup-and-routing-for-real-estate-teams" },
+    { label: "Referral request automation for real estate agents", href: "/referral-request-automation-for-real-estate-agents" },
     { label: "Review request automation for service businesses", href: "/review-request-automation-for-service-businesses" },
     { label: "All guides", href: "/guides" },
   ],

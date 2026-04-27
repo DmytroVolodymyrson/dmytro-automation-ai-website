@@ -301,6 +301,7 @@ const data: DecisionPageData = {
     { label: "Missed call text-back vs AI phone answering for real estate agents", href: "/missed-call-text-back-vs-ai-phone-answering-for-real-estate-agents" },
     { label: "CRM cleanup and routing for real estate teams", href: "/crm-cleanup-and-routing-for-real-estate-teams" },
     { label: "Review request automation for real estate agents", href: "/review-request-automation-for-real-estate-agents" },
+    { label: "Referral request automation for real estate agents", href: "/referral-request-automation-for-real-estate-agents" },
     { label: "All guides", href: "/guides" },
   ],
 };

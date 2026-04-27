@@ -765,6 +765,18 @@
       ]
     },
     {
+      "id": "referral-request-automation-for-real-estate-agents",
+      "path": "/referral-request-automation-for-real-estate-agents",
+      "label": "Referral Request Automation for Real Estate Agents",
+      "prompts": [
+        "Referral request automation for real estate agents",
+        "How do real estate agents ask for referrals automatically after a closing?",
+        "Best way to automate referral requests after a real estate transaction without sounding pushy",
+        "When should a real estate agent ask for referrals after a successful closing?",
+        "How should a real estate team separate review requests, referral asks, and past-client nurture after a deal closes?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-vs-ai-phone-answering-for-real-estate-agents",
       "path": "/missed-call-text-back-vs-ai-phone-answering-for-real-estate-agents",
       "label": "Missed Call Text-Back vs. AI Phone Answering for Real Estate Agents",
