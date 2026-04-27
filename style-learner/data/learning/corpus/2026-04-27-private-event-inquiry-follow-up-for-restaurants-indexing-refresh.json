@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-private-event-inquiry-follow-up-for-restaurants-indexing-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: Private Event Inquiry Follow-Up for Restaurants\nBody: If your restaurant hosts buyouts, private dining, group bookings, or catering requests, the first operational risk is usually not demand — it is response speed. Event leads arrive through forms, voicemails, DMs, and rushed phone calls, then sit unanswered while service is happening. By the time your events lead sees the inquiry, the prospect has already reached out to another venue. Private-event inquiry follow-up automation fixes that narrow gap: it captures the key details, confirms the inquiry in under a minute, alerts the right person with a usable summary, and keeps the thread moving until a human takes over the actual sales conversation.\nSub: Below: the concrete 5-step intake-to-handoff workflow, what this automates vs. what stays human, how it connects to your broader restaurant automation stack, and the honest proof frame behind the page.\n\n### New concrete workflow section\nHeading: The 5-step intake-to-handoff workflow\nIntro: Most restaurant event follow-up problems trace back to the same five gaps. Here is the concrete sequence automation should cover.\n\n1. Funnel every channel into one intake record\n- Normalizes phone calls, forms, email, Instagram DMs, and voicemails into one structured record.\n- Explicitly names contact name, date range, estimated headcount, occasion type, and contact method.\n- Ties phone-origin event leads back to the same intake path used by voice-agent or missed-call recovery.\n\n2. Acknowledge the inquiry in under 60 seconds\n- Adds a direct answer around immediate confirmation by text, email, or DM.\n- Keeps the message factual: received, who owns next step, realistic follow-up window.\n- Frames the main conversion leak clearly: prospects assume nobody saw the inquiry and move to another venue.\n\n3. Alert the events lead with a usable summary\n- Turns vague forwarded messages into structured notifications with inquiry source, requested date, group size, occasion, and notes.\n- Keeps the human starting point stronger by avoiding repeated discovery questions.\n\n4. Escalate or reassign if the first-response window passes\n- Adds an explicit internal escalation rule if no response happens within the target window.\n- Makes the workflow about service discipline, not robotic prospect messaging.\n\n5. Follow up if the prospect goes quiet\n- Uses one narrow polite follow-up plus a reminder task for the human owner.\n- Explicitly avoids turning private-event sales into a spammy nurture sequence.\n\n### Tightened top-page support links\nSection: What private-event inquiry automation should actually do\n- Adds contextual links from channel capture to:\n  - /after-hours-phone-answering-for-restaurants\n  - /missed-call-text-back-for-restaurants\n- Adds Paris Cafe proof link under immediate acknowledgement.\n- Adds reservation-reminder workflow link under stall / follow-up logic.\n\n### Reframed integration section\nSection: How this workflow connects to your broader restaurant automation stack\n- Replaces the more generic workflow summary with clearer cluster logic:\n  - phone intake ties into after-hours coverage and missed-call recovery\n  - reminder logic mirrors reservation-confirmation patterns\n  - parent restaurant + first-project pages explain where this child fits in the priority stack\n  - Paris Cafe remains the honest adjacent proof for fast-response routing behavior\n\n### Expanded cluster / proof links\nSection: Proof links and related links\n- Adds direct support links to:\n  - /what-to-automate-first-for-restaurants\n  - /after-hours-phone-answering-for-restaurants\n- Expands bottom related links with:\n  - /what-to-automate-first-for-restaurants\n  - /after-hours-phone-answering-for-restaurants\n  - /missed-call-text-back-for-restaurants\n- Keeps the page tightly inside the live restaurant cluster plus Paris Cafe proof.\n\n### Rest of page retained\n- What private-event inquiry automation should actually do\n- How this page differs from broader restaurant pages\n- Good fit / not the right fit\n- Important guardrails\n- Honest proof framing\n- FAQ\n- Final CTA",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded indexing/internal-linking refresh on an existing restaurant child workflow page, not a new page ship."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The update makes the page easier for search engines and AI systems to extract because the intake / acknowledgement / handoff sequence is now explicit instead of implied."
+    },
+    {
+      "type": "tone_shift",
+      "description": "New links stay tightly inside the restaurant cluster and the published Paris Cafe proof path."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: faster response, cleaner routing, and human-led event sales where nuance matters."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "No invented private-event case study or fake event-conversion metrics were added."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T16:35:36.485Z",
+    "structure": {
+      "paragraphCount": 11,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        4,
+        4,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1,
+        1
+      ],
+      "avgSentenceLength": 19.3,
+      "sentenceLengthRange": [
+        1,
+        67
+      ],
+      "totalWords": 579
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Private Event Inquiry Follow-Up for Restaurants\nBody: If your restaurant hosts buyouts, private dining, group bookings, or catering requests, the first operational risk is usually not demand — it is response speed.",
+      "wordCount": 33,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Rest of page retained\n- What private-event inquiry automation should actually do\n- How this page differs from broader restaurant pages\n- Good fit / not the right fit\n- Important guardrails\n- Honest proof framing\n- FAQ\n- Final CTA",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "result",
+        "context",
+        "product-pitch",
+        "context",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | result | context | product-pitch | context | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 28,
+      "commas": 32,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 37,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 16,
+      "commasPerSentence": 1.1
+    },
+    "vocabulary": {
+      "distinctWords": 301,
+      "totalWords": 579,
+      "topWords": [
+        [
+          "-",
+          37
+        ],
+        [
+          "inquiry",
+          9
+        ],
+        [
+          "restaurant",
+          7
+        ],
+        [
+          "workflow",
+          7
+        ],
+        [
+          "proof",
+          7
+        ],
+        [
+          "links",
+          7
+        ],
+        [
+          "follow-up",
+          6
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "adds",
+          6
+        ],
+        [
+          "with",
+          5
+        ],
+        [
+          "section",
+          5
+        ],
+        [
+          "into",
+          5
+        ],
+        [
+          "event",
+          4
+        ],
+        [
+          "if",
+          4
+        ],
+        [
+          "your",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

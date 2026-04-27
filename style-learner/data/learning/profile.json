@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-27T16:24:28.687Z",
-  "postCount": 409,
+  "updatedAt": "2026-04-27T16:35:36.540Z",
+  "postCount": 410,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,7 +15,7 @@
       "max": 12,
       "p25": 4,
       "p75": 4,
-      "samples": 409
+      "samples": 410
     },
     "sentenceLength": {
       "mean": 23.1,
@@ -24,16 +24,16 @@
       "max": 105,
       "p25": 19.2,
       "p75": 27.1,
-      "samples": 409
+      "samples": 410
     },
     "totalWords": {
-      "mean": 329.8,
+      "mean": 330.4,
       "median": 331,
       "min": 17,
       "max": 1155,
       "p25": 270,
       "p75": 372,
-      "samples": 409
+      "samples": 410
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -98,6 +98,7 @@
       "long | short | single | single | long | short": 1,
       "long | single | long | short | long | single | long": 1,
       "long | short | long | long | long | short | single": 1,
+      "long | short | long | long | long | long | long | short | single | single | single": 1,
       "long | short | long | single | long": 1,
       "long | short | long | long | long | long | short | long": 1
     },
@@ -157,6 +158,7 @@
       "opener | context | context | context | context | result | context | context | context | context | context | closer": 1,
       "opener | context | result | product-pitch | context | product-pitch | closer": 1,
       "opener | context | context | product-pitch | product-pitch | context | closer": 1,
+      "opener | context | context | result | context | product-pitch | context | context | context | context | closer": 1,
       "opener | result | context | context | context | context | context | closer": 1
     }
   },
@@ -179,7 +181,7 @@
         ]
       },
       "standard-opener": {
-        "count": 275,
+        "count": 276,
         "examples": [
           "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an autom",
           "Section heading: Real Results for Real Businesses\nSubheading: Here's what happen",
@@ -206,7 +208,7 @@
   "closers": {
     "patterns": {
       "reflection": {
-        "count": 59,
+        "count": 60,
         "examples": [
           "Stats:\n- 7+ Years building software\n- 50+ Automations built\n- $100K+ Saved for c",
           "Social proof pills:\n- 10+ hrs/week saved\n- 300%+ ROI\n- 24/7 automation",
@@ -253,7 +255,7 @@
     "topWords": [
       [
         "-",
-        2438
+        2475
       ],
       [
         "what",
@@ -261,19 +263,19 @@
       ],
       [
         "automation",
-        1112
+        1118
       ],
       [
         "ai",
         946
       ],
       [
-        "it",
-        819
+        "workflow",
+        820
       ],
       [
-        "workflow",
-        813
+        "it",
+        819
       ],
       [
         "page",
@@ -301,19 +303,19 @@
       ],
       [
         "follow-up",
-        554
+        560
       ],
       [
         "live",
         548
       ],
       [
-        "first",
-        520
+        "your",
+        521
       ],
       [
-        "your",
-        517
+        "first",
+        520
       ],
       [
         "call",

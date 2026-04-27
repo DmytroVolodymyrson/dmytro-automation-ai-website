@@ -18,14 +18,14 @@ const data: DecisionPageData = {
   metaTitle:
     "Private Event Inquiry Follow-Up for Restaurants — Faster Response, Better Event Conversion | Dmytro AI",
   metaDescription:
-    "How restaurants automate private-event inquiry follow-up without making the sales conversation feel robotic. Capture details, route fast, send the first response, and keep human handoff where it matters.",
+    "A practical 5-step intake-to-handoff workflow for restaurants that host private events. Capture inquiry details from any channel, acknowledge in under 60 seconds, route to the right person with context, and keep the lead alive until a human closes the sale.",
   badgeText: "Restaurant Workflow",
   badgeIcon: UtensilsCrossed,
   h1: "Private Event Inquiry Follow-Up for Restaurants",
   heroIntro:
-    "If your restaurant hosts buyouts, private dining, group bookings, or catering requests, the first operational risk is usually not demand. It is response speed. Event leads come in through forms, voicemails, DMs, and rushed phone calls, then sit while service is happening. Private-event inquiry follow-up automation fixes that narrow gap. It captures the important details, confirms the inquiry fast, alerts the right person, and keeps the thread moving until a human takes over the actual sales conversation.",
+    "If your restaurant hosts buyouts, private dining, group bookings, or catering requests, the first operational risk is usually not demand — it is response speed. Event leads arrive through forms, voicemails, DMs, and rushed phone calls, then sit unanswered while service is happening. By the time your events lead sees the inquiry, the prospect has already reached out to another venue. Private-event inquiry follow-up automation fixes that narrow gap: it captures the key details, confirms the inquiry in under a minute, alerts the right person with a usable summary, and keeps the thread moving until a human takes over the actual sales conversation.",
   heroSubtext:
-    "Below: what this workflow should automate, how it differs from broad restaurant automation or a restaurant voice-agent setup, what proof honestly supports it today, and where the human event lead should still stay fully human.",
+    "Below: the concrete 5-step intake-to-handoff workflow, what this automates vs. what stays human, how it connects to your broader restaurant automation stack, and the honest proof frame behind the page.",
   sections: [
     {
       type: "cards",
@@ -37,11 +37,18 @@ const data: DecisionPageData = {
           icon: MessageSquare,
           title: "Capture inquiries from every channel",
           body: "Phone calls, website forms, email, Instagram, and contact-page submissions should all land in one intake path with the core details attached instead of disappearing across separate inboxes.",
+          links: [
+            { label: "After-hours phone answering", href: "/after-hours-phone-answering-for-restaurants" },
+            { label: "Missed-call text-back", href: "/missed-call-text-back-for-restaurants" },
+          ],
         },
         {
           icon: BellRing,
           title: "Send an immediate acknowledgement",
-          body: "A fast first response matters. Automation can confirm that the inquiry was received, set expectation on next steps, and stop the lead from assuming nobody is going to reply.",
+          body: "A fast first response matters. Automation can confirm that the inquiry was received, set expectation on next steps, and stop the lead from assuming nobody is going to reply. Paris Cafe cut web-lead response to under 60 seconds with this same pattern applied to reservations and general inquiries.",
+          links: [
+            { label: "Paris Cafe proof", href: "/case-studies/paris-cafe-voice-agent" },
+          ],
         },
         {
           icon: FileText,
@@ -57,11 +64,42 @@ const data: DecisionPageData = {
           icon: CalendarCheck,
           title: "Trigger reminder and follow-up tasks if the thread stalls",
           body: "If the first outreach goes unanswered or the lead goes quiet, the workflow can prompt the next step instead of relying on memory. That is often the difference between consistent event follow-up and good intentions.",
+          links: [
+            { label: "Reservation reminder workflow", href: "/reservation-confirmation-and-reminder-automation-for-restaurants" },
+          ],
         },
         {
           icon: Send,
           title: "Keep templated outreach narrow and useful",
           body: "Basic next-step messages, availability checks, and information requests can be templated. Custom pricing, negotiation, menu nuance, and relationship-building should stay human-led.",
+        },
+      ],
+    },
+    {
+      type: "prose",
+      title: "The 5-step intake-to-handoff workflow",
+      subtitle:
+        "Most restaurant event follow-up problems trace back to the same five gaps. Here is the concrete sequence automation should cover:",
+      blocks: [
+        {
+          heading: "Step 1 — Funnel every channel into one intake record",
+          body: "Whether the inquiry arrives as a phone call, website form, email, Instagram DM, or voicemail, the workflow normalizes it into a single structured record: contact name, date range, estimated headcount, occasion type, and contact method. If the inquiry came by phone and was handled by a voice agent or missed-call text-back, the transcript or text thread feeds the same record. One source of truth means nothing gets lost between hostess stand, email, and the GM's text messages.",
+        },
+        {
+          heading: "Step 2 — Acknowledge the inquiry in under 60 seconds",
+          body: "An automatic confirmation goes out immediately by the same channel the prospect used: text reply, email, or DM. The message is short and factual — it confirms the request was received, names the person who will follow up, and sets a realistic timeline (e.g., 'Our events manager will reach out within 2 business hours'). This one step alone prevents the single biggest conversion leak: the prospect assuming nobody saw their message and contacting another venue.",
+        },
+        {
+          heading: "Step 3 — Alert the events lead with a usable summary",
+          body: "Instead of a vague forwarded email, the events manager or GM gets a structured notification — Slack message, SMS, or CRM task — with every detail the prospect already provided. The summary includes the inquiry source, requested date, group size, occasion, and any notes. The owner starts the conversation with context instead of re-asking questions the prospect already answered.",
+        },
+        {
+          heading: "Step 4 — Escalate or reassign if the first response window passes",
+          body: "If the assigned person has not responded within the target window (usually 1–2 hours during business hours), the workflow escalates: a second notification goes to a backup owner or the GM. This internal nudge is invisible to the prospect but prevents inquiries from sitting overnight or through a busy weekend shift.",
+        },
+        {
+          heading: "Step 5 — Follow up if the prospect goes quiet",
+          body: "If the events lead sent the first outreach but the prospect has not replied within 24–48 hours, the workflow triggers a single polite follow-up message. After that, it creates a reminder task for the human to decide the next move. The automation stops short of multi-touch nurture sequences — private-event sales are relationship-driven, and over-automated follow-up reads as spam.",
         },
       ],
     },
@@ -157,25 +195,25 @@ const data: DecisionPageData = {
     },
     {
       type: "prose",
-      title: "How a practical restaurant event follow-up workflow usually works",
+      title: "How this workflow connects to your broader restaurant automation stack",
       subtitle:
-        "The strongest version is simple: one intake path, one owner, fast acknowledgement, and clean human handoff.",
+        "Private-event follow-up does not exist in isolation. It works best when it plugs into the other restaurant workflows that are already handling inbound demand.",
       blocks: [
         {
-          heading: "The inquiry lands in one place with structure",
-          body: "Whether the lead came from a form, voicemail, email, or social message, the workflow turns it into one clean record with the key event details attached.",
+          heading: "Phone intake ties into after-hours coverage and missed-call recovery",
+          body: "If event inquiries arrive by phone outside business hours, the same after-hours phone answering or missed-call text-back system that handles reservation calls can capture the event details and feed them into the intake record. You do not need a separate phone system for event leads — just a routing rule that flags the inquiry type.",
         },
         {
-          heading: "The prospect gets an immediate next-step message",
-          body: "A short acknowledgement confirms the request was received and sets a realistic expectation for human follow-up. This protects the lead from going cold in the first hour.",
+          heading: "Reminder logic mirrors reservation confirmation patterns",
+          body: "The same reminder and follow-up logic that drives reservation confirmation and no-show reduction can power the internal nudges and prospect follow-ups in the event workflow. If you already automate reservation reminders, extending that to event-lead stall alerts is a small addition, not a separate project.",
         },
         {
-          heading: "The right person gets notified with context",
-          body: "Instead of a vague forwarded email, the events lead gets a usable summary and can respond from a better starting point. That is where automation saves time without flattening the sales conversation.",
+          heading: "The parent restaurant guide covers where event follow-up fits in the priority stack",
+          body: "If you are evaluating whether private-event follow-up should be your first automation or whether missed calls, reservations, or review requests deserve attention first, the restaurant automation parent guide and the what-to-automate-first decision page lay out that priority logic clearly.",
         },
         {
-          heading: "Reminder logic keeps the lead from disappearing",
-          body: "If the lead is unassigned, unreplied, or waiting on the next step, the workflow can nudge the owner internally or trigger a narrow follow-up sequence. It should reinforce discipline, not replace it.",
+          heading: "Proof from adjacent restaurant workflows applies here",
+          body: "The Paris Cafe deployment proves the operating principle behind this workflow: when a restaurant stops letting inbound demand sit unanswered and routes the next step quickly, response time drops to under 60 seconds and management recovers meaningful weekly hours. Private-event follow-up uses a higher-touch conversation, but the intake-acknowledge-route pattern is identical.",
         },
       ],
     },
@@ -202,6 +240,8 @@ const data: DecisionPageData = {
         { label: "AI automation for restaurants", href: "/ai-automation-for-restaurants" },
         { label: "AI voice agent for restaurants", href: "/ai-voice-agent-for-restaurants" },
         { label: "Paris Cafe case study", href: "/case-studies/paris-cafe-voice-agent" },
+        { label: "What to automate first for restaurants", href: "/what-to-automate-first-for-restaurants" },
+        { label: "After-hours phone answering for restaurants", href: "/after-hours-phone-answering-for-restaurants" },
       ],
     },
   ],
@@ -241,6 +281,9 @@ const data: DecisionPageData = {
     "No fake hospitality-tech hype. Just a practical look at event demand, response lag, and which parts of the process should stay fully human.",
   relatedLinks: [
     { label: "AI automation for restaurants", href: "/ai-automation-for-restaurants" },
+    { label: "What to automate first for restaurants", href: "/what-to-automate-first-for-restaurants" },
+    { label: "After-hours phone answering for restaurants", href: "/after-hours-phone-answering-for-restaurants" },
+    { label: "Missed-call text-back for restaurants", href: "/missed-call-text-back-for-restaurants" },
     { label: "AI voice agent for restaurants", href: "/ai-voice-agent-for-restaurants" },
     { label: "Reservation confirmation and reminder automation", href: "/reservation-confirmation-and-reminder-automation-for-restaurants" },
     { label: "Paris Cafe case study", href: "/case-studies/paris-cafe-voice-agent" },
