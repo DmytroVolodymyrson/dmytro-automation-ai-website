@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `missed-call-text-back-vs-voicemail-for-solar-companies` — the lighter fallback comparison page for the solar phone cluster. The solar cluster already had the base missed-call text-back page, AI phone answering, and AI phone vs voicemail. This fills the missing SMS-vs-voicemail layer. The sibling `/missed-call-text-back-vs-ai-phone-answering-for-solar-companies` is the next plausible candidate if the cluster warrants the lighter-vs-heavier SMS/AI comparison.)
+Last updated: 2026-04-26 (shipped `/missed-call-text-back-vs-ai-phone-answering-for-solar-companies` — the missing lighter-vs-heavier buyer-decision page in the solar phone cluster. The cluster already had the parent solar page, the missed-call text-back page, the voicemail fallback comparison, and the heavier AI-phone-vs-voicemail comparison. This new page now isolates the exact buyer question: when SMS-first recovery is enough and when the solar team has outgrown it and needs live AI phone answering. During reconciliation, the roadmap also surfaced a stale false-live entry: `/ai-lead-follow-up-for-pest-control-companies` is still unshipped and is now the clearest next candidate.)
 
 ## Live GEO Assets
 
@@ -124,6 +124,7 @@ Last updated: 2026-04-26 (shipped `missed-call-text-back-vs-voicemail-for-solar-
 | AI Phone vs Voicemail (Solar) | `/ai-phone-answering-vs-voicemail-for-solar-companies` | Vertical comparison page | Live |
 | Missed Call Text-Back (Solar) | `/missed-call-text-back-for-solar-companies` | Vertical workflow page | Live |
 | Text-Back vs Voicemail (Solar) | `/missed-call-text-back-vs-voicemail-for-solar-companies` | Vertical comparison page | Live |
+| Text-Back vs AI Phone (Solar) | `/missed-call-text-back-vs-ai-phone-answering-for-solar-companies` | Vertical comparison page | Live |
 | AI for Accounting Firms | `/ai-automation-for-accounting-firms` | Vertical category page | Live |
 | Document Collection (Accounting) | `/document-collection-automation-for-accounting-firms` | Vertical workflow page | Live |
 | Client Onboarding (Accounting) | `/client-onboarding-automation-for-accounting-firms` | Vertical workflow page | Live |
@@ -200,7 +201,6 @@ Last updated: 2026-04-26 (shipped `missed-call-text-back-vs-voicemail-for-solar-
 | Referral Request (Painting) | `/referral-request-automation-for-painting-contractors` | Vertical workflow page | Live |
 | AI for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Vertical category page | Live |
 | What to Automate First (Pest Control) | `/what-to-automate-first-for-pest-control-companies` | Vertical decision page | Live |
-| AI Lead Follow-Up (Pest Control) | `/ai-lead-follow-up-for-pest-control-companies` | Vertical workflow page | Live |
 | Recurring Service Reminders | `/recurring-service-reminder-automation-for-pest-control-companies` | Vertical workflow page | Live |
 | Seasonal Campaigns (Pest Control) | `/seasonal-campaign-automation-for-pest-control-companies" | Vertical workflow page | Live |
 | Urgent Lead Follow-Up (Pest Control) | `/urgent-lead-follow-up-for-pest-control-companies` | Vertical workflow page | Live |
@@ -252,9 +252,9 @@ Last updated: 2026-04-26 (shipped `missed-call-text-back-vs-voicemail-for-solar-
 
 ## Next Pages
 
-The solar phone cluster now has the full lighter comparison layer (text-back vs voicemail). The sibling `/missed-call-text-back-vs-ai-phone-answering-for-solar-companies` (lighter-vs-heavier SMS/AI choice) is the most obvious remaining gap in that cluster. Beyond solar, the next run should do broad cross-cluster reconciliation so the next ship is chosen from a genuinely distinct buyer-intent gap.
+The solar phone cluster now has both fallback-comparison layers live: text-back vs voicemail and text-back vs AI phone answering. A fresh reconciliation found the cleanest remaining high-intent gap elsewhere: the pest-control cluster already has the parent page, the first-project page, recurring reminders, seasonal campaigns, urgent lead follow-up, reviews, and the phone-recovery pages, but it still does not have the broader early-funnel child `/ai-lead-follow-up-for-pest-control-companies` even though the roadmap had drifted into treating it as live.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `/missed-call-text-back-vs-ai-phone-answering-for-solar-companies` | The solar cluster now has text-back, text-back-vs-voicemail, AI phone, and AI-phone-vs-voicemail. The missing sibling is the lighter-vs-heavier choice: should the solar company stick with SMS-first recovery or upgrade to live AI phone answering? | Next candidate if solar cluster is prioritized |
-| 2 | Broad cross-cluster reconciliation | Re-check planning docs, tracked prompts, and live routes/pages to find the strongest remaining distinct child, parent, pricing, or setup-help page across all clusters without forcing another solar page by inertia. | Primary guardrail |
+| 1 | `/ai-lead-follow-up-for-pest-control-companies` | Strong early-funnel buyer intent, clear fit inside an already-live pest-control cluster, and a distinct lifecycle stage that is still missing from routes/pages while the roadmap previously misclassified it as shipped. | Best next candidate after reconciliation |
+| 2 | Broad cross-cluster reconciliation | Re-check live routes/pages against roadmap and tracked prompts again after the pest-control lead-follow-up page ships so the next choice comes from a real remaining gap instead of another stale false-live assumption. | Ongoing guardrail |

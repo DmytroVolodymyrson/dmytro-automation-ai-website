@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-26-missed-call-text-back-vs-ai-phone-answering-for-solar-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-26",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back vs. AI Phone Answering for Solar Companies\nBody: If your solar company is losing calls, the real decision is not whether automation sounds advanced. It is whether a lighter missed-call text-back workflow is enough or whether you need live AI phone answering. Text-back is the narrower fallback: the call is missed, an SMS goes out immediately, and simpler consultation demand gets recovered before the homeowner calls the next installer. AI phone answering is the heavier option: the call gets answered live, routine qualification questions get handled on the spot, and straightforward booking or callback intake can start right there instead of waiting for a text thread later. The right choice depends on call pattern, office workload, after-hours demand, and how often callers actually need a real answer now instead of a fast acknowledgement.\nSub: Below: where each option fits for a solar company, where solar teams overbuild, where they underbuild, and what the existing solar plus phone-coverage proof honestly supports.\n\n### Core sections\n- What each option is really trying to solve\n- Side-by-side comparison for solar companies\n- When each option makes sense\n- Good fit and bad fit signals\n- The mistakes solar companies make when choosing\n- What proof honestly supports this comparison\n\n### FAQ\nSubhead: Straight answers for solar owners deciding between SMS-first recovery and live AI phone coverage\nTopics: whether missed-call text-back is cheaper than AI phone answering for a solar company, when a solar company should skip text-back and go straight to live AI phone answering, whether homeowners will actually reply to a missed-call text from a solar company, whether AI phone answering replaces the office or sales team, and the safest way to choose between the two layers.\n\n### Final CTA\nHeading: Need help choosing the right phone-recovery layer for your solar company?\nBody: Book a 30-minute call. We will look at your missed-call pattern, where consultation demand is leaking, and whether a focused text-back workflow or live AI phone answering is the better first move for your company.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the missing lighter-vs-heavier buyer-decision page inside the existing solar phone cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Built to stay distinct from `/missed-call-text-back-vs-voicemail-for-solar-companies` by focusing on SMS-first recovery versus live AI phone coverage instead of the voicemail fallback question."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Built to stay distinct from `/ai-phone-answering-vs-voicemail-for-solar-companies` by treating voicemail as adjacent context, not the primary comparison target."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live solar cluster, the solar AI phone-answering page, the broader service-business phone-answering guide, and the Paris Cafe call-handling case study support the pattern without pretending there is already a solar-specific comparison case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Reconciliation during this ship also exposed that `/ai-lead-follow-up-for-pest-control-companies` is still unshipped even though `docs/geo-roadmap.md` had drifted into listing it as live; that page is now the cleanest next candidate."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T00:09:29.699Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 28.2,
+      "sentenceLengthRange": [
+        5,
+        78
+      ],
+      "totalWords": 338
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Missed Call Text-Back vs.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help choosing the right phone-recovery layer for your solar company?\nBody: Book a 30-minute call. We will look at your missed-call pattern, where consultation demand is leaking, and whether a focused text-back workflow or live AI phone answering is the better first move for your company.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 17,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 10,
+      "commasPerSentence": 1.55
+    },
+    "vocabulary": {
+      "distinctWords": 171,
+      "totalWords": 338,
+      "topWords": [
+        [
+          "solar",
+          12
+        ],
+        [
+          "ai",
+          8
+        ],
+        [
+          "phone",
+          8
+        ],
+        [
+          "answering",
+          7
+        ],
+        [
+          "company",
+          7
+        ],
+        [
+          "whether",
+          7
+        ],
+        [
+          "text-back",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "call",
+          5
+        ],
+        [
+          "live",
+          5
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "missed-call",
+          4
+        ],
+        [
+          "option",
+          4
+        ],
+        [
+          "where",
+          4
+        ],
+        [
+          "companies",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.009
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
