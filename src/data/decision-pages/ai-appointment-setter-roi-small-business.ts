@@ -82,21 +82,37 @@ const data: DecisionPageData = {
           icon: TrendingUp,
           title: "1. Start with the real leak",
           body: "Look at how many inquiries currently wait too long for a response, arrive after hours, or never get booked cleanly because the team is busy. That is the opportunity pool. Do not model ROI on total lead volume if only a slice of that volume is actually recoverable.",
+          links: [
+            { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
+            { label: "AI voice agent vs. manual callback", href: "/ai-voice-agent-vs-manual-callback-for-service-businesses" },
+          ],
         },
         {
           icon: CalendarCheck,
           title: "2. Count booked outcomes, not generic engagement",
           body: "The meaningful metric is not whether someone replied to an AI. It is whether a qualified consult, estimate, appointment, or next-step call got booked that probably would have been delayed or missed otherwise.",
+          links: [
+            { label: "AI voice agent vs. human appointment setter", href: "/ai-voice-agent-vs-human-appointment-setter" },
+            { label: "AI appointment setter for home service businesses", href: "/ai-appointment-setter-for-home-service-businesses" },
+          ],
         },
         {
           icon: Clock,
           title: "3. Add back saved admin time separately",
           body: "If staff or the owner currently spend 5–10 hours per week on repetitive booking replies, reminder follow-up, reschedules, and manual CRM updates, that time has value too. ROI is not only new revenue; it is avoided operational drag.",
+          links: [
+            { label: "AI appointment setter cost for small business", href: "/ai-appointment-setter-cost-small-business" },
+            { label: "AI voice agent for lead qualification", href: "/ai-voice-agent-lead-qualification" },
+          ],
         },
         {
           icon: BarChart3,
           title: "4. Keep the payback test modest",
           body: "A cautious model is enough: one or two additional qualified bookings per month plus a few hours of recovered admin time. If that conservative case already covers a meaningful chunk of the monthly spend or pays back setup quickly, the project is probably worth deeper review.",
+          links: [
+            { label: "AI appointment setter setup help", href: "/ai-appointment-setter-setup" },
+            { label: "AI appointment setter cost for small business", href: "/ai-appointment-setter-cost-small-business" },
+          ],
         },
       ],
     },
@@ -164,7 +180,7 @@ const data: DecisionPageData = {
       type: "case-studies",
       title: "Proof and adjacent proof",
       subtitle:
-        "This page is grounded in direct and adjacent proof already on the site. The exact workflows differ, but the economics are the same: faster first response, cleaner qualification, and more reliable handoff create the value.",
+        "This page is grounded in direct and adjacent proof already on the site. The exact workflows differ, but the economics are the same: faster first response, cleaner qualification, and more reliable handoff create the value. The strongest examples on dmytroai.com all come back to the same sequence: answer now, qualify cleanly, and move the lead to a booked next step before intent cools.",
       studies: [
         {
           industry: "Restaurant / inbound phone coverage",
@@ -173,10 +189,10 @@ const data: DecisionPageData = {
           link: "/case-studies/paris-cafe-voice-agent",
         },
         {
-          industry: "Appointment-setting economics",
-          headline: "The pricing guide already shows what the ROI model is buying",
-          body: "The appointment-setter cost page breaks down where money actually goes: calendar rules, qualification logic, CRM handoff, voice vs. text complexity, and post-launch tuning. This ROI page focuses on when that spend pays back.",
-          link: "/ai-appointment-setter-cost-small-business",
+          industry: "Response-time economics",
+          headline: "The instant-response guide explains why a sub-60-second reply matters",
+          body: "The instant lead response page turns the ROI logic into plain operating math: if faster first contact changes whether the lead even stays in play, then booked outcomes improve before you need heroic closing-rate assumptions. That framing is often the clearest way to judge whether an appointment setter pays back.",
+          link: "/instant-lead-response-automation",
         },
         {
           industry: "Implementation scope",
@@ -189,6 +205,8 @@ const data: DecisionPageData = {
         { label: "AI appointment setter", href: "/ai-appointment-setter" },
         { label: "AI appointment setter cost for small business", href: "/ai-appointment-setter-cost-small-business" },
         { label: "AI appointment setter setup help", href: "/ai-appointment-setter-setup" },
+        { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
+        { label: "AI voice agent vs. manual callback", href: "/ai-voice-agent-vs-manual-callback-for-service-businesses" },
         { label: "AI appointment setter for home service businesses", href: "/ai-appointment-setter-for-home-service-businesses" },
       ],
     },
@@ -251,8 +269,10 @@ const data: DecisionPageData = {
     { label: "AI appointment setter", href: "/ai-appointment-setter" },
     { label: "AI appointment setter cost for small business", href: "/ai-appointment-setter-cost-small-business" },
     { label: "AI appointment setter setup help", href: "/ai-appointment-setter-setup" },
-    { label: "AI appointment setter vs. receptionist", href: "/ai-appointment-setter-vs-receptionist" },
-    { label: "Guides hub", href: "/guides" },
+    { label: "AI voice agent vs. human appointment setter", href: "/ai-voice-agent-vs-human-appointment-setter" },
+    { label: "AI voice agent vs. manual callback", href: "/ai-voice-agent-vs-manual-callback-for-service-businesses" },
+    { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
+    { label: "AI appointment setter for home service businesses", href: "/ai-appointment-setter-for-home-service-businesses" },
   ],
 };
 

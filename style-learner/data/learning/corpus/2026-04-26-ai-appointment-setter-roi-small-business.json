@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-26-ai-appointment-setter-roi-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-26",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "### A conservative ROI model\nThe ROI-model cards now point readers to the pages that prove or operationalize each assumption instead of leaving the math abstract.\n\n1. Start with the real leak\nBody: Look at how many inquiries currently wait too long for a response, arrive after hours, or never get booked cleanly because the team is busy. That is the opportunity pool. Do not model ROI on total lead volume if only a slice of that volume is actually recoverable.\nLinks:\n- Instant lead response automation — /instant-lead-response-automation\n- AI voice agent vs. manual callback — /ai-voice-agent-vs-manual-callback-for-service-businesses\n\n2. Count booked outcomes, not generic engagement\nBody: The meaningful metric is not whether someone replied to an AI. It is whether a qualified consult, estimate, appointment, or next-step call got booked that probably would have been delayed or missed otherwise.\nLinks:\n- AI voice agent vs. human appointment setter — /ai-voice-agent-vs-human-appointment-setter\n- AI appointment setter for home service businesses — /ai-appointment-setter-for-home-service-businesses\n\n3. Add back saved admin time separately\nBody: If staff or the owner currently spend 5–10 hours per week on repetitive booking replies, reminder follow-up, reschedules, and manual CRM updates, that time has value too. ROI is not only new revenue; it is avoided operational drag.\nLinks:\n- AI appointment setter cost for small business — /ai-appointment-setter-cost-small-business\n- AI voice agent for lead qualification — /ai-voice-agent-lead-qualification\n\n4. Keep the payback test modest\nBody: A cautious model is enough: one or two additional qualified bookings per month plus a few hours of recovered admin time. If that conservative case already covers a meaningful chunk of the monthly spend or pays back setup quickly, the project is probably worth deeper review.\nLinks:\n- AI appointment setter setup help — /ai-appointment-setter-setup\n- AI appointment setter cost for small business — /ai-appointment-setter-cost-small-business\n\n### Proof and adjacent proof\nSubtitle: This page is grounded in direct and adjacent proof already on the site. The exact workflows differ, but the economics are the same: faster first response, cleaner qualification, and more reliable handoff create the value. The strongest examples on dmytroai.com all come back to the same sequence: answer now, qualify cleanly, and move the lead to a booked next step before intent cools.\n\nCards:\n1. Paris Café proves the value of handling booking intent immediately\nBody: The Paris Café case study shows the front-end ROI logic clearly: after-hours calls stopped dying in voicemail, callers got a live answer in under 60 seconds, and management got back roughly 15 hours per week. Different vertical, same appointment-speed math.\nLink: /case-studies/paris-cafe-voice-agent\n\n2. The instant-response guide explains why a sub-60-second reply matters\nBody: The instant lead response page turns the ROI logic into plain operating math: if faster first contact changes whether the lead even stays in play, then booked outcomes improve before you need heroic closing-rate assumptions. That framing is often the clearest way to judge whether an appointment setter pays back.\nLink: /instant-lead-response-automation\n\n3. The setup-help page explains why narrow scope wins first\nBody: The setup guide is adjacent proof for the ROI decision because many small businesses do not need a huge system. They need one booking workflow that works reliably inside real operating rules. That scope discipline is often what makes the economics attractive.\nLink: /ai-appointment-setter-setup\n\n### Related links\nThe footer links now stay inside the appointment-setter / response-speed cluster:\n- /ai-appointment-setter\n- /ai-appointment-setter-cost-small-business\n- /ai-appointment-setter-setup\n- /ai-voice-agent-vs-human-appointment-setter\n- /ai-voice-agent-vs-manual-callback-for-service-businesses\n- /instant-lead-response-automation\n- /ai-appointment-setter-for-home-service-businesses",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Keep ROI copy practical and decision-oriented, not inspirational."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Use internal links to turn abstract ROI talk into concrete next reads."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Favor response-speed and booking examples over vague automation benefits."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Stay grounded in live site proof only; no invented conversion lifts or payback claims."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keep cluster navigation tight around appointment setter, voice qualification, and speed-to-lead pages."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T05:14:33.632Z",
+    "structure": {
+      "paragraphCount": 10,
+      "sentencesPerParagraph": [
+        1,
+        6,
+        5,
+        4,
+        4,
+        3,
+        4,
+        4,
+        5,
+        1
+      ],
+      "avgSentenceLength": 15,
+      "sentenceLengthRange": [
+        1,
+        46
+      ],
+      "totalWords": 556
+    },
+    "opener": {
+      "type": "general",
+      "text": "### A conservative ROI model\nThe ROI-model cards now point readers to the pages that prove or operationalize each assumption instead of leaving the math abstract.",
+      "wordCount": 25,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Related links\nThe footer links now stay inside the appointment-setter / response-speed cluster:\n- /ai-appointment-setter\n- /ai-appointment-setter-cost-small-business\n- /ai-appointment-setter-setup\n- /ai-voice-agent-vs-human-appointment-setter\n- /ai-voice-agent-vs-manual-callback-for-service-businesses\n- /instant-lead-response-automation\n- /ai-appointment-setter-for-home-service-businesses",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "product-pitch",
+        "context",
+        "context",
+        "result",
+        "result",
+        "result",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | product-pitch | context | context | result | result | result | closer"
+    },
+    "punctuation": {
+      "periods": 30,
+      "commas": 20,
+      "emDashes": 8,
+      "enDashes": 1,
+      "hyphens": 15,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 22,
+      "commasPerSentence": 0.67
+    },
+    "vocabulary": {
+      "distinctWords": 290,
+      "totalWords": 556,
+      "topWords": [
+        [
+          "-",
+          15
+        ],
+        [
+          "that",
+          9
+        ],
+        [
+          "ai",
+          8
+        ],
+        [
+          "body",
+          7
+        ],
+        [
+          "appointment",
+          7
+        ],
+        [
+          "roi",
+          6
+        ],
+        [
+          "lead",
+          6
+        ],
+        [
+          "links",
+          6
+        ],
+        [
+          "setter",
+          6
+        ],
+        [
+          "booked",
+          5
+        ],
+        [
+          "not",
+          5
+        ],
+        [
+          "back",
+          5
+        ],
+        [
+          "response",
+          4
+        ],
+        [
+          "hours",
+          4
+        ],
+        [
+          "if",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
