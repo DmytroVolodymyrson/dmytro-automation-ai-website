@@ -38,7 +38,7 @@ Missed-call text-back vs. voicemail for restaurants — practical restaurant buy
 Review request automation for restaurants — post-visit reputation follow-up that times the ask after the guest experience lands, routes unhappy replies before a public review push, and turns completed visits into consistent local-trust signals. Learn more: https://www.dmytroai.com/review-request-automation-for-restaurants
 
 ## Restaurant Automation Guide
-AI automation for restaurants — reservation capture, missed-call coverage, private-event inquiry follow-up, review requests, and guest communication systems that reduce front-of-house interruption without pretending AI should replace hospitality. Grounded in the live Paris Cafe restaurant case study. Learn more: https://www.dmytroai.com/ai-automation-for-restaurants
+AI automation for restaurants — the canonical restaurant cluster hub covering what to automate first, missed-call recovery, after-hours phone coverage, reservation capture, private-event inquiry follow-up, review requests, and guest communication systems that reduce front-of-house interruption without pretending AI should replace hospitality. Grounded in the live Paris Cafe restaurant case study and linked to the deeper restaurant workflow guides. Learn more: https://www.dmytroai.com/ai-automation-for-restaurants
 
 ## What to Automate First for Restaurants
 Practical restaurant-first-project guide for owners deciding whether the first workflow should be missed-call recovery, reservation reminders, private-event inquiry follow-up, or after-hours phone answering before a broader automation rollout. Grounded in the live restaurant cluster plus the Paris Cafe case study. Learn more: https://www.dmytroai.com/what-to-automate-first-for-restaurants

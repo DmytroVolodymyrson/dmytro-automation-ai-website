@@ -24,10 +24,46 @@ const data: DecisionPageData = {
   badgeIcon: UtensilsCrossed,
   h1: "AI Automation for Restaurants",
   heroIntro:
-    "Most restaurants do not need 'AI everywhere.' They need fewer missed calls, faster reservation handling, better after-hours coverage, and less front-of-house time wasted on repetitive phone traffic. AI automation is useful in restaurants when it fixes those operational leaks directly: answering calls during service, capturing reservation demand after hours, following up on private-event inquiries, and triggering guest communication without someone remembering every step manually.",
+    "The restaurant automations worth building are narrow: missed-call recovery, after-hours phone coverage, reservation capture, private-event inquiry follow-up, confirmation and reminder sequences, and review requests. Most restaurants do not need 'AI everywhere.' They need the specific workflow that matches their biggest operational leak — and they need it doing one job well before expanding.",
   heroSubtext:
-    "Below: what is actually worth automating in a restaurant, where the ROI usually appears first, when to keep things manual, and how the Paris Cafe build translates into a broader restaurant operations playbook without pretending every concept needs the same setup.",
+    "This page is the starting point for the full restaurant automation cluster. Below: what to automate, where ROI shows up first, when to keep things manual, and how the Paris Cafe case study translates into a broader restaurant playbook. Each workflow links to a deeper implementation guide.",
   sections: [
+    {
+      type: "cards",
+      title: "Deeper guides by restaurant workflow",
+      subtitle:
+        "This page covers the full picture. Each workflow below has its own guide with implementation detail, decision criteria, and proof:",
+      items: [
+        {
+          icon: ArrowUpRight,
+          title: "Getting started",
+          body: "Not sure which workflow to build first? The first-project guide walks through choosing between missed-call recovery, reservation reminders, private-event follow-up, and after-hours coverage based on where your restaurant is losing the most demand right now.",
+          links: [
+            { label: "What to automate first", href: "/what-to-automate-first-for-restaurants" },
+            { label: "AI voice agent guide", href: "/ai-voice-agent-for-restaurants" },
+          ],
+        },
+        {
+          icon: Phone,
+          title: "Phone and call recovery",
+          body: "Missed calls during service, after-hours voicemail dead ends, and overflow during rushes each have a different best response. These guides break down when live AI answering, text-back, or a lighter fallback makes the most sense.",
+          links: [
+            { label: "Missed call text-back", href: "/missed-call-text-back-for-restaurants" },
+            { label: "After-hours answering", href: "/after-hours-phone-answering-for-restaurants" },
+          ],
+        },
+        {
+          icon: CalendarCheck,
+          title: "Guest communication and follow-up",
+          body: "Reservation confirmations, private-event inquiry routing, and post-visit review requests all benefit from automation — but each has different timing, tone, and handoff requirements.",
+          links: [
+            { label: "Reservation confirmations", href: "/reservation-confirmation-and-reminder-automation-for-restaurants" },
+            { label: "Private event follow-up", href: "/private-event-inquiry-follow-up-for-restaurants" },
+            { label: "Review request automation", href: "/review-request-automation-for-restaurants" },
+          ],
+        },
+      ],
+    },
     {
       type: "cards",
       title: "What is actually worth automating in a restaurant",
@@ -47,11 +83,17 @@ const data: DecisionPageData = {
           icon: CalendarCheck,
           title: "Reservation capture and confirmation",
           body: "Automation can collect party size, date, time, and callback details, then confirm or route the request into your booking workflow. This is usually the clearest revenue-protection use case.",
+          links: [
+            { label: "Reservation confirmation and reminder automation", href: "/reservation-confirmation-and-reminder-automation-for-restaurants" },
+          ],
         },
         {
           icon: MessageSquare,
           title: "Private-event and large-party inquiry follow-up",
           body: "These leads often go cold because nobody follows up quickly enough. Automation can log the inquiry, notify the right person, and trigger the first response without making the whole process feel robotic.",
+          links: [
+            { label: "Private event inquiry follow-up", href: "/private-event-inquiry-follow-up-for-restaurants" },
+          ],
         },
         {
           icon: Clock,
@@ -62,6 +104,9 @@ const data: DecisionPageData = {
           icon: Star,
           title: "Review and return-visit follow-up",
           body: "Post-visit messages, review requests, and light win-back campaigns are useful when they are timed well and tied to real guest interactions instead of generic blasts.",
+          links: [
+            { label: "Review request automation", href: "/review-request-automation-for-restaurants" },
+          ],
         },
         {
           icon: Bot,
@@ -237,12 +282,16 @@ const data: DecisionPageData = {
     "No generic AI pitch. No fake restaurant-tech promises. Just a practical conversation about missed demand, service pressure, and what should stay human.",
   relatedLinks: [
     { label: "Paris Cafe case study", href: "/case-studies/paris-cafe-voice-agent" },
+    { label: "What to automate first for restaurants", href: "/what-to-automate-first-for-restaurants" },
     { label: "AI voice agent for restaurants", href: "/ai-voice-agent-for-restaurants" },
     { label: "Missed call text-back for restaurants", href: "/missed-call-text-back-for-restaurants" },
     { label: "After-hours phone answering for restaurants", href: "/after-hours-phone-answering-for-restaurants" },
     { label: "Private event inquiry follow-up for restaurants", href: "/private-event-inquiry-follow-up-for-restaurants" },
     { label: "Reservation confirmation and reminder automation", href: "/reservation-confirmation-and-reminder-automation-for-restaurants" },
     { label: "Review request automation for restaurants", href: "/review-request-automation-for-restaurants" },
+    { label: "Best AI automation for service businesses", href: "/best-ai-automation-for-service-businesses" },
+    { label: "Browse all guides", href: "/guides" },
+    { label: "Browse case studies", href: "/case-studies" },
   ],
 };
 
