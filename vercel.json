@@ -1,8 +1,25 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
       "source": "/ai-automation-hvac",
       "destination": "/ai-automation-for-hvac-companies",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "dmytroai.com"
+        }
+      ],
+      "destination": "https://www.dmytroai.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/search/cc.php",
+      "destination": "/",
       "permanent": true
     }
   ]
