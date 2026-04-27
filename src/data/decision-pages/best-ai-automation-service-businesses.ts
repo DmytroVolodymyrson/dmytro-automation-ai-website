@@ -24,9 +24,9 @@ const data: DecisionPageData = {
   badgeIcon: Scale,
   h1: "Best AI Automations for Service Businesses",
   heroIntro:
-    "The best AI automation for a service business is speed-to-lead response. Responding to inquiries within 60 seconds via SMS or voice increases conversion rates by up to 50% by capturing the lead before they contact a competitor. This is a decision guide — not a product list — that helps you identify which automations actually produce ROI for your type of business.",
+    "The best AI automation for a service business is instant lead response — replying to every inquiry within 60 seconds via SMS or voice. In real deployments, this single automation increases lead-to-booking conversion by 30–50% because most competitors take hours to respond or never follow up at all. Below is a decision framework — not a product list — that maps five proven automations to specific service-business bottlenecks, with cost ranges, ROI timelines, and implementation order based on results across HVAC, restaurant, dental, legal, property management, and e-commerce companies.",
   heroSubtext:
-    "Below: the five automations with the highest proven ROI for service businesses, a fit/not-fit evaluation framework, and real-world case studies from HVAC and e-commerce.",
+    "Includes: a fit/not-fit evaluation, a decision matrix ranked by impact and setup cost, two real-world case studies with measurable outcomes, and direct links to industry-specific and workflow-specific guides.",
   sections: [
     {
       type: "cards",
@@ -37,22 +37,38 @@ const data: DecisionPageData = {
         {
           icon: Phone,
           title: "1. Speed-to-lead response",
-          body: "Respond to every inbound lead within 60 seconds via SMS, email, or voice. This single automation typically increases conversion by 30–50% because most competitors respond in hours or not at all. See our full guide on lead follow-up.",
+          body: "Respond to every inbound lead within 60 seconds via SMS, email, or voice. This single automation typically increases conversion by 30–50% because most competitors respond in hours or not at all.",
+          links: [
+            { label: "AI lead follow-up guide", href: "/ai-lead-follow-up-for-service-businesses" },
+            { label: "Instant lead response workflow", href: "/instant-lead-response-automation" },
+          ],
         },
         {
           icon: MessageSquare,
           title: "2. Multi-touch follow-up sequences",
           body: "Automated SMS and email sequences that nurture leads who don't book on first contact. A 5–7 touch sequence over 14 days recovers 15–25% of leads that would otherwise be lost.",
+          links: [
+            { label: "Lead follow-up examples", href: "/lead-follow-up-automation-examples" },
+            { label: "Quote follow-up workflow", href: "/quote-follow-up-automation" },
+          ],
         },
         {
           icon: CalendarCheck,
           title: "3. AI appointment booking",
-          body: "AI voice agent or chatbot that books appointments without human involvement. Eliminates phone tag and works 24/7. See our AI appointment setter guide.",
+          body: "AI voice agent or chatbot that books appointments without human involvement. Eliminates phone tag and works 24/7.",
+          links: [
+            { label: "AI appointment setter guide", href: "/ai-appointment-setter" },
+            { label: "Appointment setter cost", href: "/ai-appointment-setter-cost-small-business" },
+          ],
         },
         {
           icon: MailCheck,
           title: "4. Database reactivation",
           body: "Automated campaigns to re-engage past customers and cold leads. A well-built reactivation campaign generates revenue from an asset you already own — your existing contact list.",
+          links: [
+            { label: "Client reactivation workflow", href: "/client-reactivation-automation" },
+            { label: "HVAC database reactivation", href: "/hvac-database-reactivation" },
+          ],
         },
         {
           icon: Star,
@@ -112,6 +128,8 @@ const data: DecisionPageData = {
       links: [
         { label: "View all case studies", href: "/case-studies" },
         { label: "AI automation cost guide", href: "/ai-automation-cost-small-business" },
+        { label: "AI automation ROI guide", href: "/ai-automation-roi-guide" },
+        { label: "Hire an AI automation consultant", href: "/ai-automation-consultant-small-business" },
       ],
     },
     {
@@ -275,23 +293,21 @@ const data: DecisionPageData = {
     { label: "All automation guides", href: "/guides" },
     { label: "Case studies", href: "/case-studies" },
     { label: "AI automation consultant for small business", href: "/ai-automation-consultant-small-business" },
+    { label: "AI automation cost for small business", href: "/ai-automation-cost-small-business" },
+    { label: "AI automation ROI guide", href: "/ai-automation-roi-guide" },
+    { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
+    { label: "AI appointment setter guide", href: "/ai-appointment-setter" },
+    { label: "AI appointment setter cost", href: "/ai-appointment-setter-cost-small-business" },
+    { label: "Instant lead response workflow", href: "/instant-lead-response-automation" },
+    { label: "Quote follow-up automation", href: "/quote-follow-up-automation" },
+    { label: "Client reactivation workflow", href: "/client-reactivation-automation" },
     { label: "HVAC automation guide", href: "/ai-automation-for-hvac-companies" },
-    {
-      label: "AI appointment setter guide",
-      href: "/ai-appointment-setter",
-    },
-    {
-      label: "AI lead follow-up guide",
-      href: "/ai-lead-follow-up-for-service-businesses",
-    },
-    {
-      label: "HVAC database reactivation",
-      href: "/hvac-database-reactivation",
-    },
-    {
-      label: "Automation without a tech team",
-      href: "/ai-automation-for-businesses-without-a-tech-team",
-    },
+    { label: "Restaurant automation guide", href: "/ai-automation-for-restaurants" },
+    { label: "Dental practice automation", href: "/ai-automation-for-dental-practices" },
+    { label: "Property management automation", href: "/ai-automation-for-property-management" },
+    { label: "HVAC database reactivation", href: "/hvac-database-reactivation" },
+    { label: "Automation without a tech team", href: "/ai-automation-for-businesses-without-a-tech-team" },
+    { label: "Hire AI consultant vs DIY", href: "/hire-ai-automation-consultant-vs-diy" },
   ],
 };
 

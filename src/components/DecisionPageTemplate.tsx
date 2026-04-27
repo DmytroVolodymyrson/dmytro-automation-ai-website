@@ -49,6 +49,7 @@ export interface CardItem {
   icon: LucideIcon;
   title: string;
   body: string;
+  links?: RelatedLink[];
 }
 
 export interface ComparisonRow {
@@ -177,6 +178,20 @@ const CardsSection = ({ section }: { section: Extract<PageSection, { type: "card
           <p className="text-sm text-muted-foreground leading-relaxed">
             {item.body}
           </p>
+          {item.links && item.links.length > 0 && (
+            <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1">
+              {item.links.map((link) => (
+                <Link
+                  key={link.href}
+                  to={link.href}
+                  className="text-sm font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+                >
+                  {link.label}
+                  <ArrowRight className="w-3 h-3" />
+                </Link>
+              ))}
+            </div>
+          )}
         </motion.div>
       ))}
     </div>
