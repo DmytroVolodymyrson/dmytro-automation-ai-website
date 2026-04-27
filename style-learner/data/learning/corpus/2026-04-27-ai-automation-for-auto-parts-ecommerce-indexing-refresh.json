@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-ai-automation-for-auto-parts-ecommerce-indexing-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for Auto Parts E-Commerce\nBody: AI automation is usually worth it for an auto parts brand when one of four leaks is already expensive: mixed customer inquiries buried in one queue, fitment questions losing momentum because context is missing, quote conversations dying after pricing goes out, or old inquiry-stage leads sitting untouched in the CRM. WheelsFeels is the clearest proof on this site. Dmytro built a CRM and follow-up system for a US auto parts brand that organized 5,600+ contacts, triggered automated email follow-up, and pushed high-intent replies into Slack so the team could act faster. The practical lesson is not that every store needs a giant rebuild. It is that auto parts operations usually improve fastest when one of those revenue-critical workflows gets cleaned up end-to-end first.\nSub: Below: the auto-parts workflows that are actually worth automating, how to decide between mixed inquiry routing, fitment intake, quote follow-up, and stale-lead recovery, and which related guides to read next before you force a broader CRM rollout.\n\n### Updated proof / adjacent-links area\nSection: Relevant proof\n- Keeps the existing WheelsFeels case-study card and adjacent workflow proof framing.\n- Replaces the weak generic support-link row with a tighter live cluster:\n  - /what-to-automate-first-for-auto-parts-ecommerce\n  - /customer-inquiry-automation-for-auto-parts-ecommerce\n  - /fitment-inquiry-automation-for-auto-parts-ecommerce\n  - /quote-follow-up-automation-for-auto-parts-ecommerce\n  - /stale-lead-follow-up-for-auto-parts-ecommerce\n  - /repeat-purchase-reactivation-automation-for-auto-parts-ecommerce\n  - /ai-automation-ecommerce\n  - /case-studies/ecommerce-crm-automation\n\n### Updated related-links block\nSection: Bottom related links\n- Replaces the looser mix of generic links with a denser parent/child cluster:\n  - first-project scoping page\n  - inquiry-routing child\n  - fitment child\n  - quote follow-up child\n  - stale-lead child\n  - repeat-purchase/reactivation child\n  - WheelsFeels case study\n  - broader e-commerce parent\n  - best-ai-automation-for-service-businesses\n  - /guides\n\n### New case-study internal-link section\nPage: /case-studies/ecommerce-crm-automation\n- Adds a new section: “If you run an auto parts brand, start with these guides.”\n- Includes clickable cards for:\n  - /ai-automation-for-auto-parts-ecommerce\n  - /what-to-automate-first-for-auto-parts-ecommerce\n  - /customer-inquiry-automation-for-auto-parts-ecommerce\n  - /fitment-inquiry-automation-for-auto-parts-ecommerce\n  - /quote-follow-up-automation-for-auto-parts-ecommerce\n  - /stale-lead-follow-up-for-auto-parts-ecommerce\n- Purpose: turn the strongest vertical proof page into a clean discovery path for the live auto-parts cluster.\n\n### llm / llms summary refresh\nSection: Auto parts parent entry\n- Rewrites the one-line summary to sound more like a direct answer instead of a loose keyword list.\n- Explicitly names the four first-value workflow leaks plus repeat-purchase reactivation and Slack/CRM visibility.\n- Keeps the WheelsFeels proof anchor in the summary.\n\n### Rest of page retained\n- What you can automate in an auto parts brand\n- Manual vs. automated auto parts operations\n- Good fit / not the right fit\n- Where the ROI usually comes from first\n- FAQ\n- Final CTA",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded indexing/internal-linking refresh on an existing priority commercial page, not a new page ship."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The update keeps the page in parent-guide mode while making the first-value decision clearer in the opening."
+    },
+    {
+      "type": "tone_shift",
+      "description": "New links stay tightly inside the live auto-parts cluster plus the published WheelsFeels proof page so the page becomes easier to crawl and easier to act on."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: start with the clearest operational leak, use direct proof where it exists, and do not force a giant rebuild before one narrower workflow proves value."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "No invented vertical-specific claims beyond the published WheelsFeels case study were added."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T14:27:33.359Z",
+    "structure": {
+      "paragraphCount": 6,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        1,
+        1,
+        3,
+        2
+      ],
+      "avgSentenceLength": 27.8,
+      "sentenceLengthRange": [
+        8,
+        59
+      ],
+      "totalWords": 417
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation for Auto Parts E-Commerce\nBody: AI automation is usually worth it for an auto parts brand when one of four leaks is already expensive: mixed customer inquiries buried in one queue, fitment questions losing momentum because context is missing, quote conversations dying after pricing goes out, or old inquiry-stage leads sitting untouched in the CRM.",
+      "wordCount": 59,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Rest of page retained\n- What you can automate in an auto parts brand\n- Manual vs. automated auto parts operations\n- Good fit / not the right fit\n- Where the ROI usually comes from first\n- FAQ\n- Final CTA",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 13,
+      "commas": 12,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 39,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 14,
+      "commasPerSentence": 0.92
+    },
+    "vocabulary": {
+      "distinctWords": 232,
+      "totalWords": 417,
+      "topWords": [
+        [
+          "-",
+          39
+        ],
+        [
+          "auto",
+          8
+        ],
+        [
+          "parts",
+          8
+        ],
+        [
+          "proof",
+          6
+        ],
+        [
+          "section",
+          5
+        ],
+        [
+          "child",
+          5
+        ],
+        [
+          "brand",
+          4
+        ],
+        [
+          "wheelsfeels",
+          4
+        ],
+        [
+          "follow-up",
+          4
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "usually",
+          3
+        ],
+        [
+          "one",
+          3
+        ],
+        [
+          "fitment",
+          3
+        ],
+        [
+          "quote",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.002
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

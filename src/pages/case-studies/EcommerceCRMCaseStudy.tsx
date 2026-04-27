@@ -170,6 +170,69 @@ const EcommerceCRMCaseStudy = () => {
           </motion.section>
 
           <motion.section
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 0.45 }}
+            className="rounded-2xl border border-border/60 bg-card p-6 md:p-8 space-y-5"
+          >
+            <div className="space-y-3 max-w-3xl">
+              <h2 className="font-display text-2xl md:text-3xl font-bold">If you run an auto parts brand, start with these guides</h2>
+              <p className="text-muted-foreground leading-relaxed">
+                This case study proves the vertical. These pages show how to apply the same CRM, fitment, inquiry-routing, and follow-up logic to the exact leak you are trying to fix first.
+              </p>
+            </div>
+            <div className="grid gap-3 md:grid-cols-2">
+              {[
+                {
+                  title: "AI automation for auto parts e-commerce",
+                  description: "Broad parent guide for CRM cleanup, fitment routing, quote recovery, support triage, and reactivation.",
+                  href: "/ai-automation-for-auto-parts-ecommerce",
+                },
+                {
+                  title: "What to automate first for auto parts e-commerce",
+                  description: "Use this if you need to choose between mixed inquiry routing, fitment intake, quote follow-up, and stale-lead recovery.",
+                  href: "/what-to-automate-first-for-auto-parts-ecommerce",
+                },
+                {
+                  title: "Customer inquiry automation for auto parts e-commerce",
+                  description: "Best fit when product, fitment, quote, and support messages all land in one queue.",
+                  href: "/customer-inquiry-automation-for-auto-parts-ecommerce",
+                },
+                {
+                  title: "Fitment inquiry automation for auto parts e-commerce",
+                  description: "Best fit when compatibility questions are the real commercial bottleneck.",
+                  href: "/fitment-inquiry-automation-for-auto-parts-ecommerce",
+                },
+                {
+                  title: "Quote follow-up automation for auto parts e-commerce",
+                  description: "Best fit when pricing conversations go quiet after the quote is sent.",
+                  href: "/quote-follow-up-automation-for-auto-parts-ecommerce",
+                },
+                {
+                  title: "Stale lead follow-up for auto parts e-commerce",
+                  description: "Best fit when old fitment and quote leads are still recoverable but nobody is touching them consistently.",
+                  href: "/stale-lead-follow-up-for-auto-parts-ecommerce",
+                },
+              ].map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="rounded-2xl border border-border/60 bg-background/70 p-5 transition-colors hover:border-primary/40 hover:bg-primary/5"
+                >
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="space-y-2">
+                      <h3 className="font-semibold text-foreground">{link.title}</h3>
+                      <p className="text-sm text-muted-foreground leading-relaxed">{link.description}</p>
+                    </div>
+                    <ArrowRight className="w-4 h-4 text-primary shrink-0 mt-1" />
+                  </div>
+                </a>
+              ))}
+            </div>
+          </motion.section>
+
+          <motion.section
             id="booking-widget"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

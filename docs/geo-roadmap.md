@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/review-request-automation-for-restaurants` — the first restaurant-specific review-request workflow page, extending the horizontal `/review-request-automation-for-service-businesses` parent into the restaurant vertical with dining-context timing, unhappy-reply routing, and front-of-house handoff. Total live pages: 271.)
+Last updated: 2026-04-27 (no new page shipped this run; instead refreshed the priority indexing URL `/ai-automation-for-auto-parts-ecommerce` with a stronger direct-answer opening, clearer WheelsFeels proof framing, expanded child-page routing, and new internal links from the WheelsFeels case study. Total live pages remain 271.)
 
 ## Live GEO Assets
 
@@ -282,9 +282,9 @@ Last updated: 2026-04-27 (shipped `/review-request-automation-for-restaurants` �
 
 ## Next Pages
 
-This run shipped `/review-request-automation-for-restaurants` — the first restaurant-specific review-request workflow page. The restaurant cluster now covers category, prioritization, voice agent, private events, reservations, missed-call text-back, after-hours phone answering, comparison pages, and post-visit review requests. The next run should re-check whether any remaining restaurant workflow gap is real (e.g. catering follow-up, loyalty/return-visit outreach) or whether the next strongest candidate is in a different vertical entirely.
+This run did a bounded refresh on `/ai-automation-for-auto-parts-ecommerce` instead of forcing a dubious new page from a stale queue. Reconciliation showed the roadmap is lagging real route coverage in several clusters, so the safer next move is still a broad repo-wide candidate audit before another ship. The next run should verify which planned-but-distinct buyer-intent page still survives across the live routes, `scripts/geo-prompts.json`, and the broader planning docs without cannibalizing an already-live sibling.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / cluster audit` | The restaurant cluster is now deep. Re-check whether the next strongest gap is another restaurant child, a different vertical workflow page, or a horizontal parent that still needs a clean service-business version. | Primary next step |
-| 2 | `Fresh proof-led candidate` | If the audit surfaces a distinct high-intent page with direct proof adjacency and clean cluster separation, ship that next. Otherwise keep the roadmap honest. | Honest fallback |
+| 1 | `Broad reconciliation / cluster audit` | The roadmap is stale relative to live routes. Re-check which exact planned buyer-intent gap is still truly unshipped before naming another candidate. | Primary next step |
+| 2 | `Fresh proof-led candidate` | If the audit surfaces one distinct page with direct proof adjacency and clean separation from live siblings, ship that next. Otherwise continue bounded indexing/internal-linking improvements on priority URLs. | Honest fallback |

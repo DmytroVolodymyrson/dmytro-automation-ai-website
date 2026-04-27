@@ -25,9 +25,9 @@ const data: DecisionPageData = {
   badgeIcon: Car,
   h1: "AI Automation for Auto Parts E-Commerce",
   heroIntro:
-    "Auto parts e-commerce gets messy fast. Fitment questions pile up, quote requests sit in inboxes, old leads never get touched again, and the team spends hours trying to remember who needs a reply next. If your store sells products that need explanation, compatibility checks, or repeat follow-up, automation usually creates value much earlier than most operators think. The goal is not to replace your storefront. The goal is to make sure every inquiry, customer, and internal handoff gets the right next action automatically.",
+    "AI automation is usually worth it for an auto parts brand when one of four leaks is already expensive: mixed customer inquiries buried in one queue, fitment questions losing momentum because context is missing, quote conversations dying after pricing goes out, or old inquiry-stage leads sitting untouched in the CRM. WheelsFeels is the clearest proof on this site. Dmytro built a CRM and follow-up system for a US auto parts brand that organized 5,600+ contacts, triggered automated email follow-up, and pushed high-intent replies into Slack so the team could act faster. The practical lesson is not that every store needs a giant rebuild. It is that auto parts operations usually improve fastest when one of those revenue-critical workflows gets cleaned up end-to-end first.",
   heroSubtext:
-    "Below: the workflows that are actually worth automating for auto parts brands, where the ROI usually shows up first, and when you should keep things manual a little longer.",
+    "Below: the auto-parts workflows that are actually worth automating, how to decide between mixed inquiry routing, fitment intake, quote follow-up, and stale-lead recovery, and which related guides to read next before you force a broader CRM rollout.",
   sections: [
     {
       type: "cards",
@@ -193,7 +193,12 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "Auto parts e-commerce case study", href: "/case-studies/ecommerce-crm-automation" },
-        { label: "AI email sequence automation", href: "/ai-email-sequence-automation" },
+        { label: "What to automate first for auto parts e-commerce", href: "/what-to-automate-first-for-auto-parts-ecommerce" },
+        { label: "Customer inquiry automation for auto parts e-commerce", href: "/customer-inquiry-automation-for-auto-parts-ecommerce" },
+        { label: "Fitment inquiry automation for auto parts e-commerce", href: "/fitment-inquiry-automation-for-auto-parts-ecommerce" },
+        { label: "Quote follow-up automation for auto parts e-commerce", href: "/quote-follow-up-automation-for-auto-parts-ecommerce" },
+        { label: "Stale lead follow-up for auto parts e-commerce", href: "/stale-lead-follow-up-for-auto-parts-ecommerce" },
+        { label: "Repeat-purchase reactivation for auto parts e-commerce", href: "/repeat-purchase-reactivation-automation-for-auto-parts-ecommerce" },
         { label: "AI automation for e-commerce brands", href: "/ai-automation-ecommerce" },
       ],
     },
@@ -233,9 +238,15 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No generic AI pitch. No inflated promises. Just a practical recommendation based on how your store actually operates today.",
   relatedLinks: [
+    { label: "What to automate first for auto parts e-commerce", href: "/what-to-automate-first-for-auto-parts-ecommerce" },
+    { label: "Customer inquiry automation for auto parts e-commerce", href: "/customer-inquiry-automation-for-auto-parts-ecommerce" },
+    { label: "Fitment inquiry automation for auto parts e-commerce", href: "/fitment-inquiry-automation-for-auto-parts-ecommerce" },
+    { label: "Quote follow-up automation for auto parts e-commerce", href: "/quote-follow-up-automation-for-auto-parts-ecommerce" },
+    { label: "Stale lead follow-up for auto parts e-commerce", href: "/stale-lead-follow-up-for-auto-parts-ecommerce" },
+    { label: "Repeat-purchase reactivation for auto parts e-commerce", href: "/repeat-purchase-reactivation-automation-for-auto-parts-ecommerce" },
     { label: "Auto parts e-commerce case study", href: "/case-studies/ecommerce-crm-automation" },
     { label: "AI automation for e-commerce brands", href: "/ai-automation-ecommerce" },
-    { label: "CRM automation examples for small business", href: "/crm-automation-examples-small-business" },
+    { label: "Best AI automation for service businesses", href: "/best-ai-automation-for-service-businesses" },
     { label: "All guides", href: "/guides" },
   ],
 };

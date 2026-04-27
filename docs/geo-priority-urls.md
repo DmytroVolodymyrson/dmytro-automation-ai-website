@@ -4,7 +4,7 @@ Last updated: 2026-04-26 MDT
 
 ## GSC status snapshot
 
-**GSC URL Inspection: PARTIAL SNAPSHOT FROM MANUAL UI** — Dmytro manually inspected 5 priority URLs in Google Search Console on Apr 25, 2026. Result: homepage is indexed; `/guides`, `/case-studies`, `/ai-automation-consultant-small-business`, and `/best-ai-automation-for-service-businesses` are discovered but not yet indexed. The remaining priority URLs still need manual URL Inspection or API access.
+**GSC URL Inspection: PARTIAL SNAPSHOT FROM MANUAL UI** — Dmytro manually inspected 5 priority URLs in Google Search Console on Apr 25, 2026. Result: homepage is indexed; `/guides`, `/case-studies`, `/ai-automation-consultant-small-business`, and `/best-ai-automation-for-service-businesses` are discovered but not yet indexed. The remaining priority URLs still need manual URL Inspection or API access. On Apr 27, 2026, `/ai-automation-for-auto-parts-ecommerce` got a bounded indexing refresh focused on stronger direct-answer copy plus tighter internal links from both the parent page and the WheelsFeels case study.
 
 Background context:
 - Google Search Console sitemap submission is successful for `https://www.dmytroai.com/sitemap.xml`.
@@ -72,7 +72,7 @@ Automated live-site checks via `scripts/audit-indexability.mjs`. All 25 URLs pas
 | 22 | `/ai-automation-for-hvac-companies` | AI Automation for HVAC Companies ... \| Dmytro AI | AI Automation for HVAC Companies ... | 200 | self | no | yes | yes | NOT INSPECTED | 0 on latest full sweep | Strengthen local/service proof |
 | 23 | `/what-to-automate-first-for-property-management-companies` | What to Automate First for Property Management Companies ... \| Dmytro AI | What to Automate First for Property Management Companies | 200 | self | no | yes | yes | NOT INSPECTED | 0 on latest full sweep | Tie to showing/maintenance/lease workflows |
 | 24 | `/showing-coordination-automation-for-property-management-companies` | Showing Coordination Automation for Property Management Companies ... \| Dmytro AI | Showing Coordination Automation for Property Management Companies | 200 | self | no | yes | yes | NOT INSPECTED | 0 on fresh sample | Add workflow diagram/internal cluster links |
-| 25 | `/ai-automation-for-auto-parts-ecommerce` | AI Automation for Auto Parts E-Commerce ... \| Dmytro AI | AI Automation for Auto Parts E-Commerce | 200 | self | no | yes | yes | NOT INSPECTED | 0 on fresh sample | Tie to WheelsFeels proof and fitment workflows |
+| 25 | `/ai-automation-for-auto-parts-ecommerce` | AI Automation for Auto Parts E-Commerce ... \| Dmytro AI | AI Automation for Auto Parts E-Commerce | 200 | self | no | yes | yes | NOT INSPECTED | Updated 2026-04-27 | Tightened the opening around the four highest-ROI auto-parts workflow leaks, made the WheelsFeels 5,600+ contact proof more explicit, expanded child-page routing on the parent guide, added a new contextual internal-link section on the WheelsFeels case study, and refreshed llm/llms summaries for the auto-parts parent; request indexing after deploy |
 
 ## Next manual GSC actions
 
