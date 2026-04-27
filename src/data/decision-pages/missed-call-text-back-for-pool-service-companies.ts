@@ -273,6 +273,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation for pool service companies", href: "/ai-automation-for-pool-service-companies" },
     { label: "What to automate first for pool service companies", href: "/what-to-automate-first-for-pool-service-companies" },
+    { label: "AI phone answering for pool service companies", href: "/ai-phone-answering-for-pool-service-companies" },
     { label: "AI lead follow-up for pool service companies", href: "/ai-lead-follow-up-for-pool-service-companies" },
     { label: "Quote follow-up automation for pool service companies", href: "/quote-follow-up-automation-for-pool-service-companies" },
     { label: "Recurring service reminders for pool service companies", href: "/recurring-service-reminder-automation-for-pool-service-companies" },

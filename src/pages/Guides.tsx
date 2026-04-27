@@ -1992,6 +1992,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering for Pool Service Companies",
+    description:
+      "Live AI phone answering for pool service companies. Covers route-day call coverage, after-hours answering, routine service intake, repair-call capture, opening-season overflow, and when live answering beats voicemail or missed-call text-back.",
+    href: "/ai-phone-answering-for-pool-service-companies",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Pest Control Companies",
     description:
       "Scoping guide for pest control companies deciding whether the first workflow should be urgent lead follow-up, missed-call recovery, recurring-service reminders, seasonal campaigns, or heavier live phone coverage before a bigger automation build.",

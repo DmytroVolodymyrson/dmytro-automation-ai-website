@@ -281,6 +281,7 @@ const QuoteFollowUpAutomationForPoolServiceCompanies = lazy(() => import("./page
 const RecurringServiceReminderAutomationForPoolServiceCompanies = lazy(() => import("./pages/RecurringServiceReminderAutomationForPoolServiceCompanies"));
 const SeasonalOpeningAndClosingOutreachForPoolServiceCompanies = lazy(() => import("./pages/SeasonalOpeningAndClosingOutreachForPoolServiceCompanies"));
 const MissedCallTextBackForPoolServiceCompanies = lazy(() => import("./pages/MissedCallTextBackForPoolServiceCompanies"));
+const AiPhoneAnsweringForPoolServiceCompanies = lazy(() => import("./pages/AiPhoneAnsweringForPoolServiceCompanies"));
 const WhatToAutomateFirstForPestControlCompanies = lazy(() => import("./pages/WhatToAutomateFirstForPestControlCompanies"));
 const RecurringServiceReminderAutomationForPestControlCompanies = lazy(() => import("./pages/RecurringServiceReminderAutomationForPestControlCompanies"));
 const SeasonalCampaignAutomationForPestControlCompanies = lazy(() => import("./pages/SeasonalCampaignAutomationForPestControlCompanies"));
@@ -641,6 +642,7 @@ const AppRoutesClient = () => (
       <Route path="/recurring-service-reminder-automation-for-pool-service-companies" element={<RecurringServiceReminderAutomationForPoolServiceCompanies />} />
       <Route path="/seasonal-opening-and-closing-outreach-for-pool-service-companies" element={<SeasonalOpeningAndClosingOutreachForPoolServiceCompanies />} />
       <Route path="/missed-call-text-back-for-pool-service-companies" element={<MissedCallTextBackForPoolServiceCompanies />} />
+      <Route path="/ai-phone-answering-for-pool-service-companies" element={<AiPhoneAnsweringForPoolServiceCompanies />} />
       <Route path="/what-to-automate-first-for-pest-control-companies" element={<WhatToAutomateFirstForPestControlCompanies />} />
       <Route path="/recurring-service-reminder-automation-for-pest-control-companies" element={<RecurringServiceReminderAutomationForPestControlCompanies />} />
       <Route path="/seasonal-campaign-automation-for-pest-control-companies" element={<SeasonalCampaignAutomationForPestControlCompanies />} />

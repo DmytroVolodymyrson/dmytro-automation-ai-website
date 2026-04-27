@@ -194,6 +194,7 @@ const data: DecisionPageData = {
     "No generic pitch. No fake pool-industry claims. Just a practical scoping conversation based on the workflows you already run.",
   relatedLinks: [
     { label: "Missed call text-back for pool service companies", href: "/missed-call-text-back-for-pool-service-companies" },
+    { label: "AI phone answering for pool service companies", href: "/ai-phone-answering-for-pool-service-companies" },
     { label: "AI automation for landscaping companies", href: "/ai-automation-for-landscaping-companies" },
     { label: "AI automation for pest control companies", href: "/ai-automation-for-pest-control-companies" },
     { label: "Estimate follow-up automation", href: "/estimate-follow-up-automation-for-service-businesses" },

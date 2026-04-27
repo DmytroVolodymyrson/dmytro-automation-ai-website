@@ -280,6 +280,7 @@ import QuoteFollowUpAutomationForPoolServiceCompanies from "./pages/QuoteFollowU
 import RecurringServiceReminderAutomationForPoolServiceCompanies from "./pages/RecurringServiceReminderAutomationForPoolServiceCompanies";
 import SeasonalOpeningAndClosingOutreachForPoolServiceCompanies from "./pages/SeasonalOpeningAndClosingOutreachForPoolServiceCompanies";
 import MissedCallTextBackForPoolServiceCompanies from "./pages/MissedCallTextBackForPoolServiceCompanies";
+import AiPhoneAnsweringForPoolServiceCompanies from "./pages/AiPhoneAnsweringForPoolServiceCompanies";
 import WhatToAutomateFirstForPestControlCompanies from "./pages/WhatToAutomateFirstForPestControlCompanies";
 import RecurringServiceReminderAutomationForPestControlCompanies from "./pages/RecurringServiceReminderAutomationForPestControlCompanies";
 import SeasonalCampaignAutomationForPestControlCompanies from "./pages/SeasonalCampaignAutomationForPestControlCompanies";
@@ -707,6 +708,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/recurring-service-reminder-automation-for-pool-service-companies", element: <RecurringServiceReminderAutomationForPoolServiceCompanies /> },
   { path: "/seasonal-opening-and-closing-outreach-for-pool-service-companies", element: <SeasonalOpeningAndClosingOutreachForPoolServiceCompanies /> },
   { path: "/missed-call-text-back-for-pool-service-companies", element: <MissedCallTextBackForPoolServiceCompanies /> },
+  { path: "/ai-phone-answering-for-pool-service-companies", element: <AiPhoneAnsweringForPoolServiceCompanies /> },
   { path: "/what-to-automate-first-for-pest-control-companies", element: <WhatToAutomateFirstForPestControlCompanies /> },
   { path: "/recurring-service-reminder-automation-for-pest-control-companies", element: <RecurringServiceReminderAutomationForPestControlCompanies /> },
   { path: "/seasonal-campaign-automation-for-pest-control-companies", element: <SeasonalCampaignAutomationForPestControlCompanies /> },

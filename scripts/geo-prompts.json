@@ -2621,7 +2621,19 @@
         "How do pool service companies recover missed calls when techs are on route all day?",
         "Best way to stop losing pool service leads to voicemail during opening season",
         "How should a pool service company handle missed calls from homeowners with urgent water or equipment issues?",
-        "When should a pool service company upgrade from missed-call text-back to live AI phone answering?"
+        "Is missed-call text-back enough for a pool service company during opening season?"
+      ]
+    },
+    {
+      "id": "ai-phone-answering-for-pool-service-companies",
+      "path": "/ai-phone-answering-for-pool-service-companies",
+      "label": "AI Phone Answering for Pool Service Companies",
+      "prompts": [
+        "AI phone answering for pool service companies",
+        "How does live AI phone answering work for a pool service company with techs on route all day?",
+        "When should a pool service company move from missed-call text-back to live AI phone answering?",
+        "Best way to handle after-hours and opening-season phone overflow for a pool service company",
+        "What should a pool service AI phone answering workflow handle versus route to a human?"
       ]
     },
     {

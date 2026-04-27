@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `/missed-call-text-back-for-pool-service-companies` — seventh page in the pool-service cluster. SMS-first missed-call recovery for route hours, opening-season surges, and after-hours demand. Total live pages: 250.)
+Last updated: 2026-04-26 (shipped `/ai-phone-answering-for-pool-service-companies` — eighth page in the pool-service cluster. Live AI phone answering for route-day coverage, after-hours overflow, and opening-season demand when text-back is no longer enough. Total live pages: 251.)
 
 ## Live GEO Assets
 
@@ -207,6 +207,7 @@ Last updated: 2026-04-26 (shipped `/missed-call-text-back-for-pool-service-compa
 | Recurring Service Reminders (Pool Service) | `/recurring-service-reminder-automation-for-pool-service-companies` | Vertical workflow page | Live |
 | Seasonal Opening/Closing Outreach (Pool Service) | `/seasonal-opening-and-closing-outreach-for-pool-service-companies` | Vertical workflow page | Live |
 | Missed Call Text-Back (Pool Service) | `/missed-call-text-back-for-pool-service-companies` | Vertical workflow page | Live |
+| AI Phone Answering (Pool Service) | `/ai-phone-answering-for-pool-service-companies` | Vertical workflow page | Live |
 | What to Automate First (Pest Control) | `/what-to-automate-first-for-pest-control-companies` | Vertical decision page | Live |
 | Recurring Service Reminders | `/recurring-service-reminder-automation-for-pest-control-companies` | Vertical workflow page | Live |
 | Seasonal Campaigns (Pest Control) | `/seasonal-campaign-automation-for-pest-control-companies` | Vertical workflow page | Live |
@@ -260,9 +261,9 @@ Last updated: 2026-04-26 (shipped `/missed-call-text-back-for-pool-service-compa
 
 ## Next Pages
 
-This run shipped the pool-service missed-call text-back page (`/missed-call-text-back-for-pool-service-companies`), adding SMS-first call recovery to the pool-service cluster. The cluster now has seven live pages: parent, first-project scoping, lead follow-up, quote follow-up, recurring-service reminders, seasonal opening/closing outreach, and missed-call text-back.
+This run shipped the pool-service AI phone answering page (`/ai-phone-answering-for-pool-service-companies`), adding live call coverage to the pool-service cluster. The cluster now has eight live pages: parent, first-project scoping, lead follow-up, quote follow-up, recurring-service reminders, seasonal opening/closing outreach, missed-call text-back, and AI phone answering.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | Cross-cluster reconciliation | The pool-service cluster now has seven pages. Check whether solar, plumbing, electrical, or another vertical has a higher-value child-page gap before adding an eighth pool-service child (e.g. review automation or AI phone answering). | Recommended next |
-| 2 | Narrower pool-service workflow child (review automation or phone coverage) | If the cross-cluster check confirms pool service still has the highest-value gap, the next natural children cover reputation workflows and live AI phone coverage. | Evaluate after cross-cluster check |
+| 1 | Cross-cluster reconciliation | The pool-service cluster now has eight pages. Check whether solar, plumbing, electrical, or another vertical has a higher-value child-page gap before adding a ninth pool-service child (e.g. review automation or missed-call text-back vs. AI phone answering comparison). | Recommended next |
+| 2 | Narrower pool-service workflow child (review automation or comparison page) | If the cross-cluster check confirms pool service still has the highest-value gap, the next natural children cover reputation workflows or a text-back vs. live-answering comparison. | Evaluate after cross-cluster check |
