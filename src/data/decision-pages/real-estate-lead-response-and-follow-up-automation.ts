@@ -255,6 +255,7 @@ const data: DecisionPageData = {
     { label: "AI automation for real estate", href: "/ai-automation-for-real-estate" },
     { label: "What to automate first for real estate teams", href: "/what-to-automate-first-for-real-estate" },
     { label: "Showing coordination automation for real estate teams", href: "/showing-coordination-automation-for-real-estate-teams" },
+    { label: "AI phone answering for real estate agents", href: "/ai-phone-answering-for-real-estate-agents" },
     { label: "CRM cleanup and routing for real estate teams", href: "/crm-cleanup-and-routing-for-real-estate-teams" },
     { label: "All guides", href: "/guides" },
   ],

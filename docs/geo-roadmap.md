@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/missed-call-text-back-for-real-estate-agents`: added the first phone-layer child page to the real-estate cluster — SMS-first missed-call recovery for agents and teams who lose leads while at showings. Wired routes/discovery/tracking, added internal links from parent cluster. Total live pages: 275.)
+Last updated: 2026-04-27 (shipped `/ai-phone-answering-for-real-estate-agents`: added the heavier live-phone-coverage child page to the real-estate cluster for agents and teams who need live answer coverage while at showings, listing appointments, or after hours. Wired routes/discovery/tracking, added contextual internal links from the parent and sibling real-estate pages. Total live pages: 276.)
 
 ## Live GEO Assets
 
@@ -98,6 +98,7 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-for-real-estate-agents
 | CRM Cleanup/Routing (Real Estate) | `/crm-cleanup-and-routing-for-real-estate-teams` | Vertical workflow page | Live |
 | CRM Cleanup vs Follow-Up | `/crm-cleanup-vs-lead-follow-up-for-real-estate-teams` | Vertical comparison page | Live |
 | Missed Call Text-Back (Real Estate) | `/missed-call-text-back-for-real-estate-agents` | Vertical workflow page | Live |
+| AI Phone Answering (Real Estate) | `/ai-phone-answering-for-real-estate-agents` | Vertical solution page | Live |
 
 | AI for Mortgage Brokers | `/ai-automation-for-mortgage-brokers` | Vertical category page | Live |
 | AI Lead Follow-Up (Mortgage) | `/ai-lead-follow-up-for-mortgage-brokers` | Vertical workflow page | Live |
@@ -286,9 +287,9 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-for-real-estate-agents
 
 ## Next Pages
 
-This run shipped `/missed-call-text-back-for-real-estate-agents`, which qualified because the real-estate cluster had seven live pages covering lead response, showing coordination, CRM cleanup, client reactivation, and decision-routing, but no phone-layer child page for the lighter missed-call recovery workflow. The next natural candidate for the real-estate cluster is `/ai-phone-answering-for-real-estate-agents` — the heavier live-answering counterpart that completes the phone layer. Beyond that, a broader reconciliation across mature clusters should re-check which buyer-intent gaps remain unshipped.
+This run shipped `/ai-phone-answering-for-real-estate-agents`, which qualified because the real-estate cluster already had the broader parent, decision-routing, lead-response, CRM, reactivation, showing, and lighter missed-call pages live, but still lacked the heavier live-answering counterpart. With both the lighter and heavier phone layers now live in the real-estate cluster, the next run should reset to broader reconciliation across mature clusters instead of forcing another same-cluster page by inertia.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `/ai-phone-answering-for-real-estate-agents` | The real-estate cluster now has the lighter text-back page live. The heavier live-answering page is the natural next phone-layer child, following the same pattern as HVAC, dental, law, and other mature clusters. | Primary next step |
-| 2 | `Broad reconciliation / cluster audit` | After the phone-answering page, re-check which exact planned buyer-intent gap is still truly unshipped across all mature clusters before naming another target. | Fallback |
+| 1 | `Broad reconciliation / cluster audit` | The real-estate phone layer now has both the lighter SMS-first recovery page and the heavier live-answering page. Re-check which exact planned buyer-intent gap is still truly unshipped across all mature clusters before naming another target. | Primary next step |
+| 2 | `Watchlist refresh from GEO-PLAN.md + prompts` | If no clean mature-cluster gap survives reconciliation, refresh the late-backlog watchlist from broader planning docs and parent prompt sets instead of forcing another near-duplicate child page. | Fallback |

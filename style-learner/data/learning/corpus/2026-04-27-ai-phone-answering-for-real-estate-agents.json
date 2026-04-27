@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-ai-phone-answering-for-real-estate-agents",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nBadge: Real Estate Workflow\nHeading: AI Phone Answering for Real Estate Agents\nBody: Some real-estate teams do not mainly have a missed-call problem. They have a live phone-coverage problem. A lead calls while you are at a showing, in a listing appointment, negotiating something time-sensitive, or driving between properties — and that caller wants a real answer now, not a voicemail greeting and not always a text after the fact. Missed-call text-back is the lighter fallback. It often buys enough time when the main job is protecting the lead until someone can call back. But if a meaningful share of callers need immediate help with showing requests, buyer-vs-seller routing, availability questions, listing context, or the next practical step, a text after the miss can still be too slow. AI phone answering for real estate agents is the heavier phone layer that answers live, handles routine intake cleanly, protects urgency while the team is unavailable, and routes higher-context conversations back to a human before the lead calls the next agent in line.\nSub: Below: what live AI phone answering should actually handle in a real-estate business, how it stays distinct from the broader parent page and the lighter missed-call page already live, where it fits best, and what proof honestly supports it.\n\n### Core sections\n- Frames the page as the heavier live-phone-coverage layer in the real-estate cluster, not a generic lead-response guide and not a reworded text-back page.\n- Covers live answering, showing-intent intake, buyer-versus-seller routing, listing-context capture, after-hours coverage, and human escalation boundaries.\n- Includes a differentiation table separating the broader real-estate parent, the lighter missed-call text-back page, the generic service-business phone-answering page, the real-estate lead-response page, and this real-estate live-answering page.\n- Uses explicit good-fit / not-fit criteria so the page stays commercially distinct and does not collapse into a broader category page.\n- Adds implementation guardrails around not faking agent judgment, making escalation rules explicit, grounding the script in real team operations, and measuring recovered conversations instead of vanity answered-call counts.\n- Keeps proof framing honest: no published real-estate-only live-answering case study yet, but the real-estate parent page, the generic phone-answering guide, and the Paris Cafe call-handling proof support the workflow pattern.\n\n### FAQ\nSubhead: Straight answers for agents and teams deciding whether live AI phone coverage is actually worth the heavier build\nTopics: difference between live phone answering and missed-call text-back, cost framing for a focused real-estate live-answering workflow, showing-request and listing-inquiry handling, what stays human, and when the lighter phone layer is still enough.\n\n### Final CTA\nHeading: Need live call coverage without hiring another full phone seat first?\nBody: Book a 30-minute call. We will look at where your real-estate business is leaking phone demand now, whether the team has outgrown missed-call text-back, and what a practical live-answering workflow should include before you build it.\nSub: No fake AI receptionist promises. Just a practical recommendation based on your call pattern, handoff rules, and lead urgency.\nRelated links: AI automation for real estate, What to automate first for real estate teams, Missed call text-back for real estate agents, Real estate lead response and follow-up automation, AI phone answering for service businesses.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This is the heavier phone-layer counterpart to the existing real-estate missed-call text-back page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the distinction explicit: this page is about answering live when the business has outgrown voicemail and SMS-first recovery, not about broader nurture or CRM cleanup."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses practical real-estate language around showings, listing appointments, buyer-versus-seller routing, after-hours calls, and agent handoff instead of generic AI-sales language."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Maintains disciplined proof framing with adjacent cluster proof and published call-handling proof, without pretending there is already a real-estate-specific voice-agent case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Stays direct, operational, and non-hype in the site's established voice."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T17:20:10.080Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        6,
+        1,
+        6
+      ],
+      "avgSentenceLength": 24.9,
+      "sentenceLengthRange": [
+        5,
+        53
+      ],
+      "totalWords": 522
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nBadge: Real Estate Workflow\nHeading: AI Phone Answering for Real Estate Agents\nBody: Some real-estate teams do not mainly have a missed-call problem.",
+      "wordCount": 24,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need live call coverage without hiring another full phone seat first?\nBody: Book a 30-minute call. We will look at where your real-estate business is leaking phone demand now, whether the team has outgrown missed-call text-back, and what a practical live-answering workflow should include before you build it.\nSub: No fake AI receptionist promises. Just a practical recommendation based on your call pattern, handoff rules, and lead urgency.\nRelated links: AI automation for real estate, What to automate first for real estate teams, Missed call text-back for real estate agents, Real estate lead response and follow-up automation, AI phone answering for service businesses.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 20,
+      "commas": 43,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 12,
+      "commasPerSentence": 2.05
+    },
+    "vocabulary": {
+      "distinctWords": 257,
+      "totalWords": 522,
+      "topWords": [
+        [
+          "page",
+          11
+        ],
+        [
+          "phone",
+          10
+        ],
+        [
+          "real",
+          9
+        ],
+        [
+          "real-estate",
+          9
+        ],
+        [
+          "live",
+          8
+        ],
+        [
+          "estate",
+          7
+        ],
+        [
+          "ai",
+          7
+        ],
+        [
+          "not",
+          7
+        ],
+        [
+          "answering",
+          6
+        ],
+        [
+          "missed-call",
+          6
+        ],
+        [
+          "text-back",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "lead",
+          5
+        ],
+        [
+          "it",
+          5
+        ],
+        [
+          "call",
+          5
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

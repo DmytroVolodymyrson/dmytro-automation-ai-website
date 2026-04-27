@@ -919,6 +919,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering for Real Estate Agents",
+    description:
+      "A real-estate phone-coverage page focused on live call answering, showing-intent intake, listing and buyer inquiry routing, and the handoff points that should stay human when missed-call text-back is no longer enough.",
+    href: "/ai-phone-answering-for-real-estate-agents",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Mortgage Brokers",
     description:
       "AI automation for mortgage brokers. Lead follow-up, document collection, application nurture, and CRM workflows. Practical guide for brokerages.",
