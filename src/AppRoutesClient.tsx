@@ -280,6 +280,7 @@ const AiLeadFollowUpForPoolServiceCompanies = lazy(() => import("./pages/AiLeadF
 const QuoteFollowUpAutomationForPoolServiceCompanies = lazy(() => import("./pages/QuoteFollowUpAutomationForPoolServiceCompanies"));
 const RecurringServiceReminderAutomationForPoolServiceCompanies = lazy(() => import("./pages/RecurringServiceReminderAutomationForPoolServiceCompanies"));
 const SeasonalOpeningAndClosingOutreachForPoolServiceCompanies = lazy(() => import("./pages/SeasonalOpeningAndClosingOutreachForPoolServiceCompanies"));
+const MissedCallTextBackForPoolServiceCompanies = lazy(() => import("./pages/MissedCallTextBackForPoolServiceCompanies"));
 const WhatToAutomateFirstForPestControlCompanies = lazy(() => import("./pages/WhatToAutomateFirstForPestControlCompanies"));
 const RecurringServiceReminderAutomationForPestControlCompanies = lazy(() => import("./pages/RecurringServiceReminderAutomationForPestControlCompanies"));
 const SeasonalCampaignAutomationForPestControlCompanies = lazy(() => import("./pages/SeasonalCampaignAutomationForPestControlCompanies"));
@@ -639,6 +640,7 @@ const AppRoutesClient = () => (
       <Route path="/quote-follow-up-automation-for-pool-service-companies" element={<QuoteFollowUpAutomationForPoolServiceCompanies />} />
       <Route path="/recurring-service-reminder-automation-for-pool-service-companies" element={<RecurringServiceReminderAutomationForPoolServiceCompanies />} />
       <Route path="/seasonal-opening-and-closing-outreach-for-pool-service-companies" element={<SeasonalOpeningAndClosingOutreachForPoolServiceCompanies />} />
+      <Route path="/missed-call-text-back-for-pool-service-companies" element={<MissedCallTextBackForPoolServiceCompanies />} />
       <Route path="/what-to-automate-first-for-pest-control-companies" element={<WhatToAutomateFirstForPestControlCompanies />} />
       <Route path="/recurring-service-reminder-automation-for-pest-control-companies" element={<RecurringServiceReminderAutomationForPestControlCompanies />} />
       <Route path="/seasonal-campaign-automation-for-pest-control-companies" element={<SeasonalCampaignAutomationForPestControlCompanies />} />

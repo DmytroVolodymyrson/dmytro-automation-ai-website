@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-26-missed-call-text-back-for-pool-service-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-26",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back for Pool Service Companies\nBody: Pool service companies miss calls for the same reasons every route day: techs are in backyards, the office is juggling recurring-service admin, and during opening season the phone rings more than anyone can answer. Homeowners calling about cloudy water, a broken pump, a green-to-clean quote, or spring opening availability usually do not wait long. If nobody answers, they call the next company on the list. A missed-call text-back workflow is the practical middle layer between voicemail and full live phone answering. The call is missed, a text goes out in seconds, the homeowner gets a clear next step, and the opportunity stays alive until the office or a callback owner can step back in. It works best when the problem is lost demand during busy route blocks — not the total absence of phone coverage.\nSub: Below: what pool-service missed-call text-back should actually handle, how it stays distinct from the broader pool-service parent page, where adjacent proof honestly supports it, and when the phone problem has already grown past text-back into a heavier live-answering need.\n\n### Core sections\n- What pool-service missed-call text-back should actually do\n- How this page stays distinct from the broader pool-service and phone-handling guides\n- When this is a good fit and when it is not\n- Guardrails that keep pool-service missed-call recovery useful\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Straight answers for pool-service owners deciding whether SMS-first missed-call recovery is enough\nTopics: whether missed-call text-back is enough for most pool service companies, what the first text should actually say, how this differs from the broader pool-service automation page, what a focused build usually costs, and when a company should skip text-back and go straight to live answering.\n\n### Final CTA\nHeading: Need a practical answer on missed-call recovery for your pool service company?\nBody: Book a 30-minute call. We will look at your missed-call pattern, whether voicemail is quietly costing jobs during route hours or opening season, and whether your next step should be a focused text-back workflow, heavier live answering, or no phone automation at all right now.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after reconciling GEO-PLAN.md, docs/geo-roadmap.md, docs/programmatic-seo-pattern-matrix.md, docs/geo-priority-urls.md, docs/geo-tracking.md, scripts/geo-prompts.json, current routes/pages, Guides, sitemap, and llm files."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the live pool-service parent and first-project pages already exposed missed-call recovery as a distinct missing phone-layer child, and comparable home-service clusters treat SMS-first call recovery as the first narrow phone page before heavier live answering."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from /ai-automation-for-pool-service-companies by narrowing to the first-response recovery layer after a missed call, and from /what-to-automate-first-for-pool-service-companies by moving past prioritization into one bounded workflow."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live pool-service cluster, the horizontal missed-call parent page, the Paris Cafe phone-handling case study, and adjacent landscaping/pest-control phone pages support the pattern without pretending there is already a pool-service-specific published case study on the site."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T03:48:34.939Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 29.6,
+      "sentenceLengthRange": [
+        5,
+        60
+      ],
+      "totalWords": 355
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Missed Call Text-Back for Pool Service Companies\nBody: Pool service companies miss calls for the same reasons every route day: techs are in backyards, the office is juggling recurring-service admin, and during opening season the phone rings more than anyone can answer.",
+      "wordCount": 44,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a practical answer on missed-call recovery for your pool service company?\nBody: Book a 30-minute call. We will look at your missed-call pattern, whether voicemail is quietly costing jobs during route hours or opening season, and whether your next step should be a focused text-back workflow, heavier live answering, or no phone automation at all right now.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 20,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 1.82
+    },
+    "vocabulary": {
+      "distinctWords": 180,
+      "totalWords": 355,
+      "topWords": [
+        [
+          "text-back",
+          8
+        ],
+        [
+          "missed-call",
+          8
+        ],
+        [
+          "pool-service",
+          7
+        ],
+        [
+          "phone",
+          5
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "should",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "call",
+          4
+        ],
+        [
+          "pool",
+          4
+        ],
+        [
+          "service",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "whether",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

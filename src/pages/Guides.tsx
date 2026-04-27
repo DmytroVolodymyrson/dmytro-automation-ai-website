@@ -1985,6 +1985,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back for Pool Service Companies",
+    description:
+      "Missed-call text-back for pool service companies. SMS-first recovery when techs are on route, opening-season call surges overwhelm the office, or after-hours homeowners need a fast next step before calling the next provider.",
+    href: "/missed-call-text-back-for-pool-service-companies",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Pest Control Companies",
     description:
       "Scoping guide for pest control companies deciding whether the first workflow should be urgent lead follow-up, missed-call recovery, recurring-service reminders, seasonal campaigns, or heavier live phone coverage before a bigger automation build.",
