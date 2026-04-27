@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/estimate-follow-up-vs-quote-follow-up-for-service-businesses`: extracted the exact buyer-intent comparison prompt out of the two live service-business parent pages, added the missing workflow-comparison child page, rewired discovery/tracking, and logged the page into style-learner. Total live pages: 285.)
+Last updated: 2026-04-27 (shipped `/dispatch-handoff-automation-for-hvac-companies`: extracted the exact HVAC office-to-field handoff prompt out of the broader HVAC scheduling page, added the missing narrower post-booking child page, rewired discovery/tracking, and logged the page into style-learner. Total live pages: 286.)
 
 ## Live GEO Assets
 
@@ -76,6 +76,7 @@ Last updated: 2026-04-27 (shipped `/estimate-follow-up-vs-quote-follow-up-for-se
 | HVAC Missed Call Text-Back | `/hvac-missed-call-text-back` | Vertical workflow page | Live |
 | AI Appointment Setter (HVAC) | `/ai-appointment-setter-for-hvac` | Vertical solution page | Live |
 | HVAC Scheduling/Follow-Up | `/hvac-scheduling-and-follow-up-automation` | Vertical workflow page | Live |
+| Dispatch Handoff (HVAC) | `/dispatch-handoff-automation-for-hvac-companies` | Vertical workflow page | Live |
 | AI Phone Answering (HVAC) | `/ai-phone-answering-for-hvac-companies` | Vertical solution page | Live |
 | Text-Back vs AI Phone (HVAC) | `/missed-call-text-back-vs-ai-phone-answering-for-hvac-companies` | Vertical comparison page | Live |
 | AI Phone vs Voicemail (HVAC) | `/ai-phone-answering-vs-voicemail-for-hvac-companies` | Vertical comparison page | Live |
@@ -296,9 +297,9 @@ Last updated: 2026-04-27 (shipped `/estimate-follow-up-vs-quote-follow-up-for-se
 
 ## Next Pages
 
-This run shipped `/estimate-follow-up-vs-quote-follow-up-for-service-businesses`, which extracts the exact comparison query that had been sitting on both live service-business parent pages and gives the quote/estimate cluster its missing buyer-decision layer. The cluster now has the broader quote parent, the narrower estimate parent, the new comparison child, and multiple vertical estimate/quote descendants. The next run should go back to broad reconciliation across the planning docs, live routes, tracking prompts, and strongest live clusters instead of forcing another same-cluster quote-stage follow-on by inertia.
+This run shipped `/dispatch-handoff-automation-for-hvac-companies`, which extracts the exact HVAC office-to-field handoff query that had been sitting on the broader HVAC scheduling page and gives the HVAC post-booking cluster its missing narrower technician-readiness child. The HVAC cluster now has the broad parent, the first-project selector, the broader scheduling page, the new dispatch-handoff child, and the phone/quote/review/reminder siblings. The next run should go back to broad reconciliation across the planning docs, live routes, tracking prompts, and strongest live clusters instead of forcing another same-cluster HVAC follow-on by inertia.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / cluster audit` | The service-business quote/estimate cluster now has its missing comparison child. The safest next move is repo-wide reconciliation to verify the strongest remaining distinct buyer-intent page instead of forcing another same-cluster quote-stage follow-on by inertia. | Primary next step |
+| 1 | `Broad reconciliation / cluster audit` | The HVAC post-booking cluster now has its missing handoff child. The safest next move is repo-wide reconciliation to verify the strongest remaining distinct buyer-intent page instead of forcing another same-cluster HVAC follow-on by inertia. | Primary next step |
 | 2 | `Ghost-data activation shortlist` | Re-check the highest-confidence unshipped ghost-data pages and activate the strongest one only if the route, guides, sitemap, llm files, prompts, and proof framing still support a materially distinct buyer-intent page. | Conditional fallback |

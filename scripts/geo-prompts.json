@@ -316,8 +316,20 @@
         "HVAC scheduling and follow-up automation",
         "How can HVAC companies automate scheduling and post-booking follow-up?",
         "Best AI automation for HVAC dispatch continuity and customer reminders",
-        "HVAC office-to-field handoff automation",
+        "How should an HVAC company automate reminders and reschedules after the job is booked?",
         "Should an HVAC company automate scheduling and follow-through after the job is booked?"
+      ]
+    },
+    {
+      "id": "dispatch-handoff-automation-for-hvac-companies",
+      "path": "/dispatch-handoff-automation-for-hvac-companies",
+      "label": "Dispatch Handoff Automation for HVAC Companies",
+      "prompts": [
+        "HVAC office-to-field handoff automation",
+        "How can an HVAC company automate dispatch handoff after the job is booked?",
+        "Best HVAC dispatch handoff workflow for cleaner technician context",
+        "How should an HVAC company move booked jobs cleanly from office to field?",
+        "Should an HVAC company automate dispatch handoff or keep it manual?"
       ]
     },
     {

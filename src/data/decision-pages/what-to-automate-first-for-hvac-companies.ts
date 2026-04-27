@@ -89,7 +89,8 @@ const data: DecisionPageData = {
             "Calls and leads are already booking, but confirmations, reminders, or dispatch continuity are messy",
             "The workflow problem starts after the calendar slot already exists",
             "You are losing office time to reschedule confusion, callback traffic, and weak technician context",
-            "Closest next page: /hvac-scheduling-and-follow-up-automation",
+            "Closest broader page: /hvac-scheduling-and-follow-up-automation",
+            "If the narrower leak is technician readiness and office-to-field context, see /dispatch-handoff-automation-for-hvac-companies",
           ],
         },
         {
@@ -254,6 +255,7 @@ const data: DecisionPageData = {
         { label: "AI automation for HVAC companies", href: "/ai-automation-for-hvac-companies" },
         { label: "HVAC lead follow-up automation", href: "/hvac-lead-follow-up-automation" },
         { label: "HVAC scheduling and follow-up automation", href: "/hvac-scheduling-and-follow-up-automation" },
+        { label: "Dispatch handoff automation for HVAC companies", href: "/dispatch-handoff-automation-for-hvac-companies" },
         { label: "AI phone answering for HVAC companies", href: "/ai-phone-answering-for-hvac-companies" },
       ],
     },
@@ -303,6 +305,12 @@ const data: DecisionPageData = {
       description:
         "Booked-job HVAC workflow focused on confirmations, reminders, reschedules, dispatch continuity, and office-to-field handoff.",
       href: "/hvac-scheduling-and-follow-up-automation",
+    },
+    {
+      title: "Dispatch Handoff Automation for HVAC Companies",
+      description:
+        "Narrower HVAC post-booking page focused specifically on technician readiness, required job notes, exception routing, and cleaner office-to-field context before the visit happens.",
+      href: "/dispatch-handoff-automation-for-hvac-companies",
     },
     {
       title: "AI Phone Answering for HVAC Companies",

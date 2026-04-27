@@ -94,6 +94,13 @@ const data: DecisionPageData = {
             "Focuses on booked-job confirmations, reminder timing, reschedule routing, office-to-field context transfer, and cleaner follow-through before the visit happens",
           ],
         },
+        {
+          label: "Dispatch handoff automation for HVAC companies",
+          values: [
+            "Shops that already know the narrower leak is technician readiness and office-to-field context after the job is booked",
+            "Focuses specifically on job packets, required notes, exception routing, and making sure the field team sees the same reality the office sees before the visit starts",
+          ],
+        },
       ],
     },
     {
@@ -213,6 +220,7 @@ const data: DecisionPageData = {
       links: [
         { label: "AI automation for HVAC companies", href: "/ai-automation-for-hvac-companies" },
         { label: "AI appointment setter for HVAC", href: "/ai-appointment-setter-for-hvac" },
+        { label: "Dispatch handoff automation for HVAC companies", href: "/dispatch-handoff-automation-for-hvac-companies" },
         { label: "HVAC lead follow-up automation", href: "/hvac-lead-follow-up-automation" },
         { label: "Dispatch handoff automation for contractors", href: "/dispatch-handoff-automation-for-contractors" },
       ],
@@ -255,6 +263,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation for HVAC companies", href: "/ai-automation-for-hvac-companies" },
     { label: "AI appointment setter for HVAC", href: "/ai-appointment-setter-for-hvac" },
+    { label: "Dispatch handoff automation for HVAC companies", href: "/dispatch-handoff-automation-for-hvac-companies" },
     { label: "HVAC lead follow-up automation", href: "/hvac-lead-follow-up-automation" },
     { label: "All guides", href: "/guides" },
   ],

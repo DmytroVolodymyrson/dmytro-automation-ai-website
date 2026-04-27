@@ -228,6 +228,7 @@ const AiAutomationForHvacCompanies = () => {
               { to: "/ai-appointment-setter-for-hvac", icon: CalendarCheck, label: "AI appointment scheduling" },
               { to: "/hvac-database-reactivation", icon: Database, label: "Database reactivation" },
               { to: "/hvac-scheduling-and-follow-up-automation", icon: Clock, label: "Scheduling & dispatch" },
+              { to: "/dispatch-handoff-automation-for-hvac-companies", icon: Wrench, label: "Dispatch handoff" },
               { to: "/ai-phone-answering-for-hvac-companies", icon: Phone, label: "AI phone answering" },
               { to: "/quote-follow-up-automation-for-hvac-companies", icon: FileText, label: "Quote follow-up" },
               { to: "/maintenance-reminder-automation-for-hvac-companies", icon: Wrench, label: "Maintenance reminders" },
@@ -286,6 +287,7 @@ const AiAutomationForHvacCompanies = () => {
                 links: [
                   { to: "/ai-appointment-setter-for-hvac", text: "AI appointment setter" },
                   { to: "/hvac-scheduling-and-follow-up-automation", text: "Scheduling & follow-up" },
+                  { to: "/dispatch-handoff-automation-for-hvac-companies", text: "Dispatch handoff" },
                 ],
               },
               {
@@ -639,6 +641,7 @@ const AiAutomationForHvacCompanies = () => {
           <div className="grid gap-2 sm:grid-cols-2 max-w-3xl">
             {[
               { to: "/what-to-automate-first-for-hvac-companies", text: "What to automate first for HVAC" },
+              { to: "/dispatch-handoff-automation-for-hvac-companies", text: "Dispatch handoff automation for HVAC" },
               { to: "/missed-call-text-back-vs-ai-phone-answering-for-hvac-companies", text: "Missed call text-back vs. AI phone answering" },
               { to: "/ai-phone-answering-vs-voicemail-for-hvac-companies", text: "AI phone answering vs. voicemail" },
               { to: "/missed-call-text-back-vs-voicemail-for-hvac-companies", text: "Missed call text-back vs. voicemail" },

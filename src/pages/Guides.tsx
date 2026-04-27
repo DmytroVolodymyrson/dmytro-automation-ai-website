@@ -814,6 +814,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Dispatch Handoff Automation for HVAC Companies",
+    description:
+      "A narrower HVAC operations page focused on moving booked jobs cleanly from office to field with better technician context, exception routing, dispatch visibility, and cleaner field readiness.",
+    href: "/dispatch-handoff-automation-for-hvac-companies",
+    category: "industries",
+  },
+  {
     title: "AI Appointment Setter for Home Service Businesses",
     description:
       "How AI appointment setters help HVAC, plumbing, electrical, roofing, cleaning, and other home service businesses respond faster, qualify leads, and book straightforward jobs without phone tag.",
