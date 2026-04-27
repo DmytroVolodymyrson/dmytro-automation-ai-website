@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/referral-request-automation-for-service-businesses` — a horizontal post-job advocacy page that turns finished service work into structured referral follow-through, cleanly separated from the existing review-request, lead-follow-up, and client-reactivation workflows. Total live pages: 266.)
+Last updated: 2026-04-27 (shipped `/missed-call-text-back-cost-small-business` — a parent-level pricing page for the existing SMS-first phone-recovery cluster, distinct from the generic missed-call text-back explainer and the text-back-versus-AI-phone-answering decision page. Total live pages: 267.)
 
 ## Live GEO Assets
 
@@ -24,6 +24,7 @@ Last updated: 2026-04-27 (shipped `/referral-request-automation-for-service-busi
 | Review Request Automation (Service Businesses) | `/review-request-automation-for-service-businesses` | Workflow parent page | Live |
 | Referral Request Automation (Service Businesses) | `/referral-request-automation-for-service-businesses` | Workflow parent page | Live |
 | Missed Call Text-Back (Service Businesses) | `/missed-call-text-back-for-service-businesses` | Workflow parent page | Live |
+| Missed Call Text-Back Cost (SMB) | `/missed-call-text-back-cost-small-business` | Workflow / service cost page | Live |
 | Missed Call Text-Back vs. AI Phone Answering (Service Businesses) | `/missed-call-text-back-vs-ai-phone-answering-for-service-businesses` | Workflow comparison page | Live |
 | Estimate Follow-Up Automation (Service Businesses) | `/estimate-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Category cost page | Live |
@@ -277,9 +278,9 @@ Last updated: 2026-04-27 (shipped `/referral-request-automation-for-service-busi
 
 ## Next Pages
 
-This run shipped the missing horizontal referral workflow page (`/referral-request-automation-for-service-businesses`). That gives the site a parent page for an already-valid child cluster (painting + insurance referral pages) and cleanly separates referral advocacy from the existing horizontal review-request workflow. The next run should not force another same-cluster referral slug by inertia. It should do a fresh broad backlog reconciliation across mature clusters and prompt ownership before naming the next clean net-new ship.
+This run shipped the missing pricing child for the horizontal missed-call text-back cluster (`/missed-call-text-back-cost-small-business`). That closes the strongest remaining commercial parent gap inside the SMS-first phone-recovery family without duplicating the existing explainer or comparison page. The next run should not force another same-cluster phone-pricing slug by inertia. It should do a fresh broad backlog reconciliation across mature clusters and prompt ownership before naming the next clean net-new ship.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / watchlist refresh` | Re-check mature clusters, planning docs, route coverage, and prompt ownership before naming the next slug. The horizontal referral parent is now live, so the safest next move is another repo-wide re-audit rather than forcing a sibling service-business workflow page. | Recommended next |
-| 2 | `/missed-call-text-back-cost-small-business` | If reconciliation does not surface a clearly distinct new GEO page, the strongest remaining commercial parent gap is a cost page for the missed-call text-back cluster. The site already has the generic workflow page plus many vertical children, but still no parent-level pricing page for buyers asking whether the lighter SMS-first phone layer is worth paying for. | Conditional fallback |
+| 1 | `Broad reconciliation / watchlist refresh` | Re-check mature clusters, planning docs, route coverage, and prompt ownership before naming the next slug. The parent-level text-back pricing gap is now live, so the safest next move is another repo-wide re-audit rather than forcing a same-cluster phone page by habit. | Recommended next |
+| 2 | `/client-reactivation-automation-for-service-businesses` | If reconciliation does not surface a cleaner planned page, the strongest current fallback is a horizontal client-reactivation parent page. Multiple mature vertical clusters already have reactivation children, but there is still no service-business-level parent page that cleanly frames the cross-industry retained-customer recovery workflow. | Conditional fallback |

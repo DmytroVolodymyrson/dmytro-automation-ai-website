@@ -1725,6 +1725,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-cost-small-business",
+      "path": "/missed-call-text-back-cost-small-business",
+      "label": "Missed Call Text-Back Cost for Small Business",
+      "prompts": [
+        "What does missed-call text-back cost for a small business?",
+        "How much should a small business budget for missed-call text-back?",
+        "What affects the price of SMS-first missed-call recovery?",
+        "Is missed-call text-back worth paying for before AI phone answering?",
+        "How much does missed-call text-back cost compared with live AI phone answering?"
+      ]
+    },
+    {
       "id": "estimate-follow-up-automation-for-service-businesses",
       "path": "/estimate-follow-up-automation-for-service-businesses",
       "label": "Estimate Follow-Up Automation for Service Businesses",

@@ -298,6 +298,7 @@ const data: DecisionPageData = {
     "No AI theater. Just a practical decision based on call flow, office workload, and what your callers actually need.",
   relatedLinks: [
     { label: "Missed call text-back for service businesses", href: "/missed-call-text-back-for-service-businesses" },
+    { label: "Missed call text-back cost for small business", href: "/missed-call-text-back-cost-small-business" },
     { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
     { label: "Missed call follow-up automation", href: "/missed-call-follow-up-automation" },
     { label: "AI voice agent vs. manual callback for service businesses", href: "/ai-voice-agent-vs-manual-callback-for-service-businesses" },

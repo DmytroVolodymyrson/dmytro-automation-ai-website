@@ -610,6 +610,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Missed Call Text-Back Cost for Small Business",
+    description:
+      "What should a small business actually budget for SMS-first missed-call recovery? Practical pricing ranges for basic text-back, CRM logging, after-hours logic, urgency routing, and when the lighter phone layer is enough.",
+    href: "/missed-call-text-back-cost-small-business",
+    category: "workflows",
+  },
+  {
     title: "Estimate Follow-Up Automation for Service Businesses",
     description:
       "Recover open estimates after inspections and site visits. Stage-based reminders, estimator-to-office handoff, objection-aware messaging, and open-estimate visibility for field-service businesses.",

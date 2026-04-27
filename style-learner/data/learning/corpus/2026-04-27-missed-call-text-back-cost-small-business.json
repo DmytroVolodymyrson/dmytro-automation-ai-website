@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-missed-call-text-back-cost-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back Cost for Small Business\nBody: Most small businesses should expect a focused missed-call text-back build to land somewhere between $1.2K and $3.5K, with monthly running costs often in the $20-$120 range before higher SMS volume, heavier CRM complexity, or ongoing support. The useful question is not just 'what does text-back cost?' It is 'what layer of phone-recovery problem am I actually solving?' A business that only needs a fast acknowledgment text and booking link should not buy the same stack as a business that needs after-hours logic, qualification questions, owner alerts, CRM routing, and escalation rules for urgent calls. This page stays narrow on the pricing decision for missed-call text-back specifically — not full AI phone answering, and not the broader missed-call follow-up stack — so a buyer can budget the lightest phone layer that still protects revenue.\nSub: Below: realistic build and monthly cost ranges, what those price bands usually include, what pushes the number up, where small businesses overspend, and when text-back is the right first layer versus when it is too light for the call pattern.\n\n### Core sections\n- What missed-call text-back usually costs\n- What those pricing bands actually buy\n- What makes the price go up\n- When this is worth paying for — and when it is too light\n- How to budget this without overbuilding\n- Proof and adjacent proof\n- What small businesses usually get wrong about text-back pricing\n\n### FAQ\nSubhead: Practical answers about budgeting missed-call text-back for a small business\nTopics: typical build cost, monthly running cost, why this differs from the parent missed-call text-back page, what makes the price go up, whether a business should start with text-back before live AI phone answering, and how to judge whether the spend is worth it.\n\n### Final CTA\nHeading: Want a realistic quote for a missed-call text-back workflow?\nBody: Book a 30-minute call. We will look at how many calls the business is missing, what the lighter SMS-first layer should actually handle, and whether a focused text-back workflow is enough or the situation already points to a broader missed-call stack.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen after a broad live-asset and prompt-coverage audit showed the site already had the generic horizontal missed-call text-back explainer, many vertical child pages, and the text-back-versus-AI-phone-answering comparison page, but still lacked a parent-level pricing page for buyers asking what the lighter SMS-first layer should actually cost."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page materially distinct from `/missed-call-text-back-for-service-businesses`, `/missed-call-text-back-vs-ai-phone-answering-for-service-businesses`, `/missed-call-follow-up-automation`, and `/ai-phone-answering-for-service-businesses` by staying tightly on budget ranges, scope control, and cost drivers instead of re-explaining workflow fit or broader phone-automation strategy."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Pricing ranges are intentionally practical and non-hype: the copy frames text-back as the lighter phone layer, warns against buying full live AI answering too early, and ties the economics back to one recovered estimate, consult, or service job per month instead of inflated ROI claims."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: there is no dedicated horizontal text-back cost case study, so the page leans on the existing live missed-call cluster, the cost-page sibling pattern, and the Paris Cafe phone-recovery case study as adjacent evidence rather than inventing direct pricing proof."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T11:47:37.171Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 38.8,
+      "sentenceLengthRange": [
+        5,
+        58
+      ],
+      "totalWords": 349
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Missed Call Text-Back Cost for Small Business\nBody: Most small businesses should expect a focused missed-call text-back build to land somewhere between $1.2K and $3.5K, with monthly running costs often in the $20-$120 range before higher SMS volume, heavier CRM complexity, or ongoing support.",
+      "wordCount": 46,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a realistic quote for a missed-call text-back workflow?\nBody: Book a 30-minute call. We will look at how many calls the business is missing, what the lighter SMS-first layer should actually handle, and whether a focused text-back workflow is enough or the situation already points to a broader missed-call stack.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 19,
+      "emDashes": 3,
+      "enDashes": 0,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 3,
+      "colon": 8,
+      "commasPerSentence": 2.38
+    },
+    "vocabulary": {
+      "distinctWords": 177,
+      "totalWords": 349,
+      "topWords": [
+        [
+          "text-back",
+          12
+        ],
+        [
+          "what",
+          10
+        ],
+        [
+          "missed-call",
+          8
+        ],
+        [
+          "-",
+          7
+        ],
+        [
+          "business",
+          6
+        ],
+        [
+          "cost",
+          5
+        ],
+        [
+          "small",
+          5
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "not",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "layer",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "call",
+          3
+        ],
+        [
+          "businesses",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

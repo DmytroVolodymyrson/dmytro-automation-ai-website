@@ -278,6 +278,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No obligation. No pitch. Just a practical look at what your missed calls are actually costing you.",
   relatedLinks: [
+    { label: "Missed call text-back cost for small business", href: "/missed-call-text-back-cost-small-business" },
     { label: "Missed call follow-up automation (full system)", href: "/missed-call-follow-up-automation" },
     { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
     { label: "After-hours lead capture", href: "/after-hours-lead-capture-for-service-businesses" },
