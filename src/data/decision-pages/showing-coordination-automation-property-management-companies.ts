@@ -26,7 +26,7 @@ const data: DecisionPageData = {
   heroIntro:
     "Property management teams do not lose leasing speed only because demand is weak. They also lose it because a prospect asks about a unit, waits too long for a reply, misses the showing instructions, or falls into a back-and-forth scheduling loop that nobody owns. Showing coordination automation fixes that narrow leasing workflow. It responds fast, offers the next available showing path, keeps reminders moving, and routes the real exceptions to a human before a vacancy sits longer than it should.",
   heroSubtext:
-    "Below: what showing coordination automation actually handles, how it differs from broader property-management automation and lease-renewal workflows, what guardrails matter, and what adjacent proof supports this page without pretending there is a published property-management showing case study.",
+    "Below: what showing coordination automation actually handles, which live property-management sibling pages to read next when the bottleneck is actually maintenance, after-hours tenant communication, or downstream onboarding, what guardrails matter, and what adjacent proof supports this page without pretending there is a published property-management showing case study.",
   sections: [
     {
       type: "cards",
@@ -38,31 +38,55 @@ const data: DecisionPageData = {
           icon: Phone,
           title: "Immediate reply to listing inquiries",
           body: "When a prospect calls, texts, or submits a form about a vacancy, the system responds within seconds instead of hours. That first response confirms the inquiry was received, captures the basics, and moves the person toward an actual showing instead of a dead-end voicemail chain.",
+          links: [
+            { label: "What to automate first for property management companies", href: "/what-to-automate-first-for-property-management-companies" },
+            { label: "Paris Cafe voice-agent case study", href: "/case-studies/paris-cafe-voice-agent" },
+          ],
         },
         {
           icon: CalendarCheck,
           title: "Rule-based scheduling without manual back-and-forth",
           body: "The workflow can offer approved showing windows, respect agent or manager availability, and keep self-scheduling inside your real operating rules. That cuts the repeated email and phone-tag loop that slows leasing teams down.",
+          links: [
+            { label: "AI automation for property management", href: "/ai-automation-for-property-management" },
+            { label: "Owner reporting automation for property management companies", href: "/owner-reporting-automation-for-property-management-companies" },
+          ],
         },
         {
           icon: BellRing,
           title: "Confirmation, reminders, and no-show follow-up",
           body: "Booked prospects get the right confirmation details, reminders before the appointment, and a follow-up if they do not show. That means fewer wasted time slots and fewer leads disappearing because nobody sent the obvious next message.",
+          links: [
+            { label: "Tenant communication automation for property management companies", href: "/tenant-communication-automation-for-property-management-companies" },
+            { label: "After-hours tenant communication for property management companies", href: "/after-hours-tenant-communication-for-property-management-companies" },
+          ],
         },
         {
           icon: FileText,
           title: "Pre-show qualification and instructions",
           body: "Before the showing, the workflow can gather basic qualification details, share application expectations, explain parking or access instructions, and make sure the prospect arrives with the right context. That reduces avoidable confusion for both staff and prospects.",
+          links: [
+            { label: "Tenant onboarding automation for property management companies", href: "/tenant-onboarding-automation-for-property-management-companies" },
+            { label: "Lease renewal automation for property management companies", href: "/lease-renewal-automation-for-property-management-companies" },
+          ],
         },
         {
           icon: Users,
           title: "Manager handoff when the lead stops being routine",
           body: "A prospect asking about special move-in timing, pet exceptions, pricing negotiation, or multi-unit options should get routed to a human fast with the context attached. Automation keeps the schedule moving, but edge-case judgment still belongs with the team.",
+          links: [
+            { label: "Maintenance request automation for property management companies", href: "/maintenance-request-automation-for-property-management-companies" },
+            { label: "After-hours maintenance triage for property management companies", href: "/after-hours-maintenance-triage-for-property-management-companies" },
+          ],
         },
         {
           icon: RefreshCcw,
           title: "Vacancy visibility and next-step triggers",
           body: "The team can see which inquiries were answered, which showings are booked, which prospects confirmed, and where no-shows or stalled conversations are hurting vacancy fill. That makes leasing ops easier to manage than scattered inboxes and texts.",
+          links: [
+            { label: "Owner reporting automation for property management companies", href: "/owner-reporting-automation-for-property-management-companies" },
+            { label: "AI automation for property management", href: "/ai-automation-for-property-management" },
+          ],
         },
       ],
     },
@@ -206,8 +230,9 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "AI automation for property management", href: "/ai-automation-for-property-management" },
-        { label: "Lease renewal automation for property management companies", href: "/lease-renewal-automation-for-property-management-companies" },
-        { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
+        { label: "What to automate first for property management companies", href: "/what-to-automate-first-for-property-management-companies" },
+        { label: "Tenant communication automation for property management companies", href: "/tenant-communication-automation-for-property-management-companies" },
+        { label: "Owner reporting automation for property management companies", href: "/owner-reporting-automation-for-property-management-companies" },
       ],
     },
   ],
@@ -247,8 +272,12 @@ const data: DecisionPageData = {
     "No fake leasing guarantees. Just a practical recommendation based on your vacancy volume, current response speed, and calendar reality.",
   relatedLinks: [
     { label: "AI automation for property management", href: "/ai-automation-for-property-management" },
-    { label: "Lease renewal automation for property management companies", href: "/lease-renewal-automation-for-property-management-companies" },
-    { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
+    { label: "What to automate first for property management companies", href: "/what-to-automate-first-for-property-management-companies" },
+    { label: "Maintenance request automation for property management companies", href: "/maintenance-request-automation-for-property-management-companies" },
+    { label: "After-hours tenant communication for property management companies", href: "/after-hours-tenant-communication-for-property-management-companies" },
+    { label: "Tenant communication automation for property management companies", href: "/tenant-communication-automation-for-property-management-companies" },
+    { label: "Tenant onboarding automation for property management companies", href: "/tenant-onboarding-automation-for-property-management-companies" },
+    { label: "Owner reporting automation for property management companies", href: "/owner-reporting-automation-for-property-management-companies" },
     { label: "All guides", href: "/guides" },
   ],
 };

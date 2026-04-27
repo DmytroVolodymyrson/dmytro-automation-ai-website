@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/ai-automation-maintenance-and-support-small-business`, a practical post-launch support / ownership page that cleanly separates monitoring, bounded fixes, and retainer fit from the existing consultant, cost, and implementation-roadmap pages. Added discovery, tracking, adjacent internal links, and style-learner coverage. Total live pages: 273.)
+Last updated: 2026-04-27 (maintenance pass on `/showing-coordination-automation-for-property-management-companies`: added stronger clickable cluster routing into the parent property-management guide, first-project selector, adjacent maintenance/after-hours/onboarding/reporting pages, and grounded proof links. Total live pages: 273.)
 
 ## Live GEO Assets
 
