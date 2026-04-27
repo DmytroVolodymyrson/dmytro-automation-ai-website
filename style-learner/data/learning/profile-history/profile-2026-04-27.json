@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-27T00:37:24.917Z",
+  "updatedAt": "2026-04-27T00:45:01.850Z",
   "postCount": 364,
   "platforms": {
     "telegram": 0,
@@ -27,7 +27,7 @@
       "samples": 364
     },
     "totalWords": {
-      "mean": 325.8,
+      "mean": 326.2,
       "median": 329.5,
       "min": 17,
       "max": 1155,
@@ -90,7 +90,7 @@
       "single | long | long | short": 2,
       "long | long": 1,
       "single | long | single | single": 1,
-      "short | short | single | single | long | long": 1,
+      "short | short | long | short | short | single | long | long": 1,
       "single | long | single | long": 1
     },
     "structuralTemplates": {
@@ -123,7 +123,7 @@
       "opener | result | context | closer": 8,
       "opener | context | context | context | product-pitch | closer": 1,
       "opener | context | product-pitch | context | context | closer": 3,
-      "opener | context | context | context | context | closer": 2,
+      "opener | context | context | context | context | closer": 1,
       "opener | context | product-pitch | product-pitch | context | closer": 1,
       "opener | product-pitch | closer": 1,
       "opener | context | result | context | context | context | context | context | result | closer": 1,
@@ -142,6 +142,7 @@
       "opener | product-pitch | context | context | product-pitch | product-pitch | context | context | closer": 1,
       "opener | context | result | context | result | context | context | context | closer": 1,
       "opener | closer": 1,
+      "opener | product-pitch | result | context | context | context | context | closer": 1,
       "opener | context | product-pitch | context | context | context | context | product-pitch | closer": 1,
       "opener | product-pitch | context | product-pitch | product-pitch | product-pitch | context | product-pitch | closer": 1
     }
@@ -149,7 +150,7 @@
   "openers": {
     "patterns": {
       "situation": {
-        "count": 89,
+        "count": 88,
         "examples": [
           "Badge: The Person Behind the Automation",
           "Section heading: Common Questions\nSubheading: Straight answers about working wit",
@@ -165,7 +166,7 @@
         ]
       },
       "standard-opener": {
-        "count": 241,
+        "count": 242,
         "examples": [
           "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an autom",
           "Section heading: Real Results for Real Businesses\nSubheading: Here's what happen",
@@ -239,7 +240,7 @@
     "topWords": [
       [
         "-",
-        2079
+        2082
       ],
       [
         "what",
@@ -247,11 +248,11 @@
       ],
       [
         "automation",
-        1018
+        1022
       ],
       [
         "ai",
-        834
+        836
       ],
       [
         "workflow",
@@ -287,15 +288,15 @@
       ],
       [
         "follow-up",
-        494
-      ],
-      [
-        "first",
-        485
+        496
       ],
       [
         "live",
         482
+      ],
+      [
+        "first",
+        481
       ],
       [
         "your",
@@ -335,7 +336,7 @@
       ],
       [
         "body",
-        264
+        269
       ],
       [
         "lead",
@@ -347,11 +348,11 @@
       ],
       [
         "that",
-        224
+        230
       ],
       [
         "crm",
-        170
+        172
       ],
       [
         "still",

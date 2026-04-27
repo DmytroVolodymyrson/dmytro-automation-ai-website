@@ -1,13 +1,19 @@
-# Post: Case Studies Hub Proof Routing and Related Guide Paths
+# Post: Case Studies Hub Proof Routing and Consultant Decision Support
 **Date:** 2026-04-26
 **Platform:** landing-page
 **Language:** en
-**Section:** /case-studies (hub page answer block, proof routing, and related-guide links)
+**Section:** /case-studies (hero summary, proof-routing support, and related-guide links)
 
 ## Final Published Text
 
+### Meta / schema description
+Body: Three documented AI automation case studies: a restaurant voice agent for after-hours booking, an e-commerce CRM that cut manual follow-up by 80%, and an Instagram lead-generation pipeline with automated qualification. Each shows the problem, the system built, and the measurable result.
+
 ### Hero
 Body: Real systems built for real businesses. Start here if you want proof before choosing a workflow, platform, or consultant path.
+
+### Summary paragraph
+Body: Dmytro AI publishes three documented case studies: a restaurant voice-agent that handles after-hours calls and books tables automatically, an e-commerce CRM automation that recovered stale leads and cut manual follow-up by 80%, and an Instagram lead-generation pipeline that qualifies and routes inbound inquiries without human triage. Each includes the problem, the system built, and the measurable outcome. Use them to evaluate consultant pricing, automation costs, and what a consultant actually delivers.
 
 ### Intro Answer Block
 Label: What this proof library is for
@@ -19,6 +25,9 @@ Body: If you are deciding whether Dmytro's work is relevant to your business, st
 - Best first automations
 - AI lead follow-up
 - AI appointment setter
+- What does a consultant do?
+- Consultant pricing
+- Automation cost breakdown
 
 ### Priority Support Section
 Label: Connect proof to the priority pages
@@ -45,7 +54,7 @@ Body: These proof assets now route directly into the pages Google has already di
   - Pair it with: n8n vs Zapier
 
 ## Style Notes
-- Written as hub-page routing copy, not as a standalone landing page, so every section answers where to go next.
-- Keeps the tone direct and commercial without turning the hub into a sales page.
-- Uses concrete bottlenecks and proof categories instead of generic praise about automation.
-- Optimized for humans and crawlers that need explicit connections between proof assets and decision pages.
+- Strengthens the /case-studies hub as an indexing-support page by making the three proof assets legible to both humans and crawlers in one extractable paragraph.
+- Adds explicit commercial adjacency to consultant-role, consultant-pricing, and automation-cost pages instead of only linking to broader workflow pages.
+- Keeps the tone practical and evidence-first: the copy describes the problem, the system built, and the measurable result rather than generic claims about AI.
+- Uses concise routing language so the hub helps visitors decide where to go next without turning the page into a full sales page.

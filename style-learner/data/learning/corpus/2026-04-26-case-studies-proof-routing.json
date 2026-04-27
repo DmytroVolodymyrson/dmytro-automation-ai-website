@@ -6,7 +6,7 @@
   "date": "2026-04-26",
   "dayOfWeek": "sunday",
   "published": {
-    "text": "### Hero\nBody: Real systems built for real businesses. Start here if you want proof before choosing a workflow, platform, or consultant path.\n\n### Intro Answer Block\nLabel: What this proof library is for\nHeading: Which case study should you read first?\nBody: If you are deciding whether Dmytro's work is relevant to your business, start with the proof asset that matches your bottleneck: Paris Cafe for phone coverage and booking flow, the e-commerce CRM build for lead follow-up and reactivation, and Instagram lead generation for automated qualification and routing.\n\n### Related Guide Links\n- AI automation consultant\n- Best first automations\n- AI lead follow-up\n- AI appointment setter\n\n### Priority Support Section\nLabel: Connect proof to the priority pages\nHeading: Use these case studies to support the discovered-not-indexed hubs\nBody: These proof assets now route directly into the pages Google has already discovered but still needs stronger context for: the consultant overview, the best-first-automation guide, the lead-follow-up workflow page, and the main guides hub.\n\n### Fastest Reading Order\n- Need proof before hiring? Read the consultant overview, then the e-commerce CRM case study.\n- Losing bookings or calls? Read the appointment-setter page, then the Paris Cafe case study.\n- Unsure what to automate first? Read the best-first-automation guide, then compare all three case studies.\n\n### Proof Route Cards\n- Paris Cafe voice agent — Best proof asset for after-hours call coverage, appointment-setting, and restaurant phone workflows.\n  - Pair it with: AI appointment setter\n  - Pair it with: Best AI automations for service businesses\n  - Pair it with: Restaurant automation guides\n- E-commerce CRM automation — Strongest proof for lead follow-up, CRM cleanup, segmentation, and reactivation systems that scale without more headcount.\n  - Pair it with: AI automation consultant\n  - Pair it with: AI lead follow-up\n  - Pair it with: All automation guides\n- Instagram lead generation — Useful proof for automated qualification, enrichment, and pipeline design when the question is how to handle more inbound or outbound opportunities with the same team.\n  - Pair it with: AI automation consultant\n  - Pair it with: Best first automations\n  - Pair it with: n8n vs Zapier",
+    "text": "### Meta / schema description\nBody: Three documented AI automation case studies: a restaurant voice agent for after-hours booking, an e-commerce CRM that cut manual follow-up by 80%, and an Instagram lead-generation pipeline with automated qualification. Each shows the problem, the system built, and the measurable result.\n\n### Hero\nBody: Real systems built for real businesses. Start here if you want proof before choosing a workflow, platform, or consultant path.\n\n### Summary paragraph\nBody: Dmytro AI publishes three documented case studies: a restaurant voice-agent that handles after-hours calls and books tables automatically, an e-commerce CRM automation that recovered stale leads and cut manual follow-up by 80%, and an Instagram lead-generation pipeline that qualifies and routes inbound inquiries without human triage. Each includes the problem, the system built, and the measurable outcome. Use them to evaluate consultant pricing, automation costs, and what a consultant actually delivers.\n\n### Intro Answer Block\nLabel: What this proof library is for\nHeading: Which case study should you read first?\nBody: If you are deciding whether Dmytro's work is relevant to your business, start with the proof asset that matches your bottleneck: Paris Cafe for phone coverage and booking flow, the e-commerce CRM build for lead follow-up and reactivation, and Instagram lead generation for automated qualification and routing.\n\n### Related Guide Links\n- AI automation consultant\n- Best first automations\n- AI lead follow-up\n- AI appointment setter\n- What does a consultant do?\n- Consultant pricing\n- Automation cost breakdown\n\n### Priority Support Section\nLabel: Connect proof to the priority pages\nHeading: Use these case studies to support the discovered-not-indexed hubs\nBody: These proof assets now route directly into the pages Google has already discovered but still needs stronger context for: the consultant overview, the best-first-automation guide, the lead-follow-up workflow page, and the main guides hub.\n\n### Fastest Reading Order\n- Need proof before hiring? Read the consultant overview, then the e-commerce CRM case study.\n- Losing bookings or calls? Read the appointment-setter page, then the Paris Cafe case study.\n- Unsure what to automate first? Read the best-first-automation guide, then compare all three case studies.\n\n### Proof Route Cards\n- Paris Cafe voice agent — Best proof asset for after-hours call coverage, appointment-setting, and restaurant phone workflows.\n  - Pair it with: AI appointment setter\n  - Pair it with: Best AI automations for service businesses\n  - Pair it with: Restaurant automation guides\n- E-commerce CRM automation — Strongest proof for lead follow-up, CRM cleanup, segmentation, and reactivation systems that scale without more headcount.\n  - Pair it with: AI automation consultant\n  - Pair it with: AI lead follow-up\n  - Pair it with: All automation guides\n- Instagram lead generation — Useful proof for automated qualification, enrichment, and pipeline design when the question is how to handle more inbound or outbound opportunities with the same team.\n  - Pair it with: AI automation consultant\n  - Pair it with: Best first automations\n  - Pair it with: n8n vs Zapier",
     "formatting": [
       "bold:###"
     ]
@@ -16,45 +16,47 @@
   "edits": [
     {
       "type": "tone_shift",
-      "description": "Written as hub-page routing copy, not as a standalone landing page, so every section answers where to go next."
+      "description": "Strengthens the /case-studies hub as an indexing-support page by making the three proof assets legible to both humans and crawlers in one extractable paragraph."
     },
     {
       "type": "tone_shift",
-      "description": "Keeps the tone direct and commercial without turning the hub into a sales page."
+      "description": "Adds explicit commercial adjacency to consultant-role, consultant-pricing, and automation-cost pages instead of only linking to broader workflow pages."
     },
     {
       "type": "tone_shift",
-      "description": "Uses concrete bottlenecks and proof categories instead of generic praise about automation."
+      "description": "Keeps the tone practical and evidence-first: the copy describes the problem, the system built, and the measurable result rather than generic claims about AI."
     },
     {
       "type": "tone_shift",
-      "description": "Optimized for humans and crawlers that need explicit connections between proof assets and decision pages."
+      "description": "Uses concise routing language so the hub helps visitors decide where to go next without turning the page into a full sales page."
     }
   ],
   "analysis": {
-    "analyzedAt": "2026-04-26T22:31:09.025Z",
+    "analyzedAt": "2026-04-27T00:45:01.803Z",
     "structure": {
-      "paragraphCount": 6,
+      "paragraphCount": 8,
       "sentencesPerParagraph": [
         2,
         2,
-        1,
+        3,
+        2,
+        2,
         1,
         6,
         4
       ],
-      "avgSentenceLength": 21.6,
+      "avgSentenceLength": 21.7,
       "sentenceLengthRange": [
         5,
         55
       ],
-      "totalWords": 346
+      "totalWords": 478
     },
     "opener": {
-      "type": "situation",
-      "text": "### Hero\nBody: Real systems built for real businesses.",
-      "wordCount": 8,
-      "pattern": "situation"
+      "type": "general",
+      "text": "### Meta / schema description\nBody: Three documented AI automation case studies: a restaurant voice agent for after-hours booking, an e-commerce CRM that cut manual follow-up by 80%, and an Instagram lead-generation pipeline with automated qualification.",
+      "wordCount": 34,
+      "pattern": "standard-opener"
     },
     "closer": {
       "type": "reflection",
@@ -64,40 +66,54 @@
     "template": {
       "roles": [
         "opener",
+        "product-pitch",
+        "result",
         "context",
         "context",
         "context",
         "context",
         "closer"
       ],
-      "template": "opener | context | context | context | context | closer"
+      "template": "opener | product-pitch | result | context | context | context | context | closer"
     },
     "punctuation": {
-      "periods": 10,
-      "commas": 18,
+      "periods": 15,
+      "commas": 28,
       "emDashes": 3,
       "enDashes": 0,
-      "hyphens": 19,
+      "hyphens": 22,
       "ellipsis": 0,
       "exclamation": 0,
-      "question": 4,
-      "colon": 18,
-      "commasPerSentence": 1.2
+      "question": 5,
+      "colon": 22,
+      "commasPerSentence": 1.33
     },
     "vocabulary": {
-      "distinctWords": 159,
-      "totalWords": 346,
+      "distinctWords": 204,
+      "totalWords": 478,
       "topWords": [
         [
           "-",
-          19
+          22
         ],
         [
           "with",
-          11
+          12
+        ],
+        [
+          "ai",
+          10
+        ],
+        [
+          "automation",
+          10
         ],
         [
           "proof",
+          10
+        ],
+        [
+          "consultant",
           10
         ],
         [
@@ -109,11 +125,19 @@
           9
         ],
         [
-          "ai",
-          8
+          "case",
+          7
         ],
         [
-          "consultant",
+          "crm",
+          6
+        ],
+        [
+          "that",
+          6
+        ],
+        [
+          "follow-up",
           6
         ],
         [
@@ -121,32 +145,12 @@
           6
         ],
         [
-          "automation",
-          6
-        ],
-        [
-          "case",
+          "body",
           5
         ],
         [
-          "read",
-          4
-        ],
-        [
-          "first",
-          4
-        ],
-        [
-          "crm",
-          4
-        ],
-        [
-          "follow-up",
-          4
-        ],
-        [
-          "best",
-          4
+          "e-commerce",
+          5
         ]
       ],
       "casualMarkers": [],
