@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/ai-phone-answering-vs-voicemail-for-pool-service-companies` — eleventh page in the pool-service cluster. Narrow buyer-decision page covering opening-season surges, route-day call coverage, equipment-emergency intake, after-hours demand, and when missed-call text-back is still the smarter middle step. Total live pages: 255.)
+Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-hvac-companies` — thirteenth page in the HVAC cluster. Narrow lighter-fallback buyer-decision page covering no-heat/no-cool callback lag, after-hours service-call recovery, CSR workload, and when live AI phone answering is the smarter next step. Total live pages: 256.)
 
 ## Live GEO Assets
 
@@ -69,6 +69,7 @@ Last updated: 2026-04-27 (shipped `/ai-phone-answering-vs-voicemail-for-pool-ser
 | AI Phone Answering (HVAC) | `/ai-phone-answering-for-hvac-companies` | Vertical solution page | Live |
 | Text-Back vs AI Phone (HVAC) | `/missed-call-text-back-vs-ai-phone-answering-for-hvac-companies` | Vertical comparison page | Live |
 | AI Phone vs Voicemail (HVAC) | `/ai-phone-answering-vs-voicemail-for-hvac-companies` | Vertical comparison page | Live |
+| Text-Back vs Voicemail (HVAC) | `/missed-call-text-back-vs-voicemail-for-hvac-companies` | Vertical comparison page | Live |
 | Review Automation (HVAC) | `/review-request-automation-for-hvac-companies` | Vertical workflow page | Live |
 | Maintenance Reminders (HVAC) | `/maintenance-reminder-automation-for-hvac-companies` | Vertical workflow page | Live |
 | Quote Follow-Up (HVAC) | `/quote-follow-up-automation-for-hvac-companies` | Vertical workflow page | Live |
@@ -265,9 +266,9 @@ Last updated: 2026-04-27 (shipped `/ai-phone-answering-vs-voicemail-for-pool-ser
 
 ## Next Pages
 
-This run shipped the pool-service AI-phone-answering-vs-voicemail comparison page (`/ai-phone-answering-vs-voicemail-for-pool-service-companies`). The pool-service cluster now has eleven live pages: parent, first-project scoping, lead follow-up, quote follow-up, recurring-service reminders, seasonal outreach, review automation, missed-call text-back, AI phone answering, AI phone answering vs. voicemail, and missed-call text-back vs. AI phone answering.
+This run shipped the HVAC missed-call-text-back-vs-voicemail comparison page (`/missed-call-text-back-vs-voicemail-for-hvac-companies`). The HVAC cluster now has thirteen live pages: parent, first-project scoping, lead follow-up, missed-call text-back, appointment setter, booked-job scheduling, AI phone answering, missed-call text-back vs. AI phone answering, missed-call text-back vs. voicemail, AI phone answering vs. voicemail, review automation, maintenance reminders, and quote follow-up.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | Cross-cluster reconciliation | Solar and pool service both now sit at eleven live pages. Re-check landscaping, property management, contractors, and other mature live verticals for the next clearly distinct child-page gap instead of forcing a twelfth page into either cluster by inertia. | Recommended next |
-| 2 | Verified cross-cluster fallback/watchlist candidate | If reconciliation still does not produce a stronger gap, use a proof-led watchlist candidate from another live cluster rather than immediately extending solar or pool service again. | Evaluate after cross-cluster check |
+| 1 | Cross-cluster reconciliation | HVAC is now a mature twelve-page cluster. Re-check property management, contractors, restaurants, and other mature live verticals for the next clearly distinct child-page gap instead of forcing another HVAC sibling by inertia. | Recommended next |
+| 2 | Verified cross-cluster fallback/watchlist candidate | If reconciliation still does not produce a stronger gap, use a proof-led watchlist candidate from another live cluster rather than extending any already-dense phone cluster automatically. | Evaluate after cross-cluster check |

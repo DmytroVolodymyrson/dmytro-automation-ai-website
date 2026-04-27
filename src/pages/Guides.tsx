@@ -702,6 +702,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "Missed Call Text-Back vs. Voicemail for HVAC Companies",
+    description:
+      "HVAC-specific buyer guide for choosing between SMS-first missed-call recovery and voicemail/manual callback. Covers service-call urgency, no-heat/no-cool callback lag, CSR workload, and when live AI phone answering is the smarter next step.",
+    href: "/missed-call-text-back-vs-voicemail-for-hvac-companies",
+    category: "comparisons",
+  },
+  {
     title: "AI Phone Answering vs. Voicemail for HVAC Companies",
     description:
       "HVAC-specific buyer guide for choosing between live AI phone coverage and voicemail/manual callback. Covers service-call recovery, office workload, after-hours demand, and when missed-call text-back is the smarter middle step.",

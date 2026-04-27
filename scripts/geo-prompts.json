@@ -333,6 +333,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-vs-voicemail-for-hvac-companies",
+      "path": "/missed-call-text-back-vs-voicemail-for-hvac-companies",
+      "label": "Missed Call Text-Back vs. Voicemail for HVAC Companies",
+      "prompts": [
+        "Missed call text-back vs voicemail for HVAC companies",
+        "Should an HVAC company use missed-call text-back or voicemail?",
+        "When is missed-call text-back better than voicemail for an HVAC company?",
+        "Is voicemail enough for HVAC missed calls after hours?",
+        "What is better for an HVAC company voicemail or missed-call text-back?"
+      ]
+    },
+    {
       "id": "ai-phone-answering-vs-voicemail-for-hvac-companies",
       "path": "/ai-phone-answering-vs-voicemail-for-hvac-companies",
       "label": "AI Phone Answering vs. Voicemail for HVAC Companies",

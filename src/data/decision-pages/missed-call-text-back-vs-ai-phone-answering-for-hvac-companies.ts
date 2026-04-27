@@ -298,6 +298,7 @@ const data: DecisionPageData = {
     "No HVAC AI theater. Just a practical decision based on call flow, office workload, and what your callers actually need.",
   relatedLinks: [
     { label: "HVAC missed call text back", href: "/hvac-missed-call-text-back" },
+    { label: "Missed call text-back vs. voicemail for HVAC companies", href: "/missed-call-text-back-vs-voicemail-for-hvac-companies" },
     { label: "AI phone answering for HVAC companies", href: "/ai-phone-answering-for-hvac-companies" },
     { label: "AI phone answering vs. voicemail for HVAC companies", href: "/ai-phone-answering-vs-voicemail-for-hvac-companies" },
     { label: "AI automation for HVAC companies", href: "/ai-automation-for-hvac-companies" },

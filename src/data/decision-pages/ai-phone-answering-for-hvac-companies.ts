@@ -263,6 +263,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation for HVAC companies", href: "/ai-automation-for-hvac-companies" },
     { label: "HVAC missed call text back", href: "/hvac-missed-call-text-back" },
+    { label: "Missed call text-back vs. voicemail for HVAC companies", href: "/missed-call-text-back-vs-voicemail-for-hvac-companies" },
     { label: "AI appointment setter for HVAC", href: "/ai-appointment-setter-for-hvac" },
     { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
   ],
