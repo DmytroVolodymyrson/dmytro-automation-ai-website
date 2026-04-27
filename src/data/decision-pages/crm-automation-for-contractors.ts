@@ -167,6 +167,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "GoHighLevel vs. custom CRM", href: "/gohighlevel-vs-custom-crm-small-business" },
+        { label: "GoHighLevel vs. Jobber for contractors", href: "/gohighlevel-vs-jobber-for-contractors" },
         { label: "CRM automation examples", href: "/crm-automation-examples-small-business" },
         { label: "AI automation for plumbing companies", href: "/ai-automation-for-plumbing-companies" },
       ],
@@ -207,6 +208,7 @@ const data: DecisionPageData = {
     "No generic software pitch. Just a practical look at your actual workflow.",
   relatedLinks: [
     { label: "GoHighLevel vs. custom CRM", href: "/gohighlevel-vs-custom-crm-small-business" },
+    { label: "GoHighLevel vs. Jobber for contractors", href: "/gohighlevel-vs-jobber-for-contractors" },
     { label: "CRM automation examples", href: "/crm-automation-examples-small-business" },
     { label: "AI automation for electrical contractors", href: "/ai-automation-for-electrical-contractors" },
     { label: "AI automation for plumbing companies", href: "/ai-automation-for-plumbing-companies" },

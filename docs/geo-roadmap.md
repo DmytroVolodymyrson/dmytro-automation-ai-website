@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-hvac-companies` — thirteenth page in the HVAC cluster. Narrow lighter-fallback buyer-decision page covering no-heat/no-cool callback lag, after-hours service-call recovery, CSR workload, and when live AI phone answering is the smarter next step. Total live pages: 256.)
+Last updated: 2026-04-27 (shipped `/gohighlevel-vs-jobber-for-contractors` — contractor platform decision page comparing GoHighLevel marketing CRM against Jobber field-service scheduling/dispatch/invoicing, when contractors need one vs. both, and how to keep the handoff clean. Total live pages: 257.)
 
 ## Live GEO Assets
 
@@ -51,6 +51,7 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-hvac-
 | CRM Automation Setup vs DIY | `/crm-automation-setup-vs-diy-for-contractors` | Vertical decision page | Live |
 | GoHighLevel vs Custom CRM (SMB) | `/gohighlevel-vs-custom-crm-small-business` | Comparison page | Live |
 | GoHighLevel vs Custom CRM (Contractors) | `/gohighlevel-vs-custom-crm-for-contractors` | Vertical comparison page | Live |
+| GoHighLevel vs Jobber (Contractors) | `/gohighlevel-vs-jobber-for-contractors` | Vertical comparison page | Live |
 | GoHighLevel Automation Setup | `/gohighlevel-automation-setup` | Service page | Live |
 | GoHighLevel Setup Cost (SMB) | `/gohighlevel-setup-cost-small-business` | Service cost page | Live |
 | GoHighLevel Setup vs DIY (SMB) | `/gohighlevel-setup-vs-diy-small-business` | Decision page | Live |
@@ -266,9 +267,9 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-vs-voicemail-for-hvac-
 
 ## Next Pages
 
-This run shipped the HVAC missed-call-text-back-vs-voicemail comparison page (`/missed-call-text-back-vs-voicemail-for-hvac-companies`). The HVAC cluster now has thirteen live pages: parent, first-project scoping, lead follow-up, missed-call text-back, appointment setter, booked-job scheduling, AI phone answering, missed-call text-back vs. AI phone answering, missed-call text-back vs. voicemail, AI phone answering vs. voicemail, review automation, maintenance reminders, and quote follow-up.
+This run shipped the GoHighLevel vs. Jobber contractor comparison page (`/gohighlevel-vs-jobber-for-contractors`). This is a new sibling to the existing GoHighLevel vs. Custom CRM contractor page, focused on the marketing-CRM-vs-field-service-platform decision and when contractors need one tool, both, or a bridged setup.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | Cross-cluster reconciliation | HVAC is now a mature twelve-page cluster. Re-check property management, contractors, restaurants, and other mature live verticals for the next clearly distinct child-page gap instead of forcing another HVAC sibling by inertia. | Recommended next |
-| 2 | Verified cross-cluster fallback/watchlist candidate | If reconciliation still does not produce a stronger gap, use a proof-led watchlist candidate from another live cluster rather than extending any already-dense phone cluster automatically. | Evaluate after cross-cluster check |
+| 1 | Cross-cluster reconciliation | The contractor platform-choice cluster now has the parent CRM page plus setup, cost, DIY, custom-CRM comparison, and Jobber comparison pages. Re-check property management, restaurants, law firms, and other mature live verticals for the next clearly distinct child-page gap instead of forcing another contractor-platform sibling by inertia. | Recommended next |
+| 2 | Verified cross-cluster fallback/watchlist candidate | If reconciliation still does not produce a stronger gap, use a proof-led watchlist candidate from another live cluster rather than extending any already-dense platform or phone cluster automatically. | Evaluate after cross-cluster check |

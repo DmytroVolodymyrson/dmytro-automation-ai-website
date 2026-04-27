@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-gohighlevel-vs-jobber-for-contractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: GoHighLevel vs. Jobber for Contractors\nBody: GoHighLevel and Jobber solve different problems for contractors, and comparing them feature-for-feature misses the point. GoHighLevel is a marketing CRM: it handles lead capture, missed-call text-back, automated follow-up sequences, pipeline stages, and appointment booking. Jobber is a field-service platform: it handles scheduling, dispatch, quoting, invoicing, and crew management. The real question is not which one is better — it is whether your revenue is leaking at the marketing-and-lead-follow-up stage or the operations-and-field-execution stage. Most contractors eventually need both layers. The decision is which to fix first and how cleanly the two systems hand off to each other.\nSub: Below: when GoHighLevel alone is enough, when Jobber alone is enough, when contractors need both, and how to keep the handoff between marketing CRM and field-service platform from turning into a second mess.\n\n### Core sections\n- What this decision really changes for contractors\n- Side-by-side for contractor workflows\n- When each tool is the better starting point\n- When contractors need both — and how to keep it clean\n- Good fit / not-fit framing\n- Where this decision usually goes wrong for contractors\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about GoHighLevel vs. Jobber for contractors\nTopics: whether GoHighLevel can replace Jobber, whether Jobber can replace GoHighLevel, when it is worth paying for both, how the handoff usually gets automated, and which side a contractor should fix first based on where revenue is leaking.\n\n### Final CTA\nHeading: Need help deciding between GoHighLevel and Jobber — or connecting both?\nBody: Book a 30-minute call. We will look at where your contractor workflow actually leaks revenue — the marketing-and-follow-up side or the scheduling-and-dispatch side — and whether one tool, both, or a hybrid setup is the right next step.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the live GoHighLevel + contractor cluster had a clear remaining named-tool comparison gap: broad GoHighLevel setup and custom-CRM comparison pages existed, but there was no honest contractor-facing page for the real GoHighLevel-vs-Jobber decision."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the framing distinct from `/gohighlevel-vs-custom-crm-for-contractors` by focusing on marketing CRM vs. field-service platform scope, estimate-to-job handoff, and when contractors need one system versus a bridged two-system stack."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses disciplined adjacent proof only: the live contractor cluster plus the published e-commerce CRM case study, without pretending Dmytro is a Jobber specialist or has a dedicated Jobber case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: workflow ownership, handoff clarity, and operational fit instead of generic software-feature chest-beating."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T07:06:56.428Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        1,
+        2,
+        3
+      ],
+      "avgSentenceLength": 20.8,
+      "sentenceLengthRange": [
+        4,
+        55
+      ],
+      "totalWords": 291
+    },
+    "opener": {
+      "type": "short-punch",
+      "text": "### Hero\nHeading: GoHighLevel vs.",
+      "wordCount": 4,
+      "pattern": "short-punch"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help deciding between GoHighLevel and Jobber — or connecting both?\nBody: Book a 30-minute call. We will look at where your contractor workflow actually leaks revenue — the marketing-and-follow-up side or the scheduling-and-dispatch side — and whether one tool, both, or a hybrid setup is the right next step.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "result",
+        "closer"
+      ],
+      "template": "opener | product-pitch | result | closer"
+    },
+    "punctuation": {
+      "periods": 12,
+      "commas": 18,
+      "emDashes": 5,
+      "enDashes": 0,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 10,
+      "commasPerSentence": 1.38
+    },
+    "vocabulary": {
+      "distinctWords": 148,
+      "totalWords": 291,
+      "topWords": [
+        [
+          "gohighlevel",
+          8
+        ],
+        [
+          "jobber",
+          8
+        ],
+        [
+          "contractors",
+          8
+        ],
+        [
+          "-",
+          7
+        ],
+        [
+          "both",
+          6
+        ],
+        [
+          "when",
+          6
+        ],
+        [
+          "it",
+          5
+        ],
+        [
+          "whether",
+          4
+        ],
+        [
+          "need",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "which",
+          3
+        ],
+        [
+          "revenue",
+          3
+        ],
+        [
+          "decision",
+          3
+        ],
+        [
+          "this",
+          3
+        ],
+        [
+          "contractor",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

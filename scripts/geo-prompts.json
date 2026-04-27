@@ -3501,6 +3501,18 @@
       ]
     },
     {
+      "id": "gohighlevel-vs-jobber-for-contractors",
+      "path": "/gohighlevel-vs-jobber-for-contractors",
+      "label": "GoHighLevel vs. Jobber for Contractors",
+      "prompts": [
+        "GoHighLevel vs Jobber for contractors",
+        "Should a contractor use GoHighLevel or Jobber?",
+        "Do contractors need both GoHighLevel and Jobber?",
+        "Best platform for contractor lead follow-up and scheduling",
+        "How to connect GoHighLevel and Jobber for a home service business"
+      ]
+    },
+    {
       "id": "estimate-follow-up-automation-for-contractors",
       "path": "/estimate-follow-up-automation-for-contractors",
       "label": "Estimate Follow-Up Automation for Contractors",

@@ -2503,6 +2503,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "GoHighLevel vs. Jobber for Contractors",
+    description:
+      "Contractor platform decision guide comparing GoHighLevel (marketing CRM, lead follow-up) against Jobber (field-service scheduling, dispatch, invoicing) — and when you need one vs. both.",
+    href: "/gohighlevel-vs-jobber-for-contractors",
+    category: "industries",
+  },
+  {
     title: "Estimate Follow-Up Automation for Contractors",
     description:
       "A narrower contractor workflow focused on recovering sent estimates with reminder timing, objection-aware messaging, estimator handoff, and open-quote visibility.",

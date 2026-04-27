@@ -215,6 +215,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "CRM automation for contractors", href: "/crm-automation-for-contractors" },
+        { label: "GoHighLevel vs. Jobber for contractors", href: "/gohighlevel-vs-jobber-for-contractors" },
         { label: "Estimate follow-up automation for contractors", href: "/estimate-follow-up-automation-for-contractors" },
         { label: "Dispatch handoff automation for contractors", href: "/dispatch-handoff-automation-for-contractors" },
       ],
@@ -255,6 +256,7 @@ const data: DecisionPageData = {
     "No software hype. Just a practical decision based on your actual pipeline and handoffs.",
   relatedLinks: [
     { label: "CRM automation for contractors", href: "/crm-automation-for-contractors" },
+    { label: "GoHighLevel vs. Jobber for contractors", href: "/gohighlevel-vs-jobber-for-contractors" },
     { label: "Estimate follow-up automation for contractors", href: "/estimate-follow-up-automation-for-contractors" },
     { label: "Dispatch handoff automation for contractors", href: "/dispatch-handoff-automation-for-contractors" },
     { label: "Job intake routing automation for contractors", href: "/job-intake-routing-automation-for-contractors" },
