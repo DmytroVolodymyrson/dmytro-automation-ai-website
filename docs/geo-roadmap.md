@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-26 (shipped `/ai-lead-follow-up-for-pest-control-companies` — the broader early-funnel workflow page that the pest-control cluster was still missing. The cluster already had the parent page, the first-project page, recurring reminders, seasonal campaigns, urgent lead follow-up, review automation, and the phone-recovery pages. This new page now owns the general fresh-lead stage before the first service visit, while the existing urgent pest-control page stays tightly on same-day and emergency demand.)
+Last updated: 2026-04-26 (indexing/support pass on `/ai-automation-consultant-small-business` instead of shipping another net-new GEO page. The site already has a very large live GEO footprint, this consultant page is still one of the highest-value commercial URLs stuck at 'Discovered — currently not indexed,' and the safest move on this run was to strengthen its opening answer, adjacent consultant-intent links, and crawler-facing support text before adding more volume.)
 
 ## Live GEO Assets
 
@@ -253,7 +253,7 @@ Last updated: 2026-04-26 (shipped `/ai-lead-follow-up-for-pest-control-companies
 
 ## Next Pages
 
-`/ai-lead-follow-up-for-pest-control-companies` is now live, so the pest-control cluster no longer has that obvious early-funnel gap. The next run should start with a fresh broad reconciliation across the planning docs, the live routes/pages, and `scripts/geo-prompts.json` rather than forcing another same-cluster follow-up page from memory. If a clean remaining candidate still survives that pass, prefer the next distinct buyer-intent gap with direct or clearly adjacent proof instead of another stale false-live assumption.
+This run deliberately used the fallback path: improve one high-value live page for indexing/internal-linking instead of forcing another net-new GEO URL. `/ai-automation-consultant-small-business` is still one of the most commercial pages on the site and was strengthened because discovery/indexing is currently a bigger bottleneck than page count. The next run should still start with a fresh broad reconciliation across the planning docs, live routes/pages, `scripts/geo-prompts.json`, and the latest indexing priorities before deciding whether a truly distinct net-new page remains safer than another quality/support pass.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|

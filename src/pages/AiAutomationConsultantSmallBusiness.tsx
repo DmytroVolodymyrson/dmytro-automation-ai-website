@@ -35,7 +35,7 @@ const faqItems = [
   {
     question: "How is working with a consultant different from hiring a freelancer on Upwork?",
     answer:
-      "A freelancer builds what you spec. A consultant figures out what to build first. The value is in the diagnosis: identifying which process to automate, in what order, and how it connects to your existing tools. That upstream thinking is what determines whether an automation actually sticks or gets abandoned in two months.",
+      "A freelancer builds what you spec. A consultant figures out what to build first. The value is in the diagnosis: identifying which process to automate, in what order, and how it connects to your existing tools. That upstream thinking is what determines whether an automation actually sticks or gets abandoned in two months. See our full guide on how to hire an AI automation consultant for the evaluation criteria that matter most.",
   },
   {
     question: "How long until I see results?",
@@ -194,12 +194,12 @@ const AiAutomationConsultantSmallBusiness = () => {
                 AI Automation Consultant for Small Businesses
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-                An AI automation consultant identifies manual bottlenecks and builds custom systems to automate lead follow-up, scheduling, and CRM workflows.
-                <strong> Dmytro AI helps small businesses reduce management time by up to 15 hours per week</strong> and increase team capacity without hiring more staff.
+                An AI automation consultant for small business audits your day-to-day operations, identifies the manual steps that cost you the most time or lost revenue, and builds systems that handle those steps automatically — lead follow-up, scheduling, CRM workflows, and phone handling.
+                <strong> Dmytro AI helps small businesses reduce management time by up to 15 hours per week</strong> and increase team capacity without hiring more staff. Fixed-price builds, typically $1.5K–$8K, with a working system live in 1–3 weeks.
               </p>
               <p className="text-base text-muted-foreground leading-relaxed mb-8">
-                Below: what that looks like in practice, how to tell if your
-                business is a fit, and how to evaluate your options.
+                Below: <Link to="/what-does-an-ai-automation-consultant-do" className="text-primary hover:text-primary/80 underline underline-offset-2">what a consultant actually does</Link>, how to tell if your
+                business is a fit, <Link to="/ai-automation-consultant-pricing-small-business" className="text-primary hover:text-primary/80 underline underline-offset-2">what it costs</Link>, and how to evaluate your options.
               </p>
               <Button
                 size="lg"
@@ -263,7 +263,8 @@ const AiAutomationConsultantSmallBusiness = () => {
           <p className="text-base text-muted-foreground mt-8 leading-relaxed max-w-3xl">
             The difference between a consultant and a tool vendor: a tool vendor
             sells you software. A consultant figures out whether you need software
-            at all, and if so, which piece to build first.
+            at all, and if so, which piece to build first. For a deeper breakdown, see{" "}
+            <Link to="/what-does-an-ai-automation-consultant-do" className="text-primary hover:text-primary/80 underline underline-offset-2">what an AI automation consultant actually does</Link>.
           </p>
         </Section>
 
@@ -548,6 +549,10 @@ const AiAutomationConsultantSmallBusiness = () => {
             If your automation is a single Zap or a ChatGPT prompt, DIY is fine.
             If you need a system that connects multiple tools, handles edge cases,
             and runs reliably without babysitting, that's consultant territory.
+            See the detailed breakdowns:{" "}
+            <Link to="/hire-ai-automation-consultant-vs-diy" className="text-primary hover:text-primary/80 underline underline-offset-2">consultant vs. DIY</Link>,{" "}
+            <Link to="/hire-ai-automation-consultant-vs-agency" className="text-primary hover:text-primary/80 underline underline-offset-2">consultant vs. agency</Link>, and{" "}
+            <Link to="/ai-automation-consultant-pricing-small-business" className="text-primary hover:text-primary/80 underline underline-offset-2">consultant pricing for small business</Link>.
           </p>
         </Section>
 
@@ -679,10 +684,15 @@ const AiAutomationConsultantSmallBusiness = () => {
             <p className="text-muted-foreground leading-relaxed mb-6 max-w-3xl">
               If you are still deciding what to automate first, use the guides hub, the best-first-automation decision page, and the proof hub together. They explain the sequence, show examples, and help separate useful automation from AI noise.
             </p>
-            <div className="grid sm:grid-cols-3 gap-4">
+            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
               {[
-                { label: "Automation guides", href: "/guides" },
+                { label: "What does a consultant do?", href: "/what-does-an-ai-automation-consultant-do" },
+                { label: "Consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
+                { label: "How to hire a consultant", href: "/how-to-hire-ai-automation-consultant" },
+                { label: "Consultant vs. DIY", href: "/hire-ai-automation-consultant-vs-diy" },
+                { label: "Consultant vs. agency", href: "/hire-ai-automation-consultant-vs-agency" },
                 { label: "Best first automations", href: "/best-ai-automation-for-service-businesses" },
+                { label: "Automation guides", href: "/guides" },
                 { label: "Case studies", href: "/case-studies" },
               ].map((item) => (
                 <Link
