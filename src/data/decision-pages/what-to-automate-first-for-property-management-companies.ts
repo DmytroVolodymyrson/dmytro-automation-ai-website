@@ -37,21 +37,37 @@ const data: DecisionPageData = {
           icon: Wrench,
           title: "Maintenance request intake and routing",
           body: "Start here when resident maintenance requests come through text, phone, portal, and email with weak urgency sorting and inconsistent vendor or manager handoff. This is usually the best first project when the leak starts with intake clarity itself.",
+          links: [
+            { label: "Maintenance request automation guide", href: "/maintenance-request-automation-for-property-management-companies" },
+            { label: "Emergency vs. routine intake", href: "/emergency-vs-routine-maintenance-intake-for-property-management-companies" },
+          ],
         },
         {
           icon: CalendarCheck,
           title: "Lease renewal follow-up",
           body: "Start here when renewals are tracked loosely, reminders are inconsistent, and managers learn too late which residents are likely to renew or leave. This is the right first workflow when vacancy risk comes from timing and follow-through, not from lead generation.",
+          links: [
+            { label: "Lease renewal automation guide", href: "/lease-renewal-automation-for-property-management-companies" },
+            { label: "Property management parent guide", href: "/ai-automation-for-property-management" },
+          ],
         },
         {
           icon: Building2,
           title: "Showing coordination for vacancies",
           body: "Start here when leasing demand exists, but inquiry routing, scheduling, reminders, and no-show follow-up are still slow enough to stretch vacancy time. This is the safest first move when the leak is before a unit gets filled.",
+          links: [
+            { label: "Showing coordination automation guide", href: "/showing-coordination-automation-for-property-management-companies" },
+            { label: "Paris Cafe after-hours proof", href: "/case-studies/paris-cafe-voice-agent" },
+          ],
         },
         {
           icon: MoonStar,
           title: "After-hours tenant communication and escalation",
           body: "Start here when nights and weekends keep creating noisy on-call burden, routine tenant questions arrive like emergencies, or nobody trusts the overnight triage layer. This is the heavier communication workflow for teams that need cleaner acknowledgment, escalation, and morning handoff after hours.",
+          links: [
+            { label: "After-hours tenant communication guide", href: "/after-hours-tenant-communication-for-property-management-companies" },
+            { label: "After-hours maintenance triage", href: "/after-hours-maintenance-triage-for-property-management-companies" },
+          ],
         },
       ],
     },
@@ -249,7 +265,9 @@ const data: DecisionPageData = {
         { label: "AI automation for property management", href: "/ai-automation-for-property-management" },
         { label: "Maintenance request automation for property management companies", href: "/maintenance-request-automation-for-property-management-companies" },
         { label: "Lease renewal automation for property management companies", href: "/lease-renewal-automation-for-property-management-companies" },
+        { label: "Showing coordination automation for property management companies", href: "/showing-coordination-automation-for-property-management-companies" },
         { label: "After-hours tenant communication for property management companies", href: "/after-hours-tenant-communication-for-property-management-companies" },
+        { label: "After-hours maintenance triage for property management companies", href: "/after-hours-maintenance-triage-for-property-management-companies" },
       ],
     },
   ],
@@ -291,8 +309,11 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation for property management", href: "/ai-automation-for-property-management" },
     { label: "Maintenance request automation for property management companies", href: "/maintenance-request-automation-for-property-management-companies" },
+    { label: "Emergency vs. routine maintenance intake for property management companies", href: "/emergency-vs-routine-maintenance-intake-for-property-management-companies" },
     { label: "Lease renewal automation for property management companies", href: "/lease-renewal-automation-for-property-management-companies" },
     { label: "Showing coordination automation for property management companies", href: "/showing-coordination-automation-for-property-management-companies" },
+    { label: "After-hours tenant communication for property management companies", href: "/after-hours-tenant-communication-for-property-management-companies" },
+    { label: "After-hours maintenance triage for property management companies", href: "/after-hours-maintenance-triage-for-property-management-companies" },
     { label: "All guides", href: "/guides" },
   ],
 };

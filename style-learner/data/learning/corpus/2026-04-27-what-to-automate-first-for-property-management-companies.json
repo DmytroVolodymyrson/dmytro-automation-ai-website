@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-what-to-automate-first-for-property-management-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: What to Automate First for Property Management Companies\nBody: If your property management company knows it needs better automation, the safest first move is usually not a giant all-in-one platform rebuild. It is one bounded workflow that fixes an expensive communication leak first. For most property management teams, that first workflow is one of four things: maintenance request intake and routing, lease renewal follow-up, showing coordination for vacancies, or after-hours tenant communication and escalation.\nSub: This refresh makes those four first-project options easier to crawl and easier to follow by adding direct next-step links into the live property-management child pages instead of leaving the decision page to point only through generic surrounding navigation.\n\n### Core Sections\n1. Added clickable next-step routing under all four first-project cards.\n2. Maintenance intake now links directly to the maintenance-request guide and the emergency-vs-routine triage page.\n3. Lease-renewal routing now links directly to the lease-renewal child page plus the broader parent guide.\n4. Showing-coordination routing now links directly to the showing child page plus adjacent after-hours proof.\n5. After-hours routing now links directly to the after-hours tenant communication page plus the after-hours maintenance triage page.\n6. The proof section and related-links block now route more completely across the property-management cluster instead of stopping at only a subset of child pages.\n\n### FAQ\nSubhead: Practical questions about choosing the first property-management automation\nTopics: what a property management company should automate first, how this differs from the broader parent page, when maintenance intake should come before lease renewals, when after-hours tenant communication should outrank other workflows, and whether one first workflow can justify a broader rollout later.\n\n### Final CTA\nHeading: Need help choosing the first property-management workflow to automate?\nBody: Book a 30-minute call. We will look at where your property-management operation is leaking through maintenance intake, lease renewals, showing coordination, or after-hours tenant communication now, then recommend the narrowest first workflow worth building before anything broader gets funded.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Maintenance pass, not a new page: the value comes from clearer internal routing and cluster discoverability."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays operator-focused and practical: choose the leak first, keep scope bounded, and move people into the right child workflow only when their bottleneck is specific."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Link labels stay plain-English and next-step oriented rather than generic SEO anchors."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing remains honest by using live property-management children plus adjacent published case-study support instead of inventing a direct property-management case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T15:27:45.191Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        12,
+        1,
+        3
+      ],
+      "avgSentenceLength": 16.1,
+      "sentenceLengthRange": [
+        1,
+        54
+      ],
+      "totalWords": 322
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: What to Automate First for Property Management Companies\nBody: If your property management company knows it needs better automation, the safest first move is usually not a giant all-in-one platform rebuild.",
+      "wordCount": 33,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help choosing the first property-management workflow to automate?\nBody: Book a 30-minute call. We will look at where your property-management operation is leaking through maintenance intake, lease renewals, showing coordination, or after-hours tenant communication now, then recommend the narrowest first workflow worth building before anything broader gets funded.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 19,
+      "commas": 13,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 0.65
+    },
+    "vocabulary": {
+      "distinctWords": 170,
+      "totalWords": 322,
+      "topWords": [
+        [
+          "first",
+          9
+        ],
+        [
+          "after-hours",
+          7
+        ],
+        [
+          "page",
+          7
+        ],
+        [
+          "now",
+          6
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "communication",
+          5
+        ],
+        [
+          "maintenance",
+          5
+        ],
+        [
+          "routing",
+          5
+        ],
+        [
+          "links",
+          5
+        ],
+        [
+          "property-management",
+          5
+        ],
+        [
+          "property",
+          4
+        ],
+        [
+          "management",
+          4
+        ],
+        [
+          "intake",
+          4
+        ],
+        [
+          "tenant",
+          4
+        ],
+        [
+          "child",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
