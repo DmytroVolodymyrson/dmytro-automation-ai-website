@@ -62,6 +62,38 @@ const data: DecisionPageData = {
       ],
     },
     {
+      type: "prose",
+      title: "What each pricing band actually includes",
+      subtitle:
+        "The table above compresses a lot of scope variation into a few rows. Here is what you are actually paying for at each level, so you can match the band to your workflow instead of guessing:",
+      blocks: [
+        {
+          heading: "$1.2K–$2.2K build — basic web-form or SMS booking",
+          body: "Scope: a single inbound channel (web form submission or SMS keyword) triggers an automated booking response. The system offers available slots from one calendar, confirms the appointment, and sends one reminder. No voice handling. No qualification logic beyond 'did they fill out the form correctly.' CRM gets a new contact record with the booking attached. Monthly running cost is mostly calendar-tool and SMS fees. This band fits businesses where the main leak is slow manual response to straightforward online inquiries — not complex intake or phone calls.",
+        },
+        {
+          heading: "$1.8K–$3.2K build — calendar-linked setter with reminders",
+          body: "Scope: the system now manages real calendar availability with buffer rules, appointment-type routing (e.g. 'estimate visit' vs. '15-min phone consult'), working-hours enforcement, and a reminder sequence (typically SMS + email, 24 hours and 1 hour before). Reschedule and cancellation handling is included. This is the most common starting point for service businesses that already have a CRM and need the booking flow to respect existing scheduling constraints without creating double-bookings or orphaned calendar entries.",
+        },
+        {
+          heading: "$2.5K–$4.5K build — qualification + CRM handoff",
+          body: "Scope: before booking, the system screens the inquiry against your qualification criteria — service area, job type, budget range, urgency, or whatever filters separate a real prospect from a bad fit. Qualified leads get booked directly; unqualified ones get a polite decline or a different next step. The CRM record includes qualification answers, source, and routing tags. Human-handoff rules define when a team member gets notified instead of the AI booking autonomously. This is where the appointment setter becomes a revenue filter, not just a scheduling shortcut.",
+        },
+        {
+          heading: "$3K–$5.5K build — voice-based inbound appointment setter",
+          body: "Scope: the AI answers live phone calls, navigates a real-time conversation, collects the information it needs, and books the appointment while the caller is still on the line. Voice builds cost more because the system must handle interruptions, off-script responses, hold-and-transfer logic, and graceful fallback when it cannot resolve the request. Telephony platform fees (per-minute calling, phone number provisioning) add to the monthly cost. This band is relevant when inbound calls are a primary lead channel and missed or slow-answered calls are the revenue leak.",
+        },
+        {
+          heading: "$2.5K–$4.8K build — after-hours booking + missed-call recovery",
+          body: "Scope: covers the gap between business hours and the next morning. When a call or inquiry arrives after hours, the system responds immediately — via text-back, voicemail-triggered SMS, or a web-chat booking flow — and either books the appointment or captures enough information for a warm callback the next business day. Often paired with a missed-call text-back workflow so no inbound signal goes unanswered. Monthly cost depends on call volume and SMS usage. Relevant when after-hours and weekend inquiries represent a meaningful share of lost opportunities.",
+        },
+        {
+          heading: "$4.5K–$7K+ build — multi-location or dispatch-aware booking",
+          body: "Scope: the appointment setter routes the inquiry to the correct location, technician territory, or service team based on zip code, job type, or availability. Calendar rules differ per location or crew. Escalation paths vary. This is the most complex band because the routing logic, calendar integrations, and fallback rules multiply with each location or dispatch zone. Monthly costs scale with the number of active calendars, phone lines, and CRM routing rules. Only relevant for businesses that already have multi-location or dispatch complexity and want to automate the intake layer across all of it.",
+        },
+      ],
+    },
+    {
       type: "cards",
       title: "What makes the price go up",
       subtitle:
@@ -71,21 +103,36 @@ const data: DecisionPageData = {
           icon: Phone,
           title: "Whether it handles voice, not just forms or text",
           body: "A simple scheduling workflow for web leads is cheaper than a voice system that has to answer calls in real time, steer the conversation, and recover gracefully when the caller goes off script.",
+          links: [
+            { label: "Voice agent setup cost", href: "/ai-voice-agent-setup-cost-small-business" },
+            { label: "Voice agent vs. human setter", href: "/ai-voice-agent-vs-human-appointment-setter" },
+          ],
         },
         {
           icon: CalendarCheck,
           title: "How strict the calendar and booking rules are",
           body: "The more the system has to manage service areas, buffers, appointment types, working hours, reschedules, and fallback rules, the more setup and testing it needs before you can trust it live.",
+          links: [
+            { label: "Booking confirmation and reminders", href: "/booking-confirmation-and-reminder-automation" },
+            { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
+          ],
         },
         {
           icon: Workflow,
           title: "Whether it only books or also routes and follows up",
           body: "The cheap version is 'offer a slot and confirm it.' The more valuable version also creates or updates the contact, logs the interaction, triggers reminders, notifies the owner, and hands off correctly when a human needs to step in.",
+          links: [
+            { label: "Instant lead response", href: "/instant-lead-response-automation" },
+            { label: "Lead follow-up cost", href: "/ai-lead-follow-up-cost-small-business" },
+          ],
         },
         {
           icon: Bot,
           title: "How much qualification logic is included",
           body: "If the AI needs to screen out bad-fit inquiries, decide who gets booked, and route everything else to the right next step, the project gets more valuable and more expensive because the logic matters more than the script.",
+          links: [
+            { label: "Voice agent lead qualification", href: "/ai-voice-agent-lead-qualification" },
+          ],
         },
       ],
     },
@@ -177,8 +224,10 @@ const data: DecisionPageData = {
       links: [
         { label: "AI appointment setter", href: "/ai-appointment-setter" },
         { label: "AI appointment setter setup help", href: "/ai-appointment-setter-setup" },
+        { label: "Appointment setter ROI", href: "/ai-appointment-setter-roi-small-business" },
         { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
         { label: "AI appointment setter for home service businesses", href: "/ai-appointment-setter-for-home-service-businesses" },
+        { label: "Missed-call text-back vs. AI phone answering", href: "/missed-call-text-back-vs-ai-phone-answering-for-service-businesses" },
       ],
     },
     {
@@ -219,6 +268,11 @@ const data: DecisionPageData = {
         "Voice handling, complex qualification rules, multiple appointment types, CRM handoff, service-area logic, reminders, missed-call recovery, and unclear human ownership rules. The more systems and edge cases the workflow has to manage, the more setup and testing it needs.",
     },
     {
+      question: "What is included in a $2K–$4K appointment-setter build?",
+      answer:
+        "At the $2K–$4K range, you typically get calendar-linked scheduling with availability rules, appointment-type routing, a reminder sequence (SMS and email), CRM contact creation with booking details, and basic qualification logic that screens inquiries before booking. Monthly running costs at this level usually land between $30 and $150 depending on SMS volume and calendar-tool fees.",
+    },
+    {
       question: "Can I start with a smaller appointment-setter workflow and expand later?",
       answer:
         "Yes. That is usually the smartest move. Start with one booking path or one after-hours response problem, prove that it recovers real appointments, then expand into richer qualification, reminders, routing, or additional channels once the first phase is working.",
@@ -238,9 +292,14 @@ const data: DecisionPageData = {
     "No giant AI proposal. Just a practical scope and cost conversation.",
   relatedLinks: [
     { label: "AI appointment setter", href: "/ai-appointment-setter" },
-    { label: "AI appointment setter setup help", href: "/ai-appointment-setter-setup" },
-    { label: "AI appointment setter for home service businesses", href: "/ai-appointment-setter-for-home-service-businesses" },
-    { label: "AI appointment setter vs. receptionist", href: "/ai-appointment-setter-vs-receptionist" },
+    { label: "Appointment setter setup help", href: "/ai-appointment-setter-setup" },
+    { label: "Appointment setter ROI", href: "/ai-appointment-setter-roi-small-business" },
+    { label: "Setup vs. DIY", href: "/ai-appointment-setter-setup-vs-diy-small-business" },
+    { label: "Appointment setter for home services", href: "/ai-appointment-setter-for-home-service-businesses" },
+    { label: "Appointment setter vs. receptionist", href: "/ai-appointment-setter-vs-receptionist" },
+    { label: "Voice agent setup cost", href: "/ai-voice-agent-setup-cost-small-business" },
+    { label: "Voice agent vs. human setter", href: "/ai-voice-agent-vs-human-appointment-setter" },
+    { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
     { label: "Guides hub", href: "/guides" },
   ],
 };

@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-ai-appointment-setter-cost-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: AI Appointment Setter Cost for Small Business\nBody: If you are pricing AI appointment setters, the useful question is not \"what is the cheapest monthly tool?\" It is \"what kind of booking workflow am I actually trying to automate?\" A small business that only needs fast web-lead scheduling should not buy the same stack as a business that needs voice intake, qualification, calendar rules, reminders, CRM routing, and human fallback for edge cases. This page breaks down realistic appointment-setter pricing specifically — not broad AI automation budgets, and not generic software listicles — so you can budget the narrowest build that actually protects revenue.\nSub: Below: what different appointment-setter builds usually cost, what pushes the price up, when a simpler setup is enough, and how to sanity-check the ROI before you overbuy.\n\n### Existing pricing table retained\nSection: What appointment-setter automation usually costs\n- Keeps the six existing range rows:\n  - Basic web-form or SMS booking workflow\n  - Calendar-linked appointment setter with reminders\n  - Appointment setter with qualification and CRM handoff\n  - Voice-based appointment setter for inbound calls\n  - After-hours booking plus missed-call recovery stack\n  - Higher-complexity multi-location or dispatch-aware booking\n\n### New pricing-breakdown section\nHeading: What each pricing band actually includes\nIntro: The table above compresses a lot of scope variation into a few rows. Here is what you are actually paying for at each level, so you can match the band to your workflow instead of guessing.\n\n1. \"$1.2K–$2.2K build — basic web-form or SMS booking\"\n- Explains one-channel inbound booking, single-calendar slot offering, one reminder, no voice handling, and lightweight CRM record creation.\n- Frames this as the fit when the leak is slow manual response to straightforward online inquiries.\n\n2. \"$1.8K–$3.2K build — calendar-linked setter with reminders\"\n- Explains buffer rules, appointment-type routing, working-hours enforcement, reschedules/cancellations, and multi-step reminders.\n- Frames this as the common first build when the business already has a CRM and needs booking rules to behave cleanly.\n\n3. \"$2.5K–$4.5K build — qualification + CRM handoff\"\n- Explains service-area/job-type/budget/urgency screening before booking.\n- Explains qualified-vs-unqualified logic, CRM routing tags, and human-handoff triggers.\n- Reframes this band as a revenue filter, not just a scheduler.\n\n4. \"$3K–$5.5K build — voice-based inbound appointment setter\"\n- Explains live-call answering, real-time conversation handling, interruptions, off-script recovery, hold/transfer logic, and telephony usage costs.\n- Frames this as the fit when inbound calls are the main lead channel.\n\n5. \"$2.5K–$4.8K build — after-hours booking + missed-call recovery\"\n- Explains text-back / voicemail-triggered SMS / web-chat recovery and warm callback capture.\n- Ties this band to nights/weekends as the lost-opportunity window.\n\n6. \"$4.5K–$7K+ build — multi-location or dispatch-aware booking\"\n- Explains location/territory/team routing, per-location calendar rules, and multiplied fallback logic.\n- Frames this as only relevant for businesses with real dispatch or multi-location complexity.\n\n### Updated cost-driver cards\nSection: What makes the price go up\n- Adds contextual internal links to adjacent proof/cluster pages:\n  - /ai-voice-agent-setup-cost-small-business\n  - /ai-voice-agent-vs-human-appointment-setter\n  - /booking-confirmation-and-reminder-automation\n  - /no-show-reduction-automation\n  - /instant-lead-response-automation\n  - /ai-lead-follow-up-cost-small-business\n  - /ai-voice-agent-lead-qualification\n\n### Expanded proof / adjacent proof links\nSection: Proof and adjacent proof\n- Keeps Paris Café, lead-qualification, and setup-help proof framing.\n- Expands the supporting link row to include:\n  - /ai-appointment-setter-roi-small-business\n  - /missed-call-text-back-vs-ai-phone-answering-for-service-businesses\n\n### Updated FAQ and related links\n- Adds a new FAQ: \"What is included in a $2K–$4K appointment-setter build?\"\n- Expands related links to include:\n  - /ai-appointment-setter-roi-small-business\n  - /ai-appointment-setter-setup-vs-diy-small-business\n  - /ai-voice-agent-setup-cost-small-business\n  - /ai-voice-agent-vs-human-appointment-setter\n  - /ai-phone-answering-for-service-businesses",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was an indexing/internal-linking refresh on an existing pricing page, not a new page ship."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The new section makes the cost ranges more answer-extractable by tying each band to concrete scope, inclusions, and fit conditions instead of leaving them as abstract price rows."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Internal links stay tightly inside the appointment-setter / lead-response / voice / proof cluster so the page routes readers toward setup, ROI, qualification, and phone-handling depth without drifting off-topic."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and buyer-facing: clear budgeting help, no inflated promises, no fake precision, no invented case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The update keeps the page distinct from the broader appointment-setter and voice-agent pages by staying on implementation scope and cost-band interpretation."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-27T11:00:19.788Z",
+    "structure": {
+      "paragraphCount": 12,
+      "sentencesPerParagraph": [
+        3,
+        1,
+        2,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        1,
+        2,
+        1
+      ],
+      "avgSentenceLength": 19,
+      "sentenceLengthRange": [
+        1,
+        75
+      ],
+      "totalWords": 550
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nHeading: AI Appointment Setter Cost for Small Business\nBody: If you are pricing AI appointment setters, the useful question is not \"what is the cheapest monthly tool?\" It is \"what kind of booking workflow am I actually trying to automate?\" A small business that only needs fast web-lead scheduling should not buy the same stack as a business that needs voice intake, qualification, calendar rules, reminders, CRM routing, and human fallback for edge cases.",
+      "wordCount": 75,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Updated FAQ and related links\n- Adds a new FAQ: \"What is included in a $2K–$4K appointment-setter build?\"\n- Expands related links to include:\n  - /ai-appointment-setter-roi-small-business\n  - /ai-appointment-setter-setup-vs-diy-small-business\n  - /ai-voice-agent-setup-cost-small-business\n  - /ai-voice-agent-vs-human-appointment-setter\n  - /ai-phone-answering-for-service-businesses",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "context",
+        "context",
+        "result",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | context | context | result | context | context | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 35,
+      "commas": 31,
+      "emDashes": 8,
+      "enDashes": 7,
+      "hyphens": 39,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 3,
+      "colon": 14,
+      "commasPerSentence": 1.19
+    },
+    "vocabulary": {
+      "distinctWords": 271,
+      "totalWords": 550,
+      "topWords": [
+        [
+          "-",
+          39
+        ],
+        [
+          "booking",
+          10
+        ],
+        [
+          "what",
+          9
+        ],
+        [
+          "build",
+          9
+        ],
+        [
+          "as",
+          7
+        ],
+        [
+          "this",
+          7
+        ],
+        [
+          "explains",
+          7
+        ],
+        [
+          "appointment",
+          6
+        ],
+        [
+          "setter",
+          6
+        ],
+        [
+          "crm",
+          6
+        ],
+        [
+          "not",
+          5
+        ],
+        [
+          "proof",
+          5
+        ],
+        [
+          "business",
+          4
+        ],
+        [
+          "pricing",
+          4
+        ],
+        [
+          "actually",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
