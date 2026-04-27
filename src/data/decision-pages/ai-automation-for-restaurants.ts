@@ -236,6 +236,7 @@ const data: DecisionPageData = {
     { label: "AI voice agent for restaurants", href: "/ai-voice-agent-for-restaurants" },
     { label: "Private event inquiry follow-up for restaurants", href: "/private-event-inquiry-follow-up-for-restaurants" },
     { label: "Reservation confirmation and reminder automation", href: "/reservation-confirmation-and-reminder-automation-for-restaurants" },
+    { label: "Review request automation for restaurants", href: "/review-request-automation-for-restaurants" },
   ],
 };
 

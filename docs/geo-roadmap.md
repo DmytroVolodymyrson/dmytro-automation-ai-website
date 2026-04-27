@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/quote-follow-up-automation-for-service-businesses` — the missing horizontal parent for the mature quote-follow-up cluster, distinct from the generic `/quote-follow-up-automation` guide, the narrower `/estimate-follow-up-automation-for-service-businesses` page, and the existing vertical quote children. Total live pages: 270.)
+Last updated: 2026-04-27 (shipped `/review-request-automation-for-restaurants` — the first restaurant-specific review-request workflow page, extending the horizontal `/review-request-automation-for-service-businesses` parent into the restaurant vertical with dining-context timing, unhappy-reply routing, and front-of-house handoff. Total live pages: 271.)
 
 ## Live GEO Assets
 
@@ -87,6 +87,7 @@ Last updated: 2026-04-27 (shipped `/quote-follow-up-automation-for-service-busin
 | Reservation Reminder Automation | `/reservation-confirmation-and-reminder-automation-for-restaurants` | Vertical workflow page | Live |
 | Missed Call Text-Back (Restaurants) | `/missed-call-text-back-for-restaurants` | Vertical workflow page | Live |
 | After Hours Phone Answering | `/after-hours-phone-answering-for-restaurants` | Vertical solution page | Live |
+| Review Request Automation (Restaurants) | `/review-request-automation-for-restaurants` | Vertical workflow page | Live |
 | AI for Real Estate | `/ai-automation-for-real-estate` | Vertical category page | Live |
 | Real Estate Lead Response | `/real-estate-lead-response-and-follow-up-automation` | Vertical workflow page | Live |
 | Showing Coordination Automation | `/showing-coordination-automation-for-real-estate-teams` | Vertical workflow page | Live |
@@ -281,9 +282,9 @@ Last updated: 2026-04-27 (shipped `/quote-follow-up-automation-for-service-busin
 
 ## Next Pages
 
-This run shipped the missing horizontal parent for the mature quote-follow-up cluster (`/quote-follow-up-automation-for-service-businesses`). That closes a real cross-industry quote-stage gap without collapsing back into the generic `/quote-follow-up-automation` guide, the narrower estimate-follow-up parent, or any one vertical quote child. The next run should not force another quote slug by inertia. It should re-check the remaining mature workflow clusters, prompt ownership, and live routing before naming the next clean candidate.
+This run shipped `/review-request-automation-for-restaurants` — the first restaurant-specific review-request workflow page. The restaurant cluster now covers category, prioritization, voice agent, private events, reservations, missed-call text-back, after-hours phone answering, comparison pages, and post-visit review requests. The next run should re-check whether any remaining restaurant workflow gap is real (e.g. catering follow-up, loyalty/return-visit outreach) or whether the next strongest candidate is in a different vertical entirely.
 
 | Priority | Candidate | Why it is next | Status |
 |---|---|---|---|
-| 1 | `Broad reconciliation / watchlist refresh` | The cleanest quote-stage parent gap is now filled. Re-check route coverage, planning docs, prompt ownership, and live cluster separation before naming another slug so the next ship does not drift into overlap by habit. | Primary next step |
-| 2 | `Fresh proof-led cluster audit` | If the broader reconciliation still surfaces a distinct high-intent workflow child with direct proof adjacency, ship that next. Otherwise keep the roadmap honest instead of forcing a weak candidate. | Honest fallback |
+| 1 | `Broad reconciliation / cluster audit` | The restaurant cluster is now deep. Re-check whether the next strongest gap is another restaurant child, a different vertical workflow page, or a horizontal parent that still needs a clean service-business version. | Primary next step |
+| 2 | `Fresh proof-led candidate` | If the audit surfaces a distinct high-intent page with direct proof adjacency and clean cluster separation, ship that next. Otherwise keep the roadmap honest. | Honest fallback |

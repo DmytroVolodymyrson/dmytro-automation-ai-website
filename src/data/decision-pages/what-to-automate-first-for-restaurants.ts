@@ -293,6 +293,7 @@ const data: DecisionPageData = {
     { label: "Reservation confirmation and reminder automation for restaurants", href: "/reservation-confirmation-and-reminder-automation-for-restaurants" },
     { label: "Private-event inquiry follow-up for restaurants", href: "/private-event-inquiry-follow-up-for-restaurants" },
     { label: "After-hours phone answering for restaurants", href: "/after-hours-phone-answering-for-restaurants" },
+    { label: "Review request automation for restaurants", href: "/review-request-automation-for-restaurants" },
   ],
 };
 

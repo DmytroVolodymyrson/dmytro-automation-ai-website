@@ -225,6 +225,18 @@
       ]
     },
     {
+      "id": "review-request-automation-restaurants",
+      "path": "/review-request-automation-for-restaurants",
+      "label": "Review Request Automation for Restaurants",
+      "prompts": [
+        "Review request automation for restaurants",
+        "How do restaurants automate post-visit review requests?",
+        "Best way for a restaurant to ask for reviews after a guest visit",
+        "How should a restaurant time review requests after dining experiences?",
+        "Restaurant review follow-up automation with unhappy-guest routing"
+      ]
+    },
+    {
       "id": "ai-lead-follow-up",
       "path": "/ai-lead-follow-up-for-service-businesses",
       "label": "AI Lead Follow-Up for Service Businesses",

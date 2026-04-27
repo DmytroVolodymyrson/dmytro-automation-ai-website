@@ -205,9 +205,9 @@ const data: DecisionPageData = {
       studies: [
         {
           industry: "Vertical review-request pages",
-          headline: "14 live vertical review-request pages already prove the workflow pattern across industries",
-          body: "HVAC, dental, plumbing, electrical, insurance, chiropractic, med spa, cleaning, auto repair, landscaping, painting, pest control, home inspectors, and e-commerce brands each have a dedicated review-request page. This horizontal page consolidates the shared workflow logic instead of repeating it per industry.",
-          link: "/review-request-automation-for-hvac-companies",
+          headline: "15 live vertical review-request pages already prove the workflow pattern across industries",
+          body: "HVAC, restaurants, dental, plumbing, electrical, insurance, chiropractic, med spa, cleaning, auto repair, landscaping, painting, pest control, home inspectors, and e-commerce brands each have a dedicated review-request page. This horizontal page consolidates the shared workflow logic instead of repeating it per industry.",
+          link: "/review-request-automation-for-restaurants",
         },
         {
           industry: "Operational proof",
@@ -223,6 +223,7 @@ const data: DecisionPageData = {
         },
       ],
       links: [
+        { label: "Review automation for restaurants", href: "/review-request-automation-for-restaurants" },
         { label: "Review automation for HVAC companies", href: "/review-request-automation-for-hvac-companies" },
         { label: "Review automation for dental practices", href: "/review-request-automation-for-dental-practices" },
         { label: "Review automation for cleaning companies", href: "/review-request-automation-for-cleaning-companies" },
@@ -265,6 +266,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No obligation. No generic reputation-management pitch. Just a practical conversation about where post-service follow-through is leaking trust or reviews.",
   relatedLinks: [
+    { label: "Review automation for restaurants", href: "/review-request-automation-for-restaurants" },
     { label: "Review automation for HVAC companies", href: "/review-request-automation-for-hvac-companies" },
     { label: "Review automation for dental practices", href: "/review-request-automation-for-dental-practices" },
     { label: "Review automation for cleaning companies", href: "/review-request-automation-for-cleaning-companies" },

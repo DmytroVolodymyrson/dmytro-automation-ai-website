@@ -835,6 +835,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Review Request Automation for Restaurants",
+    description:
+      "How restaurants automate post-visit review requests with timing matched to the dining context, unhappy-reply routing before the public ask, and cleaner front-of-house handoff for reputation follow-through.",
+    href: "/review-request-automation-for-restaurants",
+    category: "industries",
+  },
+  {
     title: "Missed Call Text-Back for Restaurants",
     description:
       "How restaurants recover missed reservation and guest-service calls with an immediate text-back workflow, where SMS-first recovery works better than voicemail, and when a full voice agent is the better fit.",
