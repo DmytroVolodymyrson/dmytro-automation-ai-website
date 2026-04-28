@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/ai-automation-consultant-ottawa` as a bounded net-new geo page. Same proven geo-consultant pattern as Calgary/Edmonton/Vancouver/Toronto. Ottawa is a believable remote-service market with government, professional-services, and local-operator intent. Copy stays honest about remote delivery from Alberta with adjacent proof only.)
+Last updated: 2026-04-28 (ran a bounded indexing/internal-linking refresh on `/ai-automation-consultant-small-business` instead of forcing a weaker net-new page. Reconciliation across planning docs, routes, guides, sitemap, llm files, and `scripts/geo-prompts.json` did not surface a cleaner distinct buyer-intent page than the already-prioritized discovered-not-indexed consultant URL. The refresh added a new answer-extractable first-project section plus deeper links into workflow, proof, roadmap, and support pages.)
 
 ## Live GEO Assets
 
@@ -310,13 +310,13 @@ Last updated: 2026-04-28 (shipped `/ai-automation-consultant-ottawa` as a bounde
 
 ## Next Pages
 
-This run shipped `/ai-automation-consultant-ottawa`, extending the proven consultant-geo cluster into a second Ontario city. The next run should:
+This run used the fallback path and strengthened `/ai-automation-consultant-small-business` because a fresh planning-doc + live-route reconciliation still did not surface a cleaner distinct planned page than the already-prioritized discovered-not-indexed consultant URL. The next run should:
 
-1. **Verify live/indexing behavior** for `/ai-automation-consultant-ottawa` after deploy propagation, then request indexing manually in GSC if it stays discovered-not-indexed.
-2. **Run broad reconciliation** across routes, prompts, guides, sitemap, and llm surfaces before naming another speculative net-new page. The drift between `scripts/geo-prompts.json`, `docs/geo-tracking.md`, `src/pages/Guides.tsx`, `public/sitemap.xml`, and the full live route/component set still deserves a cleanup pass.
-3. **If no clearly safe net-new page survives reconciliation, do a bounded indexing/internal-linking refresh** on one priority discovered-not-indexed commercial page instead of forcing another geo clone.
+1. **Verify live/indexing behavior** for `/ai-automation-consultant-small-business` after deploy propagation, then request indexing manually in GSC if it still shows discovered-not-indexed.
+2. **Run broad reconciliation again** across routes, prompts, guides, sitemap, llm surfaces, and `docs/geo-tracking.md` before naming any new speculative page. The main risk is now stale queue wording rather than missing content.
+3. **If reconciliation still finds no clearly safe net-new page, do the next bounded commercial refresh** on a related high-intent consultant-cluster page instead of forcing another geo clone or thin comparison.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Broad prompts/route reconciliation pass | Drift between tracking docs, prompts, guides, sitemap, and llm surfaces still weakens internal discovery even when content exists. | Re-run the live-routes vs prompts/guides/sitemap/llm diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
-| 2 | `/ai-automation-consultant-small-business` indexing/internal-linking refresh | It is still one of the highest-value commercial pages and remains discovered-not-indexed in the latest manual GSC snapshot. A bounded proof/linking refresh is safer than forcing a weaker net-new page if reconciliation finds no clean candidate. | Confirm current live copy and internal-link cluster first so the refresh is additive, not repetitive. |
+| 1 | Broad prompts/route reconciliation pass | Drift between tracking docs, prompts, guides, sitemap, llm surfaces, and roadmap queue wording can still hide either a real remaining page or a cleaner maintenance target. | Re-run the live-routes vs prompts/guides/sitemap/llm diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
+| 2 | `/ai-automation-consultant-pricing-small-business` indexing/internal-linking refresh | It sits in the same high-intent consultant cluster, is already a priority URL, and can be strengthened further around budget-band routing and proof-led next steps without overlapping the main consultant page too heavily. | Confirm the current live copy and internal-link cluster first so the refresh adds a new budget/proof angle rather than repeating the consultant page improvements. |

@@ -53,6 +53,11 @@ const faqItems = [
       "That's exactly what the initial call is for. We'll walk through your current workflows, identify where time and money are leaking, and figure out the highest-impact first move. You don't need to arrive with a plan. That's my job.",
   },
   {
+    question: "What does a first consultant project usually turn into?",
+    answer:
+      "For most small businesses, the first project is not a giant AI rollout. It is one bounded operating problem: lead follow-up, missed-call recovery, scheduling and reminders, CRM cleanup, or reactivation. The best first project is the one tied to a live bottleneck you can already see in missed leads, slow response time, or admin drag. If you want to compare those starting points before booking, use the best-first-automation guide, the implementation roadmap, and the case studies together.",
+  },
+  {
     question: "Are there any hidden costs?",
     answer:
       "No. I quote fixed prices for the build. You'll also have small monthly platform costs (like n8n hosting or CRM fees) which we'll discuss during the mapping stage. I optimize for the lowest long-term cost, often replacing expensive tools with self-hosted alternatives like n8n.",
@@ -561,6 +566,93 @@ const AiAutomationConsultantSmallBusiness = () => {
           </div>
         </Section>
 
+        {/* ── What a first consultant project usually is ───────────── */}
+        <Section>
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
+            What a first consultant project usually turns into
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
+            Most small businesses do not start with a giant AI transformation. The
+            first win is usually one bottleneck with a clear owner, a measurable
+            leak, and a simple before-and-after story.
+          </p>
+          <div className="grid gap-5 md:grid-cols-2 max-w-5xl">
+            {[
+              {
+                title: "Leads are waiting too long",
+                body:
+                  "The first project is usually instant response plus short follow-up so form fills and inbound inquiries stop sitting for hours or days.",
+                links: [
+                  { label: "AI lead follow-up", href: "/ai-lead-follow-up-for-service-businesses" },
+                  { label: "Estimate / quote follow-up", href: "/estimate-follow-up-automation-for-service-businesses" },
+                ],
+              },
+              {
+                title: "Calls are getting missed after hours",
+                body:
+                  "The first project is usually missed-call recovery or live AI phone coverage, depending on volume, caller expectations, and how fast the team can call back.",
+                links: [
+                  { label: "Missed-call text-back", href: "/missed-call-text-back-for-service-businesses" },
+                  { label: "AI phone answering", href: "/ai-phone-answering-for-service-businesses" },
+                ],
+              },
+              {
+                title: "Booked appointments are still leaking",
+                body:
+                  "The first project is usually scheduling, confirmation, reminder, and no-show protection so warm demand actually turns into attended appointments.",
+                links: [
+                  { label: "Scheduling and reminders", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
+                  { label: "AI appointment setter", href: "/ai-appointment-setter" },
+                ],
+              },
+              {
+                title: "The CRM is messy and old leads go untouched",
+                body:
+                  "The first project is usually database cleanup, segmentation, and reactivation so the business gets value from contacts it already paid to acquire.",
+                links: [
+                  { label: "Client reactivation", href: "/client-reactivation-automation-for-service-businesses" },
+                  { label: "Implementation roadmap", href: "/ai-automation-implementation-roadmap" },
+                ],
+              },
+            ].map((item, i) => (
+              <motion.div
+                key={item.title}
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.05, duration: 0.35 }}
+                className="rounded-2xl border border-border/60 bg-card/80 p-6 shadow-card"
+              >
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  {item.title}
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                  {item.body}
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  {item.links.map((link) => (
+                    <Link
+                      key={link.href}
+                      to={link.href}
+                      className="text-sm font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+                    >
+                      {link.label}
+                      <ArrowRight className="w-4 h-4" />
+                    </Link>
+                  ))}
+                </div>
+              </motion.div>
+            ))}
+          </div>
+          <p className="text-sm text-muted-foreground mt-6 max-w-3xl leading-relaxed">
+            If you want to compare these starting points before booking a call, use the{" "}
+            <Link to="/best-ai-automation-for-service-businesses" className="text-primary hover:text-primary/80 underline underline-offset-2">best-first-automation page</Link>, the{" "}
+            <Link to="/case-studies" className="text-primary hover:text-primary/80 underline underline-offset-2">case studies hub</Link>, and the{" "}
+            <Link to="/ai-automation-maintenance-and-support-small-business" className="text-primary hover:text-primary/80 underline underline-offset-2">maintenance and support guide</Link>{" "}
+            together. They show what usually gets built first, what proof on this site supports it, and what ongoing ownership looks like once the workflow goes live.
+          </p>
+        </Section>
+
         {/* ── Consultant vs agency vs DIY ──────────────────────────── */}
         <Section>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
@@ -822,6 +914,8 @@ const AiAutomationConsultantSmallBusiness = () => {
                 { label: "Consultant vs. DIY", href: "/hire-ai-automation-consultant-vs-diy" },
                 { label: "Consultant vs. agency", href: "/hire-ai-automation-consultant-vs-agency" },
                 { label: "Best first automations", href: "/best-ai-automation-for-service-businesses" },
+                { label: "Implementation roadmap", href: "/ai-automation-implementation-roadmap" },
+                { label: "Maintenance and support", href: "/ai-automation-maintenance-and-support-small-business" },
                 { label: "Automation guides", href: "/guides" },
                 { label: "Case studies", href: "/case-studies" },
                 { label: "Automation costs", href: "/ai-automation-cost-small-business" },
