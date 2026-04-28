@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 370 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 371 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -119,13 +119,14 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **n8n Workflow Cleanup vs. Rebuild** — `/n8n-workflow-cleanup-vs-rebuild`
 - **Roofing Scheduling and Follow-Up Automation** — `/roofing-scheduling-and-follow-up-automation`
 
-### Geo + local consultant pages (6)
+### Geo + local consultant pages (7)
 - **AI Automation Consultant Calgary** — `/ai-automation-consultant-calgary`
 - **AI Automation Consultant Edmonton** — `/ai-automation-consultant-edmonton`
 - **AI Automation Consultant Vancouver** — `/ai-automation-consultant-vancouver`
 - **AI Automation Consultant Toronto** — `/ai-automation-consultant-toronto`
 - **AI Automation Consultant Ottawa** — `/ai-automation-consultant-ottawa`
 - **AI Automation Consultant Ontario** — `/ai-automation-consultant-ontario`
+- **AI Automation Consultant British Columbia** — `/ai-automation-consultant-british-columbia`
 
 ### Industry + vertical pages (229)
 - **After-Hours AI Phone Answering vs. Voicemail for Restaurants** — `/after-hours-ai-phone-answering-vs-voicemail-for-restaurants`

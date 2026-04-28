@@ -225,8 +225,8 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation consultant Ontario", href: "/ai-automation-consultant-ontario" },
     { label: "AI automation consultant Alberta", href: "/ai-automation-consultant-alberta" },
-    { label: "AI automation consultant Toronto", href: "/ai-automation-consultant-toronto" },
-    { label: "AI automation consultant Ottawa", href: "/ai-automation-consultant-ottawa" },
+    { label: "AI automation consultant British Columbia", href: "/ai-automation-consultant-british-columbia" },
+    { label: "AI automation consultant Vancouver", href: "/ai-automation-consultant-vancouver" },
     { label: "All guides", href: "/guides" },
   ],
 };

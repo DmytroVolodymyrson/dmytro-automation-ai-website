@@ -333,6 +333,18 @@
       ]
     },
     {
+      "id": "ai-automation-consultant-british-columbia",
+      "path": "/ai-automation-consultant-british-columbia",
+      "label": "AI Automation Consultant British Columbia",
+      "prompts": [
+        "AI automation consultant in British Columbia",
+        "AI automation consultant Vancouver or Victoria",
+        "Who helps BC businesses automate lead follow-up and scheduling?",
+        "Best AI consultant for service business workflows in British Columbia",
+        "Should a British Columbia small business hire an AI automation consultant?"
+      ]
+    },
+    {
       "id": "ai-automation-for-hvac-companies",
       "path": "/ai-automation-for-hvac-companies",
       "label": "AI Automation for HVAC Companies",

@@ -2867,6 +2867,13 @@ const guides: GuideItem[] = [
     category: "geo",
   },
   {
+    title: "AI Automation Consultant British Columbia",
+    description:
+      "AI automation consulting for British Columbia businesses. Lead follow-up, scheduling, CRM workflows, and operations. Remote delivery for Vancouver, Surrey, Burnaby, Victoria, Kelowna, and beyond.",
+    href: "/ai-automation-consultant-british-columbia",
+    category: "geo",
+  },
+  {
     title: "AI Automation Consultant Alberta",
     description:
       "AI automation consulting for Alberta businesses. Lead follow-up, scheduling, CRM workflows, and operations. Based in Calgary, serving the entire province.",

@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-ai-automation-consultant-british-columbia",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation Consultant for British Columbia Businesses\nBody: Whether you are in Vancouver, Surrey, Burnaby, Richmond, Victoria, Kelowna, Abbotsford, or elsewhere in British Columbia, the pattern is usually the same. Leads cool off because nobody replies quickly enough. Scheduling and consult follow-up become inconsistent when the team gets busy. CRM updates, handoffs, and routine admin work eat hours that should be spent on revenue. We build AI-powered automations that take that repetitive load off your team.\nSub: Below: what we automate, where BC businesses usually see the clearest ROI, how remote delivery works across the province, and how to tell if this is the right fit for your business.\n\n### Core sections\n- What we automate for British Columbia businesses\n- British Columbia industries where the ROI is usually clearest\n- How remote delivery works across British Columbia\n- Good fit / not a fit\n- Results from businesses we have worked with\n\n### FAQ\nSubhead: Practical answers about working with an AI automation consultant in British Columbia\n- Do I need to be in Vancouver to work with you?\n- What size business is this for?\n- How long does a typical automation project take?\n- What tools and platforms do you work with?\n- What if I am not sure what to automate first?\n\n### Final CTA\nHeading: Ready to automate the busywork?\nBody: Book a 30-minute call. We will look at your current operations, identify the highest-impact automation opportunities, and give you a clear picture of what it would take to build them.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because British Columbia was the cleanest remaining province-level GEO expansion: the live site already had Vancouver, Alberta, Ontario, and Canada pages, while Guides copy already implied BC-wide consultant coverage."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page distinct from the Vancouver page by framing it as province-wide remote delivery across Metro Vancouver, Vancouver Island, the Okanagan, and other BC markets rather than another city page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used the existing consultant GEO template pattern from Ontario and Alberta instead of cloning the older bespoke Vancouver page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: case studies prove the workflow patterns, not BC-specific client results."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and commercial, with clear fit / not-fit guidance and no fake locality claims."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T10:04:08.922Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 16.9,
+      "sentenceLengthRange": [
+        5,
+        42
+      ],
+      "totalWords": 254
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation Consultant for British Columbia Businesses\nBody: Whether you are in Vancouver, Surrey, Burnaby, Richmond, Victoria, Kelowna, Abbotsford, or elsewhere in British Columbia, the pattern is usually the same.",
+      "wordCount": 32,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Ready to automate the busywork?\nBody: Book a 30-minute call. We will look at your current operations, identify the highest-impact automation opportunities, and give you a clear picture of what it would take to build them.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "context",
+        "closer"
+      ],
+      "template": "opener | result | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 15,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 10,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 1.07
+    },
+    "vocabulary": {
+      "distinctWords": 144,
+      "totalWords": 254,
+      "topWords": [
+        [
+          "-",
+          10
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "british",
+          6
+        ],
+        [
+          "columbia",
+          6
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "businesses",
+          4
+        ],
+        [
+          "automate",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "with",
+          4
+        ],
+        [
+          "usually",
+          3
+        ],
+        [
+          "work",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "take",
+          3
+        ],
+        [
+          "your",
+          3
+        ],
+        [
+          "fit",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "cool",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.008
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

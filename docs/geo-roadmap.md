@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/ai-automation-consultant-ontario`, a province-level geo consultant page that was explicitly implied by the live guides geo category and supported by the already-live Toronto and Ottawa city pages. The page stays distinct from the city pages by covering province-wide buyer intent across Toronto, Ottawa, Hamilton, London, Mississauga, and Kitchener-Waterloo, and it stays distinct from the Canada-wide page by narrowing the service-area decision to one province-level market instead of a coast-to-coast catch-all.)
+Last updated: 2026-04-28 (shipped `/ai-automation-consultant-british-columbia`, the remaining clean province-level geo consultant page implied by the live guides geo category after Alberta and Ontario were already live. The page stays distinct from the Vancouver city page by covering province-wide buyer intent across Metro Vancouver, Vancouver Island, the Okanagan, and other BC markets, and it stays distinct from the Canada-wide page by narrowing the service-area decision to one province-level market instead of a coast-to-coast catch-all.)
 
 ## Live GEO Assets
 
@@ -41,6 +41,7 @@ Last updated: 2026-04-28 (shipped `/ai-automation-consultant-ontario`, a provinc
 | AI Consultant Toronto | `/ai-automation-consultant-toronto` | Geo page | Live |
 | AI Consultant Ottawa | `/ai-automation-consultant-ottawa` | Geo page | Live |
 | AI Consultant Ontario | `/ai-automation-consultant-ontario` | Geo page | Live |
+| AI Consultant British Columbia | `/ai-automation-consultant-british-columbia` | Geo page | Live |
 | AI Consultant Alberta | `/ai-automation-consultant-alberta` | Geo page | Live |
 | AI Consultant Canada | `/ai-automation-consultant-canada` | Geo page | Live |
 | Hire Consultant vs Agency | `/hire-ai-automation-consultant-vs-agency` | Decision / comparison | Live |
@@ -312,13 +313,13 @@ Last updated: 2026-04-28 (shipped `/ai-automation-consultant-ontario`, a provinc
 
 ## Next Pages
 
-This run shipped `/ai-automation-consultant-ontario`, turning an implied-but-missing province-level geo target into a real page between the existing Toronto/Ottawa city pages and the Canada-wide catch-all. The next run should:
+This run shipped `/ai-automation-consultant-british-columbia`, filling the last clean province-level geo gap that the live guides geo category was still implying beside Vancouver, Alberta, Ontario, and the Canada-wide parent. The next run should:
 
-1. **Verify live/indexing behavior** for `/ai-automation-consultant-ontario` after deploy propagation, then request indexing manually in GSC.
-2. **Re-check the geo cluster for the remaining province-level gap** before diving back into broader workflow reconciliation. The cleanest adjacent candidate is still British Columbia because the guides geo category explicitly names it, Vancouver is already live, and the province-level parent page still appears to be missing.
-3. **If BC does not survive a quick duplication/proof check, return to broad reconciliation** across routes, prompts, guides, sitemap, llm surfaces, `docs/geo-tracking.md`, and the broader planning docs before naming another net-new page.
+1. **Verify live/indexing behavior** for `/ai-automation-consultant-british-columbia` after deploy propagation, then request indexing manually in GSC.
+2. **Return to broad prompts/route reconciliation** across routes, prompts, guides, sitemap, llm surfaces, `docs/geo-tracking.md`, and the broader planning docs before naming another net-new page.
+3. **Only name another geo page if a clearly distinct, still-unshipped service-area target survives full verification**. The province-level BC gap is now filled, so the next strong candidate may be a non-geo workflow or comparison page rather than another location layer.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | `/ai-automation-consultant-british-columbia` | The live guides geo category already names British Columbia, Vancouver is already live as the city-level proof-adjacent child, and a province-level page would mirror the Ontario and Alberta hierarchy without inventing a new market pattern. | Confirm there is still no existing BC province page in routes/pages/sitemap/llm/prompts, then keep the copy province-level so it does not collapse into the Vancouver page. |
-| 2 | Broad prompts/route reconciliation pass | After the Ontario geo parent is filled, the main risk returns to stale queue assumptions hiding either a cleaner remaining page or a better maintenance target. | Re-run the live-routes vs prompts/guides/sitemap/llm/planning-doc diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
+| 1 | Broad prompts/route reconciliation pass | With Alberta, Ontario, and British Columbia now live, the biggest remaining risk is stale backlog assumptions hiding a cleaner unshipped workflow/comparison page or a higher-value maintenance target. | Re-run the live-routes vs prompts/guides/sitemap/llm/planning-doc diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
+| 2 | Another bounded indexing/internal-linking refresh on a high-value commercial page | If reconciliation still shows no clean net-new page, improving crawl paths and answer extraction on a strongest-priority URL is still a valid high-leverage outcome. | Verify that no stronger unshipped planned page survives first, then choose the refresh target from `docs/geo-priority-urls.md` based on discovery/indexing need. |
