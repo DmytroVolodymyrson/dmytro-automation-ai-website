@@ -31,6 +31,53 @@ const data: DecisionPageData = {
   sections: [
     {
       type: "cards",
+      title: "Reading this page vs. a more specific guide",
+      subtitle:
+        "This page covers which automation to build first and why. If you already know your bottleneck or need proof before deciding, start with the guide that fits:",
+      items: [
+        {
+          icon: Scale,
+          title: "I need to decide what to automate first",
+          body: "You're in the right place. Keep reading — the bottleneck router and decision matrix below will narrow your options by impact, cost, and time to ROI.",
+        },
+        {
+          icon: CheckCircle2,
+          title: "I want to see proof before I commit",
+          body: "Start with the case studies. Paris Cafe went from 0% to 100% after-hours call coverage; WheelsFeels automated follow-up for 5,600+ leads with a 185% conversion lift. Then come back here to pick your first build.",
+          links: [
+            { label: "Case studies with measurable outcomes", href: "/case-studies" },
+          ],
+        },
+        {
+          icon: DollarSign,
+          title: "I need help scoping and building it",
+          body: "If you know what to automate but need someone to build it, the consultant guide covers what a first engagement looks like, typical pricing bands, and how to evaluate fit.",
+          links: [
+            { label: "AI automation consultant guide", href: "/ai-automation-consultant-small-business" },
+            { label: "Consultant pricing bands", href: "/ai-automation-consultant-pricing-small-business" },
+          ],
+        },
+        {
+          icon: Phone,
+          title: "I already know it's a lead follow-up problem",
+          body: "Skip the decision framework and go straight to the lead follow-up guide — it covers instant response, multi-touch sequences, and quote follow-up with cost ranges and proof.",
+          links: [
+            { label: "AI lead follow-up guide", href: "/ai-lead-follow-up-for-service-businesses" },
+            { label: "AI appointment setter guide", href: "/ai-appointment-setter" },
+          ],
+        },
+        {
+          icon: Wrench,
+          title: "I have no tech team or dedicated IT person",
+          body: "That's typical for the businesses this guide is written for. If the no-tech constraint is your primary concern, start with the guide that covers what's realistic to build and maintain without technical staff.",
+          links: [
+            { label: "Automation without a tech team", href: "/ai-automation-for-businesses-without-a-tech-team" },
+          ],
+        },
+      ],
+    },
+    {
+      type: "cards",
       title: "The five automations that actually move the needle",
       subtitle:
         "Across HVAC, dental, legal, and real estate, these five automations consistently produce the highest ROI. They're ordered by typical impact:",
@@ -116,13 +163,13 @@ const data: DecisionPageData = {
         {
           industry: "Restaurant & Booking",
           headline: "24/7 AI Voice Receptionist for a NYC Restaurant",
-          body: "Stopped losing after-hours reservations and freed up 15 hours of management time per week by automating phone FAQs and booking.",
+          body: "Paris Cafe stopped losing after-hours reservations and freed up 15 hours of management time per week by automating phone FAQs and booking. After-hours call coverage went from 0% to 100%, and web lead response time dropped from hours to under 60 seconds.",
           link: "/case-studies/paris-cafe-voice-agent",
         },
         {
           industry: "E-commerce & Lead Gen",
           headline: "Full CRM & Lead Follow-Up for an Auto Parts Brand",
-          body: "Automated follow-up for 5,600+ leads, increasing conversion rate by 185% through systematic segmentation and instant response.",
+          body: "WheelsFeels automated follow-up for 5,600+ leads, increasing conversion rate by 185% through systematic CRM segmentation and instant response. Built on n8n workflows with GoHighLevel CRM and Slack integration.",
           link: "/case-studies/ecommerce-crm-automation",
         },
       ],
@@ -131,6 +178,8 @@ const data: DecisionPageData = {
         { label: "AI automation cost guide", href: "/ai-automation-cost-small-business" },
         { label: "AI automation ROI guide", href: "/ai-automation-roi-guide" },
         { label: "Hire an AI automation consultant", href: "/ai-automation-consultant-small-business" },
+        { label: "Lead follow-up automation guide", href: "/ai-lead-follow-up-for-service-businesses" },
+        { label: "Automation without a tech team", href: "/ai-automation-for-businesses-without-a-tech-team" },
       ],
     },
     {
@@ -420,6 +469,23 @@ const data: DecisionPageData = {
       answer:
         "With speed-to-lead and follow-up sequences: expect a 20–50% increase in lead-to-booking conversion rate. With AI appointment booking: expect 15–30 additional appointments per month from leads that would have dropped off. With database reactivation: expect 5–15 re-engaged customers in the first campaign. These are typical ranges, not guarantees — results depend on your lead volume and market.",
     },
+    {
+      question:
+        "What should I automate first if I'm not sure where I'm losing leads?",
+      answer:
+        "Start with speed-to-lead response — an instant SMS or email reply to every form submission and missed call. It's the lowest-cost automation ($1K–$2K), delivers measurable results within the first week, and the data from it (how many leads you get, how fast you respond, how many convert) tells you exactly where your next bottleneck is. Most service businesses that 'aren't sure' discover their biggest leak is response time, not anything more complex.",
+    },
+    {
+      question: "Should I see proof from similar businesses before committing?",
+      answer:
+        "Yes — and you should expect a consultant to show it. Paris Cafe went from 0% to 100% after-hours call coverage and cut web lead response time to under 60 seconds. WheelsFeels automated follow-up for 5,600+ leads with a 185% conversion lift. Both are documented with measurable outcomes. If someone can't show you proof from a comparable business, that's a signal to keep looking.",
+    },
+    {
+      question:
+        "What if I have no tech team or dedicated IT person?",
+      answer:
+        "That's normal — most small service businesses don't. The automations on this page are designed to be built for you and then run without technical maintenance. A properly built speed-to-lead or follow-up sequence runs on tools like GoHighLevel, n8n, or Zapier and requires no coding to operate day-to-day. The build itself is where you need expertise, not the ongoing operation.",
+    },
   ],
   faqSubtitle:
     "Practical answers about AI automation for service businesses",
@@ -451,6 +517,7 @@ const data: DecisionPageData = {
     { label: "Missed-call text-back cost", href: "/missed-call-text-back-cost-small-business" },
     { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
     { label: "Missed-call text-back for service businesses", href: "/missed-call-text-back-for-service-businesses" },
+    { label: "Intake forms & document collection", href: "/intake-forms-and-document-collection-automation-for-service-businesses" },
   ],
 };
 
