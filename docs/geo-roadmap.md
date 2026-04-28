@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/ai-automation-consultant-toronto` as a bounded net-new geo page. Same proven geo-consultant pattern as Calgary/Edmonton/Vancouver. Toronto is a believable remote-service market with strong commercial local-intent phrasing. Copy is honest about remote delivery from Alberta with adjacent proof only.)
+Last updated: 2026-04-28 (shipped `/ai-automation-consultant-ottawa` as a bounded net-new geo page. Same proven geo-consultant pattern as Calgary/Edmonton/Vancouver/Toronto. Ottawa is a believable remote-service market with government, professional-services, and local-operator intent. Copy stays honest about remote delivery from Alberta with adjacent proof only.)
 
 ## Live GEO Assets
 
@@ -39,6 +39,7 @@ Last updated: 2026-04-28 (shipped `/ai-automation-consultant-toronto` as a bound
 | AI Consultant Edmonton | `/ai-automation-consultant-edmonton` | Geo page | Live |
 | AI Consultant Vancouver | `/ai-automation-consultant-vancouver` | Geo page | Live |
 | AI Consultant Toronto | `/ai-automation-consultant-toronto` | Geo page | Live |
+| AI Consultant Ottawa | `/ai-automation-consultant-ottawa` | Geo page | Live |
 | AI Consultant Alberta | `/ai-automation-consultant-alberta` | Geo page | Live |
 | AI Consultant Canada | `/ai-automation-consultant-canada` | Geo page | Live |
 | Hire Consultant vs Agency | `/hire-ai-automation-consultant-vs-agency` | Decision / comparison | Live |
@@ -309,13 +310,13 @@ Last updated: 2026-04-28 (shipped `/ai-automation-consultant-toronto` as a bound
 
 ## Next Pages
 
-This run shipped `/ai-automation-consultant-toronto`, extending the proven consultant-geo cluster. The next run should:
+This run shipped `/ai-automation-consultant-ottawa`, extending the proven consultant-geo cluster into a second Ontario city. The next run should:
 
-1. **Verify live/indexing behavior** for `/ai-automation-consultant-toronto` after deploy propagation, then request indexing manually in GSC if it stays discovered-not-indexed.
-2. **Run broad reconciliation** across routes, prompts, guides, sitemap, and llm surfaces before naming a more speculative workflow page. The drift between `scripts/geo-prompts.json`, `docs/geo-tracking.md`, `src/pages/Guides.tsx`, `public/sitemap.xml`, and the full live route/component set still deserves a cleanup pass.
-3. **Only then** decide whether the next bounded net-new ship is another geo consultant page or a newly justified child workflow page that survives full route/file verification.
+1. **Verify live/indexing behavior** for `/ai-automation-consultant-ottawa` after deploy propagation, then request indexing manually in GSC if it stays discovered-not-indexed.
+2. **Run broad reconciliation** across routes, prompts, guides, sitemap, and llm surfaces before naming another speculative net-new page. The drift between `scripts/geo-prompts.json`, `docs/geo-tracking.md`, `src/pages/Guides.tsx`, `public/sitemap.xml`, and the full live route/component set still deserves a cleanup pass.
+3. **If no clearly safe net-new page survives reconciliation, do a bounded indexing/internal-linking refresh** on one priority discovered-not-indexed commercial page instead of forcing another geo clone.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
 | 1 | Broad prompts/route reconciliation pass | Drift between tracking docs, prompts, guides, sitemap, and llm surfaces still weakens internal discovery even when content exists. | Re-run the live-routes vs prompts/guides/sitemap/llm diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
-| 2 | `/ai-automation-consultant-ottawa` or another Ontario city | Same proven geo-consultant pattern. Ottawa is a believable market with government and professional services. | Verify the geo cluster isn't over-saturated first. Keep copy honest about remote delivery. |
+| 2 | `/ai-automation-consultant-small-business` indexing/internal-linking refresh | It is still one of the highest-value commercial pages and remains discovered-not-indexed in the latest manual GSC snapshot. A bounded proof/linking refresh is safer than forcing a weaker net-new page if reconciliation finds no clean candidate. | Confirm current live copy and internal-link cluster first so the refresh is additive, not repetitive. |

@@ -23,6 +23,7 @@ import MissedCallTextBackRoiSmallBusiness from "./pages/MissedCallTextBackRoiSma
 import AiAutomationConsultantCalgary from "./pages/AiAutomationConsultantCalgary";
 import AiAutomationConsultantVancouver from "./pages/AiAutomationConsultantVancouver";
 import AiAutomationConsultantToronto from "./pages/AiAutomationConsultantToronto";
+import AiAutomationConsultantOttawa from "./pages/AiAutomationConsultantOttawa";
 import HireAiAutomationConsultantVsAgency from "./pages/HireAiAutomationConsultantVsAgency";
 import HireAiAutomationConsultantVsDiy from "./pages/HireAiAutomationConsultantVsDiy";
 import HowToHireAiAutomationConsultant from "./pages/HowToHireAiAutomationConsultant";
@@ -436,6 +437,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-consultant-edmonton", element: <AiAutomationConsultantEdmonton /> },
   { path: "/ai-automation-consultant-vancouver", element: <AiAutomationConsultantVancouver /> },
   { path: "/ai-automation-consultant-toronto", element: <AiAutomationConsultantToronto /> },
+  { path: "/ai-automation-consultant-ottawa", element: <AiAutomationConsultantOttawa /> },
   {
     path: "/ai-automation-hvac",
     element: <Navigate to="/ai-automation-for-hvac-companies" replace />,

@@ -309,6 +309,18 @@
       ]
     },
     {
+      "id": "ai-automation-consultant-ottawa",
+      "path": "/ai-automation-consultant-ottawa",
+      "label": "AI Automation Consultant Ottawa",
+      "prompts": [
+        "AI automation consultant in Ottawa",
+        "Who can help my Ottawa business automate workflows?",
+        "Best AI automation services for small businesses in Ottawa Ontario",
+        "Ottawa business automation consulting",
+        "AI consultant for professional services firm in Ottawa"
+      ]
+    },
+    {
       "id": "ai-automation-for-hvac-companies",
       "path": "/ai-automation-for-hvac-companies",
       "label": "AI Automation for HVAC Companies",
