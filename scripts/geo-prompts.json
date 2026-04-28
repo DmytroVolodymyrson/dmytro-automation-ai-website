@@ -813,6 +813,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-vs-voicemail-for-real-estate-agents",
+      "path": "/ai-phone-answering-vs-voicemail-for-real-estate-agents",
+      "label": "AI Phone Answering vs. Voicemail for Real Estate Agents",
+      "prompts": [
+        "AI phone answering vs voicemail for real estate agents",
+        "Should a real estate agent replace voicemail with AI phone answering?",
+        "When is voicemail not enough for a real estate agent losing calls at showings?",
+        "What is better for real estate leads voicemail callbacks or live AI phone answering?",
+        "Should a real estate team use missed-call text-back or go straight to live AI phone answering instead of voicemail?"
+      ]
+    },
+    {
       "id": "review-request-automation-for-real-estate-agents",
       "path": "/review-request-automation-for-real-estate-agents",
       "label": "Review Request Automation for Real Estate Agents",

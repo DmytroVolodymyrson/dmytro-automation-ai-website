@@ -1017,6 +1017,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "AI Phone Answering vs. Voicemail for Real Estate Agents",
+    description:
+      "Should a real estate agent keep sending callers to voicemail or answer with AI? Practical comparison of live call coverage, callback lag, after-hours demand, and when missed-call text-back is the smarter middle step.",
+    href: "/ai-phone-answering-vs-voicemail-for-real-estate-agents",
+    category: "comparisons",
+  },
+  {
     title: "AI Automation for Mortgage Brokers",
     description:
       "AI automation for mortgage brokers. Lead follow-up, document collection, application nurture, and CRM workflows. Practical guide for brokerages.",

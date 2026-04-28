@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (ran a bounded indexing/internal-linking refresh on `/ai-automation-consultant-small-business` instead of forcing a weaker net-new page. Reconciliation across planning docs, routes, guides, sitemap, llm files, and `scripts/geo-prompts.json` did not surface a cleaner distinct buyer-intent page than the already-prioritized discovered-not-indexed consultant URL. The refresh added a new answer-extractable first-project section plus deeper links into workflow, proof, roadmap, and support pages.)
+Last updated: 2026-04-28 (shipped `/ai-phone-answering-vs-voicemail-for-real-estate-agents`, the missing heavier voicemail-vs-live-answering buyer-decision page inside the mature real-estate phone cluster. The page stays distinct from the existing real-estate missed-call text-back and text-back-vs-AI-phone pages by focusing specifically on when voicemail/callbacks are still acceptable, when live AI phone coverage becomes worth the heavier build, and where missed-call text-back remains the middle step.)
 
 ## Live GEO Assets
 
@@ -107,6 +107,7 @@ Last updated: 2026-04-28 (ran a bounded indexing/internal-linking refresh on `/a
 | CRM Cleanup vs Follow-Up | `/crm-cleanup-vs-lead-follow-up-for-real-estate-teams` | Vertical comparison page | Live |
 | Missed Call Text-Back (Real Estate) | `/missed-call-text-back-for-real-estate-agents` | Vertical workflow page | Live |
 | AI Phone Answering (Real Estate) | `/ai-phone-answering-for-real-estate-agents` | Vertical solution page | Live |
+| AI Phone vs Voicemail (Real Estate) | `/ai-phone-answering-vs-voicemail-for-real-estate-agents` | Vertical comparison page | Live |
 | Review Automation (Real Estate) | `/review-request-automation-for-real-estate-agents` | Vertical workflow page | Live |
 | Referral Request Automation (Real Estate) | `/referral-request-automation-for-real-estate-agents` | Vertical workflow page | Live |
 | Text-Back vs AI Phone (Real Estate) | `/missed-call-text-back-vs-ai-phone-answering-for-real-estate-agents` | Vertical comparison page | Live |
@@ -310,13 +311,13 @@ Last updated: 2026-04-28 (ran a bounded indexing/internal-linking refresh on `/a
 
 ## Next Pages
 
-This run used the fallback path and strengthened `/ai-automation-consultant-small-business` because a fresh planning-doc + live-route reconciliation still did not surface a cleaner distinct planned page than the already-prioritized discovered-not-indexed consultant URL. The next run should:
+This run shipped `/ai-phone-answering-vs-voicemail-for-real-estate-agents`, filling the missing heavier voicemail-vs-live-answering buyer-decision layer inside the mature real-estate phone cluster. The next run should:
 
-1. **Verify live/indexing behavior** for `/ai-automation-consultant-small-business` after deploy propagation, then request indexing manually in GSC if it still shows discovered-not-indexed.
-2. **Run broad reconciliation again** across routes, prompts, guides, sitemap, llm surfaces, and `docs/geo-tracking.md` before naming any new speculative page. The main risk is now stale queue wording rather than missing content.
-3. **If reconciliation still finds no clearly safe net-new page, do the next bounded commercial refresh** on a related high-intent consultant-cluster page instead of forcing another geo clone or thin comparison.
+1. **Verify live/indexing behavior** for `/ai-phone-answering-vs-voicemail-for-real-estate-agents` after deploy propagation, then request indexing manually in GSC.
+2. **Run broad reconciliation again** across routes, prompts, guides, sitemap, llm surfaces, `docs/geo-tracking.md`, and the broader planning docs before naming another net-new page. The main risk is now stale queue assumptions, not an obviously missing same-cluster child.
+3. **If reconciliation still finds no clearly safe net-new page, do the next bounded commercial refresh** on a high-intent already-live page with indexing or internal-link leverage instead of forcing another thin comparison.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Broad prompts/route reconciliation pass | Drift between tracking docs, prompts, guides, sitemap, llm surfaces, and roadmap queue wording can still hide either a real remaining page or a cleaner maintenance target. | Re-run the live-routes vs prompts/guides/sitemap/llm diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
-| 2 | `/ai-automation-consultant-pricing-small-business` indexing/internal-linking refresh | It sits in the same high-intent consultant cluster, is already a priority URL, and can be strengthened further around budget-band routing and proof-led next steps without overlapping the main consultant page too heavily. | Confirm the current live copy and internal-link cluster first so the refresh adds a new budget/proof angle rather than repeating the consultant page improvements. |
+| 1 | Broad prompts/route reconciliation pass | The roadmap, prompts, guides, sitemap, llm surfaces, and planning docs can still drift apart enough to hide either a real remaining page or a cleaner maintenance target. | Re-run the live-routes vs prompts/guides/sitemap/llm/planning-doc diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
+| 2 | High-intent live-page indexing/internal-linking refresh | If no clean net-new page survives reconciliation, the best next move is still likely a bounded commercial refresh on an already-live priority URL with discoverability upside. | Confirm the target page is live, commercially important, and has a genuinely new proof/extract angle before refreshing it. |
