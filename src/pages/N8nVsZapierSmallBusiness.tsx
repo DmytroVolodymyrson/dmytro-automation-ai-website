@@ -680,6 +680,13 @@ const N8nVsZapierSmallBusiness = () => {
               n8n consultant pricing
               <ArrowRight className="w-4 h-4" />
             </Link>
+            <Link
+              to="/make-vs-zapier-small-business"
+              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+            >
+              Make vs Zapier comparison
+              <ArrowRight className="w-4 h-4" />
+            </Link>
           </div>
         </Section>
 

@@ -406,6 +406,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "Make vs. Zapier for Small Business",
+    description:
+      "Practical comparison of Make and Zapier for small business automation. Pricing, flexibility, learning curve, and which no-code tool fits your situation.",
+    href: "/make-vs-zapier-small-business",
+    category: "comparisons",
+  },
+  {
     title: "Build vs. Buy AI Automation",
     description:
       "Should you build custom AI automation or buy off-the-shelf SaaS? Compare cost, customization, time-to-value, and long-term ownership.",

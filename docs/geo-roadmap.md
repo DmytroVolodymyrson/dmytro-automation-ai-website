@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (bounded indexing-support refresh on `/best-ai-automation-for-service-businesses` — added a business-shape router section that matches the first automation to operating model: owner-operator, dispatcher/admin-heavy, long-sales-cycle, and high-repeat recurring service, each with proof-backed links. Also refreshed llm.txt/llms.txt summaries and geo-priority-urls.md entry. Previous: shipped `/gohighlevel-automation-consultant-cost-small-business`.)
+Last updated: 2026-04-28 (shipped `/make-vs-zapier-small-business` — a new no-code comparison page for small-business owners choosing between the two most common beginner-friendly automation tools. It closes the Make/Zapier gap beside the live `n8n-vs-zapier` and `n8n-vs-make` pages, adds fresh comparison-cluster discovery surfaces, and gives the site a cleaner tool-selection path before buyers graduate into n8n or consultant-led builds. Previous: bounded indexing-support refresh on `/best-ai-automation-for-service-businesses`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 312.
+**Total live GEO pages tracked here:** 313.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -54,6 +54,7 @@ Last updated: 2026-04-28 (bounded indexing-support refresh on `/best-ai-automati
 | Consultant vs In-House Hire | `/hire-ai-automation-consultant-vs-in-house` | Decision / comparison | Live |
 | How to Hire a Consultant | `/how-to-hire-ai-automation-consultant` | Hiring-intent guide | Live |
 | n8n vs Make | `/n8n-vs-make-small-business` | Comparison page | Live |
+| Make vs Zapier | `/make-vs-zapier-small-business` | Comparison page | Live |
 | Retell vs Bland AI | `/retell-vs-bland-small-business` | Comparison page | Live |
 | VAPI vs Retell | `/vapi-vs-retell-small-business` | Comparison page | Live |
 | AI Chatbot vs Voice Agent | `/ai-chatbot-vs-ai-voice-agent-for-lead-qualification` | Comparison page | Live |
@@ -324,16 +325,16 @@ Last updated: 2026-04-28 (bounded indexing-support refresh on `/best-ai-automati
 
 ## Next Pages
 
-This run still started from a broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and the live route/page set. The distinct surviving opportunity was not another generic strategy page. It was the exact budgeting query already sitting on `/gohighlevel-automation-consultant`: owners who already know they may need GHL expert help but still need a tighter answer on realistic consultant pricing versus setup-only help, cleanup work, and hybrid-stack judgment. Shipping that child page made the GoHighLevel cluster more commercially complete without inventing a thin new topic.
+This run started from a fresh broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and the live route/page set. The strongest clean gap was not another late-stage vertical child page. It was the missing tool-selection comparison between Make and Zapier: a high-intent buyer query that fits the already-live automation-tool cluster, complements `n8n-vs-zapier` and `n8n-vs-make`, and gives non-technical owners a more realistic first step before they either outgrow no-code simplicity or hire help. Shipping it makes the comparison cluster more complete without forcing a thin new vertical.
 
 The next run should:
 
-1. **Keep manual GSC follow-through moving** on refreshed priority URLs and newer consultant / workflow pages instead of treating publish alone as the finish line.
-2. **Start from another fresh broad reconciliation before naming a new net-new page** so the queue does not drift back into stale generic-strategy guesses or accidental same-cluster inertia.
-3. **If no cleaner net-new candidate survives that reconciliation, use `/ai-automation-time-savings-small-business` as the bounded fallback refresh** so the economics cluster keeps improving without manufacturing a weak new page.
+1. **Keep manual GSC follow-through moving** on refreshed priority URLs and newer comparison / consultant pages instead of treating publish alone as the finish line.
+2. **Start from another fresh broad reconciliation before naming a new net-new page** so the queue does not drift back into stale same-cluster inertia or miss already-live pages.
+3. **If a clean net-new candidate is still needed after that reconciliation, use `/gohighlevel-vs-pipedrive-small-business` as the best fallback** because it extends the active CRM-comparison cluster with a commercially real SMB buyer decision instead of inventing a weak generic page.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
 | 1 | Manual GSC follow-through on refreshed priority URLs | Several of the highest-value pages are still in discovered/not-indexed or not-yet-inspected state, so crawl feedback still matters as much as another publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed pages in GSC, and record whether the crawl/index state moved after the latest deploys. |
 | 2 | Fresh broad reconciliation before another net-new page | The repo is now dense enough that stale docs can still make already-live pages look missing or make a just-shipped cluster look like it owns the next run by default. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
-| 3 | `/ai-automation-time-savings-small-business` bounded refresh | After the ROI hub refresh and this GHL cost-page ship, time-savings is still the cleanest adjacent economics page that can be sharpened without inventing a thin generic child. | Re-check the live time-savings copy, the refreshed cost/ROI/support pages, and whether proof plus first-project routing already appear early enough before choosing the exact refresh scope. |
+| 3 | `/gohighlevel-vs-pipedrive-small-business` | It is a natural next CRM-comparison child beside the live GHL-vs-HubSpot / Keap / custom-CRM pages and answers a real small-business CRM-shopping question. | Verify it is still absent from routes, pages, sitemap, llm files, and geo prompts before shipping; then inspect the live GHL comparison pages for the safest template/related-links pattern. |

@@ -243,6 +243,7 @@ const data: DecisionPageData = {
     "No sales pitch. Just an honest recommendation based on your workflow.",
   relatedLinks: [
     { label: "n8n vs Zapier comparison", href: "/n8n-vs-zapier-small-business" },
+    { label: "Make vs Zapier comparison", href: "/make-vs-zapier-small-business" },
     {
       label: "n8n automation examples",
       href: "/n8n-automation-examples-small-business",

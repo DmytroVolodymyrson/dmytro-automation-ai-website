@@ -11,11 +11,11 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 380 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 381 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
-### Strategy + comparison pages (35)
+### Strategy + comparison pages (36)
 - **Affordable AI Automation for Small Business** — `/affordable-ai-automation-small-business`
 - **AI Appointment Setter vs Receptionist** — `/ai-appointment-setter-vs-receptionist`
 - **AI Appointment Setter vs Virtual Assistant** — `/ai-appointment-setter-vs-virtual-assistant`
@@ -46,6 +46,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **n8n Automation Consultant for Small Business** — `/n8n-automation-consultant`
 - **n8n Consultant vs. DIY for Small Business** — `/n8n-consultant-vs-diy-small-business`
 - **n8n vs Make for Small Business** — `/n8n-vs-make-small-business`
+- **Make vs Zapier for Small Business** — `/make-vs-zapier-small-business`
 - **n8n vs Zapier for Small Business** — `/n8n-vs-zapier-small-business`
 - **Retell vs Bland AI for Small Business** — `/retell-vs-bland-small-business`
 - **VAPI vs Retell for Small Business** — `/vapi-vs-retell-small-business`

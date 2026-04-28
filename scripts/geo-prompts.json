@@ -2612,6 +2612,18 @@
       ]
     },
     {
+      "id": "make-vs-zapier-small-business",
+      "path": "/make-vs-zapier-small-business",
+      "label": "Make vs Zapier for Small Business",
+      "prompts": [
+        "Make vs Zapier for small business automation",
+        "Should I use Make or Zapier for my small business?",
+        "Is Make better than Zapier for branching workflows?",
+        "Which is cheaper Make or Zapier for a growing small business?",
+        "Best no-code automation tool for a non-technical small business owner Make or Zapier?"
+      ]
+    },
+    {
       "id": "ai-automation-for-businesses-without-a-tech-team",
       "path": "/ai-automation-for-businesses-without-a-tech-team",
       "label": "AI Automation for Businesses Without a Tech Team",

@@ -279,6 +279,7 @@ import AiVoiceAgentVsAnsweringServiceForSmallBusiness from "./pages/AiVoiceAgent
 import AiVoiceAgentVsHumanAppointmentSetter from "./pages/AiVoiceAgentVsHumanAppointmentSetter";
 import AiVoiceAgentVsManualCallbackForServiceBusinesses from "./pages/AiVoiceAgentVsManualCallbackForServiceBusinesses";
 import N8nVsMakeSmallBusiness from "./pages/N8nVsMakeSmallBusiness";
+import MakeVsZapierSmallBusiness from "./pages/MakeVsZapierSmallBusiness";
 import BuildVsBuyAiAutomation from "./pages/BuildVsBuyAiAutomation";
 import VapiVsRetellSmallBusiness from "./pages/VapiVsRetellSmallBusiness";
 import RetellVsBlandSmallBusiness from "./pages/RetellVsBlandSmallBusiness";
@@ -771,6 +772,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-voice-agent-vs-human-appointment-setter", element: <AiVoiceAgentVsHumanAppointmentSetter /> },
   { path: "/ai-voice-agent-vs-manual-callback-for-service-businesses", element: <AiVoiceAgentVsManualCallbackForServiceBusinesses /> },
   { path: "/n8n-vs-make-small-business", element: <N8nVsMakeSmallBusiness /> },
+  { path: "/make-vs-zapier-small-business", element: <MakeVsZapierSmallBusiness /> },
   { path: "/build-vs-buy-ai-automation", element: <BuildVsBuyAiAutomation /> },
   { path: "/vapi-vs-retell-small-business", element: <VapiVsRetellSmallBusiness /> },
   { path: "/retell-vs-bland-small-business", element: <RetellVsBlandSmallBusiness /> },

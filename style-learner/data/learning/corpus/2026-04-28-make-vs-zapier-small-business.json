@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-make-vs-zapier-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: Make vs Zapier for Small Business Automation\nBody: Make and Zapier are both no-code automation platforms designed for people who do not write code. Both let you connect apps, move data, and eliminate repetitive tasks. But they differ in pricing model, workflow flexibility, and how much complexity they can handle before you outgrow them. This comparison is for small business owners choosing between the two.\nSub: Below: how each platform works, where each shines, real cost differences as you grow, and how to decide without overthinking it.\n\n### Core sections\n- Two no-code automation platforms\n- Side-by-side comparison\n- When each platform wins\n- What actually matters beyond features\n- How this fits the bigger picture\n- What automation looks like in practice\n\n### FAQ\nSubhead: Practical answers about choosing between Make and Zapier\nTopics: whether Make is cheaper than Zapier, which tool is easier for a complete beginner, whether you can switch later, when n8n becomes the better fit, and whether the business even needs an automation tool yet.\n\n### Final CTA\nHeading: Not sure which automation tool fits your business?\nBody: Book a 30-minute call. We will look at your current workflows, your tools, and recommend the platform and approach that makes the most sense for your situation.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the no-code tool-selection cluster already had strong `n8n vs Zapier` and `n8n vs Make` pages, but still lacked the beginner-buyer decision between Make and Zapier themselves."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on the practical buyer choice: pricing model, branching logic, app coverage, learning curve, data handling, and when the tool choice matters less than choosing the right first workflow."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses adjacent proof only: the published case studies demonstrate automation outcomes, while the page stays honest that the workflow design matters more than the tool brand alone."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Routes readers naturally into the existing n8n comparison pages, the audit checklist, and the first-project guide so the new page strengthens the surrounding cluster instead of sitting alone."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: direct fit framing for non-technical owners, no invented platform benchmarks, and explicit acknowledgment that neither tool solves bad process design by itself."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T17:34:57.267Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 20.9,
+      "sentenceLengthRange": [
+        5,
+        46
+      ],
+      "totalWords": 209
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Make vs Zapier for Small Business Automation\nBody: Make and Zapier are both no-code automation platforms designed for people who do not write code.",
+      "wordCount": 26,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Not sure which automation tool fits your business?\nBody: Book a 30-minute call. We will look at your current workflows, your tools, and recommend the platform and approach that makes the most sense for your situation.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 13,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.44
+    },
+    "vocabulary": {
+      "distinctWords": 135,
+      "totalWords": 209,
+      "topWords": [
+        [
+          "automation",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "make",
+          4
+        ],
+        [
+          "zapier",
+          4
+        ],
+        [
+          "business",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "each",
+          3
+        ],
+        [
+          "platform",
+          3
+        ],
+        [
+          "whether",
+          3
+        ],
+        [
+          "tool",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "small",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "both",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
