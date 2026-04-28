@@ -11,6 +11,7 @@ import {
   Zap,
   CheckCircle2,
   XCircle,
+  Wrench,
 } from "lucide-react";
 import type { DecisionPageData } from "@/components/DecisionPageTemplate";
 
@@ -331,6 +332,62 @@ const data: DecisionPageData = {
           icon: Clock,
           title: "Skip: Predictive analytics before you have clean data",
           body: "AI-powered demand forecasting and predictive lead scoring sound impressive but require months of clean data to be useful. If you're not consistently tracking leads, jobs, and revenue in a CRM, predictive analytics is premature.",
+        },
+      ],
+    },
+    {
+      type: "cards",
+      title: "Find the guide for your industry",
+      subtitle:
+        "Different industries lose revenue in different places. Find your category below — each guide covers the specific workflows, costs, and proof points for your business type.",
+      items: [
+        {
+          icon: Phone,
+          title: "High call volume & after-hours leads",
+          body: "If your business lives and dies by the phone — emergency calls, same-day bookings, after-hours inquiries — the biggest leak is unanswered calls converting to a competitor. These industries typically see 30–50% more booked jobs within 30 days of deploying a missed-call text-back and AI phone answering system.",
+          links: [
+            { label: "HVAC companies", href: "/ai-automation-for-hvac-companies" },
+            { label: "Plumbing companies", href: "/ai-automation-for-plumbing-companies" },
+            { label: "Electrical contractors", href: "/ai-automation-for-electrical-contractors" },
+            { label: "Roofing companies", href: "/ai-automation-for-roofing-companies" },
+            { label: "Pest control companies", href: "/ai-automation-for-pest-control-companies" },
+            { label: "Restaurants", href: "/ai-automation-for-restaurants" },
+          ],
+        },
+        {
+          icon: CalendarCheck,
+          title: "Appointment-heavy & booking friction",
+          body: "If your revenue depends on filled appointment slots — and phone tag, no-shows, or after-hours voicemail are killing your schedule utilization — the first automation is an AI booking agent paired with automated confirmations and reminders. Typical result: 15–30 additional kept appointments per month.",
+          links: [
+            { label: "Dental practices", href: "/ai-automation-for-dental-practices" },
+            { label: "Chiropractors", href: "/ai-automation-for-chiropractors" },
+            { label: "Med spas", href: "/ai-automation-for-med-spas" },
+            { label: "Law firms", href: "/ai-automation-for-law-firms" },
+            { label: "Real estate agents", href: "/ai-automation-for-real-estate" },
+            { label: "Auto repair shops", href: "/ai-automation-for-auto-repair-shops" },
+          ],
+        },
+        {
+          icon: MailCheck,
+          title: "Long sales cycles & follow-up dependent",
+          body: "If your deals take weeks or months to close — and leads go cold because nobody follows up consistently — the highest-ROI automation is a multi-touch nurture sequence that keeps your business top-of-mind until the prospect is ready to move. These industries typically recover 15–25% of leads that would otherwise be lost to silence.",
+          links: [
+            { label: "Insurance agencies", href: "/ai-automation-for-insurance-agencies" },
+            { label: "Mortgage brokers", href: "/ai-automation-for-mortgage-brokers" },
+            { label: "Accounting firms", href: "/ai-automation-for-accounting-firms" },
+            { label: "Property management", href: "/ai-automation-for-property-management" },
+          ],
+        },
+        {
+          icon: Wrench,
+          title: "Field service & dispatch-driven",
+          body: "If your team is on job sites all day and can't answer calls or respond to inquiries in real time, the first automation is instant lead capture that responds while your crew is working. The second is automated booking confirmation and reminder sequences to reduce same-day cancellations and wasted truck rolls.",
+          links: [
+            { label: "Cleaning companies", href: "/ai-automation-for-cleaning-companies" },
+            { label: "Landscaping companies", href: "/ai-automation-for-landscaping-companies" },
+            { label: "Painting contractors", href: "/ai-automation-for-painting-contractors" },
+            { label: "Home inspectors", href: "/ai-automation-for-home-inspectors" },
+          ],
         },
       ],
     },

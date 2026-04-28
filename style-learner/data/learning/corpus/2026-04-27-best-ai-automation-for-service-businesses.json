@@ -39,5 +39,141 @@
       "description": "The new low-budget FAQ answer deliberately frames missed-call text-back as the smallest useful automation rather than overselling a full AI stack to every business."
     }
   ],
-  "analysis": null
+  "analysis": {
+    "analyzedAt": "2026-04-28T05:44:07.846Z",
+    "structure": {
+      "paragraphCount": 6,
+      "sentencesPerParagraph": [
+        4,
+        2,
+        3,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 32.1,
+      "sentenceLengthRange": [
+        5,
+        82
+      ],
+      "totalWords": 450
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Best AI Automations for Service Businesses\nBody: The best first AI automation for a service business is instant lead response - replying to every inquiry within 60 seconds via SMS or voice.",
+      "wordCount": 34,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to identify your highest-ROI automation?\nBody: Book a 30-minute call. We'll look at where you're losing leads, identify which automation would have the biggest impact, and map out a realistic implementation plan.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 27,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 26,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 14,
+      "commasPerSentence": 2.45
+    },
+    "vocabulary": {
+      "distinctWords": 240,
+      "totalWords": 450,
+      "topWords": [
+        [
+          "-",
+          26
+        ],
+        [
+          "automation",
+          16
+        ],
+        [
+          "ai",
+          9
+        ],
+        [
+          "service",
+          6
+        ],
+        [
+          "with",
+          6
+        ],
+        [
+          "first",
+          5
+        ],
+        [
+          "lead",
+          5
+        ],
+        [
+          "cost",
+          5
+        ],
+        [
+          "your",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "follow-up",
+          5
+        ],
+        [
+          "budget",
+          4
+        ],
+        [
+          "missed-call",
+          4
+        ],
+        [
+          "text-back",
+          4
+        ],
+        [
+          "heading",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.004
+    },
+    "editSignals": {
+      "totalEdits": 6,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 6,
+      "patterns": []
+    }
+  }
 }
