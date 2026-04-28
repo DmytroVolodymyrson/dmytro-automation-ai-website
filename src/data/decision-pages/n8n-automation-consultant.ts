@@ -267,6 +267,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No generic pitch. Just a practical review of the workflow, stack, and likely payoff.",
   relatedLinks: [
+    { label: "n8n automation setup", href: "/n8n-automation-setup-for-small-business" },
     { label: "n8n automation examples", href: "/n8n-automation-examples-small-business" },
     { label: "n8n vs. Zapier", href: "/n8n-vs-zapier-small-business" },
     { label: "AI automation consultant for small business", href: "/ai-automation-consultant-small-business" },

@@ -533,6 +533,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "n8n Automation Setup for Small Business",
+    description:
+      "Need help getting n8n set up properly? Practical guide to workflow mapping, hosting choices, CRM and inbox integrations, first-build scope, and when setup help is worth paying for.",
+    href: "/n8n-automation-setup-for-small-business",
+    category: "workflows",
+  },
+  {
     title: "How to Hire an n8n Automation Consultant",
     description:
       "Need help vetting n8n expert help? Practical hiring guide to proof, hosting judgment, ownership terms, failure handling, and the questions to ask before you trust someone with a live workflow.",

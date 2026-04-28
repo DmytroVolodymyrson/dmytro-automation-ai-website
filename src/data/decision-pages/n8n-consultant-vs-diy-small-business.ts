@@ -243,6 +243,7 @@ const data: DecisionPageData = {
     "Useful if you already know n8n is likely the right platform and the real question is whether you should keep building alone.",
   relatedLinks: [
     { label: "n8n automation consultant", href: "/n8n-automation-consultant" },
+    { label: "n8n automation setup", href: "/n8n-automation-setup-for-small-business" },
     { label: "n8n automation examples", href: "/n8n-automation-examples-small-business" },
     { label: "n8n vs. Zapier for small business", href: "/n8n-vs-zapier-small-business" },
     { label: "Build vs. buy AI automation", href: "/build-vs-buy-ai-automation" },

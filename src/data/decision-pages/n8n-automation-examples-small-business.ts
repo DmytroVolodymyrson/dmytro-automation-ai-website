@@ -215,6 +215,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No obligation. No generic pitch. Just a practical conversation about your automation needs.",
   relatedLinks: [
+    { label: "n8n automation setup", href: "/n8n-automation-setup-for-small-business" },
     { label: "n8n vs Zapier for small business", href: "/n8n-vs-zapier-small-business" },
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
     { label: "Client onboarding automation", href: "/client-onboarding-automation" },

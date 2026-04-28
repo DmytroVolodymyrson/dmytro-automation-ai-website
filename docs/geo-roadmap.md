@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/gohighlevel-consultant-vs-setup-help` — a new GoHighLevel scope-decision page for small-business owners deciding whether they need setup-only implementation or broader consultant judgment. It extracts an exact buyer query from the live GoHighLevel consultant cluster, adds fresh discovery/tracking surfaces, and creates a cleaner path between the existing setup, consultant, cost, DIY, cleanup, and audit pages. Previous: `/gohighlevel-vs-activecampaign-small-business`.)
+Last updated: 2026-04-28 (shipped `/n8n-automation-setup-for-small-business` — a new setup-help page for small-business owners who already think n8n is probably the right platform and need practical guidance on workflow mapping, hosting, integrations, ownership, and first-build scope. It closes a clean implementation-help gap inside the live n8n cluster between the consultant, consultant-cost, DIY, cleanup, audit, and examples pages. Previous: `/gohighlevel-consultant-vs-setup-help`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 316.
+**Total live GEO pages tracked here:** 317.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -60,6 +60,7 @@ Last updated: 2026-04-28 (shipped `/gohighlevel-consultant-vs-setup-help` — a 
 | AI Chatbot vs Voice Agent | `/ai-chatbot-vs-ai-voice-agent-for-lead-qualification` | Comparison page | Live |
 | n8n examples | `/n8n-automation-examples-small-business` | Solution page | Live |
 | n8n consultant | `/n8n-automation-consultant` | Role/service page | Live |
+| n8n setup help | `/n8n-automation-setup-for-small-business` | Workflow / setup-help page | Live |
 | How to hire n8n consultant | `/how-to-hire-n8n-automation-consultant` | Hiring-intent guide | Live |
 | n8n cleanup service | `/n8n-workflow-cleanup-service` | Workflow page | Live |
 | n8n cleanup vs rebuild | `/n8n-workflow-cleanup-vs-rebuild` | Decision page | Live |
@@ -328,16 +329,16 @@ Last updated: 2026-04-28 (shipped `/gohighlevel-consultant-vs-setup-help` — a 
 
 ## Next Pages
 
-This run started from a fresh broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, `scripts/geo-prompts.json`, and the live route/page set. The strongest clean gap was the missing GoHighLevel-vs-ActiveCampaign comparison: a practical SMB buyer decision inside the live GoHighLevel cluster for owners choosing between a broader all-in-one follow-up stack and a deeper email-and-marketing-automation-first platform. Shipping it closes another real platform-choice query without inventing a thin new vertical.
+This run started from a fresh broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, `scripts/geo-prompts.json`, and the live route/page set. The strongest clean gap was the missing n8n setup-help page: a practical implementation-intent child inside the live n8n cluster for owners who already believe n8n is the right platform and now need to understand setup scope, hosting choices, integration work, ownership, and what a sensible first workflow should include. Shipping it closes a real buyer-intent gap without forcing a thin new vertical.
 
 The next run should:
 
-1. **Keep manual GSC follow-through moving** on refreshed priority URLs and newer consultant / comparison pages instead of treating publish alone as the finish line.
-2. **Start from another fresh broad reconciliation before naming a new net-new page** so the queue does not drift back into stale same-cluster inertia or over-credit the mature GoHighLevel cluster with another automatic follow-up.
-3. **Only force another same-cluster GoHighLevel child if an exact distinct buyer query still survives that reconciliation**; otherwise leave the queue in watchlist mode instead of manufacturing thin overlap.
+1. **Keep manual GSC follow-through moving** on refreshed priority URLs and newly shipped setup / consultant pages instead of treating publish alone as the finish line.
+2. **Start from another fresh broad reconciliation before naming a new net-new page** so the queue does not drift back into stale same-cluster inertia or over-credit the mature n8n cluster with another automatic follow-up.
+3. **Only force another same-cluster n8n child if an exact distinct buyer query still survives that reconciliation**; otherwise leave the queue in watchlist mode instead of manufacturing thin overlap.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
 | 1 | Manual GSC follow-through on refreshed priority URLs | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |
-| 2 | Fresh broad reconciliation before another net-new page | The repo is now dense enough that stale docs can still make already-live pages look missing or can over-credit the just-shipped GoHighLevel cluster with the next run by default. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
-| 3 | Watchlist: next same-cluster GoHighLevel child only if a truly distinct buyer query survives review | The GoHighLevel cluster is strong now, but a forced follow-up page would risk sliding into thin overlap unless a clearly different query still remains after this new consultant-vs-setup-help child. | Verify any new GoHighLevel candidate is still absent from routes, pages, sitemap, llm files, and geo prompts, and confirm it answers a materially different buyer decision than the live setup / consultant / cost / DIY / cleanup / audit pages. |
+| 2 | Fresh broad reconciliation before another net-new page | The repo is now dense enough that stale docs can still make already-live pages look missing or can over-credit the just-shipped n8n cluster with the next run by default. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
+| 3 | Watchlist: next same-cluster n8n child only if a truly distinct buyer query survives review | The n8n cluster is strong now, but a forced follow-up page would risk sliding into thin overlap unless a clearly different setup-cost or setup-vs-DIY query still remains after this new setup-help child. | Verify any new n8n candidate is still absent from routes, pages, sitemap, llm files, and geo prompts, and confirm it answers a materially different buyer decision than the live consultant / setup / cost / DIY / cleanup / audit / examples pages. |

@@ -230,6 +230,7 @@ const data: DecisionPageData = {
     "No inflated transformation pitch. Just a practical scope and pricing conversation.",
   relatedLinks: [
     { label: "n8n automation consultant", href: "/n8n-automation-consultant" },
+    { label: "n8n automation setup", href: "/n8n-automation-setup-for-small-business" },
     { label: "n8n consultant vs. DIY", href: "/n8n-consultant-vs-diy-small-business" },
     { label: "n8n automation examples", href: "/n8n-automation-examples-small-business" },
     { label: "n8n vs. Make", href: "/n8n-vs-make-small-business" },

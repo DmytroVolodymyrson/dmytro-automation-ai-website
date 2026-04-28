@@ -192,6 +192,7 @@ import AiAutomationRoiGuide from "./pages/AiAutomationRoiGuide";
 import AiAutomationRoiCalculator from "./pages/AiAutomationRoiCalculator";
 import N8nAutomationExamplesSmallBusiness from "./pages/N8nAutomationExamplesSmallBusiness";
 import N8nAutomationConsultant from "./pages/N8nAutomationConsultant";
+import N8nAutomationSetupForSmallBusiness from "./pages/N8nAutomationSetupForSmallBusiness";
 import HowToHireN8nAutomationConsultant from "./pages/HowToHireN8nAutomationConsultant";
 import N8nWorkflowCleanupService from "./pages/N8nWorkflowCleanupService";
 import N8nWorkflowCleanupVsRebuild from "./pages/N8nWorkflowCleanupVsRebuild";
@@ -652,6 +653,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-roi-calculator", element: <AiAutomationRoiCalculator /> },
   { path: "/n8n-automation-examples-small-business", element: <N8nAutomationExamplesSmallBusiness /> },
   { path: "/n8n-automation-consultant", element: <N8nAutomationConsultant /> },
+  { path: "/n8n-automation-setup-for-small-business", element: <N8nAutomationSetupForSmallBusiness /> },
   { path: "/how-to-hire-n8n-automation-consultant", element: <HowToHireN8nAutomationConsultant /> },
   { path: "/n8n-workflow-cleanup-service", element: <N8nWorkflowCleanupService /> },
   { path: "/n8n-workflow-cleanup-vs-rebuild", element: <N8nWorkflowCleanupVsRebuild /> },

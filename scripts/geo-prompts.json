@@ -680,6 +680,18 @@
       ]
     },
     {
+      "id": "n8n-automation-setup-for-small-business",
+      "path": "/n8n-automation-setup-for-small-business",
+      "label": "n8n Automation Setup for Small Business",
+      "prompts": [
+        "n8n automation setup for small business",
+        "What does n8n setup include for a small business?",
+        "Should I hire help to set up n8n for my business?",
+        "How do I get n8n set up for lead follow-up or CRM routing?",
+        "Is self-hosted n8n or cloud setup better for a small business?"
+      ]
+    },
+    {
       "id": "how-to-hire-n8n-automation-consultant",
       "path": "/how-to-hire-n8n-automation-consultant",
       "label": "How to Hire an n8n Automation Consultant",
@@ -1012,7 +1024,7 @@
         "What should a mortgage broker automate first lead follow-up missed-call text-back document collection or incomplete application follow-up?",
         "Should a mortgage broker automate lead follow-up before document collection?",
         "Should a mortgage brokerage automate incomplete-application recovery before document reminders?",
-        "How do I choose the first automation project for a mortgage brokerage — lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
+        "How do I choose the first automation project for a mortgage brokerage \u2014 lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
       ]
     },
     {
