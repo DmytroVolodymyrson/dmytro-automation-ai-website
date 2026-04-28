@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-case-studies-hub-faq-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Intro refresh\nBody: Dmytro AI publishes three documented case studies: a restaurant voice-agent that handles after-hours calls and books tables automatically, an e-commerce CRM automation that recovered stale leads and cut manual follow-up by 80%, and an Instagram lead-generation pipeline that qualifies and routes inbound inquiries without human triage. Each includes the problem, the system built, and the measurable outcome. Use them to evaluate consultant pricing, automation costs, what a consultant actually delivers, and which automation to build first. If you want the broader decision library around these proof assets, continue into the full guides hub.\n\n### FAQ-style proof block\nSubhead: What can you actually learn from these case studies?\nQ1: What do these case studies prove?\nA1: They show three concrete categories of automation work Dmytro AI has already shipped: after-hours phone handling and booking flow, CRM cleanup plus lead follow-up, and qualification plus routing for inbound inquiries. If you want evidence before paying for a consultant or choosing a workflow, this is the proof layer.\n\nQ2: Which case study should I read first for my business?\nA2: If missed calls or booking gaps are the problem, start with Paris Cafe. If your CRM is messy or leads are going stale, start with the e-commerce CRM automation build. If your team is drowning in inbound inquiries, start with the Instagram lead-generation system. Then compare those proof assets with the consultant overview, pricing guide, and best-first-automation page.\n\nQ3: Can these examples apply outside the exact same industry?\nA3: Yes — the value is in the workflow pattern, not just the industry label. A restaurant phone-coverage case study can still help a home-service business thinking about AI appointment setting, and an e-commerce CRM cleanup can still help a service business evaluating lead follow-up, reactivation, and segmentation systems.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Keeps the case-studies hub in proof mode rather than turning it into a generic sales page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses short buyer-language Q&A blocks so search engines and AI answer engines can extract what the proof library is actually for."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Strengthens routing into the highest-intent commercial and hub pages without adding hype or unsupported claims."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps claims grounded in already-published proof assets only."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T00:07:27.184Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        4,
+        5,
+        3
+      ],
+      "avgSentenceLength": 18.4,
+      "sentenceLengthRange": [
+        7,
+        49
+      ],
+      "totalWords": 294
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Intro refresh\nBody: Dmytro AI publishes three documented case studies: a restaurant voice-agent that handles after-hours calls and books tables automatically, an e-commerce CRM automation that recovered stale leads and cut manual follow-up by 80%, and an Instagram lead-generation pipeline that qualifies and routes inbound inquiries without human triage.",
+      "wordCount": 49,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "Q3: Can these examples apply outside the exact same industry?\nA3: Yes — the value is in the workflow pattern, not just the industry label. A restaurant phone-coverage case study can still help a home-service business thinking about AI appointment setting, and an e-commerce CRM cleanup can still help a service business evaluating lead follow-up, reactivation, and segmentation systems.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 12,
+      "commas": 20,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 4,
+      "colon": 10,
+      "commasPerSentence": 1.25
+    },
+    "vocabulary": {
+      "distinctWords": 172,
+      "totalWords": 294,
+      "topWords": [
+        [
+          "case",
+          5
+        ],
+        [
+          "crm",
+          5
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "if",
+          5
+        ],
+        [
+          "consultant",
+          4
+        ],
+        [
+          "these",
+          4
+        ],
+        [
+          "proof",
+          4
+        ],
+        [
+          "can",
+          4
+        ],
+        [
+          "with",
+          4
+        ],
+        [
+          "ai",
+          3
+        ],
+        [
+          "studies",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "e-commerce",
+          3
+        ],
+        [
+          "follow-up",
+          3
+        ],
+        [
+          "inbound",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

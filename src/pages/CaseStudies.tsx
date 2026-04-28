@@ -53,6 +53,24 @@ const relatedGuideLinks = [
   { label: "Automation cost breakdown", href: "/ai-automation-cost-small-business" },
 ];
 
+const faqItems = [
+  {
+    question: "What do these case studies prove?",
+    answer:
+      "They show three concrete categories of automation work Dmytro AI has already shipped: after-hours phone handling and booking flow, CRM cleanup plus lead follow-up, and qualification plus routing for inbound inquiries. If you want evidence before paying for a consultant or choosing a workflow, this is the proof layer.",
+  },
+  {
+    question: "Which case study should I read first for my business?",
+    answer:
+      "If missed calls or booking gaps are the problem, start with Paris Cafe. If your CRM is messy or leads are going stale, start with the e-commerce CRM automation build. If your team is drowning in inbound inquiries, start with the Instagram lead-generation system. Then compare those proof assets with the consultant overview, pricing guide, and best-first-automation page.",
+  },
+  {
+    question: "Can these examples apply outside the exact same industry?",
+    answer:
+      "Yes — the value is in the workflow pattern, not just the industry label. A restaurant phone-coverage case study can still help a home-service business thinking about AI appointment setting, and an e-commerce CRM cleanup can still help a service business evaluating lead follow-up, reactivation, and segmentation systems.",
+  },
+];
+
 const itemListSchema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
@@ -77,6 +95,19 @@ const collectionPageSchema = {
     name: "Dmytro AI",
     url: "https://www.dmytroai.com",
   },
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqItems.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.answer,
+    },
+  })),
 };
 
 const breadcrumbSchema = {
@@ -111,6 +142,7 @@ const CaseStudies = () => {
         <meta property="og:url" content="https://www.dmytroai.com/case-studies" />
         <script type="application/ld+json">{JSON.stringify(collectionPageSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(itemListSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       </Helmet>
       <Navbar />
@@ -132,7 +164,7 @@ const CaseStudies = () => {
               Real systems built for real businesses. Start here if you want proof before choosing a workflow, platform, or consultant path.
             </p>
             <p className="text-base text-muted-foreground leading-relaxed">
-              Dmytro AI publishes three documented case studies: a <Link to="/case-studies/paris-cafe-voice-agent" className="text-primary hover:underline">restaurant voice-agent</Link> that handles after-hours calls and books tables automatically, an <Link to="/case-studies/ecommerce-crm-automation" className="text-primary hover:underline">e-commerce CRM automation</Link> that recovered stale leads and cut manual follow-up by 80%, and an <Link to="/case-studies/instagram-lead-generation" className="text-primary hover:underline">Instagram lead-generation pipeline</Link> that qualifies and routes inbound inquiries without human triage. Each includes the problem, the system built, and the measurable outcome. Use them to evaluate <Link to="/ai-automation-consultant-pricing-small-business" className="text-primary hover:underline">consultant pricing</Link>, <Link to="/ai-automation-cost-small-business" className="text-primary hover:underline">automation costs</Link>, and <Link to="/what-does-an-ai-automation-consultant-do" className="text-primary hover:underline">what a consultant actually delivers</Link>.
+              Dmytro AI publishes three documented case studies: a <Link to="/case-studies/paris-cafe-voice-agent" className="text-primary hover:underline">restaurant voice-agent</Link> that handles after-hours calls and books tables automatically, an <Link to="/case-studies/ecommerce-crm-automation" className="text-primary hover:underline">e-commerce CRM automation</Link> that recovered stale leads and cut manual follow-up by 80%, and an <Link to="/case-studies/instagram-lead-generation" className="text-primary hover:underline">Instagram lead-generation pipeline</Link> that qualifies and routes inbound inquiries without human triage. Each includes the problem, the system built, and the measurable outcome. Use them to evaluate <Link to="/ai-automation-consultant-pricing-small-business" className="text-primary hover:underline">consultant pricing</Link>, <Link to="/ai-automation-cost-small-business" className="text-primary hover:underline">automation costs</Link>, <Link to="/what-does-an-ai-automation-consultant-do" className="text-primary hover:underline">what a consultant actually delivers</Link>, and which <Link to="/best-ai-automation-for-service-businesses" className="text-primary hover:underline">automation to build first</Link>. If you want the broader decision library around these proof assets, continue into the full <Link to="/guides" className="text-primary hover:underline">guides hub</Link>.
             </p>
           </motion.div>
 
@@ -188,6 +220,30 @@ const CaseStudies = () => {
                   <span className="font-semibold text-foreground">Unsure what to automate first?</span> Read the best-first-automation guide, then compare all three case studies.
                 </p>
               </div>
+            </div>
+          </div>
+
+          <div className="rounded-3xl border border-primary/15 bg-primary/5 p-6 md:p-8 mb-10 shadow-card">
+            <p className="text-sm font-semibold uppercase tracking-wide text-primary mb-3">
+              Buyer questions this proof hub answers
+            </p>
+            <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-4">
+              What can you actually learn from these case studies?
+            </h2>
+            <div className="grid gap-4 md:grid-cols-3">
+              {faqItems.map((item) => (
+                <div
+                  key={item.question}
+                  className="rounded-2xl border border-border/60 bg-background/80 p-5 shadow-card"
+                >
+                  <h3 className="text-base font-semibold text-foreground mb-2">
+                    {item.question}
+                  </h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    {item.answer}
+                  </p>
+                </div>
+              ))}
             </div>
           </div>
 
