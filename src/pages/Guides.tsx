@@ -1150,6 +1150,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed-Call Text-Back vs. AI Phone Answering for Mortgage Brokers",
+    description:
+      "Practical mortgage buyer guide for brokerages deciding whether a lighter SMS-first missed-call workflow is enough or whether borrowers now expect the heavier live AI phone-answering layer instead.",
+    href: "/missed-call-text-back-vs-ai-phone-answering-for-mortgage-brokers",
+    category: "comparisons",
+  },
+  {
     title: "Document Collection Automation for Mortgage Brokers",
     description:
       "Automated reminders for missing mortgage documents, incomplete-file tracking, secure next-step prompts, and cleaner broker handoff without manual chasing.",

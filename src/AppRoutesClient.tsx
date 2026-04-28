@@ -108,6 +108,7 @@ const WhatToAutomateFirstForMortgageBrokers = lazy(() => import("./pages/WhatToA
 const AppointmentSchedulingAndReminderAutomationForMortgageBrokers = lazy(() => import("./pages/AppointmentSchedulingAndReminderAutomationForMortgageBrokers"));
 const ReferralRequestAutomationForMortgageBrokers = lazy(() => import("./pages/ReferralRequestAutomationForMortgageBrokers"));
 const AiPhoneAnsweringForMortgageBrokers = lazy(() => import("./pages/AiPhoneAnsweringForMortgageBrokers"));
+const MissedCallTextBackVsAiPhoneAnsweringForMortgageBrokers = lazy(() => import("./pages/MissedCallTextBackVsAiPhoneAnsweringForMortgageBrokers"));
 const AiPhoneAnsweringVsVoicemailForMortgageBrokers = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForMortgageBrokers"));
 const AiAutomationForDentalPractices = lazy(() => import("./pages/AiAutomationForDentalPractices"));
 const WhatToAutomateFirstForDentalPractices = lazy(() => import("./pages/WhatToAutomateFirstForDentalPractices"));
@@ -539,6 +540,7 @@ const AppRoutesClient = () => (
       <Route path="/appointment-scheduling-and-reminder-automation-for-mortgage-brokers" element={<AppointmentSchedulingAndReminderAutomationForMortgageBrokers />} />
       <Route path="/referral-request-automation-for-mortgage-brokers" element={<ReferralRequestAutomationForMortgageBrokers />} />
       <Route path="/ai-phone-answering-for-mortgage-brokers" element={<AiPhoneAnsweringForMortgageBrokers />} />
+      <Route path="/missed-call-text-back-vs-ai-phone-answering-for-mortgage-brokers" element={<MissedCallTextBackVsAiPhoneAnsweringForMortgageBrokers />} />
       <Route path="/ai-phone-answering-vs-voicemail-for-mortgage-brokers" element={<AiPhoneAnsweringVsVoicemailForMortgageBrokers />} />
       <Route path="/ai-automation-for-dental-practices" element={<AiAutomationForDentalPractices />} />
       <Route path="/what-to-automate-first-for-dental-practices" element={<WhatToAutomateFirstForDentalPractices />} />

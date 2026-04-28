@@ -318,6 +318,7 @@ const data: DecisionPageData = {
     { label: "AI lead follow-up for mortgage brokers", href: "/ai-lead-follow-up-for-mortgage-brokers" },
     { label: "AI phone answering for mortgage brokers", href: "/ai-phone-answering-for-mortgage-brokers" },
     { label: "Missed-call text-back for mortgage brokers", href: "/missed-call-text-back-for-mortgage-brokers" },
+    { label: "Missed-call text-back vs. AI phone answering for mortgage brokers", href: "/missed-call-text-back-vs-ai-phone-answering-for-mortgage-brokers" },
     { label: "Missed-call text-back vs. voicemail for mortgage brokers", href: "/missed-call-text-back-vs-voicemail-for-mortgage-brokers" },
     { label: "Appointment scheduling and reminder automation for mortgage brokers", href: "/appointment-scheduling-and-reminder-automation-for-mortgage-brokers" },
     { label: "Referral request automation for mortgage brokers", href: "/referral-request-automation-for-mortgage-brokers" },

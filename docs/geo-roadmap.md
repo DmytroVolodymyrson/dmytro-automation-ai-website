@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/ai-phone-answering-cost-for-accounting-firms` — a new accounting-cluster pricing page extracted from an exact tracked prompt already sitting on the live accounting phone-answering parent: how much should a firm budget for live AI phone coverage? The new page stays distinct from the generic small-business cost guide by focusing on tax-season volume spikes, intake vs. status-call logic, meeting-booking/reschedule handling, and professional escalation boundaries inside an accounting workflow. Previous: `/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses`.)
+Last updated: 2026-04-28 (shipped `/missed-call-text-back-vs-ai-phone-answering-for-mortgage-brokers` — a new mortgage-cluster phone comparison page extracted from a clean live-cluster gap between the lighter missed-call SMS fallback and the heavier live AI phone-answering layer. The page stays distinct by focusing on borrower urgency, consultation blocks, after-hours demand, callback ownership, and when a brokerage has or has not outgrown SMS-first recovery. Previous: `/ai-phone-answering-cost-for-accounting-firms`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 321.
+**Total live GEO pages tracked here:** 322.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -135,6 +135,7 @@ Last updated: 2026-04-28 (shipped `/ai-phone-answering-cost-for-accounting-firms
 | AI Phone vs Voicemail (Mortgage) | `/ai-phone-answering-vs-voicemail-for-mortgage-brokers` | Vertical comparison page | Live |
 | Missed-Call Text-Back (Mortgage) | `/missed-call-text-back-for-mortgage-brokers` | Vertical workflow page | Live |
 | Missed-Call Text-Back vs. Voicemail (Mortgage) | `/missed-call-text-back-vs-voicemail-for-mortgage-brokers` | Vertical comparison page | Live |
+| Text-Back vs AI Phone (Mortgage) | `/missed-call-text-back-vs-ai-phone-answering-for-mortgage-brokers` | Vertical comparison page | Live |
 | Document Collection (Mortgage) | `/document-collection-automation-for-mortgage-brokers` | Vertical workflow page | Live |
 | Incomplete Application Follow-Up | `/incomplete-application-follow-up-for-mortgage-brokers` | Vertical workflow page | Live |
 | What to Automate First (Mortgage) | `/what-to-automate-first-for-mortgage-brokers` | Vertical decision page | Live |
@@ -333,16 +334,16 @@ Last updated: 2026-04-28 (shipped `/ai-phone-answering-cost-for-accounting-firms
 
 ## Next Pages
 
-This run also started from a fresh broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and the live route/page set. The strongest clean gap that survived route and prompt checks was a missing pricing child already implied by the live accounting phone-answering parent: what should an accounting firm actually budget for live AI phone coverage? Shipping that page closes an exact buyer-intent gap without inventing a new cluster or forcing a thin same-stage sibling.
+This run also started from a fresh broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and the live route/page set. The strongest clean gap that survived route and prompt checks was the missing direct mortgage phone-layer comparison between SMS-first missed-call recovery and the heavier live AI phone-answering layer. Shipping that page closes a real buyer decision already implied by the live mortgage phone cluster without inventing fake proof or forcing a thin duplicate.
 
 The next run should:
 
 1. **Keep manual GSC follow-through moving** on the newest shipped pages and refreshed priority URLs instead of treating publish alone as the finish line.
-2. **Start from another fresh broad reconciliation before naming the next net-new page** so the queue does not drift into stale accounting-cluster inertia just because this cluster produced one clean pricing child.
-3. **Only force another same-cluster accounting sibling if another exact materially different tracked query still survives review**; otherwise leave the queue in watchlist mode and pivot to the strongest distinct cross-cluster gap.
+2. **Start from another fresh broad reconciliation before naming the next net-new page** so the queue does not drift into stale mortgage-cluster inertia just because this cluster produced one clean phone comparison child.
+3. **Only force another same-cluster mortgage sibling if another exact materially different tracked query still survives review**; otherwise leave the queue in watchlist mode and pivot to the strongest distinct cross-cluster gap.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Manual GSC follow-through on refreshed priority URLs and the newest accounting/service-business ships | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |
-| 2 | Fresh broad reconciliation before another net-new page | The repo is dense enough that stale docs can still make already-live pages look missing or can over-credit the accounting cluster with the next run by default. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
-| 3 | Watchlist: another same-cluster accounting child only if a truly distinct tracked query still survives review | The accounting cluster is stronger now, but a forced follow-up page would risk sliding into thin overlap unless a clearly different buyer question still remains after this pricing page. | Verify any same-cluster candidate is still absent from routes, pages, sitemap, llm files, and geo prompts, and confirm it answers a materially different decision than the live accounting parent, phone-answering parent, missed-call/voicemail comparison pages, and the new pricing child. |
+| 1 | Manual GSC follow-through on refreshed priority URLs and the newest mortgage/accounting ships | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |
+| 2 | Fresh broad reconciliation before another net-new page | The repo is dense enough that stale docs can still make already-live pages look missing or can over-credit the mortgage cluster with the next run by default. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
+| 3 | Review Request Automation for Mortgage Brokers | The mortgage cluster now covers early-funnel lead follow-up, booked-consult scheduling, document / incomplete-application work, phone recovery, heavier live answering, referral asks, and first-project scoping. A post-closing review-request child still looks materially distinct from the live referral page and would deepen the funded-borrower advocacy layer cleanly. | Verify the slug is still absent from routes, pages, sitemap, llm files, and geo prompts, and confirm the page stays narrowly on review timing, review-vs-referral separation, unhappy-reply handling, and compliance-safe advocacy instead of collapsing into the live referral-request page. |

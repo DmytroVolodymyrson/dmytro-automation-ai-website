@@ -980,6 +980,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-vs-ai-phone-answering-for-mortgage-brokers",
+      "path": "/missed-call-text-back-vs-ai-phone-answering-for-mortgage-brokers",
+      "label": "Missed-Call Text-Back vs. AI Phone Answering for Mortgage Brokers",
+      "prompts": [
+        "Missed-call text-back vs. AI phone answering for mortgage brokers",
+        "Should a mortgage brokerage use missed-call text-back or live AI phone answering?",
+        "When is SMS-first missed-call recovery enough for a mortgage brokerage?",
+        "When should a mortgage broker move from missed-call text-back to live AI phone answering?",
+        "Best phone fallback for mortgage brokers: text-back or live AI answering?"
+      ]
+    },
+    {
       "id": "ai-phone-answering-vs-voicemail-for-mortgage-brokers",
       "path": "/ai-phone-answering-vs-voicemail-for-mortgage-brokers",
       "label": "AI Phone Answering vs. Voicemail for Mortgage Brokers",

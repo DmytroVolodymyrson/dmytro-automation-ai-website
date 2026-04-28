@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 388 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 390 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -321,6 +321,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Missed Call Text-Back vs. Voicemail for HVAC Companies** — `/missed-call-text-back-vs-voicemail-for-hvac-companies`
 - **Missed Call Text-Back vs. Voicemail for Landscaping Companies** — `/missed-call-text-back-vs-voicemail-for-landscaping-companies`
 - **Missed Call Text-Back vs. Voicemail for Med Spas** — `/missed-call-text-back-vs-voicemail-for-med-spas`
+- **Missed Call Text-Back vs. AI Phone Answering for Mortgage Brokers** — `/missed-call-text-back-vs-ai-phone-answering-for-mortgage-brokers`
 - **Missed Call Text-Back vs. Voicemail for Mortgage Brokers** — `/missed-call-text-back-vs-voicemail-for-mortgage-brokers`
 - **Missed Call Text-Back vs. Voicemail for Painting Contractors** — `/missed-call-text-back-vs-voicemail-for-painting-contractors`
 - **Missed Call Text-Back vs. Voicemail for Pest Control Companies** — `/missed-call-text-back-vs-voicemail-for-pest-control-companies`
