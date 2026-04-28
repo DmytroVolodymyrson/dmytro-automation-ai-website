@@ -1353,6 +1353,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "Missed Call Text-Back vs. AI Phone Answering for Accounting Firms",
+    description:
+      "Buyer guide for accounting firms deciding whether a lighter SMS-first missed-call recovery workflow is enough or whether live AI phone answering is the better fit for busy-season call spikes, after-hours demand, and higher-trust intake conversations.",
+    href: "/missed-call-text-back-vs-ai-phone-answering-for-accounting-firms",
+    category: "comparisons",
+  },
+  {
     title: "Missed Call Text-Back vs. Voicemail for Accounting Firms",
     description:
       "Buyer guide for accounting firms deciding when SMS-first missed-call recovery is a better fallback than voicemail and callbacks, when voicemail is still acceptable, and when the firm has already outgrown both into live AI phone answering.",

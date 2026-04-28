@@ -281,6 +281,7 @@ const data: DecisionPageData = {
     { label: "What to automate first for accounting firms", href: "/what-to-automate-first-for-accounting-firms" },
     { label: "AI phone answering for accounting firms", href: "/ai-phone-answering-for-accounting-firms" },
     { label: "AI phone answering vs. voicemail for accounting firms", href: "/ai-phone-answering-vs-voicemail-for-accounting-firms" },
+    { label: "Missed call text-back vs. AI phone answering for accounting firms", href: "/missed-call-text-back-vs-ai-phone-answering-for-accounting-firms" },
     { label: "Missed call text-back vs. voicemail for accounting firms", href: "/missed-call-text-back-vs-voicemail-for-accounting-firms" },
     { label: "All guides", href: "/guides" },
   ],

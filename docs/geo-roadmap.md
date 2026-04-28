@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/client-reactivation-automation-for-electrical-contractors`, a net-new electrical retention child page that turns the broader electrical parent's repeat-opportunity language into a distinct workflow page focused on dormant client recovery, realistic repeat-service timing, and fast office handoff when old customers need help again.)
+Last updated: 2026-04-28 (shipped `/missed-call-text-back-vs-ai-phone-answering-for-accounting-firms`, a net-new accounting comparison page that isolates the cleaner lighter-vs-heavier buyer decision between SMS-first missed-call recovery and live AI phone answering inside an already-proven accounting phone cluster.)
 
 ## Live GEO Assets
 
@@ -171,6 +171,7 @@ Last updated: 2026-04-28 (shipped `/client-reactivation-automation-for-electrica
 | AI Lead Follow-Up (Accounting) | `/ai-lead-follow-up-for-accounting-firms` | Vertical workflow page | Live |
 | AI Phone Answering (Accounting) | `/ai-phone-answering-for-accounting-firms` | Vertical solution page | Live |
 | AI Phone vs Voicemail (Accounting) | `/ai-phone-answering-vs-voicemail-for-accounting-firms` | Vertical comparison page | Live |
+| Text-Back vs AI Phone (Accounting) | `/missed-call-text-back-vs-ai-phone-answering-for-accounting-firms` | Vertical comparison page | Live |
 | Missed Call Text-Back vs Voicemail (Accounting) | `/missed-call-text-back-vs-voicemail-for-accounting-firms` | Vertical comparison page | Live |
 | Review Automation (Accounting) | `/review-request-automation-for-accounting-firms` | Vertical workflow page | Live |
 | Missed Call Text-Back (Accounting) | `/missed-call-text-back-for-accounting-firms` | Vertical workflow page | Live |
@@ -315,15 +316,15 @@ Last updated: 2026-04-28 (shipped `/client-reactivation-automation-for-electrica
 
 ## Next Pages
 
-This run did the required broad reconciliation and found one clean electrical-cluster gap that still survived routes, prompts, guides, sitemap, llm, and planning-doc verification: `/client-reactivation-automation-for-electrical-contractors`. The broader electrical parent already implied the retention problem, the cluster had strong internal-linking value, and the page stayed materially distinct from lead follow-up, estimate follow-up, booked-job communication, review requests, and phone-recovery pages.
+This run found one still-clean gap inside the accounting phone cluster: `/missed-call-text-back-vs-ai-phone-answering-for-accounting-firms`. The site already had the broader accounting parent, the first-project page, the lighter missed-call text-back workflow page, and the heavier AI-phone-answering plus AI-phone-vs-voicemail siblings. What was still missing was the direct buyer decision between the lighter SMS-first recovery layer and the heavier live-answering layer. That made this page materially distinct instead of a thin rewrite.
 
 The next run should:
 
-1. **Verify live/indexing behavior** for `/client-reactivation-automation-for-electrical-contractors` after deploy propagation, then request indexing manually in GSC.
-2. **Run a fresh broad prompts/route reconciliation pass** before naming another net-new page, because the mature clusters are now dense enough that stale backlog assumptions are the main risk.
+1. **Verify live/indexing behavior** for `/missed-call-text-back-vs-ai-phone-answering-for-accounting-firms` after deploy propagation, then request indexing manually in GSC.
+2. **Run a fresh broad prompts/route reconciliation pass** before naming another net-new page, because the mature clusters are now dense enough that stale backlog assumptions are still the main risk.
 3. **If no equally clean net-new page survives full verification, fall back to a bounded priority-page refresh** instead of forcing a thin duplicate.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Broad prompts/route reconciliation pass | The live site and prompt inventory are mature enough that stale backlog assumptions are still the biggest risk after another adjacent home-service retention ship. | Re-run the live-routes vs prompts/guides/sitemap/llm/planning-doc diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
+| 1 | Broad prompts/route reconciliation pass | The live site and prompt inventory are mature enough that the next safe win is more likely to come from a fresh cross-cluster verification pass than from assuming another adjacent accounting child still survives unchanged. | Re-run the live-routes vs prompts/guides/sitemap/llm/planning-doc diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
 | 2 | Bounded priority-page refresh | If reconciliation does not leave one clearly safe net-new page, the better move is to strengthen one discovered-not-indexed priority URL instead of forcing another same-cluster child. | Re-check `docs/geo-priority-urls.md`, current live copy, and internal-link gaps before choosing the refresh target. |

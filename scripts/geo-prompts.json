@@ -1389,6 +1389,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-vs-ai-phone-answering-for-accounting-firms",
+      "path": "/missed-call-text-back-vs-ai-phone-answering-for-accounting-firms",
+      "label": "Missed Call Text-Back vs. AI Phone Answering for Accounting Firms",
+      "prompts": [
+        "Missed call text-back vs AI phone answering for accounting firms",
+        "Should an accounting firm use missed-call text-back or AI phone answering?",
+        "When is text-back enough for a CPA firm instead of live AI phone answering?",
+        "Best phone workflow for accounting firms: SMS fallback or live AI answering?",
+        "How should an accounting firm choose between missed-call recovery and live AI phone coverage?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-vs-voicemail-for-accounting-firms",
       "path": "/missed-call-text-back-vs-voicemail-for-accounting-firms",
       "label": "Missed Call Text-Back vs. Voicemail for Accounting Firms",

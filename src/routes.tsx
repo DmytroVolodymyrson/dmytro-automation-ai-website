@@ -111,6 +111,7 @@ import ReviewRequestAutomationForDentalPractices from "./pages/ReviewRequestAuto
 import MissedCallTextBackForDentalPractices from "./pages/MissedCallTextBackForDentalPractices";
 import MissedCallTextBackVsVoicemailForDentalPractices from "./pages/MissedCallTextBackVsVoicemailForDentalPractices";
 import MissedCallTextBackVsAiPhoneAnsweringForDentalPractices from "./pages/MissedCallTextBackVsAiPhoneAnsweringForDentalPractices";
+import MissedCallTextBackVsAiPhoneAnsweringForAccountingFirms from "./pages/MissedCallTextBackVsAiPhoneAnsweringForAccountingFirms";
 import AiPhoneAnsweringForDentalPractices from "./pages/AiPhoneAnsweringForDentalPractices";
 import AiPhoneAnsweringVsVoicemailForDentalPractices from "./pages/AiPhoneAnsweringVsVoicemailForDentalPractices";
 import AiAutomationForLawFirms from "./pages/AiAutomationForLawFirms";
@@ -597,6 +598,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-lead-follow-up-for-accounting-firms", element: <AiLeadFollowUpForAccountingFirms /> },
   { path: "/ai-phone-answering-for-accounting-firms", element: <AiPhoneAnsweringForAccountingFirms /> },
   { path: "/ai-phone-answering-vs-voicemail-for-accounting-firms", element: <AiPhoneAnsweringVsVoicemailForAccountingFirms /> },
+  { path: "/missed-call-text-back-vs-ai-phone-answering-for-accounting-firms", element: <MissedCallTextBackVsAiPhoneAnsweringForAccountingFirms /> },
   { path: "/missed-call-text-back-vs-voicemail-for-accounting-firms", element: <MissedCallTextBackVsVoicemailForAccountingFirms /> },
   { path: "/missed-call-text-back-for-accounting-firms", element: <MissedCallTextBackForAccountingFirms /> },
   { path: "/review-request-automation-for-accounting-firms", element: <ReviewRequestAutomationForAccountingFirms /> },
