@@ -23,9 +23,9 @@ const data: DecisionPageData = {
   badgeIcon: DollarSign,
   h1: "AI Automation Consultant Pricing for Small Business",
   heroIntro:
-    "You've decided AI automation makes sense for your business. Now you need to know what it costs. This is an honest breakdown — not a sales page — of what small businesses actually pay for automation consulting, what drives the price, and how to get the most value from your budget.",
+    "For most small businesses, AI automation consultant pricing usually lands in three practical bands: roughly $1.5K-$3K for one narrow workflow, $3K-$6K for a more connected core process, and $6K+ when the build touches multiple systems, live AI, or heavier reliability requirements. The useful question is not just 'what is the fee?' It is 'what operating problem am I trying to solve, and what level of build does that actually require?' This page breaks that down without pretending every business needs the biggest package.",
   heroSubtext:
-    "Below: real pricing ranges, what you get at each level, and how to evaluate whether a quote is fair.",
+    "Below: what those budget bands usually buy, where small businesses overspend, which adjacent pages help you scope the project before you ask for quotes, and how to judge whether a proposal is fair.",
   sections: [
     {
       type: "cards",
@@ -37,16 +37,28 @@ const data: DecisionPageData = {
           icon: Target,
           title: "Fixed project fee",
           body: "One price for a defined scope of work. You know the cost upfront. The consultant absorbs the risk of scope creep. Most common for small business automation. Typical range: $1,500–$8,000 per project.",
+          links: [
+            { label: "What a consultant actually does", href: "/what-does-an-ai-automation-consultant-do" },
+            { label: "Consultant scope and fit", href: "/ai-automation-consultant-small-business" },
+          ],
         },
         {
           icon: Clock,
           title: "Hourly rate",
           body: "Pay for time spent. Gives you flexibility but no cost certainty. Common with freelancers and agencies. Risk: projects that run longer cost more. Typical range: $50–$200/hour depending on experience.",
+          links: [
+            { label: "Consultant vs freelancer", href: "/ai-automation-consultant-vs-freelancer" },
+            { label: "Hire a consultant vs DIY", href: "/hire-ai-automation-consultant-vs-diy" },
+          ],
         },
         {
           icon: Layers,
           title: "Monthly retainer",
           body: "Ongoing relationship with a set monthly fee. Includes maintenance, updates, and a defined number of hours for new work. Best for businesses that need continuous optimization. Typical range: $500–$3,000/month.",
+          links: [
+            { label: "Maintenance and support", href: "/ai-automation-maintenance-and-support-small-business" },
+            { label: "AI automation ROI guide", href: "/ai-automation-roi-guide" },
+          ],
         },
       ],
     },
@@ -95,6 +107,44 @@ const data: DecisionPageData = {
             "Solving one specific bottleneck",
             "Automating a core business process",
             "Transforming how your operations run",
+          ],
+        },
+      ],
+    },
+    {
+      type: "cards",
+      title: "What to do at different budget levels",
+      subtitle:
+        "The best pricing decision is usually choosing the smallest build that fixes the real leak first:",
+      items: [
+        {
+          icon: Calculator,
+          title: "If your budget is under $2K",
+          body: "Stay narrow. Price one workflow where the payoff is obvious: missed-call recovery, instant lead acknowledgment, one reminder sequence, or one CRM cleanup pass. If you are still deciding whether the economics work at all, compare the broader cost page, the ROI calculator, and the time-savings page before paying for a heavier custom build.",
+          links: [
+            { label: "AI automation cost", href: "/ai-automation-cost-small-business" },
+            { label: "ROI calculator", href: "/ai-automation-roi-calculator" },
+            { label: "AI automation time savings", href: "/ai-automation-time-savings-small-business" },
+          ],
+        },
+        {
+          icon: Scale,
+          title: "If your budget is about $2K-$5K",
+          body: "This is the range where many small businesses should start if the workflow touches live leads, booking, or CRM handoff. You can usually fund one strong first project with scope, implementation, documentation, and a short stabilization window — without pretending you need a full ops rebuild on day one.",
+          links: [
+            { label: "Consultant scope guide", href: "/ai-automation-consultant-small-business" },
+            { label: "What a consultant actually does", href: "/what-does-an-ai-automation-consultant-do" },
+            { label: "Businesses without a tech team", href: "/ai-automation-for-businesses-without-a-tech-team" },
+          ],
+        },
+        {
+          icon: TrendingUp,
+          title: "If your budget is $5K+",
+          body: "Use the extra room only when the workflow really spans multiple systems, channels, or reliability layers. That usually means live phone or AI qualification, CRM routing, calendar logic, follow-up, reporting, and more testing. At this level, proof and maintenance discipline matter more than fancy promises.",
+          links: [
+            { label: "Paris Cafe voice-agent proof", href: "/case-studies/paris-cafe-voice-agent" },
+            { label: "WheelsFeels CRM proof", href: "/case-studies/ecommerce-crm-automation" },
+            { label: "Maintenance and support", href: "/ai-automation-maintenance-and-support-small-business" },
           ],
         },
       ],
@@ -230,6 +280,11 @@ const data: DecisionPageData = {
         "Start with a single project in the $2K–$4K range. Pick your biggest bottleneck — usually lead follow-up speed or missed calls — and automate that first. See the ROI before committing more budget. Most businesses that start with one project come back for more because the payback is clear and fast.",
     },
     {
+      question: "What can I realistically automate for under $2K?",
+      answer:
+        "Usually one narrow workflow with a clear trigger and a clear business outcome: missed-call recovery, first-response acknowledgment, a simple reminder sequence, or a bounded CRM cleanup/routing layer. Under-$2K budgets usually work best when the workflow is deterministic and the owner is not expecting full multi-system orchestration or advanced AI phone handling on day one. The more live handoff logic, edge-case handling, and integrations you need, the faster you move into the next pricing band.",
+    },
+    {
       question: "What ongoing costs should I expect after the initial build?",
       answer:
         "Most automations have a monthly software and usage cost on top of the build fee — often in the $50–$300/month range for the tools that actually run the workflow, such as CRM seats, SMS sending, voice minutes, or AI usage. A good consultant should document those recurring costs before launch so there are no surprises. The exact number depends on volume and stack, but it is usually far lower than the cost of adding manual admin just to keep a narrow workflow moving.",
@@ -249,12 +304,32 @@ const data: DecisionPageData = {
     "The call is free. You'll leave with a clear picture of cost, timeline, and expected ROI.",
   relatedLinks: [
     {
+      label: "AI automation consultant for small business",
+      href: "/ai-automation-consultant-small-business",
+    },
+    {
+      label: "What does an AI automation consultant do?",
+      href: "/what-does-an-ai-automation-consultant-do",
+    },
+    {
       label: "AI automation cost breakdown",
       href: "/ai-automation-cost-small-business",
     },
     {
-      label: "ROI calculator for automation projects",
+      label: "AI automation ROI calculator",
       href: "/ai-automation-roi-calculator",
+    },
+    {
+      label: "AI automation time savings",
+      href: "/ai-automation-time-savings-small-business",
+    },
+    {
+      label: "AI automation maintenance and support",
+      href: "/ai-automation-maintenance-and-support-small-business",
+    },
+    {
+      label: "AI automation without a tech team",
+      href: "/ai-automation-for-businesses-without-a-tech-team",
     },
     {
       label: "How to hire an AI automation consultant",
@@ -265,12 +340,16 @@ const data: DecisionPageData = {
       href: "/build-vs-buy-ai-automation",
     },
     {
-      label: "What does an AI automation consultant do?",
-      href: "/what-does-an-ai-automation-consultant-do",
+      label: "Best AI automations for service businesses",
+      href: "/best-ai-automation-for-service-businesses",
     },
     {
       label: "Case studies — real results",
       href: "/case-studies",
+    },
+    {
+      label: "Guides hub",
+      href: "/guides",
     },
   ],
 };
