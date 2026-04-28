@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/intake-forms-and-document-collection-automation-for-service-businesses`: extracted the narrow intake-and-files bottleneck from the broader onboarding cluster, covering incomplete forms, missing-document reminders, secure upload next steps, and handoff before a full onboarding build. Total live pages: 296.)
+Last updated: 2026-04-28 (shipped `/gohighlevel-vs-keap-small-business`: added the cleanest remaining small-business CRM comparison inside the live GoHighLevel cluster, covering pricing floor, user/contact limits, automation fit, payments differences, and the real migration friction from Keap/Infusionsoft into GoHighLevel. Total live pages: 297.)
 
 ## Live GEO Assets
 
@@ -60,6 +60,7 @@ Last updated: 2026-04-28 (shipped `/intake-forms-and-document-collection-automat
 | CRM Automation Setup vs DIY | `/crm-automation-setup-vs-diy-for-contractors` | Vertical decision page | Live |
 | GoHighLevel vs Custom CRM (SMB) | `/gohighlevel-vs-custom-crm-small-business` | Comparison page | Live |
 | GoHighLevel vs HubSpot (SMB) | `/gohighlevel-vs-hubspot-small-business` | Comparison page | Live |
+| GoHighLevel vs Keap (SMB) | `/gohighlevel-vs-keap-small-business` | Comparison page | Live |
 | GoHighLevel vs Custom CRM (Contractors) | `/gohighlevel-vs-custom-crm-for-contractors` | Vertical comparison page | Live |
 | GoHighLevel vs Jobber (Contractors) | `/gohighlevel-vs-jobber-for-contractors` | Vertical comparison page | Live |
 | GoHighLevel Automation Setup | `/gohighlevel-automation-setup` | Service page | Live |
@@ -306,7 +307,7 @@ Last updated: 2026-04-28 (shipped `/intake-forms-and-document-collection-automat
 
 ## Next Pages
 
-The onboarding cluster now covers the broader service-business parent plus a narrower intake-and-files child, with the exact document-collection query moved off the parent and onto the new page. That closes the cleanest remaining onboarding-specific extraction in this generic cluster, so the next run should not force another same-cluster sibling by inertia. The right next step is still broad reconciliation across routes, prompts, guides, sitemap, llm surfaces, and planning docs before naming the next net-new page.
+The GoHighLevel comparison cluster now covers the broader small-business custom-CRM decision plus HubSpot and Keap as two distinct mainstream SaaS alternatives. That closes the cleanest remaining SMB CRM-vendor comparison in this cluster, so the next run should not force another same-cluster SaaS-vs-SaaS page by inertia. The right next step is still broad reconciliation across routes, prompts, guides, sitemap, llm surfaces, and planning docs before naming the next net-new page.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|

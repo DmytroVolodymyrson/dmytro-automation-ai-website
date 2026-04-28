@@ -2265,6 +2265,18 @@
       ]
     },
     {
+      "id": "gohighlevel-vs-keap-small-business",
+      "path": "/gohighlevel-vs-keap-small-business",
+      "label": "GoHighLevel vs. Keap for Small Business",
+      "prompts": [
+        "GoHighLevel vs Keap for small business",
+        "Should a small business use GoHighLevel or Keap?",
+        "Keap vs GoHighLevel pricing for a small business",
+        "Is GoHighLevel better than Keap for service business follow-up?",
+        "How hard is it to migrate from Keap or Infusionsoft to GoHighLevel?"
+      ]
+    },
+    {
       "id": "gohighlevel-account-cleanup-service",
       "path": "/gohighlevel-account-cleanup-service",
       "label": "GoHighLevel Account Cleanup Service",

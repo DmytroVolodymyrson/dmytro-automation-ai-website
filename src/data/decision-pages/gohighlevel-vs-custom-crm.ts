@@ -213,6 +213,10 @@ const data: DecisionPageData = {
       label: "GoHighLevel vs. HubSpot",
       href: "/gohighlevel-vs-hubspot-small-business",
     },
+    {
+      label: "GoHighLevel vs. Keap",
+      href: "/gohighlevel-vs-keap-small-business",
+    },
     { label: "n8n vs Zapier comparison", href: "/n8n-vs-zapier-small-business" },
     {
       label: "AI lead follow-up guide",

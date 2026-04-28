@@ -255,6 +255,10 @@ const data: DecisionPageData = {
       href: "/gohighlevel-vs-custom-crm-small-business",
     },
     {
+      label: "GoHighLevel vs. Keap",
+      href: "/gohighlevel-vs-keap-small-business",
+    },
+    {
       label: "GoHighLevel automation setup help",
       href: "/gohighlevel-automation-setup",
     },

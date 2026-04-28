@@ -29,6 +29,7 @@ const HvacDatabaseReactivation = lazy(() => import("./pages/HvacDatabaseReactiva
 const AiAutomationConsultantVsFreelancer = lazy(() => import("./pages/AiAutomationConsultantVsFreelancer"));
 const AiChatbotVsAiVoiceAgentForLeadQualification = lazy(() => import("./pages/AiChatbotVsAiVoiceAgentForLeadQualification"));
 const GoHighLevelVsCustomCrmSmallBusiness = lazy(() => import("./pages/GoHighLevelVsCustomCrmSmallBusiness"));
+const GoHighLevelVsKeapSmallBusiness = lazy(() => import("./pages/GoHighLevelVsKeapSmallBusiness"));
 const GoHighLevelVsCustomCrmForContractors = lazy(() => import("./pages/GoHighLevelVsCustomCrmForContractors"));
 const GoHighLevelVsJobberForContractors = lazy(() => import("./pages/GoHighLevelVsJobberForContractors"));
 const GoHighLevelAutomationSetup = lazy(() => import("./pages/GoHighLevelAutomationSetup"));
@@ -436,6 +437,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-automation-consultant-vs-freelancer" element={<AiAutomationConsultantVsFreelancer />} />
       <Route path="/ai-chatbot-vs-ai-voice-agent-for-lead-qualification" element={<AiChatbotVsAiVoiceAgentForLeadQualification />} />
       <Route path="/gohighlevel-vs-custom-crm-small-business" element={<GoHighLevelVsCustomCrmSmallBusiness />} />
+      <Route path="/gohighlevel-vs-keap-small-business" element={<GoHighLevelVsKeapSmallBusiness />} />
       <Route path="/gohighlevel-vs-custom-crm-for-contractors" element={<GoHighLevelVsCustomCrmForContractors />} />
       <Route path="/gohighlevel-vs-jobber-for-contractors" element={<GoHighLevelVsJobberForContractors />} />
       <Route path="/gohighlevel-automation-setup" element={<GoHighLevelAutomationSetup />} />

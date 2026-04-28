@@ -189,6 +189,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "GoHighLevel vs. Keap for Small Business",
+    description:
+      "Practical comparison of GoHighLevel and Keap for small businesses. Pricing, automation depth, SMS, scheduling, migration friction, and when each CRM actually fits.",
+    href: "/gohighlevel-vs-keap-small-business",
+    category: "comparisons",
+  },
+  {
     title: "GoHighLevel Automation Setup & Expert Help",
     description:
       "Practical GoHighLevel setup help for small businesses — pipeline cleanup, calendars, follow-up automations, reporting, pricing, and when GHL is the wrong tool.",
