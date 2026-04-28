@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-best-ai-automation-for-service-businesses-routing-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Section\nHeading: What to read next based on where you are\nBody: You've seen the five automations. Where you go next depends on what you need right now:\n\nCards:\n- I want proof before I decide — Read the case studies first. Paris Cafe went from 0% to 100% after-hours coverage; WheelsFeels saw a 185% conversion lift across 5,600+ leads. Both include measurable outcomes, timelines, and costs.\n- I need someone to scope and build this — The consultant guide covers what a first engagement looks like, typical pricing ($2K–$5K for a first project), and how to evaluate whether a consultant is worth it for your situation.\n- I have no tech team or IT person — Most service businesses don't. The no-tech-team guide covers what's realistic to build and maintain without technical staff — including which automations on this page work best when you have zero in-house tech capacity.\n- I'm still researching broadly — The guides hub organizes every automation guide by workflow type — lead follow-up, appointment setting, reactivation, voice agents, and more. Start there if you want to compare options across categories before committing.\n\n### Linked destinations\n- /case-studies\n- /ai-automation-consultant-small-business\n- /ai-automation-for-businesses-without-a-tech-team\n- /guides",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Bounded refresh on a discovered-not-indexed priority page rather than a net-new ship."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the copy direct and buyer-oriented: proof, expert help, no-tech-team constraint, or broader research."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses measurable proof references early instead of generic credibility language."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Strengthens contextual internal links between the best-first-automation category page and the four highest-value support/hub pages around it."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype, with clear next-step routing instead of vague CTA copy."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T13:28:12.396Z",
+    "structure": {
+      "paragraphCount": 3,
+      "sentencesPerParagraph": [
+        2,
+        8,
+        1
+      ],
+      "avgSentenceLength": 17.5,
+      "sentenceLengthRange": [
+        7,
+        39
+      ],
+      "totalWords": 192
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Section\nHeading: What to read next based on where you are\nBody: You've seen the five automations.",
+      "wordCount": 17,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Linked destinations\n- /case-studies\n- /ai-automation-consultant-small-business\n- /ai-automation-for-businesses-without-a-tech-team\n- /guides",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 9,
+      "emDashes": 6,
+      "enDashes": 1,
+      "hyphens": 8,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 4,
+      "commasPerSentence": 0.9
+    },
+    "vocabulary": {
+      "distinctWords": 137,
+      "totalWords": 192,
+      "topWords": [
+        [
+          "-",
+          8
+        ],
+        [
+          "what",
+          3
+        ],
+        [
+          "first",
+          3
+        ],
+        [
+          "guide",
+          3
+        ],
+        [
+          "read",
+          2
+        ],
+        [
+          "next",
+          2
+        ],
+        [
+          "where",
+          2
+        ],
+        [
+          "automations",
+          2
+        ],
+        [
+          "need",
+          2
+        ],
+        [
+          "want",
+          2
+        ],
+        [
+          "before",
+          2
+        ],
+        [
+          "across",
+          2
+        ],
+        [
+          "build",
+          2
+        ],
+        [
+          "this",
+          2
+        ],
+        [
+          "consultant",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.005
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

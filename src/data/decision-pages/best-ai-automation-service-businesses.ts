@@ -126,6 +126,46 @@ const data: DecisionPageData = {
       ],
     },
     {
+      type: "cards",
+      title: "What to read next based on where you are",
+      subtitle:
+        "You've seen the five automations. Where you go next depends on what you need right now:",
+      items: [
+        {
+          icon: CheckCircle2,
+          title: "I want proof before I decide",
+          body: "Read the case studies first. Paris Cafe went from 0% to 100% after-hours coverage; WheelsFeels saw a 185% conversion lift across 5,600+ leads. Both include measurable outcomes, timelines, and costs.",
+          links: [
+            { label: "Case studies with measurable outcomes", href: "/case-studies" },
+          ],
+        },
+        {
+          icon: Scale,
+          title: "I need someone to scope and build this",
+          body: "The consultant guide covers what a first engagement looks like, typical pricing ($2K–$5K for a first project), and how to evaluate whether a consultant is worth it for your situation.",
+          links: [
+            { label: "AI automation consultant guide", href: "/ai-automation-consultant-small-business" },
+          ],
+        },
+        {
+          icon: Wrench,
+          title: "I have no tech team or IT person",
+          body: "Most service businesses don't. The no-tech-team guide covers what's realistic to build and maintain without technical staff — including which automations on this page work best when you have zero in-house tech capacity.",
+          links: [
+            { label: "Automation without a tech team", href: "/ai-automation-for-businesses-without-a-tech-team" },
+          ],
+        },
+        {
+          icon: Scale,
+          title: "I'm still researching broadly",
+          body: "The guides hub organizes every automation guide by workflow type — lead follow-up, appointment setting, reactivation, voice agents, and more. Start there if you want to compare options across categories before committing.",
+          links: [
+            { label: "All automation guides", href: "/guides" },
+          ],
+        },
+      ],
+    },
+    {
       type: "evaluation",
       title: "Is your business a fit for AI automation?",
       subtitle:
