@@ -11,11 +11,11 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 377 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 378 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
-### Strategy + comparison pages (33)
+### Strategy + comparison pages (34)
 - **Affordable AI Automation for Small Business** — `/affordable-ai-automation-small-business`
 - **AI Appointment Setter vs Receptionist** — `/ai-appointment-setter-vs-receptionist`
 - **AI Appointment Setter vs Virtual Assistant** — `/ai-appointment-setter-vs-virtual-assistant`
@@ -39,6 +39,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **GoHighLevel vs. Keap for Small Business** — `/gohighlevel-vs-keap-small-business`
 - **Hire an AI Automation Consultant vs Agency** — `/hire-ai-automation-consultant-vs-agency`
 - **Hire an AI Automation Consultant vs. DIY** — `/hire-ai-automation-consultant-vs-diy`
+- **AI Automation Consultant vs. In-House Hire** — `/hire-ai-automation-consultant-vs-in-house`
 - **How to Hire an AI Automation Consultant** — `/how-to-hire-ai-automation-consultant`
 - **How to Hire an n8n Automation Consultant** — `/how-to-hire-n8n-automation-consultant`
 - **n8n Automation Consultant Cost for Small Business** — `/n8n-automation-consultant-cost-small-business`

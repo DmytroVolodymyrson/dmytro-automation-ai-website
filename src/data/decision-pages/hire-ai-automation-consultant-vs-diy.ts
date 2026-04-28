@@ -243,6 +243,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation consultant for small business", href: "/ai-automation-consultant-small-business" },
     { label: "Consultant vs agency", href: "/hire-ai-automation-consultant-vs-agency" },
+    { label: "Consultant vs in-house hire", href: "/hire-ai-automation-consultant-vs-in-house" },
     { label: "Build vs buy AI automation", href: "/build-vs-buy-ai-automation" },
     { label: "AI automation cost for small business", href: "/ai-automation-cost-small-business" },
   ],

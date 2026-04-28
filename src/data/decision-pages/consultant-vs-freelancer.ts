@@ -226,6 +226,10 @@ const data: DecisionPageData = {
       href: "/hire-ai-automation-consultant-vs-agency",
     },
     {
+      label: "Consultant vs. in-house hire",
+      href: "/hire-ai-automation-consultant-vs-in-house",
+    },
+    {
       label: "AI automation consultant guide",
       href: "/ai-automation-consultant-small-business",
     },

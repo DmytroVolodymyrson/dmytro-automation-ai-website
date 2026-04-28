@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-hire-ai-automation-consultant-vs-in-house",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation Consultant vs. In-House Hire\nBody: Hiring someone full-time to own automation sounds like the safest long-term move. Sometimes it is. But for most small businesses, the automation workload is too uneven to justify full-time salary, benefits, management overhead, and a multi-month ramp before the first workflow is reliable. A consultant usually makes more sense when you need a few commercially important systems shipped well and fast, not a full-time internal automation department.\nSub: Below: what each path really costs, when an in-house hire is genuinely justified, when a consultant is the lower-risk choice, where small businesses misread automation volume, and what published proof on this site honestly supports consultant-speed delivery.\n\n### Core sections\n- Two very different hiring decisions\n- Side-by-side comparison of cost, speed, and risk\n- When an in-house hire is actually the right call\n- When a consultant is usually the better fit\n- The hidden costs of hiring in-house too early\n- How to make the right call without overhiring\n- Relevant proof from published consultant-led case studies\n\n### FAQ\nSubhead: Straight answers for owners weighing a full-time hire against consultant help\n- When does hiring a full-time automation person make more sense than a consultant?\n- How much does an in-house automation hire actually cost?\n- Can I start with a consultant and hire in-house later?\n- What if I already have someone on the team who could learn automation?\n- Will a consultant just build something and disappear?\n\n### Final CTA\nHeading: Not sure whether to hire or bring in a consultant?\nBody: Book a 30-minute call. We will look at your automation workload, estimate whether the volume really justifies a full-time role, and help you decide the most cost-effective path — whether that involves working together or not.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This page closes a consultant-cluster buyer-intent gap between the existing agency, DIY, pricing, role-clarity, and freelancer pages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The framing stays practical and non-hype: salary vs project spend, ramp-up time, idle capacity, and workflow volume are treated as the real decision variables."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof stayed honest by leaning on published consultant-led case studies (Paris Cafe, WheelsFeels CRM, Instagram lead generation) rather than inventing a dedicated in-house-vs-consultant case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Internal links were intentionally aimed back into the consultant buying journey so this page can act as a mid-funnel comparison page instead of an isolated article."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T15:12:03.846Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 19.7,
+      "sentenceLengthRange": [
+        3,
+        61
+      ],
+      "totalWords": 295
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: AI Automation Consultant vs.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Not sure whether to hire or bring in a consultant?\nBody: Book a 30-minute call. We will look at your automation workload, estimate whether the volume really justifies a full-time role, and help you decide the most cost-effective path — whether that involves working together or not.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 13,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 12,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 0.93
+    },
+    "vocabulary": {
+      "distinctWords": 165,
+      "totalWords": 295,
+      "topWords": [
+        [
+          "-",
+          12
+        ],
+        [
+          "automation",
+          9
+        ],
+        [
+          "consultant",
+          9
+        ],
+        [
+          "hire",
+          7
+        ],
+        [
+          "in-house",
+          6
+        ],
+        [
+          "full-time",
+          6
+        ],
+        [
+          "when",
+          6
+        ],
+        [
+          "hiring",
+          4
+        ],
+        [
+          "not",
+          3
+        ],
+        [
+          "what",
+          3
+        ],
+        [
+          "call",
+          3
+        ],
+        [
+          "whether",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "someone",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.007
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

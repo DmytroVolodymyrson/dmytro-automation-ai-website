@@ -30,6 +30,7 @@ const AiAutomationConsultantOntario = lazy(() => import("./pages/AiAutomationCon
 const AiAutomationConsultantBritishColumbia = lazy(() => import("./pages/AiAutomationConsultantBritishColumbia"));
 const HireAiAutomationConsultantVsAgency = lazy(() => import("./pages/HireAiAutomationConsultantVsAgency"));
 const HireAiAutomationConsultantVsDiy = lazy(() => import("./pages/HireAiAutomationConsultantVsDiy"));
+const HireAiAutomationConsultantVsInHouse = lazy(() => import("./pages/HireAiAutomationConsultantVsInHouse"));
 const HowToHireAiAutomationConsultant = lazy(() => import("./pages/HowToHireAiAutomationConsultant"));
 const HvacDatabaseReactivation = lazy(() => import("./pages/HvacDatabaseReactivation"));
 const AiAutomationConsultantVsFreelancer = lazy(() => import("./pages/AiAutomationConsultantVsFreelancer"));
@@ -450,6 +451,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-automation-hvac" element={<Navigate to="/ai-automation-for-hvac-companies" replace />} />
       <Route path="/hire-ai-automation-consultant-vs-agency" element={<HireAiAutomationConsultantVsAgency />} />
       <Route path="/hire-ai-automation-consultant-vs-diy" element={<HireAiAutomationConsultantVsDiy />} />
+      <Route path="/hire-ai-automation-consultant-vs-in-house" element={<HireAiAutomationConsultantVsInHouse />} />
       <Route path="/how-to-hire-ai-automation-consultant" element={<HowToHireAiAutomationConsultant />} />
       <Route path="/hvac-database-reactivation" element={<HvacDatabaseReactivation />} />
       <Route path="/ai-automation-consultant-vs-freelancer" element={<AiAutomationConsultantVsFreelancer />} />

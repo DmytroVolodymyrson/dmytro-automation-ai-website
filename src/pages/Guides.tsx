@@ -168,6 +168,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "AI Automation Consultant vs. In-House Hire",
+    description:
+      "Should you hire a full-time automation person or bring in a consultant? Honest comparison of salary, ramp-up time, breadth of experience, and when each path pays off for small businesses.",
+    href: "/hire-ai-automation-consultant-vs-in-house",
+    category: "comparisons",
+  },
+  {
     title: "How to Hire an AI Automation Consultant",
     description:
       "Need to find someone to automate your business with AI? Practical hiring guide to vetting, proof, ownership, red flags, and the questions to ask before you sign anything.",

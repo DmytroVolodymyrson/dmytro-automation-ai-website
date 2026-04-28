@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/client-reactivation-roi-small-business` after the remaining workflow-level economic-gap pass. The client-reactivation cluster already had the service-businesses parent plus a pricing page, but it still lacked the worth-it-now ROI decision page. This new page closes that gap with conservative payback math, direct routing into the cost page, adjacent proof from the HVAC reactivation page plus the published e-commerce CRM case study, and internal links back into the live reactivation cluster.)
+Last updated: 2026-04-28 (shipped `/hire-ai-automation-consultant-vs-in-house` after consultant-cluster reconciliation. The consultant hiring cluster already had agency, DIY, pricing, role-clarity, and freelancer pages live, but it still lacked the full-time headcount versus consultant decision page. This new page closes that gap with honest salary-vs-project math, ramp-up versus speed-to-launch framing, adjacent proof from published consultant-led case studies, and internal links back into the live consultant buying journey.)
 
 ## Live GEO Assets
 
@@ -49,6 +49,7 @@ Last updated: 2026-04-28 (shipped `/client-reactivation-roi-small-business` afte
 | AI Consultant Canada | `/ai-automation-consultant-canada` | Geo page | Live |
 | Hire Consultant vs Agency | `/hire-ai-automation-consultant-vs-agency` | Decision / comparison | Live |
 | Hire Consultant vs DIY | `/hire-ai-automation-consultant-vs-diy` | Decision / comparison | Live |
+| Consultant vs In-House Hire | `/hire-ai-automation-consultant-vs-in-house` | Decision / comparison | Live |
 | How to Hire a Consultant | `/how-to-hire-ai-automation-consultant` | Hiring-intent guide | Live |
 | n8n vs Make | `/n8n-vs-make-small-business` | Comparison page | Live |
 | Retell vs Bland AI | `/retell-vs-bland-small-business` | Comparison page | Live |
@@ -319,15 +320,15 @@ Last updated: 2026-04-28 (shipped `/client-reactivation-roi-small-business` afte
 
 ## Next Pages
 
-This run shipped `/client-reactivation-roi-small-business` because the client-reactivation cluster still had one clean buyer-intent gap: the workflow-level worth-it decision between the broad service-businesses reactivation explainer and the existing pricing page. The new page stays distinct from both the cost page and the generic reactivation explainers by focusing narrowly on conservative payback math across recovered repeat jobs, maintenance visits, referrals, and saved admin time.
+This run shipped `/hire-ai-automation-consultant-vs-in-house` because the consultant cluster still had one clean hiring-intent gap: the owner decision between adding full-time automation headcount and bringing in a consultant for bounded delivery. The new page stays distinct from the existing agency, DIY, pricing, and freelancer pages by focusing narrowly on salary-versus-project math, ramp-up time, ongoing automation volume, and when a small business actually has enough work to justify an internal hire.
 
 The next run should:
 
-1. **Re-check whether any equally distinct horizontal economic child still survives** before inventing another adjacent page, because most of the clearest workflow-level ROI / pricing gaps are now filled.
-2. **If not, do a bounded refresh on `/ai-automation-cost-small-business`** so the broader budgeting hub keeps routing into the newer ROI/cost/time-savings siblings and remains one of the strongest commercial entry points on the site.
-3. **Keep manual GSC follow-through moving** on the already-refreshed priority URLs instead of treating publish alone as the finish line.
+1. **Do a fresh broad reconciliation first** instead of forcing another adjacent consultant child by inertia, because the strongest obvious consultant-cluster hiring gaps are now filled.
+2. **If broad reconciliation does not surface a clearly cleaner net-new page, do a bounded refresh on `/ai-automation-cost-small-business`** so the broader budgeting hub keeps routing into the newer consultant, ROI, cost, and time-savings decision pages.
+3. **Keep manual GSC follow-through moving** on the newest consultant-cluster page and other refreshed priority URLs instead of treating publish alone as the finish line.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | `/ai-automation-cost-small-business` bounded refresh | Now that the clean client-reactivation ROI child is live, the broader automation-cost hub becomes the strongest next maintenance target because it naturally connects pricing, ROI, time-savings, no-tech-team, support, and proof-driven decision pages. | Re-check `docs/geo-priority-urls.md`, the live copy, and whether the newest cost / ROI siblings should be linked and mentioned more explicitly before choosing the exact bounded refresh scope. |
-| 2 | Fresh broad reconciliation before another net-new page | If no equally distinct workflow-level economic child clearly survives a repo-wide pass, it is safer to refresh a priority commercial URL than force a thin adjacent page. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming another net-new candidate. |
+| 1 | Fresh broad reconciliation before another net-new page | The consultant hiring cluster is now materially cleaner, so the safest next ship should come from a repo-wide pass across planning docs, live routes, and tracked prompts rather than another assumed same-cluster child. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
+| 2 | `/ai-automation-cost-small-business` bounded refresh | If no equally distinct planned page survives broad reconciliation, the automation-cost hub remains a strong commercial maintenance target because it can route directly into newer consultant, ROI, and support pages. | Re-check `docs/geo-priority-urls.md`, the live copy, and whether the newest consultant/comparison pages should be linked and mentioned more explicitly before choosing the exact bounded refresh scope. |

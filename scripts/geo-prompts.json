@@ -513,6 +513,18 @@
       ]
     },
     {
+      "id": "hire-ai-automation-consultant-vs-in-house",
+      "path": "/hire-ai-automation-consultant-vs-in-house",
+      "label": "AI Automation Consultant vs In-House Hire",
+      "prompts": [
+        "AI automation consultant vs in-house hire",
+        "Should I hire a full-time automation person or use a consultant?",
+        "Outsource AI automation vs in-house team",
+        "Cost of hiring an automation developer vs consultant",
+        "AI automation consultant vs internal hire for small business"
+      ]
+    },
+    {
       "id": "how-to-hire-ai-automation-consultant",
       "path": "/how-to-hire-ai-automation-consultant",
       "label": "How to Hire an AI Automation Consultant",

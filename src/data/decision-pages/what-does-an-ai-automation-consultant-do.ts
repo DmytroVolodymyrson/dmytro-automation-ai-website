@@ -252,6 +252,7 @@ const data: DecisionPageData = {
         { label: "How to hire an AI automation consultant", href: "/how-to-hire-ai-automation-consultant" },
         { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
         { label: "Hire a consultant vs. do it yourself", href: "/hire-ai-automation-consultant-vs-diy" },
+        { label: "Consultant vs. in-house hire", href: "/hire-ai-automation-consultant-vs-in-house" },
         { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
         { label: "Book a strategy call", href: "/#booking" },
       ],
