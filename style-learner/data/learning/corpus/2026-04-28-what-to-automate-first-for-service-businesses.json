@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-what-to-automate-first-for-service-businesses",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: What to Automate First for Service Businesses\nBody: The safest first automation for most service businesses is instant lead response — an automatic SMS and email reply sent within 60 seconds of every form submission or missed call. It costs $1K–$2K to deploy, typically pays for itself in the first week, and produces measurable data that tells you exactly what to build next. Below is a practical decision framework for choosing between seven common first-project candidates: lead response, missed-call recovery, follow-up sequences, scheduling and reminders, client onboarding, database reactivation, and after-hours phone coverage. The right choice depends on where your business is actually losing revenue today — not which automation sounds most impressive.\nSub: Below: the seven workflows worth considering as a first project, how to choose the right one based on your specific bottleneck, honest fit and not-fit criteria, adjacent proof from published case studies, and what to skip until the basics are working.\n\n### Core sections\n- Seven first-project candidates for service businesses\n- Which workflow should you automate first?\n- Three more workflows that make strong first projects in the right situation\n- This page vs. adjacent service-business guides\n- Is your service business ready for a first automation project?\n- Proof from real service-business deployments\n- How to choose the right first workflow without overbuilding\n- Common mistakes when choosing a first automation\n\n### FAQ\nSubhead: Practical questions from owners trying to choose the safest first automation for a service business\n- What should most service businesses automate first?\n- Is lead response or missed-call recovery the better first project?\n- When should a service business automate scheduling before follow-up?\n- Is database reactivation a good first automation project?\n- When is after-hours AI phone coverage the right first build?\n\n### Final CTA\nHeading: Need help choosing the first process to automate?\nBody: Book a 30-minute call. We will look at where leads, time, or handoffs are leaking in your business and map the smallest workflow that would create a clear win first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because broad reconciliation showed the generic service-business strategy cluster still lacked the narrower first-project decision page between the broader pages about what AI can automate and the existing workflow-specific guides."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept it distinct from `/best-ai-automation-for-service-businesses` and `/what-processes-can-ai-automate-in-my-business` by centering the decision on first-project selection, not broad research or full-category ranking."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used practical cost ranges, speed-to-ROI framing, and explicit bottleneck routing so the page answers the owner question directly instead of sounding like a general automation explainer."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Grounded proof with published on-site case studies and adjacent workflow proof only: Paris Cafe for lead-response and phone coverage, WheelsFeels for structured follow-up, and HVAC reactivation as evidence that dormant-contact recovery can be the best first project in the right business."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and anti-hype: smallest bounded workflow first, clear human handoff, and explicit warnings against overbuilding."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T15:56:35.369Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        4,
+        5,
+        3
+      ],
+      "avgSentenceLength": 19.6,
+      "sentenceLengthRange": [
+        5,
+        42
+      ],
+      "totalWords": 334
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: What to Automate First for Service Businesses\nBody: The safest first automation for most service businesses is instant lead response — an automatic SMS and email reply sent within 60 seconds of every form submission or missed call.",
+      "wordCount": 39,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help choosing the first process to automate?\nBody: Book a 30-minute call. We will look at where leads, time, or handoffs are leaking in your business and map the smallest workflow that would create a clear win first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 14,
+      "emDashes": 2,
+      "enDashes": 1,
+      "hyphens": 13,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 8,
+      "colon": 8,
+      "commasPerSentence": 0.88
+    },
+    "vocabulary": {
+      "distinctWords": 172,
+      "totalWords": 334,
+      "topWords": [
+        [
+          "first",
+          16
+        ],
+        [
+          "-",
+          13
+        ],
+        [
+          "service",
+          7
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "automate",
+          5
+        ],
+        [
+          "right",
+          5
+        ],
+        [
+          "business",
+          5
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "businesses",
+          4
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "project",
+          4
+        ],
+        [
+          "most",
+          3
+        ],
+        [
+          "lead",
+          3
+        ],
+        [
+          "response",
+          3
+        ],
+        [
+          "that",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right",
+        "right",
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.015
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

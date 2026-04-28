@@ -287,6 +287,7 @@ const data: DecisionPageData = {
     { label: "AI automation audit checklist", href: "/ai-automation-audit-checklist" },
     { label: "AI automation implementation roadmap", href: "/ai-automation-implementation-roadmap" },
     { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
+    { label: "What to automate first for service businesses", href: "/what-to-automate-first-for-service-businesses" },
     { label: "AI automation ROI guide", href: "/ai-automation-roi-guide" },
     { label: "All guides", href: "/guides" },
   ],

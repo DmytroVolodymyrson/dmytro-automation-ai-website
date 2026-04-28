@@ -50,6 +50,7 @@ const GoHighLevelSetupMistakesSmallBusiness = lazy(() => import("./pages/GoHighL
 const GoHighLevelVsHubSpotSmallBusiness = lazy(() => import("./pages/GoHighLevelVsHubSpotSmallBusiness"));
 const AiAutomationConsultantPricingSmallBusiness = lazy(() => import("./pages/AiAutomationConsultantPricingSmallBusiness"));
 const BestAiAutomationForServiceBusinesses = lazy(() => import("./pages/BestAiAutomationForServiceBusinesses"));
+const WhatToAutomateFirstForServiceBusinesses = lazy(() => import("./pages/WhatToAutomateFirstForServiceBusinesses"));
 const AiAutomationForHvacCompanies = lazy(() => import("./pages/AiAutomationForHvacCompanies"));
 const WhatToAutomateFirstForHvacCompanies = lazy(() => import("./pages/WhatToAutomateFirstForHvacCompanies"));
 const HvacLeadFollowUpAutomation = lazy(() => import("./pages/HvacLeadFollowUpAutomation"));
@@ -471,6 +472,7 @@ const AppRoutesClient = () => (
       <Route path="/gohighlevel-vs-hubspot-small-business" element={<GoHighLevelVsHubSpotSmallBusiness />} />
       <Route path="/ai-automation-consultant-pricing-small-business" element={<AiAutomationConsultantPricingSmallBusiness />} />
       <Route path="/best-ai-automation-for-service-businesses" element={<BestAiAutomationForServiceBusinesses />} />
+      <Route path="/what-to-automate-first-for-service-businesses" element={<WhatToAutomateFirstForServiceBusinesses />} />
       <Route path="/ai-automation-for-hvac-companies" element={<AiAutomationForHvacCompanies />} />
       <Route path="/what-to-automate-first-for-hvac-companies" element={<WhatToAutomateFirstForHvacCompanies />} />
       <Route path="/hvac-lead-follow-up-automation" element={<HvacLeadFollowUpAutomation />} />

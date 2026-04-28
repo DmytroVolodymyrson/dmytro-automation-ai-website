@@ -27,9 +27,20 @@
       "prompts": [
         "Best AI automations for service businesses",
         "What are the highest ROI AI automations for a service business?",
-        "Which business processes should a service company automate first?",
         "Best automation ideas for HVAC dental legal and real estate service businesses",
         "What AI automations are actually worth building for a small service business?"
+      ]
+    },
+    {
+      "id": "what-to-automate-first-for-service-businesses",
+      "path": "/what-to-automate-first-for-service-businesses",
+      "label": "What to Automate First for Service Businesses",
+      "prompts": [
+        "Which business processes should a service company automate first?",
+        "What is the safest first automation for a service business?",
+        "Should I automate lead response or follow-up first for my service business?",
+        "What workflow should a small service business automate before anything else?",
+        "How do I choose the right first AI automation project for my service company?"
       ]
     },
     {

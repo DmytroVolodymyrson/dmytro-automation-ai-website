@@ -252,6 +252,7 @@ const data: DecisionPageData = {
         { label: "View all case studies", href: "/case-studies" },
         { label: "AI automation cost guide", href: "/ai-automation-cost-small-business" },
         { label: "AI automation ROI guide", href: "/ai-automation-roi-guide" },
+        { label: "What to automate first for service businesses", href: "/what-to-automate-first-for-service-businesses" },
         { label: "Hire an AI automation consultant", href: "/ai-automation-consultant-small-business" },
         { label: "Lead follow-up automation guide", href: "/ai-lead-follow-up-for-service-businesses" },
         { label: "Automation without a tech team", href: "/ai-automation-for-businesses-without-a-tech-team" },

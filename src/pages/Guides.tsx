@@ -139,6 +139,13 @@ const guides: GuideItem[] = [
     category: "strategy",
   },
   {
+    title: "What to Automate First for Service Businesses",
+    description:
+      "Not sure which workflow to tackle first? A practical guide to choosing between lead response, missed-call recovery, follow-up sequences, scheduling, onboarding, reactivation, and phone coverage — with cost ranges and honest fit criteria.",
+    href: "/what-to-automate-first-for-service-businesses",
+    category: "strategy",
+  },
+  {
     title: "n8n vs Zapier for Small Business",
     description:
       "A practical comparison for business owners. When Zapier is enough, when n8n is the better fit, and what actually matters for cost and complexity.",

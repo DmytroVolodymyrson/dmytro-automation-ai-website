@@ -49,6 +49,7 @@ import GoHighLevelSetupMistakesSmallBusiness from "./pages/GoHighLevelSetupMista
 import GoHighLevelVsHubSpotSmallBusiness from "./pages/GoHighLevelVsHubSpotSmallBusiness";
 import AiAutomationConsultantPricingSmallBusiness from "./pages/AiAutomationConsultantPricingSmallBusiness";
 import BestAiAutomationForServiceBusinesses from "./pages/BestAiAutomationForServiceBusinesses";
+import WhatToAutomateFirstForServiceBusinesses from "./pages/WhatToAutomateFirstForServiceBusinesses";
 import AiAutomationForHvacCompanies from "./pages/AiAutomationForHvacCompanies";
 import WhatToAutomateFirstForHvacCompanies from "./pages/WhatToAutomateFirstForHvacCompanies";
 import HvacLeadFollowUpAutomation from "./pages/HvacLeadFollowUpAutomation";
@@ -484,6 +485,7 @@ export const appRoutes: AppRouteDefinition[] = [
     element: <AiAutomationConsultantPricingSmallBusiness />,
   },
   { path: "/best-ai-automation-for-service-businesses", element: <BestAiAutomationForServiceBusinesses /> },
+  { path: "/what-to-automate-first-for-service-businesses", element: <WhatToAutomateFirstForServiceBusinesses /> },
   { path: "/ai-automation-for-hvac-companies", element: <AiAutomationForHvacCompanies /> },
   { path: "/what-to-automate-first-for-hvac-companies", element: <WhatToAutomateFirstForHvacCompanies /> },
   { path: "/hvac-lead-follow-up-automation", element: <HvacLeadFollowUpAutomation /> },

@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/hire-ai-automation-consultant-vs-in-house` after consultant-cluster reconciliation. The consultant hiring cluster already had agency, DIY, pricing, role-clarity, and freelancer pages live, but it still lacked the full-time headcount versus consultant decision page. This new page closes that gap with honest salary-vs-project math, ramp-up versus speed-to-launch framing, adjacent proof from published consultant-led case studies, and internal links back into the live consultant buying journey.)
+Last updated: 2026-04-28 (shipped `/what-to-automate-first-for-service-businesses` after broad reconciliation across the generic service-business strategy cluster. The site already had broad pages about best automations and what AI can automate, but it still lacked the narrower first-project decision page that helps owners choose the safest bounded workflow to build first. This new page closes that gap with practical cost ranges, speed-to-ROI framing, honest fit criteria, adjacent proof from published lead-response and follow-up case studies, and internal links back into the broader service-business decision journey.)
 
 ## Live GEO Assets
 
@@ -82,6 +82,7 @@ Last updated: 2026-04-28 (shipped `/hire-ai-automation-consultant-vs-in-house` a
 | GoHighLevel Setup Mistakes | `/gohighlevel-setup-mistakes-small-business` | Guide / pain-aware page | Live |
 | AI Consultant Pricing (SMB) | `/ai-automation-consultant-pricing-small-business` | Role cost page | Live |
 | Best AI for Service Businesses | `/best-ai-automation-for-service-businesses` | Category / priority page | Live |
+| What to Automate First for Service Businesses | `/what-to-automate-first-for-service-businesses` | Strategy / first-project decision page | Live |
 | AI for HVAC Companies | `/ai-automation-for-hvac-companies` | Vertical category page | Live |
 | What to Automate First (HVAC) | `/what-to-automate-first-for-hvac-companies` | Vertical decision page | Live |
 | HVAC Lead Follow-Up | `/hvac-lead-follow-up-automation` | Vertical workflow page | Live |
@@ -320,15 +321,15 @@ Last updated: 2026-04-28 (shipped `/hire-ai-automation-consultant-vs-in-house` a
 
 ## Next Pages
 
-This run shipped `/hire-ai-automation-consultant-vs-in-house` because the consultant cluster still had one clean hiring-intent gap: the owner decision between adding full-time automation headcount and bringing in a consultant for bounded delivery. The new page stays distinct from the existing agency, DIY, pricing, and freelancer pages by focusing narrowly on salary-versus-project math, ramp-up time, ongoing automation volume, and when a small business actually has enough work to justify an internal hire.
+This run shipped `/what-to-automate-first-for-service-businesses` because the generic service-business strategy cluster still had one clean missing layer between the broad explainer pages and the narrower workflow pages: the owner decision about which bounded automation to build first. The new page stays distinct from `/best-ai-automation-for-service-businesses` and `/what-processes-can-ai-automate-in-my-business` by focusing tightly on the first-project choice itself — lead response versus missed-call recovery versus follow-up versus scheduling versus onboarding versus reactivation versus after-hours phone coverage.
 
 The next run should:
 
-1. **Do a fresh broad reconciliation first** instead of forcing another adjacent consultant child by inertia, because the strongest obvious consultant-cluster hiring gaps are now filled.
-2. **If broad reconciliation does not surface a clearly cleaner net-new page, do a bounded refresh on `/ai-automation-cost-small-business`** so the broader budgeting hub keeps routing into the newer consultant, ROI, cost, and time-savings decision pages.
-3. **Keep manual GSC follow-through moving** on the newest consultant-cluster page and other refreshed priority URLs instead of treating publish alone as the finish line.
+1. **Do another fresh broad reconciliation first** instead of forcing a second adjacent generic service-business child by inertia, because the broad strategy cluster is materially cleaner after this ship.
+2. **If broad reconciliation does not surface a clearly better net-new page, do a bounded refresh on `/ai-automation-cost-small-business`** so the budgeting hub keeps routing into the newer consultant, ROI, time-savings, and first-project decision pages.
+3. **Keep manual GSC follow-through moving** on the newest generic strategy page and other refreshed priority URLs instead of treating publish alone as the finish line.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Fresh broad reconciliation before another net-new page | The consultant hiring cluster is now materially cleaner, so the safest next ship should come from a repo-wide pass across planning docs, live routes, and tracked prompts rather than another assumed same-cluster child. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
-| 2 | `/ai-automation-cost-small-business` bounded refresh | If no equally distinct planned page survives broad reconciliation, the automation-cost hub remains a strong commercial maintenance target because it can route directly into newer consultant, ROI, and support pages. | Re-check `docs/geo-priority-urls.md`, the live copy, and whether the newest consultant/comparison pages should be linked and mentioned more explicitly before choosing the exact bounded refresh scope. |
+| 1 | Fresh broad reconciliation before another net-new page | The generic service-business strategy cluster is now cleaner, so the safest next ship should come from a repo-wide pass across planning docs, live routes, tracked prompts, and priority URLs rather than another assumed same-cluster child. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
+| 2 | `/ai-automation-cost-small-business` bounded refresh | If no equally distinct planned page survives broad reconciliation, the automation-cost hub remains a strong commercial maintenance target because it can route directly into newer consultant, ROI, support, and first-project decision pages. | Re-check `docs/geo-priority-urls.md`, the live copy, and whether the newest strategy/comparison pages should be linked and mentioned more explicitly before choosing the exact bounded refresh scope. |
