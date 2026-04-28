@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-review-request-automation-for-mortgage-brokers",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: Review Request Automation for Mortgage Brokers\nBody: A lot of mortgage brokers lose easy trust after the loan is already funded. The borrower seemed happy, the closing went smoothly, and then nothing happened. Or a review request went out the same week the borrower was still dealing with move-in stress, escrow questions, and first-payment confusion. Or every funded loan got the same generic message even when a billing question, closing-cost concern, or post-funding frustration should have come back to the broker first. Or the review ask got stacked on top of a referral request so the borrower ignored both. Review request automation for mortgage brokers fixes that narrower post-closing workflow.\nSub: Below: what a practical mortgage review-request workflow should actually handle, how it stays distinct from the referral-request page and the broader mortgage parent page, what guardrails matter most, and what proof honestly supports this page without pretending there is already a dedicated mortgage review-automation case study on the site.\n\n### Core sections\n- What mortgage review-request automation should actually handle\n- How this page stays distinct inside the mortgage cluster (table distinguishing from parent, referral-request, what-to-automate-first, and lead follow-up pages)\n- Good-fit / not-fit framing for mortgage brokerages\n- Guardrails: do not stack review and referral asks, protect post-close recovery first, respect loan-type differences, measure quality not volume\n- How the workflow works in practice\n- Honest adjacent proof for the workflow pattern\n\n### FAQ\nSubhead: Practical answers for mortgage brokerages considering a cleaner post-closing review workflow\n- How is this different from the referral-request page for mortgage brokers?\n- Why not just ask for a review immediately after every funded loan?\n- Should review requests and referral requests go out together?\n- What does a focused mortgage review-request workflow usually cost?\n- What is the main ROI?\n\n### Final CTA\nHeading: Need cleaner reputation follow-up after the loan funds?\nBody: Book a 30-minute call. We will look at how funded loans get handed off today, where review asks are being missed or mistimed, and whether a focused post-closing workflow, an earlier pipeline fix, or no new build is the smarter next move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the next defensible mortgage-cluster child page following the roadmap's Priority 3 candidate (review-request automation for mortgage brokers). The page was already named as the strongest remaining gap in the mortgage post-closing advocacy layer."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the angle strictly on post-closing review timing, review-vs-referral separation, unhappy-reply routing, and compliance-safe reputation follow-up — distinct from the live referral-request page which focuses on warm introductions and advocacy routing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used direct, operational framing: first-payment questions, escrow confusion, loan-type differences, Google Business Profile, Zillow, and LendingTree instead of generic review-management language."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoided fake mortgage-specific proof. Grounded the page in adjacent review-request proof from the real-estate, accounting, and HVAC review pages plus the published e-commerce CRM case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Cross-linked to the referral-request mortgage page, mortgage parent, what-to-automate-first, and the adjacent review-request pages for real estate and service businesses."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T22:48:39.490Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 22,
+      "sentenceLengthRange": [
+        5,
+        72
+      ],
+      "totalWords": 352
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Review Request Automation for Mortgage Brokers\nBody: A lot of mortgage brokers lose easy trust after the loan is already funded.",
+      "wordCount": 23,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need cleaner reputation follow-up after the loan funds?\nBody: Book a 30-minute call. We will look at how funded loans get handed off today, where review asks are being missed or mistimed, and whether a focused post-closing workflow, an earlier pipeline fix, or no new build is the smarter next move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 19,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 8,
+      "commasPerSentence": 1.27
+    },
+    "vocabulary": {
+      "distinctWords": 193,
+      "totalWords": 352,
+      "topWords": [
+        [
+          "mortgage",
+          12
+        ],
+        [
+          "-",
+          11
+        ],
+        [
+          "review",
+          9
+        ],
+        [
+          "workflow",
+          7
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "request",
+          4
+        ],
+        [
+          "brokers",
+          4
+        ],
+        [
+          "loan",
+          4
+        ],
+        [
+          "funded",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "after",
+          3
+        ],
+        [
+          "borrower",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

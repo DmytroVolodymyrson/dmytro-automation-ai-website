@@ -104,6 +104,7 @@ import IncompleteApplicationFollowUpForMortgageBrokers from "./pages/IncompleteA
 import WhatToAutomateFirstForMortgageBrokers from "./pages/WhatToAutomateFirstForMortgageBrokers";
 import AppointmentSchedulingAndReminderAutomationForMortgageBrokers from "./pages/AppointmentSchedulingAndReminderAutomationForMortgageBrokers";
 import ReferralRequestAutomationForMortgageBrokers from "./pages/ReferralRequestAutomationForMortgageBrokers";
+import ReviewRequestAutomationForMortgageBrokers from "./pages/ReviewRequestAutomationForMortgageBrokers";
 import MissedCallTextBackForMortgageBrokers from "./pages/MissedCallTextBackForMortgageBrokers";
 import MissedCallTextBackVsVoicemailForMortgageBrokers from "./pages/MissedCallTextBackVsVoicemailForMortgageBrokers";
 import AiPhoneAnsweringForMortgageBrokers from "./pages/AiPhoneAnsweringForMortgageBrokers";
@@ -571,6 +572,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/what-to-automate-first-for-mortgage-brokers", element: <WhatToAutomateFirstForMortgageBrokers /> },
   { path: "/appointment-scheduling-and-reminder-automation-for-mortgage-brokers", element: <AppointmentSchedulingAndReminderAutomationForMortgageBrokers /> },
   { path: "/referral-request-automation-for-mortgage-brokers", element: <ReferralRequestAutomationForMortgageBrokers /> },
+  { path: "/review-request-automation-for-mortgage-brokers", element: <ReviewRequestAutomationForMortgageBrokers /> },
   { path: "/missed-call-text-back-for-mortgage-brokers", element: <MissedCallTextBackForMortgageBrokers /> },
   { path: "/missed-call-text-back-vs-voicemail-for-mortgage-brokers", element: <MissedCallTextBackVsVoicemailForMortgageBrokers /> },
   { path: "/ai-phone-answering-for-mortgage-brokers", element: <AiPhoneAnsweringForMortgageBrokers /> },

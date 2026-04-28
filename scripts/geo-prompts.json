@@ -1064,6 +1064,18 @@
       ]
     },
     {
+      "id": "review-request-automation-for-mortgage-brokers",
+      "path": "/review-request-automation-for-mortgage-brokers",
+      "label": "Review Request Automation for Mortgage Brokers",
+      "prompts": [
+        "Review request automation for mortgage brokers",
+        "How should mortgage brokers ask for Google reviews after a funded loan without being awkward?",
+        "Best way to automate post-closing review requests for mortgage brokerages",
+        "Should mortgage brokers separate review asks from referral asks after closing?",
+        "When is the right time to ask a borrower for a review after their mortgage loan funds?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-dental-practices",
       "path": "/what-to-automate-first-for-dental-practices",
       "label": "What to Automate First for Dental Practices",

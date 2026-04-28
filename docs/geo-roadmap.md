@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/missed-call-text-back-vs-ai-phone-answering-for-mortgage-brokers` — a new mortgage-cluster phone comparison page extracted from a clean live-cluster gap between the lighter missed-call SMS fallback and the heavier live AI phone-answering layer. The page stays distinct by focusing on borrower urgency, consultation blocks, after-hours demand, callback ownership, and when a brokerage has or has not outgrown SMS-first recovery. Previous: `/ai-phone-answering-cost-for-accounting-firms`.)
+Last updated: 2026-04-28 (shipped `/review-request-automation-for-mortgage-brokers` — a new mortgage-cluster post-closing reputation child page that covers review timing after funded loans, unhappy-reply routing before public review asks, review-vs-referral separation, and compliance-safe advocacy follow-up. Stays distinct from the live referral-request page by focusing narrowly on the reputation-closeout step instead of warm-introduction routing. Previous: `/missed-call-text-back-vs-ai-phone-answering-for-mortgage-brokers`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 322.
+**Total live GEO pages tracked here:** 323.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -141,6 +141,7 @@ Last updated: 2026-04-28 (shipped `/missed-call-text-back-vs-ai-phone-answering-
 | What to Automate First (Mortgage) | `/what-to-automate-first-for-mortgage-brokers` | Vertical decision page | Live |
 | Appointment Scheduling (Mortgage) | `/appointment-scheduling-and-reminder-automation-for-mortgage-brokers` | Vertical workflow page | Live |
 | Referral Request Automation (Mortgage) | `/referral-request-automation-for-mortgage-brokers` | Vertical workflow page | Live |
+| Review Request Automation (Mortgage) | `/review-request-automation-for-mortgage-brokers` | Vertical workflow page | Live |
 | AI for Dental Practices | `/ai-automation-for-dental-practices` | Vertical category page | Live |
 | What to Automate First (Dental) | `/what-to-automate-first-for-dental-practices` | Vertical decision page | Live |
 | AI Lead Follow-Up (Dental) | `/ai-lead-follow-up-for-dental-practices` | Vertical workflow page | Live |
@@ -334,16 +335,16 @@ Last updated: 2026-04-28 (shipped `/missed-call-text-back-vs-ai-phone-answering-
 
 ## Next Pages
 
-This run also started from a fresh broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and the live route/page set. The strongest clean gap that survived route and prompt checks was the missing direct mortgage phone-layer comparison between SMS-first missed-call recovery and the heavier live AI phone-answering layer. Shipping that page closes a real buyer decision already implied by the live mortgage phone cluster without inventing fake proof or forcing a thin duplicate.
+This run shipped `/review-request-automation-for-mortgage-brokers`, previously listed as Priority 3 in the queue. The mortgage cluster now covers early-funnel lead follow-up, booked-consult scheduling, document collection, incomplete-application recovery, phone recovery (missed-call text-back, AI phone answering, three comparison pages), referral requests, review requests, and first-project scoping. That is a dense cluster.
 
 The next run should:
 
-1. **Keep manual GSC follow-through moving** on the newest shipped pages and refreshed priority URLs instead of treating publish alone as the finish line.
-2. **Start from another fresh broad reconciliation before naming the next net-new page** so the queue does not drift into stale mortgage-cluster inertia just because this cluster produced one clean phone comparison child.
-3. **Only force another same-cluster mortgage sibling if another exact materially different tracked query still survives review**; otherwise leave the queue in watchlist mode and pivot to the strongest distinct cross-cluster gap.
+1. **Start from a fresh broad reconciliation before naming the next net-new page.** The mortgage cluster is now deep enough that the next best candidate is more likely to come from a different vertical or a cross-vertical workflow gap than from another mortgage sibling.
+2. **Keep manual GSC follow-through moving** on the newest shipped pages and refreshed priority URLs instead of treating publish alone as the finish line.
+3. **Only force another same-cluster mortgage sibling if a materially different tracked query still survives review** after reconciliation; otherwise pivot to the strongest distinct cross-cluster gap.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Manual GSC follow-through on refreshed priority URLs and the newest mortgage/accounting ships | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |
-| 2 | Fresh broad reconciliation before another net-new page | The repo is dense enough that stale docs can still make already-live pages look missing or can over-credit the mortgage cluster with the next run by default. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
-| 3 | Review Request Automation for Mortgage Brokers | The mortgage cluster now covers early-funnel lead follow-up, booked-consult scheduling, document / incomplete-application work, phone recovery, heavier live answering, referral asks, and first-project scoping. A post-closing review-request child still looks materially distinct from the live referral page and would deepen the funded-borrower advocacy layer cleanly. | Verify the slug is still absent from routes, pages, sitemap, llm files, and geo prompts, and confirm the page stays narrowly on review timing, review-vs-referral separation, unhappy-reply handling, and compliance-safe advocacy instead of collapsing into the live referral-request page. |
+| 1 | Fresh broad reconciliation before another net-new page | The repo is dense enough that stale docs can still make already-live pages look missing or can over-credit one cluster. The mortgage cluster is now deep — the next best candidate is likely elsewhere. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
+| 2 | Manual GSC follow-through on refreshed priority URLs and the newest mortgage/accounting ships | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |
+| 3 | Cross-cluster gap from reconciliation (conservatively: strongest distinct vertical or workflow-layer gap that survived route/prompt checks) | The mortgage cluster is saturated for now. The next defensible page is more likely a missing child in another vertical (e.g., a law-firm, insurance, or property-management workflow gap) or a missing cross-vertical workflow comparison. | Must survive a full reconciliation pass before being named — do not pre-commit to a specific slug until the gap is confirmed absent from routes, prompts, sitemap, and llm files. |

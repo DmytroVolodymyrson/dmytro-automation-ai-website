@@ -1192,6 +1192,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Review Request Automation for Mortgage Brokers",
+    description:
+      "Post-closing reputation workflow for mortgage brokerages that want cleaner review timing after funded loans, unhappy-reply routing before public review asks, and review-vs-referral separation so neither message feels stacked or generic.",
+    href: "/review-request-automation-for-mortgage-brokers",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering vs. Voicemail for Mortgage Brokers",
     description:
       "Practical mortgage phone buyer guide for deciding when live AI answering is worth replacing voicemail and delayed callbacks, when voicemail is still acceptable, and when missed-call text-back is the smarter middle step.",

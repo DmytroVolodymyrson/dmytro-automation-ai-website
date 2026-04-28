@@ -271,6 +271,7 @@ const data: DecisionPageData = {
     { label: "Document collection automation for mortgage brokers", href: "/document-collection-automation-for-mortgage-brokers" },
     { label: "Incomplete application follow-up for mortgage brokers", href: "/incomplete-application-follow-up-for-mortgage-brokers" },
     { label: "Appointment scheduling and reminder automation for mortgage brokers", href: "/appointment-scheduling-and-reminder-automation-for-mortgage-brokers" },
+    { label: "Review request automation for mortgage brokers", href: "/review-request-automation-for-mortgage-brokers" },
     { label: "All guides", href: "/guides" },
   ],
 };
