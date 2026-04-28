@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-guides-hub-bottleneck-router",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### New FAQ\nQuestion: Which guide fits my bottleneck if I do not want to read everything?\nAnswer: If slow lead response is the problem, start with AI Lead Follow-Up for Service Businesses. If calls or bookings go cold, start with AI Appointment Setter. If you have a stale CRM or old customer list, start with Best AI Automations for Service Businesses and then Client Reactivation. If you want proof first, start with Case Studies and then move into the consultant overview.\n\n### New Section\nHeading: Match your situation to the right guide first\nBody: This page is a hub, but the best first click depends on the problem you are trying to fix. Use the routes below if you want the shortest path into the most relevant guide and proof page.\n\n### Route Cards\n1. You lose new leads because nobody replies fast enough\n- Start with AI lead follow-up.\n- Then compare the consultant overview and the e-commerce CRM case study.\n- Goal: decide whether the fix is simple speed-to-lead or a broader cleanup plus nurture build.\n\n2. You miss bookings because calls, forms, or scheduling go cold\n- Start with AI appointment setter.\n- Then read Best AI Automations for Service Businesses and the Paris Cafe case study.\n- Goal: decide whether you need booking automation, after-hours phone coverage, or a lighter missed-call recovery workflow first.\n\n3. You have a stale CRM or old customer list that is not producing revenue\n- Start with Best AI Automations for Service Businesses and Client Reactivation.\n- Then use the e-commerce CRM case study.\n- Goal: see what a real cleanup plus follow-up build can look like before paying for more software.\n\n4. You want proof first before deciding what to build or who to hire\n- Start with Case Studies.\n- Then move into AI Automation Consultant for Small Business and What Does an AI Automation Consultant Actually Do?\n- Goal: connect real outcomes to the workflow or buying decision that matches the reader.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "addition",
+      "text": "",
+      "description": "Added a direct answer block for skimmers who do not want to browse the full hub."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Stronger internal-link routing from the /guides hub into priority discovered-not-indexed commercial and proof pages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and buyer-oriented: bottleneck first, page recommendation second, proof third."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T02:12:19.330Z",
+    "structure": {
+      "paragraphCount": 6,
+      "sentencesPerParagraph": [
+        5,
+        2,
+        4,
+        4,
+        4,
+        4
+      ],
+      "avgSentenceLength": 14.4,
+      "sentenceLengthRange": [
+        1,
+        31
+      ],
+      "totalWords": 332
+    },
+    "opener": {
+      "type": "question",
+      "text": "### New FAQ\nQuestion: Which guide fits my bottleneck if I do not want to read everything?",
+      "wordCount": 16,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "4. You want proof first before deciding what to build or who to hire\n- Start with Case Studies.\n- Then move into AI Automation Consultant for Small Business and What Does an AI Automation Consultant Actually Do?\n- Goal: connect real outcomes to the workflow or buying decision that matches the reader.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | context | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 21,
+      "commas": 9,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 12,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 0.39
+    },
+    "vocabulary": {
+      "distinctWords": 152,
+      "totalWords": 332,
+      "topWords": [
+        [
+          "-",
+          12
+        ],
+        [
+          "ai",
+          9
+        ],
+        [
+          "start",
+          8
+        ],
+        [
+          "with",
+          8
+        ],
+        [
+          "if",
+          6
+        ],
+        [
+          "then",
+          6
+        ],
+        [
+          "first",
+          5
+        ],
+        [
+          "case",
+          5
+        ],
+        [
+          "want",
+          4
+        ],
+        [
+          "service",
+          4
+        ],
+        [
+          "businesses",
+          4
+        ],
+        [
+          "crm",
+          4
+        ],
+        [
+          "best",
+          4
+        ],
+        [
+          "consultant",
+          4
+        ],
+        [
+          "goal",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 2,
+      "patterns": []
+    }
+  }
+}

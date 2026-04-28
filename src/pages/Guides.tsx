@@ -2857,6 +2857,49 @@ const proofPaths = [
   },
 ];
 
+const bottleneckRoutes = [
+  {
+    title: "You lose new leads because nobody replies fast enough",
+    answer:
+      "Start with the lead-follow-up guide. Then compare the consultant overview and the strongest CRM proof page so you can judge whether the fix is a simple speed-to-lead workflow or a broader cleanup plus nurture build.",
+    links: [
+      { label: "AI lead follow-up", href: "/ai-lead-follow-up-for-service-businesses" },
+      { label: "AI automation consultant", href: "/ai-automation-consultant-small-business" },
+      { label: "E-commerce CRM case study", href: "/case-studies/ecommerce-crm-automation" },
+    ],
+  },
+  {
+    title: "You miss bookings because calls, forms, or scheduling go cold",
+    answer:
+      "Start with the appointment-setter path. Then read the best-first-automation page and the Paris Cafe proof page to decide whether you need booking automation, after-hours phone coverage, or a lighter missed-call recovery workflow first.",
+    links: [
+      { label: "AI appointment setter", href: "/ai-appointment-setter" },
+      { label: "Best first automations", href: "/best-ai-automation-for-service-businesses" },
+      { label: "Paris Cafe case study", href: "/case-studies/paris-cafe-voice-agent" },
+    ],
+  },
+  {
+    title: "You have a stale CRM or old customer list that is not producing revenue",
+    answer:
+      "Start with the best-first-automation page and the broader client-reactivation workflow. Then use the e-commerce CRM case study to see what a real cleanup plus follow-up build can look like before you pay for more software.",
+    links: [
+      { label: "Best first automations", href: "/best-ai-automation-for-service-businesses" },
+      { label: "Client reactivation", href: "/client-reactivation-automation" },
+      { label: "E-commerce CRM case study", href: "/case-studies/ecommerce-crm-automation" },
+    ],
+  },
+  {
+    title: "You want proof first before deciding what to build or who to hire",
+    answer:
+      "Start with the case-studies hub. Then move into the consultant overview and the guides hub sections below so you can connect real outcomes to the workflow or buying decision that matches your business.",
+    links: [
+      { label: "Case studies", href: "/case-studies" },
+      { label: "AI automation consultant", href: "/ai-automation-consultant-small-business" },
+      { label: "What does a consultant do?", href: "/what-does-an-ai-automation-consultant-do" },
+    ],
+  },
+];
+
 const Guides = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -2914,6 +2957,14 @@ const Guides = () => {
         acceptedAnswer: {
           "@type": "Answer",
           text: "Visit the Case Studies page at dmytroai.com/case-studies for documented results from live automation projects — including response times, recovered revenue, and hours saved across restaurants, auto parts e-commerce, and service businesses.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Which guide fits my bottleneck if I do not want to read everything?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "If slow lead response is the problem, start with AI Lead Follow-Up for Service Businesses. If calls or bookings go cold, start with AI Appointment Setter. If you have a stale CRM or old customer list, start with Best AI Automations for Service Businesses and then Client Reactivation. If you want proof first, start with the Case Studies page and then move into the consultant overview.",
         },
       },
     ],
@@ -3116,6 +3167,82 @@ const Guides = () => {
                     businesses.
                   </p>
                 </div>
+                <div>
+                  <h3 className="text-base font-semibold text-foreground mb-1">
+                    Which guide fits my bottleneck if I do not want to read everything?
+                  </h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    If slow lead response is the problem, start with{" "}
+                    <Link to="/ai-lead-follow-up-for-service-businesses" className="text-primary hover:underline">
+                      AI Lead Follow-Up for Service Businesses
+                    </Link>
+                    . If calls or bookings go cold, start with{" "}
+                    <Link to="/ai-appointment-setter" className="text-primary hover:underline">
+                      AI Appointment Setter
+                    </Link>
+                    . If you have a stale CRM or old customer list, start with{" "}
+                    <Link to="/best-ai-automation-for-service-businesses" className="text-primary hover:underline">
+                      Best AI Automations for Service Businesses
+                    </Link>
+                    {" "}and then{" "}
+                    <Link to="/client-reactivation-automation" className="text-primary hover:underline">
+                      Client Reactivation
+                    </Link>
+                    . If you want proof first, start with{" "}
+                    <Link to="/case-studies" className="text-primary hover:underline">
+                      Case Studies
+                    </Link>
+                    {" "}and then move into the consultant overview.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </section>
+
+        <section className="pb-12 md:pb-16">
+          <div className="container-tight">
+            <motion.div
+              initial={{ opacity: 0, y: 12 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4 }}
+              className="rounded-2xl border border-border/60 bg-card/70 p-6 md:p-8"
+            >
+              <div className="text-xs font-semibold uppercase tracking-[0.16em] text-cyan-600 mb-3">
+                Fastest path by bottleneck
+              </div>
+              <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground tracking-tight mb-3">
+                Match your situation to the right guide first
+              </h2>
+              <p className="text-sm text-muted-foreground leading-relaxed max-w-3xl mb-6">
+                This page is a hub, but the best first click depends on the problem you are trying to fix. Use the routes below if you want the shortest path into the most relevant guide and proof page.
+              </p>
+              <div className="grid gap-4 md:grid-cols-2">
+                {bottleneckRoutes.map((route) => (
+                  <div
+                    key={route.title}
+                    className="rounded-2xl border border-border/60 bg-background/80 p-5 shadow-card"
+                  >
+                    <h3 className="text-base font-semibold text-foreground mb-2">
+                      {route.title}
+                    </h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                      {route.answer}
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      {route.links.map((link) => (
+                        <Link
+                          key={link.href}
+                          to={link.href}
+                          className="inline-flex items-center rounded-full border border-border/60 bg-card px-3 py-1.5 text-sm font-medium text-foreground hover:border-primary/40 hover:text-primary transition-colors"
+                        >
+                          {link.label}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                ))}
               </div>
             </motion.div>
           </div>
