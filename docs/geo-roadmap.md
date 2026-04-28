@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/ai-automation-consultant-british-columbia`, the remaining clean province-level geo consultant page implied by the live guides geo category after Alberta and Ontario were already live. The page stays distinct from the Vancouver city page by covering province-wide buyer intent across Metro Vancouver, Vancouver Island, the Okanagan, and other BC markets, and it stays distinct from the Canada-wide page by narrowing the service-area decision to one province-level market instead of a coast-to-coast catch-all.)
+Last updated: 2026-04-28 (full reconciliation still did not surface a cleaner distinct net-new GEO / decision / workflow page after the British Columbia geo consultant ship, so this run used the allowed fallback path and gave `/ai-automation-consultant-pricing-small-business` a bounded indexing/internal-linking refresh. The pricing page now opens with a clearer quote-intent router — smallest first workflow, consultant-vs-DIY, proof-backed bigger scope, or post-launch support cost — plus a matching FAQ answer on what a typical $2K-$5K consultant project actually includes.)
 
 ## Live GEO Assets
 
@@ -313,13 +313,15 @@ Last updated: 2026-04-28 (shipped `/ai-automation-consultant-british-columbia`, 
 
 ## Next Pages
 
-This run shipped `/ai-automation-consultant-british-columbia`, filling the last clean province-level geo gap that the live guides geo category was still implying beside Vancouver, Alberta, Ontario, and the Canada-wide parent. The next run should:
+This run did the required broad reconciliation after the British Columbia geo consultant ship and still did not surface a cleaner distinct net-new page that survived routes, prompts, guides, sitemap, llm, and planning-doc verification. Because of that, the allowed fallback path was used: `/ai-automation-consultant-pricing-small-business` got a bounded indexing/internal-linking refresh instead of forcing a thin duplicate page.
 
-1. **Verify live/indexing behavior** for `/ai-automation-consultant-british-columbia` after deploy propagation, then request indexing manually in GSC.
-2. **Return to broad prompts/route reconciliation** across routes, prompts, guides, sitemap, llm surfaces, `docs/geo-tracking.md`, and the broader planning docs before naming another net-new page.
-3. **Only name another geo page if a clearly distinct, still-unshipped service-area target survives full verification**. The province-level BC gap is now filled, so the next strong candidate may be a non-geo workflow or comparison page rather than another location layer.
+The next run should:
+
+1. **Verify live/indexing behavior** for `/ai-automation-consultant-pricing-small-business` after deploy propagation, then request indexing manually in GSC.
+2. **Repeat the broad prompts/route reconciliation** before naming any new page, because the remaining risk is still stale backlog assumptions rather than an obvious missing ship.
+3. **Only ship a net-new page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification**. Otherwise keep using the bounded priority-page refresh path.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Broad prompts/route reconciliation pass | With Alberta, Ontario, and British Columbia now live, the biggest remaining risk is stale backlog assumptions hiding a cleaner unshipped workflow/comparison page or a higher-value maintenance target. | Re-run the live-routes vs prompts/guides/sitemap/llm/planning-doc diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
-| 2 | Another bounded indexing/internal-linking refresh on a high-value commercial page | If reconciliation still shows no clean net-new page, improving crawl paths and answer extraction on a strongest-priority URL is still a valid high-leverage outcome. | Verify that no stronger unshipped planned page survives first, then choose the refresh target from `docs/geo-priority-urls.md` based on discovery/indexing need. |
+| 1 | Broad prompts/route reconciliation pass | The live site and prompt inventory are mature enough that stale backlog assumptions are now the bigger risk than page scarcity. | Re-run the live-routes vs prompts/guides/sitemap/llm/planning-doc diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
+| 2 | Another bounded indexing/internal-linking refresh on a high-value commercial page | If reconciliation still shows no clean net-new page, improving crawl paths and answer extraction on a strongest-priority URL is still the highest-confidence lever. | Verify that no stronger unshipped planned page survives first, then choose the refresh target from `docs/geo-priority-urls.md` based on discovery/indexing need. |

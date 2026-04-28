@@ -25,8 +25,56 @@ const data: DecisionPageData = {
   heroIntro:
     "For most small businesses, AI automation consultant pricing usually lands in three practical bands: roughly $1.5K-$3K for one narrow workflow, $3K-$6K for a more connected core process, and $6K+ when the build touches multiple systems, live AI, or heavier reliability requirements. The useful question is not just 'what is the fee?' It is 'what operating problem am I trying to solve, and what level of build does that actually require?' This page breaks that down without pretending every business needs the biggest package.",
   heroSubtext:
-    "Below: what those budget bands usually buy, where small businesses overspend, which adjacent pages help you scope the project before you ask for quotes, and how to judge whether a proposal is fair.",
+    "Below: how to tell which quote you are actually asking for, what those budget bands usually buy, where small businesses overspend, which adjacent pages help you scope the project before you ask for quotes, and how to judge whether a proposal is fair.",
   sections: [
+    {
+      type: "cards",
+      title: "Figure out what you are actually pricing before you compare quotes",
+      subtitle:
+        "Most pricing searches are really one of four buyer questions. Start with the path that matches the real decision underneath the budget question:",
+      items: [
+        {
+          icon: Calculator,
+          title: "You want the smallest useful first project",
+          body: "If you are trying to keep the first build lean, compare pricing against the narrow workflows that usually justify consultant help first: lead follow-up, missed-call recovery, reminder systems, or a bounded CRM routing fix. This is the right lane when the business has one obvious leak and you do not want a giant platform rollout yet.",
+          links: [
+            { label: "AI automation cost breakdown", href: "/ai-automation-cost-small-business" },
+            { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
+            { label: "AI lead follow-up cost", href: "/ai-lead-follow-up-cost-small-business" },
+          ],
+        },
+        {
+          icon: Scale,
+          title: "You are comparing consultant help against DIY",
+          body: "If the real question is whether you should pay for done-for-you setup or build it yourself, pricing only makes sense when you compare it against owner time, reliability risk, and cleanup cost later. This is usually the right route for businesses that are curious about no-code tools but cannot afford a half-working customer-facing workflow.",
+          links: [
+            { label: "Hire a consultant vs DIY", href: "/hire-ai-automation-consultant-vs-diy" },
+            { label: "AI automation without a tech team", href: "/ai-automation-for-businesses-without-a-tech-team" },
+            { label: "What a consultant actually does", href: "/what-does-an-ai-automation-consultant-do" },
+          ],
+        },
+        {
+          icon: TrendingUp,
+          title: "You need proof before approving a bigger quote",
+          body: "Once the scope moves into live phone, CRM routing, qualification, or multi-step follow-up, the smarter comparison is not cheap vs expensive. It is whether the quote matches a workflow with real payoff and published proof. This is where named outcomes and adjacent case studies matter more than polished sales language.",
+          links: [
+            { label: "Paris Cafe voice-agent case study", href: "/case-studies/paris-cafe-voice-agent" },
+            { label: "WheelsFeels CRM case study", href: "/case-studies/ecommerce-crm-automation" },
+            { label: "AI automation consultant scope guide", href: "/ai-automation-consultant-small-business" },
+          ],
+        },
+        {
+          icon: Layers,
+          title: "You are worried the quote hides support or maintenance cost",
+          body: "That concern is usually valid. The best consultant quotes separate implementation, tool costs, and post-launch support instead of collapsing everything into one vague monthly number. Use this path if your biggest question is what happens after the build goes live and who owns the system when edge cases show up.",
+          links: [
+            { label: "AI automation maintenance and support", href: "/ai-automation-maintenance-and-support-small-business" },
+            { label: "Case studies — real results", href: "/case-studies" },
+            { label: "All automation guides", href: "/guides" },
+          ],
+        },
+      ],
+    },
     {
       type: "cards",
       title: "Three common pricing models",
@@ -288,6 +336,11 @@ const data: DecisionPageData = {
       question: "What ongoing costs should I expect after the initial build?",
       answer:
         "Most automations have a monthly software and usage cost on top of the build fee — often in the $50–$300/month range for the tools that actually run the workflow, such as CRM seats, SMS sending, voice minutes, or AI usage. A good consultant should document those recurring costs before launch so there are no surprises. The exact number depends on volume and stack, but it is usually far lower than the cost of adding manual admin just to keep a narrow workflow moving.",
+    },
+    {
+      question: "What does a typical $2K-$5K consultant project usually include?",
+      answer:
+        "Usually one core workflow with real business impact plus the pieces that make it usable in production: workflow mapping, implementation, 2-5 integrations, message or prompt logic, basic documentation, a short testing period, and a stabilization window after launch. In practice, that often means one strong lead-follow-up, booking, routing, or missed-call-recovery system — not your entire operation rebuilt at once. If a quote in this band sounds like a full custom platform plus ongoing support forever, the scope is probably being described too loosely.",
     },
     {
       question: "How do consultant prices compare to doing it myself with no-code tools?",
