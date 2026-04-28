@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-28T08:02:38.655Z",
-  "postCount": 449,
+  "updatedAt": "2026-04-28T08:18:42.622Z",
+  "postCount": 450,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,25 +15,25 @@
       "max": 12,
       "p25": 4,
       "p75": 4,
-      "samples": 449
+      "samples": 450
     },
     "sentenceLength": {
       "mean": 23.2,
-      "median": 23.6,
+      "median": 23.55,
       "min": 7.1,
       "max": 105,
       "p25": 19.3,
       "p75": 27.1,
-      "samples": 449
+      "samples": 450
     },
     "totalWords": {
-      "mean": 333.2,
+      "mean": 332.7,
       "median": 334,
       "min": 17,
       "max": 1155,
-      "p25": 278,
+      "p25": 274,
       "p75": 374,
-      "samples": 449
+      "samples": 450
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -107,6 +107,7 @@
       "long | short | long | single | long": 1,
       "long | short | single | single | single | short | single": 1,
       "long | short | long | long | long | long | short | long": 1,
+      "single | short | short": 1,
       "long | short | short | single | long": 1,
       "single | long | short | single": 1
     },
@@ -121,7 +122,7 @@
       "opener | result | context | product-pitch | product-pitch | product-pitch | context | closer": 1,
       "opener | context | context | context | context | context | context | closer": 4,
       "opener | product-pitch | result | closer": 5,
-      "opener | context | closer": 1,
+      "opener | context | closer": 2,
       "opener | product-pitch | context | product-pitch | result | result | product-pitch | product-pitch | closer": 1,
       "opener | product-pitch | result | result | context | product-pitch | context | context | product-pitch | product-pitch | closer": 1,
       "opener | context | product-pitch | product-pitch | context | context | context | context | context | closer": 1,
@@ -179,7 +180,7 @@
   "openers": {
     "patterns": {
       "situation": {
-        "count": 103,
+        "count": 104,
         "examples": [
           "Badge: The Person Behind the Automation",
           "Section heading: Common Questions\nSubheading: Straight answers about working wit",
@@ -222,7 +223,7 @@
   "closers": {
     "patterns": {
       "reflection": {
-        "count": 67,
+        "count": 68,
         "examples": [
           "Stats:\n- 7+ Years building software\n- 50+ Automations built\n- $100K+ Saved for c",
           "Social proof pills:\n- 10+ hrs/week saved\n- 300%+ ROI\n- 24/7 automation",
@@ -269,15 +270,15 @@
     "topWords": [
       [
         "-",
-        2838
+        2844
       ],
       [
         "what",
-        1552
+        1554
       ],
       [
         "automation",
-        1245
+        1247
       ],
       [
         "ai",
@@ -285,7 +286,7 @@
       ],
       [
         "page",
-        893
+        894
       ],
       [
         "workflow",
@@ -309,7 +310,7 @@
       ],
       [
         "this",
-        726
+        727
       ],
       [
         "whether",
@@ -329,7 +330,7 @@
       ],
       [
         "first",
-        557
+        559
       ],
       [
         "call",
@@ -353,7 +354,7 @@
       ],
       [
         "from",
-        395
+        397
       ],
       [
         "should",
@@ -369,7 +370,7 @@
       ],
       [
         "heading",
-        319
+        320
       ],
       [
         "not",

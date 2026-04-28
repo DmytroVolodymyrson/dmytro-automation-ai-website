@@ -213,6 +213,57 @@ const AiAutomationConsultantSmallBusiness = () => {
           </div>
         </section>
 
+        {/* ── Buyer routing ───────────────────────────────────────── */}
+        <Section>
+          <div className="rounded-2xl border border-border/60 bg-card/80 p-5 md:p-6">
+            <p className="text-sm font-semibold text-foreground mb-3">
+              Start from where you are
+            </p>
+            <p className="text-sm text-muted-foreground mb-4 max-w-3xl leading-relaxed">
+              This page covers what an AI automation consultant does for small
+              businesses and how to tell if you need one. If you already know
+              that, the pages below will be more useful:
+            </p>
+            <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+              {[
+                {
+                  text: "See proof first — real results from real builds",
+                  href: "/case-studies",
+                },
+                {
+                  text: "Understand pricing — what projects actually cost",
+                  href: "/ai-automation-consultant-pricing-small-business",
+                },
+                {
+                  text: "Pick your first project — best starting automations",
+                  href: "/best-ai-automation-for-service-businesses",
+                },
+                {
+                  text: "Compare hiring vs. DIY — when expert help is worth it",
+                  href: "/hire-ai-automation-consultant-vs-diy",
+                },
+                {
+                  text: "No tech team — automation without technical staff",
+                  href: "/ai-automation-for-businesses-without-a-tech-team",
+                },
+                {
+                  text: "Step-by-step guides — lead follow-up, scheduling, CRM",
+                  href: "/guides",
+                },
+              ].map((item) => (
+                <Link
+                  key={item.href}
+                  to={item.href}
+                  className="group flex items-center gap-2 rounded-xl border border-border/40 px-4 py-3 text-sm text-muted-foreground hover:text-foreground hover:border-primary/30 hover:bg-background transition-colors"
+                >
+                  <ArrowRight className="w-3.5 h-3.5 text-primary flex-shrink-0 group-hover:translate-x-0.5 transition-transform" />
+                  {item.text}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </Section>
+
         {/* ── What a consultant actually does ─────────────────────── */}
         <Section className="bg-secondary/30">
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">

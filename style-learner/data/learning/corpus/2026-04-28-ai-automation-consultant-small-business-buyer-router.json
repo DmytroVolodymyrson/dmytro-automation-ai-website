@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-ai-automation-consultant-small-business-buyer-router",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Section heading\nStart from where you are\n\n### Intro copy\nThis page covers what an AI automation consultant does for small businesses and how to tell if you need one. If you already know that, the pages below will be more useful:\n\n### Router links\n- See proof first — real results from real builds\n- Understand pricing — what projects actually cost\n- Pick your first project — best starting automations\n- Compare hiring vs. DIY — when expert help is worth it\n- No tech team — automation without technical staff\n- Step-by-step guides — lead follow-up, scheduling, CRM",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Purpose was indexing support, not a new page: give the discovered-not-indexed consultant page a clearer early-page route into proof, budget, first-project, and support-path pages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Copy stays short and buyer-oriented instead of introducing another long explanatory section."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Every link describes the decision the reader is trying to make, not just the page title."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays plain and credible: proof, pricing, first project, DIY, no-tech-team, and guides are the actual adjacent paths buyers need."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The section is intentionally high on the page so both users and crawlers get stronger contextual routing before deeper page sections."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T08:18:42.574Z",
+    "structure": {
+      "paragraphCount": 3,
+      "sentencesPerParagraph": [
+        1,
+        2,
+        2
+      ],
+      "avgSentenceLength": 18.6,
+      "sentenceLengthRange": [
+        7,
+        30
+      ],
+      "totalWords": 93
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Section heading\nStart from where you are",
+      "wordCount": 7,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Router links\n- See proof first — real results from real builds\n- Understand pricing — what projects actually cost\n- Pick your first project — best starting automations\n- Compare hiring vs. DIY — when expert help is worth it\n- No tech team — automation without technical staff\n- Step-by-step guides — lead follow-up, scheduling, CRM",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | closer"
+    },
+    "punctuation": {
+      "periods": 2,
+      "commas": 3,
+      "emDashes": 6,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 1,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 80,
+      "totalWords": 93,
+      "topWords": [
+        [
+          "-",
+          6
+        ],
+        [
+          "from",
+          2
+        ],
+        [
+          "what",
+          2
+        ],
+        [
+          "automation",
+          2
+        ],
+        [
+          "if",
+          2
+        ],
+        [
+          "first",
+          2
+        ],
+        [
+          "real",
+          2
+        ],
+        [
+          "section",
+          1
+        ],
+        [
+          "heading",
+          1
+        ],
+        [
+          "start",
+          1
+        ],
+        [
+          "where",
+          1
+        ],
+        [
+          "intro",
+          1
+        ],
+        [
+          "copy",
+          1
+        ],
+        [
+          "this",
+          1
+        ],
+        [
+          "page",
+          1
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
