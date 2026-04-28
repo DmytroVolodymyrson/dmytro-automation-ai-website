@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/make-vs-zapier-small-business` — a new no-code comparison page for small-business owners choosing between the two most common beginner-friendly automation tools. It closes the Make/Zapier gap beside the live `n8n-vs-zapier` and `n8n-vs-make` pages, adds fresh comparison-cluster discovery surfaces, and gives the site a cleaner tool-selection path before buyers graduate into n8n or consultant-led builds. Previous: bounded indexing-support refresh on `/best-ai-automation-for-service-businesses`.)
+Last updated: 2026-04-28 (shipped `/gohighlevel-vs-pipedrive-small-business` — a new CRM comparison page for small-business owners deciding between an all-in-one follow-up stack and a sales-pipeline-first CRM. It closes a clean SMB buyer-intent gap inside the live GoHighLevel comparison cluster beside the existing HubSpot, Keap, and custom-CRM pages, adds fresh discovery/tracking surfaces, and gives the site a more honest path for owners who need clearer pipeline management before they need a heavier marketing stack. Previous: `/make-vs-zapier-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 313.
+**Total live GEO pages tracked here:** 314.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -73,6 +73,7 @@ Last updated: 2026-04-28 (shipped `/make-vs-zapier-small-business` — a new no-
 | GoHighLevel vs Custom CRM (SMB) | `/gohighlevel-vs-custom-crm-small-business` | Comparison page | Live |
 | GoHighLevel vs HubSpot (SMB) | `/gohighlevel-vs-hubspot-small-business` | Comparison page | Live |
 | GoHighLevel vs Keap (SMB) | `/gohighlevel-vs-keap-small-business` | Comparison page | Live |
+| GoHighLevel vs Pipedrive (SMB) | `/gohighlevel-vs-pipedrive-small-business` | Comparison page | Live |
 | GoHighLevel vs Custom CRM (Contractors) | `/gohighlevel-vs-custom-crm-for-contractors` | Vertical comparison page | Live |
 | GoHighLevel vs Jobber (Contractors) | `/gohighlevel-vs-jobber-for-contractors` | Vertical comparison page | Live |
 | GoHighLevel Automation Setup | `/gohighlevel-automation-setup` | Service page | Live |
@@ -325,16 +326,16 @@ Last updated: 2026-04-28 (shipped `/make-vs-zapier-small-business` — a new no-
 
 ## Next Pages
 
-This run started from a fresh broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and the live route/page set. The strongest clean gap was not another late-stage vertical child page. It was the missing tool-selection comparison between Make and Zapier: a high-intent buyer query that fits the already-live automation-tool cluster, complements `n8n-vs-zapier` and `n8n-vs-make`, and gives non-technical owners a more realistic first step before they either outgrow no-code simplicity or hire help. Shipping it makes the comparison cluster more complete without forcing a thin new vertical.
+This run started from a fresh broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, `scripts/geo-prompts.json`, and the live route/page set. The strongest clean gap was the missing CRM-shopping comparison between GoHighLevel and Pipedrive: a practical SMB buyer decision that fits the already-live GoHighLevel cluster without forcing another thin vertical child page. Shipping it gives owners a clearer answer when the real choice is not marketing-vs-custom-software, but all-in-one follow-up stack vs. sales-pipeline-first CRM.
 
 The next run should:
 
-1. **Keep manual GSC follow-through moving** on refreshed priority URLs and newer comparison / consultant pages instead of treating publish alone as the finish line.
+1. **Keep manual GSC follow-through moving** on refreshed priority URLs and newer consultant / comparison pages instead of treating publish alone as the finish line.
 2. **Start from another fresh broad reconciliation before naming a new net-new page** so the queue does not drift back into stale same-cluster inertia or miss already-live pages.
-3. **If a clean net-new candidate is still needed after that reconciliation, use `/gohighlevel-vs-pipedrive-small-business` as the best fallback** because it extends the active CRM-comparison cluster with a commercially real SMB buyer decision instead of inventing a weak generic page.
+3. **If a clean net-new candidate is still needed after that reconciliation, use `/gohighlevel-vs-activecampaign-small-business` as the best fallback** because it extends the active GoHighLevel comparison cluster with another real SMB platform decision: all-in-one CRM/follow-up stack vs. email-and-marketing-automation-first platform.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Manual GSC follow-through on refreshed priority URLs | Several of the highest-value pages are still in discovered/not-indexed or not-yet-inspected state, so crawl feedback still matters as much as another publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed pages in GSC, and record whether the crawl/index state moved after the latest deploys. |
-| 2 | Fresh broad reconciliation before another net-new page | The repo is now dense enough that stale docs can still make already-live pages look missing or make a just-shipped cluster look like it owns the next run by default. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
-| 3 | `/gohighlevel-vs-pipedrive-small-business` | It is a natural next CRM-comparison child beside the live GHL-vs-HubSpot / Keap / custom-CRM pages and answers a real small-business CRM-shopping question. | Verify it is still absent from routes, pages, sitemap, llm files, and geo prompts before shipping; then inspect the live GHL comparison pages for the safest template/related-links pattern. |
+| 1 | Manual GSC follow-through on refreshed priority URLs | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |
+| 2 | Fresh broad reconciliation before another net-new page | The repo is now dense enough that stale docs can still make already-live pages look missing or can over-credit the just-shipped GHL cluster with the next run by default. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
+| 3 | `/gohighlevel-vs-activecampaign-small-business` | It is a commercially real SMB buyer decision adjacent to the live GoHighLevel setup / cleanup / HubSpot / Keap / Pipedrive comparison cluster, and it answers a different question than the existing CRM-first pages. | Verify it is still absent from routes, pages, sitemap, llm files, and geo prompts before shipping; then inspect the live GHL comparison pages for the safest template and related-link pattern. |

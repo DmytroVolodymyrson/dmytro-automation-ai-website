@@ -259,6 +259,10 @@ const data: DecisionPageData = {
       href: "/gohighlevel-vs-keap-small-business",
     },
     {
+      label: "GoHighLevel vs. Pipedrive",
+      href: "/gohighlevel-vs-pipedrive-small-business",
+    },
+    {
       label: "GoHighLevel automation setup help",
       href: "/gohighlevel-automation-setup",
     },

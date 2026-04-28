@@ -2420,6 +2420,18 @@
       ]
     },
     {
+      "id": "gohighlevel-vs-pipedrive-small-business",
+      "path": "/gohighlevel-vs-pipedrive-small-business",
+      "label": "GoHighLevel vs. Pipedrive for Small Business",
+      "prompts": [
+        "GoHighLevel vs Pipedrive for small business",
+        "Should a small business use GoHighLevel or Pipedrive?",
+        "Is Pipedrive better than GoHighLevel for a sales pipeline?",
+        "Pipedrive vs GoHighLevel pricing for a small business",
+        "When should a business use Pipedrive instead of GoHighLevel?"
+      ]
+    },
+    {
       "id": "gohighlevel-account-cleanup-service",
       "path": "/gohighlevel-account-cleanup-service",
       "label": "GoHighLevel Account Cleanup Service",

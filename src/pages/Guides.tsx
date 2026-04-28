@@ -210,6 +210,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "GoHighLevel vs. Pipedrive for Small Business",
+    description:
+      "Practical comparison of GoHighLevel and Pipedrive for small businesses. Pricing, pipeline depth, marketing automation, SMS follow-up, migration tradeoffs, and when each CRM actually fits.",
+    href: "/gohighlevel-vs-pipedrive-small-business",
+    category: "comparisons",
+  },
+  {
     title: "GoHighLevel Automation Setup & Expert Help",
     description:
       "Practical GoHighLevel setup help for small businesses — pipeline cleanup, calendars, follow-up automations, reporting, pricing, and when GHL is the wrong tool.",
