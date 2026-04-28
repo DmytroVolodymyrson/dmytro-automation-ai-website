@@ -1917,6 +1917,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-roi-small-business",
+      "path": "/missed-call-text-back-roi-small-business",
+      "label": "Missed Call Text-Back ROI for Small Business",
+      "prompts": [
+        "What is the ROI of missed-call text-back for a small business?",
+        "How quickly can missed-call text-back pay for itself?",
+        "Is missed-call text-back worth building before AI phone answering?",
+        "How do I calculate payback on SMS-first missed-call recovery?",
+        "When does missed-call text-back have better economics than a heavier phone workflow?"
+      ]
+    },
+    {
       "id": "estimate-follow-up-automation-for-service-businesses",
       "path": "/estimate-follow-up-automation-for-service-businesses",
       "label": "Estimate Follow-Up Automation for Service Businesses",

@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/ai-phone-answering-roi-small-business`: added the ROI/payback sibling for the phone-answering cluster, covering conservative payback math, recovered call value, saved admin time, and when a lighter workflow is the smarter first step. Total live pages: 290.)
+Last updated: 2026-04-27 (shipped `/missed-call-text-back-roi-small-business`: added the ROI/payback sibling for the missed-call text-back cluster, separating payback math and recovered-call economics from the existing cost page while keeping the lighter-workflow framing distinct from the heavier AI phone-answering ROI guide. Total live pages: 291.)
 
 ## Live GEO Assets
 
@@ -25,6 +25,7 @@ Last updated: 2026-04-27 (shipped `/ai-phone-answering-roi-small-business`: adde
 | Referral Request Automation (Service Businesses) | `/referral-request-automation-for-service-businesses` | Workflow parent page | Live |
 | Missed Call Text-Back (Service Businesses) | `/missed-call-text-back-for-service-businesses` | Workflow parent page | Live |
 | Missed Call Text-Back Cost (SMB) | `/missed-call-text-back-cost-small-business` | Workflow / service cost page | Live |
+| Missed Call Text-Back ROI (SMB) | `/missed-call-text-back-roi-small-business` | Workflow / ROI page | Live |
 | Missed Call Text-Back vs. AI Phone Answering (Service Businesses) | `/missed-call-text-back-vs-ai-phone-answering-for-service-businesses` | Workflow comparison page | Live |
 | Estimate Follow-Up Automation (Service Businesses) | `/estimate-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
 | Estimate Follow-Up vs. Quote Follow-Up (Service Businesses) | `/estimate-follow-up-vs-quote-follow-up-for-service-businesses` | Workflow comparison page | Live |
@@ -300,8 +301,8 @@ Last updated: 2026-04-27 (shipped `/ai-phone-answering-roi-small-business`: adde
 
 ## Next Pages
 
-The phone-answering cluster now has a broad guide, cost page, setup page, and ROI page. The ROI sibling was extracted from the remaining "is it worth the cost?" / economics query that the cost page deliberately left to a payback-focused companion. Next run should move outside the generic phone-answering cluster. The strongest next candidate is a missed-call text-back ROI page (`/missed-call-text-back-roi-small-business`), which covers similar economics for a lighter, higher-volume workflow and has no existing sibling.
+The missed-call text-back cluster now has the broad parent, cost page, ROI page, and heavier-vs-lighter comparison page. That closes the clean generic economics gap for this workflow, so the next run should not force another same-cluster sibling. The best next move is a broad reconciliation pass across live routes, prompts, Guides, sitemap, and llm surfaces to catch lagging discovery/tracking gaps and only then pick the highest-confidence remaining page or indexing refresh.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Broad prompts/route reconciliation pass | `scripts/geo-prompts.json` still lags many already-live routes, which weakens tracking/discovery even when the content exists. | Re-run the live-routes vs prompts diff and choose the highest-value lagging cluster update if no clean net-new page survives. |
+| 1 | Broad prompts/route reconciliation pass | `scripts/geo-prompts.json`, `docs/geo-tracking.md`, and adjacent discovery surfaces still lag some already-live assets in places, which weakens tracking and internal discovery even when the content exists. | Re-run the live-routes vs prompts/guides/sitemap/llm diff and ship the highest-value lagging fix or the strongest still-unshipped page that survives full route/file verification. |

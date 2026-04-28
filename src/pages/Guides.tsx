@@ -652,6 +652,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Missed Call Text-Back ROI for Small Business",
+    description:
+      "How to judge whether SMS-first missed-call recovery is financially worth building — conservative payback math, recovered missed-call value, saved callback/admin time, and when text-back beats a heavier phone stack as the smarter first move.",
+    href: "/missed-call-text-back-roi-small-business",
+    category: "workflows",
+  },
+  {
     title: "Estimate Follow-Up Automation for Service Businesses",
     description:
       "Recover open estimates after inspections and site visits. Stage-based reminders, estimator-to-office handoff, objection-aware messaging, and open-estimate visibility for field-service businesses.",

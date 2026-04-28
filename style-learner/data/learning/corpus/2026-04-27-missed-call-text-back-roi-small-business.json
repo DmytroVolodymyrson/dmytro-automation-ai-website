@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-missed-call-text-back-roi-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back ROI for Small Business\nBody: Missed-call text-back usually has faster payback than heavier phone automation because it solves one narrow leak: a caller rings, nobody answers, and the opportunity dies before the team can react. If an automatic text keeps even a small share of those callers engaged long enough to book, request an estimate, or reply with what they need, the economics can work quickly. But the ROI is not automatic. It depends on whether the business truly loses good demand to missed calls, whether callers are willing to continue by text, and whether the team actually follows through once the thread starts. This page stays tightly on the ROI question for the lighter SMS-first layer — not the cost page, not the broader missed-call stack, and not live AI phone answering.\nSub: Below: where the payback usually comes from, how to model it conservatively, what makes ROI happen faster, when text-back is the smartest first phone layer, and when the business should skip ahead to a heavier workflow instead.\n\n### Core sections\n- Where the ROI usually comes from\n- A conservative ROI model\n- What usually makes payback happen faster\n- When the ROI case is strong vs. weak\n- Proof and adjacent proof\n- What small businesses usually get wrong about text-back ROI\n\n### FAQ\nSubhead: Practical questions from small business owners deciding whether SMS-first missed-call recovery is financially worth building\nTopics: estimating missed-call text-back ROI, realistic payback speed, how the ROI page differs from the cost page, when SMS-first recovery is a better first move than AI phone answering, and what usually kills ROI on text-back workflows.\n\n### Final CTA\nHeading: Want to see whether missed-call text-back would actually pay back in your business?\nBody: Book a 30-minute call. We will look at the missed-call pattern, how much value each recovered caller could represent, and whether a focused SMS-first workflow has real payback or whether the business should start with a different automation layer.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen after roadmap and live-cluster reconciliation showed the site already had the horizontal missed-call text-back parent page, the pricing sibling, and the text-back-versus-AI-phone-answering comparison page, but still lacked the clean ROI/payback sibling for buyers asking whether the lighter SMS-first layer is actually worth building."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page materially distinct from `/missed-call-text-back-for-service-businesses`, `/missed-call-text-back-cost-small-business`, `/missed-call-follow-up-automation`, and `/ai-phone-answering-roi-small-business` by staying tightly on economics, recovered-call value, saved callback/admin time, and the line between the lighter SMS-first workflow and heavier live-answering systems."
+    },
+    {
+      "type": "tone_shift",
+      "description": "ROI framing stays practical and non-hype: it uses conservative math, warns against counting every missed call as equal value, and makes human follow-through part of the payback model instead of promising automatic gains from the technology alone."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: there is no dedicated horizontal missed-call-text-back ROI case study on the site, so the page leans on Paris Cafe as adjacent phone-recovery proof, the live missed-call cluster, and the broader ROI guide rather than inventing direct ROI evidence."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T01:11:00.652Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 27.5,
+      "sentenceLengthRange": [
+        5,
+        54
+      ],
+      "totalWords": 330
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Missed Call Text-Back ROI for Small Business\nBody: Missed-call text-back usually has faster payback than heavier phone automation because it solves one narrow leak: a caller rings, nobody answers, and the opportunity dies before the team can react.",
+      "wordCount": 40,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to see whether missed-call text-back would actually pay back in your business?\nBody: Book a 30-minute call. We will look at the missed-call pattern, how much value each recovered caller could represent, and whether a focused SMS-first workflow has real payback or whether the business should start with a different automation layer.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "result",
+        "closer"
+      ],
+      "template": "opener | result | result | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 19,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 1.73
+    },
+    "vocabulary": {
+      "distinctWords": 175,
+      "totalWords": 330,
+      "topWords": [
+        [
+          "roi",
+          11
+        ],
+        [
+          "text-back",
+          7
+        ],
+        [
+          "whether",
+          7
+        ],
+        [
+          "business",
+          6
+        ],
+        [
+          "missed-call",
+          6
+        ],
+        [
+          "usually",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "payback",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "small",
+          4
+        ],
+        [
+          "phone",
+          4
+        ],
+        [
+          "not",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "sms-first",
+          4
+        ],
+        [
+          "from",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
