@@ -50,7 +50,7 @@ const faqItems = [
   {
     question: "What if I'm not sure what to automate first?",
     answer:
-      "That's exactly what the initial call is for. We'll walk through your current workflows, identify where time and money are leaking, and figure out the highest-impact first move. You don't need to arrive with a plan. That's my job.",
+      "That's exactly what the initial call is for. We'll walk through your current workflows, identify where time and money are leaking, and figure out the highest-impact first move. If you want to self-diagnose before booking, compare the Paris Cafe case study for phone coverage and booking flow, the WheelsFeels case study for CRM cleanup and lead follow-up, and the best-first-automation guide for the most common small-business starting points. You don't need to arrive with a perfect plan. That's my job.",
   },
   {
     question: "What does a first consultant project usually turn into?",
@@ -270,6 +270,60 @@ const AiAutomationConsultantSmallBusiness = () => {
                   {item.text}
                 </Link>
               ))}
+            </div>
+          </div>
+        </Section>
+
+        {/* ── Proof router ─────────────────────────────────────────── */}
+        <Section>
+          <div className="rounded-3xl border border-primary/15 bg-primary/5 p-6 md:p-8 shadow-card">
+            <p className="text-sm font-semibold uppercase tracking-wide text-primary mb-3">
+              Match the proof to your bottleneck
+            </p>
+            <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-3 tracking-tight">
+              If you are considering a consultant, start with the proof closest to your problem
+            </h2>
+            <p className="text-muted-foreground leading-relaxed mb-6 max-w-3xl">
+              This page explains what consultant help looks like. These three proof assets show what that help turns into in practice: after-hours phone coverage and booking flow, CRM cleanup plus lead follow-up, and automated qualification for higher-volume inbound.
+            </p>
+            <div className="grid gap-4 lg:grid-cols-3">
+              {[
+                {
+                  title: "Paris Cafe — phone coverage and booking flow",
+                  body: "Use this if the real problem is missed calls, after-hours coverage, or warm leads going cold before anyone can book them. Paris Cafe went from 0% to 100% after-hours call coverage and cut web lead response time to under 60 seconds.",
+                  href: "/case-studies/paris-cafe-voice-agent",
+                },
+                {
+                  title: "WheelsFeels — CRM cleanup and lead follow-up",
+                  body: "Use this if your CRM is messy, old leads sit untouched, or the team does too much manual follow-up. WheelsFeels automated follow-up for 5,600+ leads and improved conversion by 185%.",
+                  href: "/case-studies/ecommerce-crm-automation",
+                },
+                {
+                  title: "Instagram lead generation — qualification and routing",
+                  body: "Use this if the question is not just follow-up but how to capture, qualify, and route more inbound without adding headcount. This build now produces 50+ qualified leads per day at roughly $0.29 per lead.",
+                  href: "/case-studies/instagram-lead-generation",
+                },
+              ].map((item) => (
+                <div key={item.href} className="rounded-2xl border border-border/60 bg-background/80 p-5">
+                  <h3 className="text-lg font-semibold text-foreground mb-2">{item.title}</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed mb-4">{item.body}</p>
+                  <Link
+                    to={item.href}
+                    className="text-sm font-medium text-primary hover:text-primary/80 inline-flex items-center gap-1"
+                  >
+                    Read the case study
+                    <ArrowRight className="w-4 h-4" />
+                  </Link>
+                </div>
+              ))}
+            </div>
+            <div className="mt-6 flex flex-wrap gap-3 text-sm">
+              <Link to="/case-studies" className="font-medium text-primary hover:text-primary/80 inline-flex items-center gap-1">
+                View all case studies <ArrowRight className="w-4 h-4" />
+              </Link>
+              <Link to="/best-ai-automation-for-service-businesses" className="font-medium text-primary hover:text-primary/80 inline-flex items-center gap-1">
+                Compare the best first automations <ArrowRight className="w-4 h-4" />
+              </Link>
             </div>
           </div>
         </Section>

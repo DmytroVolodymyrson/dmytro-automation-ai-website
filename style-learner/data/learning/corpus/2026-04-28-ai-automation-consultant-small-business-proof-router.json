@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-ai-automation-consultant-small-business-proof-router",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Section heading\nMatch the proof to your bottleneck\n\n### Intro copy\nIf you are considering a consultant, start with the proof closest to your problem.\n\nThis page explains what consultant help looks like. These three proof assets show what that help turns into in practice: after-hours phone coverage and booking flow, CRM cleanup plus lead follow-up, and automated qualification for higher-volume inbound.\n\n### Proof cards\n- **Paris Cafe — phone coverage and booking flow**\n  - Use this if the real problem is missed calls, after-hours coverage, or warm leads going cold before anyone can book them.\n  - Named outcome: 0% to 100% after-hours call coverage and web lead response time cut to under 60 seconds.\n- **WheelsFeels — CRM cleanup and lead follow-up**\n  - Use this if your CRM is messy, old leads sit untouched, or the team does too much manual follow-up.\n  - Named outcome: automated follow-up for 5,600+ leads and improved conversion by 185%.\n- **Instagram lead generation — qualification and routing**\n  - Use this if the question is not just follow-up but how to capture, qualify, and route more inbound without adding headcount.\n  - Named outcome: 50+ qualified leads per day at roughly $0.29 per lead.\n\n### Supporting links\n- View all case studies\n- Compare the best first automations\n\n### FAQ update\nQuestion: What if I'm not sure what to automate first?\nUpdated answer focus: before booking, compare the Paris Cafe case study for phone coverage and booking flow, the WheelsFeels case study for CRM cleanup and lead follow-up, and the best-first-automation guide for the most common small-business starting points.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This is a bounded indexing/internal-linking refresh on a priority discovered-not-indexed commercial page, not a new GEO page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The new section sits high on the page so consultant-intent readers and crawlers hit proof-backed outcomes before the page becomes an abstract services explainer."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "Every referenced proof point is already documented on-site; no new claims or invented metrics were added."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The copy deliberately routes readers from proof into two adjacent decision surfaces: the full case-studies hub and the best-first-automation page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and buyer-oriented: proof first, then evaluation and scoping."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T14:34:16.936Z",
+    "structure": {
+      "paragraphCount": 6,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        2,
+        6,
+        1,
+        2
+      ],
+      "avgSentenceLength": 19.8,
+      "sentenceLengthRange": [
+        8,
+        38
+      ],
+      "totalWords": 257
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Section heading\nMatch the proof to your bottleneck",
+      "wordCount": 8,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### FAQ update\nQuestion: What if I'm not sure what to automate first?\nUpdated answer focus: before booking, compare the Paris Cafe case study for phone coverage and booking flow, the WheelsFeels case study for CRM cleanup and lead follow-up, and the best-first-automation guide for the most common small-business starting points.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "result",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | result | context | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 13,
+      "emDashes": 3,
+      "enDashes": 0,
+      "hyphens": 11,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 6,
+      "commasPerSentence": 1.18
+    },
+    "vocabulary": {
+      "distinctWords": 146,
+      "totalWords": 257,
+      "topWords": [
+        [
+          "-",
+          11
+        ],
+        [
+          "lead",
+          6
+        ],
+        [
+          "follow-up",
+          6
+        ],
+        [
+          "if",
+          5
+        ],
+        [
+          "coverage",
+          5
+        ],
+        [
+          "proof",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "booking",
+          4
+        ],
+        [
+          "crm",
+          4
+        ],
+        [
+          "leads",
+          4
+        ],
+        [
+          "your",
+          3
+        ],
+        [
+          "after-hours",
+          3
+        ],
+        [
+          "phone",
+          3
+        ],
+        [
+          "flow",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": [
+        "adds-trust-signals"
+      ]
+    }
+  }
+}
