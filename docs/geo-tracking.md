@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 360 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 361 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -119,7 +119,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Automation Consultant Calgary** — `/ai-automation-consultant-calgary`
 - **AI Automation Consultant Edmonton** — `/ai-automation-consultant-edmonton`
 
-### Industry + vertical pages (228)
+### Industry + vertical pages (229)
 - **After-Hours AI Phone Answering vs. Voicemail for Restaurants** — `/after-hours-ai-phone-answering-vs-voicemail-for-restaurants`
 - **After-Hours Maintenance Triage for Property Management Companies** — `/after-hours-maintenance-triage-for-property-management-companies`
 - **After-Hours Phone Answering for Restaurants** — `/after-hours-phone-answering-for-restaurants`
@@ -334,6 +334,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Tenant Communication Automation for Property Management Companies** — `/tenant-communication-automation-for-property-management-companies`
 - **Treatment Recall Automation for Med Spas** — `/treatment-recall-automation-for-med-spas`
 - **Review Request Automation for Insurance Agencies** — `/review-request-automation-for-insurance-agencies`
+- **Review Request Automation for Law Firms** — `/review-request-automation-for-law-firms`
 - **Review Request Automation for Med Spas** — `/review-request-automation-for-med-spas`
 - **Review Request Automation for Plumbing Companies** — `/review-request-automation-for-plumbing-companies`
 - **Review Request Automation for E-Commerce Brands** — `/review-request-automation-for-ecommerce-brands`

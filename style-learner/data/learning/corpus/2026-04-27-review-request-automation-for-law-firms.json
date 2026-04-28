@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-review-request-automation-for-law-firms",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: Review Request Automation for Law Firms\nBody: Most law firms do not lose reputation because of bad legal work. They lose it because the matter closed, the client seemed satisfied, and then nobody asked for a review while the experience was still current. Or the ask went out too early — before the client knew whether the outcome actually held, before a billing question got resolved, or before the attorney realized the client was still upset about something that happened during the engagement. Review request automation for law firms fixes that narrow post-matter workflow. It gives completed matters a cleaner closeout path, helps the firm ask for reviews when the experience is actually ready, routes complaints and billing concerns back to the responsible attorney before the firm pushes for a public rating, and respects the ethics constraints that make legal reputation follow-up different from a generic service-business review ask.\nSub: Below: what a practical law-firm review-request workflow should handle, how it stays distinct from the broader law-firm automation page and the first-project scoping page, which ethics and compliance guardrails matter, and what proof honestly supports the page without pretending there is already a dedicated law-firm review-automation case study on the site.\n\n### Core sections\n- What law-firm review-request automation should actually handle\n- How this page stays distinct inside the law-firm cluster\n- Is this a good fit for your law firm?\n- How a practical law-firm review-request workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical answers for law firms considering a cleaner post-matter review workflow\nTopics: how this differs from the broader law-firm automation page, how bar-association ethics rules affect review asks, typical build cost, which practice areas benefit most, and where the ROI usually comes from.\n\n### Final CTA\nHeading: Need cleaner reputation follow-up after the matter closes?\nBody: Book a 30-minute call. We will look at how matters get closed out today, where review asks are being missed or mistimed, and whether a focused post-matter workflow, an earlier intake or follow-up fix, or no new build is the smarter next move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the law-firm cluster had already matured across intake, scheduling, post-consult follow-up, case-status updates, and phone coverage, but still lacked the post-matter review-request closeout layer that many other vertical clusters already had."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on review timing after a matter closes: unhappy-reply routing, billing/outcome sensitivity, practice-area differences, and bar-association ethics compliance. It does not collapse into intake, scheduling, or generic legal-tech copy."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live law-firm parent, adjacent review-request pages in other professional-services clusters, and the published e-commerce CRM case study as honest adjacent proof without pretending there is already a law-firm-specific review-automation case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: stronger local trust, fewer mistimed review asks, explicit fit / not-fit framing, and clear guardrails around where automation should stop and attorney judgment needs to take over."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T03:33:03.237Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 29,
+      "sentenceLengthRange": [
+        5,
+        55
+      ],
+      "totalWords": 348
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Review Request Automation for Law Firms\nBody: Most law firms do not lose reputation because of bad legal work.",
+      "wordCount": 21,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need cleaner reputation follow-up after the matter closes?\nBody: Book a 30-minute call. We will look at how matters get closed out today, where review asks are being missed or mistimed, and whether a focused post-matter workflow, an earlier intake or follow-up fix, or no new build is the smarter next move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 18,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.64
+    },
+    "vocabulary": {
+      "distinctWords": 185,
+      "totalWords": 348,
+      "topWords": [
+        [
+          "review",
+          7
+        ],
+        [
+          "law-firm",
+          7
+        ],
+        [
+          "how",
+          6
+        ],
+        [
+          "page",
+          6
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "law",
+          5
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "firms",
+          4
+        ],
+        [
+          "before",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "reputation",
+          3
+        ],
+        [
+          "it",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

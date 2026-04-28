@@ -1197,6 +1197,18 @@
       ]
     },
     {
+      "id": "review-request-automation-for-law-firms",
+      "path": "/review-request-automation-for-law-firms",
+      "label": "Review Request Automation for Law Firms",
+      "prompts": [
+        "Review request automation for law firms",
+        "How should a law firm ask for Google reviews after closing a matter without violating bar ethics rules?",
+        "Best way for a small law firm to automate post-matter review requests while routing unhappy replies back to the attorney",
+        "Should a law firm automate review requests differently by practice area?",
+        "How do law firms handle review-request timing when the client is still waiting to see if the legal outcome holds?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-accounting-firms",
       "path": "/what-to-automate-first-for-accounting-firms",
       "label": "What to Automate First for Accounting Firms",

@@ -1241,6 +1241,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Review Request Automation for Law Firms",
+    description:
+      "Post-matter reputation workflow for law firms focused on review timing after the engagement closes, unhappy-reply routing, practice-area sensitivity, ethics compliance, and turning closed matters into cleaner local-trust follow-up.",
+    href: "/review-request-automation-for-law-firms",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Accounting Firms",
     description:
       "AI automation for accounting firms. Client onboarding, document collection, appointment scheduling, and seasonal workflows for CPA and bookkeeping practices.",

@@ -269,6 +269,7 @@ const data: DecisionPageData = {
     { label: "Review automation for restaurants", href: "/review-request-automation-for-restaurants" },
     { label: "Review automation for HVAC companies", href: "/review-request-automation-for-hvac-companies" },
     { label: "Review automation for dental practices", href: "/review-request-automation-for-dental-practices" },
+    { label: "Review automation for law firms", href: "/review-request-automation-for-law-firms" },
     { label: "Review automation for cleaning companies", href: "/review-request-automation-for-cleaning-companies" },
     { label: "Referral request automation", href: "/referral-request-automation-for-service-businesses" },
     { label: "All guides", href: "/guides" },

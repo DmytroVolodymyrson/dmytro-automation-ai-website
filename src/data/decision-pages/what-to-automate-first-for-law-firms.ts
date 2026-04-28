@@ -309,6 +309,7 @@ const data: DecisionPageData = {
     "No obligation. No legal-tech buzzword dump. Just a practical conversation about where your intake process is actually leaking revenue.",
   relatedLinks: [
     { label: "AI automation for law firms", href: "/ai-automation-for-law-firms" },
+    { label: "Review request automation for law firms", href: "/review-request-automation-for-law-firms" },
     { label: "AI automation for accounting firms", href: "/ai-automation-for-accounting-firms" },
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
     { label: "All guides", href: "/guides" },

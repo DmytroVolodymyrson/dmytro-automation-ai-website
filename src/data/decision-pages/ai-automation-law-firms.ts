@@ -233,6 +233,7 @@ const data: DecisionPageData = {
     { label: "What to automate first for law firms", href: "/what-to-automate-first-for-law-firms" },
     { label: "Consultation scheduling and reminder automation for law firms", href: "/consultation-scheduling-and-reminder-automation-for-law-firms" },
     { label: "No-show reduction automation for law firms", href: "/no-show-reduction-automation-for-law-firms" },
+    { label: "Review request automation for law firms", href: "/review-request-automation-for-law-firms" },
     { label: "AI phone answering for law firms", href: "/ai-phone-answering-for-law-firms" },
     { label: "Unretained-consult follow-up for law firms", href: "/unretained-consult-follow-up-for-law-firms" },
     { label: "All guides", href: "/guides" },

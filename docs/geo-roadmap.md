@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/real-estate-agent-nurture-for-home-inspectors`: added the still-missing referral-source relationship workflow inside the mature home-inspector cluster, separating longer-gap agent top-of-mind follow-through from the already-live lead-follow-up, review, and phone pages. Total live pages: 292.)
+Last updated: 2026-04-27 (shipped `/review-request-automation-for-law-firms`: added the post-matter reputation workflow to the law-firm cluster, covering review timing, unhappy-reply routing, practice-area sensitivity, and bar-association ethics compliance. Total live pages: 293.)
 
 ## Live GEO Assets
 
@@ -141,6 +141,7 @@ Last updated: 2026-04-27 (shipped `/real-estate-agent-nurture-for-home-inspector
 | AI Phone vs Voicemail (Law Firms) | `/ai-phone-answering-vs-voicemail-for-law-firms` | Vertical comparison page | Live |
 | Text-Back vs AI Phone (Law Firms) | `/missed-call-text-back-vs-ai-phone-answering-for-law-firms` | Vertical comparison page | Live |
 | Text-Back vs Voicemail (Law Firms) | `/missed-call-text-back-vs-voicemail-for-law-firms` | Vertical comparison page | Live |
+| Review Request Automation (Law Firms) | `/review-request-automation-for-law-firms` | Vertical workflow page | Live |
 | AI for Solar Companies | `/ai-automation-for-solar-companies` | Vertical category page | Live |
 | What to Automate First (Solar) | `/what-to-automate-first-for-solar-companies` | Vertical decision page | Live |
 | Utility Bill Collection (Solar) | `/utility-bill-collection-automation-for-solar-companies` | Vertical workflow page | Live |
@@ -302,8 +303,9 @@ Last updated: 2026-04-27 (shipped `/real-estate-agent-nurture-for-home-inspector
 
 ## Next Pages
 
-The home-inspector cluster now has the broad parent, first-project page, early-funnel response page, booked-inspection scheduling page, report closeout page, review page, new agent-nurture page, and the phone-decision pages. That closes the clearest remaining same-cluster relationship-nurture gap, so the next run should not force another home-inspector sibling by inertia. The best next move is still a broad reconciliation pass across live routes, prompts, Guides, sitemap, and llm surfaces to catch lagging discovery/tracking gaps and only then pick the highest-confidence remaining page or indexing refresh.
+The law-firm cluster now covers the broad parent, first-project scoping page, intake/conflict-check prep, consultation scheduling, no-show protection, unretained-consult follow-up, case status updates, the phone-decision pages, and the new review-request closeout layer. That closes the clearest remaining post-matter reputation gap, so the next run should not force another law-firm sibling by inertia. The cleanest next candidate is a hiring-intent GoHighLevel role page, with broad reconciliation of prompts vs routes/guides/sitemap/llm surfaces still acting as the sanity check before shipping.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Broad prompts/route reconciliation pass | `scripts/geo-prompts.json`, `docs/geo-tracking.md`, and adjacent discovery surfaces still lag some already-live assets in places, which weakens tracking and internal discovery even when the content exists. | Re-run the live-routes vs prompts/guides/sitemap/llm diff and ship the highest-value lagging fix or the strongest still-unshipped page that survives full route/file verification. |
+| 1 | `/gohighlevel-automation-consultant` | The GoHighLevel cluster already has setup help, setup cost, setup vs DIY, cleanup service, cleanup vs rebuild, audit checklist, setup mistakes, and multiple comparison pages, but it still lacks the direct hiring-intent consultant role page that the parallel n8n cluster already proves can work. | Verify there is still no live route/component for the slug, confirm the setup-help page is not already answering the same buyer question too broadly, and ground the page in the existing GoHighLevel cluster plus the broader consultant/hiring pages without pretending there is a direct GHL-only case study. |
+| 2 | Broad prompts/route reconciliation pass | `scripts/geo-prompts.json`, `docs/geo-tracking.md`, and adjacent discovery surfaces still lag some already-live assets in places, which weakens tracking and internal discovery even when the content exists. | Re-run the live-routes vs prompts/guides/sitemap/llm diff and ship the highest-value lagging fix or the strongest still-unshipped page that survives full route/file verification. |
