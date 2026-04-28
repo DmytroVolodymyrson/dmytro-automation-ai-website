@@ -3681,6 +3681,18 @@
       ]
     },
     {
+      "id": "real-estate-agent-nurture-for-home-inspectors",
+      "path": "/real-estate-agent-nurture-for-home-inspectors",
+      "label": "Real Estate Agent Nurture for Home Inspectors",
+      "prompts": [
+        "Real estate agent nurture for home inspectors",
+        "How should a home inspector stay top of mind with real estate agents between referrals?",
+        "Best way for a home inspector to reactivate agents who used to refer buyers but went quiet",
+        "What should a home-inspector agent-nurture workflow handle after a referral source goes dormant?",
+        "How can a home inspector keep referring agents warm without generic marketing blasts?"
+      ]
+    },
+    {
       "id": "inspection-scheduling-and-reminder-automation-for-home-inspectors",
       "path": "/inspection-scheduling-and-reminder-automation-for-home-inspectors",
       "label": "Inspection Scheduling and Reminder Automation for Home Inspectors",

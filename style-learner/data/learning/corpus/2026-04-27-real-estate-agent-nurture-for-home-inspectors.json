@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-real-estate-agent-nurture-for-home-inspectors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: Real Estate Agent Nurture for Home Inspectors\nBody: A lot of home inspectors know exactly which agents send the most business, then still treat relationship follow-up like something they will remember when they slow down. The inspection gets done. The buyer is happy enough. The agent meant to send another deal your way. Then two months pass. Then six. Then the relationship is not broken, but you are no longer top of mind when the next buyer needs an inspector quickly. Real-estate agent nurture for home inspectors fixes that narrower referral-source workflow. It gives the business a practical way to stay visible with referring agents, re-engage the ones who have gone quiet, route live opportunities back fast, and protect the referral pipeline without turning relationship follow-up into generic marketing noise.\nSub: Below: what a practical home-inspector agent-nurture workflow should actually handle, how it stays distinct from lead follow-up, booking, and review requests, what guardrails matter most, and what proof honestly supports the page without pretending there is already a dedicated home-inspector nurture case study on the site.\n\n### Core sections\n- What home-inspector agent nurture should actually handle\n- How this page stays distinct inside the home-inspector cluster\n- Is this a good fit for your home-inspection business?\n- Guardrails that keep home-inspector agent nurture useful instead of spammy\n- How a practical home-inspector agent-nurture workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical answers for home inspectors considering a cleaner agent-nurture workflow\nTopics: how this differs from lead follow-up, how this differs from review-request automation, what this workflow should actually send, what a focused nurture workflow usually costs, and where the ROI usually comes from.\n\n### Final CTA\nHeading: Need cleaner follow-through with the agents who already know your work?\nBody: Book a 30-minute call. We will look at how referral-source follow-up works today, where agent relationships are quietly going cold, and whether a focused nurture workflow, a faster response fix, or an earlier pipeline problem is the smarter next move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the still-missing relationship-nurture child inside the mature home-inspector cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the live parent explicitly names real-estate agent nurture campaigns as one of the highest-impact workflows and the cluster already had lead-follow-up, booking, report-closeout, review, and phone pages live."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/ai-lead-follow-up-for-home-inspectors` by focusing on longer-gap referral-source visibility and dormant-agent reactivation instead of fresh inquiry response."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays distinct from `/review-request-automation-for-home-inspectors` by focusing on agent relationship nurture between deals rather than post-inspection public-trust asks."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live home-inspector parent, the adjacent real-estate reactivation page, and the published e-commerce CRM case study support the operating logic without pretending there is already a home-inspector-specific nurture case study on the site."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T02:46:36.978Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        10,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 21,
+      "sentenceLengthRange": [
+        2,
+        47
+      ],
+      "totalWords": 336
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Real Estate Agent Nurture for Home Inspectors\nBody: A lot of home inspectors know exactly which agents send the most business, then still treat relationship follow-up like something they will remember when they slow down.",
+      "wordCount": 37,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need cleaner follow-through with the agents who already know your work?\nBody: Book a 30-minute call. We will look at how referral-source follow-up works today, where agent relationships are quietly going cold, and whether a focused nurture workflow, a faster response fix, or an earlier pipeline problem is the smarter next move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "result",
+        "closer"
+      ],
+      "template": "opener | product-pitch | result | closer"
+    },
+    "punctuation": {
+      "periods": 13,
+      "commas": 18,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.2
+    },
+    "vocabulary": {
+      "distinctWords": 183,
+      "totalWords": 336,
+      "topWords": [
+        [
+          "nurture",
+          7
+        ],
+        [
+          "workflow",
+          7
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "agent",
+          6
+        ],
+        [
+          "home-inspector",
+          6
+        ],
+        [
+          "how",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "this",
+          6
+        ],
+        [
+          "follow-up",
+          5
+        ],
+        [
+          "home",
+          4
+        ],
+        [
+          "inspectors",
+          4
+        ],
+        [
+          "then",
+          4
+        ],
+        [
+          "practical",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "agents",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

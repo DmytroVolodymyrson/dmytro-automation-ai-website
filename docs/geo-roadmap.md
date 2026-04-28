@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/missed-call-text-back-roi-small-business`: added the ROI/payback sibling for the missed-call text-back cluster, separating payback math and recovered-call economics from the existing cost page while keeping the lighter-workflow framing distinct from the heavier AI phone-answering ROI guide. Total live pages: 291.)
+Last updated: 2026-04-27 (shipped `/real-estate-agent-nurture-for-home-inspectors`: added the still-missing referral-source relationship workflow inside the mature home-inspector cluster, separating longer-gap agent top-of-mind follow-through from the already-live lead-follow-up, review, and phone pages. Total live pages: 292.)
 
 ## Live GEO Assets
 
@@ -205,6 +205,7 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-roi-small-business`: a
 | Scheduling/Reminders (Home Inspect) | `/inspection-scheduling-and-reminder-automation-for-home-inspectors` | Vertical workflow page | Live |
 | Report Delivery/Review | `/report-delivery-and-review-automation-for-home-inspectors` | Vertical workflow page | Live |
 | Review Automation (Home Inspect) | `/review-request-automation-for-home-inspectors` | Vertical workflow page | Live |
+| Agent Nurture (Home Inspect) | `/real-estate-agent-nurture-for-home-inspectors` | Vertical workflow page | Live |
 | AI Phone Answering (Home Inspect) | `/ai-phone-answering-for-home-inspectors` | Vertical solution page | Live |
 | Missed Call Text-Back (Home Inspect) | `/missed-call-text-back-for-home-inspectors` | Vertical workflow page | Live |
 | AI for Auto Repair Shops | `/ai-automation-for-auto-repair-shops` | Vertical category page | Live |
@@ -301,7 +302,7 @@ Last updated: 2026-04-27 (shipped `/missed-call-text-back-roi-small-business`: a
 
 ## Next Pages
 
-The missed-call text-back cluster now has the broad parent, cost page, ROI page, and heavier-vs-lighter comparison page. That closes the clean generic economics gap for this workflow, so the next run should not force another same-cluster sibling. The best next move is a broad reconciliation pass across live routes, prompts, Guides, sitemap, and llm surfaces to catch lagging discovery/tracking gaps and only then pick the highest-confidence remaining page or indexing refresh.
+The home-inspector cluster now has the broad parent, first-project page, early-funnel response page, booked-inspection scheduling page, report closeout page, review page, new agent-nurture page, and the phone-decision pages. That closes the clearest remaining same-cluster relationship-nurture gap, so the next run should not force another home-inspector sibling by inertia. The best next move is still a broad reconciliation pass across live routes, prompts, Guides, sitemap, and llm surfaces to catch lagging discovery/tracking gaps and only then pick the highest-confidence remaining page or indexing refresh.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|

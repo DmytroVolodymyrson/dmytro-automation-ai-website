@@ -269,6 +269,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation for home inspectors", href: "/ai-automation-for-home-inspectors" },
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
+    { label: "Real-estate agent nurture for home inspectors", href: "/real-estate-agent-nurture-for-home-inspectors" },
     { label: "Missed call text-back for home inspectors", href: "/missed-call-text-back-for-home-inspectors" },
     { label: "AI phone answering for home inspectors", href: "/ai-phone-answering-for-home-inspectors" },
     { label: "All guides", href: "/guides" },

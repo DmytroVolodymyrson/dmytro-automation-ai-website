@@ -290,6 +290,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation for home inspectors", href: "/ai-automation-for-home-inspectors" },
     { label: "AI lead follow-up for home inspectors", href: "/ai-lead-follow-up-for-home-inspectors" },
+    { label: "Real-estate agent nurture for home inspectors", href: "/real-estate-agent-nurture-for-home-inspectors" },
     { label: "Inspection scheduling and reminder automation for home inspectors", href: "/inspection-scheduling-and-reminder-automation-for-home-inspectors" },
     { label: "Report delivery and review automation for home inspectors", href: "/report-delivery-and-review-automation-for-home-inspectors" },
     { label: "Missed call text-back for home inspectors", href: "/missed-call-text-back-for-home-inspectors" },

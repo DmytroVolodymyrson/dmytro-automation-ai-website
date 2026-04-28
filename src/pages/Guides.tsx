@@ -2657,6 +2657,20 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Real Estate Agent Nurture for Home Inspectors",
+    description:
+      "Home-inspector referral-source workflow for staying top of mind with real-estate agents, reactivating dormant referral partners, and routing live buyer opportunities back fast without generic campaign noise.",
+    href: "/real-estate-agent-nurture-for-home-inspectors",
+    category: "industries",
+  },
+  {
+    title: "Real Estate Agent Nurture for Home Inspectors",
+    description:
+      "Home-inspector referral-source workflow for staying top of mind with real-estate agents, reactivating dormant referral partners, and routing live buyer opportunities back fast without generic campaign noise.",
+    href: "/real-estate-agent-nurture-for-home-inspectors",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Home Inspectors",
     description:
       "A narrower home-inspector live-phone-coverage guide focused on booking intake, agent and buyer call handling, after-hours coverage, and the handoff points that should stay human.",
