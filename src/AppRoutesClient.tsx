@@ -149,6 +149,7 @@ const MissedCallTextBackVsVoicemailForSolarCompanies = lazy(() => import("./page
 const MissedCallTextBackVsAiPhoneAnsweringForSolarCompanies = lazy(() => import("./pages/MissedCallTextBackVsAiPhoneAnsweringForSolarCompanies"));
 const MissedCallTextBackVsAiPhoneAnsweringForAccountingFirms = lazy(() => import("./pages/MissedCallTextBackVsAiPhoneAnsweringForAccountingFirms"));
 const QuoteFollowUpAutomationForSolarCompanies = lazy(() => import("./pages/QuoteFollowUpAutomationForSolarCompanies"));
+const ProjectStatusUpdateAutomationForSolarCompanies = lazy(() => import("./pages/ProjectStatusUpdateAutomationForSolarCompanies"));
 const AiAutomationForAccountingFirms = lazy(() => import("./pages/AiAutomationForAccountingFirms"));
 const DocumentCollectionAutomationForAccountingFirms = lazy(() => import("./pages/DocumentCollectionAutomationForAccountingFirms"));
 const ClientOnboardingAutomationForAccountingFirms = lazy(() => import("./pages/ClientOnboardingAutomationForAccountingFirms"));
@@ -575,6 +576,7 @@ const AppRoutesClient = () => (
      <Route path="/utility-bill-collection-automation-for-solar-companies" element={<UtilityBillCollectionAutomationForSolarCompanies />} />
      <Route path="/ai-lead-follow-up-for-solar-companies" element={<AiLeadFollowUpForSolarCompanies />} />
      <Route path="/quote-follow-up-automation-for-solar-companies" element={<QuoteFollowUpAutomationForSolarCompanies />} />
+     <Route path="/project-status-update-automation-for-solar-companies" element={<ProjectStatusUpdateAutomationForSolarCompanies />} />
      <Route path="/appointment-scheduling-and-reminder-automation-for-solar-companies" element={<AppointmentSchedulingAndReminderAutomationForSolarCompanies />} />
      <Route path="/ai-phone-answering-for-solar-companies" element={<AiPhoneAnsweringForSolarCompanies />} />
      <Route path="/ai-phone-answering-vs-voicemail-for-solar-companies" element={<AiPhoneAnsweringVsVoicemailForSolarCompanies />} />

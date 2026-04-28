@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/review-request-automation-for-mortgage-brokers` — a new mortgage-cluster post-closing reputation child page that covers review timing after funded loans, unhappy-reply routing before public review asks, review-vs-referral separation, and compliance-safe advocacy follow-up. Stays distinct from the live referral-request page by focusing narrowly on the reputation-closeout step instead of warm-introduction routing. Previous: `/missed-call-text-back-vs-ai-phone-answering-for-mortgage-brokers`.)
+Last updated: 2026-04-28 (shipped `/project-status-update-automation-for-solar-companies` — a new solar-cluster post-sale communication child page that covers milestone updates, homeowner next-step reminders, exception routing, and clearer project-manager handoff once the install is already moving. Stays distinct from the live solar lead-follow-up, utility-bill, scheduling, quote-follow-up, and phone pages by focusing narrowly on the project-stage update layer after the sale. Previous: `/review-request-automation-for-mortgage-brokers`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 323.
+**Total live GEO pages tracked here:** 324.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -172,6 +172,7 @@ Last updated: 2026-04-28 (shipped `/review-request-automation-for-mortgage-broke
 | Utility Bill Collection (Solar) | `/utility-bill-collection-automation-for-solar-companies` | Vertical workflow page | Live |
 | AI Lead Follow-Up (Solar) | `/ai-lead-follow-up-for-solar-companies` | Vertical workflow page | Live |
 | Quote Follow-Up (Solar) | `/quote-follow-up-automation-for-solar-companies` | Vertical workflow page | Live |
+| Project Status Updates (Solar) | `/project-status-update-automation-for-solar-companies` | Vertical workflow page | Live |
 | Appointment Scheduling (Solar) | `/appointment-scheduling-and-reminder-automation-for-solar-companies` | Vertical workflow page | Live |
 | AI Phone Answering (Solar) | `/ai-phone-answering-for-solar-companies` | Vertical solution page | Live |
 | AI Phone vs Voicemail (Solar) | `/ai-phone-answering-vs-voicemail-for-solar-companies` | Vertical comparison page | Live |

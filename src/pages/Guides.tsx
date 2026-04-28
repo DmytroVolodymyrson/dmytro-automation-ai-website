@@ -1710,6 +1710,13 @@ const guides: GuideItem[] = [
     href: "/quote-follow-up-automation-for-solar-companies",
     category: "industries",
   },
+  {
+    title: "Project Status Update Automation for Solar Companies",
+    description:
+      "Solar post-sale communication workflow focused on milestone updates, homeowner next-step reminders, exception routing, and cleaner project-manager handoff once the install is already moving.",
+    href: "/project-status-update-automation-for-solar-companies",
+    category: "industries",
+  },
 
   {
     title: "Estimate Follow-Up Automation for Electrical Contractors",

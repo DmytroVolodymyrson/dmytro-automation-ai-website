@@ -271,6 +271,7 @@ const data: DecisionPageData = {
     { label: "AI automation for solar companies", href: "/ai-automation-for-solar-companies" },
     { label: "What to automate first for solar companies", href: "/what-to-automate-first-for-solar-companies" },
     { label: "AI lead follow-up for solar companies", href: "/ai-lead-follow-up-for-solar-companies" },
+    { label: "Project status update automation for solar companies", href: "/project-status-update-automation-for-solar-companies" },
     { label: "All guides", href: "/guides" },
   ],
 };
