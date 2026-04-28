@@ -261,6 +261,7 @@ const data: DecisionPageData = {
     { label: "Referral automation for painting contractors", href: "/referral-request-automation-for-painting-contractors" },
     { label: "Referral automation for insurance agencies", href: "/referral-request-automation-for-insurance-agencies" },
     { label: "Review request automation for service businesses", href: "/review-request-automation-for-service-businesses" },
+    { label: "Review request vs. referral request", href: "/review-request-vs-referral-request-for-service-businesses" },
     { label: "Quote follow-up automation", href: "/quote-follow-up-automation" },
     { label: "All guides", href: "/guides" },
   ],

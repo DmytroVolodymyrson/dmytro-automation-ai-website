@@ -272,6 +272,7 @@ const data: DecisionPageData = {
     { label: "Review automation for law firms", href: "/review-request-automation-for-law-firms" },
     { label: "Review automation for cleaning companies", href: "/review-request-automation-for-cleaning-companies" },
     { label: "Referral request automation", href: "/referral-request-automation-for-service-businesses" },
+    { label: "Review request vs. referral request", href: "/review-request-vs-referral-request-for-service-businesses" },
     { label: "All guides", href: "/guides" },
   ],
 };

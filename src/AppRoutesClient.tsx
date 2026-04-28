@@ -265,6 +265,7 @@ const InstantLeadResponse = lazy(() => import("./pages/InstantLeadResponse"));
 const ContactFormLeadFollowUpAutomation = lazy(() => import("./pages/ContactFormLeadFollowUpAutomation"));
 const ReviewRequestAutomationForServiceBusinesses = lazy(() => import("./pages/ReviewRequestAutomationForServiceBusinesses"));
 const ReferralRequestAutomationForServiceBusinesses = lazy(() => import("./pages/ReferralRequestAutomationForServiceBusinesses"));
+const ReviewRequestVsReferralRequestForServiceBusinesses = lazy(() => import("./pages/ReviewRequestVsReferralRequestForServiceBusinesses"));
 const MissedCallTextBackForServiceBusinesses = lazy(() => import("./pages/MissedCallTextBackForServiceBusinesses"));
 const EstimateFollowUpAutomationForServiceBusinesses = lazy(() => import("./pages/EstimateFollowUpAutomationForServiceBusinesses"));
 const EstimateFollowUpVsQuoteFollowUpForServiceBusinesses = lazy(() => import("./pages/EstimateFollowUpVsQuoteFollowUpForServiceBusinesses"));
@@ -696,6 +697,7 @@ const AppRoutesClient = () => (
       <Route path="/contact-form-lead-follow-up-automation" element={<ContactFormLeadFollowUpAutomation />} />
       <Route path="/review-request-automation-for-service-businesses" element={<ReviewRequestAutomationForServiceBusinesses />} />
       <Route path="/referral-request-automation-for-service-businesses" element={<ReferralRequestAutomationForServiceBusinesses />} />
+      <Route path="/review-request-vs-referral-request-for-service-businesses" element={<ReviewRequestVsReferralRequestForServiceBusinesses />} />
       <Route path="/missed-call-text-back-for-service-businesses" element={<MissedCallTextBackForServiceBusinesses />} />
       <Route path="/estimate-follow-up-automation-for-service-businesses" element={<EstimateFollowUpAutomationForServiceBusinesses />} />
       <Route path="/estimate-follow-up-vs-quote-follow-up-for-service-businesses" element={<EstimateFollowUpVsQuoteFollowUpForServiceBusinesses />} />

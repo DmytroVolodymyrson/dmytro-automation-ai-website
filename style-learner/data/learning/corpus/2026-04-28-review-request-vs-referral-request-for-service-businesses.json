@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-review-request-vs-referral-request-for-service-businesses",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: Review Request vs. Referral Request for Service Businesses\nBody: A lot of service businesses know they should do more after a job is finished, but they lump two different asks into one messy follow-up. A review request is about public proof. A referral request is about private introductions. Both matter, but they do different jobs, land at different moments, and break for different reasons. Review-request automation helps the business turn completed work into cleaner reputation signals without pushing unhappy customers toward a public review too early. Referral-request automation helps the business turn good completed work into neighbor, friend, colleague, or repeat-project introductions while trust is still warm. If you try to force both asks into one generic message, you usually weaken both.\nSub: Below: where each workflow fits, when one should come before the other, how to keep the asks separate without losing momentum, what proof honestly supports the comparison, and which post-job layer is the cleaner first build for most service businesses.\n\n### Core sections\n- What each workflow is actually trying to fix\n- Side-by-side comparison\n- When each one should come first\n- Good fit / bad fit signals\n- How businesses get this wrong\n- A simple way to decide\n- What proof honestly supports this comparison\n\n### FAQ\nSubhead: Practical questions about review requests vs. referral requests for service businesses\nTopics: the real difference between the two workflows, which post-job ask most service businesses should build first, whether both workflows can coexist without duplicating each other, realistic cost range for a focused build, and what has to be fixed before either workflow is automated.\n\n### Final CTA\nHeading: Need help choosing the right post-job ask first?\nBody: Book a 30-minute call. We will look at how your business closes jobs today, where trust or advocacy is leaking afterward, whether public reviews or private introductions deserve to come first, and what the smallest useful workflow would actually include.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the exact buyer decision was already implied by the live review-request and referral-request parent pages, plus the tracked prompt about keeping referral asks separate from review asks in a post-job workflow."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the framing materially distinct from `/review-request-automation-for-service-businesses` by staying on workflow selection and public-proof timing, and distinct from `/referral-request-automation-for-service-businesses` by staying on advocacy timing and private-introduction routing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses disciplined adjacent proof only: the two live horizontal parent pages, nearby vertical review/referral pages, and the published e-commerce CRM lifecycle case study for milestone-based routing and human handoff."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: public proof vs. private introductions, unhappy-reply routing vs. warm-opportunity routing, timing discipline, and choosing the smallest post-job workflow that actually fixes the growth leak."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T20:56:51.035Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        9,
+        1,
+        2,
+        3
+      ],
+      "avgSentenceLength": 21.3,
+      "sentenceLengthRange": [
+        5,
+        49
+      ],
+      "totalWords": 320
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Review Request vs.",
+      "wordCount": 5,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need help choosing the right post-job ask first?\nBody: Book a 30-minute call. We will look at how your business closes jobs today, where trust or advocacy is leaking afterward, whether public reviews or private introductions deserve to come first, and what the smallest useful workflow would actually include.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 13,
+      "commas": 19,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.36
+    },
+    "vocabulary": {
+      "distinctWords": 171,
+      "totalWords": 320,
+      "topWords": [
+        [
+          "-",
+          7
+        ],
+        [
+          "businesses",
+          6
+        ],
+        [
+          "service",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "first",
+          5
+        ],
+        [
+          "review",
+          4
+        ],
+        [
+          "request",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "different",
+          4
+        ],
+        [
+          "into",
+          4
+        ],
+        [
+          "one",
+          4
+        ],
+        [
+          "both",
+          4
+        ],
+        [
+          "each",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "referral",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/insurance-claim-follow-up-for-roofing-companies` — a new roofing workflow child page focused on keeping insurance-dependent jobs moving through adjuster delays, supplements, approvals, and homeowner uncertainty without pretending automation can replace claim judgment. It closes a real gap inside the live roofing cluster between the broader parent page, estimate follow-up, and booked-job scheduling pages. Previous: `/n8n-automation-setup-for-small-business`.)
+Last updated: 2026-04-28 (shipped `/review-request-vs-referral-request-for-service-businesses` — a new post-job workflow comparison page that answers a real buyer decision already implied by the live review and referral pages: should a service business ask for public proof first or private introductions first? It stays distinct by focusing on workflow selection, timing, and reply routing rather than re-explaining either parent page. Previous: `/insurance-claim-follow-up-for-roofing-companies`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 318.
+**Total live GEO pages tracked here:** 319.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -26,6 +26,7 @@ Last updated: 2026-04-28 (shipped `/insurance-claim-follow-up-for-roofing-compan
 | AI Lead Follow-Up ROI (SMB) | `/ai-lead-follow-up-roi-small-business` | Workflow / ROI page | Live |
 | Review Request Automation (Service Businesses) | `/review-request-automation-for-service-businesses` | Workflow parent page | Live |
 | Referral Request Automation (Service Businesses) | `/referral-request-automation-for-service-businesses` | Workflow parent page | Live |
+| Review Request vs. Referral Request (Service Businesses) | `/review-request-vs-referral-request-for-service-businesses` | Workflow comparison page | Live |
 | Missed Call Text-Back (Service Businesses) | `/missed-call-text-back-for-service-businesses` | Workflow parent page | Live |
 | Missed Call Text-Back Cost (SMB) | `/missed-call-text-back-cost-small-business` | Workflow / service cost page | Live |
 | Missed Call Text-Back ROI (SMB) | `/missed-call-text-back-roi-small-business` | Workflow / ROI page | Live |
@@ -330,16 +331,16 @@ Last updated: 2026-04-28 (shipped `/insurance-claim-follow-up-for-roofing-compan
 
 ## Next Pages
 
-This run started from a fresh broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, `scripts/geo-prompts.json`, and the live route/page set. The strongest clean gap was the missing roofing insurance-claim workflow child: a page that sits between the broad roofing parent and the already-live estimate and scheduling children, focused specifically on keeping insurance-dependent jobs warm during adjuster delays, supplement review, approvals, and homeowner uncertainty. Shipping it closes a real workflow-stage gap without pretending there is already a dedicated roofing insurance case study.
+This run started from a fresh broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, `scripts/geo-prompts.json`, and the live route/page set. The strongest clean gap was the missing service-business post-job comparison between review asks and referral asks. The exact buyer question was already implied by the live parent workflow pages and tracked prompts, but there was still no page cleanly explaining when a business should prioritize public-proof automation versus private-advocacy automation. Shipping it closes a real buyer-decision gap without inventing new proof or forcing a thin same-cluster vertical child.
 
 The next run should:
 
-1. **Keep manual GSC follow-through moving** on refreshed priority URLs and newly shipped roofing pages instead of treating publish alone as the finish line.
-2. **Start from another fresh broad reconciliation before naming a new net-new page** so the queue does not drift back into stale same-cluster inertia or over-credit the mature roofing cluster with another automatic follow-up.
-3. **Only force another same-cluster roofing child if an exact distinct buyer query still survives that reconciliation**; otherwise leave the queue in watchlist mode instead of manufacturing thin overlap.
+1. **Keep manual GSC follow-through moving** on refreshed priority URLs and newly shipped workflow comparison pages instead of treating publish alone as the finish line.
+2. **Start from another fresh broad reconciliation before naming a new net-new page** so the queue does not drift into stale same-cluster inertia or assume the service-business post-job cluster automatically deserves another sibling.
+3. **Only force another same-cluster post-job comparison if an exact distinct buyer query still survives that reconciliation**; otherwise leave the queue in watchlist mode instead of manufacturing thin overlap.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
 | 1 | Manual GSC follow-through on refreshed priority URLs | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |
-| 2 | Fresh broad reconciliation before another net-new page | The repo is now dense enough that stale docs can still make already-live pages look missing or can over-credit the just-shipped roofing cluster with the next run by default. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
-| 3 | Watchlist: next same-cluster roofing child only if a truly distinct buyer query survives review | The roofing cluster is strong now, but a forced follow-up page would risk sliding into thin overlap unless a clearly different workflow-stage or buyer-decision query still remains after this new insurance-claim child. | Verify any new roofing candidate is still absent from routes, pages, sitemap, llm files, and geo prompts, and confirm it answers a materially different buyer decision than the live roofing parent, first-project, lead-follow-up, estimate, scheduling, retention, phone, and review pages. |
+| 2 | Fresh broad reconciliation before another net-new page | The repo is dense enough that stale docs can still make already-live pages look missing or can over-credit the just-shipped service-business post-job cluster with the next run by default. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
+| 3 | Watchlist: next same-cluster post-job comparison only if a truly distinct buyer query survives review | The review/referral cluster is stronger now, but a forced follow-up page would risk sliding into thin overlap unless a clearly different buyer decision still remains after this comparison page. | Verify any same-cluster candidate is still absent from routes, pages, sitemap, llm files, and geo prompts, and confirm it answers a materially different decision than the live review-request, referral-request, and new review-vs-referral comparison pages. |

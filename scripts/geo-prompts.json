@@ -2048,6 +2048,18 @@
       ]
     },
     {
+      "id": "review-request-vs-referral-request-for-service-businesses",
+      "path": "/review-request-vs-referral-request-for-service-businesses",
+      "label": "Review Request vs. Referral Request for Service Businesses",
+      "prompts": [
+        "Review request vs referral request for service businesses",
+        "Should a service business automate review requests or referral requests first?",
+        "When should a service business separate review asks from referral asks in post-job follow-up?",
+        "What is the difference between review request automation and referral request automation?",
+        "How do I decide whether public reviews or private referrals should be the first post-job workflow?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-for-service-businesses",
       "path": "/missed-call-text-back-for-service-businesses",
       "label": "Missed Call Text-Back for Service Businesses",
