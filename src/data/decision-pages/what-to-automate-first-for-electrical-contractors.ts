@@ -326,6 +326,7 @@ const data: DecisionPageData = {
     "No obligation. No giant-scope pitch. Just a practical recommendation based on how your electrical contracting business actually runs.",
   relatedLinks: [
     { label: "AI automation for electrical contractors", href: "/ai-automation-for-electrical-contractors" },
+    { label: "Client reactivation automation for electrical contractors", href: "/client-reactivation-automation-for-electrical-contractors" },
     { label: "What to automate first for contractors", href: "/what-to-automate-first-for-contractors" },
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
     { label: "All guides", href: "/guides" },

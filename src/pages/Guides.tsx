@@ -1607,6 +1607,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Client Reactivation Automation for Electrical Contractors",
+    description:
+      "A narrower electrical retention workflow page focused on past panel-upgrade, troubleshooting, rewiring, and service-call clients — dormant-client recovery, realistic repeat-service timing, referral prompts, and fast office handoff when old customers need help again.",
+    href: "/client-reactivation-automation-for-electrical-contractors",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Insurance Agencies",
     description:
       "AI automation for insurance agencies. Lead follow-up, renewal reminders, quote follow-up, cross-sell campaigns, and client communication.",

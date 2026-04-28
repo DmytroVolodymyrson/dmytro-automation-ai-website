@@ -172,6 +172,7 @@ import AiPhoneAnsweringForElectricalContractors from "./pages/AiPhoneAnsweringFo
 import AiPhoneAnsweringVsVoicemailForElectricalContractors from "./pages/AiPhoneAnsweringVsVoicemailForElectricalContractors";
 import EstimateFollowUpAutomationForElectricalContractors from "./pages/EstimateFollowUpAutomationForElectricalContractors";
 import ReviewRequestAutomationForElectricalContractors from "./pages/ReviewRequestAutomationForElectricalContractors";
+import ClientReactivationAutomationForElectricalContractors from "./pages/ClientReactivationAutomationForElectricalContractors";
 import AppointmentSchedulingAndReminderAutomationForElectricalContractors from "./pages/AppointmentSchedulingAndReminderAutomationForElectricalContractors";
 import CrmAutomationSetupForContractors from "./pages/CrmAutomationSetupForContractors";
 import WhatToAutomateFirstForContractors from "./pages/WhatToAutomateFirstForContractors";
@@ -622,6 +623,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/appointment-scheduling-and-reminder-automation-for-electrical-contractors", element: <AppointmentSchedulingAndReminderAutomationForElectricalContractors /> },
   { path: "/estimate-follow-up-automation-for-electrical-contractors", element: <EstimateFollowUpAutomationForElectricalContractors /> },
   { path: "/review-request-automation-for-electrical-contractors", element: <ReviewRequestAutomationForElectricalContractors /> },
+  { path: "/client-reactivation-automation-for-electrical-contractors", element: <ClientReactivationAutomationForElectricalContractors /> },
   { path: "/client-onboarding-automation", element: <ClientOnboardingAutomation /> },
   {
     path: "/intake-forms-and-document-collection-automation-for-service-businesses",

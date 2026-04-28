@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 372 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 373 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -251,6 +251,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Lead Follow-Up for Electrical Contractors** — `/ai-lead-follow-up-for-electrical-contractors`
 - **Appointment Scheduling and Reminder Automation for Mortgage Brokers** — `/appointment-scheduling-and-reminder-automation-for-mortgage-brokers`
 - **Estimate Follow-Up Automation for Electrical Contractors** — `/estimate-follow-up-automation-for-electrical-contractors`
+- **Client Reactivation Automation for Electrical Contractors** — `/client-reactivation-automation-for-electrical-contractors`
 - **Estimate Follow-Up Automation for Plumbing Companies** — `/estimate-follow-up-automation-for-plumbing-companies`
 - **Missed Call Text-Back for Electrical Contractors** — `/missed-call-text-back-for-electrical-contractors`
 - **AI Phone Answering for Electrical Contractors** — `/ai-phone-answering-for-electrical-contractors`

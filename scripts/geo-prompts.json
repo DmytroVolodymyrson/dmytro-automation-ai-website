@@ -4353,6 +4353,18 @@
       ]
     },
     {
+      "id": "client-reactivation-automation-for-electrical-contractors",
+      "path": "/client-reactivation-automation-for-electrical-contractors",
+      "label": "Client Reactivation Automation for Electrical Contractors",
+      "prompts": [
+        "Client reactivation automation for electrical contractors",
+        "How can an electrical contractor bring back past service clients before the next electrical problem sends them to another electrician?",
+        "Best way for an electrical contractor to follow up with old panel-upgrade, troubleshooting, rewiring, generator, or service-call customers",
+        "Should an electrical contractor automate repeat-service follow-up after the first job is complete?",
+        "How should an electrical company time reactivation outreach for past customers without turning it into spam?"
+      ]
+    },
+    {
       "id": "ai-automation-for-solar-companies",
       "path": "/ai-automation-for-solar-companies",
       "label": "AI Automation for Solar Companies",

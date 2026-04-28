@@ -232,6 +232,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No obligation. No generic pitch. Just a practical conversation about your electrical contracting business.",
   relatedLinks: [
+    { label: "Client reactivation automation for electrical contractors", href: "/client-reactivation-automation-for-electrical-contractors" },
     { label: "AI automation for plumbing companies", href: "/ai-automation-for-plumbing-companies" },
     { label: "AI automation for HVAC companies", href: "/ai-automation-for-hvac-companies" },
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },

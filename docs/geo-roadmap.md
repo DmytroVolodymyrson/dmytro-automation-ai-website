@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/client-reactivation-automation-for-plumbing-companies`, a net-new plumbing retention child page that turns the broader plumbing parent's repeat-opportunity language into a distinct workflow page focused on dormant client recovery, realistic repeat-service timing, and fast office handoff when old customers need help again.)
+Last updated: 2026-04-28 (shipped `/client-reactivation-automation-for-electrical-contractors`, a net-new electrical retention child page that turns the broader electrical parent's repeat-opportunity language into a distinct workflow page focused on dormant client recovery, realistic repeat-service timing, and fast office handoff when old customers need help again.)
 
 ## Live GEO Assets
 
@@ -189,6 +189,7 @@ Last updated: 2026-04-28 (shipped `/client-reactivation-automation-for-plumbing-
 | Estimate Follow-Up (Electrical) | `/estimate-follow-up-automation-for-electrical-contractors` | Vertical workflow page | Live |
 | Review Automation (Electrical) | `/review-request-automation-for-electrical-contractors` | Vertical workflow page | Live |
 | Appointment Scheduling (Electrical) | `/appointment-scheduling-and-reminder-automation-for-electrical-contractors` | Vertical workflow page | Live |
+| Client Reactivation (Electrical) | `/client-reactivation-automation-for-electrical-contractors` | Vertical workflow page | Live |
 | AI for Insurance Agencies | `/ai-automation-for-insurance-agencies` | Vertical category page | Live |
 | What to Automate First (Insurance) | `/what-to-automate-first-for-insurance-agencies` | Vertical decision page | Live |
 | Renewal Reminders (Insurance) | `/renewal-reminder-automation-for-insurance-agencies` | Vertical workflow page | Live |
@@ -314,15 +315,15 @@ Last updated: 2026-04-28 (shipped `/client-reactivation-automation-for-plumbing-
 
 ## Next Pages
 
-This run did the required broad reconciliation and found one clean plumbing-cluster gap that still survived routes, prompts, guides, sitemap, llm, and planning-doc verification: `/client-reactivation-automation-for-plumbing-companies`. The broader plumbing parent already implied the retention problem, the cluster had strong internal-linking value, and the page stayed materially distinct from lead follow-up, estimate follow-up, booked-job communication, and phone-recovery pages.
+This run did the required broad reconciliation and found one clean electrical-cluster gap that still survived routes, prompts, guides, sitemap, llm, and planning-doc verification: `/client-reactivation-automation-for-electrical-contractors`. The broader electrical parent already implied the retention problem, the cluster had strong internal-linking value, and the page stayed materially distinct from lead follow-up, estimate follow-up, booked-job communication, review requests, and phone-recovery pages.
 
 The next run should:
 
-1. **Verify live/indexing behavior** for `/client-reactivation-automation-for-plumbing-companies` after deploy propagation, then request indexing manually in GSC.
-2. **Re-check adjacent home-service retention gaps** before forcing another page, with `/client-reactivation-automation-for-electrical-contractors` as the first candidate to verify against routes, prompts, guides, sitemap, llm, and planning docs.
+1. **Verify live/indexing behavior** for `/client-reactivation-automation-for-electrical-contractors` after deploy propagation, then request indexing manually in GSC.
+2. **Run a fresh broad prompts/route reconciliation pass** before naming another net-new page, because the mature clusters are now dense enough that stale backlog assumptions are the main risk.
 3. **If no equally clean net-new page survives full verification, fall back to a bounded priority-page refresh** instead of forcing a thin duplicate.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | `/client-reactivation-automation-for-electrical-contractors` | The electrical cluster is mature, already covers lead follow-up / estimate / scheduling / phone / review layers, and still appears to lack the parallel dormant-client recovery child that just shipped cleanly for plumbing. | Verify the exact slug is still absent from routes, pages, prompts, guides, sitemap, llm, and planning docs before shipping. |
-| 2 | Broad prompts/route reconciliation pass | The live site and prompt inventory are mature enough that stale backlog assumptions are still the biggest risk after any one cluster ship. | Re-run the live-routes vs prompts/guides/sitemap/llm/planning-doc diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
+| 1 | Broad prompts/route reconciliation pass | The live site and prompt inventory are mature enough that stale backlog assumptions are still the biggest risk after another adjacent home-service retention ship. | Re-run the live-routes vs prompts/guides/sitemap/llm/planning-doc diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
+| 2 | Bounded priority-page refresh | If reconciliation does not leave one clearly safe net-new page, the better move is to strengthen one discovered-not-indexed priority URL instead of forcing another same-cluster child. | Re-check `docs/geo-priority-urls.md`, current live copy, and internal-link gaps before choosing the refresh target. |
