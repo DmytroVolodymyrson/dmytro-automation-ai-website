@@ -265,6 +265,7 @@ const ContactFormAutoresponderVsFullLeadFollowUp = lazy(() => import("./pages/Co
 const QuoteFollowUp = lazy(() => import("./pages/QuoteFollowUp"));
 const ClientReactivation = lazy(() => import("./pages/ClientReactivation"));
 const ClientReactivationAutomationForServiceBusinesses = lazy(() => import("./pages/ClientReactivationAutomationForServiceBusinesses"));
+const ClientReactivationCostSmallBusiness = lazy(() => import("./pages/ClientReactivationCostSmallBusiness"));
 const NoShowReduction = lazy(() => import("./pages/NoShowReduction"));
 const AiAppointmentSetterVsReceptionist = lazy(() => import("./pages/AiAppointmentSetterVsReceptionist"));
 const AiAppointmentSetterVsVirtualAssistant = lazy(() => import("./pages/AiAppointmentSetterVsVirtualAssistant"));
@@ -684,6 +685,7 @@ const AppRoutesClient = () => (
       <Route path="/quote-follow-up-automation" element={<QuoteFollowUp />} />
       <Route path="/client-reactivation-automation" element={<ClientReactivation />} />
       <Route path="/client-reactivation-automation-for-service-businesses" element={<ClientReactivationAutomationForServiceBusinesses />} />
+      <Route path="/client-reactivation-cost-small-business" element={<ClientReactivationCostSmallBusiness />} />
       <Route path="/no-show-reduction-automation" element={<NoShowReduction />} />
       <Route path="/ai-appointment-setter-vs-receptionist" element={<AiAppointmentSetterVsReceptionist />} />
       <Route path="/ai-appointment-setter-vs-virtual-assistant" element={<AiAppointmentSetterVsVirtualAssistant />} />

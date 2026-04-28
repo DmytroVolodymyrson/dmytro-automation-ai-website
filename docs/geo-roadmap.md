@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/missed-call-text-back-vs-ai-phone-answering-for-accounting-firms`, a net-new accounting comparison page that isolates the cleaner lighter-vs-heavier buyer decision between SMS-first missed-call recovery and live AI phone answering inside an already-proven accounting phone cluster.)
+Last updated: 2026-04-28 (shipped `/client-reactivation-cost-small-business`, a cost page for small businesses evaluating dormant-client recovery automation — realistic build ranges, monthly running costs, CRM cleanup pricing, segmentation complexity, and honest fit/not-fit framing.)
 
 ## Live GEO Assets
 
@@ -32,6 +32,7 @@ Last updated: 2026-04-28 (shipped `/missed-call-text-back-vs-ai-phone-answering-
 | Quote Follow-Up Automation (Service Businesses) | `/quote-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
 | Appointment Scheduling & Reminder Automation (Service Businesses) | `/appointment-scheduling-and-reminder-automation-for-service-businesses` | Workflow parent page | Live |
 | Client Reactivation Automation (Service Businesses) | `/client-reactivation-automation-for-service-businesses` | Workflow parent page | Live |
+| Client Reactivation Cost (SMB) | `/client-reactivation-cost-small-business` | Category cost page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Category cost page | Live |
 | AI Voice Agent Setup Cost (SMB) | `/ai-voice-agent-setup-cost-small-business` | Category cost page | Live |
 | AI Automation Maintenance & Support (SMB) | `/ai-automation-maintenance-and-support-small-business` | Strategy / support page | Live |
@@ -316,15 +317,15 @@ Last updated: 2026-04-28 (shipped `/missed-call-text-back-vs-ai-phone-answering-
 
 ## Next Pages
 
-This run found one still-clean gap inside the accounting phone cluster: `/missed-call-text-back-vs-ai-phone-answering-for-accounting-firms`. The site already had the broader accounting parent, the first-project page, the lighter missed-call text-back workflow page, and the heavier AI-phone-answering plus AI-phone-vs-voicemail siblings. What was still missing was the direct buyer decision between the lighter SMS-first recovery layer and the heavier live-answering layer. That made this page materially distinct instead of a thin rewrite.
+This run shipped `/client-reactivation-cost-small-business`, the clean horizontal pricing child under the already-live client-reactivation cluster. The site already had the generic reactivation page, the service-businesses parent, strong adjacent proof from HVAC database reactivation plus the e-commerce CRM case study, and multiple vertical reactivation children. What was still missing was the explicit pricing-stage buyer page for owners asking what a dormant-client recovery build should actually cost before they buy broader lifecycle automation.
 
 The next run should:
 
-1. **Verify live/indexing behavior** for `/missed-call-text-back-vs-ai-phone-answering-for-accounting-firms` after deploy propagation, then request indexing manually in GSC.
-2. **Run a fresh broad prompts/route reconciliation pass** before naming another net-new page, because the mature clusters are now dense enough that stale backlog assumptions are still the main risk.
+1. **Verify live/indexing behavior** for `/client-reactivation-cost-small-business` after deploy propagation, then request indexing manually in GSC.
+2. **Run a fresh broad prompts/route reconciliation pass** before naming another net-new page, because the mature workflow and vertical clusters are now dense enough that stale backlog assumptions remain the biggest risk.
 3. **If no equally clean net-new page survives full verification, fall back to a bounded priority-page refresh** instead of forcing a thin duplicate.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Broad prompts/route reconciliation pass | The live site and prompt inventory are mature enough that the next safe win is more likely to come from a fresh cross-cluster verification pass than from assuming another adjacent accounting child still survives unchanged. | Re-run the live-routes vs prompts/guides/sitemap/llm/planning-doc diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
+| 1 | Broad prompts/route reconciliation pass | The live site and prompt inventory are mature enough that the next safe win is more likely to come from a fresh cross-cluster verification pass than from assuming another adjacent child page is still clean and distinct. | Re-run the live-routes vs prompts/guides/sitemap/llm/planning-doc diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
 | 2 | Bounded priority-page refresh | If reconciliation does not leave one clearly safe net-new page, the better move is to strengthen one discovered-not-indexed priority URL instead of forcing another same-cluster child. | Re-check `docs/geo-priority-urls.md`, current live copy, and internal-link gaps before choosing the refresh target. |

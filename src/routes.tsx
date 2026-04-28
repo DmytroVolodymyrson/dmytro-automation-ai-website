@@ -264,6 +264,7 @@ import ContactFormAutoresponderVsFullLeadFollowUp from "./pages/ContactFormAutor
 import QuoteFollowUp from "./pages/QuoteFollowUp";
 import ClientReactivation from "./pages/ClientReactivation";
 import ClientReactivationAutomationForServiceBusinesses from "./pages/ClientReactivationAutomationForServiceBusinesses";
+import ClientReactivationCostSmallBusiness from "./pages/ClientReactivationCostSmallBusiness";
 import NoShowReduction from "./pages/NoShowReduction";
 import AiAppointmentSetterVsReceptionist from "./pages/AiAppointmentSetterVsReceptionist";
 import AiAppointmentSetterVsVirtualAssistant from "./pages/AiAppointmentSetterVsVirtualAssistant";
@@ -750,6 +751,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/quote-follow-up-automation", element: <QuoteFollowUp /> },
   { path: "/client-reactivation-automation", element: <ClientReactivation /> },
   { path: "/client-reactivation-automation-for-service-businesses", element: <ClientReactivationAutomationForServiceBusinesses /> },
+  { path: "/client-reactivation-cost-small-business", element: <ClientReactivationCostSmallBusiness /> },
   { path: "/no-show-reduction-automation", element: <NoShowReduction /> },
   { path: "/ai-appointment-setter-vs-receptionist", element: <AiAppointmentSetterVsReceptionist /> },
   { path: "/ai-appointment-setter-vs-virtual-assistant", element: <AiAppointmentSetterVsVirtualAssistant /> },

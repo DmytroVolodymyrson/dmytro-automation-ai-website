@@ -2085,6 +2085,18 @@
       ]
     },
     {
+      "id": "client-reactivation-cost-small-business",
+      "path": "/client-reactivation-cost-small-business",
+      "label": "Client Reactivation Cost for Small Business",
+      "prompts": [
+        "What does client reactivation automation cost for a small business?",
+        "How much should a small business budget for dormant-client recovery automation?",
+        "What affects the price of client reactivation automation?",
+        "Is client reactivation automation worth paying for before fixing lead follow-up?",
+        "How much does CRM cleanup add to client reactivation automation cost?"
+      ]
+    },
+    {
       "id": "appointment-scheduling-and-reminder-automation-for-service-businesses",
       "path": "/appointment-scheduling-and-reminder-automation-for-service-businesses",
       "label": "Appointment Scheduling and Reminder Automation for Service Businesses",

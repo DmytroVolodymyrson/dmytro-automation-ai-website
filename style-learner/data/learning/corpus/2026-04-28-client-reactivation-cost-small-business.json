@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-client-reactivation-cost-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: Client Reactivation Cost for Small Business\nBody: Most small businesses should expect a focused client-reactivation build to land somewhere between $1.5K and $4K, with monthly running costs often in the $25-$120 range before heavier SMS volume, CRM add-ons, or ongoing support. The useful question is not \"how cheap can I get a win-back campaign?\" It is \"what level of reactivation problem am I actually solving?\" A business that only needs a simple check-in message to recent past clients should not buy the same system as a business that needs multi-segment dormant-client identification, job-history-based outreach timing, multi-channel sequences, CRM cleanup, and human-handoff routing when old clients reply. This page breaks down realistic cost ranges for client-reactivation automation specifically — not broad retention platforms, and not one-off email blasts — so you can budget the right first build instead of overbuying or underbuilding.\nSub: Below: what different reactivation builds usually cost, what those budget bands actually buy, what drives the price up, where small businesses overspend, and when the math makes sense versus when a simpler manual check-in is enough.\n\n### Core sections\n- What client-reactivation automation usually costs\n- What those budget bands usually buy in practice\n- What makes the price go up\n- When this is worth paying for — and when it is overkill\n- How to budget this without wasting money\n- Proof and adjacent proof\n- What small businesses usually get wrong about reactivation pricing\n\n### FAQ\nSubhead: Practical answers about budgeting client-reactivation automation for a small business\nTopics: realistic build ranges, how this differs from the broader reactivation pages, what usually makes the cost rise, whether to start with a smaller segment first, and how to judge whether the investment is worth it.\n\n### Final CTA\nHeading: Want a realistic quote for a client-reactivation workflow?\nBody: Book a 30-minute call. We will look at your past-client data, assess how much CRM cleanup is really needed, and give you a fixed-price range for the narrowest reactivation build worth doing first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the live reactivation cluster already had the generic page, the service-businesses parent, and multiple vertical children, but it still lacked the explicit pricing-stage buyer page for owners asking what dormant-client recovery automation should cost before buying broader lifecycle work."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept it distinct from `/client-reactivation-automation` and `/client-reactivation-automation-for-service-businesses` by centering the buying decision on budget ranges, CRM cleanup scope, segmentation complexity, channel mix, and handoff logic rather than on general workflow education."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used only on-site proof and honest adjacent proof: `/hvac-database-reactivation`, the published `/case-studies/ecommerce-crm-automation`, and the existing vertical client-reactivation children already live on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and anti-hype: real price bands, explicit fit / not-fit framing, warnings against buying broad lifecycle complexity too early, and no invented retention benchmarks."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T12:27:18.803Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 36.7,
+      "sentenceLengthRange": [
+        5,
+        65
+      ],
+      "totalWords": 330
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Client Reactivation Cost for Small Business\nBody: Most small businesses should expect a focused client-reactivation build to land somewhere between $1.5K and $4K, with monthly running costs often in the $25-$120 range before heavier SMS volume, CRM add-ons, or ongoing support.",
+      "wordCount": 43,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a realistic quote for a client-reactivation workflow?\nBody: Book a 30-minute call. We will look at your past-client data, assess how much CRM cleanup is really needed, and give you a fixed-price range for the narrowest reactivation build worth doing first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 18,
+      "emDashes": 3,
+      "enDashes": 0,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 3,
+      "colon": 8,
+      "commasPerSentence": 2.25
+    },
+    "vocabulary": {
+      "distinctWords": 185,
+      "totalWords": 330,
+      "topWords": [
+        [
+          "what",
+          9
+        ],
+        [
+          "-",
+          7
+        ],
+        [
+          "reactivation",
+          6
+        ],
+        [
+          "small",
+          5
+        ],
+        [
+          "client-reactivation",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "usually",
+          5
+        ],
+        [
+          "cost",
+          4
+        ],
+        [
+          "business",
+          4
+        ],
+        [
+          "build",
+          4
+        ],
+        [
+          "not",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "budget",
+          4
+        ],
+        [
+          "businesses",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

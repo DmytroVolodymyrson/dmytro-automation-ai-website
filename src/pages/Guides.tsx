@@ -743,6 +743,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Client Reactivation Cost for Small Business",
+    description:
+      "What should a small business actually budget for dormant-client recovery automation? Practical pricing ranges for simple check-in sequences, segment-based outreach, CRM cleanup, multi-channel campaigns, and when the investment pays off versus when a manual check-in is enough.",
+    href: "/client-reactivation-cost-small-business",
+    category: "workflows",
+  },
+  {
     title: "No-Show Reduction Automation",
     description:
       "Confirmation requests, timed reminders, easy rescheduling, and deposit workflows that cut no-shows by 50% or more.",
