@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (bounded homepage internal-linking refresh: added a "Start here" discovery section on `/` with direct card links to the four highest-value discovered-not-indexed pages — `/guides`, `/case-studies`, `/ai-automation-consultant-small-business`, `/best-ai-automation-for-service-businesses`. No net-new GEO page shipped. The live-assets table below is still the older 297-row tracked subset and should be reconciled against the larger live route set in a follow-up pass.)
+Last updated: 2026-04-28 (shipped `/ai-automation-consultant-vancouver` as a bounded net-new geo page. Chosen because the original planned buyer-intent backlog is largely exhausted, the existing Calgary/Edmonton/Alberta/Canada geo consultant pattern is already proven, and Vancouver is still a believable North American remote-service market with strong adjacent proof from the site's restaurant, real-estate, and service-business clusters. The live-assets table below is still a partial tracked subset of the larger live route set and should be reconciled in a later cleanup pass.)
 
 ## Live GEO Assets
 
@@ -37,6 +37,7 @@ Last updated: 2026-04-28 (bounded homepage internal-linking refresh: added a "St
 | AI Automation Maintenance & Support (SMB) | `/ai-automation-maintenance-and-support-small-business` | Strategy / support page | Live |
 | AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo page | Live |
 | AI Consultant Edmonton | `/ai-automation-consultant-edmonton` | Geo page | Live |
+| AI Consultant Vancouver | `/ai-automation-consultant-vancouver` | Geo page | Live |
 | AI Consultant Alberta | `/ai-automation-consultant-alberta` | Geo page | Live |
 | AI Consultant Canada | `/ai-automation-consultant-canada` | Geo page | Live |
 | Hire Consultant vs Agency | `/hire-ai-automation-consultant-vs-agency` | Decision / comparison | Live |
@@ -307,12 +308,13 @@ Last updated: 2026-04-28 (bounded homepage internal-linking refresh: added a "St
 
 ## Next Pages
 
-This run shipped a bounded homepage/discovery refresh — not a net-new page. The homepage now has strong internal links into the four discovered-not-indexed priority pages. The next run should:
+This run shipped `/ai-automation-consultant-vancouver`, extending the proven consultant-geo cluster without inventing a new page type. The next run should:
 
-1. **Re-check GSC status** for `/guides`, `/case-studies`, `/ai-automation-consultant-small-business`, and `/best-ai-automation-for-service-businesses` after this deploy lands. If any are still discovered-not-indexed, request indexing manually in GSC.
-2. **Run broad reconciliation** across routes, prompts, guides, sitemap, and llm surfaces before naming a net-new page. The drift between `scripts/geo-prompts.json`, `docs/geo-tracking.md`, `src/pages/Guides.tsx`, `public/sitemap.xml`, and the live route/component set still needs a cleanup pass.
-3. **Only then** identify the next safe net-new page — one that fills a clearly distinct buyer-intent gap and survives full route/file verification.
+1. **Verify live/indexing behavior** for `/ai-automation-consultant-vancouver` after deploy propagation, then request indexing manually in GSC if it stays discovered-not-indexed.
+2. **Run broad reconciliation** across routes, prompts, guides, sitemap, and llm surfaces before naming a more speculative workflow page. The drift between `scripts/geo-prompts.json`, `docs/geo-tracking.md`, `src/pages/Guides.tsx`, `public/sitemap.xml`, and the full live route/component set still deserves a cleanup pass.
+3. **Only then** decide whether the next bounded net-new ship is another geo consultant page or a newly justified child workflow page that survives full route/file verification.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Broad prompts/route reconciliation pass | Drift between tracking docs, prompts, guides, sitemap, and llm surfaces weakens internal discovery even when content exists. | Re-run the live-routes vs prompts/guides/sitemap/llm diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
+| 1 | `/ai-automation-consultant-toronto` | Same proven geo-consultant page pattern as Calgary/Edmonton/Vancouver, with clearly commercial local-intent phrasing and believable remote-service delivery. | Re-check that no cleaner planned child workflow page survives full route/prompts reconciliation first, and keep the copy honest about remote delivery + adjacent proof rather than invented Toronto-specific case studies. |
+| 2 | Broad prompts/route reconciliation pass | Drift between tracking docs, prompts, guides, sitemap, and llm surfaces still weakens internal discovery even when content exists. | Re-run the live-routes vs prompts/guides/sitemap/llm diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |

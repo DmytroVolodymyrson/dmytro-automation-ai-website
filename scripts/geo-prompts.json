@@ -285,6 +285,18 @@
       ]
     },
     {
+      "id": "ai-automation-consultant-vancouver",
+      "path": "/ai-automation-consultant-vancouver",
+      "label": "AI Automation Consultant Vancouver",
+      "prompts": [
+        "AI automation consultant in Vancouver",
+        "Who can help my Vancouver business automate workflows?",
+        "Best AI automation services for small businesses in Vancouver BC",
+        "Vancouver business automation consulting",
+        "AI consultant for real estate company in Vancouver"
+      ]
+    },
+    {
       "id": "ai-automation-for-hvac-companies",
       "path": "/ai-automation-for-hvac-companies",
       "label": "AI Automation for HVAC Companies",
