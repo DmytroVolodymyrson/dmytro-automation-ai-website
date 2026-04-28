@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-best-ai-automation-service-businesses-proof-routing",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Section: Match the proof to your bottleneck\nSubtitle: Each case study below maps to a specific service-business bottleneck. Read the one that matches your situation first, then come back to pick your automation.\n\n#### Card 1: Losing calls & after-hours leads\nParis Cafe went from 0% to 100% after-hours call coverage with an AI voice agent. Web lead response time dropped from hours to under 60 seconds, and management freed up ~15 hours per week. Read this if unanswered calls are your biggest revenue leak.\nLinks: Paris Cafe voice agent case study, AI appointment setter guide\n\n#### Card 2: Leads coming in but not converting\nWheelsFeels automated follow-up for 5,600+ leads and saw a 185% conversion lift through CRM segmentation and instant response. Read this if your leads go cold because nobody follows up consistently.\nLinks: WheelsFeels CRM automation case study, AI lead follow-up guide\n\n#### Card 3: Need to generate leads, not just convert them\nThe Instagram lead-generation system automated scraping, enrichment, qualification, and routing at volume - turning a manual outbound process into a hands-off pipeline. Read this if your bottleneck is lead volume, not lead handling.\nLinks: Instagram lead generation case study, All case studies",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "addition",
+      "text": "",
+      "description": "Added an upper-page proof router to strengthen internal links on a discovered-not-indexed priority page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Each card starts with a concrete bottleneck, then grounds the recommendation in named proof and specific outcomes."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the tone direct and buyer-oriented: short sentences, measurable claims, and no generic AI hype."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Expands proof coverage beyond Paris Cafe and WheelsFeels by adding the Instagram case study as the lead-generation angle."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the section bounded and useful for both readers and crawlers."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T15:22:14.298Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        2,
+        4,
+        3,
+        3
+      ],
+      "avgSentenceLength": 16.2,
+      "sentenceLengthRange": [
+        9,
+        32
+      ],
+      "totalWords": 194
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Section: Match the proof to your bottleneck\nSubtitle: Each case study below maps to a specific service-business bottleneck.",
+      "wordCount": 18,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "#### Card 3: Need to generate leads, not just convert them\nThe Instagram lead-generation system automated scraping, enrichment, qualification, and routing at volume - turning a manual outbound process into a hands-off pipeline. Read this if your bottleneck is lead volume, not lead handling.\nLinks: Instagram lead generation case study, All case studies",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "result",
+        "closer"
+      ],
+      "template": "opener | product-pitch | result | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 11,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 1,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 8,
+      "commasPerSentence": 1.1
+    },
+    "vocabulary": {
+      "distinctWords": 126,
+      "totalWords": 194,
+      "topWords": [
+        [
+          "your",
+          6
+        ],
+        [
+          "case",
+          5
+        ],
+        [
+          "leads",
+          5
+        ],
+        [
+          "lead",
+          5
+        ],
+        [
+          "study",
+          4
+        ],
+        [
+          "read",
+          4
+        ],
+        [
+          "bottleneck",
+          3
+        ],
+        [
+          "card",
+          3
+        ],
+        [
+          "ai",
+          3
+        ],
+        [
+          "this",
+          3
+        ],
+        [
+          "if",
+          3
+        ],
+        [
+          "links",
+          3
+        ],
+        [
+          "not",
+          3
+        ],
+        [
+          "automation",
+          2
+        ],
+        [
+          "calls",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": [
+        "adds-trust-signals"
+      ]
+    }
+  }
+}

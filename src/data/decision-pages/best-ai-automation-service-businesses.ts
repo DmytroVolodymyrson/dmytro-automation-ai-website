@@ -78,6 +78,41 @@ const data: DecisionPageData = {
     },
     {
       type: "cards",
+      title: "Match the proof to your bottleneck",
+      subtitle:
+        "Each case study below maps to a specific service-business bottleneck. Read the one that matches your situation first — then come back to pick your automation.",
+      items: [
+        {
+          icon: Phone,
+          title: "Losing calls & after-hours leads",
+          body: "Paris Cafe went from 0% to 100% after-hours call coverage with an AI voice agent. Web lead response time dropped from hours to under 60 seconds, and management freed up ~15 hours per week. Read this if unanswered calls are your biggest revenue leak.",
+          links: [
+            { label: "Paris Cafe voice agent case study", href: "/case-studies/paris-cafe-voice-agent" },
+            { label: "AI appointment setter guide", href: "/ai-appointment-setter" },
+          ],
+        },
+        {
+          icon: MessageSquare,
+          title: "Leads coming in but not converting",
+          body: "WheelsFeels automated follow-up for 5,600+ leads and saw a 185% conversion lift through CRM segmentation and instant response. Read this if your leads go cold because nobody follows up consistently.",
+          links: [
+            { label: "WheelsFeels CRM automation case study", href: "/case-studies/ecommerce-crm-automation" },
+            { label: "AI lead follow-up guide", href: "/ai-lead-follow-up-for-service-businesses" },
+          ],
+        },
+        {
+          icon: Zap,
+          title: "Need to generate leads, not just convert them",
+          body: "The Instagram lead-generation system automated scraping, enrichment, qualification, and routing at volume — turning a manual outbound process into a hands-off pipeline. Read this if your bottleneck is lead volume, not lead handling.",
+          links: [
+            { label: "Instagram lead generation case study", href: "/case-studies/instagram-lead-generation" },
+            { label: "All case studies", href: "/case-studies" },
+          ],
+        },
+      ],
+    },
+    {
+      type: "cards",
       title: "The five automations that actually move the needle",
       subtitle:
         "Across HVAC, dental, legal, and real estate, these five automations consistently produce the highest ROI. They're ordered by typical impact:",
