@@ -26,7 +26,7 @@ const data: DecisionPageData = {
   heroIntro:
     "If your restaurant misses calls during service, after close, or when the host stand is overloaded, not every caller needs a full AI phone conversation. Sometimes the fastest fix is simpler: the call is missed, an immediate text goes out, the guest gets a clear next step, and reservation demand stays alive long enough for the team or booking flow to recover it. Restaurant missed call text-back sits between voicemail and a full voice agent. It is narrow, practical, and often easier to launch when the real problem is unanswered calls rather than full phone automation.",
   heroSubtext:
-    "Below: what restaurant missed call text-back should actually do, how it differs from a restaurant voice-agent setup and a generic missed-call page, what proof honestly supports it, and where SMS-first recovery works better than forcing every missed call into a live AI conversation.",
+    "Below: what restaurant missed call text-back should actually do, which sibling restaurant page to read when the real problem is after-hours coverage, private-event routing, reminders, or live phone handling, what proof honestly supports it, and where SMS-first recovery works better than forcing every missed call into a live AI conversation.",
   sections: [
     {
       type: "cards",
@@ -72,6 +72,48 @@ const data: DecisionPageData = {
           icon: Users,
           title: "Reduce host-stand interruption",
           body: "During service, the host team should not have to bounce between in-person guests, ringing phones, and manual callback lists. A text-back layer protects demand without adding one more live task in the moment.",
+        },
+      ],
+    },
+    {
+      type: "cards",
+      title: "Choose the right restaurant phone workflow before you overbuild this",
+      subtitle:
+        "Missed-call text-back is only one part of the restaurant phone cluster. Use the router below when the real issue is narrower or heavier than SMS-first recovery:",
+      items: [
+        {
+          icon: Clock,
+          title: "Most lost calls happen after close",
+          body: "If the real leak is overnight reservation demand, start with the after-hours phone guide first. It shows when live AI answering is worth it, when a lighter text-back fallback is enough, and when voicemail is still acceptable.",
+          links: [
+            { label: "After-hours phone answering for restaurants", href: "/after-hours-phone-answering-for-restaurants" },
+            { label: "After-hours AI phone answering vs voicemail", href: "/after-hours-ai-phone-answering-vs-voicemail-for-restaurants" },
+          ],
+        },
+        {
+          icon: BellRing,
+          title: "The missed calls are really large-party or private-event leads",
+          body: "If callers mainly want banquet, catering, or private-dining information, the more useful page is the event follow-up workflow. That path is about qualifying and handing off higher-value inquiries cleanly instead of forcing them through a generic reservation text thread.",
+          links: [
+            { label: "Private-event inquiry follow-up", href: "/private-event-inquiry-follow-up-for-restaurants" },
+          ],
+        },
+        {
+          icon: CalendarCheck,
+          title: "The booking exists — the problem is reminders or no-shows",
+          body: "If the guest already reserved and the real leak is confirmation, reminder timing, or backfilling late cancellations, move to the reminder workflow. Missed-call text-back is a pre-booking recovery layer, not a post-booking communication system.",
+          links: [
+            { label: "Reservation confirmation and reminder automation", href: "/reservation-confirmation-and-reminder-automation-for-restaurants" },
+          ],
+        },
+        {
+          icon: Bot,
+          title: "Guests need live answers, not a reply thread",
+          body: "If callers usually need immediate phone help, policy answers, or same-call booking capture, go to the restaurant voice-agent guide or the text-back-vs-voice comparison. That is the stronger fit when a text arrives too late or asks the guest to do extra work.",
+          links: [
+            { label: "AI voice agent for restaurants", href: "/ai-voice-agent-for-restaurants" },
+            { label: "Missed call text-back vs AI voice agent", href: "/missed-call-text-back-vs-ai-voice-agent-for-restaurants" },
+          ],
         },
       ],
     },
