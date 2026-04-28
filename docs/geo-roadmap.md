@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/client-reactivation-cost-small-business`, a cost page for small businesses evaluating dormant-client recovery automation — realistic build ranges, monthly running costs, CRM cleanup pricing, segmentation complexity, and honest fit/not-fit framing.)
+Last updated: 2026-04-28 (bounded priority-page refresh on `/ai-automation-for-businesses-without-a-tech-team` after broad reconciliation did not leave one clearly safer net-new planned page. Added a new answer-extractable section on what a first no-tech-team automation build should actually include, a matching FAQ answer, and stronger routing into cost, pricing, support, proof, and safest-first-build pages. Most recent net-new ship remains `/client-reactivation-cost-small-business`.)
 
 ## Live GEO Assets
 
@@ -317,15 +317,15 @@ Last updated: 2026-04-28 (shipped `/client-reactivation-cost-small-business`, a 
 
 ## Next Pages
 
-This run shipped `/client-reactivation-cost-small-business`, the clean horizontal pricing child under the already-live client-reactivation cluster. The site already had the generic reactivation page, the service-businesses parent, strong adjacent proof from HVAC database reactivation plus the e-commerce CRM case study, and multiple vertical reactivation children. What was still missing was the explicit pricing-stage buyer page for owners asking what a dormant-client recovery build should actually cost before they buy broader lifecycle automation.
+This run did **not** force another net-new page. A fresh cross-doc and live-route reconciliation still showed the mature workflow / vertical clusters are dense enough that stale backlog assumptions are the bigger risk, so the safer win was a bounded refresh on `/ai-automation-for-businesses-without-a-tech-team`. That page now explains what a first non-technical automation build should actually include and routes more cleanly into pricing, support, time-savings, proof, and safest-first-build pages.
 
 The next run should:
 
-1. **Verify live/indexing behavior** for `/client-reactivation-cost-small-business` after deploy propagation, then request indexing manually in GSC.
-2. **Run a fresh broad prompts/route reconciliation pass** before naming another net-new page, because the mature workflow and vertical clusters are now dense enough that stale backlog assumptions remain the biggest risk.
-3. **If no equally clean net-new page survives full verification, fall back to a bounded priority-page refresh** instead of forcing a thin duplicate.
+1. **Run another broad prompts/route reconciliation pass first** before naming any new page, because the live site and prompts inventory are now dense enough that the next safe net-new win still needs positive verification rather than assumption.
+2. **If reconciliation still does not leave one clearly distinct planned page, do another bounded priority-page refresh** on the strongest discovered / commercially important page with the clearest internal-linking gap.
+3. **Keep manual GSC follow-through moving** on the already-refreshed priority URLs instead of treating publish alone as the finish line.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Broad prompts/route reconciliation pass | The live site and prompt inventory are mature enough that the next safe win is more likely to come from a fresh cross-cluster verification pass than from assuming another adjacent child page is still clean and distinct. | Re-run the live-routes vs prompts/guides/sitemap/llm/planning-doc diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
-| 2 | Bounded priority-page refresh | If reconciliation does not leave one clearly safe net-new page, the better move is to strengthen one discovered-not-indexed priority URL instead of forcing another same-cluster child. | Re-check `docs/geo-priority-urls.md`, current live copy, and internal-link gaps before choosing the refresh target. |
+| 1 | Broad prompts/route reconciliation pass | The next safe net-new page is still more likely to come from a fresh cross-cluster verification pass than from assuming another adjacent child page is automatically still clean and distinct. | Re-run the live-routes vs prompts/guides/sitemap/llm/planning-doc diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
+| 2 | `/ai-automation-cost-small-business` bounded refresh | If reconciliation still leaves no clearly safe net-new page, this remains a strong commercial budgeting hub for another indexing/internal-linking pass because it naturally routes into pricing, ROI, time-savings, no-tech-team, support, and proof decisions. | Re-check `docs/geo-priority-urls.md`, the live copy, and whether any new adjacent cost/support child pages should be linked before choosing the exact bounded refresh. |

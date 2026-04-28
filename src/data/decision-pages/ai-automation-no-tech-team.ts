@@ -179,6 +179,54 @@ const data: DecisionPageData = {
       ],
     },
     {
+      type: "cards",
+      title: "What a first no-tech-team automation build usually includes",
+      subtitle:
+        "Non-technical owners usually do not need a giant platform rollout first. They need one contained workflow with clear ownership, light reporting, and an obvious handoff when a real person should step in:",
+      items: [
+        {
+          icon: Phone,
+          title: "One trigger and one immediate acknowledgment path",
+          body: "Most strong first builds begin with a simple trigger — a form submission, missed call, booked appointment, or intake event — followed by a near-instant text or email so the lead or customer never waits on a manual reply. This is where lead follow-up, missed-call recovery, and reminder systems usually beat heavier software projects for a non-technical team.",
+          links: [
+            { label: "AI lead follow-up guide", href: "/ai-lead-follow-up-for-service-businesses" },
+            { label: "Missed-call text-back", href: "/missed-call-text-back-for-service-businesses" },
+            { label: "AI automation cost", href: "/ai-automation-cost-small-business" },
+          ],
+        },
+        {
+          icon: MessageSquare,
+          title: "A short sequence, not a forever nurture maze",
+          body: "For most no-tech-team businesses, the first build should include a bounded follow-up or reminder sequence with clear stop conditions. Think five to seven touches, one booking goal, and obvious escalation rules — not a sprawling multi-month nurture tree that nobody on the team will understand or maintain.",
+          links: [
+            { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
+            { label: "Affordable AI automation", href: "/affordable-ai-automation-small-business" },
+            { label: "Scheduling and reminder workflows", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
+          ],
+        },
+        {
+          icon: Zap,
+          title: "Basic CRM tags, routing, and a clear human handoff",
+          body: "A useful first build usually updates one source of truth, tags the contact, and tells a human exactly when to take over. That means the owner is not learning a new software stack from scratch. The automation handles the repetitive admin layer, while the business still owns the real conversation, quote, or booking handoff.",
+          links: [
+            { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
+            { label: "AI automation audit checklist", href: "/ai-automation-audit-checklist" },
+            { label: "View case studies", href: "/case-studies" },
+          ],
+        },
+        {
+          icon: ShieldCheck,
+          title: "A short stabilization window and support plan",
+          body: "The build is not done the minute the workflow turns on. A smart first project includes documentation, a short testing window, a couple of real-world message or routing adjustments, and a clear answer to who fixes small issues after launch. That is the difference between software that looks good in a demo and software a non-technical team can actually trust.",
+          links: [
+            { label: "AI automation maintenance and support", href: "/ai-automation-maintenance-and-support-small-business" },
+            { label: "AI automation time savings", href: "/ai-automation-time-savings-small-business" },
+            { label: "All guides", href: "/guides" },
+          ],
+        },
+      ],
+    },
+    {
       type: "table",
       title: "What you need vs. what you do not",
       subtitle:
@@ -366,6 +414,11 @@ const data: DecisionPageData = {
         "Sometimes, yes — if the scope stays narrow. A lightweight missed-call text-back, lead-response, or reminder workflow can be much cheaper to run than a broad all-in-one system. The tradeoff is that smaller monthly budgets usually still need a one-time setup and should target one workflow, not your whole operation. See the affordable AI automation guide for the budgeting version of this decision.",
     },
     {
+      question: "What does a first no-tech-team automation build usually include?",
+      answer:
+        "Usually one clear trigger, one immediate acknowledgment path, a short follow-up or reminder sequence, basic CRM tagging or routing, and a real human handoff when the contact is ready for a conversation. It should also include documentation and a short stabilization window after launch. What it should not include is a giant all-in-one rollout before your team has proven one narrow workflow can run cleanly.",
+    },
+    {
       question: "Should I start with an all-in-one platform if nobody on my team is technical?",
       answer:
         "Usually not as the first move. A broad platform can still be the right long-term home, but non-technical teams often get better results by proving one narrow workflow first: lead response, missed-call recovery, reminders, or simple routing. That shows where the real bottleneck is before you spend months learning features you may never use.",
@@ -394,8 +447,16 @@ const data: DecisionPageData = {
       href: "/best-ai-automation-for-service-businesses",
     },
     {
+      label: "AI automation cost for small business",
+      href: "/ai-automation-cost-small-business",
+    },
+    {
       label: "Affordable AI automation for small business",
       href: "/affordable-ai-automation-small-business",
+    },
+    {
+      label: "AI automation time savings",
+      href: "/ai-automation-time-savings-small-business",
     },
     {
       label: "Hire an AI automation consultant vs. DIY",
