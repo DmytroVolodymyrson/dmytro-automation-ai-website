@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-ai-automation-cost-small-business-budget-band-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Existing hero retained\nHeading: AI Automation Cost for Small Business\nBody: Most small business owners search for automation pricing and find vague ranges or enterprise quotes that start at $50K. That is not useful. This page gives you real numbers for the automations small service businesses actually buy — lead follow-up, CRM workflows, voice agents, onboarding systems — with honest breakdowns of what drives cost up and what keeps it manageable.\nSub: Below: what you will actually pay, what affects the price, where small-business budgets usually break down, and a practical routing layer so you can jump to the right next page before you spend money on the wrong build.\n\n### New budget-band scope section\nSection: What each budget band should actually buy first\n- Adds a new answer-extractable section that maps three budget bands to the right first-build scope:\n  - `$1K-$2.5K` = one bounded workflow\n  - `$2.5K-$5K` = one connected workflow with routing / CRM logic\n  - `$5K-$12K` = multi-workflow system or AI-powered build\n- Each band now includes contextual internal links into:\n  - /what-to-automate-first-for-service-businesses\n  - /affordable-ai-automation-small-business\n  - /ai-automation-consultant-pricing-small-business\n  - /ai-lead-follow-up-cost-small-business\n  - /ai-voice-agent-setup-cost-small-business\n  - /case-studies\n- Purpose: answer the real buyer question behind cost research — what should this budget fund first — instead of only repeating pricing ranges.\n\n### Budget router tightened\nSection: Budget shortcut: where to go next based on what you are really pricing\n- Keeps the 3-card routing block, but swaps one generic cluster link for a more specific first-project decision path.\n- The realistic-first-project card now routes directly into:\n  - /what-to-automate-first-for-service-businesses\n  - /ai-automation-consultant-pricing-small-business\n  - /affordable-ai-automation-small-business\n- This keeps the page tighter around buyer intent: budget -> right first scope -> right adjacent commercial page.\n\n### Proof section sharpened with named outcomes\nSection: What those budgets usually buy first\n- Keeps the same three proof assets, but reframes each around explicit production outcomes and pricing bands:\n  - Paris Cafe: 0% to 100% after-hours coverage, under-60-second response\n  - WheelsFeels: 5,600+ contacts activated, SMS/email follow-up running hands-free\n  - Instagram lead gen: 50+ qualified leads/day at $0.29/lead, zero manual work\n- The copy now makes the band logic more explicit:\n  - voice-agent proof supports the higher-complexity band\n  - CRM/follow-up proof supports the upper follow-up/system band\n  - Instagram proof supports a contained first-phase pipeline build\n\n### New FAQ addition\nSection: FAQ\n- Adds a new question:\n  - “How do I choose between one bounded workflow and a broader system?”\n- Answer reinforces the page’s main framing:\n  - start with one workflow under tighter budgets or unclear bottlenecks\n  - move to a broader system after the first build proves ROI\n  - use the first-project guide if the right starting workflow is still unclear\n\n### Expanded related-links cluster\nSection: Bottom related links\n- Adds direct links to:\n  - /what-to-automate-first-for-service-businesses\n  - /ai-voice-agent-setup-cost-small-business\n- Keeps the existing pricing / ROI / support / DIY / proof cluster intact.\n\n### llm / llms summary refresh\nSection: AI Automation Cost for Small Business entry\n- Rewrites the one-line summary so AI crawlers see this page as:\n  - a real small-business pricing guide\n  - a budget-band scope guide\n  - a router into first-project selection, consultant pricing, proof, ROI, support, and voice-agent-cost questions",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded maintenance refresh on an existing priority URL, not a new page ship."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and anti-fluff: price bands, bounded first builds, and explicit warnings against jumping too early to a broader system."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "No fake proof or new invented pricing claims were added."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The update improves buyer routing and answer extraction more than raw claim volume."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T16:13:28.310Z",
+    "structure": {
+      "paragraphCount": 7,
+      "sentencesPerParagraph": [
+        4,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "avgSentenceLength": 46.1,
+      "sentenceLengthRange": [
+        4,
+        95
+      ],
+      "totalWords": 507
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Existing hero retained\nHeading: AI Automation Cost for Small Business\nBody: Most small business owners search for automation pricing and find vague ranges or enterprise quotes that start at $50K.",
+      "wordCount": 30,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### llm / llms summary refresh\nSection: AI Automation Cost for Small Business entry\n- Rewrites the one-line summary so AI crawlers see this page as:\n  - a real small-business pricing guide\n  - a budget-band scope guide\n  - a router into first-project selection, consultant pricing, proof, ROI, support, and voice-agent-cost questions",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "result",
+        "result",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | context | result | result | result | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 17,
+      "emDashes": 4,
+      "enDashes": 0,
+      "hyphens": 42,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 25,
+      "commasPerSentence": 1.89
+    },
+    "vocabulary": {
+      "distinctWords": 255,
+      "totalWords": 507,
+      "topWords": [
+        [
+          "-",
+          42
+        ],
+        [
+          "section",
+          9
+        ],
+        [
+          "what",
+          8
+        ],
+        [
+          "pricing",
+          7
+        ],
+        [
+          "proof",
+          7
+        ],
+        [
+          "budget",
+          6
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "keeps",
+          5
+        ],
+        [
+          "right",
+          5
+        ],
+        [
+          "band",
+          5
+        ],
+        [
+          "first",
+          5
+        ],
+        [
+          "one",
+          5
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "cost",
+          4
+        ],
+        [
+          "small",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right",
+        "right",
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.01
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": [
+        "adds-trust-signals"
+      ]
+    }
+  }
+}

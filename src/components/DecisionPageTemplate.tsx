@@ -127,7 +127,7 @@ export type PageSection =
       type: "prose";
       title: string;
       subtitle: string;
-      blocks: { heading: string; body: string }[];
+      blocks: { heading: string; body: string; links?: { label: string; href: string }[] }[];
     };
 
 export interface DecisionPageData {
@@ -467,6 +467,19 @@ const ProseSection = ({
             {block.heading}
           </h3>
           <p className="text-muted-foreground leading-relaxed">{block.body}</p>
+          {block.links && block.links.length > 0 && (
+            <div className="flex flex-wrap gap-3 mt-3">
+              {block.links.map((link, li) => (
+                <Link
+                  key={li}
+                  to={link.href}
+                  className="text-sm text-primary hover:text-primary/80 underline underline-offset-2"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+          )}
         </motion.div>
       ))}
     </div>

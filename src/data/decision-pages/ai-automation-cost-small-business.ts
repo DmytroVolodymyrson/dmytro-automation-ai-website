@@ -64,6 +64,38 @@ const data: DecisionPageData = {
       ],
     },
     {
+      type: "prose",
+      title: "What each budget band should actually buy first",
+      subtitle:
+        "The table above shows price ranges. This section tells you what scope is realistic at each level — so you can match your cash to the right first project instead of overspending on a broader system you do not need yet:",
+      blocks: [
+        {
+          heading: "$1K–$2.5K — One bounded workflow",
+          body: "At this level you are buying a single trigger-to-action sequence: missed-call text-back, an instant lead-response SMS/email, or a timed reminder workflow. The scope is narrow on purpose. You get one integration, one automation engine, and a short stabilization window. This is the safest starting point for owners who want to prove the concept before spending more. If you are not sure which single workflow to start with, the first-project decision guide walks through seven candidates ranked by speed-to-ROI.",
+          links: [
+            { label: "What to automate first", href: "/what-to-automate-first-for-service-businesses" },
+            { label: "Affordable AI automation", href: "/affordable-ai-automation-small-business" },
+          ],
+        },
+        {
+          heading: "$2.5K–$5K — One workflow plus connected routing",
+          body: "This band buys a multi-step sequence with CRM tagging, conditional branching, or a second integration. Examples: a lead-follow-up sequence that also qualifies and routes hot leads to your calendar, or a client-onboarding flow that collects documents and triggers the first welcome message. You are still in single-problem territory, but the system is smart enough to sort and hand off instead of just firing messages. A consultant scopes this as a fixed-price project with a written deliverable list.",
+          links: [
+            { label: "Consultant pricing breakdown", href: "/ai-automation-consultant-pricing-small-business" },
+            { label: "AI lead follow-up cost", href: "/ai-lead-follow-up-cost-small-business" },
+          ],
+        },
+        {
+          heading: "$5K–$12K — Multi-workflow system or AI-powered build",
+          body: "At this budget you are either connecting multiple workflows into a coordinated operating system (lead capture + follow-up + booking + post-appointment review request) or building one higher-complexity AI component like a voice agent. Do not jump here unless the contained first build already proved ROI or your revenue leak is large enough to justify the bigger scope upfront. The WheelsFeels CRM build and the Paris Cafe voice-agent deployment are both examples of this tier in production.",
+          links: [
+            { label: "AI voice agent setup cost", href: "/ai-voice-agent-setup-cost-small-business" },
+            { label: "Case studies", href: "/case-studies" },
+          ],
+        },
+      ],
+    },
+    {
       type: "cards",
       title: "Budget shortcut: where to go next based on what you are really pricing",
       subtitle:
@@ -74,8 +106,8 @@ const data: DecisionPageData = {
           title: "You need a realistic first-project budget",
           body: "If your real question is whether you should spend on consultant-led setup, a smaller first workflow, or a broader stack, start with the pages that frame price against project scope instead of abstract software cost.",
           links: [
+            { label: "What to automate first for service businesses", href: "/what-to-automate-first-for-service-businesses" },
             { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
-            { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
             { label: "Affordable AI automation under a small-business budget", href: "/affordable-ai-automation-small-business" },
           ],
         },
@@ -132,26 +164,27 @@ const data: DecisionPageData = {
         "These proof assets help you map price ranges to the kind of problem you are actually solving, instead of buying a generic 'AI package':",
       studies: [
         {
-          industry: "Phone coverage & booking",
-          headline: "Paris Café shows when a voice workflow justifies the bigger budget band",
-          body: "Use this as the reference point when you are pricing after-hours call coverage, FAQ handling, or AI-assisted booking. The lesson is not 'buy a voice agent first.' It is that the higher-ticket voice workflow makes sense only when missed calls and booking friction are already costing real revenue.",
+          industry: "Phone coverage & booking ($3K–$6K band)",
+          headline: "Paris Café: 0% to 100% after-hours coverage, under-60-second response",
+          body: "Use this as the reference point when you are pricing after-hours call coverage, FAQ handling, or AI-assisted booking. The voice workflow landed in the $3K–$6K band because it involved prompt engineering, calendar integration, and production tuning. The higher-ticket voice build makes sense only when missed calls and booking friction are already costing real revenue — not as the first project.",
           link: "/case-studies/paris-cafe-voice-agent",
         },
         {
-          industry: "CRM cleanup & follow-up",
-          headline: "The e-commerce CRM build is the best proof for the upper end of follow-up-system pricing",
-          body: "This is the closest site proof for owners budgeting multi-step segmentation, routing, reactivation, and CRM cleanup work. It supports why a lead-follow-up or full-system quote costs more than a single trigger: the value comes from the operating system around the messages, not the message alone.",
+          industry: "CRM + multi-step follow-up ($5K–$12K band)",
+          headline: "WheelsFeels: 5,600+ contacts activated, SMS/email follow-up running hands-free",
+          body: "This is the closest site proof for owners budgeting multi-step segmentation, routing, reactivation, and CRM cleanup work. It supports why a lead-follow-up or full-system quote costs more than a single trigger: the value comes from the operating system around the messages, not the message alone. If you are considering the upper budget band, this shows what that scope actually delivers.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {
-          industry: "Qualification & routing",
-          headline: "Instagram lead generation is the reference point for a focused first-phase pipeline build",
-          body: "If your real question is whether to spend first on faster response, qualification, or pipeline routing, start here. It is a better model for a contained first build than jumping straight to a full CRM overhaul before the basic intake path is working.",
+          industry: "Pipeline qualification ($2K–$4K band)",
+          headline: "Instagram lead gen: 50+ qualified leads/day at $0.29/lead, zero manual work",
+          body: "If your real question is whether to spend first on faster response, qualification, or pipeline routing, start here. This build landed in the mid budget band because it focused on one narrow pipeline problem. It is a better model for a contained first build than jumping straight to a full CRM overhaul before the basic intake path is working.",
           link: "/case-studies/instagram-lead-generation",
         },
       ],
       links: [
         { label: "View all case studies", href: "/case-studies" },
+        { label: "What to automate first for service businesses", href: "/what-to-automate-first-for-service-businesses" },
         { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
       ],
     },
@@ -271,6 +304,11 @@ const data: DecisionPageData = {
         "Separate them. The build price covers implementation. Support covers monitoring, small fixes, and bounded updates after launch. Some workflows only need a short stabilization period, while customer-facing or revenue-critical systems justify a true monthly support plan. If a quote bundles everything together without saying what happens after launch, ask for the split before you sign.",
     },
     {
+      question: "How do I choose between one bounded workflow and a broader system?",
+      answer:
+        "Start with one workflow if you have not automated anything yet, your budget is under $3K, or you are not sure where the biggest leak is. Move to a broader system only after the first build has proven ROI and you can clearly identify the next bottleneck it should connect to. Most businesses that jump to a $5K-$12K system before validating the first workflow either overspend or end up rebuilding the foundation anyway. The first-project decision guide helps you identify the right contained starting point.",
+    },
+    {
       question: "Can I build automations myself to save money?",
       answer:
         "Simple automations, yes. If you are comfortable with tools like Zapier or n8n, you can build basic workflows yourself. The challenge is knowing what to build, handling edge cases, and connecting multiple systems reliably. Most DIY automations break within the first month because they do not account for real-world messiness. A consultant build saves you 20-40 hours of trial and error.",
@@ -289,6 +327,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No obligation. If the math does not make sense, we will tell you that too.",
   relatedLinks: [
+    { label: "What to automate first for service businesses", href: "/what-to-automate-first-for-service-businesses" },
     { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
     { label: "AI automation ROI guide", href: "/ai-automation-roi-guide" },
     { label: "AI automation time savings", href: "/ai-automation-time-savings-small-business" },
@@ -297,6 +336,7 @@ const data: DecisionPageData = {
     { label: "Hire a consultant or do it yourself", href: "/hire-ai-automation-consultant-vs-diy" },
     { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
     { label: "AI lead follow-up cost", href: "/ai-lead-follow-up-cost-small-business" },
+    { label: "AI voice agent setup cost", href: "/ai-voice-agent-setup-cost-small-business" },
     { label: "Build vs. buy AI automation", href: "/build-vs-buy-ai-automation" },
     { label: "Case studies", href: "/case-studies" },
     { label: "All guides", href: "/guides" },
