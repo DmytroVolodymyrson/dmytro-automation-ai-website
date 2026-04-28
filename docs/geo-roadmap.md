@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/review-request-vs-referral-request-for-service-businesses` — a new post-job workflow comparison page that answers a real buyer decision already implied by the live review and referral pages: should a service business ask for public proof first or private introductions first? It stays distinct by focusing on workflow selection, timing, and reply routing rather than re-explaining either parent page. Previous: `/insurance-claim-follow-up-for-roofing-companies`.)
+Last updated: 2026-04-28 (shipped `/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses` — a new service-business workflow comparison page that answers an exact buyer-stage question already tracked on the live scheduling parent: does this business need a front-end AI appointment setter, or are booked visits already happening and the real leak now sits in confirmations, reminders, and reschedules? It stays distinct by comparing the conversational booking layer against the downstream scheduling-protection layer instead of re-explaining either parent page. Previous: `/review-request-vs-referral-request-for-service-businesses`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 319.
+**Total live GEO pages tracked here:** 320.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -35,6 +35,7 @@ Last updated: 2026-04-28 (shipped `/review-request-vs-referral-request-for-servi
 | Estimate Follow-Up vs. Quote Follow-Up (Service Businesses) | `/estimate-follow-up-vs-quote-follow-up-for-service-businesses` | Workflow comparison page | Live |
 | Quote Follow-Up Automation (Service Businesses) | `/quote-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
 | Appointment Scheduling & Reminder Automation (Service Businesses) | `/appointment-scheduling-and-reminder-automation-for-service-businesses` | Workflow parent page | Live |
+| Appointment Scheduling & Reminder Automation vs. AI Appointment Setter (Service Businesses) | `/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses` | Workflow comparison page | Live |
 | Client Reactivation Automation (Service Businesses) | `/client-reactivation-automation-for-service-businesses` | Workflow parent page | Live |
 | Client Reactivation Cost (SMB) | `/client-reactivation-cost-small-business` | Category cost page | Live |
 | Client Reactivation ROI (SMB) | `/client-reactivation-roi-small-business` | Workflow / ROI page | Live |
@@ -331,16 +332,16 @@ Last updated: 2026-04-28 (shipped `/review-request-vs-referral-request-for-servi
 
 ## Next Pages
 
-This run started from a fresh broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, `scripts/geo-prompts.json`, and the live route/page set. The strongest clean gap was the missing service-business post-job comparison between review asks and referral asks. The exact buyer question was already implied by the live parent workflow pages and tracked prompts, but there was still no page cleanly explaining when a business should prioritize public-proof automation versus private-advocacy automation. Shipping it closes a real buyer-decision gap without inventing new proof or forcing a thin same-cluster vertical child.
+This run started from a fresh broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and the live route/page set. The strongest clean gap was a missing stage-decision page already hiding inside the live scheduling parent prompts: should a service business add a front-end AI appointment setter, or are booked visits already happening and the bigger leak now sits in confirmations, reminders, and reschedules? Shipping that page closes a real buyer-intent gap without forcing a thin same-cluster vertical child or inventing new proof.
 
 The next run should:
 
-1. **Keep manual GSC follow-through moving** on refreshed priority URLs and newly shipped workflow comparison pages instead of treating publish alone as the finish line.
-2. **Start from another fresh broad reconciliation before naming a new net-new page** so the queue does not drift into stale same-cluster inertia or assume the service-business post-job cluster automatically deserves another sibling.
-3. **Only force another same-cluster post-job comparison if an exact distinct buyer query still survives that reconciliation**; otherwise leave the queue in watchlist mode instead of manufacturing thin overlap.
+1. **Keep manual GSC follow-through moving** on newly shipped workflow comparison pages and refreshed priority URLs instead of treating publish alone as the finish line.
+2. **Start from another fresh broad reconciliation before naming the next net-new page** so the queue does not drift into stale appointment-setter/scheduling-cluster inertia just because this cluster shipped well again.
+3. **Only force another same-cluster sibling if an exact materially different buyer query still survives that reconciliation**; otherwise leave the queue in watchlist mode and pivot to the strongest distinct cross-cluster gap.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Manual GSC follow-through on refreshed priority URLs | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |
-| 2 | Fresh broad reconciliation before another net-new page | The repo is dense enough that stale docs can still make already-live pages look missing or can over-credit the just-shipped service-business post-job cluster with the next run by default. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
-| 3 | Watchlist: next same-cluster post-job comparison only if a truly distinct buyer query survives review | The review/referral cluster is stronger now, but a forced follow-up page would risk sliding into thin overlap unless a clearly different buyer decision still remains after this comparison page. | Verify any same-cluster candidate is still absent from routes, pages, sitemap, llm files, and geo prompts, and confirm it answers a materially different decision than the live review-request, referral-request, and new review-vs-referral comparison pages. |
+| 1 | Manual GSC follow-through on refreshed priority URLs and newly shipped scheduling/appointment-setter comparison pages | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |
+| 2 | Fresh broad reconciliation before another net-new page | The repo is dense enough that stale docs can still make already-live pages look missing or can over-credit the service-business scheduling cluster with the next run by default. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
+| 3 | Watchlist: next same-cluster sibling only if a truly distinct stage-decision query survives review | The scheduling/appointment-setter cluster is stronger now, but a forced follow-up page would risk sliding into thin overlap unless a clearly different buyer decision still remains after this comparison page. | Verify any same-cluster candidate is still absent from routes, pages, sitemap, llm files, and geo prompts, and confirm it answers a materially different decision than the live scheduling parent, AI appointment setter parent, booking-confirmation page, and new comparison page. |

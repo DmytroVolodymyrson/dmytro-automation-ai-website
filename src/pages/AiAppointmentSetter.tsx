@@ -243,6 +243,12 @@ const AiAppointmentSetter = () => {
                 href: "/ai-appointment-setter-for-home-service-businesses",
                 cta: "See home-service fit",
               },
+              {
+                title: "Setter vs scheduling layer",
+                body: "Use this when the real decision is whether you need a front-end AI appointment setter at all, or whether booked visits are already happening and the bigger leak is confirmations, reminders, and reschedules.",
+                href: "/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses",
+                cta: "Compare the two layers",
+              },
             ].map((item, i) => (
               <motion.div
                 key={item.href}

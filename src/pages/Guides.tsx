@@ -785,6 +785,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Appointment Scheduling & Reminder Automation vs. AI Appointment Setter",
+    description:
+      "Decision guide for service businesses choosing between a front-end AI appointment setter and the downstream scheduling/reminder layer that protects booked consultations, visits, and appointments after interest already exists.",
+    href: "/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses",
+    category: "comparisons",
+  },
+  {
     title: "Contact Form Autoresponder vs. Full Lead Follow-Up",
     description:
       "Decision guide for owners asking whether a basic form autoresponder is still enough or whether website leads now need a real workflow with qualification, routing, and short follow-up.",

@@ -275,11 +275,14 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI appointment setter", href: "/ai-appointment-setter" },
     {
+      label: "Scheduling and reminder automation vs AI appointment setter",
+      href: "/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses",
+    },
+    {
       label: "Booking confirmation and reminder automation",
       href: "/booking-confirmation-and-reminder-automation",
     },
     { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
-    { label: "All guides", href: "/guides" },
   ],
 };
 

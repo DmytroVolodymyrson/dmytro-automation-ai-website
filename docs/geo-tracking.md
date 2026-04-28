@@ -11,14 +11,15 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 386 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 387 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
-### Strategy + comparison pages (37)
+### Strategy + comparison pages (38)
 - **Affordable AI Automation for Small Business** — `/affordable-ai-automation-small-business`
 - **AI Appointment Setter vs Receptionist** — `/ai-appointment-setter-vs-receptionist`
 - **AI Appointment Setter vs Virtual Assistant** — `/ai-appointment-setter-vs-virtual-assistant`
+- **Appointment Scheduling & Reminder Automation vs. AI Appointment Setter for Service Businesses** — `/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses`
 - **AI Automation Consultant for Small Business** — `/ai-automation-consultant-small-business`
 - **AI Automation Consultant Pricing for Small Business** — `/ai-automation-consultant-pricing-small-business`
 - **AI Automation Consultant vs Freelancer** — `/ai-automation-consultant-vs-freelancer`

@@ -2175,8 +2175,20 @@
         "best appointment scheduling and reminder automation for service businesses",
         "how to automate appointment confirmations and reminders for a service business",
         "appointment scheduling workflow for service businesses with reschedules and no-show reduction",
-        "service business scheduling automation vs ai appointment setter",
+        "what should service business scheduling automation include after a booking is ready",
         "when should a service business automate scheduling and reminders before lead follow-up"
+      ]
+    },
+    {
+      "id": "appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses",
+      "path": "/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses",
+      "label": "Appointment Scheduling & Reminder Automation vs. AI Appointment Setter for Service Businesses",
+      "prompts": [
+        "appointment scheduling and reminder automation vs ai appointment setter for service businesses",
+        "service business scheduling automation vs ai appointment setter",
+        "do i need an ai appointment setter or just scheduling and reminder automation",
+        "when should a service business automate scheduling and reminders before building an ai appointment setter",
+        "ai appointment setter vs booking confirmations reminders and reschedules for service businesses"
       ]
     },
     {

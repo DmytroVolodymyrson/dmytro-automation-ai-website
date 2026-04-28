@@ -247,6 +247,7 @@ const AfterHoursLeadCapture = lazy(() => import("./pages/AfterHoursLeadCapture")
 const MissedCallFollowUp = lazy(() => import("./pages/MissedCallFollowUp"));
 const BookingConfirmationAndReminder = lazy(() => import("./pages/BookingConfirmationAndReminder"));
 const AppointmentSchedulingAndReminderAutomationForServiceBusinesses = lazy(() => import("./pages/AppointmentSchedulingAndReminderAutomationForServiceBusinesses"));
+const AppointmentSchedulingAndReminderAutomationVsAiAppointmentSetterForServiceBusinesses = lazy(() => import("./pages/AppointmentSchedulingAndReminderAutomationVsAiAppointmentSetterForServiceBusinesses"));
 const AiPhoneAnswering = lazy(() => import("./pages/AiPhoneAnswering"));
 const MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses = lazy(() => import("./pages/MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses"));
 const AiVoiceAgentForLeadQualification = lazy(() => import("./pages/AiVoiceAgentForLeadQualification"));
@@ -677,6 +678,10 @@ const AppRoutesClient = () => (
       <Route
         path="/appointment-scheduling-and-reminder-automation-for-service-businesses"
         element={<AppointmentSchedulingAndReminderAutomationForServiceBusinesses />}
+      />
+      <Route
+        path="/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses"
+        element={<AppointmentSchedulingAndReminderAutomationVsAiAppointmentSetterForServiceBusinesses />}
       />
       <Route path="/booking-confirmation-and-reminder-automation" element={<BookingConfirmationAndReminder />} />
       <Route path="/ai-phone-answering-for-service-businesses" element={<AiPhoneAnswering />} />

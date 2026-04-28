@@ -246,6 +246,7 @@ import AfterHoursLeadCapture from "./pages/AfterHoursLeadCapture";
 import MissedCallFollowUp from "./pages/MissedCallFollowUp";
 import BookingConfirmationAndReminder from "./pages/BookingConfirmationAndReminder";
 import AppointmentSchedulingAndReminderAutomationForServiceBusinesses from "./pages/AppointmentSchedulingAndReminderAutomationForServiceBusinesses";
+import AppointmentSchedulingAndReminderAutomationVsAiAppointmentSetterForServiceBusinesses from "./pages/AppointmentSchedulingAndReminderAutomationVsAiAppointmentSetterForServiceBusinesses";
 import AiPhoneAnswering from "./pages/AiPhoneAnswering";
 import MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses from "./pages/MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses";
 import AiVoiceAgentForLeadQualification from "./pages/AiVoiceAgentForLeadQualification";
@@ -745,6 +746,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/estimate-follow-up-vs-quote-follow-up-for-service-businesses", element: <EstimateFollowUpVsQuoteFollowUpForServiceBusinesses /> },
   { path: "/quote-follow-up-automation-for-service-businesses", element: <QuoteFollowUpAutomationForServiceBusinesses /> },
   { path: "/appointment-scheduling-and-reminder-automation-for-service-businesses", element: <AppointmentSchedulingAndReminderAutomationForServiceBusinesses /> },
+  { path: "/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses", element: <AppointmentSchedulingAndReminderAutomationVsAiAppointmentSetterForServiceBusinesses /> },
   { path: "/booking-confirmation-and-reminder-automation", element: <BookingConfirmationAndReminder /> },
   { path: "/ai-phone-answering-for-service-businesses", element: <AiPhoneAnswering /> },
   { path: "/missed-call-text-back-vs-ai-phone-answering-for-service-businesses", element: <MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses /> },
