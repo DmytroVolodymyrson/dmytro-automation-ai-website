@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-ai-phone-answering-setup-vs-diy-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: AI Phone Answering Setup: Hire Help or DIY?\nBody: If your phone workflow is simple — one line, one greeting, one next step — DIY can work fine. If the setup touches after-hours coverage, transfer logic, booking rules, caller routing, or CRM handoff, hiring help is usually the cheaper move once you count owner time, rework, and the calls that keep dropping while the system is half-configured. The real question is not whether you can build it yourself. It is whether this phone workflow matters enough that you want it answering real calls reliably without spending nights debugging greetings, transfer conditions, booking windows, voicemail fallback, and edge cases.\nSub: Below: when DIY phone-answering setup is still a smart move, when expert help pays for itself, what each path really costs, and how to tell whether you need a tutorial, a bounded implementation engagement, or a simpler missed-call workflow first.\n\n### Core sections\n- What this decision is really about\n- DIY phone-answering setup vs. hiring expert help\n- When DIY is a strong fit — and when hiring help is smarter\n- Where small-business DIY phone-answering projects usually break down\n- How to make the right call before you burn a month on setup\n- Relevant proof and adjacent proof\n\n### FAQ\nSubhead: Practical questions from owners deciding whether to keep building their phone-answering workflow alone or bring in expert setup help\nTopics: when DIY phone-answering setup makes sense, when setup help is worth paying for, how this differs from the phone-answering setup page, realistic setup-cost ranges, and whether it is smart to prototype first and hire later.\n\n### Final CTA\nHeading: Want a clear answer on whether this phone workflow is worth DIYing?\nBody: Book a 30-minute call. We will look at your call flow, transfer logic, booking rules, after-hours coverage, and CRM handoff so you can decide whether the smartest next step is DIY, a bounded setup engagement, or a simpler missed-call workflow first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the AI phone answering cluster already had the broad service-business page plus setup, cost, and ROI pages live, but was still missing the explicit buy-vs-build implementation decision layer."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page separate from `/ai-phone-answering-setup-small-business` by centering the earlier buyer question: whether to keep pushing through setup alone or hire help now, rather than re-explaining implementation scope."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used adjacent proof from the Paris Cafe voice-agent case study plus the live phone-answering setup/cost/ROI cluster without inventing a fake dedicated small-business phone-answering setup case study."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "Added cluster links so the existing setup, cost, and ROI pages now point back to this new setup-vs-DIY page instead of relying only on Guides, sitemap, llm surfaces, and prompts discovery."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T05:36:21.259Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 26.8,
+      "sentenceLengthRange": [
+        5,
+        57
+      ],
+      "totalWords": 322
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nHeading: AI Phone Answering Setup: Hire Help or DIY?",
+      "wordCount": 10,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a clear answer on whether this phone workflow is worth DIYing?\nBody: Book a 30-minute call. We will look at your call flow, transfer logic, booking rules, after-hours coverage, and CRM handoff so you can decide whether the smartest next step is DIY, a bounded setup engagement, or a simpler missed-call workflow first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 28,
+      "emDashes": 3,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 9,
+      "commasPerSentence": 2.55
+    },
+    "vocabulary": {
+      "distinctWords": 167,
+      "totalWords": 322,
+      "topWords": [
+        [
+          "setup",
+          10
+        ],
+        [
+          "diy",
+          8
+        ],
+        [
+          "help",
+          7
+        ],
+        [
+          "whether",
+          7
+        ],
+        [
+          "workflow",
+          6
+        ],
+        [
+          "when",
+          6
+        ],
+        [
+          "phone-answering",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "phone",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "one",
+          3
+        ],
+        [
+          "can",
+          3
+        ],
+        [
+          "transfer",
+          3
+        ],
+        [
+          "booking",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

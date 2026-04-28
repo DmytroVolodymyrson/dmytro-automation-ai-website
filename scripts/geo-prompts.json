@@ -2157,6 +2157,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-setup-vs-diy-small-business",
+      "path": "/ai-phone-answering-setup-vs-diy-small-business",
+      "label": "AI Phone Answering Setup vs. DIY for Small Business",
+      "prompts": [
+        "AI phone answering setup vs DIY for small business",
+        "Should I hire someone to set up AI phone answering or do it myself?",
+        "When is DIY AI phone answering setup enough for a small business?",
+        "Is expert AI phone answering setup worth paying for?",
+        "Buy vs build AI phone answering for a small business"
+      ]
+    },
+    {
       "id": "ai-voice-agent-roi-for-lead-follow-up",
       "path": "/ai-voice-agent-roi-for-lead-follow-up",
       "label": "AI Voice Agent ROI for Lead Follow-Up",

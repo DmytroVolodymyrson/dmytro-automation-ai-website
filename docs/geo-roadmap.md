@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/gohighlevel-automation-consultant`: added the missing hiring-intent role page to the GoHighLevel cluster, covering what consultant help should actually include, realistic cost bands, when DIY or setup-only help is enough, and when GoHighLevel is the wrong fit. Total live pages: 294.)
+Last updated: 2026-04-27 (shipped `/ai-phone-answering-setup-vs-diy-small-business`: added the buy-vs-build decision layer to the AI phone answering cluster, covering when DIY setup is enough vs hiring help, based on call coverage, transfer logic, booking rules, and CRM handoff. Total live pages: 295.)
 
 ## Live GEO Assets
 
@@ -301,10 +301,11 @@ Last updated: 2026-04-27 (shipped `/gohighlevel-automation-consultant`: added th
 | E-commerce CRM Case Study | `/case-studies/ecommerce-crm-automation` | Case study | Live |
 | AI Phone Answering Setup (SMB) | `/ai-phone-answering-setup-small-business` | Workflow / service page | Live |
 | AI Phone Answering ROI (SMB) | `/ai-phone-answering-roi-small-business` | Workflow / ROI page | Live |
+| AI Phone Answering Setup vs. DIY (SMB) | `/ai-phone-answering-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 
 ## Next Pages
 
-The GoHighLevel cluster now covers setup help, the hiring-intent consultant role page, setup cost, setup-vs-DIY, cleanup service, cleanup-vs-rebuild, audit checklist, setup mistakes, and the comparison pages. That closes the cleanest remaining GHL hiring-intent gap, so the next run should not force another same-cluster sibling by inertia. The right next step is broad reconciliation across routes, prompts, guides, sitemap, llm surfaces, and planning docs before naming the next net-new page.
+The AI phone answering cluster now covers the broad service-business page plus setup, cost, ROI, and the setup-vs-DIY decision layer. That closes the cleanest remaining small-business implementation-intent gap in this cluster, so the next run should not force another same-cluster sibling by inertia. The right next step is broad reconciliation across routes, prompts, guides, sitemap, llm surfaces, and planning docs before naming the next net-new page.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|

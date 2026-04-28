@@ -610,6 +610,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Phone Answering Setup vs. DIY for Small Business",
+    description:
+      "Practical buy-vs-build guide for AI phone answering — when DIY setup is enough, when hiring help is cheaper than delay, and how to decide based on call coverage, transfer logic, booking rules, and CRM handoff.",
+    href: "/ai-phone-answering-setup-vs-diy-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Voice Agent ROI for Lead Follow-Up",
     description:
       "Practical ROI guide for voice-agent lead handling — setup cost, monthly cost, conservative payback math, and when a voice workflow is actually worth building versus overkill.",
