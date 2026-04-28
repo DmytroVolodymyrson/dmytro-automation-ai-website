@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-ai-lead-follow-up-for-service-businesses",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Existing page context\nHeading: AI Lead Follow-Up for Service Businesses\nHero: Most service businesses lose leads because they respond too slowly. AI follow-up fixes that by contacting every lead within seconds and staying on them until they book or opt out.\nSub: Below: how it works, what it costs, which businesses benefit most, and how to tell if it is worth the investment for yours.\n\n### New section\nHeading: What a first lead-follow-up build usually includes\nBody: Most service businesses start with a focused system that covers the highest-impact gap — not a full omnichannel overhaul. A realistic first build typically includes these pieces: instant first-touch via SMS and email; a 5-to-7-touch follow-up sequence over 7 to 14 days; missed-call recovery; CRM tagging and status updates; and qualified-lead handoff. The section explicitly routes to the instant lead response page, missed-call text-back page, cost guide, estimate follow-up page, AI appointment setter page, maintenance/support page, and the no-tech-team guide.\nSub: This scope usually takes 2 to 4 weeks to build and costs between $2,000 and $5,000 depending on channels, CRM complexity, and qualification logic.\n\n### FAQ\nQuestion: What does a realistic first lead-follow-up build include?\nAnswer: A typical first build covers instant SMS and email response to new inquiries, a 5-to-7-touch follow-up sequence over 7 to 14 days, missed-call text-back recovery, CRM tagging so your team sees lead status without manual updates, and a qualified-lead handoff that routes ready leads to a team member or directly onto a calendar. This scope usually takes 2 to 4 weeks and costs between $2,000 and $5,000 depending on channels, CRM complexity, and qualification logic.\n\n### Final CTA\nHeading: Book a 30-Minute Call\nBody: Service-business owners who need faster response, clearer scope, and a realistic first-phase quote can use this page to decide whether to start with lead follow-up, missed-call recovery, estimate follow-up, or a broader booking workflow.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as a bounded indexing-support refresh for an existing parent workflow page instead of creating a net-new URL."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The new section is intentionally answer-extractable: it defines what a first production-worthy lead-follow-up build includes in plain buyer language, with no hype and no fake proof."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The copy pushes readers and crawlers into real adjacent workflow pages so the parent guide acts more clearly like a cluster hub instead of a generic overview."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The FAQ mirrors the new section so the page’s existing FAQPage schema can expose the same scope answer more directly to search and AI systems."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and specific: realistic first build, realistic timeline, realistic cost band, and explicit routing to narrower pages when the leak is really missed calls, estimates, or booking."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T11:25:41.641Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        4,
+        3,
+        1
+      ],
+      "avgSentenceLength": 28,
+      "sentenceLengthRange": [
+        10,
+        54
+      ],
+      "totalWords": 308
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Existing page context\nHeading: AI Lead Follow-Up for Service Businesses\nHero: Most service businesses lose leads because they respond too slowly.",
+      "wordCount": 21,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Book a 30-Minute Call\nBody: Service-business owners who need faster response, clearer scope, and a realistic first-phase quote can use this page to decide whether to start with lead follow-up, missed-call recovery, estimate follow-up, or a broader booking workflow.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 26,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 12,
+      "commasPerSentence": 2.36
+    },
+    "vocabulary": {
+      "distinctWords": 157,
+      "totalWords": 308,
+      "topWords": [
+        [
+          "page",
+          7
+        ],
+        [
+          "follow-up",
+          7
+        ],
+        [
+          "lead",
+          5
+        ],
+        [
+          "build",
+          5
+        ],
+        [
+          "businesses",
+          4
+        ],
+        [
+          "first",
+          4
+        ],
+        [
+          "missed-call",
+          4
+        ],
+        [
+          "crm",
+          4
+        ],
+        [
+          "heading",
+          3
+        ],
+        [
+          "ai",
+          3
+        ],
+        [
+          "service",
+          3
+        ],
+        [
+          "most",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "what",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

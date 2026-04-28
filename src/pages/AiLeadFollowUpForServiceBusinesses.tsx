@@ -74,6 +74,11 @@ const faqItems = [
     answer:
       "Absolutely. The system handles the initial response and routine follow-up sequences. High-value leads or complex requests get flagged and routed to your team with full context. The goal is not to remove humans from the process. It is to make sure no lead waits.",
   },
+  {
+    question: "What does a realistic first lead-follow-up build include?",
+    answer:
+      "A typical first build covers instant SMS and email response to new inquiries, a 5-to-7-touch follow-up sequence over 7 to 14 days, missed-call text-back recovery, CRM tagging so your team sees lead status without manual updates, and a qualified-lead handoff that routes ready leads to a team member or directly onto a calendar. This scope usually takes 2 to 4 weeks and costs between $2,000 and $5,000 depending on channels, CRM complexity, and qualification logic.",
+  },
 ];
 
 const AiLeadFollowUpForServiceBusinesses = () => {
@@ -292,6 +297,136 @@ const AiLeadFollowUpForServiceBusinesses = () => {
               </Link>
             </div>
           </div>
+        </Section>
+
+        {/* What a first build includes */}
+        <Section>
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
+            What a first lead-follow-up build usually includes
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-3xl mb-8 leading-relaxed">
+            Most service businesses start with a focused system that covers
+            the highest-impact gap — not a full omnichannel overhaul. A
+            realistic first build typically includes these pieces:
+          </p>
+          <ol className="max-w-3xl flex flex-col gap-4 mb-8 list-decimal list-inside">
+            {[
+              {
+                text: (
+                  <>
+                    <strong>Instant first-touch via SMS and email.</strong> When a lead submits a
+                    form or sends a message, the system replies within seconds using
+                    the lead's name, the service they asked about, and a clear next
+                    step. This is the same layer covered in the{" "}
+                    <Link
+                      to="/instant-lead-response-automation"
+                      className="text-primary hover:text-primary/80 underline underline-offset-4"
+                    >
+                      instant lead response
+                    </Link>{" "}
+                    guide.
+                  </>
+                ),
+              },
+              {
+                text: (
+                  <>
+                    <strong>A 5-to-7-touch follow-up sequence over 7 to 14 days.</strong> If the
+                    lead does not respond to the first message, the system sends
+                    follow-ups on a schedule — different angles, different channels —
+                    until the lead books, replies, or opts out.
+                  </>
+                ),
+              },
+              {
+                text: (
+                  <>
+                    <strong>Missed-call recovery.</strong> If a lead calls and no one picks up,
+                    the system sends a text within seconds acknowledging the missed
+                    call and offering to help. See the{" "}
+                    <Link
+                      to="/missed-call-text-back-for-service-businesses"
+                      className="text-primary hover:text-primary/80 underline underline-offset-4"
+                    >
+                      missed-call text-back
+                    </Link>{" "}
+                    page for how this works in detail.
+                  </>
+                ),
+              },
+              {
+                text: (
+                  <>
+                    <strong>CRM tagging and status updates.</strong> Every lead interaction gets
+                    logged automatically — contact rate, reply status, qualification
+                    answers — so your team always knows where each lead stands
+                    without manually updating records.
+                  </>
+                ),
+              },
+              {
+                text: (
+                  <>
+                    <strong>Qualified-lead handoff.</strong> Leads that pass your qualification
+                    criteria get routed to a team member or booked directly onto a
+                    calendar. Everything else stays in the sequence or gets filtered
+                    out.
+                  </>
+                ),
+              },
+            ].map((item, i) => (
+              <li
+                key={i}
+                className="text-sm text-muted-foreground leading-relaxed pl-1"
+              >
+                {item.text}
+              </li>
+            ))}
+          </ol>
+          <p className="text-sm text-muted-foreground max-w-3xl leading-relaxed mb-4">
+            This scope usually takes 2 to 4 weeks to build and costs between
+            $2,000 and $5,000 depending on channels, CRM complexity, and
+            qualification logic. The{" "}
+            <Link
+              to="/ai-lead-follow-up-cost-small-business"
+              className="text-primary hover:text-primary/80 underline underline-offset-4"
+            >
+              cost guide
+            </Link>{" "}
+            breaks down the price bands in detail.
+          </p>
+          <p className="text-sm text-muted-foreground max-w-3xl leading-relaxed">
+            After the first build is running, common add-ons include{" "}
+            <Link
+              to="/estimate-follow-up-automation-for-service-businesses"
+              className="text-primary hover:text-primary/80 underline underline-offset-4"
+            >
+              estimate follow-up automation
+            </Link>
+            ,{" "}
+            <Link
+              to="/ai-appointment-setter"
+              className="text-primary hover:text-primary/80 underline underline-offset-4"
+            >
+              AI appointment setting
+            </Link>
+            , and{" "}
+            <Link
+              to="/ai-automation-maintenance-and-support-small-business"
+              className="text-primary hover:text-primary/80 underline underline-offset-4"
+            >
+              ongoing maintenance
+            </Link>
+            . But the first system should prove ROI on its own before expanding
+            scope. If you do not have a technical team in-house, the{" "}
+            <Link
+              to="/ai-automation-for-businesses-without-a-tech-team"
+              className="text-primary hover:text-primary/80 underline underline-offset-4"
+            >
+              no-tech-team guide
+            </Link>{" "}
+            explains how the build and handoff work.
+          </p>
         </Section>
 
         {/* The problem */}
