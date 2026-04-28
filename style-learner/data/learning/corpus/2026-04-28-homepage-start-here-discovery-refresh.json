@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-homepage-start-here-discovery-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: Start here\nBody: Four places to dig in, depending on where you are in your research.\n\n### New homepage discovery section\nSection: Start here\n- Guides\n  - Step-by-step breakdowns of the automations that work for small service businesses — lead follow-up, appointment setting, reactivation, and more.\n- Case Studies\n  - Real results from real businesses: Paris Cafe went from 0% to 100% after-hours coverage, WheelsFeels saw a 185% conversion lift. See the full numbers.\n- Working with a Consultant\n  - What an AI automation consultant actually does, what it costs, and how to tell if hiring one makes sense for your business right now.\n- Best First Automations\n  - Not sure where to start? This page ranks the automations by payoff speed so you can pick the one that fits your team, budget, and workflow.\n\n### Internal-linking purpose\nSection: Discovery and indexing support\n- Adds a new homepage-level routing block to the four highest-value discovered-not-indexed pages:\n  - /guides\n  - /case-studies\n  - /ai-automation-consultant-small-business\n  - /best-ai-automation-for-service-businesses\n- Keeps the framing practical: proof, research depth, consultant fit, and first-project selection.\n- Avoids generic marketing copy and uses clear reasons to click from the homepage.\n\n### Final CTA\nHeading: Book a call\nBody: If you already know your bottleneck, book a 30-minute call and we’ll map the smallest automation worth building first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded homepage indexing/internal-linking refresh, not a new GEO page ship."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The section is deliberately concise so it behaves like a routing layer, not a second hero."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Copy stays practical and proof-aware: case studies for evidence, consultant page for fit/cost, best-first-automations page for prioritization, and guides for deeper research."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The goal is to create a stronger homepage-level internal link signal for high-value pages that Google already discovered but has not indexed yet."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T07:04:51.344Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        1,
+        6,
+        2,
+        1
+      ],
+      "avgSentenceLength": 21.6,
+      "sentenceLengthRange": [
+        4,
+        41
+      ],
+      "totalWords": 216
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Start here\nBody: Four places to dig in, depending on where you are in your research.",
+      "wordCount": 18,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Final CTA\nHeading: Book a call\nBody: If you already know your bottleneck, book a 30-minute call and we’ll map the smallest automation worth building first.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 13,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 15,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 1.3
+    },
+    "vocabulary": {
+      "distinctWords": 143,
+      "totalWords": 216,
+      "topWords": [
+        [
+          "-",
+          15
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "start",
+          3
+        ],
+        [
+          "section",
+          3
+        ],
+        [
+          "automations",
+          3
+        ],
+        [
+          "from",
+          3
+        ],
+        [
+          "consultant",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "here",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "four",
+          2
+        ],
+        [
+          "where",
+          2
+        ],
+        [
+          "research",
+          2
+        ],
+        [
+          "new",
+          2
+        ],
+        [
+          "homepage",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.005
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

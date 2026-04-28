@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/gohighlevel-vs-keap-small-business`: added the cleanest remaining small-business CRM comparison inside the live GoHighLevel cluster, covering pricing floor, user/contact limits, automation fit, payments differences, and the real migration friction from Keap/Infusionsoft into GoHighLevel. Total live pages: 297.)
+Last updated: 2026-04-28 (bounded homepage internal-linking refresh: added a "Start here" discovery section on `/` with direct card links to the four highest-value discovered-not-indexed pages — `/guides`, `/case-studies`, `/ai-automation-consultant-small-business`, `/best-ai-automation-for-service-businesses`. No net-new GEO page shipped. The live-assets table below is still the older 297-row tracked subset and should be reconciled against the larger live route set in a follow-up pass.)
 
 ## Live GEO Assets
 
@@ -307,8 +307,12 @@ Last updated: 2026-04-28 (shipped `/gohighlevel-vs-keap-small-business`: added t
 
 ## Next Pages
 
-The GoHighLevel comparison cluster now covers the broader small-business custom-CRM decision plus HubSpot and Keap as two distinct mainstream SaaS alternatives. That closes the cleanest remaining SMB CRM-vendor comparison in this cluster, so the next run should not force another same-cluster SaaS-vs-SaaS page by inertia. The right next step is still broad reconciliation across routes, prompts, guides, sitemap, llm surfaces, and planning docs before naming the next net-new page.
+This run shipped a bounded homepage/discovery refresh — not a net-new page. The homepage now has strong internal links into the four discovered-not-indexed priority pages. The next run should:
+
+1. **Re-check GSC status** for `/guides`, `/case-studies`, `/ai-automation-consultant-small-business`, and `/best-ai-automation-for-service-businesses` after this deploy lands. If any are still discovered-not-indexed, request indexing manually in GSC.
+2. **Run broad reconciliation** across routes, prompts, guides, sitemap, and llm surfaces before naming a net-new page. The drift between `scripts/geo-prompts.json`, `docs/geo-tracking.md`, `src/pages/Guides.tsx`, `public/sitemap.xml`, and the live route/component set still needs a cleanup pass.
+3. **Only then** identify the next safe net-new page — one that fills a clearly distinct buyer-intent gap and survives full route/file verification.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Broad prompts/route reconciliation pass | `scripts/geo-prompts.json`, `docs/geo-tracking.md`, `src/pages/Guides.tsx`, `public/sitemap.xml`, and the `llm` surfaces still drift from the live route/component set in places, which weakens tracking and internal discovery even when the content exists. | Re-run the live-routes vs prompts/guides/sitemap/llm diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full route/file verification. |
+| 1 | Broad prompts/route reconciliation pass | Drift between tracking docs, prompts, guides, sitemap, and llm surfaces weakens internal discovery even when content exists. | Re-run the live-routes vs prompts/guides/sitemap/llm diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
