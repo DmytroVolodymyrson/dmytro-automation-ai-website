@@ -155,6 +155,7 @@ const AppointmentSchedulingAndReminderAutomationForAccountingFirms = lazy(() => 
 const SeasonalClientReactivationForAccountingFirms = lazy(() => import("./pages/SeasonalClientReactivationForAccountingFirms"));
 const AiLeadFollowUpForAccountingFirms = lazy(() => import("./pages/AiLeadFollowUpForAccountingFirms"));
 const AiPhoneAnsweringForAccountingFirms = lazy(() => import("./pages/AiPhoneAnsweringForAccountingFirms"));
+const AiPhoneAnsweringCostForAccountingFirms = lazy(() => import("./pages/AiPhoneAnsweringCostForAccountingFirms"));
 const AiPhoneAnsweringVsVoicemailForAccountingFirms = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForAccountingFirms"));
 const MissedCallTextBackVsVoicemailForAccountingFirms = lazy(() => import("./pages/MissedCallTextBackVsVoicemailForAccountingFirms"));
 const MissedCallTextBackForAccountingFirms = lazy(() => import("./pages/MissedCallTextBackForAccountingFirms"));
@@ -584,6 +585,7 @@ const AppRoutesClient = () => (
       <Route path="/seasonal-client-reactivation-for-accounting-firms" element={<SeasonalClientReactivationForAccountingFirms />} />
       <Route path="/ai-lead-follow-up-for-accounting-firms" element={<AiLeadFollowUpForAccountingFirms />} />
       <Route path="/ai-phone-answering-for-accounting-firms" element={<AiPhoneAnsweringForAccountingFirms />} />
+      <Route path="/ai-phone-answering-cost-for-accounting-firms" element={<AiPhoneAnsweringCostForAccountingFirms />} />
       <Route path="/ai-phone-answering-vs-voicemail-for-accounting-firms" element={<AiPhoneAnsweringVsVoicemailForAccountingFirms />} />
       <Route path="/missed-call-text-back-vs-ai-phone-answering-for-accounting-firms" element={<MissedCallTextBackVsAiPhoneAnsweringForAccountingFirms />} />
       <Route path="/missed-call-text-back-vs-voicemail-for-accounting-firms" element={<MissedCallTextBackVsVoicemailForAccountingFirms />} />

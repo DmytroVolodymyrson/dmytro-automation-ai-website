@@ -1420,7 +1420,19 @@
         "Best AI live phone coverage for CPA practices",
         "Should an accounting firm use AI phone answering instead of voicemail?",
         "AI professional intake and inquiry handling for accounting",
-        "How much does AI phone answering cost for an accounting firm?"
+        "When should an accounting firm move from missed-call fallback to live AI phone answering?"
+      ]
+    },
+    {
+      "id": "ai-phone-answering-cost-for-accounting-firms",
+      "path": "/ai-phone-answering-cost-for-accounting-firms",
+      "label": "AI Phone Answering Cost for Accounting Firms",
+      "prompts": [
+        "AI phone answering cost for accounting firms",
+        "How much does AI phone answering cost for an accounting firm?",
+        "What should a CPA firm budget for live AI phone coverage during tax season?",
+        "Cost of AI phone answering vs voicemail for accounting firms",
+        "What makes AI phone answering expensive for an accounting practice?"
       ]
     },
     {

@@ -1430,6 +1430,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering Cost for Accounting Firms",
+    description:
+      "Pricing guide for accounting firms budgeting live AI phone coverage — realistic setup and monthly ranges for tax-season intake, status-call handling, meeting booking, after-hours demand, and professional escalation rules.",
+    href: "/ai-phone-answering-cost-for-accounting-firms",
+    category: "industries",
+  },
+  {
     title: "Missed Call Text-Back for Accounting Firms",
     description:
       "SMS-first missed-call recovery for accounting firms — immediate acknowledgment after a missed intake call, lightweight context capture, faster callback routing, and a cleaner middle layer between voicemail and heavier live AI phone answering.",

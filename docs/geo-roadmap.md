@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses` — a new service-business workflow comparison page that answers an exact buyer-stage question already tracked on the live scheduling parent: does this business need a front-end AI appointment setter, or are booked visits already happening and the real leak now sits in confirmations, reminders, and reschedules? It stays distinct by comparing the conversational booking layer against the downstream scheduling-protection layer instead of re-explaining either parent page. Previous: `/review-request-vs-referral-request-for-service-businesses`.)
+Last updated: 2026-04-28 (shipped `/ai-phone-answering-cost-for-accounting-firms` — a new accounting-cluster pricing page extracted from an exact tracked prompt already sitting on the live accounting phone-answering parent: how much should a firm budget for live AI phone coverage? The new page stays distinct from the generic small-business cost guide by focusing on tax-season volume spikes, intake vs. status-call logic, meeting-booking/reschedule handling, and professional escalation boundaries inside an accounting workflow. Previous: `/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 320.
+**Total live GEO pages tracked here:** 321.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -185,6 +185,7 @@ Last updated: 2026-04-28 (shipped `/appointment-scheduling-and-reminder-automati
 | Seasonal Reactivation (Accounting) | `/seasonal-client-reactivation-for-accounting-firms` | Vertical workflow page | Live |
 | AI Lead Follow-Up (Accounting) | `/ai-lead-follow-up-for-accounting-firms` | Vertical workflow page | Live |
 | AI Phone Answering (Accounting) | `/ai-phone-answering-for-accounting-firms` | Vertical solution page | Live |
+| AI Phone Answering Cost (Accounting) | `/ai-phone-answering-cost-for-accounting-firms` | Vertical cost page | Live |
 | AI Phone vs Voicemail (Accounting) | `/ai-phone-answering-vs-voicemail-for-accounting-firms` | Vertical comparison page | Live |
 | Text-Back vs AI Phone (Accounting) | `/missed-call-text-back-vs-ai-phone-answering-for-accounting-firms` | Vertical comparison page | Live |
 | Missed Call Text-Back vs Voicemail (Accounting) | `/missed-call-text-back-vs-voicemail-for-accounting-firms` | Vertical comparison page | Live |
@@ -332,16 +333,16 @@ Last updated: 2026-04-28 (shipped `/appointment-scheduling-and-reminder-automati
 
 ## Next Pages
 
-This run started from a fresh broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and the live route/page set. The strongest clean gap was a missing stage-decision page already hiding inside the live scheduling parent prompts: should a service business add a front-end AI appointment setter, or are booked visits already happening and the bigger leak now sits in confirmations, reminders, and reschedules? Shipping that page closes a real buyer-intent gap without forcing a thin same-cluster vertical child or inventing new proof.
+This run also started from a fresh broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and the live route/page set. The strongest clean gap that survived route and prompt checks was a missing pricing child already implied by the live accounting phone-answering parent: what should an accounting firm actually budget for live AI phone coverage? Shipping that page closes an exact buyer-intent gap without inventing a new cluster or forcing a thin same-stage sibling.
 
 The next run should:
 
-1. **Keep manual GSC follow-through moving** on newly shipped workflow comparison pages and refreshed priority URLs instead of treating publish alone as the finish line.
-2. **Start from another fresh broad reconciliation before naming the next net-new page** so the queue does not drift into stale appointment-setter/scheduling-cluster inertia just because this cluster shipped well again.
-3. **Only force another same-cluster sibling if an exact materially different buyer query still survives that reconciliation**; otherwise leave the queue in watchlist mode and pivot to the strongest distinct cross-cluster gap.
+1. **Keep manual GSC follow-through moving** on the newest shipped pages and refreshed priority URLs instead of treating publish alone as the finish line.
+2. **Start from another fresh broad reconciliation before naming the next net-new page** so the queue does not drift into stale accounting-cluster inertia just because this cluster produced one clean pricing child.
+3. **Only force another same-cluster accounting sibling if another exact materially different tracked query still survives review**; otherwise leave the queue in watchlist mode and pivot to the strongest distinct cross-cluster gap.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Manual GSC follow-through on refreshed priority URLs and newly shipped scheduling/appointment-setter comparison pages | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |
-| 2 | Fresh broad reconciliation before another net-new page | The repo is dense enough that stale docs can still make already-live pages look missing or can over-credit the service-business scheduling cluster with the next run by default. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
-| 3 | Watchlist: next same-cluster sibling only if a truly distinct stage-decision query survives review | The scheduling/appointment-setter cluster is stronger now, but a forced follow-up page would risk sliding into thin overlap unless a clearly different buyer decision still remains after this comparison page. | Verify any same-cluster candidate is still absent from routes, pages, sitemap, llm files, and geo prompts, and confirm it answers a materially different decision than the live scheduling parent, AI appointment setter parent, booking-confirmation page, and new comparison page. |
+| 1 | Manual GSC follow-through on refreshed priority URLs and the newest accounting/service-business ships | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |
+| 2 | Fresh broad reconciliation before another net-new page | The repo is dense enough that stale docs can still make already-live pages look missing or can over-credit the accounting cluster with the next run by default. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
+| 3 | Watchlist: another same-cluster accounting child only if a truly distinct tracked query still survives review | The accounting cluster is stronger now, but a forced follow-up page would risk sliding into thin overlap unless a clearly different buyer question still remains after this pricing page. | Verify any same-cluster candidate is still absent from routes, pages, sitemap, llm files, and geo prompts, and confirm it answers a materially different decision than the live accounting parent, phone-answering parent, missed-call/voicemail comparison pages, and the new pricing child. |

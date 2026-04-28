@@ -154,6 +154,7 @@ import AppointmentSchedulingAndReminderAutomationForAccountingFirms from "./page
 import SeasonalClientReactivationForAccountingFirms from "./pages/SeasonalClientReactivationForAccountingFirms";
 import AiLeadFollowUpForAccountingFirms from "./pages/AiLeadFollowUpForAccountingFirms";
 import AiPhoneAnsweringForAccountingFirms from "./pages/AiPhoneAnsweringForAccountingFirms";
+import AiPhoneAnsweringCostForAccountingFirms from "./pages/AiPhoneAnsweringCostForAccountingFirms";
 import AiPhoneAnsweringVsVoicemailForAccountingFirms from "./pages/AiPhoneAnsweringVsVoicemailForAccountingFirms";
 import MissedCallTextBackVsVoicemailForAccountingFirms from "./pages/MissedCallTextBackVsVoicemailForAccountingFirms";
 import ReviewRequestAutomationForAccountingFirms from "./pages/ReviewRequestAutomationForAccountingFirms";
@@ -618,6 +619,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/seasonal-client-reactivation-for-accounting-firms", element: <SeasonalClientReactivationForAccountingFirms /> },
   { path: "/ai-lead-follow-up-for-accounting-firms", element: <AiLeadFollowUpForAccountingFirms /> },
   { path: "/ai-phone-answering-for-accounting-firms", element: <AiPhoneAnsweringForAccountingFirms /> },
+  { path: "/ai-phone-answering-cost-for-accounting-firms", element: <AiPhoneAnsweringCostForAccountingFirms /> },
   { path: "/ai-phone-answering-vs-voicemail-for-accounting-firms", element: <AiPhoneAnsweringVsVoicemailForAccountingFirms /> },
   { path: "/missed-call-text-back-vs-ai-phone-answering-for-accounting-firms", element: <MissedCallTextBackVsAiPhoneAnsweringForAccountingFirms /> },
   { path: "/missed-call-text-back-vs-voicemail-for-accounting-firms", element: <MissedCallTextBackVsVoicemailForAccountingFirms /> },
