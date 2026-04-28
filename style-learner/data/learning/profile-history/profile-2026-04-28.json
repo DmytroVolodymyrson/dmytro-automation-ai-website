@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-28T04:14:52.339Z",
+  "updatedAt": "2026-04-28T04:30:48.502Z",
   "postCount": 438,
   "platforms": {
     "telegram": 0,
@@ -27,7 +27,7 @@
       "samples": 438
     },
     "totalWords": {
-      "mean": 332.3,
+      "mean": 332.5,
       "median": 334,
       "min": 17,
       "max": 1155,
@@ -98,7 +98,7 @@
       "long | single | long | single | single | single": 1,
       "long | short | single | single | long | short": 1,
       "long | single | long | short | long | single | long": 1,
-      "long | short | single | single | long": 1,
+      "long | short | long | single | single | long": 1,
       "long | short | long | long | long | long": 1,
       "long | short | long | single": 1,
       "long | short | long | long | long | short | single": 1,
@@ -163,7 +163,7 @@
       "opener | context | context | context | context | result | context | context | context | context | context | closer": 1,
       "opener | result | context | context | context | closer": 1,
       "opener | context | result | product-pitch | context | product-pitch | closer": 1,
-      "opener | context | context | product-pitch | closer": 1,
+      "opener | product-pitch | context | product-pitch | product-pitch | closer": 1,
       "opener | context | context | product-pitch | product-pitch | closer": 1,
       "opener | context | context | product-pitch | product-pitch | context | closer": 1,
       "opener | context | context | result | context | product-pitch | context | context | context | context | closer": 1,
@@ -264,19 +264,19 @@
     "topWords": [
       [
         "-",
-        2708
+        2723
       ],
       [
         "what",
-        1489
+        1490
       ],
       [
         "automation",
-        1192
+        1198
       ],
       [
         "ai",
-        1039
+        1041
       ],
       [
         "page",
@@ -311,20 +311,20 @@
         620
       ],
       [
+        "follow-up",
+        591
+      ],
+      [
         "live",
         590
       ],
       [
-        "follow-up",
-        586
-      ],
-      [
         "your",
-        547
+        548
       ],
       [
         "first",
-        540
+        545
       ],
       [
         "call",
@@ -332,7 +332,7 @@
       ],
       [
         "text-back",
-        503
+        507
       ],
       [
         "answering",
@@ -344,7 +344,7 @@
       ],
       [
         "missed-call",
-        436
+        440
       ],
       [
         "should",
@@ -356,7 +356,7 @@
       ],
       [
         "heading",
-        314
+        317
       ],
       [
         "that",
@@ -364,7 +364,7 @@
       ],
       [
         "lead",
-        303
+        305
       ],
       [
         "not",
@@ -375,12 +375,12 @@
         281
       ],
       [
-        "company",
-        199
+        "service",
+        200
       ],
       [
-        "service",
-        198
+        "company",
+        199
       ]
     ],
     "casualMarkerRate": 0,

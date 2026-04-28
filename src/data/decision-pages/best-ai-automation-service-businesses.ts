@@ -24,7 +24,7 @@ const data: DecisionPageData = {
   badgeIcon: Scale,
   h1: "Best AI Automations for Service Businesses",
   heroIntro:
-    "The best AI automation for a service business is instant lead response — replying to every inquiry within 60 seconds via SMS or voice. In real deployments, this single automation increases lead-to-booking conversion by 30–50% because most competitors take hours to respond or never follow up at all. Below is a decision framework — not a product list — that maps five proven automations to specific service-business bottlenecks, with cost ranges, ROI timelines, and implementation order based on results across HVAC, restaurant, dental, legal, property management, and e-commerce companies.",
+    "The best first AI automation for a service business is instant lead response — replying to every inquiry within 60 seconds via SMS or voice. It costs $1K–$2K to deploy, pays for itself in the first week, and increases lead-to-booking conversion by 30–50% because most competitors take hours to respond or never follow up at all. Below is a decision framework — not a product list — that maps five proven automations to specific service-business bottlenecks, with budget tiers, ROI timelines, and implementation order based on results across HVAC, restaurant, dental, legal, property management, and e-commerce companies.",
   heroSubtext:
     "Below: a fit/not-fit evaluation, a bottleneck router so you start with the right automation, a decision matrix ranked by impact and setup cost, two real-world case studies with measurable outcomes, and direct links to industry-specific and workflow-specific guides.",
   sections: [
@@ -158,6 +158,44 @@ const data: DecisionPageData = {
         {
           label: "Review automation",
           values: ["Medium (compounds)", "$500–$1.5K", "2–4 weeks"],
+        },
+      ],
+    },
+    {
+      type: "cards",
+      title: "Pick your first automation by budget",
+      subtitle:
+        "If you're unsure where to start, let your available budget decide. Each tier below is a complete, standalone project — not a partial build that needs more money to work.",
+      items: [
+        {
+          icon: DollarSign,
+          title: "Under $2K — Speed-to-lead auto-reply",
+          body: "An instant SMS + email response to every form submission and missed call. This is the highest-ROI automation at any price point. It requires no AI voice agent, no CRM migration, and no ongoing subscription beyond your existing tools. Most businesses see a measurable conversion lift within the first week.",
+          links: [
+            { label: "Instant lead response workflow", href: "/instant-lead-response-automation" },
+            { label: "Missed-call text-back guide", href: "/missed-call-text-back-for-service-businesses" },
+            { label: "AI automation cost breakdown", href: "/ai-automation-cost-small-business" },
+          ],
+        },
+        {
+          icon: Zap,
+          title: "$2K–$5K — Speed-to-lead + follow-up sequences",
+          body: "Everything in the under-$2K tier, plus a 5–7 touch nurture sequence over 14 days for leads who don't book on first contact. This combination recovers 15–25% of leads that would otherwise be lost. It's the most common first project for service businesses doing 20+ leads per week.",
+          links: [
+            { label: "Lead follow-up examples", href: "/lead-follow-up-automation-examples" },
+            { label: "Quote follow-up automation", href: "/quote-follow-up-automation" },
+            { label: "AI lead follow-up guide", href: "/ai-lead-follow-up-for-service-businesses" },
+          ],
+        },
+        {
+          icon: CalendarCheck,
+          title: "$5K–$10K — Full inbound pipeline automation",
+          body: "Speed-to-lead, follow-up sequences, and an AI booking agent that schedules appointments 24/7 without human involvement. This tier eliminates phone tag and after-hours lost leads entirely. Best fit for businesses with 50+ monthly inquiries where booking friction is the main bottleneck after lead capture.",
+          links: [
+            { label: "AI appointment setter guide", href: "/ai-appointment-setter" },
+            { label: "Appointment setter cost", href: "/ai-appointment-setter-cost-small-business" },
+            { label: "No-show reduction workflow", href: "/no-show-reduction-automation" },
+          ],
         },
       ],
     },
@@ -302,7 +340,13 @@ const data: DecisionPageData = {
       question:
         "How much should a small service business budget for AI automation?",
       answer:
-        "Start with $2K–$4K for your first automation (usually speed-to-lead + follow-up sequences). See the ROI before committing more. Most businesses recoup the investment within 30–60 days. A full automation stack (all five) typically costs $6K–$15K total built over 2–3 months.",
+        "Your first project should cost $1K–$4K depending on scope. Under $2K gets you instant lead auto-reply (SMS + email on every form submission and missed call) — the single highest-ROI automation at any price point. $2K–$4K adds a multi-touch follow-up sequence that recovers 15–25% of leads who don't book on first contact. See measurable results before spending more. A full five-automation stack typically costs $6K–$15K total, built incrementally over 2–3 months so each layer pays for itself before you add the next.",
+    },
+    {
+      question:
+        "What if I only have $500–$1,000 to spend on my first automation?",
+      answer:
+        "A missed-call text-back — an automated SMS sent within seconds of every unanswered call — can be built for under $1K and requires no AI voice agent, no CRM change, and no monthly subscription beyond your existing phone system. It's the smallest useful automation and a good proof-of-concept before investing more. If you're handy with Zapier or Make, you can build a basic version yourself for just the tool subscription cost ($20–$50/month).",
     },
     {
       question: "Do I need to change my CRM to use these automations?",
@@ -346,6 +390,10 @@ const data: DecisionPageData = {
     { label: "HVAC database reactivation", href: "/hvac-database-reactivation" },
     { label: "Automation without a tech team", href: "/ai-automation-for-businesses-without-a-tech-team" },
     { label: "Hire AI consultant vs DIY", href: "/hire-ai-automation-consultant-vs-diy" },
+    { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
+    { label: "Missed-call text-back cost", href: "/missed-call-text-back-cost-small-business" },
+    { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
+    { label: "Missed-call text-back for service businesses", href: "/missed-call-text-back-for-service-businesses" },
   ],
 };
 
