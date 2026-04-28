@@ -58,31 +58,103 @@ const data: DecisionPageData = {
           icon: Phone,
           title: "Instant lead response",
           body: "Every form submission or missed call triggers an immediate text and email. The prospect hears from you in under 60 seconds. No one on your team needs to log in and send anything manually. This is usually the safest first automation for a no-tech-team business.",
+          links: [
+            { label: "AI lead follow-up guide", href: "/ai-lead-follow-up-for-service-businesses" },
+            { label: "Missed-call text-back", href: "/missed-call-text-back-for-service-businesses" },
+          ],
         },
         {
           icon: MessageSquare,
           title: "Multi-touch follow-up sequences",
           body: "Automated SMS and email sequences that nurture leads who do not book on first contact. Five to seven messages over 14 days. You set it up once, it runs for every new lead, and the team only steps in when someone actually replies.",
+          links: [
+            { label: "Best first automations", href: "/best-ai-automation-for-service-businesses" },
+            { label: "All guides", href: "/guides" },
+          ],
         },
         {
           icon: CalendarCheck,
           title: "AI appointment booking",
           body: "An AI voice agent or chatbot that books appointments 24/7 without human involvement. Syncs with your calendar, sends confirmations and reminders, and removes a lot of phone tag — but it is usually a second or third step after basic lead response is already working.",
+          links: [
+            { label: "Scheduling and reminder workflows", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
+            { label: "AI appointment setter", href: "/ai-appointment-setter" },
+          ],
         },
         {
           icon: Star,
           title: "Review and reputation automation",
           body: "After every completed job, an automated sequence asks for a Google review. Happy customers get a direct link. Unhappy ones get routed to you first. Strong fit when service delivery is already consistent and you want a lighter automation with clear local-search upside.",
+          links: [
+            { label: "Review request automation", href: "/review-request-automation-for-service-businesses" },
+            { label: "View case studies", href: "/case-studies" },
+          ],
         },
         {
           icon: Zap,
           title: "CRM workflow automation",
           body: "Lead status updates, task assignments, notification triggers, and pipeline management. Your CRM does the bookkeeping automatically instead of relying on someone to update it manually. Best when you already have leads and jobs moving through repeatable stages.",
+          links: [
+            { label: "AI automation audit checklist", href: "/ai-automation-audit-checklist" },
+            { label: "AI automation maintenance and support", href: "/ai-automation-maintenance-and-support-small-business" },
+          ],
         },
         {
           icon: Users,
           title: "Database reactivation",
           body: "Automated campaigns to re-engage past customers and cold leads sitting in your CRM. Turn dormant contacts into booked jobs without manual outreach. Strong fit when you already have a real list worth working, not when you are still trying to generate first demand.",
+          links: [
+            { label: "Client reactivation workflow", href: "/client-reactivation-automation" },
+            { label: "Affordable AI automation", href: "/affordable-ai-automation-small-business" },
+          ],
+        },
+      ],
+    },
+    {
+      type: "cards",
+      title: "Choose the smallest safe first build",
+      subtitle:
+        "If you have no tech team, the right first automation depends on the bottleneck you already feel every week — not on which software demo looked the easiest.",
+      items: [
+        {
+          icon: Phone,
+          title: "You miss leads because nobody replies fast enough",
+          body: "Start with the lightest response layer that works even when the owner is busy: instant lead response, missed-call text-back, and simple follow-up discipline before you touch a bigger platform migration.",
+          links: [
+            { label: "AI lead follow-up", href: "/ai-lead-follow-up-for-service-businesses" },
+            { label: "Missed-call text-back", href: "/missed-call-text-back-for-service-businesses" },
+            { label: "Best first automations", href: "/best-ai-automation-for-service-businesses" },
+          ],
+        },
+        {
+          icon: CalendarCheck,
+          title: "You already have leads, but booking and reminders are sloppy",
+          body: "Do not jump straight to a giant CRM rebuild. Start with scheduling, reminder, and booking friction first so the team feels the payoff without learning a whole new stack.",
+          links: [
+            { label: "Scheduling and reminder workflows", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
+            { label: "AI appointment setter", href: "/ai-appointment-setter" },
+            { label: "View all guides", href: "/guides" },
+          ],
+        },
+        {
+          icon: Zap,
+          title: "Your CRM exists, but nobody trusts the workflow",
+          body: "If statuses, follow-up ownership, and handoffs are messy, start with a bounded audit or routing cleanup before buying more software. A no-tech-team business needs operational clarity before more features.",
+          links: [
+            { label: "AI automation audit checklist", href: "/ai-automation-audit-checklist" },
+            { label: "AI automation maintenance and support", href: "/ai-automation-maintenance-and-support-small-business" },
+            { label: "AI consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
+          ],
+        },
+        {
+          icon: ShieldCheck,
+          title: "You are not sure whether to hire help or try it yourself",
+          body: "That is usually the real buyer decision for a non-technical owner. Compare the smallest safe done-for-you scope against DIY time cost, reliability risk, and how much platform sprawl you are willing to own.",
+          links: [
+            { label: "Consultant vs DIY", href: "/hire-ai-automation-consultant-vs-diy" },
+            { label: "Affordable AI automation", href: "/affordable-ai-automation-small-business" },
+            { label: "Case studies", href: "/case-studies" },
+          ],
         },
       ],
     },
@@ -294,6 +366,16 @@ const data: DecisionPageData = {
         "Sometimes, yes — if the scope stays narrow. A lightweight missed-call text-back, lead-response, or reminder workflow can be much cheaper to run than a broad all-in-one system. The tradeoff is that smaller monthly budgets usually still need a one-time setup and should target one workflow, not your whole operation. See the affordable AI automation guide for the budgeting version of this decision.",
     },
     {
+      question: "Should I start with an all-in-one platform if nobody on my team is technical?",
+      answer:
+        "Usually not as the first move. A broad platform can still be the right long-term home, but non-technical teams often get better results by proving one narrow workflow first: lead response, missed-call recovery, reminders, or simple routing. That shows where the real bottleneck is before you spend months learning features you may never use.",
+    },
+    {
+      question: "When is hiring setup help safer than trying no-code tools yourself?",
+      answer:
+        "Hiring help is usually safer when the workflow touches real leads, booked appointments, or customer handoff rules you cannot afford to break. DIY tools are fine for low-risk notifications or very simple triggers. Once you need branching logic, error handling, CRM ownership, or follow-up sequences that must run consistently, expert setup is usually cheaper than cleaning up a half-working build later.",
+    },
+    {
       question: "Is this different from hiring a marketing agency?",
       answer:
         "Yes. An agency typically sells you a package of services like ads, content, or campaign management. A consultant builds systems that run your operations more efficiently: follow-up, routing, reminders, booking, or CRM workflows. The automation keeps working after the project ends. You are not paying a monthly retainer for someone to post on Instagram.",
@@ -322,6 +404,14 @@ const data: DecisionPageData = {
     {
       label: "AI automation consultant pricing",
       href: "/ai-automation-consultant-pricing-small-business",
+    },
+    {
+      label: "AI automation audit checklist",
+      href: "/ai-automation-audit-checklist",
+    },
+    {
+      label: "AI automation maintenance and support",
+      href: "/ai-automation-maintenance-and-support-small-business",
     },
     {
       label: "View case studies",
