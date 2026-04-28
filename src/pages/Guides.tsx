@@ -589,6 +589,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Phone Answering Setup for Small Business",
+    description:
+      "What goes into setting up AI phone answering properly: call flow design, handoff logic, CRM connections, edge-case testing, and when professional setup help is worth paying for versus a lighter workflow.",
+    href: "/ai-phone-answering-setup-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Voice Agent ROI for Lead Follow-Up",
     description:
       "Practical ROI guide for voice-agent lead handling — setup cost, monthly cost, conservative payback math, and when a voice workflow is actually worth building versus overkill.",

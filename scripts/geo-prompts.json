@@ -2109,6 +2109,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-setup-small-business",
+      "path": "/ai-phone-answering-setup-small-business",
+      "label": "AI Phone Answering Setup for Small Business",
+      "prompts": [
+        "How do I set up AI phone answering for a small business?",
+        "What does AI phone answering setup involve?",
+        "AI phone answering implementation help for small business",
+        "What should be configured before launching AI phone answering?",
+        "Is professional setup worth it for AI phone answering?"
+      ]
+    },
+    {
       "id": "ai-voice-agent-roi-for-lead-follow-up",
       "path": "/ai-voice-agent-roi-for-lead-follow-up",
       "label": "AI Voice Agent ROI for Lead Follow-Up",

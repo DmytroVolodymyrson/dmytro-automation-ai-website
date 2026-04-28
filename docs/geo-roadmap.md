@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/ai-phone-answering-cost-small-business`: filled the missing horizontal pricing hub for the live phone-answering cluster, added the page across routes/discovery/tracking/style-learner, and kept the buyer framing distinct from the broader voice-agent cost page. Total live pages: 288.)
+Last updated: 2026-04-27 (shipped `/ai-phone-answering-setup-small-business`: added the setup/implementation-help sibling for the phone-answering cluster, covering setup scope, handoff logic, launch readiness, and when professional help is worth it versus a lighter workflow. Total live pages: 289.)
 
 ## Live GEO Assets
 
@@ -295,12 +295,12 @@ Last updated: 2026-04-27 (shipped `/ai-phone-answering-cost-small-business`: fil
 | Paris Cafe Case Study | `/case-studies/paris-cafe-voice-agent` | Case study | Live |
 | Instagram Lead Gen Case Study | `/case-studies/instagram-lead-generation` | Case study | Live |
 | E-commerce CRM Case Study | `/case-studies/ecommerce-crm-automation` | Case study | Live |
+| AI Phone Answering Setup (SMB) | `/ai-phone-answering-setup-small-business` | Workflow / service page | Live |
 
 ## Next Pages
 
-The phone-answering pricing gap is now closed. Next run should go back to broad reconciliation instead of forcing another same-cluster phone page by inertia. The best-looking remaining candidate from this pass is a horizontal implementation-help sibling: `/ai-phone-answering-setup-small-business`, if full route/cluster reconciliation still confirms it stays distinct from the new cost page, the broader phone-answering guide, and the existing voice-agent setup pages.
+The phone-answering setup gap is now closed. The cluster has a broad guide, pricing page, and setup page. Next run should go back to broad reconciliation instead of forcing another same-cluster phone page by inertia.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | `/ai-phone-answering-setup-small-business` | High-intent setup/help query that would sit cleanly between the broad phone-answering guide and the new pricing page if the framing stays on implementation scope, handoff logic, and launch readiness. | Reconfirm the exact slug/page does not already exist anywhere in routes/pages/guides/sitemap/llm files/prompts and that the copy can stay distinct from the broader voice-agent setup cluster. |
-| 2 | Broad prompts/route reconciliation pass | `scripts/geo-prompts.json` still lags many already-live routes, which weakens tracking/discovery even when the content exists. | Re-run the live-routes vs prompts diff and choose the highest-value lagging cluster update if no clean net-new page survives. |
+| 1 | Broad prompts/route reconciliation pass | `scripts/geo-prompts.json` still lags many already-live routes, which weakens tracking/discovery even when the content exists. | Re-run the live-routes vs prompts diff and choose the highest-value lagging cluster update if no clean net-new page survives. |

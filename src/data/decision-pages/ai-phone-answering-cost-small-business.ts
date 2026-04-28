@@ -172,6 +172,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
+        { label: "AI phone answering setup for small business", href: "/ai-phone-answering-setup-small-business" },
         { label: "AI voice agent cost for small business", href: "/ai-voice-agent-cost-small-business" },
         { label: "Missed call text-back cost for small business", href: "/missed-call-text-back-cost-small-business" },
         { label: "AI voice agent vs answering service for small business", href: "/ai-voice-agent-vs-answering-service-for-small-business" },
@@ -235,6 +236,7 @@ const data: DecisionPageData = {
     "No bloated AI receptionist pitch. Just a practical scope and pricing conversation.",
   relatedLinks: [
     { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
+    { label: "AI phone answering setup for small business", href: "/ai-phone-answering-setup-small-business" },
     { label: "AI voice agent cost for small business", href: "/ai-voice-agent-cost-small-business" },
     { label: "Missed call text-back cost for small business", href: "/missed-call-text-back-cost-small-business" },
     { label: "AI voice agent vs answering service for small business", href: "/ai-voice-agent-vs-answering-service-for-small-business" },

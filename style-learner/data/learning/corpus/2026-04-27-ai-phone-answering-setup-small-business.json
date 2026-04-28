@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-ai-phone-answering-setup-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nBadge: Phone Setup\nHeading: AI Phone Answering Setup for Small Business\nBody: Most AI phone answering projects do not fail because the voice platform is bad. They fail because the setup was incomplete. The system goes live without clear handoff rules, without tested transfer logic, without a plan for what happens when callers say something unexpected, and without the CRM or calendar connections that make the call outcome useful. The difference between an AI phone system that actually works and one that frustrates callers is almost always in setup scope — what was configured before launch and how carefully the edge cases were tested. This page covers what a small business should expect from a proper AI phone answering setup, when professional implementation help is worth the spend, and when a lighter workflow handles the real need.\nSub: Below: what setup actually involves, the handoff logic that matters most, what should be configured before launch, and how to tell whether you need full setup help or a simpler path.\n\n### Core sections\n- Defines the real setup layers: call-flow design, handoff and transfer rules, CRM/calendar/post-call automation, and edge-case testing.\n- Adds a pre-launch configuration section around time-of-day routing, escalation thresholds, booking constraints, and post-call triggers.\n- Uses explicit worth-it vs lighter-path criteria so the page stays on implementation scope instead of collapsing into the broader phone-answering guide or the pricing page.\n- Calls out the common setup failures that break live phone workflows: fake demo-only testing, weak transfer logic, and downstream systems that are not ready when the number goes live.\n- Keeps proof framing disciplined: Paris Cafe for live phone-workflow value, the broader service-business phone-answering page for fit logic, and the phone-answering cost page for the budgeting layer that follows setup.\n\n### FAQ\nSubhead: Practical answers for small business owners evaluating AI phone answering implementation\nTopics: what setup actually covers, how long it usually takes, when self-serve setup is enough, the most common setup mistake, and how this page differs from the broader voice-agent setup cluster.\n\n### Final CTA\nHeading: Want to get AI phone answering set up properly?\nBody: Book a 30-minute call. We will look at your inbound call patterns, handoff rules, booking needs, and downstream systems, then scope the narrowest setup that handles your real phone coverage gap.\nSub: No generic demo. Just a practical conversation about what your phone setup actually needs.\nRelated links: AI phone answering for service businesses, AI phone answering cost for small business, AI voice agent setup vs DIY for small business, AI voice agent launch checklist for small business.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Positions the page as the implementation-help sibling that the horizontal phone-answering cluster was missing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the distinction explicit: narrower than the broad phone-answering guide, earlier than the cost page, and less expansive than the broader voice-agent setup pages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses practical implementation language: setup scope, handoff logic, downstream system readiness, and ugly real-call testing rather than generic AI claims."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Grounds the page in adjacent published phone and CRM proof already on the site without inventing a dedicated phone-answering setup case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T00:25:32.800Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        5,
+        1,
+        6
+      ],
+      "avgSentenceLength": 23.7,
+      "sentenceLengthRange": [
+        4,
+        44
+      ],
+      "totalWords": 426
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nBadge: Phone Setup\nHeading: AI Phone Answering Setup for Small Business\nBody: Most AI phone answering projects do not fail because the voice platform is bad.",
+      "wordCount": 27,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to get AI phone answering set up properly?\nBody: Book a 30-minute call. We will look at your inbound call patterns, handoff rules, booking needs, and downstream systems, then scope the narrowest setup that handles your real phone coverage gap.\nSub: No generic demo. Just a practical conversation about what your phone setup actually needs.\nRelated links: AI phone answering for service businesses, AI phone answering cost for small business, AI voice agent setup vs DIY for small business, AI voice agent launch checklist for small business.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 17,
+      "commas": 29,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 14,
+      "commasPerSentence": 1.61
+    },
+    "vocabulary": {
+      "distinctWords": 222,
+      "totalWords": 426,
+      "topWords": [
+        [
+          "setup",
+          17
+        ],
+        [
+          "phone",
+          12
+        ],
+        [
+          "ai",
+          10
+        ],
+        [
+          "that",
+          8
+        ],
+        [
+          "answering",
+          7
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "small",
+          6
+        ],
+        [
+          "business",
+          6
+        ],
+        [
+          "page",
+          6
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "live",
+          4
+        ],
+        [
+          "without",
+          4
+        ],
+        [
+          "handoff",
+          4
+        ],
+        [
+          "logic",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
