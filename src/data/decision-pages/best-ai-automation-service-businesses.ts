@@ -26,7 +26,7 @@ const data: DecisionPageData = {
   heroIntro:
     "The best AI automation for a service business is instant lead response — replying to every inquiry within 60 seconds via SMS or voice. In real deployments, this single automation increases lead-to-booking conversion by 30–50% because most competitors take hours to respond or never follow up at all. Below is a decision framework — not a product list — that maps five proven automations to specific service-business bottlenecks, with cost ranges, ROI timelines, and implementation order based on results across HVAC, restaurant, dental, legal, property management, and e-commerce companies.",
   heroSubtext:
-    "Includes: a fit/not-fit evaluation, a decision matrix ranked by impact and setup cost, two real-world case studies with measurable outcomes, and direct links to industry-specific and workflow-specific guides.",
+    "Below: a fit/not-fit evaluation, a bottleneck router so you start with the right automation, a decision matrix ranked by impact and setup cost, two real-world case studies with measurable outcomes, and direct links to industry-specific and workflow-specific guides.",
   sections: [
     {
       type: "cards",
@@ -198,6 +198,44 @@ const data: DecisionPageData = {
             "Past customers haven't heard from you since their last service",
             "You know revenue is sitting in your database but don't have time to reach out",
             "Start with: Database reactivation → then add review automation",
+          ],
+        },
+      ],
+    },
+    {
+      type: "cards",
+      title: "Start here: match your biggest bottleneck to a workflow",
+      subtitle:
+        "Most service businesses lose revenue in one of three places. Identify yours, then follow the link to the specific workflow that fixes it — with cost ranges, setup steps, and proof from real deployments.",
+      items: [
+        {
+          icon: Phone,
+          title: "Slow lead response (most common)",
+          body: "If leads wait more than 5 minutes for a reply, you're losing 30–50% of them to competitors who respond first. An instant SMS + email reply to every form submission or missed call costs under $2K to deploy and typically pays for itself in the first week.",
+          links: [
+            { label: "Instant lead response workflow", href: "/instant-lead-response-automation" },
+            { label: "Missed-call text-back guide", href: "/missed-call-text-back-for-service-businesses" },
+            { label: "AI phone answering setup", href: "/ai-phone-answering-setup-small-business" },
+          ],
+        },
+        {
+          icon: CalendarCheck,
+          title: "Booking friction & no-shows",
+          body: "If phone tag, after-hours voicemail, or same-day cancellations are killing your schedule utilization, the fix is an AI booking agent paired with automated confirmations. Businesses using this combination see 15–30 additional kept appointments per month.",
+          links: [
+            { label: "AI appointment setter guide", href: "/ai-appointment-setter" },
+            { label: "No-show reduction workflow", href: "/no-show-reduction-automation" },
+            { label: "Appointment setter cost breakdown", href: "/ai-appointment-setter-cost-small-business" },
+          ],
+        },
+        {
+          icon: MailCheck,
+          title: "Stale database & dormant past customers",
+          body: "If your CRM holds 500+ contacts with no active follow-up, you're sitting on revenue. A targeted reactivation campaign to past customers and aged leads generates bookings from day one because these people already know your business.",
+          links: [
+            { label: "Client reactivation workflow", href: "/client-reactivation-automation" },
+            { label: "HVAC database reactivation example", href: "/hvac-database-reactivation" },
+            { label: "Lead follow-up examples", href: "/lead-follow-up-automation-examples" },
           ],
         },
       ],
