@@ -244,6 +244,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "Useful if the account already exists and the real problem is diagnosis, trust, and scope — not generic first-time setup advice.",
   relatedLinks: [
+    { label: "GoHighLevel automation consultant", href: "/gohighlevel-automation-consultant" },
     { label: "GoHighLevel account cleanup service", href: "/gohighlevel-account-cleanup-service" },
     { label: "GoHighLevel account cleanup vs. rebuild", href: "/gohighlevel-account-cleanup-vs-rebuild" },
     { label: "GoHighLevel setup cost for small business", href: "/gohighlevel-setup-cost-small-business" },

@@ -238,6 +238,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "GoHighLevel Automation Consultant for Small Business",
+    description:
+      "When to hire a GoHighLevel automation consultant, what they should actually build, cost ranges, when DIY or setup help is enough, and when GHL is the wrong tool for your business.",
+    href: "/gohighlevel-automation-consultant",
+    category: "workflows",
+  },
+  {
     title: "GoHighLevel vs HubSpot for Small Business",
     description:
       "Practical comparison of GoHighLevel and HubSpot for small service businesses. Pricing, marketing automation, sales pipeline, onboarding complexity, and when each platform actually fits.",

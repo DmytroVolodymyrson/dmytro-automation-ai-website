@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-gohighlevel-automation-consultant",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: GoHighLevel Automation Consultant for Small Business\nBody: If you already think GoHighLevel might be the right platform, the real question is not whether GHL has enough features. The real question is whether somebody can map your lead flow, booking flow, follow-up logic, cleanup work, and reporting in a way your team will actually trust after launch. A GoHighLevel automation consultant is worth hiring when the CRM affects booked revenue directly, the workflow touches multiple channels, or the account is messy enough that guessing your way through templates will cost more than getting the system scoped properly from the start.\nSub: Below: what a GoHighLevel consultant should actually help with, what this kind of work usually costs, when setup-only help or DIY is enough, and when GoHighLevel is the wrong tool for the job.\n\n### Core sections\n- What a GoHighLevel automation consultant should actually do\n- When hiring a GoHighLevel consultant is a good fit — and when it is not\n- DIY GoHighLevel vs. setup-only help vs. a GoHighLevel automation consultant\n- The GoHighLevel projects that usually justify consultant help\n- What to check before hiring a GoHighLevel expert\n- Relevant proof and adjacent proof\n- What GoHighLevel consulting usually costs\n\n### FAQ\nSubhead: Practical questions from small businesses deciding whether GoHighLevel consultant help is actually worth paying for\nTopics: what a GoHighLevel consultant actually helps with, how this differs from the setup page, realistic cost ranges, when to hire instead of DIY, and when a consultant should tell you GoHighLevel is the wrong tool.\n\n### Final CTA\nHeading: Need a realistic second opinion on your GoHighLevel workflow?\nBody: Book a 30-minute call. We will look at your current account or planned workflow, decide whether GoHighLevel is the right fit, and map the smallest consultant-led build worth doing first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because `docs/geo-roadmap.md` still named `/gohighlevel-automation-consultant` as the cleanest remaining planned page, and the live GoHighLevel cluster already had the surrounding setup / DIY / cleanup / comparison pages needed to keep the role page distinct."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page separate from `/gohighlevel-automation-setup` by centering the hiring-intent role question: what consultant help should actually include, when setup-only help is enough, and when a consultant should say GHL is the wrong fit."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses adjacent published proof from the WheelsFeels CRM case study and Paris Cafe routing stack plus the existing GoHighLevel cluster, without inventing a fake GoHighLevel-only case study."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "Added cluster links back into the existing GoHighLevel setup, setup cost, setup-vs-DIY, cleanup, and audit pages so the new role page is discoverable immediately instead of relying only on Guides/sitemap/llm surfaces."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T03:49:22.973Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        3,
+        1,
+        3
+      ],
+      "avgSentenceLength": 27.1,
+      "sentenceLengthRange": [
+        3,
+        53
+      ],
+      "totalWords": 298
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: GoHighLevel Automation Consultant for Small Business\nBody: If you already think GoHighLevel might be the right platform, the real question is not whether GHL has enough features.",
+      "wordCount": 29,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a realistic second opinion on your GoHighLevel workflow?\nBody: Book a 30-minute call. We will look at your current account or planned workflow, decide whether GoHighLevel is the right fit, and map the smallest consultant-led build worth doing first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 16,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.6
+    },
+    "vocabulary": {
+      "distinctWords": 149,
+      "totalWords": 298,
+      "topWords": [
+        [
+          "gohighlevel",
+          17
+        ],
+        [
+          "consultant",
+          10
+        ],
+        [
+          "when",
+          7
+        ],
+        [
+          "-",
+          7
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "your",
+          5
+        ],
+        [
+          "actually",
+          5
+        ],
+        [
+          "help",
+          5
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "whether",
+          4
+        ],
+        [
+          "enough",
+          3
+        ],
+        [
+          "will",
+          3
+        ],
+        [
+          "worth",
+          3
+        ],
+        [
+          "hiring",
+          3
+        ],
+        [
+          "workflow",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.007
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

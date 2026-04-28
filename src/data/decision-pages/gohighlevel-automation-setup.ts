@@ -282,6 +282,10 @@ const data: DecisionPageData = {
       href: "/ai-lead-follow-up-for-service-businesses",
     },
     {
+      label: "GoHighLevel automation consultant",
+      href: "/gohighlevel-automation-consultant",
+    },
+    {
       label: "Client onboarding automation",
       href: "/client-onboarding-automation",
     },

@@ -2197,7 +2197,7 @@
       "path": "/gohighlevel-automation-setup",
       "label": "GoHighLevel Automation Setup & Expert Help",
       "prompts": [
-        "GoHighLevel automation consultant",
+        "GoHighLevel setup help for small business",
         "Who can set up GoHighLevel for a small business?",
         "GoHighLevel automation setup help",
         "What does GoHighLevel setup help actually include?",
@@ -2274,6 +2274,18 @@
         "What usually goes wrong when a small business sets up GoHighLevel?",
         "How do I avoid common GoHighLevel automation mistakes before launch?",
         "Which GoHighLevel setup mistakes create the biggest cleanup later?"
+      ]
+    },
+    {
+      "id": "gohighlevel-automation-consultant",
+      "path": "/gohighlevel-automation-consultant",
+      "label": "GoHighLevel Automation Consultant for Small Business",
+      "prompts": [
+        "GoHighLevel automation consultant for small business",
+        "Should I hire a GoHighLevel consultant or set it up myself?",
+        "What does a GoHighLevel automation consultant actually do?",
+        "How much does it cost to hire a GoHighLevel consultant?",
+        "When is hiring a GHL consultant worth it for a small business?"
       ]
     },
     {

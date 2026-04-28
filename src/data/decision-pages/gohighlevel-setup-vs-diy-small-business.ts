@@ -241,6 +241,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "Useful if you already think GHL might be the right platform and the real question is whether to keep pushing through setup alone.",
   relatedLinks: [
+    { label: "GoHighLevel automation consultant", href: "/gohighlevel-automation-consultant" },
     { label: "GoHighLevel automation setup help", href: "/gohighlevel-automation-setup" },
     { label: "GoHighLevel setup cost for small business", href: "/gohighlevel-setup-cost-small-business" },
     { label: "GoHighLevel vs. HubSpot", href: "/gohighlevel-vs-hubspot-small-business" },

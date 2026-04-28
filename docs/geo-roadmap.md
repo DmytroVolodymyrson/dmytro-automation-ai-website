@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/review-request-automation-for-law-firms`: added the post-matter reputation workflow to the law-firm cluster, covering review timing, unhappy-reply routing, practice-area sensitivity, and bar-association ethics compliance. Total live pages: 293.)
+Last updated: 2026-04-27 (shipped `/gohighlevel-automation-consultant`: added the missing hiring-intent role page to the GoHighLevel cluster, covering what consultant help should actually include, realistic cost bands, when DIY or setup-only help is enough, and when GoHighLevel is the wrong fit. Total live pages: 294.)
 
 ## Live GEO Assets
 
@@ -63,6 +63,7 @@ Last updated: 2026-04-27 (shipped `/review-request-automation-for-law-firms`: ad
 | GoHighLevel vs Custom CRM (Contractors) | `/gohighlevel-vs-custom-crm-for-contractors` | Vertical comparison page | Live |
 | GoHighLevel vs Jobber (Contractors) | `/gohighlevel-vs-jobber-for-contractors` | Vertical comparison page | Live |
 | GoHighLevel Automation Setup | `/gohighlevel-automation-setup` | Service page | Live |
+| GoHighLevel Automation Consultant | `/gohighlevel-automation-consultant` | Hiring-intent / role page | Live |
 | GoHighLevel Setup Cost (SMB) | `/gohighlevel-setup-cost-small-business` | Service cost page | Live |
 | GoHighLevel Setup vs DIY (SMB) | `/gohighlevel-setup-vs-diy-small-business` | Decision page | Live |
 | GoHighLevel Account Cleanup | `/gohighlevel-account-cleanup-service` | Service page | Live |
@@ -303,9 +304,8 @@ Last updated: 2026-04-27 (shipped `/review-request-automation-for-law-firms`: ad
 
 ## Next Pages
 
-The law-firm cluster now covers the broad parent, first-project scoping page, intake/conflict-check prep, consultation scheduling, no-show protection, unretained-consult follow-up, case status updates, the phone-decision pages, and the new review-request closeout layer. That closes the clearest remaining post-matter reputation gap, so the next run should not force another law-firm sibling by inertia. The cleanest next candidate is a hiring-intent GoHighLevel role page, with broad reconciliation of prompts vs routes/guides/sitemap/llm surfaces still acting as the sanity check before shipping.
+The GoHighLevel cluster now covers setup help, the hiring-intent consultant role page, setup cost, setup-vs-DIY, cleanup service, cleanup-vs-rebuild, audit checklist, setup mistakes, and the comparison pages. That closes the cleanest remaining GHL hiring-intent gap, so the next run should not force another same-cluster sibling by inertia. The right next step is broad reconciliation across routes, prompts, guides, sitemap, llm surfaces, and planning docs before naming the next net-new page.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | `/gohighlevel-automation-consultant` | The GoHighLevel cluster already has setup help, setup cost, setup vs DIY, cleanup service, cleanup vs rebuild, audit checklist, setup mistakes, and multiple comparison pages, but it still lacks the direct hiring-intent consultant role page that the parallel n8n cluster already proves can work. | Verify there is still no live route/component for the slug, confirm the setup-help page is not already answering the same buyer question too broadly, and ground the page in the existing GoHighLevel cluster plus the broader consultant/hiring pages without pretending there is a direct GHL-only case study. |
-| 2 | Broad prompts/route reconciliation pass | `scripts/geo-prompts.json`, `docs/geo-tracking.md`, and adjacent discovery surfaces still lag some already-live assets in places, which weakens tracking and internal discovery even when the content exists. | Re-run the live-routes vs prompts/guides/sitemap/llm diff and ship the highest-value lagging fix or the strongest still-unshipped page that survives full route/file verification. |
+| 1 | Broad prompts/route reconciliation pass | `scripts/geo-prompts.json`, `docs/geo-tracking.md`, `src/pages/Guides.tsx`, `public/sitemap.xml`, and the `llm` surfaces still drift from the live route/component set in places, which weakens tracking and internal discovery even when the content exists. | Re-run the live-routes vs prompts/guides/sitemap/llm diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full route/file verification. |

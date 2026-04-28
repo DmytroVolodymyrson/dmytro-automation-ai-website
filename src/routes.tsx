@@ -31,6 +31,7 @@ import GoHighLevelVsCustomCrmSmallBusiness from "./pages/GoHighLevelVsCustomCrmS
 import GoHighLevelVsCustomCrmForContractors from "./pages/GoHighLevelVsCustomCrmForContractors";
 import GoHighLevelVsJobberForContractors from "./pages/GoHighLevelVsJobberForContractors";
 import GoHighLevelAutomationSetup from "./pages/GoHighLevelAutomationSetup";
+import GoHighLevelAutomationConsultant from "./pages/GoHighLevelAutomationConsultant";
 import GoHighLevelSetupCostSmallBusiness from "./pages/GoHighLevelSetupCostSmallBusiness";
 import GoHighLevelSetupVsDiySmallBusiness from "./pages/GoHighLevelSetupVsDiySmallBusiness";
 import GoHighLevelAccountCleanupService from "./pages/GoHighLevelAccountCleanupService";
@@ -446,6 +447,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/gohighlevel-vs-custom-crm-for-contractors", element: <GoHighLevelVsCustomCrmForContractors /> },
   { path: "/gohighlevel-vs-jobber-for-contractors", element: <GoHighLevelVsJobberForContractors /> },
   { path: "/gohighlevel-automation-setup", element: <GoHighLevelAutomationSetup /> },
+  { path: "/gohighlevel-automation-consultant", element: <GoHighLevelAutomationConsultant /> },
   { path: "/gohighlevel-setup-cost-small-business", element: <GoHighLevelSetupCostSmallBusiness /> },
   { path: "/gohighlevel-setup-vs-diy-small-business", element: <GoHighLevelSetupVsDiySmallBusiness /> },
   { path: "/gohighlevel-account-cleanup-service", element: <GoHighLevelAccountCleanupService /> },

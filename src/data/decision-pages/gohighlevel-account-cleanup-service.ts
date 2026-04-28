@@ -255,6 +255,7 @@ const data: DecisionPageData = {
     { label: "GoHighLevel automation setup help", href: "/gohighlevel-automation-setup" },
     { label: "GoHighLevel setup cost for small business", href: "/gohighlevel-setup-cost-small-business" },
     { label: "GoHighLevel setup vs. DIY for small business", href: "/gohighlevel-setup-vs-diy-small-business" },
+    { label: "GoHighLevel automation consultant", href: "/gohighlevel-automation-consultant" },
     { label: "GoHighLevel vs. custom CRM", href: "/gohighlevel-vs-custom-crm-small-business" },
     { label: "All guides", href: "/guides" },
   ],

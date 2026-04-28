@@ -246,6 +246,10 @@ const data: DecisionPageData = {
     "No generic snapshot pitch. Just a practical scope and price conversation.",
   relatedLinks: [
     {
+      label: "GoHighLevel automation consultant",
+      href: "/gohighlevel-automation-consultant",
+    },
+    {
       label: "GoHighLevel automation setup help",
       href: "/gohighlevel-automation-setup",
     },
