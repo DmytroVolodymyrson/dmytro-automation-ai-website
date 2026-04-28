@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-best-ai-automation-for-service-businesses-business-shape-router",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Section heading\nPick your first automation by how your business actually runs\n\n### Intro copy\nBudget matters, but so does operating model. An owner-operator on a job site all day has a different first-automation need than a business with a front-desk dispatcher or a salesperson nurturing long-cycle deals. Find your shape below.\n\n### Router cards\n- **Owner-operator (you're on the job site all day)**\n  - Biggest leak: missed calls and form submissions that go unanswered while you're working.\n  - Recommended first automation: missed-call text-back paired with instant form response.\n  - Named proof: Paris Cafe recovered 100% of after-hours calls.\n- **Dispatcher / admin-heavy (front desk handles intake)**\n  - Biggest leak: scheduling, intake, and after-hours voicemail drop-off while staff juggle calls and admin.\n  - Recommended first automation: AI booking agent / phone-answering setup.\n- **Long sales cycle / follow-up heavy (deals take weeks or months)**\n  - Biggest leak: quotes and leads die in the follow-up gap because nobody has time to chase every lead for 2–4 weeks.\n  - Recommended first automation: multi-touch SMS + email follow-up sequences.\n  - Named proof: WheelsFeels recovered a 185% conversion lift across 5,600+ leads.\n- **High repeat / recurring service (your database is your biggest asset)**\n  - Biggest leak: past customers and aged leads sit untouched in the CRM.\n  - Recommended first automation: database reactivation campaign.\n\n### Supporting links\n- Missed-call text-back for service businesses\n- Instant lead response automation\n- Paris Cafe voice agent case study\n- AI appointment setter\n- AI phone answering setup for small business\n- Appointment setter cost\n- AI lead follow-up for service businesses\n- Quote follow-up automation\n- WheelsFeels CRM case study\n- Client reactivation workflow\n- HVAC database reactivation\n- Lead follow-up examples",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This is a bounded indexing/internal-linking refresh on a discovered-not-indexed priority category page, not a new GEO page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The new section is intentionally different from the existing bottleneck and budget sections: it answers the buyer question through operating model / team reality instead of by workflow or spend alone."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Every card ties the recommendation to an existing workflow guide and, where available, a documented on-site proof asset."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and buyer-oriented: identify the real operating shape, pick the smallest useful first automation, then follow the links deeper."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T17:06:05.252Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        1,
+        3,
+        10,
+        1
+      ],
+      "avgSentenceLength": 18.5,
+      "sentenceLengthRange": [
+        4,
+        64
+      ],
+      "totalWords": 277
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Section heading\nPick your first automation by how your business actually runs",
+      "wordCount": 12,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Supporting links\n- Missed-call text-back for service businesses\n- Instant lead response automation\n- Paris Cafe voice agent case study\n- AI appointment setter\n- AI phone answering setup for small business\n- Appointment setter cost\n- AI lead follow-up for service businesses\n- Quote follow-up automation\n- WheelsFeels CRM case study\n- Client reactivation workflow\n- HVAC database reactivation\n- Lead follow-up examples",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 13,
+      "commas": 4,
+      "emDashes": 0,
+      "enDashes": 1,
+      "hyphens": 26,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 10,
+      "commasPerSentence": 0.29
+    },
+    "vocabulary": {
+      "distinctWords": 155,
+      "totalWords": 277,
+      "topWords": [
+        [
+          "-",
+          26
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "follow-up",
+          6
+        ],
+        [
+          "your",
+          5
+        ],
+        [
+          "first",
+          5
+        ],
+        [
+          "biggest",
+          5
+        ],
+        [
+          "leak",
+          4
+        ],
+        [
+          "recommended",
+          4
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "lead",
+          4
+        ],
+        [
+          "business",
+          3
+        ],
+        [
+          "calls",
+          3
+        ],
+        [
+          "leads",
+          3
+        ],
+        [
+          "service",
+          3
+        ],
+        [
+          "database",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

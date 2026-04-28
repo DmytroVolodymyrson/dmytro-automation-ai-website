@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/gohighlevel-automation-consultant-cost-small-business` after another broad reconciliation confirmed the cleaner net-new move was to extract an exact tracked pricing query from the live GoHighLevel consultant cluster instead of forcing another stale generic strategy page. The new page now gives the GHL cluster a dedicated budgeting layer between consultant-fit, setup-only cost, DIY, cleanup, and broader CRM/tool-choice decisions.)
+Last updated: 2026-04-28 (bounded indexing-support refresh on `/best-ai-automation-for-service-businesses` — added a business-shape router section that matches the first automation to operating model: owner-operator, dispatcher/admin-heavy, long-sales-cycle, and high-repeat recurring service, each with proof-backed links. Also refreshed llm.txt/llms.txt summaries and geo-priority-urls.md entry. Previous: shipped `/gohighlevel-automation-consultant-cost-small-business`.)
 
 ## Live GEO Assets
 

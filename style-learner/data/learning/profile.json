@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-28T16:55:55.228Z",
-  "postCount": 474,
+  "updatedAt": "2026-04-28T17:06:05.307Z",
+  "postCount": 475,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,25 +15,25 @@
       "max": 12,
       "p25": 4,
       "p75": 4,
-      "samples": 474
+      "samples": 475
     },
     "sentenceLength": {
       "mean": 23.4,
       "median": 23.7,
       "min": 7.1,
       "max": 105,
-      "p25": 19.3,
+      "p25": 19.2,
       "p75": 27.2,
-      "samples": 474
+      "samples": 475
     },
     "totalWords": {
-      "mean": 332.2,
+      "mean": 332.1,
       "median": 334,
       "min": 17,
       "max": 1155,
-      "p25": 278,
+      "p25": 277,
       "p75": 374,
-      "samples": 474
+      "samples": 475
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -114,6 +114,7 @@
       "long | short | single | short | long": 1,
       "long | single | single | short | short | single | single": 1,
       "long | long | long | single": 1,
+      "single | long | long | single": 1,
       "short | long | single": 1,
       "long | short | short | single | long": 1,
       "short | long | long | long": 1,
@@ -140,7 +141,7 @@
       "opener | product-pitch | product-pitch | result | closer": 1,
       "opener | product-pitch | product-pitch | result | context | product-pitch | context | product-pitch | product-pitch | closer": 1,
       "opener | context | context | context | result | product-pitch | context | context | closer": 1,
-      "opener | context | product-pitch | closer": 38,
+      "opener | context | product-pitch | closer": 39,
       "opener | context | context | closer": 190,
       "opener | product-pitch | context | closer": 33,
       "opener | context | product-pitch | context | product-pitch | result | context | closer": 1,
@@ -193,7 +194,7 @@
   "openers": {
     "patterns": {
       "situation": {
-        "count": 108,
+        "count": 109,
         "examples": [
           "Badge: The Person Behind the Automation",
           "Section heading: Common Questions\nSubheading: Straight answers about working wit",
@@ -236,7 +237,7 @@
   "closers": {
     "patterns": {
       "reflection": {
-        "count": 74,
+        "count": 75,
         "examples": [
           "Stats:\n- 7+ Years building software\n- 50+ Automations built\n- $100K+ Saved for c",
           "Social proof pills:\n- 10+ hrs/week saved\n- 300%+ ROI\n- 24/7 automation",
@@ -283,7 +284,7 @@
     "topWords": [
       [
         "-",
-        3182
+        3208
       ],
       [
         "what",
@@ -291,11 +292,11 @@
       ],
       [
         "automation",
-        1308
+        1315
       ],
       [
         "ai",
-        1100
+        1104
       ],
       [
         "page",
@@ -331,15 +332,15 @@
       ],
       [
         "follow-up",
-        629
+        635
       ],
       [
         "your",
-        619
+        624
       ],
       [
         "first",
-        610
+        615
       ],
       [
         "live",
@@ -379,7 +380,7 @@
       ],
       [
         "lead",
-        342
+        346
       ],
       [
         "heading",
@@ -399,7 +400,7 @@
       ],
       [
         "business",
-        219
+        222
       ]
     ],
     "casualMarkerRate": 0,

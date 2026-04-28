@@ -326,6 +326,54 @@ const data: DecisionPageData = {
       ],
     },
     {
+      type: "cards",
+      title: "Pick your first automation by how your business actually runs",
+      subtitle:
+        "Budget matters, but so does operating model. An owner-operator on a job site all day has a different first-automation need than a business with a front-desk dispatcher or a salesperson nurturing long-cycle deals. Find your shape below:",
+      items: [
+        {
+          icon: Wrench,
+          title: "Owner-operator (you're on the job site all day)",
+          body: "Your biggest leak is missed calls and form submissions that go unanswered while you're working. You don't have someone in the office to field inquiries in real time. The highest-ROI first automation is a missed-call text-back paired with instant form response — it replies within 60 seconds while your hands are full. Paris Cafe recovered 100% of after-hours calls this way. Cost: under $2K. No admin needed to run it.",
+          links: [
+            { label: "Missed-call text-back guide", href: "/missed-call-text-back-for-service-businesses" },
+            { label: "Instant lead response workflow", href: "/instant-lead-response-automation" },
+            { label: "Paris Cafe voice agent case study", href: "/case-studies/paris-cafe-voice-agent" },
+          ],
+        },
+        {
+          icon: Phone,
+          title: "Dispatcher / admin-heavy (front desk handles intake)",
+          body: "Your team answers the phone, but they're juggling scheduling, follow-up, and customer service simultaneously. Leads slip through because your admin is on another call or manually entering data. The first automation is an AI booking agent that handles scheduling 24/7 — it takes the highest-volume, lowest-judgment task off your dispatcher's plate and eliminates after-hours voicemail drop-off.",
+          links: [
+            { label: "AI appointment setter guide", href: "/ai-appointment-setter" },
+            { label: "AI phone answering setup", href: "/ai-phone-answering-setup-small-business" },
+            { label: "Appointment setter cost breakdown", href: "/ai-appointment-setter-cost-small-business" },
+          ],
+        },
+        {
+          icon: Clock,
+          title: "Long sales cycle / follow-up heavy (deals take weeks or months)",
+          body: "Your leads don't convert on first contact — they request quotes, compare options, and go quiet. Revenue dies in the follow-up gap because nobody has time to chase every lead for 2–4 weeks. The first automation is a multi-touch SMS + email sequence that follows up automatically until the lead books or opts out. WheelsFeels recovered a 185% conversion lift across 5,600+ leads with exactly this approach.",
+          links: [
+            { label: "AI lead follow-up guide", href: "/ai-lead-follow-up-for-service-businesses" },
+            { label: "Quote follow-up automation", href: "/quote-follow-up-automation" },
+            { label: "WheelsFeels CRM case study", href: "/case-studies/ecommerce-crm-automation" },
+          ],
+        },
+        {
+          icon: MailCheck,
+          title: "High repeat / recurring service (your database is your biggest asset)",
+          body: "You've served hundreds or thousands of customers, but most only come back when they need something. Past customers and aged leads sit in your CRM untouched. The first automation is a database reactivation campaign — targeted outreach to people who already know your business. It generates revenue from day one because there's no trust gap to close.",
+          links: [
+            { label: "Client reactivation workflow", href: "/client-reactivation-automation" },
+            { label: "HVAC database reactivation example", href: "/hvac-database-reactivation" },
+            { label: "Lead follow-up examples", href: "/lead-follow-up-automation-examples" },
+          ],
+        },
+      ],
+    },
+    {
       type: "when-to-use",
       title: "Which automation fits your situation",
       subtitle:
