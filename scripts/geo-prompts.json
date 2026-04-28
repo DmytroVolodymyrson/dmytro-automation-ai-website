@@ -321,6 +321,18 @@
       ]
     },
     {
+      "id": "ai-automation-consultant-ontario",
+      "path": "/ai-automation-consultant-ontario",
+      "label": "AI Automation Consultant Ontario",
+      "prompts": [
+        "AI automation consultant in Ontario",
+        "Who can help my Ontario business automate workflows?",
+        "Best AI automation services for small businesses in Ontario",
+        "Ontario business automation consulting",
+        "AI consultant for Toronto or Ottawa service business"
+      ]
+    },
+    {
       "id": "ai-automation-for-hvac-companies",
       "path": "/ai-automation-for-hvac-companies",
       "label": "AI Automation for HVAC Companies",

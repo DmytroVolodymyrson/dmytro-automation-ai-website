@@ -2860,6 +2860,13 @@ const guides: GuideItem[] = [
     category: "geo",
   },
   {
+    title: "AI Automation Consultant Ontario",
+    description:
+      "AI automation consulting for Ontario businesses. Lead follow-up, scheduling, CRM workflows, and operations. Remote delivery for Toronto, Ottawa, Hamilton, Mississauga, London, and beyond.",
+    href: "/ai-automation-consultant-ontario",
+    category: "geo",
+  },
+  {
     title: "AI Automation Consultant Alberta",
     description:
       "AI automation consulting for Alberta businesses. Lead follow-up, scheduling, CRM workflows, and operations. Based in Calgary, serving the entire province.",

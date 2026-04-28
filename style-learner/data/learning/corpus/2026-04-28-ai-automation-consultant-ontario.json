@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-ai-automation-consultant-ontario",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation Consultant for Ontario Businesses\nBody: Whether you are in Toronto, Ottawa, Hamilton, Mississauga, London, or Kitchener-Waterloo, the bottlenecks look familiar. Leads go cold because nobody replies fast enough. Appointments and consults slip because follow-up is inconsistent. Your team burns hours on CRM updates, scheduling, and admin work that should already run in the background. We build AI-powered automations that handle that workload.\nSub: Below: what we automate, where Ontario businesses usually see the clearest ROI, how remote delivery works across the province, and how to tell if this is the right fit for your business.\n\n### Core sections\n- What we automate for Ontario businesses\n- Ontario industries where the ROI is usually clearest\n- How remote delivery works across Ontario\n- Good fit / not a fit\n- Results from businesses we have worked with\n\n### FAQ\nSubhead: Practical answers about working with an AI automation consultant in Ontario\n- Do I need to be in Toronto or Ottawa to work with you?\n- What size business is this for?\n- How long does a typical automation project take?\n- What tools and platforms do you work with?\n- What if I am not sure what to automate first?\n\n### Final CTA\nHeading: Ready to automate the busywork?\nBody: Book a 30-minute call. We will look at your current operations, identify the highest-impact automation opportunities, and give you a clear picture of what it would take to build them.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because Ontario was the cleanest remaining province-level GEO expansion: the live site already had Toronto and Ottawa city pages plus Alberta and Canada province/country pages, while Guides copy already implied broader provincial consultant coverage."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the page distinct from the Toronto and Ottawa pages by framing it as province-wide remote delivery for Ontario businesses rather than another city page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used the existing consultant GEO template pattern from Alberta/Canada instead of cloning an older bespoke city page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: case studies prove the workflow patterns, not Ontario-specific client results."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and commercial, with clear fit / not-fit guidance and no fake locality claims."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T09:51:50.296Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        1,
+        5,
+        3
+      ],
+      "avgSentenceLength": 16,
+      "sentenceLengthRange": [
+        5,
+        39
+      ],
+      "totalWords": 240
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation Consultant for Ontario Businesses\nBody: Whether you are in Toronto, Ottawa, Hamilton, Mississauga, London, or Kitchener-Waterloo, the bottlenecks look familiar.",
+      "wordCount": 24,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Ready to automate the busywork?\nBody: Book a 30-minute call. We will look at your current operations, identify the highest-impact automation opportunities, and give you a clear picture of what it would take to build them.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "context",
+        "closer"
+      ],
+      "template": "opener | result | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 13,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 10,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 7,
+      "commasPerSentence": 0.93
+    },
+    "vocabulary": {
+      "distinctWords": 137,
+      "totalWords": 240,
+      "topWords": [
+        [
+          "-",
+          10
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "ontario",
+          6
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "businesses",
+          4
+        ],
+        [
+          "automate",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "with",
+          4
+        ],
+        [
+          "your",
+          3
+        ],
+        [
+          "work",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "fit",
+          3
+        ],
+        [
+          "heading",
+          2
+        ],
+        [
+          "ai",
+          2
+        ],
+        [
+          "consultant",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.004
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

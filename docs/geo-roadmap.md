@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/ai-phone-answering-vs-voicemail-for-real-estate-agents`, the missing heavier voicemail-vs-live-answering buyer-decision page inside the mature real-estate phone cluster. The page stays distinct from the existing real-estate missed-call text-back and text-back-vs-AI-phone pages by focusing specifically on when voicemail/callbacks are still acceptable, when live AI phone coverage becomes worth the heavier build, and where missed-call text-back remains the middle step.)
+Last updated: 2026-04-28 (shipped `/ai-automation-consultant-ontario`, a province-level geo consultant page that was explicitly implied by the live guides geo category and supported by the already-live Toronto and Ottawa city pages. The page stays distinct from the city pages by covering province-wide buyer intent across Toronto, Ottawa, Hamilton, London, Mississauga, and Kitchener-Waterloo, and it stays distinct from the Canada-wide page by narrowing the service-area decision to one province-level market instead of a coast-to-coast catch-all.)
 
 ## Live GEO Assets
 
@@ -40,6 +40,7 @@ Last updated: 2026-04-28 (shipped `/ai-phone-answering-vs-voicemail-for-real-est
 | AI Consultant Vancouver | `/ai-automation-consultant-vancouver` | Geo page | Live |
 | AI Consultant Toronto | `/ai-automation-consultant-toronto` | Geo page | Live |
 | AI Consultant Ottawa | `/ai-automation-consultant-ottawa` | Geo page | Live |
+| AI Consultant Ontario | `/ai-automation-consultant-ontario` | Geo page | Live |
 | AI Consultant Alberta | `/ai-automation-consultant-alberta` | Geo page | Live |
 | AI Consultant Canada | `/ai-automation-consultant-canada` | Geo page | Live |
 | Hire Consultant vs Agency | `/hire-ai-automation-consultant-vs-agency` | Decision / comparison | Live |
@@ -311,13 +312,13 @@ Last updated: 2026-04-28 (shipped `/ai-phone-answering-vs-voicemail-for-real-est
 
 ## Next Pages
 
-This run shipped `/ai-phone-answering-vs-voicemail-for-real-estate-agents`, filling the missing heavier voicemail-vs-live-answering buyer-decision layer inside the mature real-estate phone cluster. The next run should:
+This run shipped `/ai-automation-consultant-ontario`, turning an implied-but-missing province-level geo target into a real page between the existing Toronto/Ottawa city pages and the Canada-wide catch-all. The next run should:
 
-1. **Verify live/indexing behavior** for `/ai-phone-answering-vs-voicemail-for-real-estate-agents` after deploy propagation, then request indexing manually in GSC.
-2. **Run broad reconciliation again** across routes, prompts, guides, sitemap, llm surfaces, `docs/geo-tracking.md`, and the broader planning docs before naming another net-new page. The main risk is now stale queue assumptions, not an obviously missing same-cluster child.
-3. **If reconciliation still finds no clearly safe net-new page, do the next bounded commercial refresh** on a high-intent already-live page with indexing or internal-link leverage instead of forcing another thin comparison.
+1. **Verify live/indexing behavior** for `/ai-automation-consultant-ontario` after deploy propagation, then request indexing manually in GSC.
+2. **Re-check the geo cluster for the remaining province-level gap** before diving back into broader workflow reconciliation. The cleanest adjacent candidate is still British Columbia because the guides geo category explicitly names it, Vancouver is already live, and the province-level parent page still appears to be missing.
+3. **If BC does not survive a quick duplication/proof check, return to broad reconciliation** across routes, prompts, guides, sitemap, llm surfaces, `docs/geo-tracking.md`, and the broader planning docs before naming another net-new page.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Broad prompts/route reconciliation pass | The roadmap, prompts, guides, sitemap, llm surfaces, and planning docs can still drift apart enough to hide either a real remaining page or a cleaner maintenance target. | Re-run the live-routes vs prompts/guides/sitemap/llm/planning-doc diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
-| 2 | High-intent live-page indexing/internal-linking refresh | If no clean net-new page survives reconciliation, the best next move is still likely a bounded commercial refresh on an already-live priority URL with discoverability upside. | Confirm the target page is live, commercially important, and has a genuinely new proof/extract angle before refreshing it. |
+| 1 | `/ai-automation-consultant-british-columbia` | The live guides geo category already names British Columbia, Vancouver is already live as the city-level proof-adjacent child, and a province-level page would mirror the Ontario and Alberta hierarchy without inventing a new market pattern. | Confirm there is still no existing BC province page in routes/pages/sitemap/llm/prompts, then keep the copy province-level so it does not collapse into the Vancouver page. |
+| 2 | Broad prompts/route reconciliation pass | After the Ontario geo parent is filled, the main risk returns to stale queue assumptions hiding either a cleaner remaining page or a better maintenance target. | Re-run the live-routes vs prompts/guides/sitemap/llm/planning-doc diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |

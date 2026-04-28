@@ -223,9 +223,10 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No obligation. No hard sell. Remote delivery, fixed pricing, clear scope.",
   relatedLinks: [
+    { label: "AI automation consultant Ontario", href: "/ai-automation-consultant-ontario" },
     { label: "AI automation consultant Alberta", href: "/ai-automation-consultant-alberta" },
-    { label: "AI automation consultant Calgary", href: "/ai-automation-consultant-calgary" },
-    { label: "AI automation consultant Edmonton", href: "/ai-automation-consultant-edmonton" },
+    { label: "AI automation consultant Toronto", href: "/ai-automation-consultant-toronto" },
+    { label: "AI automation consultant Ottawa", href: "/ai-automation-consultant-ottawa" },
     { label: "All guides", href: "/guides" },
   ],
 };
