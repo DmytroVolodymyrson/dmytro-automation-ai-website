@@ -757,6 +757,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Client Reactivation ROI for Small Business",
+    description:
+      "Conservative payback math for dormant-client recovery. Covers recovered repeat jobs, maintenance visits, referrals, saved admin time, and when client reactivation is worth building now versus when another workflow should come first.",
+    href: "/client-reactivation-roi-small-business",
+    category: "workflows",
+  },
+  {
     title: "No-Show Reduction Automation",
     description:
       "Confirmation requests, timed reminders, easy rescheduling, and deposit workflows that cut no-shows by 50% or more.",

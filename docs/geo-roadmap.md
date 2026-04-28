@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/ai-lead-follow-up-roi-small-business` after broad reconciliation. The lead-follow-up cluster already had the service-businesses parent plus a pricing page, but it still lacked the workflow-level ROI decision page. This new page closes that gap with conservative payback math, direct routing into the cost page, adjacent proof from published case studies, and internal links back into the live lead-follow-up cluster.)
+Last updated: 2026-04-28 (shipped `/client-reactivation-roi-small-business` after the remaining workflow-level economic-gap pass. The client-reactivation cluster already had the service-businesses parent plus a pricing page, but it still lacked the worth-it-now ROI decision page. This new page closes that gap with conservative payback math, direct routing into the cost page, adjacent proof from the HVAC reactivation page plus the published e-commerce CRM case study, and internal links back into the live reactivation cluster.)
 
 ## Live GEO Assets
 
@@ -34,6 +34,7 @@ Last updated: 2026-04-28 (shipped `/ai-lead-follow-up-roi-small-business` after 
 | Appointment Scheduling & Reminder Automation (Service Businesses) | `/appointment-scheduling-and-reminder-automation-for-service-businesses` | Workflow parent page | Live |
 | Client Reactivation Automation (Service Businesses) | `/client-reactivation-automation-for-service-businesses` | Workflow parent page | Live |
 | Client Reactivation Cost (SMB) | `/client-reactivation-cost-small-business` | Category cost page | Live |
+| Client Reactivation ROI (SMB) | `/client-reactivation-roi-small-business` | Workflow / ROI page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Category cost page | Live |
 | AI Voice Agent Setup Cost (SMB) | `/ai-voice-agent-setup-cost-small-business` | Category cost page | Live |
 | AI Automation Maintenance & Support (SMB) | `/ai-automation-maintenance-and-support-small-business` | Strategy / support page | Live |
@@ -318,15 +319,15 @@ Last updated: 2026-04-28 (shipped `/ai-lead-follow-up-roi-small-business` after 
 
 ## Next Pages
 
-This run shipped `/ai-lead-follow-up-roi-small-business` because the lead-follow-up cluster still had one clean buyer-intent gap: the workflow-level worth-it decision between the general service-businesses explainer and the existing pricing page. The new page stays distinct from both the cost page and the voice-agent ROI page by focusing on broader lead-follow-up payback math across instant response, short nurture, CRM routing, and saved admin time.
+This run shipped `/client-reactivation-roi-small-business` because the client-reactivation cluster still had one clean buyer-intent gap: the workflow-level worth-it decision between the broad service-businesses reactivation explainer and the existing pricing page. The new page stays distinct from both the cost page and the generic reactivation explainers by focusing narrowly on conservative payback math across recovered repeat jobs, maintenance visits, referrals, and saved admin time.
 
 The next run should:
 
-1. **Check the remaining workflow-level ROI / pricing gaps first** before forcing a brand-new vertical, because the broad horizontal clusters still have a few clean economic buyer decisions left.
-2. **If no equally distinct net-new economic child survives that pass, do a bounded refresh on a priority indexing URL** instead of inventing a thin adjacent page.
+1. **Re-check whether any equally distinct horizontal economic child still survives** before inventing another adjacent page, because most of the clearest workflow-level ROI / pricing gaps are now filled.
+2. **If not, do a bounded refresh on `/ai-automation-cost-small-business`** so the broader budgeting hub keeps routing into the newer ROI/cost/time-savings siblings and remains one of the strongest commercial entry points on the site.
 3. **Keep manual GSC follow-through moving** on the already-refreshed priority URLs instead of treating publish alone as the finish line.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | `/client-reactivation-roi-small-business` | The client-reactivation cluster now mirrors the lead-follow-up pattern: broad workflow parent plus a cost page, but still no workflow-level ROI child for owners deciding whether dormant-client recovery economics justify the build. | Verify it is still absent from routes/pages/guides/sitemap/llm files, then anchor it against `/client-reactivation-automation-for-service-businesses`, `/client-reactivation-cost-small-business`, and adjacent proof from `/hvac-database-reactivation` plus `/case-studies/ecommerce-crm-automation`. |
-| 2 | `/ai-automation-cost-small-business` bounded refresh | If the remaining economic-child pass does not leave one equally distinct net-new page, this remains a strong commercial budgeting hub for another indexing/internal-linking pass because it naturally routes into pricing, ROI, time-savings, no-tech-team, support, and proof decisions. | Re-check `docs/geo-priority-urls.md`, the live copy, and whether the newest ROI/cost siblings should be linked before choosing the exact bounded refresh. |
+| 1 | `/ai-automation-cost-small-business` bounded refresh | Now that the clean client-reactivation ROI child is live, the broader automation-cost hub becomes the strongest next maintenance target because it naturally connects pricing, ROI, time-savings, no-tech-team, support, and proof-driven decision pages. | Re-check `docs/geo-priority-urls.md`, the live copy, and whether the newest cost / ROI siblings should be linked and mentioned more explicitly before choosing the exact bounded refresh scope. |
+| 2 | Fresh broad reconciliation before another net-new page | If no equally distinct workflow-level economic child clearly survives a repo-wide pass, it is safer to refresh a priority commercial URL than force a thin adjacent page. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming another net-new candidate. |

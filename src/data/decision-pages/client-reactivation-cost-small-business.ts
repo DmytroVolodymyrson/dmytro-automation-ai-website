@@ -256,6 +256,7 @@ const data: DecisionPageData = {
     "No inflated lifecycle proposal. Just a practical scope and cost discussion.",
   relatedLinks: [
     { label: "Client reactivation for service businesses", href: "/client-reactivation-automation-for-service-businesses" },
+    { label: "Client reactivation ROI for small business", href: "/client-reactivation-roi-small-business" },
     { label: "Client reactivation automation", href: "/client-reactivation-automation" },
     { label: "HVAC database reactivation", href: "/hvac-database-reactivation" },
     { label: "AI automation cost for small business", href: "/ai-automation-cost-small-business" },

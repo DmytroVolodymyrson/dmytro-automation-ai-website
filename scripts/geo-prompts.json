@@ -2109,6 +2109,18 @@
       ]
     },
     {
+      "id": "client-reactivation-roi-small-business",
+      "path": "/client-reactivation-roi-small-business",
+      "label": "Client Reactivation ROI for Small Business",
+      "prompts": [
+        "Is client reactivation automation worth it for a small business?",
+        "How do I calculate ROI on dormant-client recovery automation?",
+        "How quickly can client reactivation automation pay for itself?",
+        "What kind of repeat revenue should I expect from client reactivation automation?",
+        "When should a small business prioritize client reactivation before another workflow?"
+      ]
+    },
+    {
       "id": "appointment-scheduling-and-reminder-automation-for-service-businesses",
       "path": "/appointment-scheduling-and-reminder-automation-for-service-businesses",
       "label": "Appointment Scheduling and Reminder Automation for Service Businesses",
