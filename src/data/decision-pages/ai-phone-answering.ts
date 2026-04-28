@@ -176,6 +176,7 @@ const data: DecisionPageData = {
       links: [
         { label: "AI voice agent for restaurants", href: "/ai-voice-agent-for-restaurants" },
         { label: "AI phone answering setup for small business", href: "/ai-phone-answering-setup-small-business" },
+        { label: "AI phone answering ROI for small business", href: "/ai-phone-answering-roi-small-business" },
         { label: "After-hours lead capture", href: "/after-hours-lead-capture-for-service-businesses" },
         { label: "Missed call follow-up automation", href: "/missed-call-follow-up-automation" },
         { label: "View all case studies", href: "/case-studies" },
@@ -218,9 +219,10 @@ const data: DecisionPageData = {
     "No obligation. No generic pitch. Just a practical conversation about your phone coverage gaps.",
   relatedLinks: [
     { label: "AI phone answering setup for small business", href: "/ai-phone-answering-setup-small-business" },
+    { label: "AI phone answering cost for small business", href: "/ai-phone-answering-cost-small-business" },
+    { label: "AI phone answering ROI for small business", href: "/ai-phone-answering-roi-small-business" },
     { label: "AI voice agent for restaurants", href: "/ai-voice-agent-for-restaurants" },
     { label: "Missed call follow-up automation", href: "/missed-call-follow-up-automation" },
-    { label: "AI appointment setter", href: "/ai-appointment-setter" },
     { label: "All guides", href: "/guides" },
   ],
 };

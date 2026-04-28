@@ -596,6 +596,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Phone Answering ROI for Small Business",
+    description:
+      "How to evaluate whether AI phone answering justifies the investment — conservative payback math, recovered call value, saved admin time, and when a lighter workflow is the smarter first step.",
+    href: "/ai-phone-answering-roi-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Voice Agent ROI for Lead Follow-Up",
     description:
       "Practical ROI guide for voice-agent lead handling — setup cost, monthly cost, conservative payback math, and when a voice workflow is actually worth building versus overkill.",

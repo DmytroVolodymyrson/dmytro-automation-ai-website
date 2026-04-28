@@ -2121,6 +2121,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-roi-small-business",
+      "path": "/ai-phone-answering-roi-small-business",
+      "label": "AI Phone Answering ROI for Small Business",
+      "prompts": [
+        "Is AI phone answering worth the investment for a small business?",
+        "How do I calculate ROI on AI phone answering?",
+        "What payback period should I expect from AI phone answering?",
+        "When does AI phone answering pay for itself vs staying with voicemail?",
+        "How many recovered calls does it take for AI phone answering to break even?"
+      ]
+    },
+    {
       "id": "ai-voice-agent-roi-for-lead-follow-up",
       "path": "/ai-voice-agent-roi-for-lead-follow-up",
       "label": "AI Voice Agent ROI for Lead Follow-Up",

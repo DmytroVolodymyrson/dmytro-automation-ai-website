@@ -173,10 +173,10 @@ const data: DecisionPageData = {
       links: [
         { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
         { label: "AI phone answering setup for small business", href: "/ai-phone-answering-setup-small-business" },
+        { label: "AI phone answering ROI for small business", href: "/ai-phone-answering-roi-small-business" },
         { label: "AI voice agent cost for small business", href: "/ai-voice-agent-cost-small-business" },
         { label: "Missed call text-back cost for small business", href: "/missed-call-text-back-cost-small-business" },
         { label: "AI voice agent vs answering service for small business", href: "/ai-voice-agent-vs-answering-service-for-small-business" },
-        { label: "AI voice agent vs voicemail", href: "/ai-voice-agent-vs-voicemail" },
       ],
     },
     {
@@ -237,9 +237,9 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
     { label: "AI phone answering setup for small business", href: "/ai-phone-answering-setup-small-business" },
+    { label: "AI phone answering ROI for small business", href: "/ai-phone-answering-roi-small-business" },
     { label: "AI voice agent cost for small business", href: "/ai-voice-agent-cost-small-business" },
     { label: "Missed call text-back cost for small business", href: "/missed-call-text-back-cost-small-business" },
-    { label: "AI voice agent vs answering service for small business", href: "/ai-voice-agent-vs-answering-service-for-small-business" },
     { label: "Guides hub", href: "/guides" },
   ],
 };

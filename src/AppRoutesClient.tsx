@@ -236,6 +236,7 @@ const AiVoiceAgentSetupVsDiySmallBusiness = lazy(() => import("./pages/AiVoiceAg
 const AiVoiceAgentCostSmallBusiness = lazy(() => import("./pages/AiVoiceAgentCostSmallBusiness"));
 const AiPhoneAnsweringCostSmallBusiness = lazy(() => import("./pages/AiPhoneAnsweringCostSmallBusiness"));
 const AiPhoneAnsweringSetupSmallBusiness = lazy(() => import("./pages/AiPhoneAnsweringSetupSmallBusiness"));
+const AiPhoneAnsweringRoiSmallBusiness = lazy(() => import("./pages/AiPhoneAnsweringRoiSmallBusiness"));
 const AiVoiceAgentRoiForLeadFollowUp = lazy(() => import("./pages/AiVoiceAgentRoiForLeadFollowUp"));
 const InstantLeadResponse = lazy(() => import("./pages/InstantLeadResponse"));
 const ContactFormLeadFollowUpAutomation = lazy(() => import("./pages/ContactFormLeadFollowUpAutomation"));
@@ -638,6 +639,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-voice-agent-cost-small-business" element={<AiVoiceAgentCostSmallBusiness />} />
       <Route path="/ai-phone-answering-cost-small-business" element={<AiPhoneAnsweringCostSmallBusiness />} />
       <Route path="/ai-phone-answering-setup-small-business" element={<AiPhoneAnsweringSetupSmallBusiness />} />
+      <Route path="/ai-phone-answering-roi-small-business" element={<AiPhoneAnsweringRoiSmallBusiness />} />
       <Route path="/ai-voice-agent-roi-for-lead-follow-up" element={<AiVoiceAgentRoiForLeadFollowUp />} />
       <Route path="/instant-lead-response-automation" element={<InstantLeadResponse />} />
       <Route path="/contact-form-lead-follow-up-automation" element={<ContactFormLeadFollowUpAutomation />} />

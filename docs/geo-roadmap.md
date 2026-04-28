@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/ai-phone-answering-setup-small-business`: added the setup/implementation-help sibling for the phone-answering cluster, covering setup scope, handoff logic, launch readiness, and when professional help is worth it versus a lighter workflow. Total live pages: 289.)
+Last updated: 2026-04-27 (shipped `/ai-phone-answering-roi-small-business`: added the ROI/payback sibling for the phone-answering cluster, covering conservative payback math, recovered call value, saved admin time, and when a lighter workflow is the smarter first step. Total live pages: 290.)
 
 ## Live GEO Assets
 
@@ -296,10 +296,11 @@ Last updated: 2026-04-27 (shipped `/ai-phone-answering-setup-small-business`: ad
 | Instagram Lead Gen Case Study | `/case-studies/instagram-lead-generation` | Case study | Live |
 | E-commerce CRM Case Study | `/case-studies/ecommerce-crm-automation` | Case study | Live |
 | AI Phone Answering Setup (SMB) | `/ai-phone-answering-setup-small-business` | Workflow / service page | Live |
+| AI Phone Answering ROI (SMB) | `/ai-phone-answering-roi-small-business` | Workflow / ROI page | Live |
 
 ## Next Pages
 
-The phone-answering setup gap is now closed. The cluster has a broad guide, pricing page, and setup page. Next run should go back to broad reconciliation instead of forcing another same-cluster phone page by inertia.
+The phone-answering cluster now has a broad guide, cost page, setup page, and ROI page. The ROI sibling was extracted from the remaining "is it worth the cost?" / economics query that the cost page deliberately left to a payback-focused companion. Next run should move outside the generic phone-answering cluster. The strongest next candidate is a missed-call text-back ROI page (`/missed-call-text-back-roi-small-business`), which covers similar economics for a lighter, higher-volume workflow and has no existing sibling.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
