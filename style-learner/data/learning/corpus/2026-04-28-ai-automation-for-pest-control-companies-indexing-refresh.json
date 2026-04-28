@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-ai-automation-for-pest-control-companies-indexing-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Existing page role retained\nHeading: AI Automation for Pest Control Companies\nBody: The page still acts as the broad commercial parent for pest-control automation — urgent response, recurring-service reminders, seasonal campaigns, quote follow-up, review workflows, and phone coverage.\nSub: The refresh does not turn it into a new page type. It makes the parent page more useful once the owner needs to choose which narrower workflow deserves the first build.\n\n### Hero framing tightened around first-project selection\nSection: Updated hero support copy\n- The hero subtext now makes the page answer a sharper buyer question:\n  - which leak should usually be fixed first\n  - where ROI tends to show up first\n  - when a lighter follow-up layer is enough\n  - when a heavier live-answering system becomes justified\n- Purpose: stop the page from reading like a generic list of automations and make it easier for search/AI systems to extract the real decision frame.\n\n### New first-project routing block\nSection: Choose the first pest-control workflow by where revenue is leaking\n- Adds a new answer-extractable card section that separates five distinct first-project choices:\n  - urgent lead follow-up\n  - missed-call recovery\n  - recurring reminders and renewals\n  - seasonal campaigns\n  - heavier live AI phone answering\n- Each card uses explicit route references to live child pages so the parent now sends readers and crawlers into:\n  - /urgent-lead-follow-up-for-pest-control-companies\n  - /missed-call-text-back-for-pest-control-companies\n  - /recurring-service-reminder-automation-for-pest-control-companies\n  - /seasonal-campaign-automation-for-pest-control-companies\n  - /ai-phone-answering-for-pest-control-companies\n- Purpose: keep the broad parent from acting like a dead-end category page after the owner identifies the leak.\n\n### Internal-link cluster tightened\nSection: Parent-to-child crawl paths\n- The proof-links block now routes into:\n  - /what-to-automate-first-for-pest-control-companies\n  - /urgent-lead-follow-up-for-pest-control-companies\n  - /recurring-service-reminder-automation-for-pest-control-companies\n  - /case-studies\n- Bottom related links now stay inside the live pest-control cluster instead of jumping mostly to generic or adjacent-industry pages.\n- New related links emphasize:\n  - the first-project selector\n  - urgent lead follow-up\n  - recurring reminders\n  - seasonal campaigns\n  - quote follow-up\n  - AI phone answering\n\n### FAQ extraction strengthened\nSection: New buyer question\n- Added a new FAQ answer for: What should a pest control company automate first?\n- The answer mirrors the page’s new routing logic and explicitly distinguishes between:\n  - fresh-lead response problems\n  - missed-call problems\n  - renewal / retention problems\n  - seasonal campaign timing problems\n  - heavier live-answering fit\n- Purpose: give search/AI systems a compact direct answer instead of forcing them to infer the recommendation from multiple sections.\n\n### llm / llms summaries refreshed\nSection: External discovery wording\n- Updated the pest-control parent summary in both public/llm.txt and public/llms.txt.\n- New summary explains that the page now helps owners choose the right first workflow by leak instead of presenting one generic automation stack.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded indexing / internal-linking refresh on an existing industry parent page, not a net-new page ship."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical: follow the leak, keep the first build narrow, and only move up to heavier phone automation when the lighter layer is clearly no longer enough."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "No new proof claims or fake pest-control case-study claims were added."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The update is mostly about cleaner buyer framing, answer extraction, and stronger parent-to-child routing inside the live pest-control cluster."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T20:36:31.350Z",
+    "structure": {
+      "paragraphCount": 6,
+      "sentencesPerParagraph": [
+        3,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "avgSentenceLength": 39.5,
+      "sentenceLengthRange": [
+        12,
+        98
+      ],
+      "totalWords": 435
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Existing page role retained\nHeading: AI Automation for Pest Control Companies\nBody: The page still acts as the broad commercial parent for pest-control automation — urgent response, recurring-service reminders, seasonal campaigns, quote follow-up, review workflows, and phone coverage.",
+      "wordCount": 37,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### llm / llms summaries refreshed\nSection: External discovery wording\n- Updated the pest-control parent summary in both public/llm.txt and public/llms.txt.\n- New summary explains that the page now helps owners choose the right first workflow by leak instead of presenting one generic automation stack.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "result",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | result | result | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 5,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 42,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 18,
+      "commasPerSentence": 0.5
+    },
+    "vocabulary": {
+      "distinctWords": 221,
+      "totalWords": 435,
+      "topWords": [
+        [
+          "-",
+          42
+        ],
+        [
+          "page",
+          8
+        ],
+        [
+          "new",
+          8
+        ],
+        [
+          "first",
+          6
+        ],
+        [
+          "section",
+          6
+        ],
+        [
+          "parent",
+          5
+        ],
+        [
+          "follow-up",
+          5
+        ],
+        [
+          "now",
+          5
+        ],
+        [
+          "pest-control",
+          4
+        ],
+        [
+          "seasonal",
+          4
+        ],
+        [
+          "first-project",
+          4
+        ],
+        [
+          "answer",
+          4
+        ],
+        [
+          "problems",
+          4
+        ],
+        [
+          "ai",
+          3
+        ],
+        [
+          "automation",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.002
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": [
+        "adds-trust-signals"
+      ]
+    }
+  }
+}

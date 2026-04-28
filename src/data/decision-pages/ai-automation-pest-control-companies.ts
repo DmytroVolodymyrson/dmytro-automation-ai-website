@@ -25,7 +25,7 @@ const data: DecisionPageData = {
   heroIntro:
     "A homeowner finds carpenter ants in their kitchen on a Saturday morning. They call three pest control companies. Two go to voicemail — techs are already on route. The third texts back in 20 seconds with availability. That company gets the job. Pest control is an urgency business. When someone has a pest problem, they want it solved now — not tomorrow, not after you check your voicemail at 5 PM. AI automation handles the instant response, recurring service management, and seasonal outreach that your team cannot keep up with while they are out treating homes.",
   heroSubtext:
-    "Below: what pest control automation looks like in practice, where it delivers the clearest ROI, and how to decide if it is worth the investment.",
+    "Below: what pest control automation looks like in practice, which leak usually deserves the first build, where the clearest ROI shows up first, and how to decide whether you need a lighter follow-up layer or a heavier live-answering system.",
   sections: [
     {
       type: "cards",
@@ -62,6 +62,39 @@ const data: DecisionPageData = {
           icon: Star,
           title: "Review request automation",
           body: "After every completed service, an automated text asks for a Google review. Happy clients get a direct review link. Unhappy ones get routed to you first. Pest control is heavily review-driven — consistent 5-star reviews build the trust that converts searchers into callers.",
+        },
+      ],
+    },
+    {
+      type: "cards",
+      title: "Choose the first pest-control workflow by where revenue is leaking",
+      subtitle:
+        "The broad parent page is useful, but most pest-control owners should still start with one narrower workflow first:",
+      items: [
+        {
+          icon: MessageSquare,
+          title: "Start with urgent lead follow-up",
+          body: "Choose this first when the company already gets web leads, ad leads, and inbound inquiries, but response speed and short nurture still break before the first visit is booked. The clearest child page is /urgent-lead-follow-up-for-pest-control-companies.",
+        },
+        {
+          icon: Phone,
+          title: "Start with missed-call recovery",
+          body: "Choose this first when the main leak happens the second nobody answers live. If technicians are on route, after-hours demand matters, and SMS-first recovery would likely save the job, start with /missed-call-text-back-for-pest-control-companies before buying a heavier live-answering system.",
+        },
+        {
+          icon: CalendarCheck,
+          title: "Start with recurring reminders and renewals",
+          body: "Choose this first when scheduled treatments, annual plans, and lapse recovery are the real problem. If the office keeps losing recurring revenue between visits, the right first workflow is /recurring-service-reminder-automation-for-pest-control-companies.",
+        },
+        {
+          icon: Users,
+          title: "Start with seasonal campaigns only after the basics work",
+          body: "Choose this when response and renewal discipline are already stable, but the company still misses spring, summer, or fall outreach windows. That is when /seasonal-campaign-automation-for-pest-control-companies becomes a real first-project candidate instead of a distraction.",
+        },
+        {
+          icon: Shield,
+          title: "Upgrade to live AI phone answering only when the lighter layer is not enough",
+          body: "If urgent callers now expect a live answer right away, missed-call text-back may no longer be enough. In that case, move up to /ai-phone-answering-for-pest-control-companies after the team proves the lighter phone-recovery layer or clearly outgrows it.",
         },
       ],
     },
@@ -146,13 +179,19 @@ const data: DecisionPageData = {
         },
       ],
       links: [
-        { label: "AI automation for landscaping companies", href: "/ai-automation-for-landscaping-companies" },
-        { label: "AI automation for cleaning companies", href: "/ai-automation-for-cleaning-companies" },
+        { label: "What to automate first for pest control companies", href: "/what-to-automate-first-for-pest-control-companies" },
+        { label: "Urgent lead follow-up for pest control companies", href: "/urgent-lead-follow-up-for-pest-control-companies" },
+        { label: "Recurring service reminder automation for pest control companies", href: "/recurring-service-reminder-automation-for-pest-control-companies" },
         { label: "View all case studies", href: "/case-studies" },
       ],
     },
   ],
   faqItems: [
+    {
+      question: "What should a pest control company automate first?",
+      answer:
+        "Usually start with the leak that is already most expensive: urgent lead follow-up if fresh homeowner demand goes cold before the first visit is booked, missed-call recovery if the job dies the second nobody answers live, recurring-service reminders if contracts are quietly lapsing, seasonal campaigns if response and renewal basics are already stable, or live AI phone answering if text-back is no longer enough.",
+    },
     {
       question: "What is the most impactful automation for a pest control company?",
       answer:
@@ -187,10 +226,12 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No obligation. No generic pitch. Just a practical conversation about your pest control business.",
   relatedLinks: [
-    { label: "AI automation for landscaping companies", href: "/ai-automation-for-landscaping-companies" },
-    { label: "AI automation for cleaning companies", href: "/ai-automation-for-cleaning-companies" },
-    { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
-    { label: "Client reactivation automation", href: "/client-reactivation-automation" },
+    { label: "What to automate first for pest control companies", href: "/what-to-automate-first-for-pest-control-companies" },
+    { label: "Urgent lead follow-up for pest control companies", href: "/urgent-lead-follow-up-for-pest-control-companies" },
+    { label: "Recurring service reminder automation for pest control companies", href: "/recurring-service-reminder-automation-for-pest-control-companies" },
+    { label: "Seasonal campaign automation for pest control companies", href: "/seasonal-campaign-automation-for-pest-control-companies" },
+    { label: "Quote follow-up automation for pest control companies", href: "/quote-follow-up-automation-for-pest-control-companies" },
+    { label: "AI phone answering for pest control companies", href: "/ai-phone-answering-for-pest-control-companies" },
     { label: "All guides", href: "/guides" },
   ],
 };
