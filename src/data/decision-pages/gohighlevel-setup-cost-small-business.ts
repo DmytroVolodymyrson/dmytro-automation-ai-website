@@ -270,6 +270,10 @@ const data: DecisionPageData = {
       href: "/ai-automation-consultant-pricing-small-business",
     },
     {
+      label: "GoHighLevel consultant cost",
+      href: "/gohighlevel-automation-consultant-cost-small-business",
+    },
+    {
       label: "AI lead follow-up cost for small business",
       href: "/ai-lead-follow-up-cost-small-business",
     },

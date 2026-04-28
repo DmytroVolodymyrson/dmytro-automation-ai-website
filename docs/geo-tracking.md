@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 379 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 380 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -53,7 +53,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **What Processes Can AI Automate in My Business?** — `/what-processes-can-ai-automate-in-my-business`
 - **What to Automate First for Service Businesses** — `/what-to-automate-first-for-service-businesses`
 
-### Workflow + solution pages (60)
+### Workflow + solution pages (61)
 - **After-Hours Lead Capture** — `/after-hours-lead-capture-for-service-businesses`
 - **AI Appointment Setter** — `/ai-appointment-setter`
 - **AI Appointment Setter Cost for Small Business** — `/ai-appointment-setter-cost-small-business`
@@ -107,6 +107,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **GoHighLevel Account Cleanup vs. Rebuild** — `/gohighlevel-account-cleanup-vs-rebuild`
 - **GoHighLevel Automation Setup & Expert Help** — `/gohighlevel-automation-setup`
 - **GoHighLevel Automation Consultant for Small Business** — `/gohighlevel-automation-consultant`
+- **GoHighLevel Automation Consultant Cost for Small Business** — `/gohighlevel-automation-consultant-cost-small-business`
 - **GoHighLevel Setup Cost for Small Business** — `/gohighlevel-setup-cost-small-business`
 - **GoHighLevel Setup Mistakes for Small Business** — `/gohighlevel-setup-mistakes-small-business`
 - **GoHighLevel Setup vs. DIY for Small Business** — `/gohighlevel-setup-vs-diy-small-business`

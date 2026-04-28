@@ -1012,7 +1012,7 @@
         "What should a mortgage broker automate first lead follow-up missed-call text-back document collection or incomplete application follow-up?",
         "Should a mortgage broker automate lead follow-up before document collection?",
         "Should a mortgage brokerage automate incomplete-application recovery before document reminders?",
-        "How do I choose the first automation project for a mortgage brokerage \u2014 lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
+        "How do I choose the first automation project for a mortgage brokerage — lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
       ]
     },
     {
@@ -2463,8 +2463,20 @@
         "GoHighLevel automation consultant for small business",
         "Should I hire a GoHighLevel consultant or set it up myself?",
         "What does a GoHighLevel automation consultant actually do?",
-        "How much does it cost to hire a GoHighLevel consultant?",
+        "How do I know if my GoHighLevel workflow needs consultant help instead of setup-only implementation?",
         "When is hiring a GHL consultant worth it for a small business?"
+      ]
+    },
+    {
+      "id": "gohighlevel-automation-consultant-cost-small-business",
+      "path": "/gohighlevel-automation-consultant-cost-small-business",
+      "label": "GoHighLevel Automation Consultant Cost for Small Business",
+      "prompts": [
+        "GoHighLevel automation consultant cost for small business",
+        "How much does it cost to hire a GoHighLevel consultant?",
+        "What should a small business budget for a GoHighLevel automation consultant?",
+        "How much should I pay for GoHighLevel expert help for a revenue-critical workflow?",
+        "When is GoHighLevel consultant pricing worth it compared with DIY or setup-only help?"
       ]
     },
     {

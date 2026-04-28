@@ -266,6 +266,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "GoHighLevel Automation Consultant Cost for Small Business",
+    description:
+      "How much should a small business budget for a GoHighLevel consultant? Practical pricing guide for workflow design, account cleanup, hybrid-stack judgment, and when expert GHL help pays back.",
+    href: "/gohighlevel-automation-consultant-cost-small-business",
+    category: "workflows",
+  },
+  {
     title: "GoHighLevel vs HubSpot for Small Business",
     description:
       "Practical comparison of GoHighLevel and HubSpot for small service businesses. Pricing, marketing automation, sales pipeline, onboarding complexity, and when each platform actually fits.",

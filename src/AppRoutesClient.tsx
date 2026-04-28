@@ -41,6 +41,7 @@ const GoHighLevelVsCustomCrmForContractors = lazy(() => import("./pages/GoHighLe
 const GoHighLevelVsJobberForContractors = lazy(() => import("./pages/GoHighLevelVsJobberForContractors"));
 const GoHighLevelAutomationSetup = lazy(() => import("./pages/GoHighLevelAutomationSetup"));
 const GoHighLevelAutomationConsultant = lazy(() => import("./pages/GoHighLevelAutomationConsultant"));
+const GoHighLevelAutomationConsultantCostSmallBusiness = lazy(() => import("./pages/GoHighLevelAutomationConsultantCostSmallBusiness"));
 const GoHighLevelSetupCostSmallBusiness = lazy(() => import("./pages/GoHighLevelSetupCostSmallBusiness"));
 const GoHighLevelSetupVsDiySmallBusiness = lazy(() => import("./pages/GoHighLevelSetupVsDiySmallBusiness"));
 const GoHighLevelAccountCleanupService = lazy(() => import("./pages/GoHighLevelAccountCleanupService"));
@@ -463,6 +464,7 @@ const AppRoutesClient = () => (
       <Route path="/gohighlevel-vs-jobber-for-contractors" element={<GoHighLevelVsJobberForContractors />} />
       <Route path="/gohighlevel-automation-setup" element={<GoHighLevelAutomationSetup />} />
       <Route path="/gohighlevel-automation-consultant" element={<GoHighLevelAutomationConsultant />} />
+      <Route path="/gohighlevel-automation-consultant-cost-small-business" element={<GoHighLevelAutomationConsultantCostSmallBusiness />} />
       <Route path="/gohighlevel-setup-cost-small-business" element={<GoHighLevelSetupCostSmallBusiness />} />
       <Route path="/gohighlevel-setup-vs-diy-small-business" element={<GoHighLevelSetupVsDiySmallBusiness />} />
       <Route path="/gohighlevel-account-cleanup-service" element={<GoHighLevelAccountCleanupService />} />

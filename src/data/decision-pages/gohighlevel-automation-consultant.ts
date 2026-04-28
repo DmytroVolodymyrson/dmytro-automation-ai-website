@@ -286,6 +286,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No vague agency pitch. Just a practical review of the workflow, stack, cleanup risk, and likely payoff.",
   relatedLinks: [
+    { label: "GoHighLevel consultant cost for small business", href: "/gohighlevel-automation-consultant-cost-small-business" },
     { label: "GoHighLevel automation setup help", href: "/gohighlevel-automation-setup" },
     { label: "GoHighLevel setup cost for small business", href: "/gohighlevel-setup-cost-small-business" },
     { label: "GoHighLevel setup vs. DIY for small business", href: "/gohighlevel-setup-vs-diy-small-business" },

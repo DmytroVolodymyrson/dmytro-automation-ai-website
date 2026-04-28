@@ -1,8 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (completed another fresh broad reconciliation across the generic service-business strategy cluster and confirmed the roadmap's net-new queue was still too stale to trust blindly because several supposedly missing strategy pages were already live. That made the bounded maintenance path the safest move again: `/ai-automation-roi-guide` now works more explicitly as the ROI hub for the commercial cluster, with clearer buyer routing into cost, consultant pricing, time savings, support, first-project selection, and proof-backed case-study paths instead of acting like a stand-alone ROI explainer.)
+Last updated: 2026-04-28 (shipped `/gohighlevel-automation-consultant-cost-small-business` after another broad reconciliation confirmed the cleaner net-new move was to extract an exact tracked pricing query from the live GoHighLevel consultant cluster instead of forcing another stale generic strategy page. The new page now gives the GHL cluster a dedicated budgeting layer between consultant-fit, setup-only cost, DIY, cleanup, and broader CRM/tool-choice decisions.)
 
 ## Live GEO Assets
+
+**Total live GEO pages tracked here:** 312.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -74,6 +76,7 @@ Last updated: 2026-04-28 (completed another fresh broad reconciliation across th
 | GoHighLevel vs Jobber (Contractors) | `/gohighlevel-vs-jobber-for-contractors` | Vertical comparison page | Live |
 | GoHighLevel Automation Setup | `/gohighlevel-automation-setup` | Service page | Live |
 | GoHighLevel Automation Consultant | `/gohighlevel-automation-consultant` | Hiring-intent / role page | Live |
+| GoHighLevel Automation Consultant Cost (SMB) | `/gohighlevel-automation-consultant-cost-small-business` | Hiring-intent / cost page | Live |
 | GoHighLevel Setup Cost (SMB) | `/gohighlevel-setup-cost-small-business` | Service cost page | Live |
 | GoHighLevel Setup vs DIY (SMB) | `/gohighlevel-setup-vs-diy-small-business` | Decision page | Live |
 | GoHighLevel Account Cleanup | `/gohighlevel-account-cleanup-service` | Service page | Live |
@@ -321,16 +324,16 @@ Last updated: 2026-04-28 (completed another fresh broad reconciliation across th
 
 ## Next Pages
 
-This run repeated the broad reconciliation step the roadmap had already requested and got the same core answer: the generic service-business strategy cluster is still too stale and cross-linked to trust a guessed net-new page without a fresh repo-wide check every time. Several strategy pages that older notes could make look missing were already live, so the safest move was the bounded refresh on `/ai-automation-roi-guide` instead of forcing another thin generic child. The ROI page now sits more cleanly between the cost hub, consultant-pricing page, time-savings page, support page, first-project selector, and the three strongest generic proof assets.
+This run still started from a broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and the live route/page set. The distinct surviving opportunity was not another generic strategy page. It was the exact budgeting query already sitting on `/gohighlevel-automation-consultant`: owners who already know they may need GHL expert help but still need a tighter answer on realistic consultant pricing versus setup-only help, cleanup work, and hybrid-stack judgment. Shipping that child page made the GoHighLevel cluster more commercially complete without inventing a thin new topic.
 
 The next run should:
 
-1. **Keep manual GSC follow-through moving** on the refreshed priority URLs instead of treating publish alone as the finish line.
-2. **Start from another fresh broad reconciliation before naming any net-new generic service-business page** because stale docs are still a real risk in this cluster.
-3. **If that reconciliation still finds no safer net-new candidate, use `/ai-automation-time-savings-small-business` as the bounded fallback refresh** so the economics cluster covers the remaining adjacent owner question more explicitly: reclaimed hours, capacity unlocked, and where time-savings logic should or should not carry the decision on its own.
+1. **Keep manual GSC follow-through moving** on refreshed priority URLs and newer consultant / workflow pages instead of treating publish alone as the finish line.
+2. **Start from another fresh broad reconciliation before naming a new net-new page** so the queue does not drift back into stale generic-strategy guesses or accidental same-cluster inertia.
+3. **If no cleaner net-new candidate survives that reconciliation, use `/ai-automation-time-savings-small-business` as the bounded fallback refresh** so the economics cluster keeps improving without manufacturing a weak new page.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
 | 1 | Manual GSC follow-through on refreshed priority URLs | Several of the highest-value pages are still in discovered/not-indexed or not-yet-inspected state, so crawl feedback still matters as much as another publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed pages in GSC, and record whether the crawl/index state moved after the latest deploys. |
-| 2 | Fresh broad reconciliation before another net-new generic service-business page | The generic strategy cluster is richer than the roadmap text implies, and stale documentation can still make already-live pages look missing. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
-| 3 | `/ai-automation-time-savings-small-business` bounded refresh | After the cost and ROI hub refreshes, time-savings is the cleanest adjacent economics page that can still be sharpened without inventing a thin new generic child. | Re-check the live time-savings copy, the refreshed cost/ROI/support pages, and whether proof plus first-project routing already appear early enough before choosing the exact refresh scope. |
+| 2 | Fresh broad reconciliation before another net-new page | The repo is now dense enough that stale docs can still make already-live pages look missing or make a just-shipped cluster look like it owns the next run by default. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
+| 3 | `/ai-automation-time-savings-small-business` bounded refresh | After the ROI hub refresh and this GHL cost-page ship, time-savings is still the cleanest adjacent economics page that can be sharpened without inventing a thin generic child. | Re-check the live time-savings copy, the refreshed cost/ROI/support pages, and whether proof plus first-project routing already appear early enough before choosing the exact refresh scope. |
