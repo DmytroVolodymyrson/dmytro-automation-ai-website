@@ -325,6 +325,7 @@ import AiLeadFollowUpForMedSpas from "./pages/AiLeadFollowUpForMedSpas";
 import AiAutomationForRoofingCompanies from "./pages/AiAutomationForRoofingCompanies";
 import WhatToAutomateFirstForRoofingCompanies from "./pages/WhatToAutomateFirstForRoofingCompanies";
 import AiLeadFollowUpForRoofingCompanies from "./pages/AiLeadFollowUpForRoofingCompanies";
+import InsuranceClaimFollowUpForRoofingCompanies from "./pages/InsuranceClaimFollowUpForRoofingCompanies";
 import ClientReactivationAutomationForRoofingCompanies from "./pages/ClientReactivationAutomationForRoofingCompanies";
 import MissedCallTextBackForRoofingCompanies from "./pages/MissedCallTextBackForRoofingCompanies";
 import MissedCallTextBackVsAiPhoneAnsweringForRoofingCompanies from "./pages/MissedCallTextBackVsAiPhoneAnsweringForRoofingCompanies";
@@ -822,6 +823,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-for-roofing-companies", element: <AiAutomationForRoofingCompanies /> },
   { path: "/what-to-automate-first-for-roofing-companies", element: <WhatToAutomateFirstForRoofingCompanies /> },
   { path: "/ai-lead-follow-up-for-roofing-companies", element: <AiLeadFollowUpForRoofingCompanies /> },
+  { path: "/insurance-claim-follow-up-for-roofing-companies", element: <InsuranceClaimFollowUpForRoofingCompanies /> },
   { path: "/client-reactivation-automation-for-roofing-companies", element: <ClientReactivationAutomationForRoofingCompanies /> },
   { path: "/missed-call-text-back-for-roofing-companies", element: <MissedCallTextBackForRoofingCompanies /> },
   { path: "/missed-call-text-back-vs-ai-phone-answering-for-roofing-companies", element: <MissedCallTextBackVsAiPhoneAnsweringForRoofingCompanies /> },

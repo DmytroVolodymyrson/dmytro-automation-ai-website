@@ -187,10 +187,10 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No obligation. No generic pitch. Just a practical conversation about your roofing business.",
   relatedLinks: [
-    { label: "AI automation for painting contractors", href: "/ai-automation-for-painting-contractors" },
-    { label: "AI automation for plumbing companies", href: "/ai-automation-for-plumbing-companies" },
-    { label: "Quote follow-up automation", href: "/quote-follow-up-automation" },
-    { label: "Missed call follow-up automation", href: "/missed-call-follow-up-automation" },
+    { label: "What to automate first for roofing companies", href: "/what-to-automate-first-for-roofing-companies" },
+    { label: "Estimate follow-up automation for roofing companies", href: "/estimate-follow-up-automation-for-roofing-companies" },
+    { label: "Insurance claim follow-up for roofing companies", href: "/insurance-claim-follow-up-for-roofing-companies" },
+    { label: "Roofing scheduling and follow-up automation", href: "/roofing-scheduling-and-follow-up-automation" },
     { label: "All guides", href: "/guides" },
   ],
 };

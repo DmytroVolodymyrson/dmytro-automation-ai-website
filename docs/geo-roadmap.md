@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/n8n-automation-setup-for-small-business` — a new setup-help page for small-business owners who already think n8n is probably the right platform and need practical guidance on workflow mapping, hosting, integrations, ownership, and first-build scope. It closes a clean implementation-help gap inside the live n8n cluster between the consultant, consultant-cost, DIY, cleanup, audit, and examples pages. Previous: `/gohighlevel-consultant-vs-setup-help`.)
+Last updated: 2026-04-28 (shipped `/insurance-claim-follow-up-for-roofing-companies` — a new roofing workflow child page focused on keeping insurance-dependent jobs moving through adjuster delays, supplements, approvals, and homeowner uncertainty without pretending automation can replace claim judgment. It closes a real gap inside the live roofing cluster between the broader parent page, estimate follow-up, and booked-job scheduling pages. Previous: `/n8n-automation-setup-for-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 317.
+**Total live GEO pages tracked here:** 318.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -326,19 +326,20 @@ Last updated: 2026-04-28 (shipped `/n8n-automation-setup-for-small-business` —
 | AI Phone Answering Setup (SMB) | `/ai-phone-answering-setup-small-business` | Workflow / service page | Live |
 | AI Phone Answering ROI (SMB) | `/ai-phone-answering-roi-small-business` | Workflow / ROI page | Live |
 | AI Phone Answering Setup vs. DIY (SMB) | `/ai-phone-answering-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
+| Insurance Claim Follow-Up (Roofing) | `/insurance-claim-follow-up-for-roofing-companies` | Vertical workflow page | Live |
 
 ## Next Pages
 
-This run started from a fresh broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, `scripts/geo-prompts.json`, and the live route/page set. The strongest clean gap was the missing n8n setup-help page: a practical implementation-intent child inside the live n8n cluster for owners who already believe n8n is the right platform and now need to understand setup scope, hosting choices, integration work, ownership, and what a sensible first workflow should include. Shipping it closes a real buyer-intent gap without forcing a thin new vertical.
+This run started from a fresh broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, `scripts/geo-prompts.json`, and the live route/page set. The strongest clean gap was the missing roofing insurance-claim workflow child: a page that sits between the broad roofing parent and the already-live estimate and scheduling children, focused specifically on keeping insurance-dependent jobs warm during adjuster delays, supplement review, approvals, and homeowner uncertainty. Shipping it closes a real workflow-stage gap without pretending there is already a dedicated roofing insurance case study.
 
 The next run should:
 
-1. **Keep manual GSC follow-through moving** on refreshed priority URLs and newly shipped setup / consultant pages instead of treating publish alone as the finish line.
-2. **Start from another fresh broad reconciliation before naming a new net-new page** so the queue does not drift back into stale same-cluster inertia or over-credit the mature n8n cluster with another automatic follow-up.
-3. **Only force another same-cluster n8n child if an exact distinct buyer query still survives that reconciliation**; otherwise leave the queue in watchlist mode instead of manufacturing thin overlap.
+1. **Keep manual GSC follow-through moving** on refreshed priority URLs and newly shipped roofing pages instead of treating publish alone as the finish line.
+2. **Start from another fresh broad reconciliation before naming a new net-new page** so the queue does not drift back into stale same-cluster inertia or over-credit the mature roofing cluster with another automatic follow-up.
+3. **Only force another same-cluster roofing child if an exact distinct buyer query still survives that reconciliation**; otherwise leave the queue in watchlist mode instead of manufacturing thin overlap.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
 | 1 | Manual GSC follow-through on refreshed priority URLs | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |
-| 2 | Fresh broad reconciliation before another net-new page | The repo is now dense enough that stale docs can still make already-live pages look missing or can over-credit the just-shipped n8n cluster with the next run by default. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
-| 3 | Watchlist: next same-cluster n8n child only if a truly distinct buyer query survives review | The n8n cluster is strong now, but a forced follow-up page would risk sliding into thin overlap unless a clearly different setup-cost or setup-vs-DIY query still remains after this new setup-help child. | Verify any new n8n candidate is still absent from routes, pages, sitemap, llm files, and geo prompts, and confirm it answers a materially different buyer decision than the live consultant / setup / cost / DIY / cleanup / audit / examples pages. |
+| 2 | Fresh broad reconciliation before another net-new page | The repo is now dense enough that stale docs can still make already-live pages look missing or can over-credit the just-shipped roofing cluster with the next run by default. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
+| 3 | Watchlist: next same-cluster roofing child only if a truly distinct buyer query survives review | The roofing cluster is strong now, but a forced follow-up page would risk sliding into thin overlap unless a clearly different workflow-stage or buyer-decision query still remains after this new insurance-claim child. | Verify any new roofing candidate is still absent from routes, pages, sitemap, llm files, and geo prompts, and confirm it answers a materially different buyer decision than the live roofing parent, first-project, lead-follow-up, estimate, scheduling, retention, phone, and review pages. |

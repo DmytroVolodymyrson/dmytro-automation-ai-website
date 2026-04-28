@@ -2265,6 +2265,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Insurance Claim Follow-Up for Roofing Companies",
+    description:
+      "A narrower roofing workflow page focused on keeping insurance-dependent jobs moving — adjuster-delay updates, supplement and approval-stage check-ins, homeowner next-step prompts, and cleaner coordinator handoff before a storm-season job quietly dies in limbo.",
+    href: "/insurance-claim-follow-up-for-roofing-companies",
+    category: "industries",
+  },
+  {
     title: "Roofing Scheduling and Follow-Up Automation",
     description:
       "Booked-job confirmations, reminders, weather-delay updates, reschedules, and cleaner office-to-crew handoff for roofing companies that want fewer day-of gaps and fewer callback-worthy misses.",

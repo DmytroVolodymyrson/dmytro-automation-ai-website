@@ -326,6 +326,7 @@ const AiLeadFollowUpForMedSpas = lazy(() => import("./pages/AiLeadFollowUpForMed
 const AiAutomationForRoofingCompanies = lazy(() => import("./pages/AiAutomationForRoofingCompanies"));
 const WhatToAutomateFirstForRoofingCompanies = lazy(() => import("./pages/WhatToAutomateFirstForRoofingCompanies"));
 const AiLeadFollowUpForRoofingCompanies = lazy(() => import("./pages/AiLeadFollowUpForRoofingCompanies"));
+const InsuranceClaimFollowUpForRoofingCompanies = lazy(() => import("./pages/InsuranceClaimFollowUpForRoofingCompanies"));
 const ClientReactivationAutomationForRoofingCompanies = lazy(() => import("./pages/ClientReactivationAutomationForRoofingCompanies"));
 const MissedCallTextBackForRoofingCompanies = lazy(() => import("./pages/MissedCallTextBackForRoofingCompanies"));
 const MissedCallTextBackVsAiPhoneAnsweringForRoofingCompanies = lazy(() => import("./pages/MissedCallTextBackVsAiPhoneAnsweringForRoofingCompanies"));
@@ -756,6 +757,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-automation-for-roofing-companies" element={<AiAutomationForRoofingCompanies />} />
       <Route path="/what-to-automate-first-for-roofing-companies" element={<WhatToAutomateFirstForRoofingCompanies />} />
       <Route path="/ai-lead-follow-up-for-roofing-companies" element={<AiLeadFollowUpForRoofingCompanies />} />
+      <Route path="/insurance-claim-follow-up-for-roofing-companies" element={<InsuranceClaimFollowUpForRoofingCompanies />} />
       <Route path="/client-reactivation-automation-for-roofing-companies" element={<ClientReactivationAutomationForRoofingCompanies />} />
       <Route path="/missed-call-text-back-for-roofing-companies" element={<MissedCallTextBackForRoofingCompanies />} />
       <Route path="/missed-call-text-back-vs-ai-phone-answering-for-roofing-companies" element={<MissedCallTextBackVsAiPhoneAnsweringForRoofingCompanies />} />

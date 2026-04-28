@@ -3116,6 +3116,18 @@
       ]
     },
     {
+      "id": "insurance-claim-follow-up-for-roofing-companies",
+      "path": "/insurance-claim-follow-up-for-roofing-companies",
+      "label": "Insurance Claim Follow-Up for Roofing Companies",
+      "prompts": [
+        "Insurance claim follow-up for roofing companies",
+        "How do roofing companies automate insurance claim follow-up?",
+        "Best way to keep roofing insurance jobs moving during adjuster and approval delays",
+        "How should a roofing company follow up while a homeowner is waiting on an adjuster, supplement, or carrier approval?",
+        "How do I stop insurance roofing jobs from going cold while the claim is still open?"
+      ]
+    },
+    {
       "id": "roofing-scheduling-and-follow-up-automation",
       "path": "/roofing-scheduling-and-follow-up-automation",
       "label": "Roofing Scheduling and Follow-Up Automation",

@@ -290,6 +290,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation for roofing companies", href: "/ai-automation-for-roofing-companies" },
     { label: "Estimate follow-up automation for roofing companies", href: "/estimate-follow-up-automation-for-roofing-companies" },
+    { label: "Insurance claim follow-up for roofing companies", href: "/insurance-claim-follow-up-for-roofing-companies" },
     { label: "Roofing scheduling and follow-up automation", href: "/roofing-scheduling-and-follow-up-automation" },
     { label: "AI phone answering for roofing companies", href: "/ai-phone-answering-for-roofing-companies" },
     { label: "All guides", href: "/guides" },
