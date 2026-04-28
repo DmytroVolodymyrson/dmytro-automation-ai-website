@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-ai-lead-follow-up-roi-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Lead Follow-Up ROI for Small Business\nBody: If your business loses good leads because response is slow, follow-up stops after one touch, or inquiries land in a CRM and then quietly die, lead-follow-up automation can have short payback. The ROI usually does not come from futuristic AI for its own sake. It comes from protecting demand you already created: web leads that should have gotten an immediate answer, estimate requests that needed a few more touches, missed-call inquiries that should have turned into conversations, and pipeline handoffs that should not depend on a tired owner remembering the next step. The wrong business will overbuy complexity. The right one can justify the investment with only a modest lift in recovered jobs, consults, or qualified conversations.\nSub: Below: where the ROI usually comes from, how to model it conservatively, what makes payback happen faster, and when a lighter workflow is the smarter first move.\n\n### Core sections\n- Where the ROI usually comes from\n- A conservative ROI model\n- What usually makes payback happen faster\n- When the ROI case is strong vs. weak\n- Proof and adjacent proof\n- What small businesses usually get wrong about lead-follow-up ROI\n\n### FAQ\nSubhead: Practical answers about evaluating AI lead-follow-up ROI for a small business\nTopics: how to estimate recovered opportunity value, how quickly payback can happen, how this differs from the cost page, how it differs from the voice-agent ROI page, and when a narrower workflow is smarter than a bigger build.\n\n### Final CTA\nHeading: Want a realistic ROI read on your lead-follow-up workflow?\nBody: Book a 30-minute call. We will look at where leads are leaking today, estimate the value of recovered response speed and follow-up discipline, and tell you whether a narrow workflow is enough or whether a deeper build is justified.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the lead-follow-up cluster already had the broad service-businesses parent and a pricing page, but it still lacked the workflow-level worth-it-now decision page for owners asking whether broader lead-follow-up automation economics justify a build."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept it distinct from `/ai-lead-follow-up-cost-small-business` by centering the page on payback math, recovered opportunity value, saved admin time, and conservative ROI modeling rather than on scope tiers and budgeting."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept it distinct from `/ai-voice-agent-roi-for-lead-follow-up` by focusing on the broader multi-channel workflow category — instant response, short nurture, CRM routing, and handoff logic — instead of the narrower phone/voice-agent layer."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used only direct and adjacent proof already on-site: the broader lead-follow-up cluster, `/case-studies/paris-cafe-voice-agent`, `/case-studies/ecommerce-crm-automation`, and related workflow guides such as contact-form and instant-response pages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and anti-hype: modest payback assumptions, explicit fit / not-fit framing, warnings against buying complexity too early, and no invented conversion-lift benchmarks."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T14:18:11.215Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 25.3,
+      "sentenceLengthRange": [
+        5,
+        51
+      ],
+      "totalWords": 303
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Lead Follow-Up ROI for Small Business\nBody: If your business loses good leads because response is slow, follow-up stops after one touch, or inquiries land in a CRM and then quietly die, lead-follow-up automation can have short payback.",
+      "wordCount": 41,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a realistic ROI read on your lead-follow-up workflow?\nBody: Book a 30-minute call. We will look at where leads are leaking today, estimate the value of recovered response speed and follow-up discipline, and tell you whether a narrow workflow is enough or whether a deeper build is justified.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "result",
+        "closer"
+      ],
+      "template": "opener | result | result | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 17,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 1.55
+    },
+    "vocabulary": {
+      "distinctWords": 168,
+      "totalWords": 303,
+      "topWords": [
+        [
+          "roi",
+          10
+        ],
+        [
+          "from",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "usually",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "business",
+          4
+        ],
+        [
+          "lead-follow-up",
+          4
+        ],
+        [
+          "payback",
+          4
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "ai",
+          3
+        ],
+        [
+          "follow-up",
+          3
+        ],
+        [
+          "small",
+          3
+        ],
+        [
+          "leads",
+          3
+        ],
+        [
+          "can",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

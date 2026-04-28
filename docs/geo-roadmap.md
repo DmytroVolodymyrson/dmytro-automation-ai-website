@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (bounded priority-page refresh on `/ai-automation-for-businesses-without-a-tech-team` after broad reconciliation did not leave one clearly safer net-new planned page. Added a new answer-extractable section on what a first no-tech-team automation build should actually include, a matching FAQ answer, and stronger routing into cost, pricing, support, proof, and safest-first-build pages. Most recent net-new ship remains `/client-reactivation-cost-small-business`.)
+Last updated: 2026-04-28 (shipped `/ai-lead-follow-up-roi-small-business` after broad reconciliation. The lead-follow-up cluster already had the service-businesses parent plus a pricing page, but it still lacked the workflow-level ROI decision page. This new page closes that gap with conservative payback math, direct routing into the cost page, adjacent proof from published case studies, and internal links back into the live lead-follow-up cluster.)
 
 ## Live GEO Assets
 
@@ -21,6 +21,7 @@ Last updated: 2026-04-28 (bounded priority-page refresh on `/ai-automation-for-b
 | AI Appointment Setter Cost (SMB) | `/ai-appointment-setter-cost-small-business` | Workflow / service cost page | Live |
 | AI Appointment Setter ROI (SMB) | `/ai-appointment-setter-roi-small-business` | Workflow / ROI page | Live |
 | AI Lead Follow-Up (SMB) | `/ai-lead-follow-up-for-service-businesses` | Category page | Live |
+| AI Lead Follow-Up ROI (SMB) | `/ai-lead-follow-up-roi-small-business` | Workflow / ROI page | Live |
 | Review Request Automation (Service Businesses) | `/review-request-automation-for-service-businesses` | Workflow parent page | Live |
 | Referral Request Automation (Service Businesses) | `/referral-request-automation-for-service-businesses` | Workflow parent page | Live |
 | Missed Call Text-Back (Service Businesses) | `/missed-call-text-back-for-service-businesses` | Workflow parent page | Live |
@@ -317,15 +318,15 @@ Last updated: 2026-04-28 (bounded priority-page refresh on `/ai-automation-for-b
 
 ## Next Pages
 
-This run did **not** force another net-new page. A fresh cross-doc and live-route reconciliation still showed the mature workflow / vertical clusters are dense enough that stale backlog assumptions are the bigger risk, so the safer win was a bounded refresh on `/ai-automation-for-businesses-without-a-tech-team`. That page now explains what a first non-technical automation build should actually include and routes more cleanly into pricing, support, time-savings, proof, and safest-first-build pages.
+This run shipped `/ai-lead-follow-up-roi-small-business` because the lead-follow-up cluster still had one clean buyer-intent gap: the workflow-level worth-it decision between the general service-businesses explainer and the existing pricing page. The new page stays distinct from both the cost page and the voice-agent ROI page by focusing on broader lead-follow-up payback math across instant response, short nurture, CRM routing, and saved admin time.
 
 The next run should:
 
-1. **Run another broad prompts/route reconciliation pass first** before naming any new page, because the live site and prompts inventory are now dense enough that the next safe net-new win still needs positive verification rather than assumption.
-2. **If reconciliation still does not leave one clearly distinct planned page, do another bounded priority-page refresh** on the strongest discovered / commercially important page with the clearest internal-linking gap.
+1. **Check the remaining workflow-level ROI / pricing gaps first** before forcing a brand-new vertical, because the broad horizontal clusters still have a few clean economic buyer decisions left.
+2. **If no equally distinct net-new economic child survives that pass, do a bounded refresh on a priority indexing URL** instead of inventing a thin adjacent page.
 3. **Keep manual GSC follow-through moving** on the already-refreshed priority URLs instead of treating publish alone as the finish line.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Broad prompts/route reconciliation pass | The next safe net-new page is still more likely to come from a fresh cross-cluster verification pass than from assuming another adjacent child page is automatically still clean and distinct. | Re-run the live-routes vs prompts/guides/sitemap/llm/planning-doc diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
-| 2 | `/ai-automation-cost-small-business` bounded refresh | If reconciliation still leaves no clearly safe net-new page, this remains a strong commercial budgeting hub for another indexing/internal-linking pass because it naturally routes into pricing, ROI, time-savings, no-tech-team, support, and proof decisions. | Re-check `docs/geo-priority-urls.md`, the live copy, and whether any new adjacent cost/support child pages should be linked before choosing the exact bounded refresh. |
+| 1 | `/client-reactivation-roi-small-business` | The client-reactivation cluster now mirrors the lead-follow-up pattern: broad workflow parent plus a cost page, but still no workflow-level ROI child for owners deciding whether dormant-client recovery economics justify the build. | Verify it is still absent from routes/pages/guides/sitemap/llm files, then anchor it against `/client-reactivation-automation-for-service-businesses`, `/client-reactivation-cost-small-business`, and adjacent proof from `/hvac-database-reactivation` plus `/case-studies/ecommerce-crm-automation`. |
+| 2 | `/ai-automation-cost-small-business` bounded refresh | If the remaining economic-child pass does not leave one equally distinct net-new page, this remains a strong commercial budgeting hub for another indexing/internal-linking pass because it naturally routes into pricing, ROI, time-savings, no-tech-team, support, and proof decisions. | Re-check `docs/geo-priority-urls.md`, the live copy, and whether the newest ROI/cost siblings should be linked before choosing the exact bounded refresh. |

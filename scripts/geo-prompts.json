@@ -256,8 +256,20 @@
         "What does AI lead follow-up cost for a small business?",
         "How much should a small business budget for lead follow-up automation?",
         "What is the typical cost of automating lead response and follow-up?",
-        "Is AI lead follow-up worth it for a small business?",
+        "What monthly cost should I expect after a lead-follow-up workflow launches?",
         "What affects the price of lead follow-up automation?"
+      ]
+    },
+    {
+      "id": "ai-lead-follow-up-roi-small-business",
+      "path": "/ai-lead-follow-up-roi-small-business",
+      "label": "AI Lead Follow-Up ROI for Small Business",
+      "prompts": [
+        "Is AI lead follow-up worth it for a small business?",
+        "How do I estimate ROI on AI lead follow-up?",
+        "What payback should a small business expect from lead-follow-up automation?",
+        "How many saved leads does it take for lead-follow-up automation to pay for itself?",
+        "What makes AI lead follow-up ROI strong or weak for a small business?"
       ]
     },
     {

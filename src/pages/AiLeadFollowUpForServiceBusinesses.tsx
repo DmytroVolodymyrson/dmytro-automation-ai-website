@@ -189,6 +189,14 @@ const AiLeadFollowUpForServiceBusinesses = () => {
                 >
                   AI lead follow-up cost guide
                 </Link>
+                . If the real question is whether faster response and cleaner
+                follow-up discipline will actually pay back, use the
+                <Link
+                  to="/ai-lead-follow-up-roi-small-business"
+                  className="mx-1 text-primary hover:text-primary/80 underline underline-offset-4"
+                >
+                  AI lead follow-up ROI guide
+                </Link>
                 before you request a custom build.
               </p>
               <div className="flex flex-wrap gap-3">
@@ -254,6 +262,12 @@ const AiLeadFollowUpForServiceBusinesses = () => {
                   body: "Go to the cost guide if you are comparing scope, monthly software, and whether a lightweight sequence or a full booking workflow makes sense first.",
                   href: "/ai-lead-follow-up-cost-small-business",
                   label: "AI lead follow-up cost guide",
+                },
+                {
+                  title: "Trying to decide if the workflow will actually pay back?",
+                  body: "Use the ROI guide when the real question is recovered jobs, saved admin time, and how many saved opportunities the workflow needs to justify itself.",
+                  href: "/ai-lead-follow-up-roi-small-business",
+                  label: "AI lead follow-up ROI guide",
                 },
               ].map((item, i) => (
                 <motion.div
@@ -393,7 +407,15 @@ const AiLeadFollowUpForServiceBusinesses = () => {
             >
               cost guide
             </Link>{" "}
-            breaks down the price bands in detail.
+            breaks down the price bands in detail, and the{" "}
+            <Link
+              to="/ai-lead-follow-up-roi-small-business"
+              className="text-primary hover:text-primary/80 underline underline-offset-4"
+            >
+              ROI guide
+            </Link>{" "}
+            helps you judge whether those price bands are worth it for your volume,
+            average deal size, and follow-up leak.
           </p>
           <p className="text-sm text-muted-foreground max-w-3xl leading-relaxed">
             After the first build is running, common add-ons include{" "}
@@ -732,6 +754,13 @@ const AiLeadFollowUpForServiceBusinesses = () => {
               className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
             >
               AI lead follow-up cost guide
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+            <Link
+              to="/ai-lead-follow-up-roi-small-business"
+              className="text-base font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+            >
+              AI lead follow-up ROI guide
               <ArrowRight className="w-4 h-4" />
             </Link>
             <Link

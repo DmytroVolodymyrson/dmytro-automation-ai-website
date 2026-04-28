@@ -428,6 +428,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Lead Follow-Up ROI for Small Business",
+    description:
+      "How to judge whether lead-follow-up automation is actually worth it. Conservative payback math for faster response, saved admin time, CRM routing, and recovered opportunities.",
+    href: "/ai-lead-follow-up-roi-small-business",
+    category: "workflows",
+  },
+  {
     title: "Client Onboarding Automation",
     description:
       "How to automate client onboarding for service businesses. Intake forms, document collection, welcome sequences, scheduling, and CRM pipeline automation.",
