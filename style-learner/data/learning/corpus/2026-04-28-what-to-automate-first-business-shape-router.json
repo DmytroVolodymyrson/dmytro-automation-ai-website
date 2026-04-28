@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-what-to-automate-first-business-shape-router",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Section heading\nPick your first automation by how your business actually runs\n\n### Intro copy\nThe bottleneck framework above works well when the revenue leak is obvious. But if you are still deciding, your day-to-day operating shape usually points to the right starting workflow faster than a generic checklist.\n\n### Router cards\n- **Owner-operator mostly in the field**\n  - Calls and form submissions pile up while you are on job sites or with customers.\n  - First automation: missed-call text-back plus instant lead response.\n  - Named proof: Paris Cafe went from 0% after-hours coverage to 100% with sub-60-second web lead response.\n- **Admin-heavy office with phone and scheduling bottlenecks**\n  - Front-desk staff or dispatchers lose time to phone tag, manual booking, and reminder calls.\n  - First automation: AI appointment setter or scheduling-and-reminder workflow.\n- **Long sales cycle with follow-up-heavy leads**\n  - Estimates, consultations, and proposals need multiple touches before buyers commit.\n  - First automation: structured follow-up sequence.\n  - Named proof: WheelsFeels used this pattern across 5,600+ contacts and saw a 185% conversion lift.\n- **Repeat-customer base with idle past clients**\n  - Hundreds or thousands of past customers sit untouched in the CRM.\n  - First automation: database reactivation campaign.\n\n### Supporting links\n- Missed-call text-back for service businesses\n- Instant lead response automation\n- Paris Cafe voice agent case study\n- AI appointment setter\n- No-show reduction automation\n- AI phone answering setup for small business\n- AI lead follow-up for service businesses\n- Lead follow-up automation examples\n- WheelsFeels CRM case study\n- Client reactivation workflow\n- HVAC database reactivation example\n- Client reactivation ROI\n\n### New FAQ\n**Does the best first automation depend on my business type or how I operate day-to-day?**\nYes. An owner-operator who is in the field all day has a different first project than a business with a front desk handling 50 calls a day. If you are mostly on job sites or with customers, start with missed-call text-back and instant lead response. If your office staff spends hours on phone tag and manual booking, start with an AI appointment setter or scheduling automation. If your sales cycle requires multiple touches, start with a follow-up sequence. And if you have hundreds of past clients sitting idle, start with a database reactivation campaign.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded indexing-support refresh on an existing live page, not a new GEO page ship."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The new section adds a second decision axis beyond the existing bottleneck framework: operating reality."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Copy stays direct and buyer-oriented: identify the business shape, pick the smallest useful first automation, then route into existing proof and workflow pages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Every recommendation is grounded in existing live pages and published proof, with no invented outcomes or fake industry expertise."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T20:14:10.394Z",
+    "structure": {
+      "paragraphCount": 5,
+      "sentencesPerParagraph": [
+        1,
+        2,
+        10,
+        1,
+        6
+      ],
+      "avgSentenceLength": 18.6,
+      "sentenceLengthRange": [
+        6,
+        66
+      ],
+      "totalWords": 372
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Section heading\nPick your first automation by how your business actually runs",
+      "wordCount": 12,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### New FAQ\n**Does the best first automation depend on my business type or how I operate day-to-day?**\nYes. An owner-operator who is in the field all day has a different first project than a business with a front desk handling 50 calls a day. If you are mostly on job sites or with customers, start with missed-call text-back and instant lead response. If your office staff spends hours on phone tag and manual booking, start with an AI appointment setter or scheduling automation. If your sales cycle requires multiple touches, start with a follow-up sequence. And if you have hundreds of past clients sitting idle, start with a database reactivation campaign.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "result",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | result | result | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 18,
+      "commas": 10,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 26,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 6,
+      "commasPerSentence": 0.56
+    },
+    "vocabulary": {
+      "distinctWords": 188,
+      "totalWords": 372,
+      "topWords": [
+        [
+          "-",
+          26
+        ],
+        [
+          "with",
+          11
+        ],
+        [
+          "automation",
+          10
+        ],
+        [
+          "first",
+          7
+        ],
+        [
+          "lead",
+          6
+        ],
+        [
+          "your",
+          5
+        ],
+        [
+          "if",
+          5
+        ],
+        [
+          "ai",
+          5
+        ],
+        [
+          "reactivation",
+          5
+        ],
+        [
+          "business",
+          4
+        ],
+        [
+          "response",
+          4
+        ],
+        [
+          "phone",
+          4
+        ],
+        [
+          "follow-up",
+          4
+        ],
+        [
+          "start",
+          4
+        ],
+        [
+          "workflow",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

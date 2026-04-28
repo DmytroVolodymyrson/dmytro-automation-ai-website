@@ -12,6 +12,10 @@ import {
   Clock,
   Target,
   BarChart3,
+  Wrench,
+  Headphones,
+  Users,
+  RotateCcw,
 } from "lucide-react";
 import type { DecisionPageData } from "@/components/DecisionPageTemplate";
 
@@ -174,6 +178,54 @@ const data: DecisionPageData = {
           links: [
             { label: "AI phone answering setup", href: "/ai-phone-answering-setup-small-business" },
             { label: "Paris Cafe voice agent case study", href: "/case-studies/paris-cafe-voice-agent" },
+          ],
+        },
+      ],
+    },
+    {
+      type: "cards",
+      title: "Pick your first automation by how your business actually runs",
+      subtitle:
+        "The bottleneck framework above works well when the revenue leak is obvious. But if you are still deciding, your day-to-day operating shape usually points to the right starting workflow faster than a generic checklist:",
+      items: [
+        {
+          icon: Wrench,
+          title: "Owner-operator mostly in the field",
+          body: "You are on job sites, in vehicles, or with customers most of the day. Calls and form submissions pile up while you work. The first automation is missed-call text-back plus instant lead response — the two workflows that keep leads warm while your hands are full. Paris Cafe deployed exactly this pattern and went from 0% after-hours coverage to 100% with sub-60-second web lead response.",
+          links: [
+            { label: "Missed-call text-back for service businesses", href: "/missed-call-text-back-for-service-businesses" },
+            { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
+            { label: "Paris Cafe voice agent case study", href: "/case-studies/paris-cafe-voice-agent" },
+          ],
+        },
+        {
+          icon: Headphones,
+          title: "Admin-heavy office with phone and scheduling bottlenecks",
+          body: "You have front-desk staff or dispatchers spending hours on phone tag, manual booking, and reminder calls. The first automation is an AI appointment setter or scheduling-and-reminder workflow that eliminates the repetitive phone and calendar work so the team can focus on higher-value tasks.",
+          links: [
+            { label: "AI appointment setter", href: "/ai-appointment-setter" },
+            { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
+            { label: "AI phone answering setup", href: "/ai-phone-answering-setup-small-business" },
+          ],
+        },
+        {
+          icon: Users,
+          title: "Long sales cycle with follow-up-heavy leads",
+          body: "Your leads need multiple touches before they commit — estimates, consultations, proposals, or quote comparisons. The first automation is a structured follow-up sequence that keeps working the lead after the first touch instead of relying on someone to remember. WheelsFeels used this pattern across 5,600+ contacts and saw a 185% conversion lift.",
+          links: [
+            { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
+            { label: "Lead follow-up automation examples", href: "/lead-follow-up-automation-examples" },
+            { label: "WheelsFeels CRM case study", href: "/case-studies/ecommerce-crm-automation" },
+          ],
+        },
+        {
+          icon: RotateCcw,
+          title: "Repeat-customer base with idle past clients",
+          body: "You have hundreds or thousands of past customers who bought once and never heard from you again — seasonal services, maintenance plans, or renewal-eligible accounts. The first automation is a database reactivation campaign that generates revenue from contacts who already trust your business, often faster and cheaper than acquiring net-new leads.",
+          links: [
+            { label: "Client reactivation workflow", href: "/client-reactivation-automation" },
+            { label: "HVAC database reactivation example", href: "/hvac-database-reactivation" },
+            { label: "Client reactivation ROI", href: "/client-reactivation-roi-small-business" },
           ],
         },
       ],
@@ -390,6 +442,11 @@ const data: DecisionPageData = {
       question: "Is this the same as the best AI automations page?",
       answer:
         "No. The best AI automations page covers the top five automations across all service business types with industry routing and budget tiers. This page is narrower — it focuses specifically on choosing which single workflow should be your first project and gives practical criteria for making that decision.",
+    },
+    {
+      question: "Does the best first automation depend on my business type or how I operate day-to-day?",
+      answer:
+        "Yes. An owner-operator who is in the field all day has a different first-project than a business with a front desk handling 50 calls a day. If you are mostly on job sites or with customers, start with missed-call text-back and instant lead response so leads stay warm while your hands are full. If your office staff spends hours on phone tag and manual booking, start with an AI appointment setter or scheduling automation. If your sales cycle requires multiple touches, start with a follow-up sequence. And if you have hundreds of past clients sitting idle, start with a database reactivation campaign. The operating shape of the business points to the right workflow faster than a generic priority list.",
     },
     {
       question: "Can I build the first automation myself with Zapier or Make?",
