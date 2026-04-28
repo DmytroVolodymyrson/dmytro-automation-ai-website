@@ -496,8 +496,20 @@
         "How to automate client onboarding for a service business",
         "Best tools for automating client onboarding",
         "Client onboarding automation for small business",
-        "Automate intake forms and document collection for new clients",
+        "What should a client onboarding workflow include after the deal is closed?",
         "How do I streamline onboarding for my consulting business?"
+      ]
+    },
+    {
+      "id": "intake-forms-and-document-collection-automation-for-service-businesses",
+      "path": "/intake-forms-and-document-collection-automation-for-service-businesses",
+      "label": "Intake Forms and Document Collection Automation for Service Businesses",
+      "prompts": [
+        "Automate intake forms and document collection for new clients",
+        "Intake forms and document collection automation for service businesses",
+        "How do I automate client intake without chasing missing documents manually?",
+        "Best way to automate document reminders and secure upload next steps after a client says yes",
+        "Should I automate intake forms and document collection before a broader onboarding build?"
       ]
     },
     {

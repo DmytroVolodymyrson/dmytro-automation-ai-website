@@ -171,6 +171,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
+        { label: "Intake forms + document collection workflow", href: "/intake-forms-and-document-collection-automation-for-service-businesses" },
         { label: "AI automation for accounting firms", href: "/ai-automation-for-accounting-firms" },
         { label: "View all case studies", href: "/case-studies" },
       ],
@@ -211,6 +212,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No obligation. No generic pitch. Just a practical conversation about your onboarding workflow.",
   relatedLinks: [
+    { label: "Intake forms + document collection workflow", href: "/intake-forms-and-document-collection-automation-for-service-businesses" },
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
     { label: "AI email sequence automation", href: "/ai-email-sequence-automation" },
     { label: "AI automation for accounting firms", href: "/ai-automation-for-accounting-firms" },

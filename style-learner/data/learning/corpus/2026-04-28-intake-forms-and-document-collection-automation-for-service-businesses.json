@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-intake-forms-and-document-collection-automation-for-service-businesses",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: Intake Forms and Document Collection Automation for Service Businesses\nBody: A lot of onboarding does not break because the client said no. It breaks because nobody cleanly owns the first paperwork and information handoff after the client says yes. Intake forms are incomplete. Required files never arrive. Someone sends a welcome email but forgets the upload instructions. A client asks what is still missing and your team has to reconstruct the answer from inbox threads. Intake forms and document collection automation fixes that narrow stage. It standardizes the first information request, tracks what is still missing, sends the next reminder on time, and hands the client to a human only when judgment is actually needed.\nSub: Below: what this workflow should actually cover, how it stays distinct from the broader onboarding page, what guardrails matter, and what adjacent proof is fair to cite without pretending every service business has the same compliance needs.\n\n### Core sections\n- What this workflow actually handles\n- How this differs from the broader onboarding page\n- Is this a good fit for your business?\n- Guardrails that matter\n- How the workflow usually works in practice\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about intake-form and document-collection automation\nTopics: how this differs from the broader onboarding page, whether it works with an existing CRM or intake stack, typical build cost, whether it should come before full onboarding automation, and whether it replaces staff.\n\n### Final CTA\nHeading: Need the first onboarding handoff to stop stalling?\nBody: Book a 30-minute call. We will look at where clients usually get stuck after the deal is closed, whether the intake-and-files stage is the real bottleneck, and whether this narrower workflow should come before a broader onboarding build.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the live generic client-onboarding parent still carried the exact buyer-intent prompt about automating intake forms and document collection for new clients, but no dedicated child page owned that narrower workflow yet."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on the earliest intake-and-files stage: structured forms, checklist-based requests, missing-file reminders, secure upload routing, visibility on what is still missing, and fast escalation when nuance is needed."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Explicitly separates the new page from the broader `/client-onboarding-automation` parent so it does not collapse back into full onboarding, welcome sequences, kickoff scheduling, or broader CRM-stage automation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses honest adjacent proof only: the live onboarding parent, the accounting onboarding child, the mortgage document-collection child, and the published e-commerce CRM case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and bounded: no fake compliance claims, no promise to replace staff, and clear fit / not-fit framing around when this narrower child should come before a bigger onboarding build."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T06:15:59.373Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        9,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 19.5,
+      "sentenceLengthRange": [
+        4,
+        44
+      ],
+      "totalWords": 293
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Intake Forms and Document Collection Automation for Service Businesses\nBody: A lot of onboarding does not break because the client said no.",
+      "wordCount": 24,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need the first onboarding handoff to stop stalling?\nBody: Book a 30-minute call. We will look at where clients usually get stuck after the deal is closed, whether the intake-and-files stage is the real bottleneck, and whether this narrower workflow should come before a broader onboarding build.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 12,
+      "commas": 12,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 0.86
+    },
+    "vocabulary": {
+      "distinctWords": 163,
+      "totalWords": 293,
+      "topWords": [
+        [
+          "onboarding",
+          7
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "this",
+          7
+        ],
+        [
+          "it",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "whether",
+          5
+        ],
+        [
+          "intake",
+          4
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "client",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "broader",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "forms",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

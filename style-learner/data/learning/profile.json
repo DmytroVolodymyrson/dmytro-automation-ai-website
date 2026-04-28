@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-28T05:59:58.082Z",
-  "postCount": 442,
+  "updatedAt": "2026-04-28T06:16:05.917Z",
+  "postCount": 443,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,7 +15,7 @@
       "max": 12,
       "p25": 4,
       "p75": 4,
-      "samples": 442
+      "samples": 443
     },
     "sentenceLength": {
       "mean": 23.3,
@@ -24,16 +24,16 @@
       "max": 105,
       "p25": 19.3,
       "p75": 27.1,
-      "samples": 442
+      "samples": 443
     },
     "totalWords": {
-      "mean": 332.4,
+      "mean": 332.3,
       "median": 334,
       "min": 17,
       "max": 1155,
       "p25": 274,
       "p75": 374,
-      "samples": 442
+      "samples": 443
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -59,7 +59,7 @@
       "long | single | single | short": 19,
       "long | single | short | long": 11,
       "long | single | single | long": 50,
-      "long | short | single | long": 92,
+      "long | short | single | long": 93,
       "long | single | single | long | short | single | single | single": 1,
       "long | short | single | single": 6,
       "long | long | single | short": 4,
@@ -128,7 +128,7 @@
       "opener | product-pitch | product-pitch | result | context | product-pitch | context | product-pitch | product-pitch | closer": 1,
       "opener | context | context | context | result | product-pitch | context | context | closer": 1,
       "opener | context | product-pitch | closer": 37,
-      "opener | context | context | closer": 179,
+      "opener | context | context | closer": 180,
       "opener | product-pitch | context | closer": 30,
       "opener | context | product-pitch | context | product-pitch | result | context | closer": 1,
       "opener | product-pitch | product-pitch | closer": 24,
@@ -192,7 +192,7 @@
         ]
       },
       "standard-opener": {
-        "count": 299,
+        "count": 300,
         "examples": [
           "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an autom",
           "Section heading: Real Results for Real Businesses\nSubheading: Here's what happen",
@@ -227,7 +227,7 @@
         ]
       },
       "question": {
-        "count": 369,
+        "count": 370,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -266,15 +266,15 @@
     "topWords": [
       [
         "-",
-        2753
+        2759
       ],
       [
         "what",
-        1511
+        1518
       ],
       [
         "automation",
-        1210
+        1214
       ],
       [
         "ai",
@@ -282,35 +282,35 @@
       ],
       [
         "page",
-        889
+        893
       ],
       [
         "workflow",
-        882
+        886
       ],
       [
         "it",
-        854
+        860
       ],
       [
         "how",
-        825
+        829
       ],
       [
         "phone",
         816
       ],
       [
+        "this",
+        726
+      ],
+      [
         "when",
         721
       ],
       [
-        "this",
-        719
-      ],
-      [
         "whether",
-        630
+        635
       ],
       [
         "follow-up",
@@ -354,7 +354,7 @@
       ],
       [
         "from",
-        385
+        389
       ],
       [
         "heading",

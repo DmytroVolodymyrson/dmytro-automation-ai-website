@@ -170,6 +170,7 @@ import WhatToAutomateFirstForContractors from "./pages/WhatToAutomateFirstForCon
 import CrmAutomationSetupCostForContractors from "./pages/CrmAutomationSetupCostForContractors";
 import CrmAutomationSetupVsDiyForContractors from "./pages/CrmAutomationSetupVsDiyForContractors";
 import ClientOnboardingAutomation from "./pages/ClientOnboardingAutomation";
+import IntakeFormsAndDocumentCollectionAutomationForServiceBusinesses from "./pages/IntakeFormsAndDocumentCollectionAutomationForServiceBusinesses";
 import AiAutomationRoiGuide from "./pages/AiAutomationRoiGuide";
 import AiAutomationRoiCalculator from "./pages/AiAutomationRoiCalculator";
 import N8nAutomationExamplesSmallBusiness from "./pages/N8nAutomationExamplesSmallBusiness";
@@ -606,6 +607,10 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/estimate-follow-up-automation-for-electrical-contractors", element: <EstimateFollowUpAutomationForElectricalContractors /> },
   { path: "/review-request-automation-for-electrical-contractors", element: <ReviewRequestAutomationForElectricalContractors /> },
   { path: "/client-onboarding-automation", element: <ClientOnboardingAutomation /> },
+  {
+    path: "/intake-forms-and-document-collection-automation-for-service-businesses",
+    element: <IntakeFormsAndDocumentCollectionAutomationForServiceBusinesses />,
+  },
   { path: "/ai-automation-roi-guide", element: <AiAutomationRoiGuide /> },
   { path: "/ai-automation-roi-calculator", element: <AiAutomationRoiCalculator /> },
   { path: "/n8n-automation-examples-small-business", element: <N8nAutomationExamplesSmallBusiness /> },

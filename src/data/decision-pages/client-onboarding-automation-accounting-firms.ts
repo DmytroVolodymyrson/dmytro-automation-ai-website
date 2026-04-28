@@ -233,6 +233,7 @@ const data: DecisionPageData = {
         { label: "Accounting automation overview", href: "/ai-automation-for-accounting-firms" },
         { label: "What to automate first for accounting firms", href: "/what-to-automate-first-for-accounting-firms" },
         { label: "Client onboarding automation", href: "/client-onboarding-automation" },
+        { label: "Intake forms + document collection workflow", href: "/intake-forms-and-document-collection-automation-for-service-businesses" },
       ],
     },
   ],
@@ -274,6 +275,7 @@ const data: DecisionPageData = {
     { label: "AI automation for accounting firms", href: "/ai-automation-for-accounting-firms" },
     { label: "Document collection automation for accounting firms", href: "/document-collection-automation-for-accounting-firms" },
     { label: "Client onboarding automation", href: "/client-onboarding-automation" },
+    { label: "Intake forms + document collection workflow", href: "/intake-forms-and-document-collection-automation-for-service-businesses" },
     { label: "All guides", href: "/guides" },
   ],
 };

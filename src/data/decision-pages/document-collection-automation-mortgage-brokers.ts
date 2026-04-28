@@ -220,6 +220,7 @@ const data: DecisionPageData = {
       links: [
         { label: "Mortgage automation overview", href: "/ai-automation-for-mortgage-brokers" },
         { label: "Mortgage lead follow-up guide", href: "/ai-lead-follow-up-for-mortgage-brokers" },
+        { label: "Intake forms + document collection workflow", href: "/intake-forms-and-document-collection-automation-for-service-businesses" },
         { label: "Mortgage-adjacent CRM proof", href: "/case-studies/ecommerce-crm-automation" },
       ],
     },
@@ -262,6 +263,7 @@ const data: DecisionPageData = {
     { label: "AI automation for mortgage brokers", href: "/ai-automation-for-mortgage-brokers" },
     { label: "AI lead follow-up for mortgage brokers", href: "/ai-lead-follow-up-for-mortgage-brokers" },
     { label: "Client onboarding automation", href: "/client-onboarding-automation" },
+    { label: "Intake forms + document collection workflow", href: "/intake-forms-and-document-collection-automation-for-service-businesses" },
     { label: "All guides", href: "/guides" },
   ],
 };

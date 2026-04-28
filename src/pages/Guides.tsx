@@ -428,6 +428,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Intake Forms and Document Collection Automation for Service Businesses",
+    description:
+      "A narrower onboarding child page focused on intake forms, missing-file reminders, secure upload next steps, and cleaner handoff before the rest of onboarding stalls.",
+    href: "/intake-forms-and-document-collection-automation-for-service-businesses",
+    category: "workflows",
+  },
+  {
     title: "AI Automation ROI Guide",
     description:
       "How to calculate AI automation ROI for your small business. Real cost breakdowns, payback timelines, and an honest framework for deciding if automation is worth it.",

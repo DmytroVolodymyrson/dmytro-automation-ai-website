@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-27 (shipped `/ai-phone-answering-setup-vs-diy-small-business`: added the buy-vs-build decision layer to the AI phone answering cluster, covering when DIY setup is enough vs hiring help, based on call coverage, transfer logic, booking rules, and CRM handoff. Total live pages: 295.)
+Last updated: 2026-04-28 (shipped `/intake-forms-and-document-collection-automation-for-service-businesses`: extracted the narrow intake-and-files bottleneck from the broader onboarding cluster, covering incomplete forms, missing-document reminders, secure upload next steps, and handoff before a full onboarding build. Total live pages: 296.)
 
 ## Live GEO Assets
 
@@ -157,6 +157,7 @@ Last updated: 2026-04-27 (shipped `/ai-phone-answering-setup-vs-diy-small-busine
 | AI for Accounting Firms | `/ai-automation-for-accounting-firms` | Vertical category page | Live |
 | Document Collection (Accounting) | `/document-collection-automation-for-accounting-firms` | Vertical workflow page | Live |
 | Client Onboarding (Accounting) | `/client-onboarding-automation-for-accounting-firms` | Vertical workflow page | Live |
+| Intake Forms + Document Collection (Service Businesses) | `/intake-forms-and-document-collection-automation-for-service-businesses` | Workflow child page | Live |
 | What to Automate First (Accounting) | `/what-to-automate-first-for-accounting-firms` | Vertical decision page | Live |
 | Appointment Scheduling (Accounting) | `/appointment-scheduling-and-reminder-automation-for-accounting-firms` | Vertical workflow page | Live |
 | Seasonal Reactivation (Accounting) | `/seasonal-client-reactivation-for-accounting-firms` | Vertical workflow page | Live |
@@ -305,7 +306,7 @@ Last updated: 2026-04-27 (shipped `/ai-phone-answering-setup-vs-diy-small-busine
 
 ## Next Pages
 
-The AI phone answering cluster now covers the broad service-business page plus setup, cost, ROI, and the setup-vs-DIY decision layer. That closes the cleanest remaining small-business implementation-intent gap in this cluster, so the next run should not force another same-cluster sibling by inertia. The right next step is broad reconciliation across routes, prompts, guides, sitemap, llm surfaces, and planning docs before naming the next net-new page.
+The onboarding cluster now covers the broader service-business parent plus a narrower intake-and-files child, with the exact document-collection query moved off the parent and onto the new page. That closes the cleanest remaining onboarding-specific extraction in this generic cluster, so the next run should not force another same-cluster sibling by inertia. The right next step is still broad reconciliation across routes, prompts, guides, sitemap, llm surfaces, and planning docs before naming the next net-new page.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|

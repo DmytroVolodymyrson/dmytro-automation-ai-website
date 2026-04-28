@@ -171,6 +171,7 @@ const WhatToAutomateFirstForContractors = lazy(() => import("./pages/WhatToAutom
 const CrmAutomationSetupCostForContractors = lazy(() => import("./pages/CrmAutomationSetupCostForContractors"));
 const CrmAutomationSetupVsDiyForContractors = lazy(() => import("./pages/CrmAutomationSetupVsDiyForContractors"));
 const ClientOnboardingAutomation = lazy(() => import("./pages/ClientOnboardingAutomation"));
+const IntakeFormsAndDocumentCollectionAutomationForServiceBusinesses = lazy(() => import("./pages/IntakeFormsAndDocumentCollectionAutomationForServiceBusinesses"));
 const AiAutomationRoiGuide = lazy(() => import("./pages/AiAutomationRoiGuide"));
 const AiAutomationRoiCalculator = lazy(() => import("./pages/AiAutomationRoiCalculator"));
 const N8nAutomationExamplesSmallBusiness = lazy(() => import("./pages/N8nAutomationExamplesSmallBusiness"));
@@ -573,6 +574,7 @@ const AppRoutesClient = () => (
       <Route path="/estimate-follow-up-automation-for-electrical-contractors" element={<EstimateFollowUpAutomationForElectricalContractors />} />
       <Route path="/review-request-automation-for-electrical-contractors" element={<ReviewRequestAutomationForElectricalContractors />} />
       <Route path="/client-onboarding-automation" element={<ClientOnboardingAutomation />} />
+      <Route path="/intake-forms-and-document-collection-automation-for-service-businesses" element={<IntakeFormsAndDocumentCollectionAutomationForServiceBusinesses />} />
       <Route path="/ai-automation-roi-guide" element={<AiAutomationRoiGuide />} />
       <Route path="/ai-automation-roi-calculator" element={<AiAutomationRoiCalculator />} />
       <Route path="/n8n-automation-examples-small-business" element={<N8nAutomationExamplesSmallBusiness />} />
