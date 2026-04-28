@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-ai-automation-roi-guide-indexing-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation ROI Guide for Small Business\nBody: Every AI automation pitch promises 10x returns. The reality is more nuanced. Some automations pay for themselves in the first month. Others take six months. A few are not worth building at all. This guide gives you a practical framework for calculating ROI on AI automation — with real numbers, real workflow tradeoffs, and clear links to the next page you should use before you approve a quote.\nSub: Below: how to think about automation ROI, which automations have the clearest payback, where the strongest proof already exists on this site, and how to route into cost, consultant-pricing, time-savings, support, first-project, and proof-backed case-study paths without mixing them together.\n\n### New top-of-page buyer router\nSection: Start with the ROI question you are actually trying to answer\n- Adds a new answer-extractable routing block with four decision cards:\n  - first-project selection\n  - quote/budget-band comparison\n  - proof before approving a build\n  - support / ownership after launch\n- New contextual links route readers directly into:\n  - /what-to-automate-first-for-service-businesses\n  - /best-ai-automation-for-service-businesses\n  - /guides\n  - /ai-automation-cost-small-business\n  - /ai-automation-consultant-pricing-small-business\n  - /ai-automation-time-savings-small-business\n  - /case-studies/paris-cafe-voice-agent\n  - /case-studies/ecommerce-crm-automation\n  - /case-studies/instagram-lead-generation\n  - /ai-automation-maintenance-and-support-small-business\n  - /ai-automation-implementation-roadmap\n  - /case-studies\n- Purpose: turn the ROI page into a real economics decision hub instead of a stand-alone explainer.\n\n### Proof section refresh\nSection: Proof that makes the ROI math more believable\n- Adds a named proof section mapped to three live outcomes:\n  - Paris Cafe for after-hours call coverage and booking economics\n  - WheelsFeels for CRM routing / multi-step follow-up economics\n  - Instagram lead generation for contained qualification / pipeline economics\n- Keeps the ROI framing honest by using adjacent published proof instead of generic benchmark claims.\n\n### Mid-page economics clarification\nSection: How to think about automation ROI + Common ROI mistakes to avoid\n- Tightens the labor/time-reclaimed explanation so readers are explicitly routed into the dedicated time-savings guide when the decision is more about reclaimed hours than recovered revenue.\n- Expands the “ignoring ongoing costs” guidance so readers are pushed into the cost and support pages when the quote includes tooling, usage, or post-launch monitoring.\n\n### FAQ refresh\nSection: FAQ\n- Adds a routing question:\n  - “Should I start with this ROI guide or the cost page first?”\n- Tightens the budgeting answer so support is treated as part of real payback framing rather than invisible overhead.\n- Keeps the page distinct from pricing by centering the decision on whether the workflow is worth funding, not just what a consultant charges.\n\n### Expanded related-links cluster\nSection: Bottom related links\n- Rebuilds the related-links cluster around the current generic service-business economics stack:\n  - /ai-automation-cost-small-business\n  - /ai-automation-consultant-pricing-small-business\n  - /ai-automation-time-savings-small-business\n  - /ai-automation-maintenance-and-support-small-business\n  - /what-to-automate-first-for-service-businesses\n  - /best-ai-automation-for-service-businesses\n  - /case-studies\n  - /guides\n\n### llm / llms summary refresh\nSection: AI Automation ROI Guide entry\n- Rewrites the one-line summary so AI crawlers see this page as:\n  - an ROI decision guide\n  - a routing hub into cost / pricing / time-savings / support / first-project pages\n  - a proof-backed economics page rather than a generic calculator explainer",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded indexing/internal-linking refresh on an existing page, not a net-new page ship."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The update keeps the page clearly distinct from /ai-automation-cost-small-business and /ai-automation-consultant-pricing-small-business by centering the “is this worth funding?” decision rather than the quote itself."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and anti-hype: realistic payback, proof-backed framing, and explicit routing to adjacent pages when the reader is asking a different question."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "No invented ROI claims were added; the main improvement is tighter buyer routing, sharper proof framing, and stronger internal-link cohesion across the live economics cluster."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T16:24:17.160Z",
+    "structure": {
+      "paragraphCount": 7,
+      "sentencesPerParagraph": [
+        7,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ],
+      "avgSentenceLength": 32.9,
+      "sentenceLengthRange": [
+        4,
+        93
+      ],
+      "totalWords": 493
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation ROI Guide for Small Business\nBody: Every AI automation pitch promises 10x returns.",
+      "wordCount": 17,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### llm / llms summary refresh\nSection: AI Automation ROI Guide entry\n- Rewrites the one-line summary so AI crawlers see this page as:\n  - an ROI decision guide\n  - a routing hub into cost / pricing / time-savings / support / first-project pages\n  - a proof-backed economics page rather than a generic calculator explainer",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "result",
+        "result",
+        "result",
+        "context",
+        "closer"
+      ],
+      "template": "opener | result | result | result | result | context | closer"
+    },
+    "punctuation": {
+      "periods": 13,
+      "commas": 13,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 43,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 17,
+      "commasPerSentence": 0.93
+    },
+    "vocabulary": {
+      "distinctWords": 246,
+      "totalWords": 493,
+      "topWords": [
+        [
+          "-",
+          43
+        ],
+        [
+          "roi",
+          12
+        ],
+        [
+          "section",
+          8
+        ],
+        [
+          "economics",
+          7
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "guide",
+          6
+        ],
+        [
+          "page",
+          6
+        ],
+        [
+          "proof",
+          6
+        ],
+        [
+          "into",
+          6
+        ],
+        [
+          "ai",
+          5
+        ],
+        [
+          "support",
+          5
+        ],
+        [
+          "decision",
+          5
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "with",
+          4
+        ],
+        [
+          "real",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": [
+        "adds-trust-signals"
+      ]
+    }
+  }
+}
