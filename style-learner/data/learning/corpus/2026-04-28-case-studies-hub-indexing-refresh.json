@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-case-studies-hub-indexing-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Existing hero + proof framing retained\nSection: Hero and proof-library positioning\n- Keeps the opening focused on three documented proof assets:\n  - Paris Cafe voice agent\n  - e-commerce CRM automation\n  - Instagram lead-generation pipeline\n- Keeps direct contextual links into:\n  - /best-ai-automation-for-service-businesses\n  - /guides\n  - /ai-automation-consultant-pricing-small-business\n  - /ai-automation-cost-small-business\n  - /what-does-an-ai-automation-consultant-do\n- Purpose stays the same: make `/case-studies` a proof layer, not a generic portfolio page.\n\n### New fit / not-fit routing block\nSection: Good fit for this hub / Better starting points if not\n- Adds a new answer-extractable top-of-hub routing layer with two explicit paths:\n  - Start with these case studies if you need proof before you decide\n  - Skip this hub first if your real question is workflow choice, fit, or pricing\n- New routing links point directly into:\n  - /best-ai-automation-for-service-businesses\n  - /ai-automation-consultant-small-business\n  - /guides\n  - /ai-automation-consultant-pricing-small-business\n- Purpose: clarify the role of `/case-studies` for both buyers and crawlers, while strengthening internal-link context into adjacent decision/support pages.\n\n### FAQ expansion\nSection: Buyer questions this proof hub answers\n- Adds a new question:\n  - “Should I read the case studies or the guides hub first?”\n- Answer frames the preferred reading order as:\n  - proof first when trust is the blocker\n  - guides first when workflow choice is already the main question\n  - consultant/pricing pages next when expert help is on the table\n- Keeps the tone practical and navigation-focused instead of generic.\n\n### Existing proof-routing retained\nSection: Which case study should you read first? / Connect proof to the priority pages\n- Keeps the existing proof-to-page mapping intact:\n  - Paris Cafe → booking / phone / appointment-setter paths\n  - e-commerce CRM → consultant / lead-follow-up / guides\n  - Instagram lead-generation → consultant / best-first-automation / tool-comparison support\n- The new fit/not-fit section makes those routes easier to interpret before a reader scrolls deeper into the page.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded indexing-support refresh on an existing discovered-not-indexed hub page, not a new page ship."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The new copy is explicit about when this page is the right starting point and when another page is better. That is useful for both human readers and answer engines."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and anti-fluff: proof first, workflow selection second, consultant/pricing only when that is the real question."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Internal links were chosen to reinforce the live proof / guides / consultant / pricing cluster without turning the case-studies hub into a generic link dump."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T10:25:48.822Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "avgSentenceLength": 58.4,
+      "sentenceLengthRange": [
+        11,
+        91
+      ],
+      "totalWords": 292
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Existing hero + proof framing retained\nSection: Hero and proof-library positioning\n- Keeps the opening focused on three documented proof assets:\n  - Paris Cafe voice agent\n  - e-commerce CRM automation\n  - Instagram lead-generation pipeline\n- Keeps direct contextual links into:\n  - /best-ai-automation-for-service-businesses\n  - /guides\n  - /ai-automation-consultant-pricing-small-business\n  - /ai-automation-cost-small-business\n  - /what-does-an-ai-automation-consultant-do\n- Purpose stays the same: make `/case-studies` a proof layer, not a generic portfolio page.",
+      "wordCount": 64,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Existing proof-routing retained\nSection: Which case study should you read first? / Connect proof to the priority pages\n- Keeps the existing proof-to-page mapping intact:\n  - Paris Cafe → booking / phone / appointment-setter paths\n  - e-commerce CRM → consultant / lead-follow-up / guides\n  - Instagram lead-generation → consultant / best-first-automation / tool-comparison support\n- The new fit/not-fit section makes those routes easier to interpret before a reader scrolls deeper into the page.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 4,
+      "commas": 4,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 32,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 13,
+      "commasPerSentence": 0.8
+    },
+    "vocabulary": {
+      "distinctWords": 156,
+      "totalWords": 292,
+      "topWords": [
+        [
+          "-",
+          32
+        ],
+        [
+          "proof",
+          7
+        ],
+        [
+          "section",
+          5
+        ],
+        [
+          "guides",
+          5
+        ],
+        [
+          "new",
+          5
+        ],
+        [
+          "first",
+          5
+        ],
+        [
+          "keeps",
+          4
+        ],
+        [
+          "into",
+          4
+        ],
+        [
+          "hub",
+          4
+        ],
+        [
+          "existing",
+          3
+        ],
+        [
+          "fit",
+          3
+        ],
+        [
+          "routing",
+          3
+        ],
+        [
+          "this",
+          3
+        ],
+        [
+          "if",
+          3
+        ],
+        [
+          "case",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

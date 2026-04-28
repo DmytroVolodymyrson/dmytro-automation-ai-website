@@ -65,6 +65,11 @@ const faqItems = [
       "If missed calls or booking gaps are the problem, start with Paris Cafe. If your CRM is messy or leads are going stale, start with the e-commerce CRM automation build. If your team is drowning in inbound inquiries, start with the Instagram lead-generation system. Then compare those proof assets with the consultant overview, pricing guide, and best-first-automation page.",
   },
   {
+    question: "Should I read the case studies or the guides hub first?",
+    answer:
+      "Start with the case studies if you need proof that the workflow already works in a real business. Start with the guides hub if you already believe automation is worth doing and need to decide which workflow, cost range, or implementation path fits your business. The best reading order for most buyers is proof first, then the guides hub, then the consultant and pricing pages if expert help is on the table.",
+  },
+  {
     question: "Can these examples apply outside the exact same industry?",
     answer:
       "Yes — the value is in the workflow pattern, not just the industry label. A restaurant phone-coverage case study can still help a home-service business thinking about AI appointment setting, and an e-commerce CRM cleanup can still help a service business evaluating lead follow-up, reactivation, and segmentation systems.",
@@ -167,6 +172,52 @@ const CaseStudies = () => {
               Dmytro AI publishes three documented case studies: a <Link to="/case-studies/paris-cafe-voice-agent" className="text-primary hover:underline">restaurant voice-agent</Link> that handles after-hours calls and books tables automatically, an <Link to="/case-studies/ecommerce-crm-automation" className="text-primary hover:underline">e-commerce CRM automation</Link> that recovered stale leads and cut manual follow-up by 80%, and an <Link to="/case-studies/instagram-lead-generation" className="text-primary hover:underline">Instagram lead-generation pipeline</Link> that qualifies and routes inbound inquiries without human triage. Each includes the problem, the system built, and the measurable outcome. Use them to evaluate <Link to="/ai-automation-consultant-pricing-small-business" className="text-primary hover:underline">consultant pricing</Link>, <Link to="/ai-automation-cost-small-business" className="text-primary hover:underline">automation costs</Link>, <Link to="/what-does-an-ai-automation-consultant-do" className="text-primary hover:underline">what a consultant actually delivers</Link>, and which <Link to="/best-ai-automation-for-service-businesses" className="text-primary hover:underline">automation to build first</Link>. If you want the broader decision library around these proof assets, continue into the full <Link to="/guides" className="text-primary hover:underline">guides hub</Link>.
             </p>
           </motion.div>
+
+          <div className="mb-10 grid gap-6 lg:grid-cols-2">
+            <div className="rounded-3xl border border-emerald-500/20 bg-emerald-500/5 p-6 md:p-8 shadow-card">
+              <p className="text-sm font-semibold uppercase tracking-wide text-emerald-700 mb-3">
+                Good fit for this hub
+              </p>
+              <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-3">
+                Start with these case studies if you need proof before you decide
+              </h2>
+              <ul className="space-y-3 text-sm text-muted-foreground leading-relaxed">
+                <li>• You want evidence that the workflow already worked in a real business, not just a theory page.</li>
+                <li>• You are comparing phone coverage, lead follow-up, qualification, or CRM cleanup and want measurable outcomes first.</li>
+                <li>• You need a fast path into the strongest supporting pages after reading the proof.</li>
+              </ul>
+              <div className="mt-5 flex flex-wrap gap-3">
+                <Link to="/best-ai-automation-for-service-businesses" className="text-sm font-medium text-primary hover:text-primary/80 inline-flex items-center gap-1">
+                  Best first automations <ArrowRight className="w-3 h-3" />
+                </Link>
+                <Link to="/ai-automation-consultant-small-business" className="text-sm font-medium text-primary hover:text-primary/80 inline-flex items-center gap-1">
+                  Consultant fit guide <ArrowRight className="w-3 h-3" />
+                </Link>
+              </div>
+            </div>
+
+            <div className="rounded-3xl border border-amber-500/20 bg-amber-500/5 p-6 md:p-8 shadow-card">
+              <p className="text-sm font-semibold uppercase tracking-wide text-amber-700 mb-3">
+                Better starting points if not
+              </p>
+              <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-3">
+                Skip this hub first if your real question is workflow choice, fit, or pricing
+              </h2>
+              <ul className="space-y-3 text-sm text-muted-foreground leading-relaxed">
+                <li>• If you already believe automation works and just need to choose the right first project, start with the decision guide instead.</li>
+                <li>• If you need breadth across workflows, industries, and comparisons, go to the guides hub.</li>
+                <li>• If the real question is whether to hire help and what it costs, jump straight to the consultant and pricing pages.</li>
+              </ul>
+              <div className="mt-5 flex flex-wrap gap-3">
+                <Link to="/guides" className="text-sm font-medium text-primary hover:text-primary/80 inline-flex items-center gap-1">
+                  Full guides hub <ArrowRight className="w-3 h-3" />
+                </Link>
+                <Link to="/ai-automation-consultant-pricing-small-business" className="text-sm font-medium text-primary hover:text-primary/80 inline-flex items-center gap-1">
+                  Consultant pricing <ArrowRight className="w-3 h-3" />
+                </Link>
+              </div>
+            </div>
+          </div>
 
           <div className="rounded-3xl border border-primary/15 bg-primary/5 p-6 md:p-8 mb-10 shadow-card">
             <p className="text-sm font-semibold uppercase tracking-wide text-primary mb-3">

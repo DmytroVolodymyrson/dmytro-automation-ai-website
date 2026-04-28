@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (full reconciliation still did not surface a cleaner distinct net-new GEO / decision / workflow page after the British Columbia geo consultant ship, so this run used the allowed fallback path and gave `/ai-automation-consultant-pricing-small-business` a bounded indexing/internal-linking refresh. The pricing page now opens with a clearer quote-intent router — smallest first workflow, consultant-vs-DIY, proof-backed bigger scope, or post-launch support cost — plus a matching FAQ answer on what a typical $2K-$5K consultant project actually includes.)
+Last updated: 2026-04-28 (latest bounded indexing-support pass targeted the discovered-not-indexed `/case-studies` hub instead of shipping a net-new page. The hub now opens with an explicit fit/not-fit routing block that clarifies when to start with proof versus when to jump to `/guides`, consultant fit, or pricing pages, plus a new FAQ on whether to read the case studies or the guides hub first.)
 
 ## Live GEO Assets
 
