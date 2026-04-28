@@ -11,6 +11,7 @@ Background context:
 - Screenshot from Apr 25, 2026 shows `Status: Success`, `Last read: Apr 25, 2026`, and `Discovered pages: 320`.
 - Live checks confirmed `robots.txt` and `sitemap.xml` return HTTP 200 and `robots.txt` points to the sitemap.
 - This confirms discovery plumbing. It does **not** prove every URL is indexed or eligible for AI citation. The partial manual snapshot shows discovery is working, but several important pages have not been crawled/indexed yet.
+- On Apr 28, 2026, `/what-to-automate-first-for-service-businesses` got a bounded internal-linking refresh even though it is outside the top-25 inspection table. The page now includes a dedicated workflow-to-proof router that sends readers and crawlers directly from the first-project decision to the strongest implementation and proof pages for lead response, missed calls, follow-up, scheduling, consultant fit, and pricing.
 
 
 ## Manual GSC URL Inspection snapshot (2026-04-25)

@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-what-to-automate-first-for-service-businesses-indexing-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Existing page role retained\nHeading: What to Automate First for Service Businesses\nBody: The page still answers the same core question — which single workflow should a service business automate first — and keeps the cost / fit / speed-to-ROI decision framework intact.\nSub: The update does not turn the page into a new hub. It makes the existing first-project decision more actionable once the bottleneck is obvious.\n\n### New workflow-to-proof router\nSection: Match the first workflow to the best next page and proof asset\n- Adds a new answer-extractable routing block with four cards:\n  - lead response or missed calls\n  - leads reply once, then go cold\n  - booking, reminders, or after-hours coverage\n  - still need help choosing the smallest good project\n- New contextual links route readers directly into:\n  - /instant-lead-response-automation\n  - /missed-call-text-back-for-service-businesses\n  - /ai-lead-follow-up-for-service-businesses\n  - /lead-follow-up-automation-examples\n  - /ai-appointment-setter\n  - /no-show-reduction-automation\n  - /ai-phone-answering-setup-small-business\n  - /best-ai-automation-for-service-businesses\n  - /ai-automation-consultant-small-business\n  - /ai-automation-consultant-pricing-small-business\n  - /case-studies/paris-cafe-voice-agent\n  - /case-studies/ecommerce-crm-automation\n- Purpose: keep the page from acting like a dead-end strategy explainer after the reader identifies the first bottleneck.\n\n### Buyer-intent framing of the new block\nSection: Routing logic\n- Lead response / missed-call card keeps the recommendation practical and small-first.\n- Follow-up card pushes into examples, cost depth, and WheelsFeels proof instead of leaving the user in generic nurture language.\n- Scheduling / after-hours card ties the choice to appointment-setter, no-show, and phone-answering pages so the later-funnel branch is easier to crawl and compare.\n- Consultant / pricing card prevents the page from accidentally acting like a full-stack rebuild pitch when the user really needs bounded scoping help.\n\n### Existing adjacent-guide comparison retained\nSection: This page vs. adjacent service-business guides\n- Keeps the narrower positioning of this page versus:\n  - /what-processes-can-ai-automate-in-my-business\n  - /best-ai-automation-for-service-businesses\n- The new router now bridges from first-project selection into those adjacent pages instead of making the reader discover them only at the bottom.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded indexing/internal-linking refresh on an existing service-business decision page, not a new page ship."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and anti-fluff: smallest useful workflow first, follow the revenue leak, and use proof before expanding scope."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Internal links were chosen to keep the page inside the live first-project / proof / consultant-pricing cluster rather than broadening it into a generic archive."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "No invented ROI or workflow claims were added; the improvement is in routing clarity, proof adjacency, and crawlable next-step structure."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T16:55:55.171Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        1,
+        4,
+        2
+      ],
+      "avgSentenceLength": 30.3,
+      "sentenceLengthRange": [
+        8,
+        105
+      ],
+      "totalWords": 303
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Existing page role retained\nHeading: What to Automate First for Service Businesses\nBody: The page still answers the same core question — which single workflow should a service business automate first — and keeps the cost / fit / speed-to-ROI decision framework intact.",
+      "wordCount": 39,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Existing adjacent-guide comparison retained\nSection: This page vs. adjacent service-business guides\n- Keeps the narrower positioning of this page versus:\n  - /what-processes-can-ai-automate-in-my-business\n  - /best-ai-automation-for-service-businesses\n- The new router now bridges from first-project selection into those adjacent pages instead of making the reader discover them only at the bottom.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 7,
+      "emDashes": 2,
+      "enDashes": 0,
+      "hyphens": 27,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 10,
+      "commasPerSentence": 0.7
+    },
+    "vocabulary": {
+      "distinctWords": 181,
+      "totalWords": 303,
+      "topWords": [
+        [
+          "-",
+          27
+        ],
+        [
+          "page",
+          8
+        ],
+        [
+          "new",
+          6
+        ],
+        [
+          "first",
+          4
+        ],
+        [
+          "into",
+          4
+        ],
+        [
+          "card",
+          4
+        ],
+        [
+          "existing",
+          3
+        ],
+        [
+          "keeps",
+          3
+        ],
+        [
+          "section",
+          3
+        ],
+        [
+          "from",
+          3
+        ],
+        [
+          "retained",
+          2
+        ],
+        [
+          "automate",
+          2
+        ],
+        [
+          "service",
+          2
+        ],
+        [
+          "still",
+          2
+        ],
+        [
+          "workflow",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": [
+        "adds-trust-signals"
+      ]
+    }
+  }
+}

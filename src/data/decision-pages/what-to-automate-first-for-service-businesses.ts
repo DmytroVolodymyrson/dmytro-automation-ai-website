@@ -180,6 +180,54 @@ const data: DecisionPageData = {
     },
     {
       type: "cards",
+      title: "Match the first workflow to the best next page and proof asset",
+      subtitle:
+        "Once the bottleneck is obvious, go one level deeper into the page that answers the next implementation question — and pair it with the strongest proof asset instead of staying on a generic strategy page:",
+      items: [
+        {
+          icon: Phone,
+          title: "Lead response or missed calls are the leak",
+          body: "If slow speed-to-lead is the problem, keep the next step simple: tighten the instant reply, add missed-call recovery, and compare it with the Paris Cafe proof before you think about more advanced AI layers.",
+          links: [
+            { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
+            { label: "Missed-call text-back for service businesses", href: "/missed-call-text-back-for-service-businesses" },
+            { label: "Paris Cafe voice agent case study", href: "/case-studies/paris-cafe-voice-agent" },
+          ],
+        },
+        {
+          icon: MessageSquare,
+          title: "Leads reply once, then go cold",
+          body: "If the first response is already happening but nobody works the lead after that, move into the follow-up cluster. That is where you can compare examples, cost, and the WheelsFeels proof before deciding how much automation depth you actually need.",
+          links: [
+            { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
+            { label: "Lead follow-up automation examples", href: "/lead-follow-up-automation-examples" },
+            { label: "WheelsFeels CRM case study", href: "/case-studies/ecommerce-crm-automation" },
+          ],
+        },
+        {
+          icon: CalendarCheck,
+          title: "Booking, reminders, or after-hours coverage break down",
+          body: "If the leak is later in the funnel, compare scheduling, no-show prevention, and phone coverage together. These pages help you decide whether you need appointment-setting, a simpler reminder workflow, or a voice layer that covers nights and weekends.",
+          links: [
+            { label: "AI appointment setter", href: "/ai-appointment-setter" },
+            { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
+            { label: "AI phone answering setup", href: "/ai-phone-answering-setup-small-business" },
+          ],
+        },
+        {
+          icon: Workflow,
+          title: "You still need help choosing the smallest good project",
+          body: "If the business has multiple leaks and you are still deciding where to start, compare the broader service-business decision pages with the consultant and pricing guides so the first project stays bounded instead of turning into a giant platform rebuild.",
+          links: [
+            { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
+            { label: "AI automation consultant for small business", href: "/ai-automation-consultant-small-business" },
+            { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
+          ],
+        },
+      ],
+    },
+    {
+      type: "cards",
       title: "This page vs. adjacent service-business guides",
       subtitle:
         "This page is narrower than the broad decision pages. Each one answers a different question:",
