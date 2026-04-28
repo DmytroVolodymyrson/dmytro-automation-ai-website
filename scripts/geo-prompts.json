@@ -2487,8 +2487,20 @@
         "GoHighLevel automation consultant for small business",
         "Should I hire a GoHighLevel consultant or set it up myself?",
         "What does a GoHighLevel automation consultant actually do?",
-        "How do I know if my GoHighLevel workflow needs consultant help instead of setup-only implementation?",
+        "When does a GoHighLevel project move beyond simple setup into workflow consulting?",
         "When is hiring a GHL consultant worth it for a small business?"
+      ]
+    },
+    {
+      "id": "gohighlevel-consultant-vs-setup-help",
+      "path": "/gohighlevel-consultant-vs-setup-help",
+      "label": "GoHighLevel Consultant vs. Setup Help",
+      "prompts": [
+        "GoHighLevel consultant vs setup help",
+        "Do I need a GoHighLevel consultant or just setup help?",
+        "How do I know if my GoHighLevel workflow needs consultant help instead of setup-only implementation?",
+        "What is the difference between GoHighLevel setup help and consulting?",
+        "When is setup help enough for GoHighLevel and when do I need broader consultant help?"
       ]
     },
     {

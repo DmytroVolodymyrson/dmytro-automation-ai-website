@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-gohighlevel-consultant-vs-setup-help",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: GoHighLevel Consultant vs. Setup Help\nBody: A lot of small businesses know they need help with GoHighLevel, but they ask for the wrong kind of help. They hire setup-only implementation when the real problem is messy lead routing, unclear ownership, broken stage logic, or a CRM workflow nobody trusts. Or they pay for broad consultant help when they really just need one focused build inside an otherwise straightforward account. GoHighLevel consultant vs. setup help is not a features question. It is a scope question: do you need somebody to think through the workflow and operating logic, or do you already know the workflow and just need it configured cleanly?\nSub: Below: what setup help should cover, what consultant-level GoHighLevel work adds on top, how to tell which scope fits your account, what each path usually costs, and what proof honestly supports this page without pretending every business needs the heavier option.\n\n### Core sections\n- What setup help handles well — and what it usually does not\n- What consultant-level GoHighLevel help adds\n- GoHighLevel setup help vs. GoHighLevel consultant help\n- When setup help is enough — and when consultant help is the safer choice\n- A simple way to make the decision\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical answers for small businesses deciding what level of GoHighLevel help they actually need\nTopics: the difference between setup help and consultant help, when setup help is enough, when consultant help is worth paying for, how the cost ranges differ, and when cleanup should come before either option.\n\n### Final CTA\nHeading: Need a realistic second opinion on your GoHighLevel scope?\nBody: Book a 30-minute call. We will look at your current account or planned workflow, decide whether you need focused setup help, deeper consultant judgment, cleanup first, or a different stack entirely, and map the smallest next step worth paying for.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the scope-decision child inside the live GoHighLevel cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the parent GoHighLevel consultant page already tracked the exact query about consultant help vs setup-only implementation, making this a clean extractable buyer-decision child."
+    },
+    {
+      "type": "cut",
+      "description": "The page stays materially distinct from `/gohighlevel-automation-consultant`, `/gohighlevel-automation-setup`, and `/gohighlevel-setup-vs-diy-small-business` by focusing only on scope selection between setup execution and broader workflow judgment."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live GoHighLevel cluster, the published WheelsFeels CRM case study, and the Paris Cafe routing/capture case study support the workflow logic without pretending there is already a dedicated GoHighLevel consultant-vs-setup-help case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fit / not-fit framing, bounded cost guidance, and explicit advice that some businesses need cleanup first or a different stack instead of forcing unnecessary consultant scope."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T18:39:23.327Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 22.4,
+      "sentenceLengthRange": [
+        3,
+        50
+      ],
+      "totalWords": 313
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: GoHighLevel Consultant vs.",
+      "wordCount": 5,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a realistic second opinion on your GoHighLevel scope?\nBody: Book a 30-minute call. We will look at your current account or planned workflow, decide whether you need focused setup help, deeper consultant judgment, cleanup first, or a different stack entirely, and map the smallest next step worth paying for.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 18,
+      "emDashes": 2,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 9,
+      "commasPerSentence": 1.38
+    },
+    "vocabulary": {
+      "distinctWords": 160,
+      "totalWords": 313,
+      "topWords": [
+        [
+          "help",
+          18
+        ],
+        [
+          "gohighlevel",
+          9
+        ],
+        [
+          "setup",
+          9
+        ],
+        [
+          "what",
+          9
+        ],
+        [
+          "consultant",
+          8
+        ],
+        [
+          "need",
+          7
+        ],
+        [
+          "when",
+          7
+        ],
+        [
+          "they",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "vs",
+          3
+        ],
+        [
+          "account",
+          3
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "scope",
+          3
+        ],
+        [
+          "your",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 1,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

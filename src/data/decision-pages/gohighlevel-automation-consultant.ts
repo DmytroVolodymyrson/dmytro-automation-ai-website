@@ -218,6 +218,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "GoHighLevel automation setup help", href: "/gohighlevel-automation-setup" },
+        { label: "GoHighLevel consultant vs. setup help", href: "/gohighlevel-consultant-vs-setup-help" },
         { label: "GoHighLevel account cleanup service", href: "/gohighlevel-account-cleanup-service" },
         { label: "GoHighLevel vs. custom CRM", href: "/gohighlevel-vs-custom-crm-small-business" },
       ],
@@ -286,6 +287,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No vague agency pitch. Just a practical review of the workflow, stack, cleanup risk, and likely payoff.",
   relatedLinks: [
+    { label: "GoHighLevel consultant vs. setup help", href: "/gohighlevel-consultant-vs-setup-help" },
     { label: "GoHighLevel consultant cost for small business", href: "/gohighlevel-automation-consultant-cost-small-business" },
     { label: "GoHighLevel automation setup help", href: "/gohighlevel-automation-setup" },
     { label: "GoHighLevel setup cost for small business", href: "/gohighlevel-setup-cost-small-business" },

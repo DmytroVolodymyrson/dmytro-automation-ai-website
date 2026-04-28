@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/gohighlevel-vs-activecampaign-small-business` — a new CRM comparison page for small-business owners deciding between an all-in-one follow-up stack and an email/marketing-automation-first platform. It extends the live GoHighLevel comparison cluster beside the existing HubSpot, Keap, Pipedrive, and custom-CRM pages, adds fresh discovery/tracking surfaces, and gives the site a more honest path for owners whose real automation job is email nurture vs. broader follow-up coverage. Previous: `/gohighlevel-vs-pipedrive-small-business`.)
+Last updated: 2026-04-28 (shipped `/gohighlevel-consultant-vs-setup-help` — a new GoHighLevel scope-decision page for small-business owners deciding whether they need setup-only implementation or broader consultant judgment. It extracts an exact buyer query from the live GoHighLevel consultant cluster, adds fresh discovery/tracking surfaces, and creates a cleaner path between the existing setup, consultant, cost, DIY, cleanup, and audit pages. Previous: `/gohighlevel-vs-activecampaign-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 315.
+**Total live GEO pages tracked here:** 316.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -79,6 +79,7 @@ Last updated: 2026-04-28 (shipped `/gohighlevel-vs-activecampaign-small-business
 | GoHighLevel vs Jobber (Contractors) | `/gohighlevel-vs-jobber-for-contractors` | Vertical comparison page | Live |
 | GoHighLevel Automation Setup | `/gohighlevel-automation-setup` | Service page | Live |
 | GoHighLevel Automation Consultant | `/gohighlevel-automation-consultant` | Hiring-intent / role page | Live |
+| GoHighLevel Consultant vs Setup Help | `/gohighlevel-consultant-vs-setup-help` | Hiring-intent / scope-decision page | Live |
 | GoHighLevel Automation Consultant Cost (SMB) | `/gohighlevel-automation-consultant-cost-small-business` | Hiring-intent / cost page | Live |
 | GoHighLevel Setup Cost (SMB) | `/gohighlevel-setup-cost-small-business` | Service cost page | Live |
 | GoHighLevel Setup vs DIY (SMB) | `/gohighlevel-setup-vs-diy-small-business` | Decision page | Live |
@@ -332,11 +333,11 @@ This run started from a fresh broad reconciliation across `GEO-PLAN.md`, `docs/g
 The next run should:
 
 1. **Keep manual GSC follow-through moving** on refreshed priority URLs and newer consultant / comparison pages instead of treating publish alone as the finish line.
-2. **Start from another fresh broad reconciliation before naming a new net-new page** so the queue does not drift back into stale same-cluster inertia or miss already-live pages.
-3. **Only name another SMB CRM/platform comparison if an exact distinct buyer query still survives that reconciliation**; otherwise leave the queue in watchlist mode instead of forcing another same-cluster GoHighLevel page by inertia.
+2. **Start from another fresh broad reconciliation before naming a new net-new page** so the queue does not drift back into stale same-cluster inertia or over-credit the mature GoHighLevel cluster with another automatic follow-up.
+3. **Only force another same-cluster GoHighLevel child if an exact distinct buyer query still survives that reconciliation**; otherwise leave the queue in watchlist mode instead of manufacturing thin overlap.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
 | 1 | Manual GSC follow-through on refreshed priority URLs | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |
 | 2 | Fresh broad reconciliation before another net-new page | The repo is now dense enough that stale docs can still make already-live pages look missing or can over-credit the just-shipped GoHighLevel cluster with the next run by default. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
-| 3 | Watchlist: next distinct SMB CRM / automation-platform comparison only if it survives review | The GoHighLevel comparison cluster is strong now, but a forced follow-up page would risk sliding into thin same-cluster overlap unless a clearly different buyer question remains. | Verify any new comparison candidate is still absent from routes, pages, sitemap, llm files, and geo prompts, and confirm it answers a materially different buyer decision than the live HubSpot / Keap / Pipedrive / ActiveCampaign / custom-CRM pages. |
+| 3 | Watchlist: next same-cluster GoHighLevel child only if a truly distinct buyer query survives review | The GoHighLevel cluster is strong now, but a forced follow-up page would risk sliding into thin overlap unless a clearly different query still remains after this new consultant-vs-setup-help child. | Verify any new GoHighLevel candidate is still absent from routes, pages, sitemap, llm files, and geo prompts, and confirm it answers a materially different buyer decision than the live setup / consultant / cost / DIY / cleanup / audit pages. |

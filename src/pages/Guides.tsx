@@ -280,6 +280,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "GoHighLevel Consultant vs. Setup Help",
+    description:
+      "Practical scope-decision guide for owners deciding whether they need focused GoHighLevel setup-only implementation or broader consultant judgment around workflow design, cleanup, ownership, and stack decisions.",
+    href: "/gohighlevel-consultant-vs-setup-help",
+    category: "comparisons",
+  },
+  {
     title: "GoHighLevel Automation Consultant Cost for Small Business",
     description:
       "How much should a small business budget for a GoHighLevel consultant? Practical pricing guide for workflow design, account cleanup, hybrid-stack judgment, and when expert GHL help pays back.",

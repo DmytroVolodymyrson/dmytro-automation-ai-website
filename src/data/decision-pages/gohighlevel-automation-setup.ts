@@ -290,6 +290,10 @@ const data: DecisionPageData = {
       href: "/gohighlevel-automation-consultant",
     },
     {
+      label: "GoHighLevel consultant vs. setup help",
+      href: "/gohighlevel-consultant-vs-setup-help",
+    },
+    {
       label: "GoHighLevel consultant cost",
       href: "/gohighlevel-automation-consultant-cost-small-business",
     },
