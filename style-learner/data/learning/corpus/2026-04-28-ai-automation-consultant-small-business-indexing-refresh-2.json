@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-ai-automation-consultant-small-business-indexing-refresh-2",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation Consultant for Small Businesses\nBody: An AI automation consultant for small business audits your day-to-day operations, identifies the manual steps that cost you the most time or lost revenue, and builds systems that handle those steps automatically — lead follow-up, scheduling, CRM workflows, and phone handling. Dmytro AI helps small businesses reduce management time by up to 15 hours per week and increase team capacity without hiring more staff. Fixed-price builds, typically $1.5K–$8K, with a working system live in 1–3 weeks.\nSub: Below: what a consultant actually does, how to tell if your business is a fit, what it costs, and how to evaluate your options.\n\n### Core sections\n- What an AI automation consultant actually does\n- Signs your business is ready for automation\n- Businesses that get the most from this\n- What automation typically replaces\n- When to hire a consultant vs. start with one bounded workflow\n- Consultant vs. agency vs. DIY\n- Good fit / not a fit\n- Continue researching\n\n### FAQ\nSubhead: Straight answers about hiring an AI automation consultant\nTopics: how consultant work differs from hiring a freelancer, how long results take, whether non-technical teams can use the system, what happens if you are not sure what to automate first, hidden costs, security/privacy, post-build support, whether the systems work with existing tools, and when a small business should try one workflow itself before hiring a consultant.\n\n### Final CTA\nHeading: Book a 30-Minute Call\nBody: Book a 30-minute call if you want to map the repetitive work that is costing time or revenue, understand whether a focused automation project is worth paying for now, and get a practical sense of scope, pricing, and next steps before committing to a build.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a second bounded indexing/internal-linking refresh on a priority discovered-not-indexed commercial page, not a net-new GEO page ship."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "Added a new answer-extractable decision block focused on the real buyer question: when a small business should try one bounded workflow alone versus when the workflow complexity or customer-facing risk justifies hiring a consultant now."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The new block routes naturally into best-first-automation, cost, no-tech-team, lead-follow-up, appointment-setter, guides, and the booking CTA instead of only repeating the earlier proof/pricing router."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "Added one new FAQ on the same buy-now-vs-start-small decision so the page can answer that query in both body copy and FAQ schema."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: low-stakes single-trigger DIY work versus multi-system, customer-facing workflows that need reliable production delivery."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T08:49:15.380Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        4,
+        1,
+        1
+      ],
+      "avgSentenceLength": 28.7,
+      "sentenceLengthRange": [
+        2,
+        67
+      ],
+      "totalWords": 287
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation Consultant for Small Businesses\nBody: An AI automation consultant for small business audits your day-to-day operations, identifies the manual steps that cost you the most time or lost revenue, and builds systems that handle those steps automatically — lead follow-up, scheduling, CRM workflows, and phone handling.",
+      "wordCount": 49,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "movement",
+      "text": "### Final CTA\nHeading: Book a 30-Minute Call\nBody: Book a 30-minute call if you want to map the repetitive work that is costing time or revenue, understand whether a focused automation project is worth paying for now, and get a practical sense of scope, pricing, and next steps before committing to a build.",
+      "pattern": "movement"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 22,
+      "emDashes": 1,
+      "enDashes": 2,
+      "hyphens": 8,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 8,
+      "commasPerSentence": 2.44
+    },
+    "vocabulary": {
+      "distinctWords": 160,
+      "totalWords": 287,
+      "topWords": [
+        [
+          "consultant",
+          9
+        ],
+        [
+          "-",
+          8
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "ai",
+          5
+        ],
+        [
+          "small",
+          4
+        ],
+        [
+          "business",
+          4
+        ],
+        [
+          "your",
+          4
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "hiring",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "businesses",
+          3
+        ],
+        [
+          "steps",
+          3
+        ],
+        [
+          "time",
+          3
+        ],
+        [
+          "with",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 2,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

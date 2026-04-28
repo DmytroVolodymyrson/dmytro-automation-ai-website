@@ -72,6 +72,11 @@ const faqItems = [
     answer:
       "Almost always. I build on platforms like n8n, GoHighLevel, Supabase, and standard APIs. If you're already using a CRM, scheduling tool, or email platform, the automation plugs into what you have. No rip-and-replace required.",
   },
+  {
+    question: "Should I hire a consultant or try automating one workflow myself first?",
+    answer:
+      "If the task is a single trigger-to-action sequence with low stakes, try it yourself using a tool like Zapier or n8n. If the workflow touches multiple systems, is customer-facing, or needs to work reliably from day one, a consultant will get you there faster and with fewer false starts. The deciding factor is usually complexity: one tool doing one thing is DIY territory; multiple tools that need to stay in sync is consultant territory.",
+  },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -459,6 +464,12 @@ const AiAutomationConsultantSmallBusiness = () => {
               </motion.div>
             ))}
           </div>
+          <p className="text-sm text-muted-foreground mt-6 max-w-3xl leading-relaxed">
+            For step-by-step implementation guides, see{" "}
+            <Link to="/ai-lead-follow-up-for-service-businesses" className="text-primary hover:text-primary/80 underline underline-offset-2">AI lead follow-up</Link> and{" "}
+            <Link to="/ai-appointment-setter" className="text-primary hover:text-primary/80 underline underline-offset-2">AI appointment setter</Link>. Or browse{" "}
+            <Link to="/guides" className="text-primary hover:text-primary/80 underline underline-offset-2">all automation guides</Link>.
+          </p>
         </Section>
 
         {/* ── Proof / case study references ────────────────────────── */}
@@ -607,6 +618,74 @@ const AiAutomationConsultantSmallBusiness = () => {
           </p>
         </Section>
 
+        {/* ── Consultant or one bounded workflow ────────────────────── */}
+        <Section className="bg-secondary/30">
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
+            When to hire a consultant vs. start with one bounded workflow
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
+            Not every automation problem needs a consultant. Some are better
+            solved by picking one workflow, building it yourself, and seeing what
+            happens. Here's how to tell the difference.
+          </p>
+          <div className="grid gap-6 md:grid-cols-2 max-w-4xl">
+            <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6">
+              <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
+                <Zap className="w-5 h-5 text-primary" />
+                Start with one workflow yourself
+              </h3>
+              <ul className="space-y-3">
+                {[
+                  "The task is a single, linear trigger-to-action sequence (form submitted, send confirmation email).",
+                  "You're comfortable experimenting inside Zapier, Make, or n8n.",
+                  "The stakes are low. Nothing breaks if it's down for a day.",
+                  "You want to feel how automation works before investing.",
+                ].map((item, i) => (
+                  <li
+                    key={i}
+                    className="flex items-start gap-2 text-sm text-muted-foreground leading-relaxed"
+                  >
+                    <CheckCircle2 className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="rounded-2xl border border-border/60 bg-card/80 p-6">
+              <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
+                <Users className="w-5 h-5 text-primary" />
+                Bring in a consultant
+              </h3>
+              <ul className="space-y-3">
+                {[
+                  "The workflow touches multiple systems (CRM + calendar + email + phone).",
+                  "Speed matters. Leads are leaking now and every week of tinkering is lost revenue.",
+                  "You already tried a DIY approach and it stalled or got messy.",
+                  "Nobody on the team can debug a broken automation.",
+                  "The first project is customer-facing and needs to work reliably from day one.",
+                ].map((item, i) => (
+                  <li
+                    key={i}
+                    className="flex items-start gap-2 text-sm text-muted-foreground leading-relaxed"
+                  >
+                    <AlertTriangle className="w-4 h-4 text-muted-foreground/60 flex-shrink-0 mt-0.5" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+          <p className="text-sm text-muted-foreground mt-6 max-w-3xl leading-relaxed">
+            If you're in the first column, the{" "}
+            <Link to="/best-ai-automation-for-service-businesses" className="text-primary hover:text-primary/80 underline underline-offset-2">best-first-automation guide</Link>{" "}
+            will help you pick the right workflow. If you're in the second, the{" "}
+            <Button variant="link" className="p-0 h-auto text-primary hover:text-primary/80 underline underline-offset-2 text-sm font-normal" onClick={scrollToBooking}>30-minute call</Button>{" "}
+            is the fastest way to scope what's worth building. Not sure yet?{" "}
+            <Link to="/ai-automation-cost-small-business" className="text-primary hover:text-primary/80 underline underline-offset-2">Check what it costs</Link> or{" "}
+            <Link to="/ai-automation-for-businesses-without-a-tech-team" className="text-primary hover:text-primary/80 underline underline-offset-2">read the no-tech-team guide</Link>.
+          </p>
+        </Section>
+
         {/* ── What working together looks like ─────────────────────── */}
         <Section className="bg-secondary/30">
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
@@ -745,6 +824,7 @@ const AiAutomationConsultantSmallBusiness = () => {
                 { label: "Best first automations", href: "/best-ai-automation-for-service-businesses" },
                 { label: "Automation guides", href: "/guides" },
                 { label: "Case studies", href: "/case-studies" },
+                { label: "Automation costs", href: "/ai-automation-cost-small-business" },
               ].map((item) => (
                 <Link
                   key={item.href}
