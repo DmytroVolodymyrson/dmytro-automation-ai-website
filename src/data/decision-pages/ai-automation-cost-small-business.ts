@@ -24,7 +24,7 @@ const data: DecisionPageData = {
   heroIntro:
     "Most small business owners search for automation pricing and find vague ranges or enterprise quotes that start at $50K. That is not useful. This page gives you real numbers for the automations small service businesses actually buy — lead follow-up, CRM workflows, voice agents, onboarding systems — with honest breakdowns of what drives cost up and what keeps it manageable.",
   heroSubtext:
-    "Below: what you will actually pay, what affects the price, common budget mistakes, and how to get the most value from your first automation investment.",
+    "Below: what you will actually pay, what affects the price, where small-business budgets usually break down, and a practical routing layer so you can jump to the right next page before you spend money on the wrong build.",
   sections: [
     {
       type: "table",
@@ -60,6 +60,44 @@ const data: DecisionPageData = {
         {
           label: "Full multi-workflow system",
           values: ["$5K–$12K", "$100–$300", "4–8 weeks"],
+        },
+      ],
+    },
+    {
+      type: "cards",
+      title: "Budget shortcut: where to go next based on what you are really pricing",
+      subtitle:
+        "Most owners are not just asking for a number. They are trying to decide what kind of build they can afford, whether the savings are worth it, and what should happen after launch. Use the route below that matches the real question behind the price search:",
+      items: [
+        {
+          icon: DollarSign,
+          title: "You need a realistic first-project budget",
+          body: "If your real question is whether you should spend on consultant-led setup, a smaller first workflow, or a broader stack, start with the pages that frame price against project scope instead of abstract software cost.",
+          links: [
+            { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
+            { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
+            { label: "Affordable AI automation under a small-business budget", href: "/affordable-ai-automation-small-business" },
+          ],
+        },
+        {
+          icon: TrendingUp,
+          title: "You are comparing cost against ROI or time saved",
+          body: "Price alone is the wrong lens if the workflow protects revenue, removes admin drag, or prevents the next hire. These guides help you compare the quote against payback and reclaimed team capacity.",
+          links: [
+            { label: "AI automation ROI guide", href: "/ai-automation-roi-guide" },
+            { label: "AI automation time savings", href: "/ai-automation-time-savings-small-business" },
+            { label: "AI lead follow-up cost", href: "/ai-lead-follow-up-cost-small-business" },
+          ],
+        },
+        {
+          icon: Wrench,
+          title: "You are worried the build price is only the beginning",
+          body: "That concern is valid. A good quote should separate implementation scope, platform fees, and the level of post-launch support you actually need instead of hiding everything inside one vague monthly number.",
+          links: [
+            { label: "AI automation maintenance and support", href: "/ai-automation-maintenance-and-support-small-business" },
+            { label: "All case studies", href: "/case-studies" },
+            { label: "All automation guides", href: "/guides" },
+          ],
         },
       ],
     },
@@ -223,6 +261,16 @@ const data: DecisionPageData = {
         "Typical monthly costs: CRM platform ($50-$300), automation hosting ($0-$50 self-hosted, $20-$100 cloud), AI API usage ($10-$100 depending on call/message volume), email/SMS sending ($20-$80). Most small businesses spend $100-$300/month total on their automation stack. Maintenance retainers add $100-$300/month if you want hands-off operation.",
     },
     {
+      question: "What can a small business realistically automate on a tighter budget?",
+      answer:
+        "If the real limit is cash, start with one contained workflow instead of a broad system: missed-call text-back, a basic lead-response sequence, reminders, or a small CRM routing fix. Those are the projects most likely to fit a modest build budget and low monthly running cost. The mistake is trying to buy a full voice agent, CRM rebuild, and multi-channel nurture system in the same first phase.",
+    },
+    {
+      question: "How should I think about support cost versus build cost?",
+      answer:
+        "Separate them. The build price covers implementation. Support covers monitoring, small fixes, and bounded updates after launch. Some workflows only need a short stabilization period, while customer-facing or revenue-critical systems justify a true monthly support plan. If a quote bundles everything together without saying what happens after launch, ask for the split before you sign.",
+    },
+    {
       question: "Can I build automations myself to save money?",
       answer:
         "Simple automations, yes. If you are comfortable with tools like Zapier or n8n, you can build basic workflows yourself. The challenge is knowing what to build, handling edge cases, and connecting multiple systems reliably. Most DIY automations break within the first month because they do not account for real-world messiness. A consultant build saves you 20-40 hours of trial and error.",
@@ -243,11 +291,15 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
     { label: "AI automation ROI guide", href: "/ai-automation-roi-guide" },
+    { label: "AI automation time savings", href: "/ai-automation-time-savings-small-business" },
+    { label: "AI automation maintenance and support", href: "/ai-automation-maintenance-and-support-small-business" },
+    { label: "Affordable AI automation for small business", href: "/affordable-ai-automation-small-business" },
     { label: "Hire a consultant or do it yourself", href: "/hire-ai-automation-consultant-vs-diy" },
     { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
     { label: "AI lead follow-up cost", href: "/ai-lead-follow-up-cost-small-business" },
     { label: "Build vs. buy AI automation", href: "/build-vs-buy-ai-automation" },
     { label: "Case studies", href: "/case-studies" },
+    { label: "All guides", href: "/guides" },
     { label: "Implementation roadmap", href: "/ai-automation-implementation-roadmap" },
   ],
 };

@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-ai-automation-cost-small-business-indexing-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation Cost for Small Business\nBody: Most small business owners search for automation pricing and find vague ranges or enterprise quotes that start at $50K. That is not useful. This page gives you real numbers for the automations small service businesses actually buy — lead follow-up, CRM workflows, voice agents, onboarding systems — with honest breakdowns of what drives cost up and what keeps it manageable.\nSub: Below: what you will actually pay, what affects the price, where small-business budgets usually break down, and a practical routing layer so you can jump to the right next page before you spend money on the wrong build.\n\n### New budget-routing block\nSection: Budget shortcut: where to go next based on what you are really pricing\n- Adds a new answer-extractable routing section with three decision cards:\n  - realistic first-project budget\n  - cost vs ROI / time saved\n  - support / maintenance vs build cost\n- New contextual links route readers directly into:\n  - /ai-automation-consultant-pricing-small-business\n  - /best-ai-automation-for-service-businesses\n  - /affordable-ai-automation-small-business\n  - /ai-automation-roi-guide\n  - /ai-automation-time-savings-small-business\n  - /ai-lead-follow-up-cost-small-business\n  - /ai-automation-maintenance-and-support-small-business\n  - /case-studies\n  - /guides\n- Purpose: make the page work as a pricing hub instead of a dead-end cost explainer.\n\n### Existing pricing/case-study structure retained\nSection: What AI automation costs by project type + proof section\n- Keeps the project-type price table intact.\n- Keeps the proof mapping to Paris Cafe, WheelsFeels, and Instagram lead-gen.\n- Uses the new routing block to connect price questions to adjacent proof and fit pages instead of only repeating cost ranges.\n\n### New FAQ additions\nSection: FAQ\n- Adds a tight-budget question:\n  - “What can a small business realistically automate on a tighter budget?”\n- Adds a support-cost question:\n  - “How should I think about support cost versus build cost?”\n- Keeps the answers practical: one bounded workflow first, separate implementation from support, and avoid buying a full stack too early.\n\n### Expanded related-links cluster\nSection: Bottom related links\n- Expands the page from a narrower pricing cluster into a broader budgeting/support cluster:\n  - /ai-automation-consultant-pricing-small-business\n  - /ai-automation-roi-guide\n  - /ai-automation-time-savings-small-business\n  - /ai-automation-maintenance-and-support-small-business\n  - /affordable-ai-automation-small-business\n  - /hire-ai-automation-consultant-vs-diy\n  - /best-ai-automation-for-service-businesses\n  - /ai-lead-follow-up-cost-small-business\n  - /build-vs-buy-ai-automation\n  - /case-studies\n  - /guides\n  - /ai-automation-implementation-roadmap\n\n### llm / llms summary refresh\nSection: AI Automation Cost for Small Business entry\n- Rewrites the one-line summary so AI crawlers see this page as:\n  - real small-business pricing\n  - project-type cost bands\n  - support-vs-build budgeting\n  - routing into ROI, time-savings, affordable, and maintenance questions",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded indexing/internal-linking refresh on an existing priority page, not a new page ship."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and anti-fluff: real price bands, one bounded workflow first, and explicit separation between build cost and support cost."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Internal links were chosen to keep the page tightly inside the live pricing / fit / proof cluster rather than turning it into a generic hub."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "No invented savings or pricing claims were added; the update sharpens routing and buyer framing more than raw claim volume."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T04:14:37.213Z",
+    "structure": {
+      "paragraphCount": 6,
+      "sentencesPerParagraph": [
+        4,
+        1,
+        3,
+        1,
+        1,
+        1
+      ],
+      "avgSentenceLength": 35.9,
+      "sentenceLengthRange": [
+        4,
+        86
+      ],
+      "totalWords": 395
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation Cost for Small Business\nBody: Most small business owners search for automation pricing and find vague ranges or enterprise quotes that start at $50K.",
+      "wordCount": 28,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### llm / llms summary refresh\nSection: AI Automation Cost for Small Business entry\n- Rewrites the one-line summary so AI crawlers see this page as:\n  - real small-business pricing\n  - project-type cost bands\n  - support-vs-build budgeting\n  - routing into ROI, time-savings, affordable, and maintenance questions",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | result | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 13,
+      "emDashes": 2,
+      "enDashes": 0,
+      "hyphens": 41,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 18,
+      "commasPerSentence": 1.3
+    },
+    "vocabulary": {
+      "distinctWords": 212,
+      "totalWords": 395,
+      "topWords": [
+        [
+          "-",
+          41
+        ],
+        [
+          "cost",
+          10
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "section",
+          7
+        ],
+        [
+          "small",
+          5
+        ],
+        [
+          "pricing",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "new",
+          5
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "business",
+          4
+        ],
+        [
+          "keeps",
+          4
+        ],
+        [
+          "routing",
+          4
+        ],
+        [
+          "price",
+          3
+        ],
+        [
+          "build",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}
