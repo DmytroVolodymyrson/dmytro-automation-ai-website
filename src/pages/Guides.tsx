@@ -217,6 +217,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "GoHighLevel vs. ActiveCampaign for Small Business",
+    description:
+      "Practical comparison of GoHighLevel and ActiveCampaign for small businesses. Email automation depth, CRM scope, SMS, pricing, migration tradeoffs, and when each platform actually fits.",
+    href: "/gohighlevel-vs-activecampaign-small-business",
+    category: "comparisons",
+  },
+  {
     title: "GoHighLevel Automation Setup & Expert Help",
     description:
       "Practical GoHighLevel setup help for small businesses — pipeline cleanup, calendars, follow-up automations, reporting, pricing, and when GHL is the wrong tool.",

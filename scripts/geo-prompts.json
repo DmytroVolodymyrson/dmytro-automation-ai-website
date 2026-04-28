@@ -2432,6 +2432,18 @@
       ]
     },
     {
+      "id": "gohighlevel-vs-activecampaign-small-business",
+      "path": "/gohighlevel-vs-activecampaign-small-business",
+      "label": "GoHighLevel vs. ActiveCampaign for Small Business",
+      "prompts": [
+        "GoHighLevel vs ActiveCampaign for small business",
+        "Should a small business use GoHighLevel or ActiveCampaign?",
+        "ActiveCampaign vs GoHighLevel pricing for a small business",
+        "Is ActiveCampaign better than GoHighLevel for email automation?",
+        "When should a business pick ActiveCampaign over GoHighLevel?"
+      ]
+    },
+    {
       "id": "gohighlevel-account-cleanup-service",
       "path": "/gohighlevel-account-cleanup-service",
       "label": "GoHighLevel Account Cleanup Service",

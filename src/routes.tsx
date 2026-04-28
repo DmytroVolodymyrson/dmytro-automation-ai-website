@@ -37,6 +37,7 @@ import AiChatbotVsAiVoiceAgentForLeadQualification from "./pages/AiChatbotVsAiVo
 import GoHighLevelVsCustomCrmSmallBusiness from "./pages/GoHighLevelVsCustomCrmSmallBusiness";
 import GoHighLevelVsKeapSmallBusiness from "./pages/GoHighLevelVsKeapSmallBusiness";
 import GoHighLevelVsPipedriveSmallBusiness from "./pages/GoHighLevelVsPipedriveSmallBusiness";
+import GoHighLevelVsActiveCampaignSmallBusiness from "./pages/GoHighLevelVsActiveCampaignSmallBusiness";
 import GoHighLevelVsCustomCrmForContractors from "./pages/GoHighLevelVsCustomCrmForContractors";
 import GoHighLevelVsJobberForContractors from "./pages/GoHighLevelVsJobberForContractors";
 import GoHighLevelAutomationSetup from "./pages/GoHighLevelAutomationSetup";
@@ -473,6 +474,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/gohighlevel-vs-custom-crm-small-business", element: <GoHighLevelVsCustomCrmSmallBusiness /> },
   { path: "/gohighlevel-vs-keap-small-business", element: <GoHighLevelVsKeapSmallBusiness /> },
   { path: "/gohighlevel-vs-pipedrive-small-business", element: <GoHighLevelVsPipedriveSmallBusiness /> },
+  { path: "/gohighlevel-vs-activecampaign-small-business", element: <GoHighLevelVsActiveCampaignSmallBusiness /> },
   { path: "/gohighlevel-vs-custom-crm-for-contractors", element: <GoHighLevelVsCustomCrmForContractors /> },
   { path: "/gohighlevel-vs-jobber-for-contractors", element: <GoHighLevelVsJobberForContractors /> },
   { path: "/gohighlevel-automation-setup", element: <GoHighLevelAutomationSetup /> },

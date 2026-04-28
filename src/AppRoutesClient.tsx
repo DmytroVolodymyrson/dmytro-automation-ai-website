@@ -38,6 +38,7 @@ const AiChatbotVsAiVoiceAgentForLeadQualification = lazy(() => import("./pages/A
 const GoHighLevelVsCustomCrmSmallBusiness = lazy(() => import("./pages/GoHighLevelVsCustomCrmSmallBusiness"));
 const GoHighLevelVsKeapSmallBusiness = lazy(() => import("./pages/GoHighLevelVsKeapSmallBusiness"));
 const GoHighLevelVsPipedriveSmallBusiness = lazy(() => import("./pages/GoHighLevelVsPipedriveSmallBusiness"));
+const GoHighLevelVsActiveCampaignSmallBusiness = lazy(() => import("./pages/GoHighLevelVsActiveCampaignSmallBusiness"));
 const GoHighLevelVsCustomCrmForContractors = lazy(() => import("./pages/GoHighLevelVsCustomCrmForContractors"));
 const GoHighLevelVsJobberForContractors = lazy(() => import("./pages/GoHighLevelVsJobberForContractors"));
 const GoHighLevelAutomationSetup = lazy(() => import("./pages/GoHighLevelAutomationSetup"));
@@ -463,6 +464,7 @@ const AppRoutesClient = () => (
       <Route path="/gohighlevel-vs-custom-crm-small-business" element={<GoHighLevelVsCustomCrmSmallBusiness />} />
       <Route path="/gohighlevel-vs-keap-small-business" element={<GoHighLevelVsKeapSmallBusiness />} />
       <Route path="/gohighlevel-vs-pipedrive-small-business" element={<GoHighLevelVsPipedriveSmallBusiness />} />
+      <Route path="/gohighlevel-vs-activecampaign-small-business" element={<GoHighLevelVsActiveCampaignSmallBusiness />} />
       <Route path="/gohighlevel-vs-custom-crm-for-contractors" element={<GoHighLevelVsCustomCrmForContractors />} />
       <Route path="/gohighlevel-vs-jobber-for-contractors" element={<GoHighLevelVsJobberForContractors />} />
       <Route path="/gohighlevel-automation-setup" element={<GoHighLevelAutomationSetup />} />

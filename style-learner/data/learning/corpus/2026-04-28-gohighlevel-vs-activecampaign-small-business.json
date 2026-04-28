@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-gohighlevel-vs-activecampaign-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: GoHighLevel vs ActiveCampaign for Small Business\nBody: GoHighLevel is an all-in-one marketing CRM that bundles funnels, calendars, SMS/email follow-up, call tracking, and reputation workflows in one subscription. ActiveCampaign is an email-and-marketing-automation-first platform with strong sequence logic, tagging, site tracking, and a lighter built-in CRM. For a small business, the better choice depends on whether you need a broader all-in-one follow-up stack or deeper email automation with a focused marketing engine.\nSub: Below: pricing reality, automation depth, CRM tradeoffs, migration friction, and when each platform wins for a small business.\n\n### Core sections\n- Two different ways to think about marketing automation\n- Side-by-side comparison\n- When each platform makes sense\n- The real pricing math\n- What to watch out for\n- When neither platform is the right answer\n\n### FAQ\nSubhead: Practical answers about choosing between GoHighLevel and ActiveCampaign for a small business\nTopics: whether ActiveCampaign is better than GoHighLevel for a small business, whether GoHighLevel can replace ActiveCampaign for email marketing, which platform is cheaper in real stack terms, how hard it is to migrate from ActiveCampaign to GoHighLevel, and when the smarter move is improving follow-up without a full platform switch.\n\n### Final CTA\nHeading: Not sure whether you need deeper email automation or a broader all-in-one stack?\nBody: Book a 30-minute call. We will look at your current tools, your follow-up gaps, your email workflow, and figure out whether GoHighLevel, ActiveCampaign, a hybrid, or a custom layer is actually the smarter move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the live GoHighLevel cluster already had HubSpot, Keap, Pipedrive, setup, cleanup, and consultant pages, but still lacked the practical SMB choice between an all-in-one CRM/follow-up stack and a deeper email-and-marketing-automation-first platform."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the page tightly on the actual buyer decision: broader follow-up coverage versus email-automation depth, full-stack cost versus headline subscription price, and when the business is really choosing an email engine rather than a front-of-house operating system."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses adjacent proof only: the WheelsFeels CRM case study supports the workflow-design argument without pretending there is a direct GoHighLevel-or-ActiveCampaign case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Routes readers into the nearby GoHighLevel comparison/setup pages so the new page strengthens the surrounding CRM cluster instead of sitting alone."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: direct fit framing, explicit warnings about migration and tool sprawl, and a clear admission that neither logo fixes a broken workflow by itself."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T18:03:58.498Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 27.2,
+      "sentenceLengthRange": [
+        5,
+        64
+      ],
+      "totalWords": 245
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: GoHighLevel vs ActiveCampaign for Small Business\nBody: GoHighLevel is an all-in-one marketing CRM that bundles funnels, calendars, SMS/email follow-up, call tracking, and reputation workflows in one subscription.",
+      "wordCount": 29,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Not sure whether you need deeper email automation or a broader all-in-one stack?\nBody: Book a 30-minute call. We will look at your current tools, your follow-up gaps, your email workflow, and figure out whether GoHighLevel, ActiveCampaign, a hybrid, or a custom layer is actually the smarter move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 22,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 2.75
+    },
+    "vocabulary": {
+      "distinctWords": 131,
+      "totalWords": 245,
+      "topWords": [
+        [
+          "gohighlevel",
+          7
+        ],
+        [
+          "activecampaign",
+          7
+        ],
+        [
+          "platform",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "small",
+          5
+        ],
+        [
+          "business",
+          5
+        ],
+        [
+          "whether",
+          5
+        ],
+        [
+          "marketing",
+          4
+        ],
+        [
+          "follow-up",
+          4
+        ],
+        [
+          "email",
+          4
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "all-in-one",
+          3
+        ],
+        [
+          "crm",
+          3
+        ],
+        [
+          "stack",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.004
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
