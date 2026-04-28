@@ -2,31 +2,26 @@
 **Date:** 2026-04-28
 **Platform:** landing-page
 **Language:** en
-**Section:** /missed-call-text-back-for-restaurants (restaurant missed-call recovery page)
+**Section:** /missed-call-text-back-for-restaurants (restaurant missed-call recovery workflow page)
 
 ## Final Published Text
 
-### Hero
-Heading: Missed Call Text-Back for Restaurants
-Sub: Below: what restaurant missed call text-back should actually do, which sibling restaurant page to read when the real problem is after-hours coverage, private-event routing, reminders, or live phone handling, what proof honestly supports it, and where SMS-first recovery works better than forcing every missed call into a live AI conversation.
+### New section
+Heading: What a first restaurant missed-call text-back build usually includes
+Sub: For most restaurants, the first useful build is not a giant phone system. It is a narrow recovery workflow with five clear parts.
 
-### New routing section
-Heading: Choose the right restaurant phone workflow before you overbuild this
-Body: Missed-call text-back is only one part of the restaurant phone cluster. Use the router below when the real issue is narrower or heavier than SMS-first recovery.
+1. Instant missed-call detection tied to the real restaurant line — The workflow should fire the moment the host stand or after-hours line is missed. If the team has to export voicemails or check a side inbox later, the system is already too slow to protect live reservation intent.
+2. A reservation-first SMS that asks for the next useful detail — The first reply should do one job well: keep the guest moving. Usually that means asking for party size, preferred time, or whether they want a booking link instead of sending vague 'we missed your call' filler.
+3. Branches for large parties, private events, and sensitive guest cases — A practical build should detect when the text thread is no longer a normal reservation recovery. Catering, banquet, private-dining, VIP, or complaint scenarios should route to a manager fast instead of being trapped in a generic SMS exchange.
+4. Morning handoff and visibility the front-of-house team will actually use — Every unresolved thread should land somewhere visible with caller context, what the guest asked for, and whether a callback or manager follow-up is owed. Otherwise the restaurant just replaces voicemail chaos with texting chaos.
+5. A clear escalation line when text-back is no longer enough — If too many guests need live answers, same-call booking capture, or true overnight coverage, the first-build scope should make that obvious quickly. That is the moment to step up to after-hours AI answering or a full restaurant voice agent instead of stretching SMS beyond its useful limit.
 
-Cards:
-- Most lost calls happen after close → route to the after-hours restaurant phone guide and the after-hours AI-vs-voicemail comparison so the buyer can decide whether live overnight answering is worth it.
-- The missed calls are really large-party or private-event leads → route to the private-event inquiry follow-up page so the page does not pretend a simple reservation text thread is enough for higher-value event demand.
-- The booking exists — the problem is reminders or no-shows → route to the reservation confirmation and reminder workflow so this page stays clearly pre-booking, not post-booking.
-- Guests need live answers, not a reply thread → route to the restaurant voice-agent guide and the text-back-vs-voice comparison so the buyer sees when SMS-first recovery is the wrong layer.
-
-### Why this page changed
-- Makes the zero-visibility restaurant child more distinct from sibling pages instead of letting it read like a lighter duplicate of the broader restaurant phone cluster.
-- Strengthens contextual internal links into the after-hours, private-event, reminder, and live-answering pages from a page that already sits on the restaurant phone-demand path.
-- Keeps the tone operational and buyer-oriented: practical distinctions, no hype, no fake proof claims.
+### FAQ addition
+Question: What should a first restaurant missed-call text-back build include?
+Answer: At minimum: instant missed-call detection, a reservation-first SMS, a clean next step such as party-size or preferred-time capture, a branch for private-event or VIP cases, and a visible morning handoff for unresolved threads. If guests regularly need live answers or same-call booking capture, that is usually the sign to move up to after-hours AI answering or a full restaurant voice agent instead of stretching SMS too far.
 
 ## Style Notes
-- The copy stays narrow and honest about what missed-call text-back is for: pre-booking SMS-first recovery after a missed restaurant call.
-- The new section uses contrast and routing language (“if the real issue is…”) to reduce overlap with sibling pages and improve answer extraction.
-- Internal links are framed as decision support, not generic related-links padding.
-- Tone remains direct, commercially specific, and anti-fluff — useful for owners deciding between simple recovery, live answering, and more specialized restaurant workflows.
+- Tightens a zero-visibility restaurant child page by making the implementation scope explicit instead of leaving the page at a higher-level routing layer only.
+- Keeps the copy practical and operational: no hype, no vague AI language, just the five parts of a first useful build.
+- Uses fit boundaries to push readers toward after-hours AI answering or the broader restaurant voice-agent path when SMS-first recovery is too light.
+- Reinforces that the page is about reservation-demand recovery after a missed call, not full hospitality automation.

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-28T23:15:44.085Z",
+  "updatedAt": "2026-04-28T23:22:38.593Z",
   "postCount": 490,
   "platforms": {
     "telegram": 0,
@@ -19,7 +19,7 @@
     },
     "sentenceLength": {
       "mean": 23.4,
-      "median": 23.7,
+      "median": 23.65,
       "min": 7.1,
       "max": 105,
       "p25": 19.3,
@@ -27,7 +27,7 @@
       "samples": 490
     },
     "totalWords": {
-      "mean": 332.5,
+      "mean": 332.6,
       "median": 334,
       "min": 17,
       "max": 1155,
@@ -122,7 +122,7 @@
       "single | single | single | short": 1,
       "single | long | short | single": 1,
       "long | single | long | long | long | long | long | single | long": 1,
-      "single | short | long | long": 1,
+      "short | long | long": 1,
       "single | short | long | single | long": 1,
       "long | single | long | short": 1
     },
@@ -146,7 +146,7 @@
       "opener | product-pitch | product-pitch | result | context | product-pitch | context | product-pitch | product-pitch | closer": 1,
       "opener | context | context | context | result | product-pitch | context | context | closer": 1,
       "opener | context | product-pitch | closer": 42,
-      "opener | context | context | closer": 195,
+      "opener | context | context | closer": 194,
       "opener | product-pitch | context | closer": 33,
       "opener | context | product-pitch | context | product-pitch | result | context | closer": 1,
       "opener | product-pitch | product-pitch | closer": 28,
@@ -158,7 +158,7 @@
       "opener | context | product-pitch | context | context | closer": 3,
       "opener | context | context | context | context | closer": 2,
       "opener | context | product-pitch | product-pitch | context | closer": 1,
-      "opener | product-pitch | closer": 2,
+      "opener | product-pitch | closer": 3,
       "opener | context | result | context | context | context | context | context | result | closer": 1,
       "opener | context | context | context | closer": 9,
       "opener | context | result | closer": 75,
@@ -243,7 +243,7 @@
   "closers": {
     "patterns": {
       "reflection": {
-        "count": 77,
+        "count": 76,
         "examples": [
           "Stats:\n- 7+ Years building software\n- 50+ Automations built\n- $100K+ Saved for c",
           "Social proof pills:\n- 10+ hrs/week saved\n- 300%+ ROI\n- 24/7 automation",
@@ -251,7 +251,7 @@
         ]
       },
       "question": {
-        "count": 405,
+        "count": 406,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -290,11 +290,11 @@
     "topWords": [
       [
         "-",
-        3365
+        3358
       ],
       [
         "what",
-        1735
+        1738
       ],
       [
         "automation",
@@ -310,7 +310,7 @@
       ],
       [
         "page",
-        953
+        947
       ],
       [
         "how",
@@ -318,15 +318,15 @@
       ],
       [
         "it",
-        906
+        903
       ],
       [
         "phone",
-        870
+        865
       ],
       [
         "when",
-        788
+        785
       ],
       [
         "this",
@@ -341,20 +341,20 @@
         659
       ],
       [
+        "first",
+        650
+      ],
+      [
         "your",
         646
       ],
       [
-        "first",
-        646
-      ],
-      [
         "live",
-        612
+        608
       ],
       [
         "call",
-        536
+        533
       ],
       [
         "text-back",
@@ -370,19 +370,19 @@
       ],
       [
         "missed-call",
-        448
+        452
+      ],
+      [
+        "should",
+        422
       ],
       [
         "from",
         416
       ],
       [
-        "should",
-        415
-      ],
-      [
         "that",
-        360
+        365
       ],
       [
         "lead",
@@ -406,7 +406,7 @@
       ],
       [
         "with",
-        234
+        237
       ]
     ],
     "casualMarkerRate": 0,

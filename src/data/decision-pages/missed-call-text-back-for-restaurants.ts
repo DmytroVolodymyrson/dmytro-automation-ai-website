@@ -118,6 +118,53 @@ const data: DecisionPageData = {
       ],
     },
     {
+      type: "cards",
+      title: "What a first restaurant missed-call text-back build usually includes",
+      subtitle:
+        "For most restaurants, the first useful build is not a giant phone system. It is a narrow recovery workflow with five clear parts:",
+      items: [
+        {
+          icon: PhoneMissed,
+          title: "1. Instant missed-call detection tied to the real restaurant line",
+          body: "The workflow should fire the moment the host stand or after-hours line is missed. If the team has to export voicemails or check a side inbox later, the system is already too slow to protect live reservation intent.",
+          links: [
+            { label: "After-hours phone answering for restaurants", href: "/after-hours-phone-answering-for-restaurants" },
+          ],
+        },
+        {
+          icon: MessageSquare,
+          title: "2. A reservation-first SMS that asks for the next useful detail",
+          body: "The first reply should do one job well: keep the guest moving. Usually that means asking for party size, preferred time, or whether they want a booking link instead of sending vague 'we missed your call' filler.",
+          links: [
+            { label: "Reservation confirmation and reminder automation", href: "/reservation-confirmation-and-reminder-automation-for-restaurants" },
+          ],
+        },
+        {
+          icon: BellRing,
+          title: "3. Branches for large parties, private events, and sensitive guest cases",
+          body: "A practical build should detect when the text thread is no longer a normal reservation recovery. Catering, banquet, private-dining, VIP, or complaint scenarios should route to a manager fast instead of being trapped in a generic SMS exchange.",
+          links: [
+            { label: "Private-event inquiry follow-up", href: "/private-event-inquiry-follow-up-for-restaurants" },
+          ],
+        },
+        {
+          icon: Users,
+          title: "4. Morning handoff and visibility the front-of-house team will actually use",
+          body: "Every unresolved thread should land somewhere visible with caller context, what the guest asked for, and whether a callback or manager follow-up is owed. Otherwise the restaurant just replaces voicemail chaos with texting chaos.",
+        },
+        {
+          icon: Bot,
+          title: "5. A clear escalation line when text-back is no longer enough",
+          body: "If too many guests need live answers, same-call booking capture, or true overnight coverage, the first-build scope should make that obvious quickly. That is the moment to step up to after-hours AI answering or a full restaurant voice agent instead of stretching SMS beyond its useful limit.",
+          links: [
+            { label: "AI voice agent for restaurants", href: "/ai-voice-agent-for-restaurants" },
+            { label: "Paris Cafe case study", href: "/case-studies/paris-cafe-voice-agent" },
+            { label: "Missed call text-back vs AI voice agent", href: "/missed-call-text-back-vs-ai-voice-agent-for-restaurants" },
+          ],
+        },
+      ],
+    },
+    {
       type: "table",
       title: "How this page stays distinct from the other restaurant guides",
       subtitle:
@@ -292,6 +339,11 @@ const data: DecisionPageData = {
       question: "How much does restaurant missed call text-back usually cost?",
       answer:
         "A focused workflow usually lands in the low-thousands depending on the phone system, SMS setup, routing logic, and whether booking links or CRM logging are included. The key comparison is against lost reservation demand and staff interruption cost, not message cost alone.",
+    },
+    {
+      question: "What should a first restaurant missed-call text-back build include?",
+      answer:
+        "At minimum: instant missed-call detection, a reservation-first SMS, a clean next step such as party-size or preferred-time capture, a branch for private-event or VIP cases, and a visible morning handoff for unresolved threads. If guests regularly need live answers or same-call booking capture, that is usually the sign to move up to after-hours AI answering or a full restaurant voice agent instead of stretching SMS too far.",
     },
     {
       question: "When should a restaurant skip text-back and go straight to a voice agent?",
