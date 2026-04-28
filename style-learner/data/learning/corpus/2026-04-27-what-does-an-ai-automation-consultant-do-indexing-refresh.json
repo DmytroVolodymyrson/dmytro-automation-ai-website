@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-27-what-does-an-ai-automation-consultant-do-indexing-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-27",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\nHeading: What Does an AI Automation Consultant Actually Do?\nBody: An AI automation consultant diagnoses the business process that is leaking time or revenue, decides what should be automated and what should stay human, builds the workflow across your real tools, and hands off a production system your team can trust. For a small business, that usually means lead response, CRM routing, missed-call recovery, booking flow, onboarding, follow-up, or customer-facing AI — built once, documented, and stabilized so it does not fail silently.\nSub: Below: what the job really includes, what the first engagement usually covers, what deliverables and ownership you should expect, where consultants add value beyond a generic freelancer or VA, and when paying for consultant help is smarter than stitching together tools yourself.\n\n### Updated short-answer section\nSection: Short answer: what you get and what it costs\n- Keeps the direct-answer blocks on deliverables, timeline, and proof.\n- Adds a new answer-extractable block: “What the first engagement usually covers.”\n- New block clarifies that the first phase is diagnosis, scoped first workflow, basic systems map, implementation, testing, documentation, and a short stabilization window — not just prompts or software access.\n\n### Updated internal-linking inside the page\nSection: What the job actually includes\n- Adds contextual inline links under the four core cards so the page now routes directly to:\n  - /ai-automation-consultant-small-business\n  - /best-ai-automation-for-service-businesses\n  - /hire-ai-automation-consultant-vs-diy\n  - /ai-automation-consultant-vs-freelancer\n  - /ai-automation-consultant-pricing-small-business\n  - /ai-automation-cost-small-business\n  - /case-studies/paris-cafe-voice-agent\n  - /case-studies/ecommerce-crm-automation\n- Purpose: make the page easier to crawl as the role/intent hub inside the consultant cluster while giving readers the next logical commercial/proof routes.\n\n### Updated FAQ\nSection: FAQ\n- Adds a new owner-facing question: “What should the first consultant engagement usually include?”\n- Keeps the answer tightly on scoped first-project work, ownership, edge-case handling, and stabilization instead of generic strategy talk.\n\n### Updated related-links block\nSection: Bottom related links\n- Expands the cluster from the core consultant pages into adjacent budgeting and fit pages:\n  - /ai-automation-consultant-small-business\n  - /how-to-hire-ai-automation-consultant\n  - /ai-automation-consultant-pricing-small-business\n  - /ai-automation-cost-small-business\n  - /ai-automation-time-savings-small-business\n  - /ai-automation-consultant-vs-freelancer\n  - /ai-automation-maintenance-and-support-small-business\n  - /hire-ai-automation-consultant-vs-diy\n  - /case-studies\n\n### llm / llms summary refresh\nSection: Consultant role-guide entry\n- Rewrites the one-line summary to name first-project scoping plus ownership/documentation explicitly.\n- Keeps the summary in direct-answer language so AI crawlers can classify the page more cleanly.\n\n### Rest of page retained\n- What the job actually includes\n- Deliverables table\n- Good-fit / not-fit evaluation\n- Proof and adjacent proof\n- Timeline section\n- Final CTA",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded indexing/internal-linking refresh on an existing priority commercial/supporting page, not a new page ship."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The update keeps the page in role-guide mode while making the first-engagement answer clearer for AI extraction and human buyers."
+    },
+    {
+      "type": "tone_shift",
+      "description": "New links stay tightly inside the live consultant cluster plus the strongest published proof pages."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: one bounded workflow first, clear ownership, realistic stabilization, and no consultant mystique."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "No invented claims were added; the proof framing stays anchored to the published Paris Cafe and WheelsFeels case studies."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T03:04:36.617Z",
+    "structure": {
+      "paragraphCount": 7,
+      "sentencesPerParagraph": [
+        4,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1
+      ],
+      "avgSentenceLength": 33.3,
+      "sentenceLengthRange": [
+        10,
+        68
+      ],
+      "totalWords": 400
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nHeading: What Does an AI Automation Consultant Actually Do?",
+      "wordCount": 10,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Rest of page retained\n- What the job actually includes\n- Deliverables table\n- Good-fit / not-fit evaluation\n- Proof and adjacent proof\n- Timeline section\n- Final CTA",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 27,
+      "emDashes": 2,
+      "enDashes": 0,
+      "hyphens": 33,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 15,
+      "commasPerSentence": 2.45
+    },
+    "vocabulary": {
+      "distinctWords": 218,
+      "totalWords": 400,
+      "topWords": [
+        [
+          "-",
+          33
+        ],
+        [
+          "what",
+          12
+        ],
+        [
+          "consultant",
+          7
+        ],
+        [
+          "section",
+          7
+        ],
+        [
+          "first",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "updated",
+          4
+        ],
+        [
+          "actually",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "so",
+          3
+        ],
+        [
+          "job",
+          3
+        ],
+        [
+          "includes",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": [
+        "adds-trust-signals"
+      ]
+    }
+  }
+}

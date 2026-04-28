@@ -28,7 +28,7 @@ const data: DecisionPageData = {
   heroIntro:
     "An AI automation consultant diagnoses the business process that is leaking time or revenue, decides what should be automated and what should stay human, builds the workflow across your real tools, and hands off a production system your team can trust. For a small business, that usually means lead response, CRM routing, missed-call recovery, booking flow, onboarding, follow-up, or customer-facing AI — built once, documented, and stabilized so it does not fail silently.",
   heroSubtext:
-    "Below: what the job really includes, what deliverables you should expect, where consultants add value beyond a generic freelancer or VA, and when paying for consultant help is smarter than stitching together tools yourself.",
+    "Below: what the job really includes, what the first engagement usually covers, what deliverables and ownership you should expect, where consultants add value beyond a generic freelancer or VA, and when paying for consultant help is smarter than stitching together tools yourself.",
   sections: [
     {
       type: "prose",
@@ -43,6 +43,10 @@ const data: DecisionPageData = {
         {
           heading: "Typical scope and timeline",
           body: "Most small-business engagements focus on one high-ROI workflow first: missed-call text-back, lead follow-up, AI appointment setting, or after-hours voice handling. A lightweight workflow ships in days; a core business workflow with multiple integrations usually takes 1–3 weeks. Cost depends on how many systems are involved, how much human handoff logic is needed, and how much testing the workflow needs before it is safe to run live.",
+        },
+        {
+          heading: "What the first engagement usually covers",
+          body: "In practice, the first phase is usually diagnosis, workflow scoping, a simple system map, implementation of one bounded automation, a basic test pass, documentation, and a short stabilization window after launch. If you are only being sold prompts or software access without the operating workflow around it, that is usually not the full consultant job.",
         },
         {
           heading: "Proof from real builds",
@@ -60,21 +64,37 @@ const data: DecisionPageData = {
           icon: Search,
           title: "Find the real bottleneck",
           body: "The first step is not choosing software. It is figuring out where leads go cold, where staff time gets wasted, where handoff breaks, or where a customer experience falls apart after hours. A consultant should make the operational problem clearer before they recommend any stack.",
+          links: [
+            { label: "Consultant scope guide", href: "/ai-automation-consultant-small-business" },
+            { label: "Best first workflows", href: "/best-ai-automation-for-service-businesses" },
+          ],
         },
         {
           icon: Workflow,
           title: "Design the workflow and the human handoff",
           body: "Good consultants define the trigger, the sequence, the decision rules, the fallback paths, and the point where a human should step in. That is what turns 'we want AI' into a workflow that can run without damaging trust or creating more manual cleanup.",
+          links: [
+            { label: "Hire a consultant vs DIY", href: "/hire-ai-automation-consultant-vs-diy" },
+            { label: "Consultant vs freelancer", href: "/ai-automation-consultant-vs-freelancer" },
+          ],
         },
         {
           icon: PlugZap,
           title: "Connect the real systems",
           body: "This is where the boring but important work lives: forms, CRMs, calendars, phone systems, email platforms, Slack alerts, webhooks, and data mapping. If the systems are not connected cleanly, the automation may look impressive but still fail in day-to-day operations.",
+          links: [
+            { label: "Consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
+            { label: "AI automation cost", href: "/ai-automation-cost-small-business" },
+          ],
         },
         {
           icon: ShieldCheck,
           title: "Test, document, and make it reliable",
           body: "A consultant should account for duplicate submissions, bad contact data, mid-sequence replies, missed transfers, and after-hours edge cases. The deliverable is not a demo. It is a working system with ownership, documentation, and enough safeguards that the business can depend on it.",
+          links: [
+            { label: "Paris Cafe proof", href: "/case-studies/paris-cafe-voice-agent" },
+            { label: "WheelsFeels CRM proof", href: "/case-studies/ecommerce-crm-automation" },
+          ],
         },
       ],
     },
@@ -282,6 +302,11 @@ const data: DecisionPageData = {
         "Bring the current process, the tools involved, where leads or tasks currently fall through, and what success would look like. You do not need perfect documentation. You do need enough clarity to point at the bottleneck the automation should solve first.",
     },
     {
+      question: "What should the first consultant engagement usually include?",
+      answer:
+        "Usually a workflow diagnosis, scope for one bounded first project, a simple systems map, implementation, testing, documentation, and a short stabilization period after launch. If you are only getting tool recommendations without ownership, edge-case handling, or a defined first workflow, the engagement is probably too vague.",
+    },
+    {
       question: "Do I need an ongoing retainer after the consultant builds the workflow?",
       answer:
         "Not always. Some businesses only need a focused first build plus a short stabilization period. Ongoing support makes more sense when the workflow is high-volume, customer-facing, self-hosted, or likely to change often. The main thing is to leave the project with clear ownership so support stays optional rather than forced.",
@@ -298,8 +323,12 @@ const data: DecisionPageData = {
     { label: "AI automation consultant for small business", href: "/ai-automation-consultant-small-business" },
     { label: "How to hire an AI automation consultant", href: "/how-to-hire-ai-automation-consultant" },
     { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
+    { label: "AI automation cost for small business", href: "/ai-automation-cost-small-business" },
+    { label: "AI automation time savings", href: "/ai-automation-time-savings-small-business" },
+    { label: "Consultant vs freelancer", href: "/ai-automation-consultant-vs-freelancer" },
     { label: "AI automation maintenance and support", href: "/ai-automation-maintenance-and-support-small-business" },
     { label: "Hire an AI automation consultant or do it yourself?", href: "/hire-ai-automation-consultant-vs-diy" },
+    { label: "Case studies", href: "/case-studies" },
   ],
 };
 
