@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/ai-automation-consultant-vancouver` as a bounded net-new geo page. Chosen because the original planned buyer-intent backlog is largely exhausted, the existing Calgary/Edmonton/Alberta/Canada geo consultant pattern is already proven, and Vancouver is still a believable North American remote-service market with strong adjacent proof from the site's restaurant, real-estate, and service-business clusters. The live-assets table below is still a partial tracked subset of the larger live route set and should be reconciled in a later cleanup pass.)
+Last updated: 2026-04-28 (shipped `/ai-automation-consultant-toronto` as a bounded net-new geo page. Same proven geo-consultant pattern as Calgary/Edmonton/Vancouver. Toronto is a believable remote-service market with strong commercial local-intent phrasing. Copy is honest about remote delivery from Alberta with adjacent proof only.)
 
 ## Live GEO Assets
 
@@ -38,6 +38,7 @@ Last updated: 2026-04-28 (shipped `/ai-automation-consultant-vancouver` as a bou
 | AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo page | Live |
 | AI Consultant Edmonton | `/ai-automation-consultant-edmonton` | Geo page | Live |
 | AI Consultant Vancouver | `/ai-automation-consultant-vancouver` | Geo page | Live |
+| AI Consultant Toronto | `/ai-automation-consultant-toronto` | Geo page | Live |
 | AI Consultant Alberta | `/ai-automation-consultant-alberta` | Geo page | Live |
 | AI Consultant Canada | `/ai-automation-consultant-canada` | Geo page | Live |
 | Hire Consultant vs Agency | `/hire-ai-automation-consultant-vs-agency` | Decision / comparison | Live |
@@ -308,13 +309,13 @@ Last updated: 2026-04-28 (shipped `/ai-automation-consultant-vancouver` as a bou
 
 ## Next Pages
 
-This run shipped `/ai-automation-consultant-vancouver`, extending the proven consultant-geo cluster without inventing a new page type. The next run should:
+This run shipped `/ai-automation-consultant-toronto`, extending the proven consultant-geo cluster. The next run should:
 
-1. **Verify live/indexing behavior** for `/ai-automation-consultant-vancouver` after deploy propagation, then request indexing manually in GSC if it stays discovered-not-indexed.
+1. **Verify live/indexing behavior** for `/ai-automation-consultant-toronto` after deploy propagation, then request indexing manually in GSC if it stays discovered-not-indexed.
 2. **Run broad reconciliation** across routes, prompts, guides, sitemap, and llm surfaces before naming a more speculative workflow page. The drift between `scripts/geo-prompts.json`, `docs/geo-tracking.md`, `src/pages/Guides.tsx`, `public/sitemap.xml`, and the full live route/component set still deserves a cleanup pass.
 3. **Only then** decide whether the next bounded net-new ship is another geo consultant page or a newly justified child workflow page that survives full route/file verification.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | `/ai-automation-consultant-toronto` | Same proven geo-consultant page pattern as Calgary/Edmonton/Vancouver, with clearly commercial local-intent phrasing and believable remote-service delivery. | Re-check that no cleaner planned child workflow page survives full route/prompts reconciliation first, and keep the copy honest about remote delivery + adjacent proof rather than invented Toronto-specific case studies. |
-| 2 | Broad prompts/route reconciliation pass | Drift between tracking docs, prompts, guides, sitemap, and llm surfaces still weakens internal discovery even when content exists. | Re-run the live-routes vs prompts/guides/sitemap/llm diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
+| 1 | Broad prompts/route reconciliation pass | Drift between tracking docs, prompts, guides, sitemap, and llm surfaces still weakens internal discovery even when content exists. | Re-run the live-routes vs prompts/guides/sitemap/llm diff first, then only name the next page if a clearly planned, distinct, still-unshipped buyer-intent page survives full verification. |
+| 2 | `/ai-automation-consultant-ottawa` or another Ontario city | Same proven geo-consultant pattern. Ottawa is a believable market with government and professional services. | Verify the geo cluster isn't over-saturated first. Keep copy honest about remote delivery. |

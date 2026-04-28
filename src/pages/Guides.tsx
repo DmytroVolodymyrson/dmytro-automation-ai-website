@@ -50,9 +50,9 @@ const categoryMeta: Record<
     anchor: "industry-playbooks",
   },
   geo: {
-    label: "Calgary, Edmonton, Vancouver & beyond",
+    label: "Calgary, Edmonton, Vancouver, Toronto & beyond",
     description:
-      "Location-specific pages for business owners looking for a consultant in Calgary, Edmonton, Vancouver, Alberta, British Columbia, or across Canada.",
+      "Location-specific pages for business owners looking for a consultant in Calgary, Edmonton, Vancouver, Toronto, Alberta, British Columbia, Ontario, or across Canada.",
     anchor: "calgary-edmonton-beyond",
   },
 };
@@ -2836,6 +2836,13 @@ const guides: GuideItem[] = [
     description:
       "AI automation consulting for Vancouver businesses. Lead follow-up, scheduling, CRM workflows, and operations. Remote delivery, fixed pricing, clear scope.",
     href: "/ai-automation-consultant-vancouver",
+    category: "geo",
+  },
+  {
+    title: "AI Automation Consultant Toronto",
+    description:
+      "AI automation consulting for Toronto businesses. Lead follow-up, scheduling, CRM workflows, and operations. Remote delivery from Alberta, fixed pricing, clear scope.",
+    href: "/ai-automation-consultant-toronto",
     category: "geo",
   },
   {

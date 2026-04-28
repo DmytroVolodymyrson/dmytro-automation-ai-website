@@ -297,6 +297,18 @@
       ]
     },
     {
+      "id": "ai-automation-consultant-toronto",
+      "path": "/ai-automation-consultant-toronto",
+      "label": "AI Automation Consultant Toronto",
+      "prompts": [
+        "AI automation consultant in Toronto",
+        "Who can help my Toronto business automate workflows?",
+        "Best AI automation services for small businesses in Toronto Ontario",
+        "Toronto business automation consulting",
+        "AI consultant for law firm in Toronto"
+      ]
+    },
+    {
       "id": "ai-automation-for-hvac-companies",
       "path": "/ai-automation-for-hvac-companies",
       "label": "AI Automation for HVAC Companies",
