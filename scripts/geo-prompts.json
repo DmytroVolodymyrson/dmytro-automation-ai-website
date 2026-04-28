@@ -4221,6 +4221,18 @@
       ]
     },
     {
+      "id": "client-reactivation-automation-for-plumbing-companies",
+      "path": "/client-reactivation-automation-for-plumbing-companies",
+      "label": "Client Reactivation Automation for Plumbing Companies",
+      "prompts": [
+        "Client reactivation automation for plumbing companies",
+        "How can a plumbing company bring back past service clients before the next plumbing problem sends them to another plumber?",
+        "Best way for a plumbing company to follow up with old water-heater, drain, sewer, leak-repair, or maintenance customers",
+        "Should a plumbing company automate repeat-service follow-up after the first job is complete?",
+        "How should a plumbing company time reactivation outreach for past customers without turning it into spam?"
+      ]
+    },
+    {
       "id": "estimate-follow-up-automation-for-electrical-contractors",
       "path": "/estimate-follow-up-automation-for-electrical-contractors",
       "label": "Estimate Follow-Up Automation for Electrical Contractors",

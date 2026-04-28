@@ -19,7 +19,7 @@ const data: DecisionPageData = {
   metaTitle:
     "AI Automation for Plumbing Companies — Missed Calls, Lead Follow-Up, Scheduling | Dmytro AI",
   metaDescription:
-    "AI automation for plumbing companies. Missed call text-back, lead follow-up, appointment scheduling, estimate follow-up, and review automation. What works and where to start.",
+    "AI automation for plumbing companies. Missed call text-back, lead follow-up, appointment scheduling, estimate follow-up, client reactivation, and review automation. What works and where to start.",
   badgeText: "Plumbing Industry",
   badgeIcon: Wrench,
   h1: "AI Automation for Plumbing Companies",
@@ -53,6 +53,11 @@ const data: DecisionPageData = {
           icon: Clock,
           title: "Estimate follow-up",
           body: "Automated sequences that follow up on quotes that have not been accepted. Persistent but professional — reminders at 2 days, 5 days, and 14 days after the estimate.",
+        },
+        {
+          icon: Users,
+          title: "Client reactivation",
+          body: "Past plumbing clients do not need to disappear after the first job. Reactivation campaigns help the business bring back old service, install, drain, sewer, and maintenance contacts before the next plumbing need sends them somewhere else.",
         },
         {
           icon: Star,
@@ -148,6 +153,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "AI automation for HVAC companies", href: "/ai-automation-for-hvac-companies" },
+        { label: "Client reactivation automation for plumbing companies", href: "/client-reactivation-automation-for-plumbing-companies" },
         { label: "AI automation for electrical contractors", href: "/ai-automation-for-electrical-contractors" },
         { label: "View all case studies", href: "/case-studies" },
       ],
@@ -190,6 +196,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation for HVAC companies", href: "/ai-automation-for-hvac-companies" },
     { label: "AI automation for electrical contractors", href: "/ai-automation-for-electrical-contractors" },
+    { label: "Client reactivation automation for plumbing companies", href: "/client-reactivation-automation-for-plumbing-companies" },
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
     { label: "All guides", href: "/guides" },
   ],

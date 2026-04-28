@@ -1445,6 +1445,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Client Reactivation Automation for Plumbing Companies",
+    description:
+      "A narrower plumbing retention workflow page focused on dormant client recovery, realistic repeat-service timing, second-property or referral prompts, and fast office handoff when past customers need help again.",
+    href: "/client-reactivation-automation-for-plumbing-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Electrical Contractors",
     description:
       "AI automation for electrical contractors. Lead follow-up, missed call text-back, scheduling, estimate follow-up, and review automation.",

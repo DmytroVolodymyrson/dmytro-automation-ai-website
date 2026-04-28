@@ -202,7 +202,7 @@ const data: DecisionPageData = {
         {
           industry: "HVAC database reactivation",
           headline: "The live HVAC reactivation page already proves the mechanics work for a real service trade",
-          body: "That page shows how an HVAC company uses automated campaigns to re-engage past maintenance and repair customers. The segmentation, timing, and handoff patterns are the same ones this cross-industry parent generalizes.",
+          body: "That page shows how a home-service company uses automated campaigns to re-engage past maintenance and repair customers. The segmentation, timing, and handoff patterns are the same ones this cross-industry parent generalizes.",
           link: "/hvac-database-reactivation",
         },
         {
@@ -213,7 +213,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "Vertical reactivation children",
-          headline: "Live reactivation pages for roofing, cleaning, auto repair, and painting contractors prove the pattern scales across trades",
+          headline: "Live reactivation pages for roofing, plumbing, cleaning, auto repair, and painting contractors prove the pattern scales across trades",
           body: "Each vertical child narrows the same workflow to industry-specific job types, timing, and terminology. This parent page generalizes the shared operating layer those children depend on.",
           link: "/client-reactivation-automation-for-roofing-companies",
         },
@@ -230,6 +230,10 @@ const data: DecisionPageData = {
         {
           label: "Client reactivation for roofing companies",
           href: "/client-reactivation-automation-for-roofing-companies",
+        },
+        {
+          label: "Client reactivation for plumbing companies",
+          href: "/client-reactivation-automation-for-plumbing-companies",
         },
         {
           label: "Client reactivation for cleaning companies",
