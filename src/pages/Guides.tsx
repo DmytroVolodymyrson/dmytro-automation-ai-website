@@ -484,6 +484,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Lead Follow-Up Setup for Service Businesses",
+    description:
+      "What goes into setting up lead follow-up automation properly: channel mapping, response logic, CRM connections, sequence design, edge-case testing, and when professional setup help is worth paying for versus a simpler workflow.",
+    href: "/ai-lead-follow-up-setup-for-service-businesses",
+    category: "workflows",
+  },
+  {
     title: "Client Onboarding Automation",
     description:
       "How to automate client onboarding for service businesses. Intake forms, document collection, welcome sequences, scheduling, and CRM pipeline automation.",

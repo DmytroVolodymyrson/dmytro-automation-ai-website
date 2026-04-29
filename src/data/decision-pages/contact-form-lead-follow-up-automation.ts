@@ -260,6 +260,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
+    { label: "AI lead follow-up setup for service businesses", href: "/ai-lead-follow-up-setup-for-service-businesses" },
     { label: "Lead follow-up automation examples", href: "/lead-follow-up-automation-examples" },
     { label: "All guides", href: "/guides" },
   ],

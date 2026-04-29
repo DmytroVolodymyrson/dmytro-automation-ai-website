@@ -178,6 +178,7 @@ const data: DecisionPageData = {
     "No obligation. If your follow-up is already solid, we will tell you.",
   relatedLinks: [
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
+    { label: "AI lead follow-up setup for service businesses", href: "/ai-lead-follow-up-setup-for-service-businesses" },
     { label: "Missed call follow-up automation", href: "/missed-call-follow-up-automation" },
     { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
     { label: "AI email sequence automation", href: "/ai-email-sequence-automation" },

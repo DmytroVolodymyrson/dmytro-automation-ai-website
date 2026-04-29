@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/referral-request-automation-for-solar-companies` — a new solar child page covering post-install advocacy follow-up: referral timing after install and PTO, separate referral-versus-review asks, and fast office handoff when a homeowner mentions a neighbor, family member, or second-property opportunity instead of that goodwill dying in the inbox. Stays distinct from the live solar parent, review-request child, and project-status child by focusing narrowly on the private-introduction layer once the project is effectively settled rather than broader post-sale communication or public reputation management. Previous: `/review-request-automation-for-solar-companies`.)
+Last updated: 2026-04-28 (shipped `/ai-lead-follow-up-setup-for-service-businesses` — a new cross-industry child page under the lead follow-up cluster covering setup scope, response logic, CRM connections, multi-channel sequencing, edge-case testing, and when professional setup help is worth the spend versus a lighter workflow. Stays distinct from the lead follow-up parent by focusing on implementation rather than workflow value, from the cost child by focusing on what gets configured rather than what it costs, and from the ROI child by focusing on setup quality rather than payback math. Previous: `/referral-request-automation-for-solar-companies`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 336.
+**Total live GEO pages tracked here:** 337.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -39,6 +39,7 @@ Last updated: 2026-04-28 (shipped `/referral-request-automation-for-solar-compan
 | Client Reactivation Automation (Service Businesses) | `/client-reactivation-automation-for-service-businesses` | Workflow parent page | Live |
 | Client Reactivation Cost (SMB) | `/client-reactivation-cost-small-business` | Category cost page | Live |
 | Client Reactivation ROI (SMB) | `/client-reactivation-roi-small-business` | Workflow / ROI page | Live |
+| AI Lead Follow-Up Setup (Service Businesses) | `/ai-lead-follow-up-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Category cost page | Live |
 | AI Voice Agent Setup Cost (SMB) | `/ai-voice-agent-setup-cost-small-business` | Category cost page | Live |
 | AI Automation Maintenance & Support (SMB) | `/ai-automation-maintenance-and-support-small-business` | Strategy / support page | Live |
@@ -348,16 +349,16 @@ Last updated: 2026-04-28 (shipped `/referral-request-automation-for-solar-compan
 
 ## Next Pages
 
-This run shipped `/review-request-automation-for-solar-companies`. The solar cluster now covers the broad parent, first-project framing, lead follow-up, utility-bill collection, quote follow-up, booked-consult scheduling, project-status updates, review requests, and the key phone-layer pages and comparisons. That fills the public reputation gap the parent page had already named after install and PTO without collapsing back into sales-stage recovery or in-flight homeowner status communication.
+This run shipped `/ai-lead-follow-up-setup-for-service-businesses`. The cross-industry lead follow-up cluster now has the parent, cost, ROI, contact-form follow-up, instant-response, examples, and this new setup-scope child. That fills the implementation-gap the cluster had: the parent explained what lead follow-up is, cost/ROI covered the money side, but nothing covered what setup actually involves before launch or when professional help is worth the spend.
 
 The next run should:
 
 1. **Start from a fresh broad reconciliation before naming the next net-new page.** The repo is dense enough that stale docs can still over-credit a cluster or make an already-live page look missing.
-2. **Keep manual GSC follow-through moving** on the newest solar, auto-repair, HVAC, dental, cleaning, chiropractic, med-spa, painting, roofing, insurance, and law-firm ships instead of treating publish alone as the finish line.
-3. **Reset to broad cross-cluster reconciliation rather than assuming the solar cluster still owns the next run.** The obvious remaining solar private-advocacy gap is now filled, so the next named page should survive a fresh route, prompt, and proof check elsewhere before it gets written into the queue.
+2. **Keep manual GSC follow-through moving** on the newest workflow ships instead of treating publish alone as the finish line.
+3. **Reset to broad cross-cluster reconciliation.** The lead follow-up cluster's obvious setup gap is now filled. The next page should survive a fresh route, prompt, and proof check across clusters before it gets written into the queue.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | The obvious remaining solar referral gap is now filled. The next clean ship should come from a cross-cluster workflow gap that still survives route, prompt, and proof checks instead of defaulting to another mature cluster by inertia. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming the next candidate. |
-| 2 | Manual GSC follow-through on newest live workflow pages | Publish alone is not the finish line. Recent solar, auto-repair, HVAC, dental, cleaning, chiropractic, med-spa, painting, roofing, insurance, and law-firm child pages still need inspection and indexing requests where appropriate. | Check the newest live URLs in GSC after deploy propagation and request indexing only after meaningful copy/internal-link updates are live. |
-| 3 | Fresh proof-led watchlist review instead of another forced solar child | The solar parent's clean post-install advocacy split is now live across both review and referral children. If a future solar page reappears, it needs a materially different lifecycle stage and explicit surviving proof instead of inertia from recent solar wins. | Re-check current routes, prompts, and planning docs for another cluster-level gap before naming any specific new slug. |
+| 1 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | The lead follow-up setup gap is now filled. The next clean ship should come from a cross-cluster workflow gap that still survives route, prompt, and proof checks instead of defaulting to the same cluster by inertia. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming the next candidate. |
+| 2 | Manual GSC follow-through on newest live workflow pages | Recent ships still need inspection and indexing requests where appropriate. | Check the newest live URLs in GSC after deploy propagation and request indexing only after meaningful copy/internal-link updates are live. |
+| 3 | Fresh proof-led watchlist review | If a future lead-follow-up child reappears, it needs a materially different lifecycle stage and explicit surviving proof instead of cluster inertia. | Re-check current routes, prompts, and planning docs for another cluster-level gap before naming any specific new slug. |
