@@ -212,6 +212,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No obligation. No generic pitch. Just a practical conversation about your onboarding workflow.",
   relatedLinks: [
+    { label: "Client onboarding setup for service businesses", href: "/client-onboarding-setup-for-service-businesses" },
     { label: "Intake forms + document collection workflow", href: "/intake-forms-and-document-collection-automation-for-service-businesses" },
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
     { label: "AI email sequence automation", href: "/ai-email-sequence-automation" },

@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/no-show-reduction-roi-small-business` after reconciliation confirmed the no-show reduction cluster still had one clean horizontal gap left: ROI/payback. The new page stays tightly on recovered appointments, cleaner calendar utilization, saved admin time, and the threshold where attendance-protection automation pays back faster than staying manual. Previous: `/no-show-reduction-setup-vs-diy-small-business`.)
+Last updated: 2026-04-29 (shipped `/client-onboarding-setup-for-service-businesses` after reconciliation confirmed the onboarding cluster still had one clean horizontal implementation-layer gap left between the broad parent and narrower child pages: setup scope. The new page stays tightly on deal-won triggers, welcome-sequence timing, intake/document handoff, kickoff scheduling gates, internal task ownership, CRM stage movement, and the point where setup help is worth paying for. Previous: `/no-show-reduction-roi-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 370.
+**Total live GEO pages tracked here:** 371.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -213,6 +213,7 @@ Last updated: 2026-04-29 (shipped `/no-show-reduction-roi-small-business` after 
 | AI for Accounting Firms | `/ai-automation-for-accounting-firms` | Vertical category page | Live |
 | Document Collection (Accounting) | `/document-collection-automation-for-accounting-firms` | Vertical workflow page | Live |
 | Client Onboarding (Accounting) | `/client-onboarding-automation-for-accounting-firms` | Vertical workflow page | Live |
+| Client Onboarding Setup (Service Businesses) | `/client-onboarding-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Intake Forms + Document Collection (Service Businesses) | `/intake-forms-and-document-collection-automation-for-service-businesses` | Workflow child page | Live |
 | What to Automate First (Accounting) | `/what-to-automate-first-for-accounting-firms` | Vertical decision page | Live |
 | Appointment Scheduling (Accounting) | `/appointment-scheduling-and-reminder-automation-for-accounting-firms` | Vertical workflow page | Live |
@@ -383,9 +384,9 @@ Last updated: 2026-04-29 (shipped `/no-show-reduction-roi-small-business` after 
 
 ## Next Pages
 
-This run shipped `/no-show-reduction-roi-small-business` because the no-show reduction horizontal family still had one exact decision-stage gap left after the parent, setup, buy-vs-build, and cost pages were live: whether the attendance-protection workflow actually pays back. The new page stays narrower than the rest of the cluster by focusing only on recovered appointments, cleaner utilization, saved admin time, and cautious payback math.
+This run shipped `/client-onboarding-setup-for-service-businesses` because the onboarding cluster still had one clean horizontal implementation-layer gap after the broad parent and narrower child pages were live: setup scope. The new page stays narrower than the rest of the cluster by focusing only on deal-won triggers, welcome-sequence timing, intake/document handoff, kickoff scheduling gates, internal task ownership, CRM stage movement, and launch mistakes that break onboarding before delivery even starts.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | Broad reconciliation across mature workflow families, with a specific re-check on intake/document-collection horizontal setup/cost/ROI layers before naming a new slug | The no-show horizontal family is now complete. The next page should come from an exact surviving buyer query or another clearly incomplete horizontal layer that still stays distinct from adjacent live pages. |
-| 2 | Existing-page discovery / tracking refresh if no clean new slug survives | If broad reconciliation still yields no clearly distinct page, tighten guides/llm/prompt coverage on the strongest live clusters instead of forcing a thin new page. |
+| 1 | `/client-onboarding-cost-small-business` | The onboarding family now has the broad parent and setup layer live, but still lacks the direct budget page that answers what a clean first onboarding build should cost for a small business. That is the strongest remaining exact buyer query in this cluster. |
+| 2 | `/client-onboarding-setup-vs-diy-small-business` | The same family still lacks the buy-vs-build decision page for owners deciding whether they can wire onboarding triggers, intake handoff, scheduling gates, and CRM stage movement themselves or should pay for setup help. |

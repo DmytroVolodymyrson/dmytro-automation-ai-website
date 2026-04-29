@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 438 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 439 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -99,6 +99,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Voice Agent Setup Mistakes for Small Business** — `/ai-voice-agent-setup-mistakes-small-business`
 - **AI Voice Agent Setup vs. DIY for Small Business** — `/ai-voice-agent-setup-vs-diy-small-business`
 - **Client Onboarding Automation** — `/client-onboarding-automation`
+- **Client Onboarding Setup for Service Businesses** — `/client-onboarding-setup-for-service-businesses`
 - **Client Onboarding Automation for Accounting Firms** — `/client-onboarding-automation-for-accounting-firms`
 - **Intake Forms and Document Collection Automation for Service Businesses** — `/intake-forms-and-document-collection-automation-for-service-businesses`
 - **Client Reactivation Automation for Service Businesses** — `/client-reactivation-automation-for-service-businesses`

@@ -505,6 +505,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Client Onboarding Setup for Service Businesses",
+    description:
+      "Implementation guide for service businesses that already know onboarding automation matters and need the setup layer scoped correctly — deal-won triggers, welcome sequence timing, intake handoff gates, kickoff scheduling, internal task ownership, CRM stage movement, and the launch mistakes that break onboarding workflows.",
+    href: "/client-onboarding-setup-for-service-businesses",
+    category: "workflows",
+  },
+  {
     title: "Intake Forms and Document Collection Automation for Service Businesses",
     description:
       "A narrower onboarding child page focused on intake forms, missing-file reminders, secure upload next steps, and cleaner handoff before the rest of onboarding stalls.",

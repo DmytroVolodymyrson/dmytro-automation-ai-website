@@ -208,6 +208,7 @@ import WhatToAutomateFirstForContractors from "./pages/WhatToAutomateFirstForCon
 import CrmAutomationSetupCostForContractors from "./pages/CrmAutomationSetupCostForContractors";
 import CrmAutomationSetupVsDiyForContractors from "./pages/CrmAutomationSetupVsDiyForContractors";
 import ClientOnboardingAutomation from "./pages/ClientOnboardingAutomation";
+import ClientOnboardingSetupForServiceBusinesses from "./pages/ClientOnboardingSetupForServiceBusinesses";
 import IntakeFormsAndDocumentCollectionAutomationForServiceBusinesses from "./pages/IntakeFormsAndDocumentCollectionAutomationForServiceBusinesses";
 import AiAutomationRoiGuide from "./pages/AiAutomationRoiGuide";
 import AiAutomationRoiCalculator from "./pages/AiAutomationRoiCalculator";
@@ -719,6 +720,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/review-request-automation-for-electrical-contractors", element: <ReviewRequestAutomationForElectricalContractors /> },
   { path: "/client-reactivation-automation-for-electrical-contractors", element: <ClientReactivationAutomationForElectricalContractors /> },
   { path: "/client-onboarding-automation", element: <ClientOnboardingAutomation /> },
+  { path: "/client-onboarding-setup-for-service-businesses", element: <ClientOnboardingSetupForServiceBusinesses /> },
   {
     path: "/intake-forms-and-document-collection-automation-for-service-businesses",
     element: <IntakeFormsAndDocumentCollectionAutomationForServiceBusinesses />,

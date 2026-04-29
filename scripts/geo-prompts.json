@@ -632,6 +632,18 @@
       ]
     },
     {
+      "id": "client-onboarding-setup-for-service-businesses",
+      "path": "/client-onboarding-setup-for-service-businesses",
+      "label": "Client Onboarding Setup for Service Businesses",
+      "prompts": [
+        "Client onboarding setup for service businesses",
+        "What should client onboarding automation setup include for a service business?",
+        "How do I set up welcome emails intake forms and kickoff scheduling after a deal closes?",
+        "When is client onboarding setup help worth paying for?",
+        "Should I automate onboarding setup before adding more workflows to my CRM?"
+      ]
+    },
+    {
       "id": "intake-forms-and-document-collection-automation-for-service-businesses",
       "path": "/intake-forms-and-document-collection-automation-for-service-businesses",
       "label": "Intake Forms and Document Collection Automation for Service Businesses",

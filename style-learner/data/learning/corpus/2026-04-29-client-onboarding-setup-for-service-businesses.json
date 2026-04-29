@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-client-onboarding-setup-for-service-businesses",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Client Onboarding Setup for Service Businesses\nBody: You already know onboarding automation matters. The deal closes, the contract gets signed, and then the real question starts: what should the first automated build actually include? The answer is not everything on the parent page. It is the narrower set of triggers, handoffs, and routing decisions that decide whether onboarding feels reliable or creates more confusion than it solves. A clean first build needs a trustworthy deal-won trigger, a welcome sequence that sets expectations without overwhelming, intake and document collection that chases without nagging, kickoff scheduling that fires at the right moment, internal task ownership so nothing falls through, and CRM stage movement that reflects reality instead of aspirational pipeline status.\nSub: Below: what client onboarding setup actually covers, the trigger and handoff decisions that matter most, the launch mistakes that create inbox chaos or dropped clients, and how to tell whether your business needs focused setup help or a lighter manual path first.\n\n### Core sections\nHeading: What client onboarding setup actually covers\nBody: The page narrows onboarding implementation into five practical setup layers: a reliable deal-won trigger, a welcome sequence with sane drip timing, intake and document-collection handoff rules, kickoff scheduling that waits for completion gates, and internal task ownership for account setup and routing.\n\nHeading: What should be configured before launch\nBody: The page explains why CRM stage movement must reflect real events, how stall detection and re-engagement should work, how timing changes by service tier, and where conditional paths are needed for different client types.\n\nHeading: When setup help is worth paying for — and when it is not\nBody: The fit section separates businesses that need professional setup from those that can stay lighter. Good-fit signals include enough client volume that consistency affects retention, broken sequencing or trigger logic in past DIY attempts, and internal task assignment that still depends on memory. Weak-fit signals include low client volume, genuinely simple onboarding, or broader funnel leaks that still matter more than post-sale setup.\n\nHeading: Common setup mistakes that break onboarding workflows\nBody: The page stays concrete: unreliable deal-won signals, sending every onboarding step on day one, firing kickoff scheduling before intake is complete, and creating internal tasks without real ownership or deadlines.\n\nHeading: Proof and adjacent proof\nBody: The proof framing stays honest. There is no dedicated published onboarding-setup case study. Instead, the page grounds itself in the live client-onboarding parent page, the accounting-firm onboarding child, and the ecommerce CRM case study that already proves trigger-based pipeline movement, sequenced follow-up, and human handoff discipline.\n\n### FAQ\nHeading: What does client onboarding setup involve for a service business?\nBody: A reliable deal-won trigger, welcome sequence timing, intake and document reminders, kickoff scheduling gates, internal task ownership, and CRM stage transitions that track actual progress.\n\nHeading: How is this different from the client onboarding automation page?\nBody: The parent page answers what onboarding automation does and when it fits. This page is narrower and focuses on implementation scope before launch: what gets configured, what breaks, and when setup help is worth paying for.\n\nHeading: How is this different from the intake forms and document collection page?\nBody: The intake page covers one child slice of onboarding. This setup page covers the full first-build implementation layer across welcome, intake, scheduling, routing, and CRM movement.\n\nHeading: When is setup help worth paying for?\nBody: Usually when the business onboards enough clients that inconsistency creates real retention risk, when sequencing and trigger logic are brittle, or when task routing and pipeline movement still depend on manual memory.\n\nHeading: What is the most common setup mistake?\nBody: Sending everything on day one. Clients ignore overloaded welcome messages, and the business ends up re-sending individual items manually anyway.\n\n### Final CTA\nHeading: Want client onboarding set up cleanly the first time?\nBody: Book a 30-minute call. We will look at how new clients enter your workflow today, where handoffs break, what sequencing should look like, and scope the narrowest build that makes onboarding consistent without over-engineering.\nSub: No generic automation pitch. Just a practical setup conversation about your deal-won triggers, welcome sequence timing, intake handoff, and internal task routing.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Keep the page tightly on implementation scope, not the broader case for onboarding automation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Distinguish it clearly from both the parent onboarding page and the narrower intake/doc-collection child page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Use practical setup language: triggers, handoffs, timing, task ownership, stage movement, launch mistakes."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keep proof framing honest; do not imply a direct onboarding-setup case study exists."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Reinforce the onboarding cluster so later cost and setup-vs-DIY children have a clean parent/setup structure to build from."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T19:21:19.281Z",
+    "structure": {
+      "paragraphCount": 12,
+      "sentencesPerParagraph": [
+        6,
+        1,
+        1,
+        3,
+        1,
+        3,
+        2,
+        3,
+        3,
+        2,
+        3,
+        5
+      ],
+      "avgSentenceLength": 21,
+      "sentenceLengthRange": [
+        5,
+        52
+      ],
+      "totalWords": 692
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Client Onboarding Setup for Service Businesses\nBody: You already know onboarding automation matters.",
+      "wordCount": 15,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want client onboarding set up cleanly the first time?\nBody: Book a 30-minute call. We will look at how new clients enter your workflow today, where handoffs break, what sequencing should look like, and scope the narrowest build that makes onboarding consistent without over-engineering.\nSub: No generic automation pitch. Just a practical setup conversation about your deal-won triggers, welcome sequence timing, intake handoff, and internal task routing.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "context",
+        "context",
+        "context",
+        "product-pitch",
+        "context",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | context | context | context | product-pitch | context | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 26,
+      "commas": 51,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 7,
+      "colon": 31,
+      "commasPerSentence": 1.55
+    },
+    "vocabulary": {
+      "distinctWords": 300,
+      "totalWords": 692,
+      "topWords": [
+        [
+          "that",
+          18
+        ],
+        [
+          "onboarding",
+          16
+        ],
+        [
+          "setup",
+          16
+        ],
+        [
+          "heading",
+          12
+        ],
+        [
+          "body",
+          12
+        ],
+        [
+          "page",
+          12
+        ],
+        [
+          "what",
+          10
+        ],
+        [
+          "client",
+          9
+        ],
+        [
+          "intake",
+          8
+        ],
+        [
+          "when",
+          8
+        ],
+        [
+          "trigger",
+          6
+        ],
+        [
+          "welcome",
+          6
+        ],
+        [
+          "internal",
+          6
+        ],
+        [
+          "task",
+          6
+        ],
+        [
+          "how",
+          6
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.001
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

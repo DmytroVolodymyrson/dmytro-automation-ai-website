@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-29T18:58:07.186Z",
-  "postCount": 550,
+  "updatedAt": "2026-04-29T19:21:19.361Z",
+  "postCount": 551,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,25 +15,25 @@
       "max": 13,
       "p25": 4,
       "p75": 4,
-      "samples": 550
+      "samples": 551
     },
     "sentenceLength": {
       "mean": 23.7,
-      "median": 24.15,
+      "median": 24.1,
       "min": 7.1,
       "max": 105,
       "p25": 19.5,
       "p75": 27.6,
-      "samples": 550
+      "samples": 551
     },
     "totalWords": {
-      "mean": 335.6,
-      "median": 336.5,
+      "mean": 336.2,
+      "median": 337,
       "min": 17,
       "max": 1155,
       "p25": 281,
       "p75": 374,
-      "samples": 550
+      "samples": 551
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -128,6 +128,7 @@
       "single | short | long | single | long": 1,
       "long | single | long | short": 1,
       "single | short | long | single": 1,
+      "long | single | single | long | single | long | short | long | long | short | long | long": 1,
       "single | single": 1,
       "single | short": 1,
       "long | single": 2,
@@ -209,10 +210,10 @@
       "opener | product-pitch | result | product-pitch | closer": 1,
       "opener | product-pitch | product-pitch | product-pitch | result | closer": 1,
       "opener | result | result | product-pitch | closer": 1,
+      "opener | context | product-pitch | context | context | context | product-pitch | context | context | context | context | closer": 2,
       "opener | context | context | result | closer": 1,
       "opener | context | context | context | result | context | context | context | context | context | context | context | closer": 1,
       "opener | result | result | result | result | result | result | context | context | result | result | closer": 1,
-      "opener | context | product-pitch | context | context | context | product-pitch | context | context | context | context | closer": 1,
       "opener | context | product-pitch | context | context | result | context | product-pitch | context | context | context | closer": 1,
       "opener | context | product-pitch | product-pitch | context | result | context | product-pitch | context | context | context | closer": 1
     }
@@ -220,7 +221,7 @@
   "openers": {
     "patterns": {
       "situation": {
-        "count": 117,
+        "count": 118,
         "examples": [
           "Badge: The Person Behind the Automation",
           "Section heading: Common Questions\nSubheading: Straight answers about working wit",
@@ -271,7 +272,7 @@
         ]
       },
       "question": {
-        "count": 453,
+        "count": 454,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -316,7 +317,7 @@
       ],
       [
         "what",
-        1984
+        1994
       ],
       [
         "automation",
@@ -332,11 +333,11 @@
       ],
       [
         "how",
-        1106
+        1112
       ],
       [
         "page",
-        1065
+        1077
       ],
       [
         "it",
@@ -344,7 +345,7 @@
       ],
       [
         "when",
-        964
+        972
       ],
       [
         "this",
@@ -392,7 +393,7 @@
       ],
       [
         "that",
-        473
+        491
       ],
       [
         "missed-call",
@@ -408,19 +409,19 @@
       ],
       [
         "heading",
-        426
+        438
       ],
       [
         "setup",
-        413
+        429
+      ],
+      [
+        "body",
+        392
       ],
       [
         "not",
         384
-      ],
-      [
-        "body",
-        380
       ],
       [
         "lead",
