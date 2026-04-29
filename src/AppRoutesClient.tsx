@@ -281,6 +281,7 @@ const ReferralRequestAutomationForServiceBusinesses = lazy(() => import("./pages
 const ReviewRequestVsReferralRequestForServiceBusinesses = lazy(() => import("./pages/ReviewRequestVsReferralRequestForServiceBusinesses"));
 const MissedCallTextBackForServiceBusinesses = lazy(() => import("./pages/MissedCallTextBackForServiceBusinesses"));
 const EstimateFollowUpAutomationForServiceBusinesses = lazy(() => import("./pages/EstimateFollowUpAutomationForServiceBusinesses"));
+const EstimateFollowUpSetupForServiceBusinesses = lazy(() => import("./pages/EstimateFollowUpSetupForServiceBusinesses"));
 const EstimateFollowUpCostSmallBusiness = lazy(() => import("./pages/EstimateFollowUpCostSmallBusiness"));
 const EstimateFollowUpRoiSmallBusiness = lazy(() => import("./pages/EstimateFollowUpRoiSmallBusiness"));
 const EstimateFollowUpVsQuoteFollowUpForServiceBusinesses = lazy(() => import("./pages/EstimateFollowUpVsQuoteFollowUpForServiceBusinesses"));
@@ -738,6 +739,7 @@ const AppRoutesClient = () => (
       <Route path="/review-request-vs-referral-request-for-service-businesses" element={<ReviewRequestVsReferralRequestForServiceBusinesses />} />
       <Route path="/missed-call-text-back-for-service-businesses" element={<MissedCallTextBackForServiceBusinesses />} />
       <Route path="/estimate-follow-up-automation-for-service-businesses" element={<EstimateFollowUpAutomationForServiceBusinesses />} />
+      <Route path="/estimate-follow-up-setup-for-service-businesses" element={<EstimateFollowUpSetupForServiceBusinesses />} />
       <Route path="/estimate-follow-up-cost-small-business" element={<EstimateFollowUpCostSmallBusiness />} />
       <Route path="/estimate-follow-up-roi-small-business" element={<EstimateFollowUpRoiSmallBusiness />} />
       <Route path="/estimate-follow-up-vs-quote-follow-up-for-service-businesses" element={<EstimateFollowUpVsQuoteFollowUpForServiceBusinesses />} />

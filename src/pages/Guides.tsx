@@ -778,6 +778,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Estimate Follow-Up Setup for Service Businesses",
+    description:
+      "What goes into estimate follow-up setup for a service business? Estimate-stage triggers, CRM mapping, stale-estimate thresholds, estimator-to-office handoff, stop rules, reply routing, and testing before launch.",
+    href: "/estimate-follow-up-setup-for-service-businesses",
+    category: "workflows",
+  },
+  {
     title: "Estimate Follow-Up Cost for Small Business",
     description:
       "Pricing guide for the narrow estimate-recovery layer — realistic build ranges for estimate-sent triggers, stage-based reminders, stale-estimate escalation, CRM routing, and estimator-to-office handoff after the site visit.",

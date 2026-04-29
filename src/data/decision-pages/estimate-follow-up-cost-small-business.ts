@@ -191,6 +191,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "Estimate follow-up automation for service businesses", href: "/estimate-follow-up-automation-for-service-businesses" },
+        { label: "Estimate follow-up setup for service businesses", href: "/estimate-follow-up-setup-for-service-businesses" },
         { label: "Estimate follow-up ROI for small business", href: "/estimate-follow-up-roi-small-business" },
         { label: "Estimate follow-up vs. quote follow-up", href: "/estimate-follow-up-vs-quote-follow-up-for-service-businesses" },
         { label: "Quote follow-up automation for service businesses", href: "/quote-follow-up-automation-for-service-businesses" },
@@ -257,6 +258,7 @@ const data: DecisionPageData = {
     "No padded proposal. Just a practical scope and cost discussion for the estimate-recovery gap.",
   relatedLinks: [
     { label: "Estimate follow-up automation for service businesses", href: "/estimate-follow-up-automation-for-service-businesses" },
+    { label: "Estimate follow-up setup for service businesses", href: "/estimate-follow-up-setup-for-service-businesses" },
     { label: "Estimate follow-up ROI for small business", href: "/estimate-follow-up-roi-small-business" },
     { label: "Estimate follow-up vs. quote follow-up", href: "/estimate-follow-up-vs-quote-follow-up-for-service-businesses" },
     { label: "Quote follow-up automation for service businesses", href: "/quote-follow-up-automation-for-service-businesses" },

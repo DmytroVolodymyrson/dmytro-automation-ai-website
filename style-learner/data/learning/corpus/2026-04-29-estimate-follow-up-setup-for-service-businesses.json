@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-estimate-follow-up-setup-for-service-businesses",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Estimate Follow-Up Setup for Service Businesses\nBody: Most estimate follow-up systems do not fail because the reminder copy was weak. They fail because the setup was shallow. The estimate-sent trigger is inconsistent, nobody agreed on what counts as stale, the office cannot tell which estimator owns the next step, replies land in the wrong place, and the workflow goes live before anyone tests what happens when a customer asks for revisions instead of simply saying yes. Estimate follow-up setup for service businesses is the work that prevents that mess. It defines when the workflow should start, what the office and estimator each own, how long an estimate can sit before escalation, which replies should stop automation immediately, and how the CRM should reflect the real state of the opportunity before launch.\nSub: Below: what estimate follow-up setup actually includes, what should be configured before the workflow goes live, when setup help is worth paying for, and how this page stays distinct from the parent, cost, ROI, and comparison pages in the same cluster.\n\n### Core sections\n- What estimate follow-up setup actually covers\n- What should be configured before launch\n- When setup help is worth paying for — and when it is not\n- The setup mistakes that usually break estimate recovery\n- Proof and adjacent proof\n\n### FAQ\nSubhead: Practical questions from service business owners evaluating estimate-follow-up implementation\nTopics: what estimate follow-up setup involves, how this differs from the parent page, how it differs from the cost and ROI pages, when setup help is worth paying for, and the most common setup mistake.\n\n### Final CTA\nHeading: Want estimate follow-up set up before more open quotes go stale?\nBody: Book a 30-minute call. We will look at how your business sends estimates today, where ownership breaks between the field and the office, and scope the narrowest setup that gets disciplined estimate recovery live without overbuilding.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the cross-industry setup-help child inside the estimate-follow-up cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the estimate-follow-up parent, cost page, ROI page, and estimate-vs-quote comparison were already live, but the cluster still lacked the implementation-intent page about what has to be configured before launch."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays distinct from `/estimate-follow-up-automation-for-service-businesses` by focusing on trigger quality, ownership, stale thresholds, routing, and testing instead of the broader workflow itself."
+    },
+    {
+      "type": "tone_shift",
+      "description": "It stays distinct from `/estimate-follow-up-cost-small-business` and `/estimate-follow-up-roi-small-business` by focusing on build quality and launch readiness instead of budget or payback math."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live estimate-follow-up cluster, contractor CRM setup pages, and the published WheelsFeels CRM case study support the setup guidance without pretending there is already a dedicated estimate-follow-up setup case study on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: bounded scope, fit / not-fit framing, field-to-office coordination, and clear warnings against launching automation before the estimate-sent trigger is reliable."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T07:09:45.151Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 28.6,
+      "sentenceLengthRange": [
+        5,
+        49
+      ],
+      "totalWords": 315
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Estimate Follow-Up Setup for Service Businesses\nBody: Most estimate follow-up systems do not fail because the reminder copy was weak.",
+      "wordCount": 22,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want estimate follow-up set up before more open quotes go stale?\nBody: Book a 30-minute call. We will look at how your business sends estimates today, where ownership breaks between the field and the office, and scope the narrowest setup that gets disciplined estimate recovery live without overbuilding.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 20,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 2
+    },
+    "vocabulary": {
+      "distinctWords": 165,
+      "totalWords": 315,
+      "topWords": [
+        [
+          "setup",
+          12
+        ],
+        [
+          "estimate",
+          10
+        ],
+        [
+          "what",
+          8
+        ],
+        [
+          "follow-up",
+          7
+        ],
+        [
+          "before",
+          6
+        ],
+        [
+          "when",
+          6
+        ],
+        [
+          "how",
+          6
+        ],
+        [
+          "should",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "service",
+          3
+        ],
+        [
+          "office",
+          3
+        ],
+        [
+          "workflow",
+          3
+        ],
+        [
+          "live",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 6,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 6,
+      "patterns": []
+    }
+  }
+}

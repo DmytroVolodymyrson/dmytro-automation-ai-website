@@ -250,6 +250,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "Estimate follow-up automation for service businesses", href: "/estimate-follow-up-automation-for-service-businesses" },
+        { label: "Estimate follow-up setup for service businesses", href: "/estimate-follow-up-setup-for-service-businesses" },
         { label: "Quote follow-up automation for service businesses", href: "/quote-follow-up-automation-for-service-businesses" },
         { label: "Quote follow-up automation for insurance agencies", href: "/quote-follow-up-automation-for-insurance-agencies" },
         { label: "Estimate follow-up for contractors", href: "/estimate-follow-up-automation-for-contractors" },
@@ -292,6 +293,7 @@ const data: DecisionPageData = {
     "No fake precision and no pressure to overbuild. Just a practical recommendation based on your current process, pipeline shape, and who actually owns the next move after pricing goes out.",
   relatedLinks: [
     { label: "Estimate follow-up automation for service businesses", href: "/estimate-follow-up-automation-for-service-businesses" },
+    { label: "Estimate follow-up setup for service businesses", href: "/estimate-follow-up-setup-for-service-businesses" },
     { label: "Estimate follow-up ROI for small business", href: "/estimate-follow-up-roi-small-business" },
     { label: "Quote follow-up automation for service businesses", href: "/quote-follow-up-automation-for-service-businesses" },
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },

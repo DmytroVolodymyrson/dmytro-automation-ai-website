@@ -2216,6 +2216,18 @@
       ]
     },
     {
+      "id": "estimate-follow-up-setup-for-service-businesses",
+      "path": "/estimate-follow-up-setup-for-service-businesses",
+      "label": "Estimate Follow-Up Setup for Service Businesses",
+      "prompts": [
+        "What does estimate follow-up setup involve for a service business?",
+        "How do I set up estimate follow-up automation after a site visit?",
+        "What should be configured before estimate follow-up automation goes live?",
+        "When is professional setup help worth paying for in estimate follow-up automation?",
+        "How should a service business handle estimate-stage triggers, stale-estimate thresholds, and reply routing before launch?"
+      ]
+    },
+    {
       "id": "estimate-follow-up-cost-small-business",
       "path": "/estimate-follow-up-cost-small-business",
       "label": "Estimate Follow-Up Cost for Small Business",
