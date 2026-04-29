@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-ai-appointment-setter-industry-routing",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Section heading\nWhich businesses benefit most from an AI appointment setter?\n\n### Intro\nAI appointment setters work best where revenue depends on booked appointments and where missed or slow first contact is already leaking money. The pattern is similar across industries, but the first build should still match the operating model.\n\n### Industry cards\n- **Medical and dental practices** — Patient scheduling, intake screening, and reminder timing. The first build usually covers new-patient qualification and no-show reduction before you add recall or reactivation layers.\n- **Home services (HVAC, plumbing, electrical)** — Service-call booking, estimate requests, and dispatch routing. After-hours phone coverage is often the highest-ROI first project because missed calls can turn into same-day lost jobs.\n- **Med spas and salons** — Consultation booking, confirmations, and waitlist management. Reminder sequences and no-show handling often recover ROI before a heavier front-desk replacement build is necessary.\n- **Law firms and financial services** — Consultation booking, lead qualification, and follow-up. These teams usually need the AI to screen for urgency and fit before it offers a calendar slot.\n- **Real estate teams** — Showing scheduling, buyer or seller qualification, and lead-response speed. The biggest win is often instant response to new inquiries before the lead talks to another agent.\n- **Fitness and wellness studios** — Class booking, trial-session scheduling, and personal-training follow-up. Volume-based businesses benefit most because even small no-show reductions compound across dozens of daily slots.\n\n### Routing note\nIf your industry is not listed, use the fit/not-a-fit checklist below and compare the top AI automations for service businesses before assuming a full appointment setter is the first workflow you need.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Bounded refresh for an existing zero-visibility priority page, not a net-new URL."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the tone practical and buyer-facing: no abstract industry claims, just the first workflow layer that usually matters."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Adds clearer industry-context language so the page is easier for crawlers and answer engines to classify."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses direct internal-link routing into live cluster pages instead of generic descriptive cards."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "Structural support also added through BreadcrumbList schema so the page reads more like a guide-hub child, not an isolated explainer."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T14:25:39.256Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        1,
+        2,
+        12,
+        1
+      ],
+      "avgSentenceLength": 16.3,
+      "sentenceLengthRange": [
+        11,
+        34
+      ],
+      "totalWords": 260
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Section heading\nWhich businesses benefit most from an AI appointment setter?",
+      "wordCount": 11,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Routing note\nIf your industry is not listed, use the fit/not-a-fit checklist below and compare the top AI automations for service businesses before assuming a full appointment setter is the first workflow you need.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | result | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 15,
+      "commas": 16,
+      "emDashes": 6,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 0,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 172,
+      "totalWords": 260,
+      "topWords": [
+        [
+          "-",
+          6
+        ],
+        [
+          "first",
+          5
+        ],
+        [
+          "before",
+          5
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "booking",
+          4
+        ],
+        [
+          "businesses",
+          3
+        ],
+        [
+          "appointment",
+          3
+        ],
+        [
+          "build",
+          3
+        ],
+        [
+          "scheduling",
+          3
+        ],
+        [
+          "qualification",
+          3
+        ],
+        [
+          "no-show",
+          3
+        ],
+        [
+          "often",
+          3
+        ],
+        [
+          "benefit",
+          2
+        ],
+        [
+          "most",
+          2
+        ],
+        [
+          "setter",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

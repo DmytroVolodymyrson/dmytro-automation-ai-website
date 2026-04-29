@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-29T14:03:32.543Z",
-  "postCount": 533,
+  "updatedAt": "2026-04-29T14:25:39.322Z",
+  "postCount": 534,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,25 +15,25 @@
       "max": 12,
       "p25": 4,
       "p75": 4,
-      "samples": 533
+      "samples": 534
     },
     "sentenceLength": {
       "mean": 23.7,
-      "median": 24.2,
+      "median": 24.15,
       "min": 7.1,
       "max": 105,
       "p25": 19.5,
       "p75": 27.5,
-      "samples": 533
+      "samples": 534
     },
     "totalWords": {
-      "mean": 332.2,
+      "mean": 332.1,
       "median": 335,
       "min": 17,
       "max": 1155,
-      "p25": 282,
+      "p25": 281,
       "p75": 372,
-      "samples": 533
+      "samples": 534
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -127,6 +127,7 @@
       "long | long | long | long | long | single": 1,
       "single | short | long | single | long": 1,
       "long | single | long | short": 1,
+      "single | short | long | single": 1,
       "single | single": 1,
       "single | short": 1,
       "long | single": 1,
@@ -169,7 +170,7 @@
       "opener | context | result | context | context | context | context | context | result | closer": 1,
       "opener | context | context | context | closer": 9,
       "opener | context | result | closer": 86,
-      "opener | result | product-pitch | closer": 3,
+      "opener | result | product-pitch | closer": 4,
       "opener | context | context | context | context | context | context | context | closer": 6,
       "opener | context | context | context | context | result | context | result | closer": 1,
       "opener | context | context | context | context | context | context | result | closer": 5,
@@ -233,7 +234,7 @@
         ]
       },
       "question": {
-        "count": 28,
+        "count": 29,
         "examples": [
           "Q: What kind of businesses do you work with?",
           "### Hero\nBadge: AI Automation Consulting\nHeading: Do you actually need an AI aut",
@@ -252,7 +253,7 @@
   "closers": {
     "patterns": {
       "reflection": {
-        "count": 80,
+        "count": 81,
         "examples": [
           "Stats:\n- 7+ Years building software\n- 50+ Automations built\n- $100K+ Saved for c",
           "Social proof pills:\n- 10+ hrs/week saved\n- 300%+ ROI\n- 24/7 automation",
@@ -301,7 +302,7 @@
     "topWords": [
       [
         "-",
-        3587
+        3593
       ],
       [
         "what",
@@ -313,7 +314,7 @@
       ],
       [
         "ai",
-        1165
+        1169
       ],
       [
         "workflow",
@@ -353,7 +354,7 @@
       ],
       [
         "first",
-        689
+        694
       ],
       [
         "your",
