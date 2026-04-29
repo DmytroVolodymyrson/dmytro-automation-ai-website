@@ -262,6 +262,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No obligation. No generic pitch. Just a practical conversation about turning old projects into repeat work and better referrals.",
   relatedLinks: [
+    { label: "Seasonal campaign automation for painting contractors", href: "/seasonal-campaign-automation-for-painting-contractors" },
     { label: "AI automation for painting contractors", href: "/ai-automation-for-painting-contractors" },
     { label: "What to automate first for painting contractors", href: "/what-to-automate-first-for-painting-contractors" },
     { label: "Client reactivation automation", href: "/client-reactivation-automation" },

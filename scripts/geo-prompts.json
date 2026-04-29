@@ -3944,6 +3944,18 @@
       ]
     },
     {
+      "id": "seasonal-campaign-automation-for-painting-contractors",
+      "path": "/seasonal-campaign-automation-for-painting-contractors",
+      "label": "Seasonal Campaign Automation for Painting Contractors",
+      "prompts": [
+        "Seasonal campaign automation for painting contractors",
+        "How do painting contractors time exterior repaint season outreach to past clients?",
+        "Best way for a painting company to automate before-holidays interior refresh campaigns",
+        "How should a painting contractor reactivate dormant clients before exterior painting season?",
+        "When should a painting company send seasonal outreach for exterior vs interior work?"
+      ]
+    },
+    {
       "id": "estimate-follow-up-automation-for-painting-contractors",
       "path": "/estimate-follow-up-automation-for-painting-contractors",
       "label": "Estimate Follow-Up Automation for Painting Contractors",

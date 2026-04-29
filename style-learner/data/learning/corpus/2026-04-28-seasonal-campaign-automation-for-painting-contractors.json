@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-seasonal-campaign-automation-for-painting-contractors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: Seasonal Campaign Automation for Painting Contractors\nBody: Painting contractors do not mainly lose seasonal revenue because they forgot how to paint. They lose it because the right outreach happens too late. Exterior repaint campaigns go out after homeowners already called another painter. Interior refresh reminders land after the holidays passed and the window closed. Dormant clients who hired your company last year never hear from you before the next season starts. Seasonal campaign automation for painting contractors fixes that narrower workflow. It uses past-project history, realistic repaint timing windows, and cleaner handoff rules to bring the right clients back into conversation before the demand window passes.\nSub: Below: what this painting-company seasonal workflow should actually handle, how it stays distinct from the broader painting parent page and the client reactivation child page already live, what guardrails matter, and what adjacent proof honestly supports it.\n\n### Core sections\n- What seasonal campaign automation should actually handle\n- How this page stays distinct inside the painting cluster\n- Is this a good fit for your painting company?\n- Guardrails that keep seasonal campaigns useful instead of noisy\n- How a practical painting-company seasonal campaign workflow usually works\n- What proof supports this page\n\n### FAQ\nSubhead: Practical questions about seasonal campaign workflows for painting contractors\nTopics: how this differs from client reactivation automation, when seasonal campaign automation is the right first painting project, which painting services fit best in seasonal campaigns, what a focused seasonal-campaign build usually costs, and how to avoid annoying past clients with bad timing.\n\n### Final CTA\nHeading: Want seasonal painting demand to show up before the rush instead of after it?\nBody: Book a 30-minute call. We will look at your past-client base, seasonal service mix, and where timing is leaking revenue, then map out whether a focused seasonal campaign workflow is the cleanest automation to build next.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the seasonal-outreach child inside the painting cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the painting cluster already covered the broad parent, first-project framing, lead follow-up, estimate follow-up, client reactivation, review requests, referral requests, and the full phone-recovery stack, but still lacked the dedicated page for timed seasonal campaigns that the parent page explicitly isolated."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/client-reactivation-automation-for-painting-contractors` by focusing on campaign timing around exterior repaint season, interior refresh windows, before-holidays outreach, and seasonal dormant-client recovery rather than year-round repeat-project nurture."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live painting cluster, the painting reactivation child, and the published pool-service seasonal-outreach page support the workflow logic without pretending there is already a dedicated painting seasonal-campaign case study on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fit / not-fit framing, explicit timing guardrails, and clear separation from estimate follow-up, broad reactivation, and generic newsletter blasting."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T01:00:38.562Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 22.1,
+      "sentenceLengthRange": [
+        5,
+        54
+      ],
+      "totalWords": 310
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Seasonal Campaign Automation for Painting Contractors\nBody: Painting contractors do not mainly lose seasonal revenue because they forgot how to paint.",
+      "wordCount": 23,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want seasonal painting demand to show up before the rush instead of after it?\nBody: Book a 30-minute call. We will look at your past-client base, seasonal service mix, and where timing is leaking revenue, then map out whether a focused seasonal campaign workflow is the cleanest automation to build next.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 12,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 0.92
+    },
+    "vocabulary": {
+      "distinctWords": 168,
+      "totalWords": 310,
+      "topWords": [
+        [
+          "seasonal",
+          13
+        ],
+        [
+          "painting",
+          10
+        ],
+        [
+          "campaign",
+          7
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "how",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "it",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "contractors",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "right",
+          3
+        ],
+        [
+          "campaigns",
+          3
+        ],
+        [
+          "after",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.01
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

@@ -2783,6 +2783,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Seasonal Campaign Automation for Painting Contractors",
+    description:
+      "Timed seasonal outreach for painting contractors — exterior repaint season campaigns, interior refresh windows, before-holidays outreach, dormant past-client reactivation tied to seasonal demand peaks, and office handoff when warm replies come back.",
+    href: "/seasonal-campaign-automation-for-painting-contractors",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Painting Contractors",
     description:
       "Scoping guide for painting contractors deciding whether the first automation should be missed-call recovery, instant lead response, estimate follow-up, or past-client reactivation before a broader rollout.",

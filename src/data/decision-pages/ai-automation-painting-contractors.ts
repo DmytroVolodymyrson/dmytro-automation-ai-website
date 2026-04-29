@@ -188,10 +188,10 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No obligation. No generic pitch. Just a practical conversation about your painting business.",
   relatedLinks: [
+    { label: "Seasonal campaign automation for painting contractors", href: "/seasonal-campaign-automation-for-painting-contractors" },
+    { label: "Client reactivation automation for painting contractors", href: "/client-reactivation-automation-for-painting-contractors" },
+    { label: "What to automate first for painting contractors", href: "/what-to-automate-first-for-painting-contractors" },
     { label: "AI automation for roofing companies", href: "/ai-automation-for-roofing-companies" },
-    { label: "AI automation for landscaping companies", href: "/ai-automation-for-landscaping-companies" },
-    { label: "Quote follow-up automation", href: "/quote-follow-up-automation" },
-    { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
     { label: "All guides", href: "/guides" },
   ],
 };

@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/referral-request-automation-for-roofing-companies` — a new roofing child page covering post-job referral timing, review-vs-referral separation, neighbor/second-property opportunities, and fast routing when a happy client surfaces another live roofing need. Stays distinct from the live roofing parent, review-request, scheduling, estimate-follow-up, reactivation, and phone pages by focusing narrowly on the advocacy/referral layer after the job is already done. Previous: `/appointment-scheduling-and-reminder-automation-for-insurance-agencies`.)
+Last updated: 2026-04-28 (shipped `/seasonal-campaign-automation-for-painting-contractors` — a new painting child page covering timed seasonal campaigns: exterior repaint season outreach, interior refresh windows, before-holidays campaigns, dormant past-client seasonal reactivation, and office handoff. Stays distinct from the live painting parent and the client-reactivation child by focusing narrowly on campaign timing around seasonal demand peaks rather than year-round dormant-client outreach. Previous: `/referral-request-automation-for-roofing-companies`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 327.
+**Total live GEO pages tracked here:** 328.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -268,6 +268,7 @@ Last updated: 2026-04-28 (shipped `/referral-request-automation-for-roofing-comp
 | Missed Call Text-Back (Painting) | `/missed-call-text-back-for-painting-contractors` | Vertical workflow page | Live |
 | Review Automation (Painting) | `/review-request-automation-for-painting-contractors` | Vertical workflow page | Live |
 | Referral Request (Painting) | `/referral-request-automation-for-painting-contractors` | Vertical workflow page | Live |
+| Seasonal Campaigns (Painting) | `/seasonal-campaign-automation-for-painting-contractors` | Vertical workflow page | Live |
 | AI for Pest Control Companies | `/ai-automation-for-pest-control-companies` | Vertical category page | Live |
 | AI for Pool Service Companies | `/ai-automation-for-pool-service-companies` | Vertical category page | Live |
 | What to Automate First (Pool Service) | `/what-to-automate-first-for-pool-service-companies` | Vertical decision page | Live |
@@ -339,15 +340,15 @@ Last updated: 2026-04-28 (shipped `/referral-request-automation-for-roofing-comp
 
 ## Next Pages
 
-This run shipped `/referral-request-automation-for-roofing-companies`. The roofing cluster now covers the broad parent, first-project framing, estimate follow-up, insurance-claim follow-up, scheduling, review requests, client reactivation, and the full phone-recovery stack. That removes the cleanest remaining post-job advocacy gap in the roofing cluster.
+This run shipped `/seasonal-campaign-automation-for-painting-contractors`. The painting cluster now covers the broad parent, first-project framing, lead follow-up, estimate follow-up, client reactivation, seasonal campaigns, review requests, referral requests, and the full phone-recovery stack. That fills the seasonal-campaign gap that the parent page explicitly isolated as a distinct workflow family.
 
 The next run should:
 
 1. **Start from a fresh broad reconciliation before naming the next net-new page.** The repo is dense enough that stale docs can still over-credit a cluster or make an already-live page look missing.
-2. **Keep manual GSC follow-through moving** on the newest roofing, insurance, and law-firm ships instead of treating publish alone as the finish line.
-3. **Bias toward the next clean cross-cluster workflow gap rather than forcing another same-cluster roofing child by inertia.** If reconciliation still points back to roofing, prove that a materially distinct lifecycle stage remains.
+2. **Keep manual GSC follow-through moving** on the newest painting, roofing, insurance, and law-firm ships instead of treating publish alone as the finish line.
+3. **Bias toward the next clean cross-cluster workflow gap rather than forcing another same-cluster child by inertia.** If reconciliation still points back to painting or roofing, prove that a materially distinct lifecycle stage remains.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Fresh broad reconciliation before another net-new page | The roofing cluster is now deep enough that the next best candidate is more likely a distinct workflow gap in another cluster rather than another roofing child. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
-| 2 | Manual GSC follow-through on refreshed priority URLs and the newest roofing/insurance/law-firm ships | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |
+| 1 | Fresh broad reconciliation before another net-new page | Both the painting and roofing clusters are now deep. The next best candidate is more likely a distinct workflow gap in another cluster. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
+| 2 | Manual GSC follow-through on refreshed priority URLs and the newest painting/roofing/insurance/law-firm ships | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |

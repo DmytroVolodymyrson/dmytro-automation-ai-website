@@ -289,9 +289,9 @@ const data: DecisionPageData = {
     "No generic pitch. Just a practical recommendation based on your actual workflow, seasonality, and current follow-through.",
   relatedLinks: [
     { label: "AI automation for painting contractors", href: "/ai-automation-for-painting-contractors" },
+    { label: "Seasonal campaign automation for painting contractors", href: "/seasonal-campaign-automation-for-painting-contractors" },
     { label: "Estimate follow-up automation for painting contractors", href: "/estimate-follow-up-automation-for-painting-contractors" },
-    { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
-    { label: "Client reactivation automation", href: "/client-reactivation-automation" },
+    { label: "Client reactivation automation for painting contractors", href: "/client-reactivation-automation-for-painting-contractors" },
     { label: "All guides", href: "/guides" },
   ],
 };
