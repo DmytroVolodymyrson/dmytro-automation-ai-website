@@ -216,6 +216,7 @@ const data: DecisionPageData = {
     "No generic scheduling-tech pitch. Just a practical setup conversation about your booking triggers, reminder cadence, reschedule handling, and attendance workflow ownership.",
   relatedLinks: [
     { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
+    { label: "No-show reduction cost for small business", href: "/no-show-reduction-cost-small-business" },
     { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
     { label: "Appointment scheduling and reminder automation", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
     { label: "AI appointment setter", href: "/ai-appointment-setter" },

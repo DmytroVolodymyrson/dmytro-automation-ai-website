@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/no-show-reduction-setup-for-service-businesses` after reconciliation confirmed the no-show reduction cluster already had the horizontal parent and five vertical child pages live but still lacked the setup-help layer. The new page stays narrowly on implementation scope: trustworthy booking-confirmed triggers, reminder timing by appointment type, reschedule routing, deposit rules, CRM visibility, and when setup help is worth paying for before attendance workflows go live. Previous: `/referral-request-automation-setup-vs-diy-small-business`.)
+Last updated: 2026-04-29 (shipped `/no-show-reduction-cost-small-business` after reconciliation confirmed the no-show reduction cluster still had a clean horizontal pricing child left after the new setup page. The new page stays narrowly on budgeting the attendance-protection layer itself — confirmations, reminder timing, reschedule routing, deposit logic, CRM visibility, and post-no-show recovery — without drifting into a broader scheduling rebuild. Previous: `/no-show-reduction-setup-for-service-businesses`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 367.
+**Total live GEO pages tracked here:** 368.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -377,12 +377,13 @@ Last updated: 2026-04-29 (shipped `/no-show-reduction-setup-for-service-business
 | Insurance Claim Follow-Up (Roofing) | `/insurance-claim-follow-up-for-roofing-companies` | Vertical workflow page | Live |
 | Referral Request Automation (Roofing) | `/referral-request-automation-for-roofing-companies` | Vertical workflow page | Live |
 | No-Show Reduction Setup (Service Businesses) | `/no-show-reduction-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| No-Show Reduction Cost (SMB) | `/no-show-reduction-cost-small-business` | Workflow / cost page | Live |
 
 ## Next Pages
 
-This run shipped `/no-show-reduction-setup-for-service-businesses` because the no-show reduction cluster already had the horizontal parent and five vertical child pages live, but still lacked the setup-help layer that answers the next practical buyer question: what a clean attendance-protection build should actually include before launch. The new page stays narrower than both the no-show parent and the broader scheduling/reminder page by focusing on implementation scope itself — booking-confirmed triggers, reminder timing by appointment type, reschedule routing, deposit logic, CRM visibility, and the launch mistakes that usually break attendance workflows.
+This run shipped `/no-show-reduction-cost-small-business` because the no-show reduction cluster still had one clean horizontal child left after setup: the budgeting page buyers reach once they already know attendance protection matters but need realistic price ranges before committing. The new page stays narrower than the no-show parent, the setup page, and the broader scheduling/reminder parent by focusing only on the economics of confirmations, reminder timing, reschedule handling, deposit rules, CRM visibility, and post-no-show recovery.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | Broad reconciliation across the no-show cluster and other mature workflow families | Next-best ship should still come from an exact surviving buyer query or a clearly incomplete horizontal cluster layer, not a guessed same-cluster sibling. Check whether no-show reduction still supports a clean cost, ROI, or buy-vs-build child before forcing another same-cluster page. |
+| 1 | Broad reconciliation across the remaining no-show cluster layers and other mature workflow families | The next-best ship should still come from an exact surviving buyer query or a clearly incomplete horizontal layer. Re-check whether no-show reduction still supports a distinct ROI or setup-vs-DIY child before forcing another same-cluster page. |
 | 2 | Existing-page discovery / tracking refresh if no clean new slug survives | If no clearly distinct page remains after reconciliation, tighten guides/llm/prompt coverage on the strongest live clusters instead of creating a thin page. |

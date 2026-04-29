@@ -2588,6 +2588,18 @@
       ]
     },
     {
+      "id": "no-show-reduction-cost-small-business",
+      "path": "/no-show-reduction-cost-small-business",
+      "label": "No-Show Reduction Automation Cost for Small Business",
+      "prompts": [
+        "What does no-show reduction automation cost for a small business?",
+        "How much should a small business budget for no-show reduction automation?",
+        "What affects the price of no-show reduction reminders confirmations and reschedule workflows?",
+        "Is no-show reduction automation worth paying for before a broader scheduling rebuild?",
+        "How much does deposit logic or CRM visibility add to no-show reduction automation cost?"
+      ]
+    },
+    {
       "id": "client-reactivation-cost-small-business",
       "path": "/client-reactivation-cost-small-business",
       "label": "Client Reactivation Cost for Small Business",

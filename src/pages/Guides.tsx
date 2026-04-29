@@ -1002,6 +1002,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "No-Show Reduction Automation Cost for Small Business",
+    description:
+      "Pricing guide for service businesses budgeting confirmations, reminder timing, reschedule routing, deposit rules, and attendance-protection workflows without overbuying a broader scheduling rebuild.",
+    href: "/no-show-reduction-cost-small-business",
+    category: "workflows",
+  },
+  {
     title: "CRM Automation Examples for Small Business",
     description:
       "Practical CRM automation examples — lead tagging, pipeline triggers, follow-up sequences, task creation, and reporting workflows that actually work.",
