@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-ai-automation-for-businesses-without-a-tech-team",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Automation for Businesses Without a Tech Team\nBody: Yes - most small businesses can automate core workflows without a developer, IT manager, or in-house tech team. The safest first projects are usually narrow, repeatable systems like instant lead response, follow-up sequences, reminder workflows, missed-call recovery, and basic CRM routing. What usually blocks progress is not missing technical staff. It is unclear workflow ownership, slow response time, manual admin drag, and disconnected tools. If your business already runs on repeatable steps, automation can work without hiring developers first.\nSub: Below: what you actually need (and do not need) to get started, which automations are safest for non-technical teams, how to choose a first project without overbuying software, when this is a strong fit, and what published proof on this site honestly supports the claim.\n\n### Core sections\n- What 'no tech team' actually means here\n- Start from how your business actually runs\n- What you can automate without technical staff\n- Choose the smallest safe first build\n- How to choose a first automation if nobody on your team is technical\n- What a first no-tech-team automation build usually includes\n- What you need vs. what you do not\n- Is this a good fit for your business?\n- How to evaluate your options\n- Examples of automation replacing manual work\n\n### New routing section\nSubhead: Start from how your business actually runs\nPaths:\n- solo owner / field operator -> missed-call text-back, AI lead follow-up, Paris Cafe proof\n- admin-led office -> scheduling/reminders, review automation, what-to-automate-first guide\n- small team with unclear follow-up ownership -> audit checklist, WheelsFeels proof, consultant-scope explainer\n\n### FAQ\nSubhead: Practical answers for business owners without technical staff\nTopics: using the system without being technical, what happens if something breaks, working with existing tools, setup timeline, what to automate first, smaller-budget starting points, what a first build usually includes, when to avoid all-in-one platforms first, when setup help is safer than DIY no-code, difference from hiring a marketing agency, and the safest first automation for a non-technical owner.\n\n### Final CTA\nHeading: Ready to automate without a tech team?\nBody: Book a 30-minute call. We will look at your current workflow, identify the highest-impact automation, and you will leave with a clear direction, whether we work together or not.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Bounded refresh on an already-live priority page rather than a net-new cluster page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The new section uses operating reality instead of software labels so the page answers buyer questions from non-technical owners more directly."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof stays grounded in live documented outcomes only: Paris Cafe, WheelsFeels, and Instagram lead generation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The refresh strengthens adjacent internal links toward first-project selection, consultant-scope decisions, and setup-help pages instead of generic budget browsing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays direct, practical, and anti-jargon: no hype, no fake certainty, no invented proof."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T15:46:56.008Z",
+    "structure": {
+      "paragraphCount": 5,
+      "sentencesPerParagraph": [
+        6,
+        3,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 27.3,
+      "sentenceLengthRange": [
+        5,
+        70
+      ],
+      "totalWords": 382
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation for Businesses Without a Tech Team\nBody: Yes - most small businesses can automate core workflows without a developer, IT manager, or in-house tech team.",
+      "wordCount": 29,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Ready to automate without a tech team?\nBody: Book a 30-minute call. We will look at your current workflow, identify the highest-impact automation, and you will leave with a clear direction, whether we work together or not.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 34,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 17,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 10,
+      "commasPerSentence": 2.83
+    },
+    "vocabulary": {
+      "distinctWords": 191,
+      "totalWords": 382,
+      "topWords": [
+        [
+          "-",
+          17
+        ],
+        [
+          "what",
+          11
+        ],
+        [
+          "first",
+          10
+        ],
+        [
+          "automation",
+          8
+        ],
+        [
+          "without",
+          8
+        ],
+        [
+          "your",
+          7
+        ],
+        [
+          "team",
+          6
+        ],
+        [
+          "technical",
+          5
+        ],
+        [
+          "business",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "tech",
+          4
+        ],
+        [
+          "automate",
+          4
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "not",
+          4
+        ],
+        [
+          "actually",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

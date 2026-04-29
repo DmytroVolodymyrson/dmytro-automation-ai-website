@@ -1,6 +1,6 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/quote-follow-up-setup-vs-diy-small-business` — a buy-vs-build child page extracted from the live quote-follow-up cluster after reconciliation showed the parent, setup-help, cost, and ROI pages were already live but the exact hire-help-vs-DIY decision was still missing. Chosen because the setup-help prompts already contained the surviving buyer query, the exact slug was absent across routes/data/guides/sitemap/llm/prompts, and the page could stay distinct by focusing on owner time, trigger quality, CRM routing, stale-quote logic, and when expert setup is cheaper than more DIY delay. Previous: `/financing-follow-up-automation-for-solar-companies`.)
+Last updated: 2026-04-29 (bounded refresh on `/ai-automation-for-businesses-without-a-tech-team` after reconciliation confirmed the page was already live, tracked, and still worth strengthening for non-technical-owner queries. The refresh added an early operating-reality router for solo field owners, admin-led teams, and unclear-follow-up-ownership teams; tightened the hire-help-vs-DIY decision path; expanded proof-grounded internal links to Paris Cafe, WheelsFeels, consultant-scope, and first-project guides; and added a new FAQ answer on the safest first automation for a non-technical owner. Previous: shipped `/quote-follow-up-setup-vs-diy-small-business`.)
 
 ## Live GEO Assets
 

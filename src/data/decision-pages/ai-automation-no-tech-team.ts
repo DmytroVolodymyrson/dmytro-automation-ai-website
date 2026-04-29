@@ -11,6 +11,9 @@ import {
   Wrench,
   Monitor,
   ShieldCheck,
+  HardHat,
+  Clipboard,
+  GitBranch,
 } from "lucide-react";
 import type { DecisionPageData } from "@/components/DecisionPageTemplate";
 
@@ -45,6 +48,44 @@ const data: DecisionPageData = {
         {
           heading: "You do need someone who knows your operations",
           body: "The one thing automation cannot replace is knowledge of your business. Someone on your team needs to explain your current workflow: how leads come in, how appointments get booked, what your follow-up process looks like today. That person is usually the owner. That is enough.",
+        },
+      ],
+    },
+    {
+      type: "cards",
+      title: "Start from how your business actually runs",
+      subtitle:
+        "The right first automation depends less on which software you pick and more on how your day-to-day operations work right now. Find your situation below and follow the link that matches:",
+      items: [
+        {
+          icon: HardHat,
+          title: "You run the business mostly alone or from the field",
+          body: "If you are the owner and you are also the one doing the work — on job sites, in appointments, driving between clients — then nobody is answering calls or replying to leads while you are busy. The only automations worth building first are the ones that work when you cannot: instant lead response, missed-call text-back, and a short follow-up sequence that runs without you logging in. Paris Cafe proved this pattern when a single AI phone layer moved the restaurant from zero after-hours coverage to 100% calls answered and sub-60-second lead response.",
+          links: [
+            { label: "Missed-call text-back", href: "/missed-call-text-back-for-service-businesses" },
+            { label: "AI lead follow-up", href: "/ai-lead-follow-up-for-service-businesses" },
+            { label: "Paris Cafe case study", href: "/case-studies/paris-cafe-voice-agent" },
+          ],
+        },
+        {
+          icon: Clipboard,
+          title: "You have an admin person or office coordinator",
+          body: "If someone on your team already handles scheduling, CRM updates, or follow-up reminders manually, the highest-value first build is automating the repetitive parts of their day: appointment confirmations, reminder sequences, CRM status updates, and review requests after completed jobs. The goal is not to replace that person. It is to free them from copy-paste busywork so they can handle the work that actually requires judgment.",
+          links: [
+            { label: "Scheduling and reminder workflows", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
+            { label: "Review request automation", href: "/review-request-automation-for-service-businesses" },
+            { label: "What to automate first", href: "/what-to-automate-first-for-service-businesses" },
+          ],
+        },
+        {
+          icon: GitBranch,
+          title: "You have a small team but nobody owns the follow-up process",
+          body: "If leads come in and sit because everyone assumes someone else will handle them, the problem is not missing tech. It is unclear workflow ownership. The right first project here is not more software features — it is a routing and handoff system that tags every lead, assigns clear ownership, and notifies the right person when a follow-up is due. WheelsFeels ran this pattern across 5,600+ leads: the automation handled segmentation, routing, and sequencing while the team focused on conversations that were actually ready to close.",
+          links: [
+            { label: "AI automation audit checklist", href: "/ai-automation-audit-checklist" },
+            { label: "WheelsFeels CRM case study", href: "/case-studies/ecommerce-crm-automation" },
+            { label: "What does a consultant actually do?", href: "/what-does-an-ai-automation-consultant-do" },
+          ],
         },
       ],
     },
@@ -149,11 +190,11 @@ const data: DecisionPageData = {
         {
           icon: ShieldCheck,
           title: "You are not sure whether to hire help or try it yourself",
-          body: "That is usually the real buyer decision for a non-technical owner. Compare the smallest safe done-for-you scope against DIY time cost, reliability risk, and how much platform sprawl you are willing to own.",
+          body: "That is usually the real buyer decision for a non-technical owner. Compare the smallest safe done-for-you scope against DIY time cost, reliability risk, and how much platform sprawl you are willing to own. If the workflow touches live leads, booked appointments, or customer handoff rules, expert setup is usually cheaper than cleaning up a half-working build later.",
           links: [
             { label: "Consultant vs DIY", href: "/hire-ai-automation-consultant-vs-diy" },
-            { label: "Affordable AI automation", href: "/affordable-ai-automation-small-business" },
-            { label: "Case studies", href: "/case-studies" },
+            { label: "Lead follow-up setup help", href: "/ai-lead-follow-up-setup-for-service-businesses" },
+            { label: "What to automate first", href: "/what-to-automate-first-for-service-businesses" },
           ],
         },
       ],
@@ -174,7 +215,7 @@ const data: DecisionPageData = {
         },
         {
           heading: "Use published proof to judge what is realistic",
-          body: "The site already shows three useful patterns: faster phone and booking coverage from the Paris Cafe voice agent deployment, structured routing and follow-up in the e-commerce CRM case study, and repeatable outbound qualification in the Instagram lead-generation case study. None of that means every business needs the same build. It means useful automation can run without a technical department when the workflow is scoped clearly.",
+          body: "Three documented builds on this site show what non-technical operators can expect. Paris Cafe went from zero after-hours phone coverage to 100% calls answered with sub-60-second lead replies and roughly 15 hours of management time freed per week — no internal developer required. WheelsFeels replaced fragmented spreadsheet follow-up with structured CRM routing across 5,600+ leads, lifting conversion by 185% with automation handling segmentation and sequencing. The Instagram lead-generation build turned a manual prospecting workflow into a consistent 50+ qualified-leads-per-day system. None of that means every business needs the same scope. It means well-scoped automation works without a tech department when the workflow is narrow and the rules are clear.",
         },
       ],
     },
@@ -433,6 +474,11 @@ const data: DecisionPageData = {
       answer:
         "Yes. An agency typically sells you a package of services like ads, content, or campaign management. A consultant builds systems that run your operations more efficiently: follow-up, routing, reminders, booking, or CRM workflows. The automation keeps working after the project ends. You are not paying a monthly retainer for someone to post on Instagram.",
     },
+    {
+      question: "What is the safest first automation for a non-technical owner who has never automated anything?",
+      answer:
+        "Instant lead response plus missed-call text-back. Both are narrow, low-risk, and prove the concept fast. The trigger is a new form submission or missed call, the output is an immediate text or email the prospect sees within 60 seconds, and the owner only steps in when someone replies ready to talk. You do not need to learn a platform, configure branching logic, or maintain anything. That first build usually costs $1.5K to $3K and goes live in under two weeks. Once it works, you have a real baseline to decide whether to add scheduling, CRM routing, or follow-up sequences next.",
+    },
   ],
   faqSubtitle:
     "Practical answers for business owners without technical staff",
@@ -443,8 +489,20 @@ const data: DecisionPageData = {
     "No jargon. No assumptions about your technical knowledge. Just a practical conversation about your business.",
   relatedLinks: [
     {
+      label: "What to automate first for service businesses",
+      href: "/what-to-automate-first-for-service-businesses",
+    },
+    {
       label: "Best AI automations for service businesses",
       href: "/best-ai-automation-for-service-businesses",
+    },
+    {
+      label: "What does an AI automation consultant actually do?",
+      href: "/what-does-an-ai-automation-consultant-do",
+    },
+    {
+      label: "AI lead follow-up setup help",
+      href: "/ai-lead-follow-up-setup-for-service-businesses",
     },
     {
       label: "AI automation cost for small business",
@@ -453,10 +511,6 @@ const data: DecisionPageData = {
     {
       label: "Affordable AI automation for small business",
       href: "/affordable-ai-automation-small-business",
-    },
-    {
-      label: "AI automation time savings",
-      href: "/ai-automation-time-savings-small-business",
     },
     {
       label: "Hire an AI automation consultant vs. DIY",
