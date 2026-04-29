@@ -247,6 +247,7 @@ const data: DecisionPageData = {
     "No fake retention claims. Just a practical recommendation based on your current renewal process and data quality.",
   relatedLinks: [
     { label: "AI automation for insurance agencies", href: "/ai-automation-for-insurance-agencies" },
+    { label: "Appointment scheduling and reminder automation for insurance agencies", href: "/appointment-scheduling-and-reminder-automation-for-insurance-agencies" },
     { label: "AI email sequence automation", href: "/ai-email-sequence-automation" },
     { label: "Client reactivation automation", href: "/client-reactivation-automation" },
     { label: "All guides", href: "/guides" },

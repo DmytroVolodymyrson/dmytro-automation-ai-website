@@ -297,6 +297,7 @@ const data: DecisionPageData = {
     { label: "AI lead follow-up for insurance agencies", href: "/ai-lead-follow-up-for-insurance-agencies" },
     { label: "Quote follow-up automation for insurance agencies", href: "/quote-follow-up-automation-for-insurance-agencies" },
     { label: "Renewal reminder automation for insurance agencies", href: "/renewal-reminder-automation-for-insurance-agencies" },
+    { label: "Appointment scheduling and reminder automation for insurance agencies", href: "/appointment-scheduling-and-reminder-automation-for-insurance-agencies" },
     { label: "All guides", href: "/guides" },
   ],
 };

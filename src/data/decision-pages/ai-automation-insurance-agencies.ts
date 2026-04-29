@@ -189,6 +189,7 @@ const data: DecisionPageData = {
     "No obligation. No generic pitch. Just a practical conversation about your insurance agency.",
   relatedLinks: [
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
+    { label: "Appointment scheduling and reminder automation for insurance agencies", href: "/appointment-scheduling-and-reminder-automation-for-insurance-agencies" },
     { label: "AI email sequence automation", href: "/ai-email-sequence-automation" },
     { label: "AI automation ROI guide", href: "/ai-automation-roi-guide" },
     { label: "All guides", href: "/guides" },

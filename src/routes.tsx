@@ -213,6 +213,7 @@ import QuoteFollowUpAutomationForInsuranceAgencies from "./pages/QuoteFollowUpAu
 import CrossSellAutomationForInsuranceAgencies from "./pages/CrossSellAutomationForInsuranceAgencies";
 import ReviewRequestAutomationForInsuranceAgencies from "./pages/ReviewRequestAutomationForInsuranceAgencies";
 import ReferralRequestAutomationForInsuranceAgencies from "./pages/ReferralRequestAutomationForInsuranceAgencies";
+import AppointmentSchedulingAndReminderAutomationForInsuranceAgencies from "./pages/AppointmentSchedulingAndReminderAutomationForInsuranceAgencies";
 import AfterHoursInquiryHandlingForInsuranceAgencies from "./pages/AfterHoursInquiryHandlingForInsuranceAgencies";
 import MissedCallTextBackForInsuranceAgencies from "./pages/MissedCallTextBackForInsuranceAgencies";
 import MissedCallTextBackVsVoicemailForInsuranceAgencies from "./pages/MissedCallTextBackVsVoicemailForInsuranceAgencies";
@@ -682,6 +683,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/cross-sell-automation-for-insurance-agencies", element: <CrossSellAutomationForInsuranceAgencies /> },
   { path: "/review-request-automation-for-insurance-agencies", element: <ReviewRequestAutomationForInsuranceAgencies /> },
   { path: "/referral-request-automation-for-insurance-agencies", element: <ReferralRequestAutomationForInsuranceAgencies /> },
+  { path: "/appointment-scheduling-and-reminder-automation-for-insurance-agencies", element: <AppointmentSchedulingAndReminderAutomationForInsuranceAgencies /> },
   { path: "/after-hours-inquiry-handling-for-insurance-agencies", element: <AfterHoursInquiryHandlingForInsuranceAgencies /> },
   { path: "/missed-call-text-back-for-insurance-agencies", element: <MissedCallTextBackForInsuranceAgencies /> },
   { path: "/missed-call-text-back-vs-voicemail-for-insurance-agencies", element: <MissedCallTextBackVsVoicemailForInsuranceAgencies /> },

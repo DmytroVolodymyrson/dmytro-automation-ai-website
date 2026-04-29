@@ -1628,6 +1628,18 @@
       ]
     },
     {
+      "id": "appointment-scheduling-and-reminder-automation-for-insurance-agencies",
+      "path": "/appointment-scheduling-and-reminder-automation-for-insurance-agencies",
+      "label": "Appointment Scheduling and Reminder Automation for Insurance Agencies",
+      "prompts": [
+        "Appointment scheduling and reminder automation for insurance agencies",
+        "How should an insurance agency automate consultation and policy review booking without endless calendar chasing?",
+        "Best way for an independent insurance agency to reduce no-shows for policy reviews and consultations",
+        "Should an insurance agency automate appointment reminders and reschedule routing before building broader lead follow-up?",
+        "How do insurance agencies stop losing booked consultations and annual check-ins to weak confirmations and dropped reschedules?"
+      ]
+    },
+    {
       "id": "after-hours-inquiry-handling-for-insurance-agencies",
       "path": "/after-hours-inquiry-handling-for-insurance-agencies",
       "label": "After-Hours Inquiry Handling for Insurance Agencies",

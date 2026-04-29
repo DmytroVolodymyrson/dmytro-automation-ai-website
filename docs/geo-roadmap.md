@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/referral-request-automation-for-law-firms` â€” a new law-firm post-matter advocacy child page that covers referral timing after a closed matter, ethics-compliant language, separation from review asks, and fast attorney handoff when a satisfied client names a colleague, friend, or family member who needs legal help. Stays distinct from the live law-firm intake, scheduling, case-status, phone, unretained-consult, and review-request pages by focusing narrowly on private introductions after the engagement is already complete. Previous: `/project-status-update-automation-for-solar-companies`.)
+Last updated: 2026-04-28 (shipped `/appointment-scheduling-and-reminder-automation-for-insurance-agencies` â€” a new insurance child page covering consultation, policy review, annual check-in, and claims discussion booking, confirmation, reminder timing, reschedule routing, and producer/CSR handoff. Stays distinct from the live insurance lead follow-up, quote follow-up, renewal, cross-sell, review/referral, after-hours, and phone pages by focusing narrowly on the booked-meeting coordination layer. Previous: `/referral-request-automation-for-law-firms`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 325.
+**Total live GEO pages tracked here:** 326.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -218,6 +218,7 @@ Last updated: 2026-04-28 (shipped `/referral-request-automation-for-law-firms` â
 | Cross-Sell Automation (Insurance) | `/cross-sell-automation-for-insurance-agencies` | Vertical workflow page | Live |
 | Review Automation (Insurance) | `/review-request-automation-for-insurance-agencies` | Vertical workflow page | Live |
 | Referral Request (Insurance) | `/referral-request-automation-for-insurance-agencies` | Vertical workflow page | Live |
+| Appointment Scheduling (Insurance) | `/appointment-scheduling-and-reminder-automation-for-insurance-agencies` | Vertical workflow page | Live |
 | After Hours Inquiry (Insurance) | `/after-hours-inquiry-handling-for-insurance-agencies` | Vertical solution page | Live |
 | Missed Call Text-Back (Insurance) | `/missed-call-text-back-for-insurance-agencies` | Vertical workflow page | Live |
 | Text-Back vs Voicemail (Insurance) | `/missed-call-text-back-vs-voicemail-for-insurance-agencies` | Vertical comparison page | Live |
@@ -337,16 +338,15 @@ Last updated: 2026-04-28 (shipped `/referral-request-automation-for-law-firms` â
 
 ## Next Pages
 
-This run shipped `/referral-request-automation-for-law-firms`. The law-firm cluster now covers broad parent intent, first-project scoping, intake/conflict-check prep, consultation scheduling, no-show reduction, unretained-consult follow-up, case-status updates, phone recovery (missed-call text-back, AI phone answering, and both comparison layers), review requests, and referral requests. That is now a dense, defensible legal cluster.
+This run shipped `/appointment-scheduling-and-reminder-automation-for-insurance-agencies`. The insurance cluster now covers lead follow-up, quote follow-up, renewals, cross-sell, review requests, referral requests, appointment scheduling, after-hours inquiry handling, and full phone-recovery comparisons. That fills the last obvious workflow gap in the insurance cluster.
 
 The next run should:
 
 1. **Start from a fresh broad reconciliation before naming the next net-new page.** The repo is dense enough that stale docs can still over-credit a cluster or make an already-live page look missing.
 2. **Keep manual GSC follow-through moving** on the newest shipped pages and refreshed priority URLs instead of treating publish alone as the finish line.
-3. **Bias toward the next clean cross-cluster workflow gap rather than forcing another same-cluster law-firm child by inertia.** If reconciliation still points to a law-firm gap, prove it explicitly before shipping it.
+3. **Bias toward the next clean cross-cluster workflow gap rather than forcing another same-cluster child by inertia.** If reconciliation still points to an insurance or law-firm gap, prove it explicitly before shipping it.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Fresh broad reconciliation before another net-new page | The law-firm cluster is now deep, and the next best candidate is more likely a distinct workflow gap elsewhere than another legal sibling. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
-| 2 | `/appointment-scheduling-and-reminder-automation-for-insurance-agencies` | The insurance cluster already covers lead follow-up, quote follow-up, renewals, cross-sell, review/referral asks, after-hours inquiry handling, and phone-recovery comparisons, but it still lacks a booked-consult / policy-review scheduling child. That is a commercially real stage with clear internal-link value and no obvious overlap with the existing insurance pages. | Confirm the slug is still absent from routes, sitemap, guides, `llm` files, and `scripts/geo-prompts.json`, then verify the parent and first-project insurance pages still frame booking / reminder workflow as a distinct missing layer before shipping. |
-| 3 | Manual GSC follow-through on refreshed priority URLs and the newest law-firm/solar ships | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |
+| 1 | Fresh broad reconciliation before another net-new page | Both the law-firm and insurance clusters are now deep. The next best candidate is more likely a distinct workflow gap elsewhere. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
+| 2 | Manual GSC follow-through on refreshed priority URLs and the newest insurance/law-firm/solar ships | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |

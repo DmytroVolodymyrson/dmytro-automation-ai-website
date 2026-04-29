@@ -1803,6 +1803,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Appointment Scheduling and Reminder Automation for Insurance Agencies",
+    description:
+      "Booking, confirmation, reminder, and reschedule workflow for insurance agencies that need cleaner consultation, policy review, annual check-in, and claims discussion coordination without endless calendar chasing.",
+    href: "/appointment-scheduling-and-reminder-automation-for-insurance-agencies",
+    category: "industries",
+  },
+  {
     title: "After-Hours Inquiry Handling for Insurance Agencies",
     description:
       "A narrower insurance communication page focused on missed calls, after-hours quote requests, off-hours client questions, urgency-based routing, and cleaner morning handoff when the office is closed.",
