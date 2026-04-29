@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-ai-lead-follow-up-for-service-businesses",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero intro refresh\nHeading: AI Lead Follow-Up for Service Businesses\nBody: Most service businesses lose leads because they respond too slowly. AI follow-up fixes that by contacting every lead within seconds and staying on them until they book or opt out.\n\nSub: Below: how it works, what it costs, which businesses benefit most, and how to tell if it is worth the investment for yours. We have built these systems for real businesses. An auto parts brand went from 5,600 untouched leads to a 185% lift in conversions, and a restaurant now answers 100% of after-hours calls.\n\nSupport copy: If you are mainly comparing budget bands, build scope, or what a realistic first-phase quote should include, start with the AI lead follow-up cost guide. If the real question is whether faster response and cleaner follow-up discipline will actually pay back, use the AI lead follow-up ROI guide before you request a custom build. If the real decision is whether this should stay a DIY project or be implemented properly now, review the lead-follow-up setup vs DIY guide first.\n\n### Structural cue\nAdded BreadcrumbList schema for Home → Guides → AI Lead Follow-Up for Service Businesses.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Bounded indexing-support refresh for an existing priority parent page, not a new page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The change keeps the tone practical and buyer-facing: short sentences, direct outcome framing, and named proof instead of generic claims."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "The added proof references stay grounded in live on-site evidence: the WheelsFeels e-commerce CRM case study and the Paris Cafe voice-agent case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The schema addition strengthens crawler-facing hierarchy without changing page intent or bloating the content."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T20:18:28.118Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        2,
+        3,
+        3,
+        1
+      ],
+      "avgSentenceLength": 21.3,
+      "sentenceLengthRange": [
+        8,
+        29
+      ],
+      "totalWords": 192
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero intro refresh\nHeading: AI Lead Follow-Up for Service Businesses\nBody: Most service businesses lose leads because they respond too slowly.",
+      "wordCount": 21,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Structural cue\nAdded BreadcrumbList schema for Home → Guides → AI Lead Follow-Up for Service Businesses.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "result",
+        "closer"
+      ],
+      "template": "opener | result | result | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 10,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 5,
+      "commasPerSentence": 1.11
+    },
+    "vocabulary": {
+      "distinctWords": 132,
+      "totalWords": 192,
+      "topWords": [
+        [
+          "follow-up",
+          6
+        ],
+        [
+          "ai",
+          5
+        ],
+        [
+          "lead",
+          5
+        ],
+        [
+          "businesses",
+          5
+        ],
+        [
+          "if",
+          4
+        ],
+        [
+          "service",
+          3
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "real",
+          3
+        ],
+        [
+          "guide",
+          3
+        ],
+        [
+          "most",
+          2
+        ],
+        [
+          "leads",
+          2
+        ],
+        [
+          "they",
+          2
+        ],
+        [
+          "how",
+          2
+        ],
+        [
+          "what",
+          2
+        ],
+        [
+          "now",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": [
+        "adds-trust-signals"
+      ]
+    }
+  }
+}

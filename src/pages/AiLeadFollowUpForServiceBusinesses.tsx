@@ -116,6 +116,32 @@ const AiLeadFollowUpForServiceBusinesses = () => {
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.dmytroai.com/",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Guides",
+                item: "https://www.dmytroai.com/guides",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "AI Lead Follow-Up for Service Businesses",
+                item: "https://www.dmytroai.com/ai-lead-follow-up-for-service-businesses",
+              },
+            ],
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "Article",
             headline: "AI Lead Follow-Up for Service Businesses",
             description:
@@ -179,6 +205,22 @@ const AiLeadFollowUpForServiceBusinesses = () => {
               <p className="text-base text-muted-foreground leading-relaxed mb-4">
                 Below: how it works, what it costs, which businesses benefit
                 most, and how to tell if it is worth the investment for yours.
+                We have built these systems for real businesses. An{" "}
+                <Link
+                  to="/case-studies/ecommerce-crm-automation"
+                  className="text-primary hover:text-primary/80 underline underline-offset-4"
+                >
+                  auto parts brand that went from 5,600 untouched leads to a
+                  185% lift in conversions
+                </Link>{" "}
+                and a{" "}
+                <Link
+                  to="/case-studies/paris-cafe-voice-agent"
+                  className="text-primary hover:text-primary/80 underline underline-offset-4"
+                >
+                  restaurant that now answers 100% of after-hours calls
+                </Link>
+                .
               </p>
               <p className="text-sm text-muted-foreground leading-relaxed mb-8">
                 If you are mainly comparing budget bands, build scope, or what a
