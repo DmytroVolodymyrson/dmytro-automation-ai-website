@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/seasonal-campaign-automation-for-painting-contractors` — a new painting child page covering timed seasonal campaigns: exterior repaint season outreach, interior refresh windows, before-holidays campaigns, dormant past-client seasonal reactivation, and office handoff. Stays distinct from the live painting parent and the client-reactivation child by focusing narrowly on campaign timing around seasonal demand peaks rather than year-round dormant-client outreach. Previous: `/referral-request-automation-for-roofing-companies`.)
+Last updated: 2026-04-28 (shipped `/referral-request-automation-for-med-spas` — a new med spa child page covering post-visit advocacy follow-up: referral timing after strong consultations or treatment outcomes, separate review-vs-referral asks, and fast front-desk handoff when a patient names a warm introduction. Stays distinct from the live med spa parent, the review-request child, and the treatment-recall child by focusing narrowly on private advocacy while goodwill from the recent visit is still warm rather than public reputation or later-lifecycle return timing. Previous: `/seasonal-campaign-automation-for-painting-contractors`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 328.
+**Total live GEO pages tracked here:** 329.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -303,6 +303,7 @@ Last updated: 2026-04-28 (shipped `/seasonal-campaign-automation-for-painting-co
 | No-Show Reduction (Med Spas) | `/no-show-reduction-automation-for-med-spas` | Vertical workflow page | Live |
 | Treatment Recall | `/treatment-recall-automation-for-med-spas` | Vertical workflow page | Live |
 | Review Automation (Med Spas) | `/review-request-automation-for-med-spas` | Vertical workflow page | Live |
+| Referral Request Automation (Med Spas) | `/referral-request-automation-for-med-spas` | Vertical workflow page | Live |
 | Missed Call Text-Back (Med Spas) | `/missed-call-text-back-for-med-spas` | Vertical workflow page | Live |
 | AI Phone Answering (Med Spas) | `/ai-phone-answering-for-med-spas` | Vertical solution page | Live |
 | AI for Cleaning Companies | `/ai-automation-for-cleaning-companies` | Vertical category page | Live |
@@ -340,15 +341,15 @@ Last updated: 2026-04-28 (shipped `/seasonal-campaign-automation-for-painting-co
 
 ## Next Pages
 
-This run shipped `/seasonal-campaign-automation-for-painting-contractors`. The painting cluster now covers the broad parent, first-project framing, lead follow-up, estimate follow-up, client reactivation, seasonal campaigns, review requests, referral requests, and the full phone-recovery stack. That fills the seasonal-campaign gap that the parent page explicitly isolated as a distinct workflow family.
+This run shipped `/referral-request-automation-for-med-spas`. The med spa cluster now covers the broad parent, first-project framing, lead follow-up, consultation booking, no-show reduction, treatment recall, review requests, referral requests, and the phone-recovery stack. That fills the post-visit advocacy gap that the parent page and surrounding med spa children had already made commercially distinct.
 
 The next run should:
 
 1. **Start from a fresh broad reconciliation before naming the next net-new page.** The repo is dense enough that stale docs can still over-credit a cluster or make an already-live page look missing.
-2. **Keep manual GSC follow-through moving** on the newest painting, roofing, insurance, and law-firm ships instead of treating publish alone as the finish line.
-3. **Bias toward the next clean cross-cluster workflow gap rather than forcing another same-cluster child by inertia.** If reconciliation still points back to painting or roofing, prove that a materially distinct lifecycle stage remains.
+2. **Keep manual GSC follow-through moving** on the newest med-spa, painting, roofing, insurance, and law-firm ships instead of treating publish alone as the finish line.
+3. **Bias toward the next clean cross-cluster workflow gap rather than forcing another same-cluster child by inertia.** If reconciliation still points back to med spas, prove that a materially distinct lifecycle stage remains.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Fresh broad reconciliation before another net-new page | Both the painting and roofing clusters are now deep. The next best candidate is more likely a distinct workflow gap in another cluster. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
-| 2 | Manual GSC follow-through on refreshed priority URLs and the newest painting/roofing/insurance/law-firm ships | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |
+| 1 | Fresh broad reconciliation before another net-new page | The med spa, painting, and roofing clusters are now deep. The next best candidate is more likely a distinct workflow gap in another cluster. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
+| 2 | `/referral-request-automation-for-chiropractors` | The chiropractic cluster already has the broad parent, first-project framing, review automation, and the phone stack live, so a clean post-visit advocacy child still looks like a distinct gap if the page can stay tightly on referrals rather than repeat-treatment recall or review timing. | Re-check `GEO-PLAN.md`, current chiropractic routes/pages, `public/llm*.txt`, and `scripts/geo-prompts.json` before shipping so a dense nearby cluster does not hide an already-live sibling. |

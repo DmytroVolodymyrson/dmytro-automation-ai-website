@@ -2293,6 +2293,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Referral Request Automation for Med Spas",
+    description:
+      "A narrower med spa post-visit advocacy page focused on referral timing after strong consultations or treatment outcomes, keeping referral asks separate from review asks, and routing warm introductions back to the front desk quickly.",
+    href: "/referral-request-automation-for-med-spas",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Roofing Companies",
     description:
       "AI automation for roofing companies. Lead follow-up, estimate follow-up, missed call text-back, storm season handling, and review automation.",

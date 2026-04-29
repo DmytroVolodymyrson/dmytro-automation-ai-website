@@ -269,6 +269,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation for med spas", href: "/ai-automation-for-med-spas" },
     { label: "What to automate first for med spas", href: "/what-to-automate-first-for-med-spas" },
+    { label: "Referral request automation for med spas", href: "/referral-request-automation-for-med-spas" },
     { label: "Consultation booking and reminder automation for med spas", href: "/consultation-booking-and-reminder-automation-for-med-spas" },
     { label: "No-show reduction automation for med spas", href: "/no-show-reduction-automation-for-med-spas" },
     { label: "Treatment recall automation for med spas", href: "/treatment-recall-automation-for-med-spas" },

@@ -3032,6 +3032,18 @@
       ]
     },
     {
+      "id": "referral-request-automation-for-med-spas",
+      "path": "/referral-request-automation-for-med-spas",
+      "label": "Referral Request Automation for Med Spas",
+      "prompts": [
+        "Referral request automation for med spas",
+        "How should a med spa ask happy patients for referrals without collapsing the ask into the review workflow?",
+        "Best way for a med spa to turn strong consultations and treatment outcomes into patient referrals",
+        "When should a med spa ask for referrals after a consultation or treatment visit goes well?",
+        "How should a med spa route warm patient referral replies back to the front desk or booking team?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-chiropractors",
       "path": "/what-to-automate-first-for-chiropractors",
       "label": "What to Automate First for Chiropractors",

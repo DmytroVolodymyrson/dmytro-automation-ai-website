@@ -189,6 +189,7 @@ const data: DecisionPageData = {
     "No obligation. No generic pitch. Just a practical conversation about your med spa.",
   relatedLinks: [
     { label: "AI automation for dental practices", href: "/ai-automation-for-dental-practices" },
+    { label: "Referral request automation for med spas", href: "/referral-request-automation-for-med-spas" },
     { label: "AI automation for chiropractors", href: "/ai-automation-for-chiropractors" },
     { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
