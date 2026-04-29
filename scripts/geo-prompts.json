@@ -1072,7 +1072,7 @@
         "What should a mortgage broker automate first lead follow-up missed-call text-back document collection or incomplete application follow-up?",
         "Should a mortgage broker automate lead follow-up before document collection?",
         "Should a mortgage brokerage automate incomplete-application recovery before document reminders?",
-        "How do I choose the first automation project for a mortgage brokerage — lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
+        "How do I choose the first automation project for a mortgage brokerage \u2014 lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
       ]
     },
     {
@@ -1169,6 +1169,18 @@
         "Best way for a smaller outpatient clinic to handle recall and reactivation by visit interval",
         "Should a medical clinic automate recall before broader no-show reduction or after-hours phone coverage?",
         "How should a clinic reactivate overdue patients without making follow-up messages feel generic or spammy?"
+      ]
+    },
+    {
+      "id": "no-show-reduction-automation-for-medical-clinics",
+      "path": "/no-show-reduction-automation-for-medical-clinics",
+      "label": "No-Show Reduction Automation for Medical Clinics",
+      "prompts": [
+        "No-show reduction automation for medical clinics",
+        "How can a medical clinic reduce no-shows automatically without adding more front-desk chase work?",
+        "Best way for a smaller outpatient clinic to handle confirmations, reminder timing, and late reschedules before provider time gets wasted",
+        "Should a medical clinic automate no-show reduction before broader recall or after-hours phone coverage?",
+        "How should a clinic protect booked visits from weak confirmations, buried reschedules, and preventable no-shows?"
       ]
     },
     {

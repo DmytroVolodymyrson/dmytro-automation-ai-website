@@ -123,6 +123,7 @@ const AiLeadFollowUpForDentalPractices = lazy(() => import("./pages/AiLeadFollow
 const AppointmentSchedulingAndReminderAutomationForMedicalClinics = lazy(() => import("./pages/AppointmentSchedulingAndReminderAutomationForMedicalClinics"));
 const IntakeFormsAndDocumentCollectionAutomationForMedicalClinics = lazy(() => import("./pages/IntakeFormsAndDocumentCollectionAutomationForMedicalClinics"));
 const RecallAndReactivationAutomationForMedicalClinics = lazy(() => import("./pages/RecallAndReactivationAutomationForMedicalClinics"));
+const NoShowReductionAutomationForMedicalClinics = lazy(() => import("./pages/NoShowReductionAutomationForMedicalClinics"));
 const AiPhoneAnsweringForMedicalClinics = lazy(() => import("./pages/AiPhoneAnsweringForMedicalClinics"));
 const RecallAndReactivationAutomationForDentalPractices = lazy(() => import("./pages/RecallAndReactivationAutomationForDentalPractices"));
 const NoShowReductionAutomationForDentalPractices = lazy(() => import("./pages/NoShowReductionAutomationForDentalPractices"));
@@ -589,6 +590,7 @@ const AppRoutesClient = () => (
       <Route path="/appointment-scheduling-and-reminder-automation-for-medical-clinics" element={<AppointmentSchedulingAndReminderAutomationForMedicalClinics />} />
       <Route path="/intake-forms-and-document-collection-automation-for-medical-clinics" element={<IntakeFormsAndDocumentCollectionAutomationForMedicalClinics />} />
       <Route path="/recall-and-reactivation-automation-for-medical-clinics" element={<RecallAndReactivationAutomationForMedicalClinics />} />
+      <Route path="/no-show-reduction-automation-for-medical-clinics" element={<NoShowReductionAutomationForMedicalClinics />} />
       <Route path="/ai-phone-answering-for-medical-clinics" element={<AiPhoneAnsweringForMedicalClinics />} />
       <Route path="/what-to-automate-first-for-dental-practices" element={<WhatToAutomateFirstForDentalPractices />} />
       <Route path="/ai-lead-follow-up-for-dental-practices" element={<AiLeadFollowUpForDentalPractices />} />

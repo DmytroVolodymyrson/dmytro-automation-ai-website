@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 426 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 427 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -253,6 +253,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Appointment Scheduling and Reminder Automation for Medical Clinics** — `/appointment-scheduling-and-reminder-automation-for-medical-clinics`
 - **Intake Forms and Document Collection Automation for Medical Clinics** — `/intake-forms-and-document-collection-automation-for-medical-clinics`
 - **Recall and Reactivation Automation for Medical Clinics** — `/recall-and-reactivation-automation-for-medical-clinics`
+- **No-Show Reduction Automation for Medical Clinics** — `/no-show-reduction-automation-for-medical-clinics`
 - **AI Phone Answering for Medical Clinics** — `/ai-phone-answering-for-medical-clinics`
 - **Appointment Scheduling and Reminder Automation for Plumbing Companies** — `/appointment-scheduling-and-reminder-automation-for-plumbing-companies`
 - **Care Plan Recall Automation for Chiropractors** — `/care-plan-recall-automation-for-chiropractors`

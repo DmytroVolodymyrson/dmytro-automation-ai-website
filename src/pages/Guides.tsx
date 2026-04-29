@@ -1367,6 +1367,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "No-Show Reduction Automation for Medical Clinics",
+    description:
+      "Attendance-protection workflow for clinics that already book visits but still lose provider time to weak confirmations, buried reschedules, late cancels, and preventable no-shows before the appointment happens.",
+    href: "/no-show-reduction-automation-for-medical-clinics",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Medical Clinics",
     description:
       "A narrower clinic phone-coverage page focused on live patient call handling, after-hours appointment coverage, routine scheduling-question triage, and front-desk handoff when voicemail or next-day callbacks are too weak.",

@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/recall-and-reactivation-automation-for-medical-clinics` — a retention-focused workflow page for smaller outpatient clinics where overdue follow-up, preventive, and repeat-visit patients quietly slip away because recall depends on memory, manual reports, or inconsistent front-desk ownership. Chosen because the broader `/ai-automation-for-medical-clinics` parent and `/what-to-automate-first-for-medical-clinics` both still isolated recall/reactivation as a distinct remaining clinic workflow, the exact slug was unshipped, and the framing stays separate from the generic `/client-reactivation-automation` parent plus the live dental and med-spa recall children. Previous: `/ai-phone-answering-for-medical-clinics`.)
+Last updated: 2026-04-29 (shipped `/no-show-reduction-automation-for-medical-clinics` — an attendance-protection workflow page for smaller outpatient clinics where booked visits still collapse because confirmations are passive, reminder timing is inconsistent, reschedule requests get buried, and staff discover empty provider slots too late to recover them. Chosen because the broader `/ai-automation-for-medical-clinics` parent and `/what-to-automate-first-for-medical-clinics` still isolated no-show reduction as the last clean remaining clinic workflow family, the exact slug was unshipped, and the framing stays distinct from the generic `/no-show-reduction-automation` page plus the live dental and law-firm no-show children. Previous: `/recall-and-reactivation-automation-for-medical-clinics`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 358.
+**Total live GEO pages tracked here:** 359.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -162,6 +162,7 @@ Last updated: 2026-04-29 (shipped `/recall-and-reactivation-automation-for-medic
 | Appointment Scheduling/Reminders (Medical Clinics) | `/appointment-scheduling-and-reminder-automation-for-medical-clinics` | Vertical workflow page | Live |
 | Intake Forms/Document Collection (Medical Clinics) | `/intake-forms-and-document-collection-automation-for-medical-clinics` | Vertical workflow page | Live |
 | Recall/Reactivation (Medical Clinics) | `/recall-and-reactivation-automation-for-medical-clinics` | Vertical workflow page | Live |
+| No-Show Reduction (Medical Clinics) | `/no-show-reduction-automation-for-medical-clinics` | Vertical workflow page | Live |
 | AI Phone Answering (Medical Clinics) | `/ai-phone-answering-for-medical-clinics` | Vertical solution page | Live |
 | What to Automate First (Dental) | `/what-to-automate-first-for-dental-practices` | Vertical decision page | Live |
 | AI Lead Follow-Up (Dental) | `/ai-lead-follow-up-for-dental-practices` | Vertical workflow page | Live |
@@ -370,16 +371,16 @@ Last updated: 2026-04-29 (shipped `/recall-and-reactivation-automation-for-medic
 
 ## Next Pages
 
-This run shipped `/recall-and-reactivation-automation-for-medical-clinics`. That closes the strongest remaining retention gap inside the clinic cluster: both the parent page and the first-project page already isolated overdue-patient recall/reactivation as a distinct workflow, and the new page now gives that branch a clinic-specific destination instead of routing operators only to the generic `/client-reactivation-automation` parent. The clinic cluster now has five live children (scheduling/reminders, intake forms, recall/reactivation, phone answering, plus the first-project scoping page) beside the parent. The next run should still avoid forcing another clinic child by inertia. Reconcile the broader backlog first, then only return to the clinic cluster if the remaining no-show child still survives overlap checks against the generic workflow pages and the live specialty-healthcare pages.
+This run shipped `/no-show-reduction-automation-for-medical-clinics`. That closes the clearest remaining attendance-protection gap inside the clinic cluster: both the parent page and the first-project page already isolated no-show reduction as its own workflow family, and the new page now gives that branch a clinic-specific destination instead of routing operators only to the generic `/no-show-reduction-automation` parent. The clinic cluster now has six live children (scheduling/reminders, intake forms, recall/reactivation, no-show reduction, phone answering, plus the first-project scoping page) beside the parent. The next run should explicitly stop forcing another clinic child by inertia and return to broad backlog reconciliation first.
 
 The next run should:
 
-1. **Keep manual GSC follow-through moving** on the newest clinic ships (recall/reactivation, phone answering, intake forms, scheduling/reminders) instead of treating publish alone as the finish line.
-2. **Run a fresh broad reconciliation first** across the roadmap, planning docs, live routes, and prompts so the queue does not get stuck forcing another clinic child by inertia.
-3. **If broad reconciliation does not surface a cleaner planned page elsewhere, re-check the remaining clinic no-show gap** instead of repeating another phone, paperwork, or recall page.
+1. **Keep manual GSC follow-through moving** on the newest clinic ships (no-show reduction, recall/reactivation, phone answering, intake forms, scheduling/reminders) instead of treating publish alone as the finish line.
+2. **Run a fresh broad reconciliation first** across the roadmap, planning docs, live routes, and prompts so the queue does not keep defaulting back to the same mature clinic cluster.
+3. **Only name a new page after that reconciliation**; right now there is no cleaner pre-verified clinic child left that obviously outranks a repo-wide scan for the next distinct buyer-intent gap.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Manual GSC follow-through on newest clinic ships | Recent live pages (recall/reactivation, phone answering, intake forms, scheduling/reminders) still need inspection and indexing requests where appropriate, especially after meaningful copy and internal-link updates go live. | Check the newest live URLs in GSC after deploy propagation and request indexing only after the live route, sitemap, and on-page copy are all confirmed. |
-| 2 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | After the clinic parent + first-project + scheduling + intake + phone children are all live, the cleanest next ship may now be outside the clinic cluster entirely. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |
-| 3 | Clinic no-show child or broader backlog page (only if it survives review) | No-show reduction is now the main clinic workflow family still mentioned by the parent and first-project pages without its own clinic-specific child. However, a generic no-show page and live specialty-healthcare children already exist. | Verify the exact slug is absent from routes/pages/prompts, confirm the framing stays distinct from the generic no-show page plus the live dental and specialty-healthcare children, and make sure the gap is real before shipping. |
+| 1 | Manual GSC follow-through on newest clinic ships | Recent live pages (no-show reduction, recall/reactivation, phone answering, intake forms, scheduling/reminders) still need inspection and indexing requests where appropriate, especially after meaningful copy and internal-link updates go live. | Check the newest live URLs in GSC after deploy propagation and request indexing only after the live route, sitemap, and on-page copy are all confirmed. |
+| 2 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | With the clinic parent plus its main child workflow family now covered, the cleanest next ship is more likely to come from another cluster or another late-backlog pattern elsewhere in the repo. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |
+| 3 | Best distinct buyer-intent page surfaced by reconciliation | Tier-B expansion should still bias toward shipping, but only after the next candidate survives overlap checks against live routes, parent/child cluster coverage, and existing generic workflow pages. | Verify the exact slug is absent from routes/pages/prompts, confirm the framing is still materially distinct from nearby live URLs, and patch the roadmap again only once a real fallback candidate survives review. |
