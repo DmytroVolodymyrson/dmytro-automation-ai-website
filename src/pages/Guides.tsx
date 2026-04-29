@@ -792,6 +792,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Referral Request Automation Setup vs. DIY for Small Business",
+    description:
+      "Buy-vs-build guide for service businesses deciding whether referral-request setup should stay DIY or get implemented properly now. Covers owner time, referral-vs-review separation, warm-intro routing, CRM visibility, and when bounded setup help is cheaper than more DIY drift.",
+    href: "/referral-request-automation-setup-vs-diy-small-business",
+    category: "workflows",
+  },
+  {
     title: "Review Request vs. Referral Request for Service Businesses",
     description:
       "Which post-job ask should come first? Practical comparison of public reviews vs. private referrals, timing, reply routing, and how to keep the two workflows separate instead of bundling both into one awkward follow-up.",

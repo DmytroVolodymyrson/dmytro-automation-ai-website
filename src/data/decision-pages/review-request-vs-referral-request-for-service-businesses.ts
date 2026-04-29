@@ -302,6 +302,7 @@ const data: DecisionPageData = {
     { label: "Review request automation ROI", href: "/review-request-automation-roi-small-business" },
     { label: "Referral request automation for service businesses", href: "/referral-request-automation-for-service-businesses" },
     { label: "Referral request setup for service businesses", href: "/referral-request-automation-setup-for-service-businesses" },
+    { label: "Referral request setup vs. DIY", href: "/referral-request-automation-setup-vs-diy-small-business" },
     { label: "Referral request automation cost", href: "/referral-request-automation-cost-small-business" },
     { label: "Estimate follow-up vs. quote follow-up", href: "/estimate-follow-up-vs-quote-follow-up-for-service-businesses" },
     { label: "All guides", href: "/guides" },

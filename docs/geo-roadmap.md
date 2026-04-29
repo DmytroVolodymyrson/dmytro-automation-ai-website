@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/review-request-automation-setup-vs-diy-small-business` after reconciliation confirmed the review-request cluster already had the parent, setup-help, cost, and ROI layers live but still lacked the exact buy-vs-build child. The new page stays narrowly on owner time, completion-signal hygiene, timing logic, complaint routing, CRM visibility, reply ownership, and when bounded setup help is cheaper than more DIY drift. Previous: `/client-reactivation-setup-vs-diy-small-business`.)
+Last updated: 2026-04-29 (shipped `/referral-request-automation-setup-vs-diy-small-business` after reconciliation confirmed the referral-request cluster already had the parent, setup-help, cost, and ROI layers live but still lacked the exact buy-vs-build child. The new page stays narrowly on the DIY-vs-hire decision for referral-request setup: owner time, referral-vs-review separation, warm-intro routing, CRM visibility, and when bounded setup help is cheaper than more DIY drift. Previous: `/review-request-automation-setup-vs-diy-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 365.
+**Total live GEO pages tracked here:** 366.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -33,6 +33,7 @@ Last updated: 2026-04-29 (shipped `/review-request-automation-setup-vs-diy-small
 | Referral Request Automation Setup (Service Businesses) | `/referral-request-automation-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Referral Request Automation Cost (SMB) | `/referral-request-automation-cost-small-business` | Workflow / service cost page | Live |
 | Referral Request Automation ROI (SMB) | `/referral-request-automation-roi-small-business` | Workflow / ROI page | Live |
+| Referral Request Automation Setup vs. DIY (SMB) | `/referral-request-automation-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | Review Request vs. Referral Request (Service Businesses) | `/review-request-vs-referral-request-for-service-businesses` | Workflow comparison page | Live |
 | Missed Call Text-Back (Service Businesses) | `/missed-call-text-back-for-service-businesses` | Workflow parent page | Live |
 | Missed Call Text-Back Cost (SMB) | `/missed-call-text-back-cost-small-business` | Workflow / service cost page | Live |
@@ -377,10 +378,9 @@ Last updated: 2026-04-29 (shipped `/review-request-automation-setup-vs-diy-small
 
 ## Next Pages
 
-This run shipped `/review-request-automation-setup-vs-diy-small-business` because the live review-request cluster already had the parent, setup-help, cost, and ROI layers live, and the remaining clean buyer decision was whether a small business should keep DIYing setup or pay for bounded implementation help now. The new page stays narrower than the setup-help page by focusing on owner time, completion-signal hygiene, timing logic, complaint routing, CRM visibility, reply ownership, and when more DIY drift costs more than help.
+This run shipped `/referral-request-automation-setup-vs-diy-small-business` because the referral-request cluster already had the parent, setup-help, cost, and ROI layers live, and the remaining clean buyer decision was whether a small business should keep DIYing referral-request setup or pay for bounded implementation help now. The new page stays narrower than the setup-help page by focusing on the buy-vs-build decision itself: owner time, referral-vs-review separation, warm-intro routing, CRM visibility, and when more DIY drift costs more than help.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | Broad reconciliation across other mature setup-help / cost / ROI clusters | Next-best ship should still come from an exact surviving buyer query inside a live cluster, not a guessed same-cluster sibling. |
-| 2 | `referral-request-automation-setup-vs-diy-small-business` | The referral-request cluster already has the parent, setup-help, cost, and ROI layers live, so the parallel buy-vs-build child looks like the cleanest exact-query candidate if reconciliation confirms no overlap drift. |
-| 3 | Existing-page discovery / tracking refresh if no clean new slug survives | If no clearly distinct page remains after reconciliation, tighten guides/llm/prompt coverage on the strongest live clusters instead of creating a thin page. |
+| 1 | Broad reconciliation across other mature setup-help / cost / ROI clusters | Next-best ship should still come from an exact surviving buyer query inside a live cluster, not a guessed same-cluster sibling. Check missed-call, estimate, quote, client-reactivation, and appointment-setter clusters for remaining clean buy-vs-build or comparison gaps. |
+| 2 | Existing-page discovery / tracking refresh if no clean new slug survives | If no clearly distinct page remains after reconciliation, tighten guides/llm/prompt coverage on the strongest live clusters instead of creating a thin page. |

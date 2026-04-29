@@ -2324,6 +2324,18 @@
       ]
     },
     {
+      "id": "referral-request-automation-setup-vs-diy-small-business",
+      "path": "/referral-request-automation-setup-vs-diy-small-business",
+      "label": "Referral Request Automation Setup vs. DIY for Small Business",
+      "prompts": [
+        "Should I DIY referral request automation or hire someone to set it up?",
+        "When is it worth paying for referral request automation setup instead of building it myself?",
+        "How much does it cost to hire help for referral request automation setup vs doing it yourself?",
+        "What goes wrong when a small business tries to DIY referral request automation?",
+        "Is referral request automation setup worth hiring an expert for if I only have a few jobs per month?"
+      ]
+    },
+    {
       "id": "review-request-vs-referral-request-for-service-businesses",
       "path": "/review-request-vs-referral-request-for-service-businesses",
       "label": "Review Request vs. Referral Request for Service Businesses",
