@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/appointment-scheduling-and-reminder-roi-small-business` — the generic service-business scheduling cluster already had the parent, comparison, setup, and cost layers. The missing layer was the ROI/payback page that answers when this booked-appointment workflow actually pays back for a small business: how many recovered appointments, how much saved admin time, and when the economics justify the build versus staying manual. This completes the scheduling cluster's buyer-intent family. Previous: `/appointment-scheduling-and-reminder-cost-small-business`.)
+Last updated: 2026-04-29 (shipped `/booking-confirmation-and-reminder-setup-for-service-businesses` — the broader booking-confirmation parent was already live, but the setup-help layer was missing. This new page covers the implementation decisions a service business actually has to make before confirmations and reminders go live: confirmed-booking triggers, reminder timing, reschedule stop rules, waitlist/backfill logic, prep-step enforcement, CRM visibility, and when setup help is worth paying for. Previous: `/appointment-scheduling-and-reminder-roi-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 379.
+**Total live GEO pages tracked here:** 380.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -387,13 +387,14 @@ Last updated: 2026-04-29 (shipped `/appointment-scheduling-and-reminder-roi-smal
 | No-Show Reduction Cost (SMB) | `/no-show-reduction-cost-small-business` | Workflow / cost page | Live |
 | No-Show Reduction ROI (SMB) | `/no-show-reduction-roi-small-business` | Workflow / ROI page | Live |
 | Appointment Scheduling & Reminder Setup (Service Businesses) | `/appointment-scheduling-and-reminder-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| Booking Confirmation & Reminder Setup (Service Businesses) | `/booking-confirmation-and-reminder-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Appointment Scheduling & Reminder Cost (SMB) | `/appointment-scheduling-and-reminder-cost-small-business` | Workflow / cost page | Live |
 | Appointment Scheduling & Reminder ROI (SMB) | `/appointment-scheduling-and-reminder-roi-small-business` | Workflow / ROI page | Live |
 
 ## Next Pages
 
-This run shipped `/appointment-scheduling-and-reminder-roi-small-business` because the generic service-business scheduling cluster already had the parent, comparison, setup, and cost layers. The missing layer was the ROI/payback page — when this booked-appointment workflow actually pays back for a small business. That ROI-child pattern already exists across other mature workflow families like no-show reduction, missed-call text-back, AI appointment setter, AI lead follow-up, estimate follow-up, and quote follow-up. With this page now live, the scheduling cluster has parent + comparison + setup + cost + ROI coverage.
+This run shipped `/booking-confirmation-and-reminder-setup-for-service-businesses` because the broader booking-confirmation parent was already live, but the setup-help layer was still missing. The new page isolates the implementation decision surface for a narrower workflow stage than the broader scheduling setup page: confirmed-booking triggers, reminder timing, reschedule stop rules, waitlist/backfill logic, prep-step enforcement, and CRM visibility once the booking is already real.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | `/booking-confirmation-and-reminder-setup-for-service-businesses` | The broader booking-confirmation parent (`/booking-confirmation-and-reminder-automation`) is already live and now sits beside the more mature scheduling cluster that has parent + comparison + setup + cost + ROI coverage. The clean remaining buyer-intent gap is setup help for the narrower booking-confirmation workflow itself: confirmations, reminder timing, reschedule handling, waitlist behavior, and CRM handoff before a small business buys a broader scheduling rebuild or appointment-setter project. The slug is still absent across routes, page/data files, sitemap, llm files, and prompts, so it remains a clean next extraction candidate. |
+| 1 | `/booking-confirmation-and-reminder-cost-small-business` | The generic booking-confirmation cluster now has the parent page plus the setup-help child, but it still lacks the budget-setting page that answers what this narrower workflow should actually cost for a small business. That is a clean next extraction because it stays on scoped implementation economics — confirmation triggers, reminder cadence, reschedule logic, waitlist/backfill handling, CRM visibility, and where owners overspend when they really only need the booked-appointment protection layer instead of a broader scheduling rebuild or AI appointment-setter project. The slug is still absent across routes, page/data files, sitemap, llm files, and prompts. |

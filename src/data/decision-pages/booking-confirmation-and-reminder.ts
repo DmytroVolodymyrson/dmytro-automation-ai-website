@@ -161,6 +161,7 @@ const data: DecisionPageData = {
         },
       ],
       links: [
+        { label: "Booking confirmation and reminder setup", href: "/booking-confirmation-and-reminder-setup-for-service-businesses" },
         { label: "AI appointment setter", href: "/ai-appointment-setter" },
         { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
         { label: "Client onboarding automation", href: "/client-onboarding-automation" },
@@ -203,6 +204,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No obligation. No generic pitch. Just a practical conversation about your scheduling gaps.",
   relatedLinks: [
+    { label: "Booking confirmation and reminder setup", href: "/booking-confirmation-and-reminder-setup-for-service-businesses" },
     { label: "AI appointment setter", href: "/ai-appointment-setter" },
     { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
     { label: "Client onboarding automation", href: "/client-onboarding-automation" },

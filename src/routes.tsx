@@ -272,6 +272,7 @@ import ReviewRequestAutomationForEcommerceBrands from "./pages/ReviewRequestAuto
 import AfterHoursLeadCapture from "./pages/AfterHoursLeadCapture";
 import MissedCallFollowUp from "./pages/MissedCallFollowUp";
 import BookingConfirmationAndReminder from "./pages/BookingConfirmationAndReminder";
+import BookingConfirmationAndReminderSetupForServiceBusinesses from "./pages/BookingConfirmationAndReminderSetupForServiceBusinesses";
 import AppointmentSchedulingAndReminderAutomationForServiceBusinesses from "./pages/AppointmentSchedulingAndReminderAutomationForServiceBusinesses";
 import AppointmentSchedulingAndReminderAutomationVsAiAppointmentSetterForServiceBusinesses from "./pages/AppointmentSchedulingAndReminderAutomationVsAiAppointmentSetterForServiceBusinesses";
 import AppointmentSchedulingAndReminderSetupForServiceBusinesses from "./pages/AppointmentSchedulingAndReminderSetupForServiceBusinesses";
@@ -846,6 +847,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/appointment-scheduling-and-reminder-cost-small-business", element: <AppointmentSchedulingAndReminderCostSmallBusiness /> },
   { path: "/appointment-scheduling-and-reminder-roi-small-business", element: <AppointmentSchedulingAndReminderRoiSmallBusiness /> },
   { path: "/booking-confirmation-and-reminder-automation", element: <BookingConfirmationAndReminder /> },
+  { path: "/booking-confirmation-and-reminder-setup-for-service-businesses", element: <BookingConfirmationAndReminderSetupForServiceBusinesses /> },
   { path: "/ai-phone-answering-for-service-businesses", element: <AiPhoneAnswering /> },
   { path: "/missed-call-text-back-vs-ai-phone-answering-for-service-businesses", element: <MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses /> },
   { path: "/missed-call-text-back-vs-voicemail-for-service-businesses", element: <MissedCallTextBackVsVoicemailForServiceBusinesses /> },

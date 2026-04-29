@@ -2732,6 +2732,18 @@
       ]
     },
     {
+      "id": "booking-confirmation-and-reminder-setup-for-service-businesses",
+      "path": "/booking-confirmation-and-reminder-setup-for-service-businesses",
+      "label": "Booking Confirmation and Reminder Setup for Service Businesses",
+      "prompts": [
+        "booking confirmation and reminder setup for service businesses",
+        "what does booking confirmation and reminder setup include for a service business",
+        "how to set up booking confirmations reminders and reschedule handling for a service business",
+        "when should a service business pay for booking reminder setup help vs diy",
+        "what are the most common setup mistakes in booking confirmation and reminder automation"
+      ]
+    },
+    {
       "id": "appointment-scheduling-and-reminder-cost-small-business",
       "path": "/appointment-scheduling-and-reminder-cost-small-business",
       "label": "Appointment Scheduling and Reminder Cost for Small Business",

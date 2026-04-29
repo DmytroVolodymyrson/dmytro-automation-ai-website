@@ -666,6 +666,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Booking Confirmation and Reminder Setup for Service Businesses",
+    description:
+      "Setup-help guide for service businesses before booking-confirmation automation goes live. Covers confirmation triggers, reminder timing, reschedule handling, waitlist logic, prep-step enforcement, CRM visibility, and when setup help is worth paying for.",
+    href: "/booking-confirmation-and-reminder-setup-for-service-businesses",
+    category: "workflows",
+  },
+  {
     title: "AI Phone Answering for Service Businesses",
     description:
       "24/7 AI phone answering — call handling, appointment booking, caller qualification, and CRM integration without adding staff.",

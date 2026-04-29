@@ -217,6 +217,7 @@ const data: DecisionPageData = {
     "No generic scheduling-tech pitch. Just a practical setup conversation about your booking triggers, confirmation logic, reminder cadence, prep-step enforcement, and internal handoff.",
   relatedLinks: [
     { label: "Appointment scheduling and reminder automation", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
+    { label: "Booking confirmation and reminder setup", href: "/booking-confirmation-and-reminder-setup-for-service-businesses" },
     { label: "Scheduling automation vs. AI appointment setter", href: "/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses" },
     { label: "Appointment scheduling and reminder cost", href: "/appointment-scheduling-and-reminder-cost-small-business" },
     { label: "Appointment scheduling and reminder ROI", href: "/appointment-scheduling-and-reminder-roi-small-business" },
