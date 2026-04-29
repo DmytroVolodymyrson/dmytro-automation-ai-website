@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-missed-call-text-back-vs-voicemail-for-service-businesses",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Missed Call Text-Back vs. Voicemail for Service Businesses\nSub: If your service business misses calls, voicemail is usually the weakest fallback because it asks the caller to do more work and wait longer. Missed-call text-back is the lighter alternative: the call is missed, an SMS goes out within seconds, and the caller gets a live next step without needing a full AI phone-answering system.\n\n### Core sections\nHeading: What this comparison is really deciding\nTopics:\n- Missed-call text-back keeps the lead alive\n- Voicemail turns recovery into a delayed callback gamble\n- Text-back is the lighter recovery layer between doing nothing and live AI phone answering\n- The real issue is response lag, not whether texting sounds modern\n\nHeading: Missed-call text-back vs. voicemail for service businesses\nTopics:\n- First Response: SMS within seconds vs. no response unless the caller leaves a message\n- Caller Effort: business reaches back first vs. caller has to do more work and wait\n- Best Fit: simple missed-call recovery vs. genuinely light call volume with disciplined callbacks\n- Office Workload: text-thread follow-through vs. voicemail cleanup and urgency guesswork\n- Cost Profile: low direct workflow cost vs. high hidden demand-loss cost\n\nHeading: When each option makes sense\nTopics:\n- Choose missed-call text-back when the business needs something clearly better than voicemail but not every caller needs a live answer\n- Keep voicemail only when call volume is truly light and callbacks are reliably fast\n- Move to AI phone answering when callers regularly need live answers or after-hours demand is too valuable for delayed recovery\n\n### FAQ\n- How is this different from the broader missed-call text-back page? (This page narrows the decision to one buyer question: keep relying on voicemail after missed calls, or move to text-back first.)\n- Why is missed-call text-back usually better than voicemail? (Because it responds first instead of asking the caller to do more work and wait for a callback.)\n- When is voicemail still good enough? (Usually only when call volume is light, callbacks are reliably fast, and most callers do not need immediate answers.)\n- When should a service business skip text-back and go straight to AI phone answering? (When callers regularly need live answers, routine intake should happen on the call itself, or after-hours demand is too valuable to leave to delayed recovery.)\n- What does a focused missed-call text-back workflow usually cost? (Typically around $1.5K-$2.5K plus modest SMS usage costs.)\n\n### Final CTA\nHeading: Need to know whether voicemail is still costing you work?\nBody: Book a 30-minute call. We will look at your missed-call pattern, callback discipline, caller expectations, and whether your business needs missed-call text-back, live AI phone answering, or no new phone layer at all.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Practical, non-hype, service-business buyer-decision framing. Distinct from the broader `/missed-call-text-back-for-service-businesses` parent by focusing on the lighter voicemail-vs-text-back fallback decision, and distinct from `/ai-phone-answering-vs-voicemail-for-service-businesses` by treating live AI phone answering as the next heavier layer instead of the main comparison. Uses the generic phone cluster plus the Paris Cafe call-handling proof honestly without inventing a direct generic service-business comparison case study."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T22:25:38.345Z",
+    "structure": {
+      "paragraphCount": 6,
+      "sentencesPerParagraph": [
+        3,
+        1,
+        7,
+        1,
+        6,
+        3
+      ],
+      "avgSentenceLength": 21.5,
+      "sentenceLengthRange": [
+        4,
+        64
+      ],
+      "totalWords": 451
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Hero\nHeading: Missed Call Text-Back vs.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need to know whether voicemail is still costing you work?\nBody: Book a 30-minute call. We will look at your missed-call pattern, callback discipline, caller expectations, and whether your business needs missed-call text-back, live AI phone answering, or no new phone layer at all.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 18,
+      "commas": 14,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 17,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 17,
+      "commasPerSentence": 0.82
+    },
+    "vocabulary": {
+      "distinctWords": 207,
+      "totalWords": 451,
+      "topWords": [
+        [
+          "-",
+          17
+        ],
+        [
+          "text-back",
+          12
+        ],
+        [
+          "voicemail",
+          11
+        ],
+        [
+          "missed-call",
+          10
+        ],
+        [
+          "caller",
+          8
+        ],
+        [
+          "when",
+          8
+        ],
+        [
+          "call",
+          7
+        ],
+        [
+          "vs",
+          7
+        ],
+        [
+          "live",
+          6
+        ],
+        [
+          "heading",
+          5
+        ],
+        [
+          "business",
+          5
+        ],
+        [
+          "ai",
+          5
+        ],
+        [
+          "recovery",
+          5
+        ],
+        [
+          "phone",
+          5
+        ],
+        [
+          "service",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 1,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 1,
+      "patterns": []
+    }
+  }
+}

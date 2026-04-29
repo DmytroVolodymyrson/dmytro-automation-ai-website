@@ -11,11 +11,11 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 443 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 444 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
-### Strategy + comparison pages (39)
+### Strategy + comparison pages (40)
 - **Affordable AI Automation for Small Business** — `/affordable-ai-automation-small-business`
 - **AI Appointment Setter vs Receptionist** — `/ai-appointment-setter-vs-receptionist`
 - **AI Appointment Setter vs Virtual Assistant** — `/ai-appointment-setter-vs-virtual-assistant`
@@ -35,6 +35,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Voice Agent vs Human Appointment Setter** — `/ai-voice-agent-vs-human-appointment-setter`
 - **AI Voice Agent vs Voicemail** — `/ai-voice-agent-vs-voicemail`
 - **AI Phone Answering vs. Voicemail for Service Businesses** — `/ai-phone-answering-vs-voicemail-for-service-businesses`
+- **Missed Call Text-Back vs. Voicemail for Service Businesses** — `/missed-call-text-back-vs-voicemail-for-service-businesses`
 - **AI Voice Agent vs. Manual Callback for Service Businesses** — `/ai-voice-agent-vs-manual-callback-for-service-businesses`
 - **Build vs Buy AI Automation** — `/build-vs-buy-ai-automation`
 - **GoHighLevel vs. HubSpot for Small Business** — `/gohighlevel-vs-hubspot-small-business`

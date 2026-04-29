@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/ai-phone-answering-vs-voicemail-for-service-businesses` — the live generic service-business phone cluster already had the broader AI phone-answering parent, the missed-call text-back parent, and the text-back-vs-AI comparison, but it still lacked the heavier buyer decision between passive voicemail/manual callback and live AI answering. The new page stays tightly on that fallback choice instead of rehashing the broader parent or the lighter text-back comparison. Previous: `/ai-lead-follow-up-for-medical-clinics`.)
+Last updated: 2026-04-29 (shipped `/missed-call-text-back-vs-voicemail-for-service-businesses` — the live generic service-business phone cluster already had the broader missed-call text-back parent, the broader AI phone-answering parent, the text-back-vs-AI comparison, and the heavier AI-vs-voicemail comparison. The remaining clean missing layer was the lighter fallback decision between SMS-first missed-call recovery and passive voicemail/manual callback. This new page stays tightly on that lighter buyer choice instead of rehashing the broader parents or the heavier AI comparison. Previous: `/ai-phone-answering-vs-voicemail-for-service-businesses`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 375.
+**Total live GEO pages tracked here:** 376.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -42,6 +42,7 @@ Last updated: 2026-04-29 (shipped `/ai-phone-answering-vs-voicemail-for-service-
 | Missed-Call Text-Back Setup vs. DIY (SMB) | `/missed-call-text-back-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | Missed Call Text-Back vs. AI Phone Answering (Service Businesses) | `/missed-call-text-back-vs-ai-phone-answering-for-service-businesses` | Workflow comparison page | Live |
 | AI Phone Answering vs. Voicemail (Service Businesses) | `/ai-phone-answering-vs-voicemail-for-service-businesses` | Workflow comparison page | Live |
+| Missed Call Text-Back vs. Voicemail (Service Businesses) | `/missed-call-text-back-vs-voicemail-for-service-businesses` | Workflow comparison page | Live |
 | Estimate Follow-Up Automation (Service Businesses) | `/estimate-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
 | Estimate Follow-Up Setup (Service Businesses) | `/estimate-follow-up-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Estimate Follow-Up Setup vs. DIY (SMB) | `/estimate-follow-up-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
@@ -388,8 +389,8 @@ Last updated: 2026-04-29 (shipped `/ai-phone-answering-vs-voicemail-for-service-
 
 ## Next Pages
 
-This run shipped `/ai-phone-answering-vs-voicemail-for-service-businesses` because the live generic service-business phone cluster already had the broader AI phone-answering parent, the missed-call text-back parent, and the text-back-vs-AI comparison, but it still lacked the heavier fallback decision between passive voicemail/manual callback and live AI answering. The new page stays narrower than the parent and separate from the lighter text-back comparison by focusing on when live phone coverage is worth it versus letting calls die in voicemail.
+This run shipped `/missed-call-text-back-vs-voicemail-for-service-businesses` because the live generic service-business phone cluster already had the broader missed-call text-back parent, the broader AI phone-answering parent, the text-back-vs-AI comparison, and the heavier AI-vs-voicemail comparison. The remaining clean missing layer was the lighter fallback decision between SMS-first missed-call recovery and passive voicemail/manual callback. With that page now live, the generic service-business phone cluster should be treated as broadly filled for now rather than forced into another same-cluster follow-up by inertia.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | `/missed-call-text-back-vs-voicemail-for-service-businesses` | The generic service-business phone cluster now has the broader AI phone-answering parent, the missed-call text-back parent, the text-back-vs-AI comparison, and now the heavier AI-vs-voicemail comparison. The remaining clean missing layer is the lighter fallback decision between SMS-first missed-call recovery and passive voicemail/manual callback. |
+| 1 | Broad reconciliation before naming another slug | The generic service-business phone cluster has now covered the cleaner parent + comparison layers. The next run should reconcile GEO-PLAN, `docs/programmatic-seo-pattern-matrix.md`, `scripts/geo-prompts.json`, and the live routes/pages to find the next planned unshipped page with direct proof adjacency instead of forcing another same-cluster phone page. |

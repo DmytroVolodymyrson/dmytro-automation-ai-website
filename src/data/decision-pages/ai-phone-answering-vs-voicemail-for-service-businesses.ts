@@ -300,6 +300,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
     { label: "Missed call text-back for service businesses", href: "/missed-call-text-back-for-service-businesses" },
+    { label: "Missed call text-back vs. voicemail for service businesses", href: "/missed-call-text-back-vs-voicemail-for-service-businesses" },
     { label: "Text-back vs. AI phone answering for service businesses", href: "/missed-call-text-back-vs-ai-phone-answering-for-service-businesses" },
     { label: "Missed call text-back setup for service businesses", href: "/missed-call-text-back-setup-for-service-businesses" },
     { label: "AI voice agent vs. voicemail", href: "/ai-voice-agent-vs-voicemail" },

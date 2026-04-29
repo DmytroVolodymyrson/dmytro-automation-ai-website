@@ -1108,7 +1108,7 @@
         "What should a mortgage broker automate first lead follow-up missed-call text-back document collection or incomplete application follow-up?",
         "Should a mortgage broker automate lead follow-up before document collection?",
         "Should a mortgage brokerage automate incomplete-application recovery before document reminders?",
-        "How do I choose the first automation project for a mortgage brokerage \u2014 lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
+        "How do I choose the first automation project for a mortgage brokerage — lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
       ]
     },
     {
@@ -2777,6 +2777,18 @@
         "When does voicemail actually cost a service business money compared to live AI answering?",
         "Is AI phone answering worth it for a small service business that still uses voicemail?",
         "How should a service business decide between keeping voicemail and switching to AI phone answering?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-voicemail-for-service-businesses",
+      "path": "/missed-call-text-back-vs-voicemail-for-service-businesses",
+      "label": "Missed Call Text-Back vs. Voicemail for Service Businesses",
+      "prompts": [
+        "Should a service business use missed-call text-back or voicemail?",
+        "Missed call text-back vs voicemail for service businesses",
+        "When is missed-call text-back better than voicemail for a service business?",
+        "Is voicemail enough for missed calls or should a service business use SMS-first recovery?",
+        "How should a service business choose between voicemail, text-back, and live AI phone answering?"
       ]
     },
     {

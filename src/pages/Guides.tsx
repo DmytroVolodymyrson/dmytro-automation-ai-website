@@ -427,6 +427,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "Missed Call Text-Back vs. Voicemail for Service Businesses",
+    description:
+      "Should a service business rely on voicemail or use missed-call text-back instead? Practical comparison of speed, caller effort, office workload, cost, and when AI phone answering is the next step.",
+    href: "/missed-call-text-back-vs-voicemail-for-service-businesses",
+    category: "comparisons",
+  },
+  {
     title: "n8n vs. Make for Small Business",
     description:
       "Comparing n8n and Make (formerly Integromat) for small business automation. Pricing, self-hosting, AI integration, and complexity handling.",

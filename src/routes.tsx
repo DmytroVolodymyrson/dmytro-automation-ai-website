@@ -276,6 +276,7 @@ import AppointmentSchedulingAndReminderAutomationForServiceBusinesses from "./pa
 import AppointmentSchedulingAndReminderAutomationVsAiAppointmentSetterForServiceBusinesses from "./pages/AppointmentSchedulingAndReminderAutomationVsAiAppointmentSetterForServiceBusinesses";
 import AiPhoneAnswering from "./pages/AiPhoneAnswering";
 import MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses from "./pages/MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses";
+import MissedCallTextBackVsVoicemailForServiceBusinesses from "./pages/MissedCallTextBackVsVoicemailForServiceBusinesses";
 import AiPhoneAnsweringVsVoicemailForServiceBusinesses from "./pages/AiPhoneAnsweringVsVoicemailForServiceBusinesses";
 import AiVoiceAgentForLeadQualification from "./pages/AiVoiceAgentForLeadQualification";
 import AiVoiceAgentSetupForLeadQualification from "./pages/AiVoiceAgentSetupForLeadQualification";
@@ -841,6 +842,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/booking-confirmation-and-reminder-automation", element: <BookingConfirmationAndReminder /> },
   { path: "/ai-phone-answering-for-service-businesses", element: <AiPhoneAnswering /> },
   { path: "/missed-call-text-back-vs-ai-phone-answering-for-service-businesses", element: <MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses /> },
+  { path: "/missed-call-text-back-vs-voicemail-for-service-businesses", element: <MissedCallTextBackVsVoicemailForServiceBusinesses /> },
   { path: "/ai-phone-answering-vs-voicemail-for-service-businesses", element: <AiPhoneAnsweringVsVoicemailForServiceBusinesses /> },
   { path: "/ai-voice-agent-lead-qualification", element: <AiVoiceAgentForLeadQualification /> },
   { path: "/ai-voice-agent-setup-for-lead-qualification", element: <AiVoiceAgentSetupForLeadQualification /> },
