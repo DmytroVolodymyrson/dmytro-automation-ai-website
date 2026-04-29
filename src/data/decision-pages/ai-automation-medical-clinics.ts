@@ -102,6 +102,13 @@ const data: DecisionPageData = {
           ],
         },
         {
+          label: "AI phone answering for medical clinics",
+          values: [
+            "Clinics where the main leak is unanswered calls during check-in rushes, lunch breaks, or after hours",
+            "Covers the heavier live phone-answering layer for clinics where voicemail and next-day callbacks are no longer enough",
+          ],
+        },
+        {
           label: "New patient intake and scheduling automation for chiropractors",
           values: [
             "Teams that already know the exact leak is first-visit intake and booking friction",
@@ -245,6 +252,7 @@ const data: DecisionPageData = {
     { label: "AI automation for dental practices", href: "/ai-automation-for-dental-practices" },
     { label: "AI automation for chiropractors", href: "/ai-automation-for-chiropractors" },
     { label: "AI automation for med spas", href: "/ai-automation-for-med-spas" },
+    { label: "AI phone answering for medical clinics", href: "/ai-phone-answering-for-medical-clinics" },
     { label: "AI phone answering for med spas", href: "/ai-phone-answering-for-med-spas" },
     { label: "New patient intake and scheduling automation for chiropractors", href: "/new-patient-intake-and-scheduling-automation-for-chiropractors" },
     { label: "All guides", href: "/guides" },

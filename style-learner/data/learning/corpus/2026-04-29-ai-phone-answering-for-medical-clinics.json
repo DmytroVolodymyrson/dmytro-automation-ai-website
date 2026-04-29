@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-ai-phone-answering-for-medical-clinics",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Phone Answering for Medical Clinics\nBody: Some medical clinics do not mainly have an intake problem or a reminder problem. They have a live phone-coverage problem. A patient calls while the front desk is checking someone in, staff are tied up with another caller, or the office closed twenty minutes ago. The call hits voicemail, nobody calls back fast enough, and the patient books with whoever answers first. AI phone answering for medical clinics is the heavier phone layer that sits beyond voicemail, delayed callbacks, or a simple missed-call text after the fact. It answers live, handles routine scheduling and next-step questions, captures the details staff need for a clean handoff, and routes higher-context conversations back to a human before after-hours demand turns into another empty slot later in the week.\nSub: Below: what a practical clinic live-answering workflow should actually handle, how it stays distinct from the broader medical clinics parent page and the first-project page, what proof honestly supports it, and when live AI phone answering is or is not the right next build.\n\n### Core sections\n- What AI phone answering should actually handle in a medical clinic\n- This page vs. the rest of the medical clinic cluster\n- When live AI phone answering is a good fit and when it is not\n- Guardrails that make clinic AI phone answering trustworthy\n- How a practical clinic AI phone-answering workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Straight answers for medical clinics considering live AI phone coverage\nTopics: how this differs from a simpler missed-call workflow, how it differs from the clinic booking-and-reminder page, what a focused AI phone-answering build usually costs for a medical clinic, whether AI phone answering can actually book clinic appointments, and whether AI phone answering replaces the front desk.\n\n### Final CTA\nHeading: Need to know if your clinic needs live AI phone answering or a lighter fallback?\nBody: Book a 30-minute call. We will look at your current call pattern, how much booking demand dies in voicemail or callbacks, and whether live AI phone answering is the right next step for your clinic or whether a narrower phone-recovery workflow would be smarter first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [],
+  "analysis": null
+}

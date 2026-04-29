@@ -1160,6 +1160,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-for-medical-clinics",
+      "path": "/ai-phone-answering-for-medical-clinics",
+      "label": "AI Phone Answering for Medical Clinics",
+      "prompts": [
+        "AI phone answering for medical clinics",
+        "How can a medical clinic handle patient calls after hours without hiring more front-desk staff?",
+        "Best way for a smaller outpatient clinic to answer patient calls live when staff are busy or the office is closed",
+        "Should a medical clinic use AI phone answering or stick with voicemail and next-day callbacks?",
+        "How does AI phone answering work for appointment-driven medical clinics?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-dental-practices",
       "path": "/what-to-automate-first-for-dental-practices",
       "label": "What to Automate First for Dental Practices",

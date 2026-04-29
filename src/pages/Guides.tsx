@@ -1360,6 +1360,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering for Medical Clinics",
+    description:
+      "A narrower clinic phone-coverage page focused on live patient call handling, after-hours appointment coverage, routine scheduling-question triage, and front-desk handoff when voicemail or next-day callbacks are too weak.",
+    href: "/ai-phone-answering-for-medical-clinics",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Dental Practices",
     description:
       "Scoping guide for dental practices deciding whether the first automation should be new-patient follow-up, booking and reminders, recall/reactivation, no-show reduction, or after-hours call handling before a broader rollout.",
