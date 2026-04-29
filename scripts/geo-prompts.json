@@ -1160,6 +1160,18 @@
       ]
     },
     {
+      "id": "recall-and-reactivation-automation-for-medical-clinics",
+      "path": "/recall-and-reactivation-automation-for-medical-clinics",
+      "label": "Recall and Reactivation Automation for Medical Clinics",
+      "prompts": [
+        "Recall and reactivation automation for medical clinics",
+        "How can a medical clinic bring overdue follow-up patients back automatically without more front-desk chase work?",
+        "Best way for a smaller outpatient clinic to handle recall and reactivation by visit interval",
+        "Should a medical clinic automate recall before broader no-show reduction or after-hours phone coverage?",
+        "How should a clinic reactivate overdue patients without making follow-up messages feel generic or spammy?"
+      ]
+    },
+    {
       "id": "ai-phone-answering-for-medical-clinics",
       "path": "/ai-phone-answering-for-medical-clinics",
       "label": "AI Phone Answering for Medical Clinics",

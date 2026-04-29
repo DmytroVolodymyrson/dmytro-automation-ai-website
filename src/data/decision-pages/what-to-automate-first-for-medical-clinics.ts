@@ -120,7 +120,7 @@ const data: DecisionPageData = {
             "The bigger leak is overdue patients who should be coming back but quietly disappear",
             "The clinic has strong patient history but almost no recall discipline by visit interval",
             "You want the highest-payoff first project from existing patient relationships rather than more net-new demand",
-            "Closest next page: /client-reactivation-automation",
+            "Closest next page: /recall-and-reactivation-automation-for-medical-clinics",
           ],
         },
         {
@@ -279,6 +279,7 @@ const data: DecisionPageData = {
       links: [
         { label: "AI automation for medical clinics", href: "/ai-automation-for-medical-clinics" },
         { label: "Intake forms and document collection automation for medical clinics", href: "/intake-forms-and-document-collection-automation-for-medical-clinics" },
+        { label: "Recall and reactivation automation for medical clinics", href: "/recall-and-reactivation-automation-for-medical-clinics" },
         { label: "AI phone answering for medical clinics", href: "/ai-phone-answering-for-medical-clinics" },
         { label: "What to automate first for dental practices", href: "/what-to-automate-first-for-dental-practices" },
         { label: "What to automate first for med spas", href: "/what-to-automate-first-for-med-spas" },
@@ -324,6 +325,7 @@ const data: DecisionPageData = {
     { label: "AI automation for medical clinics", href: "/ai-automation-for-medical-clinics" },
     { label: "Appointment scheduling and reminder automation for medical clinics", href: "/appointment-scheduling-and-reminder-automation-for-medical-clinics" },
     { label: "Intake forms and document collection automation for medical clinics", href: "/intake-forms-and-document-collection-automation-for-medical-clinics" },
+    { label: "Recall and reactivation automation for medical clinics", href: "/recall-and-reactivation-automation-for-medical-clinics" },
     { label: "AI phone answering for medical clinics", href: "/ai-phone-answering-for-medical-clinics" },
     { label: "What to automate first for dental practices", href: "/what-to-automate-first-for-dental-practices" },
     { label: "What to automate first for med spas", href: "/what-to-automate-first-for-med-spas" },

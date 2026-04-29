@@ -285,6 +285,7 @@ const data: DecisionPageData = {
     { label: "What to automate first for medical clinics", href: "/what-to-automate-first-for-medical-clinics" },
     { label: "Appointment scheduling and reminder automation for medical clinics", href: "/appointment-scheduling-and-reminder-automation-for-medical-clinics" },
     { label: "Intake forms and document collection automation for medical clinics", href: "/intake-forms-and-document-collection-automation-for-medical-clinics" },
+    { label: "Recall and reactivation automation for medical clinics", href: "/recall-and-reactivation-automation-for-medical-clinics" },
     { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
     { label: "All guides", href: "/guides" },
   ],

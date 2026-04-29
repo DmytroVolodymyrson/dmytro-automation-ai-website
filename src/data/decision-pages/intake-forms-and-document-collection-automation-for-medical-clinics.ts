@@ -269,6 +269,7 @@ const data: DecisionPageData = {
     { label: "AI automation for medical clinics", href: "/ai-automation-for-medical-clinics" },
     { label: "What to automate first for medical clinics", href: "/what-to-automate-first-for-medical-clinics" },
     { label: "Appointment scheduling and reminder automation for medical clinics", href: "/appointment-scheduling-and-reminder-automation-for-medical-clinics" },
+    { label: "Recall and reactivation automation for medical clinics", href: "/recall-and-reactivation-automation-for-medical-clinics" },
     { label: "Intake forms and document collection automation for service businesses", href: "/intake-forms-and-document-collection-automation-for-service-businesses" },
     { label: "New patient intake and scheduling automation for chiropractors", href: "/new-patient-intake-and-scheduling-automation-for-chiropractors" },
     { label: "All guides", href: "/guides" },

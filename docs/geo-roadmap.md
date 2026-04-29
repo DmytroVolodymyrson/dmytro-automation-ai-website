@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/ai-phone-answering-for-medical-clinics` — a live phone-coverage workflow page for smaller outpatient clinics focused on answering patient calls when staff are busy or the office is closed, handling routine scheduling questions on the call, capturing context for front-desk handoff, and protecting after-hours booking demand beyond voicemail or next-day callbacks. Chosen because the broader `/ai-automation-for-medical-clinics` parent and `/what-to-automate-first-for-medical-clinics` both isolate after-hours phone coverage as a distinct remaining clinic workflow, the exact slug was unshipped, and the framing stays separate from the generic `/ai-phone-answering-for-service-businesses` parent plus the live dental, chiropractic, and med-spa phone pages. Previous: `/intake-forms-and-document-collection-automation-for-medical-clinics`.)
+Last updated: 2026-04-29 (shipped `/recall-and-reactivation-automation-for-medical-clinics` — a retention-focused workflow page for smaller outpatient clinics where overdue follow-up, preventive, and repeat-visit patients quietly slip away because recall depends on memory, manual reports, or inconsistent front-desk ownership. Chosen because the broader `/ai-automation-for-medical-clinics` parent and `/what-to-automate-first-for-medical-clinics` both still isolated recall/reactivation as a distinct remaining clinic workflow, the exact slug was unshipped, and the framing stays separate from the generic `/client-reactivation-automation` parent plus the live dental and med-spa recall children. Previous: `/ai-phone-answering-for-medical-clinics`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 357.
+**Total live GEO pages tracked here:** 358.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -161,6 +161,7 @@ Last updated: 2026-04-29 (shipped `/ai-phone-answering-for-medical-clinics` — 
 | What to Automate First (Medical Clinics) | `/what-to-automate-first-for-medical-clinics` | Vertical decision page | Live |
 | Appointment Scheduling/Reminders (Medical Clinics) | `/appointment-scheduling-and-reminder-automation-for-medical-clinics` | Vertical workflow page | Live |
 | Intake Forms/Document Collection (Medical Clinics) | `/intake-forms-and-document-collection-automation-for-medical-clinics` | Vertical workflow page | Live |
+| Recall/Reactivation (Medical Clinics) | `/recall-and-reactivation-automation-for-medical-clinics` | Vertical workflow page | Live |
 | AI Phone Answering (Medical Clinics) | `/ai-phone-answering-for-medical-clinics` | Vertical solution page | Live |
 | What to Automate First (Dental) | `/what-to-automate-first-for-dental-practices` | Vertical decision page | Live |
 | AI Lead Follow-Up (Dental) | `/ai-lead-follow-up-for-dental-practices` | Vertical workflow page | Live |
@@ -369,16 +370,16 @@ Last updated: 2026-04-29 (shipped `/ai-phone-answering-for-medical-clinics` — 
 
 ## Next Pages
 
-This run shipped `/ai-phone-answering-for-medical-clinics`. That closes the strongest remaining phone-coverage gap inside the clinic cluster: both the parent page and the first-project page already isolated after-hours live phone handling as a distinct workflow, and the new page now gives that branch a clinic-specific destination instead of routing operators only to the generic `/ai-phone-answering-for-service-businesses` parent. The clinic cluster now has four live children (scheduling/reminders, intake forms, phone answering, plus the first-project scoping page) beside the parent. The next run should not force another clinic child by inertia. Reconcile the broader backlog first, then only return to the clinic cluster if a distinctly different recall or no-show child still survives overlap checks against the generic workflow pages and the live specialty-healthcare pages.
+This run shipped `/recall-and-reactivation-automation-for-medical-clinics`. That closes the strongest remaining retention gap inside the clinic cluster: both the parent page and the first-project page already isolated overdue-patient recall/reactivation as a distinct workflow, and the new page now gives that branch a clinic-specific destination instead of routing operators only to the generic `/client-reactivation-automation` parent. The clinic cluster now has five live children (scheduling/reminders, intake forms, recall/reactivation, phone answering, plus the first-project scoping page) beside the parent. The next run should still avoid forcing another clinic child by inertia. Reconcile the broader backlog first, then only return to the clinic cluster if the remaining no-show child still survives overlap checks against the generic workflow pages and the live specialty-healthcare pages.
 
 The next run should:
 
-1. **Keep manual GSC follow-through moving** on the newest clinic ships (phone answering, intake forms, scheduling/reminders) instead of treating publish alone as the finish line.
+1. **Keep manual GSC follow-through moving** on the newest clinic ships (recall/reactivation, phone answering, intake forms, scheduling/reminders) instead of treating publish alone as the finish line.
 2. **Run a fresh broad reconciliation first** across the roadmap, planning docs, live routes, and prompts so the queue does not get stuck forcing another clinic child by inertia.
-3. **If broad reconciliation does not surface a cleaner planned page elsewhere, re-check the remaining clinic recall/no-show gap** instead of repeating another phone or paperwork page.
+3. **If broad reconciliation does not surface a cleaner planned page elsewhere, re-check the remaining clinic no-show gap** instead of repeating another phone, paperwork, or recall page.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Manual GSC follow-through on newest clinic ships | Recent live pages (phone answering, intake forms, scheduling/reminders) still need inspection and indexing requests where appropriate, especially after meaningful copy and internal-link updates go live. | Check the newest live URLs in GSC after deploy propagation and request indexing only after the live route, sitemap, and on-page copy are all confirmed. |
+| 1 | Manual GSC follow-through on newest clinic ships | Recent live pages (recall/reactivation, phone answering, intake forms, scheduling/reminders) still need inspection and indexing requests where appropriate, especially after meaningful copy and internal-link updates go live. | Check the newest live URLs in GSC after deploy propagation and request indexing only after the live route, sitemap, and on-page copy are all confirmed. |
 | 2 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | After the clinic parent + first-project + scheduling + intake + phone children are all live, the cleanest next ship may now be outside the clinic cluster entirely. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |
-| 3 | Clinic recall/no-show child or broader backlog page (only if it survives review) | Recall and no-show reduction are the last two clinic workflow families mentioned by the parent and first-project pages that do not yet have clinic-specific children. However, generic pages for those workflows already exist. | Verify the exact slug is absent from routes/pages/prompts, confirm the framing stays distinct from the generic recall and no-show pages plus the live dental and chiropractic specialty children, and make sure the gap is real before shipping. |
+| 3 | Clinic no-show child or broader backlog page (only if it survives review) | No-show reduction is now the main clinic workflow family still mentioned by the parent and first-project pages without its own clinic-specific child. However, a generic no-show page and live specialty-healthcare children already exist. | Verify the exact slug is absent from routes/pages/prompts, confirm the framing stays distinct from the generic no-show page plus the live dental and specialty-healthcare children, and make sure the gap is real before shipping. |

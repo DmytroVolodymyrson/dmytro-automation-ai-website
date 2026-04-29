@@ -1360,6 +1360,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Recall and Reactivation Automation for Medical Clinics",
+    description:
+      "Retention-focused clinic workflow for overdue follow-up and repeat-visit patients, with interval-based reminders, lapse recovery, easy rebooking paths, and practical staff handoff when return care keeps slipping.",
+    href: "/recall-and-reactivation-automation-for-medical-clinics",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Medical Clinics",
     description:
       "A narrower clinic phone-coverage page focused on live patient call handling, after-hours appointment coverage, routine scheduling-question triage, and front-desk handoff when voicemail or next-day callbacks are too weak.",
