@@ -121,6 +121,32 @@ const AiAppointmentSetter = () => {
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.dmytroai.com/",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Guides",
+                item: "https://www.dmytroai.com/guides",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "AI Appointment Setter for Service Businesses",
+                item: "https://www.dmytroai.com/ai-appointment-setter",
+              },
+            ],
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
             "@type": "FAQPage",
             mainEntity: faqItems.map((item) => ({
               "@type": "Question",
@@ -602,20 +628,55 @@ const AiAppointmentSetter = () => {
         {/* Best-fit businesses */}
         <Section className="bg-secondary/30">
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
-            Businesses that benefit most
+            Which businesses benefit most from an AI appointment setter?
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
-            AI appointment setters work best for businesses where revenue
-            depends on booked appointments. The pattern is consistent:
+            AI appointment setters work best where revenue depends on booked appointments and where missed or slow first contact is already leaking money. The pattern is similar across industries, but the first build should still match the operating model.
           </p>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl">
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl">
             {[
-              { name: "Medical and dental practices", detail: "Patient scheduling, intake, reminders" },
-              { name: "Home services (HVAC, plumbing, electrical)", detail: "Service calls, estimates, dispatch" },
-              { name: "Salons and spas", detail: "Booking, confirmations, waitlist management" },
-              { name: "Legal and financial services", detail: "Consultation booking, qualification, follow-up" },
-              { name: "Real estate", detail: "Showing scheduling, buyer/seller qualification" },
-              { name: "Fitness and wellness", detail: "Class booking, personal training, trial sessions" },
+              {
+                name: "Medical and dental practices",
+                detail: "Patient scheduling, intake screening, and reminder timing. The first build usually covers new-patient qualification and no-show reduction before you add recall or reactivation layers.",
+                links: [
+                  { label: "Medical clinic automation", href: "/ai-automation-for-medical-clinics" },
+                  { label: "Dental practice automation", href: "/ai-automation-for-dental-practices" },
+                ],
+              },
+              {
+                name: "Home services (HVAC, plumbing, electrical)",
+                detail: "Service-call booking, estimate requests, and dispatch routing. After-hours phone coverage is often the highest-ROI first project because missed calls can turn into same-day lost jobs.",
+                links: [
+                  { label: "Home-service appointment setter", href: "/ai-appointment-setter-for-home-service-businesses" },
+                  { label: "HVAC automation", href: "/ai-automation-for-hvac-companies" },
+                ],
+              },
+              {
+                name: "Med spas and salons",
+                detail: "Consultation booking, confirmations, and waitlist management. Reminder sequences and no-show handling often recover ROI before a heavier front-desk replacement build is necessary.",
+                links: [
+                  { label: "Med spa automation", href: "/ai-automation-for-med-spas" },
+                ],
+              },
+              {
+                name: "Law firms and financial services",
+                detail: "Consultation booking, lead qualification, and follow-up. These teams usually need the AI to screen for urgency and fit before it offers a calendar slot.",
+                links: [
+                  { label: "Law firm automation", href: "/ai-automation-for-law-firms" },
+                ],
+              },
+              {
+                name: "Real estate teams",
+                detail: "Showing scheduling, buyer or seller qualification, and lead-response speed. The biggest win is often instant response to new inquiries before the lead talks to another agent.",
+                links: [
+                  { label: "Real estate automation", href: "/ai-automation-for-real-estate" },
+                ],
+              },
+              {
+                name: "Fitness and wellness studios",
+                detail: "Class booking, trial-session scheduling, and personal-training follow-up. Volume-based businesses benefit most because even small no-show reductions compound across dozens of daily slots.",
+                links: [],
+              },
             ].map((biz, i) => (
               <motion.div
                 key={biz.name}
@@ -623,15 +684,32 @@ const AiAppointmentSetter = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.05, duration: 0.35 }}
-                className="rounded-2xl border border-border/60 bg-card/80 p-5"
+                className="rounded-2xl border border-border/60 bg-card/80 p-5 flex flex-col"
               >
-                <h3 className="text-base font-semibold text-foreground mb-1">
+                <h3 className="text-base font-semibold text-foreground mb-2">
                   {biz.name}
                 </h3>
-                <p className="text-sm text-muted-foreground">{biz.detail}</p>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-3 flex-1">{biz.detail}</p>
+                {biz.links.length > 0 && (
+                  <div className="flex flex-wrap gap-3">
+                    {biz.links.map((link) => (
+                      <Link
+                        key={link.href}
+                        to={link.href}
+                        className="text-sm font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+                      >
+                        {link.label}
+                        <ArrowRight className="w-3.5 h-3.5" />
+                      </Link>
+                    ))}
+                  </div>
+                )}
               </motion.div>
             ))}
           </div>
+          <p className="text-sm text-muted-foreground mt-8 max-w-3xl leading-relaxed">
+            If your industry is not listed, use the <Link to="#good-fit-not-a-fit" className="text-primary hover:text-primary/80 underline underline-offset-4">fit/not-a-fit checklist below</Link> and compare the <Link to="/best-ai-automation-for-service-businesses" className="text-primary hover:text-primary/80 underline underline-offset-4">top AI automations for service businesses</Link> before assuming a full appointment setter is the first workflow you need.
+          </p>
         </Section>
 
         {/* What it should not replace */}
