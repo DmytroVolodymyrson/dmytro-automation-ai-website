@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/estimate-follow-up-setup-vs-diy-small-business` after reconciliation confirmed the estimate-follow-up cluster already had the parent, setup-help, cost, ROI, and comparison layers live but still lacked the exact buy-vs-build child. The new page stays narrowly on owner time, estimate-stage trigger quality, estimator-to-office handoff, stale-estimate logic, reply routing, and when bounded setup help is cheaper than more DIY drift. Previous: bounded refresh on `/ai-automation-for-businesses-without-a-tech-team`.)
+Last updated: 2026-04-29 (shipped `/missed-call-text-back-setup-vs-diy-small-business` after reconciliation confirmed the missed-call text-back cluster already had the parent, setup-help, cost, ROI, and comparison layers live but still lacked the exact buy-vs-build child. The new page stays narrowly on owner time, answered-call filtering, business-hours vs after-hours logic, CRM logging, duplicate prevention, urgency routing, and when bounded setup help is cheaper than more DIY drift. Previous: `/estimate-follow-up-setup-vs-diy-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 362.
+**Total live GEO pages tracked here:** 363.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -37,6 +37,7 @@ Last updated: 2026-04-29 (shipped `/estimate-follow-up-setup-vs-diy-small-busine
 | Missed Call Text-Back Cost (SMB) | `/missed-call-text-back-cost-small-business` | Workflow / service cost page | Live |
 | Missed Call Text-Back ROI (SMB) | `/missed-call-text-back-roi-small-business` | Workflow / ROI page | Live |
 | Missed Call Text-Back Setup (Service Businesses) | `/missed-call-text-back-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| Missed-Call Text-Back Setup vs. DIY (SMB) | `/missed-call-text-back-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | Missed Call Text-Back vs. AI Phone Answering (Service Businesses) | `/missed-call-text-back-vs-ai-phone-answering-for-service-businesses` | Workflow comparison page | Live |
 | Estimate Follow-Up Automation (Service Businesses) | `/estimate-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
 | Estimate Follow-Up Setup (Service Businesses) | `/estimate-follow-up-setup-for-service-businesses` | Workflow / setup-help page | Live |
@@ -374,10 +375,10 @@ Last updated: 2026-04-29 (shipped `/estimate-follow-up-setup-vs-diy-small-busine
 
 ## Next Pages
 
-This run shipped `/estimate-follow-up-setup-vs-diy-small-business` because the live estimate-follow-up cluster already had the parent, setup-help, cost, ROI, and comparison layers live, and the remaining clean buyer decision was whether a small business should keep DIYing estimate-stage setup or pay for help now. The page stays narrower than the setup-help page by focusing on owner time, estimate-stage trigger quality, estimator-to-office handoff, stale-estimate logic, and when bounded setup help is cheaper than more DIY drift.
+This run shipped `/missed-call-text-back-setup-vs-diy-small-business` because the live missed-call text-back cluster already had the parent, setup-help, cost, ROI, and comparison layers live, and the remaining clean buyer decision was whether a small business should keep DIYing text-back setup or pay for help now. The new page stays narrower than the setup-help page by focusing on owner time, answered-call filtering, business-hours versus after-hours logic, CRM logging, duplicate prevention, urgency routing, and when bounded setup help is cheaper than more DIY drift.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | `/missed-call-text-back-setup-vs-diy-small-business` | The missed-call-text-back setup page already tracks an explicit buy-vs-build prompt (`Should I pay for missed-call text-back setup help or build it myself?`), the slug remains absent across routes/data/guides/sitemap/llm/prompts, and the setup cluster is mature enough to support the narrower child cleanly. |
-| 2 | Broad reconciliation across other mature setup-help / cost / ROI clusters | Next-best ship should still come from an exact surviving buyer query inside a live cluster, not a guessed sibling page. |
+| 1 | Broad reconciliation across other mature setup-help / cost / ROI clusters | Next-best ship should still come from an exact surviving buyer query inside a live cluster, not a guessed sibling page. |
+| 2 | Cross-check GEO-PLAN, roadmap, pattern matrix, prompts, and live routes before naming a new slug | The queue is honest again only if the next candidate survives planning-doc drift, prompt ownership, and route/data/discovery checks. |
 | 3 | Existing-page discovery / tracking refresh if no clean new slug survives | If no clearly distinct page remains after reconciliation, tighten guides/llm/prompt coverage on the strongest live clusters instead of creating a thin page. |

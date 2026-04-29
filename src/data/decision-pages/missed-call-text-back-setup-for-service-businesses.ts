@@ -167,6 +167,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "Missed call text-back for service businesses", href: "/missed-call-text-back-for-service-businesses" },
+        { label: "Missed-call text-back setup vs. DIY for small business", href: "/missed-call-text-back-setup-vs-diy-small-business" },
         { label: "Missed call text-back cost for small business", href: "/missed-call-text-back-cost-small-business" },
         { label: "Missed call text-back ROI for small business", href: "/missed-call-text-back-roi-small-business" },
         { label: "Missed call text-back vs. AI phone answering", href: "/missed-call-text-back-vs-ai-phone-answering-for-service-businesses" },
@@ -210,6 +211,7 @@ const data: DecisionPageData = {
     "No generic demo. Just a practical conversation about what your text-back setup actually needs.",
   relatedLinks: [
     { label: "Missed call text-back for service businesses", href: "/missed-call-text-back-for-service-businesses" },
+    { label: "Missed-call text-back setup vs. DIY for small business", href: "/missed-call-text-back-setup-vs-diy-small-business" },
     { label: "Missed call text-back cost for small business", href: "/missed-call-text-back-cost-small-business" },
     { label: "Missed call text-back ROI for small business", href: "/missed-call-text-back-roi-small-business" },
     { label: "Missed call text-back vs. AI phone answering", href: "/missed-call-text-back-vs-ai-phone-answering-for-service-businesses" },

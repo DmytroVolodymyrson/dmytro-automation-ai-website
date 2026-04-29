@@ -2367,8 +2367,20 @@
         "What should missed-call text-back setup include for a small service business?",
         "How do I set up missed-call text-back for a service business?",
         "What is the best missed-call text-back setup for a small service business?",
-        "Should I pay for missed-call text-back setup help or build it myself?",
+        "When is missed-call text-back setup help worth paying for instead of a simpler phone workflow?",
         "What needs to be configured before a missed-call text-back workflow goes live?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-setup-vs-diy-small-business",
+      "path": "/missed-call-text-back-setup-vs-diy-small-business",
+      "label": "Missed-Call Text-Back Setup vs. DIY for Small Business",
+      "prompts": [
+        "Should I pay for missed-call text-back setup help or build it myself?",
+        "Is DIY missed-call text-back setup good enough for a small business?",
+        "When should a small business hire help for missed-call text-back setup?",
+        "What makes missed-call text-back setup risky to DIY?",
+        "How do I decide between DIY text-back setup and a bounded setup engagement?"
       ]
     },
     {

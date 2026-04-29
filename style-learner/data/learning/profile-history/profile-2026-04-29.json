@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-29T16:02:59.699Z",
+  "updatedAt": "2026-04-29T16:16:44.778Z",
   "postCount": 539,
   "platforms": {
     "telegram": 0,
@@ -227,7 +227,7 @@
         ]
       },
       "standard-opener": {
-        "count": 372,
+        "count": 371,
         "examples": [
           "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an autom",
           "Section heading: Real Results for Real Businesses\nSubheading: Here's what happen",
@@ -235,7 +235,7 @@
         ]
       },
       "question": {
-        "count": 32,
+        "count": 33,
         "examples": [
           "Q: What kind of businesses do you work with?",
           "### Hero\nBadge: AI Automation Consulting\nHeading: Do you actually need an AI aut",
@@ -307,7 +307,7 @@
       ],
       [
         "what",
-        1961
+        1956
       ],
       [
         "automation",
@@ -315,35 +315,35 @@
       ],
       [
         "ai",
-        1171
+        1158
       ],
       [
         "workflow",
-        1107
+        1103
       ],
       [
         "how",
-        1090
+        1085
       ],
       [
         "page",
-        1037
+        1032
       ],
       [
         "it",
-        986
+        981
       ],
       [
         "when",
-        896
+        903
       ],
       [
         "this",
-        885
+        889
       ],
       [
         "phone",
-        877
+        868
       ],
       [
         "follow-up",
@@ -351,7 +351,7 @@
       ],
       [
         "whether",
-        719
+        722
       ],
       [
         "first",
@@ -363,23 +363,27 @@
       ],
       [
         "live",
-        622
+        615
       ],
       [
         "call",
-        545
+        549
       ],
       [
         "text-back",
-        533
+        540
       ],
       [
         "answering",
-        518
+        508
       ],
       [
         "from",
         507
+      ],
+      [
+        "missed-call",
+        460
       ],
       [
         "voicemail",
@@ -390,16 +394,12 @@
         452
       ],
       [
-        "missed-call",
-        452
-      ],
-      [
         "should",
         440
       ],
       [
         "not",
-        382
+        379
       ],
       [
         "lead",
@@ -411,7 +411,7 @@
       ],
       [
         "setup",
-        340
+        349
       ],
       [
         "body",

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-missed-call-text-back-setup-vs-diy-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Missed-Call Text-Back Setup: Hire Help or DIY?\nBody: DIY can be completely reasonable when missed-call text-back is still a narrow build: one phone number, one clean missed-call trigger, one message path, and low enough call volume that an occasional mistake will not create real customer confusion or lost revenue. Hiring help usually becomes the better move once business-hours versus after-hours logic matters, answered-call filtering needs to be trustworthy, CRM logging has to stay clean, duplicate contacts create follow-up noise, or urgent replies need to route to the right human fast. The real question is not whether you could wire a text after a missed call. It is whether this phone-recovery layer is important enough that you want it live, reliable, and low-risk without spending nights debugging trigger filters, timing windows, escalation rules, and contact-creation mess.\nSub: Below: when DIY missed-call text-back setup is still a smart move, when expert help usually pays for itself, what each path really costs, and how to tell whether you need a quick tutorial, a bounded setup engagement, or a simpler phone workflow first.\n\n### Core sections\n- What this decision is really about\n- DIY missed-call text-back setup vs. hiring expert help\n- When DIY is a strong fit — and when hiring help is smarter\n- Where small-business DIY text-back setups usually start breaking down\n- How to make the right call before you burn a week on setup\n- Relevant proof and adjacent proof\n\n### FAQ\nSubhead: Practical questions from owners deciding whether to keep building missed-call text-back alone or bring in expert setup help\nTopics: when DIY missed-call text-back setup is actually the right move, when to hire someone instead, how this differs from the existing setup-help page, what expert setup usually costs, and whether it makes sense to prototype alone first and harden later.\n\n### Final CTA\nHeading: Want a clear answer on whether this workflow is worth DIYing?\nBody: Book a 30-minute call. We will look at your missed-call pattern, phone-system behavior, CRM handoff, and owner-time constraints, then tell you whether to keep the first version DIY, scope a bounded setup engagement, or simplify the phone layer before spending more.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the buy-vs-build child inside the missed-call text-back cluster after reconciliation confirmed the live parent, setup-help, cost, ROI, and comparison layers were already live but the exact hire-help-vs-DIY decision was still missing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays distinct from `/missed-call-text-back-setup-for-service-businesses` by focusing on the buyer decision itself, from `/missed-call-text-back-cost-small-business` by staying on owner time and workflow risk instead of budget ranges, and from `/missed-call-text-back-roi-small-business` by staying on implementation choice instead of payback math."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live missed-call text-back cluster, the setup/cost/ROI siblings, and the Paris Cafe call-recovery case study support the logic without pretending there is already a dedicated missed-call text-back setup case study on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fit / not-fit framing, narrow workflow scoping, clear warnings about trigger filtering and duplicate-contact drift, and direct guidance on when expert setup is actually worth paying for."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T16:16:14.564Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 29.9,
+      "sentenceLengthRange": [
+        5,
+        61
+      ],
+      "totalWords": 359
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nHeading: Missed-Call Text-Back Setup: Hire Help or DIY?",
+      "wordCount": 9,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a clear answer on whether this workflow is worth DIYing?\nBody: Book a 30-minute call. We will look at your missed-call pattern, phone-system behavior, CRM handoff, and owner-time constraints, then tell you whether to keep the first version DIY, scope a bounded setup engagement, or simplify the phone layer before spending more.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 27,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 10,
+      "commasPerSentence": 2.45
+    },
+    "vocabulary": {
+      "distinctWords": 195,
+      "totalWords": 359,
+      "topWords": [
+        [
+          "setup",
+          9
+        ],
+        [
+          "missed-call",
+          8
+        ],
+        [
+          "diy",
+          8
+        ],
+        [
+          "text-back",
+          7
+        ],
+        [
+          "when",
+          7
+        ],
+        [
+          "whether",
+          7
+        ],
+        [
+          "help",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "call",
+          4
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "expert",
+          4
+        ],
+        [
+          "one",
+          3
+        ],
+        [
+          "phone",
+          3
+        ],
+        [
+          "hiring",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.008
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
