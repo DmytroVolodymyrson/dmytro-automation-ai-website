@@ -1148,6 +1148,18 @@
       ]
     },
     {
+      "id": "intake-forms-and-document-collection-automation-for-medical-clinics",
+      "path": "/intake-forms-and-document-collection-automation-for-medical-clinics",
+      "label": "Intake Forms and Document Collection Automation for Medical Clinics",
+      "prompts": [
+        "Intake forms and document collection automation for medical clinics",
+        "How can a medical clinic automate patient intake forms and missing paperwork before the visit?",
+        "Best way for a smaller outpatient clinic to collect intake forms and missing documents without more front-desk chase work",
+        "Should a medical clinic automate intake prep before no-show reduction or broader recall workflows?",
+        "How should a clinic handle pre-visit forms, prep instructions, and missing documents without chaotic check-in handoff?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-dental-practices",
       "path": "/what-to-automate-first-for-dental-practices",
       "label": "What to Automate First for Dental Practices",

@@ -1353,6 +1353,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Intake Forms and Document Collection Automation for Medical Clinics",
+    description:
+      "Pre-visit clinic workflow focused on intake forms, missing paperwork, clear prep instructions, secure upload paths, and cleaner front-desk handoff before the appointment starts in chaos.",
+    href: "/intake-forms-and-document-collection-automation-for-medical-clinics",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Dental Practices",
     description:
       "Scoping guide for dental practices deciding whether the first automation should be new-patient follow-up, booking and reminders, recall/reactivation, no-show reduction, or after-hours call handling before a broader rollout.",

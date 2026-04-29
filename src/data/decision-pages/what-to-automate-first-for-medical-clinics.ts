@@ -100,7 +100,7 @@ const data: DecisionPageData = {
             "Patients show up without completed forms, insurance details, or pre-visit instructions",
             "Staff spend the first minutes of each visit chasing paperwork instead of caring for patients",
             "You want to improve visit efficiency without touching booking or reminder flow yet",
-            "Closest next page: /intake-forms-and-document-collection-automation-for-service-businesses",
+            "Closest next page: /intake-forms-and-document-collection-automation-for-medical-clinics",
           ],
         },
         {
@@ -278,6 +278,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "AI automation for medical clinics", href: "/ai-automation-for-medical-clinics" },
+        { label: "Intake forms and document collection automation for medical clinics", href: "/intake-forms-and-document-collection-automation-for-medical-clinics" },
         { label: "What to automate first for dental practices", href: "/what-to-automate-first-for-dental-practices" },
         { label: "What to automate first for med spas", href: "/what-to-automate-first-for-med-spas" },
         { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
@@ -321,6 +322,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation for medical clinics", href: "/ai-automation-for-medical-clinics" },
     { label: "Appointment scheduling and reminder automation for medical clinics", href: "/appointment-scheduling-and-reminder-automation-for-medical-clinics" },
+    { label: "Intake forms and document collection automation for medical clinics", href: "/intake-forms-and-document-collection-automation-for-medical-clinics" },
     { label: "What to automate first for dental practices", href: "/what-to-automate-first-for-dental-practices" },
     { label: "What to automate first for med spas", href: "/what-to-automate-first-for-med-spas" },
     { label: "No-show reduction automation", href: "/no-show-reduction-automation" },

@@ -268,6 +268,7 @@ const data: DecisionPageData = {
     { label: "Client onboarding automation for accounting firms", href: "/client-onboarding-automation-for-accounting-firms" },
     { label: "Document collection automation for mortgage brokers", href: "/document-collection-automation-for-mortgage-brokers" },
     { label: "Intake and conflict-check automation for law firms", href: "/intake-and-conflict-check-automation-for-law-firms" },
+    { label: "Intake forms and document collection automation for medical clinics", href: "/intake-forms-and-document-collection-automation-for-medical-clinics" },
     { label: "All guides", href: "/guides" },
   ],
 };
