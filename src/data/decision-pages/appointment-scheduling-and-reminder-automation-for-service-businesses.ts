@@ -287,6 +287,7 @@ const data: DecisionPageData = {
       href: "/booking-confirmation-and-reminder-automation",
     },
     { label: "Appointment scheduling and reminder setup", href: "/appointment-scheduling-and-reminder-setup-for-service-businesses" },
+    { label: "Appointment scheduling and reminder cost", href: "/appointment-scheduling-and-reminder-cost-small-business" },
     { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
     { label: "No-show reduction setup", href: "/no-show-reduction-setup-for-service-businesses" },
   ],

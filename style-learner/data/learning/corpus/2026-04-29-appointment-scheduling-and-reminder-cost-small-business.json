@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-appointment-scheduling-and-reminder-cost-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Appointment Scheduling and Reminder Cost for Small Business\nBody: Most small service businesses should expect a focused appointment scheduling and reminder build to land somewhere between $1.2K and $4K, with monthly running costs usually in the $20-$95 range depending on booking volume, messaging usage, reschedule complexity, prep-step enforcement, and how much CRM or calendar cleanup already exists. The useful question is not just \"what does scheduling automation cost?\" It is \"what part of the booking-to-attendance workflow am I actually trying to fix?\" A business that mostly needs disciplined confirmations and reminders should not pay for the same system as a business that needs different reminder timing by appointment type, live reschedule handling, prep-step enforcement before higher-value visits, and clean owner handoff when replies come in. This page prices the scheduling-and-reminder layer itself — not a broader lead-follow-up build, not a full appointment-setter project, and not a generic CRM overhaul — so a small business can budget the narrowest calendar-protection workflow that actually solves the leak.\nSub: Below: what different scheduling-and-reminder builds usually cost, what those budget bands actually buy, what makes the price go up, where small businesses overspend, and when the economics make sense versus when a simpler manual process is still enough.\n\n### Core sections\n- What appointment scheduling and reminder automation usually costs\n- What those budget bands actually buy\n- What makes the price go up\n- When scheduling automation is worth paying for — and when it is not\n- How to budget this without overspending\n- Proof and adjacent proof\n- What small businesses usually get wrong about scheduling automation pricing\n\n### FAQ\nSubhead: Practical answers about budgeting appointment scheduling and reminder automation for a small business\nTopics: what appointment scheduling and reminder automation usually costs, how it differs from the scheduling setup page, how it differs from the broader appointment scheduling parent page, what usually makes scheduling automation expensive, and how to know if the cost is worth it.\n\n### Final CTA\nHeading: Want a realistic quote for your scheduling and reminder workflow?\nBody: Book a 30-minute call. We will look at how appointments are booked and confirmed today, where reminders or reschedules break, and scope the narrowest build that protects your calendar without creating message fatigue or staff confusion.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the cross-industry cost child inside the generic service-business appointment scheduling cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the cluster already had the broader scheduling parent (`/appointment-scheduling-and-reminder-automation-for-service-businesses`), the vs-AI-appointment-setter comparison, and the setup child, but still lacked the pricing/economics layer that other mature workflow families already have."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays distinct from `/appointment-scheduling-and-reminder-automation-for-service-businesses` by focusing on budgeting and scope, from `/appointment-scheduling-and-reminder-setup-for-service-businesses` by staying on price rather than implementation details, and from `/ai-appointment-setter-cost-small-business` by staying strictly on booked-appointment follow-through instead of front-end qualification or booking conversations."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live scheduling cluster, the setup sibling, and the Paris Cafe case study support the pricing logic without pretending there is already a dedicated scheduling-cost case study on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fit / not-fit framing, concrete budget bands, narrow workflow scoping, and direct warnings against overbuying a broader appointment-setter or CRM rebuild when the real leak is calendar follow-through."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T23:11:30.563Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 41.4,
+      "sentenceLengthRange": [
+        5,
+        68
+      ],
+      "totalWords": 373
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Appointment Scheduling and Reminder Cost for Small Business\nBody: Most small service businesses should expect a focused appointment scheduling and reminder build to land somewhere between $1.2K and $4K, with monthly running costs usually in the $20-$95 range depending on booking volume, messaging usage, reschedule complexity, prep-step enforcement, and how much CRM or calendar cleanup already exists.",
+      "wordCount": 59,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a realistic quote for your scheduling and reminder workflow?\nBody: Book a 30-minute call. We will look at how appointments are booked and confirmed today, where reminders or reschedules break, and scope the narrowest build that protects your calendar without creating message fatigue or staff confusion.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 20,
+      "emDashes": 3,
+      "enDashes": 0,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 3,
+      "colon": 8,
+      "commasPerSentence": 2.5
+    },
+    "vocabulary": {
+      "distinctWords": 189,
+      "totalWords": 373,
+      "topWords": [
+        [
+          "scheduling",
+          12
+        ],
+        [
+          "what",
+          11
+        ],
+        [
+          "appointment",
+          7
+        ],
+        [
+          "reminder",
+          7
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "-",
+          7
+        ],
+        [
+          "small",
+          6
+        ],
+        [
+          "usually",
+          6
+        ],
+        [
+          "how",
+          6
+        ],
+        [
+          "not",
+          6
+        ],
+        [
+          "business",
+          5
+        ],
+        [
+          "it",
+          5
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "cost",
+          4
+        ],
+        [
+          "actually",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

@@ -2732,6 +2732,18 @@
       ]
     },
     {
+      "id": "appointment-scheduling-and-reminder-cost-small-business",
+      "path": "/appointment-scheduling-and-reminder-cost-small-business",
+      "label": "Appointment Scheduling and Reminder Cost for Small Business",
+      "prompts": [
+        "what does appointment scheduling and reminder automation cost for a small business",
+        "how much should a small business budget for appointment scheduling and reminder automation",
+        "what affects the price of scheduling and reminder automation after an appointment is booked",
+        "is appointment scheduling and reminder automation worth it for a small business",
+        "what is the difference between scheduling automation cost and ai appointment setter cost"
+      ]
+    },
+    {
       "id": "contact-form-autoresponder-vs-full-lead-follow-up",
       "path": "/contact-form-autoresponder-vs-full-lead-follow-up",
       "label": "Contact Form Autoresponder vs. Full Lead Follow-Up",

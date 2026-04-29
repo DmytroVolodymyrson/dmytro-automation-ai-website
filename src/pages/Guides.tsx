@@ -981,6 +981,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Appointment Scheduling and Reminder Cost for Small Business",
+    description:
+      "Practical pricing guide for service businesses budgeting scheduling automation. Covers confirmations, reminder timing, reschedule routing, prep-step enforcement, CRM visibility, and where owners overspend.",
+    href: "/appointment-scheduling-and-reminder-cost-small-business",
+    category: "workflows",
+  },
+  {
     title: "Contact Form Autoresponder vs. Full Lead Follow-Up",
     description:
       "Decision guide for owners asking whether a basic form autoresponder is still enough or whether website leads now need a real workflow with qualification, routing, and short follow-up.",
