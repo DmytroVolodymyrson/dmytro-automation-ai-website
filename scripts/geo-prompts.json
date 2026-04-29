@@ -2276,6 +2276,18 @@
       ]
     },
     {
+      "id": "quote-follow-up-setup-for-service-businesses",
+      "path": "/quote-follow-up-setup-for-service-businesses",
+      "label": "Quote Follow-Up Setup for Service Businesses",
+      "prompts": [
+        "What does quote follow-up setup involve for a service business?",
+        "How should a service business set up quote follow-up before launch?",
+        "What should quote follow-up setup help include for a small service business?",
+        "When is setup help worth paying for before quote follow-up goes live?",
+        "What usually breaks quote follow-up automation after pricing goes out?"
+      ]
+    },
+    {
       "id": "client-reactivation-automation-for-service-businesses",
       "path": "/client-reactivation-automation-for-service-businesses",
       "label": "Client Reactivation Automation for Service Businesses",

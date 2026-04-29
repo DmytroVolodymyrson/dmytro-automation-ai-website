@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/estimate-follow-up-setup-for-service-businesses` — a new cross-industry setup-help child inside the estimate-follow-up cluster covering estimate-stage triggers, stale-estimate thresholds, estimator-to-office handoff, CRM mapping, stop rules, reply routing, and testing before launch. Stays distinct from the service-business estimate-follow-up parent by focusing on implementation scope, from the cost child by focusing on setup quality instead of budget, and from the ROI child by focusing on launch readiness instead of payback math. Previous: `/client-reactivation-setup-for-service-businesses`.)
+Last updated: 2026-04-29 (shipped `/quote-follow-up-setup-for-service-businesses` — a new cross-industry setup-help child inside the quote-follow-up cluster covering quote-sent triggers, ownership rules after pricing goes out, stale-quote thresholds, CRM mapping, stop rules, reply routing, and launch testing. Stays distinct from the service-business quote-follow-up parent by focusing on implementation scope before launch, from the estimate-follow-up setup child by staying broader than field-visit estimate recovery, and from future cost / ROI children by focusing on build quality instead of budget or payback. Previous: `/estimate-follow-up-setup-for-service-businesses`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 342.
+**Total live GEO pages tracked here:** 343.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -36,6 +36,7 @@ Last updated: 2026-04-29 (shipped `/estimate-follow-up-setup-for-service-busines
 | Estimate Follow-Up Setup (Service Businesses) | `/estimate-follow-up-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Estimate Follow-Up vs. Quote Follow-Up (Service Businesses) | `/estimate-follow-up-vs-quote-follow-up-for-service-businesses` | Workflow comparison page | Live |
 | Quote Follow-Up Automation (Service Businesses) | `/quote-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
+| Quote Follow-Up Setup (Service Businesses) | `/quote-follow-up-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Appointment Scheduling & Reminder Automation (Service Businesses) | `/appointment-scheduling-and-reminder-automation-for-service-businesses` | Workflow parent page | Live |
 | Appointment Scheduling & Reminder Automation vs. AI Appointment Setter (Service Businesses) | `/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses` | Workflow comparison page | Live |
 | Client Reactivation Automation (Service Businesses) | `/client-reactivation-automation-for-service-businesses` | Workflow parent page | Live |
@@ -354,16 +355,16 @@ Last updated: 2026-04-29 (shipped `/estimate-follow-up-setup-for-service-busines
 
 ## Next Pages
 
-This run shipped `/estimate-follow-up-setup-for-service-businesses`. The cross-industry estimate-follow-up cluster now has the parent workflow page, the setup-help child, the cost child, the ROI child, and the estimate-vs-quote comparison child. That fills the cleanest remaining implementation-intent gap in the cluster: the parent explained how estimate recovery works, the cost page covered budget, the ROI page covered payback, and the comparison page covered scope choice, but nothing handled the pre-launch question of what has to be configured before estimate recovery goes live without creating ownership and routing confusion.
+This run shipped `/quote-follow-up-setup-for-service-businesses`. The cross-industry quote-follow-up cluster now has the service-business parent plus the new setup-help child, alongside the narrower estimate-follow-up parent and setup child that define the field-service branch of the same post-pricing decision layer. That fills the cleanest remaining implementation-intent gap in the quote-follow-up cluster: the parent explained how quote recovery works and the estimate-vs-quote comparison clarified scope, but nothing handled the pre-launch question of what has to be configured before broader quote-stage recovery goes live without creating ownership, routing, and stale-pipeline confusion.
 
 The next run should:
 
-1. **Start from a fresh broad reconciliation before naming the next net-new page.** The repo is dense enough that stale docs can still over-credit a cluster or make an already-live page look missing.
+1. **Start from a fresh broad reconciliation before naming the next net-new page.** This repo is now dense enough that stale docs can still over-credit one cluster or make an already-live child look missing.
 2. **Keep manual GSC follow-through moving** on the newest workflow ships instead of treating publish alone as the finish line.
-3. **Bias toward the next surviving implementation-intent or comparison child** only if it still passes route, prompt, and proof checks after reconciliation.
+3. **Bias toward the next surviving implementation-intent, cost, ROI, or buyer-decision child** only if it still passes route, prompt, and proof checks after reconciliation.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | The estimate-follow-up setup child is now live, so the next clean ship should come from whichever surviving workflow, comparison, setup, or vertical gap still passes route, prompt, and proof checks after a repo-wide reality check. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |
+| 1 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | The quote-follow-up setup child is now live, so the next clean ship should come from whichever surviving workflow, comparison, setup, cost, ROI, or vertical gap still passes route, prompt, and proof checks after a repo-wide reality check. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |
 | 2 | Manual GSC follow-through on newest live workflow pages | Recent ships still need inspection and indexing requests where appropriate. | Check the newest live URLs in GSC after deploy propagation and request indexing only after meaningful copy/internal-link updates are live. |
-| 3 | Next surviving implementation-intent child discovered during reconciliation | The best next page is still more likely to come from a setup / build-quality or buyer-decision gap than from another broad parent, but the exact slug should be named only after the next reality check. | Verify the exact slug is absent from both route files, Guides, sitemap, llm files, `scripts/geo-prompts.json`, and nearby cluster docs before shipping. |
+| 3 | Next surviving post-pricing child discovered during reconciliation | The strongest next page may still come from a setup / economics / buyer-decision gap in a live quote, estimate, lead-follow-up, or phone cluster, but the exact slug should be named only after the next reality check. | Verify the exact slug is absent from both route files, Guides, sitemap, llm files, `scripts/geo-prompts.json`, and nearby cluster docs before shipping. |

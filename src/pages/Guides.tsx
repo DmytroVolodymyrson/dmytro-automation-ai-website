@@ -808,8 +808,15 @@ const guides: GuideItem[] = [
   {
     title: "Quote Follow-Up Automation for Service Businesses",
     description:
-      "Cross-industry quote-stage recovery for service businesses. Timed reminders, objection-aware messaging, cleaner ownership after pricing goes out, and fast human handoff when a buyer re-engages.",
+      "Cross-industry quote-stage recovery for service businesses. Timed reminders after pricing goes out, objection-aware messaging, cleaner ownership after the quote is sent, and fast human handoff when a buyer re-engages.",
     href: "/quote-follow-up-automation-for-service-businesses",
+    category: "workflows",
+  },
+  {
+    title: "Quote Follow-Up Setup for Service Businesses",
+    description:
+      "Setup-help guide for service businesses before quote recovery goes live. Covers quote-sent triggers, ownership rules, stale-quote thresholds, CRM mapping, stop rules, reply routing, and testing before launch.",
+    href: "/quote-follow-up-setup-for-service-businesses",
     category: "workflows",
   },
   {

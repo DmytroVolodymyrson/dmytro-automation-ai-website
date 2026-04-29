@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-quote-follow-up-setup-for-service-businesses",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Quote Follow-Up Setup for Service Businesses\nBody: Most quote follow-up workflows do not fail because the reminder text was wrong. They fail because the setup was incomplete. The quote-sent trigger fires inconsistently, nobody defined who owns the next move after pricing goes out, replies land in a shared inbox with no context, the CRM stage does not update when a quote goes stale, and the workflow launches before anyone tests what happens when a prospect asks for a revision instead of saying yes or no. Quote follow-up setup for service businesses is the implementation work that prevents those problems. It defines the trigger, the ownership rules, the stale-quote threshold, the stop conditions, the reply routing, and the CRM mapping that make the workflow trustworthy before it touches a real opportunity.\nSub: Below: what quote follow-up setup actually includes, what should be configured before the workflow goes live, when setup help is worth paying for, and how this page stays distinct from the quote-follow-up parent, the estimate-follow-up setup page, and future cost or ROI pages in the same cluster.\n\n### Core sections\n- What quote follow-up setup actually covers\n- What should be configured before launch\n- When setup help is worth paying for — and when it is not\n- The setup mistakes that usually break quote recovery\n- Proof and adjacent proof\n\n### FAQ\nSubhead: Practical questions from service business owners evaluating quote-follow-up implementation\nTopics: what quote follow-up setup involves, how this differs from the quote-follow-up parent page, how it differs from the estimate-follow-up setup page, when setup help is worth paying for, and the most common setup mistake.\n\n### Final CTA\nHeading: Want quote follow-up set up before more sent quotes go cold?\nBody: Book a 30-minute call. We will look at how your business sends quotes today, where ownership breaks after pricing goes out, and scope the narrowest setup that gets disciplined quote recovery live without overbuilding.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the cross-industry setup-help child inside the quote-follow-up cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the service-business quote-follow-up parent and the estimate-vs-quote comparison were already live, but the cluster still lacked the implementation-intent page about what has to be configured before launch."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays distinct from `/quote-follow-up-automation-for-service-businesses` by focusing on trigger quality, ownership, stale thresholds, routing, and testing instead of the broader workflow itself."
+    },
+    {
+      "type": "tone_shift",
+      "description": "It stays distinct from `/estimate-follow-up-setup-for-service-businesses` by staying broader than field-visit estimate recovery and centering the wider quote stage across service-business contexts."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live quote-follow-up cluster, the estimate-follow-up setup page, and the published WheelsFeels CRM case study support the setup guidance without pretending there is already a dedicated quote-follow-up setup case study on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: bounded scope, fit / not-fit framing, clear ownership after pricing goes out, and explicit warnings against launching automation before the quote-sent trigger is reliable."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T07:40:40.147Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 28.9,
+      "sentenceLengthRange": [
+        5,
+        58
+      ],
+      "totalWords": 318
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Quote Follow-Up Setup for Service Businesses\nBody: Most quote follow-up workflows do not fail because the reminder text was wrong.",
+      "wordCount": 22,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want quote follow-up set up before more sent quotes go cold?\nBody: Book a 30-minute call. We will look at how your business sends quotes today, where ownership breaks after pricing goes out, and scope the narrowest setup that gets disciplined quote recovery live without overbuilding.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 20,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 2
+    },
+    "vocabulary": {
+      "distinctWords": 167,
+      "totalWords": 318,
+      "topWords": [
+        [
+          "setup",
+          14
+        ],
+        [
+          "quote",
+          10
+        ],
+        [
+          "follow-up",
+          7
+        ],
+        [
+          "when",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "before",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "goes",
+          4
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "service",
+          3
+        ],
+        [
+          "not",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 6,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 6,
+      "patterns": []
+    }
+  }
+}
