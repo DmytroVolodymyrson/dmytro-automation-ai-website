@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/quote-follow-up-roi-small-business` — a new cross-industry ROI child inside the quote-follow-up cluster covering conservative payback math for recovered deals after pricing goes out, saved owner/admin follow-up time, stale-quote visibility, and when quote-stage recovery is or is not the right first workflow to fund. Stays distinct from the service-business quote-follow-up parent by focusing on payback instead of the broader workflow, from the quote-follow-up setup child by modeling economics rather than pre-launch implementation steps, and from the quote-follow-up cost child by answering when the workflow pays back rather than what it costs to build. Previous: `/quote-follow-up-cost-small-business`.)
+Last updated: 2026-04-29 (shipped `/review-request-automation-setup-for-service-businesses` — a new cross-industry setup/help child inside the review-request cluster covering completed-job triggers, timing rules, complaint routing, CRM visibility, team handoff, and the launch mistakes that cause review asks to fire too early or hit the wrong customers. Stays distinct from the service-business review-request parent by focusing on implementation scope instead of the broader workflow, from the review-vs-referral comparison by assuming the review workflow is already chosen, and from generic GoHighLevel setup pages by staying tightly on post-job reputation follow-through. Previous: `/quote-follow-up-roi-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 345.
+**Total live GEO pages tracked here:** 346.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -25,6 +25,7 @@ Last updated: 2026-04-29 (shipped `/quote-follow-up-roi-small-business` — a ne
 | AI Lead Follow-Up (SMB) | `/ai-lead-follow-up-for-service-businesses` | Category page | Live |
 | AI Lead Follow-Up ROI (SMB) | `/ai-lead-follow-up-roi-small-business` | Workflow / ROI page | Live |
 | Review Request Automation (Service Businesses) | `/review-request-automation-for-service-businesses` | Workflow parent page | Live |
+| Review Request Automation Setup (Service Businesses) | `/review-request-automation-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Referral Request Automation (Service Businesses) | `/referral-request-automation-for-service-businesses` | Workflow parent page | Live |
 | Review Request vs. Referral Request (Service Businesses) | `/review-request-vs-referral-request-for-service-businesses` | Workflow comparison page | Live |
 | Missed Call Text-Back (Service Businesses) | `/missed-call-text-back-for-service-businesses` | Workflow parent page | Live |
@@ -357,16 +358,16 @@ Last updated: 2026-04-29 (shipped `/quote-follow-up-roi-small-business` — a ne
 
 ## Next Pages
 
-This run shipped `/quote-follow-up-roi-small-business`. The cross-industry quote-follow-up cluster now has the service-business parent, the setup-help child, the cost child, and the ROI child. That fills the cleanest remaining economics gap in the cluster: owners can now compare the broader workflow, the pre-launch setup work, the realistic build cost, and the conservative payback case without forcing those answers into one catch-all page.
+This run shipped `/review-request-automation-setup-for-service-businesses`. The cross-industry review-request cluster now has the service-business parent, the new setup-help child, and the adjacent review-vs-referral comparison. That gives owners a cleaner path from "should we automate review asks at all?" into "what would a safe first build actually include?" without forcing implementation questions into the broader parent page.
 
 The next run should:
 
 1. **Keep manual GSC follow-through moving** on the newest workflow ships instead of treating publish alone as the finish line.
-2. **Re-check the quote-follow-up cluster for any surviving buyer-decision child only if it still passes route, prompt, and proof checks after a fresh reality check.**
+2. **Check the adjacent referral-request cluster for the matching setup/help child** now that the review-request setup layer is live and the paired post-job workflow family still lacks that implementation page.
 3. **Otherwise fall back to broad reconciliation** across roadmap, planning docs, live routes, and prompts so the next ship comes from the cleanest remaining repo-wide gap instead of forcing another same-cluster page by inertia.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
 | 1 | Manual GSC follow-through on newest live workflow pages | Recent ships still need inspection and indexing requests where appropriate. | Check the newest live URLs in GSC after deploy propagation and request indexing only after meaningful copy/internal-link updates are live. |
-| 2 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | The quote-follow-up ROI child is now live. The next clean ship should come from whichever remaining workflow, comparison, setup, ROI, or buyer-decision gap still survives a repo-wide reality check. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |
-| 3 | Quote-cluster buyer-decision follow-on only if still truly absent and distinct | There may still be a later buyer-decision child hiding in the quote-follow-up cluster, but it should not be assumed. | Verify the exact slug is absent from both route files, Guides, sitemap, llm files, `scripts/geo-prompts.json`, and nearby quote-cluster docs before shipping any same-cluster follow-on. |
+| 2 | `/referral-request-automation-setup-for-service-businesses` | The paired referral-request cluster now looks like the cleanest remaining structural follow-on: parent + comparison are live, but there is still no setup/help child explaining trigger scope, timing, reply routing, and when implementation help is worth paying for. | Verify the exact slug is absent from both route files, Guides, sitemap, llm files, `scripts/geo-prompts.json`, and nearby referral/review cluster docs before shipping. |
+| 3 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | If the referral setup child does not survive duplicate/proof checks, the next clean ship should come from whichever remaining workflow, comparison, setup, ROI, or buyer-decision gap still survives a repo-wide reality check. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |

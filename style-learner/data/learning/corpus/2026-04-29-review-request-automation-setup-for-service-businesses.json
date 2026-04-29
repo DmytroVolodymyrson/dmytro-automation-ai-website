@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-review-request-automation-setup-for-service-businesses",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Review Request Automation Setup for Service Businesses\nBody: Review-request automation sounds simple until the first live ask fires too early, the wrong customer gets the message, or an unhappy reply lands in the same path as a public review request. Most service businesses do not need more generic reputation advice at that point. They need the setup layer scoped correctly. A good build starts with a real completed-job trigger, timing rules that match the service type, clear complaint-routing logic, CRM visibility into who has already been asked, and a clean handoff when a customer replies. This page is about that implementation work. It is not the broader case for review automation, and it is not a review-vs-referral comparison. It is the narrower buyer question that appears after the workflow is already chosen: what should a clean first build actually include, and when is setup help worth paying for?\nSub: Below: what review-request setup actually covers, which trigger and routing decisions matter most, where first-week launches usually break, and how to tell whether your business needs focused setup help or a simpler manual closeout path first.\n\n### Core sections\n- What review-request setup actually covers\n- What should be configured before launch\n- When setup help is worth paying for — and when it is not\n- Common setup mistakes that break review-request workflows\n- Proof and adjacent proof\n\n### FAQ\nSubhead: Practical questions from service business owners evaluating review-request implementation\nTopics: what review-request setup usually includes, how it differs from the broader review-request parent page, how it differs from the review-vs-referral comparison page, when setup help is worth paying for, and what usually causes review asks to fire too early.\n\n### Final CTA\nHeading: Want review-request automation set up cleanly the first time?\nBody: Book a 30-minute call. We will look at how your business marks jobs complete today, where review timing breaks, how complaint replies should route, and scope the narrowest build that improves reputation follow-through without stacking too many post-job asks into the same message.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the cross-industry setup/help child inside the review-request cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the parent review-request page and the review-vs-referral comparison were already live, but the cluster still lacked a dedicated implementation/help page focused on trigger quality, timing, complaint routing, and CRM visibility."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays distinct from `/review-request-automation-for-service-businesses` by focusing on implementation scope instead of the broader workflow, and from `/review-request-vs-referral-request-for-service-businesses` by assuming the review workflow is already chosen."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live review-request cluster, the review-vs-referral comparison, and the e-commerce CRM case study support the implementation logic without pretending there is already a dedicated published setup case study for this exact workflow."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: direct fit / not-fit framing, narrow operational scoping, explicit warnings about bad triggers and unresolved-issue routing, and no invented reputation-management claims."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T09:00:34.464Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 25.8,
+      "sentenceLengthRange": [
+        5,
+        51
+      ],
+      "totalWords": 335
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Review Request Automation Setup for Service Businesses\nBody: Review-request automation sounds simple until the first live ask fires too early, the wrong customer gets the message, or an unhappy reply lands in the same path as a public review request.",
+      "wordCount": 42,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want review-request automation set up cleanly the first time?\nBody: Book a 30-minute call. We will look at how your business marks jobs complete today, where review timing breaks, how complaint replies should route, and scope the narrowest build that improves reputation follow-through without stacking too many post-job asks into the same message.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 18,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 9,
+      "commasPerSentence": 1.5
+    },
+    "vocabulary": {
+      "distinctWords": 180,
+      "totalWords": 335,
+      "topWords": [
+        [
+          "setup",
+          10
+        ],
+        [
+          "review-request",
+          8
+        ],
+        [
+          "that",
+          6
+        ],
+        [
+          "it",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "review",
+          5
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "service",
+          4
+        ],
+        [
+          "first",
+          4
+        ],
+        [
+          "not",
+          4
+        ],
+        [
+          "help",
+          4
+        ],
+        [
+          "too",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

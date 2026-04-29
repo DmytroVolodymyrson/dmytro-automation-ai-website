@@ -276,6 +276,7 @@ import AiVoiceAgentRoiForLeadFollowUp from "./pages/AiVoiceAgentRoiForLeadFollow
 import InstantLeadResponse from "./pages/InstantLeadResponse";
 import ContactFormLeadFollowUpAutomation from "./pages/ContactFormLeadFollowUpAutomation";
 import ReviewRequestAutomationForServiceBusinesses from "./pages/ReviewRequestAutomationForServiceBusinesses";
+import ReviewRequestAutomationSetupForServiceBusinesses from "./pages/ReviewRequestAutomationSetupForServiceBusinesses";
 import ReferralRequestAutomationForServiceBusinesses from "./pages/ReferralRequestAutomationForServiceBusinesses";
 import ReviewRequestVsReferralRequestForServiceBusinesses from "./pages/ReviewRequestVsReferralRequestForServiceBusinesses";
 import MissedCallTextBackForServiceBusinesses from "./pages/MissedCallTextBackForServiceBusinesses";
@@ -808,6 +809,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/instant-lead-response-automation", element: <InstantLeadResponse /> },
   { path: "/contact-form-lead-follow-up-automation", element: <ContactFormLeadFollowUpAutomation /> },
   { path: "/review-request-automation-for-service-businesses", element: <ReviewRequestAutomationForServiceBusinesses /> },
+  { path: "/review-request-automation-setup-for-service-businesses", element: <ReviewRequestAutomationSetupForServiceBusinesses /> },
   { path: "/referral-request-automation-for-service-businesses", element: <ReferralRequestAutomationForServiceBusinesses /> },
   { path: "/review-request-vs-referral-request-for-service-businesses", element: <ReviewRequestVsReferralRequestForServiceBusinesses /> },
   {

@@ -2132,6 +2132,18 @@
       ]
     },
     {
+      "id": "review-request-automation-setup-for-service-businesses",
+      "path": "/review-request-automation-setup-for-service-businesses",
+      "label": "Review Request Automation Setup for Service Businesses",
+      "prompts": [
+        "How do I set up review request automation for my service business?",
+        "What should review request automation setup include for a service business?",
+        "How do I keep review asks from firing before a job is truly complete?",
+        "How should a service business route unhappy replies before a public review ask goes out automatically?",
+        "Is review request automation setup worth paying for if my team already finishes the work but asks inconsistently?"
+      ]
+    },
+    {
       "id": "referral-request-automation-for-service-businesses",
       "path": "/referral-request-automation-for-service-businesses",
       "label": "Referral Request Automation for Service Businesses",

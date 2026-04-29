@@ -729,6 +729,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Review Request Automation Setup for Service Businesses",
+    description:
+      "What a clean first build should actually include: completed-job triggers, timing rules, complaint routing, CRM visibility, and the setup decisions that keep review asks from firing too early or hitting the wrong customers.",
+    href: "/review-request-automation-setup-for-service-businesses",
+    category: "workflows",
+  },
+  {
     title: "Referral Request Automation for Service Businesses",
     description:
       "Turn finished jobs into introductions instead of silence. Ask at the right moment after a completed job, keep referral asks separate from review asks, route warm replies fast, and stop relying on luck for word-of-mouth growth.",

@@ -250,6 +250,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "Review request automation for service businesses", href: "/review-request-automation-for-service-businesses" },
+        { label: "Review request automation setup", href: "/review-request-automation-setup-for-service-businesses" },
         { label: "Referral request automation for service businesses", href: "/referral-request-automation-for-service-businesses" },
         { label: "Referral automation for painting contractors", href: "/referral-request-automation-for-painting-contractors" },
         { label: "Review automation for restaurants", href: "/review-request-automation-for-restaurants" },
