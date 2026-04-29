@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-homepage-services-consultant-role-link",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Services intro paragraph\nBody: {services.subtitle} Not sure where to start? Read our guide to the top AI automations for service businesses to see which ones deliver the fastest ROI. If your main hesitation is that you do not have a developer or IT person to run this, start with the AI automation without a tech team guide to see which workflows are safe first builds for owner-led teams. If you are still trying to understand what expert help actually looks like before comparing pricing or DIY, read what an AI automation consultant actually does.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Bounded homepage editorial internal-linking refresh, not a new page."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "Added one natural inline sentence aimed at owners who are still clarifying the role of consultant help before they compare cost or DIY options."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays direct, practical, and decision-oriented: no hype, no vague “learn more” language."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The sentence frames the link around a real buyer hesitation and gives the role guide a homepage-origin in-copy crawl path from the indexed homepage."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Copy stays compact so the paragraph still reads like homepage navigation help, not a bloated SEO block."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T19:30:04.194Z",
+    "structure": {
+      "paragraphCount": 1,
+      "sentencesPerParagraph": [
+        4
+      ],
+      "avgSentenceLength": 23.5,
+      "sentenceLengthRange": [
+        10,
+        39
+      ],
+      "totalWords": 94
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Services intro paragraph\nBody: {services.subtitle} Not sure where to start?",
+      "wordCount": 10,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Services intro paragraph\nBody: {services.subtitle} Not sure where to start? Read our guide to the top AI automations for service businesses to see which ones deliver the fastest ROI. If your main hesitation is that you do not have a developer or IT person to run this, start with the AI automation without a tech team guide to see which workflows are safe first builds for owner-led teams. If you are still trying to understand what expert help actually looks like before comparing pricing or DIY, read what an AI automation consultant actually does.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener"
+      ],
+      "template": "opener"
+    },
+    "punctuation": {
+      "periods": 4,
+      "commas": 2,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 1,
+      "commasPerSentence": 0.5
+    },
+    "vocabulary": {
+      "distinctWords": 70,
+      "totalWords": 94,
+      "topWords": [
+        [
+          "ai",
+          3
+        ],
+        [
+          "not",
+          2
+        ],
+        [
+          "start",
+          2
+        ],
+        [
+          "read",
+          2
+        ],
+        [
+          "guide",
+          2
+        ],
+        [
+          "see",
+          2
+        ],
+        [
+          "which",
+          2
+        ],
+        [
+          "if",
+          2
+        ],
+        [
+          "automation",
+          2
+        ],
+        [
+          "what",
+          2
+        ],
+        [
+          "actually",
+          2
+        ],
+        [
+          "services",
+          1
+        ],
+        [
+          "intro",
+          1
+        ],
+        [
+          "paragraph",
+          1
+        ],
+        [
+          "body",
+          1
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

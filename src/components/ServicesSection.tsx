@@ -51,7 +51,16 @@ const ServicesSection = () => {
             >
               AI automation without a tech team guide
             </Link>{" "}
-            to see which workflows are safe first builds for owner-led teams.
+            to see which workflows are safe first builds for owner-led teams. If
+            you are still trying to understand what expert help actually looks
+            like before comparing pricing or DIY, read{" "}
+            <Link
+              to="/what-does-an-ai-automation-consultant-do"
+              className="text-accent underline underline-offset-2 hover:text-accent/80 transition-colors"
+            >
+              what an AI automation consultant actually does
+            </Link>
+            .
           </p>
         </div>
 
