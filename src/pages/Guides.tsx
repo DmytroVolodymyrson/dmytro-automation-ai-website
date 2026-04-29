@@ -1339,6 +1339,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "What to Automate First for Medical Clinics",
+    description:
+      "Scoping guide for smaller outpatient clinics deciding whether the first automation should be inquiry response, booking and reminders, intake prep, no-show reduction, recall/reactivation, or after-hours phone coverage before a broader rollout.",
+    href: "/what-to-automate-first-for-medical-clinics",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Dental Practices",
     description:
       "Scoping guide for dental practices deciding whether the first automation should be new-patient follow-up, booking and reminders, recall/reactivation, no-show reduction, or after-hours call handling before a broader rollout.",

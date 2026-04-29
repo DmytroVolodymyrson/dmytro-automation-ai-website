@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/ai-automation-for-medical-clinics` — a new healthcare-adjacent parent page for smaller appointment-driven outpatient clinics covering inquiry response, booking and reminders, intake forms, recall, no-show reduction, and after-hours phone coverage without pretending to replace clinical systems. Chosen because `docs/programmatic-seo-pattern-matrix.md` still explicitly preserved the clinics pattern while the repo already had strong adjacent proof in the live dental, chiropractic, and med spa clusters. Stays distinct from those narrower specialty pages by answering the broader clinic-category question first. Previous: `/ai-lead-follow-up-setup-vs-diy-small-business`.)
+Last updated: 2026-04-29 (shipped `/what-to-automate-first-for-medical-clinics` — a new first-project decision page for smaller appointment-driven outpatient clinics deciding whether to start with inquiry response, booking and reminders, intake prep, no-show reduction, recall/reactivation, or after-hours phone coverage. Chosen because the broader `/ai-automation-for-medical-clinics` parent had just gone live, the exact slug was still absent from routes/pages/prompts, and the page stays distinct from the specialty-specific dental, chiropractic, and med spa first-project pages by keeping the broader clinic communication layer as its operating context. Previous: `/ai-automation-for-medical-clinics`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 353.
+**Total live GEO pages tracked here:** 354.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -158,6 +158,7 @@ Last updated: 2026-04-29 (shipped `/ai-automation-for-medical-clinics` — a new
 | Referral Request Automation (Mortgage) | `/referral-request-automation-for-mortgage-brokers` | Vertical workflow page | Live |
 | Review Request Automation (Mortgage) | `/review-request-automation-for-mortgage-brokers` | Vertical workflow page | Live |
 | AI for Dental Practices | `/ai-automation-for-dental-practices` | Vertical category page | Live |
+| What to Automate First (Medical Clinics) | `/what-to-automate-first-for-medical-clinics` | Vertical decision page | Live |
 | What to Automate First (Dental) | `/what-to-automate-first-for-dental-practices` | Vertical decision page | Live |
 | AI Lead Follow-Up (Dental) | `/ai-lead-follow-up-for-dental-practices` | Vertical workflow page | Live |
 | Recall/Reactivation (Dental) | `/recall-and-reactivation-automation-for-dental-practices` | Vertical workflow page | Live |
@@ -365,16 +366,16 @@ Last updated: 2026-04-29 (shipped `/ai-automation-for-medical-clinics` — a new
 
 ## Next Pages
 
-This run shipped `/ai-automation-for-medical-clinics`. The repo already had strong adjacent healthcare proof in dental, chiropractic, and med spa pages, but it still lacked a broader clinic parent for smaller appointment-driven outpatient practices. That gap is now covered. The next run should treat the clinic cluster as newly opened: follow through on indexing and discovery first, then consider the cleanest narrower child only if it still stays distinct after a fresh route-and-prompts check.
+This run shipped `/what-to-automate-first-for-medical-clinics`. That closes the cleanest earlier buyer-decision gap in the new clinic cluster and gives the broader `/ai-automation-for-medical-clinics` parent a real first-project child to point at. The next run should not force another same-cluster page by inertia. Reconcile the broader backlog first, then only return to the clinic cluster if a narrower child still survives overlap checks against the existing healthcare specialty pages and the generic workflow pages already live.
 
 The next run should:
 
 1. **Keep manual GSC follow-through moving** on the newest healthcare-adjacent ships instead of treating publish alone as the finish line.
-2. **Re-check `/what-to-automate-first-for-medical-clinics` first** as the cleanest adjacent child now that the broader clinic parent is live.
-3. **Run a broader reconciliation after that** so the queue does not get stuck forcing more clinic pages if the next distinct child does not survive review.
+2. **Run a fresh broad reconciliation first** across the roadmap, planning docs, live routes, and prompts so the queue does not get stuck forcing another clinic child by inertia.
+3. **Only then re-check a narrower clinic child** if a distinct workflow page still survives review after comparing it against the existing healthcare specialty clusters and generic workflow pages.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
 | 1 | Manual GSC follow-through on newest healthcare-adjacent pages | Recent live pages still need inspection and indexing requests where appropriate, especially after meaningful copy and internal-link updates go live. | Check the newest live URLs in GSC after deploy propagation and request indexing only after the live route, sitemap, and on-page copy are all confirmed. |
-| 2 | `/what-to-automate-first-for-medical-clinics` | The new clinic parent now creates a clean earlier buyer-decision layer for the appointment-driven clinic cluster, and a first-project child would stay distinct if it remains tightly on choosing between inquiry response, booking/reminders, intake, recall, no-show reduction, and after-hours coverage. | Verify the exact slug is absent from routes/pages/prompts, confirm the framing does not collapse into the already-live dental, chiropractic, and med-spa first-project pages, and make sure the parent still reads as the right source page to extract from. |
-| 3 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | If the clinic first-project child turns out to be too overlapping, the cleanest next ship may still live elsewhere in the repo. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |
+| 2 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | After the clinic parent + first-project pair are both live, the cleanest next ship may now be outside the clinic cluster. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |
+| 3 | `/appointment-scheduling-and-reminder-automation-for-medical-clinics` (only if it still survives review) | If the broader backlog does not produce a cleaner page elsewhere, the booked-visit workflow is a plausible next clinic child because it can stay tightly on confirmations, reminder timing, reschedules, and staff handoff after a visit is already real. | Verify the exact slug is absent from routes/pages/prompts, confirm the framing stays distinct from the generic scheduling page plus the existing dental and med spa booked-visit pages, and make sure the clinic parent + first-project page still clearly isolate booking/reminders as the cleanest remaining workflow gap. |

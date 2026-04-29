@@ -1124,6 +1124,18 @@
       ]
     },
     {
+      "id": "what-to-automate-first-for-medical-clinics",
+      "path": "/what-to-automate-first-for-medical-clinics",
+      "label": "What to Automate First for Medical Clinics",
+      "prompts": [
+        "What should a medical clinic automate first?",
+        "What should a smaller outpatient clinic automate first if inquiry response, booking, intake prep, no-show reduction, recall, and after-hours phone coverage all need work?",
+        "Best first automation for medical clinics",
+        "How do I choose the first automation project for a medical clinic?",
+        "How should a medical clinic choose between inquiry response, intake prep, no-show reduction, recall, and after-hours call coverage as the first automation project?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-dental-practices",
       "path": "/what-to-automate-first-for-dental-practices",
       "label": "What to Automate First for Dental Practices",
