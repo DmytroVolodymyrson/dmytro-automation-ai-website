@@ -68,6 +68,11 @@ const faqItems = [
     answer:
       "In most cases, yes. AI appointment setters integrate with common scheduling platforms like Calendly, Acuity, GoHighLevel, and Google Calendar. If you use a less common tool, a custom API connection is usually possible.",
   },
+  {
+    question: "Should I start with an AI appointment setter or a simpler reminder workflow?",
+    answer:
+      "Start with the workflow that matches the real leak. If people are already booking but failing to show up, confirmations and reminders usually come first. If your bigger problem is missed first contact, slow lead response, or after-hours calls, a fuller appointment-setting or voice-handling workflow is usually the better first project.",
+  },
 ];
 
 const AiAppointmentSetter = () => {
@@ -391,6 +396,108 @@ const AiAppointmentSetter = () => {
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   {item.body}
                 </p>
+              </motion.div>
+            ))}
+          </div>
+        </Section>
+
+        <Section className="bg-secondary/30">
+          <div className="max-w-5xl">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5">
+              Choose the bottleneck
+            </div>
+            <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
+              Follow the booking problem, not the buzzword
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
+              Many businesses do not actually need the same build. If the phrase <em>AI appointment setter</em> brought you here, use the cards below to jump to the workflow that matches the real leak first.
+            </p>
+          </div>
+          <div className="grid gap-5 md:grid-cols-2 max-w-5xl">
+            {[
+              {
+                title: "Calls go cold after hours or between jobs",
+                body: "When the first failure is missed first contact, start with the phone-coverage path before you overbuild the booking layer. This is usually the fastest way to stop losing ready-to-book leads.",
+                links: [
+                  {
+                    label: "Paris Cafe phone proof",
+                    href: "/case-studies/paris-cafe-voice-agent",
+                  },
+                  {
+                    label: "Voice agent vs human appointment setter",
+                    href: "/ai-voice-agent-vs-human-appointment-setter",
+                  },
+                ],
+              },
+              {
+                title: "Leads reply, but nobody follows up fast enough",
+                body: "If inbound forms, texts, or DMs sit too long, the real parent workflow is lead response and follow-up. An appointment setter may be part of that stack, but it should not be the only page you read.",
+                links: [
+                  {
+                    label: "AI lead follow-up guide",
+                    href: "/ai-lead-follow-up-for-service-businesses",
+                  },
+                  {
+                    label: "Best first automation guide",
+                    href: "/what-to-automate-first-for-service-businesses",
+                  },
+                ],
+              },
+              {
+                title: "Appointments are already getting booked, but no-shows and reschedules hurt",
+                body: "When booking exists but attendance is messy, the scheduling-and-reminder layer is often the higher-ROI fix. That workflow is narrower than a full AI setter and easier to launch cleanly.",
+                links: [
+                  {
+                    label: "Scheduling and reminder automation",
+                    href: "/appointment-scheduling-and-reminder-automation-for-service-businesses",
+                  },
+                  {
+                    label: "Compare reminders vs full appointment setter",
+                    href: "/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses",
+                  },
+                ],
+              },
+              {
+                title: "Home-service dispatch rules make booking messy",
+                body: "If travel zones, urgency, on-call windows, or technician capacity matter, read the home-service path before you assume a generic booking bot will fit. Dispatch logic changes the build.",
+                links: [
+                  {
+                    label: "Home-service appointment setter fit",
+                    href: "/ai-appointment-setter-for-home-service-businesses",
+                  },
+                  {
+                    label: "Missed-call text-back for service businesses",
+                    href: "/missed-call-text-back-for-service-businesses",
+                  },
+                ],
+              },
+            ].map((item, i) => (
+              <motion.div
+                key={item.title}
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.05, duration: 0.35 }}
+                className="rounded-2xl border border-border/60 bg-card/80 backdrop-blur-sm p-6 shadow-card"
+              >
+                <h3 className="text-lg font-semibold text-foreground mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                  {item.body}
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  {item.links.map((link) => (
+                    <Link
+                      key={link.href}
+                      to={link.href}
+                      className="text-sm font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+                    >
+                      {link.label}
+                      <ArrowRight className="w-4 h-4" />
+                    </Link>
+                  ))}
+                </div>
               </motion.div>
             ))}
           </div>
