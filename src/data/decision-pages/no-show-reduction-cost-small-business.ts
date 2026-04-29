@@ -192,6 +192,7 @@ const data: DecisionPageData = {
       links: [
         { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
         { label: "No-show reduction setup for service businesses", href: "/no-show-reduction-setup-for-service-businesses" },
+        { label: "No-show reduction ROI for small business", href: "/no-show-reduction-roi-small-business" },
         { label: "Appointment scheduling and reminder automation", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
         { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
         { label: "AI appointment setter", href: "/ai-appointment-setter" },
@@ -260,6 +261,7 @@ const data: DecisionPageData = {
     { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
     { label: "No-show reduction setup for service businesses", href: "/no-show-reduction-setup-for-service-businesses" },
     { label: "No-show reduction setup vs. DIY", href: "/no-show-reduction-setup-vs-diy-small-business" },
+    { label: "No-show reduction ROI for small business", href: "/no-show-reduction-roi-small-business" },
     { label: "Appointment scheduling and reminder automation", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
     { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
     { label: "AI appointment setter", href: "/ai-appointment-setter" },

@@ -2612,6 +2612,18 @@
       ]
     },
     {
+      "id": "no-show-reduction-roi-small-business",
+      "path": "/no-show-reduction-roi-small-business",
+      "label": "No-Show Reduction ROI for Small Business",
+      "prompts": [
+        "Is no-show reduction automation worth it for a small business?",
+        "How do I calculate ROI on no-show reduction automation?",
+        "How quickly can appointment reminder automation pay for itself?",
+        "How many saved appointments does it take to justify no-show reduction automation?",
+        "What is the ROI of no-show reduction reminders confirmations and reschedule workflows?"
+      ]
+    },
+    {
       "id": "client-reactivation-cost-small-business",
       "path": "/client-reactivation-cost-small-business",
       "label": "Client Reactivation Cost for Small Business",

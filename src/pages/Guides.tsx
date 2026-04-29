@@ -1016,6 +1016,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "No-Show Reduction ROI for Small Business",
+    description:
+      "ROI guide for service businesses deciding whether attendance-protection automation actually pays back — recovered appointments, cleaner calendar utilization, saved admin time, and when the economics are strong enough to build now.",
+    href: "/no-show-reduction-roi-small-business",
+    category: "workflows",
+  },
+  {
     title: "CRM Automation Examples for Small Business",
     description:
       "Practical CRM automation examples — lead tagging, pipeline triggers, follow-up sequences, task creation, and reporting workflows that actually work.",

@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/no-show-reduction-setup-vs-diy-small-business` after reconciliation confirmed the no-show setup cluster still had an exact buried buy-vs-build query left in `scripts/geo-prompts.json`: when a small business should keep DIYing attendance-protection setup versus paying for help. The new page stays tightly on owner time, reminder timing, reschedule cleanup, deposit rules, CRM visibility, and the threshold where more DIY drift is already more expensive than a bounded setup engagement. Previous: `/no-show-reduction-cost-small-business`.)
+Last updated: 2026-04-29 (shipped `/no-show-reduction-roi-small-business` after reconciliation confirmed the no-show reduction cluster still had one clean horizontal gap left: ROI/payback. The new page stays tightly on recovered appointments, cleaner calendar utilization, saved admin time, and the threshold where attendance-protection automation pays back faster than staying manual. Previous: `/no-show-reduction-setup-vs-diy-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 369.
+**Total live GEO pages tracked here:** 370.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -379,12 +379,13 @@ Last updated: 2026-04-29 (shipped `/no-show-reduction-setup-vs-diy-small-busines
 | No-Show Reduction Setup (Service Businesses) | `/no-show-reduction-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | No-Show Reduction Setup vs. DIY (SMB) | `/no-show-reduction-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | No-Show Reduction Cost (SMB) | `/no-show-reduction-cost-small-business` | Workflow / cost page | Live |
+| No-Show Reduction ROI (SMB) | `/no-show-reduction-roi-small-business` | Workflow / ROI page | Live |
 
 ## Next Pages
 
-This run shipped `/no-show-reduction-setup-vs-diy-small-business` because the no-show reduction cluster still had one exact buried buyer-decision query left under the live setup page: when a small business should keep DIYing attendance-protection setup versus paying for help. The new page stays narrower than the no-show parent, the setup page, and the cost page by focusing only on the buy-vs-build call around owner time, reminder timing, reschedule cleanup, deposit rules, CRM visibility, and launch trust.
+This run shipped `/no-show-reduction-roi-small-business` because the no-show reduction horizontal family still had one exact decision-stage gap left after the parent, setup, buy-vs-build, and cost pages were live: whether the attendance-protection workflow actually pays back. The new page stays narrower than the rest of the cluster by focusing only on recovered appointments, cleaner utilization, saved admin time, and cautious payback math.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | Broad reconciliation across the remaining no-show cluster layers and other mature workflow families, with a specific re-check on `/no-show-reduction-roi-small-business` | The next-best ship should still come from an exact surviving buyer query or a clearly incomplete horizontal layer. The buy-vs-build page is now live, so the only obvious same-cluster fallback worth re-testing is a true no-show ROI page — and only if it stays distinct from the broader scheduling/reminder ROI surfaces already on-site. |
-| 2 | Existing-page discovery / tracking refresh if no clean new slug survives | If no clearly distinct page remains after reconciliation, tighten guides/llm/prompt coverage on the strongest live clusters instead of creating a thin page. |
+| 1 | Broad reconciliation across mature workflow families, with a specific re-check on intake/document-collection horizontal setup/cost/ROI layers before naming a new slug | The no-show horizontal family is now complete. The next page should come from an exact surviving buyer query or another clearly incomplete horizontal layer that still stays distinct from adjacent live pages. |
+| 2 | Existing-page discovery / tracking refresh if no clean new slug survives | If broad reconciliation still yields no clearly distinct page, tighten guides/llm/prompt coverage on the strongest live clusters instead of forcing a thin new page. |

@@ -320,6 +320,7 @@ import NoShowReduction from "./pages/NoShowReduction";
 import NoShowReductionSetupForServiceBusinesses from "./pages/NoShowReductionSetupForServiceBusinesses";
 import NoShowReductionSetupVsDiySmallBusiness from "./pages/NoShowReductionSetupVsDiySmallBusiness";
 import NoShowReductionCostSmallBusiness from "./pages/NoShowReductionCostSmallBusiness";
+import NoShowReductionRoiSmallBusiness from "./pages/NoShowReductionRoiSmallBusiness";
 import AiAppointmentSetterVsReceptionist from "./pages/AiAppointmentSetterVsReceptionist";
 import AiAppointmentSetterVsVirtualAssistant from "./pages/AiAppointmentSetterVsVirtualAssistant";
 import AiVoiceAgentVsVoicemail from "./pages/AiVoiceAgentVsVoicemail";
@@ -869,6 +870,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/no-show-reduction-setup-for-service-businesses", element: <NoShowReductionSetupForServiceBusinesses /> },
   { path: "/no-show-reduction-setup-vs-diy-small-business", element: <NoShowReductionSetupVsDiySmallBusiness /> },
   { path: "/no-show-reduction-cost-small-business", element: <NoShowReductionCostSmallBusiness /> },
+  { path: "/no-show-reduction-roi-small-business", element: <NoShowReductionRoiSmallBusiness /> },
   { path: "/ai-appointment-setter-vs-receptionist", element: <AiAppointmentSetterVsReceptionist /> },
   { path: "/ai-appointment-setter-vs-virtual-assistant", element: <AiAppointmentSetterVsVirtualAssistant /> },
   { path: "/ai-voice-agent-vs-voicemail", element: <AiVoiceAgentVsVoicemail /> },

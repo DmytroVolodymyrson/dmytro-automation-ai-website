@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 437 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 438 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -109,6 +109,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **No-Show Reduction Setup for Service Businesses** — `/no-show-reduction-setup-for-service-businesses`
 - **No-Show Reduction Setup vs. DIY for Small Business** — `/no-show-reduction-setup-vs-diy-small-business`
 - **No-Show Reduction Automation Cost for Small Business** — `/no-show-reduction-cost-small-business`
+- **No-Show Reduction ROI for Small Business** — `/no-show-reduction-roi-small-business`
 - **Contact Form Autoresponder vs. Full Lead Follow-Up** — `/contact-form-autoresponder-vs-full-lead-follow-up`
 - **Contact Form Lead Follow-Up Automation** — `/contact-form-lead-follow-up-automation`
 - **Review Request Automation for Service Businesses** — `/review-request-automation-for-service-businesses`

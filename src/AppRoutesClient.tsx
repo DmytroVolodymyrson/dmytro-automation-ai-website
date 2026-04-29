@@ -321,6 +321,7 @@ const NoShowReduction = lazy(() => import("./pages/NoShowReduction"));
 const NoShowReductionSetupForServiceBusinesses = lazy(() => import("./pages/NoShowReductionSetupForServiceBusinesses"));
 const NoShowReductionSetupVsDiySmallBusiness = lazy(() => import("./pages/NoShowReductionSetupVsDiySmallBusiness"));
 const NoShowReductionCostSmallBusiness = lazy(() => import("./pages/NoShowReductionCostSmallBusiness"));
+const NoShowReductionRoiSmallBusiness = lazy(() => import("./pages/NoShowReductionRoiSmallBusiness"));
 const AiAppointmentSetterVsReceptionist = lazy(() => import("./pages/AiAppointmentSetterVsReceptionist"));
 const AiAppointmentSetterVsVirtualAssistant = lazy(() => import("./pages/AiAppointmentSetterVsVirtualAssistant"));
 const AiVoiceAgentVsVoicemail = lazy(() => import("./pages/AiVoiceAgentVsVoicemail"));
@@ -806,6 +807,7 @@ const AppRoutesClient = () => (
       <Route path="/no-show-reduction-setup-for-service-businesses" element={<NoShowReductionSetupForServiceBusinesses />} />
       <Route path="/no-show-reduction-setup-vs-diy-small-business" element={<NoShowReductionSetupVsDiySmallBusiness />} />
       <Route path="/no-show-reduction-cost-small-business" element={<NoShowReductionCostSmallBusiness />} />
+      <Route path="/no-show-reduction-roi-small-business" element={<NoShowReductionRoiSmallBusiness />} />
       <Route path="/ai-appointment-setter-vs-receptionist" element={<AiAppointmentSetterVsReceptionist />} />
       <Route path="/ai-appointment-setter-vs-virtual-assistant" element={<AiAppointmentSetterVsVirtualAssistant />} />
       <Route path="/ai-voice-agent-vs-voicemail" element={<AiVoiceAgentVsVoicemail />} />
