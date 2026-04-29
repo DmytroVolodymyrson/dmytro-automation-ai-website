@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-homepage-no-tech-team-editorial-link",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Section: ServicesSection support paragraph\nBody: Not sure where to start? Read our guide to the top AI automations for service businesses to see which ones deliver the fastest ROI. If your main hesitation is that you do not have a developer or IT person to run this, start with the AI automation without a tech team guide to see which workflows are safe first builds for owner-led teams.\n\n### Internal-linking purpose\nSection: Homepage editorial routing\n- Adds a new in-copy homepage path from the indexed `/` page into `/ai-automation-for-businesses-without-a-tech-team`.\n- Uses explicit buyer-language around the real objection: “we do not have a developer or IT person for this.”\n- Keeps the guidance practical by framing the destination as a first-build filter for owner-led teams, not a generic reassurance page.\n- Pairs naturally with the existing homepage editorial link into `/best-ai-automation-for-service-businesses` instead of creating a standalone navigation widget.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded homepage indexing/internal-linking refresh, not a new GEO page ship."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The copy stays concise and objection-led so it reads like buyer guidance, not feature promotion."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "The added sentence is meant to help crawlers and readers classify the no-tech-team page as the answer to a common implementation fear, while preserving the homepage’s practical tone."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T15:35:18.327Z",
+    "structure": {
+      "paragraphCount": 2,
+      "sentencesPerParagraph": [
+        3,
+        3
+      ],
+      "avgSentenceLength": 24.2,
+      "sentenceLengthRange": [
+        10,
+        40
+      ],
+      "totalWords": 145
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Section: ServicesSection support paragraph\nBody: Not sure where to start?",
+      "wordCount": 10,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "cta",
+      "text": "### Internal-linking purpose\nSection: Homepage editorial routing\n- Adds a new in-copy homepage path from the indexed `/` page into `/ai-automation-for-businesses-without-a-tech-team`.\n- Uses explicit buyer-language around the real objection: “we do not have a developer or IT person for this.”\n- Keeps the guidance practical by framing the destination as a first-build filter for owner-led teams, not a generic reassurance page.\n- Pairs naturally with the existing homepage editorial link into `/best-ai-automation-for-service-businesses` instead of creating a standalone navigation widget.",
+      "pattern": "cta"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "closer"
+      ],
+      "template": "opener | closer"
+    },
+    "punctuation": {
+      "periods": 6,
+      "commas": 2,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 4,
+      "commasPerSentence": 0.33
+    },
+    "vocabulary": {
+      "distinctWords": 98,
+      "totalWords": 145,
+      "topWords": [
+        [
+          "not",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "homepage",
+          3
+        ],
+        [
+          "section",
+          2
+        ],
+        [
+          "start",
+          2
+        ],
+        [
+          "guide",
+          2
+        ],
+        [
+          "ai",
+          2
+        ],
+        [
+          "see",
+          2
+        ],
+        [
+          "which",
+          2
+        ],
+        [
+          "do",
+          2
+        ],
+        [
+          "have",
+          2
+        ],
+        [
+          "developer",
+          2
+        ],
+        [
+          "it",
+          2
+        ],
+        [
+          "person",
+          2
+        ],
+        [
+          "this",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 2,
+      "patterns": []
+    }
+  }
+}

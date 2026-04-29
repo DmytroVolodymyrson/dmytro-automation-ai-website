@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-29T15:18:39.920Z",
-  "postCount": 536,
+  "updatedAt": "2026-04-29T15:35:18.388Z",
+  "postCount": 537,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,25 +15,25 @@
       "max": 12,
       "p25": 4,
       "p75": 4,
-      "samples": 536
+      "samples": 537
     },
     "sentenceLength": {
       "mean": 23.7,
-      "median": 24.15,
+      "median": 24.2,
       "min": 7.1,
       "max": 105,
-      "p25": 19.4,
+      "p25": 19.5,
       "p75": 27.5,
-      "samples": 536
+      "samples": 537
     },
     "totalWords": {
-      "mean": 332.6,
-      "median": 335.5,
+      "mean": 332.2,
+      "median": 335,
       "min": 17,
       "max": 1155,
       "p25": 281,
       "p75": 372,
-      "samples": 536
+      "samples": 537
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -88,7 +88,7 @@
       "long | single | short | single | single | long | single | long": 1,
       "short | single | short | short | short": 1,
       "single | long | long | short": 2,
-      "long | long": 1,
+      "long | long": 2,
       "single | long | long | long | long | long | long | long | long | single": 1,
       "long | long | single | single": 3,
       "single | long | single | single": 1,
@@ -182,7 +182,7 @@
       "opener | context | context | product-pitch | product-pitch | context | result | closer": 1,
       "opener | product-pitch | context | context | product-pitch | product-pitch | context | context | closer": 1,
       "opener | context | result | context | result | context | context | context | closer": 1,
-      "opener | closer": 5,
+      "opener | closer": 6,
       "opener | product-pitch | product-pitch | product-pitch | context | context | result | result | result | closer": 1,
       "opener | product-pitch | result | context | context | context | context | closer": 1,
       "opener | context | product-pitch | context | context | context | context | product-pitch | closer": 1,
@@ -235,7 +235,7 @@
         ]
       },
       "question": {
-        "count": 30,
+        "count": 31,
         "examples": [
           "Q: What kind of businesses do you work with?",
           "### Hero\nBadge: AI Automation Consulting\nHeading: Do you actually need an AI aut",
@@ -284,11 +284,11 @@
         ]
       },
       "cta": {
-        "count": 4,
+        "count": 5,
         "examples": [
           "### Final CTA\nHeading: Real-estate cluster navigation\nBody: These link updates a",
-          "### Link target\n- Anchor text: AI appointment setter guide\n- URL: /ai-appointmen",
-          "### Link target\n- Anchor text: complete case studies hub\n- URL: /case-studies"
+          "### Internal-linking purpose\nSection: Homepage editorial routing\n- Adds a new in",
+          "### Link target\n- Anchor text: AI appointment setter guide\n- URL: /ai-appointmen"
         ]
       }
     }
@@ -303,7 +303,7 @@
     "topWords": [
       [
         "-",
-        3609
+        3613
       ],
       [
         "what",
@@ -315,7 +315,7 @@
       ],
       [
         "ai",
-        1169
+        1171
       ],
       [
         "workflow",
@@ -331,7 +331,7 @@
       ],
       [
         "it",
-        980
+        982
       ],
       [
         "when",
@@ -339,7 +339,7 @@
       ],
       [
         "this",
-        879
+        881
       ],
       [
         "phone",
@@ -399,7 +399,7 @@
       ],
       [
         "not",
-        374
+        378
       ],
       [
         "lead",

@@ -42,7 +42,16 @@ const ServicesSection = () => {
             >
               top AI automations for service businesses
             </Link>{" "}
-            to see which ones deliver the fastest ROI.
+            to see which ones deliver the fastest ROI. If your main hesitation is
+            that you do not have a developer or IT person to run this, start with
+            the{" "}
+            <Link
+              to="/ai-automation-for-businesses-without-a-tech-team"
+              className="text-accent underline underline-offset-2 hover:text-accent/80 transition-colors"
+            >
+              AI automation without a tech team guide
+            </Link>{" "}
+            to see which workflows are safe first builds for owner-led teams.
           </p>
         </div>
 
