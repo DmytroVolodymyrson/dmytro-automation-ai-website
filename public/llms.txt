@@ -121,6 +121,9 @@ Setup-help guide for service businesses before quote recovery goes live. Covers 
 ## Quote Follow-Up Cost for Small Business
 Pricing guide for the broader quote-stage recovery layer — realistic build ranges for quote-sent triggers, reminder sequences, CRM ownership rules, stale-quote escalation, reply routing, and human handoff after pricing goes out. Learn more: https://www.dmytroai.com/quote-follow-up-cost-small-business
 
+## Quote Follow-Up ROI for Small Business
+ROI guide for small businesses deciding whether quote-stage recovery is worth funding now. Covers conservative payback math for recovered deals after pricing goes out, saved owner/admin follow-up time, stale-quote visibility, and when a narrower quote workflow pays back faster than a broader front-office rebuild. Learn more: https://www.dmytroai.com/quote-follow-up-roi-small-business
+
 ## Estimate Follow-Up vs. Quote Follow-Up for Service Businesses
 Practical comparison for service businesses deciding whether to automate estimate follow-up or broader quote follow-up first. Covers site-visit handoff vs. general quote-stage ownership, when each workflow fits, where the costs differ, and why field-service estimate recovery is not the same as generic post-pricing follow-up. Learn more: https://www.dmytroai.com/estimate-follow-up-vs-quote-follow-up-for-service-businesses
 

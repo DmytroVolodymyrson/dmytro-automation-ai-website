@@ -266,6 +266,7 @@ const data: DecisionPageData = {
     { label: "Estimate follow-up vs. quote follow-up for service businesses", href: "/estimate-follow-up-vs-quote-follow-up-for-service-businesses" },
     { label: "Quote follow-up setup for service businesses", href: "/quote-follow-up-setup-for-service-businesses" },
     { label: "Quote follow-up cost for small business", href: "/quote-follow-up-cost-small-business" },
+    { label: "Quote follow-up ROI for small business", href: "/quote-follow-up-roi-small-business" },
     { label: "Quote follow-up automation", href: "/quote-follow-up-automation" },
     { label: "Quote follow-up automation for insurance agencies", href: "/quote-follow-up-automation-for-insurance-agencies" },
     { label: "Quote follow-up automation for auto parts e-commerce", href: "/quote-follow-up-automation-for-auto-parts-ecommerce" },

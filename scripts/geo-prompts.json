@@ -2300,6 +2300,18 @@
       ]
     },
     {
+      "id": "quote-follow-up-roi-small-business",
+      "path": "/quote-follow-up-roi-small-business",
+      "label": "Quote Follow-Up ROI for Small Business",
+      "prompts": [
+        "How do I calculate quote follow-up ROI for a small business?",
+        "How quickly can quote follow-up automation pay for itself?",
+        "When is quote-stage recovery worth automating after pricing goes out?",
+        "How many recovered quotes does it take for quote follow-up automation to be worth it?",
+        "How is quote follow-up ROI different from estimate follow-up ROI or broader lead follow-up ROI?"
+      ]
+    },
+    {
       "id": "client-reactivation-automation-for-service-businesses",
       "path": "/client-reactivation-automation-for-service-businesses",
       "label": "Client Reactivation Automation for Service Businesses",

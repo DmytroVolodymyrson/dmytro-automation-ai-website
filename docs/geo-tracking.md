@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 412 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 413 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -57,7 +57,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **What Processes Can AI Automate in My Business?** — `/what-processes-can-ai-automate-in-my-business`
 - **What to Automate First for Service Businesses** — `/what-to-automate-first-for-service-businesses`
 
-### Workflow + solution pages (68)
+### Workflow + solution pages (69)
 - **After-Hours Lead Capture** — `/after-hours-lead-capture-for-service-businesses`
 - **AI Appointment Setter** — `/ai-appointment-setter`
 - **AI Appointment Setter Cost for Small Business** — `/ai-appointment-setter-cost-small-business`
@@ -137,6 +137,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Quote Follow-Up Automation for Service Businesses** — `/quote-follow-up-automation-for-service-businesses`
 - **Quote Follow-Up Setup for Service Businesses** — `/quote-follow-up-setup-for-service-businesses`
 - **Quote Follow-Up Cost for Small Business** — `/quote-follow-up-cost-small-business`
+- **Quote Follow-Up ROI for Small Business** — `/quote-follow-up-roi-small-business`
 - **n8n Automation Examples for Small Business** — `/n8n-automation-examples-small-business`
 - **n8n Automation Setup for Small Business** — `/n8n-automation-setup-for-small-business`
 - **n8n Workflow Audit Checklist** — `/n8n-workflow-audit-checklist`

@@ -827,6 +827,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Quote Follow-Up ROI for Small Business",
+    description:
+      "ROI guide for quote-stage recovery — conservative payback math for recovered deals after pricing goes out, saved owner/admin follow-up time, stale-quote visibility, and when quote recovery is or is not the right first workflow to fund.",
+    href: "/quote-follow-up-roi-small-business",
+    category: "workflows",
+  },
+  {
     title: "Appointment Scheduling and Reminder Automation for Service Businesses",
     description:
       "Horizontal scheduling guide for service businesses deciding how to handle confirmations, reminders, reschedules, prep steps, and attended-appointment handoff without endless calendar chasing.",
