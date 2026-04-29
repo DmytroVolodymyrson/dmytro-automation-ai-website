@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-29T18:09:48.037Z",
-  "postCount": 546,
+  "updatedAt": "2026-04-29T18:22:09.923Z",
+  "postCount": 548,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,25 +15,25 @@
       "max": 13,
       "p25": 4,
       "p75": 4,
-      "samples": 546
+      "samples": 548
     },
     "sentenceLength": {
       "mean": 23.7,
       "median": 24.15,
       "min": 7.1,
       "max": 105,
-      "p25": 19.5,
+      "p25": 19.4,
       "p75": 27.6,
-      "samples": 546
+      "samples": 548
     },
     "totalWords": {
-      "mean": 335.2,
+      "mean": 334.8,
       "median": 336,
       "min": 17,
       "max": 1155,
       "p25": 281,
       "p75": 374,
-      "samples": 546
+      "samples": 548
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -59,7 +59,7 @@
       "long | single | single | short": 20,
       "long | single | short | long": 13,
       "long | single | single | long": 68,
-      "long | short | single | long": 120,
+      "long | short | single | long": 121,
       "long | single | single | long | short | single | single | single": 1,
       "long | short | single | single": 6,
       "long | long | single | short": 4,
@@ -130,7 +130,7 @@
       "single | short | long | single": 1,
       "single | single": 1,
       "single | short": 1,
-      "long | single": 1,
+      "long | single": 2,
       "long | short | single": 1,
       "short | single": 2,
       "long | short | long | single | short | short | long | short | long | long | short | long | long": 1,
@@ -157,7 +157,7 @@
       "opener | product-pitch | product-pitch | result | context | product-pitch | context | product-pitch | product-pitch | closer": 1,
       "opener | context | context | context | result | product-pitch | context | context | closer": 1,
       "opener | context | product-pitch | closer": 47,
-      "opener | context | context | closer": 210,
+      "opener | context | context | closer": 211,
       "opener | product-pitch | context | closer": 33,
       "opener | context | product-pitch | context | product-pitch | result | context | closer": 1,
       "opener | product-pitch | product-pitch | closer": 29,
@@ -185,7 +185,7 @@
       "opener | context | context | product-pitch | product-pitch | context | result | closer": 1,
       "opener | product-pitch | context | context | product-pitch | product-pitch | context | context | closer": 1,
       "opener | context | result | context | result | context | context | context | closer": 1,
-      "opener | closer": 7,
+      "opener | closer": 8,
       "opener | product-pitch | product-pitch | product-pitch | context | context | result | result | result | closer": 1,
       "opener | product-pitch | result | context | context | context | context | closer": 1,
       "opener | context | product-pitch | context | context | context | context | product-pitch | closer": 1,
@@ -234,7 +234,7 @@
         ]
       },
       "standard-opener": {
-        "count": 374,
+        "count": 375,
         "examples": [
           "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an autom",
           "Section heading: Real Results for Real Businesses\nSubheading: Here's what happen",
@@ -242,7 +242,7 @@
         ]
       },
       "question": {
-        "count": 37,
+        "count": 38,
         "examples": [
           "Q: What kind of businesses do you work with?",
           "### Hero\nBadge: AI Automation Consulting\nHeading: Do you actually need an AI aut",
@@ -269,7 +269,7 @@
         ]
       },
       "question": {
-        "count": 450,
+        "count": 451,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -291,7 +291,7 @@
         ]
       },
       "cta": {
-        "count": 6,
+        "count": 7,
         "examples": [
           "### Final CTA\nHeading: Real-estate cluster navigation\nBody: These link updates a",
           "### Internal-linking purpose\nSection: Homepage editorial routing\n- Adds a new in",
@@ -310,11 +310,11 @@
     "topWords": [
       [
         "-",
-        3653
+        3661
       ],
       [
         "what",
-        1973
+        1978
       ],
       [
         "automation",
@@ -322,23 +322,23 @@
       ],
       [
         "ai",
-        1162
+        1178
       ],
       [
         "workflow",
-        1128
+        1132
       ],
       [
         "how",
-        1091
+        1096
       ],
       [
         "page",
-        1048
+        1053
       ],
       [
         "it",
-        991
+        996
       ],
       [
         "when",
@@ -350,15 +350,15 @@
       ],
       [
         "phone",
-        868
-      ],
-      [
-        "follow-up",
-        746
+        880
       ],
       [
         "whether",
-        745
+        749
+      ],
+      [
+        "follow-up",
+        748
       ],
       [
         "first",
@@ -370,7 +370,7 @@
       ],
       [
         "live",
-        615
+        622
       ],
       [
         "call",
@@ -382,7 +382,7 @@
       ],
       [
         "answering",
-        508
+        518
       ],
       [
         "from",
@@ -414,15 +414,15 @@
       ],
       [
         "not",
-        381
+        384
       ],
       [
         "lead",
-        373
+        375
       ],
       [
         "body",
-        367
+        368
       ],
       [
         "business",

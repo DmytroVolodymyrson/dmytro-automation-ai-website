@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-homepage-proof-strip-lead-follow-up-link",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Proof strip support copy\nBody: Need the full proof library before you decide? Read the complete case studies hub to compare all three documented builds. If the next question is whether the real leak is first-contact booking speed, after-hours calls, or calendar handoff, open the AI appointment setter guide before you commit to a heavier build. If the real problem is leads going cold after the first inquiry, start with the AI lead follow-up guide for service businesses instead.\n\n### Link target\n- Anchor text: AI lead follow-up guide for service businesses\n- URL: /ai-lead-follow-up-for-service-businesses",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Bounded homepage copy refresh for GEO indexing support, not a redesign."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses proof-to-problem framing so the link feels like decision support after case-study review, not generic navigation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Anchor text stays descriptive and buyer-language-driven rather than CTA-only copy."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Names the exact operational trigger behind lead-follow-up intent: leads going cold after the first inquiry."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the tone practical and low-hype while adding a clearer editorial homepage path into a high-intent cluster parent."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T18:22:09.853Z",
+    "structure": {
+      "paragraphCount": 2,
+      "sentencesPerParagraph": [
+        4,
+        1
+      ],
+      "avgSentenceLength": 18.8,
+      "sentenceLengthRange": [
+        12,
+        31
+      ],
+      "totalWords": 94
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Proof strip support copy\nBody: Need the full proof library before you decide?",
+      "wordCount": 13,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "cta",
+      "text": "### Link target\n- Anchor text: AI lead follow-up guide for service businesses\n- URL: /ai-lead-follow-up-for-service-businesses",
+      "pattern": "cta"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "closer"
+      ],
+      "template": "opener | closer"
+    },
+    "punctuation": {
+      "periods": 3,
+      "commas": 4,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 2,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 3,
+      "commasPerSentence": 0.8
+    },
+    "vocabulary": {
+      "distinctWords": 69,
+      "totalWords": 94,
+      "topWords": [
+        [
+          "ai",
+          3
+        ],
+        [
+          "guide",
+          3
+        ],
+        [
+          "proof",
+          2
+        ],
+        [
+          "before",
+          2
+        ],
+        [
+          "if",
+          2
+        ],
+        [
+          "real",
+          2
+        ],
+        [
+          "lead",
+          2
+        ],
+        [
+          "follow-up",
+          2
+        ],
+        [
+          "service",
+          2
+        ],
+        [
+          "businesses",
+          2
+        ],
+        [
+          "-",
+          2
+        ],
+        [
+          "strip",
+          1
+        ],
+        [
+          "support",
+          1
+        ],
+        [
+          "copy",
+          1
+        ],
+        [
+          "body",
+          1
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

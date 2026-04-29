@@ -38,7 +38,14 @@ const ProofStripSection = () => {
             >
               AI appointment setter guide
             </Link>{" "}
-            before you commit to a heavier build.
+            before you commit to a heavier build. If the real problem is leads going cold after the first inquiry, start with the{" "}
+            <Link
+              to="/ai-lead-follow-up-for-service-businesses"
+              className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors"
+            >
+              AI lead follow-up guide for service businesses
+            </Link>{" "}
+            instead.
           </p>
         </div>
 
