@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 394 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 395 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -237,6 +237,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Client Reactivation Automation for Real Estate Teams** — `/client-reactivation-automation-for-real-estate-teams`
 - **Client Reactivation Automation for Roofing Companies** — `/client-reactivation-automation-for-roofing-companies`
 - **Consultation Booking and Reminder Automation for Med Spas** — `/consultation-booking-and-reminder-automation-for-med-spas`
+- **Referral Request Automation for Roofing Companies** — `/referral-request-automation-for-roofing-companies`
 - **CRM Automation for Contractors** — `/crm-automation-for-contractors`
 - **CRM Automation Setup Cost for Contractors** — `/crm-automation-setup-cost-for-contractors`
 - **CRM Automation Setup for Contractors** — `/crm-automation-setup-for-contractors`

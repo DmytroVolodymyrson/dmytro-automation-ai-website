@@ -342,6 +342,7 @@ const MissedCallTextBackVsVoicemailForRoofingCompanies = lazy(() => import("./pa
 const AiPhoneAnsweringForRoofingCompanies = lazy(() => import("./pages/AiPhoneAnsweringForRoofingCompanies"));
 const AiPhoneAnsweringVsVoicemailForRoofingCompanies = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForRoofingCompanies"));
 const ReviewRequestAutomationForRoofingCompanies = lazy(() => import("./pages/ReviewRequestAutomationForRoofingCompanies"));
+const ReferralRequestAutomationForRoofingCompanies = lazy(() => import("./pages/ReferralRequestAutomationForRoofingCompanies"));
 const AiAutomationForPestControlCompanies = lazy(() => import("./pages/AiAutomationForPestControlCompanies"));
 const AiAutomationForPoolServiceCompanies = lazy(() => import("./pages/AiAutomationForPoolServiceCompanies"));
 const WhatToAutomateFirstForPoolServiceCompanies = lazy(() => import("./pages/WhatToAutomateFirstForPoolServiceCompanies"));
@@ -784,6 +785,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-phone-answering-for-roofing-companies" element={<AiPhoneAnsweringForRoofingCompanies />} />
       <Route path="/ai-phone-answering-vs-voicemail-for-roofing-companies" element={<AiPhoneAnsweringVsVoicemailForRoofingCompanies />} />
       <Route path="/review-request-automation-for-roofing-companies" element={<ReviewRequestAutomationForRoofingCompanies />} />
+      <Route path="/referral-request-automation-for-roofing-companies" element={<ReferralRequestAutomationForRoofingCompanies />} />
       <Route path="/ai-automation-for-pest-control-companies" element={<AiAutomationForPestControlCompanies />} />
       <Route path="/ai-automation-for-pool-service-companies" element={<AiAutomationForPoolServiceCompanies />} />
       <Route path="/what-to-automate-first-for-pool-service-companies" element={<WhatToAutomateFirstForPoolServiceCompanies />} />

@@ -2384,6 +2384,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Referral Request Automation for Roofing Companies",
+    description:
+      "Post-job advocacy workflow for roofing companies that want cleaner referral timing, a clear separation from review asks, and faster routing when a happy client mentions a neighbor, another property, or another live roofing need.",
+    href: "/referral-request-automation-for-roofing-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Pest Control Companies",
     description:
       "AI automation for pest control companies. Lead follow-up, recurring service reminders, seasonal campaigns, missed call text-back, and review automation.",

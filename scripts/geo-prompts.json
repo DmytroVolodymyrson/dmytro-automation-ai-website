@@ -3308,6 +3308,18 @@
       ]
     },
     {
+      "id": "referral-request-automation-for-roofing-companies",
+      "path": "/referral-request-automation-for-roofing-companies",
+      "label": "Referral Request Automation for Roofing Companies",
+      "prompts": [
+        "Referral request automation for roofing companies",
+        "How should a roofing company ask for referrals after a completed job?",
+        "Best way for a roofer to turn a happy homeowner into a neighbor or second-property referral without sounding awkward",
+        "How do roofing companies separate referral asks from review asks after repairs and replacements?",
+        "Roofing post-job referral workflow after repairs and replacements"
+      ]
+    },
+    {
       "id": "ai-automation-for-pest-control-companies",
       "path": "/ai-automation-for-pest-control-companies",
       "label": "AI Automation for Pest Control Companies",

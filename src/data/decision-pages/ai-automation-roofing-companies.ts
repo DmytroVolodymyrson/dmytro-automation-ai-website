@@ -191,6 +191,7 @@ const data: DecisionPageData = {
     { label: "Estimate follow-up automation for roofing companies", href: "/estimate-follow-up-automation-for-roofing-companies" },
     { label: "Insurance claim follow-up for roofing companies", href: "/insurance-claim-follow-up-for-roofing-companies" },
     { label: "Roofing scheduling and follow-up automation", href: "/roofing-scheduling-and-follow-up-automation" },
+    { label: "Referral request automation for roofing companies", href: "/referral-request-automation-for-roofing-companies" },
     { label: "All guides", href: "/guides" },
   ],
 };

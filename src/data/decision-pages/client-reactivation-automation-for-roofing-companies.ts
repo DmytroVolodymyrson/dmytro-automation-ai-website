@@ -237,6 +237,10 @@ const data: DecisionPageData = {
           label: "Review request automation for roofing companies",
           href: "/review-request-automation-for-roofing-companies",
         },
+        {
+          label: "Referral request automation for roofing companies",
+          href: "/referral-request-automation-for-roofing-companies",
+        },
       ],
     },
   ],

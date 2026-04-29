@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/appointment-scheduling-and-reminder-automation-for-insurance-agencies` — a new insurance child page covering consultation, policy review, annual check-in, and claims discussion booking, confirmation, reminder timing, reschedule routing, and producer/CSR handoff. Stays distinct from the live insurance lead follow-up, quote follow-up, renewal, cross-sell, review/referral, after-hours, and phone pages by focusing narrowly on the booked-meeting coordination layer. Previous: `/referral-request-automation-for-law-firms`.)
+Last updated: 2026-04-28 (shipped `/referral-request-automation-for-roofing-companies` — a new roofing child page covering post-job referral timing, review-vs-referral separation, neighbor/second-property opportunities, and fast routing when a happy client surfaces another live roofing need. Stays distinct from the live roofing parent, review-request, scheduling, estimate-follow-up, reactivation, and phone pages by focusing narrowly on the advocacy/referral layer after the job is already done. Previous: `/appointment-scheduling-and-reminder-automation-for-insurance-agencies`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 326.
+**Total live GEO pages tracked here:** 327.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -335,18 +335,19 @@ Last updated: 2026-04-28 (shipped `/appointment-scheduling-and-reminder-automati
 | AI Phone Answering ROI (SMB) | `/ai-phone-answering-roi-small-business` | Workflow / ROI page | Live |
 | AI Phone Answering Setup vs. DIY (SMB) | `/ai-phone-answering-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | Insurance Claim Follow-Up (Roofing) | `/insurance-claim-follow-up-for-roofing-companies` | Vertical workflow page | Live |
+| Referral Request Automation (Roofing) | `/referral-request-automation-for-roofing-companies` | Vertical workflow page | Live |
 
 ## Next Pages
 
-This run shipped `/appointment-scheduling-and-reminder-automation-for-insurance-agencies`. The insurance cluster now covers lead follow-up, quote follow-up, renewals, cross-sell, review requests, referral requests, appointment scheduling, after-hours inquiry handling, and full phone-recovery comparisons. That fills the last obvious workflow gap in the insurance cluster.
+This run shipped `/referral-request-automation-for-roofing-companies`. The roofing cluster now covers the broad parent, first-project framing, estimate follow-up, insurance-claim follow-up, scheduling, review requests, client reactivation, and the full phone-recovery stack. That removes the cleanest remaining post-job advocacy gap in the roofing cluster.
 
 The next run should:
 
 1. **Start from a fresh broad reconciliation before naming the next net-new page.** The repo is dense enough that stale docs can still over-credit a cluster or make an already-live page look missing.
-2. **Keep manual GSC follow-through moving** on the newest shipped pages and refreshed priority URLs instead of treating publish alone as the finish line.
-3. **Bias toward the next clean cross-cluster workflow gap rather than forcing another same-cluster child by inertia.** If reconciliation still points to an insurance or law-firm gap, prove it explicitly before shipping it.
+2. **Keep manual GSC follow-through moving** on the newest roofing, insurance, and law-firm ships instead of treating publish alone as the finish line.
+3. **Bias toward the next clean cross-cluster workflow gap rather than forcing another same-cluster roofing child by inertia.** If reconciliation still points back to roofing, prove that a materially distinct lifecycle stage remains.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Fresh broad reconciliation before another net-new page | Both the law-firm and insurance clusters are now deep. The next best candidate is more likely a distinct workflow gap elsewhere. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
-| 2 | Manual GSC follow-through on refreshed priority URLs and the newest insurance/law-firm/solar ships | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |
+| 1 | Fresh broad reconciliation before another net-new page | The roofing cluster is now deep enough that the next best candidate is more likely a distinct workflow gap in another cluster rather than another roofing child. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
+| 2 | Manual GSC follow-through on refreshed priority URLs and the newest roofing/insurance/law-firm ships | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |

@@ -293,6 +293,7 @@ const data: DecisionPageData = {
     { label: "Insurance claim follow-up for roofing companies", href: "/insurance-claim-follow-up-for-roofing-companies" },
     { label: "Roofing scheduling and follow-up automation", href: "/roofing-scheduling-and-follow-up-automation" },
     { label: "AI phone answering for roofing companies", href: "/ai-phone-answering-for-roofing-companies" },
+    { label: "Referral request automation for roofing companies", href: "/referral-request-automation-for-roofing-companies" },
     { label: "All guides", href: "/guides" },
   ],
 };

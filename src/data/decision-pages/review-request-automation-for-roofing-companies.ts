@@ -291,6 +291,10 @@ const data: DecisionPageData = {
       label: "Roofing scheduling and follow-up automation",
       href: "/roofing-scheduling-and-follow-up-automation",
     },
+    {
+      label: "Referral request automation for roofing companies",
+      href: "/referral-request-automation-for-roofing-companies",
+    },
     { label: "All guides", href: "/guides" },
   ],
 };

@@ -341,6 +341,7 @@ import MissedCallTextBackVsVoicemailForRoofingCompanies from "./pages/MissedCall
 import AiPhoneAnsweringForRoofingCompanies from "./pages/AiPhoneAnsweringForRoofingCompanies";
 import AiPhoneAnsweringVsVoicemailForRoofingCompanies from "./pages/AiPhoneAnsweringVsVoicemailForRoofingCompanies";
 import ReviewRequestAutomationForRoofingCompanies from "./pages/ReviewRequestAutomationForRoofingCompanies";
+import ReferralRequestAutomationForRoofingCompanies from "./pages/ReferralRequestAutomationForRoofingCompanies";
 import AiAutomationForPestControlCompanies from "./pages/AiAutomationForPestControlCompanies";
 import AiAutomationForPoolServiceCompanies from "./pages/AiAutomationForPoolServiceCompanies";
 import WhatToAutomateFirstForPoolServiceCompanies from "./pages/WhatToAutomateFirstForPoolServiceCompanies";
@@ -847,6 +848,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-phone-answering-for-roofing-companies", element: <AiPhoneAnsweringForRoofingCompanies /> },
   { path: "/ai-phone-answering-vs-voicemail-for-roofing-companies", element: <AiPhoneAnsweringVsVoicemailForRoofingCompanies /> },
   { path: "/review-request-automation-for-roofing-companies", element: <ReviewRequestAutomationForRoofingCompanies /> },
+  { path: "/referral-request-automation-for-roofing-companies", element: <ReferralRequestAutomationForRoofingCompanies /> },
   { path: "/ai-automation-for-pest-control-companies", element: <AiAutomationForPestControlCompanies /> },
   { path: "/ai-automation-for-pool-service-companies", element: <AiAutomationForPoolServiceCompanies /> },
   { path: "/what-to-automate-first-for-pool-service-companies", element: <WhatToAutomateFirstForPoolServiceCompanies /> },
