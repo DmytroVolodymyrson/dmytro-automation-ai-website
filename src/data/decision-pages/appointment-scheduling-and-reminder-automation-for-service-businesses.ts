@@ -234,6 +234,10 @@ const data: DecisionPageData = {
           label: "Appointment scheduling for plumbing companies",
           href: "/appointment-scheduling-and-reminder-automation-for-plumbing-companies",
         },
+        {
+          label: "Appointment scheduling and reminder setup",
+          href: "/appointment-scheduling-and-reminder-setup-for-service-businesses",
+        },
       ],
     },
   ],
@@ -282,6 +286,7 @@ const data: DecisionPageData = {
       label: "Booking confirmation and reminder automation",
       href: "/booking-confirmation-and-reminder-automation",
     },
+    { label: "Appointment scheduling and reminder setup", href: "/appointment-scheduling-and-reminder-setup-for-service-businesses" },
     { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
     { label: "No-show reduction setup", href: "/no-show-reduction-setup-for-service-businesses" },
   ],

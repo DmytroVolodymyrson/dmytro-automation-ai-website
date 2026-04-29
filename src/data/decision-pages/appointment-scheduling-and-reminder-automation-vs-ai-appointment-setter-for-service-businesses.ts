@@ -234,6 +234,7 @@ const data: DecisionPageData = {
         { label: "Appointment scheduling and reminder automation for service businesses", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
         { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
         { label: "AI appointment setter vs. receptionist", href: "/ai-appointment-setter-vs-receptionist" },
+        { label: "Appointment scheduling and reminder setup", href: "/appointment-scheduling-and-reminder-setup-for-service-businesses" },
       ],
     },
   ],
@@ -275,6 +276,7 @@ const data: DecisionPageData = {
     { label: "AI appointment setter", href: "/ai-appointment-setter" },
     { label: "Appointment scheduling and reminder automation for service businesses", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
     { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
+    { label: "Appointment scheduling and reminder setup", href: "/appointment-scheduling-and-reminder-setup-for-service-businesses" },
     { label: "AI appointment setter vs. virtual assistant", href: "/ai-appointment-setter-vs-virtual-assistant" },
   ],
 };

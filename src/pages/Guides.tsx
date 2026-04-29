@@ -974,6 +974,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "Appointment Scheduling and Reminder Setup for Service Businesses",
+    description:
+      "Setup-help guide for service businesses before scheduling and reminder automation goes live. Covers booking triggers, confirmation logic, reminder timing, reschedule routing, prep-step enforcement, CRM mapping, and when setup help is worth paying for.",
+    href: "/appointment-scheduling-and-reminder-setup-for-service-businesses",
+    category: "workflows",
+  },
+  {
     title: "Contact Form Autoresponder vs. Full Lead Follow-Up",
     description:
       "Decision guide for owners asking whether a basic form autoresponder is still enough or whether website leads now need a real workflow with qualification, routing, and short follow-up.",

@@ -2720,6 +2720,18 @@
       ]
     },
     {
+      "id": "appointment-scheduling-and-reminder-setup-for-service-businesses",
+      "path": "/appointment-scheduling-and-reminder-setup-for-service-businesses",
+      "label": "Appointment Scheduling and Reminder Setup for Service Businesses",
+      "prompts": [
+        "appointment scheduling and reminder setup for service businesses",
+        "what does appointment scheduling and reminder setup include for a service business",
+        "how to set up appointment confirmations reminders and reschedule routing for a service business",
+        "when should a service business pay for scheduling and reminder setup help vs diy",
+        "what are the most common setup mistakes in appointment scheduling automation"
+      ]
+    },
+    {
       "id": "contact-form-autoresponder-vs-full-lead-follow-up",
       "path": "/contact-form-autoresponder-vs-full-lead-follow-up",
       "label": "Contact Form Autoresponder vs. Full Lead Follow-Up",

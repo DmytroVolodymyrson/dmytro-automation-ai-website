@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/missed-call-text-back-vs-voicemail-for-service-businesses` — the live generic service-business phone cluster already had the broader missed-call text-back parent, the broader AI phone-answering parent, the text-back-vs-AI comparison, and the heavier AI-vs-voicemail comparison. The remaining clean missing layer was the lighter fallback decision between SMS-first missed-call recovery and passive voicemail/manual callback. This new page stays tightly on that lighter buyer choice instead of rehashing the broader parents or the heavier AI comparison. Previous: `/ai-phone-answering-vs-voicemail-for-service-businesses`.)
+Last updated: 2026-04-29 (shipped `/appointment-scheduling-and-reminder-setup-for-service-businesses` — the generic service-business scheduling cluster already had the broader scheduling parent and the vs-AI-appointment-setter comparison. The missing layer was the setup/implementation child that answers "what does a clean first build actually include?" This new page stays on booking triggers, confirmation logic, reminder timing, reschedule routing, prep-step enforcement, and when setup help is worth paying for. Previous: `/missed-call-text-back-vs-voicemail-for-service-businesses`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 376.
+**Total live GEO pages tracked here:** 377.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -386,11 +386,12 @@ Last updated: 2026-04-29 (shipped `/missed-call-text-back-vs-voicemail-for-servi
 | No-Show Reduction Setup vs. DIY (SMB) | `/no-show-reduction-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | No-Show Reduction Cost (SMB) | `/no-show-reduction-cost-small-business` | Workflow / cost page | Live |
 | No-Show Reduction ROI (SMB) | `/no-show-reduction-roi-small-business` | Workflow / ROI page | Live |
+| Appointment Scheduling & Reminder Setup (Service Businesses) | `/appointment-scheduling-and-reminder-setup-for-service-businesses` | Workflow / setup-help page | Live |
 
 ## Next Pages
 
-This run shipped `/missed-call-text-back-vs-voicemail-for-service-businesses` because the live generic service-business phone cluster already had the broader missed-call text-back parent, the broader AI phone-answering parent, the text-back-vs-AI comparison, and the heavier AI-vs-voicemail comparison. The remaining clean missing layer was the lighter fallback decision between SMS-first missed-call recovery and passive voicemail/manual callback. With that page now live, the generic service-business phone cluster should be treated as broadly filled for now rather than forced into another same-cluster follow-up by inertia.
+This run shipped `/appointment-scheduling-and-reminder-setup-for-service-businesses` because the generic service-business scheduling cluster already had the broader scheduling parent (`/appointment-scheduling-and-reminder-automation-for-service-businesses`) and the vs-AI-appointment-setter comparison. The missing layer was the setup/implementation child — what booking triggers to trust, what confirmation logic to configure, what reminder timing to build, how reschedules should route, and when professional setup help is worth paying for versus keeping the process manual. That child pattern already exists for no-show reduction, missed-call text-back, client reactivation, estimate follow-up, and other workflow families. With this page now live, the scheduling cluster has its parent + comparison + setup triad filled.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | Broad reconciliation before naming another slug | The generic service-business phone cluster has now covered the cleaner parent + comparison layers. The next run should reconcile GEO-PLAN, `docs/programmatic-seo-pattern-matrix.md`, `scripts/geo-prompts.json`, and the live routes/pages to find the next planned unshipped page with direct proof adjacency instead of forcing another same-cluster phone page. |
+| 1 | `/appointment-scheduling-and-reminder-cost-small-business` | The scheduling cluster now has parent + comparison + setup. The cost child is the next standard pattern (already exists for no-show reduction, missed-call text-back, client reactivation, estimate follow-up, quote follow-up, and other workflow families). Direct proof adjacency from the live scheduling parent and the new setup page. |
