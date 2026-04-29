@@ -318,6 +318,12 @@ const data: DecisionPageData = {
         "Heavier HVAC phone-coverage guide for live call handling, after-hours coverage, and CSR relief when lighter fixes are not enough.",
       href: "/ai-phone-answering-for-hvac-companies",
     },
+    {
+      title: "Referral Request Automation for HVAC Companies",
+      description:
+        "Post-job advocacy workflow for HVAC companies that want cleaner referral timing after completed service calls, tune-ups, and installs instead of leaving neighbor and family introductions to luck.",
+      href: "/referral-request-automation-for-hvac-companies",
+    },
   ],
   bottomCta: {
     heading: "Need help choosing the first HVAC workflow to automate?",

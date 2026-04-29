@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 399 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 401 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -289,6 +289,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Dispatch Handoff Automation for HVAC Companies** — `/dispatch-handoff-automation-for-hvac-companies`
 - **Maintenance Reminder Automation for HVAC Companies** — `/maintenance-reminder-automation-for-hvac-companies`
 - **Quote Follow-Up Automation for HVAC Companies** — `/quote-follow-up-automation-for-hvac-companies`
+- **Referral Request Automation for HVAC Companies** — `/referral-request-automation-for-hvac-companies`
 - **Incomplete Application Follow-Up for Mortgage Brokers** — `/incomplete-application-follow-up-for-mortgage-brokers`
 - **Job Intake Routing Automation for Contractors** — `/job-intake-routing-automation-for-contractors`
 - **Lease Renewal Automation for Property Management Companies** — `/lease-renewal-automation-for-property-management-companies`

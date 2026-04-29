@@ -268,6 +268,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation for HVAC companies", href: "/ai-automation-for-hvac-companies" },
     { label: "What to automate first for HVAC companies", href: "/what-to-automate-first-for-hvac-companies" },
+    { label: "Referral request automation for HVAC companies", href: "/referral-request-automation-for-hvac-companies" },
     { label: "HVAC scheduling and follow-up automation", href: "/hvac-scheduling-and-follow-up-automation" },
     { label: "AI phone answering for HVAC companies", href: "/ai-phone-answering-for-hvac-companies" },
     { label: "All guides", href: "/guides" },

@@ -67,6 +67,7 @@ const MissedCallTextBackVsAiPhoneAnsweringForHvacCompanies = lazy(() => import("
 const MissedCallTextBackVsVoicemailForHvacCompanies = lazy(() => import("./pages/MissedCallTextBackVsVoicemailForHvacCompanies"));
 const AiPhoneAnsweringVsVoicemailForHvacCompanies = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForHvacCompanies"));
 const ReviewRequestAutomationForHvacCompanies = lazy(() => import("./pages/ReviewRequestAutomationForHvacCompanies"));
+const ReferralRequestAutomationForHvacCompanies = lazy(() => import("./pages/ReferralRequestAutomationForHvacCompanies"));
 const MaintenanceReminderAutomationForHvacCompanies = lazy(() => import("./pages/MaintenanceReminderAutomationForHvacCompanies"));
 const QuoteFollowUpAutomationForHvacCompanies = lazy(() => import("./pages/QuoteFollowUpAutomationForHvacCompanies"));
 const AiAppointmentSetterForHomeServiceBusinesses = lazy(() => import("./pages/AiAppointmentSetterForHomeServiceBusinesses"));
@@ -510,6 +511,7 @@ const AppRoutesClient = () => (
       <Route path="/missed-call-text-back-vs-voicemail-for-hvac-companies" element={<MissedCallTextBackVsVoicemailForHvacCompanies />} />
       <Route path="/ai-phone-answering-vs-voicemail-for-hvac-companies" element={<AiPhoneAnsweringVsVoicemailForHvacCompanies />} />
       <Route path="/review-request-automation-for-hvac-companies" element={<ReviewRequestAutomationForHvacCompanies />} />
+      <Route path="/referral-request-automation-for-hvac-companies" element={<ReferralRequestAutomationForHvacCompanies />} />
       <Route path="/maintenance-reminder-automation-for-hvac-companies" element={<MaintenanceReminderAutomationForHvacCompanies />} />
       <Route path="/quote-follow-up-automation-for-hvac-companies" element={<QuoteFollowUpAutomationForHvacCompanies />} />
       <Route path="/ai-appointment-setter-for-home-service-businesses" element={<AiAppointmentSetterForHomeServiceBusinesses />} />

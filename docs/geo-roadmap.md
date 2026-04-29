@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/referral-request-automation-for-dental-practices` — a new dental child page covering post-visit advocacy follow-up: referral timing after strong hygiene visits, exams, and treatment completions, separate review-vs-referral asks, and fast front-desk handoff when a patient names a family member, friend, or coworker. Stays distinct from the live dental parent, the review-request child, and the recall/reactivation child by focusing narrowly on private introductions while goodwill from the recent visit is still warm rather than public reputation or later-lifecycle recall. Previous: `/referral-request-automation-for-cleaning-companies`.)
+Last updated: 2026-04-28 (shipped `/referral-request-automation-for-hvac-companies` — a new HVAC child page covering post-job advocacy follow-up: referral timing after completed repairs, tune-ups, and installs, separate review-vs-referral asks, and fast office handoff when a satisfied homeowner names a neighbor, family member, or another property. Stays distinct from the live HVAC parent, the review-request child, and the maintenance-reminder child by focusing narrowly on private introductions while the completed job is still fresh rather than public reputation or later seasonal recall. Previous: `/referral-request-automation-for-dental-practices`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 332.
+**Total live GEO pages tracked here:** 333.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -105,6 +105,7 @@ Last updated: 2026-04-28 (shipped `/referral-request-automation-for-dental-pract
 | AI Phone vs Voicemail (HVAC) | `/ai-phone-answering-vs-voicemail-for-hvac-companies` | Vertical comparison page | Live |
 | Text-Back vs Voicemail (HVAC) | `/missed-call-text-back-vs-voicemail-for-hvac-companies` | Vertical comparison page | Live |
 | Review Automation (HVAC) | `/review-request-automation-for-hvac-companies` | Vertical workflow page | Live |
+| Referral Request Automation (HVAC) | `/referral-request-automation-for-hvac-companies` | Vertical workflow page | Live |
 | Maintenance Reminders (HVAC) | `/maintenance-reminder-automation-for-hvac-companies` | Vertical workflow page | Live |
 | Quote Follow-Up (HVAC) | `/quote-follow-up-automation-for-hvac-companies` | Vertical workflow page | Live |
 | AI for Restaurants | `/ai-automation-for-restaurants` | Vertical category page | Live |
@@ -344,15 +345,15 @@ Last updated: 2026-04-28 (shipped `/referral-request-automation-for-dental-pract
 
 ## Next Pages
 
-This run shipped `/referral-request-automation-for-dental-practices`. The dental cluster now covers the broad parent, first-project framing, lead follow-up, booking/reminders, recall/reactivation, no-show reduction, review requests, referral requests, missed-call text-back, text-back-vs-voicemail, text-back-vs-AI-phone, AI phone answering, and phone-vs-voicemail. That fills the post-visit advocacy gap that the parent page and surrounding dental children had already made commercially distinct.
+This run shipped `/referral-request-automation-for-hvac-companies`. The HVAC cluster now covers the broad parent, first-project framing, lead follow-up, missed-call recovery, booked-job scheduling, dispatch handoff, review requests, referral requests, maintenance reminders, quote follow-up, AI phone answering, and the key phone-layer comparison pages. That fills the post-job advocacy gap that the parent page and surrounding HVAC children had already made commercially distinct.
 
 The next run should:
 
 1. **Start from a fresh broad reconciliation before naming the next net-new page.** The repo is dense enough that stale docs can still over-credit a cluster or make an already-live page look missing.
-2. **Keep manual GSC follow-through moving** on the newest dental, cleaning, chiropractic, med-spa, painting, roofing, insurance, and law-firm ships instead of treating publish alone as the finish line.
-3. **Bias toward the next clean cross-cluster workflow gap rather than forcing another same-cluster child by inertia.** If reconciliation still points back to dental, prove that a materially distinct lifecycle stage remains.
+2. **Keep manual GSC follow-through moving** on the newest HVAC, dental, cleaning, chiropractic, med-spa, painting, roofing, insurance, and law-firm ships instead of treating publish alone as the finish line.
+3. **Bias toward the next clean cross-cluster workflow gap rather than forcing another same-cluster child by inertia.** If reconciliation points back to HVAC again, prove that a materially distinct lifecycle stage remains.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | `/referral-request-automation-for-hvac-companies` | HVAC cluster is deep (parent, first-project, lead follow-up, missed-call, scheduling, dispatch, phone answering, phone comparisons, review requests, maintenance reminders, quote follow-up) but still lacks a dedicated referral-request child. The referral-request pattern is now proven across chiropractic, med spa, cleaning, dental, painting, roofing, insurance, law firm, real estate, and mortgage clusters. | Verify no existing HVAC referral-request route or data file exists. Confirm the HVAC parent page already names referrals or advocacy as a distinct workflow family. |
-| 2 | Fresh broad reconciliation if HVAC referral does not pass re-check | The dental, chiropractic, cleaning, med spa, painting, and roofing clusters are now deeper. If the HVAC referral candidate does not pass re-check, reconcile before naming the next net-new candidate. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming an alternative. |
+| 1 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | The HVAC referral gap is now filled. The next clean ship should come from a new cross-cluster workflow gap that still survives route, prompt, and proof checks instead of defaulting to another mature cluster by inertia. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming the next candidate. |
+| 2 | Manual GSC follow-through on newest live workflow pages | Publish alone is not the finish line. Recent HVAC, dental, cleaning, chiropractic, med-spa, painting, roofing, insurance, and law-firm child pages still need inspection and indexing requests where appropriate. | Check the newest live URLs in GSC after deploy propagation and request indexing only after meaningful copy/internal-link updates are live. |

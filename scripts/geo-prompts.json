@@ -476,6 +476,18 @@
       ]
     },
     {
+      "id": "referral-request-automation-for-hvac-companies",
+      "path": "/referral-request-automation-for-hvac-companies",
+      "label": "Referral Request Automation for HVAC Companies",
+      "prompts": [
+        "Referral request automation for HVAC companies",
+        "How should an HVAC company ask for referrals automatically after a completed service call or install?",
+        "Best way for an HVAC company to turn completed jobs into neighbor and family referrals without awkward follow-up",
+        "When should an HVAC company ask for referrals after repair, maintenance, or install work is finished?",
+        "How should an HVAC company route homeowner referral replies or second-property opportunities back to the office quickly?"
+      ]
+    },
+    {
       "id": "maintenance-reminder-automation-for-hvac-companies",
       "path": "/maintenance-reminder-automation-for-hvac-companies",
       "label": "Maintenance Reminder Automation for HVAC Companies",

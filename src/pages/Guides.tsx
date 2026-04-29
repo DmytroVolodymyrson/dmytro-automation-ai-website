@@ -933,6 +933,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Referral Request Automation for HVAC Companies",
+    description:
+      "Post-job advocacy workflow for HVAC companies that want cleaner referral timing after completed repairs, tune-ups, and installs, a clear separation from review asks, and faster routing when a happy homeowner names a neighbor, family member, or another property.",
+    href: "/referral-request-automation-for-hvac-companies",
+    category: "industries",
+  },
+  {
     title: "Maintenance Reminder Automation for HVAC Companies",
     description:
       "Seasonal tune-up reminders, service-due recall, membership renewal nudges, and dormant-customer reactivation for HVAC companies that want more repeat revenue without generic blast campaigns.",

@@ -21,6 +21,7 @@ import {
   Star,
   Wrench,
   FileText,
+  Users,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
@@ -233,6 +234,7 @@ const AiAutomationForHvacCompanies = () => {
               { to: "/quote-follow-up-automation-for-hvac-companies", icon: FileText, label: "Quote follow-up" },
               { to: "/maintenance-reminder-automation-for-hvac-companies", icon: Wrench, label: "Maintenance reminders" },
               { to: "/review-request-automation-for-hvac-companies", icon: Star, label: "Review request automation" },
+              { to: "/referral-request-automation-for-hvac-companies", icon: Users, label: "Referral request automation" },
             ].map((item) => (
               <Link
                 key={item.to}
@@ -298,6 +300,7 @@ const AiAutomationForHvacCompanies = () => {
                   { to: "/hvac-database-reactivation", text: "Database reactivation" },
                   { to: "/quote-follow-up-automation-for-hvac-companies", text: "Quote follow-up" },
                   { to: "/review-request-automation-for-hvac-companies", text: "Review automation" },
+                  { to: "/referral-request-automation-for-hvac-companies", text: "Referral workflow" },
                 ],
               },
             ].map((item, i) => (
