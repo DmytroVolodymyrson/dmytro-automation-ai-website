@@ -2396,6 +2396,18 @@
       ]
     },
     {
+      "id": "estimate-follow-up-setup-vs-diy-small-business",
+      "path": "/estimate-follow-up-setup-vs-diy-small-business",
+      "label": "Estimate Follow-Up Setup vs. DIY for Small Business",
+      "prompts": [
+        "Estimate follow-up setup vs DIY for small business",
+        "Should I hire someone to set up estimate follow-up or build it myself?",
+        "When is DIY estimate follow-up setup enough for a service business?",
+        "Is expert estimate follow-up setup worth paying for after site visits?",
+        "How do I decide between DIY and professional setup for estimate-stage follow-up?"
+      ]
+    },
+    {
       "id": "estimate-follow-up-cost-small-business",
       "path": "/estimate-follow-up-cost-small-business",
       "label": "Estimate Follow-Up Cost for Small Business",

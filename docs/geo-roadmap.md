@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (bounded refresh on `/ai-automation-for-businesses-without-a-tech-team` after reconciliation confirmed the page was already live, tracked, and still worth strengthening for non-technical-owner queries. The refresh added an early operating-reality router for solo field owners, admin-led teams, and unclear-follow-up-ownership teams; tightened the hire-help-vs-DIY decision path; expanded proof-grounded internal links to Paris Cafe, WheelsFeels, consultant-scope, and first-project guides; and added a new FAQ answer on the safest first automation for a non-technical owner. Previous: shipped `/quote-follow-up-setup-vs-diy-small-business`.)
+Last updated: 2026-04-29 (shipped `/estimate-follow-up-setup-vs-diy-small-business` after reconciliation confirmed the estimate-follow-up cluster already had the parent, setup-help, cost, ROI, and comparison layers live but still lacked the exact buy-vs-build child. The new page stays narrowly on owner time, estimate-stage trigger quality, estimator-to-office handoff, stale-estimate logic, reply routing, and when bounded setup help is cheaper than more DIY drift. Previous: bounded refresh on `/ai-automation-for-businesses-without-a-tech-team`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 361.
+**Total live GEO pages tracked here:** 362.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -40,6 +40,7 @@ Last updated: 2026-04-29 (bounded refresh on `/ai-automation-for-businesses-with
 | Missed Call Text-Back vs. AI Phone Answering (Service Businesses) | `/missed-call-text-back-vs-ai-phone-answering-for-service-businesses` | Workflow comparison page | Live |
 | Estimate Follow-Up Automation (Service Businesses) | `/estimate-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
 | Estimate Follow-Up Setup (Service Businesses) | `/estimate-follow-up-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| Estimate Follow-Up Setup vs. DIY (SMB) | `/estimate-follow-up-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | Estimate Follow-Up vs. Quote Follow-Up (Service Businesses) | `/estimate-follow-up-vs-quote-follow-up-for-service-businesses` | Workflow comparison page | Live |
 | Quote Follow-Up Automation (Service Businesses) | `/quote-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
 | Quote Follow-Up Setup (Service Businesses) | `/quote-follow-up-setup-for-service-businesses` | Workflow / setup-help page | Live |
@@ -373,10 +374,10 @@ Last updated: 2026-04-29 (bounded refresh on `/ai-automation-for-businesses-with
 
 ## Next Pages
 
-This run shipped `/quote-follow-up-setup-vs-diy-small-business` because the live quote-follow-up cluster already had the parent, setup-help, cost, and ROI layers live, and the remaining clean buyer decision was whether a small business should keep DIYing the setup or pay for help now. The page stays narrower than the setup-help page by focusing on owner time, trigger quality, CRM routing, stale-quote logic, and when bounded setup help is cheaper than more quote-stage drift.
+This run shipped `/estimate-follow-up-setup-vs-diy-small-business` because the live estimate-follow-up cluster already had the parent, setup-help, cost, ROI, and comparison layers live, and the remaining clean buyer decision was whether a small business should keep DIYing estimate-stage setup or pay for help now. The page stays narrower than the setup-help page by focusing on owner time, estimate-stage trigger quality, estimator-to-office handoff, stale-estimate logic, and when bounded setup help is cheaper than more DIY drift.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | `/estimate-follow-up-setup-vs-diy-small-business` | The estimate-follow-up cluster already has the parent setup-help, cost, ROI, and comparison pages live, but it still lacks the equivalent buy-vs-build child and the exact slug remains absent across routes/data/guides/sitemap/llm/prompts. |
+| 1 | `/missed-call-text-back-setup-vs-diy-small-business` | The missed-call-text-back setup page already tracks an explicit buy-vs-build prompt (`Should I pay for missed-call text-back setup help or build it myself?`), the slug remains absent across routes/data/guides/sitemap/llm/prompts, and the setup cluster is mature enough to support the narrower child cleanly. |
 | 2 | Broad reconciliation across other mature setup-help / cost / ROI clusters | Next-best ship should still come from an exact surviving buyer query inside a live cluster, not a guessed sibling page. |
 | 3 | Existing-page discovery / tracking refresh if no clean new slug survives | If no clearly distinct page remains after reconciliation, tighten guides/llm/prompt coverage on the strongest live clusters instead of creating a thin page. |

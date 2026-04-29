@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-estimate-follow-up-setup-vs-diy-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Estimate Follow-Up Setup: Hire Help or DIY?\nBody: DIY can be completely reasonable when estimate follow-up is still a narrow build: one clear estimate-sent trigger, one owner, one or two reminder steps, and low enough estimate volume that mistakes will not quietly cost real jobs. Hiring help usually becomes the better move once estimates matter operationally across the field and the office, the CRM has to stay trustworthy, stale-estimate logic actually changes who should act next, and live replies need to route back to the right human fast. The real question is not whether you could build it yourself. It is whether this estimate-stage workflow is important enough that you want it live, reliable, and revenue-safe without burning nights on trigger cleanup, estimator handoff, stop rules, and revision-request routing.\nSub: Below: when DIY estimate-follow-up setup is still a smart move, when expert help usually pays for itself, what each path really costs, and how to tell whether you need a tutorial, a bounded setup engagement, or a simpler estimate workflow first.\n\n### Core sections\n- What this decision is really about\n- DIY estimate-follow-up setup vs. hiring expert help\n- When DIY is a strong fit — and when hiring help is smarter\n- Where small-business DIY estimate-follow-up projects usually start breaking down\n- How to make the right call before you burn a month on setup\n- Relevant proof and adjacent proof\n\n### FAQ\nSubhead: Practical questions from owners deciding whether to keep building estimate-stage follow-up alone or bring in expert setup help\nTopics: when DIY estimate-follow-up setup is actually the right move, when to hire someone instead, how this differs from the estimate-follow-up setup page, what expert setup usually costs, and whether it makes sense to prototype alone first and harden later.\n\n### Final CTA\nHeading: Want a clear answer on whether this workflow is worth DIYing?\nBody: Book a 30-minute call. We will look at your estimate volume, follow-up gaps, handoff between the field and the office, and owner-time constraints, then tell you whether to keep the first version DIY, scope a bounded setup engagement, or simplify the workflow before spending more.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the buy-vs-build child inside the estimate-follow-up cluster after reconciliation showed the parent, setup-help, cost, ROI, and comparison layers were already live but the exact hire-help-vs-DIY decision was still missing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays distinct from `/estimate-follow-up-setup-for-service-businesses` by focusing on the buyer decision itself, from `/estimate-follow-up-cost-small-business` by staying on owner time and workflow risk instead of budget ranges, and from `/estimate-follow-up-roi-small-business` by staying on implementation choice instead of payback math."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live estimate-follow-up cluster, the setup/cost/ROI siblings, and the WheelsFeels CRM case study support the logic without pretending there is already a dedicated estimate-follow-up setup case study on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fit / not-fit framing, narrow workflow scoping, clear warnings about trigger quality and stale-estimate logic, and direct guidance on when expert setup is actually worth paying for."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T16:02:58.402Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 29.4,
+      "sentenceLengthRange": [
+        5,
+        60
+      ],
+      "totalWords": 353
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nHeading: Estimate Follow-Up Setup: Hire Help or DIY?",
+      "wordCount": 9,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a clear answer on whether this workflow is worth DIYing?\nBody: Book a 30-minute call. We will look at your estimate volume, follow-up gaps, handoff between the field and the office, and owner-time constraints, then tell you whether to keep the first version DIY, scope a bounded setup engagement, or simplify the workflow before spending more.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 26,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 10,
+      "commasPerSentence": 2.36
+    },
+    "vocabulary": {
+      "distinctWords": 184,
+      "totalWords": 353,
+      "topWords": [
+        [
+          "setup",
+          10
+        ],
+        [
+          "diy",
+          8
+        ],
+        [
+          "when",
+          7
+        ],
+        [
+          "whether",
+          7
+        ],
+        [
+          "help",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "estimate",
+          5
+        ],
+        [
+          "estimate-follow-up",
+          5
+        ],
+        [
+          "follow-up",
+          4
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "expert",
+          4
+        ],
+        [
+          "one",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.008
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

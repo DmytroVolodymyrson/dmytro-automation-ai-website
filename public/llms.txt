@@ -109,6 +109,9 @@ Should you set up AI lead follow-up yourself or hire expert help? Practical smal
 ## Estimate Follow-Up Setup for Service Businesses
 What goes into estimate follow-up setup for a service business — estimate-stage triggers, CRM mapping, stale-estimate thresholds, estimator-to-office handoff, stop rules, reply routing, testing, and when setup help is worth paying for before the workflow goes live. Learn more: https://www.dmytroai.com/estimate-follow-up-setup-for-service-businesses
 
+## Estimate Follow-Up Setup vs. DIY for Small Business
+Should a small business DIY estimate follow-up setup or hire expert help? Practical buyer guide to owner time, estimate-stage trigger quality, estimator-to-office handoff, stale-estimate logic, reply routing, and when setup help is cheaper than more DIY drift. Learn more: https://www.dmytroai.com/estimate-follow-up-setup-vs-diy-small-business
+
 ## Estimate Follow-Up Cost for Small Business
 Practical pricing guide for small businesses deciding what the estimate-recovery layer should actually cost. Covers estimate-sent triggers, stage-based reminders, CRM routing, stale-estimate escalation, estimator-to-office handoff, and when a simple reminder is enough versus when the workflow needs broader visibility. Learn more: https://www.dmytroai.com/estimate-follow-up-cost-small-business
 

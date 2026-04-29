@@ -251,6 +251,7 @@ const data: DecisionPageData = {
       links: [
         { label: "Estimate follow-up automation for service businesses", href: "/estimate-follow-up-automation-for-service-businesses" },
         { label: "Estimate follow-up setup for service businesses", href: "/estimate-follow-up-setup-for-service-businesses" },
+        { label: "Estimate follow-up setup vs. DIY for small business", href: "/estimate-follow-up-setup-vs-diy-small-business" },
         { label: "Quote follow-up automation for service businesses", href: "/quote-follow-up-automation-for-service-businesses" },
         { label: "Quote follow-up cost for small business", href: "/quote-follow-up-cost-small-business" },
         { label: "Quote follow-up automation for insurance agencies", href: "/quote-follow-up-automation-for-insurance-agencies" },

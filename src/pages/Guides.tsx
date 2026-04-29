@@ -834,6 +834,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Estimate Follow-Up Setup vs. DIY for Small Business",
+    description:
+      "Should a small business DIY estimate follow-up setup or hire help? Practical buyer guide to owner time, estimator handoff, stale-estimate logic, workflow risk, and when expert setup is cheaper than more DIY drift.",
+    href: "/estimate-follow-up-setup-vs-diy-small-business",
+    category: "workflows",
+  },
+  {
     title: "Estimate Follow-Up Cost for Small Business",
     description:
       "Pricing guide for the narrow estimate-recovery layer — realistic build ranges for estimate-sent triggers, stage-based reminders, stale-estimate escalation, CRM routing, and estimator-to-office handoff after the site visit.",
