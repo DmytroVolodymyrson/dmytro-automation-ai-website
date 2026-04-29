@@ -283,6 +283,7 @@ const data: DecisionPageData = {
       href: "/booking-confirmation-and-reminder-automation",
     },
     { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
+    { label: "No-show reduction setup", href: "/no-show-reduction-setup-for-service-businesses" },
   ],
 };
 

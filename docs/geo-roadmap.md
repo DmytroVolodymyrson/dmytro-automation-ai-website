@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/referral-request-automation-setup-vs-diy-small-business` after reconciliation confirmed the referral-request cluster already had the parent, setup-help, cost, and ROI layers live but still lacked the exact buy-vs-build child. The new page stays narrowly on the DIY-vs-hire decision for referral-request setup: owner time, referral-vs-review separation, warm-intro routing, CRM visibility, and when bounded setup help is cheaper than more DIY drift. Previous: `/review-request-automation-setup-vs-diy-small-business`.)
+Last updated: 2026-04-29 (shipped `/no-show-reduction-setup-for-service-businesses` after reconciliation confirmed the no-show reduction cluster already had the horizontal parent and five vertical child pages live but still lacked the setup-help layer. The new page stays narrowly on implementation scope: trustworthy booking-confirmed triggers, reminder timing by appointment type, reschedule routing, deposit rules, CRM visibility, and when setup help is worth paying for before attendance workflows go live. Previous: `/referral-request-automation-setup-vs-diy-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 366.
+**Total live GEO pages tracked here:** 367.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -373,14 +373,16 @@ Last updated: 2026-04-29 (shipped `/referral-request-automation-setup-vs-diy-sma
 | AI Phone Answering Setup vs. DIY (SMB) | `/ai-phone-answering-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | Quote Follow-Up Cost (SMB) | `/quote-follow-up-cost-small-business` | Workflow / cost page | Live |
 | Quote Follow-Up ROI (SMB) | `/quote-follow-up-roi-small-business` | Workflow / ROI page | Live |
+| Roofing Scheduling and Follow-Up | `/roofing-scheduling-and-follow-up-automation-for-roofing-companies` | Vertical workflow page | Live |
 | Insurance Claim Follow-Up (Roofing) | `/insurance-claim-follow-up-for-roofing-companies` | Vertical workflow page | Live |
 | Referral Request Automation (Roofing) | `/referral-request-automation-for-roofing-companies` | Vertical workflow page | Live |
+| No-Show Reduction Setup (Service Businesses) | `/no-show-reduction-setup-for-service-businesses` | Workflow / setup-help page | Live |
 
 ## Next Pages
 
-This run shipped `/referral-request-automation-setup-vs-diy-small-business` because the referral-request cluster already had the parent, setup-help, cost, and ROI layers live, and the remaining clean buyer decision was whether a small business should keep DIYing referral-request setup or pay for bounded implementation help now. The new page stays narrower than the setup-help page by focusing on the buy-vs-build decision itself: owner time, referral-vs-review separation, warm-intro routing, CRM visibility, and when more DIY drift costs more than help.
+This run shipped `/no-show-reduction-setup-for-service-businesses` because the no-show reduction cluster already had the horizontal parent and five vertical child pages live, but still lacked the setup-help layer that answers the next practical buyer question: what a clean attendance-protection build should actually include before launch. The new page stays narrower than both the no-show parent and the broader scheduling/reminder page by focusing on implementation scope itself — booking-confirmed triggers, reminder timing by appointment type, reschedule routing, deposit logic, CRM visibility, and the launch mistakes that usually break attendance workflows.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | Broad reconciliation across other mature setup-help / cost / ROI clusters | Next-best ship should still come from an exact surviving buyer query inside a live cluster, not a guessed same-cluster sibling. Check missed-call, estimate, quote, client-reactivation, and appointment-setter clusters for remaining clean buy-vs-build or comparison gaps. |
+| 1 | Broad reconciliation across the no-show cluster and other mature workflow families | Next-best ship should still come from an exact surviving buyer query or a clearly incomplete horizontal cluster layer, not a guessed same-cluster sibling. Check whether no-show reduction still supports a clean cost, ROI, or buy-vs-build child before forcing another same-cluster page. |
 | 2 | Existing-page discovery / tracking refresh if no clean new slug survives | If no clearly distinct page remains after reconciliation, tighten guides/llm/prompt coverage on the strongest live clusters instead of creating a thin page. |

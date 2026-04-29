@@ -208,6 +208,7 @@ const data: DecisionPageData = {
     "No obligation. No generic pitch. Just a practical conversation about protecting your schedule and revenue.",
   relatedLinks: [
     { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
+    { label: "No-show reduction setup for service businesses", href: "/no-show-reduction-setup-for-service-businesses" },
     { label: "AI appointment setter", href: "/ai-appointment-setter" },
     { label: "AI automation for dental practices", href: "/ai-automation-for-dental-practices" },
     { label: "All guides", href: "/guides" },

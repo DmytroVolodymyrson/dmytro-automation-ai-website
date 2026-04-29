@@ -2576,6 +2576,18 @@
       ]
     },
     {
+      "id": "no-show-reduction-setup-for-service-businesses",
+      "path": "/no-show-reduction-setup-for-service-businesses",
+      "label": "No-Show Reduction Setup for Service Businesses",
+      "prompts": [
+        "How do I set up no-show reduction automation for my service business?",
+        "What should no-show reduction setup include for a service business?",
+        "How should a service business configure appointment reminders, confirmations, and reschedules to reduce no-shows?",
+        "When is it worth paying for no-show reduction setup help instead of DIY?",
+        "What usually breaks when a small business launches no-show reduction automation?"
+      ]
+    },
+    {
       "id": "client-reactivation-cost-small-business",
       "path": "/client-reactivation-cost-small-business",
       "label": "Client Reactivation Cost for Small Business",

@@ -995,6 +995,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "No-Show Reduction Setup for Service Businesses",
+    description:
+      "Implementation guide for service businesses that already know no-show reduction matters and need the setup layer scoped correctly — booking-confirmed triggers, reminder timing, reschedule routing, deposit rules, CRM visibility, and the launch mistakes that break attendance workflows.",
+    href: "/no-show-reduction-setup-for-service-businesses",
+    category: "workflows",
+  },
+  {
     title: "CRM Automation Examples for Small Business",
     description:
       "Practical CRM automation examples — lead tagging, pipeline triggers, follow-up sequences, task creation, and reporting workflows that actually work.",
