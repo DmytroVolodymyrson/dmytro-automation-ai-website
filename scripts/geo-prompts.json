@@ -656,6 +656,18 @@
       ]
     },
     {
+      "id": "client-onboarding-setup-vs-diy-small-business",
+      "path": "/client-onboarding-setup-vs-diy-small-business",
+      "label": "Client Onboarding Setup vs. DIY for Small Business",
+      "prompts": [
+        "Client onboarding setup vs DIY for small business",
+        "Should I set up client onboarding automation myself or hire expert help?",
+        "When is DIY client onboarding setup enough for a small business?",
+        "When should a service business pay for onboarding setup help instead of figuring it out alone?",
+        "Is expert client onboarding setup worth it compared with doing it myself?"
+      ]
+    },
+    {
       "id": "intake-forms-and-document-collection-automation-for-service-businesses",
       "path": "/intake-forms-and-document-collection-automation-for-service-businesses",
       "label": "Intake Forms and Document Collection Automation for Service Businesses",

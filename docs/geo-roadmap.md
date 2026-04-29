@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/client-onboarding-cost-small-business` — the onboarding cluster now has the broad parent, setup sibling, and cost pricing page live. The cost page stays tightly on build pricing, budget bands, cost drivers, where owners overspend, and when the economics make sense for a small service business. Previous: `/client-onboarding-setup-for-service-businesses`.)
+Last updated: 2026-04-29 (shipped `/client-onboarding-setup-vs-diy-small-business` — the onboarding cluster now has the broad parent, setup sibling, cost page, and buy-vs-build decision layer live. The new page stays tightly on the owner decision itself: when DIY onboarding setup is enough, when trigger reliability or intake sequencing risk makes expert help worth paying for, and where the real cost of delay beats the setup invoice. Previous: `/client-onboarding-cost-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 372.
+**Total live GEO pages tracked here:** 373.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -215,6 +215,7 @@ Last updated: 2026-04-29 (shipped `/client-onboarding-cost-small-business` — t
 | Client Onboarding (Accounting) | `/client-onboarding-automation-for-accounting-firms` | Vertical workflow page | Live |
 | Client Onboarding Setup (Service Businesses) | `/client-onboarding-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Client Onboarding Cost (SMB) | `/client-onboarding-cost-small-business` | Workflow / service cost page | Live |
+| Client Onboarding Setup vs. DIY (SMB) | `/client-onboarding-setup-vs-diy-small-business` | Workflow / buy-vs-build decision page | Live |
 | Intake Forms + Document Collection (Service Businesses) | `/intake-forms-and-document-collection-automation-for-service-businesses` | Workflow child page | Live |
 | What to Automate First (Accounting) | `/what-to-automate-first-for-accounting-firms` | Vertical decision page | Live |
 | Appointment Scheduling (Accounting) | `/appointment-scheduling-and-reminder-automation-for-accounting-firms` | Vertical workflow page | Live |
@@ -385,8 +386,8 @@ Last updated: 2026-04-29 (shipped `/client-onboarding-cost-small-business` — t
 
 ## Next Pages
 
-This run shipped `/client-onboarding-cost-small-business` because the onboarding cluster already had the broad parent and setup layer live but still lacked the direct budget page that answers what a clean first onboarding build should cost. The new page stays narrower than the parent and setup siblings by focusing only on build pricing, budget bands, cost drivers, overspend traps, and when the economics make sense for a small service business.
+This run shipped `/client-onboarding-setup-vs-diy-small-business` because the onboarding cluster already had the broad parent, implementation page, and pricing page live but still lacked the owner decision page about whether to keep wiring onboarding in-house or pay for setup help now. The new page stays narrower than the parent and setup siblings by focusing on owner time, trigger reliability, intake sequencing, scheduling gates, CRM stage truth, and when DIY delay becomes more expensive than the setup invoice.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | `/client-onboarding-setup-vs-diy-small-business` | The onboarding family now has the broad parent, setup layer, and cost page live, but still lacks the buy-vs-build decision page for owners deciding whether they can wire onboarding triggers, intake handoff, scheduling gates, and CRM stage movement themselves or should pay for setup help. |
+| 1 | Broad backlog reconciliation | The onboarding cluster is now meaningfully complete for the current planned layer (broad parent, setup, cost, DIY, intake/doc-collection child, accounting-firm proof child). Next run should re-check GEO-PLAN, the pattern matrix, prompts, routes, and live cluster gaps instead of forcing another onboarding page by inertia. |

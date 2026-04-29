@@ -519,6 +519,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Client Onboarding Setup vs. DIY for Small Business",
+    description:
+      "Should you set up client onboarding automation yourself or hire expert help? Practical guide to owner time, trigger reliability, intake sequencing, scheduling gates, and when setup help is cheaper than DIY delay.",
+    href: "/client-onboarding-setup-vs-diy-small-business",
+    category: "workflows",
+  },
+  {
     title: "Intake Forms and Document Collection Automation for Service Businesses",
     description:
       "A narrower onboarding child page focused on intake forms, missing-file reminders, secure upload next steps, and cleaner handoff before the rest of onboarding stalls.",

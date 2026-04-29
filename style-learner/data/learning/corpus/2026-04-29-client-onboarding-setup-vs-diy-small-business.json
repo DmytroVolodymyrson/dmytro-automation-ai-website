@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-client-onboarding-setup-vs-diy-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Client Onboarding Setup: Hire Help or DIY?\nBody: DIY onboarding setup can work well when the workflow is narrow, client volume is low, and you mainly want to learn the tools. Hiring help usually becomes the smarter move once the build touches real client handoff, multi-step intake sequencing, scheduling gates, CRM stage movement, internal task routing, and stall detection when new clients go quiet. The practical question is not whether you can wire a welcome email yourself. It is whether this onboarding workflow matters enough that you want it live, trusted, and retention-safe without spending nights debugging trigger logic, intake timing, completion gates, and edge cases.\nSub: Below: when DIY onboarding setup is still a smart call, when expert help usually pays for itself, what each path really costs, and how to tell whether you need a tutorial, a bounded setup engagement, or a simpler manual process first.\n\n### Core sections\n- What this decision is really about\n- DIY onboarding setup vs. hiring expert help\n- When DIY is a strong fit — and when hiring help is smarter\n- Where small-business DIY onboarding projects usually start breaking down\n- How to make the right call before you burn a month on setup\n- Relevant proof and adjacent proof\n\n### FAQ\nSubhead: Practical questions from owners deciding whether to keep building onboarding automation alone or bring in expert setup help\nTopics: when DIY client onboarding setup is the right move, when to hire someone instead, how this differs from the setup-scope page, what setup help usually costs, and whether to prototype first then harden later.\n\n### Final CTA\nHeading: Want a clear answer on whether this onboarding workflow is worth DIYing?\nBody: Book a 30-minute call. We will look at how new clients enter your workflow today, where intake and handoff break, and tell you whether to keep the first version DIY, scope a bounded setup engagement, or simplify the workflow before spending more.\nSub: No vague pitch. Just a practical call about whether this onboarding setup should stay in-house or get implemented properly now.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the cross-industry buy-vs-build child inside the client-onboarding cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because `docs/geo-roadmap.md` still named the exact surviving candidate after the broad parent, setup sibling, and cost page were already live."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays distinct from `/client-onboarding-automation` by answering the ownership decision itself (DIY vs hire) instead of the broader operational case, from `/client-onboarding-setup-for-service-businesses` by focusing on the buy-vs-build decision instead of implementation scope, and from `/client-onboarding-cost-small-business` by focusing on owner time, workflow risk, and launch delay instead of budget bands."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live onboarding parent, the accounting-firm onboarding child, the intake/doc-collection child, and the ecommerce CRM case study support the logic without pretending there is already a dedicated onboarding DIY-vs-hire case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fit / not-fit framing, realistic small-business scope, explicit warnings about trigger and handoff drift, and a clear \"prototype first vs production now\" split."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T20:08:46.875Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        1,
+        5
+      ],
+      "avgSentenceLength": 24.6,
+      "sentenceLengthRange": [
+        4,
+        55
+      ],
+      "totalWords": 344
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nHeading: Client Onboarding Setup: Hire Help or DIY?",
+      "wordCount": 9,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a clear answer on whether this onboarding workflow is worth DIYing?\nBody: Book a 30-minute call. We will look at how new clients enter your workflow today, where intake and handoff break, and tell you whether to keep the first version DIY, scope a bounded setup engagement, or simplify the workflow before spending more.\nSub: No vague pitch. Just a practical call about whether this onboarding setup should stay in-house or get implemented properly now.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 25,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 10,
+      "commasPerSentence": 1.92
+    },
+    "vocabulary": {
+      "distinctWords": 181,
+      "totalWords": 344,
+      "topWords": [
+        [
+          "setup",
+          11
+        ],
+        [
+          "onboarding",
+          10
+        ],
+        [
+          "diy",
+          8
+        ],
+        [
+          "when",
+          8
+        ],
+        [
+          "whether",
+          8
+        ],
+        [
+          "help",
+          7
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "workflow",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "client",
+          4
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "call",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "want",
+          3
+        ],
+        [
+          "hiring",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.006
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
