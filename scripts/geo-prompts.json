@@ -2164,7 +2164,7 @@
         "How can a service business recover missed calls without adding another receptionist?",
         "How does missed call text-back compare to voicemail for service businesses?",
         "Is SMS text-back enough or do I need a full missed call follow-up system?",
-        "Best missed call text-back setup for small service businesses"
+        "When is missed-call text-back the right first phone-recovery layer for a small service business?"
       ]
     },
     {
@@ -2189,6 +2189,18 @@
         "Is missed-call text-back worth building before AI phone answering?",
         "How do I calculate payback on SMS-first missed-call recovery?",
         "When does missed-call text-back have better economics than a heavier phone workflow?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-setup-for-service-businesses",
+      "path": "/missed-call-text-back-setup-for-service-businesses",
+      "label": "Missed Call Text-Back Setup for Service Businesses",
+      "prompts": [
+        "What should missed-call text-back setup include for a small service business?",
+        "How do I set up missed-call text-back for a service business?",
+        "What is the best missed-call text-back setup for a small service business?",
+        "Should I pay for missed-call text-back setup help or build it myself?",
+        "What needs to be configured before a missed-call text-back workflow goes live?"
       ]
     },
     {

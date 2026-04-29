@@ -22,6 +22,7 @@ import AiLeadFollowUpRoiSmallBusiness from "./pages/AiLeadFollowUpRoiSmallBusine
 import AiLeadFollowUpSetupForServiceBusinesses from "./pages/AiLeadFollowUpSetupForServiceBusinesses";
 import MissedCallTextBackCostSmallBusiness from "./pages/MissedCallTextBackCostSmallBusiness";
 import MissedCallTextBackRoiSmallBusiness from "./pages/MissedCallTextBackRoiSmallBusiness";
+import MissedCallTextBackSetupForServiceBusinesses from "./pages/MissedCallTextBackSetupForServiceBusinesses";
 import AiAutomationConsultantCalgary from "./pages/AiAutomationConsultantCalgary";
 import AiAutomationConsultantVancouver from "./pages/AiAutomationConsultantVancouver";
 import AiAutomationConsultantToronto from "./pages/AiAutomationConsultantToronto";
@@ -473,6 +474,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-lead-follow-up-setup-for-service-businesses", element: <AiLeadFollowUpSetupForServiceBusinesses /> },
   { path: "/missed-call-text-back-cost-small-business", element: <MissedCallTextBackCostSmallBusiness /> },
   { path: "/missed-call-text-back-roi-small-business", element: <MissedCallTextBackRoiSmallBusiness /> },
+  { path: "/missed-call-text-back-setup-for-service-businesses", element: <MissedCallTextBackSetupForServiceBusinesses /> },
   { path: "/ai-automation-consultant-calgary", element: <AiAutomationConsultantCalgary /> },
   { path: "/ai-automation-consultant-edmonton", element: <AiAutomationConsultantEdmonton /> },
   { path: "/ai-automation-consultant-vancouver", element: <AiAutomationConsultantVancouver /> },

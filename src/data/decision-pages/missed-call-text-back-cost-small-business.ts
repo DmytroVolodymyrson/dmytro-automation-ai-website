@@ -256,6 +256,7 @@ const data: DecisionPageData = {
     "No padded phone-AI proposal. Just a practical scope and cost discussion.",
   relatedLinks: [
     { label: "Missed call text-back for service businesses", href: "/missed-call-text-back-for-service-businesses" },
+    { label: "Missed call text-back setup for service businesses", href: "/missed-call-text-back-setup-for-service-businesses" },
     { label: "Missed call text-back vs. AI phone answering", href: "/missed-call-text-back-vs-ai-phone-answering-for-service-businesses" },
     { label: "Missed call follow-up automation", href: "/missed-call-follow-up-automation" },
     { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },

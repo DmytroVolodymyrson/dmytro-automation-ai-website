@@ -639,6 +639,7 @@ const data: DecisionPageData = {
     { label: "Hire AI consultant vs DIY", href: "/hire-ai-automation-consultant-vs-diy" },
     { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
     { label: "Missed-call text-back cost", href: "/missed-call-text-back-cost-small-business" },
+    { label: "Missed-call text-back setup", href: "/missed-call-text-back-setup-for-service-businesses" },
     { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
     { label: "Missed-call text-back for service businesses", href: "/missed-call-text-back-for-service-businesses" },
     { label: "Intake forms & document collection", href: "/intake-forms-and-document-collection-automation-for-service-businesses" },

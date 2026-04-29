@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/estimate-follow-up-cost-small-business` — a new cross-industry cost child under the estimate-follow-up cluster covering realistic budget bands for estimate-sent triggers, stage-based reminders, stale-estimate escalation, CRM/job-management routing, and estimator-to-office handoff. Stays distinct from the estimate-follow-up parent by focusing on budgeting and scope rather than workflow fit, from the lead-follow-up cost page by staying strictly after the estimate is already sent, and from the general automation cost page by staying tightly on estimate-recovery economics instead of broad business-wide automation pricing. Previous: `/ai-lead-follow-up-setup-for-service-businesses`.)
+Last updated: 2026-04-29 (shipped `/missed-call-text-back-setup-for-service-businesses` — a new cross-industry setup-help child under the missed-call text-back cluster covering trigger filtering, business-hours vs after-hours logic, CRM logging, duplicate prevention, urgency routing, and when setup help is worth paying for versus wiring a fragile DIY build. Stays distinct from the missed-call text-back parent by focusing on implementation scope rather than workflow fit, from the cost child by focusing on configuration rather than budget, and from the ROI/comparison children by staying on launch-readiness instead of payback math or layer selection. Previous: `/estimate-follow-up-cost-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 338.
+**Total live GEO pages tracked here:** 339.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -30,6 +30,7 @@ Last updated: 2026-04-28 (shipped `/estimate-follow-up-cost-small-business` — 
 | Missed Call Text-Back (Service Businesses) | `/missed-call-text-back-for-service-businesses` | Workflow parent page | Live |
 | Missed Call Text-Back Cost (SMB) | `/missed-call-text-back-cost-small-business` | Workflow / service cost page | Live |
 | Missed Call Text-Back ROI (SMB) | `/missed-call-text-back-roi-small-business` | Workflow / ROI page | Live |
+| Missed Call Text-Back Setup (Service Businesses) | `/missed-call-text-back-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Missed Call Text-Back vs. AI Phone Answering (Service Businesses) | `/missed-call-text-back-vs-ai-phone-answering-for-service-businesses` | Workflow comparison page | Live |
 | Estimate Follow-Up Automation (Service Businesses) | `/estimate-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
 | Estimate Follow-Up vs. Quote Follow-Up (Service Businesses) | `/estimate-follow-up-vs-quote-follow-up-for-service-businesses` | Workflow comparison page | Live |
@@ -350,16 +351,16 @@ Last updated: 2026-04-28 (shipped `/estimate-follow-up-cost-small-business` — 
 
 ## Next Pages
 
-This run shipped `/estimate-follow-up-cost-small-business`. The cross-industry estimate-follow-up cluster now has the parent workflow page, the estimate-vs-quote comparison, multiple live vertical children, and this new cost child. That closes the clearest money-side gap in the cluster: the parent explained where estimate recovery fits operationally, but nothing told a small business what the narrow estimate-stage workflow should actually cost before it drifted into a broader CRM rebuild.
+This run shipped `/missed-call-text-back-setup-for-service-businesses`. The cross-industry missed-call text-back cluster now has the parent workflow page, cost child, ROI child, setup-help child, and the comparison page versus AI phone answering. That closes the cleanest remaining implementation-side gap in the cluster: the parent explained where SMS-first missed-call recovery fits, but nothing showed a small service business what a trustworthy first build should actually include before go-live.
 
 The next run should:
 
 1. **Start from a fresh broad reconciliation before naming the next net-new page.** The repo is dense enough that stale docs can still over-credit a cluster or make an already-live page look missing.
 2. **Keep manual GSC follow-through moving** on the newest workflow ships instead of treating publish alone as the finish line.
-3. **Reset to broad cross-cluster reconciliation.** The estimate-follow-up cluster's obvious cost gap is now filled. The next page should survive a fresh route, prompt, and proof check across clusters before it gets written into the queue.
+3. **Reset to broad cross-cluster reconciliation.** The missed-call text-back cluster's obvious setup gap is now filled. The next page should survive a fresh route, prompt, and proof check across clusters before it gets written into the queue.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | The estimate-follow-up cost gap is now filled. The next clean ship should come from a different surviving workflow, comparison, or vertical gap that still passes route, prompt, and proof checks. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming the next candidate. |
+| 1 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | The missed-call text-back setup gap is now filled. The next clean ship should come from a different surviving workflow, comparison, setup, or vertical gap that still passes route, prompt, and proof checks. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming the next candidate. |
 | 2 | Manual GSC follow-through on newest live workflow pages | Recent ships still need inspection and indexing requests where appropriate. | Check the newest live URLs in GSC after deploy propagation and request indexing only after meaningful copy/internal-link updates are live. |
-| 3 | Fresh proof-led watchlist review | If another cost/setup/ROI child looks attractive next, it still needs a materially different workflow stage and explicit surviving proof instead of cluster inertia. | Re-check current routes, prompts, and planning docs for another cluster-level gap before naming any specific new slug. |
+| 3 | Fresh proof-led watchlist review | If another setup/cost/ROI child looks attractive next, it still needs a materially different workflow stage and explicit surviving proof instead of cluster inertia. | Re-check current routes, prompts, and planning docs for another cluster-level gap before naming any specific new slug. |

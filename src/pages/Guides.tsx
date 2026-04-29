@@ -764,6 +764,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Missed Call Text-Back Setup for Service Businesses",
+    description:
+      "What goes into setting up missed call text-back for a service business? Setup scope, SMS trigger logic, response timing, CRM connections, after-hours rules, and when professional setup help is worth paying for versus building it yourself.",
+    href: "/missed-call-text-back-setup-for-service-businesses",
+    category: "workflows",
+  },
+  {
     title: "Estimate Follow-Up Automation for Service Businesses",
     description:
       "Recover open estimates after inspections and site visits. Stage-based reminders, estimator-to-office handoff, objection-aware messaging, and open-estimate visibility for field-service businesses.",
