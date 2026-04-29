@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-homepage-services-best-first-link",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Services section intro\nBody: {services.subtitle} Not sure where to start? Read our guide to the top AI automations for service businesses to see which ones deliver the fastest ROI.\n\n### Link target\n- Anchor text: top AI automations for service businesses\n- URL: /best-ai-automation-for-service-businesses",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Bounded homepage copy refresh for GEO indexing support, not a redesign."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "Added as contextual editorial copy instead of a nav/card label so the link passes a clearer in-content signal from the indexed homepage to a discovered-not-indexed commercial guide."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Anchor text stays descriptive and buyer-language-driven rather than generic CTA copy."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and low-hype: it frames the destination around fastest ROI and first-project selection for service businesses."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T07:23:29.164Z",
+    "structure": {
+      "paragraphCount": 2,
+      "sentencesPerParagraph": [
+        2,
+        1
+      ],
+      "avgSentenceLength": 14.3,
+      "sentenceLengthRange": [
+        10,
+        19
+      ],
+      "totalWords": 43
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Services section intro\nBody: {services.subtitle} Not sure where to start?",
+      "wordCount": 10,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "cta",
+      "text": "### Link target\n- Anchor text: top AI automations for service businesses\n- URL: /best-ai-automation-for-service-businesses",
+      "pattern": "cta"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "closer"
+      ],
+      "template": "opener | closer"
+    },
+    "punctuation": {
+      "periods": 2,
+      "commas": 0,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 2,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 3,
+      "commasPerSentence": 0
+    },
+    "vocabulary": {
+      "distinctWords": 33,
+      "totalWords": 43,
+      "topWords": [
+        [
+          "top",
+          2
+        ],
+        [
+          "ai",
+          2
+        ],
+        [
+          "automations",
+          2
+        ],
+        [
+          "service",
+          2
+        ],
+        [
+          "businesses",
+          2
+        ],
+        [
+          "-",
+          2
+        ],
+        [
+          "services",
+          1
+        ],
+        [
+          "section",
+          1
+        ],
+        [
+          "intro",
+          1
+        ],
+        [
+          "body",
+          1
+        ],
+        [
+          "servicessubtitle",
+          1
+        ],
+        [
+          "not",
+          1
+        ],
+        [
+          "sure",
+          1
+        ],
+        [
+          "where",
+          1
+        ],
+        [
+          "start",
+          1
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

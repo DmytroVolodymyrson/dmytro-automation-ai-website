@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-29T07:10:12.956Z",
-  "postCount": 511,
+  "updatedAt": "2026-04-29T07:23:29.208Z",
+  "postCount": 512,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,25 +15,25 @@
       "max": 12,
       "p25": 4,
       "p75": 4,
-      "samples": 511
+      "samples": 512
     },
     "sentenceLength": {
       "mean": 23.6,
       "median": 24,
       "min": 7.1,
       "max": 105,
-      "p25": 19.5,
+      "p25": 19.4,
       "p75": 27.4,
-      "samples": 511
+      "samples": 512
     },
     "totalWords": {
-      "mean": 333.1,
+      "mean": 332.5,
       "median": 334,
       "min": 17,
       "max": 1155,
       "p25": 281,
-      "p75": 373,
-      "samples": 511
+      "p75": 372,
+      "samples": 512
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -126,7 +126,8 @@
       "short | long | long": 1,
       "long | long | long | long | long | single": 1,
       "single | short | long | single | long": 1,
-      "long | single | long | short": 1
+      "long | single | long | short": 1,
+      "short | single": 1
     },
     "structuralTemplates": {
       "opener | context | result | context | closer": 3,
@@ -176,7 +177,7 @@
       "opener | context | context | product-pitch | product-pitch | context | result | closer": 1,
       "opener | product-pitch | context | context | product-pitch | product-pitch | context | context | closer": 1,
       "opener | context | result | context | result | context | context | context | closer": 1,
-      "opener | closer": 1,
+      "opener | closer": 2,
       "opener | product-pitch | product-pitch | product-pitch | context | context | result | result | result | closer": 1,
       "opener | product-pitch | result | context | context | context | context | closer": 1,
       "opener | context | product-pitch | context | context | context | context | product-pitch | closer": 1,
@@ -228,7 +229,7 @@
         ]
       },
       "question": {
-        "count": 25,
+        "count": 26,
         "examples": [
           "Q: What kind of businesses do you work with?",
           "### Hero\nBadge: AI Automation Consulting\nHeading: Do you actually need an AI aut",
@@ -277,9 +278,10 @@
         ]
       },
       "cta": {
-        "count": 1,
+        "count": 2,
         "examples": [
-          "### Final CTA\nHeading: Real-estate cluster navigation\nBody: These link updates a"
+          "### Final CTA\nHeading: Real-estate cluster navigation\nBody: These link updates a",
+          "### Link target\n- Anchor text: top AI automations for service businesses\n- URL: "
         ]
       }
     }
@@ -294,7 +296,7 @@
     "topWords": [
       [
         "-",
-        3491
+        3493
       ],
       [
         "what",
@@ -306,7 +308,7 @@
       ],
       [
         "ai",
-        1148
+        1150
       ],
       [
         "workflow",
@@ -398,11 +400,11 @@
       ],
       [
         "not",
-        329
+        330
       ],
       [
         "body",
-        298
+        299
       ],
       [
         "setup",

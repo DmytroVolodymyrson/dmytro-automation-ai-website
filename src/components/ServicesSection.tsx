@@ -7,6 +7,7 @@ import {
   Settings,
   CheckCircle2
 } from "lucide-react";
+import { Link } from "react-router-dom";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { useTrackSection } from "@/hooks/useTrackSection";
 import { siteConfig } from "@/config/siteConfig";
@@ -34,7 +35,14 @@ const ServicesSection = () => {
             {services.heading}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-            {services.subtitle}
+            {services.subtitle} Not sure where to start? Read our guide to the{" "}
+            <Link
+              to="/best-ai-automation-for-service-businesses"
+              className="text-accent underline underline-offset-2 hover:text-accent/80 transition-colors"
+            >
+              top AI automations for service businesses
+            </Link>{" "}
+            to see which ones deliver the fastest ROI.
           </p>
         </div>
 
