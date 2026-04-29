@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/quote-follow-up-setup-for-service-businesses` — a new cross-industry setup-help child inside the quote-follow-up cluster covering quote-sent triggers, ownership rules after pricing goes out, stale-quote thresholds, CRM mapping, stop rules, reply routing, and launch testing. Stays distinct from the service-business quote-follow-up parent by focusing on implementation scope before launch, from the estimate-follow-up setup child by staying broader than field-visit estimate recovery, and from future cost / ROI children by focusing on build quality instead of budget or payback. Previous: `/estimate-follow-up-setup-for-service-businesses`.)
+Last updated: 2026-04-29 (shipped `/quote-follow-up-cost-small-business` — a new cross-industry pricing child inside the quote-follow-up cluster covering realistic build ranges for quote-sent triggers, reminder sequences, CRM ownership rules, stale-quote escalation, reply routing, and human handoff after pricing goes out. Stays distinct from the service-business quote-follow-up parent by focusing on budgeting and scope instead of the broader workflow, from the quote-follow-up setup child by pricing the build rather than pre-launch implementation steps, and from the estimate-follow-up cost child by staying broader than field-visit estimate recovery. Previous: `/quote-follow-up-setup-for-service-businesses`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 343.
+**Total live GEO pages tracked here:** 344.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -350,21 +350,22 @@ Last updated: 2026-04-29 (shipped `/quote-follow-up-setup-for-service-businesses
 | AI Phone Answering Setup (SMB) | `/ai-phone-answering-setup-small-business` | Workflow / service page | Live |
 | AI Phone Answering ROI (SMB) | `/ai-phone-answering-roi-small-business` | Workflow / ROI page | Live |
 | AI Phone Answering Setup vs. DIY (SMB) | `/ai-phone-answering-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
+| Quote Follow-Up Cost (SMB) | `/quote-follow-up-cost-small-business` | Workflow / cost page | Live |
 | Insurance Claim Follow-Up (Roofing) | `/insurance-claim-follow-up-for-roofing-companies` | Vertical workflow page | Live |
 | Referral Request Automation (Roofing) | `/referral-request-automation-for-roofing-companies` | Vertical workflow page | Live |
 
 ## Next Pages
 
-This run shipped `/quote-follow-up-setup-for-service-businesses`. The cross-industry quote-follow-up cluster now has the service-business parent plus the new setup-help child, alongside the narrower estimate-follow-up parent and setup child that define the field-service branch of the same post-pricing decision layer. That fills the cleanest remaining implementation-intent gap in the quote-follow-up cluster: the parent explained how quote recovery works and the estimate-vs-quote comparison clarified scope, but nothing handled the pre-launch question of what has to be configured before broader quote-stage recovery goes live without creating ownership, routing, and stale-pipeline confusion.
+This run shipped `/quote-follow-up-cost-small-business`. The cross-industry quote-follow-up cluster now has the service-business parent, the setup-help child, and a dedicated pricing child that answers the exact budgeting question owners ask once they already understand the workflow. That fills the cleanest remaining economics gap in the cluster: the parent explained how quote recovery works and the setup page explained what has to be configured before launch, but nothing isolated what a broader quote-stage recovery build should realistically cost versus a narrower estimate-follow-up build or a broader front-office automation project.
 
 The next run should:
 
-1. **Start from a fresh broad reconciliation before naming the next net-new page.** This repo is now dense enough that stale docs can still over-credit one cluster or make an already-live child look missing.
-2. **Keep manual GSC follow-through moving** on the newest workflow ships instead of treating publish alone as the finish line.
-3. **Bias toward the next surviving implementation-intent, cost, ROI, or buyer-decision child** only if it still passes route, prompt, and proof checks after reconciliation.
+1. **Keep manual GSC follow-through moving** on the newest workflow ships instead of treating publish alone as the finish line.
+2. **Bias toward the next surviving quote-cluster ROI or buyer-decision child** only if it still passes route, prompt, and proof checks after a quick reality check.
+3. **Fall back to fresh broad reconciliation** only if the next quote-cluster economics gap turns out to be already live or no longer cleanly distinct.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | The quote-follow-up setup child is now live, so the next clean ship should come from whichever surviving workflow, comparison, setup, cost, ROI, or vertical gap still passes route, prompt, and proof checks after a repo-wide reality check. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |
+| 1 | `/quote-follow-up-roi-small-business` | The quote-follow-up cluster now has the parent, the setup-help child, and the cost child. The clean remaining economics layer is the ROI page: payback logic, recovered-deal math, admin time saved, and when quote recovery is or is not the right first workflow to fund. | Verify the exact slug is absent from both route files, Guides, sitemap, llm files, `scripts/geo-prompts.json`, and nearby quote-cluster docs before shipping. |
 | 2 | Manual GSC follow-through on newest live workflow pages | Recent ships still need inspection and indexing requests where appropriate. | Check the newest live URLs in GSC after deploy propagation and request indexing only after meaningful copy/internal-link updates are live. |
-| 3 | Next surviving post-pricing child discovered during reconciliation | The strongest next page may still come from a setup / economics / buyer-decision gap in a live quote, estimate, lead-follow-up, or phone cluster, but the exact slug should be named only after the next reality check. | Verify the exact slug is absent from both route files, Guides, sitemap, llm files, `scripts/geo-prompts.json`, and nearby cluster docs before shipping. |
+| 3 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | If the quote-follow-up ROI child turns out to already exist, no longer feels distinct, or fails proof/intent checks, the next clean ship should come from whichever surviving workflow, comparison, setup, ROI, or buyer-decision gap still passes a repo-wide reality check. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |

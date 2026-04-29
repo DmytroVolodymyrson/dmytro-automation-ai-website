@@ -287,6 +287,7 @@ const EstimateFollowUpRoiSmallBusiness = lazy(() => import("./pages/EstimateFoll
 const EstimateFollowUpVsQuoteFollowUpForServiceBusinesses = lazy(() => import("./pages/EstimateFollowUpVsQuoteFollowUpForServiceBusinesses"));
 const QuoteFollowUpAutomationForServiceBusinesses = lazy(() => import("./pages/QuoteFollowUpAutomationForServiceBusinesses"));
 const QuoteFollowUpSetupForServiceBusinesses = lazy(() => import("./pages/QuoteFollowUpSetupForServiceBusinesses"));
+const QuoteFollowUpCostSmallBusiness = lazy(() => import("./pages/QuoteFollowUpCostSmallBusiness"));
 const ContactFormAutoresponderVsFullLeadFollowUp = lazy(() => import("./pages/ContactFormAutoresponderVsFullLeadFollowUp"));
 const QuoteFollowUp = lazy(() => import("./pages/QuoteFollowUp"));
 const ClientReactivation = lazy(() => import("./pages/ClientReactivation"));
@@ -746,6 +747,7 @@ const AppRoutesClient = () => (
       <Route path="/estimate-follow-up-vs-quote-follow-up-for-service-businesses" element={<EstimateFollowUpVsQuoteFollowUpForServiceBusinesses />} />
       <Route path="/quote-follow-up-automation-for-service-businesses" element={<QuoteFollowUpAutomationForServiceBusinesses />} />
       <Route path="/quote-follow-up-setup-for-service-businesses" element={<QuoteFollowUpSetupForServiceBusinesses />} />
+      <Route path="/quote-follow-up-cost-small-business" element={<QuoteFollowUpCostSmallBusiness />} />
       <Route path="/contact-form-autoresponder-vs-full-lead-follow-up" element={<ContactFormAutoresponderVsFullLeadFollowUp />} />
       <Route path="/quote-follow-up-automation" element={<QuoteFollowUp />} />
       <Route path="/client-reactivation-automation" element={<ClientReactivation />} />

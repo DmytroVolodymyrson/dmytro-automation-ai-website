@@ -286,6 +286,7 @@ import EstimateFollowUpRoiSmallBusiness from "./pages/EstimateFollowUpRoiSmallBu
 import EstimateFollowUpVsQuoteFollowUpForServiceBusinesses from "./pages/EstimateFollowUpVsQuoteFollowUpForServiceBusinesses";
 import QuoteFollowUpAutomationForServiceBusinesses from "./pages/QuoteFollowUpAutomationForServiceBusinesses";
 import QuoteFollowUpSetupForServiceBusinesses from "./pages/QuoteFollowUpSetupForServiceBusinesses";
+import QuoteFollowUpCostSmallBusiness from "./pages/QuoteFollowUpCostSmallBusiness";
 import ContactFormAutoresponderVsFullLeadFollowUp from "./pages/ContactFormAutoresponderVsFullLeadFollowUp";
 import QuoteFollowUp from "./pages/QuoteFollowUp";
 import ClientReactivation from "./pages/ClientReactivation";
@@ -784,6 +785,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/estimate-follow-up-vs-quote-follow-up-for-service-businesses", element: <EstimateFollowUpVsQuoteFollowUpForServiceBusinesses /> },
   { path: "/quote-follow-up-automation-for-service-businesses", element: <QuoteFollowUpAutomationForServiceBusinesses /> },
   { path: "/quote-follow-up-setup-for-service-businesses", element: <QuoteFollowUpSetupForServiceBusinesses /> },
+  { path: "/quote-follow-up-cost-small-business", element: <QuoteFollowUpCostSmallBusiness /> },
   { path: "/appointment-scheduling-and-reminder-automation-for-service-businesses", element: <AppointmentSchedulingAndReminderAutomationForServiceBusinesses /> },
   { path: "/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses", element: <AppointmentSchedulingAndReminderAutomationVsAiAppointmentSetterForServiceBusinesses /> },
   { path: "/booking-confirmation-and-reminder-automation", element: <BookingConfirmationAndReminder /> },

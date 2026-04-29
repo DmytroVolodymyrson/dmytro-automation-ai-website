@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-quote-follow-up-cost-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Quote Follow-Up Cost for Small Business\nBody: Most small service businesses should expect a focused quote-follow-up build to land between $1K and $4K, with monthly running costs usually in the $20-$120 range depending on CRM quality, channel mix, and how much human-handoff logic the quote stage needs. The useful question is not just 'what does quote follow-up cost?' It is 'what part of the quote stage am I actually trying to fix?' A business that only needs one clean reminder after pricing goes out should not buy the same system as a business that needs multi-touch sequencing, stale-quote thresholds, reply routing, ownership rules, and visibility into which sent quotes are quietly dying. This page breaks down realistic quote-follow-up pricing specifically — not broader lead-follow-up pricing, and not a full CRM rebuild — so a small business can budget the narrowest build that protects revenue after pricing is already out.\nSub: Below: what different quote-follow-up builds actually cost, what those budget bands buy, what makes the price go up, where small businesses overspend, and when the economics make sense versus when a simple reminder or manual follow-up is still enough.\n\n### Core sections\n- What quote follow-up automation usually costs\n- What those budget bands actually buy\n- What makes the price go up\n- When quote follow-up is worth paying for — and when it is not\n- How to budget this without overspending\n- Proof and adjacent proof\n- What small businesses usually get wrong about quote-follow-up pricing\n\n### FAQ\nSubhead: Practical answers about budgeting quote follow-up automation for a small business\nTopics: what quote follow-up automation usually costs, how it differs from estimate follow-up cost, whether a business can start with a basic reminder first, what makes the build expensive, and how to decide if the workflow is worth the investment.\n\n### Final CTA\nHeading: Want a realistic quote for your quote-follow-up workflow?\nBody: Book a 30-minute call. We will look at how your business handles sent quotes now, where opportunities are going cold after pricing, and scope the narrowest build that protects revenue without overbuilding the rest of your front office.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the pricing child inside the cross-industry quote-follow-up cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the cluster already had the service-business parent, the estimate-vs-quote comparison, and the setup-help child, but still lacked the exact budgeting page owners ask for once they already understand the workflow."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays distinct from `/quote-follow-up-automation-for-service-businesses` by focusing on pricing and scope rather than the broader workflow itself."
+    },
+    {
+      "type": "tone_shift",
+      "description": "It stays distinct from `/quote-follow-up-setup-for-service-businesses` by costing the build rather than explaining pre-launch implementation steps."
+    },
+    {
+      "type": "tone_shift",
+      "description": "It stays distinct from `/estimate-follow-up-cost-small-business` by remaining broader than field-visit estimate recovery and pricing the wider quote stage across service-business contexts."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live quote-follow-up cluster, the estimate-follow-up cost page, and the published WheelsFeels CRM case study support the economics discussion without pretending there is already a dedicated quote-follow-up pricing case study on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: bounded scope, fit / not-fit framing, explicit cost drivers, and warnings against buying a broader sales-system rebuild when the real leak is just weak quote-stage follow-up."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T07:55:07.584Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 38.9,
+      "sentenceLengthRange": [
+        5,
+        65
+      ],
+      "totalWords": 350
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Quote Follow-Up Cost for Small Business\nBody: Most small service businesses should expect a focused quote-follow-up build to land between $1K and $4K, with monthly running costs usually in the $20-$120 range depending on CRM quality, channel mix, and how much human-handoff logic the quote stage needs.",
+      "wordCount": 49,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a realistic quote for your quote-follow-up workflow?\nBody: Book a 30-minute call. We will look at how your business handles sent quotes now, where opportunities are going cold after pricing, and scope the narrowest build that protects revenue without overbuilding the rest of your front office.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 18,
+      "emDashes": 3,
+      "enDashes": 0,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 3,
+      "colon": 8,
+      "commasPerSentence": 2.25
+    },
+    "vocabulary": {
+      "distinctWords": 180,
+      "totalWords": 350,
+      "topWords": [
+        [
+          "what",
+          11
+        ],
+        [
+          "quote",
+          9
+        ],
+        [
+          "follow-up",
+          8
+        ],
+        [
+          "business",
+          7
+        ],
+        [
+          "-",
+          7
+        ],
+        [
+          "small",
+          6
+        ],
+        [
+          "pricing",
+          6
+        ],
+        [
+          "quote-follow-up",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "not",
+          5
+        ],
+        [
+          "cost",
+          4
+        ],
+        [
+          "build",
+          4
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "budget",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 7,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 7,
+      "patterns": []
+    }
+  }
+}

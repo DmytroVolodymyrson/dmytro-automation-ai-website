@@ -820,6 +820,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Quote Follow-Up Cost for Small Business",
+    description:
+      "Pricing guide for the broader quote-stage recovery layer — realistic build ranges for quote-sent triggers, reminder sequences, CRM ownership rules, stale-quote escalation, reply routing, and human handoff after pricing goes out.",
+    href: "/quote-follow-up-cost-small-business",
+    category: "workflows",
+  },
+  {
     title: "Appointment Scheduling and Reminder Automation for Service Businesses",
     description:
       "Horizontal scheduling guide for service businesses deciding how to handle confirmations, reminders, reschedules, prep steps, and attended-appointment handoff without endless calendar chasing.",

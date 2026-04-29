@@ -2288,6 +2288,18 @@
       ]
     },
     {
+      "id": "quote-follow-up-cost-small-business",
+      "path": "/quote-follow-up-cost-small-business",
+      "label": "Quote Follow-Up Cost for Small Business",
+      "prompts": [
+        "What does quote follow-up automation cost for a small business?",
+        "How much should a small business budget for quote follow-up automation?",
+        "What affects the price of quote-stage follow-up after pricing goes out?",
+        "Is quote follow-up automation worth it for a small business?",
+        "How much does quote follow-up cost compared with estimate follow-up or broader lead follow-up?"
+      ]
+    },
+    {
       "id": "client-reactivation-automation-for-service-businesses",
       "path": "/client-reactivation-automation-for-service-businesses",
       "label": "Client Reactivation Automation for Service Businesses",
