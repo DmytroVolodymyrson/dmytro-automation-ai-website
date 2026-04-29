@@ -259,12 +259,14 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
     { label: "No-show reduction setup for service businesses", href: "/no-show-reduction-setup-for-service-businesses" },
+    { label: "No-show reduction setup vs. DIY", href: "/no-show-reduction-setup-vs-diy-small-business" },
     { label: "Appointment scheduling and reminder automation", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
     { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
+    { label: "AI appointment setter", href: "/ai-appointment-setter" },
     { label: "AI automation cost for small business", href: "/ai-automation-cost-small-business" },
     { label: "Review request automation cost", href: "/review-request-automation-cost-small-business" },
     { label: "Client reactivation cost", href: "/client-reactivation-cost-small-business" },
-    { label: "All guides", href: "/guides" },
+    { label: "View all case studies", href: "/case-studies" },
   ],
 };
 

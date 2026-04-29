@@ -318,6 +318,7 @@ import ClientReactivationRoiSmallBusiness from "./pages/ClientReactivationRoiSma
 import ClientReactivationSetupVsDiySmallBusiness from "./pages/ClientReactivationSetupVsDiySmallBusiness";
 import NoShowReduction from "./pages/NoShowReduction";
 import NoShowReductionSetupForServiceBusinesses from "./pages/NoShowReductionSetupForServiceBusinesses";
+import NoShowReductionSetupVsDiySmallBusiness from "./pages/NoShowReductionSetupVsDiySmallBusiness";
 import NoShowReductionCostSmallBusiness from "./pages/NoShowReductionCostSmallBusiness";
 import AiAppointmentSetterVsReceptionist from "./pages/AiAppointmentSetterVsReceptionist";
 import AiAppointmentSetterVsVirtualAssistant from "./pages/AiAppointmentSetterVsVirtualAssistant";
@@ -866,6 +867,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/client-reactivation-setup-vs-diy-small-business", element: <ClientReactivationSetupVsDiySmallBusiness /> },
   { path: "/no-show-reduction-automation", element: <NoShowReduction /> },
   { path: "/no-show-reduction-setup-for-service-businesses", element: <NoShowReductionSetupForServiceBusinesses /> },
+  { path: "/no-show-reduction-setup-vs-diy-small-business", element: <NoShowReductionSetupVsDiySmallBusiness /> },
   { path: "/no-show-reduction-cost-small-business", element: <NoShowReductionCostSmallBusiness /> },
   { path: "/ai-appointment-setter-vs-receptionist", element: <AiAppointmentSetterVsReceptionist /> },
   { path: "/ai-appointment-setter-vs-virtual-assistant", element: <AiAppointmentSetterVsVirtualAssistant /> },

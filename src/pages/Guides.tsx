@@ -1002,6 +1002,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "No-Show Reduction Setup vs. DIY for Small Business",
+    description:
+      "Buy-vs-build guide for owners deciding whether no-show reduction setup should stay DIY or get implemented properly now — owner time, reminder timing, reschedule routing, deposit rules, CRM visibility, and when setup help is cheaper than more drift.",
+    href: "/no-show-reduction-setup-vs-diy-small-business",
+    category: "workflows",
+  },
+  {
     title: "No-Show Reduction Automation Cost for Small Business",
     description:
       "Pricing guide for service businesses budgeting confirmations, reminder timing, reschedule routing, deposit rules, and attendance-protection workflows without overbuying a broader scheduling rebuild.",
