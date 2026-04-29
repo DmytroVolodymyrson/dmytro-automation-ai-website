@@ -170,6 +170,32 @@ const AiAutomationConsultantSmallBusiness = () => {
             })),
           })}
         </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.dmytroai.com/",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Guides",
+                item: "https://www.dmytroai.com/guides",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "AI Automation Consultant for Small Business",
+                item: "https://www.dmytroai.com/ai-automation-consultant-small-business",
+              },
+            ],
+          })}
+        </script>
       </Helmet>
 
       <Navbar />
