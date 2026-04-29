@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-client-reactivation-setup-vs-diy-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Client Reactivation Setup: Hire Help or DIY?\nBody: DIY can be completely reasonable when client reactivation is still a narrow build: one short dormant-customer list, one check-in message, one owner handling replies, and low enough past-client volume that a sloppy first campaign will not burn trust or waste real repeat revenue. Hiring help usually becomes the better move once the CRM is messy enough that segmentation takes real cleanup, timing windows vary across service types, suppression rules have to protect recent or unhappy customers, and live replies need to route back to the right person fast. The real question is not whether you could build it yourself. It is whether this dormant-client workflow is important enough that you want it live, reliable, and trust-safe without burning nights on data cleanup, segment logic, stop rules, and reply routing.\nSub: Below: when DIY client-reactivation setup is still a smart move, when expert help usually pays for itself, what each path really costs, and how to tell whether you need a tutorial, a bounded setup engagement, or a simpler manual check-in first.\n\n### Core sections\n- What this decision is really about\n- DIY client-reactivation setup vs. hiring expert help\n- When DIY is a strong fit — and when hiring help is smarter\n- Where small-business DIY reactivation projects usually start breaking down\n- Relevant proof and adjacent proof\n\n### FAQ\nSubhead: Practical questions from owners deciding whether to keep building dormant-client recovery alone or bring in expert setup help\nTopics: when DIY client-reactivation setup is actually the right move, when to hire someone instead, how this differs from the existing setup page, what setup help usually costs, and whether a business can prototype the workflow first and harden it later.\n\n### Final CTA\nHeading: Want a clear answer on whether this reactivation workflow is worth DIYing?\nBody: Book a 30-minute call. We will look at your past-client data, CRM state, dormant-segment volume, and owner-time constraints, then tell you whether to keep the first version DIY, scope a bounded setup engagement, or simplify the workflow before spending more.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the buy-vs-build child inside the cross-industry client-reactivation cluster after the parent workflow page, setup-help page, cost child, and ROI child were already live."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the cluster still lacked the exact buyer decision around whether a small business should keep DIYing dormant-client recovery setup or pay for help now."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays distinct from `/client-reactivation-setup-for-service-businesses` by focusing on the decision itself, from `/client-reactivation-cost-small-business` by focusing on owner-time versus implementation-cost tradeoffs, and from `/client-reactivation-roi-small-business` by focusing on trust-safe launch readiness instead of payback math."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays disciplined: the HVAC database reactivation page, the published WheelsFeels CRM automation case study, and the live reactivation cluster support the guidance without pretending there is already a dedicated cross-industry DIY-vs-hire case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: direct warnings about messy CRM data, overbroad dormant-client blasts, fuzzy reply ownership, and when a lighter manual check-in is enough."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T16:46:08.841Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 28.7,
+      "sentenceLengthRange": [
+        5,
+        61
+      ],
+      "totalWords": 344
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nHeading: Client Reactivation Setup: Hire Help or DIY?",
+      "wordCount": 9,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a clear answer on whether this reactivation workflow is worth DIYing?\nBody: Book a 30-minute call. We will look at your past-client data, CRM state, dormant-segment volume, and owner-time constraints, then tell you whether to keep the first version DIY, scope a bounded setup engagement, or simplify the workflow before spending more.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 26,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 10,
+      "commasPerSentence": 2.36
+    },
+    "vocabulary": {
+      "distinctWords": 188,
+      "totalWords": 344,
+      "topWords": [
+        [
+          "setup",
+          9
+        ],
+        [
+          "diy",
+          8
+        ],
+        [
+          "help",
+          7
+        ],
+        [
+          "when",
+          7
+        ],
+        [
+          "whether",
+          7
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "reactivation",
+          4
+        ],
+        [
+          "first",
+          4
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "one",
+          3
+        ],
+        [
+          "enough",
+          3
+        ],
+        [
+          "that",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.006
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

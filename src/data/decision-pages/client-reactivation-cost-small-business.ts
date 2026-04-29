@@ -258,6 +258,7 @@ const data: DecisionPageData = {
     { label: "Client reactivation for service businesses", href: "/client-reactivation-automation-for-service-businesses" },
     { label: "Client reactivation setup for service businesses", href: "/client-reactivation-setup-for-service-businesses" },
     { label: "Client reactivation ROI for small business", href: "/client-reactivation-roi-small-business" },
+    { label: "Client reactivation setup vs. DIY", href: "/client-reactivation-setup-vs-diy-small-business" },
     { label: "Client reactivation automation", href: "/client-reactivation-automation" },
     { label: "HVAC database reactivation", href: "/hvac-database-reactivation" },
     { label: "AI automation cost for small business", href: "/ai-automation-cost-small-business" },

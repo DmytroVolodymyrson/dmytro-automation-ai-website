@@ -241,6 +241,10 @@ const data: DecisionPageData = {
       href: "/client-reactivation-automation",
     },
     {
+      label: "Client reactivation setup vs. DIY for small business",
+      href: "/client-reactivation-setup-vs-diy-small-business",
+    },
+    {
       label: "AI lead follow-up setup for service businesses",
       href: "/ai-lead-follow-up-setup-for-service-businesses",
     },

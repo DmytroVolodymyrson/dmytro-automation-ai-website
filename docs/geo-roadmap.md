@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/missed-call-text-back-setup-vs-diy-small-business` after reconciliation confirmed the missed-call text-back cluster already had the parent, setup-help, cost, ROI, and comparison layers live but still lacked the exact buy-vs-build child. The new page stays narrowly on owner time, answered-call filtering, business-hours vs after-hours logic, CRM logging, duplicate prevention, urgency routing, and when bounded setup help is cheaper than more DIY drift. Previous: `/estimate-follow-up-setup-vs-diy-small-business`.)
+Last updated: 2026-04-29 (shipped `/client-reactivation-setup-vs-diy-small-business` after reconciliation confirmed the client reactivation cluster already had the parent, setup-help, cost, and ROI layers live but still lacked the exact buy-vs-build child. The new page stays narrowly on owner time, CRM hygiene, segmentation risk, follow-up logic, reactivation timing, handoff expectations, and when bounded setup help is cheaper than more DIY drift. Previous: `/missed-call-text-back-setup-vs-diy-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 363.
+**Total live GEO pages tracked here:** 364.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -52,6 +52,7 @@ Last updated: 2026-04-29 (shipped `/missed-call-text-back-setup-vs-diy-small-bus
 | Client Reactivation Setup (Service Businesses) | `/client-reactivation-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Client Reactivation Cost (SMB) | `/client-reactivation-cost-small-business` | Category cost page | Live |
 | Client Reactivation ROI (SMB) | `/client-reactivation-roi-small-business` | Workflow / ROI page | Live |
+| Client Reactivation Setup vs. DIY (SMB) | `/client-reactivation-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | AI Lead Follow-Up Setup (Service Businesses) | `/ai-lead-follow-up-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | AI Lead Follow-Up Setup vs. DIY (SMB) | `/ai-lead-follow-up-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Category cost page | Live |
@@ -375,10 +376,10 @@ Last updated: 2026-04-29 (shipped `/missed-call-text-back-setup-vs-diy-small-bus
 
 ## Next Pages
 
-This run shipped `/missed-call-text-back-setup-vs-diy-small-business` because the live missed-call text-back cluster already had the parent, setup-help, cost, ROI, and comparison layers live, and the remaining clean buyer decision was whether a small business should keep DIYing text-back setup or pay for help now. The new page stays narrower than the setup-help page by focusing on owner time, answered-call filtering, business-hours versus after-hours logic, CRM logging, duplicate prevention, urgency routing, and when bounded setup help is cheaper than more DIY drift.
+This run shipped `/client-reactivation-setup-vs-diy-small-business` because the live client reactivation cluster already had the parent, setup-help, cost, and ROI layers live, and the remaining clean buyer decision was whether a small business should keep DIYing reactivation setup or pay for help now. The new page stays narrower than the setup-help page by focusing on owner time, CRM hygiene, segmentation risk, follow-up logic, reactivation timing, handoff expectations, and when bounded setup help is cheaper than more DIY drift.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
 | 1 | Broad reconciliation across other mature setup-help / cost / ROI clusters | Next-best ship should still come from an exact surviving buyer query inside a live cluster, not a guessed sibling page. |
-| 2 | Cross-check GEO-PLAN, roadmap, pattern matrix, prompts, and live routes before naming a new slug | The queue is honest again only if the next candidate survives planning-doc drift, prompt ownership, and route/data/discovery checks. |
+| 2 | `review-request-automation-setup-vs-diy-small-business` | The review-request cluster already has the parent, setup-help, cost, and ROI layers live, so the remaining buy-vs-build child still looks like a clean exact-query candidate if reconciliation confirms no overlap drift. |
 | 3 | Existing-page discovery / tracking refresh if no clean new slug survives | If no clearly distinct page remains after reconciliation, tighten guides/llm/prompt coverage on the strongest live clusters instead of creating a thin page. |

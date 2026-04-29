@@ -967,6 +967,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Client Reactivation Setup vs. DIY for Small Business",
+    description:
+      "Should a small business DIY client reactivation setup or hire expert help? Covers owner time, CRM cleanup, segment quality, suppression logic, reply routing, and when setup help is cheaper than more DIY drift.",
+    href: "/client-reactivation-setup-vs-diy-small-business",
+    category: "workflows",
+  },
+  {
     title: "No-Show Reduction Automation",
     description:
       "Confirmation requests, timed reminders, easy rescheduling, and deposit workflows that cut no-shows by 50% or more.",

@@ -2540,6 +2540,18 @@
       ]
     },
     {
+      "id": "client-reactivation-setup-vs-diy-small-business",
+      "path": "/client-reactivation-setup-vs-diy-small-business",
+      "label": "Client Reactivation Setup vs. DIY for Small Business",
+      "prompts": [
+        "Should a small business DIY client reactivation setup or hire help?",
+        "When is it worth paying someone to set up client reactivation automation?",
+        "DIY vs professional setup for dormant-client recovery automation",
+        "How much does it cost to hire help for client reactivation setup versus doing it yourself?",
+        "What breaks when a small business tries to DIY client reactivation without expert help?"
+      ]
+    },
+    {
       "id": "client-reactivation-cost-small-business",
       "path": "/client-reactivation-cost-small-business",
       "label": "Client Reactivation Cost for Small Business",
