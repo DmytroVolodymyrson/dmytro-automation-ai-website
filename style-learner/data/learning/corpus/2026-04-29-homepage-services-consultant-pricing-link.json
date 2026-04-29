@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-homepage-services-consultant-pricing-link",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Services section paragraph\nBody: {services.subtitle} Not sure where to start? Read our guide to the top AI automations for service businesses to see which ones deliver the fastest ROI. If your main hesitation is that you do not have a developer or IT person to run this, start with the AI automation without a tech team guide to see which workflows are safe first builds for owner-led teams. If you are still trying to understand what expert help actually looks like before comparing pricing or DIY, read what an AI automation consultant actually does. Once you understand the role, see what a first consultant-led workflow typically costs so you can compare quotes with realistic numbers.\n\n### New link target\n- Anchor: what a first consultant-led workflow typically costs\n- Destination: /ai-automation-consultant-pricing-small-business",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded homepage-origin editorial link refresh, not a homepage rewrite."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the tone practical, buyer-oriented, and sequential: first understand the consultant role, then move into realistic pricing."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "The added sentence speaks to owners who already accept consultant help in principle but still need concrete budget framing before comparing quotes."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoided hype, urgency, and generic \"learn more\" wording; the sentence carries the real decision trigger behind the click."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the paragraph compact so the homepage still reads like editorial guidance rather than navigation chrome."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T23:20:30.175Z",
+    "structure": {
+      "paragraphCount": 2,
+      "sentencesPerParagraph": [
+        5,
+        1
+      ],
+      "avgSentenceLength": 21.7,
+      "sentenceLengthRange": [
+        10,
+        39
+      ],
+      "totalWords": 130
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Services section paragraph\nBody: {services.subtitle} Not sure where to start?",
+      "wordCount": 10,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "cta",
+      "text": "### New link target\n- Anchor: what a first consultant-led workflow typically costs\n- Destination: /ai-automation-consultant-pricing-small-business",
+      "pattern": "cta"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "closer"
+      ],
+      "template": "opener | closer"
+    },
+    "punctuation": {
+      "periods": 5,
+      "commas": 3,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 2,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 3,
+      "commasPerSentence": 0.5
+    },
+    "vocabulary": {
+      "distinctWords": 89,
+      "totalWords": 130,
+      "topWords": [
+        [
+          "what",
+          4
+        ],
+        [
+          "ai",
+          3
+        ],
+        [
+          "see",
+          3
+        ],
+        [
+          "first",
+          3
+        ],
+        [
+          "not",
+          2
+        ],
+        [
+          "start",
+          2
+        ],
+        [
+          "read",
+          2
+        ],
+        [
+          "guide",
+          2
+        ],
+        [
+          "which",
+          2
+        ],
+        [
+          "if",
+          2
+        ],
+        [
+          "with",
+          2
+        ],
+        [
+          "automation",
+          2
+        ],
+        [
+          "understand",
+          2
+        ],
+        [
+          "actually",
+          2
+        ],
+        [
+          "consultant-led",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

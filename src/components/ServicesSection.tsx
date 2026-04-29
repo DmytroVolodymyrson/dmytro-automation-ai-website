@@ -60,7 +60,14 @@ const ServicesSection = () => {
             >
               what an AI automation consultant actually does
             </Link>
-            .
+            . Once you understand the role, see{" "}
+            <Link
+              to="/ai-automation-consultant-pricing-small-business"
+              className="text-accent underline underline-offset-2 hover:text-accent/80 transition-colors"
+            >
+              what a first consultant-led workflow typically costs
+            </Link>{" "}
+            so you can compare quotes with realistic numbers.
           </p>
         </div>
 
