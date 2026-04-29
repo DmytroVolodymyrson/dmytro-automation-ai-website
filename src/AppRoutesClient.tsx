@@ -141,6 +141,7 @@ const MissedCallTextBackVsVoicemailForLawFirms = lazy(() => import("./pages/Miss
 const ReviewRequestAutomationForLawFirms = lazy(() => import("./pages/ReviewRequestAutomationForLawFirms"));
 const ReferralRequestAutomationForLawFirms = lazy(() => import("./pages/ReferralRequestAutomationForLawFirms"));
 const AiAutomationForSolarCompanies = lazy(() => import("./pages/AiAutomationForSolarCompanies"));
+const ReviewRequestAutomationForSolarCompanies = lazy(() => import("./pages/ReviewRequestAutomationForSolarCompanies"));
 const WhatToAutomateFirstForSolarCompanies = lazy(() => import("./pages/WhatToAutomateFirstForSolarCompanies"));
 const UtilityBillCollectionAutomationForSolarCompanies = lazy(() => import("./pages/UtilityBillCollectionAutomationForSolarCompanies"));
 const AiLeadFollowUpForSolarCompanies = lazy(() => import("./pages/AiLeadFollowUpForSolarCompanies"));
@@ -585,6 +586,7 @@ const AppRoutesClient = () => (
      <Route path="/review-request-automation-for-law-firms" element={<ReviewRequestAutomationForLawFirms />} />
      <Route path="/referral-request-automation-for-law-firms" element={<ReferralRequestAutomationForLawFirms />} />
      <Route path="/ai-automation-for-solar-companies" element={<AiAutomationForSolarCompanies />} />
+     <Route path="/review-request-automation-for-solar-companies" element={<ReviewRequestAutomationForSolarCompanies />} />
      <Route path="/what-to-automate-first-for-solar-companies" element={<WhatToAutomateFirstForSolarCompanies />} />
      <Route path="/utility-bill-collection-automation-for-solar-companies" element={<UtilityBillCollectionAutomationForSolarCompanies />} />
      <Route path="/ai-lead-follow-up-for-solar-companies" element={<AiLeadFollowUpForSolarCompanies />} />

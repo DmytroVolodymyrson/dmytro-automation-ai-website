@@ -4830,6 +4830,18 @@
         "How do solar companies reduce repetitive homeowner calls asking for project status?",
         "Should a solar company automate project milestone updates before rebuilding the whole post-sale workflow?"
       ]
+    },
+    {
+      "id": "review-request-automation-for-solar-companies",
+      "path": "/review-request-automation-for-solar-companies",
+      "label": "Review Request Automation for Solar Companies",
+      "prompts": [
+        "Review request automation for solar companies",
+        "How should a solar company ask for Google reviews after install and PTO without sounding pushy?",
+        "Best way to automate review requests for solar projects once the homeowner experience is actually settled",
+        "When should a solar company ask for reviews after install, inspection, or PTO?",
+        "How should a solar company route unhappy post-install replies before sending a public review link?"
+      ]
     }
   ],
   "scoring": {

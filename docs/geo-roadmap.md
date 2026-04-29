@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/referral-request-automation-for-auto-repair-shops` — a new auto-repair child page covering post-service advocacy follow-up: referral timing after completed visits, separate review-vs-referral asks, and fast advisor handoff when a satisfied customer names another driver, another vehicle, or a friend who needs similar work. Stays distinct from the live auto-repair parent, the review-request child, and the maintenance-reminder child by focusing narrowly on private introductions while the completed visit is still fresh rather than public reputation or later retention recall. Previous: `/referral-request-automation-for-hvac-companies`.)
+Last updated: 2026-04-28 (shipped `/review-request-automation-for-solar-companies` — a new solar child page covering post-install reputation follow-up: review timing after install and PTO, separate happy-path vs unresolved-reply handling, and fast project-team handoff when a homeowner raises a punch-list, billing, monitoring, or completion concern instead of being pushed toward a public review too early. Stays distinct from the live solar parent, quote-follow-up child, and project-status child by focusing narrowly on the post-install local-trust layer once the project is effectively settled rather than earlier sales recovery or in-flight status communication. Previous: `/referral-request-automation-for-auto-repair-shops`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 334.
+**Total live GEO pages tracked here:** 335.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -170,6 +170,7 @@ Last updated: 2026-04-28 (shipped `/referral-request-automation-for-auto-repair-
 | Review Request Automation (Law Firms) | `/review-request-automation-for-law-firms` | Vertical workflow page | Live |
 | Referral Request Automation (Law Firms) | `/referral-request-automation-for-law-firms` | Vertical workflow page | Live |
 | AI for Solar Companies | `/ai-automation-for-solar-companies` | Vertical category page | Live |
+| Review Request Automation (Solar) | `/review-request-automation-for-solar-companies` | Vertical workflow page | Live |
 | What to Automate First (Solar) | `/what-to-automate-first-for-solar-companies` | Vertical decision page | Live |
 | Utility Bill Collection (Solar) | `/utility-bill-collection-automation-for-solar-companies` | Vertical workflow page | Live |
 | AI Lead Follow-Up (Solar) | `/ai-lead-follow-up-for-solar-companies` | Vertical workflow page | Live |
@@ -346,15 +347,16 @@ Last updated: 2026-04-28 (shipped `/referral-request-automation-for-auto-repair-
 
 ## Next Pages
 
-This run shipped `/referral-request-automation-for-auto-repair-shops`. The auto-repair cluster now covers the broad parent, first-project framing, lead follow-up, maintenance reminders, client reactivation, estimate follow-up, booked-visit scheduling, review requests, referral requests, and the key phone-layer pages and comparisons. That fills the post-service advocacy gap that the parent page and surrounding auto-repair children had already made commercially distinct.
+This run shipped `/review-request-automation-for-solar-companies`. The solar cluster now covers the broad parent, first-project framing, lead follow-up, utility-bill collection, quote follow-up, booked-consult scheduling, project-status updates, review requests, and the key phone-layer pages and comparisons. That fills the public reputation gap the parent page had already named after install and PTO without collapsing back into sales-stage recovery or in-flight homeowner status communication.
 
 The next run should:
 
 1. **Start from a fresh broad reconciliation before naming the next net-new page.** The repo is dense enough that stale docs can still over-credit a cluster or make an already-live page look missing.
-2. **Keep manual GSC follow-through moving** on the newest auto-repair, HVAC, dental, cleaning, chiropractic, med-spa, painting, roofing, insurance, and law-firm ships instead of treating publish alone as the finish line.
-3. **Bias toward the next clean cross-cluster workflow gap rather than forcing another same-cluster child by inertia.** If reconciliation points back to auto repair again, prove that a materially distinct lifecycle stage remains.
+2. **Keep manual GSC follow-through moving** on the newest solar, auto-repair, HVAC, dental, cleaning, chiropractic, med-spa, painting, roofing, insurance, and law-firm ships instead of treating publish alone as the finish line.
+3. **Bias toward the next clean cross-cluster workflow gap rather than forcing another same-cluster child by inertia.** If reconciliation points back to solar again, prove that a materially distinct lifecycle stage remains.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | The auto-repair referral gap is now filled. The next clean ship should come from a new cross-cluster workflow gap that still survives route, prompt, and proof checks instead of defaulting to another mature cluster by inertia. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming the next candidate. |
-| 2 | Manual GSC follow-through on newest live workflow pages | Publish alone is not the finish line. Recent auto-repair, HVAC, dental, cleaning, chiropractic, med-spa, painting, roofing, insurance, and law-firm child pages still need inspection and indexing requests where appropriate. | Check the newest live URLs in GSC after deploy propagation and request indexing only after meaningful copy/internal-link updates are live. |
+| 1 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | The solar review-request gap is now filled. The next clean ship should come from a cross-cluster workflow gap that still survives route, prompt, and proof checks instead of defaulting to another mature cluster by inertia. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming the next candidate. |
+| 2 | Manual GSC follow-through on newest live workflow pages | Publish alone is not the finish line. Recent solar, auto-repair, HVAC, dental, cleaning, chiropractic, med-spa, painting, roofing, insurance, and law-firm child pages still need inspection and indexing requests where appropriate. | Check the newest live URLs in GSC after deploy propagation and request indexing only after meaningful copy/internal-link updates are live. |
+| 3 | `/referral-request-automation-for-solar-companies` only if fresh reconciliation still supports it | The solar parent explicitly names referral growth alongside review asks after install and PTO, so there may still be one distinct private-advocacy child left in the cluster — but it should not be forced automatically just because the review page shipped well. | Re-check current routes, `scripts/geo-prompts.json`, the live solar cluster, and nearby referral/review siblings in other verticals before treating it as the next solar ship. |

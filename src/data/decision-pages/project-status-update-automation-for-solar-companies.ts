@@ -269,6 +269,7 @@ const data: DecisionPageData = {
     "No fake promise that automation removes real project complexity. Just a practical recommendation for making homeowner communication calmer and more consistent.",
   relatedLinks: [
     { label: "AI automation for solar companies", href: "/ai-automation-for-solar-companies" },
+    { label: "Review request automation for solar companies", href: "/review-request-automation-for-solar-companies" },
     { label: "Quote follow-up automation for solar companies", href: "/quote-follow-up-automation-for-solar-companies" },
     { label: "Client onboarding automation", href: "/client-onboarding-automation" },
     { label: "All guides", href: "/guides" },

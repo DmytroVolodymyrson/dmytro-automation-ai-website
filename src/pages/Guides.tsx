@@ -1662,6 +1662,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Review Request Automation for Solar Companies",
+    description:
+      "A narrower solar post-install reputation page focused on better review timing, unhappy-reply routing, project-team handoff, and stronger local-trust follow-through once the project is truly settled.",
+    href: "/review-request-automation-for-solar-companies",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Solar Companies",
     description:
       "A strategic prioritization guide for solar installers. Compare immediate ROI across lead follow-up, utility bill collection, consultation scheduling, and AI phone answering to choose your best first automation project.",

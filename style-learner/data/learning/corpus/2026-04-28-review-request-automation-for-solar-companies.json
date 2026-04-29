@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-review-request-automation-for-solar-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: Review Request Automation for Solar Companies\nBody: A lot of solar companies lose trust long after the lead was won. The homeowner signed, the install happened, the system is nearly or fully live, and then post-project follow-up gets handled sloppily. Sometimes nobody asks for a review at all. Sometimes a public review ask goes out while inspection, monitoring, billing, or punch-list questions are still unresolved. Sometimes the office treats every completed install the same even though some homeowners are ready to advocate right away and others still need a softer check-in before a review link makes sense. Review request automation for solar companies fixes that narrower post-install workflow. It gives the team a practical way to ask for reviews once the project really feels complete, keep unhappy replies inside the business first, and turn strong project outcomes into better local-trust signals without pushing homeowners toward a public ask too early.\nSub: Below: what a practical solar review-request workflow should actually handle, how it stays distinct from the broader solar page and the other live solar children, what guardrails matter most, and what proof honestly supports this page without pretending there is already a dedicated solar review-automation case study on the site.\n\n### Core sections\n- What solar review-request automation should actually handle\n- How this page stays distinct inside the solar cluster\n- Is this a good fit for your solar company?\n- Guardrails that keep solar review-request automation useful\n- How a practical solar review-request workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical answers for solar companies considering a cleaner post-install review workflow\nTopics: how this differs from the broader solar automation page, why not every completed solar project should get an instant review ask, what a focused solar review-request workflow usually costs, whether the build can fit the current solar CRM or project stack, and where the real ROI comes from.\n\n### Final CTA\nHeading: Need cleaner reputation follow-up after the project is done?\nBody: Book a 30-minute call. We will look at how your team closes out installs today, where review asks are getting missed or mistimed, and whether a focused post-install workflow, an earlier quote or status fix, or no new build is the smarter next move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, current routes/pages, and `scripts/geo-prompts.json`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the live solar parent explicitly named review requests alongside referral growth after install and PTO, but the cluster still lacked a dedicated public-reputation child page for that exact post-project stage."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/ai-automation-for-solar-companies` by narrowing to the post-install reputation layer, from `/quote-follow-up-automation-for-solar-companies` by staying out of the pre-sale proposal stage, and from `/project-status-update-automation-for-solar-companies` by starting after the homeowner experience is settled enough for a public trust ask."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live solar parent, the live solar project-status page, the generic review-request page, and the published e-commerce CRM case study support the workflow logic without pretending there is already a dedicated solar review-automation case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fit / not-fit framing, explicit complaint-routing guardrails, and clear separation from earlier sales-stage and in-flight project communication workflows."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T04:18:16.277Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 26.9,
+      "sentenceLengthRange": [
+        5,
+        62
+      ],
+      "totalWords": 376
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Review Request Automation for Solar Companies\nBody: A lot of solar companies lose trust long after the lead was won.",
+      "wordCount": 22,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need cleaner reputation follow-up after the project is done?\nBody: Book a 30-minute call. We will look at how your team closes out installs today, where review asks are getting missed or mistimed, and whether a focused post-install workflow, an earlier quote or status fix, or no new build is the smarter next move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 19,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.46
+    },
+    "vocabulary": {
+      "distinctWords": 202,
+      "totalWords": 376,
+      "topWords": [
+        [
+          "solar",
+          17
+        ],
+        [
+          "review",
+          8
+        ],
+        [
+          "workflow",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "project",
+          5
+        ],
+        [
+          "review-request",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "companies",
+          4
+        ],
+        [
+          "ask",
+          4
+        ],
+        [
+          "practical",
+          4
+        ],
+        [
+          "sometimes",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

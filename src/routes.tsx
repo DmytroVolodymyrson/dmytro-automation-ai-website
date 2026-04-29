@@ -141,6 +141,7 @@ import MissedCallTextBackVsVoicemailForLawFirms from "./pages/MissedCallTextBack
 import ReviewRequestAutomationForLawFirms from "./pages/ReviewRequestAutomationForLawFirms";
 import ReferralRequestAutomationForLawFirms from "./pages/ReferralRequestAutomationForLawFirms";
 import AiAutomationForSolarCompanies from "./pages/AiAutomationForSolarCompanies";
+import ReviewRequestAutomationForSolarCompanies from "./pages/ReviewRequestAutomationForSolarCompanies";
 import WhatToAutomateFirstForSolarCompanies from "./pages/WhatToAutomateFirstForSolarCompanies";
 import UtilityBillCollectionAutomationForSolarCompanies from "./pages/UtilityBillCollectionAutomationForSolarCompanies";
 import AiLeadFollowUpForSolarCompanies from "./pages/AiLeadFollowUpForSolarCompanies";
@@ -619,6 +620,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/review-request-automation-for-law-firms", element: <ReviewRequestAutomationForLawFirms /> },
   { path: "/referral-request-automation-for-law-firms", element: <ReferralRequestAutomationForLawFirms /> },
   { path: "/ai-automation-for-solar-companies", element: <AiAutomationForSolarCompanies /> },
+  { path: "/review-request-automation-for-solar-companies", element: <ReviewRequestAutomationForSolarCompanies /> },
   { path: "/what-to-automate-first-for-solar-companies", element: <WhatToAutomateFirstForSolarCompanies /> },
   { path: "/utility-bill-collection-automation-for-solar-companies", element: <UtilityBillCollectionAutomationForSolarCompanies /> },
   { path: "/ai-lead-follow-up-for-solar-companies", element: <AiLeadFollowUpForSolarCompanies /> },

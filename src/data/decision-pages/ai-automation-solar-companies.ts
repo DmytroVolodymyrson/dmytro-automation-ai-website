@@ -230,6 +230,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No obligation. No hard sell. Just a practical conversation about your solar operations.",
   relatedLinks: [
+    { label: "Review request automation for solar companies", href: "/review-request-automation-for-solar-companies" },
     { label: "What to automate first for solar companies", href: "/what-to-automate-first-for-solar-companies" },
     { label: "AI lead follow-up for solar companies", href: "/ai-lead-follow-up-for-solar-companies" },
     { label: "Quote follow-up automation for solar companies", href: "/quote-follow-up-automation-for-solar-companies" },
