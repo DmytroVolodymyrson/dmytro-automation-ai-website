@@ -354,6 +354,89 @@ const AiAutomationConsultantSmallBusiness = () => {
           </div>
         </Section>
 
+        {/* ── When is consultant help worth paying for first ──────── */}
+        <Section>
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
+            When is consultant help worth paying for first?
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
+            Most small businesses hit a point where the cost of not automating
+            is higher than the cost of hiring help. Here are the four scenarios
+            where paying a consultant now saves more than waiting.
+          </p>
+          <div className="grid gap-5 md:grid-cols-2 max-w-5xl">
+            {[
+              {
+                icon: Clock,
+                title: "Leads are going cold because nobody responds fast enough",
+                body: "If your average response time is hours or days, every week you wait is revenue you already paid to generate walking out the door. A consultant scopes and ships a lead-response system in days, not months of trial-and-error.",
+                links: [
+                  { label: "Best first automations", href: "/best-ai-automation-for-service-businesses" },
+                  { label: "What it costs", href: "/ai-automation-consultant-pricing-small-business" },
+                ],
+              },
+              {
+                icon: AlertTriangle,
+                title: "You tried DIY tools and the workflow broke or stalled",
+                body: "A half-built Zapier chain or abandoned n8n flow means you already spent the time and still have the problem. A consultant picks up where you stopped, fixes what's broken, and finishes the job with a system that stays running.",
+                links: [
+                  { label: "Consultant vs. DIY breakdown", href: "/hire-ai-automation-consultant-vs-diy" },
+                  { label: "Case studies", href: "/case-studies" },
+                ],
+              },
+              {
+                icon: Users,
+                title: "You have no technical staff and can't debug integrations",
+                body: "When nobody on the team can troubleshoot API errors or broken triggers, every outage becomes a fire drill. A consultant builds the system, documents it, and hands off something your non-technical team can actually operate.",
+                links: [
+                  { label: "No-tech-team guide", href: "/ai-automation-for-businesses-without-a-tech-team" },
+                  { label: "Implementation roadmap", href: "/ai-automation-implementation-roadmap" },
+                ],
+              },
+              {
+                icon: BarChart3,
+                title: "You're about to hire for a role that automation could replace",
+                body: "If the job description is mostly data entry, follow-up, or scheduling, a one-time automation build often costs less than two months of salary — and runs 24/7 without onboarding or turnover.",
+                links: [
+                  { label: "What it costs", href: "/ai-automation-consultant-pricing-small-business" },
+                  { label: "Best first automations", href: "/best-ai-automation-for-service-businesses" },
+                ],
+              },
+            ].map((item, i) => (
+              <motion.div
+                key={item.title}
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.05, duration: 0.35 }}
+                className="rounded-2xl border border-border/60 bg-card/80 p-6 shadow-card flex flex-col"
+              >
+                <div className="w-10 h-10 rounded-xl bg-primary/10 border border-primary/15 flex items-center justify-center mb-4">
+                  <item.icon className="w-5 h-5 text-primary" />
+                </div>
+                <h3 className="text-lg font-semibold text-foreground mb-2">
+                  {item.title}
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-4 flex-1">
+                  {item.body}
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  {item.links.map((link) => (
+                    <Link
+                      key={link.href}
+                      to={link.href}
+                      className="text-sm font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+                    >
+                      {link.label}
+                      <ArrowRight className="w-4 h-4" />
+                    </Link>
+                  ))}
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </Section>
+
         {/* ── What a consultant actually does ─────────────────────── */}
         <Section className="bg-secondary/30">
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">

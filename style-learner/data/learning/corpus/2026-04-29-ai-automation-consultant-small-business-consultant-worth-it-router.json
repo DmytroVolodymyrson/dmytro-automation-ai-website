@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-ai-automation-consultant-small-business-consultant-worth-it-router",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Added section\nHeading: When is consultant help worth paying for first?\nBody: Most small businesses hit a point where the cost of not automating is higher than the cost of hiring help. Here are the four scenarios where paying a consultant now saves more than waiting.\n\n### Scenario cards\n1. Leads are going cold because nobody responds fast enough\n- If your average response time is hours or days, every week you wait is revenue you already paid to generate walking out the door. A consultant scopes and ships a lead-response system in days, not months of trial-and-error.\n- Links: /best-ai-automation-for-service-businesses, /ai-automation-consultant-pricing-small-business\n\n2. You tried DIY tools and the workflow broke or stalled\n- A half-built Zapier chain or abandoned n8n flow means you already spent the time and still have the problem. A consultant picks up where you stopped, fixes what's broken, and finishes the job with a system that stays running.\n- Links: /hire-ai-automation-consultant-vs-diy, /case-studies\n\n3. You have no technical staff and can't debug integrations\n- When nobody on the team can troubleshoot API errors or broken triggers, every outage becomes a fire drill. A consultant builds the system, documents it, and hands off something your non-technical team can actually operate.\n- Links: /ai-automation-for-businesses-without-a-tech-team, /ai-automation-implementation-roadmap\n\n4. You're about to hire for a role that automation could replace\n- If the job description is mostly data entry, follow-up, or scheduling, a one-time automation build often costs less than two months of salary — and runs 24/7 without onboarding or turnover.\n- Links: /ai-automation-consultant-pricing-small-business, /best-ai-automation-for-service-businesses",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded indexing-support refresh for a discovered-not-indexed commercial page, not a new page launch."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The new block is written as a buyer-question answer, not generic navigation, so it can stand alone in search or AI extraction."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Each scenario names a concrete small-business trigger in plain language: slow response, stalled DIY, no technical staff, or a pending admin hire."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Internal links stay tightly clustered around adjacent high-intent pages that already exist live: pricing, proof, hire-vs-DIY, no-tech-team, implementation roadmap, and best-first-automation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and cost-aware. The section argues for consultant help only when delay, fragility, or headcount cost already make the economics obvious."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T17:31:40.815Z",
+    "structure": {
+      "paragraphCount": 5,
+      "sentencesPerParagraph": [
+        3,
+        4,
+        4,
+        4,
+        3
+      ],
+      "avgSentenceLength": 14.1,
+      "sentenceLengthRange": [
+        1,
+        42
+      ],
+      "totalWords": 253
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Added section\nHeading: When is consultant help worth paying for first?",
+      "wordCount": 11,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "4. You're about to hire for a role that automation could replace\n- If the job description is mostly data entry, follow-up, or scheduling, a one-time automation build often costs less than two months of salary — and runs 24/7 without onboarding or turnover.\n- Links: /ai-automation-consultant-pricing-small-business, /best-ai-automation-for-service-businesses",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | result | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 13,
+      "commas": 14,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 8,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 6,
+      "commasPerSentence": 0.93
+    },
+    "vocabulary": {
+      "distinctWords": 165,
+      "totalWords": 253,
+      "topWords": [
+        [
+          "-",
+          8
+        ],
+        [
+          "consultant",
+          5
+        ],
+        [
+          "links",
+          4
+        ],
+        [
+          "where",
+          3
+        ],
+        [
+          "than",
+          3
+        ],
+        [
+          "system",
+          3
+        ],
+        [
+          "when",
+          2
+        ],
+        [
+          "help",
+          2
+        ],
+        [
+          "paying",
+          2
+        ],
+        [
+          "cost",
+          2
+        ],
+        [
+          "not",
+          2
+        ],
+        [
+          "nobody",
+          2
+        ],
+        [
+          "if",
+          2
+        ],
+        [
+          "your",
+          2
+        ],
+        [
+          "time",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
