@@ -1907,6 +1907,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Financing Follow-Up Automation for Solar Companies",
+    description:
+      "A narrower solar financing-stage workflow page focused on missing-document reminders, approval-status nudges, payment-objection follow-up, and fast human handoff when proposals stall at financing instead of at first contact.",
+    href: "/financing-follow-up-automation-for-solar-companies",
+    category: "industries",
+  },
+  {
     title: "Project Status Update Automation for Solar Companies",
     description:
       "Solar post-sale communication workflow focused on milestone updates, homeowner next-step reminders, exception routing, and cleaner project-manager handoff once the install is already moving.",

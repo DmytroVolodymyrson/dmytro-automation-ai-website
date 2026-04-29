@@ -5036,6 +5036,18 @@
       ]
     },
     {
+      "id": "financing-follow-up-automation-for-solar-companies",
+      "path": "/financing-follow-up-automation-for-solar-companies",
+      "label": "Financing Follow-Up Automation for Solar Companies",
+      "prompts": [
+        "Financing follow-up automation for solar companies",
+        "How should a solar company follow up when a homeowner is stuck at financing?",
+        "Best automation for missing-document and approval follow-up on solar deals",
+        "Should a solar company automate financing-stage follow-up before hiring another sales rep?",
+        "How do I keep solar deals moving when the proposal is accepted but financing stalls?"
+      ]
+    },
+    {
       "id": "appointment-scheduling-and-reminder-automation-for-solar-companies",
       "path": "/appointment-scheduling-and-reminder-automation-for-solar-companies",
       "label": "Appointment Scheduling and Reminder Automation for Solar Companies",

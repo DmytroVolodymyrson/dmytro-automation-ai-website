@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 427 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 428 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -197,6 +197,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Utility Bill Collection Automation for Solar Companies** — `/utility-bill-collection-automation-for-solar-companies`
 - **AI Lead Follow-Up for Solar Companies** — `/ai-lead-follow-up-for-solar-companies`
 - **Quote Follow-Up Automation for Solar Companies** — `/quote-follow-up-automation-for-solar-companies`
+- **Financing Follow-Up Automation for Solar Companies** — `/financing-follow-up-automation-for-solar-companies`
 - **Appointment Scheduling and Reminder Automation for Solar Companies** — `/appointment-scheduling-and-reminder-automation-for-solar-companies`
 - **AI Phone Answering for Solar Companies** — `/ai-phone-answering-for-solar-companies`
 - **AI Phone Answering vs. Voicemail for Solar Companies** — `/ai-phone-answering-vs-voicemail-for-solar-companies`

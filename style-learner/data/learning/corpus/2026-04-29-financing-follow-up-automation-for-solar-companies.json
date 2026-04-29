@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-financing-follow-up-automation-for-solar-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Financing Follow-Up Automation for Solar Companies\nBody: A lot of solar deals do not die at first contact. They die after the homeowner likes the proposal but gets stuck on the financing step. Maybe they still need to upload a document. Maybe they do not understand the payment math. Maybe they are waiting on a spouse, a tax question, or approval detail nobody has clarified yet. In most solar shops, that stage becomes a quiet pile of half-warm opportunities that reps mean to revisit later. Financing follow-up automation keeps that narrow post-proposal, pre-signature stage moving with useful reminders, missing-document nudges, and fast human handoff when a real financing objection needs a person instead of another generic check-in.\n\n### Core sections\nHeading: What solar financing follow-up automation should actually handle\nBody: This page only works if it stays tightly on signed-intent-but-not-yet-financed deals — not fresh leads, not utility-bill collection before the quote, and not post-sale project updates.\n- Missing-document reminders: If the homeowner still owes a pay stub, bank statement, ID, e-sign form, or lender-specific document, the workflow should request that exact item with a clear next step.\n- Objection-aware financing nudges: Good follow-up should address real friction like monthly payment confusion, loan-versus-lease hesitation, waiting on a co-decision-maker, tax-credit timing, or concern about approval.\n- Approval-status and next-step visibility: The workflow can remind the homeowner what stage they are in: document review, lender decision, missing signature, or final confirmation before contract.\n- Fast sales or financing-team handoff: If the homeowner replies with a real financing question, the right rep gets the conversation quickly with context attached.\n- Financing-stage pipeline visibility: Owners should be able to see how many solar deals are waiting on financing, how old they are, and where they most often stall.\n\nHeading: How this page stays distinct inside the solar cluster\nBody: The page is narrower than the broader solar parent and narrower than quote follow-up. Quote follow-up covers post-proposal recovery broadly. This page isolates the financing bottleneck specifically: missing documents, approval-status ambiguity, payment objections, and the human handoff needed when financing is the real blocker.\n\n### FAQ\nHeading: Practical questions from solar companies considering a financing-stage recovery workflow\n- Q: How is this different from the solar quote follow-up page? A: Quote follow-up is broader and covers the whole post-proposal recovery stage. This page isolates the financing bottleneck specifically.\n- Q: How is this different from utility bill collection? A: Utility bill collection happens before the quote. Financing follow-up happens later, after the homeowner has seen the proposal and the deal is trying to move toward signature.\n- Q: What does a focused financing follow-up build usually cost? A: A focused financing-stage workflow usually lands around $1.5K-$3K depending on CRM cleanliness and lender/document complexity.\n- Q: Can the workflow handle tax-credit questions automatically? A: It can acknowledge the question, share approved educational context, and route the conversation to a human when advice is needed.\n- Q: What is the main ROI? A: The main win is recovering solar deals that already made it far enough to get quoted but stall at financing.\n\n### Final CTA\nHeading: Want fewer solar deals stalling at financing?\nBody: Book a 30-minute call. We will look at where your solar pipeline slows down after the proposal is sent, how often financing becomes the real blocker, and whether a focused financing follow-up workflow is the cleanest next build.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Narrow solar workflow child"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Practical and non-hype"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Stage-specific and proof-disciplined"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Distinct from broader quote follow-up and parent solar page"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T14:57:48.931Z",
+    "structure": {
+      "paragraphCount": 5,
+      "sentencesPerParagraph": [
+        7,
+        6,
+        3,
+        12,
+        3
+      ],
+      "avgSentenceLength": 18.2,
+      "sentenceLengthRange": [
+        5,
+        37
+      ],
+      "totalWords": 563
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Financing Follow-Up Automation for Solar Companies\nBody: A lot of solar deals do not die at first contact.",
+      "wordCount": 20,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want fewer solar deals stalling at financing?\nBody: Book a 30-minute call. We will look at where your solar pipeline slows down after the proposal is sent, how often financing becomes the real blocker, and whether a focused financing follow-up workflow is the cleanest next build.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 26,
+      "commas": 31,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 10,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 26,
+      "commasPerSentence": 1
+    },
+    "vocabulary": {
+      "distinctWords": 257,
+      "totalWords": 563,
+      "topWords": [
+        [
+          "financing",
+          17
+        ],
+        [
+          "solar",
+          12
+        ],
+        [
+          "follow-up",
+          11
+        ],
+        [
+          "-",
+          10
+        ],
+        [
+          "they",
+          7
+        ],
+        [
+          "this",
+          6
+        ],
+        [
+          "page",
+          6
+        ],
+        [
+          "quote",
+          6
+        ],
+        [
+          "workflow",
+          6
+        ],
+        [
+          "how",
+          6
+        ],
+        [
+          "heading",
+          5
+        ],
+        [
+          "deals",
+          5
+        ],
+        [
+          "not",
+          5
+        ],
+        [
+          "homeowner",
+          5
+        ],
+        [
+          "that",
+          5
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.002
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

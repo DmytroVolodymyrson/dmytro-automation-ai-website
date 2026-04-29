@@ -255,6 +255,7 @@ const data: DecisionPageData = {
         { label: "AI Automation for Solar Companies", href: "/ai-automation-for-solar-companies" },
         { label: "Solar Lead Follow-Up Automation", href: "/ai-lead-follow-up-for-solar-companies" },
         { label: "Quote Follow-Up Automation for Solar Companies", href: "/quote-follow-up-automation-for-solar-companies" },
+        { label: "Financing Follow-Up Automation for Solar Companies", href: "/financing-follow-up-automation-for-solar-companies" },
         { label: "Utility Bill Collection for Solar", href: "/utility-bill-collection-automation-for-solar-companies" },
       ],
     },
