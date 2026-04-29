@@ -736,6 +736,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Review Request Automation Cost for Small Business",
+    description:
+      "Pricing guide for post-job review-request builds — realistic cost ranges for completed-job triggers, timing rules, complaint routing, CRM logging, field-to-office handoff, and human-reply ownership after the work is done.",
+    href: "/review-request-automation-cost-small-business",
+    category: "workflows",
+  },
+  {
     title: "Referral Request Automation for Service Businesses",
     description:
       "Turn finished jobs into introductions instead of silence. Ask at the right moment after a completed job, keep referral asks separate from review asks, route warm replies fast, and stop relying on luck for word-of-mouth growth.",

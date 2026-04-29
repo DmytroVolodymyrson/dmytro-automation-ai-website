@@ -2144,6 +2144,18 @@
       ]
     },
     {
+      "id": "review-request-automation-cost-small-business",
+      "path": "/review-request-automation-cost-small-business",
+      "label": "Review Request Automation Cost for Small Business",
+      "prompts": [
+        "What does review request automation cost for a small business?",
+        "How much should a small business budget for review request automation?",
+        "What makes review request automation expensive for a service business?",
+        "Should I buy a reputation tool or a focused review-request workflow first?",
+        "Is review request automation worth the cost if my team already finishes jobs but asks inconsistently?"
+      ]
+    },
+    {
       "id": "referral-request-automation-for-service-businesses",
       "path": "/referral-request-automation-for-service-businesses",
       "label": "Referral Request Automation for Service Businesses",

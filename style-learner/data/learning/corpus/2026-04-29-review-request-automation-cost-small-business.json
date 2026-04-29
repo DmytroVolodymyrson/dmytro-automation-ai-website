@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-review-request-automation-cost-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Review Request Automation Cost for Small Business\nBody: Most small service businesses should expect a focused review-request build to land between $1K and $3.5K, with monthly running costs usually in the $15-$80 range depending on how cleanly completed jobs can be detected, whether the workflow needs complaint routing before the public ask, and how much CRM or human-handoff logic the post-job stage requires. The useful question is not just \"what does review automation cost?\" It is \"what part of the post-job reputation stage am I actually trying to fix?\" A business that only needs one clean review ask after every completed job should not buy the same system as a business that needs timing by service type, soft satisfaction checks, unhappy-reply routing, field-to-office handoff, and visibility into which jobs are producing reviews and which are not. This page breaks down realistic review-request pricing specifically — not broader lead-follow-up or quote-stage pricing, and not a full CRM or reputation-management rebuild — so a small business can budget the narrowest build that turns completed work into cleaner local-trust signals.\nSub: Below: what different review-request builds actually cost, what those budget bands buy, what makes the price go up, where small businesses overspend, and when the economics make sense versus when a simpler manual ask is still enough.\n\n### Core sections\n- What review-request automation usually costs\n- What those budget bands actually buy\n- What makes the price go up\n- When review-request automation is worth paying for — and when it is not\n- How to budget this without overspending\n- Proof and adjacent proof\n- What small businesses usually get wrong about review-request pricing\n\n### FAQ\nSubhead: Practical answers about budgeting review request automation for a small business\nTopics: what review request automation usually costs, how it differs from the review-request setup page, whether to start with a basic review ask and add more logic later, what makes review-request automation expensive, and how to tell whether the workflow is worth paying for.\n\n### Final CTA\nHeading: Want a realistic quote for your review-request workflow?\nBody: Book a 30-minute call. We will look at how your business handles completed jobs now, where review asks are being missed or mistimed, and scope the narrowest build that turns finished work into cleaner local-trust signals without overbuilding the rest of your post-service follow-up.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the cross-industry pricing child inside the review-request cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the service-business review parent, setup-help child, and review-vs-referral comparison were already live, plus many vertical review-request pages existed, but the cluster still lacked a dedicated pricing/budgeting layer."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays distinct from `/review-request-automation-for-service-businesses` by focusing on budgeting and scope, from `/review-request-automation-setup-for-service-businesses` by pricing the implementation layers instead of explaining how to configure them, and from `/review-request-vs-referral-request-for-service-businesses` by assuming the review workflow is already chosen."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live review-request cluster, the setup sibling, and the published CRM lifecycle case study support the pricing logic without pretending there is already a dedicated review-request cost case study on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fit / not-fit framing, narrow workflow scoping, concrete budget bands, and direct warnings against overbuying a broad reputation-management stack when the real leak is inconsistent post-job follow-through."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T09:45:56.235Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 42.8,
+      "sentenceLengthRange": [
+        5,
+        73
+      ],
+      "totalWords": 385
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Review Request Automation Cost for Small Business\nBody: Most small service businesses should expect a focused review-request build to land between $1K and $3.5K, with monthly running costs usually in the $15-$80 range depending on how cleanly completed jobs can be detected, whether the workflow needs complaint routing before the public ask, and how much CRM or human-handoff logic the post-job stage requires.",
+      "wordCount": 65,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a realistic quote for your review-request workflow?\nBody: Book a 30-minute call. We will look at how your business handles completed jobs now, where review asks are being missed or mistimed, and scope the narrowest build that turns finished work into cleaner local-trust signals without overbuilding the rest of your post-service follow-up.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 18,
+      "emDashes": 3,
+      "enDashes": 0,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 3,
+      "colon": 8,
+      "commasPerSentence": 2.25
+    },
+    "vocabulary": {
+      "distinctWords": 195,
+      "totalWords": 385,
+      "topWords": [
+        [
+          "what",
+          11
+        ],
+        [
+          "review-request",
+          9
+        ],
+        [
+          "review",
+          7
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "-",
+          7
+        ],
+        [
+          "small",
+          6
+        ],
+        [
+          "business",
+          6
+        ],
+        [
+          "how",
+          6
+        ],
+        [
+          "not",
+          6
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "completed",
+          4
+        ],
+        [
+          "ask",
+          4
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "budget",
+          4
+        ],
+        [
+          "when",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
