@@ -785,6 +785,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Estimate Follow-Up ROI for Small Business",
+    description:
+      "Conservative payback guide for small businesses deciding whether estimate-recovery automation is worth building now. Covers recovered estimate value, saved admin and estimator time, sunk site-visit costs, and when a simpler reminder is enough.",
+    href: "/estimate-follow-up-roi-small-business",
+    category: "workflows",
+  },
+  {
     title: "Estimate Follow-Up vs. Quote Follow-Up for Service Businesses",
     description:
       "Should a service business automate estimate follow-up or broader quote follow-up first? Practical comparison of site-visit handoff, quote-stage ownership, cost, and where each workflow actually fits.",

@@ -2228,6 +2228,18 @@
       ]
     },
     {
+      "id": "estimate-follow-up-roi-small-business",
+      "path": "/estimate-follow-up-roi-small-business",
+      "label": "Estimate Follow-Up ROI for Small Business",
+      "prompts": [
+        "What is the ROI on estimate follow-up automation for a small business?",
+        "How quickly does estimate follow-up automation pay for itself?",
+        "Is automating estimate follow-up worth it for contractors and service businesses?",
+        "How do I calculate payback on estimate recovery automation after site visits?",
+        "When does estimate follow-up automation make financial sense for a small business?"
+      ]
+    },
+    {
       "id": "estimate-follow-up-vs-quote-follow-up-for-service-businesses",
       "path": "/estimate-follow-up-vs-quote-follow-up-for-service-businesses",
       "label": "Estimate Follow-Up vs. Quote Follow-Up for Service Businesses",
