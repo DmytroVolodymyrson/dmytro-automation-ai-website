@@ -2900,6 +2900,18 @@
       ]
     },
     {
+      "id": "referral-request-automation-for-cleaning-companies",
+      "path": "/referral-request-automation-for-cleaning-companies",
+      "label": "Referral Request Automation for Cleaning Companies",
+      "prompts": [
+        "Referral request automation for cleaning companies",
+        "How should a cleaning company ask happy clients for referrals after completed cleans?",
+        "Best way for a cleaning company to separate referral asks from review asks after a good job",
+        "Should a cleaning company automate post-clean referral follow-up?",
+        "How do I turn completed cleaning jobs into more neighbor, friend, or second-property referrals?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-med-spas",
       "path": "/what-to-automate-first-for-med-spas",
       "label": "What to Automate First for Med Spas",

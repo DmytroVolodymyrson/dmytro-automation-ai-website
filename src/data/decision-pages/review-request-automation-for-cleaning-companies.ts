@@ -234,6 +234,10 @@ const data: DecisionPageData = {
           href: "/what-to-automate-first-for-cleaning-companies",
         },
         {
+          label: "Referral request automation for cleaning companies",
+          href: "/referral-request-automation-for-cleaning-companies",
+        },
+        {
           label: "Review request automation for painting contractors",
           href: "/review-request-automation-for-painting-contractors",
         },
@@ -290,6 +294,10 @@ const data: DecisionPageData = {
     {
       label: "Client reactivation automation for cleaning companies",
       href: "/client-reactivation-automation-for-cleaning-companies",
+    },
+    {
+      label: "Referral request automation for cleaning companies",
+      href: "/referral-request-automation-for-cleaning-companies",
     },
     { label: "All guides", href: "/guides" },
   ],

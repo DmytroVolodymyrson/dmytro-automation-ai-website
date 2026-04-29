@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/referral-request-automation-for-chiropractors` — a new chiropractic child page covering post-visit advocacy follow-up: referral timing after strong visits or progress checkpoints, separate review-vs-referral asks, and fast front-desk handoff when a patient names a warm introduction. Stays distinct from the live chiropractic parent, the review-request child, and the care-plan-recall child by focusing narrowly on private advocacy while goodwill from the recent visit is still warm rather than public reputation or later-lifecycle return timing. Previous: `/referral-request-automation-for-med-spas`.)
+Last updated: 2026-04-28 (shipped `/referral-request-automation-for-cleaning-companies` — a new cleaning-company child page covering post-job advocacy follow-up: referral timing after strong cleans, separate review-vs-referral asks, and fast office handoff when a client names a neighbor, friend, or second-property opportunity. Stays distinct from the live cleaning parent, the review-request child, and the client-reactivation child by focusing narrowly on private introductions while goodwill from the recent clean is still warm rather than public reputation or later-lifecycle reactivation. Previous: `/referral-request-automation-for-chiropractors`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 330.
+**Total live GEO pages tracked here:** 331.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -314,6 +314,7 @@ Last updated: 2026-04-28 (shipped `/referral-request-automation-for-chiropractor
 | Recurring Scheduling (Cleaning) | `/recurring-cleaning-scheduling-and-reminder-automation-for-cleaning-companies` | Vertical workflow page | Live |
 | Missed Call Text-Back (Cleaning) | `/missed-call-text-back-for-cleaning-companies` | Vertical workflow page | Live |
 | Review Automation (Cleaning) | `/review-request-automation-for-cleaning-companies` | Vertical workflow page | Live |
+| Referral Request Automation (Cleaning) | `/referral-request-automation-for-cleaning-companies` | Vertical workflow page | Live |
 | AI for Auto Parts E-Commerce | `/ai-automation-for-auto-parts-ecommerce` | Vertical category page | Live |
 | What to Automate First (Auto Parts) | `/what-to-automate-first-for-auto-parts-ecommerce` | Vertical decision page | Live |
 | CRM vs Manual (Auto Parts) | `/crm-automation-vs-manual-follow-up-for-auto-parts-ecommerce` | Vertical comparison page | Live |
@@ -342,15 +343,15 @@ Last updated: 2026-04-28 (shipped `/referral-request-automation-for-chiropractor
 
 ## Next Pages
 
-This run shipped `/referral-request-automation-for-chiropractors`. The chiropractic cluster now covers the broad parent, first-project framing, care-plan recall, intake and scheduling, no-show reduction, review requests, referral requests, and the phone-recovery stack. That fills the post-visit advocacy gap that the parent page and surrounding chiropractic children had already made commercially distinct.
+This run shipped `/referral-request-automation-for-cleaning-companies`. The cleaning cluster now covers the broad parent, first-project framing, quote follow-up, recurring scheduling/reminders, client reactivation, review requests, referral requests, and the phone-recovery stack. That fills the post-job advocacy gap that the parent page and surrounding cleaning children had already made commercially distinct.
 
 The next run should:
 
 1. **Start from a fresh broad reconciliation before naming the next net-new page.** The repo is dense enough that stale docs can still over-credit a cluster or make an already-live page look missing.
-2. **Keep manual GSC follow-through moving** on the newest chiropractic, med-spa, painting, roofing, insurance, and law-firm ships instead of treating publish alone as the finish line.
-3. **Bias toward the next clean cross-cluster workflow gap rather than forcing another same-cluster child by inertia.** If reconciliation still points back to chiropractors, prove that a materially distinct lifecycle stage remains.
+2. **Keep manual GSC follow-through moving** on the newest cleaning, chiropractic, med-spa, painting, roofing, insurance, and law-firm ships instead of treating publish alone as the finish line.
+3. **Bias toward the next clean cross-cluster workflow gap rather than forcing another same-cluster child by inertia.** If reconciliation still points back to cleaning, prove that a materially distinct lifecycle stage remains.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Fresh broad reconciliation before another net-new page | The chiropractic, med spa, painting, and roofing clusters are now deeper. The next best candidate is more likely a distinct workflow gap in another cluster rather than another same-cluster child by inertia. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
-| 2 | `/referral-request-automation-for-cleaning-companies` | The cleaning-company cluster already has the broad parent, first-project framing, review automation, recurring scheduling/reminders, client reactivation, quote follow-up, and the phone-recovery stack live, so a post-visit advocacy child still looks like a distinct trust-layer gap if it stays tightly on private introductions rather than review timing or recurring-client reactivation. | Re-check the full cleaning-company cluster in routes/pages, `public/llm*.txt`, `docs/geo-plan-2026-03.md`, and `scripts/geo-prompts.json` before shipping so the cluster is still missing that exact advocacy child and not a cleaner first-project alternative. |
+| 1 | Fresh broad reconciliation before another net-new page | The chiropractic, cleaning, med spa, painting, and roofing clusters are now deeper. The next best candidate is more likely a distinct workflow gap in another cluster rather than another same-cluster child by inertia. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
+| 2 | Post-job workflow / reputation watchlist follow-through | The highest-value immediate follow-up after this ship may be tightening adjacent cleaning-cluster discoverability or choosing the next distinct post-job workflow gap in another cluster rather than forcing another cleaning child by momentum. | Use the next run to verify there is a clearly distinct remaining candidate with direct proof and no route overlap before naming a new slug. |

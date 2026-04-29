@@ -192,6 +192,7 @@ const data: DecisionPageData = {
     { label: "AI automation for plumbing companies", href: "/ai-automation-for-plumbing-companies" },
     { label: "Quote follow-up automation", href: "/quote-follow-up-automation" },
     { label: "Client reactivation automation", href: "/client-reactivation-automation" },
+    { label: "Referral request automation for cleaning companies", href: "/referral-request-automation-for-cleaning-companies" },
     { label: "All guides", href: "/guides" },
   ],
 };

@@ -2216,6 +2216,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Referral Request Automation for Cleaning Companies",
+    description:
+      "A narrower cleaning-company post-job advocacy page focused on referral timing after strong cleans, keeping referral asks separate from review asks, and routing warm introductions back to the office quickly.",
+    href: "/referral-request-automation-for-cleaning-companies",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Med Spas",
     description:
       "AI automation for med spas. Lead follow-up, appointment booking, no-show reduction, membership renewal campaigns, and review automation.",

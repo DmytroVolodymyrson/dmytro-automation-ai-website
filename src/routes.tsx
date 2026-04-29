@@ -317,6 +317,7 @@ import AiPhoneAnsweringForCleaningCompanies from "./pages/AiPhoneAnsweringForCle
 import AiPhoneAnsweringVsVoicemailForCleaningCompanies from "./pages/AiPhoneAnsweringVsVoicemailForCleaningCompanies";
 import ClientReactivationAutomationForCleaningCompanies from "./pages/ClientReactivationAutomationForCleaningCompanies";
 import ReviewRequestAutomationForCleaningCompanies from "./pages/ReviewRequestAutomationForCleaningCompanies";
+import ReferralRequestAutomationForCleaningCompanies from "./pages/ReferralRequestAutomationForCleaningCompanies";
 import AiLeadFollowUpForCleaningCompanies from "./pages/AiLeadFollowUpForCleaningCompanies";
 import RecurringCleaningSchedulingAndReminderAutomationForCleaningCompanies from "./pages/RecurringCleaningSchedulingAndReminderAutomationForCleaningCompanies";
 import AiAutomationForMedSpas from "./pages/AiAutomationForMedSpas";
@@ -828,6 +829,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/missed-call-text-back-vs-voicemail-for-cleaning-companies", element: <MissedCallTextBackVsVoicemailForCleaningCompanies /> },
   { path: "/client-reactivation-automation-for-cleaning-companies", element: <ClientReactivationAutomationForCleaningCompanies /> },
   { path: "/review-request-automation-for-cleaning-companies", element: <ReviewRequestAutomationForCleaningCompanies /> },
+  { path: "/referral-request-automation-for-cleaning-companies", element: <ReferralRequestAutomationForCleaningCompanies /> },
   { path: "/ai-lead-follow-up-for-cleaning-companies", element: <AiLeadFollowUpForCleaningCompanies /> },
   { path: "/ai-automation-for-med-spas", element: <AiAutomationForMedSpas /> },
   { path: "/what-to-automate-first-for-med-spas", element: <WhatToAutomateFirstForMedSpas /> },
