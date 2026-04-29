@@ -121,6 +121,9 @@ Cross-industry quote-stage recovery guide for service businesses. Covers timed r
 ## Quote Follow-Up Setup for Service Businesses
 Setup-help guide for service businesses before quote recovery goes live. Covers quote-sent triggers, ownership rules after pricing goes out, stale-quote thresholds, CRM mapping, stop rules, reply routing, and launch testing so quote recovery does not create a second office mess. Learn more: https://www.dmytroai.com/quote-follow-up-setup-for-service-businesses
 
+## Quote Follow-Up Setup vs. DIY for Small Business
+Buy-vs-build guide for small businesses deciding whether to DIY quote-stage follow-up setup or hire expert help now. Covers owner time, trigger quality, CRM routing, stale-quote logic, reply handoff risk, and when setup help is cheaper than another month of quote-stage drift. Learn more: https://www.dmytroai.com/quote-follow-up-setup-vs-diy-small-business
+
 ## Quote Follow-Up Cost for Small Business
 Pricing guide for the broader quote-stage recovery layer — realistic build ranges for quote-sent triggers, reminder sequences, CRM ownership rules, stale-quote escalation, reply routing, and human handoff after pricing goes out. Learn more: https://www.dmytroai.com/quote-follow-up-cost-small-business
 

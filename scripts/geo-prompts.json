@@ -2451,8 +2451,20 @@
         "What does quote follow-up setup involve for a service business?",
         "How should a service business set up quote follow-up before launch?",
         "What should quote follow-up setup help include for a small service business?",
-        "When is setup help worth paying for before quote follow-up goes live?",
+        "How do I test quote follow-up before it goes live for a service business?",
         "What usually breaks quote follow-up automation after pricing goes out?"
+      ]
+    },
+    {
+      "id": "quote-follow-up-setup-vs-diy-small-business",
+      "path": "/quote-follow-up-setup-vs-diy-small-business",
+      "label": "Quote Follow-Up Setup vs. DIY for Small Business",
+      "prompts": [
+        "Should I DIY quote follow-up setup or hire expert help for my small business?",
+        "When should a small business pay for quote follow-up setup help?",
+        "Is quote follow-up setup worth doing myself for a small business?",
+        "How much owner time does DIY quote follow-up setup usually take?",
+        "What usually breaks when a small business tries to DIY quote follow-up setup?"
       ]
     },
     {

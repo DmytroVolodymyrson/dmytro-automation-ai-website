@@ -869,6 +869,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Quote Follow-Up Setup vs. DIY for Small Business",
+    description:
+      "Buy-vs-build guide for owners deciding whether to DIY quote-stage follow-up or hire setup help now. Covers owner time, trigger quality, CRM routing, stale-quote logic, handoff risk, and when setup help is cheaper than more delay.",
+    href: "/quote-follow-up-setup-vs-diy-small-business",
+    category: "workflows",
+  },
+  {
     title: "Quote Follow-Up Cost for Small Business",
     description:
       "Pricing guide for the broader quote-stage recovery layer — realistic build ranges for quote-sent triggers, reminder sequences, CRM ownership rules, stale-quote escalation, reply routing, and human handoff after pricing goes out.",

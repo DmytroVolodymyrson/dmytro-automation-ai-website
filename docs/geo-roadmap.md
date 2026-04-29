@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/financing-follow-up-automation-for-solar-companies` — a narrower solar workflow page for deals that already reached proposal stage but stall specifically at financing. Chosen because the live `/ai-automation-for-solar-companies` parent explicitly names financing nurture as its own workflow family, the exact slug was still absent across routes/data/guides/sitemap/llm/prompts, and the framing stays distinct from the broader `/quote-follow-up-automation-for-solar-companies` page by focusing on financing-stage stalls, missing-document reminders, approval-status ambiguity, and human handoff when payment questions are the real blocker. Previous: `/no-show-reduction-automation-for-medical-clinics`.)
+Last updated: 2026-04-29 (shipped `/quote-follow-up-setup-vs-diy-small-business` — a buy-vs-build child page extracted from the live quote-follow-up cluster after reconciliation showed the parent, setup-help, cost, and ROI pages were already live but the exact hire-help-vs-DIY decision was still missing. Chosen because the setup-help prompts already contained the surviving buyer query, the exact slug was absent across routes/data/guides/sitemap/llm/prompts, and the page could stay distinct by focusing on owner time, trigger quality, CRM routing, stale-quote logic, and when expert setup is cheaper than more DIY delay. Previous: `/financing-follow-up-automation-for-solar-companies`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 360.
+**Total live GEO pages tracked here:** 361.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -43,6 +43,7 @@ Last updated: 2026-04-29 (shipped `/financing-follow-up-automation-for-solar-com
 | Estimate Follow-Up vs. Quote Follow-Up (Service Businesses) | `/estimate-follow-up-vs-quote-follow-up-for-service-businesses` | Workflow comparison page | Live |
 | Quote Follow-Up Automation (Service Businesses) | `/quote-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
 | Quote Follow-Up Setup (Service Businesses) | `/quote-follow-up-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| Quote Follow-Up Setup vs. DIY (SMB) | `/quote-follow-up-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | Appointment Scheduling & Reminder Automation (Service Businesses) | `/appointment-scheduling-and-reminder-automation-for-service-businesses` | Workflow parent page | Live |
 | Appointment Scheduling & Reminder Automation vs. AI Appointment Setter (Service Businesses) | `/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses` | Workflow comparison page | Live |
 | Client Reactivation Automation (Service Businesses) | `/client-reactivation-automation-for-service-businesses` | Workflow parent page | Live |
@@ -372,10 +373,10 @@ Last updated: 2026-04-29 (shipped `/financing-follow-up-automation-for-solar-com
 
 ## Next Pages
 
-The backlog is still in broad-reconciliation mode. This run shipped `/financing-follow-up-automation-for-solar-companies` because the live solar parent explicitly named financing nurture as its own workflow family, the exact slug was still absent across routes/data/guides/sitemap/llm/prompts, and the page could stay narrower than the already-live quote-follow-up child by focusing only on financing-stage stalls, missing-document reminders, approval-status ambiguity, and payment-objection handoff.
+This run shipped `/quote-follow-up-setup-vs-diy-small-business` because the live quote-follow-up cluster already had the parent, setup-help, cost, and ROI layers live, and the remaining clean buyer decision was whether a small business should keep DIYing the setup or pay for help now. The page stays narrower than the setup-help page by focusing on owner time, trigger quality, CRM routing, stale-quote logic, and when bounded setup help is cheaper than more quote-stage drift.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | Broad reconciliation across mature clusters | The roadmap queue is stale; next run should re-check planning docs, live routes, and parent-page prompt gaps instead of forcing another same-cluster child by inertia. |
-| 2 | Distinct economics / setup-help child from a live mature cluster | Best next ship should come from an exact surviving buyer query, not a guessed sibling page. |
-| 3 | Existing-page discovery / tracking refresh if no clean new slug survives | If no clearly distinct page remains, tighten guides/llm/prompt coverage on strongest live clusters instead of creating a thin page. |
+| 1 | `/estimate-follow-up-setup-vs-diy-small-business` | The estimate-follow-up cluster already has the parent setup-help, cost, ROI, and comparison pages live, but it still lacks the equivalent buy-vs-build child and the exact slug remains absent across routes/data/guides/sitemap/llm/prompts. |
+| 2 | Broad reconciliation across other mature setup-help / cost / ROI clusters | Next-best ship should still come from an exact surviving buyer query inside a live cluster, not a guessed sibling page. |
+| 3 | Existing-page discovery / tracking refresh if no clean new slug survives | If no clearly distinct page remains after reconciliation, tighten guides/llm/prompt coverage on the strongest live clusters instead of creating a thin page. |
