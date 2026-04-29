@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/review-request-automation-setup-for-service-businesses` — a new cross-industry setup/help child inside the review-request cluster covering completed-job triggers, timing rules, complaint routing, CRM visibility, team handoff, and the launch mistakes that cause review asks to fire too early or hit the wrong customers. Stays distinct from the service-business review-request parent by focusing on implementation scope instead of the broader workflow, from the review-vs-referral comparison by assuming the review workflow is already chosen, and from generic GoHighLevel setup pages by staying tightly on post-job reputation follow-through. Previous: `/quote-follow-up-roi-small-business`.)
+Last updated: 2026-04-29 (shipped `/referral-request-automation-setup-for-service-businesses` — a new cross-industry setup/help child inside the referral-request cluster covering completed-job triggers, timing rules, intro routing, CRM visibility, ownership, and the launch mistakes that cause referral asks to fire too early or land with no clear human handoff. Stays distinct from the service-business referral parent by focusing on implementation scope instead of the broader workflow, from the review-vs-referral comparison by assuming the referral workflow is already chosen, and from the review-request setup sibling by staying tightly on post-job advocacy follow-through rather than reputation management. Previous: `/review-request-automation-setup-for-service-businesses`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 346.
+**Total live GEO pages tracked here:** 347.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -27,6 +27,7 @@ Last updated: 2026-04-29 (shipped `/review-request-automation-setup-for-service-
 | Review Request Automation (Service Businesses) | `/review-request-automation-for-service-businesses` | Workflow parent page | Live |
 | Review Request Automation Setup (Service Businesses) | `/review-request-automation-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Referral Request Automation (Service Businesses) | `/referral-request-automation-for-service-businesses` | Workflow parent page | Live |
+| Referral Request Automation Setup (Service Businesses) | `/referral-request-automation-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Review Request vs. Referral Request (Service Businesses) | `/review-request-vs-referral-request-for-service-businesses` | Workflow comparison page | Live |
 | Missed Call Text-Back (Service Businesses) | `/missed-call-text-back-for-service-businesses` | Workflow parent page | Live |
 | Missed Call Text-Back Cost (SMB) | `/missed-call-text-back-cost-small-business` | Workflow / service cost page | Live |
@@ -358,16 +359,16 @@ Last updated: 2026-04-29 (shipped `/review-request-automation-setup-for-service-
 
 ## Next Pages
 
-This run shipped `/review-request-automation-setup-for-service-businesses`. The cross-industry review-request cluster now has the service-business parent, the new setup-help child, and the adjacent review-vs-referral comparison. That gives owners a cleaner path from "should we automate review asks at all?" into "what would a safe first build actually include?" without forcing implementation questions into the broader parent page.
+This run shipped `/referral-request-automation-setup-for-service-businesses`. The cross-industry referral-request cluster now has the service-business parent, the new setup-help child, and the adjacent review-vs-referral comparison. That gives owners a cleaner path from "should we automate referral asks at all?" into "what would a safe first build actually include?" without forcing implementation questions into the broader parent page.
 
 The next run should:
 
 1. **Keep manual GSC follow-through moving** on the newest workflow ships instead of treating publish alone as the finish line.
-2. **Check the adjacent referral-request cluster for the matching setup/help child** now that the review-request setup layer is live and the paired post-job workflow family still lacks that implementation page.
+2. **Re-check the paired review/referral service-business cluster for any indexing-refresh opportunity** now that both setup-help siblings are live and the core horizontal post-job advocacy/reputation cluster is structurally complete.
 3. **Otherwise fall back to broad reconciliation** across roadmap, planning docs, live routes, and prompts so the next ship comes from the cleanest remaining repo-wide gap instead of forcing another same-cluster page by inertia.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
 | 1 | Manual GSC follow-through on newest live workflow pages | Recent ships still need inspection and indexing requests where appropriate. | Check the newest live URLs in GSC after deploy propagation and request indexing only after meaningful copy/internal-link updates are live. |
-| 2 | `/referral-request-automation-setup-for-service-businesses` | The paired referral-request cluster now looks like the cleanest remaining structural follow-on: parent + comparison are live, but there is still no setup/help child explaining trigger scope, timing, reply routing, and when implementation help is worth paying for. | Verify the exact slug is absent from both route files, Guides, sitemap, llm files, `scripts/geo-prompts.json`, and nearby referral/review cluster docs before shipping. |
-| 3 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | If the referral setup child does not survive duplicate/proof checks, the next clean ship should come from whichever remaining workflow, comparison, setup, ROI, or buyer-decision gap still survives a repo-wide reality check. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |
+| 2 | Review/referral cluster indexing-refresh opportunity | The service-business review/referral cluster now has both parent pages, both setup-help siblings, and the comparison page. The better follow-on may now be an indexing/internal-link refresh on whichever one still looks weakest in GSC rather than another same-cluster net-new URL. | Re-check GSC status plus live internal-link strength on the service-business review/referral pages before making any same-cluster move. |
+| 3 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | If no obvious indexing-refresh target emerges, the next clean ship should come from whichever remaining workflow, comparison, setup, ROI, or buyer-decision gap still survives a repo-wide reality check. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |

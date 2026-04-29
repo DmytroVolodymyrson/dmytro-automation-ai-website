@@ -216,6 +216,7 @@ const data: DecisionPageData = {
         },
       ],
       links: [
+        { label: "Referral request setup for service businesses", href: "/referral-request-automation-setup-for-service-businesses" },
         { label: "Referral automation for painting contractors", href: "/referral-request-automation-for-painting-contractors" },
         { label: "Referral automation for insurance agencies", href: "/referral-request-automation-for-insurance-agencies" },
         { label: "Review request automation for service businesses", href: "/review-request-automation-for-service-businesses" },
@@ -258,6 +259,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No obligation. No generic pitch. Just a practical conversation about where post-job advocacy is leaking introductions your business should be getting.",
   relatedLinks: [
+    { label: "Referral request setup for service businesses", href: "/referral-request-automation-setup-for-service-businesses" },
     { label: "Referral automation for painting contractors", href: "/referral-request-automation-for-painting-contractors" },
     { label: "Referral automation for insurance agencies", href: "/referral-request-automation-for-insurance-agencies" },
     { label: "Review request automation for service businesses", href: "/review-request-automation-for-service-businesses" },

@@ -743,6 +743,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Referral Request Automation Setup for Service Businesses",
+    description:
+      "What a clean first build should include: completed-job triggers, timing rules, intro routing, CRM visibility, referral-vs-review separation, and the setup decisions that keep post-job advocacy from feeling forced or sloppy.",
+    href: "/referral-request-automation-setup-for-service-businesses",
+    category: "workflows",
+  },
+  {
     title: "Review Request vs. Referral Request for Service Businesses",
     description:
       "Which post-job ask should come first? Practical comparison of public reviews vs. private referrals, timing, reply routing, and how to keep the two workflows separate instead of bundling both into one awkward follow-up.",

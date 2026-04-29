@@ -1060,7 +1060,7 @@
         "What should a mortgage broker automate first lead follow-up missed-call text-back document collection or incomplete application follow-up?",
         "Should a mortgage broker automate lead follow-up before document collection?",
         "Should a mortgage brokerage automate incomplete-application recovery before document reminders?",
-        "How do I choose the first automation project for a mortgage brokerage \u2014 lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
+        "How do I choose the first automation project for a mortgage brokerage — lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
       ]
     },
     {
@@ -2152,7 +2152,19 @@
         "Best referral request automation for service businesses",
         "When should a service business ask for referrals automatically after a completed job?",
         "How do I keep referral asks separate from review asks in a post-job workflow?",
-        "What should a post-job referral request workflow include for a service business?"
+        "How should a service business turn finished jobs into a repeatable referral workflow without relying on memory?"
+      ]
+    },
+    {
+      "id": "referral-request-automation-setup-for-service-businesses",
+      "path": "/referral-request-automation-setup-for-service-businesses",
+      "label": "Referral Request Automation Setup for Service Businesses",
+      "prompts": [
+        "Referral request automation setup for service businesses",
+        "What should referral request automation setup include for a service business?",
+        "How do I keep referral asks from firing before a job is truly complete?",
+        "How should a service business route warm referral replies after an automated ask?",
+        "Is referral request automation setup worth paying for if referrals already happen inconsistently?"
       ]
     },
     {
