@@ -304,6 +304,7 @@ const data: DecisionPageData = {
     "No obligation. No generic pitch. Just a practical recommendation based on where the practice is already losing momentum.",
   relatedLinks: [
     { label: "AI automation for dental practices", href: "/ai-automation-for-dental-practices" },
+    { label: "Referral request automation for dental practices", href: "/referral-request-automation-for-dental-practices" },
     { label: "AI automation for med spas", href: "/ai-automation-for-med-spas" },
     { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },

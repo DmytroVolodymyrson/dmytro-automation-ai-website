@@ -1208,6 +1208,18 @@
       ]
     },
     {
+      "id": "referral-request-automation-for-dental-practices",
+      "path": "/referral-request-automation-for-dental-practices",
+      "label": "Referral Request Automation for Dental Practices",
+      "prompts": [
+        "Referral request automation for dental practices",
+        "How should a dental practice ask happy patients for referrals after hygiene visits and completed treatments?",
+        "Best way for a dental office to separate referral asks from review asks after a good appointment",
+        "Should a dental practice automate post-visit referral follow-up?",
+        "How do I turn positive dental visits into more family, friend, and word-of-mouth referrals?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-law-firms",
       "path": "/what-to-automate-first-for-law-firms",
       "label": "What to Automate First for Law Firms",

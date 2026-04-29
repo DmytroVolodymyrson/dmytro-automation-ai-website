@@ -277,6 +277,10 @@ const data: DecisionPageData = {
       href: "/what-to-automate-first-for-dental-practices",
     },
     {
+      label: "Referral request automation for dental practices",
+      href: "/referral-request-automation-for-dental-practices",
+    },
+    {
       label: "Recall and Reactivation Automation for Dental Practices",
       href: "/recall-and-reactivation-automation-for-dental-practices",
     },

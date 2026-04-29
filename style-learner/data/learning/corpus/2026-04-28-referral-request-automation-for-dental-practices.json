@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-referral-request-automation-for-dental-practices",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: Referral Request Automation for Dental Practices\nBody: A lot of dental practices say referrals are their best patients, then leave referrals to chance. A patient finishes a hygiene visit, gets good news at an exam, or completes a treatment plan — and then nobody follows up with a clean referral ask while trust is still warm. Or the office bundles a review ask, a recall reminder, and a referral ask into one awkward message that feels more like admin overflow than a real patient follow-up. Referral request automation for dental practices fixes that narrower post-visit advocacy workflow. It gives the office a practical way to ask for referrals at a believable moment, keep referral asks separate from review asks, route warm replies back to the front desk quickly, and turn positive patient experiences into more introductions instead of letting that goodwill disappear once the appointment is over.\nSub: Below: what a practical dental referral workflow should actually handle, how it stays distinct from review requests, recall campaigns, and broader front-desk workflows, what guardrails matter most, and what proof honestly supports this page without pretending there is already a dedicated dental referral-automation case study on the site.\n\n### Core sections\n- What dental referral-request automation should actually handle\n- How this page stays distinct inside the dental cluster\n- Is this a good fit for your dental practice?\n- Guardrails that keep dental referral automation useful instead of awkward\n- How a practical dental referral workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical answers for dental practices considering a cleaner post-visit referral workflow\nTopics: how this differs from review request automation for dental practices, how this differs from recall and reactivation automation for dental practices, when a dental practice should ask for referrals, what a focused dental referral workflow usually costs, and where the ROI usually comes from.\n\n### Final CTA\nHeading: Want better referral flow after a strong patient experience?\nBody: Book a 30-minute call. We will look at how your practice follows up after positive visits today, where referral opportunities are being missed, and whether a focused referral workflow, a review-timing fix, or an earlier front-desk workflow is the smarter next move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the post-visit advocacy child inside the dental-practices cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the dental cluster already covered the broad parent, first-project framing, lead follow-up, booking/reminders, recall/reactivation, no-show reduction, review automation, missed-call text-back, phone comparisons, and AI phone answering, but still lacked a dedicated page for private referral asks after a strong completed visit."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/review-request-automation-for-dental-practices` by focusing on private introductions instead of public reputation signals, and from `/recall-and-reactivation-automation-for-dental-practices` by staying tightly on the earlier advocacy window while goodwill from the recent visit is still warm."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live dental cluster, the generic referral-request page, and the published e-commerce CRM case study support the workflow logic without pretending there is already a dedicated dental referral-automation case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fit / not-fit framing, explicit messaging guardrails, and clear separation from review asks, recall, and the broader dental page."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T02:51:12.420Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 30.6,
+      "sentenceLengthRange": [
+        5,
+        58
+      ],
+      "totalWords": 367
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Referral Request Automation for Dental Practices\nBody: A lot of dental practices say referrals are their best patients, then leave referrals to chance.",
+      "wordCount": 25,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want better referral flow after a strong patient experience?\nBody: Book a 30-minute call. We will look at how your practice follows up after positive visits today, where referral opportunities are being missed, and whether a focused referral workflow, a review-timing fix, or an earlier front-desk workflow is the smarter next move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 21,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.91
+    },
+    "vocabulary": {
+      "distinctWords": 183,
+      "totalWords": 367,
+      "topWords": [
+        [
+          "dental",
+          15
+        ],
+        [
+          "referral",
+          13
+        ],
+        [
+          "workflow",
+          7
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "practices",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "how",
+          6
+        ],
+        [
+          "this",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "ask",
+          5
+        ],
+        [
+          "from",
+          5
+        ],
+        [
+          "referrals",
+          4
+        ],
+        [
+          "patient",
+          4
+        ],
+        [
+          "review",
+          4
+        ],
+        [
+          "that",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

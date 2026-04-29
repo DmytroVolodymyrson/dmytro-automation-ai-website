@@ -123,6 +123,7 @@ import MissedCallTextBackVsAiPhoneAnsweringForDentalPractices from "./pages/Miss
 import MissedCallTextBackVsAiPhoneAnsweringForAccountingFirms from "./pages/MissedCallTextBackVsAiPhoneAnsweringForAccountingFirms";
 import AiPhoneAnsweringForDentalPractices from "./pages/AiPhoneAnsweringForDentalPractices";
 import AiPhoneAnsweringVsVoicemailForDentalPractices from "./pages/AiPhoneAnsweringVsVoicemailForDentalPractices";
+import ReferralRequestAutomationForDentalPractices from "./pages/ReferralRequestAutomationForDentalPractices";
 import AiAutomationForLawFirms from "./pages/AiAutomationForLawFirms";
 import WhatToAutomateFirstForLawFirms from "./pages/WhatToAutomateFirstForLawFirms";
 import AiLeadFollowUpForLawFirms from "./pages/AiLeadFollowUpForLawFirms";
@@ -598,6 +599,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/missed-call-text-back-vs-ai-phone-answering-for-dental-practices", element: <MissedCallTextBackVsAiPhoneAnsweringForDentalPractices /> },
   { path: "/ai-phone-answering-for-dental-practices", element: <AiPhoneAnsweringForDentalPractices /> },
   { path: "/ai-phone-answering-vs-voicemail-for-dental-practices", element: <AiPhoneAnsweringVsVoicemailForDentalPractices /> },
+  { path: "/referral-request-automation-for-dental-practices", element: <ReferralRequestAutomationForDentalPractices /> },
   { path: "/ai-automation-for-law-firms", element: <AiAutomationForLawFirms /> },
   { path: "/what-to-automate-first-for-law-firms", element: <WhatToAutomateFirstForLawFirms /> },
   { path: "/ai-lead-follow-up-for-law-firms", element: <AiLeadFollowUpForLawFirms /> },

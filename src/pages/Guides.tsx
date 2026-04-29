@@ -1290,6 +1290,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Referral Request Automation for Dental Practices",
+    description:
+      "Post-visit dental advocacy workflow focused on asking for referrals at the right moment after a strong hygiene visit, exam, or treatment outcome, keeping referral asks separate from review asks, and routing warm introductions back to the front desk fast.",
+    href: "/referral-request-automation-for-dental-practices",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Law Firms",
     description:
       "AI automation for law firms. Client intake, consultation booking, lead follow-up, and case status updates. What works for small to mid-size practices.",
