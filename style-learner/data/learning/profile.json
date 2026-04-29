@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-29T12:18:52.072Z",
-  "postCount": 528,
+  "updatedAt": "2026-04-29T12:29:02.604Z",
+  "postCount": 529,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,25 +15,25 @@
       "max": 12,
       "p25": 4,
       "p75": 4,
-      "samples": 528
+      "samples": 529
     },
     "sentenceLength": {
-      "mean": 23.8,
-      "median": 24.25,
+      "mean": 23.7,
+      "median": 24.2,
       "min": 7.1,
       "max": 105,
       "p25": 19.5,
       "p75": 27.5,
-      "samples": 528
+      "samples": 529
     },
     "totalWords": {
-      "mean": 331.4,
-      "median": 334.5,
+      "mean": 330.9,
+      "median": 334,
       "min": 17,
       "max": 1155,
       "p25": 281,
       "p75": 372,
-      "samples": 528
+      "samples": 529
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -129,6 +129,7 @@
       "long | single | long | short": 1,
       "single | single": 1,
       "single | short": 1,
+      "long | single": 1,
       "long | short | single": 1,
       "short | single": 1
     },
@@ -180,7 +181,7 @@
       "opener | context | context | product-pitch | product-pitch | context | result | closer": 1,
       "opener | product-pitch | context | context | product-pitch | product-pitch | context | context | closer": 1,
       "opener | context | result | context | result | context | context | context | closer": 1,
-      "opener | closer": 4,
+      "opener | closer": 5,
       "opener | product-pitch | product-pitch | product-pitch | context | context | result | result | result | closer": 1,
       "opener | product-pitch | result | context | context | context | context | closer": 1,
       "opener | context | product-pitch | context | context | context | context | product-pitch | closer": 1,
@@ -232,7 +233,7 @@
         ]
       },
       "question": {
-        "count": 27,
+        "count": 28,
         "examples": [
           "Q: What kind of businesses do you work with?",
           "### Hero\nBadge: AI Automation Consulting\nHeading: Do you actually need an AI aut",
@@ -281,11 +282,11 @@
         ]
       },
       "cta": {
-        "count": 3,
+        "count": 4,
         "examples": [
           "### Final CTA\nHeading: Real-estate cluster navigation\nBody: These link updates a",
-          "### Link target\n- Anchor text: complete case studies hub\n- URL: /case-studies",
-          "### Link target\n- Anchor text: top AI automations for service businesses\n- URL: "
+          "### Link target\n- Anchor text: AI appointment setter guide\n- URL: /ai-appointmen",
+          "### Link target\n- Anchor text: complete case studies hub\n- URL: /case-studies"
         ]
       }
     }
@@ -300,7 +301,7 @@
     "topWords": [
       [
         "-",
-        3573
+        3575
       ],
       [
         "what",
@@ -312,7 +313,7 @@
       ],
       [
         "ai",
-        1150
+        1152
       ],
       [
         "workflow",
@@ -412,7 +413,7 @@
       ],
       [
         "body",
-        301
+        302
       ],
       [
         "business",

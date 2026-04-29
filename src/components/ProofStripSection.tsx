@@ -31,7 +31,14 @@ const ProofStripSection = () => {
             >
               complete case studies hub
             </Link>{" "}
-            to compare all three documented builds and then jump into the guide that matches your bottleneck.
+            to compare all three documented builds. If the next question is whether the real leak is first-contact booking speed, after-hours calls, or calendar handoff, open the{" "}
+            <Link
+              to="/ai-appointment-setter"
+              className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors"
+            >
+              AI appointment setter guide
+            </Link>{" "}
+            before you commit to a heavier build.
           </p>
         </div>
 
