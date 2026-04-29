@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-homepage-guides-about-link",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "Added paragraph under the homepage About section:\n\n\"If you want the clearest path into the exact workflows worth automating first, start with the full automation guides hub. It routes you into lead follow-up, scheduling, CRM cleanup, pricing, proof, and consultant-fit pages without making you guess which page to open first.\"",
+    "formatting": [
+      "bold:Added"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Keeps the tone direct and practical rather than promotional"
+    },
+    {
+      "type": "cut",
+      "description": "Frames the guides hub as a decision shortcut, not generic navigation"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Names concrete workflow outcomes buyers care about: lead follow-up, scheduling, CRM cleanup, pricing, proof, consultant fit"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses plain-language buyer framing: \"without making you guess which page to open first\""
+    },
+    {
+      "type": "tone_shift",
+      "description": "Works as homepage editorial copy, not UI chrome or CTA-only copy"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T09:26:53.822Z",
+    "structure": {
+      "paragraphCount": 2,
+      "sentencesPerParagraph": [
+        1,
+        2
+      ],
+      "avgSentenceLength": 16.7,
+      "sentenceLengthRange": [
+        7,
+        23
+      ],
+      "totalWords": 50
+    },
+    "opener": {
+      "type": "situation",
+      "text": "Added paragraph under the homepage About section:",
+      "wordCount": 7,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "\"If you want the clearest path into the exact workflows worth automating first, start with the full automation guides hub. It routes you into lead follow-up, scheduling, CRM cleanup, pricing, proof, and consultant-fit pages without making you guess which page to open first.\"",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "closer"
+      ],
+      "template": "opener | closer"
+    },
+    "punctuation": {
+      "periods": 2,
+      "commas": 6,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 1,
+      "commasPerSentence": 3
+    },
+    "vocabulary": {
+      "distinctWords": 43,
+      "totalWords": 50,
+      "topWords": [
+        [
+          "into",
+          2
+        ],
+        [
+          "first",
+          2
+        ],
+        [
+          "added",
+          1
+        ],
+        [
+          "paragraph",
+          1
+        ],
+        [
+          "under",
+          1
+        ],
+        [
+          "homepage",
+          1
+        ],
+        [
+          "about",
+          1
+        ],
+        [
+          "section",
+          1
+        ],
+        [
+          "if",
+          1
+        ],
+        [
+          "want",
+          1
+        ],
+        [
+          "clearest",
+          1
+        ],
+        [
+          "path",
+          1
+        ],
+        [
+          "exact",
+          1
+        ],
+        [
+          "workflows",
+          1
+        ],
+        [
+          "worth",
+          1
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 1,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
