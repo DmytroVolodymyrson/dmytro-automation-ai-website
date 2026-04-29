@@ -519,6 +519,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Client Onboarding Automation ROI for Small Business",
+    description:
+      "Conservative payback math for onboarding automation. Covers stalled onboardings, faster intake completion, reduced document chasing, cleaner kickoff handoff, saved admin time, and when a manual checklist is still enough.",
+    href: "/client-onboarding-roi-small-business",
+    category: "workflows",
+  },
+  {
     title: "Client Onboarding Setup vs. DIY for Small Business",
     description:
       "Should you set up client onboarding automation yourself or hire expert help? Practical guide to owner time, trigger reliability, intake sequencing, scheduling gates, and when setup help is cheaper than DIY delay.",
