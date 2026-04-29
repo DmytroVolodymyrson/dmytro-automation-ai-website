@@ -157,6 +157,39 @@ const data: DecisionPageData = {
       ],
     },
     {
+      type: "prose",
+      title: "What is the smallest consultant-delivered project usually worth paying for first?",
+      subtitle:
+        "For most small businesses, the first smart engagement is not a giant AI transformation. It is one bounded workflow where slow follow-up or bad handoff is already costing money:",
+      blocks: [
+        {
+          heading: "If leads go cold right after they come in",
+          body: "The smallest high-value project is usually instant lead response plus basic routing: every form fill, missed call, or inquiry gets acknowledged fast, tagged correctly, and handed to the right human when needed. That is often the difference between a consultant being worth it and DIY still being good enough, because the workflow touches live revenue right away.",
+          links: [
+            { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
+            { label: "AI automation cost for small business", href: "/ai-automation-cost-small-business" },
+          ],
+        },
+        {
+          heading: "If phone coverage or booking friction is the leak",
+          body: "A consultant usually earns their keep fastest when unanswered calls, after-hours inquiries, or scheduling handoff failures are already hurting bookings. That first project can be a missed-call recovery flow, booking automation layer, or voice-agent-assisted handoff — but the real value is designing when automation should answer, when a human should take over, and how the calendar or CRM stays clean.",
+          links: [
+            { label: "AI appointment setter guide", href: "/ai-appointment-setter" },
+            { label: "Paris Cafe voice agent proof", href: "/case-studies/paris-cafe-voice-agent" },
+          ],
+        },
+        {
+          heading: "If you need proof before committing to broader consultant help",
+          body: "The first consultant-sized project should usually look like one production workflow with a measurable outcome, not a broad stack migration. That gives you a live proof asset inside your own business: faster response, cleaner routing, recovered leads, or fewer dropped calls. Once that works, it becomes obvious whether to expand into follow-up, reactivation, or broader operating-system cleanup.",
+          links: [
+            { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
+            { label: "WheelsFeels CRM automation proof", href: "/case-studies/ecommerce-crm-automation" },
+            { label: "Automation without a tech team", href: "/ai-automation-for-businesses-without-a-tech-team" },
+          ],
+        },
+      ],
+    },
+    {
       type: "table",
       title: "What you should expect as the deliverable",
       subtitle:
@@ -366,6 +399,11 @@ const data: DecisionPageData = {
         "Usually a workflow diagnosis, scope for one bounded first project, a simple systems map, implementation, testing, documentation, and a short stabilization period after launch. If you are only getting tool recommendations without ownership, edge-case handling, or a defined first workflow, the engagement is probably too vague.",
     },
     {
+      question: "What is the smallest AI automation project worth hiring a consultant for first?",
+      answer:
+        "Usually one production workflow where response speed, routing, or booking handoff already affects revenue — for example instant lead response, follow-up automation, missed-call recovery, or booking flow cleanup. The right first project is narrow enough to launch quickly but important enough that sloppy DIY work would cost missed opportunities.",
+    },
+    {
       question: "Do I need an ongoing retainer after the consultant builds the workflow?",
       answer:
         "Not always. Some businesses only need a focused first build plus a short stabilization period. Ongoing support makes more sense when the workflow is high-volume, customer-facing, self-hosted, or likely to change often. The main thing is to leave the project with clear ownership so support stays optional rather than forced.",
@@ -383,6 +421,9 @@ const data: DecisionPageData = {
     { label: "How to hire an AI automation consultant", href: "/how-to-hire-ai-automation-consultant" },
     { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
     { label: "AI automation cost for small business", href: "/ai-automation-cost-small-business" },
+    { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
+    { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
+    { label: "AI appointment setter", href: "/ai-appointment-setter" },
     { label: "AI automation time savings", href: "/ai-automation-time-savings-small-business" },
     { label: "Consultant vs freelancer", href: "/ai-automation-consultant-vs-freelancer" },
     { label: "AI automation maintenance and support", href: "/ai-automation-maintenance-and-support-small-business" },

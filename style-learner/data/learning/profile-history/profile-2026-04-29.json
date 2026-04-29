@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-29T04:18:16.329Z",
-  "postCount": 503,
+  "updatedAt": "2026-04-29T04:32:07.481Z",
+  "postCount": 504,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,25 +15,25 @@
       "max": 12,
       "p25": 4,
       "p75": 4,
-      "samples": 503
+      "samples": 504
     },
     "sentenceLength": {
       "mean": 23.5,
-      "median": 23.9,
+      "median": 23.85,
       "min": 7.1,
       "max": 105,
       "p25": 19.4,
-      "p75": 27.4,
-      "samples": 503
+      "p75": 27.3,
+      "samples": 504
     },
     "totalWords": {
-      "mean": 332.9,
+      "mean": 333,
       "median": 334,
       "min": 17,
       "max": 1155,
       "p25": 279,
       "p75": 373,
-      "samples": 503
+      "samples": 504
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -123,6 +123,7 @@
       "single | long | short | single": 1,
       "long | single | long | long | long | long | long | single | long": 1,
       "short | long | long": 1,
+      "long | long | long | long | long | single": 1,
       "single | short | long | single | long": 1,
       "long | single | long | short": 1
     },
@@ -194,6 +195,7 @@
       "opener | result | result | context | context | closer": 1,
       "opener | result | result | result | result | context | closer": 1,
       "opener | product-pitch | result | product-pitch | closer": 1,
+      "opener | product-pitch | product-pitch | product-pitch | result | closer": 1,
       "opener | result | result | product-pitch | closer": 1
     }
   },
@@ -224,7 +226,7 @@
         ]
       },
       "question": {
-        "count": 24,
+        "count": 25,
         "examples": [
           "Q: What kind of businesses do you work with?",
           "### Hero\nBadge: AI Automation Consulting\nHeading: Do you actually need an AI aut",
@@ -243,7 +245,7 @@
   "closers": {
     "patterns": {
       "reflection": {
-        "count": 78,
+        "count": 79,
         "examples": [
           "Stats:\n- 7+ Years building software\n- 50+ Automations built\n- $100K+ Saved for c",
           "Social proof pills:\n- 10+ hrs/week saved\n- 300%+ ROI\n- 24/7 automation",
@@ -298,15 +300,15 @@
       ],
       [
         "automation",
-        1416
+        1423
       ],
       [
         "ai",
-        1139
+        1148
       ],
       [
         "workflow",
-        1030
+        1034
       ],
       [
         "how",
@@ -330,7 +332,7 @@
       ],
       [
         "when",
-        785
+        789
       ],
       [
         "whether",
@@ -338,11 +340,11 @@
       ],
       [
         "follow-up",
-        668
+        673
       ],
       [
         "first",
-        659
+        665
       ],
       [
         "your",
@@ -382,11 +384,11 @@
       ],
       [
         "that",
-        389
+        394
       ],
       [
         "lead",
-        355
+        359
       ],
       [
         "heading",

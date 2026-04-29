@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-what-does-an-ai-automation-consultant-do",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Added section\nHeading: What is the smallest consultant-delivered project usually worth paying for first?\nSubhead: For most small businesses, the first smart engagement is not a giant AI transformation. It is one bounded workflow where slow follow-up or bad handoff is already costing money.\n\nBlock 1: If leads go cold right after they come in\nBody: The smallest high-value project is usually instant lead response plus basic routing: every form fill, missed call, or inquiry gets acknowledged fast, tagged correctly, and handed to the right human when needed. That is often the difference between a consultant being worth it and DIY still being good enough, because the workflow touches live revenue right away.\nLinks: AI lead follow-up for service businesses; AI automation cost for small business.\n\nBlock 2: If phone coverage or booking friction is the leak\nBody: A consultant usually earns their keep fastest when unanswered calls, after-hours inquiries, or scheduling handoff failures are already hurting bookings. That first project can be a missed-call recovery flow, booking automation layer, or voice-agent-assisted handoff — but the real value is designing when automation should answer, when a human should take over, and how the calendar or CRM stays clean.\nLinks: AI appointment setter guide; Paris Cafe voice agent proof.\n\nBlock 3: If you need proof before committing to broader consultant help\nBody: The first consultant-sized project should usually look like one production workflow with a measurable outcome, not a broad stack migration. That gives you a live proof asset inside your own business: faster response, cleaner routing, recovered leads, or fewer dropped calls. Once that works, it becomes obvious whether to expand into follow-up, reactivation, or broader operating-system cleanup.\nLinks: Best AI automations for service businesses; WheelsFeels CRM automation proof; Automation without a tech team.\n\n### FAQ addition\nQuestion: What is the smallest AI automation project worth hiring a consultant for first?\nAnswer: Usually one production workflow where response speed, routing, or booking handoff already affects revenue — for example instant lead response, follow-up automation, missed-call recovery, or booking flow cleanup. The right first project is narrow enough to launch quickly but important enough that sloppy DIY work would cost missed opportunities.\n\n### Related-link expansion\nAdded links: Best AI automations for service businesses; AI lead follow-up for service businesses; AI appointment setter.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Bounded refresh on an existing hiring-intent page, not a new page launch."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The copy stays practical and buyer-facing: it answers the “what should I actually pay for first?” question instead of drifting into generic consultant-role description."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Internal links were tightened around proof, first-project selection, and adjacent workflow pages so the role guide behaves more like a decision-support page for indexing and navigation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays direct and non-hype: one narrow workflow first, measurable outcome first, broader consultant scope only after proof."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T04:32:07.434Z",
+    "structure": {
+      "paragraphCount": 6,
+      "sentencesPerParagraph": [
+        3,
+        3,
+        3,
+        4,
+        3,
+        1
+      ],
+      "avgSentenceLength": 22.2,
+      "sentenceLengthRange": [
+        10,
+        44
+      ],
+      "totalWords": 377
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Added section\nHeading: What is the smallest consultant-delivered project usually worth paying for first?",
+      "wordCount": 14,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Related-link expansion\nAdded links: Best AI automations for service businesses; AI lead follow-up for service businesses; AI appointment setter.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "product-pitch",
+        "result",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | product-pitch | result | closer"
+    },
+    "punctuation": {
+      "periods": 15,
+      "commas": 24,
+      "emDashes": 2,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 16,
+      "commasPerSentence": 1.41
+    },
+    "vocabulary": {
+      "distinctWords": 201,
+      "totalWords": 377,
+      "topWords": [
+        [
+          "ai",
+          9
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "project",
+          6
+        ],
+        [
+          "first",
+          6
+        ],
+        [
+          "usually",
+          5
+        ],
+        [
+          "businesses",
+          5
+        ],
+        [
+          "follow-up",
+          5
+        ],
+        [
+          "that",
+          5
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "handoff",
+          4
+        ],
+        [
+          "right",
+          4
+        ],
+        [
+          "lead",
+          4
+        ],
+        [
+          "response",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "consultant",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right",
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.011
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
