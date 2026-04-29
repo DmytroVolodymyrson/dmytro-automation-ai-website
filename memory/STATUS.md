@@ -1,6 +1,13 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-04-25 MDT
+**Last updated:** 2026-04-29 MDT
+
+## Update 2026-04-29 — AI phone answering vs voicemail (service businesses)
+- Shipped `/ai-phone-answering-vs-voicemail-for-service-businesses` as the heavier generic phone-cluster comparison page, distinct from the broader AI phone-answering parent and the lighter text-back-vs-AI comparison.
+- Added the new template-backed page/data file, both route entries, Guides surfacing, sitemap entry, `llm.txt`/`llms.txt` discovery lines, GEO prompts entry, and related-link support from the nearest generic service-business phone cluster siblings.
+- Updated `docs/geo-roadmap.md` and `docs/geo-tracking.md`; the roadmap now points the next clean generic phone-cluster fallback at `/missed-call-text-back-vs-voicemail-for-service-businesses`.
+- Added the style-learner landing-page post plus new corpus entry, rebuilt `profile.json`, and kept the commit bounded by reverting broad tracked corpus timestamp churn.
+- Verification: `python3 -m json.tool scripts/geo-prompts.json` passed and `npm run build` passed with 482 indexable/prerendered routes.
 
 ## Update 2026-04-25 — Technical indexability audit for priority URLs
 - Browser session is not authenticated to GSC and no local Search Console API credentials exist, so GSC URL Inspection statuses remain `NOT INSPECTED` rather than guessed.

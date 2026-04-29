@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/ai-lead-follow-up-for-medical-clinics` — the live medical-clinic cluster already had the broad parent, first-project page, booking/reminder child, intake child, recall child, no-show child, and after-hours phone page, but still lacked the early-funnel inquiry-response child. The new page stays tightly on first response, short nurture, light qualification, and front-desk handoff before the appointment exists. Previous: `/client-onboarding-setup-vs-diy-small-business`.)
+Last updated: 2026-04-29 (shipped `/ai-phone-answering-vs-voicemail-for-service-businesses` — the live generic service-business phone cluster already had the broader AI phone-answering parent, the missed-call text-back parent, and the text-back-vs-AI comparison, but it still lacked the heavier buyer decision between passive voicemail/manual callback and live AI answering. The new page stays tightly on that fallback choice instead of rehashing the broader parent or the lighter text-back comparison. Previous: `/ai-lead-follow-up-for-medical-clinics`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 374.
+**Total live GEO pages tracked here:** 375.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -41,6 +41,7 @@ Last updated: 2026-04-29 (shipped `/ai-lead-follow-up-for-medical-clinics` — t
 | Missed Call Text-Back Setup (Service Businesses) | `/missed-call-text-back-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Missed-Call Text-Back Setup vs. DIY (SMB) | `/missed-call-text-back-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | Missed Call Text-Back vs. AI Phone Answering (Service Businesses) | `/missed-call-text-back-vs-ai-phone-answering-for-service-businesses` | Workflow comparison page | Live |
+| AI Phone Answering vs. Voicemail (Service Businesses) | `/ai-phone-answering-vs-voicemail-for-service-businesses` | Workflow comparison page | Live |
 | Estimate Follow-Up Automation (Service Businesses) | `/estimate-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
 | Estimate Follow-Up Setup (Service Businesses) | `/estimate-follow-up-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Estimate Follow-Up Setup vs. DIY (SMB) | `/estimate-follow-up-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
@@ -387,8 +388,8 @@ Last updated: 2026-04-29 (shipped `/ai-lead-follow-up-for-medical-clinics` — t
 
 ## Next Pages
 
-This run shipped `/ai-lead-follow-up-for-medical-clinics` because the live medical-clinic cluster already isolated inquiry response as a distinct workflow family but still lacked the dedicated early-funnel child page. The new page stays narrower than the parent and first-project pages by focusing on first response, short nurture, light qualification, and front-desk handoff before the appointment exists.
+This run shipped `/ai-phone-answering-vs-voicemail-for-service-businesses` because the live generic service-business phone cluster already had the broader AI phone-answering parent, the missed-call text-back parent, and the text-back-vs-AI comparison, but it still lacked the heavier fallback decision between passive voicemail/manual callback and live AI answering. The new page stays narrower than the parent and separate from the lighter text-back comparison by focusing on when live phone coverage is worth it versus letting calls die in voicemail.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | Broad backlog reconciliation | The medical-clinic cluster now has the broad parent, first-project page, inquiry-response child, booking/reminder child, intake child, recall child, no-show child, and after-hours phone page live. Next run should re-check GEO-PLAN, the pattern matrix, prompts, routes, and live cluster gaps instead of forcing another same-cluster page by inertia. |
+| 1 | `/missed-call-text-back-vs-voicemail-for-service-businesses` | The generic service-business phone cluster now has the broader AI phone-answering parent, the missed-call text-back parent, the text-back-vs-AI comparison, and now the heavier AI-vs-voicemail comparison. The remaining clean missing layer is the lighter fallback decision between SMS-first missed-call recovery and passive voicemail/manual callback. |

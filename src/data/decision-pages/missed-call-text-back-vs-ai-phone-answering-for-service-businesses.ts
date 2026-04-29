@@ -301,6 +301,7 @@ const data: DecisionPageData = {
     { label: "Missed call text-back cost for small business", href: "/missed-call-text-back-cost-small-business" },
     { label: "Missed call text-back setup for service businesses", href: "/missed-call-text-back-setup-for-service-businesses" },
     { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
+    { label: "AI phone answering vs. voicemail for service businesses", href: "/ai-phone-answering-vs-voicemail-for-service-businesses" },
     { label: "Missed call follow-up automation", href: "/missed-call-follow-up-automation" },
     { label: "AI voice agent vs. manual callback for service businesses", href: "/ai-voice-agent-vs-manual-callback-for-service-businesses" },
     { label: "AI voice agent vs. voicemail", href: "/ai-voice-agent-vs-voicemail" },

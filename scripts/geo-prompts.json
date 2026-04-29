@@ -2768,6 +2768,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-vs-voicemail-for-service-businesses",
+      "path": "/ai-phone-answering-vs-voicemail-for-service-businesses",
+      "label": "AI Phone Answering vs. Voicemail for Service Businesses",
+      "prompts": [
+        "Should a service business replace voicemail with AI phone answering?",
+        "AI phone answering vs voicemail for service businesses",
+        "When does voicemail actually cost a service business money compared to live AI answering?",
+        "Is AI phone answering worth it for a small service business that still uses voicemail?",
+        "How should a service business decide between keeping voicemail and switching to AI phone answering?"
+      ]
+    },
+    {
       "id": "ai-voice-agent-setup-for-lead-qualification",
       "path": "/ai-voice-agent-setup-for-lead-qualification",
       "label": "AI Voice Agent Setup for Lead Qualification",

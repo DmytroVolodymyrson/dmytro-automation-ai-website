@@ -420,6 +420,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "AI Phone Answering vs. Voicemail for Service Businesses",
+    description:
+      "Should a service business keep sending callers to voicemail or answer live with AI? Practical comparison of missed-call cost, callback lag, office workload, after-hours demand, and when text-back is the smarter middle step.",
+    href: "/ai-phone-answering-vs-voicemail-for-service-businesses",
+    category: "comparisons",
+  },
+  {
     title: "n8n vs. Make for Small Business",
     description:
       "Comparing n8n and Make (formerly Integromat) for small business automation. Pricing, self-hosting, AI integration, and complexity handling.",
