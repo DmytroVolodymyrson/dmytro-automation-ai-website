@@ -307,6 +307,7 @@ const MissedCallTextBackVsAiPhoneAnsweringForChiropractors = lazy(() => import("
 const MissedCallTextBackVsVoicemailForChiropractors = lazy(() => import("./pages/MissedCallTextBackVsVoicemailForChiropractors"));
 const MissedCallTextBackForChiropractors = lazy(() => import("./pages/MissedCallTextBackForChiropractors"));
 const ReviewRequestAutomationForChiropractors = lazy(() => import("./pages/ReviewRequestAutomationForChiropractors"));
+const ReferralRequestAutomationForChiropractors = lazy(() => import("./pages/ReferralRequestAutomationForChiropractors"));
 const AiAutomationForCleaningCompanies = lazy(() => import("./pages/AiAutomationForCleaningCompanies"));
 const WhatToAutomateFirstForCleaningCompanies = lazy(() => import("./pages/WhatToAutomateFirstForCleaningCompanies"));
 const QuoteFollowUpAutomationForCleaningCompanies = lazy(() => import("./pages/QuoteFollowUpAutomationForCleaningCompanies"));
@@ -752,6 +753,7 @@ const AppRoutesClient = () => (
       <Route path="/missed-call-text-back-vs-voicemail-for-chiropractors" element={<MissedCallTextBackVsVoicemailForChiropractors />} />
       <Route path="/missed-call-text-back-for-chiropractors" element={<MissedCallTextBackForChiropractors />} />
       <Route path="/review-request-automation-for-chiropractors" element={<ReviewRequestAutomationForChiropractors />} />
+      <Route path="/referral-request-automation-for-chiropractors" element={<ReferralRequestAutomationForChiropractors />} />
       <Route path="/ai-automation-for-cleaning-companies" element={<AiAutomationForCleaningCompanies />} />
       <Route path="/what-to-automate-first-for-cleaning-companies" element={<WhatToAutomateFirstForCleaningCompanies />} />
       <Route path="/quote-follow-up-automation-for-cleaning-companies" element={<QuoteFollowUpAutomationForCleaningCompanies />} />

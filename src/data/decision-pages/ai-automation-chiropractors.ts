@@ -190,8 +190,8 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation for dental practices", href: "/ai-automation-for-dental-practices" },
     { label: "AI automation for med spas", href: "/ai-automation-for-med-spas" },
-    { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
-    { label: "Client reactivation automation", href: "/client-reactivation-automation" },
+    { label: "Review request automation for chiropractors", href: "/review-request-automation-for-chiropractors" },
+    { label: "Referral request automation for chiropractors", href: "/referral-request-automation-for-chiropractors" },
     { label: "All guides", href: "/guides" },
   ],
 };

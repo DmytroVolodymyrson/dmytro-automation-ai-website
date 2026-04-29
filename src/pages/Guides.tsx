@@ -2090,6 +2090,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Referral Request Automation for Chiropractors",
+    description:
+      "A narrower chiropractic post-visit advocacy page focused on asking for referrals after strong visits or progress checkpoints, keeping referral asks separate from review asks, and routing warm introductions back to the front desk fast.",
+    href: "/referral-request-automation-for-chiropractors",
+    category: "industries",
+  },
+  {
     title: "AI Phone Answering for Chiropractors",
     description:
       "A narrower chiropractic live-phone-coverage page focused on answering calls during front-desk overload or after hours, handling routine first-visit questions, and routing higher-context conversations back to staff with context attached.",

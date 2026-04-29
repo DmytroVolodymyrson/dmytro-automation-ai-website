@@ -229,6 +229,7 @@ const data: DecisionPageData = {
         { label: "AI automation for chiropractors", href: "/ai-automation-for-chiropractors" },
         { label: "What to automate first for chiropractors", href: "/what-to-automate-first-for-chiropractors" },
         { label: "No-show reduction automation for chiropractors", href: "/no-show-reduction-automation-for-chiropractors" },
+        { label: "Referral request automation for chiropractors", href: "/referral-request-automation-for-chiropractors" },
       ],
     },
   ],
@@ -276,13 +277,14 @@ const data: DecisionPageData = {
       href: "/what-to-automate-first-for-chiropractors",
     },
     {
+      label: "Referral request automation for chiropractors",
+      href: "/referral-request-automation-for-chiropractors",
+    },
+    {
       label: "Care plan recall automation for chiropractors",
       href: "/care-plan-recall-automation-for-chiropractors",
     },
-    {
-      label: "Review request automation for med spas",
-      href: "/review-request-automation-for-med-spas",
-    },
+    { label: "Review request automation for med spas", href: "/review-request-automation-for-med-spas" },
     { label: "All guides", href: "/guides" },
   ],
 };

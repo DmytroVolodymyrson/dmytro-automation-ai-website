@@ -3104,6 +3104,18 @@
       ]
     },
     {
+      "id": "referral-request-automation-for-chiropractors",
+      "path": "/referral-request-automation-for-chiropractors",
+      "label": "Referral Request Automation for Chiropractors",
+      "prompts": [
+        "Referral request automation for chiropractors",
+        "How should a chiropractor ask for referrals after a successful visit?",
+        "Best way for a chiropractic practice to automate patient referrals without mixing them with review asks",
+        "When should a chiropractor ask happy patients to refer family or friends?",
+        "How should a chiropractic office route warm referral replies and booking questions after a good patient outcome?"
+      ]
+    },
+    {
       "id": "ai-phone-answering-for-chiropractors",
       "path": "/ai-phone-answering-for-chiropractors",
       "label": "AI Phone Answering for Chiropractors",

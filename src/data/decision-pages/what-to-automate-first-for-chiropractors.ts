@@ -262,9 +262,10 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "AI automation for chiropractors", href: "/ai-automation-for-chiropractors" },
+        { label: "Review request automation for chiropractors", href: "/review-request-automation-for-chiropractors" },
+        { label: "Referral request automation for chiropractors", href: "/referral-request-automation-for-chiropractors" },
         { label: "Client reactivation automation", href: "/client-reactivation-automation" },
         { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
-        { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
       ],
     },
   ],
@@ -304,10 +305,10 @@ const data: DecisionPageData = {
     "No obligation. No generic pitch. Just a practical conversation about what your practice should automate first.",
   relatedLinks: [
     { label: "AI automation for chiropractors", href: "/ai-automation-for-chiropractors" },
-    { label: "AI automation for med spas", href: "/ai-automation-for-med-spas" },
+    { label: "Review request automation for chiropractors", href: "/review-request-automation-for-chiropractors" },
+    { label: "Referral request automation for chiropractors", href: "/referral-request-automation-for-chiropractors" },
     { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
     { label: "Client reactivation automation", href: "/client-reactivation-automation" },
-    { label: "All guides", href: "/guides" },
   ],
 };
 
