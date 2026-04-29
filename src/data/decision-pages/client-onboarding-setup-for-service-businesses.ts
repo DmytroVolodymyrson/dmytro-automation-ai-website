@@ -217,6 +217,7 @@ const data: DecisionPageData = {
     "No generic automation pitch. Just a practical setup conversation about your deal-won triggers, welcome sequence timing, intake handoff, and internal task routing.",
   relatedLinks: [
     { label: "Client onboarding automation", href: "/client-onboarding-automation" },
+    { label: "Client onboarding cost for small business", href: "/client-onboarding-cost-small-business" },
     { label: "Client onboarding for accounting firms", href: "/client-onboarding-automation-for-accounting-firms" },
     { label: "Intake forms and document collection", href: "/intake-forms-and-document-collection-automation-for-service-businesses" },
     { label: "Ecommerce CRM automation case study", href: "/case-studies/ecommerce-crm-automation" },

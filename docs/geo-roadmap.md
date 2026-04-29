@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/client-onboarding-setup-for-service-businesses` after reconciliation confirmed the onboarding cluster still had one clean horizontal implementation-layer gap left between the broad parent and narrower child pages: setup scope. The new page stays tightly on deal-won triggers, welcome-sequence timing, intake/document handoff, kickoff scheduling gates, internal task ownership, CRM stage movement, and the point where setup help is worth paying for. Previous: `/no-show-reduction-roi-small-business`.)
+Last updated: 2026-04-29 (shipped `/client-onboarding-cost-small-business` — the onboarding cluster now has the broad parent, setup sibling, and cost pricing page live. The cost page stays tightly on build pricing, budget bands, cost drivers, where owners overspend, and when the economics make sense for a small service business. Previous: `/client-onboarding-setup-for-service-businesses`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 371.
+**Total live GEO pages tracked here:** 372.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -214,6 +214,7 @@ Last updated: 2026-04-29 (shipped `/client-onboarding-setup-for-service-business
 | Document Collection (Accounting) | `/document-collection-automation-for-accounting-firms` | Vertical workflow page | Live |
 | Client Onboarding (Accounting) | `/client-onboarding-automation-for-accounting-firms` | Vertical workflow page | Live |
 | Client Onboarding Setup (Service Businesses) | `/client-onboarding-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| Client Onboarding Cost (SMB) | `/client-onboarding-cost-small-business` | Workflow / service cost page | Live |
 | Intake Forms + Document Collection (Service Businesses) | `/intake-forms-and-document-collection-automation-for-service-businesses` | Workflow child page | Live |
 | What to Automate First (Accounting) | `/what-to-automate-first-for-accounting-firms` | Vertical decision page | Live |
 | Appointment Scheduling (Accounting) | `/appointment-scheduling-and-reminder-automation-for-accounting-firms` | Vertical workflow page | Live |
@@ -384,9 +385,8 @@ Last updated: 2026-04-29 (shipped `/client-onboarding-setup-for-service-business
 
 ## Next Pages
 
-This run shipped `/client-onboarding-setup-for-service-businesses` because the onboarding cluster still had one clean horizontal implementation-layer gap after the broad parent and narrower child pages were live: setup scope. The new page stays narrower than the rest of the cluster by focusing only on deal-won triggers, welcome-sequence timing, intake/document handoff, kickoff scheduling gates, internal task ownership, CRM stage movement, and launch mistakes that break onboarding before delivery even starts.
+This run shipped `/client-onboarding-cost-small-business` because the onboarding cluster already had the broad parent and setup layer live but still lacked the direct budget page that answers what a clean first onboarding build should cost. The new page stays narrower than the parent and setup siblings by focusing only on build pricing, budget bands, cost drivers, overspend traps, and when the economics make sense for a small service business.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | `/client-onboarding-cost-small-business` | The onboarding family now has the broad parent and setup layer live, but still lacks the direct budget page that answers what a clean first onboarding build should cost for a small business. That is the strongest remaining exact buyer query in this cluster. |
-| 2 | `/client-onboarding-setup-vs-diy-small-business` | The same family still lacks the buy-vs-build decision page for owners deciding whether they can wire onboarding triggers, intake handoff, scheduling gates, and CRM stage movement themselves or should pay for setup help. |
+| 1 | `/client-onboarding-setup-vs-diy-small-business` | The onboarding family now has the broad parent, setup layer, and cost page live, but still lacks the buy-vs-build decision page for owners deciding whether they can wire onboarding triggers, intake handoff, scheduling gates, and CRM stage movement themselves or should pay for setup help. |

@@ -644,6 +644,18 @@
       ]
     },
     {
+      "id": "client-onboarding-cost-small-business",
+      "path": "/client-onboarding-cost-small-business",
+      "label": "Client Onboarding Cost for Small Business",
+      "prompts": [
+        "How much does client onboarding automation cost for a small business?",
+        "Client onboarding automation pricing for service businesses",
+        "What should I budget for automating client onboarding intake forms and welcome sequences?",
+        "Is it worth paying for client onboarding automation setup or should I do it myself?",
+        "Cost of automating new client intake and document collection for a small business"
+      ]
+    },
+    {
       "id": "intake-forms-and-document-collection-automation-for-service-businesses",
       "path": "/intake-forms-and-document-collection-automation-for-service-businesses",
       "label": "Intake Forms and Document Collection Automation for Service Businesses",

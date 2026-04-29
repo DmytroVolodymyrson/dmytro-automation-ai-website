@@ -512,6 +512,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Client Onboarding Cost for Small Business",
+    description:
+      "Pricing guide for small service businesses budgeting welcome sequences, intake forms, document collection, kickoff scheduling, CRM stage movement, and internal task routing without overbuying a broader CRM rebuild.",
+    href: "/client-onboarding-cost-small-business",
+    category: "workflows",
+  },
+  {
     title: "Intake Forms and Document Collection Automation for Service Businesses",
     description:
       "A narrower onboarding child page focused on intake forms, missing-file reminders, secure upload next steps, and cleaner handoff before the rest of onboarding stalls.",
