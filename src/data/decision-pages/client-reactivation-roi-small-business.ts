@@ -267,6 +267,7 @@ const data: DecisionPageData = {
     "No inflated lifecycle pitch. Just practical payback math tied to your service cycle, data quality, and team capacity.",
   relatedLinks: [
     { label: "Client reactivation for service businesses", href: "/client-reactivation-automation-for-service-businesses" },
+    { label: "Client reactivation setup for service businesses", href: "/client-reactivation-setup-for-service-businesses" },
     { label: "Client reactivation cost for small business", href: "/client-reactivation-cost-small-business" },
     { label: "Client reactivation automation", href: "/client-reactivation-automation" },
     { label: "HVAC database reactivation", href: "/hvac-database-reactivation" },

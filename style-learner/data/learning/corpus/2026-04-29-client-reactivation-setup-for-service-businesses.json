@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-client-reactivation-setup-for-service-businesses",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Client Reactivation Setup for Service Businesses\nBody: Most client reactivation projects fail before the first message is sent. The business exports a big list of past customers, writes one generic check-in, and assumes dormant revenue will come back on its own. Then the wrong people get contacted, recent clients get messages too early, unsubscribes are handled sloppily, replies land in the wrong inbox, and nobody knows who owns the next step when a past customer finally responds. Client reactivation setup for service businesses is the work that prevents that mess. It defines which dormant segments are truly worth contacting, when outreach is believable, how CRM cleanup and suppression rules protect trust, and how live replies get routed back to a person fast enough to matter.\nSub: Below: what setup should include before a reactivation workflow goes live, how this stays distinct from the parent / cost / ROI pages, when professional implementation help is worth paying for, and what honest proof supports the setup guidance.\n\n### Core sections\n- What client reactivation setup actually covers\n- What should be configured before reactivation goes live\n- When setup help is worth paying for — and when it is not\n- The setup mistakes that usually break dormant-client recovery\n- Proof and adjacent proof\n\n### FAQ\nSubhead: Practical questions about implementing client reactivation without making dormant-client outreach sloppy\nTopics: what client reactivation setup involves for a service business, how this differs from the service-business reactivation parent page, how it differs from the cost and ROI pages, when setup help is worth paying for, and the most common reactivation setup mistake.\n\n### Final CTA\nHeading: Want to set up client reactivation without turning your CRM into a spam machine?\nBody: Book a 30-minute call. We will look at your past-client data, define the first segment worth reactivating, and scope the narrowest setup that gets useful dormant-client outreach live without creating routing or trust problems.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the setup / implementation-help child inside the cross-industry client-reactivation cluster after the parent workflow page, the cost child, and the ROI child were already live."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the cluster still lacked a practical pre-launch implementation layer covering segmentation rules, CRM cleanup, timing windows, suppression logic, reply routing, and human ownership."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays distinct from `/client-reactivation-automation-for-service-businesses` by focusing on setup scope, from `/client-reactivation-cost-small-business` by focusing on implementation quality instead of budget, and from `/client-reactivation-roi-small-business` by focusing on go-live readiness instead of payback math."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays disciplined: the HVAC database reactivation page, the published e-commerce CRM automation case study, and the live reactivation cluster support the implementation guidance without pretending there is already a dedicated cross-industry setup case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: direct fit / not-fit framing, warnings against sloppy blast campaigns, and clear explanation of when a lighter manual path is enough."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T06:44:19.127Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 28.8,
+      "sentenceLengthRange": [
+        5,
+        55
+      ],
+      "totalWords": 317
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Client Reactivation Setup for Service Businesses\nBody: Most client reactivation projects fail before the first message is sent.",
+      "wordCount": 20,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to set up client reactivation without turning your CRM into a spam machine?\nBody: Book a 30-minute call. We will look at your past-client data, define the first segment worth reactivating, and scope the narrowest setup that gets useful dormant-client outreach live without creating routing or trust problems.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 18,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.8
+    },
+    "vocabulary": {
+      "distinctWords": 177,
+      "totalWords": 317,
+      "topWords": [
+        [
+          "reactivation",
+          11
+        ],
+        [
+          "setup",
+          11
+        ],
+        [
+          "client",
+          7
+        ],
+        [
+          "when",
+          6
+        ],
+        [
+          "worth",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "live",
+          4
+        ],
+        [
+          "service",
+          3
+        ],
+        [
+          "before",
+          3
+        ],
+        [
+          "get",
+          3
+        ],
+        [
+          "it",
+          3
+        ],
+        [
+          "outreach",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

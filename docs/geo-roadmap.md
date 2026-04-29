@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/estimate-follow-up-roi-small-business` — a new cross-industry ROI child inside the estimate-follow-up cluster covering conservative payback math, recovered stale-estimate value, saved admin and estimator time, sunk site-visit costs, and when a simpler reminder is enough versus when the workflow justifies a fuller build. Stays distinct from the estimate-follow-up parent by focusing on payback rather than workflow fit, from the cost child by focusing on recovered-value economics instead of implementation pricing, and from the lead-follow-up ROI page by staying strictly after the estimate is already sent. Previous: `/missed-call-text-back-setup-for-service-businesses`.)
+Last updated: 2026-04-29 (shipped `/client-reactivation-setup-for-service-businesses` — a new cross-industry setup-help child inside the client-reactivation cluster covering CRM cleanup, dormant-segment selection, believable timing windows, suppression rules, reply routing, and human ownership before outreach goes live. Stays distinct from the service-business reactivation parent by focusing on implementation scope, from the cost child by focusing on setup quality instead of budget, and from the ROI child by focusing on launch readiness instead of payback math. Previous: `/estimate-follow-up-roi-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 340.
+**Total live GEO pages tracked here:** 341.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -38,6 +38,7 @@ Last updated: 2026-04-29 (shipped `/estimate-follow-up-roi-small-business` — a
 | Appointment Scheduling & Reminder Automation (Service Businesses) | `/appointment-scheduling-and-reminder-automation-for-service-businesses` | Workflow parent page | Live |
 | Appointment Scheduling & Reminder Automation vs. AI Appointment Setter (Service Businesses) | `/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses` | Workflow comparison page | Live |
 | Client Reactivation Automation (Service Businesses) | `/client-reactivation-automation-for-service-businesses` | Workflow parent page | Live |
+| Client Reactivation Setup (Service Businesses) | `/client-reactivation-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Client Reactivation Cost (SMB) | `/client-reactivation-cost-small-business` | Category cost page | Live |
 | Client Reactivation ROI (SMB) | `/client-reactivation-roi-small-business` | Workflow / ROI page | Live |
 | AI Lead Follow-Up Setup (Service Businesses) | `/ai-lead-follow-up-setup-for-service-businesses` | Workflow / setup-help page | Live |
@@ -352,16 +353,16 @@ Last updated: 2026-04-29 (shipped `/estimate-follow-up-roi-small-business` — a
 
 ## Next Pages
 
-This run shipped `/estimate-follow-up-roi-small-business`. The cross-industry estimate-follow-up cluster now has the parent workflow page, the cost child, the ROI child, and the estimate-vs-quote comparison. That fills the cleanest remaining buyer-intent gap in the cluster: the parent explained how estimate recovery works and the cost page covered budget, but nothing answered the direct small-business question of whether the workflow pays for itself under conservative assumptions.
+This run shipped `/client-reactivation-setup-for-service-businesses`. The cross-industry client-reactivation cluster now has the parent workflow page, the setup-help child, the cost child, and the ROI child. That fills the cleanest remaining implementation-intent gap in the cluster: the parent explained how dormant-client recovery works, the cost page covered budget, and the ROI page covered payback, but nothing handled the pre-launch question of what has to be configured before reactivation goes live without damaging trust.
 
 The next run should:
 
 1. **Start from a fresh broad reconciliation before naming the next net-new page.** The repo is dense enough that stale docs can still over-credit a cluster or make an already-live page look missing.
 2. **Keep manual GSC follow-through moving** on the newest workflow ships instead of treating publish alone as the finish line.
-3. **Bias toward the next surviving setup-help / implementation-intent child** only if it still passes route, prompt, and proof checks after reconciliation.
+3. **Bias toward the next surviving implementation-intent or comparison child** only if it still passes route, prompt, and proof checks after reconciliation.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | `/client-reactivation-setup-for-service-businesses` | The cross-industry client-reactivation cluster already has the parent workflow page plus cost and ROI children, but still appears to lack the practical implementation-help layer explaining what a trustworthy first reactivation build should include before go-live. | Re-confirm the slug is absent from both route files, Guides, sitemap, llm files, and `scripts/geo-prompts.json`, then verify the parent cluster still carries surviving setup-intent queries and honest adjacent proof. |
+| 1 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | The reactivation setup child is now live, so the next clean ship should come from whichever surviving workflow, comparison, setup, or vertical gap still passes route, prompt, and proof checks after a repo-wide reality check. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |
 | 2 | Manual GSC follow-through on newest live workflow pages | Recent ships still need inspection and indexing requests where appropriate. | Check the newest live URLs in GSC after deploy propagation and request indexing only after meaningful copy/internal-link updates are live. |
-| 3 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | If the client-reactivation setup child is already live or no longer cleanly distinct, the next ship should still come from a different surviving workflow, comparison, setup, or vertical gap that passes route, prompt, and proof checks. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |
+| 3 | Next surviving implementation-intent child discovered during reconciliation | The best next page is more likely to come from a setup / build-quality or buyer-decision gap than from another broad parent, but the exact slug should be named only after the next reality check. | Verify the exact slug is absent from both route files, Guides, sitemap, llm files, `scripts/geo-prompts.json`, and nearby cluster docs before shipping. |

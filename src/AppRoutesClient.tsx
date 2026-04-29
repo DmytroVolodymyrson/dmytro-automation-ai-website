@@ -289,6 +289,7 @@ const ContactFormAutoresponderVsFullLeadFollowUp = lazy(() => import("./pages/Co
 const QuoteFollowUp = lazy(() => import("./pages/QuoteFollowUp"));
 const ClientReactivation = lazy(() => import("./pages/ClientReactivation"));
 const ClientReactivationAutomationForServiceBusinesses = lazy(() => import("./pages/ClientReactivationAutomationForServiceBusinesses"));
+const ClientReactivationSetupForServiceBusinesses = lazy(() => import("./pages/ClientReactivationSetupForServiceBusinesses"));
 const ClientReactivationCostSmallBusiness = lazy(() => import("./pages/ClientReactivationCostSmallBusiness"));
 const ClientReactivationRoiSmallBusiness = lazy(() => import("./pages/ClientReactivationRoiSmallBusiness"));
 const NoShowReduction = lazy(() => import("./pages/NoShowReduction"));
@@ -745,6 +746,7 @@ const AppRoutesClient = () => (
       <Route path="/quote-follow-up-automation" element={<QuoteFollowUp />} />
       <Route path="/client-reactivation-automation" element={<ClientReactivation />} />
       <Route path="/client-reactivation-automation-for-service-businesses" element={<ClientReactivationAutomationForServiceBusinesses />} />
+      <Route path="/client-reactivation-setup-for-service-businesses" element={<ClientReactivationSetupForServiceBusinesses />} />
       <Route path="/client-reactivation-cost-small-business" element={<ClientReactivationCostSmallBusiness />} />
       <Route path="/client-reactivation-roi-small-business" element={<ClientReactivationRoiSmallBusiness />} />
       <Route path="/no-show-reduction-automation" element={<NoShowReduction />} />

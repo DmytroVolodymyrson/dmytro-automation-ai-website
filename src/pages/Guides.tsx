@@ -848,6 +848,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Client Reactivation Setup for Service Businesses",
+    description:
+      "What needs to be configured before dormant-client outreach goes live? Covers segmentation rules, CRM cleanup, timing windows, suppression logic, reply routing, and when setup help is worth paying for versus a lighter manual path.",
+    href: "/client-reactivation-setup-for-service-businesses",
+    category: "workflows",
+  },
+  {
     title: "Client Reactivation Cost for Small Business",
     description:
       "What should a small business actually budget for dormant-client recovery automation? Practical pricing ranges for simple check-in sequences, segment-based outreach, CRM cleanup, multi-channel campaigns, and when the investment pays off versus when a manual check-in is enough.",

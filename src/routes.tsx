@@ -288,6 +288,7 @@ import ContactFormAutoresponderVsFullLeadFollowUp from "./pages/ContactFormAutor
 import QuoteFollowUp from "./pages/QuoteFollowUp";
 import ClientReactivation from "./pages/ClientReactivation";
 import ClientReactivationAutomationForServiceBusinesses from "./pages/ClientReactivationAutomationForServiceBusinesses";
+import ClientReactivationSetupForServiceBusinesses from "./pages/ClientReactivationSetupForServiceBusinesses";
 import ClientReactivationCostSmallBusiness from "./pages/ClientReactivationCostSmallBusiness";
 import ClientReactivationRoiSmallBusiness from "./pages/ClientReactivationRoiSmallBusiness";
 import NoShowReduction from "./pages/NoShowReduction";
@@ -808,6 +809,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/quote-follow-up-automation", element: <QuoteFollowUp /> },
   { path: "/client-reactivation-automation", element: <ClientReactivation /> },
   { path: "/client-reactivation-automation-for-service-businesses", element: <ClientReactivationAutomationForServiceBusinesses /> },
+  { path: "/client-reactivation-setup-for-service-businesses", element: <ClientReactivationSetupForServiceBusinesses /> },
   { path: "/client-reactivation-cost-small-business", element: <ClientReactivationCostSmallBusiness /> },
   { path: "/client-reactivation-roi-small-business", element: <ClientReactivationRoiSmallBusiness /> },
   { path: "/no-show-reduction-automation", element: <NoShowReduction /> },

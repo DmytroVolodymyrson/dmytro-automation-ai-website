@@ -293,6 +293,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No inflated lifecycle math. Just a practical recommendation based on your data quality, service cycle, and whether dormant-client recovery is actually the right next workflow to build.",
   relatedLinks: [
+    { label: "Client reactivation setup for service businesses", href: "/client-reactivation-setup-for-service-businesses" },
     { label: "Client reactivation cost for small business", href: "/client-reactivation-cost-small-business" },
     { label: "Client reactivation ROI for small business", href: "/client-reactivation-roi-small-business" },
     { label: "Client reactivation automation", href: "/client-reactivation-automation" },
