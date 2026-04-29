@@ -173,6 +173,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "Referral request automation for service businesses", href: "/referral-request-automation-for-service-businesses" },
+        { label: "Referral request automation cost for small business", href: "/referral-request-automation-cost-small-business" },
         { label: "Review request vs. referral request", href: "/review-request-vs-referral-request-for-service-businesses" },
         { label: "Review request automation setup", href: "/review-request-automation-setup-for-service-businesses" },
         { label: "Referral automation for painting contractors", href: "/referral-request-automation-for-painting-contractors" },
@@ -216,6 +217,7 @@ const data: DecisionPageData = {
     "No generic word-of-mouth growth pitch. Just a practical setup conversation about your completed-job handoff, timing, routing, and workflow ownership.",
   relatedLinks: [
     { label: "Referral request automation for service businesses", href: "/referral-request-automation-for-service-businesses" },
+    { label: "Referral request automation cost for small business", href: "/referral-request-automation-cost-small-business" },
     { label: "Review request vs. referral request", href: "/review-request-vs-referral-request-for-service-businesses" },
     { label: "Review request automation setup", href: "/review-request-automation-setup-for-service-businesses" },
     { label: "Client reactivation setup for service businesses", href: "/client-reactivation-setup-for-service-businesses" },

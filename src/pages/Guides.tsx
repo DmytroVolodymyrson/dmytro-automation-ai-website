@@ -757,6 +757,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Referral Request Automation Cost for Small Business",
+    description:
+      "Pricing guide for post-job referral-request builds — realistic cost ranges for completed-job triggers, review-vs-referral separation, softer check-ins, CRM logging, and warm-introduction routing after the work is done.",
+    href: "/referral-request-automation-cost-small-business",
+    category: "workflows",
+  },
+  {
     title: "Review Request vs. Referral Request for Service Businesses",
     description:
       "Which post-job ask should come first? Practical comparison of public reviews vs. private referrals, timing, reply routing, and how to keep the two workflows separate instead of bundling both into one awkward follow-up.",

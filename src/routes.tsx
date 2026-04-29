@@ -280,6 +280,7 @@ import ReviewRequestAutomationSetupForServiceBusinesses from "./pages/ReviewRequ
 import ReviewRequestAutomationCostSmallBusiness from "./pages/ReviewRequestAutomationCostSmallBusiness";
 import ReferralRequestAutomationForServiceBusinesses from "./pages/ReferralRequestAutomationForServiceBusinesses";
 import ReferralRequestAutomationSetupForServiceBusinesses from "./pages/ReferralRequestAutomationSetupForServiceBusinesses";
+import ReferralRequestAutomationCostSmallBusiness from "./pages/ReferralRequestAutomationCostSmallBusiness";
 import ReviewRequestVsReferralRequestForServiceBusinesses from "./pages/ReviewRequestVsReferralRequestForServiceBusinesses";
 import MissedCallTextBackForServiceBusinesses from "./pages/MissedCallTextBackForServiceBusinesses";
 import EstimateFollowUpAutomationForServiceBusinesses from "./pages/EstimateFollowUpAutomationForServiceBusinesses";
@@ -815,6 +816,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/review-request-automation-cost-small-business", element: <ReviewRequestAutomationCostSmallBusiness /> },
   { path: "/referral-request-automation-for-service-businesses", element: <ReferralRequestAutomationForServiceBusinesses /> },
   { path: "/referral-request-automation-setup-for-service-businesses", element: <ReferralRequestAutomationSetupForServiceBusinesses /> },
+  { path: "/referral-request-automation-cost-small-business", element: <ReferralRequestAutomationCostSmallBusiness /> },
   { path: "/review-request-vs-referral-request-for-service-businesses", element: <ReviewRequestVsReferralRequestForServiceBusinesses /> },
   {
     path: "/contact-form-autoresponder-vs-full-lead-follow-up",

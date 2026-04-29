@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/review-request-automation-cost-small-business` — a new cross-industry pricing/budgeting child inside the review-request cluster covering realistic build ranges for completed-job triggers, service-type timing rules, complaint routing before the public ask, CRM logging, and field-to-office handoff after the work is done. Stays distinct from the service-business review parent by focusing on budgeting and scope instead of the broader workflow, from the review-request setup sibling by pricing the implementation layers instead of explaining how to configure them, and from the review-vs-referral comparison by assuming the review workflow is already chosen. Previous: `/referral-request-automation-setup-for-service-businesses`.)
+Last updated: 2026-04-29 (shipped `/referral-request-automation-cost-small-business` — a new cross-industry pricing/budgeting child inside the referral-request cluster covering realistic build ranges for completed-job triggers, softer check-ins before the ask, review-vs-referral separation, CRM logging, and warm-introduction routing after the work is done. Stays distinct from the service-business referral parent by focusing on budgeting and scope instead of the broader advocacy workflow, from the referral-request setup sibling by pricing the implementation layers instead of explaining how to configure them, and from the review-vs-referral comparison by assuming the referral workflow is already chosen. Previous: `/review-request-automation-cost-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 348.
+**Total live GEO pages tracked here:** 349.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -29,6 +29,7 @@ Last updated: 2026-04-29 (shipped `/review-request-automation-cost-small-busines
 | Review Request Automation Cost (SMB) | `/review-request-automation-cost-small-business` | Workflow / service cost page | Live |
 | Referral Request Automation (Service Businesses) | `/referral-request-automation-for-service-businesses` | Workflow parent page | Live |
 | Referral Request Automation Setup (Service Businesses) | `/referral-request-automation-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| Referral Request Automation Cost (SMB) | `/referral-request-automation-cost-small-business` | Workflow / service cost page | Live |
 | Review Request vs. Referral Request (Service Businesses) | `/review-request-vs-referral-request-for-service-businesses` | Workflow comparison page | Live |
 | Missed Call Text-Back (Service Businesses) | `/missed-call-text-back-for-service-businesses` | Workflow parent page | Live |
 | Missed Call Text-Back Cost (SMB) | `/missed-call-text-back-cost-small-business` | Workflow / service cost page | Live |
@@ -360,16 +361,16 @@ Last updated: 2026-04-29 (shipped `/review-request-automation-cost-small-busines
 
 ## Next Pages
 
-This run shipped `/review-request-automation-cost-small-business`. The service-business review cluster now has the parent page, the setup-help child, the new pricing child, and the adjacent review-vs-referral comparison. That gives owners a cleaner path from “should we automate review asks at all?” into both “what should the workflow include?” and “what should a safe first build realistically cost?” without forcing budgeting questions back into the broader parent page.
+This run shipped `/referral-request-automation-cost-small-business`. The service-business referral cluster now has the parent page, the setup-help child, the new pricing child, and the adjacent review-vs-referral comparison. That gives owners a cleaner path from “should we automate referral asks at all?” into both “what should the workflow include?” and “what should a safe first build realistically cost?” without forcing budgeting questions back into the broader parent page.
 
 The next run should:
 
 1. **Keep manual GSC follow-through moving** on the newest workflow ships instead of treating publish alone as the finish line.
-2. **Re-check the paired review/referral service-business cluster for the next clean budget-layer extraction** before defaulting to a broad fallback; the clearest same-cluster candidate is now the referral-side pricing sibling if the repo-wide reconciliation still leaves it distinct.
+2. **Re-check the paired review/referral service-business cluster for the next clean decision-layer extraction** before defaulting to a broad fallback; the clearest same-cluster candidate is now a referral-side ROI sibling only if repo-wide reconciliation still leaves it truly distinct from setup, cost, and the parent workflow.
 3. **Otherwise fall back to broad reconciliation** across roadmap, planning docs, live routes, and prompts so the next ship comes from the cleanest remaining repo-wide gap instead of forcing another same-cluster page by inertia.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | `referral-request-automation-cost-small-business` | The horizontal referral-request cluster now has the parent, setup-help child, and review-vs-referral comparison, but it still lacks a dedicated pricing/budgeting layer parallel to the new review-request cost child. | Re-check live routes, `scripts/geo-prompts.json`, and adjacent referral pages to confirm the pricing layer is still unshipped and still materially distinct from setup-help before shipping. |
+| 1 | `referral-request-automation-roi-small-business` | The horizontal referral-request cluster now has the parent, setup-help child, pricing child, and review-vs-referral comparison, but it still lacks a clean ROI/payback layer if the economics stay narrower than the parent and do not collapse into generic automation ROI guidance. | Re-check live routes, `scripts/geo-prompts.json`, and adjacent cost/setup pages to confirm an ROI sibling is still unshipped and still materially distinct before shipping. |
 | 2 | Manual GSC follow-through on newest workflow pages | Recent ships still need inspection and indexing requests where appropriate. | Check the newest live URLs in GSC after deploy propagation and request indexing only after meaningful copy/internal-link updates are live. |
-| 3 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | If the paired referral-side cost child no longer survives reality-checking, the next clean ship should come from whichever remaining workflow, comparison, setup, ROI, or buyer-decision gap still survives a repo-wide review. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |
+| 3 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | If the paired referral-side ROI child does not survive a reality check, the next clean ship should come from whichever remaining workflow, comparison, setup, ROI, or buyer-decision gap still survives a repo-wide review. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |

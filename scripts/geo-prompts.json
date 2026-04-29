@@ -1060,7 +1060,7 @@
         "What should a mortgage broker automate first lead follow-up missed-call text-back document collection or incomplete application follow-up?",
         "Should a mortgage broker automate lead follow-up before document collection?",
         "Should a mortgage brokerage automate incomplete-application recovery before document reminders?",
-        "How do I choose the first automation project for a mortgage brokerage — lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
+        "How do I choose the first automation project for a mortgage brokerage \u2014 lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
       ]
     },
     {
@@ -2177,6 +2177,18 @@
         "How do I keep referral asks from firing before a job is truly complete?",
         "How should a service business route warm referral replies after an automated ask?",
         "Is referral request automation setup worth paying for if referrals already happen inconsistently?"
+      ]
+    },
+    {
+      "id": "referral-request-automation-cost-small-business",
+      "path": "/referral-request-automation-cost-small-business",
+      "label": "Referral Request Automation Cost for Small Business",
+      "prompts": [
+        "What does referral request automation cost for a small business?",
+        "How much should a small business budget for referral request automation?",
+        "What makes referral request automation expensive for a service business?",
+        "Should I build a focused referral workflow or buy a broader word-of-mouth marketing tool first?",
+        "Is referral request automation worth the cost if my team finishes good work but asks inconsistently?"
       ]
     },
     {
