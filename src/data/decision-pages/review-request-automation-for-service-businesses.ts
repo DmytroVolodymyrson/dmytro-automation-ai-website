@@ -268,6 +268,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Review request automation setup", href: "/review-request-automation-setup-for-service-businesses" },
     { label: "Review request automation cost", href: "/review-request-automation-cost-small-business" },
+    { label: "Review request automation ROI", href: "/review-request-automation-roi-small-business" },
     { label: "Review automation for restaurants", href: "/review-request-automation-for-restaurants" },
     { label: "Review automation for HVAC companies", href: "/review-request-automation-for-hvac-companies" },
     { label: "Review automation for dental practices", href: "/review-request-automation-for-dental-practices" },

@@ -279,6 +279,7 @@ const ContactFormLeadFollowUpAutomation = lazy(() => import("./pages/ContactForm
 const ReviewRequestAutomationForServiceBusinesses = lazy(() => import("./pages/ReviewRequestAutomationForServiceBusinesses"));
 const ReviewRequestAutomationSetupForServiceBusinesses = lazy(() => import("./pages/ReviewRequestAutomationSetupForServiceBusinesses"));
 const ReviewRequestAutomationCostSmallBusiness = lazy(() => import("./pages/ReviewRequestAutomationCostSmallBusiness"));
+const ReviewRequestAutomationRoiSmallBusiness = lazy(() => import("./pages/ReviewRequestAutomationRoiSmallBusiness"));
 const ReferralRequestAutomationForServiceBusinesses = lazy(() => import("./pages/ReferralRequestAutomationForServiceBusinesses"));
 const ReferralRequestAutomationSetupForServiceBusinesses = lazy(() => import("./pages/ReferralRequestAutomationSetupForServiceBusinesses"));
 const ReferralRequestAutomationCostSmallBusiness = lazy(() => import("./pages/ReferralRequestAutomationCostSmallBusiness"));
@@ -745,6 +746,7 @@ const AppRoutesClient = () => (
       <Route path="/review-request-automation-for-service-businesses" element={<ReviewRequestAutomationForServiceBusinesses />} />
       <Route path="/review-request-automation-setup-for-service-businesses" element={<ReviewRequestAutomationSetupForServiceBusinesses />} />
       <Route path="/review-request-automation-cost-small-business" element={<ReviewRequestAutomationCostSmallBusiness />} />
+      <Route path="/review-request-automation-roi-small-business" element={<ReviewRequestAutomationRoiSmallBusiness />} />
       <Route path="/referral-request-automation-for-service-businesses" element={<ReferralRequestAutomationForServiceBusinesses />} />
       <Route path="/referral-request-automation-setup-for-service-businesses" element={<ReferralRequestAutomationSetupForServiceBusinesses />} />
       <Route path="/referral-request-automation-cost-small-business" element={<ReferralRequestAutomationCostSmallBusiness />} />

@@ -2180,6 +2180,18 @@
       ]
     },
     {
+      "id": "review-request-automation-roi-small-business",
+      "path": "/review-request-automation-roi-small-business",
+      "label": "Review Request Automation ROI for Small Business",
+      "prompts": [
+        "What is the ROI of review request automation for a small business?",
+        "How quickly can review request automation pay for itself?",
+        "How do I calculate payback on post-job review request automation?",
+        "When is review request automation worth building instead of keeping the ask manual?",
+        "What makes review request automation financially worth it for a service business?"
+      ]
+    },
+    {
       "id": "referral-request-automation-cost-small-business",
       "path": "/referral-request-automation-cost-small-business",
       "label": "Referral Request Automation Cost for Small Business",

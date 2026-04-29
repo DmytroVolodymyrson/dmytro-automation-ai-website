@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/referral-request-automation-roi-small-business` — a new cross-industry ROI/payback child inside the referral-request cluster covering recovered introduction value, repeat-project conversations, saved follow-up time, and when the workflow is worth building versus when a manual ask is still enough. Stays distinct from the service-business referral parent by focusing on economics instead of the broader advocacy workflow, from the referral-request setup sibling by evaluating payback instead of explaining implementation scope, and from the referral-request cost sibling by answering whether the spend is justified instead of what the workflow costs. Previous: `/referral-request-automation-cost-small-business`.)
+Last updated: 2026-04-29 (shipped `/review-request-automation-roi-small-business` — a new cross-industry ROI/payback child inside the review-request cluster covering recovered review volume, saved post-job follow-up time, complaint-protection value, and when a focused review workflow pays for itself versus when the ask should stay manual. Stays distinct from the service-business review parent by focusing on economics instead of the broader post-job reputation workflow, from the review-request setup sibling by evaluating payback instead of explaining implementation scope, and from the review-request cost sibling by answering whether the spend is justified instead of what the workflow costs. Previous: `/referral-request-automation-roi-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 350.
+**Total live GEO pages tracked here:** 351.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -27,6 +27,7 @@ Last updated: 2026-04-29 (shipped `/referral-request-automation-roi-small-busine
 | Review Request Automation (Service Businesses) | `/review-request-automation-for-service-businesses` | Workflow parent page | Live |
 | Review Request Automation Setup (Service Businesses) | `/review-request-automation-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Review Request Automation Cost (SMB) | `/review-request-automation-cost-small-business` | Workflow / service cost page | Live |
+| Review Request Automation ROI (SMB) | `/review-request-automation-roi-small-business` | Workflow / ROI page | Live |
 | Referral Request Automation (Service Businesses) | `/referral-request-automation-for-service-businesses` | Workflow parent page | Live |
 | Referral Request Automation Setup (Service Businesses) | `/referral-request-automation-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Referral Request Automation Cost (SMB) | `/referral-request-automation-cost-small-business` | Workflow / service cost page | Live |
@@ -362,7 +363,7 @@ Last updated: 2026-04-29 (shipped `/referral-request-automation-roi-small-busine
 
 ## Next Pages
 
-This run shipped `/referral-request-automation-roi-small-business`. The horizontal referral-request service-business cluster now has the parent page, the setup-help child, the pricing child, the new ROI/payback child, and the adjacent review-vs-referral comparison. That is enough coverage for now. The next run should not force another same-cluster referral page by inertia unless a fresh repo-wide reconciliation reveals a clearly distinct surviving child that is still unshipped.
+This run shipped `/review-request-automation-roi-small-business`. The paired review/referral service-business cluster now has the review parent, review setup, review cost, review ROI, referral parent, referral setup, referral cost, referral ROI, and the adjacent review-vs-referral comparison. That is enough horizontal coverage for now. The next run should not force another same-cluster review/referral child by inertia unless a fresh repo-wide reconciliation reveals a clearly distinct surviving page that is still unshipped.
 
 The next run should:
 
@@ -373,5 +374,5 @@ The next run should:
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
 | 1 | Manual GSC follow-through on newest workflow pages | Recent ships still need inspection and indexing requests where appropriate, especially after meaningful copy/internal-link updates go live. | Check the newest live URLs in GSC after deploy propagation and request indexing only after the live route, sitemap, and on-page copy are all confirmed. |
-| 2 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | With the referral-request service-business cluster now covered through ROI, the cleanest next ship is likely somewhere else in the repo rather than another forced same-cluster page. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |
-| 3 | Re-check the paired review/referral service-business cluster only if a new distinct child survives | The cluster may still hold a future extraction, but only if it remains materially different from the parent/setup/cost/ROI/comparison stack after repo-wide review. | Verify the exact slug is absent from routes/pages/prompts and that the framing does not collapse into generic ROI/cost/setup guidance before shipping. |
+| 2 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | With the paired review/referral service-business cluster now covered through parent/setup/cost/ROI/comparison, the cleanest next ship is likely somewhere else in the repo rather than another forced same-cluster page. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |
+| 3 | Re-check the paired review/referral service-business cluster only if a new distinct child survives | The cluster may still hold a future extraction, but only if it remains materially different from the current review/referral parent/setup/cost/ROI/comparison stack after repo-wide review. | Verify the exact slug is absent from routes/pages/prompts and that the framing does not collapse into generic ROI/cost/setup guidance before shipping. |

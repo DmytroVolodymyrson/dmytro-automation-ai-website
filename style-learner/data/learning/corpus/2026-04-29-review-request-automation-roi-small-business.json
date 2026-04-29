@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-review-request-automation-roi-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Review Request Automation ROI for Small Business\nBody: Review request automation usually earns its keep in a small service business when completed jobs are happening consistently, public proof still depends too much on memory, and the business can recover even a modest number of additional quality reviews each month without pushing unhappy customers into a public ask too early. The real ROI is not just \"more reviews.\" It is the combined value of cleaner local-trust signals, fewer missed asks after finished work, less office time spent remembering who should get the next message, and better protection against sending a review request before a complaint or unresolved issue gets routed back inside. The right payback test stays conservative: estimate how many completed jobs never get a real review ask today, assume only a modest lift in review volume, add back the manual follow-up time the owner or office staff keeps spending, and check whether the workflow still pays for itself without heroic assumptions. This page is for that exact question: whether a focused post-job review workflow is financially worth building now, when a narrower first version is enough, and when the math is still too weak to justify the project.\nSub: Below: how to calculate review-request ROI conservatively, where the real payback usually comes from, what makes the workflow worth funding, and when a manual ask is still enough.\n\n### Core sections\n- Where review-request ROI actually comes from\n- A conservative payback model for small service businesses\n- When the economics are strong enough to fund the workflow\n- When the workflow is not worth building yet\n- How to avoid fake ROI math\n- Proof and adjacent proof\n- What usually gets misread in review-request ROI decisions\n\n### FAQ\nSubhead: Practical answers about review-request automation ROI for a small business\nTopics: what review-request ROI usually comes from, how quickly review automation can pay for itself, how to calculate payback on post-job review asks, when the workflow is worth building versus keeping manual, and what makes the economics stronger or weaker for a service business.\n\n### Final CTA\nHeading: Want a realistic read on whether review-request automation would actually pay back?\nBody: Book a 30-minute call. We will look at how many completed jobs never get a real review ask today, where the office is still spending manual follow-up time, whether the business has enough finished-work volume for the workflow to matter, and whether a narrow review-request build or no new build is the smarter move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the cross-industry ROI/payback child inside the review-request cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the service-business review parent, setup-help child, pricing child, and review-vs-referral comparison were already live, plus many vertical review-request pages existed, but the cluster still lacked a dedicated economics/payback layer."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays distinct from `/review-request-automation-for-service-businesses` by focusing on financial justification instead of the broader post-job reputation workflow, from `/review-request-automation-setup-for-service-businesses` by evaluating payback instead of explaining implementation scope, and from `/review-request-automation-cost-small-business` by answering whether the spend is worth it instead of what the workflow costs."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live review-request cluster, the published e-commerce CRM lifecycle case study, and adjacent ROI guides support the economics without pretending there is already a dedicated review-request ROI case study on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: conservative assumptions, fit / not-fit framing, narrow workflow scoping, and explicit warnings against forcing ROI math when completed-job volume or follow-through gaps are still too small."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T10:50:22.180Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 41.5,
+      "sentenceLengthRange": [
+        5,
+        61
+      ],
+      "totalWords": 415
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Review Request Automation ROI for Small Business\nBody: Review request automation usually earns its keep in a small service business when completed jobs are happening consistently, public proof still depends too much on memory, and the business can recover even a modest number of additional quality reviews each month without pushing unhappy customers into a public ask too early.",
+      "wordCount": 61,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a realistic read on whether review-request automation would actually pay back?\nBody: Book a 30-minute call. We will look at how many completed jobs never get a real review ask today, where the office is still spending manual follow-up time, whether the business has enough finished-work volume for the workflow to matter, and whether a narrow review-request build or no new build is the smarter move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | product-pitch | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 20,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 10,
+      "commasPerSentence": 2.22
+    },
+    "vocabulary": {
+      "distinctWords": 199,
+      "totalWords": 415,
+      "topWords": [
+        [
+          "review",
+          9
+        ],
+        [
+          "roi",
+          8
+        ],
+        [
+          "when",
+          7
+        ],
+        [
+          "workflow",
+          7
+        ],
+        [
+          "review-request",
+          7
+        ],
+        [
+          "-",
+          7
+        ],
+        [
+          "business",
+          6
+        ],
+        [
+          "how",
+          6
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "still",
+          5
+        ],
+        [
+          "whether",
+          5
+        ],
+        [
+          "small",
+          4
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "ask",
+          4
+        ],
+        [
+          "real",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.002
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

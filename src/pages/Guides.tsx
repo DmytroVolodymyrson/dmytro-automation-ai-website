@@ -743,6 +743,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Review Request Automation ROI for Small Business",
+    description:
+      "Conservative payback guide for post-job review-request automation — recovered public proof, saved follow-up time, complaint-protection value, and when the workflow is worth funding versus when a manual ask is still enough.",
+    href: "/review-request-automation-roi-small-business",
+    category: "workflows",
+  },
+  {
     title: "Referral Request Automation for Service Businesses",
     description:
       "Turn finished jobs into introductions instead of silence. Ask at the right moment after a completed job, keep referral asks separate from review asks, route warm replies fast, and stop relying on luck for word-of-mouth growth.",
