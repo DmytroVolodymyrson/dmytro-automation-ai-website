@@ -75,7 +75,15 @@ const ResultsSection = () => {
               best AI automations for service businesses
             </Link>{" "}
             guide ranks the options by real ROI so you can match results like
-            these to your own bottleneck. Once you know which workflow fits, the{" "}
+            these to your own bottleneck. If you already know the bottleneck but
+            need help choosing the safest first project, the{" "}
+            <Link
+              to="/what-to-automate-first-for-service-businesses"
+              className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors"
+            >
+              what to automate first
+            </Link>{" "}
+            guide walks through that decision step by step. Once you know which workflow fits, the{" "}
             <Link
               to="/ai-automation-consultant-small-business"
               className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors"

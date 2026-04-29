@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-homepage-results-first-project-link",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Results section support copy\nBody: If the proof is there, start by choosing the right first workflow — the best AI automations for service businesses guide ranks the options by real ROI so you can match results like these to your own bottleneck. If you already know the bottleneck but need help choosing the safest first project, the what to automate first guide walks through that decision step by step. Once you know which workflow fits, the AI automation consultant for small business guide covers whether expert help is worth paying for, pricing bands, and what a first project usually includes.\n\n### Link target\n- Anchor text: what to automate first\n- URL: /what-to-automate-first-for-service-businesses",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Bounded homepage copy refresh for GEO indexing support, not a redesign."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses proof-to-first-project framing so the link feels like practical decision support after case-study review."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Anchor text stays short and buyer-language-driven rather than sounding like a generic CTA."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Names the exact use case behind the page: the reader already sees the proof and now needs help choosing the safest first build."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the tone direct, operational, and low-hype while adding a clearer homepage-origin editorial path into a live service-business strategy parent."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T21:45:06.907Z",
+    "structure": {
+      "paragraphCount": 2,
+      "sentencesPerParagraph": [
+        3,
+        1
+      ],
+      "avgSentenceLength": 28,
+      "sentenceLengthRange": [
+        12,
+        42
+      ],
+      "totalWords": 112
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Results section support copy\nBody: If the proof is there, start by choosing the right first workflow — the best AI automations for service businesses guide ranks the options by real ROI so you can match results like these to your own bottleneck.",
+      "wordCount": 42,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "cta",
+      "text": "### Link target\n- Anchor text: what to automate first\n- URL: /what-to-automate-first-for-service-businesses",
+      "pattern": "cta"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "closer"
+      ],
+      "template": "opener | closer"
+    },
+    "punctuation": {
+      "periods": 3,
+      "commas": 5,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 2,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 3,
+      "commasPerSentence": 1.25
+    },
+    "vocabulary": {
+      "distinctWords": 76,
+      "totalWords": 112,
+      "topWords": [
+        [
+          "first",
+          5
+        ],
+        [
+          "by",
+          3
+        ],
+        [
+          "guide",
+          3
+        ],
+        [
+          "what",
+          3
+        ],
+        [
+          "results",
+          2
+        ],
+        [
+          "if",
+          2
+        ],
+        [
+          "choosing",
+          2
+        ],
+        [
+          "workflow",
+          2
+        ],
+        [
+          "ai",
+          2
+        ],
+        [
+          "bottleneck",
+          2
+        ],
+        [
+          "know",
+          2
+        ],
+        [
+          "help",
+          2
+        ],
+        [
+          "project",
+          2
+        ],
+        [
+          "automate",
+          2
+        ],
+        [
+          "step",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.009
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
