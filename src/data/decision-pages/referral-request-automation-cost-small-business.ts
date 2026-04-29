@@ -192,6 +192,7 @@ const data: DecisionPageData = {
       links: [
         { label: "Referral request automation for service businesses", href: "/referral-request-automation-for-service-businesses" },
         { label: "Referral request automation setup", href: "/referral-request-automation-setup-for-service-businesses" },
+    { label: "Referral request automation ROI for small business", href: "/referral-request-automation-roi-small-business" },
         { label: "Review request vs. referral request", href: "/review-request-vs-referral-request-for-service-businesses" },
         { label: "Review request automation cost", href: "/review-request-automation-cost-small-business" },
         { label: "Client reactivation cost for small business", href: "/client-reactivation-cost-small-business" },
@@ -257,6 +258,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Referral request automation for service businesses", href: "/referral-request-automation-for-service-businesses" },
     { label: "Referral request automation setup", href: "/referral-request-automation-setup-for-service-businesses" },
+    { label: "Referral request automation ROI for small business", href: "/referral-request-automation-roi-small-business" },
     { label: "Review request vs. referral request", href: "/review-request-vs-referral-request-for-service-businesses" },
     { label: "Review request automation cost", href: "/review-request-automation-cost-small-business" },
     { label: "Client reactivation cost for small business", href: "/client-reactivation-cost-small-business" },

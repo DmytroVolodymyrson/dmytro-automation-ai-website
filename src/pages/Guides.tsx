@@ -764,6 +764,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Referral Request Automation ROI for Small Business",
+    description:
+      "Conservative payback guide for post-job referral-request automation — recovered introduction value, repeat-project conversations, saved follow-up time, and when the workflow is worth building versus when a manual ask is still enough.",
+    href: "/referral-request-automation-roi-small-business",
+    category: "workflows",
+  },
+  {
     title: "Review Request vs. Referral Request for Service Businesses",
     description:
       "Which post-job ask should come first? Practical comparison of public reviews vs. private referrals, timing, reply routing, and how to keep the two workflows separate instead of bundling both into one awkward follow-up.",

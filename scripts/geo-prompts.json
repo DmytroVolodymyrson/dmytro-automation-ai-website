@@ -2192,6 +2192,18 @@
       ]
     },
     {
+      "id": "referral-request-automation-roi-small-business",
+      "path": "/referral-request-automation-roi-small-business",
+      "label": "Referral Request Automation ROI for Small Business",
+      "prompts": [
+        "What is the ROI of referral request automation for a small business?",
+        "How quickly can referral request automation pay for itself?",
+        "How do I calculate payback on post-job referral-request automation?",
+        "When is referral request automation worth building instead of keeping the ask manual?",
+        "What makes referral request automation financially worth it for a service business?"
+      ]
+    },
+    {
       "id": "review-request-vs-referral-request-for-service-businesses",
       "path": "/review-request-vs-referral-request-for-service-businesses",
       "label": "Review Request vs. Referral Request for Service Businesses",
