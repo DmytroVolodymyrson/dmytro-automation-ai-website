@@ -171,9 +171,11 @@ const AiAppointmentSetter = () => {
                 your team focuses on the work that matters.
               </p>
               <p className="text-base text-muted-foreground leading-relaxed mb-8">
-                Below: what it actually does, which businesses benefit most, and
-                how to decide if it is the right investment for yours. If you are
-                already comparing options, jump next to the <Link to="/ai-appointment-setter-setup" className="text-primary hover:text-primary/80 underline underline-offset-4">setup guide</Link>, the <Link to="/ai-appointment-setter-cost-small-business" className="text-primary hover:text-primary/80 underline underline-offset-4">cost breakdown</Link>, or the <Link to="/ai-appointment-setter-roi-small-business" className="text-primary hover:text-primary/80 underline underline-offset-4">ROI page</Link>.
+                Below: what a first appointment-setter build usually includes,
+                which businesses benefit most, and when a narrower workflow
+                should come first. If you are still deciding whether the real
+                issue is booking, lead follow-up, or after-hours phone coverage,
+                compare this page with the <Link to="/ai-lead-follow-up-for-service-businesses" className="text-primary hover:text-primary/80 underline underline-offset-4">lead follow-up guide</Link>, the <Link to="/appointment-scheduling-and-reminder-automation-for-service-businesses" className="text-primary hover:text-primary/80 underline underline-offset-4">scheduling and reminder guide</Link>, and the <Link to="/case-studies/paris-cafe-voice-agent" className="text-primary hover:text-primary/80 underline underline-offset-4">Paris Cafe case study</Link>. If you are already comparing implementation paths, jump next to the <Link to="/ai-appointment-setter-setup" className="text-primary hover:text-primary/80 underline underline-offset-4">setup guide</Link>, the <Link to="/ai-appointment-setter-cost-small-business" className="text-primary hover:text-primary/80 underline underline-offset-4">cost breakdown</Link>, or the <Link to="/ai-appointment-setter-roi-small-business" className="text-primary hover:text-primary/80 underline underline-offset-4">ROI page</Link>.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Button
@@ -503,6 +505,100 @@ const AiAppointmentSetter = () => {
           </div>
         </Section>
 
+        <Section>
+          <div className="max-w-5xl">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5">
+              What a first build usually includes
+            </div>
+            <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
+              The smallest appointment-setter system worth paying for first
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mb-10 leading-relaxed">
+              Businesses often ask for a full AI appointment setter when the real need is narrower. In practice, a solid first build usually covers the five layers below. If one of them is missing, the workflow looks flashy in a demo but breaks in production.
+            </p>
+          </div>
+          <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3 max-w-6xl">
+            {[
+              {
+                title: "Instant first response",
+                body: "The system needs to reply fast to calls, forms, or texts so leads do not cool off before a human ever sees them.",
+                links: [
+                  { label: "Lead follow-up guide", href: "/ai-lead-follow-up-for-service-businesses" },
+                  { label: "Paris Cafe proof", href: "/case-studies/paris-cafe-voice-agent" },
+                ],
+              },
+              {
+                title: "Qualification before booking",
+                body: "Good appointment setters ask the few questions that protect the calendar: service fit, location, urgency, and whether the inquiry should be routed somewhere else.",
+                links: [
+                  { label: "Setup guide", href: "/ai-appointment-setter-setup" },
+                  { label: "Voice agent vs human", href: "/ai-voice-agent-vs-human-appointment-setter" },
+                ],
+              },
+              {
+                title: "Calendar and routing rules",
+                body: "The build must know what can be booked automatically, which slots are safe to offer, and when a dispatcher or staff member should take over instead.",
+                links: [
+                  { label: "Home-service fit", href: "/ai-appointment-setter-for-home-service-businesses" },
+                  { label: "Setter vs DIY", href: "/ai-appointment-setter-setup-vs-diy-small-business" },
+                ],
+              },
+              {
+                title: "Confirmation and reminder layer",
+                body: "If booked visits are already happening, this may be the real first workflow. Confirmations, reminder timing, and simple reschedule handling often recover ROI faster than a heavier front-end build.",
+                links: [
+                  { label: "Scheduling and reminder guide", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
+                  { label: "Compare reminders vs setter", href: "/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses" },
+                ],
+              },
+              {
+                title: "CRM handoff and visibility",
+                body: "Someone on your team should be able to see who booked, who dropped, what was asked, and where manual follow-up is still needed. Otherwise the calendar fills while the pipeline stays messy.",
+                links: [
+                  { label: "Cost breakdown", href: "/ai-appointment-setter-cost-small-business" },
+                  { label: "Consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
+                ],
+              },
+              {
+                title: "Human fallback for edge cases",
+                body: "The best systems protect the team from routine scheduling work without pretending AI should handle every angry caller, VIP request, or dispatch exception alone.",
+                links: [
+                  { label: "Good fit vs not a fit", href: "/ai-appointment-setter#good-fit-not-a-fit" },
+                  { label: "Consultant fit guide", href: "/ai-automation-consultant-small-business" },
+                ],
+              },
+            ].map((item, i) => (
+              <motion.div
+                key={item.title}
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.05, duration: 0.35 }}
+                className="rounded-2xl border border-border/60 bg-card/80 backdrop-blur-sm p-6 shadow-card flex flex-col"
+              >
+                <h3 className="text-lg font-semibold text-foreground mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-4 flex-1">
+                  {item.body}
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  {item.links.map((link) => (
+                    <Link
+                      key={link.href}
+                      to={link.href}
+                      className="text-sm font-medium text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
+                    >
+                      {link.label}
+                      <ArrowRight className="w-4 h-4" />
+                    </Link>
+                  ))}
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </Section>
+
         {/* Best-fit businesses */}
         <Section className="bg-secondary/30">
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
@@ -578,7 +674,7 @@ const AiAppointmentSetter = () => {
         </Section>
 
         {/* Good fit / not a fit */}
-        <Section className="bg-secondary/30">
+        <Section id="good-fit-not-a-fit" className="bg-secondary/30">
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 tracking-tight">
             Good fit / not a fit
           </h2>
