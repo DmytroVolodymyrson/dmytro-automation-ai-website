@@ -1332,6 +1332,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Automation for Medical Clinics",
+    description:
+      "Broad parent page for appointment-driven outpatient clinics covering faster inquiry response, booking and reminders, intake forms, recall, no-show reduction, and after-hours phone coverage.",
+    href: "/ai-automation-for-medical-clinics",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Dental Practices",
     description:
       "Scoping guide for dental practices deciding whether the first automation should be new-patient follow-up, booking and reminders, recall/reactivation, no-show reduction, or after-hours call handling before a broader rollout.",

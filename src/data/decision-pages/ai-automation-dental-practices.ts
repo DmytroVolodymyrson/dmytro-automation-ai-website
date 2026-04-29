@@ -230,6 +230,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No obligation. No hard sell. Just a practical conversation about your dental practice.",
   relatedLinks: [
+    { label: "AI automation for medical clinics", href: "/ai-automation-for-medical-clinics" },
     { label: "AI appointment setter", href: "/ai-appointment-setter" },
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
     { label: "Referral request automation for dental practices", href: "/referral-request-automation-for-dental-practices" },

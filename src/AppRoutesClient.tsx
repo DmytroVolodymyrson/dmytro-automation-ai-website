@@ -116,6 +116,7 @@ const AiPhoneAnsweringForMortgageBrokers = lazy(() => import("./pages/AiPhoneAns
 const MissedCallTextBackVsAiPhoneAnsweringForMortgageBrokers = lazy(() => import("./pages/MissedCallTextBackVsAiPhoneAnsweringForMortgageBrokers"));
 const AiPhoneAnsweringVsVoicemailForMortgageBrokers = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForMortgageBrokers"));
 const AiAutomationForDentalPractices = lazy(() => import("./pages/AiAutomationForDentalPractices"));
+const AiAutomationForMedicalClinics = lazy(() => import("./pages/AiAutomationForMedicalClinics"));
 const WhatToAutomateFirstForDentalPractices = lazy(() => import("./pages/WhatToAutomateFirstForDentalPractices"));
 const AiLeadFollowUpForDentalPractices = lazy(() => import("./pages/AiLeadFollowUpForDentalPractices"));
 const RecallAndReactivationAutomationForDentalPractices = lazy(() => import("./pages/RecallAndReactivationAutomationForDentalPractices"));
@@ -578,6 +579,7 @@ const AppRoutesClient = () => (
       <Route path="/missed-call-text-back-vs-ai-phone-answering-for-mortgage-brokers" element={<MissedCallTextBackVsAiPhoneAnsweringForMortgageBrokers />} />
       <Route path="/ai-phone-answering-vs-voicemail-for-mortgage-brokers" element={<AiPhoneAnsweringVsVoicemailForMortgageBrokers />} />
       <Route path="/ai-automation-for-dental-practices" element={<AiAutomationForDentalPractices />} />
+      <Route path="/ai-automation-for-medical-clinics" element={<AiAutomationForMedicalClinics />} />
       <Route path="/what-to-automate-first-for-dental-practices" element={<WhatToAutomateFirstForDentalPractices />} />
       <Route path="/ai-lead-follow-up-for-dental-practices" element={<AiLeadFollowUpForDentalPractices />} />
       <Route path="/appointment-scheduling-and-reminder-automation-for-dental-practices" element={<AppointmentSchedulingAndReminderAutomationForDentalPractices />} />

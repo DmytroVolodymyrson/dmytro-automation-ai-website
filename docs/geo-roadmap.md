@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/ai-lead-follow-up-setup-vs-diy-small-business` — a new small-business buy-vs-build child inside the lead-follow-up cluster covering owner time, workflow risk, CRM routing complexity, and when paying for setup help is cheaper than another month of DIY delay. Stays distinct from the lead-follow-up setup sibling by answering the hire-vs-DIY decision instead of implementation scope, from the lead-follow-up cost sibling by focusing on who should own the setup instead of budget bands, and from the lead-follow-up ROI sibling by weighing workflow risk and launch speed instead of payback math. Previous: `/review-request-automation-roi-small-business`.)
+Last updated: 2026-04-29 (shipped `/ai-automation-for-medical-clinics` — a new healthcare-adjacent parent page for smaller appointment-driven outpatient clinics covering inquiry response, booking and reminders, intake forms, recall, no-show reduction, and after-hours phone coverage without pretending to replace clinical systems. Chosen because `docs/programmatic-seo-pattern-matrix.md` still explicitly preserved the clinics pattern while the repo already had strong adjacent proof in the live dental, chiropractic, and med spa clusters. Stays distinct from those narrower specialty pages by answering the broader clinic-category question first. Previous: `/ai-lead-follow-up-setup-vs-diy-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 352.
+**Total live GEO pages tracked here:** 353.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -351,6 +351,7 @@ Last updated: 2026-04-29 (shipped `/ai-lead-follow-up-setup-vs-diy-small-busines
 | Review Automation (EC) | `/review-request-automation-for-ecommerce-brands` | Vertical workflow page | Live |
 | AI for Law Firms (Category) | `/ai-automation-for-law-firms` | Vertical category page | Live |
 | AI for Dental Practices (Category) | `/ai-automation-for-dental-practices` | Vertical category page | Live |
+| AI for Medical Clinics (Category) | `/ai-automation-for-medical-clinics` | Vertical category page | Live |
 | Paris Cafe Case Study | `/case-studies/paris-cafe-voice-agent` | Case study | Live |
 | Instagram Lead Gen Case Study | `/case-studies/instagram-lead-generation` | Case study | Live |
 | E-commerce CRM Case Study | `/case-studies/ecommerce-crm-automation` | Case study | Live |
@@ -364,16 +365,16 @@ Last updated: 2026-04-29 (shipped `/ai-lead-follow-up-setup-vs-diy-small-busines
 
 ## Next Pages
 
-This run shipped `/ai-lead-follow-up-setup-vs-diy-small-business`. The horizontal lead-follow-up service-business cluster now has the parent guide, setup scope page, buy-vs-build setup decision, cost page, ROI page, examples page, contact-form child, and instant-response support pages. That is enough cluster coverage for now. The next run should not force another same-cluster lead-follow-up child by inertia unless a fresh repo-wide reconciliation reveals a clearly distinct surviving page that is still unshipped.
+This run shipped `/ai-automation-for-medical-clinics`. The repo already had strong adjacent healthcare proof in dental, chiropractic, and med spa pages, but it still lacked a broader clinic parent for smaller appointment-driven outpatient practices. That gap is now covered. The next run should treat the clinic cluster as newly opened: follow through on indexing and discovery first, then consider the cleanest narrower child only if it still stays distinct after a fresh route-and-prompts check.
 
 The next run should:
 
-1. **Keep manual GSC follow-through moving** on the newest workflow ships instead of treating publish alone as the finish line.
-2. **Run a fresh broad reconciliation first** across roadmap, planning docs, live routes, and prompts so the next page comes from the cleanest remaining repo-wide buyer-intent gap.
-3. **Only return to the horizontal lead-follow-up cluster if a truly net-new child still survives review** after checking routes, prompts, and adjacent siblings against the now-complete parent/setup/buy-vs-build/cost/ROI stack.
+1. **Keep manual GSC follow-through moving** on the newest healthcare-adjacent ships instead of treating publish alone as the finish line.
+2. **Re-check `/what-to-automate-first-for-medical-clinics` first** as the cleanest adjacent child now that the broader clinic parent is live.
+3. **Run a broader reconciliation after that** so the queue does not get stuck forcing more clinic pages if the next distinct child does not survive review.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Manual GSC follow-through on newest workflow pages | Recent ships still need inspection and indexing requests where appropriate, especially after meaningful copy/internal-link updates go live. | Check the newest live URLs in GSC after deploy propagation and request indexing only after the live route, sitemap, and on-page copy are all confirmed. |
-| 2 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | With the horizontal lead-follow-up setup cluster now covered through parent/setup/buy-vs-build/cost/ROI, the cleanest next ship is likely somewhere else in the repo rather than another forced same-cluster page. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |
-| 3 | Re-check the horizontal lead-follow-up cluster only if a new distinct child survives | The cluster may still hold a future extraction, but only if it remains materially different from the current parent/setup/buy-vs-build/cost/ROI stack after repo-wide review. | Verify the exact slug is absent from routes/pages/prompts and that the framing does not collapse into generic setup, cost, ROI, or contact-form guidance before shipping. |
+| 1 | Manual GSC follow-through on newest healthcare-adjacent pages | Recent live pages still need inspection and indexing requests where appropriate, especially after meaningful copy and internal-link updates go live. | Check the newest live URLs in GSC after deploy propagation and request indexing only after the live route, sitemap, and on-page copy are all confirmed. |
+| 2 | `/what-to-automate-first-for-medical-clinics` | The new clinic parent now creates a clean earlier buyer-decision layer for the appointment-driven clinic cluster, and a first-project child would stay distinct if it remains tightly on choosing between inquiry response, booking/reminders, intake, recall, no-show reduction, and after-hours coverage. | Verify the exact slug is absent from routes/pages/prompts, confirm the framing does not collapse into the already-live dental, chiropractic, and med-spa first-project pages, and make sure the parent still reads as the right source page to extract from. |
+| 3 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | If the clinic first-project child turns out to be too overlapping, the cleanest next ship may still live elsewhere in the repo. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |

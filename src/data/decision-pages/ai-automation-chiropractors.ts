@@ -188,6 +188,7 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No obligation. No generic pitch. Just a practical conversation about your chiropractic practice.",
   relatedLinks: [
+    { label: "AI automation for medical clinics", href: "/ai-automation-for-medical-clinics" },
     { label: "AI automation for dental practices", href: "/ai-automation-for-dental-practices" },
     { label: "AI automation for med spas", href: "/ai-automation-for-med-spas" },
     { label: "Review request automation for chiropractors", href: "/review-request-automation-for-chiropractors" },

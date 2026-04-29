@@ -1112,6 +1112,18 @@
       ]
     },
     {
+      "id": "ai-automation-for-medical-clinics",
+      "path": "/ai-automation-for-medical-clinics",
+      "label": "AI Automation for Medical Clinics",
+      "prompts": [
+        "AI automation for medical clinics",
+        "How can a medical clinic automate patient booking and follow-up?",
+        "Best automation for smaller outpatient clinics",
+        "How should a clinic choose between intake automation, reminders, recall, and after-hours phone coverage?",
+        "What is the best first AI automation project for an appointment-driven medical clinic?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-dental-practices",
       "path": "/what-to-automate-first-for-dental-practices",
       "label": "What to Automate First for Dental Practices",
