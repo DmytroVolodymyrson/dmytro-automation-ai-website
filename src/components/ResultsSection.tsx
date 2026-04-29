@@ -66,16 +66,24 @@ const ResultsSection = () => {
             {results.caseStudiesSubtitle}
           </p>
           <p className="text-sm sm:text-base text-muted-foreground max-w-3xl mx-auto mt-3 leading-relaxed">
-            If the proof is there and your next question is whether expert help is
-            worth paying for, read the{" "}
+            If the proof is there, start by choosing the right first workflow —
+            the{" "}
+            <Link
+              to="/best-ai-automation-for-service-businesses"
+              className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors"
+            >
+              best AI automations for service businesses
+            </Link>{" "}
+            guide ranks the options by real ROI so you can match results like
+            these to your own bottleneck. Once you know which workflow fits, the{" "}
             <Link
               to="/ai-automation-consultant-small-business"
               className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors"
             >
               AI automation consultant for small business guide
             </Link>{" "}
-            to compare consultant fit, pricing bands, and what a first project
-            usually includes.
+            covers whether expert help is worth paying for, pricing bands, and
+            what a first project usually includes.
           </p>
         </div>
 

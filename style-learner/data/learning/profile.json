@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-29T16:16:44.778Z",
-  "postCount": 539,
+  "updatedAt": "2026-04-29T16:30:55.901Z",
+  "postCount": 541,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,7 +15,7 @@
       "max": 12,
       "p25": 4,
       "p75": 4,
-      "samples": 539
+      "samples": 541
     },
     "sentenceLength": {
       "mean": 23.8,
@@ -24,16 +24,16 @@
       "max": 105,
       "p25": 19.5,
       "p75": 27.6,
-      "samples": 539
+      "samples": 541
     },
     "totalWords": {
-      "mean": 332.3,
+      "mean": 332,
       "median": 336,
       "min": 17,
       "max": 1155,
       "p25": 281,
-      "p75": 373,
-      "samples": 539
+      "p75": 372,
+      "samples": 541
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -59,7 +59,7 @@
       "long | single | single | short": 20,
       "long | single | short | long": 13,
       "long | single | single | long": 68,
-      "long | short | single | long": 119,
+      "long | short | single | long": 120,
       "long | single | single | long | short | single | single | single": 1,
       "long | short | single | single": 6,
       "long | long | single | short": 4,
@@ -132,7 +132,7 @@
       "single | short": 1,
       "long | single": 1,
       "long | short | single": 1,
-      "short | single": 1
+      "short | single": 2
     },
     "structuralTemplates": {
       "opener | context | result | context | closer": 3,
@@ -154,7 +154,7 @@
       "opener | product-pitch | product-pitch | result | context | product-pitch | context | product-pitch | product-pitch | closer": 1,
       "opener | context | context | context | result | product-pitch | context | context | closer": 1,
       "opener | context | product-pitch | closer": 47,
-      "opener | context | context | closer": 209,
+      "opener | context | context | closer": 210,
       "opener | product-pitch | context | closer": 33,
       "opener | context | product-pitch | context | product-pitch | result | context | closer": 1,
       "opener | product-pitch | product-pitch | closer": 29,
@@ -182,7 +182,7 @@
       "opener | context | context | product-pitch | product-pitch | context | result | closer": 1,
       "opener | product-pitch | context | context | product-pitch | product-pitch | context | context | closer": 1,
       "opener | context | result | context | result | context | context | context | closer": 1,
-      "opener | closer": 6,
+      "opener | closer": 7,
       "opener | product-pitch | product-pitch | product-pitch | context | context | result | result | result | closer": 1,
       "opener | product-pitch | result | context | context | context | context | closer": 1,
       "opener | context | product-pitch | context | context | context | context | product-pitch | closer": 1,
@@ -227,7 +227,7 @@
         ]
       },
       "standard-opener": {
-        "count": 371,
+        "count": 373,
         "examples": [
           "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an autom",
           "Section heading: Real Results for Real Businesses\nSubheading: Here's what happen",
@@ -262,7 +262,7 @@
         ]
       },
       "question": {
-        "count": 445,
+        "count": 446,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -284,7 +284,7 @@
         ]
       },
       "cta": {
-        "count": 5,
+        "count": 6,
         "examples": [
           "### Final CTA\nHeading: Real-estate cluster navigation\nBody: These link updates a",
           "### Internal-linking purpose\nSection: Homepage editorial routing\n- Adds a new in",
@@ -303,35 +303,35 @@
     "topWords": [
       [
         "-",
-        3636
+        3646
       ],
       [
         "what",
-        1956
+        1961
       ],
       [
         "automation",
-        1511
+        1513
       ],
       [
         "ai",
-        1158
+        1175
       ],
       [
         "workflow",
-        1103
+        1109
       ],
       [
         "how",
-        1085
+        1090
       ],
       [
         "page",
-        1032
+        1037
       ],
       [
         "it",
-        981
+        986
       ],
       [
         "when",
@@ -343,7 +343,7 @@
       ],
       [
         "phone",
-        868
+        880
       ],
       [
         "follow-up",
@@ -351,11 +351,11 @@
       ],
       [
         "whether",
-        722
+        726
       ],
       [
         "first",
-        704
+        706
       ],
       [
         "your",
@@ -363,7 +363,7 @@
       ],
       [
         "live",
-        615
+        622
       ],
       [
         "call",
@@ -375,7 +375,7 @@
       ],
       [
         "answering",
-        508
+        518
       ],
       [
         "from",
@@ -399,7 +399,7 @@
       ],
       [
         "not",
-        379
+        382
       ],
       [
         "lead",
@@ -419,7 +419,7 @@
       ],
       [
         "business",
-        289
+        291
       ]
     ],
     "casualMarkerRate": 0,

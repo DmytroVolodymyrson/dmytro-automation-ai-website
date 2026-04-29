@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-homepage-results-best-automations-link",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Results section support copy\nBody: If the proof is there, start by choosing the right first workflow — the best AI automations for service businesses guide ranks the options by real ROI so you can match results like these to your own bottleneck. Once you know which workflow fits, the AI automation consultant for small business guide covers whether expert help is worth paying for, pricing bands, and what a first project usually includes.\n\n### Link targets\n- Anchor text: best AI automations for service businesses\n- URL: /best-ai-automation-for-service-businesses\n- Secondary anchor text retained: AI automation consultant for small business guide\n- Secondary URL retained: /ai-automation-consultant-small-business",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Bounded homepage copy refresh for GEO indexing support, not a redesign."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses proof-to-workflow framing so readers move from case-study evidence into the best-first-automation decision page before consultant-fit evaluation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the tone practical and buyer-language driven, with explicit ROI and bottleneck language instead of generic navigation copy."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Preserves the existing consultant-fit path while adding a second editorial homepage-origin link to a discovered-not-indexed priority page."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T16:30:55.838Z",
+    "structure": {
+      "paragraphCount": 2,
+      "sentencesPerParagraph": [
+        2,
+        1
+      ],
+      "avgSentenceLength": 34.7,
+      "sentenceLengthRange": [
+        31,
+        42
+      ],
+      "totalWords": 104
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Results section support copy\nBody: If the proof is there, start by choosing the right first workflow — the best AI automations for service businesses guide ranks the options by real ROI so you can match results like these to your own bottleneck.",
+      "wordCount": 42,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "cta",
+      "text": "### Link targets\n- Anchor text: best AI automations for service businesses\n- URL: /best-ai-automation-for-service-businesses\n- Secondary anchor text retained: AI automation consultant for small business guide\n- Secondary URL retained: /ai-automation-consultant-small-business",
+      "pattern": "cta"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "closer"
+      ],
+      "template": "opener | closer"
+    },
+    "punctuation": {
+      "periods": 2,
+      "commas": 4,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 5,
+      "commasPerSentence": 1.33
+    },
+    "vocabulary": {
+      "distinctWords": 69,
+      "totalWords": 104,
+      "topWords": [
+        [
+          "ai",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "guide",
+          3
+        ],
+        [
+          "results",
+          2
+        ],
+        [
+          "by",
+          2
+        ],
+        [
+          "first",
+          2
+        ],
+        [
+          "workflow",
+          2
+        ],
+        [
+          "best",
+          2
+        ],
+        [
+          "automations",
+          2
+        ],
+        [
+          "service",
+          2
+        ],
+        [
+          "businesses",
+          2
+        ],
+        [
+          "automation",
+          2
+        ],
+        [
+          "consultant",
+          2
+        ],
+        [
+          "small",
+          2
+        ],
+        [
+          "business",
+          2
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.01
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}
