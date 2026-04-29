@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-what-does-an-ai-automation-consultant-do-intent-router-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: What Does an AI Automation Consultant Actually Do?\nBody: An AI automation consultant diagnoses the business process that is leaking time or revenue, decides what should be automated and what should stay human, builds the workflow across your real tools, and hands off a production system your team can trust. For a small business, that usually means lead response, CRM routing, missed-call recovery, booking flow, onboarding, follow-up, or customer-facing AI — built once, documented, and stabilized so it does not fail silently.\nSub: Below: what the job really includes, what the first engagement usually covers, what deliverables and ownership you should expect, where consultants add value beyond a generic freelancer or VA, and when paying for consultant help is smarter than stitching together tools yourself.\n\n### New early-page router\nSection: Start from your actual question\n- New top-of-page card router added right after the short-answer summary.\n- Purpose: send readers and crawlers directly into the adjacent high-intent path they usually need next instead of making them read the full explainer first.\n- The five routes are:\n  - Pricing or budget clarity → /ai-automation-consultant-pricing-small-business and /ai-automation-cost-small-business\n  - Proof of what consultant work looks like → /case-studies/paris-cafe-voice-agent and /case-studies/ecommerce-crm-automation\n  - Consultant vs DIY / in-house decision → /hire-ai-automation-consultant-vs-diy and /hire-ai-automation-consultant-vs-in-house\n  - Narrower implementation help → /n8n-automation-consultant and /ai-appointment-setter-setup\n  - Not sure what to automate first → /best-ai-automation-for-service-businesses and /ai-automation-audit-checklist\n\n### Why this section exists\n- This page already explained the consultant role well.\n- The gap was that a zero-visibility hiring-intent page still made users and crawlers work too hard to reach the adjacent commercial or proof pages behind the real question.\n- The new router makes the page act more like a consultant-cluster bridge page instead of only a standalone explainer.\n\n### Rest of page retained\n- Short answer: what you get and what it costs\n- What the job actually includes\n- Deliverables table\n- Good-fit / not-fit evaluation\n- Proof and adjacent proof\n- Timeline section\n- FAQ and final CTA",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded indexing/internal-linking refresh on an existing priority role-guide page, not a net-new URL."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The copy stays direct, practical, and non-hype: it frames the real buyer question first, then routes to the relevant next page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "All new links stay inside live consultant, cost, proof, and implementation-help clusters."
+    },
+    {
+      "type": "tone_shift",
+      "description": "No new claims were invented; the proof language stays anchored to the published case studies."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The section is intentionally early on the page to improve crawl path clarity and answer extraction."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T02:26:37.033Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        3,
+        3,
+        1
+      ],
+      "avgSentenceLength": 29.4,
+      "sentenceLengthRange": [
+        10,
+        50
+      ],
+      "totalWords": 323
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Hero\nHeading: What Does an AI Automation Consultant Actually Do?",
+      "wordCount": 10,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Rest of page retained\n- Short answer: what you get and what it costs\n- What the job actually includes\n- Deliverables table\n- Good-fit / not-fit evaluation\n- Proof and adjacent proof\n- Timeline section\n- FAQ and final CTA",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 16,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 18,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 1.6
+    },
+    "vocabulary": {
+      "distinctWords": 200,
+      "totalWords": 323,
+      "topWords": [
+        [
+          "-",
+          18
+        ],
+        [
+          "what",
+          11
+        ],
+        [
+          "consultant",
+          6
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "proof",
+          4
+        ],
+        [
+          "ai",
+          3
+        ],
+        [
+          "that",
+          3
+        ],
+        [
+          "should",
+          3
+        ],
+        [
+          "your",
+          3
+        ],
+        [
+          "usually",
+          3
+        ],
+        [
+          "first",
+          3
+        ],
+        [
+          "new",
+          3
+        ],
+        [
+          "router",
+          3
+        ],
+        [
+          "section",
+          3
+        ],
+        [
+          "adjacent",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

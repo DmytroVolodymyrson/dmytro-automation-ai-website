@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-29T02:12:55.105Z",
-  "postCount": 498,
+  "updatedAt": "2026-04-29T02:26:37.092Z",
+  "postCount": 499,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,16 +15,16 @@
       "max": 12,
       "p25": 4,
       "p75": 4,
-      "samples": 498
+      "samples": 499
     },
     "sentenceLength": {
       "mean": 23.5,
-      "median": 23.75,
+      "median": 23.8,
       "min": 7.1,
       "max": 105,
       "p25": 19.3,
       "p75": 27.3,
-      "samples": 498
+      "samples": 499
     },
     "totalWords": {
       "mean": 332.6,
@@ -33,7 +33,7 @@
       "max": 1155,
       "p25": 279,
       "p75": 372,
-      "samples": 498
+      "samples": 499
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -114,7 +114,7 @@
       "long | single | single | short | short | short": 1,
       "long | short | single | short | long": 1,
       "long | single | single | short | short | single | single": 1,
-      "long | long | long | single": 1,
+      "long | long | long | single": 2,
       "single | long | long | single": 1,
       "short | long | single": 1,
       "long | short | short | single | long": 1,
@@ -146,7 +146,7 @@
       "opener | product-pitch | product-pitch | result | context | product-pitch | context | product-pitch | product-pitch | closer": 1,
       "opener | context | context | context | result | product-pitch | context | context | closer": 1,
       "opener | context | product-pitch | closer": 42,
-      "opener | context | context | closer": 197,
+      "opener | context | context | closer": 198,
       "opener | product-pitch | context | closer": 33,
       "opener | context | product-pitch | context | product-pitch | result | context | closer": 1,
       "opener | product-pitch | product-pitch | closer": 28,
@@ -224,7 +224,7 @@
         ]
       },
       "question": {
-        "count": 23,
+        "count": 24,
         "examples": [
           "Q: What kind of businesses do you work with?",
           "### Hero\nBadge: AI Automation Consulting\nHeading: Do you actually need an AI aut",
@@ -243,7 +243,7 @@
   "closers": {
     "patterns": {
       "reflection": {
-        "count": 77,
+        "count": 78,
         "examples": [
           "Stats:\n- 7+ Years building software\n- 50+ Automations built\n- $100K+ Saved for c",
           "Social proof pills:\n- 10+ hrs/week saved\n- 300%+ ROI\n- 24/7 automation",
@@ -290,11 +290,11 @@
     "topWords": [
       [
         "-",
-        3406
+        3424
       ],
       [
         "what",
-        1777
+        1788
       ],
       [
         "automation",
@@ -302,7 +302,7 @@
       ],
       [
         "ai",
-        1136
+        1139
       ],
       [
         "workflow",
@@ -310,7 +310,7 @@
       ],
       [
         "page",
-        955
+        960
       ],
       [
         "how",
@@ -342,11 +342,11 @@
       ],
       [
         "first",
-        656
+        659
       ],
       [
         "your",
-        646
+        649
       ],
       [
         "live",
@@ -378,11 +378,11 @@
       ],
       [
         "should",
-        422
+        425
       ],
       [
         "that",
-        378
+        381
       ],
       [
         "lead",

@@ -13,6 +13,11 @@ import {
   FileText,
   Clock,
   TriangleAlert,
+  DollarSign,
+  Eye,
+  Scale,
+  Settings,
+  Compass,
 } from "lucide-react";
 import type { DecisionPageData } from "@/components/DecisionPageTemplate";
 
@@ -51,6 +56,59 @@ const data: DecisionPageData = {
         {
           heading: "Proof from real builds",
           body: "The Paris Cafe AI voice agent project shows what consultant-level call-flow design looks like in production — after-hours handling, booking path, and fallback discipline with live guests. The WheelsFeels CRM automation project shows the operational side: reply routing, follow-up coordination, and CRM ownership that makes the workflow commercially usable once real customers start responding.",
+        },
+      ],
+    },
+    {
+      type: "cards",
+      title: "Start from your actual question",
+      subtitle:
+        "If you landed here but your real question is narrower, jump straight to the page that fits:",
+      items: [
+        {
+          icon: DollarSign,
+          title: "I need pricing or budget clarity",
+          body: "You want to know what consultant work actually costs before you talk to anyone. These pages break down pricing models, typical ranges, and what drives the number up or down for a small business.",
+          links: [
+            { label: "Consultant pricing breakdown", href: "/ai-automation-consultant-pricing-small-business" },
+            { label: "AI automation cost guide", href: "/ai-automation-cost-small-business" },
+          ],
+        },
+        {
+          icon: Eye,
+          title: "I need proof — show me what this work looks like",
+          body: "You want to see real builds, not promises. These case studies show what a consultant actually delivered, how the workflow runs, and what the business got out of it.",
+          links: [
+            { label: "Paris Cafe voice agent build", href: "/case-studies/paris-cafe-voice-agent" },
+            { label: "WheelsFeels CRM automation build", href: "/case-studies/ecommerce-crm-automation" },
+          ],
+        },
+        {
+          icon: Scale,
+          title: "I need help deciding: consultant vs DIY, freelancer, or in-house",
+          body: "You already know you want automation but you are comparing options. These pages lay out the tradeoffs honestly so you can pick the path that fits your budget, timeline, and risk tolerance.",
+          links: [
+            { label: "Consultant vs DIY", href: "/hire-ai-automation-consultant-vs-diy" },
+            { label: "Consultant vs in-house hire", href: "/hire-ai-automation-consultant-vs-in-house" },
+          ],
+        },
+        {
+          icon: Settings,
+          title: "I already know the workflow — I need implementation help",
+          body: "You have picked the stack or narrowed the scope and just need someone to build it. These pages are closer to your situation than a general role overview.",
+          links: [
+            { label: "n8n automation consultant", href: "/n8n-automation-consultant" },
+            { label: "AI appointment setter setup", href: "/ai-appointment-setter-setup" },
+          ],
+        },
+        {
+          icon: Compass,
+          title: "I am not sure what to automate first",
+          body: "You know you are wasting time somewhere but have not identified the highest-payoff workflow yet. Start with an audit or a curated shortlist of first automations for service businesses.",
+          links: [
+            { label: "Best first automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
+            { label: "AI automation audit checklist", href: "/ai-automation-audit-checklist" },
+          ],
         },
       ],
     },
