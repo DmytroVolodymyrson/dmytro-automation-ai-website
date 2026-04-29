@@ -1437,6 +1437,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Lead Follow-Up for Medical Clinics",
+    description:
+      "Early-funnel clinic workflow focused on faster new-patient inquiry response, short nurture before the appointment is booked, cleaner front-desk handoff, and less revenue lost to slow replies or weak follow-through.",
+    href: "/ai-lead-follow-up-for-medical-clinics",
+    category: "industries",
+  },
+  {
     title: "Appointment Scheduling and Reminder Automation for Medical Clinics",
     description:
       "Booked-visit clinic workflow focused on clearer confirmations, reminder timing, easy reschedules, pre-visit readiness, and cleaner front-desk handoff before appointments turn into preventable gaps.",

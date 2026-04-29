@@ -119,6 +119,7 @@ const AiPhoneAnsweringVsVoicemailForMortgageBrokers = lazy(() => import("./pages
 const AiAutomationForDentalPractices = lazy(() => import("./pages/AiAutomationForDentalPractices"));
 const AiAutomationForMedicalClinics = lazy(() => import("./pages/AiAutomationForMedicalClinics"));
 const WhatToAutomateFirstForMedicalClinics = lazy(() => import("./pages/WhatToAutomateFirstForMedicalClinics"));
+const AiLeadFollowUpForMedicalClinics = lazy(() => import("./pages/AiLeadFollowUpForMedicalClinics"));
 const WhatToAutomateFirstForDentalPractices = lazy(() => import("./pages/WhatToAutomateFirstForDentalPractices"));
 const AiLeadFollowUpForDentalPractices = lazy(() => import("./pages/AiLeadFollowUpForDentalPractices"));
 const AppointmentSchedulingAndReminderAutomationForMedicalClinics = lazy(() => import("./pages/AppointmentSchedulingAndReminderAutomationForMedicalClinics"));
@@ -602,6 +603,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-automation-for-dental-practices" element={<AiAutomationForDentalPractices />} />
       <Route path="/ai-automation-for-medical-clinics" element={<AiAutomationForMedicalClinics />} />
       <Route path="/what-to-automate-first-for-medical-clinics" element={<WhatToAutomateFirstForMedicalClinics />} />
+      <Route path="/ai-lead-follow-up-for-medical-clinics" element={<AiLeadFollowUpForMedicalClinics />} />
       <Route path="/appointment-scheduling-and-reminder-automation-for-medical-clinics" element={<AppointmentSchedulingAndReminderAutomationForMedicalClinics />} />
       <Route path="/intake-forms-and-document-collection-automation-for-medical-clinics" element={<IntakeFormsAndDocumentCollectionAutomationForMedicalClinics />} />
       <Route path="/recall-and-reactivation-automation-for-medical-clinics" element={<RecallAndReactivationAutomationForMedicalClinics />} />

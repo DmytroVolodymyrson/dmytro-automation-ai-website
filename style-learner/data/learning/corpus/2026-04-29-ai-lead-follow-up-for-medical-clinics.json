@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-ai-lead-follow-up-for-medical-clinics",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Lead Follow-Up for Medical Clinics\nBody: A lot of smaller outpatient clinics do not only lose revenue because patients no-show later or because overdue recall never happens. They lose it much earlier, right after a new-patient inquiry arrives. The web form sat too long. The voicemail got one weak callback hours later. The text message or referral request landed while the front desk was checking in patients, answering phones, and trying to keep the day on schedule. AI lead follow-up for medical clinics fixes that narrower early-funnel workflow. It responds fast, keeps the conversation moving while intent is still fresh, captures the next useful detail, and hands real booking intent back to a human before the patient drifts to the clinic that replied first.\nSub: Below: what this clinic workflow should actually handle, how it stays distinct from the broader medical-clinics page plus the booking / intake / no-show / phone pages already live, what guardrails matter, and what proof honestly supports the page without inventing a medical-clinic-specific lead-follow-up case study.\n\n### Core sections\n- What clinic lead follow-up should actually handle\n- How this page stays distinct inside the medical-clinic cluster\n- Is this a good fit for your clinic?\n- Guardrails that keep clinic lead follow-up trustworthy\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions about AI lead follow-up for medical clinics\nTopics: how this differs from appointment scheduling and reminder automation, how it differs from intake and document collection automation, what a focused clinic lead-follow-up build usually costs, whether AI can handle the first response without sounding robotic, and when after-hours phone coverage should come first instead.\n\n### Final CTA\nHeading: Need faster new-patient response before more clinic inquiries go cold?\nBody: Book a 30-minute call. We will look at how your clinic handles new-patient inquiries today, where response speed and ownership are breaking down, and whether a focused lead-follow-up workflow is the right next build or whether another clinic workflow should come first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because the live medical-clinic parent and first-project page already isolated inquiry response as a distinct workflow family, while the current child set had already covered booking/reminders, intake prep, no-show reduction, recall/reactivation, and after-hours phone coverage."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/ai-automation-for-medical-clinics`, `/what-to-automate-first-for-medical-clinics`, `/appointment-scheduling-and-reminder-automation-for-medical-clinics`, and `/intake-forms-and-document-collection-automation-for-medical-clinics` by focusing on first response, short nurture, light qualification, and front-desk handoff before the booking exists."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live clinic parent page, `/what-to-automate-first-for-medical-clinics`, `/ai-lead-follow-up-for-service-businesses`, and the e-commerce CRM case study support the early-funnel follow-up pattern without pretending there is already a clinic-specific case study on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fewer lost booked visits, less front-desk chase work, explicit fit / not-fit framing, and clear boundaries around where automation should stop."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T20:41:29.604Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 23.4,
+      "sentenceLengthRange": [
+        5,
+        57
+      ],
+      "totalWords": 328
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Lead Follow-Up for Medical Clinics\nBody: A lot of smaller outpatient clinics do not only lose revenue because patients no-show later or because overdue recall never happens.",
+      "wordCount": 30,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need faster new-patient response before more clinic inquiries go cold?\nBody: Book a 30-minute call. We will look at how your clinic handles new-patient inquiries today, where response speed and ownership are breaking down, and whether a focused lead-follow-up workflow is the right next build or whether another clinic workflow should come first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 15,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.15
+    },
+    "vocabulary": {
+      "distinctWords": 190,
+      "totalWords": 328,
+      "topWords": [
+        [
+          "clinic",
+          9
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "lead",
+          5
+        ],
+        [
+          "follow-up",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "clinics",
+          4
+        ],
+        [
+          "it",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "first",
+          4
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "medical",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.006
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

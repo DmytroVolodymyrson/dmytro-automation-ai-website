@@ -1172,6 +1172,18 @@
       ]
     },
     {
+      "id": "ai-lead-follow-up-for-medical-clinics",
+      "path": "/ai-lead-follow-up-for-medical-clinics",
+      "label": "AI Lead Follow-Up for Medical Clinics",
+      "prompts": [
+        "AI lead follow-up for medical clinics",
+        "How can a medical clinic respond faster to new-patient inquiries before they go cold?",
+        "Best way for a smaller outpatient clinic to automate new-patient follow-up",
+        "Should a clinic automate inquiry response before booking reminders or intake prep?",
+        "How should a medical clinic handle web forms, missed calls, and texts without slow front-desk follow-up?"
+      ]
+    },
+    {
       "id": "appointment-scheduling-and-reminder-automation-for-medical-clinics",
       "path": "/appointment-scheduling-and-reminder-automation-for-medical-clinics",
       "label": "Appointment Scheduling and Reminder Automation for Medical Clinics",

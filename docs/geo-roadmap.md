@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/client-onboarding-setup-vs-diy-small-business` — the onboarding cluster now has the broad parent, setup sibling, cost page, and buy-vs-build decision layer live. The new page stays tightly on the owner decision itself: when DIY onboarding setup is enough, when trigger reliability or intake sequencing risk makes expert help worth paying for, and where the real cost of delay beats the setup invoice. Previous: `/client-onboarding-cost-small-business`.)
+Last updated: 2026-04-29 (shipped `/ai-lead-follow-up-for-medical-clinics` — the live medical-clinic cluster already had the broad parent, first-project page, booking/reminder child, intake child, recall child, no-show child, and after-hours phone page, but still lacked the early-funnel inquiry-response child. The new page stays tightly on first response, short nurture, light qualification, and front-desk handoff before the appointment exists. Previous: `/client-onboarding-setup-vs-diy-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 373.
+**Total live GEO pages tracked here:** 374.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -165,6 +165,7 @@ Last updated: 2026-04-29 (shipped `/client-onboarding-setup-vs-diy-small-busines
 | Review Request Automation (Mortgage) | `/review-request-automation-for-mortgage-brokers` | Vertical workflow page | Live |
 | AI for Dental Practices | `/ai-automation-for-dental-practices` | Vertical category page | Live |
 | What to Automate First (Medical Clinics) | `/what-to-automate-first-for-medical-clinics` | Vertical decision page | Live |
+| AI Lead Follow-Up (Medical Clinics) | `/ai-lead-follow-up-for-medical-clinics` | Vertical workflow page | Live |
 | Appointment Scheduling/Reminders (Medical Clinics) | `/appointment-scheduling-and-reminder-automation-for-medical-clinics` | Vertical workflow page | Live |
 | Intake Forms/Document Collection (Medical Clinics) | `/intake-forms-and-document-collection-automation-for-medical-clinics` | Vertical workflow page | Live |
 | Recall/Reactivation (Medical Clinics) | `/recall-and-reactivation-automation-for-medical-clinics` | Vertical workflow page | Live |
@@ -386,8 +387,8 @@ Last updated: 2026-04-29 (shipped `/client-onboarding-setup-vs-diy-small-busines
 
 ## Next Pages
 
-This run shipped `/client-onboarding-setup-vs-diy-small-business` because the onboarding cluster already had the broad parent, implementation page, and pricing page live but still lacked the owner decision page about whether to keep wiring onboarding in-house or pay for setup help now. The new page stays narrower than the parent and setup siblings by focusing on owner time, trigger reliability, intake sequencing, scheduling gates, CRM stage truth, and when DIY delay becomes more expensive than the setup invoice.
+This run shipped `/ai-lead-follow-up-for-medical-clinics` because the live medical-clinic cluster already isolated inquiry response as a distinct workflow family but still lacked the dedicated early-funnel child page. The new page stays narrower than the parent and first-project pages by focusing on first response, short nurture, light qualification, and front-desk handoff before the appointment exists.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | Broad backlog reconciliation | The onboarding cluster is now meaningfully complete for the current planned layer (broad parent, setup, cost, DIY, intake/doc-collection child, accounting-firm proof child). Next run should re-check GEO-PLAN, the pattern matrix, prompts, routes, and live cluster gaps instead of forcing another onboarding page by inertia. |
+| 1 | Broad backlog reconciliation | The medical-clinic cluster now has the broad parent, first-project page, inquiry-response child, booking/reminder child, intake child, recall child, no-show child, and after-hours phone page live. Next run should re-check GEO-PLAN, the pattern matrix, prompts, routes, and live cluster gaps instead of forcing another same-cluster page by inertia. |

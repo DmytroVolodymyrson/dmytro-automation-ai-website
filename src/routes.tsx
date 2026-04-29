@@ -118,6 +118,7 @@ import AiPhoneAnsweringVsVoicemailForMortgageBrokers from "./pages/AiPhoneAnswer
 import AiAutomationForDentalPractices from "./pages/AiAutomationForDentalPractices";
 import AiAutomationForMedicalClinics from "./pages/AiAutomationForMedicalClinics";
 import WhatToAutomateFirstForMedicalClinics from "./pages/WhatToAutomateFirstForMedicalClinics";
+import AiLeadFollowUpForMedicalClinics from "./pages/AiLeadFollowUpForMedicalClinics";
 import WhatToAutomateFirstForDentalPractices from "./pages/WhatToAutomateFirstForDentalPractices";
 import AiLeadFollowUpForDentalPractices from "./pages/AiLeadFollowUpForDentalPractices";
 import AppointmentSchedulingAndReminderAutomationForMedicalClinics from "./pages/AppointmentSchedulingAndReminderAutomationForMedicalClinics";
@@ -636,6 +637,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-for-dental-practices", element: <AiAutomationForDentalPractices /> },
   { path: "/ai-automation-for-medical-clinics", element: <AiAutomationForMedicalClinics /> },
   { path: "/what-to-automate-first-for-medical-clinics", element: <WhatToAutomateFirstForMedicalClinics /> },
+  { path: "/ai-lead-follow-up-for-medical-clinics", element: <AiLeadFollowUpForMedicalClinics /> },
   { path: "/appointment-scheduling-and-reminder-automation-for-medical-clinics", element: <AppointmentSchedulingAndReminderAutomationForMedicalClinics /> },
   { path: "/intake-forms-and-document-collection-automation-for-medical-clinics", element: <IntakeFormsAndDocumentCollectionAutomationForMedicalClinics /> },
   { path: "/recall-and-reactivation-automation-for-medical-clinics", element: <RecallAndReactivationAutomationForMedicalClinics /> },

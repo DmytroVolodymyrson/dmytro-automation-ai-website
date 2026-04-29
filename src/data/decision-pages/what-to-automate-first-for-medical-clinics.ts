@@ -80,7 +80,7 @@ const data: DecisionPageData = {
             "New patient inquiries are arriving, but first response still takes hours instead of minutes",
             "You are getting referrals, web traffic, or phone calls that are not getting disciplined first-contact follow-up",
             "The clinic wins more by replying first than by polishing later-stage systems first",
-            "Closest next page: /ai-lead-follow-up-for-service-businesses",
+            "Closest next page: /ai-lead-follow-up-for-medical-clinics",
           ],
         },
         {
@@ -278,6 +278,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "AI automation for medical clinics", href: "/ai-automation-for-medical-clinics" },
+        { label: "AI lead follow-up for medical clinics", href: "/ai-lead-follow-up-for-medical-clinics" },
         { label: "Intake forms and document collection automation for medical clinics", href: "/intake-forms-and-document-collection-automation-for-medical-clinics" },
         { label: "Recall and reactivation automation for medical clinics", href: "/recall-and-reactivation-automation-for-medical-clinics" },
         { label: "AI phone answering for medical clinics", href: "/ai-phone-answering-for-medical-clinics" },
@@ -323,6 +324,7 @@ const data: DecisionPageData = {
     "No obligation. No generic pitch. Just a practical recommendation based on where the clinic is already losing momentum.",
   relatedLinks: [
     { label: "AI automation for medical clinics", href: "/ai-automation-for-medical-clinics" },
+    { label: "AI lead follow-up for medical clinics", href: "/ai-lead-follow-up-for-medical-clinics" },
     { label: "Appointment scheduling and reminder automation for medical clinics", href: "/appointment-scheduling-and-reminder-automation-for-medical-clinics" },
     { label: "Intake forms and document collection automation for medical clinics", href: "/intake-forms-and-document-collection-automation-for-medical-clinics" },
     { label: "Recall and reactivation automation for medical clinics", href: "/recall-and-reactivation-automation-for-medical-clinics" },

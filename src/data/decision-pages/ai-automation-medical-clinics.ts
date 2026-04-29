@@ -247,6 +247,7 @@ const data: DecisionPageData = {
     "No generic platform pitch. Just a clear conversation about where clinic admin friction is actually costing you visits.",
   relatedLinks: [
     { label: "What to automate first for medical clinics", href: "/what-to-automate-first-for-medical-clinics" },
+    { label: "AI lead follow-up for medical clinics", href: "/ai-lead-follow-up-for-medical-clinics" },
     { label: "Appointment scheduling and reminder automation for medical clinics", href: "/appointment-scheduling-and-reminder-automation-for-medical-clinics" },
     { label: "Intake forms and document collection automation for medical clinics", href: "/intake-forms-and-document-collection-automation-for-medical-clinics" },
     { label: "Recall and reactivation automation for medical clinics", href: "/recall-and-reactivation-automation-for-medical-clinics" },

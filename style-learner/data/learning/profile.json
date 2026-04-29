@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-29T20:18:28.202Z",
-  "postCount": 555,
+  "updatedAt": "2026-04-29T20:41:30.914Z",
+  "postCount": 556,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,7 +15,7 @@
       "max": 13,
       "p25": 4,
       "p75": 4,
-      "samples": 555
+      "samples": 556
     },
     "sentenceLength": {
       "mean": 23.7,
@@ -23,17 +23,17 @@
       "min": 7.1,
       "max": 105,
       "p25": 19.5,
-      "p75": 27.6,
-      "samples": 555
+      "p75": 27.5,
+      "samples": 556
     },
     "totalWords": {
       "mean": 336.4,
-      "median": 337,
+      "median": 336.5,
       "min": 17,
       "max": 1155,
       "p25": 281,
       "p75": 374,
-      "samples": 555
+      "samples": 556
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -59,7 +59,7 @@
       "long | single | single | short": 20,
       "long | single | short | long": 13,
       "long | single | single | long": 68,
-      "long | short | single | long": 122,
+      "long | short | single | long": 123,
       "long | single | single | long | short | single | single | single": 1,
       "long | short | single | single": 6,
       "long | long | single | short": 4,
@@ -160,7 +160,7 @@
       "opener | product-pitch | product-pitch | result | context | product-pitch | context | product-pitch | product-pitch | closer": 1,
       "opener | context | context | context | result | product-pitch | context | context | closer": 1,
       "opener | context | product-pitch | closer": 47,
-      "opener | context | context | closer": 213,
+      "opener | context | context | closer": 214,
       "opener | product-pitch | context | closer": 33,
       "opener | context | product-pitch | context | product-pitch | result | context | closer": 1,
       "opener | product-pitch | product-pitch | closer": 29,
@@ -239,7 +239,7 @@
         ]
       },
       "standard-opener": {
-        "count": 378,
+        "count": 379,
         "examples": [
           "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an autom",
           "Section heading: Real Results for Real Businesses\nSubheading: Here's what happen",
@@ -274,7 +274,7 @@
         ]
       },
       "question": {
-        "count": 457,
+        "count": 458,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -315,11 +315,11 @@
     "topWords": [
       [
         "-",
-        3672
+        3677
       ],
       [
         "what",
-        2011
+        2017
       ],
       [
         "automation",
@@ -327,23 +327,23 @@
       ],
       [
         "ai",
-        1186
+        1190
       ],
       [
         "workflow",
-        1144
+        1148
       ],
       [
         "how",
-        1118
+        1123
       ],
       [
         "page",
-        1086
+        1090
       ],
       [
         "it",
-        1005
+        1009
       ],
       [
         "when",
@@ -351,7 +351,7 @@
       ],
       [
         "this",
-        898
+        903
       ],
       [
         "phone",
@@ -363,11 +363,11 @@
       ],
       [
         "follow-up",
-        754
+        759
       ],
       [
         "first",
-        710
+        714
       ],
       [
         "your",
@@ -411,7 +411,7 @@
       ],
       [
         "should",
-        447
+        451
       ],
       [
         "setup",
@@ -427,7 +427,7 @@
       ],
       [
         "lead",
-        380
+        385
       ],
       [
         "business",
