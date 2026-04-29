@@ -20,8 +20,18 @@ const ProofStripSection = () => {
           <h2 className="font-display text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground tracking-tight mb-2">
             {proofStrip.heading}
           </h2>
-          <p className="text-sm sm:text-base text-muted-foreground">
+          <p className="text-sm sm:text-base text-muted-foreground mb-3">
             {proofStrip.subtitle}
+          </p>
+          <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+            Need the full proof library before you decide? Read the{" "}
+            <Link
+              to="/case-studies"
+              className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors"
+            >
+              complete case studies hub
+            </Link>{" "}
+            to compare all three documented builds and then jump into the guide that matches your bottleneck.
           </p>
         </div>
 

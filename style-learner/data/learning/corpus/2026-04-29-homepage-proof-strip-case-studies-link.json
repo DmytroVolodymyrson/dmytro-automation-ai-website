@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-homepage-proof-strip-case-studies-link",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Proof strip intro\nHeading: Recent work. Clear results.\nBody: Three examples of what good automation changes.\n\n### New editorial routing sentence\nBody: Need the full proof library before you decide? Read the complete case studies hub to compare all three documented builds and then jump into the guide that matches your bottleneck.\n\n### Link target\n- Anchor text: complete case studies hub\n- URL: /case-studies",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Bounded homepage copy refresh for GEO indexing support, not a redesign."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "Added as contextual editorial copy under the proof headline so the link passes a clearer in-content signal from the indexed homepage to the discovered-not-indexed proof hub."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Copy stays short, practical, and buyer-oriented: compare proof first, then choose the matching workflow guide."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoids hype and keeps the destination framed around documented builds, not vague success claims."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T08:18:10.029Z",
+    "structure": {
+      "paragraphCount": 3,
+      "sentencesPerParagraph": [
+        3,
+        2,
+        1
+      ],
+      "avgSentenceLength": 10.5,
+      "sentenceLengthRange": [
+        2,
+        22
+      ],
+      "totalWords": 63
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Proof strip intro\nHeading: Recent work.",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "cta",
+      "text": "### Link target\n- Anchor text: complete case studies hub\n- URL: /case-studies",
+      "pattern": "cta"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | closer"
+    },
+    "punctuation": {
+      "periods": 4,
+      "commas": 0,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 2,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 5,
+      "commasPerSentence": 0
+    },
+    "vocabulary": {
+      "distinctWords": 53,
+      "totalWords": 63,
+      "topWords": [
+        [
+          "proof",
+          2
+        ],
+        [
+          "body",
+          2
+        ],
+        [
+          "three",
+          2
+        ],
+        [
+          "complete",
+          2
+        ],
+        [
+          "case",
+          2
+        ],
+        [
+          "studies",
+          2
+        ],
+        [
+          "hub",
+          2
+        ],
+        [
+          "-",
+          2
+        ],
+        [
+          "strip",
+          1
+        ],
+        [
+          "intro",
+          1
+        ],
+        [
+          "heading",
+          1
+        ],
+        [
+          "recent",
+          1
+        ],
+        [
+          "work",
+          1
+        ],
+        [
+          "clear",
+          1
+        ],
+        [
+          "results",
+          1
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": [
+        "adds-trust-signals"
+      ]
+    }
+  }
+}
