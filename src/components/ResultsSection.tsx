@@ -65,6 +65,18 @@ const ResultsSection = () => {
           <p className="text-muted-foreground">
             {results.caseStudiesSubtitle}
           </p>
+          <p className="text-sm sm:text-base text-muted-foreground max-w-3xl mx-auto mt-3 leading-relaxed">
+            If the proof is there and your next question is whether expert help is
+            worth paying for, read the{" "}
+            <Link
+              to="/ai-automation-consultant-small-business"
+              className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors"
+            >
+              AI automation consultant for small business guide
+            </Link>{" "}
+            to compare consultant fit, pricing bands, and what a first project
+            usually includes.
+          </p>
         </div>
 
         <div ref={caseGridRef} className="grid lg:grid-cols-3 gap-6 lg:gap-8">

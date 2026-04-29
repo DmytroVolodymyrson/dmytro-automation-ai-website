@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-homepage-consultant-link",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "Added editorial support copy under the homepage case-study section:\n\nIf the proof is there and your next question is whether expert help is worth paying for, read the AI automation consultant for small business guide to compare consultant fit, pricing bands, and what a first project usually includes.",
+    "formatting": [
+      "bold:Added"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Keeps the homepage voice direct and buyer-oriented"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses proof-to-fit framing instead of generic navigation language"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Links the indexed homepage to a discovered-not-indexed commercial page with editorial context, not just a card surface"
+    },
+    {
+      "type": "tone_shift",
+      "description": "Reinforces decision support after proof without adding hype or new unsupported claims"
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T11:17:13.919Z",
+    "structure": {
+      "paragraphCount": 2,
+      "sentencesPerParagraph": [
+        1,
+        1
+      ],
+      "avgSentenceLength": 24,
+      "sentenceLengthRange": [
+        9,
+        39
+      ],
+      "totalWords": 48
+    },
+    "opener": {
+      "type": "situation",
+      "text": "Added editorial support copy under the homepage case-study section:",
+      "wordCount": 9,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "movement",
+      "text": "If the proof is there and your next question is whether expert help is worth paying for, read the AI automation consultant for small business guide to compare consultant fit, pricing bands, and what a first project usually includes.",
+      "pattern": "movement"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "closer"
+      ],
+      "template": "opener | closer"
+    },
+    "punctuation": {
+      "periods": 1,
+      "commas": 3,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 1,
+      "commasPerSentence": 3
+    },
+    "vocabulary": {
+      "distinctWords": 41,
+      "totalWords": 48,
+      "topWords": [
+        [
+          "consultant",
+          2
+        ],
+        [
+          "added",
+          1
+        ],
+        [
+          "editorial",
+          1
+        ],
+        [
+          "support",
+          1
+        ],
+        [
+          "copy",
+          1
+        ],
+        [
+          "under",
+          1
+        ],
+        [
+          "homepage",
+          1
+        ],
+        [
+          "case-study",
+          1
+        ],
+        [
+          "section",
+          1
+        ],
+        [
+          "if",
+          1
+        ],
+        [
+          "proof",
+          1
+        ],
+        [
+          "there",
+          1
+        ],
+        [
+          "your",
+          1
+        ],
+        [
+          "next",
+          1
+        ],
+        [
+          "question",
+          1
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

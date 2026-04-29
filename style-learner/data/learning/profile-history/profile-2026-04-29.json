@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-29T11:08:54.997Z",
-  "postCount": 524,
+  "updatedAt": "2026-04-29T11:17:13.975Z",
+  "postCount": 525,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,25 +15,25 @@
       "max": 12,
       "p25": 4,
       "p75": 4,
-      "samples": 524
+      "samples": 525
     },
     "sentenceLength": {
       "mean": 23.7,
-      "median": 24.25,
+      "median": 24.2,
       "min": 7.1,
       "max": 105,
       "p25": 19.5,
       "p75": 27.5,
-      "samples": 524
+      "samples": 525
     },
     "totalWords": {
-      "mean": 331.9,
-      "median": 334.5,
+      "mean": 331.3,
+      "median": 334,
       "min": 17,
       "max": 1155,
       "p25": 281,
       "p75": 372,
-      "samples": 524
+      "samples": 525
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -127,6 +127,7 @@
       "long | long | long | long | long | single": 1,
       "single | short | long | single | long": 1,
       "long | single | long | short": 1,
+      "single | single": 1,
       "single | short": 1,
       "long | short | single": 1,
       "short | single": 1
@@ -179,7 +180,7 @@
       "opener | context | context | product-pitch | product-pitch | context | result | closer": 1,
       "opener | product-pitch | context | context | product-pitch | product-pitch | context | context | closer": 1,
       "opener | context | result | context | result | context | context | context | closer": 1,
-      "opener | closer": 3,
+      "opener | closer": 4,
       "opener | product-pitch | product-pitch | product-pitch | context | context | result | result | result | closer": 1,
       "opener | product-pitch | result | context | context | context | context | closer": 1,
       "opener | context | product-pitch | context | context | context | context | product-pitch | closer": 1,
@@ -207,7 +208,7 @@
   "openers": {
     "patterns": {
       "situation": {
-        "count": 116,
+        "count": 117,
         "examples": [
           "Badge: The Person Behind the Automation",
           "Section heading: Common Questions\nSubheading: Straight answers about working wit",
@@ -266,7 +267,7 @@
         ]
       },
       "movement": {
-        "count": 6,
+        "count": 7,
         "examples": [
           "Benefits:\n- Find the bottleneck\n- See the best next move\n- Leave with a plan",
           "Supporting bullets:\n- Find the bottleneck\n- See the best next move\n- Leave with ",
@@ -355,7 +356,7 @@
       ],
       [
         "your",
-        659
+        660
       ],
       [
         "live",
