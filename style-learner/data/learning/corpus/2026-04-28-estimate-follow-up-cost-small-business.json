@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-estimate-follow-up-cost-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: Estimate Follow-Up Cost for Small Business\nBody: Most small service businesses should expect a focused estimate-follow-up build to land between $1.5K and $4.5K, with monthly running costs in the $25-$120 range depending on CRM, messaging volume, and whether escalation logic routes to an estimator or the office. The useful question is not \"how cheap can estimate follow-up get?\" It is \"what stage of the estimate lifecycle am I actually automating?\" A business that only needs a reminder two days after the estimate was sent should not buy the same system as a business that needs stage-based sequencing, stale-estimate escalation, estimator-to-office handoff, and open-estimate visibility across the whole pipeline. This page breaks down realistic cost ranges for estimate follow-up automation specifically — not broader lead-follow-up pricing, and not general AI automation cost — so a small business can budget the right first build for the gap between “estimate sent” and “job booked or lost.”\nSub: Below: what different estimate-follow-up builds actually cost, what those budget bands buy, what drives the price up, where small businesses overspend, and when the math makes sense versus when a simpler reminder handles the real need.\n\n### Core sections\n- What estimate follow-up automation usually costs\n- What those budget bands actually buy\n- What makes the price go up\n- When this is worth paying for — and when a simpler reminder is enough\n- How to budget this without overspending\n- Proof and adjacent proof\n- What small businesses usually get wrong about estimate follow-up pricing\n\n### FAQ\nSubhead: Practical answers about budgeting estimate follow-up automation for a small business\nTopics: what estimate follow-up automation usually costs, how it differs from lead follow-up cost, how it differs from the broader AI automation cost page, when to start with a basic reminder before adding escalation, and what makes estimate-stage automation expensive.\n\n### Final CTA\nHeading: Want a realistic quote for your estimate follow-up workflow?\nBody: Book a 30-minute call. We will look at where estimates are going cold, how your CRM or job tool tracks estimate stages, and scope the narrowest build that recovers revenue from stale quotes.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the cross-industry cost child inside the estimate-follow-up cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the parent estimate-follow-up page and the estimate-vs-quote comparison were already live, plus multiple vertical estimate-follow-up pages existed, but the cluster still lacked a dedicated pricing/budgeting layer."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays distinct from `/estimate-follow-up-automation-for-service-businesses` by focusing on budgeting and scope, from `/ai-lead-follow-up-cost-small-business` by staying strictly after the estimate is already sent, and from `/ai-automation-cost-small-business` by staying tightly on estimate-recovery economics instead of broad business-wide automation pricing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live estimate-follow-up cluster, the WheelsFeels CRM case study, and contractor CRM pages support the pricing logic without pretending there is already a dedicated estimate-follow-up cost case study on the site."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fit / not-fit framing, narrow workflow scoping, concrete budget bands, and direct warnings against overbuying a full CRM rebuild when the real leak is stale estimates."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T05:39:32.814Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        3,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 43.6,
+      "sentenceLengthRange": [
+        5,
+        80
+      ],
+      "totalWords": 349
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Estimate Follow-Up Cost for Small Business\nBody: Most small service businesses should expect a focused estimate-follow-up build to land between $1.5K and $4.5K, with monthly running costs in the $25-$120 range depending on CRM, messaging volume, and whether escalation logic routes to an estimator or the office.",
+      "wordCount": 49,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a realistic quote for your estimate follow-up workflow?\nBody: Book a 30-minute call. We will look at where estimates are going cold, how your CRM or job tool tracks estimate stages, and scope the narrowest build that recovers revenue from stale quotes.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 17,
+      "emDashes": 3,
+      "enDashes": 0,
+      "hyphens": 7,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 3,
+      "colon": 8,
+      "commasPerSentence": 2.43
+    },
+    "vocabulary": {
+      "distinctWords": 181,
+      "totalWords": 349,
+      "topWords": [
+        [
+          "estimate",
+          12
+        ],
+        [
+          "what",
+          10
+        ],
+        [
+          "follow-up",
+          9
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "-",
+          7
+        ],
+        [
+          "cost",
+          6
+        ],
+        [
+          "small",
+          6
+        ],
+        [
+          "business",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "not",
+          4
+        ],
+        [
+          "reminder",
+          4
+        ],
+        [
+          "budget",
+          4
+        ],
+        [
+          "businesses",
+          3
+        ],
+        [
+          "build",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

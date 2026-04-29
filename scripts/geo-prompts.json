@@ -2204,6 +2204,18 @@
       ]
     },
     {
+      "id": "estimate-follow-up-cost-small-business",
+      "path": "/estimate-follow-up-cost-small-business",
+      "label": "Estimate Follow-Up Cost for Small Business",
+      "prompts": [
+        "What does estimate follow-up automation cost for a small business?",
+        "How much should a service business budget for estimate follow-up automation?",
+        "What affects the price of estimate follow-up automation after a site visit?",
+        "Is estimate follow-up automation worth it for contractors and field-service businesses?",
+        "How much should estimator handoff and stale-estimate follow-up workflow setup cost?"
+      ]
+    },
+    {
       "id": "estimate-follow-up-vs-quote-follow-up-for-service-businesses",
       "path": "/estimate-follow-up-vs-quote-follow-up-for-service-businesses",
       "label": "Estimate Follow-Up vs. Quote Follow-Up for Service Businesses",

@@ -279,6 +279,7 @@ import ReferralRequestAutomationForServiceBusinesses from "./pages/ReferralReque
 import ReviewRequestVsReferralRequestForServiceBusinesses from "./pages/ReviewRequestVsReferralRequestForServiceBusinesses";
 import MissedCallTextBackForServiceBusinesses from "./pages/MissedCallTextBackForServiceBusinesses";
 import EstimateFollowUpAutomationForServiceBusinesses from "./pages/EstimateFollowUpAutomationForServiceBusinesses";
+import EstimateFollowUpCostSmallBusiness from "./pages/EstimateFollowUpCostSmallBusiness";
 import EstimateFollowUpVsQuoteFollowUpForServiceBusinesses from "./pages/EstimateFollowUpVsQuoteFollowUpForServiceBusinesses";
 import QuoteFollowUpAutomationForServiceBusinesses from "./pages/QuoteFollowUpAutomationForServiceBusinesses";
 import ContactFormAutoresponderVsFullLeadFollowUp from "./pages/ContactFormAutoresponderVsFullLeadFollowUp";
@@ -771,6 +772,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/missed-call-follow-up-automation", element: <MissedCallFollowUp /> },
   { path: "/missed-call-text-back-for-service-businesses", element: <MissedCallTextBackForServiceBusinesses /> },
   { path: "/estimate-follow-up-automation-for-service-businesses", element: <EstimateFollowUpAutomationForServiceBusinesses /> },
+  { path: "/estimate-follow-up-cost-small-business", element: <EstimateFollowUpCostSmallBusiness /> },
   { path: "/estimate-follow-up-vs-quote-follow-up-for-service-businesses", element: <EstimateFollowUpVsQuoteFollowUpForServiceBusinesses /> },
   { path: "/quote-follow-up-automation-for-service-businesses", element: <QuoteFollowUpAutomationForServiceBusinesses /> },
   { path: "/appointment-scheduling-and-reminder-automation-for-service-businesses", element: <AppointmentSchedulingAndReminderAutomationForServiceBusinesses /> },

@@ -771,6 +771,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Estimate Follow-Up Cost for Small Business",
+    description:
+      "Pricing guide for the narrow estimate-recovery layer — realistic build ranges for estimate-sent triggers, stage-based reminders, stale-estimate escalation, CRM routing, and estimator-to-office handoff after the site visit.",
+    href: "/estimate-follow-up-cost-small-business",
+    category: "workflows",
+  },
+  {
     title: "Estimate Follow-Up vs. Quote Follow-Up for Service Businesses",
     description:
       "Should a service business automate estimate follow-up or broader quote follow-up first? Practical comparison of site-visit handoff, quote-stage ownership, cost, and where each workflow actually fits.",

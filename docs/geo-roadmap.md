@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/ai-lead-follow-up-setup-for-service-businesses` — a new cross-industry child page under the lead follow-up cluster covering setup scope, response logic, CRM connections, multi-channel sequencing, edge-case testing, and when professional setup help is worth the spend versus a lighter workflow. Stays distinct from the lead follow-up parent by focusing on implementation rather than workflow value, from the cost child by focusing on what gets configured rather than what it costs, and from the ROI child by focusing on setup quality rather than payback math. Previous: `/referral-request-automation-for-solar-companies`.)
+Last updated: 2026-04-28 (shipped `/estimate-follow-up-cost-small-business` — a new cross-industry cost child under the estimate-follow-up cluster covering realistic budget bands for estimate-sent triggers, stage-based reminders, stale-estimate escalation, CRM/job-management routing, and estimator-to-office handoff. Stays distinct from the estimate-follow-up parent by focusing on budgeting and scope rather than workflow fit, from the lead-follow-up cost page by staying strictly after the estimate is already sent, and from the general automation cost page by staying tightly on estimate-recovery economics instead of broad business-wide automation pricing. Previous: `/ai-lead-follow-up-setup-for-service-businesses`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 337.
+**Total live GEO pages tracked here:** 338.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -41,6 +41,7 @@ Last updated: 2026-04-28 (shipped `/ai-lead-follow-up-setup-for-service-business
 | Client Reactivation ROI (SMB) | `/client-reactivation-roi-small-business` | Workflow / ROI page | Live |
 | AI Lead Follow-Up Setup (Service Businesses) | `/ai-lead-follow-up-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Category cost page | Live |
+| Estimate Follow-Up Cost (SMB) | `/estimate-follow-up-cost-small-business` | Workflow cost page | Live |
 | AI Voice Agent Setup Cost (SMB) | `/ai-voice-agent-setup-cost-small-business` | Category cost page | Live |
 | AI Automation Maintenance & Support (SMB) | `/ai-automation-maintenance-and-support-small-business` | Strategy / support page | Live |
 | AI Consultant Calgary | `/ai-automation-consultant-calgary` | Geo page | Live |
@@ -349,16 +350,16 @@ Last updated: 2026-04-28 (shipped `/ai-lead-follow-up-setup-for-service-business
 
 ## Next Pages
 
-This run shipped `/ai-lead-follow-up-setup-for-service-businesses`. The cross-industry lead follow-up cluster now has the parent, cost, ROI, contact-form follow-up, instant-response, examples, and this new setup-scope child. That fills the implementation-gap the cluster had: the parent explained what lead follow-up is, cost/ROI covered the money side, but nothing covered what setup actually involves before launch or when professional help is worth the spend.
+This run shipped `/estimate-follow-up-cost-small-business`. The cross-industry estimate-follow-up cluster now has the parent workflow page, the estimate-vs-quote comparison, multiple live vertical children, and this new cost child. That closes the clearest money-side gap in the cluster: the parent explained where estimate recovery fits operationally, but nothing told a small business what the narrow estimate-stage workflow should actually cost before it drifted into a broader CRM rebuild.
 
 The next run should:
 
 1. **Start from a fresh broad reconciliation before naming the next net-new page.** The repo is dense enough that stale docs can still over-credit a cluster or make an already-live page look missing.
 2. **Keep manual GSC follow-through moving** on the newest workflow ships instead of treating publish alone as the finish line.
-3. **Reset to broad cross-cluster reconciliation.** The lead follow-up cluster's obvious setup gap is now filled. The next page should survive a fresh route, prompt, and proof check across clusters before it gets written into the queue.
+3. **Reset to broad cross-cluster reconciliation.** The estimate-follow-up cluster's obvious cost gap is now filled. The next page should survive a fresh route, prompt, and proof check across clusters before it gets written into the queue.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | The lead follow-up setup gap is now filled. The next clean ship should come from a cross-cluster workflow gap that still survives route, prompt, and proof checks instead of defaulting to the same cluster by inertia. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming the next candidate. |
+| 1 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | The estimate-follow-up cost gap is now filled. The next clean ship should come from a different surviving workflow, comparison, or vertical gap that still passes route, prompt, and proof checks. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming the next candidate. |
 | 2 | Manual GSC follow-through on newest live workflow pages | Recent ships still need inspection and indexing requests where appropriate. | Check the newest live URLs in GSC after deploy propagation and request indexing only after meaningful copy/internal-link updates are live. |
-| 3 | Fresh proof-led watchlist review | If a future lead-follow-up child reappears, it needs a materially different lifecycle stage and explicit surviving proof instead of cluster inertia. | Re-check current routes, prompts, and planning docs for another cluster-level gap before naming any specific new slug. |
+| 3 | Fresh proof-led watchlist review | If another cost/setup/ROI child looks attractive next, it still needs a materially different workflow stage and explicit surviving proof instead of cluster inertia. | Re-check current routes, prompts, and planning docs for another cluster-level gap before naming any specific new slug. |
