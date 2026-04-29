@@ -4712,6 +4712,18 @@
       ]
     },
     {
+      "id": "referral-request-automation-for-solar-companies",
+      "path": "/referral-request-automation-for-solar-companies",
+      "label": "Referral Request Automation for Solar Companies",
+      "prompts": [
+        "Referral request automation for solar companies",
+        "How should a solar company ask for referrals after install and PTO?",
+        "Best automation for solar customer referrals after a completed project",
+        "Should a solar company separate referral asks from review asks?",
+        "How can solar installers turn completed projects into more neighbor and family referrals?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-solar-companies",
       "path": "/what-to-automate-first-for-solar-companies",
       "label": "What to Automate First for Solar Companies",

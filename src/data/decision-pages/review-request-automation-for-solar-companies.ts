@@ -226,6 +226,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "AI automation for solar companies", href: "/ai-automation-for-solar-companies" },
+        { label: "Referral request automation for solar companies", href: "/referral-request-automation-for-solar-companies" },
         { label: "What to automate first for solar companies", href: "/what-to-automate-first-for-solar-companies" },
         { label: "Project status update automation for solar companies", href: "/project-status-update-automation-for-solar-companies" },
         { label: "Review request automation for service businesses", href: "/review-request-automation-for-service-businesses" },
@@ -269,6 +270,7 @@ const data: DecisionPageData = {
     "No obligation. No generic reputation-management pitch. Just a practical conversation about where the closeout stage is leaking trust or reviews.",
   relatedLinks: [
     { label: "AI automation for solar companies", href: "/ai-automation-for-solar-companies" },
+    { label: "Referral request automation for solar companies", href: "/referral-request-automation-for-solar-companies" },
     { label: "What to automate first for solar companies", href: "/what-to-automate-first-for-solar-companies" },
     { label: "Quote follow-up automation for solar companies", href: "/quote-follow-up-automation-for-solar-companies" },
     { label: "Project status update automation for solar companies", href: "/project-status-update-automation-for-solar-companies" },

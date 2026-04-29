@@ -1662,6 +1662,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Referral Request Automation for Solar Companies",
+    description:
+      "A narrower solar post-install advocacy page focused on referral timing after install and PTO, separate referral-versus-review asks, homeowner introduction capture, and fast office handoff when a warm referral reply comes in.",
+    href: "/referral-request-automation-for-solar-companies",
+    category: "industries",
+  },
+  {
     title: "Review Request Automation for Solar Companies",
     description:
       "A narrower solar post-install reputation page focused on better review timing, unhappy-reply routing, project-team handoff, and stronger local-trust follow-through once the project is truly settled.",

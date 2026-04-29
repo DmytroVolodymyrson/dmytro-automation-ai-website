@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-referral-request-automation-for-solar-companies",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: Referral Request Automation for Solar Companies\nBody: A lot of solar companies say referrals are one of their best lead sources, then handle referrals like an afterthought. The system is installed, PTO is granted or close, the homeowner sounds happy enough, and then the project quietly disappears from the team's active attention. No clean moment to ask for an introduction. No separate path for a referral versus a review. No fast routing when a homeowner mentions a neighbor, a family member, or another property. Referral request automation for solar companies fixes that narrower post-install advocacy workflow. It gives the team a practical way to ask for introductions at the right moment, keep the ask distinct from the public-review path, and route warm referral replies back to a human before that momentum fades.\nSub: Below: what a practical solar referral workflow should actually handle, how it stays distinct from the live solar review page and broader parent page, what guardrails matter, and what proof honestly supports this page without pretending there is already a dedicated solar referral-automation case study on the site.\n\n### Core sections\n- What solar referral automation should actually handle\n- How this page stays distinct inside the solar cluster\n- Is this a good fit for your solar company?\n- Guardrails that keep solar referral automation useful instead of awkward\n- How a practical solar referral workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical answers for solar companies considering a cleaner referral workflow after install and PTO\nTopics: how this differs from review-request automation for solar companies, when a solar company should ask for referrals, what kinds of referrals this usually helps capture, what a focused solar referral workflow usually costs, and where the ROI usually comes from.\n\n### Final CTA\nHeading: Want more completed solar projects to turn into real referrals?\nBody: Book a 30-minute call. We will look at how your team closes out projects today, where referral opportunities are getting lost, and whether a focused referral workflow, a review-timing fix, or an earlier lead or quote fix is the smarter next move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped after broad reconciliation across `GEO-PLAN.md`, `docs/geo-roadmap.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, current routes/pages, and `scripts/geo-prompts.json`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the live solar parent explicitly named referral growth alongside review asks after install and PTO, and the cluster already had a dedicated public-review child page but still lacked the private-advocacy child for clean homeowner introductions."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/review-request-automation-for-solar-companies` by focusing on private introductions instead of public reputation signals, and from `/project-status-update-automation-for-solar-companies` by starting after the install / PTO communication stage is effectively settled."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live solar parent, the live solar review-request page, the generic referral-request page, and the published e-commerce CRM case study support the workflow logic without pretending there is already a dedicated solar referral-automation case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fit / not-fit framing, explicit service-recovery guardrails, and clear separation from earlier sales-stage and in-flight project communication workflows."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-29T04:45:26.681Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        8,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 25.2,
+      "sentenceLengthRange": [
+        5,
+        57
+      ],
+      "totalWords": 353
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Referral Request Automation for Solar Companies\nBody: A lot of solar companies say referrals are one of their best lead sources, then handle referrals like an afterthought.",
+      "wordCount": 29,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want more completed solar projects to turn into real referrals?\nBody: Book a 30-minute call. We will look at how your team closes out projects today, where referral opportunities are getting lost, and whether a focused referral workflow, a review-timing fix, or an earlier lead or quote fix is the smarter next move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 11,
+      "commas": 19,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.46
+    },
+    "vocabulary": {
+      "distinctWords": 177,
+      "totalWords": 353,
+      "topWords": [
+        [
+          "solar",
+          16
+        ],
+        [
+          "referral",
+          12
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "workflow",
+          6
+        ],
+        [
+          "this",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "automation",
+          5
+        ],
+        [
+          "companies",
+          5
+        ],
+        [
+          "referrals",
+          5
+        ],
+        [
+          "from",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "ask",
+          4
+        ],
+        [
+          "practical",
+          4
+        ],
+        [
+          "usually",
+          4
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
