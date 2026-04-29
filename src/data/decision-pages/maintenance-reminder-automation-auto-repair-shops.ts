@@ -213,9 +213,9 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "AI automation for auto repair shops", href: "/ai-automation-for-auto-repair-shops" },
+        { label: "Client reactivation automation for auto repair shops", href: "/client-reactivation-automation-for-auto-repair-shops" },
+        { label: "Referral request automation for auto repair shops", href: "/referral-request-automation-for-auto-repair-shops" },
         { label: "HVAC database reactivation", href: "/hvac-database-reactivation" },
-        { label: "Client reactivation automation", href: "/client-reactivation-automation" },
-        { label: "All guides", href: "/guides" },
       ],
     },
   ],
@@ -255,8 +255,9 @@ const data: DecisionPageData = {
     "No fake retention claims. Just a practical recommendation based on your shop data, service mix, and current follow-up discipline.",
   relatedLinks: [
     { label: "AI automation for auto repair shops", href: "/ai-automation-for-auto-repair-shops" },
+    { label: "Client reactivation automation for auto repair shops", href: "/client-reactivation-automation-for-auto-repair-shops" },
+    { label: "Referral request automation for auto repair shops", href: "/referral-request-automation-for-auto-repair-shops" },
     { label: "HVAC database reactivation", href: "/hvac-database-reactivation" },
-    { label: "Client reactivation automation", href: "/client-reactivation-automation" },
     { label: "All guides", href: "/guides" },
   ],
 };

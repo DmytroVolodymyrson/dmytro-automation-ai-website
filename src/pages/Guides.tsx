@@ -2657,6 +2657,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Referral Request Automation for Auto Repair Shops",
+    description:
+      "Referral request automation for auto repair shops. Post-service referral timing, separate review-vs-referral asks, advisor handoff, and better word-of-mouth follow-up after completed visits.",
+    href: "/referral-request-automation-for-auto-repair-shops",
+    category: "industries",
+  },
+  {
     title: "Missed Call Text-Back for Auto Repair Shops",
     description:
       "Missed call text-back for auto repair shops. Immediate SMS recovery for missed repair calls, callback triage, after-hours demand protection, advisor handoff, and when live AI phone answering is the better fit.",

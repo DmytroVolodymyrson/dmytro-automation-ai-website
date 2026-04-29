@@ -3776,6 +3776,18 @@
       ]
     },
     {
+      "id": "referral-request-automation-for-auto-repair-shops",
+      "path": "/referral-request-automation-for-auto-repair-shops",
+      "label": "Referral Request Automation for Auto Repair Shops",
+      "prompts": [
+        "Referral request automation for auto repair shops",
+        "How should an auto repair shop ask for referrals automatically after a completed visit?",
+        "Best way for a mechanic shop to ask satisfied customers for referrals without combining it with a review blast",
+        "When should an auto repair shop ask for referrals after maintenance or repair work is finished?",
+        "How should a repair shop route post-service replies when a customer mentions another driver or vehicle that needs work?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-for-auto-repair-shops",
       "path": "/missed-call-text-back-for-auto-repair-shops",
       "label": "Missed Call Text-Back for Auto Repair Shops",

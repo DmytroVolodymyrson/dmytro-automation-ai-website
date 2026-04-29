@@ -233,6 +233,10 @@ const data: DecisionPageData = {
           href: "/appointment-scheduling-and-reminder-automation-for-auto-repair-shops",
         },
         {
+          label: "Referral request automation for auto repair shops",
+          href: "/referral-request-automation-for-auto-repair-shops",
+        },
+        {
           label: "Report delivery and review automation for home inspectors",
           href: "/report-delivery-and-review-automation-for-home-inspectors",
         },
@@ -285,6 +289,10 @@ const data: DecisionPageData = {
     {
       label: "Maintenance reminder automation for auto repair shops",
       href: "/maintenance-reminder-automation-for-auto-repair-shops",
+    },
+    {
+      label: "Referral request automation for auto repair shops",
+      href: "/referral-request-automation-for-auto-repair-shops",
     },
     {
       label: "AI phone answering for auto repair shops",
