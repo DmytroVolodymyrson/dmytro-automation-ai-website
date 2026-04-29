@@ -276,6 +276,7 @@ import AppointmentSchedulingAndReminderAutomationForServiceBusinesses from "./pa
 import AppointmentSchedulingAndReminderAutomationVsAiAppointmentSetterForServiceBusinesses from "./pages/AppointmentSchedulingAndReminderAutomationVsAiAppointmentSetterForServiceBusinesses";
 import AppointmentSchedulingAndReminderSetupForServiceBusinesses from "./pages/AppointmentSchedulingAndReminderSetupForServiceBusinesses";
 import AppointmentSchedulingAndReminderCostSmallBusiness from "./pages/AppointmentSchedulingAndReminderCostSmallBusiness";
+import AppointmentSchedulingAndReminderRoiSmallBusiness from "./pages/AppointmentSchedulingAndReminderRoiSmallBusiness";
 import AiPhoneAnswering from "./pages/AiPhoneAnswering";
 import MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses from "./pages/MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses";
 import MissedCallTextBackVsVoicemailForServiceBusinesses from "./pages/MissedCallTextBackVsVoicemailForServiceBusinesses";
@@ -843,6 +844,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses", element: <AppointmentSchedulingAndReminderAutomationVsAiAppointmentSetterForServiceBusinesses /> },
   { path: "/appointment-scheduling-and-reminder-setup-for-service-businesses", element: <AppointmentSchedulingAndReminderSetupForServiceBusinesses /> },
   { path: "/appointment-scheduling-and-reminder-cost-small-business", element: <AppointmentSchedulingAndReminderCostSmallBusiness /> },
+  { path: "/appointment-scheduling-and-reminder-roi-small-business", element: <AppointmentSchedulingAndReminderRoiSmallBusiness /> },
   { path: "/booking-confirmation-and-reminder-automation", element: <BookingConfirmationAndReminder /> },
   { path: "/ai-phone-answering-for-service-businesses", element: <AiPhoneAnswering /> },
   { path: "/missed-call-text-back-vs-ai-phone-answering-for-service-businesses", element: <MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses /> },

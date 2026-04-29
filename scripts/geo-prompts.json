@@ -2744,6 +2744,18 @@
       ]
     },
     {
+      "id": "appointment-scheduling-and-reminder-roi-small-business",
+      "path": "/appointment-scheduling-and-reminder-roi-small-business",
+      "label": "Appointment Scheduling and Reminder ROI for Small Business",
+      "prompts": [
+        "what is the roi on appointment scheduling and reminder automation for a small business",
+        "how do I know if scheduling and reminder automation will pay for itself",
+        "how many recovered appointments does it take for scheduling automation to pay back",
+        "is appointment scheduling and reminder automation worth building or should I stay manual",
+        "how quickly does appointment scheduling and reminder automation pay for itself"
+      ]
+    },
+    {
       "id": "contact-form-autoresponder-vs-full-lead-follow-up",
       "path": "/contact-form-autoresponder-vs-full-lead-follow-up",
       "label": "Contact Form Autoresponder vs. Full Lead Follow-Up",

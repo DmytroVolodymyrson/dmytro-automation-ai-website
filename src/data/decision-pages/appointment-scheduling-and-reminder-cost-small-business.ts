@@ -258,6 +258,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Appointment scheduling and reminder automation", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
     { label: "Appointment scheduling and reminder setup", href: "/appointment-scheduling-and-reminder-setup-for-service-businesses" },
+    { label: "Appointment scheduling and reminder ROI", href: "/appointment-scheduling-and-reminder-roi-small-business" },
     { label: "Scheduling automation vs. AI appointment setter", href: "/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses" },
     { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
     { label: "No-show reduction cost for small business", href: "/no-show-reduction-cost-small-business" },

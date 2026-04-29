@@ -988,6 +988,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Appointment Scheduling and Reminder ROI for Small Business",
+    description:
+      "Conservative payback guide for service businesses evaluating scheduling automation. Covers recovered appointments, cleaner calendar utilization, saved admin time, prep-step compliance, and when the economics justify building versus staying manual.",
+    href: "/appointment-scheduling-and-reminder-roi-small-business",
+    category: "workflows",
+  },
+  {
     title: "Contact Form Autoresponder vs. Full Lead Follow-Up",
     description:
       "Decision guide for owners asking whether a basic form autoresponder is still enough or whether website leads now need a real workflow with qualification, routing, and short follow-up.",

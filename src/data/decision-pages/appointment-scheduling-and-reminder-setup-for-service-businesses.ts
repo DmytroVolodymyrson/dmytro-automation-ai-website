@@ -219,6 +219,7 @@ const data: DecisionPageData = {
     { label: "Appointment scheduling and reminder automation", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
     { label: "Scheduling automation vs. AI appointment setter", href: "/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses" },
     { label: "Appointment scheduling and reminder cost", href: "/appointment-scheduling-and-reminder-cost-small-business" },
+    { label: "Appointment scheduling and reminder ROI", href: "/appointment-scheduling-and-reminder-roi-small-business" },
     { label: "No-show reduction setup", href: "/no-show-reduction-setup-for-service-businesses" },
     { label: "No-show reduction setup vs. DIY", href: "/no-show-reduction-setup-vs-diy-small-business" },
     { label: "No-show reduction cost for small business", href: "/no-show-reduction-cost-small-business" },
