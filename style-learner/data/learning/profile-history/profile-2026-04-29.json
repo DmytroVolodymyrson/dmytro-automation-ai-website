@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-29T16:46:08.919Z",
-  "postCount": 542,
+  "updatedAt": "2026-04-29T17:02:54.378Z",
+  "postCount": 543,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,25 +15,25 @@
       "max": 12,
       "p25": 4,
       "p75": 4,
-      "samples": 542
+      "samples": 543
     },
     "sentenceLength": {
       "mean": 23.8,
-      "median": 24.25,
+      "median": 24.2,
       "min": 7.1,
       "max": 105,
       "p25": 19.5,
       "p75": 27.6,
-      "samples": 542
+      "samples": 543
     },
     "totalWords": {
-      "mean": 332,
+      "mean": 333,
       "median": 336,
       "min": 17,
       "max": 1155,
       "p25": 281,
-      "p75": 372,
-      "samples": 542
+      "p75": 373,
+      "samples": 543
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -132,7 +132,8 @@
       "single | short": 1,
       "long | single": 1,
       "long | short | single": 1,
-      "short | single": 2
+      "short | single": 2,
+      "long | long | long | long | long | long | short | short | long | long | long | long": 1
     },
     "structuralTemplates": {
       "opener | context | result | context | closer": 3,
@@ -205,7 +206,8 @@
       "opener | product-pitch | result | product-pitch | closer": 1,
       "opener | product-pitch | product-pitch | product-pitch | result | closer": 1,
       "opener | result | result | product-pitch | closer": 1,
-      "opener | context | context | result | closer": 1
+      "opener | context | context | result | closer": 1,
+      "opener | context | product-pitch | product-pitch | context | result | context | product-pitch | context | context | context | closer": 1
     }
   },
   "openers": {
@@ -235,7 +237,7 @@
         ]
       },
       "question": {
-        "count": 34,
+        "count": 35,
         "examples": [
           "Q: What kind of businesses do you work with?",
           "### Hero\nBadge: AI Automation Consulting\nHeading: Do you actually need an AI aut",
@@ -262,7 +264,7 @@
         ]
       },
       "question": {
-        "count": 447,
+        "count": 448,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -319,7 +321,7 @@
       ],
       [
         "workflow",
-        1113
+        1123
       ],
       [
         "how",
@@ -331,11 +333,11 @@
       ],
       [
         "it",
-        990
+        996
       ],
       [
         "when",
-        910
+        922
       ],
       [
         "this",
@@ -351,7 +353,7 @@
       ],
       [
         "whether",
-        733
+        741
       ],
       [
         "first",
@@ -395,27 +397,27 @@
       ],
       [
         "should",
-        440
+        447
       ],
       [
         "not",
         382
       ],
       [
+        "heading",
+        377
+      ],
+      [
+        "setup",
+        375
+      ],
+      [
         "lead",
         373
       ],
       [
-        "heading",
-        365
-      ],
-      [
-        "setup",
-        358
-      ],
-      [
         "body",
-        318
+        330
       ],
       [
         "business",

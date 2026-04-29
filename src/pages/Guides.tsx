@@ -743,6 +743,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Review Request Automation Setup vs. DIY for Small Business",
+    description:
+      "Buy-vs-build guide for owners deciding whether to keep wrestling with review-request setup themselves or pay for a bounded implementation now. Covers owner time, trigger hygiene, complaint routing, CRM visibility, and when setup help is cheaper than more DIY drift.",
+    href: "/review-request-automation-setup-vs-diy-small-business",
+    category: "workflows",
+  },
+  {
     title: "Review Request Automation Cost for Small Business",
     description:
       "Pricing guide for post-job review-request builds — realistic cost ranges for completed-job triggers, timing rules, complaint routing, CRM logging, field-to-office handoff, and human-reply ownership after the work is done.",

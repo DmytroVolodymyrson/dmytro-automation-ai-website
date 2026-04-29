@@ -2236,7 +2236,19 @@
         "What should review request automation setup include for a service business?",
         "How do I keep review asks from firing before a job is truly complete?",
         "How should a service business route unhappy replies before a public review ask goes out automatically?",
-        "Is review request automation setup worth paying for if my team already finishes the work but asks inconsistently?"
+        "What mistakes make DIY review request setup break after launch?"
+      ]
+    },
+    {
+      "id": "review-request-automation-setup-vs-diy-small-business",
+      "path": "/review-request-automation-setup-vs-diy-small-business",
+      "label": "Review Request Automation Setup vs. DIY for Small Business",
+      "prompts": [
+        "Review request automation setup vs DIY for small business",
+        "Should I hire someone to set up review request automation for my small business?",
+        "When is DIY review request automation setup enough for a service business?",
+        "Is review request automation setup worth paying for if my team could probably build it ourselves?",
+        "What makes review request automation setup too messy to keep DIYing?"
       ]
     },
     {

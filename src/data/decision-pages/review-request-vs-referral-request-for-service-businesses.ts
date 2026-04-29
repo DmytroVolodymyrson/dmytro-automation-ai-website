@@ -251,6 +251,7 @@ const data: DecisionPageData = {
       links: [
         { label: "Review request automation for service businesses", href: "/review-request-automation-for-service-businesses" },
         { label: "Review request automation setup", href: "/review-request-automation-setup-for-service-businesses" },
+        { label: "Review request setup vs. DIY", href: "/review-request-automation-setup-vs-diy-small-business" },
         { label: "Review request automation ROI", href: "/review-request-automation-roi-small-business" },
         { label: "Referral request automation for service businesses", href: "/referral-request-automation-for-service-businesses" },
         { label: "Referral request setup for service businesses", href: "/referral-request-automation-setup-for-service-businesses" },
@@ -296,6 +297,7 @@ const data: DecisionPageData = {
     "No generic reputation-marketing pitch and no pressure to overbuild. Just a practical recommendation based on your current post-job handoff, service mix, and growth goals.",
   relatedLinks: [
     { label: "Review request automation for service businesses", href: "/review-request-automation-for-service-businesses" },
+    { label: "Review request setup vs. DIY", href: "/review-request-automation-setup-vs-diy-small-business" },
     { label: "Review request automation cost", href: "/review-request-automation-cost-small-business" },
     { label: "Review request automation ROI", href: "/review-request-automation-roi-small-business" },
     { label: "Referral request automation for service businesses", href: "/referral-request-automation-for-service-businesses" },

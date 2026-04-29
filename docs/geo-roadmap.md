@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/client-reactivation-setup-vs-diy-small-business` after reconciliation confirmed the client reactivation cluster already had the parent, setup-help, cost, and ROI layers live but still lacked the exact buy-vs-build child. The new page stays narrowly on owner time, CRM hygiene, segmentation risk, follow-up logic, reactivation timing, handoff expectations, and when bounded setup help is cheaper than more DIY drift. Previous: `/missed-call-text-back-setup-vs-diy-small-business`.)
+Last updated: 2026-04-29 (shipped `/review-request-automation-setup-vs-diy-small-business` after reconciliation confirmed the review-request cluster already had the parent, setup-help, cost, and ROI layers live but still lacked the exact buy-vs-build child. The new page stays narrowly on owner time, completion-signal hygiene, timing logic, complaint routing, CRM visibility, reply ownership, and when bounded setup help is cheaper than more DIY drift. Previous: `/client-reactivation-setup-vs-diy-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 364.
+**Total live GEO pages tracked here:** 365.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -26,6 +26,7 @@ Last updated: 2026-04-29 (shipped `/client-reactivation-setup-vs-diy-small-busin
 | AI Lead Follow-Up ROI (SMB) | `/ai-lead-follow-up-roi-small-business` | Workflow / ROI page | Live |
 | Review Request Automation (Service Businesses) | `/review-request-automation-for-service-businesses` | Workflow parent page | Live |
 | Review Request Automation Setup (Service Businesses) | `/review-request-automation-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| Review Request Automation Setup vs. DIY (SMB) | `/review-request-automation-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | Review Request Automation Cost (SMB) | `/review-request-automation-cost-small-business` | Workflow / service cost page | Live |
 | Review Request Automation ROI (SMB) | `/review-request-automation-roi-small-business` | Workflow / ROI page | Live |
 | Referral Request Automation (Service Businesses) | `/referral-request-automation-for-service-businesses` | Workflow parent page | Live |
@@ -376,10 +377,10 @@ Last updated: 2026-04-29 (shipped `/client-reactivation-setup-vs-diy-small-busin
 
 ## Next Pages
 
-This run shipped `/client-reactivation-setup-vs-diy-small-business` because the live client reactivation cluster already had the parent, setup-help, cost, and ROI layers live, and the remaining clean buyer decision was whether a small business should keep DIYing reactivation setup or pay for help now. The new page stays narrower than the setup-help page by focusing on owner time, CRM hygiene, segmentation risk, follow-up logic, reactivation timing, handoff expectations, and when bounded setup help is cheaper than more DIY drift.
+This run shipped `/review-request-automation-setup-vs-diy-small-business` because the live review-request cluster already had the parent, setup-help, cost, and ROI layers live, and the remaining clean buyer decision was whether a small business should keep DIYing setup or pay for bounded implementation help now. The new page stays narrower than the setup-help page by focusing on owner time, completion-signal hygiene, timing logic, complaint routing, CRM visibility, reply ownership, and when more DIY drift costs more than help.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | Broad reconciliation across other mature setup-help / cost / ROI clusters | Next-best ship should still come from an exact surviving buyer query inside a live cluster, not a guessed sibling page. |
-| 2 | `review-request-automation-setup-vs-diy-small-business` | The review-request cluster already has the parent, setup-help, cost, and ROI layers live, so the remaining buy-vs-build child still looks like a clean exact-query candidate if reconciliation confirms no overlap drift. |
+| 1 | Broad reconciliation across other mature setup-help / cost / ROI clusters | Next-best ship should still come from an exact surviving buyer query inside a live cluster, not a guessed same-cluster sibling. |
+| 2 | `referral-request-automation-setup-vs-diy-small-business` | The referral-request cluster already has the parent, setup-help, cost, and ROI layers live, so the parallel buy-vs-build child looks like the cleanest exact-query candidate if reconciliation confirms no overlap drift. |
 | 3 | Existing-page discovery / tracking refresh if no clean new slug survives | If no clearly distinct page remains after reconciliation, tighten guides/llm/prompt coverage on the strongest live clusters instead of creating a thin page. |
