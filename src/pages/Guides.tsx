@@ -1388,6 +1388,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Referral Request Automation for Law Firms",
+    description:
+      "Post-matter advocacy workflow for law firms that want more warm introductions from satisfied clients, clearer referral timing separate from review asks, ethics-compliant language, and faster attorney handoff when a client names a real person who needs legal help.",
+    href: "/referral-request-automation-for-law-firms",
+    category: "industries",
+  },
+  {
     title: "AI Automation for Accounting Firms",
     description:
       "AI automation for accounting firms. Client onboarding, document collection, appointment scheduling, and seasonal workflows for CPA and bookkeeping practices.",

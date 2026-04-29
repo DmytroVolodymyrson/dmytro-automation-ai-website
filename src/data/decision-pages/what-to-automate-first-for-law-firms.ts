@@ -310,6 +310,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI automation for law firms", href: "/ai-automation-for-law-firms" },
     { label: "Review request automation for law firms", href: "/review-request-automation-for-law-firms" },
+    { label: "Referral request automation for law firms", href: "/referral-request-automation-for-law-firms" },
     { label: "AI automation for accounting firms", href: "/ai-automation-for-accounting-firms" },
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
     { label: "All guides", href: "/guides" },

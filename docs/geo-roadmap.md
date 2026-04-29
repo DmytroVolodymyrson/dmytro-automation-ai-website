@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-28 (shipped `/project-status-update-automation-for-solar-companies` — a new solar-cluster post-sale communication child page that covers milestone updates, homeowner next-step reminders, exception routing, and clearer project-manager handoff once the install is already moving. Stays distinct from the live solar lead-follow-up, utility-bill, scheduling, quote-follow-up, and phone pages by focusing narrowly on the project-stage update layer after the sale. Previous: `/review-request-automation-for-mortgage-brokers`.)
+Last updated: 2026-04-28 (shipped `/referral-request-automation-for-law-firms` — a new law-firm post-matter advocacy child page that covers referral timing after a closed matter, ethics-compliant language, separation from review asks, and fast attorney handoff when a satisfied client names a colleague, friend, or family member who needs legal help. Stays distinct from the live law-firm intake, scheduling, case-status, phone, unretained-consult, and review-request pages by focusing narrowly on private introductions after the engagement is already complete. Previous: `/project-status-update-automation-for-solar-companies`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 324.
+**Total live GEO pages tracked here:** 325.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -167,6 +167,7 @@ Last updated: 2026-04-28 (shipped `/project-status-update-automation-for-solar-c
 | Text-Back vs AI Phone (Law Firms) | `/missed-call-text-back-vs-ai-phone-answering-for-law-firms` | Vertical comparison page | Live |
 | Text-Back vs Voicemail (Law Firms) | `/missed-call-text-back-vs-voicemail-for-law-firms` | Vertical comparison page | Live |
 | Review Request Automation (Law Firms) | `/review-request-automation-for-law-firms` | Vertical workflow page | Live |
+| Referral Request Automation (Law Firms) | `/referral-request-automation-for-law-firms` | Vertical workflow page | Live |
 | AI for Solar Companies | `/ai-automation-for-solar-companies` | Vertical category page | Live |
 | What to Automate First (Solar) | `/what-to-automate-first-for-solar-companies` | Vertical decision page | Live |
 | Utility Bill Collection (Solar) | `/utility-bill-collection-automation-for-solar-companies` | Vertical workflow page | Live |
@@ -336,16 +337,16 @@ Last updated: 2026-04-28 (shipped `/project-status-update-automation-for-solar-c
 
 ## Next Pages
 
-This run shipped `/review-request-automation-for-mortgage-brokers`, previously listed as Priority 3 in the queue. The mortgage cluster now covers early-funnel lead follow-up, booked-consult scheduling, document collection, incomplete-application recovery, phone recovery (missed-call text-back, AI phone answering, three comparison pages), referral requests, review requests, and first-project scoping. That is a dense cluster.
+This run shipped `/referral-request-automation-for-law-firms`. The law-firm cluster now covers broad parent intent, first-project scoping, intake/conflict-check prep, consultation scheduling, no-show reduction, unretained-consult follow-up, case-status updates, phone recovery (missed-call text-back, AI phone answering, and both comparison layers), review requests, and referral requests. That is now a dense, defensible legal cluster.
 
 The next run should:
 
-1. **Start from a fresh broad reconciliation before naming the next net-new page.** The mortgage cluster is now deep enough that the next best candidate is more likely to come from a different vertical or a cross-vertical workflow gap than from another mortgage sibling.
+1. **Start from a fresh broad reconciliation before naming the next net-new page.** The repo is dense enough that stale docs can still over-credit a cluster or make an already-live page look missing.
 2. **Keep manual GSC follow-through moving** on the newest shipped pages and refreshed priority URLs instead of treating publish alone as the finish line.
-3. **Only force another same-cluster mortgage sibling if a materially different tracked query still survives review** after reconciliation; otherwise pivot to the strongest distinct cross-cluster gap.
+3. **Bias toward the next clean cross-cluster workflow gap rather than forcing another same-cluster law-firm child by inertia.** If reconciliation still points to a law-firm gap, prove it explicitly before shipping it.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
-| 1 | Fresh broad reconciliation before another net-new page | The repo is dense enough that stale docs can still make already-live pages look missing or can over-credit one cluster. The mortgage cluster is now deep — the next best candidate is likely elsewhere. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
-| 2 | Manual GSC follow-through on refreshed priority URLs and the newest mortgage/accounting ships | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |
-| 3 | Cross-cluster gap from reconciliation (conservatively: strongest distinct vertical or workflow-layer gap that survived route/prompt checks) | The mortgage cluster is saturated for now. The next defensible page is more likely a missing child in another vertical (e.g., a law-firm, insurance, or property-management workflow gap) or a missing cross-vertical workflow comparison. | Must survive a full reconciliation pass before being named — do not pre-commit to a specific slug until the gap is confirmed absent from routes, prompts, sitemap, and llm files. |
+| 1 | Fresh broad reconciliation before another net-new page | The law-firm cluster is now deep, and the next best candidate is more likely a distinct workflow gap elsewhere than another legal sibling. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` again before naming the next net-new candidate. |
+| 2 | `/appointment-scheduling-and-reminder-automation-for-insurance-agencies` | The insurance cluster already covers lead follow-up, quote follow-up, renewals, cross-sell, review/referral asks, after-hours inquiry handling, and phone-recovery comparisons, but it still lacks a booked-consult / policy-review scheduling child. That is a commercially real stage with clear internal-link value and no obvious overlap with the existing insurance pages. | Confirm the slug is still absent from routes, sitemap, guides, `llm` files, and `scripts/geo-prompts.json`, then verify the parent and first-project insurance pages still frame booking / reminder workflow as a distinct missing layer before shipping. |
+| 3 | Manual GSC follow-through on refreshed priority URLs and the newest law-firm/solar ships | Several high-value pages are still new enough that crawl/index feedback matters at least as much as one more publish. | Re-open `docs/geo-priority-urls.md`, inspect the newest refreshed and newly shipped pages in GSC, and record whether crawl/index state moved after the latest deploys. |

@@ -1364,6 +1364,18 @@
       ]
     },
     {
+      "id": "referral-request-automation-for-law-firms",
+      "path": "/referral-request-automation-for-law-firms",
+      "label": "Referral Request Automation for Law Firms",
+      "prompts": [
+        "Referral request automation for law firms",
+        "How should a law firm ask satisfied clients for referrals after a matter closes without sounding pushy or violating bar ethics rules?",
+        "Best way for a small law firm to automate post-matter referral follow-up while routing warm introductions back to the responsible attorney",
+        "Should a law firm keep referral requests separate from review requests after a case or matter closes?",
+        "How do law firms time referral asks when the legal outcome may still need to settle before the client is ready to advocate?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-accounting-firms",
       "path": "/what-to-automate-first-for-accounting-firms",
       "label": "What to Automate First for Accounting Firms",

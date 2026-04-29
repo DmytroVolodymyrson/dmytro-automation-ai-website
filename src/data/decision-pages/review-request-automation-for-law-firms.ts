@@ -262,13 +262,14 @@ const data: DecisionPageData = {
   ctaSubtext:
     "No obligation. No generic reputation-management pitch. Just a practical conversation about where your post-matter follow-through is leaking trust or reviews.",
   relatedLinks: [
-    {
-      label: "AI automation for law firms",
-      href: "/ai-automation-for-law-firms",
-    },
+    { label: "AI automation for law firms", href: "/ai-automation-for-law-firms" },
     {
       label: "What to automate first for law firms",
       href: "/what-to-automate-first-for-law-firms",
+    },
+    {
+      label: "Referral request automation for law firms",
+      href: "/referral-request-automation-for-law-firms",
     },
     {
       label: "Unretained-consult follow-up for law firms",

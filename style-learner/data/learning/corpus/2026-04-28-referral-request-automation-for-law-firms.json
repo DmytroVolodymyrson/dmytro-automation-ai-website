@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-28-referral-request-automation-for-law-firms",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-28",
+  "dayOfWeek": "tuesday",
+  "published": {
+    "text": "### Hero\nHeading: Referral Request Automation for Law Firms\nBody: Most law firms say referrals are their best source of new matters, then treat referral follow-up the same way they treat everything else that happens after the engagement closes: it depends on whether someone remembers. The matter wraps. The client seems satisfied. Maybe the client already mentioned a friend with a lease dispute, a sibling starting a business, or a colleague who needs estate planning. Then nobody follows up. Or the firm bundles a review ask, a referral ask, and a generic thank-you into one awkward post-matter message that sounds more like a marketing blast than a real follow-up. Referral request automation for law firms fixes that narrower post-matter advocacy workflow. It gives the firm a believable moment to ask for introductions once the engagement actually feels settled, keeps referral asks separate from review asks, routes warm replies back to the responsible attorney fast, and respects the ethics and confidentiality constraints that make legal referral follow-up different from a contractor asking a homeowner to mention them to the neighbors.\nSub: Below: what a practical law-firm referral-request workflow should handle, how it stays distinct from review requests and the broader law-firm automation page, which ethics guardrails matter, and what proof honestly supports this page without pretending there is already a dedicated law-firm referral-automation case study on the site.\n\n### Core sections\n- What law-firm referral-request automation should actually handle\n- How this page stays distinct inside the law-firm cluster\n- Is this a good fit for your law firm?\n- Guardrails that keep law-firm referral automation useful and compliant\n- How a practical law-firm referral-request workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical answers for law firms considering a cleaner referral workflow after the matter closes\nTopics: how this differs from review-request automation, how bar-association ethics rules affect referral asks, when a firm should ask for referrals after a closed matter, what a focused referral workflow usually costs, and where the ROI actually comes from.\n\n### Final CTA\nHeading: Want more closed matters to turn into real introductions?\nBody: Book a 30-minute call. We will look at how your firm handles post-matter follow-up today, where warm referral opportunities are being lost, and whether a focused referral workflow, an earlier intake or follow-up fix, or a broader past-client system is the smarter next build.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the post-matter advocacy child inside the law-firm cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the law-firm cluster already covered intake, scheduling, no-show reduction, unretained-consult follow-up, case-status updates, phone handling, and review requests, but still lacked a dedicated page for private introductions after a closed matter."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/review-request-automation-for-law-firms` by focusing on private introductions instead of public reputation signals, and from `/unretained-consult-follow-up-for-law-firms` by staying strictly after the matter is already complete."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live law-firm cluster, adjacent referral pages in mortgage and insurance, and the published e-commerce CRM case study support the workflow logic without pretending there is already a dedicated law-firm referral-automation case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: fit / not-fit framing, explicit ethics guardrails, and clean separation from review asks or broader past-client nurture."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-28T23:58:36.656Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        9,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 26.3,
+      "sentenceLengthRange": [
+        3,
+        58
+      ],
+      "totalWords": 394
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Referral Request Automation for Law Firms\nBody: Most law firms say referrals are their best source of new matters, then treat referral follow-up the same way they treat everything else that happens after the engagement closes: it depends on whether someone remembers.",
+      "wordCount": 44,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want more closed matters to turn into real introductions?\nBody: Book a 30-minute call. We will look at how your firm handles post-matter follow-up today, where warm referral opportunities are being lost, and whether a focused referral workflow, an earlier intake or follow-up fix, or a broader past-client system is the smarter next build.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 12,
+      "commas": 19,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 9,
+      "commasPerSentence": 1.36
+    },
+    "vocabulary": {
+      "distinctWords": 205,
+      "totalWords": 394,
+      "topWords": [
+        [
+          "referral",
+          12
+        ],
+        [
+          "law-firm",
+          7
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "workflow",
+          6
+        ],
+        [
+          "how",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "law",
+          5
+        ],
+        [
+          "follow-up",
+          5
+        ],
+        [
+          "that",
+          5
+        ],
+        [
+          "firm",
+          5
+        ],
+        [
+          "from",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "this",
+          5
+        ],
+        [
+          "firms",
+          4
+        ],
+        [
+          "matter",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
