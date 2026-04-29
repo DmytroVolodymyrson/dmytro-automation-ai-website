@@ -291,8 +291,20 @@
         "What does AI lead follow-up setup involve for a service business?",
         "How do I set up automated lead follow-up with CRM integration?",
         "What should be configured before launching lead follow-up automation?",
-        "When is professional setup worth paying for versus DIY lead follow-up?",
+        "When is professional setup worth paying for in lead follow-up automation?",
         "What are the most common setup mistakes in lead follow-up automation?"
+      ]
+    },
+    {
+      "id": "ai-lead-follow-up-setup-vs-diy-small-business",
+      "path": "/ai-lead-follow-up-setup-vs-diy-small-business",
+      "label": "AI Lead Follow-Up Setup vs. DIY for Small Business",
+      "prompts": [
+        "Should I set up AI lead follow-up myself or hire expert help?",
+        "When is DIY lead follow-up setup enough for a small business?",
+        "When should a small business pay for lead-follow-up setup instead of DIY?",
+        "How do I decide between DIY and professional setup for AI lead follow-up?",
+        "Is lead-follow-up setup help worth it compared with doing it myself?"
       ]
     },
     {

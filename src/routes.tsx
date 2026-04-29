@@ -20,6 +20,7 @@ import AiLeadFollowUpForServiceBusinesses from "./pages/AiLeadFollowUpForService
 import AiLeadFollowUpCostSmallBusiness from "./pages/AiLeadFollowUpCostSmallBusiness";
 import AiLeadFollowUpRoiSmallBusiness from "./pages/AiLeadFollowUpRoiSmallBusiness";
 import AiLeadFollowUpSetupForServiceBusinesses from "./pages/AiLeadFollowUpSetupForServiceBusinesses";
+import AiLeadFollowUpSetupVsDiySmallBusiness from "./pages/AiLeadFollowUpSetupVsDiySmallBusiness";
 import MissedCallTextBackCostSmallBusiness from "./pages/MissedCallTextBackCostSmallBusiness";
 import MissedCallTextBackRoiSmallBusiness from "./pages/MissedCallTextBackRoiSmallBusiness";
 import MissedCallTextBackSetupForServiceBusinesses from "./pages/MissedCallTextBackSetupForServiceBusinesses";
@@ -484,6 +485,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-lead-follow-up-cost-small-business", element: <AiLeadFollowUpCostSmallBusiness /> },
   { path: "/ai-lead-follow-up-roi-small-business", element: <AiLeadFollowUpRoiSmallBusiness /> },
   { path: "/ai-lead-follow-up-setup-for-service-businesses", element: <AiLeadFollowUpSetupForServiceBusinesses /> },
+  { path: "/ai-lead-follow-up-setup-vs-diy-small-business", element: <AiLeadFollowUpSetupVsDiySmallBusiness /> },
   { path: "/missed-call-text-back-cost-small-business", element: <MissedCallTextBackCostSmallBusiness /> },
   { path: "/missed-call-text-back-roi-small-business", element: <MissedCallTextBackRoiSmallBusiness /> },
   { path: "/missed-call-text-back-setup-for-service-businesses", element: <MissedCallTextBackSetupForServiceBusinesses /> },

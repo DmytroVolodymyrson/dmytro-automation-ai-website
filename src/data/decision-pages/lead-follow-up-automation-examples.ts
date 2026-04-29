@@ -179,6 +179,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
     { label: "AI lead follow-up setup for service businesses", href: "/ai-lead-follow-up-setup-for-service-businesses" },
+    { label: "AI lead follow-up setup vs. DIY", href: "/ai-lead-follow-up-setup-vs-diy-small-business" },
     { label: "Missed call follow-up automation", href: "/missed-call-follow-up-automation" },
     { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
     { label: "AI email sequence automation", href: "/ai-email-sequence-automation" },

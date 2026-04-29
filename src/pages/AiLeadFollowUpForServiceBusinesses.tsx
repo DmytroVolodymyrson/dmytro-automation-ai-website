@@ -197,7 +197,14 @@ const AiLeadFollowUpForServiceBusinesses = () => {
                 >
                   AI lead follow-up ROI guide
                 </Link>
-                before you request a custom build.
+                before you request a custom build. If the real decision is whether this should stay a DIY project or be implemented properly now, review the
+                <Link
+                  to="/ai-lead-follow-up-setup-vs-diy-small-business"
+                  className="mx-1 text-primary hover:text-primary/80 underline underline-offset-4"
+                >
+                  lead-follow-up setup vs DIY guide
+                </Link>
+                first.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Button

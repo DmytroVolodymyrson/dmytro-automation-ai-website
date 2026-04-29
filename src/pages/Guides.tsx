@@ -491,6 +491,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Lead Follow-Up Setup vs. DIY for Small Business",
+    description:
+      "Should you set up AI lead follow-up yourself or hire expert help? Practical guide to owner time, CRM routing risk, sequence complexity, and when setup help is cheaper than DIY delay.",
+    href: "/ai-lead-follow-up-setup-vs-diy-small-business",
+    category: "workflows",
+  },
+  {
     title: "Client Onboarding Automation",
     description:
       "How to automate client onboarding for service businesses. Intake forms, document collection, welcome sequences, scheduling, and CRM pipeline automation.",

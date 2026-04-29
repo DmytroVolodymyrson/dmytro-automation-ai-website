@@ -92,6 +92,7 @@ const data: DecisionPageData = {
           title: "2. Estimate recovered opportunity value conservatively",
           body: "Use your real average job value, estimate value, consultation value, or close-rate math. A cautious model might assume one or two additional saved opportunities per month — not heroic conversion jumps. For many small businesses, that is already enough to justify a meaningful share of the build cost.",
           links: [
+            { label: "AI lead follow-up setup vs. DIY", href: "/ai-lead-follow-up-setup-vs-diy-small-business" },
             { label: "AI lead follow-up cost for small business", href: "/ai-lead-follow-up-cost-small-business" },
             { label: "AI automation cost for small business", href: "/ai-automation-cost-small-business" },
           ],

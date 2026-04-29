@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/review-request-automation-roi-small-business` — a new cross-industry ROI/payback child inside the review-request cluster covering recovered review volume, saved post-job follow-up time, complaint-protection value, and when a focused review workflow pays for itself versus when the ask should stay manual. Stays distinct from the service-business review parent by focusing on economics instead of the broader post-job reputation workflow, from the review-request setup sibling by evaluating payback instead of explaining implementation scope, and from the review-request cost sibling by answering whether the spend is justified instead of what the workflow costs. Previous: `/referral-request-automation-roi-small-business`.)
+Last updated: 2026-04-29 (shipped `/ai-lead-follow-up-setup-vs-diy-small-business` — a new small-business buy-vs-build child inside the lead-follow-up cluster covering owner time, workflow risk, CRM routing complexity, and when paying for setup help is cheaper than another month of DIY delay. Stays distinct from the lead-follow-up setup sibling by answering the hire-vs-DIY decision instead of implementation scope, from the lead-follow-up cost sibling by focusing on who should own the setup instead of budget bands, and from the lead-follow-up ROI sibling by weighing workflow risk and launch speed instead of payback math. Previous: `/review-request-automation-roi-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 351.
+**Total live GEO pages tracked here:** 352.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -50,6 +50,7 @@ Last updated: 2026-04-29 (shipped `/review-request-automation-roi-small-business
 | Client Reactivation Cost (SMB) | `/client-reactivation-cost-small-business` | Category cost page | Live |
 | Client Reactivation ROI (SMB) | `/client-reactivation-roi-small-business` | Workflow / ROI page | Live |
 | AI Lead Follow-Up Setup (Service Businesses) | `/ai-lead-follow-up-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| AI Lead Follow-Up Setup vs. DIY (SMB) | `/ai-lead-follow-up-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Category cost page | Live |
 | Estimate Follow-Up Cost (SMB) | `/estimate-follow-up-cost-small-business` | Workflow cost page | Live |
 | Estimate Follow-Up ROI (SMB) | `/estimate-follow-up-roi-small-business` | Workflow ROI page | Live |
@@ -363,16 +364,16 @@ Last updated: 2026-04-29 (shipped `/review-request-automation-roi-small-business
 
 ## Next Pages
 
-This run shipped `/review-request-automation-roi-small-business`. The paired review/referral service-business cluster now has the review parent, review setup, review cost, review ROI, referral parent, referral setup, referral cost, referral ROI, and the adjacent review-vs-referral comparison. That is enough horizontal coverage for now. The next run should not force another same-cluster review/referral child by inertia unless a fresh repo-wide reconciliation reveals a clearly distinct surviving page that is still unshipped.
+This run shipped `/ai-lead-follow-up-setup-vs-diy-small-business`. The horizontal lead-follow-up service-business cluster now has the parent guide, setup scope page, buy-vs-build setup decision, cost page, ROI page, examples page, contact-form child, and instant-response support pages. That is enough cluster coverage for now. The next run should not force another same-cluster lead-follow-up child by inertia unless a fresh repo-wide reconciliation reveals a clearly distinct surviving page that is still unshipped.
 
 The next run should:
 
 1. **Keep manual GSC follow-through moving** on the newest workflow ships instead of treating publish alone as the finish line.
 2. **Run a fresh broad reconciliation first** across roadmap, planning docs, live routes, and prompts so the next page comes from the cleanest remaining repo-wide buyer-intent gap.
-3. **Only return to the paired review/referral service-business cluster if a truly net-new child still survives review** after checking routes, prompts, and adjacent siblings against the now-complete parent/setup/cost/ROI/comparison stack.
+3. **Only return to the horizontal lead-follow-up cluster if a truly net-new child still survives review** after checking routes, prompts, and adjacent siblings against the now-complete parent/setup/buy-vs-build/cost/ROI stack.
 
 | Priority | Candidate | Why it still looks viable | Required re-check before shipping |
 |---|---|---|---|
 | 1 | Manual GSC follow-through on newest workflow pages | Recent ships still need inspection and indexing requests where appropriate, especially after meaningful copy/internal-link updates go live. | Check the newest live URLs in GSC after deploy propagation and request indexing only after the live route, sitemap, and on-page copy are all confirmed. |
-| 2 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | With the paired review/referral service-business cluster now covered through parent/setup/cost/ROI/comparison, the cleanest next ship is likely somewhere else in the repo rather than another forced same-cluster page. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |
-| 3 | Re-check the paired review/referral service-business cluster only if a new distinct child survives | The cluster may still hold a future extraction, but only if it remains materially different from the current review/referral parent/setup/cost/ROI/comparison stack after repo-wide review. | Verify the exact slug is absent from routes/pages/prompts and that the framing does not collapse into generic ROI/cost/setup guidance before shipping. |
+| 2 | Fresh broad reconciliation across roadmap, planning docs, live routes, and prompts | With the horizontal lead-follow-up setup cluster now covered through parent/setup/buy-vs-build/cost/ROI, the cleanest next ship is likely somewhere else in the repo rather than another forced same-cluster page. | Reconcile `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-plan-2026-03.md`, current routes/pages, and `scripts/geo-prompts.json` before naming any fallback candidate. |
+| 3 | Re-check the horizontal lead-follow-up cluster only if a new distinct child survives | The cluster may still hold a future extraction, but only if it remains materially different from the current parent/setup/buy-vs-build/cost/ROI stack after repo-wide review. | Verify the exact slug is absent from routes/pages/prompts and that the framing does not collapse into generic setup, cost, ROI, or contact-form guidance before shipping. |
