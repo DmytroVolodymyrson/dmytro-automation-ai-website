@@ -120,6 +120,7 @@ const AiAutomationForMedicalClinics = lazy(() => import("./pages/AiAutomationFor
 const WhatToAutomateFirstForMedicalClinics = lazy(() => import("./pages/WhatToAutomateFirstForMedicalClinics"));
 const WhatToAutomateFirstForDentalPractices = lazy(() => import("./pages/WhatToAutomateFirstForDentalPractices"));
 const AiLeadFollowUpForDentalPractices = lazy(() => import("./pages/AiLeadFollowUpForDentalPractices"));
+const AppointmentSchedulingAndReminderAutomationForMedicalClinics = lazy(() => import("./pages/AppointmentSchedulingAndReminderAutomationForMedicalClinics"));
 const RecallAndReactivationAutomationForDentalPractices = lazy(() => import("./pages/RecallAndReactivationAutomationForDentalPractices"));
 const NoShowReductionAutomationForDentalPractices = lazy(() => import("./pages/NoShowReductionAutomationForDentalPractices"));
 const AppointmentSchedulingAndReminderAutomationForDentalPractices = lazy(() => import("./pages/AppointmentSchedulingAndReminderAutomationForDentalPractices"));
@@ -582,6 +583,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-automation-for-dental-practices" element={<AiAutomationForDentalPractices />} />
       <Route path="/ai-automation-for-medical-clinics" element={<AiAutomationForMedicalClinics />} />
       <Route path="/what-to-automate-first-for-medical-clinics" element={<WhatToAutomateFirstForMedicalClinics />} />
+      <Route path="/appointment-scheduling-and-reminder-automation-for-medical-clinics" element={<AppointmentSchedulingAndReminderAutomationForMedicalClinics />} />
       <Route path="/what-to-automate-first-for-dental-practices" element={<WhatToAutomateFirstForDentalPractices />} />
       <Route path="/ai-lead-follow-up-for-dental-practices" element={<AiLeadFollowUpForDentalPractices />} />
       <Route path="/appointment-scheduling-and-reminder-automation-for-dental-practices" element={<AppointmentSchedulingAndReminderAutomationForDentalPractices />} />

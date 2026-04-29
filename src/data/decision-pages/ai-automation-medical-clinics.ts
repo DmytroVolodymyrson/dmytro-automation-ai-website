@@ -240,6 +240,7 @@ const data: DecisionPageData = {
     "No generic platform pitch. Just a clear conversation about where clinic admin friction is actually costing you visits.",
   relatedLinks: [
     { label: "What to automate first for medical clinics", href: "/what-to-automate-first-for-medical-clinics" },
+    { label: "Appointment scheduling and reminder automation for medical clinics", href: "/appointment-scheduling-and-reminder-automation-for-medical-clinics" },
     { label: "AI automation for dental practices", href: "/ai-automation-for-dental-practices" },
     { label: "AI automation for chiropractors", href: "/ai-automation-for-chiropractors" },
     { label: "AI automation for med spas", href: "/ai-automation-for-med-spas" },

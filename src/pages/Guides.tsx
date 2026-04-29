@@ -1346,6 +1346,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Appointment Scheduling and Reminder Automation for Medical Clinics",
+    description:
+      "Booked-visit clinic workflow focused on clearer confirmations, reminder timing, easy reschedules, pre-visit readiness, and cleaner front-desk handoff before appointments turn into preventable gaps.",
+    href: "/appointment-scheduling-and-reminder-automation-for-medical-clinics",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Dental Practices",
     description:
       "Scoping guide for dental practices deciding whether the first automation should be new-patient follow-up, booking and reminders, recall/reactivation, no-show reduction, or after-hours call handling before a broader rollout.",

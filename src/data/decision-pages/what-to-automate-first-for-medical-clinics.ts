@@ -90,7 +90,7 @@ const data: DecisionPageData = {
             "Interest is coming in, but too much friction still exists between inquiry and a confirmed appointment",
             "The front desk is losing momentum during time-slot coordination, confirmations, or reschedules",
             "You need a cleaner scheduling layer before you need a broader patient-communication system",
-            "Closest next page: /booking-confirmation-and-reminder-automation",
+            "Closest next page: /appointment-scheduling-and-reminder-automation-for-medical-clinics",
           ],
         },
         {
@@ -320,6 +320,7 @@ const data: DecisionPageData = {
     "No obligation. No generic pitch. Just a practical recommendation based on where the clinic is already losing momentum.",
   relatedLinks: [
     { label: "AI automation for medical clinics", href: "/ai-automation-for-medical-clinics" },
+    { label: "Appointment scheduling and reminder automation for medical clinics", href: "/appointment-scheduling-and-reminder-automation-for-medical-clinics" },
     { label: "What to automate first for dental practices", href: "/what-to-automate-first-for-dental-practices" },
     { label: "What to automate first for med spas", href: "/what-to-automate-first-for-med-spas" },
     { label: "No-show reduction automation", href: "/no-show-reduction-automation" },

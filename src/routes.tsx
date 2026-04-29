@@ -119,6 +119,7 @@ import AiAutomationForMedicalClinics from "./pages/AiAutomationForMedicalClinics
 import WhatToAutomateFirstForMedicalClinics from "./pages/WhatToAutomateFirstForMedicalClinics";
 import WhatToAutomateFirstForDentalPractices from "./pages/WhatToAutomateFirstForDentalPractices";
 import AiLeadFollowUpForDentalPractices from "./pages/AiLeadFollowUpForDentalPractices";
+import AppointmentSchedulingAndReminderAutomationForMedicalClinics from "./pages/AppointmentSchedulingAndReminderAutomationForMedicalClinics";
 import RecallAndReactivationAutomationForDentalPractices from "./pages/RecallAndReactivationAutomationForDentalPractices";
 import NoShowReductionAutomationForDentalPractices from "./pages/NoShowReductionAutomationForDentalPractices";
 import AppointmentSchedulingAndReminderAutomationForDentalPractices from "./pages/AppointmentSchedulingAndReminderAutomationForDentalPractices";
@@ -616,6 +617,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-automation-for-dental-practices", element: <AiAutomationForDentalPractices /> },
   { path: "/ai-automation-for-medical-clinics", element: <AiAutomationForMedicalClinics /> },
   { path: "/what-to-automate-first-for-medical-clinics", element: <WhatToAutomateFirstForMedicalClinics /> },
+  { path: "/appointment-scheduling-and-reminder-automation-for-medical-clinics", element: <AppointmentSchedulingAndReminderAutomationForMedicalClinics /> },
   { path: "/what-to-automate-first-for-dental-practices", element: <WhatToAutomateFirstForDentalPractices /> },
   { path: "/ai-lead-follow-up-for-dental-practices", element: <AiLeadFollowUpForDentalPractices /> },
   { path: "/appointment-scheduling-and-reminder-automation-for-dental-practices", element: <AppointmentSchedulingAndReminderAutomationForDentalPractices /> },
