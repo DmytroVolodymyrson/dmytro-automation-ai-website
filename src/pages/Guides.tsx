@@ -1009,6 +1009,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Appointment Scheduling and Reminder Setup vs. DIY for Small Business",
+    description:
+      "Practical buy-vs-build guide for owners deciding whether to keep building the broader scheduling workflow themselves or pay for focused setup help now. Covers booking triggers, confirmation logic, reminder cadence, reschedule handling, prep-step enforcement, CRM visibility, and when DIY drift becomes the more expensive option.",
+    href: "/appointment-scheduling-and-reminder-setup-vs-diy-small-business",
+    category: "workflows",
+  },
+  {
     title: "Appointment Scheduling and Reminder Cost for Small Business",
     description:
       "Practical pricing guide for service businesses budgeting scheduling automation. Covers confirmations, reminder timing, reschedule routing, prep-step enforcement, CRM visibility, and where owners overspend.",

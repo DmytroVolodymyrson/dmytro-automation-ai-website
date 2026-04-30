@@ -204,6 +204,7 @@ const data: DecisionPageData = {
       links: [
         { label: "Appointment scheduling and reminder automation", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
         { label: "Appointment scheduling and reminder setup", href: "/appointment-scheduling-and-reminder-setup-for-service-businesses" },
+        { label: "Appointment scheduling and reminder setup vs. DIY", href: "/appointment-scheduling-and-reminder-setup-vs-diy-small-business" },
         { label: "Appointment scheduling and reminder cost", href: "/appointment-scheduling-and-reminder-cost-small-business" },
         { label: "Scheduling automation vs. AI appointment setter", href: "/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses" },
         { label: "No-show reduction ROI for small business", href: "/no-show-reduction-roi-small-business" },
@@ -270,6 +271,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Appointment scheduling and reminder automation", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
     { label: "Appointment scheduling and reminder setup", href: "/appointment-scheduling-and-reminder-setup-for-service-businesses" },
+    { label: "Appointment scheduling and reminder setup vs. DIY", href: "/appointment-scheduling-and-reminder-setup-vs-diy-small-business" },
     { label: "Appointment scheduling and reminder cost", href: "/appointment-scheduling-and-reminder-cost-small-business" },
     { label: "Scheduling automation vs. AI appointment setter", href: "/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses" },
     { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },

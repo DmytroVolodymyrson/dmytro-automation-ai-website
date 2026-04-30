@@ -173,6 +173,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "Appointment scheduling and reminder automation", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
+        { label: "Appointment scheduling and reminder setup vs. DIY", href: "/appointment-scheduling-and-reminder-setup-vs-diy-small-business" },
         { label: "Scheduling automation vs. AI appointment setter", href: "/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses" },
         { label: "No-show reduction setup", href: "/no-show-reduction-setup-for-service-businesses" },
         { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
@@ -217,6 +218,7 @@ const data: DecisionPageData = {
     "No generic scheduling-tech pitch. Just a practical setup conversation about your booking triggers, confirmation logic, reminder cadence, prep-step enforcement, and internal handoff.",
   relatedLinks: [
     { label: "Appointment scheduling and reminder automation", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
+    { label: "Appointment scheduling and reminder setup vs. DIY", href: "/appointment-scheduling-and-reminder-setup-vs-diy-small-business" },
     { label: "Booking confirmation and reminder setup", href: "/booking-confirmation-and-reminder-setup-for-service-businesses" },
     { label: "Scheduling automation vs. AI appointment setter", href: "/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses" },
     { label: "Appointment scheduling and reminder cost", href: "/appointment-scheduling-and-reminder-cost-small-business" },

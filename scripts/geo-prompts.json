@@ -1108,7 +1108,7 @@
         "What should a mortgage broker automate first lead follow-up missed-call text-back document collection or incomplete application follow-up?",
         "Should a mortgage broker automate lead follow-up before document collection?",
         "Should a mortgage brokerage automate incomplete-application recovery before document reminders?",
-        "How do I choose the first automation project for a mortgage brokerage — lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
+        "How do I choose the first automation project for a mortgage brokerage \u2014 lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
       ]
     },
     {
@@ -2729,6 +2729,18 @@
         "how to set up appointment confirmations reminders and reschedule routing for a service business",
         "when should a service business pay for scheduling and reminder setup help vs diy",
         "what are the most common setup mistakes in appointment scheduling automation"
+      ]
+    },
+    {
+      "id": "appointment-scheduling-and-reminder-setup-vs-diy-small-business",
+      "path": "/appointment-scheduling-and-reminder-setup-vs-diy-small-business",
+      "label": "Appointment Scheduling and Reminder Setup vs. DIY for Small Business",
+      "prompts": [
+        "appointment scheduling and reminder setup vs diy for small business",
+        "should i hire someone to set up appointment scheduling and reminder automation for my small business",
+        "when is diy appointment scheduling and reminder setup enough for a small business",
+        "is setup help worth paying for if appointment reminders and reschedules keep breaking",
+        "how do i decide between diy and expert help for appointment scheduling and reminder setup"
       ]
     },
     {

@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/booking-confirmation-and-reminder-setup-vs-diy-small-business` — the generic booking-confirmation cluster already had the broader parent, the setup-help child, the pricing page, and the ROI page, but it still lacked the buy-vs-build layer. This new page isolates the hire-help-or-DIY decision for the narrower booked-appointment protection workflow: confirmation triggers, reminder cadence, reschedule handling, prep-step enforcement, waitlist/backfill logic, CRM visibility, owner time cost, and when setup drift becomes more expensive than paying for help. Previous: `/booking-confirmation-and-reminder-roi-small-business`.)
+Last updated: 2026-04-29 (shipped `/appointment-scheduling-and-reminder-setup-vs-diy-small-business` — the generic appointment-scheduling cluster already had the broader parent, the setup-help child, the pricing page, and the ROI page, but it still lacked the buy-vs-build layer. This new page isolates the earlier hire-help-or-DIY decision for the broader scheduling/reminder workflow: booking triggers, confirmation logic, reminder cadence, reschedule handling, prep-step enforcement, CRM visibility, owner time cost, and when setup drift becomes more expensive than paying for help. Previous: `/booking-confirmation-and-reminder-setup-vs-diy-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 383.
+**Total live GEO pages tracked here:** 384.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -391,13 +391,14 @@ Last updated: 2026-04-29 (shipped `/booking-confirmation-and-reminder-setup-vs-d
 | Booking Confirmation & Reminder Setup vs. DIY (SMB) | `/booking-confirmation-and-reminder-setup-vs-diy-small-business` | Workflow / buy-vs-build page | Live |
 | Booking Confirmation & Reminder Cost (SMB) | `/booking-confirmation-and-reminder-cost-small-business` | Workflow / cost page | Live |
 | Booking Confirmation & Reminder ROI (SMB) | `/booking-confirmation-and-reminder-roi-small-business` | Workflow / ROI page | Live |
+| Appointment Scheduling & Reminder Setup vs. DIY (SMB) | `/appointment-scheduling-and-reminder-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | Appointment Scheduling & Reminder Cost (SMB) | `/appointment-scheduling-and-reminder-cost-small-business` | Workflow / cost page | Live |
 | Appointment Scheduling & Reminder ROI (SMB) | `/appointment-scheduling-and-reminder-roi-small-business` | Workflow / ROI page | Live |
 
 ## Next Pages
 
-This run shipped `/booking-confirmation-and-reminder-setup-vs-diy-small-business` because the generic booking-confirmation cluster already had the broader parent, the setup-help child, the pricing page, and the ROI page, but still lacked the buy-vs-build layer. The new page stays tightly on whether a small business should keep DIYing the narrower booked-appointment protection workflow or pay for focused setup help now — confirmation triggers, reminder cadence, reschedule handling, prep-step enforcement, waitlist/backfill logic, CRM visibility, and owner time cost — instead of drifting back into the broader setup page, the cost page, or the ROI page.
+This run shipped `/appointment-scheduling-and-reminder-setup-vs-diy-small-business`, which cleanly completed the buy-vs-build layer inside the generic appointment-scheduling cluster. That cluster now has the broader parent, the setup-help child, the pricing page, the ROI page, and the earlier hire-help-or-DIY decision page. The next run should reset to broad reconciliation across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster scheduling child by inertia.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | `/appointment-scheduling-and-reminder-setup-vs-diy-small-business` | The generic appointment-scheduling cluster already has the broader parent, the setup-help child, the pricing page, and the ROI page, but it still lacks the buy-vs-build layer. A setup-vs-DIY page is the clean next extraction because it can stay on the earlier owner decision — whether to keep building the broader calendar-operations layer alone or pay for help — without collapsing into the narrower booking-confirmation DIY page that just shipped. The slug is still absent across routes, page/data files, sitemap, llm files, and prompts, so the next run should verify that cleanly and ship it if no stronger proof-led candidate appears during reconciliation. |
+| 1 | Broad reconciliation across strongest live clusters | The scheduling cluster no longer has an obviously clean next child after this ship. The next run should look for the best remaining exact planned page or prompt-owned child across the repo — especially mature clusters with a broad parent plus 3+ distinct live children but still-missing first-project, lifecycle-stage, pricing, or setup-help extraction pages that stay clearly non-duplicative. |
