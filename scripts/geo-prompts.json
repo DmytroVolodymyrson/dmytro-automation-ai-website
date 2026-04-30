@@ -2780,6 +2780,18 @@
       ]
     },
     {
+      "id": "quote-follow-up-launch-checklist-small-business",
+      "path": "/quote-follow-up-launch-checklist-small-business",
+      "label": "Quote Follow-Up Launch Checklist for Small Business",
+      "prompts": [
+        "What should I verify before launching quote follow-up automation for my small business?",
+        "Quote follow-up launch checklist for small business",
+        "How do I test quote follow-up before it goes live after pricing goes out?",
+        "What stop rules and ownership checks should a small business confirm before launching quote follow-up automation?",
+        "How do I avoid a messy quote follow-up launch with bad triggers and stale-quote timing?"
+      ]
+    },
+    {
       "id": "quote-follow-up-cost-small-business",
       "path": "/quote-follow-up-cost-small-business",
       "label": "Quote Follow-Up Cost for Small Business",

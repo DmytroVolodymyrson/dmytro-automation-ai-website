@@ -260,6 +260,7 @@ const data: DecisionPageData = {
     { label: "Quote follow-up setup for service businesses", href: "/quote-follow-up-setup-for-service-businesses" },
     { label: "Quote follow-up setup mistakes for small business", href: "/quote-follow-up-setup-mistakes-small-business" },
     { label: "Quote follow-up setup vs. DIY for small business", href: "/quote-follow-up-setup-vs-diy-small-business" },
+    { label: "Quote follow-up launch checklist for small business", href: "/quote-follow-up-launch-checklist-small-business" },
     { label: "Quote follow-up ROI for small business", href: "/quote-follow-up-roi-small-business" },
     { label: "Estimate follow-up cost for small business", href: "/estimate-follow-up-cost-small-business" },
     { label: "Estimate follow-up vs. quote follow-up", href: "/estimate-follow-up-vs-quote-follow-up-for-service-businesses" },

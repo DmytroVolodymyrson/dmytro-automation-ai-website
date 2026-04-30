@@ -209,6 +209,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Quote follow-up automation for service businesses", href: "/quote-follow-up-automation-for-service-businesses" },
     { label: "Quote follow-up setup mistakes for small business", href: "/quote-follow-up-setup-mistakes-small-business" },
+    { label: "Quote follow-up launch checklist for small business", href: "/quote-follow-up-launch-checklist-small-business" },
     { label: "Quote follow-up setup vs. DIY for small business", href: "/quote-follow-up-setup-vs-diy-small-business" },
     { label: "Quote follow-up cost for small business", href: "/quote-follow-up-cost-small-business" },
     { label: "Quote follow-up ROI for small business", href: "/quote-follow-up-roi-small-business" },

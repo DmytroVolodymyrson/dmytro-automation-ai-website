@@ -145,6 +145,9 @@ Practical pre-launch mistakes guide for small businesses setting up quote recove
 ## Quote Follow-Up Setup vs. DIY for Small Business
 Buy-vs-build guide for small businesses deciding whether to DIY quote-stage follow-up setup or hire expert help now. Covers owner time, trigger quality, CRM routing, stale-quote logic, reply handoff risk, and when setup help is cheaper than another month of quote-stage drift. Learn more: https://www.dmytroai.com/quote-follow-up-setup-vs-diy-small-business
 
+## Quote Follow-Up Launch Checklist for Small Business
+Go-live readiness guide for small businesses about to turn quote follow-up on. Covers trustworthy quote-sent triggers, stale-quote timing, stop rules, objection routing, CRM visibility, and what to test before launch week teaches the wrong lesson. Learn more: https://www.dmytroai.com/quote-follow-up-launch-checklist-small-business
+
 ## Quote Follow-Up Cost for Small Business
 Pricing guide for the broader quote-stage recovery layer — realistic build ranges for quote-sent triggers, reminder sequences, CRM ownership rules, stale-quote escalation, reply routing, and human handoff after pricing goes out. Learn more: https://www.dmytroai.com/quote-follow-up-cost-small-business
 

@@ -344,6 +344,7 @@ import QuoteFollowUpAutomationForServiceBusinesses from "./pages/QuoteFollowUpAu
 import QuoteFollowUpSetupForServiceBusinesses from "./pages/QuoteFollowUpSetupForServiceBusinesses";
 import QuoteFollowUpSetupMistakesSmallBusiness from "./pages/QuoteFollowUpSetupMistakesSmallBusiness";
 import QuoteFollowUpSetupVsDiySmallBusiness from "./pages/QuoteFollowUpSetupVsDiySmallBusiness";
+import QuoteFollowUpLaunchChecklistSmallBusiness from "./pages/QuoteFollowUpLaunchChecklistSmallBusiness";
 import QuoteFollowUpCostSmallBusiness from "./pages/QuoteFollowUpCostSmallBusiness";
 import QuoteFollowUpRoiSmallBusiness from "./pages/QuoteFollowUpRoiSmallBusiness";
 import ContactFormAutoresponderVsFullLeadFollowUp from "./pages/ContactFormAutoresponderVsFullLeadFollowUp";
@@ -884,6 +885,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/quote-follow-up-setup-for-service-businesses", element: <QuoteFollowUpSetupForServiceBusinesses /> },
   { path: "/quote-follow-up-setup-mistakes-small-business", element: <QuoteFollowUpSetupMistakesSmallBusiness /> },
   { path: "/quote-follow-up-setup-vs-diy-small-business", element: <QuoteFollowUpSetupVsDiySmallBusiness /> },
+  { path: "/quote-follow-up-launch-checklist-small-business", element: <QuoteFollowUpLaunchChecklistSmallBusiness /> },
   { path: "/quote-follow-up-cost-small-business", element: <QuoteFollowUpCostSmallBusiness /> },
   { path: "/quote-follow-up-roi-small-business", element: <QuoteFollowUpRoiSmallBusiness /> },
   { path: "/appointment-scheduling-and-reminder-automation-for-service-businesses", element: <AppointmentSchedulingAndReminderAutomationForServiceBusinesses /> },

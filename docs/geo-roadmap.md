@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-30 (shipped `/referral-request-automation-launch-checklist-small-business` — the cleanest exact adjacent child still surviving fresh repo-state reconciliation was the referral-side go-live readiness layer. The referral cluster already had the parent, setup-help, setup-mistakes, DIY, cost, and ROI pages live, but still lacked the narrower launch-checklist page that owns pre-launch verification: trustworthy completed-job triggers, timing by service type, unresolved-issue suppression, warm-introduction routing, CRM visibility, and clean separation from review asks before the workflow is turned on. Proof adjacency stays honest from the live referral-request cluster, the review-vs-referral comparison, and the published WheelsFeels CRM case study. Previous: `/review-request-automation-launch-checklist-small-business`.)
+Last updated: 2026-04-30 (shipped `/quote-follow-up-launch-checklist-small-business` — fresh repo-state reconciliation showed the quote-follow-up cluster still had one clean exact child left: the go-live readiness layer. The cluster already had the parent, setup-help, setup-mistakes, DIY, cost, and ROI pages live, but still lacked the narrower launch-checklist page that owns pre-launch verification: trustworthy quote-sent triggers, stale-quote timing by deal type, stop rules, objection/revision routing, CRM visibility, and clear ownership after a buyer re-engages. Proof adjacency stays honest from the live quote-follow-up cluster, the estimate-vs-quote comparison, and the published WheelsFeels CRM case study. Previous: `/referral-request-automation-launch-checklist-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 411.
+**Total live GEO pages tracked here:** 412.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -59,6 +59,7 @@ Last updated: 2026-04-30 (shipped `/referral-request-automation-launch-checklist
 | Quote Follow-Up Setup (Service Businesses) | `/quote-follow-up-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Quote Follow-Up Setup Mistakes (SMB) | `/quote-follow-up-setup-mistakes-small-business` | Workflow / setup-mistakes page | Live |
 | Quote Follow-Up Setup vs. DIY (SMB) | `/quote-follow-up-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
+| Quote Follow-Up Launch Checklist (SMB) | `/quote-follow-up-launch-checklist-small-business` | Workflow / launch-readiness page | Live |
 | Appointment Scheduling & Reminder Automation (Service Businesses) | `/appointment-scheduling-and-reminder-automation-for-service-businesses` | Workflow parent page | Live |
 | Appointment Scheduling & Reminder Automation vs. AI Appointment Setter (Service Businesses) | `/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses` | Workflow comparison page | Live |
 | Appointment Scheduling & Reminder Launch Checklist (SMB) | `/appointment-scheduling-and-reminder-launch-checklist-small-business` | Workflow / release-readiness page | Live |
@@ -424,10 +425,10 @@ Last updated: 2026-04-30 (shipped `/referral-request-automation-launch-checklist
 
 ## Next Pages
 
-The referral-request cluster now has the parent, setup-help, launch-checklist, setup-mistakes, DIY, cost, and ROI layers live. Do not force another post-job sibling by inertia on the next run. Reset to broad cross-cluster reconciliation first, and only name a new adjacent candidate if it still survives exact repo-state review across planning docs, live routes, prompts, and discovery surfaces.
+The quote-follow-up cluster now has the parent, setup-help, setup-mistakes, launch-checklist, DIY, cost, and ROI layers live. Do not force another quote-stage sibling by inertia on the next run. Reset to broad cross-cluster reconciliation first, and only name a new adjacent candidate if it still survives exact repo-state review across planning docs, live routes, prompts, and discovery surfaces.
 
 | Priority | Candidate | Why it is next |
 | --- | --- | --- |
-| 1 | Broad reconciliation across `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, live routes, and `scripts/geo-prompts.json` | The clean referral launch-checklist child is now live, so the next ship should come from the strongest remaining distinct cluster rather than stale review/referral roadmap inertia. |
-| 2 | Exact adjacent child only if it survives fresh repo-state review | If a clearly planned sibling still exists after reconciliation, name it from the actual current repo state instead of guessing from older post-job cluster momentum. |
+| 1 | Broad reconciliation across `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, live routes, and `scripts/geo-prompts.json` | The clean quote-follow-up launch-checklist child is now live, so the next ship should come from the strongest remaining distinct cluster rather than stale workflow-cluster momentum. |
+| 2 | Exact adjacent child only if it survives fresh repo-state review | If a clearly planned sibling still exists after reconciliation, name it from the actual current repo state instead of guessing from older quote-cluster momentum. |
 | 3 | Priority-hub indexing refresh on the strongest discovered-not-indexed page | If no clean planned net-new page survives reconciliation, the best fallback is a bounded improvement pass on one of the highest-priority indexing URLs listed in `docs/geo-priority-urls.md`. |

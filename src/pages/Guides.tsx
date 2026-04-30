@@ -1086,6 +1086,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Quote Follow-Up Launch Checklist for Small Business",
+    description:
+      "Go-live readiness guide for small businesses about to turn quote follow-up on. Covers trustworthy quote-sent triggers, stale-quote timing, stop rules, objection routing, CRM visibility, and what to test before launch week teaches the wrong lesson.",
+    href: "/quote-follow-up-launch-checklist-small-business",
+    category: "workflows",
+  },
+  {
     title: "Quote Follow-Up Cost for Small Business",
     description:
       "Pricing guide for the broader quote-stage recovery layer — realistic build ranges for quote-sent triggers, reminder sequences, CRM ownership rules, stale-quote escalation, reply routing, and human handoff after pricing goes out.",
