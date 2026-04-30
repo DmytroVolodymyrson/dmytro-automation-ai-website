@@ -1577,6 +1577,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. Voicemail for Medical Clinics",
+    description:
+      "Decision page for clinic owners choosing between passive voicemail/callbacks and a lighter SMS-first missed-call recovery layer before paying for heavier live AI phone coverage.",
+    href: "/missed-call-text-back-vs-voicemail-for-medical-clinics",
+    category: "industries",
+  },
+  {
     title: "Missed Call Text-Back vs. AI Phone Answering for Medical Clinics",
     description:
       "Decision page for clinic owners choosing between a lighter SMS-first missed-call recovery layer and heavier live AI phone coverage when voicemail and delayed callbacks are already too weak.",

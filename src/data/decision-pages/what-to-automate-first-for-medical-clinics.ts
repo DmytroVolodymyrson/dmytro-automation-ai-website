@@ -329,6 +329,7 @@ const data: DecisionPageData = {
     { label: "Intake forms and document collection automation for medical clinics", href: "/intake-forms-and-document-collection-automation-for-medical-clinics" },
     { label: "Recall and reactivation automation for medical clinics", href: "/recall-and-reactivation-automation-for-medical-clinics" },
     { label: "Missed call text-back for medical clinics", href: "/missed-call-text-back-for-medical-clinics" },
+    { label: "Missed call text-back vs voicemail for medical clinics", href: "/missed-call-text-back-vs-voicemail-for-medical-clinics" },
     { label: "AI phone answering for medical clinics", href: "/ai-phone-answering-for-medical-clinics" },
     { label: "What to automate first for dental practices", href: "/what-to-automate-first-for-dental-practices" },
     { label: "What to automate first for med spas", href: "/what-to-automate-first-for-med-spas" },

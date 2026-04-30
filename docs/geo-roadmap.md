@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/missed-call-text-back-vs-voicemail-for-real-estate-agents` — during broad reconciliation, the mature real-estate phone cluster still had one clean missing-middle buyer decision: whether an agent who misses calls during showings, listing appointments, or after-hours buyer windows should stay with passive voicemail/callbacks or move to the lighter SMS-first missed-call text-back layer. The live cluster already had the broader real-estate parent, first-project scoping, lead-response and CRM pages, the lighter missed-call workflow page, the heavier live-answering explainer, and the heavier comparison layers. This new page isolates the lighter voicemail-vs-text-back decision without inventing new proof. Previous: `/missed-call-text-back-vs-ai-phone-answering-for-medical-clinics`.)
+Last updated: 2026-04-29 (shipped `/missed-call-text-back-vs-voicemail-for-medical-clinics` — during broad reconciliation, the medical-clinic phone cluster still had one clean lighter buyer decision missing: whether a smaller appointment-driven clinic that misses patient calls should stay with passive voicemail/next-day callbacks or move to the lighter SMS-first missed-call text-back layer before paying for heavier live AI phone coverage. The live cluster already had the broader parent, first-project scoping, missed-call text-back, AI phone answering, the heavier AI-phone-vs-voicemail comparison, and the lighter-vs-heavier text-back-vs-AI-phone comparison. This ship isolates the missing voicemail-vs-text-back decision without inventing clinic-specific proof. Previous: `/missed-call-text-back-vs-voicemail-for-real-estate-agents`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 389.
+**Total live GEO pages tracked here:** 390.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -176,6 +176,7 @@ Last updated: 2026-04-29 (shipped `/missed-call-text-back-vs-voicemail-for-real-
 | Missed Call Text-Back (Medical Clinics) | `/missed-call-text-back-for-medical-clinics` | Vertical workflow page | Live |
 | AI Phone Answering (Medical Clinics) | `/ai-phone-answering-for-medical-clinics` | Vertical solution page | Live |
 | AI Phone Answering vs. Voicemail (Medical Clinics) | `/ai-phone-answering-vs-voicemail-for-medical-clinics` | Vertical comparison page | Live |
+| Text-Back vs Voicemail (Medical Clinics) | `/missed-call-text-back-vs-voicemail-for-medical-clinics` | Vertical comparison page | Live |
 | Text-Back vs AI Phone (Medical Clinics) | `/missed-call-text-back-vs-ai-phone-answering-for-medical-clinics` | Vertical comparison page | Live |
 | What to Automate First (Dental) | `/what-to-automate-first-for-dental-practices` | Vertical decision page | Live |
 | AI Lead Follow-Up (Dental) | `/ai-lead-follow-up-for-dental-practices` | Vertical workflow page | Live |
@@ -402,10 +403,10 @@ Last updated: 2026-04-29 (shipped `/missed-call-text-back-vs-voicemail-for-real-
 
 ## Next Pages
 
-This run shipped `/missed-call-text-back-vs-voicemail-for-real-estate-agents`, which cleanly filled the remaining lighter phone-fallback comparison inside the mature real-estate cluster. That cluster now covers the broader parent, first-project scoping, lead response, CRM cleanup, client reactivation, the lighter missed-call workflow page, the heavier live-answering explainer, and all three core phone-layer comparisons. The next run should stay in broad reconciliation mode across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster real-estate child by inertia.
+This run shipped `/missed-call-text-back-vs-voicemail-for-medical-clinics`, which cleanly filled the remaining lighter phone-fallback comparison inside the mature medical-clinic cluster. That cluster now covers the broader parent, first-project scoping, missed-call text-back, live AI phone answering, and all three core phone-layer comparisons. The next run should go back to broad reconciliation across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster medical-clinic child by inertia.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | `/missed-call-text-back-vs-voicemail-for-medical-clinics` | Closest surviving exact lighter phone-fallback comparison after the medical-clinic cluster gained both `/ai-phone-answering-vs-voicemail-for-medical-clinics` and `/missed-call-text-back-vs-ai-phone-answering-for-medical-clinics`, but still appears to lack the voicemail-vs-text-back buyer-decision layer. |
-| 2 | Broad reconciliation across strongest live clusters | If the medical-clinic fallback comparison turns out to be duplicated, already live, or no longer distinct, the next pass should sweep mature vertical phone clusters for the best remaining exact lighter/heavier comparison that still survives route, page, and prompt checks. |
-| 3 | Discovery/internal-link refresh on strongest live clusters | If no clean net-new planned page survives reconciliation, use the run to tighten Guides / llm / related-links / prompts on the strongest live clusters rather than inventing filler. |
+| 1 | Broad reconciliation across strongest live clusters | The clean next ship is no longer obvious from the roadmap alone. The next pass should sweep mature live clusters, prompt ownership, and planning docs for the strongest remaining exact buyer-intent page that still survives route, page, and prompt checks. |
+| 2 | Discovery/internal-link refresh on strongest live clusters | If reconciliation does not surface a clearly distinct planned page, tighten Guides / llm / related-links / prompts on the strongest live clusters instead of inventing filler. |
+| 3 | Proof-led watchlist from broader planning docs | If a surviving candidate only appears in broader planning prose or prompt drift rather than a neat queue, use the next run to verify it against live routes and proof adjacency before shipping. |

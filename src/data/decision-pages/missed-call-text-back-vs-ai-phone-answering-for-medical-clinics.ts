@@ -265,7 +265,9 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "AI automation for medical clinics", href: "/ai-automation-for-medical-clinics" },
+        { label: "What to automate first for medical clinics", href: "/what-to-automate-first-for-medical-clinics" },
         { label: "Missed call text-back for medical clinics", href: "/missed-call-text-back-for-medical-clinics" },
+        { label: "Missed call text-back vs voicemail for medical clinics", href: "/missed-call-text-back-vs-voicemail-for-medical-clinics" },
         { label: "AI phone answering for medical clinics", href: "/ai-phone-answering-for-medical-clinics" },
         { label: "AI phone answering vs. voicemail for medical clinics", href: "/ai-phone-answering-vs-voicemail-for-medical-clinics" },
       ],

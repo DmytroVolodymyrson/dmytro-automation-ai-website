@@ -1264,7 +1264,7 @@
         "When is voicemail no longer good enough for a medical clinic?",
         "What is the difference between AI phone answering and voicemail for a medical clinic?",
         "Should a medical clinic replace voicemail with live AI phone answering for after-hours calls and front-desk overflow?",
-        "How should a medical clinic choose between voicemail, missed-call text-back, and live AI phone answering?"
+        "How should a medical clinic tell when voicemail and next-day callbacks are already too slow for patient demand?"
       ]
     },
     {
@@ -1277,6 +1277,18 @@
         "Best way for a smaller outpatient clinic to respond after a missed patient call before the appointment request goes cold",
         "What should a medical clinic missed-call text-back workflow capture before the front desk calls back?",
         "How should a clinic handle missed patient calls when voicemail and next-day callbacks are too slow?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-voicemail-for-medical-clinics",
+      "path": "/missed-call-text-back-vs-voicemail-for-medical-clinics",
+      "label": "Missed Call Text-Back vs. Voicemail for Medical Clinics",
+      "prompts": [
+        "Missed call text-back vs voicemail for medical clinics",
+        "Should a medical clinic use missed-call text-back or keep relying on voicemail and next-day callbacks?",
+        "When is voicemail no longer good enough for a smaller appointment-driven medical clinic?",
+        "What is better for a medical clinic missed-call recovery text-back or voicemail?",
+        "How should a clinic choose between voicemail, a lighter SMS-first missed-call workflow, and heavier live AI phone answering?"
       ]
     },
     {

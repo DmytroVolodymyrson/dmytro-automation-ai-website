@@ -129,6 +129,7 @@ import NoShowReductionAutomationForMedicalClinics from "./pages/NoShowReductionA
 import AiPhoneAnsweringForMedicalClinics from "./pages/AiPhoneAnsweringForMedicalClinics";
 import AiPhoneAnsweringVsVoicemailForMedicalClinics from "./pages/AiPhoneAnsweringVsVoicemailForMedicalClinics";
 import MissedCallTextBackForMedicalClinics from "./pages/MissedCallTextBackForMedicalClinics";
+import MissedCallTextBackVsVoicemailForMedicalClinics from "./pages/MissedCallTextBackVsVoicemailForMedicalClinics";
 import MissedCallTextBackVsAiPhoneAnsweringForMedicalClinics from "./pages/MissedCallTextBackVsAiPhoneAnsweringForMedicalClinics";
 import RecallAndReactivationAutomationForDentalPractices from "./pages/RecallAndReactivationAutomationForDentalPractices";
 import NoShowReductionAutomationForDentalPractices from "./pages/NoShowReductionAutomationForDentalPractices";
@@ -662,6 +663,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-phone-answering-for-medical-clinics", element: <AiPhoneAnsweringForMedicalClinics /> },
   { path: "/ai-phone-answering-vs-voicemail-for-medical-clinics", element: <AiPhoneAnsweringVsVoicemailForMedicalClinics /> },
   { path: "/missed-call-text-back-for-medical-clinics", element: <MissedCallTextBackForMedicalClinics /> },
+  { path: "/missed-call-text-back-vs-voicemail-for-medical-clinics", element: <MissedCallTextBackVsVoicemailForMedicalClinics /> },
   { path: "/missed-call-text-back-vs-ai-phone-answering-for-medical-clinics", element: <MissedCallTextBackVsAiPhoneAnsweringForMedicalClinics /> },
   { path: "/what-to-automate-first-for-dental-practices", element: <WhatToAutomateFirstForDentalPractices /> },
   { path: "/ai-lead-follow-up-for-dental-practices", element: <AiLeadFollowUpForDentalPractices /> },
