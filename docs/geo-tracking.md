@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 472 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 473 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -59,7 +59,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **What Processes Can AI Automate in My Business?** — `/what-processes-can-ai-automate-in-my-business`
 - **What to Automate First for Service Businesses** — `/what-to-automate-first-for-service-businesses`
 
-### Workflow + solution pages (84)
+### Workflow + solution pages (85)
 - **After-Hours Lead Capture** — `/after-hours-lead-capture-for-service-businesses`
 - **AI Appointment Setter** — `/ai-appointment-setter`
 - **AI Appointment Setter Cost for Small Business** — `/ai-appointment-setter-cost-small-business`
@@ -121,6 +121,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Client Onboarding Setup for Service Businesses** — `/client-onboarding-setup-for-service-businesses`
 - **Client Onboarding Cost for Small Business** — `/client-onboarding-cost-small-business`
 - **Client Onboarding Launch Checklist for Small Business** — `/client-onboarding-launch-checklist-small-business`
+- **Client Onboarding Setup Mistakes for Small Business** — `/client-onboarding-setup-mistakes-small-business`
 - **Client Onboarding Setup vs. DIY for Small Business** — `/client-onboarding-setup-vs-diy-small-business`
 - **Client Onboarding Automation for Accounting Firms** — `/client-onboarding-automation-for-accounting-firms`
 - **Intake Forms and Document Collection Automation for Service Businesses** — `/intake-forms-and-document-collection-automation-for-service-businesses`

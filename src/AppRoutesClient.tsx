@@ -225,6 +225,7 @@ const ClientOnboardingCostSmallBusiness = lazy(() => import("./pages/ClientOnboa
 const ClientOnboardingRoiSmallBusiness = lazy(() => import("./pages/ClientOnboardingRoiSmallBusiness"));
 const ClientOnboardingSetupVsDiySmallBusiness = lazy(() => import("./pages/ClientOnboardingSetupVsDiySmallBusiness"));
 const ClientOnboardingLaunchChecklistSmallBusiness = lazy(() => import("./pages/ClientOnboardingLaunchChecklistSmallBusiness"));
+const ClientOnboardingSetupMistakesSmallBusiness = lazy(() => import("./pages/ClientOnboardingSetupMistakesSmallBusiness"));
 const IntakeFormsAndDocumentCollectionAutomationForServiceBusinesses = lazy(() => import("./pages/IntakeFormsAndDocumentCollectionAutomationForServiceBusinesses"));
 const AiAutomationRoiGuide = lazy(() => import("./pages/AiAutomationRoiGuide"));
 const AiAutomationRoiCalculator = lazy(() => import("./pages/AiAutomationRoiCalculator"));
@@ -738,6 +739,7 @@ const AppRoutesClient = () => (
       <Route path="/client-onboarding-roi-small-business" element={<ClientOnboardingRoiSmallBusiness />} />
       <Route path="/client-onboarding-setup-vs-diy-small-business" element={<ClientOnboardingSetupVsDiySmallBusiness />} />
       <Route path="/client-onboarding-launch-checklist-small-business" element={<ClientOnboardingLaunchChecklistSmallBusiness />} />
+      <Route path="/client-onboarding-setup-mistakes-small-business" element={<ClientOnboardingSetupMistakesSmallBusiness />} />
       <Route path="/intake-forms-and-document-collection-automation-for-service-businesses" element={<IntakeFormsAndDocumentCollectionAutomationForServiceBusinesses />} />
       <Route path="/ai-automation-roi-guide" element={<AiAutomationRoiGuide />} />
       <Route path="/ai-automation-roi-calculator" element={<AiAutomationRoiCalculator />} />

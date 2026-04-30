@@ -728,6 +728,18 @@
       ]
     },
     {
+      "id": "client-onboarding-setup-mistakes-small-business",
+      "path": "/client-onboarding-setup-mistakes-small-business",
+      "label": "Client Onboarding Setup Mistakes for Small Business",
+      "prompts": [
+        "Client onboarding setup mistakes for small business",
+        "What are the most common mistakes when setting up client onboarding automation?",
+        "Why does client onboarding automation send duplicate reminders or booking links?",
+        "How do I avoid onboarding triggers firing before a deal is actually won?",
+        "What usually breaks when a service business launches onboarding automation for the first time?"
+      ]
+    },
+    {
       "id": "intake-forms-and-document-collection-automation-for-service-businesses",
       "path": "/intake-forms-and-document-collection-automation-for-service-businesses",
       "label": "Intake Forms and Document Collection Automation for Service Businesses",

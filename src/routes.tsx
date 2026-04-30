@@ -224,6 +224,7 @@ import ClientOnboardingCostSmallBusiness from "./pages/ClientOnboardingCostSmall
 import ClientOnboardingRoiSmallBusiness from "./pages/ClientOnboardingRoiSmallBusiness";
 import ClientOnboardingSetupVsDiySmallBusiness from "./pages/ClientOnboardingSetupVsDiySmallBusiness";
 import ClientOnboardingLaunchChecklistSmallBusiness from "./pages/ClientOnboardingLaunchChecklistSmallBusiness";
+import ClientOnboardingSetupMistakesSmallBusiness from "./pages/ClientOnboardingSetupMistakesSmallBusiness";
 import IntakeFormsAndDocumentCollectionAutomationForServiceBusinesses from "./pages/IntakeFormsAndDocumentCollectionAutomationForServiceBusinesses";
 import AiAutomationRoiGuide from "./pages/AiAutomationRoiGuide";
 import AiAutomationRoiCalculator from "./pages/AiAutomationRoiCalculator";
@@ -771,6 +772,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/client-onboarding-roi-small-business", element: <ClientOnboardingRoiSmallBusiness /> },
   { path: "/client-onboarding-setup-vs-diy-small-business", element: <ClientOnboardingSetupVsDiySmallBusiness /> },
   { path: "/client-onboarding-launch-checklist-small-business", element: <ClientOnboardingLaunchChecklistSmallBusiness /> },
+  { path: "/client-onboarding-setup-mistakes-small-business", element: <ClientOnboardingSetupMistakesSmallBusiness /> },
   {
     path: "/intake-forms-and-document-collection-automation-for-service-businesses",
     element: <IntakeFormsAndDocumentCollectionAutomationForServiceBusinesses />,

@@ -582,6 +582,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Client Onboarding Setup Mistakes for Small Business",
+    description:
+      "Common client onboarding setup mistakes that create unreliable triggers, welcome/intake timing collisions, duplicate reminders, premature kickoff scheduling, broken internal task ownership, and CRM state drift. Practical pre-launch guide for small businesses.",
+    href: "/client-onboarding-setup-mistakes-small-business",
+    category: "workflows",
+  },
+  {
     title: "Intake Forms and Document Collection Automation for Service Businesses",
     description:
       "A narrower onboarding child page focused on intake forms, missing-file reminders, secure upload next steps, and cleaner handoff before the rest of onboarding stalls.",

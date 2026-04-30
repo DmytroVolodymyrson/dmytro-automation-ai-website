@@ -214,6 +214,7 @@ const data: DecisionPageData = {
       links: [
         { label: "Client onboarding automation", href: "/client-onboarding-automation" },
         { label: "Client onboarding setup for service businesses", href: "/client-onboarding-setup-for-service-businesses" },
+        { label: "Client onboarding setup mistakes for small business", href: "/client-onboarding-setup-mistakes-small-business" },
         { label: "Intake forms + document collection", href: "/intake-forms-and-document-collection-automation-for-service-businesses" },
         { label: "Book a strategy call", href: "/#booking" },
       ],
@@ -256,6 +257,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Client onboarding automation", href: "/client-onboarding-automation" },
     { label: "Client onboarding setup for service businesses", href: "/client-onboarding-setup-for-service-businesses" },
+    { label: "Client onboarding setup mistakes for small business", href: "/client-onboarding-setup-mistakes-small-business" },
     { label: "Client onboarding cost for small business", href: "/client-onboarding-cost-small-business" },
     { label: "Client onboarding ROI for small business", href: "/client-onboarding-roi-small-business" },
     { label: "Client onboarding setup vs. DIY", href: "/client-onboarding-setup-vs-diy-small-business" },
