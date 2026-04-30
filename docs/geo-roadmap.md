@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-30 (shipped `/client-onboarding-launch-checklist-small-business` — broad reconciliation found one clean release-readiness child still missing inside the live client-onboarding cluster after the broader parent, setup-help page, cost page, setup-vs-DIY page, ROI page, and intake/doc-collection child were already live. This page isolates the exact go-live buyer-intent layer — what to verify before sending real clients through a new onboarding workflow — and stays distinct by focusing on trigger reliability, sequence timing, intake completion gates, credential delivery, duplicate prevention, task routing, stall detection, and post-launch ownership rather than rehashing setup scope, pricing, ROI, or DIY framing. Proof adjacency stays honest from the live client-onboarding cluster plus the accounting-firm onboarding child and existing CRM-handoff case-study support. Previous: `/ai-appointment-setter-launch-checklist-small-business`.)
+Last updated: 2026-04-30 (shipped `/after-hours-inquiry-handling-for-med-spas` — broad reconciliation found one clean missing med spa workflow still explicitly named in the live parent and first-project cluster after the broader med spa page, lead-follow-up page, booking child, no-show child, treatment-recall child, missed-call text-back pages, and live phone-answering pages were already live. This page isolates the off-hours intake and routing layer across missed calls, forms, texts, and next-day handoff without collapsing into either the lighter missed-call text-back fallback or the heavier live AI phone-answering layer. Proof adjacency stays honest from the live med spa cluster plus the generic after-hours / phone-handling guides and the existing Paris Cafe call-handling case study. Previous: `/client-onboarding-launch-checklist-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 399.
+**Total live GEO pages tracked here:** 400.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -348,6 +348,7 @@ Last updated: 2026-04-30 (shipped `/client-onboarding-launch-checklist-small-bus
 | AI for Med Spas | `/ai-automation-for-med-spas` | Vertical category page | Live |
 | What to Automate First (Med Spas) | `/what-to-automate-first-for-med-spas` | Vertical decision page | Live |
 | AI Lead Follow-Up (Med Spas) | `/ai-lead-follow-up-for-med-spas` | Vertical workflow page | Live |
+| After-Hours Inquiry Handling (Med Spas) | `/after-hours-inquiry-handling-for-med-spas` | Vertical workflow page | Live |
 | Consultation Booking/Reminders | `/consultation-booking-and-reminder-automation-for-med-spas` | Vertical workflow page | Live |
 | No-Show Reduction (Med Spas) | `/no-show-reduction-automation-for-med-spas` | Vertical workflow page | Live |
 | Treatment Recall | `/treatment-recall-automation-for-med-spas` | Vertical workflow page | Live |
@@ -412,10 +413,10 @@ Last updated: 2026-04-30 (shipped `/client-onboarding-launch-checklist-small-bus
 
 ## Next Pages
 
-This run shipped `/client-onboarding-launch-checklist-small-business`, which cleanly extracted the release-readiness layer from the live client-onboarding cluster. That cluster now covers the broader parent plus setup help, cost, ROI, setup-vs-DIY, launch-checklist, and intake/doc-collection siblings. The safer default for the next run is another repo-wide sweep across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster client-onboarding child by inertia.
+This run shipped `/after-hours-inquiry-handling-for-med-spas`, which cleanly extracted the off-hours response layer from the live med spa cluster after the broader parent, first-project page, lead-follow-up child, booking child, no-show child, treatment-recall child, missed-call text-back pages, and live phone-answering pages were already live. That cluster now covers the broader parent, prioritization layer, lighter missed-call recovery, heavier live phone coverage, and the middle off-hours intake/routing layer. The safer default for the next run is another repo-wide sweep across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster med-spa child by inertia.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | Broad reconciliation across strongest live clusters | The clean next ship should still be re-validated against mature live clusters, prompt ownership, and planning docs instead of assuming the next page stays in the client-onboarding cluster. |
+| 1 | Broad reconciliation across strongest live clusters | The clean next ship should still be re-validated against mature live clusters, prompt ownership, and planning docs instead of assuming the next page stays in the med spa cluster. |
 | 2 | Existing-page indexing / internal-link refresh on a priority URL | If no clean net-new ship survives reconciliation, use the run on a bounded refresh for one of the highest-value URLs in `docs/geo-priority-urls.md`, then update style-learner and tracking docs accordingly. |
-| 3 | Prompt-backed audit of clusters missing a first-project or launch-readiness layer | Several mature clusters now have broader parent + setup/cost/ROI siblings live; the next useful child may come from prompt ownership or a missing earlier decision layer rather than another obvious same-cluster expansion. |
+| 3 | Prompt-backed audit of clusters missing a first-project, after-hours, or launch-readiness layer | Several mature clusters now have broader parent + setup/cost/ROI or phone siblings live; the next useful child may come from prompt ownership or a missing earlier decision layer rather than another obvious same-cluster expansion. |

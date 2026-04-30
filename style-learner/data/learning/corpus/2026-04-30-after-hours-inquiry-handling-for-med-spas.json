@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-30-after-hours-inquiry-handling-for-med-spas",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-30",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: After-Hours Inquiry Handling for Med Spas\nBody: Many med spas do not only lose consultation demand during office hours. They lose it at night, on weekends, and in the gaps between treatment blocks when nobody can answer fast. A prospective patient fills out a form after dinner, texts a question about a consultation, or calls after the front desk leaves. If the only response is silence until the next morning, the clinic is effectively letting warm demand keep shopping. After-hours inquiry handling for med spas is the narrower workflow that catches those off-hours messages, acknowledges them quickly, separates routine follow-up from higher-urgency cases, and makes the next-business-day handoff cleaner instead of forcing the front desk to reconstruct the conversation from scattered voicemails, text threads, forms, and inbox messages.\nSub: Below: what an after-hours med spa workflow should actually handle, how it stays distinct from the broader med spa page, the lighter missed-call text-back page, and the heavier live AI phone-answering page, what proof honestly supports it, and when a clinic should keep this workflow lighter instead of jumping straight to full live phone coverage.\n\n### Core sections\n- What after-hours inquiry handling should actually cover in a med spa\n- How this page stays distinct inside the med spa cluster\n- Is this a good fit for your med spa?\n- Guardrails matter here because speed and trust are the whole point\n- How a practical med spa after-hours workflow usually works\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions from med spa owners trying to protect off-hours consultation demand without overbuilding the phone layer too early\nTopics: after-hours inquiry handling vs missed-call text-back, after-hours handling vs AI phone answering, cost of a focused after-hours workflow, overnight escalation rules, and when a clinic should step up to live phone coverage.\n\n### Final CTA\nHeading: Need a cleaner after-hours response layer before more consultation demand goes cold overnight?\nBody: Book a 30-minute call. We will look at how your clinic handles after-hours calls, forms, texts, and callback ownership now, then tell you whether a lighter off-hours workflow is enough or whether you already need a heavier live phone layer.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as a net-new med spa child page discovered by broad reconciliation after the med spa cluster already had the parent, first-project page, lead-follow-up page, booking child, no-show child, treatment-recall child, missed-call text-back pages, and live phone-answering pages live."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct by focusing on off-hours intake, acknowledgement, routing, and next-day handoff across calls, forms, texts, and routine inquiry channels — not just the lighter missed-call fallback and not the heavier live-answering layer."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live med spa cluster plus generic after-hours / phone-handling guides and the existing Paris Cafe call-handling case study support the operating logic without pretending there is already a dedicated published med-spa after-hours case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: concrete fit / not-fit framing, routing rules, handoff clarity, and explicit emphasis on believable expectations instead of fake 24/7 concierge claims."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-30T08:19:29.564Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 30.1,
+      "sentenceLengthRange": [
+        5,
+        56
+      ],
+      "totalWords": 361
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: After-Hours Inquiry Handling for Med Spas\nBody: Many med spas do not only lose consultation demand during office hours.",
+      "wordCount": 21,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a cleaner after-hours response layer before more consultation demand goes cold overnight?\nBody: Book a 30-minute call. We will look at how your clinic handles after-hours calls, forms, texts, and callback ownership now, then tell you whether a lighter off-hours workflow is enough or whether you already need a heavier live phone layer.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 24,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 2.18
+    },
+    "vocabulary": {
+      "distinctWords": 192,
+      "totalWords": 361,
+      "topWords": [
+        [
+          "after-hours",
+          10
+        ],
+        [
+          "med",
+          10
+        ],
+        [
+          "spa",
+          7
+        ],
+        [
+          "workflow",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "handling",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "phone",
+          5
+        ],
+        [
+          "inquiry",
+          4
+        ],
+        [
+          "consultation",
+          4
+        ],
+        [
+          "demand",
+          4
+        ],
+        [
+          "clinic",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "what",
+          4
+        ],
+        [
+          "should",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 467 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 468 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -59,7 +59,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **What Processes Can AI Automate in My Business?** — `/what-processes-can-ai-automate-in-my-business`
 - **What to Automate First for Service Businesses** — `/what-to-automate-first-for-service-businesses`
 
-### Workflow + solution pages (83)
+### Workflow + solution pages (84)
 - **After-Hours Lead Capture** — `/after-hours-lead-capture-for-service-businesses`
 - **AI Appointment Setter** — `/ai-appointment-setter`
 - **AI Appointment Setter Cost for Small Business** — `/ai-appointment-setter-cost-small-business`
@@ -254,6 +254,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Referral Request Automation for Mortgage Brokers** — `/referral-request-automation-for-mortgage-brokers`
 - **AI Lead Follow-Up for Auto Repair Shops** — `/ai-lead-follow-up-for-auto-repair-shops`
 - **AI Lead Follow-Up for Med Spas** — `/ai-lead-follow-up-for-med-spas`
+- **After-Hours Inquiry Handling for Med Spas** — `/after-hours-inquiry-handling-for-med-spas`
 - **AI Lead Follow-Up for Pest Control Companies** — `/ai-lead-follow-up-for-pest-control-companies`
 - **AI Lead Follow-Up for Plumbing Companies** — `/ai-lead-follow-up-for-plumbing-companies`
 - **AI Phone Answering for Auto Repair Shops** — `/ai-phone-answering-for-auto-repair-shops`

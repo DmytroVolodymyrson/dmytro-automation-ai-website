@@ -2713,6 +2713,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "After-Hours Inquiry Handling for Med Spas",
+    description:
+      "A narrower med spa after-hours workflow page focused on off-hours consultation requests, missed calls, forms, texts, urgency-based routing, and cleaner next-day front-desk handoff when overnight silence is too expensive.",
+    href: "/after-hours-inquiry-handling-for-med-spas",
+    category: "industries",
+  },
+  {
     title: "Missed Call Text-Back for Med Spas",
     description:
       "A narrower med spa phone-recovery page focused on missed consultation calls, immediate SMS follow-up, lightweight intake capture, and a practical fallback when voicemail is too passive but live answering is still too heavy.",

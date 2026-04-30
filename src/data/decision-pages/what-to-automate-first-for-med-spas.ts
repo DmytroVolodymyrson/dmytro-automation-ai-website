@@ -305,6 +305,7 @@ const data: DecisionPageData = {
     "No obligation. No generic pitch. Just a practical conversation about what the clinic should automate first.",
   relatedLinks: [
     { label: "AI automation for med spas", href: "/ai-automation-for-med-spas" },
+    { label: "After-hours inquiry handling for med spas", href: "/after-hours-inquiry-handling-for-med-spas" },
     { label: "Referral request automation for med spas", href: "/referral-request-automation-for-med-spas" },
     { label: "AI automation for chiropractors", href: "/ai-automation-for-chiropractors" },
     { label: "No-show reduction automation", href: "/no-show-reduction-automation" },

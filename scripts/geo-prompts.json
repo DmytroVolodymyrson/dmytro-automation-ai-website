@@ -3692,6 +3692,18 @@
       ]
     },
     {
+      "id": "after-hours-inquiry-handling-for-med-spas",
+      "path": "/after-hours-inquiry-handling-for-med-spas",
+      "label": "After-Hours Inquiry Handling for Med Spas",
+      "prompts": [
+        "After-hours inquiry handling for med spas",
+        "How should a med spa handle consultation requests that arrive after hours?",
+        "Best way for a med spa to manage missed calls, forms, and texts after hours",
+        "How do med spas stop overnight consultation inquiries from going cold?",
+        "Should a med spa build a lighter after-hours inquiry workflow before full live AI phone answering?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-for-med-spas",
       "path": "/missed-call-text-back-for-med-spas",
       "label": "Missed Call Text-Back for Med Spas",
@@ -3733,9 +3745,9 @@
       "label": "AI Phone Answering for Med Spas",
       "prompts": [
         "AI phone answering for med spas",
-        "How should a med spa handle after-hours consultation calls without relying on voicemail?",
+        "How should a med spa use live AI phone answering for consultation calls?",
         "When does a med spa need live AI phone answering instead of next-day callbacks?",
-        "Best way for a med spa to answer consultation inquiries after hours",
+        "What should live AI phone answering actually handle in a med spa?",
         "How can a med spa use live AI phone answering without replacing the front desk?"
       ]
     },

@@ -235,6 +235,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "AI automation for med spas", href: "/ai-automation-for-med-spas" },
+        { label: "After-hours inquiry handling for med spas", href: "/after-hours-inquiry-handling-for-med-spas" },
         { label: "What to automate first for med spas", href: "/what-to-automate-first-for-med-spas" },
         { label: "AI phone answering for med spas", href: "/ai-phone-answering-for-med-spas" },
         { label: "Missed call follow-up automation", href: "/missed-call-follow-up-automation" },
@@ -277,6 +278,7 @@ const data: DecisionPageData = {
     "No obligation. No generic pitch. Just a practical conversation about how your clinic actually handles consultation calls today.",
   relatedLinks: [
     { label: "AI automation for med spas", href: "/ai-automation-for-med-spas" },
+    { label: "After-hours inquiry handling for med spas", href: "/after-hours-inquiry-handling-for-med-spas" },
     { label: "What to automate first for med spas", href: "/what-to-automate-first-for-med-spas" },
     { label: "AI phone answering for med spas", href: "/ai-phone-answering-for-med-spas" },
     { label: "Consultation booking and reminder automation for med spas", href: "/consultation-booking-and-reminder-automation-for-med-spas" },

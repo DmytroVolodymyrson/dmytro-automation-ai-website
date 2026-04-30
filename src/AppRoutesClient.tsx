@@ -401,6 +401,7 @@ const TreatmentRecallAutomationForMedSpas = lazy(() => import("./pages/Treatment
 const ReviewRequestAutomationForMedSpas = lazy(() => import("./pages/ReviewRequestAutomationForMedSpas"));
 const ReferralRequestAutomationForMedSpas = lazy(() => import("./pages/ReferralRequestAutomationForMedSpas"));
 const AiLeadFollowUpForMedSpas = lazy(() => import("./pages/AiLeadFollowUpForMedSpas"));
+const AfterHoursInquiryHandlingForMedSpas = lazy(() => import("./pages/AfterHoursInquiryHandlingForMedSpas"));
 const AiAutomationForRoofingCompanies = lazy(() => import("./pages/AiAutomationForRoofingCompanies"));
 const WhatToAutomateFirstForRoofingCompanies = lazy(() => import("./pages/WhatToAutomateFirstForRoofingCompanies"));
 const AiLeadFollowUpForRoofingCompanies = lazy(() => import("./pages/AiLeadFollowUpForRoofingCompanies"));
@@ -917,6 +918,7 @@ const AppRoutesClient = () => (
       <Route path="/review-request-automation-for-med-spas" element={<ReviewRequestAutomationForMedSpas />} />
       <Route path="/referral-request-automation-for-med-spas" element={<ReferralRequestAutomationForMedSpas />} />
       <Route path="/ai-lead-follow-up-for-med-spas" element={<AiLeadFollowUpForMedSpas />} />
+      <Route path="/after-hours-inquiry-handling-for-med-spas" element={<AfterHoursInquiryHandlingForMedSpas />} />
       <Route path="/ai-automation-for-roofing-companies" element={<AiAutomationForRoofingCompanies />} />
       <Route path="/what-to-automate-first-for-roofing-companies" element={<WhatToAutomateFirstForRoofingCompanies />} />
       <Route path="/ai-lead-follow-up-for-roofing-companies" element={<AiLeadFollowUpForRoofingCompanies />} />

@@ -232,6 +232,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "AI automation for med spas", href: "/ai-automation-for-med-spas" },
+        { label: "After-hours inquiry handling for med spas", href: "/after-hours-inquiry-handling-for-med-spas" },
         { label: "What to automate first for med spas", href: "/what-to-automate-first-for-med-spas" },
         { label: "Consultation booking and reminder automation for med spas", href: "/consultation-booking-and-reminder-automation-for-med-spas" },
         { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
@@ -274,6 +275,7 @@ const data: DecisionPageData = {
     "No obligation. No generic pitch. Just a practical conversation about where your phone workflow is leaking consult demand.",
   relatedLinks: [
     { label: "AI automation for med spas", href: "/ai-automation-for-med-spas" },
+    { label: "After-hours inquiry handling for med spas", href: "/after-hours-inquiry-handling-for-med-spas" },
     { label: "What to automate first for med spas", href: "/what-to-automate-first-for-med-spas" },
     { label: "Consultation booking and reminder automation for med spas", href: "/consultation-booking-and-reminder-automation-for-med-spas" },
     { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
