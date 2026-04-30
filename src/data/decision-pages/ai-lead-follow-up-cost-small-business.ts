@@ -196,6 +196,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
+        { label: "AI lead follow-up setup mistakes", href: "/ai-lead-follow-up-setup-mistakes-small-business" },
         { label: "AI lead follow-up setup vs. DIY", href: "/ai-lead-follow-up-setup-vs-diy-small-business" },
         { label: "AI lead follow-up ROI for small business", href: "/ai-lead-follow-up-roi-small-business" },
         { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
@@ -262,6 +263,7 @@ const data: DecisionPageData = {
     "No padded enterprise proposal. Just a practical scope and cost discussion.",
   relatedLinks: [
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
+    { label: "AI lead follow-up setup mistakes", href: "/ai-lead-follow-up-setup-mistakes-small-business" },
     { label: "AI lead follow-up ROI for small business", href: "/ai-lead-follow-up-roi-small-business" },
     { label: "Instant lead response automation", href: "/instant-lead-response-automation" },
     { label: "Contact form lead follow-up automation", href: "/contact-form-lead-follow-up-automation" },

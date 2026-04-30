@@ -292,7 +292,19 @@
         "How do I set up automated lead follow-up with CRM integration?",
         "What should be configured before launching lead follow-up automation?",
         "When is professional setup worth paying for in lead follow-up automation?",
-        "What are the most common setup mistakes in lead follow-up automation?"
+        "How do I avoid duplicate messages and weak CRM routing in lead follow-up automation?"
+      ]
+    },
+    {
+      "id": "ai-lead-follow-up-setup-mistakes-small-business",
+      "path": "/ai-lead-follow-up-setup-mistakes-small-business",
+      "label": "AI Lead Follow-Up Setup Mistakes for Small Business",
+      "prompts": [
+        "What are the most common setup mistakes in lead-follow-up automation?",
+        "How do I avoid duplicate messages in automated lead follow-up?",
+        "What usually goes wrong before launch in AI lead follow-up setup?",
+        "Why does lead-follow-up automation create messy CRM routing after go-live?",
+        "How do I catch lead-follow-up setup mistakes before they become cleanup work?"
       ]
     },
     {

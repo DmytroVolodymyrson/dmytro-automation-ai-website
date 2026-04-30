@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/missed-call-text-back-vs-voicemail-for-medical-clinics` — during broad reconciliation, the medical-clinic phone cluster still had one clean lighter buyer decision missing: whether a smaller appointment-driven clinic that misses patient calls should stay with passive voicemail/next-day callbacks or move to the lighter SMS-first missed-call text-back layer before paying for heavier live AI phone coverage. The live cluster already had the broader parent, first-project scoping, missed-call text-back, AI phone answering, the heavier AI-phone-vs-voicemail comparison, and the lighter-vs-heavier text-back-vs-AI-phone comparison. This ship isolates the missing voicemail-vs-text-back decision without inventing clinic-specific proof. Previous: `/missed-call-text-back-vs-voicemail-for-real-estate-agents`.)
+Last updated: 2026-04-29 (shipped `/ai-lead-follow-up-setup-mistakes-small-business` — during broad reconciliation, the strongest clean surviving buyer-intent page came from the existing lead-follow-up setup cluster. The parent setup-help page still owned an exact mistakes query, and the repo already had the matching late-backlog pattern in adjacent setup-heavy clusters like GoHighLevel and AI voice agents. This ship isolates the pre-launch mistake layer — duplicate outreach, weak stop rules, messy CRM routing, and bad edge-case testing — without rehashing setup-help, cost, ROI, or DIY framing. Previous: `/missed-call-text-back-vs-voicemail-for-medical-clinics`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 390.
+**Total live GEO pages tracked here:** 391.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -58,6 +58,7 @@ Last updated: 2026-04-29 (shipped `/missed-call-text-back-vs-voicemail-for-medic
 | Client Reactivation ROI (SMB) | `/client-reactivation-roi-small-business` | Workflow / ROI page | Live |
 | Client Reactivation Setup vs. DIY (SMB) | `/client-reactivation-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | AI Lead Follow-Up Setup (Service Businesses) | `/ai-lead-follow-up-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| AI Lead Follow-Up Setup Mistakes (SMB) | `/ai-lead-follow-up-setup-mistakes-small-business` | Workflow / pain-aware mistakes page | Live |
 | AI Lead Follow-Up Setup vs. DIY (SMB) | `/ai-lead-follow-up-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Category cost page | Live |
 | Estimate Follow-Up Cost (SMB) | `/estimate-follow-up-cost-small-business` | Workflow cost page | Live |
@@ -403,10 +404,10 @@ Last updated: 2026-04-29 (shipped `/missed-call-text-back-vs-voicemail-for-medic
 
 ## Next Pages
 
-This run shipped `/missed-call-text-back-vs-voicemail-for-medical-clinics`, which cleanly filled the remaining lighter phone-fallback comparison inside the mature medical-clinic cluster. That cluster now covers the broader parent, first-project scoping, missed-call text-back, live AI phone answering, and all three core phone-layer comparisons. The next run should go back to broad reconciliation across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster medical-clinic child by inertia.
+This run shipped `/ai-lead-follow-up-setup-mistakes-small-business`, which cleanly extracted the remaining pre-launch mistakes decision from the live lead-follow-up setup cluster. That cluster now covers the broader parent, setup help, setup mistakes, cost, ROI, and the buy-vs-build decision. The next run should return to broad reconciliation across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster lead-follow-up child by inertia.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
 | 1 | Broad reconciliation across strongest live clusters | The clean next ship is no longer obvious from the roadmap alone. The next pass should sweep mature live clusters, prompt ownership, and planning docs for the strongest remaining exact buyer-intent page that still survives route, page, and prompt checks. |
-| 2 | Discovery/internal-link refresh on strongest live clusters | If reconciliation does not surface a clearly distinct planned page, tighten Guides / llm / related-links / prompts on the strongest live clusters instead of inventing filler. |
-| 3 | Proof-led watchlist from broader planning docs | If a surviving candidate only appears in broader planning prose or prompt drift rather than a neat queue, use the next run to verify it against live routes and proof adjacency before shipping. |
+| 2 | Existing-page indexing / internal-link refresh on a priority URL | If broad reconciliation still finds no clean net-new ship, use the run on a bounded refresh for one of the highest-value URLs in `docs/geo-priority-urls.md`, then update style-learner and tracking docs accordingly. |
+| 3 | Watchlist-only proof-led candidate | Only ship a watchlist/fallback page if it has direct proof or very strong adjacent proof, a materially distinct buyer intent, and no overlap with the mature phone / setup / first-project clusters already live. |

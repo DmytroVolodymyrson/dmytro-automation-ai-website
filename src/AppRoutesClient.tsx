@@ -21,6 +21,7 @@ const AiLeadFollowUpForServiceBusinesses = lazy(() => import("./pages/AiLeadFoll
 const AiLeadFollowUpCostSmallBusiness = lazy(() => import("./pages/AiLeadFollowUpCostSmallBusiness"));
 const AiLeadFollowUpRoiSmallBusiness = lazy(() => import("./pages/AiLeadFollowUpRoiSmallBusiness"));
 const AiLeadFollowUpSetupForServiceBusinesses = lazy(() => import("./pages/AiLeadFollowUpSetupForServiceBusinesses"));
+const AiLeadFollowUpSetupMistakesSmallBusiness = lazy(() => import("./pages/AiLeadFollowUpSetupMistakesSmallBusiness"));
 const AiLeadFollowUpSetupVsDiySmallBusiness = lazy(() => import("./pages/AiLeadFollowUpSetupVsDiySmallBusiness"));
 const MissedCallTextBackCostSmallBusiness = lazy(() => import("./pages/MissedCallTextBackCostSmallBusiness"));
 const MissedCallTextBackRoiSmallBusiness = lazy(() => import("./pages/MissedCallTextBackRoiSmallBusiness"));
@@ -521,6 +522,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-lead-follow-up-cost-small-business" element={<AiLeadFollowUpCostSmallBusiness />} />
       <Route path="/ai-lead-follow-up-roi-small-business" element={<AiLeadFollowUpRoiSmallBusiness />} />
       <Route path="/ai-lead-follow-up-setup-for-service-businesses" element={<AiLeadFollowUpSetupForServiceBusinesses />} />
+      <Route path="/ai-lead-follow-up-setup-mistakes-small-business" element={<AiLeadFollowUpSetupMistakesSmallBusiness />} />
       <Route path="/ai-lead-follow-up-setup-vs-diy-small-business" element={<AiLeadFollowUpSetupVsDiySmallBusiness />} />
       <Route path="/missed-call-text-back-cost-small-business" element={<MissedCallTextBackCostSmallBusiness />} />
       <Route path="/missed-call-text-back-roi-small-business" element={<MissedCallTextBackRoiSmallBusiness />} />

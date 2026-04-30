@@ -505,6 +505,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Lead Follow-Up Setup Mistakes for Small Business",
+    description:
+      "Pre-launch guide to the lead-follow-up setup mistakes that usually create duplicate outreach, weak routing, messy CRM state, and expensive cleanup later.",
+    href: "/ai-lead-follow-up-setup-mistakes-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Lead Follow-Up Setup vs. DIY for Small Business",
     description:
       "Should you set up AI lead follow-up yourself or hire expert help? Practical guide to owner time, CRM routing risk, sequence complexity, and when setup help is cheaper than DIY delay.",
