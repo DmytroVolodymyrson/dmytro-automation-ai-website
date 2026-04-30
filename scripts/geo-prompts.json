@@ -2744,6 +2744,18 @@
       ]
     },
     {
+      "id": "booking-confirmation-and-reminder-setup-vs-diy-small-business",
+      "path": "/booking-confirmation-and-reminder-setup-vs-diy-small-business",
+      "label": "Booking Confirmation and Reminder Setup vs. DIY for Small Business",
+      "prompts": [
+        "should i hire someone to set up booking confirmation and reminder automation for my small business",
+        "when is diy booking confirmation and reminder setup enough for a small business",
+        "booking confirmation and reminder setup vs diy for small business",
+        "is setup help worth paying for if booking reminders and reschedules keep breaking",
+        "how do i decide between diy and expert help for booking confirmation and reminder setup"
+      ]
+    },
+    {
       "id": "booking-confirmation-and-reminder-cost-small-business",
       "path": "/booking-confirmation-and-reminder-cost-small-business",
       "label": "Booking Confirmation and Reminder Cost for Small Business",

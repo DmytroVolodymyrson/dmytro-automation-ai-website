@@ -673,6 +673,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Booking Confirmation and Reminder Setup vs. DIY for Small Business",
+    description:
+      "Practical buy-vs-build guide for owners deciding whether to keep building the booked-appointment protection workflow themselves or pay for focused setup help now. Covers confirmation triggers, reminder cadence, reschedule handling, prep-step enforcement, waitlist logic, CRM visibility, and when DIY drift becomes the more expensive option.",
+    href: "/booking-confirmation-and-reminder-setup-vs-diy-small-business",
+    category: "workflows",
+  },
+  {
     title: "Booking Confirmation and Reminder Cost for Small Business",
     description:
       "Practical pricing guide for small businesses budgeting the booked-appointment protection layer. Covers confirmation triggers, reminder cadence, reschedule logic, waitlist handling, prep-step enforcement, CRM visibility, and where owners overspend.",

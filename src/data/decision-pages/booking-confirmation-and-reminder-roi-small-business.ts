@@ -111,6 +111,7 @@ const data: DecisionPageData = {
           body: "Use a cautious case: maybe two or three protected bookings per month, a few hours of recovered admin time, and slightly better slot recovery from earlier cancellations. If that modest version already covers a meaningful share of the build and running cost, the workflow deserves serious consideration.",
           links: [
             { label: "Booking confirmation and reminder setup", href: "/booking-confirmation-and-reminder-setup-for-service-businesses" },
+            { label: "Booking confirmation and reminder setup vs. DIY", href: "/booking-confirmation-and-reminder-setup-vs-diy-small-business" },
             { label: "Case studies", href: "/case-studies" },
           ],
         },
@@ -270,6 +271,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
     { label: "Booking confirmation and reminder setup", href: "/booking-confirmation-and-reminder-setup-for-service-businesses" },
+    { label: "Booking confirmation and reminder setup vs. DIY", href: "/booking-confirmation-and-reminder-setup-vs-diy-small-business" },
     { label: "Booking confirmation and reminder cost", href: "/booking-confirmation-and-reminder-cost-small-business" },
     { label: "Appointment scheduling and reminder ROI", href: "/appointment-scheduling-and-reminder-roi-small-business" },
     { label: "No-show reduction ROI for small business", href: "/no-show-reduction-roi-small-business" },

@@ -174,6 +174,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
+        { label: "Booking confirmation and reminder setup vs. DIY", href: "/booking-confirmation-and-reminder-setup-vs-diy-small-business" },
         { label: "Appointment scheduling and reminder setup", href: "/appointment-scheduling-and-reminder-setup-for-service-businesses" },
         { label: "Appointment scheduling and reminder automation", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
         { label: "No-show reduction setup", href: "/no-show-reduction-setup-for-service-businesses" },
@@ -218,6 +219,7 @@ const data: DecisionPageData = {
     "No generic scheduling-tech pitch. Just a practical setup conversation about your booking triggers, reminder cadence, reschedule handling, and calendar-protection workflow.",
   relatedLinks: [
     { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
+    { label: "Booking confirmation and reminder setup vs. DIY", href: "/booking-confirmation-and-reminder-setup-vs-diy-small-business" },
     { label: "Appointment scheduling and reminder automation", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
     { label: "Appointment scheduling and reminder setup", href: "/appointment-scheduling-and-reminder-setup-for-service-businesses" },
     { label: "Appointment scheduling and reminder ROI", href: "/appointment-scheduling-and-reminder-roi-small-business" },
