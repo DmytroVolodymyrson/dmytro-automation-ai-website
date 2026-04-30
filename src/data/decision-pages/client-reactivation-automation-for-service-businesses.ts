@@ -224,6 +224,10 @@ const data: DecisionPageData = {
           href: "/client-reactivation-automation",
         },
         {
+          label: "Client reactivation setup mistakes for small business",
+          href: "/client-reactivation-setup-mistakes-small-business",
+        },
+        {
           label: "HVAC database reactivation",
           href: "/hvac-database-reactivation",
         },

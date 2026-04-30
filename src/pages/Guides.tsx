@@ -1205,6 +1205,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Client Reactivation Setup Mistakes for Small Business",
+    description:
+      "What usually breaks when a small business launches client reactivation? Covers bad segment selection, mixed stale-lead vs past-customer logic, weak suppression rules, fuzzy reply ownership, and the setup mistakes that make dormant-client recovery feel spammy instead of useful.",
+    href: "/client-reactivation-setup-mistakes-small-business",
+    category: "workflows",
+  },
+  {
     title: "Client Reactivation Cost for Small Business",
     description:
       "What should a small business actually budget for dormant-client recovery automation? Practical pricing ranges for simple check-in sequences, segment-based outreach, CRM cleanup, multi-channel campaigns, and when the investment pays off versus when a manual check-in is enough.",

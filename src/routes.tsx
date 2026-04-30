@@ -353,6 +353,7 @@ import QuoteFollowUp from "./pages/QuoteFollowUp";
 import ClientReactivation from "./pages/ClientReactivation";
 import ClientReactivationAutomationForServiceBusinesses from "./pages/ClientReactivationAutomationForServiceBusinesses";
 import ClientReactivationSetupForServiceBusinesses from "./pages/ClientReactivationSetupForServiceBusinesses";
+import ClientReactivationSetupMistakesSmallBusiness from "./pages/ClientReactivationSetupMistakesSmallBusiness";
 import ClientReactivationCostSmallBusiness from "./pages/ClientReactivationCostSmallBusiness";
 import ClientReactivationRoiSmallBusiness from "./pages/ClientReactivationRoiSmallBusiness";
 import ClientReactivationSetupVsDiySmallBusiness from "./pages/ClientReactivationSetupVsDiySmallBusiness";
@@ -947,6 +948,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/client-reactivation-automation", element: <ClientReactivation /> },
   { path: "/client-reactivation-automation-for-service-businesses", element: <ClientReactivationAutomationForServiceBusinesses /> },
   { path: "/client-reactivation-setup-for-service-businesses", element: <ClientReactivationSetupForServiceBusinesses /> },
+  { path: "/client-reactivation-setup-mistakes-small-business", element: <ClientReactivationSetupMistakesSmallBusiness /> },
   { path: "/client-reactivation-cost-small-business", element: <ClientReactivationCostSmallBusiness /> },
   { path: "/client-reactivation-roi-small-business", element: <ClientReactivationRoiSmallBusiness /> },
   { path: "/client-reactivation-setup-vs-diy-small-business", element: <ClientReactivationSetupVsDiySmallBusiness /> },

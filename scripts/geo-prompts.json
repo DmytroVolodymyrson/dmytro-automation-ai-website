@@ -2864,6 +2864,18 @@
       ]
     },
     {
+      "id": "client-reactivation-setup-mistakes-small-business",
+      "path": "/client-reactivation-setup-mistakes-small-business",
+      "label": "Client Reactivation Setup Mistakes for Small Business",
+      "prompts": [
+        "What usually breaks when a small business launches client reactivation automation?",
+        "What are the most common client reactivation setup mistakes for a small business?",
+        "Why do dormant-client campaigns feel spammy even when the offer is good?",
+        "What setup mistakes make past-customer reactivation underperform or damage trust?",
+        "How should a small business avoid segmentation, suppression, and reply-routing mistakes before reactivation goes live?"
+      ]
+    },
+    {
       "id": "no-show-reduction-setup-for-service-businesses",
       "path": "/no-show-reduction-setup-for-service-businesses",
       "label": "No-Show Reduction Setup for Service Businesses",

@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-30 (shipped `/missed-call-text-back-launch-checklist-small-business` — fresh repo-state reconciliation showed the missed-call-text-back cluster still had one clean exact child left: the go-live readiness layer. The cluster already had the parent, setup-help, setup-mistakes, DIY, cost, ROI, and core comparison pages live, but still lacked the narrower launch-checklist page that owns pre-launch verification: answered-call filtering, business-hours vs after-hours logic, first-message next-step design, reply routing, CRM visibility, and ugly-case testing before SMS starts firing live. Proof adjacency stays honest from the live missed-call-text-back cluster plus the Paris Cafe voice-agent and WheelsFeels CRM case studies. Previous: `/quote-follow-up-launch-checklist-small-business`.)
+Last updated: 2026-04-30 (shipped `/client-reactivation-setup-mistakes-small-business` — fresh repo-state reconciliation across GEO planning docs, prompts, routes, and discovery surfaces showed the client-reactivation cluster still had one clean exact child left between the setup-help page and the broader cost / ROI / DIY pages: the setup-failure layer. The cluster already had the parent, setup-help, DIY, cost, and ROI pages live, but still lacked the narrower page that owns what actually breaks before dormant-client recovery proves anything: mixed stale-lead vs past-customer segments, bad timing logic, weak suppression, fuzzy reply ownership, and first-campaign trust damage. Proof adjacency stays honest from the live client-reactivation cluster plus the HVAC database reactivation page and the published WheelsFeels CRM case study. Previous: `/missed-call-text-back-launch-checklist-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 413.
+**Total live GEO pages tracked here:** 414.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -66,6 +66,7 @@ Last updated: 2026-04-30 (shipped `/missed-call-text-back-launch-checklist-small
 | Appointment Scheduling & Reminder Launch Checklist (SMB) | `/appointment-scheduling-and-reminder-launch-checklist-small-business` | Workflow / release-readiness page | Live |
 | Client Reactivation Automation (Service Businesses) | `/client-reactivation-automation-for-service-businesses` | Workflow parent page | Live |
 | Client Reactivation Setup (Service Businesses) | `/client-reactivation-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| Client Reactivation Setup Mistakes (SMB) | `/client-reactivation-setup-mistakes-small-business` | Workflow / setup-mistakes page | Live |
 | Client Reactivation Cost (SMB) | `/client-reactivation-cost-small-business` | Category cost page | Live |
 | Client Reactivation ROI (SMB) | `/client-reactivation-roi-small-business` | Workflow / ROI page | Live |
 | Client Reactivation Setup vs. DIY (SMB) | `/client-reactivation-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
@@ -426,10 +427,10 @@ Last updated: 2026-04-30 (shipped `/missed-call-text-back-launch-checklist-small
 
 ## Next Pages
 
-The missed-call-text-back cluster now has the parent, setup-help, launch-checklist, setup-mistakes, setup-vs-DIY, cost, ROI, and comparison layers live. Do not force another missed-call-text-back sibling by inertia on the next run. Reset to broad cross-cluster reconciliation first, and only name a new adjacent candidate if it still survives exact repo-state review across planning docs, live routes, prompts, and discovery surfaces.
+The client-reactivation cluster now has the parent, setup-help, setup-mistakes, setup-vs-DIY, cost, and ROI layers live. Do not force another adjacent client-reactivation child by inertia unless it survives exact repo-state review across planning docs, live routes, prompts, and discovery surfaces. The next clean candidate currently looks like the remaining pre-launch readiness layer, but the next run should still start from fresh reconciliation before naming anything stronger than that.
 
 | Priority | Candidate | Why it is next |
 | --- | --- | --- |
-| 1 | Broad reconciliation across `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, live routes, and `scripts/geo-prompts.json` | The clean missed-call-text-back launch-checklist child is now live, so the next ship should come from the strongest remaining distinct cluster rather than stale phone-workflow momentum. |
-| 2 | Exact adjacent child only if it survives fresh repo-state review | If a clearly planned sibling still exists after reconciliation, name it from the actual current repo state instead of guessing from older missed-call-text-back cluster momentum. |
+| 1 | `/client-reactivation-launch-checklist-small-business` | The remaining clean gap in the client-reactivation cluster is the go-live readiness layer: list QA, suppression checks, timing validation, reply-routing tests, and first-campaign verification before dormant-client outreach starts hitting real past customers. |
+| 2 | Broad reconciliation across `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, live routes, and `scripts/geo-prompts.json` | If that launch-checklist child does not survive exact repo-state review on the next run, reset to the strongest remaining distinct cluster rather than forcing more client-reactivation momentum. |
 | 3 | Priority-hub indexing refresh on the strongest discovered-not-indexed page | If no clean planned net-new page survives reconciliation, the best fallback is a bounded improvement pass on one of the highest-priority indexing URLs listed in `docs/geo-priority-urls.md`. |

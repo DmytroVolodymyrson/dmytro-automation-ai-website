@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-30-client-reactivation-setup-mistakes-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-30",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Client Reactivation Setup Mistakes for Small Business\nBody: Most client reactivation failures are not strategy failures. They are setup failures. The business exports one mixed list of stale leads and past customers, sends outreach too soon after recent work, forgets to suppress active deals or unhappy contacts, and then discovers replies are landing in the wrong place after the campaign is already live. At that point client reactivation looks spammy, unreliable, or low-ROI when the real problem was weak setup. This page is about the mistakes that create that false negative. It shows what usually breaks before dormant-client recovery proves anything, how to catch those failures before launch, and when a small business should slow down instead of pushing a bigger campaign live.\nSub: Below: the setup mistakes that usually hurt dormant-client recovery, how this page stays distinct from the setup-help, cost, ROI, and DIY pages, what proof honestly supports the guidance, and when the real answer is to narrow the first segment before sending anything.\n\n### Core sections\n- What usually breaks before client reactivation proves anything\n- How this page stays distinct inside the client-reactivation cluster\n- Is this page relevant to your situation?\n- Setup failures that make dormant-client recovery look worse than it is\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions about avoiding client-reactivation setup mistakes before dormant-client outreach goes live\nTopics: what usually breaks when a small business launches client reactivation, the most common setup mistakes, why dormant-client outreach can feel spammy even with a good offer, how this page differs from setup-help and DIY pages, and whether most businesses should launch smaller before expanding.\n\n### Final CTA\nHeading: Want to pressure-test your reactivation workflow before it annoys real past customers?\nBody: Book a 30-minute call. We will review your segments, suppression rules, timing windows, and reply routing, then show you the smallest cleanup needed before client reactivation goes live.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the setup-mistakes child inside the cross-industry client-reactivation cluster after the parent, setup-help, cost, ROI, and setup-vs-DIY pages were already live."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the cluster still lacked a narrow page that owns first-campaign failure modes: mixed stale-lead vs past-customer lists, bad timing, weak suppression, fuzzy reply ownership, and trust damage from sloppy rollout."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays distinct from `/client-reactivation-setup-for-service-businesses` by focusing on failure patterns, from `/client-reactivation-cost-small-business` by focusing on mistakes instead of budget, from `/client-reactivation-roi-small-business` by focusing on setup quality instead of payback, and from `/client-reactivation-setup-vs-diy-small-business` by focusing on operational errors rather than buy-vs-build choice."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays disciplined: the HVAC database reactivation page, the published e-commerce CRM automation case study, and the live client-reactivation cluster support the guidance without pretending there is already a dedicated cross-industry setup-mistakes case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: direct fit / not-fit framing, warnings against oversized first campaigns, and clear explanation that many businesses should narrow the first segment before expanding."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-30T13:48:46.527Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 24.5,
+      "sentenceLengthRange": [
+        4,
+        59
+      ],
+      "totalWords": 319
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Client Reactivation Setup Mistakes for Small Business\nBody: Most client reactivation failures are not strategy failures.",
+      "wordCount": 18,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want to pressure-test your reactivation workflow before it annoys real past customers?\nBody: Book a 30-minute call. We will review your segments, suppression rules, timing windows, and reply routing, then show you the smallest cleanup needed before client reactivation goes live.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 21,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 5,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 2,
+      "colon": 8,
+      "commasPerSentence": 1.75
+    },
+    "vocabulary": {
+      "distinctWords": 170,
+      "totalWords": 319,
+      "topWords": [
+        [
+          "before",
+          8
+        ],
+        [
+          "reactivation",
+          7
+        ],
+        [
+          "setup",
+          7
+        ],
+        [
+          "client",
+          6
+        ],
+        [
+          "this",
+          6
+        ],
+        [
+          "page",
+          6
+        ],
+        [
+          "mistakes",
+          5
+        ],
+        [
+          "failures",
+          5
+        ],
+        [
+          "that",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "dormant-client",
+          5
+        ],
+        [
+          "-",
+          5
+        ],
+        [
+          "business",
+          4
+        ],
+        [
+          "live",
+          4
+        ],
+        [
+          "when",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
