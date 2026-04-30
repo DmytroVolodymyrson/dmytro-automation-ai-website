@@ -192,6 +192,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "Client reactivation for service businesses", href: "/client-reactivation-automation-for-service-businesses" },
+        { label: "Client reactivation launch checklist", href: "/client-reactivation-launch-checklist-small-business" },
         { label: "Client reactivation automation (generic)", href: "/client-reactivation-automation" },
         { label: "HVAC database reactivation", href: "/hvac-database-reactivation" },
         { label: "E-commerce CRM case study", href: "/case-studies/ecommerce-crm-automation" },
@@ -257,6 +258,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Client reactivation for service businesses", href: "/client-reactivation-automation-for-service-businesses" },
     { label: "Client reactivation setup for service businesses", href: "/client-reactivation-setup-for-service-businesses" },
+    { label: "Client reactivation launch checklist for small business", href: "/client-reactivation-launch-checklist-small-business" },
     { label: "Client reactivation ROI for small business", href: "/client-reactivation-roi-small-business" },
     { label: "Client reactivation setup vs. DIY", href: "/client-reactivation-setup-vs-diy-small-business" },
     { label: "Client reactivation automation", href: "/client-reactivation-automation" },

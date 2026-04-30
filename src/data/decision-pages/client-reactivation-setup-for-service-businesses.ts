@@ -233,6 +233,10 @@ const data: DecisionPageData = {
       href: "/client-reactivation-setup-mistakes-small-business",
     },
     {
+      label: "Client reactivation launch checklist for small business",
+      href: "/client-reactivation-launch-checklist-small-business",
+    },
+    {
       label: "Client reactivation cost for small business",
       href: "/client-reactivation-cost-small-business",
     },

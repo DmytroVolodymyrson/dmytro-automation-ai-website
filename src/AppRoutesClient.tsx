@@ -355,6 +355,7 @@ const ClientReactivation = lazy(() => import("./pages/ClientReactivation"));
 const ClientReactivationAutomationForServiceBusinesses = lazy(() => import("./pages/ClientReactivationAutomationForServiceBusinesses"));
 const ClientReactivationSetupForServiceBusinesses = lazy(() => import("./pages/ClientReactivationSetupForServiceBusinesses"));
 const ClientReactivationSetupMistakesSmallBusiness = lazy(() => import("./pages/ClientReactivationSetupMistakesSmallBusiness"));
+const ClientReactivationLaunchChecklistSmallBusiness = lazy(() => import("./pages/ClientReactivationLaunchChecklistSmallBusiness"));
 const ClientReactivationCostSmallBusiness = lazy(() => import("./pages/ClientReactivationCostSmallBusiness"));
 const ClientReactivationRoiSmallBusiness = lazy(() => import("./pages/ClientReactivationRoiSmallBusiness"));
 const ClientReactivationSetupVsDiySmallBusiness = lazy(() => import("./pages/ClientReactivationSetupVsDiySmallBusiness"));
@@ -886,6 +887,7 @@ const AppRoutesClient = () => (
       <Route path="/client-reactivation-automation-for-service-businesses" element={<ClientReactivationAutomationForServiceBusinesses />} />
       <Route path="/client-reactivation-setup-for-service-businesses" element={<ClientReactivationSetupForServiceBusinesses />} />
       <Route path="/client-reactivation-setup-mistakes-small-business" element={<ClientReactivationSetupMistakesSmallBusiness />} />
+      <Route path="/client-reactivation-launch-checklist-small-business" element={<ClientReactivationLaunchChecklistSmallBusiness />} />
       <Route path="/client-reactivation-cost-small-business" element={<ClientReactivationCostSmallBusiness />} />
       <Route path="/client-reactivation-roi-small-business" element={<ClientReactivationRoiSmallBusiness />} />
       <Route path="/client-reactivation-setup-vs-diy-small-business" element={<ClientReactivationSetupVsDiySmallBusiness />} />

@@ -2876,6 +2876,18 @@
       ]
     },
     {
+      "id": "client-reactivation-launch-checklist-small-business",
+      "path": "/client-reactivation-launch-checklist-small-business",
+      "label": "Client Reactivation Launch Checklist for Small Business",
+      "prompts": [
+        "Client reactivation launch checklist for small business",
+        "What should be verified before client reactivation goes live for a small business?",
+        "What should I test before turning on dormant-client outreach for a small business?",
+        "How do I know if client reactivation is safe to launch yet?",
+        "Pre-launch checklist for client reactivation timing suppression reply routing and CRM visibility"
+      ]
+    },
+    {
       "id": "no-show-reduction-setup-for-service-businesses",
       "path": "/no-show-reduction-setup-for-service-businesses",
       "label": "No-Show Reduction Setup for Service Businesses",

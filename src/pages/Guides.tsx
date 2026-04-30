@@ -1212,6 +1212,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Client Reactivation Launch Checklist for Small Business",
+    description:
+      "Go-live checklist for dormant-client recovery. Covers first-segment readiness, suppression checks, timing validation, reply routing, CRM visibility, and ugly-case testing before client reactivation starts touching real past customers.",
+    href: "/client-reactivation-launch-checklist-small-business",
+    category: "workflows",
+  },
+  {
     title: "Client Reactivation Cost for Small Business",
     description:
       "What should a small business actually budget for dormant-client recovery automation? Practical pricing ranges for simple check-in sequences, segment-based outreach, CRM cleanup, multi-channel campaigns, and when the investment pays off versus when a manual check-in is enough.",

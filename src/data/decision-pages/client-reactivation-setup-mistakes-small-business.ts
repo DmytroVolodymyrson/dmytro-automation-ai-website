@@ -209,6 +209,7 @@ const data: DecisionPageData = {
       links: [
         { label: "Client reactivation for service businesses", href: "/client-reactivation-automation-for-service-businesses" },
         { label: "Client reactivation setup help", href: "/client-reactivation-setup-for-service-businesses" },
+        { label: "Client reactivation launch checklist", href: "/client-reactivation-launch-checklist-small-business" },
         { label: "Client reactivation setup vs. DIY", href: "/client-reactivation-setup-vs-diy-small-business" },
         { label: "Client reactivation cost", href: "/client-reactivation-cost-small-business" },
         { label: "Client reactivation ROI", href: "/client-reactivation-roi-small-business" },
@@ -256,6 +257,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Client reactivation for service businesses", href: "/client-reactivation-automation-for-service-businesses" },
     { label: "Client reactivation setup help", href: "/client-reactivation-setup-for-service-businesses" },
+    { label: "Client reactivation launch checklist", href: "/client-reactivation-launch-checklist-small-business" },
     { label: "Client reactivation setup vs. DIY", href: "/client-reactivation-setup-vs-diy-small-business" },
     { label: "Client reactivation cost", href: "/client-reactivation-cost-small-business" },
     { label: "Client reactivation ROI", href: "/client-reactivation-roi-small-business" },

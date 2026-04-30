@@ -203,6 +203,7 @@ const data: DecisionPageData = {
       links: [
         { label: "Client reactivation for service businesses", href: "/client-reactivation-automation-for-service-businesses" },
         { label: "Client reactivation setup help", href: "/client-reactivation-setup-for-service-businesses" },
+        { label: "Client reactivation launch checklist", href: "/client-reactivation-launch-checklist-small-business" },
         { label: "Client reactivation cost for small business", href: "/client-reactivation-cost-small-business" },
         { label: "Client reactivation ROI for small business", href: "/client-reactivation-roi-small-business" },
         { label: "HVAC database reactivation", href: "/hvac-database-reactivation" },
@@ -247,6 +248,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Client reactivation for service businesses", href: "/client-reactivation-automation-for-service-businesses" },
     { label: "Client reactivation setup help", href: "/client-reactivation-setup-for-service-businesses" },
+    { label: "Client reactivation launch checklist for small business", href: "/client-reactivation-launch-checklist-small-business" },
     { label: "Client reactivation setup mistakes for small business", href: "/client-reactivation-setup-mistakes-small-business" },
     { label: "Client reactivation cost for small business", href: "/client-reactivation-cost-small-business" },
     { label: "Client reactivation ROI for small business", href: "/client-reactivation-roi-small-business" },
