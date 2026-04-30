@@ -101,6 +101,7 @@ import AiPhoneAnsweringForRealEstateAgents from "./pages/AiPhoneAnsweringForReal
 import ReviewRequestAutomationForRealEstateAgents from "./pages/ReviewRequestAutomationForRealEstateAgents";
 import ReferralRequestAutomationForRealEstateAgents from "./pages/ReferralRequestAutomationForRealEstateAgents";
 import MissedCallTextBackVsAiPhoneAnsweringForRealEstateAgents from "./pages/MissedCallTextBackVsAiPhoneAnsweringForRealEstateAgents";
+import MissedCallTextBackVsVoicemailForRealEstateAgents from "./pages/MissedCallTextBackVsVoicemailForRealEstateAgents";
 import AiPhoneAnsweringVsVoicemailForRealEstateAgents from "./pages/AiPhoneAnsweringVsVoicemailForRealEstateAgents";
 import AiAutomationForMortgageBrokers from "./pages/AiAutomationForMortgageBrokers";
 import AiLeadFollowUpForMortgageBrokers from "./pages/AiLeadFollowUpForMortgageBrokers";
@@ -635,6 +636,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/review-request-automation-for-real-estate-agents", element: <ReviewRequestAutomationForRealEstateAgents /> },
   { path: "/referral-request-automation-for-real-estate-agents", element: <ReferralRequestAutomationForRealEstateAgents /> },
   { path: "/missed-call-text-back-vs-ai-phone-answering-for-real-estate-agents", element: <MissedCallTextBackVsAiPhoneAnsweringForRealEstateAgents /> },
+  { path: "/missed-call-text-back-vs-voicemail-for-real-estate-agents", element: <MissedCallTextBackVsVoicemailForRealEstateAgents /> },
   { path: "/ai-phone-answering-vs-voicemail-for-real-estate-agents", element: <AiPhoneAnsweringVsVoicemailForRealEstateAgents /> },
   { path: "/ai-automation-for-mortgage-brokers", element: <AiAutomationForMortgageBrokers /> },
   { path: "/ai-lead-follow-up-for-mortgage-brokers", element: <AiLeadFollowUpForMortgageBrokers /> },

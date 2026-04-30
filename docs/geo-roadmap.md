@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/missed-call-text-back-vs-ai-phone-answering-for-medical-clinics` — after the cluster gained the heavier `/ai-phone-answering-vs-voicemail-for-medical-clinics` comparison, one exact buyer question still remained on the live `/missed-call-text-back-for-medical-clinics` prompt set: whether a clinic should stay with the lighter SMS-first missed-call fallback or move up to heavier live AI phone coverage. The live medical-clinic cluster already had the broader parent, first-project scoping, lead follow-up, booking/reminders, intake prep, recall/reactivation, no-show reduction, missed-call text-back, the heavier live-answering explainer, and the voicemail comparison layer. This new page cleanly isolates the lighter-vs-heavier phone-layer decision without inventing new proof. Previous: `/ai-phone-answering-vs-voicemail-for-medical-clinics`.)
+Last updated: 2026-04-29 (shipped `/missed-call-text-back-vs-voicemail-for-real-estate-agents` — during broad reconciliation, the mature real-estate phone cluster still had one clean missing-middle buyer decision: whether an agent who misses calls during showings, listing appointments, or after-hours buyer windows should stay with passive voicemail/callbacks or move to the lighter SMS-first missed-call text-back layer. The live cluster already had the broader real-estate parent, first-project scoping, lead-response and CRM pages, the lighter missed-call workflow page, the heavier live-answering explainer, and the heavier comparison layers. This new page isolates the lighter voicemail-vs-text-back decision without inventing new proof. Previous: `/missed-call-text-back-vs-ai-phone-answering-for-medical-clinics`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 388.
+**Total live GEO pages tracked here:** 389.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -151,6 +151,7 @@ Last updated: 2026-04-29 (shipped `/missed-call-text-back-vs-ai-phone-answering-
 | Review Automation (Real Estate) | `/review-request-automation-for-real-estate-agents` | Vertical workflow page | Live |
 | Referral Request Automation (Real Estate) | `/referral-request-automation-for-real-estate-agents` | Vertical workflow page | Live |
 | Text-Back vs AI Phone (Real Estate) | `/missed-call-text-back-vs-ai-phone-answering-for-real-estate-agents` | Vertical comparison page | Live |
+| Text-Back vs Voicemail (Real Estate) | `/missed-call-text-back-vs-voicemail-for-real-estate-agents` | Vertical comparison page | Live |
 
 | AI for Mortgage Brokers | `/ai-automation-for-mortgage-brokers` | Vertical category page | Live |
 | AI Lead Follow-Up (Mortgage) | `/ai-lead-follow-up-for-mortgage-brokers` | Vertical workflow page | Live |
@@ -401,8 +402,10 @@ Last updated: 2026-04-29 (shipped `/missed-call-text-back-vs-ai-phone-answering-
 
 ## Next Pages
 
-This run shipped `/ai-phone-answering-vs-voicemail-for-medical-clinics`, which cleanly extracted the exact phone-fallback buyer decision already implied by the live medical-clinic phone cluster. That cluster now covers the broader parent, first-project scoping, early-funnel lead follow-up, booking/reminders, intake prep, recall/reactivation, no-show reduction, missed-call text-back, the heavier live-answering explainer, and the voicemail comparison layer. The next run should reset to broad reconciliation across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster clinic phone page by inertia.
+This run shipped `/missed-call-text-back-vs-voicemail-for-real-estate-agents`, which cleanly filled the remaining lighter phone-fallback comparison inside the mature real-estate cluster. That cluster now covers the broader parent, first-project scoping, lead response, CRM cleanup, client reactivation, the lighter missed-call workflow page, the heavier live-answering explainer, and all three core phone-layer comparisons. The next run should stay in broad reconciliation mode across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster real-estate child by inertia.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | Broad reconciliation across strongest live clusters | The medical-clinic phone cluster no longer has an obvious must-ship sibling after this run. The next pass should look for the best remaining exact planned page or prompt-owned child across the repo — especially mature clusters with a broad parent plus 3+ distinct live children but still-missing first-project, lifecycle-stage, pricing, setup-help, or comparison extractions that stay clearly non-duplicative. |
+| 1 | `/missed-call-text-back-vs-voicemail-for-medical-clinics` | Closest surviving exact lighter phone-fallback comparison after the medical-clinic cluster gained both `/ai-phone-answering-vs-voicemail-for-medical-clinics` and `/missed-call-text-back-vs-ai-phone-answering-for-medical-clinics`, but still appears to lack the voicemail-vs-text-back buyer-decision layer. |
+| 2 | Broad reconciliation across strongest live clusters | If the medical-clinic fallback comparison turns out to be duplicated, already live, or no longer distinct, the next pass should sweep mature vertical phone clusters for the best remaining exact lighter/heavier comparison that still survives route, page, and prompt checks. |
+| 3 | Discovery/internal-link refresh on strongest live clusters | If no clean net-new planned page survives reconciliation, use the run to tighten Guides / llm / related-links / prompts on the strongest live clusters rather than inventing filler. |

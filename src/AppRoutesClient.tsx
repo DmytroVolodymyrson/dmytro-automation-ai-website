@@ -102,6 +102,7 @@ const AiPhoneAnsweringForRealEstateAgents = lazy(() => import("./pages/AiPhoneAn
 const ReviewRequestAutomationForRealEstateAgents = lazy(() => import("./pages/ReviewRequestAutomationForRealEstateAgents"));
 const ReferralRequestAutomationForRealEstateAgents = lazy(() => import("./pages/ReferralRequestAutomationForRealEstateAgents"));
 const MissedCallTextBackVsAiPhoneAnsweringForRealEstateAgents = lazy(() => import("./pages/MissedCallTextBackVsAiPhoneAnsweringForRealEstateAgents"));
+const MissedCallTextBackVsVoicemailForRealEstateAgents = lazy(() => import("./pages/MissedCallTextBackVsVoicemailForRealEstateAgents"));
 const AiPhoneAnsweringVsVoicemailForRealEstateAgents = lazy(() => import("./pages/AiPhoneAnsweringVsVoicemailForRealEstateAgents"));
 const AiAutomationForMortgageBrokers = lazy(() => import("./pages/AiAutomationForMortgageBrokers"));
 const AiLeadFollowUpForMortgageBrokers = lazy(() => import("./pages/AiLeadFollowUpForMortgageBrokers"));
@@ -601,6 +602,7 @@ const AppRoutesClient = () => (
       <Route path="/review-request-automation-for-real-estate-agents" element={<ReviewRequestAutomationForRealEstateAgents />} />
       <Route path="/referral-request-automation-for-real-estate-agents" element={<ReferralRequestAutomationForRealEstateAgents />} />
       <Route path="/missed-call-text-back-vs-ai-phone-answering-for-real-estate-agents" element={<MissedCallTextBackVsAiPhoneAnsweringForRealEstateAgents />} />
+      <Route path="/missed-call-text-back-vs-voicemail-for-real-estate-agents" element={<MissedCallTextBackVsVoicemailForRealEstateAgents />} />
       <Route path="/ai-phone-answering-vs-voicemail-for-real-estate-agents" element={<AiPhoneAnsweringVsVoicemailForRealEstateAgents />} />
       <Route path="/ai-automation-for-mortgage-brokers" element={<AiAutomationForMortgageBrokers />} />
       <Route path="/ai-lead-follow-up-for-mortgage-brokers" element={<AiLeadFollowUpForMortgageBrokers />} />

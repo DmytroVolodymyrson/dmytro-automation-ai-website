@@ -1004,6 +1004,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-vs-voicemail-for-real-estate-agents",
+      "path": "/missed-call-text-back-vs-voicemail-for-real-estate-agents",
+      "label": "Missed Call Text-Back vs. Voicemail for Real Estate Agents",
+      "prompts": [
+        "Missed call text-back vs voicemail for real estate agents",
+        "Should a real estate agent use missed-call text-back or voicemail?",
+        "Is voicemail enough for real estate leads when I miss calls at showings?",
+        "When is missed-call text-back better than voicemail for a real estate team?",
+        "Best missed-call fallback for real estate agents text-back or voicemail"
+      ]
+    },
+    {
       "id": "ai-lead-follow-up-for-mortgage-brokers",
       "path": "/ai-lead-follow-up-for-mortgage-brokers",
       "label": "AI Lead Follow-Up for Mortgage Brokers",
@@ -1108,7 +1120,7 @@
         "What should a mortgage broker automate first lead follow-up missed-call text-back document collection or incomplete application follow-up?",
         "Should a mortgage broker automate lead follow-up before document collection?",
         "Should a mortgage brokerage automate incomplete-application recovery before document reminders?",
-        "How do I choose the first automation project for a mortgage brokerage \u2014 lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
+        "How do I choose the first automation project for a mortgage brokerage — lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
       ]
     },
     {

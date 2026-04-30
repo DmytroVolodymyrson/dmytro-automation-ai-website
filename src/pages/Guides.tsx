@@ -1395,6 +1395,13 @@ const guides: GuideItem[] = [
     category: "comparisons",
   },
   {
+    title: "Missed Call Text-Back vs. Voicemail for Real Estate Agents",
+    description:
+      "Practical fallback comparison for agents deciding whether a missed-call text-back workflow already beats voicemail when leads call during showings, listing appointments, and after-hours buyer inquiry windows.",
+    href: "/missed-call-text-back-vs-voicemail-for-real-estate-agents",
+    category: "comparisons",
+  },
+  {
     title: "AI Phone Answering vs. Voicemail for Real Estate Agents",
     description:
       "Should a real estate agent keep sending callers to voicemail or answer with AI? Practical comparison of live call coverage, callback lag, after-hours demand, and when missed-call text-back is the smarter middle step.",

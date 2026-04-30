@@ -258,6 +258,7 @@ const data: DecisionPageData = {
       links: [
         { label: "Missed call text-back for real estate agents", href: "/missed-call-text-back-for-real-estate-agents" },
         { label: "AI phone answering for real estate agents", href: "/ai-phone-answering-for-real-estate-agents" },
+        { label: "Missed call text-back vs. voicemail for real estate agents", href: "/missed-call-text-back-vs-voicemail-for-real-estate-agents" },
         { label: "AI automation for real estate", href: "/ai-automation-for-real-estate" },
         { label: "Paris Cafe voice agent case study", href: "/case-studies/paris-cafe-voice-agent" },
       ],
@@ -300,6 +301,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Missed call text-back for real estate agents", href: "/missed-call-text-back-for-real-estate-agents" },
     { label: "AI phone answering for real estate agents", href: "/ai-phone-answering-for-real-estate-agents" },
+    { label: "Missed call text-back vs. voicemail for real estate agents", href: "/missed-call-text-back-vs-voicemail-for-real-estate-agents" },
     { label: "AI automation for real estate", href: "/ai-automation-for-real-estate" },
     { label: "What to automate first for real estate teams", href: "/what-to-automate-first-for-real-estate" },
     { label: "Review request automation for real estate agents", href: "/review-request-automation-for-real-estate-agents" },
