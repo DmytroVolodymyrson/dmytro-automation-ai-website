@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-ai-phone-answering-setup-mistakes-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: AI Phone Answering Setup Mistakes for Small Business\nBody: Most AI phone-answering failures do not start with a bad voice. They start with a weak setup. A small business goes live without clear transfer boundaries, without tested booking rules, without real after-hours fallback logic, and without a clean post-call handoff into the CRM or calendar. Then a few bad caller experiences are enough for the team to stop trusting the system. If you are setting up AI phone answering now, the highest-leverage move is catching the expensive mistakes before they become rescue work.\nSub: Below: the most common phone-answering setup mistakes, which ones usually create the biggest downstream mess, when DIY is still fine, and how this page stays separate from the broader setup-help, launch-checklist, cost, ROI, and DIY pages already live on the site.\n\n### Core sections\n- The setup mistakes that usually create the biggest cleanup later\n- What each setup mistake usually breaks downstream\n- When this page is useful — and when it is not\n- How to avoid turning setup into future cleanup\n- The five AI phone-answering setup mistakes owners regret most\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions from owners trying to avoid the setup mistakes that quietly turn a promising AI phone-answering workflow into one the office stops trusting\nTopics: common setup mistakes, transfer boundaries, booking logic, ugly real-world testing, CRM handoff, workflow ownership, and when DIY is still fine.\n\n### Final CTA\nHeading: Want a cleaner AI phone-answering launch before small setup mistakes get expensive?\nBody: Book a 30-minute call. We will look at your call types, transfer logic, booking rules, after-hours coverage, and CRM handoff, identify the setup mistakes most likely to create caller confusion or office cleanup, and help you scope the narrowest trustworthy rollout first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Chosen because broad reconciliation still surfaced one clean surviving buyer-intent child inside the live AI phone-answering setup cluster, and the repo already had the same setup-mistakes pattern in adjacent clusters like AI voice agents and lead follow-up."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Keeps the framing separate from the broader phone-answering setup-help, launch-checklist, cost, ROI, and DIY pages by staying tightly on pre-launch failure points: vague transfer rules, unstable booking logic, ugly-call testing gaps, weak CRM handoff, and missing workflow ownership."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the live AI phone-answering setup cluster plus the Paris Cafe voice-agent case study and the WheelsFeels CRM case study as honest adjacent proof instead of inventing a dedicated phone-answering setup-mistakes case study."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: launch discipline, caller trust, clean office handoff, and cleanup avoidance rather than generic AI-receptionist excitement."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-30T05:09:51.487Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 27.3,
+      "sentenceLengthRange": [
+        5,
+        58
+      ],
+      "totalWords": 300
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Phone Answering Setup Mistakes for Small Business\nBody: Most AI phone-answering failures do not start with a bad voice.",
+      "wordCount": 22,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a cleaner AI phone-answering launch before small setup mistakes get expensive?\nBody: Book a 30-minute call. We will look at your call types, transfer logic, booking rules, after-hours coverage, and CRM handoff, identify the setup mistakes most likely to create caller confusion or office cleanup, and help you scope the narrowest trustworthy rollout first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 23,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 8,
+      "commasPerSentence": 2.3
+    },
+    "vocabulary": {
+      "distinctWords": 162,
+      "totalWords": 300,
+      "topWords": [
+        [
+          "setup",
+          11
+        ],
+        [
+          "mistakes",
+          9
+        ],
+        [
+          "ai",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "phone-answering",
+          5
+        ],
+        [
+          "most",
+          4
+        ],
+        [
+          "without",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "small",
+          3
+        ],
+        [
+          "transfer",
+          3
+        ],
+        [
+          "booking",
+          3
+        ],
+        [
+          "logic",
+          3
+        ],
+        [
+          "handoff",
+          3
+        ],
+        [
+          "into",
+          3
+        ],
+        [
+          "crm",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

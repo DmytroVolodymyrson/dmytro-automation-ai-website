@@ -778,6 +778,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Phone Answering Setup Mistakes for Small Business",
+    description:
+      "Common AI phone-answering setup mistakes that quietly create bad caller experience, weak transfer logic, broken booking rules, and messy CRM handoff before launch.",
+    href: "/ai-phone-answering-setup-mistakes-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Phone Answering ROI for Small Business",
     description:
       "How to evaluate whether AI phone answering justifies the investment — conservative payback math, recovered call value, saved admin time, and when a lighter workflow is the smarter first step.",

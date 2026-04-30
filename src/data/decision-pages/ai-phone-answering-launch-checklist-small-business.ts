@@ -255,6 +255,7 @@ const data: DecisionPageData = {
     "Useful if you are already close to go-live and want to reduce the chance that launch week turns into manual rescue work.",
   relatedLinks: [
     { label: "AI phone answering setup help", href: "/ai-phone-answering-setup-small-business" },
+    { label: "AI phone answering setup mistakes", href: "/ai-phone-answering-setup-mistakes-small-business" },
     { label: "AI phone answering cost", href: "/ai-phone-answering-cost-small-business" },
     { label: "AI phone answering ROI", href: "/ai-phone-answering-roi-small-business" },
     { label: "AI phone answering setup vs. DIY", href: "/ai-phone-answering-setup-vs-diy-small-business" },

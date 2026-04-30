@@ -207,6 +207,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
     { label: "AI phone answering launch checklist for small business", href: "/ai-phone-answering-launch-checklist-small-business" },
+    { label: "AI phone answering setup mistakes for small business", href: "/ai-phone-answering-setup-mistakes-small-business" },
     { label: "AI phone answering cost for small business", href: "/ai-phone-answering-cost-small-business" },
     { label: "AI phone answering ROI for small business", href: "/ai-phone-answering-roi-small-business" },
     { label: "AI phone answering setup vs. DIY for small business", href: "/ai-phone-answering-setup-vs-diy-small-business" },

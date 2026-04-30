@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/ai-phone-answering-launch-checklist-small-business` — during broad reconciliation, the strongest clean surviving buyer-intent page came from the live AI phone-answering setup cluster. The parent setup-help page still owned an exact pre-launch readiness query, and the repo already had the matching pattern in adjacent setup-heavy clusters like AI voice agents. This ship isolates the go-live checklist layer — transfer logic, booking rules, ugly-call testing, CRM handoff, and post-launch ownership — without rehashing setup-help, cost, ROI, or DIY framing. Previous: `/ai-lead-follow-up-setup-mistakes-small-business`.)
+Last updated: 2026-04-29 (shipped `/ai-phone-answering-setup-mistakes-small-business` — broad reconciliation still surfaced one clean surviving buyer-intent child inside the live AI phone-answering setup cluster. The repo already had the matching pattern in adjacent setup-heavy clusters like AI voice agents and lead follow-up, and the phone-answering cluster still lacked the exact mistakes layer between setup help and launch readiness. This ship isolates the pre-launch failure points — vague transfer rules, weak booking logic, messy CRM handoff, ugly-call testing gaps, and missing post-launch ownership — without rehashing setup-help, launch-checklist, cost, ROI, or DIY framing. Previous: `/ai-phone-answering-launch-checklist-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 392.
+**Total live GEO pages tracked here:** 393.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -383,6 +383,7 @@ Last updated: 2026-04-29 (shipped `/ai-phone-answering-launch-checklist-small-bu
 | E-commerce CRM Case Study | `/case-studies/ecommerce-crm-automation` | Case study | Live |
 | AI Phone Answering Setup (SMB) | `/ai-phone-answering-setup-small-business` | Workflow / service page | Live |
 | AI Phone Answering Launch Checklist (SMB) | `/ai-phone-answering-launch-checklist-small-business` | Workflow / launch-readiness page | Live |
+| AI Phone Answering Setup Mistakes (SMB) | `/ai-phone-answering-setup-mistakes-small-business` | Workflow / setup-mistakes page | Live |
 | AI Phone Answering ROI (SMB) | `/ai-phone-answering-roi-small-business` | Workflow / ROI page | Live |
 | AI Phone Answering Setup vs. DIY (SMB) | `/ai-phone-answering-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | Quote Follow-Up Cost (SMB) | `/quote-follow-up-cost-small-business` | Workflow / cost page | Live |
@@ -405,7 +406,7 @@ Last updated: 2026-04-29 (shipped `/ai-phone-answering-launch-checklist-small-bu
 
 ## Next Pages
 
-This run shipped `/ai-phone-answering-launch-checklist-small-business`, which cleanly extracted the remaining go-live readiness decision from the live AI phone-answering setup cluster. That cluster now covers the broader parent, setup help, launch-readiness checklist, cost, ROI, and the buy-vs-build decision. The next run should return to broad reconciliation across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster phone-answering child by inertia.
+This run shipped `/ai-phone-answering-setup-mistakes-small-business`, which cleanly extracted the remaining pre-launch failure-point layer from the live AI phone-answering setup cluster. That cluster now covers the broader parent, setup help, launch-readiness checklist, setup-mistakes page, cost, ROI, and the buy-vs-build decision. The next run should return to broad reconciliation across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster phone-answering child by inertia.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |

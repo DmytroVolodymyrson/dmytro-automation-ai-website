@@ -3068,6 +3068,18 @@
       ]
     },
     {
+      "id": "ai-phone-answering-setup-mistakes-small-business",
+      "path": "/ai-phone-answering-setup-mistakes-small-business",
+      "label": "AI Phone Answering Setup Mistakes for Small Business",
+      "prompts": [
+        "AI phone answering setup mistakes for small business",
+        "What are the most common AI phone answering setup mistakes?",
+        "Why does AI phone answering fail after launch?",
+        "What should I fix before turning AI phone answering live?",
+        "How do I avoid bad transfer logic and booking mistakes in AI phone answering?"
+      ]
+    },
+    {
       "id": "ai-phone-answering-roi-small-business",
       "path": "/ai-phone-answering-roi-small-business",
       "label": "AI Phone Answering ROI for Small Business",
