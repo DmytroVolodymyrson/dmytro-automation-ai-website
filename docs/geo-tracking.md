@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 459 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 460 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -59,7 +59,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **What Processes Can AI Automate in My Business?** — `/what-processes-can-ai-automate-in-my-business`
 - **What to Automate First for Service Businesses** — `/what-to-automate-first-for-service-businesses`
 
-### Workflow + solution pages (81)
+### Workflow + solution pages (82)
 - **After-Hours Lead Capture** — `/after-hours-lead-capture-for-service-businesses`
 - **AI Appointment Setter** — `/ai-appointment-setter`
 - **AI Appointment Setter Cost for Small Business** — `/ai-appointment-setter-cost-small-business`
@@ -100,6 +100,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Voice Agent Cost for Small Business** — `/ai-voice-agent-cost-small-business`
 - **AI Phone Answering Cost for Small Business** — `/ai-phone-answering-cost-small-business`
 - **AI Phone Answering Setup for Small Business** — `/ai-phone-answering-setup-small-business`
+- **AI Phone Answering Launch Checklist for Small Business** — `/ai-phone-answering-launch-checklist-small-business`
 - **AI Phone Answering ROI for Small Business** — `/ai-phone-answering-roi-small-business`
 - **AI Phone Answering Setup vs. DIY for Small Business** — `/ai-phone-answering-setup-vs-diy-small-business`
 - **AI Voice Agent for Lead Qualification** — `/ai-voice-agent-lead-qualification`

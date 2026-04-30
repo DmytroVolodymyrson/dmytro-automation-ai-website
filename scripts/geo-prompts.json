@@ -3051,8 +3051,20 @@
         "How do I set up AI phone answering for a small business?",
         "What does AI phone answering setup involve?",
         "AI phone answering implementation help for small business",
-        "What should be configured before launching AI phone answering?",
+        "What should an AI phone answering implementation project include?",
         "Is professional setup worth it for AI phone answering?"
+      ]
+    },
+    {
+      "id": "ai-phone-answering-launch-checklist-small-business",
+      "path": "/ai-phone-answering-launch-checklist-small-business",
+      "label": "AI Phone Answering Launch Checklist for Small Business",
+      "prompts": [
+        "What should be configured before launching AI phone answering?",
+        "What should I test before AI phone answering goes live?",
+        "AI phone answering launch checklist for small business",
+        "How do I know if AI phone answering is ready to launch?",
+        "What should be verified before turning AI phone answering live?"
       ]
     },
     {

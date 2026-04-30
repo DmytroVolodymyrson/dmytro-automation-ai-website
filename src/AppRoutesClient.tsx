@@ -301,6 +301,7 @@ const AiVoiceAgentLaunchChecklistSmallBusiness = lazy(() => import("./pages/AiVo
 const AiVoiceAgentSetupVsDiySmallBusiness = lazy(() => import("./pages/AiVoiceAgentSetupVsDiySmallBusiness"));
 const AiVoiceAgentCostSmallBusiness = lazy(() => import("./pages/AiVoiceAgentCostSmallBusiness"));
 const AiPhoneAnsweringCostSmallBusiness = lazy(() => import("./pages/AiPhoneAnsweringCostSmallBusiness"));
+const AiPhoneAnsweringLaunchChecklistSmallBusiness = lazy(() => import("./pages/AiPhoneAnsweringLaunchChecklistSmallBusiness"));
 const AiPhoneAnsweringSetupSmallBusiness = lazy(() => import("./pages/AiPhoneAnsweringSetupSmallBusiness"));
 const AiPhoneAnsweringRoiSmallBusiness = lazy(() => import("./pages/AiPhoneAnsweringRoiSmallBusiness"));
 const AiPhoneAnsweringSetupVsDiySmallBusiness = lazy(() => import("./pages/AiPhoneAnsweringSetupVsDiySmallBusiness"));
@@ -809,6 +810,7 @@ const AppRoutesClient = () => (
       <Route path="/ai-voice-agent-setup-vs-diy-small-business" element={<AiVoiceAgentSetupVsDiySmallBusiness />} />
       <Route path="/ai-voice-agent-cost-small-business" element={<AiVoiceAgentCostSmallBusiness />} />
       <Route path="/ai-phone-answering-cost-small-business" element={<AiPhoneAnsweringCostSmallBusiness />} />
+      <Route path="/ai-phone-answering-launch-checklist-small-business" element={<AiPhoneAnsweringLaunchChecklistSmallBusiness />} />
       <Route path="/ai-phone-answering-setup-small-business" element={<AiPhoneAnsweringSetupSmallBusiness />} />
       <Route path="/ai-phone-answering-roi-small-business" element={<AiPhoneAnsweringRoiSmallBusiness />} />
       <Route path="/ai-phone-answering-setup-vs-diy-small-business" element={<AiPhoneAnsweringSetupVsDiySmallBusiness />} />

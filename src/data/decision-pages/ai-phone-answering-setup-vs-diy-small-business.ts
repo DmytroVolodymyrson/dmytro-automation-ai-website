@@ -242,6 +242,7 @@ const data: DecisionPageData = {
     "Useful if you already think AI phone answering could help and the real question is whether to keep pushing through setup alone.",
   relatedLinks: [
     { label: "AI phone answering setup", href: "/ai-phone-answering-setup-small-business" },
+    { label: "AI phone answering launch checklist", href: "/ai-phone-answering-launch-checklist-small-business" },
     { label: "AI phone answering cost", href: "/ai-phone-answering-cost-small-business" },
     { label: "AI phone answering ROI", href: "/ai-phone-answering-roi-small-business" },
     { label: "AI voice agent setup vs. DIY", href: "/ai-voice-agent-setup-vs-diy-small-business" },

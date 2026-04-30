@@ -219,6 +219,7 @@ const data: DecisionPageData = {
     "No obligation. No generic pitch. Just a practical conversation about your phone coverage gaps.",
   relatedLinks: [
     { label: "AI phone answering setup for small business", href: "/ai-phone-answering-setup-small-business" },
+    { label: "AI phone answering launch checklist for small business", href: "/ai-phone-answering-launch-checklist-small-business" },
     { label: "AI phone answering cost for small business", href: "/ai-phone-answering-cost-small-business" },
     { label: "AI phone answering ROI for small business", href: "/ai-phone-answering-roi-small-business" },
     { label: "AI phone answering vs. voicemail for service businesses", href: "/ai-phone-answering-vs-voicemail-for-service-businesses" },

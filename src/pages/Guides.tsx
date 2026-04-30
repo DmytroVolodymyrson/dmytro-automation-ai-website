@@ -771,6 +771,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Phone Answering Launch Checklist for Small Business",
+    description:
+      "Pre-launch checklist for AI phone answering — what to verify before go-live, what to test on ugly real calls, how booking and transfer logic should behave, and when to delay launch until the workflow is actually trustworthy.",
+    href: "/ai-phone-answering-launch-checklist-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Phone Answering ROI for Small Business",
     description:
       "How to evaluate whether AI phone answering justifies the investment — conservative payback math, recovered call value, saved admin time, and when a lighter workflow is the smarter first step.",

@@ -162,6 +162,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
+        { label: "AI phone answering launch checklist for small business", href: "/ai-phone-answering-launch-checklist-small-business" },
         { label: "AI phone answering cost for small business", href: "/ai-phone-answering-cost-small-business" },
         { label: "AI phone answering ROI for small business", href: "/ai-phone-answering-roi-small-business" },
         { label: "AI voice agent setup vs DIY for small business", href: "/ai-voice-agent-setup-vs-diy-small-business" },
@@ -205,6 +206,7 @@ const data: DecisionPageData = {
     "No generic demo. Just a practical conversation about what your phone setup actually needs.",
   relatedLinks: [
     { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
+    { label: "AI phone answering launch checklist for small business", href: "/ai-phone-answering-launch-checklist-small-business" },
     { label: "AI phone answering cost for small business", href: "/ai-phone-answering-cost-small-business" },
     { label: "AI phone answering ROI for small business", href: "/ai-phone-answering-roi-small-business" },
     { label: "AI phone answering setup vs. DIY for small business", href: "/ai-phone-answering-setup-vs-diy-small-business" },
