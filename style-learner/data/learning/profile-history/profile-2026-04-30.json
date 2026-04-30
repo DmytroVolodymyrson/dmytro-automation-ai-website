@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-30T04:14:16.878Z",
-  "postCount": 578,
+  "updatedAt": "2026-04-30T04:30:03.335Z",
+  "postCount": 579,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,25 +15,25 @@
       "max": 13,
       "p25": 4,
       "p75": 4,
-      "samples": 578
+      "samples": 579
     },
     "sentenceLength": {
       "mean": 23.8,
-      "median": 24.05,
+      "median": 24,
       "min": 7.1,
       "max": 105,
       "p25": 19.6,
       "p75": 27.6,
-      "samples": 578
+      "samples": 579
     },
     "totalWords": {
-      "mean": 336.6,
+      "mean": 336.4,
       "median": 337,
       "min": 17,
       "max": 1155,
       "p25": 281,
       "p75": 374,
-      "samples": 578
+      "samples": 579
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -142,7 +142,8 @@
       "long | single | short | single | long | long | long | short | long | long | short | long": 1,
       "long | single | single | short | single | long | short | long | long | short | long | long": 1,
       "long | single | long | short | short | single | long": 1,
-      "long | long | long | long | long | long | short | short | long | long | long | long": 2
+      "long | long | long | long | long | long | short | short | long | long | long | long": 2,
+      "single | single | long | single": 1
     },
     "structuralTemplates": {
       "opener | context | result | context | closer": 3,
@@ -163,7 +164,7 @@
       "opener | product-pitch | product-pitch | result | closer": 1,
       "opener | product-pitch | product-pitch | result | context | product-pitch | context | product-pitch | product-pitch | closer": 1,
       "opener | context | context | context | result | product-pitch | context | context | closer": 1,
-      "opener | context | product-pitch | closer": 50,
+      "opener | context | product-pitch | closer": 51,
       "opener | context | context | closer": 223,
       "opener | product-pitch | context | closer": 33,
       "opener | context | product-pitch | context | product-pitch | result | context | closer": 1,
@@ -231,7 +232,7 @@
   "openers": {
     "patterns": {
       "situation": {
-        "count": 124,
+        "count": 125,
         "examples": [
           "Badge: The Person Behind the Automation",
           "Section heading: Common Questions\nSubheading: Straight answers about working wit",
@@ -305,7 +306,7 @@
         ]
       },
       "cta": {
-        "count": 10,
+        "count": 11,
         "examples": [
           "### Final CTA\nHeading: Real-estate cluster navigation\nBody: These link updates a",
           "### Internal-linking purpose\nSection: Homepage editorial routing\n- Adds a new in",
@@ -324,19 +325,19 @@
     "topWords": [
       [
         "-",
-        3810
+        3813
       ],
       [
         "what",
-        2094
+        2099
       ],
       [
         "automation",
-        1574
+        1577
       ],
       [
         "ai",
-        1238
+        1242
       ],
       [
         "how",
@@ -440,7 +441,7 @@
       ],
       [
         "business",
-        331
+        334
       ]
     ],
     "casualMarkerRate": 0,

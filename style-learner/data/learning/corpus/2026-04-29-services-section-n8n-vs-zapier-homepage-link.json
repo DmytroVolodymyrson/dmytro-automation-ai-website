@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-services-section-n8n-vs-zapier-homepage-link",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "Section heading: What I Build\n\nUpdated editorial paragraph excerpt:\n\n\"{services.subtitle} Not sure where to start? Read our guide to the top AI automations for service businesses to see which ones deliver the fastest ROI. If your main hesitation is that you do not have a developer or IT person to run this, start with the AI automation without a tech team guide to see which workflows are safe first builds for owner-led teams. If you are still trying to understand what expert help actually looks like before comparing pricing or DIY, read what an AI automation consultant actually does. Once you understand the role, see what a first consultant-led workflow typically costs so you can compare quotes with realistic numbers. If you also need the broader budget picture — build cost, tool fees, and support — read what AI automation actually costs for a small business before you commit to the wrong scope. And if you already know the workflow you want but still need to decide whether a lighter Zapier setup is enough or you need the control and lower long-run cost of n8n, read n8n vs Zapier for small business before you lock in the stack.\"\n\nNew inline link added:\n- Anchor: \"n8n vs Zapier for small business\"\n- Target: `/n8n-vs-zapier-small-business`\n- Framing: stack-choice decision before implementation scope is locked in",
+    "formatting": [
+      "bold:Section"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Keeps the homepage editorial-link pattern consistent: short buyer-language sentence, one clear objection, one direct next-step page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses plain owner language instead of tool jargon-heavy copy: lighter Zapier setup vs more control and lower long-run cost of n8n."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Frames the destination as a scope-protection decision, not generic \"learn more\" navigation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Sits after pricing and cost links because the buyer here already knows the workflow and is now choosing the stack."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-30T04:30:02.159Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        7,
+        1
+      ],
+      "avgSentenceLength": 22.1,
+      "sentenceLengthRange": [
+        4,
+        45
+      ],
+      "totalWords": 221
+    },
+    "opener": {
+      "type": "situation",
+      "text": "Section heading: What I Build",
+      "wordCount": 5,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "cta",
+      "text": "New inline link added:\n- Anchor: \"n8n vs Zapier for small business\"\n- Target: `/n8n-vs-zapier-small-business`\n- Framing: stack-choice decision before implementation scope is locked in",
+      "pattern": "cta"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 6,
+      "emDashes": 2,
+      "enDashes": 0,
+      "hyphens": 3,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 6,
+      "commasPerSentence": 0.86
+    },
+    "vocabulary": {
+      "distinctWords": 133,
+      "totalWords": 221,
+      "topWords": [
+        [
+          "what",
+          5
+        ],
+        [
+          "read",
+          4
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "if",
+          4
+        ],
+        [
+          "before",
+          4
+        ],
+        [
+          "see",
+          3
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "actually",
+          3
+        ],
+        [
+          "need",
+          3
+        ],
+        [
+          "small",
+          3
+        ],
+        [
+          "business",
+          3
+        ],
+        [
+          "zapier",
+          3
+        ],
+        [
+          "n8n",
+          3
+        ],
+        [
+          "-",
+          3
+        ],
+        [
+          "build",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

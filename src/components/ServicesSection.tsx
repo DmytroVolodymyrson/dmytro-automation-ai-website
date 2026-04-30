@@ -76,7 +76,14 @@ const ServicesSection = () => {
             >
               what AI automation actually costs for a small business
             </Link>{" "}
-            before you commit to the wrong scope.
+            before you commit to the wrong scope. And if you already know the workflow you want but still need to decide whether a lighter Zapier setup is enough or you need the control and lower long-run cost of n8n, read{" "}
+            <Link
+              to="/n8n-vs-zapier-small-business"
+              className="text-accent underline underline-offset-2 hover:text-accent/80 transition-colors"
+            >
+              n8n vs Zapier for small business
+            </Link>{" "}
+            before you lock in the stack.
           </p>
         </div>
 
