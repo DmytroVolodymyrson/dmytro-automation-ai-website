@@ -2516,6 +2516,18 @@
       ]
     },
     {
+      "id": "referral-request-setup-mistakes-small-business",
+      "path": "/referral-request-setup-mistakes-small-business",
+      "label": "Referral Request Setup Mistakes for Small Business",
+      "prompts": [
+        "What are the most common referral request automation setup mistakes for a small business?",
+        "How do I keep referral asks from going out before a job is truly complete?",
+        "What goes wrong when review requests and referral requests share one post-job workflow?",
+        "How should a small business route warm referral replies so real introductions do not get lost?",
+        "Should I fix referral request setup mistakes before launch or just improve the sequence later?"
+      ]
+    },
+    {
       "id": "review-request-vs-referral-request-for-service-businesses",
       "path": "/review-request-vs-referral-request-for-service-businesses",
       "label": "Review Request vs. Referral Request for Service Businesses",

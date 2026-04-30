@@ -932,6 +932,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Referral Request Setup Mistakes for Small Business",
+    description:
+      "Pre-launch mistakes guide for referral-request automation — unreliable completed-job triggers, bad timing, review-vs-referral overlap, weak issue suppression, lost warm replies, and the setup failures that create awkward follow-through later.",
+    href: "/referral-request-setup-mistakes-small-business",
+    category: "workflows",
+  },
+  {
     title: "Review Request vs. Referral Request for Service Businesses",
     description:
       "Which post-job ask should come first? Practical comparison of public reviews vs. private referrals, timing, reply routing, and how to keep the two workflows separate instead of bundling both into one awkward follow-up.",

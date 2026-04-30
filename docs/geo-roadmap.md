@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-30 (shipped `/quote-follow-up-setup-mistakes-small-business` — broad reconciliation still left this as the cleanest exact pain-aware child because the live quote-follow-up cluster already had the parent, setup-help, DIY, cost, and ROI layers but still lacked the setup-mistakes page itself. This page now owns the pre-launch failure mode: unreliable quote-sent triggers, generic stale timing, revision-routing failures, ownership drift, and CRM visibility gaps that quietly create cleanup after launch. Proof adjacency stays honest from the live quote-follow-up cluster, the estimate-follow-up setup page, contractor CRM setup guidance, and the published WheelsFeels CRM case study. Previous: `/client-onboarding-setup-mistakes-small-business`.)
+Last updated: 2026-04-30 (shipped `/referral-request-setup-mistakes-small-business` — fresh reconciliation still left this as the cleanest exact pain-aware child because the live referral-request cluster already had the parent, setup-help, DIY, cost, and ROI layers but still lacked the setup-mistakes page itself. This page now owns the pre-launch failure mode: weak completed-job triggers, bad timing, review-vs-referral overlap, unresolved-issue suppression failures, warm-intro routing gaps, and CRM ownership drift that quietly create awkward post-job follow-through after launch. Proof adjacency stays honest from the live referral-request cluster, the review-vs-referral comparison, and the published WheelsFeels CRM case study. Previous: `/quote-follow-up-setup-mistakes-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 407.
+**Total live GEO pages tracked here:** 408.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -36,6 +36,7 @@ Last updated: 2026-04-30 (shipped `/quote-follow-up-setup-mistakes-small-busines
 | Referral Request Automation Cost (SMB) | `/referral-request-automation-cost-small-business` | Workflow / service cost page | Live |
 | Referral Request Automation ROI (SMB) | `/referral-request-automation-roi-small-business` | Workflow / ROI page | Live |
 | Referral Request Automation Setup vs. DIY (SMB) | `/referral-request-automation-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
+| Referral Request Setup Mistakes (SMB) | `/referral-request-setup-mistakes-small-business` | Workflow / setup-mistakes page | Live |
 | Review Request vs. Referral Request (Service Businesses) | `/review-request-vs-referral-request-for-service-businesses` | Workflow comparison page | Live |
 | Missed Call Text-Back (Service Businesses) | `/missed-call-text-back-for-service-businesses` | Workflow parent page | Live |
 | Missed Call Text-Back Cost (SMB) | `/missed-call-text-back-cost-small-business` | Workflow / service cost page | Live |
@@ -420,10 +421,10 @@ Last updated: 2026-04-30 (shipped `/quote-follow-up-setup-mistakes-small-busines
 
 ## Next Pages
 
-The explicit quote-follow-up setup-mistakes gap is now live. That cluster now has the parent, setup-help, setup-mistakes, DIY, cost, and ROI layers live, so the next run should start with broad reconciliation again instead of forcing another quote-stage sibling by inertia.
+The explicit referral-request setup-mistakes gap is now live. That cluster now has the parent, setup-help, setup-mistakes, DIY, cost, and ROI layers live, so the next run should start with broad reconciliation again instead of forcing another referral-stage sibling by inertia.
 
 | Priority | Candidate | Why it is next |
 | --- | --- | --- |
-| 1 | Broad reconciliation across `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, live routes, and `scripts/geo-prompts.json` | The quote-follow-up cluster is now materially complete at the service-business level. The next ship should come from the strongest remaining distinct cluster rather than from stale roadmap inertia. |
-| 2 | `referral-request-setup-mistakes-small-business` | If fresh reconciliation still favors an exact pain-aware child, the referral-request cluster is a strong commercial fallback: the parent, setup-help, DIY, cost, and ROI layers are live, but the setup-mistakes page still appears open. |
-| 3 | Broad watchlist audit for another exact setup-mistakes child | If no stronger planned page survives reconciliation, the next best fallback is another live workflow cluster that already has setup-help, cost, ROI, and DIY pages but still lacks the mistakes layer itself. |
+| 1 | Broad reconciliation across `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, live routes, and `scripts/geo-prompts.json` | The referral-request cluster is now materially complete at the service-business level. The next ship should come from the strongest remaining distinct cluster rather than from stale roadmap inertia. |
+| 2 | Broad watchlist audit for another exact setup-mistakes child | If fresh reconciliation still favors an exact pain-aware child, the next best fallback is another live workflow cluster that already has setup-help, cost, ROI, and DIY pages but still lacks the mistakes layer itself. |
+| 3 | Priority-hub indexing refresh on the strongest discovered-not-indexed page | If no clean planned net-new page survives reconciliation, the best fallback is a bounded improvement pass on one of the highest-priority indexing URLs listed in `docs/geo-priority-urls.md`. |

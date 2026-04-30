@@ -246,6 +246,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Referral request automation for service businesses", href: "/referral-request-automation-for-service-businesses" },
     { label: "Referral request automation setup help", href: "/referral-request-automation-setup-for-service-businesses" },
+    { label: "Referral request setup mistakes", href: "/referral-request-setup-mistakes-small-business" },
     { label: "Referral request automation cost", href: "/referral-request-automation-cost-small-business" },
     { label: "Referral request automation ROI", href: "/referral-request-automation-roi-small-business" },
     { label: "Review request vs. referral request", href: "/review-request-vs-referral-request-for-service-businesses" },
