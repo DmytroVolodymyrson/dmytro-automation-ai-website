@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-30 (shipped `/after-hours-inquiry-handling-for-med-spas` â€” broad reconciliation found one clean missing med spa workflow still explicitly named in the live parent and first-project cluster after the broader med spa page, lead-follow-up page, booking child, no-show child, treatment-recall child, missed-call text-back pages, and live phone-answering pages were already live. This page isolates the off-hours intake and routing layer across missed calls, forms, texts, and next-day handoff without collapsing into either the lighter missed-call text-back fallback or the heavier live AI phone-answering layer. Proof adjacency stays honest from the live med spa cluster plus the generic after-hours / phone-handling guides and the existing Paris Cafe call-handling case study. Previous: `/client-onboarding-launch-checklist-small-business`.)
+Last updated: 2026-04-30 (shipped `/no-show-reduction-setup-mistakes-small-business` â€” broad reconciliation found one clean missing setup-mistakes child inside the mature no-show reduction cluster after the broader parent, setup-help page, setup-vs-DIY page, cost page, and ROI page were already live. This page isolates the pre-launch failure layer: weak booking-confirmed triggers, contradictory reschedule reminders, bad deposit scoping, and unclear exception ownership. Proof adjacency stays honest from the live no-show reduction cluster, adjacent scheduling / booking setup pages, and the existing Paris Cafe case study. Previous: `/after-hours-inquiry-handling-for-med-spas`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 400.
+**Total live GEO pages tracked here:** 401.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -397,6 +397,7 @@ Last updated: 2026-04-30 (shipped `/after-hours-inquiry-handling-for-med-spas` â
 | Insurance Claim Follow-Up (Roofing) | `/insurance-claim-follow-up-for-roofing-companies` | Vertical workflow page | Live |
 | Referral Request Automation (Roofing) | `/referral-request-automation-for-roofing-companies` | Vertical workflow page | Live |
 | No-Show Reduction Setup (Service Businesses) | `/no-show-reduction-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| No-Show Reduction Setup Mistakes (SMB) | `/no-show-reduction-setup-mistakes-small-business` | Workflow / setup-mistakes page | Live |
 | No-Show Reduction Setup vs. DIY (SMB) | `/no-show-reduction-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | No-Show Reduction Cost (SMB) | `/no-show-reduction-cost-small-business` | Workflow / cost page | Live |
 | No-Show Reduction ROI (SMB) | `/no-show-reduction-roi-small-business` | Workflow / ROI page | Live |
@@ -413,10 +414,10 @@ Last updated: 2026-04-30 (shipped `/after-hours-inquiry-handling-for-med-spas` â
 
 ## Next Pages
 
-This run shipped `/after-hours-inquiry-handling-for-med-spas`, which cleanly extracted the off-hours response layer from the live med spa cluster after the broader parent, first-project page, lead-follow-up child, booking child, no-show child, treatment-recall child, missed-call text-back pages, and live phone-answering pages were already live. That cluster now covers the broader parent, prioritization layer, lighter missed-call recovery, heavier live phone coverage, and the middle off-hours intake/routing layer. The safer default for the next run is another repo-wide sweep across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster med-spa child by inertia.
+This run shipped `/no-show-reduction-setup-mistakes-small-business`, which cleanly extracted the pre-launch failure layer from the live no-show reduction cluster after the broader parent, setup-help page, setup-vs-DIY page, cost page, and ROI page were already live. The strongest remaining nearby sibling is the launch-readiness layer, but the safer rule is still to re-check it against the broader repo before forcing another same-cluster ship by inertia.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | Broad reconciliation across strongest live clusters | The clean next ship should still be re-validated against mature live clusters, prompt ownership, and planning docs instead of assuming the next page stays in the med spa cluster. |
-| 2 | Existing-page indexing / internal-link refresh on a priority URL | If no clean net-new ship survives reconciliation, use the run on a bounded refresh for one of the highest-value URLs in `docs/geo-priority-urls.md`, then update style-learner and tracking docs accordingly. |
-| 3 | Prompt-backed audit of clusters missing a first-project, after-hours, or launch-readiness layer | Several mature clusters now have broader parent + setup/cost/ROI or phone siblings live; the next useful child may come from prompt ownership or a missing earlier decision layer rather than another obvious same-cluster expansion. |
+| 1 | `/no-show-reduction-launch-checklist-small-business` | The no-show reduction cluster now has the broader parent, setup-help, setup-mistakes, setup-vs-DIY, cost, and ROI layers live. A launch-checklist child is still materially distinct if it stays tightly on go-live readiness: trigger verification, edge-case testing, stop rules, deposit checks, and ownership before real customer traffic hits the workflow. |
+| 2 | Broad reconciliation across strongest live clusters | If a fresh repo-wide sweep finds a stronger distinct buyer-intent page elsewhere, do not force another no-show child just because this cluster shipped well. Re-check mature clusters against planning docs, prompt ownership, and live route reality first. |
+| 3 | Existing-page indexing / internal-link refresh on a priority URL | If no clean net-new ship survives reconciliation, use the run on a bounded refresh for one of the highest-value URLs in `docs/geo-priority-urls.md`, then update style-learner and tracking docs accordingly. |

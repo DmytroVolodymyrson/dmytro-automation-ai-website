@@ -209,6 +209,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
     { label: "No-show reduction setup for service businesses", href: "/no-show-reduction-setup-for-service-businesses" },
+    { label: "No-show reduction setup mistakes", href: "/no-show-reduction-setup-mistakes-small-business" },
     { label: "No-show reduction setup vs. DIY", href: "/no-show-reduction-setup-vs-diy-small-business" },
     { label: "No-show reduction cost for small business", href: "/no-show-reduction-cost-small-business" },
     { label: "No-show reduction ROI for small business", href: "/no-show-reduction-roi-small-business" },

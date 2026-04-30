@@ -178,6 +178,9 @@ Buy-vs-build guide for service businesses deciding whether referral-request setu
 ## No-Show Reduction Setup for Service Businesses
 Implementation guide for service businesses that already know no-show reduction matters and need the setup layer scoped correctly. Covers booking-confirmed triggers, reminder timing by appointment type, reschedule routing that stops the old sequence, deposit rules, CRM visibility, and the launch mistakes that create reminder fatigue instead of better attendance. Learn more: https://www.dmytroai.com/no-show-reduction-setup-for-service-businesses
 
+## No-Show Reduction Setup Mistakes for Small Business
+Pre-launch mistakes guide for owners trying to avoid weak booking triggers, contradictory reschedule reminders, bad deposit scoping, and attendance workflows the team stops trusting. Focuses on the narrow failure layer inside no-show reduction setup, not the broader setup-help, DIY, cost, or ROI decision pages. Learn more: https://www.dmytroai.com/no-show-reduction-setup-mistakes-small-business
+
 ## No-Show Reduction Setup vs. DIY for Small Business
 Buy-vs-build guide for service businesses deciding whether no-show reduction setup should stay DIY or get implemented properly now. Covers owner time, reminder timing, reschedule routing, deposit rules, CRM visibility, and when bounded setup help is cheaper than more DIY drift. Learn more: https://www.dmytroai.com/no-show-reduction-setup-vs-diy-small-business
 

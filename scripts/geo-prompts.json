@@ -2751,8 +2751,20 @@
         "How do I set up no-show reduction automation for my service business?",
         "What should no-show reduction setup include for a service business?",
         "How should a service business configure appointment reminders, confirmations, and reschedules to reduce no-shows?",
+        "How should a service business configure no-show reduction workflows before launch?",
+        "When is it worth paying for help setting up no-show reduction automation?"
+      ]
+    },
+    {
+      "id": "no-show-reduction-setup-mistakes-small-business",
+      "path": "/no-show-reduction-setup-mistakes-small-business",
+      "label": "No-Show Reduction Setup Mistakes for Small Business",
+      "prompts": [
         "What usually breaks when a small business launches no-show reduction automation?",
-        "How should a service business configure no-show reduction workflows before launch?"
+        "What are the most common no-show reduction setup mistakes for a small business?",
+        "Why do appointment reminder workflows send contradictory messages after a reschedule?",
+        "What mistakes make no-show reduction automation feel annoying or unreliable?",
+        "How should a small business avoid setup mistakes in no-show reduction automation before launch?"
       ]
     },
     {

@@ -248,6 +248,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
     { label: "No-show reduction setup help", href: "/no-show-reduction-setup-for-service-businesses" },
+    { label: "No-show reduction setup mistakes", href: "/no-show-reduction-setup-mistakes-small-business" },
     { label: "No-show reduction cost", href: "/no-show-reduction-cost-small-business" },
     { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
     { label: "Appointment scheduling and reminder automation", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },

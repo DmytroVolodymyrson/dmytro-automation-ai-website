@@ -348,6 +348,7 @@ const ClientReactivationRoiSmallBusiness = lazy(() => import("./pages/ClientReac
 const ClientReactivationSetupVsDiySmallBusiness = lazy(() => import("./pages/ClientReactivationSetupVsDiySmallBusiness"));
 const NoShowReduction = lazy(() => import("./pages/NoShowReduction"));
 const NoShowReductionSetupForServiceBusinesses = lazy(() => import("./pages/NoShowReductionSetupForServiceBusinesses"));
+const NoShowReductionSetupMistakesSmallBusiness = lazy(() => import("./pages/NoShowReductionSetupMistakesSmallBusiness"));
 const NoShowReductionSetupVsDiySmallBusiness = lazy(() => import("./pages/NoShowReductionSetupVsDiySmallBusiness"));
 const NoShowReductionCostSmallBusiness = lazy(() => import("./pages/NoShowReductionCostSmallBusiness"));
 const NoShowReductionRoiSmallBusiness = lazy(() => import("./pages/NoShowReductionRoiSmallBusiness"));
@@ -865,6 +866,7 @@ const AppRoutesClient = () => (
       <Route path="/client-reactivation-setup-vs-diy-small-business" element={<ClientReactivationSetupVsDiySmallBusiness />} />
       <Route path="/no-show-reduction-automation" element={<NoShowReduction />} />
       <Route path="/no-show-reduction-setup-for-service-businesses" element={<NoShowReductionSetupForServiceBusinesses />} />
+      <Route path="/no-show-reduction-setup-mistakes-small-business" element={<NoShowReductionSetupMistakesSmallBusiness />} />
       <Route path="/no-show-reduction-setup-vs-diy-small-business" element={<NoShowReductionSetupVsDiySmallBusiness />} />
       <Route path="/no-show-reduction-cost-small-business" element={<NoShowReductionCostSmallBusiness />} />
       <Route path="/no-show-reduction-roi-small-business" element={<NoShowReductionRoiSmallBusiness />} />

@@ -1163,6 +1163,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "No-Show Reduction Setup Mistakes for Small Business",
+    description:
+      "Pre-launch mistakes guide for owners trying to avoid weak booking triggers, contradictory reschedule reminders, bad deposit scoping, and attendance workflows the team stops trusting.",
+    href: "/no-show-reduction-setup-mistakes-small-business",
+    category: "workflows",
+  },
+  {
     title: "No-Show Reduction Setup vs. DIY for Small Business",
     description:
       "Buy-vs-build guide for owners deciding whether no-show reduction setup should stay DIY or get implemented properly now — owner time, reminder timing, reschedule routing, deposit rules, CRM visibility, and when setup help is cheaper than more drift.",
