@@ -1180,7 +1180,7 @@
         "What should a mortgage broker automate first lead follow-up missed-call text-back document collection or incomplete application follow-up?",
         "Should a mortgage broker automate lead follow-up before document collection?",
         "Should a mortgage brokerage automate incomplete-application recovery before document reminders?",
-        "How do I choose the first automation project for a mortgage brokerage \u2014 lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
+        "How do I choose the first automation project for a mortgage brokerage — lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
       ]
     },
     {
@@ -2897,6 +2897,18 @@
         "when is diy appointment scheduling and reminder setup enough for a small business",
         "is setup help worth paying for if appointment reminders and reschedules keep breaking",
         "how do i decide between diy and expert help for appointment scheduling and reminder setup"
+      ]
+    },
+    {
+      "id": "appointment-scheduling-and-reminder-launch-checklist-small-business",
+      "path": "/appointment-scheduling-and-reminder-launch-checklist-small-business",
+      "label": "Appointment Scheduling and Reminder Launch Checklist for Small Business",
+      "prompts": [
+        "Appointment scheduling and reminder launch checklist for small business",
+        "What should be verified before launching appointment scheduling and reminder automation?",
+        "What should I test before turning on scheduling automation for a small business?",
+        "How do I know if my appointment scheduling workflow is ready to go live?",
+        "When should a small business delay scheduling automation launch instead of forcing it live?"
       ]
     },
     {

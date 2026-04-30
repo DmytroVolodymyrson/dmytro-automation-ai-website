@@ -295,6 +295,7 @@ const AppointmentSchedulingAndReminderSetupMistakesSmallBusiness = lazy(() => im
 const AppointmentSchedulingAndReminderSetupVsDiySmallBusiness = lazy(() => import("./pages/AppointmentSchedulingAndReminderSetupVsDiySmallBusiness"));
 const AppointmentSchedulingAndReminderCostSmallBusiness = lazy(() => import("./pages/AppointmentSchedulingAndReminderCostSmallBusiness"));
 const AppointmentSchedulingAndReminderRoiSmallBusiness = lazy(() => import("./pages/AppointmentSchedulingAndReminderRoiSmallBusiness"));
+const AppointmentSchedulingAndReminderLaunchChecklistSmallBusiness = lazy(() => import("./pages/AppointmentSchedulingAndReminderLaunchChecklistSmallBusiness"));
 const AiPhoneAnswering = lazy(() => import("./pages/AiPhoneAnswering"));
 const MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses = lazy(() => import("./pages/MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses"));
 const MissedCallTextBackVsVoicemailForServiceBusinesses = lazy(() => import("./pages/MissedCallTextBackVsVoicemailForServiceBusinesses"));
@@ -808,6 +809,7 @@ const AppRoutesClient = () => (
       <Route path="/appointment-scheduling-and-reminder-setup-vs-diy-small-business" element={<AppointmentSchedulingAndReminderSetupVsDiySmallBusiness />} />
       <Route path="/appointment-scheduling-and-reminder-cost-small-business" element={<AppointmentSchedulingAndReminderCostSmallBusiness />} />
       <Route path="/appointment-scheduling-and-reminder-roi-small-business" element={<AppointmentSchedulingAndReminderRoiSmallBusiness />} />
+      <Route path="/appointment-scheduling-and-reminder-launch-checklist-small-business" element={<AppointmentSchedulingAndReminderLaunchChecklistSmallBusiness />} />
       <Route path="/booking-confirmation-and-reminder-automation" element={<BookingConfirmationAndReminder />} />
       <Route path="/booking-confirmation-and-reminder-setup-for-service-businesses" element={<BookingConfirmationAndReminderSetupForServiceBusinesses />} />
       <Route path="/booking-confirmation-and-reminder-setup-mistakes-small-business" element={<BookingConfirmationAndReminderSetupMistakesSmallBusiness />} />

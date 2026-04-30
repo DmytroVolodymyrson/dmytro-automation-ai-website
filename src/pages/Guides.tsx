@@ -1093,6 +1093,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Appointment Scheduling and Reminder Launch Checklist for Small Business",
+    description:
+      "Go-live checklist for small businesses about to turn on scheduling and reminder automation. Covers trustworthy booking triggers, reminder timing, reschedule stop rules, prep-step enforcement, reply-routing stop rules, and office visibility before launch.",
+    href: "/appointment-scheduling-and-reminder-launch-checklist-small-business",
+    category: "workflows",
+  },
+  {
     title: "Contact Form Autoresponder vs. Full Lead Follow-Up",
     description:
       "Decision guide for owners asking whether a basic form autoresponder is still enough or whether website leads now need a real workflow with qualification, routing, and short follow-up.",

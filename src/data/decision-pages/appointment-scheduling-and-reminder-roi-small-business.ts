@@ -111,6 +111,7 @@ const data: DecisionPageData = {
           body: "A cautious model is enough: maybe two or three saved appointments per month, maybe a few hours of reduced admin work, maybe slightly better slot recovery from earlier cancellations. If that modest case already offsets a meaningful share of the build and running cost, the workflow is likely worth serious consideration.",
           links: [
             { label: "Appointment scheduling and reminder setup", href: "/appointment-scheduling-and-reminder-setup-for-service-businesses" },
+    { label: "Appointment scheduling and reminder launch checklist", href: "/appointment-scheduling-and-reminder-launch-checklist-small-business" },
             { label: "Case studies", href: "/case-studies" },
           ],
         },

@@ -294,6 +294,7 @@ import AppointmentSchedulingAndReminderSetupMistakesSmallBusiness from "./pages/
 import AppointmentSchedulingAndReminderSetupVsDiySmallBusiness from "./pages/AppointmentSchedulingAndReminderSetupVsDiySmallBusiness";
 import AppointmentSchedulingAndReminderCostSmallBusiness from "./pages/AppointmentSchedulingAndReminderCostSmallBusiness";
 import AppointmentSchedulingAndReminderRoiSmallBusiness from "./pages/AppointmentSchedulingAndReminderRoiSmallBusiness";
+import AppointmentSchedulingAndReminderLaunchChecklistSmallBusiness from "./pages/AppointmentSchedulingAndReminderLaunchChecklistSmallBusiness";
 import AiPhoneAnswering from "./pages/AiPhoneAnswering";
 import MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses from "./pages/MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses";
 import MissedCallTextBackVsVoicemailForServiceBusinesses from "./pages/MissedCallTextBackVsVoicemailForServiceBusinesses";
@@ -880,6 +881,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/appointment-scheduling-and-reminder-setup-vs-diy-small-business", element: <AppointmentSchedulingAndReminderSetupVsDiySmallBusiness /> },
   { path: "/appointment-scheduling-and-reminder-cost-small-business", element: <AppointmentSchedulingAndReminderCostSmallBusiness /> },
   { path: "/appointment-scheduling-and-reminder-roi-small-business", element: <AppointmentSchedulingAndReminderRoiSmallBusiness /> },
+  { path: "/appointment-scheduling-and-reminder-launch-checklist-small-business", element: <AppointmentSchedulingAndReminderLaunchChecklistSmallBusiness /> },
   { path: "/booking-confirmation-and-reminder-automation", element: <BookingConfirmationAndReminder /> },
   { path: "/booking-confirmation-and-reminder-setup-for-service-businesses", element: <BookingConfirmationAndReminderSetupForServiceBusinesses /> },
   { path: "/booking-confirmation-and-reminder-setup-mistakes-small-business", element: <BookingConfirmationAndReminderSetupMistakesSmallBusiness /> },

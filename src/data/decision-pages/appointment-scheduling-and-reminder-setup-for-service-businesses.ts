@@ -174,6 +174,7 @@ const data: DecisionPageData = {
       links: [
         { label: "Appointment scheduling and reminder automation", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
         { label: "Appointment scheduling and reminder setup mistakes", href: "/appointment-scheduling-and-reminder-setup-mistakes-small-business" },
+    { label: "Appointment scheduling and reminder launch checklist", href: "/appointment-scheduling-and-reminder-launch-checklist-small-business" },
         { label: "Appointment scheduling and reminder setup vs. DIY", href: "/appointment-scheduling-and-reminder-setup-vs-diy-small-business" },
         { label: "Scheduling automation vs. AI appointment setter", href: "/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses" },
         { label: "No-show reduction setup", href: "/no-show-reduction-setup-for-service-businesses" },
