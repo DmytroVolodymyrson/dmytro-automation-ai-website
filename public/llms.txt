@@ -127,6 +127,9 @@ Pre-launch mistakes guide for small businesses setting up estimate follow-up. Co
 ## Estimate Follow-Up Setup vs. DIY for Small Business
 Should a small business DIY estimate follow-up setup or hire expert help? Practical buyer guide to owner time, estimate-stage trigger quality, estimator-to-office handoff, stale-estimate logic, reply routing, and when setup help is cheaper than more DIY drift. Learn more: https://www.dmytroai.com/estimate-follow-up-setup-vs-diy-small-business
 
+## Estimate Follow-Up Launch Checklist for Small Business
+Pre-launch readiness guide for small businesses about to turn estimate follow-up live. Covers estimate-sent trigger QA, stale-estimate timing, stop rules, revision routing, ownership, CRM visibility, and what to test before real sent estimates start getting nudged. Learn more: https://www.dmytroai.com/estimate-follow-up-launch-checklist-small-business
+
 ## Estimate Follow-Up Cost for Small Business
 Practical pricing guide for small businesses deciding what the estimate-recovery layer should actually cost. Covers estimate-sent triggers, stage-based reminders, CRM routing, stale-estimate escalation, estimator-to-office handoff, and when a simple reminder is enough versus when the workflow needs broader visibility. Learn more: https://www.dmytroai.com/estimate-follow-up-cost-small-business
 

@@ -1044,6 +1044,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Estimate Follow-Up Launch Checklist for Small Business",
+    description:
+      "Pre-launch readiness guide for small businesses about to turn estimate follow-up live. Covers estimate-sent trigger QA, stale-estimate timing, stop rules, revision routing, ownership, and CRM visibility before real estimates get nudged.",
+    href: "/estimate-follow-up-launch-checklist-small-business",
+    category: "workflows",
+  },
+  {
     title: "Estimate Follow-Up Cost for Small Business",
     description:
       "Pricing guide for the narrow estimate-recovery layer — realistic build ranges for estimate-sent triggers, stage-based reminders, stale-estimate escalation, CRM routing, and estimator-to-office handoff after the site visit.",

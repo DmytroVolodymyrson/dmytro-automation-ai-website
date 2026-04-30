@@ -338,6 +338,7 @@ import EstimateFollowUpAutomationForServiceBusinesses from "./pages/EstimateFoll
 import EstimateFollowUpSetupForServiceBusinesses from "./pages/EstimateFollowUpSetupForServiceBusinesses";
 import EstimateFollowUpSetupMistakesSmallBusiness from "./pages/EstimateFollowUpSetupMistakesSmallBusiness";
 import EstimateFollowUpSetupVsDiySmallBusiness from "./pages/EstimateFollowUpSetupVsDiySmallBusiness";
+import EstimateFollowUpLaunchChecklistSmallBusiness from "./pages/EstimateFollowUpLaunchChecklistSmallBusiness";
 import EstimateFollowUpCostSmallBusiness from "./pages/EstimateFollowUpCostSmallBusiness";
 import EstimateFollowUpRoiSmallBusiness from "./pages/EstimateFollowUpRoiSmallBusiness";
 import EstimateFollowUpVsQuoteFollowUpForServiceBusinesses from "./pages/EstimateFollowUpVsQuoteFollowUpForServiceBusinesses";
@@ -882,6 +883,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/estimate-follow-up-setup-for-service-businesses", element: <EstimateFollowUpSetupForServiceBusinesses /> },
   { path: "/estimate-follow-up-setup-mistakes-small-business", element: <EstimateFollowUpSetupMistakesSmallBusiness /> },
   { path: "/estimate-follow-up-setup-vs-diy-small-business", element: <EstimateFollowUpSetupVsDiySmallBusiness /> },
+  { path: "/estimate-follow-up-launch-checklist-small-business", element: <EstimateFollowUpLaunchChecklistSmallBusiness /> },
   { path: "/estimate-follow-up-cost-small-business", element: <EstimateFollowUpCostSmallBusiness /> },
   { path: "/estimate-follow-up-roi-small-business", element: <EstimateFollowUpRoiSmallBusiness /> },
   { path: "/estimate-follow-up-vs-quote-follow-up-for-service-businesses", element: <EstimateFollowUpVsQuoteFollowUpForServiceBusinesses /> },

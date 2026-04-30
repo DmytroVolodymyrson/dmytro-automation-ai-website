@@ -339,6 +339,7 @@ const EstimateFollowUpAutomationForServiceBusinesses = lazy(() => import("./page
 const EstimateFollowUpSetupForServiceBusinesses = lazy(() => import("./pages/EstimateFollowUpSetupForServiceBusinesses"));
 const EstimateFollowUpSetupMistakesSmallBusiness = lazy(() => import("./pages/EstimateFollowUpSetupMistakesSmallBusiness"));
 const EstimateFollowUpSetupVsDiySmallBusiness = lazy(() => import("./pages/EstimateFollowUpSetupVsDiySmallBusiness"));
+const EstimateFollowUpLaunchChecklistSmallBusiness = lazy(() => import("./pages/EstimateFollowUpLaunchChecklistSmallBusiness"));
 const EstimateFollowUpCostSmallBusiness = lazy(() => import("./pages/EstimateFollowUpCostSmallBusiness"));
 const EstimateFollowUpRoiSmallBusiness = lazy(() => import("./pages/EstimateFollowUpRoiSmallBusiness"));
 const EstimateFollowUpVsQuoteFollowUpForServiceBusinesses = lazy(() => import("./pages/EstimateFollowUpVsQuoteFollowUpForServiceBusinesses"));
@@ -871,6 +872,7 @@ const AppRoutesClient = () => (
       <Route path="/estimate-follow-up-setup-for-service-businesses" element={<EstimateFollowUpSetupForServiceBusinesses />} />
       <Route path="/estimate-follow-up-setup-mistakes-small-business" element={<EstimateFollowUpSetupMistakesSmallBusiness />} />
       <Route path="/estimate-follow-up-setup-vs-diy-small-business" element={<EstimateFollowUpSetupVsDiySmallBusiness />} />
+      <Route path="/estimate-follow-up-launch-checklist-small-business" element={<EstimateFollowUpLaunchChecklistSmallBusiness />} />
       <Route path="/estimate-follow-up-cost-small-business" element={<EstimateFollowUpCostSmallBusiness />} />
       <Route path="/estimate-follow-up-roi-small-business" element={<EstimateFollowUpRoiSmallBusiness />} />
       <Route path="/estimate-follow-up-vs-quote-follow-up-for-service-businesses" element={<EstimateFollowUpVsQuoteFollowUpForServiceBusinesses />} />

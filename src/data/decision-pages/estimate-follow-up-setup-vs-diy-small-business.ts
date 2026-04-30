@@ -249,6 +249,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Estimate follow-up automation for service businesses", href: "/estimate-follow-up-automation-for-service-businesses" },
     { label: "Estimate follow-up setup help", href: "/estimate-follow-up-setup-for-service-businesses" },
+    { label: "Estimate follow-up launch checklist for small business", href: "/estimate-follow-up-launch-checklist-small-business" },
     { label: "Estimate follow-up cost for small business", href: "/estimate-follow-up-cost-small-business" },
     { label: "Estimate follow-up ROI for small business", href: "/estimate-follow-up-roi-small-business" },
     { label: "Estimate follow-up vs. quote follow-up", href: "/estimate-follow-up-vs-quote-follow-up-for-service-businesses" },

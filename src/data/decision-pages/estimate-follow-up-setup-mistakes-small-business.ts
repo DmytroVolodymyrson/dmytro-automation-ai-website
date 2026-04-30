@@ -208,6 +208,7 @@ const data: DecisionPageData = {
       links: [
         { label: "Estimate follow-up automation for service businesses", href: "/estimate-follow-up-automation-for-service-businesses" },
         { label: "Estimate follow-up setup help", href: "/estimate-follow-up-setup-for-service-businesses" },
+        { label: "Estimate follow-up launch checklist for small business", href: "/estimate-follow-up-launch-checklist-small-business" },
         { label: "Estimate follow-up setup vs. DIY", href: "/estimate-follow-up-setup-vs-diy-small-business" },
         { label: "Estimate follow-up cost", href: "/estimate-follow-up-cost-small-business" },
         { label: "Estimate follow-up ROI", href: "/estimate-follow-up-roi-small-business" },
@@ -254,6 +255,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Estimate follow-up automation for service businesses", href: "/estimate-follow-up-automation-for-service-businesses" },
     { label: "Estimate follow-up setup help", href: "/estimate-follow-up-setup-for-service-businesses" },
+    { label: "Estimate follow-up launch checklist for small business", href: "/estimate-follow-up-launch-checklist-small-business" },
     { label: "Estimate follow-up setup vs. DIY", href: "/estimate-follow-up-setup-vs-diy-small-business" },
     { label: "Estimate follow-up cost", href: "/estimate-follow-up-cost-small-business" },
     { label: "Estimate follow-up ROI", href: "/estimate-follow-up-roi-small-business" },

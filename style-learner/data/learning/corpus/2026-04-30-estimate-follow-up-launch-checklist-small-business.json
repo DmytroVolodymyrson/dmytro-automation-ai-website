@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-30-estimate-follow-up-launch-checklist-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-30",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Estimate Follow-Up Launch Checklist for Small Business\nBody: Estimate follow-up should not go live just because the reminder copy sounds polite and the CRM can technically send a test message. Before a small business turns estimate recovery on, the operating layer under the workflow needs to be trustworthy: the estimate-sent trigger is actually clean, stale-estimate timing matches the real buying cycle, revision and objection replies stop the automation instead of colliding with it, the office can see what happened after each touch, and estimator-versus-office ownership is obvious once a customer answers. If those checks are still fuzzy, launch week usually teaches the wrong lesson. Estimates get nudged from the wrong stage, live conversations keep getting automated reminders, open quotes look healthy when nobody really owns them, and the team starts treating estimate follow-up like another cleanup project instead of a recovery workflow.\nSub: Below: the go-live checks that matter most, what to test before estimate follow-up touches real sent estimates, when this page is the right one versus setup-help / setup-mistakes / cost / ROI / DIY pages, and what honest proof supports the release-readiness layer in this cluster.\n\n### Core sections\n- What should be verified before estimate follow-up goes live\n- The pre-launch checks that matter most\n- When this page is useful — and when it is not\n- How to use a launch checklist without turning it into busywork\n- How this page stays distinct from the other estimate-follow-up pages\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions from owners who are close to launching estimate follow-up and want a safer first rollout instead of a cleanup project a few weeks later\nTopics: what should be verified before estimate follow-up automation goes live, what to test before turning on an estimate-follow-up workflow, how this differs from setup-help and setup-mistakes pages, and when to delay launch instead of forcing estimate follow-up live.\n\n### Final CTA\nHeading: Need a second opinion before estimate follow-up goes live?\nBody: Book a 30-minute call. We will look at your estimate-sent trigger, stale-estimate timing, stop rules, reply routing, ownership, and CRM visibility so you can decide whether the workflow is ready now, needs a narrower first release, or should wait until the launch risk is lower.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the launch-checklist child inside the live estimate-follow-up cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because repo-state reconciliation plus a Claude Code audit showed the estimate-follow-up cluster had the parent, setup-help, setup-mistakes, setup-vs-DIY, cost, ROI, and estimate-vs-quote comparison pages live, but still lacked the exact launch-readiness layer."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/estimate-follow-up-automation-for-service-businesses`, `/estimate-follow-up-setup-for-service-businesses`, `/estimate-follow-up-setup-mistakes-small-business`, `/estimate-follow-up-setup-vs-diy-small-business`, `/estimate-follow-up-cost-small-business`, and `/estimate-follow-up-roi-small-business` by focusing only on release readiness before real sent estimates get nudged."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live estimate-follow-up cluster plus contractor CRM setup pages and the published e-commerce CRM case study support the operating logic without pretending there is already a dedicated published case study for this exact launch-checklist question."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: concrete checks, fit / not-fit framing, and explicit emphasis on estimate-sent trigger QA, stale-estimate timing, reply routing, ownership, CRM visibility, and ugly-case testing over automation theatre."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-30T14:56:00.430Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 37.2,
+      "sentenceLengthRange": [
+        5,
+        67
+      ],
+      "totalWords": 372
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Estimate Follow-Up Launch Checklist for Small Business\nBody: Estimate follow-up should not go live just because the reminder copy sounds polite and the CRM can technically send a test message.",
+      "wordCount": 32,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a second opinion before estimate follow-up goes live?\nBody: Book a 30-minute call. We will look at your estimate-sent trigger, stale-estimate timing, stop rules, reply routing, ownership, and CRM visibility so you can decide whether the workflow is ready now, needs a narrower first release, or should wait until the launch risk is lower.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 22,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 2.44
+    },
+    "vocabulary": {
+      "distinctWords": 204,
+      "totalWords": 372,
+      "topWords": [
+        [
+          "estimate",
+          10
+        ],
+        [
+          "follow-up",
+          9
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "live",
+          6
+        ],
+        [
+          "before",
+          6
+        ],
+        [
+          "this",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "launch",
+          5
+        ],
+        [
+          "when",
+          5
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "instead",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "can",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

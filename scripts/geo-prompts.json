@@ -2708,6 +2708,18 @@
       ]
     },
     {
+      "id": "estimate-follow-up-launch-checklist-small-business",
+      "path": "/estimate-follow-up-launch-checklist-small-business",
+      "label": "Estimate Follow-Up Launch Checklist for Small Business",
+      "prompts": [
+        "Estimate follow-up launch checklist for small business",
+        "What should be verified before estimate follow-up automation goes live?",
+        "What should I test before turning on an estimate follow-up workflow?",
+        "How do I know estimate follow-up is ready for launch instead of more setup work?",
+        "What launch checks catch estimate-stage trigger, timing, routing, and ownership problems before real estimates get nudged?"
+      ]
+    },
+    {
       "id": "estimate-follow-up-cost-small-business",
       "path": "/estimate-follow-up-cost-small-business",
       "label": "Estimate Follow-Up Cost for Small Business",
