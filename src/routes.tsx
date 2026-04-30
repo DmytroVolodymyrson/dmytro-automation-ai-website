@@ -279,6 +279,7 @@ import AfterHoursLeadCapture from "./pages/AfterHoursLeadCapture";
 import MissedCallFollowUp from "./pages/MissedCallFollowUp";
 import BookingConfirmationAndReminder from "./pages/BookingConfirmationAndReminder";
 import BookingConfirmationAndReminderSetupForServiceBusinesses from "./pages/BookingConfirmationAndReminderSetupForServiceBusinesses";
+import BookingConfirmationAndReminderSetupMistakesSmallBusiness from "./pages/BookingConfirmationAndReminderSetupMistakesSmallBusiness";
 import BookingConfirmationAndReminderSetupVsDiySmallBusiness from "./pages/BookingConfirmationAndReminderSetupVsDiySmallBusiness";
 import BookingConfirmationAndReminderCostSmallBusiness from "./pages/BookingConfirmationAndReminderCostSmallBusiness";
 import BookingConfirmationAndReminderRoiSmallBusiness from "./pages/BookingConfirmationAndReminderRoiSmallBusiness";
@@ -868,6 +869,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/appointment-scheduling-and-reminder-roi-small-business", element: <AppointmentSchedulingAndReminderRoiSmallBusiness /> },
   { path: "/booking-confirmation-and-reminder-automation", element: <BookingConfirmationAndReminder /> },
   { path: "/booking-confirmation-and-reminder-setup-for-service-businesses", element: <BookingConfirmationAndReminderSetupForServiceBusinesses /> },
+  { path: "/booking-confirmation-and-reminder-setup-mistakes-small-business", element: <BookingConfirmationAndReminderSetupMistakesSmallBusiness /> },
   { path: "/booking-confirmation-and-reminder-setup-vs-diy-small-business", element: <BookingConfirmationAndReminderSetupVsDiySmallBusiness /> },
   { path: "/booking-confirmation-and-reminder-cost-small-business", element: <BookingConfirmationAndReminderCostSmallBusiness /> },
   { path: "/booking-confirmation-and-reminder-roi-small-business", element: <BookingConfirmationAndReminderRoiSmallBusiness /> },

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-booking-confirmation-and-reminder-setup-mistakes-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Booking Confirmation and Reminder Setup Mistakes for Small Business\nBody: Most booking-confirmation problems do not start with weak reminder copy. They start with weak setup. A small business launches confirmation and reminder automation before the booking trigger is trustworthy, uses one generic reminder cadence for every appointment type, forgets to stop the old sequence after a reschedule, or never decides what should happen when a customer replies with a question, conflict, or cancellation. The result is predictable: contradictory reminders, confused customers, staff cleanup, and a team that stops trusting the workflow. If you are setting up booking confirmation and reminder automation now, the highest-leverage move is catching the expensive mistakes before they become calendar rescue work.\nSub: Below: the setup mistakes that usually create the biggest downstream mess, which ones are worth fixing before launch instead of after, when DIY is still fine, and how this page stays separate from the broader setup-help, setup-vs-DIY, cost, and ROI pages already live in the booking-confirmation cluster.\n\n### Core sections\n- The setup mistakes that usually create the biggest cleanup later\n- What each setup mistake usually breaks downstream\n- When this page is useful — and when it is not\n- How to avoid turning setup into future cleanup\n- The five booking-confirmation setup mistakes owners regret most\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions from owners trying to avoid the setup mistakes that quietly turn a useful booking-confirmation workflow into one the office no longer trusts\nTopics: the most common booking-confirmation and reminder setup mistakes, how to avoid a messy launch, how this differs from setup-help and setup-vs-DIY pages, and when DIY is still fine versus when setup help is safer before go-live.\n\n### Final CTA\nHeading: Want a cleaner booking-confirmation launch before small setup mistakes get expensive?\nBody: Book a 30-minute call. We will look at your booking trigger, reminder cadence, reschedule handling, reply routing, and opened-slot workflow, identify the setup mistakes most likely to create customer confusion or office cleanup, and help you scope the narrowest trustworthy rollout first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the setup-mistakes child inside the live booking-confirmation workflow cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the cluster already had the surrounding setup-help, DIY, cost, and ROI siblings, leaving one clean pre-launch failure-mode layer that was still unisolated."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/booking-confirmation-and-reminder-setup-for-service-businesses`, `/booking-confirmation-and-reminder-setup-vs-diy-small-business`, `/booking-confirmation-and-reminder-cost-small-business`, and `/booking-confirmation-and-reminder-roi-small-business` by focusing only on preventable setup failures before launch."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live booking-confirmation cluster plus the Paris Cafe case study support the operating logic without pretending there is already a dedicated published case study for booking-confirmation setup mistakes."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: concrete failure states, fit / not-fit framing, and explicit emphasis on trustworthy triggers, stop rules, reply handling, and slot-recovery logic over flashy reminder copy."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-30T05:40:23.265Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        6,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 31.2,
+      "sentenceLengthRange": [
+        5,
+        63
+      ],
+      "totalWords": 343
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Booking Confirmation and Reminder Setup Mistakes for Small Business\nBody: Most booking-confirmation problems do not start with weak reminder copy.",
+      "wordCount": 22,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a cleaner booking-confirmation launch before small setup mistakes get expensive?\nBody: Book a 30-minute call. We will look at your booking trigger, reminder cadence, reschedule handling, reply routing, and opened-slot workflow, identify the setup mistakes most likely to create customer confusion or office cleanup, and help you scope the narrowest trustworthy rollout first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 24,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 2.4
+    },
+    "vocabulary": {
+      "distinctWords": 178,
+      "totalWords": 343,
+      "topWords": [
+        [
+          "setup",
+          12
+        ],
+        [
+          "mistakes",
+          9
+        ],
+        [
+          "reminder",
+          7
+        ],
+        [
+          "booking-confirmation",
+          6
+        ],
+        [
+          "when",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "before",
+          5
+        ],
+        [
+          "booking",
+          4
+        ],
+        [
+          "most",
+          4
+        ],
+        [
+          "cleanup",
+          4
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "confirmation",
+          3
+        ],
+        [
+          "small",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

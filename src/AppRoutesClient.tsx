@@ -280,6 +280,7 @@ const AfterHoursLeadCapture = lazy(() => import("./pages/AfterHoursLeadCapture")
 const MissedCallFollowUp = lazy(() => import("./pages/MissedCallFollowUp"));
 const BookingConfirmationAndReminder = lazy(() => import("./pages/BookingConfirmationAndReminder"));
 const BookingConfirmationAndReminderSetupForServiceBusinesses = lazy(() => import("./pages/BookingConfirmationAndReminderSetupForServiceBusinesses"));
+const BookingConfirmationAndReminderSetupMistakesSmallBusiness = lazy(() => import("./pages/BookingConfirmationAndReminderSetupMistakesSmallBusiness"));
 const BookingConfirmationAndReminderSetupVsDiySmallBusiness = lazy(() => import("./pages/BookingConfirmationAndReminderSetupVsDiySmallBusiness"));
 const BookingConfirmationAndReminderCostSmallBusiness = lazy(() => import("./pages/BookingConfirmationAndReminderCostSmallBusiness"));
 const BookingConfirmationAndReminderRoiSmallBusiness = lazy(() => import("./pages/BookingConfirmationAndReminderRoiSmallBusiness"));
@@ -796,6 +797,7 @@ const AppRoutesClient = () => (
       <Route path="/appointment-scheduling-and-reminder-roi-small-business" element={<AppointmentSchedulingAndReminderRoiSmallBusiness />} />
       <Route path="/booking-confirmation-and-reminder-automation" element={<BookingConfirmationAndReminder />} />
       <Route path="/booking-confirmation-and-reminder-setup-for-service-businesses" element={<BookingConfirmationAndReminderSetupForServiceBusinesses />} />
+      <Route path="/booking-confirmation-and-reminder-setup-mistakes-small-business" element={<BookingConfirmationAndReminderSetupMistakesSmallBusiness />} />
       <Route path="/booking-confirmation-and-reminder-setup-vs-diy-small-business" element={<BookingConfirmationAndReminderSetupVsDiySmallBusiness />} />
       <Route path="/booking-confirmation-and-reminder-cost-small-business" element={<BookingConfirmationAndReminderCostSmallBusiness />} />
       <Route path="/booking-confirmation-and-reminder-roi-small-business" element={<BookingConfirmationAndReminderRoiSmallBusiness />} />

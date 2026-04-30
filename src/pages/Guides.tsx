@@ -680,6 +680,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Booking Confirmation and Reminder Setup Mistakes for Small Business",
+    description:
+      "Practical pre-launch mistakes guide for small businesses setting up booking confirmations and reminders. Covers weak booking triggers, generic reminder timing, broken reschedule stop rules, missing reply routing, and avoidable empty-slot cleanup before the workflow goes live.",
+    href: "/booking-confirmation-and-reminder-setup-mistakes-small-business",
+    category: "workflows",
+  },
+  {
     title: "Booking Confirmation and Reminder Setup vs. DIY for Small Business",
     description:
       "Practical buy-vs-build guide for owners deciding whether to keep building the booked-appointment protection workflow themselves or pay for focused setup help now. Covers confirmation triggers, reminder cadence, reschedule handling, prep-step enforcement, waitlist logic, CRM visibility, and when DIY drift becomes the more expensive option.",

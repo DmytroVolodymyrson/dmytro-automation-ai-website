@@ -2824,7 +2824,19 @@
         "what does booking confirmation and reminder setup include for a service business",
         "how to set up booking confirmations reminders and reschedule handling for a service business",
         "when should a service business pay for booking reminder setup help vs diy",
-        "what are the most common setup mistakes in booking confirmation and reminder automation"
+        "what should a clean booking confirmation and reminder workflow include before launch"
+      ]
+    },
+    {
+      "id": "booking-confirmation-and-reminder-setup-mistakes-small-business",
+      "path": "/booking-confirmation-and-reminder-setup-mistakes-small-business",
+      "label": "Booking Confirmation and Reminder Setup Mistakes for Small Business",
+      "prompts": [
+        "booking confirmation and reminder setup mistakes for small business",
+        "what are the most common setup mistakes in booking confirmation and reminder automation",
+        "why do booking reminder automations send contradictory reminders after a reschedule",
+        "what usually breaks first when a small business launches automated booking confirmations and reminders",
+        "how do i avoid setup mistakes in booking confirmation and reminder automation before launch"
       ]
     },
     {

@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/ai-phone-answering-setup-mistakes-small-business` — broad reconciliation still surfaced one clean surviving buyer-intent child inside the live AI phone-answering setup cluster. The repo already had the matching pattern in adjacent setup-heavy clusters like AI voice agents and lead follow-up, and the phone-answering cluster still lacked the exact mistakes layer between setup help and launch readiness. This ship isolates the pre-launch failure points — vague transfer rules, weak booking logic, messy CRM handoff, ugly-call testing gaps, and missing post-launch ownership — without rehashing setup-help, launch-checklist, cost, ROI, or DIY framing. Previous: `/ai-phone-answering-launch-checklist-small-business`.)
+Last updated: 2026-04-29 (shipped `/booking-confirmation-and-reminder-setup-mistakes-small-business` — broad reconciliation still surfaced one clean surviving buyer-intent child inside the live booking-confirmation setup cluster. The repo already had the matching pattern in adjacent setup-heavy clusters like AI phone answering, AI voice agents, and lead follow-up, and the booking-confirmation cluster still lacked the exact mistakes layer between setup help and buy-vs-build/cost/ROI pages. This ship isolates the pre-launch failure points — broken reschedule stop rules, duplicate reminders, weak prep-step logic, messy calendar/CRM state, and missing launch checks — without rehashing setup-help, DIY, cost, or ROI framing. Previous: `/ai-phone-answering-setup-mistakes-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 393.
+**Total live GEO pages tracked here:** 394.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -397,6 +397,7 @@ Last updated: 2026-04-29 (shipped `/ai-phone-answering-setup-mistakes-small-busi
 | No-Show Reduction ROI (SMB) | `/no-show-reduction-roi-small-business` | Workflow / ROI page | Live |
 | Appointment Scheduling & Reminder Setup (Service Businesses) | `/appointment-scheduling-and-reminder-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Booking Confirmation & Reminder Setup (Service Businesses) | `/booking-confirmation-and-reminder-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| Booking Confirmation & Reminder Setup Mistakes (SMB) | `/booking-confirmation-and-reminder-setup-mistakes-small-business` | Workflow / setup-mistakes page | Live |
 | Booking Confirmation & Reminder Setup vs. DIY (SMB) | `/booking-confirmation-and-reminder-setup-vs-diy-small-business` | Workflow / buy-vs-build page | Live |
 | Booking Confirmation & Reminder Cost (SMB) | `/booking-confirmation-and-reminder-cost-small-business` | Workflow / cost page | Live |
 | Booking Confirmation & Reminder ROI (SMB) | `/booking-confirmation-and-reminder-roi-small-business` | Workflow / ROI page | Live |
@@ -406,7 +407,7 @@ Last updated: 2026-04-29 (shipped `/ai-phone-answering-setup-mistakes-small-busi
 
 ## Next Pages
 
-This run shipped `/ai-phone-answering-setup-mistakes-small-business`, which cleanly extracted the remaining pre-launch failure-point layer from the live AI phone-answering setup cluster. That cluster now covers the broader parent, setup help, launch-readiness checklist, setup-mistakes page, cost, ROI, and the buy-vs-build decision. The next run should return to broad reconciliation across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster phone-answering child by inertia.
+This run shipped `/booking-confirmation-and-reminder-setup-mistakes-small-business`, which cleanly extracted the remaining pre-launch failure-point layer from the live booking-confirmation setup cluster. That cluster now covers the broader parent, setup help, setup-mistakes page, cost, ROI, and the buy-vs-build decision. The next run should return to broad reconciliation across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster booking-confirmation child by inertia.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |

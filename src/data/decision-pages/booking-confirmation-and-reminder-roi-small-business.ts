@@ -205,6 +205,7 @@ const data: DecisionPageData = {
       links: [
         { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
         { label: "Booking confirmation and reminder setup", href: "/booking-confirmation-and-reminder-setup-for-service-businesses" },
+        { label: "Booking confirmation and reminder setup mistakes", href: "/booking-confirmation-and-reminder-setup-mistakes-small-business" },
         { label: "Booking confirmation and reminder cost", href: "/booking-confirmation-and-reminder-cost-small-business" },
         { label: "Appointment scheduling and reminder ROI", href: "/appointment-scheduling-and-reminder-roi-small-business" },
         { label: "Appointment scheduling and reminder cost", href: "/appointment-scheduling-and-reminder-cost-small-business" },
@@ -271,6 +272,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
     { label: "Booking confirmation and reminder setup", href: "/booking-confirmation-and-reminder-setup-for-service-businesses" },
+    { label: "Booking confirmation and reminder setup mistakes", href: "/booking-confirmation-and-reminder-setup-mistakes-small-business" },
     { label: "Booking confirmation and reminder setup vs. DIY", href: "/booking-confirmation-and-reminder-setup-vs-diy-small-business" },
     { label: "Booking confirmation and reminder cost", href: "/booking-confirmation-and-reminder-cost-small-business" },
     { label: "Appointment scheduling and reminder ROI", href: "/appointment-scheduling-and-reminder-roi-small-business" },
