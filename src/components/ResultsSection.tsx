@@ -7,6 +7,39 @@ import { capture } from "@/lib/posthog";
 
 const statIcons = [Clock, Zap, Users, TrendingUp];
 
+const caseStudyNextReads: Record<string, { label: string; to: string }[]> = {
+  "/case-studies/paris-cafe-voice-agent": [
+    {
+      label: "AI appointment setter guide",
+      to: "/ai-appointment-setter",
+    },
+    {
+      label: "What to automate first",
+      to: "/what-to-automate-first-for-service-businesses",
+    },
+  ],
+  "/case-studies/instagram-lead-generation": [
+    {
+      label: "AI consultant fit guide",
+      to: "/ai-automation-consultant-small-business",
+    },
+    {
+      label: "n8n vs Zapier",
+      to: "/n8n-vs-zapier-small-business",
+    },
+  ],
+  "/case-studies/ecommerce-crm-automation": [
+    {
+      label: "AI lead follow-up guide",
+      to: "/ai-lead-follow-up-for-service-businesses",
+    },
+    {
+      label: "Best first automations",
+      to: "/best-ai-automation-for-service-businesses",
+    },
+  ],
+};
+
 const ResultsSection = () => {
   const sectionRef = useTrackSection("results");
   const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation<HTMLDivElement>();
@@ -98,6 +131,7 @@ const ResultsSection = () => {
         <div ref={caseGridRef} className="grid lg:grid-cols-3 gap-6 lg:gap-8">
           {results.caseStudies.map((study, index) => {
             const hasDetailPage = !!study.slug;
+            const nextReads = study.slug ? caseStudyNextReads[study.slug] ?? [] : [];
             const cardClasses = `bg-card p-6 lg:p-8 rounded-2xl shadow-card border border-border/50 hover:border-primary/30 transition-colors animate-on-scroll stagger-${index + 1} ${caseGridVisible ? "is-visible" : ""}`;
 
             const handleClick = () => {
@@ -135,6 +169,26 @@ const ResultsSection = () => {
                       <p className="font-display text-md font-bold text-foreground whitespace-nowrap">{study.keyResult}</p>
                     </div>
                   </div>
+
+                  {nextReads.length > 0 && (
+                    <div className="pt-4 border-t border-border/60">
+                      <p className="text-xs uppercase tracking-wide text-accent font-semibold mb-2">
+                        Best next read
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        {nextReads.map((item) => (
+                          <Link
+                            key={item.to}
+                            to={item.to}
+                            onClick={(event) => event.stopPropagation()}
+                            className="rounded-full border border-border/60 bg-background px-3 py-1.5 text-xs font-medium text-foreground hover:border-primary/30 hover:text-primary transition-colors"
+                          >
+                            {item.label}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  )}
 
                   {hasDetailPage && (
                     <div className="pt-2">
