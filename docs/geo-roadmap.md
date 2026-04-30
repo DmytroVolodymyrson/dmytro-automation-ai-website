@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/appointment-scheduling-and-reminder-setup-vs-diy-small-business` — the generic appointment-scheduling cluster already had the broader parent, the setup-help child, the pricing page, and the ROI page, but it still lacked the buy-vs-build layer. This new page isolates the earlier hire-help-or-DIY decision for the broader scheduling/reminder workflow: booking triggers, confirmation logic, reminder cadence, reschedule handling, prep-step enforcement, CRM visibility, owner time cost, and when setup drift becomes more expensive than paying for help. Previous: `/booking-confirmation-and-reminder-setup-vs-diy-small-business`.)
+Last updated: 2026-04-29 (shipped `/missed-call-text-back-for-medical-clinics` — the live medical-clinics cluster already had the broader parent, the first-project page, the early-funnel lead-follow-up page, the booked-visit scheduling page, the intake-prep page, the recall page, the no-show page, and the heavier live phone-answering page, but it still lacked the lighter SMS-first phone-recovery layer. This new page isolates the earlier missed-call fallback workflow for clinics where voicemail is too passive but full live AI answering is still heavier than necessary: immediate text acknowledgment, lightweight callback-context capture, appointment-intent protection, and the line between a lighter callback workflow and a heavier live-answering build. Previous: `/appointment-scheduling-and-reminder-setup-vs-diy-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 384.
+**Total live GEO pages tracked here:** 385.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -172,6 +172,7 @@ Last updated: 2026-04-29 (shipped `/appointment-scheduling-and-reminder-setup-vs
 | Intake Forms/Document Collection (Medical Clinics) | `/intake-forms-and-document-collection-automation-for-medical-clinics` | Vertical workflow page | Live |
 | Recall/Reactivation (Medical Clinics) | `/recall-and-reactivation-automation-for-medical-clinics` | Vertical workflow page | Live |
 | No-Show Reduction (Medical Clinics) | `/no-show-reduction-automation-for-medical-clinics` | Vertical workflow page | Live |
+| Missed Call Text-Back (Medical Clinics) | `/missed-call-text-back-for-medical-clinics` | Vertical workflow page | Live |
 | AI Phone Answering (Medical Clinics) | `/ai-phone-answering-for-medical-clinics` | Vertical solution page | Live |
 | What to Automate First (Dental) | `/what-to-automate-first-for-dental-practices` | Vertical decision page | Live |
 | AI Lead Follow-Up (Dental) | `/ai-lead-follow-up-for-dental-practices` | Vertical workflow page | Live |
@@ -397,8 +398,8 @@ Last updated: 2026-04-29 (shipped `/appointment-scheduling-and-reminder-setup-vs
 
 ## Next Pages
 
-This run shipped `/appointment-scheduling-and-reminder-setup-vs-diy-small-business`, which cleanly completed the buy-vs-build layer inside the generic appointment-scheduling cluster. That cluster now has the broader parent, the setup-help child, the pricing page, the ROI page, and the earlier hire-help-or-DIY decision page. The next run should reset to broad reconciliation across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster scheduling child by inertia.
+This run shipped `/missed-call-text-back-for-medical-clinics`, which cleanly filled the lighter SMS-first phone-recovery layer inside the medical-clinics cluster. That cluster now has the broader parent, the first-project page, multiple lifecycle-stage children, the lighter missed-call fallback page, and the heavier live phone-answering page. The next run should reset to broad reconciliation across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster medical-phone child by inertia.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | Broad reconciliation across strongest live clusters | The scheduling cluster no longer has an obviously clean next child after this ship. The next run should look for the best remaining exact planned page or prompt-owned child across the repo — especially mature clusters with a broad parent plus 3+ distinct live children but still-missing first-project, lifecycle-stage, pricing, or setup-help extraction pages that stay clearly non-duplicative. |
+| 1 | Broad reconciliation across strongest live clusters | The medical-clinics cluster no longer has an obviously clean must-ship sibling after this run. The next pass should look for the best remaining exact planned page or prompt-owned child across the repo — especially mature clusters with a broad parent plus 3+ distinct live children but still-missing first-project, lifecycle-stage, pricing, or setup-help extraction pages that stay clearly non-duplicative. |

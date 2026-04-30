@@ -1244,6 +1244,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-for-medical-clinics",
+      "path": "/missed-call-text-back-for-medical-clinics",
+      "label": "Missed Call Text-Back for Medical Clinics",
+      "prompts": [
+        "Missed call text-back for medical clinics",
+        "How can a medical clinic text back missed patient calls automatically without adding more front-desk chase work?",
+        "Best way for a smaller outpatient clinic to respond after a missed patient call before the appointment request goes cold",
+        "Should a medical clinic use missed-call text-back before full AI phone answering?",
+        "How should a clinic handle missed patient calls when voicemail and next-day callbacks are too slow?"
+      ]
+    },
+    {
       "id": "what-to-automate-first-for-dental-practices",
       "path": "/what-to-automate-first-for-dental-practices",
       "label": "What to Automate First for Dental Practices",

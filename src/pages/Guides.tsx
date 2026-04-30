@@ -1514,6 +1514,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back for Medical Clinics",
+    description:
+      "Lighter clinic phone-recovery workflow focused on immediate text response after a missed patient call, fast callback context capture, and protecting appointment demand before voicemail lag turns into lost visits.",
+    href: "/missed-call-text-back-for-medical-clinics",
+    category: "industries",
+  },
+  {
     title: "AI Lead Follow-Up for Medical Clinics",
     description:
       "Early-funnel clinic workflow focused on faster new-patient inquiry response, short nurture before the appointment is booked, cleaner front-desk handoff, and less revenue lost to slow replies or weak follow-through.",

@@ -252,6 +252,7 @@ const data: DecisionPageData = {
     { label: "Intake forms and document collection automation for medical clinics", href: "/intake-forms-and-document-collection-automation-for-medical-clinics" },
     { label: "Recall and reactivation automation for medical clinics", href: "/recall-and-reactivation-automation-for-medical-clinics" },
     { label: "No-show reduction automation for medical clinics", href: "/no-show-reduction-automation-for-medical-clinics" },
+    { label: "Missed call text-back for medical clinics", href: "/missed-call-text-back-for-medical-clinics" },
     { label: "AI automation for dental practices", href: "/ai-automation-for-dental-practices" },
     { label: "AI automation for chiropractors", href: "/ai-automation-for-chiropractors" },
     { label: "AI automation for med spas", href: "/ai-automation-for-med-spas" },
