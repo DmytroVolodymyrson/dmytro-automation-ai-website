@@ -920,8 +920,15 @@ const guides: GuideItem[] = [
   {
     title: "Referral Request Automation Setup for Service Businesses",
     description:
-      "What a clean first build should include: completed-job triggers, timing rules, intro routing, CRM visibility, referral-vs-review separation, and the setup decisions that keep post-job advocacy from feeling forced or sloppy.",
+      "Implementation-help guide for service businesses deciding what a clean first referral-automation build should actually include. Covers completed-job triggers, timing rules, intro routing, CRM visibility, referral-vs-review separation, and when setup help is worth paying for instead of wiring a brittle post-job workflow.",
     href: "/referral-request-automation-setup-for-service-businesses",
+    category: "workflows",
+  },
+  {
+    title: "Referral Request Automation Launch Checklist for Small Business",
+    description:
+      "Pre-launch release gate for referral-request workflows. Covers trustworthy completed-job triggers, timing by service type, unresolved-issue suppression, CRM visibility, warm-reply ownership, and how to know the workflow is actually safe to turn on.",
+    href: "/referral-request-automation-launch-checklist-small-business",
     category: "workflows",
   },
   {

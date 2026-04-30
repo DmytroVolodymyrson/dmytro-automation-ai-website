@@ -1192,7 +1192,7 @@
         "What should a mortgage broker automate first lead follow-up missed-call text-back document collection or incomplete application follow-up?",
         "Should a mortgage broker automate lead follow-up before document collection?",
         "Should a mortgage brokerage automate incomplete-application recovery before document reminders?",
-        "How do I choose the first automation project for a mortgage brokerage \u2014 lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
+        "How do I choose the first automation project for a mortgage brokerage — lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
       ]
     },
     {
@@ -2504,6 +2504,18 @@
       ]
     },
     {
+      "id": "referral-request-automation-launch-checklist-small-business",
+      "path": "/referral-request-automation-launch-checklist-small-business",
+      "label": "Referral Request Automation Launch Checklist for Small Business",
+      "prompts": [
+        "Referral request automation launch checklist for small business",
+        "What should be verified before referral request automation goes live?",
+        "What should I test before launching a referral request workflow?",
+        "How do I know if referral request automation is ready to turn on?",
+        "Referral request go-live checklist for timing routing CRM visibility and review separation"
+      ]
+    },
+    {
       "id": "referral-request-automation-cost-small-business",
       "path": "/referral-request-automation-cost-small-business",
       "label": "Referral Request Automation Cost for Small Business",
@@ -2548,7 +2560,7 @@
         "How do I keep referral asks from going out before a job is truly complete?",
         "What goes wrong when review requests and referral requests share one post-job workflow?",
         "How should a small business route warm referral replies so real introductions do not get lost?",
-        "Should I fix referral request setup mistakes before launch or just improve the sequence later?"
+        "Which referral-request setup mistakes create the biggest cleanup after launch?"
       ]
     },
     {

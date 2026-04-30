@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-30 (shipped `/review-request-automation-launch-checklist-small-business` — broad reconciliation still showed one clean exact post-job child inside the review-request cluster even after the setup-mistakes page landed: the go-live readiness layer itself. The cluster already had the parent, setup-help, setup-mistakes, DIY, cost, and ROI pages live, but still lacked the narrower launch-checklist page that owns pre-launch verification: trustworthy completed-job triggers, timing by service type, complaint suppression, CRM visibility, reply ownership, and clean review-vs-referral separation before the workflow is turned on. Proof adjacency stays honest from the live review-request cluster, the review-vs-referral comparison, and the published WheelsFeels CRM case study. Previous: `/review-request-automation-setup-mistakes-small-business`.)
+Last updated: 2026-04-30 (shipped `/referral-request-automation-launch-checklist-small-business` — the cleanest exact adjacent child still surviving fresh repo-state reconciliation was the referral-side go-live readiness layer. The referral cluster already had the parent, setup-help, setup-mistakes, DIY, cost, and ROI pages live, but still lacked the narrower launch-checklist page that owns pre-launch verification: trustworthy completed-job triggers, timing by service type, unresolved-issue suppression, warm-introduction routing, CRM visibility, and clean separation from review asks before the workflow is turned on. Proof adjacency stays honest from the live referral-request cluster, the review-vs-referral comparison, and the published WheelsFeels CRM case study. Previous: `/review-request-automation-launch-checklist-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 410.
+**Total live GEO pages tracked here:** 411.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -34,6 +34,7 @@ Last updated: 2026-04-30 (shipped `/review-request-automation-launch-checklist-s
 | Review Request Automation ROI (SMB) | `/review-request-automation-roi-small-business` | Workflow / ROI page | Live |
 | Referral Request Automation (Service Businesses) | `/referral-request-automation-for-service-businesses` | Workflow parent page | Live |
 | Referral Request Automation Setup (Service Businesses) | `/referral-request-automation-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| Referral Request Automation Launch Checklist (SMB) | `/referral-request-automation-launch-checklist-small-business` | Workflow / launch-readiness page | Live |
 | Referral Request Automation Cost (SMB) | `/referral-request-automation-cost-small-business` | Workflow / service cost page | Live |
 | Referral Request Automation ROI (SMB) | `/referral-request-automation-roi-small-business` | Workflow / ROI page | Live |
 | Referral Request Automation Setup vs. DIY (SMB) | `/referral-request-automation-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
@@ -423,10 +424,10 @@ Last updated: 2026-04-30 (shipped `/review-request-automation-launch-checklist-s
 
 ## Next Pages
 
-The review-request cluster now has the parent, setup-help, launch-checklist, setup-mistakes, DIY, cost, and ROI layers live. The cleanest adjacent remaining child is now the referral-side launch-checklist page, because the referral cluster has setup-help, setup-mistakes, DIY, cost, and ROI live but still lacks the narrower go-live readiness layer itself. If that page does not survive fresh repo-state reconciliation next run, reset immediately to broad cross-cluster selection instead of forcing another post-job sibling by inertia.
+The referral-request cluster now has the parent, setup-help, launch-checklist, setup-mistakes, DIY, cost, and ROI layers live. Do not force another post-job sibling by inertia on the next run. Reset to broad cross-cluster reconciliation first, and only name a new adjacent candidate if it still survives exact repo-state review across planning docs, live routes, prompts, and discovery surfaces.
 
 | Priority | Candidate | Why it is next |
 | --- | --- | --- |
-| 1 | `/referral-request-automation-launch-checklist-small-business` | Clean adjacent exact child: the referral-request cluster still lacks the narrower go-live readiness page even though setup-help, setup-mistakes, DIY, cost, and ROI are already live. This would own launch verification, timing, warm-introduction routing, CRM visibility, and separation from review asks without rehashing the broader referral parent. |
-| 2 | Broad reconciliation across `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, live routes, and `scripts/geo-prompts.json` | If the referral launch-checklist child no longer survives exact repo-state review, the next ship should come from the strongest remaining distinct cluster rather than stale review/referral roadmap inertia. |
+| 1 | Broad reconciliation across `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, live routes, and `scripts/geo-prompts.json` | The clean referral launch-checklist child is now live, so the next ship should come from the strongest remaining distinct cluster rather than stale review/referral roadmap inertia. |
+| 2 | Exact adjacent child only if it survives fresh repo-state review | If a clearly planned sibling still exists after reconciliation, name it from the actual current repo state instead of guessing from older post-job cluster momentum. |
 | 3 | Priority-hub indexing refresh on the strongest discovered-not-indexed page | If no clean planned net-new page survives reconciliation, the best fallback is a bounded improvement pass on one of the highest-priority indexing URLs listed in `docs/geo-priority-urls.md`. |

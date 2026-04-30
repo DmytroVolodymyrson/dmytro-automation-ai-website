@@ -264,6 +264,7 @@ const data: DecisionPageData = {
     { label: "Referral request setup for service businesses", href: "/referral-request-automation-setup-for-service-businesses" },
     { label: "Referral request setup vs. DIY", href: "/referral-request-automation-setup-vs-diy-small-business" },
     { label: "Referral request setup mistakes", href: "/referral-request-setup-mistakes-small-business" },
+    { label: "Referral request launch checklist", href: "/referral-request-automation-launch-checklist-small-business" },
     { label: "Referral request automation cost for small business", href: "/referral-request-automation-cost-small-business" },
     { label: "Referral request automation ROI for small business", href: "/referral-request-automation-roi-small-business" },
     { label: "Referral automation for painting contractors", href: "/referral-request-automation-for-painting-contractors" },

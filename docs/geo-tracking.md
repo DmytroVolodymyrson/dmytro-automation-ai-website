@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 478 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 479 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -147,6 +147,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Review Request Automation ROI for Small Business** — `/review-request-automation-roi-small-business`
 - **Referral Request Automation for Service Businesses** — `/referral-request-automation-for-service-businesses`
 - **Referral Request Automation Setup for Service Businesses** — `/referral-request-automation-setup-for-service-businesses`
+- **Referral Request Automation Launch Checklist for Small Business** — `/referral-request-automation-launch-checklist-small-business`
 - **Referral Request Automation Cost for Small Business** — `/referral-request-automation-cost-small-business`
 - **Referral Request Automation ROI for Small Business** — `/referral-request-automation-roi-small-business`
 - **Referral Request Automation Setup vs. DIY for Small Business** — `/referral-request-automation-setup-vs-diy-small-business`

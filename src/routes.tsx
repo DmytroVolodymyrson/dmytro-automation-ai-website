@@ -326,6 +326,7 @@ import ReviewRequestAutomationCostSmallBusiness from "./pages/ReviewRequestAutom
 import ReviewRequestAutomationRoiSmallBusiness from "./pages/ReviewRequestAutomationRoiSmallBusiness";
 import ReferralRequestAutomationForServiceBusinesses from "./pages/ReferralRequestAutomationForServiceBusinesses";
 import ReferralRequestAutomationSetupForServiceBusinesses from "./pages/ReferralRequestAutomationSetupForServiceBusinesses";
+import ReferralRequestAutomationLaunchChecklistSmallBusiness from "./pages/ReferralRequestAutomationLaunchChecklistSmallBusiness";
 import ReferralRequestAutomationCostSmallBusiness from "./pages/ReferralRequestAutomationCostSmallBusiness";
 import ReferralRequestAutomationRoiSmallBusiness from "./pages/ReferralRequestAutomationRoiSmallBusiness";
 import ReferralRequestAutomationSetupVsDiySmallBusiness from "./pages/ReferralRequestAutomationSetupVsDiySmallBusiness";
@@ -928,6 +929,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/review-request-automation-roi-small-business", element: <ReviewRequestAutomationRoiSmallBusiness /> },
   { path: "/referral-request-automation-for-service-businesses", element: <ReferralRequestAutomationForServiceBusinesses /> },
   { path: "/referral-request-automation-setup-for-service-businesses", element: <ReferralRequestAutomationSetupForServiceBusinesses /> },
+  { path: "/referral-request-automation-launch-checklist-small-business", element: <ReferralRequestAutomationLaunchChecklistSmallBusiness /> },
   { path: "/referral-request-automation-cost-small-business", element: <ReferralRequestAutomationCostSmallBusiness /> },
   { path: "/referral-request-automation-roi-small-business", element: <ReferralRequestAutomationRoiSmallBusiness /> },
   { path: "/referral-request-automation-setup-vs-diy-small-business", element: <ReferralRequestAutomationSetupVsDiySmallBusiness /> },
