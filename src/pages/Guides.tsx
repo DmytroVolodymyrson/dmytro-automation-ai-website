@@ -876,6 +876,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Review Request Setup Mistakes for Small Business",
+    description:
+      "Pre-launch mistakes that make review-request automation feel tone-deaf or unsafe fast. Covers weak completed-job triggers, generic timing, complaint suppression failures, review-vs-referral overlap, and CRM ownership gaps that quietly break post-job reputation follow-through.",
+    href: "/review-request-automation-setup-mistakes-small-business",
+    category: "workflows",
+  },
+  {
     title: "Review Request Automation Setup vs. DIY for Small Business",
     description:
       "Buy-vs-build guide for owners deciding whether to keep wrestling with review-request setup themselves or pay for a bounded implementation now. Covers owner time, trigger hygiene, complaint routing, CRM visibility, and when setup help is cheaper than more DIY drift.",

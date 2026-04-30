@@ -267,6 +267,7 @@ const data: DecisionPageData = {
     "No obligation. No generic reputation-management pitch. Just a practical conversation about where post-service follow-through is leaking trust or reviews.",
   relatedLinks: [
     { label: "Review request automation setup", href: "/review-request-automation-setup-for-service-businesses" },
+    { label: "Review request setup mistakes", href: "/review-request-automation-setup-mistakes-small-business" },
     { label: "Review request setup vs. DIY", href: "/review-request-automation-setup-vs-diy-small-business" },
     { label: "Review request automation cost", href: "/review-request-automation-cost-small-business" },
     { label: "Review request automation ROI", href: "/review-request-automation-roi-small-business" },

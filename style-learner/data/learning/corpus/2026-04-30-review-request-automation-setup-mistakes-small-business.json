@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-30-review-request-automation-setup-mistakes-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-30",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Review Request Setup Mistakes for Small Business\nBody: Review-request automation usually breaks before the first useful review ever comes in. The problem is rarely the message copy. It is the setup around it: the workflow fires before the job is truly complete, timing treats a quick repair the same as a larger install, unhappy replies stay inside the review path instead of routing to a human, or review and referral asks get stacked into one crowded post-job message that confuses the customer and weakens both. Small businesses build review follow-through because local reputation already matters and nobody wants to keep relying on memory. That is exactly why the setup mistakes matter. If the first launch teaches the team that review automation sends too early, ignores open complaints, or buries reply context in the wrong inbox, the workflow loses trust before it ever earns a single useful review.\nSub: Below: the review-request setup mistakes that usually create the biggest cleanup later, when this page is the right one versus setup-help / cost / ROI / DIY pages, and how to keep post-job reputation follow-through from becoming another office mess before launch.\n\n### Core sections\n- The setup mistakes that usually create the biggest cleanup later\n- What each setup mistake usually breaks downstream\n- When this page is useful — and when it is not\n- How to avoid turning setup into future cleanup\n- The five review-request setup mistakes owners regret most\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions from owners trying to avoid the setup mistakes that quietly turn review follow-through into another office headache\nTopics: the most common review-request setup mistakes, how to avoid a messy launch, how this differs from the setup-help page, how it differs from the cost / ROI pages, and whether DIY or expert help makes more sense before launch.\n\n### Final CTA\nHeading: Want a cleaner review-request launch before setup mistakes start creating awkward post-job follow-up?\nBody: Book a 30-minute call. We will look at your completed-job trigger, timing rules, complaint suppression, review-vs-referral separation, reply routing, and CRM visibility, then help you scope the narrowest trustworthy rollout first.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped because broad reconciliation identified the review-request cluster as the next cleanest exact pain-aware child: the pre-launch mistakes layer. The parent, setup-help, DIY, cost, and ROI pages were already live, but the mistakes page itself was still missing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept it distinct from `/review-request-automation-setup-for-service-businesses` by focusing on failure modes before launch — weak completed-job triggers, bad timing, complaint suppression failures, review-vs-referral overlap, and CRM ownership drift — rather than on general implementation scope."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept it distinct from `/review-request-automation-cost-small-business` and `/review-request-automation-roi-small-business` by staying on operational design failures instead of budgeting or payback."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Used only direct and adjacent proof already on-site: the live review-request cluster, `/review-request-vs-referral-request-for-service-businesses`, and `/case-studies/ecommerce-crm-automation`."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and anti-hype: no invented conversion lifts, explicit fit / not-fit framing, and clear warnings against launching a workflow the team will not trust."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-30T11:37:28.408Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        7,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 29.5,
+      "sentenceLengthRange": [
+        5,
+        60
+      ],
+      "totalWords": 354
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Review Request Setup Mistakes for Small Business\nBody: Review-request automation usually breaks before the first useful review ever comes in.",
+      "wordCount": 22,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a cleaner review-request launch before setup mistakes start creating awkward post-job follow-up?\nBody: Book a 30-minute call. We will look at your completed-job trigger, timing rules, complaint suppression, review-vs-referral separation, reply routing, and CRM visibility, then help you scope the narrowest trustworthy rollout first.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 18,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 1.64
+    },
+    "vocabulary": {
+      "distinctWords": 192,
+      "totalWords": 354,
+      "topWords": [
+        [
+          "setup",
+          11
+        ],
+        [
+          "review",
+          8
+        ],
+        [
+          "mistakes",
+          8
+        ],
+        [
+          "before",
+          6
+        ],
+        [
+          "that",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "review-request",
+          5
+        ],
+        [
+          "it",
+          5
+        ],
+        [
+          "launch",
+          5
+        ],
+        [
+          "how",
+          5
+        ],
+        [
+          "usually",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "from",
+          4
+        ],
+        [
+          "first",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.003
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

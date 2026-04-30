@@ -319,6 +319,7 @@ import InstantLeadResponse from "./pages/InstantLeadResponse";
 import ContactFormLeadFollowUpAutomation from "./pages/ContactFormLeadFollowUpAutomation";
 import ReviewRequestAutomationForServiceBusinesses from "./pages/ReviewRequestAutomationForServiceBusinesses";
 import ReviewRequestAutomationSetupForServiceBusinesses from "./pages/ReviewRequestAutomationSetupForServiceBusinesses";
+import ReviewRequestAutomationSetupMistakesSmallBusiness from "./pages/ReviewRequestAutomationSetupMistakesSmallBusiness";
 import ReviewRequestAutomationSetupVsDiySmallBusiness from "./pages/ReviewRequestAutomationSetupVsDiySmallBusiness";
 import ReviewRequestAutomationCostSmallBusiness from "./pages/ReviewRequestAutomationCostSmallBusiness";
 import ReviewRequestAutomationRoiSmallBusiness from "./pages/ReviewRequestAutomationRoiSmallBusiness";
@@ -919,6 +920,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/contact-form-lead-follow-up-automation", element: <ContactFormLeadFollowUpAutomation /> },
   { path: "/review-request-automation-for-service-businesses", element: <ReviewRequestAutomationForServiceBusinesses /> },
   { path: "/review-request-automation-setup-for-service-businesses", element: <ReviewRequestAutomationSetupForServiceBusinesses /> },
+  { path: "/review-request-automation-setup-mistakes-small-business", element: <ReviewRequestAutomationSetupMistakesSmallBusiness /> },
   { path: "/review-request-automation-setup-vs-diy-small-business", element: <ReviewRequestAutomationSetupVsDiySmallBusiness /> },
   { path: "/review-request-automation-cost-small-business", element: <ReviewRequestAutomationCostSmallBusiness /> },
   { path: "/review-request-automation-roi-small-business", element: <ReviewRequestAutomationRoiSmallBusiness /> },

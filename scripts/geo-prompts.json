@@ -2416,7 +2416,19 @@
         "What should review request automation setup include for a service business?",
         "How do I keep review asks from firing before a job is truly complete?",
         "How should a service business route unhappy replies before a public review ask goes out automatically?",
-        "What mistakes make DIY review request setup break after launch?"
+        "When is professional review request setup help worth paying for versus doing it yourself?"
+      ]
+    },
+    {
+      "id": "review-request-automation-setup-mistakes-small-business",
+      "path": "/review-request-automation-setup-mistakes-small-business",
+      "label": "Review Request Setup Mistakes for Small Business",
+      "prompts": [
+        "What mistakes make DIY review request setup break after launch?",
+        "Why does review request automation feel awkward after the first week?",
+        "How do I stop review asks from going out before the job is truly done?",
+        "What are the most common review request setup mistakes for a small business?",
+        "How do I keep review and referral asks from overlapping in the same post-job message?"
       ]
     },
     {

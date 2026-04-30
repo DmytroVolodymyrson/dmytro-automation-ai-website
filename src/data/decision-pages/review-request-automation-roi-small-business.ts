@@ -202,6 +202,7 @@ const data: DecisionPageData = {
       links: [
         { label: "Review request automation for service businesses", href: "/review-request-automation-for-service-businesses" },
         { label: "Review request automation setup", href: "/review-request-automation-setup-for-service-businesses" },
+        { label: "Review request setup mistakes", href: "/review-request-automation-setup-mistakes-small-business" },
         { label: "Review request setup vs. DIY", href: "/review-request-automation-setup-vs-diy-small-business" },
         { label: "Review request automation cost", href: "/review-request-automation-cost-small-business" },
         { label: "Review request vs. referral request", href: "/review-request-vs-referral-request-for-service-businesses" },
@@ -268,6 +269,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Review request automation for service businesses", href: "/review-request-automation-for-service-businesses" },
     { label: "Review request automation setup", href: "/review-request-automation-setup-for-service-businesses" },
+    { label: "Review request setup mistakes", href: "/review-request-automation-setup-mistakes-small-business" },
     { label: "Review request setup vs. DIY", href: "/review-request-automation-setup-vs-diy-small-business" },
     { label: "Review request automation cost", href: "/review-request-automation-cost-small-business" },
     { label: "Review request vs. referral request", href: "/review-request-vs-referral-request-for-service-businesses" },

@@ -175,6 +175,9 @@ Practical comparison for service businesses deciding whether post-job follow-up 
 ## Review Request Automation Setup for Service Businesses
 Implementation guide for service businesses that already know review automation matters and need the setup layer scoped correctly. Covers completed-job triggers, timing rules by service type, complaint routing before public asks, CRM visibility, and the launch mistakes that cause review requests to fire too early or hit the wrong customers. Learn more: https://www.dmytroai.com/review-request-automation-setup-for-service-businesses
 
+## Review Request Setup Mistakes for Small Business
+Pre-launch mistakes that make review-request automation feel tone-deaf or unsafe fast. Covers weak completed-job triggers, generic timing, complaint suppression failures, review-vs-referral overlap, and CRM ownership gaps that quietly break post-job reputation follow-through. Learn more: https://www.dmytroai.com/review-request-automation-setup-mistakes-small-business
+
 ## Review Request Automation Setup vs. DIY for Small Business
 Buy-vs-build guide for service businesses deciding whether review-request setup should stay DIY or get implemented properly now. Covers owner time, completion-signal hygiene, complaint routing, CRM visibility, reply ownership, and when bounded setup help is cheaper than more DIY drift. Learn more: https://www.dmytroai.com/review-request-automation-setup-vs-diy-small-business
 
