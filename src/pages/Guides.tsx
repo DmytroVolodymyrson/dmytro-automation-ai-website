@@ -1170,6 +1170,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "No-Show Reduction Launch Checklist for Small Business",
+    description:
+      "Go-live checklist for owners who already scoped no-show reduction and now need to verify booking triggers, reminder timing, stop rules, reschedule behavior, deposit checks, and office visibility before launch.",
+    href: "/no-show-reduction-launch-checklist-small-business",
+    category: "workflows",
+  },
+  {
     title: "No-Show Reduction Setup vs. DIY for Small Business",
     description:
       "Buy-vs-build guide for owners deciding whether no-show reduction setup should stay DIY or get implemented properly now — owner time, reminder timing, reschedule routing, deposit rules, CRM visibility, and when setup help is cheaper than more drift.",

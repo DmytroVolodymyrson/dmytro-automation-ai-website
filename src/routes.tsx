@@ -348,6 +348,7 @@ import ClientReactivationSetupVsDiySmallBusiness from "./pages/ClientReactivatio
 import NoShowReduction from "./pages/NoShowReduction";
 import NoShowReductionSetupForServiceBusinesses from "./pages/NoShowReductionSetupForServiceBusinesses";
 import NoShowReductionSetupMistakesSmallBusiness from "./pages/NoShowReductionSetupMistakesSmallBusiness";
+import NoShowReductionLaunchChecklistSmallBusiness from "./pages/NoShowReductionLaunchChecklistSmallBusiness";
 import NoShowReductionSetupVsDiySmallBusiness from "./pages/NoShowReductionSetupVsDiySmallBusiness";
 import NoShowReductionCostSmallBusiness from "./pages/NoShowReductionCostSmallBusiness";
 import NoShowReductionRoiSmallBusiness from "./pages/NoShowReductionRoiSmallBusiness";
@@ -930,6 +931,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/no-show-reduction-automation", element: <NoShowReduction /> },
   { path: "/no-show-reduction-setup-for-service-businesses", element: <NoShowReductionSetupForServiceBusinesses /> },
   { path: "/no-show-reduction-setup-mistakes-small-business", element: <NoShowReductionSetupMistakesSmallBusiness /> },
+  { path: "/no-show-reduction-launch-checklist-small-business", element: <NoShowReductionLaunchChecklistSmallBusiness /> },
   { path: "/no-show-reduction-setup-vs-diy-small-business", element: <NoShowReductionSetupVsDiySmallBusiness /> },
   { path: "/no-show-reduction-cost-small-business", element: <NoShowReductionCostSmallBusiness /> },
   { path: "/no-show-reduction-roi-small-business", element: <NoShowReductionRoiSmallBusiness /> },

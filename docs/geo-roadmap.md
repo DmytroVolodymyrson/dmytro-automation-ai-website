@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-30 (shipped `/no-show-reduction-setup-mistakes-small-business` — broad reconciliation found one clean missing setup-mistakes child inside the mature no-show reduction cluster after the broader parent, setup-help page, setup-vs-DIY page, cost page, and ROI page were already live. This page isolates the pre-launch failure layer: weak booking-confirmed triggers, contradictory reschedule reminders, bad deposit scoping, and unclear exception ownership. Proof adjacency stays honest from the live no-show reduction cluster, adjacent scheduling / booking setup pages, and the existing Paris Cafe case study. Previous: `/after-hours-inquiry-handling-for-med-spas`.)
+Last updated: 2026-04-30 (shipped `/no-show-reduction-launch-checklist-small-business` — the roadmap's explicit next candidate still survived reconciliation after the broader parent, setup-help page, setup-mistakes child, setup-vs-DIY page, cost page, and ROI page were already live. This page isolates the release-readiness layer: trigger verification, reschedule and cancellation stop rules, deposit edge checks, office visibility, and the conditions where a small business should delay launch instead of forcing a brittle attendance workflow live. Proof adjacency stays honest from the live no-show reduction cluster, adjacent booking / scheduling setup pages, and the existing Paris Cafe case study. Previous: `/no-show-reduction-setup-mistakes-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 401.
+**Total live GEO pages tracked here:** 402.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -396,8 +396,9 @@ Last updated: 2026-04-30 (shipped `/no-show-reduction-setup-mistakes-small-busin
 | Roofing Scheduling and Follow-Up | `/roofing-scheduling-and-follow-up-automation-for-roofing-companies` | Vertical workflow page | Live |
 | Insurance Claim Follow-Up (Roofing) | `/insurance-claim-follow-up-for-roofing-companies` | Vertical workflow page | Live |
 | Referral Request Automation (Roofing) | `/referral-request-automation-for-roofing-companies` | Vertical workflow page | Live |
-| No-Show Reduction Setup (Service Businesses) | `/no-show-reduction-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| No-Show Reduction Setup for Service Businesses | `/no-show-reduction-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | No-Show Reduction Setup Mistakes (SMB) | `/no-show-reduction-setup-mistakes-small-business` | Workflow / setup-mistakes page | Live |
+| No-Show Reduction Launch Checklist (SMB) | `/no-show-reduction-launch-checklist-small-business` | Workflow / launch-checklist page | Live |
 | No-Show Reduction Setup vs. DIY (SMB) | `/no-show-reduction-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | No-Show Reduction Cost (SMB) | `/no-show-reduction-cost-small-business` | Workflow / cost page | Live |
 | No-Show Reduction ROI (SMB) | `/no-show-reduction-roi-small-business` | Workflow / ROI page | Live |
@@ -414,10 +415,10 @@ Last updated: 2026-04-30 (shipped `/no-show-reduction-setup-mistakes-small-busin
 
 ## Next Pages
 
-This run shipped `/no-show-reduction-setup-mistakes-small-business`, which cleanly extracted the pre-launch failure layer from the live no-show reduction cluster after the broader parent, setup-help page, setup-vs-DIY page, cost page, and ROI page were already live. The strongest remaining nearby sibling is the launch-readiness layer, but the safer rule is still to re-check it against the broader repo before forcing another same-cluster ship by inertia.
+This run shipped `/no-show-reduction-launch-checklist-small-business`, which cleanly extracted the release-readiness layer from the live no-show reduction cluster after the broader parent, setup-help page, setup-mistakes child, setup-vs-DIY page, cost page, and ROI page were already live. With that launch-checklist layer now live too, the safer next rule is broad reconciliation first instead of forcing another same-cluster child by inertia.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | `/no-show-reduction-launch-checklist-small-business` | The no-show reduction cluster now has the broader parent, setup-help, setup-mistakes, setup-vs-DIY, cost, and ROI layers live. A launch-checklist child is still materially distinct if it stays tightly on go-live readiness: trigger verification, edge-case testing, stop rules, deposit checks, and ownership before real customer traffic hits the workflow. |
-| 2 | Broad reconciliation across strongest live clusters | If a fresh repo-wide sweep finds a stronger distinct buyer-intent page elsewhere, do not force another no-show child just because this cluster shipped well. Re-check mature clusters against planning docs, prompt ownership, and live route reality first. |
-| 3 | Existing-page indexing / internal-link refresh on a priority URL | If no clean net-new ship survives reconciliation, use the run on a bounded refresh for one of the highest-value URLs in `docs/geo-priority-urls.md`, then update style-learner and tracking docs accordingly. |
+| 1 | Broad reconciliation across strongest live clusters | Re-check mature clusters against `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `scripts/geo-prompts.json`, and current route reality before naming the next net-new page. Do not assume the no-show cluster should keep the queue just because it shipped well twice in a row. |
+| 2 | Existing-page indexing / internal-link refresh on a priority URL | If no clean net-new ship survives reconciliation, use the run on a bounded refresh for one of the highest-value URLs in `docs/geo-priority-urls.md`, then update style-learner and tracking docs accordingly. |
+| 3 | Only ship another setup / launch-checklist child when a fresh repo-wide sweep verifies an exact missing candidate | The pattern is still valid, but do not guess the next sibling from memory. Name another launch-checklist or setup child only after prompt ownership, live routes, and planning docs all agree the exact slug is still unshipped and distinct. |

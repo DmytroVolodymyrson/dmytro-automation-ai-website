@@ -221,6 +221,7 @@ const data: DecisionPageData = {
       links: [
         { label: "No-show reduction automation", href: "/no-show-reduction-automation" },
         { label: "No-show reduction setup help", href: "/no-show-reduction-setup-for-service-businesses" },
+        { label: "No-show reduction launch checklist", href: "/no-show-reduction-launch-checklist-small-business" },
         { label: "No-show reduction setup vs. DIY", href: "/no-show-reduction-setup-vs-diy-small-business" },
         { label: "No-show reduction cost", href: "/no-show-reduction-cost-small-business" },
         { label: "No-show reduction ROI", href: "/no-show-reduction-roi-small-business" },

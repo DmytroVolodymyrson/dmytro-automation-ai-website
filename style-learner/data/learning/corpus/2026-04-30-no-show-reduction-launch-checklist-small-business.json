@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-30-no-show-reduction-launch-checklist-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-30",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: No-Show Reduction Launch Checklist for Small Business\nBody: A no-show reduction workflow should not go live just because the reminder copy looks polished. Before launch, a small business needs to verify the operating layer underneath it: what counts as a truly booked appointment, when reminders should fire by appointment type, how reschedules stop the old sequence and inherit the new one, which visits need deposit logic, what happens when a customer replies with a question instead of a confirmation, and whether the office can actually see who confirmed, who asked to move, and who still needs manual follow-up. If those checks are vague, the first week usually turns into attendance cleanup instead of calendar protection.\nSub: Below: the pre-launch checklist that matters most, which edge cases should be tested before go-live, when this checklist is useful, and how this page stays distinct from the broader no-show setup-help, setup-mistakes, setup-vs-DIY, cost, and ROI pages already live in the cluster.\n\n### Core sections\n- What to verify before a no-show reduction workflow goes live\n- The pre-launch checks that matter most\n- When this page is useful — and when it is not\n- What to test before turning it on\n- How this page stays distinct from the other no-show setup pages\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions from owners who are already close to launching no-show reduction automation and want a safer release instead of an avoidable cleanup project a few weeks later\nTopics: what should be verified before launch, what to test before turning on appointment reminder automation, how this differs from setup-help and setup-mistakes pages, and when to delay launch instead of forcing the workflow live.\n\n### Final CTA\nHeading: Need a second opinion before you turn no-show reduction live?\nBody: Book a 30-minute call. We will review the booking trigger, reminder timing, reschedule logic, deposit rules, reply handling, and office visibility so you can decide whether the workflow is ready now, needs a narrower first release, or should wait until the launch risk is lower.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the launch-checklist child inside the live no-show reduction workflow cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because the roadmap still named this as the strongest explicit remaining no-show sibling after the broader parent, setup-help, setup-mistakes, setup-vs-DIY, cost, and ROI layers were already live."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/no-show-reduction-setup-for-service-businesses`, `/no-show-reduction-setup-mistakes-small-business`, `/no-show-reduction-setup-vs-diy-small-business`, `/no-show-reduction-cost-small-business`, and `/no-show-reduction-roi-small-business` by focusing only on release readiness before go-live."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live no-show reduction cluster plus adjacent booking/scheduling setup pages and the Paris Cafe case study support the operating logic without pretending there is already a dedicated published case study for this exact launch-checklist question."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: concrete checks, fit / not-fit framing, and explicit emphasis on trustworthy triggers, stop rules, deposit scoping, reschedule behavior, and office visibility over automation theatre."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-30T09:06:23.202Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        4,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 38,
+      "sentenceLengthRange": [
+        5,
+        75
+      ],
+      "totalWords": 342
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: No-Show Reduction Launch Checklist for Small Business\nBody: A no-show reduction workflow should not go live just because the reminder copy looks polished.",
+      "wordCount": 25,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a second opinion before you turn no-show reduction live?\nBody: Book a 30-minute call. We will review the booking trigger, reminder timing, reschedule logic, deposit rules, reply handling, and office visibility so you can decide whether the workflow is ready now, needs a narrower first release, or should wait until the launch risk is lower.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 7,
+      "commas": 26,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 3.25
+    },
+    "vocabulary": {
+      "distinctWords": 183,
+      "totalWords": 342,
+      "topWords": [
+        [
+          "no-show",
+          7
+        ],
+        [
+          "before",
+          7
+        ],
+        [
+          "what",
+          7
+        ],
+        [
+          "when",
+          6
+        ],
+        [
+          "this",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "reduction",
+          5
+        ],
+        [
+          "launch",
+          5
+        ],
+        [
+          "should",
+          5
+        ],
+        [
+          "live",
+          5
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "how",
+          4
+        ],
+        [
+          "instead",
+          4
+        ],
+        [
+          "who",
+          4
+        ],
+        [
+          "page",
+          4
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

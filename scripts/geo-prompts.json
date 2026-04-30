@@ -2768,6 +2768,18 @@
       ]
     },
     {
+      "id": "no-show-reduction-launch-checklist-small-business",
+      "path": "/no-show-reduction-launch-checklist-small-business",
+      "label": "No-Show Reduction Launch Checklist for Small Business",
+      "prompts": [
+        "What should be verified before launching no-show reduction automation for a small business?",
+        "No-show reduction launch checklist for small business",
+        "What should I test before turning on appointment reminder automation?",
+        "How do I know if my no-show reduction workflow is ready to go live?",
+        "When should a small business delay no-show reduction launch instead of forcing it live?"
+      ]
+    },
+    {
       "id": "no-show-reduction-setup-vs-diy-small-business",
       "path": "/no-show-reduction-setup-vs-diy-small-business",
       "label": "No-Show Reduction Setup vs. DIY for Small Business",
