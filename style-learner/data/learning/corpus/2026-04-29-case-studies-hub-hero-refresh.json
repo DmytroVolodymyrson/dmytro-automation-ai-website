@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-case-studies-hub-hero-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### H1\nAI Automation Case Studies for Small & Service Businesses\n\n### Hero intro\nDocumented AI automation builds for small and service businesses — each with the problem, the system shipped, and the measurable outcome. Start here if you want proof before choosing a workflow, platform, or consultant.\n\n### Supporting proof paragraph retained\nBody: Dmytro AI publishes three documented case studies: a restaurant voice-agent that handles after-hours calls and books tables automatically, an e-commerce CRM automation that recovered stale leads and cut manual follow-up by 80%, and an Instagram lead-generation pipeline that qualifies and routes inbound inquiries without human triage. Each includes the problem, the system built, and the measurable outcome. Use them to evaluate consultant pricing, automation costs, what a consultant actually delivers, and which automation to build first. If you want the broader decision library around these proof assets, continue into the full guides hub.\n\n### Matching metadata/schema framing\n- Title: AI Automation Case Studies for Small & Service Businesses | Dmytro AI\n- Meta description: Three documented AI automation case studies for small and service businesses: a restaurant voice agent for after-hours booking, an e-commerce CRM that cut manual follow-up by 80%, and an Instagram lead-generation pipeline. Each shows the problem, the system built, and the measurable result.\n- OG description: Documented AI automation builds for small and service businesses. Real systems, real problems, measurable outcomes.\n- CollectionPage name: AI Automation Case Studies for Small & Service Businesses",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Bounded wording-only indexing refresh on an existing discovered-not-indexed proof hub, not a structural redesign."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The main shift is from a generic outcomes framing to a more explicit AI automation case-studies hub framing so the first screen is easier for search engines and AI answer systems to classify."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Copy stays proof-first and grounded in the three existing case studies; no new claims, metrics, or categories were invented."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays direct, credible, and buyer-oriented: show the proof, explain what the page is for, then route readers into the next decision pages."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-30T01:26:14.270Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "avgSentenceLength": 19.3,
+      "sentenceLengthRange": [
+        6,
+        51
+      ],
+      "totalWords": 232
+    },
+    "opener": {
+      "type": "stat",
+      "text": "### H1\nAI Automation Case Studies for Small & Service Businesses",
+      "wordCount": 9,
+      "pattern": "stat"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Matching metadata/schema framing\n- Title: AI Automation Case Studies for Small & Service Businesses | Dmytro AI\n- Meta description: Three documented AI automation case studies for small and service businesses: a restaurant voice agent for after-hours booking, an e-commerce CRM that cut manual follow-up by 80%, and an Instagram lead-generation pipeline. Each shows the problem, the system built, and the measurable result.\n- OG description: Documented AI automation builds for small and service businesses. Real systems, real problems, measurable outcomes.\n- CollectionPage name: AI Automation Case Studies for Small & Service Businesses",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "result",
+        "closer"
+      ],
+      "template": "opener | product-pitch | result | closer"
+    },
+    "punctuation": {
+      "periods": 10,
+      "commas": 18,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 7,
+      "commasPerSentence": 1.64
+    },
+    "vocabulary": {
+      "distinctWords": 116,
+      "totalWords": 232,
+      "topWords": [
+        [
+          "automation",
+          9
+        ],
+        [
+          "ai",
+          8
+        ],
+        [
+          "small",
+          6
+        ],
+        [
+          "service",
+          6
+        ],
+        [
+          "businesses",
+          6
+        ],
+        [
+          "case",
+          5
+        ],
+        [
+          "studies",
+          5
+        ],
+        [
+          "documented",
+          4
+        ],
+        [
+          "measurable",
+          4
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "-",
+          4
+        ],
+        [
+          "each",
+          3
+        ],
+        [
+          "problem",
+          3
+        ],
+        [
+          "system",
+          3
+        ],
+        [
+          "proof",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

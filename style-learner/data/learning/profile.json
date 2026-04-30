@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-30T01:14:34.660Z",
-  "postCount": 570,
+  "updatedAt": "2026-04-30T01:26:14.360Z",
+  "postCount": 571,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,25 +15,25 @@
       "max": 13,
       "p25": 4,
       "p75": 4,
-      "samples": 570
+      "samples": 571
     },
     "sentenceLength": {
       "mean": 23.8,
-      "median": 24.15,
+      "median": 24.1,
       "min": 7.1,
       "max": 105,
       "p25": 19.6,
       "p75": 27.6,
-      "samples": 570
+      "samples": 571
     },
     "totalWords": {
-      "mean": 336.3,
-      "median": 336.5,
+      "mean": 336.1,
+      "median": 336,
       "min": 17,
       "max": 1155,
-      "p25": 281,
+      "p25": 279,
       "p75": 374,
-      "samples": 570
+      "samples": 571
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -131,6 +131,7 @@
       "short | long | long | single": 1,
       "long | single | long | single | long | long": 2,
       "long | single | short | single | long | long | long | short | long | long | long | long": 1,
+      "single | short | long | long": 1,
       "long | short | long | single | short | short | long | short | long | long | short | long | long": 2,
       "long | single | single | long | single | long | short | long | long | short | long | long": 1,
       "single | single": 1,
@@ -152,7 +153,7 @@
       "opener": 5,
       "opener | result | context | product-pitch | product-pitch | product-pitch | context | closer": 1,
       "opener | context | context | context | context | context | context | closer": 4,
-      "opener | product-pitch | result | closer": 6,
+      "opener | product-pitch | result | closer": 7,
       "opener | context | closer": 3,
       "opener | product-pitch | context | product-pitch | result | result | product-pitch | product-pitch | closer": 1,
       "opener | product-pitch | result | result | context | product-pitch | context | context | product-pitch | product-pitch | closer": 1,
@@ -260,10 +261,11 @@
         ]
       },
       "stat": {
-        "count": 2,
+        "count": 3,
         "examples": [
           "### Hero\nHeading: n8n vs.",
-          "### Hero\nHeading: n8n Workflow Cleanup vs."
+          "### Hero\nHeading: n8n Workflow Cleanup vs.",
+          "### H1\nAI Automation Case Studies for Small & Service Businesses"
         ]
       }
     }
@@ -271,7 +273,7 @@
   "closers": {
     "patterns": {
       "reflection": {
-        "count": 83,
+        "count": 84,
         "examples": [
           "Stats:\n- 7+ Years building software\n- 50+ Automations built\n- $100K+ Saved for c",
           "Social proof pills:\n- 10+ hrs/week saved\n- 300%+ ROI\n- 24/7 automation",
@@ -320,7 +322,7 @@
     "topWords": [
       [
         "-",
-        3756
+        3760
       ],
       [
         "what",
@@ -328,11 +330,11 @@
       ],
       [
         "automation",
-        1559
+        1568
       ],
       [
         "ai",
-        1215
+        1223
       ],
       [
         "how",
@@ -400,7 +402,7 @@
       ],
       [
         "that",
-        514
+        518
       ],
       [
         "heading",
