@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-30-guides-fit-not-fit-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-30",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Section: Use this hub first\nHeading: Start here if you still need to narrow the problem before picking a page\nBody: The guides hub is the best starting point when you know automation is relevant but you still need the shortest path into the right workflow, budget range, or buying decision.\n\nBullets:\n- You want one page that organizes consultant-fit, workflow, comparison, industry, and geo guides without guessing which tab to open first.\n- You know the business has a revenue leak, but you still need to separate lead follow-up, booking friction, CRM cleanup, reactivation, or platform-choice problems.\n- You want to compare a few strong starting points before going deeper into proof, pricing, or implementation scope.\n\nLinks: Best first automations, Lead follow-up guide\n\n### Section: Better first clicks if not\nHeading: Skip the hub first if your real question is proof, consultant cost, or a known bottleneck\nBody: This page is a router. If you already know what you need, the fastest path is to jump straight to the destination page instead of browsing the full library first.\n\nBullets:\n- If you need evidence before you believe any of this is worth doing, start with the case-studies hub and the named Paris Cafe / WheelsFeels proof pages.\n- If you are already deciding whether to hire help and what a first project costs, jump straight to the consultant overview and pricing pages.\n- If the bottleneck is clearly bookings, missed calls, or lead response, go directly to the appointment-setter or lead-follow-up workflow page instead of reading the whole library first.\n\nLinks: Case studies hub, Consultant pricing",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded `/guides` indexing-support refresh, not a new GEO page ship."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The copy is deliberately direct and classification-friendly: it tells both buyers and crawlers when the hub is the right destination and when it is not."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The new section reduces hub ambiguity by separating browsing intent from proof-first, pricing-first, and known-bottleneck intent."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Internal links stay high-signal and practical: proof, pricing, lead follow-up, and appointment-setting rather than generic \"learn more\" copy."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The goal is a clearer first-screen answer for a discovered-not-indexed hub page with a large content library underneath it."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-30T06:27:05.024Z",
+    "structure": {
+      "paragraphCount": 6,
+      "sentencesPerParagraph": [
+        1,
+        3,
+        1,
+        2,
+        3,
+        1
+      ],
+      "avgSentenceLength": 24.1,
+      "sentenceLengthRange": [
+        6,
+        51
+      ],
+      "totalWords": 265
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Section: Use this hub first\nHeading: Start here if you still need to narrow the problem before picking a page\nBody: The guides hub is the best starting point when you know automation is relevant but you still need the shortest path into the right workflow, budget range, or buying decision.",
+      "wordCount": 51,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "general",
+      "text": "Links: Case studies hub, Consultant pricing",
+      "pattern": "standard-close"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | result | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 23,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 10,
+      "commasPerSentence": 2.3
+    },
+    "vocabulary": {
+      "distinctWords": 140,
+      "totalWords": 265,
+      "topWords": [
+        [
+          "first",
+          8
+        ],
+        [
+          "if",
+          7
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "hub",
+          5
+        ],
+        [
+          "need",
+          5
+        ],
+        [
+          "page",
+          5
+        ],
+        [
+          "this",
+          3
+        ],
+        [
+          "still",
+          3
+        ],
+        [
+          "before",
+          3
+        ],
+        [
+          "know",
+          3
+        ],
+        [
+          "workflow",
+          3
+        ],
+        [
+          "lead",
+          3
+        ],
+        [
+          "proof",
+          3
+        ],
+        [
+          "pricing",
+          3
+        ],
+        [
+          "consultant",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.004
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

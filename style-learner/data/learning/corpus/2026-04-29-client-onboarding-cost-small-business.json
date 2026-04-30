@@ -35,5 +35,154 @@
       "description": "Maintain practical owner-operator language instead of hype or abstract automation jargon."
     }
   ],
-  "analysis": null
+  "analysis": {
+    "analyzedAt": "2026-04-30T06:27:04.978Z",
+    "structure": {
+      "paragraphCount": 13,
+      "sentencesPerParagraph": [
+        5,
+        2,
+        3,
+        1,
+        2,
+        2,
+        3,
+        2,
+        3,
+        3,
+        2,
+        3,
+        5
+      ],
+      "avgSentenceLength": 21.7,
+      "sentenceLengthRange": [
+        5,
+        54
+      ],
+      "totalWords": 782
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Client Onboarding Automation Cost for Small Business\nBody: Most small service businesses should expect a focused client onboarding build to land somewhere between $1.5K and $4.5K, with monthly running costs usually in the $30-$120 range depending on client volume, tool stack, intake complexity, and how much CRM or scheduling routing already exists.",
+      "wordCount": 54,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want a realistic quote for your onboarding workflow?\nBody: Book a 30-minute call. We will look at how new clients enter your workflow today, where handoffs break after the deal closes, and scope the narrowest onboarding build that fits your tools, your team, and your actual delivery gap.\nSub: No padded CRM-platform proposal. Just a practical pricing conversation tied to your intake process, your team routing, and your real onboarding problem.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "product-pitch",
+        "context",
+        "context",
+        "context",
+        "product-pitch",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | product-pitch | context | context | context | product-pitch | context | context | context | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 34,
+      "commas": 62,
+      "emDashes": 2,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 6,
+      "colon": 31,
+      "commasPerSentence": 1.72
+    },
+    "vocabulary": {
+      "distinctWords": 295,
+      "totalWords": 782,
+      "topWords": [
+        [
+          "onboarding",
+          22
+        ],
+        [
+          "heading",
+          13
+        ],
+        [
+          "body",
+          13
+        ],
+        [
+          "what",
+          13
+        ],
+        [
+          "cost",
+          11
+        ],
+        [
+          "intake",
+          11
+        ],
+        [
+          "with",
+          10
+        ],
+        [
+          "client",
+          9
+        ],
+        [
+          "crm",
+          9
+        ],
+        [
+          "page",
+          9
+        ],
+        [
+          "when",
+          8
+        ],
+        [
+          "your",
+          8
+        ],
+        [
+          "automation",
+          7
+        ],
+        [
+          "build",
+          7
+        ],
+        [
+          "scheduling",
+          7
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.001
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
 }

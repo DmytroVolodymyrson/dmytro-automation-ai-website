@@ -3842,6 +3842,64 @@ const Guides = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4 }}
+              className="mb-8 grid gap-6 lg:grid-cols-2"
+            >
+              <div className="rounded-2xl border border-emerald-500/20 bg-emerald-500/5 p-6 md:p-8 shadow-card">
+                <div className="text-xs font-semibold uppercase tracking-[0.16em] text-emerald-700 mb-3">
+                  Use this hub first
+                </div>
+                <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground tracking-tight mb-3">
+                  Start here if you still need to narrow the problem before picking a page
+                </h2>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-5">
+                  The guides hub is the best starting point when you know automation is relevant but you still need the shortest path into the right workflow, budget range, or buying decision.
+                </p>
+                <ul className="space-y-3 text-sm text-muted-foreground leading-relaxed">
+                  <li>• You want one page that organizes consultant-fit, workflow, comparison, industry, and geo guides without guessing which tab to open first.</li>
+                  <li>• You know the business has a revenue leak, but you still need to separate lead follow-up, booking friction, CRM cleanup, reactivation, or platform-choice problems.</li>
+                  <li>• You want to compare a few strong starting points before going deeper into proof, pricing, or implementation scope.</li>
+                </ul>
+                <div className="mt-5 flex flex-wrap gap-3">
+                  <Link to="/best-ai-automation-for-service-businesses" className="text-sm font-medium text-primary hover:text-primary/80 inline-flex items-center gap-1">
+                    Best first automations <ArrowRight className="w-3 h-3" />
+                  </Link>
+                  <Link to="/ai-lead-follow-up-for-service-businesses" className="text-sm font-medium text-primary hover:text-primary/80 inline-flex items-center gap-1">
+                    Lead follow-up guide <ArrowRight className="w-3 h-3" />
+                  </Link>
+                </div>
+              </div>
+
+              <div className="rounded-2xl border border-amber-500/20 bg-amber-500/5 p-6 md:p-8 shadow-card">
+                <div className="text-xs font-semibold uppercase tracking-[0.16em] text-amber-700 mb-3">
+                  Better first clicks if not
+                </div>
+                <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground tracking-tight mb-3">
+                  Skip the hub first if your real question is proof, consultant cost, or a known bottleneck
+                </h2>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-5">
+                  This page is a router. If you already know what you need, the fastest path is to jump straight to the destination page instead of browsing the full library first.
+                </p>
+                <ul className="space-y-3 text-sm text-muted-foreground leading-relaxed">
+                  <li>• If you need evidence before you believe any of this is worth doing, start with the case-studies hub and the named Paris Cafe / WheelsFeels proof pages.</li>
+                  <li>• If you are already deciding whether to hire help and what a first project costs, jump straight to the consultant overview and pricing pages.</li>
+                  <li>• If the bottleneck is clearly bookings, missed calls, or lead response, go directly to the appointment-setter or lead-follow-up workflow page instead of reading the whole library first.</li>
+                </ul>
+                <div className="mt-5 flex flex-wrap gap-3">
+                  <Link to="/case-studies" className="text-sm font-medium text-primary hover:text-primary/80 inline-flex items-center gap-1">
+                    Case studies hub <ArrowRight className="w-3 h-3" />
+                  </Link>
+                  <Link to="/ai-automation-consultant-pricing-small-business" className="text-sm font-medium text-primary hover:text-primary/80 inline-flex items-center gap-1">
+                    Consultant pricing <ArrowRight className="w-3 h-3" />
+                  </Link>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 12 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4 }}
               className="rounded-2xl border border-border/60 bg-card/70 p-6 md:p-8"
             >
               <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground tracking-tight mb-6">
