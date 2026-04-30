@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-homepage-services-ai-automation-cost-link",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Services section paragraph\nBody: {services.subtitle} Not sure where to start? Read our guide to the top AI automations for service businesses to see which ones deliver the fastest ROI. If your main hesitation is that you do not have a developer or IT person to run this, start with the AI automation without a tech team guide to see which workflows are safe first builds for owner-led teams. If you are still trying to understand what expert help actually looks like before comparing pricing or DIY, read what an AI automation consultant actually does. Once you understand the role, see what a first consultant-led workflow typically costs so you can compare quotes with realistic numbers. If you also need the broader budget picture — build cost, tool fees, and support — read what AI automation actually costs for a small business before you commit to the wrong scope.\n\n### New link target\n- Anchor: what AI automation actually costs for a small business\n- Destination: /ai-automation-cost-small-business",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded homepage-origin editorial link refresh, not a homepage rewrite."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the tone practical and sequential: consultant role -> consultant pricing -> broader implementation budget."
+    },
+    {
+      "type": "addition",
+      "text": "",
+      "description": "The added sentence speaks to owners who are no longer asking only about consultant quotes and now need the full cost picture before choosing scope."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoided generic “learn more” wording; the sentence carries the real decision trigger behind the click."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Kept the paragraph compact enough to read like editorial guidance rather than navigation chrome."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-30T00:22:01.838Z",
+    "structure": {
+      "paragraphCount": 2,
+      "sentencesPerParagraph": [
+        6,
+        1
+      ],
+      "avgSentenceLength": 23.3,
+      "sentenceLengthRange": [
+        10,
+        39
+      ],
+      "totalWords": 163
+    },
+    "opener": {
+      "type": "question",
+      "text": "### Services section paragraph\nBody: {services.subtitle} Not sure where to start?",
+      "wordCount": 10,
+      "pattern": "question"
+    },
+    "closer": {
+      "type": "cta",
+      "text": "### New link target\n- Anchor: what AI automation actually costs for a small business\n- Destination: /ai-automation-cost-small-business",
+      "pattern": "cta"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "closer"
+      ],
+      "template": "opener | closer"
+    },
+    "punctuation": {
+      "periods": 6,
+      "commas": 5,
+      "emDashes": 2,
+      "enDashes": 0,
+      "hyphens": 2,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 3,
+      "commasPerSentence": 0.71
+    },
+    "vocabulary": {
+      "distinctWords": 105,
+      "totalWords": 163,
+      "topWords": [
+        [
+          "ai",
+          5
+        ],
+        [
+          "what",
+          5
+        ],
+        [
+          "automation",
+          4
+        ],
+        [
+          "actually",
+          4
+        ],
+        [
+          "read",
+          3
+        ],
+        [
+          "see",
+          3
+        ],
+        [
+          "if",
+          3
+        ],
+        [
+          "costs",
+          3
+        ],
+        [
+          "not",
+          2
+        ],
+        [
+          "start",
+          2
+        ],
+        [
+          "guide",
+          2
+        ],
+        [
+          "which",
+          2
+        ],
+        [
+          "with",
+          2
+        ],
+        [
+          "first",
+          2
+        ],
+        [
+          "understand",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

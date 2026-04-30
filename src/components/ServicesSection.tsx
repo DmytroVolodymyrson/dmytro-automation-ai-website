@@ -67,7 +67,16 @@ const ServicesSection = () => {
             >
               what a first consultant-led workflow typically costs
             </Link>{" "}
-            so you can compare quotes with realistic numbers.
+            so you can compare quotes with realistic numbers. If you also need
+            the broader budget picture — build cost, tool fees, and support —
+            read{" "}
+            <Link
+              to="/ai-automation-cost-small-business"
+              className="text-accent underline underline-offset-2 hover:text-accent/80 transition-colors"
+            >
+              what AI automation actually costs for a small business
+            </Link>{" "}
+            before you commit to the wrong scope.
           </p>
         </div>
 
