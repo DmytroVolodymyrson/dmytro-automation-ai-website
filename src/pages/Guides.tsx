@@ -575,6 +575,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Client Onboarding Launch Checklist for Small Business",
+    description:
+      "Pre-launch checklist for client onboarding automation. What to verify before go-live: trigger reliability, sequence timing, intake completion gates, kickoff scheduling order, credential delivery, internal task routing, duplicate-message prevention, stall detection, and owner handoff.",
+    href: "/client-onboarding-launch-checklist-small-business",
+    category: "workflows",
+  },
+  {
     title: "Intake Forms and Document Collection Automation for Service Businesses",
     description:
       "A narrower onboarding child page focused on intake forms, missing-file reminders, secure upload next steps, and cleaner handoff before the rest of onboarding stalls.",

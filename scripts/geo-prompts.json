@@ -716,6 +716,18 @@
       ]
     },
     {
+      "id": "client-onboarding-launch-checklist-small-business",
+      "path": "/client-onboarding-launch-checklist-small-business",
+      "label": "Client Onboarding Launch Checklist for Small Business",
+      "prompts": [
+        "Client onboarding launch checklist for small business",
+        "What should I verify before launching client onboarding automation?",
+        "How do I test client onboarding automation before sending real clients through it?",
+        "What usually breaks in the first week after client onboarding automation goes live?",
+        "When should I delay a client onboarding automation launch instead of turning it on now?"
+      ]
+    },
+    {
       "id": "intake-forms-and-document-collection-automation-for-service-businesses",
       "path": "/intake-forms-and-document-collection-automation-for-service-businesses",
       "label": "Intake Forms and Document Collection Automation for Service Businesses",

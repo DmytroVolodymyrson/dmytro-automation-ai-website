@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-30 (shipped `/ai-appointment-setter-launch-checklist-small-business` — broad reconciliation confirmed the appointment-setter cluster still had one clean release-readiness child after setup help, setup-mistakes, setup-vs-DIY, cost, and ROI were already live. This page isolates the exact go-live buyer-intent layer — what to verify before turning an appointment setter on — and stays distinct by focusing on qualification rules, booking boundaries, fallback behavior, CRM handoff, ugly-call testing, and post-launch ownership rather than rehashing setup scope, pricing, ROI, or mistakes framing. Proof adjacency remains strong from the live appointment-setter cluster plus the Paris Cafe voice-agent case study, the voice-agent qualification guide, and the WheelsFeels CRM case study. Previous: `/ai-appointment-setter-setup-mistakes-small-business`.)
+Last updated: 2026-04-30 (shipped `/client-onboarding-launch-checklist-small-business` — broad reconciliation found one clean release-readiness child still missing inside the live client-onboarding cluster after the broader parent, setup-help page, cost page, setup-vs-DIY page, ROI page, and intake/doc-collection child were already live. This page isolates the exact go-live buyer-intent layer — what to verify before sending real clients through a new onboarding workflow — and stays distinct by focusing on trigger reliability, sequence timing, intake completion gates, credential delivery, duplicate prevention, task routing, stall detection, and post-launch ownership rather than rehashing setup scope, pricing, ROI, or DIY framing. Proof adjacency stays honest from the live client-onboarding cluster plus the accounting-firm onboarding child and existing CRM-handoff case-study support. Previous: `/ai-appointment-setter-launch-checklist-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 398.
+**Total live GEO pages tracked here:** 399.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -228,6 +228,7 @@ Last updated: 2026-04-30 (shipped `/ai-appointment-setter-launch-checklist-small
 | Client Onboarding Setup (Service Businesses) | `/client-onboarding-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Client Onboarding Cost (SMB) | `/client-onboarding-cost-small-business` | Workflow / service cost page | Live |
 | Client Onboarding Setup vs. DIY (SMB) | `/client-onboarding-setup-vs-diy-small-business` | Workflow / buy-vs-build decision page | Live |
+| Client Onboarding Launch Checklist (SMB) | `/client-onboarding-launch-checklist-small-business` | Workflow / launch-readiness page | Live |
 | Intake Forms + Document Collection (Service Businesses) | `/intake-forms-and-document-collection-automation-for-service-businesses` | Workflow child page | Live |
 | What to Automate First (Accounting) | `/what-to-automate-first-for-accounting-firms` | Vertical decision page | Live |
 | Appointment Scheduling (Accounting) | `/appointment-scheduling-and-reminder-automation-for-accounting-firms` | Vertical workflow page | Live |
@@ -411,10 +412,10 @@ Last updated: 2026-04-30 (shipped `/ai-appointment-setter-launch-checklist-small
 
 ## Next Pages
 
-This run shipped `/ai-appointment-setter-launch-checklist-small-business`, which cleanly extracted the release-readiness layer from the live AI appointment setter cluster. That cluster now covers the broader parent plus setup help, setup-mistakes, launch-checklist, setup-vs-DIY, cost, and ROI siblings. The safer default for the next run is another repo-wide sweep across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster appointment-setter child by inertia.
+This run shipped `/client-onboarding-launch-checklist-small-business`, which cleanly extracted the release-readiness layer from the live client-onboarding cluster. That cluster now covers the broader parent plus setup help, cost, ROI, setup-vs-DIY, launch-checklist, and intake/doc-collection siblings. The safer default for the next run is another repo-wide sweep across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster client-onboarding child by inertia.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | Broad reconciliation across strongest live clusters | The clean next ship should still be re-validated against mature live clusters, prompt ownership, and planning docs instead of assuming the next page stays in the appointment-setter cluster. |
+| 1 | Broad reconciliation across strongest live clusters | The clean next ship should still be re-validated against mature live clusters, prompt ownership, and planning docs instead of assuming the next page stays in the client-onboarding cluster. |
 | 2 | Existing-page indexing / internal-link refresh on a priority URL | If no clean net-new ship survives reconciliation, use the run on a bounded refresh for one of the highest-value URLs in `docs/geo-priority-urls.md`, then update style-learner and tracking docs accordingly. |
 | 3 | Prompt-backed audit of clusters missing a first-project or launch-readiness layer | Several mature clusters now have broader parent + setup/cost/ROI siblings live; the next useful child may come from prompt ownership or a missing earlier decision layer rather than another obvious same-cluster expansion. |

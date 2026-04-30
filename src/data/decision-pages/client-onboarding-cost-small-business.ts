@@ -261,6 +261,7 @@ const data: DecisionPageData = {
     { label: "Client onboarding automation", href: "/client-onboarding-automation" },
     { label: "Client onboarding setup for service businesses", href: "/client-onboarding-setup-for-service-businesses" },
     { label: "Client onboarding setup vs. DIY for small business", href: "/client-onboarding-setup-vs-diy-small-business" },
+    { label: "Client onboarding launch checklist for small business", href: "/client-onboarding-launch-checklist-small-business" },
     { label: "Intake forms and document collection", href: "/intake-forms-and-document-collection-automation-for-service-businesses" },
     { label: "Client onboarding for accounting firms", href: "/client-onboarding-automation-for-accounting-firms" },
     { label: "AI automation cost for small business", href: "/ai-automation-cost-small-business" },

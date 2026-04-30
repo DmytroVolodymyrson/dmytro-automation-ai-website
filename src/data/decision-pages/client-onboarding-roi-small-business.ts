@@ -86,6 +86,7 @@ const data: DecisionPageData = {
           body: "Use your real client value and your real onboarding bottleneck. One business may care about fewer cancellations before kickoff. Another may care about starting delivery earlier so invoices go out sooner. A conservative model might assume only one or two saved or accelerated onboardings per month — not a massive transformation.",
           links: [
             { label: "Client onboarding cost for small business", href: "/client-onboarding-cost-small-business" },
+                { label: "Client onboarding launch checklist for small business", href: "/client-onboarding-launch-checklist-small-business" },
             { label: "AI automation cost for small business", href: "/ai-automation-cost-small-business" },
           ],
         },
@@ -198,6 +199,7 @@ const data: DecisionPageData = {
         { label: "Client onboarding automation", href: "/client-onboarding-automation" },
         { label: "Client onboarding setup for service businesses", href: "/client-onboarding-setup-for-service-businesses" },
         { label: "Client onboarding cost for small business", href: "/client-onboarding-cost-small-business" },
+        { label: "Client onboarding launch checklist for small business", href: "/client-onboarding-launch-checklist-small-business" },
         { label: "Client onboarding setup vs. DIY", href: "/client-onboarding-setup-vs-diy-small-business" },
         { label: "Client onboarding for accounting firms", href: "/client-onboarding-automation-for-accounting-firms" },
         { label: "Intake forms and document collection", href: "/intake-forms-and-document-collection-automation-for-service-businesses" },
@@ -265,6 +267,7 @@ const data: DecisionPageData = {
     { label: "Client onboarding automation", href: "/client-onboarding-automation" },
     { label: "Client onboarding setup for service businesses", href: "/client-onboarding-setup-for-service-businesses" },
     { label: "Client onboarding cost for small business", href: "/client-onboarding-cost-small-business" },
+    { label: "Client onboarding launch checklist for small business", href: "/client-onboarding-launch-checklist-small-business" },
     { label: "Client onboarding setup vs. DIY", href: "/client-onboarding-setup-vs-diy-small-business" },
     { label: "Client onboarding for accounting firms", href: "/client-onboarding-automation-for-accounting-firms" },
     { label: "Intake forms and document collection", href: "/intake-forms-and-document-collection-automation-for-service-businesses" },

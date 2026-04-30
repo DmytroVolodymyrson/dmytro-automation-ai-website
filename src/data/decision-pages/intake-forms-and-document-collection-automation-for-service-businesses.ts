@@ -266,6 +266,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Client onboarding automation", href: "/client-onboarding-automation" },
     { label: "Client onboarding cost for small business", href: "/client-onboarding-cost-small-business" },
+    { label: "Client onboarding launch checklist for small business", href: "/client-onboarding-launch-checklist-small-business" },
     { label: "Client onboarding automation for accounting firms", href: "/client-onboarding-automation-for-accounting-firms" },
     { label: "Document collection automation for mortgage brokers", href: "/document-collection-automation-for-mortgage-brokers" },
     { label: "Intake and conflict-check automation for law firms", href: "/intake-and-conflict-check-automation-for-law-firms" },
