@@ -196,6 +196,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "AI appointment setter guide", href: "/ai-appointment-setter" },
+        { label: "AI appointment setter launch checklist", href: "/ai-appointment-setter-launch-checklist-small-business" },
         { label: "AI appointment setter for home service businesses", href: "/ai-appointment-setter-for-home-service-businesses" },
         { label: "AI appointment setter setup mistakes", href: "/ai-appointment-setter-setup-mistakes-small-business" },
         { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
@@ -239,6 +240,7 @@ const data: DecisionPageData = {
     "No generic AI pitch. Just a practical fit check on whether setup help, a smaller workflow, or no build at all makes the most sense.",
   relatedLinks: [
     { label: "AI appointment setter", href: "/ai-appointment-setter" },
+    { label: "AI appointment setter launch checklist", href: "/ai-appointment-setter-launch-checklist-small-business" },
     { label: "AI appointment setter for home service businesses", href: "/ai-appointment-setter-for-home-service-businesses" },
     { label: "AI appointment setter setup mistakes", href: "/ai-appointment-setter-setup-mistakes-small-business" },
     { label: "GoHighLevel automation setup", href: "/gohighlevel-automation-setup" },

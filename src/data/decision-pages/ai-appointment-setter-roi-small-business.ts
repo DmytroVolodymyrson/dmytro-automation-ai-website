@@ -269,6 +269,7 @@ const data: DecisionPageData = {
     { label: "AI appointment setter", href: "/ai-appointment-setter" },
     { label: "AI appointment setter cost for small business", href: "/ai-appointment-setter-cost-small-business" },
     { label: "AI appointment setter setup help", href: "/ai-appointment-setter-setup" },
+    { label: "AI appointment setter launch checklist", href: "/ai-appointment-setter-launch-checklist-small-business" },
     { label: "AI appointment setter setup mistakes", href: "/ai-appointment-setter-setup-mistakes-small-business" },
     { label: "AI voice agent vs. human appointment setter", href: "/ai-voice-agent-vs-human-appointment-setter" },
     { label: "AI voice agent vs. manual callback", href: "/ai-voice-agent-vs-manual-callback-for-service-businesses" },

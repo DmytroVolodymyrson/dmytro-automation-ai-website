@@ -315,6 +315,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Appointment Setter Launch Checklist for Small Business",
+    description:
+      "What should be verified before an AI appointment setter goes live? Practical launch checklist for qualification rules, booking boundaries, fallback behavior, CRM handoff, and ugly-call testing.",
+    href: "/ai-appointment-setter-launch-checklist-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Appointment Setter Setup vs. DIY for Small Business",
     description:
       "Should you build your appointment-setting workflow yourself or hire setup help? Practical comparison of owner time, workflow risk, booking logic, CRM handoff, and when expert implementation is the cheaper move.",

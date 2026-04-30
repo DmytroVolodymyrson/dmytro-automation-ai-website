@@ -294,6 +294,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI appointment setter", href: "/ai-appointment-setter" },
     { label: "Appointment setter setup help", href: "/ai-appointment-setter-setup" },
+    { label: "Appointment setter launch checklist", href: "/ai-appointment-setter-launch-checklist-small-business" },
     { label: "Appointment setter setup mistakes", href: "/ai-appointment-setter-setup-mistakes-small-business" },
     { label: "Appointment setter ROI", href: "/ai-appointment-setter-roi-small-business" },
     { label: "Setup vs. DIY", href: "/ai-appointment-setter-setup-vs-diy-small-business" },

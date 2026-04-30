@@ -14,6 +14,7 @@ import N8nVsZapierSmallBusiness from "./pages/N8nVsZapierSmallBusiness";
 import AiAppointmentSetter from "./pages/AiAppointmentSetter";
 import AiAppointmentSetterSetup from "./pages/AiAppointmentSetterSetup";
 import AiAppointmentSetterSetupMistakesSmallBusiness from "./pages/AiAppointmentSetterSetupMistakesSmallBusiness";
+import AiAppointmentSetterLaunchChecklistSmallBusiness from "./pages/AiAppointmentSetterLaunchChecklistSmallBusiness";
 import AiAppointmentSetterSetupVsDiySmallBusiness from "./pages/AiAppointmentSetterSetupVsDiySmallBusiness";
 import AiAppointmentSetterCostSmallBusiness from "./pages/AiAppointmentSetterCostSmallBusiness";
 import AiAppointmentSetterRoiSmallBusiness from "./pages/AiAppointmentSetterRoiSmallBusiness";
@@ -525,6 +526,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-appointment-setter", element: <AiAppointmentSetter /> },
   { path: "/ai-appointment-setter-setup", element: <AiAppointmentSetterSetup /> },
   { path: "/ai-appointment-setter-setup-mistakes-small-business", element: <AiAppointmentSetterSetupMistakesSmallBusiness /> },
+  { path: "/ai-appointment-setter-launch-checklist-small-business", element: <AiAppointmentSetterLaunchChecklistSmallBusiness /> },
   { path: "/ai-appointment-setter-setup-vs-diy-small-business", element: <AiAppointmentSetterSetupVsDiySmallBusiness /> },
   { path: "/ai-appointment-setter-cost-small-business", element: <AiAppointmentSetterCostSmallBusiness /> },
   { path: "/ai-appointment-setter-roi-small-business", element: <AiAppointmentSetterRoiSmallBusiness /> },

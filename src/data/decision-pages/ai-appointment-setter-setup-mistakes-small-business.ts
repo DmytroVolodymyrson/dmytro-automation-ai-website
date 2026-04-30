@@ -211,6 +211,7 @@ const data: DecisionPageData = {
       links: [
         { label: "AI appointment setter", href: "/ai-appointment-setter" },
         { label: "AI appointment setter setup help", href: "/ai-appointment-setter-setup" },
+        { label: "AI appointment setter launch checklist", href: "/ai-appointment-setter-launch-checklist-small-business" },
         { label: "AI appointment setter setup vs. DIY", href: "/ai-appointment-setter-setup-vs-diy-small-business" },
         { label: "AI appointment setter cost", href: "/ai-appointment-setter-cost-small-business" },
         { label: "AI appointment setter ROI", href: "/ai-appointment-setter-roi-small-business" },
@@ -257,6 +258,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI appointment setter", href: "/ai-appointment-setter" },
     { label: "AI appointment setter setup help", href: "/ai-appointment-setter-setup" },
+    { label: "AI appointment setter launch checklist", href: "/ai-appointment-setter-launch-checklist-small-business" },
     { label: "AI appointment setter setup vs. DIY", href: "/ai-appointment-setter-setup-vs-diy-small-business" },
     { label: "AI appointment setter cost", href: "/ai-appointment-setter-cost-small-business" },
     { label: "AI appointment setter ROI", href: "/ai-appointment-setter-roi-small-business" },

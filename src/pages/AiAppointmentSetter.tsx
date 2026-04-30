@@ -253,6 +253,12 @@ const AiAppointmentSetter = () => {
                 cta: "See cost breakdown",
               },
               {
+                title: "What to verify before go-live",
+                body: "Use this when setup is mostly done and the real question is whether qualification rules, booking boundaries, fallback behavior, and CRM handoff are actually safe enough to turn on now.",
+                href: "/ai-appointment-setter-launch-checklist-small-business",
+                cta: "Open launch checklist",
+              },
+              {
                 title: "What ROI to expect",
                 body: "Use this if you already believe the workflow could help and want a practical way to think about payback, saved time, and missed-lead recovery.",
                 href: "/ai-appointment-setter-roi-small-business",

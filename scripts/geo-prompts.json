@@ -92,6 +92,18 @@
       ]
     },
     {
+      "id": "ai-appointment-setter-launch-checklist-small-business",
+      "path": "/ai-appointment-setter-launch-checklist-small-business",
+      "label": "AI Appointment Setter Launch Checklist for Small Business",
+      "prompts": [
+        "AI appointment setter launch checklist for small business",
+        "What should be verified before an AI appointment setter goes live?",
+        "What should I test before launching an AI appointment setter?",
+        "How do I know if my AI appointment setter is ready to go live?",
+        "Appointment setter go-live checklist for qualification booking and CRM handoff"
+      ]
+    },
+    {
       "id": "ai-appointment-setter-setup-vs-diy-small-business",
       "path": "/ai-appointment-setter-setup-vs-diy-small-business",
       "label": "AI Appointment Setter Setup vs. DIY for Small Business",
@@ -1156,7 +1168,7 @@
         "What should a mortgage broker automate first lead follow-up missed-call text-back document collection or incomplete application follow-up?",
         "Should a mortgage broker automate lead follow-up before document collection?",
         "Should a mortgage brokerage automate incomplete-application recovery before document reminders?",
-        "How do I choose the first automation project for a mortgage brokerage — lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
+        "How do I choose the first automation project for a mortgage brokerage \u2014 lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
       ]
     },
     {
