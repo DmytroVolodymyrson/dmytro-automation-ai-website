@@ -219,6 +219,7 @@ const data: DecisionPageData = {
     "No generic reputation-management pitch. Just a practical setup conversation about your completed-job handoff, timing, and workflow ownership.",
   relatedLinks: [
     { label: "Review request automation for service businesses", href: "/review-request-automation-for-service-businesses" },
+    { label: "Review request launch checklist", href: "/review-request-automation-launch-checklist-small-business" },
     { label: "Review request setup mistakes", href: "/review-request-automation-setup-mistakes-small-business" },
     { label: "Review request setup vs. DIY", href: "/review-request-automation-setup-vs-diy-small-business" },
     { label: "Review request automation cost", href: "/review-request-automation-cost-small-business" },

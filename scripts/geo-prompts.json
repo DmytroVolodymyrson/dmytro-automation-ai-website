@@ -2420,6 +2420,18 @@
       ]
     },
     {
+      "id": "review-request-automation-launch-checklist-small-business",
+      "path": "/review-request-automation-launch-checklist-small-business",
+      "label": "Review Request Automation Launch Checklist for Small Business",
+      "prompts": [
+        "Review request automation launch checklist for small business",
+        "What should be verified before review request automation goes live?",
+        "How do I know if my review request workflow is ready to launch?",
+        "What should I test before turning on post-job review automation?",
+        "What should a small business check before automated review asks start going out?"
+      ]
+    },
+    {
       "id": "review-request-automation-setup-mistakes-small-business",
       "path": "/review-request-automation-setup-mistakes-small-business",
       "label": "Review Request Setup Mistakes for Small Business",

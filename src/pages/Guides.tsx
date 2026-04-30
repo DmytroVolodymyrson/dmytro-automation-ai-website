@@ -876,6 +876,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Review Request Automation Launch Checklist for Small Business",
+    description:
+      "Pre-launch release gate for review-request workflows. Covers trustworthy completed-job triggers, timing by service type, complaint suppression, CRM visibility, reply ownership, and how to know the workflow is actually safe to turn on.",
+    href: "/review-request-automation-launch-checklist-small-business",
+    category: "workflows",
+  },
+  {
     title: "Review Request Setup Mistakes for Small Business",
     description:
       "Pre-launch mistakes that make review-request automation feel tone-deaf or unsafe fast. Covers weak completed-job triggers, generic timing, complaint suppression failures, review-vs-referral overlap, and CRM ownership gaps that quietly break post-job reputation follow-through.",
