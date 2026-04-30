@@ -1570,6 +1570,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "Missed Call Text-Back vs. AI Phone Answering for Medical Clinics",
+    description:
+      "Decision page for clinic owners choosing between a lighter SMS-first missed-call recovery layer and heavier live AI phone coverage when voicemail and delayed callbacks are already too weak.",
+    href: "/missed-call-text-back-vs-ai-phone-answering-for-medical-clinics",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Dental Practices",
     description:
       "Scoping guide for dental practices deciding whether the first automation should be new-patient follow-up, booking and reminders, recall/reactivation, no-show reduction, or after-hours call handling before a broader rollout.",

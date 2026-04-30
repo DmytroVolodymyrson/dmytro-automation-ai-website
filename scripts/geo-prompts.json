@@ -1263,8 +1263,20 @@
         "Missed call text-back for medical clinics",
         "How can a medical clinic text back missed patient calls automatically without adding more front-desk chase work?",
         "Best way for a smaller outpatient clinic to respond after a missed patient call before the appointment request goes cold",
-        "Should a medical clinic use missed-call text-back before full AI phone answering?",
+        "What should a medical clinic missed-call text-back workflow capture before the front desk calls back?",
         "How should a clinic handle missed patient calls when voicemail and next-day callbacks are too slow?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-vs-ai-phone-answering-for-medical-clinics",
+      "path": "/missed-call-text-back-vs-ai-phone-answering-for-medical-clinics",
+      "label": "Missed Call Text-Back vs. AI Phone Answering for Medical Clinics",
+      "prompts": [
+        "Missed call text-back vs AI phone answering for medical clinics",
+        "Should a medical clinic use missed-call text-back before full AI phone answering?",
+        "When is a lighter SMS-first missed-call workflow enough for a clinic and when does it need live AI phone coverage?",
+        "What is better for a medical clinic missed-call text-back or live AI phone answering?",
+        "How should a clinic choose between a lighter text-back fallback and heavier live phone coverage?"
       ]
     },
     {

@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/ai-phone-answering-vs-voicemail-for-medical-clinics` — the live medical-clinic cluster already had the broader parent, first-project scoping, lead follow-up, booking/reminders, intake prep, recall/reactivation, no-show reduction, missed-call text-back, and the heavier live-answering explainer. The exact buyer query was already sitting on the live `/ai-phone-answering-for-medical-clinics` prompt set: whether a clinic should keep voicemail and next-day callbacks or move to live AI phone answering. This new page isolates that decision cleanly, keeps missed-call text-back as the lighter middle path, and gives the cluster the same phone-decision layer already proven in adjacent healthcare and service-business clusters. Previous: `/referral-request-automation-for-home-inspectors`.)
+Last updated: 2026-04-29 (shipped `/missed-call-text-back-vs-ai-phone-answering-for-medical-clinics` — after the cluster gained the heavier `/ai-phone-answering-vs-voicemail-for-medical-clinics` comparison, one exact buyer question still remained on the live `/missed-call-text-back-for-medical-clinics` prompt set: whether a clinic should stay with the lighter SMS-first missed-call fallback or move up to heavier live AI phone coverage. The live medical-clinic cluster already had the broader parent, first-project scoping, lead follow-up, booking/reminders, intake prep, recall/reactivation, no-show reduction, missed-call text-back, the heavier live-answering explainer, and the voicemail comparison layer. This new page cleanly isolates the lighter-vs-heavier phone-layer decision without inventing new proof. Previous: `/ai-phone-answering-vs-voicemail-for-medical-clinics`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 387.
+**Total live GEO pages tracked here:** 388.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -175,6 +175,7 @@ Last updated: 2026-04-29 (shipped `/ai-phone-answering-vs-voicemail-for-medical-
 | Missed Call Text-Back (Medical Clinics) | `/missed-call-text-back-for-medical-clinics` | Vertical workflow page | Live |
 | AI Phone Answering (Medical Clinics) | `/ai-phone-answering-for-medical-clinics` | Vertical solution page | Live |
 | AI Phone Answering vs. Voicemail (Medical Clinics) | `/ai-phone-answering-vs-voicemail-for-medical-clinics` | Vertical comparison page | Live |
+| Text-Back vs AI Phone (Medical Clinics) | `/missed-call-text-back-vs-ai-phone-answering-for-medical-clinics` | Vertical comparison page | Live |
 | What to Automate First (Dental) | `/what-to-automate-first-for-dental-practices` | Vertical decision page | Live |
 | AI Lead Follow-Up (Dental) | `/ai-lead-follow-up-for-dental-practices` | Vertical workflow page | Live |
 | Recall/Reactivation (Dental) | `/recall-and-reactivation-automation-for-dental-practices` | Vertical workflow page | Live |

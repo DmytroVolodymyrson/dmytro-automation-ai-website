@@ -280,6 +280,7 @@ const data: DecisionPageData = {
     { label: "What to automate first for medical clinics", href: "/what-to-automate-first-for-medical-clinics" },
     { label: "AI phone answering for medical clinics", href: "/ai-phone-answering-for-medical-clinics" },
     { label: "AI phone answering vs voicemail for medical clinics", href: "/ai-phone-answering-vs-voicemail-for-medical-clinics" },
+    { label: "Missed call text-back vs AI phone answering for medical clinics", href: "/missed-call-text-back-vs-ai-phone-answering-for-medical-clinics" },
     { label: "Appointment scheduling and reminder automation for medical clinics", href: "/appointment-scheduling-and-reminder-automation-for-medical-clinics" },
     { label: "Missed call follow-up automation", href: "/missed-call-follow-up-automation" },
     { label: "All guides", href: "/guides" },
