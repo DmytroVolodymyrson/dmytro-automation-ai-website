@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-30 (shipped `/appointment-scheduling-and-reminder-launch-checklist-small-business` — broad reconciliation still pointed to one clean missing child inside the already-live appointment-scheduling cluster. The parent page, setup-help page, setup-mistakes page, setup-vs-DIY page, cost page, and ROI page were already live, but the release-readiness layer itself was still unisolated. This page owns the go-live checklist: trustworthy booking triggers, confirmation content by appointment type, reminder timing, reschedule and cancellation stop rules, prep-step enforcement, reply-routing stop rules, office visibility, and the conditions where a small business should delay launch instead of forcing a brittle scheduling workflow live. Proof adjacency stays honest from the live appointment-scheduling cluster, the adjacent booking-confirmation workflow pages, and the existing Paris Cafe case study. Previous: `/no-show-reduction-launch-checklist-small-business`.)
+Last updated: 2026-04-30 (shipped `/missed-call-text-back-setup-mistakes-small-business` — broad reconciliation plus a Claude Code check still pointed to one clean missing child inside the already-live missed-call text-back cluster. The parent page, setup-help page, cost page, ROI page, setup-vs-DIY page, and comparison pages were already live, but the pain-aware mistakes layer itself was still unisolated. This page owns the pre-launch failure mode: weak answered-call filtering, bad business-hours vs after-hours logic, generic next-step paths, duplicate-contact drift, CRM visibility gaps, and the edge-case ownership failures that make a lightweight text-back workflow feel sloppy from week one. Proof adjacency stays honest from the live missed-call text-back cluster, the Paris Cafe voice-agent case study, and the published e-commerce CRM case study. Previous: `/appointment-scheduling-and-reminder-launch-checklist-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 403.
+**Total live GEO pages tracked here:** 404.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -41,6 +41,7 @@ Last updated: 2026-04-30 (shipped `/appointment-scheduling-and-reminder-launch-c
 | Missed Call Text-Back Cost (SMB) | `/missed-call-text-back-cost-small-business` | Workflow / service cost page | Live |
 | Missed Call Text-Back ROI (SMB) | `/missed-call-text-back-roi-small-business` | Workflow / ROI page | Live |
 | Missed Call Text-Back Setup (Service Businesses) | `/missed-call-text-back-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| Missed-Call Text-Back Setup Mistakes (SMB) | `/missed-call-text-back-setup-mistakes-small-business` | Workflow / pain-aware mistakes page | Live |
 | Missed-Call Text-Back Setup vs. DIY (SMB) | `/missed-call-text-back-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | Missed Call Text-Back vs. AI Phone Answering (Service Businesses) | `/missed-call-text-back-vs-ai-phone-answering-for-service-businesses` | Workflow comparison page | Live |
 | AI Phone Answering vs. Voicemail (Service Businesses) | `/ai-phone-answering-vs-voicemail-for-service-businesses` | Workflow comparison page | Live |
@@ -416,10 +417,10 @@ Last updated: 2026-04-30 (shipped `/appointment-scheduling-and-reminder-launch-c
 
 ## Next Pages
 
-The explicit appointment-scheduling release-readiness gap is now live. The nearest service-business scheduling cluster no longer has an obviously cleaner same-cluster child page than the pages already shipped, so the next run should start with broad reconciliation across the strongest live clusters and planning docs instead of forcing another scheduling sibling by inertia.
+The explicit missed-call text-back setup-mistakes gap is now live. That cluster now has the parent, setup-help, cost, ROI, DIY, and comparison layers live, so the next run should start with broad reconciliation again instead of forcing another phone-layer sibling by inertia.
 
 | Priority | Candidate | Why it is next |
 | --- | --- | --- |
-| 1 | Broad reconciliation across `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, live routes, and `scripts/geo-prompts.json` | The appointment-scheduling cluster now has the parent, comparison, setup-help, mistakes, DIY, cost, ROI, and release-readiness layer live. The next ship should come from the strongest remaining distinct cluster rather than a forced same-family follow-up. |
-| 2 | `crm-pipeline-stages-for-contractors` | Still reads as a plausible exact workflow-design child if broader reconciliation confirms the contractor CRM cluster already has the parent, setup, cost, and downstream estimate / dispatch children live without a dedicated stage-structure page. |
-| 3 | `gohighlevel-account-audit-checklist` | Still looks like a viable exact diagnostic child if reconciliation confirms the GoHighLevel cleanup cluster keeps the audit-before-you-pay query cleanly separated from cleanup-service and cleanup-vs-rebuild pages. |
+| 1 | Broad reconciliation across `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, live routes, and `scripts/geo-prompts.json` | The missed-call text-back cluster now has the parent, setup-help, mistakes, DIY, cost, ROI, and comparison layers live. The next ship should again come from the strongest remaining distinct cluster rather than from stale roadmap inertia. |
+| 2 | `client-onboarding-setup-mistakes-small-business` | Still reads as a plausible exact pain-aware child if fresh reconciliation confirms the live client-onboarding cluster has setup-help, launch-checklist, cost, ROI, and DIY pages but still lacks the mistakes layer itself. |
+| 3 | `estimate-follow-up-setup-mistakes-small-business` | Still looks like a viable exact workflow-mistakes child if reconciliation confirms the estimate-follow-up cluster keeps the setup-scope, ROI, cost, and DIY questions live without a dedicated pre-launch failure-mode page. |

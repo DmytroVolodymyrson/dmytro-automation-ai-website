@@ -960,6 +960,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Missed-Call Text-Back Setup Mistakes for Small Business",
+    description:
+      "Practical pre-launch mistakes guide for small businesses setting up SMS-first missed-call recovery. Covers weak answered-call filtering, broken business-hours logic, lazy next-step paths, duplicate-contact drift, and the cleanup those mistakes create after launch.",
+    href: "/missed-call-text-back-setup-mistakes-small-business",
+    category: "workflows",
+  },
+  {
     title: "Missed-Call Text-Back Setup vs. DIY for Small Business",
     description:
       "Should a small business DIY missed-call text-back setup or hire help? Practical buyer guide to owner time, answered-call filtering, after-hours logic, CRM logging, duplicate prevention, and when expert setup is cheaper than more DIY drift.",

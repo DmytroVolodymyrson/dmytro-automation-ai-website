@@ -28,6 +28,7 @@ import AiLeadFollowUpSetupVsDiySmallBusiness from "./pages/AiLeadFollowUpSetupVs
 import MissedCallTextBackCostSmallBusiness from "./pages/MissedCallTextBackCostSmallBusiness";
 import MissedCallTextBackRoiSmallBusiness from "./pages/MissedCallTextBackRoiSmallBusiness";
 import MissedCallTextBackSetupForServiceBusinesses from "./pages/MissedCallTextBackSetupForServiceBusinesses";
+import MissedCallTextBackSetupMistakesSmallBusiness from "./pages/MissedCallTextBackSetupMistakesSmallBusiness";
 import MissedCallTextBackSetupVsDiySmallBusiness from "./pages/MissedCallTextBackSetupVsDiySmallBusiness";
 import AiAutomationConsultantCalgary from "./pages/AiAutomationConsultantCalgary";
 import AiAutomationConsultantVancouver from "./pages/AiAutomationConsultantVancouver";
@@ -545,6 +546,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/missed-call-text-back-cost-small-business", element: <MissedCallTextBackCostSmallBusiness /> },
   { path: "/missed-call-text-back-roi-small-business", element: <MissedCallTextBackRoiSmallBusiness /> },
   { path: "/missed-call-text-back-setup-for-service-businesses", element: <MissedCallTextBackSetupForServiceBusinesses /> },
+  { path: "/missed-call-text-back-setup-mistakes-small-business", element: <MissedCallTextBackSetupMistakesSmallBusiness /> },
   { path: "/missed-call-text-back-setup-vs-diy-small-business", element: <MissedCallTextBackSetupVsDiySmallBusiness /> },
   { path: "/ai-automation-consultant-calgary", element: <AiAutomationConsultantCalgary /> },
   { path: "/ai-automation-consultant-edmonton", element: <AiAutomationConsultantEdmonton /> },

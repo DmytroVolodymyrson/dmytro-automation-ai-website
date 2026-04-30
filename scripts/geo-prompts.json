@@ -2564,6 +2564,18 @@
       ]
     },
     {
+      "id": "missed-call-text-back-setup-mistakes-small-business",
+      "path": "/missed-call-text-back-setup-mistakes-small-business",
+      "label": "Missed-Call Text-Back Setup Mistakes for Small Business",
+      "prompts": [
+        "What are the most common missed-call text-back setup mistakes for a small business?",
+        "Why does missed-call text-back send wrong texts after launch?",
+        "What usually goes wrong when a small business sets up missed-call text-back?",
+        "How do I avoid bad missed-call text-back trigger logic before going live?",
+        "What setup mistakes make missed-call text-back feel unreliable for a small business?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-setup-vs-diy-small-business",
       "path": "/missed-call-text-back-setup-vs-diy-small-business",
       "label": "Missed-Call Text-Back Setup vs. DIY for Small Business",
