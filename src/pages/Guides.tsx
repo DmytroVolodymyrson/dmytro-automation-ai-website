@@ -3280,10 +3280,10 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
-    title: "Real Estate Agent Nurture for Home Inspectors",
+    title: "Referral Request Automation for Home Inspectors",
     description:
-      "Home-inspector referral-source workflow for staying top of mind with real-estate agents, reactivating dormant referral partners, and routing live buyer opportunities back fast without generic campaign noise.",
-    href: "/real-estate-agent-nurture-for-home-inspectors",
+      "Post-inspection advocacy workflow for home inspectors focused on asking satisfied buyers and agents for warm introductions, keeping referral asks separate from review asks, and routing live referral opportunities back fast.",
+    href: "/referral-request-automation-for-home-inspectors",
     category: "industries",
   },
   {

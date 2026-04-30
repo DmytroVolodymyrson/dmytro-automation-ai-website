@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/missed-call-text-back-for-medical-clinics` — the live medical-clinics cluster already had the broader parent, the first-project page, the early-funnel lead-follow-up page, the booked-visit scheduling page, the intake-prep page, the recall page, the no-show page, and the heavier live phone-answering page, but it still lacked the lighter SMS-first phone-recovery layer. This new page isolates the earlier missed-call fallback workflow for clinics where voicemail is too passive but full live AI answering is still heavier than necessary: immediate text acknowledgment, lightweight callback-context capture, appointment-intent protection, and the line between a lighter callback workflow and a heavier live-answering build. Previous: `/appointment-scheduling-and-reminder-setup-vs-diy-small-business`.)
+Last updated: 2026-04-29 (shipped `/referral-request-automation-for-home-inspectors` — the live home-inspector cluster already had the broader parent, the first-project page, the early-funnel lead-follow-up page, booked-inspection scheduling, report-delivery closeout, review automation, real-estate-agent nurture, and the phone layer, but it still lacked the narrow post-inspection advocacy step between public reviews and long-cycle partner nurture. This new page isolates the warm-introduction ask after a successful inspection: asking at the right moment once the report and closeout feel settled, keeping referral asks separate from review asks, and routing real reply intent back fast instead of leaving word of mouth to memory. Previous: `/missed-call-text-back-for-medical-clinics`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 385.
+**Total live GEO pages tracked here:** 386.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -276,6 +276,7 @@ Last updated: 2026-04-29 (shipped `/missed-call-text-back-for-medical-clinics` �
 | Scheduling/Reminders (Home Inspect) | `/inspection-scheduling-and-reminder-automation-for-home-inspectors` | Vertical workflow page | Live |
 | Report Delivery/Review | `/report-delivery-and-review-automation-for-home-inspectors` | Vertical workflow page | Live |
 | Review Automation (Home Inspect) | `/review-request-automation-for-home-inspectors` | Vertical workflow page | Live |
+| Referral Requests (Home Inspect) | `/referral-request-automation-for-home-inspectors` | Vertical workflow page | Live |
 | Agent Nurture (Home Inspect) | `/real-estate-agent-nurture-for-home-inspectors` | Vertical workflow page | Live |
 | AI Phone Answering (Home Inspect) | `/ai-phone-answering-for-home-inspectors` | Vertical solution page | Live |
 | Missed Call Text-Back (Home Inspect) | `/missed-call-text-back-for-home-inspectors` | Vertical workflow page | Live |
@@ -398,8 +399,8 @@ Last updated: 2026-04-29 (shipped `/missed-call-text-back-for-medical-clinics` �
 
 ## Next Pages
 
-This run shipped `/missed-call-text-back-for-medical-clinics`, which cleanly filled the lighter SMS-first phone-recovery layer inside the medical-clinics cluster. That cluster now has the broader parent, the first-project page, multiple lifecycle-stage children, the lighter missed-call fallback page, and the heavier live phone-answering page. The next run should reset to broad reconciliation across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster medical-phone child by inertia.
+This run shipped `/referral-request-automation-for-home-inspectors`, which cleanly filled the narrow post-inspection advocacy layer inside the home-inspector cluster between public review asks and long-cycle real-estate-agent nurture. That cluster now covers the broader parent, first-project scoping, early-funnel lead follow-up, booked-inspection scheduling, report-delivery closeout, review automation, referral advocacy, agent nurture, and the phone layer. The next run should reset to broad reconciliation across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster home-inspector trust child by inertia.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | Broad reconciliation across strongest live clusters | The medical-clinics cluster no longer has an obviously clean must-ship sibling after this run. The next pass should look for the best remaining exact planned page or prompt-owned child across the repo — especially mature clusters with a broad parent plus 3+ distinct live children but still-missing first-project, lifecycle-stage, pricing, or setup-help extraction pages that stay clearly non-duplicative. |
+| 1 | Broad reconciliation across strongest live clusters | The home-inspector cluster no longer has an obvious must-ship sibling after this run. The next pass should look for the best remaining exact planned page or prompt-owned child across the repo — especially mature clusters with a broad parent plus 3+ distinct live children but still-missing first-project, lifecycle-stage, pricing, or setup-help extraction pages that stay clearly non-duplicative. |

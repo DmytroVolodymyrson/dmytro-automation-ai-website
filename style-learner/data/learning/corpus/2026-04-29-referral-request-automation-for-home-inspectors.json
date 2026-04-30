@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-29-referral-request-automation-for-home-inspectors",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-29",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "### Hero\nHeading: Referral Request Automation for Home Inspectors\nBody: Most home inspectors say referrals are their best jobs, then treat referral follow-up like something that just happens on its own. The inspection goes well. The report gets delivered. The buyer is relieved. The agent is satisfied enough to use you again. Maybe someone even hints that a friend, family member, or other agent could need an inspection soon. Then nobody follows up while trust is still warm. Or the business bundles a thank-you, a review ask, and a referral ask into one awkward message that feels more like a campaign than a real closeout. Referral request automation for home inspectors fixes that narrower post-inspection advocacy workflow. It gives the business a believable moment to ask for introductions after the inspection actually feels complete, keeps referral asks separate from review asks, routes warm replies back to a human fast, and turns finished inspections into more deliberate word-of-mouth follow-through instead of hoping referrals arrive on their own.\nSub: Distinct from review requests and long-cycle agent nurture; tightly framed around the immediate post-inspection introduction ask once trust is still warm but the report closeout feels settled.\n\n### Core sections\nHeading: What home-inspector referral-request automation should actually handle\nBody: The page stays on the completed-inspection advocacy step: real closeout trigger, timing that respects how inspection trust settles, a separate referral path from the review path, referral language that matches how inspections actually spread, fast routing when someone names a real opportunity, and visibility into which inspections actually produce introductions.\n\nHeading: How this page stays distinct inside the home-inspector cluster\nBody: The page sits between review-request automation and real-estate-agent nurture. Review-request automation owns public reputation timing. Agent nurture owns long-cycle top-of-mind visibility with referral partners. This new page owns the narrow post-inspection ask for a warm intro while the inspection experience is still fresh.\n\nHeading: Fit and guardrails\nBody: Best fit when referrals already matter, inspections usually close out cleanly, and one or two extra referred inspection conversations per month would justify the build. Guardrails: do not stack review and referral asks, protect service recovery before advocacy, keep the ask specific to real inspection referral patterns, and route real reply intent back to a human fast.\n\nHeading: Workflow summary\nBody: Complete the inspection, deliver the report, confirm the closeout feels settled, make a believable advocacy ask, then route any named opportunity back with context attached. The page emphasizes referrals as a practical workflow rather than generic marketing noise.\n\n### FAQ\nHeading: FAQ themes\nTopics: How this differs from review-request automation; how it differs from real-estate-agent nurture; when to ask for referrals after the inspection; typical cost range for a bounded workflow; where ROI usually comes from.\n\n### Final CTA\nHeading: Want more finished inspections to turn into warm intros?\nBody: Book a 30-minute call. We will look at how completed inspections get closed out today, where referral opportunities are being missed, and whether a focused referral workflow, a review-timing fix, or a broader agent-nurture system is the smarter next move.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Keep the tone practical and non-hype."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Separate public reviews from private introductions clearly."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Use transaction- and trust-driven language appropriate to home inspectors and agent relationships."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Avoid claiming a home-inspector-specific referral case study exists; lean on parent-page proof and adjacent workflow evidence instead."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-30T02:20:18.253Z",
+    "structure": {
+      "paragraphCount": 7,
+      "sentencesPerParagraph": [
+        11,
+        1,
+        4,
+        2,
+        2,
+        1,
+        3
+      ],
+      "avgSentenceLength": 20.9,
+      "sentenceLengthRange": [
+        4,
+        61
+      ],
+      "totalWords": 502
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Referral Request Automation for Home Inspectors\nBody: Most home inspectors say referrals are their best jobs, then treat referral follow-up like something that just happens on its own.",
+      "wordCount": 30,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Want more finished inspections to turn into warm intros?\nBody: Book a 30-minute call. We will look at how completed inspections get closed out today, where referral opportunities are being missed, and whether a focused referral workflow, a review-timing fix, or a broader agent-nurture system is the smarter next move.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "product-pitch",
+        "product-pitch",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | product-pitch | product-pitch | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 23,
+      "commas": 26,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 17,
+      "commasPerSentence": 1.08
+    },
+    "vocabulary": {
+      "distinctWords": 256,
+      "totalWords": 502,
+      "topWords": [
+        [
+          "referral",
+          12
+        ],
+        [
+          "inspection",
+          9
+        ],
+        [
+          "ask",
+          8
+        ],
+        [
+          "heading",
+          7
+        ],
+        [
+          "automation",
+          6
+        ],
+        [
+          "body",
+          6
+        ],
+        [
+          "that",
+          6
+        ],
+        [
+          "from",
+          6
+        ],
+        [
+          "inspections",
+          6
+        ],
+        [
+          "how",
+          6
+        ],
+        [
+          "referrals",
+          5
+        ],
+        [
+          "warm",
+          5
+        ],
+        [
+          "review",
+          5
+        ],
+        [
+          "real",
+          5
+        ],
+        [
+          "workflow",
+          5
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

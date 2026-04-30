@@ -469,6 +469,7 @@ import AiLeadFollowUpForHomeInspectors from "./pages/AiLeadFollowUpForHomeInspec
 import InspectionSchedulingAndReminderAutomationForHomeInspectors from "./pages/InspectionSchedulingAndReminderAutomationForHomeInspectors";
 import ReportDeliveryAndReviewAutomationForHomeInspectors from "./pages/ReportDeliveryAndReviewAutomationForHomeInspectors";
 import ReviewRequestAutomationForHomeInspectors from "./pages/ReviewRequestAutomationForHomeInspectors";
+import ReferralRequestAutomationForHomeInspectors from "./pages/ReferralRequestAutomationForHomeInspectors";
 import RealEstateAgentNurtureForHomeInspectors from "./pages/RealEstateAgentNurtureForHomeInspectors";
 import AiPhoneAnsweringForHomeInspectors from "./pages/AiPhoneAnsweringForHomeInspectors";
 import MissedCallTextBackForHomeInspectors from "./pages/MissedCallTextBackForHomeInspectors";
@@ -1043,6 +1044,10 @@ export const appRoutes: AppRouteDefinition[] = [
   {
     path: "/review-request-automation-for-home-inspectors",
     element: <ReviewRequestAutomationForHomeInspectors />,
+  },
+  {
+    path: "/referral-request-automation-for-home-inspectors",
+    element: <ReferralRequestAutomationForHomeInspectors />,
   },
   {
     path: "/real-estate-agent-nurture-for-home-inspectors",

@@ -4772,6 +4772,18 @@
       ]
     },
     {
+      "id": "referral-request-automation-for-home-inspectors",
+      "path": "/referral-request-automation-for-home-inspectors",
+      "label": "Referral Request Automation for Home Inspectors",
+      "prompts": [
+        "Referral request automation for home inspectors",
+        "How should a home inspector ask satisfied buyers or agents for warm introductions after an inspection is complete?",
+        "Best way for a home inspector to separate referral asks from review asks after the inspection report is delivered",
+        "When should a home inspector ask for referrals after the report lands and the closeout feels settled?",
+        "How should a home inspector route warm referral replies back to a human before they go cold?"
+      ]
+    },
+    {
       "id": "missed-call-text-back-for-home-inspectors",
       "path": "/missed-call-text-back-for-home-inspectors",
       "label": "Missed Call Text-Back for Home Inspectors",

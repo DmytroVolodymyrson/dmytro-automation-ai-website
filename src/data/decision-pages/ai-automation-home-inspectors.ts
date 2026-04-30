@@ -189,6 +189,7 @@ const data: DecisionPageData = {
     "No obligation. No generic pitch. Just a practical conversation about your inspection business.",
   relatedLinks: [
     { label: "AI automation for real estate", href: "/ai-automation-for-real-estate" },
+    { label: "Referral request automation for home inspectors", href: "/referral-request-automation-for-home-inspectors" },
     { label: "Real-estate agent nurture for home inspectors", href: "/real-estate-agent-nurture-for-home-inspectors" },
     { label: "AI automation for mortgage brokers", href: "/ai-automation-for-mortgage-brokers" },
     { label: "AI appointment setter", href: "/ai-appointment-setter" },

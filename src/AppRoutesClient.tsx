@@ -470,6 +470,7 @@ const AiLeadFollowUpForHomeInspectors = lazy(() => import("./pages/AiLeadFollowU
 const InspectionSchedulingAndReminderAutomationForHomeInspectors = lazy(() => import("./pages/InspectionSchedulingAndReminderAutomationForHomeInspectors"));
 const ReportDeliveryAndReviewAutomationForHomeInspectors = lazy(() => import("./pages/ReportDeliveryAndReviewAutomationForHomeInspectors"));
 const ReviewRequestAutomationForHomeInspectors = lazy(() => import("./pages/ReviewRequestAutomationForHomeInspectors"));
+const ReferralRequestAutomationForHomeInspectors = lazy(() => import("./pages/ReferralRequestAutomationForHomeInspectors"));
 const RealEstateAgentNurtureForHomeInspectors = lazy(() => import("./pages/RealEstateAgentNurtureForHomeInspectors"));
 const AiPhoneAnsweringForHomeInspectors = lazy(() => import("./pages/AiPhoneAnsweringForHomeInspectors"));
 const MissedCallTextBackForHomeInspectors = lazy(() => import("./pages/MissedCallTextBackForHomeInspectors"));
@@ -972,6 +973,7 @@ const AppRoutesClient = () => (
       <Route path="/inspection-scheduling-and-reminder-automation-for-home-inspectors" element={<InspectionSchedulingAndReminderAutomationForHomeInspectors />} />
       <Route path="/report-delivery-and-review-automation-for-home-inspectors" element={<ReportDeliveryAndReviewAutomationForHomeInspectors />} />
       <Route path="/review-request-automation-for-home-inspectors" element={<ReviewRequestAutomationForHomeInspectors />} />
+      <Route path="/referral-request-automation-for-home-inspectors" element={<ReferralRequestAutomationForHomeInspectors />} />
       <Route path="/real-estate-agent-nurture-for-home-inspectors" element={<RealEstateAgentNurtureForHomeInspectors />} />
       <Route path="/ai-phone-answering-for-home-inspectors" element={<AiPhoneAnsweringForHomeInspectors />} />
       <Route path="/ai-phone-answering-vs-voicemail-for-home-inspectors" element={<AiPhoneAnsweringVsVoicemailForHomeInspectors />} />
