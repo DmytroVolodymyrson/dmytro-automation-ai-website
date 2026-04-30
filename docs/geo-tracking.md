@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 454 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 455 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -184,7 +184,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **AI Automation Consultant Ontario** — `/ai-automation-consultant-ontario`
 - **AI Automation Consultant British Columbia** — `/ai-automation-consultant-british-columbia`
 
-### Industry + vertical pages (229)
+### Industry + vertical pages (230)
 - **After-Hours AI Phone Answering vs. Voicemail for Restaurants** — `/after-hours-ai-phone-answering-vs-voicemail-for-restaurants`
 - **After-Hours Maintenance Triage for Property Management Companies** — `/after-hours-maintenance-triage-for-property-management-companies`
 - **After-Hours Phone Answering for Restaurants** — `/after-hours-phone-answering-for-restaurants`
@@ -282,6 +282,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Recall and Reactivation Automation for Medical Clinics** — `/recall-and-reactivation-automation-for-medical-clinics`
 - **No-Show Reduction Automation for Medical Clinics** — `/no-show-reduction-automation-for-medical-clinics`
 - **AI Phone Answering for Medical Clinics** — `/ai-phone-answering-for-medical-clinics`
+- **AI Phone Answering vs. Voicemail for Medical Clinics** — `/ai-phone-answering-vs-voicemail-for-medical-clinics`
 - **Appointment Scheduling and Reminder Automation for Plumbing Companies** — `/appointment-scheduling-and-reminder-automation-for-plumbing-companies`
 - **Care Plan Recall Automation for Chiropractors** — `/care-plan-recall-automation-for-chiropractors`
 - **Client Reactivation Automation for Cleaning Companies** — `/client-reactivation-automation-for-cleaning-companies`

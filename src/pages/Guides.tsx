@@ -1563,6 +1563,13 @@ const guides: GuideItem[] = [
     category: "industries",
   },
   {
+    title: "AI Phone Answering vs. Voicemail for Medical Clinics",
+    description:
+      "Decision page for clinic owners comparing live AI phone coverage against voicemail and next-day callbacks, including where a lighter missed-call workflow is enough and when callback lag is already costing booked visits.",
+    href: "/ai-phone-answering-vs-voicemail-for-medical-clinics",
+    category: "industries",
+  },
+  {
     title: "What to Automate First for Dental Practices",
     description:
       "Scoping guide for dental practices deciding whether the first automation should be new-patient follow-up, booking and reminders, recall/reactivation, no-show reduction, or after-hours call handling before a broader rollout.",

@@ -1239,8 +1239,20 @@
         "AI phone answering for medical clinics",
         "How can a medical clinic handle patient calls after hours without hiring more front-desk staff?",
         "Best way for a smaller outpatient clinic to answer patient calls live when staff are busy or the office is closed",
-        "Should a medical clinic use AI phone answering or stick with voicemail and next-day callbacks?",
+        "When should a medical clinic move from missed-call text-back to full live AI phone answering?",
         "How does AI phone answering work for appointment-driven medical clinics?"
+      ]
+    },
+    {
+      "id": "ai-phone-answering-vs-voicemail-for-medical-clinics",
+      "path": "/ai-phone-answering-vs-voicemail-for-medical-clinics",
+      "label": "AI Phone Answering vs. Voicemail for Medical Clinics",
+      "prompts": [
+        "Should a medical clinic use AI phone answering or stick with voicemail and next-day callbacks?",
+        "When is voicemail no longer good enough for a medical clinic?",
+        "What is the difference between AI phone answering and voicemail for a medical clinic?",
+        "Should a medical clinic replace voicemail with live AI phone answering for after-hours calls and front-desk overflow?",
+        "How should a medical clinic choose between voicemail, missed-call text-back, and live AI phone answering?"
       ]
     },
     {

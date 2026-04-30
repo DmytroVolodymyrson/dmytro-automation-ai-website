@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-04-30T02:20:18.430Z",
-  "postCount": 571,
+  "updatedAt": "2026-04-30T02:36:23.083Z",
+  "postCount": 574,
   "platforms": {
     "telegram": 0,
     "linkedin": 0,
@@ -15,25 +15,25 @@
       "max": 13,
       "p25": 4,
       "p75": 4,
-      "samples": 571
+      "samples": 574
     },
     "sentenceLength": {
       "mean": 23.8,
-      "median": 24.1,
+      "median": 24.05,
       "min": 7.1,
       "max": 105,
       "p25": 19.6,
       "p75": 27.6,
-      "samples": 571
+      "samples": 574
     },
     "totalWords": {
-      "mean": 335.6,
-      "median": 336,
+      "mean": 336.5,
+      "median": 337,
       "min": 17,
       "max": 1155,
-      "p25": 279,
+      "p25": 281,
       "p75": 374,
-      "samples": 571
+      "samples": 574
     },
     "templateFrequency": {
       "single | short | long | short | single": 1,
@@ -59,7 +59,7 @@
       "long | single | single | short": 20,
       "long | single | short | long": 13,
       "long | single | single | long": 75,
-      "long | short | single | long": 124,
+      "long | short | single | long": 126,
       "long | single | single | long | short | single | single | single": 1,
       "long | short | single | single": 6,
       "long | long | single | short": 4,
@@ -132,13 +132,13 @@
       "long | single | long | single | long | long": 2,
       "long | single | short | single | long | long | long | short | long | long | long | long": 1,
       "single | short | long | long": 1,
+      "long | short | long | single | short | short | long | short | long | long | short | long | long": 2,
       "long | single | single | long | single | long | short | long | long | short | long | long": 1,
       "single | single": 1,
       "single | short": 1,
       "long | single": 5,
       "long | short | single": 1,
       "short | single": 2,
-      "long | short | long | single | short | short | long | short | long | long | short | long | long": 1,
       "long | single | short | single | long | long | long | short | long | long | short | long": 1,
       "long | single | single | short | single | long | short | long | long | short | long | long": 1,
       "long | single | long | short | short | single | long": 1,
@@ -164,7 +164,7 @@
       "opener | product-pitch | product-pitch | result | context | product-pitch | context | product-pitch | product-pitch | closer": 1,
       "opener | context | context | context | result | product-pitch | context | context | closer": 1,
       "opener | context | product-pitch | closer": 49,
-      "opener | context | context | closer": 218,
+      "opener | context | context | closer": 220,
       "opener | product-pitch | context | closer": 33,
       "opener | context | product-pitch | context | product-pitch | result | context | closer": 1,
       "opener | product-pitch | product-pitch | closer": 29,
@@ -217,6 +217,7 @@
       "opener | result | result | product-pitch | closer": 1,
       "opener | product-pitch | product-pitch | context | product-pitch | closer": 1,
       "opener | result | result | result | result | result | result | context | context | result | context | closer": 1,
+      "opener | product-pitch | context | context | context | product-pitch | context | context | context | context | context | context | closer": 1,
       "opener | context | product-pitch | context | context | context | product-pitch | context | context | context | context | closer": 2,
       "opener | context | context | result | closer": 1,
       "opener | context | product-pitch | context | product-pitch | closer": 1,
@@ -230,7 +231,7 @@
   "openers": {
     "patterns": {
       "situation": {
-        "count": 120,
+        "count": 121,
         "examples": [
           "Badge: The Person Behind the Automation",
           "Section heading: Common Questions\nSubheading: Straight answers about working wit",
@@ -246,7 +247,7 @@
         ]
       },
       "standard-opener": {
-        "count": 387,
+        "count": 389,
         "examples": [
           "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an autom",
           "Section heading: Real Results for Real Businesses\nSubheading: Here's what happen",
@@ -282,7 +283,7 @@
         ]
       },
       "question": {
-        "count": 469,
+        "count": 472,
         "examples": [
           "Q6: What happens if something breaks after you build it?\nA: Every build includes",
           "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
@@ -323,51 +324,51 @@
     "topWords": [
       [
         "-",
-        3760
+        3773
       ],
       [
         "what",
-        2061
+        2085
       ],
       [
         "automation",
-        1567
+        1574
       ],
       [
         "ai",
-        1210
+        1232
       ],
       [
         "how",
-        1174
+        1179
       ],
       [
         "workflow",
-        1164
+        1168
       ],
       [
         "page",
-        1096
+        1110
       ],
       [
         "when",
-        1047
+        1062
       ],
       [
         "it",
-        1029
+        1038
+      ],
+      [
+        "phone",
+        907
       ],
       [
         "this",
         903
       ],
       [
-        "phone",
-        887
-      ],
-      [
         "whether",
-        773
+        783
       ],
       [
         "follow-up",
@@ -379,15 +380,15 @@
       ],
       [
         "your",
-        673
+        681
       ],
       [
         "live",
-        633
+        645
       ],
       [
         "call",
-        571
+        576
       ],
       [
         "text-back",
@@ -398,28 +399,28 @@
         541
       ],
       [
-        "that",
-        524
+        "answering",
+        532
       ],
       [
-        "answering",
-        515
+        "that",
+        528
+      ],
+      [
+        "voicemail",
+        484
+      ],
+      [
+        "heading",
+        480
       ],
       [
         "missed-call",
         480
       ],
       [
-        "voicemail",
-        473
-      ],
-      [
         "setup",
         472
-      ],
-      [
-        "heading",
-        467
       ],
       [
         "should",
@@ -427,11 +428,11 @@
       ],
       [
         "body",
-        411
+        424
       ],
       [
         "not",
-        393
+        396
       ],
       [
         "lead",
