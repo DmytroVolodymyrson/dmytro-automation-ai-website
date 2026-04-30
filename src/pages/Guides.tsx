@@ -995,6 +995,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Missed Call Text-Back Launch Checklist for Small Business",
+    description:
+      "Pre-launch release gate for SMS-first missed-call recovery. Covers answered-call filtering, business-hours vs after-hours logic, first-message next-step design, reply routing, CRM visibility, and the ugly-case tests that should pass before go-live.",
+    href: "/missed-call-text-back-launch-checklist-small-business",
+    category: "workflows",
+  },
+  {
     title: "Missed-Call Text-Back Setup Mistakes for Small Business",
     description:
       "Practical pre-launch mistakes guide for small businesses setting up SMS-first missed-call recovery. Covers weak answered-call filtering, broken business-hours logic, lazy next-step paths, duplicate-contact drift, and the cleanup those mistakes create after launch.",

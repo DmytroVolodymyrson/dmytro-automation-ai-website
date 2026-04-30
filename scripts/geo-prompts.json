@@ -1192,7 +1192,7 @@
         "What should a mortgage broker automate first lead follow-up missed-call text-back document collection or incomplete application follow-up?",
         "Should a mortgage broker automate lead follow-up before document collection?",
         "Should a mortgage brokerage automate incomplete-application recovery before document reminders?",
-        "How do I choose the first automation project for a mortgage brokerage — lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
+        "How do I choose the first automation project for a mortgage brokerage \u2014 lead follow-up, missed-call text-back, document collection, incomplete-application recovery, or consultation scheduling?"
       ]
     },
     {
@@ -2621,6 +2621,18 @@
         "What is the best missed-call text-back setup for a small service business?",
         "When is missed-call text-back setup help worth paying for instead of a simpler phone workflow?",
         "What needs to be configured before a missed-call text-back workflow goes live?"
+      ]
+    },
+    {
+      "id": "missed-call-text-back-launch-checklist-small-business",
+      "path": "/missed-call-text-back-launch-checklist-small-business",
+      "label": "Missed Call Text-Back Launch Checklist for Small Business",
+      "prompts": [
+        "What should I verify before missed-call text-back goes live for a small business?",
+        "What should a missed-call text-back launch checklist include?",
+        "How do I know if missed-call text-back is safe to turn on yet?",
+        "What should I test before launching SMS-first missed-call recovery?",
+        "When should a small business delay a missed-call text-back launch instead of forcing it live?"
       ]
     },
     {

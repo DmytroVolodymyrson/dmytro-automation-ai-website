@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-30 (shipped `/quote-follow-up-launch-checklist-small-business` — fresh repo-state reconciliation showed the quote-follow-up cluster still had one clean exact child left: the go-live readiness layer. The cluster already had the parent, setup-help, setup-mistakes, DIY, cost, and ROI pages live, but still lacked the narrower launch-checklist page that owns pre-launch verification: trustworthy quote-sent triggers, stale-quote timing by deal type, stop rules, objection/revision routing, CRM visibility, and clear ownership after a buyer re-engages. Proof adjacency stays honest from the live quote-follow-up cluster, the estimate-vs-quote comparison, and the published WheelsFeels CRM case study. Previous: `/referral-request-automation-launch-checklist-small-business`.)
+Last updated: 2026-04-30 (shipped `/missed-call-text-back-launch-checklist-small-business` — fresh repo-state reconciliation showed the missed-call-text-back cluster still had one clean exact child left: the go-live readiness layer. The cluster already had the parent, setup-help, setup-mistakes, DIY, cost, ROI, and core comparison pages live, but still lacked the narrower launch-checklist page that owns pre-launch verification: answered-call filtering, business-hours vs after-hours logic, first-message next-step design, reply routing, CRM visibility, and ugly-case testing before SMS starts firing live. Proof adjacency stays honest from the live missed-call-text-back cluster plus the Paris Cafe voice-agent and WheelsFeels CRM case studies. Previous: `/quote-follow-up-launch-checklist-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 412.
+**Total live GEO pages tracked here:** 413.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -45,6 +45,7 @@ Last updated: 2026-04-30 (shipped `/quote-follow-up-launch-checklist-small-busin
 | Missed Call Text-Back Cost (SMB) | `/missed-call-text-back-cost-small-business` | Workflow / service cost page | Live |
 | Missed Call Text-Back ROI (SMB) | `/missed-call-text-back-roi-small-business` | Workflow / ROI page | Live |
 | Missed Call Text-Back Setup (Service Businesses) | `/missed-call-text-back-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| Missed Call Text-Back Launch Checklist (SMB) | `/missed-call-text-back-launch-checklist-small-business` | Workflow / launch-readiness page | Live |
 | Missed-Call Text-Back Setup Mistakes (SMB) | `/missed-call-text-back-setup-mistakes-small-business` | Workflow / pain-aware mistakes page | Live |
 | Missed-Call Text-Back Setup vs. DIY (SMB) | `/missed-call-text-back-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | Missed Call Text-Back vs. AI Phone Answering (Service Businesses) | `/missed-call-text-back-vs-ai-phone-answering-for-service-businesses` | Workflow comparison page | Live |
@@ -425,10 +426,10 @@ Last updated: 2026-04-30 (shipped `/quote-follow-up-launch-checklist-small-busin
 
 ## Next Pages
 
-The quote-follow-up cluster now has the parent, setup-help, setup-mistakes, launch-checklist, DIY, cost, and ROI layers live. Do not force another quote-stage sibling by inertia on the next run. Reset to broad cross-cluster reconciliation first, and only name a new adjacent candidate if it still survives exact repo-state review across planning docs, live routes, prompts, and discovery surfaces.
+The missed-call-text-back cluster now has the parent, setup-help, launch-checklist, setup-mistakes, setup-vs-DIY, cost, ROI, and comparison layers live. Do not force another missed-call-text-back sibling by inertia on the next run. Reset to broad cross-cluster reconciliation first, and only name a new adjacent candidate if it still survives exact repo-state review across planning docs, live routes, prompts, and discovery surfaces.
 
 | Priority | Candidate | Why it is next |
 | --- | --- | --- |
-| 1 | Broad reconciliation across `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, live routes, and `scripts/geo-prompts.json` | The clean quote-follow-up launch-checklist child is now live, so the next ship should come from the strongest remaining distinct cluster rather than stale workflow-cluster momentum. |
-| 2 | Exact adjacent child only if it survives fresh repo-state review | If a clearly planned sibling still exists after reconciliation, name it from the actual current repo state instead of guessing from older quote-cluster momentum. |
+| 1 | Broad reconciliation across `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, live routes, and `scripts/geo-prompts.json` | The clean missed-call-text-back launch-checklist child is now live, so the next ship should come from the strongest remaining distinct cluster rather than stale phone-workflow momentum. |
+| 2 | Exact adjacent child only if it survives fresh repo-state review | If a clearly planned sibling still exists after reconciliation, name it from the actual current repo state instead of guessing from older missed-call-text-back cluster momentum. |
 | 3 | Priority-hub indexing refresh on the strongest discovered-not-indexed page | If no clean planned net-new page survives reconciliation, the best fallback is a bounded improvement pass on one of the highest-priority indexing URLs listed in `docs/geo-priority-urls.md`. |

@@ -284,6 +284,7 @@ const data: DecisionPageData = {
     { label: "Missed-call text-back setup mistakes for small business", href: "/missed-call-text-back-setup-mistakes-small-business" },
     { label: "Missed call text-back vs. voicemail for service businesses", href: "/missed-call-text-back-vs-voicemail-for-service-businesses" },
     { label: "AI phone answering vs. voicemail for service businesses", href: "/ai-phone-answering-vs-voicemail-for-service-businesses" },
+    { label: "Missed call text-back launch checklist for small business", href: "/missed-call-text-back-launch-checklist-small-business" },
     { label: "Missed call follow-up automation (full system)", href: "/missed-call-follow-up-automation" },
     { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
     { label: "After-hours lead capture", href: "/after-hours-lead-capture-for-service-businesses" },

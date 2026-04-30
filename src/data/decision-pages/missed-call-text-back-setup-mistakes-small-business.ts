@@ -208,6 +208,7 @@ const data: DecisionPageData = {
       links: [
         { label: "Missed call text-back for service businesses", href: "/missed-call-text-back-for-service-businesses" },
         { label: "Missed call text-back setup help", href: "/missed-call-text-back-setup-for-service-businesses" },
+        { label: "Missed call text-back launch checklist", href: "/missed-call-text-back-launch-checklist-small-business" },
         { label: "Missed call text-back setup vs. DIY", href: "/missed-call-text-back-setup-vs-diy-small-business" },
         { label: "Missed call text-back cost", href: "/missed-call-text-back-cost-small-business" },
         { label: "Missed call text-back ROI", href: "/missed-call-text-back-roi-small-business" },

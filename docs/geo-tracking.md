@@ -11,7 +11,7 @@ That file is the source of truth for both the automated runner and manual spot c
 
 This watchlist is intentionally bounded. It covers the highest-value decision, comparison, geo, workflow, and vertical pages without turning the weekly run into noise or runaway API spend.
 
-**Current watchlist size:** 480 tracked pages in `scripts/geo-prompts.json`.
+**Current watchlist size:** 481 tracked pages in `scripts/geo-prompts.json`.
 
 **Maintenance rule:** when pages are added to or removed from `scripts/geo-prompts.json`, update this section in the same change so the human-readable watchlist stays aligned with the runner's source of truth.
 
@@ -172,6 +172,7 @@ This watchlist is intentionally bounded. It covers the highest-value decision, c
 - **Missed Call Text-Back Cost for Small Business** — `/missed-call-text-back-cost-small-business`
 - **Missed Call Text-Back ROI for Small Business** — `/missed-call-text-back-roi-small-business`
 - **Missed Call Text-Back Setup for Service Businesses** — `/missed-call-text-back-setup-for-service-businesses`
+- **Missed Call Text-Back Launch Checklist for Small Business** — `/missed-call-text-back-launch-checklist-small-business`
 - **Missed-Call Text-Back Setup Mistakes for Small Business** — `/missed-call-text-back-setup-mistakes-small-business`
 - **Missed-Call Text-Back Setup vs. DIY for Small Business** — `/missed-call-text-back-setup-vs-diy-small-business`
 - **Missed Call Text-Back vs. AI Phone Answering for Service Businesses** — `/missed-call-text-back-vs-ai-phone-answering-for-service-businesses`

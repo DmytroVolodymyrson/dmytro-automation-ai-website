@@ -269,6 +269,7 @@ const data: DecisionPageData = {
     { label: "Missed call text-back for service businesses", href: "/missed-call-text-back-for-service-businesses" },
     { label: "Missed call text-back cost for small business", href: "/missed-call-text-back-cost-small-business" },
     { label: "Missed call text-back setup for service businesses", href: "/missed-call-text-back-setup-for-service-businesses" },
+    { label: "Missed call text-back launch checklist for small business", href: "/missed-call-text-back-launch-checklist-small-business" },
     { label: "Missed-call text-back setup mistakes for small business", href: "/missed-call-text-back-setup-mistakes-small-business" },
     { label: "Missed call text-back vs. AI phone answering", href: "/missed-call-text-back-vs-ai-phone-answering-for-service-businesses" },
     { label: "AI automation ROI guide", href: "/ai-automation-roi-guide" },
