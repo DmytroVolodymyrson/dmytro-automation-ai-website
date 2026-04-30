@@ -162,40 +162,44 @@ const data: DecisionPageData = {
     },
     {
       type: "cards",
-      title: "What to read next based on where you are",
+      title: "When consultant help is worth paying for after you pick the workflow",
       subtitle:
-        "You've seen the five automations. Where you go next depends on what you need right now:",
+        "The hardest part is usually not choosing a category. It is deciding whether the workflow is simple enough to build yourself or revenue-critical enough to hand off. Use these triggers:",
       items: [
         {
           icon: CheckCircle2,
-          title: "I want proof before I decide",
-          body: "Read the case studies first. Paris Cafe went from 0% to 100% after-hours coverage; WheelsFeels saw a 185% conversion lift across 5,600+ leads. Both include measurable outcomes, timelines, and costs.",
+          title: "You need proof before you hand anything off",
+          body: "Start with the documented outcomes first. Paris Cafe shows what fast phone coverage and booking handoff look like in practice. WheelsFeels shows what disciplined CRM follow-up can do across 5,600+ leads. Read those before you pay for anything broader.",
           links: [
             { label: "Case studies with measurable outcomes", href: "/case-studies" },
+            { label: "WheelsFeels CRM automation case study", href: "/case-studies/ecommerce-crm-automation" },
           ],
         },
         {
           icon: Scale,
-          title: "I need someone to scope and build this",
-          body: "The consultant guide covers what a first engagement looks like, typical pricing ($2K–$5K for a first project), and how to evaluate whether a consultant is worth it for your situation.",
+          title: "The workflow touches customers, booking, or revenue every day",
+          body: "If a broken automation would mean missed calls, stale leads, double-bookings, or bad handoff into your CRM, that is consultant territory. The consultant guide explains what a first scoped engagement usually includes, how to filter for fit, and what to expect before pricing enters the conversation.",
           links: [
             { label: "AI automation consultant guide", href: "/ai-automation-consultant-small-business" },
+            { label: "How to hire an AI automation consultant", href: "/how-to-hire-ai-automation-consultant" },
           ],
         },
         {
           icon: Wrench,
-          title: "I have no tech team or IT person",
-          body: "Most service businesses don't. The no-tech-team guide covers what's realistic to build and maintain without technical staff — including which automations on this page work best when you have zero in-house tech capacity.",
+          title: "You have no tech team and do not want to babysit the system",
+          body: "Most small service businesses are in exactly this position. If the real requirement is a workflow that runs quietly after launch, use the no-tech-team guide and the implementation roadmap to judge whether your first project should stay narrow or be handed off end-to-end.",
           links: [
             { label: "Automation without a tech team", href: "/ai-automation-for-businesses-without-a-tech-team" },
+            { label: "AI automation implementation roadmap", href: "/ai-automation-implementation-roadmap" },
           ],
         },
         {
-          icon: Scale,
-          title: "I'm still researching broadly",
-          body: "The guides hub organizes every automation guide by workflow type — lead follow-up, appointment setting, reactivation, voice agents, and more. Start there if you want to compare options across categories before committing.",
+          icon: DollarSign,
+          title: "You are comparing DIY, consultant help, and realistic first-project cost",
+          body: "If you already know the workflow but need to protect scope, compare the pricing page with the hire-vs-DIY decision page. That combination shows what a first build typically costs, what belongs in phase one, and when the DIY route is likely to create more cleanup than savings.",
           links: [
-            { label: "All automation guides", href: "/guides" },
+            { label: "AI automation consultant pricing", href: "/ai-automation-consultant-pricing-small-business" },
+            { label: "Hire AI consultant vs DIY", href: "/hire-ai-automation-consultant-vs-diy" },
           ],
         },
       ],
