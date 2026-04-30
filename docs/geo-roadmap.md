@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-30 (shipped `/client-onboarding-setup-mistakes-small-business` — broad reconciliation still left this as the cleanest exact pain-aware child because the live client-onboarding cluster already had the parent, setup-help, launch-checklist, cost, ROI, and DIY layers but still lacked the mistakes page itself. This page now owns the pre-launch failure mode: unreliable deal-won triggers, welcome/intake timing collisions, duplicate reminders after resubmission, premature kickoff scheduling, broken internal task ownership, and CRM state drift. Proof adjacency stays honest from the live client-onboarding cluster, the accounting-firm onboarding child, and the published WheelsFeels CRM case study. Previous: `/estimate-follow-up-setup-mistakes-small-business`.)
+Last updated: 2026-04-30 (shipped `/quote-follow-up-setup-mistakes-small-business` — broad reconciliation still left this as the cleanest exact pain-aware child because the live quote-follow-up cluster already had the parent, setup-help, DIY, cost, and ROI layers but still lacked the setup-mistakes page itself. This page now owns the pre-launch failure mode: unreliable quote-sent triggers, generic stale timing, revision-routing failures, ownership drift, and CRM visibility gaps that quietly create cleanup after launch. Proof adjacency stays honest from the live quote-follow-up cluster, the estimate-follow-up setup page, contractor CRM setup guidance, and the published WheelsFeels CRM case study. Previous: `/client-onboarding-setup-mistakes-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 406.
+**Total live GEO pages tracked here:** 407.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -53,6 +53,7 @@ Last updated: 2026-04-30 (shipped `/client-onboarding-setup-mistakes-small-busin
 | Estimate Follow-Up vs. Quote Follow-Up (Service Businesses) | `/estimate-follow-up-vs-quote-follow-up-for-service-businesses` | Workflow comparison page | Live |
 | Quote Follow-Up Automation (Service Businesses) | `/quote-follow-up-automation-for-service-businesses` | Workflow parent page | Live |
 | Quote Follow-Up Setup (Service Businesses) | `/quote-follow-up-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| Quote Follow-Up Setup Mistakes (SMB) | `/quote-follow-up-setup-mistakes-small-business` | Workflow / setup-mistakes page | Live |
 | Quote Follow-Up Setup vs. DIY (SMB) | `/quote-follow-up-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | Appointment Scheduling & Reminder Automation (Service Businesses) | `/appointment-scheduling-and-reminder-automation-for-service-businesses` | Workflow parent page | Live |
 | Appointment Scheduling & Reminder Automation vs. AI Appointment Setter (Service Businesses) | `/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses` | Workflow comparison page | Live |
@@ -419,10 +420,10 @@ Last updated: 2026-04-30 (shipped `/client-onboarding-setup-mistakes-small-busin
 
 ## Next Pages
 
-The explicit client-onboarding setup-mistakes gap is now live. That cluster now has the parent, setup-help, launch-checklist, mistakes, DIY, cost, and ROI layers live, so the next run should start with broad reconciliation again instead of forcing another onboarding-stage sibling by inertia.
+The explicit quote-follow-up setup-mistakes gap is now live. That cluster now has the parent, setup-help, setup-mistakes, DIY, cost, and ROI layers live, so the next run should start with broad reconciliation again instead of forcing another quote-stage sibling by inertia.
 
 | Priority | Candidate | Why it is next |
 | --- | --- | --- |
-| 1 | Broad reconciliation across `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, live routes, and `scripts/geo-prompts.json` | The client-onboarding cluster now has the parent, setup-help, launch-checklist, setup-mistakes, DIY, cost, and ROI layers live. The next ship should come from the strongest remaining distinct cluster rather than from stale roadmap inertia. |
-| 2 | `quote-follow-up-setup-mistakes-small-business` | If fresh reconciliation still favors an exact pain-aware child, the quote-follow-up cluster is the strongest commercial fallback: the parent, setup-help, DIY, cost, and ROI layers are live, but the pre-launch mistakes layer still appears open. |
+| 1 | Broad reconciliation across `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, live routes, and `scripts/geo-prompts.json` | The quote-follow-up cluster is now materially complete at the service-business level. The next ship should come from the strongest remaining distinct cluster rather than from stale roadmap inertia. |
+| 2 | `referral-request-setup-mistakes-small-business` | If fresh reconciliation still favors an exact pain-aware child, the referral-request cluster is a strong commercial fallback: the parent, setup-help, DIY, cost, and ROI layers are live, but the setup-mistakes page still appears open. |
 | 3 | Broad watchlist audit for another exact setup-mistakes child | If no stronger planned page survives reconciliation, the next best fallback is another live workflow cluster that already has setup-help, cost, ROI, and DIY pages but still lacks the mistakes layer itself. |

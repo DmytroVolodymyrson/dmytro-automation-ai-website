@@ -1044,6 +1044,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Quote Follow-Up Setup Mistakes for Small Business",
+    description:
+      "Practical pre-launch mistakes guide for small businesses setting up quote recovery. Covers weak quote-sent triggers, generic stale timing, revision-routing failures, ownership drift, and CRM visibility gaps that create cleanup after launch.",
+    href: "/quote-follow-up-setup-mistakes-small-business",
+    category: "workflows",
+  },
+  {
     title: "Quote Follow-Up Setup vs. DIY for Small Business",
     description:
       "Buy-vs-build guide for owners deciding whether to DIY quote-stage follow-up or hire setup help now. Covers owner time, trigger quality, CRM routing, stale-quote logic, handoff risk, and when setup help is cheaper than more delay.",
