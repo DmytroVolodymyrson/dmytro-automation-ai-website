@@ -505,6 +505,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Lead Follow-Up Launch Checklist for Small Business",
+    description:
+      "Pre-launch checklist for lead follow-up automation. What to verify before go-live: channel mapping, stop conditions, CRM handoff, edge-case testing, and ownership after launch.",
+    href: "/ai-lead-follow-up-launch-checklist-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Lead Follow-Up Setup Mistakes for Small Business",
     description:
       "Pre-launch guide to the lead-follow-up setup mistakes that usually create duplicate outreach, weak routing, messy CRM state, and expensive cleanup later.",

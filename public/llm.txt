@@ -118,6 +118,9 @@ Practical lead-follow-up ROI guide for small businesses — conservative payback
 ## AI Lead Follow-Up Setup for Service Businesses
 What goes into setting up AI lead follow-up for a service business — setup scope, response logic, CRM connections, multi-channel sequencing, edge-case testing, and when professional setup help is worth paying for versus a simpler workflow. Learn more: https://www.dmytroai.com/ai-lead-follow-up-setup-for-service-businesses
 
+## AI Lead Follow-Up Launch Checklist for Small Business
+Practical AI lead-follow-up launch checklist for small businesses. What to verify before go-live: response logic, stop conditions, CRM handoff, channel mapping, ugly-lead testing, and ownership after launch. Learn more: https://www.dmytroai.com/ai-lead-follow-up-launch-checklist-small-business
+
 ## AI Lead Follow-Up Setup Mistakes for Small Business
 Pre-launch guide to the lead-follow-up setup mistakes that usually create duplicate outreach, weak routing, messy CRM state, and expensive cleanup later. Learn more: https://www.dmytroai.com/ai-lead-follow-up-setup-mistakes-small-business
 

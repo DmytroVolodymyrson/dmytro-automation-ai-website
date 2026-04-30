@@ -203,6 +203,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "AI lead follow-up setup help", href: "/ai-lead-follow-up-setup-for-service-businesses" },
+        { label: "AI lead follow-up launch checklist", href: "/ai-lead-follow-up-launch-checklist-small-business" },
         { label: "AI lead follow-up setup mistakes", href: "/ai-lead-follow-up-setup-mistakes-small-business" },
         { label: "AI lead follow-up cost for small business", href: "/ai-lead-follow-up-cost-small-business" },
         { label: "AI lead follow-up ROI for small business", href: "/ai-lead-follow-up-roi-small-business" },
@@ -248,6 +249,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
     { label: "AI lead follow-up setup help", href: "/ai-lead-follow-up-setup-for-service-businesses" },
+    { label: "AI lead follow-up launch checklist", href: "/ai-lead-follow-up-launch-checklist-small-business" },
     { label: "AI lead follow-up setup mistakes", href: "/ai-lead-follow-up-setup-mistakes-small-business" },
     { label: "AI lead follow-up cost for small business", href: "/ai-lead-follow-up-cost-small-business" },
     { label: "AI lead follow-up ROI for small business", href: "/ai-lead-follow-up-roi-small-business" },

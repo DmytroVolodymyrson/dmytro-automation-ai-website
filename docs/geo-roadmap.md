@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/appointment-scheduling-and-reminder-setup-mistakes-small-business` — broad reconciliation surfaced one clean surviving buyer-intent child inside the live appointment-scheduling setup cluster because `scripts/geo-prompts.json` already carried the exact mistakes query on the setup-help parent while the repo still lacked the mistakes page itself. The cluster already had the broader parent, setup help, buy-vs-build, cost, and ROI siblings, plus adjacent proof from no-show-reduction setup and the Paris Cafe booking flow. This ship isolates the pre-launch failure layer — weak booking triggers, one-size-fits-all reminder paths, broken reschedule stop rules, missing prep-step enforcement, and ownerless reply routing — without rehashing setup-help, DIY, cost, or ROI framing. Previous: `/booking-confirmation-and-reminder-setup-mistakes-small-business`.)
+Last updated: 2026-04-30 (shipped `/ai-lead-follow-up-launch-checklist-small-business` — broad reconciliation surfaced one clean surviving buyer-intent child inside the live AI lead follow-up setup cluster because `scripts/geo-prompts.json` still carried the exact launch-readiness question on the setup-help parent while the repo lacked a dedicated release-readiness page. The cluster already had the broader parent, setup help, setup-mistakes, buy-vs-build, cost, and ROI siblings, plus adjacent proof from the WheelsFeels CRM case study and the narrower first-response pages. This ship isolates the go-live layer — channel mapping, stop-condition verification, CRM handoff, ugly-lead testing, and post-launch ownership — without rehashing setup-help, mistakes, DIY, cost, or ROI framing. Previous: `/appointment-scheduling-and-reminder-setup-mistakes-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 395.
+**Total live GEO pages tracked here:** 396.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -58,6 +58,7 @@ Last updated: 2026-04-29 (shipped `/appointment-scheduling-and-reminder-setup-mi
 | Client Reactivation ROI (SMB) | `/client-reactivation-roi-small-business` | Workflow / ROI page | Live |
 | Client Reactivation Setup vs. DIY (SMB) | `/client-reactivation-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | AI Lead Follow-Up Setup (Service Businesses) | `/ai-lead-follow-up-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| AI Lead Follow-Up Launch Checklist (SMB) | `/ai-lead-follow-up-launch-checklist-small-business` | Workflow / release-readiness page | Live |
 | AI Lead Follow-Up Setup Mistakes (SMB) | `/ai-lead-follow-up-setup-mistakes-small-business` | Workflow / pain-aware mistakes page | Live |
 | AI Lead Follow-Up Setup vs. DIY (SMB) | `/ai-lead-follow-up-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
 | AI Lead Follow-Up Cost (SMB) | `/ai-lead-follow-up-cost-small-business` | Category cost page | Live |
@@ -408,7 +409,7 @@ Last updated: 2026-04-29 (shipped `/appointment-scheduling-and-reminder-setup-mi
 
 ## Next Pages
 
-This run shipped `/appointment-scheduling-and-reminder-setup-mistakes-small-business`, which cleanly extracted the remaining pre-launch failure-point layer from the live appointment-scheduling setup cluster. That cluster now covers the broader parent, setup help, setup-mistakes page, cost, ROI, and the buy-vs-build decision. The next run should return to broad reconciliation across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster scheduling child by inertia.
+This run shipped `/ai-lead-follow-up-launch-checklist-small-business`, which cleanly extracted the remaining release-readiness layer from the live AI lead follow-up setup cluster. That cluster now covers the broader parent, setup help, launch-checklist, setup-mistakes, cost, ROI, and the buy-vs-build decision. The next run should return to broad reconciliation across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster lead-follow-up setup child by inertia.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |

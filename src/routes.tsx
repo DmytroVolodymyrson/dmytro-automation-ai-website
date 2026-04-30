@@ -20,6 +20,7 @@ import AiLeadFollowUpForServiceBusinesses from "./pages/AiLeadFollowUpForService
 import AiLeadFollowUpCostSmallBusiness from "./pages/AiLeadFollowUpCostSmallBusiness";
 import AiLeadFollowUpRoiSmallBusiness from "./pages/AiLeadFollowUpRoiSmallBusiness";
 import AiLeadFollowUpSetupForServiceBusinesses from "./pages/AiLeadFollowUpSetupForServiceBusinesses";
+import AiLeadFollowUpLaunchChecklistSmallBusiness from "./pages/AiLeadFollowUpLaunchChecklistSmallBusiness";
 import AiLeadFollowUpSetupMistakesSmallBusiness from "./pages/AiLeadFollowUpSetupMistakesSmallBusiness";
 import AiLeadFollowUpSetupVsDiySmallBusiness from "./pages/AiLeadFollowUpSetupVsDiySmallBusiness";
 import MissedCallTextBackCostSmallBusiness from "./pages/MissedCallTextBackCostSmallBusiness";
@@ -529,6 +530,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/ai-lead-follow-up-cost-small-business", element: <AiLeadFollowUpCostSmallBusiness /> },
   { path: "/ai-lead-follow-up-roi-small-business", element: <AiLeadFollowUpRoiSmallBusiness /> },
   { path: "/ai-lead-follow-up-setup-for-service-businesses", element: <AiLeadFollowUpSetupForServiceBusinesses /> },
+  { path: "/ai-lead-follow-up-launch-checklist-small-business", element: <AiLeadFollowUpLaunchChecklistSmallBusiness /> },
   { path: "/ai-lead-follow-up-setup-mistakes-small-business", element: <AiLeadFollowUpSetupMistakesSmallBusiness /> },
   { path: "/ai-lead-follow-up-setup-vs-diy-small-business", element: <AiLeadFollowUpSetupVsDiySmallBusiness /> },
   { path: "/missed-call-text-back-cost-small-business", element: <MissedCallTextBackCostSmallBusiness /> },

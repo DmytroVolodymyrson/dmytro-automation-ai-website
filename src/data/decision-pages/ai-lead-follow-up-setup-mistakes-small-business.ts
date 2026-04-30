@@ -208,6 +208,7 @@ const data: DecisionPageData = {
       ],
       links: [
         { label: "AI lead follow-up setup help", href: "/ai-lead-follow-up-setup-for-service-businesses" },
+        { label: "AI lead follow-up launch checklist", href: "/ai-lead-follow-up-launch-checklist-small-business" },
         { label: "AI lead follow-up setup vs. DIY", href: "/ai-lead-follow-up-setup-vs-diy-small-business" },
         { label: "AI lead follow-up cost for small business", href: "/ai-lead-follow-up-cost-small-business" },
         { label: "AI lead follow-up ROI for small business", href: "/ai-lead-follow-up-roi-small-business" },
@@ -252,6 +253,7 @@ const data: DecisionPageData = {
     "Useful if you are still in setup mode and want to avoid paying for rescue work a month from now.",
   relatedLinks: [
     { label: "AI lead follow-up setup help", href: "/ai-lead-follow-up-setup-for-service-businesses" },
+    { label: "AI lead follow-up launch checklist", href: "/ai-lead-follow-up-launch-checklist-small-business" },
     { label: "AI lead follow-up setup vs. DIY", href: "/ai-lead-follow-up-setup-vs-diy-small-business" },
     { label: "AI lead follow-up cost for small business", href: "/ai-lead-follow-up-cost-small-business" },
     { label: "AI lead follow-up ROI for small business", href: "/ai-lead-follow-up-roi-small-business" },

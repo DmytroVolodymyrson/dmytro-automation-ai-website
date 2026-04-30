@@ -290,9 +290,21 @@
       "prompts": [
         "What does AI lead follow-up setup involve for a service business?",
         "How do I set up automated lead follow-up with CRM integration?",
-        "What should be configured before launching lead follow-up automation?",
+        "What is the best way to scope a lead follow-up setup project for a service business?",
         "When is professional setup worth paying for in lead follow-up automation?",
         "How do I avoid duplicate messages and weak CRM routing in lead follow-up automation?"
+      ]
+    },
+    {
+      "id": "ai-lead-follow-up-launch-checklist-small-business",
+      "path": "/ai-lead-follow-up-launch-checklist-small-business",
+      "label": "AI Lead Follow-Up Launch Checklist for Small Business",
+      "prompts": [
+        "What should be verified before launching lead follow-up automation?",
+        "AI lead follow-up launch checklist for small business",
+        "What should I test before turning on automated lead follow-up?",
+        "How do I know if my lead follow-up workflow is ready to go live?",
+        "Pre-launch checklist for AI lead follow-up automation"
       ]
     },
     {
