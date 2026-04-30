@@ -286,6 +286,7 @@ import BookingConfirmationAndReminderRoiSmallBusiness from "./pages/BookingConfi
 import AppointmentSchedulingAndReminderAutomationForServiceBusinesses from "./pages/AppointmentSchedulingAndReminderAutomationForServiceBusinesses";
 import AppointmentSchedulingAndReminderAutomationVsAiAppointmentSetterForServiceBusinesses from "./pages/AppointmentSchedulingAndReminderAutomationVsAiAppointmentSetterForServiceBusinesses";
 import AppointmentSchedulingAndReminderSetupForServiceBusinesses from "./pages/AppointmentSchedulingAndReminderSetupForServiceBusinesses";
+import AppointmentSchedulingAndReminderSetupMistakesSmallBusiness from "./pages/AppointmentSchedulingAndReminderSetupMistakesSmallBusiness";
 import AppointmentSchedulingAndReminderSetupVsDiySmallBusiness from "./pages/AppointmentSchedulingAndReminderSetupVsDiySmallBusiness";
 import AppointmentSchedulingAndReminderCostSmallBusiness from "./pages/AppointmentSchedulingAndReminderCostSmallBusiness";
 import AppointmentSchedulingAndReminderRoiSmallBusiness from "./pages/AppointmentSchedulingAndReminderRoiSmallBusiness";
@@ -864,6 +865,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/appointment-scheduling-and-reminder-automation-for-service-businesses", element: <AppointmentSchedulingAndReminderAutomationForServiceBusinesses /> },
   { path: "/appointment-scheduling-and-reminder-automation-vs-ai-appointment-setter-for-service-businesses", element: <AppointmentSchedulingAndReminderAutomationVsAiAppointmentSetterForServiceBusinesses /> },
   { path: "/appointment-scheduling-and-reminder-setup-for-service-businesses", element: <AppointmentSchedulingAndReminderSetupForServiceBusinesses /> },
+  { path: "/appointment-scheduling-and-reminder-setup-mistakes-small-business", element: <AppointmentSchedulingAndReminderSetupMistakesSmallBusiness /> },
   { path: "/appointment-scheduling-and-reminder-setup-vs-diy-small-business", element: <AppointmentSchedulingAndReminderSetupVsDiySmallBusiness /> },
   { path: "/appointment-scheduling-and-reminder-cost-small-business", element: <AppointmentSchedulingAndReminderCostSmallBusiness /> },
   { path: "/appointment-scheduling-and-reminder-roi-small-business", element: <AppointmentSchedulingAndReminderRoiSmallBusiness /> },

@@ -1037,6 +1037,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Appointment Scheduling and Reminder Setup Mistakes for Small Business",
+    description:
+      "Practical pre-launch mistakes guide for small businesses setting up scheduling and reminder automation. Covers weak booking triggers, generic reminder paths, broken reschedule stop rules, missing prep-step enforcement, and avoidable office cleanup before the workflow goes live.",
+    href: "/appointment-scheduling-and-reminder-setup-mistakes-small-business",
+    category: "workflows",
+  },
+  {
     title: "Appointment Scheduling and Reminder Setup vs. DIY for Small Business",
     description:
       "Practical buy-vs-build guide for owners deciding whether to keep building the broader scheduling workflow themselves or pay for focused setup help now. Covers booking triggers, confirmation logic, reminder cadence, reschedule handling, prep-step enforcement, CRM visibility, and when DIY drift becomes the more expensive option.",

@@ -2800,7 +2800,19 @@
         "what does appointment scheduling and reminder setup include for a service business",
         "how to set up appointment confirmations reminders and reschedule routing for a service business",
         "when should a service business pay for scheduling and reminder setup help vs diy",
-        "what are the most common setup mistakes in appointment scheduling automation"
+        "what should a clean appointment scheduling and reminder workflow include before launch"
+      ]
+    },
+    {
+      "id": "appointment-scheduling-and-reminder-setup-mistakes-small-business",
+      "path": "/appointment-scheduling-and-reminder-setup-mistakes-small-business",
+      "label": "Appointment Scheduling and Reminder Setup Mistakes for Small Business",
+      "prompts": [
+        "appointment scheduling and reminder setup mistakes for small business",
+        "what are the most common setup mistakes in appointment scheduling automation",
+        "why do appointment reminder automations send contradictory messages after a reschedule",
+        "what usually breaks first when a small business launches appointment scheduling and reminder automation",
+        "how do i avoid setup mistakes in appointment scheduling and reminder automation before launch"
       ]
     },
     {

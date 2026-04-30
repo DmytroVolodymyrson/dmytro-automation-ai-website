@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-29 (shipped `/booking-confirmation-and-reminder-setup-mistakes-small-business` — broad reconciliation still surfaced one clean surviving buyer-intent child inside the live booking-confirmation setup cluster. The repo already had the matching pattern in adjacent setup-heavy clusters like AI phone answering, AI voice agents, and lead follow-up, and the booking-confirmation cluster still lacked the exact mistakes layer between setup help and buy-vs-build/cost/ROI pages. This ship isolates the pre-launch failure points — broken reschedule stop rules, duplicate reminders, weak prep-step logic, messy calendar/CRM state, and missing launch checks — without rehashing setup-help, DIY, cost, or ROI framing. Previous: `/ai-phone-answering-setup-mistakes-small-business`.)
+Last updated: 2026-04-29 (shipped `/appointment-scheduling-and-reminder-setup-mistakes-small-business` — broad reconciliation surfaced one clean surviving buyer-intent child inside the live appointment-scheduling setup cluster because `scripts/geo-prompts.json` already carried the exact mistakes query on the setup-help parent while the repo still lacked the mistakes page itself. The cluster already had the broader parent, setup help, buy-vs-build, cost, and ROI siblings, plus adjacent proof from no-show-reduction setup and the Paris Cafe booking flow. This ship isolates the pre-launch failure layer — weak booking triggers, one-size-fits-all reminder paths, broken reschedule stop rules, missing prep-step enforcement, and ownerless reply routing — without rehashing setup-help, DIY, cost, or ROI framing. Previous: `/booking-confirmation-and-reminder-setup-mistakes-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 394.
+**Total live GEO pages tracked here:** 395.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -396,6 +396,7 @@ Last updated: 2026-04-29 (shipped `/booking-confirmation-and-reminder-setup-mist
 | No-Show Reduction Cost (SMB) | `/no-show-reduction-cost-small-business` | Workflow / cost page | Live |
 | No-Show Reduction ROI (SMB) | `/no-show-reduction-roi-small-business` | Workflow / ROI page | Live |
 | Appointment Scheduling & Reminder Setup (Service Businesses) | `/appointment-scheduling-and-reminder-setup-for-service-businesses` | Workflow / setup-help page | Live |
+| Appointment Scheduling & Reminder Setup Mistakes (SMB) | `/appointment-scheduling-and-reminder-setup-mistakes-small-business` | Workflow / setup-mistakes page | Live |
 | Booking Confirmation & Reminder Setup (Service Businesses) | `/booking-confirmation-and-reminder-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Booking Confirmation & Reminder Setup Mistakes (SMB) | `/booking-confirmation-and-reminder-setup-mistakes-small-business` | Workflow / setup-mistakes page | Live |
 | Booking Confirmation & Reminder Setup vs. DIY (SMB) | `/booking-confirmation-and-reminder-setup-vs-diy-small-business` | Workflow / buy-vs-build page | Live |
@@ -407,7 +408,7 @@ Last updated: 2026-04-29 (shipped `/booking-confirmation-and-reminder-setup-mist
 
 ## Next Pages
 
-This run shipped `/booking-confirmation-and-reminder-setup-mistakes-small-business`, which cleanly extracted the remaining pre-launch failure-point layer from the live booking-confirmation setup cluster. That cluster now covers the broader parent, setup help, setup-mistakes page, cost, ROI, and the buy-vs-build decision. The next run should return to broad reconciliation across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster booking-confirmation child by inertia.
+This run shipped `/appointment-scheduling-and-reminder-setup-mistakes-small-business`, which cleanly extracted the remaining pre-launch failure-point layer from the live appointment-scheduling setup cluster. That cluster now covers the broader parent, setup help, setup-mistakes page, cost, ROI, and the buy-vs-build decision. The next run should return to broad reconciliation across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster scheduling child by inertia.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
