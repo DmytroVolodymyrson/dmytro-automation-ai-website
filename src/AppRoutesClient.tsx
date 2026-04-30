@@ -275,6 +275,7 @@ const MissedCallFollowUp = lazy(() => import("./pages/MissedCallFollowUp"));
 const BookingConfirmationAndReminder = lazy(() => import("./pages/BookingConfirmationAndReminder"));
 const BookingConfirmationAndReminderSetupForServiceBusinesses = lazy(() => import("./pages/BookingConfirmationAndReminderSetupForServiceBusinesses"));
 const BookingConfirmationAndReminderCostSmallBusiness = lazy(() => import("./pages/BookingConfirmationAndReminderCostSmallBusiness"));
+const BookingConfirmationAndReminderRoiSmallBusiness = lazy(() => import("./pages/BookingConfirmationAndReminderRoiSmallBusiness"));
 const AppointmentSchedulingAndReminderAutomationForServiceBusinesses = lazy(() => import("./pages/AppointmentSchedulingAndReminderAutomationForServiceBusinesses"));
 const AppointmentSchedulingAndReminderAutomationVsAiAppointmentSetterForServiceBusinesses = lazy(() => import("./pages/AppointmentSchedulingAndReminderAutomationVsAiAppointmentSetterForServiceBusinesses"));
 const AppointmentSchedulingAndReminderSetupForServiceBusinesses = lazy(() => import("./pages/AppointmentSchedulingAndReminderSetupForServiceBusinesses"));
@@ -778,6 +779,7 @@ const AppRoutesClient = () => (
       <Route path="/booking-confirmation-and-reminder-automation" element={<BookingConfirmationAndReminder />} />
       <Route path="/booking-confirmation-and-reminder-setup-for-service-businesses" element={<BookingConfirmationAndReminderSetupForServiceBusinesses />} />
       <Route path="/booking-confirmation-and-reminder-cost-small-business" element={<BookingConfirmationAndReminderCostSmallBusiness />} />
+      <Route path="/booking-confirmation-and-reminder-roi-small-business" element={<BookingConfirmationAndReminderRoiSmallBusiness />} />
       <Route path="/ai-phone-answering-for-service-businesses" element={<AiPhoneAnswering />} />
       <Route path="/missed-call-text-back-vs-ai-phone-answering-for-service-businesses" element={<MissedCallTextBackVsAiPhoneAnsweringForServiceBusinesses />} />
       <Route path="/missed-call-text-back-vs-voicemail-for-service-businesses" element={<MissedCallTextBackVsVoicemailForServiceBusinesses />} />

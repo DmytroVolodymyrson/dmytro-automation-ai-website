@@ -255,6 +255,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
     { label: "Booking confirmation and reminder setup", href: "/booking-confirmation-and-reminder-setup-for-service-businesses" },
+    { label: "Booking confirmation and reminder ROI", href: "/booking-confirmation-and-reminder-roi-small-business" },
     { label: "Appointment scheduling and reminder cost", href: "/appointment-scheduling-and-reminder-cost-small-business" },
     { label: "Appointment scheduling and reminder setup", href: "/appointment-scheduling-and-reminder-setup-for-service-businesses" },
     { label: "No-show reduction cost for small business", href: "/no-show-reduction-cost-small-business" },

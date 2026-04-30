@@ -680,6 +680,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Booking Confirmation and Reminder ROI for Small Business",
+    description:
+      "Conservative payback guide for small businesses deciding whether the narrower booked-appointment protection layer is worth building. Covers recovered bookings, reduced no-shows, cleaner utilization, saved admin time, and where the ROI is strong versus weak.",
+    href: "/booking-confirmation-and-reminder-roi-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Phone Answering for Service Businesses",
     description:
       "24/7 AI phone answering — call handling, appointment booking, caller qualification, and CRM integration without adding staff.",

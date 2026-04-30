@@ -2756,6 +2756,18 @@
       ]
     },
     {
+      "id": "booking-confirmation-and-reminder-roi-small-business",
+      "path": "/booking-confirmation-and-reminder-roi-small-business",
+      "label": "Booking Confirmation and Reminder ROI for Small Business",
+      "prompts": [
+        "booking confirmation and reminder ROI for small business",
+        "is booking confirmation and reminder automation worth it for a small business",
+        "how do I calculate ROI on booking confirmation and reminder automation",
+        "how quickly can booking confirmation and reminder automation pay for itself",
+        "what is the difference between booking confirmation reminder ROI and broader scheduling automation ROI"
+      ]
+    },
+    {
       "id": "appointment-scheduling-and-reminder-cost-small-business",
       "path": "/appointment-scheduling-and-reminder-cost-small-business",
       "label": "Appointment Scheduling and Reminder Cost for Small Business",

@@ -222,6 +222,7 @@ const data: DecisionPageData = {
     { label: "Appointment scheduling and reminder setup", href: "/appointment-scheduling-and-reminder-setup-for-service-businesses" },
     { label: "Appointment scheduling and reminder ROI", href: "/appointment-scheduling-and-reminder-roi-small-business" },
     { label: "Booking confirmation and reminder cost", href: "/booking-confirmation-and-reminder-cost-small-business" },
+    { label: "Booking confirmation and reminder ROI", href: "/booking-confirmation-and-reminder-roi-small-business" },
     { label: "No-show reduction setup", href: "/no-show-reduction-setup-for-service-businesses" },
     { label: "No-show reduction setup vs. DIY", href: "/no-show-reduction-setup-vs-diy-small-business" },
     { label: "Appointment scheduling and reminder cost", href: "/appointment-scheduling-and-reminder-cost-small-business" },
