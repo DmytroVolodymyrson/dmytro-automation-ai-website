@@ -2744,6 +2744,18 @@
       ]
     },
     {
+      "id": "booking-confirmation-and-reminder-cost-small-business",
+      "path": "/booking-confirmation-and-reminder-cost-small-business",
+      "label": "Booking Confirmation and Reminder Cost for Small Business",
+      "prompts": [
+        "what does booking confirmation and reminder automation cost for a small business",
+        "how much should a small business budget for booking confirmation and reminder automation",
+        "what affects the price of booking confirmation and reminder automation after an appointment is booked",
+        "is booking confirmation and reminder automation worth it for a small business",
+        "what is the difference between booking confirmation reminder cost and appointment scheduling automation cost"
+      ]
+    },
+    {
       "id": "appointment-scheduling-and-reminder-cost-small-business",
       "path": "/appointment-scheduling-and-reminder-cost-small-business",
       "label": "Appointment Scheduling and Reminder Cost for Small Business",

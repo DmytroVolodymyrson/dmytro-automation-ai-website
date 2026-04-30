@@ -673,6 +673,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Booking Confirmation and Reminder Cost for Small Business",
+    description:
+      "Practical pricing guide for small businesses budgeting the booked-appointment protection layer. Covers confirmation triggers, reminder cadence, reschedule logic, waitlist handling, prep-step enforcement, CRM visibility, and where owners overspend.",
+    href: "/booking-confirmation-and-reminder-cost-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Phone Answering for Service Businesses",
     description:
       "24/7 AI phone answering — call handling, appointment booking, caller qualification, and CRM integration without adding staff.",
