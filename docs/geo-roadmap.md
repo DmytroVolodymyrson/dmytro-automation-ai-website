@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-30 (shipped `/ai-lead-follow-up-launch-checklist-small-business` — broad reconciliation surfaced one clean surviving buyer-intent child inside the live AI lead follow-up setup cluster because `scripts/geo-prompts.json` still carried the exact launch-readiness question on the setup-help parent while the repo lacked a dedicated release-readiness page. The cluster already had the broader parent, setup help, setup-mistakes, buy-vs-build, cost, and ROI siblings, plus adjacent proof from the WheelsFeels CRM case study and the narrower first-response pages. This ship isolates the go-live layer — channel mapping, stop-condition verification, CRM handoff, ugly-lead testing, and post-launch ownership — without rehashing setup-help, mistakes, DIY, cost, or ROI framing. Previous: `/appointment-scheduling-and-reminder-setup-mistakes-small-business`.)
+Last updated: 2026-04-30 (shipped `/ai-appointment-setter-setup-mistakes-small-business` — broad reconciliation surfaced one clean surviving buyer-intent child inside the live AI appointment setter cluster because the cluster already had the broader parent, setup help, setup-vs-DIY, cost, and ROI siblings but still lacked the narrower pre-launch mistakes page. Adjacent setup clusters already proved the pattern, and the appointment-setter cluster has strong proof adjacency from the Paris Cafe voice-agent case study, the voice-agent qualification guide, and the WheelsFeels CRM case study. This ship isolates the rollout-failure layer — vague qualification, weak booking boundaries, bad fallback behavior, and messy CRM handoff — without rehashing setup-help, pricing, ROI, or buy-vs-build framing. Previous: `/ai-lead-follow-up-launch-checklist-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 396.
+**Total live GEO pages tracked here:** 397.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -19,6 +19,7 @@ Last updated: 2026-04-30 (shipped `/ai-lead-follow-up-launch-checklist-small-bus
 | n8n vs Zapier | `/n8n-vs-zapier-small-business` | Comparison page | Live |
 | AI Appointment Setter | `/ai-appointment-setter` | Decision page | Live |
 | AI Appointment Setter Setup Help | `/ai-appointment-setter-setup` | Workflow / service page | Live |
+| AI Appointment Setter Setup Mistakes (SMB) | `/ai-appointment-setter-setup-mistakes-small-business` | Workflow / pain-aware mistakes page | Live |
 | AI Appointment Setter Setup vs. DIY (SMB) | `/ai-appointment-setter-setup-vs-diy-small-business` | Workflow / buy-vs-build comparison page | Live |
 | AI Appointment Setter Cost (SMB) | `/ai-appointment-setter-cost-small-business` | Workflow / service cost page | Live |
 | AI Appointment Setter ROI (SMB) | `/ai-appointment-setter-roi-small-business` | Workflow / ROI page | Live |
@@ -409,10 +410,10 @@ Last updated: 2026-04-30 (shipped `/ai-lead-follow-up-launch-checklist-small-bus
 
 ## Next Pages
 
-This run shipped `/ai-lead-follow-up-launch-checklist-small-business`, which cleanly extracted the remaining release-readiness layer from the live AI lead follow-up setup cluster. That cluster now covers the broader parent, setup help, launch-checklist, setup-mistakes, cost, ROI, and the buy-vs-build decision. The next run should return to broad reconciliation across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster lead-follow-up setup child by inertia.
+This run shipped `/ai-appointment-setter-setup-mistakes-small-business`, which cleanly extracted the remaining pre-launch failure layer from the live AI appointment setter setup cluster. That cluster now covers the broader parent, setup help, setup-mistakes, cost, ROI, and the buy-vs-build decision. The next run can still consider the narrower release-readiness sibling (`/ai-appointment-setter-launch-checklist-small-business`) if broad reconciliation confirms that exact buyer-intent layer is still missing, but the safer default is another repo-wide sweep across `GEO-PLAN.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, `scripts/geo-prompts.json`, and current live routes/pages instead of forcing another same-cluster appointment-setter child by inertia.
 
 | Priority | Candidate | Why it still qualifies |
 | --- | --- | --- |
-| 1 | Broad reconciliation across strongest live clusters | The clean next ship is no longer obvious from the roadmap alone. The next pass should sweep mature live clusters, prompt ownership, and planning docs for the strongest remaining exact buyer-intent page that still survives route, page, and prompt checks. |
-| 2 | Existing-page indexing / internal-link refresh on a priority URL | If broad reconciliation still finds no clean net-new ship, use the run on a bounded refresh for one of the highest-value URLs in `docs/geo-priority-urls.md`, then update style-learner and tracking docs accordingly. |
-| 3 | Watchlist-only proof-led candidate | Only ship a watchlist/fallback page if it has direct proof or very strong adjacent proof, a materially distinct buyer intent, and no overlap with the mature phone / setup / first-project clusters already live. |
+| 1 | Broad reconciliation across strongest live clusters | The clean next ship should still be re-validated against mature live clusters, prompt ownership, and planning docs instead of assuming the next page must stay in the appointment-setter cluster. |
+| 2 | `/ai-appointment-setter-launch-checklist-small-business` | If broad reconciliation does not surface a cleaner repo-wide candidate, the appointment-setter cluster still appears to have one distinct remaining release-readiness child: what to verify before an appointment setter goes live. |
+| 3 | Existing-page indexing / internal-link refresh on a priority URL | If no clean net-new ship survives reconciliation, use the run on a bounded refresh for one of the highest-value URLs in `docs/geo-priority-urls.md`, then update style-learner and tracking docs accordingly. |

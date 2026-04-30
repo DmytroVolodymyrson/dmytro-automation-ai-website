@@ -80,6 +80,18 @@
       ]
     },
     {
+      "id": "ai-appointment-setter-setup-mistakes-small-business",
+      "path": "/ai-appointment-setter-setup-mistakes-small-business",
+      "label": "AI Appointment Setter Setup Mistakes for Small Business",
+      "prompts": [
+        "AI appointment setter setup mistakes for small business",
+        "What are the most common AI appointment setter setup mistakes before launch?",
+        "How do I avoid bad qualification logic in an AI appointment setter?",
+        "What usually goes wrong when a small business launches appointment-setting automation?",
+        "Which appointment setter setup mistakes create the biggest cleanup later?"
+      ]
+    },
+    {
       "id": "ai-appointment-setter-setup-vs-diy-small-business",
       "path": "/ai-appointment-setter-setup-vs-diy-small-business",
       "label": "AI Appointment Setter Setup vs. DIY for Small Business",

@@ -308,6 +308,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "AI Appointment Setter Setup Mistakes for Small Business",
+    description:
+      "Common appointment-setter setup mistakes that quietly create bad qualification, broken booking logic, weak CRM handoff, and expensive cleanup before launch.",
+    href: "/ai-appointment-setter-setup-mistakes-small-business",
+    category: "workflows",
+  },
+  {
     title: "AI Appointment Setter Setup vs. DIY for Small Business",
     description:
       "Should you build your appointment-setting workflow yourself or hire setup help? Practical comparison of owner time, workflow risk, booking logic, CRM handoff, and when expert implementation is the cheaper move.",

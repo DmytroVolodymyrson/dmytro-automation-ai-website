@@ -197,6 +197,7 @@ const data: DecisionPageData = {
       links: [
         { label: "AI appointment setter guide", href: "/ai-appointment-setter" },
         { label: "AI appointment setter for home service businesses", href: "/ai-appointment-setter-for-home-service-businesses" },
+        { label: "AI appointment setter setup mistakes", href: "/ai-appointment-setter-setup-mistakes-small-business" },
         { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
         { label: "Book a strategy call", href: "/#booking" },
       ],
@@ -239,6 +240,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI appointment setter", href: "/ai-appointment-setter" },
     { label: "AI appointment setter for home service businesses", href: "/ai-appointment-setter-for-home-service-businesses" },
+    { label: "AI appointment setter setup mistakes", href: "/ai-appointment-setter-setup-mistakes-small-business" },
     { label: "GoHighLevel automation setup", href: "/gohighlevel-automation-setup" },
     { label: "n8n automation consultant", href: "/n8n-automation-consultant" },
   ],

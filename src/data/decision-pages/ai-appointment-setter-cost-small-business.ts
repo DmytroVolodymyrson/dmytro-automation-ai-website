@@ -224,6 +224,7 @@ const data: DecisionPageData = {
       links: [
         { label: "AI appointment setter", href: "/ai-appointment-setter" },
         { label: "AI appointment setter setup help", href: "/ai-appointment-setter-setup" },
+        { label: "AI appointment setter setup mistakes", href: "/ai-appointment-setter-setup-mistakes-small-business" },
         { label: "Appointment setter ROI", href: "/ai-appointment-setter-roi-small-business" },
         { label: "AI phone answering for service businesses", href: "/ai-phone-answering-for-service-businesses" },
         { label: "AI appointment setter for home service businesses", href: "/ai-appointment-setter-for-home-service-businesses" },
@@ -293,6 +294,7 @@ const data: DecisionPageData = {
   relatedLinks: [
     { label: "AI appointment setter", href: "/ai-appointment-setter" },
     { label: "Appointment setter setup help", href: "/ai-appointment-setter-setup" },
+    { label: "Appointment setter setup mistakes", href: "/ai-appointment-setter-setup-mistakes-small-business" },
     { label: "Appointment setter ROI", href: "/ai-appointment-setter-roi-small-business" },
     { label: "Setup vs. DIY", href: "/ai-appointment-setter-setup-vs-diy-small-business" },
     { label: "Appointment setter for home services", href: "/ai-appointment-setter-for-home-service-businesses" },
