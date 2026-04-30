@@ -2612,6 +2612,18 @@
       ]
     },
     {
+      "id": "estimate-follow-up-setup-mistakes-small-business",
+      "path": "/estimate-follow-up-setup-mistakes-small-business",
+      "label": "Estimate Follow-Up Setup Mistakes for Small Business",
+      "prompts": [
+        "What are the most common estimate follow-up setup mistakes for a small business?",
+        "How do I avoid estimate follow-up setup mistakes before launch?",
+        "Which estimate follow-up setup mistakes create the biggest cleanup later?",
+        "What setup mistakes make estimate follow-up feel unreliable after a site visit?",
+        "How should a small business catch estimate-stage trigger, routing, and stale-threshold mistakes before go-live?"
+      ]
+    },
+    {
       "id": "estimate-follow-up-setup-vs-diy-small-business",
       "path": "/estimate-follow-up-setup-vs-diy-small-business",
       "label": "Estimate Follow-Up Setup vs. DIY for Small Business",

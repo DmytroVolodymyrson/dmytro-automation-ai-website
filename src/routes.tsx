@@ -330,6 +330,7 @@ import ReviewRequestVsReferralRequestForServiceBusinesses from "./pages/ReviewRe
 import MissedCallTextBackForServiceBusinesses from "./pages/MissedCallTextBackForServiceBusinesses";
 import EstimateFollowUpAutomationForServiceBusinesses from "./pages/EstimateFollowUpAutomationForServiceBusinesses";
 import EstimateFollowUpSetupForServiceBusinesses from "./pages/EstimateFollowUpSetupForServiceBusinesses";
+import EstimateFollowUpSetupMistakesSmallBusiness from "./pages/EstimateFollowUpSetupMistakesSmallBusiness";
 import EstimateFollowUpSetupVsDiySmallBusiness from "./pages/EstimateFollowUpSetupVsDiySmallBusiness";
 import EstimateFollowUpCostSmallBusiness from "./pages/EstimateFollowUpCostSmallBusiness";
 import EstimateFollowUpRoiSmallBusiness from "./pages/EstimateFollowUpRoiSmallBusiness";
@@ -867,6 +868,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/missed-call-text-back-for-service-businesses", element: <MissedCallTextBackForServiceBusinesses /> },
   { path: "/estimate-follow-up-automation-for-service-businesses", element: <EstimateFollowUpAutomationForServiceBusinesses /> },
   { path: "/estimate-follow-up-setup-for-service-businesses", element: <EstimateFollowUpSetupForServiceBusinesses /> },
+  { path: "/estimate-follow-up-setup-mistakes-small-business", element: <EstimateFollowUpSetupMistakesSmallBusiness /> },
   { path: "/estimate-follow-up-setup-vs-diy-small-business", element: <EstimateFollowUpSetupVsDiySmallBusiness /> },
   { path: "/estimate-follow-up-cost-small-business", element: <EstimateFollowUpCostSmallBusiness /> },
   { path: "/estimate-follow-up-roi-small-business", element: <EstimateFollowUpRoiSmallBusiness /> },

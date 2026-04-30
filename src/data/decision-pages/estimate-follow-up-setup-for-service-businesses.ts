@@ -207,6 +207,7 @@ const data: DecisionPageData = {
     "No generic automation demo. Just a practical setup conversation tied to your estimate process, sales cycle, and current pipeline reality.",
   relatedLinks: [
     { label: "Estimate follow-up automation for service businesses", href: "/estimate-follow-up-automation-for-service-businesses" },
+    { label: "Estimate follow-up setup mistakes for small business", href: "/estimate-follow-up-setup-mistakes-small-business" },
     { label: "Estimate follow-up setup vs. DIY for small business", href: "/estimate-follow-up-setup-vs-diy-small-business" },
     { label: "Estimate follow-up cost for small business", href: "/estimate-follow-up-cost-small-business" },
     { label: "Estimate follow-up ROI for small business", href: "/estimate-follow-up-roi-small-business" },

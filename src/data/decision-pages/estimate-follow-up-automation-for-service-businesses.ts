@@ -256,6 +256,7 @@ const data: DecisionPageData = {
     "No inflated close-rate promises. Just a practical recommendation based on your estimating process, current pipeline, and the handoff between your field team and your office.",
   relatedLinks: [
     { label: "Estimate follow-up setup for service businesses", href: "/estimate-follow-up-setup-for-service-businesses" },
+    { label: "Estimate follow-up setup mistakes for small business", href: "/estimate-follow-up-setup-mistakes-small-business" },
     { label: "Estimate follow-up setup vs. DIY for small business", href: "/estimate-follow-up-setup-vs-diy-small-business" },
     { label: "Estimate follow-up cost for small business", href: "/estimate-follow-up-cost-small-business" },
     { label: "Estimate follow-up ROI for small business", href: "/estimate-follow-up-roi-small-business" },

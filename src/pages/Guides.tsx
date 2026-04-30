@@ -988,6 +988,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Estimate Follow-Up Setup Mistakes for Small Business",
+    description:
+      "Practical pre-launch mistakes guide for small businesses setting up estimate follow-up. Covers weak estimate-sent triggers, generic stale timing, revision-routing mistakes, ownership confusion, and CRM cleanup drift after launch.",
+    href: "/estimate-follow-up-setup-mistakes-small-business",
+    category: "workflows",
+  },
+  {
     title: "Estimate Follow-Up Setup vs. DIY for Small Business",
     description:
       "Should a small business DIY estimate follow-up setup or hire help? Practical buyer guide to owner time, estimator handoff, stale-estimate logic, workflow risk, and when expert setup is cheaper than more DIY drift.",
