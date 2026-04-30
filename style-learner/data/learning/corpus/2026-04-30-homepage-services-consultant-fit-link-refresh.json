@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-30-homepage-services-consultant-fit-link-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-30",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Section: Services intro paragraph\nAdded sentence:\nIf you already know you probably need expert help and want to evaluate fit and first-project scope before looking at pricing, start with our AI automation consultant guide for small business.\n\nPlacement notes:\n- Inserted immediately after the existing link to \"what an AI automation consultant actually does\"\n- Inserted immediately before the existing pricing sentence/link\n- Linked page: `/ai-automation-consultant-small-business`\n- Anchor text: `AI automation consultant guide for small business`",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded homepage indexing-support refresh, not a new page ship."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The copy uses buyer-language rather than SEO jargon: \"expert help,\" \"fit,\" and \"first-project scope\" reflect the real decision stage before pricing."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The sentence works as editorial routing, not navigation chrome. It reads like the next practical question after the role explainer and before the pricing page."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The goal is stronger in-copy homepage-origin crawl context for the still-discovered-not-indexed consultant guide."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The sequence matters: role understanding -> consultant-fit evaluation -> pricing."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-30T09:18:24.665Z",
+    "structure": {
+      "paragraphCount": 2,
+      "sentencesPerParagraph": [
+        1,
+        1
+      ],
+      "avgSentenceLength": 38,
+      "sentenceLengthRange": [
+        37,
+        39
+      ],
+      "totalWords": 76
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Section: Services intro paragraph\nAdded sentence:\nIf you already know you probably need expert help and want to evaluate fit and first-project scope before looking at pricing, start with our AI automation consultant guide for small business.",
+      "wordCount": 37,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "cta",
+      "text": "Placement notes:\n- Inserted immediately after the existing link to \"what an AI automation consultant actually does\"\n- Inserted immediately before the existing pricing sentence/link\n- Linked page: `/ai-automation-consultant-small-business`\n- Anchor text: `AI automation consultant guide for small business`",
+      "pattern": "cta"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "closer"
+      ],
+      "template": "opener | closer"
+    },
+    "punctuation": {
+      "periods": 1,
+      "commas": 1,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 4,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 5,
+      "commasPerSentence": 0.5
+    },
+    "vocabulary": {
+      "distinctWords": 54,
+      "totalWords": 76,
+      "topWords": [
+        [
+          "-",
+          4
+        ],
+        [
+          "ai",
+          3
+        ],
+        [
+          "automation",
+          3
+        ],
+        [
+          "consultant",
+          3
+        ],
+        [
+          "before",
+          2
+        ],
+        [
+          "pricing",
+          2
+        ],
+        [
+          "guide",
+          2
+        ],
+        [
+          "small",
+          2
+        ],
+        [
+          "business",
+          2
+        ],
+        [
+          "inserted",
+          2
+        ],
+        [
+          "immediately",
+          2
+        ],
+        [
+          "existing",
+          2
+        ],
+        [
+          "section",
+          1
+        ],
+        [
+          "services",
+          1
+        ],
+        [
+          "intro",
+          1
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

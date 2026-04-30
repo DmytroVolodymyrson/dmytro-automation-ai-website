@@ -60,6 +60,15 @@ const ServicesSection = () => {
             >
               what an AI automation consultant actually does
             </Link>
+            . If you already know you probably need expert help and want
+            to evaluate fit and first-project scope before looking at pricing,
+            start with our{" "}
+            <Link
+              to="/ai-automation-consultant-small-business"
+              className="text-accent underline underline-offset-2 hover:text-accent/80 transition-colors"
+            >
+              AI automation consultant guide for small business
+            </Link>
             . Once you understand the role, see{" "}
             <Link
               to="/ai-automation-consultant-pricing-small-business"
