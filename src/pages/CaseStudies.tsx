@@ -246,13 +246,13 @@ const CaseStudies = () => {
           <div className="mb-10 grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
             <div className="rounded-3xl border border-border/60 bg-card/70 p-6 md:p-8 shadow-card">
               <p className="text-sm font-semibold uppercase tracking-wide text-primary mb-3">
-                Connect proof to the priority pages
+                After the proof
               </p>
               <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-3">
-                Use these case studies to support the discovered-not-indexed hubs
+                Where to go once you've seen the results
               </h2>
               <p className="text-muted-foreground leading-relaxed max-w-3xl">
-                These proof assets now route directly into the pages Google has already discovered but still needs stronger context for: the consultant overview, the best-first-automation guide, the lead-follow-up workflow page, and the main guides hub.
+                If these examples made the value of automation feel real, the next step is choosing the right first workflow, deciding whether you need consultant help, and narrowing down the guide that fits your bottleneck. These case studies now route directly into the consultant overview, the best-first-automation guide, the lead-follow-up workflow page, and the full guides hub so the next read matches the question you still need answered.
               </p>
             </div>
 

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-30-case-studies-proof-router-cleanup",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-30",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Section label\nAfter the proof\n\n### Section heading\nWhere to go once you've seen the results\n\n### Section body\nIf these examples made the value of automation feel real, the next step is choosing the right first workflow, deciding whether you need consultant help, and narrowing down the guide that fits your bottleneck. These case studies now route directly into the consultant overview, the best-first-automation guide, the lead-follow-up workflow page, and the full guides hub so the next read matches the question you still need answered.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "This was a bounded cleanup on the `/case-studies` hub, not a structural rebuild."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The goal was to remove visible Search Console / indexing jargon from published page copy and replace it with buyer-facing next-step language."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The links stayed the same; only the framing changed from internal SEO strategy to human decision support."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and grounded: proof first, then workflow choice, consultant fit, and the right next guide."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The section now behaves like a natural post-proof router instead of leaking internal indexing logic into the rendered page."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-30T08:29:24.407Z",
+    "structure": {
+      "paragraphCount": 3,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        2
+      ],
+      "avgSentenceLength": 21,
+      "sentenceLengthRange": [
+        5,
+        36
+      ],
+      "totalWords": 84
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Section label\nAfter the proof",
+      "wordCount": 5,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "movement",
+      "text": "### Section body\nIf these examples made the value of automation feel real, the next step is choosing the right first workflow, deciding whether you need consultant help, and narrowing down the guide that fits your bottleneck. These case studies now route directly into the consultant overview, the best-first-automation guide, the lead-follow-up workflow page, and the full guides hub so the next read matches the question you still need answered.",
+      "pattern": "movement"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | closer"
+    },
+    "punctuation": {
+      "periods": 2,
+      "commas": 6,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 0,
+      "commasPerSentence": 3
+    },
+    "vocabulary": {
+      "distinctWords": 63,
+      "totalWords": 84,
+      "topWords": [
+        [
+          "section",
+          3
+        ],
+        [
+          "these",
+          2
+        ],
+        [
+          "next",
+          2
+        ],
+        [
+          "workflow",
+          2
+        ],
+        [
+          "need",
+          2
+        ],
+        [
+          "consultant",
+          2
+        ],
+        [
+          "guide",
+          2
+        ],
+        [
+          "label",
+          1
+        ],
+        [
+          "after",
+          1
+        ],
+        [
+          "proof",
+          1
+        ],
+        [
+          "heading",
+          1
+        ],
+        [
+          "where",
+          1
+        ],
+        [
+          "go",
+          1
+        ],
+        [
+          "once",
+          1
+        ],
+        [
+          "youve",
+          1
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.012
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}
