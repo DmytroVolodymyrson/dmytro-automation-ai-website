@@ -3104,6 +3104,18 @@
       ]
     },
     {
+      "id": "booking-confirmation-and-reminder-launch-checklist-small-business",
+      "path": "/booking-confirmation-and-reminder-launch-checklist-small-business",
+      "label": "Booking Confirmation and Reminder Launch Checklist for Small Business",
+      "prompts": [
+        "booking confirmation and reminder launch checklist for small business",
+        "what should be verified before launching booking confirmation and reminder automation",
+        "what should i test before turning on booking confirmation and reminder automation for a small business",
+        "how do i know if my booking confirmation and reminder workflow is ready to go live",
+        "when should a small business delay booking confirmation and reminder launch instead of forcing it live"
+      ]
+    },
+    {
       "id": "booking-confirmation-and-reminder-cost-small-business",
       "path": "/booking-confirmation-and-reminder-cost-small-business",
       "label": "Booking Confirmation and Reminder Cost for Small Business",

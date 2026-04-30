@@ -289,6 +289,7 @@ const BookingConfirmationAndReminder = lazy(() => import("./pages/BookingConfirm
 const BookingConfirmationAndReminderSetupForServiceBusinesses = lazy(() => import("./pages/BookingConfirmationAndReminderSetupForServiceBusinesses"));
 const BookingConfirmationAndReminderSetupMistakesSmallBusiness = lazy(() => import("./pages/BookingConfirmationAndReminderSetupMistakesSmallBusiness"));
 const BookingConfirmationAndReminderSetupVsDiySmallBusiness = lazy(() => import("./pages/BookingConfirmationAndReminderSetupVsDiySmallBusiness"));
+const BookingConfirmationAndReminderLaunchChecklistSmallBusiness = lazy(() => import("./pages/BookingConfirmationAndReminderLaunchChecklistSmallBusiness"));
 const BookingConfirmationAndReminderCostSmallBusiness = lazy(() => import("./pages/BookingConfirmationAndReminderCostSmallBusiness"));
 const BookingConfirmationAndReminderRoiSmallBusiness = lazy(() => import("./pages/BookingConfirmationAndReminderRoiSmallBusiness"));
 const AppointmentSchedulingAndReminderAutomationForServiceBusinesses = lazy(() => import("./pages/AppointmentSchedulingAndReminderAutomationForServiceBusinesses"));
@@ -830,6 +831,7 @@ const AppRoutesClient = () => (
       <Route path="/booking-confirmation-and-reminder-setup-for-service-businesses" element={<BookingConfirmationAndReminderSetupForServiceBusinesses />} />
       <Route path="/booking-confirmation-and-reminder-setup-mistakes-small-business" element={<BookingConfirmationAndReminderSetupMistakesSmallBusiness />} />
       <Route path="/booking-confirmation-and-reminder-setup-vs-diy-small-business" element={<BookingConfirmationAndReminderSetupVsDiySmallBusiness />} />
+      <Route path="/booking-confirmation-and-reminder-launch-checklist-small-business" element={<BookingConfirmationAndReminderLaunchChecklistSmallBusiness />} />
       <Route path="/booking-confirmation-and-reminder-cost-small-business" element={<BookingConfirmationAndReminderCostSmallBusiness />} />
       <Route path="/booking-confirmation-and-reminder-roi-small-business" element={<BookingConfirmationAndReminderRoiSmallBusiness />} />
       <Route path="/ai-phone-answering-for-service-businesses" element={<AiPhoneAnswering />} />

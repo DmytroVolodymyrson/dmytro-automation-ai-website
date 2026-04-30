@@ -274,6 +274,7 @@ const data: DecisionPageData = {
     { label: "Booking confirmation and reminder setup", href: "/booking-confirmation-and-reminder-setup-for-service-businesses" },
     { label: "Booking confirmation and reminder setup mistakes", href: "/booking-confirmation-and-reminder-setup-mistakes-small-business" },
     { label: "Booking confirmation and reminder setup vs. DIY", href: "/booking-confirmation-and-reminder-setup-vs-diy-small-business" },
+    { label: "Booking confirmation and reminder launch checklist", href: "/booking-confirmation-and-reminder-launch-checklist-small-business" },
     { label: "Booking confirmation and reminder cost", href: "/booking-confirmation-and-reminder-cost-small-business" },
     { label: "Appointment scheduling and reminder ROI", href: "/appointment-scheduling-and-reminder-roi-small-business" },
     { label: "No-show reduction ROI for small business", href: "/no-show-reduction-roi-small-business" },

@@ -288,6 +288,7 @@ import BookingConfirmationAndReminder from "./pages/BookingConfirmationAndRemind
 import BookingConfirmationAndReminderSetupForServiceBusinesses from "./pages/BookingConfirmationAndReminderSetupForServiceBusinesses";
 import BookingConfirmationAndReminderSetupMistakesSmallBusiness from "./pages/BookingConfirmationAndReminderSetupMistakesSmallBusiness";
 import BookingConfirmationAndReminderSetupVsDiySmallBusiness from "./pages/BookingConfirmationAndReminderSetupVsDiySmallBusiness";
+import BookingConfirmationAndReminderLaunchChecklistSmallBusiness from "./pages/BookingConfirmationAndReminderLaunchChecklistSmallBusiness";
 import BookingConfirmationAndReminderCostSmallBusiness from "./pages/BookingConfirmationAndReminderCostSmallBusiness";
 import BookingConfirmationAndReminderRoiSmallBusiness from "./pages/BookingConfirmationAndReminderRoiSmallBusiness";
 import AppointmentSchedulingAndReminderAutomationForServiceBusinesses from "./pages/AppointmentSchedulingAndReminderAutomationForServiceBusinesses";
@@ -906,6 +907,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/booking-confirmation-and-reminder-setup-for-service-businesses", element: <BookingConfirmationAndReminderSetupForServiceBusinesses /> },
   { path: "/booking-confirmation-and-reminder-setup-mistakes-small-business", element: <BookingConfirmationAndReminderSetupMistakesSmallBusiness /> },
   { path: "/booking-confirmation-and-reminder-setup-vs-diy-small-business", element: <BookingConfirmationAndReminderSetupVsDiySmallBusiness /> },
+  { path: "/booking-confirmation-and-reminder-launch-checklist-small-business", element: <BookingConfirmationAndReminderLaunchChecklistSmallBusiness /> },
   { path: "/booking-confirmation-and-reminder-cost-small-business", element: <BookingConfirmationAndReminderCostSmallBusiness /> },
   { path: "/booking-confirmation-and-reminder-roi-small-business", element: <BookingConfirmationAndReminderRoiSmallBusiness /> },
   { path: "/ai-phone-answering-for-service-businesses", element: <AiPhoneAnswering /> },

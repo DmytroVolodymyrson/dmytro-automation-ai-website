@@ -1,10 +1,10 @@
 # GEO Roadmap
 
-Last updated: 2026-04-30 (shipped `/estimate-follow-up-launch-checklist-small-business` — exact repo-state reconciliation across GEO planning docs, prompts, live routes, and discovery surfaces confirmed the estimate-follow-up cluster still had one clean pre-launch readiness layer left after the parent, setup-help, setup-mistakes, setup-vs-DIY, cost, ROI, and estimate-vs-quote comparison pages landed. The missing page was the release gate: estimate-sent trigger QA, stale-estimate timing checks, stop-rule validation, revision-routing tests, CRM visibility, and estimator-versus-office ownership review before real sent estimates start getting nudged. Proof adjacency stays honest from the live estimate-follow-up cluster plus contractor CRM setup pages and the published WheelsFeels CRM case study. Previous: `/client-reactivation-launch-checklist-small-business`.)
+Last updated: 2026-04-30 (shipped `/booking-confirmation-and-reminder-launch-checklist-small-business` — exact repo-state reconciliation across GEO planning docs, prompts, live routes, and discovery surfaces confirmed the booking-confirmation cluster still had one clean pre-launch readiness layer left after the parent, setup-help, setup-mistakes, setup-vs-DIY, cost, and ROI pages landed. The missing page was the release gate: confirmed-booking trigger QA, reminder-cadence checks, stop-rule validation, reschedule-path testing, reply-routing ownership, CRM visibility, and opened-slot recovery review before real booked appointments start getting nudged. Proof adjacency stays honest from the live booking-confirmation cluster, scheduling/setup siblings, and the published Paris Cafe case study. Previous: `/estimate-follow-up-launch-checklist-small-business`.)
 
 ## Live GEO Assets
 
-**Total live GEO pages tracked here:** 416.
+**Total live GEO pages tracked here:** 417.
 
 | Asset | URL | Type | Status |
 |-------|-----|------|--------|
@@ -421,6 +421,7 @@ Last updated: 2026-04-30 (shipped `/estimate-follow-up-launch-checklist-small-bu
 | Booking Confirmation & Reminder Setup (Service Businesses) | `/booking-confirmation-and-reminder-setup-for-service-businesses` | Workflow / setup-help page | Live |
 | Booking Confirmation & Reminder Setup Mistakes (SMB) | `/booking-confirmation-and-reminder-setup-mistakes-small-business` | Workflow / setup-mistakes page | Live |
 | Booking Confirmation & Reminder Setup vs. DIY (SMB) | `/booking-confirmation-and-reminder-setup-vs-diy-small-business` | Workflow / buy-vs-build page | Live |
+| Booking Confirmation & Reminder Launch Checklist (SMB) | `/booking-confirmation-and-reminder-launch-checklist-small-business` | Workflow / launch-readiness page | Live |
 | Booking Confirmation & Reminder Cost (SMB) | `/booking-confirmation-and-reminder-cost-small-business` | Workflow / cost page | Live |
 | Booking Confirmation & Reminder ROI (SMB) | `/booking-confirmation-and-reminder-roi-small-business` | Workflow / ROI page | Live |
 | Appointment Scheduling & Reminder Setup vs. DIY (SMB) | `/appointment-scheduling-and-reminder-setup-vs-diy-small-business` | Decision / buy-vs-build page | Live |
@@ -429,10 +430,10 @@ Last updated: 2026-04-30 (shipped `/estimate-follow-up-launch-checklist-small-bu
 
 ## Next Pages
 
-The estimate-follow-up cluster now has the parent, setup-help, setup-mistakes, setup-vs-DIY, launch-checklist, cost, ROI, and estimate-vs-quote comparison layers live. Do not force another adjacent estimate-follow-up child by inertia. The next run should restart from exact repo-state reconciliation across planning docs, live routes, prompts, and discovery surfaces before naming any same-cluster follow-up.
+The booking-confirmation cluster now has the parent, setup-help, setup-mistakes, setup-vs-DIY, launch-checklist, cost, and ROI layers live. Do not force another adjacent booking-confirmation child by inertia. The next run should restart from exact repo-state reconciliation across planning docs, live routes, prompts, and discovery surfaces before naming any same-cluster follow-up.
 
 | Priority | Candidate | Why it is next |
 | --- | --- | --- |
-| 1 | Broad reconciliation across `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, live routes, and `scripts/geo-prompts.json` | The queued estimate-follow-up launch-readiness layer is now live, so the next best page should come from a fresh repo-wide review instead of forcing more estimate-follow-up momentum. |
+| 1 | Broad reconciliation across `GEO-PLAN.md`, `docs/geo-plan-2026-03.md`, `docs/programmatic-seo-pattern-matrix.md`, `docs/geo-priority-urls.md`, live routes, and `scripts/geo-prompts.json` | The queued booking-confirmation launch-readiness layer is now live, so the next best page should come from a fresh repo-wide review instead of forcing more booking-confirmation momentum. |
 | 2 | Strongest remaining planned-but-unshipped distinct cluster/page surviving reconciliation | Prefer a high-intent page with exact cluster fit, honest proof adjacency, and clear internal-linking value rather than another thin nearby child. |
 | 3 | Priority-hub indexing refresh on the strongest discovered-not-indexed page | If no clean planned net-new page survives reconciliation, the best fallback remains a bounded improvement pass on one of the highest-priority indexing URLs listed in `docs/geo-priority-urls.md`. |

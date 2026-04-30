@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-04-30-booking-confirmation-and-reminder-launch-checklist-small-business",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-04-30",
+  "dayOfWeek": "thursday",
+  "published": {
+    "text": "### Hero\nHeading: Booking Confirmation and Reminder Launch Checklist for Small Business\nBody: Booking confirmations and reminders should not go live just because the text messages look polite and the calendar test fired once. Before a small business turns this workflow on, the operating layer under it has to be trustworthy: the confirmed-booking trigger actually means the appointment is real, reminder cadence matches the real lead time and appointment type, reschedules stop the old sequence instead of creating contradictory reminders, customer replies route to the right human quickly, and the team can see which booked visits are confirmed, shaky, cancelled, or newly opened for backfill. If those checks are still fuzzy, launch week usually teaches the wrong lesson. The workflow starts messaging the wrong appointments, the office loses trust, and no-show protection gets treated like another cleanup job instead of a reliability layer.\nSub: Below: the go-live checks that matter most, what to test before booking confirmations and reminders touch real appointments, when this page is the right one versus setup-help / setup-mistakes / cost / ROI / DIY pages, and what honest proof supports the release-readiness layer in this cluster.\n\n### Core sections\n- What should be verified before booking reminders go live\n- The pre-launch checks that matter most\n- When this page is useful — and when it is not\n- How to use a launch checklist without turning it into process theatre\n- How this page stays distinct from the other booking-confirmation pages\n- What proof honestly supports this page\n\n### FAQ\nSubhead: Practical questions from owners who are close to launching booking confirmations and reminders and want a safer first rollout instead of a cleanup project a few weeks later\nTopics: what should be verified before booking confirmation and reminder automation goes live, what to test before turning on a booking reminder workflow, how this differs from setup-help and setup-mistakes pages, and when to delay launch instead of forcing booking reminders live.\n\n### Final CTA\nHeading: Need a second opinion before booking reminders go live?\nBody: Book a 30-minute call. We will look at your confirmed-booking trigger, reminder cadence, stop rules, reschedule handling, reply routing, ownership, and visibility so you can decide whether the workflow is ready now, needs a narrower first release, or should wait until the launch risk is lower.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Shipped as the launch-checklist child inside the live booking-confirmation cluster."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Chosen because repo-state reconciliation plus a Claude Code audit showed the booking-confirmation cluster had the parent, setup-help, setup-mistakes, setup-vs-DIY, cost, and ROI pages live, but still lacked the exact launch-readiness layer."
+    },
+    {
+      "type": "tone_shift",
+      "description": "The page stays materially distinct from `/booking-confirmation-and-reminder-automation`, `/booking-confirmation-and-reminder-setup-for-service-businesses`, `/booking-confirmation-and-reminder-setup-mistakes-small-business`, `/booking-confirmation-and-reminder-setup-vs-diy-small-business`, `/booking-confirmation-and-reminder-cost-small-business`, and `/booking-confirmation-and-reminder-roi-small-business` by focusing only on release readiness before real booked appointments start getting nudged."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Proof framing stays honest: the live booking-confirmation cluster, scheduling/setup sibling pages, and the published Paris Cafe case study support the operating logic without pretending there is already a dedicated published case study for this exact launch-checklist question."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone stays practical and non-hype: concrete checks, fit / not-fit framing, and explicit emphasis on confirmed-booking trigger QA, reminder cadence, stop rules, reschedule handling, reply routing, visibility, and ugly-case testing over automation theatre."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-04-30T15:23:57.384Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        5,
+        1,
+        1,
+        3
+      ],
+      "avgSentenceLength": 37.8,
+      "sentenceLengthRange": [
+        5,
+        72
+      ],
+      "totalWords": 378
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: Booking Confirmation and Reminder Launch Checklist for Small Business\nBody: Booking confirmations and reminders should not go live just because the text messages look polite and the calendar test fired once.",
+      "wordCount": 33,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "question",
+      "text": "### Final CTA\nHeading: Need a second opinion before booking reminders go live?\nBody: Book a 30-minute call. We will look at your confirmed-booking trigger, reminder cadence, stop rules, reschedule handling, reply routing, ownership, and visibility so you can decide whether the workflow is ready now, needs a narrower first release, or should wait until the launch risk is lower.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 8,
+      "commas": 25,
+      "emDashes": 1,
+      "enDashes": 0,
+      "hyphens": 6,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 9,
+      "commasPerSentence": 2.78
+    },
+    "vocabulary": {
+      "distinctWords": 205,
+      "totalWords": 378,
+      "topWords": [
+        [
+          "booking",
+          9
+        ],
+        [
+          "reminders",
+          7
+        ],
+        [
+          "this",
+          7
+        ],
+        [
+          "before",
+          6
+        ],
+        [
+          "what",
+          6
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "reminder",
+          5
+        ],
+        [
+          "launch",
+          5
+        ],
+        [
+          "live",
+          5
+        ],
+        [
+          "should",
+          4
+        ],
+        [
+          "workflow",
+          4
+        ],
+        [
+          "instead",
+          4
+        ],
+        [
+          "when",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "confirmations",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right",
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.005
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 5,
+      "patterns": []
+    }
+  }
+}

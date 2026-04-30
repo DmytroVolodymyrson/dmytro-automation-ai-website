@@ -729,6 +729,13 @@ const guides: GuideItem[] = [
     category: "workflows",
   },
   {
+    title: "Booking Confirmation and Reminder Launch Checklist for Small Business",
+    description:
+      "Practical go-live checklist for small businesses before booking confirmations and reminders touch real appointments. Covers confirmed-booking triggers, reminder cadence, stop rules, reschedule handling, reply routing, CRM visibility, and no-show recovery logic.",
+    href: "/booking-confirmation-and-reminder-launch-checklist-small-business",
+    category: "workflows",
+  },
+  {
     title: "Booking Confirmation and Reminder Cost for Small Business",
     description:
       "Practical pricing guide for small businesses budgeting the booked-appointment protection layer. Covers confirmation triggers, reminder cadence, reschedule logic, waitlist handling, prep-step enforcement, CRM visibility, and where owners overspend.",

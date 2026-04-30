@@ -220,6 +220,7 @@ const data: DecisionPageData = {
     "No generic scheduling-tech pitch. Just a practical setup conversation about your booking triggers, reminder cadence, reschedule handling, and calendar-protection workflow.",
   relatedLinks: [
     { label: "Booking confirmation and reminder automation", href: "/booking-confirmation-and-reminder-automation" },
+    { label: "Booking confirmation and reminder launch checklist", href: "/booking-confirmation-and-reminder-launch-checklist-small-business" },
     { label: "Booking confirmation and reminder setup vs. DIY", href: "/booking-confirmation-and-reminder-setup-vs-diy-small-business" },
     { label: "Booking confirmation and reminder setup mistakes", href: "/booking-confirmation-and-reminder-setup-mistakes-small-business" },
     { label: "Appointment scheduling and reminder automation", href: "/appointment-scheduling-and-reminder-automation-for-service-businesses" },
