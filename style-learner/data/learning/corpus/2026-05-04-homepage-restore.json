@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-05-04-homepage-restore",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-05-04",
+  "dayOfWeek": "monday",
+  "published": {
+    "text": "### Hero\n\nAI Automation Expert\n\nAutomate boring work.\nFocus on growth.\n\nI help businesses save 10+ hours weekly and generate 300%+ ROI by building AI systems that automate repetitive work so you can focus on scaling.\n\nBook a Free Strategy Call\n\nSave 10+ hrs/week\nScale without hiring\n\n### Proof strip\n\nRecent work. Clear results.\n\nThree examples of what good automation changes.\n\n### Restaurant\n\n100% of after-hours calls answered\n\nA 24/7 voice agent now captures reservation demand that used to be missed.\n\n### Info Business\n\n50+ qualified leads/day\n\nManual Instagram prospecting was replaced by an automated pipeline at $0.29 per lead.\n\n### E-commerce\n\n3x follow-up capacity\n\nCRM automation organized 5,600+ leads without adding headcount.\n\n### About\n\nThe Person Behind the Automation\n\nI started coding at 16. Now I build AI systems that run businesses.\n\nI'm Dmytro. I grew up in Ukraine and wrote my first line of code at 16. After 7 years building software, I found my thing: using AI to automate the repetitive work that slows businesses down.\n\nEvery automation I build starts with one question: what's eating up your time? From there, I design systems that handle it, so you can spend your hours on the work that actually grows your business.\n\n7+ Years building software\n50+ Automations built\n$100K+ Saved for clients annually\n1000+ Hours Saved\n\n### Services\n\nWhat I Do\n\nI build AI-powered systems that free up hours every week by:\n\n- Automating repetitive tasks\n- Optimizing operations and workflows\n- Eliminating bottlenecks that slow business growth\n\nWhat This Looks Like\n\nAI-Powered Lead Generation — Automate lead capture and follow-ups to never miss an opportunity\n\nAI Chatbots & Voice Agents — Answer calls and messages instantly so you're always available to customers\n\nSocial Media Content Automation — Stay consistent online and grow your audience without daily effort\n\nDatabase Reactivation — Turn your old leads and past customers into booked appointments with no new ad spend\n\nAutomated Reporting — Track performance in real-time to make better decisions faster\n\nCustom Solutions — Tailored automation built specifically for your business needs\n\n### FAQ\n\nCommon Questions\n\nStraight answers about working with an AI automation consultant\n\nWhat kind of businesses do you work with?\n\nSmall businesses with 1-20 employees that have repetitive work eating up their time or money. That could be lead follow-up, client onboarding, reporting, scheduling, content, or anything else that runs on the same steps every time. I've worked with HVAC companies, restaurants, real estate agents, mortgage brokers, e-commerce brands, law firms, and more. If it's manual and repeatable, it can be automated.\n\nHow long does it take to build an AI automation system?\n\nMost builds go from first call to live in 1-3 weeks. A basic lead follow-up workflow is typically 5-7 days. A full AI voice agent with booking integration takes 2-3 weeks. Complex CRM builds with multiple integrations run 4-6 weeks. I scope everything on the discovery call so there are no surprises.\n\nWhat does AI automation cost for a small business?\n\nOne-time builds range from $1,500 to $8,000 depending on complexity. Monthly retainers start at $500/month. Most clients see ROI within 30 days. One recovered deal usually covers the cost of the entire build.\n\nWhat kind of ROI can I expect?\n\nMost clients break even within the first month. A restaurant I worked with went from missing every after-hours call to capturing 100% of them. One recovered reservation night paid for the whole build. An info business I built for went from manual lead searching to 50+ qualified leads per day at $0.29 each. On the discovery call I'll run the numbers with you based on your deal size and lead volume.\n\nDo I need a developer or technical team to use this?\n\nNo. I build the system, document how it works, and hand you a dashboard you can manage without touching code. When something needs updating, I handle it. You run your business. The automation runs in the background.\n\nWhat happens if something breaks after you build it?\n\nEvery build includes a 30-day support window. For ongoing maintenance, I offer monthly retainer plans that cover monitoring, fixes, and unlimited tweaks. I'm the one who built it, so when something breaks, I know exactly where to look.\n\n### Testimonials\n\nWhat Clients Are Saying\n\nDon't just take my word for it, hear from businesses that have transformed their operations\n\nAndrey Belke, Founder, WheelsFeels.com:\n\nWe were losing so many hot leads from our website because we couldn't follow up fast enough. Dmytro built us an AI-powered email system that sends personalized follow-ups automatically. Now every lead gets a tailored response within minutes, and our conversion rate has skyrocketed.\n\nMario, Owner, Paris Cafe NYC:\n\nDmytro built us an AI voice receptionist that handles reservations and inquiries perfectly, plus an outbound system that brings in new customers.\n\nJennifer Torres, Operations Manager, TechFlow Solutions:\n\nOur team was spending over 15 hours every week on manual data entry and report generation. Dmytro automated our entire workflow from client data processing to automated reports. The time savings have been incredible.\n\n### Booking\n\nLow-pressure first call\n\nBook a 30-minute strategy call\n\nA focused 30-minute conversation to look at where automation could save time, tighten follow-up, or remove repetitive work in your business.\n\nWhat this call is — A short working session where we look at your current workflow and identify the best place to automate first.\n\nWho it's for — Business owners with repeat admin work, missed follow-up, slow response times, or too many manual handoffs.\n\nWhat happens next — If there's a clear fit, I'll outline the best first move, rough scope, and next steps. If not, you'll still leave with a practical direction.\n\nNo hard sell. No vague AI buzzwords. Just a clear look at what is actually worth automating first.\n\nFind the bottleneck\nSee the best next move\nLeave with a plan",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Restored concise, direct homepage flow."
+    },
+    {
+      "type": "cut",
+      "description": "Removed added discovery/editorial/internal-link homepage copy that changed the approved presentation."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-05-04T17:01:18.395Z",
+    "structure": {
+      "paragraphCount": 68,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        4,
+        1,
+        5,
+        1,
+        4,
+        1,
+        5,
+        1,
+        5,
+        1,
+        3,
+        1,
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        3,
+        1
+      ],
+      "avgSentenceLength": 9.4,
+      "sentenceLengthRange": [
+        1,
+        25
+      ],
+      "totalWords": 953
+    },
+    "opener": {
+      "type": "short-punch",
+      "text": "### Hero",
+      "wordCount": 1,
+      "pattern": "short-punch"
+    },
+    "closer": {
+      "type": "movement",
+      "text": "Find the bottleneck\nSee the best next move\nLeave with a plan",
+      "pattern": "movement"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "result",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "result",
+        "product-pitch",
+        "context",
+        "context",
+        "context",
+        "context",
+        "result",
+        "context",
+        "context",
+        "context",
+        "context",
+        "result",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "product-pitch",
+        "context",
+        "result",
+        "result",
+        "result",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "result",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | result | context | context | context | context | context | context | result | product-pitch | context | context | context | context | result | context | context | context | context | result | context | context | context | context | context | context | context | context | context | context | context | context | context | context | context | context | context | context | context | product-pitch | context | result | result | result | context | context | context | context | context | context | context | context | result | context | context | context | context | context | context | context | context | context | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 59,
+      "commas": 44,
+      "emDashes": 9,
+      "enDashes": 0,
+      "hyphens": 3,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 7,
+      "colon": 6,
+      "commasPerSentence": 0.69
+    },
+    "vocabulary": {
+      "distinctWords": 458,
+      "totalWords": 953,
+      "topWords": [
+        [
+          "that",
+          16
+        ],
+        [
+          "with",
+          13
+        ],
+        [
+          "automation",
+          12
+        ],
+        [
+          "ai",
+          11
+        ],
+        [
+          "what",
+          11
+        ],
+        [
+          "your",
+          10
+        ],
+        [
+          "work",
+          9
+        ],
+        [
+          "business",
+          9
+        ],
+        [
+          "build",
+          9
+        ],
+        [
+          "call",
+          8
+        ],
+        [
+          "lead",
+          8
+        ],
+        [
+          "from",
+          8
+        ],
+        [
+          "it",
+          8
+        ],
+        [
+          "first",
+          7
+        ],
+        [
+          "every",
+          7
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 2,
+      "cuts": 1,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 1,
+      "patterns": [
+        "cuts-analysis-keeps-action",
+        "removes-unnecessary-detail"
+      ]
+    }
+  }
+}

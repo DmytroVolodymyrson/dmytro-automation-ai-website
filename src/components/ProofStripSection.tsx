@@ -20,32 +20,8 @@ const ProofStripSection = () => {
           <h2 className="font-display text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground tracking-tight mb-2">
             {proofStrip.heading}
           </h2>
-          <p className="text-sm sm:text-base text-muted-foreground mb-3">
+          <p className="text-sm sm:text-base text-muted-foreground">
             {proofStrip.subtitle}
-          </p>
-          <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-            Need the full proof library before you decide? Read the{" "}
-            <Link
-              to="/case-studies"
-              className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors"
-            >
-              complete case studies hub
-            </Link>{" "}
-            to compare all three documented builds. If the next question is whether the real leak is first-contact booking speed, after-hours calls, or calendar handoff, open the{" "}
-            <Link
-              to="/ai-appointment-setter"
-              className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors"
-            >
-              AI appointment setter guide
-            </Link>{" "}
-            before you commit to a heavier build. If the real problem is leads going cold after the first inquiry, start with the{" "}
-            <Link
-              to="/ai-lead-follow-up-for-service-businesses"
-              className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors"
-            >
-              AI lead follow-up guide for service businesses
-            </Link>{" "}
-            instead.
           </p>
         </div>
 

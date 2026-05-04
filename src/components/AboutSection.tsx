@@ -2,7 +2,6 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { useTrackSection } from "@/hooks/useTrackSection";
 import { siteConfig } from "@/config/siteConfig";
 import { Zap } from "lucide-react";
-import { Link } from "react-router-dom";
 
 const AboutSection = () => {
   const sectionRef = useTrackSection("about");
@@ -81,19 +80,6 @@ const AboutSection = () => {
                   {paragraph}
                 </p>
               ))}
-              <p className="text-muted-foreground text-base sm:text-lg leading-relaxed">
-                If you want the clearest path into the exact workflows worth
-                automating first, start with the{" "}
-                <Link
-                  to="/guides"
-                  className="text-primary hover:text-primary/80 underline underline-offset-2"
-                >
-                  full automation guides hub
-                </Link>
-                . It routes you into lead follow-up, scheduling, CRM cleanup,
-                pricing, proof, and consultant-fit pages without making you guess
-                which page to open first.
-              </p>
             </div>
           </div>
         </div>

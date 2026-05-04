@@ -7,7 +7,6 @@ import {
   Settings,
   CheckCircle2
 } from "lucide-react";
-import { Link } from "react-router-dom";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { useTrackSection } from "@/hooks/useTrackSection";
 import { siteConfig } from "@/config/siteConfig";
@@ -35,64 +34,7 @@ const ServicesSection = () => {
             {services.heading}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-            {services.subtitle} Not sure where to start? Read our guide to the{" "}
-            <Link
-              to="/best-ai-automation-for-service-businesses"
-              className="text-accent underline underline-offset-2 hover:text-accent/80 transition-colors"
-            >
-              top AI automations for service businesses
-            </Link>{" "}
-            to see which ones deliver the fastest ROI. If your main hesitation is
-            that you do not have a developer or IT person to run this, start with
-            the{" "}
-            <Link
-              to="/ai-automation-for-businesses-without-a-tech-team"
-              className="text-accent underline underline-offset-2 hover:text-accent/80 transition-colors"
-            >
-              AI automation without a tech team guide
-            </Link>{" "}
-            to see which workflows are safe first builds for owner-led teams. If
-            you are still trying to understand what expert help actually looks
-            like before comparing pricing or DIY, read{" "}
-            <Link
-              to="/what-does-an-ai-automation-consultant-do"
-              className="text-accent underline underline-offset-2 hover:text-accent/80 transition-colors"
-            >
-              what an AI automation consultant actually does
-            </Link>
-            . If you already know you probably need expert help and want
-            to evaluate fit and first-project scope before looking at pricing,
-            start with our{" "}
-            <Link
-              to="/ai-automation-consultant-small-business"
-              className="text-accent underline underline-offset-2 hover:text-accent/80 transition-colors"
-            >
-              AI automation consultant guide for small business
-            </Link>
-            . Once you understand the role, see{" "}
-            <Link
-              to="/ai-automation-consultant-pricing-small-business"
-              className="text-accent underline underline-offset-2 hover:text-accent/80 transition-colors"
-            >
-              what a first consultant-led workflow typically costs
-            </Link>{" "}
-            so you can compare quotes with realistic numbers. If you also need
-            the broader budget picture — build cost, tool fees, and support —
-            read{" "}
-            <Link
-              to="/ai-automation-cost-small-business"
-              className="text-accent underline underline-offset-2 hover:text-accent/80 transition-colors"
-            >
-              what AI automation actually costs for a small business
-            </Link>{" "}
-            before you commit to the wrong scope. And if you already know the workflow you want but still need to decide whether a lighter Zapier setup is enough or you need the control and lower long-run cost of n8n, read{" "}
-            <Link
-              to="/n8n-vs-zapier-small-business"
-              className="text-accent underline underline-offset-2 hover:text-accent/80 transition-colors"
-            >
-              n8n vs Zapier for small business
-            </Link>{" "}
-            before you lock in the stack.
+            {services.subtitle}
           </p>
         </div>
 
