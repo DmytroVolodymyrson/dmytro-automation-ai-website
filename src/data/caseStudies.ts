@@ -7,6 +7,14 @@ export type CaseStudySummary = {
 };
 
 export const caseStudies: CaseStudySummary[] = [
+{
+  slug: "facebook-marketplace-ai-lead-qualification",
+  title: "Facebook Marketplace AI Lead Qualification Workflow",
+  industry: "Heavy Equipment Sales",
+  description:
+    "Built an n8n workflow that enriches Facebook Marketplace equipment listings, classifies seller fit with AI, and sends review-ready leads back to Google Sheets.",
+  keyResult: "13+ hrs/week review time saved",
+},
   {
     slug: "instagram-lead-generation",
     title: "Automated Instagram Lead Generation System",
@@ -125,4 +133,40 @@ export const ecommerceCRMCaseStudy = {
     { label: "Response Time", value: "Instant", sub: "" },
     { label: "Conversion Rate Lift", value: "+185%", sub: "" },
   ],
+} as const;
+
+export const manuliftMarketplaceLeadQualificationCaseStudy = {
+  title: "Facebook Marketplace AI Lead Qualification Workflow",
+  subtitle:
+    "How a heavy-equipment sales team turned messy Marketplace listings into AI-classified, review-ready leads in Google Sheets",
+  industry: "Heavy Equipment Sales",
+  challenge: [
+    "Only about 10% of scraped Marketplace listings were useful enough for sales review, which meant the team had to filter through a lot of dealers, rentals, duplicates, and low-fit listings before finding real opportunities.",
+    "Each listing needed context before someone could decide whether it was worth pursuing: seller type, equipment details, likely fit, and whether the lead looked like a private seller or a commercial dealer.",
+    "The manual review process could work at low volume, but it made lead cost and review capacity hard to control as more Marketplace listings were scraped.",
+  ],
+  solution: [
+    "Built an n8n workflow that reads listing rows from Google Sheets, enriches the listing context through Apify/Facebook Marketplace scraping, and prepares each record for AI review.",
+    "Used GPT-4o-mini / AI qualification logic to classify each seller as private seller, dealer, rental, uncertain, or disqualified, with structured reasoning attached to the row.",
+    "Sent the qualified status and review notes back into Google Sheets so the sales team could focus on the leads most likely to be worth a human follow-up.",
+  ],
+  metrics: [
+    { label: "Cost Per Qualified Lead", value: "8¢" },
+    { label: "Manual Review Saved", value: "13+ hrs/week" },
+    { label: "Review Capacity", value: "3x" },
+  ],
+  metricBasis: [
+    "8¢ per qualified lead is modeled from $20/week estimated tool cost divided by 250 qualified leads/week.",
+    "13+ hours/week saved is modeled from 250 leads/week times the review-time reduction from 4.0 minutes to 0.8 minutes per lead.",
+    "3x review capacity is modeled from 250 AI-assisted leads/week versus 80 prior manually reviewed leads/week.",
+  ],
+  techStack: ["n8n", "Apify", "Facebook Marketplace scraping", "GPT-4o-mini", "Google Sheets"],
+  flow: ["Marketplace Listings", "Data Enrichment", "AI Seller Classification", "Review-Ready Lead Sheet"],
+  results: [
+    { label: "Estimated Cost", value: "8¢ / qualified lead", sub: "modeled from $20/week and 250 qualified leads" },
+    { label: "Estimated Time Saved", value: "13+ hrs/week", sub: "manual review reduced from 4.0 to 0.8 min/lead" },
+    { label: "Estimated Capacity", value: "3x", sub: "250 vs 80 leads reviewed per week" },
+  ],
+  outcomeNote:
+    "These are modeled portfolio metrics based on workflow assumptions, not audited client-reported production results. Replace with measured client data when available.",
 } as const;

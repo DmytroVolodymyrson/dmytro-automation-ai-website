@@ -31,6 +31,17 @@ const proofRoutes = [
     ],
   },
   {
+    caseStudy: "Marketplace lead qualification",
+    caseStudyHref: "/case-studies/facebook-marketplace-ai-lead-qualification",
+    summary:
+      "Strong proof for n8n lead enrichment, AI classification, and review-ready Google Sheets handoff when raw scraped leads need filtering before sales review.",
+    relatedPages: [
+      { label: "n8n automation consultant", href: "/n8n-automation-consultant" },
+      { label: "AI lead follow-up", href: "/ai-lead-follow-up-for-service-businesses" },
+      { label: "n8n automation examples", href: "/n8n-automation-examples-small-business" },
+    ],
+  },
+  {
     caseStudy: "Instagram lead generation",
     caseStudyHref: "/case-studies/instagram-lead-generation",
     summary:
@@ -57,7 +68,7 @@ const faqItems = [
   {
     question: "What do these case studies prove?",
     answer:
-      "They show three concrete categories of automation work Dmytro AI has already shipped: after-hours phone handling and booking flow, CRM cleanup plus lead follow-up, and qualification plus routing for inbound inquiries. If you want evidence before paying for a consultant or choosing a workflow, this is the proof layer.",
+      "They show three concrete categories of automation work Dmytro AI has already shipped: after-hours phone handling and booking flow, CRM cleanup plus lead follow-up, and qualification plus routing for inbound inquiries, and Marketplace listing enrichment plus AI seller classification. If you want evidence before paying for a consultant or choosing a workflow, this is the proof layer.",
   },
   {
     question: "Which case study should I read first for my business?",
@@ -93,7 +104,7 @@ const collectionPageSchema = {
   "@type": "CollectionPage",
   name: "AI Automation Case Studies for Small & Service Businesses",
   description:
-    "Three documented AI automation case studies for small and service businesses by Dmytro AI: a restaurant voice agent for after-hours booking, an e-commerce CRM that cut manual follow-up by 80%, and an Instagram lead-generation pipeline with automated qualification.",
+    "Four documented AI automation case studies for small and service businesses by Dmytro AI: a restaurant voice agent for after-hours booking, an e-commerce CRM that cut manual follow-up by 80%, an Instagram lead-generation pipeline with automated qualification, and a Facebook Marketplace lead-qualification workflow.",
   url: "https://www.dmytroai.com/case-studies",
   isPartOf: {
     "@type": "WebSite",
@@ -139,7 +150,7 @@ const CaseStudies = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>AI Automation Case Studies for Small & Service Businesses | Dmytro AI</title>
-        <meta name="description" content="Three documented AI automation case studies for small and service businesses: a restaurant voice agent for after-hours booking, an e-commerce CRM that cut manual follow-up by 80%, and an Instagram lead-generation pipeline. Each shows the problem, the system built, and the measurable result." />
+        <meta name="description" content="Four documented AI automation case studies for small and service businesses: a restaurant voice agent for after-hours booking, an e-commerce CRM that cut manual follow-up by 80%, and an Instagram lead-generation pipeline. Each shows the problem, the system built, and the measurable result." />
         <link rel="canonical" href="https://www.dmytroai.com/case-studies" />
         <meta property="og:title" content="AI Automation Case Studies for Small & Service Businesses" />
         <meta property="og:description" content="Documented AI automation builds for small and service businesses. Real systems, real problems, measurable outcomes." />
@@ -169,7 +180,7 @@ const CaseStudies = () => {
               Documented AI automation builds for small and service businesses — each with the problem, the system shipped, and the measurable outcome. Start here if you want proof before choosing a workflow, platform, or consultant.
             </p>
             <p className="text-base text-muted-foreground leading-relaxed">
-              Dmytro AI publishes three documented case studies: a <Link to="/case-studies/paris-cafe-voice-agent" className="text-primary hover:underline">restaurant voice-agent</Link> that handles after-hours calls and books tables automatically, an <Link to="/case-studies/ecommerce-crm-automation" className="text-primary hover:underline">e-commerce CRM automation</Link> that recovered stale leads and cut manual follow-up by 80%, and an <Link to="/case-studies/instagram-lead-generation" className="text-primary hover:underline">Instagram lead-generation pipeline</Link> that qualifies and routes inbound inquiries without human triage. Each includes the problem, the system built, and the measurable outcome. Use them to evaluate <Link to="/ai-automation-consultant-pricing-small-business" className="text-primary hover:underline">consultant pricing</Link>, <Link to="/ai-automation-cost-small-business" className="text-primary hover:underline">automation costs</Link>, <Link to="/what-does-an-ai-automation-consultant-do" className="text-primary hover:underline">what a consultant actually delivers</Link>, and which <Link to="/best-ai-automation-for-service-businesses" className="text-primary hover:underline">automation to build first</Link>. If you want the broader decision library around these proof assets, continue into the full <Link to="/guides" className="text-primary hover:underline">guides hub</Link>.
+              Dmytro AI publishes four documented case studies: a <Link to="/case-studies/paris-cafe-voice-agent" className="text-primary hover:underline">restaurant voice-agent</Link> that handles after-hours calls and books tables automatically, an <Link to="/case-studies/ecommerce-crm-automation" className="text-primary hover:underline">e-commerce CRM automation</Link> that recovered stale leads and cut manual follow-up by 80%, an <Link to="/case-studies/instagram-lead-generation" className="text-primary hover:underline">Instagram lead-generation pipeline</Link> that qualifies and routes inbound inquiries without human triage, and a <Link to="/case-studies/facebook-marketplace-ai-lead-qualification" className="text-primary hover:underline">Facebook Marketplace lead-qualification workflow</Link> that turns raw scraped listings into AI-classified sales-review rows. Each includes the problem, the system built, and the measurable outcome. Use them to evaluate <Link to="/ai-automation-consultant-pricing-small-business" className="text-primary hover:underline">consultant pricing</Link>, <Link to="/ai-automation-cost-small-business" className="text-primary hover:underline">automation costs</Link>, <Link to="/what-does-an-ai-automation-consultant-do" className="text-primary hover:underline">what a consultant actually delivers</Link>, and which <Link to="/best-ai-automation-for-service-businesses" className="text-primary hover:underline">automation to build first</Link>. If you want the broader decision library around these proof assets, continue into the full <Link to="/guides" className="text-primary hover:underline">guides hub</Link>.
             </p>
           </motion.div>
 
@@ -227,7 +238,7 @@ const CaseStudies = () => {
               Which case study should you read first?
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-5 max-w-3xl">
-              If you are deciding whether Dmytro's work is relevant to your business, start with the proof asset that matches your bottleneck: Paris Cafe for phone coverage and booking flow, the e-commerce CRM build for lead follow-up and reactivation, and Instagram lead generation for automated qualification and routing.
+              If you are deciding whether Dmytro's work is relevant to your business, start with the proof asset that matches your bottleneck: Paris Cafe for phone coverage and booking flow, the e-commerce CRM build for lead follow-up and reactivation, Instagram lead generation for automated qualification and routing, and Marketplace lead qualification for n8n scraping, enrichment, AI seller classification, and review-ready handoff.
             </p>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
               {relatedGuideLinks.map((item) => (

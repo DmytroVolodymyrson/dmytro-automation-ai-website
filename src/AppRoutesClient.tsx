@@ -8,6 +8,7 @@ const CaseStudies = lazy(() => import("./pages/CaseStudies"));
 const InstagramLeadGenerationCaseStudy = lazy(() => import("./pages/case-studies/InstagramLeadGenerationCaseStudy"));
 const ParisCafeVoiceAgentCaseStudy = lazy(() => import("./pages/case-studies/ParisCafeVoiceAgentCaseStudy"));
 const EcommerceCRMCaseStudy = lazy(() => import("./pages/case-studies/EcommerceCRMCaseStudy"));
+const FacebookMarketplaceLeadQualificationCaseStudy = lazy(() => import("./pages/case-studies/FacebookMarketplaceLeadQualificationCaseStudy"));
 const AiAutomationConsultantSmallBusiness = lazy(() => import("./pages/AiAutomationConsultantSmallBusiness"));
 const WhatDoesAnAiAutomationConsultantDo = lazy(() => import("./pages/WhatDoesAnAiAutomationConsultantDo"));
 const Guides = lazy(() => import("./pages/Guides"));
@@ -535,6 +536,7 @@ const AppRoutesClient = () => (
       <Route path="/case-studies/instagram-lead-generation" element={<InstagramLeadGenerationCaseStudy />} />
       <Route path="/case-studies/paris-cafe-voice-agent" element={<ParisCafeVoiceAgentCaseStudy />} />
       <Route path="/case-studies/ecommerce-crm-automation" element={<EcommerceCRMCaseStudy />} />
+      <Route path="/case-studies/facebook-marketplace-ai-lead-qualification" element={<FacebookMarketplaceLeadQualificationCaseStudy />} />
       <Route path="/ai-automation-consultant-small-business" element={<AiAutomationConsultantSmallBusiness />} />
       <Route path="/what-does-an-ai-automation-consultant-do" element={<WhatDoesAnAiAutomationConsultantDo />} />
       <Route path="/guides" element={<Guides />} />

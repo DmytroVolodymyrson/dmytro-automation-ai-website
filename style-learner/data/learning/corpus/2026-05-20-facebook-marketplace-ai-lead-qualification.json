@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-05-20-facebook-marketplace-ai-lead-qualification",
+  "platform": "case-study",
+  "language": "en",
+  "date": "2026-05-20",
+  "dayOfWeek": "wednesday",
+  "published": {
+    "text": "Title: Facebook Marketplace AI Lead Qualification Workflow\nSubtitle: How a heavy-equipment sales team turned messy Marketplace listings into AI-classified, review-ready leads in Google Sheets\n\nMetrics:\n- Cost Per Qualified Lead: 8¢\n- Manual Review Saved: 13+ hrs/week\n- Review Capacity: 3x\n\nChallenge:\n1. Only about 10% of scraped Marketplace listings were useful enough for sales review, which meant the team had to filter through a lot of dealers, rentals, duplicates, and low-fit listings before finding real opportunities.\n2. Each listing needed context before someone could decide whether it was worth pursuing: seller type, equipment details, likely fit, and whether the lead looked like a private seller or a commercial dealer.\n3. The manual review process could work at low volume, but it made lead cost and review capacity hard to control as more Marketplace listings were scraped.\n\nSolution:\n1. Built an n8n workflow that reads listing rows from Google Sheets, enriches the listing context through Apify/Facebook Marketplace scraping, and prepares each record for AI review.\n2. Used GPT-4o-mini / AI qualification logic to classify each seller as private seller, dealer, rental, uncertain, or disqualified, with structured reasoning attached to the row.\n3. Sent the qualified status and review notes back into Google Sheets so the sales team could focus on the leads most likely to be worth a human follow-up.\n\nHow It Works: Marketplace Listings → Data Enrichment → AI Seller Classification → Review-Ready Lead Sheet\n\nTech Stack: n8n, Apify, Facebook Marketplace scraping, GPT-4o-mini, Google Sheets\n\nResults: 8¢ / qualified lead, 13+ hours per week of manual review saved, 3x review capacity.\n\nCaveat: These are modeled portfolio metrics based on workflow assumptions, not audited client-reported production results. Replace with measured client data when available.",
+    "formatting": [
+      "bold:Title:"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Case-study copy stays practical and proof-driven: raw listings enter, n8n enriches, AI classifies, Sheets receives review-ready rows."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Metrics are visible, but the caveat is also visible because the numbers are modeled rather than client-audited."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Tone is direct and credible, with no fake certainty around production impact."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-05-21T05:26:24.718Z",
+    "structure": {
+      "paragraphCount": 8,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        6,
+        6,
+        1,
+        1,
+        1,
+        2
+      ],
+      "avgSentenceLength": 14.7,
+      "sentenceLengthRange": [
+        1,
+        34
+      ],
+      "totalWords": 279
+    },
+    "opener": {
+      "type": "general",
+      "text": "Title: Facebook Marketplace AI Lead Qualification Workflow\nSubtitle: How a heavy-equipment sales team turned messy Marketplace listings into AI-classified, review-ready leads in Google Sheets",
+      "wordCount": 24,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "Caveat: These are modeled portfolio metrics based on workflow assumptions, not audited client-reported production results. Replace with measured client data when available.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "result",
+        "result",
+        "context",
+        "context",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | result | result | context | context | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 15,
+      "commas": 23,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 3,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 13,
+      "commasPerSentence": 1.53
+    },
+    "vocabulary": {
+      "distinctWords": 164,
+      "totalWords": 279,
+      "topWords": [
+        [
+          "review",
+          9
+        ],
+        [
+          "marketplace",
+          7
+        ],
+        [
+          "lead",
+          6
+        ],
+        [
+          "listings",
+          5
+        ],
+        [
+          "seller",
+          5
+        ],
+        [
+          "ai",
+          4
+        ],
+        [
+          "google",
+          4
+        ],
+        [
+          "sheets",
+          4
+        ],
+        [
+          "workflow",
+          3
+        ],
+        [
+          "sales",
+          3
+        ],
+        [
+          "team",
+          3
+        ],
+        [
+          "-",
+          3
+        ],
+        [
+          "qualified",
+          3
+        ],
+        [
+          "manual",
+          3
+        ],
+        [
+          "capacity",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 3,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 3,
+      "patterns": []
+    }
+  }
+}

@@ -7,6 +7,7 @@ import CaseStudies from "./pages/CaseStudies";
 import InstagramLeadGenerationCaseStudy from "./pages/case-studies/InstagramLeadGenerationCaseStudy";
 import ParisCafeVoiceAgentCaseStudy from "./pages/case-studies/ParisCafeVoiceAgentCaseStudy";
 import EcommerceCRMCaseStudy from "./pages/case-studies/EcommerceCRMCaseStudy";
+import FacebookMarketplaceLeadQualificationCaseStudy from "./pages/case-studies/FacebookMarketplaceLeadQualificationCaseStudy";
 import AiAutomationConsultantSmallBusiness from "./pages/AiAutomationConsultantSmallBusiness";
 import WhatDoesAnAiAutomationConsultantDo from "./pages/WhatDoesAnAiAutomationConsultantDo";
 import Guides from "./pages/Guides";
@@ -538,6 +539,7 @@ export const appRoutes: AppRouteDefinition[] = [
   { path: "/case-studies/instagram-lead-generation", element: <InstagramLeadGenerationCaseStudy /> },
   { path: "/case-studies/paris-cafe-voice-agent", element: <ParisCafeVoiceAgentCaseStudy /> },
   { path: "/case-studies/ecommerce-crm-automation", element: <EcommerceCRMCaseStudy /> },
+  { path: "/case-studies/facebook-marketplace-ai-lead-qualification", element: <FacebookMarketplaceLeadQualificationCaseStudy /> },
   { path: "/ai-automation-consultant-small-business", element: <AiAutomationConsultantSmallBusiness /> },
   { path: "/what-does-an-ai-automation-consultant-do", element: <WhatDoesAnAiAutomationConsultantDo /> },
   { path: "/guides", element: <Guides /> },
