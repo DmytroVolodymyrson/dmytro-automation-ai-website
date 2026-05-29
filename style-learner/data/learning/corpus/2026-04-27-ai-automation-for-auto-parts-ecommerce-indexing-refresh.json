@@ -36,5 +36,140 @@
       "description": "No invented vertical-specific claims beyond the published WheelsFeels case study were added."
     }
   ],
-  "analysis": null
+  "analysis": {
+    "analyzedAt": "2026-05-04T17:01:18.224Z",
+    "structure": {
+      "paragraphCount": 6,
+      "sentencesPerParagraph": [
+        6,
+        2,
+        1,
+        1,
+        3,
+        2
+      ],
+      "avgSentenceLength": 27.8,
+      "sentenceLengthRange": [
+        8,
+        59
+      ],
+      "totalWords": 417
+    },
+    "opener": {
+      "type": "general",
+      "text": "### Hero\nHeading: AI Automation for Auto Parts E-Commerce\nBody: AI automation is usually worth it for an auto parts brand when one of four leaks is already expensive: mixed customer inquiries buried in one queue, fitment questions losing momentum because context is missing, quote conversations dying after pricing goes out, or old inquiry-stage leads sitting untouched in the CRM.",
+      "wordCount": 59,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Rest of page retained\n- What you can automate in an auto parts brand\n- Manual vs. automated auto parts operations\n- Good fit / not the right fit\n- Where the ROI usually comes from first\n- FAQ\n- Final CTA",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 13,
+      "commas": 12,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 39,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 14,
+      "commasPerSentence": 0.92
+    },
+    "vocabulary": {
+      "distinctWords": 232,
+      "totalWords": 417,
+      "topWords": [
+        [
+          "-",
+          39
+        ],
+        [
+          "auto",
+          8
+        ],
+        [
+          "parts",
+          8
+        ],
+        [
+          "proof",
+          6
+        ],
+        [
+          "section",
+          5
+        ],
+        [
+          "child",
+          5
+        ],
+        [
+          "brand",
+          4
+        ],
+        [
+          "wheelsfeels",
+          4
+        ],
+        [
+          "follow-up",
+          4
+        ],
+        [
+          "that",
+          4
+        ],
+        [
+          "page",
+          4
+        ],
+        [
+          "usually",
+          3
+        ],
+        [
+          "one",
+          3
+        ],
+        [
+          "fitment",
+          3
+        ],
+        [
+          "quote",
+          3
+        ]
+      ],
+      "casualMarkers": [
+        "right"
+      ],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0.002
+    },
+    "editSignals": {
+      "totalEdits": 5,
+      "cuts": 0,
+      "additions": 1,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
 }
