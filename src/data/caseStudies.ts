@@ -40,7 +40,7 @@ export const caseStudies: CaseStudySummary[] = [
   {
     slug: "ecommerce-crm-automation",
     title: "CRM & Lead Follow-Up Automation for WheelsFeels",
-    industry: "WheelsFeels",
+    industry: "Vehicle Accessories",
     workflowType: "Lead Follow-Up & CRM",
     description:
       "Built a complete CRM and automated follow-up system for WheelsFeels, a Houston workshop that makes vehicle-based camping and storage systems. 5,600+ leads organized, segmented, and enrolled in personalized email sequences.",
@@ -229,7 +229,7 @@ export const ecommerceCRMCaseStudy = {
   title: "CRM & Lead Follow-Up Automation for WheelsFeels",
   subtitle:
     "How WheelsFeels, a Houston-made vehicle camping systems brand, went from manually chasing 5,600 leads to automated follow-up for every serious inquiry",
-  industry: "WheelsFeels",
+  industry: "Vehicle Accessories",
   clientUrl: "https://wheelsfeels.com",
   challenge: [
     "WheelsFeels had accumulated over 5,600 leads across three years of operation. None of them had received systematic follow-up. Every inquiry that didn't convert immediately just sat in a spreadsheet.",

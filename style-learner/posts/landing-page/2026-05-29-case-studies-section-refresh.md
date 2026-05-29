@@ -12,7 +12,7 @@ Three builds. Three industries. Measurable outcomes.
 
 ### Homepage Case Study Cards (top 3)
 1. Marketing Agency: Challenge: Agency needed high-volume personalized videos for outreach without manual production costs scaling linearly. Solution: CRM-driven video generation pipeline with personalized scripts, automated processing, delivery links, and CRM writeback. Key Result: $9,000/month saved.
-2. WheelsFeels: Challenge: 5,600+ leads sitting in spreadsheets with no systematic follow-up. Solution: Built full Supabase CRM + n8n automated email sequences for all lead pools. Key Result: 3x team capacity.
+2. Vehicle Accessories: Challenge: 5,600+ leads sitting in spreadsheets with no systematic follow-up. Solution: Built full Supabase CRM + n8n automated email sequences for all lead pools. Key Result: 3x team capacity.
 3. Restaurant: Challenge: Missing reservations from after-hours calls and staff overwhelmed with phone bookings. Solution: Built 24/7 AI voice receptionist handling calls, managing reservations, and routing complex inquiries. Key Result: 15 hours/week saved.
 
 ### Homepage CTA
