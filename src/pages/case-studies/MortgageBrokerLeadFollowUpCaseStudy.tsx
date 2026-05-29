@@ -5,15 +5,14 @@ import {
   AlertTriangle,
   ArrowRight,
   CheckCircle2,
-  Wrench,
-  Phone,
+  ClipboardCheck,
   Zap,
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { parisCafeVoiceAgentCaseStudy as caseStudy } from "@/data/caseStudies";
+import { mortgageBrokerLeadFollowUpCaseStudy as caseStudy } from "@/data/caseStudies";
 
-const ParisCafeVoiceAgentCaseStudy = () => {
+const MortgageBrokerLeadFollowUpCaseStudy = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -21,22 +20,28 @@ const ParisCafeVoiceAgentCaseStudy = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>AI Voice Receptionist for NYC Restaurant — Case Study | Dmytro AI</title>
-        <meta name="description" content="How The Paris Cafe stopped losing after-hours reservations with a 24/7 AI voice agent. Results: 100% calls answered, 15 hrs/week freed, sub-60s web lead response." />
-        <link rel="canonical" href="https://www.dmytroai.com/case-studies/paris-cafe-voice-agent" />
-        <meta property="og:title" content="AI Voice Receptionist for NYC Restaurant — Case Study" />
-        <meta property="og:description" content="How The Paris Cafe stopped losing after-hours reservations with a 24/7 AI voice agent built by Dmytro Afanasiev." />
+        <title>Mortgage Broker Lead Follow-Up Automation Case Study | Dmytro AI</title>
+        <meta
+          name="description"
+          content="Mortgage broker automation case study covering speed-to-lead, stale borrower reactivation, document collection reminders, CRM visibility, and client-management follow-up."
+        />
+        <link rel="canonical" href="https://www.dmytroai.com/case-studies/mortgage-broker-lead-follow-up-automation" />
+        <meta property="og:title" content="Mortgage Broker Lead Follow-Up Automation Case Study" />
+        <meta
+          property="og:description"
+          content="A mortgage broker workflow for faster borrower response, stale lead reactivation, document collection, and cleaner client management."
+        />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://www.dmytroai.com/case-studies/paris-cafe-voice-agent" />
+        <meta property="og:url" content="https://www.dmytroai.com/case-studies/mortgage-broker-lead-follow-up-automation" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Article",
-          "headline": "24/7 AI Voice Receptionist for a NYC Restaurant",
-          "description": "How The Paris Cafe stopped losing after-hours reservations and freed up 15 hours of management time every week with an AI voice agent.",
+          "headline": caseStudy.title,
+          "description": caseStudy.subtitle,
           "author": { "@id": "https://www.dmytroai.com/#person" },
           "publisher": { "@id": "https://www.dmytroai.com/#business" },
-          "mainEntityOfPage": "https://www.dmytroai.com/case-studies/paris-cafe-voice-agent",
-          "keywords": ["AI voice agent", "restaurant automation", "after-hours calls", "n8n", "GoHighLevel"]
+          "mainEntityOfPage": "https://www.dmytroai.com/case-studies/mortgage-broker-lead-follow-up-automation",
+          "keywords": ["mortgage broker automation", "mortgage lead follow-up", "document collection automation", "CRM automation"]
         })}</script>
       </Helmet>
       <Navbar />
@@ -78,32 +83,6 @@ const ParisCafeVoiceAgentCaseStudy = () => {
                 </div>
               </div>
             ))}
-          </motion.section>
-
-          <motion.section
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.25 }}
-            transition={{ duration: 0.45 }}
-            className="rounded-2xl border border-border/60 bg-card p-6 md:p-8"
-          >
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
-                <Phone className="w-5 h-5 text-primary" />
-              </div>
-              <h2 className="font-display text-2xl md:text-3xl font-bold">Real Conversation Sample</h2>
-            </div>
-            <p className="text-muted-foreground mb-6 text-sm">
-              An actual call handled by the AI receptionist. The caller asked about hours, reservations, and a pet policy. The agent handled all three without any human involvement.
-            </p>
-            <audio
-              controls
-              className="w-full rounded-xl"
-              preload="metadata"
-            >
-              <source src="/audio/paris-cafe-demo-call.wav" type="audio/wav" />
-              Your browser does not support the audio element.
-            </audio>
           </motion.section>
 
           <section className="grid lg:grid-cols-2 gap-0 rounded-2xl overflow-hidden border border-border/60">
@@ -158,71 +137,70 @@ const ParisCafeVoiceAgentCaseStudy = () => {
             </motion.article>
           </section>
 
-
           <motion.section
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.25 }}
             transition={{ duration: 0.45 }}
-            className="rounded-2xl border border-border/60 bg-card p-6 md:p-8 space-y-8"
+            className="rounded-2xl border border-border/60 bg-card p-6 md:p-8 space-y-6"
           >
-            <div>
-              <h2 className="font-display text-2xl md:text-3xl font-bold mb-6">How It Works</h2>
-              <div className="flex flex-wrap items-center gap-3">
-                {caseStudy.flow.map((step, index) => (
-                  <div key={step} className="flex items-center gap-3">
-                    <div className="rounded-full border border-primary/20 bg-primary/10 px-4 py-2 text-sm font-semibold text-foreground">
-                      {step}
-                    </div>
-                    {index < caseStudy.flow.length - 1 ? (
-                      <ArrowRight className="w-4 h-4 text-muted-foreground" />
-                    ) : null}
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="border-t border-border/60 pt-8">
-              <h3 className="font-display text-xl md:text-2xl font-bold mb-4">Tech Stack</h3>
-              <div className="flex flex-wrap gap-3">
-                {caseStudy.techStack.map((tech) => (
-                  <div
-                    key={tech}
-                    className="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-4 py-2 text-sm font-medium text-foreground"
-                  >
-                    <Wrench className="w-4 h-4 text-accent" />
-                    {tech}
-                  </div>
-                ))}
-              </div>
-            </div>
-          </motion.section>
-
-          <motion.section
-            id="booking-widget"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.25 }}
-            transition={{ duration: 0.45 }}
-            className="space-y-6"
-          >
-            <h2 className="font-display text-3xl md:text-4xl font-bold text-center">
-              Want Results Like These?
-            </h2>
-            <p className="text-muted-foreground text-center max-w-2xl mx-auto">
-              Book a free strategy call to see how automation can transform your business
+            <h2 className="font-display text-2xl md:text-3xl font-bold">The End Result</h2>
+            <p className="text-muted-foreground leading-relaxed max-w-3xl">
+              The brokerage gets a cleaner client-management rhythm: new inquiries are answered faster, dormant borrowers are reactivated, missing documents are chased automatically, and brokers can see which files need human attention.
             </p>
-            <div className="bg-card px-6 pt-6 lg:pt-0 pb-6 rounded-2xl shadow-card border border-border/50 overflow-hidden">
-              <iframe
-                src="https://api.leadconnectorhq.com/widget/bookings/dmytro-automation"
-                className="lg:-mt-5"
-                style={{ width: "100%", border: "none", overflow: "hidden", minHeight: "700px" }}
-                loading="lazy"
-                scrolling="no"
-                id="dmytro-automation-booking-cs"
-                title="Book a Strategy Call"
-              />
+            <div className="grid gap-4 sm:grid-cols-3">
+              {caseStudy.results.map((result) => (
+                <div key={result.label} className="rounded-2xl border border-border/60 bg-background/70 p-5">
+                  <p className="text-xs uppercase tracking-wide text-muted-foreground mb-2">{result.label}</p>
+                  <p className="font-display text-xl font-bold text-foreground">{result.value}</p>
+                  {result.sub && <p className="text-sm text-muted-foreground mt-1">{result.sub}</p>}
+                </div>
+              ))}
             </div>
           </motion.section>
+
+          <section className="grid md:grid-cols-2 gap-6">
+            <div className="rounded-2xl border border-border/60 bg-card p-6 md:p-8">
+              <div className="flex items-center gap-3 mb-5">
+                <ClipboardCheck className="w-5 h-5 text-primary" />
+                <h2 className="font-display text-2xl font-bold">Workflow shipped</h2>
+              </div>
+              <div className="space-y-3">
+                {caseStudy.flow.map((step, i) => (
+                  <div key={step} className="flex items-center gap-3">
+                    <span className="w-7 h-7 rounded-full bg-primary/10 text-primary text-xs font-bold flex items-center justify-center shrink-0">
+                      {i + 1}
+                    </span>
+                    <span className="text-muted-foreground">{step}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="rounded-2xl border border-border/60 bg-card p-6 md:p-8">
+              <h2 className="font-display text-2xl font-bold mb-5">Tools and systems</h2>
+              <div className="flex flex-wrap gap-2">
+                {caseStudy.techStack.map((tool) => (
+                  <span key={tool} className="rounded-full border border-border/60 px-3 py-1 text-sm text-muted-foreground">
+                    {tool}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6 md:p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-5">
+            <div>
+              <h2 className="font-display text-2xl md:text-3xl font-bold mb-2">Want a mortgage workflow like this?</h2>
+              <p className="text-muted-foreground">Book a free strategy call and map the first automation that would remove the most manual follow-up from your brokerage.</p>
+            </div>
+            <a
+              href="/#book"
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 font-semibold text-primary-foreground hover:bg-primary/90 transition-colors"
+            >
+              Book a strategy call <ArrowRight className="w-4 h-4" />
+            </a>
+          </div>
         </div>
       </main>
 
@@ -231,4 +209,4 @@ const ParisCafeVoiceAgentCaseStudy = () => {
   );
 };
 
-export default ParisCafeVoiceAgentCaseStudy;
+export default MortgageBrokerLeadFollowUpCaseStudy;

@@ -40,14 +40,14 @@ export const caseStudies: CaseStudySummary[] = [
   {
     slug: "ecommerce-crm-automation",
     title: "CRM & Lead Follow-Up Automation for WheelsFeels",
-    industry: "Vehicle Accessories",
+    industry: "Vehicle Accessories e-commerce brand",
     workflowType: "Lead Follow-Up & CRM",
     description:
-      "Built a complete CRM and automated follow-up system for WheelsFeels, a Houston workshop that makes vehicle-based camping and storage systems. 5,600+ leads organized, segmented, and enrolled in personalized email sequences.",
+      "Helped WheelsFeels reactivate 5,600+ old leads, then automated client management and follow-ups so the team could handle 3x more sales capacity without manually chasing every inquiry.",
     challenge:
-      "5,600+ WheelsFeels leads sitting in spreadsheets with no systematic follow-up",
+      "5,600+ WheelsFeels leads sitting in spreadsheets with no systematic reactivation or client follow-up",
     solution:
-      "Built full Supabase CRM + n8n automated email sequences for all lead pools",
+      "Built full Supabase CRM, client-management workflows, and n8n automated follow-up sequences for all lead pools",
     keyResult: "3x team capacity",
     proofStatus: "verified",
     featured: true,
@@ -59,7 +59,7 @@ export const caseStudies: CaseStudySummary[] = [
     industry: "Restaurant",
     workflowType: "Phone & Appointment Handling",
     description:
-      "Deployed a VAPI-powered AI voice agent that answers every after-hours call, routes inquiries, and triggers instant follow-up. Freed up 15+ hours a week for management.",
+      "Deployed an AI voice receptionist that answers every after-hours call, routes inquiries, and triggers instant follow-up. Freed up 15+ hours a week for management.",
     challenge:
       "Missing reservations from after-hours calls and staff overwhelmed with phone bookings",
     solution:
@@ -68,6 +68,20 @@ export const caseStudies: CaseStudySummary[] = [
     proofStatus: "verified",
     featured: true,
     homepageRank: 3,
+  },
+  {
+    slug: "mortgage-broker-lead-follow-up-automation",
+    title: "Mortgage Broker Lead Follow-Up Automation",
+    industry: "Mortgage Broker",
+    workflowType: "Lead Follow-Up & CRM",
+    description:
+      "Built a mortgage broker workflow for faster lead response, stale borrower reactivation, document collection reminders, and cleaner client-management follow-up.",
+    challenge:
+      "Mortgage leads and half-finished applications were going cold because follow-up, document collection, and broker handoff depended on manual reminders",
+    solution:
+      "Automated speed-to-lead, incomplete-application reminders, document collection prompts, and CRM stage visibility for the brokerage",
+    keyResult: "Faster borrower follow-up",
+    proofStatus: "needs-confirmation",
   },
   {
     slug: "instagram-lead-generation",
@@ -206,7 +220,7 @@ export const parisCafeVoiceAgentCaseStudy = {
     "Routine phone calls (reservation confirmations, hours of operation, menu questions) were consuming roughly 15 hours of management time every week.",
   ],
   solution: [
-    "Built a 24/7 AI voice receptionist using VAPI that answers every inbound call with a natural, on-brand voice. It handles reservations, FAQs, and routes complex requests to the right person.",
+    "Built a 24/7 AI voice receptionist that answers every inbound call with a natural, on-brand voice. It handles reservations, FAQs, and routes complex requests to the right person.",
     "Connected the voice agent to n8n workflows that trigger instant follow-up for web leads. Every online inquiry now gets a response in under 60 seconds, day or night.",
     "Integrated with GoHighLevel CRM so every call and web inquiry is logged, tagged, and tracked automatically. The owner gets full visibility with zero manual data entry.",
 
@@ -216,7 +230,7 @@ export const parisCafeVoiceAgentCaseStudy = {
     { label: "Web Lead Response Time", value: "Hours → 60 seconds" },
     { label: "Manager Time Freed", value: "~15 hrs/week" },
   ],
-  techStack: ["VAPI", "n8n", "GoHighLevel CRM"],
+  techStack: ["AI voice receptionist", "n8n", "GoHighLevel CRM"],
   flow: ["Inbound Call", "AI Voice Agent", "Route & Respond", "Log to CRM"],
   results: [
     { label: "After-Hours Calls Answered", value: "0% → 100%", sub: "" },
@@ -228,31 +242,62 @@ export const parisCafeVoiceAgentCaseStudy = {
 export const ecommerceCRMCaseStudy = {
   title: "CRM & Lead Follow-Up Automation for WheelsFeels",
   subtitle:
-    "How WheelsFeels, a Houston-made vehicle camping systems brand, went from manually chasing 5,600 leads to automated follow-up for every serious inquiry",
-  industry: "Vehicle Accessories",
+    "How WheelsFeels, a Houston-made vehicle camping systems brand, reactivated 5,600+ old leads and automated client management, follow-ups, and sales handoff",
+  industry: "Vehicle Accessories e-commerce brand",
   clientUrl: "https://wheelsfeels.com",
   challenge: [
-    "WheelsFeels had accumulated over 5,600 leads across three years of operation. None of them had received systematic follow-up. Every inquiry that didn't convert immediately just sat in a spreadsheet.",
+    "WheelsFeels had accumulated over 5,600 leads across three years of operation. None of them had received systematic reactivation. Every inquiry that didn't convert immediately just sat in a spreadsheet.",
     "Their team was spending hours each week manually emailing leads one by one, and still only reaching a fraction of them. High-intent vehicle camping system inquiries were getting the same treatment as contacts from two years ago.",
     "There was no visibility into what was working. No tracking, no segmentation, no reporting. Just a growing pile of missed opportunities.",
   ],
   solution: [
-    "Built a Supabase CRM that centralized all 5,600+ leads and segmented them into three pools based on source, recency, and engagement history. Each pool gets a different follow-up sequence.",
-    "Deployed n8n workflows that automatically enroll new leads into personalized email sequences the moment they hit the CRM. Multi-account sending keeps deliverability high and daily volume manageable.",
-    "Connected the system to Slack so the sales team gets real-time alerts on high-intent leads, new replies, and daily send reports. No dashboard required.",
+    "Built a Supabase CRM that centralized all 5,600+ leads and segmented them into three pools based on source, recency, and engagement history. Each pool gets a different reactivation and follow-up sequence.",
+    "Deployed n8n workflows that automatically enroll old and new leads into personalized follow-up sequences the moment they hit the CRM. Multi-account sending keeps deliverability high and daily volume manageable.",
+    "Connected client-management alerts to Slack so the sales team gets real-time visibility into high-intent leads, new replies, and daily follow-up reports. No dashboard required.",
   ],
   metrics: [
-    { label: "Leads Organized & Enrolled", value: "5,600+" },
+    { label: "Leads Reactivated", value: "5,600+" },
     { label: "Follow-Up Response Time", value: "Hours → Instant" },
     { label: "Team Capacity Increase", value: "3x" },
   ],
   techStack: ["n8n", "Supabase", "GoHighLevel", "Slack", "Google Sheets"],
   flow: ["Lead Enters CRM", "Auto-Segment", "Personalized Email Sequence", "Team Alert on Reply"],
   results: [
-    { label: "Leads Systematically Followed Up", value: "100%", sub: "" },
+    { label: "Leads Reactivated", value: "5,600+", sub: "old inquiries moved into structured follow-up" },
     { label: "Response Time", value: "Instant", sub: "" },
     { label: "Conversion Rate Lift", value: "+185%", sub: "" },
   ],
+} as const;
+
+export const mortgageBrokerLeadFollowUpCaseStudy = {
+  title: "Mortgage Broker Lead Follow-Up Automation",
+  subtitle:
+    "How a mortgage brokerage can stop losing expensive borrower inquiries by automating speed-to-lead, stale lead reactivation, document reminders, and client-management follow-up",
+  industry: "Mortgage Broker",
+  challenge: [
+    "Mortgage leads are expensive and time-sensitive. When a new inquiry waits hours for a response, the borrower is often already talking to another broker.",
+    "Half-finished applications create hidden pipeline waste. Missing documents, unsigned forms, and unanswered questions pile up when every reminder depends on a broker remembering to send it.",
+    "The team needed cleaner client-management visibility, not just more notifications. Brokers needed to see which borrower needed a human call, which file needed a document, and which stale lead should be reactivated.",
+  ],
+  solution: [
+    "Built an automated lead follow-up workflow that responds to new inquiries quickly and routes serious borrowers into the right next step.",
+    "Added stale borrower reactivation and incomplete-application reminders so old opportunities and half-finished files do not quietly disappear.",
+    "Connected follow-up status, document reminders, and broker handoff into a cleaner CRM view so the team can manage clients without manually chasing every next step.",
+  ],
+  metrics: [
+    { label: "Lead Response", value: "Immediate" },
+    { label: "Client Follow-Up", value: "Automated" },
+    { label: "Broker Visibility", value: "Cleaner pipeline" },
+  ],
+  techStack: ["CRM automation", "n8n", "Email/SMS follow-up", "Document reminders", "Broker handoff workflows"],
+  flow: ["New borrower inquiry", "CRM stage update", "Automated follow-up", "Document reminder", "Broker handoff"],
+  results: [
+    { label: "Speed-to-Lead", value: "Faster", sub: "new borrowers get a quicker first response" },
+    { label: "Stale Lead Recovery", value: "Reactivated", sub: "old borrower opportunities move back into follow-up" },
+    { label: "Client Management", value: "Cleaner", sub: "brokers see which files need attention" },
+  ],
+  outcomeNote:
+    "This case study focuses on the workflow shipped and the operational outcome. Add audited brokerage metrics when available.",
 } as const;
 
 export const manuliftMarketplaceLeadQualificationCaseStudy = {

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-05-29-mortgage-broker-lead-follow-up-automation",
+  "platform": "case-study",
+  "language": "en",
+  "date": "2026-05-29",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Title\nMortgage Broker Lead Follow-Up Automation\n\n### Subtitle\nHow a mortgage brokerage can stop losing expensive borrower inquiries by automating speed-to-lead, stale lead reactivation, document reminders, and client-management follow-up\n\n### Case Study Summary Card\nIndustry: Mortgage Broker\nChallenge: Mortgage leads and half-finished applications were going cold because follow-up, document collection, and broker handoff depended on manual reminders.\nSolution: Automated speed-to-lead, incomplete-application reminders, document collection prompts, and CRM stage visibility for the brokerage.\nKey Result: Faster borrower follow-up.\n\n### Outcome\nThe brokerage gets a cleaner client-management rhythm: new inquiries are answered faster, dormant borrowers are reactivated, missing documents are chased automatically, and brokers can see which files need human attention.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [],
+  "analysis": null
+}

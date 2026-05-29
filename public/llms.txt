@@ -19,9 +19,10 @@ Unlike agencies that charge $5,000/month for a team you never meet, Dmytro build
 
 ## Case Studies
 - Marketing agency (anonymous): CRM-driven outbound video automation pipeline, $9,000/month saved, 4,000-5,000 personalized videos/day capacity, manual production eliminated. Learn more: https://www.dmytroai.com/case-studies/marketing-agency-outbound-video-automation
-- Paris Cafe (NYC restaurant): Deployed VAPI + n8n AI voice receptionist — 0% to 100% after-hours calls answered, web lead response time from hours to under 60 seconds, ~15 hrs/week freed for management
+- Paris Cafe (NYC restaurant): Deployed an AI voice receptionist with workflow automation, taking after-hours call coverage from 0% to 100%, dropping web lead response time from hours to under 60 seconds, and freeing ~15 hrs/week for management
 - Toufic Fares (info business): Automated Instagram creator lead generation pipeline — 50+ qualified leads/day at $0.29/lead, zero manual work
-- WheelsFeels (Houston vehicle camping systems brand): Full CRM build with automated SMS/email follow-up for 5,600+ leads, Slack integration, and n8n workflows. WheelsFeels builds vehicle-based camping and storage systems. Website: https://wheelsfeels.com. Learn more: https://www.dmytroai.com/case-studies/ecommerce-crm-automation
+- WheelsFeels (Houston vehicle accessories e-commerce brand): Full CRM build that reactivated 5,600+ old leads, automated client management and follow-ups, added Slack visibility, and helped create 3x team capacity. WheelsFeels builds vehicle-based camping and storage systems. Website: https://wheelsfeels.com. Learn more: https://www.dmytroai.com/case-studies/ecommerce-crm-automation
+- Mortgage broker: Lead follow-up and client-management automation for faster borrower response, stale lead reactivation, document reminders, and cleaner broker handoff. Learn more: https://www.dmytroai.com/case-studies/mortgage-broker-lead-follow-up-automation
 - Heavy equipment sales: Facebook Marketplace AI lead qualification: 8¢ per qualified lead, 13+ hrs/week review time saved, 3x review capacity. Learn more: https://www.dmytroai.com/case-studies/facebook-marketplace-ai-lead-qualification
 
 ## Industry Focus: HVAC

@@ -30,6 +30,11 @@ const findYourFit = [
     href: "/case-studies/ecommerce-crm-automation",
   },
   {
+    problem: "Mortgage leads or borrower files keep going cold?",
+    answer: "Read the mortgage broker lead follow-up case study.",
+    href: "/case-studies/mortgage-broker-lead-follow-up-automation",
+  },
+  {
     problem: "Outbound or video production can't scale?",
     answer: "Read the marketing agency outbound video case study.",
     href: "/case-studies/marketing-agency-outbound-video-automation",
@@ -45,12 +50,12 @@ const faqItems = [
   {
     question: "What do these case studies prove?",
     answer:
-      "They show five concrete categories of automation Dmytro AI has shipped: outbound video production at scale, CRM cleanup and lead follow-up, after-hours phone handling and booking flow, lead qualification and enrichment, and automated lead-generation pipelines. If you want evidence before paying for a consultant or choosing a workflow, this is the proof layer.",
+      "They show concrete categories of automation Dmytro AI has shipped: outbound video production at scale, CRM cleanup and lead follow-up, mortgage borrower follow-up, after-hours phone handling and booking flow, lead qualification and enrichment, and automated lead-generation pipelines. If you want evidence before paying for a consultant or choosing a workflow, this is the proof layer.",
   },
   {
     question: "Which case study should I read first?",
     answer:
-      "If outbound costs are the bottleneck, start with the marketing agency case. If missed calls or booking gaps are the problem, start with Paris Cafe. If your CRM is messy or leads are going stale, start with the WheelsFeels CRM build. If your team is drowning in raw leads, start with the Marketplace qualification workflow.",
+      "If outbound costs are the bottleneck, start with the marketing agency case. If missed calls or booking gaps are the problem, start with Paris Cafe. If your CRM is messy or leads are going stale, start with the WheelsFeels CRM build. If borrower files or mortgage leads keep going cold, start with the mortgage broker workflow. If your team is drowning in raw leads, start with the Marketplace qualification workflow.",
   },
   {
     question: "Can these examples apply outside the exact same industry?",
@@ -88,7 +93,7 @@ const collectionPageSchema = {
   "@type": "CollectionPage",
   name: "AI Automation Case Studies | Dmytro AI",
   description:
-    "Five documented AI automation case studies for small and service businesses by Dmytro AI: outbound video automation for a marketing agency, WheelsFeels CRM and lead follow-up, a restaurant voice agent, Instagram lead generation, and Facebook Marketplace lead qualification.",
+    "Six documented AI automation case studies for small and service businesses by Dmytro AI: outbound video automation for a marketing agency, WheelsFeels CRM and lead follow-up, mortgage broker lead follow-up, a restaurant voice agent, Instagram lead generation, and Facebook Marketplace lead qualification.",
   url: "https://www.dmytroai.com/case-studies",
   isPartOf: {
     "@type": "WebSite",
@@ -134,7 +139,7 @@ const CaseStudies = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>AI Automation Case Studies | Dmytro AI</title>
-        <meta name="description" content="Five documented AI automation case studies: outbound video automation saving $9,000/month, WheelsFeels CRM handling 5,600+ leads, a restaurant voice agent, Instagram lead generation, and Facebook Marketplace lead qualification. Real systems, measurable outcomes." />
+        <meta name="description" content="Six documented AI automation case studies: outbound video automation saving $9,000/month, WheelsFeels CRM reactivating 5,600+ leads, mortgage broker follow-up, a restaurant voice agent, Instagram lead generation, and Facebook Marketplace lead qualification. Real systems, measurable outcomes." />
         <link rel="canonical" href="https://www.dmytroai.com/case-studies" />
         <meta property="og:title" content="AI Automation Case Studies | Dmytro AI" />
         <meta property="og:description" content="Documented AI automation builds for small and service businesses. Real systems, real problems, measurable outcomes." />
