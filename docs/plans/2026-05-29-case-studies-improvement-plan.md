@@ -155,7 +155,7 @@ Hold Instagram and Facebook Marketplace for the library unless the goal is to em
 - Title: `AI Outbound Video Automation for a Marketing Agency`
 - Industry: `Marketing Agency`
 - Workflow type: `Outbound and personalized video`
-- Key result: `$9,000/month saved` only if verified, otherwise `Projected $9,000/month savings`
+- Key result: `$9,000/month saved` (Dmytro confirmed public wording)
 - Problem: agency needed high-volume personalized videos for outreach without manual production costs scaling linearly
 - System: CRM-driven video generation pipeline with personalized scripts/assets, automated processing, delivery links, and CRM writeback
 - Result: lower manual production cost, higher video output capacity, faster campaign launch
@@ -355,6 +355,6 @@ Hold Instagram and Facebook Marketplace for the library unless the goal is to em
 ## Recommended default answers if Dmytro wants speed
 
 - Keep the client anonymous.
-- Use “projected $9,000/month savings” until confirmed.
+- Use "$9,000/month saved" because Dmytro confirmed this public wording.
 - Mention personalized outbound video at the workflow level, not internal implementation details.
 - Primary CTA: book a call. Secondary CTA: view pricing/consultant overview.

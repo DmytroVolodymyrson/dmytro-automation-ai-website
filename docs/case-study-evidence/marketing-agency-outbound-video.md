@@ -1,14 +1,14 @@
 # Evidence Note: Marketing Agency Outbound Video Automation
 
 **Date:** 2026-05-29
-**Status:** Publishable with modeled-savings language
+**Status:** Publishable with $9,000/month saved language approved by Dmytro
 **Client anonymity:** Required. Referred to as "a marketing agency" only.
 
 ## Publishable claims
 
 | Claim | Value | Basis | Status |
 |-------|-------|-------|--------|
-| Monthly savings | $9,000/month | Modeled from workflow data: previous manual video production cost vs. automated pipeline cost | **Modeled** |
+| Monthly savings | $9,000/month | Replaced production workflow: previous manual video production cost vs. automated pipeline cost | **Verified for public wording** |
 | Video output capacity | 4,000-5,000 videos/day | Workflow design target from project notes | **Modeled** |
 | Workflow type | CRM-driven personalized outbound video generation | Confirmed from project scope | **Verified** |
 
@@ -17,7 +17,7 @@
 - A marketing agency needed high-volume personalized outbound videos without manual production costs scaling linearly.
 - Dmytro built a CRM-driven video generation pipeline: personalized scripts and assets, automated processing, delivery links, and CRM writeback.
 - The system replaced a manual production workflow with an automated pipeline capable of thousands of videos per day.
-- Projected savings: $9,000/month based on the difference between previous production costs and automated pipeline costs.
+- Savings: $9,000/month from replacing previous production costs with automated pipeline costs.
 - Personalized outbound video generation can be mentioned at the workflow level.
 
 ## What must NOT be published
@@ -29,7 +29,4 @@
 
 ## Recommended public wording
 
-Use "projected $9,000/month savings" throughout. Do not present as audited or client-confirmed until Dmytro approves stronger language.
-
-If the metric label needs a basis note, use:
-> Modeled from workflow cost data. Not yet confirmed as audited client-reported production savings.
+Use "$9,000/month saved" throughout. Dmytro explicitly corrected the public wording from projected savings to saved.

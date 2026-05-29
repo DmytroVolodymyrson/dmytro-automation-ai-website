@@ -40,15 +40,13 @@ Section: Bottom related links
 
 ### New case-study internal-link section
 Page: /case-studies/ecommerce-crm-automation
-- Adds a new section: “If you run an auto parts brand, start with these guides.”
+- Adds a new section: “If you run a product business with high-intent inquiries, start here.”
 - Includes clickable cards for:
-  - /ai-automation-for-auto-parts-ecommerce
-  - /what-to-automate-first-for-auto-parts-ecommerce
-  - /customer-inquiry-automation-for-auto-parts-ecommerce
-  - /fitment-inquiry-automation-for-auto-parts-ecommerce
-  - /quote-follow-up-automation-for-auto-parts-ecommerce
-  - /stale-lead-follow-up-for-auto-parts-ecommerce
-- Purpose: turn the strongest vertical proof page into a clean discovery path for the live auto-parts cluster.
+  - /ai-lead-follow-up-for-service-businesses
+  - /best-ai-automation-for-service-businesses
+  - /ai-automation-consultant-small-business
+  - /case-studies
+- Purpose: turn the WheelsFeels proof page into a clean discovery path for broader lead follow-up and CRM automation buyers.
 
 ### llm / llms summary refresh
 Section: Auto parts parent entry

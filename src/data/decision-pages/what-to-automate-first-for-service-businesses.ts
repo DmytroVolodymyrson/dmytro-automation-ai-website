@@ -354,7 +354,7 @@ const data: DecisionPageData = {
         {
           industry: "E-commerce / CRM and follow-up sequences",
           headline: "WheelsFeels: structured follow-up for 5,600+ leads",
-          body: "An auto parts brand automated CRM follow-up sequences for 5,600+ leads. Conversion rate increased by 185% through segmented, timed outreach. This is direct proof that follow-up sequences recover revenue that manual processes leave on the table.",
+          body: "WheelsFeels automated CRM follow-up sequences for 5,600+ leads. Conversion rate increased by 185% through segmented, timed outreach. This is direct proof that follow-up sequences recover revenue that manual processes leave on the table.",
           link: "/case-studies/ecommerce-crm-automation",
         },
       ],

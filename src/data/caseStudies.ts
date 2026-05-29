@@ -32,20 +32,20 @@ export const caseStudies: CaseStudySummary[] = [
       "Agency needed high-volume personalized videos for outreach without manual production costs scaling linearly",
     solution:
       "CRM-driven video generation pipeline with personalized scripts, automated processing, delivery links, and CRM writeback",
-    keyResult: "Projected $9,000/month savings",
-    proofStatus: "modeled",
+    keyResult: "$9,000/month saved",
+    proofStatus: "verified",
     featured: true,
     homepageRank: 1,
   },
   {
     slug: "ecommerce-crm-automation",
-    title: "Full CRM & Lead Follow-Up Automation for an Auto Parts Brand",
-    industry: "E-commerce",
+    title: "CRM & Lead Follow-Up Automation for WheelsFeels",
+    industry: "WheelsFeels",
     workflowType: "Lead Follow-Up & CRM",
     description:
-      "Built a complete CRM and automated follow-up system from scratch. 5,600+ leads organized, segmented, and enrolled in personalized email sequences. Zero manual work after setup.",
+      "Built a complete CRM and automated follow-up system for WheelsFeels, a Houston workshop that makes vehicle-based camping and storage systems. 5,600+ leads organized, segmented, and enrolled in personalized email sequences.",
     challenge:
-      "5,600+ leads sitting in spreadsheets with no systematic follow-up",
+      "5,600+ WheelsFeels leads sitting in spreadsheets with no systematic follow-up",
     solution:
       "Built full Supabase CRM + n8n automated email sequences for all lead pools",
     keyResult: "5,600+ leads organized, 3x capacity",
@@ -127,7 +127,7 @@ export const caseStudiesByWorkflow = caseStudies.reduce<
 export const marketingAgencyOutboundVideoCaseStudy = {
   title: "AI Outbound Video Automation for a Marketing Agency",
   subtitle:
-    "How a marketing agency replaced manual video production with a CRM-driven pipeline and cut projected outreach costs by $9,000/month",
+    "How a marketing agency replaced manual video production with a CRM-driven pipeline and saved $9,000/month",
   industry: "Marketing Agency",
   challenge: [
     "The agency relied on manual production for every personalized outbound video. Each campaign required scripting, recording, editing, and uploading individual assets for every prospect.",
@@ -140,24 +140,24 @@ export const marketingAgencyOutboundVideoCaseStudy = {
     "Designed the system for volume: the pipeline handles thousands of personalized videos per day, replacing what previously required a dedicated production team.",
   ],
   metrics: [
-    { label: "Projected Monthly Savings", value: "$9,000/mo" },
+    { label: "Monthly Savings", value: "$9,000/mo" },
     { label: "Pipeline Capacity", value: "4,000-5,000 videos/day" },
     { label: "Manual Production Work", value: "Eliminated" },
   ],
   metricBasis: [
-    "$9,000/month savings is modeled from the difference between previous manual production costs and automated pipeline operating costs.",
+    "$9,000/month saved by replacing manual production costs with the automated video pipeline.",
     "4,000-5,000 videos/day is the design-target capacity of the automated pipeline.",
     "Manual production elimination is confirmed for the standard outbound video workflow.",
   ],
   techStack: ["n8n", "CRM Integration", "AI Script Generation", "Video Processing Pipeline"],
   flow: ["CRM Prospect Data", "AI Script Generation", "Automated Video Assembly", "Delivery & CRM Writeback"],
   results: [
-    { label: "Projected Savings", value: "$9,000/mo", sub: "modeled from workflow cost data" },
+    { label: "Monthly Savings", value: "$9,000/mo", sub: "saved on production workflow" },
     { label: "Video Capacity", value: "4-5K/day", sub: "automated pipeline design target" },
     { label: "Manual Work", value: "Eliminated", sub: "for standard outbound video workflow" },
   ],
   outcomeNote:
-    "Savings are projected from workflow cost modeling, not audited client-reported production data. Client identity is kept anonymous.",
+    "Savings reflect the production workflow replaced by the automation. Client identity is kept anonymous.",
 } as const;
 
 export const instagramReelsScraperCaseStudy = {
@@ -226,13 +226,14 @@ export const parisCafeVoiceAgentCaseStudy = {
 } as const;
 
 export const ecommerceCRMCaseStudy = {
-  title: "Full CRM & Lead Follow-Up Automation for an Auto Parts Brand",
+  title: "CRM & Lead Follow-Up Automation for WheelsFeels",
   subtitle:
-    "How a US e-commerce brand went from manually chasing 5,600 leads to an automated system that follows up with every single one",
-  industry: "E-commerce",
+    "How WheelsFeels, a Houston-made vehicle camping systems brand, went from manually chasing 5,600 leads to automated follow-up for every serious inquiry",
+  industry: "WheelsFeels",
+  clientUrl: "https://wheelsfeels.com",
   challenge: [
-    "The business had accumulated over 5,600 leads across three years of operation. None of them had received systematic follow-up. Every inquiry that didn't convert immediately just sat in a spreadsheet.",
-    "Their team was spending hours each week manually emailing leads one by one, and still only reaching a fraction of them. High-intent leads from recent inquiries were getting the same treatment as contacts from two years ago.",
+    "WheelsFeels had accumulated over 5,600 leads across three years of operation. None of them had received systematic follow-up. Every inquiry that didn't convert immediately just sat in a spreadsheet.",
+    "Their team was spending hours each week manually emailing leads one by one, and still only reaching a fraction of them. High-intent vehicle camping system inquiries were getting the same treatment as contacts from two years ago.",
     "There was no visibility into what was working. No tracking, no segmentation, no reporting. Just a growing pile of missed opportunities.",
   ],
   solution: [

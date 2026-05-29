@@ -20,22 +20,22 @@ const EcommerceCRMCaseStudy = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>E-Commerce CRM & Lead Follow-Up Automation — Case Study | Dmytro AI</title>
-        <meta name="description" content="How a US auto parts brand went from 5,600 untouched leads to automated follow-up for every single one. 3x team capacity, instant response time, +185% conversion lift." />
+        <title>WheelsFeels CRM & Lead Follow-Up Automation | Case Study | Dmytro AI</title>
+        <meta name="description" content="How WheelsFeels went from 5,600 untouched leads to automated CRM follow-up for every serious inquiry. 3x team capacity, instant response time, organized lead pools." />
         <link rel="canonical" href="https://www.dmytroai.com/case-studies/ecommerce-crm-automation" />
-        <meta property="og:title" content="E-Commerce CRM & Lead Follow-Up Automation — Case Study" />
+        <meta property="og:title" content="WheelsFeels CRM & Lead Follow-Up Automation | Case Study" />
         <meta property="og:description" content="5,600+ leads organized and enrolled in automated email sequences. 3x team capacity without hiring." />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://www.dmytroai.com/case-studies/ecommerce-crm-automation" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Article",
-          "headline": "Full CRM & Lead Follow-Up Automation for an Auto Parts Brand",
-          "description": "How a US e-commerce brand went from manually chasing 5,600 leads to an automated system that follows up with every single one.",
+          "headline": "CRM & Lead Follow-Up Automation for WheelsFeels",
+          "description": "How WheelsFeels went from manually chasing 5,600 leads to an automated CRM system that follows up with every serious inquiry.",
           "author": { "@id": "https://www.dmytroai.com/#person" },
           "publisher": { "@id": "https://www.dmytroai.com/#business" },
           "mainEntityOfPage": "https://www.dmytroai.com/case-studies/ecommerce-crm-automation",
-          "keywords": ["CRM automation", "e-commerce", "n8n", "Supabase", "email sequences", "lead follow-up"]
+          "keywords": ["WheelsFeels", "CRM automation", "vehicle camping systems", "n8n", "Supabase", "email sequences", "lead follow-up"]
         })}</script>
       </Helmet>
       <Navbar />
@@ -58,6 +58,18 @@ const EcommerceCRMCaseStudy = () => {
               {caseStudy.subtitle}
             </p>
           </motion.section>
+
+          {caseStudy.clientUrl && (
+            <a
+              href={caseStudy.clientUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex w-fit items-center gap-2 rounded-full border border-primary/20 bg-card px-4 py-2 text-sm font-semibold text-primary hover:border-primary/40 hover:bg-primary/5 transition-colors"
+            >
+              Visit WheelsFeels
+              <ArrowRight className="w-4 h-4" />
+            </a>
+          )}
 
           <motion.section
             initial={{ opacity: 0, y: 20 }}
@@ -177,42 +189,32 @@ const EcommerceCRMCaseStudy = () => {
             className="rounded-2xl border border-border/60 bg-card p-6 md:p-8 space-y-5"
           >
             <div className="space-y-3 max-w-3xl">
-              <h2 className="font-display text-2xl md:text-3xl font-bold">If you run an auto parts brand, start with these guides</h2>
+              <h2 className="font-display text-2xl md:text-3xl font-bold">If you run a product business with high-intent inquiries, start here</h2>
               <p className="text-muted-foreground leading-relaxed">
-                This case study proves the vertical. These pages show how to apply the same CRM, fitment, inquiry-routing, and follow-up logic to the exact leak you are trying to fix first.
+                WheelsFeels sells vehicle-based camping and storage systems, but the pattern is broader: organize every serious inquiry, segment the lead pool, and trigger follow-up before good prospects go cold.
               </p>
             </div>
             <div className="grid gap-3 md:grid-cols-2">
               {[
                 {
-                  title: "AI automation for auto parts e-commerce",
-                  description: "Broad parent guide for CRM cleanup, fitment routing, quote recovery, support triage, and reactivation.",
-                  href: "/ai-automation-for-auto-parts-ecommerce",
+                  title: "AI lead follow-up for service businesses",
+                  description: "Use this if your team has serious inquiries going cold before anyone follows up.",
+                  href: "/ai-lead-follow-up-for-service-businesses",
                 },
                 {
-                  title: "What to automate first for auto parts e-commerce",
-                  description: "Use this if you need to choose between mixed inquiry routing, fitment intake, quote follow-up, and stale-lead recovery.",
-                  href: "/what-to-automate-first-for-auto-parts-ecommerce",
+                  title: "Best first automations for service businesses",
+                  description: "Compare CRM cleanup, follow-up, phone handling, qualification, and outbound workflows.",
+                  href: "/best-ai-automation-for-service-businesses",
                 },
                 {
-                  title: "Customer inquiry automation for auto parts e-commerce",
-                  description: "Best fit when product, fitment, quote, and support messages all land in one queue.",
-                  href: "/customer-inquiry-automation-for-auto-parts-ecommerce",
+                  title: "AI automation consultant for small business",
+                  description: "A practical guide to what an automation consultant should ship and how to evaluate fit.",
+                  href: "/ai-automation-consultant-small-business",
                 },
                 {
-                  title: "Fitment inquiry automation for auto parts e-commerce",
-                  description: "Best fit when compatibility questions are the real commercial bottleneck.",
-                  href: "/fitment-inquiry-automation-for-auto-parts-ecommerce",
-                },
-                {
-                  title: "Quote follow-up automation for auto parts e-commerce",
-                  description: "Best fit when pricing conversations go quiet after the quote is sent.",
-                  href: "/quote-follow-up-automation-for-auto-parts-ecommerce",
-                },
-                {
-                  title: "Stale lead follow-up for auto parts e-commerce",
-                  description: "Best fit when old fitment and quote leads are still recoverable but nobody is touching them consistently.",
-                  href: "/stale-lead-follow-up-for-auto-parts-ecommerce",
+                  title: "All automation case studies",
+                  description: "See the full proof library across CRM, follow-up, voice agents, and lead qualification.",
+                  href: "/case-studies",
                 },
               ].map((link) => (
                 <a

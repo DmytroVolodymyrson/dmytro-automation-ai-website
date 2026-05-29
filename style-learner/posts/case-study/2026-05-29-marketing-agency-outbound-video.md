@@ -8,10 +8,10 @@
 ## Final Published Text
 
 Title: AI Outbound Video Automation for a Marketing Agency
-Subtitle: How a marketing agency replaced manual video production with a CRM-driven pipeline and cut projected outreach costs by $9,000/month
+Subtitle: How a marketing agency replaced manual video production with a CRM-driven pipeline and saved $9,000/month on outreach production
 
 Metrics:
-- Projected Monthly Savings: $9,000/mo
+- Monthly Savings: $9,000/mo
 - Pipeline Capacity: 4,000-5,000 videos/day
 - Manual Production Work: Eliminated
 
@@ -30,8 +30,8 @@ How It Works: CRM Prospect Data -> AI Script Generation -> Automated Video Assem
 Tech Stack: n8n, CRM Integration, AI Script Generation, Video Processing Pipeline
 
 Metric Basis:
-- $9,000/month savings is modeled from the difference between previous manual production costs and automated pipeline operating costs.
+- $9,000/month saved by replacing the previous manual production workflow with automated pipeline operating costs.
 - 4,000-5,000 videos/day is the design-target capacity of the automated pipeline.
 - Manual production elimination is confirmed for the standard outbound video workflow.
 
-Outcome Note: Savings are projected from workflow cost modeling, not audited client-reported production data. Client identity is kept anonymous.
+Outcome Note: Savings are from the production workflow replaced by automation. Client identity is kept anonymous.

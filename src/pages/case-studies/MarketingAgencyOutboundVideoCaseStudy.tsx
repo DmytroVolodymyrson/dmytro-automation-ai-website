@@ -23,17 +23,17 @@ const MarketingAgencyOutboundVideoCaseStudy = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>AI Outbound Video Automation for a Marketing Agency | Case Study | Dmytro AI</title>
-        <meta name="description" content="How a marketing agency replaced manual video production with a CRM-driven pipeline, projected $9,000/month savings and capacity for thousands of personalized outbound videos per day." />
+        <meta name="description" content="How a marketing agency replaced manual video production with a CRM-driven pipeline, $9,000/month saved and capacity for thousands of personalized outbound videos per day." />
         <link rel="canonical" href="https://www.dmytroai.com/case-studies/marketing-agency-outbound-video-automation" />
         <meta property="og:title" content="AI Outbound Video Automation for a Marketing Agency | Case Study" />
-        <meta property="og:description" content="CRM-driven personalized video pipeline. Projected $9,000/month savings. 4,000-5,000 videos/day capacity." />
+        <meta property="og:description" content="CRM-driven personalized video pipeline. $9,000/month saved. 4,000-5,000 videos/day capacity." />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://www.dmytroai.com/case-studies/marketing-agency-outbound-video-automation" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Article",
           "headline": "AI Outbound Video Automation for a Marketing Agency",
-          "description": "How a marketing agency replaced manual video production with a CRM-driven pipeline and cut projected outreach costs by $9,000/month.",
+          "description": "How a marketing agency replaced manual video production with a CRM-driven pipeline and saved $9,000/month on outreach production.",
           "author": { "@id": "https://www.dmytroai.com/#person" },
           "publisher": { "@id": "https://www.dmytroai.com/#business" },
           "mainEntityOfPage": "https://www.dmytroai.com/case-studies/marketing-agency-outbound-video-automation",

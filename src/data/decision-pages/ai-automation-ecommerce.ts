@@ -136,7 +136,7 @@ const data: DecisionPageData = {
         {
           industry: "E-Commerce",
           headline: "5,600+ leads organized and followed up automatically",
-          body: "For a US auto parts brand, Dmytro built a full CRM and follow-up system that segmented thousands of contacts, triggered personalized sequences, and increased team capacity 3x without adding headcount. That is direct proof for e-commerce CRM and lifecycle automation.",
+          body: "For WheelsFeels, Dmytro built a full CRM and follow-up system that segmented thousands of contacts, triggered personalized sequences, and increased team capacity 3x without adding headcount. That is direct proof for e-commerce CRM and lifecycle automation.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

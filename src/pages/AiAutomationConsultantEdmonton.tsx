@@ -421,7 +421,7 @@ const AiAutomationConsultantEdmonton = () => {
               {
                 industry: "E-Commerce",
                 headline: "5,600 leads organized and automated",
-                body: "A US auto parts brand had thousands of untouched leads. We built automated follow-up sequences, tripled team capacity without hiring, and lifted conversions 185%.",
+                body: "WheelsFeels, a Houston vehicle camping systems brand, had thousands of untouched leads. We built automated follow-up sequences, tripled team capacity without hiring, and lifted conversions 185%.",
                 link: "/case-studies/ecommerce-crm-automation",
               },
             ].map((cs, i) => (

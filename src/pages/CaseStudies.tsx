@@ -13,9 +13,9 @@ import {
 } from "@/data/caseStudies";
 
 const heroMetrics = [
-  { value: "$9,000/mo", label: "Projected savings", note: "modeled" },
-  { value: "5,600+", label: "Leads organized" },
-  { value: "15 hrs/week", label: "Management time freed" },
+  { value: "$9,000/mo", label: "Saved on production", note: "" },
+  { value: "5,600+", label: "Leads organized", note: "" },
+  { value: "15 hrs/week", label: "Management time freed", note: "" },
 ];
 
 const findYourFit = [
@@ -26,7 +26,7 @@ const findYourFit = [
   },
   {
     problem: "CRM is messy or leads are going stale?",
-    answer: "Read the e-commerce CRM automation case study.",
+    answer: "Read the WheelsFeels CRM automation case study.",
     href: "/case-studies/ecommerce-crm-automation",
   },
   {
@@ -50,17 +50,17 @@ const faqItems = [
   {
     question: "Which case study should I read first?",
     answer:
-      "If outbound costs are the bottleneck, start with the marketing agency case. If missed calls or booking gaps are the problem, start with Paris Cafe. If your CRM is messy or leads are going stale, start with the e-commerce CRM build. If your team is drowning in raw leads, start with the Marketplace qualification workflow.",
+      "If outbound costs are the bottleneck, start with the marketing agency case. If missed calls or booking gaps are the problem, start with Paris Cafe. If your CRM is messy or leads are going stale, start with the WheelsFeels CRM build. If your team is drowning in raw leads, start with the Marketplace qualification workflow.",
   },
   {
     question: "Can these examples apply outside the exact same industry?",
     answer:
-      "Yes. The value is in the workflow pattern, not the industry label. A restaurant phone-coverage case study helps any service business thinking about AI appointment setting. An e-commerce CRM cleanup applies to any business evaluating lead follow-up and reactivation systems.",
+      "Yes. The value is in the workflow pattern, not the industry label. A restaurant phone-coverage case study helps any service business thinking about AI appointment setting. The WheelsFeels CRM cleanup applies to any business evaluating lead follow-up and reactivation systems.",
   },
   {
-    question: "Some metrics say 'modeled' - what does that mean?",
+    question: "Why do some case studies include evidence notes?",
     answer:
-      "Modeled means the number is calculated from workflow data and cost assumptions, not from an audited client-confirmed report. We label these clearly so you know the basis of every claim.",
+      "Because proof should be clear. Some results are live client outcomes, some are workflow savings, and some are capacity targets. The case study should tell you which is which instead of hiding the basis of the number.",
   },
 ];
 
@@ -88,7 +88,7 @@ const collectionPageSchema = {
   "@type": "CollectionPage",
   name: "AI Automation Case Studies | Dmytro AI",
   description:
-    "Five documented AI automation case studies for small and service businesses by Dmytro AI: outbound video automation for a marketing agency, e-commerce CRM and lead follow-up, a restaurant voice agent, Instagram lead generation, and Facebook Marketplace lead qualification.",
+    "Five documented AI automation case studies for small and service businesses by Dmytro AI: outbound video automation for a marketing agency, WheelsFeels CRM and lead follow-up, a restaurant voice agent, Instagram lead generation, and Facebook Marketplace lead qualification.",
   url: "https://www.dmytroai.com/case-studies",
   isPartOf: {
     "@type": "WebSite",
@@ -134,7 +134,7 @@ const CaseStudies = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>AI Automation Case Studies | Dmytro AI</title>
-        <meta name="description" content="Five documented AI automation case studies: outbound video automation saving $9,000/month, e-commerce CRM handling 5,600+ leads, a restaurant voice agent, Instagram lead generation, and Facebook Marketplace lead qualification. Real systems, measurable outcomes." />
+        <meta name="description" content="Five documented AI automation case studies: outbound video automation saving $9,000/month, WheelsFeels CRM handling 5,600+ leads, a restaurant voice agent, Instagram lead generation, and Facebook Marketplace lead qualification. Real systems, measurable outcomes." />
         <link rel="canonical" href="https://www.dmytroai.com/case-studies" />
         <meta property="og:title" content="AI Automation Case Studies | Dmytro AI" />
         <meta property="og:description" content="Documented AI automation builds for small and service businesses. Real systems, real problems, measurable outcomes." />
@@ -236,7 +236,9 @@ const CaseStudies = () => {
 
           {/* Case studies grouped by workflow type */}
           {workflowTypeOrder.map((type) => {
-            const studies = caseStudiesByWorkflow[type];
+            const studies = caseStudiesByWorkflow[type].filter(
+              (cs) => cs.slug !== featuredCaseStudies[0]?.slug,
+            );
             if (studies.length === 0) return null;
             return (
               <div key={type} className="mb-10 md:mb-14">

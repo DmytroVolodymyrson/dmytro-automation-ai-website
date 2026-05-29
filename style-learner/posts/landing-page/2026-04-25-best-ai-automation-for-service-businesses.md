@@ -33,7 +33,7 @@ Wait/Skip If:
 
 ### Case Studies
 - Restaurant & Booking: 24/7 AI Voice Receptionist for a NYC Restaurant. Stopped losing after-hours reservations and freed up 15 hours of management time per week by automating phone FAQs and booking.
-- E-commerce & Lead Gen: Full CRM & Lead Follow-Up for an Auto Parts Brand. Automated follow-up for 5,600+ leads, increasing conversion rate by 185% through systematic segmentation and instant response.
+- E-commerce & Lead Gen: CRM & Lead Follow-Up Automation for WheelsFeels. Automated follow-up for 5,600+ leads through systematic segmentation and instant response.
 
 ## Style Notes
 - Improved crawl/indexing eligibility by adding internal links and unique fit/not-fit sections.

@@ -210,7 +210,7 @@ const AiLeadFollowUpForServiceBusinesses = () => {
                   to="/case-studies/ecommerce-crm-automation"
                   className="text-primary hover:text-primary/80 underline underline-offset-4"
                 >
-                  auto parts brand that went from 5,600 untouched leads to a
+                  WheelsFeels went from 5,600 untouched leads to a
                   185% lift in conversions
                 </Link>{" "}
                 and a{" "}
@@ -753,7 +753,7 @@ const AiLeadFollowUpForServiceBusinesses = () => {
               {
                 industry: "E-Commerce",
                 headline: "5,600 untouched leads to full automation",
-                body: "A US auto parts brand had thousands of leads sitting in their CRM with no follow-up. We built an automated pipeline that enrolled every lead in sequences, tripled team capacity, and lifted conversions 185%.",
+                body: "WheelsFeels had thousands of leads sitting in the CRM with no follow-up. We built an automated pipeline that enrolled every lead in sequences, tripled team capacity, and lifted conversions 185%.",
                 link: "/case-studies/ecommerce-crm-automation",
               },
               {

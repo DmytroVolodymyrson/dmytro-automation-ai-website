@@ -247,7 +247,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "E-commerce & Lead Gen",
-          headline: "Full CRM & Lead Follow-Up for an Auto Parts Brand",
+          headline: "CRM & Lead Follow-Up for WheelsFeels",
           body: "WheelsFeels automated follow-up for 5,600+ leads, increasing conversion rate by 185% through systematic CRM segmentation and instant response. Built on n8n workflows with GoHighLevel CRM and Slack integration.",
           link: "/case-studies/ecommerce-crm-automation",
         },
