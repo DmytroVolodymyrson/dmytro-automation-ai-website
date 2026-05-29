@@ -24,7 +24,7 @@ const EcommerceCRMCaseStudy = () => {
         <meta name="description" content="How WheelsFeels went from 5,600 untouched leads to automated CRM follow-up for every serious inquiry. 3x team capacity, instant response time, organized lead pools." />
         <link rel="canonical" href="https://www.dmytroai.com/case-studies/ecommerce-crm-automation" />
         <meta property="og:title" content="WheelsFeels CRM & Lead Follow-Up Automation | Case Study" />
-        <meta property="og:description" content="5,600+ leads organized and enrolled in automated email sequences. 3x team capacity without hiring." />
+        <meta property="og:description" content="3x team capacity from 5,600+ leads organized and enrolled in automated email sequences." />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://www.dmytroai.com/case-studies/ecommerce-crm-automation" />
         <script type="application/ld+json">{JSON.stringify({

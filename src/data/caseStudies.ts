@@ -48,7 +48,7 @@ export const caseStudies: CaseStudySummary[] = [
       "5,600+ WheelsFeels leads sitting in spreadsheets with no systematic follow-up",
     solution:
       "Built full Supabase CRM + n8n automated email sequences for all lead pools",
-    keyResult: "5,600+ leads organized, 3x capacity",
+    keyResult: "3x team capacity",
     proofStatus: "verified",
     featured: true,
     homepageRank: 2,
@@ -64,7 +64,7 @@ export const caseStudies: CaseStudySummary[] = [
       "Missing reservations from after-hours calls and staff overwhelmed with phone bookings",
     solution:
       "Built 24/7 AI voice receptionist handling calls, managing reservations, and routing complex inquiries",
-    keyResult: "15 hrs/week freed, 100% after-hours coverage",
+    keyResult: "15 hours/week saved",
     proofStatus: "verified",
     featured: true,
     homepageRank: 3,

@@ -141,14 +141,13 @@ const ROUTES = [
   },
   {
     path: "/case-studies/ecommerce-crm-automation",
-    title:
-      "E-Commerce CRM & Lead Follow-Up Automation — Case Study | Dmytro AI",
+    title: "WheelsFeels CRM & Lead Follow-Up Automation | Case Study | Dmytro AI",
     description:
-      "How a US auto parts brand went from 5,600 untouched leads to automated follow-up for every single one. 3x team capacity, instant response time, +185% conversion lift.",
+      "How WheelsFeels went from 5,600 untouched leads to automated CRM follow-up for every serious inquiry. 3x team capacity, instant response time, organized lead pools.",
     canonical: `${SITE}/case-studies/ecommerce-crm-automation`,
-    ogTitle: "E-Commerce CRM & Lead Follow-Up Automation — Case Study",
+    ogTitle: "WheelsFeels CRM & Lead Follow-Up Automation | Case Study",
     ogDescription:
-      "5,600+ leads organized and enrolled in automated email sequences. 3x team capacity without hiring.",
+      "3x team capacity from 5,600+ leads organized and enrolled in automated email sequences.",
     ogType: "article",
     ogUrl: `${SITE}/case-studies/ecommerce-crm-automation`,
   },

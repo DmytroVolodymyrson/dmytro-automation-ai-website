@@ -237,7 +237,7 @@ const data: DecisionPageData = {
         },
         {
           heading: "CRM + lead follow-up automation — mid project band",
-          body: "An auto parts e-commerce brand was losing revenue because follow-up was manual and inconsistent. The published case study shows 5,600+ leads moved into structured CRM follow-up, 3x team capacity, and a +185% conversion lift. Builds in this band usually include CRM cleanup, instant acknowledgment, timed follow-up sequences, stale-lead recovery, reporting, documentation, and a short optimization window after launch.",
+          body: "WheelsFeels was losing revenue because follow-up was manual and inconsistent. The published case study shows 5,600+ leads moved into structured CRM follow-up and 3x team capacity. Builds in this band usually include CRM cleanup, instant acknowledgment, timed follow-up sequences, stale-lead recovery, reporting, documentation, and a short optimization window after launch.",
         },
         {
           heading: "Lead generation + qualification pipeline — upper-mid project band",
