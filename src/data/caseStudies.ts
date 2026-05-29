@@ -1,45 +1,164 @@
+export type WorkflowType =
+  | "Revenue & Outbound"
+  | "Lead Follow-Up & CRM"
+  | "Phone & Appointment Handling"
+  | "Lead Qualification & Enrichment";
+
+export type ProofStatus = "verified" | "modeled" | "needs-confirmation";
+
 export type CaseStudySummary = {
   slug: string;
   title: string;
   industry: string;
+  workflowType: WorkflowType;
   description: string;
+  challenge: string;
+  solution: string;
   keyResult: string;
+  proofStatus: ProofStatus;
+  featured?: boolean;
+  homepageRank?: number;
 };
 
 export const caseStudies: CaseStudySummary[] = [
-{
-  slug: "facebook-marketplace-ai-lead-qualification",
-  title: "Facebook Marketplace AI Lead Qualification Workflow",
-  industry: "Heavy Equipment Sales",
-  description:
-    "Built an n8n workflow that enriches Facebook Marketplace equipment listings, classifies seller fit with AI, and sends review-ready leads back to Google Sheets.",
-  keyResult: "13+ hrs/week review time saved",
-},
   {
-    slug: "instagram-lead-generation",
-    title: "Automated Instagram Lead Generation System",
-    industry: "Info Business",
+    slug: "marketing-agency-outbound-video-automation",
+    title: "AI Outbound Video Automation for a Marketing Agency",
+    industry: "Marketing Agency",
+    workflowType: "Revenue & Outbound",
     description:
-      "Built a fully automated n8n pipeline that discovers, enriches, and qualifies creator leads from Instagram Reels with zero manual work.",
-    keyResult: "30+ qualified leads/day",
-  },
-  {
-    slug: "paris-cafe-voice-agent",
-    title: "24/7 AI Voice Receptionist for a NYC Restaurant",
-    industry: "Restaurant",
-    description:
-      "Deployed a VAPI-powered AI voice agent that answers every after-hours call, routes inquiries, and triggers instant follow-up. Freed up 15+ hours a week for management.",
-    keyResult: "15 hrs/week freed for management",
+      "Built a CRM-driven video generation pipeline that replaces manual production with automated personalized outbound videos at scale.",
+    challenge:
+      "Agency needed high-volume personalized videos for outreach without manual production costs scaling linearly",
+    solution:
+      "CRM-driven video generation pipeline with personalized scripts, automated processing, delivery links, and CRM writeback",
+    keyResult: "Projected $9,000/month savings",
+    proofStatus: "modeled",
+    featured: true,
+    homepageRank: 1,
   },
   {
     slug: "ecommerce-crm-automation",
     title: "Full CRM & Lead Follow-Up Automation for an Auto Parts Brand",
     industry: "E-commerce",
+    workflowType: "Lead Follow-Up & CRM",
     description:
       "Built a complete CRM and automated follow-up system from scratch. 5,600+ leads organized, segmented, and enrolled in personalized email sequences. Zero manual work after setup.",
-    keyResult: "3x more leads handled, same team",
+    challenge:
+      "5,600+ leads sitting in spreadsheets with no systematic follow-up",
+    solution:
+      "Built full Supabase CRM + n8n automated email sequences for all lead pools",
+    keyResult: "5,600+ leads organized, 3x capacity",
+    proofStatus: "verified",
+    featured: true,
+    homepageRank: 2,
+  },
+  {
+    slug: "paris-cafe-voice-agent",
+    title: "24/7 AI Voice Receptionist for a NYC Restaurant",
+    industry: "Restaurant",
+    workflowType: "Phone & Appointment Handling",
+    description:
+      "Deployed a VAPI-powered AI voice agent that answers every after-hours call, routes inquiries, and triggers instant follow-up. Freed up 15+ hours a week for management.",
+    challenge:
+      "Missing reservations from after-hours calls and staff overwhelmed with phone bookings",
+    solution:
+      "Built 24/7 AI voice receptionist handling calls, managing reservations, and routing complex inquiries",
+    keyResult: "15 hrs/week freed, 100% after-hours coverage",
+    proofStatus: "verified",
+    featured: true,
+    homepageRank: 3,
+  },
+  {
+    slug: "instagram-lead-generation",
+    title: "Automated Instagram Lead Generation System",
+    industry: "Info Business",
+    workflowType: "Lead Qualification & Enrichment",
+    description:
+      "Built a fully automated n8n pipeline that discovers, enriches, and qualifies creator leads from Instagram Reels with zero manual work.",
+    challenge:
+      "Manually searching Instagram Reels for fitness creators, copy-pasting to spreadsheets for hours daily",
+    solution:
+      "Fully automated n8n + AI pipeline that discovers, qualifies, and delivers creator leads daily",
+    keyResult: "50+ leads/day at $0.29/lead",
+    proofStatus: "verified",
+  },
+  {
+    slug: "facebook-marketplace-ai-lead-qualification",
+    title: "Facebook Marketplace AI Lead Qualification Workflow",
+    industry: "Heavy Equipment Sales",
+    workflowType: "Lead Qualification & Enrichment",
+    description:
+      "Built an n8n workflow that enriches Facebook Marketplace equipment listings, classifies seller fit with AI, and sends review-ready leads back to Google Sheets.",
+    challenge:
+      "90% of scraped Marketplace listings were noise; manual filtering couldn't scale",
+    solution:
+      "n8n workflow with Apify scraping, AI seller classification, and review-ready Google Sheets handoff",
+    keyResult: "13+ hrs/week review time saved",
+    proofStatus: "modeled",
   },
 ];
+
+/** Top 3 case studies for the homepage Results section */
+export const homepageCaseStudies = caseStudies
+  .filter((cs) => cs.homepageRank !== undefined)
+  .sort((a, b) => (a.homepageRank ?? 99) - (b.homepageRank ?? 99))
+  .slice(0, 3);
+
+/** Featured case studies for the hub hero */
+export const featuredCaseStudies = caseStudies.filter((cs) => cs.featured);
+
+/** Case studies grouped by workflow type */
+export const caseStudiesByWorkflow = caseStudies.reduce<
+  Record<WorkflowType, CaseStudySummary[]>
+>(
+  (acc, cs) => {
+    acc[cs.workflowType].push(cs);
+    return acc;
+  },
+  {
+    "Revenue & Outbound": [],
+    "Lead Follow-Up & CRM": [],
+    "Phone & Appointment Handling": [],
+    "Lead Qualification & Enrichment": [],
+  },
+);
+
+export const marketingAgencyOutboundVideoCaseStudy = {
+  title: "AI Outbound Video Automation for a Marketing Agency",
+  subtitle:
+    "How a marketing agency replaced manual video production with a CRM-driven pipeline and cut projected outreach costs by $9,000/month",
+  industry: "Marketing Agency",
+  challenge: [
+    "The agency relied on manual production for every personalized outbound video. Each campaign required scripting, recording, editing, and uploading individual assets for every prospect.",
+    "Production costs scaled linearly with volume. Reaching more prospects meant proportionally more hours and higher contractor spend, making high-volume outreach uneconomical.",
+    "Campaign launch timelines stretched because each batch of videos had to pass through a manual pipeline before sales could begin outreach.",
+  ],
+  solution: [
+    "Built a CRM-driven video generation pipeline that pulls prospect data, generates personalized scripts, and automates video assembly and processing without manual intervention.",
+    "Connected the output to delivery infrastructure so finished videos are linked, tracked, and written back to the CRM for sales follow-up.",
+    "Designed the system for volume: the pipeline handles thousands of personalized videos per day, replacing what previously required a dedicated production team.",
+  ],
+  metrics: [
+    { label: "Projected Monthly Savings", value: "$9,000/mo" },
+    { label: "Pipeline Capacity", value: "4,000-5,000 videos/day" },
+    { label: "Manual Production Work", value: "Eliminated" },
+  ],
+  metricBasis: [
+    "$9,000/month savings is modeled from the difference between previous manual production costs and automated pipeline operating costs.",
+    "4,000-5,000 videos/day is the design-target capacity of the automated pipeline.",
+    "Manual production elimination is confirmed for the standard outbound video workflow.",
+  ],
+  techStack: ["n8n", "CRM Integration", "AI Script Generation", "Video Processing Pipeline"],
+  flow: ["CRM Prospect Data", "AI Script Generation", "Automated Video Assembly", "Delivery & CRM Writeback"],
+  results: [
+    { label: "Projected Savings", value: "$9,000/mo", sub: "modeled from workflow cost data" },
+    { label: "Video Capacity", value: "4-5K/day", sub: "automated pipeline design target" },
+    { label: "Manual Work", value: "Eliminated", sub: "for standard outbound video workflow" },
+  ],
+  outcomeNote:
+    "Savings are projected from workflow cost modeling, not audited client-reported production data. Client identity is kept anonymous.",
+} as const;
 
 export const instagramReelsScraperCaseStudy = {
   title: "Automated Instagram Lead Generation System",

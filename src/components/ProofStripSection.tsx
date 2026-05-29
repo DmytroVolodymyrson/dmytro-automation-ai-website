@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { siteConfig } from "@/config/siteConfig";
+import { homepageCaseStudies } from "@/data/caseStudies";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const ProofStripSection = () => {
@@ -26,22 +27,25 @@ const ProofStripSection = () => {
         </div>
 
         <div ref={gridRef} className="grid gap-3 lg:grid-cols-3">
-          {proofStrip.cards.map((card, index) => {
+          {homepageCaseStudies.map((caseStudy, index) => {
             return (
               <Link
-                key={card.slug}
-                to={card.slug}
+                key={caseStudy.slug}
+                to={`/case-studies/${caseStudy.slug}`}
                 className={`group rounded-2xl border border-border/60 bg-card/80 p-5 lg:p-6 hover:border-primary/30 transition-colors duration-300 animate-on-scroll stagger-${index + 1} ${gridVisible ? "is-visible" : ""}`}
               >
                 <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground/90 mb-3">
-                  {card.label}
+                  {caseStudy.industry}
                 </p>
                 <p className="font-display text-2xl sm:text-[1.8rem] font-bold leading-tight text-foreground mb-2">
-                  {card.metric}
+                  {caseStudy.keyResult}
                 </p>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  {card.supportLine}
+                  {caseStudy.description}
                 </p>
+                {caseStudy.proofStatus === "modeled" && (
+                  <p className="mt-3 text-xs text-muted-foreground/70">Modeled from workflow data</p>
+                )}
                 <div className="mt-4 inline-flex items-center gap-1.5 text-xs font-medium text-primary/80 group-hover:text-primary transition-colors">
                   Case study
                   <ArrowRight className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-0.5" />

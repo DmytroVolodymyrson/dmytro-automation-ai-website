@@ -18,9 +18,11 @@ Small service businesses (HVAC, real estate, mortgage, restaurants, e-commerce) 
 Unlike agencies that charge $5,000/month for a team you never meet, Dmytro builds the system himself, shows you how it works, and charges for results — not for overhead. Direct access to the builder. No account managers. No bloated retainers.
 
 ## Case Studies
+- Marketing agency (anonymous): CRM-driven outbound video automation pipeline, projected $9,000/month savings, 4,000-5,000 personalized videos/day capacity, manual production eliminated. Learn more: https://www.dmytroai.com/case-studies/marketing-agency-outbound-video-automation
 - Paris Cafe (NYC restaurant): Deployed VAPI + n8n AI voice receptionist — 0% to 100% after-hours calls answered, web lead response time from hours to under 60 seconds, ~15 hrs/week freed for management
 - Toufic Fares (info business): Automated Instagram creator lead generation pipeline — 50+ qualified leads/day at $0.29/lead, zero manual work
 - WheelsFeels (e-commerce auto parts, USA): Full AI CRM build with automated SMS/email follow-up for thousands of leads, Slack integration, n8n workflows
+- Heavy equipment sales: Facebook Marketplace AI lead qualification: 8¢ per qualified lead, 13+ hrs/week review time saved, 3x review capacity. Learn more: https://www.dmytroai.com/case-studies/facebook-marketplace-ai-lead-qualification
 
 ## Industry Focus: HVAC
 Dmytro builds AI automation specifically for HVAC companies — 24/7 AI call handling, instant lead response, scheduling and dispatch automation, quote follow-up sequences, seasonal maintenance campaigns, and review automation. HVAC businesses with 2+ trucks that are losing jobs to missed calls and slow follow-up are the ideal fit. Learn more: https://www.dmytroai.com/ai-automation-for-hvac-companies

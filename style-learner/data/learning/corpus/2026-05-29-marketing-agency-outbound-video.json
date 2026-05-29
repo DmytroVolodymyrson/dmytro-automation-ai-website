@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-05-29-marketing-agency-outbound-video",
+  "platform": "case-study",
+  "language": "en",
+  "date": "2026-05-29",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "Title: AI Outbound Video Automation for a Marketing Agency\nSubtitle: How a marketing agency replaced manual video production with a CRM-driven pipeline and cut projected outreach costs by $9,000/month\n\nMetrics:\n- Projected Monthly Savings: $9,000/mo\n- Pipeline Capacity: 4,000-5,000 videos/day\n- Manual Production Work: Eliminated\n\nChallenge:\n1. The agency relied on manual production for every personalized outbound video. Each campaign required scripting, recording, editing, and uploading individual assets for every prospect.\n2. Production costs scaled linearly with volume. Reaching more prospects meant proportionally more hours and higher contractor spend, making high-volume outreach uneconomical.\n3. Campaign launch timelines stretched because each batch of videos had to pass through a manual pipeline before sales could begin outreach.\n\nSolution:\n1. Built a CRM-driven video generation pipeline that pulls prospect data, generates personalized scripts, and automates video assembly and processing without manual intervention.\n2. Connected the output to delivery infrastructure so finished videos are linked, tracked, and written back to the CRM for sales follow-up.\n3. Designed the system for volume: the pipeline handles thousands of personalized videos per day, replacing what previously required a dedicated production team.\n\nHow It Works: CRM Prospect Data -> AI Script Generation -> Automated Video Assembly -> Delivery & CRM Writeback\n\nTech Stack: n8n, CRM Integration, AI Script Generation, Video Processing Pipeline\n\nMetric Basis:\n- $9,000/month savings is modeled from the difference between previous manual production costs and automated pipeline operating costs.\n- 4,000-5,000 videos/day is the design-target capacity of the automated pipeline.\n- Manual production elimination is confirmed for the standard outbound video workflow.\n\nOutcome Note: Savings are projected from workflow cost modeling, not audited client-reported production data. Client identity is kept anonymous.",
+    "formatting": [
+      "bold:Title:"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [],
+  "analysis": {
+    "analyzedAt": "2026-05-29T19:15:30.125Z",
+    "structure": {
+      "paragraphCount": 8,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        8,
+        6,
+        1,
+        1,
+        3,
+        2
+      ],
+      "avgSentenceLength": 12,
+      "sentenceLengthRange": [
+        1,
+        29
+      ],
+      "totalWords": 275
+    },
+    "opener": {
+      "type": "general",
+      "text": "Title: AI Outbound Video Automation for a Marketing Agency\nSubtitle: How a marketing agency replaced manual video production with a CRM-driven pipeline and cut projected outreach costs by $9,000/month",
+      "wordCount": 29,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "Outcome Note: Savings are projected from workflow cost modeling, not audited client-reported production data. Client identity is kept anonymous.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | context | context | context | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 19,
+      "commas": 20,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 9,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 13,
+      "commasPerSentence": 1.05
+    },
+    "vocabulary": {
+      "distinctWords": 154,
+      "totalWords": 275,
+      "topWords": [
+        [
+          "-",
+          9
+        ],
+        [
+          "video",
+          8
+        ],
+        [
+          "production",
+          8
+        ],
+        [
+          "pipeline",
+          8
+        ],
+        [
+          "manual",
+          7
+        ],
+        [
+          "costs",
+          4
+        ],
+        [
+          "crm",
+          4
+        ],
+        [
+          "ai",
+          3
+        ],
+        [
+          "outbound",
+          3
+        ],
+        [
+          "agency",
+          3
+        ],
+        [
+          "projected",
+          3
+        ],
+        [
+          "outreach",
+          3
+        ],
+        [
+          "savings",
+          3
+        ],
+        [
+          "personalized",
+          3
+        ],
+        [
+          "prospect",
+          3
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 0,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 0,
+      "patterns": []
+    }
+  }
+}

@@ -4,6 +4,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { useTrackSection } from "@/hooks/useTrackSection";
 import { siteConfig } from "@/config/siteConfig";
 import { capture } from "@/lib/posthog";
+import { homepageCaseStudies } from "@/data/caseStudies";
 
 const statIcons = [Clock, Zap, Users, TrendingUp];
 
@@ -60,16 +61,15 @@ const ResultsSection = () => {
         >
           <div id="case-studies" />
           <h3 className="font-display text-2xl sm:text-3xl font-bold text-foreground mb-4">
-            {results.caseStudiesHeading}
+            Proof from shipped automation systems
           </h3>
           <p className="text-muted-foreground">
-            {results.caseStudiesSubtitle}
+            Three builds. Three industries. Measurable outcomes.
           </p>
         </div>
 
         <div ref={caseGridRef} className="grid lg:grid-cols-3 gap-6 lg:gap-8">
-          {results.caseStudies.map((study, index) => {
-            const hasDetailPage = !!study.slug;
+          {homepageCaseStudies.map((study, index) => {
             const cardClasses = `bg-card p-6 lg:p-8 rounded-2xl shadow-card border border-border/50 hover:border-primary/30 transition-colors animate-on-scroll stagger-${index + 1} ${caseGridVisible ? "is-visible" : ""}`;
 
             const handleClick = () => {
@@ -104,36 +104,40 @@ const ResultsSection = () => {
                   <div className="pt-4 border-t border-border">
                     <div className="rounded-xl border border-primary/20 bg-primary/5 px-4 py-3">
                       <p className="text-xs uppercase tracking-wide text-accent font-semibold mb-1">KEY RESULT</p>
-                      <p className="font-display text-md font-bold text-foreground whitespace-nowrap">{study.keyResult}</p>
+                      <p className="font-display text-md font-bold text-foreground">{study.keyResult}</p>
+                      {study.proofStatus === "modeled" && (
+                        <p className="text-xs text-muted-foreground/70 mt-1">Based on project estimate</p>
+                      )}
                     </div>
                   </div>
 
-                  {hasDetailPage && (
-                    <div className="pt-2">
-                      <span className="inline-flex items-center gap-2 text-primary hover:text-accent font-semibold transition-colors">
-                        Read More
-                        <ArrowRight className="w-4 h-4" />
-                      </span>
-                    </div>
-                  )}
+                  <div className="pt-2">
+                    <span className="inline-flex items-center gap-2 text-primary hover:text-accent font-semibold transition-colors">
+                      Read More
+                      <ArrowRight className="w-4 h-4" />
+                    </span>
+                  </div>
                 </div>
               </>
             );
 
-            if (hasDetailPage && study.slug) {
-              return (
-                <Link key={index} to={study.slug} className={cardClasses} onClick={handleClick}>
-                  {cardContent}
-                </Link>
-              );
-            }
-
             return (
-              <div key={index} className={cardClasses}>
+              <Link key={study.slug} to={`/case-studies/${study.slug}`} className={cardClasses} onClick={handleClick}>
                 {cardContent}
-              </div>
+              </Link>
             );
           })}
+        </div>
+
+        {/* View all CTA */}
+        <div className={`text-center mt-8 lg:mt-10 animate-on-scroll ${caseGridVisible ? "is-visible" : ""}`}>
+          <Link
+            to="/case-studies"
+            className="inline-flex items-center gap-2 rounded-xl border border-border bg-background px-6 py-3 text-sm font-semibold text-foreground hover:border-primary/30 hover:bg-primary/5 transition-colors"
+          >
+            View all case studies
+            <ArrowRight className="w-4 h-4 text-primary" />
+          </Link>
         </div>
       </div>
     </section>

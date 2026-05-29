@@ -83,70 +83,16 @@ export const siteConfig = {
   proofStrip: {
     heading: "Recent work. Clear results.",
     subtitle: "Three examples of what good automation changes.",
-    cards: [
-      {
-        label: "Restaurant",
-        metric: "100% of after-hours calls answered",
-        supportLine:
-          "A 24/7 voice agent now captures reservation demand that used to be missed.",
-        slug: "/case-studies/paris-cafe-voice-agent",
-      },
-      {
-        label: "Info Business",
-        metric: "50+ qualified leads/day",
-        supportLine:
-          "Manual Instagram prospecting was replaced by an automated pipeline at $0.29 per lead.",
-        slug: "/case-studies/instagram-lead-generation",
-      },
-      {
-        label: "E-commerce",
-        metric: "3x follow-up capacity",
-        supportLine:
-          "CRM automation organized 5,600+ leads without adding headcount.",
-        slug: "/case-studies/ecommerce-crm-automation",
-      },
-    ],
   },
 
   results: {
     heading: "Real Results for Real Businesses",
     subtitle: "Here's what happens when you automate the right processes",
-    caseStudiesHeading: "Client Success Stories",
-    caseStudiesSubtitle: "See how automation transformed these businesses",
     stats: [
       { metric: "10+", unit: "hrs/week", description: "Time saved on average per client" },
       { metric: "80%", unit: "reduction", description: "in manual work" },
       { metric: "3x", unit: "capacity", description: "without hiring more staff" },
       { metric: "300%+", unit: "ROI", description: "typical ROI in year one" },
-    ],
-    caseStudies: [
-      {
-        industry: "Restaurant",
-        challenge:
-          "Missing reservations from after-hours calls and staff overwhelmed with phone bookings",
-        solution:
-          "Built 24/7 AI voice receptionist handling calls, managing reservations, and routing complex inquiries",
-        slug: "/case-studies/paris-cafe-voice-agent",
-        keyResult: "15 hrs/week saved",
-      },
-      {
-        industry: "Info Business",
-        challenge:
-          "Manually searching Instagram Reels for fitness creators, copy-pasting to Notion. Hours of work for a handful of leads",
-        solution:
-          "Built a fully automated n8n + AI pipeline that discovers, qualifies, and delivers creator leads daily with zero manual work",
-        slug: "/case-studies/instagram-lead-generation",
-        keyResult: "50+ leads/day at $0.29/lead",
-      },
-      {
-        industry: "E-commerce",
-        challenge:
-          "5,600+ leads sitting in spreadsheets with no systematic follow-up",
-        solution:
-          "Built full Supabase CRM + n8n automated email sequences for all lead pools",
-        slug: "/case-studies/ecommerce-crm-automation",
-        keyResult: "3x team capacity increase",
-      },
     ],
   },
 
