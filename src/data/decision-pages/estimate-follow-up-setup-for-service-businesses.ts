@@ -156,7 +156,7 @@ const data: DecisionPageData = {
         {
           industry: "E-commerce / CRM lifecycle",
           headline: "The published CRM case study proves the operational value of clean stages, routed follow-up, and visibility into stale opportunities",
-          body: "The WheelsFeels CRM case study is not an estimate-recovery build, but it does prove the mechanics this setup page depends on: reliable stage tracking, automated follow-up, cleaner handoff, and better visibility once a deal stalls or wakes back up.",
+          body: "The vehicle accessories CRM case study is not an estimate-recovery build, but it does prove the mechanics this setup page depends on: reliable stage tracking, automated follow-up, cleaner handoff, and better visibility once a deal stalls or wakes back up.",
           link: "/case-studies/ecommerce-crm-automation",
         },
       ],

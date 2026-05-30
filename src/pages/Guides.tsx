@@ -4027,7 +4027,7 @@ const Guides = () => {
                   This page is a router. If you already know what you need, the fastest path is to jump straight to the destination page instead of browsing the full library first.
                 </p>
                 <ul className="space-y-3 text-sm text-muted-foreground leading-relaxed">
-                  <li>• If you need evidence before you believe any of this is worth doing, start with the case-studies hub and the named Paris Cafe / WheelsFeels proof pages.</li>
+                  <li>• If you need evidence before you believe any of this is worth doing, start with the case-studies hub and the named Paris Cafe / vehicle accessories proof pages.</li>
                   <li>• If you are already deciding whether to hire help and what a first project costs, jump straight to the consultant overview and pricing pages.</li>
                   <li>• If the bottleneck is clearly bookings, missed calls, or lead response, go directly to the appointment-setter or lead-follow-up workflow page instead of reading the whole library first.</li>
                 </ul>

@@ -183,7 +183,7 @@ const data: DecisionPageData = {
         {
           industry: "CRM adjacency",
           headline: "The published 5,600+ lead CRM case study proves the discipline side of the problem",
-          body: "The WheelsFeels CRM case study shows what happens when tagging, follow-up logic, internal visibility, and workflow ownership are designed properly. Contractors have different stages, but the same discipline problem shows up when nobody owns the pipeline cleanly.",
+          body: "The vehicle accessories CRM case study shows what happens when tagging, follow-up logic, internal visibility, and workflow ownership are designed properly. Contractors have different stages, but the same discipline problem shows up when nobody owns the pipeline cleanly.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

@@ -179,7 +179,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "E-commerce / CRM automation",
-          headline: "WheelsFeels shows what database segmentation and re-engagement costs at scale",
+          headline: "The vehicle accessories case study shows what database segmentation and re-engagement costs at scale",
           body: "The e-commerce CRM case study organized thousands of contacts, built multi-step follow-up sequences, and routed reactivated demand back to the team. That project sits at the higher end of the pricing spectrum and demonstrates what happens when CRM cleanup and segmentation complexity drive the build cost up.",
           link: "/case-studies/ecommerce-crm-automation",
         },

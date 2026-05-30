@@ -205,7 +205,7 @@ const data: DecisionPageData = {
         },
         {
           heading: "Adjacent proof: workflow design matters more than the platform name",
-          body: "The WheelsFeels e-commerce CRM case study is useful context here because the real win was not picking the right logo. It was tightening routing, follow-up timing, and visibility so leads stopped slipping through gaps. That same principle applies whether a business lands on GoHighLevel, ActiveCampaign, or a hybrid stack: the workflow discipline matters more than the subscription choice.",
+          body: "The vehicle accessories e-commerce CRM case study is useful context here because the real win was not picking the right logo. It was tightening routing, follow-up timing, and visibility so leads stopped slipping through gaps. That same principle applies whether a business lands on GoHighLevel, ActiveCampaign, or a hybrid stack: the workflow discipline matters more than the subscription choice.",
         },
       ],
     },
@@ -265,7 +265,7 @@ const data: DecisionPageData = {
       href: "/gohighlevel-setup-cost-small-business",
     },
     {
-      label: "E-commerce CRM case study (WheelsFeels)",
+      label: "E-commerce CRM case study (a vehicle accessories e-commerce brand)",
       href: "/case-studies/ecommerce-crm-automation",
     },
   ],

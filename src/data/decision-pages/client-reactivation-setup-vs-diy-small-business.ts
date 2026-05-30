@@ -195,7 +195,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "E-commerce / CRM automation",
-          headline: "WheelsFeels shows the operational side of cleanup, segmentation, and routed follow-up",
+          headline: "The vehicle accessories case study shows the operational side of cleanup, segmentation, and routed follow-up",
           body: "The published CRM case study proves that organizing messy records, building usable sequences, and routing reactivated demand back to a real team is implementation work, not just copywriting. That same operational discipline is what makes the difference between DIY drift and a working reactivation system.",
           link: "/case-studies/ecommerce-crm-automation",
         },

@@ -166,7 +166,7 @@ const data: DecisionPageData = {
         {
           industry: "E-commerce",
           headline: "Qualification data logged and acted on automatically",
-          body: "The WheelsFeels CRM build shows the back-half of the same system: leads routed, segmented, and followed up automatically instead of sitting untouched. Voice qualification is strongest when it plugs into this kind of downstream workflow.",
+          body: "The vehicle accessories CRM build shows the back-half of the same system: leads routed, segmented, and followed up automatically instead of sitting untouched. Voice qualification is strongest when it plugs into this kind of downstream workflow.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

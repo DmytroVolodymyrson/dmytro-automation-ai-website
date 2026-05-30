@@ -188,7 +188,7 @@ const data: DecisionPageData = {
         {
           industry: "CRM workflow design",
           headline: "The e-commerce CRM case study shows why stage logic and ownership matter",
-          body: "The WheelsFeels CRM case study is direct adjacent proof that automation value comes from trustworthy lead stages, follow-up logic, and handoff design — not from stuffing a CRM with more templates. That is the same commercial logic behind paying for GHL setup help when the account is leaking revenue.",
+          body: "The vehicle accessories CRM case study is direct adjacent proof that automation value comes from trustworthy lead stages, follow-up logic, and handoff design — not from stuffing a CRM with more templates. That is the same commercial logic behind paying for GHL setup help when the account is leaking revenue.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

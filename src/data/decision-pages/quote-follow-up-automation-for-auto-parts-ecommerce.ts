@@ -196,12 +196,12 @@ const data: DecisionPageData = {
       type: "case-studies",
       title: "What proof supports this page",
       subtitle:
-        "There is no published auto-parts quote-follow-up-only case study yet. The honest proof frame is direct WheelsFeels CRM proof plus the already-live auto-parts workflow cluster.",
+        "There is no published auto-parts quote-follow-up-only case study yet. The honest proof frame is direct vehicle accessories CRM proof plus the already-live auto-parts workflow cluster.",
       studies: [
         {
           industry: "Auto Parts E-Commerce",
           headline: "5,600+ contacts organized with automated follow-up and reply visibility",
-          body: "The published WheelsFeels CRM case study is direct proof for the vertical and for the operating mechanics behind this page: quote-stage follow-up discipline, centralized records, segmented outreach, and Slack visibility when a real buyer replies.",
+          body: "The published vehicle accessories CRM case study is direct proof for the vertical and for the operating mechanics behind this page: quote-stage follow-up discipline, centralized records, segmented outreach, and Slack visibility when a real buyer replies.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

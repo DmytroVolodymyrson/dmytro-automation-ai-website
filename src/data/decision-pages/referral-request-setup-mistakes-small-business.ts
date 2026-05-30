@@ -212,7 +212,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM lifecycle proof",
-          headline: "The WheelsFeels CRM case study proves why state, routing, and next-step ownership matter after a customer milestone changes",
+          headline: "The vehicle accessories CRM case study proves why state, routing, and next-step ownership matter after a customer milestone changes",
           body: "Different exact workflow, same operational lesson. The published CRM case study shows that valuable follow-through only becomes revenue when the business can trust stage ownership, reply visibility, and handoff after a contact re-engages.",
           link: "/case-studies/ecommerce-crm-automation",
         },

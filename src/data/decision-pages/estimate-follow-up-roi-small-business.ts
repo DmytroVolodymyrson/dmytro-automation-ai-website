@@ -182,7 +182,7 @@ const data: DecisionPageData = {
       studies: [
         {
           industry: "E-commerce / CRM pipeline ROI",
-          headline: "WheelsFeels shows what pipeline-stage visibility changes financially",
+          headline: "The vehicle accessories case study shows what pipeline-stage visibility changes financially",
           body: "The e-commerce CRM case study is adjacent proof for the higher end of estimate-follow-up ROI. Once the workflow tracks multiple pipeline stages and surfaces stalled opportunities, the financial visibility changes how the business allocates follow-up effort.",
           link: "/case-studies/ecommerce-crm-automation",
         },

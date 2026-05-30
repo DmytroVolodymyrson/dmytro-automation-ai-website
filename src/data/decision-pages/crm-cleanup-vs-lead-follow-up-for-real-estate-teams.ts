@@ -186,7 +186,7 @@ const data: DecisionPageData = {
         {
           industry: "Published CRM proof",
           headline: "The 5,600+ contact CRM case study shows why stage truth and ownership matter before automation scales",
-          body: "The WheelsFeels CRM case study is not a real-estate deployment, but it is still the clearest published proof for the underlying operations principle: if records, statuses, and next-step ownership are not clean, follow-up automation becomes noisy instead of useful.",
+          body: "The vehicle accessories CRM case study is not a real-estate deployment, but it is still the clearest published proof for the underlying operations principle: if records, statuses, and next-step ownership are not clean, follow-up automation becomes noisy instead of useful.",
           link: "/case-studies/ecommerce-crm-automation",
         },
       ],

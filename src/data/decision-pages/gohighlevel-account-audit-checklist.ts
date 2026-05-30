@@ -190,7 +190,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM workflow proof",
-          headline: "The WheelsFeels CRM case study shows why state truth, ownership, and follow-up discipline matter more than dashboard cosmetics",
+          headline: "The vehicle accessories CRM case study shows why state truth, ownership, and follow-up discipline matter more than dashboard cosmetics",
           body: "That project is direct adjacent proof for the same operational issues a GoHighLevel audit should surface: messy stage logic, weak handoff, and follow-up that becomes manual when the system is not trustworthy.",
           link: "/case-studies/ecommerce-crm-automation",
         },

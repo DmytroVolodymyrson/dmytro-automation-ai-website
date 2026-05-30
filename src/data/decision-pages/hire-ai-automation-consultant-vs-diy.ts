@@ -188,7 +188,7 @@ const data: DecisionPageData = {
         {
           industry: "E-commerce / CRM operations",
           headline: "Captured leads still need clean downstream automation",
-          body: "The WheelsFeels CRM case study is adjacent proof for why production-hardening matters. Capturing a lead is not enough. The follow-up, tagging, alerts, and ownership rules behind that lead are what make the system commercially useful.",
+          body: "The vehicle accessories CRM case study is adjacent proof for why production-hardening matters. Capturing a lead is not enough. The follow-up, tagging, alerts, and ownership rules behind that lead are what make the system commercially useful.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

@@ -205,8 +205,8 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM workflow design",
-          headline: "The WheelsFeels CRM case study proves the operational side of follow-up, stages, and handoff matters more than tool cosmetics",
-          body: "WheelsFeels is adjacent proof that Dmytro can design real CRM logic, contact-state movement, and follow-up systems around how the business actually runs instead of dropping in generic campaign templates.",
+          headline: "The vehicle accessories CRM case study proves the operational side of follow-up, stages, and handoff matters more than tool cosmetics",
+          body: "A vehicle accessories e-commerce brand is adjacent proof that Dmytro can design real CRM logic, contact-state movement, and follow-up systems around how the business actually runs instead of dropping in generic campaign templates.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

@@ -172,7 +172,7 @@ const data: DecisionPageData = {
       studies: [
         {
           industry: "E-commerce / CRM workflow complexity",
-          headline: "WheelsFeels shows what pipeline-stage automation looks like at scale",
+          headline: "The vehicle accessories case study shows what pipeline-stage automation looks like at scale",
           body: "The e-commerce CRM case study is adjacent proof for the higher end of estimate-follow-up pricing. Once the workflow tracks multiple pipeline stages, routes to different owners, and needs stop conditions across channels, the build cost reflects system design — not just message sending.",
           link: "/case-studies/ecommerce-crm-automation",
         },

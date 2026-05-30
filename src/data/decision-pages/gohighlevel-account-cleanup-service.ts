@@ -199,7 +199,7 @@ const data: DecisionPageData = {
         {
           industry: "CRM workflow design",
           headline: "The e-commerce CRM case study shows why stage logic and ownership matter more than dashboard cosmetics",
-          body: "WheelsFeels is direct adjacent proof for the operational problem behind most cleanup engagements: messy lead stages, weak handoff, manual patching, and follow-up that depends on humans remembering what the CRM should have handled already.",
+          body: "A vehicle accessories e-commerce brand is direct adjacent proof for the operational problem behind most cleanup engagements: messy lead stages, weak handoff, manual patching, and follow-up that depends on humans remembering what the CRM should have handled already.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

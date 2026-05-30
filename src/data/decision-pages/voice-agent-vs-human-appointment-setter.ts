@@ -188,7 +188,7 @@ const data: DecisionPageData = {
         {
           industry: "E-commerce / CRM automation",
           headline: "5,600+ leads handled without manual follow-up bottlenecks",
-          body: "A custom CRM and automation system for WheelsFeels organized and followed up with thousands of leads automatically, increasing team capacity 3x. It is not a phone-setter case study, but it supports the same operational point: when first-touch and follow-up are systematized, manual chasing stops being the bottleneck.",
+          body: "A custom CRM and automation system for a vehicle accessories e-commerce brand organized and followed up with thousands of leads automatically, increasing team capacity 3x. It is not a phone-setter case study, but it supports the same operational point: when first-touch and follow-up are systematized, manual chasing stops being the bottleneck.",
           link: "/case-studies/ecommerce-crm-automation",
         },
       ],

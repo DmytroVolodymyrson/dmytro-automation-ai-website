@@ -228,8 +228,8 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM workflow design",
-          headline: "The WheelsFeels CRM case study shows why workflow logic and handoff design matter more than tool cosmetics",
-          body: "WheelsFeels is adjacent proof that the real value is not a prettier dashboard. It is mapping lead states, follow-up timing, and ownership clearly enough that the system becomes operationally trustworthy.",
+          headline: "The vehicle accessories CRM case study shows why workflow logic and handoff design matter more than tool cosmetics",
+          body: "A vehicle accessories e-commerce brand is adjacent proof that the real value is not a prettier dashboard. It is mapping lead states, follow-up timing, and ownership clearly enough that the system becomes operationally trustworthy.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

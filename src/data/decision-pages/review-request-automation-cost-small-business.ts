@@ -184,7 +184,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM lifecycle proof",
-          headline: "The WheelsFeels CRM case study proves why stage tracking, ownership clarity, and milestone-based follow-through have real economic value",
+          headline: "The vehicle accessories CRM case study proves why stage tracking, ownership clarity, and milestone-based follow-through have real economic value",
           body: "That project is not a review-request system, but it is real published proof that recoverable opportunities get lost when ownership after a milestone is weak and follow-up is inconsistent. Those mechanics are exactly what drive review-request build cost up or down.",
           link: "/case-studies/ecommerce-crm-automation",
         },

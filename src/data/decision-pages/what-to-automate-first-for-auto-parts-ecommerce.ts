@@ -224,7 +224,7 @@ const data: DecisionPageData = {
       type: "case-studies",
       title: "Relevant proof and adjacent proof",
       subtitle:
-        "There is not a published auto-parts first-project prioritization case study on the site yet, so the page stays grounded in the live auto-parts cluster plus direct WheelsFeels CRM proof.",
+        "There is not a published auto-parts first-project prioritization case study on the site yet, so the page stays grounded in the live auto-parts cluster plus direct vehicle accessories CRM proof.",
       studies: [
         {
           industry: "Auto-parts cluster",
@@ -234,7 +234,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "Published vertical proof",
-          headline: "The 5,600+ lead WheelsFeels CRM case study proves why centralized records, ownership, and automated follow-up matter in this exact vertical",
+          headline: "The 5,600+ lead vehicle accessories CRM case study proves why centralized records, ownership, and automated follow-up matter in this exact vertical",
           body: "That project is direct proof for auto parts e-commerce: thousands of contacts organized, automated follow-up running, and Slack visibility when high-intent replies return. It supports the business case for choosing the first workflow based on the clearest leak instead of forcing a vague all-in-one rebuild.",
           link: "/case-studies/ecommerce-crm-automation",
         },

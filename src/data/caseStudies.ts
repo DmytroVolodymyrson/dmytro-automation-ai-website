@@ -39,13 +39,13 @@ export const caseStudies: CaseStudySummary[] = [
   },
   {
     slug: "ecommerce-crm-automation",
-    title: "CRM & Lead Follow-Up Automation for WheelsFeels",
+    title: "CRM & Lead Follow-Up Automation for a Vehicle Accessories E-Commerce Brand",
     industry: "Vehicle Accessories e-commerce brand",
     workflowType: "Lead Follow-Up & CRM",
     description:
-      "Helped WheelsFeels reactivate 5,600+ old leads, then automated client management and follow-ups so the team could handle 3x more sales capacity without manually chasing every inquiry.",
+      "Helped a vehicle accessories e-commerce brand reactivate 5,600+ old leads, then automated client management and follow-ups so the team could handle 3x more sales capacity without manually chasing every inquiry.",
     challenge:
-      "5,600+ WheelsFeels leads sitting in spreadsheets with no systematic reactivation or client follow-up",
+      "5,600+ old leads sitting in spreadsheets with no systematic reactivation or client follow-up",
     solution:
       "Built full Supabase CRM, client-management workflows, and n8n automated follow-up sequences for all lead pools",
     keyResult: "3x team capacity",
@@ -240,13 +240,13 @@ export const parisCafeVoiceAgentCaseStudy = {
 } as const;
 
 export const ecommerceCRMCaseStudy = {
-  title: "CRM & Lead Follow-Up Automation for WheelsFeels",
+  title: "CRM & Lead Follow-Up Automation for a Vehicle Accessories E-Commerce Brand",
   subtitle:
-    "How WheelsFeels, a Houston-made vehicle camping systems brand, reactivated 5,600+ old leads and automated client management, follow-ups, and sales handoff",
+    "How a Houston-made vehicle accessories e-commerce brand reactivated 5,600+ old leads and automated client management, follow-ups, and sales handoff",
   industry: "Vehicle Accessories e-commerce brand",
-  clientUrl: "https://wheelsfeels.com",
+  clientUrl: "",
   challenge: [
-    "WheelsFeels had accumulated over 5,600 leads across three years of operation. None of them had received systematic reactivation. Every inquiry that didn't convert immediately just sat in a spreadsheet.",
+    "The brand had accumulated over 5,600 leads across three years of operation. None of them had received systematic reactivation. Every inquiry that didn't convert immediately just sat in a spreadsheet.",
     "Their team was spending hours each week manually emailing leads one by one, and still only reaching a fraction of them. High-intent vehicle camping system inquiries were getting the same treatment as contacts from two years ago.",
     "There was no visibility into what was working. No tracking, no segmentation, no reporting. Just a growing pile of missed opportunities.",
   ],

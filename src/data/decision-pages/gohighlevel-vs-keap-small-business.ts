@@ -212,7 +212,7 @@ const data: DecisionPageData = {
         },
         {
           heading: "Adjacent proof: CRM design matters more than the software choice",
-          body: "For WheelsFeels, we built a CRM and follow-up system that pulled 5,600+ contacts into one operating layer and supported a 185% increase in sales conversion by tightening routing, follow-up discipline, and visibility. The lesson is not that every business needs a custom stack — it is that the real win comes from cleaner workflow design, whether you stay on a platform or move beyond it.",
+          body: "For a vehicle accessories e-commerce brand, we built a CRM and follow-up system that pulled 5,600+ contacts into one operating layer and supported a 185% increase in sales conversion by tightening routing, follow-up discipline, and visibility. The lesson is not that every business needs a custom stack — it is that the real win comes from cleaner workflow design, whether you stay on a platform or move beyond it.",
         },
       ],
     },

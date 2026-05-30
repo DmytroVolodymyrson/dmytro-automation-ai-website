@@ -180,7 +180,7 @@ const data: DecisionPageData = {
         {
           industry: "E-Commerce / Auto Parts",
           headline: "5,600+ contacts segmented and enrolled into automated follow-up",
-          body: "The published WheelsFeels case study is direct proof for the underlying commercial pattern here: a large backlog of leads organized into structured pools, personalized sequences triggered automatically, and Slack alerts when replies show real buying intent.",
+          body: "The published vehicle accessories case study is direct proof for the underlying commercial pattern here: a large backlog of leads organized into structured pools, personalized sequences triggered automatically, and Slack alerts when replies show real buying intent.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

@@ -1,6 +1,12 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-04-29 MDT
+**Last updated:** 2026-05-29 MDT
+
+## Update 2026-05-29 — anonymized vehicle accessories case-study proof
+- Removed public mentions of the vehicle accessories client's company name, founder name, and direct client URL from source pages, case-study metadata, discovery files, guide/decision proof references, and the testimonial asset path.
+- Kept the case-study proof specific: 5,600+ leads reactivated, automated client management/follow-ups, and 3x team capacity.
+- Added a style-learner case-study post/corpus entry for the anonymized public framing and reverted broad analyzer churn.
+- Verification: `rg -i "wheelsfeels|andrey|belke|wheels feels|wheelsfeels\\.com" src public scripts` returned no matches; `npm run build` passed with 527 routes; `rg` over `dist` returned no matches.
 
 ## Update 2026-04-29 — AI phone answering vs voicemail (service businesses)
 - Shipped `/ai-phone-answering-vs-voicemail-for-service-businesses` as the heavier generic phone-cluster comparison page, distinct from the broader AI phone-answering parent and the lighter text-back-vs-AI comparison.

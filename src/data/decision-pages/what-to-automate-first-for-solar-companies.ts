@@ -246,7 +246,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM and follow-up evidence",
-          headline: "The WheelsFeels CRM case study demonstrates why structured lead ownership matters",
+          headline: "The vehicle accessories CRM case study demonstrates why structured lead ownership matters",
           body: "This project shows how automated SMS and email follow-up can manage thousands of leads with total consistency—logic that transfers directly to a solar sales desk or quote follow-up flow.",
           link: "/case-studies/ecommerce-crm-automation",
         },

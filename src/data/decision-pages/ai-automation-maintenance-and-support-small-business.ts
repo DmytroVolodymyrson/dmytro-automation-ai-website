@@ -192,7 +192,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "E-commerce / CRM operations",
-          headline: "WheelsFeels shows the operations side of support: routing, ownership, and follow-up discipline after the build is live",
+          headline: "The vehicle accessories case study shows the operations side of support: routing, ownership, and follow-up discipline after the build is live",
           body: "That project is adjacent proof for why support is often less about rewriting automation from scratch and more about keeping routing, reply handling, and stage ownership dependable once thousands of real contacts and messages move through the system.",
           link: "/case-studies/ecommerce-crm-automation",
         },

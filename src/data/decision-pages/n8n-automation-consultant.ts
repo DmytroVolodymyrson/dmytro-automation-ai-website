@@ -187,7 +187,7 @@ const data: DecisionPageData = {
         {
           industry: "E-commerce",
           headline: "CRM and follow-up automation built on n8n workflows",
-          body: "The WheelsFeels CRM case study shows n8n coordinating contact tagging, follow-up triggers, Slack notifications, and operational visibility. It is adjacent proof for small businesses that need more than a single-step automation.",
+          body: "The vehicle accessories CRM case study shows n8n coordinating contact tagging, follow-up triggers, Slack notifications, and operational visibility. It is adjacent proof for small businesses that need more than a single-step automation.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

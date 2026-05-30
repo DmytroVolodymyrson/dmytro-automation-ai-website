@@ -194,7 +194,7 @@ const data: DecisionPageData = {
         {
           industry: "E-commerce / CRM operations",
           headline: "The downstream system matters as much as lead capture",
-          body: "The WheelsFeels CRM build is adjacent proof for owners hiring around follow-up and pipeline automation. It is not just about collecting leads. It is about the rules, alerts, handoff, and data integrity that make the workflow commercially usable once the lead exists.",
+          body: "The vehicle accessories CRM build is adjacent proof for owners hiring around follow-up and pipeline automation. It is not just about collecting leads. It is about the rules, alerts, handoff, and data integrity that make the workflow commercially usable once the lead exists.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

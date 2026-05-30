@@ -211,7 +211,7 @@ const data: DecisionPageData = {
         },
         {
           heading: "Adjacent proof: CRM automation done right",
-          body: "We built a custom CRM and follow-up automation system for an auto parts e-commerce business (WheelsFeels) that reduced response time from hours to minutes and systematized follow-up that previously depended on individual reps remembering to check a spreadsheet. The tool choice mattered less than the automation design — getting the right message to the right lead at the right time, reliably, without manual intervention. That principle applies whether you are on GoHighLevel, HubSpot, or a custom build.",
+          body: "We built a custom CRM and follow-up automation system for an auto parts e-commerce business (a vehicle accessories e-commerce brand) that reduced response time from hours to minutes and systematized follow-up that previously depended on individual reps remembering to check a spreadsheet. The tool choice mattered less than the automation design — getting the right message to the right lead at the right time, reliably, without manual intervention. That principle applies whether you are on GoHighLevel, HubSpot, or a custom build.",
         },
       ],
     },
@@ -271,7 +271,7 @@ const data: DecisionPageData = {
       href: "/gohighlevel-setup-cost-small-business",
     },
     {
-      label: "E-commerce CRM case study (WheelsFeels)",
+      label: "E-commerce CRM case study (a vehicle accessories e-commerce brand)",
       href: "/case-studies/ecommerce-crm-automation",
     },
     {

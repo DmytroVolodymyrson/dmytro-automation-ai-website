@@ -193,7 +193,7 @@ const data: DecisionPageData = {
         },
         {
           heading: "Adjacent proof: workflow design matters more than the brand",
-          body: "The WheelsFeels e-commerce CRM case study is useful here because it shows the real win was not choosing a fashionable CRM. It was tightening routing, follow-up timing, and visibility so leads stopped slipping through the cracks. That same principle applies whether a business lands on GoHighLevel, Pipedrive, or a hybrid stack: tool choice matters, but workflow discipline matters more.",
+          body: "The vehicle accessories e-commerce CRM case study is useful here because it shows the real win was not choosing a fashionable CRM. It was tightening routing, follow-up timing, and visibility so leads stopped slipping through the cracks. That same principle applies whether a business lands on GoHighLevel, Pipedrive, or a hybrid stack: tool choice matters, but workflow discipline matters more.",
         },
       ],
     },
@@ -249,7 +249,7 @@ const data: DecisionPageData = {
       href: "/gohighlevel-automation-setup",
     },
     {
-      label: "E-commerce CRM case study (WheelsFeels)",
+      label: "E-commerce CRM case study (a vehicle accessories e-commerce brand)",
       href: "/case-studies/ecommerce-crm-automation",
     },
     {

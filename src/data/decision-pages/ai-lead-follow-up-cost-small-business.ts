@@ -183,7 +183,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "E-commerce / high-volume follow-up",
-          headline: "WheelsFeels shows what follow-up workflow complexity looks like",
+          headline: "The vehicle accessories case study shows what follow-up workflow complexity looks like",
           body: "The e-commerce CRM case study is adjacent proof for the higher end of pricing. Once follow-up touches thousands of leads, routing, status tracking, alerts, and clean CRM ownership matter more than the messages alone.",
           link: "/case-studies/ecommerce-crm-automation",
         },

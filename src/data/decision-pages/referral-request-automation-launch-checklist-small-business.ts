@@ -205,7 +205,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM lifecycle proof",
-          headline: "The WheelsFeels CRM case study proves why state truth, routing, and next-step ownership matter after a customer milestone changes",
+          headline: "The vehicle accessories CRM case study proves why state truth, routing, and next-step ownership matter after a customer milestone changes",
           body: "Different exact workflow, same operational lesson. Valuable follow-through only works when the business can trust the stage change, see the reply, and know who owns the next move. A referral-request launch depends on the same mechanics.",
           link: "/case-studies/ecommerce-crm-automation",
         },

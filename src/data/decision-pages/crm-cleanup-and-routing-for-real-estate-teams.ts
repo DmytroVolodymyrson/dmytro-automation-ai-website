@@ -197,7 +197,7 @@ const data: DecisionPageData = {
         {
           industry: "Published CRM case study",
           headline: "The 5,600+ lead CRM build proves the value of stage clarity, ownership, and visible next actions before automation scales",
-          body: "The WheelsFeels CRM case study is not a real-estate deployment, but it does show the same operating principle: if records, stages, and next-action ownership are not clean, follow-up automation and reporting become noisy instead of useful.",
+          body: "The vehicle accessories CRM case study is not a real-estate deployment, but it does show the same operating principle: if records, stages, and next-action ownership are not clean, follow-up automation and reporting become noisy instead of useful.",
           link: "/case-studies/ecommerce-crm-automation",
         },
       ],

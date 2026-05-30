@@ -25,7 +25,7 @@ const data: DecisionPageData = {
   badgeIcon: Car,
   h1: "AI Automation for Auto Parts E-Commerce",
   heroIntro:
-    "AI automation is usually worth it for an auto parts brand when one of four leaks is already expensive: mixed customer inquiries buried in one queue, fitment questions losing momentum because context is missing, quote conversations dying after pricing goes out, or old inquiry-stage leads sitting untouched in the CRM. WheelsFeels is the clearest proof on this site. Dmytro built a CRM and follow-up system for WheelsFeels that organized 5,600+ contacts, triggered automated email follow-up, and pushed high-intent replies into Slack so the team could act faster. The practical lesson is not that every store needs a giant rebuild. It is that auto parts operations usually improve fastest when one of those revenue-critical workflows gets cleaned up end-to-end first.",
+    "AI automation is usually worth it for an auto parts brand when one of four leaks is already expensive: mixed customer inquiries buried in one queue, fitment questions losing momentum because context is missing, quote conversations dying after pricing goes out, or old inquiry-stage leads sitting untouched in the CRM. A vehicle accessories e-commerce brand is the clearest proof on this site. Dmytro built a CRM and follow-up system for a vehicle accessories e-commerce brand that organized 5,600+ contacts, triggered automated email follow-up, and pushed high-intent replies into Slack so the team could act faster. The practical lesson is not that every store needs a giant rebuild. It is that auto parts operations usually improve fastest when one of those revenue-critical workflows gets cleaned up end-to-end first.",
   heroSubtext:
     "Below: the auto-parts workflows that are actually worth automating, how to decide between mixed inquiry routing, fitment intake, quote follow-up, and stale-lead recovery, and which related guides to read next before you force a broader CRM rollout.",
   sections: [
@@ -181,7 +181,7 @@ const data: DecisionPageData = {
         {
           industry: "Auto Parts E-Commerce",
           headline: "5,600+ leads organized and enrolled into automated follow-up",
-          body: "For WheelsFeels, Dmytro built a CRM and follow-up system that segmented thousands of contacts, triggered personalized email sequences, and gave the team instant Slack visibility on replies. That is direct proof for this exact vertical.",
+          body: "For a vehicle accessories e-commerce brand, Dmytro built a CRM and follow-up system that segmented thousands of contacts, triggered personalized email sequences, and gave the team instant Slack visibility on replies. That is direct proof for this exact vertical.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

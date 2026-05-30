@@ -60,7 +60,7 @@ const data: DecisionPageData = {
           body: "A good ROI estimate gets stronger when it is tied to a real workflow and published outcome. Use the proof paths below when the decision depends on whether similar lead-handling, phone, or CRM work already produced measurable gains in production.",
           links: [
             { label: "Paris Cafe voice-agent case study", href: "/case-studies/paris-cafe-voice-agent" },
-            { label: "WheelsFeels CRM case study", href: "/case-studies/ecommerce-crm-automation" },
+            { label: "vehicle accessories CRM case study", href: "/case-studies/ecommerce-crm-automation" },
             { label: "Instagram lead-generation case study", href: "/case-studies/instagram-lead-generation" },
           ],
         },
@@ -143,7 +143,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM routing / multi-step follow-up",
-          headline: "WheelsFeels: 5,600+ contacts activated and a 3x team-capacity lift",
+          headline: "A vehicle accessories e-commerce brand: 5,600+ contacts activated and a 3x team-capacity lift",
           body: "Use this proof path when the quote covers CRM cleanup, routing, stale-lead recovery, and multi-step follow-up instead of one simple trigger. It is the clearest adjacent case for why a broader automation system can still pay for itself if it removes enough manual admin and rescues enough pipeline value.",
           link: "/case-studies/ecommerce-crm-automation",
         },

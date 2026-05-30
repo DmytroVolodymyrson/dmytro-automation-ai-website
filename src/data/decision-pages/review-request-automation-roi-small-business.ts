@@ -194,7 +194,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM lifecycle proof",
-          headline: "The WheelsFeels CRM case study proves why milestone-based follow-through and ownership clarity create measurable business value",
+          headline: "The vehicle accessories CRM case study proves why milestone-based follow-through and ownership clarity create measurable business value",
           body: "That project is not a review-request automation system, but it is direct published proof that valuable follow-up gets lost when ownership after a milestone is weak. Review-request ROI depends on the same discipline: detect the right moment, follow up consistently, and route replies clearly.",
           link: "/case-studies/ecommerce-crm-automation",
         },

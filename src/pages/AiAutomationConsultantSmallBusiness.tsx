@@ -50,7 +50,7 @@ const faqItems = [
   {
     question: "What if I'm not sure what to automate first?",
     answer:
-      "That's exactly what the initial call is for. We'll walk through your current workflows, identify where time and money are leaking, and figure out the highest-impact first move. If you want to self-diagnose before booking, compare the Paris Cafe case study for phone coverage and booking flow, the WheelsFeels case study for CRM cleanup and lead follow-up, and the best-first-automation guide for the most common small-business starting points. You don't need to arrive with a perfect plan. That's my job.",
+      "That's exactly what the initial call is for. We'll walk through your current workflows, identify where time and money are leaking, and figure out the highest-impact first move. If you want to self-diagnose before booking, compare the Paris Cafe case study for phone coverage and booking flow, the vehicle accessories case study for CRM cleanup and lead follow-up, and the best-first-automation guide for the most common small-business starting points. You don't need to arrive with a perfect plan. That's my job.",
   },
   {
     question: "What does a first consultant project usually turn into?",
@@ -320,8 +320,8 @@ const AiAutomationConsultantSmallBusiness = () => {
                   href: "/case-studies/paris-cafe-voice-agent",
                 },
                 {
-                  title: "WheelsFeels — CRM cleanup and lead follow-up",
-                  body: "Use this if your CRM is messy, old leads sit untouched, or the team does too much manual follow-up. WheelsFeels automated follow-up for 5,600+ leads and improved conversion by 185%.",
+                  title: "A vehicle accessories e-commerce brand — CRM cleanup and lead follow-up",
+                  body: "Use this if your CRM is messy, old leads sit untouched, or the team does too much manual follow-up. A vehicle accessories e-commerce brand automated follow-up for 5,600+ leads and improved conversion by 185%.",
                   href: "/case-studies/ecommerce-crm-automation",
                 },
                 {

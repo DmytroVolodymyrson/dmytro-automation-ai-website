@@ -195,7 +195,7 @@ const data: DecisionPageData = {
         {
           industry: "E-commerce / CRM operations",
           headline: "5,600+ contacts organized and automated by one consultant",
-          body: "The WheelsFeels CRM build replaced what would have been months of in-house work with a focused consultant engagement. The full system — lead routing, follow-up sequences, tagging, alerts — was live before a new hire would have finished learning the CRM.",
+          body: "The vehicle accessories CRM build replaced what would have been months of in-house work with a focused consultant engagement. The full system — lead routing, follow-up sequences, tagging, alerts — was live before a new hire would have finished learning the CRM.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

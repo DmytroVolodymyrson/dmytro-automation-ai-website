@@ -202,7 +202,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM workflow proof",
-          headline: "The WheelsFeels CRM case study shows the downstream cost of weak workflow trust",
+          headline: "The vehicle accessories CRM case study shows the downstream cost of weak workflow trust",
           body: "Different stack shape, same operational lesson. When stage truth, alerting, and follow-up discipline drift, the team falls back to manual workarounds quickly. A real audit exists to catch that before more automation gets layered on top.",
           link: "/case-studies/ecommerce-crm-automation",
         },

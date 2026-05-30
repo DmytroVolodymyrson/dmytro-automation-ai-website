@@ -187,7 +187,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM lifecycle proof",
-          headline: "The WheelsFeels CRM case study proves the value of cleaner stage tracking, follow-up discipline, and stale-opportunity visibility",
+          headline: "The vehicle accessories CRM case study proves the value of cleaner stage tracking, follow-up discipline, and stale-opportunity visibility",
           body: "That project is not a quote-follow-up ROI build, but it is real published proof that recoverable opportunities get lost when stage ownership is messy and structured follow-up is weak. Those are the mechanics this ROI page is evaluating financially.",
           link: "/case-studies/ecommerce-crm-automation",
         },

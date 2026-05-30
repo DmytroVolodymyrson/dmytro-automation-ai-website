@@ -178,7 +178,7 @@ const data: DecisionPageData = {
         {
           industry: "E-Commerce / Auto Parts",
           headline: "5,600+ contacts organized and followed up without manual chasing",
-          body: "The WheelsFeels case study is the clearest direct proof. A custom CRM and automation layer centralized thousands of contacts, automated follow-up, pushed alerts into Slack, and gave the team a way to work far more conversations without relying on scattered manual habits.",
+          body: "The vehicle accessories case study is the clearest direct proof. A custom CRM and automation layer centralized thousands of contacts, automated follow-up, pushed alerts into Slack, and gave the team a way to work far more conversations without relying on scattered manual habits.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

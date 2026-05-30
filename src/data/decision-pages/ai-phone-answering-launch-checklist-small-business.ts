@@ -206,7 +206,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM handoff proof",
-          headline: "The WheelsFeels CRM case study shows why captured conversations still need clean state truth and next-step ownership behind them",
+          headline: "The vehicle accessories CRM case study shows why captured conversations still need clean state truth and next-step ownership behind them",
           body: "That project is adjacent proof for the back half of the release checklist: summaries, routing, logging, follow-up ownership, and why the workflow is not truly live if the office still has to reconstruct everything manually.",
           link: "/case-studies/ecommerce-crm-automation",
         },

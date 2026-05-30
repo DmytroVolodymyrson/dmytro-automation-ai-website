@@ -173,7 +173,7 @@ const data: DecisionPageData = {
         {
           industry: "E-Commerce / Auto Parts",
           headline: "5,600+ contacts centralized with automated follow-up and internal visibility",
-          body: "The published WheelsFeels case study is the direct proof anchor here. It shows the operating layer that customer-service automation depends on: centralized records, automated follow-up, segmentation, and internal visibility instead of scattered manual coordination.",
+          body: "The published vehicle accessories case study is the direct proof anchor here. It shows the operating layer that customer-service automation depends on: centralized records, automated follow-up, segmentation, and internal visibility instead of scattered manual coordination.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

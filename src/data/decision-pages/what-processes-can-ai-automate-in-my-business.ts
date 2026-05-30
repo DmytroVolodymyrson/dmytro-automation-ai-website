@@ -172,7 +172,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "E-commerce / CRM and follow-up",
-          headline: "WheelsFeels shows the value of cleaning up follow-up and routing before adding more volume",
+          headline: "The vehicle accessories case study shows the value of cleaning up follow-up and routing before adding more volume",
           body: "The published e-commerce CRM case study is direct proof that centralized contact data, structured follow-up, and cleaner ownership can unlock real operational value. For many businesses, follow-up and CRM hygiene are the right early-stage automation targets for that reason.",
           link: "/case-studies/ecommerce-crm-automation",
         },

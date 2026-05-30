@@ -192,7 +192,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM workflow design",
-          headline: "The WheelsFeels CRM case study shows the downstream cost of stage drift and unclear ownership",
+          headline: "The vehicle accessories CRM case study shows the downstream cost of stage drift and unclear ownership",
           body: "That published build is adjacent proof for the pain cleanup buyers actually feel: messy state changes, weak handoff, and workflow trust eroding until manual work creeps back in. The rebuild-vs-cleanup decision exists to stop that erosion from compounding.",
           link: "/case-studies/ecommerce-crm-automation",
         },

@@ -148,7 +148,7 @@ const data: DecisionPageData = {
       studies: [
         {
           industry: "CRM workflow design",
-          headline: "WheelsFeels CRM shows what multi-system follow-up and handoff design actually costs to get right",
+          headline: "vehicle accessories CRM shows what multi-system follow-up and handoff design actually costs to get right",
           body: "The e-commerce CRM case study is strong adjacent proof for the economics on this page: once a workflow touches tagging, follow-up, Slack notifications, and operational visibility, clean implementation is worth more than a cheap but fragile build. That is exactly the kind of judgment work a GHL consultant should absorb.",
           link: "/case-studies/ecommerce-crm-automation",
         },

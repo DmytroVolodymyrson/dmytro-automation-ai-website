@@ -191,7 +191,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "E-commerce / high-volume follow-up",
-          headline: "WheelsFeels shows why routing and sequence discipline matter",
+          headline: "The vehicle accessories case study shows why routing and sequence discipline matter",
           body: "The e-commerce CRM case study is adjacent proof for the higher end of lead-follow-up ROI. Once follow-up touches thousands of leads, CRM ownership, sequencing, and visibility matter as much as the message copy itself.",
           link: "/case-studies/ecommerce-crm-automation",
         },

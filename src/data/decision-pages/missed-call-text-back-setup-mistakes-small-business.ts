@@ -200,7 +200,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM handoff proof",
-          headline: "The WheelsFeels CRM case study shows why captured conversations still need clean state and next-step ownership behind them",
+          headline: "The vehicle accessories CRM case study shows why captured conversations still need clean state and next-step ownership behind them",
           body: "That project is adjacent proof for the back half of a missed-call text-back workflow: logging, tagging, summaries, and follow-up ownership still determine whether the business gets real leverage after the first message fires.",
           link: "/case-studies/ecommerce-crm-automation",
         },

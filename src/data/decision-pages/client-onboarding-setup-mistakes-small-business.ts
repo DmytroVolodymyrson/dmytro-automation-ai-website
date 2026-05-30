@@ -218,7 +218,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM lifecycle proof",
-          headline: "The WheelsFeels CRM case study proves why captured contacts still need clean state, routing, and next-step ownership behind them",
+          headline: "The vehicle accessories CRM case study proves why captured contacts still need clean state, routing, and next-step ownership behind them",
           body: "Different exact workflow, same operational lesson. The published CRM case study shows that new client relationships only become reliable revenue when the business can trust stage ownership, follow-up visibility, and downstream handoff after a client signs.",
           link: "/case-studies/ecommerce-crm-automation",
         },

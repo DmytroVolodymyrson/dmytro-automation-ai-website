@@ -196,7 +196,7 @@ const data: DecisionPageData = {
         {
           industry: "CRM follow-up and handoff",
           headline: "The published CRM case study shows what proper routing and stage ownership protect operationally",
-          body: "The WheelsFeels CRM case study is not an estimate-follow-up setup build, but it proves the downstream value of clean stages, structured follow-up, and fast handoff once interest returns. That is the operational logic behind paying for setup help when estimate recovery becomes revenue-critical.",
+          body: "The vehicle accessories CRM case study is not an estimate-follow-up setup build, but it proves the downstream value of clean stages, structured follow-up, and fast handoff once interest returns. That is the operational logic behind paying for setup help when estimate recovery becomes revenue-critical.",
           link: "/case-studies/ecommerce-crm-automation",
         },
       ],

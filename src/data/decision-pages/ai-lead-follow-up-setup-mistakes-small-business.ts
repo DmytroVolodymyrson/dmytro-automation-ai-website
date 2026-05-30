@@ -195,7 +195,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM follow-through proof",
-          headline: "The WheelsFeels CRM case study shows why routing and ownership mistakes get expensive fast",
+          headline: "The vehicle accessories CRM case study shows why routing and ownership mistakes get expensive fast",
           body: "The published CRM automation case study is adjacent proof for the back half of this workflow: once follow-up starts, the value depends on clean handoff, trustworthy pipeline state, and clear next-step ownership instead of disconnected messages.",
           link: "/case-studies/ecommerce-crm-automation",
         },

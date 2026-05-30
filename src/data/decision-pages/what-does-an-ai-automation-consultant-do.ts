@@ -55,7 +55,7 @@ const data: DecisionPageData = {
         },
         {
           heading: "Proof from real builds",
-          body: "The Paris Cafe AI voice agent project shows what consultant-level call-flow design looks like in production — after-hours handling, booking path, and fallback discipline with live guests. The WheelsFeels CRM automation project shows the operational side: reply routing, follow-up coordination, and CRM ownership that makes the workflow commercially usable once real customers start responding.",
+          body: "The Paris Cafe AI voice agent project shows what consultant-level call-flow design looks like in production — after-hours handling, booking path, and fallback discipline with live guests. The vehicle accessories CRM automation project shows the operational side: reply routing, follow-up coordination, and CRM ownership that makes the workflow commercially usable once real customers start responding.",
         },
       ],
     },
@@ -80,7 +80,7 @@ const data: DecisionPageData = {
           body: "You want to see real builds, not promises. These case studies show what a consultant actually delivered, how the workflow runs, and what the business got out of it.",
           links: [
             { label: "Paris Cafe voice agent build", href: "/case-studies/paris-cafe-voice-agent" },
-            { label: "WheelsFeels CRM automation build", href: "/case-studies/ecommerce-crm-automation" },
+            { label: "vehicle accessories CRM automation build", href: "/case-studies/ecommerce-crm-automation" },
           ],
         },
         {
@@ -151,7 +151,7 @@ const data: DecisionPageData = {
           body: "A consultant should account for duplicate submissions, bad contact data, mid-sequence replies, missed transfers, and after-hours edge cases. The deliverable is not a demo. It is a working system with ownership, documentation, and enough safeguards that the business can depend on it.",
           links: [
             { label: "Paris Cafe proof", href: "/case-studies/paris-cafe-voice-agent" },
-            { label: "WheelsFeels CRM proof", href: "/case-studies/ecommerce-crm-automation" },
+            { label: "vehicle accessories CRM proof", href: "/case-studies/ecommerce-crm-automation" },
           ],
         },
       ],
@@ -183,7 +183,7 @@ const data: DecisionPageData = {
           body: "The first consultant-sized project should usually look like one production workflow with a measurable outcome, not a broad stack migration. That gives you a live proof asset inside your own business: faster response, cleaner routing, recovered leads, or fewer dropped calls. Once that works, it becomes obvious whether to expand into follow-up, reactivation, or broader operating-system cleanup.",
           links: [
             { label: "Best AI automations for service businesses", href: "/best-ai-automation-for-service-businesses" },
-            { label: "WheelsFeels CRM automation proof", href: "/case-studies/ecommerce-crm-automation" },
+            { label: "vehicle accessories CRM automation proof", href: "/case-studies/ecommerce-crm-automation" },
             { label: "Automation without a tech team", href: "/ai-automation-for-businesses-without-a-tech-team" },
           ],
         },
@@ -328,7 +328,7 @@ const data: DecisionPageData = {
         {
           industry: "E-commerce / CRM operations",
           headline: "Operations work often lives in the handoff, not the headline feature",
-          body: "The WheelsFeels CRM project is adjacent proof for what a consultant actually does behind the scenes: route replies, coordinate follow-up, keep ownership clean, and make the automation commercially usable once leads or customers start responding.",
+          body: "The vehicle accessories CRM project is adjacent proof for what a consultant actually does behind the scenes: route replies, coordinate follow-up, keep ownership clean, and make the automation commercially usable once leads or customers start responding.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

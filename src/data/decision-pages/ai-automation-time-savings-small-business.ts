@@ -167,7 +167,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "E-commerce / CRM follow-up and routing",
-          headline: "WheelsFeels proves how much admin drag disappears when follow-up and ownership get structured",
+          headline: "A vehicle accessories e-commerce brand proves how much admin drag disappears when follow-up and ownership get structured",
           body: "The e-commerce CRM case study is direct proof that centralized contact handling, automated follow-up, and alerting remove a large amount of manual chasing. It is not just about revenue recovery. It is also about fewer scattered follow-up tasks living in inboxes and Slack threads.",
           link: "/case-studies/ecommerce-crm-automation",
         },

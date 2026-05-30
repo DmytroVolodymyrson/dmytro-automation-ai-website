@@ -208,7 +208,7 @@ const data: DecisionPageData = {
         {
           industry: "Auto Parts E-Commerce",
           headline: "5,600+ leads organized with segmentation, automated follow-up, and Slack visibility",
-          body: "The WheelsFeels case study is direct proof for the vertical and for the system design logic behind this page: structured intake, segmented records, automated follow-up, and instant alerts for high-intent replies instead of inbox chaos.",
+          body: "The vehicle accessories case study is direct proof for the vertical and for the system design logic behind this page: structured intake, segmented records, automated follow-up, and instant alerts for high-intent replies instead of inbox chaos.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

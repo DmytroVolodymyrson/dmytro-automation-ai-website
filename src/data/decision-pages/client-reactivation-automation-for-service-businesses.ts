@@ -208,7 +208,7 @@ const data: DecisionPageData = {
         {
           industry: "E-commerce CRM automation",
           headline: "The published CRM case study proves database segmentation and automated re-engagement at scale",
-          body: "The WheelsFeels project organized thousands of contacts, built multi-step follow-up sequences, and routed reactivated demand back to the team. The same segmentation and outreach logic powers service-business reactivation across trades.",
+          body: "The a vehicle accessories e-commerce brand project organized thousands of contacts, built multi-step follow-up sequences, and routed reactivated demand back to the team. The same segmentation and outreach logic powers service-business reactivation across trades.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

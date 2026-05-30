@@ -190,7 +190,7 @@ const data: DecisionPageData = {
         {
           industry: "CRM follow-up",
           headline: "Captured leads still need clean downstream automation",
-          body: "The WheelsFeels CRM case study is adjacent proof for the back half of the workflow: once a lead is captured, the real value comes from clean CRM logging, alerts, follow-up, and handoff instead of letting the conversation die in a disconnected inbox.",
+          body: "The vehicle accessories CRM case study is adjacent proof for the back half of the workflow: once a lead is captured, the real value comes from clean CRM logging, alerts, follow-up, and handoff instead of letting the conversation die in a disconnected inbox.",
           link: "/case-studies/ecommerce-crm-automation",
         },
       ],

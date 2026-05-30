@@ -155,7 +155,7 @@ const data: DecisionPageData = {
         {
           industry: "E-commerce CRM",
           headline: "5,600+ leads organized with automated follow-up and Slack visibility",
-          body: "The WheelsFeels build shows the CRM side of the problem clearly: contact organization, tagging, follow-up logic, and internal visibility. Contractors need the same discipline even if the pipeline stages are different.",
+          body: "The a vehicle accessories e-commerce brand build shows the CRM side of the problem clearly: contact organization, tagging, follow-up logic, and internal visibility. Contractors need the same discipline even if the pipeline stages are different.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

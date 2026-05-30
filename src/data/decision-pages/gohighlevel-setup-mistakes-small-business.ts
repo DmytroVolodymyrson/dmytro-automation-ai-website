@@ -194,7 +194,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM workflow proof",
-          headline: "The WheelsFeels CRM case study shows why state truth and ownership matter more than a pretty dashboard",
+          headline: "The vehicle accessories CRM case study shows why state truth and ownership matter more than a pretty dashboard",
           body: "That project is adjacent proof for the same setup mistakes this page warns about: weak stage logic, manual workarounds, inconsistent follow-up state, and systems that stop being trustworthy when the workflow model is not designed carefully.",
           link: "/case-studies/ecommerce-crm-automation",
         },

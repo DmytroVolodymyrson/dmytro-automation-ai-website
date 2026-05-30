@@ -80,10 +80,10 @@ const data: DecisionPageData = {
         {
           icon: GitBranch,
           title: "You have a small team but nobody owns the follow-up process",
-          body: "If leads come in and sit because everyone assumes someone else will handle them, the problem is not missing tech. It is unclear workflow ownership. The right first project here is not more software features — it is a routing and handoff system that tags every lead, assigns clear ownership, and notifies the right person when a follow-up is due. WheelsFeels ran this pattern across 5,600+ leads: the automation handled segmentation, routing, and sequencing while the team focused on conversations that were actually ready to close.",
+          body: "If leads come in and sit because everyone assumes someone else will handle them, the problem is not missing tech. It is unclear workflow ownership. The right first project here is not more software features — it is a routing and handoff system that tags every lead, assigns clear ownership, and notifies the right person when a follow-up is due. A vehicle accessories e-commerce brand ran this pattern across 5,600+ leads: the automation handled segmentation, routing, and sequencing while the team focused on conversations that were actually ready to close.",
           links: [
             { label: "AI automation audit checklist", href: "/ai-automation-audit-checklist" },
-            { label: "WheelsFeels CRM case study", href: "/case-studies/ecommerce-crm-automation" },
+            { label: "vehicle accessories CRM case study", href: "/case-studies/ecommerce-crm-automation" },
             { label: "What does a consultant actually do?", href: "/what-does-an-ai-automation-consultant-do" },
           ],
         },
@@ -215,7 +215,7 @@ const data: DecisionPageData = {
         },
         {
           heading: "Use published proof to judge what is realistic",
-          body: "Three documented builds on this site show what non-technical operators can expect. Paris Cafe went from zero after-hours phone coverage to 100% calls answered with sub-60-second lead replies and roughly 15 hours of management time freed per week — no internal developer required. WheelsFeels replaced fragmented spreadsheet follow-up with structured CRM routing across 5,600+ leads, lifting conversion by 185% with automation handling segmentation and sequencing. The Instagram lead-generation build turned a manual prospecting workflow into a consistent 50+ qualified-leads-per-day system. None of that means every business needs the same scope. It means well-scoped automation works without a tech department when the workflow is narrow and the rules are clear.",
+          body: "Three documented builds on this site show what non-technical operators can expect. Paris Cafe went from zero after-hours phone coverage to 100% calls answered with sub-60-second lead replies and roughly 15 hours of management time freed per week — no internal developer required. A vehicle accessories e-commerce brand replaced fragmented spreadsheet follow-up with structured CRM routing across 5,600+ leads, lifting conversion by 185% with automation handling segmentation and sequencing. The Instagram lead-generation build turned a manual prospecting workflow into a consistent 50+ qualified-leads-per-day system. None of that means every business needs the same scope. It means well-scoped automation works without a tech department when the workflow is narrow and the rules are clear.",
         },
       ],
     },
@@ -403,7 +403,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "E-commerce",
-          headline: "WheelsFeels replaced spreadsheet-level follow-up with a structured CRM system",
+          headline: "A vehicle accessories e-commerce brand replaced spreadsheet-level follow-up with a structured CRM system",
           body: "The business was working a large lead database with fragmented follow-up. The automation stack now handles routing, segmentation, and follow-up across 5,600+ leads, helping lift conversion by 185%. The useful lesson for small businesses is not the exact channel mix. It is that operational clarity matters more than having in-house developers.",
           link: "/case-studies/ecommerce-crm-automation",
         },

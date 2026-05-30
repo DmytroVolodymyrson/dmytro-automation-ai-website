@@ -26,7 +26,7 @@ const findYourFit = [
   },
   {
     problem: "CRM is messy or leads are going stale?",
-    answer: "Read the WheelsFeels CRM automation case study.",
+    answer: "Read the vehicle accessories CRM automation case study.",
     href: "/case-studies/ecommerce-crm-automation",
   },
   {
@@ -55,12 +55,12 @@ const faqItems = [
   {
     question: "Which case study should I read first?",
     answer:
-      "If outbound costs are the bottleneck, start with the marketing agency case. If missed calls or booking gaps are the problem, start with Paris Cafe. If your CRM is messy or leads are going stale, start with the WheelsFeels CRM build. If borrower files or mortgage leads keep going cold, start with the mortgage broker workflow. If your team is drowning in raw leads, start with the Marketplace qualification workflow.",
+      "If outbound costs are the bottleneck, start with the marketing agency case. If missed calls or booking gaps are the problem, start with Paris Cafe. If your CRM is messy or leads are going stale, start with the vehicle accessories CRM build. If borrower files or mortgage leads keep going cold, start with the mortgage broker workflow. If your team is drowning in raw leads, start with the Marketplace qualification workflow.",
   },
   {
     question: "Can these examples apply outside the exact same industry?",
     answer:
-      "Yes. The value is in the workflow pattern, not the industry label. A restaurant phone-coverage case study helps any service business thinking about AI appointment setting. The WheelsFeels CRM cleanup applies to any business evaluating lead follow-up and reactivation systems.",
+      "Yes. The value is in the workflow pattern, not the industry label. A restaurant phone-coverage case study helps any service business thinking about AI appointment setting. The vehicle accessories CRM cleanup applies to any business evaluating lead follow-up and reactivation systems.",
   },
   {
     question: "Why do some case studies include evidence notes?",
@@ -93,7 +93,7 @@ const collectionPageSchema = {
   "@type": "CollectionPage",
   name: "AI Automation Case Studies | Dmytro AI",
   description:
-    "Six documented AI automation case studies for small and service businesses by Dmytro AI: outbound video automation for a marketing agency, WheelsFeels CRM and lead follow-up, mortgage broker lead follow-up, a restaurant voice agent, Instagram lead generation, and Facebook Marketplace lead qualification.",
+    "Six documented AI automation case studies for small and service businesses by Dmytro AI: outbound video automation for a marketing agency, vehicle accessories CRM and lead follow-up, mortgage broker lead follow-up, a restaurant voice agent, Instagram lead generation, and Facebook Marketplace lead qualification.",
   url: "https://www.dmytroai.com/case-studies",
   isPartOf: {
     "@type": "WebSite",
@@ -139,7 +139,7 @@ const CaseStudies = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>AI Automation Case Studies | Dmytro AI</title>
-        <meta name="description" content="Six documented AI automation case studies: outbound video automation saving $9,000/month, WheelsFeels CRM reactivating 5,600+ leads, mortgage broker follow-up, a restaurant voice agent, Instagram lead generation, and Facebook Marketplace lead qualification. Real systems, measurable outcomes." />
+        <meta name="description" content="Six documented AI automation case studies: outbound video automation saving $9,000/month, vehicle accessories CRM reactivating 5,600+ leads, mortgage broker follow-up, a restaurant voice agent, Instagram lead generation, and Facebook Marketplace lead qualification. Real systems, measurable outcomes." />
         <link rel="canonical" href="https://www.dmytroai.com/case-studies" />
         <meta property="og:title" content="AI Automation Case Studies | Dmytro AI" />
         <meta property="og:description" content="Documented AI automation builds for small and service businesses. Real systems, real problems, measurable outcomes." />

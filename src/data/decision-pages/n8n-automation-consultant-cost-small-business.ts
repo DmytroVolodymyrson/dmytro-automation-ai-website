@@ -155,7 +155,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "E-commerce",
-          headline: "WheelsFeels shows what multi-system CRM automation actually looks like",
+          headline: "The vehicle accessories case study shows what multi-system CRM automation actually looks like",
           body: "The e-commerce CRM case study is strong adjacent proof for the economics on this page: once a workflow touches tagging, follow-up, Slack notifications, and operational visibility, clean implementation is worth more than a cheap but fragile build.",
           link: "/case-studies/ecommerce-crm-automation",
         },

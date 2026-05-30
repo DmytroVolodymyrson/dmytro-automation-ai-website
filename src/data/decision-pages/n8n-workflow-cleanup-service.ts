@@ -206,7 +206,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "E-commerce CRM",
-          headline: "The WheelsFeels CRM case study shows the downstream cost of messy workflow ownership",
+          headline: "The vehicle accessories CRM case study shows the downstream cost of messy workflow ownership",
           body: "The e-commerce CRM build is adjacent proof for the problem cleanup buyers actually feel: stage drift, alert noise, weak handoff, and follow-up that becomes manual because the system can no longer be trusted. Cleanup work exists to stop that erosion before more logic gets layered on top.",
           link: "/case-studies/ecommerce-crm-automation",
         },

@@ -211,11 +211,11 @@ const data: DecisionPageData = {
         {
           icon: Users,
           title: "Long sales cycle with follow-up-heavy leads",
-          body: "Your leads need multiple touches before they commit — estimates, consultations, proposals, or quote comparisons. The first automation is a structured follow-up sequence that keeps working the lead after the first touch instead of relying on someone to remember. WheelsFeels used this pattern across 5,600+ contacts and saw a 185% conversion lift.",
+          body: "Your leads need multiple touches before they commit — estimates, consultations, proposals, or quote comparisons. The first automation is a structured follow-up sequence that keeps working the lead after the first touch instead of relying on someone to remember. A vehicle accessories e-commerce brand used this pattern across 5,600+ contacts and saw a 185% conversion lift.",
           links: [
             { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
             { label: "Lead follow-up automation examples", href: "/lead-follow-up-automation-examples" },
-            { label: "WheelsFeels CRM case study", href: "/case-studies/ecommerce-crm-automation" },
+            { label: "vehicle accessories CRM case study", href: "/case-studies/ecommerce-crm-automation" },
           ],
         },
         {
@@ -249,11 +249,11 @@ const data: DecisionPageData = {
         {
           icon: MessageSquare,
           title: "Leads reply once, then go cold",
-          body: "If the first response is already happening but nobody works the lead after that, move into the follow-up cluster. That is where you can compare examples, cost, and the WheelsFeels proof before deciding how much automation depth you actually need.",
+          body: "If the first response is already happening but nobody works the lead after that, move into the follow-up cluster. That is where you can compare examples, cost, and the vehicle accessories proof before deciding how much automation depth you actually need.",
           links: [
             { label: "AI lead follow-up for service businesses", href: "/ai-lead-follow-up-for-service-businesses" },
             { label: "Lead follow-up automation examples", href: "/lead-follow-up-automation-examples" },
-            { label: "WheelsFeels CRM case study", href: "/case-studies/ecommerce-crm-automation" },
+            { label: "vehicle accessories CRM case study", href: "/case-studies/ecommerce-crm-automation" },
           ],
         },
         {
@@ -353,8 +353,8 @@ const data: DecisionPageData = {
         },
         {
           industry: "E-commerce / CRM and follow-up sequences",
-          headline: "WheelsFeels: structured follow-up for 5,600+ leads",
-          body: "WheelsFeels automated CRM follow-up sequences for 5,600+ leads. Conversion rate increased by 185% through segmented, timed outreach. This is direct proof that follow-up sequences recover revenue that manual processes leave on the table.",
+          headline: "A vehicle accessories e-commerce brand: structured follow-up for 5,600+ leads",
+          body: "A vehicle accessories e-commerce brand automated CRM follow-up sequences for 5,600+ leads. Conversion rate increased by 185% through segmented, timed outreach. This is direct proof that follow-up sequences recover revenue that manual processes leave on the table.",
           link: "/case-studies/ecommerce-crm-automation",
         },
       ],

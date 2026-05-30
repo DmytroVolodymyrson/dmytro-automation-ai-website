@@ -179,7 +179,7 @@ const data: DecisionPageData = {
         {
           industry: "E-Commerce / Auto Parts",
           headline: "5,600+ contacts organized with automated follow-up and Slack visibility",
-          body: "The published WheelsFeels e-commerce CRM case study is direct proof for the operating layer this workflow depends on: centralized records, automated follow-up, segmented routing, and internal alerts when a human should step in fast.",
+          body: "The published vehicle accessories e-commerce CRM case study is direct proof for the operating layer this workflow depends on: centralized records, automated follow-up, segmented routing, and internal alerts when a human should step in fast.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

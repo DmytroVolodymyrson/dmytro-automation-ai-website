@@ -200,7 +200,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM workflow reliability",
-          headline: "The WheelsFeels CRM case study shows the downstream cost of unclear automation ownership",
+          headline: "The vehicle accessories CRM case study shows the downstream cost of unclear automation ownership",
           body: "That build is adjacent proof for the pain cleanup buyers actually feel: stage drift, alert noise, weak handoff, and follow-up that becomes manual because the system can no longer be trusted. The rebuild-vs-cleanup decision exists to stop that erosion from compounding.",
           link: "/case-studies/ecommerce-crm-automation",
         },

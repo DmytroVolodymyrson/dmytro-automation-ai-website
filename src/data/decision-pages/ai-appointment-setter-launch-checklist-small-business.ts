@@ -207,7 +207,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "Qualification and CRM handoff proof",
-          headline: "The voice-agent qualification guide plus the WheelsFeels CRM case study show why the middle and back half matter",
+          headline: "The voice-agent qualification guide plus the vehicle accessories CRM case study show why the middle and back half matter",
           body: "A working appointment setter is not just about answering first. It has to qualify cleanly, book within real boundaries, log correctly, and hand off reliably so the team does not inherit a new cleanup problem after the conversation ends.",
           link: "/ai-voice-agent-lead-qualification",
         },

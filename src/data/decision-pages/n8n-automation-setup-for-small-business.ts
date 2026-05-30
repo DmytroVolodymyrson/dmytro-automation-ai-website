@@ -205,7 +205,7 @@ const data: DecisionPageData = {
         {
           industry: "E-commerce CRM build",
           headline: "n8n already sits inside a live CRM and follow-up system on this site",
-          body: "The WheelsFeels e-commerce CRM case study is direct proof of n8n coordinating lead stages, follow-up triggers, Slack notifications, and operational visibility. That is not abstract theory. It is setup work tied to a real business workflow.",
+          body: "The vehicle accessories e-commerce CRM case study is direct proof of n8n coordinating lead stages, follow-up triggers, Slack notifications, and operational visibility. That is not abstract theory. It is setup work tied to a real business workflow.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

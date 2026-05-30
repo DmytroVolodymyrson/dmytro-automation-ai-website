@@ -87,7 +87,7 @@ const data: DecisionPageData = {
         },
         {
           heading: "$5K–$12K — Multi-workflow system or AI-powered build",
-          body: "At this budget you are either connecting multiple workflows into a coordinated operating system (lead capture + follow-up + booking + post-appointment review request) or building one higher-complexity AI component like a voice agent. Do not jump here unless the contained first build already proved ROI or your revenue leak is large enough to justify the bigger scope upfront. The WheelsFeels CRM build and the Paris Cafe voice-agent deployment are both examples of this tier in production.",
+          body: "At this budget you are either connecting multiple workflows into a coordinated operating system (lead capture + follow-up + booking + post-appointment review request) or building one higher-complexity AI component like a voice agent. Do not jump here unless the contained first build already proved ROI or your revenue leak is large enough to justify the bigger scope upfront. The vehicle accessories CRM build and the Paris Cafe voice-agent deployment are both examples of this tier in production.",
           links: [
             { label: "AI voice agent setup cost", href: "/ai-voice-agent-setup-cost-small-business" },
             { label: "Case studies", href: "/case-studies" },
@@ -171,7 +171,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM + multi-step follow-up ($5K–$12K band)",
-          headline: "WheelsFeels: 5,600+ contacts activated, SMS/email follow-up running hands-free",
+          headline: "A vehicle accessories e-commerce brand: 5,600+ contacts activated, SMS/email follow-up running hands-free",
           body: "This is the closest site proof for owners budgeting multi-step segmentation, routing, reactivation, and CRM cleanup work. It supports why a lead-follow-up or full-system quote costs more than a single trigger: the value comes from the operating system around the messages, not the message alone. If you are considering the upper budget band, this shows what that scope actually delivers.",
           link: "/case-studies/ecommerce-crm-automation",
         },

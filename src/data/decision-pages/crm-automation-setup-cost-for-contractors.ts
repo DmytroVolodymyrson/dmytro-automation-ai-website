@@ -160,7 +160,7 @@ const data: DecisionPageData = {
         {
           industry: "CRM discipline proof",
           headline: "The published 5,600+ lead CRM case study proves why workflow design and ownership matter",
-          body: "The WheelsFeels CRM case study is direct adjacent proof for the economics behind this page: when tagging, follow-up logic, internal visibility, and handoff rules are designed properly, the business stops leaking opportunities through operational mess.",
+          body: "The vehicle accessories CRM case study is direct adjacent proof for the economics behind this page: when tagging, follow-up logic, internal visibility, and handoff rules are designed properly, the business stops leaking opportunities through operational mess.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

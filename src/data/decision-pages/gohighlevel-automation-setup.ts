@@ -214,7 +214,7 @@ const data: DecisionPageData = {
         {
           industry: "E-Commerce",
           headline: "CRM follow-up system built around real lead handling",
-          body: "The WheelsFeels CRM case study is adjacent proof that Dmytro can design lead stages, follow-up logic, and handoffs around how a business actually operates instead of dropping in generic automations.",
+          body: "The vehicle accessories CRM case study is adjacent proof that Dmytro can design lead stages, follow-up logic, and handoffs around how a business actually operates instead of dropping in generic automations.",
           link: "/case-studies/ecommerce-crm-automation",
         },
       ],

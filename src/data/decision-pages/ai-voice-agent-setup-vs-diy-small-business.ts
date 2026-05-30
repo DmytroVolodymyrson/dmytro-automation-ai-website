@@ -196,7 +196,7 @@ const data: DecisionPageData = {
         {
           industry: "Qualification and CRM handoff",
           headline: "The voice-qualification and CRM pages show why the middle and back half matter",
-          body: "The AI voice-agent lead-qualification guide plus the WheelsFeels CRM case study reinforce the same point: a working voice agent is not just about answering first. It has to qualify cleanly, log correctly, and hand off reliably so the team does not inherit a new cleanup problem.",
+          body: "The AI voice-agent lead-qualification guide plus the vehicle accessories CRM case study reinforce the same point: a working voice agent is not just about answering first. It has to qualify cleanly, log correctly, and hand off reliably so the team does not inherit a new cleanup problem.",
           link: "/ai-voice-agent-lead-qualification",
         },
       ],

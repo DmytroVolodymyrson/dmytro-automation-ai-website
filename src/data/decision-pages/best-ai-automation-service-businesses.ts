@@ -43,7 +43,7 @@ const data: DecisionPageData = {
         {
           icon: CheckCircle2,
           title: "I want to see proof before I commit",
-          body: "Start with the case studies. Paris Cafe went from 0% to 100% after-hours call coverage; WheelsFeels automated follow-up for 5,600+ leads with a 185% conversion lift. Then come back here to pick your first build.",
+          body: "Start with the case studies. Paris Cafe went from 0% to 100% after-hours call coverage; a vehicle accessories e-commerce brand automated follow-up for 5,600+ leads with a 185% conversion lift. Then come back here to pick your first build.",
           links: [
             { label: "Case studies with measurable outcomes", href: "/case-studies" },
           ],
@@ -94,9 +94,9 @@ const data: DecisionPageData = {
         {
           icon: MessageSquare,
           title: "Leads coming in but not converting",
-          body: "WheelsFeels automated follow-up for 5,600+ leads and saw a 185% conversion lift through CRM segmentation and instant response. Read this if your leads go cold because nobody follows up consistently.",
+          body: "A vehicle accessories e-commerce brand automated follow-up for 5,600+ leads and saw a 185% conversion lift through CRM segmentation and instant response. Read this if your leads go cold because nobody follows up consistently.",
           links: [
-            { label: "WheelsFeels CRM automation case study", href: "/case-studies/ecommerce-crm-automation" },
+            { label: "vehicle accessories CRM automation case study", href: "/case-studies/ecommerce-crm-automation" },
             { label: "AI lead follow-up guide", href: "/ai-lead-follow-up-for-service-businesses" },
           ],
         },
@@ -169,10 +169,10 @@ const data: DecisionPageData = {
         {
           icon: CheckCircle2,
           title: "You need proof before you hand anything off",
-          body: "Start with the documented outcomes first. Paris Cafe shows what fast phone coverage and booking handoff look like in practice. WheelsFeels shows what disciplined CRM follow-up can do across 5,600+ leads. Read those before you pay for anything broader.",
+          body: "Start with the documented outcomes first. Paris Cafe shows what fast phone coverage and booking handoff look like in practice. The vehicle accessories case study shows what disciplined CRM follow-up can do across 5,600+ leads. Read those before you pay for anything broader.",
           links: [
             { label: "Case studies with measurable outcomes", href: "/case-studies" },
-            { label: "WheelsFeels CRM automation case study", href: "/case-studies/ecommerce-crm-automation" },
+            { label: "vehicle accessories CRM automation case study", href: "/case-studies/ecommerce-crm-automation" },
           ],
         },
         {
@@ -247,8 +247,8 @@ const data: DecisionPageData = {
         },
         {
           industry: "E-commerce & Lead Gen",
-          headline: "CRM & Lead Follow-Up for WheelsFeels",
-          body: "WheelsFeels automated follow-up for 5,600+ leads, increasing conversion rate by 185% through systematic CRM segmentation and instant response. Built on n8n workflows with GoHighLevel CRM and Slack integration.",
+          headline: "CRM & Lead Follow-Up for a vehicle accessories e-commerce brand",
+          body: "A vehicle accessories e-commerce brand automated follow-up for 5,600+ leads, increasing conversion rate by 185% through systematic CRM segmentation and instant response. Built on n8n workflows with GoHighLevel CRM and Slack integration.",
           link: "/case-studies/ecommerce-crm-automation",
         },
       ],
@@ -358,11 +358,11 @@ const data: DecisionPageData = {
         {
           icon: Clock,
           title: "Long sales cycle / follow-up heavy (deals take weeks or months)",
-          body: "Your leads don't convert on first contact — they request quotes, compare options, and go quiet. Revenue dies in the follow-up gap because nobody has time to chase every lead for 2–4 weeks. The first automation is a multi-touch SMS + email sequence that follows up automatically until the lead books or opts out. WheelsFeels recovered a 185% conversion lift across 5,600+ leads with exactly this approach.",
+          body: "Your leads don't convert on first contact — they request quotes, compare options, and go quiet. Revenue dies in the follow-up gap because nobody has time to chase every lead for 2–4 weeks. The first automation is a multi-touch SMS + email sequence that follows up automatically until the lead books or opts out. A vehicle accessories e-commerce brand recovered a 185% conversion lift across 5,600+ leads with exactly this approach.",
           links: [
             { label: "AI lead follow-up guide", href: "/ai-lead-follow-up-for-service-businesses" },
             { label: "Quote follow-up automation", href: "/quote-follow-up-automation" },
-            { label: "WheelsFeels CRM case study", href: "/case-studies/ecommerce-crm-automation" },
+            { label: "vehicle accessories CRM case study", href: "/case-studies/ecommerce-crm-automation" },
           ],
         },
         {
@@ -606,7 +606,7 @@ const data: DecisionPageData = {
     {
       question: "Should I see proof from similar businesses before committing?",
       answer:
-        "Yes — and you should expect a consultant to show it. Paris Cafe went from 0% to 100% after-hours call coverage and cut web lead response time to under 60 seconds. WheelsFeels automated follow-up for 5,600+ leads with a 185% conversion lift. Both are documented with measurable outcomes. If someone can't show you proof from a comparable business, that's a signal to keep looking.",
+        "Yes — and you should expect a consultant to show it. Paris Cafe went from 0% to 100% after-hours call coverage and cut web lead response time to under 60 seconds. A vehicle accessories e-commerce brand automated follow-up for 5,600+ leads with a 185% conversion lift. Both are documented with measurable outcomes. If someone can't show you proof from a comparable business, that's a signal to keep looking.",
     },
     {
       question:

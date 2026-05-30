@@ -201,7 +201,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM follow-through proof",
-          headline: "The WheelsFeels CRM case study shows why downstream state truth matters after a conversation is captured",
+          headline: "The vehicle accessories CRM case study shows why downstream state truth matters after a conversation is captured",
           body: "That project is adjacent proof for the back half of the voice workflow: once a lead is captured, the value depends on clean logging, ownership, alerts, and follow-up instead of leaving conversations stranded in disconnected tools.",
           link: "/case-studies/ecommerce-crm-automation",
         },

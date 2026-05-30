@@ -194,7 +194,7 @@ const data: DecisionPageData = {
         {
           industry: "CRM and follow-up systems",
           headline: "Full custom systems exist — but they are not a starter-budget project",
-          body: "The WheelsFeels CRM build is useful adjacent proof in the other direction. It shows what a bigger custom system can do once the business case is clear, and why a small-business owner should not expect that full scope inside a $500/month budget.",
+          body: "The vehicle accessories CRM build is useful adjacent proof in the other direction. It shows what a bigger custom system can do once the business case is clear, and why a small-business owner should not expect that full scope inside a $500/month budget.",
           link: "/case-studies/ecommerce-crm-automation",
         },
       ],

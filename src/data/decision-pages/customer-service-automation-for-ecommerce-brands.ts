@@ -179,7 +179,7 @@ const data: DecisionPageData = {
         {
           industry: "E-Commerce / Auto Parts",
           headline: "5,600+ contacts organized with automated follow-up and Slack visibility",
-          body: "The published WheelsFeels case study is direct proof that Dmytro has already built the underlying operating layer this kind of support workflow depends on: centralized records, automated follow-up, segmented routing, and internal alerts when a human should step in fast.",
+          body: "The published vehicle accessories case study is direct proof that Dmytro has already built the underlying operating layer this kind of support workflow depends on: centralized records, automated follow-up, segmented routing, and internal alerts when a human should step in fast.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

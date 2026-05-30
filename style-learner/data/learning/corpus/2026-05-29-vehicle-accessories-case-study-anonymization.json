@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-05-29-vehicle-accessories-case-study-anonymization",
+  "platform": "case-study",
+  "language": "en",
+  "date": "2026-05-29",
+  "dayOfWeek": "friday",
+  "published": {
+    "text": "### Title\nCRM & Lead Follow-Up Automation for a Vehicle Accessories E-Commerce Brand\n\n### Subtitle\nHow a Houston-made vehicle accessories e-commerce brand reactivated 5,600+ old leads and automated client management, follow-ups, and sales handoff\n\n### Case Study Summary Card\nIndustry: Vehicle Accessories e-commerce brand\nChallenge: 5,600+ old leads sitting in spreadsheets with no systematic reactivation or client follow-up.\nSolution: Built full Supabase CRM, client-management workflows, and n8n automated follow-up sequences for all lead pools.\nKey Result: 3x team capacity.\n\n### Outcome\nThe public case study preserves the commercial proof, including 5,600+ reactivated leads, automated client management, automated follow-ups, and 3x team capacity, while removing the public client URL, founder name, and company name.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [],
+  "analysis": {
+    "analyzedAt": "2026-05-30T00:32:28.424Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        3,
+        1
+      ],
+      "avgSentenceLength": 18,
+      "sentenceLengthRange": [
+        5,
+        33
+      ],
+      "totalWords": 108
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Title\nCRM & Lead Follow-Up Automation for a Vehicle Accessories E-Commerce Brand",
+      "wordCount": 11,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "### Outcome\nThe public case study preserves the commercial proof, including 5,600+ reactivated leads, automated client management, automated follow-ups, and 3x team capacity, while removing the public client URL, founder name, and company name.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 4,
+      "commas": 14,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 4,
+      "commasPerSentence": 3.5
+    },
+    "vocabulary": {
+      "distinctWords": 67,
+      "totalWords": 108,
+      "topWords": [
+        [
+          "automated",
+          4
+        ],
+        [
+          "client",
+          4
+        ],
+        [
+          "5600",
+          3
+        ],
+        [
+          "follow-up",
+          3
+        ],
+        [
+          "vehicle",
+          3
+        ],
+        [
+          "accessories",
+          3
+        ],
+        [
+          "e-commerce",
+          3
+        ],
+        [
+          "brand",
+          3
+        ],
+        [
+          "leads",
+          3
+        ],
+        [
+          "crm",
+          2
+        ],
+        [
+          "lead",
+          2
+        ],
+        [
+          "reactivated",
+          2
+        ],
+        [
+          "old",
+          2
+        ],
+        [
+          "management",
+          2
+        ],
+        [
+          "follow-ups",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 0,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 0,
+      "patterns": []
+    }
+  }
+}

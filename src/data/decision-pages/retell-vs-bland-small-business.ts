@@ -187,7 +187,7 @@ const data: DecisionPageData = {
         {
           industry: "E-commerce / CRM automation",
           headline: "Backend automation mattered more than the interface",
-          body: "A custom CRM and automation stack for WheelsFeels increased handling capacity across 5,600+ leads. It was not a voice-agent project, but it proves the same point: workflow design and system integration create the result. The call platform is only one layer of the stack.",
+          body: "A custom CRM and automation stack for a vehicle accessories e-commerce brand increased handling capacity across 5,600+ leads. It was not a voice-agent project, but it proves the same point: workflow design and system integration create the result. The call platform is only one layer of the stack.",
           link: "/case-studies/ecommerce-crm-automation",
         },
       ],

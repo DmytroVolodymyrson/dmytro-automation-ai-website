@@ -200,7 +200,7 @@ const data: DecisionPageData = {
         {
           industry: "CRM / workflow operations",
           headline: "Large CRM automation case study shows the stage-tracking and reminder discipline",
-          body: "The WheelsFeels CRM case study demonstrates the workflow discipline this page depends on: stage-based statuses, automated follow-up, visibility into stuck records, and less manual chasing. Mortgage messaging differs, but the operational pattern is the same.",
+          body: "The vehicle accessories CRM case study demonstrates the workflow discipline this page depends on: stage-based statuses, automated follow-up, visibility into stuck records, and less manual chasing. Mortgage messaging differs, but the operational pattern is the same.",
           link: "/case-studies/ecommerce-crm-automation",
         },
       ],

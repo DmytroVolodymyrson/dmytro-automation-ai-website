@@ -240,7 +240,7 @@ const data: DecisionPageData = {
         {
           industry: "Published CRM case study",
           headline: "The 5,600+ lead CRM case study proves the value of fixing ownership and follow-up before adding more complexity",
-          body: "The WheelsFeels CRM case study is not a contractor build, but it is direct proof that stage clarity, structured follow-up, and visible next actions matter before automation can scale cleanly. The same operating principle applies to contractor workflows.",
+          body: "The vehicle accessories CRM case study is not a contractor build, but it is direct proof that stage clarity, structured follow-up, and visible next actions matter before automation can scale cleanly. The same operating principle applies to contractor workflows.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

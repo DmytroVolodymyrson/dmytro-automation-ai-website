@@ -102,12 +102,12 @@ export const siteConfig = {
       "Don't just take my word for it, hear from businesses that have transformed their operations",
     items: [
       {
-        name: "Andrey Belke",
-        role: "Founder, WheelsFeels.com",
+        name: "E-commerce Founder",
+        role: "Founder, Vehicle Accessories Brand",
         quote:
           "We were losing so many hot leads from our website because we couldn't follow up fast enough. Dmytro built us an AI-powered email system that sends personalized follow-ups automatically. Now every lead gets a tailored response within minutes, and our conversion rate has skyrocketed.",
         rating: 5,
-        image: "/images/testimonials/wheelsfeels-testimonial.webp",
+        image: "/images/testimonials/vehicle-accessories-testimonial.webp",
       },
       {
         name: "Mario",

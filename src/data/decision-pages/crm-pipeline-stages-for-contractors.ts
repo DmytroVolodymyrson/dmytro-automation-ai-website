@@ -203,7 +203,7 @@ const data: DecisionPageData = {
         {
           industry: "Published CRM case study",
           headline: "The 5,600+ lead CRM build shows why stage clarity, tagging, and ownership matter before automation scales",
-          body: "The WheelsFeels CRM case study is not a contractor build, but it proves the same operational principle: clear stage logic, clean internal visibility, and explicit next actions are what make follow-up automation useful instead of chaotic.",
+          body: "The vehicle accessories CRM case study is not a contractor build, but it proves the same operational principle: clear stage logic, clean internal visibility, and explicit next actions are what make follow-up automation useful instead of chaotic.",
           link: "/case-studies/ecommerce-crm-automation",
         },
       ],

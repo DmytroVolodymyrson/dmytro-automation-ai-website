@@ -202,7 +202,7 @@ const data: DecisionPageData = {
         {
           industry: "Auto Parts E-Commerce",
           headline: "5,600+ contacts organized with automated follow-up, segmentation, and reply visibility",
-          body: "The published WheelsFeels CRM case study is direct proof for the vertical and for the mechanics behind this page: centralizing old records, segmenting leads, running automated follow-up, and surfacing real replies fast instead of relying on manual chasing.",
+          body: "The published vehicle accessories CRM case study is direct proof for the vertical and for the mechanics behind this page: centralizing old records, segmenting leads, running automated follow-up, and surfacing real replies fast instead of relying on manual chasing.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

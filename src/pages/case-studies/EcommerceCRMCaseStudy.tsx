@@ -20,22 +20,22 @@ const EcommerceCRMCaseStudy = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>WheelsFeels CRM & Lead Follow-Up Automation | Case Study | Dmytro AI</title>
-        <meta name="description" content="How WheelsFeels went from 5,600 untouched leads to automated CRM follow-up for every serious inquiry. 3x team capacity, instant response time, organized lead pools." />
+        <title>Vehicle Accessories CRM & Lead Follow-Up Automation | Case Study | Dmytro AI</title>
+        <meta name="description" content="How a vehicle accessories e-commerce brand went from 5,600 untouched leads to automated CRM follow-up for every serious inquiry. 3x team capacity, instant response time, organized lead pools." />
         <link rel="canonical" href="https://www.dmytroai.com/case-studies/ecommerce-crm-automation" />
-        <meta property="og:title" content="WheelsFeels CRM & Lead Follow-Up Automation | Case Study" />
+        <meta property="og:title" content="Vehicle Accessories CRM & Lead Follow-Up Automation | Case Study" />
         <meta property="og:description" content="3x team capacity from 5,600+ leads organized and enrolled in automated email sequences." />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="https://www.dmytroai.com/case-studies/ecommerce-crm-automation" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Article",
-          "headline": "CRM & Lead Follow-Up Automation for WheelsFeels",
-          "description": "How WheelsFeels went from manually chasing 5,600 leads to an automated CRM system that follows up with every serious inquiry.",
+          "headline": "CRM & Lead Follow-Up Automation for a Vehicle Accessories E-Commerce Brand",
+          "description": "How a vehicle accessories e-commerce brand went from manually chasing 5,600 leads to an automated CRM system that follows up with every serious inquiry.",
           "author": { "@id": "https://www.dmytroai.com/#person" },
           "publisher": { "@id": "https://www.dmytroai.com/#business" },
           "mainEntityOfPage": "https://www.dmytroai.com/case-studies/ecommerce-crm-automation",
-          "keywords": ["WheelsFeels", "CRM automation", "vehicle camping systems", "n8n", "Supabase", "email sequences", "lead follow-up"]
+          "keywords": ["CRM automation", "vehicle camping systems", "n8n", "Supabase", "email sequences", "lead follow-up"]
         })}</script>
       </Helmet>
       <Navbar />
@@ -66,7 +66,7 @@ const EcommerceCRMCaseStudy = () => {
               rel="noreferrer"
               className="inline-flex w-fit items-center gap-2 rounded-full border border-primary/20 bg-card px-4 py-2 text-sm font-semibold text-primary hover:border-primary/40 hover:bg-primary/5 transition-colors"
             >
-              Visit WheelsFeels
+              Visit client website
               <ArrowRight className="w-4 h-4" />
             </a>
           )}
@@ -191,7 +191,7 @@ const EcommerceCRMCaseStudy = () => {
             <div className="space-y-3 max-w-3xl">
               <h2 className="font-display text-2xl md:text-3xl font-bold">If you run a product business with high-intent inquiries, start here</h2>
               <p className="text-muted-foreground leading-relaxed">
-                WheelsFeels sells vehicle-based camping and storage systems, but the pattern is broader: organize every serious inquiry, segment the lead pool, and trigger follow-up before good prospects go cold.
+                The brand sells vehicle-based camping and storage systems, but the pattern is broader: organize every serious inquiry, segment the lead pool, and trigger follow-up before good prospects go cold.
               </p>
             </div>
             <div className="grid gap-3 md:grid-cols-2">

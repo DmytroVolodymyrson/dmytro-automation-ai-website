@@ -16,7 +16,7 @@ const cards = [
     icon: BarChart3,
     title: "Case Studies",
     description:
-      "Real results from real businesses: Paris Cafe went from 0% to 100% after-hours coverage, WheelsFeels saw a 185% conversion lift. See the full numbers.",
+      "Real results from real businesses: Paris Cafe went from 0% to 100% after-hours coverage, a vehicle accessories e-commerce brand saw a 185% conversion lift. See the full numbers.",
     cta: "See results",
   },
   {

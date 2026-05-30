@@ -190,7 +190,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "E-commerce CRM automation",
-          headline: "WheelsFeels proves what segmentation and re-engagement discipline look like at scale",
+          headline: "A vehicle accessories e-commerce brand proves what segmentation and re-engagement discipline look like at scale",
           body: "The published CRM case study shows the operational side of organizing a large contact base, building automated sequences, and routing reactivated demand back to the team. Different vertical, same principle: dormant contacts have value only if the system actually brings them back into view.",
           link: "/case-studies/ecommerce-crm-automation",
         },

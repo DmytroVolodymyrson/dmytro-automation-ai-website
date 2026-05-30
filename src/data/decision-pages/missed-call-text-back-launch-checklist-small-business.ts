@@ -205,7 +205,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM state-truth proof",
-          headline: "The WheelsFeels CRM case study proves why recovered conversations still need clean state, routing, and next-step ownership behind them",
+          headline: "The vehicle accessories CRM case study proves why recovered conversations still need clean state, routing, and next-step ownership behind them",
           body: "Text-back only becomes real leverage when the lead state stays visible after the phone rings. That case study is honest adjacent proof for the back half of this checklist: logging, ownership, and downstream handoff after the first response.",
           link: "/case-studies/ecommerce-crm-automation",
         },

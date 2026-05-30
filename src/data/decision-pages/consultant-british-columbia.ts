@@ -172,7 +172,7 @@ const data: DecisionPageData = {
         {
           industry: "E-Commerce",
           headline: "5,600 leads organized and automated",
-          body: "WheelsFeels, a Houston vehicle camping systems brand, had thousands of untouched leads. We built automated follow-up sequences and CRM routing that lifted team capacity without adding more admin overhead.",
+          body: "A Houston vehicle accessories e-commerce brand had thousands of untouched leads. We built automated follow-up sequences and CRM routing that lifted team capacity without adding more admin overhead.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

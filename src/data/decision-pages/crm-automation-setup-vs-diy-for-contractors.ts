@@ -194,7 +194,7 @@ const data: DecisionPageData = {
         {
           industry: "CRM adjacency",
           headline: "The published 5,600+ lead CRM case study proves why workflow ownership matters",
-          body: "The WheelsFeels CRM case study is adjacent proof that tagging, follow-up logic, visibility, and ownership discipline create real business value. Contractors have different stages, but the same economic logic applies when a messy CRM rollout keeps revenue-critical work half-manual.",
+          body: "The vehicle accessories CRM case study is adjacent proof that tagging, follow-up logic, visibility, and ownership discipline create real business value. Contractors have different stages, but the same economic logic applies when a messy CRM rollout keeps revenue-critical work half-manual.",
           link: "/case-studies/ecommerce-crm-automation",
         },
       ],

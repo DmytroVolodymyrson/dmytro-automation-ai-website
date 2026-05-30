@@ -190,7 +190,7 @@ const data: DecisionPageData = {
         {
           industry: "CRM follow-up and handoff",
           headline: "Captured leads still need clean downstream automation",
-          body: "The WheelsFeels CRM build is adjacent proof for the back half of the workflow. Once the call is captured, the value comes from clean CRM logging, alerts, segmentation, and follow-up instead of leaving the conversation stranded in a disconnected inbox.",
+          body: "The vehicle accessories CRM build is adjacent proof for the back half of the workflow. Once the call is captured, the value comes from clean CRM logging, alerts, segmentation, and follow-up instead of leaving the conversation stranded in a disconnected inbox.",
           link: "/case-studies/ecommerce-crm-automation",
         },
       ],

@@ -184,7 +184,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM lifecycle proof",
-          headline: "The WheelsFeels CRM case study proves why stage tracking, ownership clarity, and stale-opportunity visibility have real economic value",
+          headline: "The vehicle accessories CRM case study proves why stage tracking, ownership clarity, and stale-opportunity visibility have real economic value",
           body: "That project is not a quote-follow-up system, but it is real published proof that recoverable opportunities get lost when stage ownership is messy and follow-up is inconsistent. Those mechanics are exactly what drive quote-follow-up build cost up or down.",
           link: "/case-studies/ecommerce-crm-automation",
         },

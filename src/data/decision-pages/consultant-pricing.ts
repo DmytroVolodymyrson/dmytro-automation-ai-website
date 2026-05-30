@@ -59,7 +59,7 @@ const data: DecisionPageData = {
           body: "Once the scope moves into live phone, CRM routing, qualification, or multi-step follow-up, the smarter comparison is not cheap vs expensive. It is whether the quote matches a workflow with real payoff and published proof. This is where named outcomes and adjacent case studies matter more than polished sales language.",
           links: [
             { label: "Paris Cafe voice-agent case study", href: "/case-studies/paris-cafe-voice-agent" },
-            { label: "WheelsFeels CRM case study", href: "/case-studies/ecommerce-crm-automation" },
+            { label: "vehicle accessories CRM case study", href: "/case-studies/ecommerce-crm-automation" },
             { label: "AI automation consultant scope guide", href: "/ai-automation-consultant-small-business" },
           ],
         },
@@ -191,7 +191,7 @@ const data: DecisionPageData = {
           body: "Use the extra room only when the workflow really spans multiple systems, channels, or reliability layers. That usually means live phone or AI qualification, CRM routing, calendar logic, follow-up, reporting, and more testing. At this level, proof and maintenance discipline matter more than fancy promises.",
           links: [
             { label: "Paris Cafe voice-agent proof", href: "/case-studies/paris-cafe-voice-agent" },
-            { label: "WheelsFeels CRM proof", href: "/case-studies/ecommerce-crm-automation" },
+            { label: "vehicle accessories CRM proof", href: "/case-studies/ecommerce-crm-automation" },
             { label: "Maintenance and support", href: "/ai-automation-maintenance-and-support-small-business" },
           ],
         },
@@ -237,7 +237,7 @@ const data: DecisionPageData = {
         },
         {
           heading: "CRM + lead follow-up automation — mid project band",
-          body: "WheelsFeels was losing revenue because follow-up was manual and inconsistent. The published case study shows 5,600+ leads moved into structured CRM follow-up and 3x team capacity. Builds in this band usually include CRM cleanup, instant acknowledgment, timed follow-up sequences, stale-lead recovery, reporting, documentation, and a short optimization window after launch.",
+          body: "A vehicle accessories e-commerce brand was losing revenue because follow-up was manual and inconsistent. The published case study shows 5,600+ leads moved into structured CRM follow-up and 3x team capacity. Builds in this band usually include CRM cleanup, instant acknowledgment, timed follow-up sequences, stale-lead recovery, reporting, documentation, and a short optimization window after launch.",
         },
         {
           heading: "Lead generation + qualification pipeline — upper-mid project band",

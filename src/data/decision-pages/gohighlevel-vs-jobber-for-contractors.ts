@@ -216,7 +216,7 @@ const data: DecisionPageData = {
         {
           industry: "CRM adjacency",
           headline: "The published 5,600+ lead CRM case study proves the discipline side of the problem",
-          body: "The WheelsFeels build shows what happens when contact organization, tagging, follow-up, and internal visibility are handled well. The contractor version of this problem adds a field-service handoff layer, but the underlying CRM discipline challenge is the same.",
+          body: "The a vehicle accessories e-commerce brand build shows what happens when contact organization, tagging, follow-up, and internal visibility are handled well. The contractor version of this problem adds a field-service handoff layer, but the underlying CRM discipline challenge is the same.",
           link: "/case-studies/ecommerce-crm-automation",
         },
       ],

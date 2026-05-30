@@ -181,7 +181,7 @@ const data: DecisionPageData = {
         {
           industry: "E-commerce / CRM follow-up",
           headline: "Downstream lead handling can be automated, not just the first reply",
-          body: "The WheelsFeels CRM automation is adjacent proof for the back-half of the system: once a lead is captured, segmentation, follow-up, alerts, and routing can happen automatically. That matters for home services when a request needs a callback, estimate sequence, or nurture instead of instant booking.",
+          body: "The vehicle accessories CRM automation is adjacent proof for the back-half of the system: once a lead is captured, segmentation, follow-up, alerts, and routing can happen automatically. That matters for home services when a request needs a callback, estimate sequence, or nurture instead of instant booking.",
           link: "/case-studies/ecommerce-crm-automation",
         },
       ],

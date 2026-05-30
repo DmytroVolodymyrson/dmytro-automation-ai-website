@@ -156,7 +156,7 @@ const data: DecisionPageData = {
         {
           icon: BarChart3,
           title: "More contacts worked with the same team",
-          body: "The published WheelsFeels case study is the clearest proof here: 5,600+ contacts could be organized and worked systematically instead of remaining trapped in manual follow-up. That is a capacity problem first, not just a tooling problem.",
+          body: "The published vehicle accessories case study is the clearest proof here: 5,600+ contacts could be organized and worked systematically instead of remaining trapped in manual follow-up. That is a capacity problem first, not just a tooling problem.",
         },
         {
           icon: Bot,
@@ -184,7 +184,7 @@ const data: DecisionPageData = {
         {
           industry: "E-Commerce / Auto Parts",
           headline: "5,600+ leads organized and enrolled into automated follow-up",
-          body: "The WheelsFeels case study is direct proof for this exact problem: centralized CRM, segmentation, automated email follow-up, instant team alerts, and a system that let the business handle far more opportunities without adding headcount.",
+          body: "The vehicle accessories case study is direct proof for this exact problem: centralized CRM, segmentation, automated email follow-up, instant team alerts, and a system that let the business handle far more opportunities without adding headcount.",
           link: "/case-studies/ecommerce-crm-automation",
         },
         {

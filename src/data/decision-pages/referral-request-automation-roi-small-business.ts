@@ -194,7 +194,7 @@ const data: DecisionPageData = {
         },
         {
           industry: "CRM lifecycle proof",
-          headline: "The WheelsFeels CRM case study proves why milestone-based routing and ownership clarity change financial outcomes",
+          headline: "The vehicle accessories CRM case study proves why milestone-based routing and ownership clarity change financial outcomes",
           body: "That project is not a referral-request system, but it is real published proof that valuable follow-through gets lost when ownership after a milestone is weak and replies do not route clearly. Those same mechanics are what make referral-request builds simple or expensive — and what determine whether the ROI is real or theoretical.",
           link: "/case-studies/ecommerce-crm-automation",
         },

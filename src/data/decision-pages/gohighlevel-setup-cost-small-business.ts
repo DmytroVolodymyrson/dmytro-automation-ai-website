@@ -153,7 +153,7 @@ const data: DecisionPageData = {
       studies: [
         {
           industry: "CRM workflow design",
-          headline: "WheelsFeels shows why lead-stage logic and follow-up discipline matter",
+          headline: "The vehicle accessories case study shows why lead-stage logic and follow-up discipline matter",
           body: "The e-commerce CRM case study is direct adjacent proof for the core economic question on this page: what happens when follow-up, pipeline logic, and ownership are engineered properly instead of left as a messy manual process.",
           link: "/case-studies/ecommerce-crm-automation",
         },
