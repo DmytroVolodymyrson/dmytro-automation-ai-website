@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { Helmet } from "@/lib/helmet";
 import { Link } from "react-router-dom";
@@ -11,40 +12,6 @@ import {
   caseStudiesByWorkflow,
   type WorkflowType,
 } from "@/data/caseStudies";
-
-const heroMetrics = [
-  { value: "$9,000/mo", label: "Saved on production", note: "" },
-  { value: "5,600+", label: "Leads organized", note: "" },
-  { value: "15 hrs/week", label: "Management time freed", note: "" },
-];
-
-const findYourFit = [
-  {
-    problem: "Losing calls or bookings after hours?",
-    answer: "Read the Paris Cafe voice agent case study.",
-    href: "/case-studies/paris-cafe-voice-agent",
-  },
-  {
-    problem: "CRM is messy or leads are going stale?",
-    answer: "Read the vehicle accessories CRM automation case study.",
-    href: "/case-studies/ecommerce-crm-automation",
-  },
-  {
-    problem: "Mortgage leads or borrower files keep going cold?",
-    answer: "Read the mortgage broker lead follow-up case study.",
-    href: "/case-studies/mortgage-broker-lead-follow-up-automation",
-  },
-  {
-    problem: "Outbound or video production can't scale?",
-    answer: "Read the marketing agency outbound video case study.",
-    href: "/case-studies/marketing-agency-outbound-video-automation",
-  },
-  {
-    problem: "Raw lead lists need filtering before sales review?",
-    answer: "Read the Facebook Marketplace lead qualification case study.",
-    href: "/case-studies/facebook-marketplace-ai-lead-qualification",
-  },
-];
 
 const workflowTypeOrder: WorkflowType[] = [
   "Revenue & Outbound",
@@ -99,6 +66,23 @@ const breadcrumbSchema = {
 };
 
 const CaseStudies = () => {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://link.msgsndr.com/js/form_embed.js";
+    script.type = "text/javascript";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      const existingScript = document.querySelector(
+        'script[src="https://link.msgsndr.com/js/form_embed.js"]'
+      );
+      if (existingScript) {
+        document.body.removeChild(existingScript);
+      }
+    };
+  }, []);
+
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
@@ -133,27 +117,6 @@ const CaseStudies = () => {
             <p className="text-lg text-muted-foreground leading-relaxed">
               Real systems built for real businesses. Each case study documents the problem, the automation shipped, and the measurable outcome. Start with the marketing agency case if outbound production cost is the bottleneck.
             </p>
-          </motion.div>
-
-          {/* Proof metric strip */}
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4, delay: 0.1 }}
-            className="grid sm:grid-cols-3 gap-4 mb-12 md:mb-16"
-          >
-            {heroMetrics.map((m) => (
-              <div
-                key={m.label}
-                className="rounded-2xl border border-primary/20 bg-primary/5 px-6 py-5 text-center"
-              >
-                <p className="font-display text-2xl md:text-3xl font-bold text-foreground">{m.value}</p>
-                <p className="text-sm text-muted-foreground mt-1">{m.label}</p>
-                {m.note && (
-                  <p className="text-xs text-muted-foreground/70 mt-0.5 italic">{m.note}</p>
-                )}
-              </div>
-            ))}
           </motion.div>
 
           {/* Featured case study */}
@@ -223,52 +186,19 @@ const CaseStudies = () => {
             );
           })}
 
-          {/* Find your fit */}
-          <div className="rounded-2xl border border-primary/15 bg-primary/5 p-6 md:p-8 mb-10 shadow-card">
-            <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-5">
-              Not sure which applies to your business?
-            </h2>
-            <div className="grid gap-4 sm:grid-cols-2">
-              {findYourFit.map((item) => (
-                <Link
-                  key={item.href}
-                  to={item.href}
-                  className="group rounded-2xl border border-border/60 bg-background/80 p-5 hover:border-primary/30 transition-colors"
-                >
-                  <p className="font-semibold text-foreground mb-1">{item.problem}</p>
-                  <p className="text-sm text-muted-foreground leading-relaxed">{item.answer}</p>
-                  <span className="inline-flex items-center gap-1 text-sm font-medium text-primary mt-2 group-hover:text-accent transition-colors">
-                    Read it <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
-                  </span>
-                </Link>
-              ))}
+          <section id="booking" className="mb-10 md:mb-14">
+            <div className="rounded-2xl border border-primary/20 bg-card px-4 sm:px-5 lg:px-6 pt-6 lg:pt-0 pb-6 shadow-card overflow-hidden">
+              <iframe
+                src="https://api.leadconnectorhq.com/widget/bookings/dmytro-automation"
+                className="lg:-mt-5"
+                style={{ width: "100%", border: "none", overflow: "hidden", minHeight: "550px" }}
+                loading="eager"
+                scrolling="no"
+                id="dmytro-automation-booking"
+                title="Book a Strategy Call"
+              />
             </div>
-          </div>
-
-          {/* CTA */}
-          <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6 md:p-10 text-center shadow-card">
-            <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-3">
-              Want to know which automation fits your business?
-            </h2>
-            <p className="text-muted-foreground mb-6 max-w-xl mx-auto">
-              Book a free strategy call and get a clear recommendation based on your workflow, team size, and goals.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Link
-                to="/#booking"
-                className="inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground hover:bg-primary/90 transition-colors"
-              >
-                Book a call
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-              <Link
-                to="/ai-automation-consultant-pricing-small-business"
-                className="inline-flex items-center gap-2 rounded-xl border border-border bg-background px-6 py-3 text-sm font-semibold text-foreground hover:border-primary/30 transition-colors"
-              >
-                View pricing
-              </Link>
-            </div>
-          </div>
+          </section>
 
         </div>
       </main>
