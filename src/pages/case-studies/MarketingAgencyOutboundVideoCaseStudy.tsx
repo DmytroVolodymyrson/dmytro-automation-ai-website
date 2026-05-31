@@ -7,7 +7,6 @@ import {
   CheckCircle2,
   Wrench,
   Zap,
-  Info,
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -81,12 +80,30 @@ const MarketingAgencyOutboundVideoCaseStudy = () => {
             ))}
           </motion.section>
 
-          <div className="rounded-xl border border-amber-500/20 bg-amber-500/5 px-5 py-4 flex items-start gap-3">
-            <Info className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
-            <p className="text-sm text-muted-foreground leading-relaxed">
-              {caseStudy.outcomeNote}
-            </p>
-          </div>
+          <motion.section
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 0.45 }}
+            className="rounded-2xl border border-border/60 bg-card p-6 md:p-8 space-y-5"
+          >
+            <div className="max-w-3xl space-y-3">
+              <h2 className="font-display text-2xl md:text-3xl font-bold">Example outreach video</h2>
+              <p className="text-muted-foreground leading-relaxed">
+                This is an example of the personalized outbound video the workflow generates, hosted directly on this site so you can see the final asset a prospect receives.
+              </p>
+            </div>
+            <div className="overflow-hidden rounded-2xl border border-border/60 bg-black shadow-card">
+              <video
+                controls
+                preload="metadata"
+                className="w-full aspect-video bg-black"
+              >
+                <source src="/videos/marketing-agency-outreach-example.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </motion.section>
 
           <section className="grid lg:grid-cols-2 gap-0 rounded-2xl overflow-hidden border border-border/60">
             <motion.article

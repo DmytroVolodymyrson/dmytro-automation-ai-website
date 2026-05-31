@@ -3,12 +3,22 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { useTrackSection } from "@/hooks/useTrackSection";
 import { siteConfig } from "@/config/siteConfig";
 
+type Testimonial = {
+  name: string;
+  role: string;
+  quote: string;
+  rating: number;
+  image?: string;
+  videoSrc?: string;
+};
+
 const TestimonialsSection = () => {
   const sectionRef = useTrackSection("testimonials");
   const { ref: headerRef, isVisible: headerVisible } = useScrollAnimation<HTMLDivElement>();
   const { ref: gridRef, isVisible: gridVisible } = useScrollAnimation<HTMLDivElement>();
 
-  const { testimonials } = siteConfig;
+  const testimonials = siteConfig.testimonials;
+  const testimonialItems = testimonials.items as readonly Testimonial[];
 
   return (
     <section ref={sectionRef} className="bg-primary text-primary-foreground relative overflow-hidden pt-8 pb-12 md:pt-14 md:pb-20 lg:pt-20 lg:pb-28">
@@ -32,7 +42,7 @@ const TestimonialsSection = () => {
         </div>
 
         <div ref={gridRef} className="grid lg:grid-cols-3 gap-6 lg:gap-8">
-          {testimonials.items.map((testimonial, index) => (
+          {testimonialItems.map((testimonial, index) => (
             <div
               key={index}
               className={`bg-primary-foreground/10 backdrop-blur-sm p-6 lg:p-8 rounded-2xl border border-primary-foreground/20 animate-on-scroll stagger-${index + 1} ${gridVisible ? "is-visible" : ""}`}
@@ -44,6 +54,19 @@ const TestimonialsSection = () => {
                   <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
+
+              {testimonial.videoSrc ? (
+                <div className="mb-5 overflow-hidden rounded-2xl border border-primary-foreground/15 bg-black/40">
+                  <video
+                    controls
+                    preload="metadata"
+                    className="w-full max-h-[420px] aspect-[9/16] object-cover bg-black"
+                  >
+                    <source src={testimonial.videoSrc} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              ) : null}
 
               <p className="text-primary-foreground/90 mb-6 leading-relaxed">
                 "{testimonial.quote}"

@@ -14,7 +14,7 @@ const navLinks: NavLink[] = [
   { label: "About", href: "#about", type: "scroll" as const },
   { label: "Services", href: "#services", type: "scroll" as const },
   { label: "Testimonials", href: "#testimonials", type: "scroll" as const },
-  { label: "Guides", to: "/guides", type: "route" as const },
+  { label: "Key Studies", to: "/case-studies", type: "route" as const },
 ];
 
 const Navbar = () => {

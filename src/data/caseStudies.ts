@@ -170,8 +170,6 @@ export const marketingAgencyOutboundVideoCaseStudy = {
     { label: "Video Capacity", value: "4-5K/day", sub: "automated pipeline design target" },
     { label: "Manual Work", value: "Eliminated", sub: "for standard outbound video workflow" },
   ],
-  outcomeNote:
-    "Savings reflect the production workflow replaced by the automation. Client identity is kept anonymous.",
 } as const;
 
 export const instagramReelsScraperCaseStudy = {

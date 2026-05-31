@@ -117,11 +117,12 @@ export const siteConfig = {
         rating: 5,
       },
       {
-        name: "Jennifer Torres",
-        role: "Operations Manager, TechFlow Solutions",
+        name: "Toufic Fares",
+        role: "Info Business",
         quote:
-          "Our team was spending over 15 hours every week on manual data entry and report generation. Dmytro automated our entire workflow from client data processing to automated reports. The time savings have been incredible.",
+          "Dmytro built an automated lead generation system that finds and qualifies creator leads every day, without me manually searching Instagram or copying profiles into spreadsheets.",
         rating: 5,
+        videoSrc: "/videos/testimonial-toufic-fares.mp4",
       },
     ],
   },

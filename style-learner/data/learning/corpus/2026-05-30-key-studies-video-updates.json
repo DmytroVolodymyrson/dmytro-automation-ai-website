@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-05-30-key-studies-video-updates",
+  "platform": "case-study",
+  "language": "en",
+  "date": "2026-05-30",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "Header navigation now points visitors to Key Studies instead of Guides, linking directly to the case studies proof hub.\n\nThe homepage testimonials section now includes Toufic Fares' lead generation video testimonial for the info business project:\n\n\"Dmytro built an automated lead generation system that finds and qualifies creator leads every day, without me manually searching Instagram or copying profiles into spreadsheets.\"\n\nThe marketing agency outbound video automation case study now includes an example outreach video hosted directly on the site.\n\nSection headline:\nExample outreach video\n\nSection copy:\nThis is an example of the personalized outbound video the workflow generates, hosted directly on this site so you can see the final asset a prospect receives.\n\nDiscovery copy:\nMarketing agency (anonymous): CRM-driven outbound video automation pipeline, $9,000/month saved, 4,000-5,000 personalized videos/day capacity, manual production eliminated, with an example outreach video hosted on the case study page.",
+    "formatting": [
+      "bold:Header"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Lead with proof navigation and concrete assets. Use plain language around hosted videos. Avoid extra caveat copy that weakens the case study when the metric basis already explains the numbers."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-05-31T01:38:45.676Z",
+    "structure": {
+      "paragraphCount": 7,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "avgSentenceLength": 20.6,
+      "sentenceLengthRange": [
+        5,
+        30
+      ],
+      "totalWords": 144
+    },
+    "opener": {
+      "type": "general",
+      "text": "Header navigation now points visitors to Key Studies instead of Guides, linking directly to the case studies proof hub.",
+      "wordCount": 19,
+      "pattern": "standard-opener"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "Discovery copy:\nMarketing agency (anonymous): CRM-driven outbound video automation pipeline, $9,000/month saved, 4,000-5,000 personalized videos/day capacity, manual production eliminated, with an example outreach video hosted on the case study page.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | context | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 5,
+      "commas": 10,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 5,
+      "commasPerSentence": 2.5
+    },
+    "vocabulary": {
+      "distinctWords": 94,
+      "totalWords": 144,
+      "topWords": [
+        [
+          "video",
+          7
+        ],
+        [
+          "example",
+          4
+        ],
+        [
+          "now",
+          3
+        ],
+        [
+          "directly",
+          3
+        ],
+        [
+          "case",
+          3
+        ],
+        [
+          "section",
+          3
+        ],
+        [
+          "outbound",
+          3
+        ],
+        [
+          "outreach",
+          3
+        ],
+        [
+          "hosted",
+          3
+        ],
+        [
+          "studies",
+          2
+        ],
+        [
+          "includes",
+          2
+        ],
+        [
+          "lead",
+          2
+        ],
+        [
+          "generation",
+          2
+        ],
+        [
+          "marketing",
+          2
+        ],
+        [
+          "agency",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 1,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 1,
+      "patterns": []
+    }
+  }
+}
