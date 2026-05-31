@@ -46,29 +46,6 @@ const findYourFit = [
   },
 ];
 
-const faqItems = [
-  {
-    question: "What do these case studies prove?",
-    answer:
-      "They show concrete categories of automation Dmytro AI has shipped: outbound video production at scale, CRM cleanup and lead follow-up, mortgage borrower follow-up, after-hours phone handling and booking flow, lead qualification and enrichment, and automated lead-generation pipelines. If you want evidence before paying for a consultant or choosing a workflow, this is the proof layer.",
-  },
-  {
-    question: "Which case study should I read first?",
-    answer:
-      "If outbound costs are the bottleneck, start with the marketing agency case. If missed calls or booking gaps are the problem, start with Paris Cafe. If your CRM is messy or leads are going stale, start with the vehicle accessories CRM build. If borrower files or mortgage leads keep going cold, start with the mortgage broker workflow. If your team is drowning in raw leads, start with the Marketplace qualification workflow.",
-  },
-  {
-    question: "Can these examples apply outside the exact same industry?",
-    answer:
-      "Yes. The value is in the workflow pattern, not the industry label. A restaurant phone-coverage case study helps any service business thinking about AI appointment setting. The vehicle accessories CRM cleanup applies to any business evaluating lead follow-up and reactivation systems.",
-  },
-  {
-    question: "Why do some case studies include evidence notes?",
-    answer:
-      "Because proof should be clear. Some results are live client outcomes, some are workflow savings, and some are capacity targets. The case study should tell you which is which instead of hiding the basis of the number.",
-  },
-];
-
 const workflowTypeOrder: WorkflowType[] = [
   "Revenue & Outbound",
   "Lead Follow-Up & CRM",
@@ -102,19 +79,6 @@ const collectionPageSchema = {
   },
 };
 
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: faqItems.map((item) => ({
-    "@type": "Question",
-    name: item.question,
-    acceptedAnswer: {
-      "@type": "Answer",
-      text: item.answer,
-    },
-  })),
-};
-
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -139,7 +103,7 @@ const CaseStudies = () => {
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>AI Automation Case Studies | Dmytro AI</title>
-        <meta name="description" content="Six documented AI automation case studies: outbound video automation saving $9,000/month, vehicle accessories CRM reactivating 5,600+ leads, mortgage broker follow-up, a restaurant voice agent, Instagram lead generation, and Facebook Marketplace lead qualification. Real systems, measurable outcomes." />
+        <meta name="description" content="Six documented AI automation case studies, led by a marketing agency outbound video system that saved $9,000/month. Clear problems, shipped systems, and measurable outcomes." />
         <link rel="canonical" href="https://www.dmytroai.com/case-studies" />
         <meta property="og:title" content="AI Automation Case Studies | Dmytro AI" />
         <meta property="og:description" content="Documented AI automation builds for small and service businesses. Real systems, real problems, measurable outcomes." />
@@ -147,7 +111,6 @@ const CaseStudies = () => {
         <meta property="og:url" content="https://www.dmytroai.com/case-studies" />
         <script type="application/ld+json">{JSON.stringify(collectionPageSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(itemListSchema)}</script>
-        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       </Helmet>
       <Navbar />
@@ -168,7 +131,7 @@ const CaseStudies = () => {
               AI Automation Case Studies
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Real systems built for real businesses. Each case study documents the problem, the automation shipped, and the measurable outcome. Start here if you want proof before choosing a workflow or hiring a consultant.
+              Real systems built for real businesses. Each case study documents the problem, the automation shipped, and the measurable outcome. Start with the marketing agency case if outbound production cost is the bottleneck.
             </p>
           </motion.div>
 
@@ -278,28 +241,6 @@ const CaseStudies = () => {
                     Read it <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
                   </span>
                 </Link>
-              ))}
-            </div>
-          </div>
-
-          {/* FAQ */}
-          <div className="rounded-2xl border border-border/60 bg-card p-6 md:p-8 mb-10 shadow-card">
-            <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-5">
-              Common questions about these case studies
-            </h2>
-            <div className="grid gap-4 md:grid-cols-2">
-              {faqItems.map((item) => (
-                <div
-                  key={item.question}
-                  className="rounded-2xl border border-border/60 bg-background/80 p-5"
-                >
-                  <h3 className="text-base font-semibold text-foreground mb-2">
-                    {item.question}
-                  </h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    {item.answer}
-                  </p>
-                </div>
               ))}
             </div>
           </div>

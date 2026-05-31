@@ -18,6 +18,7 @@ Small service businesses (HVAC, real estate, mortgage, restaurants, e-commerce) 
 Unlike agencies that charge $5,000/month for a team you never meet, Dmytro builds the system himself, shows you how it works, and charges for results — not for overhead. Direct access to the builder. No account managers. No bloated retainers.
 
 ## Case Studies
+- Case studies hub: clear proof library of six AI automation builds, led by the marketing agency outbound video automation case that saved $9,000/month. Learn more: https://www.dmytroai.com/case-studies
 - Marketing agency (anonymous): CRM-driven outbound video automation pipeline, $9,000/month saved, 4,000-5,000 personalized videos/day capacity, manual production eliminated. Learn more: https://www.dmytroai.com/case-studies/marketing-agency-outbound-video-automation
 - Paris Cafe (NYC restaurant): Deployed an AI voice receptionist with workflow automation, taking after-hours call coverage from 0% to 100%, dropping web lead response time from hours to under 60 seconds, and freeing ~15 hrs/week for management
 - Toufic Fares (info business): Automated Instagram creator lead generation pipeline — 50+ qualified leads/day at $0.29/lead, zero manual work

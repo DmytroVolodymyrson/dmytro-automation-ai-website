@@ -265,7 +265,7 @@ export const ecommerceCRMCaseStudy = {
   results: [
     { label: "Leads Reactivated", value: "5,600+", sub: "old inquiries moved into structured follow-up" },
     { label: "Response Time", value: "Instant", sub: "" },
-    { label: "Conversion Rate Lift", value: "+185%", sub: "" },
+    { label: "Conversion Rate Lift", value: "+185%", sub: "from CRM reactivation and automated follow-up sequences" },
   ],
 } as const;
 

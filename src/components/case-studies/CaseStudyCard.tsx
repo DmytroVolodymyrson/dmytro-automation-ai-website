@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Info } from "lucide-react";
 import { Link } from "react-router-dom";
 import type { CaseStudySummary } from "@/data/caseStudies";
 
@@ -27,9 +27,18 @@ const CaseStudyCard = ({ caseStudy, index = 0 }: CaseStudyCardProps) => {
 
       <p className="text-muted-foreground mb-6 leading-relaxed">{caseStudy.description}</p>
 
-      <div className="mb-6 rounded-xl border border-primary/20 bg-primary/5 px-4 py-3">
+      <div className="mb-3 rounded-xl border border-primary/20 bg-primary/5 px-4 py-3">
         <p className="text-xs uppercase tracking-wide text-accent font-semibold mb-1">Key Result</p>
         <p className="font-display text-xl font-bold text-foreground">{caseStudy.keyResult}</p>
+      </div>
+
+      <div className="mb-6">
+        {(caseStudy.proofStatus === "modeled" || caseStudy.proofStatus === "needs-confirmation") && (
+          <p className="flex items-center gap-1.5 text-xs text-muted-foreground/60">
+            <Info className="w-3 h-3 shrink-0" />
+            {caseStudy.proofStatus === "modeled" ? "Modeled from workflow data" : "Metrics pending confirmation"}
+          </p>
+        )}
       </div>
 
       <Link
