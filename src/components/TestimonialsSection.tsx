@@ -41,7 +41,7 @@ const TestimonialsSection = () => {
           </p>
         </div>
 
-        <div ref={gridRef} className="grid lg:grid-cols-3 gap-6 lg:gap-8">
+        <div ref={gridRef} className="grid items-start lg:grid-cols-3 gap-6 lg:gap-8">
           {testimonialItems.map((testimonial, index) => (
             <div
               key={index}
