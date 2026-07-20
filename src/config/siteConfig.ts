@@ -24,9 +24,9 @@ export const siteConfig = {
   about: {
     badge: "The Person Behind the Automation",
     heading:
-      "I started coding at 16. Now I build AI systems that run businesses.",
+      "I turn repetitive business work into systems that run automatically.",
     paragraphs: [
-      "I'm Dmytro. I grew up in Ukraine and wrote my first line of code at 16. After 7 years building software, I found my thing: using AI to automate the repetitive work that slows businesses down.",
+      "I'm Dmytro. I grew up in Ukraine and have spent the last 7 years building software. I found my thing: using AI to automate the repetitive work that slows businesses down.",
       "Every automation I build starts with one question: what's eating up your time? From there, I design systems that handle it, so you can spend your hours on the work that actually grows your business.",
     ],
     stats: [

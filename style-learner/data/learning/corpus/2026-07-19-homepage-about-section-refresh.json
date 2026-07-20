@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-07-19-homepage-about-section-refresh",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-07-19",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "### Badge\nThe Person Behind the Automation\n\n### Heading\nI turn repetitive business work into systems that run automatically.\n\n### Intro\nI'm Dmytro. I grew up in Ukraine and have spent the last 7 years building software. I found my thing: using AI to automate the repetitive work that slows businesses down.\n\nEvery automation I build starts with one question: what's eating up your time? From there, I design systems that handle it, so you can spend your hours on the work that actually grows your business.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Replaced the age-based origin story with a direct, outcome-focused description of the work. Kept the personal introduction and seven years of software experience without framing the section like a résumé."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-07-20T00:47:11.501Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        3,
+        2
+      ],
+      "avgSentenceLength": 12,
+      "sentenceLengthRange": [
+        3,
+        22
+      ],
+      "totalWords": 84
+    },
+    "opener": {
+      "type": "situation",
+      "text": "### Badge\nThe Person Behind the Automation",
+      "wordCount": 6,
+      "pattern": "situation"
+    },
+    "closer": {
+      "type": "question",
+      "text": "Every automation I build starts with one question: what's eating up your time? From there, I design systems that handle it, so you can spend your hours on the work that actually grows your business.",
+      "pattern": "question"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "result",
+        "closer"
+      ],
+      "template": "opener | context | result | closer"
+    },
+    "punctuation": {
+      "periods": 5,
+      "commas": 2,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 1,
+      "colon": 2,
+      "commasPerSentence": 0.33
+    },
+    "vocabulary": {
+      "distinctWords": 64,
+      "totalWords": 84,
+      "topWords": [
+        [
+          "that",
+          4
+        ],
+        [
+          "work",
+          3
+        ],
+        [
+          "your",
+          3
+        ],
+        [
+          "automation",
+          2
+        ],
+        [
+          "repetitive",
+          2
+        ],
+        [
+          "business",
+          2
+        ],
+        [
+          "systems",
+          2
+        ],
+        [
+          "up",
+          2
+        ],
+        [
+          "7",
+          1
+        ],
+        [
+          "badge",
+          1
+        ],
+        [
+          "person",
+          1
+        ],
+        [
+          "behind",
+          1
+        ],
+        [
+          "heading",
+          1
+        ],
+        [
+          "turn",
+          1
+        ],
+        [
+          "into",
+          1
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 1,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 1,
+      "patterns": []
+    }
+  }
+}
