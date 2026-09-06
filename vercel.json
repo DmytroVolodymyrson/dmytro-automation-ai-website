@@ -1,5 +1,15 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/cedric-mail",
+      "destination": "/cedric-mail/index.html"
+    },
+    {
+      "source": "/cedric-mail/privacy",
+      "destination": "/cedric-mail/privacy/index.html"
+    }
+  ],
   "redirects": [
     {
       "source": "/ai-automation-hvac",

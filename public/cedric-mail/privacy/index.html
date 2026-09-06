@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How Cedric Mail Access uses Gmail data, handles local storage and AI processing, and supports revocation and deletion.">
+  <title>Cedric Mail Access — Privacy Policy</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f8fafc; color: #0f172a; font-family: system-ui, sans-serif; font-size: 1rem; line-height: 1.7; overflow-wrap: anywhere; }
+    header, main, footer { max-width: 48rem; margin: 0 auto; padding: 1.5rem; }
+    main { background: #fff; border: 1px solid #e2e8f0; border-radius: .75rem; padding: clamp(1.5rem, 5vw, 3rem); }
+    a { color: #1d4ed8; text-underline-offset: .2em; }
+    a:hover { text-decoration-thickness: .15em; }
+    a:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 4px; border-radius: 2px; }
+    .skip { position: absolute; left: 1rem; top: -5rem; padding: .5rem 1rem; background: #fff; }
+    .skip:focus { top: 1rem; }
+    h1, h2 { line-height: 1.25; letter-spacing: -.025em; }
+    h1 { font-size: clamp(2rem, 6vw, 3rem); margin: .5rem 0 1.5rem; }
+    h2 { font-size: 1.35rem; margin: 2rem 0 .75rem; }
+    p { margin: 0 0 1rem; }
+    li { margin-bottom: .75rem; }
+    ol { padding-left: 1.5rem; }
+    .label, footer { color: #475569; }
+    nav { display: flex; flex-wrap: wrap; gap: 1rem 1.5rem; }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header><a href="/cedric-mail">Cedric Mail Access</a></header>
+  <main id="main">
+    <p class="label">Privacy policy · Last updated <time datetime="2026-09-05">September 5, 2026</time></p>
+    <h1>Cedric Mail Access privacy policy</h1>
+    <p>Cedric Mail Access is a local Gmail connector privately operated by Dmytro for selected, owner-approved mailboxes. There is no public signup. Access is limited through the operator's allowlist, not by Google's External OAuth audience setting.</p>
+
+    <section aria-labelledby="data">
+      <h2 id="data">Data accessed and why</h2>
+      <p>The connector uses Google's Gmail API over HTTPS to carry out owner-requested mail tasks. Depending on the task and granted permissions, this can include selected message headers (sender, recipients, subject and date), bodies, attachments, and mailbox metadata or settings available under those permissions. It does not perform whole-mailbox sync.</p>
+      <p>The requested scopes are gmail.readonly and gmail.send. The initial CLI delivery only reads. Send capability may be used only with separate explicit owner authorization, never for automatic or test sends. Data is accessed only as necessary to provide the requested app functionality, not to build unrelated profiles.</p>
+    </section>
+
+    <section aria-labelledby="ai">
+      <h2 id="ai">AI processing and permitted use</h2>
+      <p>Selected email content needed for a task may be sent to the configured AI service, currently OpenAI, for owner-requested inference such as summarization. OAuth tokens are never sent to an AI service.</p>
+      <p>AI processing is permitted only under configured no-training controls. The operator must verify those controls before any mailbox content is submitted. This policy states a requirement, not confirmation that account settings have already been verified.</p>
+      <p>We do not sell Gmail data, use it for advertising, or use it to develop, improve or train general-purpose AI or machine-learning models. Use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+    </section>
+
+    <section aria-labelledby="storage">
+      <h2 id="storage">Storage, security and retention</h2>
+      <p>OAuth tokens are stored in owner-restricted local files: readable and writable only by the local owner, inside an owner-only directory. Tokens are not published or included in AI prompts. File permissions are not a claim that data is encrypted at rest.</p>
+      <p>Selected content, downloaded attachments and task results may remain in local files or local assistant conversation history until the owner deletes them. There is no guaranteed automatic expiry.</p>
+      <p>AI provider retention follows the provider's published terms and applicable account settings; this policy makes no zero-retention guarantee. Google retains the source email separately under its own terms and account settings. Deleting local copies does not delete the original messages in Gmail or override a provider's retention rules.</p>
+    </section>
+
+    <section aria-labelledby="disconnect">
+      <h2 id="disconnect">Disconnect and delete</h2>
+      <ol>
+        <li>Stop the local connector to prevent further local tasks.</li>
+        <li>Remove Cedric Mail Access in <a href="https://myaccount.google.com/connections">Google Account connections</a> to revoke its Google access.</li>
+        <li>Delete the local OAuth credentials, saved content, attachments and relevant assistant conversation history that you no longer want retained.</li>
+      </ol>
+      <p>Stopping the connector or deleting local files does not automatically revoke Google's authorization. Revoking Google access does not automatically remove previously stored local content. Any provider-side data remains subject to that provider's deletion options and retention rules.</p>
+    </section>
+
+    <section aria-labelledby="public-pages">
+      <h2 id="public-pages">These public pages</h2>
+      <p>The app information and privacy pages do not collect or process Gmail data. They have no JavaScript, analytics, tracking, cookies, external fonts, sign-in widget, OAuth callback or public mail-data endpoint. The website host may process ordinary web-request information to deliver these pages. Other pages on the owner's website have their own privacy policy.</p>
+    </section>
+
+    <section aria-labelledby="support">
+      <h2 id="support">Questions or deletion requests</h2>
+      <p><a href="/#booking">Contact Dmytro</a> through the existing site contact section for help with this app, disconnecting or deleting locally retained data. Do not send passwords, OAuth tokens or email contents through that contact route.</p>
+    </section>
+  </main>
+  <footer><nav aria-label="App information"><a href="/cedric-mail">About Cedric Mail Access</a><a href="/">Owner's website</a></nav></footer>
+</body>
+</html>

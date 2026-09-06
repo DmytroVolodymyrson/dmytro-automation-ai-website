@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-09-05-cedric-mail-access",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-09-05",
+  "dayOfWeek": "saturday",
+  "published": {
+    "text": "### /cedric-mail\n\nSkip to content\n\nDmytro Automation AI\n\nPrivately operated Gmail connector\n\nCedric Mail Access\n\nCedric Mail Access connects Gmail to a local assistant for tasks requested by its owner, such as finding selected messages, reading a thread or summarizing information.\n\nIt is privately operated by Dmytro for selected, owner-approved mailboxes on an operational allowlist. There is no public signup. Google's External OAuth audience setting does not restrict access to a private group; the operator is responsible for limiting use.\n\nPermissions and owner control\n\nRead email (gmail.readonly): access selected Gmail content needed for an owner-requested task.\n\nSend email (gmail.send): a granted capability, not permission to send on its own. The initial delivery is read-only. Sending requires separate explicit owner authorization; there are no automatic or test sends.\n\nThe connector communicates with Gmail over HTTPS. It does not perform whole-mailbox synchronization. Selected task content may be processed by the configured AI service only under the privacy policy's no-training requirements.\n\nPrivacy and support\n\nThese public information pages do not collect or process Gmail data and contain no sign-in form, cookies, analytics or tracking scripts. They are not an OAuth callback or public mail-data endpoint.\n\nRead the Cedric Mail Access privacy policy for data use, storage, retention and how to disconnect.\n\nContact Dmytro through the existing site contact section for support or a deletion request. Do not include passwords, OAuth tokens or email contents in a support request.\n\nPrivacy policy · Owner's website\n\n### /cedric-mail/privacy\n\nSkip to content\n\nCedric Mail Access\n\nPrivacy policy · Last updated September 5, 2026\n\nCedric Mail Access privacy policy\n\nCedric Mail Access is a local Gmail connector privately operated by Dmytro for selected, owner-approved mailboxes. There is no public signup. Access is limited through the operator's allowlist, not by Google's External OAuth audience setting.\n\nData accessed and why\n\nThe connector uses Google's Gmail API over HTTPS to carry out owner-requested mail tasks. Depending on the task and granted permissions, this can include selected message headers (sender, recipients, subject and date), bodies, attachments, and mailbox metadata or settings available under those permissions. It does not perform whole-mailbox sync.\n\nThe requested scopes are gmail.readonly and gmail.send. The initial CLI delivery only reads. Send capability may be used only with separate explicit owner authorization, never for automatic or test sends. Data is accessed only as necessary to provide the requested app functionality, not to build unrelated profiles.\n\nAI processing and permitted use\n\nSelected email content needed for a task may be sent to the configured AI service, currently OpenAI, for owner-requested inference such as summarization. OAuth tokens are never sent to an AI service.\n\nAI processing is permitted only under configured no-training controls. The operator must verify those controls before any mailbox content is submitted. This policy states a requirement, not confirmation that account settings have already been verified.\n\nWe do not sell Gmail data, use it for advertising, or use it to develop, improve or train general-purpose AI or machine-learning models. Use and transfer of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.\n\nStorage, security and retention\n\nOAuth tokens are stored in owner-restricted local files: readable and writable only by the local owner, inside an owner-only directory. Tokens are not published or included in AI prompts. File permissions are not a claim that data is encrypted at rest.\n\nSelected content, downloaded attachments and task results may remain in local files or local assistant conversation history until the owner deletes them. There is no guaranteed automatic expiry.\n\nAI provider retention follows the provider's published terms and applicable account settings; this policy makes no zero-retention guarantee. Google retains the source email separately under its own terms and account settings. Deleting local copies does not delete the original messages in Gmail or override a provider's retention rules.\n\nDisconnect and delete\n\nStop the local connector to prevent further local tasks.\n\nRemove Cedric Mail Access in Google Account connections to revoke its Google access.\n\nDelete the local OAuth credentials, saved content, attachments and relevant assistant conversation history that you no longer want retained.\n\nStopping the connector or deleting local files does not automatically revoke Google's authorization. Revoking Google access does not automatically remove previously stored local content. Any provider-side data remains subject to that provider's deletion options and retention rules.\n\nThese public pages\n\nThe app information and privacy pages do not collect or process Gmail data. They have no JavaScript, analytics, tracking, cookies, external fonts, sign-in widget, OAuth callback or public mail-data endpoint. The website host may process ordinary web-request information to deliver these pages. Other pages on the owner's website have their own privacy policy.\n\nQuestions or deletion requests\n\nContact Dmytro through the existing site contact section for help with this app, disconnecting or deleting locally retained data. Do not send passwords, OAuth tokens or email contents through that contact route.\n\nAbout Cedric Mail Access · Owner's website",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Plain informational copy, not marketing or a public sign-up invitation."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Names permissions and operational limits without exposing connected account identities or credentials."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Distinguishes policy obligations from unverified live account settings."
+    },
+    {
+      "type": "tone_shift",
+      "description": "Uses the site's light background, navy text and blue links with system fonts; no scripts, trackers or external assets."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-09-06T02:50:13.655Z",
+    "structure": {
+      "paragraphCount": 43,
+      "sentencesPerParagraph": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        3,
+        3,
+        1,
+        2,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        3,
+        1,
+        3,
+        4,
+        1,
+        2,
+        3,
+        2,
+        1,
+        3,
+        2,
+        3,
+        1,
+        1,
+        1,
+        1,
+        3,
+        1,
+        4,
+        1,
+        2,
+        1
+      ],
+      "avgSentenceLength": 11.1,
+      "sentenceLengthRange": [
+        1,
+        29
+      ],
+      "totalWords": 811
+    },
+    "opener": {
+      "type": "short-punch",
+      "text": "### /cedric-mail",
+      "wordCount": 1,
+      "pattern": "short-punch"
+    },
+    "closer": {
+      "type": "general",
+      "text": "About Cedric Mail Access · Owner's website",
+      "pattern": "standard-close"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "product-pitch",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "product-pitch",
+        "context",
+        "product-pitch",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "product-pitch",
+        "context",
+        "product-pitch",
+        "closer"
+      ],
+      "template": "opener | context | context | context | context | context | context | context | context | context | product-pitch | context | context | context | context | context | context | context | context | context | context | context | context | context | product-pitch | context | product-pitch | context | context | context | context | context | context | context | context | context | context | context | context | product-pitch | context | product-pitch | closer"
+    },
+    "punctuation": {
+      "periods": 57,
+      "commas": 40,
+      "emDashes": 0,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 3,
+      "commasPerSentence": 0.74
+    },
+    "vocabulary": {
+      "distinctWords": 308,
+      "totalWords": 811,
+      "topWords": [
+        [
+          "not",
+          18
+        ],
+        [
+          "access",
+          13
+        ],
+        [
+          "local",
+          12
+        ],
+        [
+          "gmail",
+          10
+        ],
+        [
+          "data",
+          10
+        ],
+        [
+          "content",
+          9
+        ],
+        [
+          "ai",
+          9
+        ],
+        [
+          "mail",
+          9
+        ],
+        [
+          "oauth",
+          9
+        ],
+        [
+          "cedric",
+          8
+        ],
+        [
+          "selected",
+          8
+        ],
+        [
+          "no",
+          8
+        ],
+        [
+          "privacy",
+          8
+        ],
+        [
+          "policy",
+          8
+        ],
+        [
+          "use",
+          7
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 4,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 4,
+      "patterns": []
+    }
+  }
+}

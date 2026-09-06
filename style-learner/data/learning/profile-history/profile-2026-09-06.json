@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-06T02:50:13.803Z",
+  "postCount": 619,
+  "platforms": {
+    "telegram": 0,
+    "linkedin": 0,
+    "instagram": 0
+  },
+  "structure": {
+    "paragraphCount": {
+      "mean": 4.7,
+      "median": 4,
+      "min": 1,
+      "max": 68,
+      "p25": 4,
+      "p75": 4,
+      "samples": 619
+    },
+    "sentenceLength": {
+      "mean": 24.1,
+      "median": 24.3,
+      "min": 7.1,
+      "max": 105,
+      "p25": 19.6,
+      "p75": 27.9,
+      "samples": 619
+    },
+    "totalWords": {
+      "mean": 335.9,
+      "median": 337,
+      "min": 17,
+      "max": 1155,
+      "p25": 279,
+      "p75": 373,
+      "samples": 619
+    },
+    "templateFrequency": {
+      "single | short | long | short | single": 1,
+      "single | short | single | single | single": 2,
+      "single | long | long | long | long | long | long": 2,
+      "single | single | long | long | single | single | short | single | short": 1,
+      "single | single | single | single | short | single": 1,
+      "single | short | short | short | short | short | short": 1,
+      "single | single | long | long | single | single | single": 1,
+      "long": 2,
+      "single | single | long | long | short | single | single | short": 1,
+      "single | single | single | single | single | short | long | single": 2,
+      "single": 3,
+      "long | single | single | single": 1,
+      "single | single | single": 1,
+      "long | long | single | short | short | short | short | single | long": 1,
+      "long | long | long | single | long | long | long | long | single | single | long": 1,
+      "long | single | long | single | long | long | short | short | single | long": 1,
+      "long | long | short | long | long": 4,
+      "long | long | long | single | long": 1,
+      "long | long | long | long | single | long | single | short | single | long": 1,
+      "long | long | single | long | long | short | short | single | long": 1,
+      "long | single | single | short": 20,
+      "long | single | short | long": 13,
+      "long | single | single | long": 99,
+      "long | short | single | long": 128,
+      "long | single | single | long | short | single | single | single": 1,
+      "long | short | single | single": 6,
+      "long | long | single | short": 4,
+      "long | short | single | short": 3,
+      "long | long | long | long | long | long | single | single | long": 1,
+      "long | long | long | short | single | short | single | single | long": 1,
+      "single | single | long | single | single | single": 3,
+      "single | single | long | single | short | short": 2,
+      "single | single | long | short | long | single": 1,
+      "long | long | long | long": 17,
+      "long | long | single | long": 127,
+      "single | long | long": 1,
+      "long | short | long | long": 15,
+      "long | single | long | long": 27,
+      "single | long | single | single | single | single | single | long | single | single": 1,
+      "long | single | single | long | single": 1,
+      "long | single | long | long | single | single | long | single | long": 12,
+      "long | short | long | long | long | short | long | single | long": 3,
+      "long | long | long | long | long": 3,
+      "long | short | long | long | single | single | long | single | long": 3,
+      "long | single | long | long | short": 1,
+      "long | long | single | single | long": 2,
+      "long | single | short | long | single | long | single | long": 2,
+      "long | long | short | long": 3,
+      "single | single | single | single | single | single | single | single": 1,
+      "long | single | short | single | single | long | single | long": 1,
+      "short | single | short | short | short": 1,
+      "single | long | long | short": 2,
+      "long | long": 2,
+      "single | long | long | long | long | long | long | long | long | single": 1,
+      "long | long | single | single": 3,
+      "single | long | single | single": 1,
+      "short | short | long | short | short | single | long | long": 1,
+      "single | long | single | long": 1,
+      "long | single | short | long | long | long | long | long | long | single | short | single": 1,
+      "long | single | long | single | single | single": 1,
+      "long | short | single | single | long | short": 1,
+      "long | single | long | short | long | single | long": 1,
+      "long | short | long | single | single | long": 1,
+      "short | long | long | long | long": 1,
+      "long | short | long | long | long | long": 1,
+      "long | short | long | single": 1,
+      "long | short | long | long | long | short | single": 1,
+      "long | short | long | long | long | long | long | short | single | single | single": 1,
+      "long | short | long | single | long": 1,
+      "long | short | single | single | single | short | single": 1,
+      "long | short | long | long | long | long | short | long": 1,
+      "long | single | long | long | long": 1,
+      "single | short | short": 1,
+      "single | single | short | long | single | short": 1,
+      "long | single | short | single | single | single | single": 1,
+      "long | single | single | short | short | short": 1,
+      "long | short | single | short | long": 1,
+      "long | single | single | short | short | single | single": 1,
+      "long | long | long | single": 2,
+      "long | single | single | single | long": 2,
+      "single | long | long | single": 1,
+      "short | long | single": 1,
+      "long | short | short | single | long": 1,
+      "short | long | long | long": 1,
+      "single | single | single | short": 1,
+      "single | long | short | single": 1,
+      "long | single | long | long | long | long | long | single | long": 1,
+      "short | long | long": 1,
+      "long | long | long | long | long | single": 1,
+      "single | short | long | single | long": 1,
+      "long | single | long | short": 1,
+      "single | short | long | single": 1,
+      "short | long | long | single": 1,
+      "long | single | long | single | long | long": 2,
+      "long | single | short | single | long | long | long | short | long | long | long | long": 1,
+      "single | short | long | long": 1,
+      "long | short | long | single | short | short | long | short | long | long | short | long | long": 2,
+      "long | single | single | long | single | long | short | long | long | short | long | long": 1,
+      "single | single": 2,
+      "single | short": 1,
+      "long | single": 5,
+      "long | short | single": 1,
+      "short | single": 2,
+      "single | single | single | single": 1,
+      "long | single | short | single | long | long | long | short | long | long | short | long": 1,
+      "long | single | single | short | single | long | short | long | long | short | long | long": 1,
+      "long | single | long | short | short | single | long": 1,
+      "long | long | long | long | long | long | short | short | long | long | long | long": 2,
+      "single | single | long | single": 2,
+      "long | long | single": 1,
+      "single | single | short": 1,
+      "single | long | single | short | long | single": 1,
+      "long | short | single | single | short | short | single | long": 2,
+      "single | single | short | single | single | single | single | short | single | single | single | single | single | single | single | single | single | single | single | single | short | long | short | single | single | single | single | single | single | single | single | single | single | single | single | single | single | single | single | long | single | long | single | long | single | long | single | long | single | long | single | single | single | single | long | single | single | single | long | single | single | single | single | single | single | short | long | single": 1,
+      "single | single | long | long | single | single | single | short": 1,
+      "long | long | single | long | single | short": 1,
+      "single | single | long | long | single | single | long | short": 1,
+      "single | long | short | long | single": 1,
+      "single | single | single | single | single | single | single": 1,
+      "single | single | long | short": 1,
+      "single | single | single | single | single | single | long | single | single | long | long | single | short | single | short | single | single | single | single | single | single | long | single | long | long | single | short | long | short | single | long | short | long | single | single | single | single | long | single | long | single | short | single": 1
+    },
+    "structuralTemplates": {
+      "opener | context | result | context | closer": 4,
+      "opener | product-pitch | product-pitch | result | result | context | closer": 2,
+      "opener | result | result | context | context | context | result | context | closer": 1,
+      "opener | result | context | result | result | closer": 1,
+      "opener | product-pitch | context | context | context | context | closer": 1,
+      "opener | result | context | context | context | context | closer": 1,
+      "opener": 5,
+      "opener | result | context | product-pitch | product-pitch | product-pitch | context | closer": 1,
+      "opener | context | context | context | context | context | context | closer": 4,
+      "opener | product-pitch | result | closer": 7,
+      "opener | context | closer": 4,
+      "opener | product-pitch | context | product-pitch | result | result | product-pitch | product-pitch | closer": 1,
+      "opener | product-pitch | result | result | context | product-pitch | context | context | product-pitch | product-pitch | closer": 1,
+      "opener | context | product-pitch | product-pitch | context | context | context | context | context | closer": 1,
+      "opener | context | product-pitch | context | closer": 1,
+      "opener | product-pitch | product-pitch | result | closer": 1,
+      "opener | product-pitch | product-pitch | result | context | product-pitch | context | product-pitch | product-pitch | closer": 1,
+      "opener | context | context | context | result | product-pitch | context | context | closer": 1,
+      "opener | context | product-pitch | closer": 51,
+      "opener | context | context | closer": 245,
+      "opener | product-pitch | context | closer": 33,
+      "opener | context | product-pitch | context | product-pitch | result | context | closer": 1,
+      "opener | product-pitch | product-pitch | closer": 29,
+      "opener | context | product-pitch | context | product-pitch | product-pitch | product-pitch | product-pitch | closer": 1,
+      "opener | result | result | closer": 14,
+      "opener | product-pitch | product-pitch | context | context | context | product-pitch | context | closer": 1,
+      "opener | result | context | closer": 11,
+      "opener | context | context | context | product-pitch | closer": 1,
+      "opener | context | product-pitch | context | context | closer": 3,
+      "opener | context | context | context | context | closer": 2,
+      "opener | context | product-pitch | product-pitch | context | closer": 1,
+      "opener | product-pitch | closer": 4,
+      "opener | context | result | context | context | context | context | context | result | closer": 1,
+      "opener | context | context | context | closer": 10,
+      "opener | context | result | closer": 91,
+      "opener | result | product-pitch | closer": 4,
+      "opener | context | context | context | context | context | context | context | closer": 6,
+      "opener | context | context | context | context | result | context | result | closer": 1,
+      "opener | context | context | context | context | context | context | result | closer": 5,
+      "opener | result | context | context | closer": 2,
+      "opener | context | context | result | context | context | context | context | closer": 2,
+      "opener | product-pitch | context | context | closer": 1,
+      "opener | product-pitch | context | context | context | context | context | context | closer": 1,
+      "opener | product-pitch | context | context | context | context | context | closer": 1,
+      "opener | context | context | product-pitch | product-pitch | context | result | closer": 1,
+      "opener | product-pitch | context | context | product-pitch | product-pitch | context | context | closer": 1,
+      "opener | context | result | context | result | context | context | context | closer": 1,
+      "opener | closer": 12,
+      "opener | product-pitch | product-pitch | product-pitch | context | context | result | result | result | closer": 1,
+      "opener | product-pitch | result | context | context | context | context | closer": 1,
+      "opener | context | product-pitch | context | context | context | context | product-pitch | closer": 1,
+      "opener | product-pitch | context | product-pitch | product-pitch | product-pitch | context | product-pitch | closer": 1,
+      "opener | context | context | context | context | result | context | context | context | context | context | closer": 1,
+      "opener | result | context | context | context | closer": 3,
+      "opener | context | result | product-pitch | context | product-pitch | closer": 1,
+      "opener | product-pitch | context | product-pitch | product-pitch | closer": 1,
+      "opener | result | product-pitch | result | closer": 1,
+      "opener | context | context | product-pitch | product-pitch | closer": 1,
+      "opener | context | context | product-pitch | product-pitch | context | closer": 1,
+      "opener | context | context | result | context | product-pitch | context | context | context | context | closer": 1,
+      "opener | context | context | context | context | context | closer": 2,
+      "opener | result | context | context | context | context | context | closer": 1,
+      "opener | context | context | result | context | closer": 1,
+      "opener | context | context | result | result | result | closer": 1,
+      "opener | result | result | context | context | closer": 1,
+      "opener | result | result | result | result | context | closer": 1,
+      "opener | context | context | product-pitch | closer": 2,
+      "opener | product-pitch | result | product-pitch | closer": 1,
+      "opener | product-pitch | product-pitch | product-pitch | result | closer": 1,
+      "opener | result | result | product-pitch | closer": 1,
+      "opener | product-pitch | product-pitch | context | product-pitch | closer": 1,
+      "opener | result | result | result | result | result | result | context | context | result | context | closer": 1,
+      "opener | product-pitch | context | context | context | product-pitch | context | context | context | context | context | context | closer": 1,
+      "opener | context | product-pitch | context | context | context | product-pitch | context | context | context | context | closer": 2,
+      "opener | context | context | result | closer": 1,
+      "opener | context | product-pitch | context | product-pitch | closer": 1,
+      "opener | context | context | context | result | context | context | context | context | context | context | context | closer": 1,
+      "opener | result | result | result | result | result | result | context | context | result | result | closer": 1,
+      "opener | context | product-pitch | product-pitch | context | result | closer": 1,
+      "opener | context | product-pitch | context | context | result | context | product-pitch | context | context | context | closer": 1,
+      "opener | context | product-pitch | product-pitch | context | result | context | product-pitch | context | context | context | closer": 1,
+      "opener | context | context | context | result | context | context | closer": 2,
+      "opener | context | context | result | context | context | context | context | context | context | result | product-pitch | context | context | context | context | result | context | context | context | context | result | context | context | context | context | context | context | context | context | context | context | context | context | context | context | context | context | context | context | context | product-pitch | context | result | result | result | context | context | context | context | context | context | context | context | result | context | context | context | context | context | context | context | context | context | context | context | context | closer": 1,
+      "opener | result | result | context | context | context | result | closer": 1,
+      "opener | context | context | context | context | context | result | closer": 1,
+      "opener | context | context | context | context | context | context | context | context | context | product-pitch | context | context | context | context | context | context | context | context | context | context | context | context | context | product-pitch | context | product-pitch | context | context | context | context | context | context | context | context | context | context | context | context | product-pitch | context | product-pitch | closer": 1
+    }
+  },
+  "openers": {
+    "patterns": {
+      "situation": {
+        "count": 131,
+        "examples": [
+          "Badge: The Person Behind the Automation",
+          "Section heading: Common Questions\nSubheading: Straight answers about working wit",
+          "Section heading: Common Questions\nSubheading: Straight answers about working wit"
+        ]
+      },
+      "short-punch": {
+        "count": 18,
+        "examples": [
+          "Badge: AI Automation Expert",
+          "Badge: Low-pressure first call",
+          "Badge: Low-pressure first call"
+        ]
+      },
+      "standard-opener": {
+        "count": 422,
+        "examples": [
+          "Title: Automated Instagram Lead Generation System\nSubtitle: How I built an autom",
+          "Section heading: Real Results for Real Businesses\nSubheading: Here's what happen",
+          "Title: Full CRM & Lead Follow-Up Automation for an Auto Parts Brand\nSubtitle: Ho"
+        ]
+      },
+      "question": {
+        "count": 45,
+        "examples": [
+          "Q: What kind of businesses do you work with?",
+          "### Hero\nBadge: AI Automation Consulting\nHeading: Do you actually need an AI aut",
+          "### Hero\nHeading: AI Appointment Setter Cost for Small Business\nBody: If you are"
+        ]
+      },
+      "stat": {
+        "count": 3,
+        "examples": [
+          "### Hero\nHeading: n8n vs.",
+          "### Hero\nHeading: n8n Workflow Cleanup vs.",
+          "### H1\nAI Automation Case Studies for Small & Service Businesses"
+        ]
+      }
+    }
+  },
+  "closers": {
+    "patterns": {
+      "reflection": {
+        "count": 90,
+        "examples": [
+          "Stats:\n- 7+ Years building software\n- 50+ Automations built\n- $100K+ Saved for c",
+          "Social proof pills:\n- 10+ hrs/week saved\n- 300%+ ROI\n- 24/7 automation",
+          "Case study 3 — E-commerce Brand:\nChallenge: Struggling to maintain consistent so"
+        ]
+      },
+      "question": {
+        "count": 504,
+        "examples": [
+          "Q6: What happens if something breaks after you build it?\nA: Every build includes",
+          "Q6: What happens if something breaks after you build it?\nA: Every build comes wi",
+          "CTA: \"Want Results Like These? Book a free strategy call to see how automation c"
+        ]
+      },
+      "movement": {
+        "count": 10,
+        "examples": [
+          "Benefits:\n- Find the bottleneck\n- See the best next move\n- Leave with a plan",
+          "Supporting bullets:\n- Find the bottleneck\n- See the best next move\n- Leave with ",
+          "Supporting bullets:\n- Find the highest-leverage place to automate\n- See whether "
+        ]
+      },
+      "standard-close": {
+        "count": 3,
+        "examples": [
+          "CTA heading: Stop losing leads to slow follow-up",
+          "Links: Case studies hub, Consultant pricing",
+          "About Cedric Mail Access · Owner's website"
+        ]
+      },
+      "cta": {
+        "count": 12,
+        "examples": [
+          "### Final CTA\nHeading: Real-estate cluster navigation\nBody: These link updates a",
+          "### Internal-linking purpose\nSection: Homepage editorial routing\n- Adds a new in",
+          "### Link target\n- Anchor text: AI appointment setter guide\n- URL: /ai-appointmen"
+        ]
+      }
+    }
+  },
+  "punctuation": {
+    "emDashRate": 0,
+    "ellipsisRate": 0,
+    "exclamationRate": 0,
+    "avgCommasPerSentence": 1.6
+  },
+  "vocabulary": {
+    "topWords": [
+      [
+        "-",
+        3996
+      ],
+      [
+        "what",
+        2212
+      ],
+      [
+        "automation",
+        1621
+      ],
+      [
+        "ai",
+        1300
+      ],
+      [
+        "how",
+        1252
+      ],
+      [
+        "workflow",
+        1244
+      ],
+      [
+        "page",
+        1205
+      ],
+      [
+        "when",
+        1193
+      ],
+      [
+        "it",
+        1072
+      ],
+      [
+        "this",
+        1021
+      ],
+      [
+        "phone",
+        943
+      ],
+      [
+        "whether",
+        799
+      ],
+      [
+        "follow-up",
+        789
+      ],
+      [
+        "first",
+        774
+      ],
+      [
+        "live",
+        724
+      ],
+      [
+        "your",
+        710
+      ],
+      [
+        "setup",
+        609
+      ],
+      [
+        "text-back",
+        606
+      ],
+      [
+        "that",
+        604
+      ],
+      [
+        "call",
+        589
+      ],
+      [
+        "from",
+        587
+      ],
+      [
+        "answering",
+        546
+      ],
+      [
+        "missed-call",
+        511
+      ],
+      [
+        "voicemail",
+        504
+      ],
+      [
+        "heading",
+        498
+      ],
+      [
+        "should",
+        493
+      ],
+      [
+        "body",
+        440
+      ],
+      [
+        "lead",
+        418
+      ],
+      [
+        "not",
+        416
+      ],
+      [
+        "business",
+        351
+      ]
+    ],
+    "casualMarkerRate": 0,
+    "buzzwordsUsed": [],
+    "formalWordsUsed": [
+      "implement"
+    ]
+  },
+  "editPatterns": {
+    "removes-unnecessary-detail": {
+      "count": 4,
+      "confidence": "medium"
+    },
+    "cuts-analysis-keeps-action": {
+      "count": 3,
+      "confidence": "medium"
+    },
+    "reorders-for-flow": {
+      "count": 4,
+      "confidence": "medium"
+    },
+    "cuts-detail-lists": {
+      "count": 1,
+      "confidence": "low"
+    },
+    "adds-trust-signals": {
+      "count": 12,
+      "confidence": "proven"
+    }
+  },
+  "wordSwaps": [],
+  "engagementCorrelation": {
+    "byOpener": {},
+    "byCloser": {}
+  },
+  "platformProfiles": {}
+}

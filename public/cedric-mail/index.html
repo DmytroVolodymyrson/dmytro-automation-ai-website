@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cedric Mail Access is a privately operated local Gmail connector for owner-authorized mail tasks. No public signup.">
+  <title>Cedric Mail Access</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f8fafc; color: #0f172a; font-family: system-ui, sans-serif; font-size: 1rem; line-height: 1.7; overflow-wrap: anywhere; }
+    header, main, footer { max-width: 48rem; margin: 0 auto; padding: 1.5rem; }
+    main { background: #fff; border: 1px solid #e2e8f0; border-radius: .75rem; padding: clamp(1.5rem, 5vw, 3rem); }
+    a { color: #1d4ed8; text-underline-offset: .2em; }
+    a:hover { text-decoration-thickness: .15em; }
+    a:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 4px; border-radius: 2px; }
+    .skip { position: absolute; left: 1rem; top: -5rem; padding: .5rem 1rem; background: #fff; }
+    .skip:focus { top: 1rem; }
+    h1, h2 { line-height: 1.25; letter-spacing: -.025em; }
+    h1 { font-size: clamp(2rem, 6vw, 3rem); margin: .5rem 0 1.5rem; }
+    h2 { font-size: 1.35rem; margin: 2rem 0 .75rem; }
+    p { margin: 0 0 1rem; }
+    li { margin-bottom: .75rem; }
+    ul { padding-left: 1.5rem; }
+    .label, footer { color: #475569; }
+    nav { display: flex; flex-wrap: wrap; gap: 1rem 1.5rem; }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header><a href="/">Dmytro Automation AI</a></header>
+  <main id="main">
+    <p class="label">Privately operated Gmail connector</p>
+    <h1>Cedric Mail Access</h1>
+    <p>Cedric Mail Access connects Gmail to a local assistant for tasks requested by its owner, such as finding selected messages, reading a thread or summarizing information.</p>
+    <p>It is privately operated by Dmytro for selected, owner-approved mailboxes on an operational allowlist. There is no public signup. Google's External OAuth audience setting does not restrict access to a private group; the operator is responsible for limiting use.</p>
+
+    <section aria-labelledby="permissions">
+      <h2 id="permissions">Permissions and owner control</h2>
+      <ul>
+        <li><strong>Read email (gmail.readonly):</strong> access selected Gmail content needed for an owner-requested task.</li>
+        <li><strong>Send email (gmail.send):</strong> a granted capability, not permission to send on its own. The initial delivery is read-only. Sending requires separate explicit owner authorization; there are no automatic or test sends.</li>
+      </ul>
+      <p>The connector communicates with Gmail over HTTPS. It does not perform whole-mailbox synchronization. Selected task content may be processed by the configured AI service only under the privacy policy's no-training requirements.</p>
+    </section>
+
+    <section aria-labelledby="privacy">
+      <h2 id="privacy">Privacy and support</h2>
+      <p>These public information pages do not collect or process Gmail data and contain no sign-in form, cookies, analytics or tracking scripts. They are not an OAuth callback or public mail-data endpoint.</p>
+      <p>Read the <a href="/cedric-mail/privacy">Cedric Mail Access privacy policy</a> for data use, storage, retention and how to disconnect.</p>
+      <p><a href="/#booking">Contact Dmytro</a> through the existing site contact section for support or a deletion request. Do not include passwords, OAuth tokens or email contents in a support request.</p>
+    </section>
+  </main>
+  <footer><nav aria-label="App information"><a href="/cedric-mail/privacy">Privacy policy</a><a href="/">Owner's website</a></nav></footer>
+</body>
+</html>

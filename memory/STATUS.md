@@ -1,6 +1,20 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-05-29 MDT
+**Last updated:** 2026-09-05 EDT
+
+## Update 2026-09-05 — Cedric Mail Access public-page candidate
+- Scope: owner-authorized `/cedric-mail` app information and `/cedric-mail/privacy`, implemented as standalone static HTML. No changes to the existing general privacy policy, marketing copy, navigation, or generated public assets.
+- Content covers operator allowlisting (not Google-enforced private access), read/send scope distinction and separate explicit send authorization, Limited Use, conditional no-training AI processing, local retention, and independent Google revocation/local deletion. No connected account identities, credentials, sign-in, callback, or mail-data endpoint.
+- Styling uses the site's light/navy/blue palette, system fonts, responsive reading width and keyboard focus/skip links. Neither page loads scripts, external assets, analytics or cookies.
+- Verification: tests were red before page creation; the explicit-route test was red before configuration. Final `npm test`: 10 passed. `npm run test:cedric-mail`: production build passed, 527 existing React routes prerendered, plus both static directory indexes copied byte-for-byte; all 9 built-page tests passed. Scoped ESLint and `git diff --check` passed.
+- Routing: two exact Vercel rewrites target the static `index.html` files. Existing redirects are unchanged. Vite preview alone falls back to the unrelated SPA for extensionless URLs; the configured destinations and both trailing-slash paths returned HTTP 200 with exact page HTML and no Set-Cookie. This is local/configuration evidence, not live Vercel proof.
+- Copy logging: post and corpus added, local deterministic `analyze.js --all` and profile pipeline run; unrelated corpus analysis churn restored. Final new-entry analysis/profile regenerated after copy-log formatting correction. No AI/API job was used for this pipeline.
+- Release state: local candidate only. Locked immutable review is required before handoff; its revision-bound receipt is provided separately. This writer must not push or deploy. Parent controller owns receipt/revision verification, publish/deploy, and live browser screenshots on mobile/desktop, including exact routes, reciprocal links, contact route and absence of injected tracking.
+- Activation boundary: parent must verify actual AI no-training account controls before any mailbox content is submitted. These pages do not assert those controls are already verified. OAuth, mailbox access and all send actions are outside this website candidate.
+- Existing toolchain warnings: npm install reported dependency vulnerabilities; build reports stale Browserslist data, a large unrelated bundle and an existing React `fetchPriority` warning. No dependency versions or unrelated application code changed.
+
+**Next action:** finish locked exact-revision review, then hand the clean immutable candidate and test/build evidence to the parent. No local browser, push, deploy or mailbox operation is authorized in this lane.
+
 
 ## Update 2026-05-29 — anonymized vehicle accessories case-study proof
 - Removed public mentions of the vehicle accessories client's company name, founder name, and direct client URL from source pages, case-study metadata, discovery files, guide/decision proof references, and the testimonial asset path.

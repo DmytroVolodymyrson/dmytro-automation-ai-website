@@ -10,6 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
+    "test:cedric-mail": "npm run build && CEDRIC_MAIL_ROOT=dist vitest run src/test/cedric-mail.test.ts",
     "test:watch": "vitest",
     "generate-favicons": "node scripts/generate-favicons.cjs",
     "geo": "npx tsx scripts/geo-runner.ts",

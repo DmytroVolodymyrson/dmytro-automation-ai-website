@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-20T00:47:11.567Z",
+  "updatedAt": "2026-09-06T02:50:13.803Z",
   "postCount": 619,
   "platforms": {
     "telegram": 0,
@@ -9,7 +9,7 @@
   },
   "structure": {
     "paragraphCount": {
-      "mean": 4.6,
+      "mean": 4.7,
       "median": 4,
       "min": 1,
       "max": 68,
@@ -27,8 +27,8 @@
       "samples": 619
     },
     "totalWords": {
-      "mean": 334.7,
-      "median": 336,
+      "mean": 335.9,
+      "median": 337,
       "min": 17,
       "max": 1155,
       "p25": 279,
@@ -144,7 +144,7 @@
       "long | single | single | short | single | long | short | long | long | short | long | long": 1,
       "long | single | long | short | short | single | long": 1,
       "long | long | long | long | long | long | short | short | long | long | long | long": 2,
-      "single | single | long | single": 3,
+      "single | single | long | single": 2,
       "long | long | single": 1,
       "single | single | short": 1,
       "single | long | single | short | long | single": 1,
@@ -155,7 +155,8 @@
       "single | single | long | long | single | single | long | short": 1,
       "single | long | short | long | single": 1,
       "single | single | single | single | single | single | single": 1,
-      "single | single | long | short": 1
+      "single | single | long | short": 1,
+      "single | single | single | single | single | single | long | single | single | long | long | single | short | single | short | single | single | single | single | single | single | long | single | long | long | single | short | long | short | single | long | short | long | single | single | single | single | long | single | long | single | short | single": 1
     },
     "structuralTemplates": {
       "opener | context | result | context | closer": 4,
@@ -187,12 +188,12 @@
       "opener | result | context | closer": 11,
       "opener | context | context | context | product-pitch | closer": 1,
       "opener | context | product-pitch | context | context | closer": 3,
-      "opener | context | context | context | context | closer": 1,
+      "opener | context | context | context | context | closer": 2,
       "opener | context | product-pitch | product-pitch | context | closer": 1,
       "opener | product-pitch | closer": 4,
       "opener | context | result | context | context | context | context | context | result | closer": 1,
       "opener | context | context | context | closer": 10,
-      "opener | context | result | closer": 92,
+      "opener | context | result | closer": 91,
       "opener | result | product-pitch | closer": 4,
       "opener | context | context | context | context | context | context | context | closer": 6,
       "opener | context | context | context | context | result | context | result | closer": 1,
@@ -212,7 +213,6 @@
       "opener | product-pitch | context | product-pitch | product-pitch | product-pitch | context | product-pitch | closer": 1,
       "opener | context | context | context | context | result | context | context | context | context | context | closer": 1,
       "opener | result | context | context | context | closer": 3,
-      "opener | context | context | product-pitch | context | closer": 1,
       "opener | context | result | product-pitch | context | product-pitch | closer": 1,
       "opener | product-pitch | context | product-pitch | product-pitch | closer": 1,
       "opener | result | product-pitch | result | closer": 1,
@@ -243,13 +243,14 @@
       "opener | context | context | context | result | context | context | closer": 2,
       "opener | context | context | result | context | context | context | context | context | context | result | product-pitch | context | context | context | context | result | context | context | context | context | result | context | context | context | context | context | context | context | context | context | context | context | context | context | context | context | context | context | context | context | product-pitch | context | result | result | result | context | context | context | context | context | context | context | context | result | context | context | context | context | context | context | context | context | context | context | context | context | closer": 1,
       "opener | result | result | context | context | context | result | closer": 1,
-      "opener | context | context | context | context | context | result | closer": 1
+      "opener | context | context | context | context | context | result | closer": 1,
+      "opener | context | context | context | context | context | context | context | context | context | product-pitch | context | context | context | context | context | context | context | context | context | context | context | context | context | product-pitch | context | product-pitch | context | context | context | context | context | context | context | context | context | context | context | context | product-pitch | context | product-pitch | closer": 1
     }
   },
   "openers": {
     "patterns": {
       "situation": {
-        "count": 132,
+        "count": 131,
         "examples": [
           "Badge: The Person Behind the Automation",
           "Section heading: Common Questions\nSubheading: Straight answers about working wit",
@@ -257,7 +258,7 @@
         ]
       },
       "short-punch": {
-        "count": 17,
+        "count": 18,
         "examples": [
           "Badge: AI Automation Expert",
           "Badge: Low-pressure first call",
@@ -293,7 +294,7 @@
   "closers": {
     "patterns": {
       "reflection": {
-        "count": 91,
+        "count": 90,
         "examples": [
           "Stats:\n- 7+ Years building software\n- 50+ Automations built\n- $100K+ Saved for c",
           "Social proof pills:\n- 10+ hrs/week saved\n- 300%+ ROI\n- 24/7 automation",
@@ -317,10 +318,11 @@
         ]
       },
       "standard-close": {
-        "count": 2,
+        "count": 3,
         "examples": [
           "CTA heading: Stop losing leads to slow follow-up",
-          "Links: Case studies hub, Consultant pricing"
+          "Links: Case studies hub, Consultant pricing",
+          "About Cedric Mail Access · Owner's website"
         ]
       },
       "cta": {
@@ -343,7 +345,7 @@
     "topWords": [
       [
         "-",
-        3994
+        3996
       ],
       [
         "what",
@@ -351,11 +353,11 @@
       ],
       [
         "automation",
-        1624
+        1621
       ],
       [
         "ai",
-        1291
+        1300
       ],
       [
         "how",
@@ -391,7 +393,7 @@
       ],
       [
         "follow-up",
-        794
+        789
       ],
       [
         "first",
@@ -451,11 +453,11 @@
       ],
       [
         "lead",
-        420
+        418
       ],
       [
         "not",
-        398
+        416
       ],
       [
         "business",
