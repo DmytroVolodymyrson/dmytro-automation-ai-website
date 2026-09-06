@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-09-06-cedric-mail-hosting-disclosure",
+  "platform": "landing-page",
+  "language": "en",
+  "date": "2026-09-06",
+  "dayOfWeek": "sunday",
+  "published": {
+    "text": "### /cedric-mail — Privacy and support\n\nThese public information pages do not collect or process Gmail data. They contain no sign-in form and are not an OAuth callback or public mail-data endpoint. The site's existing Cloudflare Web Analytics may measure visits and page performance; it is separate from Gmail access.\n\n### /cedric-mail/privacy — These public pages\n\nThe app information and privacy pages do not collect or process Gmail data. They contain no sign-in widget or public mail-data endpoint and are not an OAuth callback. The website host adds Cloudflare Web Analytics on eligible visits to collect page-visit and performance measurements. This visitor analytics is separate from Gmail access: Gmail data and OAuth credentials are not supplied to it by the connector. The host may also process ordinary web-request information to deliver these pages. Other pages on the owner's website have their own privacy policy.",
+    "formatting": [
+      "bold:###"
+    ]
+  },
+  "draft": null,
+  "engagement": null,
+  "edits": [
+    {
+      "type": "tone_shift",
+      "description": "Replace an unverified script-free claim with observed hosting behavior. Separate ordinary visitor measurements from Gmail access. No new tracking, Google-data use or marketing claims."
+    }
+  ],
+  "analysis": {
+    "analyzedAt": "2026-09-06T04:12:00.656Z",
+    "structure": {
+      "paragraphCount": 4,
+      "sentencesPerParagraph": [
+        1,
+        3,
+        1,
+        6
+      ],
+      "avgSentenceLength": 12.7,
+      "sentenceLengthRange": [
+        4,
+        21
+      ],
+      "totalWords": 140
+    },
+    "opener": {
+      "type": "short-punch",
+      "text": "### /cedric-mail — Privacy and support",
+      "wordCount": 4,
+      "pattern": "short-punch"
+    },
+    "closer": {
+      "type": "reflection",
+      "text": "The app information and privacy pages do not collect or process Gmail data. They contain no sign-in widget or public mail-data endpoint and are not an OAuth callback. The website host adds Cloudflare Web Analytics on eligible visits to collect page-visit and performance measurements. This visitor analytics is separate from Gmail access: Gmail data and OAuth credentials are not supplied to it by the connector. The host may also process ordinary web-request information to deliver these pages. Other pages on the owner's website have their own privacy policy.",
+      "pattern": "reflection"
+    },
+    "template": {
+      "roles": [
+        "opener",
+        "context",
+        "context",
+        "closer"
+      ],
+      "template": "opener | context | context | closer"
+    },
+    "punctuation": {
+      "periods": 9,
+      "commas": 0,
+      "emDashes": 2,
+      "enDashes": 0,
+      "hyphens": 0,
+      "ellipsis": 0,
+      "exclamation": 0,
+      "question": 0,
+      "colon": 1,
+      "commasPerSentence": 0
+    },
+    "vocabulary": {
+      "distinctWords": 69,
+      "totalWords": 140,
+      "topWords": [
+        [
+          "pages",
+          5
+        ],
+        [
+          "not",
+          5
+        ],
+        [
+          "gmail",
+          5
+        ],
+        [
+          "public",
+          4
+        ],
+        [
+          "privacy",
+          3
+        ],
+        [
+          "these",
+          3
+        ],
+        [
+          "information",
+          3
+        ],
+        [
+          "collect",
+          3
+        ],
+        [
+          "process",
+          3
+        ],
+        [
+          "data",
+          3
+        ],
+        [
+          "oauth",
+          3
+        ],
+        [
+          "analytics",
+          3
+        ],
+        [
+          "do",
+          2
+        ],
+        [
+          "they",
+          2
+        ],
+        [
+          "contain",
+          2
+        ]
+      ],
+      "casualMarkers": [],
+      "formalWords": [],
+      "buzzwords": [],
+      "casualMarkerRate": 0
+    },
+    "editSignals": {
+      "totalEdits": 1,
+      "cuts": 0,
+      "additions": 0,
+      "wordSwaps": 0,
+      "rephrases": 0,
+      "reorders": 0,
+      "toneShifts": 1,
+      "patterns": []
+    }
+  }
+}

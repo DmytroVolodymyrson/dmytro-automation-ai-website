@@ -47,7 +47,7 @@ describe(`Cedric Mail Access static pages (${root})`, () => {
       }
     });
 
-    it(`${page.route} has no active tracking, forms, credentials, or public data endpoint`, () => {
+    it(`${page.route} source adds no scripts, forms, credentials, or public data endpoint`, () => {
       const { html, doc } = load(page.route);
       for (const el of doc.querySelectorAll("*")) {
         expect(allowedTags.has(el.tagName), el.tagName).toBe(true);
@@ -88,6 +88,18 @@ describe(`Cedric Mail Access static pages (${root})`, () => {
     expect(text).toMatch(/zero-retention guarantee/i);
     expect(text).toMatch(/tokens[\s\S]*never[\s\S]*AI/i);
     expect(doc.querySelector("time")?.getAttribute("datetime")).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+  });
+
+  it("discloses host-injected visitor analytics instead of promising a script-free delivery", () => {
+    for (const page of pages) {
+      const text = load(page.route).doc.body.textContent || "";
+      expect(text).toContain("Cloudflare Web Analytics");
+      expect(text).toMatch(/no Gmail data|do not collect or process Gmail data/);
+      expect(text).not.toMatch(/no JavaScript|no cookies or tracking|no[\s,]+analytics/);
+    }
+    const text = load("/cedric-mail/privacy").doc.body.textContent || "";
+    expect(text).toContain("page-visit and performance measurements");
+    expect(text).toContain("not an OAuth callback");
   });
 
   it("resolves both extensionless Vercel routes explicitly to static HTML", () => {

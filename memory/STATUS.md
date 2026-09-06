@@ -1,8 +1,15 @@
 # dmytroai.com — Project Status
 
-**Last updated:** 2026-09-05 EDT
+**Last updated:** 2026-09-06 EDT
 
-## Update 2026-09-05 — Cedric Mail Access public-page candidate
+## Update 2026-09-06 — truthful hosting-analytics disclosure
+- Parent controller published reviewed revision `f051d200eba391dbfc05386c80f6e90b2b593920`; exact remote and Vercel deployment were verified. Both live public routes returned HTTP 200, but Cloudflare added its existing Web Analytics beacon. The earlier script-free delivery assumption below was therefore incorrect.
+- Corrective scope: accurately disclose existing host-injected visitor/performance analytics on the two information pages. The connector never supplies Gmail data or OAuth credentials to those pages or analytics. No Cloudflare setting, other website page, OAuth flow or mail behavior is changed.
+- TDD: added disclosure regression first; observed 1 expected failure with 9 passes. Corrected copy and policy date. Full Vitest suite: 11 passed. Production build: passed, 527 routes prerendered. Built static-page tests: 10 passed. Existing build/dependency warnings unchanged.
+- Source still adds no scripts, forms, external assets, credentials, callback or mail-data endpoint. Live proof must separately allow only the documented Cloudflare beacon decoration, bind the remaining served HTML to the exact reviewed source, and inspect each real public page visually.
+- Release state: correction is local and requires fresh immutable independent review before push. Gmail activation remains a separate pending acceptance item; no connected-mailbox claim is made.
+
+## Historical candidate record — 2026-09-05 Cedric Mail Access pages
 - Scope: owner-authorized `/cedric-mail` app information and `/cedric-mail/privacy`, implemented as standalone static HTML. No changes to the existing general privacy policy, marketing copy, navigation, or generated public assets.
 - Content covers operator allowlisting (not Google-enforced private access), read/send scope distinction and separate explicit send authorization, Limited Use, conditional no-training AI processing, local retention, and independent Google revocation/local deletion. No connected account identities, credentials, sign-in, callback, or mail-data endpoint.
 - Styling uses the site's light/navy/blue palette, system fonts, responsive reading width and keyboard focus/skip links. Neither page loads scripts, external assets, analytics or cookies.
