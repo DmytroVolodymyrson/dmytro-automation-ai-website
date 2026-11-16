@@ -13,6 +13,7 @@ type NavLink =
 const navLinks: NavLink[] = [
   { label: "About", href: "#about", type: "scroll" as const },
   { label: "Services", href: "#services", type: "scroll" as const },
+  { label: "Web development", href: "#web-development", type: "scroll" },
   { label: "Testimonials", href: "#testimonials", type: "scroll" as const },
   { label: "Key Studies", to: "/case-studies", type: "route" as const },
 ];
@@ -76,7 +77,7 @@ const Navbar = () => {
           </a>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-4 xl:gap-6">
             {navLinks.map((link) => (
               link.type === "route" ? (
                 <Link
@@ -108,7 +109,7 @@ const Navbar = () => {
           <Button
             onClick={scrollToBooking}
             size="sm"
-            className="md:hidden bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
+            className="lg:hidden bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
           >
             {siteConfig.navbar.ctaText}
           </Button>
